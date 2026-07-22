@@ -18,23 +18,15 @@ Inspecting the notes list layout and how the random note section is structured.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -142,78 +134,46 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user dislikes the two-column layout on the notes index page. Uneven note lengths cause misalignment.</details></think>
+The user dislikes the two-column layout on the notes index page. Uneven note lengths cause misalignment.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -320,25 +280,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -347,14 +294,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The two-column grid layout is causing uneven note lengths. The `notes-index-discover` section uses `lg:grid-cols-2`, which forces each note into a fixed width regardless of its actual content.
 
-A single-column layout would fix the misalignment. The random note would sit full-width above the new and recent notes. Another option keeps the bottom two sections side-by-side while stacking the random note above them.</details></think>
+A single-column layout would fix the misalignment. The random note would sit full-width above the new and recent notes. Another option keeps the bottom two sections side-by-side while stacking the random note above them.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -385,47 +331,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -464,30 +389,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user previously asked to avoid splitting New Notes and Recent Updates into two columns.</details></think>
+The user previously asked to avoid splitting New Notes and Recent Updates into two columns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md</summary>
 
 </details></tool-use>
 
@@ -496,14 +409,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user prefers a different layout for the notes page. The two-column format causes uneven note lengths.
 
-The fix is to stack the New Notes and Recent Updates sections vertically instead of side by side. The `lg:grid-cols-2` class on the discover wrapper will be removed so each section becomes a single column. The note cards inside each section can still use their own two-column grid.</details></think>
+The fix is to stack the New Notes and Recent Updates sections vertically instead of side by side. The `lg:grid-cols-2` class on the discover wrapper will be removed so each section becomes a single column. The note cards inside each section can still use their own two-column grid.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -546,32 +458,20 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The random note displays the full article body through `cloneArticleBody`. This explains why the two-column layout looks uneven.</details></think>
+The random note displays the full article body through `cloneArticleBody`. This explains why the two-column layout looks uneven.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -580,70 +480,38 @@ Switching the discover section to a single-column stack so the random note's var
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | rg -o 'notes-index-discover[^"]*|lg:grid-cols-2|notes-index-discover__' | head -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | rg -o &#39;notes-index-discover[^&#34;]*|lg:grid-cols-2|notes-index-discover__&#39; | head -20</summary>
 ```bash
 curl -s http://localhost:1313/notes/ | rg -o 'notes-index-discover[^"]*|lg:grid-cols-2|notes-index-discover__' | head -20
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | rg -o 'class="notes-index-discover[^"]*"' ; curl -s http://localhost:1313/notes/ | rg 'notes-index-discover__|lg:grid-cols-2' | head -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | rg -o &#39;class=&#34;notes-index-discover[^&#34;]*&#34;&#39; ; curl -s http://localhost:1313/notes/ | rg &#39;notes-index-discover__|lg:grid-cols-2&#39; | head -5</summary>
 ```bash
 curl -s http://localhost:1313/notes/ | rg -o 'class="notes-index-discover[^"]*"' ; curl -s http://localhost:1313/notes/ | rg 'notes-index-discover__|lg:grid-cols-2' | head -5
 ```
@@ -652,50 +520,31 @@ curl -s http://localhost:1313/notes/ | rg -o 'class="notes-index-discover[^"]*"'
 class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8"
 class="notes-index-discover__random min-w-0"
 class="notes-index-discover__recent notes-recent-stack grid min-w-0 gap-6"
-      &lt;div class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8"&gt;
-        &lt;div class="notes-index-discover__random min-w-0"&gt;
-        &lt;div class="notes-index-discover__recent notes-recent-stack grid min-w-0 gap-6"&gt;
+      <div class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8">
+        <div class="notes-index-discover__random min-w-0">
+        <div class="notes-index-discover__recent notes-recent-stack grid min-w-0 gap-6">
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/1.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/1.txt</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: sleep 3 && curl -s http://localhost:1313/notes/ | rg -o 'class="notes-index-discover[^"]*"' | head -1</summary>
-
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 3 &amp;&amp; curl -s http://localhost:1313/notes/ | rg -o &#39;class=&#34;notes-index-discover[^&#34;]*&#34;&#39; | head -1</summary>
 ```bash
 sleep 3 && curl -s http://localhost:1313/notes/ | rg -o 'class="notes-index-discover[^"]*"' | head -1
 ```
@@ -704,19 +553,12 @@ sleep 3 && curl -s http://localhost:1313/notes/ | rg -o 'class="notes-index-disc
 class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8"
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html && sleep 15 && curl -s http://localhost:1313/notes/ | rg -o 'class="notes-index-discover[^"]*"' | head -1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html &amp;&amp; sleep 15 &amp;&amp; curl -s http://localhost:1313/notes/ | rg -o &#39;class=&#34;notes-index-discover[^&#34;]*&#34;&#39; | head -1</summary>
 ```bash
 touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html && sleep 15 && curl -s http://localhost:1313/notes/ | rg -o 'class="notes-index-discover[^"]*"' | head -1
 ```
@@ -725,12 +567,6 @@ touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html && sleep 15
 class="notes-index-discover mb-10 grid gap-8"
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -760,7 +596,8 @@ New notes
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating the notes index page. Random picks will display three items. Cards will contain only descriptions. New notes will use a three-column layout.</details></think>
+Updating the notes index page. Random picks will display three items. Cards will contain only descriptions. New notes will use a three-column layout.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -769,101 +606,57 @@ Updating the notes index: three random-pick cards (description only) and three-c
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -894,65 +687,39 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Planning three random picks with description-only cards.</details></think>
+Planning three random picks with description-only cards.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -996,13 +763,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1020,31 +780,20 @@ Recent-new.html and recent-updated.html will switch to a three-column grid layou
 
 The slot wrapper will lose its border so individual cards stand alone. The featured random section will use a three-column grid with a gap of 3. Six items will fill two rows across three columns.
 
-The loading indicator will span the full grid width. An inline `pickMany` helper will select three unique notes without duplicates. If fewer than three notes exist, the available ones will still be shown.</details></think>
+The loading indicator will span the full grid width. An inline `pickMany` helper will select three unique notes without duplicates. If fewer than three notes exist, the available ones will still be shown.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
 
 </details></tool-use>
 
@@ -1055,7 +804,8 @@ escapeHtml isn't exported. I'll add a simple inline escape in featured-random.js
 
 Writing the cardHtml function in featured-random.js. It escapes descriptions and renders them inside note cards.
 
-Building the full card markup with escaped title, URL, and preview attributes.</details></think>
+Building the full card markup with escaped title, URL, and preview attributes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1064,91 +814,43 @@ Implementing: enrich the random pool with descriptions, render three description
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -1159,46 +861,29 @@ Restoring CSS I accidentally removed.
 
 _**Agent (auto-low)**_
 
-The string to replace was not found in the file.
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2**</summary>
-
+The string to replace was not found in the file.
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html && sleep 12 && curl -s http://localhost:1313/notes/ | rg -o 'notes-featured-random-grid[^"]*|lg:grid-cols-3|Three notes' | head -10</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html &amp;&amp; sleep 12 &amp;&amp; curl -s http://localhost:1313/notes/ | rg -o &#39;notes-featured-random-grid[^&#34;]*|lg:grid-cols-3|Three notes&#39; | head -10</summary>
 ```bash
 touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html && sleep 12 && curl -s http://localhost:1313/notes/ | rg -o 'notes-featured-random-grid[^"]*|lg:grid-cols-3|Three notes' | head -10
 ```
@@ -1208,44 +893,30 @@ Three notes
 notes-featured-random-grid grid gap-3 sm:grid-cols-2 lg:grid-cols-3
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | rg 'notes-recent-list grid|description' | head -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | rg &#39;notes-recent-list grid|description&#39; | head -5</summary>
 ```bash
 curl -s http://localhost:1313/notes/ | rg 'notes-recent-list grid|description' | head -5
 ```
 
 ```
-&lt;meta name="description" content="My linked note garden - wikilinks, backlinks, and a graph view of connected ideas." /&gt;
-&lt;meta property="og:description" content="My linked note garden - wikilinks, backlinks, and a graph view of connected ideas." /&gt;
-&lt;meta name="twitter:description" content="My linked note garden - wikilinks, backlinks, and a graph view of connected ideas." /&gt;
+<meta name="description" content="My linked note garden - wikilinks, backlinks, and a graph view of connected ideas." />
+<meta property="og:description" content="My linked note garden - wikilinks, backlinks, and a graph view of connected ideas." />
+<meta name="twitter:description" content="My linked note garden - wikilinks, backlinks, and a graph view of connected ideas." />
         data-description="true"
-  &lt;script type="application/json" class="notes-featured-random-data"&gt;[{"description":"Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned …","title":"Faithfulness","url":"/notes/faithfulness/"},{"description":"Fruits of the Spirit lists gentleness beside patience and self-control - power restrained, not power absent.","title":"Gentleness","url":"/notes/gentleness/"},{"description":"Fruits of the Spirit pairs goodness with kindness - outward integrity that points to God, not a personal brand.","title":"Goodness","url":"/notes/goodness/"},{"description":"Fruits of the Spirit names joy beside love and peace in one cluster - grown by walking in the Spirit, not …","title":"Joy","url":"/notes/joy/"},{"description":"Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose.","title":"Kindness","url":"/notes/kindness/"},{"description":"A slow fuse the Spirit grows in believers - not gritted teeth until Friday or white-knuckling through a dry prayer …","title":"Patience","url":"/notes/patience/"},{"description":"Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.","title":"Peace","url":"/notes/peace/"},{"description":"One cluster the Spirit grows - love, joy, peace, patience, and the rest in Galatians 5.","title":"Fruits of the Spirit","url":"/notes/fruits-of-the-spirit/"},{"description":"Mercy withholds what I deserve; grace gives what I couldn't earn.","title":"Grace","url":"/notes/grace/"},{"description":"Grace gives good I couldn't earn; mercy spares bad I had coming.","title":"Mercy","url":"/notes/mercy/"},{"description":"Rollback Principle gets users back on the old build; blameless postmortem gets judgment back.","title":"Blameless Postmortem","url":"/notes/blameless-postmortem/"},{"description":"Rollback Principle fails when the people who can revert are asleep or at a wedding.","title":"Change Window","url":"/notes/change-window/"},{"description":"Full-blast deploy turns every user into a test subject.","title":"Staged Rollout","url":"/notes/staged-rollout/"},{"description":"Render Unto Caesar names the split: coin to Caesar, self to God.","title":"Christianity and Politics","url":"/notes/christianity-and-politics/"},{"description":"Free Grace names the gift; Justification names the verdict; assurance names where I rest when doubt hits.","title":"Assurance","url":"/notes/assurance/"},{"description":"Discipleship is the daily walk; Sanctification is slow becoming.","title":"Grateful Obedience","url":"/notes/grateful-obedience/"},{"description":"Gold, silver, precious stones last.","title":"Wood Hay Stubble","url":"/notes/wood-hay-stubble/"},{"description":"Free Grace settled where I spend forever.","title":"Faithful Steward","url":"/notes/faithful-steward/"},{"description":"Free Grace secured eternal life once.","title":"Standing vs Fellowship","url":"/notes/standing-vs-fellowship/"},{"description":"If I can't explain the path back in one sentence, I'm not ready to ship.","title":"Rollback Principle","url":"/notes/rollback-principle/"},{"description":"Pick exactly one primary model with Plain Commitments at Work - not \"we'll figure it out at launch.\"","title":"Client Site Handoff","url":"/notes/client-site-handoff/"},{"description":"Scope the sales call before I quote Selling Static Sites - say no to bad fits in the room, not after deposit.","title":"Static Site Client Scope","url":"/notes/static-site-client-scope/"},{"description":"Full walkthrough: How I Built JoRap Notes.","title":"Free Tier Hosting Stack","url":"/notes/free-tier-hosting-stack/"},{"description":"My margin is labor, not hosting markup.","title":"Selling Static Sites","url":"/notes/selling-static-sites/"},{"description":"Two categories, one sentence apart: Free Grace and Justification settle eternal life at faith.","title":"Loss of Reward","url":"/notes/loss-of-reward/"},{"description":"Paul and James aren't two gospels fighting.","title":"Faith and Works","url":"/notes/faith-and-works/"},{"description":"Free Grace and Justification already decided where I spend forever.","title":"Judgment Seat","url":"/notes/judgment-seat/"},{"description":"Free Grace settles where I spend forever.","title":"Sanctification","url":"/notes/sanctification/"},{"description":"God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans …","title":"Justification","url":"/notes/justification/"},{"description":"I publish via Git directly.","title":"Git-Based CMS","url":"/notes/git-based-cms/"},{"description":"Clear ownership - who answers for the outcome, the miss, and the fix.","title":"Accountability","url":"/notes/accountability/"},{"description":"Keep the goal, swap the method when the ground moves.","title":"Adaptability","url":"/notes/adaptability/"},{"description":"Attention to detail is catching the typo, edge case, and loose end before they become incidents.","title":"Attention to Detail","url":"/notes/attention-to-detail/"},{"description":"Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin.","title":"Build a Reliable Default","url":"/notes/build-a-reliable-default/"},{"description":"A meeting needs follow-up.","title":"Complete the Cycle","url":"/notes/complete-the-cycle/"},{"description":"Steady tone and pace when the room isn't - people read calm as competence.","title":"Composure","url":"/notes/composure/"},{"description":"Small fixes to how you work, repeated - each miss feeds the next version of the process.","title":"Continuous Improvement","url":"/notes/continuous-improvement/"},{"description":"Whoever sets the pace often steers the room.","title":"Control the Rhythm","url":"/notes/control-the-rhythm/"},{"description":"Failure becomes useful only when it produces correction.","title":"Convert Pain Into Learning","url":"/notes/convert-pain-into-learning/"},{"description":"I pick one simple connection habit and repeat it - trust grows in the boring reps.","title":"Create Regular Connection","url":"/notes/create-regular-connection/"},{"description":"Decision quality is how often your choices hold up after information, time, and energy are factored in.","title":"Decision Quality","url":"/notes/decision-quality/"},{"description":"Train the weak slice on purpose - feedback, correction, repeat - not run the whole piece you already nail.","title":"Deliberate Practice","url":"/notes/deliberate-practice/"},{"description":"Doing what you said you'd do when motivation, mood, or applause aren't there to push you.","title":"Discipline","url":"/notes/discipline/"},{"description":"Emotional regulation is noticing the spike without letting it drive the next move.","title":"Emotional Regulation","url":"/notes/emotional-regulation/"},{"description":"Fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make.","title":"Energy Protects Judgment","url":"/notes/energy-protects-judgment/"},{"description":"Turning a decision into finished work - not slides, not intentions, not \"we'll get to it.\"","title":"Execution","url":"/notes/execution/"},{"description":"Don't only rehearse the opening.","title":"Expect the Counter","url":"/notes/expect-the-counter/"},{"description":"A miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict.","title":"Failure as Feedback","url":"/notes/failure-as-feedback/"},{"description":"Starting well proves you can begin; finishing well proves you can keep going when it\u0026#39;s boring, hard, or no longer …","title":"Finish Strong","url":"/notes/finish-strong/"},{"description":"I join their world before I redirect it - their activity, topic, pace, starting point.","title":"Follow Their Lead","url":"/notes/follow-their-lead/"},{"description":"The work after the handshake - recap, owners, dates, verification.","title":"Follow-Through","url":"/notes/follow-through/"},{"description":"Growth mindset treats ability as trainable - mistakes are data, not a fixed identity.","title":"Growth Mindset","url":"/notes/growth-mindset/"},{"description":"Repeat a small move until it runs without debating it every morning.","title":"Habit Formation","url":"/notes/habit-formation/"},{"description":"What you do matches what you claim - especially when it costs applause, speed, or comfort.","title":"Integrity","url":"/notes/integrity/"},{"description":"You take responsibility for direction, pace, and care when people look to you - title optional.","title":"Leadership","url":"/notes/leadership/"},{"description":"I let people finish before I hand them advice, correction, or a fix.","title":"Listen Before Fixing","url":"/notes/listen-before-fixing/"},{"description":"I say what emotion I hear before I jump to what should happen next.","title":"Name the Feeling","url":"/notes/name-the-feeling/"},{"description":"I name the specific helpful thing they did - not vague good job.","title":"Notice the Good","url":"/notes/notice-the-good/"},{"description":"Accountability turns failure into information.","title":"Own the Error","url":"/notes/own-the-error/"},{"description":"Rehearse, document, and test before the emergency owns the clock.","title":"Preparedness","url":"/notes/preparedness/"},{"description":"Each note below is one move I'd want automatic before the moment arrives.","title":"Pressure Reveals Weakness","url":"/notes/pressure-reveals-weakness/"},{"description":"The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.","title":"Recovery","url":"/notes/recovery/"},{"description":"Others can plan around you because you close loops, hit deadlines, and show up the same way twice.","title":"Reliability","url":"/notes/reliability/"},{"description":"You take the hit, recover, and stay useful - not pretend the hit didn't hurt.","title":"Resilience","url":"/notes/resilience/"},{"description":"Respect doesn't mean I ignore danger - I stop serious harm first, then restore choice when it's safe.","title":"Safety Comes First","url":"/notes/safety-comes-first/"},{"description":"Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.","title":"Second-Order Thinking","url":"/notes/second-order-thinking/"},{"description":"You choose the next move instead of the urge choosing for you.","title":"Self-Control","url":"/notes/self-control/"},{"description":"I name one clear limit in a steady voice - behavior, not character.","title":"Set Calm Boundaries","url":"/notes/set-calm-boundaries/"},{"description":"Steer what you can in the moment - pace, format, who speaks, when you pause - when you can't own the whole outcome.","title":"Situational Control","url":"/notes/situational-control/"},{"description":"Pressure creates urgency, but urgency shouldn't erase judgment.","title":"Slow the Moment","url":"/notes/slow-the-moment/"},{"description":"SOPs are simple written steps for recurring work - so nobody improvises under stress.","title":"Standard Operating Procedures","url":"/notes/standard-operating-procedures/"},{"description":"What made you strong in one room can make you weak in the next.","title":"Stay Effective in New Conditions","url":"/notes/stay-effective-in-new-conditions/"},{"description":"Look past the immediate win.","title":"Strategic Foresight","url":"/notes/strategic-foresight/"},{"description":"Sustainable performance is output you can keep without burning out or cutting corners on safety.","title":"Sustainable Performance","url":"/notes/sustainable-performance/"},{"description":"You can contribute in more than one lane when the team or the market shifts.","title":"Versatility","url":"/notes/versatility/"},{"description":"Platforms compete for your focus - your attention is the product.","title":"Attention Economy","url":"/notes/attention-economy/"},{"description":"Mental Models gives lenses; this field names why nudges beat sermons.","title":"Behavioral Economics","url":"/notes/behavioral-economics/"},{"description":"Consent doesn't erase the job when the drill is unsafe.","title":"Coaching Ethics","url":"/notes/coaching-ethics/"},{"description":"A personal book of quotes and ideas worth keeping - ancestor of linked notes.","title":"Commonplace Book","url":"/notes/commonplace-book/"},{"description":"Local-first Software wants merge-without-master; CRDTs are one way to get there.","title":"CRDT","url":"/notes/crdt/"},{"description":"Protected focus blocks; Capture handles the rest (Capture).","title":"Deep Work","url":"/notes/deep-work/"},{"description":"Hard alone doesn't make an exercise worth running.","title":"Develop, Don't Endanger","url":"/notes/develop-dont-endanger/"},{"description":"Safety Comes First at work; duty of care is the legal and moral floor under it.","title":"Duty of Care","url":"/notes/duty-of-care/"},{"description":"Those safeguards can cut risk, but they still need correct human action every time.","title":"Eliminate Before Managing","url":"/notes/eliminate-before-managing/"},{"description":"First Principles Thinking is the method; Musk is the pop-culture cite people recognize.","title":"Elon Musk","url":"/notes/elon-musk/"},{"description":"Integrity in general; this note is the team-visible lane.","title":"Ethical Leadership","url":"/notes/ethical-leadership/"},{"description":"Spaced Repetition fights the drop; Flashcards are one drill surface.","title":"Forgetting Curve","url":"/notes/forgetting-curve/"},{"description":"GTD vs PARA splits tasks from notes; Allen owns the task side.","title":"Getting Things Done","url":"/notes/getting-things-done/"},{"description":"Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on.","title":"Habit Stacking","url":"/notes/habit-stacking/"},{"description":"When nobody gets injured, organizations often relax.","title":"Heed Every Near-Miss","url":"/notes/heed-every-near-miss/"},{"description":"Named rollback is a control layer before irreversible harm.","title":"Hierarchy of Controls","url":"/notes/hierarchy-of-controls/"},{"description":"The Trusted Inbox is the habit; zero is the proof you still empty it.","title":"Inbox Zero","url":"/notes/inbox-zero/"},{"description":"Blameless tone keeps investigation on system causes.","title":"Incident Investigation","url":"/notes/incident-investigation/"},{"description":"Digital Minimalism cuts tools; diet cuts feeds.","title":"Information Diet","url":"/notes/information-diet/"},{"description":"Progressive Summarization is the note-side cousin of layered passes.","title":"Layered Reading","url":"/notes/layered-reading/"},{"description":"Build the smallest test, measure, learn - don't scale before validation.","title":"Lean Startup","url":"/notes/lean-startup/"},{"description":"\"What broke\" line stays until fixed or accepted.","title":"Learning Organizations","url":"/notes/learning-organizations/"},{"description":"Those goals have value only while the methods used to reach them respect safety.","title":"Life Before Achievement","url":"/notes/life-before-achievement/"},{"description":"Notes about a source in your own words - not a highlight dump.","title":"Literature Notes","url":"/notes/literature-notes/"},{"description":"Scheduled time to prune, fix links, and archive - not random Sunday panic.","title":"Maintenance Window","url":"/notes/maintenance-window/"},{"description":"Study links and hubs in a graph - who connects whom, what's isolated.","title":"Network Analysis","url":"/notes/network-analysis/"},{"description":"The third unchallenged shortcut is the warning - not the accident that finally forces a meeting.","title":"Normalization of Deviance","url":"/notes/normalization-of-deviance/"},{"description":"Join their framing before you redirect the blame (Follow Their Lead).","title":"Psychological Safety","url":"/notes/psychological-safety/"},{"description":"Zoom out every ninety days so weekly noise doesn't eat the year's aim.","title":"Quarterly Planning","url":"/notes/quarterly-planning/"},{"description":"A parking lot for links you'll process later - dangerous if it becomes a graveyard.","title":"Read Later Queue","url":"/notes/read-later-queue/"},{"description":"Concrete undo path when the choice is a deploy or release.","title":"Reversibility","url":"/notes/reversibility/"},{"description":"Named rollback is a control layer before irreversible harm.","title":"Risk Management","url":"/notes/risk-management/"},{"description":"Rollback is undo-by-design when release goes loud.","title":"Safety by Design","url":"/notes/safety-by-design/"},{"description":"Mobile Capture Workflows routes phone capture; share sheet is the fastest lane.","title":"Share Sheet","url":"/notes/share-sheet/"},{"description":"Publish the good-enough version instead of polishing forever.","title":"Ship It","url":"/notes/ship-it/"},{"description":"Mind Mapping can start on paper; Analog Capture Tools when screens slow you down.","title":"Sketchpad","url":"/notes/sketchpad/"},{"description":"Each note below is one move I'd want running before I need results.","title":"Systems for Growth","url":"/notes/systems-for-growth/"},{"description":"Systems thinking traces inputs, delays, and feedback - so you change the process, not only patch today's fire.","title":"Systems Thinking","url":"/notes/systems-thinking/"},{"description":"A classification scheme - folders, tags, types - for finding things later.","title":"Taxonomy","url":"/notes/taxonomy/"},{"description":"Mind Mapping is the method; Buzan is the name on the workshop slide.","title":"Tony Buzan","url":"/notes/tony-buzan/"},{"description":"Capture ideas by speaking when hands or eyes are busy.","title":"Voice Memos","url":"/notes/voice-memos/"},{"description":"HTTP callbacks when something happens - push events instead of polling.","title":"Webhooks","url":"/notes/webhooks/"},{"description":"Not passivity - I can still set boundaries and name facts.","title":"Break the Escalation Cycle","url":"/notes/break-the-escalation-cycle/"},{"description":"Forgiving isn't pretending it didn't hurt.","title":"Forgiveness at Work","url":"/notes/forgiveness-at-work/"},{"description":"Performance for the standup is its own reward and a small one.","title":"Integrity When No One's Watching","url":"/notes/integrity-when-no-ones-watching/"},{"description":"Smooth talkers ship thorns sometimes.","title":"Outcomes Over Pitch Decks","url":"/notes/outcomes-over-pitch-decks/"},{"description":"If my word needs hype to sound believable, the problem is my follow-through, not the sentence.","title":"Plain Commitments at Work","url":"/notes/plain-commitments-at-work/"},{"description":"The inbox is other people's priorities wearing a siren.","title":"Priorities Before the Inbox","url":"/notes/priorities-before-the-inbox/"},{"description":"Process doesn't heal a broken trust link.","title":"Reconcile Before the Review","url":"/notes/reconcile-before-the-review/"},{"description":"The corporate ladder rewards visibility; this principle runs the other way.","title":"Servant Leadership","url":"/notes/servant-leadership/"},{"description":"Pass on what you figured out - write the doc, do the handoff, answer the junior\u0026#39;s question - don\u0026#39;t hoard know-how …","title":"Share What You Learn","url":"/notes/share-what-you-learn/"},{"description":"It's active, not passive: do the helpful thing, don't only avoid harm.","title":"The Golden Rule at Work","url":"/notes/golden-rule-at-work/"},{"description":"The same ethics I keep in Eternal Principles, translated for offices where \"altar\" and \"kingdom\" would land wrong.","title":"Workplace Principles","url":"/notes/workplace-principles/"},{"description":"Under Free Grace, discipleship is Grateful Obedience - grateful response, not payment.","title":"Discipleship","url":"/notes/discipleship/"},{"description":"Free Grace settles where I spend forever: faith in Christ alone.","title":"Eternal Rewards","url":"/notes/eternal-rewards/"},{"description":"Abiding is ongoing dependence, not a one-time conversion event.","title":"Abide in Me","url":"/notes/abide-in-me/"},{"description":"Mission flows from resurrection authority, not human recruitment zeal.","title":"Great Commission","url":"/notes/great-commission/"},{"description":"The coin bore Caesar's image; give it back to him.","title":"Render Unto Caesar","url":"/notes/render-unto-caesar/"},{"description":"Jesus pairs this with Judge Not: don't condemn souls, but do evaluate fruit.","title":"By Their Fruits","url":"/notes/by-their-fruits/"},{"description":"Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18).","title":"Secret Devotion","url":"/notes/secret-devotion/"},{"description":"Jesus didn't lower the law; he exposed its depth.","title":"Heart Righteousness","url":"/notes/heart-righteousness/"},{"description":"Both builders hear the sermon; only one obeys.","title":"The Wise Builder","url":"/notes/the-wise-builder/"},{"description":"Children don't enter the kingdom by achievement; they receive care they didn't earn.","title":"Childlike Faith","url":"/notes/childlike-faith/"},{"description":"The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day.","title":"Take Up Your Cross","url":"/notes/take-up-your-cross/"},{"description":"Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed.","title":"Let Your Yes Be Yes","url":"/notes/let-your-yes-be-yes/"},{"description":"Jesus compares God to a parent who gives bread, not a stone.","title":"Ask Seek Knock","url":"/notes/ask-seek-knock/"},{"description":"Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours.","title":"Judge Not","url":"/notes/judge-not/"},{"description":"Jesus rejected the limit of \"eye for eye\" as a personal ethic for disciples.","title":"Turn the Other Cheek","url":"/notes/turn-the-other-cheek/"},{"description":"Repentance is a change of mind and direction - not a down payment on salvation.","title":"Repent and Believe","url":"/notes/repent-and-believe/"},{"description":"Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and …","title":"The Narrow Way","url":"/notes/the-narrow-way/"},{"description":"Where your treasure is, there your heart will be.","title":"Treasure in Heaven","url":"/notes/treasure-in-heaven/"},{"description":"You're the light of the world, like a city on a hill.","title":"Let Your Light Shine","url":"/notes/let-your-light-shine/"},{"description":"He washed feet the night before the cross.","title":"Humility and Service","url":"/notes/humility-and-service/"},{"description":"Jesus elevates restored relationship over religious performance.","title":"Reconciliation Before Worship","url":"/notes/reconciliation-before-worship/"},{"description":"Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.","title":"Peacemakers","url":"/notes/peacemakers/"},{"description":"Worry can't add a single hour to life.","title":"Don't Worry","url":"/notes/dont-worry/"},{"description":"\"Beatitude\" means supreme blessedness.","title":"The Beatitudes","url":"/notes/the-beatitudes/"},{"description":"Put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest follows (Matthew 6:33).","title":"Seek the Kingdom First","url":"/notes/seek-the-kingdom-first/"},{"description":"The Ask Seek Knock builds forgiveness into daily rhythm.","title":"Forgiveness","url":"/notes/forgiveness/"},{"description":"Jesus overturned the tribal reading of \u0026#34;neighbor.\u0026#34; Loving only people who love you back is ordinary; loving enemies …","title":"Love Your Enemies","url":"/notes/love-your-enemies/"},{"description":"It's positive and active: *do* unto others, not merely avoid doing harm.","title":"The Golden Rule","url":"/notes/the-golden-rule/"},{"description":"Jesus lifted Leviticus 19:18 to equal rank with loving God.","title":"Love Your Neighbor","url":"/notes/love-your-neighbor/"},{"description":"The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38).","title":"Love God","url":"/notes/love-god/"},{"description":"I split them into one-claim notes so I can link and drill them like the rest of the garden.","title":"Eternal Principles","url":"/notes/eternal-principles/"},{"description":"Four pair types in relationships frontmatter show how ideas push and pull - not just that two notes mention each other.","title":"Note Relationships","url":"/notes/note-relationships/"},{"description":"Grace is a gift I never earned - unmerited favor.","title":"Free Grace","url":"/notes/free-grace/"},{"description":"Public when draft: false; hidden while draft: true.","title":"Getting Started","url":"/notes/getting-started/"},{"description":"I focus on a repeatable process - I can rerun it when motivation dips.","title":"Process Over Outcomes","url":"/notes/process-over-outcomes/"},{"description":"I pick what works tired and ship.","title":"There Is No Perfect Solution","url":"/notes/there-is-no-perfect-solution/"},{"description":"Active curation means revisiting, pruning, and ordering notes - choosing what sits next to what is creative work.","title":"Active Knowledge Curation","url":"/notes/active-knowledge-curation/"},{"description":"Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries.","title":"Analog Capture Tools","url":"/notes/analog-capture-tools/"},{"description":"Note systems that survive app shutdowns - plain files, open formats, and backups I actually test.","title":"Anti-Fragile Systems","url":"/notes/anti-fragile-systems/"},{"description":"Folders sort.","title":"Associative Linking","url":"/notes/associative-linking/"},{"description":"One claim I'd say out loud - too many ands, split it.","title":"Atomic Notes","url":"/notes/atomic-notes/"},{"description":"My personal API isn't OAuth and microservices.","title":"Building a Personal API","url":"/notes/building-a-personal-api/"},{"description":"Offload ideas so my head can think, not hoard.","title":"Building a Second Brain","url":"/notes/building-a-second-brain/"},{"description":"Friction kills capture.","title":"Capture","url":"/notes/capture/"},{"description":"Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.","title":"Compounding","url":"/notes/compounding/"},{"description":"Capture the why while I still remember it - project, mood, question - not just the link.","title":"Context-Aware Capture","url":"/notes/context-aware-capture/"},{"description":"Creative blocks aren't solved by more capture - one small ship action usually unsticks me.","title":"Creative Blocks","url":"/notes/creative-blocks/"},{"description":"Notes are inventory.","title":"Creative Output","url":"/notes/creative-output/"},{"description":"Daily Notes are my scratch pad for the day - tasks, fragments, links. Not a diary. Not permanent by default.","title":"Daily Notes","url":"/notes/daily-notes/"},{"description":"My digital garden is a personal site where notes grow in public - linked, imperfect, alive.","title":"Digital Garden","url":"/notes/digital-garden/"},{"description":"Fewer apps and less syncing.","title":"Digital Minimalism","url":"/notes/digital-minimalism/"},{"description":"Serendipity isn't luck for me - I build systems where old notes surprise me at the right time.","title":"Digital Serendipity","url":"/notes/digital-serendipity/"},{"description":"I publish rough ideas before they're finished - drafting in public keeps the garden honest.","title":"Drafting in Public","url":"/notes/drafting-in-public/"},{"description":"I write in complete sentences I'd still stand behind in two years.","title":"Evergreen Notes","url":"/notes/evergreen-notes/"},{"description":"Both lanes, clear promotion rules.","title":"Evergreen vs Fleeting Notes","url":"/notes/evergreen-vs-fleeting-notes/"},{"description":"When a note is only a quote, I add what I actually believe from scratch.","title":"First Principles Thinking","url":"/notes/first-principles-thinking/"},{"description":"Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.","title":"Future-Proofing Knowledge","url":"/notes/future-proofing-knowledge/"},{"description":"The link map shows notes with no links, notes with too many, and gaps I forgot to connect.","title":"Graph View Analytics","url":"/notes/graph-view-analytics/"},{"description":"GTD runs my tasks.","title":"GTD vs PARA","url":"/notes/gtd-vs-para/"},{"description":"I cite sources so I can trust what I wrote and find the original six months later.","title":"Intellectual Sourcing","url":"/notes/intellectual-sourcing/"},{"description":"Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted.","title":"Local-first Software","url":"/notes/local-first-software/"},{"description":"Not every task deserves hero energy.","title":"Low Hanging Fruit","url":"/notes/low-hanging-fruit/"},{"description":"Maps of Content (MOCs) are hub notes that index related ideas. Use this page to wander the garden.","title":"Maps of Content","url":"/notes/maps-of-content/"},{"description":"Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use.","title":"Mental Models","url":"/notes/mental-models/"},{"description":"Tension with Building a Personal API when light tags beat automation-ready frontmatter.","title":"Metadata Strategy","url":"/notes/metadata-strategy/"},{"description":"Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead.","title":"Mind Mapping","url":"/notes/mind-mapping/"},{"description":"I borrowed it from medicine: enough to work, not more than needed.","title":"Minimum Effective Dose","url":"/notes/minimum-effective-dose/"},{"description":"The smallest thing I can ship that tests the idea - not a polished fantasy.","title":"Minimum Viable Product","url":"/notes/minimum-viable-product/"},{"description":"Mobile capture: share sheet to inbox - save the spark before I scroll away.","title":"Mobile Capture Workflows","url":"/notes/mobile-capture-workflows/"},{"description":"PARA sorts notes by life responsibility - enough structure to find things, archive when done.","title":"PARA Method","url":"/notes/para-method/"},{"description":"Most results come from a small slice of work - find the slice, protect it, cut the rest.","title":"Pareto Principle","url":"/notes/pareto-principle/"},{"description":"Notes rot without review - calendar weekly and quarterly passes for inbox, projects, evergreens.","title":"Periodic Knowledge Review","url":"/notes/periodic-knowledge-review/"},{"description":"Tension with The Collector's Fallacy when building the system feels like progress without output.","title":"PKM","url":"/notes/pkm/"},{"description":"Layer one: bold the good sentences.","title":"Progressive Summarization","url":"/notes/progressive-summarization/"},{"description":"I save only what changes what I do or believe this month - most content is noise.","title":"Signal vs Noise","url":"/notes/signal-vs-noise/"},{"description":"Slow productivity pushes back on busy-as-virtue - fewer projects, more finished work.","title":"Slow Productivity","url":"/notes/slow-productivity/"},{"description":"Review facts on a schedule before I forget - for recall, not whole essays.","title":"Spaced Repetition","url":"/notes/spaced-repetition/"},{"description":"Past effort is gone.","title":"Sunk Cost Fallacy","url":"/notes/sunk-cost-fallacy/"},{"description":"Collecting quotes isn't PKM for me.","title":"Synthesis as a Goal","url":"/notes/synthesis-as-a-goal/"},{"description":"Tension with Slow Productivity when quarterly intensity beats fewer deeper projects.","title":"The 12 Week Year","url":"/notes/the-12-week-year/"},{"description":"Collecting articles feels like progress - tie saves to express deadlines or cut them.","title":"The Collector's Fallacy","url":"/notes/the-collectors-fallacy/"},{"description":"Tension with Spaced Repetition when explaining gaps beats flashcard drill.","title":"The Feynman Technique","url":"/notes/the-feynman-technique/"},{"description":"The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.","title":"The Garage Concept","url":"/notes/the-garage-concept/"},{"description":"Ideas move through capture, use, polish, fade, and archive - spend effort where the note actually is.","title":"The Knowledge Lifecycle","url":"/notes/the-knowledge-lifecycle/"},{"description":"CODE and PARA in one loop starts with capture to inbox every day (Capture).","title":"The Second Brain Workflow","url":"/notes/the-second-brain-workflow/"},{"description":"If you don't trust your inbox, you capture in your head instead of using capture (Capture).","title":"The Trusted Inbox","url":"/notes/the-trusted-inbox/"},{"description":"Boring on purpose.","title":"Weekly Review Checklists","url":"/notes/weekly-review-checklists/"}]&lt;/script&gt;
-
+  <script type="application/json" class="notes-featured-random-data">[{"description":"Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned …","title":"Faithfulness","url":"/notes/faithfulness/"},{"description":"Fruits of the Spirit lists gentleness beside patience and self-control - power restrained, not power absent.","title":"Gentleness","url":"/notes/gentleness/"},{"description":"Fruits of the Spirit pairs goodness with kindness - outward integrity that points to God, not a personal brand.","title":"Goodness","url":"/notes/goodness/"},{"description":"Fruits of the Spirit names joy beside love and peace in one cluster - grown by walking in the Spirit, not …","title":"Joy","url":"/notes/joy/"},{"description":"Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose.","title":"Kindness","url":"/notes/kindness/"},{"description":"A slow fuse the Spirit grows in believers - not gritted teeth until Friday or white-knuckling through a dry prayer …","title":"Patience","url":"/notes/patience/"},{"description":"Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.","title":"Peace","url":"/notes/peace/"},{"description":"One cluster the Spirit grows - love, joy, peace, patience, and the rest in Galatians 5.","title":"Fruits of the Spirit","url":"/notes/fruits-of-the-spirit/"},{"description":"Mercy withholds what I deserve; grace gives what I couldn't earn.","title":"Grace","url":"/notes/grace/"},{"description":"G
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | rg -o 'notes-recent-list[^"]*' | head -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | rg -o &#39;notes-recent-list[^&#34;]*&#39; | head -3</summary>
 ```bash
 curl -s http://localhost:1313/notes/ | rg -o 'notes-recent-list[^"]*' | head -3
 ```
@@ -1255,18 +926,13 @@ notes-recent-list grid gap-2 sm:grid-cols-2 lg:grid-cols-3
 notes-recent-list grid gap-2 sm:grid-cols-2 lg:grid-cols-3
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The random pick section will display three items. Each card will contain only its description. The new notes section will be arranged in three columns.</details></think>
+The random pick section will display three items. Each card will contain only its description. The new notes section will be arranged in three columns.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1293,7 +959,8 @@ for cards in blocks, ensure links provide contrast
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Links in block cards need sufficient contrast.</details></think>
+Links in block cards need sufficient contrast.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1302,10 +969,8 @@ Reviewing card link styles across the notes index blocks for contrast issues.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1365,65 +1030,39 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing existing CSS for cards, links, and chips to assess current contrast.</details></think>
+Reviewing existing CSS for cards, links, and chips to assess current contrast.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/tag-chips.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/tag-chips.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1454,39 +1093,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing note-link-card.html and related card patterns to assess link contrast.</details></think>
+Reviewing note-link-card.html and related card patterns to assess link contrast.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1517,39 +1142,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Notes-card titles use `text-ink` for link styling. They appear as plain text until hovered. This creates poor contrast.</details></think>
+Notes-card titles use `text-ink` for link styling. They appear as plain text until hovered. This creates poor contrast.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1597,38 +1208,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
@@ -1641,14 +1233,13 @@ Three specific issues were identified. Card titles default to `text-ink` and onl
 
 The plan now includes four concrete file changes. `note-card.html` will default card titles to accent color. `list.html` and `featured-random.js` will stop overriding titles with `text-ink`. Recent link titles will also use accent color. Tag chip visibility will be fixed through scoped CSS.
 
-Recent link titles will stay muted by default and only shift to accent on hover or focus. The parent link element will not carry a color override, preventing the metadata from inheriting accent color.</details></think>
+Recent link titles will stay muted by default and only shift to accent on hover or focus. The parent link element will not carry a color override, preventing the metadata from inheriting accent color.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1711,25 +1302,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -1740,14 +1318,13 @@ Implementing CSS-first contrast fixes for links within card blocks.
 
 Applying accent color to card titles and tag chips against elevated backgrounds. Meta text will stay muted on hover. Using higher-specificity CSS to override utility classes.
 
-Switching templates to `text-accent` directly instead of relying on CSS overrides. Updating note-card.html, list.html, and related-notes.html heading classes.</details></think>
+Switching templates to `text-accent` directly instead of relying on CSS overrides. Updating note-card.html, list.html, and related-notes.html heading classes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1782,43 +1359,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The primary color variable is nearly black (#181614). This likely causes poor link contrast in card blocks.</details></think>
+The primary color variable is nearly black (#181614). This likely causes poor link contrast in card blocks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css</summary>
 
 </details></tool-use>
 
@@ -1827,27 +1386,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The light mode accent color (#181614) is nearly identical to the ink color (#161412). This overlap likely causes poor link contrast.
 
-Dark mode accent (#f2efe9) and ink (#f5f2ed) are also nearly identical. This overlap likely makes links appear non-clickable. The user probably needs a distinct link color or underline for accessibility.</details></think>
+Dark mode accent (#f2efe9) and ink (#f5f2ed) are also nearly identical. This overlap likely makes links appear non-clickable. The user probably needs a distinct link color or underline for accessibility.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/semantic-tokens.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/semantic-tokens.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1911,13 +1463,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1927,14 +1472,13 @@ Tag chips on cards with `bg-elevated` inherit the same background color as the p
 
 Links on elevated backgrounds have strong contrast. Accent text is nearly identical to the background. The real problem is likely missing borders or visual separation for links.
 
-Hovering recent links turns meta text to accent color. That may be hard to read at 0.75rem. Tag chips hover to accent on surface. That contrast is fine. The real issue is whether default tag chips look like clickable links.</details></think>
+Hovering recent links turns meta text to accent color. That may be hard to read at 0.75rem. Tag chips hover to accent on surface. That contrast is fine. The real issue is whether default tag chips look like clickable links.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1969,13 +1513,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1993,7 +1530,8 @@ Recent list links will use accent borders on hover and focus. The accent backgro
 
 The `text-ink` utility will be removed from card templates and replaced with `text-accent` or handled entirely through CSS. This avoids specificity conflicts with the custom stylesheet. Both the template defaults and the custom CSS will be updated.
 
-Conflicting hover rules that only change color will be removed while keeping underline enhancements. Featured-random.js, list.html, and related-notes templates will drop text-ink from card titles. Note-card heading defaults will shift to font-medium. See-also and other note-link-card usages still need review. The contrast requirement may target WCAG standards, though text-ink on elevated surfaces is already legible.</details></think>
+Conflicting hover rules that only change color will be removed while keeping underline enhancements. Featured-random.js, list.html, and related-notes templates will drop text-ink from card titles. Note-card heading defaults will shift to font-medium. See-also and other note-link-card usages still need review. The contrast requirement may target WCAG standards, though text-ink on elevated surfaces is already legible.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2002,106 +1540,50 @@ Updating card-block link styles so titles and tag chips read clearly as links on
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
 
 </details></tool-use>
 
@@ -2110,14 +1592,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Tag chips in tag-chips.html still carry default background and text colors. Card-scoped CSS with higher specificity should override these defaults to ensure proper link contrast.
 
-The card-scoped selector `.notes-card__tags a` outranks the utility classes by one specificity point. This ensures its background and color declarations override the defaults. Hover states should match in specificity.</details></think>
+The card-scoped selector `.notes-card__tags a` outranks the utility classes by one specificity point. This ensures its background and color declarations override the defaults. Hover states should match in specificity.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2152,19 +1633,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-custom.css is imported at the end of main.css. Project assets/css/custom.css is piped through Hugo assets.</details></think>
+custom.css is imported at the end of main.css. Project assets/css/custom.css is piped through Hugo assets.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2196,40 +1671,22 @@ add description in new notes cards
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
@@ -2238,14 +1695,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Remove the recent-updated partial from list.html. Rewrite recent-new.html to use note-card components with descriptions instead of simple links.
 
-The new cards will use note-card with body text from note-blurb.html, matching the catalog grid style. The three-column grid layout stays. Date may be kept as small meta, but the focus is title plus description.</details></think>
+The new cards will use note-card with body text from note-blurb.html, matching the catalog grid style. The three-column grid layout stays. Date may be kept as small meta, but the focus is title plus description.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2352,54 +1808,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<think><details><summary>Thought Process</summary>
+Removing the recent-updated partial call from list.html. The partial file itself will remain, though it appears unused elsewhere.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing the recent-updated partial call from list.html. The partial file itself will remain, though it appears unused elsewhere.</details></think>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<think><details><summary>Thought Process</summary>
-Removed the unused `$dates` variable from the range.</details></think>
+Removed the unused `$dates` variable from the range.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2422,7 +1857,8 @@ all card in blocks show the description instead of the key concept
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All cards in blocks currently display the description instead of the key concept.</details></think>
+All cards in blocks currently display the description instead of the key concept.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2431,23 +1867,15 @@ Checking how card blurbs are built and where they're used in block layouts.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2503,13 +1931,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2525,31 +1946,20 @@ A single optional `Source` parameter on `note-blurb.html` is the preferred minim
 
 A `DescriptionOnly` flag on `note-blurb.html` is the chosen approach. Card blocks will pass it to render only the Description field, stripped and truncated. A separate partial was rejected because too many call sites would need updating.
 
-The `DescriptionOnly` flag must be added to `note-card.html`, `recent-new.html`, `list.html`, `related-notes.html`, `note-link-card.html`, and `random-pool.html`. Alternatively, `note-blurb.html` could default to description-only for card contexts.</details></think>
+The `DescriptionOnly` flag must be added to `note-card.html`, `recent-new.html`, `list.html`, `related-notes.html`, `note-link-card.html`, and `random-pool.html`. Alternatively, `note-blurb.html` could default to description-only for card contexts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
 
 </details></tool-use>
 
@@ -2562,7 +1972,8 @@ Adding a `DescriptionOnly` parameter to `note-blurb.html` will let `note-link-ca
 
 Search logic stays unchanged since the request only concerns card display. The DescriptionOnly mode will pull text directly from page.Description, reuse the existing markdown stripping block, and truncate to 120 characters. A comment documenting the new parameter will be added to note-blurb.html.
 
-Hugo partials support `return`, so the DescriptionOnly helper can cleanly exit early. Call sites are now set: `note-link-card.html`, `recent-new.html`, and the card body in `list.html`. The search blurb at line 125 may also switch to description-only, since description already appears in search bits.</details></think>
+Hugo partials support `return`, so the DescriptionOnly helper can cleanly exit early. Call sites are now set: `note-link-card.html`, `recent-new.html`, and the card body in `list.html`. The search blurb at line 125 may also switch to description-only, since description already appears in search bits.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2571,16 +1982,8 @@ Updating `note-blurb` to support description-only mode and applying it everywher
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
@@ -2589,7 +1992,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Hugo partials cannot define variables inside themselves and call themselves recursively.
 
-The missing `blurb-clean.html` file prevents using a recursive partial. The plan is to inline the clean logic directly in the DescriptionOnly branch and duplicate the five lines there.</details></think>
+The missing `blurb-clean.html` file prevents using a recursive partial. The plan is to inline the clean logic directly in the DescriptionOnly branch and duplicate the five lines there.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2598,120 +2002,63 @@ Fixing `note-blurb.html` — Hugo doesn't support inline `define` the way I used
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Search indexing intentionally keeps key_concept snippets visible via note-blurb, even though DescriptionOnly is applied elsewhere.</details></think>
+Search indexing intentionally keeps key_concept snippets visible via note-blurb, even though DescriptionOnly is applied elsewhere.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2766,36 +2113,21 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html && sleep 12 && curl -s http://localhost:1313/notes/ | rg -o '"description":"[^"]{0,80}' | head -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html &amp;&amp; sleep 12 &amp;&amp; curl -s http://localhost:1313/notes/ | rg -o &#39;&#34;description&#34;:&#34;[^&#34;]{0,80}&#39; | head -5</summary>
 ```bash
 touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html && sleep 12 && curl -s http://localhost:1313/notes/ | rg -o '"description":"[^"]{0,80}' | head -5
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -20
 ```
@@ -2805,28 +2137,21 @@ Start building sites …
 hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
 
 Total in 3645 ms
-ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md" failed: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html:2:15": execute of template failed: template: blog/single.html:2:15: executing "main" at &lt;partial "blog/toc.html" .&gt;: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/toc.html:21:19": execute of template failed: template: _partials/blog/toc.html:21:19: executing "_partials/blog/toc.html" at &lt;partial "notes/random-pool.html" $page&gt;: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html:10:19": execute of template failed: template: _partials/notes/random-pool.html:10:19: executing "_partials/notes/random-pool.html" at &lt;partial "notes/note-blurb.html" (dict "Page" . "DescriptionOnly" true)&gt;: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html:24:6": execute of template failed: template: _partials/notes/note-blurb.html:24:6: executing "_partials/notes/note-blurb.html" at &lt;return&gt;: wrong number of args for return: want 0 got 1
+ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md" failed: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html:2:15": execute of template failed: template: blog/single.html:2:15: executing "main" at <partial "blog/toc.html" .>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/toc.html:21:19": execute of template failed: template: _partials/blog/toc.html:21:19: executing "_partials/blog/toc.html" at <partial "notes/random-pool.html" $page>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html:10:19": execute of template failed: template: _partials/notes/random-pool.html:10:19: executing "_partials/notes/random-pool.html" at <partial "notes/note-blurb.html" (dict "Page" . "DescriptionOnly" true)>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html:24:6": execute of template failed: template: _partials/notes/note-blurb.html:24:6: executing "_partials/notes/note-blurb.html" at <return>: wrong number of args for return: want 0 got 1
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Hugo's `return` in partials appears to require zero arguments. The current error indicates one argument was provided.</details></think>
+Hugo's `return` in partials appears to require zero arguments. The current error indicates one argument was provided.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2866,25 +2191,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
 
 </details></tool-use>
 
@@ -2893,64 +2205,46 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Noted that `note-meta.html` returns a dictionary while `random-pool` returns `$pool`, confirming that returning values with arguments works in some partials.
 
-The error likely stems from an early return inside a `with` block. The original template returned a value successfully, so the empty string return at line 24 appears problematic.</details></think>
+The error likely stems from an early return inside a `with` block. The original template returned a value successfully, so the empty string return at line 24 appears problematic.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-meta.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-meta.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The issue likely stems from a template returning an empty string literal. Hugo may interpret `return` without arguments differently than `return ""`.</details></think>
+The issue likely stems from a template returning an empty string literal. Hugo may interpret `return` without arguments differently than `return ""`.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The `return` statement inside the `with` block may be overriding the outer `return` and causing the wrong value to display.</details></think>
+The `return` statement inside the `with` block may be overriding the outer `return` and causing the wrong value to display.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -5
 ```
@@ -2963,18 +2257,13 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -5
 Total in 12886 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The build succeeded. Card blocks now display key concepts instead of descriptions. This applies to the random pick, new notes, and all notes catalog.</details></think>
+The build succeeded. Card blocks now display key concepts instead of descriptions. This applies to the random pick, new notes, and all notes catalog.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2999,27 +2288,20 @@ do not truncate the description
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The card descriptions in note-blurb.html are currently truncated at 120 characters when DescriptionOnly is true. They should remain fully visible.</details></think>
+The card descriptions in note-blurb.html are currently truncated at 120 characters when DescriptionOnly is true. They should remain fully visible.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3050,67 +2332,40 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing the truncate block in DescriptionOnly mode from note-blurb.html.</details></think>
+Removing the truncate block in DescriptionOnly mode from note-blurb.html.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Fixed truncation at the source level for random pool descriptions via the note-blurb DescriptionOnly path.</details></think>
+Fixed truncation at the source level for random pool descriptions via the note-blurb DescriptionOnly path.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3132,7 +2387,8 @@ review all descriptions. they must follow /jorap-voice bible verses must be tran
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing all note descriptions against jorap-voice guidelines. Bible verses must be moved to key_concept rather than remaining in the description.</details></think>
+Reviewing all note descriptions against jorap-voice guidelines. Bible verses must be moved to key_concept rather than remaining in the description.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3141,11 +2397,10 @@ Reviewing note descriptions against jorap-voice and moving Bible verses into `ke
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **224** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (224 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (224 files)
 
 | File |
 |------|
@@ -3373,34 +2628,19 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (224 files)
 | `content/english/notes/layered-reading.md` |
 | `content/english/notes/spaced-repetition.md` |
 | `content/english/notes/let-your-yes-be-yes.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3431,69 +2671,62 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I'll run voice lint on all descriptions to audit them against the /jorap-voice bible verse requirements.</details></think>
+I'll run voice lint on all descriptions to audit them against the /jorap-voice bible verse requirements.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 from pathlib import Path
 
-ROOT = Path("content/english/notes")
-FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+ROOT = Path(&#34;content/english/notes&#34;)
+FM = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
 # Bible ref patterns
 VERSE = re.compile(
-    r"\([A-Za-z]+\s+\d+:\d+|"
-    r"\b(?:Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Philippians|Colossians|"
-    r"1\s*(?:Cor|Tim|Pet|John|Sam|Kings|Chron)|2\s*(?:Cor|Tim|Pet|Sam|Kings|Chron)|"
-    r"3\s*John|Hebrews|James|Peter|Jude|Revelation|Genesis|Exodus|Leviticus|Deuteronomy|"
-    r"Psalm|Proverbs|Isaiah|Jeremiah|Acts|Timothy|Titus|Philemon)\s+\d+:\d+",
+    r&#34;\([A-Za-z]+\s+\d+:\d+|&#34;
+    r&#34;\b(?:Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Philippians|Colossians|&#34;
+    r&#34;1\s*(?:Cor|Tim|Pet|John|Sam|Kings|Chron)|2\s*(?:Cor|Tim|Pet|Sam|Kings|Chron)|&#34;
+    r&#34;3\s*John|Hebrews|James|Peter|Jude|Revelation|Genesis|Exodus|Leviticus|Deuteronomy|&#34;
+    r&#34;Psalm|Proverbs|Isaiah|Jeremiah|Acts|Timothy|Titus|Philemon)\s+\d+:\d+&#34;,
     re.I,
 )
-AI = re.compile(r"\b(is the process|is defined as|refers to|can be defined|involves the)\b", re.I)
-DICT = re.compile(r"^(?:The |A |An )?\w+ is ", re.I)
+AI = re.compile(r&#34;\b(is the process|is defined as|refers to|can be defined|involves the)\b&#34;, re.I)
+DICT = re.compile(r&#34;^(?:The |A |An )?\w+ is &#34;, re.I)
 
-issues = {"verse_in_desc": [], "dict_opener": [], "long_desc": [], "no_desc": [], "verse_only_in_desc": []}
+issues = {&#34;verse_in_desc&#34;: [], &#34;dict_opener&#34;: [], &#34;long_desc&#34;: [], &#34;no_desc&#34;: [], &#34;verse_only_in_desc&#34;: []}
 
-for p in sorted(ROOT.glob("*.md")):
-    if p.name.startswith("_") or p.name in ("graph.md","cards.md","review.md","backlinks.md","create.md","issues.md","random-duo.md"):
+for p in sorted(ROOT.glob(&#34;*.md&#34;)):
+    if p.name.startswith(&#34;_&#34;) or p.name in (&#34;graph.md&#34;,&#34;cards.md&#34;,&#34;review.md&#34;,&#34;backlinks.md&#34;,&#34;create.md&#34;,&#34;issues.md&#34;,&#34;random-duo.md&#34;):
         continue
-    text = p.read_text(encoding="utf-8")
+    text = p.read_text(encoding=&#34;utf-8&#34;)
     m = FM.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    desc = meta.get("description") or ""
-    kc = meta.get("key_concept") or ""
+    desc = meta.get(&#34;description&#34;) or &#34;&#34;
+    kc = meta.get(&#34;key_concept&#34;) or &#34;&#34;
     if not desc.strip():
-        issues["no_desc"].append(p.name)
+        issues[&#34;no_desc&#34;].append(p.name)
         continue
     if VERSE.search(desc):
-        issues["verse_in_desc"].append((p.name, desc[:120]))
+        issues[&#34;verse_in_desc&#34;].append((p.name, desc[:120]))
     if DICT.search(desc.strip()):
-        issues["dict_opener"].append((p.name, desc[:100]))
-    if len(desc) > 200:
-        issues["long_desc"].append((p.name, len(desc)))
+        issues[&#34;dict_opener&#34;].append((p.name, desc[:100]))
+    if len(desc) &gt; 200:
+        issues[&#34;long_desc&#34;].append((p.name, len(desc)))
 
 for k,v in issues.items():
-    print(f"\n=== {k} ({len(v)}) ===")
+    print(f&#34;\n=== {k} ({len(v)}) ===&#34;)
     for item in v[:15]:
         print(item)
-    if len(v)>15: print(f"  ... +{len(v)-15} more")
+    if len(v)&gt;15: print(f&#34;  ... +{len(v)-15} more&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml
@@ -3558,79 +2791,29 @@ PY
 ('faithfulness.md', 'Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven')
 ('forgiveness.md', 'Forgive others from the heart, as the Father forgives you - Jesus tied extending forgiveness to walking in the grace alr')
 ('free-grace.md', "Eternal life is God's free gift through faith in Christ alone - not wages for keeping commandments, obeying eternal prin")
-('fruits-of-the-spirit.md', 'Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control - character the Holy Spirit produ')
-('gentleness.md', 'Strength under control the Spirit grows in believers - not weakness, not sharp correction that trades volume for love (G')
-  ... +33 more
-
-=== dict_opener (0) ===
-
-=== long_desc (22) ===
-('associative-linking.md', 209)
-('christianity-and-politics.md', 212)
-('create-regular-connection.md', 218)
-('creative-output.md', 407)
-('digital-garden.md', 233)
-('digital-minimalism.md', 316)
-('drafting-in-public.md', 252)
-('first-principles-thinking.md', 250)
-('follow-their-lead.md', 207)
-('fruits-of-the-spirit.md', 220)
-('git-based-cms.md', 211)
-('judgment-seat.md', 225)
-('name-the-feeling.md', 222)
-('note-relationships.md', 263)
-('notice-the-good.md', 226)
-  ... +7 more
-
-=== no_desc (0) ===
-
-=== verse_only_in_desc (0) ===
-
+('fruits-of-the-spirit.md', 'Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control - character
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
@@ -3641,57 +2824,50 @@ A systematic review of roughly 220 notes is needed. 48 contain verses in descrip
 
 A Python script will automate the process. It will extract bible verses from descriptions and append them to key_concept. Descriptions will then be rewritten in jorap-voice with one breath and first person. Manual rewriting of 220 notes is impractical in one session.
 
-The script will live at `scripts/audit-desc-to-key-concept.py`. It will strip verse references from descriptions and append them to key_concept. Descriptions that duplicate the key_concept opening line will be reduced to a single-breath summary. A full list of affected notes is needed to identify patterns before processing.</details></think>
+The script will live at `scripts/audit-desc-to-key-concept.py`. It will strip verse references from descriptions and append them to key_concept. Descriptions that duplicate the key_concept opening line will be reduced to a single-breath summary. A full list of affected notes is needed to identify patterns before processing.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py 2>&1 | rg "description" | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py 2&gt;&amp;1 | rg &#34;description&#34; | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py 2>&1 | rg "description" | head -40
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 from pathlib import Path
 
-ROOT = Path("content/english/notes")
-FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+ROOT = Path(&#34;content/english/notes&#34;)
+FM = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
 VERSE = re.compile(
-    r"\s*\([^)]*(?:\d+:\d+)[^)]*\)|"
-    r"\s*\b(?:Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Philippians|Colossians|"
-    r"1\s*(?:Cor|Tim|Pet|John|Sam|Kings|Chron)|2\s*(?:Cor|Tim|Pet|Sam|Kings|Chron)|"
-    r"3\s*John|Hebrews|James|Peter|Jude|Revelation|Genesis|Exodus|Leviticus|Deuteronomy|"
-    r"Psalm|Proverbs|Isaiah|Jeremiah|Acts|Timothy|Titus|Philemon|Deuteronomy)\s+\d+:\d+(?:-\d+)?",
+    r&#34;\s*\([^)]*(?:\d+:\d+)[^)]*\)|&#34;
+    r&#34;\s*\b(?:Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Philippians|Colossians|&#34;
+    r&#34;1\s*(?:Cor|Tim|Pet|John|Sam|Kings|Chron)|2\s*(?:Cor|Tim|Pet|Sam|Kings|Chron)|&#34;
+    r&#34;3\s*John|Hebrews|James|Peter|Jude|Revelation|Genesis|Exodus|Leviticus|Deuteronomy|&#34;
+    r&#34;Psalm|Proverbs|Isaiah|Jeremiah|Acts|Timothy|Titus|Philemon|Deuteronomy)\s+\d+:\d+(?:-\d+)?&#34;,
     re.I,
 )
-SKIP = {"graph.md","cards.md","review.md","backlinks.md","create.md","issues.md","random-duo.md","_index.md"}
+SKIP = {&#34;graph.md&#34;,&#34;cards.md&#34;,&#34;review.md&#34;,&#34;backlinks.md&#34;,&#34;create.md&#34;,&#34;issues.md&#34;,&#34;random-duo.md&#34;,&#34;_index.md&#34;}
 
 files = []
-for p in sorted(ROOT.glob("*.md")):
+for p in sorted(ROOT.glob(&#34;*.md&#34;)):
     if p.name in SKIP: continue
-    text = p.read_text(encoding="utf-8")
+    text = p.read_text(encoding=&#34;utf-8&#34;)
     m = FM.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    desc = meta.get("description") or ""
+    desc = meta.get(&#34;description&#34;) or &#34;&#34;
     if VERSE.search(desc):
         files.append(p.name)
-print("\n".join(files))
-print("TOTAL", len(files))
+print(&#34;\n&#34;.join(files))
+print(&#34;TOTAL&#34;, len(files))
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml
@@ -3779,12 +2955,6 @@ wood-hay-stubble.md
 TOTAL 51
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3796,38 +2966,38 @@ A Python script will extract verse references from descriptions and move them to
 
 The scope expands to all 220 notes. A smarter script will strip verses and append them to key_concept. Existing archetypes and tooling will be reviewed first. Several notes will be sampled across categories to gauge the current state. Subagents will process the remaining notes in parallel batches.
 
-The script will strip verse references by removing parenthetical digit groups and inline citations, then append them to key_concept. Descriptions will be categorized by length, third-person phrasing, and duplicate key_concept lines. Voice fixes will be applied in batches rather than automated.</details></think>
+The script will strip verse references by removing parenthetical digit groups and inline citations, then append them to key_concept. Descriptions will be categorized by length, third-person phrasing, and duplicate key_concept lines. Voice fixes will be applied in batches rather than automated.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 from pathlib import Path
 
-ROOT = Path("content/english/notes")
-FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-SKIP = {"graph.md","cards.md","review.md","backlinks.md","create.md","issues.md","random-duo.md","_index.md"}
-VERSE = re.compile(r"\d+:\d+")
+ROOT = Path(&#34;content/english/notes&#34;)
+FM = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+SKIP = {&#34;graph.md&#34;,&#34;cards.md&#34;,&#34;review.md&#34;,&#34;backlinks.md&#34;,&#34;create.md&#34;,&#34;issues.md&#34;,&#34;random-duo.md&#34;,&#34;_index.md&#34;}
+VERSE = re.compile(r&#34;\d+:\d+&#34;)
 
-for p in sorted(ROOT.glob("*.md")):
+for p in sorted(ROOT.glob(&#34;*.md&#34;)):
     if p.name in SKIP: continue
-    text = p.read_text(encoding="utf-8")
+    text = p.read_text(encoding=&#34;utf-8&#34;)
     m = FM.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    desc = (meta.get("description") or "").strip()
-    kc = (meta.get("key_concept") or "").strip()
+    desc = (meta.get(&#34;description&#34;) or &#34;&#34;).strip()
+    kc = (meta.get(&#34;key_concept&#34;) or &#34;&#34;).strip()
     issues = []
-    if not desc: issues.append("empty")
-    if VERSE.search(desc): issues.append("verse")
-    if len(desc) > 180: issues.append(f"long({len(desc)})")
-    if desc and kc and desc.split(".")[0][:60] == kc.split("\n")[0].strip()[:60]: issues.append("dup_kc")
-    if re.search(r"^(The |A |An )\w+ (is|are|was|names|lists|pairs) ", desc): issues.append("dict")
+    if not desc: issues.append(&#34;empty&#34;)
+    if VERSE.search(desc): issues.append(&#34;verse&#34;)
+    if len(desc) &gt; 180: issues.append(f&#34;long({len(desc)})&#34;)
+    if desc and kc and desc.split(&#34;.&#34;)[0][:60] == kc.split(&#34;\n&#34;)[0].strip()[:60]: issues.append(&#34;dup_kc&#34;)
+    if re.search(r&#34;^(The |A |An )\w+ (is|are|was|names|lists|pairs) &#34;, desc): issues.append(&#34;dict&#34;)
     if issues:
-        print(f"{p.stem}: {', '.join(issues)} | {desc[:90]}...")
+        print(f&#34;{p.stem}: {&#39;, &#39;.join(issues)} | {desc[:90]}...&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml
@@ -3875,110 +3045,9 @@ continuous-improvement: dup_kc | Small fixes to how you work, repeated - each mi
 create-regular-connection: long(218) | I pick one small ritual and repeat it - ten minutes, one walk, one check-in - instead of w...
 creative-output: long(407) | Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. ...
 digital-garden: long(233) | My digital garden is where notes grow in public - linked, imperfect, alive. Same [[Free Ti...
-digital-minimalism: long(316) | Fewer apps, fewer sync layers, fewer notifications - my PKM got better when I stopped coll...
-digital-serendipity: dup_kc | Serendipity isn't luck for me - I build systems where old notes surprise me at the right t...
-discipline: dup_kc | Doing what you said you'd do when motivation, mood, or applause aren't there to push you....
-dont-worry: verse | Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds bird...
-drafting-in-public: long(252) | I publish rough ideas before they're finished. Drafting in public keeps me honest and make...
-elon-musk: dup_kc | Public example people cite for first-principles reinvention - useful as shorthand, not as ...
-eternal-rewards: verse, long(193) | Jesus promised believers the Father will repay faithful obedience - prayer, generosity, en...
-execution: dup_kc | Turning a decision into finished work - not slides, not intentions, not "we'll get to it."...
-failure-as-feedback: dup_kc | A miss tells you what to fix next - process, skill, assumption - if you don't treat it as ...
-faith-and-works: verse, long(184) | Faith alone saves through [[Free Grace]] - and real faith shows up in obedience; works pro...
-faithful-steward: verse | God entrusts time, gifts, and opportunities; faithfulness with what He gave is what earns ...
-faithfulness: verse, dup_kc | Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistak...
-finish-strong: dup_kc | Starting well proves you can begin; finishing well proves you can keep going when it's bor...
-first-principles-thinking: long(250) | When a note is just a quote from someone smarter, I add a section: what do I actually beli...
-follow-their-lead: long(207), dup_kc | I join their world before I redirect it - their activity, topic, pace, or starting point. ...
-follow-through: dup_kc | The work after the handshake - recap, owners, dates, verification....
-forgetting-curve: dup_kc | Memory fades fast without review - Ebbinghaus curve spaced repetition fights....
-forgiveness: verse | Forgive others from the heart, as the Father forgives you - Jesus tied extending forgivene...
-free-grace: verse, long(189) | Eternal life is God's free gift through faith in Christ alone - not wages for keeping comm...
-fruits-of-the-spirit: verse, long(220) | Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control - c...
-future-proofing-knowledge: dup_kc | Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I ...
-gentleness: verse | Strength under control the Spirit grows in believers - not weakness, not sharp correction ...
-git-based-cms: long(211) | A git-based Content Management System (CMS) web editor (I use Sveltia or Decap) that commi...
-goodness: verse | Active upright deeds the Spirit grows so the Father gets glory - not hidden virtue or good...
-grace: verse | God's unmerited favor - He gives good I never earned, starting with salvation and continui...
-grateful-obedience: verse | Obedience after salvation flows from gratitude for [[Free Grace]] already received - not f...
-great-commission: verse | Go to all nations, baptize, teach obedience to everything Jesus commanded - he goes with y...
-habit-formation: dup_kc | Repeat a small move until it runs without debating it every morning....
-heart-righteousness: verse | God cares about the inner life, not only outward acts - anger is murder in the heart; lust...
-humility-and-service: verse | Jesus taught that whoever wants to be great must be servant of all - the Son of Man came n...
-inbox-zero: dup_kc | Process the inbox to empty regularly - each item decided, not hoarded....
-integrity: dup_kc | What you do matches what you claim - especially when it costs applause, speed, or comfort....
-joy: verse | Gladness the Spirit grows in believers who rest on Christ's promise - not a good-week perf...
-judge-not: verse | Don't condemn others as if you're their final judge - remove your own plank before nitpick...
-judgment-seat: verse, long(225) | Believers stand before Christ after salvation to have their works evaluated for reward - w...
-justification: verse, dup_kc | God declares me righteous through faith in Christ alone - once, at faith, before my obedie...
-kindness: verse | Tender regard the Spirit grows for the person in front of you - not polite distance or per...
-layered-reading: dup_kc | Pass through the same source at increasing depth - skim, highlight, summarize....
-leadership: dup_kc | You take responsibility for direction, pace, and care when people look to you - title opti...
-lean-startup: dup_kc | Build the smallest test, measure, learn - don't scale before validation....
-let-your-light-shine: verse | Do good works visibly so others see them and glorify the Father - not hidden under a baske...
-let-your-yes-be-yes: verse | Speak plainly - no swearing oaths to make people trust you; let your word stand on its own...
-literature-notes: dup_kc | Notes about a source in your own words - not a highlight dump....
-loss-of-reward: verse | A believer can enter eternity saved but with worthless works burned up - reward shrunk or ...
-love-god: verse, dup_kc | The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and s...
-love-your-enemies: verse | Bless those who curse you, pray for persecutors - so you reflect the Father who sends rain...
-love-your-neighbor: verse | The second commandment like the first: love others as yourself (Matthew 22:39, Mark 12:31)...
-maintenance-window: dup_kc | Scheduled time to prune, fix links, and archive - not random Sunday panic....
-mercy: verse | God withholds the punishment I deserve and calls me to show the same compassion to others ...
-metadata-strategy: dup_kc | Tags, categories, dates, aliases - metadata should help me find notes, not become a second...
-minimum-viable-product: dup_kc | The smallest thing I can ship that tests the idea - not a polished fantasy....
-name-the-feeling: long(222) | I put simple words to what someone seems to be carrying before I argue, advise, or plan th...
-network-analysis: dup_kc | Study links and hubs in a graph - who connects whom, what's isolated....
-note-relationships: long(263) | Four pair types in &#96;relationships&#96; frontmatter - extends, contradicts, implements, alterna...
-notice-the-good: long(226) | I say out loud the specific thing someone did that I want to see again - not "good job," b...
-patience: verse, dup_kc | A slow fuse the Spirit grows in believers - not gritted teeth until Friday or white-knuckl...
-peace: verse | Calm the Spirit grows in believers who trust the Father - not silence at any price or pret...
-peacemakers: verse | People who actively pursue peace, not just keep quiet - Jesus blessed them and called them...
-periodic-knowledge-review: long(196) | Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergr...
-preparedness: dup_kc | Rehearse, document, and test before the emergency owns the clock....
-process-over-outcomes: long(222) | Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable pr...
-read-later-queue: dup_kc | A parking lot for links you'll process later - dangerous if it becomes a graveyard....
-reconciliation-before-worship: verse | If your brother has something against you, go reconcile first - then come offer your gift ...
-recovery: dup_kc | The sleep, rest, and downtime that refill what hard work drains - judgment, patience, atte...
-reliability: dup_kc | Others can plan around you because you close loops, hit deadlines, and show up the same wa...
-render-unto-caesar: verse | Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate wor...
-repent-and-believe: verse | Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at...
-resilience: dup_kc | You take the hit, recover, and stay useful - not pretend the hit didn't hurt....
-safety-comes-first: long(229) | Following someone else's lead stops when serious harm is on the table. Respect isn't letti...
-sanctification: verse, long(188) | God makes me holy over time after [[Justification]] declares me righteous - gradual change...
-second-order-thinking: dup_kc | Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compou...
-secret-devotion: verse, dup_kc | Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18)....
-seek-the-kingdom-first: verse, dup_kc | Put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest fo...
-self-control: dup_kc | You choose the next move instead of the urge choosing for you....
-share-what-you-learn: dup_kc | Pass on what you figured out - write the doc, do the handoff, answer the junior's question...
-ship-it: dup_kc | Publish the good-enough version instead of polishing forever....
-signal-vs-noise: long(234) | Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that cha...
-slow-productivity: long(208) | **Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes ...
-slow-the-moment: dup_kc | Pressure creates urgency, but urgency shouldn't erase judgment....
-spaced-repetition: dup_kc | Review facts on a schedule before I forget - for recall, not whole essays....
-standing-vs-fellowship: verse, long(209) | My legal standing before God was settled at faith through [[Justification]]; daily fellows...
-static-site-client-scope: long(202) | Jobs that fit [[Free Tier Hosting Stack]]: mostly text and images, published by git push o...
-stay-effective-in-new-conditions: dup_kc | What made you strong in one room can make you weak in the next....
-take-up-your-cross: verse | Deny yourself, pick up the cross daily, and follow [[Discipleship]] - the shape of discipl...
-taxonomy: dup_kc | A classification scheme - folders, tags, types - for finding things later....
-the-beatitudes: verse, long(184) | Eight blessings Jesus opened the Sermon on the Mount with - poor in spirit, mourners, meek...
-the-collectors-fallacy: long(214) | Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I ...
-the-golden-rule: verse | Treat others how you want to be treated - Jesus called this the Law and Prophets summed up...
-the-narrow-way: verse, dup_kc | Enter by the narrow gate - the road to life is hard and few find it; the broad road to des...
-the-wise-builder: verse | Hear Jesus' words and do them - build on rock, not sand (Matthew 7:24-27)....
-there-is-no-perfect-solution: long(197) | Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fa...
-treasure-in-heaven: verse | Store up what lasts - generosity, mercy, obedience - not what moth, rust, and thieves take...
-turn-the-other-cheek: verse | When someone strikes or insults you, don't return the same - break the cycle of retaliatio...
-versatility: dup_kc | You can contribute in more than one lane when the team or the market shifts....
-webhooks: dup_kc | HTTP callbacks when something happens - push events instead of polling....
-wood-hay-stubble: verse | Some works survive Christ's evaluation; some burn - saved through fire, but worthless work...
-
+d
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3988,31 +3057,20 @@ Reviewing 51 verse notes for a content migration. Verses will be stripped from d
 
 Many descriptions duplicate the key_concept opener. These will be rewritten to be one breath distinct from the key concept. Long descriptions will be shortened to one breath. A Python script will handle mechanical verse extraction and reference cleanup across all notes.
 
-The migration script will live at `scripts/migrate-note-descriptions.py`. Descriptions will be rewritten as standalone one-breath summaries, often with a personal angle. Key concepts will retain their punch lines and verse expansions. The full set of 220 notes will be processed by this script, then batched for agent review.</details></think>
+The migration script will live at `scripts/migrate-note-descriptions.py`. Descriptions will be rewritten as standalone one-breath summaries, often with a personal angle. Key concepts will retain their punch lines and verse expansions. The full set of 220 notes will be processed by this script, then batched for agent review.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
 
 </details></tool-use>
 
@@ -4023,44 +3081,27 @@ A migration script will strip verses and augment key concepts. Then all notes wi
 
 Parallel agents will handle the large-scale description rewrites. A single Python script will strip verse references, add missing key_concept entries, and resolve duplicate first lines. Voice rewrites will run through parallel agents rather than programmatic heuristics.
 
-The verse migration script will run first. Regex patterns will capture parenthetical and inline verse references. Then parallel agents will rewrite descriptions in batches.</details></think>
+The verse migration script will run first. Regex patterns will capture parenthetical and inline verse references. Then parallel agents will rewrite descriptions in batches.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
 
 </details></tool-use>
 
@@ -4075,7 +3116,8 @@ The first-pass rewrite pattern was rejected as too simplistic. The migration scr
 
 The script will live at `scripts/migrate-description-verses.py`. It will extract verses, update key_concepts, and strip them from descriptions. A hand-crafted map will cover the 51 verse notes. Algorithmic fixes will handle duplicate key-concept lines and long descriptions. Each description must fit in one breath, roughly 120 to 160 characters.
 
-Automating duplicate-key-concept fixes is too messy. The second paragraph of the key_concept will provide the replacement text instead. Most notes need some touch because the verse, duplicate, and long categories overlap significantly.</details></think>
+Automating duplicate-key-concept fixes is too messy. The second paragraph of the key_concept will provide the replacement text instead. Most notes need some touch because the verse, duplicate, and long categories overlap significantly.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4084,29 +3126,21 @@ Writing a verse-migration script, then batch-rewriting descriptions across the g
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-description-verses.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-description-verses.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running a dry-run first. Then rewriting all descriptions for voice. Bible verses will be transferred to key concepts.</details></think>
+Running a dry-run first. Then rewriting all descriptions for voice. Bible verses will be transferred to key concepts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-description-verses.py --dry-run 2>&1 | head -30 && python3 scripts/migrate-description-verses.py</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-description-verses.py --dry-run 2&gt;&amp;1 | head -30 &amp;&amp; python3 scripts/migrate-description-verses.py</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-description-verses.py --dry-run 2>&1 | head -30 && python3 scripts/migrate-description-verses.py
 ```
@@ -4114,43 +3148,37 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-description
 ```
 abide-in-me.md:
   desc: Stay connected to Christ the way branches stay in the vine - apart from him you can do not...
-  -&gt;   Stay connected to Christ the way branches stay in the vine - apart from him you can do not...
+  ->   Stay connected to Christ the way branches stay in the vine - apart from him you can do not...
   refs: ['John 15:1-11']
 ask-seek-knock.md:
   desc: Keep coming to the Father in prayer - He gives good gifts to those who ask (Matthew 7:7-11...
-  -&gt;   Keep coming to the Father in prayer - He gives good gifts to those who ask....
+  ->   Keep coming to the Father in prayer - He gives good gifts to those who ask....
   refs: ['Matthew 7:7-11; 6:5-13']
 assurance.md:
   desc: Eternal life rests on Christ's finished work and promise - not on my performance this week...
-  -&gt;   Eternal life rests on Christ's finished work and promise - not on my performance this week...
+  ->   Eternal life rests on Christ's finished work and promise - not on my performance this week...
   refs: ['John 10:28-29; Romans 8:38-39; 1 John 5:13']
 by-their-fruits.md:
   desc: Discern teachers and teaching by outcome - grapes from grapevines, thorns from thistles (M...
-  -&gt;   Discern teachers and teaching by outcome - grapes from grapevines, thorns from thistles....
+  ->   Discern teachers and teaching by outcome - grapes from grapevines, thorns from thistles....
   refs: ['Matthew 7:16-20']
 childlike-faith.md:
   desc: Receive the kingdom like a child - dependent, trusting, not negotiating merit (Matthew 18:...
-  -&gt;   Receive the kingdom like a child - dependent, trusting, not negotiating merit....
+  ->   Receive the kingdom like a child - dependent, trusting, not negotiating merit....
   refs: ['Matthew 18:3; Mark 10:15']
 christianity-and-politics.md:
   desc: Live as a citizen under lawful government and as a disciple under Christ - pay civic duty,...
-  -&gt;   Live as a citizen under lawful government and as a disciple under Christ - pay civic duty,...
+  ->   Live as a citizen under lawful government and as a disciple under Christ - pay civic duty,...
   refs: ['Matthew 22:21; Romans 13:1-7; 1 Peter 2:13-17', 'Matthew 22:21; Romans 13:1-7', 'Peter 2:13-17']
 dont-worry.md:
   desc: Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds bird...
-  -&gt;   Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds bird...
+  ->   Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds bird...
   refs: ['Matthew 6:25-34']
 eternal-rewards.md:
   desc: Jesus promised believers the Father will repay faithful obedience - prayer, generosity, en...
 Updated 51 files
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4158,49 +3186,43 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Migration completed for 51 files. Christianity-and-politics may have broken reference parsing for Peter 2:13-17 without the book name. I will check that file and fix the script if needed.
 
-All jorap-voice descriptions need rewriting. I will split roughly 209 content notes into four batches and launch four parallel agents to update only the frontmatter description field. Each agent will apply jorap-voice rules including plain language, first-person, and no verse duplication.</details></think>
+All jorap-voice descriptions need rewriting. I will split roughly 209 content notes into four batches and launch four parallel agents to update only the frontmatter description field. Each agent will apply jorap-voice rules including plain language, first-person, and no verse duplication.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 from pathlib import Path
-ROOT = Path("content/english/notes")
-SKIP = {"graph.md","cards.md","review.md","backlinks.md","create.md","issues.md","random-duo.md","_index.md"}
-FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+ROOT = Path(&#34;content/english/notes&#34;)
+SKIP = {&#34;graph.md&#34;,&#34;cards.md&#34;,&#34;review.md&#34;,&#34;backlinks.md&#34;,&#34;create.md&#34;,&#34;issues.md&#34;,&#34;random-duo.md&#34;,&#34;_index.md&#34;}
+FM = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
 files = []
-for p in sorted(ROOT.glob("*.md")):
+for p in sorted(ROOT.glob(&#34;*.md&#34;)):
     if p.name in SKIP: continue
-    text = p.read_text(encoding="utf-8")
+    text = p.read_text(encoding=&#34;utf-8&#34;)
     m = FM.match(text)
     meta = yaml.safe_load(m.group(1)) or {}
-    desc = (meta.get("description") or "").strip()
-    kc = (meta.get("key_concept") or "").strip()
-    fl = kc.split("\n")[0].strip() if kc else ""
+    desc = (meta.get(&#34;description&#34;) or &#34;&#34;).strip()
+    kc = (meta.get(&#34;key_concept&#34;) or &#34;&#34;).strip()
+    fl = kc.split(&#34;\n&#34;)[0].strip() if kc else &#34;&#34;
     issues = []
-    if len(desc) > 180: issues.append("long")
-    if desc and fl and desc.rstrip('.') == fl.rstrip('.'): issues.append("dup")
-    if re.search(r'\d+:\d+', desc): issues.append("verse")
+    if len(desc) &gt; 180: issues.append(&#34;long&#34;)
+    if desc and fl and desc.rstrip(&#39;.&#39;) == fl.rstrip(&#39;.&#39;): issues.append(&#34;dup&#34;)
+    if re.search(r&#39;\d+:\d+&#39;, desc): issues.append(&#34;verse&#34;)
     if issues:
         files.append(p.name)
-print(len(files), "still need voice pass")
+print(len(files), &#34;still need voice pass&#34;)
 for f in files[:20]: print(f)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml
@@ -4252,42 +3274,25 @@ drafting-in-public.md
 elon-musk.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The YAML dump collapsed the Christianity-and-Politics key concept into a single quoted string instead of a block scalar.</details></think>
+The YAML dump collapsed the Christianity-and-Politics key concept into a single quoted string instead of a block scalar.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
 
 </details></tool-use>
 
@@ -4298,7 +3303,8 @@ The YAML dump corrupted the frontmatter. I need to repair it.
 
 Reverting the 51 files via git checkout is complicated because many note files were already modified earlier. A safer approach is to use targeted string replacements instead of redumping the entire YAML.
 
-A regex-based script will edit only the description and key_concept lines. I will inspect git diff on free-grace.md to gauge the damage. Isolating migration changes among earlier modifications is difficult.</details></think>
+A regex-based script will edit only the description and key_concept lines. I will inspect git diff on free-grace.md to gauge the damage. Isolating migration changes among earlier modifications is difficult.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4307,9 +3313,8 @@ The migration script mangled YAML frontmatter. Restoring affected files and redo
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/free-grace.md | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/free-grace.md | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/free-grace.md | head -40
 ```
@@ -4331,38 +3336,9 @@ index bd2072b..61464f6 100644
 +title: Free Grace
 +meta_title: Free Grace - Salvation by Faith Alone
 +description: Eternal life is God's free gift through faith in Christ alone - not wages for keeping commandments, obeying eternal principles, or doing good works.
-+key_concept: "[[Grace]] is a gift I never earned - unmerited favor.\n\n  Ephesians 2:8-9; John 3:16; Romans 4:5.\nChrist paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink. Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Grateful\
-+  \ Obedience]] names the posture: obey from thanks, not to qualify. [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven."
- examples:
--  - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
--  - "A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card."
-+- A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season.
-+- A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card.
- relationships:
--  - type: contradicts
--    wikilink: "[[Compounding]]"
--    reason: "when good works compound into a merit ladder I think buys heaven"
--  - type: extends
--    wikilink: "[[Assurance]]"
--    reason: "Rest on Christ's promise after faith - not this week's performance"
--  - type: extends
--    wikilink: "[[Grace]]"
--    reason: "Free grace is grace applied to eternal life by faith alone"
--  - type: extends
--    wikilink: "[[Grateful Obedience]]"
--    reason: "Obedience answers grace with thanks - not wages for heaven"
--  - type: extends
--    wikilink: "[[Joy]]"
--    reason: "Joy follows grace received - not wages that buy heaven"
--  - type: extends
-
++key_concept: "[[Grace]] is a 
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4374,29 +3350,23 @@ The workspace already held pre-migration changes. I will restore the 51 affected
 
 HEAD likely lacks the user's pre-session edits. The migration overwrote the working tree with yaml.dump, destroying those changes. Recovery must come from the version before migration.
 
-Pre-migration edits may be recoverable via git reflog. Otherwise, a script can merge stripped descriptions from the current files with key_concept references from HEAD. HEAD is stale for files already modified before migration.</details></think>
+Pre-migration edits may be recoverable via git reflog. Otherwise, a script can merge stripped descriptions from the current files with key_concept references from HEAD. HEAD is stale for files already modified before migration.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "import ruamel.yaml; print('ok')" 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;import ruamel.yaml; print(&#39;ok&#39;)&#34; 2&gt;&amp;1</summary>
 ```bash
 python3 -c "import ruamel.yaml; print('ok')" 2>&1
 ```
 
 ```
 Traceback (most recent call last):
-  File "&lt;string&gt;", line 1, in &lt;module&gt;
+  File "<string>", line 1, in <module>
 ModuleNotFoundError: No module named 'ruamel'
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4406,33 +3376,27 @@ The migration script will use regex-only surgical edits on the description field
 
 yaml.safe_load may still parse the mangled files. Frontmatter will be rebuilt manually from the body and metadata. Git stash is unlikely to help.
 
-yaml.safe_load parses the mangled files correctly. Key concept content is preserved despite literal newline characters. The semantic data is fully recoverable.</details></think>
+yaml.safe_load parses the mangled files correctly. Key concept content is preserved despite literal newline characters. The semantic data is fully recoverable.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
 import yaml, re
 from pathlib import Path
-text = Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md").read_text()
-meta = yaml.safe_load(re.match(r"^---\s*\n(.*?)\n---", text, re.S).group(1))
-print(type(meta['key_concept']))
-print(meta['key_concept'][:200])
+text = Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md&#34;).read_text()
+meta = yaml.safe_load(re.match(r&#34;^---\s*\n(.*?)\n---&#34;, text, re.S).group(1))
+print(type(meta[&#39;key_concept&#39;]))
+print(meta[&#39;key_concept&#39;][:200])
 PY</summary>
-
 ```bash
 python3 << 'PY'
 import yaml, re
@@ -4445,19 +3409,13 @@ PY
 ```
 
 ```
-&lt;class 'str'&gt;
+<class 'str'>
 [[Grace]] is a gift I never earned - unmerited favor.
 
   Ephesians 2:8-9; John 3:16; Romans 4:5.
 Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral 
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4469,14 +3427,13 @@ The plan is to delete the broken migration script and create a safe frontmatter 
 
 Parallel agents will handle the voice review across all descriptions. The formatter script will preserve existing body content and note structure. Prior working-tree edits will be kept rather than overwritten by git HEAD.
 
-The formatter will emit titles, meta titles, descriptions, slugs, dates, images, and authors as quoted strings. Categories, tags, aliases, and card sets will become YAML lists. Key concepts will render as literal blocks. Examples, relationships, cards, and boolean flags will each receive their own structured format. A pre-migration git snapshot is unavailable, so recovery must rely on the current mangled files.</details></think>
+The formatter will emit titles, meta titles, descriptions, slugs, dates, images, and authors as quoted strings. Categories, tags, aliases, and card sets will become YAML lists. Key concepts will render as literal blocks. Examples, relationships, cards, and boolean flags will each receive their own structured format. A pre-migration git snapshot is unavailable, so recovery must rely on the current mangled files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4571,25 +3528,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
@@ -4600,33 +3544,26 @@ Rewriting migrate-description-verses.py to use notes_content.dump_frontmatter an
 
 Drafting a polish script to reformat 51 files by splitting frontmatter, cleaning duplicate reference lines, and reinserting verses as proper lines after the first paragraph.
 
-The migrate script will be rewritten to use dump_frontmatter and yaml.safe_load, then rerun on the 51 files. Key_concept blocks that received malformed `\n\n  refs.\n` insertions will be normalized. A voice description pass across all notes is also planned, likely via a Python script or Task agents.</details></think>
+The migrate script will be rewritten to use dump_frontmatter and yaml.safe_load, then rerun on the 51 files. Key_concept blocks that received malformed `\n\n  refs.\n` insertions will be normalized. A voice description pass across all notes is also planned, likely via a Python script or Task agents.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-description-verses.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-description-verses.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All 51 previously processed notes will be reformatted. Frontmatter will be dumped and key_concept normalized.</details></think>
+All 51 previously processed notes will be reformatted. Frontmatter will be dumped and key_concept normalized.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-description-verses.py 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-description-verses.py 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-description-verses.py 2>&1
 ```
@@ -4635,47 +3572,35 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-description
 Updated 145 files
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The script updated 145 files. The free-grace description remains mangled. yaml.safe_load reads the key_concept as a single-line string with literal \n characters. dump_frontmatter should format these as block text. It is instead outputting a quoted string with line breaks.</details></think>
+The script updated 145 files. The free-grace description remains mangled. yaml.safe_load reads the key_concept as a single-line string with literal \n characters. dump_frontmatter should format these as block text. It is instead outputting a quoted string with line breaks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
 import yaml, sys
-sys.path.insert(0, '/home/jorap/Documents/GitHub/jorap.com/scripts')
+sys.path.insert(0, &#39;/home/jorap/Documents/GitHub/jorap.com/scripts&#39;)
 from notes_content import split_frontmatter, dump_frontmatter
-text = open('/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md').read()
+text = open(&#39;/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md&#39;).read()
 raw, body = split_frontmatter(text)
 meta = yaml.safe_load(raw)
-kc = meta['key_concept']
-print('has real newlines', '\n' in kc)
+kc = meta[&#39;key_concept&#39;]
+print(&#39;has real newlines&#39;, &#39;\n&#39; in kc)
 print(repr(kc[:120]))
 PY</summary>
-
 ```bash
 python3 << 'PY'
 import yaml, sys
@@ -4695,12 +3620,6 @@ has real newlines True
 "[[Grace]] is a gift I never earned - unmerited favor.\n\nChrist paid what I couldn't. I receive eternal life by believing "
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4708,46 +3627,40 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The latest run produced real newlines.
 
-The file still shows quoted strings with `\n`. Re-reading suggests stale data. The script may have skipped entries with no remaining references. The process function only updates descriptions when references are present or normalization changes the key concept.</details></think>
+The file still shows quoted strings with `\n`. Re-reading suggests stale data. The script may have skipped entries with no remaining references. The process function only updates descriptions when references are present or normalization changes the key concept.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
 import yaml, re, sys
 from pathlib import Path
-sys.path.insert(0, '/home/jorap/Documents/GitHub/jorap.com/scripts')
+sys.path.insert(0, &#39;/home/jorap/Documents/GitHub/jorap.com/scripts&#39;)
 from notes_content import split_frontmatter
 
-NOTES = Path('/home/jorap/Documents/GitHub/jorap.com/content/english/notes')
-SKIP = {'_index.md','graph.md','cards.md','review.md','backlinks.md','create.md','issues.md','random-duo.md'}
+NOTES = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#39;)
+SKIP = {&#39;_index.md&#39;,&#39;graph.md&#39;,&#39;cards.md&#39;,&#39;review.md&#39;,&#39;backlinks.md&#39;,&#39;create.md&#39;,&#39;issues.md&#39;,&#39;random-duo.md&#39;}
 mangled = []
-for p in sorted(NOTES.glob('*.md')):
+for p in sorted(NOTES.glob(&#39;*.md&#39;)):
     if p.name in SKIP: continue
     raw = p.read_text()
-    if not raw.startswith('---'): continue
-    fm_block = raw.split('---', 2)[1]
-    if 'key_concept: "' in fm_block or "key_concept: '" in fm_block:
+    if not raw.startswith(&#39;---&#39;): continue
+    fm_block = raw.split(&#39;---&#39;, 2)[1]
+    if &#39;key_concept: &#34;&#39; in fm_block or &#34;key_concept: &#39;&#34; in fm_block:
         mangled.append(p.name)
-    elif re.search(r'^key_concept: \\', fm_block, re.M):
+    elif re.search(r&#39;^key_concept: \\&#39;, fm_block, re.M):
         mangled.append(p.name)
-print(len(mangled), 'mangled')
-print('\n'.join(mangled[:20]))
+print(len(mangled), &#39;mangled&#39;)
+print(&#39;\n&#39;.join(mangled[:20]))
 PY</summary>
-
 ```bash
 python3 << 'PY'
 import yaml, re, sys
@@ -4796,45 +3709,31 @@ fruits-of-the-spirit.md
 gentleness.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-59 files still contain mangled quoted key_concept values. capture.md appears unaffected.</details></think>
+59 files still contain mangled quoted key_concept values. capture.md appears unaffected.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/reformat-note-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/reformat-note-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/reformat-note-frontmatter.py && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/reformat-note-frontmatter.py &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
-NOTES = Path('content/english/notes')
-m = [p.name for p in NOTES.glob('*.md') if 'key_concept: "' in p.read_text()]
-print('mangled remaining', len(m))
+NOTES = Path(&#39;content/english/notes&#39;)
+m = [p.name for p in NOTES.glob(&#39;*.md&#39;) if &#39;key_concept: &#34;&#39; in p.read_text()]
+print(&#39;mangled remaining&#39;, len(m))
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/reformat-note-frontmatter.py && python3 << 'PY'
 import re
@@ -4850,25 +3749,18 @@ Reformatted 30 files
 mangled remaining 29
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/reformat-note-frontmatter.py --all 2>&1 | tail -3 && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/reformat-note-frontmatter.py --all 2&gt;&amp;1 | tail -3 &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 from pathlib import Path
-NOTES = Path('content/english/notes')
-m = [p.name for p in NOTES.glob('*.md') if 'key_concept: "' in p.read_text()]
-print('mangled remaining', len(m))
+NOTES = Path(&#39;content/english/notes&#39;)
+m = [p.name for p in NOTES.glob(&#39;*.md&#39;) if &#39;key_concept: &#34;&#39; in p.read_text()]
+print(&#39;mangled remaining&#39;, len(m))
 if m: print(m[:10])
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/reformat-note-frontmatter.py --all 2>&1 | tail -3 && python3 << 'PY'
 from pathlib import Path
@@ -4885,24 +3777,12 @@ mangled remaining 29
 ['listen-before-fixing.md', 'mobile-capture-workflows.md', 'attention-to-detail.md', 'decision-quality.md', 'follow-their-lead.md', 'graph-view-analytics.md', 'creative-blocks.md', 'active-knowledge-curation.md', 'build-a-reliable-default.md', 'local-first-software.md']
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
@@ -4911,44 +3791,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Free-grace is fixed. The description lost its verse strip but is now back to plain text, which is correct.
 
-Ephesians 2:8-9 is missing from the key concept body. Verses were stripped from the description but not reinserted into the key concept. I will re-run the verse migration on affected files.</details></think>
+Ephesians 2:8-9 is missing from the key concept body. Verses were stripped from the description but not reinserted into the key concept. I will re-run the verse migration on affected files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/listen-before-fixing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/listen-before-fixing.md</summary>
 
 </details></tool-use>
 
@@ -4957,41 +3820,41 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The gentleness key concept contains an orphaned Galatians 5:22 reference that needs to be integrated into the surrounding description.
 
-The love-god description duplicates the key_concept opener without the verse and still needs a voice rewrite. The listen-before-fixing description contains a quoted key_concept string and is too long for one breath. The 29 mangled files likely only show `key_concept: "` because single-line values are quoted rather than mangled.</details></think>
+The love-god description duplicates the key_concept opener without the verse and still needs a voice rewrite. The listen-before-fixing description contains a quoted key_concept string and is too long for one breath. The 29 mangled files likely only show `key_concept: "` because single-line values are quoted rather than mangled.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 from pathlib import Path
-sys_path = Path('scripts')
+sys_path = Path(&#39;scripts&#39;)
 import sys; sys.path.insert(0, str(sys_path))
 from notes_content import split_frontmatter
-ROOT = Path('content/english/notes')
-SKIP = {'_index.md','graph.md','cards.md','review.md','backlinks.md','create.md','issues.md','random-duo.md'}
-VERSE = re.compile(r'\d+:\d+')
-issues = {'verse':[], 'dup':[], 'long':[], 'orphan_ref_line':[]}
-for p in sorted(ROOT.glob('*.md')):
+ROOT = Path(&#39;content/english/notes&#39;)
+SKIP = {&#39;_index.md&#39;,&#39;graph.md&#39;,&#39;cards.md&#39;,&#39;review.md&#39;,&#39;backlinks.md&#39;,&#39;create.md&#39;,&#39;issues.md&#39;,&#39;random-duo.md&#39;}
+VERSE = re.compile(r&#39;\d+:\d+&#39;)
+issues = {&#39;verse&#39;:[], &#39;dup&#39;:[], &#39;long&#39;:[], &#39;orphan_ref_line&#39;:[]}
+for p in sorted(ROOT.glob(&#39;*.md&#39;)):
     if p.name in SKIP: continue
     text = p.read_text()
     raw, _ = split_frontmatter(text)
     meta = yaml.safe_load(raw) or {}
-    desc = (meta.get('description') or '').strip()
-    kc = (meta.get('key_concept') or '').strip()
-    fl = kc.split('\n\n')[0].split('\n')[0].strip() if kc else ''
-    if VERSE.search(desc): issues['verse'].append(p.name)
-    if desc and fl and desc.rstrip('.') == fl.rstrip('.'): issues['dup'].append(p.name)
-    if len(desc) > 180: issues['long'].append((p.name, len(desc)))
-    for line in kc.split('\n'):
-        if re.match(r'^\s*(?:[A-Za-z0-9\s.;:-]*\d+:\d+[A-Za-z0-9\s.;:-]*)+\.?\s*$', line.strip()) and len(line.strip()) < 80:
-            issues['orphan_ref_line'].append(p.name)
+    desc = (meta.get(&#39;description&#39;) or &#39;&#39;).strip()
+    kc = (meta.get(&#39;key_concept&#39;) or &#39;&#39;).strip()
+    fl = kc.split(&#39;\n\n&#39;)[0].split(&#39;\n&#39;)[0].strip() if kc else &#39;&#39;
+    if VERSE.search(desc): issues[&#39;verse&#39;].append(p.name)
+    if desc and fl and desc.rstrip(&#39;.&#39;) == fl.rstrip(&#39;.&#39;): issues[&#39;dup&#39;].append(p.name)
+    if len(desc) &gt; 180: issues[&#39;long&#39;].append((p.name, len(desc)))
+    for line in kc.split(&#39;\n&#39;):
+        if re.match(r&#39;^\s*(?:[A-Za-z0-9\s.;:-]*\d+:\d+[A-Za-z0-9\s.;:-]*)+\.?\s*$&#39;, line.strip()) and len(line.strip()) &lt; 80:
+            issues[&#39;orphan_ref_line&#39;].append(p.name)
             break
 for k,v in issues.items():
     print(k, len(v))
     print(v[:8] if isinstance(v[0], str) else v[:8])
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml
@@ -5027,50 +3890,43 @@ PY
 ```
 verse 0
 Traceback (most recent call last):
-  File "&lt;stdin&gt;", line 27, in &lt;module&gt;
+  File "<stdin>", line 27, in <module>
 IndexError: list index out of range
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml, sys
 from pathlib import Path
-sys.path.insert(0, 'scripts')
+sys.path.insert(0, &#39;scripts&#39;)
 from notes_content import split_frontmatter
-ROOT = Path('content/english/notes')
-SKIP = {'_index.md','graph.md','cards.md','review.md','backlinks.md','create.md','issues.md','random-duo.md'}
-VERSE = re.compile(r'\d+:\d+')
+ROOT = Path(&#39;content/english/notes&#39;)
+SKIP = {&#39;_index.md&#39;,&#39;graph.md&#39;,&#39;cards.md&#39;,&#39;review.md&#39;,&#39;backlinks.md&#39;,&#39;create.md&#39;,&#39;issues.md&#39;,&#39;random-duo.md&#39;}
+VERSE = re.compile(r&#39;\d+:\d+&#39;)
 dup, long, orphan = [], [], []
-for p in sorted(ROOT.glob('*.md')):
+for p in sorted(ROOT.glob(&#39;*.md&#39;)):
     if p.name in SKIP: continue
     meta = yaml.safe_load(split_frontmatter(p.read_text())[0]) or {}
-    desc = (meta.get('description') or '').strip()
-    kc = (meta.get('key_concept') or '').strip()
-    fl = kc.split('\n\n')[0].split('\n')[0].strip() if kc else ''
-    if VERSE.search(desc): print('verse', p.name)
-    if desc and fl and desc.rstrip('.') == fl.rstrip('.'): dup.append(p.name)
-    if len(desc) > 180: long.append(p.name)
-    for line in kc.split('\n'):
+    desc = (meta.get(&#39;description&#39;) or &#39;&#39;).strip()
+    kc = (meta.get(&#39;key_concept&#39;) or &#39;&#39;).strip()
+    fl = kc.split(&#39;\n\n&#39;)[0].split(&#39;\n&#39;)[0].strip() if kc else &#39;&#39;
+    if VERSE.search(desc): print(&#39;verse&#39;, p.name)
+    if desc and fl and desc.rstrip(&#39;.&#39;) == fl.rstrip(&#39;.&#39;): dup.append(p.name)
+    if len(desc) &gt; 180: long.append(p.name)
+    for line in kc.split(&#39;\n&#39;):
         s = line.strip()
-        if re.fullmatch(r'(?:[A-Za-z0-9\s.;:-]*\d+:\d+(?:-\d+)?[A-Za-z0-9\s.;:-]*)+\.?', s) and len(s) < 80:
+        if re.fullmatch(r&#39;(?:[A-Za-z0-9\s.;:-]*\d+:\d+(?:-\d+)?[A-Za-z0-9\s.;:-]*)+\.?&#39;, s) and len(s) &lt; 80:
             orphan.append(p.name); break
-print('dup', len(dup))
-print('long', len(long))
-print('orphan ref lines', len(set(orphan)))
-print('sample dup', dup[:15])
-print('sample orphan', list(set(orphan))[:15])
+print(&#39;dup&#39;, len(dup))
+print(&#39;long&#39;, len(long))
+print(&#39;orphan ref lines&#39;, len(set(orphan)))
+print(&#39;sample dup&#39;, dup[:15])
+print(&#39;sample orphan&#39;, list(set(orphan))[:15])
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml, sys
@@ -5110,12 +3966,6 @@ sample dup ['accountability.md', 'adaptability.md', 'attention-economy.md', 'bui
 sample orphan ['the-golden-rule.md', 'love-your-enemies.md', 'abide-in-me.md', 'judge-not.md', 'great-commission.md', 'heart-righteousness.md', 'let-your-yes-be-yes.md', 'treasure-in-heaven.md', 'love-your-neighbor.md', 'by-their-fruits.md', 'turn-the-other-cheek.md', 'joy.md', 'the-beatitudes.md', 'kindness.md', 'peacemakers.md']
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5125,7 +3975,8 @@ Orphan reference lines in key_concept need merging into the previous paragraph o
 
 About 215 descriptions need rewriting for voice. Duplicates match the key concept opener and require distinct one-breath versions. Long descriptions need trimming. A script can fold orphan references into the preceding paragraph. Parallel agents will handle the bulk rewrites.
 
-The orphan fix script appends each standalone reference to the previous non-empty line, preserving the period. Matthew 5:9 for peacemakers belongs in the key_concept paragraph rather than the description. The script will run first, followed by the agent batch.</details></think>
+The orphan fix script appends each standalone reference to the previous non-empty line, preserving the period. Matthew 5:9 for peacemakers belongs in the key_concept paragraph rather than the description. The script will run first, followed by the agent batch.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5134,24 +3985,15 @@ Fixing orphaned verse lines in `key_concept`, then batch-rewriting descriptions 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fold-key-concept-refs.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fold-key-concept-refs.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fold-key-concept-refs.py</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/fold-key-concept-refs.py</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fold-key-concept-refs.py
 ```
@@ -5160,42 +4002,25 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fold-key-concept-re
 Fixed 175 key_concept ref lines
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-175 files were fixed. That may have been too aggressive. I will check gentleness, free-grace, and Ephesians 2:10.</details></think>
+175 files were fixed. That may have been too aggressive. I will check gentleness, free-grace, and Ephesians 2:10.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
 
 </details></tool-use>
 
@@ -5208,28 +4033,20 @@ The fold script logic needs fixing so references append to the last non-empty co
 
 A Python script modeled on the blurbs polisher will rewrite all 74+ note descriptions. Four parallel Task agents will process the files in batches. The free-grace key concept needs citations added after the unmerited favor phrase. Several faith notes still sound like third-person dictionaries rather than personal reflections.
 
-Agents will update only the `description` field in frontmatter. The jorap-voice style calls for one breath, first-person when natural, plain words, and no bible verses. Agents must not duplicate the first line of the key concept. YAML validity will be preserved by using the existing `dump_frontmatter` helper from `scripts/notes_content.py`.</details></think>
+Agents will update only the `description` field in frontmatter. The jorap-voice style calls for one breath, first-person when natural, plain words, and no bible verses. Agents must not duplicate the first line of the key concept. YAML validity will be preserved by using the existing `dump_frontmatter` helper from `scripts/notes_content.py`.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/tidy-key-concept-refs.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/tidy-key-concept-refs.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/tidy-key-concept-refs.py</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/tidy-key-concept-refs.py</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/tidy-key-concept-refs.py
 ```
@@ -5238,26 +4055,19 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/tidy-key-concept-re
 Tidied 30 files
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 from pathlib import Path
-SKIP = {'_index.md','graph.md','cards.md','review.md','backlinks.md','create.md','issues.md','random-duo.md'}
-files = sorted(p.name for p in Path('content/english/notes').glob('*.md') if p.name not in SKIP)
+SKIP = {&#39;_index.md&#39;,&#39;graph.md&#39;,&#39;cards.md&#39;,&#39;review.md&#39;,&#39;backlinks.md&#39;,&#39;create.md&#39;,&#39;issues.md&#39;,&#39;random-duo.md&#39;}
+files = sorted(p.name for p in Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;) if p.name not in SKIP)
 for i, chunk in enumerate([files[i::4] for i in range(4)]):
-    print(f'BATCH{i+1}', len(chunk))
-    print(','.join(chunk[:5]), '...')
+    print(f&#39;BATCH{i+1}&#39;, len(chunk))
+    print(&#39;,&#39;.join(chunk[:5]), &#39;...&#39;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 from pathlib import Path
@@ -5280,12 +4090,6 @@ BATCH4 54
 adaptability.md,associative-linking.md,attention-to-detail.md,build-a-reliable-default.md,capture.md ...
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5293,7 +4097,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Four Task agents will run in parallel to rewrite all descriptions. Each agent receives detailed instructions and a batch file list.
 
-Task agents may struggle with 55 files. A heuristic script could replace duplicate descriptions using templates or trimmed text. Reading polish-note-card-blurbs.py for patterns.</details></think>
+Task agents may struggle with 55 files. A heuristic script could replace duplicate descriptions using templates or trimmed text. Reading polish-note-card-blurbs.py for patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5302,22 +4107,20 @@ Launching four parallel passes to rewrite every note description per jorap-voice
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="task_v2">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
-
 
 Parameters:
 
-```json
+````json
 {
   "description": "Rewrite note descriptions batch 1",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "Rewrite &#96;description&#96; frontmatter for these garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFILES (all in that directory):\nabide-in-me.md, analog-capture-tools.md, assurance.md, behavioral-economics.md, building-a-personal-api.md, change-window.md, childlike-faith.md, client-site-handoff.md, complete-the-cycle.md, context-aware-capture.md, convert-pain-into-learning.md, crdt.md, daily-notes.md, deep-work.md, develop-dont-endanger.md, digital-minimalism.md, drafting-in-public.md, duty-of-care.md, eliminate-before-managing.md, elon-musk.md, energy-protects-judgment.md, ethical-leadership.md, evergreen-notes.md, evergreen-vs-fleeting-notes.md, execution.md, expect-the-counter.md, failure-as-feedback.md, faithful-steward.md, faithfulness.md, finish-strong.md, first-principles-thinking.md, flashcards.md, follow-through.md, forgiveness-at-work.md, forgiveness.md, free-grace.md, free-tier-hosting-stack.md, frictionless-capture.md, fruits-of-the-spirit.md, future-proofing-knowledge.md, gentle.md, gentleness.md, getting-started.md, getting-things-done.md, git-based-cms.md, goodness.md, grace.md, graph-view-analytics.md, grateful-obedience.md, great-commission.md, growth-mindset.md, gtd-vs-para.md, habit-formation.md, habit-stacking.md, heed-every-near-miss.md\n\nTASK: Update ONLY the &#96;description&#96; field in each file's YAML frontmatter.\n\nJORAP-VOICE RULES (mandatory):\n- One breath - roughly one sentence, readable aloud without pausing\n- First person (\"I\", \"my\") when natural for this personal garden\n- Plain words - no leverage, robust, landscape, delve, facilitate, comprehensive\n- NO Bible verse references in description (refs belong in key_concept only)\n- Description must NOT duplicate the first line of key_concept (even if punctuation differs)\n- Not a dictionary opener (\"X is the process whereby...\")\n- No em dashes - use hyphen, comma, or parentheses\n\nHOW TO WRITE:\n- Read description, key_concept, title\n- Write a fresh one-breath hook that teases the note's claim without copying key_concept line 1\n- Faith notes: plain gloss OK; keep verses out of description\n\nHOW TO SAVE:\nUse scripts/notes_content.py helpers to preserve frontmatter format:\n&#96;&#96;&#96;python\nimport yaml, sys\nfrom pathlib import Path\nsys.path.insert(0, 'scripts')\nfrom notes_content import split_frontmatter, dump_frontmatter\np = Path('content/english/notes/FILE.md')\ntext = p.read_text()\nraw, body = split_frontmatter(text)\nmeta = yaml.safe_load(raw)\nmeta['description'] = 'NEW DESCRIPTION'\np.write_text(f\"---\\n{dump_frontmatter(meta)}\\n---\\n{body.lstrip()}\")\n&#96;&#96;&#96;\n\nProcess every file in the list. Return count updated and any files skipped with reason.",
+  "prompt": "Rewrite `description` frontmatter for these garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFILES (all in that directory):\nabide-in-me.md, analog-capture-tools.md, assurance.md, behavioral-economics.md, building-a-personal-api.md, change-window.md, childlike-faith.md, client-site-handoff.md, complete-the-cycle.md, context-aware-capture.md, convert-pain-into-learning.md, crdt.md, daily-notes.md, deep-work.md, develop-dont-endanger.md, digital-minimalism.md, drafting-in-public.md, duty-of-care.md, eliminate-before-managing.md, elon-musk.md, energy-protects-judgment.md, ethical-leadership.md, evergreen-notes.md, evergreen-vs-fleeting-notes.md, execution.md, expect-the-counter.md, failure-as-feedback.md, faithful-steward.md, faithfulness.md, finish-strong.md, first-principles-thinking.md, flashcards.md, follow-through.md, forgiveness-at-work.md, forgiveness.md, free-grace.md, free-tier-hosting-stack.md, frictionless-capture.md, fruits-of-the-spirit.md, future-proofing-knowledge.md, gentle.md, gentleness.md, getting-started.md, getting-things-done.md, git-based-cms.md, goodness.md, grace.md, graph-view-analytics.md, grateful-obedience.md, great-commission.md, growth-mindset.md, gtd-vs-para.md, habit-formation.md, habit-stacking.md, heed-every-near-miss.md\n\nTASK: Update ONLY the `description` field in each file's YAML frontmatter.\n\nJORAP-VOICE RULES (mandatory):\n- One breath - roughly one sentence, readable aloud without pausing\n- First person (\"I\", \"my\") when natural for this personal garden\n- Plain words - no leverage, robust, landscape, delve, facilitate, comprehensive\n- NO Bible verse references in description (refs belong in key_concept only)\n- Description must NOT duplicate the first line of key_concept (even if punctuation differs)\n- Not a dictionary opener (\"X is the process whereby...\")\n- No em dashes - use hyphen, comma, or parentheses\n\nHOW TO WRITE:\n- Read description, key_concept, title\n- Write a fresh one-breath hook that teases the note's claim without copying key_concept line 1\n- Faith notes: plain gloss OK; keep verses out of description\n\nHOW TO SAVE:\nUse scripts/notes_content.py helpers to preserve frontmatter format:\n```python\nimport yaml, sys\nfrom pathlib import Path\nsys.path.insert(0, 'scripts')\nfrom notes_content import split_frontmatter, dump_frontmatter\np = Path('content/english/notes/FILE.md')\ntext = p.read_text()\nraw, body = split_frontmatter(text)\nmeta = yaml.safe_load(raw)\nmeta['description'] = 'NEW DESCRIPTION'\np.write_text(f\"---\\n{dump_frontmatter(meta)}\\n---\\n{body.lstrip()}\")\n```\n\nProcess every file in the list. Return count updated and any files skipped with reason.",
   "subagentType": "unspecified"
 }
-```
+````
 Additional data:
 
 ```json
@@ -5336,21 +4139,12 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
-<summary>Tool use: **task_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="task_v2">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
-
 
 Parameters:
 
@@ -5359,7 +4153,7 @@ Parameters:
   "description": "Rewrite note descriptions batch 2",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "Rewrite &#96;description&#96; frontmatter for garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFILES:\naccountability.md, anti-fragile-systems.md, atomic-notes.md, blameless-postmortem.md, building-a-second-brain.md, by-their-fruits.md, capture.md, change-management.md, christianity-and-politics.md, coaching-ethics.md, commonplace-book.md, composure.md, compounding.md, continuous-improvement.md, control-the-rhythm.md, creative-blocks.md, creative-output.md, daily-notes.md is NOT in list - use list below only.\n\nFull list:\naccountability.md, anti-fragile-systems.md, atomic-notes.md, blameless-postmortem.md, building-a-second-brain.md, by-their-fruits.md, capture.md, change-management.md, christianity-and-politics.md, coaching-ethics.md, commonplace-book.md, composure.md, compounding.md, continuous-improvement.md, control-the-rhythm.md, creative-blocks.md, creative-output.md, decision-quality.md, deep-work.md, deliberate-practice.md, develop-dont-endanger.md, digital-garden.md, digital-serendipity.md, discipline.md, dont-worry.md, drafting-in-public.md, duty-of-care.md, emotional-regulation.md, energy-protects-judgment.md, eternal-principles.md, eternal-rewards.md, ethical-leadership.md, evergreen-notes.md, execution.md, faith-and-works.md, failure-as-feedback.md, finish-strong.md, follow-their-lead.md, forgiveness.md, free-grace.md skip if batch1 got it, frictionless-capture.md, future-proofing-knowledge.md, gtd-vs-para.md, habit-formation.md, heart-righteousness.md, hierarchy-of-controls.md, humility-and-service.md, inbox-zero.md, information-diet.md, integrity-when-no-ones-watching.md, integrity.md, intellectual-sourcing.md, joy.md, judge-not.md, judgment-seat.md, justification.md\n\nSkip free-grace.md if already updated.\n\nSame jorap-voice rules and save method as batch 1 (use notes_content dump_frontmatter). Update ONLY description. No verses in description. No dup of key_concept line 1. One breath, plain words, first person when natural.\n\nReturn count updated.",
+  "prompt": "Rewrite `description` frontmatter for garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFILES:\naccountability.md, anti-fragile-systems.md, atomic-notes.md, blameless-postmortem.md, building-a-second-brain.md, by-their-fruits.md, capture.md, change-management.md, christianity-and-politics.md, coaching-ethics.md, commonplace-book.md, composure.md, compounding.md, continuous-improvement.md, control-the-rhythm.md, creative-blocks.md, creative-output.md, daily-notes.md is NOT in list - use list below only.\n\nFull list:\naccountability.md, anti-fragile-systems.md, atomic-notes.md, blameless-postmortem.md, building-a-second-brain.md, by-their-fruits.md, capture.md, change-management.md, christianity-and-politics.md, coaching-ethics.md, commonplace-book.md, composure.md, compounding.md, continuous-improvement.md, control-the-rhythm.md, creative-blocks.md, creative-output.md, decision-quality.md, deep-work.md, deliberate-practice.md, develop-dont-endanger.md, digital-garden.md, digital-serendipity.md, discipline.md, dont-worry.md, drafting-in-public.md, duty-of-care.md, emotional-regulation.md, energy-protects-judgment.md, eternal-principles.md, eternal-rewards.md, ethical-leadership.md, evergreen-notes.md, execution.md, faith-and-works.md, failure-as-feedback.md, finish-strong.md, follow-their-lead.md, forgiveness.md, free-grace.md skip if batch1 got it, frictionless-capture.md, future-proofing-knowledge.md, gtd-vs-para.md, habit-formation.md, heart-righteousness.md, hierarchy-of-controls.md, humility-and-service.md, inbox-zero.md, information-diet.md, integrity-when-no-ones-watching.md, integrity.md, intellectual-sourcing.md, joy.md, judge-not.md, judgment-seat.md, justification.md\n\nSkip free-grace.md if already updated.\n\nSame jorap-voice rules and save method as batch 1 (use notes_content dump_frontmatter). Update ONLY description. No verses in description. No dup of key_concept line 1. One breath, plain words, first person when natural.\n\nReturn count updated.",
   "subagentType": "unspecified"
 }
 ```
@@ -5381,21 +4175,12 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
-<summary>Tool use: **task_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="task_v2">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
-
 
 Parameters:
 
@@ -5404,7 +4189,7 @@ Parameters:
   "description": "Rewrite note descriptions batch 3",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "Rewrite &#96;description&#96; frontmatter for garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFILES:\nactive-knowledge-curation.md, ask-seek-knock.md, attention-economy.md, break-the-escalation-cycle.md, by-their-fruits.md skip if done, capture skip, kindness.md, leadership.md, layered-reading.md, lean-startup.md, let-your-light-shine.md, let-your-yes-be-yes.md, literature-notes.md, local-first-software.md, loss-of-reward.md, love-god.md, love-your-enemies.md, love-your-neighbor.md, low-hanging-fruit.md, maintenance-window.md, maps-of-content.md, mental-models.md, mercy.md, metadata-strategy.md, mind-mapping.md, minimum-effective-dose.md, minimum-viable-product.md, mobile-capture-workflows.md, name-the-feeling.md, network-analysis.md, normalization-of-deviance.md, notice-the-good.md, note-relationships.md, outcomes-over-pitch-decks.md, own-the-error.md, para-method.md, pareto-principle.md, patience.md, peace.md, peacemakers.md, periodic-knowledge-review.md, plain-commitments-at-work.md, pkm.md, preparedness.md, pressure-reveals-weakness.md, priorities-before-the-inbox.md, process-over-outcomes.md, progressive-summarization.md, psychological-safety.md, read-later-queue.md, reconciliation-before-worship.md, recovery.md, reliability.md, render-unto-caesar.md, repent-and-believe.md, resilience.md, reversibility.md, risk-management.md\n\nSame rules: jorap-voice one-breath description, no bible refs in description, not duplicating key_concept line 1, use dump_frontmatter to save. Update ONLY description field.\n\nReturn count updated.",
+  "prompt": "Rewrite `description` frontmatter for garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFILES:\nactive-knowledge-curation.md, ask-seek-knock.md, attention-economy.md, break-the-escalation-cycle.md, by-their-fruits.md skip if done, capture skip, kindness.md, leadership.md, layered-reading.md, lean-startup.md, let-your-light-shine.md, let-your-yes-be-yes.md, literature-notes.md, local-first-software.md, loss-of-reward.md, love-god.md, love-your-enemies.md, love-your-neighbor.md, low-hanging-fruit.md, maintenance-window.md, maps-of-content.md, mental-models.md, mercy.md, metadata-strategy.md, mind-mapping.md, minimum-effective-dose.md, minimum-viable-product.md, mobile-capture-workflows.md, name-the-feeling.md, network-analysis.md, normalization-of-deviance.md, notice-the-good.md, note-relationships.md, outcomes-over-pitch-decks.md, own-the-error.md, para-method.md, pareto-principle.md, patience.md, peace.md, peacemakers.md, periodic-knowledge-review.md, plain-commitments-at-work.md, pkm.md, preparedness.md, pressure-reveals-weakness.md, priorities-before-the-inbox.md, process-over-outcomes.md, progressive-summarization.md, psychological-safety.md, read-later-queue.md, reconciliation-before-worship.md, recovery.md, reliability.md, render-unto-caesar.md, repent-and-believe.md, resilience.md, reversibility.md, risk-management.md\n\nSame rules: jorap-voice one-breath description, no bible refs in description, not duplicating key_concept line 1, use dump_frontmatter to save. Update ONLY description field.\n\nReturn count updated.",
   "subagentType": "unspecified"
 }
 ```
@@ -5426,21 +4211,12 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
-<summary>Tool use: **task_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="task_v2">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
-
 
 Parameters:
 
@@ -5449,7 +4225,7 @@ Parameters:
   "description": "Rewrite note descriptions batch 4",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "Rewrite &#96;description&#96; frontmatter for garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFILES:\nadaptability.md, associative-linking.md, attention-to-detail.md, build-a-reliable-default.md, capture.md skip if done, client-site-handoff.md, coaching-ethics.md, commonpl skip duplicates, compounding skip, create-regular-connection.md, crdt skip, daily-notes skip, deep-work skip, deliberate-practice.md, digital-minimalism skip, discipline skip, drafting skip, eliminate-before-managing.md, emotional-regulation skip, energy skip, ethical-leadership skip, evergreen skip, execution skip, expect-the-counter.md, failure skip, finish skip, first-principles skip, flashcards skip, follow-their-lead skip, follow-through skip, forgiveness-at-work skip, forgiveness skip, free skip, frictionless skip, fruits skip, future skip, gentleness skip, getting skip, git-based-cms skip, goodness skip, grace skip, graph skip, grateful skip, great skip, growth skip, gtd skip, habit skip, heed skip, heart skip, hierarchy skip, humility skip, inbox skip, information skip, integrity skip, intellectual skip, joy skip, judge skip, judgment skip, justification skip, kindness skip, leadership skip, layered skip, lean skip, let-your skip, literature skip, local-first skip, loss skip, love skip, low skip, maintenance skip, maps skip, mental skip, mercy skip, metadata skip, mind skip, minimum skip, mobile skip, name skip, network skip, normalization skip, notice skip, note-rel skip, outcomes skip, own skip, para skip, pareto skip, patience skip, peace skip, peacemakers skip, periodic skip, plain skip, pkm skip, preparedness skip, pressure skip, priorities skip, process skip, progressive skip, psychological skip, read-later skip, reconciliation skip, recovery skip, reliability skip, render skip, repent skip, resilience skip, reversibility skip, risk skip, rollback-principle.md, safety-by-design.md, safety-comes-first.md, sanctification.md, second-order-thinking.md, secret-devotion.md, seek-the-kingdom-first.md, self-control.md, selling-static-sites.md, servant-leadership.md, set-calm-boundaries.md, share-sheet.md, share-what-you-learn.md, ship-it.md, signal-vs-noise.md, situational-control.md, sketchpad.md, slow-productivity.md, slow-the-moment.md, spaced-repetition.md, standard-operating-procedures.md, staged-rollout.md, static-site-client-scope.md, stay-effective-in-new-conditions.md, sunk-cost-fallacy.md, sustainable-performance.md, synthesis-as-a-goal.md, systems-thinking.md, take-up-your-cross.md, taxonomy.md, the-12-week-year.md, the-beatitudes.md, the-collectors-fallacy.md, the-feynman-technique.md, the-garage-concept.md, the-golden-rule.md, the-knowledge-lifecycle.md, the-narrow-way.md, the-second-brain-workflow.md, the-trusted-inbox.md, the-wise-builder.md, there-is-no-perfect-solution.md, tony-buzan.md, treasure-in-heaven.md, turn-the-other-cheek.md, versatility.md, voice-memos.md, webhooks.md, weekly-review-checklists.md, wood-hay-stubble.md\n\nUse the FILES list above literally - process each file that exists.\n\nSame jorap-voice rules: one breath, plain words, first person when natural, NO bible refs in description, must differ from key_concept line 1. Save with notes_content dump_frontmatter. Update ONLY description.\n\nReturn count updated.",
+  "prompt": "Rewrite `description` frontmatter for garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFILES:\nadaptability.md, associative-linking.md, attention-to-detail.md, build-a-reliable-default.md, capture.md skip if done, client-site-handoff.md, coaching-ethics.md, commonpl skip duplicates, compounding skip, create-regular-connection.md, crdt skip, daily-notes skip, deep-work skip, deliberate-practice.md, digital-minimalism skip, discipline skip, drafting skip, eliminate-before-managing.md, emotional-regulation skip, energy skip, ethical-leadership skip, evergreen skip, execution skip, expect-the-counter.md, failure skip, finish skip, first-principles skip, flashcards skip, follow-their-lead skip, follow-through skip, forgiveness-at-work skip, forgiveness skip, free skip, frictionless skip, fruits skip, future skip, gentleness skip, getting skip, git-based-cms skip, goodness skip, grace skip, graph skip, grateful skip, great skip, growth skip, gtd skip, habit skip, heed skip, heart skip, hierarchy skip, humility skip, inbox skip, information skip, integrity skip, intellectual skip, joy skip, judge skip, judgment skip, justification skip, kindness skip, leadership skip, layered skip, lean skip, let-your skip, literature skip, local-first skip, loss skip, love skip, low skip, maintenance skip, maps skip, mental skip, mercy skip, metadata skip, mind skip, minimum skip, mobile skip, name skip, network skip, normalization skip, notice skip, note-rel skip, outcomes skip, own skip, para skip, pareto skip, patience skip, peace skip, peacemakers skip, periodic skip, plain skip, pkm skip, preparedness skip, pressure skip, priorities skip, process skip, progressive skip, psychological skip, read-later skip, reconciliation skip, recovery skip, reliability skip, render skip, repent skip, resilience skip, reversibility skip, risk skip, rollback-principle.md, safety-by-design.md, safety-comes-first.md, sanctification.md, second-order-thinking.md, secret-devotion.md, seek-the-kingdom-first.md, self-control.md, selling-static-sites.md, servant-leadership.md, set-calm-boundaries.md, share-sheet.md, share-what-you-learn.md, ship-it.md, signal-vs-noise.md, situational-control.md, sketchpad.md, slow-productivity.md, slow-the-moment.md, spaced-repetition.md, standard-operating-procedures.md, staged-rollout.md, static-site-client-scope.md, stay-effective-in-new-conditions.md, sunk-cost-fallacy.md, sustainable-performance.md, synthesis-as-a-goal.md, systems-thinking.md, take-up-your-cross.md, taxonomy.md, the-12-week-year.md, the-beatitudes.md, the-collectors-fallacy.md, the-feynman-technique.md, the-garage-concept.md, the-golden-rule.md, the-knowledge-lifecycle.md, the-narrow-way.md, the-second-brain-workflow.md, the-trusted-inbox.md, the-wise-builder.md, there-is-no-perfect-solution.md, tony-buzan.md, treasure-in-heaven.md, turn-the-other-cheek.md, versatility.md, voice-memos.md, webhooks.md, weekly-review-checklists.md, wood-hay-stubble.md\n\nUse the FILES list above literally - process each file that exists.\n\nSame jorap-voice rules: one breath, plain words, first person when natural, NO bible refs in description, must differ from key_concept line 1. Save with notes_content dump_frontmatter. Update ONLY description.\n\nReturn count updated.",
   "subagentType": "unspecified"
 }
 ```
@@ -5471,44 +4247,36 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
-<summary>Tool use: **task_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml, sys
 from pathlib import Path
-sys.path.insert(0, 'scripts')
+sys.path.insert(0, &#39;scripts&#39;)
 from notes_content import split_frontmatter
-ROOT = Path('content/english/notes')
-SKIP = {'_index.md','graph.md','cards.md','review.md','backlinks.md','create.md','issues.md','random-duo.md'}
-VERSE = re.compile(r'\d+:\d+')
+ROOT = Path(&#39;content/english/notes&#39;)
+SKIP = {&#39;_index.md&#39;,&#39;graph.md&#39;,&#39;cards.md&#39;,&#39;review.md&#39;,&#39;backlinks.md&#39;,&#39;create.md&#39;,&#39;issues.md&#39;,&#39;random-duo.md&#39;}
+VERSE = re.compile(r&#39;\d+:\d+&#39;)
 dup, long, verse, emdash = [], [], [], []
-for p in sorted(ROOT.glob('*.md')):
+for p in sorted(ROOT.glob(&#39;*.md&#39;)):
     if p.name in SKIP: continue
     meta = yaml.safe_load(split_frontmatter(p.read_text())[0]) or {}
-    desc = (meta.get('description') or '').strip()
-    kc = (meta.get('key_concept') or '').strip()
-    fl = kc.split('\n\n')[0].split('\n')[0].strip() if kc else ''
+    desc = (meta.get(&#39;description&#39;) or &#39;&#39;).strip()
+    kc = (meta.get(&#39;key_concept&#39;) or &#39;&#39;).strip()
+    fl = kc.split(&#39;\n\n&#39;)[0].split(&#39;\n&#39;)[0].strip() if kc else &#39;&#39;
     if VERSE.search(desc): verse.append(p.name)
-    if desc and fl and desc.rstrip('.') == fl.rstrip('.'): dup.append(p.name)
-    if len(desc) > 200: long.append((p.name, len(desc)))
-    if '\u2014' in desc or '\u2013' in desc: emdash.append(p.name)
-print('verse in desc', len(verse), verse)
-print('dup kc line1', len(dup), dup[:20])
-print('long >200', len(long), long[:15])
-print('em dash', emdash)
+    if desc and fl and desc.rstrip(&#39;.&#39;) == fl.rstrip(&#39;.&#39;): dup.append(p.name)
+    if len(desc) &gt; 200: long.append((p.name, len(desc)))
+    if &#39;\u2014&#39; in desc or &#39;\u2013&#39; in desc: emdash.append(p.name)
+print(&#39;verse in desc&#39;, len(verse), verse)
+print(&#39;dup kc line1&#39;, len(dup), dup[:20])
+print(&#39;long &gt;200&#39;, len(long), long[:15])
+print(&#39;em dash&#39;, emdash)
 PY
-python3 scripts/notes-voice-lint.py --check 2>&1 | tail -15</summary>
-
+python3 scripts/notes-voice-lint.py --check 2&gt;&amp;1 | tail -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml, sys
@@ -5540,139 +4308,79 @@ python3 scripts/notes-voice-lint.py --check 2>&1 | tail -15
 ```
 verse in desc 0 []
 dup kc line1 1 ['forgetting-curve.md']
-long &gt;200 0 []
+long >200 0 []
 em dash []
 Voice lint OK
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgetting-curve.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgetting-curve.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The forgetting-curve description was fixed to reference the forgetting curve as the reason drills are not skipped.</details></think>
+The forgetting-curve description was fixed to reference the forgetting curve as the reason drills are not skipped.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgetting-curve.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgetting-curve.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | tail -3</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -3
 ```
@@ -5683,40 +4391,33 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -3
 Total in 14161 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml, sys
 from pathlib import Path
-sys.path.insert(0, 'scripts')
+sys.path.insert(0, &#39;scripts&#39;)
 from notes_content import split_frontmatter
-ROOT = Path('content/english/notes')
-SKIP = {'_index.md','graph.md','cards.md','review.md','backlinks.md','create.md','issues.md','random-duo.md'}
-VERSE = re.compile(r'\d+:\d+')
-counts = {'notes':0,'verse_desc':0,'dup':0,'long':0,'verse_kc':0}
-for p in sorted(ROOT.glob('*.md')):
+ROOT = Path(&#39;content/english/notes&#39;)
+SKIP = {&#39;_index.md&#39;,&#39;graph.md&#39;,&#39;cards.md&#39;,&#39;review.md&#39;,&#39;backlinks.md&#39;,&#39;create.md&#39;,&#39;issues.md&#39;,&#39;random-duo.md&#39;}
+VERSE = re.compile(r&#39;\d+:\d+&#39;)
+counts = {&#39;notes&#39;:0,&#39;verse_desc&#39;:0,&#39;dup&#39;:0,&#39;long&#39;:0,&#39;verse_kc&#39;:0}
+for p in sorted(ROOT.glob(&#39;*.md&#39;)):
     if p.name in SKIP: continue
-    counts['notes']+=1
+    counts[&#39;notes&#39;]+=1
     meta = yaml.safe_load(split_frontmatter(p.read_text())[0]) or {}
-    desc = (meta.get('description') or '').strip()
-    kc = (meta.get('key_concept') or '').strip()
-    fl = kc.split('\n\n')[0].split('\n')[0].strip() if kc else ''
-    if VERSE.search(desc): counts['verse_desc']+=1
-    if desc and fl and desc.rstrip('.') == fl.rstrip('.'): counts['dup']+=1
-    if len(desc) > 200: counts['long']+=1
-    if VERSE.search(kc): counts['verse_kc']+=1
+    desc = (meta.get(&#39;description&#39;) or &#39;&#39;).strip()
+    kc = (meta.get(&#39;key_concept&#39;) or &#39;&#39;).strip()
+    fl = kc.split(&#39;\n\n&#39;)[0].split(&#39;\n&#39;)[0].strip() if kc else &#39;&#39;
+    if VERSE.search(desc): counts[&#39;verse_desc&#39;]+=1
+    if desc and fl and desc.rstrip(&#39;.&#39;) == fl.rstrip(&#39;.&#39;): counts[&#39;dup&#39;]+=1
+    if len(desc) &gt; 200: counts[&#39;long&#39;]+=1
+    if VERSE.search(kc): counts[&#39;verse_kc&#39;]+=1
 print(counts)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml, sys
@@ -5746,12 +4447,6 @@ PY
 {'notes': 217, 'verse_desc': 0, 'dup': 0, 'long': 0, 'verse_kc': 41}
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5814,10 +4509,8 @@ Fixing the two unlinked mentions in the Reliability and Digital Garden notes.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5864,38 +4557,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-garden.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-garden.md</summary>
 
 </details></tool-use>
 
@@ -5908,14 +4582,13 @@ The second unlinked mention is "client static sites" in Digital Garden, which sh
 
 The lint script likely scans all frontmatter prose fields. The "close the loop" mention in Reliability needs a standard wikilink rather than a pipe link.
 
-The exact replacement for the "close the loop" mention is `[[Complete the Cycle]]`, inserted directly into the sentence.</details></think>
+The exact replacement for the "close the loop" mention is `[[Complete the Cycle]]`, inserted directly into the sentence.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5941,21 +4614,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6062,21 +4726,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6131,68 +4786,39 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The raw content originates from `assembled-content.html`, which contains the description, key concept, examples, and relationships table.</details></think>
+The raw content originates from `assembled-content.html`, which contains the description, key concept, examples, and relationships table.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-garden.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-garden.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js >/dev/null && node scripts/noteFileDates.js >/dev/null && hugo --gc 2>&1 | rg "unlinked mention|broken wikilink" || echo "No link warnings"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/themeGenerator.js &gt;/dev/null &amp;&amp; node scripts/noteFileDates.js &gt;/dev/null &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#34;unlinked mention|broken wikilink&#34; || echo &#34;No link warnings&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js >/dev/null && node scripts/noteFileDates.js >/dev/null && hugo --gc 2>&1 | rg "unlinked mention|broken wikilink" || echo "No link warnings"
 ```
@@ -6201,12 +4827,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js >/de
 No link warnings
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6231,23 +4851,15 @@ display fc 3 cols
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6335,45 +4947,24 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/content** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content`** (1 file)
 
 | File |
 |------|
 | `english/notes/flashcards.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -6382,7 +4973,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Changing `md:col-6` to `md:col-4` will display three columns on medium screens.
 
-The flashcards page should use `md:col-6 lg:col-4` to match the notes index pattern. This keeps two columns on tablets and three on desktops.</details></think>
+The flashcards page should use `md:col-6 lg:col-4` to match the notes index pattern. This keeps two columns on tablets and three on desktops.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6391,24 +4983,15 @@ Switching the flashcards grid from two columns to three on large screens.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html && sleep 8 && curl -s http://localhost:1313/notes/flashcards/ | rg -o 'md:col-6 lg:col-4|notes-cards-grid' | head -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html &amp;&amp; sleep 8 &amp;&amp; curl -s http://localhost:1313/notes/flashcards/ | rg -o &#39;md:col-6 lg:col-4|notes-cards-grid&#39; | head -3</summary>
 ```bash
 touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html && sleep 8 && curl -s http://localhost:1313/notes/flashcards/ | rg -o 'md:col-6 lg:col-4|notes-cards-grid' | head -3
 ```
@@ -6419,12 +5002,6 @@ md:col-6 lg:col-4
 md:col-6 lg:col-4
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6456,31 +5033,20 @@ SUMMARY
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The Reliability note still contains an unlinked mention of "Complete the Cycle" despite having been updated with a wikilink.</details></think>
+The Reliability note still contains an unlinked mention of "Complete the Cycle" despite having been updated with a wikilink.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
@@ -6489,7 +5055,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The lowercase phrase "complete the cycle" matches the alias "close the loop" in complete-the-cycle.md. The lint expects the full title "Complete the Cycle" instead.
 
-The linter flags "Complete the Cycle" because the description uses lowercase "complete the cycle" without a wikilink. The fix is to add `[[Complete the Cycle]]` to the description text.</details></think>
+The linter flags "Complete the Cycle" because the description uses lowercase "complete the cycle" without a wikilink. The fix is to add `[[Complete the Cycle]]` to the description text.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6498,31 +5065,29 @@ The description says "complete the cycle" without a wikilink; the linter matches
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg "unlinked mention|Reliability" || echo "No link warnings"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#34;unlinked mention|Reliability&#34; || echo &#34;No link warnings&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg "unlinked mention|Reliability" || echo "No link warnings"
 ```
-</details>
-</tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+```
+No link warnings
 
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+Fixed. The description voice pass had turned the link back into plain text ("complete the cycle"), which still matched the **Complete the Cycle** note title.
+
+It now reads: `you'll [[Complete the Cycle]] without a reminder.`
+
+Hugo reports zero link warnings. Refresh `/notes/issues/` to confirm.

@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Determining what steps are needed for the blog to comply with OKF.
 
-Searching the codebase for "okf" to determine whether it refers to Open Knowledge Foundation standards, a specific project format, or the Hugo site itself.</details></think>
+Searching the codebase for "okf" to determine whether it refers to Open Knowledge Foundation standards, a specific project format, or the Hugo site itself.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,10 +25,8 @@ Searching the codebase and any related docs for what "OKF" means in this project
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -132,21 +131,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -243,13 +233,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -257,7 +240,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 OKF stands for Open Knowledge Format. The notes garden already supports OKF export.
 
-Checking the OKF specification, export script, and blog structure to determine what changes are needed for blog compliance.</details></think>
+Checking the OKF specification, export script, and blog structure to determine what changes are needed for blog compliance.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -266,37 +250,24 @@ OKF is already wired for the notes garden; I'll compare that setup with the blog
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
 
-Directory: **** (7 files)
+Directory: **``** (7 files)
 
 | File |
 |------|
@@ -307,21 +278,12 @@ Directory: **** (7 files)
 | `scripts/okf-viz/generate.py` |
 | `scripts/okf-viz/viz.css` |
 | `.specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -347,13 +309,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -361,53 +316,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The export script only covers notes, not the blog.
 
-I'll review the export script and OKF compliance history. I'll also check the blog frontmatter and OKF specification requirements.</details></think>
+I'll review the export script and OKF compliance history. I'll also check the blog frontmatter and OKF specification requirements.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -438,13 +374,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -452,14 +381,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Determining what the OKF specification requires.
 
-Reviewing current blog frontmatter patterns and checking for existing blog-to-OKF discussions.</details></think>
+Reviewing current blog frontmatter patterns and checking for existing blog-to-OKF discussions.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -472,29 +400,19 @@ Result:
 
 ```json
 {
-  "markdown": "# Open Knowledge Format (OKF)\n\n**Version 0.1 — Draft**\n\nOKF is an open, human- and agent-friendly format for representing\n*knowledge* — the metadata, context, and curated insight that surrounds\ndata and systems. It is designed to be authored by people, generated by\nagents, exchanged across organizations, and consumed by both.\n\nThe format is intentionally minimal: a directory of markdown files with\nYAML frontmatter. There is no schema registry, no central authority, and\nno required tooling. If you can &#96;cat&#96; a file, you can read OKF; if you\ncan &#96;git clone&#96; a repo, you can ship it.\n\n---\n\n## 1. Motivation\n\nThe space of knowledge representation for AI agents is evolving quickly,\nand many incompatible conventions are emerging. OKF takes the position\nthat knowledge is best represented in commonly accessible, established\nformats that are:\n\n- **Readable** by humans without tooling.\n- **Parseable** by agents without bespoke SDKs.\n- **Diffable** in version control.\n- **Portable** across tools, organizations, and time.\n\nThe format is minimally opinionated. It standardizes only the small set\nof structural conventions needed to make a knowledge corpus\n*self-describing* — anything beyond that is left to the producer.\n\n### Goals\n\n1. Define a universal format that **enrichment agents** can write into.\n2. Inform how **consumption agents** should read and traverse it.\n3. Facilitate **exchange** of knowledge across systems and organizations.\n4. Standardize the small number of **required** fields that must be\n present for content to be meaningfully consumed.\n\n### Non-goals\n\n- Defining a fixed taxonomy of concept types.\n- Prescribing storage, serving, or query infrastructure.\n- Replacing domain-specific schemas (Avro, Protobuf, OpenAPI, etc.) —\n OKF *references* them; it does not subsume them.\n\n---\n\n## 2. Terminology\n\n- **Knowledge Bundle** — A self-contained, hierarchical collection of\n knowledge documents. The unit of distribution.\n- **Concept** — A single unit of knowledge within a bundle. Represented\n as one markdown document. May describe a tangible asset (a table, an\n API), an abstract idea (a metric, a business process), or anything in\n between.\n- **Concept ID** — The path of the concept's file within the bundle,\n with the &#96;.md&#96; suffix removed. For example, &#96;tables/users.md&#96; has\n concept ID &#96;tables/users&#96;.\n- **Frontmatter** — YAML metadata block delimited by &#96;---&#96; at the top of\n a markdown file.\n- **Body** — Everything in the file after the frontmatter.\n- **Link** — A standard markdown link from one concept to another, used\n to express relationships beyond the implicit parent/child hierarchy.\n- **Citation** — A link from a concept to an external source that\n supports a claim in the body.\n\n---\n\n## 3. Bundle Structure\n\nA bundle is a directory tree of markdown files. The directory structure\nis independent of the domain — producers organize concepts however makes\nsense for the knowledge being captured.\n\n&#96;&#96;&#96;\npath/to/bundle/\n├── index.md                      # Optional. Directory listing for progressive disclosure.\n├── log.md                        # Optional. Chronological history of updates.\n├── \u003cconcept\u003e.md                  # A concept at the bundle root.\n└── \u003csubdirectory\u003e/               # Subdirectories organize concepts into groups.\n    ├── index.md\n    ├── \u003cconcept\u003e.md\n    └── \u003csubdirectory\u003e/\n        └── …\n&#96;&#96;&#96;\n\nA bundle MAY be distributed as:\n\n- A git repository (recommended — provides history, attribution, diffs).\n- A tarball or zip archive of the directory.\n- A subdirectory within a larger repository.\n\n### 3.1 Reserved filenames\n\nThe following filenames have defined meaning at any level of the\nhierarchy and MUST NOT be used for concept documents:\n\n| Filename | Purpose |\n|--------------|--------------------------------------------------------|\n| &#96;index.md&#96; | Directory listing. See §6. |\n| &#96;log.md&#96; | Update history. See §7. |\n\nAll other &#96;.md&#96; files are concept documents.\n\nTags themselves remain a first-class concept — see the &#96;tags&#96;\nfrontmatter field in §4.1. OKF does not specify a separate file format\nfor aggregating documents by tag; producers that want a tag-browsing\nview can synthesize one at consumption time by scanning frontmatter.\n\n---\n\n## 4. Concept Documents\n\nEvery concept is a UTF-8 markdown file. It has two parts:\n\n1. A **YAML frontmatter block**, delimited by &#96;---&#96; on its own line at\n the start of the file and a closing &#96;---&#96; on its own line.\n2. A **markdown body**, containing free-form content.\n\n### 4.1 Frontmatter\n\n&#96;&#96;&#96;yaml\n---\ntype: \u003cType name\u003e                  # REQUIRED\ntitle: \u003cOptional display name\u003e\ndescription: \u003cOptional one-line summary\u003e\nresource: \u003cOptional canonical URI for the underlying asset\u003e\ntags: [\u003ctag\u003e, \u003ctag\u003e, …]            # Optional\ntimestamp: \u003cISO 8601 datetime\u003e     # Optional last-modified time\n# … other producer-defined key/value pairs\n---\n&#96;&#96;&#96;\n\n**Required:**\n\n- &#96;type&#96; — A short string identifying the kind of concept. Consumers\n use this for routing, filtering, and presentation. Example values:\n &#96;BigQuery Table&#96;, &#96;BigQuery Dataset&#96;, &#96;API Endpoint&#96;, &#96;Metric&#96;,\n &#96;Playbook&#96;, &#96;Reference&#96;.\n\n Type values are **not** registered centrally. Producers SHOULD pick\n values that are descriptive and self-explanatory; consumers MUST\n tolerate unknown types gracefully (typically by treating them as\n generic concepts).\n\n**Recommended (in priority order):**\n\n- &#96;title&#96; — Human-readable display name. If omitted, consumers MAY\n derive a title from the filename.\n- &#96;description&#96; — A single sentence summarizing the concept. Used by\n &#96;index.md&#96; generators, search snippets, and previews.\n- &#96;resource&#96; — A URI that uniquely identifies the underlying asset the\n concept describes. Absent for concepts that describe abstract ideas\n rather than physical resources.\n- &#96;tags&#96; — A YAML list of short strings for cross-cutting categorization.\n- &#96;timestamp&#96; — ISO 8601 datetime of last meaningful change.\n\n**Extensions:** Producers MAY include any additional keys. Consumers\nSHOULD preserve unknown keys when round-tripping and SHOULD NOT reject\ndocuments with unrecognized fields.\n\n### 4.2 Body\n\nThe body is standard markdown. Producers SHOULD favor structural\nmarkdown — headings, lists, tables, fenced code blocks — over freeform\nprose, since structure aids both human reading and agent retrieval.\n\nThere are no required body sections. The following section headings have\n**conventional** meaning and SHOULD be used when applicable:\n\n| Heading | Purpose |\n|----------------|--------------------------------------------------------|\n| &#96;# Schema&#96; | Structured description of an asset's columns/fields. |\n| &#96;# Examples&#96; | Concrete usage examples, often as fenced code blocks. |\n| &#96;# Citations&#96; | External sources backing claims in the body. See §8. |\n\n### 4.3 Example: a concept bound to a resource\n\n&#96;&#96;&#96;markdown\n---\ntype: BigQuery Table\ntitle: Customer Orders\ndescription: One row per completed customer order across all channels.\nresource: https://console.cloud.google.com/bigquery?p=acme\u0026d=sales\u0026t=orders\ntags: [sales, orders, revenue]\ntimestamp: 2026-05-28T14:30:00Z\n---\n\n# Schema\n\n| Column        | Type      | Description                              |\n|---------------|-----------|------------------------------------------|\n| &#96;order_id&#96;    | STRING    | Globally unique order identifier.        |\n| &#96;customer_id&#96; | STRING    | Foreign key into [customers](/tables/customers.md). |\n| &#96;total_usd&#96;   | NUMERIC   | Order total in US dollars.               |\n| &#96;placed_at&#96;   | TIMESTAMP | When the customer submitted the order.   |\n\n# Joins\n\nJoined with [customers](/tables/customers.md) on &#96;customer_id&#96;.\n\n# Citations\n\n[1] [BigQuery table schema](https://console.cloud.google.com/bigquery?p=acme\u0026d=sales\u0026t=orders)\n&#96;&#96;&#96;\n\n### 4.4 Example: a concept not bound to a resource\n\n&#96;&#96;&#96;markdown\n---\ntype: Playbook\ntitle: Incident response — data freshness alert\ndescription: Steps to triage a freshness alert on the orders pipeline.\ntags: [oncall, incident]\ntimestamp: 2026-04-12T09:00:00Z\n---\n\n# Trigger\n\nA freshness alert fires when &#96;orders&#96; lags more than 30 minutes behind\nits expected SLA. See the [orders table](/tables/orders.md).\n\n# Steps\n\n1. Check the [ingestion job dashboard](https://example.com/dash).\n2. …\n&#96;&#96;&#96;\n\n---\n\n## 5. Cross-linking\n\nConcepts MAY link to other concepts using standard markdown links. Two\nforms are supported:\n\n### 5.1 Absolute (bundle-relative) links\n\nBegin with &#96;/&#96;, interpreted relative to the bundle root.\n\n&#96;&#96;&#96;markdown\nSee the [customers table](/tables/customers.md) for the join key.\n&#96;&#96;&#96;\n\nThis is the **recommended** form because it is stable when documents are\nmoved within their subdirectory.\n\n### 5.2 Relative links\n\nStandard markdown relative paths.\n\n&#96;&#96;&#96;markdown\nSee the [neighboring concept](./other.md).\n&#96;&#96;&#96;\n\n### 5.3 Link semantics\n\nA link from concept A to concept B asserts a *relationship*. The\nspecific kind of relationship (parent/child, references, joins-with,\ndepends-on, etc.) is conveyed by the surrounding prose, not by the link\nitself. Consumers that build a graph view typically treat all links as\ndirected edges of an untyped relationship.\n\nConsumers MUST tolerate broken links — a link whose target does not\nexist in the bundle is not malformed; it may simply represent\nnot-yet-written knowledge.\n\n---\n\n## 6. Index Files\n\nAn &#96;index.md&#96; file MAY appear in any directory, including the bundle\nroot. It enumerates the directory's contents to support **progressive\ndisclosure** — letting a human or agent see what is available before\nopening individual documents.\n\nIndex files contain no frontmatter. The body uses one or more sections,\neach grouping concepts under a heading:\n\n&#96;&#96;&#96;markdown\n# Section / Group Heading\n\n* [Title 1](relative-url-1) - short description of item 1\n* [Title 2](relative-url-2) - short description of item 2\n\n# Another Section\n\n* [Subdirectory](subdir/) - short description of the subdirectory\n&#96;&#96;&#96;\n\nEntries SHOULD include the description from the linked concept's\nfrontmatter. Producers MAY generate &#96;index.md&#96; automatically; consumers\nMAY synthesize one on the fly when none is present.\n\n---\n\n## 7. Log Files (optional)\n\nA &#96;log.md&#96; file MAY appear at any level of the hierarchy to record the\nhistory of changes to that scope. The format is a flat list of\ndate-grouped entries, newest first:\n\n&#96;&#96;&#96;markdown\n# Directory Update Log\n\n## 2026-05-22\n* **Update**: Added new BigQuery table reference for [Customer Metrics](/tables/customer-metrics.md).\n* **Creation**: Established the [Dataplex Playbook](/playbooks/dataplex.md).\n\n## 2026-05-15\n* **Initialization**: Created foundational directory structure.\n* **Update**: Added progressive-disclosure guidelines to the root [index](/index.md).\n&#96;&#96;&#96;\n\nDate headings MUST use ISO 8601 &#96;YYYY-MM-DD&#96; form. Log entries are\nprose; the leading bold word (&#96;**Update**&#96;, &#96;**Creation**&#96;,\n&#96;**Deprecation**&#96;, etc.) is a convention, not a requirement.\n\n---\n\n## 8. Citations\n\nWhen a concept's body makes claims sourced from external material,\nthose sources SHOULD be listed under a &#96;# Citations&#96; heading at the\nbottom of the document, numbered:\n\n&#96;&#96;&#96;markdown\n# Citations\n\n[1] [BigQuery public dataset announcement](https://cloud.google.com/blog/products/data-analytics/...)\n[2] [Internal data quality runbook](https://wiki.acme.internal/data/quality)\n&#96;&#96;&#96;\n\nCitation links MAY be absolute URLs, bundle-relative paths, or paths\ninto a &#96;references/&#96; subdirectory that mirrors external material as\nfirst-class OKF concepts.\n\n---\n\n## 9. Conformance\n\nA bundle is **conformant** with OKF v0.1 if:\n\n1. Every non-reserved &#96;.md&#96; file in the tree contains a parseable YAML\n frontmatter block.\n2. Every frontmatter block contains a non-empty &#96;type&#96; field.\n3. Every reserved filename (&#96;index.md&#96;, &#96;log.md&#96;) follows the structure\n described in §6 and §7 respectively when present.\n\nConsumers SHOULD treat all other constraints as soft guidance. In\nparticular, consumers MUST NOT reject a bundle because of:\n\n- Missing optional frontmatter fields.\n- Unknown &#96;type&#96; values.\n- Unknown additional frontmatter keys.\n- Broken cross-links.\n- Missing &#96;index.md&#96; files.\n\nThis permissive consumption model is intentional: OKF is meant to\nremain useful as bundles grow, get refactored, and are partially\ngenerated by agents.\n\n---\n\n## 10. Relationship to other formats\n\nOKF is intentionally close to several established patterns:\n\n- **LLM \"wiki\" repositories** that use markdown + frontmatter as\n agent-readable knowledge bases.\n- **Personal knowledge tools** like Obsidian and Notion, which use\n hierarchical markdown with cross-links.\n- **\"Metadata as code\"** approaches that store catalog metadata\n alongside source code rather than in a separate registry.\n\nOKF differs primarily in being **specified** — pinning down the small\nset of rules needed for interoperability without dictating tooling.\n\n---\n\n## 11. Versioning\n\nThis document specifies OKF version **0.1**. Future revisions will be\nversioned in the form &#96;. &#96;:\n\n- A **minor** version bump introduces backward-compatible additions\n (new optional fields, new conventional section headings).\n- A **major** version bump may make breaking changes (renaming required\n fields, changing reserved filenames).\n\nBundles MAY declare the OKF version they target by including\n&#96;okf_version: \"0.1\"&#96; in a bundle-root &#96;index.md&#96; frontmatter block (the\nonly place frontmatter is permitted in an &#96;index.md&#96;). Consumers that\ndo not understand the declared version SHOULD attempt best-effort\nconsumption rather than refusing the bundle.\n\n---\n\n## Appendix A — Minimal example bundle\n\n&#96;&#96;&#96;\nmy_bundle/\n├── index.md\n├── datasets/\n│   ├── index.md\n│   └── sales.md\n└── tables/\n    ├── index.md\n    ├── orders.md\n    └── customers.md\n&#96;&#96;&#96;\n\n&#96;datasets/sales.md&#96;:\n\n&#96;&#96;&#96;markdown\n---\ntype: BigQuery Dataset\ntitle: Sales\ndescription: All sales-related tables for the retail business.\nresource: https://console.cloud.google.com/bigquery?p=acme\u0026d=sales\ntags: [sales]\ntimestamp: 2026-05-28T00:00:00Z\n---\n\nThe sales dataset contains transactional tables, including\n[orders](/tables/orders.md) and [customers](/tables/customers.md).\n&#96;&#96;&#96;\n\n&#96;tables/orders.md&#96;:\n\n&#96;&#96;&#96;markdown\n---\ntype: BigQuery Table\ntitle: Orders\ndescription: One row per completed customer order.\nresource: https://console.cloud.google.com/bigquery?p=acme\u0026d=sales\u0026t=orders\ntags: [sales, orders]\ntimestamp: 2026-05-28T00:00:00Z\n---\n\n# Schema\n\n| Column        | Type      | Description                  |\n|---------------|-----------|------------------------------|\n| &#96;order_id&#96;    | STRING    | Unique order identifier.     |\n| &#96;customer_id&#96; | STRING    | FK to [customers](/tables/customers.md). |\n| &#96;total_usd&#96;   | NUMERIC   | Order total in USD.          |\n\nPart of the [sales dataset](/datasets/sales.md).\n&#96;&#96;&#96;\n",
-  "url": "https://raw.githubusercontent.com/GoogleCloudPlatform/knowledge-catalog/main/okf/SPEC.md"
-}
+  "markdown": "# Open Knowledge Format (OKF)\n\n**Version 0.1 — Draft**\n\nOKF is an open, human- and agent-friendly format for representing\n*knowledge* — the metadata, context, and curated insight that surrounds\ndata and systems. It is designed to be authored by people, generated by\nagents, exchanged across organizations, and consumed by both.\n\nThe format is intentionally minimal: a directory of markdown files with\nYAML frontmatter. There is no schema registry, no central authority, and\nno required tooling. If you can `cat` a file, you can read OKF; if you\ncan `git clone` a repo, you can ship it.\n\n---\n\n## 1. Motivation\n\nThe space of knowledge representation for AI agents is evolving quickly,\nand many incompatible conventions are emerging. OKF takes the position\nthat knowledge is best represented in commonly accessible, established\nformats that are:\n\n- **Readable** by humans without tooling.\n- **Parseable** by agents without bespoke SDKs.\n- **Diffable** in version control.\n- **Portable** across tools, organizations, and time.\n\nThe format is minimally opinionated. It standardizes only the small set\nof structural conventions needed to make a knowledge corpus\n*self-describing* — anything beyond that is left to the producer.\n\n### Goals\n\n1. Define a universal format that **enrichment agents** can write into.\n2. Inform how **consumption agents** should read and traverse it.\n3. Facilitate **exchange** of knowledge across systems and organizations.\n4. Standardize the small number of **required** fields that must be\n present for content to be meaningfully consumed.\n\n### Non-goals\n\n- Defining a fixed taxonomy of concept types.\n- Prescribing storage, serving, or query infrastructure.\n- Replacing domain-specific schemas (Avro, Protobuf, OpenAPI, etc.) —\n OKF *references* them; it does not subsume them.\n\n---\n\n## 2. Terminology\n\n- **Knowledge Bundle** — A self-contained, hierarchical collection of\n knowledge documents. The unit of
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -526,22 +444,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **59** results in **1** directory</summary>
 
-Directory: **** (59 files)
+Directory: **``** (59 files)
 
 | File |
 |------|
@@ -604,25 +514,12 @@ Directory: **** (59 files)
 | `content/english/blog/hanamikoji-duopoly-retheme.md` |
 | `content/english/blog/how-i-built-jorap-notes.md` |
 | `content/english/blog/__hugo-static-site-generator.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
@@ -633,14 +530,13 @@ I now have a clear picture. I will check additional requirements.
 
 OKF compliance is minimal. Every non-reserved markdown file needs YAML frontmatter with a required type field. The bundle structure supports optional index.md and log.md. The notes garden already has an OKF export pipeline that transforms Hugo notes into this bundle format.
 
-The blog currently lacks OKF compliance. Three levels of work are needed: producing an OKF bundle from existing posts, achieving full parity with the notes garden, and changing how posts are authored. Next I will inspect the blog layouts for copy buttons and wikilink usage.</details></think>
+The blog currently lacks OKF compliance. Three levels of work are needed: producing an OKF bundle from existing posts, achieving full parity with the notes garden, and changing how posts are authored. Next I will inspect the blog layouts for copy buttons and wikilink usage.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -686,21 +582,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -735,35 +622,20 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -771,14 +643,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking blog layout for copy features, related notes handling, and planned export options.
 
-Also checking blog_frontmatter.py for fields.</details></think>
+Also checking blog_frontmatter.py for fields.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -885,56 +756,33 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **** (3 files)
+Directory: **``** (3 files)
 
 | File |
 |------|
 | `themes/jorap/layouts/blog/list.html` |
 | `layouts/blog/list.html` |
 | `themes/jorap/layouts/blog/single.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1042,13 +890,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1056,40 +897,30 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking what compliance requirements apply.
 
-Reviewing blog copy features, note links, draft posts, and Hugo shortcodes. Checking the OKF standards compliance session notes to clarify what compliance meant for notes.</details></think>
+Reviewing blog copy features, note links, draft posts, and Hugo shortcodes. Checking the OKF standards compliance session notes to clarify what compliance meant for notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 rg: regex parse error:
     (?:^draft: true|^\[\[|{{<|{{%)
                           ^
 error: repetition operator missing expression
-
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1197,39 +1028,28 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 rg: regex parse error:
     (?:{{<|{{%)
        ^
 error: repetition operator missing expression
-
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for shortcodes with simpler patterns.</details></think>
+Searching for shortcodes with simpler patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1309,21 +1129,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1359,21 +1170,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1481,25 +1283,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md</summary>
 
 </details></tool-use>
 
@@ -1520,29 +1309,29 @@ Tier three covers UI parity. Agent copy buttons and markdown export should be ad
 
 Authoring changes are optional. Adding `type` to Hugo frontmatter is unnecessary if the export script injects it. Replacing shortcodes with plain markdown improves agent readability. Wikilinks are also unnecessary for blog posts.
 
-About twelve posts contain shortcodes, though alex-eala alone has forty-seven. Draft posts carry a `__` prefix and must be skipped during export. Blog content is prose-heavy rather than structured, but OKF accepts freeform bodies. The blog holds roughly fifty-eight posts, while the notes garden is larger.</details></think>
+About twelve posts contain shortcodes, though alex-eala alone has forty-seven. Draft posts carry a `__` prefix and must be skipped during export. Blog content is prose-heavy rather than structured, but OKF accepts freeform bodies. The blog holds roughly fifty-eight posts, while the notes garden is larger.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 - <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
 from pathlib import Path
 import re
-blog = Path('/home/jorap/Documents/GitHub/jorap.com/content/english/blog')
-posts = [p for p in blog.glob('*.md') if p.name != '_index.md']
+blog = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/content/english/blog&#39;)
+posts = [p for p in blog.glob(&#39;*.md&#39;) if p.name != &#39;_index.md&#39;]
 drafts = published = shortcodes = related = 0
 for p in posts:
-    t = p.read_text(encoding='utf-8')
-    m = re.match(r'^---\n(.*?)\n---', t, re.S)
-    inner = m.group(1) if m else ''
-    is_draft = 'draft: true' in inner
+    t = p.read_text(encoding=&#39;utf-8&#39;)
+    m = re.match(r&#39;^---\n(.*?)\n---&#39;, t, re.S)
+    inner = m.group(1) if m else &#39;&#39;
+    is_draft = &#39;draft: true&#39; in inner
     if is_draft: drafts += 1
     else: published += 1
-    if '{{<' in t: shortcodes += 1
-    if 'related_notes:' in inner: related += 1
-print(f'total={len(posts)} published={published} drafts={drafts} with_shortcodes={shortcodes} with_related_notes={related}')
+    if &#39;{{&lt;&#39; in t: shortcodes += 1
+    if &#39;related_notes:&#39; in inner: related += 1
+print(f&#39;total={len(posts)} published={published} drafts={drafts} with_shortcodes={shortcodes} with_related_notes={related}&#39;)
 PY</summary>
-
 ```bash
 python3 - <<'PY'
 from pathlib import Path
@@ -1567,20 +1356,12 @@ PY
 total=58 published=24 drafts=34 with_shortcodes=13 with_related_notes=58
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1623,13 +1404,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1637,27 +1411,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 All 58 posts appear to have related notes.
 
-The earlier finding may be misleading. Many posts likely have empty related_notes arrays, or the grep was incorrect. The next step is to count how many actually contain non-empty values.</details></think>
+The earlier finding may be misleading. Many posts likely have empty related_notes arrays, or the grep was incorrect. The next step is to count how many actually contain non-empty values.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 - <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
 from pathlib import Path
 import re, yaml
-blog = Path('/home/jorap/Documents/GitHub/jorap.com/content/english/blog')
+blog = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/content/english/blog&#39;)
 nonempty = 0
-for p in blog.glob('*.md'):
-    if p.name == '_index.md': continue
-    t = p.read_text(encoding='utf-8')
-    m = re.match(r'^---\n(.*?)\n---', t, re.S)
+for p in blog.glob(&#39;*.md&#39;):
+    if p.name == &#39;_index.md&#39;: continue
+    t = p.read_text(encoding=&#39;utf-8&#39;)
+    m = re.match(r&#39;^---\n(.*?)\n---&#39;, t, re.S)
     if not m: continue
     fm = yaml.safe_load(m.group(1)) or {}
-    rn = fm.get('related_notes') or []
+    rn = fm.get(&#39;related_notes&#39;) or []
     if rn: nonempty += 1
-print('nonempty related_notes:', nonempty)
+print(&#39;nonempty related_notes:&#39;, nonempty)
 PY</summary>
-
 ```bash
 python3 - <<'PY'
 from pathlib import Path
@@ -1680,24 +1454,12 @@ PY
 nonempty related_notes: 58
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
 
 </details></tool-use>
 
@@ -1708,7 +1470,8 @@ All 58 posts already include related notes, creating a direct bridge to the note
 
 No need to rewrite existing posts in OKF format. The garden aligns with OKF for agent export rather than replacing Hugo authoring. The main gap is tooling, not content structure. Shortcode handling is the key transformation challenge; posts with many shortcodes will need either a Hugo build step or stripping them out.
 
-Blog posts lack the structured frontmatter fields that notes export uses to flatten metadata into the body. For the OKF export, raw markdown with shortcodes is unreadable by agents. Hugo-rendered HTML or placeholder replacements would be more usable but require extra work. The existing visualization only scans concepts and hubs, so it cannot yet surface blog exports.</details></think>
+Blog posts lack the structured frontmatter fields that notes export uses to flatten metadata into the body. For the OKF export, raw markdown with shortcodes is unreadable by agents. Hugo-rendered HTML or placeholder replacements would be more usable but require extra work. The existing visualization only scans concepts and hubs, so it cannot yet surface blog exports.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1852,7 +1615,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user asks whether OKF could have prevented an AI-generated blog error that assumed they have a daughter instead of their son, Isaiah David.
 
-Searching the blog file `miracle-isaiah-david.md` for context on the incorrect assumption.</details></think>
+Searching the blog file `miracle-isaiah-david.md` for context on the incorrect assumption.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1861,10 +1625,8 @@ That sounds like a context/handoff issue — I'll look for where daughter vs Isa
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1906,25 +1668,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
@@ -1935,14 +1684,13 @@ The user's specific context is clear.
 
 The blog post itself quotes a doctor saying "girl," then corrects to Isaiah David. The user asks if OKF could have prevented an AI from assuming a daughter. The confusion likely stems from this real moment rather than a pure hallucination.
 
-Three possible sources for the incorrect assumption are being considered: the AI misreading the Facebook post quote, generating other posts from partial context, or pulling the wrong detail during blog generation. A search of the actual content files is now underway to locate any incorrect references.</details></think>
+Three possible sources for the incorrect assumption are being considered: the AI misreading the Facebook post quote, generating other posts from partial context, or pulling the wrong detail during blog generation. A search of the actual content files is now underway to locate any incorrect references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1981,21 +1729,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2026,13 +1765,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2040,40 +1772,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The issue is located in the notes garden.
 
-The notes garden contains incorrect references to a daughter. Two files mention a daughter asking for water or getting stuck on a worksheet. This likely caused the AI to assume the wrong gender when generating the blog.</details></think>
+The notes garden contains incorrect references to a daughter. Two files mention a daughter asking for water or getting stuck on a worksheet. This likely caused the AI to assume the wrong gender when generating the blog.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/childlike-faith.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/childlike-faith.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/creative-blocks.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/creative-blocks.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2140,13 +1859,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2164,14 +1876,13 @@ OKF would have worsened the error rather than prevented it. Exporting the notes 
 
 A proper fix requires a canonical facts note or author profile containing the correct details. The wrong daughter references in the notes must also be corrected.
 
-AI blog generation needs the source note plus factual anchors. The OKF workflow should carry correct data. Related notes must link properly so childlike-faith points to miracle-isaiah-david. Checking for an author profile or family note next.</details></think>
+AI blog generation needs the source note plus factual anchors. The OKF workflow should carry correct data. Related notes must link properly so childlike-faith points to miracle-isaiah-david. Checking for an author profile or family note next.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2206,21 +1917,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2327,13 +2029,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2343,7 +2038,8 @@ The notes garden used mostly gender-neutral examples like "my kid," but two plac
 
 OKF is a formatting system, not a fact-checker. The blog generator relied on agent context, so it reproduced the incorrect gender from the source files. The canonical miracle-isaiah-david.md correctly identifies the son, but childlike-faith.md contradicts it. The generator would have produced the right content if the source bundle had contained accurate canonical facts.
 
-The blog itself quotes a Facebook post containing "daughter," which an AI skimming might latch onto without reading the correction. To prevent this, the bundle needs an author facts note, the notes corrected from daughter to son, the generator sourcing from the correct markdown file, and links between the blog and its source notes.</details></think>
+The blog itself quotes a Facebook post containing "daughter," which an AI skimming might latch onto without reading the correction. To prevent this, the bundle needs an author facts note, the notes corrected from daughter to son, the generator sourcing from the correct markdown file, and links between the blog and its source notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2418,7 +2114,8 @@ The user clarified that blogs should not appear in the notes network.
 
 This is a valid design boundary. Blogs and notes serve different purposes. OKF can support blog generation without merging into the notes network.
 
-I am checking how the notes graph currently excludes blogs and whether related_notes links bidirectionally. This will clarify how to keep blogs out of the network while still using OKF for blog generation.</details></think>
+I am checking how the notes graph currently excludes blogs and whether related_notes links bidirectionally. This will clarify how to keep blogs out of the network while still using OKF for blog generation.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2427,10 +2124,8 @@ That boundary makes sense — I'll check how the notes graph and cross-links are
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2462,21 +2157,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2503,21 +2189,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2565,49 +2242,38 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking how the notes graph builds its nodes to exclude blogs.</details></think>
+Checking how the notes graph builds its nodes to exclude blogs.
+</details></think>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching more precisely to exclude blogs from the notes network.</details></think>
+Searching more precisely to exclude blogs from the notes network.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2646,21 +2312,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2716,43 +2373,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking graph-data.html to see what sections it includes.</details></think>
+Checking graph-data.html to see what sections it includes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/graph-data.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/graph-data.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
 
 </details></tool-use>
 
@@ -2763,7 +2402,8 @@ The notes graph only uses the notes pages partial. Blogs won't appear there.
 
 Blog is already isolated from the notes graph. The related_notes link is one-way. OKF can generate blogs from a separate bundle without touching the notes network. Facts anchors should remain as standalone notes or context documents.
 
-Daughter references in notes can be fixed without merging blog content into the network. The cleanest approach keeps the OKF bundle at `/exports/okf-blog/` for agent handoff only. A small facts note in the garden can serve as an intentional anchor. Blog agents should generate per-post copies without catalog merging. This preserves `related_notes` as the sole bridge and keeps the architecture minimal and separate.</details></think>
+Daughter references in notes can be fixed without merging blog content into the network. The cleanest approach keeps the OKF bundle at `/exports/okf-blog/` for agent handoff only. A small facts note in the garden can serve as an intentional anchor. Blog agents should generate per-post copies without catalog merging. This preserves `related_notes` as the sole bridge and keeps the architecture minimal and separate.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2833,7 +2473,8 @@ Related notes will link via live site URLs rather than bundle-relative paths. Th
 
 The blog OKF export will include a root index.md with okf_version and a log.md from git. Validation will reuse the existing bundle check. No visualization will be generated for this export.
 
-A new `export:okf-blog` script will be added to package.json. The deployBuild.mjs will run this export before the Hugo build. Blog agent copy will be added to individual blog pages, following the same pattern used for notes.</details></think>
+A new `export:okf-blog` script will be added to package.json. The deployBuild.mjs will run this export before the Hugo build. Blog agent copy will be added to individual blog pages, following the same pattern used for notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2842,63 +2483,37 @@ Implementing a separate blog OKF export so blogs stay out of the notes graph. Re
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/deployBuild.mjs</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/deployBuild.mjs</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/copy-markdown.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/copy-markdown.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **** (3 files)
+Directory: **``** (3 files)
 
 | File |
 |------|
 | `themes/jorap/layouts/blog/single.html` |
 | `themes/jorap/layouts/blog/list.html` |
 | `layouts/blog/list.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2906,27 +2521,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The blog single template is located at themes/jorap/layouts/blog/single.html. There is no layouts/blog/single directory.
 
-Checking whether to use a layout override or add a partial to the theme. Will inspect the blog single template, static/_headers for export paths, and i18n strings for agent copy.</details></think>
+Checking whether to use a layout override or add a partial to the theme. Will inspect the blog single template, static/_headers for export paths, and i18n strings for agent copy.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3033,25 +2641,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
 
 </details></tool-use>
 
@@ -3074,27 +2669,20 @@ Each blog article will include a "## Related garden notes" section. Links will p
 
 Most Hugo shortcodes in the blog are single-line, so simple regex patterns should suffice. The blog index will list articles with titles and descriptions, while each exported post includes a header explaining it is separate from the notes garden bundle.
 
-The blog export will use the same validation rules as the notes bundle. For the blog post page, the project will override the theme's `layouts/blog/single.html` with a local copy that mirrors the theme structure and adds a copy toolbar. A new `layouts/_partials/blog/copy-markdown.html` partial will provide the copy button markup.</details></think>
+The blog export will use the same validation rules as the notes bundle. For the blog post page, the project will override the theme's `layouts/blog/single.html` with a local copy that mirrors the theme structure and adds a copy toolbar. A new `layouts/_partials/blog/copy-markdown.html` partial will provide the copy button markup.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3193,25 +2781,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
@@ -3226,14 +2801,13 @@ Decided against copying helpers into a standalone blog script to avoid breaking 
 
 Planning the blog bundle script structure. It will resolve related notes to site URLs by scanning the notes directory for slugs and titles. Draft posts will be filtered using the `draft: true` frontmatter flag rather than the `__` filename prefix. The script will write articles, an index, and a log. Blog slugs will be drawn from `blog_frontmatter.default_slug`.
 
-Creating a blog-specific single-page template and markdown partials. Checking whether notes-copy-md.js is already loaded globally in the Hugo configuration.</details></think>
+Creating a blog-specific single-page template and markdown partials. Checking whether notes-copy-md.js is already loaded globally in the Hugo configuration.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3259,25 +2833,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
@@ -3316,7 +2877,8 @@ The copy-markdown partial will render a `notes-copy-md` div with flex styling.
 
 Documentation updates will be skipped unless explicitly requested.
 
-`clear_dir` recursively deletes existing files and directories before recreating the output folder. `write_update_log` now accepts a `content_path` and an `export_line` string for general-purpose logging. Proceeding to implement all files.</details></think>
+`clear_dir` recursively deletes existing files and directories before recreating the output folder. `write_update_log` now accepts a `content_path` and an `export_line` string for general-purpose logging. Proceeding to implement all files.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3325,14 +2887,8 @@ Creating a separate blog OKF bundle and shared export helpers, keeping it out of
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
@@ -3341,35 +2897,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Creating okf_bundle.py with shared utilities. Refactoring export-okf-bundle.py to use it. Adding export-okf-blog-bundle.py and updating layouts, deploy, and package.json.
 
-The blog bundle will skip visualization generation entirely. A single layout override will go in layouts/blog/. Self-checks will be added per ponytail rules. Other projects and documentation updates are being skipped to stay focused.</details></think>
+The blog bundle will skip visualization generation entirely. A single layout override will go in layouts/blog/. Self-checks will be added per ponytail rules. Other projects and documentation updates are being skipped to stay focused.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf_bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf_bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
 
 </details></tool-use>
 
@@ -3378,140 +2919,69 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The `parse_inline_list` function needs fixing.
 
-The regex in `parse_inline_list` matches any key instead of anchoring to the specific one. Dash lists and `parse_list_field` need the same key-specific pattern fix.</details></think>
+The regex in `parse_inline_list` matches any key instead of anchoring to the specific one. Dash lists and `parse_list_field` need the same key-specific pattern fix.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
@@ -3520,83 +2990,47 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Creating blog partials and a single layout. Updating deploy and package files.
 
-Fixing generate_okf_viz in export-okf-bundle. Removing unused datetime import. Creating copy-markdown partial and custom blog single layout.</details></think>
+Fixing generate_okf_viz in export-okf-bundle. Removing unused datetime import. Creating copy-markdown partial and custom blog single layout.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/copy-markdown.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/copy-markdown.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Creating a blog single-page layout with a title header and copy buttons. Adding a JavaScript file to handle markdown copying.</details></think>
+Creating a blog single-page layout with a title header and copy buttons. Adding a JavaScript file to handle markdown copying.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/single.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/deployBuild.mjs</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/deployBuild.mjs</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
@@ -3605,13 +3039,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Running export scripts to verify they work.
 
-Checking py_compile. Verifying whether okf-blog exports should be gitignored or committed. Confirming notes export still works after refactoring.</details></think>
+Checking py_compile. Verifying whether okf-blog exports should be gitignored or committed. Confirming notes export still works after refactoring.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -m py_compile scripts/okf_bundle.py scripts/export-okf-blog-bundle.py scripts/export-okf-bundle.py && PYTHONPATH=scripts python3 scripts/okf_bundle.py && PYTHONPATH=scripts python3 scripts/export-okf-blog-bundle.py && PYTHONPATH=scripts python3 scripts/export-okf-bundle.py 2>&1 | tail -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -m py_compile scripts/okf_bundle.py scripts/export-okf-blog-bundle.py scripts/export-okf-bundle.py &amp;&amp; PYTHONPATH=scripts python3 scripts/okf_bundle.py &amp;&amp; PYTHONPATH=scripts python3 scripts/export-okf-blog-bundle.py &amp;&amp; PYTHONPATH=scripts python3 scripts/export-okf-bundle.py 2&gt;&amp;1 | tail -3</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -m py_compile scripts/okf_bundle.py scripts/export-okf-blog-bundle.py scripts/export-okf-bundle.py && PYTHONPATH=scripts python3 scripts/okf_bundle.py && PYTHONPATH=scripts python3 scripts/export-okf-blog-bundle.py && PYTHONPATH=scripts python3 scripts/export-okf-bundle.py 2>&1 | tail -3
 ```
@@ -3622,12 +3056,6 @@ Wrote OKF blog bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/o
 Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (219 concepts, 8 hubs, 1714 graph edges → viz.html)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3635,40 +3063,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Verifying a sample exported blog article. Confirming notes visualization remains unaffected by blog content.
 
-Also checking the miracle-isaiah-david export.</details></think>
+Also checking the miracle-isaiah-david export.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/miracle-isaiah-david.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/index.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/index.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3694,13 +3109,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3708,18 +3116,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Confirmed: no blog posts are included in the OKF notes bundle.
 
-Checking where related garden notes belong in the miracle file.</details></think>
+Checking where related garden notes belong in the miracle file.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/miracle-isaiah-david.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
@@ -3728,20 +3131,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A blank line is missing before the Related garden notes section.
 
-Adding a newline before the Related garden notes heading to prevent it from gluing to the preceding paragraph.</details></think>
+Adding a newline before the Related garden notes heading to prevent it from gluing to the preceding paragraph.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
 
 </details></tool-use>
 
@@ -3750,7 +3146,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Fixing double newlines left by strip_shortcodes after image removal. Blank lines where images were are acceptable.
 
-No commit unless requested. Skipping copy catalog and SPEC.md updates since those weren't requested. All done.</details></think>
+No commit unless requested. Skipping copy catalog and SPEC.md updates since those weren't requested. All done.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3803,7 +3200,8 @@ Reverting the shortcode stripping in the OKF blog export. HTML equivalents accep
 
 Manual Python mapping of shortcodes to HTML is preferable to running Hugo. The current export script needs review to identify which shortcodes appear in the posts.
 
-Checking theme shortcode definitions and sample posts to identify all shortcode types.</details></think>
+Checking theme shortcode definitions and sample posts to identify all shortcode types.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3812,10 +3210,8 @@ Shortcode stripping loses content — I'll find which shortcodes the blog uses a
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3862,22 +3258,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **27** results in **1** directory</summary>
 
-Directory: **** (27 files)
+Directory: **``** (27 files)
 
 | File |
 |------|
@@ -3908,25 +3296,12 @@ Directory: **** (27 files)
 | `themes/jorap/layouts/shortcodes/spotify_iframe_track.html` |
 | `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html` |
 | `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/mermaid/layouts/shortcodes/mermaid.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
 
 </details></tool-use>
 
@@ -3935,28 +3310,28 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I need to examine the shortcode templates.
 
-The image, youtube, bible, and card shortcodes need inspection. All shortcodes used in published blog posts will be identified.</details></think>
+The image, youtube, bible, and card shortcodes need inspection. All shortcodes used in published blog posts will be identified.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 - <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
 from pathlib import Path
 import re
-blog = Path('/home/jorap/Documents/GitHub/jorap.com/content/english/blog')
+blog = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/content/english/blog&#39;)
 sc = set()
-for p in blog.glob('*.md'):
-    if p.name == '_index.md': continue
+for p in blog.glob(&#39;*.md&#39;):
+    if p.name == &#39;_index.md&#39;: continue
     t = p.read_text()
-    if 'draft: true' in t.split('---')[1] if t.startswith('---') else '':
+    if &#39;draft: true&#39; in t.split(&#39;---&#39;)[1] if t.startswith(&#39;---&#39;) else &#39;&#39;:
         continue
-    for m in re.finditer(r'\{\{<([^>/\s]+)', t):
+    for m in re.finditer(r&#39;\{\{&lt;([^&gt;/\s]+)&#39;, t):
         sc.add(m.group(1))
-    for m in re.finditer(r'\{\{%([^>/\s]+)', t):
+    for m in re.finditer(r&#39;\{\{%([^&gt;/\s]+)&#39;, t):
         sc.add(m.group(1))
 print(sorted(sc))
 PY</summary>
-
 ```bash
 python3 - <<'PY'
 from pathlib import Path
@@ -3980,90 +3355,53 @@ PY
 []
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube_time.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube_time.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/bible.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/bible.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/card.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Draft detection failed. Grepping published posts for shortcodes instead.</details></think>
+Draft detection failed. Grepping published posts for shortcodes instead.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4143,34 +3481,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4202,13 +3525,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4216,14 +3532,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing the shortcodes used in published posts.
 
-Identified specific shortcodes: image, youtube, youtube_time, spotify_iframe_artist, spotify_iframe_track, notice, button, accordion, tabs, tab, toc, gallery, and video. Checking whether hugoplate-theme-review is a draft post.</details></think>
+Identified specific shortcodes: image, youtube, youtube_time, spotify_iframe_artist, spotify_iframe_track, notice, button, accordion, tabs, tab, toc, gallery, and video. Checking whether hugoplate-theme-review is a draft post.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4254,64 +3569,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_track.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_track.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_artist.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_artist.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html</summary>
 
 </details></tool-use>
 
@@ -4322,4 +3606,300 @@ Creating `scripts/blog_shortcodes.py` to convert shortcodes to HTML for publishe
 
 Twelve shortcodes identified for conversion, including image, YouTube, Spotify, notice, button, accordion, tabs, TOC, gallery, and video. Paired and nested shortcodes require a parser that supports nested structures.
 
-The parser will extract shortcode attributes and skip escaped examples. Paired shortcodes will be processed from inside out, then self-closing ones.</details></think>
+The parser will extract shortcode attributes and skip escaped examples. Paired shortcodes will be processed from inside out, then self-closing ones.
+
+Writing a regex-based attribute parser to extract key-value pairs from shortcode tokens. Bare positional values will map to the first attribute, such as the YouTube video ID.
+
+Bare positional values will map to the `id` attribute when no explicit `id` is provided. Image source paths will be resolved to absolute URLs, using the base URL for relative paths starting with `/`.
+
+A helper function will build absolute URLs by prepending the base URL to relative paths. Image shortcodes will render as figure elements.
+
+Image shortcodes will render as `<figure>` with `<img>` and `<figcaption>` tags. YouTube shortcodes will generate responsive iframe embeds with a 56.25% padding ratio. The `youtube_time` variant will append `?start=` and `?end=` query parameters to the embed URL. The notice shortcode will become a styled `<aside>` element containing a heading and the processed inner markdown.
+
+Inner markdown inside paired shortcodes can remain as raw HTML blocks, since OKF accepts HTML within markdown bodies. Paired shortcodes—notice, accordion, tab, and tabs—will be replaced iteratively using regex patterns.
+
+The replacement loop uses a recursive regex to swap paired shortcodes from inside out. Nested tabs will be converted first: each `tab` becomes a panel div, then the outer `tabs` wrapper groups them together.
+
+Accordion shortcodes will render as `<details>` elements with a `<summary>` title and an inner `<div>` for the content. The table-of-contents shortcode will be replaced with a placeholder pointing readers to the live post, since the OKF export is article-specific and building a full TOC from headings would be excessive.
+
+The table-of-contents shortcode will be replaced with a live HTML navigation built from the body’s existing H2 and H3 headings. Headings will be extracted with regex, slugged, and linked as anchor tags.
+
+Gallery shortcodes will list images from a static directory. Video shortcodes will render as simple `<video>` elements with controls. Button shortcodes will become anchor tags with a button class.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/accordion/layouts/shortcodes/accordion.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tab.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/gallery.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/video.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating `blog_shortcodes.py` with HTML equivalents for shortcodes.
+
+Planning HTML conversion logic with attribute escaping and ordered paired shortcode processing. Inner `tab` elements will convert first, then the outer `tabs` wrapper.
+
+Handling self-closing shortcodes and negative YouTube IDs. Drafting `parse_attrs` to extract positional arguments and attributes.
+
+Writing the `parse_attrs` regex loop. It extracts quoted key-value pairs first. Bare tokens become positional arguments. The first bare token maps to `id`.
+
+Adding a regex to capture quoted positional arguments like the notice type. Drafting the gallery shortcode to list images from a static directory.
+
+Gallery shortcode now generates a lazy-loaded image grid from static files. Card and bible shortcodes were skipped because they do not appear in published posts.
+
+Adding minimal markdown parsing for notice inner content. Bold text becomes strong tags. Links become anchor tags. Escaped text is wrapped in paragraphs. This avoids adding a markdown library dependency.
+
+Adding a self-check at the bottom of `blog_shortcodes.py`. Updating `export-okf-blog-bund` to import `shortcodes_to_html` and apply it to the body. Will run the export and verify that `miracle-isaiah-david` renders iframes and images correctly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Creating a shortcode-to-HTML converter for the blog OKF export, replacing stripping.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_shortcodes.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixed inconsistent 2-space indentation in `replace_paired`.
+
+Fixing `parse_attrs` for notice shortcodes. The parser was misidentifying the shortcode name as the type attribute. Now tracing how the regex splits the name separately from the attributes.
+
+Verified `parse_attrs` handles self-closing notices, YouTube IDs, and negative IDs correctly. Also fixing `replace_paired` indentation in `blog_shortcodes.py`.
+
+Updating `export-okf-blog-bundle.py` to handle `youtube_time` shortcodes with missing closing braces. Verified that `tab`, `accordion`, and `notice` shortcodes with quoted titles parse correctly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_shortcodes.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running self-checks and exporting to verify the output.
+
+Fixing parse_attrs for quoted-only attribute text at the start of shortcode strings. Testing self-closing tags with missing spaces before closing brackets.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -m py_compile scripts/blog_shortcodes.py scripts/export-okf-blog-bundle.py &amp;&amp; PYTHONPATH=scripts python3 scripts/blog_shortcodes.py &amp;&amp; PYTHONPATH=scripts python3 scripts/export-okf-blog-bundle.py 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -m py_compile scripts/blog_shortcodes.py scripts/export-okf-blog-bundle.py && PYTHONPATH=scripts python3 scripts/blog_shortcodes.py && PYTHONPATH=scripts python3 scripts/export-okf-blog-bundle.py 2>&1
+```
+
+```
+blog_shortcodes self-check OK
+Wrote OKF blog bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog (24 articles)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying that the miracle-isaiah-david and alex-eala exports include HTML.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/alex-eala-pro-career-tracker.md",
+  "pattern": "iframe|\u003cimg"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/alex-eala-pro-career-tracker.md",
+  "pattern": "iframe|\u003cimg",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "static/exports/okf-blog/articles/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 47
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/hugoplate-theme-review.md",
+  "pattern": "\u003caside|\u003cdetails|\u003cnav"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/hugoplate-theme-review.md",
+  "pattern": "\u003caside|\u003cdetails|\u003cnav",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "static/exports/okf-blog/articles/hugoplate-theme-review.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the image in the miracle post around line 19.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog/articles/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The image path in the shortcode uses `images/` without a leading slash. Hugo serves from `/images/`, and `absURL` appends the base URL. This mismatch needs correction.
+
+The image URL generation is actually correct. Apostrophes in alt text are properly escaped to `&#x27;` in the HTML output.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Shortcodes are now converted to HTML in the OKF export instead of being stripped.
+
+## Change
+
+Added `scripts/blog_shortcodes.py` — maps Hugo shortcodes to static HTML blocks (valid inside OKF markdown bodies).
+
+**Supported in published posts:**
+
+| Shortcode | HTML output |
+|-----------|-------------|
+| `image` | `<figure>` + `<img>` + optional `<figcaption>` |
+| `youtube` | Responsive `<iframe>` embed |
+| `youtube_time` | Embed with `?start=` / `&end=` |
+| `spotify_iframe_track` / `artist` | Spotify `<iframe>` |
+| `video` | `<video controls>` |
+| `button` | `<a class="btn">` |
+| `gallery` | `<div class="gallery">` of images from `static/` |
+| `notice` | `<aside class="notice">` |
+| `accordion` | `<details><summary>` |
+| `tab` / `tabs` | `<section class="tab-panel">` / `<div class="tabs">` |
+| `toc` | `<nav class="toc">` from `##` / `###` headings |
+
+Unrecognized shortcodes are left as-is (not deleted).
+
+## Example output
+
+`miracle-isaiah-david` now exports with:
+
+```html
+<figure>
+  <img src="https://www.jorap.com/images/fb-post-isaiah-david.jpg" alt="..." ... />
+  <figcaption>...</figcaption>
+</figure>
+```
+
+and YouTube clips as `<iframe>` embeds (including negative IDs like `-aQ0q3tTvOw` in the Alex Eala tracker).
+
+Regenerate with `pnpm export:okf-blog` or on the next `pnpm build`.

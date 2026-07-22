@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll rank static site generators by expert criteria.
 
-Key metrics include performance, ecosystem maturity, developer experience, and content flexibility. The workspace contains a Hugo site, so the analysis will focus on that context.</details></think>
+Key metrics include performance, ecosystem maturity, developer experience, and content flexibility. The workspace contains a Hugo site, so the analysis will focus on that context.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,10 +25,8 @@ Gathering current expert perspectives and your site's stack so the ranking refle
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -43,37 +42,19 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [9 Best Static Site Generators in 2026 (Real Benchmarks)](https://talos.tools/blog/best-static-site-generators-2026)\n2. [Best Static Site Generators in 2026 – Complete Comparison Guide](https://buildifyer.com/en/blog/best-static-site-generators-comparison-2026)\n3. [Best Static Site Generators in 2026: Top SSGs Compared](https://naturaily.com/blog/best-static-site-generators)\n4. [Our Top 12 picks for Static Site Generators (SSGs) in 2026 | Hygraph](https://hygraph.com/blog/top-12-ssgs)\n5. [2026 Static Site Generators: Astro, Hugo, and 11ty](https://takao.blog/en/web/static-site-generators-2026-comparison/)\n\nSynthesis:\nThe choice depends on your project scale, team expertise, and interactivity requirements.\n\nAstro is the modern default for most content-driven projects in 2026. Its islands architecture ships zero JavaScript by default but allows you to sprinkle in components from React, Vue, or Svelte only where needed [1][2]. It is best for marketing sites, blogs, and documentation where performance and developer experience are priorities [1][3].\n\nHugo is the industry leader for raw build speed and large-scale sites [1][2]. Written in Go, it compiles thousands of pages in seconds [4][2]. It is the optimal choice for sites exceeding 10,000 pages or those requiring a single-binary deployment with no Node.js dependencies [5][1][2]. Its main trade-off is the use of Go templates, which can be less intuitive for developers accustomed to JSX [5][1].\n\nEleventy (11ty) is the minimalist’s choice [1][6]. It imposes no framework and offers the most flexibility, letting you use various template languages like Nunjucks, Liquid, or raw JavaScript [5][4][2]. It is ideal for developers who want full control over their output and a simple, predictable build pipeline without the abstraction of a modern frontend framework [1][4][2].\n\nSummary for selection:\nChoose Astro if you want a balance of modern component ergonomics and excellent performance [7][2].\nChoose Hugo if build time is a bottleneck or you have a massive content volume [1][3].\nChoose Eleventy if you prefer minimal abstraction, simple configuration, and full control over your HTML [1][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003e9 Best Static Site Generators in 2026 (Real Benchmarks)\u003c/title\u003e\n\u003curl\u003ehttps://talos.tools/blog/best-static-site-generators-2026\u003c/url\u003e\n\u003ccontent\u003eAstro, Next.js, Hugo, Eleventy, Gatsby, Nuxt, SvelteKit, Zola, and Jekyll compared on build speed, learning curve, ecosystem, hosting fit, and best use cases.\n...\nA static site generator (SSG) takes content (Markdown, MDX, or a CMS) plus templates and produces a folder of HTML you can host anywhere. In 2026 the SSG landscape splits cleanly: Astro is the new default for content-first sites, Hugo is still the fastest by a wide margin, Next.js is the heavyweight that does everything, and the rest fill specific niches.\n...\nThis guide compares the nine most-used generators on build speed, ecosystem, hosting fit, JavaScript footprint, and the right use case for each. Quick comparison first, then the per-generator notes.\n...\n| Generator | Language | First-paint JS | 1k-page build | MDX | CMS fit | Best for |\n| --- | --- | --- | --- | --- | --- | --- |\n| Astro | JavaScript / TypeScript | 0 KB (islands) | ~45s | Yes (native) | Strong | Content-first sites |\n| Next.js | JavaScript / TypeScript | ~80 KB | ~90s | Yes | Strong | Marketing + app hybrid |\n| Hugo | Go | 0 KB | ~5s | Limited | OK | 10K+ page sites |\n| Eleventy (11ty) | JavaScript | 0 KB | ~30s | Yes (plugin) | OK | Minimal blogs and docs |\n| Gatsby | JavaScript / React | ~150 KB | ~120s | Yes | Strong (GraphQL layer) | Legacy React projects |\n| Nuxt 4 | JavaScript / Vue | ~70 KB | ~90s | Yes | Strong | Vue-shop sites |\n| SvelteKit | JavaScript / Svelte | ~30 KB | ~60s | Yes (mdsvex) | Decent | Lightweight Svelte sites |\n| Zola | Rust | 0 KB | ~7s | No | Limited | Hugo alternative |\n| Jekyll | Ruby | 0 KB | ~150s | No (Markdown only) | Limited | GitHub Pages defaults |\n...\nThe fastest static site generator by a wide margin. Compiled Go, single binary, builds thousands of pages in seconds. Mature templating, no JavaScript dependency in the build pipeline at all.\n...\nStrengths: ridiculous build speed (5 seconds for 1,000 pages on commodity hardware), single-binary install, zero runtime, mature theme ecosystem.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eBest Static Site Generators in 2026 – Complete Comparison Guide\u003c/title\u003e\n\u003curl\u003ehttps://buildifyer.com/en/blog/best-static-site-generators-comparison-2026\u003c/url\u003e\n\u003ccontent\u003eChoosing the right static site generator (SSG) can define the performance, developer experience, and scalability of your web project for years. The landscape in 2026 is mature and diverse: content-first tools like Astro, blazing-fast builders like Hugo, flexible minimalists like Eleventy, full-stack hybrids like Next.js and SvelteKit, and the veteran plugin ecosystem of Gatsby.\n...\nThis guide compares all six across every dimension that matters — build speed, runtime performance, ecosystem, learning curve, SEO, and real-world use cases — so you can make an informed choice.\n...\nby default.\n...\nHugo is written in Go and is the undisputed king of build speed. Sites with 10,000+ pages build in seconds. If your priority is raw build performance and you are comfortable with Go templates, Hugo is hard to beat.\n...\n## Eleventy (11ty) – Simple and Flexible\n...\nEleventy is the minimalist's choice. It has zero client-side JavaScript by default, supports multiple templating languages, and stays out of your way. It does not impose a framework — you bring your own structure.\n...\n| Astro |\n...\n1. Is the content primarily static? If yes, consider Astro, Hugo, or Eleventy first.\n...\n2. Do you need client-side interactivity on most pages? If yes, Next.js or SvelteKit.\n...\n3. Is build speed a top priority? Hugo is the fastest. Astro and Eleventy are also fast.\n...\n6. Is the project a blog or docs site with minimal JS? Astro or Eleventy.\n...\n7. How large is the content volume? Hugo handles 10,000+ pages effortlessly.\n...\n- Choose Astro for content-first sites with zero JavaScript by default.\n- Choose Next.js for hybrid projects that mix static and dynamic rendering.\n- Choose Hugo for maximum build speed and large content volumes.\n- Choose Eleventy for minimalist flexibility without framework lock-in.\n- Choose Gatsby if your data layer is complex and you are already invested in the ecosystem.\n- Choose SvelteKit for compiled performance and a delightful developer experience.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eBest Static Site Generators in 2026: Top SSGs Compared\u003c/title\u003e\n\u003curl\u003ehttps://naturaily.com/blog/best-static-site-generators\u003c/url\u003e\n\u003ccontent\u003e| Use case | Best choice | Why |\n| --- | --- | --- |\n| Content-heavy marketing site | Astro | Zero-JS by default, excellent Core Web Vitals |\n| SaaS product + marketing | Next.js | Hybrid rendering (SSG + SSR + ISR) |\n| Large documentation portal | Hugo | Extremely fast builds at scale |\n| Developer blog | Eleventy | Minimal abstraction, Markdown-first |\n| Vue-based stack | Nuxt | Production-ready Vue hybrid framework |\n| Knowledge base / digital garden | Quartz | Obsidian-compatible publishing |\n| Python documentation | MkDocs | Standard in Python ecosystem |\n| Non-developer publishing | Publii | Desktop GUI, no CLI required |\n...\n#### 3. Hugo (fastest builds for large static sites)\n...\n#### 4. Eleventy (markdown-first SSG for blogs)\n...\n| Tool | Type | Best for | Language | Rendering | Hosting\n...\n| Why choose it |\n| --- | --- | --- | --- | --- | --- | --- |\n...\n| Astro | Hybrid SSG (islands) | Content + marketing sites | JS / TS | SSG, SSR, Hybrid | Vercel, Netlify, Cloudflare | Zero-JS default; fastest content site performance in 2026 |\n...\n| Hugo | Classic SSG | Large sites, docs, government | Go | SSG only | Any static host | Fastest builds; 18% prerendered page share |\n...\n| Eleventy | Classic SSG | Blogs, portfolios, custom sites | JS / Node | SSG, Serverless | Any static host | Maximum control; zero framework lock-in |\n...\nHugo is the clear answer when build time is a constraint. Zola is a strong alternative if your team finds Hugo'\n...\nAstro: strong default for content-first sites (marketing sites, docs, blogs) where you want mostly static HTML and selective hydration via islands architecture.\n...\nHugo: strong for large-scale static content when you want very fast builds and a straightforward “generate HTML” pipeline (especially if you prefer Go binaries and minimal runtime complexity).\n...\nEleventy (11ty): best when you want control and simplicity – minimal abstraction, broad template support, and a “content + templates → HTML” mental model.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eOur Top 12 picks for Static Site Generators (SSGs) in 2026 | Hygraph\u003c/title\u003e\n\u003curl\u003ehttps://hygraph.com/blog/top-12-ssgs\u003c/url\u003e\n\u003ccontent\u003e# Our top 12 Static Site Generator (SSG) Picks for 2026\n...\nHygraph's picks for the top SSGs in 2026, including NextJS, Hugo, Gridsome, and many more.\n...\n## #2. Hugo\n...\nHugo has earned its reputation as one of the fastest static site generators. Written in Go, it boasts blinding-fast build performance that lets you regenerate entire sites in milliseconds. This makes Hugo a top choice for content-heavy sites. Even the Kubernetes docs site uses Hugo to juggle thousands of pages without missing a beat.\n...\n, with no need for\n...\n## #3. Astro\n...\nAstro offers a fresh take on static site generation - ship less JavaScript by default. Its islands architecture decouples content from interactivity, so pages render as lightweight HTML with zero JS unless needed.\n...\nloads and great SEO, which is a dream combo for content-rich sites and\n...\nAstro can pull data\n...\n(Markdown, JSON,\n...\nCMS APIs) at build time, and even include dynamic\n...\nor Edge Functions if you need them.\n...\nPerformance is where Astro really shines, by shipping almost no JS to the client for static content, it delivers that instantaneous feel users love. Yet, it keeps a modern DX with hot reloading, an integrated dev server, and the ability to add interactivity via Astro Islands.\n...\n## #5. 11ty\n...\nEleventy is often praised for being refreshingly simple and flexible, and offering a “do-whatever-you-want” experience in the static site generator world. You just organize content in folders (Markdown, HTML, or even data files), write templates in your language of choice (Nunjucks, Liquid, Handlebars, etc.), and Eleventy will build it into static HTML.\n...\nThere’s no mandated framework or heavy client-side bundle. Eleventy only outputs what you yourself include. That means by default it ships zero JS, which is great for performance and SEO. On top of it, with Eleventy, it’s easy to start small and gradually scale up, which justifies its tagline “a simpler static site generator”.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003e2026 Static Site Generators: Astro, Hugo, and 11ty\u003c/title\u003e\n\u003curl\u003ehttps://takao.blog/en/web/static-site-generators-2026-comparison/\u003c/url\u003e\n\u003ccontent\u003eThe static site generator landscape in 2026 is more diverse than ever. Developers choose between blazing-fast Go-based Hugo, the islands-architecture pioneer Astro, and the minimalist, flexible 11ty (Eleventy). Each excels in different scenarios — understanding their trade-offs is essential for picking the right tool for your project.\n...\nThis comparison evaluates them across build speed, templating, content management, image optimization, i18n, and deployment.\n...\n| SSG | Language | Build Time (10k pages) | Cold Start | Dev Server Reload |\n| --- | --- | --- | --- | --- |\n| Hugo | Go | ~3-5s | Instant | ~50ms |\n| Astro | Node.js (TypeScript) | ~45-90s | Moderate | ~200ms |\n| 11ty | Node.js (JavaScript) | ~60-120s | Moderate | ~300ms |\n...\nHugo demolishes competitors in build speed. Its Go-based architecture processes thousands of pages in seconds, making it ideal for large documentation sites and blogs. Astro offers excellent speed for its feature set, especially with its partial hydration approach. 11ty is slower on large sites but its simplicity means less overhead for small projects.\n...\n- Hugo — single binary deploy, no runtime dependencies\n- Astro — can deploy as static or SSR (Node.js, Deno, edge functions)\n- 11ty — zero-runtime static output\n...\n| Use Case | Recommended SSG |\n| --- | --- |\n| Large documentation site (5000+ pages) | Hugo |\n| Marketing site with framework components | Astro |\n| Simple blog / personal site | 11ty or Hugo |\n| E-commerce landing page | Astro |\n| Multi-language corporate site | Hugo |\n| Custom build pipeline / existing templates | 11ty |\n| SSR + static hybrid | Astro |\n...\nThere is no single “best” static site generator in 2026 — the right choice depends on your specific requirements. Hugo dominates raw build speed and multilingual sites. Astro leads in developer experience with component-driven architecture and framework integration. 11ty remains the champion of minimalism and flexibility.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    },
-    {
-      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/d999f567-9821-4382-9deb-cfc0c1f36469.txt\nSize: 26.3 KB, 580 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
-      "title": "Best Static Site Generators in 2026: Top SSGs Compared",
-      "url": "https://naturaily.com/blog/best-static-site-generators"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [9 Best Static Site Generators in 2026 (Real Benchmarks)](https://talos.tools/blog/best-static-site-generators-2026)\n2. [Best Static Site Generators in 2026 – Complete Comparison Guide](https://buildifyer.com/en/blog/best-static-site-generators-comparison-2026)\n3. [Best Static Site Generators in 2026: Top SSGs Compared](https://naturaily.com/blog/best-static-site-generators)\n4. [Our Top 12 picks for Static Site Generators (SSGs) in 2026 | Hygraph](https://hygraph.com/blog/top-12-ssgs)\n5. [2026 Static Site Generators: Astro, Hugo, and 11ty](https://takao.blog/en/web/static-site-generators-2026-comparison/)\n\nSynthesis:\nThe choice depends on your project scale, team expertise, and interactivity requirements.\n\nAstro is the modern default for most content-driven projects in 2026. Its islands architecture ships zero JavaScript by default but allows you to sprinkle in components from React, Vue, or Svelte only where needed [1][2]. It is best for marketing sites, blogs, and documentation where performance and developer experience are priorities [1][3].\n\nHugo is the industry leader for raw build speed and large-scale sites [1][2]. Written in Go, it compiles thousands of pages in seconds [4][2]. It is the optimal choice for sites exceeding 10,000 pages or those requiring a single-binary deployment with no Node.js dependencies [5][1][2]. Its main trade-off is the use of Go templates, which can be less intuitive for developers accustomed to JSX [5][1].\n\nEleventy (11ty) is the minimalist’s choice [1][6]. It imposes no framework and offers the most flexibility, letting you use various template languages like Nunjucks, Liquid, or raw JavaScript [5][4][2]. It is ideal for developers who want full control over their output and a simple, predictable build pipeline without the abstraction of a modern frontend framework [1][4][2].\n\nSummary for selection:\nChoose Astro if you want a balance of modern 
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -103,25 +84,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
 
 </details></tool-use>
 
@@ -130,7 +98,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll rank static site generators by expert criteria.
 
-Key metrics are build speed, runtime footprint, developer experience, and content flexibility. The ranking will cover overall scores and category-specific comparisons.</details></think>
+Key metrics are build speed, runtime footprint, developer experience, and content flexibility. The ranking will cover overall scores and category-specific comparisons.
+</details></think>
 
 _**Agent (auto-low)**_
 

@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing all blog items against the /jorap-voice skill standards.
 
-Locating all blog posts under content/english/blog/. Reading voice-words.yaml for lint context. Running pnpm lint:voice for automated checks. Preparing a comprehensive review.</details></think>
+Locating all blog posts under content/english/blog/. Reading voice-words.yaml for lint context. Running pnpm lint:voice for automated checks. Preparing a comprehensive review.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,11 +25,10 @@ I'll audit every blog post against jorap-voice: find all posts, run the voice li
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **55** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (55 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (55 files)
 
 | File |
 |------|
@@ -87,33 +87,19 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (55 files)
 | `content/english/blog/__password-managers.md` |
 | `content/english/blog/__canon-g3000.md` |
 | `content/english/blog/static-site-vs-cms.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1 | head -200</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm voice:scan 2&gt;&amp;1 | head -200</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1 | head -200
 ```
@@ -153,61 +139,9 @@ Review-only (edit data/voice-words.yaml review: to tune)
     content/english/notes/free-tier-hosting-stack.md · relationships.reason
     content/english/notes/maintenance-window.md · relationships.reason
     content/english/notes/reversibility.md · key_concept
-    content/english/notes/reversibility.md · relationships.reason
-    content/english/notes/rollback-principle.md · cards[0].front
-    content/english/notes/rollback-principle.md · examples[0]
-    content/english/notes/rollback-principle.md · key_concept
-    content/english/notes/rollback-principle.md · relationships.reason
-    content/english/notes/staged-rollout.md · aliases[0]
-    content/english/notes/staged-rollout.md · cards[0].front
-    content/english/notes/staged-rollout.md · key_concept
-    content/english/notes/staged-rollout.md · relationships.reason
-    content/english/notes/standard-operating-procedures.md · relationships.reason
-    content/english/notes/the-garage-concept.md · key_concept
-  Distill (10) → boil down / shorten
-    content/english/notes/building-a-second-brain.md · cards[0].front
-    content/english/notes/building-a-second-brain.md · cards[5].back
-    content/english/notes/building-a-second-brain.md · key_concept
-    content/english/notes/building-a-second-brain.md · meta_title
-    content/english/notes/building-a-second-brain.md · relationships.reason
-    content/english/notes/evergreen-notes.md · cards[5].back
-    content/english/notes/literature-notes.md · relationships.reason
-    content/english/notes/the-second-brain-workflow.md · description
-    content/english/notes/the-second-brain-workflow.md · key_concept
-    content/english/notes/the-second-brain-workflow.md · relationships.reason
-  contradicts (8) → goes against
-    content/english/notes/linking-by-meaning.md · cards[0].back
-    content/english/notes/linking-by-meaning.md · cards[1].back
-    content/english/notes/linking-by-meaning.md · cards[5].back
-    content/english/notes/linking-by-meaning.md · cards[5].front
-    content/english/notes/note-relationships.md · cards[1].back
-    content/english/notes/note-relationships.md · cards[4].back
-    content/english/notes/note-relationships.md · description
-    content/english/notes/note-relationships.md · key_concept
-  metadata (6) → tags and fields
-    content/english/notes/context-aware-capture.md · relationships.reason
-    content/english/notes/metadata-strategy.md · key_concept
-    content/english/notes/metadata-strategy.md · key_concept
-    content/english/notes/metadata-strategy.md · meta_title
-    content/english/notes/metadata-strategy.md · title
-    content/english/notes/taxonomy.md · key_concept
-  navigate (3) → cut or be specific
-    content/english/blog/power-of-the-mouse-wheel-click.md · body
-    content/english/blog/power-of-the-mouse-wheel-click.md · body
-    content/english/notes/taxonomy.md · relationships.reason
-  Unmerited Favor (2) → gift you didn't earn
-    content/english/notes/grace.md · aliases[0]
-    content/english/notes/grace.md · meta_title
-
-pnpm lint:voice — fail CI on strict hits
-
+    content/engli
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -215,7 +149,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Starting a full review of all blog posts against jorap-voice.
 
-Running lint:voice on blog posts. Searching for AI tells and common phrases. Sampling published and draft posts.</details></think>
+Running lint:voice on blog posts. Searching for AI tells and common phrases. Sampling published and draft posts.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -224,34 +159,25 @@ Running targeted voice checks on blog posts and sampling published vs draft cont
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash errors:
   content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -287,21 +213,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -409,21 +326,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -459,13 +367,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -475,14 +376,13 @@ A more thorough review is needed.
 
 Several older published posts were identified for review, including generic titles like "top-reasons" and "getting-started" guides. One post contains an em dash issue. These weaker or older items need closer inspection.
 
-The review now covers twenty-two additional published posts. Topics include static sites versus CMS, Drupal migration, desktop computer reasons, gaming, cooking, social media favorites, and wireless earphones.</details></think>
+The review now covers twenty-two additional published posts. Topics include static sites versus CMS, Drupal migration, desktop computer reasons, gaming, cooking, social media favorites, and wireless earphones.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -514,21 +414,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -555,21 +446,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -596,51 +478,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
 
 </details></tool-use>
 
@@ -649,83 +506,48 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Good progress so far. Now reviewing weaker posts and drafts, including power-of-worship-pads, facebooks-hidden-gem, miracle-isaiah-david, drupal-to-wordpress, static-site-vs-cms, consistent-ai-output, sustainable-online-publishing, hugoplate, dnpap, alex-eala tracker, and extension-cord.
 
-Also checking for third-person and generic patterns in openings and closings.</details></think>
+Also checking for third-person and generic patterns in openings and closings.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
@@ -734,79 +556,48 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing additional posts and drafts, including extension-cord, hugoplate, miracle-isaiah-david, alex-eala, dnpap, why-i-focused-on-open-source, and recipe posts.
 
-Also checking meta_title issues such as "Ultimate Guide".</details></think>
+Also checking meta_title issues such as "Ultimate Guide".
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -878,13 +669,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -892,83 +676,48 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking additional drafts and older posts for voice issues.
 
-Scanning hugoplate for list-heavy sections that feel product-manual. Reviewing closing sections and headings for personality-driven voice. Reading draft posts and the alex-eala tracker.</details></think>
+Scanning hugoplate for list-heavy sections that feel product-manual. Reviewing closing sections and headings for personality-driven voice. Reading draft posts and the alex-eala tracker.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__wifi-router.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__wifi-router.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__make-ai-articles-more-human.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__make-ai-articles-more-human.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
 
 </details></tool-use>
 
@@ -979,14 +728,13 @@ Checking recipe post intros, hugoplate closing, mouse wheel navigation, and publ
 
 Generic meta_titles need review. Several published posts show voice mismatches: alex-eala fails lint and leans toward reference material; top-reasons titles sound like listicles but the body matches JoRap voice; getting-started-with-rss uses beginner-slug despite solid content; power-of-worship-pads carries old marketing slug wording; hugoplate’s long feature list may feel like a product manual.
 
-dnpap suits its resource-page format. miracle-isaiah-david feels personal and strong. Several drafts violate the voice guide: selling-static-sites uses dollar figures, shopee-tips uses pesos, and make-ai-articles-more-human quotes bad AI text. Many drafts still hold image-template.jpg placeholders. Next step is checking whether remaining drafts are thin or fully voice-driven.</details></think>
+dnpap suits its resource-page format. miracle-isaiah-david feels personal and strong. Several drafts violate the voice guide: selling-static-sites uses dollar figures, shopee-tips uses pesos, and make-ai-articles-more-human quotes bad AI text. Many drafts still hold image-template.jpg placeholders. Next step is checking whether remaining drafts are thin or fully voice-driven.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1095,60 +843,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1257,13 +978,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1273,57 +987,34 @@ Checking a few thin Hugo tutorial drafts to see if they are outline-only or voic
 
 Also reviewing __client-site-pass-off and __jorap-notes-features. The audit will assess 22 published posts and 31 drafts. Lint failures include an em dash in alex-eala. Currency violations appear in __selling-static-sites and __shopee-tips. Listicle titles in top-reasons-* are meta issues. Resource posts like dnpap-song-resources are fine. alex-eala has a tracker format and a strong personal intro. Possible voice gaps remain in published posts.
 
-hugoplate’s middle section is heavy on feature lists; it could use roughening. The top-reasons posts end with a slightly preachy “So, should you build one?” line, though they stay in first person. The getting-started RSS post is very good, and its minor “navigate” wording belongs to a different post. Now checking the __hugo-* drafts for generic tutorial voice.</details></think>
+hugoplate’s middle section is heavy on feature lists; it could use roughening. The top-reasons posts end with a slightly preachy “So, should you build one?” line, though they stay in first person. The getting-started RSS post is very good, and its minor “navigate” wording belongs to a different post. Now checking the __hugo-* drafts for generic tutorial voice.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-page-bundles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-page-bundles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
@@ -1344,7 +1035,8 @@ Other drafts still need work. Selling-static-sites and shopee-tips carry outdate
 
 Automated checks found no strict word hits in published posts. The alex-eala em dash lint failure remains. Review-only and navigate appear in three posts. Frontmatter shows long tag lists on older posts. The alex-eala meta_title is generic.
 
-The power-of-worship slug still contains "enhancing-yoworship-experience". I will present the findings as an audit table and wait for explicit instructions before making any fixes.</details></think>
+The power-of-worship slug still contains "enhancing-yoworship-experience". I will present the findings as an audit table and wait for explicit instructions before making any fixes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1499,7 +1191,8 @@ Reading the jorap-voice skill and all target files before editing. Slug changes 
 
 Legacy title fixes will update meta_titles without changing slugs to avoid breaking published URLs. Need to check if Hugo supports aliases for slug changes.
 
-Checking Hugo configuration for redirect and alias patterns to safely handle slug changes. Reading multiple files in parallel and reviewing the reference post how-i-built-jorap-notes to match the JoRap voice in the Hugo tutorial drafts.</details></think>
+Checking Hugo configuration for redirect and alias patterns to safely handle slug changes. Reading multiple files in parallel and reviewing the reference post how-i-built-jorap-notes to match the JoRap voice in the Hugo tutorial drafts.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1508,23 +1201,15 @@ Doing all four priority fixes: reading the files to change, then applying them i
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1555,221 +1240,123 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I need to read all nine Hugo tutorial drafts to expand them.</details></think>
+I need to read all nine Hugo tutorial drafts to expand them.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-page-bundles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-page-bundles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-go-templates.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-go-templates.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-shortcodes-deep-dive.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-shortcodes-deep-dive.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-static-site-generator.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-static-site-generator.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__native-hugo-taxonomies.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__native-hugo-taxonomies.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-formatting.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-formatting.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__tailwind-css-v4.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__tailwind-css-v4.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1837,13 +1424,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1853,14 +1433,13 @@ Adding aliases to preserve old URLs when changing slugs on published posts.
 
 Checking existing URL patterns across posts. Some slugs match filenames, others differ, and some posts lack slugs entirely.
 
-Planning legacy title fixes to match JoRap voice. Shortening the RSS slug to `getting-started-with-rss` with an alias to the old URL. Considering a slug change for worship pads to `worship-pads-solo-guitar` with an alias. Checking whether the site already uses aliases.</details></think>
+Planning legacy title fixes to match JoRap voice. Shortening the RSS slug to `getting-started-with-rss` with an alias to the old URL. Considering a slug change for worship pads to `worship-pads-solo-guitar` with an alias. Checking whether the site already uses aliases.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1947,34 +1526,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2000,13 +1564,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2018,14 +1575,13 @@ Worship pads will get a new slug `worship-pads-solo-guitar` with an alias to the
 
 Top-reasons titles and meta_titles will be made more personal. The create article will be titled "Why I Still Run My Own Website". The desktop article will be retitled "Why I Still Keep a Real Computer".
 
-Checking internal links to these updated URLs.</details></think>
+Checking internal links to these updated URLs.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2060,21 +1616,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2106,42 +1653,26 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The blog currently lacks page bundles. I'll compare image handling between the notes page and the miracle-isaiah-david bundle to decide the best approach.</details></think>
+The blog currently lacks page bundles. I'll compare image handling between the notes page and the miracle-isaiah-david bundle to decide the best approach.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2184,21 +1715,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2229,25 +1751,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
 
 </details></tool-use>
 
@@ -2264,7 +1773,8 @@ Slug-only changes will avoid breaking internal links; RSS and top-reasons titles
 
 Replacing exact dollar amounts in the selling-static-sites tutorial with relative terms. $25 per month becomes a bundled maintenance fee. $12 monthly becomes budget-tier shared hosting. Annual domain fees and PHP hosting plans are also reframed without currency figures.
 
-Currency fixes include replacing ₱89 with "cheap item" and "under-a-coffee money item." Alex eala dashes become hyphens. Expanded tutorial drafts will drop the note-capture metadata line. Frontmatter descriptions will stay current while bodies are fully rewritten.</details></think>
+Currency fixes include replacing ₱89 with "cheap item" and "under-a-coffee money item." Alex eala dashes become hyphens. Expanded tutorial drafts will drop the note-capture metadata line. Frontmatter descriptions will stay current while bodies are fully rewritten.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2273,166 +1783,78 @@ Applying quick fixes first, then expanding the nine Hugo tutorial drafts with re
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
 
 </details></tool-use>
 
@@ -2441,7 +1863,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Expanding all nine Hugo tutorial drafts.
 
-Writing full content for each file while preserving frontmatter. Expansions will be concise, targeting roughly 70–100 lines per draft in JoRap voice.</details></think>
+Writing full content for each file while preserving frontmatter. Expansions will be concise, targeting roughly 70–100 lines per draft in JoRap voice.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2450,141 +1873,70 @@ Expanding the nine Hugo tutorial drafts with lived-in project stories.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-page-bundles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-page-bundles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-go-templates.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-go-templates.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-shortcodes-deep-dive.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-shortcodes-deep-dive.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-static-site-generator.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-static-site-generator.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Continuing with the remaining five tutorial expansions.</details></think>
+Continuing with the remaining five tutorial expansions.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__native-hugo-taxonomies.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__native-hugo-taxonomies.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-formatting.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-formatting.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__tailwind-css-v4.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__tailwind-css-v4.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
 
 </details></tool-use>
 
@@ -2595,40 +1947,32 @@ Fixing the Go templates file. The shortcodes file correctly uses `{{</* image` s
 
 Page bundles also use escaped shortcodes. The draft client-site-pass-off link works as a relative path. Running lint:voice to verify. The Svelte link to that post is correct.
 
-Confirmed written files use standard hyphens to avoid dash lint issues. Go template examples are safely inside markdown code blocks.</details></think>
+Confirmed written files use standard hyphens to avoid dash lint issues. Go template examples are safely inside markdown code blocks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash lint OK
 Voice lint warnings:
-  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word &#96;handoff&#96; — try: pass off / pass to client
-  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word &#96;handoff&#96; — try: pass off / pass to client
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2659,13 +2003,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2673,7 +2010,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The lint failure is in notes, not blog. It is pre-existing.
 
-All four fixes are complete. The em dash in Alex’s entry is corrected. Blog currency examples now use the template’s dollar sign. The client-site-pass-off URL works in sveltia once published.</details></think>
+All four fixes are complete. The em dash in Alex’s entry is corrected. Blog currency examples now use the template’s dollar sign. The client-site-pass-off URL works in sveltia once published.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2727,14 +2065,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Fixing pre-existing `handoff` lint failures in the two notes files.
 
-Replacing `handoff` with plain language like "pass off" or "pass to client" in both notes files.</details></think>
+Replacing `handoff` with plain language like "pass off" or "pass to client" in both notes files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2773,13 +2110,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2791,31 +2121,20 @@ Also updating "close the handoff" in static-site-client-scope.md. Checking wheth
 
 Only two files need changes. The selling-static-sites.md text becomes "Client pass-off lane." The static-site-client-scope.md text becomes "pass-off is how you close the handoff." I'll run lint after applying both fixes.
 
-Settled on a cleaner rewrite for static-site-client-scope.md. "Scope note names the boundary - pass-off covers who publishes after launch" avoids the handoff redundancy.</details></think>
+Settled on a cleaner rewrite for static-site-client-scope.md. "Scope note names the boundary - pass-off covers who publishes after launch" avoids the handoff redundancy.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/static-site-client-scope.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/static-site-client-scope.md</summary>
 
 </details></tool-use>
 
@@ -2824,59 +2143,37 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Fixing both issues and running lint. Considering whether to update the client-site-pass-off alias from handoff to pass-off, though removing it could break old links.
 
-Adding pass-off as a new alias while keeping handoff as aliasedirects. Lint may not catch alias issues. Grepping notes site-wide for remaining handoff references.</details></think>
+Adding pass-off as a new alias while keeping handoff as aliasedirects. Lint may not catch alias issues. Grepping notes site-wide for remaining handoff references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/static-site-client-scope.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/static-site-client-scope.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash lint OK
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2884,7 +2181,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Lint passed. The client site pass-off is complete.
 
-The markdown file retains a legacy URL alias for backward compatibility. This is acceptable.</details></think>
+The markdown file retains a legacy URL alias for backward compatibility. This is acceptable.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2910,27 +2208,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Renaming the `/notes/client-site-handoff/` alias on `client-site-pass-off.md`.
 
-Reading the file to update the alias to "pass-off" terminology. Checking for other references to "client-site-handoff" across the codebase.</details></think>
+Reading the file to update the alias to "pass-off" terminology. Checking for other references to "client-site-handoff" across the codebase.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3037,13 +2328,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3061,14 +2345,13 @@ Specstory history confirms the old file was renamed from `client-site-handoff.md
 
 Lint does not currently flag alias paths. The aliases list should drop the handoff URL entirely. The old path may need a separate redirect via Netlify or Cloudflare. Using pass-off as an alias would be redundant because the canonical slug already contains it.
 
-An alternate alias like `/notes/site-pass-off/` could replace the old handoff path. The next step is to check wrangler.toml, _redirects, or Hugo config for existing redirects.</details></think>
+An alternate alias like `/notes/site-pass-off/` could replace the old handoff path. The next step is to check wrangler.toml, _redirects, or Hugo config for existing redirects.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3095,59 +2378,37 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `static/_redirects` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reading static/_redirects to check existing redirect patterns.</details></think>
+Reading static/_redirects to check existing redirect patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/_redirects</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/_redirects</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3255,13 +2516,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3269,14 +2523,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Removing the `/notes/client-site-handoff/` alias from `client-site-pass-off.md`.
 
-Adding Cloudflare 301 redirects from old paths to the new page. Checking for broken wikilinks to update.</details></think>
+Adding Cloudflare 301 redirects from old paths to the new page. Checking for broken wikilinks to update.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3307,21 +2560,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3347,13 +2591,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3361,50 +2598,54 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Only the alias line references handoff in the content.
 
-Removing the handoff path from aliases and adding redirects for the old URL. Will verify whether the linter scans aliases for that word, and check data/noteFileDates.json for stale filename references.</details></think>
+Removing the handoff path from aliases and adding redirects for the old URL. Will verify whether the linter scans aliases for that word, and check data/noteFileDates.json for stale filename references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/_redirects</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/_redirects</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1
 ```
-</details>
-</tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
+Voice dash lint OK
+Voice lint OK
 
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The redirect change affects the deploy path. The user did not request a commit.
+
+Redirecting is the right lazy senior dev move for URL cnuity.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Done.
+
+- **`client-site-pass-off.md`**: removed `/notes/client-site-handoff/` from `aliases` (kept `site pass-off` and `client publish path`)
+- **`static/_redirects`**: added 301 redirects so old bookmarks still work:
+  - `/notes/client-site-handoff/` → `/notes/client-site-pass-off/`
+  - `/notes/client-site-handoff` → `/notes/client-site-pass-off/`
+
+`pnpm lint:voice` still passes. The old URL redirects at the edge instead of living in frontmatter.

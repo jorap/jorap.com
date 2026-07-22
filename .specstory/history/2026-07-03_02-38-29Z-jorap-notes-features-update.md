@@ -13,7 +13,8 @@ _**User**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating `__jorap-notes-features.md` to include feature descriptions, application highlights, and guiding principles.</details></think>
+Updating `__jorap-notes-features.md` to include feature descriptions, application highlights, and guiding principles.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,47 +23,547 @@ I'll locate `__jorap-notes-features.md` and review how the notes garden features
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/blog/__jorap-notes-features.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
 ```json
 {
-  "explanation": "Searching...",
+  "explanation": "",
   "query": "What features does the notes garden have?",
   "topK": 10
 }
 ```
-Status: **loading**
+Result:
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
+```json
+{
+  "codeResults": [
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "---"
+          },
+          {
+            "lineNumber": 2,
+            "text": "title: \"What JoRap Notes Actually Does\""
+          },
+          {
+            "lineNumber": 3,
+            "text": "meta_title: \"JoRap Notes - Features and How the Garden Works\""
+          },
+          {
+            "lineNumber": 4,
+            "text": "description: \"My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, typed links, and copy buttons for AI - all on the same Hugo site.\""
+          },
+          {
+            "lineNumber": 5,
+            "text": "slug: \"jorap-notes-features\""
+          },
+          {
+            "lineNumber": 6,
+            "text": "date: 2026-07-03T02:00:00Z"
+          },
+          {
+            "lineNumber": 7,
+            "text": "image: \"/images/joraps-world.jpg\""
+          },
+          {
+            "lineNumber": 8,
+            "text": "categories: [\"Website\", \"Technology\", \"Tutorial\"]"
+          },
+          {
+            "lineNumber": 9,
+            "text": "author: \"JoRap\""
+          },
+          {
+            "lineNumber": 10,
+            "text": "tags: [\"Digital Garden\", \"PKM\", \"Note Taking\", \"Hugo\", \"Wiki\", \"Flashcards\", \"Second Brain\", \"Website Building\", \"Markdown\", \"Publishing\"]"
+          },
+          {
+            "lineNumber": 11,
+            "text": "related_notes:"
+          },
+          {
+            "lineNumber": 12,
+            "text": "  - digital-garden"
+          },
+          {
+            "lineNumber": 13,
+            "text": "  - getting-started"
+          },
+          {
+            "lineNumber": 14,
+            "text": "  - note-relationships"
+          },
+          {
+            "lineNumber": 15,
+            "text": "  - flashcards"
+          },
+          {
+            "lineNumber": 16,
+            "text": "  - maps-o
+… (output truncated)
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating `__jorap-notes-features.md` with new features, application highlights, and guiding principles.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,html,py,js}",
+  "pattern": "shareable_lines"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "shareable_lines",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/versatility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-second-brain-workflow.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-knowledge-lifecycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-garage-concept.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-feynman-technique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-collectors-fallacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-12-week-year.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/taxonomy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/systems-thinking.md"
+    }
+  ],
+  "totalFiles": 30,
+  "totalMatches": 268
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,html,js,md}",
+  "pattern": "shareable_lines|five.word|Copy issues|Copy catalog|copy-issues|copy-catalog"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "shareable_lines|five.word|Copy issues|Copy catalog|copy-issues|copy-catalog",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/literature-notes.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": "scripts/seed-note-shareable-lines.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/client-site-pass-off.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/continuous-improvement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconcile-before-the-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/taxonomy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/low-hanging-fruit.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/preparedness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reversibility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/daily-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/own-the-error.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/maps-of-content.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 387
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I understand the request. I will update `__jorap-notes-features.md` to reflect current features, highlight their applications, and identify useful principles.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md",
+  "pattern": "shareable"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md",
+  "pattern": "shareable",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**/*.html",
+  "pattern": "copy-|Copy "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "copy-|Copy ",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-prompt-panel.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/essentials/self-hosted-fonts.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 10,
+      "uri": "layouts/_partials/notes/copy-markdown.html"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I now understand the request.
+
+The update will cover new features, practical applications, and underlying PKM principles. I will check the jorap-voice skill and copy-markdown.html for reference.
+
+I will restructure the article to focus on practical applications while preserving JoRap voice. I am checking for a workplace principles section in the maps of content.
+
+Planned additions include shareable lines, voice lint, five-word titles, copy catalog, and copy issues. A Workplace Principles hub will demonstrate audience-specific clusters. Each feature will be paired with its practical application and the underlying PKM principle. I may add a quick-reference table or reorganize sections to feature, application, and principle.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/copy-markdown.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I have gathered enough context. I am now writing a comprehensive update to `__jorap-notes-features.md`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the features post with current capabilities, practical applications, and the principles behind the system.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+This is a markdown file rather than code, so standard linting rules may not apply.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated `content/english/blog/__jorap-notes-features.md` with current features, how to use them, and the principles behind the system. Main changes:
+
+**New structure**
+- **Features at a glance** — table with Feature | What it does | Apply it when…
+- **Principles worth stealing** — 10 portable patterns (one claim per file, name the tension, quote-ready output, etc.)
+
+**Features added or expanded**
+- **Shareable lines** — four quotable lines per note (130 chars, no wikilinks), with Slack/slide/social use cases
+- **Copy catalog** and **Copy issues** on OKF Export and Issues pages
+- **Voice lint** and **title rules** (4-word default, 5-word when needed)
+- **Workplace Principles** as an audience-specific hub example
+
+**Application blocks**
+Each major section now ends with **Application** (when to reach for it) and **Principle** (why it matters), e.g.:
+- Atomic notes → paste description in a meeting; split when you need "and"
+- Typed relationships → force `extends` + `contradicts` before publish
+- Flashcards → drill before the hard conversation, not after
+
+**Other tweaks**
+- Meta description and `related_notes` updated
+- Tool pages table gains an "Apply it when…" column
+- "Where to start" links to Workplace Principles
+
+Still `draft: true`. Say if you want it published or trimmed further.

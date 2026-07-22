@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user does not use TikTok and wants updates adjusted accordingly.
 
-Searching the codebase for TikTok references in `sustainable-online-publishing.md`.</details></think>
+Searching the codebase for TikTok references in `sustainable-online-publishing.md`.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,10 +25,8 @@ Searching the repo for TikTok references to update.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -92,25 +91,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
@@ -119,7 +105,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user does not use TikTok.
 
-`sustainable-online-publishing.md` incorrectly claims the user still uses TikTok. That line will be removed. Other mentions appear to be general examples rather than personal claims.</details></think>
+`sustainable-online-publishing.md` incorrectly claims the user still uses TikTok. That line will be removed. Other mentions appear to be general examples rather than personal claims.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -128,23 +115,15 @@ Checking other content that implies personal TikTok use:
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -178,13 +157,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -196,7 +168,8 @@ TikTok should be removed from the blog post. It may remain as a generic example 
 
 platform-reach-is-borrowed.md should also drop TikTok from its list. The blog post will read "Facebook, X, YouTube - I still use them."
 
-TikTok will also be removed from the note's examples for consistency. It will stay in the other two posts as a general example of platform instability or a cultural reference.</details></think>
+TikTok will also be removed from the note's examples for consistency. It will stay in the other two posts as a general example of platform instability or a cultural reference.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -205,53 +178,30 @@ Removing TikTok from the blog post's personal-use list and the related note.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updated the TikTok references. Other blog posts were left unchanged because they cite TikTok as general platform-risk examples or cultural shorthand rather than personal usage.</details></think>
+Updated the TikTok references. Other blog posts were left unchanged because they cite TikTok as general platform-risk examples or cultural shorthand rather than personal usage.
+</details></think>
 
 _**Agent (auto-low)**_
 

@@ -16,7 +16,8 @@ create new notes to connect
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Creating a note on Discipleship versus Leadership. Existing notes will be connected. New notes may be created as needed.</details></think>
+Creating a note on Discipleship versus Leadership. Existing notes will be connected. New notes may be created as needed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -25,24 +26,17 @@ I'll explore how notes are structured and linked in the garden, then draft "Disc
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **233** results in **1** directory</summary>
 
-Directory: **** (233 files)
+Directory: **``** (233 files)
 
 | File |
 |------|
@@ -279,21 +273,12 @@ Directory: **** (233 files)
 | `content/english/notes/peace.md` |
 | `content/english/notes/faithfulness.md` |
 | `content/english/notes/evergreen-vs-fleeting-notes.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -400,21 +385,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -500,2281 +476,848 @@ Result:
           },
           {
             "lineNumber": 37,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 38,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 39,
-            "text": "tags: [\"Linking\", \"PKM\", \"Note Taking\", \"Digital Garden\", \"Meta\"]"
-          },
-          {
-            "lineNumber": 40,
-            "text": "aliases: [\"link types\", \"Link Typing\"]"
-          },
-          {
-            "lineNumber": 41,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 42,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 43,
-            "text": "card_sets: [\"Linking\", \"Writing\"]"
-          },
-          {
-            "lineNumber": 44,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  - front: \"New note builds on an older atomic claim - adding a typed row in frontmatter now. One relationship word?\""
-          },
-          {
-            "lineNumber": 46,
-            "text": "    back: \"Type extends.\""
-          },
-          {
-            "lineNumber": 47,
-            "text": "  - front: \"This note pushes against a slower-work philosophy I already have in the garden. One typed row for that tension?\""
-          },
-          {
-            "lineNumber": 48,
-            "text": "    back: \"Link as contradicts.\""
-          },
-          {
-            "lineNumber": 49,
-            "text": "  - front: \"Weekly checklist makes a review habit real in my notes. Link type that says this note carries it out?\""
-          },
-          {
-            "lineNumber": 50,
-            "text": "    back: \"Link as implements.\""
-          },
-          {
-            "lineNumber": 51,
-            "text": "  - front: \"Hub page gathering twenty related notes under one roof. Frontmatter flag, not a table row?\""
-          },
-          {
-            "lineNumber": 52,
-            "text": "    back: \"Set note_kind: index.\""
-          },
-          {
-            "lineNumber": 53,
-            "text": "  - front: \"Atomic note ready to publish - minimum typed links before filing?\""
-          },
-          {
-            "lineNumber": 54,
-            "text": "    back: \"One extends, one contradicts.\""
-          },
-          {
-            "lineNumber": 55,
-            "text": "  - front: \"Two tools solve the same job - picking one for this note. Link type for the other tool?\""
-          },
-          {
-            "lineNumber": 56,
-            "text": "    back: \"Link the other as alternative.\""
-          },
-          {
-            "lineNumber": 57,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 58,
-            "text": "---"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 58
-          },
-          "startPosition": {
-            "line": 20
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/note-relationships.md",
-        "signatures": {}
-      },
-      "score": 0.4434035122394562
+            
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing existing notes to understand connections before creating new ones.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The note structure is now clear.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "vs "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "vs ",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/dont-copy-the-pattern.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Linking by Meaning\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Linking by Meaning - How Ideas Find Each Other\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"I link notes so ideas meet in the graph without me memorizing every folder path.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  Folders sort files; links connect ideas."
-          },
-          {
-            "lineNumber": 7,
-            "text": "  "
-          },
-          {
-            "lineNumber": 8,
-            "text": "  I link notes so ideas meet in the graph without me memorizing every folder path."
-          },
-          {
-            "lineNumber": 9,
-            "text": "  "
-          },
-          {
-            "lineNumber": 10,
-            "text": "  Two typed links are enough for the garden to stay walkable six months later when the folder path is gone."
-          },
-          {
-            "lineNumber": 11,
-            "text": "  "
-          },
-          {
-            "lineNumber": 12,
-            "text": "  One link to what extends the thought, one to what pushes back."
-          },
-          {
-            "lineNumber": 13,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  - \"I linked \\\"jeepney delay\\\" to \\\"leave earlier\\\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing.\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "  - \"The playbook card links \\\"late press\\\" to \\\"[[Slow the Moment]]\\\" - I find the counter without memorizing every filename in the binder.\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "shareable_thought:"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  - \"I link notes so ideas meet in the graph without me memorizing every folder path.\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "  - \"Folders sort files; links connect ideas.\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - \"Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "  - \"One link to what extends the thought, one to what pushes back.\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    wikilink: \"[[PARA Method]]\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "    reason: \"when links beat sorting by owner and deadline\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    wikilink: \"[[Atomic Notes]]\""
-          },
-          {
-            "lineNumber": 27,
-            "text": "    reason: \"Links let atomic notes bump into each other without you memorizing every filename\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "slug: \"linking-by-meaning\""
-          },
-          {
-            "lineNumber": 29,
-            "text": "date: \"2026-06-18 06:00:00+00:00\""
-          },
-          {
-            "lineNumber": 30,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 31,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 32,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 33,
-            "text": "tags: [\"Linking\", \"PKM\", \"Note Taking\", \"Second Brain\", \"Digital Garden\", \"Graph\", \"Network\"]"
-          },
-          {
-            "lineNumber": 34,
-            "text": "aliases: [\"Interconnectivity\", \"Power of Interconnectivity\", \"The Power of Interconnectivity\", \"/notes/associative-linking/\"]"
-          },
-          {
-            "lineNumber": 35,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 36,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 37,
-            "text": "card_sets: [\"Linking\", \"Writing\"]"
-          },
-          {
-            "lineNumber": 38,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  - front: \"Just finished a new atomic note - filing it now. Minimum typed links before it's garden-ready?\""
-          },
-          {
-            "lineNumber": 40,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 4,
-            "line": 39
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/linking-by-meaning.md",
-        "signatures": {}
-      },
-      "score": 0.43367770314216614
+      "matchCount": 10,
+      "uri": "content/english/notes/eternal-principles.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 198,
-            "text": "| --- | --- | --- | --- | --- |"
-          },
-          {
-            "lineNumber": 199,
-            "text": "| &#96;note&#96; | Yes | Atomic garden claim | Empty (frontmatter only) | Required: &#96;extends&#96; + &#96;contradicts&#96; minimum |"
-          },
-          {
-            "lineNumber": 200,
-            "text": "| &#96;index&#96; | No | Hub / MOC | Allowed (onboarding, lists) | Optional |"
-          },
-          {
-            "lineNumber": 201,
-            "text": "| &#96;meta&#96; | No | Tool surface | Allowed (tool docs) | Skip |"
-          },
-          {
-            "lineNumber": 202
-          },
-          {
-            "lineNumber": 203,
-            "text": "Utility surfaces (&#96;note_kind: meta&#96; or dedicated layouts) must **not** be wikilinked from content notes. &#96;npm run lint:utility-links&#96; enforces this."
-          },
-          {
-            "lineNumber": 204
-          },
-          {
-            "lineNumber": 205,
-            "text": "### 5.3 Atomic note frontmatter"
-          },
-          {
-            "lineNumber": 206
-          },
-          {
-            "lineNumber": 207,
-            "text": "**Shared blog fields:** &#96;title&#96;, &#96;meta_title&#96;, &#96;description&#96;, &#96;slug&#96;, &#96;date&#96;, &#96;image&#96;, &#96;categories&#96;, &#96;author&#96;, &#96;tags&#96;, &#96;featured&#96;, &#96;draft&#96;"
-          },
-          {
-            "lineNumber": 208
-          },
-          {
-            "lineNumber": 209,
-            "text": "**Garden-specific fields:**"
-          },
-          {
-            "lineNumber": 210
-          },
-          {
-            "lineNumber": 211,
-            "text": "| Field | Required | Rules |"
-          },
-          {
-            "lineNumber": 212,
-            "text": "| --- | --- | --- |"
-          },
-          {
-            "lineNumber": 213,
-            "text": "| &#96;description&#96; | Yes (atomic) | One breath, ≤20 words, no wikilinks |"
-          },
-          {
-            "lineNumber": 214,
-            "text": "| &#96;key_concept&#96; | Yes (atomic) | Angle + stakes; wikilinks allowed |"
-          },
-          {
-            "lineNumber": 215,
-            "text": "| &#96;examples&#96; | Recommended | Exactly two plain bullets; mid-action scenes |"
-          },
-          {
-            "lineNumber": 216,
-            "text": "| &#96;shareable_thought&#96; | Yes (except &#96;_index.md&#96;) | Exactly four standalone lines; each must map to the note principle and stay distinct |"
-          },
-          {
-            "lineNumber": 217,
-            "text": "| &#96;relationships&#96; | Yes (atomic) | Typed rows; each target once; sorted a-z |"
-          },
-          {
-            "lineNumber": 218,
-            "text": "| &#96;aliases&#96; | Optional | Alternate wikilink targets |"
-          },
-          {
-            "lineNumber": 219,
-            "text": "| &#96;note_kind&#96; | Optional | &#96;note&#96; (default), &#96;index&#96;, &#96;meta&#96; |"
-          },
-          {
-            "lineNumber": 220,
-            "text": "| &#96;review&#96; | Optional | &#96;true&#96; for flashcard spine notes |"
-          },
-          {
-            "lineNumber": 221,
-            "text": "| &#96;cards&#96; | When &#96;review: true&#96; | Six scenario cards (front/back) |"
-          },
-          {
-            "lineNumber": 222,
-            "text": "| &#96;card_sets&#96; | When &#96;review: true&#96; | Grouping for Review UI |"
-          },
-          {
-            "lineNumber": 223
-          },
-          {
-            "lineNumber": 224,
-            "text": "**Timestamps:** Created/updated display uses filesystem mtime via &#96;scripts/noteFileDates.js&#96; → &#96;data/noteFileDates.json&#96;. No manual &#96;lastmod&#96; maintenance."
-          },
-          {
-            "lineNumber": 225
-          },
-          {
-            "lineNumber": 226,
-            "text": "**Lint:** &#96;npm run lint:garden&#96; runs frontmatter, format, flashcard, utility-link, and voice checks."
-          },
-          {
-            "lineNumber": 227
-          },
-          {
-            "lineNumber": 228,
-            "text": "### 5.4 Relationship types"
-          },
-          {
-            "lineNumber": 229
-          },
-          {
-            "lineNumber": 230,
-            "text": "| Type | Meaning |"
-          },
-          {
-            "lineNumber": 231,
-            "text": "| --- | --- |"
-          },
-          {
-            "lineNumber": 232,
-            "text": "| &#96;extends&#96; | Builds on or applies the target |"
-          },
-          {
-            "lineNumber": 233,
-            "text": "| &#96;contradicts&#96; | Tension, exception, or corrective |"
-          },
-          {
-            "lineNumber": 234,
-            "text": "| &#96;implements&#96; | Operationalizes the target |"
-          },
-          {
-            "lineNumber": 235,
-            "text": "| &#96;alternative&#96; | Different path to a similar goal |"
-          },
-          {
-            "lineNumber": 236
-          },
-          {
-            "lineNumber": 237,
-            "text": "Each relationship row:"
-          },
-          {
-            "lineNumber": 238
-          },
-          {
-            "lineNumber": 239,
-            "text": "&#96;&#96;&#96;yaml"
-          },
-          {
-            "lineNumber": 240,
-            "text": "- type: extends"
-          },
-          {
-            "lineNumber": 241,
-            "text": "  wikilink: \"[[Target Note]]\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 241
-          },
-          "startPosition": {
-            "line": 197
-          }
-        },
-        "relativeWorkspacePath": "./docs/SPEC.md",
-        "signatures": {}
-      },
-      "score": 0.4261136054992676
+      "matchCount": 2,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Note Relationships\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Note Relationships - Four Link Types for the Garden\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  Four pair types in &#96;relationships&#96; frontmatter show how ideas push and pull - not just that two notes mention each other."
-          },
-          {
-            "lineNumber": 7,
-            "text": "  "
-          },
-          {
-            "lineNumber": 8,
-            "text": "  My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word."
-          },
-          {
-            "lineNumber": 9,
-            "text": "  "
-          },
-          {
-            "lineNumber": 10,
-            "text": "  Extends asks what this idea builds on; contradicts names the tradeoff it pushes against."
-          },
-          {
-            "lineNumber": 11,
-            "text": "  "
-          },
-          {
-            "lineNumber": 12,
-            "text": "  Implements names what makes the idea real; alternative names another path that does the job."
-          },
-          {
-            "lineNumber": 13,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  - \"I'm updating the family chore chart and add \\\"feeds into: Saturday yard work\\\" next to \\\"take out trash\\\" plus \\\"conflicts with: bedtime when done late\\\" before I tape it to the fridge.\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "  - \"The coach's whiteboard lists \\\"feeds into: secondary break\\\" beside each drill - players see how today's reps connect before they leave the gym.\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "shareable_thought:"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  - \"My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "  - \"Four pair types in relationships frontmatter show how ideas push and pull - not just that two notes mention each other.\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - \"Extends asks what this idea builds on; contradicts names the tradeoff it pushes against.\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "  - \"Implements names what makes the idea real; alternative names another path that does the job.\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  - type: alternative"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    wikilink: \"[[PARA Method]]\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 23
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/note-relationships.md",
-        "signatures": {}
-      },
-      "score": 0.41725796461105347
+      "matchCount": 5,
+      "uri": "content/english/notes/renewed-mind.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 39,
-            "text": "**Description** - one breath, the single claim I'd quote in conversation."
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "**Key concept** - not a second definition. First paragraph: one sentence (the angle). Next paragraph: stakes, distinctions, wikilinks."
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "lineNumber": 43,
-            "text": "**Examples** - exactly two plain bullets in frontmatter from different fields. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox."
-          },
-          {
-            "lineNumber": 44
-          },
-          {
-            "lineNumber": 45,
-            "text": "**Relationships** - &#96;extends&#96; and &#96;contradicts&#96; minimum; optional &#96;implements&#96; and &#96;alternative&#96;. Sorted relationship a-z then wikilink a-z; each target once."
-          },
-          {
-            "lineNumber": 46
-          },
-          {
-            "lineNumber": 47,
-            "text": "## Create a note"
-          },
-          {
-            "lineNumber": 48
-          },
-          {
-            "lineNumber": 49,
-            "text": "&#96;&#96;&#96;bash"
-          },
-          {
-            "lineNumber": 50,
-            "text": "hugo new notes/my-idea.md"
-          },
-          {
-            "lineNumber": 51,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 52
-          },
-          {
-            "lineNumber": 53,
-            "text": "Or add a &#96;.md&#96; file under &#96;content/english/notes/&#96;. Atomic notes use &#96;description&#96;, &#96;key_concept&#96;, &#96;examples&#96;, and &#96;relationships&#96; in frontmatter plus the usual blog fields (&#96;title&#96;, &#96;meta_title&#96;, &#96;slug&#96;, &#96;date&#96;, &#96;image&#96;, &#96;categories&#96;, &#96;author&#96;, &#96;tags&#96;, &#96;featured&#96;, &#96;draft&#96;)."
-          },
-          {
-            "lineNumber": 54
-          },
-          {
-            "lineNumber": 55,
-            "text": "Created and updated timestamps come from the file itself at build time (&#96;scripts/noteFileDates.js&#96;) - no manual date fields to maintain."
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57,
-            "text": "## Link between notes"
-          },
-          {
-            "lineNumber": 58
-          },
-          {
-            "lineNumber": 59,
-            "text": "Use wikilinks in the body:"
-          },
-          {
-            "lineNumber": 60
-          },
-          {
-            "lineNumber": 61,
-            "text": "- &#96;[[Atomic Notes]]&#96; - link by title"
-          },
-          {
-            "lineNumber": 62,
-            "text": "- &#96;[[atom]]&#96; - works via the &#96;aliases&#96; frontmatter field"
-          },
-          {
-            "lineNumber": 63
-          },
-          {
-            "lineNumber": 64,
-            "text": "What this site gives you:"
-          },
-          {
-            "lineNumber": 65
-          },
-          {
-            "lineNumber": 66,
-            "text": "- **Wikilinks** - &#96;[[Note Title]]&#96; in note bodies (no pipe labels)"
-          },
-          {
-            "lineNumber": 67,
-            "text": "- **Aliases** - alternate link targets in frontmatter (&#96;aliases: [\"PARA\"]&#96; on [[PARA Method]])"
-          },
-          {
-            "lineNumber": 68,
-            "text": "- **Outgoing links** - listed below each note's body"
-          },
-          {
-            "lineNumber": 69,
-            "text": "- **Backlinks** - with context snippets when another note links here"
-          },
-          {
-            "lineNumber": 70,
-            "text": "- **Graph** - map view; filter by high, low, no body links, and orphans at [/notes/graph/](/notes/graph/)"
-          },
-          {
-            "lineNumber": 71,
-            "text": "- **Issues** - broken wikilinks, pipe wikilinks, and unlinked mentions at [/notes/issues/](/notes/issues/); also shown on each note"
-          },
-          {
-            "lineNumber": 72,
-            "text": "- **See also** - tag-related notes generated at build time (not static in markdown)"
-          },
-          {
-            "lineNumber": 73,
-            "text": "- **Hover previews** - pause on a wikilink to peek at the target note"
-          },
-          {
-            "lineNumber": 74,
-            "text": "- **Maps of Content** - hub index at [[Maps of Content]]"
-          },
-          {
-            "lineNumber": 75,
-            "text": "- **Resurfacing** - featured random note and [Random Duo](/notes/random-duo/) on [/notes/](/notes/)"
-          },
-          {
-            "lineNumber": 76,
-            "text": "- **Create Note** - topic → AI prompt for one lint-ready atomic note at [/notes/create/](/notes/create/)"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 76
-          },
-          "startPosition": {
-            "line": 37
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.40795445442199707
+      "matchCount": 1,
+      "uri": "content/english/notes/finish-strong.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "note_kind: \"meta\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "layout: \"issues\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "title: \"Issues\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "meta_title: \"Garden Link Issues\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "description: |"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  Garden hygiene: broken wikilinks, graph shape, structure, and format drift - listed below and on each affected note. Faith parallel: [[Judge Not]] - fix the speck in the graph without playing judge over the author."
-          },
-          {
-            "lineNumber": 8,
-            "text": "  "
-          },
-          {
-            "lineNumber": 9,
-            "text": "  **Missing note** means the wikilink target does not match any published note. **Pipe wikilink** means deprecated double-bracket syntax with a pipe label (&#96;[[target|label]]&#96;) - use &#96;[[Note Title]]&#96; only. **Unlinked mention** means another note's title appears in prose without a link - not in markdown headings (&#96;## …&#96;) or the **Note Relationships** table. **Structure issues** flag missing &#96;extends&#96; / &#96;contradicts&#96; rows in the **Note Relationships** table on garden notes (utility/meta pages are exempt). **Orphan** means no inbound wikilinks (outbound relationships do not count). **Dead end** means no wikilinks in the note body (See also excluded). **Utility wikilink** means a tool or meta page linked via &#96;[[wikilink]]&#96; instead of &#96;/notes/\u003cslug\u003e/&#96;. **Broken relationship** means a &#96;relationships:&#96; frontmatter target does not resolve. **Body section** means &#96;## Key Concept&#96;, &#96;## Examples&#96;, or &#96;## Note Relationships&#96; still in the markdown body instead of frontmatter. Pairs with [[Graph]], [[Backlinks]], and [[Random Duo]]."
-          },
-          {
-            "lineNumber": 10,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  Fix the speck in the graph without playing judge over the author."
-          },
-          {
-            "lineNumber": 12,
-            "text": "  "
-          },
-          {
-            "lineNumber": 13,
-            "text": "  Broken wikilinks and unlinked note titles are graph hygiene problems to fix."
-          },
-          {
-            "lineNumber": 14,
-            "text": "  "
-          },
-          {
-            "lineNumber": 15,
-            "text": "  Orphans and dead ends are graph shape problems - same metrics as [[Graph]] filters."
-          },
-          {
-            "lineNumber": 16,
-            "text": "  "
-          },
-          {
-            "lineNumber": 17,
-            "text": "  Missing extends or contradicts rows in relationships frontmatter are structure bugs to fix."
-          },
-          {
-            "lineNumber": 18,
-            "text": "shareable_thought:"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - \"Fix the speck in the graph without playing judge over the author.\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 19
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/issues.md",
-        "signatures": {}
-      },
-      "score": 0.4042969048023224
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 116,
-            "text": "**Application:** Write the way you think - name the idea, link it, move on. Backlinks surface connections you forgot you made. See also nudges you to link notes that share tags but not yet prose."
-          },
-          {
-            "lineNumber": 117
-          },
-          {
-            "lineNumber": 118,
-            "text": "**Principle:** The graph is the product. Folders sort files; links sort ideas. A note nobody links to is a note nobody will find when they need it."
-          },
-          {
-            "lineNumber": 119
-          },
-          {
-            "lineNumber": 120,
-            "text": "---"
-          },
-          {
-            "lineNumber": 121
-          },
-          {
-            "lineNumber": 122,
-            "text": "## Typed relationships, not just \"related\""
-          },
-          {
-            "lineNumber": 123
-          },
-          {
-            "lineNumber": 124,
-            "text": "Two notes can mention the same word and mean opposite things. A flat \"related notes\" list hides that."
-          },
-          {
-            "lineNumber": 125
-          },
-          {
-            "lineNumber": 126,
-            "text": "Every atomic note carries a &#96;relationships&#96; table in frontmatter with four types:"
-          },
-          {
-            "lineNumber": 127
-          },
-          {
-            "lineNumber": 128,
-            "text": "| Type | What it means |"
-          },
-          {
-            "lineNumber": 129,
-            "text": "|------|----------------|"
-          },
-          {
-            "lineNumber": 130,
-            "text": "| **extends** | This builds on that |"
-          },
-          {
-            "lineNumber": 131,
-            "text": "| **contradicts** | Tension, exception, tradeoff |"
-          },
-          {
-            "lineNumber": 132,
-            "text": "| **implements** | This makes that operational |"
-          },
-          {
-            "lineNumber": 133,
-            "text": "| **alternative** | Different path, similar job |"
-          },
-          {
-            "lineNumber": 134
-          },
-          {
-            "lineNumber": 135,
-            "text": "Each row has a one-line **reason** - telegraphic is fine. \"Rollback first; after-action review after calm\" beats a paragraph."
-          },
-          {
-            "lineNumber": 136
-          },
-          {
-            "lineNumber": 137,
-            "text": "Minimum on every atomic note: at least one &#96;extends&#96; and one &#96;contradicts&#96;. That forces me to place the idea in a graph of push and pull, not a pile of definitions."
-          },
-          {
-            "lineNumber": 138
-          },
-          {
-            "lineNumber": 139,
-            "text": "The [Graph](/notes/graph/) view shows the same links as edges. Filters let you hide noisy nodes, surface orphans, or focus on notes with few body links. It runs in the browser with PixiJS - only loads on the graph page, not on every note."
-          },
-          {
-            "lineNumber": 140
-          },
-          {
-            "lineNumber": 141,
-            "text": "**Application:** Before you publish a new note, ask \"what does this extend?\" and \"what does this push against?\" The reason field is your future self explaining the link in one breath. Use the graph filter when a hub feels bloated or when you suspect duplicate claims."
-          },
-          {
-            "lineNumber": 142
-          },
-          {
-            "lineNumber": 143,
-            "text": "**Principle:** Ideas live in tension. Naming &#96;contradicts&#96; keeps you honest about tradeoffs instead of pretending every note agrees with every other note."
-          },
-          {
-            "lineNumber": 144
-          },
-          {
-            "lineNumber": 145,
-            "text": "---"
-          },
-          {
-            "lineNumber": 146
-          },
-          {
-            "lineNumber": 147,
-            "text": "## Tool pages"
-          },
-          {
-            "lineNumber": 148
-          },
-          {
-            "lineNumber": 149,
-            "text": "These are built-in utilities, not ideas in the garden:"
-          },
-          {
-            "lineNumber": 150
-          },
-          {
-            "lineNumber": 151,
-            "text": "| Tool | URL | What it does | Apply it when… |"
-          },
-          {
-            "lineNumber": 152,
-            "text": "|------|-----|--------------|----------------|"
-          },
-          {
-            "lineNumber": 153,
-            "text": "| **List** | [/notes/](/notes/) | Filterable index; featured random note at the top | You want to browse or rediscover without a plan |"
-          },
-          {
-            "lineNumber": 154,
-            "text": "| **Graph** | [/notes/graph/](/notes/graph/) | Network map with filters | You need the shape of the garden, not one page |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 154
-          },
-          "startPosition": {
-            "line": 114
-          }
-        },
-        "relativeWorkspacePath": "./content/english/blog/__jorap-notes-features.md",
-        "signatures": {}
-      },
-      "score": 0.39333149790763855
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-garden.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Network Analysis\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Network Analysis\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"I look at which notes connect everything else - those hubs tell me where the garden actually lives.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  Study links and hubs in a graph - who connects whom, what's isolated."
-          },
-          {
-            "lineNumber": 7,
-            "text": "  "
-          },
-          {
-            "lineNumber": 8,
-            "text": "  Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded. [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics."
-          },
-          {
-            "lineNumber": 9,
-            "text": "  "
-          },
-          {
-            "lineNumber": 10,
-            "text": "  I look at which notes connect everything else."
-          },
-          {
-            "lineNumber": 11,
-            "text": "  "
-          },
-          {
-            "lineNumber": 12,
-            "text": "  Those hubs tell me where the garden actually lives."
-          },
-          {
-            "lineNumber": 13,
-            "text": "  "
-          },
-          {
-            "lineNumber": 14,
-            "text": "  Network analysis means studying links and hubs in the graph - who connects whom, what's isolated."
-          },
-          {
-            "lineNumber": 15,
-            "text": "  "
-          },
-          {
-            "lineNumber": 16,
-            "text": "  Network analysis shows who connects whom in the graph - and which notes sit isolated without links."
-          },
-          {
-            "lineNumber": 17,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  - \"The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first.\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - \"The chore chart showed one kid linking every task - that's the bottleneck we fixed first.\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "shareable_thought:"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  - \"I look at which notes connect everything else.\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "  - \"Those hubs tell me where the garden actually lives.\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "  - \"Network analysis means studying links and hubs in the graph - who connects whom, what's isolated.\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "  - \"Network analysis shows who connects whom in the graph - and which notes sit isolated without links.\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    wikilink: \"[[Maps of Content]]\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "    reason: \"when the opposite frame fits better\""
-          },
-          {
-            "lineNumber": 29,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    wikilink: \"[[Graph View Analytics]]\""
-          },
-          {
-            "lineNumber": 31,
-            "text": "    reason: \"Analytics surface hubs and orphans from the link graph\""
-          },
-          {
-            "lineNumber": 32,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    wikilink: \"[[Linking by Meaning]]\""
-          },
-          {
-            "lineNumber": 34,
-            "text": "    reason: \"Links create the graph you analyze for hubs\""
-          },
-          {
-            "lineNumber": 35,
-            "text": "slug: \"network-analysis\""
-          },
-          {
-            "lineNumber": 36,
-            "text": "date: \"2026-06-22 06:00:00+00:00\""
-          },
-          {
-            "lineNumber": 37,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 38,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 39,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 40,
-            "text": "tags: [\"PKM\", \"Graph\"]"
-          },
-          {
-            "lineNumber": 41,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 42,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 43,
-            "text": "card_sets: [\"Focus\", \"Review\"]"
-          },
-          {
-            "lineNumber": 44,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  - front: \"Playbook diagram - one motion offense links twelve other sets. What do I fix first?\""
-          },
-          {
-            "lineNumber": 46,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 4,
-            "line": 45
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/network-analysis.md",
-        "signatures": {}
-      },
-      "score": 0.38797664642333984
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 222,
-            "text": "**Principle:** Constraints are features. The garden stays usable because broken links and vague titles fail the build instead of silently degrading."
-          },
-          {
-            "lineNumber": 223
-          },
-          {
-            "lineNumber": 224,
-            "text": "---"
-          },
-          {
-            "lineNumber": 225
-          },
-          {
-            "lineNumber": 226,
-            "text": "## Blog and garden together"
-          },
-          {
-            "lineNumber": 227
-          },
-          {
-            "lineNumber": 228,
-            "text": "Blog posts can declare &#96;related_notes&#96; in frontmatter - slugs of garden notes that extend the essay. The note page does not automatically link back, but the blog single surfaces the bridge."
-          },
-          {
-            "lineNumber": 229
-          },
-          {
-            "lineNumber": 230,
-            "text": "When a note outgrows one screen, I distill it into a blog post under &#96;content/english/blog/&#96;. The note stays the atomic claim; the post is the story around it."
-          },
-          {
-            "lineNumber": 231
-          },
-          {
-            "lineNumber": 232,
-            "text": "Faith notes, PKM notes, and workplace principles share the same machinery. Only the subject changes. [Workplace Principles](/notes/workplace-principles/) is the clearest example of audience-specific application: the same ethics as [Eternal Principles](/notes/eternal-principles/), rewritten in language that fits a secular standup or 1:1."
-          },
-          {
-            "lineNumber": 233
-          },
-          {
-            "lineNumber": 234,
-            "text": "**Application:** Write the essay once; link the claims you want readers to keep. When a team will not open a theology note, build a workplace hub that wikilinks back to the source when depth is needed."
-          },
-          {
-            "lineNumber": 235
-          },
-          {
-            "lineNumber": 236,
-            "text": "**Principle:** Long form and atomic notes serve different memory. The post persuades; the note persists."
-          },
-          {
-            "lineNumber": 237
-          },
-          {
-            "lineNumber": 238,
-            "text": "---"
-          },
-          {
-            "lineNumber": 239
-          },
-          {
-            "lineNumber": 240,
-            "text": "## Principles worth stealing"
-          },
-          {
-            "lineNumber": 241
-          },
-          {
-            "lineNumber": 242,
-            "text": "You do not need my exact Hugo setup to benefit from the pattern. These are the moves that pay off regardless of tool:"
-          },
-          {
-            "lineNumber": 243
-          },
-          {
-            "lineNumber": 244,
-            "text": "1. **One claim per file** - If you need \"and\" to finish the sentence, split. Compression is a clarity test."
-          },
-          {
-            "lineNumber": 245,
-            "text": "2. **Links over folders** - Wikilinks and backlinks surface structure you did not plan. Folders hide it."
-          },
-          {
-            "lineNumber": 246,
-            "text": "3. **Name the tension** - &#96;extends&#96; and &#96;contradicts&#96; beat a flat \"related\" list. Ideas live in push and pull."
-          },
-          {
-            "lineNumber": 247,
-            "text": "4. **Quote-ready output** - Description, shareable thoughts, and flashcard backs are three registers of the same claim: define it, share it, apply it."
-          },
-          {
-            "lineNumber": 248,
-            "text": "5. **Tools are not ideas** - Graph, Review, and Issues are meta pages. Keep garden notes about ideas; link to tools by URL."
-          },
-          {
-            "lineNumber": 249,
-            "text": "6. **Agents eat structure** - Copy buttons and OKF export only matter if your notes are already shaped consistently. Garbage in, garbage out - but shaped garbage travels."
-          },
-          {
-            "lineNumber": 250,
-            "text": "7. **Lint what you will not notice** - Broken links and vague titles rot quietly. Automate the boring checks so the garden survives your tired Sundays."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 250
-          },
-          "startPosition": {
-            "line": 220
-          }
-        },
-        "relativeWorkspacePath": "./content/english/blog/__jorap-notes-features.md",
-        "signatures": {}
-      },
-      "score": 0.3824361562728882
+      "matchCount": 1,
+      "uri": "content/english/notes/integrity-without-an-audience.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Related garden notes for a page (blog → notes garden; notes → see-also)."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Priority: related_notes frontmatter (first, in order) → tag overlap → title mentions (blog) → Hugo .Related."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Returns a slice of dicts: Page, Score, Shared."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $page := .Context -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $limit := .Limit | default 5 -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $minShared := .MinSharedTags | default 1 | int -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $notes := partial \"notes/pages.html\" (dict \"ExcludeKinds\" (slice \"index\")) -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $items := slice -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $seen := dict -}}"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- with $page.Params.related_notes -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- range $i, $slug := . -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    {{- range $notes -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "      {{- if or (eq (.Params.slug | default \"\") $slug) (eq .File.ContentBaseName $slug) -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "        {{- $key := .RelPermalink -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "        {{- if not (index $seen $key) -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "          {{- $seen = merge $seen (dict $key true) -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "          {{- $score := sub 10.0 (float $i) -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "          {{- $items = $items | append (dict \"Page\" . \"Score\" $score \"Shared\" slice) -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "{{- if lt (len $items) $limit -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "{{- $labels := $page.Params.tags | default slice -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "{{- $labels = $labels | append ($page.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "{{- if gt (len $labels) 0 -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  {{- range $notes -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 4,
-            "line": 33
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/related-notes.html",
-        "signatures": {}
-      },
-      "score": 0.3801194429397583
+      "matchCount": 2,
+      "uri": "content/english/notes/creative-output.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "note_kind: \"index\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "title: \"Getting Started\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "meta_title: \"Getting Started - Notes Garden\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "description: \"I keep one clear claim per note page and let wikilinks plus [/notes/](/notes/) do the browsing.\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  Public when &#96;draft: false&#96;; hidden while &#96;draft: true&#96;."
-          },
-          {
-            "lineNumber": 8,
-            "text": "  "
-          },
-          {
-            "lineNumber": 9,
-            "text": "  Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]]. Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one."
-          },
-          {
-            "lineNumber": 10,
-            "text": "shareable_thought:"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  - \"Public when draft: false; hidden while draft: true.\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "  - \"Each note opens with a definition I can quote in one breath.\""
-          },
-          {
-            "lineNumber": 13,
-            "text": "  - \"The graph and backlinks do the organizing.\""
-          },
-          {
-            "lineNumber": 14,
-            "text": "  - \"Start at Maps of Content or walk through the steps below.\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    wikilink: \"[[Maps of Content]]\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "    reason: \"when jumping into a hub beats reading onboarding first\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    wikilink: \"[[Note Relationships]]\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "    reason: \"Getting started teaches the garden rules that note relationships formalize with typed links\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    wikilink: \"[[Selling Static Sites]]\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "    reason: \"Same markdown-first Hugo workflow for paid client sites\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "slug: \"getting-started\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "date: \"2026-06-18 08:00:00+00:00\""
-          },
-          {
-            "lineNumber": 27,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 29,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 30,
-            "text": "tags: [\"Notes\", \"Meta\", \"PKM\", \"Digital Garden\", \"Note Taking\", \"Hugo\", \"Website Building\"]"
-          },
-          {
-            "lineNumber": 31,
-            "text": "aliases: [\"start\"]"
-          },
-          {
-            "lineNumber": 32,
-            "text": "featured: true"
-          },
-          {
-            "lineNumber": 33,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 34,
-            "text": "---"
-          },
-          {
-            "lineNumber": 35,
-            "text": "## Atomic rule"
-          },
-          {
-            "lineNumber": 36
-          },
-          {
-            "lineNumber": 37,
-            "text": "**One note = one claim** I'd cite in conversation. Put the definition in &#96;description&#96;, the angle in &#96;key_concept&#96;, two scenes in &#96;examples&#96;, and typed links in &#96;relationships&#96; frontmatter - not body &#96;##&#96; sections. Hub/MOC and utility pages may keep prose sections in the body. See [[Atomic Notes]] and [[Note Relationships]]."
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "**Description** - one breath, the single claim I'd quote in conversation."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 40
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.37434089183807373
+      "matchCount": 2,
+      "uri": "content/english/notes/success-is-stewardship.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 37,
-            "text": "---"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "## Features at a glance"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "| Feature | What it does | Apply it when… |"
-          },
-          {
-            "lineNumber": 42,
-            "text": "|--------|--------------|----------------|"
-          },
-          {
-            "lineNumber": 43,
-            "text": "| **Atomic notes** | One claim per page; argument lives in frontmatter | You want a quote you'd actually say in a meeting, not a chapter |"
-          },
-          {
-            "lineNumber": 44,
-            "text": "| **Shareable thoughts** | Four self-contained ideas per note, shown on the page | You need a Slack reply, card pull-quote, or social post without rewriting |"
-          },
-          {
-            "lineNumber": 45,
-            "text": "| **Wikilinks + aliases** | &#96;[[Note Title]]&#96; resolves to the note; aliases catch shorthand | You think in links, not folder trees |"
-          },
-          {
-            "lineNumber": 46,
-            "text": "| **Typed relationships** | &#96;extends&#96;, &#96;contradicts&#96;, &#96;implements&#96;, &#96;alternative&#96; with a one-line reason | Two notes share a word but pull opposite ways - you need the tension visible |"
-          },
-          {
-            "lineNumber": 47,
-            "text": "| **Hub pages (MOCs)** | Curated indexes with prose; Copy hub cluster | One topic sprawled across twenty files and you need a hand-built map |"
-          },
-          {
-            "lineNumber": 48,
-            "text": "| **Graph** | PixiJS network map with link-density filters | You want to spot orphans, over-linked hubs, or missing bridges |"
-          },
-          {
-            "lineNumber": 49,
-            "text": "| **Flashcards + Review** | Scenario cards in frontmatter; spaced repetition in the browser | You want habits loaded when life shows up, not just understood once |"
-          },
-          {
-            "lineNumber": 50,
-            "text": "| **Copy MD / Agent copy** | Raw Hugo source or OKF-resolved markdown per note | You paste one note into an editor or AI session without re-explaining context |"
-          },
-          {
-            "lineNumber": 51,
-            "text": "| **OKF export** | Full garden bundle at &#96;/exports/okf/&#96; | You want an agent or project to know what the garden already claims |"
-          },
-          {
-            "lineNumber": 52,
-            "text": "| **Issues + lint** | Broken links, voice checks, frontmatter shape | You wrote half the garden on a tired Sunday and need it to still work in six months |"
-          },
-          {
-            "lineNumber": 53,
-            "text": "| **Random Duo** | Two random notes plus a connection prompt | You want serendipity without doom-scrolling your own index |"
-          },
-          {
-            "lineNumber": 54,
-            "text": "| **Create Note** | Topic → lint-ready AI prompt for one atomic note | You have a claim in your head and want the right frontmatter shape on the first try |"
-          },
-          {
-            "lineNumber": 55,
-            "text": "| **Blog bridge** | &#96;related_notes&#96; on essays links into the garden | A long post should hand readers the atomic claims behind the story |"
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57,
-            "text": "---"
-          },
-          {
-            "lineNumber": 58
-          },
-          {
-            "lineNumber": 59,
-            "text": "## One note, one claim"
-          },
-          {
-            "lineNumber": 60
-          },
-          {
-            "lineNumber": 61,
-            "text": "The atomic rule sounds strict until you try it."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 62
-          },
-          "startPosition": {
-            "line": 35
-          }
-        },
-        "relativeWorkspacePath": "./content/english/blog/__jorap-notes-features.md",
-        "signatures": {}
-      },
-      "score": 0.36922913789749146
+      "matchCount": 1,
+      "uri": "content/english/notes/steward-after-the-win.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 145,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 146,
-            "text": "      - label: \"Relationships\""
-          },
-          {
-            "lineNumber": 147,
-            "text": "        name: \"relationships\""
-          },
-          {
-            "lineNumber": 148,
-            "text": "        widget: \"list\""
-          },
-          {
-            "lineNumber": 149,
-            "text": "        required: false"
-          },
-          {
-            "lineNumber": 150,
-            "text": "        hint: \"Typed links — extends + contradicts minimum; each wikilink once.\""
-          },
-          {
-            "lineNumber": 151,
-            "text": "        fields:"
-          },
-          {
-            "lineNumber": 152,
-            "text": "          - {"
-          },
-          {
-            "lineNumber": 153,
-            "text": "              label: \"Type\","
-          },
-          {
-            "lineNumber": 154,
-            "text": "              name: \"type\","
-          },
-          {
-            "lineNumber": 155,
-            "text": "              widget: \"select\","
-          },
-          {
-            "lineNumber": 156,
-            "text": "              options: [\"extends\", \"contradicts\", \"implements\", \"alternative\"],"
-          },
-          {
-            "lineNumber": 157,
-            "text": "            }"
-          },
-          {
-            "lineNumber": 158,
-            "text": "          - {label: \"Wikilink\", name: \"wikilink\", widget: \"string\", hint: \"[[Note Title]]\"}"
-          },
-          {
-            "lineNumber": 159,
-            "text": "          - {label: \"Reason\", name: \"reason\", widget: \"text\"}"
-          },
-          {
-            "lineNumber": 160,
-            "text": "      - {label: \"Date\", name: \"date\", widget: \"datetime\"}"
-          },
-          {
-            "lineNumber": 161,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 162,
-            "text": "          label: \"Featured image\","
-          },
-          {
-            "lineNumber": 163,
-            "text": "          name: \"image\","
-          },
-          {
-            "lineNumber": 164,
-            "text": "          widget: \"image\","
-          },
-          {
-            "lineNumber": 165,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 166,
-            "text": "          default: \"/images/note.jpg\","
-          },
-          {
-            "lineNumber": 167,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 168,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 169,
-            "text": "          label: \"Categories\","
-          },
-          {
-            "lineNumber": 170,
-            "text": "          name: \"categories\","
-          },
-          {
-            "lineNumber": 171,
-            "text": "          widget: \"list\","
-          },
-          {
-            "lineNumber": 172,
-            "text": "          allow_add: true,"
-          },
-          {
-            "lineNumber": 173,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 174,
-            "text": "          field: {label: \"Category\", widget: \"string\"},"
-          },
-          {
-            "lineNumber": 175,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 176,
-            "text": "      - {label: \"Author\", name: \"author\", widget: \"string\", default: \"JoRap\"}"
-          },
-          {
-            "lineNumber": 177,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 178,
-            "text": "          label: \"Tags\","
-          },
-          {
-            "lineNumber": 179,
-            "text": "          name: \"tags\","
-          },
-          {
-            "lineNumber": 180,
-            "text": "          widget: \"list\","
-          },
-          {
-            "lineNumber": 181,
-            "text": "          allow_add: true,"
-          },
-          {
-            "lineNumber": 182,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 183,
-            "text": "          field: {label: \"Tag\", widget: \"string\"},"
-          },
-          {
-            "lineNumber": 184,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 185,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 186,
-            "text": "          label: \"Aliases\","
-          },
-          {
-            "lineNumber": 187,
-            "text": "          name: \"aliases\","
-          },
-          {
-            "lineNumber": 188,
-            "text": "          widget: \"list\","
-          },
-          {
-            "lineNumber": 189,
-            "text": "          allow_add: true,"
-          },
-          {
-            "lineNumber": 190,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 191,
-            "text": "          field: {label: \"Alias\", widget: \"string\"},"
-          },
-          {
-            "lineNumber": 192,
-            "text": "          hint: \"Alternate titles for wikilink resolution, e.g. Second Brain for building-a-second-brain.\","
-          },
-          {
-            "lineNumber": 193,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 194,
-            "text": "      - {label: \"Featured\", name: \"featured\", widget: \"boolean\", default: false}"
-          },
-          {
-            "lineNumber": 195,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 196,
-            "text": "          label: \"Review deck\","
-          },
-          {
-            "lineNumber": 197,
-            "text": "          name: \"review\","
-          },
-          {
-            "lineNumber": 198,
-            "text": "          widget: \"boolean\","
-          },
-          {
-            "lineNumber": 199,
-            "text": "          default: false,"
-          },
-          {
-            "lineNumber": 200,
-            "text": "          hint: \"Include this note's flashcards in /notes/review/ and the Anki export.\","
-          },
-          {
-            "lineNumber": 201,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 202,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 203,
-            "text": "          label: \"Card sets\","
-          },
-          {
-            "lineNumber": 204,
-            "text": "          name: \"card_sets\","
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 204
-          },
-          "startPosition": {
-            "line": 144
-          }
-        },
-        "relativeWorkspacePath": "./static/admin/config.yml",
-        "signatures": {}
-      },
-      "score": 0.36897608637809753
+      "matchCount": 1,
+      "uri": "content/english/notes/platform-reach-is-borrowed.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Notes\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Notes\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"My linked note garden - wikilinks, backlinks, and a graph view of connected ideas.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"notes\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: 2026-06-18T08:00:00Z"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: [\"Notes\", \"Meta\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "---"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "A personal note garden of **atomic notes** - one claim per page, linked with &#96;[[wikilinks]]&#96;. Start at [[Getting Started]] or [[Maps of Content]]."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 15
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/_index.md",
-        "signatures": {}
-      },
-      "score": 0.36490964889526367
+      "matchCount": 1,
+      "uri": "content/english/notes/transformation-principles.md"
     },
     {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 239,
-            "text": "&#96;&#96;&#96;yaml"
-          },
-          {
-            "lineNumber": 240,
-            "text": "- type: extends"
-          },
-          {
-            "lineNumber": 241,
-            "text": "  wikilink: \"[[Target Note]]\""
-          },
-          {
-            "lineNumber": 242,
-            "text": "  reason: \"Plain one-line why\""
-          },
-          {
-            "lineNumber": 243,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 244
-          },
-          {
-            "lineNumber": 245,
-            "text": "### 5.5 Linking"
-          },
-          {
-            "lineNumber": 246
-          },
-          {
-            "lineNumber": 247,
-            "text": "| Mechanism | Syntax | Behavior |"
-          },
-          {
-            "lineNumber": 248,
-            "text": "| --- | --- | --- |"
-          },
-          {
-            "lineNumber": 249,
-            "text": "| Wikilink | &#96;[[Note Title]]&#96; | Resolves by title or &#96;aliases&#96; |"
-          },
-          {
-            "lineNumber": 250,
-            "text": "| Permalink | &#96;/notes/slug/&#96; | Canonical URL |"
-          },
-          {
-            "lineNumber": 251,
-            "text": "| Blog bridge | &#96;related_notes&#96; on blog posts | Surfaces garden from essays |"
-          },
-          {
-            "lineNumber": 252
-          },
-          {
-            "lineNumber": 253,
-            "text": "**Build-time checks:**"
-          },
-          {
-            "lineNumber": 254
-          },
-          {
-            "lineNumber": 255,
-            "text": "- Broken wikilinks → Hugo warning + Issues page"
-          },
-          {
-            "lineNumber": 256,
-            "text": "- Unlinked mentions → warning when note title appears without &#96;[[wikilink]]&#96;"
-          },
-          {
-            "lineNumber": 257,
-            "text": "- Pipe wikilinks (&#96;[[x\\|y]]&#96;) → flagged (not supported)"
-          },
-          {
-            "lineNumber": 258
-          },
-          {
-            "lineNumber": 259,
-            "text": "### 5.6 Tool surfaces"
-          },
-          {
-            "lineNumber": 260
-          },
-          {
-            "lineNumber": 261,
-            "text": "| Tool | URL | Function |"
-          },
-          {
-            "lineNumber": 262,
-            "text": "| --- | --- | --- |"
-          },
-          {
-            "lineNumber": 263,
-            "text": "| List | &#96;/notes/&#96; | Filterable index, featured random note |"
-          },
-          {
-            "lineNumber": 264,
-            "text": "| Graph | &#96;/notes/graph/&#96; | PixiJS network; filter by link density and orphans |"
-          },
-          {
-            "lineNumber": 265,
-            "text": "| Issues | &#96;/notes/issues/&#96; | Broken links, pipe wikilinks, unlinked mentions |"
-          },
-          {
-            "lineNumber": 266,
-            "text": "| Backlinks | &#96;/notes/backlinks/&#96; | Garden-wide backlink index |"
-          },
-          {
-            "lineNumber": 267,
-            "text": "| Flashcards | &#96;/notes/flashcards/&#96; | Card browser by set |"
-          },
-          {
-            "lineNumber": 268,
-            "text": "| Review | &#96;/notes/review/&#96; | Spaced-repetition quiz flow |"
-          },
-          {
-            "lineNumber": 269,
-            "text": "| Random Duo | &#96;/notes/random-duo/&#96; | Two random notes + connection prompt |"
-          },
-          {
-            "lineNumber": 270,
-            "text": "| Create Note | &#96;/notes/create/&#96; | Topic → AI prompt for one atomic note |"
-          },
-          {
-            "lineNumber": 271,
-            "text": "| OKF Export | &#96;/notes/okf-export/&#96; | Bundle index and agent workflow docs |"
-          },
-          {
-            "lineNumber": 272
-          },
-          {
-            "lineNumber": 273,
-            "text": "**Per-note affordances:** outgoing links, backlinks with snippets, See also (tag-related), hover previews, Copy MD, Agent copy (OKF export). Hub pages add Copy hub cluster."
-          },
-          {
-            "lineNumber": 274
-          },
-          {
-            "lineNumber": 275,
-            "text": "### 5.7 Flashcards"
-          },
-          {
-            "lineNumber": 276
-          },
-          {
-            "lineNumber": 277,
-            "text": "~20% of notes are habit-spine (&#96;review: true&#96;). Each carries six &#96;cards:&#96; with scenario cues on the front and one-breath actions on the back. &#96;card_sets:&#96; groups cards in Review."
-          },
-          {
-            "lineNumber": 278
-          },
-          {
-            "lineNumber": 279,
-            "text": "**Behavior:**"
-          },
-          {
-            "lineNumber": 280
-          },
-          {
-            "lineNumber": 281,
-            "text": "- Flip animation 350ms; crossfade when &#96;prefers-reduced-motion&#96;"
-          },
-          {
-            "lineNumber": 282,
-            "text": "- Spaced repetition state in browser &#96;localStorage&#96;"
-          },
-          {
-            "lineNumber": 283,
-            "text": "- Lint: &#96;npm run lint:cards&#96;, &#96;npm run audit:cards&#96;"
-          },
-          {
-            "lineNumber": 284
-          },
-          {
-            "lineNumber": 285,
-            "text": "### 5.8 OKF interoperability"
-          },
-          {
-            "lineNumber": 286
-          },
-          {
-            "lineNumber": 287,
-            "text": "The garden aligns with [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) for agent export, not for replacing Hugo authoring."
-          },
-          {
-            "lineNumber": 288
-          },
-          {
-            "lineNumber": 289,
-            "text": "| Live garden | OKF bundle (&#96;/exports/okf/&#96;) |"
-          },
-          {
-            "lineNumber": 290,
-            "text": "| --- | --- |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 290
-          },
-          "startPosition": {
-            "line": 238
-          }
-        },
-        "relativeWorkspacePath": "./docs/SPEC.md",
-        "signatures": {}
-      },
-      "score": 0.36459094285964966
+      "matchCount": 2,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/standing-vs-fellowship.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/self-control.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/purpose-and-vision.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/priorities-before-the-inbox.md"
     }
-  ]
+  ],
+  "totalFiles": 77,
+  "totalMatches": 144
 }
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/humility-and-service.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/great-commission.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "make disciples|teach obedience|spiritual formation"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "make disciples|teach obedience|spiritual formation",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "content/english/notes/great-commission.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/share-what-you-learn.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-what-you-learn.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The request is now clear.
+
+Discipleship centers on vertical relationship with Christ through grateful obedience and sanctification. Leadership centers on horizontal responsibility for direction and care, regardless of title. These are distinct roles; one can lead without being discipled, or be discipled without leading.
+
+Servant leadership bridges the gap without being identical to discipleship. The Great Commission calls for making disciples rather than merely organizing people. Leadership without discipleship becomes outcome management that ignores Christ. Discipleship without leadership influence becomes private faith that never serves others. A companion note on workplace conflation may also be needed.
+
+The existing note set already covers Discipleship, Leadership, Servant Leadership, Humility, and related topics. A new bridge note could be titled "Formation Before Platform," capturing the idea of growing in Christ before taking direction. "Lead People, Follow Christ" was considered but rejected as too close to the main distinction note.
+
+Two new bridge notes are now under consideration. "Who You Follow First" would address when workplace leadership pressure conflicts with obedience to Christ. "Teach What You Live" would contrast making disciples with managing performance. The plan is to create the main distinction note, add one or two targeted supporting notes if they fill real gaps, and then update existing notes to link back to the new ones.
+
+Three new note titles are now being weighed. One would address when leadership demands conflict with discipleship. Another would frame making disciples as a workplace parallel to the Great Commission. A third would capture the idea that discipleship is vertical while leadership is horizontal, suggesting one person can hold both roles.
+
+Title constraints are now guiding the selection. "Follow First, Then Lead" and "Follow Christ, Then Lead" are being evaluated as four-word options. "Make Disciples Not Managers" exceeds the limit and would need trimming. The main distinction note is being structured like "Standing vs Fellowship."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "follow.*lead|lead.*follow"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "follow.*lead|lead.*follow",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/coaching-ethics.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/notice-the-good.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/psychological-safety.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/develop-dont-endanger.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/listen-before-fixing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconcile-before-the-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/safety-comes-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconciliation-before-worship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/great-commission.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/follow-their-lead.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/set-calm-boundaries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-your-neighbor.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create-regular-connection.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/golden-rule-at-work.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 22
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "Discipleship|Leadership"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "Discipleship|Leadership",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/eternal-principles.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Planning the note structure. The main note will be titled "Discipleship vs Leadership."
+
+Discipleship is vertical: following and obeying Christ. Leadership is horizontal: directing and caring for others. They are distinct roles, not interchangeable. Servant leadership overlaps without collapsing the categories. The note will connect to existing Discipleship and Leadership notes.
+
+The main note will also connect to Servant Leadership, Humility, Service, and the Great Commission. It may challenge the idea of conflating leadership with platform or status.
+
+A new bridge note titled "Follow Christ, Then Lead" would prioritize obedience over leadership pressure. Another potential bridge is "Make Disciples, Not Just Teams."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 | head -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 | head -5
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py
+FAIL shareable_thought[2] not from principle: accept-the-starting-line.md
+FAIL shareable_thought[2] not from principle: develop-dont-endanger.md
+FAIL shareable_thought[2] not from principle: god-centered-design.md
+FAIL shareable_thought[2] not from principle: measure-then-iterate.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating new notes and updating existing ones.
+
+Drafting the main note now. The description defines discipleship as upward service to Christ and leadership as downward service to others. Key concepts distinguish the two roles and reference related notes.
+
+One person can hold both seats. Swapping them is the failure. Running a team is not following Jesus. Following Jesus is not cancelled by a promotion. Servant leadership overlaps with leadership. It still serves horizontally. It does not replace vertical allegiance. Humility and service is the gospel depth. True greatness comes from serving. Not from being served.
+
+The note mirrors the PKM concept of Standing versus Fellowship. Two roles can feel identical until you name the category. Examples include faith and workplace surfaces, or a kitchen table and a standup. The shareable thought will list four items drawn from the description and key concept. Relationships extend Discipleship, Leadership, and Servant Leadership. They do not contradict.
+
+Adding contradictions to the main note. Treating leadership visibility as proof of following Jesus, or conflating title with spiritual maturity, would contradict it. Ethical Leadership might substitute visible integrity for private following. Extending relationships now include Humility and Service, Standing versus Fellowship, and the Great Commission.
+
+Contradictions now target specific notes. Public leadership substituting for hidden obedience links to Integrity Without an Audience. Title replacing discipleship links to Platform Reach Is Borrowed. Servant Leadership may also appear if overlap feels like collapsed categories. Six scenario cards are planned. A new bridge note titled Follow Christ, Then Lead is next.
+
+The bridge note "Follow Christ, Then Lead" resolves when leadership pressure and Christ's command collide. It prioritizes following Christ first, then leading from that footing. It extends Discipleship, Discipleship vs Leadership, God Centered Design, and Ethical Leadership. It contradicts pragmatism that treats outcomes as more important than obedience. A third note about making disciples rather than teams was considered but rejected, since Share What You Learn and the Great Commission already cover outward teaching.
+
+Only two new notes are planned. Existing notes will link back to them. Discipleship, leadership, servant leadership, humility and service, the great commission, eternal principles, and workplace principles will all receive cross-links.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Creating the main distinction note and a bridge note, then wiring relationships into existing notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship-vs-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating existing notes with relationships.
+
+Ten existing notes will receive relationship links. Two new notes are sufficient. Entries will be sorted alphabetically by type and wikilink.
+
+Discipleship.md now links to Discipleship vs Leadership. Leadership.md extends both that note and Follow Christ, Then Lead. Servant-leadership.md also connects to Discipleship vs Leadership.
+
+Humility-and-service.md, great-commission.md, and share-what-you-learn.md now link to Discipleship vs Leadership.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ethical-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating existing notes with new relationships.
+
+Alphabetical sorting within relationship arrays is being maintained. The "Discipleship vs Leadership" note will be inserted between "Christlikeness" and "Faithfulness" under the "extends" type.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating existing notes with bidirectional relationships.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/humility-and-service.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/great-commission.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-what-you-learn.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ethical-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating eternal-principles.md and workplace-principles.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py content/english/notes/discipleship-vs-leadership.md content/english/notes/follow-christ-then-lead.md 2&gt;&amp;1; python3 scripts/lint-flashcard-frontmatter.py content/english/notes/discipleship-vs-leadership.md content/english/notes/follow-christ-then-lead.md 2&gt;&amp;1; pnpm lint:voice 2&gt;&amp;1 | rg -i &#34;discipleship-vs|follow-christ&#34; || true</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py content/english/notes/discipleship-vs-leadership.md content/english/notes/follow-christ-then-lead.md 2>&1; python3 scripts/lint-flashcard-frontmatter.py content/english/notes/discipleship-vs-leadership.md content/english/notes/follow-christ-then-lead.md 2>&1; pnpm lint:voice 2>&1 | rg -i "discipleship-vs|follow-christ" || true
+```
+
+```
+FAIL shareable_thought[2] not from principle: accept-the-starting-line.md
+FAIL shareable_thought[2] not from principle: develop-dont-endanger.md
+FAIL shareable_thought[2] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[3] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[2] not from principle: god-centered-design.md
+FAIL shareable_thought[2] not from principle: measure-then-iterate.md
+FAIL shareable_thought[3] not from principle: measure-then-iterate.md
+FAIL shareable_thought[3] not from principle: platform-reach-is-borrowed.md
+FAIL shareable_thought[3] not from principle: practice-small-experiments.md
+FAIL shareable_thought[3] not from principle: shadow-the-work.md
+FAIL shareable_thought[2] not from principle: steward-after-the-win.md
+FAIL wikilink in shareable_thought[3]: the-trusted-inbox.md
+
+12 note(s) failed frontmatter lint
+Flashcard frontmatter errors:
+  content/english/notes/own-your-part.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Coach hasn't fixed my defense and game night is close. Waiti…
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Items 2 and 3 in follow-christ-then-lead.md must be drawn exactly from the description and key_concept fields, or be subsets of them.
+
+The current shareable_thought entries are being checked against the principle fields to verify they match or are subsets.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable_thought"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable_thought",
+  "topFiles": [
+    {
+      "matchCount": 72,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_line_from_principle"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_line_from_principle",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 25,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "principle_line_pool"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "principle_line_pool",
+  "topFiles": [
+    {
+      "matchCount": 32,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the follow-christ-then-lead shareable thought to use only description lines and key_concept.
+
+The key concept names two seats: upward allegiance and outward care. It sets the order when they pull different ways: Christ first, then lead from that footing. It also connects to God Centered Design, Ethical Leadership, and Follow Christ, Then Lead.
+
+Gospel depth draws from Abide in Me: fruit from staying connected, not self-powered grit. The PKM mirror is Seek the Kingdom First, placing kingdom before org chart. The chosen lines are "When leadership pressure and Christ's command collide, I follow Christ first - then lead from that footing" and "Christ first, then lead from that footing."
+
+The shareable thought now includes four lines: the collision quote, the "Christ first, then lead" phrase, "Visible integrity without private obedience is sand," and "Kingdom before inbox; here, kingdom before org chart."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py content/english/notes/discipleship-vs-leadership.md content/english/notes/follow-christ-then-lead.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py content/english/notes/discipleship-vs-leadership.md content/english/notes/follow-christ-then-lead.md 2>&1
+```
+
+```
+FAIL shareable_thought[2] not from principle: accept-the-starting-line.md
+FAIL shareable_thought[2] not from principle: develop-dont-endanger.md
+FAIL shareable_thought[2] not from principle: god-centered-design.md
+FAIL shareable_thought[2] not from principle: measure-then-iterate.md
+FAIL shareable_thought[3] not from principle: measure-then-iterate.md
+FAIL shareable_thought[3] not from principle: platform-reach-is-borrowed.md
+FAIL shareable_thought[3] not from principle: practice-small-experiments.md
+FAIL shareable_thought[3] not from principle: shadow-the-work.md
+FAIL shareable_thought[2] not from principle: steward-after-the-win.md
+FAIL wikilink in shareable_thought[3]: the-trusted-inbox.md
+
+10 note(s) failed frontmatter lint
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Created two new notes and wired them into the garden.
+
+### New notes
+
+**[[Discipleship vs Leadership]]** — the main distinction (patterned after [[Standing vs Fellowship]]):
+- **Discipleship** = vertical seat — who you follow upward (Christ, daily obedience after faith)
+- **Leadership** = horizontal seat — who looks to you for direction, pace, and care
+- Same person, two seats — running a room isn't following Jesus; a title doesn't cancel private obedience
+- [[Servant Leadership]] overlaps but doesn't collapse the categories
+
+**[[Follow Christ, Then Lead]]** — bridge note for when the seats pull different ways:
+- Christ first, then lead from that footing
+- Connects to [[God Centered Design]], [[Ethical Leadership]], [[Seek the Kingdom First]]
+
+### Connected existing notes
+
+Updated relationships on:
+- [[Discipleship]], [[Leadership]], [[Servant Leadership]], [[Humility and Service]]
+- [[Great Commission]], [[Share What You Learn]], [[Integrity Without an Audience]], [[Ethical Leadership]]
+
+Updated hubs:
+- [[Eternal Principles]] — list item + PKM cross-link row
+- [[Workplace Principles]] — leadership section + source map row
+
+Both new notes have `review: true` with six scenario flashcards in the Discipleship/Ethics decks.

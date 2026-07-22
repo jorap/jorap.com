@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Drafting a blog post about the user's focus on open source technologies.
 
-Reviewing the jorap-voice skill and existing blog posts to match the author's voice and format.</details></think>
+Reviewing the jorap-voice skill and existing blog posts to match the author's voice and format.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,50 +25,31 @@ I'll read the blog voice skill and a few existing posts to match your format and
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-static-site-generator.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-static-site-generator.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **36** results in **1** directory</summary>
 
-Directory: **** (36 files)
+Directory: **``** (36 files)
 
 | File |
 |------|
@@ -107,13 +89,6 @@ Directory: **** (36 files)
 | `content/english/blog/__extension-cord.md` |
 | `content/english/blog/__hugo-shortcodes-deep-dive.md` |
 | `content/english/blog/__worcestershire-sauce-lee-and-perrins.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -121,27 +96,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing additional reference posts, particularly those on open source and tech stack topics.
 
-Also checking "how-i-built-jorap-notes" and "may sustainable-online-publishing" for open source themes.</details></think>
+Also checking "how-i-built-jorap-notes" and "may sustainable-online-publishing" for open source themes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -192,51 +160,363 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/blog/how-i-built-jorap-notes.md` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/blog/why-i-stopped-playing-marvel-snap.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing existing drafts and references to gather context for the open-source blog post.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__drupal-to-wordpress.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
-
-Directory: **** (1 file)
-
-| File |
-|------|
-| `content/english/blog/why-i-stopped-playing-marvel-snap.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "open.?source|foss|free software"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "open.?source|foss|free software",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Drafting a blog post about why open source technologies were chosen.
+
+The draft will draw from JoRap's Drupal and WordPress career, current open-source stack, and teaching seminars. It will frame the choice as a personal philosophy around sustainable publishing and content ownership rather than a generic manifesto.
+
+Practical benefits like inspectable code, no vendor lock-in, and free hosting will be highlighted. The post will also acknowledge tradeoffs, such as WordPress plugins being unreliable. Reviewing the blank template and related notes for linking.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english",
+  "pattern": "open.?source|foss|free tier|vendor lock"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english",
+  "pattern": "open.?source|foss|free tier|vendor lock",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/free-tier-hosting-stack.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/rollback-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/static-site-client-scope.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/_index.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-garden.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/about/_index.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/platform-reach-is-borrowed.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/staged-rollout.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/outcomes-over-pitch-decks.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/git-based-cms.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/getting-started-with-rss-feeds-beginners-guide.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/future-proofing-knowledge.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__sustainable-online-publishing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/minimum-viable-product.md"
+    }
+  ],
+  "totalFiles": 19,
+  "totalMatches": 45
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the about page and future-proofing-knowledge note for personal context before drafting the blog post.
+
+Planning the blog post structure. It will be a draft titled `why-i-focused-on-open-source` with practical, honest tradeoffs rather than a preachy tone. Key themes include the open-source CMS career path and teaching open-source in classrooms. Related notes and categories are being mapped out.
+
+Concrete examples are shaping the draft. The move from PHP hosting to Hugo on free hosting is a key personal story. Git keeps files portable. The author will emphasize practical ownership over ideological purity. A WordCamp Manila community thread is included. The practical filter is whether a tool lets users own and move their work. The future-proofing-knowledge note is being reviewed next.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/about/_index.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Starting to draft the blog post on open source technologies.
+
+The draft will follow a direct, JoRap-style voice without em dashes. It opens with a practical hook rather than ideology, then traces the career journey from hunting open source CMS options to the lost hosting incident that pushed the shift to Hugo and Git. The piece will explain what open source actually buys day to day—inspectability, forkability, migration paths, and community support—while clarifying it is not a purity test or a ban on paid tools. Specific current stack examples and advice for students or friends will close the post.
+
+Finalizing metadata: filename `__why-i-focused-on-open-source.md`, slug `why-i-fod-on-open-source`, date 2026-07-10. Tags include Open Source, FOSS, Hugo, WordPress, and Web Development. Related posts to link: drupal-to-wordpress, how-i-built-jorap-notes, sustainable-online-publishing, and hugoplate-theme-reviewcuse.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Drafting the post in your voice, tied to your teaching background and stack choices.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running voice lint on the file to check for issues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/__why-i-focused-on-open-source.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__why-i-focused-on-open-source.md 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__why-i-focused-on-open-source.md
+Voice dash errors:
+  content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Linting failed on an existing file, not the new blog draft.
+
+Running a targeted voice scan on the new file to check for issues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md",
+  "pattern": "—|–"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md",
+  "pattern": "—|–",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__why-i-focused-on-open-source.md 2&gt;&amp;1 | head -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__why-i-focused-on-open-source.md 2>&1 | head -30
+```
+
+```
+Voice lint warnings:
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The draft passed voice lint. Checking whether the word "handoff" was flagged.
+
+Lint only flagged note files, not the blog post. Now preparing a summary of the completed draft.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Draft is at `content/english/blog/__why-i-focused-on-open-source.md`.
+
+**Angle:** Open source as a practical default, not a manifesto. It ties to your teaching background, the Drupal→WordPress hunt, losing PHP hosting, and the current Hugo/Git stack.
+
+**Sections:**
+- Started as a money and access problem (students, freelancing, no corporate card)
+- CMS hunt (links to your Drupal draft)
+- Hosting loss and portable markdown in Git
+- What open source actually buys (inspect, leave, community, free tiers, client ownership)
+- What it doesn't mean (purity test, never paying, building from scratch)
+- Current stack and advice for someone starting out
+
+**Frontmatter:** `draft: true`, `slug: why-i-focused-on-open-source`, related notes wired to future-proofing, free-tier hosting, git-based CMS.
+
+**To publish:** Rename to drop the `__` prefix, set `draft: false`, remove the `slug` line if it matches the filename.
+
+Want it shorter, more career-focused, or with a stronger Philippines/local market thread?

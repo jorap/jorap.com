@@ -17,36 +17,22 @@ Reviewing existing collections in `randomizer.yaml` and how they're used so sugg
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -77,39 +63,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the file to identify all existing collections and understand the full spectrum list.</details></think>
+Reviewing the file to identify all existing collections and understand the full spectrum list.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -161,60 +133,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -321,83 +266,52 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking randomizer.yaml and specstory history for collection suggestions.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_06-53-14Z-usefulness-of-collections.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The randomizer currently has three collections.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_07-02-15Z-category-selection-randomization.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<think><details><summary>Thought Process</summary>
-Checking randomizer.yaml and specstory history for collection suggestions.</details></think>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_06-53-14Z-usefulness-of-collections.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<think><details><summary>Thought Process</summary>
-The randomizer currently has three collections.</details></think>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_07-02-15Z-category-selection-randomization.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -437,47 +351,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-36-19Z-personal-scales-and-game-facts.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-36-19Z-personal-scales-and-game-facts.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -508,25 +401,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
@@ -547,7 +427,8 @@ Team-based prompts and guess-the-number challenges are also on the list. Several
 
 Quick facts could be structured as themed categories like Geography, Science, and History, with items phrased as conversation prompts rather than ranking scenarios. Would-you-rather would need full question items instead of simple prompts.
 
-Story sparks would suit a round-robin storytelling format. Debate club offers mild controversy prompts for friendly argument. A "Table topics" categories collection could use the existing category infrastructure directly. Spectrum could also spawn themed siblings like food-only or pop-culture spectrums.</details></think>
+Story sparks would suit a round-robin storytelling format. Debate club offers mild controversy prompts for friendly argument. A "Table topics" categories collection could use the existing category infrastructure directly. Spectrum could also spawn themed siblings like food-only or pop-culture spectrums.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -687,7 +568,8 @@ Open conversation starters, not rankings or self-scores. This revives the old �
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding two new collections to randomizer.yaml: ranked binary prompts and table topics.</details></think>
+Adding two new collections to randomizer.yaml: ranked binary prompts and table topics.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -696,36 +578,22 @@ I'll add both collections with 300 family-friendly items each. First I'm checkin
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -756,13 +624,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -772,44 +633,27 @@ Planning a Python script to generate 300 binary dilemmas and 300 table topics ac
 
 A Python script will generate the items and append them to randomizer.yaml. The randomizer page copy and JavaScript lede may need updates. The curate script might also be extended. Six hundred items are too many to write manually in chat. The script will follow the same pattern as curate-randomizer-300.py. Need to verify how randomizer.js handles category collections.
 
-Categories collections are not direct play. Missing modes default to ranked-prompts, which is direct play. This creates a conflict for table-topics. The script must handle mode assignment carefully.</details></think>
+Categories collections are not direct play. Missing modes default to ranked-prompts, which is direct play. This creates a conflict for table-topics. The script must handle mode assignment carefully.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
@@ -826,7 +670,8 @@ A new `scripts/build-randomizer-extras.py` script will generate the 600 items an
 
 The generator will use templated sentence patterns plus hand-crafted seeds to reach 300 unique items per collection. Would-you-rather options will follow formats like "Always X, or always Y?" and "Have X, or have Y?". Categories will stay internal for variety.
 
-Table topics will split into six categories: childhood, places-and-travel, food-and-cooking, hobbies-and-fun, family-and-friends, and random-facts-and-stories. Each gets roughly fifty items. Prompts will be open-ended like "A memory from school that still makes you smile." The generator script will combine hand-crafted lists with combinatorial expansion where safe.</details></think>
+Table topics will split into six categories: childhood, places-and-travel, food-and-cooking, hobbies-and-fun, family-and-friends, and random-facts-and-stories. Each gets roughly fifty items. Prompts will be open-ended like "A memory from school that still makes you smile." The generator script will combine hand-crafted lists with combinatorial expansion where safe.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -835,19 +680,15 @@ I'll add a generator script for both decks, fix category routing so table-topics
 
 _**Agent (auto-low)**_
 
-Offset 1218 is beyond file length (1025 lines)
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
-
+Offset 1218 is beyond file length (1025 lines)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -886,25 +727,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -917,7 +745,8 @@ The script will generate 300 binary dilemmas using combinatorial templates and s
 
 I'll batch generate all 600 items across six themes for each collection. The would-you-rather set covers everyday life, food and drink, travel, fun and entertainment, social and friendships, and wild what-ifs. The table topics set covers childhood, places and travel, food and kitchen, hobbies and interests, and family and friends. I'll also fix the isDirectPlay flag and adjust category card counts.
 
-The script will read the existing YAML, add the two collections if they are missing, and write the file back. It will embed all 600 items directly as Python data structures. The would-you-rather items will be generated from combinatorial templates.</details></think>
+The script will read the existing YAML, add the two collections if they are missing, and write the file back. It will embed all 600 items directly as Python data structures. The would-you-rather items will be generated from combinatorial templates.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -926,24 +755,15 @@ Creating a build script with the full prompt sets, then applying the JS fix and 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
 ```bash
 python3 /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py
 ```
@@ -953,80 +773,40 @@ would-you-rather: 300
 table-topics: 300 in 6 categories
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1057,34 +837,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1116,40 +881,33 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running quick Python and Node.js validation checks.</details></think>
+Running quick Python and Node.js validation checks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
 import yaml
 from pathlib import Path
-d = yaml.safe_load(Path('/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml').read_text())
-cols = {c['id']: c for c in d['collections']}
-wyr = cols['would-you-rather']
-topics = cols['table-topics']
-assert len(wyr['items']) == 300
-assert len(set(wyr['items'])) == 300
-cats = topics['categories']
+d = yaml.safe_load(Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml&#39;).read_text())
+cols = {c[&#39;id&#39;]: c for c in d[&#39;collections&#39;]}
+wyr = cols[&#39;would-you-rather&#39;]
+topics = cols[&#39;table-topics&#39;]
+assert len(wyr[&#39;items&#39;]) == 300
+assert len(set(wyr[&#39;items&#39;])) == 300
+cats = topics[&#39;categories&#39;]
 assert len(cats) == 6
-total = sum(len(c['items']) for c in cats)
+total = sum(len(c[&#39;items&#39;]) for c in cats)
 assert total == 300
-print('ok', len(d['collections']), 'collections', total, 'topics')
-"
+print(&#39;ok&#39;, len(d[&#39;collections&#39;]), &#39;collections&#39;, total, &#39;topics&#39;)
+&#34;
 </summary>
-
 ```bash
 python3 -c "
 import yaml
@@ -1173,12 +931,6 @@ print('ok', len(d['collections']), 'collections', total, 'topics')
 ok 5 collections 300 topics
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1223,7 +975,8 @@ for Conversation starters, have no categories and combine
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Flatten the Conversation starters collection into a single flat list without categories. This matches the structure used by other direct-play collections.</details></think>
+Flatten the Conversation starters collection into a single flat list without categories. This matches the structure used by other direct-play collections.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1232,23 +985,15 @@ Flattening conversation starters into one direct-play deck like the other collec
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1280,11 +1025,158 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating build_table_block() to flatten all categories into a single items list.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a ranked-prompts mode to TABLE_META.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Fixing a bad merge in the build script.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+```bash
+python3 /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py
+```
+
+```
+would-you-rather: 300
+table-topics: 300
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 12,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^- id: table-topics"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^- id: table-topics",
+  "topFiles": [
+    {
+      "matchCount": 13,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The replacement may not have worked. Categories still appear in the search results.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The YAML was updated correctly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Done. **Conversation starters** is now a flat deck of **300 prompts** — no category picker.
+
+- `mode: ranked-prompts` (same direct-play flow as Either-or dilemmas)
+- All six former category lists merged into one `items` list
+- Click the collection → shuffle immediately
+
+The build script still keeps prompts grouped in `TABLE_CATEGORIES` for editing; re-run `python3 scripts/build-randomizer-decks.py` to flatten them back into the YAML after changes.

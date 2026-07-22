@@ -37,7 +37,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll compare the seven rewriting prompts against the garden-voice skill.
 
-I'll pull in examples.md and voice-words.yaml for richer context. The user has already attached the full garden-voice skill inline, so I have enough material to analyze without further file reads.</details></think>
+I'll pull in examples.md and voice-words.yaml for richer context. The user has already attached the full garden-voice skill inline, so I have enough material to analyze without further file reads.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -46,27 +47,15 @@ Comparing your seven rewrite prompts against garden-voice — I'll pull the skil
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
@@ -87,7 +76,8 @@ Make It Credible maps to concrete examples, specific details in the de-AI pass, 
 
 Top-Editor Pass corresponds to the voice check checklist and field shape constraints. Garden-voice is more prescriptive than a generic editor pass. It enforces title word limits and a twenty-word description cap.
 
-Garden-voice enforces hard technical gates: four-word titles, four shareable thoughts, faith verse rules, and no wikilinks on line one. It separates frontmatter, cards, and body into distinct registers. The seven prompts omit Hugo-specific constraints such as wikilinks, bible shortcodes, and meta_title formatting. Prompt three can clash with garden-voice’s tight field limits. Prompt four slightly conflicts with the no-contractions-in-frontmatter rule. Garden-voice combines de-AI, voice, and structure, while the prompts focus only on voice.</details></think>
+Garden-voice enforces hard technical gates: four-word titles, four shareable thoughts, faith verse rules, and no wikilinks on line one. It separates frontmatter, cards, and body into distinct registers. The seven prompts omit Hugo-specific constraints such as wikilinks, bible shortcodes, and meta_title formatting. Prompt three can clash with garden-voice’s tight field limits. Prompt four slightly conflicts with the no-contractions-in-frontmatter rule. Garden-voice combines de-AI, voice, and structure, while the prompts focus only on voice.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -207,7 +197,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Preparing a short "when to use which" block for garden-voice or a Cursor rule.
 
-Checking garden-voice and jorap-voice skills for the right placement and existing section patterns.</details></think>
+Checking garden-voice and jorap-voice skills for the right placement and existing section patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -216,49 +207,29 @@ Drafting a paste-ready "when to use which" block — checking garden-voice and j
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `.cursor/skills/garden-voice/examples.md` |
 | `.cursor/skills/garden-voice/SKILL.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -266,31 +237,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 jorap-voice already mentions seven rewrite passes in its description and workflow.
 
-I'll examine how jorap-voice documents its seven passes, then add a cross-reference section to garden-voice comparing both approaches.</details></think>
+I'll examine how jorap-voice documents its seven passes, then add a cross-reference section to garden-voice comparing both approaches.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -301,7 +261,8 @@ The user confirmed the offer to create a short "when to use which" block for gar
 
 I'll add a concise mapping section to garden-voice/SKILL.md. It will explain how the seven passes map to garden-voice workflow and when to use each.
 
-The new section will sit between "When to use" and "Workflow". It contrasts blog-style seven-passes with garden-voice notes and keeps the polish minimal.</details></think>
+The new section will sit between "When to use" and "Workflow". It contrasts blog-style seven-passes with garden-voice notes and keeps the polish minimal.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -310,38 +271,23 @@ Adding a concise "when to use which" section to garden-voice, cross-linked from 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Sections have been added. A clean, paste-ready summary follows.</details></think>
+Sections have been added. A clean, paste-ready summary follows.
+</details></think>
 
 _**Agent (auto-low)**_
 

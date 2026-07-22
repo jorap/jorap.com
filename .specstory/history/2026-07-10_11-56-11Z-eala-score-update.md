@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating the Alex Eala Pro Career Tracker so scores always favor Eala.
 
-Eala's score will always lead, even when she loses. Checking the current tracker file to see how scores are formatted.</details></think>
+Eala's score will always lead, even when she loses. Checking the current tracker file to see how scores are formatted.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,23 +25,15 @@ I'll read the tracker and reference files to see how scores are formatted today,
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -71,13 +64,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -103,7 +89,8 @@ Kostyuk Rome and Muchova Miami both show opponent-first scores and need reversal
 
 Vekić Auckland, Preston, and Joint Wimbledon are all correctly ordered. A possible typo in the Guadalajara Lepchenko line was noted but set aside as a separate issue. Now searching reference.md for score formatting rules and grepping for opponent-first score patterns.
 
-The Australian Open doubles entry likely contains a duplicate third set score. Krejcikova H2H is confirmed Eala-first. Checking reference.md for score format guidance.</details></think>
+The Australian Open doubles entry likely contains a duplicate third set score. Krejcikova H2H is confirmed Eala-first. Checking reference.md for score format guidance.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -112,10 +99,8 @@ Checking the reference for score-format rules and scanning for loss lines that l
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -150,21 +135,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -195,13 +171,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -215,7 +184,8 @@ Match tiebreaks need reversal too. Piter/Tjen Guangzhou becomes `6-7(4), 3-6, 5-
 
 The Australian Open doubles score is likely already Eala-first, so it will be left unchanged. Wimbledon doubles Ostapenko/Kenin is correctly ordered. Eastbourne Finalist uses standard tiebreak notation where the score in parentheses represents the loser's points.
 
-Errani Veneto and Ilkley Marino scores are confirmed correct. The skill reference.md will be updated with a score format rule. The lastmod timestamp will be bumped to 2026-07-10T11:57:00Z.</details></think>
+Errani Veneto and Ilkley Marino scores are confirmed correct. The skill reference.md will be updated with a score format rule. The lastmod timestamp will be bumped to 2026-07-10T11:57:00Z.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -224,32 +194,21 @@ Flipping loss scores that list the opponent first so Eala's games always lead, t
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reading reference.md for entry templates with scores.</details></think>
+Reading reference.md for entry templates with scores.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
@@ -260,7 +219,8 @@ Adding a score format section to reference.md after tournament naming. Updating 
 
 Applying score fixes to the tracker file. The Australian Open doubles score shows three sets despite appearing to be a two-set match; the extra `3-6` is likely an error.
 
-The three-set Australian Open doubles score is likely valid rather than erroneous. Proceeding to apply the tracker edits.</details></think>
+The three-set Australian Open doubles score is likely valid rather than erroneous. Proceeding to apply the tracker edits.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -269,211 +229,99 @@ Applying score fixes across the tracker and adding the convention to the skill r
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
@@ -484,14 +332,13 @@ Adding the score format rule to reference.md and SKILL.md.
 
 Scanning loss lines for opponent-first scores. Most entries are valid. Errani shows a 0-6 loss.
 
-More loss lines checked. Most are valid. Now scanning for any remaining opponent-first patterns.</details></think>
+More loss lines checked. Most are valid. Now scanning for any remaining opponent-first patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -522,36 +369,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -584,13 +414,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -598,29 +421,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Only the Eastbourne Finalist score was opponent-first. It is already Eala-first because she lost the final set in tie-breaker.
 
-Adding a note to SKILL.md about score format. Verifying the Eastbourne final set notation: `6-7(10)` means Eala won six games but lost the tie-breaker seven to ten.</details></think>
+Adding a note to SKILL.md about score format. Verifying the Eastbourne final set notation: `6-7(10)` means Eala won six games but lost the tie-breaker seven to ten.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -651,46 +465,31 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a verification step to SKILL.md.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a final grep to catch any remaining scores that still favor the opponent on straight 2-set losses.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<think><details><summary>Thought Process</summary>
-Adding a verification step to SKILL.md.</details></think>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<think><details><summary>Thought Process</summary>
-Running a final grep to catch any remaining scores that still favor the opponent on straight 2-set losses.</details></think>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -721,13 +520,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -737,18 +529,13 @@ The McPhee/Sharma entry at line 222 is missing from the doubles section. Only li
 
 The McPhee/Sharma entry likely uses a tiebreak score format that does not match the grep regex, causing it to be skipped. The update appears correct otherwise.
 
-Reading lines 220–224 directly to verify the McPhee/Sharma update.</details></think>
+Reading lines 220–224 directly to verify the McPhee/Sharma update.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
@@ -757,7 +544,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The McPhee/Sharma score is fixed. The Canberra win line shows 10-6 for the match tiebreak, with Eala first.
 
-All scores have been updated to favor Eala.</details></think>
+All scores have been updated to favor Eala.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -804,7 +592,8 @@ Verifying that all Head-to-Head sections contain complete results for matches be
 
 Reading the tracker file first to identify all documented H2H matches. Then selectively fetching WTA H2H data for specific opponents to verify completeness, respecting the six-page load limit.
 
-Fetching WTA H2H pages for every opponent would exceed the six-page load budget. A better approach is to pull the full singles match list from the WTA matches page once, then compare it against all H2H sections. This single fetch will reveal any missing results across all opponents.</details></think>
+Fetching WTA H2H pages for every opponent would exceed the six-page load budget. A better approach is to pull the full singles match list from the WTA matches page once, then compare it against all H2H sections. This single fetch will reveal any missing results across all opponents.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -813,23 +602,15 @@ I'll read the tracker’s H2H sections first, then cross-check them against WTA 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -860,13 +641,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -882,14 +656,13 @@ Scanning tournament sections for H2H opponents. Most listed meetings appear in H
 
 Most H2H opponents have confirmed tournament entries. Madrid 2025 versus Swiatek is also missing from Best Performances. Ostapenko's meetings are fully verified.
 
-Montreal 2025, Linz 2026, Stuttgart 2026, and London 2026 are all H2H-only meetings likely excluded from Best Performances. The main remaining gap is Paula Badosa's Miami 2025 walkover, which may not count as a completed H2H match.</details></think>
+Montreal 2025, Linz 2026, Stuttgart 2026, and London 2026 are all H2H-only meetings likely excluded from Best Performances. The main remaining gap is Paula Badosa's Miami 2025 walkover, which may not count as a completed H2H match.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -898,23 +671,24 @@ Parameters:
   "url": "https://www.tennis.com/players-rankings/alexandra-eala"
 }
 ```
-Status: **loading**
+Result:
 
+```json
+{
+  "markdown": "Alexandra Eala | Tennis.com\n\n# AlexandraEala\n\nCurrent Singles Ranking\n\n32\n\nCurrent Doubles Ranking\n\n126\n\n| Key Facts |\n| --- |\n| Birth Date | May 23, 2005 (21) |\n| Height | — |\n| Plays | Left-Handed |\n| Year Turned Pro | — |\n\n| Player Ranking |\n| --- |\n| Singles Ranking | 32 |\n| Singles Points | 1,436 |\n| Doubles Ranking | 126 |\n| Doubles Points | 661 |\n| Career High Singles Ranking | 70 |\n| Career High Doubles Ranking | 192 |",
+  "url": "https://www.tennis.com/players-rankings/alexandra-eala"
+}
+```
+User decision: **accepted**
 
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -923,15 +697,611 @@ Parameters:
   "searchTerm": "Alex Eala WTA head to head record all opponents 2025 2026"
 }
 ```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alexandra Eala WTA Ranking, Stats \u0026 Match Record | TennisDB](https://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala)\n2. [Alexandra Eala Stats, News, Pictures, Bio, Videos - ESPN](https://www.espn.com/tennis/player/_/id/7759/alexandra-eala)\n3. [Alexandra Eala | year: 2026 - surface: Hard - TennisLive.com](https://www.tennislive.net/wta/alexandra-eala/?su=1\u0026y=2026)\n4. [Tennis Abstract: Alexandra Eala Match Results, Splits, and Analysis](http://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=AlexandraEala)\n5. [Alexandra Eala · Rankings, Stats, and News](https://atrtennis.com/page.php?page=players_single\u0026player_name=Alexandra+Eala)\n\nSynthesis:\nAlexandra Eala's head-to-head records against notable opponents in 2025 and 2026 include a 2-2 record against Magda Linette [1], a 0-3 record against Tatjana Maria [1], and a 1-1 record against Elena Rybakina [1]. She holds a 0-3 record against Elise Mertens [1] and a 0-2 record against Linda Noskova [1] [2]. Her 2026 match history shows wins over Cori Gauff (via retirement) [3] and Dayana Yastremska [3], and losses to players including Karolina Muchova [3], Elena Rybakina [4], and Iva Jovic [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala WTA Ranking, Stats \u0026 Match Record | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala\u003c/url\u003e\n\u003ccontent\u003e|\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Jul 2\n...\nR64\n...\n#87\n...\n-2\n...\n|\n| Jun 30, 202\n...\n| Wimbledon | Grand Slam | R128 | Grass | Renata Zarazua#75\n...\n6-1 6-2\n...\nH2H\n...\ndata |\n| Jun 22, 2026 | Bad Homburg | WTA 500 | R32 | Grass\n...\n| Jun 20, 2026 | Berlin | WTA 50\n...\n| SF | Grass | Linda Nos\n...\n#13 |\n...\n2-6 4-6 | L | H2H |\n...\ndata |\n...\nJun 19, 2026 | Berlin | WTA 500 | QF | Grass | Elina Svitolina#8 | 6-3
+… (output truncated)
+```
 User decision: **accepted**
 
-Status: **loading**
+Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+TennisDB shows Linda Noskova lost 0-2 to Eala. The tracker only records one meeting: the Berlin 2026 semifinal.
+
+TennisLive confirms a second meeting: Linda Noskova beat Eala 6-2, 6-0 at Indian Wells 2026. The tracker lacks this match entirely. Elise Mertens and Magda Linette also appear missing from the H2H list.
+
+ATR tennis data for Ostapenko at Linz matches the tracker. The next step is to grep the tennis abstract file for H2H opponents and fetch WTA H2H pages for specific suspects.
+
+The Indian Wells 2026 tournament section may be missing from Best Performances entirely. TennisLive shows Eala reached the quarterfinals after beating Linette in the round of sixteen. This match is absent from the tracker.
+
+TennisLive's March 8 and March 21 entries are chronologically inconsistent. The March 23 Muchova match belongs to Miami rather than Indian Wells. The correct sequence is being reconstructed.
+
+The Indian Wells 2026 run is now clear: Yastremska in the round of sixty-four, Gauff in the round of thirty-two, and a round-of-sixteen loss to Noskova on March 10. The March 21 Linette match belongs to Miami. The round-of-sixteen label is being corrected to mean reaching the quarterfinals.
+
+A round-of-sixteen exit likely does not qualify for Best Performances, since that section probably requires at least a quarterfinal. The H2H record still needs the Indian Wells 2026 match added. I am now verifying the exact date and tournament for that second meeting, and checking other opponents with multiple meetings to ensure none are missing.
+
+Most H2H opponent counts are verified as complete. The tracker is limited to professional career data, so ITF matches are excluded. Elise Mertens has three meetings but is absent from the H2H list, which is acceptable because the user only asked about existing H2H sections.
+
+Magda Linette has four meetings but is correctly absent from the H2H section. I will now fetch WTA H2H pages for Linda Noskova, Karolína Swiatek, and Serena Gauff as spot checks, and read the tennis abstract file for the opponent list.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt",
+  "pattern": "Noskova|Indian Wells|Gauff|Swiatek|Linette|Mertens"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt",
+  "pattern": "Noskova|Indian Wells|Gauff|Swiatek|Linette|Mertens",
+  "topFiles": [
+    {
+      "matchCount": 61,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 61
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://www.wtatennis.com/head-to-head/330332/329668"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Tennis Head-to-Head | Compare Stats \u0026 Match History - WTA Tennis\n\nGo back to the home page\n\n-\n\nTennis Head-to-Head | Compare Stats \u0026 Match History - WTA Tennis\n[Skip to main content](#)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/1fed3d88-0b63-4e6c-92ec-98051c1e381c/WTAxMB-star_joint-logo_h_MB-version_p_3C_web-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/wta/)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/)\n[\n![WTA Logo](https://photoresources.wtatennis.com/wta/document/2025/12/04/5da42b69-828e-4814-9ef9-daa4c8f68b2e/WTA_Logo_Core_Purple_RGB.svg)\nGo back to the home page\n](https://www.wtatennis.com)\n-\n[\n![WTA_Web_Quick-Links_Tiles-Scores_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=142\u0026height=142)\nScores\n](/scores)\n[\n![WTA_Web_Quick-Links_Tiles-Rankings_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/de183c42-affb-457b-b525-7632af6b3ff4/WTA_Web_Quick-Links_Tiles-Rankings_288x288.png?width=142\u0026height=142)\nRankings\n](/rankings)\n[\n![WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288](https://photoresources.wtatennis.com/photo-resources/2026/06/26/0964ad3d-37bb-440e-b790-147373d5546b/WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288.png?width=142\u0026height=142)\nExclusives\n](/collections/exclusive-content)\n[\n![Finals Quick Link Tile](https://photoresources.wtatennis.com/photo-resources/2026/07/01/31b16e6f-6330-402d-939e-6637056caeed/Finals-Quick-Link-Tile.png?width=142\u0026height=142)\
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The WTA H2H page returned no useful match data because it is client-rendered.
+
+Tennis Abstract shows Noskova lost both matches to Eala, but the tracker only records the Berlin semifinal. I am searching for the missing Indian Wells score URL and will review the full H2H table in the tennis abstract file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
 
+Parameters:
+
+```json
+{
+  "searchTerm": "Alex Eala Linda Noskova Indian Wells 2026 round of 16 score wtatennis"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Noskova dominates Eala to book Indian Wells quarterfinal spot](https://www.wtatennis.com/news/4466258/noskova-dominates-eala-to-book-indian-wells-quarterfinal-spot)\n2. [Alex Eala loses to Linda Noskova in BNP Paribas Open round of 16 - ESPN](https://www.espn.com/tennis/story/_/id/48169606/bnp-paribas-open-indian-wells-alex-eala-loses-linda-noskova-round-16)\n3. [A. Eala vs L. Noskova | BNP Paribas Open](https://bnpparibasopen.com/scores/detail/wta:match:LS010)\n\nSynthesis:\nLinda Noskova defeated Alex Eala 6-2, 6-0 in the round of 16 at the 2026 BNP Paribas Open in Indian Wells [1][2][3]. The match was played on March 10, 2026 [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eNoskova dominates Eala to book Indian Wells quarterfinal spot\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4466258/noskova-dominates-eala-to-book-indian-wells-quarterfinal-spot\u003c/url\u003e\n\u003ccontent\u003eNoskova dominates Eala to book Indian Wells quarterfinal spot\n...\nNoskova dominates Eala to book Indian Wells quarterfinal spot\n...\nLinda Noskova, seeded 14th, dominated Alex Eala in straight sets at the BNP Paribas Open to reach her first tour-level quarterfinal of the season. She will face Talia Gibson in the quarterfinals, with both players registering more than 100 winners this week.\n...\nCzech player Linda Noskova produced a dominant performance to defeat the Philippines’ Alex Eala, seeded 31st, in straight sets and reach her first tour-level quarterfinal of the season at the BNP Paribas Open in Indian Wells on Tuesday.\n...\nPlaying the final match of the day on Stadium 1, Noskova began by breaking Eala’s serve in the first game and never looked back. She held to go up 2-0, and from 4-2 in the first set, No. 14 seed Noskova won eight games in a row to close out the match 6-2, 6-0 in 55 minutes.\n...\nNoskovam ranked No. 14 on the WTA Tour\n...\nby Mercedes-Benz,
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The missing result is the Indian Wells 2026 Round 16 match against Noskova. The score was 2-6, 0-6 from Eala's perspective.
+
+Checking WTA score URL for the missing match. Searching the file for other H2H opponents to verify their results.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Checking each H2H opponent's meeting count against Tennis Abstract match history.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt",
+  "pattern": "Swiatek|Rybakina|Gauff|Krejcikova|Keys|Vondrousova|Ostapenko|Alexandrova|Fernandez|Jovic|Kostyuk|Muchova|Noskova|Paolini|Pegula|Svitolina|Tauson|Badosa"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt",
+  "pattern": "Swiatek|Rybakina|Gauff|Krejcikova|Keys|Vondrousova|Ostapenko|Alexandrova|Fernandez|Jovic|Kostyuk|Muchova|Noskova|Paolini|Pegula|Svitolina|Tauson|Badosa",
+  "topFiles": [
+    {
+      "matchCount": 94,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 94
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "tennis.com Eala Noskova Indian Wells 2026 match"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Noskova dominates Eala to book Indian Wells quarterfinal spot](https://www.wtatennis.com/news/4466258/noskova-dominates-eala-to-book-indian-wells-quarterfinal-spot)\n2. [Linda Noskova def. Alexandra Eala, 2026 Indian Wells Fourth Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:3365589/linda-noskova-vs-alexandra-eala)\n3. [Alexandra Eala Linda Noskova live score and H2H results - Sofascore](https://www.sofascore.com/tennis/match/alexandra-eala-linda-noskova/ZFjcsziGc)\n4. [Linda Noskova vs Talia Gibson Preview \u0026 Prediction | 2026 Indian Wells Open (BNP Paribas Open) | Quarter-Final - The Stats Zone](https://www.thestatszone.com/linda-noskova-vs-talia-gibson-preview-prediction-2026-indian-wells-open-bnp-paribas-open-quarter-final-176006)\n5. [Eala Reflects On Her Run: I'm Here To Stay](https://bnpparibasopen.com/news/eala-here-to-stay)\n\nSynthesis:\nIn the fourth round of the 2026 BNP Paribas Open at Indian Wells, Linda Noskova defeated Alexandra Eala in straight sets, 6-2, 6-0, on March 10, 2026 [1][2][3]. The match lasted 55 minutes [1][4]. Noskova, seeded 14th, dominated with seven aces and saved the only break point she faced, while Eala was appearing in her first Indian Wells main draw [1][5]. Following this win, Noskova advanced to the quarterfinals, where she subsequently defeated Talia Gibson [6][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eNoskova dominates Eala to book Indian Wells quarterfinal spot\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4466258/noskova-dominates-eala-to-book-indian-wells-quarterfinal-spot\u003c/url\u003e\n\u003ccontent\u003eNoskova dominates Eala to book Indian Wells quarterfinal spot\n...\n# Noskova dominates Eala to book Indian Wells quarterfinal spot\n...\nLinda Noskova, seeded 14th, dominated Alex Eala in straight sets at the BNP Paribas Open to reach her first tour-level quarterfinal of the s
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking remaining H2H opponents against eala in the tennis abstract recent results.
+
+Ostapenko and Kostyuk results match between tracker and tennis abstract. Paolini has two recorded meetings. Swiatek's Wimbledon 2026 win is confirmed in tracker despite the abstract being dated June 22.
+
+Gauff's H2H is fully verified. Next I will grep the tennis abstract for Vondrousova, Kostyuk, Paolini, Svitolina, and Ostapenko's Linz entry.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt",
+  "pattern": "Vondrousova|Kostyuk|Paolini|Svitolina|Linz|Montreal|Eastbourne|Ostapenko"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt",
+  "pattern": "Vondrousova|Kostyuk|Paolini|Svitolina|Linz|Montreal|Eastbourne|Ostapenko",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/427c2ac0-c9ec-46c8-ba47-587b244e3690.txt"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/l-noskova-vs-a-eala-2026-03-10"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Match not found\n\n[![Tennis.com](/logos/tennis-com.svg)](/)\n[Watch now](https://www.tennischannel.com)\nMatch not found",
+  "url": "https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/l-noskova-vs-a-eala-2026-03-10"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Tennis.com URL for Noskova's Indian Wells match was not found with that slug.
+
+The WTA URL for Noskova's Indian Wells match is confirmed. I'll try alternate Tennis.com URL patterns next, or search directly if needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:tennis.com noskova eala indian wells 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [“I’m really, really grateful”: Alexandra Eala keeps Indian Wells debut perfect | Tennis.com](https://www.tennis.com/news/articles/i-m-really-really-grateful-alexandra-eala-keeps-indian-wells-debut-perfect)\n2. [Coco Gauff retires against Alexandra Eala at Indian Wells after left arm felt \"like a firework was going off\"  | Tennis.com](https://www.tennis.com/news/articles/coco-gauff-retires-wta-match-second-time-alexandra-eala-advances-indian-wells-left-arm)\n3. [Aryna Sabalenka vs. Linda Noskova, Elena Rybakina vs. Elina Svitolina: Preview, Prediction \u0026 Where to Watch | Tennis.com](https://www.tennis.com/news/articles/aryna-sabalenka-vs-linda-noskova-elena-rybakina-vs-elina-svitolina-indian-wells-wta-semifinal-previews)\n4. [Indian Wells Women's Preview: Will Aryna Sabalenka return to win a first title? | Tennis.com](https://www.tennis.com/news/articles/will-aryna-sabalenka-return-to-win-a-first-bnp-paribas-open-title)\n5. [Ben Shelton vs. Learner Tien, Coco Gauff vs. Alexandra Eala: Who will win at Indian Wells? | Tennis.com](https://www.tennis.com/news/articles/ben-shelton-vs-learner-tien-coco-gauff-vs-alexandra-eala-indian-wells-previews)\n\nSynthesis:\nAt the 2026 BNP Paribas Open in Indian Wells, Linda Noskova defeated Alexandra Eala in the fourth round [1][2]. Following that victory, Noskova advanced through the tournament to reach the semifinals, where she was ultimately defeated by Aryna Sabalenka [3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003e“I’m really, really grateful”: Alexandra Eala keeps Indian Wells debut perfect | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/i-m-really-really-grateful-alexandra-eala-keeps-indian-wells-debut-perfect\u003c/url\u003e\n\u003ccontent\u003e“I’m really, really grateful”: Alexandra Eala keeps Indian Wells debut perfect | Tennis.com\n...\nAlexandra Eala is still dreaming big as she continued
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Indian Wells|Gauff|Vondrousova|Kostyuk|Paolini|Linz|Montreal|Ostapenko"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Indian Wells|Gauff|Vondrousova|Kostyuk|Paolini|Linz|Montreal|Ostapenko",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A main gap was found: Noskova is missing her Indian Wells 2026 Round 16 match against Eala.
+
+All other H2H records are complete. Gauff, Swiatek, Ostapenko, Paolini, and Krejcikova each have all their matches accounted for.
+
+Vondrousova, Kostyuk, Alexandrova, and Svitolina each have complete H2H records. Badosa is not in the H2H section. The tracker correctly shows Gauff's Indian Wells result as Round of 32.
+
+The missing Indian Wells match is a March 10–11 loss to Eala, 2–6, 0–6. Tennis.com could not be located; WTA data will be used instead. The entry will be added newest-first, placing the Berlin semifinal ahead of the Indian Wells result.
+
+The Indian Wells result will be placed directly below the Berlin semifinal. A Krejcikova link issue and Gauff's Best Performances were noted but set aside. The next step is to verify meeting counts for Kostyuk, Vondrousova, and Fernandez, and to cross-check all 17 H2H opponents against the full head-to-head list.
+
+Ostapenko’s three frequent H2H meetings are confirmed across Linz, Eastbourne, and Miami. The Indian Wells 2026 Gauff result is verified as a 6–2, 2–0 win for Eala. For the missing Noskova match, a YouTube search will be attempted to locate a verified video for embedding.
+
+Rybakina, Muchova, Fernandez, Jovic, Pegula, and Tauson each have complete H2H records. Svitolina appears to have only one meeting, the 2026 Berlin quarterfinal. The missing Noskova match will be added now, with a targeted YouTube search reserved as a fallback.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Eala, Alexandra vs Nosková, Linda · Round 4 · ATP/WTA Indian Wells\n\n[![Tennis.com](/logos/tennis-com.svg)](/)\n[Watch now](https://www.tennischannel.com)\nEala, Alexandra vs Nosková, Linda · Round 4 · ATP/WTA Indian Wells",
+  "url": "https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Alex Eala Marketa Vondrousova head to head Alex Eala Marta Kostyuk meetings"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alexandra Eala vs Marketa Vondrousova H2H - Tennis Stats, Head to Head Matches](https://www.tennisratio.com/h2h-compare/alexandra-eala-vs-marketa-vondrousova.html)\n2. [Vondrousova denies Eala from a set down in Montreal opener](https://www.wtatennis.com/news/4325650/vondrousova-denies-eala-from-a-set-down-in-montreal-opener)\n3. [Alexandra Eala vs Marta Kostyuk H2H - Tennis Stats, Head to Head Matches](https://www.tennisratio.com/h2h-compare/alexandra-eala-vs-marta-kostyuk.html)\n4. [Marta Kostyuk def. Alexandra Eala, 2025 Rome First Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:333282/marta-kostyuk-vs-alexandra-eala)\n\nSynthesis:\nMarketa Vondrousova leads her head-to-head series against Alexandra Eala 1-0 [1][2]. Their only professional meeting occurred in July 2025 at the National Bank Open in Montreal, where Vondrousova won 3-6, 6-1, 6-2 [1][2].\n\nMarta Kostyuk leads her head-to-head series against Alexandra Eala 1-0 [3][4]. Their sole meeting took place in the first round of the 2025 Italian Open in Rome, where Kostyuk defeated Eala 6-0, 6-1 [3][5][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala vs Marketa Vondrousova H2H - Tennis Stats, Head to Head Matches\u003c/title\u003e\n\u003curl\u003ehttps://www.tennisratio.com/h2h-compare/alexandra-eala-vs-marketa-vondrousova.html\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala\n...\nMarketa V\n...\nAlexandra Eala vs Marketa Vondrousova Head to Head Tennis Stats and Match Analysis\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eVondrousova denies Eala from a set down in Montreal opener\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4325650/vondrousova-denies-eala-from-a-set-down-in-montreal-opener\u003c/url\u003e\n\u003ccontent\u003eA first-round clash of left-handed players in the Omnium Banque Nationale first round saw Marketa
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The tennis.com match URL loads successfully.
+
+Adding the missing match to Noskova's H2H section. Searching for highlights. Badosa's walkover at Miami may qualify as a completed pro-level H2H for watch list removal.
+
+Badosa's walkover will remain on the watch list since the request only covers verifying existing H2H records. Now searching for Noskova's Indian Wells YouTube highlights.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Indian Wells 2026 Noskova Eala highlights youtube WTA"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Noskova dominates Eala to book Indian Wells quarterfinal spot](https://www.wtatennis.com/news/4466258/noskova-dominates-eala-to-book-indian-wells-quarterfinal-spot)\n2. [Alexandra Eala  0 - 2 Linda Noskova (03/11) - Match Report](https://www.365scores.com/tennis/match/indian-wells-263/alexandra-eala-linda-noskova-68734-69850-263)\n3. [Noskova cruises past Eala to reach Indian Wells quarterfinals](https://www.wtatennis.com/videos/4466239/noskova-cruises-past-eala-to-reach-indian-wells-quarterfinals)\n\nSynthesis:\nYou can find the official highlights of the Linda Noskova versus Alexandra Eala Round of 16 match from the 2026 BNP Paribas Open on the official WTA YouTube channel [1]. The match, which took place in March 2026, saw Noskova defeat Eala 6-2, 6-0 to advance to the quarterfinals [2][3]. You may search for \"Linda Noskova vs. Alexandra Eala Indian Wells 2026 highlights\" on YouTube to locate the specific video [1][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eNoskova dominates Eala to book Indian Wells quarterfinal spot\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4466258/noskova-dominates-eala-to-book-indian-wells-quarterfinal-spot\u003c/url\u003e\n\u003ccontent\u003eNoskova dominates Eala to book Indian Wells quarterfinal spot\n...\nNoskova dominates Eala to\n...\nIndian Wells quarterfinal spot\n...\nLinda Noskova, seeded 14th, dominated Alex Eala in straight sets at the BNP Paribas Open to reach her first tour-level quarterfinal of the season. She will face Talia Gibson in the quarterfinals, with both players registering more than 100 winners this week.\n...\nCzech player Linda Noskova produced a dominant performance to defeat the Philippines’ Alex Eala, seeded 31st, in straight sets and reach her first tour-level quarterfinal of the season at the BNP Paribas Open in Indian Wells on Tuesday.\n...\nPlaying the final match of the day on Stadium 1, 
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for the YouTube video ID for Noskova's Indian Wells highlights.
+
+Checking if Badosa's 2025 Miami walkover is missing from the H2H section. Focusing on existing H2H sections rather than watch list entries.
+
+Confirmed Gauff's H2H is complete. Swiatek's three matches are also complete.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://www.wtatennis.com/videos/4466239/noskova-cruises-past-eala-to-reach-indian-wells-quarterfinals"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Noskova cruises past Eala to reach Indian Wells quarterfinals\n\nGo back to the home page\n\n-\n\nNoskova cruises past Eala to reach Indian Wells quarterfinals\n[Skip to main content](#)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/1fed3d88-0b63-4e6c-92ec-98051c1e381c/WTAxMB-star_joint-logo_h_MB-version_p_3C_web-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/wta/)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/)\n[\n![WTA Logo](https://photoresources.wtatennis.com/wta/document/2025/12/04/5da42b69-828e-4814-9ef9-daa4c8f68b2e/WTA_Logo_Core_Purple_RGB.svg)\nGo back to the home page\n](https://www.wtatennis.com)\n-\n[\n![WTA_Web_Quick-Links_Tiles-Scores_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=142\u0026height=142)\nScores\n](/scores)\n[\n![WTA_Web_Quick-Links_Tiles-Rankings_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/de183c42-affb-457b-b525-7632af6b3ff4/WTA_Web_Quick-Links_Tiles-Rankings_288x288.png?width=142\u0026height=142)\nRankings\n](/rankings)\n[\n![WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288](https://photoresources.wtatennis.com/photo-resources/2026/06/26/0964ad3d-37bb-440e-b790-147373d5546b/WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288.png?width=142\u0026height=142)\nExclusives\n](/collections/exclusive-content)\n[\n![Finals Quick Link Tile](https://photoresources.wtatennis.com/photo-resources/2026/07/01/31b16e6f-6330-402d-939e-6637056caeed/Finals-Quick-Link-Tile.png?width=142\u0026height=142)\nFinals\n](/tour
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "youtube \"Noskova\" \"Eala\" Indian Wells 2026 highlights site:youtube.com"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alex Eala vs Linda Noskova Post‑Match Interview | Indian Wells 2026 - YouTube](https://www.youtube.com/watch?v=vjqVdnaqmi8)\n2. [Eala faces world No. 14 Linda Noskova at Indian Wells 4th round - YouTube](https://www.youtube.com/watch?v=FyU4Cge9YIs)\n3. [Alex Eala vs Linda Noskova | Indian Wells Round 4 | Preview \u0026 Prediction](https://www.youtube.com/watch?v=VWOfZaegWHs)\n4. [WTA Indian Wells Preview feat. Zheng, Eala, Rybakina, Tjen, Wang, Tararudee](https://www.youtube.com/watch?v=0DSBDQ4Nl74)\n\nSynthesis:\nMatch highlights for the 2026 Indian Wells fourth-round match between Alexandra Eala and Linda Noskova are available on YouTube [1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala vs Linda Noskova Post‑Match Interview | Indian Wells 2026 - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=vjqVdnaqmi8\u003c/url\u003e\n\u003ccontent\u003eAlex Eala vs Linda Noskova Post‑Match Interview | Indian Wells 2026 - YouTube\n\nAlex Eala vs Linda Noskova Post‑Match Interview | Indian Wells 2026 - YouTube\n[](https://www.youtube.com/)[](https://www.youtube.com/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](https://www.youtube.com/new)[NFL Sunday Ticket](https:
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+YouTube search returned no official WTA match highlights. Only interviews and previews were found.
+
+The H2H audit found 17 opponents total. A gap was fixed for Linda Noskova's missing Indian Wells 2026 round 16 match. All other singles meetings are verified complete. YouTube links were skipped without official oembed verification.
+
+Paolini's two meetings are verified. Her Rome doubles result is excluded. Badosa's Miami 2025 round 16 walkover is not in H2H. It may be worth promoting.
+
+Krejcikova's H2H entry lacks official WTA match links. This is a minor gap in link quality rather than a missing match.
+</details></think>
+
+_**Agent (auto-low)**_
+
+H2H audit complete. Cross-checked all **17** opponent blocks (7 Grand Slam Champions + 10 Other Top 20) against Tennis Abstract match history, TennisDB, and WTA/tennis.com sources.
+
+### Gap found and fixed
+
+**Linda Noskova** — tracker had **1 of 2** pro singles meetings.
+
+| Missing match | Result (Eala-first) |
+|---|---|
+| **2026 Indian Wells** — Round of 16 | LOSS, 2-6, 0-6 |
+
+Added to her **Matches:** block (newest-first, below Berlin). Links: [wtatennis.com LS010](https://www.wtatennis.com/tournaments/indian-wells/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11).
+
+Noskova H2H is now **0-2** (Indian Wells R16, Berlin SF).
+
+### All other H2H sections — complete
+
+| Opponent | Meetings | Tracker |
+|---|---|---|
+| Iga Swiatek | 3 | Miami 2025, Madrid 2025, Wimbledon 2026 |
+| Elena Rybakina | 2 | Rome 2026, Berlin 2026 |
+| Coco Gauff | 2 | Indian Wells 2026, Dubai 2026 |
+| Barbora Krejcikova | 1 | Wimbledon 2025 |
+| Madison Keys | 1 | Miami 2025 |
+| Marketa Vondrousova | 1 | Montreal 2025 |
+| Jelena Ostapenko | 3 | Linz 2026, Eastbourne 2025, Miami 2025 |
+| Ekaterina Alexandrova | 1 | Abu Dhabi 2026 |
+| Leylah Fernandez | 1 | Stuttgart 2026 |
+| Iva Jovic | 2 | Queen's 2026, French Open 2026 |
+| Marta Kostyuk | 1 | Rome 2025 |
+| Karolina Muchova | 1 | Miami 2026 |
+| Jasmine Paolini | 2 | Wimbledon 2026, Dubai 2026 (singles only; Rome 2025 doubles QF vs Paolini/Errani is not a singles H2H) |
+| Jessica Pegula | 1 | Miami 2025 |
+| Elina Svitolina | 1 | Berlin 2026 |
+| Clara Tauson | 1 | US Open 2025 |
+
+### Related note (not an H2H gap)
+
+**Paula Badosa** is still on the watch list, but they already met at **Miami 2025 R16** (walkover win for Eala). That’s a promotion candidate for **Other Top 20**, not a missing line in an existing block.
+
+### Unverified
+
+Official **match highlights** on YouTube for Noskova–Eala at Indian Wells 2026 — only previews/interviews turned up, so no embed was added.
+
+`lastmod` bumped to `2026-07-10T12:02:00Z`. No commit made.

@@ -35,7 +35,8 @@ Systems thinking: See interconnections (processes, incentives, culture) so chang
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Organizing the five transformation principles into structured notes.</details></think>
+Organizing the five transformation principles into structured notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -44,70 +45,43 @@ I'll read the voice and notes conventions, then draft garden notes from your tra
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Exploring the notes garden to understand how to structure these transformation principles.</details></think>
+Exploring the notes garden to understand how to structure these transformation principles.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -215,91 +189,53 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accountability.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accountability.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing existing notes to avoid duplicates and identify gaps.</details></think>
+Reviewing existing notes to avoid duplicates and identify gaps.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-thinking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-thinking.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -395,45 +331,22 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -441,53 +354,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing learning-organizations.md and eternal-principles.
 
-Mapping the five transformation principles to existing notes. Systems thinking, psychological safety, ownership, and deliberate practice already have coverage. Purpose and vision, feedback, and people-centered design still need new notes. Considering a hub index to link everything together.</details></think>
+Mapping the five transformation principles to existing notes. Systems thinking, psychological safety, ownership, and deliberate practice already have coverage. Purpose and vision, feedback, and people-centered design still need new notes. Considering a hub index to link everything together.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/learning-organizations.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/learning-organizations.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/execution.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/execution.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -539,47 +433,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -605,21 +478,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -645,13 +509,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -661,14 +518,13 @@ The first step is a hub index note titled "Transformation Principles" that links
 
 Four new spine notes will cover Purpose & Vision, Self-awareness & Acceptance, and People-centered design. Existing notes will be linked to the hub for Ownership & Responsibility, Practice & Small Experiments, and Leadership & Psychological Safety.
 
-Existing notes will be linked for Feedback, Measurement, and Learning; Systems thinking; and People-centered design. I am checking whether purpose and self-awareness already have coverage elsewhere. Title rules limit names to four words unless a phrase exemption applies.</details></think>
+Existing notes will be linked for Feedback, Measurement, and Learning; Systems thinking; and People-centered design. I am checking whether purpose and self-awareness already have coverage elsewhere. Title rules limit names to four words unless a phrase exemption applies.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -694,51 +550,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/name-the-feeling.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/name-the-feeling.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/quarterly-planning.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/quarterly-planning.md</summary>
 
 </details></tool-use>
 
@@ -753,14 +584,13 @@ Settled on linking existing Accountability and Servant Leadership pages rather t
 
 Reconsidering the ownership principle. The existing Accountability note names outcome owners, but this principle emphasizes proactive ownership rather than waiting for top-down fixes. Evaluating titles like "Take Ownership of Change" or "Own Your Part" to capture this distinction.
 
-Decided against creating a new ownership note; the hub will link existing Accountability and Own the Error pages instead. Now weighing whether to add a new "measure-what-matters" note for the feedback and measurement principle.</details></think>
+Decided against creating a new ownership note; the hub will link existing Accountability and Own the Error pages instead. Now weighing whether to add a new "measure-what-matters" note for the feedback and measurement principle.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -786,38 +616,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/failure-as-feedback.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/failure-as-feedback.md</summary>
 
 </details></tool-use>
 
@@ -830,7 +641,8 @@ Drafting five files with matching frontmatter. The transformation-principles hub
 
 Ownership covers naming accountable parties and owning errors rather than waiting for top-down fixes. Practice and experimentation include small experiments, deliberate training on weak slices, and minimum effective dose. Leadership and safety cover servant leadership and psychological safety. Feedback and learning treat failure as feedback and rely on continuous improvement.
 
-The hub now includes blameless after-action reviews and learning organizations. People-first design and systems thinking are added as separate sections. Drafting the note files in JoRap voice begins with purpose and vision, then honest self-awareness.</details></think>
+The hub now includes blameless after-action reviews and learning organizations. People-first design and systems thinking are added as separate sections. Drafting the note files in JoRap voice begins with purpose and vision, then honest self-awareness.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -839,90 +651,49 @@ Creating a hub note and four new spine notes for gaps; linking existing notes fo
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I need to correct the spelling of "honest self-awareness."</details></think>
+I need to correct the spelling of "honest self-awareness."
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -953,36 +724,22 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/transformation-principles.md content/english/notes/purpose-and-vision.md content/english/notes/honest-self-awareness.md content/english/notes/practice-small-experiments.md content/english/notes/people-centered-design.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/transformation-principles.md content/english/notes/purpose-and-vision.md content/english/notes/honest-self-awareness.md content/english/notes/practice-small-experiments.md content/english/notes/people-centered-design.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/transformation-principles.md content/english/notes/purpose-and-vision.md content/english/notes/honest-self-awareness.md content/english/notes/practice-small-experiments.md content/english/notes/people-centered-design.md 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check -- content/english/notes/transformation-principles.md content/english/notes/purpose-and-vision.md content/english/notes/honest-self-awareness.md content/english/notes/practice-small-experiments.md content/english/notes/people-centered-design.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/transformation-principles.md content/english/notes/purpose-and-vision.md content/english/notes/honest-self-awareness.md content/english/notes/practice-small-experiments.md content/english/notes/people-centered-design.md
 Voice dash lint OK
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -990,7 +747,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Fixed duplicate contradicts and extends links on the Growth Mindset note in honest-self-awareness. This pattern is used elsewhere in the garden.
 
-Kept the contradictory link between honest self-awareness and growth mindset. It represents a valid tension between healthy limits and growth mindset misuse.</details></think>
+Kept the contradictory link between honest self-awareness and growth mindset. It represents a valid tension between healthy limits and growth mindset misuse.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1028,7 +786,8 @@ Create new notes based on the recent notes
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I'll build new notes from the recent transformation-principles hub and four spine notes.</details></think>
+I'll build new notes from the recent transformation-principles hub and four spine notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1037,66 +796,36 @@ I'll read the transformation notes and scan the garden for natural gaps to fill 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
 
 </details></tool-use>
 
@@ -1109,14 +838,13 @@ Auditing the eight original principles against existing spine notes. Ownership a
 
 Proposing specific note titles from the hub themes: "Change Takes Repetition," "Own Your Part," and "Measure What Matters." Also noting that Acceptance lacks its own dedicated note.
 
-Identified specific patterns from the garden: big-bang rollouts, workarounds by Friday, shadowing users, named whiteboard outcomes, and identity versus data tension. These likely belong as natural new spine notes rather than links.</details></think>
+Identified specific patterns from the garden: big-bang rollouts, workarounds by Friday, shadowing users, named whiteboard outcomes, and identity versus data tension. These likely belong as natural new spine notes rather than links.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1151,28 +879,1916 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "measure what|feedback loop|own your part|acceptance"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "measure what|feedback loop|own your part|acceptance",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/selling-static-sites.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/grateful-obedience.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/honest-self-awareness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/transformation-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/standing-vs-fellowship.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/lean-startup.md"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 14
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-the-error.md</summary>
 
-Status: **loading**
+</details></tool-use>
 
+_**Agent (auto-low)**_
 
-</details>
-</tool-use>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing lean-startup.md to identify gaps related to the measurement theme.
+
+Four gaps identified for spine notes:
+
+- **Own Your Part** for ownership and responsibility
+- **Measure Then Iterate** for feedback and learning
+- **Accept the Starting Line** for acceptance
+- Splitting purpose and vision
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/lean-startup.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/continuous-improvement.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "big.bang|snap back|hand.down|wait for.*fix"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "big.bang|snap back|hand.down|wait for.*fix",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/creative-output.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/transformation-principles.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/practice-small-experiments.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+New notes will be created to fill gaps from the transformation cluster.
+
+Three new notes are being drafted. "Own Your Part" covers proactive change ownership. "Accept the Starting Line" captures acceptance from honest self-awareness. "Measure Then Iterate" addresses feedback and learning beyond product validation.
+
+Three more notes are being considered: Change Takes Repetition, Shadow the Work, and Leadership Models Change. The selection will stay limited to the strongest gaps.
+
+The final set is four notes. "Shadow the Work" extends People-Centered Design. "Change Takes Repetition" extends the Transformation Principles hub. "Compelling Outcome" was rejected as overlapping with Purpose and Vision.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Creating five sibling notes for gaps in the transformation cluster: ownership, acceptance, measurement, shadowing real work, and repetition over breakthrough.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/measure-then-iterate.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/shadow-the-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/change-takes-repetition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the transformation-principles hub to include the new notes. Adding relationships to the four original new notes where natural.
+
+Running voice lint. Fixing the intentional tension pattern in Own Your Part. Adding six new notes to the hub sections and updating the hub body.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the hub and cross-linking the transformation cluster.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/own-your-part.md content/english/notes/accept-the-starting-line.md content/english/notes/measure-then-iterate.md content/english/notes/shadow-the-work.md content/english/notes/change-takes-repetition.md content/english/notes/transformation-principles.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/own-your-part.md content/english/notes/accept-the-starting-line.md content/english/notes/measure-then-iterate.md content/english/notes/shadow-the-work.md content/english/notes/change-takes-repetition.md content/english/notes/transformation-principles.md 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/own-your-part.md content/english/notes/accept-the-starting-line.md content/english/notes/measure-then-iterate.md content/english/notes/shadow-the-work.md content/english/notes/change-takes-repetition.md content/english/notes/transformation-principles.md
+Voice dash lint OK
+Voice lint warnings:
+  content/english/notes/own-your-part.md: key_concept: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/own-your-part.md: cards[3].back: AI-tell word `handoff` — try: pass off / pass to client
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/own-your-part.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/own-your-part.md 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/own-your-part.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Added **5 sibling notes** that extend the transformation cluster, plus hub cross-links:
+
+| Note | Fills the gap from |
+|------|-------------------|
+| [Own Your Part](content/english/notes/own-your-part.md) | Proactive ownership — move your slice before a hand-down fix |
+| [Accept the Starting Line](content/english/notes/accept-the-starting-line.md) | Acceptance lane from Honest Self-Awareness |
+| [Measure Then Iterate](content/english/notes/measure-then-iterate.md) | Feedback and measurement before the next pivot |
+| [Shadow the Work](content/english/notes/shadow-the-work.md) | Concrete move from People-Centered Design |
+| [Change Takes Repetition](content/english/notes/change-takes-repetition.md) | Hub thesis — transformation is repeated levers, not one breakthrough |
+
+[Transformation Principles](content/english/notes/transformation-principles.md) now indexes all five, and the original four notes link to their siblings where it fits. Each new note has flashcards (`review: true`). Voice lint is clean.
+
+---
+
+_**User**_
+
+I want a new note God Centered Design
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A new note titled "God Centered Design" is being created. This appears to be a faith-themed parallel to "People-Centered Design".
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll read People-Centered Design and a few faith notes so God Centered Design matches the garden's voice and structure.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "God.?[Cc]entered|god.?centered"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "God.?[Cc]entered|god.?centered",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants a note titled "God Centered Design." This concept parallels People-Centered Design but centers on faith.
+
+The concept centers on designing life, ministry, and priorities around God rather than self, metrics, or human approval. The title fits within the four-word limit. The note will include faith categories, cross-links to related topics, flashcards, and JoRap voice.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating a new note titled "God Centered Design" with the slug `god-centered-design`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating a new note titled "God Centered Design".
+
+Mapping the note across four areas: eternal-principles, transformation-principles, and two PKM tables. Content will center design life, ministry, and calendar around God's glory rather than ego or comfort metrics.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/god-centered-design.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/god-centered-design.md 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/god-centered-design.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Created **[God Centered Design](content/english/notes/god-centered-design.md)** — the faith counterpart to People-Centered Design: build life and work for God's glory first, not applause, ego, or comfort.
+
+It links to **Seek the Kingdom First**, **Love God**, **Love Your Neighbor**, **Purpose and Vision**, and **Success is Stewardship**, with six review cards in the Gospel/Priorities decks.
+
+Also wired into:
+- [Eternal Principles](content/english/notes/eternal-principles.md) (Heart and priorities + PKM cross-link table)
+- [Transformation Principles](content/english/notes/transformation-principles.md) (faith lane under Anchor the direction)
+- [People-Centered Design](content/english/notes/people-centered-design.md) and [Purpose and Vision](content/english/notes/purpose-and-vision.md) as siblings
+
+Voice lint is clean.
+
+---
+
+_**User**_
+
+I want a new note Christlikeness
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a new note on Christlikeness.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Christlikeness|christlike|Christ-like|become like Christ"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Christlikeness|christlike|Christ-like|become like Christ",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Christlikeness is the goal of sanctification and discipleship. It means becoming like Christ in character and conduct.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/humility-and-service.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Drafting a new note on Christlikeness.
+
+Defining Christlikeness as the goal of sanctification: becoming conformed to Christ's image. It differs from the process of sanctification, the daily walk of discipleship, and the outward fruits of the Spirit. It connects to abide in Me, God-centered design, and the broader trajectory of spiritual growth.
+
+The note will also cover humility and service, and contrast compounding with the idea that we should not wait for a perfect solution. It will be placed in the eternal principles hub under theology or character. Bidirectional links will be added to sanctification, discipleship, and the hub.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/christlikeness.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/christlikeness.md 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/christlikeness.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Created **[Christlikeness](content/english/notes/christlikeness.md)** — God reshaping you to look and love more like Jesus after faith, not as the entry fee.
+
+It sits between the process notes and the fruit:
+- **Sanctification** = the slow process
+- **Discipleship** = the daily walk
+- **Christlikeness** = the aim (more of His patience, gentleness, self-denial on ordinary Tuesdays)
+
+Linked to **Abide in Me**, **Fruits of the Spirit**, **Justification**, **God Centered Design**, and related gospel notes. Six review cards in the Eternal Principles / Discipleship decks.
+
+Also added to [Eternal Principles](content/english/notes/eternal-principles.md) (theological basis + PKM cross-link) and cross-linked from [Sanctification](content/english/notes/sanctification.md), [Discipleship](content/english/notes/discipleship.md), and [God Centered Design](content/english/notes/god-centered-design.md). Voice lint is clean.
+
+---
+
+_**User**_
+
+for all new notes, check for other connections
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing all new notes for missing connections. Checking relationship links, wikilinks, and hub indexes. Adding bidirectional links where needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll read all the new notes and scan the garden for missing relationship links.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **12** results in **1** directory</summary>
+
+Directory: **``** (12 files)
+
+| File |
+|------|
+| `./content/english/notes/god-centered-design.md` |
+| `./content/english/notes/christlikeness.md` |
+| `./content/english/notes/purpose-and-vision.md` |
+| `./content/english/notes/people-centered-design.md` |
+| `./content/english/notes/transformation-principles.md` |
+| `./content/english/notes/own-your-part.md` |
+| `./content/english/notes/practice-small-experiments.md` |
+| `./content/english/notes/honest-self-awareness.md` |
+| `./content/english/notes/change-takes-repetition.md` |
+| `./content/english/notes/shadow-the-work.md` |
+| `./content/english/notes/measure-then-iterate.md` |
+| `./content/english/notes/accept-the-starting-line.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\[\\[(Transformation Principles|Purpose and Vision|Honest Self-Awareness|Practice Small Experiments|People-Centered Design|Own Your Part|Accept the Starting Line|Measure Then Iterate|Shadow the Work|Change Takes Repetition|God Centered Design|Christlikeness)\\]\\]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\[\\[(Transformation Principles|Purpose and Vision|Honest Self-Awareness|Practice Small Experiments|People-Centered Design|Own Your Part|Accept the Starting Line|Measure Then Iterate|Shadow the Work|Change Takes Repetition|God Centered Design|Christlikeness)\\]\\]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/shadow-the-work.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/purpose-and-vision.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/honest-self-awareness.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/notes/transformation-principles.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/change-takes-repetition.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/christlikeness.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/accept-the-starting-line.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/measure-then-iterate.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/own-your-part.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/people-centered-design.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/practice-small-experiments.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/god-centered-design.md"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 46
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/measure-then-iterate.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/shadow-the-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/change-takes-repetition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to find existing notes that should link to these new notes but currently don't.
+
+Mapping out specific cross-links between new notes. systems-for-growth connects to transformation-principles. seek-the-kingdom-first links to god-centered-design and purpose-and-vision. growth-mindset connects to honest-self-awareness and accept-the-starting-line. accountability links to own-your-part. own-the-error links to own-your-part. lean-startup connects to measure-then-iterate and practice-small-experiments. continuous-improvement links to measure-then-iterate. failure-as-feedback connects to measure-then-iterate and honest-self-awareness.
+
+listen-before-fixing connects to shadow-the-work and people-centered-design. servant-leadership links to own-your-part and people-centered-design. process-over-outcomes connects to change-takes-repetition. habit-formation links to change-takes-repetition and practice-small-experiments. deliberate-practice connects to practice-small-experiments. minimum-effective-dose links to accept-the-starting-line, honest-self-awareness, and practice-small-experiments. quarterly-planning connects to purpose-and-vision and accept-the-starting-line.
+
+Priorities-before-the-inbox links to purpose-and-vision and god-centered-design. Learning-organizations connects to transformation-principles and measure-then-iterate. Blameless-after-action-review links to measure-then-iterate. Systems-thinking links to transformation-principles. Mental-models may connect to transformation. Grace links to accept-the-starting-line and christlikeness. Free-grace links to christlikeness. The transformation-principles hub may need a Christlikeness entry under faith.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Transformation Principles|Honest Self-Awareness|Own Your Part|Measure Then Iterate|God Centered Design|Christlikeness|Practice Small Experiments|People-Centered Design|Shadow the Work|Change Takes Repetition|Accept the Starting Line|Purpose and Vision"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Transformation Principles|Honest Self-Awareness|Own Your Part|Measure Then Iterate|God Centered Design|Christlikeness|Practice Small Experiments|People-Centered Design|Shadow the Work|Change Takes Repetition|Accept the Starting Line|Purpose and Vision",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/measure-then-iterate.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/honest-self-awareness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/people-centered-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/god-centered-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/purpose-and-vision.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/shadow-the-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/transformation-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/change-takes-repetition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/own-your-part.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/christlikeness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/accept-the-starting-line.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/practice-small-experiments.md"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 15
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accountability.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reverse relationships must be added to many existing notes.
+
+Planning batched edits across several notes. Systems-for-growth will link to Transformation Principles and related notes. Accountability and own-the-error both extend Own Your Part.
+
+Growth-mindset links to Honest Self-Awareness and Accept the Starting Line. Seek-the-kingdom-first connects to God Centered Design and Purpose and Vision. Lean-startup and continuous-improvement both extend Measure Then Iterate. Failure-as-feedback extends Measure Then Iterate and Honest Self-Awareness. Listen-before-fixing links to Shadow the Work and People-Centered Design. Servant-leadership extends Own Your Part, People-Centered Design, and God Centered Design.
+
+Process-over-outcomes, habit-formation, and compounding all extend Change Takes Repetition. Deliberate-practice links to Practice Small Experiments. Minimum-effective-dose needs a reverse link to accept-the-starting-line. Quarterly-planning and priorities-before-the-inbox both extend Purpose and Vision and Accept the Starting Line.
+
+Learning-organizations and systems-thinking both implement Transformation Principles. Blameless-after-action-review extends Measure Then Iterate. Grace links to Accept the Starting Line. Free-grace, abide-in-me, fruits-of-the-spirit, and grateful-obedience all extend Christlikeness.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "glob": "{seek-the-kingdom-first,lean-startup,continuous-improvement,failure-as-feedback,listen-before-fixing,servant-leadership,process-over-outcomes,habit-formation,compounding,deliberate-practice,minimum-effective-dose,quarterly-planning,priorities-before-the-inbox,learning-organizations,systems-thinking,blameless-after-action-review,grace,free-grace,abide-in-me,fruits-of-the-spirit,success-is-stewardship,treasure-in-heaven,love-god,there-is-no-perfect-solution,own-the-error,staged-rollout,develop-dont-endanger,mental-models}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^relationships:",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/habit-formation.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/minimum-effective-dose.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/quarterly-planning.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/process-over-outcomes.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/compounding.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/systems-thinking.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/own-the-error.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/failure-as-feedback.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/blameless-after-action-review.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/staged-rollout.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/deliberate-practice.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/listen-before-fixing.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/free-grace.md"
+    }
+  ],
+  "totalFiles": 28,
+  "totalMatches": 28
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Comprehensive connection updates will be made for all new notes.
+
+Strategic reverse links will be added without bloating notes. New notes will receive direct connections to related concepts. Examples include Free Grace for Christlikeness and Sanctification for God-Centered Design.
+
+Reverse links will be batched across existing notes. Systems-for-Growth will gain a relationship alternative to Transformation Principles and hub body lines for Honest Self-Awareness, Practice Small Experiments, and Measure Then Iterate.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/lean-startup.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/continuous-improvement.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/learning-organizations.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a comprehensive batch of updates.
+
+Mapping out missing relationships for new notes. Adding cross-links between Christlikeness, God-Centered Design, Transformation Principles, and Measure-Then-Iterate.
+
+Adding cross-links for Accept the Starting Line, Honest Self-Awareness, Practice Small Experiments, and Change Takes Repetition. Reverse links are being added to Systems for Growth and Accountability.
+
+Reverse links are being added to additional existing notes. Own Your Part now connects to Own the Error. Honest Self-Awareness links to Growth Mindset. Seek the Kingdom First and Priorities Before the Inbox connect to God Centered Design and Purpose and Vision. Lean Startup, Continuous Improvement, and Failure as Feedback link to Measure Then Iterate. Listen Before Fixing connects to People-Centered Design and Shadow the Work. Servant Leadership links to Own Your Part and People-Centered Design. Process Over Outcomes connects to Change Takes Repetition.
+
+Habit Formation links to Change Takes Repetition. Compounding also links to Change Takes Repetition. Deliberate Practice connects to Practice Small Experiments. Minimum Effective Dose links to Accept the Starting Line and Practice Small Experiments. Quarterly Planning connects to Purpose and Vision and Measure Then Iterate. Learning Organizations implements Transformation Principles. Systems Thinking implements Transformation Principles. Blameless After Action Review links to Measure Then Iterate.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md",
+  "pattern": "People-Centered|Shadow the Work"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md",
+  "pattern": "People-Centered|Shadow the Work",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All edits will be executed in batches.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Content maps lack growth hubs. They will be skipped unless mental-models links growth.
+
+Batches of strreplace edits will run next. The transformation-principles relationships section will gain more extends entries. A new "## Faith lane" section will be added to the hub body, pairing God Centered Design with Christlikeness.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding reverse links across the garden and filling gaps on the new notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/measure-then-iterate.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/change-takes-repetition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/shadow-the-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accountability.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-the-error.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/lean-startup.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/continuous-improvement.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/failure-as-feedback.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/listen-before-fixing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-over-outcomes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/habit-formation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/deliberate-practice.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/quarterly-planning.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/learning-organizations.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md",
+  "pattern": "  - type: extends"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md",
+  "pattern": "  - type: extends",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/free-grace.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/there-is-no-perfect-solution.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/staged-rollout.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 12,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md",
+  "pattern": "^relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md",
+  "pattern": "^relationships:",
+  "topFiles": [
+    {
+      "matchCount": 13,
+      "uri": "content/english/notes/develop-dont-endanger.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md",
+  "pattern": "^relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md",
+  "pattern": "^relationships:",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/psychological-safety.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a connection from "develop-dont-endanger" to "Accept the Starting Line".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Removing a duplicate "Christlikeness" entry from sanctification.md.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Workplace principles table appears correct.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/transformation-principles.md content/english/notes/purpose-and-vision.md content/english/notes/honest-self-awareness.md content/english/notes/practice-small-experiments.md content/english/notes/people-centered-design.md content/english/notes/own-your-part.md content/english/notes/accept-the-starting-line.md content/english/notes/measure-then-iterate.md content/english/notes/shadow-the-work.md content/english/notes/change-takes-repetition.md content/english/notes/god-centered-design.md content/english/notes/christlikeness.md content/english/notes/systems-for-growth.md content/english/notes/workplace-principles.md content/english/notes/sanctification.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/transformation-principles.md content/english/notes/purpose-and-vision.md content/english/notes/honest-self-awareness.md content/english/notes/practice-small-experiments.md content/english/notes/people-centered-design.md content/english/notes/own-your-part.md content/english/notes/accept-the-starting-line.md content/english/notes/measure-then-iterate.md content/english/notes/shadow-the-work.md content/english/notes/change-takes-repetition.md content/english/notes/god-centered-design.md content/english/notes/christlikeness.md content/english/notes/systems-for-growth.md content/english/notes/workplace-principles.md content/english/notes/sanctification.md 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/transformation-principles.md content/english/notes/purpose-and-vision.md content/english/notes/honest-self-awareness.md content/english/notes/practice-small-experiments.md content/english/notes/people-centered-design.md content/english/notes/own-your-part.md content/english/notes/accept-the-starting-line.md content/english/notes/measure-then-iterate.md content/english/notes/shadow-the-work.md content/english/notes/change-takes-repetition.md content/english/notes/god-centered-design.md content/english/notes/christlikeness.md content/english/notes/systems-for-growth.md content/english/notes/workplace-principles.md content/english/notes/sanctification.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Audited all **12 new notes** and wired **~50 bidirectional links** across the garden. Summary:
+
+### Hubs updated
+- **[Transformation Principles](content/english/notes/transformation-principles.md)** — added `Christlikeness`; richer `relationships` to core spine notes
+- **[Systems for Growth](content/english/notes/systems-for-growth.md)** — cross-linked transformation cluster (mindset, practice, review); alternative link to Transformation Principles
+- **[Eternal Principles](content/english/notes/eternal-principles.md)** — PKM cross-link for `Change Takes Repetition`
+- **[Workplace Principles](content/english/notes/workplace-principles.md)** — indexed `Own Your Part`, `People-Centered Design`, `Shadow the Work` + source map rows
+
+### New notes → existing garden (highlights)
+| New note | Now also connects to |
+|----------|----------------------|
+| Christlikeness | Free Grace, Change Takes Repetition, Transformation Principles |
+| God Centered Design | Sanctification, Grateful Obedience |
+| Accept the Starting Line | Grace, Purpose and Vision, Develop Don't Endanger, There Is No Perfect Solution |
+| Honest Self-Awareness | Name the Feeling, Systems for Growth |
+| Measure Then Iterate | Blameless AAR, Quarterly Planning, Systems for Growth |
+| Practice Small Experiments | Lean Startup, Habit Formation, Systems for Growth |
+| Change Takes Repetition | Christlikeness, Discipleship, Systems for Growth |
+| Shadow / People / Own Your Part / Purpose | Workplace Principles hub |
+
+### Existing notes → new notes (reverse links)
+Growth stack: **Growth Mindset**, **Process Over Outcomes**, **Habit Formation**, **Compounding**, **Deliberate Practice**, **Minimum Effective Dose**, **Continuous Improvement**, **Lean Startup**, **Failure as Feedback**, **Quarterly Planning**, **Systems Thinking**, **Learning Organizations**, **Blameless AAR**, **Staged Rollout**
+
+Leadership: **Accountability**, **Own the Error**, **Servant Leadership**, **Listen Before Fixing**, **Psychological Safety**
+
+Faith: **Seek the Kingdom First**, **Priorities Before the Inbox**, **Sanctification**, **Free Grace**, **Abide in Me**, **Fruits of the Spirit**, **Grateful Obedience**, **Love God**, **Treasure in Heaven**, **Success is Stewardship**, **Grace**
+
+Also fixed a duplicate `Christlikeness` relationship on Sanctification. Voice lint is clean on the touched files.

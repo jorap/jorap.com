@@ -17,20 +17,17 @@ I'll search the repo for AI prompt definitions and compare them against current 
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **11** results in **1** directory</summary>
 
-Directory: **** (11 files)
+Directory: **``** (11 files)
 
 | File |
 |------|
@@ -45,35 +42,25 @@ Directory: **** (11 files)
 | `layouts/_partials/notes/random-prompt-panel.html` |
 | `.github/prompts/speckit.plan.prompt.md` |
 | `.github/prompts/speckit.specify.prompt.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for AI prompts related to notes creation and flashcards.</details></think>
+Searching for AI prompts related to notes creation and flashcards.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -180,31 +167,21 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **28** results in **1** directory</summary>
 
-Directory: **** (28 files)
+Directory: **``** (28 files)
 
 | File |
 |------|
@@ -236,137 +213,88 @@ Directory: **** (28 files)
 | `.cursor/skills/ponytail-review/SKILL.md` |
 | `.cursor/skills/ponytail/SKILL.md` |
 | `.cursor/skills/flashcards/SKILL.md` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<think><details><summary>Thought Process</summary>
+Reviewing all AI prompts to verify whether they are updated.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-prompt-panel.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-single.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-duo.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing all AI prompts to verify whether they are updated.</details></think>
+Connection prompts are built from `jorapNotesRandomCore`.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-prompt-panel.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-single.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-duo.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<think><details><summary>Thought Process</summary>
-Connection prompts are built from `jorapNotesRandomCore`.</details></think>
-
-_**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for notes-random-core.js to locate the connection analysis prompts.</details></think>
+Searching for notes-random-core.js to locate the connection analysis prompts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
 
-Directory: **** (4 files)
+Directory: **``** (4 files)
 
 | File |
 |------|
@@ -374,73 +302,40 @@ Directory: **** (4 files)
 | `./assets/js/notes-random-single.js` |
 | `./assets/js/notes-random-duo.js` |
 | `./assets/js/notes-random-select.js` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -523,25 +418,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md</summary>
 
 </details></tool-use>
 
@@ -550,49 +432,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking for mismatches between the AI prompts and the current note format.
 
-The notes conversion appears to use frontmatter-only YAML with empty bodies. The notes-creator.js prompt contradicts itself by requiring body sections while simultaneously instructing empty bodies. The connection prompt seems outdated for the faith notes garden. Archetypes also need review.</details></think>
+The notes conversion appears to use frontmatter-only YAML with empty bodies. The notes-creator.js prompt contradicts itself by requiring body sections while simultaneously instructing empty bodies. The connection prompt seems outdated for the faith notes garden. Archetypes also need review.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **** (3 files)
+Directory: **``** (3 files)
 
 | File |
 |------|
 | `archetypes/notes.md` |
 | `archetypes/notes-review.md` |
 | `archetypes/default.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -635,47 +502,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -722,21 +568,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -762,13 +599,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -778,40 +608,27 @@ Checking okf-export for AI prompt text, agent copy functionality, and blog rando
 
 Found a key drift between notes-creator.js and getting-started.md. The creator script allows body sections, but the guide says to place definitions, angles, examples, and relationships in frontmatter instead.
 
-The notes-creator prompt contains contradictory CONTEXT language claiming allowed body sections, while the FORMAT section correctly specifies frontmatter-only output. It likely omits `review: true` for spine notes and `note_kind` for hub notes.</details></think>
+The notes-creator prompt contains contradictory CONTEXT language claiming allowed body sections, while the FORMAT section correctly specifies frontmatter-only output. It likely omits `review: true` for spine notes and `note_kind` for hub notes.
+</details></think>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.github/prompts/speckit.specify.prompt.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.github/prompts/speckit.specify.prompt.md</summary>
 
 </details></tool-use>
 
@@ -826,13 +643,13 @@ Auditing specific prompt locations across the codebase:
 - notes-random-core.js
 - .cursor/skills/jorap-voice/SKILL.md
 - .cursor/skills/flashcards/SKILL.md
-- archetypes/notes.md and notes-review.md</details></think>
+- archetypes/notes.md and notes-review.md
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff assets/js/notes-creator.js assets/js/notes-random-core.js archetypes/notes.md archetypes/notes-review.md 2>/dev/null; git log -5 --oneline -- assets/js/notes-creator.js assets/js/notes-random-core.js archetypes/</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff assets/js/notes-creator.js assets/js/notes-random-core.js archetypes/notes.md archetypes/notes-review.md 2&gt;/dev/null; git log -5 --oneline -- assets/js/notes-creator.js assets/js/notes-random-core.js archetypes/</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff assets/js/notes-creator.js assets/js/notes-random-core.js archetypes/notes.md archetypes/notes-review.md 2>/dev/null; git log -5 --oneline -- assets/js/notes-creator.js assets/js/notes-random-core.js archetypes/
 ```
@@ -845,24 +662,12 @@ dc2ed14 Update
 2d2b186 Update
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
@@ -881,27 +686,20 @@ The notes-review archetype is stale. It still uses body text for titles and plac
 
 The jorap-voice and flashcards skills appear current and aligned with the by-their-fruits.md sample.
 
-The notes archetype is updated and matches the frontmatter shape.</details></think>
+The notes archetype is updated and matches the frontmatter shape.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/noteFileDates.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/noteFileDates.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -931,34 +729,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -989,39 +772,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The full picture of the AI prompt updates is now clear.</details></think>
+The full picture of the AI prompt updates is now clear.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1064,21 +833,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1121,19 +881,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Verifying the connection prompt intro correctly states "two ideas" for blog and note content.</details></think>
+Verifying the connection prompt intro correctly states "two ideas" for blog and note content.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1278,7 +1032,8 @@ yes
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Applying the recommended fixes for the AI prompts.</details></think>
+Applying the recommended fixes for the AI prompts.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1287,53 +1042,29 @@ Applying the prompt updates across all four files, starting with the two JS prom
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
@@ -1348,96 +1079,254 @@ Updating the notes-review archetype with better meta descriptions and realistic 
 
 The connection prompt will now generate seven specific outputs: core relationship, three unexpected links, three atomic note stubs, three YAML relationship rows, three quick wins, three experiments, and three shareable one-liners. Content is assembled from frontmatter fields including description, key_concept, examples, and relationships.
 
-Adding jorap-voice guidance to the prompt. Replacing tweet-style outputs with quotable one-liners or sibling atomic note stubs. Removing the unused `today` variable from notes-creator.js. Keeping experiments and quick wins unchanged. Frontmatter will default categories to Productivity or Faith based on topic.</details></think>
+Adding jorap-voice guidance to the prompt. Replacing tweet-style outputs with quotable one-liners or sibling atomic note stubs. Removing the unused `today` variable from notes-creator.js. Keeping experiments and quick wins unchanged. Frontmatter will default categories to Productivity or Faith based on topic.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
-
-Status: **loading**
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating okf-export.md to reflect the connection prompt changes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{md,js,html}",
+  "pattern": "tweet|Shareable|body sections|typing in the body"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "tweet|Shareable|body sections|typing in the body",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "./.specstory/history/2026-07-02_05-35-18Z-ai-prompts-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/getting-started-with-rss-feeds-beginners-guide.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-22_16-41-21Z-new-connections-in-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 44
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node -e &#34;
+var fs=require(&#39;fs&#39;);
+[&#39;assets/js/notes-creator.js&#39;,&#39;assets/js/notes-random-core.js&#39;].forEach(f=&gt;{
+  new Function(fs.readFileSync(f,&#39;utf8&#39;))();
+  console.log(&#39;OK&#39;, f);
+});
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node -e "
+var fs=require('fs');
+['assets/js/notes-creator.js','assets/js/notes-random-core.js'].forEach(f=>{
+  new Function(fs.readFileSync(f,'utf8'))();
+  console.log('OK', f);
+});
+"
+```
+
+```
+<anonymous_script>:7
+  var core = window.jorapNotesRandomCore;
+             ^
+
+ReferenceError: window is not defined
+    at eval (eval at <anonymous> ([eval]:4:3), <anonymous>:7:14)
+    at eval (eval at <anonymous> ([eval]:4:3), <anonymous>:250:3)
+    at [eval]:4:42
+    at Array.forEach (<anonymous>)
+    at [eval]:3:65
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:446:12
+    at [eval]-wrapper:6:24
+    at runScriptInContext (node:internal/process/execution:444:60)
+    at evalFunction (node:internal/process/execution:279:30)
+
+Node.js v22.22.3
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+JavaScript files require a browser window, which is expected.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node --check assets/js/notes-creator.js &amp;&amp; node --check assets/js/notes-random-core.js</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node --check assets/js/notes-creator.js && node --check assets/js/notes-random-core.js
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/okf-export.md",
+  "pattern": "tweet|Shareable|Big Picture"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "tweet|Shareable|Big Picture",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+All four updates are in. Here's what changed:
+
+### `assets/js/notes-creator.js`
+- Replaced body `##` section rules with **frontmatter-only** spec (`description`, `key_concept`, `examples`, `relationships`)
+- Added `note_kind` guidance and utility-page URL rule
+- Dropped manual `date:` (file timestamps are build-derived)
+- Fixed quality gate for frontmatter checks
+- Broadened role beyond PKM; categories example is `Productivity` / `Faith`
+
+### `assets/js/notes-random-core.js`
+- Intro notes frontmatter assembly and garden scope (PKM, faith, ethics, systems)
+- Replaced PKM-only task + tweets with garden-aligned outputs:
+  - Sibling atomic note stubs (with relationship rows)
+  - YAML relationship rows to paste
+  - Quotable one-liners instead of tweets
+- Added jorap-voice rules and frontmatter/utility-link constraints
+
+### `archetypes/notes-review.md`
+- Empty body (frontmatter-only)
+- Six realistic cue → apply card examples
+- Full atomic note frontmatter scaffold aligned with `archetypes/notes.md`
+
+### `content/english/notes/note-relationships.md`
+- Updated three flashcard fronts/backs that still said "typing in the body" → frontmatter rows
+
+Reload [/notes/create/](http://localhost:1313/notes/create/) or Random Duo locally to see the new prompts in the textarea.

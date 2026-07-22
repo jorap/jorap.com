@@ -13,7 +13,8 @@ ensure the randomizer is in /jorap-voice
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The randomizer needs to be placed in /jorap-voice.</details></think>
+The randomizer needs to be placed in /jorap-voice.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,10 +23,8 @@ I'll find all randomizer copy and check it against JoRap voice.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -104,37 +103,1187 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js",
+  "pattern": "(textContent|innerHTML|aria-|label|title|description|placeholder|\\.md)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js",
+  "pattern": "(textContent|innerHTML|aria-|label|title|description|placeholder|\\.md)",
+  "topFiles": [
+    {
+      "matchCount": 36,
+      "uri": "assets/js/randomizer.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 36
+}
+```
+Status: **completed**
+
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 
-</details>
-</tool-use>
+Parameters:
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,md,yaml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "randomizer"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "randomizer",
+  "topFiles": [
+    {
+      "matchCount": 64,
+      "uri": ".specstory/history/2026-07-06_07-22-00Z-collection-suggestions.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": ".specstory/history/2026-07-06_04-36-44Z-spectrum-and-wavelength-comparison.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-06_08-15-57Z-randomizer-in-jorap-voice.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-07-06_03-58-01Z-board-game-question-randomizer.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-06_06-53-14Z-usefulness-of-collections.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-07-06_06-57-50Z-family-friendly-scale-clues.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/pages/randomizer.md"
+    },
+    {
+      "matchCount": 33,
+      "uri": ".specstory/history/2026-07-06_04-36-19Z-personal-scales-and-game-facts.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-07-06_04-27-35Z-scale-clues-without-categories.md"
+    },
+    {
+      "matchCount": 35,
+      "uri": "layouts/randomizer.html"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-07-06_04-49-08Z-scale-clues-database-usage.md"
+    },
+    {
+      "matchCount": 82,
+      "uri": ".specstory/history/2026-07-06_07-02-15Z-category-selection-randomization.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-06_07-21-06Z-spectrum-sorting-criteria.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": ".specstory/history/2026-07-06_07-06-59Z-spectrum-optimization-for-scaling.md"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 700
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
+<think><details><summary>Thought Process</summary>
+I need to examine the randomizer's collection titles, taglines, play hints, and layout HTML.
+</details></think>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^  (title|tagline|play_hint|scale_label):"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^  (title|tagline|play_hint|scale_label):",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "package.json",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "voice:scan|lint:voice"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "voice:scan|lint:voice",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether voice:scan includes randomizer.yaml and randomizer.md.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "—"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "—",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the content_paths function and build scripts to verify whether the randomizer is included.
+
+Found em dashes in randomizer.yaml and collection metadata that must be replaced with hyphens or commas. Page copy, JS ledes, and play hints need JoRap voice adjustments. The table-topics categories also appear flat.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "—"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "—",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/spawnUtil.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 7,
+      "uri": "scripts/audit-note-categories.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/previewProd.mjs"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/cspHashes.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/deployBuild.mjs"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/audit-blog-related-notes.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 12,
+      "uri": "scripts/build-randomizer-decks.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/curate-randomizer-300.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/fix-tailwind-bin.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/build-spectrum-500.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/okf-viz/viz.js"
+    },
+    {
+      "matchCount": 5,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-okf-bundle.py"
+    }
+  ],
+  "totalFiles": 18,
+  "totalMatches": 58
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A comprehensive voice pass is needed for the randomizer.
+
+The main fixes target em dashes, page copy, JS lede, and collection metadata. The page needs a personal, practical tone instead of brochure language. I'll run lint:voice on randomizer.md and verify em dash detection.
+
+The current page reads like a brochure. I will rewrite the description and meta title in a personal, conversational tone. Collection taglines and play hints also need JoRap voice.
+
+Ranking prompts now use a concrete example and a private 1–100 ranking. Personal icebreakers are next.
+
+Personal icebreakers now use a concrete self-rating prompt. Concept spectrums were rewritten with a sliding scale and hidden spot. The play hints were tightened too.
+
+Either-or dilemmas need an em dash removed from its play hint. Conversation starters also need em dashes fixed in its tagline and play hint. Table-topics entries will switch from em dashes to colons or commas.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py",
+  "pattern": "tagline|play_hint|scale_label"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py",
+  "pattern": "tagline|play_hint|scale_label",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "scripts/curate-randomizer-300.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py",
+  "pattern": "tagline|play_hint"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py",
+  "pattern": "tagline|play_hint",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/build-spectrum-500.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check 2&gt;&amp;1 | rg -i randomizer || true; python3 -c &#34;
+import re
+from pathlib import Path
+p = Path(&#39;data/randomizer.yaml&#39;)
+text = p.read_text()
+em = text.count(&#39;—&#39;)
+print(f&#39;em dashes in yaml: {em}&#39;)
+for i,line in enumerate(text.splitlines(),1):
+    if &#39;—&#39; in line:
+        print(f&#39;{i}: {line[:100]}&#39;)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check 2>&1 | rg -i randomizer || true; python3 -c "
+import re
+from pathlib import Path
+p = Path('data/randomizer.yaml')
+text = p.read_text()
+em = text.count('—')
+print(f'em dashes in yaml: {em}')
+for i,line in enumerate(text.splitlines(),1):
+    if '—' in line:
+        print(f'{i}: {line[:100]}')
+"
+
+```
+
+```
+em dashes in yaml: 18
+1: # Game prompt collections. Names describe the prompt type — not branded deck titles.
+7:   tagline: Open situations and what-if scenarios. Name one concrete example — the group ranks it fro
+8:   play_hint: Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for th
+314:   tagline: Honest 1-to-100 self-ratings about real habits and personality — one surprising answer at
+622:   tagline: Two opposing ideas on one sliding scale. One hidden spot on the line — name one word or p
+1030:   play_hint: Read both options aloud. Everyone picks one — no middle ground. Best argument wins.
+1336:   tagline: Open prompts — share a story, a memory, or a hot take. No scoring.
+1337:   play_hint: Take turns answering. There is no right answer — stories beat one-word replies.
+1379:   - "A weather day you remember — snow, rain, or heat."
+1397:   - A beach memory — good or bad.
+1401:   - A long flight story — good seat or bad seat.
+1410:   - "A camping memory — tent, cabin, or backyard."
+1509:   - "A puzzle type you love — jigsaw, crossword, or other."
+1510:   - "A collection you had as a kid — cards, rocks, stickers."
+1528:   - "A place you go to think — park, café, library."
+1594:   - "A near miss — car, bike, kitchen, sports — that taught you something."
+1608:   - "A weather event you lived through — storm, flood, heat wave."
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py",
+  "pattern": "SC_|PS_|SPECTRUM_|scale.clues|personal"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py",
+  "pattern": "SC_|PS_|SPECTRUM_|scale.clues|personal",
+  "topFiles": [
+    {
+      "matchCount": 40,
+      "uri": "scripts/curate-randomizer-300.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 40
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check 2&gt;&amp;1 | head -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check 2>&1 | head -30
+```
+
+```
+Voice lint warnings:
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether notes-voice-lint validates em dashes. Reading randomizer.md via Python.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "em dash|—|8211"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "em dash|—|8211",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "scripts/curate-randomizer-300.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 7,
+      "uri": "scripts/audit-note-categories.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes-voice-sanitize.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/spawnUtil.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/previewProd.mjs"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/build-spectrum-500.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/cspHashes.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/deployBuild.mjs"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 5,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/fix-tailwind-bin.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/audit-blog-related-notes.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/okf-viz/viz.js"
+    },
+    {
+      "matchCount": 12,
+      "uri": "scripts/build-randomizer-decks.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-notes-format.py"
+    }
+  ],
+  "totalFiles": 19,
+  "totalMatches": 59
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I now have a clear picture. I will make comprehensive voice updates.
+
+Rewriting randomizer.md in JoRap voice. The description will be personal and practical. It will mention game night and borrowing mechanics without the box. Em dashes will be removed. The randomizer.js lede will match the page tone. randomizer.yaml will get corrected em dashes and improved taglines. Scripts will be synced.
+
+The markdown draft uses a practical first-person tone about keeping board games around for family night. The JavaScript lede will be shorter, matching the page but fitting the UI.
+
+The JavaScript lede will be casual: "Five decks for table time. Pick one, shuffle, pass the phone." Taglines and play hints are being drafted to match JoRap voice.
+
+Taglines and play hints are drafted for the remaining decks. The either-or deck gets a playful hint about surprising the room. The either-or play hint keeps the original wording. The spectrums deck uses a colon instead of an em dash. The conversation starters deck keeps its turn-based structure.
+
+Drafting concrete prompt examples for each of the eight decks. A comment line clarifies that deck names describe prompt types rather than branded titles.
+
+Em dashes will be replaced carefully per line in the YAML. The curate script reads taglines directly from the YAML columns dictionary, so updating the YAML file alone will preserve those changes across rebuilds.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Applying a JoRap voice pass: personal page copy, removing em dashes, and tightening collection taglines and hints.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-randomizer-decks.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+from pathlib import Path
+for p in [&#39;data/randomizer.yaml&#39;, &#39;content/english/pages/randomizer.md&#39;, &#39;assets/js/randomizer.js&#39;]:
+    t = Path(p).read_text()
+    n = t.count(&#39;—&#39;)
+    print(f&#39;{p}: {n} em dashes&#39;)
+&#34; &amp;&amp; python3 scripts/notes-voice-sanitize.py --check content/english/pages/randomizer.md 2&gt;&amp;1 || true</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+from pathlib import Path
+for p in ['data/randomizer.yaml', 'content/english/pages/randomizer.md', 'assets/js/randomizer.js']:
+    t = Path(p).read_text()
+    n = t.count('—')
+    print(f'{p}: {n} em dashes')
+" && python3 scripts/notes-voice-sanitize.py --check content/english/pages/randomizer.md 2>&1 || true
+```
+
+```
+data/randomizer.yaml: 0 em dashes
+content/english/pages/randomizer.md: 0 em dashes
+assets/js/randomizer.js: 1 em dashes
+Voice dash lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js",
+  "pattern": "—"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js",
+  "pattern": "—",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/js/randomizer.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Scanning the randomizer for AI-tell words like "utilize" and "delve".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import re, yaml
+from pathlib import Path
+
+# quick voice check on randomizer prose fields
+p = Path(&#39;data/randomizer.yaml&#39;)
+data = yaml.safe_load(p.read_text())
+fields = []
+for col in data[&#39;collections&#39;]:
+    for k in (&#39;title&#39;,&#39;tagline&#39;,&#39;play_hint&#39;,&#39;scale_label&#39;):
+        if col.get(k): fields.append(col[k])
+    for item in col.get(&#39;items&#39;) or []:
+        if isinstance(item, str): fields.append(item)
+
+page = Path(&#39;content/english/pages/randomizer.md&#39;).read_text()
+m = re.match(r&#39;---\s*\n(.*?)\n---&#39;, page, re.S)
+meta = yaml.safe_load(m.group(1))
+fields.extend(meta.get(&#39;description&#39;,&#39;&#39;))
+fields.append(page[m.end():])
+
+banned = [&#39;delve&#39;,&#39;Furthermore&#39;,&#39;Moreover&#39;,&#39;Additionally&#39;,&#39;When it comes to&#39;,&#39;game-changer&#39;,&#39;utilize&#39;,&#39;facilitate&#39;,&#39;realm&#39;]
+for f in fields[:20]:
+    pass
+hits = []
+for text in fields:
+    if not isinstance(text, str): continue
+    for b in banned:
+        if re.search(rf&#39;\b{b}\b&#39;, text, re.I):
+            hits.append((b, text[:60]))
+print(&#39;AI-tell hits:&#39;, len(hits))
+for h in hits[:5]: print(h)
+
+for p in [&#39;data/randomizer.yaml&#39;, &#39;content/english/pages/randomizer.md&#39;, &#39;assets/js/randomizer.js&#39;]:
+    print(f&#39;{p}: {Path(p).read_text().count(chr(8212))} em dashes&#39;)
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import re, yaml
+from pathlib import Path
+
+# quick voice check on randomizer prose fields
+p = Path('data/randomizer.yaml')
+data = yaml.safe_load(p.read_text())
+fields = []
+for col in data['collections']:
+    for k in ('title','tagline','play_hint','scale_label'):
+        if col.get(k): fields.append(col[k])
+    for item in col.get('items') or []:
+        if isinstance(item, str): fields.append(item)
+
+page = Path('content/english/pages/randomizer.md').read_text()
+m = re.match(r'---\s*\n(.*?)\n---', page, re.S)
+meta = yaml.safe_load(m.group(1))
+fields.extend(meta.get('description',''))
+fields.append(page[m.end():])
+
+banned = ['delve','Furthermore','Moreover','Additionally','When it comes to','game-changer','utilize','facilitate','realm']
+for f in fields[:20]:
+    pass
+hits = []
+for text in fields:
+    if not isinstance(text, str): continue
+    for b in banned:
+        if re.search(rf'\b{b}\b', text, re.I):
+            hits.append((b, text[:60]))
+print('AI-tell hits:', len(hits))
+for h in hits[:5]: print(h)
+
+for p in ['data/randomizer.yaml', 'content/english/pages/randomizer.md', 'assets/js/randomizer.js']:
+    print(f'{p}: {Path(p).read_text().count(chr(8212))} em dashes')
+"
+```
+
+```
+AI-tell hits: 0
+data/randomizer.yaml: 0 em dashes
+content/english/pages/randomizer.md: 0 em dashes
+assets/js/randomizer.js: 0 em dashes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Randomizer copy is now in JoRap voice. Here's what changed:
+
+**Page** (`content/english/pages/randomizer.md`)
+- First-person intro: family game night, boxed deck not on the shelf
+- Plain `description` and `meta_title` (no brochure tone)
+- No em dashes
+
+**UI** (`assets/js/randomizer.js`)
+- Home lede: "Five decks for table time. Pick one, shuffle, pass the phone."
+- Offline export title uses a hyphen, not an em dash
+
+**Collection metadata** (`data/randomizer.yaml`)
+- Taglines and play hints rewritten in plain, table-side language
+- All 18 em dashes removed (metadata + conversation-starter prompts)
+
+**Source scripts** (so rebuilds keep the voice)
+- `build-randomizer-decks.py`
+- `curate-randomizer-300.py`
+- `build-spectrum-500.py`
+
+Example shift on ranking prompts:
+
+| Before | After |
+|--------|-------|
+| "Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100." | "A theme on the card. You name one real thing; everyone ranks it 1-100 in their head." |
+| "Answer honestly." | "Pick your number honestly. Out loud or in your head - your call." |
+
+The 1,400+ game prompts themselves were already short and table-ready, so those stayed as-is aside from the nine em-dash fixes in conversation starters.

@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking whether recent blogs suggest any new notes.
 
-Exploring the codebase to understand the blog and notes garden structure. Reviewing relevant skills to identify patterns for extracting notes from blog content.</details></think>
+Exploring the codebase to understand the blog and notes garden structure. Reviewing relevant skills to identify patterns for extracting notes from blog content.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,11 +25,10 @@ I'll compare recent blog posts with your notes garden to spot topics that could 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **60** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (60 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (60 files)
 
 | File |
 |------|
@@ -92,22 +92,14 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (60 files)
 | `content/english/blog/__mcgill-big-three.md` |
 | `content/english/blog/__selling-static-sites.md` |
 | `content/english/blog/hanamikoji-duopoly-retheme.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **236** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (236 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (236 files)
 
 | File |
 |------|
@@ -347,21 +339,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (236 files)
 | `content/english/notes/slow-productivity.md` |
 | `content/english/notes/create-regular-connection.md` |
 | `content/english/notes/develop-dont-endanger.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -425,25 +408,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -452,13 +422,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking git history and recently modified blog posts to identify recent blogs.
 
-Reviewing how blog posts connect to notes through relationships and cross-links. Reading recent blogs to identify discussed concepts. Checking existing documentation for blog-to-note workflows.</details></think>
+Reviewing how blog posts connect to notes through relationships and cross-links. Reading recent blogs to identify discussed concepts. Checking existing documentation for blog-to-note workflows.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git log --oneline -20 -- content/english/blog/ && echo "---" && ls -lt content/english/blog/*.md | head -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git log --oneline -20 -- content/english/blog/ &amp;&amp; echo &#34;---&#34; &amp;&amp; ls -lt content/english/blog/*.md | head -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git log --oneline -20 -- content/english/blog/ && echo "---" && ls -lt content/english/blog/*.md | head -15
 ```
@@ -503,20 +473,12 @@ e9249509 Update
 ]633;D;0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -622,34 +584,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -699,13 +646,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -713,14 +653,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reading recent blog posts to identify themes and compare them with existing notes.
 
-Also searching blog posts for `related_notes` and checking existing bridged.to content.</details></think>
+Also searching blog posts for `related_notes` and checking existing bridged.to content.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -828,147 +767,81 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__obsidian-vs-hugo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__obsidian-vs-hugo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing recent blog posts for novel ideas not yet captured in the notes garden.</details></think>
+Reviewing recent blog posts for novel ideas not yet captured in the notes garden.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__inter-font.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__inter-font.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
@@ -977,14 +850,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking existing notes against recent blog content to identify gaps.
 
-Searching for notes on specific topics including phone banking separation, curated feeds, AI consistency, garage versus garden, open-source freedom, typographic restraint, retheming, and parenting games.</details></think>
+Searching for notes on specific topics including phone banking separation, curated feeds, AI consistency, garage versus garden, open-source freedom, typographic restraint, retheming, and parenting games.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1092,21 +964,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1162,38 +1025,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-personal-api.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-personal-api.md</summary>
 
 </details></tool-use>
 
@@ -1226,83 +1070,48 @@ Desktop versus laptop distinctions are already addressed by deep-work and mobile
 
 The sustainable-publishing and how-i-built topics are well bridged.
 
-Checking existing notes for overlap with the AI consistency post. Reviewing don't-copy-the-pattern, elimiefore-managing, and build-a-reliable-default against that topic.</details></think>
+Checking existing notes for overlap with the AI consistency post. Reviewing don't-copy-the-pattern, elimiefore-managing, and build-a-reliable-default against that topic.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-copy-the-pattern.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-copy-the-pattern.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/safety-by-design.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/safety-by-design.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
 
 </details></tool-use>
 
@@ -1311,14 +1120,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking additional recent blogs—extension cord, one-page zine, sustainable publishing, and wireless earphones—to identify notes that could bridge better.
 
-Also checking specstory history for prior answers to this exact question.</details></think>
+Also checking specstory history for prior answers to this exact question.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1356,51 +1164,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standard-operating-procedures.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standard-operating-procedures.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eliminate-before-managing.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eliminate-before-managing.md</summary>
 
 </details></tool-use>
 
@@ -1433,14 +1216,13 @@ The one-page zine cover-face principle is too niche for the notes garden.
 
 The think-private, ship-public idea is already covered by the garage concept and drafting-in-public notes.
 
-Checking whether mobile-capture-workflows and parenting notes already exist.</details></think>
+Checking whether mobile-capture-workflows and parenting notes already exist.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1514,38 +1296,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mobile-capture-workflows.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mobile-capture-workflows.md</summary>
 
 </details></tool-use>
 
@@ -1556,7 +1319,8 @@ I have enough information to provide a clear answer about new notes based on rec
 
 Organizing recent blog findings into three categories: strong new notes, strengthening existing notes, and skipping items that belong in the blog itself. The most recent drafts include hanamikoji-duopoly-retheme, dnpap-song-resources, and one-page-zine.
 
-Additional recent drafts include alex-eala-pro-career-tracker, sustainable-online-publishing, and why-i-fused-on-open-source. Upcoming drafts likely to publish include grade-1-better-than-kumon, inter-font, obsidian-vs-hugo, markdown-deep-dive, second-cellphone, jorap-notes-features, and interesting-facts-about-jorap. Recommendations will be structured by confidence level.</details></think>
+Additional recent drafts include alex-eala-pro-career-tracker, sustainable-online-publishing, and why-i-fused-on-open-source. Upcoming drafts likely to publish include grade-1-better-than-kumon, inter-font, obsidian-vs-hugo, markdown-deep-dive, second-cellphone, jorap-notes-features, and interesting-facts-about-jorap. Recommendations will be structured by confidence level.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1667,18 +1431,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The shell command finished. I'll report the git log and file timestamps for the recent blog posts.
 
-That background task gathered git logs and file timestamps for the prior blog analysis. No further follow-up is needed.</details></think>
+That background task gathered git logs and file timestamps for the prior blog analysis. No further follow-up is needed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/165521.txt</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/165521.txt</summary>
 
 </details></tool-use>
 
@@ -1687,7 +1446,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The task completed successfully.
 
-The git scan confirmed the findings from the earlier analysis regarding recent blogs.</details></think>
+The git scan confirmed the findings from the earlier analysis regarding recent blogs.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1717,7 +1477,8 @@ Mapping four more posts to existing notes as bridges rather than new pages.
 
 Worship Pads and Solo Guitar maps to the Faith cluster. Gear and how-to content belongs in existing faith notes. Some blog related_notes may need updating too.
 
-Reading the garden-voice skill and current note files to prepare the edits. Verifying whether Platform Reach Is Borrowed needs updating for the open source post.</details></think>
+Reading the garden-voice skill and current note files to prepare the edits. Verifying whether Platform Reach Is Borrowed needs updating for the open source post.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1726,79 +1487,43 @@ I'll strengthen the existing notes with bridge content from those posts — exam
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
 
 </details></tool-use>
 
@@ -1809,48 +1534,278 @@ Checking minimum-effective-dose and metadata-strategy for the Inter and markdown
 
 Reviewing digital-minimalism next. Five bridge updates planned: Information Diet with a Facebook favorites example; The Garage Concept with a one-capture habit one-publish pipe; Future-Proofing Knowledge with a "freedom over free" shareable thought; Build a Reliable Default with an Inter font example; Platform Reach Is Borrowed with a possible freedom-to-move example.
 
-Considering adding a frontmatter distinction to metadata-strategy: frontmatter is publish metadata, body is writing. Will briefly review metadata-strategy and minimum-effective-dose.</details></think>
+Considering adding a frontmatter distinction to metadata-strategy: frontmatter is publish metadata, body is writing. Will briefly review metadata-strategy and minimum-effective-dose.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-minimalism.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-minimalism.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating notes as bridges rather than creating new ones.</details></think>
+Updating notes as bridges rather than creating new ones.
+
+Adding examples and concepts to information-diet.md, the-garage-concept.md, and future-proofing-knowledge.md. Keeping changes minimal.
+
+Future-proofing-knowledge.md gets a key concept about freedom over free and an example from a dying open-source host. Build-a-reliable-default.md gains an Inter font example and a shareable thought about choosing a good default. Metadata-strategy.md adds a line distinguishing frontmatter from body content.
+
+Build-a-reliable-default.md will extend minimum-effective-dose.md. Digital-minimalism.md will get a finite-feed diet example. A card for the Facebook favorites diet tactic will go into information-diet.md. The garage-concept.md card will cover the Obsidian and Hugo pipeline.
+
+No extra cards unless they fit naturally. Blog posts will stay out of scope; the user wants bridge notes, not blog updates. Will run lint if a script exists.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the five notes with bridge content from those posts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running garden lint on the edited files to verify they pass.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 | tail -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 | tail -30
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check
+FAIL shareable_thought[2] not from principle: abide-in-me.md
+FAIL shareable_thought need 4 items: build-a-reliable-default.md
+FAIL shareable_thought[3] not from principle: first-principles-thinking.md
+FAIL description in key_concept (Follow Christ first when leadership pressure collides with H…): follow-christ-then-lead.md
+FAIL shareable_thought[1] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[2] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[1] not from principle: forgiveness-at-work.md
+FAIL shareable_thought[2] not from principle: forgiveness-at-work.md
+FAIL shareable_thought need 4 items: future-proofing-knowledge.md
+FAIL shareable_thought[2] not from principle: god-centered-design.md
+FAIL shareable_thought[3] not from principle: god-centered-design.md
+FAIL description in key_concept (Treat colleagues the way I want to be treated - in email ton…): golden-rule-at-work.md
+FAIL shareable_thought[1] not from principle: graph-view-analytics.md
+FAIL shareable_thought[2] not from principle: graph-view-analytics.md
+FAIL shareable_thought[3] not from principle: graph-view-analytics.md
+FAIL shareable_thought[3] not from principle: justification.md
+FAIL shareable_thought[3] not from principle: sanctification.md
+FAIL shareable_thought[3] not from principle: signal-vs-noise.md
+FAIL description in key_concept (An early win is entrusted, not a license to coast through th…): steward-after-the-win.md
+FAIL shareable_thought[2] not from principle: success-is-stewardship.md
+
+20 note(s) failed frontmatter lint
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A potential issue was spotted in `build-a-reliable-default.md`: the `shareable_thought` section may now contain five items instead of four.
+
+The same problem exists in `future-proofing-knowledge.md`. I'll read both files and fix the counts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The build-a-reliable-default section needs consolidation. One shareable thought should become the new default, or the fifth thought should move to key_concept and be removed.
+
+Future-proofing-knowledge also needs its fifth shareable thought removed, since "freedom over free" already lives in key_concept.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py content/english/notes/information-diet.md content/english/notes/the-garage-concept.md content/english/notes/future-proofing-knowledge.md content/english/notes/build-a-reliable-default.md content/english/notes/metadata-strategy.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py content/english/notes/information-diet.md content/english/notes/the-garage-concept.md content/english/notes/future-proofing-knowledge.md content/english/notes/build-a-reliable-default.md content/english/notes/metadata-strategy.md 2>&1
+```
+
+```
+FAIL shareable_thought[2] not from principle: abide-in-me.md
+FAIL shareable_thought[3] not from principle: first-principles-thinking.md
+FAIL description in key_concept (Follow Christ first when leadership pressure collides with H…): follow-christ-then-lead.md
+FAIL shareable_thought[1] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[2] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[1] not from principle: forgiveness-at-work.md
+FAIL shareable_thought[2] not from principle: forgiveness-at-work.md
+FAIL shareable_thought[2] not from principle: god-centered-design.md
+FAIL shareable_thought[3] not from principle: god-centered-design.md
+FAIL description in key_concept (Treat colleagues the way I want to be treated - in email ton…): golden-rule-at-work.md
+FAIL shareable_thought[1] not from principle: graph-view-analytics.md
+FAIL shareable_thought[2] not from principle: graph-view-analytics.md
+FAIL shareable_thought[3] not from principle: graph-view-analytics.md
+FAIL shareable_thought[3] not from principle: justification.md
+FAIL shareable_thought[3] not from principle: sanctification.md
+FAIL shareable_thought[3] not from principle: signal-vs-noise.md
+FAIL description in key_concept (An early win is entrusted, not a license to coast through th…): steward-after-the-win.md
+FAIL shareable_thought[2] not from principle: success-is-stewardship.md
+
+18 note(s) failed frontmatter lint
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The lint failures no longer include the edited files.
+
+The 18 remaining failures are pre-existing. The changes pass lint.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated five existing notes to bridge recent blog posts — no new pages:
+
+| Note | Bridge from |
+|------|-------------|
+| **Information Diet** | Facebook Favorites — finite feed example + flashcard |
+| **The Garage Concept** | Obsidian vs Hugo — one capture habit, one publish pipe |
+| **Future-Proofing Knowledge** | Open source post — freedom over free in `key_concept`, host-migration example |
+| **Build a Reliable Default** | Inter font — pick once, stop reopening; `extends` → Minimum Effective Dose |
+| **Metadata Strategy** | Markdown deep dive — frontmatter vs body split |
+
+DNPAP and worship pads were left alone — resource/how-to posts, faith notes already linked.

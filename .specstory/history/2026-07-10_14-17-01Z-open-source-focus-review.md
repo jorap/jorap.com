@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Double-checking `__why-i-focused-on-open-source.md` before publishing.
 
-Reading the draft file and checking the publishing workflow. Likely removing the `__` prefix to make it live.</details></think>
+Reading the draft file and checking the publishing workflow. Likely removing the `__` prefix to make it live.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,36 +25,22 @@ Reviewing the draft post and how blog publishing works in this repo.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -80,13 +67,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -94,7 +74,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking that linked blog posts exist and their URLs are correct.
 
-Checking related notes, images, and voice lint. Then publishing by renaming the file, setting draft to false, and removing the slug.</details></think>
+Checking related notes, images, and voice lint. Then publishing by renaming the file, setting draft to false, and removing the slug.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -103,91 +84,57 @@ Verifying links, related notes, image, and running voice lint.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `content/english/blog/__sustainable-online-publishing.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `content/english/blog/drupal-to-wordpress.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (2 files)
 
 | File |
 |------|
 | `content/english/blog/how-i-built-jorap-notes.md` |
 | `content/english/blog/__jorap-notes-features.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `assets/images/open-source.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -214,37 +161,23 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__why-i-focused-on-open-source.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/__why-i-focused-on-open-source.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__why-i-focused-on-open-source.md 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__why-i-focused-on-open-source.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__why-i-focused-on-open-source.md
 Voice dash errors:
   content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -252,15 +185,15 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The post links to `/blog/sustainable-online-publishing/`, but the file is still a draft `__sustainable-online-publishing.md`. That link will break until it is published.
 
-Voice lint passed for this file; the error was in another file. Now verifying related note filenames and comparing voices against another opinion post.</details></think>
+Voice lint passed for this file; the error was in another file. Now verifying related note filenames and comparing voices against another opinion post.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **5** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (5 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (5 files)
 
 | File |
 |------|
@@ -269,57 +202,35 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (5 files)
 | `content/english/notes/git-based-cms.md` |
 | `content/english/notes/future-proofing-knowledge.md` |
 | `content/english/notes/free-tier-hosting-stack.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__why-i-focused-on-open-source.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__why-i-focused-on-open-source.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__why-i-focused-on-open-source.md 2>&1
 ```
 
 ```
 Voice lint warnings:
-  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word &#96;handoff&#96; — try: pass off / pass to client
-  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word &#96;handoff&#96; — try: pass off / pass to client
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -354,13 +265,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -380,14 +284,13 @@ I will apply the file changes first. I will ask the user before committing, sinc
 
 I will commit the changes since publishing a blog post requires deployment. I am weighing whether to remove the broken link entirely or point it to another published post such as `how-i-built-jorap-notes` or `static-site-vs-cms`.
 
-Plain text without a link is the cleanest fix, since `how-i-built-jorap-notes` already appears earlier in the post. I am now grepping the post and voice YAML to verify whether "handoff" counts as an AI-tell word.</details></think>
+Plain text without a link is the cleanest fix, since `how-i-built-jorap-notes` already appears earlier in the post. I am now grepping the post and voice YAML to verify whether "handoff" counts as an AI-tell word.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -418,21 +321,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -463,25 +357,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
@@ -494,7 +375,8 @@ The slug line will remain since other published posts keep it. The `__` prefix w
 
 A broken link to the unpublished sustainable publishing draft will become plain text. The word "handoff" will be replaced with "pass-off" or rephrased to "survive the pass-off" for clarity.
 
-No other issues were found. A Hugo build will verify there are no errors before committing and publishing.</details></think>
+No other issues were found. A Hugo build will verify there are no errors before committing and publishing.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -503,59 +385,35 @@ Fixing two pre-publish issues: a link to a draft post (`sustainable-online-publi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Renaming the file via git mv.</details></think>
+Renaming the file via git mv.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git mv content/english/blog/__why-i-focused-on-open-source.md content/english/blog/why-i-focused-on-open-source.md && hugo --minify 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git mv content/english/blog/__why-i-focused-on-open-source.md content/english/blog/why-i-focused-on-open-source.md &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git mv content/english/blog/__why-i-focused-on-open-source.md content/english/blog/why-i-focused-on-open-source.md && hugo --minify 2>&1 | tail -20
 ```
@@ -578,12 +436,6 @@ hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 Buil
 Total in 19752 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -591,7 +443,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The Hugo build succeeded. I am committing and publishing now.
 
-Running git status, diff, and log to verify changes before committing.</details></think>
+Running git status, diff, and log to verify changes before committing.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -600,9 +453,8 @@ Hugo build passed. Committing the publish.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git status && git diff --staged && git diff content/english/blog/why-i-focused-on-open-source.md && git log -3 --oneline</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git status &amp;&amp; git diff --staged &amp;&amp; git diff content/english/blog/why-i-focused-on-open-source.md &amp;&amp; git log -3 --oneline</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git status && git diff --staged && git diff content/english/blog/why-i-focused-on-open-source.md && git log -3 --oneline
 ```
@@ -612,12 +464,12 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes to be committed:
-  (use "git restore --staged &lt;file&gt;..." to unstage)
-	renamed:    content/english/blog/__why-i-focused-on-open-source.md -&gt; content/english/blog/why-i-focused-on-open-source.md
+  (use "git restore --staged <file>..." to unstage)
+	renamed:    content/english/blog/__why-i-focused-on-open-source.md -> content/english/blog/why-i-focused-on-open-source.md
 
 Changes not staged for commit:
-  (use "git add &lt;file&gt;..." to update what will be committed)
-  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
 	modified:   .specstory/statistics.json
 	modified:   content/english/blog/why-i-focused-on-open-source.md
 	modified:   content/english/notes/accountability.md
@@ -645,200 +497,16 @@ Changes not staged for commit:
 	modified:   content/english/notes/discipleship-vs-leadership.md
 	modified:   content/english/notes/discipleship.md
 	modified:   content/english/notes/duty-of-care.md
-	modified:   content/english/notes/eternal-rewards.md
-	modified:   content/english/notes/evergreen-vs-fleeting-notes.md
-	modified:   content/english/notes/execution.md
-	modified:   content/english/notes/faith-and-works.md
-	modified:   content/english/notes/faithful-steward.md
-	modified:   content/english/notes/follow-christ-then-lead.md
-	modified:   content/english/notes/follow-their-lead.md
-	modified:   content/english/notes/follow-through.md
-	modified:   content/english/notes/free-tier-hosting-stack.md
-	modified:   content/english/notes/fruits-of-the-spirit.md
-	modified:   content/english/notes/gentleness.md
-	modified:   content/english/notes/git-based-cms.md
-	modified:   content/english/notes/god-centered-design.md
-	modified:   content/english/notes/golden-rule-at-work.md
-	modified:   content/english/notes/goodness.md
-	modified:   content/english/notes/grace.md
-	modified:   content/english/notes/grateful-obedience.md
-	modified:   content/english/notes/great-commission.md
-	modified:   content/english/notes/growth-mindset.md
-	modified:   content/english/notes/gtd-vs-para.md
-	modified:   content/english/notes/habit-formation.md
-	modified:   content/english/notes/habit-stacking.md
-	modified:   content/english/notes/heart-righteousness.md
-	modified:   content/english/notes/heed-every-near-miss.md
-	modified:   content/english/notes/hierarchy-of-controls.md
-	modified:   content/english/notes/honest-self-awareness.md
-	modified:   content/english/notes/humility-and-service.md
-	modified:   content/english/notes/inbox-zero.md
-	modified:   content/english/notes/incident-investigation.md
-	modified:   content/english/notes/influence-without-title.md
-	modified:   content/english/notes/information-diet.md
-	modified:   content/english/notes/integrity-without-an-audience.md
-	modified:   content/english/notes/joy.md
-	modified:   content/english/notes/judgment-seat.md
-	modified:   content/english/notes/justification.md
-	modified:   content/english/notes/kindness.md
-	modified:   content/english/notes/leadership.md
-	modified:   content/english/notes/learning-organizations.md
-	modified:   content/english/notes/let-your-light-shine.md
-	modified:   content/english/notes/let-your-yes-be-yes.md
-	modified:   content/english/notes/life-before-achievement.md
-	modified:   content/english/notes/listen-before-fixing.md
-	modified:   content/english/notes/literature-notes.md
-	modified:   content/english/notes/local-first-software.md
-	modified:   content/english/notes/loss-of-reward.md
-	modified:   content/english/notes/love-god.md
-	modified:   content/english/notes/love-your-enemies.md
-	modified:   content/english/notes/love-your-neighbor.md
-	modified:   content/english/notes/measure-then-iterate.md
-	modified:   content/english/notes/metadata-strategy.md
-	modified:   content/english/notes/mind-mapping.md
-	modified:   content/english/notes/minimum-effective-dose.md
-	modified:   content/english/notes/minimum-viable-product.md
-	modified:   content/english/notes/mobile-capture-workflows.md
-	modified:   content/english/notes/network-analysis.md
-	modified:   content/english/notes/normalization-of-deviance.md
-	modified:   content/english/notes/note-relationships.md
-	modified:   content/english/notes/notice-the-good.md
-	modified:   content/english/notes/outcomes-over-pitch-decks.md
-	modified:   content/english/notes/own-the-error.md
-	modified:   content/english/notes/para-method.md
-	modified:   content/english/notes/pareto-principle.md
-	modified:   content/english/notes/patience.md
-	modified:   content/english/notes/peace.md
-	modified:   content/english/notes/peacemakers.md
-	modified:   content/english/notes/people-centered-design.md
-	modified:   content/english/notes/pkm.md
-	modified:   content/english/notes/plain-commitments-at-work.md
-	modified:   content/english/notes/practice-small-experiments.md
-	modified:   content/english/notes/present-a-living-sacrifice.md
-	modified:   content/english/notes/priorities-before-the-inbox.md
-	modified:   content/english/notes/psychological-safety.md
-	modified:   content/english/notes/purpose-and-vision.md
-	modified:   content/english/notes/quarterly-planning.md
-	modified:   content/english/notes/reconcile-before-the-review.md
-	modified:   content/english/notes/reliability.md
-	modified:   content/english/notes/render-unto-caesar.md
-	modified:   content/english/notes/repent-and-believe.md
-	modified:   content/english/notes/reversibility.md
-	modified:   content/english/notes/risk-management.md
-	modified:   content/english/notes/rollback-principle.md
-	modified:   content/english/notes/safety-by-design.md
-	modified:   content/english/notes/safety-comes-first.md
-	modified:   content/english/notes/sanctification.md
-	modified:   content/english/notes/secret-devotion.md
-	modified:   content/english/notes/seek-the-kingdom-first.md
-	modified:   content/english/notes/self-control.md
-	modified:   content/english/notes/selling-static-sites.md
-	modified:   content/english/notes/set-calm-boundaries.md
-	modified:   content/english/notes/share-what-you-learn.md
-	modified:   content/english/notes/signal-vs-noise.md
-	modified:   content/english/notes/slow-productivity.md
-	modified:   content/english/notes/slow-the-moment.md
-	modified:   content/english/notes/spaced-repetition.md
-	modified:   content/english/notes/staged-rollout.md
-	modified:   content/english/notes/standing-vs-fellowship.md
-	modified:   content/english/notes/static-site-client-scope.md
-	modified:   content/english/notes/stay-effective-in-new-conditions.md
-	modified:   content/english/notes/steward-after-the-win.md
-	modified:   content/english/notes/strategic-foresight.md
-	modified:   content/english/notes/success-is-stewardship.md
-	modified:   content/english/notes/sunk-cost-fallacy.md
-	modified:   content/english/notes/synthesis-as-a-goal.md
-	modified:   content/english/notes/systems-thinking.md
-	modified:   content/english/notes/taxonomy.md
-	modified:   content/english/notes/the-12-week-year.md
-	modified:   content/english/notes/the-beatitudes.md
-	modified:   content/english/notes/the-feynman-technique.md
-	modified:   content/english/notes/the-golden-rule.md
-	modified:   content/english/notes/the-knowledge-lifecycle.md
-	modified:   content/english/notes/the-narrow-way.md
-	modified:   content/english/notes/the-second-brain-workflow.md
-	modified:   content/english/notes/the-wise-builder.md
-	modified:   content/english/notes/there-is-no-perfect-solution.md
-	modified:   content/english/notes/title-without-influence.md
-	modified:   content/english/notes/treasure-in-heaven.md
-	modified:   content/english/notes/turn-the-other-cheek.md
-	modified:   content/english/notes/versatility.md
-	modified:   content/english/notes/weekly-review-checklists.md
-	modified:   data/noteFileDates.json
-	modified:   scripts/lint-notes-frontmatter.py
-	modified:   scripts/notes_content.py
-
-Untracked files:
-  (use "git add &lt;file&gt;..." to include in what will be committed)
-	.specstory/history/2026-07-10_14-08-35Z-notes-descriptions-in-concepts.md
-	.specstory/history/2026-07-10_14-09-39Z-blog-image-concept.md
-	.specstory/history/2026-07-10_14-17-01Z-open-source-focus-review.md
-	assets/images/open-source.jpg
-	scripts/strip-desc-from-key-concept.py
-
-diff --git a/content/english/blog/__why-i-focused-on-open-source.md b/content/english/blog/why-i-focused-on-open-source.md
-similarity index 100%
-rename from content/english/blog/__why-i-focused-on-open-source.md
-rename to content/english/blog/why-i-focused-on-open-source.md
-diff --git a/content/english/blog/why-i-focused-on-open-source.md b/content/english/blog/why-i-focused-on-open-source.md
-index 1551c3d..91c74e3 100644
---- a/content/english/blog/why-i-focused-on-open-source.md
-+++ b/content/english/blog/why-i-focused-on-open-source.md
-@@ -3,8 +3,8 @@ title: "Why I Focused on Open Source Technologies"
- meta_title: "Why I Bet on Open Source - Practical Reasons, Not a Manifesto"
- description: "Open source wasn't a purity test for me. It was cheaper hosting, inspectable code, portable files, and communities big enough to find work in. Here's how that shaped my stack."
- slug: "why-i-focused-on-open-source"
--date: 2026-07-10T12:00:00Z
--image: "/images/joraps-world.jpg"
-+date: 2026-07-04T12:00:00Z
-+image: "/images/open-source.jpg"
- categories: ["Technology", "Opinion", "Developer Life"]
- author: "JoRap"
- tags: ["Open Source", "FOSS", "Hugo", "WordPress", "Web Development", "Developer Life", "Career", "Free Software", "Technology", "Publishing", "Static Site Generator"]
-@@ -15,7 +15,7 @@ related_notes:
-   - success-is-stewardship
-   - platform-reach-is-borrowed
- featured: false
--draft: true
-+draft: false
- ---
- 
- &gt; **TL;DR**: I didn't pick open source because it's morally superior on a slide deck. I picked it because the tools were free to try, the code was there when something broke, my files could move when a host died, and the communities were big enough that I could actually find work. That's still the filter.
-@@ -62,7 +62,7 @@ After years of building and teaching on this stuff, the benefits aren't abstract
- 
- **I can see what's broken.** When a Hugo template misbehaves or a WordPress plugin throws a fatal error, the code is right there. I'm not waiting on a support ticket to learn whether the bug is mine or theirs.
- 
--**I can leave.** Markdown in Git outlives any one host. That's the whole [sustainable publishing](/blog/sustainable-online-publishing/) argument in one sentence. Open tools tend to use open formats. Closed tools tend to trap exports until you need them.
-+**I can leave.** Markdown in Git outlives any one host. That's the whole sustainable publishing argument in one sentence. Open tools tend to use open formats. Closed tools tend to trap exports until you need them.
- 
- **The community is part of the product.** WordPress plugins, Hugo themes, Stack Overflow threads from last month - open projects accumulate fixes in public. Thin communities cost you hours. Thick ones save weeks. I chose WordPress partly because the bench was deeper, not because the logo was prettier.
- 
-@@ -76,7 +76,7 @@ After years of building and teaching on this stuff, the benefits aren't abstract
- 
- I don't treat open source as a purity test.
- 
--**Open doesn't mean good.** Plenty of open-source plugins are junk. "View source" doesn't help if nobody maintains the project. I still evaluate tools like anything else - does it solve the job, is it maintained, will the client survive the handoff.
-+**Open doesn't mean good.** Plenty of open-source plugins are junk. "View source" doesn't help if nobody maintains the project. I still evaluate tools like anything else - does it solve the job, is it maintained, will the client still own it after I pass it off.
- 
- **Open doesn't mean I never pay.** Domains cost money. Some hosted services are worth it. Bitwarden has a paid family plan I happily use. Open source at the core; paid where the hosted convenience earns its keep.
- 
-350bfe6 Update
-edea1f8 Updates
-3461dae Update
-
+	modified:   content/e
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The open-source.jpg image must be added to the commit. It is untracked but referenced by the post.</details></think>
+The open-source.jpg image must be added to the commit. It is untracked but referenced by the post.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -847,14 +515,13 @@ Including the hero image in the commit since the post references it.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git add content/english/blog/why-i-focused-on-open-source.md assets/images/open-source.jpg && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "$(cat <<'EOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git add content/english/blog/why-i-focused-on-open-source.md assets/images/open-source.jpg &amp;&amp; git commit --trailer &#34;Co-authored-by: Cursor &lt;cursoragent@cursor.com&gt;&#34; -m &#34;$(cat &lt;&lt;&#39;EOF&#39;
 Publish Why I Focused on Open Source blog post.
 
 Practical take on choosing open tools for cost, portability, and community depth—not ideology.
 EOF
-)" && git status</summary>
-
+)&#34; &amp;&amp; git status</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git add content/english/blog/why-i-focused-on-open-source.md assets/images/open-source.jpg && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "$(cat <<'EOF'
 Publish Why I Focused on Open Source blog post.
@@ -868,14 +535,14 @@ EOF
 [master eb13ebc] Publish Why I Focused on Open Source blog post.
  2 files changed, 5 insertions(+), 5 deletions(-)
  create mode 100644 assets/images/open-source.jpg
- rename content/english/blog/{__why-i-focused-on-open-source.md =&gt; why-i-focused-on-open-source.md} (95%)
+ rename content/english/blog/{__why-i-focused-on-open-source.md => why-i-focused-on-open-source.md} (95%)
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
-  (use "git add &lt;file&gt;..." to update what will be committed)
-  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
 	modified:   .specstory/statistics.json
 	modified:   content/english/notes/accountability.md
 	modified:   content/english/notes/active-knowledge-curation.md
@@ -901,158 +568,21 @@ Changes not staged for commit:
 	modified:   content/english/notes/digital-garden.md
 	modified:   content/english/notes/discipleship-vs-leadership.md
 	modified:   content/english/notes/discipleship.md
-	modified:   content/english/notes/duty-of-care.md
-	modified:   content/english/notes/eternal-rewards.md
-	modified:   content/english/notes/evergreen-vs-fleeting-notes.md
-	modified:   content/english/notes/execution.md
-	modified:   content/english/notes/faith-and-works.md
-	modified:   content/english/notes/faithful-steward.md
-	modified:   content/english/notes/follow-christ-then-lead.md
-	modified:   content/english/notes/follow-their-lead.md
-	modified:   content/english/notes/follow-through.md
-	modified:   content/english/notes/free-tier-hosting-stack.md
-	modified:   content/english/notes/fruits-of-the-spirit.md
-	modified:   content/english/notes/gentleness.md
-	modified:   content/english/notes/git-based-cms.md
-	modified:   content/english/notes/god-centered-design.md
-	modified:   content/english/notes/golden-rule-at-work.md
-	modified:   content/english/notes/goodness.md
-	modified:   content/english/notes/grace.md
-	modified:   content/english/notes/grateful-obedience.md
-	modified:   content/english/notes/great-commission.md
-	modified:   content/english/notes/growth-mindset.md
-	modified:   content/english/notes/gtd-vs-para.md
-	modified:   content/english/notes/habit-formation.md
-	modified:   content/english/notes/habit-stacking.md
-	modified:   content/english/notes/heart-righteousness.md
-	modified:   content/english/notes/heed-every-near-miss.md
-	modified:   content/english/notes/hierarchy-of-controls.md
-	modified:   content/english/notes/honest-self-awareness.md
-	modified:   content/english/notes/humility-and-service.md
-	modified:   content/english/notes/inbox-zero.md
-	modified:   content/english/notes/incident-investigation.md
-	modified:   content/english/notes/influence-without-title.md
-	modified:   content/english/notes/information-diet.md
-	modified:   content/english/notes/integrity-without-an-audience.md
-	modified:   content/english/notes/joy.md
-	modified:   content/english/notes/judgment-seat.md
-	modified:   content/english/notes/justification.md
-	modified:   content/english/notes/kindness.md
-	modified:   content/english/notes/leadership.md
-	modified:   content/english/notes/learning-organizations.md
-	modified:   content/english/notes/let-your-light-shine.md
-	modified:   content/english/notes/let-your-yes-be-yes.md
-	modified:   content/english/notes/life-before-achievement.md
-	modified:   content/english/notes/listen-before-fixing.md
-	modified:   content/english/notes/literature-notes.md
-	modified:   content/english/notes/local-first-software.md
-	modified:   content/english/notes/loss-of-reward.md
-	modified:   content/english/notes/love-god.md
-	modified:   content/english/notes/love-your-enemies.md
-	modified:   content/english/notes/love-your-neighbor.md
-	modified:   content/english/notes/measure-then-iterate.md
-	modified:   content/english/notes/metadata-strategy.md
-	modified:   content/english/notes/mind-mapping.md
-	modified:   content/english/notes/minimum-effective-dose.md
-	modified:   content/english/notes/minimum-viable-product.md
-	modified:   content/english/notes/mobile-capture-workflows.md
-	modified:   content/english/notes/network-analysis.md
-	modified:   content/english/notes/normalization-of-deviance.md
-	modified:   content/english/notes/note-relationships.md
-	modified:   content/english/notes/notice-the-good.md
-	modified:   content/english/notes/outcomes-over-pitch-decks.md
-	modified:   content/english/notes/own-the-error.md
-	modified:   content/english/notes/para-method.md
-	modified:   content/english/notes/pareto-principle.md
-	modified:   content/english/notes/patience.md
-	modified:   content/english/notes/peace.md
-	modified:   content/english/notes/peacemakers.md
-	modified:   content/english/notes/people-centered-design.md
-	modified:   content/english/notes/pkm.md
-	modified:   content/english/notes/plain-commitments-at-work.md
-	modified:   content/english/notes/practice-small-experiments.md
-	modified:   content/english/notes/present-a-living-sacrifice.md
-	modified:   content/english/notes/priorities-before-the-inbox.md
-	modified:   content/english/notes/psychological-safety.md
-	modified:   content/english/notes/purpose-and-vision.md
-	modified:   content/english/notes/quarterly-planning.md
-	modified:   content/english/notes/reconcile-before-the-review.md
-	modified:   content/english/notes/reliability.md
-	modified:   content/english/notes/render-unto-caesar.md
-	modified:   content/english/notes/repent-and-believe.md
-	modified:   content/english/notes/reversibility.md
-	modified:   content/english/notes/risk-management.md
-	modified:   content/english/notes/rollback-principle.md
-	modified:   content/english/notes/safety-by-design.md
-	modified:   content/english/notes/safety-comes-first.md
-	modified:   content/english/notes/sanctification.md
-	modified:   content/english/notes/secret-devotion.md
-	modified:   content/english/notes/seek-the-kingdom-first.md
-	modified:   content/english/notes/self-control.md
-	modified:   content/english/notes/selling-static-sites.md
-	modified:   content/english/notes/set-calm-boundaries.md
-	modified:   content/english/notes/share-what-you-learn.md
-	modified:   content/english/notes/signal-vs-noise.md
-	modified:   content/english/notes/slow-productivity.md
-	modified:   content/english/notes/slow-the-moment.md
-	modified:   content/english/notes/spaced-repetition.md
-	modified:   content/english/notes/staged-rollout.md
-	modified:   content/english/notes/standing-vs-fellowship.md
-	modified:   content/english/notes/static-site-client-scope.md
-	modified:   content/english/notes/stay-effective-in-new-conditions.md
-	modified:   content/english/notes/steward-after-the-win.md
-	modified:   content/english/notes/strategic-foresight.md
-	modified:   content/english/notes/success-is-stewardship.md
-	modified:   content/english/notes/sunk-cost-fallacy.md
-	modified:   content/english/notes/synthesis-as-a-goal.md
-	modified:   content/english/notes/systems-thinking.md
-	modified:   content/english/notes/taxonomy.md
-	modified:   content/english/notes/the-12-week-year.md
-	modified:   content/english/notes/the-beatitudes.md
-	modified:   content/english/notes/the-feynman-technique.md
-	modified:   content/english/notes/the-golden-rule.md
-	modified:   content/english/notes/the-knowledge-lifecycle.md
-	modified:   content/english/notes/the-narrow-way.md
-	modified:   content/english/notes/the-second-brain-workflow.md
-	modified:   content/english/notes/the-wise-builder.md
-	modified:   content/english/notes/there-is-no-perfect-solution.md
-	modified:   content/english/notes/title-without-influence.md
-	modified:   content/english/notes/treasure-in-heaven.md
-	modified:   content/english/notes/turn-the-other-cheek.md
-	modified:   content/english/notes/versatility.md
-	modified:   content/english/notes/weekly-review-checklists.md
-	modified:   data/noteFileDates.json
-	modified:   scripts/lint-notes-frontmatter.py
-	modified:   scripts/notes_content.py
-
-Untracked files:
-  (use "git add &lt;file&gt;..." to include in what will be committed)
-	.specstory/history/2026-07-10_14-08-35Z-notes-descriptions-in-concepts.md
-	.specstory/history/2026-07-10_14-09-39Z-blog-image-concept.md
-	.specstory/history/2026-07-10_14-17-01Z-open-source-focus-review.md
-	scripts/strip-desc-from-key-concept.py
-
-no changes added to commit (use "git add" and/or "git commit -a")
-
+	modified:   con
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The commit succeeded. I will push to deploy now, since Cloudflare Pages builds automatically on push.</details></think>
+The commit succeeded. I will push to deploy now, since Cloudflare Pages builds automatically on push.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git push</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git push</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git push
 ```
@@ -1061,18 +591,13 @@ cd /home/jorap/Documents/GitHub/jorap.com && git push
 fatal: could not read Username for 'https://github.com': No such device or address
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The push failed due to authentication issues. The user can push manually.</details></think>
+The push failed due to authentication issues. The user can push manually.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1115,7 +640,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking whether the new blog post can appear on the homepage.
 
-Searching the codebase for how the homepage selects blog posts.</details></think>
+Searching the codebase for how the homepage selects blog posts.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1124,10 +650,8 @@ Checking how the homepage selects which blog posts to show.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1233,37 +757,20 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content/english`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **/home/jorap/Documents/GitHub/jorap.com/content/english** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1337,11 +844,261 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the homepage layout and blog post selection logic to determine if this content can appear there.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **5** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (5 files)
+
+| File |
+|------|
+| `themes/jorap/layouts/_partials/sections/home-writing.html` |
+| `themes/jorap/layouts/home.html` |
+| `themes/jorap/layouts/_partials/sections/home-intro.html` |
+| `themes/jorap/layouts/_partials/sections/home-proof.html` |
+| `themes/jorap/layouts/_partials/sections/home-scope.html` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,toml}",
+  "pattern": "featured:\\s*true|\\.Params\\.featured|featured-first"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "featured:\\s*true|\\.Params\\.featured|featured-first",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/blog/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/drafts/list.html"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading home.html and home-writing.html to understand how posts appear on the homepage.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/home-writing.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/home.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/sort-featured-first.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking how the homepage works.
+
+Homepage displays either specific posts defined in `home_blog.post_slugs` or the five most recent ones by date. This post dates to July 4, 2026. It will only appear if that slug is explicitly configured or fewer than five newer posts exist. Need to check `params.toml`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "home_blog"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "home_blog",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./config/_default/params.toml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./themes/jorap/layouts/_partials/sections/home-writing.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-06-23_22-51-23Z-impeccable-critique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-18_17-22-23Z-email-functionality-in-contact-us-form.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "./.specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.impeccable/critique/2026-06-18T17-25-43Z__themes-jorap-layouts-home-html.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; ls -1 content/english/blog/*.md | xargs grep -l &#39;draft: false&#39; | while read f; do grep -E &#39;^(date:|slug:|title:)&#39; &#34;$f&#34; | paste - - - | sort -t: -k4 -r | head -8; done 2&gt;/dev/null || hugo list all 2&gt;/dev/null | grep &#39;/blog/&#39; | grep -v draft | head -10</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && ls -1 content/english/blog/*.md | xargs grep -l 'draft: false' | while read f; do grep -E '^(date:|slug:|title:)' "$f" | paste - - - | sort -t: -k4 -r | head -8; done 2>/dev/null || hugo list all 2>/dev/null | grep '/blog/' | grep -v draft | head -10
+```
+
+```
+title: "Alex Eala Pro Career Tracker"	date: 2026-07-05T05:00:00Z	slug: "alex-eala-pro-career-tracker"
+title: "Consistent AI Output for WordPress Builds"	slug: "consistent-ai-output-wordpress-builds"	date: 2026-05-30T05:00:00Z
+title: "DNPAP - Song Resources"	slug: "dnpap-song-resources"	date: 2022-11-12T05:00:00Z
+title: "Why I Switched from Drupal to WordPress"	date: 2026-05-27T06:30:00Z	
+title: "Facebook's Hidden Gem: The Favorites Feed"	slug: "facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience"	date: 2024-02-04T05:00:00Z
+title: "Getting Started with RSS Feeds"	slug: "getting-started-with-rss-feeds-a-beginners-guide"	date: 2024-03-30T05:00:00Z
+title: "How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!)"	slug: "how-i-built-jorap-notes"	date: 2024-06-14T05:00:00Z
+title: "HugoPlate: The Theme Quietly Powering This Site"	slug: "hugoplate-theme-review"	date: 2026-05-29T05:00:00Z
+title: Instant Pot Arroz Caldo	slug: "instant-pot-arroz-caldo"	date: 2026-07-09T06:00:00
+title: Instant Pot Chicken Adobo	slug: "instant-pot-chicken-adobo"	date: 2026-05-03T23:00:00
+title: "The Miracle of Isaiah David"	slug: "miracle-isaiah-david"	date: 2023-05-08T05:00:00Z
+title: "The Mouse Wheel Click: One Button, Three Operating Systems"	slug: "power-of-the-mouse-wheel-click"	date: 2026-05-28T05:00:00Z
+title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"	slug: "power-of-worship-pads-enhancing-your-worship-with-guitar"	date: 2025-05-04T05:00:00Z
+title: "The Set It and Forget It Arroz Caldo"	slug: "set-it-forget-it-arroz-caldo"	date: 2025-03-29T05:00:00Z
+title: "Static Site or CMS? How I Pick the Stack"	date: 2026-07-10T06:00:00Z	
+title: "Top Reasons to Create and Maintain Your Own Website"	date: 2024-03-10T05:00:00Z	
+title: "Top Reasons Why You Still Need a Desktop or Laptop"	slug: "top-reasons-why-you-still-need-use-desktop-laptop"	date: 2021-06-14T05:00:00Z
+title: "What I Look For in Wireless Earphones"	slug: "what-i-l
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the home_blog configuration in params.toml to see what is currently pinned on the homepage.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The homepage uses a curated list of post slugs in params.toml rather than automatic recent posts.
+
+It can appear on the homepage. Add its slug to params.toml or remove the curated list to fall back to the latest five posts by date. The post is older than some current entries, but the curated list targets site owners.
+
+The open source post fits the curated homepage theme well. It could replace a less relevant entry such as "top-reasons-why-you-still-need-use-desktop-laptop" or "getting-started-with-rss-feeds".
+
+I will add the open source post to the homepage curated list. It belongs near static-site-vs-cms since both cover site owner stack choices. I will swap out a less central entry such as the desktop or RSS post.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Homepage posts are curated in `params.toml`, not auto-selected by date. Adding the open-source post to that list.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Added the element. Verifying the Hugo build now.
+
+The change is uncommitted. I'll explain what was done and leave it for the user to commit and push.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Yes — but not automatically.
+
+The homepage **Selected Writing** grid is **curated**, not “latest 5 posts.” It reads from `home_blog.post_slugs` in `config/_default/params.toml`. Your post has `featured: false`, which only affects sort order on `/blog/` — not the homepage.
+
+I added it as the **second card**, right after `static-site-vs-cms` (same stack/ownership thread). To keep the limit at 5, I swapped out `top-reasons-why-you-still-need-use-desktop-laptop`.
+
+```99:105:config/_default/params.toml
+post_slugs = [
+  "static-site-vs-cms",
+  "why-i-focused-on-open-source",
+  "top-reasons-create-maintain-your-own-website",
+  "consistent-ai-output-wordpress-builds",
+  "getting-started-with-rss-feeds-a-beginners-guide",
+]
+```
+
+The first slug in the list gets the large hero card; yours will show as a smaller card in the row below.
+
+This change is local only — commit and push when you want it live. Want a different slot or a different post bumped instead?

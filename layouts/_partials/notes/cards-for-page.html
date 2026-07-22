@@ -5,7 +5,7 @@
 */ -}}
 {{- $page := . -}}
 {{- $cards := slice -}}
-{{- $body := $page.RawContent | strings.TrimSpace -}}
+{{- $body := partial "notes/note-raw-body.html" $page | strings.TrimSpace -}}
 {{- $shortcodePattern := `\{\{[%<]\s*card\s+front="([^"]+)"\s+back="([^"]+)"\s*>\}\}` -}}
 {{- $leadPattern := `^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$` -}}
 {{- $lines := split $body "\n" -}}

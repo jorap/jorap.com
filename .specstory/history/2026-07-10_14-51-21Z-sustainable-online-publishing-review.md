@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing and improving the sustainable online publishing blog post using the jorap voice.
 
-Reading the current draft and reference posts to match the jorap-voice style.</details></think>
+Reading the current draft and reference posts to match the jorap-voice style.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,40 +25,22 @@ Reviewing the draft and a couple of reference posts for voice before rewriting.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
@@ -66,14 +49,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking voice-words.yaml for draft issues and reviewing examples.
 
-The draft is already strong in JoRap voice. The opening is too abstract. Some sections feel list-heavy. Personal details are missing. Long tags may stay. Voice lint will run after edits.</details></think>
+The draft is already strong in JoRap voice. The opening is too abstract. Some sections feel list-heavy. Personal details are missing. Long tags may stay. Voice lint will run after edits.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -99,51 +81,31 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__sustainable-online-publishing.md 2>/dev/null || pnpm lint:voice 2>&1 | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/__sustainable-online-publishing.md 2&gt;/dev/null || pnpm lint:voice 2&gt;&amp;1 | head -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__sustainable-online-publishing.md 2>/dev/null || pnpm lint:voice 2>&1 | head -30
 ```
 
 ```
 [ELIFECYCLE] Command failed with exit code 1.
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash errors:
   content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -157,7 +119,8 @@ Workflow details need specificity. Headings like "What sustainable doesn't mean"
 
 The opening will use a lived moment, such as someone asking why the author does not simply post on Facebook, or tying directly to losing hosting. The piece’s unique angle centers on philosophy, the free stack, ideas.jorap.com wiki publishing, and treating social media as a megaphone rather than a vault. A de-AI pass will remove hollow phrases.
 
-The social-only publishing section will shift from bullets to a personal moment. The stack table needs a lived-use sentence. The “what sustainable doesn’t mean” section should become prose rather than a bullet list. The practical checklist stays. Ideas.jorap.com needs a messy-capture detail. The close should land on habit rather than stack. Replace “canonical copy” with “the real copy,” and “amplification” with “sharing.” Keep “distribution” as plain enough.</details></think>
+The social-only publishing section will shift from bullets to a personal moment. The stack table needs a lived-use sentence. The “what sustainable doesn’t mean” section should become prose rather than a bullet list. The practical checklist stays. Ideas.jorap.com needs a messy-capture detail. The close should land on habit rather than stack. Replace “canonical copy” with “the real copy,” and “amplification” with “sharing.” Keep “distribution” as plain enough.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -166,51 +129,38 @@ The draft is solid but reads outline-heavy in places. I'll add lived detail, pla
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running a voice scan on the file to check for issues.</details></think>
+Running a voice scan on the file to check for issues.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__sustainable-online-publishing.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__sustainable-online-publishing.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__sustainable-online-publishing.md 2>&1
 ```
 
 ```
 Voice lint warnings:
-  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word &#96;handoff&#96; — try: pass off / pass to client
-  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word &#96;handoff&#96; — try: pass off / pass to client
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The draft passed voice lint. Warnings appear only in other files.</details></think>
+The draft passed voice lint. Warnings appear only in other files.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -249,18 +199,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Removing the JoRap Notes workflow paragraph and related content from the sustainable online publishing post.
 
-Scanning the file for all related references.</details></think>
+Scanning the file for all related references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
@@ -275,7 +220,8 @@ The stack table will be stripped of TiddlyWiki to keep only generic tools like H
 
 Also removing the "Add a wiki later" line from the starting-from-zero section. The frontmatter description will be updated to drop JoRap Notes references. TiddlyWiki will be removed from tags. The domain example will change from `ideas.jorap.com` to `jorap.com`. The table may be simplified further or removed entirely if it remains too tightly bound to the JoRap setup.
 
-A generic sentence after the table will describe the free stack without naming JoRap Notes.</details></think>
+A generic sentence after the table will describe the free stack without naming JoRap Notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -284,83 +230,44 @@ Removing the JoRap Notes workflow paragraph and related TiddlyWiki/ideas.jorap.c
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The line about no database, admin panel, or PHP cron jobs was kept. It describes a generic stack benefit rather than the JoRap Notes workflow itself.</details></think>
+The line about no database, admin panel, or PHP cron jobs was kept. It describes a generic stack benefit rather than the JoRap Notes workflow itself.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -389,7 +296,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Generating an image concept for the sustainable online publishing blog post.
 
-Reviewing the current post and existing blog imagery to ensure the concept matches the site's visual language.</details></think>
+Reviewing the current post and existing blog imagery to ensure the concept matches the site's visual language.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -398,24 +306,17 @@ Reviewing the post and how other blog hero images are styled on the site.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **8** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (8 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (8 files)
 
 | File |
 |------|
@@ -427,21 +328,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (8 files)
 | `assets/images/drupal-to-wp.jpg` |
 | `assets/images/note.jpg` |
 | `assets/images/feature-mouse-wheel-click.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -549,56 +441,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing existing blog images and prior session history to guide the new concept.</details></think>
+Reviewing existing blog images and prior session history to guide the new concept.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/website.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/website.jpg</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/static-vs-cms.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/static-vs-cms.jpg</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-42-56Z-image-concept-improvement.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-42-56Z-image-concept-improvement.md</summary>
 
 </details></tool-use>
 
@@ -611,18 +479,13 @@ The image concept centers on a warm, lived-in workspace. Props include handwritt
 
 The concept must stay distinct from `website.jpg`, which already shows a creative journal with social wireframes. The new direction will instead emphasize long-term ownership and the stack habit. One option is a split visual: a flashy social feed on a phone representing a lobby, versus a simple bookshelf or archive with the domain name on the spine.
 
-Additional concepts include a lease document versus a deed with the domain, a megaphone aimed at a filing cabinet, a small wooden box labeled with the domain, and a sticky-note checklist for the stack. The final proposal will feature one primary concept plus one or two alternates, with detailed generation prompts.</details></think>
+Additional concepts include a lease document versus a deed with the domain, a megaphone aimed at a filing cabinet, a small wooden box labeled with the domain, and a sticky-note checklist for the stack. The final proposal will feature one primary concept plus one or two alternates, with detailed generation prompts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-42-56Z-image-concept-improvement.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-42-56Z-image-concept-improvement.md</summary>
 
 </details></tool-use>
 
@@ -635,7 +498,8 @@ The recommended image concept is a warm desk shot titled "Megaphone, not vault."
 
 A second concept is "Rented vs owned," placing two keys on the desk: one on lease paper labeled "platform terms," the other on a deed reading "your domain."
 
-The first concept also adds a phone showing a blurred social feed beside the file box. A sticky note with a handwritten arrow points from the phone to the box, reading "share links here." A small megaphone doodle sits on that note. A brass key or wooden tag with the domain engraved completes the desk. An optional tiny index card lists "domain · git · deploy."</details></think>
+The first concept also adds a phone showing a blurred social feed beside the file box. A sticky note with a handwritten arrow points from the phone to the box, reading "share links here." A small megaphone doodle sits on that note. A brass key or wooden tag with the domain engraved completes the desk. An optional tiny index card lists "domain · git · deploy."
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -706,7 +570,8 @@ The previous warm, vintage wooden desk concept is being replaced by a modern aes
 
 The concept centers on a clean desk setup with a MacBook and phone showing dark mode UI mocks. Sleek materials like glass and aluminum will replace the warm vintage style. A modern editorial or tech aesthetic is preferred over abstract 3D.
 
-The user likely wants the image generated rather than just described. The modern concept will be produced directly.</details></think>
+The user likely wants the image generated rather than just described. The modern concept will be produced directly.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -715,10 +580,8 @@ Updating the concept to a clean, contemporary look and generating the hero image
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="generate_image">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="generate_image"><details>
 <summary>Tool use: **generate_image**</summary>
-
 
 Parameters:
 
@@ -741,25 +604,18 @@ User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="generate_image"><details>
-<summary>Tool use: **generate_image**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The image has been generated. It will be copied to the project's assets/images folder. The blog post frontmatter may also be updated.</details></think>
+The image has been generated. It will be copied to the project's assets/images folder. The blog post frontmatter may also be updated.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cp "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/sustainable-publishing.jpg" "/home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg" && ls -la "/home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cp &#34;/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/sustainable-publishing.jpg&#34; &#34;/home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg&#34; &amp;&amp; ls -la &#34;/home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg&#34;</summary>
 ```bash
 cp "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/sustainable-publishing.jpg" "/home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg" && ls -la "/home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg"
 ```
@@ -768,56 +624,39 @@ cp "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/su
 -rw-rw-r-- 1 root root 1886679 Jul 10 22:58 /home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating the blog post frontmatter to use the new image.</details></think>
+Updating the blog post frontmatter to use the new image.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the generated image to verify its modern appearance.</details></think>
+Reviewing the generated image to verify its modern appearance.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The image looks modern and polished.</details></think>
+The image looks modern and polished.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -855,7 +694,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Publishing the sustainable online publishing blog post and adding it to the homepage.
 
-Checking how to unpublish drafts and locate the homepage configuration.</details></think>
+Checking how to unpublish drafts and locate the homepage configuration.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -864,23 +704,15 @@ Publishing the post and checking how the homepage features blog posts.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -912,42 +744,26 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/content** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for homepage content and featured posts configuration.</details></think>
+Searching for homepage content and featured posts configuration.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1055,22 +871,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/content** (7 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content`** (7 files)
 
 | File |
 |------|
@@ -1081,21 +889,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com/content** (7 files)
 | `english/blog/_index.md` |
 | `english/drafts/_index.md` |
 | `english/_index.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1203,39 +1002,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the homepage _index.md and how featured posts are handled there.</details></think>
+Checking the homepage _index.md and how featured posts are handled there.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/_index.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/_index.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1303,13 +1088,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1317,15 +1095,15 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The homepage file still contains Hugoplate template content.
 
-Searching for the actual homepage layout and post configuration files.</details></think>
+Searching for the actual homepage layout and post configuration files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **5** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (5 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (5 files)
 
 | File |
 |------|
@@ -1334,21 +1112,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (5 files)
 | `_vendor/github.com/gethugothemes/hugo-modules/llms-txt/layouts/index.llmsfull` |
 | `_vendor/github.com/gethugothemes/hugo-modules/llms-txt/layouts/index.md` |
 | `layouts/index.llmsfull` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1456,13 +1225,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1470,14 +1232,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking the homepage layout in themes/jorap and Hugo.
 
-The homepage may be configured as a blog list in TOML.</details></think>
+The homepage may be configured as a blog list in TOML.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1508,22 +1269,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (6 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (6 files)
 
 | File |
 |------|
@@ -1533,21 +1286,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (6 files)
 | `themes/jorap/layouts/_partials/sections/home-scope.html` |
 | `themes/jorap/layouts/_partials/sections/home-writing.html` |
 | `themes/jorap/layouts/home.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1574,13 +1318,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1588,31 +1325,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 No blog posts currently have the featured flag set to true.
 
-Reading home.html and home-writing.html to understand how posts appear on the homepage.</details></think>
+Reading home.html and home-writing.html to understand how posts appear on the homepage.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/home.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/home.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/home-writing.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/home-writing.html</summary>
 
 </details></tool-use>
 
@@ -1621,14 +1347,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Homepage posts are controlled by site settings.
 
-The post slugs are set in `params.home_blog.post_slugs` within `ugo.toml`.</details></think>
+The post slugs are set in `params.home_blog.post_slugs` within `ugo.toml`.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1679,39 +1404,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking params.toml for the current homepage blog post slugs.</details></think>
+Checking params.toml for the current homepage blog post slugs.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1759,13 +1470,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1779,14 +1483,13 @@ The post will be placed first in `post_slugs` for prominent homepage display. Th
 
 The first homepage post will serve as the hero card. A less relevant existing entry will be removed to maintain the five-post limit.
 
-Considering `featured: true` to pin the post in the blog list. Checking another recently published post's date format to align the publish workflow.</details></think>
+Considering `featured: true` to pin the post in the blog list. Checking another recently published post's date format to align the publish workflow.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1845,25 +1548,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
@@ -1874,7 +1564,8 @@ Publishing the file now. Removing the `__` prefix, setting `draft: false`, dropp
 
 Deleting the old draft file. Adding the published post to the homepage's first slot in params.toml. Replacing either the RSS guide or the open-source article to make room.
 
-Setting `featured: true` to pin the post on `/blog/` too. Running voice lint. Skipping commit unless requested.</details></think>
+Setting `featured: true` to pin the post on `/blog/` too. Running voice lint. Skipping commit unless requested.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1883,14 +1574,8 @@ Publishing the post and adding it as the homepage hero in `home_blog.post_slugs`
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
@@ -1899,31 +1584,17 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Writing the published file. Deleting the draft. Updating params.toml.
 
-Setting the date to today. Marking the post as published and featured. Updating the slug line.</details></think>
+Setting the date to today. Marking the post as published and featured. Updating the slug line.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
@@ -1932,29 +1603,21 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Verifying Hugo builds correctly with the new post and homepage configuration.</details></think>
+Verifying Hugo builds correctly with the new post and homepage configuration.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -20
 ```
@@ -1977,25 +1640,18 @@ hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 Buil
 Total in 26334 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Build succeeded. Verifying the homepage includes the post.</details></think>
+Build succeeded. Verifying the homepage includes the post.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2021,13 +1677,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2035,14 +1684,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 No match found. The file may be minified or located elsewhere.
 
-Checking public/index.html and grepping the public directory.</details></think>
+Checking public/index.html and grepping the public directory.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2068,21 +1716,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2108,13 +1747,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2122,29 +1754,21 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The post should be visible on the homepage.
 
-Checking whether the post file exists in the public blog directory.</details></think>
+Checking whether the post file exists in the public blog directory.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/public** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/public`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg -i sustainable</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo list all 2&gt;/dev/null | rg -i sustainable</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg -i sustainable
 ```
@@ -2154,12 +1778,6 @@ content/english/blog/sustainable-online-publishing.md,,Sustainable Online Publis
 content/english/notes/sustainable-performance.md,sustainable-performance,Sustainable Performance,2026-06-22T08:00:00Z,0001-01-01T00:00:00Z,2026-06-22T08:00:00Z,false,https://www.jorap.com/notes/sustainable-performance/,page,notes
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2167,14 +1785,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The post appears correctly in Hugo's list. The built page is missing from the public folder. The build output may have gone elsewhere or been cleaned.
 
-Checking hugo.toml for the publish directory setting. Rebuilding and grepping again.</details></think>
+Checking hugo.toml for the publish directory setting. Rebuilding and grepping again.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2200,20 +1817,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/blog/sustainable-online-publishing/ 2>&1; rg -l "Sustainable Online" /home/jorap/Documents/GitHub/jorap.com/public/ 2>/dev/null | head -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/blog/sustainable-online-publishing/ 2&gt;&amp;1; rg -l &#34;Sustainable Online&#34; /home/jorap/Documents/GitHub/jorap.com/public/ 2&gt;/dev/null | head -5</summary>
 ```bash
 ls -la /home/jorap/Documents/GitHub/jorap.com/public/blog/sustainable-online-publishing/ 2>&1; rg -l "Sustainable Online" /home/jorap/Documents/GitHub/jorap.com/public/ 2>/dev/null | head -5
 ```
@@ -2232,25 +1841,18 @@ drwxrwxr-x 59 root root   4096 Jul 10 20:57 ..
 /home/jorap/Documents/GitHub/jorap.com/public/index.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Post built. Verifying it appears in index.html.</details></think>
+Post built. Verifying it appears in index.html.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2276,13 +1878,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2290,14 +1885,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The file appears in index.html, yet grep does not locate the string.
 
-Perhaps the string is minified or referenced only as a URL. I'll search for "blog/sustainable".</details></think>
+Perhaps the string is minified or referenced only as a URL. I'll search for "blog/sustainable".
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2323,13 +1917,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2337,35 +1924,30 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Ripgrep located index.html containing "Sustainable Online", but grep did not.
 
-Running ripgrep directly.</details></think>
+Running ripgrep directly.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rg "sustainable|Sustainable" /home/jorap/Documents/GitHub/jorap.com/public/index.html | head -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg &#34;sustainable|Sustainable&#34; /home/jorap/Documents/GitHub/jorap.com/public/index.html | head -3</summary>
 ```bash
 rg "sustainable|Sustainable" /home/jorap/Documents/GitHub/jorap.com/public/index.html | head -3
 ```
 
 ```
-          &lt;link rel="preload" as="image" href="/images/sustainable-publishing_hu_f185b1c82c3cd007.webp" imagesrcset="/images/sustainable-publishing_hu_f185b1c82c3cd007.webp"&gt;
-  &lt;a href="/blog/sustainable-online-publishing/" class="relative block aspect-video overflow-hidden"&gt;
+          <link rel="preload" as="image" href="/images/sustainable-publishing_hu_f185b1c82c3cd007.webp" imagesrcset="/images/sustainable-publishing_hu_f185b1c82c3cd007.webp">
+  <a href="/blog/sustainable-online-publishing/" class="relative block aspect-video overflow-hidden">
             srcset="/images/sustainable-publishing_hu_7879009fc6310967.webp"
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The homepage will feature the post as a hero section with the sustainable-publishing image.</details></think>
+The homepage will feature the post as a hero section with the sustainable-publishing image.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2398,31 +1980,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Drafting a prompt to generate a new image for the sustainable online publishing blog post.
 
-Reviewing the blog post and prior image concept to refine the generation prompt.</details></think>
+Reviewing the blog post and prior image concept to refine the generation prompt.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg</summary>
 
 </details></tool-use>
 
@@ -2431,7 +2002,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Preparing a prompt to generate a new image.
 
-Drafting a copy-paste-ready prompt with modern aesthetic and 16:9 layout. It avoids generic placeholders and platform logos. Includes a primary version plus optional tweaks.</details></think>
+Drafting a copy-paste-ready prompt with modern aesthetic and 16:9 layout. It avoids generic placeholders and platform logos. Includes a primary version plus optional tweaks.
+</details></think>
 
 _**Agent (auto-low)**_
 

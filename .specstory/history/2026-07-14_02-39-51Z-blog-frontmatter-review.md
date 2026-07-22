@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing frontmatter for all blog posts.
 
-This is a Hugo site. I'll locate all blog posts and examine existing examples to understand the frontmatter conventions.</details></think>
+This is a Hugo site. I'll locate all blog posts and examine existing examples to understand the frontmatter conventions.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,11 +25,10 @@ I'll find every blog post and compare their frontmatter against the site's conve
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **57** results in **1** directory</summary>
 
-Directory: **** (57 files)
+Directory: **``** (57 files)
 
 | File |
 |------|
@@ -89,47 +89,29 @@ Directory: **** (57 files)
 | `content/english/blog/consistent-ai-output-wordpress-builds.md` |
 | `content/english/blog/__hugo-go-templates.md` |
 | `content/english/blog/set-it-forget-it-arroz-caldo.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 rg: the literal "\n" is not allowed in a regex
 
 Consider enabling multiline mode with the --multiline flag (or -U for short).
 When multiline mode is enabled, new line characters can be matched.
+</details></tool-use>
 
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -187,13 +169,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -201,47 +176,32 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reading the blog template and reference posts to understand the expected frontmatter schema. Then extracting frontmatter from all blog posts.
 
-Checking archescripts for frontmatter type validation rules.</details></think>
+Checking archescripts for frontmatter type validation rules.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `archetypes/blog.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -311,20 +271,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do [ "$(basename "$f")" = "_index.md" ] && continue; echo "=== $(basename "$f") ==="; sed -n '/^---$/,/^---$/p' "$f" | head -n -1 | tail -n +2; echo; done</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/*.md; do [ &#34;$(basename &#34;$f&#34;)&#34; = &#34;_index.md&#34; ] &amp;&amp; continue; echo &#34;=== $(basename &#34;$f&#34;) ===&#34;; sed -n &#39;/^---$/,/^---$/p&#39; &#34;$f&#34; | head -n -1 | tail -n +2; echo; done</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do [ "$(basename "$f")" = "_index.md" ] && continue; echo "=== $(basename "$f") ==="; sed -n '/^---$/,/^---$/p' "$f" | head -n -1 | tail -n +2; echo; done
 ```
@@ -385,3776 +337,9 @@ lastmod: "2026-07-13T15:24:00Z"
     - First Filipina to reach the fourth round of a major in the Open era
     - Upset defending champion Iga Swiatek on Centre Court
     - 4th Round, l. Paolini 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
-    - 3rd Round, d. Swiatek 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
-    - 2nd Round, d. Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320418) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02)
-    - 1st Round, d. Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30)
-
-{{&lt; youtube bgSs0pKIAGI &gt;}}
-
-  - **French Open**
-    - 1st Round, l. Jovic 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
-
-  - **Australian Open**
-    - 1st Round, l. Parks | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-20) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
-
-{{&lt; youtube HhdkG1AwDhU &gt;}}
-
-
-- 2025
-
-  - **US Open**
-    - 2nd Round, l. Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
-    - 1st Round, d. Tauson 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
-
-{{&lt; youtube vB6HVBHjpAg &gt;}}
-
-  - **Wimbledon**
-    - 1st Round, l. Krejcikova 3-6, 6-2, 1-6
-    - Played against the defending champion Krejcikova at the Centre Court
-
-  - **French Open**
-    - 1st Round, l. Arango 0-6, 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/e-arango-vs-a-eala-2025-05-25) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/SD078)
-    - First Filipina to compete in a Grand Slam main draw
-
-### Doubles
-
-- 2026
-
-  - **Wimbledon - with Nikola Bartunkova**
-    - 1st Round, l. Ostapenko/Kenin 6-3, 3-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD72362771)
-
-  - **Australian Open - with Ingrid Martins**
-    - 1st Round, l. Aoyama/Linette 6-7(3), 2-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
-
-- 2025
-
-  - **Wimbledon - with Eva Lys**
-    - 1st Round, l. Gleason/Martins 4-6, 2-6
-
-{{&lt; youtube NqbMdbIUuFE &gt;}}
-
-  - **French Open - with Renata Zarazua**
-    - 2nd Round, l. Danilovic/Potapova 1-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60707893) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD024)
-    - 1st Round, d. Appleton/Cavalle-Reimers 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60813525) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD049)
-
----
----
-
-### Elena Rybakina
-
-- [WTA Profile](https://www.wtatennis.com/players/324166/elena-rybakina)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/324166)
-- **Career High Singles:** No. 2
-
-**Grand Slam Titles:**
-
-| Tournament      | Year(s) |
-| --------------- | ------- |
-| Australian Open | 2026    |
-| Wimbledon       | 2022    |
-
-**Matches:**
-
-- **2026 Berlin (Grass)** - Round of 16, WIN, 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
-
-{{&lt; youtube 4C8dT5T-fHM &gt;}}
-
-- **2026 Rome (Clay)** - Round of 32, LOSS, 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2026/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
-
-{{&lt; youtube AgecNaf6eE4 &gt;}}
-
----
----
-
-### Barbora Krejcikova
-
-- [WTA Profile](https://www.wtatennis.com/players/318314/barbora-krejcikova)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/318314)
-- **Career High Singles:** No. 2
-
-**Grand Slam Titles:**
-
-| Tournament  | Year(s) |
-| ----------- | ------- |
-| Wimbledon   | 2024    |
-| French Open | 2021    |
-
-**Matches:**
-
-- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 6-3, 2-6, 1-6
-
-{{&lt; youtube PtLGq_avxI4 &gt;}}
-
-{{&lt; youtube G_gAodKKcEM &gt;}}
-
----
----
-
-### Madison Keys
-
-- [WTA Profile](https://www.wtatennis.com/players/316959/madison-keys)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/316959)
-- **Career High Singles:** No. 5
-
-**Grand Slam Titles:**
-
-| Tournament      | Year(s) |
-| --------------- | ------- |
-| Australian Open | 2025    |
-
-**Matches:**
-
-- **2025 Miami Open (Hard)** - Round of 32, WIN, 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
-
-{{&lt; youtube rK9CLjVv_dY &gt;}}
-
-{{&lt; youtube dEZi50raZFY &gt;}}
-
----
----
-
-### Jelena Ostapenko
-
-- [WTA Profile](https://www.wtatennis.com/players/319939/jelena-ostapenko)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/319939)
-- **Career High Singles:** No. 5
-
-**Grand Slam Titles:**
-
-| Tournament  | Year(s) |
-| ----------- | ------- |
-| French Open | 2017    |
-
-**Matches:**
-
-- **2026 Linz (Clay)** - Round of 16, LOSS, 4-6, 5-7 | [wtatennis.com](https://www.wtatennis.com/tournaments/528/linz/2026/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/upper-austria-ladies-linz/matches/j-ostapenko-vs-a-eala-2026-04-08)
-
-{{&lt; youtube pBmH23s_VJY &gt;}}
-
-- **2025 Eastbourne (Grass)** - Round of 16, WIN (Retired), 0-6, 6-2, 3-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/j-ostapenko-vs-a-eala-2025-06-25)
-- **2025 Miami Open (Hard)** - Round of 64, WIN, 7-6(2), 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS057) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
-
-{{&lt; youtube m0TgQhZNRxk &gt;}}
-
----
----
-
-### Paula Badosa
-
-- [WTA Profile](https://www.wtatennis.com/players/320124/paula-badosa)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/320124)
-- **Career High Singles:** No. 2
-
-**Matches:**
-
-- **2025 Miami Open (Hard)** - Round of 16, WIN (Walkover) | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/p-badosa-vs-a-eala-2025-03-25)
-
----
----
-
-### Iva Jovic
-
-- [WTA Profile](https://www.wtatennis.com/players/332285/iva-jovic)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/332285)
-- **Career High Singles:** No. 16
-
-**Matches:**
-
-- **2026 London (Grass)** - Round of 16, LOSS, 2-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1111/queens/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/hsbc-championships/matches/i-jovic-vs-a-eala-2026-06-10)
-
-{{&lt; youtube kv9jOR3P7O0 &gt;}}
-
-- **2026 French Open (Clay)** - 1st Round, LOSS, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
-
-{{&lt; youtube WRTmI2IH0is &gt;}}
-
----
----
-
-### Jasmine Paolini
-
-- [WTA Profile](https://www.wtatennis.com/players/319280/jasmine-paolini)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/319280)
-- **Career High Singles:** No. 4
-
-**Matches:**
-
-- **2026 Wimbledon (Grass)** - 4th Round, LOSS, 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
-
-{{&lt; youtube ZsJYg7q0ZnM &gt;}}
-
-- **2026 Dubai (Hard)** - Round of 32, WIN, 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
-
-{{&lt; youtube eUCpH8JRkg4 &gt;}}
-
----
----
-
-### Elina Svitolina
-
-- [WTA Profile](https://www.wtatennis.com/players/316738/elina-svitolina)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/316738)
-- **Career High Singles:** No. 3
-
-**Matches:**
-
-- **2026 Berlin (Grass)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
-
-{{&lt; youtube 6djWGxG7a8E &gt;}}
-
-{{&lt; youtube AdoeRVzt6FQ &gt;}}
-
----
----
-
-## Matches to Watch Out For
-
-- [Amanda Anisimova](https://www.wtatennis.com/head-to-head/330332/326384) - 2025 Wimbledon semifinalist
-- [Bianca Andreescu](https://www.wtatennis.com/head-to-head/330332/325088) - 2019 US Open Winner
-- [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Alex Eala defeated her when she won the 2022 Junior US Open
-- [Belinda Bencic](https://www.wtatennis.com/head-to-head/330332/319001) - Olympic gold medalist; 2026 Rome semifinalist
-- [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner
-- [Emma Navarro](https://www.wtatennis.com/head-to-head/330332/325410) - 2025 Strasbourg Winner; rising American top-20 fixture
-- [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - 2021, 2019 Australian Open and 2020, 2018 US Open Winner
-- [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - 2021 US Open Winner
-- [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - 2024, 2023 Australian Open and 2024 US Open Winner
-- [Diana Shnaider](https://www.wtatennis.com/head-to-head/330332/330482) - 2026 Roland Garros semifinalist; 2025 Monterrey champion
-- [Qinwen Zheng](https://www.wtatennis.com/head-to-head/330332/328120) - 2024 Olympic gold and Roland Garros finalist
-
-
-=== __blog-template.md ===
-title: "Blog Template"
-meta_title: "Blog Template"
-description: "Hugo CMS Reference for blog publishing."
-slug: "blog-template"
-date: "1981-06-14T05:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Tutorial"]
-author: "JoRap"
-tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
-related_notes:
-  - digital-garden
-featured: false
-draft: true
-
-=== __canon-g3000.md ===
-title: "Canon G3000"
-meta_title: "Canon G3000 - Ink Tank Printer Notes"
-description: "The Canon G3000 is an ink-tank printer for people tired of cartridge roulette. Here's what it's good at, what annoyed me, and who should consider one."
-slug: "canon-g3000"
-date: "2026-06-18T05:09:00Z"
-image: "/images/image-template.jpg"
-categories: ["Technology", "Gear", "Reviews"]
-author: "JoRap"
-tags: ["Canon G3000", "Printer", "Ink Tank", "Home Office", "Gear", "Printing", "Inkjet", "Document Printing", "Cost Per Page", "Work From Home"]
-related_notes:
-  - reliability
-  - building-a-personal-api
-  - preparedness
-featured: false
-draft: true
----
----
-
-## What the G3000 does well
-
-**Home document printing** - forms, school paperwork, receipts, light graphics. It handles the boring jobs without drama when it's healthy.
-
-**Wireless printing** from laptops and phones is convenient enough that USB feels like a backup.
-
-**Scan and copy** (on the AIO variants) cover the "I don't need a office copier, I need one decent page" use case.
-
-For a home office that prints **a few times a week**, the math usually favors tanks.
-
----
----
-
-## Refill habits that matter
-
-- Use **genuine or trusted ink** - cheap bottle roulette can clog print heads
-- Don't overfill tanks; follow the line markers
-- Print **a test page monthly** if you print rarely - keeps lines clear
-- Keep a **paper stack that matches** what you actually print (bond vs photo)
-
----
----
-
-## Bottom line
-
-The Canon G3000 isn't exciting. It's **practical** - a refillable home printer for people who got tired of feeding cartridges.
-
-Buy it if you'll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind.
-
-
-=== __client-site-pass-off.md ===
-title: "What Happens After Your Website Goes Live"
-meta_title: "Client Site Pass-Off - Who Publishes After Launch"
-description: "Launch day isn't the finish line. Before deposit I name who publishes next - Git lesson, retainer batches, showroom branch, or CMS - and I leave a one-page doc so you're not stuck calling me for every typo."
-slug: "client-site-pass-off"
-date: "2026-07-02T07:00:00Z"
-image: "/images/website.jpg"
-categories: ["Website", "Business", "Tips"]
-author: "JoRap"
-tags: ["Website Building", "Freelance", "Client Work", "Pass-off", "Static Site Generator", "GitHub", "Business", "Documentation"]
-related_notes:
-  - client-site-pass-off
-  - selling-static-sites
-  - static-site-client-scope
-  - share-what-you-learn
-  - the-garage-concept
-  - plain-commitments-at-work
-  - success-is-stewardship
-featured: false
-draft: true
----
----
-
-## Four paths I actually use
-
-Every client picks **one primary model**. Not a buffet. Not "we'll see." One path, named in the proposal, priced if it costs extra.
-
-### Git lesson
-
-The owner gets repo access and a short doc: here's the file, edit the text between these marks, commit, push, wait ninety seconds.
-
-Fits people who want control and won't panic at a terminal. My neighbor chose this for her portfolio. I spent about twenty minutes walking through edit, commit, push. She broke the build once fixing a typo - YAML indentation, classic - and fixed it the same night without calling me. That's the test.
-
-### Retainer batches
-
-They email copy, photos, or PDFs; I push on a schedule. Priced per batch, not disguised as monthly hosting.
-
-A pastor sends the bulletin every Friday. One push. No CMS layer he didn't need. He doesn't want Git. He wants the site current before Sunday. Fine.
-
-### Showroom branch
-
-My experiments stay off their deploy branch. What they see is clean &#96;main&#96; only - the garage concept applied to client work. Their site stays a showroom even when I'm testing layout ideas elsewhere in the repo.
-
-Good when they want stability and I still need a sandbox.
-
-### Git-based CMS
-
-When Git won't land but scope still fits static. Buttons instead of terminal. Sveltia or similar - quoted separately from the build because setup and training take real time.
-
-Middle path between "learn Git" and "install WordPress for a five-page brochure."
-
----
----
-
-## The one-page doc I leave behind
-
-The product isn't tribal knowledge in my head. It's a single page the client can forward to their successor:
-
-- **Repo URL** and who has access
-- **Cloudflare project** name and which branch deploys
-- **Environment variables** that matter (&#96;HUGO_VERSION&#96;, &#96;NODE_VERSION&#96;, anything custom)
-- **Domain and DNS** - where the registrar is, what points where
-- **Build failures** - the three boring fixes (version mismatch, bad frontmatter, asset too large)
-- **Who to call** when none of that works
-
-If they can publish a correction without a panic call, pass-off worked. If every comma routes through my inbox forever, I underpriced the job or skipped the training line item.
-
----
----
-
-## Questions to ask before you hire anyone
-
-If you're the client - or you're writing the brief for your org - ask these before deposit:
-
-**Who publishes the first typo fix after launch?** Name a person and a method.
-
-**What does "emergency" mean?** Site down is different from "we need a new photo on the about page by 4pm."
-
-**What do I own if we part ways?** Repo access, domain registrar login, Cloudflare account - all of it should be yours, not rented through the developer's email.
-
-**What's not included?** New sections, seasonal campaigns, integration with a tool you haven't bought yet. Surprises here are how friendships end.
-
-I ask the same questions from my side. If the answers are fuzzy, we fix them before money moves.
-
-
-=== consistent-ai-output-wordpress-builds.md ===
-title: "Consistent AI Output for WordPress Builds"
-meta_title: "Consistent AI Output for WordPress Builds"
-description: "Month one with AI on WordPress builds I was thrilled. Month three I finally got consistent output - helpers, reference examples, and a short rules doc that stop every feature from drifting."
-slug: "consistent-ai-output-wordpress-builds"
-date: "2026-05-30T05:00:00Z"
-image: "/images/feature-consistent-ai-output.jpg"
-categories: ["Technology", "AI", "Web Development"]
-author: "JoRap"
-tags: ["WordPress", "Workflow", "Developer Life", "Automation", "Code Generation", "Cursor", "Productivity Tools", "Best Practices", "Reusable Code", "PHP", "AI Coding", "LLM", "Prompt Engineering", "Coding Standards", "Theme Development", "Writing", "Documentation", "PKM"]
-related_notes:
-  - building-a-personal-api
-  - creative-blocks
-  - mobile-capture-workflows
-  - the-knowledge-lifecycle
-  - the-trusted-inbox
-  - context-aware-capture
-featured: false
-draft: false
----
----
-
-## AI isn't a developer - it's a fast new hire
-
-A new teammate on day one doesn't know your file names, your definition of done, your existing helpers, or which mistakes the team already made once.
-
-So you give them a short guide. After that, they stop guessing and start matching.
-
-AI works the same way. Plenty of skill, zero memory of your project. Every new chat is day one.
-
-Write down your house rules and put them where the AI will actually read them.
-
----
----
-
-## The 4-step process: build the 80% layer
-
-This is what I do on WordPress builds - and any project where AI does a lot of the typing. **Have AI build the reusable 80%, then use it for every new feature.** Same idea for a site, a spreadsheet macro, or a recipe blog.
-
-{{&lt; image src="images/Consistent_AI_Web_Development_Blueprint.jpg" caption="Four-step blueprint for consistent AI output on WordPress builds" alt="Blueprint: name what repeats, one helper for setup, reference examples, then rules plus a standing instruction" height="558" width="1000" position="center" command="fit" option="q75" class="img-fluid" title="Consistent AI web development blueprint" webp="true" zoomable="true" &gt;}}
-
-### Step 1 - Name what repeats
-
-Look at recent projects. What do you build again and again? For me, it's content blocks - pages are mostly blocks stacked together.
-
-Name each repeating shape. One line each. That's what AI will build reusable code for. Skip this and nothing else clicks.
-
-### Step 2 - One helper for the boring opening
-
-Every shape starts with the same few lines of setup. Ask AI for **one helper** that wraps that and exposes a single function call.
-
-This may be the most important file in the project. Every new feature starts the same way. AI calls the helper and moves on to the real work.
-
-You're not saving keystrokes. **The first ~25 lines of every file match**, so there's nothing to drift on.
-
-### Step 3 - A small library of reference examples
-
-With the helper in place, ask AI for one polished example per shape - one card, one form, one list. You don't ship these as features. They're **references** - the recipe book.
-
-"Build me a card" becomes "build me a card like *this* one." AI copies well when you point at an example. It invents poorly when you don't. References fix that.
-
-### Step 4 - Rules plus a standing instruction
-
-Write down rules that aren't taste - they're safety. Mine look like:
-
-- Always escape user input
-- Always use the project's exact labels (typos break translations)
-- Always bump a timestamp when a config file changes (or sync breaks quietly)
-
-Ask AI to put five to ten rules in one plain-English doc in the project.
-
-Add one instruction for every task: **"Use the helper. Mirror the closest example. Follow the rules."** Put the doc and that line where the AI reads them first - a rules file, a Cursor rule, whatever you use.
-
-That's the contract. AI stops inventing and starts assembling from what you already built. New code looks like old code because the layer doesn't leave much room for anything else.
-
----
----
-
-## The other 20%
-
-The rest doesn't fit the template - custom integrations, odd animations, pages that behave differently per user. That's not waste. It's the part of the project where you're allowed to improve things, try ideas, and be creative.
-
-Locking down the 80% on purpose frees you here. You're not fighting drift on every block, so you have attention for the work that actually needs a fresh take.
-
-Don't force the 80% system onto this bucket. Do add one guardrail: **"If it doesn't match an existing pattern, stop and ask."** That keeps edge cases as a conversation instead of a confident wrong guess - without killing the room to experiment.
-
-Full system for the 80%. One light rule for the 20%. Creativity where it belongs.
-
----
----
-
-## If you only take one thing
-
-&gt; **Don't use AI for one feature at a time. Use it to build the reusable code for 80% of your work - then get the same output every time.**
-
-You don't need a huge playbook. Name what repeats. Have AI build a helper, a few reference examples, and a short rules doc. Then tell it to mirror and reuse, not invent.
-
-Work stops varying. The codebase gets boring in a good way. You stop reading every AI line because you already know the shape.
-
-
-=== __craft-prompt-framework.md ===
-title: "The CRAFT Prompt Framework"
-meta_title: "CRAFT - How to Write Prompts That Actually Work"
-description: "Vague prompts get vague answers. The CRAFT framework - Context, Role, Action, Format, Target Audience - is how I build prompts that don't leave the model guessing."
-slug: "craft-prompt-framework"
-date: "2026-06-18T06:13:00Z"
-image: "/images/image-template.jpg"
-categories: ["AI", "Writing", "Tips"]
-author: "JoRap"
-tags: ["AI", "Prompts", "ChatGPT", "CRAFT", "Writing", "Prompt Engineering", "LLM", "Context", "Role Prompting", "Content Creation", "AI Writing", "Framework", "PKM", "Note Taking"]
-related_notes:
-  - intellectual-sourcing
-  - the-feynman-technique
-  - evergreen-notes
-  - progressive-layers
-  - commonplace-book
-  - literature-notes
-featured: false
-draft: true
----
----
-
-## What CRAFT stands for
-
-| Letter | Section | Job |
-|---|---|---|
-| **C** | Context | What's the situation? What background does the model need? |
-| **R** | Role | Who should the model be? Expertise level, voice, years of experience |
-| **A** | Action | Numbered steps the model should follow, in order |
-| **F** | Format | Essay, table, markdown, HTML, bullets, word count, headings |
-| **T** | Target audience | Who reads the output - literacy level, job, geography |
-
-Miss any letter and you get **generic middle**.
-
----
----
-
-## Mini example - monthly goals guide
-
-**Context:** Guide for setting and tracking monthly goals; break annual objectives into actionable monthly steps; SMART-friendly.
-
-**Role:** Expert productivity coach, 20+ years, clear motivating voice.
-
-**Action:**
-
-1. Engaging intro on why monthly goals work
-2. Step-by-step breakdown from annual goals
-3. Pick what comes first
-4. Tracking and adjustment tactics
-5. Examples (health, career, finances)
-6. Obstacle section (procrastination, surprises)
-7. Motivational close
-
-**Format:** Plain text, headings, numbered lists, short examples.
-
-**Target audience:** Working professionals 25-55, practical, ~6th grade reading level.
-
-That's enough for a usable first draft - because the model isn't guessing the shape.
-
----
----
-
-## Common failures
-
-- **Role without context** - "You're an expert" at what, for whom?
-- **Action as a paragraph** - numbered steps win
-- **Format omitted** - you get essay when you needed HTML
-- **Audience omitted** - you get academic when you needed blog casual
-
----
----
-
-## Bottom line
-
-CRAFT isn't bureaucracy. It's **kindness to future-you** - and to the model.
-
-Context, Role, Action, Format, Target Audience. Five boxes. Fill them before you hit enter, and "ultimate prompts" stop being luck.
-
-
-=== dnpap-song-resources.md ===
-title: "DNPAP - Song Resources"
-meta_title: "DNPAP - Song Resources by Destiny Music | Spotify, YouTube, Lyrics"
-description: "DNPAP (Diyos Ng Pagasa at Pagibig) by Destiny Music is one of my favorite local worship songs. I put the studio track, live cut, videos, and links in one place."
-slug: "dnpap-song-resources"
-date: "2022-11-12T05:00:00Z"
-image: "/images/feature-dnpap.jpg"
-categories: ["Worship", "Music", "Filipino"]
-author: "JoRap"
-tags: ["DNPAP", "Destiny Music", "Spotify", "YouTube", "Filipino Worship", "OPM", "Song Resources", "Lyrics", "Live Recording", "Christian Music", "Worship Resources", "Music Ministry", "Filipino Music", "Chord Charts", "Music Video", "Philippines", "Filipino"]
-related_notes:
-  - love-god
-  - free-grace
-  - ask-seek-knock
-featured: false
-draft: false
----
----
-
-## The artist - Destiny Music
-
-[Destiny Music on Spotify](https://open.spotify.com/artist/12t16fNXKGzNRO5p81Xvyo)
-
-{{&lt; spotify_iframe_artist 12t16fNXKGzNRO5p81Xvyo &gt;}}
-
----
----
-
-### Live version (Spotify)
-
-{{&lt; spotify_iframe_track 3OAGH2cFDbtgiO8yePaWDB &gt;}}
-
-### Live performance (YouTube)
-{{&lt; youtube_time id="3Jm6KrKToV0" start="4659" end="5100"&gt;}}
-
----
----
-
-## Quick links
-
-| Platform | Link |
-| :---------------------- | :-------------------------------------------------------------------- |
-| Spotify - Destiny Music | [Listen Here](https://open.spotify.com/artist/12t16fNXKGzNRO5p81Xvyo) |
-| DNPAP Single (Spotify) | [Listen Here](https://open.spotify.com/track/5ikuIeKWiuCKMxvu5gloyl) |
-| DNPAP Live (Spotify) | [Listen Here](https://open.spotify.com/track/3OAGH2cFDbtgiO8yePaWDB) |
-| Music Video (YouTube) | [Watch Here](https://youtu.be/8sSm0pBeX6U) |
-
-=== drupal-to-wordpress.md ===
-title: "Why I Switched from Drupal to WordPress"
-meta_title: "Why I Left Drupal for WordPress"
-description: "I went hunting for the best open-source CMS, fell hard for Drupal's architecture, and still couldn't find work with it. WordPress had ACF and Gutenberg that felt familiar - plus a plugin ecosystem and a community big enough to pay the bills."
-slug: "drupal-to-wordpress"
-date: "2026-05-27T06:30:00Z"
-image: "/images/drupal-to-wp.jpg"
-categories: ["Technology", "Web Development", "Opinion"]
-author: "JoRap"
-tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Career", "Open Source", "Gutenberg", "ACF", "Content Management", "WordCamp", "PHP", "Freelance"]
-related_notes:
-  - git-based-cms
-featured: false
-draft: false
----
----
-
-## What I liked about Drupal (and what that cost me)
-
-The modeling made sense. Need a landing page with repeatable sections? Paragraphs. Need filtered lists of content? Views. Need strict field types on everything? The Field API had you covered. Once you learned the vocabulary, you could build complicated sites without turning every page into a one-off template.
-
-The problem was everything around that core.
-
-**The community was small.** Helpful when you found the right person, but thin compared to WordPress. Fewer blog posts, fewer YouTube walkthroughs, fewer "someone already solved this exact thing" moments.
-
-**I couldn't find a job for it.** That was the line in the sand for me. I wasn't doing Drupal as a hobby project on a VPS in the corner. I needed clients, contracts, something that paid. In my market, "Drupal developer" was a niche inside a niche. WordPress listings were everywhere.
-
-**Updates were exhausting.** Major Drupal versions weren't a click-and-go affair. Migrations, deprecated modules, contrib lagging behind core - I'd block out a weekend for an upgrade and still find something broken on Monday. WordPress isn't perfect here either, but Drupal made me feel like I was maintaining infrastructure every time the version number ticked.
-
-I still respect what Drupal is. I just couldn't keep betting my income on a smaller table.
-
----
----
-
-## The plugin shelf is the real difference day to day
-
-Drupal has modules. WordPress has **plugins**, and there are so many of them that the boring problems are usually already solved.
-
-Forms. SEO basics. Caching helpers. Migration tools. E-commerce add-ons. Backup plugins. Stuff clients ask for on Tuesday afternoon. On WordPress I often install, configure, and move on. On Drupal I'd sometimes end up evaluating three contrib modules, checking issue queues, and wondering if any of them would survive the next core bump.
-
-I'm not saying every WordPress plugin is good. Plenty are junk. But the **ecosystem** is the product feature nobody puts on the homepage. When you freelance or run small builds, that shelf saves weeks.
-
----
----
-
-## Would I pick WordPress again?
-
-For the work I do - client sites, structured content, plugins that ship fast, a community I can actually reach - yes.
-
-Drupal still wins on paper for certain enterprise builds with dedicated teams and long timelines. I don't run in that lane often. I run in the lane where the client needs the thing live next month and the plugin exists already.
-
-I don't regret learning Drupal. It made me picky about content modeling, and that carries over no matter the CMS. But I needed work, smoother updates, and a bigger bench of tools and people. WordPress gave me that. WordCamp in Manila just made the choice feel less lonely.
-
-
-=== extension-cord.md ===
-title: "The Short Extension Cord in My Laptop Bag"
-meta_title: "The Short Extension Cord in My Laptop Bag - Hotel Outlets and Tight Plugs"
-description: "A short extension cord lives in my laptop bag. Hotel outlets behind the bed, blocked café sockets, full meeting-room strips - here's what I look for."
-slug: "extension-cord"
-date: "2026-07-11T05:04:00Z"
-image: "/images/extension-cord.jpg"
-categories: ["Gear", "Home", "Reviews"]
-author: "JoRap"
-tags: ["Extension Cord", "Laptop", "Travel Gear", "Remote Work", "Power", "Home Office", "Electrical Safety", "Cable", "Hotel", "Work From Anywhere"]
-related_notes:
-  - reliability
-  - preparedness
-  - safety-comes-first
-featured: false
-draft: false
----
----
-
-## Length: about 2 metres, not five
-
-For laptop duty you want **1.5 to 2 metres** - enough to bridge a bad outlet, short enough to coil without turning your bag into a cable nest.
-
-Half a metre short is useless. Five metres is a trip wire in a hotel room and a tangled mess every time you unpack.
-
-I measure once: from the typical bad outlet to where I'd actually sit. Then I add a little slack. For the bag, shorter wins. For a home desk where the wall socket sits in an awkward spot, **3 metres** is the longest I'd bother with.
-
----
----
-
-## Flat plug, right-angle head
-
-Hotel furniture and café booths love putting outlets **behind** something. A **flat plug** that sits flush against the wall fits where a chunky one won't. A right-angle head helps when the socket faces the wrong way and you can't push furniture another centimetre.
-
-Small detail. Huge difference when you're working on a bed or a booth seat and the outlet is literally behind the headboard.
-
----
----
-
-## What I actually pack
-
-One **2-metre cord** with a flat plug, coiled with a velcro strap, in the same pouch as the charger. It weighs almost nothing. I've lost count of how many dying-battery emergencies it fixed.
-
-It's on my **remote work checklist** too - because a dead battery at the wrong outlet kills a meeting, and borrowing someone else's cord always takes longer than you think.
-
----
----
-
-## Bottom line
-
-For a laptop, a short extension cord is boring gear that actually gets used. You want about **2 metres** and a plug shape that fits tight spaces.
-
-
-=== facebook-favorites-feed.md ===
-title: "Facebook's Hidden Gem: The Favorites Feed"
-meta_title: "Facebook's Favorites Feed: The Only Reason I Still Open the App"
-description: "I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists - and it's the only reason I still open the app."
-slug: "facebook-favorites-feed"
-date: "2024-02-04T05:00:00Z"
-image: "/images/fbf.jpg"
-categories: ["Social Media", "Technology", "Tips"]
-author: "JoRap"
-tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing", "Algorithm", "Personalization", "Mindful Tech", "Feed Curation", "Internet", "Meta", "News Feed", "Screen Time", "Content Curation", "Social Networks", "PKM", "Information Diet", "Digital Minimalism"]
-related_notes:
-  - digital-minimalism
-  - note-relationships
-  - attention-economy
-  - graph-view-analytics
-  - signal-vs-noise
-  - commonplace-book
-aliases: ["facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience"]
-featured: false
-draft: false
-
-=== getting-started-with-rss-feeds.md ===
-title: "RSS Feeds - What I Wish I'd Done Sooner"
-meta_title: "RSS Feeds - What I Wish I'd Done Sooner"
-description: "I figured RSS quietly died around 2010. A friend pointed out it never actually did - it just stopped being trendy. Two weeks of using it later, I was a convert."
-slug: "getting-started-with-rss-feeds"
-date: "2024-03-30T05:00:00Z"
-image: "/images/rss.jpg"
-categories: ["Technology", "Productivity", "Guide"]
-author: "JoRap"
-tags: ["RSS Feeds", "RSS", "Inoreader", "Content Management", "Productivity Tools", "Digital Organization", "News Reader", "Information Management", "Beginner Guide", "Internet", "Reading", "Feedly", "Syndication", "Web Reading", "Digital Minimalism", "News Aggregation", "PKM", "Research", "Second Brain", "Information Diet"]
-related_notes:
-  - synthesis-as-a-goal
-  - literature-notes
-  - digital-minimalism
-  - digital-serendipity
-  - the-second-brain-workflow
-  - attention-economy
-aliases: ["getting-started-with-rss-feeds-a-beginners-guide"]
-featured: false
-draft: false
-
-=== hanamikoji-duopoly-retheme.md ===
-title: "Retheming Hanamikoji as Duopoly"
-meta_title: "Hanamikoji to Duopoly: Component Cuts and Mechanics Test"
-description: "I love Hanamikoji for the mechanics, not the geisha art. Duopoly is my personal build log: fewer components, dull flags, and a test of whether the mechanics still hooks you without the illustration. Not a print-and-play — buy the retail game."
-slug: "hanamikoji-duopoly-retheme"
-date: "2026-07-14T01:26:00Z"
-image: "/images/duopoly.jpg"
-categories: ["Games", "Design"]
-author: "JoRap"
-tags: ["Duopoly", "Hanamikoji", "Board Games", "Card Games", "Game Design", "Component Design", "Retheme", "I Split You Choose", "Zine", "DIY"]
-related_notes:
-  - minimum-effective-dose
-  - practice-small-experiments
-  - signal-vs-noise
-aliases: ["hanamikoji-rules"]
-featured: false
-draft: false
-lastmod: "2026-07-14T02:37:00Z"
----
----
-
-## Why flags instead of a reskin
-
-A straight reskin chases the retail look - new geisha art, new item illustrations, same component sprawl. I was not trying to match *Hanamikoji*'s production. I was trying to **stress-test two things**: whether the mechanic and its simplicity still engages without illustration, and how far I could cut components before something broke.
-
-Country flags are boring on purpose. Black when neutral. Green toward the leader, red toward the rival when someone controls a market. Deal cards repeat the same flag small in the corner plus a point number. No scene to admire mid-turn. That is the point. When someone lays out a Gift or a Competition, the question on the table is **which pile hurts me less** - not what pretty picture landed in front of me. If the game still bites with flags and numbers, the mechanics are doing the heavy lifting.
-
-The business frame helps the same way. Geisha favor becomes **market control**. Item cards become **deal cards**. Charm points become **market value**. The four actions still read clean: backroom **Secret**, painful **Trade-off**, public **Gift**, head-to-head **Competition**. Dry nouns. Sharp decisions.
-
-Practical wins stack on top. Retail *Hanamikoji* uses **oversized geisha boards** and **smaller item cards** - two print templates, two sleeve sizes at home. I print poker-size everything. One cutter pass, one sleeve SKU, one stack in a tuck box.
-
-Mechanics unchanged. Visual noise stripped. Friction lowered. Early plays suggest the mechannic and its simplicity holds - you still lean in when someone fans out a Competition. The geisha atmosphere is gone; the tension is not.
-
----
----
-
-## Component budget
-
-This section is the heart of the exercise. Every piece I removed had to prove it earned its spot. Seven victory markers, two card sizes, separate action tiles - gone if the flip and the action cards could cover the same job.
-
-Retail *Hanamikoji* (approximate):
-
-| Piece | Count |
-|-------|------:|
-| Oversized geisha / board cards | 7 |
-| Item cards | 21 |
-| Action markers | 8 |
-| Victory markers | 7 |
-| **Total distinct bits** | **43** |
-
-My **full Duopoly** build:
-
-| Piece | Count |
-|-------|------:|
-| Market cards (same size as deals) | 7 |
-| Deal cards | 21 |
-| Action cards | 8 |
-| 1-page zine (rules) | 1 |
-| **Total** | **36 cards + zine** |
-
-Seven victory markers gone - the country card flip handles control. Geisha and item size split gone - one template.
-
-Action cards with the name on the face - easier to read across the table than flipping little tiles. Secret and Trade-off tuck under theirs; Gift and Competition stay face-up so your rival has to see the split.
-
-The cut from 43 distinct bits to 36 cards plus a zine is not minimalism for its own sake. It is a proof of concept: **the engine runs lean.** That also makes me think the publisher could swap themes - business, sci-fi, sports, whatever - without touching the split. Same machinery, different skin. I would buy an official alternate theme if one existed. The geisha art is the reason many people pick up the box; the mechanics might be the reason they keep playing.
-
----
----
-
-## Personal use only
-
-**Duopoly stays on my table.** I am not publishing PDFs, selling copies, or handing out a substitute for the retail game. *Hanamikoji* — mechanics, structure, scoring, the whole design — belongs to its creators and publisher. I rethemed the faces and cut components so I could play at home without copying retail artwork. That is personal consumption, not a product.
-
-I want to stay on the right side of copyright and trademark law. I am not a lawyer and I do not know every rule in every country. What I do know is what I am willing to do: keep the deck private, credit *Hanamikoji*, and point anyone who wants to play toward the published box.
-
-
-=== how-i-built-jorap-notes.md ===
-title: "How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!)"
-meta_title: "How I Built JoRap Notes: A Developer's Guide to Static Site Hosting"
-description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - faster, and honestly better than what I was paying for."
-slug: "how-i-built-jorap-notes"
-date: "2024-06-14T05:00:00Z"
-image: "/images/joraps-world.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Website Building", "Hugo CMS", "GitHub", "Cloudflare Pages", "Static Sites", "JAMstack", "Self-Hosting", "PHP", "Migration", "Developer Life", "Hugo", "DevOps", "Site Migration", "Static Site Generator", "Web Hosting", "Publishing", "Digital Garden", "PKM", "Note Taking", "Blogging"]
-related_notes:
-  - digital-garden
-  - drafting-in-public
-  - the-garage-concept
-  - selling-static-sites
-  - note-relationships
-  - success-is-stewardship
-featured: false
-draft: false
----
----
-
-## Is this setup actually right for you?
-
-Be honest with yourself before you start.
-
-**This is great for** personal sites, blogs, portfolios, project pages, small documentation sites. Anything that's mostly text and images, mostly written by you, where "publishing" can reasonably mean "running a Git command."
-
-**This is a bad fit for** anything with user accounts, shopping carts, real-time data, or a non-technical team that needs to update content without touching code. A marketing team is not going to learn Git to fix a typo. They shouldn't have to.
-
-So: small personal stuff, yes. A company site with a non-technical team behind it, no. Pick something with an admin panel instead.
-
----
----
-
-## Putting it on the internet
-
-### Push to GitHub
-
-Create a new repo, then:
-
-&#96;&#96;&#96;bash
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/yoursite.com.git
-git push -u origin main
-&#96;&#96;&#96;
-
-I have forgotten the &#96;git remote add origin&#96; step more times than I'd like to admit. Git's error messages when this happens are not, let's say, beginner-friendly.
-
-### Hook up Cloudflare Pages
-
-1. Sign up at &#96;pages.cloudflare.com&#96;.
-2. Connect your GitHub account.
-3. Select the repo.
-4. Set the build command to &#96;hugo&#96; and the output directory to &#96;public&#96;.
-5. Add an environment variable &#96;HUGO_VERSION&#96; and set it to your exact local Hugo version.
-
-Hit deploy. About two minutes later, your site is live at some &#96;something.pages.dev&#96; URL.
-
----
----
-
-## The day-to-day workflow
-
-Once everything is set up, posting feels almost too simple:
-
-&#96;&#96;&#96;bash
-hugo new posts/post-name.md
-# write the post in Markdown
-hugo server -D            # preview it
-git add .
-git commit -m "New post about whatever"
-git push
-&#96;&#96;&#96;
-
-About two minutes after the push, the site updates. No logging in, no clicking "Publish," no waiting for the WordPress dashboard to load. It's the part I missed most about old-school static publishing and didn't realize until I had it again.
-
----
----
-
-## What it costs me
-
-No monthly hosting bill - a big change from the old PHP plan I was splitting with a client.
-
-The only thing I actually pay for is a custom domain, an annual renewal at my registrar. Hugo, GitHub, and Cloudflare Pages handle the rest, with SSL and a global CDN included.
-
-If you want your own domain, point it at Cloudflare from your registrar (Namecheap, GoDaddy, etc.), add it under Custom Domains in Cloudflare Pages, and wait for DNS to settle. Usually within a day.
-
-The &#96;*.pages.dev&#96; URL works fine if you skip the custom domain.
-
-
-=== __how-to-create-a-blog-template.md ===
-title: "Blog Template"
-meta_title: "Blog Template"
-description: "Hugo CMS Reference for blog publishing."
-slug: "how-to-create-a-blog-template"
-date: "1981-06-14T05:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Tutorial"]
-author: "JoRap"
-tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
-related_notes:
-  - digital-garden
-featured: false
-draft: true
-
-=== __how-to-create-a-good-habit.md ===
-title: "How to Create a Good Habit"
-meta_title: "How to Create a Good Habit - James Clear's Four Laws"
-description: "Atomic Habits boiled down to what I actually use: make it obvious, attractive, easy, and satisfying - and invert those to break bad habits."
-slug: "how-to-create-a-good-habit"
-date: "2026-06-18T06:05:00Z"
-image: "/images/image-template.jpg"
-categories: ["Productivity", "Health", "Tips"]
-author: "JoRap"
-tags: ["Habits", "James Clear", "Atomic Habits", "Productivity", "Behavior Change", "Four Laws", "Habit Stacking", "Self Improvement", "Routine Building", "Mindset", "PKM", "Note Taking"]
-related_notes:
-  - process-over-outcomes
-  - inbox-zero
-  - information-diet
-  - anti-fragile-systems
-  - periodic-knowledge-review
-  - getting-things-done
-featured: false
-draft: true
----
----
-
-## Build a good habit
-
-### 1st law (Cue): Make it obvious
-
-Habits start with a trigger you can't miss.
-
-- **Stack habits:** "After I pour coffee, I open my notes."
-- **Environment design:** Gym shoes by the door, guitar on a stand not in a case
-- **Implementation intention:** "At 7 AM, I walk 10 minutes" beats "I'll walk more"
-
-If the cue is hidden, the habit is theoretical.
-
-### 2nd law (Craving): Make it attractive
-
-We repeat what feels rewarding **before** the long-term payoff.
-
-- Pair the habit with something you enjoy (podcast only while walking)
-- Join a culture where the behavior is normal
-- Reframe: "I get to" instead of "I have to"
-
-### 3rd law (Response): Make it easy
-
-Friction kills more habits than laziness.
-
-- **Two-minute version:** "Read one page" not "read 30 pages"
-- Prep the environment tonight for morning-you
-- Remove steps between you and the start
-
-### 4th law (Reward): Make it satisfying
-
-Immediate feedback loops matter.
-
-- Track streaks on a calendar you see
-- Small celebratory finish (tea after the task, not cake every time)
-- Never miss twice - one slip is human; two is a new pattern
-
----
----
-
-## Process beats outcome obsession
-
-Clear's line I keep on my wiki: **optimize for outcome, you win once. Optimize for process, you can win again and again.**
-
-I don't "try to blog more." I **write 20 minutes after breakfast** - obvious cue, easy bar, calendar X for satisfaction.
-
----
----
-
-## Bottom line
-
-Good habits aren't character flaws vs virtues. They're **design problems** - cues, friction, reward.
-
-Make the good thing obvious and easy. Make the bad thing invisible and annoying. Repeat until it's boring.
-
-
-=== __hugo-go-templates.md ===
-title: "Hugo Go Templates"
-meta_title: "Hugo Go Templates - How I Learned Without Reading the Whole Manual"
-description: "Hugo layouts scared me until I broke a blog listing and had to fix it. Most of what I touch is copy-paste from Hugoplate partials - Go templates with sprinkles."
-slug: "hugo-go-templates"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Hugo", "Go Templates", "Web Development", "Static Sites", "Templating", "Hugoplate", "PKM", "Documentation"]
-related_notes:
-  - future-proofing-knowledge
-  - metadata-strategy
-  - drafting-in-public
-  - the-garage-concept
-  - digital-garden
-  - building-a-personal-api
-featured: false
-draft: true
----
----
-
-## The first break: blog list order
-
-Early on I wanted featured posts to float to the top of the blog index. I wired up &#96;featured: true&#96; in frontmatter and edited a listing template before I'd read how Hugoplate already sorted pages.
-
-Wrong context in the template - valid syntax, empty or wrong output. No error on the page. Just not what I expected.
-
-Fix was copying the site's &#96;sort-featured-first&#96; partial - filter on &#96;.Params.featured&#96;, then append the rest. I didn't learn Go. I learned **read the theme first.**
-
----
----
-
-## Partials: one change, whole site
-
-Header, footer, card markup, related-notes block - anything repeated goes in &#96;layouts/partials/&#96;.
-
-&#96;&#96;&#96;go
-{{ partial "components/blog-card.html" . }}
-&#96;&#96;&#96;
-
-Change the card once, every listing page updates. That's how I tweaked blog cards without touching fifty files.
-
-The &#96;.&#96; is the current page context. &#96;.Title&#96;, &#96;.Params.description&#96;, &#96;.RelPermalink&#96; - frontmatter and built-ins hang off that dot. Pipe it into partials when you need a sub-scope.
-
----
----
-
-## Bottom line
-
-Hugo Go templates reward small experiments on a local build. **Don't start from the official docs cover to cover.** Break one page you care about, fix it with the theme's partials as a cheat sheet.
-
-
-=== __hugo-page-bundles.md ===
-title: "Hugo Page Bundles"
-meta_title: "Hugo Page Bundles - When I Stop Dumping Images in /static"
-description: "Most of my posts are a single .md file with a hero image in /images. Page bundles are for the messier ones - multiple screenshots, downloads, assets that belong to one post and nowhere else."
-slug: "hugo-page-bundles"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Hugo", "Page Bundles", "Content Management", "Static Sites", "Markdown", "Assets", "PKM", "Static Site Generator"]
-related_notes:
-  - future-proofing-knowledge
-  - the-garage-concept
-  - digital-garden
-  - git-based-cms
-  - free-tier-hosting-stack
-  - selling-static-sites
-featured: false
-draft: true
----
----
-
-## The mess that pushed me toward bundles
-
-My [Facebook Favorites post](/blog/facebook-favorites-feed/) has two walkthrough screenshots - &#96;fb-desktop-feed.jpg&#96; and &#96;fb-mobile-feed.jpg&#96; - referenced from the post but still sitting as loose image files, not colocated in a bundle folder. Fine for two files. Annoying when I'm drafting three posts at once and every new screenshot lands in the same shared pile.
-
-I didn't bundle that post when I added the captures. Single-file habit won. The next client migration probably won't get that pass - church bulletin PDFs beside the announcement page, before/after shots for a portfolio case study. Stuff you **never** want in a site-wide image dump.
-
-That's the trigger: **more than one custom asset, or an asset that shouldn't outlive the post.**
-
----
----
-
-## Branch vs headless (the ones I rarely need)
-
-**Branch bundle:** a section folder with &#96;index.md&#96; plus child pages. Useful for a tutorial series that shares a landing page. I don't use this much on JoRap - the blog is flat posts.
-
-**Headless bundle:** resources without their own URL - image sets for shortcodes, shared partials. Niche. Hugoplate doesn't push you here on day one.
-
-If you're blogging, assume **leaf bundle** until you have a reason not to.
-
----
----
-
-## Bottom line
-
-Page bundles are **colocate what ships together.** I haven't moved the whole blog over - most posts are still one file. The next post with a pile of screenshots won't be.
-
-
-=== hugoplate-theme-review.md ===
-title: "HugoPlate: The Theme Quietly Powering This Site"
-meta_title: "HugoPlate Theme Review: Why It Powers JoRap Notes"
-description: "After losing half a Saturday to theme-shopping, I picked HugoPlate - and a year and change later, I'm still on it. Here's what comes in the box, what I changed, and where it still bites."
-slug: "hugoplate-theme-review"
-date: "2026-05-29T05:00:00Z"
-image: "/images/joraps-world.jpg"
-categories: ["Website", "Technology", "Reviews"]
-author: "JoRap"
-tags: ["Hugo CMS", "Hugoplate", "Tailwind CSS", "Website Building", "Themes", "Theme Review", "Static Sites", "Open Source", "Frontend", "Developer Life", "Hugo", "Static Site Generator", "Bootstrap", "Web Development", "JoRap", "Publishing", "Digital Garden", "PKM"]
-related_notes:
-  - the-garage-concept
-  - digital-garden
-  - drafting-in-public
-  - git-based-cms
-  - free-tier-hosting-stack
-  - selling-static-sites
-featured: false
-draft: false
----
----
-
-## What HugoPlate actually is
-
-HugoPlate is a free, open-source Hugo theme from [Zeon Studio](https://zeon.studio). The headline feature is that it's built on **Tailwind CSS** - which sounds like a small detail and is actually the whole reason I picked it.
-
-Most Hugo themes rely on their own bespoke CSS, often layered on Bootstrap or a custom SCSS pipeline. Tweaking them means learning that one theme's specific conventions. With HugoPlate, if you know any Tailwind, you already know how to restyle 90% of the site. Want a tighter card? Change &#96;p-8&#96; to &#96;p-6&#96;. Want a different accent color? Edit a config file. No theme-specific dialect to learn.
-
-The other thing worth knowing up front: it's a **starter**, not a finished product you drop in. The README literally tells you to fork or clone it as the base of your project. That framing matters - it means you should expect to live inside the theme's code, not sit on top of a black box.
-
----
----
-
-## The Tailwind v4 piece
-
-The version of HugoPlate I'm on ships with **Tailwind CSS v4**. If you've only used v3, the headline change is that there's no more &#96;tailwind.config.js&#96; - configuration moved into your CSS with &#96;@theme&#96; blocks.
-
-In practice that means your colors, fonts, and spacing tokens live in plain CSS:
-
-&#96;&#96;&#96;css
-@theme {
-  --color-primary: #2563eb;
-  --font-primary: "Inter", sans-serif;
-}
-&#96;&#96;&#96;
-
-Change a token here, and it propagates everywhere in the theme that uses it. For a personal site this is genuinely fun - you can rebrand the whole thing in fifteen minutes without touching a single layout file.
-
-The build pipeline is fast too. Tailwind v4 uses an Oxide engine written in Rust, so even on a slow laptop the rebuilds feel instant.
-
----
----
-
-## Shortcodes worth knowing
-
-This is where HugoPlate quietly punches above its weight. Most themes give you &#96;youtube&#96; and call it a day. HugoPlate (via [&#96;gethugothemes/hugo-modules&#96;](https://github.com/gethugothemes/hugo-modules)) hands you a small content design system: callouts, buttons, tabs, accordions, image galleries, video, diagrams, and more - all loaded as Hugo Modules so they live outside your theme folder and stay easy to update. I've added a few of my own (&#96;spotify&#96;, &#96;youtube_time&#96;) on top of that.
-
-Here's the full set this site renders, with live output for each so you can see exactly what they do.
-
-### Callouts and CTAs
-
-#### &#96;notice&#96;
-
-Styled callouts in nine flavors. The first parameter is the type - &#96;note&#96;, &#96;tip&#96;, &#96;info&#96;, &#96;warning&#96;, &#96;success&#96;, &#96;question&#96;, &#96;danger&#96;, &#96;failure&#96;, &#96;quote&#96;. Inner content is full Markdown.
-
-{{&lt; notice "note" &gt;}}
-This is a &#96;note&#96; - neutral context, side commentary, footnotes that are actually useful.
-{{&lt; /notice &gt;}}
-
-{{&lt; notice "tip" &gt;}}
-This is a &#96;tip&#96; - the helpful little nudge you wish someone had given you on day one.
-{{&lt; /notice &gt;}}
-
-{{&lt; notice "info" &gt;}}
-This is an &#96;info&#96; - additional context that's worth surfacing but not strictly required reading.
-{{&lt; /notice &gt;}}
-
-{{&lt; notice "warning" &gt;}}
-This is a &#96;warning&#96; - the bit you'll regret skipping. Pin &#96;HUGO_VERSION&#96; and &#96;NODE_VERSION&#96;.
-{{&lt; /notice &gt;}}
-
-{{&lt; notice "success" &gt;}}
-This is a &#96;success&#96; - confirmation that something went right. Build passed, deploy is green.
-{{&lt; /notice &gt;}}
-
-{{&lt; notice "danger" &gt;}}
-This is a &#96;danger&#96; - destructive operations live here. Force-pushes, drop-tables, &#96;rm -rf&#96;.
-{{&lt; /notice &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* notice "tip" */&gt;}}
-This is a &#96;tip&#96; - the helpful little nudge you wish someone had given you on day one.
-{{&lt;/* /notice */&gt;}}
-&#96;&#96;&#96;
-
-#### &#96;button&#96;
-
-In-content CTA. &#96;style="solid"&#96; (default) or &#96;style="outline"&#96;. External links open in a new tab automatically.
-
-{{&lt; button label="Read the blog" link="/blog/" style="solid" &gt;}}
-
-{{&lt; button label="View on GitHub" link="https://github.com/zeon-studio/hugoplate" style="outline" &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* button label="Read the blog" link="/blog/" style="solid" */&gt;}}
-{{&lt;/* button label="View on GitHub" link="https://github.com/zeon-studio/hugoplate" style="outline" */&gt;}}
-&#96;&#96;&#96;
-
-### Disclosure and structure
-
-#### &#96;accordion&#96;
-
-Collapsible disclosure. Useful for FAQs, optional detail, or anything that would otherwise bloat the page.
-
-{{&lt; accordion "What does HugoPlate cost?" &gt;}}
-Nothing. It's free and open source under the MIT license. The only money you'd spend is on a domain (optional) and any paid services you wire it up to.
-{{&lt; /accordion &gt;}}
-
-{{&lt; accordion "Do I need to know Tailwind?" &gt;}}
-Helpful but not required. If you're only editing content, you'll never touch Tailwind. The moment you want to restyle anything - colors, spacing, components - knowing Tailwind makes it five-minute work instead of a half-day.
-{{&lt; /accordion &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* accordion "What does HugoPlate cost?" */&gt;}}
-Nothing. It's free and open source under the MIT license.
-{{&lt;/* /accordion */&gt;}}
-&#96;&#96;&#96;
-
-#### &#96;tabs&#96; / &#96;tab&#96;
-
-Tabbed content. Wrap one or more &#96;tab&#96; shortcodes inside a &#96;tabs&#96; block. The first tab is active by default.
-
-{{&lt; tabs &gt;}}
-{{&lt; tab "Hugo" &gt;}}
-**Static site generator.** Written in Go. Famously fast - builds the whole site in milliseconds. The thing that makes editing a 200-post blog feel like editing a 5-post blog.
-{{&lt; /tab &gt;}}
-{{&lt; tab "Tailwind" &gt;}}
-**Utility-first CSS.** v4 is what HugoPlate ships with now - config moved into CSS via &#96;@theme&#96; blocks, so there's no &#96;tailwind.config.js&#96; anymore.
-{{&lt; /tab &gt;}}
-{{&lt; tab "Cloudflare Pages" &gt;}}
-**Hosting.** Connect your Git repo, set &#96;HUGO_VERSION&#96; and &#96;NODE_VERSION&#96;, and every push to &#96;main&#96; ships. Generous free tier.
-{{&lt; /tab &gt;}}
-{{&lt; /tabs &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* tabs */&gt;}}
-{{&lt;/* tab "Hugo" */&gt;}}
-**Static site generator.** Written in Go. Famously fast.
-{{&lt;/* /tab */&gt;}}
-{{&lt;/* tab "Tailwind" */&gt;}}
-**Utility-first CSS.** v4 is what HugoPlate ships with now.
-{{&lt;/* /tab */&gt;}}
-{{&lt;/* /tabs */&gt;}}
-&#96;&#96;&#96;
-
-#### &#96;toc&#96;
-
-Drops a Table of Contents anywhere in the post, generated from your headings. Wrapped in a &#96;&lt;details&gt;&#96; so it's collapsible. Most useful at the top of long posts.
-
-{{&lt; toc &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* toc */&gt;}}
-&#96;&#96;&#96;
-
-### Media
-
-#### &#96;image&#96;
-
-A captioned image with Hugo's full image-processing pipeline behind it: resize, fit, fill, WebP, quality, and a &#96;zoomable&#96; lightbox. Looks in &#96;assets/images/&#96;, your page bundle, &#96;static/&#96;, or any external URL.
-
-{{&lt; image src="images/Chicken-Adobo.jpg" caption="Chicken Adobo - Filipino comfort food, perfect example image." alt="A bowl of Chicken Adobo" height="500" width="800" position="center" command="fit" option="q90" class="" title="Chicken Adobo" webp="true" zoomable="true" &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* image src="images/Chicken-Adobo.jpg" caption="Chicken Adobo - Filipino comfort food."
-  alt="A bowl of Chicken Adobo" height="500" width="800" position="center"
-  command="fit" option="q90" webp="true" zoomable="true" */&gt;}}
-&#96;&#96;&#96;
-
-#### &#96;gallery&#96;
-
-Grid of images from a folder. Lightbox-enabled by default. Point &#96;dir&#96; at any subfolder under &#96;assets/&#96;, &#96;static/&#96;, or your page bundle.
-
-{{&lt; gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="q80" zoomable="true" &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* gallery dir="images/gallery" height="400" width="400"
-  webp="true" command="Fit" option="q80" zoomable="true" */&gt;}}
-&#96;&#96;&#96;
-
-#### &#96;video&#96;
-
-Native HTML5 video. Use it for self-hosted MP4s or any direct video URL - the kind of thing you don't want to round-trip through YouTube.
-
-{{&lt; video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto"
-  autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" */&gt;}}
-&#96;&#96;&#96;
-
-#### &#96;youtube&#96;
-
-A privacy-respecting wrapper around Hugo's built-in YouTube shortcode. Renders a 16:9 responsive iframe via &#96;youtube-nocookie.com&#96; when privacy mode is on.
-
-{{&lt; youtube 0RKpf3rK57I &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* youtube 0RKpf3rK57I */&gt;}}
-&#96;&#96;&#96;
-
-#### &#96;youtube_time&#96;
-
-Same idea as &#96;youtube&#96;, but lets you set start and end timestamps in seconds. Useful when a song or sermon you're linking to has the bit you actually care about buried halfway in.
-
-{{&lt; youtube_time id="3Jm6KrKToV0" start="4659" end="5100" &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* youtube_time id="3Jm6KrKToV0" start="4659" end="5100" */&gt;}}
-&#96;&#96;&#96;
-
-#### &#96;spotify_iframe_track&#96;
-
-Modern Spotify track embed - rounded corners, the official &#96;?utm_source=generator&#96; iframe, and lazy loading. Just pass the track ID.
-
-{{&lt; spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl */&gt;}}
-&#96;&#96;&#96;
-
-#### &#96;spotify_iframe_artist&#96;
-
-Same idea, but for artist pages.
-
-{{&lt; spotify_iframe_artist 12t16fNXKGzNRO5p81Xvyo &gt;}}
-
-&#96;&#96;&#96;
-{{&lt;/* spotify_iframe_artist 12t16fNXKGzNRO5p81Xvyo */&gt;}}
-&#96;&#96;&#96;
-
-### Diagrams
-
-#### &#96;mermaid&#96; (via fenced code block)
-
-Mermaid diagrams render automatically from any &#96; &#96;&#96;&#96;mermaid &#96; code block - no shortcode tags required, just the language hint.
-
-&#96;&#96;&#96;mermaid
-flowchart LR
-    A[Markdown post] --&gt; B{Hugo build}
-    B --&gt; C[HTML + assets]
-    C --&gt; D[Cloudflare Pages]
-    D --&gt; E((Live site))
-&#96;&#96;&#96;
-
-&#96;&#96;&#96;&#96;
-&#96;&#96;&#96;mermaid
-flowchart LR
-    A[Markdown post] --&gt; B{Hugo build}
-    B --&gt; C[HTML + assets]
-    C --&gt; D[Cloudflare Pages]
-    D --&gt; E((Live site))
-&#96;&#96;&#96;
-&#96;&#96;&#96;&#96;
-
-That's the full kit. The bundled &#96;blog-template.md&#96; (kept as a draft) covers a few extras like &#96;modal&#96; if you ever need them - but for 95% of writing, the dozen above are everything.
-
----
----
-
-## The rough edges
-
-I'd be lying if I said this was all smooth.
-
-**Theme name case-sensitivity.** I mentioned this in the [setup post](/blog/how-i-built-jorap-notes). &#96;theme = 'HugoPlate'&#96; in &#96;hugo.toml&#96; will break your site in production because the folder is &#96;hugoplate&#96;. Lowercase, every time.
-
-**Submodule vs. fork.** The README tells you to use &#96;git submodule add&#96; to install the theme. That's fine if you never want to touch the theme code. The moment you start customizing layouts (and you will), submodules become friction - every change has to be committed in the theme's repo, then bumped in your project. I eventually pulled the theme into my repo as a regular folder. The upgrade story gets harder; the day-to-day gets easier. Pick your trade.
-
-**Search needs an index file.** HugoPlate's search is great, but it's powered by a JSON index that Hugo generates at build time. If your search page is suddenly empty, regenerate the site. A stale &#96;public/&#96; folder is usually the cause.
-
-**Image shortcode quirks.** The &#96;image&#96; shortcode is powerful but has a lot of parameters (&#96;webp&#96;, &#96;command&#96;, &#96;option&#96;, &#96;position&#96;, etc.). I forget the order constantly. I keep the &#96;blog-template.md&#96; file open in another tab whenever I'm using it.
-
-**Tailwind v4 migration.** If you start from an older HugoPlate version (or an old tutorial), expect the CSS variables to live in a different place than the article says. v4 moved configuration into CSS. Most "how to change colors in HugoPlate" posts online are still showing the v3 way.
-
-**Cloudflare Pages and Node version.** HugoPlate uses Node for its asset pipeline. When Cloudflare's default Node version drifted, builds started failing for no obvious reason. Pin &#96;NODE_VERSION&#96; as an environment variable in your Pages project. (Same lesson as pinning &#96;HUGO_VERSION&#96;.)
-
----
----
-
-## What I wish I'd known on day one
-
-A few things that would have saved me time:
-
-- **Don't delete the demo content right away.** Use it as a living reference. Strip it out once you've published your own equivalents.
-- **The &#96;blog-template.md&#96; file is the docs.** Keep it as a draft in your blog folder. It's faster than searching the GitHub repo when you forget a shortcode.
-- **Pin every version.** Hugo, Node, Go modules. Future-you will be confused enough already.
-- **Customize content first, code second.** The default styling is fine. You'll waste less time if you publish a few posts before you start fiddling with colors.
-- **Read the layout files before you fork them.** HugoPlate's templates are commented and short. Five minutes of reading saves an hour of guessing.
-
-
-=== __hugo-shortcodes.md ===
-title: "Hugo Shortcodes Deep Dive"
-meta_title: "Hugo Shortcodes - Fix Images Once, Not in Every Post"
-description: "I use shortcodes for images, YouTube, Spotify - anything I'd otherwise paste as raw HTML. One template change updates every post that uses it."
-slug: "hugo-shortcodes"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Hugo", "Shortcodes", "Markdown", "Web Development", "Static Sites", "Components", "PKM", "Documentation"]
-related_notes:
-  - future-proofing-knowledge
-  - metadata-strategy
-  - drafting-in-public
-  - evergreen-notes
-  - creative-output
-  - the-garage-concept
-aliases: ["hugo-shortcodes-deep-dive"]
-featured: false
-draft: true
----
----
-
-## What I use on this site
-
-**Image shortcode** - Facebook walkthrough posts, blueprint diagrams, testimony screenshots. Params for caption, dimensions, &#96;webp="true"&#96;, zoom. Way better than hand-writing &#96;&lt;figure&gt;&#96; tags in every draft.
-
-**YouTube / Spotify** - the DNPAP song resources page embeds tracks without iframe copy-paste drift. Params stay consistent; if YouTube changes embed attributes, I fix one file.
-
-**TOC** - long template reference posts can drop a table of contents without maintaining it by hand.
-
-Built-ins like &#96;ref&#96; and &#96;relref&#96; handle internal links when filenames move. I use permalinks in prose more often, but &#96;relref&#96; saves you when a slug changes and you forgot to grep the site.
-
----
----
-
-## &#96;&lt;&gt;&#96; vs &#96;%&#96; delimiters (the footgun)
-
-- &#96;{{&lt;/* shortcode */&gt;}}&#96; - inner content treated as HTML (markdown not processed inside)
-- &#96;{{{%/* shortcode */%}}%}}&#96; - inner content runs through markdown
-
-I use &#96;{{&lt;/* ... */&gt;}}&#96; for images and embeds on this site - that's almost every shortcode call in my posts. The &#96;%&#96; delimiter is for paired shortcodes when inner content needs markdown processing. I rarely need it here; Hugoplate's image and embed shortcodes are self-closing.
-
-Get this wrong once and you'll wonder why your bold text stopped working inside a callout.
-
----
----
-
-## Bottom line
-
-Shortcodes are the DRY layer between "I write posts" and "I maintain a theme." I didn't build many custom ones - Hugoplate shipped the heavy lifting. The few I added paid for themselves the first time an embed format changed.
-
-
-=== __hugo-static-site-generator.md ===
-title: "Hugo Static Site Generator"
-meta_title: "Hugo as a Static Site Generator - Why I Still Use It"
-description: "Hugo turns Markdown into HTML at build time - no database, no PHP surprises. After losing old hosting, it's the engine behind JoRap Notes and most client sites I quote."
-slug: "hugo-static-site-generator"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Hugo", "Static Site Generator", "JAMstack", "Web Development", "JoRap Notes", "Cloudflare Pages", "PKM", "Publishing", "Digital Garden"]
-related_notes:
-  - the-garage-concept
-  - digital-garden
-  - drafting-in-public
-  - sketchpad
-  - free-tier-hosting-stack
-  - selling-static-sites
-featured: false
-draft: true
----
----
-
-## The push that actually made me switch
-
-I'd been on shared PHP hosting for years. Modest monthly bill, split with a client. Client left, I kept paying for what was basically a personal blog. Then the host died and took a chunk of my work with it.
-
-I'd heard about static sites forever. Losing hosting was the shove. Weekend of fumbling, Hugo won, [I wrote the longer migration story](/blog/how-i-built-jorap-notes/) when the dust settled.
-
-The surprise wasn't speed - though pages feel instant. It was **boring infrastructure.** Nothing to patch mid-week except my own typos.
-
----
----
-
-## Content as files in Git
-
-Every post is a Markdown file. Diffable. Revertible. Movable to another host by pointing DNS and pushing the same repo.
-
-When a platform owns your posts, you're renting. When they're in Git, you're holding the deed. I learned that lesson the expensive way once.
-
----
----
-
-## Where Hugo is the wrong answer
-
-I say no out loud for:
-
-- E-commerce you host
-- Member logins and session state
-- Five non-technical editors publishing daily with no training plan
-
-For those, WordPress, Shopify, or a hosted tool wins. [Static vs CMS](/blog/static-site-vs-cms/) is the longer fit check I use with clients.
-
-For a blog, portfolio, brochure site, sermon archive, or docs that change occasionally - Hugo is hard to beat on cost and calm.
-
-
-=== __humanize-ai-articles.md ===
-title: "Make AI Articles More Human"
-meta_title: "Make AI Articles More Human - Perplexity, Burstiness, and Editing"
-description: "AI drafts often sound flat because they're too uniform. Here's the prompt and editing lens I use when I want generated content to read like a person wrote it."
-slug: "humanize-ai-articles"
-date: "2026-06-18T06:07:00Z"
-image: "/images/image-template.jpg"
-categories: ["AI", "Writing", "Tips"]
-author: "JoRap"
-tags: ["AI", "Writing", "Content", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Human Writing", "Editing", "AI Detection", "Content Creation", "Voice and Tone", "PKM", "Note Taking"]
-related_notes:
-  - intellectual-sourcing
-  - the-feynman-technique
-  - evergreen-notes
-  - progressive-layers
-  - commonplace-book
-  - literature-notes
-aliases: ["make-ai-articles-more-human"]
-featured: false
-draft: true
----
----
-
-## Perplexity and burstiness (plain English)
-
-**Perplexity** - how varied and surprising the word choices feel. Higher isn't always better, but flat mid perplexity reads robotic.
-
-**Burstiness** - variation in sentence length and structure. Humans mix short punches with longer winding sentences. Models default to uniform middle-length paragraphs.
-
-When I want a draft that survives a human read, I ask for **both** - explicitly.
-
----
----
-
-## What still needs a human pass
-
-AI can mimic shape. It can't replace **your**:
-
-- Specific stories ("last Tuesday my router died…")
-- Opinions you'll defend
-- Local context (places, prices, culture)
-- Judgment about what's true *today*
-
-My workflow: **AI draft → human edit for specifics → cut 20% → read aloud**
-
-If it sounds like a brochure when spoken, it goes back for another pass.
-
----
----
-
-## When I don't bother humanizing
-
-Internal summaries, first-pass research dumps, outline expansion where I'll rewrite anyway - **good enough is good enough.**
-
-When it ships under my name on JoRap Notes, the bar is higher. That's what editing is for.
-
----
----
-
-## Bottom line
-
-Don't ask AI to sound human in the abstract. Ask for **burstiness and perplexity**, then add the parts only you have - experience, taste, and facts.
-
-The goal isn't to fool readers. It's to **start further down the page** so your editing time goes to substance, not untangling robot rhythm.
-
-
-=== __immune-booster-supplements.md ===
-title: "Personal Immune Booster Supplements"
-meta_title: "Personal Immune Booster Supplements - What's In My Stack"
-description: "Not medical advice - just the immune-support supplements I keep in rotation, what the research-ish case is, and how I actually take them."
-slug: "immune-booster-supplements"
-date: "2026-06-18T06:10:00Z"
-image: "/images/image-template.jpg"
-categories: ["Health", "Wellness", "Tips"]
-author: "JoRap"
-tags: ["Supplements", "Health", "Immune System", "Wellness", "Vitamin C", "Vitamin D", "Zinc", "Daily Routine", "Self Care", "Nutrition", "Preventive Health"]
-related_notes:
-  - recovery
-  - sustainable-performance
-  - energy-protects-judgment
-  - the-second-brain-workflow
-  - building-a-second-brain
-aliases: ["personal-immune-booster-supplements"]
-featured: false
-draft: true
----
----
-
-## Why I bother at all
-
-I travel, I work around kids, I push through stupid deadlines. I can't control every virus in a jeepney. What I can control is **sleep, food, movement, and a modest supplement stack** when baseline habits slip.
-
-Supplements don't replace vaccines, hand washing, or rest. They're **margin**, not magic.
-
----
----
-
-## My "daily" vs "seasonal" split
-
-**Daily baseline (when I'm consistent):**
-
-- Vitamin D3
-- Zinc (moderate)
-- Quercetin
-- Vitamin C from food + modest supplement
-
-**Seasonal / exposure bump:**
-
-- Elderberry
-- NAC when respiratory stuff is circulating
-- Slightly higher vigilance on sleep - honestly the biggest lever
-
----
----
-
-## The boring stuff that works better
-
-- **Sleep** - seven hours beats seven supplements
-- **Water and food** - actual meals, not just gummies
-- **Movement** - walks count
-- **Stress** - cortisol isn't a meme; it matters
-
-
-=== instant-pot-arroz-caldo.md ===
-title: "Instant Pot Arroz Caldo"
-meta_title: "Instant Pot Arroz Caldo - Big-Batch Filipino Congee"
-description: "My arroz caldo now lives in an 8-quart Instant Pot. Bone-in drumsticks, 25 minutes under pressure, and a base you taste before the raw chicken goes in - big batch, about 45 minutes start to bowl."
-slug: "instant-pot-arroz-caldo"
-date: "2026-07-09T06:00:00Z"
-image: "/images/instant-pot-arroz-caldo.jpg"
-categories: ["Food", "Recipes", "Filipino"]
-author: "JoRap"
-tags: ["Arroz Caldo", "Filipino Recipes", "Instant Pot", "Pressure Cooking", "Comfort Food", "Home Cooking", "Chicken Recipes", "Congee", "Rice Porridge", "Filipino Food", "Ginger", "Glutinous Rice", "Malagkit", "Philippines", "Filipino Cuisine", "One-Pot Meals", "Meal Prep"]
-related_notes:
-  - habit-formation
-  - slow-productivity
-  - preparedness
-  - recovery
-featured: false
-draft: false
-
-=== instant-pot-chicken-adobo.md ===
-title: "Instant Pot Chicken Adobo"
-meta_title: "Instant Pot Chicken Adobo - Filipino Comfort Food"
-description: "My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting."
-slug: "instant-pot-chicken-adobo"
-date: "2026-05-03T23:00:00Z"
-image: "/images/Chicken-Adobo.jpg"
-categories: ["Food", "Recipes", "Filipino"]
-author: "JoRap"
-tags: ["Chicken Adobo", "Filipino Recipes", "Instant Pot", "Pressure Cooking", "Comfort Food", "Home Cooking", "Chicken Recipes", "Easy Cooking", "Meal Prep", "Filipino Food", "Adobo", "Weeknight Dinner", "Pressure Cooker", "Soy Sauce", "Garlic", "Vinegar", "Philippines", "Filipino Cuisine"]
-related_notes:
-  - habit-formation
-  - slow-productivity
-  - preparedness
-  - recovery
-featured: false
-draft: false
----
----
-
-## Recipe: Instant Pot Chicken Adobo
-
-### Ingredients
-
-#### Chicken
-
-- 2 kg bone-in, skin-on chicken thighs
-
-#### Marinade
-
-- 160 ml soy sauce, about ⅔ cup
-- 10-11 cloves garlic, crushed
-- 1⅓ tsp whole black peppercorns
-- 4 dried bay leaves
-
-#### Cooking Liquids
-
-- 105-110 ml vinegar  
-    - Practical measure: 7 tbsp or ⅓ cup + 2 tbsp  
-    - If using extra vinegar, add the extra 10 ml vinegar at the end with the sauce for sharper flavor
-- 160 ml water, about ⅔ cup  
-    - Use 120 ml water for a thicker sauce
-
-#### Vinegar Options
-
-- Traditional: cane vinegar
-- Alternative: apple cider vinegar
-
-#### Sweetness Balance, Optional
-
-Choose one:
-
-- 1⅓ tsp brown sugar 
-
-or
-
-- 1⅓-2 tsp allulose
-
-#### Optional Thickener
-
-- ½-⅔ tsp xanthan gum
-
-### Instant Pot Liquid Check
-
-The adjusted liquid base is about 425-430 ml total, or roughly 1.8 cups. This fits common 8-quart Instant Pot guidance of about 1.5 to 2 cups of liquid.
-
-
-=== __jobs-to-be-done-framework.md ===
-title: "Jobs to Be Done Framework"
-meta_title: "Jobs to Be Done - What Job Is Your Product Hired For?"
-description: "Features don't sell products. Jobs do. A plain-language walkthrough of the Jobs to Be Done framework - with the questions I use before building anything."
-slug: "jobs-to-be-done-framework"
-date: "2026-06-18T06:02:00Z"
-image: "/images/image-template.jpg"
-categories: ["Ideas", "Business", "Productivity"]
-author: "JoRap"
-tags: ["Jobs to Be Done", "JTBD", "Product Development", "Framework", "Customer Research", "Innovation", "Product Strategy", "Clayton Christensen", "User Needs", "Problem Solving", "PKM", "Productivity"]
-related_notes:
-  - inbox-zero
-  - information-diet
-  - getting-things-done
-  - attention-economy
-  - deep-work
-  - lean-startup
-featured: false
-draft: true
----
----
-
-## The core idea
-
-People don't buy a drill because they want a drill. They want a hole. (Or a shelf. Or to feel capable around the house.)
-
-A **job** is the progress someone wants in a **specific context**, using whatever solution they can find - including doing nothing, spreadsheets, or your competitor.
-
-&#96;&#96;&#96;
-Customer → has a job to be done
- ↓
-Job context → when and where does it happen?
- ↓
-Product/service → what they hire today
- ↓
-Job outcome → what "done" looks like
-&#96;&#96;&#96;
-
----
----
-
-## Questions I ask before building
-
-Stolen from my notes and sharpened by use:
-
-1. **What is the main task or goal?** - the primary job, in the user's words
-2. **What alternatives exist today?** - including weird workarounds
-3. **What triggers the need?** - the moment they start looking
-4. **What outcomes do they expect?** - success criteria, emotional and functional
-5. **What pain points show up along the way?** - where innovation actually lives
-6. **Which features actually advance the job?** - not shelfware
-7. **How do they measure success?** - the metric that tells them it worked
-
-If you can't answer trigger and outcome, you're not ready to plan what goes on the roadmap.
-
----
----
-
-## JTBD and marketing
-
-Messaging that names the job converts better than spec dumps.
-
-Weak: "Cloud-native static site generator with 0.4s builds."
-
-Stronger: "Publish from Markdown without babysitting a server - push to Git, you're live."
-
-Same product. Different hire.
-
----
----
-
-## Bottom line
-
-JTBD is a discipline: **build and say things that match the progress people already want.**
-
-Next time you're speccing a feature or writing a landing page, ask one question first:
-
-*What job would someone hire this for - and what would they fire instead?*
-
-
-=== __jorap-notes-features.md ===
-title: "What JoRap Notes Actually Does"
-meta_title: "JoRap Notes - Features, Applications, and Principles"
-description: "My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, shareable thoughts, typed links, and copy buttons for AI - all on the same Hugo site."
-slug: "jorap-notes-features"
-date: "2026-07-03T02:00:00Z"
-image: "/images/joraps-world.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Digital Garden", "PKM", "Note Taking", "Hugo", "Wiki", "Flashcards", "Second Brain", "Website Building", "Markdown", "Publishing"]
-related_notes:
-  - digital-garden
-  - getting-started
-  - note-relationships
-  - flashcards
-  - maps-of-content
-  - the-garage-concept
-  - workplace-principles
-featured: false
-draft: true
----
----
-
-## Features at a glance
-
-| Feature | What it does | Apply it when… |
-|--------|--------------|----------------|
-| **Atomic notes** | One claim per page; argument lives in frontmatter | You want a quote you'd actually say in a meeting, not a chapter |
-| **Shareable thoughts** | Four self-contained ideas per note, shown on the page | You need a Slack reply, card pull-quote, or social post without rewriting |
-| **Wikilinks + aliases** | &#96;[[Note Title]]&#96; resolves to the note; aliases catch shorthand | You think in links, not folder trees |
-| **Typed relationships** | &#96;extends&#96;, &#96;contradicts&#96;, &#96;implements&#96;, &#96;alternative&#96; with a one-line reason | Two notes share a word but pull opposite ways - you need the tension visible |
-| **Hub pages (MOCs)** | Curated indexes with prose; Copy hub cluster | One topic sprawled across twenty files and you need a hand-built map |
-| **Graph** | PixiJS network map with link-density filters | You want to spot orphans, over-linked hubs, or missing bridges |
-| **Flashcards + Review** | Scenario cards in frontmatter; spaced repetition in the browser | You want habits loaded when life shows up, not just understood once |
-| **Copy MD / Agent copy** | Raw Hugo source or OKF-resolved markdown per note | You paste one note into an editor or AI session without re-explaining context |
-| **OKF export** | Full garden bundle at &#96;/exports/okf/&#96; | You want an agent or project to know what the garden already claims |
-| **Issues + lint** | Broken links, voice checks, frontmatter shape | You wrote half the garden on a tired Sunday and need it to still work in six months |
-| **Random Duo** | Two random notes plus a connection prompt | You want serendipity without doom-scrolling your own index |
-| **Create Note** | Topic → lint-ready AI prompt for one atomic note | You have a claim in your head and want the right frontmatter shape on the first try |
-| **Blog bridge** | &#96;related_notes&#96; on essays links into the garden | A long post should hand readers the atomic claims behind the story |
-
----
----
-
-## Shareable thoughts
-
-Every note carries four **shareable thoughts** in frontmatter. They render in a grid on the note page - ready-made quotes you can copy without hunting through &#96;key_concept&#96;.
-
-The rules are tight on purpose:
-
-- Exactly four thoughts per note
-- Max 130 characters each
-- Plain text only - no &#96;[[wikilinks]]&#96;
-- Pulled from &#96;description&#96; and &#96;key_concept&#96; only - the claim and its angle, not &#96;examples&#96; or relationship tension
-- All four must be distinct - no duplicate claims or one thought that is a fragment of another
-
-**Application:** Paste into Slack when someone asks for your framing. Drop into a slide without rewriting. Feed a social post. Hand an AI session a quotable summary without the full frontmatter dump.
-
-**Principle:** Ideas you cannot quote are ideas you cannot reuse. Shareable thoughts are the garden's "out loud" layer - what you'd actually say when someone interrupts you mid-coffee.
-
----
----
-
-## Typed relationships, not just "related"
-
-Two notes can mention the same word and mean opposite things. A flat "related notes" list hides that.
-
-Every atomic note carries a &#96;relationships&#96; table in frontmatter with four types:
-
-| Type | What it means |
-|------|----------------|
-| **extends** | This builds on that |
-| **contradicts** | Tension, exception, tradeoff |
-| **implements** | This makes that operational |
-| **alternative** | Different path, similar job |
-
-Each row has a one-line **reason** - telegraphic is fine. "Rollback first; after-action review after calm" beats a paragraph.
-
-Minimum on every atomic note: at least one &#96;extends&#96; and one &#96;contradicts&#96;. That forces me to place the idea in a graph of push and pull, not a pile of definitions.
-
-The [Graph](/notes/graph/) view shows the same links as edges. Filters let you hide noisy nodes, surface orphans, or focus on notes with few body links. It runs in the browser with PixiJS - only loads on the graph page, not on every note.
-
-**Application:** Before you publish a new note, ask "what does this extend?" and "what does this push against?" The reason field is your future self explaining the link in one breath. Use the graph filter when a hub feels bloated or when you suspect duplicate claims.
-
-**Principle:** Ideas live in tension. Naming &#96;contradicts&#96; keeps you honest about tradeoffs instead of pretending every note agrees with every other note.
-
----
----
-
-## Copy buttons (for humans and agents)
-
-Every note page has **Copy MD** in the corner. One click copies the raw Hugo source - frontmatter and all - for pasting into an editor or ChatGPT.
-
-**Agent copy** sits beside it. Same note, but wikilinks resolved to real URLs and formatted for the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) export pipeline. I use this when I want an AI session to know what the garden already claims without re-explaining fifty notes.
-
-Hub pages add **Copy hub cluster** - the hub plus every note it wikilinks to, in one paste.
-
-[OKF Export](/notes/okf-export/) adds **Copy catalog** - the full garden index for seeding a ChatGPT project.
-
-[Issues](/notes/issues/) adds **Copy issues** - a structured link and structure report for a maintenance sprint.
-
-The full garden exports to &#96;/exports/okf/&#96; on every production build. Static viz included. Regenerate locally with &#96;pnpm export:okf&#96;.
-
-**Application:** Copy MD when you are editing in your IDE. Agent copy when you are pair-writing with AI and need resolved links. Copy hub cluster when you are briefing someone on a whole topic lane. Copy catalog when you are onboarding an agent to the entire garden.
-
-**Principle:** Your notes should travel. If copying context takes longer than writing the prompt, you will stop using the garden as source of truth.
-
----
----
-
-## Issues, voice lint, and guardrails
-
-A garden rots when links break and nobody notices.
-
-[/notes/issues/](/notes/issues/) aggregates warnings garden-wide: broken &#96;[[wikilinks]]&#96;, pipe syntax I do not support, note titles mentioned in prose without a link. Warnings also show on the affected note page.
-
-Before deploy, &#96;pnpm lint:garden&#96; checks frontmatter shape, flashcard rules, utility-link violations, shareable thought counts, title length, and voice lint (plain words, no em dashes). &#96;pnpm lint:notes&#96; fails the build on broken wikilinks. Created and updated dates come from the file itself at build time - I do not maintain &#96;lastmod&#96; by hand.
-
-Titles stay short - four words by default, five only when the phrase is long enough to need the extra word (scripture lines, full principles). Descriptions stay under twenty words. Shareable thoughts stay under 130 characters. The linter enforces what my tired Sunday self would skip.
-
-These are not features you brag about at a party. They are why the graph still works six months after I wrote half the notes on a tired Sunday.
-
-**Application:** Run Issues before a big publish batch. Paste Copy issues into an AI session and ask for fix suggestions. Use voice lint when prose starts sounding like a textbook.
-
-**Principle:** Constraints are features. The garden stays usable because broken links and vague titles fail the build instead of silently degrading.
-
----
----
-
-## Principles worth stealing
-
-You do not need my exact Hugo setup to benefit from the pattern. These are the moves that pay off regardless of tool:
-
-1. **One claim per file** - If you need "and" to finish the sentence, split. Compression is a clarity test.
-2. **Links over folders** - Wikilinks and backlinks surface structure you did not plan. Folders hide it.
-3. **Name the tension** - &#96;extends&#96; and &#96;contradicts&#96; beat a flat "related" list. Ideas live in push and pull.
-4. **Quote-ready output** - Description, shareable thoughts, and flashcard backs are three registers of the same claim: define it, share it, apply it.
-5. **Tools are not ideas** - Graph, Review, and Issues are meta pages. Keep garden notes about ideas; link to tools by URL.
-6. **Agents eat structure** - Copy buttons and OKF export only matter if your notes are already shaped consistently. Garbage in, garbage out - but shaped garbage travels.
-7. **Lint what you will not notice** - Broken links and vague titles rot quietly. Automate the boring checks so the garden survives your tired Sundays.
-8. **Public subset, private garage** - Not everything belongs in the garden. [The Garage Concept](/notes/the-garage-concept/) stays draft or offline; the subset you are willing to grow in public lands here.
-9. **Same ethics, different rooms** - Hub pages like Workplace Principles let one body of thought meet different audiences without duplicating the whole graph.
-10. **Serendipity on purpose** - Random Duo and featured notes resurface ideas you wrote and forgot. The garden should surprise you, not just store you.
-
----
----
-
-## Where to start
-
-- Walk the garden: [/notes/](/notes/)
-- Read the rules: [Getting Started](/notes/getting-started/)
-- Browse by hub: [Maps of Content](/notes/maps-of-content/)
-- Office-friendly ethics lane: [Workplace Principles](/notes/workplace-principles/)
-- Pick a random pair: [Random Duo](/notes/random-duo/)
-- Hosting and deploy: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/)
-
-
-=== __kewpie-mayo.md ===
-title: "Kewpie Mayo"
-meta_title: "Kewpie Mayo - Why This Japanese Mayo Earned a Permanent Spot"
-description: "Kewpie isn't just yellow mayo in a squeeze bottle. Here's what makes it different, how we use it, and whether it's worth the shelf space."
-slug: "kewpie-mayo"
-date: "2026-06-18T05:06:00Z"
-image: "/images/image-template.jpg"
-categories: ["Food", "Pantry", "Reviews"]
-author: "JoRap"
-tags: ["Kewpie", "Mayonnaise", "Japanese Food", "Pantry Staples", "Cooking", "Condiments", "Salad Dressing", "Asian Cuisine", "Ingredient Review", "Umami"]
-related_notes:
-  - slow-productivity
-  - attention-to-detail
-featured: false
-draft: true
----
----
-
-## What's actually different
-
-Western mayo is often whole eggs + neutral oil + vinegar. **Kewpie uses egg yolks** and a mix of vinegar and MSG (yes, really) that pushes savory harder.
-
-The texture is **creamier and looser** - squeezes out of the soft bottle in ribbons, coats evenly, doesn't fight the bread.
-
-There's a version with and without MSG depending on region and label. Both are good. Read the bottle if that matters to your household.
-
----
----
-
-## The squeeze bottle is part of the point
-
-The soft bottle with the narrow tip isn't cute for cute's sake. You can **draw lines, mix precisely, and store upside down** without the classic jar-mayo spoon archaeology.
-
-Keep the cap clean or it'll cement shut. Ask me how I know.
-
----
----
-
-## Worth it?
-
-If you only mayo twice a year at picnics, probably not. If you make sandwiches, bowls, and home sushi regularly, **one bottle changes the baseline**.
-
-I still keep regular mayo for recipes that expect neutral flavor. Kewpie is the one I reach for when I want the mayo to actually taste like something.
-
-
-=== __markdown-deep-dive.md ===
-title: "Markdown Deep Dive"
-meta_title: "Markdown Deep Dive - The Plain-Text Layer Under Everything"
-description: "Markdown is the format behind JoRap, Hugo, GitHub, and my notes. Here's what I actually use beyond bold and bullets - and where flavors diverge."
-slug: "markdown-deep-dive"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Markdown", "Hugo", "Writing", "PKM", "Documentation", "Plain Text", "Note Taking"]
-related_notes:
-  - future-proofing-knowledge
-  - evergreen-notes
-  - metadata-strategy
-  - commonplace-book
-  - intellectual-sourcing
-  - the-feynman-technique
-featured: false
-draft: true
----
----
-
-## The 90% I actually use
-
-Headings, paragraphs, bold, italic, links, images, ordered and unordered lists, blockquotes, horizontal rules, fenced code blocks.
-
-That's almost every blog post on this site. The [Drupal to WordPress](/blog/drupal-to-wordpress/) essay is thousands of words and never needed more than that core set.
-
-Fancy extensions are seasoning. Master the pot first.
-
----
----
-title: "Post title"
-description: "One breath summary"
-date: 2026-07-12T05:00:00Z
-draft: false
----
----
-
-## Flavors differ - know your renderer
-
-| Feature | Hugo / GitHub | Obsidian |
-|---|---|---|
-| Tables | Yes | Yes |
-| &#96;[[wikilinks]]&#96; | No (without plugins) | Yes |
-| Shortcodes | Hugo only | N/A |
-| Raw HTML | Often allowed | Varies |
-
-I draft blog posts in the same editor as notes, but I **don't** paste Obsidian wikilinks into Hugo content. They won't resolve. Use &#96;relref&#96; or plain paths.
-
-Same words, different dialects. Like PHP and WordPress - related, not identical.
-
----
----
-
-## Bottom line
-
-Markdown deep dive, for me, meant mastering the boring basics and code fences. Everything else is optional.
-
-
-=== __markdown-formatting.md ===
-title: "Markdown Formatting"
-meta_title: "Markdown Formatting - How I Make Posts Scannable"
-description: "Markdown is structure without a WYSIWYG. Same habits in Hugo posts and private notes: short paragraphs, real headings, lists when they earn it."
-slug: "markdown-formatting"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Markdown", "Formatting", "Readability", "Writing", "Hugo", "Note Taking", "PKM"]
-related_notes:
-  - evergreen-notes
-  - future-proofing-knowledge
-  - commonplace-book
-  - intellectual-sourcing
-  - the-feynman-technique
-  - drafting-in-public
-featured: false
-draft: true
----
----
-
-## What I fixed after rereading my own drafts
-
-Early posts had 200-word paragraphs because I wrote like a college essay. On a phone that's one screen of gray.
-
-Now I aim for **three to five lines per paragraph** on the web. One idea, hit Enter. If I'm explaining two things, that's two paragraphs or a list.
-
-The [extension cord post](/blog/extension-cord/) is a good example: short sections, one bold takeaway per block, horizontal rules between major beats. Easy to skim on a phone in a hotel room - which is exactly when you'd need that post.
-
----
----
-
-## Lists vs tables vs prose
-
-**Lists** for checklists, gear picks, steps with parallel structure.
-
-**Tables** for comparisons that need columns - remote work bag, quote line items. I keep them narrow; wide tables break on mobile.
-
-**Prose** for arguments, stories, opinions. Not everything should be bullets. The Marvel Snap post is mostly prose because the point is a take, not a checklist.
-
----
----
-
-## Bottom line
-
-Markdown formatting is UX. **Format while you write**, not in a panic before publish.
-
-
-=== __mcgill-big-three.md ===
-title: "Stuart McGill's Big Three Low Back Exercises"
-meta_title: "McGill's Big Three - Curl-Up, Side Plank, Bird Dog"
-description: "Dr. Stuart McGill's 'Big Three' core exercises target low back stability without cranking on your spine. Here's the routine I keep bookmarked for maintenance days."
-slug: "mcgill-big-three"
-date: "2026-06-18T06:09:00Z"
-image: "/images/image-template.jpg"
-categories: ["Health", "Fitness", "Tips"]
-author: "JoRap"
-tags: ["Stuart McGill", "Low Back", "Core", "Exercise", "Health", "Back Pain", "Bird Dog", "Side Plank", "Curl-Up", "Spine Health", "Physical Therapy", "Core Stability"]
-related_notes:
-  - recovery
-  - sustainable-performance
-  - energy-protects-judgment
-  - building-a-second-brain
-aliases: ["stuart-mcgill-big-three-low-back-exercises"]
-featured: false
-draft: true
----
----
-
-## Why McGill's approach is different
-
-A lot of "core work" is flexion-heavy - crunches, sit-ups, endless curling your spine under load. McGill focuses on **bracing and endurance** - teaching your trunk to stabilize without grinding the lower back.
-
-The Big Three builds capacity in neutral-ish positions you actually live in.
-
----
----
-
-## 2. Side plank
-
-**Goal:** Lateral core and hip stability.
-
-- Forearm on floor, body in a straight line
-- Start knees down if full plank is too much
-- Hold quality over ego duration - **10-20 seconds** done well beats a saggy minute
-
-Switch sides. Keep hips forward, neck neutral.
-
-Reference: [Side plank demo](https://www.youtube.com/watch?v=VAPN4CmUWqk)
-
----
----
-
-## How I program it
-
-Simple circuit, 2-3 rounds:
-
-| Exercise | Reps / time |
-|---|---|
-| Curl-up | 5-8 per side |
-| Side plank | 10-20 sec each side |
-| Bird dog | 6-8 each side |
-
-**Frequency:** 3-4× week on light days, or daily micro-sessions if I'm desk-bound.
-
-**Breathing:** Don't hold your breath like you're deadlifting a car.
-
----
----
-
-## Bottom line
-
-Low back care doesn't have to mean fancy equipment. **Curl-up, side plank, bird dog** - done consistently, with form over heroics.
-
-Bookmark the demos, run the circuit, go sit down again with a slightly more honest spine.
-
-
-=== __mi-box-s.md ===
-title: "Mi Box S"
-meta_title: "Mi Box S - A Cheap Android TV Box Worth Talking About"
-description: "The Xiaomi Mi Box S isn't flashy, but it's been a solid streaming box under our TV. Here's what it does well, where it struggles, and who should bother."
-slug: "mi-box-s"
-date: "2026-06-18T05:02:00Z"
-image: "/images/image-template.jpg"
-categories: ["Technology", "Gear", "Reviews"]
-author: "JoRap"
-tags: ["Mi Box S", "Android TV", "Streaming", "Xiaomi", "Gear", "Set-Top Box", "Google TV", "Netflix", "Home Entertainment", "4K Streaming", "Chromecast Alternative"]
-related_notes:
-  - digital-minimalism
-  - attention-economy
-  - information-diet
-featured: false
-draft: true
----
----
-
-## What it is, in plain terms
-
-It's a **streaming box running Android TV**. You get YouTube, Netflix, Spotify, Disney+, whatever your region supports - through the Play Store or preloaded apps. Remote included. Power brick included. Plug in HDMI, connect wifi, sign into accounts, done.
-
-The pitch is simple: **better software than most built-in TV smarts**, for less than a fancy dinner.
-
----
----
-
-## Where it shows its budget
-
-It's not a gaming console. It's not a Plex powerhouse. Heavy local media libraries or demanding apps can stutter depending on your files and network.
-
-**Storage is tight.** Install a few big apps and you'll feel it. I keep mine lean - streaming apps only, nothing exotic.
-
-**Updates depend on Xiaomi caring about the model.** Budget boxes can get abandoned. I don't buy these expecting a decade of support; I buy them expecting a few good years of streaming.
-
-And if your wifi is weak at the TV, no box saves you. Ethernet adapters exist for some setups, but plan your network first.
-
----
----
-
-## How I set mine up
-
-Keep the app list short. Pin the four things we actually watch. Disable whatever promotional row the launcher pushes. Connect to 5 GHz wifi if the TV area gets a decent signal. Put the remote batteries in the drawer with extras - those slide-back remotes eat AAA's at the worst time.
-
-If the TV has multiple HDMI inputs, **label the input "Mi Box"** so nobody has to play port roulette.
-
-
-=== miracle-isaiah-david.md ===
-title: "The Miracle of Isaiah David"
-meta_title: "The Miracle of Isaiah David - We Found Out She Was Pregnant and Gave Birth on the Same Day"
-description: "On May 8, 2020, Pia and I found out she was pregnant - and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded."
-slug: "miracle-isaiah-david"
-date: "2023-05-08T05:00:00Z"
-image: "/images/feature-isaiah-david.jpg"
-categories: ["Faith", "Family", "Testimony"]
-author: "JoRap"
-tags: ["Isaiah David", "Miracle Story", "700 Club Asia", "GMA News", "24 Oras", "DZMM Teleradyo", "Facebook", "YouTube", "Parenthood", "Pregnancy", "Faith Story", "Pandemic Story", "Hidden Pregnancy", "ECQ", "Filipino Family", "Birth Story", "COVID-19", "Miracle", "Philippines", "Christian Testimony"]
-related_notes:
-  - childlike-faith
-  - free-grace
-  - dont-worry
-featured: false
-draft: false
----
----
-
-## The Facebook post that started it all
-
-A few days after Isaiah was born, while still trying to process everything, I sat down and wrote it all out on Facebook. I just wanted our friends and family to know what happened, in our own words, before the news traveled too far.
-
-{{&lt; image src="images/fb-post-isaiah-david.jpg" caption="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" alt="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" height="" width="" position="center" command="fill" option="q75" class="img-fluid" title="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" webp="true" &gt;}}
-
-[Original Facebook post](https://www.facebook.com/story.php?story_fbid=10157266063333161&amp;id=567318160&amp;rdid=8BPSwIPMx743NK8z)
-
-&gt; Pia and I are so thankful for your prayers and support for Team Rapusas in this season of COVID-19 and ECQ. Our story has overwhelmed many of you with varying degrees of reactions - from a speechless jaw-drop emoji to a ridiculous joke.
-&gt;
-&gt; I'll take time to write the key phases of this amazing story, but for now here's a summary of what happened when Pia and I found out she was pregnant and gave birth to Isaiah David on the same day. We can truly say that God is a God of miracles.
-&gt;
-&gt; - On May 6, Pia experienced abdominal pain at home, which she thought was an extreme case of dysmenorrhea.
-&gt; - That evening we had a doctor's consultation via chat, and only managed to pick up the prescription the next day due to ECQ restrictions.
-&gt; - On the morning of May 8, Pia wasn't getting better. She took a home pregnancy kit twice - both positive. We told our families, joking that we got pregnant during ECQ.
-&gt; - The pain didn't ease up, so we went to the ER hoping an OB-Gyne could tell us our next steps.
-&gt; - Pia's first consultation in the OB-Gyne ward caused a commotion. The head of the department gave us only two options: give birth right now in this hospital, or transfer to another one.
-&gt; - Isaiah David was born at 4:46 PM via C-section.
-&gt; - The doctors told me the baby was full-term (38 weeks), 3.2 kilograms, with an APGAR score of 9.
-&gt; - I noticed they hadn't mentioned the baby's gender, so I asked. A doctor checked and said "girl." I announced to our family that we had a daughter.
-&gt; - When Pia got to the room, she said the baby was a boy. The doctors confirmed it. I had to message the family again.
-&gt;
-&gt; This is still a developing story, and I hope to share more along the way.
-
-I went from "Pia might be pregnant" to "we have a son named Isaiah David" in about eight hours. I also briefly thought we had a daughter, which adds a layer of comedy that only became funny months later.
-
----
----
-
-### 24 Oras
-
-**The first mention - June 1, 2020**
-
-{{&lt; youtube_time id="Oq27o4Y9hxE" start="0" end="90"&gt;}}
-
-Seeing our names in the 24 Oras headlines was surreal. There we were, sandwiched between the ABS-CBN franchise news and an update about Hyun Bin. They didn't end up airing the full story that night, but just being in the lineup was enough to make me put the phone down for a minute.
-
-**The full feature**
-
-{{&lt; youtube TkDRQJYvsks &gt;}}
-
-When 24 Oras finally aired our full story, it took off. The YouTube version crossed two million views. Reading the comments was the strange part - people writing about how the story gave them hope in the middle of one of the hardest years any of us had lived through.
-
----
----
-
-### DZMM Teleradyo
-
-{{&lt; youtube_time id="iZBZGd8V604" start="3865" end="4925"&gt;}}
-
-Winnie Cordero from *Winner sa Life* reached out for our first radio interview. Radio is its own thing - no camera, no edit, just a microphone and the knowledge that someone out there is hearing you while they're cooking, commuting, or doing laundry. There's a closeness to it that TV doesn't quite have.
-
----
----
-
-## Other places that wrote about it
-
-| Publication | Article |
-| :-------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GMA News Online | [The Miracle on May 8](https://www.gmanetwork.com/news/specials/content/155/the-miracle-on-may-8/) |
-| Smart Parenting | [Cryptic Pregnancy: Rapusas Family Story](https://www.smartparenting.com.ph/pregnancy/labor-and-childbirth/cryptic-pregnancy-rapusas-family-a00228-20200605-lfrm) |
-
-
-=== mouse-wheel-click.md ===
-title: "The Mouse Wheel Click: One Button, Three Operating Systems"
-meta_title: "The Mouse Wheel Click: Cross-Platform Power Move on Windows, Mac, and Linux"
-description: "Most people right-click every link to open it in a new tab. There's a faster button right under their finger - same gesture on Windows, Mac, and Linux - and almost nobody uses it."
-slug: "mouse-wheel-click"
-date: "2026-05-28T05:00:00Z"
-image: "/images/feature-mouse-wheel-click.jpg"
-categories: ["Technology", "Productivity", "Tips"]
-author: "JoRap"
-tags: ["Mouse", "Mouse Wheel Click", "Keyboard Shortcuts", "Browser Tips", "Windows", "macOS", "Linux", "Cross-Platform", "Workflow", "Middle Click", "Browser Workflow", "Productivity Hack", "Mouse Tips", "Tab Management", "PKM", "Second Brain", "Productivity"]
-related_notes:
-  - context-aware-capture
-  - the-second-brain-workflow
-  - commonplace-book
-  - crdt
-  - inbox-zero
-  - information-diet
-aliases: ["power-of-the-mouse-wheel-click"]
-featured: false
-draft: false
----
----
-
-## Where the mouse wheel click is
-
-If your mouse has a scroll wheel, push the wheel straight down until it clicks. That's it - the wheel itself is the button. Most modern mice - Logitech, Microsoft, Razer, the no-name one in your drawer - have it. macOS, Windows, and Linux all recognize it without any setup.
-
-That's the only setup involved. The rest is just habits worth building.
-
----
----
-
-## In code editors
-
-The browser stuff is the headline act, but the same gesture saves time in the tools developers live in.
-
-- **VS Code:** mouse wheel click a tab to close it.
-- **JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.):** mouse wheel click closes tabs.
-- **Sublime Text:** mouse wheel click closes tabs.
-
-Same gesture, same result, same on every OS those editors run on.
-
----
----
-
-## Why this is worth the muscle memory
-
-Look, none of this is revolutionary on its own. Each individual mouse wheel click saves maybe one second versus the right-click menu.
-
-But you do this hundreds of times a day. Compounded across a year of browsing, researching, coding, and reading, it adds up to hours. More importantly, it removes a tiny bit of friction from the parts of computing that are *supposed* to be fast - opening links, closing tabs, jumping around. The friction is what makes browsing feel sluggish even on a fast machine.
-
-It's also one of those rare workflow upgrades that costs you nothing. No app to buy, no setting to flip, no platform-specific quirks. The same gesture, the same outcome, on every operating system you'll probably ever use.
-
-If you take one thing away from this post: next time you're about to right-click a link to open it in a new tab - don't. Press the wheel. Then do it again. By the third or fourth time you won't even think about it, and the right-click menu will start to feel slow.
-
-
-=== __native-hugo-taxonomies.md ===
-title: "Native Hugo Taxonomies"
-meta_title: "Native Hugo Taxonomies - Categories, Tags, and What I Don't Let Grow Wild"
-description: "Hugo builds category and tag pages from frontmatter - no plugin. I use them for site navigation, not as a private Second Brain."
-slug: "native-hugo-taxonomies"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Hugo", "Taxonomies", "Tags", "Categories", "SEO", "Content Management", "PKM", "Note Taking"]
-related_notes:
-  - metadata-strategy
-  - commonplace-book
-  - future-proofing-knowledge
-  - literature-notes
-  - evergreen-vs-fleeting-notes
-  - note-relationships
-featured: false
-draft: true
----
----
-
-## The discipline problem (not the Hugo problem)
-
-Hugo will happily build a tag page for every string you type. I've seen my own drafts with twenty tags copied from an old SEO habit. Each one spawns a thin archive page. Most of them useless.
-
-Categories: I try to keep it under a dozen readers can scan.
-
-Tags: useful for recurring topics, embarrassing when every post invents a new synonym.
-
-**Review the tag list before publish** the same way you'd review a messy folder tree. Hugo won't stop you. Future you will sigh.
-
----
----
-
-## Custom taxonomies (when native fits the URL)
-
-You can add &#96;series&#96;, &#96;authors&#96;, whatever in &#96;hugo.toml&#96;:
-
-&#96;&#96;&#96;toml
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
-&#96;&#96;&#96;
-
-I haven't needed a custom taxonomy on JoRap yet. Hugoplate already ships multi-author support. If I ran a serialized tutorial, &#96;series&#96; would be the obvious add.
-
----
----
-
-## Bottom line
-
-Native Hugo taxonomies organize the **public** site. My private wiki can be messier - wikilinks, backlinks, whatever.
-
-Published taxonomy should be intentional. Hugo makes grouping free. Curation is still work.
-
-
-=== __obsidian-vs-hugo.md ===
-title: "Obsidian vs Hugo"
-meta_title: "Obsidian vs Hugo - Private Wiki vs Public Site"
-description: "Obsidian is my thinking gym; Hugo is the storefront. I use both - different jobs, linked by Markdown."
-slug: "obsidian-vs-hugo"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Obsidian", "Hugo", "PKM", "Publishing", "Markdown", "Workflow", "Digital Garden", "Note Taking"]
-related_notes:
-  - the-garage-concept
-  - drafting-in-public
-  - future-proofing-knowledge
-  - digital-garden
-  - note-relationships
-  - commonplace-book
-featured: false
-draft: true
----
----
-
-## Private richness, public polish
-
-Explode wikilinks in vault; **clean URLs and nav on site.** Export or copy distilled posts.
-
----
----
-
-## Don't duplicate maintenance
-
-Pick primary capture. **Publish pipeline should be one direction** - vault → site, not two masters.
-
-
-=== one-page-zine.md ===
-title: "One Sheet, Eight Pages: Why I Use a 1-Page Zine for Rules Booklets"
-meta_title: "1-Page Zine for Board Game Rules and Quick Booklets"
-description: "One sheet of paper, folded into an eight-page booklet. I use it for board game rules, quick guides, and anything that needs to fit in a pocket or a game box without a print budget."
-slug: "one-page-zine"
-date: "2026-07-13T14:15:00Z"
-image: "/images/one-page-zine.jpg"
-categories: ["Games", "Tutorial", "Design"]
-author: "JoRap"
-tags: ["Zine", "Board Games", "Print Design", "Rules Booklet", "DIY", "Game Design", "Papercraft", "Quick Reference", "Print and Play", "Tutorial"]
-related_notes:
-  - minimum-viable-product
-  - practice-small-experiments
-  - minimum-effective-dose
-  - signal-vs-noise
-  - ship-it
-featured: false
-draft: false
----
----
-
-## What you actually get
-
-Start with one **letter-size** sheet (8.5 × 11 in). Fold and cut it the classic zine way, and you end up with **eight faces** - front cover, back cover, and six inside pages.
-
-I stick with letter because that is what my printer expects and what most zine templates in the US are built for. A4 works with the same fold, but I would rather not rescale layouts every time.
-
-For board game rules, I lay everything out in **landscape** - each panel is wider than it is tall. Rules read better that way at this size: turn order across the page, action rows side by side, room for a small diagram without shrinking the type.
-
-{{&lt; image src="images/one-page-zine-layout.jpg" caption="Unfolded layout for a chess rules zine at 60 × 85 mm — eight panels on one letter-size sheet." alt="Eight-panel one-page zine template for chess rules in landscape layout" height="709" width="1000" position="center" command="fit" option="q90" class="img-fluid" title="60 × 85 mm one-page zine layout" webp="true" zoomable="true" &gt;}}
-
-Eight pages is the sweet spot. I split them like this:
-
-- **Front cover** - title plus the rules you need every turn (win condition, turn summary)
-- **Back cover** - quick reference (action list, scoring reminder, icon key)
-- **Inside pages** - full teach: setup, each action explained, examples, edge cases
-
-The cover faces do the heavy lifting. Most of the time you do not need to open the booklet at all.
-
----
----
-
-## Other places I would use it
-
-Once you have the fold in your head, the format shows up everywhere:
-
-**Workshop handouts.** One topic, eight pages, fits in a folder. Cheaper than a bound workbook for a two-hour session.
-
-**Quick-start guides.** New tool at work, new appliance at home, volunteer onboarding. Cover plus six steps plus troubleshooting fits fine.
-
-**Event programs.** Community meetup, small church gathering, game night at a cafe. Schedule, map, house rules, contact info. Print a stack, leave them on the sign-in table.
-
-**Recipe collections.** Not a full cookbook - one meal, variations, shopping list on the back.
-
-**Kids' activities.** Story prompts, scavenger hunt clues, origami instructions. One sheet per kid, no collation nightmare.
-
-**Leave-behinds.** Portfolio piece, service menu, "here is what we talked about" after a client call. Professional enough to hand someone, casual enough that nobody feels guilty tossing it later.
-
-The pattern is always the same: **bounded information, pocket-sized, one print job.**
-
----
----
-
-## How I lay one out
-
-1. **Measure the game's cards.** Poker-size, tarot-size, custom - whatever the deck actually is. That number is your target, not letter paper. Buy sleeves for the rulebook in the **same size** as the card sleeves.
-2. **Set the folded booklet slightly smaller** than the card (I trim a few millimeters off each edge). Landscape layout, landscape finished size. The booklet should drop into a matching sleeve without fighting the fold.
-3. **Write the rules in plain text first.** Get the words right before you worry about panels.
-4. **Drop text into a letter-size 8-page zine template in landscape** (search "8 page zine template letter landscape PDF"). Design in spreads - page 1 is the front cover, page 8 is the back. Scale or trim the sheet so the folded size hits your target. InDesign, Canva, or even a Google Doc with a grid works.
-5. **Print a test copy on cheap paper.** Fold it. Slide it into a sleeve that matches the game's cards. If it catches, trim a hair more.
-6. **Print the final on slightly heavier stock** if you have it. 80-100 gsm feels less flimsy than standard copy paper. Not required for a prototype.
-
-For game rules specifically, I treat the **cover and back cover as the in-play reference** - win condition, turn order, action names, scoring. That is what you see when the rulebook sits in its sleeve beside the deck. **Setup and the full teach live inside** - open it once at the table, then close it and leave it there.
-
-
-=== __password-managers.md ===
-title: "Password Managers"
-meta_title: "Why I Use Bitwarden (and a Password Manager at All)"
-description: "Reused passwords are a bigger risk than most malware. Here's why I use a password manager, what I looked for, and why Bitwarden keeps winning for me."
-slug: "password-managers"
-date: "2026-06-18T06:08:00Z"
-image: "/images/image-template.jpg"
-categories: ["Technology", "Security", "Tips"]
-author: "JoRap"
-tags: ["Password Manager", "Bitwarden", "Security", "Privacy", "Two-Factor Authentication", "Credentials", "Online Safety", "Data Breach", "Passkeys", "Cybersecurity", "PKM", "Note Taking"]
-related_notes:
-  - local-first-software
-  - commonplace-book
-  - literature-notes
-  - evergreen-vs-fleeting-notes
-  - note-relationships
-  - analog-capture-tools
-featured: false
-draft: true
----
----
-
-## What a password manager does
-
-- Stores logins in an **encrypted vault**
-- Generates long random passwords per site
-- Autofills on desktop and phone
-- Syncs across devices (if you want cloud sync)
-
-You remember **one strong master password** (plus 2FA on the vault itself). The manager remembers the rest.
-
----
----
-
-## Why Bitwarden
-
-**Bitwarden** is what I use and what I put on family phones. Open source, reasonable free tier, paid family plan if you need it, works everywhere I care about.
-
-Alternatives people swear by:
-
-- **KeePass / KeeWeb** - local-first, more DIY
-- **1Password** - polished, paid
-- **LastPass** - I don't recommend starting here post-breach history; check current reviews if you're comparing
-
-Lists I referenced when choosing:
-
-- [Open source password managers](https://fosspost.org/open-source-password-managers/)
-- [Best password managers for Chrome](https://www.safetydetectives.com/best-password-managers/chrome/)
-- [Best free password managers](https://www.safetydetectives.com/blog/the-best-free-password-managers/)
-
----
----
-
-## Objections I hear
-
-**"What if they get hacked?"** Vaults are encrypted client-side; master password matters. Still: 2FA, strong master, keep software updated.
-
-**"Too much setup."** One afternoon. Cheaper than one account takeover.
-
-**"I trust my browser."** Browser save is better than &#96;password123&#96;. It's not cross-device, shared-login, or audit friendly like a real manager.
-
-
-=== __rechargeable-batteries.md ===
-title: "Rechargeable Batteries"
-meta_title: "Rechargeable Batteries - Stop Buying AAs Every Month"
-description: "Switching to rechargeable AA and AAA batteries cut our disposable pile and paid for itself faster than I expected. Here's the setup that actually stuck."
-slug: "rechargeable-batteries"
-date: "2026-06-18T05:03:00Z"
-image: "/images/image-template.jpg"
-categories: ["Gear", "Home", "Reviews"]
-author: "JoRap"
-tags: ["Batteries", "Rechargeable", "Everyday Carry", "Gear", "AA Batteries", "AAA Batteries", "Eneloop", "Sustainability", "Battery Charger", "Home Essentials"]
-related_notes:
-  - reliability
-featured: false
-draft: true
----
----
-
-## Why I switched
-
-**Cost.** A good charger and a set of AAs pays for itself if you burn through remotes, kids' toys, flashlights, and wireless peripherals.
-
-**Waste.** Less packaging, less trash, less guilt every time a toy screams for batteries at 9 PM.
-
-**Performance is finally good enough.** Modern NiMH rechargeables (especially low-self-discharge types like Eneloop) hold charge for months and handle the loads most household stuff needs.
-
----
----
-
-## Where rechargeables shine
-
-| Device | Rechargeable? |
-|---|---|
-| TV remotes | Yes |
-| Game controllers | Yes |
-| Wireless keyboard/mouse | Yes |
-| Flashlights we use often | Yes |
-| Kids' toys (moderate drain) | Usually yes |
-| Smoke alarms | **No** - use long-life disposables |
-| Emergency-only gear | **No** - reliability over convenience |
-
-Smoke detectors and true emergency flashlights stay on alkalines in our house. The rest migrated.
-
----
----
-
-## What I don't bother with
-
-9V rechargeables for rarely used gear. Coin cells. Specialty camera batteries - different conversation entirely.
-
-And I don't chase the absolute highest capacity numbers on the label. Consistent performance and low self-discharge beat bragging rights.
-
-
-=== __remote-work-checklist.md ===
-title: "Remote Work Checklist"
-meta_title: "Remote Work Checklist - What I Pack for a Productive Day Away"
-description: "Remote work fails in small ways - dead battery, bad angle, forgotten mouse. Here's the checklist I run before leaving the house with the laptop bag."
-slug: "remote-work-checklist"
-date: "2026-06-18T06:04:00Z"
-image: "/images/image-template.jpg"
-categories: ["Productivity", "Technology", "Tips"]
-author: "JoRap"
-tags: ["Remote Work", "Checklist", "Home Office", "Gear", "Laptop Bag", "Ergonomic Setup", "Work From Home", "Mobile Office", "Productivity", "Travel Setup", "PKM"]
-related_notes:
-  - inbox-zero
-  - information-diet
-  - getting-things-done
-  - weekly-review-checklists
-  - attention-economy
-  - deep-work
-featured: false
-draft: true
----
----
-
-## The checklist
-
-| Item | Why it matters |
-|---|---|
-| **Laptop** | Obvious until it isn't on the table |
-| **Laptop power cord** | The most forgotten item in history |
-| **Keyboard** | Laptop keyboards are fine until you type all day |
-| **Mouse** | Trackpads and long spreadsheets are enemies |
-| **Laptop stand** | Screen at eye height saves your neck |
-| **Mat** | Mouse surface when the table is glossy or tiny |
-| **Extension cord** | Outlets are always on the wrong wall |
-| **USB fan** | Hot rooms, long sessions, quiet sanity |
-
----
----
-
-## What I add for longer trips
-
-- **Second phone** or backup battery if calls matter
-- **Headset / earphones** with a mic that won't embarrass you on Meet
-- **HDMI adapter** if presenting on a TV
-- **Paper notebook** - when the wifi dies, the meeting might not
-
----
----
-
-## What stays at home
-
-Full-size monitor, desk chair, printer - the **home anchor**. Remote days are for portable adequacy, not duplicating the whole office.
-
-
-=== __second-cellphone.md ===
-title: "2nd Cellphone"
-meta_title: "Why I Keep a Second Cellphone"
-description: "A second phone sounds excessive until you need one. I keep a backup handset for travel, work boundaries, and the morning I couldn't find my main phone before a swim."
-slug: "second-cellphone"
-date: "2026-06-18T05:07:00Z"
-image: "/images/image-template.jpg"
-categories: ["Technology", "Gear", "Tips"]
-author: "JoRap"
-tags: ["Cellphone", "Backup Phone", "Travel", "Gear", "Dual SIM", "Emergency Phone", "Work Phone", "Mobile Device", "Phone Backup", "Travel Essentials"]
-related_notes:
-  - preparedness
-  - reliability
-  - mobile-capture-workflows
-featured: false
-draft: true
----
----
-
-## The jobs a second phone does
-
-**Emergency backup.** When the primary dies, gets lost, or needs a week in repair, life doesn't pause. OTPs, maps, messaging, payments - modern life assumes you have a screen in your pocket.
-
-**Travel phone.** Some people load a local SIM in a cheap Android and leave the main phone on wifi-only abroad. Less risk if it gets stolen. Less panic if it gets cracked on a tour bus.
-
-**Work / personal split.** Not everyone wants work Slack on the same device as family photos. A second phone can be the "work SIM only" box that stays in the bag after hours.
-
-**Kid / elderly parent hand-me-down.** A wiped older phone with a fresh battery is a controlled first device without handing over your daily driver.
-
----
----
-
-## The setup that actually works
-
-**Log in once, test twice a year.** Backup phone that's never powered on is a brick when you need it. I turn mine on, run updates, confirm OTP apps still work, power it down.
-
-**Keep a charging cable with it.** The wrong USB-C vs Lightning vs micro-USB hunt at midnight is its own disaster.
-
-**Know your SIM options.** Some carriers make swapping SIMs easy. Others want a store visit. eSIM profiles can help if your provider supports them.
-
-**Don't clone your entire digital life.** Install what you'd need in an emergency: messaging, maps, banking, authenticator. Not every game and social app.
-
----
----
-
-## Bottom line
-
-A second cellphone isn't about having more gadgets. It's about **not being stranded** when the one gadget you actually depend on fails.
-
-Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than having it charged, updated, and ready in a drawer before you need it.
-
-
-=== __selling-static-sites.md ===
-title: "How I Quote Client Websites"
-meta_title: "How I Quote Client Websites - Clear Line Items, No Mystery Fees"
-description: "I break quotes into pieces you can read - discovery, build, migration, pass-off, hosting. No bundled fog, no invoice that mixes labor with server rent you can't audit."
-slug: "selling-static-sites"
-date: "2026-07-02T05:00:00Z"
-image: "/images/website.jpg"
-categories: ["Website", "Business", "Tips"]
-author: "JoRap"
-tags: ["Website Building", "Freelance", "Static Site Generator", "Hugo", "Cloudflare Pages", "GitHub", "Client Work", "Pricing", "Business", "Web Hosting"]
-related_notes:
-  - selling-static-sites
-  - static-site-client-scope
-  - client-site-pass-off
-  - plain-commitments-at-work
-  - success-is-stewardship
-featured: false
-draft: true
----
----
-
-## What I actually charge for
-
-Every quote breaks into pieces the client can see:
-
-**Discovery and scope.** Before I touch a theme, I run a short fit check: who updates content, how often, anything behind login, anything that needs a live database. If the job is a bad fit for a static stack, I say so in the room - not after they paid a deposit. That conversation is billable or folded into the build, but it always happens first.
-
-**Repo and deploy setup.** New GitHub repo, Cloudflare Pages project, &#96;HUGO_VERSION&#96; and &#96;NODE_VERSION&#96; pinned in the build settings. Sounds boring. It is boring. It's also the difference between "push and live in ninety seconds" and "why is the build failing again."
-
-**Theme and layout.** The visual shell, navigation, mobile behavior, contact form wiring, whatever the site actually needs to look credible.
-
-**Content migration.** Moving copy, images, and old pages from whatever they had before - Facebook-only presence, a WordPress install, a pile of Google Docs, a PDF brochure.
-
-**Pass-off, priced separately.** Who publishes after launch? That's not a footnote. I price it as its own line because the answer changes the whole project. More on that in a separate post, but the short version: Git lesson, retainer batches, showroom branch, or a Git-based CMS - pick one before deposit.
-
-**Retainer updates, if they want them.** Email me copy, I push on a schedule. Priced per batch, not folded into a vague monthly fee.
-
-**Hosting and deploy.** CDN, HTTPS, build pipeline, account setup. Priced honestly - usually a modest annual or monthly line, not a bloated "package" left over from the cPanel era. Domain renewal stays visible and paid to the registrar.
-
----
----
-
-## What a real quote looks like
-
-Rough shape, not a price list (every job differs):
-
-| Line item | What it covers |
-| --- | --- |
-| Discovery | Fit check, sitemap, publish-path decision |
-| Build | Repo, deploy, theme, core pages |
-| Migration | Content and media from old sources |
-| Pass-off | Training, one-page doc, or CMS setup |
-| Domain | Annual renewal, paid to registrar, visible |
-| Hosting | CDN, HTTPS, deploy pipeline - priced in writing |
-
-No "starting at" fog. No bundled mystery fees. If they want me on retainer after launch, that's a separate conversation with a real scope.
-
----
----
-
-## When the default setup isn't enough
-
-Heavy deploy habits, huge media folders, or policy requirements can push a site past what the starter hosting line covers. Some clients want their own Cloudflare org from day one. Concurrent builds can queue when volume spikes.
-
-When that happens, we talk upgrade paths before it becomes an emergency - not after the invoice surprises everyone. Hosting scales with the job; the quote should say so upfront.
-
-
-=== set-it-forget-it-arroz-caldo.md ===
-title: "The Set It and Forget It Arroz Caldo"
-meta_title: "The Set It and Forget It Arroz Caldo"
-description: "How I used to make arroz caldo in a rice cooker with a congee cooking feature, five minutes of prep, an hour of hands-off cooking. I use an Instant Pot now."
-slug: "set-it-forget-it-arroz-caldo"
-date: "2025-03-29T05:00:00Z"
-image: "/images/arroz-caldo.jpg"
-categories: ["Food", "Recipes", "Filipino"]
-author: "JoRap"
-tags: ["Arroz Caldo", "Comfort Food", "Filipino Recipes", "Easy Cooking", "Rice Cooker Recipes", "Chicken Recipes", "Congee", "Home Cooking", "Meal Prep", "Weekend Cooking", "Filipino Food", "Ginger", "Rice Porridge", "Slow Cooker", "Filipino Cuisine", "One-Pot Meals", "Philippines"]
-related_notes:
-  - slow-productivity
-  - habit-formation
-  - preparedness
-  - recovery
-featured: false
-draft: false
-
-=== __shopee-tips.md ===
-title: "Shopee Tips"
-meta_title: "Shopee Tips - How I Shop Smarter on Shopee"
-description: "Shopee is overwhelming on purpose. Here's how I filter for local sellers, stretch shipping promos, and find deals that are actually worth opening the app for."
-slug: "shopee-tips"
-date: "2026-06-18T05:08:00Z"
-image: "/images/image-template.jpg"
-categories: ["Shopping", "Tips", "Guide"]
-author: "JoRap"
-tags: ["Shopee", "Online Shopping", "Tips", "Philippines", "E-commerce", "Deals", "Free Shipping", "Local Sellers", "Marketplace", "Shopping Hacks", "Filipino"]
-related_notes:
-  - attention-economy
-  - behavioral-economics
-  - commonplace-book
-  - crdt
-  - deep-work
-  - elon-musk
-featured: false
-draft: true
----
----
-
-## Local first
-
-**Why local matters:** faster shipping, easier returns, less "where is my package" anxiety when the sorting center is one island over instead of three.
-
-**How I filter:**
-
-- Check seller location and estimated delivery window before carting
-- Prefer shops with **high ratings and recent reviews with photos**
-- Be skeptical of prices that only make sense if shipping crosses half the country
-
-**Red flags:**
-
-- Generic product photos stolen from other listings
-- Thousands of sales but almost no written reviews
-- "Ships from overseas" on something you needed this weekend
-
-Shopee's sorting centers (SOCs) move a lot of volume - Paranaque, Biñan, Plaridel, Calamba, Meycauayan, and others handle regional routing. **Closer origin usually means fewer warehouse hops.** Fewer warehouse hops usually means fewer surprises.
-
----
----
-
-## Top sales - finding signal in the noise
-
-"Top sales" and "best selling" badges are useful **starting points**, not verdicts.
-
-**Reviews that matter:**
-
-- Photos from buyers showing real size and quality
-- Complaints about **specific** defects (size off, weak motor, wrong shade) vs vague "nice"
-- Recent reviews - a listing that was great a year ago might have switched suppliers
-
-**Compare listings:**
-
-- Same product image on five shops? Dig into shop age and review patterns
-- Wild price gaps often mean different materials or bait-and-switch history
-
-**Sale events:**
-
-- 3.3, 6.6, 11.11 - real discounts exist, but **pre-load your cart early** and check historical prices if a tool allows it
-- Vouchers stack differently each event - read the checkout screen before celebrating
-
----
----
-
-## Bottom line
-
-Shopee rewards patience and punishes impulse. Local sellers, bundled shipping, and reviews with photos beat any flashy banner.
-
-The app will always try to make you scroll. These filters are how I shop like I mean it - and close the app when I'm done.
-
-
-=== __smart-plug.md ===
-title: "Smart Plug"
-meta_title: "Smart Plug - Simple Automation That Actually Sticks"
-description: "Smart plugs are the least glamorous gadget in the house and also the one I keep buying. Here's what they're good for, what to skip, and how to avoid turning your home into a troubleshooting hobby."
-slug: "smart-plug"
-date: "2026-06-18T05:01:00Z"
-image: "/images/image-template.jpg"
-categories: ["Technology", "Gear", "Reviews"]
-author: "JoRap"
-tags: ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant", "PKM"]
-related_notes:
-  - building-a-personal-api
-featured: false
-draft: true
----
----
-
-## What they're genuinely good at
-
-**Lamps and fans** are the winners. Schedule the living room lamp to come on before you get home. Turn off the bedroom fan without getting out of bed. Set a Christmas tree on a timer without hunting for those old mechanical dial boxes.
-
-**Hard-to-reach outlets** are the quiet use case. Behind the TV, under a desk, behind a bookshelf - if reaching the switch is annoying, a smart plug pays for itself in saved contortions.
-
-**"Did I leave that on?"** anxiety is real. Being able to check from the phone and kill power remotely is worth more than it sounds, especially for irons, wax warmers, or anything that makes you nervous when you're already in the car.
-
----
----
-
-## Ecosystem lock-in is the real price
-
-The plug itself is cheap. The ecosystem is the commitment.
-
-I try to pick a platform my household already uses - Google Home, Alexa, Apple Home, whatever - and stay consistent. Mixing three apps for six plugs is how smart homes become dumb again.
-
-I also check whether the plug still works **when the internet is down**. Local control matters more than people admit. Cloud-only plugs that turn into paperweights during an outage are frustrating in exactly the wrong moment.
-
----
----
-
-## Setup habits that save future-you
-
-Name plugs **by location and device**, not "Smart Plug 4." Future you at 11 PM does not want to guess which icon is the floor lamp.
-
-Group them by room in the app. Share access with whoever else turns things off in the house. And put one spare plug in a drawer - when you find a new use case, you'll want it immediately.
-
----
----
-
-## Bottom line
-
-Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction - lights, fans, worry - for the cost of a nice lunch.
-
-That's enough for me to keep a few in every room that needs one.
-
-
-=== static-site-vs-cms.md ===
-title: "Static Site or CMS? How I Pick the Stack"
-meta_title: "Static Site vs CMS - When Each One Actually Fits"
-description: "The stack debate is usually the wrong fight. Who publishes, what changes live, and whether you need logins pick static vs WordPress (or a git CMS in between) better than any framework ranking."
-slug: "static-site-vs-cms"
-date: "2026-07-10T06:00:00Z"
-image: "/images/static-vs-cms.jpg"
-categories: ["Website", "Technology", "Tips"]
-author: "JoRap"
-tags: ["Website Building", "Static Site Generator", "CMS", "WordPress", "Hugo", "Sveltia CMS", "Web Development", "Tips"]
-related_notes:
-  - static-site-client-scope
-  - git-based-cms
-  - selling-static-sites
-  - client-site-pass-off
-  - minimum-effective-dose
-featured: false
-draft: false
----
----
-
-## When I reach for a static site
-
-A static site is pre-built HTML (and assets) served from a CDN. No database at request time. Content usually lives in files - markdown, JSON, whatever - and a build step turns those files into pages.
-
-That sounds technical. Day to day it mostly means **fast, cheap hosting and almost nothing to patch**.
-
-**Portfolios and case studies.** Show work in order, with context, without an algorithm shuffling it. Push when you add a project. Done.
-
-**Brochure sites.** Hours, location, services, team photos, contact form. A cafe menu with a link to the delivery app they already use. Text and images on git push.
-
-**Blogs where one person (or two) owns publishing.** I write in markdown, commit, push. Live in about ninety seconds. No admin panel to log into for my own site - that's a feature for me.
-
-**Docs and reference sites.** Content that changes occasionally. Changelog pages, project wikis, sermon archives without member accounts.
-
-**Sites where the "dynamic" part lives somewhere else.** A gym embeds class schedules from a booking SaaS. Donations go through a third-party form. The shell stays static; the vendor carries the moving part.
-
-The pattern: **mostly read, occasionally updated, no session state you own**. If that describes the job, static is hard to beat on speed, cost, and sleep.
-
----
----
-
-## The middle ground: static site, CMS on top
-
-Sometimes the site *is* static - pre-built pages, no database at the edge - but the people updating it won't use Git.
-
-That's where **git-based CMS** tools come in: [Sveltia CMS](/blog/sveltia-cms/), Decap, similar. Buttons instead of terminal. Edits still commit to the repo; the build pipeline stays the same.
-
-I use this when:
-
-- The scope still fits static (brochure, blog, archive)
-- The editor is a teammate, volunteer, or client who needs a UI
-- We're honest that **someone still has to set up auth, media paths, and broken-build recovery**
-
-It's not WordPress with fewer plugins. It's a bridge. Useful bridge. Wrong default for a solo dev who already lives in VS Code.
-
-Pick it when static is right but Git won't land - not when you actually need logins and a live database.
-
----
----
-
-## Publish paths that keep static honest
-
-Static doesn't mean frozen. It means the update path is deliberate.
-
-**Owner learns Git.** Twenty-minute lesson: edit markdown, commit, push. A neighbor chose this, broke the build once on a typo, fixed it the same night. That's success.
-
-**Retainer or batch updates.** Email copy; someone pushes on a schedule. Priced per batch if it's client work.
-
-**Git-based CMS.** When buttons beat terminal but scope still fits static. Quoted and planned separately - not a surprise at launch.
-
-**Seasonal edits.** Holiday hours, annual camp schedule, one new staff photo. Fine on retainer or a short Git lesson.
-
-**External embeds.** Formspree, Calendly, booking widgets, donation links. The site stays static; the tool carries the moving part.
-
-The mistake is forcing Hugo where WordPress was honest, or forcing WordPress where a landing page and a Calendly link would do. **Smallest stack that solves the job.**
-
-
-=== sustainable-online-publishing.md ===
-title: "Sustainable Online Publishing"
-meta_title: "Sustainable Online Publishing - Own Your Corner of the Internet"
-description: "Social media is easy to start and risky to depend on. I publish on my own site anyway - here's a free stack that works and why the habit matters more than the tools."
-slug: "sustainable-online-publishing"
-date: "2026-06-12T14:58:00Z"
-image: "/images/sustainable-publishing.jpg"
-categories: ["Website", "Ideas", "Technology"]
-author: "JoRap"
-tags: ["Publishing", "Self-Hosting", "Hugo", "Cloudflare Pages", "Content Ownership", "Indie Web", "Digital Independence", "Open Publishing", "Platform Risk", "Blogging", "Digital Garden", "PKM"]
-related_notes:
-  - digital-garden
-  - drafting-in-public
-  - sketchpad
-  - the-garage-concept
-  - note-relationships
-  - commonplace-book
-  - success-is-stewardship
-featured: false
-draft: false
----
----
-
-## Social is a lobby, not a library
-
-Facebook, X, YouTube - I still use them. They're fine for **getting a link in front of people.** They're a terrible place to keep the only copy of something you care about.
-
-Terms of service shift. Monetization rules change overnight. Content disappears behind logins or dies when the app pivots. Your best thread from 2019 isn't on your resume - it's on their servers, and you can't export it cleanly if they decide you can't.
-
-I don't treat social as my archive. I treat it as the thing I point at my archive.
-
----
----
-
-## What I don't mean by "sustainable"
-
-I'm not saying quit social. I'm not saying build everything custom to prove you're serious. And free hosting doesn't mean zero work - you trade a monthly bill for Git pushes and Markdown files.
-
-What I mean is simpler: **the real copy lives somewhere you control.** Social is the megaphone. Not the vault.
-
----
----
-
-## Bottom line
-
-Social media is a great lobby. It's a bad foundation.
-
-Sustainable online publishing is **your domain, your files, your deploy** - with social optional when you want people to notice.
-
-
-=== __sveltia-cms.md ===
-title: "Sveltia CMS"
-meta_title: "Sveltia CMS - When the Client Won't Touch Git"
-description: "I publish via Markdown and git push. Sveltia CMS is the bridge when someone needs buttons - edits still commit to the repo, build pipeline unchanged."
-slug: "sveltia-cms"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Sveltia CMS", "Hugo", "CMS", "Git", "Static Sites", "Content Management"]
-related_notes:
-  - git-based-cms
-featured: false
-draft: true
----
----
-
-## The pass-off problem it solves
-
-[Client site pass-off](/blog/client-site-pass-off/) is where static projects live or die. Option one: Git lesson - works for some neighbors, fails for others. Option four: git-based CMS - buttons for people who need buttons.
-
-Picture someone who needs sermon archives or brochure typo fixes without learning YAML. "Just edit the file and commit" wasn't going to happen. WordPress felt like overhead for twice-a-month updates.
-
-Sveltia (and tools like it) sit in the gap: **static hosting economics, CMS-shaped editing.**
-
----
----
-
-## What setup actually involves
-
-Not a one-click toy. You configure:
-
-- Which repo and branch
-- Auth (often GitHub OAuth or similar)
-- Media folder paths
-- Collection schemas so editors see fields, not raw frontmatter
-
-Treat it like a small production app. Staging branch first. Test commit, test build, then hand keys to the client.
-
-I haven't rolled it out on every static job. When the fit is right, it's cheaper than re-platforming to WordPress for a four-page site.
-
----
----
-
-## Bottom line
-
-Sveltia CMS solves the **Hugo accessibility gap** for non-technical editors.
-
-You might not need it. Your collaborator might. Know it exists before defaulting to WordPress again - or before forcing Git on someone who'll never use it.
-
-
-=== __tailwind-css-v4.md ===
-title: "Tailwind CSS v4.0"
-meta_title: "Tailwind CSS v4 - What Changed When Hugoplate Upgraded"
-description: "Tailwind v4 moved config into CSS and shuffled the build pipeline. I didn't fork blindly - I synced Hugoplate upstream and tested before pushing live."
-slug: "tailwind-css-v4"
-date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Website", "Technology", "Tutorial"]
-author: "JoRap"
-tags: ["Tailwind CSS", "CSS", "Web Development", "Hugo", "Hugoplate", "Frontend"]
-related_notes:
-  - future-proofing-knowledge
-  - the-garage-concept
-  - free-tier-hosting-stack
-  - git-based-cms
-  - metadata-strategy
-featured: false
-draft: true
----
----
-
-## What broke my mental model from v3
-
-In v3 I lived in &#96;tailwind.config.js&#96; - colors, fonts, spacing tokens in JavaScript. v4 pushes a lot of that into CSS with &#96;@theme&#96;:
-
-&#96;&#96;&#96;css
-@theme {
-  --color-primary: #2563eb;
-  --font-primary: "Inter", sans-serif;
-}
-&#96;&#96;&#96;
-
-Change a token, watch it propagate. For a personal rebrand that's genuinely fun - I tweaked accent colors without touching layout files.
-
-The footgun: old config habits don't port line for line. Read the migration guide once before editing.
-
----
----
-
-## Build pipeline coupling (Hugo + assets)
-
-Hugo's asset pipeline and Tailwind's new engine have to agree. Hugoplate documents how PostCSS/Vite wiring works in their repo - I didn't invent it.
-
-If you're on an old fork frozen on v3, budget an afternoon, not ten minutes. Compare upstream's &#96;package.json&#96; and CSS entry files to yours. Diff beats guessing.
-
----
----
-
-## Bottom line
-
-Tailwind v4 is maintainers' work, not writers'. I let Hugoplate carry most of it and kept my custom CSS thin.
-
-
-=== what-i-look-for-in-wireless-earphones.md ===
-title: "What I Look For in Wireless Earphones"
-meta_title: "What I Look For in Wireless Earphones - My Personal Checklist"
-description: "After years of cycling through earbuds, neckbands, and over-ears, here's the short list of what I actually care about in a pair of wireless earphones - and the one pair I keep reaching for."
-slug: "what-i-look-for-in-wireless-earphones"
-date: "2026-05-27T05:00:00Z"
-image: "/images/feature-soundpeats-runfree.jpg"
-categories: ["Technology", "Gear", "Reviews"]
-author: "JoRap"
-tags: ["Wireless Earphones", "Open-Ear Earphones", "Bluetooth", "Audio", "Everyday Carry", "Soundpeats RunFree", "Earbuds", "Headphones", "Buying Guide", "Fitness Audio", "Bone Conduction", "Running Gear"]
-related_notes:
-  - attention-economy
-  - deep-work
-  - digital-minimalism
-featured: false
-draft: false
----
----
-
-## I want to hear the world, not block it out
-
-This is the one that flipped for me. For years I thought "good earphones" meant noise cancellation - seal it up, drown out the room, live in your own little bubble.
-
-Then I realized how much of my day I *need* the room. Hearing my kid call from another part of the house. Hearing the doorbell. Hearing the jeepney coming up behind me on a walk. Hearing my wife say something casual from the kitchen without me ripping a bud out and going "what?"
-
-There's also a safety angle I take seriously, especially when commuting. Crossing the street, walking through a parking lot, biking, riding the bus or train - these are all moments where being fully sealed off from the world isn't just inconvenient, it's genuinely dangerous. I want to hear the motorcycle weaving up behind me. I want to hear my stop being called out. I want to hear someone shout "watch out" with enough time to actually react.
-
-That's why I now look for **open-ear** or awareness-friendly designs first. Music and podcasts come through clearly, but the world is still right there. I don't have to choose between being entertained and being present - or safe.
-
-If I want isolation, I have over-ears for that. For everyday wear, I want the opposite.
-
----
----
-
-## Calls and meetings that don't make people hate me
-
-This one is underrated. Half the wireless earphones on the market sound great for *you* and terrible for the person on the other end of the call.
-
-I'm on online meetings and calls - Google Meet, Facebook Messenger and the occasional call on the phone. I'd much rather wear a single pair of earphones for the whole working day than swap into a "meeting headset" every time something pops up on the calendar. That only works if the mic is actually good enough to carry a real conversation, not just bark "I'll be there in 5."
-
-If you take calls or meetings throughout the day, **mic quality matters more than driver quality.** Most people get this backwards. I'd rather have a pair that sounds decent on music and great on calls than the other way around.
-
----
----
-
-## Simple, physical controls
-
-I want **buttons.** Real ones. With clicks.
-
-Touch controls on earbuds are one of the most over-engineered ideas of the last decade. Half the time they don't register. The other half they register a tap when you're just adjusting the fit and suddenly your podcast skips forward two minutes.
-
-Give me physical buttons for power, volume, and play/pause. I can feel them. They click. They do exactly what I expect. That's the whole bar.
-
----
----
-
-## Cheap enough that losing them wouldn't ruin my week
-
-I want gear I can wear, sweat in, drop, lend out, and replace without grief. Premium audio gear makes me protective in a way that defeats the purpose of "everyday earphones." If I'm scared to use them, I won't.
-
-Somewhere in the **budget tier** - not checkout-aisle junk, not premium audiophile gear - is the sweet spot where the build quality is real but the stakes are low.
-
----
----
-
-## What I'm using right now
-
-The pair that currently checks every one of those boxes for me is the **Soundpeats RunFree.** Open-ear neckband design, all-day comfort even with glasses, a mic that holds up in actual meetings, physical buttons, USB-C charging, hard to lose around my neck - and priced like budget gear, not premium.
-
-
-=== why-i-focused-on-open-source.md ===
-title: "Why I Focused on Open Source Technologies"
-meta_title: "Why I Bet on Open Source - Practical Reasons, Not a Manifesto"
-description: "Open source wasn't a purity test for me. Freedom mattered more than free - install tonight, read the code, move your files, own the stack. Learning still ate months. Here's how that shaped my choices."
-slug: "why-i-focused-on-open-source"
-date: "2026-07-04T12:00:00Z"
-image: "/images/open-source.jpg"
-categories: ["Technology", "Opinion", "Developer Life"]
-author: "JoRap"
-tags: ["Open Source", "FOSS", "Hugo", "WordPress", "Web Development", "Developer Life", "Career", "Free Software", "Technology", "Publishing", "Static Site Generator"]
-related_notes:
-  - future-proofing-knowledge
-  - free-tier-hosting-stack
-  - git-based-cms
-  - success-is-stewardship
-  - platform-reach-is-borrowed
-featured: false
-draft: false
----
----
-
-## I went hunting for the best open-source CMS
-
-At some point I stopped treating "pick a CMS" as a vibe check and actually compared the open options side by side. Joomla, WordPress, Drupal, a few smaller names I don't remember now.
-
-I wrote the longer version in [Why I Switched from Drupal to WordPress](/blog/drupal-to-wordpress/) - the short version is: Drupal's architecture made sense to me, but the community was thin, upgrades ate weekends, and I couldn't find paid work with it. WordPress had the plugin shelf, the job listings, and eventually WordCamp Asia in Manila with fourteen hundred people in the same room.
-
-Both are open source. The lesson wasn't "Drupal good, WordPress bad." It was **open source gives you choice**, and choice only helps if you pick for your actual life - market, clients, tolerance for upgrade pain - not for the cleanest architecture diagram.
-
-I still respect Drupal. I don't run my income on it.
-
----
----
-
-## What open source actually buys me
-
-After years of building and teaching on this stuff, the benefits aren't abstract.
-
-**I can see what's broken.** When a Hugo template misbehaves or a WordPress plugin throws a fatal error, the code is right there. I'm not waiting on a support ticket to learn whether the bug is mine or theirs.
-
-**I can leave.** Markdown in Git outlives any one host. That's the whole sustainable publishing argument in one sentence. Open tools tend to use open formats. Closed tools tend to trap exports until you need them.
-
-**The community is part of the product.** WordPress plugins, Hugo themes, Stack Overflow threads from last month - open projects accumulate fixes in public. Thin communities cost you hours. Thick ones save weeks. I chose WordPress partly because the bench was deeper, not because the logo was prettier.
-
-**Free tiers stack.** Hugo is free. Hugoplate is MIT licensed. Cloudflare Pages has a generous free tier for static sites. My personal publishing stack doesn't need a monthly hosting bill to stay online. That's not nothing when you're building on the side.
-
-**Clients can own it.** When I hand off a static site, they're not renting my proprietary theme on my proprietary platform. They get a repo. That's a cleaner conversation than "call me when the license renews."
-
----
----
-
-## How that shows up in my stack now
-
-[jorap.com](/) runs on Hugo, an open-source theme, markdown in Git, deployed through Cloudflare Pages. JoRap Notes is the same shape.
-
-Client work still goes WordPress when the job needs logins, carts, or five non-technical editors - also open source, also chosen for fit, not fanboyism.
-
-Password managers, RSS readers, static generators - I lean open when the category has mature options, because auditability and export matter for tools that hold my data.
-
-Teaching hasn't changed either. I still point students at stacks they can install tonight without a trial expiring. The career advice is the same: **learn tools employers actually hire for**, and in web work, a huge slice of that table is open source whether or not you care about the label.
-
-
-=== why-i-stopped-playing-marvel-snap.md ===
-title: "Why I Stopped Playing Marvel Snap"
-meta_title: "Why I Quit Marvel Snap"
-description: "Marvel Snap hooked me with three-minute matches and slick Marvel cards. Then the meta treadmill, collection gaps, and cube anxiety turned a snack game into homework. I never spent a cent - and still drifted away."
-slug: "why-i-stopped-playing-marvel-snap"
-date: "2026-07-05T06:11:00Z"
-image: "/images/stop_snap.jpg"
-categories: ["Games", "Opinion"]
-author: "JoRap"
-tags: ["Marvel Snap", "Card Games", "Gaming", "Mobile Games", "Digital Collectibles", "FOMO", "Game Design", "Marvel", "Free to Play", "Quit Gaming"]
-related_notes:
-  - attention-economy
-  - digital-minimalism
-  - signal-vs-noise
-  - sunk-cost-fallacy
-featured: false
-draft: false
----
----
-
-## What pulled me in
-
-The pitch landed immediately.
-
-**Short matches.** A full game fits in a coffee break. No forty-minute Hearthstone slog. Lose badly and you're back in queue before the shame sets in.
-
-**Marvel done lean.** I'm not a comics completionist, but I know the characters - Spider-Man, Wolverine, the usual crowd. That's the whole appeal next to something like **Magic: The Gathering**, where half the fun is learning a deep rules engine and a universe you've never read. Snap gave me mainstream Marvel I already cared about. Wong, Mystique, a location I'd never heard of - enough to stay curious without reading up on who everyone is.
-
-**The snap mechanic.** Bluffing with cubes is genuinely tense. You're not just fighting for the board - you're negotiating how much this win is worth. That's a clever twist on card games I already liked.
-
-**Mobile-first, actually.** Portrait mode on the couch. Tap to play. No PC client required. It met me where I already had dead time.
-
-For a while, that was plenty. I'd play a few rounds, climb a little, log off. The game felt like a snack.
-
----
----
-
-## What turned me off
-
-The same loops that hooked me eventually burned me out.
-
-### The meta outran my collection
-
-Snap's balance moves fast. I'd tune a deck, win a few, then get crushed by a card I'd forgotten existed - or one I couldn't pull because it lived in **Series 4 or 5**.
-
-Copying a top meta list when you're on Series 3 is a special kind of sadness. The sites all say "filter by collection." I did. The honest answer was usually: *your best deck is fine, but the ladder belongs to people with different cardboard.*
-
-So I'd go hunting for **other deck lists** - off-meta builds, budget brews, anything that didn't need the Series 5 card ruining my week. Sometimes that worked. More often I was just rearranging the same roster and hoping the ladder would be kind.
-
-I wasn't mad about losing to better play. I was tired of losing to **roster gaps** dressed up as skill.
-
-Snap also runs on a **release schedule** you're nudged to follow. New powerful cards drop on a cadence - season content, featured releases, events with a window. I wasn't trying to min-max anything, but the game kept asking me to log in on *its* clock just to stay vaguely current. Catch the latest must-have before the meta moves on again. A couch snack game shouldn't need a calendar.
-
-### Every loss became a research assignment
-
-There's a trap I didn't see at first: **tilt browsing**.
-
-Lose two cubes, open Marvel Snap Zone. Lose again, check snap.fan. Ten minutes turns into an hour of reading about cards I didn't have and decks I'd never build.
-
-I wasn't a hardcore grinder. I just kept doing it after bad streaks anyway. The game stopped ending when I closed the app.
-
-### Cubes stopped being fun
-
-Snapping is brilliant until it isn't.
-
-Once I started caring about rank even a little, every opponent snap felt personal. Retreat too early and you wonder if you chickened out. Stay too long and you eat an eight-cube loss to a deck you couldn't have predicted.
-
-The line from the community - *retreat when the cubes stop being fun* - is good advice. I hit the point where **most of my snaps were anxiety**, not mind games. That's not a hobby. That's stress with Marvel wallpaper.
-
-### FOMO in the shop
-
-I never spent money on Snap. Not once. **Spending was usually not the problem** - at least not in the pay-to-win way other mobile games train you to expect. Real money bought cosmetics: card backs, variants, emotes. Nothing that made your deck stronger. I respect that.
-
-The [web shop](https://marvelsnap.com/shop) still got under my skin anyway - bundles timed to make you feel like you're leaving value on the table, gold for variants I'd forget in a week. I didn't bite. But the nagging was part of the vibe. Even as a free player, the game kept asking whether I was playing it *wrong* by not paying.
-
-### It wanted more time than I wanted to give
-
-Between meta checks, deck tweaks, and "just one more match," Snap started eating **more time than a snack game deserves**.
-
-I'm a casual player with other games and other projects. Snap kept asking for another slice - another guide, another list, another match - and I kept saying yes until I didn't want to anymore.
-
-### The vibe shifted
-
-Around the time I was pulling back, the mood around Snap changed too. YouTubers I'd been peeking at for quick meta explainers - [Snap Judgments](https://www.youtube.com/@SnapJudgments), [Alexander Coccia](https://www.youtube.com/@AlexanderCoccia), others in that lane - started posting quit videos or long frustration rants. Balance complaints, the collection treadmill, *why am I still doing this*. I wasn't deep in every drama thread. But when your casual guides start walking away, that's a signal.
-
-So did the business side. **Layoffs** and a smaller team running live service made Snap feel less like a flagship and more like something on maintenance mode. Maybe it still gets updates. Maybe people still love it. For me it lined up with the schedule pressure and roster gaps: hard to care about catching up when the game itself didn't seem like the studio's main priority anymore.
-
-
-=== why-keep-desktop-laptop.md ===
-title: "Why I Still Keep a Desktop or Laptop"
-meta_title: "Why I Still Keep a Desktop or Laptop"
-description: "Every couple of years, someone tells me they're going mobile-only. A few months later, they're sheepishly asking to borrow my laptop for taxes, video edits, or a PDF form. Here's why I keep mine around."
-slug: "why-keep-desktop-laptop"
-date: "2021-06-14T05:00:00Z"
-image: "/images/feature-desktop.jpg"
-categories: ["Technology", "Productivity", "Tips"]
-author: "JoRap"
-tags: ["Computers", "Hardware", "Desktop", "Laptop", "Mobile vs Desktop", "Workflow", "Devices", "Productivity", "Remote Work", "Typing", "Multitasking", "Power User", "Work From Home", "PC vs Mobile", "Note Taking"]
-related_notes:
-  - commonplace-book
-  - mobile-capture-workflows
-  - literature-notes
-  - context-aware-capture
-  - attention-economy
-  - deep-work
-aliases: ["top-reasons-why-you-still-need-use-desktop-laptop"]
-featured: false
-draft: false
----
----
-
-## Power you can actually feel
-
-Phones have gotten ridiculously fast. The problem is sustaining that speed. Once a phone heats up - and it heats up quickly under load - it throttles, the fans (if it even has any) give up, and everything slows down.
-
-A laptop or desktop, with proper cooling and a bigger battery, can hold its performance for hours. That's the difference between editing a five-minute video on your phone and watching it crash twice, vs. doing the same edit on a laptop while a Zoom call is still running in the background.
-
-Same story with RAM. My phone aggressively kills background apps the moment I switch away. My laptop just... keeps them there. All twenty of them, exactly where I left them.
-
----
----
-
-## Multitasking that isn't really multitasking
-
-Modern phones technically support split-screen, but it always feels like a workaround. You squint at two tiny windows, lose context every time you tap something, and end up back in single-app mode anyway.
-
-On a laptop I can have a browser, a code editor, a terminal, a chat app, and a music player all visible at the same time. Add a second monitor and it's almost too much screen. That's not "more apps for the sake of more apps" - it's how research, writing, and most creative work actually happens. You glance, compare, copy, paste, glance again.
-
----
----
-
-## Storage you don't have to ration
-
-Phone storage feels like a constant negotiation. Delete some old screenshots, clear an app cache, buy more iCloud, sigh.
-
-On a desktop or laptop, storage is just... there. Terabytes of it. Plug in an external drive when you need more. Back up to a NAS or to the cloud without worrying about "optimize storage" silently deleting your photos. It's a small thing day to day, but it stops being something you think about.
-
----
----
-
-## Browsing without the training wheels
-
-Mobile browsers are fine for casual reading. They're not great for actual work. No extensions, limited dev tools, weird tab behavior, and sites that decide you want the app instead.
-
-On desktop I have my password manager, my ad blocker, my dark-mode extension, my note-clipper. Dev tools are one keystroke away. Web apps just work the way they were designed to work. It's a different category of experience.
-
----
----
-
-## What I keep in the bag
-
-Phone for quick hits. Laptop for anything that needs a keyboard, a big screen, or more than ten focused minutes.
-
-
-=== why-run-your-own-website.md ===
-title: "Why I Still Run My Own Website"
-meta_title: "Why I Still Run My Own Website - Not Just Facebook"
-description: "Every time I tell someone I run my own website, they ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."
-slug: "why-run-your-own-website"
-date: "2024-03-10T05:00:00Z"
-image: "/images/website.jpg"
-categories: ["Website", "Ideas", "Tips"]
-author: "JoRap"
-tags: ["Internet", "Branding", "Content", "Business", "Personal Branding", "Online Presence", "Self-Hosting", "Web Ownership", "Blogging", "Website Building", "Digital Independence", "Content Ownership", "Portfolio", "Personal Website", "Platform Risk", "Publishing", "Digital Garden", "PKM", "Note Taking"]
-related_notes:
-  - drafting-in-public
-  - digital-garden
-  - commonplace-book
-  - sketchpad
-  - note-relationships
-  - the-garage-concept
-  - success-is-stewardship
-aliases: ["top-reasons-create-maintain-your-own-website"]
-featured: false
-draft: false
----
----
-
-## You actually own it
-
-This is the big one for me. On Facebook, Instagram, YouTube, or any other platform, you're a tenant. You can be evicted, the building can be torn down, or the landlord can suddenly decide your kind of content isn't allowed anymore.
-
-It's not a hypothetical. Vine vanished overnight in 2017 and took everyone's videos with it. Google+ shut down. MySpace lost over a decade of users' music. Flickr slashed free accounts to a thousand photos and wiped the rest. Facebook quietly throttled organic reach for business pages from around 16% down to roughly 2%, and millions of small businesses lost the audience they'd spent years building. TikTok keeps shifting under creators' feet. Even Twitter - sorry, X - broke thousands of tools and apps when it changed its API.
-
-Your website doesn't have any of those problems. You decide what stays, what gets deleted, and how long it lives. If your hosting provider goes down, you point your domain somewhere else. You don't lose your work.
-
----
----
-
-## It's a real portfolio
-
-Your website is the one place where all your work can live together, in the order you want, with the context you want, free from algorithms shuffling it around. A designer can show case studies instead of one-off posts. A writer can group articles by topic. A consultant can put their best testimonials front and center instead of hoping they show up on a recommendations tab somewhere.
-
-It also signals something subtle but important: that you took the work seriously enough to give it a home.
-
----
----
-
-## Search engines still send people your way
-
-Social media is great for connecting with people who already follow you. Search engines are great for being found by people who *don't*.
-
-Most online journeys still start at Google. A well-written post on your own site can keep pulling in visitors years after you publish it, with no extra effort from you. A friend's Facebook post about the same topic is buried within a day. SEO isn't magic and it isn't instant, but if you publish consistently and write things people actually want to read, the search traffic compounds in a way social posts simply don't.
-
-I have posts on this site that I wrote a year ago and barely think about anymore - they're still getting visitors every week.
-
----
----
-
-## The cost is not the thing stopping you
-
-People assume websites are expensive. Some are. Mine isn't.
-
-This site runs on Hugo, hosted free on Cloudflare Pages, with source on GitHub. The only thing I pay for is the domain - a small annual renewal. That's less than two months of any halfway-serious social media ad campaign.
-
-Even if you don't want to mess with code, modern site builders (Squarespace, Wix, WordPress) will get you a clean, mobile-friendly site for the cost of a couple of coffees a month. The financial barrier mostly doesn't exist anymore.
-
-(If you're curious how I built this one, [I wrote about that too](/blog/how-i-built-jorap-notes).)
-
----
----
-
-## What I actually do
-
-I still post on social for reach. The site holds what I want findable in five years - essays, reference posts, stuff I'd hate to lose in a platform pivot.
-
-
-=== __wifi-router.md ===
-title: "Wifi Router"
-meta_title: "Wifi Router - What I Look For and What I'd Buy Again"
-description: "After one too many dead zones and mystery reboots, here's the short list of what I actually care about in a home wifi router - and the habits that matter more than the box on the shelf."
-slug: "wifi-router"
-date: "2026-06-18T05:00:00Z"
-image: "/images/image-template.jpg"
-categories: ["Technology", "Gear", "Reviews"]
-author: "JoRap"
-tags: ["Wi-Fi", "Router", "Home Network", "Gear", "Wi-Fi 6", "Mesh Network", "Internet", "Networking", "Home Office", "ISP", "Bandwidth", "Dead Zones"]
-related_notes:
-  - reliability
-featured: false
-draft: true
----
----
-
-## Coverage beats top speed on the box
-
-Manufacturers love printing big numbers on the packaging. **AC1900! AX6000!** Most of that is theoretical lab math you'll never see while making adobo and streaming at the same time.
-
-What I care about is whether the signal reaches the rooms I actually use - bedroom, kitchen, home office, wherever the router ends up shoved behind a shelf. If I have dead zones, I'd rather add a mesh node or move the router than chase the highest Mbps number on the spec sheet.
-
-Before I buy, I sketch the floor plan and mark where people sit with laptops and phones. That one step saves more grief than reading router reviews for an hour.
-
----
----
-
-## Placement is half the battle
-
-The best router in the world loses if it's buried in a closet, sitting on the floor behind a metal cabinet, or tucked under the TV stand with seventeen HDMI cables around it.
-
-I try to put it **central and elevated** - hallway shelf, top of a bookcase, somewhere the signal can spread without fighting walls and appliances. If I can't do that, I stop pretending a single router will cover three floors and plan for mesh or an access point instead.
-
----
----
-
-## Wired ports still matter
-
-Everything is wireless until it isn't. The desktop, the TV box, the printer that refuses to join wifi gracefully - I want **at least a few gigabit LAN ports** on the back.
-
-If the router is also my modem combo unit, I pay extra attention to heat and ventilation. Combo boxes work until they don't, and when they fail you lose two things at once.
-
----
----
-
-## The shortlist, again
-
-If I'm shopping for a home wifi router today, I scan for:
-
-1. Coverage for the rooms we actually use - not lab Mbps
-2. Stability; no ritual reboots
-3. Sensible placement, or a mesh plan if placement can't be fixed
-4. Firmware support that isn't already end-of-life
-5. Enough wired ports for the stubborn devices
-6. Setup my family won't need me to redo every month
-
-
-=== __worcestershire-sauce.md ===
-title: "Worcestershire Sauce - Lee and Perrins"
-meta_title: "Lee &amp; Perrins Worcestershire Sauce - The Bottle I Always Restock"
-description: "Lee &amp; Perrins is the Worcestershire sauce I reach for without thinking. Here's why it earned a permanent spot in the pantry and how we actually use it."
-slug: "worcestershire-sauce"
-date: "2026-06-18T05:05:00Z"
-image: "/images/image-template.jpg"
-categories: ["Food", "Pantry", "Reviews"]
-author: "JoRap"
-tags: ["Worcestershire Sauce", "Lee and Perrins", "Pantry Staples", "Cooking", "Condiments", "Umami", "Marinades", "Steak Sauce", "Kitchen Essentials", "Ingredient Review"]
-related_notes:
-  - slow-productivity
-  - attention-to-detail
-aliases: ["worcestershire-sauce-lee-and-perrins"]
-featured: false
-draft: true
----
----
-
-## What it actually tastes like
-
-Worcestershire is **savory, tangy, slightly sweet, a little funky** in the best way. Anchovies, tamarind, vinegar, molasses, spices - the label reads like a dare, but the result is balanced umami in a pour.
-
-Lee &amp; Perrins is the original. Other brands exist. I've tried a few. I keep coming back to the one with the consistent bottle shape and the flavor I expect every time.
-
----
----
-
-## A little goes a long way
-
-This is not hot sauce. **Start with a teaspoon**, taste, adjust. Worcestershire is concentrated flavor - too much and you get sour-salty overload instead of depth.
-
-Shake well. It settles. And wipe the neck - a sticky cap is how bottles get abandoned in the back of the fridge.
-
----
----
-
-## Substitutes (when you're out)
-
-There's no perfect 1:1 swap. Close-ish options:
-
-- Soy sauce + a tiny bit of vinegar + pinch of sugar
-- Fish sauce - **much** smaller amount
-- Maggi or liquid seasoning - different, but same "add umami" job
-
-None of them are Lee &amp; Perrins. That's why I restock before the bottle rattles empty.
-
-
-=== worship-pads-solo-guitar.md ===
-title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"
-meta_title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"
-description: "Leading worship with just an acoustic guitar always felt thin in a big room - until someone slid a pad track underneath me during practice. The whole night changed."
-slug: "worship-pads-solo-guitar"
-date: "2025-05-04T05:00:00Z"
-image: "/images/worship-pads.jpg"
-categories: ["Worship", "Music", "Tips"]
-author: "JoRap"
-tags: ["Worship Pads", "Church Music", "Worship Leading", "Guitar Worship", "Solo Worship", "Acoustic Guitar", "Pad Tracks", "Christian Music", "Music Production", "Church", "Worship Ministry", "Backing Tracks", "Live Worship", "Worship Team", "Ambient Music"]
-related_notes:
-  - love-god
-  - ask-seek-knock
-  - dont-worry
-aliases: ["power-of-worship-pads-enhancing-your-worship-with-guitar", "power-of-worship-pads-enhancing-your-worship-experience"]
-featured: false
-draft: false
----
----
-
-## What actually changes when you use them
-
-The first Sunday I used pads, three things hit me right away.
-
-The room felt warmer. Not "louder" - warmer. People closed their eyes, leaned in, and the awkward space between songs vanished because the pad just kept going. I wasn't scrambling to fill silence anymore.
-
-I sang better. Knowing there was something holding the bottom of the sound meant I could pull back, leave space, even stop playing for a bit during a prayer - and the music kept moving. The exposure I usually felt as a solo player just wasn't there.
-
-The congregation engaged differently. Hands went up, eyes closed, people lingered on the last notes instead of waiting for the next song to start. None of that was about me. The pads created room for the moment to land.
-
----
----
-
-## Where to get pads (free)
-
-These are the three I keep coming back to. All free, all in standard keys, all good quality.
-
-**Juan López Música** - solid, warm pads in every common worship key.
-
-{{&lt; youtube 4V_Wc6FyIjo &gt;}}
-
-Download: [Free Worship Ambient Pads](http://bit.ly/WorshipAmbientPads)
-
-**Churchfront** - clean, modern sound. Email signup required.
-
-{{&lt; youtube qEvf-II2bSY &gt;}}
-
-Download: [Churchfront Ambient Pads](https://churchfront.com/ambient-pads/)
-
-**Reawaken Worship Pads &amp; Karl Verkade** - gorgeous, atmospheric, a little more textured.
-
-{{&lt; youtube jp3mOchAGgY &gt;}}
-
-Downloads: [Reawaken Worship Pads](https://www.reawakenhymns.com/worship-pads) · [Karl Verkade - Bridge Ambient Pads III](https://karlverkade.bandcamp.com/album/bridge-ambient-pads-iii)
-
-For a solo guitar setup, you really only need pads in five keys to cover almost everything you'll ever play: **C, G, D, A, F**. Start there. Add more later if you need them.
-
----
----
-
-## A few things I learned the hard way
-
-**Don't make the pads the show.** They're scenery. The moment people start noticing them as a sound, they're working against you.
-
-**Always double-check the key.** A pad in the wrong key is *immediately* obvious and painful. I've done it. The whole room winces with you.
-
-**Practice with them at home first.** Run a pad in the background while you play through your set. Get used to the feel of leaning on it - and the feel of dropping out completely and letting it carry the moment.
-
-**Keep your media volunteer out of options.** The fewer buttons and decisions they have during a service, the better. A folder of pads named by key, VLC open, done.
-
----
----
-
-## A last thought
-
-I waited way too long to try this. If you've ever stood up there with a guitar and felt like something was missing, it probably wasn't your playing. It was the space.
-
-Pads fill that space without taking it over. The point isn't to sound more professional, or more like the album. The point is to give yourself - and the people you're leading - a little more room to breathe and worship.
-
-
-
+    - 3rd Round, d. Swiatek 7-6(9), 6-2 | [wtatennis.c
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4162,151 +347,145 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The output was written to a file.
 
-Reading the blog archetype and writing a script to systematically analyze frontmatter for missing fields and issues.</details></think>
+Reading the blog archetype and writing a script to systematically analyze frontmatter for missing fields and issues.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import os, re, yaml
 from pathlib import Path
 
-blog_dir = Path("content/english/blog")
-template_fields = ["title", "meta_title", "description", "slug", "date", "image", "categories", "author", "tags", "related_notes", "featured", "draft"]
+blog_dir = Path(&#34;content/english/blog&#34;)
+template_fields = [&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;slug&#34;, &#34;date&#34;, &#34;image&#34;, &#34;categories&#34;, &#34;author&#34;, &#34;tags&#34;, &#34;related_notes&#34;, &#34;featured&#34;, &#34;draft&#34;]
 
 posts = []
 issues = []
 
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md":
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;:
         continue
-    text = f.read_text(encoding="utf-8")
-    if not text.startswith("---"):
-        issues.append((f.name, "NO_FRONTMATTER", "missing opening ---"))
+    text = f.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        issues.append((f.name, &#34;NO_FRONTMATTER&#34;, &#34;missing opening ---&#34;))
         continue
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        issues.append((f.name, "BAD_FRONTMATTER", "unclosed frontmatter"))
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
+        issues.append((f.name, &#34;BAD_FRONTMATTER&#34;, &#34;unclosed frontmatter&#34;))
         continue
     fm_text = parts[1]
     try:
         fm = yaml.safe_load(fm_text) or {}
     except yaml.YAMLError as e:
-        issues.append((f.name, "YAML_ERROR", str(e)))
+        issues.append((f.name, &#34;YAML_ERROR&#34;, str(e)))
         continue
     
     name = f.name
-    is_draft_prefix = name.startswith("__")
+    is_draft_prefix = name.startswith(&#34;__&#34;)
     
     missing = []
-    for field in ["title", "meta_title", "description", "date", "author"]:
-        if field not in fm or fm[field] in (None, ""):
+    for field in [&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;date&#34;, &#34;author&#34;]:
+        if field not in fm or fm[field] in (None, &#34;&#34;):
             missing.append(field)
     
     extra = []
     for k in fm:
-        if k not in template_fields and k not in ("meta_description", "meta_image", "images", "noindex", "weight", "summary", "aliases", "type", "layout", "lastmod", "recipe", "prep_time", "cook_time", "total_time", "servings", "ingredients", "instructions", "nutrition", "recipe_category", "recipe_cuisine", "recipe_yield", "recipe_ingredient", "recipe_instructions", "tldr", "subtitle", "canonical", "hidemeta", "comments", "disable_comments", "toc", "math", "mermaid", "search_exclude", "sitemap_exclude", "robots", "translationKey", "build", "cascade", "outputs", "markup", "resources", "url", "linkTitle", "menu", "params"):
+        if k not in template_fields and k not in (&#34;meta_description&#34;, &#34;meta_image&#34;, &#34;images&#34;, &#34;noindex&#34;, &#34;weight&#34;, &#34;summary&#34;, &#34;aliases&#34;, &#34;type&#34;, &#34;layout&#34;, &#34;lastmod&#34;, &#34;recipe&#34;, &#34;prep_time&#34;, &#34;cook_time&#34;, &#34;total_time&#34;, &#34;servings&#34;, &#34;ingredients&#34;, &#34;instructions&#34;, &#34;nutrition&#34;, &#34;recipe_category&#34;, &#34;recipe_cuisine&#34;, &#34;recipe_yield&#34;, &#34;recipe_ingredient&#34;, &#34;recipe_instructions&#34;, &#34;tldr&#34;, &#34;subtitle&#34;, &#34;canonical&#34;, &#34;hidemeta&#34;, &#34;comments&#34;, &#34;disable_comments&#34;, &#34;toc&#34;, &#34;math&#34;, &#34;mermaid&#34;, &#34;search_exclude&#34;, &#34;sitemap_exclude&#34;, &#34;robots&#34;, &#34;translationKey&#34;, &#34;build&#34;, &#34;cascade&#34;, &#34;outputs&#34;, &#34;markup&#34;, &#34;resources&#34;, &#34;url&#34;, &#34;linkTitle&#34;, &#34;menu&#34;, &#34;params&#34;):
             extra.append(k)
     
     # checks
     checks = []
     if missing:
-        checks.append(f"missing required: {', '.join(missing)}")
-    if fm.get("title") and fm.get("meta_title") and fm["title"] == fm["meta_title"]:
-        checks.append("title == meta_title (ok if intentional)")
-    if fm.get("description") and len(fm["description"]) > 160:
-        checks.append(f"description long ({len(fm['description'])} chars)")
-    if fm.get("meta_title") and len(fm["meta_title"]) > 60:
-        checks.append(f"meta_title long ({len(fm['meta_title'])} chars)")
-    if "slug" not in fm:
-        checks.append("no slug (uses filename)")
-    elif fm.get("slug") and fm["slug"] != f.stem.lstrip("_"):
-        checks.append(f"slug mismatch: {fm['slug']} vs {f.stem.lstrip('_')}")
-    if is_draft_prefix and fm.get("draft") is not True:
-        checks.append(f"__ prefix but draft={fm.get('draft')}")
-    if not is_draft_prefix and fm.get("draft") is True:
-        checks.append("published file but draft: true")
-    if not fm.get("categories"):
-        checks.append("no categories")
-    if not fm.get("tags"):
-        checks.append("no tags")
-    if not fm.get("image"):
-        checks.append("no image")
-    if fm.get("author") and fm["author"] != "JoRap":
-        checks.append(f"author={fm['author']}")
-    if "meta_description" in fm:
-        checks.append("uses meta_description (prefer description)")
-    if "meta_image" in fm:
-        checks.append("uses meta_image")
+        checks.append(f&#34;missing required: {&#39;, &#39;.join(missing)}&#34;)
+    if fm.get(&#34;title&#34;) and fm.get(&#34;meta_title&#34;) and fm[&#34;title&#34;] == fm[&#34;meta_title&#34;]:
+        checks.append(&#34;title == meta_title (ok if intentional)&#34;)
+    if fm.get(&#34;description&#34;) and len(fm[&#34;description&#34;]) &gt; 160:
+        checks.append(f&#34;description long ({len(fm[&#39;description&#39;])} chars)&#34;)
+    if fm.get(&#34;meta_title&#34;) and len(fm[&#34;meta_title&#34;]) &gt; 60:
+        checks.append(f&#34;meta_title long ({len(fm[&#39;meta_title&#39;])} chars)&#34;)
+    if &#34;slug&#34; not in fm:
+        checks.append(&#34;no slug (uses filename)&#34;)
+    elif fm.get(&#34;slug&#34;) and fm[&#34;slug&#34;] != f.stem.lstrip(&#34;_&#34;):
+        checks.append(f&#34;slug mismatch: {fm[&#39;slug&#39;]} vs {f.stem.lstrip(&#39;_&#39;)}&#34;)
+    if is_draft_prefix and fm.get(&#34;draft&#34;) is not True:
+        checks.append(f&#34;__ prefix but draft={fm.get(&#39;draft&#39;)}&#34;)
+    if not is_draft_prefix and fm.get(&#34;draft&#34;) is True:
+        checks.append(&#34;published file but draft: true&#34;)
+    if not fm.get(&#34;categories&#34;):
+        checks.append(&#34;no categories&#34;)
+    if not fm.get(&#34;tags&#34;):
+        checks.append(&#34;no tags&#34;)
+    if not fm.get(&#34;image&#34;):
+        checks.append(&#34;no image&#34;)
+    if fm.get(&#34;author&#34;) and fm[&#34;author&#34;] != &#34;JoRap&#34;:
+        checks.append(f&#34;author={fm[&#39;author&#39;]}&#34;)
+    if &#34;meta_description&#34; in fm:
+        checks.append(&#34;uses meta_description (prefer description)&#34;)
+    if &#34;meta_image&#34; in fm:
+        checks.append(&#34;uses meta_image&#34;)
     if extra:
-        checks.append(f"nonstandard keys: {', '.join(extra)}")
+        checks.append(f&#34;nonstandard keys: {&#39;, &#39;.join(extra)}&#34;)
     
     posts.append({
-        "file": name,
-        "draft": fm.get("draft"),
-        "featured": fm.get("featured"),
-        "fields": sorted(fm.keys()),
-        "checks": checks,
-        "title": fm.get("title"),
-        "meta_title": fm.get("meta_title"),
-        "description": (fm.get("description") or "")[:80],
+        &#34;file&#34;: name,
+        &#34;draft&#34;: fm.get(&#34;draft&#34;),
+        &#34;featured&#34;: fm.get(&#34;featured&#34;),
+        &#34;fields&#34;: sorted(fm.keys()),
+        &#34;checks&#34;: checks,
+        &#34;title&#34;: fm.get(&#34;title&#34;),
+        &#34;meta_title&#34;: fm.get(&#34;meta_title&#34;),
+        &#34;description&#34;: (fm.get(&#34;description&#34;) or &#34;&#34;)[:80],
     })
 
-print(f"Total posts: {len(posts)}")
-print(f"Published (no __ prefix, draft!=true): {sum(1 for p in posts if not p['file'].startswith('__') and p['draft'] is not True)}")
-print(f"Draft (__ or draft:true): {sum(1 for p in posts if p['file'].startswith('__') or p['draft'] is True)}")
+print(f&#34;Total posts: {len(posts)}&#34;)
+print(f&#34;Published (no __ prefix, draft!=true): {sum(1 for p in posts if not p[&#39;file&#39;].startswith(&#39;__&#39;) and p[&#39;draft&#39;] is not True)}&#34;)
+print(f&#34;Draft (__ or draft:true): {sum(1 for p in posts if p[&#39;file&#39;].startswith(&#39;__&#39;) or p[&#39;draft&#39;] is True)}&#34;)
 print()
 
 # Group issues
 from collections import defaultdict
 by_check = defaultdict(list)
 for p in posts:
-    for c in p["checks"]:
-        if c.startswith("title =="):
+    for c in p[&#34;checks&#34;]:
+        if c.startswith(&#34;title ==&#34;):
             continue
-        by_check[c.split(":")[0] if ":" in c else c].append(p["file"])
+        by_check[c.split(&#34;:&#34;)[0] if &#34;:&#34; in c else c].append(p[&#34;file&#34;])
 
-print("=== ISSUE SUMMARY ===")
+print(&#34;=== ISSUE SUMMARY ===&#34;)
 for k in sorted(by_check.keys(), key=lambda x: (-len(by_check[x]), x)):
     files = by_check[k]
-    print(f"\n{k} ({len(files)}):")
+    print(f&#34;\n{k} ({len(files)}):&#34;)
     for f in files[:5]:
-        print(f"  - {f}")
-    if len(files) > 5:
-        print(f"  ... +{len(files)-5} more")
+        print(f&#34;  - {f}&#34;)
+    if len(files) &gt; 5:
+        print(f&#34;  ... +{len(files)-5} more&#34;)
 
-print("\n=== PUBLISHED POSTS WITH ISSUES ===")
+print(&#34;\n=== PUBLISHED POSTS WITH ISSUES ===&#34;)
 for p in posts:
-    if p["file"].startswith("__") or p["draft"] is True:
+    if p[&#34;file&#34;].startswith(&#34;__&#34;) or p[&#34;draft&#34;] is True:
         continue
-    real_issues = [c for c in p["checks"] if not c.startswith("title ==") and c != "no slug (uses filename)"]
+    real_issues = [c for c in p[&#34;checks&#34;] if not c.startswith(&#34;title ==&#34;) and c != &#34;no slug (uses filename)&#34;]
     if real_issues:
-        print(f"\n{p['file']}:")
+        print(f&#34;\n{p[&#39;file&#39;]}:&#34;)
         for c in real_issues:
-            print(f"  - {c}")
+            print(f&#34;  - {c}&#34;)
 
-print("\n=== FIELD COVERAGE (all posts) ===")
+print(&#34;\n=== FIELD COVERAGE (all posts) ===&#34;)
 all_keys = defaultdict(int)
 for p in posts:
-    for k in p["fields"]:
+    for k in p[&#34;fields&#34;]:
         all_keys[k] += 1
 for k, v in sorted(all_keys.items(), key=lambda x: -x[1]):
-    print(f"  {k}: {v}/{len(posts)}")
+    print(f&#34;  {k}: {v}/{len(posts)}&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import os, re, yaml
@@ -4523,131 +702,9 @@ description long (202 chars) (1):
   - why-keep-desktop-laptop.md
 
 description long (206 chars) (1):
-  - __client-site-pass-off.md
-
-description long (212 chars) (1):
-  - why-i-stopped-playing-marvel-snap.md
-
-description long (241 chars) (1):
-  - drupal-to-wordpress.md
-
-description long (242 chars) (1):
-  - hanamikoji-duopoly-retheme.md
-
-meta_title long (64 chars) (1):
-  - __worcestershire-sauce.md
-
-meta_title long (65 chars) (1):
-  - __humanize-ai-articles.md
-
-meta_title long (67 chars) (1):
-  - how-i-built-jorap-notes.md
-
-meta_title long (68 chars) (1):
-  - worship-pads-solo-guitar.md
-
-meta_title long (75 chars) (1):
-  - mouse-wheel-click.md
-
-meta_title long (90 chars) (1):
-  - miracle-isaiah-david.md
-
-=== PUBLISHED POSTS WITH ISSUES ===
-
-consistent-ai-output-wordpress-builds.md:
-  - description long (189 chars)
-
-dnpap-song-resources.md:
-  - meta_title long (66 chars)
-
-drupal-to-wordpress.md:
-  - description long (241 chars)
-
-extension-cord.md:
-  - meta_title long (73 chars)
-
-facebook-favorites-feed.md:
-  - description long (167 chars)
-  - meta_title long (63 chars)
-
-hanamikoji-duopoly-retheme.md:
-  - description long (242 chars)
-
-how-i-built-jorap-notes.md:
-  - description long (191 chars)
-  - meta_title long (67 chars)
-
-hugoplate-theme-review.md:
-  - description long (186 chars)
-
-instant-pot-arroz-caldo.md:
-  - description long (195 chars)
-
-instant-pot-chicken-adobo.md:
-  - description long (170 chars)
-
-miracle-isaiah-david.md:
-  - description long (179 chars)
-  - meta_title long (90 chars)
-
-mouse-wheel-click.md:
-  - description long (179 chars)
-  - meta_title long (75 chars)
-
-one-page-zine.md:
-  - description long (180 chars)
-
-static-site-vs-cms.md:
-  - description long (192 chars)
-
-sustainable-online-publishing.md:
-  - description long (165 chars)
-  - meta_title long (63 chars)
-
-what-i-look-for-in-wireless-earphones.md:
-  - description long (189 chars)
-  - meta_title long (61 chars)
-
-why-i-focused-on-open-source.md:
-  - description long (200 chars)
-  - meta_title long (61 chars)
-
-why-i-stopped-playing-marvel-snap.md:
-  - description long (212 chars)
-
-why-keep-desktop-laptop.md:
-  - description long (202 chars)
-
-why-run-your-own-website.md:
-  - description long (196 chars)
-
-worship-pads-solo-guitar.md:
-  - description long (164 chars)
-  - meta_title long (68 chars)
-
-=== FIELD COVERAGE (all posts) ===
-  author: 56/56
-  categories: 56/56
-  date: 56/56
-  description: 56/56
-  draft: 56/56
-  featured: 56/56
-  image: 56/56
-  meta_title: 56/56
-  related_notes: 56/56
-  slug: 56/56
-  tags: 56/56
-  title: 56/56
-  aliases: 12/56
-  lastmod: 2/56
-
+  - __client
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4655,14 +712,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Progress is good. Now checking more details.
 
-Checking title patterns, related notes, draft status, image paths, voice quality, and category consistency. Will review jorap-voice for frontmatter guidance.</details></think>
+Checking title patterns, related notes, draft status, image paths, voice quality, and category consistency. Will review jorap-voice for frontmatter guidance.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4694,127 +750,119 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import yaml
 from pathlib import Path
 
-blog_dir = Path("content/english/blog")
+blog_dir = Path(&#34;content/english/blog&#34;)
 
 def load_fm(f):
-    text = f.read_text(encoding="utf-8")
-    parts = text.split("---", 2)
+    text = f.read_text(encoding=&#34;utf-8&#34;)
+    parts = text.split(&#34;---&#34;, 2)
     return yaml.safe_load(parts[1]) or {}
 
 # Title vs meta_title
-print("=== title != meta_title ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;=== title != meta_title ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    t, mt = fm.get("title"), fm.get("meta_title")
+    t, mt = fm.get(&#34;title&#34;), fm.get(&#34;meta_title&#34;)
     if t != mt:
-        pub = not f.name.startswith("__") and fm.get("draft") is not True
-        print(f"{'[PUB]' if pub else '[DRAFT]'} {f.name}")
-        print(f"  title: {t}")
-        print(f"  meta_title: {mt}")
+        pub = not f.name.startswith(&#34;__&#34;) and fm.get(&#34;draft&#34;) is not True
+        print(f&#34;{&#39;[PUB]&#39; if pub else &#39;[DRAFT]&#39;} {f.name}&#34;)
+        print(f&#34;  title: {t}&#34;)
+        print(f&#34;  meta_title: {mt}&#34;)
 
 # Empty related_notes
-print("\n=== related_notes empty or missing entries ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== related_notes empty or missing entries ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    rn = fm.get("related_notes")
+    rn = fm.get(&#34;related_notes&#34;)
     if not rn:
-        pub = not f.name.startswith("__") and fm.get("draft") is not True
+        pub = not f.name.startswith(&#34;__&#34;) and fm.get(&#34;draft&#34;) is not True
         if pub:
-            print(f"  {f.name}: {rn}")
+            print(f&#34;  {f.name}: {rn}&#34;)
 
 # featured true
-print("\n=== featured: true ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== featured: true ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    if fm.get("featured") is True:
-        print(f"  {f.name}")
+    if fm.get(&#34;featured&#34;) is True:
+        print(f&#34;  {f.name}&#34;)
 
 # aliases
-print("\n=== aliases ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== aliases ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    if fm.get("aliases"):
-        print(f"  {f.name}: {fm['aliases']}")
+    if fm.get(&#34;aliases&#34;):
+        print(f&#34;  {f.name}: {fm[&#39;aliases&#39;]}&#34;)
 
 # lastmod
-print("\n=== lastmod ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== lastmod ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    if fm.get("lastmod"):
-        print(f"  {f.name}: {fm['lastmod']}")
+    if fm.get(&#34;lastmod&#34;):
+        print(f&#34;  {f.name}: {fm[&#39;lastmod&#39;]}&#34;)
 
 # draft mismatches
-print("\n=== draft/file prefix mismatches ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== draft/file prefix mismatches ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    prefix = f.name.startswith("__")
-    draft = fm.get("draft") is True
+    prefix = f.name.startswith(&#34;__&#34;)
+    draft = fm.get(&#34;draft&#34;) is True
     if prefix != draft:
-        print(f"  {f.name}: __prefix={prefix}, draft={fm.get('draft')}")
+        print(f&#34;  {f.name}: __prefix={prefix}, draft={fm.get(&#39;draft&#39;)}&#34;)
 
 # Check images exist
-print("\n=== missing image files (published only) ===")
-static = Path("static")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== missing image files (published only) ===&#34;)
+static = Path(&#34;static&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    if f.name.startswith("__") or fm.get("draft") is True:
+    if f.name.startswith(&#34;__&#34;) or fm.get(&#34;draft&#34;) is True:
         continue
-    img = fm.get("image", "")
-    if img and not (static / img.lstrip("/")).exists():
-        print(f"  {f.name}: {img}")
+    img = fm.get(&#34;image&#34;, &#34;&#34;)
+    if img and not (static / img.lstrip(&#34;/&#34;)).exists():
+        print(f&#34;  {f.name}: {img}&#34;)
 
 # Categories inventory
 from collections import Counter
 cats = Counter()
-for f in blog_dir.glob("*.md"):
-    if f.name == "_index.md": continue
+for f in blog_dir.glob(&#34;*.md&#34;):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    for c in fm.get("categories") or []:
+    for c in fm.get(&#34;categories&#34;) or []:
         cats[c] += 1
-print("\n=== categories ===")
+print(&#34;\n=== categories ===&#34;)
 for c, n in cats.most_common():
-    print(f"  {c}: {n}")
+    print(f&#34;  {c}: {n}&#34;)
 
 # Date in future?
 from datetime import datetime, timezone
-print("\n=== future dates ===")
+print(&#34;\n=== future dates ===&#34;)
 now = datetime.now(timezone.utc)
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    d = fm.get("date")
+    d = fm.get(&#34;date&#34;)
     if d:
-        if hasattr(d, 'tzinfo') and d.tzinfo is None:
+        if hasattr(d, &#39;tzinfo&#39;) and d.tzinfo is None:
             d = d.replace(tzinfo=timezone.utc)
-        if d > now:
-            pub = not f.name.startswith("__") and fm.get("draft") is not True
-            print(f"  {'[PUB]' if pub else ''} {f.name}: {d}")
+        if d &gt; now:
+            pub = not f.name.startswith(&#34;__&#34;) and fm.get(&#34;draft&#34;) is not True
+            print(f&#34;  {&#39;[PUB]&#39; if pub else &#39;&#39;} {f.name}: {d}&#34;)
 
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import yaml
@@ -4972,231 +1020,22 @@ PY
   meta_title: Markdown Deep Dive - The Plain-Text Layer Under Everything
 [DRAFT] __markdown-formatting.md
   title: Markdown Formatting
-  meta_title: Markdown Formatting - How I Make Posts Scannable
-[DRAFT] __mcgill-big-three.md
-  title: Stuart McGill's Big Three Low Back Exercises
-  meta_title: McGill's Big Three - Curl-Up, Side Plank, Bird Dog
-[DRAFT] __mi-box-s.md
-  title: Mi Box S
-  meta_title: Mi Box S - A Cheap Android TV Box Worth Talking About
-[DRAFT] __native-hugo-taxonomies.md
-  title: Native Hugo Taxonomies
-  meta_title: Native Hugo Taxonomies - Categories, Tags, and What I Don't Let Grow Wild
-[DRAFT] __obsidian-vs-hugo.md
-  title: Obsidian vs Hugo
-  meta_title: Obsidian vs Hugo - Private Wiki vs Public Site
-[DRAFT] __password-managers.md
-  title: Password Managers
-  meta_title: Why I Use Bitwarden (and a Password Manager at All)
-[DRAFT] __rechargeable-batteries.md
-  title: Rechargeable Batteries
-  meta_title: Rechargeable Batteries - Stop Buying AAs Every Month
-[DRAFT] __remote-work-checklist.md
-  title: Remote Work Checklist
-  meta_title: Remote Work Checklist - What I Pack for a Productive Day Away
-[DRAFT] __second-cellphone.md
-  title: 2nd Cellphone
-  meta_title: Why I Keep a Second Cellphone
-[DRAFT] __selling-static-sites.md
-  title: How I Quote Client Websites
-  meta_title: How I Quote Client Websites - Clear Line Items, No Mystery Fees
-[DRAFT] __shopee-tips.md
-  title: Shopee Tips
-  meta_title: Shopee Tips - How I Shop Smarter on Shopee
-[DRAFT] __smart-plug.md
-  title: Smart Plug
-  meta_title: Smart Plug - Simple Automation That Actually Sticks
-[DRAFT] __sveltia-cms.md
-  title: Sveltia CMS
-  meta_title: Sveltia CMS - When the Client Won't Touch Git
-[DRAFT] __tailwind-css-v4.md
-  title: Tailwind CSS v4.0
-  meta_title: Tailwind CSS v4 - What Changed When Hugoplate Upgraded
-[DRAFT] __wifi-router.md
-  title: Wifi Router
-  meta_title: Wifi Router - What I Look For and What I'd Buy Again
-[DRAFT] __worcestershire-sauce.md
-  title: Worcestershire Sauce - Lee and Perrins
-  meta_title: Lee &amp; Perrins Worcestershire Sauce - The Bottle I Always Restock
-[PUB] dnpap-song-resources.md
-  title: DNPAP - Song Resources
-  meta_title: DNPAP - Song Resources by Destiny Music | Spotify, YouTube, Lyrics
-[PUB] drupal-to-wordpress.md
-  title: Why I Switched from Drupal to WordPress
-  meta_title: Why I Left Drupal for WordPress
-[PUB] extension-cord.md
-  title: The Short Extension Cord in My Laptop Bag
-  meta_title: The Short Extension Cord in My Laptop Bag - Hotel Outlets and Tight Plugs
-[PUB] facebook-favorites-feed.md
-  title: Facebook's Hidden Gem: The Favorites Feed
-  meta_title: Facebook's Favorites Feed: The Only Reason I Still Open the App
-[PUB] hanamikoji-duopoly-retheme.md
-  title: Retheming Hanamikoji as Duopoly
-  meta_title: Hanamikoji to Duopoly: Component Cuts and Mechanics Test
-[PUB] how-i-built-jorap-notes.md
-  title: How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!)
-  meta_title: How I Built JoRap Notes: A Developer's Guide to Static Site Hosting
-[PUB] hugoplate-theme-review.md
-  title: HugoPlate: The Theme Quietly Powering This Site
-  meta_title: HugoPlate Theme Review: Why It Powers JoRap Notes
-[PUB] instant-pot-arroz-caldo.md
-  title: Instant Pot Arroz Caldo
-  meta_title: Instant Pot Arroz Caldo - Big-Batch Filipino Congee
-[PUB] instant-pot-chicken-adobo.md
-  title: Instant Pot Chicken Adobo
-  meta_title: Instant Pot Chicken Adobo - Filipino Comfort Food
-[PUB] miracle-isaiah-david.md
-  title: The Miracle of Isaiah David
-  meta_title: The Miracle of Isaiah David - We Found Out She Was Pregnant and Gave Birth on the Same Day
-[PUB] mouse-wheel-click.md
-  title: The Mouse Wheel Click: One Button, Three Operating Systems
-  meta_title: The Mouse Wheel Click: Cross-Platform Power Move on Windows, Mac, and Linux
-[PUB] one-page-zine.md
-  title: One Sheet, Eight Pages: Why I Use a 1-Page Zine for Rules Booklets
-  meta_title: 1-Page Zine for Board Game Rules and Quick Booklets
-[PUB] static-site-vs-cms.md
-  title: Static Site or CMS? How I Pick the Stack
-  meta_title: Static Site vs CMS - When Each One Actually Fits
-[PUB] sustainable-online-publishing.md
-  title: Sustainable Online Publishing
-  meta_title: Sustainable Online Publishing - Own Your Corner of the Internet
-[PUB] what-i-look-for-in-wireless-earphones.md
-  title: What I Look For in Wireless Earphones
-  meta_title: What I Look For in Wireless Earphones - My Personal Checklist
-[PUB] why-i-focused-on-open-source.md
-  title: Why I Focused on Open Source Technologies
-  meta_title: Why I Bet on Open Source - Practical Reasons, Not a Manifesto
-[PUB] why-i-stopped-playing-marvel-snap.md
-  title: Why I Stopped Playing Marvel Snap
-  meta_title: Why I Quit Marvel Snap
-[PUB] why-run-your-own-website.md
-  title: Why I Still Run My Own Website
-  meta_title: Why I Still Run My Own Website - Not Just Facebook
 
-=== related_notes empty or missing entries ===
-
-=== featured: true ===
-
-=== aliases ===
-  __hugo-shortcodes.md: ['hugo-shortcodes-deep-dive']
-  __humanize-ai-articles.md: ['make-ai-articles-more-human']
-  __immune-booster-supplements.md: ['personal-immune-booster-supplements']
-  __mcgill-big-three.md: ['stuart-mcgill-big-three-low-back-exercises']
-  __worcestershire-sauce.md: ['worcestershire-sauce-lee-and-perrins']
-  facebook-favorites-feed.md: ['facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience']
-  getting-started-with-rss-feeds.md: ['getting-started-with-rss-feeds-a-beginners-guide']
-  hanamikoji-duopoly-retheme.md: ['hanamikoji-rules']
-  mouse-wheel-click.md: ['power-of-the-mouse-wheel-click']
-  why-keep-desktop-laptop.md: ['top-reasons-why-you-still-need-use-desktop-laptop']
-  why-run-your-own-website.md: ['top-reasons-create-maintain-your-own-website']
-  worship-pads-solo-guitar.md: ['power-of-worship-pads-enhancing-your-worship-with-guitar', 'power-of-worship-pads-enhancing-your-worship-experience']
-
-=== lastmod ===
-  alex-eala-pro-career-tracker.md: 2026-07-13T15:24:00Z
-  hanamikoji-duopoly-retheme.md: 2026-07-14T02:37:00Z
-
-=== draft/file prefix mismatches ===
-
-=== missing image files (published only) ===
-  alex-eala-pro-career-tracker.md: /images/alex-eala.jpg
-  consistent-ai-output-wordpress-builds.md: /images/feature-consistent-ai-output.jpg
-  dnpap-song-resources.md: /images/feature-dnpap.jpg
-  drupal-to-wordpress.md: /images/drupal-to-wp.jpg
-  extension-cord.md: /images/extension-cord.jpg
-  facebook-favorites-feed.md: /images/fbf.jpg
-  getting-started-with-rss-feeds.md: /images/rss.jpg
-  hanamikoji-duopoly-retheme.md: /images/duopoly.jpg
-  how-i-built-jorap-notes.md: /images/joraps-world.jpg
-  hugoplate-theme-review.md: /images/joraps-world.jpg
-  instant-pot-arroz-caldo.md: /images/instant-pot-arroz-caldo.jpg
-  instant-pot-chicken-adobo.md: /images/Chicken-Adobo.jpg
-  miracle-isaiah-david.md: /images/feature-isaiah-david.jpg
-  mouse-wheel-click.md: /images/feature-mouse-wheel-click.jpg
-  one-page-zine.md: /images/one-page-zine.jpg
-  set-it-forget-it-arroz-caldo.md: /images/arroz-caldo.jpg
-  static-site-vs-cms.md: /images/static-vs-cms.jpg
-  sustainable-online-publishing.md: /images/sustainable-publishing.jpg
-  what-i-look-for-in-wireless-earphones.md: /images/feature-soundpeats-runfree.jpg
-  why-i-focused-on-open-source.md: /images/open-source.jpg
-  why-i-stopped-playing-marvel-snap.md: /images/stop_snap.jpg
-  why-keep-desktop-laptop.md: /images/feature-desktop.jpg
-  why-run-your-own-website.md: /images/website.jpg
-  worship-pads-solo-guitar.md: /images/worship-pads.jpg
-
-=== categories ===
-  Technology: 30
-  Website: 20
-  Tips: 17
-  Tutorial: 15
-  Reviews: 10
-  Gear: 8
-  Productivity: 6
-  Food: 5
-  Filipino: 5
-  Ideas: 3
-  Business: 3
-  Opinion: 3
-  Health: 3
-  AI: 3
-  Games: 3
-  Recipes: 3
-  Pantry: 2
-  Worship: 2
-  Music: 2
-  Web Development: 2
-  Writing: 2
-  Home: 2
-  Design: 2
-  Guide: 2
-  Sports: 1
-  People: 1
-  Faith: 1
-  Family: 1
-  Testimony: 1
-  Fitness: 1
-  Wellness: 1
-  Shopping: 1
-  Social Media: 1
-  Developer Life: 1
-  Security: 1
-
-=== future dates ===
-Traceback (most recent call last):
-  File "&lt;stdin&gt;", line 103, in &lt;module&gt;
-TypeError: '&gt;' not supported between instances of 'str' and 'datetime.datetime'
-
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
@@ -5207,121 +1046,115 @@ Image checks failed because images likely reside in assets/ rather than static/.
 
 A comprehensive audit is underway. Image paths, related_notes slug validity, tag counts, empty categories, description voice, and jorap-voice frontmatter are being reviewed. The goal is a full report rather than immediate fixes.
 
-alex-eala appears to be a special live post.</details></think>
+alex-eala appears to be a special live post.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import yaml
 from pathlib import Path
 
-blog_dir = Path("content/english/blog")
-notes_dir = Path("content/english/notes")
+blog_dir = Path(&#34;content/english/blog&#34;)
+notes_dir = Path(&#34;content/english/notes&#34;)
 
 note_slugs = set()
-for f in notes_dir.glob("*.md"):
-    if f.name == "_index.md": continue
-    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
-    note_slugs.add(fm.get("slug") or f.stem)
+for f in notes_dir.glob(&#34;*.md&#34;):
+    if f.name == &#34;_index.md&#34;: continue
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    note_slugs.add(fm.get(&#34;slug&#34;) or f.stem)
 
 def img_exists(path):
     if not path: return False
-    p = path.lstrip("/")
-    return (Path("static")/p).exists() or (Path("assets")/p).exists()
+    p = path.lstrip(&#34;/&#34;)
+    return (Path(&#34;static&#34;)/p).exists() or (Path(&#34;assets&#34;)/p).exists()
 
 def load_fm(f):
-    return yaml.safe_load(f.read_text().split("---",2)[1]) or {}
+    return yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
 
 # related_notes validation
-print("=== invalid related_notes slugs ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;=== invalid related_notes slugs ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    for slug in fm.get("related_notes") or []:
+    for slug in fm.get(&#34;related_notes&#34;) or []:
         if slug not in note_slugs:
-            print(f"  {f.name}: {slug}")
+            print(f&#34;  {f.name}: {slug}&#34;)
 
 # image check both dirs
-print("\n=== images missing from static/ and assets/ ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== images missing from static/ and assets/ ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    img = fm.get("image","")
+    img = fm.get(&#34;image&#34;,&#34;&#34;)
     if img and not img_exists(img):
-        pub = not f.name.startswith("__") and fm.get("draft") is not True
-        print(f"  {'[PUB]' if pub else '[DRAFT]'} {f.name}: {img}")
+        pub = not f.name.startswith(&#34;__&#34;) and fm.get(&#34;draft&#34;) is not True
+        print(f&#34;  {&#39;[PUB]&#39; if pub else &#39;[DRAFT]&#39;} {f.name}: {img}&#34;)
 
 # tag count
-print("\n=== tag count > 10 ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== tag count &gt; 10 ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    tags = fm.get("tags") or []
-    if len(tags) > 10:
-        pub = not f.name.startswith("__") and fm.get("draft") is not True
-        print(f"  {'[PUB]' if pub else '[DRAFT]'} {f.name}: {len(tags)} tags")
+    tags = fm.get(&#34;tags&#34;) or []
+    if len(tags) &gt; 10:
+        pub = not f.name.startswith(&#34;__&#34;) and fm.get(&#34;draft&#34;) is not True
+        print(f&#34;  {&#39;[PUB]&#39; if pub else &#39;[DRAFT]&#39;} {f.name}: {len(tags)} tags&#34;)
 
 # empty categories
-print("\n=== empty categories ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== empty categories ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    if not fm.get("categories"):
-        print(f"  {f.name}")
+    if not fm.get(&#34;categories&#34;):
+        print(f&#34;  {f.name}&#34;)
 
 # description length buckets published
-print("\n=== published description lengths ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== published description lengths ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    if f.name.startswith("__") or fm.get("draft") is True: continue
-    d = fm.get("description","")
-    print(f"  {len(d):3d} {f.name}")
+    if f.name.startswith(&#34;__&#34;) or fm.get(&#34;draft&#34;) is True: continue
+    d = fm.get(&#34;description&#34;,&#34;&#34;)
+    print(f&#34;  {len(d):3d} {f.name}&#34;)
 
 # meta_title lengths published
-print("\n=== published meta_title lengths ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== published meta_title lengths ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    if f.name.startswith("__") or fm.get("draft") is True: continue
-    mt = fm.get("meta_title","")
-    flag = " ***" if len(mt) > 60 else ""
-    print(f"  {len(mt):3d}{flag} {f.name}")
+    if f.name.startswith(&#34;__&#34;) or fm.get(&#34;draft&#34;) is True: continue
+    mt = fm.get(&#34;meta_title&#34;,&#34;&#34;)
+    flag = &#34; ***&#34; if len(mt) &gt; 60 else &#34;&#34;
+    print(f&#34;  {len(mt):3d}{flag} {f.name}&#34;)
 
 # title same as meta_title published
-print("\n=== published where title == meta_title ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== published where title == meta_title ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    if f.name.startswith("__") or fm.get("draft") is True: continue
-    if fm.get("title") == fm.get("meta_title"):
-        print(f"  {f.name}")
+    if f.name.startswith(&#34;__&#34;) or fm.get(&#34;draft&#34;) is True: continue
+    if fm.get(&#34;title&#34;) == fm.get(&#34;meta_title&#34;):
+        print(f&#34;  {f.name}&#34;)
 
 # related_notes empty
-print("\n=== empty related_notes ===")
-for f in sorted(blog_dir.glob("*.md")):
-    if f.name == "_index.md": continue
+print(&#34;\n=== empty related_notes ===&#34;)
+for f in sorted(blog_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
     fm = load_fm(f)
-    if not fm.get("related_notes"):
-        pub = not f.name.startswith("__") and fm.get("draft") is not True
-        print(f"  {'[PUB]' if pub else '[DRAFT]'} {f.name}")
+    if not fm.get(&#34;related_notes&#34;):
+        pub = not f.name.startswith(&#34;__&#34;) and fm.get(&#34;draft&#34;) is not True
+        print(f&#34;  {&#39;[PUB]&#39; if pub else &#39;[DRAFT]&#39;} {f.name}&#34;)
 
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import yaml
@@ -5440,7 +1273,7 @@ PY
 
 === images missing from static/ and assets/ ===
 
-=== tag count &gt; 10 ===
+=== tag count > 10 ===
   [DRAFT] __craft-prompt-framework.md: 14 tags
   [DRAFT] __how-to-create-a-good-habit.md: 12 tags
   [DRAFT] __humanize-ai-articles.md: 14 tags
@@ -5470,88 +1303,15 @@ PY
   [PUB] what-i-look-for-in-wireless-earphones.md: 12 tags
   [PUB] why-i-focused-on-open-source.md: 11 tags
   [PUB] why-keep-desktop-laptop.md: 15 tags
-  [PUB] why-run-your-own-website.md: 19 tags
-  [PUB] worship-pads-solo-guitar.md: 15 tags
-
-=== empty categories ===
-
-=== published description lengths ===
-  121 alex-eala-pro-career-tracker.md
-  189 consistent-ai-output-wordpress-builds.md
-  160 dnpap-song-resources.md
-  241 drupal-to-wordpress.md
-  149 extension-cord.md
-  167 facebook-favorites-feed.md
-  160 getting-started-with-rss-feeds.md
-  242 hanamikoji-duopoly-retheme.md
-  191 how-i-built-jorap-notes.md
-  186 hugoplate-theme-review.md
-  195 instant-pot-arroz-caldo.md
-  170 instant-pot-chicken-adobo.md
-  179 miracle-isaiah-david.md
-  179 mouse-wheel-click.md
-  180 one-page-zine.md
-  156 set-it-forget-it-arroz-caldo.md
-  192 static-site-vs-cms.md
-  165 sustainable-online-publishing.md
-  189 what-i-look-for-in-wireless-earphones.md
-  200 why-i-focused-on-open-source.md
-  212 why-i-stopped-playing-marvel-snap.md
-  202 why-keep-desktop-laptop.md
-  196 why-run-your-own-website.md
-  164 worship-pads-solo-guitar.md
-
-=== published meta_title lengths ===
-   28 alex-eala-pro-career-tracker.md
-   41 consistent-ai-output-wordpress-builds.md
-   66 *** dnpap-song-resources.md
-   31 drupal-to-wordpress.md
-   73 *** extension-cord.md
-   63 *** facebook-favorites-feed.md
-   39 getting-started-with-rss-feeds.md
-   56 hanamikoji-duopoly-retheme.md
-   67 *** how-i-built-jorap-notes.md
-   49 hugoplate-theme-review.md
-   51 instant-pot-arroz-caldo.md
-   49 instant-pot-chicken-adobo.md
-   90 *** miracle-isaiah-david.md
-   75 *** mouse-wheel-click.md
-   51 one-page-zine.md
-   36 set-it-forget-it-arroz-caldo.md
-   48 static-site-vs-cms.md
-   63 *** sustainable-online-publishing.md
-   61 *** what-i-look-for-in-wireless-earphones.md
-   61 *** why-i-focused-on-open-source.md
-   22 why-i-stopped-playing-marvel-snap.md
-   36 why-keep-desktop-laptop.md
-   50 why-run-your-own-website.md
-   68 *** worship-pads-solo-guitar.md
-
-=== published where title == meta_title ===
-  alex-eala-pro-career-tracker.md
-  consistent-ai-output-wordpress-builds.md
-  getting-started-with-rss-feeds.md
-  set-it-forget-it-arroz-caldo.md
-  why-keep-desktop-laptop.md
-  worship-pads-solo-guitar.md
-
-=== empty related_notes ===
-
+  [PUB] why-run-your-ow
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5657,13 +1417,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5671,13 +1424,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A linter script exists at `scripts/normalize-blog-frontmatter.py` to review blog frontmatter.
 
-Running the linter to check field order issues. Invalid related_notes slugs may be in subdirectories or named differently.</details></think>
+Running the linter to check field order issues. Invalid related_notes slugs may be in subdirectories or named differently.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-blog-frontmatter.py 2>&1 | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-blog-frontmatter.py 2&gt;&amp;1 | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-blog-frontmatter.py 2>&1 | head -80
 ```
@@ -5686,20 +1439,12 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-blog-fron
 0 blog post(s) would change (pass --write)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5745,21 +1490,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5785,25 +1521,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
 
 </details></tool-use>
 
@@ -5812,14 +1535,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking whether invalid related_notes slugs map to note titles missing slug fields.
 
-Searching notes for sketchpad, recovery, and similar terms.</details></think>
+Searching notes for sketchpad, recovery, and similar terms.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5887,20 +1609,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-blog-frontmatter.py --check 2>&1; pnpm lint:blog 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-blog-frontmatter.py --check 2&gt;&amp;1; pnpm lint:blog 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-blog-frontmatter.py --check 2>&1; pnpm lint:blog 2>&1 | tail -20
 ```
@@ -5911,20 +1625,12 @@ $ python3 scripts/normalize-blog-frontmatter.py --verify
 Blog frontmatter OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5955,13 +1661,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5969,14 +1668,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Invalid related_notes entries use alias-style slugs that don't match actual note slugs.
 
-Recovery maps to energy-protects-judgment. Progressive-layers maps to layered-reading. Follow-through maps to complete-the-cycle. Sketchpad, crdt, and elon-musk still need to be matched.</details></think>
+Recovery maps to energy-protects-judgment. Progressive-layers maps to layered-reading. Follow-through maps to complete-the-cycle. Sketchpad, crdt, and elon-musk still need to be matched.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6001,51 +1699,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
 
 </details></tool-use>
 
@@ -6060,14 +1733,13 @@ Found several frontmatter issues across blogs:
 - Several posts have broken related notes links
 - Tag bloat and inconsistent description voice
 - SEO-style meta titles on personal posts
-- Need to verify selling-static-sites status and sample descriptions</details></think>
+- Need to verify selling-static-sites status and sample descriptions
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6102,21 +1774,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6141,21 +1804,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6180,52 +1834,32 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking how related_notes resolve in the site. Aliases may work at render time.</details></think>
+Checking how related_notes resolve in the site. Aliases may work at render time.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6267,21 +1901,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6306,43 +1931,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the related-notes.html partial to understand how slugs are resolved.</details></think>
+Checking the related-notes.html partial to understand how slugs are resolved.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
 
 </details></tool-use>
 
@@ -6351,23 +1958,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Related notes match only by slug or ContentBaseName, not by aliases.
 
-Broken slugs silently fail to match and fall back to tag overlap. Recovery maps to energy-protects-judgment. Progressive-layers maps to layered-reading. Follow-through maps to complete-the-cycle. Sketchpad, crdt, and elon-musk have no matches. Searching the repository for sketchpad.</details></think>
+Broken slugs silently fail to match and fall back to tag overlap. Recovery maps to energy-protects-judgment. Progressive-layers maps to layered-reading. Follow-through maps to complete-the-cycle. Sketchpad, crdt, and elon-musk have no matches. Searching the repository for sketchpad.
+</details></think>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6401,38 +2005,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
@@ -6443,53 +2028,34 @@ Frontmatter contains dead references to crdt and sketchpad. These appear to be o
 
 Field order passed validation. The report will cover overall health, schema compliance, and severity-ranked issues. Published posts show long descriptions and titles, duplicate meta_titles, and broken related_notes slugs.
 
-Most published posts exceed ten tags. Meta_titles contain "-ish" suffixes and Spotify or YouTube references. Draft posts repeat these patterns. Alex-eala has thirteen tags and identical title and meta_title. Hugoplate and consistent-ai need meta_title voiceSEO checks.</details></think>
+Most published posts exceed ten tags. Meta_titles contain "-ish" suffixes and Spotify or YouTube references. Draft posts repeat these patterns. Alex-eala has thirteen tags and identical title and meta_title. Hugoplate and consistent-ai need meta_title voiceSEO checks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6528,13 +2094,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6548,7 +2107,8 @@ Description lengths exceed 160 characters on 20 of 24 published posts. Meta titl
 
 Published meta_titles contain SEO-style keyword stuffing. Categories are loose with many one-off values. Twelve posts have aliases configured for URL redirects. Only two posts use lastmod.
 
-The `getting-started-with-rss` post title does not match its filename. Recommendations will be grouped by priority.</details></think>
+The `getting-started-with-rss` post title does not match its filename. Recommendations will be grouped by priority.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6681,7 +2241,8 @@ Beginning a full frontmatter review of all 24 published blog posts.
 
 Fixing broken related_notes slugs, trimming long descriptions and meta_titles, differentiating identical titles, and limiting diet tags. Reading all 24 published posts now.
 
-Batch-reading all 24 frontmatters now. Mapping out slug corrections: recovery becomes energy-protects-judgment, follow-through becomes complete-the-cycle, sketchpad likely needs removal, and crdt should be dropped from mouse-wheel-click.</details></think>
+Batch-reading all 24 frontmatters now. Mapping out slug corrections: recovery becomes energy-protects-judgment, follow-through becomes complete-the-cycle, sketchpad likely needs removal, and crdt should be dropped from mouse-wheel-click.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6690,29 +2251,28 @@ Doing a full frontmatter pass on all 24 published posts: reading each file's fro
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 from pathlib import Path
 import yaml
-blog = Path("content/english/blog")
-for f in sorted(blog.glob("*.md")):
-    if f.name.startswith("__") or f.name == "_index.md": continue
-    fm = yaml.safe_load(f.read_text().split("---",2)[1])
-    if fm.get("draft") is True: continue
-    print(f"=== {f.name} ===")
-    for k in ["title","meta_title","description","tags","related_notes"]:
+blog = Path(&#34;content/english/blog&#34;)
+for f in sorted(blog.glob(&#34;*.md&#34;)):
+    if f.name.startswith(&#34;__&#34;) or f.name == &#34;_index.md&#34;: continue
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1])
+    if fm.get(&#34;draft&#34;) is True: continue
+    print(f&#34;=== {f.name} ===&#34;)
+    for k in [&#34;title&#34;,&#34;meta_title&#34;,&#34;description&#34;,&#34;tags&#34;,&#34;related_notes&#34;]:
         v = fm.get(k)
-        if k == "description":
-            print(f"  desc ({len(v)}): {v}")
-        elif k == "meta_title":
-            print(f"  meta ({len(v)}): {v}")
-        elif k == "tags":
-            print(f"  tags ({len(v)}): {v}")
+        if k == &#34;description&#34;:
+            print(f&#34;  desc ({len(v)}): {v}&#34;)
+        elif k == &#34;meta_title&#34;:
+            print(f&#34;  meta ({len(v)}): {v}&#34;)
+        elif k == &#34;tags&#34;:
+            print(f&#34;  tags ({len(v)}): {v}&#34;)
         else:
-            print(f"  {k}: {v}")
+            print(f&#34;  {k}: {v}&#34;)
     print()
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 from pathlib import Path
@@ -6759,173 +2319,15 @@ PY
   tags (17): ['DNPAP', 'Destiny Music', 'Spotify', 'YouTube', 'Filipino Worship', 'OPM', 'Song Resources', 'Lyrics', 'Live Recording', 'Christian Music', 'Worship Resources', 'Music Ministry', 'Filipino Music', 'Chord Charts', 'Music Video', 'Philippines', 'Filipino']
   related_notes: ['love-god', 'free-grace', 'ask-seek-knock']
 
-=== drupal-to-wordpress.md ===
-  title: Why I Switched from Drupal to WordPress
-  meta (31): Why I Left Drupal for WordPress
-  desc (241): I went hunting for the best open-source CMS, fell hard for Drupal's architecture, and still couldn't find work with it. WordPress had ACF and Gutenberg that felt familiar - plus a plugin ecosystem and a community big enough to pay the bills.
-  tags (13): ['Drupal', 'WordPress', 'CMS', 'Web Development', 'Developer Life', 'Career', 'Open Source', 'Gutenberg', 'ACF', 'Content Management', 'WordCamp', 'PHP', 'Freelance']
-  related_notes: ['git-based-cms']
-
-=== extension-cord.md ===
-  title: The Short Extension Cord in My Laptop Bag
-  meta (73): The Short Extension Cord in My Laptop Bag - Hotel Outlets and Tight Plugs
-  desc (149): A short extension cord lives in my laptop bag. Hotel outlets behind the bed, blocked café sockets, full meeting-room strips - here's what I look for.
-  tags (10): ['Extension Cord', 'Laptop', 'Travel Gear', 'Remote Work', 'Power', 'Home Office', 'Electrical Safety', 'Cable', 'Hotel', 'Work From Anywhere']
-  related_notes: ['reliability', 'preparedness', 'safety-comes-first']
-
-=== facebook-favorites-feed.md ===
-  title: Facebook's Hidden Gem: The Favorites Feed
-  meta (63): Facebook's Favorites Feed: The Only Reason I Still Open the App
-  desc (167): I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists - and it's the only reason I still open the app.
-  tags (17): ['Facebook', 'Favorites Feed', 'Social Media Tips', 'Digital Wellbeing', 'Algorithm', 'Personalization', 'Mindful Tech', 'Feed Curation', 'Internet', 'Meta', 'News Feed', 'Screen Time', 'Content Curation', 'Social Networks', 'PKM', 'Information Diet', 'Digital Minimalism']
-  related_notes: ['digital-minimalism', 'note-relationships', 'attention-economy', 'graph-view-analytics', 'signal-vs-noise', 'commonplace-book']
-
-=== getting-started-with-rss-feeds.md ===
-  title: RSS Feeds - What I Wish I'd Done Sooner
-  meta (39): RSS Feeds - What I Wish I'd Done Sooner
-  desc (160): I figured RSS quietly died around 2010. A friend pointed out it never actually did - it just stopped being trendy. Two weeks of using it later, I was a convert.
-  tags (20): ['RSS Feeds', 'RSS', 'Inoreader', 'Content Management', 'Productivity Tools', 'Digital Organization', 'News Reader', 'Information Management', 'Beginner Guide', 'Internet', 'Reading', 'Feedly', 'Syndication', 'Web Reading', 'Digital Minimalism', 'News Aggregation', 'PKM', 'Research', 'Second Brain', 'Information Diet']
-  related_notes: ['synthesis-as-a-goal', 'literature-notes', 'digital-minimalism', 'digital-serendipity', 'the-second-brain-workflow', 'attention-economy']
-
-=== hanamikoji-duopoly-retheme.md ===
-  title: Retheming Hanamikoji as Duopoly
-  meta (56): Hanamikoji to Duopoly: Component Cuts and Mechanics Test
-  desc (242): I love Hanamikoji for the mechanics, not the geisha art. Duopoly is my personal build log: fewer components, dull flags, and a test of whether the mechanics still hooks you without the illustration. Not a print-and-play — buy the retail game.
-  tags (10): ['Duopoly', 'Hanamikoji', 'Board Games', 'Card Games', 'Game Design', 'Component Design', 'Retheme', 'I Split You Choose', 'Zine', 'DIY']
-  related_notes: ['minimum-effective-dose', 'practice-small-experiments', 'signal-vs-noise']
-
-=== how-i-built-jorap-notes.md ===
-  title: How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!)
-  meta (67): How I Built JoRap Notes: A Developer's Guide to Static Site Hosting
-  desc (191): I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - faster, and honestly better than what I was paying for.
-  tags (20): ['Website Building', 'Hugo CMS', 'GitHub', 'Cloudflare Pages', 'Static Sites', 'JAMstack', 'Self-Hosting', 'PHP', 'Migration', 'Developer Life', 'Hugo', 'DevOps', 'Site Migration', 'Static Site Generator', 'Web Hosting', 'Publishing', 'Digital Garden', 'PKM', 'Note Taking', 'Blogging']
-  related_notes: ['digital-garden', 'drafting-in-public', 'the-garage-concept', 'selling-static-sites', 'note-relationships', 'success-is-stewardship']
-
-=== hugoplate-theme-review.md ===
-  title: HugoPlate: The Theme Quietly Powering This Site
-  meta (49): HugoPlate Theme Review: Why It Powers JoRap Notes
-  desc (186): After losing half a Saturday to theme-shopping, I picked HugoPlate - and a year and change later, I'm still on it. Here's what comes in the box, what I changed, and where it still bites.
-  tags (18): ['Hugo CMS', 'Hugoplate', 'Tailwind CSS', 'Website Building', 'Themes', 'Theme Review', 'Static Sites', 'Open Source', 'Frontend', 'Developer Life', 'Hugo', 'Static Site Generator', 'Bootstrap', 'Web Development', 'JoRap', 'Publishing', 'Digital Garden', 'PKM']
-  related_notes: ['the-garage-concept', 'digital-garden', 'drafting-in-public', 'git-based-cms', 'free-tier-hosting-stack', 'selling-static-sites']
-
-=== instant-pot-arroz-caldo.md ===
-  title: Instant Pot Arroz Caldo
-  meta (51): Instant Pot Arroz Caldo - Big-Batch Filipino Congee
-  desc (195): My arroz caldo now lives in an 8-quart Instant Pot. Bone-in drumsticks, 25 minutes under pressure, and a base you taste before the raw chicken goes in - big batch, about 45 minutes start to bowl.
-  tags (17): ['Arroz Caldo', 'Filipino Recipes', 'Instant Pot', 'Pressure Cooking', 'Comfort Food', 'Home Cooking', 'Chicken Recipes', 'Congee', 'Rice Porridge', 'Filipino Food', 'Ginger', 'Glutinous Rice', 'Malagkit', 'Philippines', 'Filipino Cuisine', 'One-Pot Meals', 'Meal Prep']
-  related_notes: ['habit-formation', 'slow-productivity', 'preparedness', 'recovery']
-
-=== instant-pot-chicken-adobo.md ===
-  title: Instant Pot Chicken Adobo
-  meta (49): Instant Pot Chicken Adobo - Filipino Comfort Food
-  desc (170): My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting.
-  tags (18): ['Chicken Adobo', 'Filipino Recipes', 'Instant Pot', 'Pressure Cooking', 'Comfort Food', 'Home Cooking', 'Chicken Recipes', 'Easy Cooking', 'Meal Prep', 'Filipino Food', 'Adobo', 'Weeknight Dinner', 'Pressure Cooker', 'Soy Sauce', 'Garlic', 'Vinegar', 'Philippines', 'Filipino Cuisine']
-  related_notes: ['habit-formation', 'slow-productivity', 'preparedness', 'recovery']
-
-=== miracle-isaiah-david.md ===
-  title: The Miracle of Isaiah David
-  meta (90): The Miracle of Isaiah David - We Found Out She Was Pregnant and Gave Birth on the Same Day
-  desc (179): On May 8, 2020, Pia and I found out she was pregnant - and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded.
-  tags (20): ['Isaiah David', 'Miracle Story', '700 Club Asia', 'GMA News', '24 Oras', 'DZMM Teleradyo', 'Facebook', 'YouTube', 'Parenthood', 'Pregnancy', 'Faith Story', 'Pandemic Story', 'Hidden Pregnancy', 'ECQ', 'Filipino Family', 'Birth Story', 'COVID-19', 'Miracle', 'Philippines', 'Christian Testimony']
-  related_notes: ['childlike-faith', 'free-grace', 'dont-worry']
-
-=== mouse-wheel-click.md ===
-  title: The Mouse Wheel Click: One Button, Three Operating Systems
-  meta (75): The Mouse Wheel Click: Cross-Platform Power Move on Windows, Mac, and Linux
-  desc (179): Most people right-click every link to open it in a new tab. There's a faster button right under their finger - same gesture on Windows, Mac, and Linux - and almost nobody uses it.
-  tags (17): ['Mouse', 'Mouse Wheel Click', 'Keyboard Shortcuts', 'Browser Tips', 'Windows', 'macOS', 'Linux', 'Cross-Platform', 'Workflow', 'Middle Click', 'Browser Workflow', 'Productivity Hack', 'Mouse Tips', 'Tab Management', 'PKM', 'Second Brain', 'Productivity']
-  related_notes: ['context-aware-capture', 'the-second-brain-workflow', 'commonplace-book', 'crdt', 'inbox-zero', 'information-diet']
-
-=== one-page-zine.md ===
-  title: One Sheet, Eight Pages: Why I Use a 1-Page Zine for Rules Booklets
-  meta (51): 1-Page Zine for Board Game Rules and Quick Booklets
-  desc (180): One sheet of paper, folded into an eight-page booklet. I use it for board game rules, quick guides, and anything that needs to fit in a pocket or a game box without a print budget.
-  tags (10): ['Zine', 'Board Games', 'Print Design', 'Rules Booklet', 'DIY', 'Game Design', 'Papercraft', 'Quick Reference', 'Print and Play', 'Tutorial']
-  related_notes: ['minimum-viable-product', 'practice-small-experiments', 'minimum-effective-dose', 'signal-vs-noise', 'ship-it']
-
-=== set-it-forget-it-arroz-caldo.md ===
-  title: The Set It and Forget It Arroz Caldo
-  meta (36): The Set It and Forget It Arroz Caldo
-  desc (156): How I used to make arroz caldo in a rice cooker with a congee cooking feature, five minutes of prep, an hour of hands-off cooking. I use an Instant Pot now.
-  tags (17): ['Arroz Caldo', 'Comfort Food', 'Filipino Recipes', 'Easy Cooking', 'Rice Cooker Recipes', 'Chicken Recipes', 'Congee', 'Home Cooking', 'Meal Prep', 'Weekend Cooking', 'Filipino Food', 'Ginger', 'Rice Porridge', 'Slow Cooker', 'Filipino Cuisine', 'One-Pot Meals', 'Philippines']
-  related_notes: ['slow-productivity', 'habit-formation', 'preparedness', 'recovery']
-
-=== static-site-vs-cms.md ===
-  title: Static Site or CMS? How I Pick the Stack
-  meta (48): Static Site vs CMS - When Each One Actually Fits
-  desc (192): The stack debate is usually the wrong fight. Who publishes, what changes live, and whether you need logins pick static vs WordPress (or a git CMS in between) better than any framework ranking.
-  tags (8): ['Website Building', 'Static Site Generator', 'CMS', 'WordPress', 'Hugo', 'Sveltia CMS', 'Web Development', 'Tips']
-  related_notes: ['static-site-client-scope', 'git-based-cms', 'selling-static-sites', 'client-site-pass-off', 'minimum-effective-dose']
-
-=== sustainable-online-publishing.md ===
-  title: Sustainable Online Publishing
-  meta (63): Sustainable Online Publishing - Own Your Corner of the Internet
-  desc (165): Social media is easy to start and risky to depend on. I publish on my own site anyway - here's a free stack that works and why the habit matters more than the tools.
-  tags (12): ['Publishing', 'Self-Hosting', 'Hugo', 'Cloudflare Pages', 'Content Ownership', 'Indie Web', 'Digital Independence', 'Open Publishing', 'Platform Risk', 'Blogging', 'Digital Garden', 'PKM']
-  related_notes: ['digital-garden', 'drafting-in-public', 'sketchpad', 'the-garage-concept', 'note-relationships', 'commonplace-book', 'success-is-stewardship']
-
-=== what-i-look-for-in-wireless-earphones.md ===
-  title: What I Look For in Wireless Earphones
-  meta (61): What I Look For in Wireless Earphones - My Personal Checklist
-  desc (189): After years of cycling through earbuds, neckbands, and over-ears, here's the short list of what I actually care about in a pair of wireless earphones - and the one pair I keep reaching for.
-  tags (12): ['Wireless Earphones', 'Open-Ear Earphones', 'Bluetooth', 'Audio', 'Everyday Carry', 'Soundpeats RunFree', 'Earbuds', 'Headphones', 'Buying Guide', 'Fitness Audio', 'Bone Conduction', 'Running Gear']
-  related_notes: ['attention-economy', 'deep-work', 'digital-minimalism']
-
-=== why-i-focused-on-open-source.md ===
-  title: Why I Focused on Open Source Technologies
-  meta (61): Why I Bet on Open Source - Practical Reasons, Not a Manifesto
-  desc (200): Open source wasn't a purity test for me. Freedom mattered more than free - install tonight, read the code, move your files, own the stack. Learning still ate months. Here's how that shaped my choices.
-  tags (11): ['Open Source', 'FOSS', 'Hugo', 'WordPress', 'Web Development', 'Developer Life', 'Career', 'Free Software', 'Technology', 'Publishing', 'Static Site Generator']
-  related_notes: ['future-proofing-knowledge', 'free-tier-hosting-stack', 'git-based-cms', 'success-is-stewardship', 'platform-reach-is-borrowed']
-
-=== why-i-stopped-playing-marvel-snap.md ===
-  title: Why I Stopped Playing Marvel Snap
-  meta (22): Why I Quit Marvel Snap
-  desc (212): Marvel Snap hooked me with three-minute matches and slick Marvel cards. Then the meta treadmill, collection gaps, and cube anxiety turned a snack game into homework. I never spent a cent - and still drifted away.
-  tags (10): ['Marvel Snap', 'Card Games', 'Gaming', 'Mobile Games', 'Digital Collectibles', 'FOMO', 'Game Design', 'Marvel', 'Free to Play', 'Quit Gaming']
-  related_notes: ['attention-economy', 'digital-minimalism', 'signal-vs-noise', 'sunk-cost-fallacy']
-
-=== why-keep-desktop-laptop.md ===
-  title: Why I Still Keep a Desktop or Laptop
-  meta (36): Why I Still Keep a Desktop or Laptop
-  desc (202): Every couple of years, someone tells me they're going mobile-only. A few months later, they're sheepishly asking to borrow my laptop for taxes, video edits, or a PDF form. Here's why I keep mine around.
-  tags (15): ['Computers', 'Hardware', 'Desktop', 'Laptop', 'Mobile vs Desktop', 'Workflow', 'Devices', 'Productivity', 'Remote Work', 'Typing', 'Multitasking', 'Power User', 'Work From Home', 'PC vs Mobile', 'Note Taking']
-  related_notes: ['commonplace-book', 'mobile-capture-workflows', 'literature-notes', 'context-aware-capture', 'attention-economy', 'deep-work']
-
-=== why-run-your-own-website.md ===
-  title: Why I Still Run My Own Website
-  meta (50): Why I Still Run My Own Website - Not Just Facebook
-  desc (196): Every time I tell someone I run my own website, they ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet.
-  tags (19): ['Internet', 'Branding', 'Content', 'Business', 'Personal Branding', 'Online Presence', 'Self-Hosting', 'Web Ownership', 'Blogging', 'Website Building', 'Digital Independence', 'Content Ownership', 'Portfolio', 'Personal Website', 'Platform Risk', 'Publishing', 'Digital Garden', 'PKM', 'Note Taking']
-  related_notes: ['drafting-in-public', 'digital-garden', 'commonplace-book', 'sketchpad', 'note-relationships', 'the-garage-concept', 'success-is-stewardship']
-
-=== worship-pads-solo-guitar.md ===
-  title: Worship Pads for Solo Guitar: What Changed When I Finally Tried Them
-  meta (68): Worship Pads for Solo Guitar: What Changed When I Finally Tried Them
-  desc (164): Leading worship with just an acoustic guitar always felt thin in a big room - until someone slid a pad track underneath me during practice. The whole night changed.
-  tags (15): ['Worship Pads', 'Church Music', 'Worship Leading', 'Guitar Worship', 'Solo Worship', 'Acoustic Guitar', 'Pad Tracks', 'Christian Music', 'Music Production', 'Church', 'Worship Ministry', 'Backing Tracks', 'Live Worship', 'Worship Team', 'Ambient Music']
-  related_notes: ['love-god', 'ask-seek-knock', 'dont-worry']
-
-
+=== drupal-to-
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -6968,14 +2370,13 @@ Open source focus description shrinks to roughly 145 characters and tags to eigh
 
 Marvel Snap stoppage description drops to roughly 150 characters.
 
-Why I Still Keep a Desktop or Laptop shortens its description to roughly 145 characters and trims tags to eight. Why Run Your Own Website drops its description to about 145 characters, removes sketchpad, and cuts tags to nine. Worship Pads for Solo Guitar shortens its meta_title to forty-eight characters while keeping the longer title intact. Its description shrinks to roughly 140 characters and tags to eight.</details></think>
+Why I Still Keep a Desktop or Laptop shortens its description to roughly 145 characters and trims tags to eight. Why Run Your Own Website drops its description to about 145 characters, removes sketchpad, and cuts tags to nine. Worship Pads for Solo Guitar shortens its meta_title to forty-eight characters while keeping the longer title intact. Its description shrinks to roughly 140 characters and tags to eight.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7010,51 +2411,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
 
 </details></tool-use>
 
@@ -7063,7 +2439,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 All edits will be applied in a single batch using StrReplace.
 
-Only frontmatter fields will be changed. The meta_title will be shortened to differ from the title. Exact replacement strings for the remaining files are being gathered.</details></think>
+Only frontmatter fields will be changed. The meta_title will be shortened to differ from the title. Exact replacement strings for the remaining files are being gathered.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7072,376 +2449,201 @@ Applying frontmatter updates across all 24 published posts in batches.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
 The string to replace was not found in the file.
+</details></tool-use>
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading facebook-favorites-feed.md to verify exact content and fix the categories order.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reading facebook-favorites-feed.md to verify exact content and fix the categories order.</details></think>
+Continuing with more batch edits.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Continuing with more batch edits.</details></think>
+Continuing to edit the remaining files.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<think><details><summary>Thought Process</summary>
-Continuing to edit the remaining files.</details></think>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
@@ -7460,315 +2662,187 @@ Continuing the frontmatter pass for the remaining posts:
 - why-i-stopped
 - why-keep-desktop
 - why-run-your-own
-- worship-pads</details></think>
+- worship-pads
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Continuing with the remaining files.</details></think>
+Continuing with the remaining files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Finishing the last three files and running validation.</details></think>
+Finishing the last three files and running validation.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import yaml
 from pathlib import Path
 
-blog = Path("content/english/blog")
+blog = Path(&#34;content/english/blog&#34;)
 notes = set()
-for f in Path("content/english/notes").glob("*.md"):
-    if f.name == "_index.md": continue
-    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
-    notes.add(fm.get("slug") or f.stem)
+for f in Path(&#34;content/english/notes&#34;).glob(&#34;*.md&#34;):
+    if f.name == &#34;_index.md&#34;: continue
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    notes.add(fm.get(&#34;slug&#34;) or f.stem)
 
 issues = []
-for f in sorted(blog.glob("*.md")):
-    if f.name.startswith("__") or f.name == "_index.md": continue
-    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
-    if fm.get("draft"): continue
-    d = fm.get("description","")
-    mt = fm.get("meta_title","")
-    tags = fm.get("tags") or []
-    for slug in fm.get("related_notes") or []:
+for f in sorted(blog.glob(&#34;*.md&#34;)):
+    if f.name.startswith(&#34;__&#34;) or f.name == &#34;_index.md&#34;: continue
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    if fm.get(&#34;draft&#34;): continue
+    d = fm.get(&#34;description&#34;,&#34;&#34;)
+    mt = fm.get(&#34;meta_title&#34;,&#34;&#34;)
+    tags = fm.get(&#34;tags&#34;) or []
+    for slug in fm.get(&#34;related_notes&#34;) or []:
         if slug not in notes:
-            issues.append(f"{f.name}: bad slug {slug}")
-    if len(d) > 160:
-        issues.append(f"{f.name}: desc {len(d)}")
-    if len(mt) > 60:
-        issues.append(f"{f.name}: meta {len(mt)}")
-    if len(tags) > 10:
-        issues.append(f"{f.name}: tags {len(tags)}")
-    if fm.get("title") == fm.get("meta_title"):
-        issues.append(f"{f.name}: title==meta_title")
+            issues.append(f&#34;{f.name}: bad slug {slug}&#34;)
+    if len(d) &gt; 160:
+        issues.append(f&#34;{f.name}: desc {len(d)}&#34;)
+    if len(mt) &gt; 60:
+        issues.append(f&#34;{f.name}: meta {len(mt)}&#34;)
+    if len(tags) &gt; 10:
+        issues.append(f&#34;{f.name}: tags {len(tags)}&#34;)
+    if fm.get(&#34;title&#34;) == fm.get(&#34;meta_title&#34;):
+        issues.append(f&#34;{f.name}: title==meta_title&#34;)
 
-print("Remaining issues:", len(issues))
+print(&#34;Remaining issues:&#34;, len(issues))
 for i in issues:
-    print(" ", i)
+    print(&#34; &#34;, i)
 if not issues:
-    print("All clear!")
+    print(&#34;All clear!&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog && python3 << 'PY'
 import yaml
@@ -7822,12 +2896,6 @@ Remaining issues: 7
   why-keep-desktop-laptop.md: meta 65
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -7835,7 +2903,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Trimming 7 remaining minor issues to bring everything under threshold.
 
-Fixing the last six edge-case files: trimming descriptions and metadata across six posts to bring them under length thresholds.</details></think>
+Fixing the last six edge-case files: trimming descriptions and metadata across six posts to bring them under length thresholds.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7844,91 +2913,43 @@ Trimming the last few fields that are still slightly over the limits.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
@@ -7937,62 +2958,54 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The why-keep-desktop post now uses title equal to meta_title again.
 
-A shorter 38-character meta_title will distinguish the post. Validation runs again.</details></think>
+A shorter 38-character meta_title will distinguish the post. Validation runs again.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import yaml
 from pathlib import Path
 
-blog = Path("content/english/blog")
+blog = Path(&#34;content/english/blog&#34;)
 notes = set()
-for f in Path("content/english/notes").glob("*.md"):
-    if f.name == "_index.md": continue
-    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
-    notes.add(fm.get("slug") or f.stem)
+for f in Path(&#34;content/english/notes&#34;).glob(&#34;*.md&#34;):
+    if f.name == &#34;_index.md&#34;: continue
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    notes.add(fm.get(&#34;slug&#34;) or f.stem)
 
 issues = []
-stats = {"desc_max":0,"meta_max":0,"tags_max":0,"count":0}
-for f in sorted(blog.glob("*.md")):
-    if f.name.startswith("__") or f.name == "_index.md": continue
-    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
-    if fm.get("draft"): continue
-    stats["count"] += 1
-    d, mt, tags = fm.get("description",""), fm.get("meta_title",""), fm.get("tags") or []
-    stats["desc_max"] = max(stats["desc_max"], len(d))
-    stats["meta_max"] = max(stats["meta_max"], len(mt))
-    stats["tags_max"] = max(stats["tags_max"], len(tags))
-    for slug in fm.get("related_notes") or []:
+stats = {&#34;desc_max&#34;:0,&#34;meta_max&#34;:0,&#34;tags_max&#34;:0,&#34;count&#34;:0}
+for f in sorted(blog.glob(&#34;*.md&#34;)):
+    if f.name.startswith(&#34;__&#34;) or f.name == &#34;_index.md&#34;: continue
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    if fm.get(&#34;draft&#34;): continue
+    stats[&#34;count&#34;] += 1
+    d, mt, tags = fm.get(&#34;description&#34;,&#34;&#34;), fm.get(&#34;meta_title&#34;,&#34;&#34;), fm.get(&#34;tags&#34;) or []
+    stats[&#34;desc_max&#34;] = max(stats[&#34;desc_max&#34;], len(d))
+    stats[&#34;meta_max&#34;] = max(stats[&#34;meta_max&#34;], len(mt))
+    stats[&#34;tags_max&#34;] = max(stats[&#34;tags_max&#34;], len(tags))
+    for slug in fm.get(&#34;related_notes&#34;) or []:
         if slug not in notes:
-            issues.append(f"{f.name}: bad slug {slug}")
-    if len(d) > 160: issues.append(f"{f.name}: desc {len(d)}")
-    if len(mt) > 60: issues.append(f"{f.name}: meta {len(mt)}")
-    if len(tags) > 10: issues.append(f"{f.name}: tags {len(tags)}")
-    if fm.get("title") == fm.get("meta_title"): issues.append(f"{f.name}: title==meta_title")
+            issues.append(f&#34;{f.name}: bad slug {slug}&#34;)
+    if len(d) &gt; 160: issues.append(f&#34;{f.name}: desc {len(d)}&#34;)
+    if len(mt) &gt; 60: issues.append(f&#34;{f.name}: meta {len(mt)}&#34;)
+    if len(tags) &gt; 10: issues.append(f&#34;{f.name}: tags {len(tags)}&#34;)
+    if fm.get(&#34;title&#34;) == fm.get(&#34;meta_title&#34;): issues.append(f&#34;{f.name}: title==meta_title&#34;)
 
-print(f"Published: {stats['count']}")
-print(f"Max desc: {stats['desc_max']}, max meta: {stats['meta_max']}, max tags: {stats['tags_max']}")
-print("Issues:", len(issues))
-for i in issues: print(" ", i)
+print(f&#34;Published: {stats[&#39;count&#39;]}&#34;)
+print(f&#34;Max desc: {stats[&#39;desc_max&#39;]}, max meta: {stats[&#39;meta_max&#39;]}, max tags: {stats[&#39;tags_max&#39;]}&#34;)
+print(&#34;Issues:&#34;, len(issues))
+for i in issues: print(&#34; &#34;, i)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog && python3 << 'PY'
 import yaml
@@ -8040,45 +3053,31 @@ Issues: 1
   why-i-stopped-playing-marvel-snap.md: desc 169
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Marvel Snap needs another trim. It is 169 characters. Nine more must go.</details></think>
+Marvel Snap needs another trim. It is 169 characters. Nine more must go.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import yaml
 from pathlib import Path
-f = Path("content/english/blog/why-i-stopped-playing-marvel-snap.md")
-fm = yaml.safe_load(f.read_text().split("---",2)[1])
-print(len(fm["description"]))
+f = Path(&#34;content/english/blog/why-i-stopped-playing-marvel-snap.md&#34;)
+fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1])
+print(len(fm[&#34;description&#34;]))
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import yaml
@@ -8093,18 +3092,13 @@ PY
 146
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The full published-post frontmatter pass is complete.</details></think>
+The full published-post frontmatter pass is complete.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -8154,7 +3148,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Applying the same frontmatter pass to the 32 draft blog posts.
 
-Fixes include trimming descriptions and titles, capping tags at ten, removing dead related_notes slugs, and differentiating duplicate titles. Starting with batch extraction and analysis.</details></think>
+Fixes include trimming descriptions and titles, capping tags at ten, removing dead related_notes slugs, and differentiating duplicate titles. Starting with batch extraction and analysis.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -8163,37 +3158,36 @@ Running the same frontmatter pass on all 32 draft posts: analyzing each file, th
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import yaml
 from pathlib import Path
 
-blog = Path("content/english/blog")
+blog = Path(&#34;content/english/blog&#34;)
 notes = set()
-for f in Path("content/english/notes").glob("*.md"):
-    if f.name == "_index.md": continue
-    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
-    notes.add(fm.get("slug") or f.stem)
+for f in Path(&#34;content/english/notes&#34;).glob(&#34;*.md&#34;):
+    if f.name == &#34;_index.md&#34;: continue
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    notes.add(fm.get(&#34;slug&#34;) or f.stem)
 
-for f in sorted(blog.glob("__*.md")):
-    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
-    d, mt = fm.get("description",""), fm.get("meta_title","")
-    tags = fm.get("tags") or []
-    bad = [s for s in (fm.get("related_notes") or []) if s not in notes]
+for f in sorted(blog.glob(&#34;__*.md&#34;)):
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    d, mt = fm.get(&#34;description&#34;,&#34;&#34;), fm.get(&#34;meta_title&#34;,&#34;&#34;)
+    tags = fm.get(&#34;tags&#34;) or []
+    bad = [s for s in (fm.get(&#34;related_notes&#34;) or []) if s not in notes]
     issues = []
-    if len(d) > 160: issues.append(f"desc {len(d)}")
-    if len(mt) > 60: issues.append(f"meta {len(mt)}")
-    if len(tags) > 10: issues.append(f"tags {len(tags)}")
-    if fm.get("title") == fm.get("meta_title"): issues.append("title==meta")
-    if bad: issues.append(f"bad: {bad}")
-    print(f"{f.name}")
-    print(f"  title: {fm.get('title')}")
-    print(f"  meta ({len(mt)}): {mt}")
-    print(f"  desc ({len(d)}): {d[:100]}...")
-    print(f"  tags: {len(tags)} | issues: {', '.join(issues) or 'ok'}")
+    if len(d) &gt; 160: issues.append(f&#34;desc {len(d)}&#34;)
+    if len(mt) &gt; 60: issues.append(f&#34;meta {len(mt)}&#34;)
+    if len(tags) &gt; 10: issues.append(f&#34;tags {len(tags)}&#34;)
+    if fm.get(&#34;title&#34;) == fm.get(&#34;meta_title&#34;): issues.append(&#34;title==meta&#34;)
+    if bad: issues.append(f&#34;bad: {bad}&#34;)
+    print(f&#34;{f.name}&#34;)
+    print(f&#34;  title: {fm.get(&#39;title&#39;)}&#34;)
+    print(f&#34;  meta ({len(mt)}): {mt}&#34;)
+    print(f&#34;  desc ({len(d)}): {d[:100]}...&#34;)
+    print(f&#34;  tags: {len(tags)} | issues: {&#39;, &#39;.join(issues) or &#39;ok&#39;}&#34;)
     print()
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import yaml
@@ -8225,10 +3219,999 @@ for f in sorted(blog.glob("__*.md")):
     print()
 PY
 ```
-</details>
-</tool-use>
+
+```
+__blog-template.md
+  title: Blog Template
+  meta (13): Blog Template
+  desc (39): Hugo CMS Reference for blog publishing....
+  tags: 9 | issues: title==meta
+
+__canon-g3000.md
+  title: Canon G3000
+  meta (36): Canon G3000 - Ink Tank Printer Notes
+  desc (150): The Canon G3000 is an ink-tank printer for people tired of cartridge roulette. Here's what it's good...
+  tags: 10 | issues: ok
+
+__client-site-pass-off.md
+  title: What Happens After Your Website Goes Live
+  meta (49): Client Site Pass-Off - Who Publishes After Launch
+  desc (206): Launch day isn't the finish line. Before deposit I name who publishes next - Git lesson, retainer ba...
+  tags: 8 | issues: desc 206
+
+__craft-prompt-framework.md
+  title: The CRAFT Prompt Framework
+  meta (47): CRAFT - How to Write Prompts That Actually Work
+  desc (163): Vague prompts get vague answers. The CRAFT framework - Context, Role, Action, Format, Target Audienc...
+  tags: 14 | issues: desc 163, tags 14, bad: ['progressive-layers']
+
+__how-to-create-a-blog-template.md
+  title: Blog Template
+  meta (13): Blog Template
+  desc (39): Hugo CMS Reference for blog publishing....
+  tags: 9 | issues: title==meta
+
+__how-to-create-a-good-habit.md
+  title: How to Create a Good Habit
+  meta (52): How to Create a Good Habit - James Clear's Four Laws
+  desc (139): Atomic Habits boiled down to what I actually use: make it obvious, attractive, easy, and satisfying ...
+  tags: 12 | issues: tags 12
+
+__hugo-go-templates.md
+  title: Hugo Go Templates
+  meta (66): Hugo Go Templates - How I Learned Without Reading the Whole Manual
+  desc (160): Hugo layouts scared me until I broke a blog listing and had to fix it. Most of what I touch is copy-...
+  tags: 8 | issues: meta 66
+
+__hugo-page-bundles.md
+  title: Hugo Page Bundles
+  meta (57): Hugo Page Bundles - When I Stop Dumping Images in /static
+  desc (190): Most of my posts are a single .md file with a hero image in /images. Page bundles are for the messie...
+  tags: 8 | issues: desc 190
+
+__hugo-sh
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading and updating all 32 draft files.
+
+Templates will get unique meta titles. Frontmatter will be read in batches to apply fixes.
+
+__client-site-pass-off.md needs its description trimmed to 206 characters. __craft-prompt-framework.md needs its description trimmed to 163, tags reduced to 14, and progressive-layers replaced with layered-reading. __hugo-page-bundles.md needs its description trimmed to 190. __hugo-static-site-generator.md needs its description trimmed to 168 and sketchpad removed. __canon-g3000.md, __hugo-shortcodes.md, and __blog-template.md require no changes.
+
+__humanize-ai-articles.md needs its meta trimmed to 65, tags reduced to 14, and progressive-layers replaced with layered-reading. __immune-booster-supplements.md needs tags trimmed to 11 and recovery replaced with energy-protects-judgment. __jobs-to-be-done-framework.md needs tags trimmed to 12. __jorap-notes-features.md needs its description trimmed to 179. __kewpie-mayo.md, __markdown-deep-dive.md, __obsidian-vs-hugo.md, and __password-managers.md require no changes. __mcgill-big-three.md needs its description trimmed to 163 and tags reduced to 12, with recovery replaced by energy-protects-judgment. __mi-box-s.md needs tags trimmed to 11. __native-hugo-taxonomies.md needs its meta trimmed to 73.
+
+__remote-workhecklist.md needs its meta trimmed to 61 and tags reduced to 11. __second-cellphone.md needs its description trimmed to 165. __selling-static-sites.md needs its description trimmed to 167 and meta trimmed to 63. __shopee-tips.md needs tags trimmed to 11 and crdt and elon-musk removed. __smart-plug.md needs its description trimmed to 196 and tags reduced to 11. __wifi-router.md needs its description trimmed to 185 and tags reduced to 12. __worcestershire-sauce.md needs its meta trimmed to 64. __rechargeable-batteries.md, __sveltia-cms.md, and __tailwind-css-v4.md require no changes.
+
+A Python script will handle all 32 files at once for cleaner, verifiable edits. Exact frontmatter strings will be read first to ensure accurate replacements.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/__*.md; do echo &#34;=== $(basename $f) ===&#34;; sed -n &#39;1,/^---$/p&#39; &#34;$f&#34; | head -n -1; echo &#34;---&#34;; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/__*.md; do echo "=== $(basename $f) ==="; sed -n '1,/^---$/p' "$f" | head -n -1; echo "---"; done
+```
+
+```
+=== __blog-template.md ===
+---
+title: "Blog Template"
+meta_title: "Blog Template"
+description: "Hugo CMS Reference for blog publishing."
+slug: "blog-template"
+date: "1981-06-14T05:00:00Z"
+image: "/images/image-template.jpg"
+categories: ["Website", "Tutorial"]
+author: "JoRap"
+tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
+related_notes:
+  - digital-garden
+featured: false
+draft: true
+---
+=== __canon-g3000.md ===
+---
+title: "Canon G3000"
+meta_title: "Canon G3000 - Ink Tank Printer Notes"
+description: "The Canon G3000 is an ink-tank printer for people tired of cartridge roulette. Here's what it's good at, what annoyed me, and who should consider one."
+slug: "canon-g3000"
+date: "2026-06-18T05:09:00Z"
+image: "/images/image-template.jpg"
+categories: ["Technology", "Gear", "Reviews"]
+author: "JoRap"
+tags: ["Canon G3000", "Printer", "Ink Tank", "Home Office", "Gear", "Printing", "Inkjet", "Document Printing", "Cost Per Page", "Work From Home"]
+related_notes:
+  - reliability
+  - building-a-personal-api
+  - preparedness
+featured: false
+draft: true
+---
+=== __client-site-pass-off.md ===
+---
+title: "What Happens After Your Website Goes Live"
+meta_title: "Client Site Pass-Off - Who Publishes After Launch"
+description: "Launch day isn't the finish line. Before deposit I name who publishes next - Git lesson, retainer batches, showroom branch, or CMS - and I leave a one-page doc so you're not stuck calling me for every typo."
+slug: "client-site-pass-off"
+date: "2026-07-02T07:00:00Z"
+image: "/images/website.jpg"
+categories: ["Website", "Business", "Tips"]
+author: "JoRap"
+tags: ["Website Building", "Freelance", "Client Work", "Pass-off", "Static Site Generator", "GitHub", "Business", "Documentation"]
+related_notes:
+  - client-site-pass-off
+  - selling-static-sites
+  - static-site-client-scope
+  - share-what-you-learn
+  - the-garage-concept
+  - plain-commitments-at-work
+  - success-is-stewards
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The truncated parts __jorap-notes-features and __mcgill-big-three are needed.
+
+A Python script will handle all 32 drafts programmatically. It loads each file, applies transformations, and writes back using dump_blog_frontmatter to preserve correct field ordering. This approach is more reliable than manual edits.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mcgill-big-three.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "slug: \"building-a-second-brain\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "slug: \"building-a-second-brain\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-second-brain.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The building-a-second-brain resource exists.
+
+A Python script will update 32 drafts with explicit changes per file. The blog template title will change to "Blog Template - Hugo CMS Reference". The client site pass-off description will read "Launch day isn't the finish line." Tag trimming will use explicit lists per file.
+
+The client site pass-off description now names Git, retainer, and CMS as publishers, plus a one-page typo-reference document. The prompt framework draft gets a CRAFT description and AI-related tags. Its related note switches from progressive-layers to layered-reading.
+
+The habit guide receives productivity tags including Atomic Habits and Habit Stacking. The Hugo Go templates title becomes "Hugo Go Templates - What I Learned Fixing a Listing." The page bundles description clarifies that page bundles are for posts with extra assets like screenshots and downloads.
+
+The Hugo static site generator description now highlights Markdown-to-HTML builds without databases or PHP. The sketchpad related note is removed.
+
+The humanize-ai-articles draft gets a human-writing title and AI tags. Its progressive-layers reference switches to layered-reading.
+
+The immune-booster-supplements tags are trimmed to ten.
+
+The recovery tag is dropped from the immune-booster-supplements draft because energy-protects-judgment already covers it.
+
+The jobs-to-be-done-framework draft receives product strategy tags including JTBD, customer research, and innovation.
+
+The jorap-notes-features description frames JoRap Notes as a linked garden of one-claim pages on the same Hugo site.
+
+The mcgill-big-three description explains Dr. Stuart McGill’s Big Three core exercises target low back stability without spinal stress.
+
+The mcgill-big-three draft now lists Bird Dog, Side Plank, Curl-Up, and spine-health tags. The mi-box-s draft gets streaming and Android TV tags. The native-hugo-taxonomies title becomes "Native Hugo Taxonomies - Categories, Tags, and Limits". The password-managers draft is still being updated.
+
+The password-managers draft now carries ten cybersecurity tags including Bitwarden and Passkeys. The remote-work-checklist title becomes "Remote Work Checklist - What I Pack for a Day Away" with tags for home-office gear and productivity. The second-cellphone description frames a backup device as essential for travel, work boundaries, and morning panic.
+
+The selling-static-sites title becomes "How I Quote Client Websites - Clear Line Items." Its description breaks quotes into readable line items such as discovery, build, migration, pass-off, and hosting. The shopee-tips draft now carries e-commerce tags for Shopee and local Filipino sellers, and its related notes drop crdt and elon-musk references. The smart-plug description frames the device as the least glamorous but most persistent household purchase.
+
+The smart-plug draft now lists ten tags covering automation, scheduling, and energy saving. Its description warns against troubleshooting hobbies. The wifi-router draft describes dead zones and mystery reboots, prioritizing habits over hardware. The worcestershire-sauce draft was started but left incomplete.
+
+The Worcestershire sauce title becomes "Lee and Perrins Worcestershire - The Bottle I Restock." A Python script will apply all 32 updates and rewrite each file with canonical frontmatter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Applying updates via a script that rewrites frontmatter in canonical order.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+import yaml
+from pathlib import Path
+from blog_frontmatter import canonical_blog_fm, dump_blog_frontmatter
+
+blog_dir = Path(&#34;content/english/blog&#34;)
+
+SLUG_FIXES = {
+    &#34;recovery&#34;: &#34;energy-protects-judgment&#34;,
+    &#34;progressive-layers&#34;: &#34;layered-reading&#34;,
+}
+
+REMOVE_SLUGS = {&#34;sketchpad&#34;, &#34;crdt&#34;, &#34;elon-musk&#34;}
+
+UPDATES: dict[str, dict] = {
+    &#34;__blog-template.md&#34;: {
+        &#34;meta_title&#34;: &#34;Blog Template - Hugo CMS Reference&#34;,
+    },
+    &#34;__client-site-pass-off.md&#34;: {
+        &#34;description&#34;: &#34;Launch day isn&#39;t the finish line. Before deposit I name who publishes next - Git, retainer, CMS - and leave a one-page doc so you&#39;re not stuck for every typo.&#34;,
+    },
+    &#34;__craft-prompt-framework.md&#34;: {
+        &#34;description&#34;: &#34;Vague prompts get vague answers. CRAFT - Context, Role, Action, Format, Target Audience - is how I build prompts that don&#39;t leave the model guessing.&#34;,
+        &#34;tags&#34;: [&#34;AI&#34;, &#34;Prompts&#34;, &#34;CRAFT&#34;, &#34;Prompt Engineering&#34;, &#34;Writing&#34;, &#34;ChatGPT&#34;, &#34;LLM&#34;, &#34;Content Creation&#34;, &#34;PKM&#34;],
+    },
+    &#34;__how-to-create-a-blog-template.md&#34;: {
+        &#34;meta_title&#34;: &#34;How to Create a Blog Template - Hugo Reference&#34;,
+    },
+    &#34;__how-to-create-a-good-habit.md&#34;: {
+        &#34;tags&#34;: [&#34;Habits&#34;, &#34;Atomic Habits&#34;, &#34;James Clear&#34;, &#34;Productivity&#34;, &#34;Behavior Change&#34;, &#34;Four Laws&#34;, &#34;Habit Stacking&#34;, &#34;Routine Building&#34;],
+    },
+    &#34;__hugo-go-templates.md&#34;: {
+        &#34;meta_title&#34;: &#34;Hugo Go Templates - What I Learned Fixing a Listing&#34;,
+    },
+    &#34;__hugo-page-bundles.md&#34;: {
+        &#34;description&#34;: &#34;Most posts are a single .md with a hero in /images. Page bundles are for messier ones - screenshots, downloads, assets that belong to one post.&#34;,
+    },
+    &#34;__hugo-static-site-generator.md&#34;: {
+        &#34;description&#34;: &#34;Hugo turns Markdown into HTML at build time - no database, no PHP surprises. It&#39;s the engine behind JoRap Notes and most client sites I quote.&#34;,
+    },
+    &#34;__humanize-ai-articles.md&#34;: {
+        &#34;meta_title&#34;: &#34;Make AI Articles More Human - Perplexity and Editing&#34;,
+        &#34;tags&#34;: [&#34;AI&#34;, &#34;Writing&#34;, &#34;ChatGPT&#34;, &#34;Prompts&#34;, &#34;Perplexity&#34;, &#34;Burstiness&#34;, &#34;Editing&#34;, &#34;Human Writing&#34;, &#34;Content Creation&#34;, &#34;PKM&#34;],
+    },
+    &#34;__immune-booster-supplements.md&#34;: {
+        &#34;tags&#34;: [&#34;Supplements&#34;, &#34;Health&#34;, &#34;Immune System&#34;, &#34;Wellness&#34;, &#34;Vitamin C&#34;, &#34;Vitamin D&#34;, &#34;Zinc&#34;, &#34;Daily Routine&#34;, &#34;Self Care&#34;, &#34;Nutrition&#34;],
+    },
+    &#34;__jobs-to-be-done-framework.md&#34;: {
+        &#34;tags&#34;: [&#34;Jobs to Be Done&#34;, &#34;JTBD&#34;, &#34;Product Development&#34;, &#34;Product Strategy&#34;, &#34;Customer Research&#34;, &#34;Innovation&#34;, &#34;Framework&#34;, &#34;User Needs&#34;],
+    },
+    &#34;__jorap-notes-features.md&#34;: {
+        &#34;description&#34;: &#34;My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, typed links, all on the same Hugo site.&#34;,
+    },
+    &#34;__mcgill-big-three.md&#34;: {
+        &#34;description&#34;: &#34;Dr. Stuart McGill&#39;s Big Three core exercises target low back stability without cranking on your spine. The routine I keep for maintenance days.&#34;,
+        &#34;tags&#34;: [&#34;Stuart McGill&#34;, &#34;Low Back&#34;, &#34;Core&#34;, &#34;Exercise&#34;, &#34;Back Pain&#34;, &#34;Bird Dog&#34;, &#34;Side Plank&#34;, &#34;Curl-Up&#34;, &#34;Spine Health&#34;, &#34;Physical Therapy&#34;],
+    },
+    &#34;__mi-box-s.md&#34;: {
+        &#34;tags&#34;: [&#34;Mi Box S&#34;, &#34;Android TV&#34;, &#34;Streaming&#34;, &#34;Xiaomi&#34;, &#34;Gear&#34;, &#34;Set-Top Box&#34;, &#34;Google TV&#34;, &#34;Home Entertainment&#34;, &#34;4K Streaming&#34;, &#34;Chromecast Alternative&#34;],
+    },
+    &#34;__native-hugo-taxonomies.md&#34;: {
+        &#34;meta_title&#34;: &#34;Native Hugo Taxonomies - Categories, Tags, and Limits&#34;,
+    },
+    &#34;__password-managers.md&#34;: {
+        &#34;tags&#34;: [&#34;Password Manager&#34;, &#34;Bitwarden&#34;, &#34;Security&#34;, &#34;Privacy&#34;, &#34;Two-Factor Authentication&#34;, &#34;Credentials&#34;, &#34;Online Safety&#34;, &#34;Data Breach&#34;, &#34;Passkeys&#34;, &#34;Cybersecurity&#34;],
+    },
+    &#34;__remote-work-checklist.md&#34;: {
+        &#34;meta_title&#34;: &#34;Remote Work Checklist - What I Pack for a Day Away&#34;,
+        &#34;tags&#34;: [&#34;Remote Work&#34;, &#34;Checklist&#34;, &#34;Home Office&#34;, &#34;Laptop Bag&#34;, &#34;Gear&#34;, &#34;Work From Home&#34;, &#34;Mobile Office&#34;, &#34;Productivity&#34;, &#34;Travel Setup&#34;],
+    },
+    &#34;__second-cellphone.md&#34;: {
+        &#34;description&#34;: &#34;A second phone sounds excessive until you need one. I keep a backup for travel, work boundaries, and the morning I couldn&#39;t find my main phone.&#34;,
+    },
+    &#34;__selling-static-sites.md&#34;: {
+        &#34;meta_title&#34;: &#34;How I Quote Client Websites - Clear Line Items&#34;,
+        &#34;description&#34;: &#34;I break quotes into readable pieces - discovery, build, migration, pass-off, hosting. No bundled fog, no invoice that mixes labor with server rent.&#34;,
+    },
+    &#34;__shopee-tips.md&#34;: {
+        &#34;tags&#34;: [&#34;Shopee&#34;, &#34;Online Shopping&#34;, &#34;Philippines&#34;, &#34;E-commerce&#34;, &#34;Deals&#34;, &#34;Free Shipping&#34;, &#34;Local Sellers&#34;, &#34;Marketplace&#34;, &#34;Shopping Hacks&#34;, &#34;Filipino&#34;],
+    },
+    &#34;__smart-plug.md&#34;: {
+        &#34;description&#34;: &#34;Smart plugs are the least glamorous gadget in the house and also the one I keep buying. What they&#39;re good for, what to skip, and how to avoid a troubleshooting hobby.&#34;,
+        &#34;tags&#34;: [&#34;Smart Home&#34;, &#34;Smart Plug&#34;, &#34;Automation&#34;, &#34;Gear&#34;, &#34;IoT&#34;, &#34;Home Automation&#34;, &#34;Scheduling&#34;, &#34;Energy Saving&#34;, &#34;Wi-Fi Plug&#34;, &#34;Voice Assistant&#34;],
+    },
+    &#34;__wifi-router.md&#34;: {
+        &#34;description&#34;: &#34;After one too many dead zones and mystery reboots, here&#39;s what I care about in a home wifi router - and the habits that matter more than the box.&#34;,
+        &#34;tags&#34;: [&#34;Wi-Fi&#34;, &#34;Router&#34;, &#34;Home Network&#34;, &#34;Gear&#34;, &#34;Wi-Fi 6&#34;, &#34;Mesh Network&#34;, &#34;Internet&#34;, &#34;Networking&#34;, &#34;Home Office&#34;, &#34;Dead Zones&#34;],
+    },
+    &#34;__worcestershire-sauce.md&#34;: {
+        &#34;meta_title&#34;: &#34;Lee and Perrins Worcestershire - The Bottle I Restock&#34;,
+    },
+}
+
+
+def fix_related_notes(slugs):
+    out = []
+    seen = set()
+    for s in slugs or []:
+        if s in REMOVE_SLUGS:
+            continue
+        s = SLUG_FIXES.get(s, s)
+        if s not in seen:
+            seen.add(s)
+            out.append(s)
+    return out
+
+changed = 0
+for path in sorted(blog_dir.glob(&#34;__*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        continue
+    parts = text.split(&#34;---&#34;, 2)
+    fm = yaml.safe_load(parts[1]) or {}
+    body = parts[2]
+
+    if path.name in UPDATES:
+        fm.update(UPDATES[path.name])
+
+    if fm.get(&#34;related_notes&#34;):
+        fm[&#34;related_notes&#34;] = fix_related_notes(fm[&#34;related_notes&#34;])
+
+    canon = canonical_blog_fm(fm, path)
+    new_text = f&#34;---\n{dump_blog_frontmatter(canon)}\n---{body}&#34;
+    if new_text != text:
+        path.write_text(new_text, encoding=&#34;utf-8&#34;)
+        changed += 1
+
+print(f&#34;Updated {changed} draft files&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+import yaml
+from pathlib import Path
+from blog_frontmatter import canonical_blog_fm, dump_blog_frontmatter
+
+blog_dir = Path("content/english/blog")
+
+SLUG_FIXES = {
+    "recovery": "energy-protects-judgment",
+    "progressive-layers": "layered-reading",
+}
+
+REMOVE_SLUGS = {"sketchpad", "crdt", "elon-musk"}
+
+UPDATES: dict[str, dict] = {
+    "__blog-template.md": {
+        "meta_title": "Blog Template - Hugo CMS Reference",
+    },
+    "__client-site-pass-off.md": {
+        "description": "Launch day isn't the finish line. Before deposit I name who publishes next - Git, retainer, CMS - and leave a one-page doc so you're not stuck for every typo.",
+    },
+    "__craft-prompt-framework.md": {
+        "description": "Vague prompts get vague answers. CRAFT - Context, Role, Action, Format, Target Audience - is how I build prompts that don't leave the model guessing.",
+        "tags": ["AI", "Prompts", "CRAFT", "Prompt Engineering", "Writing", "ChatGPT", "LLM", "Content Creation", "PKM"],
+    },
+    "__how-to-create-a-blog-template.md": {
+        "meta_title": "How to Create a Blog Template - Hugo Reference",
+    },
+    "__how-to-create-a-good-habit.md": {
+        "tags": ["Habits", "Atomic Habits", "James Clear", "Productivity", "Behavior Change", "Four Laws", "Habit Stacking", "Routine Building"],
+    },
+    "__hugo-go-templates.md": {
+        "meta_title": "Hugo Go Templates - What I Learned Fixing a Listing",
+    },
+    "__hugo-page-bundles.md": {
+        "description": "Most posts are a single .md with a hero in /images. Page bundles are for messier ones - screenshots, downloads, assets that belong to one post.",
+    },
+    "__hugo-static-site-generator.md": {
+        "description": "Hugo turns Markdown into HTML at build time - no database, no PHP surprises. It's the engine behind JoRap Notes and most client sites I quote.",
+    },
+    "__humanize-ai-articles.md": {
+        "meta_title": "Make AI Articles More Human - Perplexity and Editing",
+        "tags": ["AI", "Writing", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Editing", "Human Writing", "Content Creation", "PKM"],
+    },
+    "__immune-booster-supplements.md": {
+        "tags": ["Supplements", "Health", "Immune System", "Wellness", "Vitamin C", "Vitamin D", "Zinc", "Daily Routine", "Self Care", "Nutrition"],
+    },
+    "__jobs-to-be-done-framework.md": {
+        "tags": ["Jobs to Be Done", "JTBD", "Product Development", "Product Strategy", "Customer Research", "Innovation", "Framework", "User Needs"],
+    },
+    "__jorap-notes-features.md": {
+        "description": "My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, typed links, all on the same Hugo site.",
+    },
+    "__mcgill-big-three.md": {
+        "description": "Dr. Stuart McGill's Big Three core exercises target low back stability without cranking on your spine. The routine I keep for maintenance days.",
+        "tags": ["Stuart McGill", "Low Back", "Core", "Exercise", "Back Pain", "Bird Dog", "Side Plank", "Curl-Up", "Spine Health", "Physical Therapy"],
+    },
+    "__mi-box-s.md": {
+        "tags": ["Mi Box S", "Android TV", "Streaming", "Xiaomi", "Gear", "Set-Top Box", "Google TV", "Home Entertainment", "4K Streaming", "Chromecast Alternative"],
+    },
+    "__native-hugo-taxonomies.md": {
+        "meta_title": "Native Hugo Taxonomies - Categories, Tags, and Limits",
+    },
+    "__password-managers.md": {
+        "tags": ["Password Manager", "Bitwarden", "Security", "Privacy", "Two-Factor Authentication", "Credentials", "Online Safety", "Data Breach", "Passkeys", "Cybersecurity"],
+    },
+    "__remote-work-checklist.md": {
+        "meta_title": "Remote Work Checklist - What I Pack for a Day Away",
+        "tags": ["Remote Work", "Checklist", "Home Office", "Laptop Bag", "Gear", "Work From Home", "Mobile Office", "Productivity", "Travel Setup"],
+    },
+    "__second-cellphone.md": {
+        "description": "A second phone sounds excessive until you need one. I keep a backup for travel, work boundaries, and the morning I couldn't find my main phone.",
+    },
+    "__selling-static-sites.md": {
+        "meta_title": "How I Quote Client Websites - Clear Line Items",
+        "description": "I break quotes into readable pieces - discovery, build, migration, pass-off, hosting. No bundled fog, no invoice that mixes labor with server rent.",
+    },
+    "__shopee-tips.md": {
+        "tags": ["Shopee", "Online Shopping", "Philippines", "E-commerce", "Deals", "Free Shipping", "Local Sellers", "Marketplace", "Shopping Hacks", "Filipino"],
+    },
+    "__smart-plug.md": {
+        "description": "Smart plugs are the least glamorous gadget in the house and also the one I keep buying. What they're good for, what to skip, and how to avoid a troubleshooting hobby.",
+        "tags": ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant"],
+    },
+    "__wifi-router.md": {
+        "description": "After one too many dead zones and mystery reboots, here's what I care about in a home wifi router - and the habits that matter more than the box.",
+        "tags": ["Wi-Fi", "Router", "Home Network", "Gear", "Wi-Fi 6", "Mesh Network", "Internet", "Networking", "Home Office", "Dead Zones"],
+    },
+    "__worcestershire-sauce.md": {
+        "meta_title": "Lee and Perrins Worcestershire - The Bottle I Restock",
+    },
+}
+
+
+def fix_related_notes(slugs):
+    out = []
+    seen = set()
+    for s in slugs or []:
+        if s in REMOVE_SLUGS:
+            continue
+        s = SLUG_FIXES.get(s, s)
+        if s not in seen:
+            seen.add(s)
+            out.append(s)
+    return out
+
+changed = 0
+for path in sorted(blog_dir.glob("__*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    parts = text.split("---", 2)
+    fm = yaml.safe_load(parts[1]) or {}
+    body = parts[2]
+
+    if path.name in UPDATES:
+        fm.update(UPDATES[path.name])
+
+    if fm.get("related_notes"):
+        fm["related_notes"] = fix_related_notes(fm["related_notes"])
+
+    canon = canonical_blog_fm(fm, path)
+    new_text = f"---\n{dump_blog_frontmatter(canon)}\n---{body}"
+    if new_text != text:
+        path.write_text(new_text, encoding="utf-8")
+        changed += 1
+
+print(f"Updated {changed} draft files")
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+ModuleNotFoundError: No module named 'blog_frontmatter'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Scripts must be added to the system path or executed from the scripts directory.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; PYTHONPATH=scripts python3 &lt;&lt; &#39;PY&#39;
+import yaml
+from pathlib import Path
+from blog_frontmatter import canonical_blog_fm, dump_blog_frontmatter
+
+blog_dir = Path(&#34;content/english/blog&#34;)
+
+SLUG_FIXES = {
+    &#34;recovery&#34;: &#34;energy-protects-judgment&#34;,
+    &#34;progressive-layers&#34;: &#34;layered-reading&#34;,
+}
+
+REMOVE_SLUGS = {&#34;sketchpad&#34;, &#34;crdt&#34;, &#34;elon-musk&#34;}
+
+UPDATES: dict[str, dict] = {
+    &#34;__blog-template.md&#34;: {
+        &#34;meta_title&#34;: &#34;Blog Template - Hugo CMS Reference&#34;,
+    },
+    &#34;__client-site-pass-off.md&#34;: {
+        &#34;description&#34;: &#34;Launch day isn&#39;t the finish line. Before deposit I name who publishes next - Git, retainer, CMS - and leave a one-page doc so you&#39;re not stuck for every typo.&#34;,
+    },
+    &#34;__craft-prompt-framework.md&#34;: {
+        &#34;description&#34;: &#34;Vague prompts get vague answers. CRAFT - Context, Role, Action, Format, Target Audience - is how I build prompts that don&#39;t leave the model guessing.&#34;,
+        &#34;tags&#34;: [&#34;AI&#34;, &#34;Prompts&#34;, &#34;CRAFT&#34;, &#34;Prompt Engineering&#34;, &#34;Writing&#34;, &#34;ChatGPT&#34;, &#34;LLM&#34;, &#34;Content Creation&#34;, &#34;PKM&#34;],
+    },
+    &#34;__how-to-create-a-blog-template.md&#34;: {
+        &#34;meta_title&#34;: &#34;How to Create a Blog Template - Hugo Reference&#34;,
+    },
+    &#34;__how-to-create-a-good-habit.md&#34;: {
+        &#34;tags&#34;: [&#34;Habits&#34;, &#34;Atomic Habits&#34;, &#34;James Clear&#34;, &#34;Productivity&#34;, &#34;Behavior Change&#34;, &#34;Four Laws&#34;, &#34;Habit Stacking&#34;, &#34;Routine Building&#34;],
+    },
+    &#34;__hugo-go-templates.md&#34;: {
+        &#34;meta_title&#34;: &#34;Hugo Go Templates - What I Learned Fixing a Listing&#34;,
+    },
+    &#34;__hugo-page-bundles.md&#34;: {
+        &#34;description&#34;: &#34;Most posts are a single .md with a hero in /images. Page bundles are for messier ones - screenshots, downloads, assets that belong to one post.&#34;,
+    },
+    &#34;__hugo-static-site-generator.md&#34;: {
+        &#34;description&#34;: &#34;Hugo turns Markdown into HTML at build time - no database, no PHP surprises. It&#39;s the engine behind JoRap Notes and most client sites I quote.&#34;,
+    },
+    &#34;__humanize-ai-articles.md&#34;: {
+        &#34;meta_title&#34;: &#34;Make AI Articles More Human - Perplexity and Editing&#34;,
+        &#34;tags&#34;: [&#34;AI&#34;, &#34;Writing&#34;, &#34;ChatGPT&#34;, &#34;Prompts&#34;, &#34;Perplexity&#34;, &#34;Burstiness&#34;, &#34;Editing&#34;, &#34;Human Writing&#34;, &#34;Content Creation&#34;, &#34;PKM&#34;],
+    },
+    &#34;__immune-booster-supplements.md&#34;: {
+        &#34;tags&#34;: [&#34;Supplements&#34;, &#34;Health&#34;, &#34;Immune System&#34;, &#34;Wellness&#34;, &#34;Vitamin C&#34;, &#34;Vitamin D&#34;, &#34;Zinc&#34;, &#34;Daily Routine&#34;, &#34;Self Care&#34;, &#34;Nutrition&#34;],
+    },
+    &#34;__jobs-to-be-done-framework.md&#34;: {
+        &#34;tags&#34;: [&#34;Jobs to Be Done&#34;, &#34;JTBD&#34;, &#34;Product Development&#34;, &#34;Product Strategy&#34;, &#34;Customer Research&#34;, &#34;Innovation&#34;, &#34;Framework&#34;, &#34;User Needs&#34;],
+    },
+    &#34;__jorap-notes-features.md&#34;: {
+        &#34;description&#34;: &#34;My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, typed links, all on the same Hugo site.&#34;,
+    },
+    &#34;__mcgill-big-three.md&#34;: {
+        &#34;description&#34;: &#34;Dr. Stuart McGill&#39;s Big Three core exercises target low back stability without cranking on your spine. The routine I keep for maintenance days.&#34;,
+        &#34;tags&#34;: [&#34;Stuart McGill&#34;, &#34;Low Back&#34;, &#34;Core&#34;, &#34;Exercise&#34;, &#34;Back Pain&#34;, &#34;Bird Dog&#34;, &#34;Side Plank&#34;, &#34;Curl-Up&#34;, &#34;Spine Health&#34;, &#34;Physical Therapy&#34;],
+    },
+    &#34;__mi-box-s.md&#34;: {
+        &#34;tags&#34;: [&#34;Mi Box S&#34;, &#34;Android TV&#34;, &#34;Streaming&#34;, &#34;Xiaomi&#34;, &#34;Gear&#34;, &#34;Set-Top Box&#34;, &#34;Google TV&#34;, &#34;Home Entertainment&#34;, &#34;4K Streaming&#34;, &#34;Chromecast Alternative&#34;],
+    },
+    &#34;__native-hugo-taxonomies.md&#34;: {
+        &#34;meta_title&#34;: &#34;Native Hugo Taxonomies - Categories, Tags, and Limits&#34;,
+    },
+    &#34;__password-managers.md&#34;: {
+        &#34;tags&#34;: [&#34;Password Manager&#34;, &#34;Bitwarden&#34;, &#34;Security&#34;, &#34;Privacy&#34;, &#34;Two-Factor Authentication&#34;, &#34;Credentials&#34;, &#34;Online Safety&#34;, &#34;Data Breach&#34;, &#34;Passkeys&#34;, &#34;Cybersecurity&#34;],
+    },
+    &#34;__remote-work-checklist.md&#34;: {
+        &#34;meta_title&#34;: &#34;Remote Work Checklist - What I Pack for a Day Away&#34;,
+        &#34;tags&#34;: [&#34;Remote Work&#34;, &#34;Checklist&#34;, &#34;Home Office&#34;, &#34;Laptop Bag&#34;, &#34;Gear&#34;, &#34;Work From Home&#34;, &#34;Mobile Office&#34;, &#34;Productivity&#34;, &#34;Travel Setup&#34;],
+    },
+    &#34;__second-cellphone.md&#34;: {
+        &#34;description&#34;: &#34;A second phone sounds excessive until you need one. I keep a backup for travel, work boundaries, and the morning I couldn&#39;t find my main phone.&#34;,
+    },
+    &#34;__selling-static-sites.md&#34;: {
+        &#34;meta_title&#34;: &#34;How I Quote Client Websites - Clear Line Items&#34;,
+        &#34;description&#34;: &#34;I break quotes into readable pieces - discovery, build, migration, pass-off, hosting. No bundled fog, no invoice that mixes labor with server rent.&#34;,
+    },
+    &#34;__shopee-tips.md&#34;: {
+        &#34;tags&#34;: [&#34;Shopee&#34;, &#34;Online Shopping&#34;, &#34;Philippines&#34;, &#34;E-commerce&#34;, &#34;Deals&#34;, &#34;Free Shipping&#34;, &#34;Local Sellers&#34;, &#34;Marketplace&#34;, &#34;Shopping Hacks&#34;, &#34;Filipino&#34;],
+    },
+    &#34;__smart-plug.md&#34;: {
+        &#34;description&#34;: &#34;Smart plugs are the least glamorous gadget in the house and also the one I keep buying. What they&#39;re good for, what to skip, and how to avoid a troubleshooting hobby.&#34;,
+        &#34;tags&#34;: [&#34;Smart Home&#34;, &#34;Smart Plug&#34;, &#34;Automation&#34;, &#34;Gear&#34;, &#34;IoT&#34;, &#34;Home Automation&#34;, &#34;Scheduling&#34;, &#34;Energy Saving&#34;, &#34;Wi-Fi Plug&#34;, &#34;Voice Assistant&#34;],
+    },
+    &#34;__wifi-router.md&#34;: {
+        &#34;description&#34;: &#34;After one too many dead zones and mystery reboots, here&#39;s what I care about in a home wifi router - and the habits that matter more than the box.&#34;,
+        &#34;tags&#34;: [&#34;Wi-Fi&#34;, &#34;Router&#34;, &#34;Home Network&#34;, &#34;Gear&#34;, &#34;Wi-Fi 6&#34;, &#34;Mesh Network&#34;, &#34;Internet&#34;, &#34;Networking&#34;, &#34;Home Office&#34;, &#34;Dead Zones&#34;],
+    },
+    &#34;__worcestershire-sauce.md&#34;: {
+        &#34;meta_title&#34;: &#34;Lee and Perrins Worcestershire - The Bottle I Restock&#34;,
+    },
+}
+
+
+def fix_related_notes(slugs):
+    out = []
+    seen = set()
+    for s in slugs or []:
+        if s in REMOVE_SLUGS:
+            continue
+        s = SLUG_FIXES.get(s, s)
+        if s not in seen:
+            seen.add(s)
+            out.append(s)
+    return out
+
+changed = 0
+for path in sorted(blog_dir.glob(&#34;__*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        continue
+    parts = text.split(&#34;---&#34;, 2)
+    fm = yaml.safe_load(parts[1]) or {}
+    body = parts[2]
+
+    if path.name in UPDATES:
+        fm.update(UPDATES[path.name])
+
+    if fm.get(&#34;related_notes&#34;):
+        fm[&#34;related_notes&#34;] = fix_related_notes(fm[&#34;related_notes&#34;])
+
+    canon = canonical_blog_fm(fm, path)
+    new_text = f&#34;---\n{dump_blog_frontmatter(canon)}\n---{body}&#34;
+    if new_text != text:
+        path.write_text(new_text, encoding=&#34;utf-8&#34;)
+        changed += 1
+
+print(f&#34;Updated {changed} draft files&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && PYTHONPATH=scripts python3 << 'PY'
+import yaml
+from pathlib import Path
+from blog_frontmatter import canonical_blog_fm, dump_blog_frontmatter
+
+blog_dir = Path("content/english/blog")
+
+SLUG_FIXES = {
+    "recovery": "energy-protects-judgment",
+    "progressive-layers": "layered-reading",
+}
+
+REMOVE_SLUGS = {"sketchpad", "crdt", "elon-musk"}
+
+UPDATES: dict[str, dict] = {
+    "__blog-template.md": {
+        "meta_title": "Blog Template - Hugo CMS Reference",
+    },
+    "__client-site-pass-off.md": {
+        "description": "Launch day isn't the finish line. Before deposit I name who publishes next - Git, retainer, CMS - and leave a one-page doc so you're not stuck for every typo.",
+    },
+    "__craft-prompt-framework.md": {
+        "description": "Vague prompts get vague answers. CRAFT - Context, Role, Action, Format, Target Audience - is how I build prompts that don't leave the model guessing.",
+        "tags": ["AI", "Prompts", "CRAFT", "Prompt Engineering", "Writing", "ChatGPT", "LLM", "Content Creation", "PKM"],
+    },
+    "__how-to-create-a-blog-template.md": {
+        "meta_title": "How to Create a Blog Template - Hugo Reference",
+    },
+    "__how-to-create-a-good-habit.md": {
+        "tags": ["Habits", "Atomic Habits", "James Clear", "Productivity", "Behavior Change", "Four Laws", "Habit Stacking", "Routine Building"],
+    },
+    "__hugo-go-templates.md": {
+        "meta_title": "Hugo Go Templates - What I Learned Fixing a Listing",
+    },
+    "__hugo-page-bundles.md": {
+        "description": "Most posts are a single .md with a hero in /images. Page bundles are for messier ones - screenshots, downloads, assets that belong to one post.",
+    },
+    "__hugo-static-site-generator.md": {
+        "description": "Hugo turns Markdown into HTML at build time - no database, no PHP surprises. It's the engine behind JoRap Notes and most client sites I quote.",
+    },
+    "__humanize-ai-articles.md": {
+        "meta_title": "Make AI Articles More Human - Perplexity and Editing",
+        "tags": ["AI", "Writing", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Editing", "Human Writing", "Content Creation", "PKM"],
+    },
+    "__immune-booster-supplements.md": {
+        "tags": ["Supplements", "Health", "Immune System", "Wellness", "Vitamin C", "Vitamin D", "Zinc", "Daily Routine", "Self Care", "Nutrition"],
+    },
+    "__jobs-to-be-done-framework.md": {
+        "tags": ["Jobs to Be Done", "JTBD", "Product Development", "Product Strategy", "Customer Research", "Innovation", "Framework", "User Needs"],
+    },
+    "__jorap-notes-features.md": {
+        "description": "My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, typed links, all on the same Hugo site.",
+    },
+    "__mcgill-big-three.md": {
+        "description": "Dr. Stuart McGill's Big Three core exercises target low back stability without cranking on your spine. The routine I keep for maintenance days.",
+        "tags": ["Stuart McGill", "Low Back", "Core", "Exercise", "Back Pain", "Bird Dog", "Side Plank", "Curl-Up", "Spine Health", "Physical Therapy"],
+    },
+    "__mi-box-s.md": {
+        "tags": ["Mi Box S", "Android TV", "Streaming", "Xiaomi", "Gear", "Set-Top Box", "Google TV", "Home Entertainment", "4K Streaming", "Chromecast Alternative"],
+    },
+    "__native-hugo-taxonomies.md": {
+        "meta_title": "Native Hugo Taxonomies - Categories, Tags, and Limits",
+    },
+    "__password-managers.md": {
+        "tags": ["Password Manager", "Bitwarden", "Security", "Privacy", "Two-Factor Authentication", "Credentials", "Online Safety", "Data Breach", "Passkeys", "Cybersecurity"],
+    },
+    "__remote-work-checklist.md": {
+        "meta_title": "Remote Work Checklist - What I Pack for a Day Away",
+        "tags": ["Remote Work", "Checklist", "Home Office", "Laptop Bag", "Gear", "Work From Home", "Mobile Office", "Productivity", "Travel Setup"],
+    },
+    "__second-cellphone.md": {
+        "description": "A second phone sounds excessive until you need one. I keep a backup for travel, work boundaries, and the morning I couldn't find my main phone.",
+    },
+    "__selling-static-sites.md": {
+        "meta_title": "How I Quote Client Websites - Clear Line Items",
+        "description": "I break quotes into readable pieces - discovery, build, migration, pass-off, hosting. No bundled fog, no invoice that mixes labor with server rent.",
+    },
+    "__shopee-tips.md": {
+        "tags": ["Shopee", "Online Shopping", "Philippines", "E-commerce", "Deals", "Free Shipping", "Local Sellers", "Marketplace", "Shopping Hacks", "Filipino"],
+    },
+    "__smart-plug.md": {
+        "description": "Smart plugs are the least glamorous gadget in the house and also the one I keep buying. What they're good for, what to skip, and how to avoid a troubleshooting hobby.",
+        "tags": ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant"],
+    },
+    "__wifi-router.md": {
+        "description": "After one too many dead zones and mystery reboots, here's what I care about in a home wifi router - and the habits that matter more than the box.",
+        "tags": ["Wi-Fi", "Router", "Home Network", "Gear", "Wi-Fi 6", "Mesh Network", "Internet", "Networking", "Home Office", "Dead Zones"],
+    },
+    "__worcestershire-sauce.md": {
+        "meta_title": "Lee and Perrins Worcestershire - The Bottle I Restock",
+    },
+}
+
+
+def fix_related_notes(slugs):
+    out = []
+    seen = set()
+    for s in slugs or []:
+        if s in REMOVE_SLUGS:
+            continue
+        s = SLUG_FIXES.get(s, s)
+        if s not in seen:
+            seen.add(s)
+            out.append(s)
+    return out
+
+changed = 0
+for path in sorted(blog_dir.glob("__*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    parts = text.split("---", 2)
+    fm = yaml.safe_load(parts[1]) or {}
+    body = parts[2]
+
+    if path.name in UPDATES:
+        fm.update(UPDATES[path.name])
+
+    if fm.get("related_notes"):
+        fm["related_notes"] = fix_related_notes(fm["related_notes"])
+
+    canon = canonical_blog_fm(fm, path)
+    new_text = f"---\n{dump_blog_frontmatter(canon)}\n---{body}"
+    if new_text != text:
+        path.write_text(new_text, encoding="utf-8")
+        changed += 1
+
+print(f"Updated {changed} draft files")
+PY
+```
+
+```
+Updated 23 draft files
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+23 drafts were updated. 9 were already fine.
+
+Running validation to check for remaining issues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog &amp;&amp; PYTHONPATH=scripts python3 &lt;&lt; &#39;PY&#39;
+import yaml
+from pathlib import Path
+
+blog = Path(&#34;content/english/blog&#34;)
+notes = set()
+for f in Path(&#34;content/english/notes&#34;).glob(&#34;*.md&#34;):
+    if f.name == &#34;_index.md&#34;: continue
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    notes.add(fm.get(&#34;slug&#34;) or f.stem)
+
+issues = []
+stats = {&#34;desc_max&#34;:0,&#34;meta_max&#34;:0,&#34;tags_max&#34;:0,&#34;count&#34;:0}
+for f in sorted(blog.glob(&#34;__*.md&#34;)):
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    stats[&#34;count&#34;] += 1
+    d, mt, tags = fm.get(&#34;description&#34;,&#34;&#34;), fm.get(&#34;meta_title&#34;,&#34;&#34;), fm.get(&#34;tags&#34;) or []
+    stats[&#34;desc_max&#34;] = max(stats[&#34;desc_max&#34;], len(d))
+    stats[&#34;meta_max&#34;] = max(stats[&#34;meta_max&#34;], len(mt))
+    stats[&#34;tags_max&#34;] = max(stats[&#34;tags_max&#34;], len(tags))
+    for slug in fm.get(&#34;related_notes&#34;) or []:
+        if slug not in notes:
+            issues.append(f&#34;{f.name}: bad slug {slug}&#34;)
+    if len(d) &gt; 160: issues.append(f&#34;{f.name}: desc {len(d)}&#34;)
+    if len(mt) &gt; 60: issues.append(f&#34;{f.name}: meta {len(mt)}&#34;)
+    if len(tags) &gt; 10: issues.append(f&#34;{f.name}: tags {len(tags)}&#34;)
+    if fm.get(&#34;title&#34;) == fm.get(&#34;meta_title&#34;): issues.append(f&#34;{f.name}: title==meta_title&#34;)
+
+print(f&#34;Drafts: {stats[&#39;count&#39;]}&#34;)
+print(f&#34;Max desc: {stats[&#39;desc_max&#39;]}, max meta: {stats[&#39;meta_max&#39;]}, max tags: {stats[&#39;tags_max&#39;]}&#34;)
+print(&#34;Issues:&#34;, len(issues))
+for i in issues: print(&#34; &#34;, i)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog && PYTHONPATH=scripts python3 << 'PY'
+import yaml
+from pathlib import Path
+
+blog = Path("content/english/blog")
+notes = set()
+for f in Path("content/english/notes").glob("*.md"):
+    if f.name == "_index.md": continue
+    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
+    notes.add(fm.get("slug") or f.stem)
+
+issues = []
+stats = {"desc_max":0,"meta_max":0,"tags_max":0,"count":0}
+for f in sorted(blog.glob("__*.md")):
+    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
+    stats["count"] += 1
+    d, mt, tags = fm.get("description",""), fm.get("meta_title",""), fm.get("tags") or []
+    stats["desc_max"] = max(stats["desc_max"], len(d))
+    stats["meta_max"] = max(stats["meta_max"], len(mt))
+    stats["tags_max"] = max(stats["tags_max"], len(tags))
+    for slug in fm.get("related_notes") or []:
+        if slug not in notes:
+            issues.append(f"{f.name}: bad slug {slug}")
+    if len(d) > 160: issues.append(f"{f.name}: desc {len(d)}")
+    if len(mt) > 60: issues.append(f"{f.name}: meta {len(mt)}")
+    if len(tags) > 10: issues.append(f"{f.name}: tags {len(tags)}")
+    if fm.get("title") == fm.get("meta_title"): issues.append(f"{f.name}: title==meta_title")
+
+print(f"Drafts: {stats['count']}")
+print(f"Max desc: {stats['desc_max']}, max meta: {stats['meta_max']}, max tags: {stats['tags_max']}")
+print("Issues:", len(issues))
+for i in issues: print(" ", i)
+PY
+```
+
+```
+$ python3 scripts/normalize-blog-frontmatter.py --verify
+Blog frontmatter OK
+Drafts: 32
+Max desc: 166, max meta: 60, max tags: 10
+Issues: 1
+  __smart-plug.md: desc 166
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Trimming six characters from the smart-plug description.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__smart-plug.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a final verification before summarizing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog &amp;&amp; PYTHONPATH=scripts python3 &lt;&lt; &#39;PY&#39;
+import yaml
+from pathlib import Path
+blog = Path(&#34;content/english/blog&#34;)
+notes = set()
+for f in Path(&#34;content/english/notes&#34;).glob(&#34;*.md&#34;):
+    if f.name == &#34;_index.md&#34;: continue
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    notes.add(fm.get(&#34;slug&#34;) or f.stem)
+issues = []
+for f in sorted(blog.glob(&#34;__*.md&#34;)):
+    fm = yaml.safe_load(f.read_text().split(&#34;---&#34;,2)[1]) or {}
+    d, mt, tags = fm.get(&#34;description&#34;,&#34;&#34;), fm.get(&#34;meta_title&#34;,&#34;&#34;), fm.get(&#34;tags&#34;) or []
+    for slug in fm.get(&#34;related_notes&#34;) or []:
+        if slug not in notes: issues.append(f&#34;{f.name}: bad {slug}&#34;)
+    if len(d) &gt; 160: issues.append(f&#34;{f.name}: desc {len(d)}&#34;)
+    if len(mt) &gt; 60: issues.append(f&#34;{f.name}: meta {len(mt)}&#34;)
+    if len(tags) &gt; 10: issues.append(f&#34;{f.name}: tags {len(tags)}&#34;)
+    if fm.get(&#34;title&#34;) == fm.get(&#34;meta_title&#34;): issues.append(f&#34;{f.name}: title==meta&#34;)
+print(&#34;Issues:&#34;, issues or &#34;none&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog && PYTHONPATH=scripts python3 << 'PY'
+import yaml
+from pathlib import Path
+blog = Path("content/english/blog")
+notes = set()
+for f in Path("content/english/notes").glob("*.md"):
+    if f.name == "_index.md": continue
+    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
+    notes.add(fm.get("slug") or f.stem)
+issues = []
+for f in sorted(blog.glob("__*.md")):
+    fm = yaml.safe_load(f.read_text().split("---",2)[1]) or {}
+    d, mt, tags = fm.get("description",""), fm.get("meta_title",""), fm.get("tags") or []
+    for slug in fm.get("related_notes") or []:
+        if slug not in notes: issues.append(f"{f.name}: bad {slug}")
+    if len(d) > 160: issues.append(f"{f.name}: desc {len(d)}")
+    if len(mt) > 60: issues.append(f"{f.name}: meta {len(mt)}")
+    if len(tags) > 10: issues.append(f"{f.name}: tags {len(tags)}")
+    if fm.get("title") == fm.get("meta_title"): issues.append(f"{f.name}: title==meta")
+print("Issues:", issues or "none")
+PY
+```
+
+```
+$ python3 scripts/normalize-blog-frontmatter.py --verify
+Blog frontmatter OK
+Issues: none
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All 32 drafts passed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Same frontmatter pass done on all **32 drafts**. `pnpm lint:blog` passes.
+
+## What changed
+
+### Broken `related_notes` (fixed across drafts)
+- `recovery` → `energy-protects-judgment` (immune-booster, mcgill-big-three)
+- `progressive-layers` → `layered-reading` (craft-prompt, humanize-ai)
+- Removed dead slugs: `sketchpad`, `crdt`, `elon-musk`
+
+### Descriptions trimmed (11 drafts)
+Longest was 206 chars (`__client-site-pass-off`); now **max 160** on all drafts.
+
+### `meta_title` shortened (8 drafts)
+Including `__hugo-go-templates` (66→52), `__native-hugo-taxonomies` (73→52), `__worcestershire-sauce` (64→54).
+
+### `title` / `meta_title` split (2 templates)
+- `__blog-template` → "Blog Template - Hugo CMS Reference"
+- `__how-to-create-a-blog-template` → "How to Create a Blog Template - Hugo Reference"
+
+### Tags capped at 10 (12 drafts)
+Trimmed synonym sprawl on AI, habit, gear, and business drafts.
+
+### Already clean (9 drafts, untouched)
+`__canon-g3000`, `__hugo-shortcodes`, `__kewpie-mayo`, `__markdown-deep-dive`, `__markdown-formatting`, `__obsidian-vs-hugo`, `__rechargeable-batteries`, `__sveltia-cms`, `__tailwind-css-v4`
+
+## Final stats (32 drafts)
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Broken `related_notes` | 10 across 8 drafts | **0** |
+| Descriptions > 160 chars | 11/32 | **0/32** |
+| `meta_title` > 60 chars | 8/32 | **0/32** |
+| Tags > 10 | 12/32 | **0/32** |
+| `title` == `meta_title` | 2/32 | **0/32** |
+
+Body content untouched. Combined with the published pass, all **56 blog posts** now meet the same frontmatter standards. Say if you want this committed.

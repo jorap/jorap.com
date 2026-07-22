@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user wants to know which blog post to publish next.
 
-Searching the codebase for how blog publishing is managed.</details></think>
+Searching the codebase for how blog publishing is managed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,10 +25,8 @@ I'll look through the repo for how blog publishing is tracked—drafts, queue, o
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -134,22 +133,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **60** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (60 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (60 files)
 
 | File |
 |------|
@@ -213,21 +204,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (60 files)
 | `content/english/blog/why-run-your-own-website.md` |
 | `content/english/blog/__jorap-notes-features.md` |
 | `content/english/blog/drupal-to-wordpress.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -334,13 +316,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -348,14 +323,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Draft blog posts are prefixed with `__`.
 
-Searching for a publish queue or schedule to determine the next blog post.</details></think>
+Searching for a publish queue or schedule to determine the next blog post.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -463,37 +437,20 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/docs`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **/home/jorap/Documents/GitHub/jorap.com/docs** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -600,26 +557,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for a publish queue or schedule in blog review documents, specs, or scripts.</details></think>
+Searching for a publish queue or schedule in blog review documents, specs, or scripts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -727,34 +676,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-12_09-13-33Z-blog-items-review-criteria.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-12_09-13-33Z-blog-items-review-criteria.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -793,13 +727,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -807,14 +734,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Searching specstory history and recent sessions for the next blog recommendation.
 
-Checking publish dates, git history, and queue files to determine the next blog.</details></think>
+Checking publish dates, git history, and queue files to determine the next blog.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -869,37 +795,61 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git log --oneline -20 -- content/english/blog/ && echo "---" && for f in content/english/blog/__*.md; do echo "$(git log -1 --format='%ci' -- "$f" 2>/dev/null || echo 'unknown') $(basename "$f")"; done | sort -r | head -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git log --oneline -20 -- content/english/blog/ &amp;&amp; echo &#34;---&#34; &amp;&amp; for f in content/english/blog/__*.md; do echo &#34;$(git log -1 --format=&#39;%ci&#39; -- &#34;$f&#34; 2&gt;/dev/null || echo &#39;unknown&#39;) $(basename &#34;$f&#34;)&#34;; done | sort -r | head -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git log --oneline -20 -- content/english/blog/ && echo "---" && for f in content/english/blog/__*.md; do echo "$(git log -1 --format='%ci' -- "$f" 2>/dev/null || echo 'unknown') $(basename "$f")"; done | sort -r | head -15
 ```
-</details>
-</tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+```
+4cb9e84d Update
+7eea2c7c Update
+648b5329 Update
+a9c0131b Update
+80784cb3 Update
+e8572193 Update
+a16836ca Update
+74f2dfc6 Update
+6f2d65a8 Update
+d4946fa0 Update
+0124767b Update
+3202d9e1 Update
+35a60046 Update
+084d051e Publish Hanamikoji to Duopoly retheme post.
+e98a842c Update
+1436fb22 Update
+e9249509 Update
+1832930d Update
+22440264 Update
+13620b82 Update
+---
+2026-07-19 20:43:28 +0800 __worcestershire-sauce.md
+2026-07-19 20:43:28 +0800 __wifi-router.md
+2026-07-19 20:43:28 +0800 __tailwind-css-v4.md
+2026-07-19 20:43:28 +0800 __sveltia-cms.md
+2026-07-19 20:43:28 +0800 __smart-plug.md
+2026-07-19 20:43:28 +0800 __shopee-tips.md
+2026-07-19 20:43:28 +0800 __second-cellphone.md
+2026-07-19 20:43:28 +0800 __remote-work-checklist.md
+2026-07-19 20:43:28 +0800 __rechargeable-batteries.md
+2026-07-19 20:43:28 +0800 __password-managers.md
+2026-07-19 20:43:28 +0800 __obsidian-vs-hugo.md
+2026-07-19 20:43:28 +0800 __native-hugo-taxonomies.md
+2026-07-19 20:43:28 +0800 __mi-box-s.md
+2026-07-19 20:43:28 +0800 __mcgill-big-three.md
+2026-07-19 20:43:28 +0800 __markdown-formatting.md
 
+```
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1007,11 +957,463 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the most recent blog and any publish queue to determine the next post.
+
+Reviewing the grade-1 and inter-fontions drafts. Checking homepage focus recommendations and difficulty rankings.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-15_01-19-17Z-grade-1-math-and-writing-program.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__inter-font.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint on the two most likely candidates. Checking documentation and scripts for an explicit publish queue.
+
+Also checking the most recent blog post and homepage featured post configuration.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,toml,json,yaml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "featured.*blog|next.*publish|publish.*plan|blog.*backlog"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "featured.*blog|next.*publish|publish.*plan|blog.*backlog",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "./.specstory/history/2026-07-19_12-56-56Z-next-blog-publication.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__hugo-static-site-generator.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__hugo-go-templates.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./static/exports/okf-blog/articles/static-site-vs-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-17_00-59-48Z-new-notes-from-blogs.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-07-15_12-21-41Z-top-progress-bar-implementation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/static-site-vs-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-14_04-29-10Z-blog-content-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-14_02-39-51Z-blog-frontmatter-review.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./.specstory/history/2026-07-13_01-23-10Z-hanamikoji-game-rules.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-12_09-26-45Z-blog-review-assumptions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-11_23-21-02Z-laptop-companion-specifications.md"
+    }
+  ],
+  "totalFiles": 13,
+  "totalMatches": 91
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md 2&gt;&amp;1; echo &#34;---&#34;; pnpm lint:voice content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md 2>&1; echo "---"; pnpm lint:voice content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md 2>&1
+```
+
+```
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md
+Blog frontmatter OK
+Slop lint OK
+---
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^draft:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^draft:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__humanize-ai-articles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__canon-g3000.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__immune-booster-supplements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jobs-to-be-done-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__sveltia-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__rechargeable-batteries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__obsidian-vs-hugo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__native-hugo-taxonomies.md"
+    }
+  ],
+  "totalFiles": 59,
+  "totalMatches": 60
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No formal publish queue file exists in the repository.
+
+The most recent post is `hanamikoji-duopoly-retheme.md`. Two drafts are ready to publish: `__inter-font.md` and `__grade-1-better-than-kumon.md`. Both passed lint and voice checks. They were created during the July 15 session.
+
+`obsn-vs-hugo` was also noted as upcoming. The inter-font draft connects to unfinished notes garden work. Both posts still need hero image swaps. I am checking recent edit dates to determine priority.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git log -1 --format=&#39;%ci %s&#39; -- content/english/blog/hanamikoji-duopoly-retheme.md &amp;&amp; echo &#34;---&#34; &amp;&amp; ls -lt content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md content/english/blog/__obsidian-vs-hugo.md 2&gt;/dev/null &amp;&amp; echo &#34;---&#34; &amp;&amp; git log -3 --format=&#39;%ci %s&#39; -- content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git log -1 --format='%ci %s' -- content/english/blog/hanamikoji-duopoly-retheme.md && echo "---" && ls -lt content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md content/english/blog/__obsidian-vs-hugo.md 2>/dev/null && echo "---" && git log -3 --format='%ci %s' -- content/english/blog/__inter-font.md content/english/blog/__grade-1-better-than-kumon.md
+```
+
+```
+2026-07-15 19:41:05 +0800 Update
+---
+-rw-rw-r-- 1 root root 20848 Jul 19 20:41 content/english/blog/__grade-1-better-than-kumon.md
+-rw-r--r-- 1 root root  2110 Jul 19 20:40 content/english/blog/__obsidian-vs-hugo.md
+-rw-rw-r-- 1 root root  6689 Jul 15 19:51 content/english/blog/__inter-font.md
+---
+2026-07-19 20:43:28 +0800 Update
+2026-07-15 20:21:50 +0800 Update
+2026-07-15 19:41:05 +0800 Update
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-15_11-48-18Z-love-for-the-inter-font.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking git history to find the most recently published posts.
+
+`__grade-1-better-than-kumon.md` is the next blog to publish. It was actively edited today and contains unique parenting content. Inter-font was polished earlier but remains untouched.
+
+The only remaining blocker for `__grade-1-better-than-kumon.md` is swapping its placeholder hero image for a real one. `__inter-font.md` is the backup choice; it is also lint-clean and shorter, though it dates back to July 15.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/*.md; do [[ &#34;$(basename &#34;$f&#34;)&#34; == _* ]] &amp;&amp; continue; [[ &#34;$(basename &#34;$f&#34;)&#34; == _index.md ]] &amp;&amp; continue; draft=$(rg -m1 &#39;^draft:&#39; &#34;$f&#34; 2&gt;/dev/null | awk &#39;{print $2}&#39;); [[ &#34;$draft&#34; == &#34;true&#34; ]] &amp;&amp; continue; date=$(rg -m1 &#39;^date:&#39; &#34;$f&#34; 2&gt;/dev/null | sed &#39;s/date: //;s/&#34;//g&#39;); title=$(rg -m1 &#39;^title:&#39; &#34;$f&#34; 2&gt;/dev/null | sed &#39;s/title: //;s/&#34;//g&#39;); echo &#34;$date | $title | $(basename &#34;$f&#34;)&#34;; done | sort -r | head -8</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do [[ "$(basename "$f")" == _* ]] && continue; [[ "$(basename "$f")" == _index.md ]] && continue; draft=$(rg -m1 '^draft:' "$f" 2>/dev/null | awk '{print $2}'); [[ "$draft" == "true" ]] && continue; date=$(rg -m1 '^date:' "$f" 2>/dev/null | sed 's/date: //;s/"//g'); title=$(rg -m1 '^title:' "$f" 2>/dev/null | sed 's/title: //;s/"//g'); echo "$date | $title | $(basename "$f")"; done | sort -r | head -8
+```
+
+```
+2026-07-14T01:26:00Z | Retheming Hanamikoji as Duopoly | hanamikoji-duopoly-retheme.md
+2026-07-13T14:15:00Z | One Sheet, Eight Pages: Why I Use a 1-Page Zine for Rules Booklets | one-page-zine.md
+2026-07-13T05:00:00Z | Alex Eala Pro Career Tracker | alex-eala-pro-career-tracker.md
+2026-07-11T05:04:00Z | The Short Extension Cord in My Laptop Bag | extension-cord.md
+2026-07-10T06:00:00Z | Static Site or CMS? How I Pick the Stack | static-site-vs-cms.md
+2026-07-09T06:00:00Z | Instant Pot Arroz Caldo | instant-pot-arroz-caldo.md
+2026-07-05T06:11:00Z | Why I Stopped Playing Marvel Snap | why-i-stopped-playing-marvel-snap.md
+2026-07-04T12:00:00Z | Why I Focused on Open Source Technologies | why-i-focused-on-open-source.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md",
+  "pattern": "image-template|note\\.jpg|Expanded from"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md",
+  "pattern": "image-template|note\\.jpg|Expanded from",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__inter-font.md",
+  "pattern": "image-template|note\\.jpg|Expanded from"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__inter-font.md",
+  "pattern": "image-template|note\\.jpg|Expanded from",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__inter-font.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+There is no explicit publish queue in the repository.
+
+The most recent post is the July 14 Hanamikoji Duopoly. The freshest draft is grade-1-better-than-kumon, published today and linked to the live randomizer. Both drafts still need hero image swaps before publishing.
+
+inter-font is the runner-up. It is lint-clean and shorter, making it a lighter alternative for a faster publish.
+</details></think>
+
+_**Agent (auto-low)**_
+
+There isn’t a formal publish queue in the repo — drafts use the `__` prefix and `draft: true`, and you flip them live by renaming and setting `draft: false`. Based on what’s ready and what you’ve been working on, here’s the picture.
+
+## Next up: **Grade 1 Math Games at Home** (`__grade-1-better-than-kumon.md`)
+
+This is the strongest candidate right now.
+
+- **Most recently edited draft** (touched today, Jul 19)
+- **Passes all publish checks** (`lint:blog`, `lint:voice`, `lint:slop`)
+- **Substantive and personal** — Kumon reading vs. home math games, your son’s preference, the 10-principle plan
+- **Ties to something already live** — links to your [grade-1 quiz randomizer](https://www.jorap.com/randomizer/?set=grade-1-quiz)
+- **Slug/date are set** — `grade-1-better-than-kumon`, dated Jul 15
+
+**Before publish:** swap `/images/note.jpg` for a real hero image (anti-slop rule blocks placeholder images).
+
+**To publish:**
+1. Rename `__grade-1-better-than-kumon.md` → `grade-1-better-than-kumon.md`
+2. Set `draft: false`
+3. Add a real hero image
+
+---
+
+## Runner-up: **Why I Love the Inter Font** (`__inter-font.md`)
+
+Also lint-clean and voice-ready from the Jul 15 session. Shorter and simpler to ship. Same blocker: swap `image-template.jpg` for a real hero. Good follow-up publish if you want something lighter after the parenting post, and it pairs naturally with a future note update on [[Build a Reliable Default]].
+
+---
+
+## Context
+
+- **Last published post:** [Retheming Hanamikoji as Duopoly](content/english/blog/hanamikoji-duopoly-retheme.md) (Jul 14)
+- **35 drafts** in the backlog; ~18 are marked “voice-ready or close” in your Jul 12 blog review (wifi router, second cellphone, obsidian-vs-hugo, etc.)
+- **Not next:** Hugo/tutorial outlines (`__markdown-deep-dive.md`, `__hugo-shortcodes.md`) and posts with blockers (`__selling-static-sites.md` — dollar amounts, `__shopee-tips.md` — ₱ pricing)
+
+If you want, I can publish grade-1 (rename, flip draft, hero image) or run a quick “ready to ship this week” pass on the top 5 drafts.

@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Publishing `__static-site-client-scope.md` and updating its slug.
 
-Reading the blog post, jorap-voice skill, and other published posts to understand the slug pattern and publishing conventions.</details></think>
+Reading the blog post, jorap-voice skill, and other published posts to understand the slug pattern and publishing conventions.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,36 +25,22 @@ I'll read the draft post and how other published posts handle slugs so we can pu
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -160,13 +147,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -176,7 +156,8 @@ Publishing the blog post.
 
 The slug needs updating. The filename drops the `__` prefix. The slug line should be removed if it matches the filename.
 
-Checking recently published posts to see how slugs are handled after renaming.</details></think>
+Checking recently published posts to see how slugs are handled after renaming.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -185,11 +166,10 @@ Checking how other posts were published and whether anything links to this slug.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **55** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (55 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (55 files)
 
 | File |
 |------|
@@ -248,21 +228,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (55 files)
 | `content/english/blog/miracle-isaiah-david.md` |
 | `content/english/blog/__client-site-pass-off.md` |
 | `content/english/blog/__kewpie-mayo.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -368,48 +339,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking a recently published post to confirm the slug pattern. `sveltia-cms.md` was previously `__sveltia-cms.md`.</details></think>
+Checking a recently published post to confirm the slug pattern. `sveltia-cms.md` was previously `__sveltia-cms.md`.
+</details></think>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
 File not found
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_12-51-28Z-static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_12-51-28Z-static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -440,13 +395,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -454,14 +402,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The slug `static-site-vs-cms` was intentionally set to reflect the post's pivot from client scope to a static site versus CMS comparison.
 
-Renaming the file to `static-site-vs-cms.md` and setting `draft: false`. Checking the specstory for any slug discussion.</details></think>
+Renaming the file to `static-site-vs-cms.md` and setting `draft: false`. Checking the specstory for any slug discussion.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -492,46 +439,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `assets/images/static-vs-cms.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -539,40 +465,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Outlining the publish workflow steps.
 
-Renaming the file to `static-site-vs-cms.md`. Setting `draft: false` and removing the redundant `slug` line. Checking related notes and cross-references.</details></think>
+Renaming the file to `static-site-vs-cms.md`. Setting `draft: false` and removing the redundant `slug` line. Checking related notes and cross-references.
+</details></think>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md</summary>
 
 </details></tool-use>
 
@@ -581,14 +494,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Confirmed `related_notes` references garden notes. `static-site-client-scope` is correctly classified as a garden note.
 
-Checking if any blog posts link to `/blog/staic-site-client-scope` in their body content.</details></think>
+Checking if any blog posts link to `/blog/staic-site-client-scope` in their body content.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -631,21 +543,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -677,13 +580,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -691,43 +587,31 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The old blog URL has no incoming links because the site is not yet published.
 
-Publishing steps are ready. The draft file will be renamed and its slug removed. Voice lint will run on the published version. Recent published posts will be checked for reference.</details></think>
+Publishing steps are ready. The draft file will be renamed and its slug removed. Voice lint will run on the published version. Recent published posts will be checked for reference.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__static-site-client-scope.md 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/__static-site-client-scope.md 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__static-site-client-scope.md 2>&1 | tail -20
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__static-site-client-scope.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__static-site-client-scope.md
 Voice dash errors:
   content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -735,7 +619,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Published posts retain their slug line even when it matches the filename, consistent with hugoplate behavior.
 
-The jorap-voice skill overrides hugoplate. I'll remove the slug line because it matches the filename. I'll rename the file to `static-site-vs-cms.md`, set draft to false, and delete the old file.</details></think>
+The jorap-voice skill overrides hugoplate. I'll remove the slug line because it matches the filename. I'll rename the file to `static-site-vs-cms.md`, set draft to false, and delete the old file.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -744,14 +629,8 @@ Publishing: renaming to `static-site-vs-cms.md`, setting `draft: false`, and rem
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
 
 </details></tool-use>
 
@@ -760,31 +639,17 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The Sveltia CMS link points to a published path, yet the content file remains a draft.
 
-The original date will remain unchanged. The draft file will be deleted and the published version created without a slug line. A Hugo build check will follow.</details></think>
+The original date will remain unchanged. The draft file will be deleted and the published version created without a slug line. A Hugo build check will follow.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
@@ -794,13 +659,13 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Verifying that Hugo builds the page correctly.</details></think>
+Verifying that Hugo builds the page correctly.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -15 && test -f public/blog/static-site-vs-cms/index.html && echo "OK: /blog/static-site-vs-cms/"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -15 &amp;&amp; test -f public/blog/static-site-vs-cms/index.html &amp;&amp; echo &#34;OK: /blog/static-site-vs-cms/&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -15 && test -f public/blog/static-site-vs-cms/index.html && echo "OK: /blog/static-site-vs-cms/"
 ```
@@ -825,40 +690,27 @@ OK: /blog/static-site-vs-cms/
 ]633;D;0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Waiting for the Hugo build to complete.</details></think>
+Waiting for the Hugo build to complete.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="await">
-<details>
-<summary>Tool use: **await**</summary>
-
-Status: **completed**
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="unknown" data-tool-name="await"><details>
 <summary>Tool use: **await**</summary>
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The build succeeded.</details></think>
+The build succeeded.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -890,7 +742,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating the home featured blogs section.
 
-Searching for how the homepage configures featured blogs.</details></think>
+Searching for how the homepage configures featured blogs.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -899,10 +752,8 @@ I'll find where homepage featured blogs are configured and update them for the n
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1010,35 +861,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for the homepage featured blogs data file or partial.</details></think>
+Searching for the homepage featured blogs data file or partial.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1146,22 +987,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (6 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (6 files)
 
 | File |
 |------|
@@ -1171,24 +1004,661 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (6 files)
 | `themes/jorap/layouts/home.html` |
 | `themes/jorap/layouts/_partials/sections/home-proof.html` |
 | `themes/jorap/layouts/_partials/sections/home-intro.html` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_04-54-45Z-homepage-post-focus.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_04-54-45Z-homepage-post-focus.md</summary>
+<think><details><summary>Thought Process</summary>
+Checking home.html, home-writing.html, and hugo.toml for featured blog configuration.
+</details></think>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/home.html</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/home-writing.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "featured_slugs|home_blog|homeBlog|featured_posts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "featured_slugs|home_blog|homeBlog|featured_posts",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-23_22-51-23Z-impeccable-critique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "config/_default/params.toml"
+    },
+    {
+      "matchCount": 7,
+      "uri": "themes/jorap/layouts/_partials/sections/home-writing.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_17-22-23Z-email-functionality-in-contact-us-form.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".impeccable/critique/2026-06-18T17-25-43Z__themes-jorap-layouts-home-html.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 22
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The featured blog post slugs are configured in `config/_default/params.toml` under `home_blog.post_slugs`.
+
+Reading the current configuration and specstory session details to determine which posts to feature.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_04-54-45Z-homepage-post-focus.md",
+  "pattern": "post_slugs|static-site|homepage"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_04-54-45Z-homepage-post-focus.md",
+  "pattern": "post_slugs|static-site|homepage",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": ".specstory/history/2026-07-10_04-54-45Z-homepage-post-focus.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the homepage post focus specstory to determine the next featured blog and update home_blog.post_slugs accordingly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_04-54-45Z-homepage-post-focus.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "post_slugs"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "post_slugs",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./config/_default/params.toml"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./themes/jorap/layouts/_partials/sections/home-writing.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-23_22-51-23Z-impeccable-critique.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.impeccable/critique/2026-06-23T22-53-30Z__themes-jorap-layouts-home-html.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-06-23_15-03-56Z-impeccable-critique.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.impeccable/critique/2026-06-23T15-11-36Z__themes-jorap-layouts-home-html.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user just published `static-site-vs-cms` and wants to update the homepage featured blogs.
+
+The critique suggests curating toward client problems like "WordPress vs static." The new post should likely be featured prominently. I am reviewing the current post slugs to plan the update.
+
+The first homepage slot will become the hero card for `static-site-vs-cms`. That post directly answers the WordPress versus static question. I will also set `featured: true` on the blog post itself to improve list sorting.
+
+Buyer-relevant posts will stay prominent. Less relevant items may move down. I will check other published posts and recent agent guidance.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*2026-07-10*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "post_slugs|static-site-vs-cms|home_blog"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "post_slugs|static-site-vs-cms|home_blog",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-10_12-51-28Z-static-site-vs-cms.md"
+    },
+    {
+      "matchCount": 20,
+      "uri": ".specstory/history/2026-07-10_13-10-50Z-static-site-slug-update.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 23
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^featured: true"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^featured: true",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__drupal-to-wordpress.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **55** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (55 files)
+
+| File |
+|------|
+| `content/english/blog/__remote-work-checklist.md` |
+| `content/english/blog/miracle-isaiah-david.md` |
+| `content/english/blog/__selling-static-sites.md` |
+| `content/english/blog/set-it-forget-it-arroz-caldo.md` |
+| `content/english/blog/__jobs-to-be-done-framework.md` |
+| `content/english/blog/__markdown-formatting.md` |
+| `content/english/blog/__hugo-page-bundles.md` |
+| `content/english/blog/__personal-immune-booster-supplements.md` |
+| `content/english/blog/__worcestershire-sauce-lee-and-perrins.md` |
+| `content/english/blog/__how-to-create-a-good-habit.md` |
+| `content/english/blog/__wifi-router.md` |
+| `content/english/blog/top-reasons-create-maintain-your-own-website.md` |
+| `content/english/blog/__why-i-focused-on-open-source.md` |
+| `content/english/blog/__markdown-deep-dive.md` |
+| `content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md` |
+| `content/english/blog/__canon-g3000.md` |
+| `content/english/blog/__hugo-static-site-generator.md` |
+| `content/english/blog/__blank-blog-template.md` |
+| `content/english/blog/__rechargeable-batteries.md` |
+| `content/english/blog/__kewpie-mayo.md` |
+| `content/english/blog/__stuart-mcgill-big-three-low-back-exercises.md` |
+| `content/english/blog/__sustainable-online-publishing.md` |
+| `content/english/blog/dnpap-song-resources.md` |
+| `content/english/blog/getting-started-with-rss-feeds-beginners-guide.md` |
+| `content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md` |
+| `content/english/blog/__mi-box-s.md` |
+| `content/english/blog/__client-site-pass-off.md` |
+| `content/english/blog/__make-ai-articles-more-human.md` |
+| `content/english/blog/__tailwind-css-v4.md` |
+| `content/english/blog/instant-pot-arroz-caldo.md` |
+| `content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md` |
+| `content/english/blog/__smart-plug.md` |
+| `content/english/blog/__hugo-shortcodes-deep-dive.md` |
+| `content/english/blog/why-i-stopped-playing-marvel-snap.md` |
+| `content/english/blog/__obsidian-vs-hugo.md` |
+| `content/english/blog/alex-eala-pro-career-tracker.md` |
+| `content/english/blog/hugoplate-theme-review.md` |
+| `content/english/blog/__blog-template.md` |
+| `content/english/blog/__craft-prompt-framework.md` |
+| `content/english/blog/__sveltia-cms.md` |
+| `content/english/blog/power-of-the-mouse-wheel-click.md` |
+| `content/english/blog/__second-cellphone.md` |
+| `content/english/blog/instant-pot-chicken-adobo.md` |
+| `content/english/blog/__extension-cord.md` |
+| `content/english/blog/static-site-vs-cms.md` |
+| `content/english/blog/__shopee-tips.md` |
+| `content/english/blog/consistent-ai-output-wordpress-builds.md` |
+| `content/english/blog/__native-hugo-taxonomies.md` |
+| `content/english/blog/__jorap-notes-features.md` |
+| `content/english/blog/what-i-look-for-in-wireless-earphones.md` |
+| `content/english/blog/__password-managers.md` |
+| `content/english/blog/how-i-built-jorap-notes.md` |
+| `content/english/blog/__drupal-to-wordpress.md` |
+| `content/english/blog/_index.md` |
+| `content/english/blog/__hugo-go-templates.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the home featured blogs after publishing the static-site-vs-cms article.
+
+Planning to place `static-site-vs-cms` at position 1 in `home_blog.post_slugs` within `config/_default/params.toml`. Checking the original curation slugs for reference.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The date was changed to 2026-07-10, likely by the user or another editor.
+
+The homepage blog list needs curation. The critique recommends client-focused topics like WordPress builds and hiring freelancers. Peer content such as build logs and theme reviews should be demoted. The current selection mixes buyer-relevant posts with general tech advice and social media content.
+
+The updated homepage list now leads with `static-site-vs-cms` as the hero post. This directly addresses the stack question. The remaining slots include `top-reasons-create-maintain-your-own-website`, `consistent-ai-output-wordpress-builds`, and `getting-started-with-rss-feeds-beginners-guide`. The Facebook and desktop/laptop posts will be dropped as they are less buyer-relevant. A draft Drupal-to-WordPress post was considered but set aside.
+
+The `featured` frontmatter flag controls blog list ordering, not homepage placement. The update belongs in `params.toml` post_slugs instead. `static-site-vs-cms` will take the first slot, replacing one existing entry to keep exactly five items.
+
+The final list keeps `top-reasons-why-you-still-need-use-desktop-laptop` in the fifth slot. The desktop and laptop post was chosen over the Facebook post because it is more buyer-relevant.
+
+`featured: true` may be added to `static-site-vs-cms` as a blog-list complement. A quick build test will verify Hugo resolves the updated slugs correctly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating `home_blog.post_slugs` to lead with the new post and keep the list buyer-focused.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The correct RSS slug includes the word "a": `getting-started-with-rss-feeds-a-beginners-guide`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the Hugo build resolves all five slugs on the homepage.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;/dev/null &amp;&amp; rg -o &#39;href=&#34;[^&#34;]*blog/[^&#34;]*&#34;&#39; public/index.html | head -10</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>/dev/null && rg -o 'href="[^"]*blog/[^"]*"' public/index.html | head -10
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2211 
+ Paginator pages  │   86 
+ Non-page files   │    0 
+ Static files     │  244 
+ Processed images │  391 
+ Aliases          │  800 
+ Cleaned          │    0 
+
+Total in 23212 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The search returned no matches. The file structure may differ from expectations.
+
+Checking the homepage HTML for blog links.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/index.html",
+  "pattern": "static-site-vs-cms|blog/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/index.html",
+  "pattern": "static-site-vs-cms|blog/",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The homepage may be minified or use relative URLs.
+
+Reading a portion of index.html.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/index.html",
+  "pattern": "static-site|Selected Writing|Writing for site"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/index.html",
+  "pattern": "static-site|Selected Writing|Writing for site",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+public/index.html appears to be missing or located elsewhere. I will check its actual location.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The public folder appears to be missing, likely because it was gitignored and cleaned.
+
+Hugo may have built successfully, but the output might be going elsewhere. I'll check hugo.toml for the publish directory setting.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "publishDir"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "publishDir",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public 2&gt;&amp;1 | head -5</summary>
+```bash
+ls -la /home/jorap/Documents/GitHub/jorap.com/public 2>&1 | head -5
+```
+
+```
+total 1832
+drwxr-xr-x  22 root root   4096 Jul 10 21:15 .
+drwxr-xr-x  33 root root   4096 Jul  6 16:35 ..
+-rw-rw-r--   1 root root  17305 Jul 10 21:15 404.html
+drwxrwxr-x   2 root root   4096 Jun 29 01:40 about
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking index.html directly via shell to locate the featured blogs section.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg &#34;static-site-vs-cms|Writing for site&#34; /home/jorap/Documents/GitHub/jorap.com/public/index.html | head -3</summary>
+```bash
+rg "static-site-vs-cms|Writing for site" /home/jorap/Documents/GitHub/jorap.com/public/index.html | head -3
+```
+
+```
+            Writing for site owners
+  <a href="/blog/static-site-vs-cms/" class="relative block aspect-video overflow-hidden">
+    <a class="text-ink transition-colors duration-200 ease-out hover:text-accent" href="/blog/static-site-vs-cms/">
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Homepage updated. The static-site-vs-cms blog is now the hero card.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated `config/_default/params.toml` — **Writing for site owners** now leads with the new post as the hero card:
+
+1. **static-site-vs-cms** (new — large featured card)
+2. top-reasons-create-maintain-your-own-website
+3. consistent-ai-output-wordpress-builds
+4. getting-started-with-rss-feeds-a-beginners-guide
+5. top-reasons-why-you-still-need-use-desktop-laptop
+
+Dropped **Facebook Favorites Feed** — off-topic for site owners compared to the stack-pick post.
+
+Also set `featured: true` on `static-site-vs-cms.md` so it pins to the top of `/blog/` as well.

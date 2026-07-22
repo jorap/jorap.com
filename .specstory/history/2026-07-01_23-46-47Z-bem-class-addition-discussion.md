@@ -17,36 +17,22 @@ Reviewing how styling is organized in the notes layouts and theme so we can give
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -81,21 +67,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -127,26 +104,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The backlinks page already uses BEM-style class names, but review.html uses flat hyphenated names. This inconsistency is worth noting before deciding whether to standardize everything.</details></think>
+The backlinks page already uses BEM-style class names, but review.html uses flat hyphenated names. This inconsistency is worth noting before deciding whether to standardize everything.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -177,34 +146,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -248,13 +202,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -262,31 +209,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user is working on notes layouts with inconsistent naming conventions.
 
-Review uses flat prefixed names instead of BEM. Backlinks, Graph, and Issues follow BEM correctly. JavaScript relies on data-notes-review-* attributes rather than CSS classes.</details></think>
+Review uses flat prefixed names instead of BEM. Backlinks, Graph, and Issues follow BEM correctly. JavaScript relies on data-notes-review-* attributes rather than CSS classes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -297,14 +233,13 @@ The site already uses a hybrid approach.
 
 Adding BEM classes would align the review page with backlinks, graph, and issues, which already follow the pattern. It would also clarify block and element boundaries for component-specific CSS.
 
-Renaming flat names to BEM is mostly churn with little benefit. The `notes-review-*` prefix already avoids global collisions. The real problem is the inline utility class soup, not the naming convention itself.</details></think>
+Renaming flat names to BEM is mostly churn with little benefit. The `notes-review-*` prefix already avoids global collisions. The real problem is the inline utility class soup, not the naming convention itself.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -354,13 +289,6 @@ Additional data:
 }
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>
 
@@ -418,10 +346,8 @@ Scanning notes layouts and related CSS to identify where BEM would actually pay 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -485,21 +411,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -530,22 +447,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **9** results in **1** directory</summary>
 
-Directory: **** (9 files)
+Directory: **``** (9 files)
 
 | File |
 |------|
@@ -558,22 +467,14 @@ Directory: **** (9 files)
 | `layouts/notes/random-duo.html` |
 | `layouts/notes/cards.html` |
 | `layouts/notes/review.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **49** results in **1** directory</summary>
 
-Directory: **** (49 files)
+Directory: **``** (49 files)
 
 | File |
 |------|
@@ -626,21 +527,12 @@ Directory: **** (49 files)
 | `layouts/_partials/notes/file-dates.html` |
 | `layouts/_partials/notes/note-card.html` |
 | `layouts/_partials/notes/copy-markdown.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -667,90 +559,47 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/graph.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/graph.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/flashcard.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/flashcard.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
@@ -759,14 +608,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Organizing files by tier. backlinks.html already uses BEM.
 
-graph.html and local-graph.html partial are BEM. issues.html and list.html are BEM. flashcard.html and card-set-filter-buttons.html are BEM. note-card.html has partial BEM. recent notes partials are BEM. review.html and cards.html are flat. review.html needs BEM blocks for surfaces only. cards.html needs BEM for its export panel and random prompt.</details></think>
+graph.html and local-graph.html partial are BEM. issues.html and list.html are BEM. flashcard.html and card-set-filter-buttons.html are BEM. note-card.html has partial BEM. recent notes partials are BEM. review.html and cards.html are flat. review.html needs BEM blocks for surfaces only. cards.html needs BEM for its export panel and random prompt.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -831,21 +679,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -954,13 +793,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -974,14 +806,13 @@ Cards mixes BEM with flat names. Single, recent, and filters have minimal CSS. T
 
 Files already fully BEM should be left alone. They are backlinks, graph, issues, list, flashcard, and card-set-filter-buttons.
 
-Review, cards, random-duo, single, recent-new, recent-updated, and note-card still need BEM conversion. Graph-related partials are included too. Create and toolbar are already handled.</details></think>
+Review, cards, random-duo, single, recent-new, recent-updated, and note-card still need BEM conversion. Graph-related partials are included too. Create and toolbar are already handled.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1012,25 +843,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
 
 </details></tool-use>
 
@@ -1109,7 +927,8 @@ Reviewing the highest ROI BEM pass next. The target files are review.html and ca
 
 Checking JS compatibility first. The script relies mainly on data attributes, so class renames should be safe. I'll add BEM block classes to review.html and cards.html, move inline styles into custom.css, and fix any notes-random-prompt naming issues.
 
-The notes-review block will remain unchanged. All child elements will become BEM modifiers prefixed with double underscores. Examples include notes-review__start, notes-review__card, notes-review__front, and notes-review__back.</details></think>
+The notes-review block will remain unchanged. All child elements will become BEM modifiers prefixed with double underscores. Examples include notes-review__start, notes-review__card, notes-review__front, and notes-review__back.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1118,49 +937,29 @@ Implementing the review + cards BEM pass: reading current files and updating HTM
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1267,13 +1066,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1285,36 +1077,27 @@ The cards.html panel needs a dedicated BEM class like `notes-cards__export`. Reu
 
 Extracting a shared disclosure pattern is over-engineering. The simpler path is to wrap cards.html in a `notes-cards` block and keep the anki panel as `notes-cards__export`.
 
-To avoid renaming the shared `notes-random-prompt` component, I'll group its CSS selectors with `notes-cards__about` instead. This lets the cards page reuse the existing disclosure chevron pattern without duplicating styles.</details></think>
+To avoid renaming the shared `notes-random-prompt` component, I'll group its CSS selectors with `notes-cards__about` instead. This lets the cards page reuse the existing disclosure chevron pattern without duplicating styles.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1349,26 +1132,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Evaluating whether to group CSS selectors for cards.html or reuse the existing notes-random-prompt partial. The goal is highest ROI.</details></think>
+Evaluating whether to group CSS selectors for cards.html or reuse the existing notes-random-prompt partial. The goal is highest ROI.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1395,13 +1170,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1413,7 +1181,8 @@ Refactoring CSS classes to BEM. Updating review hidden states, flashcards export
 
 Grouping `.notes-cards__about` and `.notes-random-prompt` selectors to share elevated backgrounds. This avoids duplicating CSS rules. Now writing `review.html` with all BEM classes and removing inline styles.
 
-Mapping every review.html element to its BEM block. Removing inline styles from start, card, and done sections. Starting cards.html next.</details></think>
+Mapping every review.html element to its BEM block. Removing inline styles from start, card, and done sections. Starting cards.html next.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1422,85 +1191,43 @@ Applying BEM to review and cards, moving inline styles into CSS, and updating th
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1536,21 +1263,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1581,20 +1299,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && hugo --gc 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/themeGenerator.js &amp;&amp; hugo --gc 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && hugo --gc 2>&1 | tail -20
 ```
@@ -1618,20 +1328,12 @@ hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 Buil
 Total in 15458 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1666,13 +1368,6 @@ Additional data:
 }
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>
 
@@ -1715,10 +1410,8 @@ Searching for the OKF export page and how the OKF Graph link is rendered.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1825,22 +1518,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
 
-Directory: **** (7 files)
+Directory: **``** (7 files)
 
 | File |
 |------|
@@ -1851,51 +1536,26 @@ Directory: **** (7 files)
 | `.specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md` |
 | `scripts/okf-viz/viz.css` |
 | `scripts/okf-viz/viz.html` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
 
 </details></tool-use>
 
@@ -1904,14 +1564,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The OKF Graph link currently sits inside the "Browse the bundle" section at the bottom of the page. It needs to be moved to the top.
 
-Reordering the markdown file is the simplest fix. A layout-level promo was considered but set aside to keep the change minimal.</details></think>
+Reordering the markdown file is the simplest fix. A layout-level promo was considered but set aside to keep the change minimal.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1950,42 +1609,22 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/copy-markdown.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/copy-markdown.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/okf-export/ | rg -n "OKF graph|Browse the bundle|ChatGPT|notes-toolbar|article-title" | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/okf-export/ | rg -n &#34;OKF graph|Browse the bundle|ChatGPT|notes-toolbar|article-title&#34; | head -30</summary>
 ```bash
 curl -s http://localhost:1313/notes/okf-export/ | rg -n "OKF graph|Browse the bundle|ChatGPT|notes-toolbar|article-title" | head -30
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1993,27 +1632,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Curl failed due to sandbox restrictions. Checking specstory history confirms the requirement is to display the OKF Graph link at the beginning, not embed it.
 
-Reordering the markdown to place the OKF Graph link first is the simplest fix. A dedicated layout card or moving the browse section upward are alternative options.</details></think>
+Reordering the markdown to place the OKF Graph link first is the simplest fix. A dedicated layout card or moving the browse section upward are alternative options.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2097,13 +1729,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2111,14 +1736,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A prior implementation previously added the OKF graph link to the toolbar. Reviewing that history to understand the earlier approach.
 
-The user wants the OKF Graph link at the very top of the okf-export page. The toolbar currently only shows the OKF export page link. A callout at the top of the single.html layout would place it at the beginning.</details></think>
+The user wants the OKF Graph link at the very top of the okf-export page. The toolbar currently only shows the OKF export page link. A callout at the top of the single.html layout would place it at the beginning.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2144,21 +1768,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2189,25 +1804,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/local-graph.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/local-graph.html</summary>
 
 </details></tool-use>
 
@@ -2234,7 +1836,8 @@ Placing the link next to the Copy catalog button would position it in the upper 
 
 The toolbar is not the correct location for this link, since the user wants it at the beginning of the page. The plan is to move the OKF graph link to the top of the markdown content, immediately before the first heading, and trim the Browse section to avoid duplication.
 
-The layout fix is now the chosen approach. A primary button labeled "OKF graph" will be inserted directly below the toolbar in single.html, before the article content. The duplicate link in the Browse section will be removed from okf-export.md to avoid redundancy.</details></think>
+The layout fix is now the chosen approach. A primary button labeled "OKF graph" will be inserted directly below the toolbar in single.html, before the article content. The duplicate link in the Browse section will be removed from okf-export.md to avoid redundancy.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2243,74 +1846,36 @@ Placing a prominent OKF Graph link at the top of the okf-export page (it's curre
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
@@ -2321,16 +1886,8 @@ Fixing the markdown I accidentally broke.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
@@ -2341,7 +1898,8 @@ Placing both a layout button and a markdown section at the top may be redundant.
 
 The layout button after the toolbar is the clearest way to place the link at the beginning. The markdown section adds a TOC entry and prose context, but that may be unnecessary for a minimal design.
 
-A duplicate link would clutter the page. The layout button alone is the better choice. It is more visible and avoids template complexity.</details></think>
+A duplicate link would clutter the page. The layout button alone is the better choice. It is more visible and avoids template complexity.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2350,16 +1908,8 @@ Removing the duplicate markdown section; the layout button covers the prominent 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
@@ -2383,7 +1933,8 @@ i just want a simple link in the intro
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing the layout conditional from single.html. A simple link will go directly into the intro section of okf-export.md.</details></think>
+Removing the layout conditional from single.html. A simple link will go directly into the intro section of okf-export.md.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2392,41 +1943,28 @@ Removing the layout button and adding a simple intro link in the markdown instea
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing the layout block from single.html. Adding a simple intro paragraph with the OKF graph link at the top of okf-export.md.</details></think>
+Removing the layout block from single.html. Adding a simple intro paragraph with the OKF graph link at the top of okf-export.md.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2457,38 +1995,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
 
 </details></tool-use>
 
@@ -2509,35 +2028,20 @@ Prepending the link to the description field is too messy. A plain paragraph at 
 
 The link belongs in the key_concept frontmatter field. It will sit at the very top of the intro paragraph, right after the description and Key Concept heading.
 
-Placing the link inside the key_concept field feels semantically awkward. A paragraph at the top of the body still renders after the Key Concept heading. The description field is the true intro area, so prepending the link there is the correct approach.</details></think>
+Placing the link inside the key_concept field feels semantically awkward. A paragraph at the top of the body still renders after the Key Concept heading. The description field is the true intro area, so prepending the link there is the correct approach.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
@@ -2554,7 +2058,8 @@ Changing the description risks breaking SEO meta tags. The link will instead bec
 
 Placing the link inside the Key Concept section would feel nested. It will instead be placed in the YAML description field, rendering as plain text before the Key Concept heading.
 
-The link will sit at the end of the YAML description field. It will render as the first content block on the page, appearing right after the description and before the Key Concept heading.</details></think>
+The link will sit at the end of the YAML description field. It will render as the first content block on the page, appearing right after the description and before the Key Concept heading.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2563,31 +2068,15 @@ Moving the link into the description so it appears first in the intro.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
@@ -2596,14 +2085,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user likely wants a link in the body intro paragraph, not the frontmatter description.
 
-Frontmatter description would render markdown literally in the SEO meta tag. The link should go in the body markdown instead.</details></think>
+Frontmatter description would render markdown literally in the SEO meta tag. The link should go in the body markdown instead.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2651,21 +2139,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2696,13 +2175,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2712,38 +2184,23 @@ Reverting the description change — markdown there would leak into meta tags. U
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The link currently appears after the Key Concept section. It should instead be prepended as the first line within key_concept, rather than placed as a separate paragraph in the body.</details></think>
+The link currently appears after the Key Concept section. It should instead be prepended as the first line within key_concept, rather than placed as a separate paragraph in the body.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2752,31 +2209,15 @@ Putting the link at the start of `key_concept` so it sits in the intro prose.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
@@ -2787,7 +2228,8 @@ The key_concept section sits under a "## Key Concept" heading, so it may not fee
 
 The description field renders first without a heading, making it the cleanest place for an intro link.
 
-Placing the link in the description would require plain text without markdown, since meta fields cannot contain links. Moving it before the Key Concept section would require changing the assembled content structure.</details></think>
+Placing the link in the description would require plain text without markdown, since meta fields cannot contain links. Moving it before the Key Concept section would require changing the assembled content structure.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2796,31 +2238,15 @@ Using a plain intro line in the body instead of the Key Concept block.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
@@ -2845,7 +2271,8 @@ for all abbreviations, mention the complete name in the description
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Abbreviations should include their full names in descriptions. This applies to okf-export.md or site-wide frontmatter.</details></think>
+Abbreviations should include their full names in descriptions. This applies to okf-export.md or site-wide frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2854,23 +2281,15 @@ Searching for abbreviations in descriptions and intro text across the site, star
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2976,21 +2395,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3096,13 +2506,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3124,14 +2527,13 @@ The description field will spell out OKF as Open Knowledge Format (OKF). The int
 
 Body prose will spell out abbreviations on first use. Table headers and labels will remain unchanged. PKM example links will stay as-is. The key_concept section will be reviewed conservatively.
 
-The user likely means the visible intro and description text rather than only the YAML frontmatter. I will expand abbreviations in the rendered description, the key concept section, and the OKF graph intro line.</details></think>
+The user likely means the visible intro and description text rather than only the YAML frontmatter. I will expand abbreviations in the rendered description, the key concept section, and the OKF graph intro line.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3206,21 +2608,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3252,22 +2645,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **224** results in **1** directory</summary>
 
-Directory: **** (224 files)
+Directory: **``** (224 files)
 
 | File |
 |------|
@@ -3495,26 +2880,18 @@ Directory: **** (224 files)
 | `content/english/notes/anti-fragile-systems.md` |
 | `content/english/notes/second-order-thinking.md` |
 | `content/english/notes/flashcards.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Focusing on the okf-export context first.</details></think>
+Focusing on the okf-export context first.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3578,38 +2955,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants full names for abbreviations in okf-export descriptions. For example, `[OKF graph]` should become `Open Knowledge Format (OKF) graph`.</details></think>
+The user wants full names for abbreviations in okf-export descriptions. For example, `[OKF graph]` should become `Open Knowledge Format (OKF) graph`.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg -l '^description:' content/english/notes/*.md | wc -l && rg '^description:' content/english/notes/*.md | rg -i '\b(OKF|PKM|MOC|GTD|PARA|SRS|Anki|HTML|CSS|API|CDN|URL|LLM|AI|OAuth|CRDT|CODE|PARA|GTD|SSH|npm|CLI|CMS|SEO|RSS|JSON|YAML|JS|PHP|SQL|CDN|HTTPS|HTTP|UI|UX|WIP|ROI|SOP|FAQ)\b' </summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -l &#39;^description:&#39; content/english/notes/*.md | wc -l &amp;&amp; rg &#39;^description:&#39; content/english/notes/*.md | rg -i &#39;\b(OKF|PKM|MOC|GTD|PARA|SRS|Anki|HTML|CSS|API|CDN|URL|LLM|AI|OAuth|CRDT|CODE|PARA|GTD|SSH|npm|CLI|CMS|SEO|RSS|JSON|YAML|JS|PHP|SQL|CDN|HTTPS|HTTP|UI|UX|WIP|ROI|SOP|FAQ)\b&#39; </summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg -l '^description:' content/english/notes/*.md | wc -l && rg '^description:' content/english/notes/*.md | rg -i '\b(OKF|PKM|MOC|GTD|PARA|SRS|Anki|HTML|CSS|API|CDN|URL|LLM|AI|OAuth|CRDT|CODE|PARA|GTD|SSH|npm|CLI|CMS|SEO|RSS|JSON|YAML|JS|PHP|SQL|CDN|HTTPS|HTTP|UI|UX|WIP|ROI|SOP|FAQ)\b' 
 ```
@@ -3619,28 +2983,14 @@ cd /home/jorap/Documents/GitHub/jorap.com && rg -l '^description:' content/engli
 content/english/notes/gtd-vs-para.md:description: "GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin."
 content/english/notes/building-a-personal-api.md:description: "My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything."
 content/english/notes/free-tier-hosting-stack.md:description: "Hugo builds static HTML, GitHub stores the repo, Cloudflare Pages builds and serves on every push - $0 until account limits or client policy say upgrade."
-content/english/notes/note-relationships.md:description: "Four pair types in &#96;relationships&#96; frontmatter - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use &#96;note_kind: index&#96; (not a row). **Utility pages** use &#96;note_kind: meta&#96; - link by URL, not wikilink."
+content/english/notes/note-relationships.md:description: "Four pair types in `relationships` frontmatter - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use `note_kind: index` (not a row). **Utility pages** use `note_kind: meta` - link by URL, not wikilink."
 content/english/notes/pkm.md:description: "**PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition."
 content/english/notes/signal-vs-noise.md:description: "Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief. Faith parallel: [[Seek the Kingdom First]] - God's reign gets first place; everything else is judged against that filter."
 content/english/notes/webhooks.md:description: "HTTP callbacks when something happens - push events instead of polling."
 content/english/notes/creative-output.md:description: "Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product]] before I polish. Client sites on [[Free Tier Hosting Stack]] are the same express lane - shipped sites, not slide decks about sites. Faith parallel: [[The Wise Builder]] - hear Jesus and do; [[Great Commission]] - truth shared, not hoarded in the garden."
-content/english/notes/review.md:description: "Active recall in the browser - show the prompt, try the answer, rate myself. Filter by &#96;card_sets&#96; to drill one group at a time (Capture, Linking, **Eternal Principles**, **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship**, etc.). Progress saves in this browser only; I use Anki export when I want phone sync. Pairs with [[Flashcards]], [[Random Duo]], and [[Backlinks]]."
-content/english/notes/para-method.md:description: "**[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions."
-content/english/notes/create.md:description: "Enter a topic. The prompt finds improvement principles, picks one atomic claim, and asks for actionable examples in garden format. Pairs with [[Getting Started]], [[OKF Export]], and [[Random Duo]]."
-content/english/notes/git-based-cms.md:description: "A web editor (I use Sveltia or Decap) that commits markdown to the repo - same [[Free Tier Hosting Stack]] build on push, but the client gets buttons instead of VS Code."
-content/english/notes/crdt.md:description: "Data structures that merge edits without a central lock - useful for offline-first sync."
-content/english/notes/flashcards.md:description: "Drill lane beside the wiki - opt in per note, export to Anki when I want SRS on my phone."
-content/english/notes/digital-minimalism.md:description: "Fewer apps, fewer sync layers, fewer notifications - my PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer."
-content/english/notes/okf-export.md:description: "The same garden, flattened for agents - markdown paths, required &#96;type&#96;, no Hugo build."
-content/english/notes/the-second-brain-workflow.md:description: "CODE and PARA in one loop: capture to inbox, organize by project, distill on use, express weekly."
-
+content/english/notes/review.md:description: 
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3654,14 +3004,13 @@ Expanding abbreviations throughout the entire page body would be excessive. The 
 
 Drafted the exact description and intro text. The description will read "Open Knowledge Format (OKF) bundle". The intro will read "Open Knowledge Format (OKF) graph". Also identified "OKF version" and "OKF bundle" in the body prose as additional abbreviations needing spelling out.
 
-The description should lead with the full name Open Knowledge Format (OKF). Product names like ChatGPT are already complete names and need no expansion.</details></think>
+The description should lead with the full name Open Knowledge Format (OKF). Product names like ChatGPT are already complete names and need no expansion.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3687,34 +3036,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3739,13 +3073,6 @@ Additional data:
 }
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>
 
@@ -3778,7 +3105,8 @@ The description will read "Open Knowledge Format (OKF) bundle for agent handoff.
 
 The key_concept field already contains full names, so no abbreviations need expansion there. Only the description field and intro line require changes. The intro line will keep its existing OKF reference. There are no additional abbreviations in the intro paragraph to expand.
 
-The description field will keep the full name spelled out without markdown links, since embedding links there would break meta tags. The intro line will also spell out the full name. On the page body itself, MOC and PKM will be expanded on their first prose occurrence.</details></think>
+The description field will keep the full name spelled out without markdown links, since embedding links there would break meta tags. The intro line will also spell out the full name. On the page body itself, MOC and PKM will be expanded on their first prose occurrence.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3787,31 +3115,15 @@ Updating the OKF export page: spelling out abbreviations in the frontmatter `des
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
@@ -3820,7 +3132,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 More abbreviations appear in the body text of the okf-export page.
 
-Expanding MOC and PKM to their full names on first use in the body text. ChatGPT and UI labels like "Copy MD" remain unchanged.</details></think>
+Expanding MOC and PKM to their full names on first use in the body text. ChatGPT and UI labels like "Copy MD" remain unchanged.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3829,68 +3142,37 @@ Expanding remaining abbreviations on first use in the page body.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I expanded the full names into the body text too, but perhaps only the description and introduction were intended.</details></think>
+I expanded the full names into the body text too, but perhaps only the description and introduction were intended.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3915,7 +3197,8 @@ if any title has abbreviation, add full name in the description
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-When a note title contains an abbreviation, the full name should be added to the description frontmatter.</details></think>
+When a note title contains an abbreviation, the full name should be added to the description frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3924,9 +3207,8 @@ Finding notes whose titles are abbreviations and checking whether their descript
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg -l '^title:' content/english/notes/*.md | head -5 && rg '^title:' content/english/notes/*.md | rg -i '\b(OKF|PKM|GTD|PARA|MOC|SRS|API|CRDT|CODE|HTML|CSS|JS|PHP|SQL|URL|LLM|AI|OAuth|CDN|HTTP|HTTPS|UI|UX|SEO|RSS|JSON|YAML|CLI|CMS|WIP|ROI|SOP|FAQ|WTA|ADK|PARA|GTD)\b|^[a-z]{2,6}$' | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -l &#39;^title:&#39; content/english/notes/*.md | head -5 &amp;&amp; rg &#39;^title:&#39; content/english/notes/*.md | rg -i &#39;\b(OKF|PKM|GTD|PARA|MOC|SRS|API|CRDT|CODE|HTML|CSS|JS|PHP|SQL|URL|LLM|AI|OAuth|CDN|HTTP|HTTPS|UI|UX|SEO|RSS|JSON|YAML|CLI|CMS|WIP|ROI|SOP|FAQ|WTA|ADK|PARA|GTD)\b|^[a-z]{2,6}$&#39; | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg -l '^title:' content/english/notes/*.md | head -5 && rg '^title:' content/english/notes/*.md | rg -i '\b(OKF|PKM|GTD|PARA|MOC|SRS|API|CRDT|CODE|HTML|CSS|JS|PHP|SQL|URL|LLM|AI|OAuth|CDN|HTTP|HTTPS|UI|UX|SEO|RSS|JSON|YAML|CLI|CMS|WIP|ROI|SOP|FAQ|WTA|ADK|PARA|GTD)\b|^[a-z]{2,6}$' | head -80
 ```
@@ -3946,20 +3228,12 @@ content/english/notes/crdt.md:title: "CRDT"
 content/english/notes/okf-export.md:title: "OKF Export"
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4067,13 +3341,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4081,30 +3348,58 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Identifying notes where titles are primarily abbreviations.
 
-Found several abbreviations to expand: PKM, OKF Export, GTD, PARA, API, CMS, and CRDT. Full-name titles like MVP, GTD, and MOC were excluded. Now searching for additional acronyms.</details></think>
+Found several abbreviations to expand: PKM, OKF Export, GTD, PARA, API, CMS, and CRDT. Full-name titles like MVP, GTD, and MOC were excluded. Now searching for additional acronyms.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/notes/pkm.md content/english/notes/okf-export.md content/english/notes/gtd-vs-para.md content/english/notes/para-method.md content/english/notes/building-a-personal-api.md content/english/notes/git-based-cms.md content/english/notes/crdt.md content/english/notes/the-second-brain-workflow.md content/english/notes/minimum-viable-product.md; do echo "=== $f ==="; rg '^(title|meta_title|description):' "$f" | head -5; done</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/notes/pkm.md content/english/notes/okf-export.md content/english/notes/gtd-vs-para.md content/english/notes/para-method.md content/english/notes/building-a-personal-api.md content/english/notes/git-based-cms.md content/english/notes/crdt.md content/english/notes/the-second-brain-workflow.md content/english/notes/minimum-viable-product.md; do echo &#34;=== $f ===&#34;; rg &#39;^(title|meta_title|description):&#39; &#34;$f&#34; | head -5; done</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/notes/pkm.md content/english/notes/okf-export.md content/english/notes/gtd-vs-para.md content/english/notes/para-method.md content/english/notes/building-a-personal-api.md content/english/notes/git-based-cms.md content/english/notes/crdt.md content/english/notes/the-second-brain-workflow.md content/english/notes/minimum-viable-product.md; do echo "=== $f ==="; rg '^(title|meta_title|description):' "$f" | head -5; done
 ```
-</details>
-</tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
+```
+=== content/english/notes/pkm.md ===
+title: "PKM"
+meta_title: "PKM - Personal Knowledge Management in Plain Language"
+description: "**PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition."
+=== content/english/notes/okf-export.md ===
+title: "OKF Export"
+meta_title: "OKF Export - Agent-Readable Notes Bundle"
+description: "Open Knowledge Format (OKF) bundle - the same garden, flattened for agents - markdown paths, required `type`, no Hugo build."
+=== content/english/notes/gtd-vs-para.md ===
+title: "GTD vs PARA"
+meta_title: "GTD vs PARA - Tasks vs Knowledge"
+description: "GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin."
+=== content/english/notes/para-method.md ===
+title: "PARA Method"
+meta_title: "PARA Method - Projects, Areas, Resources, Archives"
+description: "**[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions."
+=== content/english/notes/building-a-personal-api.md ===
+title: "Building a Personal API"
+meta_title: "Building a Personal API - Your Notes as Callable Context"
+description: "My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything."
+=== content/english/notes/git-based-cms.md ===
+title: "Git-Based CMS"
+meta_title: "Git-Based CMS - Buttons for Non-Git Editors"
+description: "A web editor (I use Sveltia or Decap) that commits markdown to the repo - same [[Free Tier Hosting Stack]] build on push, but the client gets buttons instead of VS Code."
+=== content/english/notes/crdt.md ===
+title: "CRDT"
+meta_title: "CRDT"
+description: "Data structures that merge edits without a central lock - useful for offline-first sync."
+=== content/english/notes/the-second-brain-workflow.md ===
+title: "The Second Brain Workflow"
+meta_title: "The Second Brain Workflow - End to End"
+description: "CODE and PARA in o
+… (output truncated)
+```
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4159,11 +3454,391 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the para-method note defines the PARA expansion. The meta_title contains "Projects, Areas, Resources, Archives".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/crdt.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-second-brain-workflow.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:.*\\b(MOC|SRS|OKF|PKM|GTD|PARA|API|CMS|CRDT|CODE|MVP)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:.*\\b(MOC|SRS|OKF|PKM|GTD|PARA|API|CMS|CRDT|CODE|MVP)\\b",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/okf-export.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/crdt.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pkm.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/para-method.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/gtd-vs-para.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/git-based-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-personal-api.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title: \\\"[A-Z]{2,8}\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title: \\\"[A-Z]{2,8}\\\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/crdt.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pkm.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:.*\\b(VS|AI|LLM)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:.*\\b(VS|AI|LLM)\\b",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Found the abbreviation "PKM" in pkm.md. Will add the full name to its description.
+
+okf-export.md already has the full name in its description. gtd-vs-para.md and para-method.md already include their full names too. building-a-personal-api.md still needs the full name added.
+
+git-based-cms.md and crdt.md both need their full names added to descriptions. the-second-brain-workflow.md has no abbreviation in its title.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:.*CODE"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:.*CODE",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/git-based-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-personal-api.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+"OAuth" in the "building-a-personal-api" description is an abbreviation for "Open Authorization".
+
+API in the title will be expanded to "Application Programming Interface". CMS in the git-based-cms description will be expanded. The crdt meta_title will remain unchanged. The PARA method description will drop the wikilink and use plain text instead.
+
+The PARA description will read: "Projects, Areas, Resources, Archives (PARA) is how I sort notes by life responsibility." PKM will be expanded to "Personal Knowledge Management" in pkm.md. GTD will be expanded to "Getting Things Done" in gtd-vs-para.md.
+
+The CRDT description will read: "Conflict-free Replicated Data Types (CRDT) merge edits without a central lock - useful for offline-first sync."
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating descriptions for all notes whose titles contain abbreviations.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-personal-api.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/git-based-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/crdt.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+okf-export is complete. Scanning for other titles with abbreviations.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, pathlib
+# Known expansions for acronyms that appear as title tokens
+ACRONYMS = {
+    &#34;OKF&#34;, &#34;PKM&#34;, &#34;GTD&#34;, &#34;PARA&#34;, &#34;MOC&#34;, &#34;SRS&#34;, &#34;API&#34;, &#34;CMS&#34;, &#34;CRDT&#34;, &#34;CODE&#34;,
+    &#34;HTML&#34;, &#34;CSS&#34;, &#34;JS&#34;, &#34;PHP&#34;, &#34;SQL&#34;, &#34;URL&#34;, &#34;LLM&#34;, &#34;AI&#34;, &#34;OAuth&#34;, &#34;CDN&#34;,
+    &#34;HTTP&#34;, &#34;HTTPS&#34;, &#34;UI&#34;, &#34;UX&#34;, &#34;SEO&#34;, &#34;RSS&#34;, &#34;JSON&#34;, &#34;YAML&#34;, &#34;CLI&#34;, &#34;MVP&#34;,
+    &#34;ADK&#34;, &#34;WTA&#34;, &#34;VS&#34;, &#34;Git&#34;,  # Git is not really an acronym
+}
+root = pathlib.Path(&#34;content/english/notes&#34;)
+for p in sorted(root.glob(&#34;*.md&#34;)):
+    text = p.read_text()
+    m = re.search(r&#39;^title:\s*&#34;([^&#34;]+)&#34;&#39;, text, re.M)
+    if not m:
+        continue
+    title = m.group(1)
+    # find ALL-CAPS tokens 2+ chars or known mixed like OKF
+    tokens = re.findall(r&#39;\b[A-Z]{2,}\b&#39;, title)
+    tokens = [t for t in tokens if t in ACRONYMS or (len(t) &gt;= 2 and t.isupper())]
+    # filter false positives: VS in VS Code if any
+    tokens = [t for t in tokens if t not in {&#34;VS&#34;}]
+    if not tokens:
+        continue
+    dm = re.search(r&#39;^description:\s*(?:&#34;([^&#34;]*)&#34;|&gt;\s*\n((?:.*\n)*?)(?=\n\S|\Z))&#39;, text, re.M)
+    desc = (dm.group(1) or dm.group(2) or &#34;&#34;).strip() if dm else &#34;&#34;
+    missing = []
+    for t in tokens:
+        if t not in desc and f&#34;({t})&#34; not in desc:
+            missing.append(t)
+    if missing:
+        print(f&#34;{p.name}: title={title!r} tokens={tokens} missing_in_desc={missing}&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, pathlib
+# Known expansions for acronyms that appear as title tokens
+ACRONYMS = {
+    "OKF", "PKM", "GTD", "PARA", "MOC", "SRS", "API", "CMS", "CRDT", "CODE",
+    "HTML", "CSS", "JS", "PHP", "SQL", "URL", "LLM", "AI", "OAuth", "CDN",
+    "HTTP", "HTTPS", "UI", "UX", "SEO", "RSS", "JSON", "YAML", "CLI", "MVP",
+    "ADK", "WTA", "VS", "Git",  # Git is not really an acronym
+}
+root = pathlib.Path("content/english/notes")
+for p in sorted(root.glob("*.md")):
+    text = p.read_text()
+    m = re.search(r'^title:\s*"([^"]+)"', text, re.M)
+    if not m:
+        continue
+    title = m.group(1)
+    # find ALL-CAPS tokens 2+ chars or known mixed like OKF
+    tokens = re.findall(r'\b[A-Z]{2,}\b', title)
+    tokens = [t for t in tokens if t in ACRONYMS or (len(t) >= 2 and t.isupper())]
+    # filter false positives: VS in VS Code if any
+    tokens = [t for t in tokens if t not in {"VS"}]
+    if not tokens:
+        continue
+    dm = re.search(r'^description:\s*(?:"([^"]*)"|>\s*\n((?:.*\n)*?)(?=\n\S|\Z))', text, re.M)
+    desc = (dm.group(1) or dm.group(2) or "").strip() if dm else ""
+    missing = []
+    for t in tokens:
+        if t not in desc and f"({t})" not in desc:
+            missing.append(t)
+    if missing:
+        print(f"{p.name}: title={title!r} tokens={tokens} missing_in_desc={missing}")
+PY
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Updated every note whose **title** contains an abbreviation so the `description` spells out the full name on first use:
+
+| Note | Title abbrev | Description now leads with |
+|------|----------------|----------------------------|
+| `pkm.md` | PKM | Personal Knowledge Management (PKM) |
+| `okf-export.md` | OKF | Open Knowledge Format (OKF) *(already done)* |
+| `gtd-vs-para.md` | GTD, PARA | Getting Things Done (GTD) … Projects, Areas, Resources, Archives (PARA) |
+| `para-method.md` | PARA | Projects, Areas, Resources, Archives (PARA) |
+| `building-a-personal-api.md` | API | Application Programming Interface (API) |
+| `git-based-cms.md` | CMS | Content Management System (CMS) |
+| `crdt.md` | CRDT | Conflict-free Replicated Data Types (CRDT) |
+
+Notes like **Getting Things Done** and **Maps of Content** already use full names in the title, so they were left alone. **The Second Brain Workflow** mentions CODE/PARA only in the description, not the title — skipped per your rule.

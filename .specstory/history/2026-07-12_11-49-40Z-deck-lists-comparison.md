@@ -17,7 +17,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user appears to be continuing a blog post about Marvel Snap.
 
-Three specific points were raised for the post: looking for other deck lists, comparing the "done lean" mainstream theme to Magic: The Gathering, and noting that spending was usually harmless because it only bought cosmetics. I'll review the current draft and jorap-voice skill to find the right way to weave these in.</details></think>
+Three specific points were raised for the post: looking for other deck lists, comparing the "done lean" mainstream theme to Magic: The Gathering, and noting that spending was usually harmless because it only bought cosmetics. I'll review the current draft and jorap-voice skill to find the right way to weave these in.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -26,27 +27,15 @@ Reading the Marvel Snap post and voice guidelines to weave in your points.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -55,7 +44,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user's note about looking for other deck lists likely fits the tilt browsing or What kept me around section.
 
-The user wants to expand the "Marvel done lean" comparison against Magic: The Gathering. They also want to clarify that spending was cosmetic-only, not pay-to-win, which contrasts with the FOMO concerns in the shop section.</details></think>
+The user wants to expand the "Marvel done lean" comparison against Magic: The Gathering. They also want to clarify that spending was cosmetic-only, not pay-to-win, which contrasts with the FOMO concerns in the shop section.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -64,59 +54,35 @@ Integrating your three points: MTG contrast in the hook, deck-list hunting in th
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Changes were applied. Now running voice lint to verify the file is clean.</details></think>
+Changes were applied. Now running voice lint to verify the file is clean.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/why-i-stopped-playing-marvel-snap.md 2>/dev/null || pnpm lint:voice 2>&1 | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/why-i-stopped-playing-marvel-snap.md 2&gt;/dev/null || pnpm lint:voice 2&gt;&amp;1 | head -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/why-i-stopped-playing-marvel-snap.md 2>/dev/null || pnpm lint:voice 2>&1 | head -30
 ```
@@ -126,18 +92,13 @@ Voice dash lint OK
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Preparing a summary of the changes.</details></think>
+Preparing a summary of the changes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -168,18 +129,13 @@ The user wants to replace "lore homework" in the Marvel paragraph.
 
 Plain alternatives like "without reading a wiki first" or "without a backstory deep dive" fit the conversational tone better than "lore homework."
 
-"lore homework" feels too gamer-y for JoRap voice. "Without wiki-diving first" or "without catching up on backstory" sound more natural. I'll check the file for exact context before choosing.</details></think>
+"lore homework" feels too gamer-y for JoRap voice. "Without wiki-diving first" or "without catching up on backstory" sound more natural. I'll check the file for exact context before choosing.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
@@ -190,27 +146,21 @@ Replacing "lore homework" with "without reading up first" keeps the tone plain a
 
 "Without a wiki tab open" feels lived-in and specific. "Without catching up on backstory" is clearer. "Without the backstory catch-up" echoes the Magic: The Gathering comparison.
 
-Settling on "without reading up on who everyone is." It is plain and flows naturally.</details></think>
+Settling on "without reading up on who everyone is." It is plain and flows naturally.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The word "homework" was replaced with plain language. The edit was small and needed no further planning.</details></think>
+The word "homework" was replaced with plain language. The edit was small and needed no further planning.
+</details></think>
 
 _**Agent (auto-low)**_
 

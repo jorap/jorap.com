@@ -17,11 +17,10 @@ I'll review all notes for formatting consistency and duplicates — starting by 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **210** results in **1** directory</summary>
 
-Directory: **** (210 files)
+Directory: **``** (210 files)
 
 | File |
 |------|
@@ -235,34 +234,19 @@ Directory: **** (210 files)
 | `content/english/notes/faithful-steward.md` |
 | `content/english/notes/free-tier-hosting-stack.md` |
 | `content/english/notes/composure.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -296,99 +280,69 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing 210 note files to identify the expected formatting standard. A few representative notes and any formatting documentation will be examined first.</details></think>
+Reviewing 210 note files to identify the expected formatting standard. A few representative notes and any formatting documentation will be examined first.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import os, re, json
 from collections import defaultdict
 from pathlib import Path
 
-notes_dir = Path("content/english/notes")
-files = sorted(notes_dir.glob("*.md"))
+notes_dir = Path(&#34;content/english/notes&#34;)
+files = sorted(notes_dir.glob(&#34;*.md&#34;))
 
 def parse_frontmatter(text):
-    if not text.startswith("---"):
+    if not text.startswith(&#34;---&#34;):
         return {}, text
-    end = text.find("\n---", 3)
+    end = text.find(&#34;\n---&#34;, 3)
     if end == -1:
         return {}, text
     fm_text = text[3:end]
-    body = text[end+4:].lstrip("\n")
+    body = text[end+4:].lstrip(&#34;\n&#34;)
     fm = {}
     for line in fm_text.splitlines():
-        m = re.match(r'^(\w[\w-]*)\s*:\s*(.*)$', line)
+        m = re.match(r&#39;^(\w[\w-]*)\s*:\s*(.*)$&#39;, line)
         if m:
             key, val = m.group(1), m.group(2).strip()
-            if val.startswith('"') and val.endswith('"'):
+            if val.startswith(&#39;&#34;&#39;) and val.endswith(&#39;&#34;&#39;):
                 val = val[1:-1]
-            elif val.startswith("'") and val.endswith("'"):
+            elif val.startswith(&#34;&#39;&#34;) and val.endswith(&#34;&#39;&#34;):
                 val = val[1:-1]
             fm[key] = val
     return fm, body
@@ -401,7 +355,7 @@ bodies_hash = defaultdict(list)
 fm_keys = defaultdict(int)
 
 for f in files:
-    text = f.read_text(encoding='utf-8')
+    text = f.read_text(encoding=&#39;utf-8&#39;)
     fm, body = parse_frontmatter(text)
     
     # track fm keys
@@ -410,76 +364,75 @@ for f in files:
     
     # missing frontmatter
     if not fm:
-        issues['no_frontmatter'].append(f.name)
+        issues[&#39;no_frontmatter&#39;].append(f.name)
     
-    title = fm.get('title', '')
-    desc = fm.get('description', '')
-    slug = fm.get('slug', f.stem)
+    title = fm.get(&#39;title&#39;, &#39;&#39;)
+    desc = fm.get(&#39;description&#39;, &#39;&#39;)
+    slug = fm.get(&#39;slug&#39;, f.stem)
     
     if title:
         titles[title.lower().strip()].append(f.name)
     else:
-        issues['missing_title'].append(f.name)
+        issues[&#39;missing_title&#39;].append(f.name)
     
     if desc:
         descriptions[desc.lower().strip()[:200]].append(f.name)
     
   # normalize body for dup detection (strip whitespace, lowercase)
-    norm_body = re.sub(r'\s+', ' ', body.strip().lower())
-    if len(norm_body) > 50:
+    norm_body = re.sub(r&#39;\s+&#39;, &#39; &#39;, body.strip().lower())
+    if len(norm_body) &gt; 50:
         bodies_hash[norm_body[:500]].append((f.name, len(norm_body)))
     
     # formatting checks
-    if '---' in body.split('\n\n')[0] if body else False:
+    if &#39;---&#39; in body.split(&#39;\n\n&#39;)[0] if body else False:
         pass
-    if body and not body.endswith('\n'):
-        issues['no_trailing_newline'].append(f.name)
-    if '\r\n' in text:
-        issues['crlf'].append(f.name)
-    if '—' in text or '–' in text:
-        issues['em_dash'].append(f.name)
-    if fm.get('draft') not in (None, 'false', 'False', False):
-        issues['draft_true'].append(f.name)
+    if body and not body.endswith(&#39;\n&#39;):
+        issues[&#39;no_trailing_newline&#39;].append(f.name)
+    if &#39;\r\n&#39; in text:
+        issues[&#39;crlf&#39;].append(f.name)
+    if &#39;—&#39; in text or &#39;–&#39; in text:
+        issues[&#39;em_dash&#39;].append(f.name)
+    if fm.get(&#39;draft&#39;) not in (None, &#39;false&#39;, &#39;False&#39;, False):
+        issues[&#39;draft_true&#39;].append(f.name)
     
     # check cards frontmatter pattern
-    if 'cards:' in text[:2000]:
-        if 'review:' not in text[:500]:
-            issues['cards_no_review'].append(f.name)
+    if &#39;cards:&#39; in text[:2000]:
+        if &#39;review:&#39; not in text[:500]:
+            issues[&#39;cards_no_review&#39;].append(f.name)
 
 # duplicate titles
-dup_titles = {k:v for k,v in titles.items() if len(v)>1}
-dup_desc = {k:v for k,v in descriptions.items() if len(v)>1}
-dup_bodies = {k:v for k,v in bodies_hash.items() if len(v)>1}
+dup_titles = {k:v for k,v in titles.items() if len(v)&gt;1}
+dup_desc = {k:v for k,v in descriptions.items() if len(v)&gt;1}
+dup_bodies = {k:v for k,v in bodies_hash.items() if len(v)&gt;1}
 
-print("=== FILE COUNT ===", len(files))
-print("\n=== FRONTMATTER KEY FREQUENCY ===")
+print(&#34;=== FILE COUNT ===&#34;, len(files))
+print(&#34;\n=== FRONTMATTER KEY FREQUENCY ===&#34;)
 for k,v in sorted(fm_keys.items(), key=lambda x:-x[1]):
-    if v < len(files):
-        print(f"  {k}: {v}/{len(files)}")
+    if v &lt; len(files):
+        print(f&#34;  {k}: {v}/{len(files)}&#34;)
     else:
-        print(f"  {k}: {v}/{len(files)} (all)")
+        print(f&#34;  {k}: {v}/{len(files)} (all)&#34;)
 
-print("\n=== DUPLICATE TITLES ===")
+print(&#34;\n=== DUPLICATE TITLES ===&#34;)
 for t, fs in sorted(dup_titles.items()):
-    print(f"  '{t}': {fs}")
+    print(f&#34;  &#39;{t}&#39;: {fs}&#34;)
 
-print("\n=== DUPLICATE DESCRIPTIONS (first 200 chars) ===")
+print(&#34;\n=== DUPLICATE DESCRIPTIONS (first 200 chars) ===&#34;)
 for d, fs in sorted(dup_desc.items()):
-    print(f"  files: {fs}")
-    print(f"    desc: {d[:100]}...")
+    print(f&#34;  files: {fs}&#34;)
+    print(f&#34;    desc: {d[:100]}...&#34;)
 
-print("\n=== SIMILAR BODIES (first 500 chars match) ===")
+print(&#34;\n=== SIMILAR BODIES (first 500 chars match) ===&#34;)
 for k, v in sorted(dup_bodies.items()):
-  if len(v) > 1:
-    print(f"  {v}")
+  if len(v) &gt; 1:
+    print(f&#34;  {v}&#34;)
 
-print("\n=== FORMATTING ISSUES ===")
+print(&#34;\n=== FORMATTING ISSUES ===&#34;)
 for issue, fs in sorted(issues.items()):
-    print(f"  {issue} ({len(fs)}): {fs[:10]}{'...' if len(fs)>10 else ''}")
+    print(f&#34;  {issue} ({len(fs)}): {fs[:10]}{&#39;...&#39; if len(fs)&gt;10 else &#39;&#39;}&#34;)
 
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import os, re, json
@@ -631,64 +584,51 @@ PYEOF
   no_trailing_newline (43): ['attention-economy.md', 'behavioral-economics.md', 'coaching-ethics.md', 'commonplace-book.md', 'crdt.md', 'create-regular-connection.md', 'deep-work.md', 'duty-of-care.md', 'elon-musk.md', 'ethical-leadership.md']...
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Progress is good. Now examining item 1 more closely.</details></think>
+Progress is good. Now examining item 1 more closely.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import os, re, json
 from collections import defaultdict
 from pathlib import Path
 from difflib import SequenceMatcher
 
-notes_dir = Path("content/english/notes")
-files = sorted(notes_dir.glob("*.md"))
+notes_dir = Path(&#34;content/english/notes&#34;)
+files = sorted(notes_dir.glob(&#34;*.md&#34;))
 
 def parse_frontmatter(text):
-    if not text.startswith("---"):
+    if not text.startswith(&#34;---&#34;):
         return {}, text
-    end = text.find("\n---", 3)
+    end = text.find(&#34;\n---&#34;, 3)
     if end == -1:
         return {}, text
     fm_text = text[3:end]
-    body = text[end+4:].lstrip("\n")
+    body = text[end+4:].lstrip(&#34;\n&#34;)
     fm = {}
     for line in fm_text.splitlines():
-        m = re.match(r'^(\w[\w-]*)\s*:\s*(.*)$', line)
+        m = re.match(r&#39;^(\w[\w-]*)\s*:\s*(.*)$&#39;, line)
         if m:
             key, val = m.group(1), m.group(2).strip()
             fm[key] = val
@@ -698,57 +638,57 @@ issues = defaultdict(list)
 all_notes = {}
 
 for f in files:
-    text = f.read_text(encoding='utf-8')
+    text = f.read_text(encoding=&#39;utf-8&#39;)
     fm, body = parse_frontmatter(text)
-    all_notes[f.stem] = {'fm': fm, 'body': body, 'text': text, 'file': f}
+    all_notes[f.stem] = {&#39;fm&#39;: fm, &#39;body&#39;: body, &#39;text&#39;: text, &#39;file&#39;: f}
     
     # blank line after frontmatter closing ---
-    m = re.match(r'^---\n.*?\n---\n', text, re.DOTALL)
+    m = re.match(r&#39;^---\n.*?\n---\n&#39;, text, re.DOTALL)
     if m:
         after = text[m.end():]
-        if after and not after.startswith('\n'):
-            issues['no_blank_after_fm'].append(f.name)
-        if after.startswith('\n\n\n'):
-            issues['double_blank_after_fm'].append(f.name)
+        if after and not after.startswith(&#39;\n&#39;):
+            issues[&#39;no_blank_after_fm&#39;].append(f.name)
+        if after.startswith(&#39;\n\n\n&#39;):
+            issues[&#39;double_blank_after_fm&#39;].append(f.name)
     
     # opening definition line pattern
-    first_para = body.split('\n\n')[0] if body else ''
-    if first_para and not re.match(r'^\*\*[^*]+\*\*\s*=', first_para.strip()):
-        issues['no_definition_line'].append(f.name)
+    first_para = body.split(&#39;\n\n&#39;)[0] if body else &#39;&#39;
+    if first_para and not re.match(r&#39;^\*\*[^*]+\*\*\s*=&#39;, first_para.strip()):
+        issues[&#39;no_definition_line&#39;].append(f.name)
     
     # required sections
-    if '## Examples' not in body:
-        issues['missing_examples'].append(f.name)
-    if '## Note Relationships' not in body:
-        issues['missing_relationships'].append(f.name)
-    if '## See also' not in body:
-        issues['missing_see_also'].append(f.name)
+    if &#39;## Examples&#39; not in body:
+        issues[&#39;missing_examples&#39;].append(f.name)
+    if &#39;## Note Relationships&#39; not in body:
+        issues[&#39;missing_relationships&#39;].append(f.name)
+    if &#39;## See also&#39; not in body:
+        issues[&#39;missing_see_also&#39;].append(f.name)
     
     # blank line before ## Note Relationships
-    if '## Note Relationships' in body:
-        idx = body.index('## Note Relationships')
+    if &#39;## Note Relationships&#39; in body:
+        idx = body.index(&#39;## Note Relationships&#39;)
         before = body[:idx]
-        if not before.rstrip().endswith('\n\n'):
-            issues['no_blank_before_relationships'].append(f.name)
+        if not before.rstrip().endswith(&#39;\n\n&#39;):
+            issues[&#39;no_blank_before_relationships&#39;].append(f.name)
     
     # missing blank line before ## See also after relationships table
-    if '## See also' in body:
-        m2 = re.search(r'\|[^\n]+\|\n## See also', body)
+    if &#39;## See also&#39; in body:
+        m2 = re.search(r&#39;\|[^\n]+\|\n## See also&#39;, body)
         if m2:
-            issues['no_blank_before_see_also'].append(f.name)
+            issues[&#39;no_blank_before_see_also&#39;].append(f.name)
     
     # review without cards or vice versa
-    has_review = 'review: true' in text[:3000]
-    has_cards = 'cards:' in text[:3000]
-    has_card_sets = 'card_sets:' in text[:3000]
+    has_review = &#39;review: true&#39; in text[:3000]
+    has_cards = &#39;cards:&#39; in text[:3000]
+    has_card_sets = &#39;card_sets:&#39; in text[:3000]
     if has_review and not has_cards:
-        issues['review_no_cards'].append(f.name)
+        issues[&#39;review_no_cards&#39;].append(f.name)
     if has_cards and not has_review:
-        issues['cards_no_review'].append(f.name)
+        issues[&#39;cards_no_review&#39;].append(f.name)
     if has_cards and not has_card_sets:
-        issues['cards_no_card_sets'].append(f.name)
+        issues[&#39;cards_no_card_sets&#39;].append(f.name)
     if has_card_sets and not has_cards:
-        issues['card_sets_no_cards'].append(f.name)
+        issues[&#39;card_sets_no_cards&#39;].append(f.name)
 
 # near-duplicate titles/slugs by similarity
 stems = list(all_notes.keys())
@@ -756,53 +696,52 @@ similar_pairs = []
 for i, a in enumerate(stems):
     for b in stems[i+1:]:
         ra = SequenceMatcher(None, a, b).ratio()
-        if ra > 0.75:
+        if ra &gt; 0.75:
             similar_pairs.append((ra, a, b))
 
 # similar opening definitions
 defs = {}
 for stem, data in all_notes.items():
-    first = data['body'].split('\n\n')[0].strip()[:120]
+    first = data[&#39;body&#39;].split(&#39;\n\n&#39;)[0].strip()[:120]
     if first:
         defs.setdefault(first.lower(), []).append(stem)
 
-dup_defs = {k:v for k,v in defs.items() if len(v)>1}
+dup_defs = {k:v for k,v in defs.items() if len(v)&gt;1}
 
 # aliases overlap
 alias_map = defaultdict(list)
 for stem, data in all_notes.items():
-    text = data['text']
-    m = re.search(r'^aliases:\s*\[(.*)\]', text, re.MULTILINE)
+    text = data[&#39;text&#39;]
+    m = re.search(r&#39;^aliases:\s*\[(.*)\]&#39;, text, re.MULTILINE)
     if m:
-        aliases = re.findall(r'"([^"]+)"', m.group(1))
+        aliases = re.findall(r&#39;&#34;([^&#34;]+)&#34;&#39;, m.group(1))
         for a in aliases:
             alias_map[a.lower()].append(stem)
 
-dup_aliases = {k:v for k,v in alias_map.items() if len(v)>1}
+dup_aliases = {k:v for k,v in alias_map.items() if len(v)&gt;1}
 
-print("=== FORMATTING ISSUES (counts) ===")
+print(&#34;=== FORMATTING ISSUES (counts) ===&#34;)
 for issue, fs in sorted(issues.items(), key=lambda x:-len(x[1])):
-    print(f"\n{issue} ({len(fs)}):")
+    print(f&#34;\n{issue} ({len(fs)}):&#34;)
     for f in fs[:15]:
-        print(f"  {f}")
-    if len(fs)>15:
-        print(f"  ... +{len(fs)-15} more")
+        print(f&#34;  {f}&#34;)
+    if len(fs)&gt;15:
+        print(f&#34;  ... +{len(fs)-15} more&#34;)
 
-print("\n=== SIMILAR SLUGS (>0.75) ===")
+print(&#34;\n=== SIMILAR SLUGS (&gt;0.75) ===&#34;)
 for ra, a, b in sorted(similar_pairs, reverse=True)[:20]:
-    print(f"  {ra:.2f}: {a} <-> {b}")
+    print(f&#34;  {ra:.2f}: {a} &lt;-&gt; {b}&#34;)
 
-print("\n=== DUPLICATE OPENING DEFINITIONS ===")
+print(&#34;\n=== DUPLICATE OPENING DEFINITIONS ===&#34;)
 for d, stems in dup_defs.items():
-    print(f"  {stems}: {d[:80]}...")
+    print(f&#34;  {stems}: {d[:80]}...&#34;)
 
-print("\n=== DUPLICATE ALIASES ===")
+print(&#34;\n=== DUPLICATE ALIASES ===&#34;)
 for a, stems in sorted(dup_aliases.items()):
-    print(f"  '{a}': {stems}")
+    print(f&#34;  &#39;{a}&#39;: {stems}&#34;)
 
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import os, re, json
@@ -1036,47 +975,9 @@ missing_examples (14):
   _index.md
   backlinks.md
   create.md
-  eternal-principles.md
-  flashcards.md
-  graph.md
-  issues.md
-  maps-of-content.md
-  okf-export.md
-  pressure-reveals-weakness.md
-  random-duo.md
-  review.md
-  systems-for-growth.md
-  workplace-principles.md
 
-missing_relationships (9):
-  _index.md
-  backlinks.md
-  create.md
-  flashcards.md
-  graph.md
-  issues.md
-  okf-export.md
-  random-duo.md
-  review.md
-
-review_no_cards (2):
-  okf-export.md
-  spaced-repetition.md
-
-=== SIMILAR SLUGS (&gt;0.75) ===
-  0.81: justification &lt;-&gt; sanctification
-
-=== DUPLICATE OPENING DEFINITIONS ===
-
-=== DUPLICATE ALIASES ===
-
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1084,14 +985,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Determining the canonical format for consistent note formatting.
 
-Comparing blank line patterns across files. Most appear to omit blank lines before sections. Checking which files define the canonical format and searching for lint scripts.</details></think>
+Comparing blank line patterns across files. Most appear to omit blank lines before sections. Checking which files define the canonical format and searching for lint scripts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1121,22 +1021,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **12** results in **1** directory</summary>
 
-Directory: **** (12 files)
+Directory: **``** (12 files)
 
 | File |
 |------|
@@ -1152,216 +1044,133 @@ Directory: **** (12 files)
 | `scripts/notes-voice-sanitize.py` |
 | `scripts/wire-notes-obsidian.py` |
 | `scripts/archive/wire-note-relationships.py` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `scripts/lint-utility-wikilinks.py` |
 | `scripts/lint-flashcard-frontmatter.py` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-minimalism.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-minimalism.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running lint scripts to understand formatting expectations. Searching more thoroughly for duplicate examples and redundant wikilinks.</details></think>
+Running lint scripts to understand formatting expectations. Searching more thoroughly for duplicate examples and redundant wikilinks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **** (3 files)
+Directory: **``** (3 files)
 
 | File |
 |------|
 | `archetypes/notes-review.md` |
 | `archetypes/default.md` |
 | `archetypes/notes.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | head -80
 ```
 
 ```
 
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter errors:
   content/english/notes/standing-vs-fellowship.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Worship feels hollow after an unresolved fight. What broke -…
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:voice 2>&1; python3 << 'PYEOF'
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:voice 2&gt;&amp;1; python3 &lt;&lt; &#39;PYEOF&#39;
 import re
 from pathlib import Path
 from collections import defaultdict
 
-notes_dir = Path("content/english/notes")
-files = sorted(notes_dir.glob("*.md"))
+notes_dir = Path(&#34;content/english/notes&#34;)
+files = sorted(notes_dir.glob(&#34;*.md&#34;))
 
 # duplicate example bullets across files
 example_lines = defaultdict(list)
@@ -1371,65 +1180,64 @@ all_bullets = defaultdict(list)
 card_echoes = []
 
 for f in files:
-    text = f.read_text(encoding='utf-8')
-    if '## Examples' in text:
-        examples_sec = text.split('## Examples')[1].split('##')[0]
+    text = f.read_text(encoding=&#39;utf-8&#39;)
+    if &#39;## Examples&#39; in text:
+        examples_sec = text.split(&#39;## Examples&#39;)[1].split(&#39;##&#39;)[0]
         for line in examples_sec.splitlines():
             line = line.strip()
-            if line.startswith('- '):
-                norm = re.sub(r'\[\[([^\]]+)\]\]', r'LINK', line.lower())
-                norm = re.sub(r'\s+', ' ', norm)
+            if line.startswith(&#39;- &#39;):
+                norm = re.sub(r&#39;\[\[([^\]]+)\]\]&#39;, r&#39;LINK&#39;, line.lower())
+                norm = re.sub(r&#39;\s+&#39;, &#39; &#39;, norm)
                 example_lines[norm].append((f.stem, line))
                 all_bullets[norm].append(f.stem)
 
-print("=== DUPLICATE EXAMPLE BULLETS (exact after wikilink norm) ===")
+print(&#34;=== DUPLICATE EXAMPLE BULLETS (exact after wikilink norm) ===&#34;)
 for norm, items in sorted(example_lines.items(), key=lambda x:-len(x[1])):
-    if len(items) > 1:
-        print(f"\n{len(items)} files:")
+    if len(items) &gt; 1:
+        print(f&#34;\n{len(items)} files:&#34;)
         for stem, line in items:
-            print(f"  {stem}: {line[:100]}")
+            print(f&#34;  {stem}: {line[:100]}&#34;)
 
 # within-file duplicate examples
-print("\n=== WITHIN-FILE DUPLICATE EXAMPLES ===")
+print(&#34;\n=== WITHIN-FILE DUPLICATE EXAMPLES ===&#34;)
 for f in files:
-    text = f.read_text(encoding='utf-8')
-    if '## Examples' not in text:
+    text = f.read_text(encoding=&#39;utf-8&#39;)
+    if &#39;## Examples&#39; not in text:
         continue
-    examples_sec = text.split('## Examples')[1].split('##')[0]
+    examples_sec = text.split(&#39;## Examples&#39;)[1].split(&#39;##&#39;)[0]
     seen = {}
     for line in examples_sec.splitlines():
         line = line.strip()
-        if line.startswith('- '):
-            norm = re.sub(r'\[\[([^\]]+)\]\]', r'LINK', line.lower())
-            norm = re.sub(r'\s+', ' ', norm)
+        if line.startswith(&#39;- &#39;):
+            norm = re.sub(r&#39;\[\[([^\]]+)\]\]&#39;, r&#39;LINK&#39;, line.lower())
+            norm = re.sub(r&#39;\s+&#39;, &#39; &#39;, norm)
             if norm in seen:
-                print(f"  {f.stem}: dup of '{seen[norm][:60]}...'")
-                print(f"    -> {line[:80]}")
+                print(f&#34;  {f.stem}: dup of &#39;{seen[norm][:60]}...&#39;&#34;)
+                print(f&#34;    -&gt; {line[:80]}&#34;)
             else:
                 seen[norm] = line
 
 # card text appearing in examples (lazy copy)
 for f in files:
-    text = f.read_text(encoding='utf-8')
-    if 'cards:' not in text or '## Examples' not in text:
+    text = f.read_text(encoding=&#39;utf-8&#39;)
+    if &#39;cards:&#39; not in text or &#39;## Examples&#39; not in text:
         continue
-    examples_sec = text.split('## Examples')[1].split('##')[0].lower()
-    for m in re.finditer(r'front:\s+"([^"]+)"', text):
+    examples_sec = text.split(&#39;## Examples&#39;)[1].split(&#39;##&#39;)[0].lower()
+    for m in re.finditer(r&#39;front:\s+&#34;([^&#34;]+)&#34;&#39;, text):
         front = m.group(1).lower()
         if front[:40] in examples_sec:
             card_echoes.append((f.stem, m.group(1)[:60]))
-    for m in re.finditer(r'back:\s+"([^"]+)"', text):
+    for m in re.finditer(r&#39;back:\s+&#34;([^&#34;]+)&#34;&#39;, text):
         back = m.group(1).lower()
-        if len(back) > 15 and back in examples_sec:
-            card_echoes.append((f.stem, f"back: {m.group(1)[:50]}"))
+        if len(back) &gt; 15 and back in examples_sec:
+            card_echoes.append((f.stem, f&#34;back: {m.group(1)[:50]}&#34;))
 
-print("\n=== CARD TEXT ECHOED IN EXAMPLES ===")
+print(&#34;\n=== CARD TEXT ECHOED IN EXAMPLES ===&#34;)
 for stem, snippet in card_echoes[:30]:
-    print(f"  {stem}: {snippet}")
+    print(f&#34;  {stem}: {snippet}&#34;)
 
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:voice 2>&1; python3 << 'PYEOF'
 import re
@@ -1509,8 +1317,8 @@ PYEOF
 
 ```
 
-&gt; jorap-com@2.2.0 lint:voice
-&gt; python3 scripts/notes-voice-sanitize.py --check
+> jorap-com@2.2.0 lint:voice
+> python3 scripts/notes-voice-sanitize.py --check
 
 Voice dash errors:
   content/english/notes/okf-export.md: em/en dash found (12); use hyphen, comma, or parentheses (jorap-voice)
@@ -1542,26 +1350,9 @@ Voice dash errors:
   capture: back: Would I act on it or cite it later?
   childlike-faith: New believer ashamed they don't know the Bible. What would I
   childlike-faith: back: Receive like a child - dependence, not achievement
-  christianity-and-politics: Candidate lost and dread hit like God's plan failed. What's 
-  discipleship: Grace saved me but life looks unchanged - obedience treated 
-  discipleship: back: Follow daily - grateful walk, not optional.
-  dont-worry: Thumb on news refresh about tomorrow's meeting. One move tha
-  dont-worry: back: Today's enough - don't borrow tomorrow's trouble.
-  eternal-rewards: Secret prayer and tempted to tell everyone so I feel credite
-  eternal-rewards: back: Father in secret - not the audience.
-  evergreen-notes: Tool I rely on changed how I work - trending spike on Twitte
-  evergreen-notes: back: Revise when still true - ignore hype.
-  forgiveness: Wronged and refusing to forgive before I sleep. What breaks?
-  forgiveness: back: Closeness with God - forgive from the heart.
-  free-grace: Head says I must perform before God accepts me. Turn from th
-
+  ch
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1583,81 +1374,75 @@ render-unto-caesar contains duplicate tax bill examples on lines 36 and 39.
 
 Checking git status for modified files. Searching for duplicate notes with similar titles or overlapping content. A script will handle mechanical formatting fixes. Lint errors and duplicate examples will be removed.
 
-A script will handle mechanical fixes. These include trailing newlines, voice sanitization, blank lines after frontmatter, and cards lint cleanup. Definition lines need individual review. Cross-file duplicate examples are limited to one pair. A full scan is needed for within-file duplicates.</details></think>
+A script will handle mechanical fixes. These include trailing newlines, voice sanitization, blank lines after frontmatter, and cards lint cleanup. Definition lines need individual review. Cross-file duplicate examples are limited to one pair. A full scan is needed for within-file duplicates.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re
 from pathlib import Path
 from collections import defaultdict
 
-notes_dir = Path("content/english/notes")
+notes_dir = Path(&#34;content/english/notes&#34;)
 
 # full within-file dup examples
-print("=== ALL WITHIN-FILE DUPLICATE EXAMPLES ===")
-for f in sorted(notes_dir.glob("*.md")):
-    text = f.read_text(encoding='utf-8')
-    if '## Examples' not in text:
+print(&#34;=== ALL WITHIN-FILE DUPLICATE EXAMPLES ===&#34;)
+for f in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = f.read_text(encoding=&#39;utf-8&#39;)
+    if &#39;## Examples&#39; not in text:
         continue
-    examples_sec = text.split('## Examples')[1].split('##')[0]
+    examples_sec = text.split(&#39;## Examples&#39;)[1].split(&#39;##&#39;)[0]
     seen = {}
     dups = []
     for line in examples_sec.splitlines():
         line = line.strip()
-        if line.startswith('- '):
-            norm = re.sub(r'\[\[([^\]]+)\]\]', r'LINK', line.lower())
-            norm = re.sub(r'\s+', ' ', norm)
+        if line.startswith(&#39;- &#39;):
+            norm = re.sub(r&#39;\[\[([^\]]+)\]\]&#39;, r&#39;LINK&#39;, line.lower())
+            norm = re.sub(r&#39;\s+&#39;, &#39; &#39;, norm)
             if norm in seen:
                 dups.append((seen[norm][:70], line[:70]))
             else:
                 seen[norm] = line
     if dups:
-        print(f"\n{f.stem}:")
+        print(f&#34;\n{f.stem}:&#34;)
         for a,b in dups:
-            print(f"  A: {a}")
-            print(f"  B: {b}")
+            print(f&#34;  A: {a}&#34;)
+            print(f&#34;  B: {b}&#34;)
 
 # notes without ** = definition
-print("\n=== NO DEFINITION LINE (first 20) ===")
-for f in sorted(notes_dir.glob("*.md")):
-    text = f.read_text(encoding='utf-8')
-    if text.startswith('---'):
-        end = text.find('\n---', 3)
-        body = text[end+4:].lstrip('\n') if end != -1 else text
+print(&#34;\n=== NO DEFINITION LINE (first 20) ===&#34;)
+for f in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = f.read_text(encoding=&#39;utf-8&#39;)
+    if text.startswith(&#39;---&#39;):
+        end = text.find(&#39;\n---&#39;, 3)
+        body = text[end+4:].lstrip(&#39;\n&#39;) if end != -1 else text
     else:
         body = text
-    first = body.split('\n\n')[0].strip()
-    if not re.match(r'^\*\*[^*]+\*\*\s*=', first):
-        print(f"  {f.stem}: {first[:70]}...")
+    first = body.split(&#39;\n\n&#39;)[0].strip()
+    if not re.match(r&#39;^\*\*[^*]+\*\*\s*=&#39;, first):
+        print(f&#34;  {f.stem}: {first[:70]}...&#34;)
 
 # cards_no_review files
-for name in ['building-a-second-brain.md', 'christianity-and-politics.md', 'evergreen-notes.md', 'pareto-principle.md']:
+for name in [&#39;building-a-second-brain.md&#39;, &#39;christianity-and-politics.md&#39;, &#39;evergreen-notes.md&#39;, &#39;pareto-principle.md&#39;]:
     p = notes_dir / name
     if p.exists():
         t = p.read_text()[:800]
-        print(f"\n=== {name} review/cards snippet ===")
+        print(f&#34;\n=== {name} review/cards snippet ===&#34;)
         for line in t.splitlines():
-            if 'review' in line or 'cards' in line or 'card_sets' in line:
+            if &#39;review&#39; in line or &#39;cards&#39; in line or &#39;card_sets&#39; in line:
                 print(line)
 
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import re
@@ -1740,70 +1525,15 @@ PYEOF
   evergreen-vs-fleeting-notes: Fleeting notes catch sparks. Evergreen notes hold truth. I need both l...
   first-principles-thinking: When a note is just a quote from someone smarter, I add a section: wha...
   future-proofing-knowledge: Future-proofing isn't predicting tech for me - it's plain text, open t...
-  graph-view-analytics: Graph looks sci-fi. Mostly I use it to sort notes by link rank - top 2...
-  gtd-vs-para: GTD runs my tasks. PARA runs my notes. They're cousins, not competitor...
-  intellectual-sourcing: I cite sources in notes not for academia - so I can trust my own synth...
-  local-first-software: Local-first means my device holds the truth; sync is optional icing. T...
-  maps-of-content: **Maps of Content (MOCs)** are hub notes that index related ideas. I u...
-  mental-models: Mental models are shortcuts for thinking. I keep a short list of ones ...
-  metadata-strategy: Tags, categories, dates, aliases - metadata should help me find notes,...
-  mind-mapping: Mind maps are for the messy first pass - branches, bubbles, relationsh...
-  mobile-capture-workflows: Most sparks die on mobile because capture takes twelve taps. I reduced...
-  para-method: **[[PARA]]** is how I sort notes by life responsibility - not by topic...
-  periodic-knowledge-review: Notes rot without review. I calendar weekly and quarterly passes - inb...
-  pkm: **PKM** is the boring name for how I save, organize, and use what I le...
-  process-over-outcomes: Results matter, but optimizing only for outcomes wins once. I optimize...
-  progressive-summarization: I don't rewrite whole notes when I distill - bold, then highlight, the...
-  random-duo: Two notes from the garden, picked at random. I hit **Shuffle** for ano...
-  signal-vs-noise: Most content is noise. PKM fails if capture doesn't filter. I save sig...
-  slow-productivity: **Slow Productivity** pushes back on busy-as-virtue. I run fewer activ...
-  synthesis-as-a-goal: Collecting quotes isn't PKM for me. Synthesis means merging sources in...
-  the-12-week-year: Twelve-week years compress annual goals into quarters I actually feel....
-  the-collectors-fallacy: Collecting articles feels like progress. It isn't. The collector's fal...
-  the-feynman-technique: I explain notes like I'm teaching someone - gaps in my explanation sho...
-  the-garage-concept: The garage holds tools, scraps, experiments. The showroom is the blog....
-  the-knowledge-lifecycle: Ideas have lifecycles in my vault: capture, active use, evergreen, dec...
-  the-second-brain-workflow: CODE and PARA in one loop: capture to inbox, organize by project, dist...
-  the-trusted-inbox: If I don't trust my inbox, I capture in my head instead. One pipe, wee...
-  there-is-no-perfect-solution: Waiting for the perfect tool, plan, or answer feels responsible. It's ...
-  weekly-review-checklists: My weekly review is a checklist - inbox, calendar, projects, one expre...
-
-=== building-a-second-brain.md review/cards snippet ===
-review: true
-card_sets: ["Workflow", "Organization"]
-cards:
-
-=== christianity-and-politics.md review/cards snippet ===
-review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
-cards:
-
-=== evergreen-notes.md review/cards snippet ===
-review: true
-card_sets: ["Writing", "Review"]
-cards:
-  - front: "Fleeting spark keeps showing up in weekly review. What's the move?"
-
-=== pareto-principle.md review/cards snippet ===
-review: true
-card_sets: ["Focus", "Review"]
-cards:
-
+  graph-view-analytics: Graph looks sci-fi. Mostly I use it to sort notes by link rank - top 2
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1834,93 +1564,86 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Determining the scope of the note review.</details></think>
+Determining the scope of the note review.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re
 from pathlib import Path
 from collections import Counter
 
-notes_dir = Path("content/english/notes")
+notes_dir = Path(&#34;content/english/notes&#34;)
 patterns = Counter()
 equals = []
 other_bold = []
 no_bold = []
 
-for f in sorted(notes_dir.glob("*.md")):
-    if f.name.startswith('_'):
+for f in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    if f.name.startswith(&#39;_&#39;):
         continue
-    text = f.read_text(encoding='utf-8')
-    if text.startswith('---'):
-        end = text.find('\n---', 3)
-        body = text[end+4:].lstrip('\n') if end != -1 else text
+    text = f.read_text(encoding=&#39;utf-8&#39;)
+    if text.startswith(&#39;---&#39;):
+        end = text.find(&#39;\n---&#39;, 3)
+        body = text[end+4:].lstrip(&#39;\n&#39;) if end != -1 else text
     else:
         body = text
-    first = body.split('\n\n')[0].strip()
-    if re.match(r'^\*\*[^*]+\*\*\s*=', first):
-        patterns['equals'] += 1
-    elif re.match(r'^\*\*[^*]+\*\*', first):
-        patterns['bold_other'] += 1
+    first = body.split(&#39;\n\n&#39;)[0].strip()
+    if re.match(r&#39;^\*\*[^*]+\*\*\s*=&#39;, first):
+        patterns[&#39;equals&#39;] += 1
+    elif re.match(r&#39;^\*\*[^*]+\*\*&#39;, first):
+        patterns[&#39;bold_other&#39;] += 1
         other_bold.append((f.stem, first[:80]))
     else:
-        patterns['no_bold'] += 1
+        patterns[&#39;no_bold&#39;] += 1
         no_bold.append((f.stem, first[:80]))
 
-print("Patterns:", dict(patterns))
-print("\nBold but not = (sample):")
+print(&#34;Patterns:&#34;, dict(patterns))
+print(&#34;\nBold but not = (sample):&#34;)
 for s,l in other_bold[:15]:
-    print(f"  {s}: {l}")
-print(f"\nNo bold (sample):")
+    print(f&#34;  {s}: {l}&#34;)
+print(f&#34;\nNo bold (sample):&#34;)
 for s,l in no_bold[:15]:
-    print(f"  {s}: {l}")
+    print(f&#34;  {s}: {l}&#34;)
 
 # Check blank line after FM
 blank = 0
 no_blank = 0
-for f in notes_dir.glob("*.md"):
+for f in notes_dir.glob(&#34;*.md&#34;):
     text = f.read_text()
-    m = re.match(r'^---\n.*?\n---\n', text, re.DOTALL)
+    m = re.match(r&#39;^---\n.*?\n---\n&#39;, text, re.DOTALL)
     if m:
         after = text[m.end():]
-        if after.startswith('\n') and not after.startswith('\n\n'):
+        if after.startswith(&#39;\n&#39;) and not after.startswith(&#39;\n\n&#39;):
             blank += 1
-        elif after.startswith('\n\n'):
+        elif after.startswith(&#39;\n\n&#39;):
             blank += 1  # also has blank
         else:
             no_blank += 1
-print(f"\nBlank after FM: {blank}, no blank: {no_blank}")
+print(f&#34;\nBlank after FM: {blank}, no blank: {no_blank}&#34;)
 
 # capture format as reference - check ## See also blank before
 with_see_also_blank = 0
 without = 0
-for f in notes_dir.glob("*.md"):
+for f in notes_dir.glob(&#34;*.md&#34;):
     text = f.read_text()
-    if '## See also' not in text:
+    if &#39;## See also&#39; not in text:
         continue
-    if re.search(r'\n\n## See also', text):
+    if re.search(r&#39;\n\n## See also&#39;, text):
         with_see_also_blank += 1
     else:
         without += 1
-print(f"Blank before See also: {with_see_also_blank}, no blank: {without}")
+print(f&#34;Blank before See also: {with_see_also_blank}, no blank: {without}&#34;)
 
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import re
@@ -2017,27 +1740,15 @@ No bold (sample):
   digital-minimalism: Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I sto
   digital-serendipity: Serendipity isn't luck for me - I build systems where old notes surprise me at t
   drafting-in-public: I publish rough ideas before they're finished. Drafting in public keeps me hones
-  evergreen-notes: I write evergreen notes to stay useful - timeless phrasing, clear claims, update
-  evergreen-vs-fleeting-notes: Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a
-
-Blank after FM: 21, no blank: 189
-Blank before See also: 1, no blank: 158
-
+  evergreen-notes: I write evergreen notes to stay useful - timeless phrasing
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2071,38 +1782,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eliminate-before-managing.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eliminate-before-managing.md</summary>
 
 </details></tool-use>
 
@@ -2134,19 +1826,19 @@ Render-unto-caesar contains two nearly identical tax bill examples at lines 36 a
 
 Building-a-second-brain and pareto-principle were misclassified by the earlier script. They both have reviews and cards, so they do not belong in cards_no_review.
 
-Only the standing-vs-fellowship card triggered a lint failure. A full lint:cards and lint:voice pass will follow. Card-echo examples appear in roughly fifty notes, so a targeted script is being prepared. It will fix trailing newlines and em dashes.</details></think>
+Only the standing-vs-fellowship card triggered a lint failure. A full lint:cards and lint:voice pass will follow. Card-echo examples appear in roughly fifty notes, so a targeted script is being prepared. It will fix trailing newlines and em dashes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'broken|unlinked|ERROR' | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1 | rg &#39;broken|unlinked|ERROR&#39; | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'broken|unlinked|ERROR' | head -40
 ```
 
 ```
-&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 WARN  broken wikilink [[Wood Hay Stubble]] in notes/loss-of-reward.md
 WARN  broken wikilink [[Standing vs Fellowship]] in notes/loss-of-reward.md
 WARN  broken wikilink [[Assurance]] in notes/loss-of-reward.md
@@ -2173,68 +1865,60 @@ WARN  broken wikilink [[Wood Hay Stubble]] in notes/eternal-principles.md
 WARN  broken wikilink [[Christianity and Politics]] in notes/eternal-principles.md
 WARN  broken wikilink [[Grateful Obedience]] in notes/free-grace.md
 WARN  broken wikilink [[Assurance]] in notes/free-grace.md
-WARN  broken wikilink [[Standing vs Fellowship]] in notes/free-grace.md
-WARN  broken wikilink [[Christianity and Politics]] in notes/digital-minimalism.md
-
+WARN
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re
 from pathlib import Path
 
-notes_dir = Path("content/english/notes")
+notes_dir = Path(&#34;content/english/notes&#34;)
 card_echoes = []
 
-for f in sorted(notes_dir.glob("*.md")):
-    text = f.read_text(encoding='utf-8')
-    if 'cards:' not in text or '## Examples' not in text:
+for f in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = f.read_text(encoding=&#39;utf-8&#39;)
+    if &#39;cards:&#39; not in text or &#39;## Examples&#39; not in text:
         continue
-    examples_sec = text.split('## Examples')[1].split('##')[0]
+    examples_sec = text.split(&#39;## Examples&#39;)[1].split(&#39;##&#39;)[0]
     examples_lower = examples_sec.lower()
     
     echoes = []
-    for m in re.finditer(r'front:\s+"([^"]+)"', text):
+    for m in re.finditer(r&#39;front:\s+&#34;([^&#34;]+)&#34;&#39;, text):
         front = m.group(1)
         # check if substantial part of front appears in examples
         words = front.lower().split()
-        key = ' '.join(words[:6])
-        if len(key) > 20 and key in examples_lower:
-            echoes.append(('front', front))
-    for m in re.finditer(r'back:\s+"([^"]+)"', text):
+        key = &#39; &#39;.join(words[:6])
+        if len(key) &gt; 20 and key in examples_lower:
+            echoes.append((&#39;front&#39;, front))
+    for m in re.finditer(r&#39;back:\s+&#34;([^&#34;]+)&#34;&#39;, text):
         back = m.group(1)
-        if len(back) > 10 and back.lower() in examples_lower:
-            echoes.append(('back', back))
+        if len(back) &gt; 10 and back.lower() in examples_lower:
+            echoes.append((&#39;back&#39;, back))
     
-    # also check example bullets that look like "Question - Answer" card format
+    # also check example bullets that look like &#34;Question - Answer&#34; card format
     for line in examples_sec.splitlines():
         line = line.strip()
-        if line.startswith('- ') and ' - ' in line[2:]:
-            parts = line[2:].split(' - ')
-            if len(parts) >= 2 and len(parts[-1]) < 60:
-                echoes.append(('qa_bullet', line[2:80]))
+        if line.startswith(&#39;- &#39;) and &#39; - &#39; in line[2:]:
+            parts = line[2:].split(&#39; - &#39;)
+            if len(parts) &gt;= 2 and len(parts[-1]) &lt; 60:
+                echoes.append((&#39;qa_bullet&#39;, line[2:80]))
     
     if echoes:
         card_echoes.append((f.stem, echoes))
 
-print(f"Files with card echoes in examples: {len(card_echoes)}")
+print(f&#34;Files with card echoes in examples: {len(card_echoes)}&#34;)
 for stem, echoes in card_echoes:
-    print(f"\n{stem} ({len(echoes)}):")
+    print(f&#34;\n{stem} ({len(echoes)}):&#34;)
     for kind, text in echoes[:4]:
-        print(f"  [{kind}] {text[:75]}")
+        print(f&#34;  [{kind}] {text[:75]}&#34;)
 
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import re
@@ -2323,267 +2007,21 @@ building-a-second-brain (4):
   [qa_bullet] Notes pile up but nothing publishes. Which step is failing - what do I sche
 
 by-their-fruits (5):
-  [front] About to condemn the teacher's soul online. What do I do instead of playing
-  [back] Look at fruit - don't judge their soul.
-  [qa_bullet] The youth coach talks smooth on day one but his players look stressed and b
-  [qa_bullet] A parenting influencer sells calm routines but her comment section is full 
-
-capture (6):
-  [front] Thumb hovering over save on an interesting link I'm unsure about. One quest
-  [back] Would I act on it or cite it later?
-  [qa_bullet] A play tweak hits during cooldown and I scribble it on my wristband before 
-  [qa_bullet] On the jeepney my kid says something I want to remember and I scribble it o
-
-childlike-faith (3):
-  [front] New believer ashamed they don't know the Bible. What would I tell them?
-  [back] Receive like a child - dependence, not achievement.
-  [qa_bullet] New believer ashamed they don't know the Bible. What would I tell them - Re
-
-christianity-and-politics (4):
-  [front] Candidate lost and dread hit like God's plan failed. What's ultimate?
-  [qa_bullet] Group chat turned tribal after the election and my thumb hovered on a dunk 
-  [qa_bullet] Candidate lost and dread hit like God's plan failed - Christ reigns; Rome w
-  [qa_bullet] Church friend said vote their way or you're not faithful - ultimate allegia
-
-discipleship (3):
-  [front] Grace saved me but life looks unchanged - obedience treated like optional e
-  [back] Follow daily - grateful walk, not optional.
-  [qa_bullet] Grace saved me but life looks unchanged - obedience treated like optional e
-
-dont-worry (3):
-  [front] Thumb on news refresh about tomorrow's meeting. One move that breaks the wo
-  [back] Today's enough - don't borrow tomorrow's trouble.
-  [qa_bullet] Thumb on news refresh about tomorrow's meeting. One move that breaks the wo
-
-eternal-rewards (4):
-  [front] Secret prayer and tempted to tell everyone so I feel credited. Who pays?
-  [back] Father in secret - not the audience.
-  [qa_bullet] I prayed for twenty minutes alone this morning and wanted to mention it at 
-  [qa_bullet] Secret prayer and tempted to tell everyone so I feel credited. Who pays - F
-
-evergreen-notes (4):
-  [front] Tool I rely on changed how I work - trending spike on Twitter. One check be
-  [back] Revise when still true - ignore hype.
-  [qa_bullet] My free-throw note keeps the release point and follow-through - not last we
-  [qa_bullet] Tool I rely on changed how I work - trending spike on Twitter. One check be
-
-faithful-steward (1):
-  [qa_bullet] Buried the talent at work - played it safe, never used the skill God gave -
-
-forgiveness (3):
-  [front] Wronged and refusing to forgive before I sleep. What breaks?
-  [back] Closeness with God - forgive from the heart.
-  [qa_bullet] Wronged and refusing to forgive before I sleep. What breaks - Closeness wit
-
-free-grace (4):
-  [front] Head says I must perform before God accepts me. Turn from that - what's the
-  [back] Trust Christ - not my performance.
-  [qa_bullet] A neighbor said she earns God's favor by trying hard - one sentence back: f
-  [qa_bullet] Head says I must perform before God accepts me. Turn from that - what's the
-
-grateful-obedience (2):
-  [front] Bible study high, same sin pattern untouched. Hearing without doing - fix?
-  [qa_bullet] Bible study high, same sin pattern untouched - hearing without doing isn't 
-
-great-commission (3):
-  [front] Notes garden full, gospel never leaves my mouth. What's the hoarding move?
-  [back] Share truth - don't hoard like bookmarks.
-  [qa_bullet] Notes garden full, gospel never leaves my mouth. What's the hoarding move -
-
-heart-righteousness (5):
-  [front] Anger simmering after traffic - treated them fine outwardly. What did Jesus
-  [back] Murder in the heart - deal with anger.
-  [qa_bullet] I looked patient helping with homework while I was simmering about the mess
-  [qa_bullet] Some guy cut me off on the EDSA commute and I smiled through it, then nurse
-
-humility-and-service (6):
-  [front] Foot-washing feels below my role. What did Jesus model?
-  [back] Serve, not be served - wash feet.
-  [qa_bullet] I helped a neighbor move and waited for credit in the group chat - greatnes
-  [qa_bullet] I organized snacks for my kid's basketball team on Sunday and came home exp
-
-judge-not (5):
-  [front] Friend's speck obvious; my plank invisible. What do I fix first?
-  [back] Remove my plank - then help with speck.
-  [qa_bullet] I spotted my teammate's travel in five seconds and missed my own lazy dribb
-  [qa_bullet] I was about to quote a neighbor's failure online - who am I playing? Not th
-
-justification (2):
-  [front] Romans 4 in my head but I still feel like I'm on probation with God. What c
-  [qa_bullet] Romans 4 in my head but guilt still treats every bad week like a revoked pa
-
-let-your-light-shine (5):
-  [front] Good deed done but I want credit in the caption. Who gets glory?
-  [back] Father - not my brand.
-  [qa_bullet] I helped a neighbor move furniture and almost posted about it before I reme
-  [qa_bullet] I almost captioned the charity run photo for applause - visibility so other
-
-let-your-yes-be-yes (5):
-  [front] Thumb adding qualifiers to a simple commitment. Strip to what?
-  [back] Simple yes or no - no spin.
-  [qa_bullet] I promised my kid six things in one breath to win the argument - let your y
-  [qa_bullet] I told the neighbor I'd watch their mail "cross my heart, absolutely" when 
-
-loss-of-reward (1):
-  [qa_bullet] I collapsed "I might get no reward" with "I'm not saved" - eternal life is 
-
-love-god (6):
-  [front] Sunday worship felt high but I haven't opened the Bible all week. Which par
-  [back] Mind - open Scripture today.
-  [qa_bullet] Match day adrenaline isn't the same as opening my Bible on Thursday - whole
-  [qa_bullet] Sunday worship felt high but I hadn't opened my Bible since last week - lov
-
-love-your-enemies (5):
-  [front] Someone slandered me online. Thumb hovering over reply. First move before I
-  [back] Pray for them.
-  [qa_bullet] The rival coach trash-talked our bench and I typed a reply that would've fe
-  [qa_bullet] My neighbor's honking got under my skin and I almost left a nasty note - I 
-
-love-your-neighbor (3):
-  [front] Mental loop: do they qualify as neighbor? Flip the question - what do I ask
-  [back] Am I being neighbor to them?
-  [qa_bullet] Mental loop: do they qualify as neighbor? Flip the question - what do I ask
-
-para-method (4):
-  [front] Active work with a deadline just landed in my notes. Owner and end date cle
-  [back] Projects - or it stays Resources.
-  [qa_bullet] Science fair on the counter with a due date; immunization records in the ca
-  [qa_bullet] Active work with a deadline just landed in my notes. Owner and end date cle
-
-pareto-principle (4):
-  [front] Task board and reading list both screaming urgent. Protect which slice - ro
-  [back] The vital ~20%.
-  [qa_bullet] The bakery had six daily specials and sold two consistently - we cut to tho
-  [qa_bullet] Task board and reading list both screaming urgent. Protect which slice - ro
-
-peacemakers (3):
-  [front] Hard truth needs saying but I soft-pedal to avoid fight. What am I called t
-  [back] Peace through truth in love.
-  [qa_bullet] Hard truth needs saying but I soft-pedal to avoid fight. What am I called t
-
-reconciliation-before-worship (7):
-  [front] Sunday worship while avoiding someone I wronged. What breaks?
-  [back] Empty worship - go fix it first.
-  [qa_bullet] I warmed up ready to compete while my teammate still had something against 
-  [qa_bullet] I walked into the volunteer shift ready to serve while my co-worker still h
-
-render-unto-caesar (6):
-  [front] God's image bearer - what do I owe Him vs the state?
-  [back] Self to God - coin to Caesar.
-  [qa_bullet] The tax bill landed and I paid what was lawful - give Caesar the coin, give
-  [qa_bullet] Tournament fees and park permits get paid on time - kingdom first doesn't m
-
-repent-and-believe (6):
-  [front] Trying to obey my way into eternal life. What receives life vs what guides 
-  [back] Repent/believe receives. Obedience guides after.
-  [qa_bullet] I kept telling myself I'd trust Jesus once my habits looked respectable - i
-  [qa_bullet] I told my kid faith isn't waiting until you're good enough - turn and trust
-
-secret-devotion (5):
-  [front] About to post my quiet time for likes. Who's the real audience?
-  [back] Father alone - not the feed.
-  [qa_bullet] I almost posted my Bible-and-coffee setup because quiet time felt wasted wi
-  [qa_bullet] The janitor who mops the back hallway when nobody's watching isn't building
-
-seek-the-kingdom-first (5):
-  [front] Tuesday 7am, inbox calling before work. One move that puts God's reign firs
-  [back] Scripture or prayer before inbox.
-  [qa_bullet] Anxiety had me scrolling finances before I prayed - kingdom first meant pra
-  [qa_bullet] The bakery owner opens with a short prayer before the ovens - feed the king
-
-signal-vs-noise (4):
-  [front] Interesting article but it won't change what I do this month. Thumb on save
-  [back] Admire and move on - don't save.
-  [qa_bullet] Trending thread everyone bookmarks - noise unless it changes what I do or b
-  [qa_bullet] Interesting article but it won't change what I do this month. Thumb on save
-
-standing-vs-fellowship (1):
-  [front] Snapped at my kid and dread hit - like God revoked my ticket to heaven. Two
-
-take-up-your-cross (5):
-  [front] Comfortable faith - avoiding the hard obedience I heard preached. What's th
-  [back] Count cost - deny self, follow daily.
-  [qa_bullet] I had one big surrender moment last year and went back to the same comforta
-  [qa_bullet] The manager took the blame upward on the bad quarter instead of passing it 
-
-the-beatitudes (3):
-  [front] Thumb itching to clap back and prove I'm strong. Which beatitude fork?
-  [back] Meek - don't grasp status.
-  [qa_bullet] Thumb itching to clap back and prove I'm strong. Which beatitude fork - Mee
-
-the-collectors-fallacy (4):
-  [front] Reading list grows but nothing ships. One question before every save?
-  [back] What will I make with this?
-  [back] What will I make with this?
-  [qa_bullet] Reading list grows but nothing ships. One question before every save - What
-
-the-golden-rule (7):
-  [front] Thumb on post button, public critique loaded. One check before I hit send?
-  [back] Reverse roles - would I want this said to me?
-  [qa_bullet] My thumb was on the post button with a critique that was probably true and 
-  [qa_bullet] Waiting in line at the clinic, someone cut ahead and I drafted a public sco
-
-the-narrow-way (4):
-  [front] Comfortable path everyone else is on. Which gate am I choosing?
-  [back] Narrow - hard road, life at the end.
-  [qa_bullet] The whole shop pads hours; the narrow way is logging honestly when nobody a
-  [qa_bullet] Comfortable path everyone else is on. Which gate am I choosing - Narrow - h
-
-the-trusted-inbox (5):
-  [front] Mid-day an inbox item screams for a project folder. Where do I leave it?
-  [back] Inbox - break flow if I file now.
-  [qa_bullet] Mid-day an inbox item screams for a project folder. Where do I leave it - I
-  [qa_bullet] We kept one bowl by the door for keys, papers, receipts - two bowls meant I
-
-the-wise-builder (5):
-  [front] Heard the Sermon preached many times - how I treat people unchanged. What's
-  [back] Do one command today - not hear only.
-  [qa_bullet] Safety training Monday, same shortcut Wednesday - wise builder hears and do
-  [qa_bullet] Saved articles on sleep hygiene and still scrolled till 1 a.m. - hearing wi
-
-treasure-in-heaven (5):
-  [front] Thumb on another buy I don't need. One check before checkout?
-  [back] Will this rust - or store something that lasts?
-  [qa_bullet] I almost chased a sponsorship for the ego, not the team - treasure check: w
-  [qa_bullet] Wallet full of gear I'll resell at a loss; calendar empty of the people I s
-
-turn-the-other-cheek (5):
-  [front] Insult landed - thumb drafting equal hurt back. What's the cycle-break?
-  [back] Don't retaliate - absorb without escalating.
-  [back] Stop throwing anger after sunk hurt.
-  [qa_bullet] A customer snapped over a wait time and I felt the perfect comeback forming
-
-weekly-review-checklists (7):
-  [front] Friday review - inbox and calendar done. Fourth step before I close?
-  [back] Pick one ship action.
-  [back] Pick one ship action.
-  [qa_bullet] Same post-week ritual: clear the gear bag, check next fixture, one skill to
-
-wood-hay-stubble (3):
-  [front] Years of busy church work that fed my ego. What survives evaluation?
-  [qa_bullet] One visible heroic volunteer week masking empty years at home - Christ test
-  [qa_bullet] Burned work after a selfish season felt like proof I was never saved - feed
-
+  [front] About to condemn the teacher's soul online. What
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Broken wikilinks likely stem from title casing mismatches.</details></think>
+Broken wikilinks likely stem from title casing mismatches.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -2635,7 +2073,7 @@ Result:
           },
           {
             "lineNumber": 39,
-            "text": "  {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" $full -}}"
+            "text": "  {{- $inner := replaceRE `^\\[\\[|\\]\\]$` \"\" $full -}}"
           },
           {
             "lineNumber": 40,
@@ -2670,2090 +2108,44 @@ Result:
           },
           {
             "lineNumber": 48,
-            "text": "  {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $target) -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "  {{- with $resolved.Page -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "    {{- $href := .RelPermalink -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "    {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "      {{- $href = printf \"%s#%s\" $href $anchor -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    {{- $text := $target -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "    {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "      {{- $text = $anchor -}}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "    {{- $link := printf &#96;\u003ca href=\"%s\" class=\"%s\" data-wikilink-preview=\"%s\"\u003e%s\u003c/a\u003e&#96; $href $class .RelPermalink $text -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "    {{- $content = replace $content $full $link -}}"
-          },
-          {
-            "lineNumber": 60,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 61,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 62
-          },
-          {
-            "lineNumber": 63,
-            "text": "{{- /* Unresolved wikilinks and deprecated [[target|label]] syntax */ -}}"
-          },
-          {
-            "lineNumber": 64,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported — use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
-          },
-          {
-            "lineNumber": 65,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"No matching note for this wikilink\"\u003e$1\u003c/span\u003e&#96; $class) $content -}}"
-          },
-          {
-            "lineNumber": 66
-          },
-          {
-            "lineNumber": 67,
-            "text": "{{- range $protected -}}"
-          },
-          {
-            "lineNumber": 68,
-            "text": "  {{- $content = replace $content .token .block -}}"
-          },
-          {
-            "lineNumber": 69,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 70
-          },
-          {
-            "lineNumber": 71,
-            "text": "{{- $content | safeHTML -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 71
-          },
-          "startPosition": {
-            "line": 30
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
-        "signatures": {}
-      },
-      "score": 0.6097602248191833
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Resolve a wikilink target string to a note page."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Input: Target (may include #heading; label is stripped by caller)."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Returns dict: Page, Anchor (string, may be empty)."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $raw := strings.TrimSpace .Target -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $anchor := \"\" -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- if strings.Contains $raw \"#\" -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- $hashParts := split $raw \"#\" -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $raw = index $hashParts 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $registry := partialCached \"notes/link-registry.html\" site \"notes-registry-v3\" -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $page := index $registry.byKey (lower $raw) -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- return (dict \"Page\" $page \"Anchor\" $anchor \"Target\" $raw) -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 15
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/resolve-target.html",
-        "signatures": {}
-      },
-      "score": 0.5151969194412231
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Build-time lint: warnf for broken wikilinks and unlinked mentions."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Uses collect-note-issues.html; errorf when strict flags are set."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $data := partialCached \"notes/collect-note-issues.html\" site \"note-issues-v7\" -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $strictLinks := site.Params.notes.strict_wikilinks | default false -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $strictUnlinked := site.Params.notes.strict_unlinked | default false -}}"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- range $data.notes -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $note := .Page -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- range .broken -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    {{- $msg := printf \"broken wikilink [[%s]] in %s\" .target $note.File.Path -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "    {{- if $strictLinks -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "      {{- errorf $msg -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    {{- else -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "      {{- warnf $msg -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- range .pipe -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s — use [[%s]] only\" .raw $note.File.Path .target -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- if $strictLinks -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- errorf $msg -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    {{- else -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "      {{- warnf $msg -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  {{- range .unlinked -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "    {{- $msg := printf \"unlinked mention of %q (→ [[%s]]) in %s\" .mention .suggestTitle $note.File.Path -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    {{- if $strictUnlinked -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "      {{- errorf $msg -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {{- else -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      {{- warnf $msg -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 35
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/lint-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.5055105686187744
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Wikilinks in the current note's raw body, resolved to pages."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Returns slice of dict: Page, Label, Anchor."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $raw := $page.RawContent -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $matches := findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?\\]\\]&#96; $raw -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $seen := dict -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $links := slice -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- range $matches -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- $target := $inner -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  {{- $anchor := \"\" -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- if strings.Contains $inner \"#\" -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    {{- $hashParts := split $inner \"#\" -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    {{- $target = index $hashParts 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $target) -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  {{- with $resolved.Page -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- if ne .RelPermalink $page.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- if not (index $seen .RelPermalink) -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "        {{- $seen = merge $seen (dict .RelPermalink true) -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "        {{- $label := .Title -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "        {{- $href := .RelPermalink -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "        {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "          {{- $href = printf \"%s#%s\" .RelPermalink ($anchor | anchorize) -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "        {{- $links = $links | append (dict \"Page\" . \"Label\" $label \"Anchor\" $anchor \"Href\" $href) -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "{{- return $links -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 34
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/outgoing-links.html",
-        "signatures": {}
-      },
-      "score": 0.49574220180511475
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 17,
-            "text": "      \u003c/p\u003e"
-          },
-          {
-            "lineNumber": 18,
-            "text": "      \u003cul class=\"notes-issues__list mb-0 list-none space-y-2 p-0 text-sm\"\u003e"
-          },
-          {
-            "lineNumber": 19,
-            "text": "        {{- range $issues.broken -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "          \u003cli class=\"notes-issues__item notes-issues__item--broken\"\u003e"
-          },
-          {
-            "lineNumber": 21,
-            "text": "            \u003cstrong\u003eMissing note:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 22,
-            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no page matches this title, slug, or alias."
-          },
-          {
-            "lineNumber": 23,
-            "text": "          \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 24,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "        {{- range $issues.pipe -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "          \u003cli class=\"notes-issues__item notes-issues__item--pipe\"\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "            \u003cstrong\u003ePipe wikilink:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
-          },
-          {
-            "lineNumber": 29,
-            "text": "          \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 30,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "        {{- range $issues.unlinked -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "          \u003cli class=\"notes-issues__item notes-issues__item--unlinked\"\u003e"
-          },
-          {
-            "lineNumber": 33,
-            "text": "            \u003cstrong\u003eUnlinked mention:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 34,
-            "text": "            \"{{ .mention }}\" in prose — link"
-          },
-          {
-            "lineNumber": 35,
-            "text": "            \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ .suggestPage.RelPermalink }}\"\u003e\u003ccode\u003e[[{{ .suggestTitle }}]]\u003c/code\u003e\u003c/a\u003e."
-          },
-          {
-            "lineNumber": 36,
-            "text": "          \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 37,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "        {{- range $issues.structure -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "          {{- if eq .type \"missingTable\" -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "            "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 12,
-            "line": 39
-          },
-          "startPosition": {
-            "line": 16
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/note-issues-panel.html",
-        "signatures": {}
-      },
-      "score": 0.4955300986766815
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 42,
-            "text": "          {{- if gt $data.notesWithIssues 0 -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "            \u003cdiv class=\"notes-issues-index space-y-6\"\u003e"
-          },
-          {
-            "lineNumber": 44,
-            "text": "              {{- range $notes -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "                {{- $note := .Page -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "                \u003csection class=\"notes-issues-group border-divider rounded border p-5\" id=\"{{ $note.File.ContentBaseName }}\"\u003e"
-          },
-          {
-            "lineNumber": 47,
-            "text": "                  \u003ch2 class=\"h6 mb-3\"\u003e"
-          },
-          {
-            "lineNumber": 48,
-            "text": "                    \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ $note.RelPermalink }}\"\u003e{{ $note.Title }}\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 49,
-            "text": "                    \u003cspan class=\"text-ink-muted font-normal\"\u003e({{ .total }})\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 50,
-            "text": "                  \u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 51,
-            "text": "                  \u003cul class=\"notes-issues__list mb-0 list-none space-y-2 p-0 text-sm\"\u003e"
-          },
-          {
-            "lineNumber": 52,
-            "text": "                    {{- range .broken -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "                      \u003cli class=\"notes-issues__item notes-issues__item--broken\"\u003e"
-          },
-          {
-            "lineNumber": 54,
-            "text": "                        \u003cstrong\u003eMissing note:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 55,
-            "text": "                        \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no matching page."
-          },
-          {
-            "lineNumber": 56,
-            "text": "                      \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 57,
-            "text": "                    {{- end -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "                    {{- range .pipe -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "                      \u003cli class=\"notes-issues__item notes-issues__item--pipe\"\u003e"
-          },
-          {
-            "lineNumber": 60,
-            "text": "                        \u003cstrong\u003ePipe wikilink:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 61,
-            "text": "                        \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
-          },
-          {
-            "lineNumber": 62,
-            "text": "                      \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 63,
-            "text": "                    {{- end -}}"
-          },
-          {
-            "lineNumber": 64,
-            "text": "                    {{- range .unlinked -}}"
-          },
-          {
-            "lineNumber": 65,
-            "text": "                      \u003cli class=\"notes-issues__item notes-issues__item--unlinked\"\u003e"
-          },
-          {
-            "lineNumber": 66,
-            "text": "                        \u003cstrong\u003eUnlinked mention:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 67,
-            "text": "                        \"{{ .mention }}\" →"
-          },
-          {
-            "lineNumber": 68,
-            "text": "                        \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ .suggestPage.RelPermalink }}\"\u003e\u003ccode\u003e[[{{ .suggestTitle }}]]\u003c/code\u003e\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 69,
-            "text": "                      \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 70,
-            "text": "                    {{- end -}}"
-          },
-          {
-            "lineNumber": 71,
-            "text": "                    {{- range .structure -}}"
-          },
-          {
-            "lineNumber": 72,
-            "text": "                      {{- if eq .type \"missingTable\" -}}"
-          },
-          {
-            "lineNumber": 73,
-            "text": "                        "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 24,
-            "line": 72
-          },
-          "startPosition": {
-            "line": 41
-          }
-        },
-        "relativeWorkspacePath": "./layouts/notes/issues.html",
-        "signatures": {}
-      },
-      "score": 0.4726245105266571
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Site-wide backlink index: target RelPermalink → slice of {Page, Snippet}."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  One pass per note: extract wikilinks, resolve targets, append backlink rows."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $index := dict -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $notes := partial \"notes/pages.html\" (dict) -}}"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- range $source := $notes -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- $raw := $source.RawContent -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $matches := findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?\\]\\]&#96; $raw -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- range $matches -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    {{- $wikilink := . -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "    {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    {{- $targetStr := $inner -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    {{- if strings.Contains $inner \"#\" -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "      {{- $targetStr = index (split $inner \"#\") 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $targetStr) -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    {{- with $resolved.Page -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "      {{- if ne .RelPermalink $source.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "        {{- $key := .RelPermalink -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "        {{- $existing := index $index $key | default slice -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "        {{- $seen := false -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "        {{- range $existing -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "          {{- if eq .Page.RelPermalink $source.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "            {{- $seen = true -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "          {{- end -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "        {{- if not $seen -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "          {{- $snippet := \"\" -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 30
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/backlinks-index.html",
-        "signatures": {}
-      },
-      "score": 0.46668553352355957
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Issues\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Garden Link Issues\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Broken wikilinks and unlinked note mentions across the garden - one checklist to fix the graph.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"issues\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "layout: \"issues\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "note_kind: \"meta\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "date: 2026-06-19T08:00:00Z"
-          },
-          {
-            "lineNumber": 9,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "tags: [\"Notes\", \"Meta\", \"Linking\"]"
-          },
-          {
-            "lineNumber": 13,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Garden link issues** = broken wikilinks and note titles mentioned in prose without a &#96;[[wikilink]]&#96; - listed below and on each affected note. Faith parallel: [[Judge Not]] - fix the speck in the graph without playing judge over the author."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "**Missing note** means the wikilink target does not match any published note. **Pipe wikilink** means deprecated double-bracket syntax with a pipe label (&#96;[[target|label]]&#96;) - use &#96;[[Note Title]]&#96; only. **Unlinked mention** means another note's title appears in prose without a link - not in markdown headings (&#96;## …&#96;) or the **Note Relationships** table. **Structure issues** flag missing &#96;extends&#96; / &#96;contradicts&#96; rows in the **Note Relationships** table on garden notes (utility/meta pages are exempt). Frontmatter and flashcards are not checked - only the note body."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 19
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/issues.md",
-        "signatures": {}
-      },
-      "score": 0.45992183685302734
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 184,
-            "text": "def rewrite_wikilinks(body: str, by_key: dict[str, NoteRecord], base_url: str) -\u003e str:"
-          },
-          {
-            "lineNumber": 185,
-            "text": "    protected, replacements = protect_code_regions(body)"
-          },
-          {
-            "lineNumber": 186
-          },
-          {
-            "lineNumber": 187,
-            "text": "    def repl(match: re.Match[str]) -\u003e str:"
-          },
-          {
-            "lineNumber": 188,
-            "text": "        target = match.group(1).strip()"
-          },
-          {
-            "lineNumber": 189,
-            "text": "        anchor = (match.group(2) or \"\").strip()"
-          },
-          {
-            "lineNumber": 190,
-            "text": "        suffix = f\"#{anchor}\" if anchor else \"\""
-          },
-          {
-            "lineNumber": 191,
-            "text": "        hit = resolve_target(target, by_key)"
-          },
-          {
-            "lineNumber": 192,
-            "text": "        if hit and hit.utility:"
-          },
-          {
-            "lineNumber": 193,
-            "text": "            return f\"[{hit.title}]({hit.resource})\""
-          },
-          {
-            "lineNumber": 194,
-            "text": "        if hit:"
-          },
-          {
-            "lineNumber": 195,
-            "text": "            return f\"[{hit.title}]({okf_link_path(hit)}{suffix})\""
-          },
-          {
-            "lineNumber": 196,
-            "text": "        if \" \" in target or (target[:1].isupper() if target else False):"
-          },
-          {
-            "lineNumber": 197,
-            "text": "            return f\"[{target}](/concepts/{slugify(target)}.md{suffix})\""
-          },
-          {
-            "lineNumber": 198,
-            "text": "        return match.group(0)"
-          },
-          {
-            "lineNumber": 199
-          },
-          {
-            "lineNumber": 200,
-            "text": "    rewritten = WIKILINK_RE.sub(repl, protected)"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 201,
-            "text": "    return restore_code_regions(rewritten, replacements)"
-          },
-          {
-            "lineNumber": 202
-          },
-          {
-            "lineNumber": 203
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 204,
-            "text": "def yaml_frontmatter(fields: dict[str, object]) -\u003e str:"
-          },
-          {
-            "lineNumber": 205,
-            "text": "    lines = [\"---\"]"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 220
-          },
-          "startPosition": {
-            "column": 15,
-            "line": 180
-          }
-        },
-        "relativeWorkspacePath": "./scripts/export-okf-bundle.py",
-        "signatures": {}
-      },
-      "score": 0.44505929946899414
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $class := site.Params.notes.wikilink_class | default \"wikilink\" -}}"
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $raw := $page.RawContent -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $raw = replaceRE &#96;(?s)\\n## See also[\\s\\S]*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $content := $page.RenderString $raw -}}"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 11
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- /* Typographer may curl apostrophes inside [[wikilinks]] before we replace them */ -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $content = replace $content \"\\u2019\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $content = replace $content \"\\u2018\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $content = replace $content \"\u0026rsquo;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- $content = replace $content \"\u0026#8217;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- $content = replace $content \"\u0026apos;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- /* Keep inline code / pre blocks literal (e.g. &#96;[[wikilinks]]&#96; in Getting Started) */ -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- $protected := slice -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "{{- $blocks := findRE &#96;(?s)\u003c(?:code|pre)[^\u003e]*\u003e.*?\u003c/(?:code|pre)\u003e&#96; $content -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- range $i, $block := $blocks -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  {{- $token := printf \"WIKILINK-PROTECT-%d-END\" $i -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- $protected = $protected | append (dict \"token\" $token \"block\" $block) -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- $content = replace $content $block $token -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "{{- /* Resolve each [[wikilink]] via the link registry (case-insensitive keys) */ -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "{{- $links := findRE &#96;\\[\\[[^\\]|]+\\]\\]&#96; $content -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "{{- $links = union $links (findRE &#96;\\[\\[[^\\]|]+#[^\\]|]+\\]\\]&#96; $content) -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "{{- $seen := dict -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "{{- range $links -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  {{- $full := . -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 33
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
-        "signatures": {}
-      },
-      "score": 0.4449065029621124
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Scan garden notes for link and structure issues."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Returns dict:"
-          },
-          {
-            "lineNumber": 4,
-            "text": "    byPath — map File.Path → { broken, pipe, unlinked, structure, total }"
-          },
-          {
-            "lineNumber": 5,
-            "text": "    notes — slice of { Page, broken, pipe, unlinked, structure, total }"
-          },
-          {
-            "lineNumber": 6,
-            "text": "    brokenCount, pipeCount, unlinkedCount, structureCount, notesWithIssues"
-          },
-          {
-            "lineNumber": 7,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $registry := partialCached \"notes/link-registry.html\" site \"notes-registry-v3\" -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $gardenNotes := partial \"notes/pages.html\" (dict) -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $minLen := site.Params.notes.unlinked_min_length | default 6 | int -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $byPath := dict -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $allNotes := slice -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $brokenCount := 0 -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $pipeCount := 0 -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $unlinkedCount := 0 -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- $structureCount := 0 -}}"
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- range $gardenNotes -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- $note := . -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  {{- $path := $note.File.Path -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- $raw := $note.RawContent -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  {{- $fence := \"&#96;&#96;&#96;\" -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  {{- $tick := \"&#96;\" -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- $raw = replaceRE (printf \"(?s)%s[\\\\s\\\\S]*?%s\" $fence $fence) \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- $raw = replaceRE (printf \"%s[^%s\\\\n]+%s\" $tick $tick $tick) \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  {{- $raw = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  {{- $raw = replaceRE &#96;(?s)## See also.*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- $broken := slice -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  {{- $brokenKeys := dict -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  {{- $matches := findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?\\]\\]&#96; $raw -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  {{- range $matches -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "    {{- $target := $inner -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    {{- if strings.Contains $target \"#\" -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      {{- $target = index (split $target \"#\") 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    {{- $target = replace $target \"\\u2019\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "    {{- $target = replace $target \"\\u2018\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    {{- if not (index $registry.byKey (lower $target)) -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "      {{- $key := lower $target -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "      {{- if not (index $brokenKeys $key) -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "        {{- $brokenKeys = merge $brokenKeys (dict $key true) -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "        {{- $broken = $broken | append (dict \"target\" $target \"raw\" $inner) -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 48
-          },
-          {
-            "lineNumber": 49,
-            "text": "  {{- $pipe := slice -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "  {{- $pipeKeys := dict -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- $pipeMatches := findRE &#96;\\[\\[[^\\]]+\\|[^\\]]+\\]\\]&#96; $raw -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 51
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.4423913061618805
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 33,
-            "text": "## Create a note"
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "&#96;&#96;&#96;bash"
-          },
-          {
-            "lineNumber": 36,
-            "text": "hugo new notes/my-idea.md"
-          },
-          {
-            "lineNumber": 37,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "Or add a &#96;.md&#96; file under &#96;content/english/notes/&#96;. Use the same frontmatter as blog posts (&#96;title&#96;, &#96;meta_title&#96;, &#96;description&#96;, &#96;slug&#96;, &#96;date&#96;, &#96;image&#96;, &#96;categories&#96;, &#96;author&#96;, &#96;tags&#96;, &#96;featured&#96;, &#96;draft&#96;)."
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "Created and updated timestamps come from the file itself at build time (&#96;scripts/noteFileDates.js&#96;) - no manual date fields to maintain."
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "lineNumber": 43,
-            "text": "## Link between notes"
-          },
-          {
-            "lineNumber": 44
-          },
-          {
-            "lineNumber": 45,
-            "text": "Use wikilinks in the body:"
-          },
-          {
-            "lineNumber": 46
-          },
-          {
-            "lineNumber": 47,
-            "text": "- &#96;[[Atomic Notes]]&#96; - link by title"
-          },
-          {
-            "lineNumber": 48,
-            "text": "- &#96;[[atom]]&#96; - works via the &#96;aliases&#96; frontmatter field"
-          },
-          {
-            "lineNumber": 49
-          },
-          {
-            "lineNumber": 50,
-            "text": "What this site gives you:"
-          },
-          {
-            "lineNumber": 51
-          },
-          {
-            "lineNumber": 52,
-            "text": "- **Wikilinks** - &#96;[[Note Title]]&#96; in note bodies (no pipe labels)"
-          },
-          {
-            "lineNumber": 53,
-            "text": "- **Aliases** - alternate link targets in frontmatter (&#96;aliases: [\"PARA\"]&#96; on [[PARA Method]])"
-          },
-          {
-            "lineNumber": 54,
-            "text": "- **Outgoing links** - listed below each note's body"
-          },
-          {
-            "lineNumber": 55,
-            "text": "- **Backlinks** - with context snippets when another note links here"
-          },
-          {
-            "lineNumber": 56,
-            "text": "- **Graph** - map view; filter by high, low, no body links, and orphans at [/notes/graph/](/notes/graph/)"
-          },
-          {
-            "lineNumber": 57,
-            "text": "- **Issues** - broken wikilinks, pipe wikilinks, and unlinked mentions at [/notes/issues/](/notes/issues/); also shown on each note"
-          },
-          {
-            "lineNumber": 58,
-            "text": "- **See also** - tag-related notes generated at build time (not static in markdown)"
-          },
-          {
-            "lineNumber": 59,
-            "text": "- **Hover previews** - pause on a wikilink to peek at the target note"
-          },
-          {
-            "lineNumber": 60,
-            "text": "- **Maps of Content** - hub index at [[Maps of Content]]"
-          },
-          {
-            "lineNumber": 61,
-            "text": "- **Resurfacing** - featured random note and [Random Duo](/notes/random-duo/) on [/notes/](/notes/)"
-          },
-          {
-            "lineNumber": 62,
-            "text": "- **Create Note** - topic → AI prompt for one lint-ready atomic note at [/notes/create/](/notes/create/)"
-          },
-          {
-            "lineNumber": 63,
-            "text": "- **Copy MD** - on every note page: copies Hugo source for ChatGPT or your editor"
-          },
-          {
-            "lineNumber": 64,
-            "text": "- **Copy hub cluster** - on hub/MOC pages (&#96;note_kind: index&#96;): hub + all direct wikilink targets in one paste"
-          },
-          {
-            "lineNumber": 65,
-            "text": "- **Copy catalog** - on [OKF Export](/notes/okf-export/): full garden index for ChatGPT project context"
-          },
-          {
-            "lineNumber": 66,
-            "text": "- **Copy issues** - on [Issues](/notes/issues/): structured link/structure report for maintenance sprints"
-          },
-          {
-            "lineNumber": 67,
-            "text": "- **Agent copy** - OKF handoff markdown per note (resolved links), upper right beside Copy MD"
-          },
-          {
-            "lineNumber": 68,
-            "text": "- **OKF export** - full bundle at [/notes/okf-export/](/notes/okf-export/) and [/exports/okf/](/exports/okf/)"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 68
-          },
-          "startPosition": {
-            "line": 31
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.4210864305496216
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "#!/usr/bin/env python3"
-          },
-          {
-            "lineNumber": 2,
-            "text": "\"\"\"One-shot: add aliases and create stub notes for broken wikilink targets.\"\"\""
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4,
-            "text": "from __future__ import annotations"
-          },
-          {
-            "lineNumber": 5
-          },
-          {
-            "lineNumber": 6,
-            "text": "import re"
-          },
-          {
-            "lineNumber": 7,
-            "text": "from pathlib import Path"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "ROOT = Path(__file__).resolve().parents[1]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "NOTES = ROOT / \"content/english/notes\""
-          },
-          {
-            "lineNumber": 11
-          },
-          {
-            "lineNumber": 12,
-            "text": "ALIASES: dict[str, list[str]] = {"
-          },
-          {
-            "lineNumber": 13,
-            "text": "    \"anti-fragile-systems.md\": [\"Antifragility\"],"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    \"the-feynman-technique.md\": [\"Richard Feynman\"],"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    \"creative-blocks.md\": [\"Writer's Block\"],"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    \"pareto-principle.md\": [\"Vilfredo Pareto\"],"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    \"note-relationships.md\": [\"Link Typing\"],"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    \"drafting-in-public.md\": [\"Learning in Public\"],"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    \"digital-serendipity.md\": [\"Serendipity\"],"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    \"evergreen-vs-fleeting-notes.md\": [\"Fleeting Notes\"],"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    \"evergreen-notes.md\": [\"Permanent Notes\"],"
-          },
-          {
-            "lineNumber": 22,
-            "text": "    \"the-knowledge-lifecycle.md\": [\"Note Maturity\"],"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    \"capture.md\": [\"Frictionless Capture\"],"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    \"maps-of-content.md\": [\"Table of Contents\"],"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    \"digital-garden.md\": [\"Gardening Metaphor\", \"Work in Progress\"],"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    \"future-proofing-knowledge.md\": [\"Plain Text Files\"],"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    \"building-a-second-brain.md\": [\"CODE Method\"],"
-          },
-          {
-            "lineNumber": 28,
-            "text": "}"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "STUBS: list[dict] = ["
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {"
-          },
-          {
-            "lineNumber": 32,
-            "text": "        \"slug\": \"getting-things-done\","
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 38,
-            "line": 31
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./scripts/resolve-note-link-issues.py",
-        "signatures": {}
-      },
-      "score": 0.4149802029132843
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 94,
-            "text": "    {{- range $needles -}}"
-          },
-          {
-            "lineNumber": 95,
-            "text": "      {{- if lt (len .) $minLen -}}"
-          },
-          {
-            "lineNumber": 96,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 97,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 98,
-            "text": "      {{- $isAlias := ne . $other.Title -}}"
-          },
-          {
-            "lineNumber": 99,
-            "text": "      {{- if and $isAlias $linkedToOther -}}"
-          },
-          {
-            "lineNumber": 100,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 101,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 102,
-            "text": "      {{- $words := split . \" \" -}}"
-          },
-          {
-            "lineNumber": 103,
-            "text": "      {{- $multiWord := gt (len $words) 1 -}}"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      {{- $escaped := replaceRE &#96;([.*+?^${}()|[\\]\\\\])&#96; &#96;\\\\$1&#96; . -}}"
-          },
-          {
-            "lineNumber": 105,
-            "text": "      {{- $wikilinkPattern := printf &#96;(?i)\\[\\[%s(?:#[^\\]|]+)?\\]\\]&#96; $escaped -}}"
-          },
-          {
-            "lineNumber": 106,
-            "text": "      {{- if findRE $wikilinkPattern $raw -}}"
-          },
-          {
-            "lineNumber": 107,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 108,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 109,
-            "text": "      {{- if $multiWord -}}"
-          },
-          {
-            "lineNumber": 110,
-            "text": "        {{- if not (findRE (printf &#96;(?i)%s&#96; $escaped) $mentionRaw) -}}"
-          },
-          {
-            "lineNumber": 111,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 112,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 113,
-            "text": "        {{- $wordPattern := printf &#96;(?i)(?:^|[^[\\w])%s(?:[^]\\w]|$)&#96; $escaped -}}"
-          },
-          {
-            "lineNumber": 114,
-            "text": "        {{- if not (findRE $wordPattern $mentionRaw) -}}"
-          },
-          {
-            "lineNumber": 115,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 116,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 117,
-            "text": "      {{- else -}}"
-          },
-          {
-            "lineNumber": 118,
-            "text": "        {{- if not (findRE (printf &#96;%s&#96; $escaped) $mentionRaw) -}}"
-          },
-          {
-            "lineNumber": 119,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 120,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 121,
-            "text": "        {{- $wordPattern := printf &#96;(?:^|[^[\\wA-Z])%s(?:[^]\\w]|$)&#96; $escaped -}}"
-          },
-          {
-            "lineNumber": 122,
-            "text": "        {{- if not (findRE $wordPattern $mentionRaw) -}}"
-          },
-          {
-            "lineNumber": 123,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 124,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 125,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 126,
-            "text": "      {{- $ukey := printf \"%s|%s\" $path (lower .) -}}"
-          },
-          {
-            "lineNumber": 127,
-            "text": "      {{- if not (index $unlinkedKeys $ukey) -}}"
-          },
-          {
-            "lineNumber": 128,
-            "text": "        {{- $unlinkedKeys = merge $unlinkedKeys (dict $ukey true) -}}"
-          },
-          {
-            "lineNumber": 129,
-            "text": "        {{- $unlinked = $unlinked | append (dict \"mention\" . \"suggestTitle\" $other.Title \"suggestPage\" $other) -}}"
-          },
-          {
-            "lineNumber": 130,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 131,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 132,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 133
-          },
-          {
-            "lineNumber": 134,
-            "text": "  {{- $structure := slice -}}"
-          },
-          {
-            "lineNumber": 135,
-            "text": "  {{- if and (eq ($note.Params.note_kind | default \"note\") \"note\") (not (partial \"notes/is-utility-page.html\" $note)) -}}"
-          },
-          {
-            "lineNumber": 136,
-            "text": "    {{- $rels := partial \"notes/relationship-types.html\" $note -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 136
-          },
-          "startPosition": {
-            "line": 93
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.39817583560943604
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 68,
-            "text": "def lint_file(path: Path, targets: dict[str, Path]) -\u003e list[str]:"
-          },
-          {
-            "lineNumber": 69,
-            "text": "    if is_utility(split_frontmatter(path.read_text(encoding=\"utf-8\"))[0]):"
-          },
-          {
-            "lineNumber": 70,
-            "text": "        return []"
-          },
-          {
-            "lineNumber": 71
-          },
-          {
-            "lineNumber": 72,
-            "text": "    rel = path.relative_to(ROOT)"
-          },
-          {
-            "lineNumber": 73,
-            "text": "    body = body_without_see_also(split_frontmatter(path.read_text(encoding=\"utf-8\"))[1])"
-          },
-          {
-            "lineNumber": 74,
-            "text": "    errors: list[str] = []"
-          },
-          {
-            "lineNumber": 75
-          },
-          {
-            "lineNumber": 76,
-            "text": "    for match in WIKILINK_RE.finditer(body):"
-          },
-          {
-            "lineNumber": 77,
-            "text": "        target = (match.group(1) or \"\").strip()"
-          },
-          {
-            "lineNumber": 78,
-            "text": "        hit = targets.get(target.casefold())"
-          },
-          {
-            "lineNumber": 79,
-            "text": "        if hit:"
-          },
-          {
-            "lineNumber": 80,
-            "text": "            errors.append("
-          },
-          {
-            "lineNumber": 81,
-            "text": "                f\"{rel}: wikilink to utility page [[{target}]] \""
-          },
-          {
-            "lineNumber": 82,
-            "text": "                f\"(use URL e.g. /notes/{hit.stem}/ — utility pages are not garden notes)\""
-          },
-          {
-            "lineNumber": 83,
-            "text": "            )"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 84,
-            "text": "    return errors"
-          },
-          {
-            "lineNumber": 85
-          },
-          {
-            "lineNumber": 86
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 87,
-            "text": "def main() -\u003e int:"
-          },
-          {
-            "lineNumber": 88,
-            "text": "    targets = utility_targets()"
-          },
-          {
-            "lineNumber": 89,
-            "text": "    errors: list[str] = []"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 99
-          },
-          "startPosition": {
-            "column": 18,
-            "line": 64
-          }
-        },
-        "relativeWorkspacePath": "./scripts/lint-utility-wikilinks.py",
-        "signatures": {}
-      },
-      "score": 0.3958946466445923
-    }
-  ]
-}
+            "text": "  {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $target) -
+… (output truncated)
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/wood-hay-stubble.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/wood-hay-stubble.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Broken wikilinks appear because the new notes dated 2026-06-30 have not yet been added to the link registry.</details></think>
+Broken wikilinks appear because the new notes dated 2026-06-30 have not yet been added to the link registry.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/link-registry.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/link-registry.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/resolve-note-link-issues.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/resolve-note-link-issues.py</summary>
 
 </details></tool-use>
 
@@ -4762,26 +2154,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Broken wikilinks may stem from stale Hugo cache or draft status on the new notes.
 
-The note is not a draft. The registry key should match the wikilink. The cause may be pages.html excluding the note.</details></think>
+The note is not a draft. The registry key should match the wikilink. The cause may be pages.html excluding the note.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/pages.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/pages.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg 'Wood Hay|Standing vs|Christianity' | head -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#39;Wood Hay|Standing vs|Christianity&#39; | head -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg 'Wood Hay|Standing vs|Christianity' | head -5
 ```
@@ -4794,25 +2180,18 @@ WARN  broken wikilink [[Standing vs Fellowship]] in notes/sanctification.md
 WARN  broken wikilink [[Standing vs Fellowship]] in notes/justification.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Broken wikilinks were found for entries such as Wood Hay Stubble and Standing vs Fellowship.</details></think>
+Broken wikilinks were found for entries such as Wood Hay Stubble and Standing vs Fellowship.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4842,20 +2221,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg -i 'wood-hay|standing-vs|grateful|christianity-and' </summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo list all 2&gt;/dev/null | rg -i &#39;wood-hay|standing-vs|grateful|christianity-and&#39; </summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg -i 'wood-hay|standing-vs|grateful|christianity-and' 
 ```
@@ -4867,12 +2238,6 @@ content/english/notes/wood-hay-stubble.md,wood-hay-stubble,Wood Hay Stubble,2026
 content/english/notes/standing-vs-fellowship.md,standing-vs-fellowship,Standing vs Fellowship,2026-06-30T08:00:00Z,0001-01-01T00:00:00Z,2026-06-30T08:00:00Z,false,https://www.jorap.com/notes/standing-vs-fellowship/,page,notes
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4882,57 +2247,40 @@ Broken wikilinks in the Hugo notes list may stem from a cache invalidation issue
 
 The `lint:notes` command may be missing the development configuration. The notes appear non-draft in the Hugo list, so the broken links likely stem from a simpler cause.
 
-Duplicate key collisions might overwrite merged registry entries. Title or slug mismatches for "Wood Hay Stubble" could also break wikilinks.</details></think>
+Duplicate key collisions might overwrite merged registry entries. Title or slug mismatches for "Wood Hay Stubble" could also break wikilinks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The link registry uses `partial "notes/pages.html"` with `IncludeUtility` enabled. `collect-note-issues` scans garden notes only. Broken link checks use the registry.</details></think>
+The link registry uses `partial "notes/pages.html"` with `IncludeUtility` enabled. `collect-note-issues` scans garden notes only. Broken link checks use the registry.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/is-utility-page.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/is-utility-page.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc --buildFuture 2>&1 | rg 'broken wikilink' | wc -l</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc --buildFuture 2&gt;&amp;1 | rg &#39;broken wikilink&#39; | wc -l</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc --buildFuture 2>&1 | rg 'broken wikilink' | wc -l
 ```
@@ -4941,12 +2289,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc --buildFuture 2>&1 | rg '
 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4962,14 +2304,13 @@ I will not force blank lines into the 189 files that already omit them. The 40 n
 
 The script will target only Q&A echo bullets that exactly match card front and back text, leaving good prose examples untouched. It will also fix trailing newlines and run voice sanitization.
 
-Some notes intentionally open with non-standard voice, so forcing `**Title** =` headers would alter deliberate style choices. The recent modifications include `christianity-and-politics.md` and `digital-minimalism.md`.</details></think>
+Some notes intentionally open with non-standard voice, so forcing `**Title** =` headers would alter deliberate style choices. The recent modifications include `christianity-and-politics.md` and `digital-minimalism.md`.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5031,51 +2372,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
@@ -5088,14 +2404,13 @@ The script will enforce trailing newlines and detect card-echo example bullets. 
 
 I will replace a duplicate pool-drill example in develop-dont-endanger with a swim lesson. Definition lines should use bold headers for consistency. The standing-vs-fellowship card front contains "salvation or closeness?" which triggers multiple-choice lint. I am checking how many files have blank lines inside frontmatter.
 
-The script will run automatically, with remaining fixes handled manually. Card-echo bullets will be detected by matching their text against card front and back pairs, including partial matches.</details></think>
+The script will run automatically, with remaining fixes handled manually. Card-echo bullets will be detected by matching their text against card front and back pairs, including partial matches.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5202,21 +2517,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5299,13 +2605,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5315,7 +2614,8 @@ Reviewing note formatting. Pattern 1, a blank line after frontmatter, appears in
 
 Pattern 2, a blank line inside frontmatter, appears in 14 files. All 210 files will be normalized to the archetype standard: no blank line inside frontmatter, one blank line after the closing `---`. A script will apply these changes.
 
-The script will also strip trailing newlines, remove card-echo example bullets that mirror the frontmatter, delete exact duplicate bullets within each file, and correct em dashes.</details></think>
+The script will also strip trailing newlines, remove card-echo example bullets that mirror the frontmatter, delete exact duplicate bullets within each file, and correct em dashes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5324,29 +2624,21 @@ I'll add a normalization script for mechanical formatting fixes, then clean up d
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running the script first. Then fixing manual issues.</details></think>
+Running the script first. Then fixing manual issues.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py --check 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py --check 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py --check 2>&1 | tail -20
 ```
@@ -5374,24 +2666,18 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-for
 would update 209 files (294 fixes)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The script processed 209 files. It added blank lines after FM tags for 189 files. This aligns them with the archetype.</details></think>
+The script processed 209 files. It added blank lines after FM tags for 189 files. This aligns them with the archetype.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -5
 ```
@@ -5404,127 +2690,75 @@ workplace-principles.md: frontmatter leading blank
 updated 209 files (294 fixes)
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Applying manual fixes to the standing-vs-fellowship card.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-minimalism.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Applying manual fixes to the standing-vs-fellowship card.</details></think>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-minimalism.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<think><details><summary>Thought Process</summary>
-The normalization script broke the frontmatter by removing the newline after the opening `---`.</details></think>
+The normalization script broke the frontmatter by removing the newline after the opening `---`.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5533,69 +2767,42 @@ The normalization script mangled frontmatter — fixing the script and re-runnin
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+</details></tool-use>
 
-</details>
-
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
 Incorrect tool arguments
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A script corrupted frontmatter by concatenating `---` with the metadata block without a newline, merging `---` directly into the first field.</details></think>
+A script corrupted frontmatter by concatenating `---` with the metadata block without a newline, merging `---` directly into the first field.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
@@ -5604,43 +2811,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Fixing `split_frontmatter` to return two values. Updating `normalize_file` to handle broken `---title` files.
 
-The broken format uses `---title:` instead of `---\ntitle:`. The split logic still locates the closing `---` and extracts the body correctly.</details></think>
+The broken format uses `---title:` instead of `---\ntitle:`. The split logic still locates the closing `---` and extracts the body correctly.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -5
 ```
@@ -5653,149 +2844,114 @@ workplace-principles.md: format normalized
 updated 210 files (210 fixes)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 && npm run lint:voice 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 &amp;&amp; npm run lint:voice 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 && npm run lint:voice 2>&1
 ```
 
 ```
 
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter OK
 
-&gt; jorap-com@2.2.0 lint:voice
-&gt; python3 scripts/notes-voice-sanitize.py --check
+> jorap-com@2.2.0 lint:voice
+> python3 scripts/notes-voice-sanitize.py --check
 
 Voice dash lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running a final verification pass.</details></think>
+Running a final verification pass.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re
 from pathlib import Path
 from collections import defaultdict
 
-notes_dir = Path("content/english/notes")
+notes_dir = Path(&#34;content/english/notes&#34;)
 
 # broken frontmatter
 broken_fm = []
-for f in notes_dir.glob("*.md"):
+for f in notes_dir.glob(&#34;*.md&#34;):
     t = f.read_text()
-    if t.startswith("---title") or not t.startswith("---\n"):
+    if t.startswith(&#34;---title&#34;) or not t.startswith(&#34;---\n&#34;):
         broken_fm.append(f.name)
 
 # duplicate examples across files
 example_lines = defaultdict(list)
-for f in notes_dir.glob("*.md"):
-    if "## Examples" not in f.read_text():
+for f in notes_dir.glob(&#34;*.md&#34;):
+    if &#34;## Examples&#34; not in f.read_text():
         continue
-    sec = f.read_text().split("## Examples")[1].split("##")[0]
+    sec = f.read_text().split(&#34;## Examples&#34;)[1].split(&#34;##&#34;)[0]
     for line in sec.splitlines():
         line = line.strip()
-        if line.startswith("- "):
-            key = re.sub(r'\[\[([^\]]+)\]\]', 'LINK', line.lower())
-            key = re.sub(r'\s+', ' ', key)
+        if line.startswith(&#34;- &#34;):
+            key = re.sub(r&#39;\[\[([^\]]+)\]\]&#39;, &#39;LINK&#39;, line.lower())
+            key = re.sub(r&#39;\s+&#39;, &#39; &#39;, key)
             example_lines[key].append(f.stem)
 
-cross_dup = {k:v for k,v in example_lines.items() if len(v)>1}
+cross_dup = {k:v for k,v in example_lines.items() if len(v)&gt;1}
 
 # definition line stats
 equals = no_equals = 0
-for f in notes_dir.glob("*.md"):
-    if f.name == "_index.md":
+for f in notes_dir.glob(&#34;*.md&#34;):
+    if f.name == &#34;_index.md&#34;:
         continue
     text = f.read_text()
-    if not text.startswith("---"):
+    if not text.startswith(&#34;---&#34;):
         continue
-    end = text.find("\n---", 3)
-    body = text[end+4:].lstrip("\n")
-    first = body.split("\n\n")[0].strip()
-    if re.match(r'^\*\*[^*]+\*\*\s*=', first):
+    end = text.find(&#34;\n---&#34;, 3)
+    body = text[end+4:].lstrip(&#34;\n&#34;)
+    first = body.split(&#34;\n\n&#34;)[0].strip()
+    if re.match(r&#39;^\*\*[^*]+\*\*\s*=&#39;, first):
         equals += 1
     else:
         no_equals += 1
 
-print("Broken frontmatter:", broken_fm or "none")
-print(f"Definition ** = pattern: {equals} yes, {no_equals} no")
-print(f"Cross-file duplicate examples: {len(cross_dup)}")
+print(&#34;Broken frontmatter:&#34;, broken_fm or &#34;none&#34;)
+print(f&#34;Definition ** = pattern: {equals} yes, {no_equals} no&#34;)
+print(f&#34;Cross-file duplicate examples: {len(cross_dup)}&#34;)
 for k,v in cross_dup.items():
-    print(f"  {v}: {k[:70]}...")
+    print(f&#34;  {v}: {k[:70]}...&#34;)
 
 PYEOF
-hugo --gc --buildFuture 2>&1 | rg 'broken wikilink' | wc -l</summary>
-
+hugo --gc --buildFuture 2&gt;&amp;1 | rg &#39;broken wikilink&#39; | wc -l</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import re
@@ -5859,45 +3015,39 @@ Cross-file duplicate examples: 0
 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-43 notes still lack a bolded Title heading.</details></think>
+43 notes still lack a bolded Title heading.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re
 from pathlib import Path
 
-notes_dir = Path("content/english/notes")
-for f in sorted(notes_dir.glob("*.md")):
-    if f.name == "_index.md":
+notes_dir = Path(&#34;content/english/notes&#34;)
+for f in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;:
         continue
     text = f.read_text()
-    if not text.startswith("---"):
+    if not text.startswith(&#34;---&#34;):
         continue
-    end = text.find("\n---", 3)
-    body = text[end+4:].lstrip("\n")
-    first = body.split("\n\n")[0].strip()
-    if not re.match(r'^\*\*[^*]+\*\*\s*=', first):
-        kind = ""
-        m = re.search(r'^note_kind:\s*"?(\w+)"?', text[:500], re.M)
+    end = text.find(&#34;\n---&#34;, 3)
+    body = text[end+4:].lstrip(&#34;\n&#34;)
+    first = body.split(&#34;\n\n&#34;)[0].strip()
+    if not re.match(r&#39;^\*\*[^*]+\*\*\s*=&#39;, first):
+        kind = &#34;&#34;
+        m = re.search(r&#39;^note_kind:\s*&#34;?(\w+)&#34;?&#39;, text[:500], re.M)
         if m:
-            kind = f" [{m.group(1)}]"
-        print(f"{f.stem}{kind}: {first[:65]}...")
+            kind = f&#34; [{m.group(1)}]&#34;
+        print(f&#34;{f.stem}{kind}: {first[:65]}...&#34;)
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import re
@@ -5946,61 +3096,28 @@ intellectual-sourcing: I cite sources in notes not for academia - so I can trust
 local-first-software: Local-first means my device holds the truth; sync is optional ici...
 maps-of-content [index]: **Maps of Content (MOCs)** are hub notes that index related ideas...
 mental-models: Mental models are shortcuts for thinking. I keep a short list of ...
-metadata-strategy: Tags, categories, dates, aliases - metadata should help me find n...
-mind-mapping: Mind maps are for the messy first pass - branches, bubbles, relat...
-mobile-capture-workflows: Most sparks die on mobile because capture takes twelve taps. I re...
-para-method: **[[PARA]]** is how I sort notes by life responsibility - not by ...
-periodic-knowledge-review: Notes rot without review. I calendar weekly and quarterly passes ...
-pkm: **PKM** is the boring name for how I save, organize, and use what...
-process-over-outcomes: Results matter, but optimizing only for outcomes wins once. I opt...
-progressive-summarization: I don't rewrite whole notes when I distill - bold, then highlight...
-random-duo [meta]: Two notes from the garden, picked at random. I hit **Shuffle** fo...
-signal-vs-noise: Most content is noise. PKM fails if capture doesn't filter. I sav...
-slow-productivity: **Slow Productivity** pushes back on busy-as-virtue. I run fewer ...
-synthesis-as-a-goal: Collecting quotes isn't PKM for me. Synthesis means merging sourc...
-the-12-week-year: Twelve-week years compress annual goals into quarters I actually ...
-the-collectors-fallacy: Collecting articles feels like progress. It isn't. The collector'...
-the-feynman-technique: I explain notes like I'm teaching someone - gaps in my explanatio...
-the-garage-concept: The garage holds tools, scraps, experiments. The showroom is the ...
-the-knowledge-lifecycle: Ideas have lifecycles in my vault: capture, active use, evergreen...
-the-second-brain-workflow: CODE and PARA in one loop: capture to inbox, organize by project,...
-the-trusted-inbox: If I don't trust my inbox, I capture in my head instead. One pipe...
-there-is-no-perfect-solution: Waiting for the perfect tool, plan, or answer feels responsible. ...
-weekly-review-checklists: My weekly review is a checklist - inbox, calendar, projects, one ...
-
+metadata-strategy: T
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-43 notes lack the `**Title** =` header. Most are PKM cluster notes using alternative but consistent patterns.</details></think>
+43 notes lack the `**Title** =` header. Most are PKM cluster notes using alternative but consistent patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6078,26 +3195,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The duplicate capture card echo was removed.</details></think>
+The duplicate capture card echo was removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6128,21 +3237,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6172,13 +3272,6 @@ Additional data:
 }
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>
 
@@ -6233,7 +3326,8 @@ _**User**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A Hugo build error involving flashcards was reported.</details></think>
+A Hugo build error involving flashcards was reported.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6242,23 +3336,15 @@ The Hugo error points at broken YAML in `flashcards.md` frontmatter — I'll ope
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6283,13 +3369,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6297,14 +3376,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The normalization script corrupted the flashcards.
 
-The original flashcard contained `aliases: - /notes/cards/`. The script likely stripped or merged frontmatter incorrectly, leaving an orphaned block list item.</details></think>
+The original flashcard contained `aliases: - /notes/cards/`. The script likely stripped or merged frontmatter incorrectly, leaving an orphaned block list item.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6411,26 +3489,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Only flashcards.md contains the orphaned `- /notes/cards/` line.</details></think>
+Only flashcards.md contains the orphaned `- /notes/cards/` line.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6460,27 +3530,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
@@ -6493,13 +3548,13 @@ The normalize script does not modify aliases. The broken file likely resulted fr
 
 Reconsidering the broken script theory. The original file had no blank line after the opening `---`, so the first broken run would have produced valid YAML rather than corrupting aliases. The actual cause remains unclear.
 
-The normalize script's blank-line stripping does not affect aliases blocks. The corruption likely came from a different tool or a prior edit setting aliases to empty. Flashcards.md is now fixed. A guard against block-list aliases may be added to the normalize script.</details></think>
+The normalize script's blank-line stripping does not affect aliases blocks. The corruption likely came from a different tool or a prior edit setting aliases to empty. Flashcards.md is now fixed. A guard against block-list aliases may be added to the normalize script.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildDrafts --buildFuture 2>&1 | tail -8</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --buildDrafts --buildFuture 2&gt;&amp;1 | tail -8</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildDrafts --buildFuture 2>&1 | tail -8
 ```
@@ -6515,18 +3570,13 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildDrafts --buildFuture 2>
 Total in 12016 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The build succeeded. A guard should be added to the normalize script to detect orphaned YAML list items after `aliases: []`.</details></think>
+The build succeeded. A guard should be added to the normalize script to detect orphaned YAML list items after `aliases: []`.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6568,28 +3618,21 @@ SUMMARY
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The unlinked mention is "Golden Rule," which should be linked to [[The Golden Rule]].</details></think>
+The unlinked mention is "Golden Rule," which should be linked to [[The Golden Rule]].
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6620,21 +3663,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6724,13 +3758,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6756,7 +3783,8 @@ The contradiction reason cannot be reworded because the target wikilink itself e
 
 The wikilink `[[The Golden Rule at Work]]` resolves to the golden-rule-at-work page, not the-golden-rule page. Therefore `linkedToOther` is false, and the alias is not skipped. The bare "Golden Rule" is not visible text in the table; it is embedded inside the wikilink cell.
 
-The alias regex only matches `[[Golden Rule]]`, so it misses the longer wikilink `[[The Golden Rule at Work]]`. The word boundary scan then flags the bare alias inside the bracketed text. The two fixes are adding `[[The Golden Rule]]` to the prose, or changing the linter to ignore wikilink brackets during the mention scan.</details></think>
+The alias regex only matches `[[Golden Rule]]`, so it misses the longer wikilink `[[The Golden Rule at Work]]`. The word boundary scan then flags the bare alias inside the bracketed text. The two fixes are adding `[[The Golden Rule]]` to the prose, or changing the linter to ignore wikilink brackets during the mention scan.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6765,24 +3793,15 @@ The linter is flagging "Golden Rule" inside the `[[The Golden Rule at Work]]` wi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc --buildFuture 2>&1 | rg 'reconcile-before|unlinked mention' || echo "No issues for reconcile-before"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc --buildFuture 2&gt;&amp;1 | rg &#39;reconcile-before|unlinked mention&#39; || echo &#34;No issues for reconcile-before&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc --buildFuture 2>&1 | rg 'reconcile-before|unlinked mention' || echo "No issues for reconcile-before"
 ```
@@ -6791,12 +3810,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc --buildFuture 2>&1 | rg '
 No issues for reconcile-before
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6822,7 +3835,8 @@ all notes must have at least 2 flashcards. depending on the importance of the ca
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Every note needs at least two flashcards. The total depends on importance: two, four, six, or eight.</details></think>
+Every note needs at least two flashcards. The total depends on importance: two, four, six, or eight.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6831,59 +3845,53 @@ I'll map which notes already have flashcards and how importance is defined, then
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re
 from pathlib import Path
 from collections import Counter
 
-NOTES = Path("content/english/notes")
-CARD_RE = re.compile(r'^\s+-\s+front:\s+"', re.M)
+NOTES = Path(&#34;content/english/notes&#34;)
+CARD_RE = re.compile(r&#39;^\s+-\s+front:\s+&#34;&#39;, re.M)
 
-skip = {'_index.md', 'flashcards.md', 'review.md', 'graph.md', 'issues.md', 'random-duo.md', 'create.md', 'okf-export.md'}
+skip = {&#39;_index.md&#39;, &#39;flashcards.md&#39;, &#39;review.md&#39;, &#39;graph.md&#39;, &#39;issues.md&#39;, &#39;random-duo.md&#39;, &#39;create.md&#39;, &#39;okf-export.md&#39;}
 
-for kind in ['meta', 'index', 'utility']:
+for kind in [&#39;meta&#39;, &#39;index&#39;, &#39;utility&#39;]:
     pass
 
 stats = Counter()
 no_cards = []
 with_cards = []
 
-for f in sorted(NOTES.glob("*.md")):
+for f in sorted(NOTES.glob(&#34;*.md&#34;)):
     if f.name in skip:
         continue
     text = f.read_text()
-    fm_end = text.find('\n---', 3)
-    fm = text[:fm_end] if fm_end > 0 else text[:2000]
-    body = text[fm_end+4:] if fm_end > 0 else ''
+    fm_end = text.find(&#39;\n---&#39;, 3)
+    fm = text[:fm_end] if fm_end &gt; 0 else text[:2000]
+    body = text[fm_end+4:] if fm_end &gt; 0 else &#39;&#39;
     
-    note_kind = re.search(r'^note_kind:\s*"?(\w+)"?', fm, re.M)
-    kind = note_kind.group(1) if note_kind else 'note'
-    layout = re.search(r'^layout:\s*"?(\w+)"?', fm, re.M)
-    lay = layout.group(1) if layout else ''
+    note_kind = re.search(r&#39;^note_kind:\s*&#34;?(\w+)&#34;?&#39;, fm, re.M)
+    kind = note_kind.group(1) if note_kind else &#39;note&#39;
+    layout = re.search(r&#39;^layout:\s*&#34;?(\w+)&#34;?&#39;, fm, re.M)
+    lay = layout.group(1) if layout else &#39;&#39;
     
-    if kind in ('meta', 'index') or lay in ('graph', 'cards', 'review', 'issues', 'backlinks', 'random-duo', 'create'):
-        stats[f'skip_{kind or lay}'] += 1
+    if kind in (&#39;meta&#39;, &#39;index&#39;) or lay in (&#39;graph&#39;, &#39;cards&#39;, &#39;review&#39;, &#39;issues&#39;, &#39;backlinks&#39;, &#39;random-duo&#39;, &#39;create&#39;):
+        stats[f&#39;skip_{kind or lay}&#39;] += 1
         continue
     
-    review = 'review: true' in fm
+    review = &#39;review: true&#39; in fm
     cards = len(CARD_RE.findall(fm))
-    stats[f'cards_{cards}'] += 1
+    stats[f&#39;cards_{cards}&#39;] += 1
     
-    title_m = re.search(r'^title:\s*"(.+)"', fm, re.M)
+    title_m = re.search(r&#39;^title:\s*&#34;(.+)&#34;&#39;, fm, re.M)
     title = title_m.group(1) if title_m else f.stem
     
     entry = (f.stem, title, cards, review, kind)
@@ -6892,17 +3900,16 @@ for f in sorted(NOTES.glob("*.md")):
     else:
         with_cards.append(entry)
 
-print("Card count distribution:")
+print(&#34;Card count distribution:&#34;)
 for k,v in sorted(stats.items()):
-    print(f"  {k}: {v}")
-print(f"\nWith cards: {len(with_cards)}, without: {len(no_cards)}")
-print(f"\nNo cards (first 30):")
+    print(f&#34;  {k}: {v}&#34;)
+print(f&#34;\nWith cards: {len(with_cards)}, without: {len(no_cards)}&#34;)
+print(f&#34;\nNo cards (first 30):&#34;)
 for e in no_cards[:30]:
-    print(f"  {e[0]}: review={e[3]} kind={e[4]}")
-print(f"  ... total {len(no_cards)}")
+    print(f&#34;  {e[0]}: review={e[3]} kind={e[4]}&#34;)
+print(f&#34;  ... total {len(no_cards)}&#34;)
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import re
@@ -6962,23 +3969,1356 @@ print(f"  ... total {len(no_cards)}")
 PYEOF
 
 ```
-</details>
-</tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+```
+Card count distribution:
+  cards_0: 142
+  cards_6: 54
+  skip_index: 6
+  skip_meta: 1
+
+With cards: 54, without: 142
+
+No cards (first 30):
+  accountability: review=False kind=note
+  active-knowledge-curation: review=False kind=note
+  adaptability: review=False kind=note
+  analog-capture-tools: review=False kind=note
+  anti-fragile-systems: review=False kind=note
+  attention-economy: review=False kind=note
+  attention-to-detail: review=False kind=note
+  behavioral-economics: review=False kind=note
+  break-the-escalation-cycle: review=False kind=note
+  build-a-reliable-default: review=False kind=note
+  building-a-personal-api: review=False kind=note
+  client-site-handoff: review=False kind=note
+  coaching-ethics: review=False kind=note
+  commonplace-book: review=False kind=note
+  complete-the-cycle: review=False kind=note
+  composure: review=False kind=note
+  compounding: review=False kind=note
+  context-aware-capture: review=False kind=note
+  continuous-improvement: review=False kind=note
+  control-the-rhythm: review=False kind=note
+  convert-pain-into-learning: review=False kind=note
+  crdt: review=False kind=note
+  create-regular-connection: review=False kind=note
+  creative-blocks: review=False kind=note
+  creative-output: review=False kind=note
+  daily-notes: review=False kind=note
+  decision-quality: review=False kind=note
+  deep-work: review=False kind=note
+  deliberate-practice: review=False kind=note
+  develop-dont-endanger: review=False kind=note
+  ... total 142
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
+<think><details><summary>Thought Process</summary>
+142 notes still need flashcards added. 54 existing notes already have 6 cards each. Most important cards may need to increase to 8.
 
-</details>
-</tool-use>
+Importance tiers are being mapped out. Most important notes will get 8 cards. Existing spine notes will keep 6. Medium importance gets 4. Lower importance gets 2.
+
+Medium importance covers workplace ethics and safety clusters. Lower importance covers stubs and niche topics. Criteria for 8, 6, 4, and 2 card tiers are being defined by note metadata. The archive script and card set patterns are being reviewed for automation.
+
+A bulk generator risks producing mediocre cards. Task agents could batch-create high-quality cue-to-apply cards instead.
+
+Lint will be updated to require at least two flashcards on every garden note. Tier assignment logic will be created next. Cards will be generated in batches from each note's definitions and examples. The enable-note-flashcards script and eternal-principles index are being checked for tier hints and category mappings.
+
+The tier rules are being simplified to rely on two key metadata flags. Notes marked `featured: true` will receive 8 cards. Notes marked `review: true` will keep their existing 6 cards. All remaining garden notes will default to 2 cards.
+
+Tag-based rules are being added to the tier logic. Notes tagged "Eternal Principles" or "Gospel" will receive 6 cards. Notes tagged "Safety", "Workplace", or "Leadership" will receive 4. Common PKM notes will get 4 cards, while capture and workflow spine notes will get 6. A Python script is being drafted to automate the generation.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/enable-note-flashcards.py</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
+import re
+from pathlib import Path
+
+NOTES = Path(&#34;content/english/notes&#34;)
+featured = []
+gospel = []
+pkm_spine = []
+
+for f in NOTES.glob(&#34;*.md&#34;):
+    t = f.read_text()
+    if &#39;featured: true&#39; in t[:800]:
+        featured.append(f.stem)
+    tags_m = re.search(r&#39;^tags:\s*\[(.*)\]&#39;, t, re.M)
+    if tags_m:
+        tags = tags_m.group(1).lower()
+        if &#39;gospel&#39; in tags or &#39;eternal principles&#39; in tags:
+            gospel.append(f.stem)
+        if &#39;capture&#39; in tags or &#39;pkm&#39; in tags and &#39;review: true&#39; in t[:3000]:
+            pkm_spine.append(f.stem)
+
+print(&#34;featured:&#34;, featured)
+print(&#34;gospel count:&#34;, len(gospel))
+print(&#34;review true stems:&#34;)
+for f in NOTES.glob(&#34;*.md&#34;):
+    if &#39;review: true&#39; in f.read_text()[:3000]:
+        print(f&#34;  {f.stem}&#34;)
+PYEOF
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+featured = []
+gospel = []
+pkm_spine = []
+
+for f in NOTES.glob("*.md"):
+    t = f.read_text()
+    if 'featured: true' in t[:800]:
+        featured.append(f.stem)
+    tags_m = re.search(r'^tags:\s*\[(.*)\]', t, re.M)
+    if tags_m:
+        tags = tags_m.group(1).lower()
+        if 'gospel' in tags or 'eternal principles' in tags:
+            gospel.append(f.stem)
+        if 'capture' in tags or 'pkm' in tags and 'review: true' in t[:3000]:
+            pkm_spine.append(f.stem)
+
+print("featured:", featured)
+print("gospel count:", len(gospel))
+print("review true stems:")
+for f in NOTES.glob("*.md"):
+    if 'review: true' in f.read_text()[:3000]:
+        print(f"  {f.stem}")
+PYEOF
+
+```
+
+```
+featured: ['getting-started', 'eternal-principles', 'maps-of-content']
+gospel count: 54
+review true stems:
+  treasure-in-heaven
+  christianity-and-politics
+  associative-linking
+  by-their-fruits
+  the-trusted-inbox
+  sanctification
+  flashcards
+  forgiveness
+  faithful-steward
+  justification
+  note-relationships
+  eternal-rewards
+  repent-and-believe
+  evergreen-notes
+  free-grace
+  render-unto-caesar
+  ask-seek-knock
+  faith-and-works
+  reconciliation-before-worship
+  discipleship
+  secret-devotion
+  wood-hay-stubble
+  the-narrow-way
+  dont-worry
+  the-beatitudes
+  the-wise-builder
+  peacemakers
+  signal-vs-noise
+  let-your-light-shine
+  love-your-enemies
+  building-a-second-brain
+  great-commission
+  humility-and-service
+  weekly-review-checklists
+  childlike-faith
+  capture
+  abide-in-me
+  let-your-yes-be-yes
+  loss-of-reward
+  atomic-notes
+  judgment-seat
+  love-your-neighbor
+  para-method
+  seek-the-kingdom-first
+  take-up-your-cross
+  the-collectors-fallacy
+  love-god
+  turn-the-other-cheek
+  grateful-obedience
+  judge-not
+  spaced-repetition
+  pareto-principle
+  heart-righteousness
+  standing-vs-fellowship
+  assurance
+  okf-export
+  the-golden-rule
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+142 notes require flashcards. Each note needs at least two cards, with four, six, or eight based on importance.
+
+I'll define tier rules for card counts and create a script to add missing cards. Existing notes with six cards may upgrade to eight. Lint and documentation will be updated too.
+
+The tier rules are now defined by note importance. Eight cards go to featured index notes and core spine concepts. Six cards go to gospel spine and core PKM workflow notes. Four cards go to workplace and safety clusters. Two cards go to stubs and niche topics.
+
+Eight-card tiers will target notes with `featured: true` or slugs in the top spine set. Six-card tiers cover notes already tagged with `review: true`. Four-card tiers cover notes tagged with `Safety`, `Workplace`, `Leadership`, or `Ethics`. Two-card tiers cover all remaining garden notes. Notes with six cards will stay at six unless they are top spine concepts, which would upgrade them to eight. Manually generating 284 to 1136 individual flashcards in one response is impractical.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accountability.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/deep-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
+
+Directory: **``** (4 files)
+
+| File |
+|------|
+| `./scripts/archive/fix-flashcard-lengths.py` |
+| `./scripts/archive/enable-note-flashcards.py` |
+| `./scripts/archive/add-gospel-flashcards.py` |
+| `./scripts/lint-flashcard-frontmatter.py` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading add-gospel-flashcards.py and fix-flashcard-lengths.
+
+Planning automated generation for 142 notes. Examples will serve as front cards. Definitions will generate back cards. Eight flashcards will go to featured or high-priority notes.
+
+Six flashcards will go to review notes, gospel tags, and core PKM. Four will cover safety, workplace, leadership, and ethics. Two is the default. Notes with only one example will get a fabricated second card from the definition. Frontmatter linting, documentation, and skill files also need updates.
+
+Existing six-card notes will stay put unless promoted to eight. I need to verify spaced-repetition and okf-export. Reconcile-before-the-review has no cards and lacks review:true. I will write sync-note-flashcards.py to skip meta pages and compute each note’s target card count.
+
+The script will generate cards from examples and definitions, set review flags and card sets, and skip notes already at their target count. It will adjust notes with too many or too few cards. After running it, I will fix lint errors and update flashcards.md. The algorithm parses definitions into titles and claims, then trims example bullets into front cards and adds hint questions where needed.
+
+Front cards will use the first clause of each example as the scenario, truncating to 120 characters and appending a hint question. Back cards will pull the first sentence or key phrase from the definition, compressing it to under 60 characters.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/add-gospel-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/fix-flashcard-lengths.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+This is a large undertaking. I will create a script to sync note flashcards.
+
+The script will generate 2, 4, 6, or 8 flashcards per note based on tier rules. It extracts scenarios from the Examples section and converts them into front-and-back pairs. Duplicate examples will be deduplicated. Notes needing more cards will be upgraded; those already sufficient will be left alone.
+
+Meta and index notes are skipped. Featured hubs and top spine get eight cards. Reviews, gospel content, and six spine notes get six. Safety, workplace, leadership, ethics, and coaching tags get four.
+
+Notes with six cards that belong to a lower tier will be reduced rather than upgraded. The eight-card tier is now limited to a small explicit list of roughly ten notes. PKM, productivity, capture, and note-taking tags will receive four cards. All remaining notes default to two.
+
+The tier breakdown is now roughly ten notes at eight cards, about fifty-two at six, around forty at four, and roughly one hundred at two. The six-card tier covers the gospel and eternal-principles cluster plus the core PKM spine. I am ready to implement the script and begin generating cards from examples.
+
+The `example_to_card` function strips markdown formatting and wikilinks from example text. It splits each example at the em dash to separate the scenario from the remainder. The back side uses the short imperative phrase if it is between five and fifty characters long; otherwise it falls back to a compressed version of the claim.
+
+If an example lacks an em dash, the function truncates the text to one hundred characters and falls back to a compressed claim for the back side. It appends "What's the move?" to the front unless the scenario already ends with a question mark. If the front side is shorter than the back, it adds "One check?". The `compress_claim` helper extracts the first clause after the equals sign and limits it to forty-five characters. Generic cues generated from the definition were rejected as too vague.
+
+Fallback cards will be drawn from the relationships table or description fields instead of vague definition cues. Workplace and reconcile-before-the-review notes will be assigned to the four-card tier. The script will be written, executed, and linted, with failures fixed iteratively. The lint rule will be updated to require review:true on all garden notes whenever cards exist, enforce minimum two cards, and restrict counts to two, four, six, or eight. The flashcards documentation and the notes-review archetype will be revised to reflect the new tier policy.
+
+Reconcile-before-the-review is a workplace note without cards and belongs in the four-card tier. Deep-work contains duplicate examples that the script will deduplicate. Spaced-repetition and okf-export already carry review:true and need their card counts verified. A standalone script is preferable to Task agents for processing 142 notes. Tier-eight notes with only six cards will receive two additional unique cards. Auto-generated cards for 142 notes may be of poor quality.
+</details></think>
+
+_**Agent (auto-low)**_
+
+This is a large change across ~200 notes — I'll add tier rules (2/4/6/8), a sync script, and update the lint/docs.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Write sync-note-flashcards.py with tier rules and card generation",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Update lint-flashcard-frontmatter.py for min 2 cards on all garden notes",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Run sync script and fix lint failures",
+      "id": "3",
+      "status": "pending"
+    },
+    {
+      "content": "Update flashcards.md and archetype docs",
+      "id": "4",
+      "status": "pending"
+    }
+  ],
+  "success": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the spaced-repetition note has review enabled in its frontmatter. The audit flagged it in the review list, but the card count might be zero.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The regex in `inject_cards` is too aggressive and needs fixing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/sync-note-flashcards.py 2&gt;&amp;1 | tail -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/sync-note-flashcards.py 2>&1 | tail -30
+```
+
+```
+ship-it.md: add 4 cards (tier 4)
+situational-control.md: add 4 cards (tier 4)
+sketchpad.md: add 4 cards (tier 4)
+slow-productivity.md: add 4 cards (tier 4)
+slow-the-moment.md: add 2 cards (tier 2)
+spaced-repetition.md: add 6 cards (tier 6)
+standard-operating-procedures.md: add 2 cards (tier 2)
+static-site-client-scope.md: add 2 cards (tier 2)
+stay-effective-in-new-conditions.md: add 2 cards (tier 2)
+strategic-foresight.md: add 4 cards (tier 4)
+sunk-cost-fallacy.md: add 4 cards (tier 4)
+sustainable-performance.md: add 4 cards (tier 4)
+synthesis-as-a-goal.md: add 4 cards (tier 4)
+systems-thinking.md: add 2 cards (tier 2)
+taxonomy.md: add 4 cards (tier 4)
+the-12-week-year.md: add 4 cards (tier 4)
+the-feynman-technique.md: add 4 cards (tier 4)
+the-garage-concept.md: add 4 cards (tier 4)
+the-golden-rule.md: expand 6→8
+the-knowledge-lifecycle.md: add 4 cards (tier 4)
+the-second-brain-workflow.md: add 4 cards (tier 4)
+the-trusted-inbox.md: expand 6→8
+there-is-no-perfect-solution.md: add 4 cards (tier 4)
+tony-buzan.md: add 4 cards (tier 4)
+versatility.md: add 2 cards (tier 2)
+voice-memos.md: add 4 cards (tier 4)
+webhooks.md: add 4 cards (tier 4)
+weekly-review-checklists.md: expand 6→8
+
+updated 149 notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+149 notes were updated. Now running lint:cards to fix errors.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 | head -60</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | head -60
+```
+
+```
+
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
+import re
+from pathlib import Path
+NOTES = Path(&#34;content/english/notes&#34;)
+CARD_RE = re.compile(r&#39;^\s+-\s+front:\s+&#34;&#39;, re.M)
+skip = {&#39;_index&#39;,&#39;flashcards&#39;,&#39;review&#39;,&#39;graph&#39;,&#39;issues&#39;,&#39;random-duo&#39;,&#39;create&#39;,&#39;okf-export&#39;}
+bad = []
+for f in NOTES.glob(&#34;*.md&#34;):
+    if f.stem in skip: continue
+    t = f.read_text()
+    if &#39;note_kind: &#34;meta&#34;&#39; in t or &#39;note_kind: meta&#39; in t or &#39;note_kind: &#34;index&#34;&#39; in t: continue
+    lay = re.search(r&#39;^layout:\s*&#34;?(\w+)&#34;?&#39;, t, re.M)
+    if lay and lay.group(1) in (&#39;graph&#39;,&#39;cards&#39;,&#39;review&#39;,&#39;issues&#39;,&#39;create&#39;,&#39;random-duo&#39;): continue
+    n = len(CARD_RE.findall(t))
+    if n not in (2,4,6,8):
+        bad.append((f.stem, n, &#39;review&#39; in t[:2000]))
+print(f&#34;Wrong counts: {len(bad)}&#34;)
+for b in bad[:25]:
+    print(b)
+PYEOF
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re
+from pathlib import Path
+NOTES = Path("content/english/notes")
+CARD_RE = re.compile(r'^\s+-\s+front:\s+"', re.M)
+skip = {'_index','flashcards','review','graph','issues','random-duo','create','okf-export'}
+bad = []
+for f in NOTES.glob("*.md"):
+    if f.stem in skip: continue
+    t = f.read_text()
+    if 'note_kind: "meta"' in t or 'note_kind: meta' in t or 'note_kind: "index"' in t: continue
+    lay = re.search(r'^layout:\s*"?(\w+)"?', t, re.M)
+    if lay and lay.group(1) in ('graph','cards','review','issues','create','random-duo'): continue
+    n = len(CARD_RE.findall(t))
+    if n not in (2,4,6,8):
+        bad.append((f.stem, n, 'review' in t[:2000]))
+print(f"Wrong counts: {len(bad)}")
+for b in bad[:25]:
+    print(b)
+PYEOF
+
+```
+
+```
+Wrong counts: 0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Lint passed. Next, updating flashcards.md, the archetype, and possibly the package.json script.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accountability.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The "reconcile-before-the-review" cards have weak back sides. One example reads "if a colleague still has something against me," which is not an actionable item.
+
+Accountability cards lack a "What's the move?" prompt on their fronts. Their backs are too weak. The inject_cards function strips reviews and leaves blank lines. Generated extra cards are low quality. I will fix the injection logic. I will improve example_to_card to produce stronger imperative backs. I will repair the broken frontmatter in capture.md. Then I will re-run or manually fix the worst offenders.
+
+The reconcile card generator splits on the first dash. It keeps only the scenario text. The action portion is lost. This produces weak imperatives. Better backs should read "Short call first — own it before OKRs." or "Coffee first — slides second."
+
+The compression logic favors the claim over the action clause when the action exceeds fifty-five characters. That explains why the back side reads "if a colleague still has something against me" instead of an imperative. The "one kid" back on the accountability card should be "Name one owner." I will fix the compression to prefer action imperatives, patch the inject_cards whitespace bug, and rerun the sync.
+
+A full re-sync would skip notes that already have the correct card count. I will add a --rewrite flag to force regeneration of all auto-tier notes. I am also rewriting the inject_cards helper to prevent blank lines from appearing when the review field is already present.
+
+The inject_cards helper now deletes the entire review, card_sets, and cards blocks in one pass, then collapses leftover blank lines. A new action_to_back helper extracts the imperative phrase after the dash and returns it directly when it stays under fifty characters.
+
+The action-to-back helper now tries splitting on commas and semicolons to isolate the imperative tail. If no short tail exists, it falls back to compressing the full action. The claim-to-back helper converts conditional claims into imperative sentences by extracting the action after the comma.
+
+The reconcile back should read "Address it before the review." The --rewrite flag will preserve hand-crafted six-card gospel decks. Existing cards on those notes will be trimmed or expanded to match the target count without replacement. Newly added notes will be fully regenerated.
+
+A simpler fix is to detect bad backs by looking for "if " prefixes and regenerate only those notes. The weak auto cards added to capture.md should be replaced with two strong manual ones. I will patch inject_cards, improve back generation, repair capture.md, and run a targeted quality pass.
+
+I will remove the weak auto-generated cards from capture, the-trusted-inbox, weekly-review, the-golden-rule, and pareto. I will add stronger replacements for each. Bad back patterns include leading with "if ", exceeding forty characters without an imperative verb, or duplicating the claim text. I will run a targeted fix script on only those notes.
+
+I will build a targeted fix script that regenerates only the bad auto cards while preserving all existing good ones. The capture note will keep its original six cards and receive two strong manual replacements to reach eight total. All 149 newly generated notes likely contain weak cards, so the generator itself needs significant improvement. I will fix the inject_cards whitespace bug and then optimize the card creation logic to meet both the quantity tiers and the quality standards.
+
+The 54 review notes that previously held six cards will be preserved; their counts will be adjusted without replacing existing cards. The remaining 142 notes plus spaced-repetition will be fully regenerated with the improved algorithm. I will also fix the capture frontmatter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Generated cards need better backs, and `inject_cards` mangled some frontmatter — fixing the script and re-syncing.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing `inject_cards` to use a single regex for removing cards blocks and collapsing blank lines.
+
+Improving `claim_to_back` and `action_to_back`. Adding `PRESERVE_STEMS` for hand-crafted decks and a `--rewrite` flag to regenerate auto-generated notes. Fixing `pick_card_sets` so workplace notes without gospel tags default to Ethics/Focus instead of gospel sets.
+
+Restoring six original plus two expansion cards in capture.md. Tier 8 hand-crafted notes will be excluded from --rewrite to preserve their existing cards; only expansion cards 7–8 will be fixed manually.
+
+Defining `HANDCRAFTED_STEMS` from the earlier audit list. A targeted `--rewrite-backs` pass will regenerate only notes whose back text starts with "if " or is fewer than eight characters long. For capture, frontmatter blanks still need fixing while keeping the existing cards.
+
+`claim_to_back` now strips wiki links and converts conditional claims like "if X, I go Y" into direct imperative back-text. It falls back to splitting on dashes or semicolons. `action_to_back` will prefer the short tail after a dash or semicolon.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running --rewrite on non-handcrafted notes.
+
+Realized the --rewrite flag would overwrite handcrafted notes too. Will manually fix capture.md instead, removing bad cards 7-8 and adding valid ones. Need to check the script logic to confirm how --rewrite behaves.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/sync-note-flashcards.py --rewrite 2&gt;&amp;1 | tail -15</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/sync-note-flashcards.py --rewrite 2>&1 | tail -15
+```
+
+```
+synthesis-as-a-goal.md: rewrite 6 cards (tier 6)
+systems-thinking.md: rewrite 6 cards (tier 6)
+taxonomy.md: rewrite 6 cards (tier 6)
+the-12-week-year.md: rewrite 6 cards (tier 6)
+the-feynman-technique.md: rewrite 6 cards (tier 6)
+the-garage-concept.md: rewrite 6 cards (tier 6)
+the-knowledge-lifecycle.md: rewrite 6 cards (tier 6)
+the-second-brain-workflow.md: rewrite 6 cards (tier 6)
+there-is-no-perfect-solution.md: rewrite 6 cards (tier 6)
+tony-buzan.md: rewrite 6 cards (tier 6)
+versatility.md: rewrite 6 cards (tier 6)
+voice-memos.md: rewrite 6 cards (tier 6)
+webhooks.md: rewrite 6 cards (tier 6)
+
+updated 142 notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Systems-thinking was unexpectedly assigned tier 6.
+
+The bug is in `target_count`. It checks `review: true` to assign tier 6. Because every note now gets `review: true`, all notes incorrectly receive tier 6. I will remove that check.
+</details></think>
+
+_**Agent (auto-low)**_
+
+`target_count` was treating `review: true` as a tier signal — fixing that and re-syncing card counts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/sync-note-flashcards.py 2&gt;&amp;1 | head -40 &amp;&amp; echo &#34;---&#34; &amp;&amp; python3 scripts/sync-note-flashcards.py 2&gt;&amp;1 | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/sync-note-flashcards.py 2>&1 | head -40 && echo "---" && python3 scripts/sync-note-flashcards.py 2>&1 | wc -l
+```
+
+```
+accountability.md: trim 6→4
+active-knowledge-curation.md: trim 6→4
+adaptability.md: trim 6→2
+analog-capture-tools.md: trim 6→4
+anti-fragile-systems.md: trim 6→4
+attention-economy.md: trim 6→4
+attention-to-detail.md: trim 6→2
+behavioral-economics.md: trim 6→2
+build-a-reliable-default.md: trim 6→2
+building-a-personal-api.md: trim 6→4
+client-site-handoff.md: trim 6→2
+coaching-ethics.md: trim 6→4
+commonplace-book.md: trim 6→4
+complete-the-cycle.md: trim 6→2
+composure.md: trim 6→4
+compounding.md: trim 6→4
+context-aware-capture.md: trim 6→4
+continuous-improvement.md: trim 6→2
+control-the-rhythm.md: trim 6→4
+convert-pain-into-learning.md: trim 6→2
+crdt.md: trim 6→4
+create-regular-connection.md: trim 6→2
+creative-blocks.md: trim 6→4
+creative-output.md: trim 6→4
+daily-notes.md: trim 6→4
+decision-quality.md: trim 6→2
+deep-work.md: trim 6→4
+deliberate-practice.md: trim 6→2
+develop-dont-endanger.md: trim 6→4
+digital-garden.md: trim 6→4
+digital-minimalism.md: trim 6→4
+digital-serendipity.md: trim 6→4
+discipline.md: trim 6→2
+drafting-in-public.md: trim 6→4
+duty-of-care.md: trim 6→4
+eliminate-before-managing.md: trim 6→4
+elon-musk.md: trim 6→2
+emotional-regulation.md: trim 6→2
+energy-protects-judgment.md: trim 6→2
+ethical-leadership.md: trim 6→4
+---
+40
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1
+```
+
+```
+
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing `action_to_back` to prevent unnecessary truncation with ellipsis when the action text is already long enough. Reconcile cards still need "What's the move?" on the front and properly formatted backs.
+
+Capture.md needs manual cleanup: remove blank lines and replace its last two cards. Reconcile card fronts will be improved to include "What's the move?". The root cause of unwanted ellipsis truncation is that long actions fall through to `compress_back` instead of being handled directly by `action_to_back`.
+
+The reconcile rewrite used older code that missed the "What's the move?" fix, leaving those fronts incomplete. I will manually correct the remaining reconcile cards and capture entries. For the long action example, weighing whether to truncate to "Fifteen minutes with him first." or "Repair before the charts."
+
+Running a full rewrite across all non-handcrafted notes should fix the reconcile card fronts automatically. If the counts are correct afterward, trimming will be unnecessary.
+
+`action_to_back` will now return the full action directly when it is sixty characters or fewer. The seventy-seven-character example will be compressed to an imperative form such as "Fifteen minutes with him before the meeting."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/sync-note-flashcards.py --rewrite 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/sync-note-flashcards.py --rewrite 2>&1 | tail -5
+```
+
+```
+versatility.md: rewrite 2 cards (tier 2)
+voice-memos.md: rewrite 4 cards (tier 4)
+webhooks.md: rewrite 4 cards (tier 4)
+
+updated 142 notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
+import re
+from pathlib import Path
+from collections import Counter
+NOTES = Path(&#34;content/english/notes&#34;)
+CARD_RE = re.compile(r&#39;^\s+-\s+front:\s+&#34;&#39;, re.M)
+skip = {&#39;_index&#39;,&#39;flashcards&#39;,&#39;review&#39;,&#39;graph&#39;,&#39;issues&#39;,&#39;random-duo&#39;,&#39;create&#39;,&#39;okf-export&#39;}
+counts = Counter()
+for f in NOTES.glob(&#34;*.md&#34;):
+    if f.stem in skip: continue
+    t = f.read_text()
+    if &#39;note_kind: &#34;meta&#34;&#39; in t or &#39;note_kind: meta&#39; in t: continue
+    if &#39;note_kind: &#34;index&#34;&#39; in t or &#39;note_kind: index&#39; in t: continue
+    lay = re.search(r&#39;^layout:\s*&#34;?(\w+)&#34;?&#39;, t, re.M)
+    if lay and lay.group(1) in (&#39;graph&#39;,&#39;cards&#39;,&#39;review&#39;,&#39;issues&#39;,&#39;create&#39;,&#39;random-duo&#39;): continue
+    n = len(CARD_RE.findall(t))
+    counts[n] += 1
+print(&#34;Distribution:&#34;, dict(sorted(counts.items())))
+print(&#34;Total garden notes with cards:&#34;, sum(counts.values()))
+PYEOF
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 && python3 << 'PYEOF'
+import re
+from pathlib import Path
+from collections import Counter
+NOTES = Path("content/english/notes")
+CARD_RE = re.compile(r'^\s+-\s+front:\s+"', re.M)
+skip = {'_index','flashcards','review','graph','issues','random-duo','create','okf-export'}
+counts = Counter()
+for f in NOTES.glob("*.md"):
+    if f.stem in skip: continue
+    t = f.read_text()
+    if 'note_kind: "meta"' in t or 'note_kind: meta' in t: continue
+    if 'note_kind: "index"' in t or 'note_kind: index' in t: continue
+    lay = re.search(r'^layout:\s*"?(\w+)"?', t, re.M)
+    if lay and lay.group(1) in ('graph','cards','review','issues','create','random-duo'): continue
+    n = len(CARD_RE.findall(t))
+    counts[n] += 1
+print("Distribution:", dict(sorted(counts.items())))
+print("Total garden notes with cards:", sum(counts.values()))
+PYEOF
+
+```
+
+```
+
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter errors:
+  content/english/notes/priorities-before-the-inbox.md: card front must be longer than back (front=49, back=52): Game film due Friday. What's the move? O…
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the priorities-before-the-inbox lint error comes first.
+
+Reconcile-before-the-review cards will be fixed manually with good-quality flashcards. The-trusted-inbox frontmatter and its last two cards need correction. Weekly-review-checklists and the-golden-rule will be checked for similar bad expansions.
+
+The reconcile flashcards now pair specific scenarios with brief priority instructions. The-trusted-inbox's last two cards are being rewritten with a one-bowl trusted pipe rule.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "^review: true\\n\\n\\n"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "^review: true\\n\\n\\n",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adjusting card 1's front and back sides to match its priority level.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "featured: false\\n\\n+"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "featured: false\\n\\n+",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/free-grace.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The "seek-the-kingdom-first" card needs fixing. Its "Which gets priority?" phrasing might trigger multiple-choice lint.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1
+```
+
+```
+
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The second replacement in flashcards.md failed. The target table may not exist in that file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md",
+  "pattern": "^- front:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md",
+  "pattern": "^- front:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
+import re
+from pathlib import Path
+from collections import Counter
+NOTES = Path(&#34;content/english/notes&#34;)
+CARD_RE = re.compile(r&#39;^\s+-\s+front:\s+&#34;&#39;, re.M)
+skip = {&#39;_index&#39;,&#39;flashcards&#39;,&#39;review&#39;,&#39;graph&#39;,&#39;issues&#39;,&#39;random-duo&#39;,&#39;create&#39;,&#39;okf-export&#39;}
+counts = Counter()
+for f in NOTES.glob(&#34;*.md&#34;):
+    if f.stem in skip: continue
+    t = f.read_text()
+    if re.search(r&#39;^note_kind:\s*&#34;(meta|index)&#34;&#39;, t, re.M): continue
+    lay = re.search(r&#39;^layout:\s*&#34;?(\w+)&#34;?&#39;, t, re.M)
+    if lay and lay.group(1) in (&#39;graph&#39;,&#39;cards&#39;,&#39;review&#39;,&#39;issues&#39;,&#39;create&#39;,&#39;random-duo&#39;): continue
+    n = len(CARD_RE.findall(t))
+    counts[n] += 1
+print(&#34;Card count distribution:&#34;, dict(sorted(counts.items())))
+print(&#34;Total:&#34;, sum(counts.values()))
+PYEOF
+hugo --buildFuture 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re
+from pathlib import Path
+from collections import Counter
+NOTES = Path("content/english/notes")
+CARD_RE = re.compile(r'^\s+-\s+front:\s+"', re.M)
+skip = {'_index','flashcards','review','graph','issues','random-duo','create','okf-export'}
+counts = Counter()
+for f in NOTES.glob("*.md"):
+    if f.stem in skip: continue
+    t = f.read_text()
+    if re.search(r'^note_kind:\s*"(meta|index)"', t, re.M): continue
+    lay = re.search(r'^layout:\s*"?(\w+)"?', t, re.M)
+    if lay and lay.group(1) in ('graph','cards','review','issues','create','random-duo'): continue
+    n = len(CARD_RE.findall(t))
+    counts[n] += 1
+print("Card count distribution:", dict(sorted(counts.items())))
+print("Total:", sum(counts.values()))
+PYEOF
+hugo --buildFuture 2>&1 | tail -5
+```
+
+```
+Card count distribution: {2: 41, 4: 100, 6: 48, 8: 7}
+Total: 196
+ Processed images │  331 
+ Aliases          │  679 
+ Cleaned          │    0 
+
+Total in 18858 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Write sync-note-flashcards.py with tier rules and card generation",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Update lint-flashcard-frontmatter.py for min 2 cards on all garden notes",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Run sync script and fix lint failures",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Update flashcards.md and archetype docs",
+      "id": "4",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Write sync-note-flashcards.py with tier rules and card generation",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Update lint-flashcard-frontmatter.py for min 2 cards on all garden notes",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Run sync script and fix lint failures",
+      "id": "3",
+      "status": "pending"
+    },
+    {
+      "content": "Update flashcards.md and archetype docs",
+      "id": "4",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Pareto may have eight cards, but grep failed. The format might differ.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Every garden note now has flashcards, sized by importance.
+
+## Tier rules (2 / 4 / 6 / 8 cards)
+
+| Count | When |
+|-------|------|
+| **8** | Featured hubs + top spine (`capture`, `free-grace`, `the-golden-rule`, `seek-the-kingdom-first`, `pareto-principle`, `the-trusted-inbox`, `weekly-review-checklists`) |
+| **6** | Gospel cluster + core PKM habits (hand-tuned spine decks) |
+| **4** | Workplace, safety, leadership, ethics, secondary PKM/productivity notes |
+| **2** | Everything else |
+
+**Current distribution:** 41 notes × 2 · 100 × 4 · 48 × 6 · 7 × 8 (196 garden notes). Utility pages (`flashcards`, `review`, `graph`, etc.) are excluded.
+
+## What changed
+
+- Added `scripts/sync-note-flashcards.py` — assigns tier, generates cue→apply cards from examples, sets `review: true` + `card_sets`
+- Updated `scripts/lint-flashcard-frontmatter.py` — all garden notes must have `review: true`, 2–8 cards (only 2, 4, 6, or 8)
+- Updated `content/english/notes/flashcards.md` — documents the new policy
+- Hand-tuned spine decks (capture, free grace, golden rule, etc.) kept their original 6 cards; tier-8 notes got 2 extra cards written by hand where auto-generation was weak
+
+## Commands
+
+```bash
+python3 scripts/sync-note-flashcards.py          # sync new notes to tier
+python3 scripts/sync-note-flashcards.py --rewrite  # regenerate auto decks (skips hand-tuned spine)
+npm run lint:cards
+```
+
+Auto-generated cards on the 142 newer notes are functional drill cues mined from each note's examples. The gospel/PKM spine decks are still the higher-quality reference set — worth a manual pass on any auto deck that feels flat when you review at `/notes/review/`.

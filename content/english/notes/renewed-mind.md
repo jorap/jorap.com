@@ -19,7 +19,7 @@ key_concept: |
   - do not copy the world's default thinking.
   - Let Scripture reshape how I see, choose, and obey.
 examples:
-  - "I knew the verse on patience and still snapped at dinner - my standing was settled at faith, but my mind was still running the world's hurry-and-react script until I opened Scripture before the group chat."
+  - "I knew the verse on patience and still snapped at dinner - my standing was settled at faith, but my mind was still running the world's hurry-and-react script until I opened the Bible before the group chat."
   - "The point guard kept forcing hero shots after film study showed the open man - same data, old habit loop; renewal is reps that bend the default, not one inspirational speech."
 shareable_thought:
   - "Refuse the world default thinking."

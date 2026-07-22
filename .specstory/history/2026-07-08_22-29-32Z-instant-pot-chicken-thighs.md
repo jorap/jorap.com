@@ -13,7 +13,8 @@ _**User**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user switched to an Instant Pot for the arroz caldo recipe. Their local supermarket does not consistently stock boneless chicken thighs.</details></think>
+The user switched to an Instant Pot for the arroz caldo recipe. Their local supermarket does not consistently stock boneless chicken thighs.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,39 +23,260 @@ Reviewing both arroz caldo posts and recipe guidelines to align them with your I
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user switched to the Instant Pot. Their supermarket rarely stocks boneless chicken thighs.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Checking specstory history for prior context on this update.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*arroz*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "boneless|thigh|drumstick|supermarket"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "boneless|thigh|drumstick|supermarket",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_22-22-53Z-arroz-caldo-ingredient-units.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-08_22-19-42Z-arroz-caldo-instant-pot-recipe.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 15
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-08_22-22-53Z-arroz-caldo-ingredient-units.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user switched to the Instant Pot and noted inconsistent availability of boneless chicken thighs at their supermarket.
+
+The set-it-forget-it post should be updated to reflect the legacy rice cooker method and direct readers to the Instant Pot version. The Instant Pot post could also note the supermarket's inconsistent boneless thigh supply as a reason to prefer drumsticks.
+
+The legacy post's opening line claiming the dish is made most Friday nights is outdated. The Instant Pot post currently frames drumsticks as a pressure-cooking advantage rather than a substitute for unavailable boneless thighs.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "used to|I don't.*anymore|now lives|superseded"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "used to|I don't.*anymore|now lives|superseded",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/getting-started-with-rss-feeds-beginners-guide.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/consistent-ai-output-wordpress-builds.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/what-i-look-for-in-wireless-earphones.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The full context is now clear.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the rice-cooker post to past tense and linking to the Instant Pot version; adding the supermarket availability angle to the Instant Pot post.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Fixing one leftover present-tense line in the rice cooker section.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The instant-pot post is still a draft. The user may want to publish it.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated both posts to match how you actually cook now.
+
+**`set-it-forget-it-arroz-caldo.md`** — reframed as the old method:
+- Opening is past tense; links to the [Instant Pot version](/blog/instant-pot-arroz-caldo/) up front
+- Notes the switch: bigger batch, faster, and boneless thigh fillets aren't reliably at your supermarket
+- Thigh fillet tip softened to "when you can find them"
+- Closing points to the Instant Pot as what you make now
+
+**`instant-pot-arroz-caldo.md`** — drumstick choice now includes the grocery reality:
+- Supermarket stocking is part of why drumsticks, not just collagen under pressure
+
+The rice cooker post stays useful as a smaller-batch reference for anyone with a congee setting. The Instant Pot post is still `draft: true` — say if you want that published.

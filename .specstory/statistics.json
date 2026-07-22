@@ -2,201 +2,345 @@
   "sessions": {
     "00294b3a-71cf-42d7-9fa7-8734a62643da": {
       "user_message_count": 1,
-      "agent_message_count": 11,
+      "agent_message_count": 41,
       "start_timestamp": "2026-06-20T16:39:10+08:00",
       "end_timestamp": "2026-06-20T16:39:10+08:00",
-      "markdown_size_bytes": 6617,
+      "markdown_size_bytes": 33477,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T08:39:41Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "00a1f5d9-bcff-4186-896e-819452740f39": {
-      "user_message_count": 8,
-      "agent_message_count": 180,
+      "user_message_count": 10,
+      "agent_message_count": 195,
       "start_timestamp": "2026-07-08T09:33:43+08:00",
       "end_timestamp": "2026-07-08T09:33:43+08:00",
-      "markdown_size_bytes": 155113,
+      "markdown_size_bytes": 132006,
       "provider": "cursoride",
-      "last_updated": "2026-07-08T02:16:56Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "01d453a6-6916-4b4d-b224-d0d5970a0c98": {
+      "user_message_count": 1,
+      "agent_message_count": 73,
+      "start_timestamp": "2026-06-19T16:14:49+08:00",
+      "end_timestamp": "2026-06-19T16:14:49+08:00",
+      "markdown_size_bytes": 47987,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "01e4be9c-901d-4d42-ae78-098ad796a403": {
+      "user_message_count": 6,
+      "agent_message_count": 142,
+      "start_timestamp": "2026-06-19T21:13:32+08:00",
+      "end_timestamp": "2026-06-19T21:13:32+08:00",
+      "markdown_size_bytes": 89128,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "02e6579c-5af6-4021-921f-a45e4be9199d": {
+      "user_message_count": 11,
+      "agent_message_count": 258,
+      "start_timestamp": "2026-06-19T18:06:40+08:00",
+      "end_timestamp": "2026-06-19T18:06:40+08:00",
+      "markdown_size_bytes": 111472,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "043651c8-efae-45ba-a25f-3c1357490db1": {
+      "user_message_count": 1,
+      "agent_message_count": 13,
+      "start_timestamp": "2026-07-07T22:43:08+08:00",
+      "end_timestamp": "2026-07-07T22:43:08+08:00",
+      "markdown_size_bytes": 24026,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "048a4244-7ce4-41e1-815b-3c3711cb0d5c": {
       "user_message_count": 6,
-      "agent_message_count": 104,
+      "agent_message_count": 107,
       "start_timestamp": "2026-06-22T11:05:21+08:00",
       "end_timestamp": "2026-06-22T11:05:21+08:00",
-      "markdown_size_bytes": 183548,
+      "markdown_size_bytes": 49663,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T03:15:50Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "06fd9e49-ab77-4cfb-a5e1-8e5547d155e7": {
       "user_message_count": 1,
       "agent_message_count": 20,
       "start_timestamp": "2026-07-03T07:36:54+08:00",
       "end_timestamp": "2026-07-03T07:36:54+08:00",
-      "markdown_size_bytes": 13001,
+      "markdown_size_bytes": 11479,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T23:37:45Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "0787e04c-a889-4845-b7e3-c3801c9e268b": {
       "user_message_count": 1,
       "agent_message_count": 50,
       "start_timestamp": "2026-06-20T01:43:54+08:00",
       "end_timestamp": "2026-06-20T01:43:54+08:00",
-      "markdown_size_bytes": 115212,
+      "markdown_size_bytes": 61176,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T02:38:51Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "08a9e1e5-612f-497e-8e91-6b07b8e9face": {
       "user_message_count": 3,
-      "agent_message_count": 130,
+      "agent_message_count": 192,
       "start_timestamp": "2026-06-22T17:13:43+08:00",
       "end_timestamp": "2026-06-22T17:13:43+08:00",
-      "markdown_size_bytes": 174220,
+      "markdown_size_bytes": 128243,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T09:30:11Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "09c18e75-5842-4628-a620-1d773224bfcc": {
-      "user_message_count": 2,
-      "agent_message_count": 53,
+      "user_message_count": 4,
+      "agent_message_count": 289,
       "start_timestamp": "2026-07-20T19:43:35+08:00",
       "end_timestamp": "2026-07-20T19:43:35+08:00",
-      "markdown_size_bytes": 93021,
+      "markdown_size_bytes": 195428,
       "provider": "cursoride",
-      "last_updated": "2026-07-20T11:47:12Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "0a47716d-2701-436a-a8f0-f9c1bd3bbfc8": {
       "user_message_count": 4,
       "agent_message_count": 26,
       "start_timestamp": "2026-07-06T06:53:06+08:00",
       "end_timestamp": "2026-07-06T06:53:06+08:00",
-      "markdown_size_bytes": 21368,
+      "markdown_size_bytes": 19624,
       "provider": "cursoride",
-      "last_updated": "2026-07-05T22:59:09Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "0a976260-c4be-448b-af28-2184657e84fa": {
+      "user_message_count": 1,
+      "agent_message_count": 34,
+      "start_timestamp": "2026-07-03T13:35:42+08:00",
+      "end_timestamp": "2026-07-03T13:35:42+08:00",
+      "markdown_size_bytes": 35663,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "0ac39462-1dcc-4940-9df4-cb93d345b4b2": {
+      "user_message_count": 6,
+      "agent_message_count": 163,
+      "start_timestamp": "2026-06-20T01:24:30+08:00",
+      "end_timestamp": "2026-06-20T01:24:30+08:00",
+      "markdown_size_bytes": 117076,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "0bce133e-e18b-4ae0-b0d3-baf88d863cf6": {
       "user_message_count": 1,
-      "agent_message_count": 4,
+      "agent_message_count": 24,
       "start_timestamp": "2026-07-07T17:33:10+08:00",
       "end_timestamp": "2026-07-07T17:33:10+08:00",
-      "markdown_size_bytes": 3128,
+      "markdown_size_bytes": 9115,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T09:34:10Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "0c5b3222-99e1-417e-87c3-cc0079805b28": {
       "user_message_count": 3,
-      "agent_message_count": 142,
+      "agent_message_count": 161,
       "start_timestamp": "2026-07-14T10:39:51+08:00",
       "end_timestamp": "2026-07-14T10:39:51+08:00",
-      "markdown_size_bytes": 323363,
+      "markdown_size_bytes": 162011,
       "provider": "cursoride",
-      "last_updated": "2026-07-14T02:45:47Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "0ce3911f-97f3-4661-9f56-b6e2b9a1c0a7": {
       "user_message_count": 3,
-      "agent_message_count": 49,
+      "agent_message_count": 110,
       "start_timestamp": "2026-06-28T11:27:44+08:00",
       "end_timestamp": "2026-06-28T11:27:44+08:00",
-      "markdown_size_bytes": 66992,
+      "markdown_size_bytes": 85160,
       "provider": "cursoride",
-      "last_updated": "2026-06-28T03:33:05Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "0dd3956d-8656-4501-8f2d-6b5119ed0d69": {
       "user_message_count": 3,
       "agent_message_count": 36,
       "start_timestamp": "2026-07-15T20:33:22+08:00",
       "end_timestamp": "2026-07-15T20:33:22+08:00",
-      "markdown_size_bytes": 24990,
+      "markdown_size_bytes": 22447,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T12:38:26Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "0e90fafa-3fb1-42be-877c-6b3444a9b969": {
       "user_message_count": 9,
       "agent_message_count": 150,
       "start_timestamp": "2026-07-06T12:49:08+08:00",
       "end_timestamp": "2026-07-06T12:49:08+08:00",
-      "markdown_size_bytes": 94521,
+      "markdown_size_bytes": 78460,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T05:52:08Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "0eb1b12a-147c-4a94-bbdf-c8b3a0637b8a": {
+      "user_message_count": 1,
+      "agent_message_count": 37,
+      "start_timestamp": "2026-07-02T09:02:53+08:00",
+      "end_timestamp": "2026-07-02T09:02:53+08:00",
+      "markdown_size_bytes": 39182,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "100b3f2e-f3b7-412c-b1b2-1a3df8ac565d": {
       "user_message_count": 3,
-      "agent_message_count": 32,
+      "agent_message_count": 34,
       "start_timestamp": "2026-07-09T06:19:42+08:00",
       "end_timestamp": "2026-07-09T06:19:42+08:00",
-      "markdown_size_bytes": 21670,
+      "markdown_size_bytes": 19947,
       "provider": "cursoride",
-      "last_updated": "2026-07-08T22:28:06Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "10b53a2a-5c09-4634-889d-a4be5a720744": {
+      "user_message_count": 5,
+      "agent_message_count": 198,
+      "start_timestamp": "2026-06-20T20:12:34+08:00",
+      "end_timestamp": "2026-06-20T20:12:34+08:00",
+      "markdown_size_bytes": 126703,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "10de3768-bdd3-4228-bd21-4e79b3604d0c": {
+      "user_message_count": 1,
+      "agent_message_count": 113,
+      "start_timestamp": "2026-06-18T17:23:18+08:00",
+      "end_timestamp": "2026-06-18T17:23:18+08:00",
+      "markdown_size_bytes": 61819,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "11771aa1-0f26-4ea2-9a53-94e2e5a26734": {
       "user_message_count": 1,
-      "agent_message_count": 27,
+      "agent_message_count": 61,
       "start_timestamp": "2026-07-11T07:05:15+08:00",
       "end_timestamp": "2026-07-11T07:05:15+08:00",
-      "markdown_size_bytes": 30204,
+      "markdown_size_bytes": 45158,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T23:05:49Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "15269c55-20cc-49be-b380-468abee49fba": {
       "user_message_count": 17,
       "agent_message_count": 488,
       "start_timestamp": "2026-06-27T19:19:04+08:00",
       "end_timestamp": "2026-06-27T19:19:04+08:00",
-      "markdown_size_bytes": 614419,
+      "markdown_size_bytes": 314984,
       "provider": "cursoride",
-      "last_updated": "2026-06-27T13:20:37Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "15bf0a22-5bcb-4f54-8df1-92e923620c9a": {
+      "user_message_count": 1,
+      "agent_message_count": 23,
+      "start_timestamp": "2026-06-20T21:40:00+08:00",
+      "end_timestamp": "2026-06-20T21:40:00+08:00",
+      "markdown_size_bytes": 13584,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "16c95025-307d-4051-b25a-54aedefc82af": {
+      "user_message_count": 3,
+      "agent_message_count": 96,
+      "start_timestamp": "2026-06-19T22:26:19+08:00",
+      "end_timestamp": "2026-06-19T22:26:19+08:00",
+      "markdown_size_bytes": 49678,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "1780fa4b-c7b6-4ea1-9c78-09931c465fc8": {
+      "user_message_count": 1,
+      "agent_message_count": 30,
+      "start_timestamp": "2026-07-03T14:55:32+08:00",
+      "end_timestamp": "2026-07-03T14:55:32+08:00",
+      "markdown_size_bytes": 27329,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "17dc4a3d-9e9c-4ead-a0c4-1b8e86b80801": {
       "user_message_count": 1,
-      "agent_message_count": 7,
+      "agent_message_count": 30,
       "start_timestamp": "2026-07-02T07:54:03+08:00",
       "end_timestamp": "2026-07-02T07:54:03+08:00",
-      "markdown_size_bytes": 7165,
+      "markdown_size_bytes": 18622,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T23:54:49Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "1846fd6a-556b-4942-8012-103b5a06e739": {
+      "user_message_count": 3,
+      "agent_message_count": 133,
+      "start_timestamp": "2026-06-19T17:15:28+08:00",
+      "end_timestamp": "2026-06-19T17:15:28+08:00",
+      "markdown_size_bytes": 73563,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "188d4644-b6ca-42d0-9ba9-d47e75bdadf9": {
+      "user_message_count": 1,
+      "agent_message_count": 66,
+      "start_timestamp": "2026-06-20T18:01:35+08:00",
+      "end_timestamp": "2026-06-20T18:01:35+08:00",
+      "markdown_size_bytes": 43813,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "199655fd-c74c-47f7-a107-a0b86a9006cb": {
       "user_message_count": 2,
       "agent_message_count": 25,
       "start_timestamp": "2026-07-03T07:17:22+08:00",
       "end_timestamp": "2026-07-03T07:17:22+08:00",
-      "markdown_size_bytes": 24440,
+      "markdown_size_bytes": 22187,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T23:19:49Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "19a71101-05a5-45aa-be47-01887ce3e03b": {
       "user_message_count": 4,
       "agent_message_count": 72,
       "start_timestamp": "2026-07-20T08:38:04+08:00",
       "end_timestamp": "2026-07-20T08:38:04+08:00",
-      "markdown_size_bytes": 50284,
+      "markdown_size_bytes": 34228,
       "provider": "cursoride",
-      "last_updated": "2026-07-20T00:43:40Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "19ce5f5a-5606-4779-a23d-6652a4ea33bf": {
       "user_message_count": 2,
-      "agent_message_count": 67,
+      "agent_message_count": 73,
       "start_timestamp": "2026-07-12T17:20:42+08:00",
       "end_timestamp": "2026-07-12T17:20:42+08:00",
-      "markdown_size_bytes": 96920,
+      "markdown_size_bytes": 78056,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T09:24:22Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "1a1152c9-5712-49d6-b737-3ddda2897be5": {
       "user_message_count": 5,
       "agent_message_count": 79,
       "start_timestamp": "2026-07-12T08:03:01+08:00",
       "end_timestamp": "2026-07-12T08:03:01+08:00",
-      "markdown_size_bytes": 45319,
+      "markdown_size_bytes": 39596,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T09:09:40Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "1a52e3b5-7af2-4077-aec7-c9ae3ace5385": {
       "user_message_count": 3,
-      "agent_message_count": 64,
+      "agent_message_count": 89,
       "start_timestamp": "2026-07-17T08:59:48+08:00",
       "end_timestamp": "2026-07-17T08:59:48+08:00",
-      "markdown_size_bytes": 64068,
+      "markdown_size_bytes": 69341,
       "provider": "cursoride",
-      "last_updated": "2026-07-17T01:04:33Z"
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "1a887e5c-ad07-4a00-8c4f-ab31cb98ef41": {
+      "user_message_count": 1,
+      "agent_message_count": 26,
+      "start_timestamp": "2026-06-19T20:28:17+08:00",
+      "end_timestamp": "2026-06-19T20:28:17+08:00",
+      "markdown_size_bytes": 23419,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "1b23c736-0896-4691-b983-6a7b2e2f5219": {
+      "user_message_count": 1,
+      "agent_message_count": 86,
+      "start_timestamp": "2026-07-02T21:21:05+08:00",
+      "end_timestamp": "2026-07-02T21:21:05+08:00",
+      "markdown_size_bytes": 86938,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "1b78c27a-9d12-4ba5-9264-376ba7cae59a": {
       "user_message_count": 1,
@@ -209,21 +353,30 @@
     },
     "1c989e55-020d-4d44-850f-e307fb09bef9": {
       "user_message_count": 1,
-      "agent_message_count": 6,
+      "agent_message_count": 59,
       "start_timestamp": "2026-07-05T22:39:40+08:00",
       "end_timestamp": "2026-07-05T22:39:40+08:00",
-      "markdown_size_bytes": 90829,
+      "markdown_size_bytes": 48733,
       "provider": "cursoride",
-      "last_updated": "2026-07-05T14:40:36Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "1cb0f607-b572-4ebc-8d2e-ef9b8e4997c6": {
       "user_message_count": 1,
-      "agent_message_count": 12,
+      "agent_message_count": 43,
       "start_timestamp": "2026-07-01T12:00:53+08:00",
       "end_timestamp": "2026-07-01T12:00:53+08:00",
-      "markdown_size_bytes": 8157,
+      "markdown_size_bytes": 94407,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T04:02:13Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "1dc7c3e9-491c-4eea-9d93-960fbd3714ff": {
+      "user_message_count": 1,
+      "agent_message_count": 40,
+      "start_timestamp": "2026-06-22T15:39:29+08:00",
+      "end_timestamp": "2026-06-22T15:39:29+08:00",
+      "markdown_size_bytes": 27343,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "1e9eddb5-1743-41fa-8ec6-8396b4d25c94": {
       "user_message_count": 1,
@@ -234,14 +387,41 @@
       "provider": "cursoride",
       "last_updated": "2026-06-21T05:10:15Z"
     },
+    "201887bd-8679-44f9-8b25-48645d509af2": {
+      "user_message_count": 1,
+      "agent_message_count": 29,
+      "start_timestamp": "2026-06-23T23:05:02+08:00",
+      "end_timestamp": "2026-06-23T23:05:02+08:00",
+      "markdown_size_bytes": 44459,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "20243a5e-3533-4ee2-b359-36babf080ebc": {
+      "user_message_count": 1,
+      "agent_message_count": 22,
+      "start_timestamp": "2026-06-18T15:34:58+08:00",
+      "end_timestamp": "2026-06-18T15:34:58+08:00",
+      "markdown_size_bytes": 11802,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "220ab959-5c90-47d0-979a-f2dc446dd9e3": {
+      "user_message_count": 1,
+      "agent_message_count": 98,
+      "start_timestamp": "2026-06-22T23:25:07+08:00",
+      "end_timestamp": "2026-06-22T23:25:07+08:00",
+      "markdown_size_bytes": 34743,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
     "23a9e32d-1aa5-44fa-a06f-3bd5e8d0d9f2": {
       "user_message_count": 1,
-      "agent_message_count": 12,
+      "agent_message_count": 25,
       "start_timestamp": "2026-07-13T23:14:13+08:00",
       "end_timestamp": "2026-07-13T23:14:13+08:00",
-      "markdown_size_bytes": 7457,
+      "markdown_size_bytes": 13524,
       "provider": "cursoride",
-      "last_updated": "2026-07-13T15:15:14Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "23e8d64d-3896-4f0e-aa3f-e5b29b53c0c4": {
       "user_message_count": 15,
@@ -257,90 +437,108 @@
       "agent_message_count": 15,
       "start_timestamp": "2026-07-10T23:22:21+08:00",
       "end_timestamp": "2026-07-10T23:22:21+08:00",
-      "markdown_size_bytes": 7292,
+      "markdown_size_bytes": 6250,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T23:03:52Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "25df1e0d-69e8-42ad-ac88-6160c30d580a": {
       "user_message_count": 1,
-      "agent_message_count": 17,
+      "agent_message_count": 25,
       "start_timestamp": "2026-07-07T17:45:16+08:00",
       "end_timestamp": "2026-07-07T17:45:16+08:00",
-      "markdown_size_bytes": 11424,
+      "markdown_size_bytes": 12670,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T09:46:12Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "25f52012-729e-4ec0-9602-c38ca37c796f": {
+      "user_message_count": 1,
+      "agent_message_count": 103,
+      "start_timestamp": "2026-06-22T23:25:09+08:00",
+      "end_timestamp": "2026-06-22T23:25:09+08:00",
+      "markdown_size_bytes": 42184,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "25f6a3ef-fb3d-45c7-a22e-48dcc1c02207": {
       "user_message_count": 1,
-      "agent_message_count": 0,
+      "agent_message_count": 20,
       "start_timestamp": "2026-04-22T09:48:18+08:00",
       "end_timestamp": "1970-01-01T08:00:00+08:00",
-      "markdown_size_bytes": 254,
+      "markdown_size_bytes": 34334,
       "provider": "copilotide",
-      "last_updated": "2026-07-20T00:59:47Z"
+      "last_updated": "2026-07-22T12:10:08Z"
+    },
+    "28783568-ee8b-4257-9570-253c8dcd4c6c": {
+      "user_message_count": 1,
+      "agent_message_count": 22,
+      "start_timestamp": "2026-06-18T15:46:40+08:00",
+      "end_timestamp": "2026-06-18T15:46:40+08:00",
+      "markdown_size_bytes": 21894,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "28b9ddc9-6da1-4351-a446-5c8f9946af4b": {
-      "user_message_count": 9,
-      "agent_message_count": 138,
+      "user_message_count": 10,
+      "agent_message_count": 143,
       "start_timestamp": "2026-06-28T08:07:52+08:00",
       "end_timestamp": "2026-06-28T08:07:52+08:00",
-      "markdown_size_bytes": 304794,
+      "markdown_size_bytes": 217038,
       "provider": "cursoride",
-      "last_updated": "2026-06-28T00:37:57Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "28f662ba-02a2-417f-b914-bf49ae079807": {
       "user_message_count": 9,
-      "agent_message_count": 176,
+      "agent_message_count": 204,
       "start_timestamp": "2026-07-07T12:31:58+08:00",
       "end_timestamp": "2026-07-07T12:31:58+08:00",
-      "markdown_size_bytes": 163277,
+      "markdown_size_bytes": 159972,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T05:08:29Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "294bc83e-502d-4d09-9c73-701fbc16453f": {
       "user_message_count": 1,
       "agent_message_count": 74,
       "start_timestamp": "2026-07-17T09:21:44+08:00",
       "end_timestamp": "2026-07-17T09:21:44+08:00",
-      "markdown_size_bytes": 69663,
+      "markdown_size_bytes": 62052,
       "provider": "cursoride",
-      "last_updated": "2026-07-19T12:30:01Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "2a49d88b-d203-4708-9f2a-1a46918737ce": {
       "user_message_count": 5,
-      "agent_message_count": 188,
+      "agent_message_count": 258,
       "start_timestamp": "2026-06-20T22:34:50+08:00",
       "end_timestamp": "2026-06-20T22:34:50+08:00",
-      "markdown_size_bytes": 217896,
+      "markdown_size_bytes": 197529,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T14:54:38Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "2a622e2b-75ba-4c82-8981-779a26568d84": {
-      "user_message_count": 4,
-      "agent_message_count": 278,
+      "user_message_count": 5,
+      "agent_message_count": 339,
       "start_timestamp": "2026-07-06T16:37:14+08:00",
       "end_timestamp": "2026-07-06T16:37:14+08:00",
-      "markdown_size_bytes": 674634,
+      "markdown_size_bytes": 381269,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T09:34:29Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "2b6a277e-45cd-47c8-b312-b91ebcf300ba": {
       "user_message_count": 1,
-      "agent_message_count": 9,
+      "agent_message_count": 69,
       "start_timestamp": "2026-07-10T22:08:35+08:00",
       "end_timestamp": "2026-07-10T22:08:35+08:00",
-      "markdown_size_bytes": 17073,
+      "markdown_size_bytes": 57018,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T14:09:10Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "2c302d9c-4c6a-4a52-9f8d-7b8fa8172572": {
       "user_message_count": 7,
-      "agent_message_count": 155,
+      "agent_message_count": 180,
       "start_timestamp": "2026-07-02T07:46:47+08:00",
       "end_timestamp": "2026-07-02T07:46:47+08:00",
-      "markdown_size_bytes": 128042,
+      "markdown_size_bytes": 126297,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T00:05:15Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "2cbc3e11-6937-41a0-ad76-0ad986b693ad": {
       "user_message_count": 1,
@@ -353,30 +551,39 @@
     },
     "2d26485b-e83c-4796-b22e-dbb8bb78fdab": {
       "user_message_count": 1,
-      "agent_message_count": 14,
+      "agent_message_count": 107,
       "start_timestamp": "2026-07-10T00:04:56+08:00",
       "end_timestamp": "2026-07-10T00:04:56+08:00",
-      "markdown_size_bytes": 30119,
+      "markdown_size_bytes": 87846,
       "provider": "cursoride",
-      "last_updated": "2026-07-09T16:06:27Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "2e0f4e3b-f32b-4049-afd8-a6c9b1da86f3": {
       "user_message_count": 1,
-      "agent_message_count": 15,
+      "agent_message_count": 85,
       "start_timestamp": "2026-06-20T18:34:58+08:00",
       "end_timestamp": "2026-06-20T18:34:58+08:00",
-      "markdown_size_bytes": 150079,
+      "markdown_size_bytes": 52833,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T10:35:41Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "2e18a2f7-b37c-407a-a201-9a26da8eb7af": {
+      "user_message_count": 5,
+      "agent_message_count": 184,
+      "start_timestamp": "2026-06-20T01:01:20+08:00",
+      "end_timestamp": "2026-06-20T01:01:20+08:00",
+      "markdown_size_bytes": 106672,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "2e60c622-1576-4b74-a02f-92a901ad4412": {
       "user_message_count": 3,
       "agent_message_count": 125,
       "start_timestamp": "2026-06-24T19:34:53+08:00",
       "end_timestamp": "2026-06-24T19:34:53+08:00",
-      "markdown_size_bytes": 587417,
+      "markdown_size_bytes": 246224,
       "provider": "cursoride",
-      "last_updated": "2026-06-27T10:39:04Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "2e7893e4-8589-47af-8342-ab67e4703f06": {
       "user_message_count": 2,
@@ -389,66 +596,75 @@
     },
     "2ebcb09d-610f-49be-9e2c-7cbc3cc4fdfe": {
       "user_message_count": 1,
-      "agent_message_count": 13,
+      "agent_message_count": 43,
       "start_timestamp": "2026-07-10T12:54:45+08:00",
       "end_timestamp": "2026-07-10T12:54:45+08:00",
-      "markdown_size_bytes": 24946,
+      "markdown_size_bytes": 46277,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T04:55:22Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "2efe0d9c-0c84-403f-9dc2-0f1c343fcbbe": {
       "user_message_count": 2,
-      "agent_message_count": 28,
+      "agent_message_count": 38,
       "start_timestamp": "2026-07-14T12:29:10+08:00",
       "end_timestamp": "2026-07-14T12:29:10+08:00",
-      "markdown_size_bytes": 38285,
+      "markdown_size_bytes": 28486,
       "provider": "cursoride",
-      "last_updated": "2026-07-14T04:32:22Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "2f31c335-99ee-452c-88cd-00b8c9a9e04f": {
       "user_message_count": 2,
       "agent_message_count": 62,
       "start_timestamp": "2026-06-20T22:06:30+08:00",
       "end_timestamp": "2026-06-20T22:06:30+08:00",
-      "markdown_size_bytes": 168997,
+      "markdown_size_bytes": 57792,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T14:13:38Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "3023176f-3b68-49bb-bb40-0bd9244dd0b2": {
       "user_message_count": 4,
-      "agent_message_count": 140,
+      "agent_message_count": 224,
       "start_timestamp": "2026-06-30T12:43:36+08:00",
       "end_timestamp": "2026-06-30T12:43:36+08:00",
-      "markdown_size_bytes": 228079,
+      "markdown_size_bytes": 190532,
       "provider": "cursoride",
-      "last_updated": "2026-06-30T04:57:34Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "309cf49b-4b15-4b1b-b221-e366cc903316": {
       "user_message_count": 4,
-      "agent_message_count": 81,
+      "agent_message_count": 114,
       "start_timestamp": "2026-07-14T10:22:11+08:00",
       "end_timestamp": "2026-07-14T10:22:11+08:00",
-      "markdown_size_bytes": 40554,
+      "markdown_size_bytes": 50725,
       "provider": "cursoride",
-      "last_updated": "2026-07-14T02:37:53Z"
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "320cab65-3b17-415d-bbeb-330532f3c8bc": {
+      "user_message_count": 1,
+      "agent_message_count": 29,
+      "start_timestamp": "2026-06-20T00:38:10+08:00",
+      "end_timestamp": "2026-06-20T00:38:10+08:00",
+      "markdown_size_bytes": 34046,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "33510c50-289b-4e90-a983-c3baa20ae627": {
       "user_message_count": 5,
-      "agent_message_count": 198,
+      "agent_message_count": 207,
       "start_timestamp": "2026-06-20T10:55:39+08:00",
       "end_timestamp": "2026-06-20T10:55:39+08:00",
-      "markdown_size_bytes": 182238,
+      "markdown_size_bytes": 106625,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T03:22:41Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "34ce6413-fd9f-4a7c-bb75-f4a9b6da5140": {
       "user_message_count": 1,
-      "agent_message_count": 17,
+      "agent_message_count": 93,
       "start_timestamp": "2026-06-21T01:18:55+08:00",
       "end_timestamp": "2026-06-21T01:18:55+08:00",
-      "markdown_size_bytes": 172107,
+      "markdown_size_bytes": 51795,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T17:20:50Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "35514918-0b17-441c-b263-6f2e9b20eb92": {
       "user_message_count": 4,
@@ -461,543 +677,786 @@
     },
     "355963b7-eb02-4652-ac12-378e85fb7197": {
       "user_message_count": 1,
-      "agent_message_count": 16,
+      "agent_message_count": 29,
       "start_timestamp": "2026-07-03T17:28:09+08:00",
       "end_timestamp": "2026-07-03T17:28:09+08:00",
-      "markdown_size_bytes": 11662,
+      "markdown_size_bytes": 16620,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T09:28:59Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "36751108-02db-431d-8e4c-1bee9c1e8fb8": {
       "user_message_count": 2,
       "agent_message_count": 124,
       "start_timestamp": "2026-07-03T19:30:08+08:00",
       "end_timestamp": "2026-07-03T19:30:08+08:00",
-      "markdown_size_bytes": 260928,
+      "markdown_size_bytes": 67596,
       "provider": "cursoride",
-      "last_updated": "2026-07-05T14:20:59Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "38843bca-27f5-47bb-a391-f701c2dfa686": {
       "user_message_count": 4,
-      "agent_message_count": 49,
+      "agent_message_count": 101,
       "start_timestamp": "2026-07-02T20:41:13+08:00",
       "end_timestamp": "2026-07-02T20:41:13+08:00",
-      "markdown_size_bytes": 51317,
+      "markdown_size_bytes": 85956,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T12:49:24Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "39a7602c-c3f1-485e-9936-d4a2d75f6879": {
       "user_message_count": 1,
-      "agent_message_count": 4,
+      "agent_message_count": 13,
       "start_timestamp": "2026-07-02T20:56:54+08:00",
       "end_timestamp": "2026-07-02T20:56:54+08:00",
-      "markdown_size_bytes": 1851,
+      "markdown_size_bytes": 5948,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T12:57:31Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "39b406e1-5794-47ca-8c08-1b38b73cc8f5": {
       "user_message_count": 3,
-      "agent_message_count": 116,
+      "agent_message_count": 174,
       "start_timestamp": "2026-07-02T08:03:14+08:00",
       "end_timestamp": "2026-07-02T08:03:14+08:00",
-      "markdown_size_bytes": 114984,
+      "markdown_size_bytes": 127706,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T00:11:53Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "3a2d7b1a-a577-47f0-b165-ada9cb42eccb": {
+      "user_message_count": 3,
+      "agent_message_count": 123,
+      "start_timestamp": "2026-06-18T15:59:09+08:00",
+      "end_timestamp": "2026-06-18T15:59:09+08:00",
+      "markdown_size_bytes": 74234,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "3a3865b9-b95f-44aa-a4ff-a7df1595508c": {
+      "user_message_count": 1,
+      "agent_message_count": 55,
+      "start_timestamp": "2026-07-03T14:55:32+08:00",
+      "end_timestamp": "2026-07-03T14:55:32+08:00",
+      "markdown_size_bytes": 53465,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "3a692142-7368-4094-aca0-c85ca2fcb99c": {
       "user_message_count": 1,
-      "agent_message_count": 28,
+      "agent_message_count": 75,
       "start_timestamp": "2026-06-30T12:47:08+08:00",
       "end_timestamp": "2026-06-30T12:47:08+08:00",
-      "markdown_size_bytes": 25395,
+      "markdown_size_bytes": 42716,
       "provider": "cursoride",
-      "last_updated": "2026-06-30T04:48:08Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "3d9563b6-1087-4d00-81b9-83216b2568a7": {
+      "user_message_count": 1,
+      "agent_message_count": 80,
+      "start_timestamp": "2026-06-22T15:39:25+08:00",
+      "end_timestamp": "2026-06-22T15:39:25+08:00",
+      "markdown_size_bytes": 52828,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "3df7f859-8bf5-4ba9-925e-9bcdcc7d260e": {
+      "user_message_count": 2,
+      "agent_message_count": 74,
+      "start_timestamp": "2026-06-19T16:24:40+08:00",
+      "end_timestamp": "2026-06-19T16:24:40+08:00",
+      "markdown_size_bytes": 72590,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "3e52393c-815a-4feb-8f06-c434c5582ae7": {
       "user_message_count": 31,
       "agent_message_count": 667,
       "start_timestamp": "2026-06-20T22:57:19+08:00",
       "end_timestamp": "2026-06-20T22:57:19+08:00",
-      "markdown_size_bytes": 504720,
+      "markdown_size_bytes": 415069,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T17:12:50Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "3f75837c-6943-4cd7-80c4-f7b12944cd9a": {
       "user_message_count": 1,
-      "agent_message_count": 5,
+      "agent_message_count": 23,
       "start_timestamp": "2026-07-06T14:53:14+08:00",
       "end_timestamp": "2026-07-06T14:53:14+08:00",
-      "markdown_size_bytes": 3754,
+      "markdown_size_bytes": 29748,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T06:53:47Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "3fb96325-47b2-40b5-b5d0-ec217e63f010": {
       "user_message_count": 42,
       "agent_message_count": 635,
       "start_timestamp": "2026-06-27T18:39:09+08:00",
       "end_timestamp": "2026-06-27T18:39:09+08:00",
-      "markdown_size_bytes": 1145129,
+      "markdown_size_bytes": 397048,
       "provider": "cursoride",
-      "last_updated": "2026-06-27T12:28:13Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "43587c8f-eed8-453b-8e7b-c211115e0c61": {
       "user_message_count": 1,
       "agent_message_count": 28,
       "start_timestamp": "2026-07-03T19:30:03+08:00",
       "end_timestamp": "2026-07-03T19:30:03+08:00",
-      "markdown_size_bytes": 23313,
+      "markdown_size_bytes": 20750,
       "provider": "cursoride",
-      "last_updated": "2026-07-05T14:20:59Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "43801291-2a81-46bc-93ea-cc7f1671e916": {
-      "user_message_count": 2,
-      "agent_message_count": 57,
+      "user_message_count": 5,
+      "agent_message_count": 231,
       "start_timestamp": "2026-07-03T17:33:35+08:00",
       "end_timestamp": "2026-07-03T17:33:35+08:00",
-      "markdown_size_bytes": 35632,
+      "markdown_size_bytes": 102031,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T09:39:27Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "440ae52f-d055-4dfa-8b0f-89ad2f4c82f4": {
       "user_message_count": 1,
-      "agent_message_count": 12,
+      "agent_message_count": 23,
       "start_timestamp": "2026-07-12T07:00:55+08:00",
       "end_timestamp": "2026-07-12T07:00:55+08:00",
-      "markdown_size_bytes": 28037,
+      "markdown_size_bytes": 13640,
       "provider": "cursoride",
-      "last_updated": "2026-07-11T23:01:47Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "442ac059-de78-4aff-93f2-adcf0d4871ca": {
+      "user_message_count": 2,
+      "agent_message_count": 94,
+      "start_timestamp": "2026-06-19T10:28:04+08:00",
+      "end_timestamp": "2026-06-19T10:28:04+08:00",
+      "markdown_size_bytes": 56776,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "44809722-1f26-4662-96db-74a25896c6bc": {
       "user_message_count": 11,
       "agent_message_count": 405,
       "start_timestamp": "2026-06-29T01:06:25+08:00",
       "end_timestamp": "2026-06-29T01:06:25+08:00",
-      "markdown_size_bytes": 284164,
+      "markdown_size_bytes": 231081,
       "provider": "cursoride",
-      "last_updated": "2026-06-29T00:47:33Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "44ba3a1f-2832-494d-9273-1568f4459173": {
+      "user_message_count": 5,
+      "agent_message_count": 188,
+      "start_timestamp": "2026-06-19T23:34:35+08:00",
+      "end_timestamp": "2026-06-19T23:34:35+08:00",
+      "markdown_size_bytes": 236612,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "4517f99b-57a8-405e-8d06-2755d8092e7b": {
       "user_message_count": 1,
-      "agent_message_count": 10,
+      "agent_message_count": 12,
       "start_timestamp": "2026-07-06T15:02:15+08:00",
       "end_timestamp": "2026-07-06T15:02:15+08:00",
-      "markdown_size_bytes": 168042,
+      "markdown_size_bytes": 6476,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T07:03:15Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "4558c680-dc1c-416d-afd8-668cb55c06ca": {
-      "user_message_count": 1,
-      "agent_message_count": 9,
+      "user_message_count": 3,
+      "agent_message_count": 144,
       "start_timestamp": "2026-07-08T10:18:55+08:00",
       "end_timestamp": "2026-07-08T10:18:55+08:00",
-      "markdown_size_bytes": 6279,
+      "markdown_size_bytes": 104213,
       "provider": "cursoride",
-      "last_updated": "2026-07-08T02:19:56Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "45b8d339-715c-41b1-9f43-d4fb779bc1d3": {
+      "user_message_count": 1,
+      "agent_message_count": 114,
+      "start_timestamp": "2026-07-10T14:19:41+08:00",
+      "end_timestamp": "2026-07-10T14:19:41+08:00",
+      "markdown_size_bytes": 95865,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "4636117f-ab17-463e-a26b-8de4f0cae5a7": {
       "user_message_count": 5,
       "agent_message_count": 135,
       "start_timestamp": "2026-06-22T23:46:06+08:00",
       "end_timestamp": "2026-06-22T23:46:06+08:00",
-      "markdown_size_bytes": 106985,
+      "markdown_size_bytes": 91578,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T16:14:10Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "478f3897-872d-48c3-861f-f1f8b0606ad8": {
       "user_message_count": 1,
-      "agent_message_count": 10,
+      "agent_message_count": 104,
       "start_timestamp": "2026-07-05T22:27:37+08:00",
       "end_timestamp": "2026-07-05T22:27:37+08:00",
-      "markdown_size_bytes": 14950,
+      "markdown_size_bytes": 64467,
       "provider": "cursoride",
-      "last_updated": "2026-07-05T14:28:03Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "48017628-215e-4ee7-b921-3ae0e1bbf4bb": {
       "user_message_count": 4,
-      "agent_message_count": 120,
+      "agent_message_count": 133,
       "start_timestamp": "2026-07-06T14:57:50+08:00",
       "end_timestamp": "2026-07-06T14:57:50+08:00",
-      "markdown_size_bytes": 260295,
+      "markdown_size_bytes": 279241,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T07:19:51Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "49603d0a-2402-412b-b9bd-60fed4f2d2f3": {
+      "user_message_count": 1,
+      "agent_message_count": 64,
+      "start_timestamp": "2026-07-20T19:48:58+08:00",
+      "end_timestamp": "2026-07-20T19:48:58+08:00",
+      "markdown_size_bytes": 28152,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "4a638594-aa02-4151-be4f-1688ec005f92": {
       "user_message_count": 10,
-      "agent_message_count": 353,
+      "agent_message_count": 358,
       "start_timestamp": "2026-07-03T09:49:12+08:00",
       "end_timestamp": "2026-07-03T09:49:12+08:00",
-      "markdown_size_bytes": 339109,
+      "markdown_size_bytes": 245822,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T02:37:27Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "4a87acec-055d-427e-af32-a29a92c9c0f7": {
       "user_message_count": 7,
-      "agent_message_count": 23,
+      "agent_message_count": 43,
       "start_timestamp": "2026-07-20T19:15:29+08:00",
       "end_timestamp": "2026-07-20T19:15:29+08:00",
-      "markdown_size_bytes": 40781,
+      "markdown_size_bytes": 47778,
       "provider": "cursoride",
-      "last_updated": "2026-07-20T11:27:29Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "4a9cf799-fbad-43ae-a93b-9fbbbf8d5851": {
+      "user_message_count": 1,
+      "agent_message_count": 84,
+      "start_timestamp": "2026-07-07T22:34:07+08:00",
+      "end_timestamp": "2026-07-07T22:34:07+08:00",
+      "markdown_size_bytes": 103188,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "4b88bf6b-558b-4c4c-a6ce-cf15f46c8bf3": {
       "user_message_count": 2,
-      "agent_message_count": 66,
+      "agent_message_count": 69,
       "start_timestamp": "2026-06-22T15:06:09+08:00",
       "end_timestamp": "2026-06-22T15:06:09+08:00",
-      "markdown_size_bytes": 187888,
+      "markdown_size_bytes": 64270,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T07:16:07Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "4b96bccf-7c0b-408f-abd1-697a067e2035": {
+      "user_message_count": 1,
+      "agent_message_count": 33,
+      "start_timestamp": "2026-07-02T09:03:05+08:00",
+      "end_timestamp": "2026-07-02T09:03:05+08:00",
+      "markdown_size_bytes": 42256,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "4beb3087-0f6d-4feb-8fe1-a16dcdf4745f": {
+      "user_message_count": 1,
+      "agent_message_count": 79,
+      "start_timestamp": "2026-07-02T08:21:54+08:00",
+      "end_timestamp": "2026-07-02T08:21:54+08:00",
+      "markdown_size_bytes": 50919,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "4c1d357f-38dd-4fa1-8b00-b88050bdcee5": {
       "user_message_count": 6,
-      "agent_message_count": 224,
+      "agent_message_count": 407,
       "start_timestamp": "2026-07-19T20:29:48+08:00",
       "end_timestamp": "2026-07-19T20:29:48+08:00",
-      "markdown_size_bytes": 217772,
+      "markdown_size_bytes": 300451,
       "provider": "cursoride",
-      "last_updated": "2026-07-19T12:44:17Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "4c269125-e9cc-453f-a12d-f8af73e46626": {
       "user_message_count": 1,
       "agent_message_count": 41,
       "start_timestamp": "2026-07-17T09:19:16+08:00",
       "end_timestamp": "2026-07-17T09:19:16+08:00",
-      "markdown_size_bytes": 42154,
+      "markdown_size_bytes": 37611,
       "provider": "cursoride",
-      "last_updated": "2026-07-19T12:30:01Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "4e384b4d-bb55-4d8c-9c31-db15fbabd939": {
-      "user_message_count": 3,
-      "agent_message_count": 54,
+      "user_message_count": 6,
+      "agent_message_count": 183,
       "start_timestamp": "2026-07-09T22:07:18+08:00",
       "end_timestamp": "2026-07-09T22:07:18+08:00",
-      "markdown_size_bytes": 100460,
+      "markdown_size_bytes": 163650,
       "provider": "cursoride",
-      "last_updated": "2026-07-09T14:18:15Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "50b42026-e140-4e9c-a4a1-1d14755c640b": {
+      "user_message_count": 1,
+      "agent_message_count": 85,
+      "start_timestamp": "2026-07-02T15:20:25+08:00",
+      "end_timestamp": "2026-07-02T15:20:25+08:00",
+      "markdown_size_bytes": 37867,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "510b46dc-14ae-46c7-9c74-a5a043b28afc": {
+      "user_message_count": 1,
+      "agent_message_count": 48,
+      "start_timestamp": "2026-07-02T15:20:32+08:00",
+      "end_timestamp": "2026-07-02T15:20:32+08:00",
+      "markdown_size_bytes": 20349,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "514d6f5e-e8c1-4121-b7a3-084d6f2bf455": {
       "user_message_count": 2,
-      "agent_message_count": 40,
+      "agent_message_count": 53,
       "start_timestamp": "2026-07-10T13:47:02+08:00",
       "end_timestamp": "2026-07-10T13:47:02+08:00",
-      "markdown_size_bytes": 31673,
+      "markdown_size_bytes": 35784,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T05:51:25Z"
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "51ead8a9-9d45-4042-9e14-bbe95f6367a7": {
+      "user_message_count": 1,
+      "agent_message_count": 22,
+      "start_timestamp": "2026-06-20T00:42:37+08:00",
+      "end_timestamp": "2026-06-20T00:42:37+08:00",
+      "markdown_size_bytes": 17605,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "52835174-a02c-46ed-bdf6-df08dbb81338": {
-      "user_message_count": 1,
-      "agent_message_count": 12,
+      "user_message_count": 3,
+      "agent_message_count": 377,
       "start_timestamp": "2026-07-03T11:10:34+08:00",
       "end_timestamp": "2026-07-03T11:10:34+08:00",
-      "markdown_size_bytes": 21227,
+      "markdown_size_bytes": 352743,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T03:11:21Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "52f792d6-49e0-40ad-b2bb-86a74c1400a3": {
-      "user_message_count": 4,
-      "agent_message_count": 96,
+      "user_message_count": 5,
+      "agent_message_count": 225,
       "start_timestamp": "2026-06-20T11:54:22+08:00",
       "end_timestamp": "2026-06-20T11:54:22+08:00",
-      "markdown_size_bytes": 90319,
+      "markdown_size_bytes": 160184,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T04:27:13Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "5371b1b8-6e41-483e-87d9-3330a40f977c": {
       "user_message_count": 2,
-      "agent_message_count": 55,
+      "agent_message_count": 111,
       "start_timestamp": "2026-07-06T20:28:50+08:00",
       "end_timestamp": "2026-07-06T20:28:50+08:00",
-      "markdown_size_bytes": 77511,
+      "markdown_size_bytes": 91512,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T12:50:04Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "54c7af68-991d-4cc2-a759-23ec1369f19b": {
       "user_message_count": 3,
-      "agent_message_count": 72,
+      "agent_message_count": 74,
       "start_timestamp": "2026-07-02T17:22:01+08:00",
       "end_timestamp": "2026-07-02T17:22:01+08:00",
-      "markdown_size_bytes": 77922,
+      "markdown_size_bytes": 59788,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T09:37:53Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "56025e28-57f6-4bba-83ea-d8b874e1805e": {
+      "user_message_count": 1,
+      "agent_message_count": 11,
+      "start_timestamp": "2026-06-19T15:26:40+08:00",
+      "end_timestamp": "2026-06-19T15:26:40+08:00",
+      "markdown_size_bytes": 5005,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "58a38724-357e-4f56-9bc4-2ce9fe31ef42": {
       "user_message_count": 8,
-      "agent_message_count": 99,
+      "agent_message_count": 158,
       "start_timestamp": "2026-07-14T09:28:26+08:00",
       "end_timestamp": "2026-07-14T09:28:26+08:00",
-      "markdown_size_bytes": 100668,
+      "markdown_size_bytes": 107547,
       "provider": "cursoride",
-      "last_updated": "2026-07-14T01:57:53Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "58d9ac1f-ee57-4abd-8608-d648a02f6dad": {
       "user_message_count": 2,
-      "agent_message_count": 56,
+      "agent_message_count": 94,
       "start_timestamp": "2026-07-03T07:31:15+08:00",
       "end_timestamp": "2026-07-03T07:31:15+08:00",
-      "markdown_size_bytes": 45493,
+      "markdown_size_bytes": 67930,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T23:35:44Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "5a0d8079-82e0-45d9-9010-0ba17f8bdf51": {
       "user_message_count": 9,
-      "agent_message_count": 183,
+      "agent_message_count": 237,
       "start_timestamp": "2026-06-20T17:15:01+08:00",
       "end_timestamp": "2026-06-20T17:15:01+08:00",
-      "markdown_size_bytes": 273301,
+      "markdown_size_bytes": 137384,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T09:29:39Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "5aab0048-8a5a-4ca8-8dfb-1cdef029798f": {
+      "user_message_count": 6,
+      "agent_message_count": 260,
+      "start_timestamp": "2026-06-19T18:33:08+08:00",
+      "end_timestamp": "2026-06-19T18:33:08+08:00",
+      "markdown_size_bytes": 217538,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "5ad513c5-5094-4a98-af57-c20fd466029f": {
       "user_message_count": 2,
       "agent_message_count": 30,
       "start_timestamp": "2026-07-19T21:09:48+08:00",
       "end_timestamp": "2026-07-19T21:09:48+08:00",
-      "markdown_size_bytes": 24297,
+      "markdown_size_bytes": 21525,
       "provider": "cursoride",
-      "last_updated": "2026-07-20T00:16:21Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "5c485dac-732c-48d9-ac3b-e0774d0ce641": {
+      "user_message_count": 1,
+      "agent_message_count": 110,
+      "start_timestamp": "2026-06-22T23:25:02+08:00",
+      "end_timestamp": "2026-06-22T23:25:02+08:00",
+      "markdown_size_bytes": 38713,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "5d8a49b9-2797-4261-b8c0-151c131e70e3": {
       "user_message_count": 4,
-      "agent_message_count": 129,
+      "agent_message_count": 190,
       "start_timestamp": "2026-07-02T08:08:55+08:00",
       "end_timestamp": "2026-07-02T08:08:55+08:00",
-      "markdown_size_bytes": 217220,
+      "markdown_size_bytes": 220895,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T00:23:00Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "5e70dbc9-8cf4-4ef6-98bb-60da0af38478": {
       "user_message_count": 1,
       "agent_message_count": 7,
       "start_timestamp": "2026-07-01T23:04:28+08:00",
       "end_timestamp": "2026-07-01T23:04:28+08:00",
-      "markdown_size_bytes": 22387,
+      "markdown_size_bytes": 9711,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T15:05:31Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "5ead7529-660f-46fb-893e-c0e3b1d37108": {
       "user_message_count": 2,
-      "agent_message_count": 26,
+      "agent_message_count": 84,
       "start_timestamp": "2026-06-22T15:26:03+08:00",
       "end_timestamp": "2026-06-22T15:26:03+08:00",
-      "markdown_size_bytes": 102411,
+      "markdown_size_bytes": 88615,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T07:36:33Z"
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "5f7f5696-7ba7-457b-8bb1-a73f1afab381": {
+      "user_message_count": 1,
+      "agent_message_count": 47,
+      "start_timestamp": "2026-06-19T23:20:18+08:00",
+      "end_timestamp": "2026-06-19T23:20:18+08:00",
+      "markdown_size_bytes": 24840,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "6010ba1d-c782-46c4-b511-e99f375bcf79": {
       "user_message_count": 4,
-      "agent_message_count": 143,
+      "agent_message_count": 240,
       "start_timestamp": "2026-07-08T08:50:03+08:00",
       "end_timestamp": "2026-07-08T08:50:03+08:00",
-      "markdown_size_bytes": 352631,
+      "markdown_size_bytes": 186501,
       "provider": "cursoride",
-      "last_updated": "2026-07-08T01:30:55Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "601ba3eb-98a9-44c7-8e80-e8dd26cf2689": {
       "user_message_count": 1,
-      "agent_message_count": 25,
+      "agent_message_count": 67,
       "start_timestamp": "2026-07-06T08:46:11+08:00",
       "end_timestamp": "2026-07-06T08:46:11+08:00",
-      "markdown_size_bytes": 28213,
+      "markdown_size_bytes": 58829,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T00:47:01Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "60b2d2a2-d0a9-48e4-b8c8-d3fa29751ea7": {
       "user_message_count": 11,
-      "agent_message_count": 580,
+      "agent_message_count": 581,
       "start_timestamp": "2026-06-20T16:12:04+08:00",
       "end_timestamp": "2026-06-20T16:12:04+08:00",
-      "markdown_size_bytes": 477442,
+      "markdown_size_bytes": 329597,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T08:46:09Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "61f1c765-6fc3-4f9f-991a-1738b0229277": {
       "user_message_count": 2,
-      "agent_message_count": 26,
+      "agent_message_count": 109,
       "start_timestamp": "2026-06-20T19:46:55+08:00",
       "end_timestamp": "2026-06-20T19:46:55+08:00",
-      "markdown_size_bytes": 14365,
+      "markdown_size_bytes": 57446,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T11:49:18Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "622ee44f-e0c3-4390-bcac-9e563a3ae212": {
       "user_message_count": 1,
       "agent_message_count": 15,
       "start_timestamp": "2026-07-16T18:46:47+08:00",
       "end_timestamp": "2026-07-16T18:46:47+08:00",
-      "markdown_size_bytes": 8194,
+      "markdown_size_bytes": 6990,
       "provider": "cursoride",
-      "last_updated": "2026-07-16T10:47:22Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "62ac7e99-cf99-43c3-9c5e-f2a87d9f4fdb": {
       "user_message_count": 1,
-      "agent_message_count": 11,
+      "agent_message_count": 26,
       "start_timestamp": "2026-07-06T15:21:06+08:00",
       "end_timestamp": "2026-07-06T15:21:06+08:00",
-      "markdown_size_bytes": 6540,
+      "markdown_size_bytes": 15338,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T07:21:50Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "63a8a941-dadc-4b70-a6f4-b1ce4726972f": {
       "user_message_count": 1,
-      "agent_message_count": 9,
+      "agent_message_count": 43,
       "start_timestamp": "2026-07-17T09:13:54+08:00",
       "end_timestamp": "2026-07-17T09:13:54+08:00",
-      "markdown_size_bytes": 55770,
+      "markdown_size_bytes": 37784,
       "provider": "cursoride",
-      "last_updated": "2026-07-17T01:14:33Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "65b61098-7ea3-46b5-bb84-e96f12f6389e": {
       "user_message_count": 8,
-      "agent_message_count": 161,
+      "agent_message_count": 197,
       "start_timestamp": "2026-06-30T10:06:39+08:00",
       "end_timestamp": "2026-06-30T10:06:39+08:00",
-      "markdown_size_bytes": 189277,
+      "markdown_size_bytes": 152499,
       "provider": "cursoride",
-      "last_updated": "2026-06-30T03:07:39Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "65e3ce76-800f-4d52-bba0-e999d503f941": {
-      "user_message_count": 2,
-      "agent_message_count": 75,
+      "user_message_count": 4,
+      "agent_message_count": 193,
       "start_timestamp": "2026-07-07T11:43:20+08:00",
       "end_timestamp": "2026-07-07T11:43:20+08:00",
-      "markdown_size_bytes": 196548,
+      "markdown_size_bytes": 225649,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T03:51:05Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "6656341b-87ab-42ca-9857-3c36e145dd92": {
       "user_message_count": 1,
-      "agent_message_count": 16,
+      "agent_message_count": 65,
       "start_timestamp": "2026-07-14T10:01:30+08:00",
       "end_timestamp": "2026-07-14T10:01:30+08:00",
-      "markdown_size_bytes": 16976,
+      "markdown_size_bytes": 76522,
       "provider": "cursoride",
-      "last_updated": "2026-07-14T02:02:15Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "6683ddd1-494e-4b23-9508-ed7816a97fd6": {
       "user_message_count": 2,
-      "agent_message_count": 60,
+      "agent_message_count": 67,
       "start_timestamp": "2026-07-02T07:45:32+08:00",
       "end_timestamp": "2026-07-02T07:45:32+08:00",
-      "markdown_size_bytes": 66941,
+      "markdown_size_bytes": 41798,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T23:49:19Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "66f35295-1c92-4eb5-90a2-b242ef7ac565": {
+      "user_message_count": 1,
+      "agent_message_count": 89,
+      "start_timestamp": "2026-06-19T16:15:23+08:00",
+      "end_timestamp": "2026-06-19T16:15:23+08:00",
+      "markdown_size_bytes": 44160,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "6751e74c-8793-46dd-8a38-ba68fb9170e4": {
+      "user_message_count": 1,
+      "agent_message_count": 46,
+      "start_timestamp": "2026-07-02T15:20:36+08:00",
+      "end_timestamp": "2026-07-02T15:20:36+08:00",
+      "markdown_size_bytes": 23519,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "67d81010-f177-47a9-abd0-0eff993ab106": {
       "user_message_count": 5,
       "agent_message_count": 107,
       "start_timestamp": "2026-07-15T20:21:41+08:00",
       "end_timestamp": "2026-07-15T20:21:41+08:00",
-      "markdown_size_bytes": 635360,
+      "markdown_size_bytes": 62483,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T12:30:46Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "68aa8521-7f0e-48ab-9be1-a310b2c565ea": {
-      "user_message_count": 1,
-      "agent_message_count": 24,
+      "user_message_count": 2,
+      "agent_message_count": 108,
       "start_timestamp": "2026-07-01T19:51:46+08:00",
       "end_timestamp": "2026-07-01T19:51:46+08:00",
-      "markdown_size_bytes": 23561,
+      "markdown_size_bytes": 53720,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T11:52:46Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "6c75f44f-99cb-4268-a0ff-4e5aeeaccc9c": {
+      "user_message_count": 1,
+      "agent_message_count": 24,
+      "start_timestamp": "2026-06-19T15:27:42+08:00",
+      "end_timestamp": "2026-06-19T15:27:42+08:00",
+      "markdown_size_bytes": 18108,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "6cb6351c-80a9-4cc3-9ef5-0e607d43b3f1": {
+      "user_message_count": 1,
+      "agent_message_count": 74,
+      "start_timestamp": "2026-06-20T20:05:56+08:00",
+      "end_timestamp": "2026-06-20T20:05:56+08:00",
+      "markdown_size_bytes": 48360,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "6d40a3b0-1dc4-4dbf-9ee8-97d2ea8425bf": {
       "user_message_count": 3,
-      "agent_message_count": 116,
+      "agent_message_count": 141,
       "start_timestamp": "2026-07-12T17:26:45+08:00",
       "end_timestamp": "2026-07-12T17:26:45+08:00",
-      "markdown_size_bytes": 104049,
+      "markdown_size_bytes": 103706,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T09:31:51Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "6e4d2b48-0720-4a3a-9e5b-382bed0e110e": {
       "user_message_count": 2,
-      "agent_message_count": 44,
+      "agent_message_count": 64,
       "start_timestamp": "2026-07-06T20:57:45+08:00",
       "end_timestamp": "2026-07-06T20:57:45+08:00",
-      "markdown_size_bytes": 22999,
+      "markdown_size_bytes": 34454,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T13:01:25Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "705ab7fc-ac7c-4133-b1fb-79b49531e737": {
       "user_message_count": 1,
-      "agent_message_count": 17,
+      "agent_message_count": 31,
       "start_timestamp": "2026-07-10T22:30:12+08:00",
       "end_timestamp": "2026-07-10T22:30:12+08:00",
-      "markdown_size_bytes": 11084,
+      "markdown_size_bytes": 21849,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T14:30:40Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "70d76bf6-b71e-4ed5-bc55-8232f7aff6f2": {
       "user_message_count": 2,
-      "agent_message_count": 24,
+      "agent_message_count": 61,
       "start_timestamp": "2026-07-06T15:06:59+08:00",
       "end_timestamp": "2026-07-06T15:06:59+08:00",
-      "markdown_size_bytes": 39719,
+      "markdown_size_bytes": 134415,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T07:13:19Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "70de72be-8b2d-48fc-abbf-4972d14286a7": {
       "user_message_count": 4,
-      "agent_message_count": 88,
+      "agent_message_count": 98,
       "start_timestamp": "2026-06-22T11:18:44+08:00",
       "end_timestamp": "2026-06-22T11:18:44+08:00",
-      "markdown_size_bytes": 205948,
+      "markdown_size_bytes": 62522,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T03:30:48Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "70e8df70-c078-4084-a3c3-2f5b5be58681": {
+      "user_message_count": 1,
+      "agent_message_count": 74,
+      "start_timestamp": "2026-07-14T12:33:46+08:00",
+      "end_timestamp": "2026-07-14T12:33:46+08:00",
+      "markdown_size_bytes": 61920,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "71221fe2-6f64-485d-aa14-749b1abe00b6": {
+      "user_message_count": 1,
+      "agent_message_count": 180,
+      "start_timestamp": "2026-07-20T19:48:28+08:00",
+      "end_timestamp": "2026-07-20T19:48:28+08:00",
+      "markdown_size_bytes": 137403,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "712d3ded-56c8-4ae8-abfa-1ad2adc0ae62": {
+      "user_message_count": 8,
+      "agent_message_count": 124,
+      "start_timestamp": "2026-06-19T16:54:19+08:00",
+      "end_timestamp": "2026-06-19T16:54:19+08:00",
+      "markdown_size_bytes": 69098,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "72ff30da-df54-4a92-8247-9486095d923b": {
+      "user_message_count": 1,
+      "agent_message_count": 197,
+      "start_timestamp": "2026-07-10T14:19:24+08:00",
+      "end_timestamp": "2026-07-10T14:19:24+08:00",
+      "markdown_size_bytes": 179959,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "73abcfd7-4507-48a3-a59c-dd6085a9ac2e": {
       "user_message_count": 19,
       "agent_message_count": 407,
       "start_timestamp": "2026-06-20T15:32:04+08:00",
       "end_timestamp": "2026-06-20T15:32:04+08:00",
-      "markdown_size_bytes": 263289,
+      "markdown_size_bytes": 216369,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T08:09:27Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "744c8786-1236-4809-a204-3423b74e1585": {
       "user_message_count": 4,
-      "agent_message_count": 186,
+      "agent_message_count": 265,
       "start_timestamp": "2026-07-11T07:18:53+08:00",
       "end_timestamp": "2026-07-11T07:18:53+08:00",
-      "markdown_size_bytes": 144434,
+      "markdown_size_bytes": 184090,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T23:42:19Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "74ca04f2-5dd1-49f7-966d-536fd9c84647": {
+      "user_message_count": 2,
+      "agent_message_count": 49,
+      "start_timestamp": "2026-06-19T17:25:47+08:00",
+      "end_timestamp": "2026-06-19T17:25:47+08:00",
+      "markdown_size_bytes": 27353,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "75071ccf-ed53-40fb-9fd6-c2fdb1a4264f": {
       "user_message_count": 2,
-      "agent_message_count": 72,
+      "agent_message_count": 113,
       "start_timestamp": "2026-07-02T21:41:47+08:00",
       "end_timestamp": "2026-07-02T21:41:47+08:00",
-      "markdown_size_bytes": 59514,
+      "markdown_size_bytes": 64138,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T13:46:34Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "7566ec36-db2b-40b6-a663-9c9b9d08b6e3": {
       "user_message_count": 3,
-      "agent_message_count": 130,
+      "agent_message_count": 143,
       "start_timestamp": "2026-06-22T14:14:22+08:00",
       "end_timestamp": "2026-06-22T14:14:22+08:00",
-      "markdown_size_bytes": 85142,
+      "markdown_size_bytes": 121962,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T06:42:37Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "75e87868-78c6-469f-bfb0-ce0cb3ea3b43": {
       "user_message_count": 2,
-      "agent_message_count": 46,
+      "agent_message_count": 96,
       "start_timestamp": "2026-06-30T10:04:57+08:00",
       "end_timestamp": "2026-06-30T10:04:57+08:00",
-      "markdown_size_bytes": 43947,
+      "markdown_size_bytes": 57232,
       "provider": "cursoride",
-      "last_updated": "2026-06-30T02:08:27Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "763f8dba-200d-4992-bfb8-97f48680b98a": {
       "user_message_count": 2,
       "agent_message_count": 49,
       "start_timestamp": "2026-07-15T19:48:18+08:00",
       "end_timestamp": "2026-07-15T19:48:18+08:00",
-      "markdown_size_bytes": 31698,
+      "markdown_size_bytes": 27227,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T11:51:55Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "78cd4444-6091-4d4d-96b8-606193bd5bd5": {
       "user_message_count": 3,
@@ -1008,185 +1467,329 @@
       "provider": "cursoride",
       "last_updated": "2026-06-21T12:48:12Z"
     },
+    "78f1075b-f870-408d-b13c-11442ca15329": {
+      "user_message_count": 1,
+      "agent_message_count": 38,
+      "start_timestamp": "2026-07-20T19:28:58+08:00",
+      "end_timestamp": "2026-07-20T19:28:58+08:00",
+      "markdown_size_bytes": 29459,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "79895587-30a1-4c1f-8724-1a7229febb1a": {
+      "user_message_count": 2,
+      "agent_message_count": 10,
+      "start_timestamp": "2026-07-22T20:32:12+08:00",
+      "end_timestamp": "2026-07-22T20:32:12+08:00",
+      "markdown_size_bytes": 10234,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:35:51Z"
+    },
     "79ec067d-f22d-4130-a6ab-950fb875337b": {
       "user_message_count": 1,
-      "agent_message_count": 4,
+      "agent_message_count": 13,
       "start_timestamp": "2026-07-10T22:09:39+08:00",
       "end_timestamp": "2026-07-10T22:09:39+08:00",
-      "markdown_size_bytes": 1426,
+      "markdown_size_bytes": 11063,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T14:10:10Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "7a724156-0de0-4ab1-a45b-10795f9c33ed": {
+      "user_message_count": 1,
+      "agent_message_count": 97,
+      "start_timestamp": "2026-07-02T08:21:59+08:00",
+      "end_timestamp": "2026-07-02T08:21:59+08:00",
+      "markdown_size_bytes": 54566,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "7c84727d-e3d2-4774-92b2-fc291013bcef": {
-      "user_message_count": 1,
-      "agent_message_count": 11,
+      "user_message_count": 3,
+      "agent_message_count": 67,
       "start_timestamp": "2026-07-01T23:00:26+08:00",
       "end_timestamp": "2026-07-01T23:00:26+08:00",
-      "markdown_size_bytes": 6978,
+      "markdown_size_bytes": 82015,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T15:00:54Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "7f2c502c-ce58-4895-87ed-830decb6b96c": {
       "user_message_count": 10,
-      "agent_message_count": 162,
+      "agent_message_count": 232,
       "start_timestamp": "2026-07-15T11:18:12+08:00",
       "end_timestamp": "2026-07-15T11:18:12+08:00",
-      "markdown_size_bytes": 101330,
+      "markdown_size_bytes": 122703,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T03:37:33Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "7fd8267b-7b48-446e-ab22-402244ac6cbf": {
+      "user_message_count": 1,
+      "agent_message_count": 75,
+      "start_timestamp": "2026-07-19T20:30:21+08:00",
+      "end_timestamp": "2026-07-19T20:30:21+08:00",
+      "markdown_size_bytes": 40674,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "7ff1dfc3-517e-4725-9400-dc1087092ca6": {
       "user_message_count": 10,
-      "agent_message_count": 184,
+      "agent_message_count": 229,
       "start_timestamp": "2026-07-06T11:58:01+08:00",
       "end_timestamp": "2026-07-06T11:58:01+08:00",
-      "markdown_size_bytes": 477939,
+      "markdown_size_bytes": 534252,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T04:27:45Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "810a025a-6961-4334-8265-f256b0c21cd7": {
       "user_message_count": 2,
-      "agent_message_count": 51,
+      "agent_message_count": 117,
       "start_timestamp": "2026-07-07T11:52:10+08:00",
       "end_timestamp": "2026-07-07T11:52:10+08:00",
-      "markdown_size_bytes": 83433,
+      "markdown_size_bytes": 129157,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T04:01:57Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "81716a0b-2956-4e6c-aeab-868b42a0f164": {
+      "user_message_count": 1,
+      "agent_message_count": 48,
+      "start_timestamp": "2026-06-18T15:53:36+08:00",
+      "end_timestamp": "2026-06-18T15:53:36+08:00",
+      "markdown_size_bytes": 43127,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "819a26f5-6d1d-406f-b695-2fee493bb280": {
       "user_message_count": 1,
-      "agent_message_count": 14,
+      "agent_message_count": 24,
       "start_timestamp": "2026-07-01T23:11:32+08:00",
       "end_timestamp": "2026-07-01T23:11:32+08:00",
-      "markdown_size_bytes": 16354,
+      "markdown_size_bytes": 21022,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T15:12:23Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "82a4ac81-002d-44d5-abff-de138d7c9b95": {
+      "user_message_count": 3,
+      "agent_message_count": 74,
+      "start_timestamp": "2026-06-19T10:04:57+08:00",
+      "end_timestamp": "2026-06-19T10:04:57+08:00",
+      "markdown_size_bytes": 67445,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "82aba035-a862-45ab-a2ae-0ce7b01fe844": {
       "user_message_count": 8,
       "agent_message_count": 329,
       "start_timestamp": "2026-07-01T21:22:54+08:00",
       "end_timestamp": "2026-07-01T21:22:54+08:00",
-      "markdown_size_bytes": 195854,
+      "markdown_size_bytes": 149114,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T14:00:27Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "82b4af51-8217-488d-91b5-bc523bf28cee": {
       "user_message_count": 1,
-      "agent_message_count": 4,
+      "agent_message_count": 10,
       "start_timestamp": "2026-07-12T19:47:46+08:00",
       "end_timestamp": "2026-07-12T19:47:46+08:00",
-      "markdown_size_bytes": 1500,
+      "markdown_size_bytes": 5023,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T11:48:20Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "83a0abdd-e24c-4576-a191-f6ba8c25fc54": {
       "user_message_count": 3,
-      "agent_message_count": 96,
+      "agent_message_count": 113,
       "start_timestamp": "2026-07-16T02:23:28+08:00",
       "end_timestamp": "2026-07-16T02:23:28+08:00",
-      "markdown_size_bytes": 65026,
+      "markdown_size_bytes": 63254,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T18:37:39Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "843c3633-ee5d-40b0-8522-6bff9a4ca3a4": {
+      "user_message_count": 1,
+      "agent_message_count": 101,
+      "start_timestamp": "2026-06-22T23:25:11+08:00",
+      "end_timestamp": "2026-06-22T23:25:11+08:00",
+      "markdown_size_bytes": 38634,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "85845df6-4087-44d0-8a1f-8f4e042470b2": {
+      "user_message_count": 7,
+      "agent_message_count": 136,
+      "start_timestamp": "2026-06-19T20:30:32+08:00",
+      "end_timestamp": "2026-06-19T20:30:32+08:00",
+      "markdown_size_bytes": 69155,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "87073d5f-513a-43a7-80e0-d987f1fbe02f": {
+      "user_message_count": 1,
+      "agent_message_count": 93,
+      "start_timestamp": "2026-06-19T18:38:29+08:00",
+      "end_timestamp": "2026-06-19T18:38:29+08:00",
+      "markdown_size_bytes": 78702,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "8aefead8-4d33-4cb7-8691-4eff4ffbb50c": {
       "user_message_count": 3,
-      "agent_message_count": 27,
+      "agent_message_count": 112,
       "start_timestamp": "2026-07-02T08:11:43+08:00",
       "end_timestamp": "2026-07-02T08:11:43+08:00",
-      "markdown_size_bytes": 32259,
+      "markdown_size_bytes": 104072,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T00:20:00Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "8b0a02f0-6dbb-431e-87d5-aec6ebebb95c": {
       "user_message_count": 3,
-      "agent_message_count": 258,
+      "agent_message_count": 317,
       "start_timestamp": "2026-07-03T12:41:11+08:00",
       "end_timestamp": "2026-07-03T12:41:11+08:00",
-      "markdown_size_bytes": 362222,
+      "markdown_size_bytes": 240756,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T05:11:01Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "8b203272-eb46-49d7-8db1-63237c27435b": {
       "user_message_count": 1,
-      "agent_message_count": 21,
+      "agent_message_count": 47,
       "start_timestamp": "2026-07-01T20:33:11+08:00",
       "end_timestamp": "2026-07-01T20:33:11+08:00",
-      "markdown_size_bytes": 25651,
+      "markdown_size_bytes": 41070,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T12:34:26Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "8b23a0b2-8ecd-4c35-9d18-3ea33517eb2b": {
       "user_message_count": 5,
-      "agent_message_count": 78,
+      "agent_message_count": 85,
       "start_timestamp": "2026-07-20T08:30:59+08:00",
       "end_timestamp": "2026-07-20T08:30:59+08:00",
-      "markdown_size_bytes": 46326,
+      "markdown_size_bytes": 42889,
       "provider": "cursoride",
-      "last_updated": "2026-07-20T00:38:08Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "8c38c416-d282-4327-8d09-40d4aea024d9": {
       "user_message_count": 6,
-      "agent_message_count": 150,
+      "agent_message_count": 159,
       "start_timestamp": "2026-07-03T10:07:57+08:00",
       "end_timestamp": "2026-07-03T10:07:57+08:00",
-      "markdown_size_bytes": 338211,
+      "markdown_size_bytes": 84912,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T02:27:27Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "8d17709e-c382-4861-b927-4e5c09eb4496": {
       "user_message_count": 1,
-      "agent_message_count": 5,
+      "agent_message_count": 76,
       "start_timestamp": "2026-07-07T11:55:27+08:00",
       "end_timestamp": "2026-07-07T11:55:27+08:00",
-      "markdown_size_bytes": 2127,
+      "markdown_size_bytes": 66860,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T03:55:58Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "8d34bc59-7593-4d8e-b874-d7f28d4eb627": {
+      "user_message_count": 1,
+      "agent_message_count": 97,
+      "start_timestamp": "2026-06-22T15:39:22+08:00",
+      "end_timestamp": "2026-06-22T15:39:22+08:00",
+      "markdown_size_bytes": 75133,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "8d7203ae-c028-43c4-b60c-f4c29bf9dab3": {
       "user_message_count": 1,
       "agent_message_count": 33,
       "start_timestamp": "2026-07-09T06:17:50+08:00",
       "end_timestamp": "2026-07-09T06:17:50+08:00",
-      "markdown_size_bytes": 27984,
+      "markdown_size_bytes": 23845,
       "provider": "cursoride",
-      "last_updated": "2026-07-08T22:18:40Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "8d7c51c8-5d0e-497c-9e63-a2e635145b4b": {
-      "user_message_count": 1,
-      "agent_message_count": 37,
+      "user_message_count": 2,
+      "agent_message_count": 64,
       "start_timestamp": "2026-07-08T08:42:13+08:00",
       "end_timestamp": "2026-07-08T08:42:13+08:00",
-      "markdown_size_bytes": 31446,
+      "markdown_size_bytes": 46189,
       "provider": "cursoride",
-      "last_updated": "2026-07-08T00:43:22Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "8d96b8c6-55e2-4d15-8c36-db5d234cec8d": {
+      "user_message_count": 6,
+      "agent_message_count": 73,
+      "start_timestamp": "2026-06-19T15:41:38+08:00",
+      "end_timestamp": "2026-06-19T15:41:38+08:00",
+      "markdown_size_bytes": 27712,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "8db29e22-77e8-499b-a71a-880fd7672e2d": {
+      "user_message_count": 1,
+      "agent_message_count": 23,
+      "start_timestamp": "2026-06-19T10:11:28+08:00",
+      "end_timestamp": "2026-06-19T10:11:28+08:00",
+      "markdown_size_bytes": 18886,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "8eed5409-f528-48e9-91ff-2a18a96b242d": {
+      "user_message_count": 1,
+      "agent_message_count": 94,
+      "start_timestamp": "2026-06-19T18:19:52+08:00",
+      "end_timestamp": "2026-06-19T18:19:52+08:00",
+      "markdown_size_bytes": 42228,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "8f14459b-bd4a-49cc-80d1-bfb5a93fd2b0": {
       "user_message_count": 6,
-      "agent_message_count": 254,
+      "agent_message_count": 306,
       "start_timestamp": "2026-07-02T21:08:11+08:00",
       "end_timestamp": "2026-07-02T21:08:11+08:00",
-      "markdown_size_bytes": 238078,
+      "markdown_size_bytes": 234892,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T13:35:33Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "8f7e3b65-1666-4984-8ac0-a4a5b203b5e1": {
+      "user_message_count": 1,
+      "agent_message_count": 144,
+      "start_timestamp": "2026-06-19T16:18:36+08:00",
+      "end_timestamp": "2026-06-19T16:18:36+08:00",
+      "markdown_size_bytes": 100665,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "907502b4-2123-41ea-bf6e-c70a919f397b": {
+      "user_message_count": 2,
+      "agent_message_count": 29,
+      "start_timestamp": "2026-06-19T10:50:09+08:00",
+      "end_timestamp": "2026-06-19T10:50:09+08:00",
+      "markdown_size_bytes": 31312,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "90876914-3e84-4635-9f94-431f8ca3d85f": {
       "user_message_count": 10,
       "agent_message_count": 71,
       "start_timestamp": "2026-07-16T02:39:15+08:00",
       "end_timestamp": "2026-07-16T02:39:15+08:00",
-      "markdown_size_bytes": 34458,
+      "markdown_size_bytes": 30554,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T18:55:35Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "91518f82-6091-4569-99e1-dcabe559f5c6": {
       "user_message_count": 7,
-      "agent_message_count": 220,
+      "agent_message_count": 226,
       "start_timestamp": "2026-06-22T10:39:52+08:00",
       "end_timestamp": "2026-06-22T10:39:52+08:00",
-      "markdown_size_bytes": 241148,
+      "markdown_size_bytes": 164782,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T03:02:16Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "91d517e8-90ff-4c38-b06e-ded4992adf38": {
+      "user_message_count": 1,
+      "agent_message_count": 72,
+      "start_timestamp": "2026-06-22T15:39:18+08:00",
+      "end_timestamp": "2026-06-22T15:39:18+08:00",
+      "markdown_size_bytes": 52508,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "9239ae03-cf7e-49eb-b203-3c6c4390e8e8": {
       "user_message_count": 13,
@@ -1202,144 +1805,162 @@
       "agent_message_count": 60,
       "start_timestamp": "2026-07-12T07:21:02+08:00",
       "end_timestamp": "2026-07-12T07:21:02+08:00",
-      "markdown_size_bytes": 35902,
+      "markdown_size_bytes": 32675,
       "provider": "cursoride",
-      "last_updated": "2026-07-11T23:52:06Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "9436a20b-01ba-4d7f-9568-9aa3177b5732": {
       "user_message_count": 1,
-      "agent_message_count": 12,
+      "agent_message_count": 28,
       "start_timestamp": "2026-07-03T07:14:54+08:00",
       "end_timestamp": "2026-07-03T07:14:54+08:00",
-      "markdown_size_bytes": 7736,
+      "markdown_size_bytes": 16503,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T23:15:10Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "949ede93-bc35-424b-a826-83c142344e05": {
+      "user_message_count": 1,
+      "agent_message_count": 47,
+      "start_timestamp": "2026-06-19T22:18:04+08:00",
+      "end_timestamp": "2026-06-19T22:18:04+08:00",
+      "markdown_size_bytes": 27988,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "95947853-58f9-4ef6-af9c-1d3a329a8dc8": {
       "user_message_count": 1,
-      "agent_message_count": 2,
+      "agent_message_count": 41,
       "start_timestamp": "2026-06-20T17:33:14+08:00",
       "end_timestamp": "2026-06-20T17:33:14+08:00",
-      "markdown_size_bytes": 686,
+      "markdown_size_bytes": 25263,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T09:33:45Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "95cfbd88-82a9-4722-acb5-7fe50d0ce184": {
       "user_message_count": 2,
-      "agent_message_count": 68,
+      "agent_message_count": 83,
       "start_timestamp": "2026-07-05T22:21:16+08:00",
       "end_timestamp": "2026-07-05T22:21:16+08:00",
-      "markdown_size_bytes": 60764,
+      "markdown_size_bytes": 79524,
       "provider": "cursoride",
-      "last_updated": "2026-07-05T14:25:30Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "97410256-f44f-4091-be11-9dc2252e4397": {
       "user_message_count": 2,
-      "agent_message_count": 57,
+      "agent_message_count": 85,
       "start_timestamp": "2026-07-01T21:08:10+08:00",
       "end_timestamp": "2026-07-01T21:08:10+08:00",
-      "markdown_size_bytes": 56097,
+      "markdown_size_bytes": 53144,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T13:13:52Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "980e0332-88af-45d2-9ab9-2564093bd598": {
       "user_message_count": 3,
-      "agent_message_count": 80,
+      "agent_message_count": 105,
       "start_timestamp": "2026-06-22T10:16:32+08:00",
       "end_timestamp": "2026-06-22T10:16:32+08:00",
-      "markdown_size_bytes": 362441,
+      "markdown_size_bytes": 80569,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T02:31:16Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "98ab625e-0f0d-4a6d-9150-d5a853100581": {
       "user_message_count": 2,
-      "agent_message_count": 29,
+      "agent_message_count": 57,
       "start_timestamp": "2026-07-06T12:36:44+08:00",
       "end_timestamp": "2026-07-06T12:36:44+08:00",
-      "markdown_size_bytes": 31179,
+      "markdown_size_bytes": 28557,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T04:44:48Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "98f5a682-1815-438c-8eb2-fced2b7462cc": {
       "user_message_count": 1,
       "agent_message_count": 12,
       "start_timestamp": "2026-07-20T08:30:13+08:00",
       "end_timestamp": "2026-07-20T08:30:13+08:00",
-      "markdown_size_bytes": 5665,
+      "markdown_size_bytes": 4915,
       "provider": "cursoride",
-      "last_updated": "2026-07-20T00:30:36Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "99238ef9-15e1-421d-92bd-3ae9250b03a4": {
       "user_message_count": 3,
-      "agent_message_count": 57,
+      "agent_message_count": 79,
       "start_timestamp": "2026-07-03T08:01:14+08:00",
       "end_timestamp": "2026-07-03T08:01:14+08:00",
-      "markdown_size_bytes": 318049,
+      "markdown_size_bytes": 315664,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T00:23:21Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "9b74aacf-304b-4213-ac59-46d8ad01fba6": {
       "user_message_count": 1,
-      "agent_message_count": 9,
+      "agent_message_count": 55,
       "start_timestamp": "2026-07-10T20:30:25+08:00",
       "end_timestamp": "2026-07-10T20:30:25+08:00",
-      "markdown_size_bytes": 6895,
+      "markdown_size_bytes": 43682,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T12:31:02Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "9ca81b83-69a0-44f7-9d86-da67bad5f30b": {
+      "user_message_count": 1,
+      "agent_message_count": 39,
+      "start_timestamp": "2026-07-02T09:02:48+08:00",
+      "end_timestamp": "2026-07-02T09:02:48+08:00",
+      "markdown_size_bytes": 30979,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "9d9a044d-3191-4e72-b3e1-b05561d7e764": {
       "user_message_count": 3,
-      "agent_message_count": 83,
+      "agent_message_count": 108,
       "start_timestamp": "2026-07-20T19:27:53+08:00",
       "end_timestamp": "2026-07-20T19:27:53+08:00",
-      "markdown_size_bytes": 53361,
+      "markdown_size_bytes": 53603,
       "provider": "cursoride",
-      "last_updated": "2026-07-20T11:40:36Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "9f035efd-2afb-4ec8-a8a8-dc5035040df7": {
-      "user_message_count": 3,
-      "agent_message_count": 114,
+      "user_message_count": 4,
+      "agent_message_count": 138,
       "start_timestamp": "2026-07-03T07:20:58+08:00",
       "end_timestamp": "2026-07-03T07:20:58+08:00",
-      "markdown_size_bytes": 120499,
+      "markdown_size_bytes": 89070,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T23:32:45Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "9f140a95-eb5f-4221-aeec-bd8e8d8a3f26": {
       "user_message_count": 5,
-      "agent_message_count": 184,
+      "agent_message_count": 208,
       "start_timestamp": "2026-07-01T19:55:29+08:00",
       "end_timestamp": "2026-07-01T19:55:29+08:00",
-      "markdown_size_bytes": 224772,
+      "markdown_size_bytes": 189321,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T12:16:47Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "9f51f028-ea9c-4b6f-8188-8ee9d46430ca": {
       "user_message_count": 1,
-      "agent_message_count": 9,
+      "agent_message_count": 42,
       "start_timestamp": "2026-06-22T10:20:58+08:00",
       "end_timestamp": "2026-06-22T10:20:58+08:00",
-      "markdown_size_bytes": 10529,
+      "markdown_size_bytes": 31421,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T02:21:36Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "9f7f43ca-950b-4a3c-b87a-dd68e6a635a2": {
       "user_message_count": 1,
-      "agent_message_count": 10,
+      "agent_message_count": 31,
       "start_timestamp": "2026-07-10T22:31:10+08:00",
       "end_timestamp": "2026-07-10T22:31:10+08:00",
-      "markdown_size_bytes": 5088,
+      "markdown_size_bytes": 15821,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T14:31:41Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "9fc8c259-ad74-4984-a080-8bbddf91efa0": {
       "user_message_count": 2,
-      "agent_message_count": 56,
+      "agent_message_count": 69,
       "start_timestamp": "2026-07-02T15:13:32+08:00",
       "end_timestamp": "2026-07-02T15:13:32+08:00",
-      "markdown_size_bytes": 105336,
+      "markdown_size_bytes": 100853,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T07:20:18Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "9ff83664-ffb4-4967-b5fc-bc97fb9ef463": {
       "user_message_count": 4,
@@ -1352,21 +1973,39 @@
     },
     "a006a36f-2d42-4862-ac14-549f515a5435": {
       "user_message_count": 3,
-      "agent_message_count": 77,
+      "agent_message_count": 129,
       "start_timestamp": "2026-06-20T17:26:14+08:00",
       "end_timestamp": "2026-06-20T17:26:14+08:00",
-      "markdown_size_bytes": 58101,
+      "markdown_size_bytes": 53864,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T09:29:09Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "a0b7811f-d994-4a74-9523-dbc2a99d1711": {
+      "user_message_count": 1,
+      "agent_message_count": 176,
+      "start_timestamp": "2026-07-10T14:19:21+08:00",
+      "end_timestamp": "2026-07-10T14:19:21+08:00",
+      "markdown_size_bytes": 116758,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "a1518b5b-c59d-45c0-96f0-de9af130426b": {
       "user_message_count": 2,
-      "agent_message_count": 61,
+      "agent_message_count": 71,
       "start_timestamp": "2026-07-03T06:39:53+08:00",
       "end_timestamp": "2026-07-03T06:39:53+08:00",
-      "markdown_size_bytes": 64851,
+      "markdown_size_bytes": 61262,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T22:42:13Z"
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "a1ab0918-9f6d-4dfe-89fa-6447dfad7378": {
+      "user_message_count": 1,
+      "agent_message_count": 152,
+      "start_timestamp": "2026-07-09T22:10:18+08:00",
+      "end_timestamp": "2026-07-09T22:10:18+08:00",
+      "markdown_size_bytes": 144567,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "a42aa06a-9b4a-4fbe-8093-12be944fa759": {
       "user_message_count": 2,
@@ -1377,68 +2016,104 @@
       "provider": "cursoride",
       "last_updated": "2026-06-21T05:08:00Z"
     },
+    "a4a6abe6-c40e-4503-9f92-71afd68d694b": {
+      "user_message_count": 1,
+      "agent_message_count": 121,
+      "start_timestamp": "2026-07-02T08:21:56+08:00",
+      "end_timestamp": "2026-07-02T08:21:56+08:00",
+      "markdown_size_bytes": 67379,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
     "a62d89cf-1c06-402b-99bb-56d6f4d53948": {
       "user_message_count": 7,
-      "agent_message_count": 325,
+      "agent_message_count": 334,
       "start_timestamp": "2026-06-20T11:20:28+08:00",
       "end_timestamp": "2026-06-20T11:20:28+08:00",
-      "markdown_size_bytes": 238233,
+      "markdown_size_bytes": 206167,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T03:44:45Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "a8c414d2-5caf-47f8-9cf3-0b905dc8c629": {
       "user_message_count": 1,
-      "agent_message_count": 13,
+      "agent_message_count": 29,
       "start_timestamp": "2026-07-14T10:00:12+08:00",
       "end_timestamp": "2026-07-14T10:00:12+08:00",
-      "markdown_size_bytes": 7177,
+      "markdown_size_bytes": 16268,
       "provider": "cursoride",
-      "last_updated": "2026-07-14T02:00:44Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "a95b2700-f88b-42aa-8e33-c52b4f940e1e": {
+      "user_message_count": 1,
+      "agent_message_count": 106,
+      "start_timestamp": "2026-06-19T15:07:52+08:00",
+      "end_timestamp": "2026-06-19T15:07:52+08:00",
+      "markdown_size_bytes": 87679,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "a9a6b8b3-7189-4780-8532-2ac1b50f9546": {
       "user_message_count": 6,
-      "agent_message_count": 135,
+      "agent_message_count": 189,
       "start_timestamp": "2026-06-22T23:20:49+08:00",
       "end_timestamp": "2026-06-22T23:20:49+08:00",
-      "markdown_size_bytes": 111705,
+      "markdown_size_bytes": 129366,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T15:36:24Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "ab7ce356-02c5-484a-9396-c4d7a3eef401": {
       "user_message_count": 5,
-      "agent_message_count": 157,
+      "agent_message_count": 214,
       "start_timestamp": "2026-06-20T17:38:30+08:00",
       "end_timestamp": "2026-06-20T17:38:30+08:00",
-      "markdown_size_bytes": 114846,
+      "markdown_size_bytes": 138200,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T10:09:38Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "ad6e6eb4-7267-439d-b64c-2c186e750550": {
       "user_message_count": 6,
       "agent_message_count": 133,
       "start_timestamp": "2026-06-28T08:39:28+08:00",
       "end_timestamp": "2026-06-28T08:39:28+08:00",
-      "markdown_size_bytes": 382803,
+      "markdown_size_bytes": 177281,
       "provider": "cursoride",
-      "last_updated": "2026-06-28T02:38:30Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "ae383e01-99bd-49c1-bb1f-5a0b2f2bc54f": {
       "user_message_count": 7,
-      "agent_message_count": 159,
+      "agent_message_count": 162,
       "start_timestamp": "2026-07-06T17:44:39+08:00",
       "end_timestamp": "2026-07-06T17:44:39+08:00",
-      "markdown_size_bytes": 762252,
+      "markdown_size_bytes": 113618,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T12:25:00Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "ae39fab1-8e56-446e-aba3-7a5f0a69ca8a": {
+      "user_message_count": 8,
+      "agent_message_count": 109,
+      "start_timestamp": "2026-06-18T15:41:26+08:00",
+      "end_timestamp": "2026-06-18T15:41:26+08:00",
+      "markdown_size_bytes": 63545,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "ae88af59-2dfc-4c8f-b985-98218028b94f": {
+      "user_message_count": 1,
+      "agent_message_count": 41,
+      "start_timestamp": "2026-06-19T15:19:43+08:00",
+      "end_timestamp": "2026-06-19T15:19:43+08:00",
+      "markdown_size_bytes": 75197,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "af36c4cf-3d44-453c-8e2a-32a4d6b6ac08": {
       "user_message_count": 1,
-      "agent_message_count": 15,
+      "agent_message_count": 66,
       "start_timestamp": "2026-07-01T20:23:27+08:00",
       "end_timestamp": "2026-07-01T20:23:27+08:00",
-      "markdown_size_bytes": 11371,
+      "markdown_size_bytes": 61911,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T12:24:56Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "af8551a8-63d8-4507-a797-dc69e32bc652": {
       "user_message_count": 3,
@@ -1450,49 +2125,67 @@
       "last_updated": "2026-06-22T05:33:06Z"
     },
     "b022b029-e69e-4dd9-b94d-04b1ce6ddfff": {
-      "user_message_count": 6,
-      "agent_message_count": 149,
+      "user_message_count": 9,
+      "agent_message_count": 156,
       "start_timestamp": "2026-06-20T10:41:11+08:00",
       "end_timestamp": "2026-06-20T10:41:11+08:00",
-      "markdown_size_bytes": 189641,
+      "markdown_size_bytes": 138802,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T03:03:50Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "b0f75ff4-c2c3-43a9-af72-5276262ad2f8": {
+      "user_message_count": 1,
+      "agent_message_count": 23,
+      "start_timestamp": "2026-07-02T09:02:56+08:00",
+      "end_timestamp": "2026-07-02T09:02:56+08:00",
+      "markdown_size_bytes": 30615,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "b253c05d-f81b-4f3f-a297-c5f67dad4f97": {
       "user_message_count": 6,
-      "agent_message_count": 182,
+      "agent_message_count": 212,
       "start_timestamp": "2026-06-20T16:52:20+08:00",
       "end_timestamp": "2026-06-20T16:52:20+08:00",
-      "markdown_size_bytes": 364722,
+      "markdown_size_bytes": 138598,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T09:10:03Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "b30e5c81-6904-4fb2-bdda-c8a417e685e5": {
+      "user_message_count": 2,
+      "agent_message_count": 72,
+      "start_timestamp": "2026-06-19T17:10:49+08:00",
+      "end_timestamp": "2026-06-19T17:10:49+08:00",
+      "markdown_size_bytes": 39609,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "b3573dc1-e057-4b4d-b323-ef8365bc92b7": {
       "user_message_count": 1,
-      "agent_message_count": 14,
+      "agent_message_count": 40,
       "start_timestamp": "2026-07-10T22:42:56+08:00",
       "end_timestamp": "2026-07-10T22:42:56+08:00",
-      "markdown_size_bytes": 10037,
+      "markdown_size_bytes": 26284,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T14:43:37Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "b3bbbf34-aa7d-4df1-a52f-ee5d1290d637": {
       "user_message_count": 3,
-      "agent_message_count": 185,
+      "agent_message_count": 214,
       "start_timestamp": "2026-07-06T16:19:33+08:00",
       "end_timestamp": "2026-07-06T16:19:33+08:00",
-      "markdown_size_bytes": 217435,
+      "markdown_size_bytes": 217329,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T08:40:29Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "b45f87f6-42ad-4bff-adfc-96d81320278b": {
       "user_message_count": 1,
-      "agent_message_count": 4,
+      "agent_message_count": 27,
       "start_timestamp": "2026-07-03T10:38:29+08:00",
       "end_timestamp": "2026-07-03T10:38:29+08:00",
-      "markdown_size_bytes": 1692,
+      "markdown_size_bytes": 15902,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T02:39:25Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "b4ad2349-15c5-4670-9d14-b848e967553a": {
       "user_message_count": 1,
@@ -1505,57 +2198,84 @@
     },
     "b633eee0-3807-48cc-b882-98332d21cf0e": {
       "user_message_count": 1,
-      "agent_message_count": 5,
+      "agent_message_count": 74,
       "start_timestamp": "2026-06-23T00:41:21+08:00",
       "end_timestamp": "2026-06-23T00:41:21+08:00",
-      "markdown_size_bytes": 147007,
+      "markdown_size_bytes": 49049,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T16:41:59Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "b7ae600a-84b1-49fa-a53f-a4f0bdcc7504": {
       "user_message_count": 1,
       "agent_message_count": 6,
       "start_timestamp": "2026-07-01T23:16:34+08:00",
       "end_timestamp": "2026-07-01T23:16:34+08:00",
-      "markdown_size_bytes": 5063,
+      "markdown_size_bytes": 4455,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T15:16:58Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "b831f60f-7ee3-4be3-aa53-6dbc9af54897": {
       "user_message_count": 1,
-      "agent_message_count": 16,
+      "agent_message_count": 36,
       "start_timestamp": "2026-07-10T21:43:36+08:00",
       "end_timestamp": "2026-07-10T21:43:36+08:00",
-      "markdown_size_bytes": 14195,
+      "markdown_size_bytes": 20621,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T13:44:06Z"
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "b8ba36f4-9d03-4e70-8ee0-bd7a01c3123f": {
+      "user_message_count": 2,
+      "agent_message_count": 121,
+      "start_timestamp": "2026-06-19T15:31:27+08:00",
+      "end_timestamp": "2026-06-19T15:31:27+08:00",
+      "markdown_size_bytes": 68502,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "b8c11e7a-b35b-4576-a2df-6c0d24c0acaf": {
+      "user_message_count": 3,
+      "agent_message_count": 71,
+      "start_timestamp": "2026-06-19T15:49:31+08:00",
+      "end_timestamp": "2026-06-19T15:49:31+08:00",
+      "markdown_size_bytes": 40939,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "b9185bf6-0d4e-4ebf-9911-b212d767b384": {
-      "user_message_count": 4,
-      "agent_message_count": 216,
+      "user_message_count": 5,
+      "agent_message_count": 261,
       "start_timestamp": "2026-07-01T22:39:04+08:00",
       "end_timestamp": "2026-07-01T22:39:04+08:00",
-      "markdown_size_bytes": 355291,
+      "markdown_size_bytes": 243974,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T14:54:28Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "b9d2b4e9-d5ff-41f3-a1a3-295504033b22": {
       "user_message_count": 5,
       "agent_message_count": 149,
       "start_timestamp": "2026-07-19T07:32:54+08:00",
       "end_timestamp": "2026-07-19T07:32:54+08:00",
-      "markdown_size_bytes": 210496,
+      "markdown_size_bytes": 99261,
       "provider": "cursoride",
-      "last_updated": "2026-07-19T12:30:01Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "ba6a6a0d-e9be-45b9-b2be-c15df81d2266": {
       "user_message_count": 1,
       "agent_message_count": 27,
       "start_timestamp": "2026-07-09T06:49:08+08:00",
       "end_timestamp": "2026-07-09T06:49:08+08:00",
-      "markdown_size_bytes": 32377,
+      "markdown_size_bytes": 24554,
       "provider": "cursoride",
-      "last_updated": "2026-07-09T14:07:33Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "bacc1f9b-d6cc-4bd7-816a-03d1dd2378ea": {
+      "user_message_count": 2,
+      "agent_message_count": 41,
+      "start_timestamp": "2026-06-18T15:21:57+08:00",
+      "end_timestamp": "2026-06-18T15:21:57+08:00",
+      "markdown_size_bytes": 24653,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "bae48044-c413-4a68-8c1e-ff9d1dda93db": {
       "user_message_count": 11,
@@ -1567,157 +2287,238 @@
       "last_updated": "2026-06-21T15:22:42Z"
     },
     "bb87f430-9252-4c5b-a02c-776ffeb88d0c": {
-      "user_message_count": 8,
-      "agent_message_count": 259,
+      "user_message_count": 11,
+      "agent_message_count": 464,
       "start_timestamp": "2026-07-02T09:07:08+08:00",
       "end_timestamp": "2026-07-02T09:07:08+08:00",
-      "markdown_size_bytes": 241311,
+      "markdown_size_bytes": 370124,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T01:50:23Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "bd54c7f9-1371-48a3-9db5-2197ffb573a1": {
+      "user_message_count": 2,
+      "agent_message_count": 67,
+      "start_timestamp": "2026-07-03T13:43:04+08:00",
+      "end_timestamp": "2026-07-03T13:43:04+08:00",
+      "markdown_size_bytes": 58268,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "bdfb7254-ce42-442d-b633-d8d5f85ab448": {
       "user_message_count": 5,
       "agent_message_count": 182,
       "start_timestamp": "2026-07-10T09:09:33+08:00",
       "end_timestamp": "2026-07-10T09:09:33+08:00",
-      "markdown_size_bytes": 235262,
+      "markdown_size_bytes": 203975,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T02:19:49Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "be076e47-8603-4221-994e-ba92a8f8a868": {
+      "user_message_count": 4,
+      "agent_message_count": 48,
+      "start_timestamp": "2026-06-19T16:40:10+08:00",
+      "end_timestamp": "2026-06-19T16:40:10+08:00",
+      "markdown_size_bytes": 25673,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "beefa5ab-565c-440b-a5c2-f7accc6520d7": {
       "user_message_count": 4,
-      "agent_message_count": 142,
+      "agent_message_count": 144,
       "start_timestamp": "2026-07-12T17:13:33+08:00",
       "end_timestamp": "2026-07-12T17:13:33+08:00",
-      "markdown_size_bytes": 105494,
+      "markdown_size_bytes": 87798,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T09:21:53Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "bf351298-c7e9-48ca-8de0-e759ab2a0e15": {
       "user_message_count": 4,
       "agent_message_count": 96,
       "start_timestamp": "2026-06-21T01:25:41+08:00",
       "end_timestamp": "2026-06-21T01:25:41+08:00",
-      "markdown_size_bytes": 239001,
+      "markdown_size_bytes": 99623,
       "provider": "cursoride",
-      "last_updated": "2026-06-22T02:08:06Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "bf4169e7-f7d7-4d4d-92f6-1281b370caee": {
-      "user_message_count": 1,
+      "user_message_count": 0,
       "agent_message_count": 35,
       "start_timestamp": "2026-06-23T23:03:56+08:00",
       "end_timestamp": "2026-06-23T23:03:56+08:00",
-      "markdown_size_bytes": 54314,
+      "markdown_size_bytes": 31982,
       "provider": "cursoride",
-      "last_updated": "2026-06-23T22:47:57Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "c106cb54-98f8-48a1-84ae-41e341c69277": {
       "user_message_count": 2,
-      "agent_message_count": 63,
+      "agent_message_count": 143,
       "start_timestamp": "2026-07-20T08:17:20+08:00",
       "end_timestamp": "2026-07-20T08:17:20+08:00",
-      "markdown_size_bytes": 70090,
+      "markdown_size_bytes": 105748,
       "provider": "cursoride",
-      "last_updated": "2026-07-20T00:21:33Z"
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "c1e81b1b-bb3d-4992-972d-8729eec0de18": {
+      "user_message_count": 2,
+      "agent_message_count": 67,
+      "start_timestamp": "2026-06-19T10:18:30+08:00",
+      "end_timestamp": "2026-06-19T10:18:30+08:00",
+      "markdown_size_bytes": 65609,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "c1ff3c71-840d-4041-9b20-de2e2f7d7307": {
       "user_message_count": 15,
-      "agent_message_count": 234,
+      "agent_message_count": 266,
       "start_timestamp": "2026-06-20T14:30:33+08:00",
       "end_timestamp": "2026-06-20T14:30:33+08:00",
-      "markdown_size_bytes": 171044,
+      "markdown_size_bytes": 146471,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T06:53:21Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "c2bea81e-dbbf-4c31-b564-acf092ec6fed": {
       "user_message_count": 10,
-      "agent_message_count": 289,
+      "agent_message_count": 290,
       "start_timestamp": "2026-07-02T08:24:02+08:00",
       "end_timestamp": "2026-07-02T08:24:02+08:00",
-      "markdown_size_bytes": 264133,
+      "markdown_size_bytes": 192118,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T01:52:53Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "c3c3b8ce-741f-4eb5-9901-c545d940ab96": {
       "user_message_count": 2,
       "agent_message_count": 20,
       "start_timestamp": "2026-07-12T17:13:46+08:00",
       "end_timestamp": "2026-07-12T17:13:46+08:00",
-      "markdown_size_bytes": 17606,
+      "markdown_size_bytes": 16309,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T09:15:43Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "c4a19a8d-bb3c-4a60-a073-80d5b40dcf1b": {
       "user_message_count": 4,
-      "agent_message_count": 261,
+      "agent_message_count": 322,
       "start_timestamp": "2026-07-01T22:04:02+08:00",
       "end_timestamp": "2026-07-01T22:04:02+08:00",
-      "markdown_size_bytes": 436193,
+      "markdown_size_bytes": 180541,
       "provider": "cursoride",
-      "last_updated": "2026-07-01T14:33:26Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "c4f3c106-3ba7-4d04-bc52-0d9de76452c2": {
       "user_message_count": 2,
-      "agent_message_count": 47,
+      "agent_message_count": 85,
       "start_timestamp": "2026-07-10T21:10:50+08:00",
       "end_timestamp": "2026-07-10T21:10:50+08:00",
-      "markdown_size_bytes": 33791,
+      "markdown_size_bytes": 51050,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T13:14:07Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "c70d545b-1455-49fb-baff-dd0416641167": {
       "user_message_count": 1,
-      "agent_message_count": 17,
+      "agent_message_count": 36,
       "start_timestamp": "2026-07-19T20:56:56+08:00",
       "end_timestamp": "2026-07-19T20:56:56+08:00",
-      "markdown_size_bytes": 27864,
+      "markdown_size_bytes": 44423,
       "provider": "cursoride",
-      "last_updated": "2026-07-19T12:57:25Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "c71324da-4aa0-427c-8107-fae2daa03c5d": {
+      "user_message_count": 1,
+      "agent_message_count": 184,
+      "start_timestamp": "2026-07-10T14:19:18+08:00",
+      "end_timestamp": "2026-07-10T14:19:18+08:00",
+      "markdown_size_bytes": 119129,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "c7470d04-c0ee-4136-9702-f8c30cb834f4": {
+      "user_message_count": 20,
+      "agent_message_count": 290,
+      "start_timestamp": "2026-06-20T20:30:16+08:00",
+      "end_timestamp": "2026-06-20T20:30:16+08:00",
+      "markdown_size_bytes": 143050,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "c7f0cabc-f3f4-40d4-b854-d04ded453372": {
       "user_message_count": 16,
-      "agent_message_count": 476,
+      "agent_message_count": 603,
       "start_timestamp": "2026-07-03T13:57:22+08:00",
       "end_timestamp": "2026-07-03T13:57:22+08:00",
-      "markdown_size_bytes": 333637,
+      "markdown_size_bytes": 332163,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T06:44:18Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "c84d1317-4da4-4c72-b0c4-a540b1d10b60": {
       "user_message_count": 1,
-      "agent_message_count": 4,
+      "agent_message_count": 16,
       "start_timestamp": "2026-07-06T17:24:25+08:00",
       "end_timestamp": "2026-07-06T17:24:25+08:00",
-      "markdown_size_bytes": 1273,
+      "markdown_size_bytes": 5426,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T09:25:01Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "c8510693-414a-4d8a-bcea-4106ded6e185": {
       "user_message_count": 2,
-      "agent_message_count": 14,
+      "agent_message_count": 26,
       "start_timestamp": "2026-07-12T17:09:22+08:00",
       "end_timestamp": "2026-07-12T17:09:22+08:00",
-      "markdown_size_bytes": 15299,
+      "markdown_size_bytes": 19532,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T09:12:15Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "c86b636a-05ed-4601-a224-85c38ee6244b": {
+      "user_message_count": 1,
+      "agent_message_count": 8,
+      "start_timestamp": "2026-06-19T21:31:38+08:00",
+      "end_timestamp": "2026-06-19T21:31:38+08:00",
+      "markdown_size_bytes": 7263,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "c95048e4-4c05-4d57-a92e-a743928ba7fe": {
+      "user_message_count": 1,
+      "agent_message_count": 30,
+      "start_timestamp": "2026-06-23T23:05:07+08:00",
+      "end_timestamp": "2026-06-23T23:05:07+08:00",
+      "markdown_size_bytes": 42766,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "ca570a56-998c-41dc-a679-da3bd69116a9": {
       "user_message_count": 5,
-      "agent_message_count": 99,
+      "agent_message_count": 147,
       "start_timestamp": "2026-07-14T12:32:45+08:00",
       "end_timestamp": "2026-07-14T12:32:45+08:00",
-      "markdown_size_bytes": 93172,
+      "markdown_size_bytes": 98668,
       "provider": "cursoride",
-      "last_updated": "2026-07-14T04:45:23Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "caf4ccc8-997b-4f30-a461-321bdc6c0207": {
       "user_message_count": 2,
-      "agent_message_count": 41,
+      "agent_message_count": 49,
       "start_timestamp": "2026-07-17T09:06:51+08:00",
       "end_timestamp": "2026-07-17T09:06:51+08:00",
-      "markdown_size_bytes": 47362,
+      "markdown_size_bytes": 47440,
       "provider": "cursoride",
-      "last_updated": "2026-07-17T01:09:35Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "cafe134b-63b7-4bde-9938-e0392b391a53": {
+      "user_message_count": 1,
+      "agent_message_count": 55,
+      "start_timestamp": "2026-07-20T19:28:59+08:00",
+      "end_timestamp": "2026-07-20T19:28:59+08:00",
+      "markdown_size_bytes": 34515,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "cb01f7b8-ae6a-4003-b666-1808a79a4308": {
+      "user_message_count": 1,
+      "agent_message_count": 18,
+      "start_timestamp": "2026-06-18T16:05:06+08:00",
+      "end_timestamp": "2026-06-18T16:05:06+08:00",
+      "markdown_size_bytes": 5433,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "cbaabf64-8444-4bfd-b157-d758c27bb28d": {
       "user_message_count": 3,
@@ -1733,99 +2534,126 @@
       "agent_message_count": 71,
       "start_timestamp": "2026-06-20T10:45:48+08:00",
       "end_timestamp": "2026-06-20T10:45:48+08:00",
-      "markdown_size_bytes": 50632,
+      "markdown_size_bytes": 37863,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T02:50:50Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "cc1c2199-caab-4d86-b2b3-a4dcb950b302": {
       "user_message_count": 16,
-      "agent_message_count": 459,
+      "agent_message_count": 519,
       "start_timestamp": "2026-07-07T17:07:28+08:00",
       "end_timestamp": "2026-07-07T17:07:28+08:00",
-      "markdown_size_bytes": 280780,
+      "markdown_size_bytes": 259256,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T09:59:11Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "cd35eb98-f69e-4a84-8c99-30ddde9fae30": {
+      "user_message_count": 2,
+      "agent_message_count": 100,
+      "start_timestamp": "2026-06-19T19:07:57+08:00",
+      "end_timestamp": "2026-06-19T19:07:57+08:00",
+      "markdown_size_bytes": 73721,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "cdab3e6b-a884-4c15-af82-a0011278d02d": {
       "user_message_count": 5,
-      "agent_message_count": 143,
+      "agent_message_count": 156,
       "start_timestamp": "2026-06-24T06:51:23+08:00",
       "end_timestamp": "2026-06-24T06:51:23+08:00",
-      "markdown_size_bytes": 125311,
+      "markdown_size_bytes": 97647,
       "provider": "cursoride",
-      "last_updated": "2026-06-23T23:14:47Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "cdf859b5-d63a-403d-9649-9757c6fb091c": {
       "user_message_count": 1,
-      "agent_message_count": 3,
+      "agent_message_count": 41,
       "start_timestamp": "2026-06-20T16:48:32+08:00",
       "end_timestamp": "2026-06-20T16:48:32+08:00",
-      "markdown_size_bytes": 125766,
+      "markdown_size_bytes": 27178,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T08:49:17Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "ce056ba3-4f01-42dc-bb7d-27b43ee81891": {
       "user_message_count": 2,
-      "agent_message_count": 33,
+      "agent_message_count": 127,
       "start_timestamp": "2026-06-20T19:43:50+08:00",
       "end_timestamp": "2026-06-20T19:43:50+08:00",
-      "markdown_size_bytes": 25826,
+      "markdown_size_bytes": 67095,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T11:45:57Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "ce2293f4-1d1c-49c5-aa49-3dc0cf68dbf8": {
       "user_message_count": 1,
-      "agent_message_count": 23,
+      "agent_message_count": 73,
       "start_timestamp": "2026-07-03T06:40:12+08:00",
       "end_timestamp": "2026-07-03T06:40:12+08:00",
-      "markdown_size_bytes": 13542,
+      "markdown_size_bytes": 39597,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T22:41:43Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "ce389500-f013-495c-87ae-fee40e8b7822": {
+      "user_message_count": 1,
+      "agent_message_count": 121,
+      "start_timestamp": "2026-07-17T09:21:56+08:00",
+      "end_timestamp": "2026-07-17T09:21:56+08:00",
+      "markdown_size_bytes": 205466,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "ce7dc9cb-e145-4bbb-a07f-7a7c963da9ac": {
-      "user_message_count": 3,
-      "agent_message_count": 43,
+      "user_message_count": 4,
+      "agent_message_count": 70,
       "start_timestamp": "2026-07-06T12:36:19+08:00",
       "end_timestamp": "2026-07-06T12:36:19+08:00",
-      "markdown_size_bytes": 72400,
+      "markdown_size_bytes": 70835,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T04:46:45Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "cf255367-800e-4f49-ad2e-2fefbdfb7247": {
       "user_message_count": 6,
       "agent_message_count": 114,
       "start_timestamp": "2026-07-10T22:51:21+08:00",
       "end_timestamp": "2026-07-10T22:51:21+08:00",
-      "markdown_size_bytes": 76399,
+      "markdown_size_bytes": 67064,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T23:03:52Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "cf652fb6-ab78-4bc4-a442-66f4c7f048c8": {
       "user_message_count": 2,
-      "agent_message_count": 21,
+      "agent_message_count": 53,
       "start_timestamp": "2026-07-10T20:31:04+08:00",
       "end_timestamp": "2026-07-10T20:31:04+08:00",
-      "markdown_size_bytes": 10302,
+      "markdown_size_bytes": 25186,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T12:34:02Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "cff8fbab-b9db-4d38-b5fc-fa6d08bf61bc": {
       "user_message_count": 3,
-      "agent_message_count": 263,
+      "agent_message_count": 299,
       "start_timestamp": "2026-07-09T23:34:09+08:00",
       "end_timestamp": "2026-07-09T23:34:09+08:00",
-      "markdown_size_bytes": 238907,
+      "markdown_size_bytes": 205463,
       "provider": "cursoride",
-      "last_updated": "2026-07-09T16:00:49Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "d0f25b8a-59ca-4878-93d4-54ff3ecc9da9": {
       "user_message_count": 5,
-      "agent_message_count": 155,
+      "agent_message_count": 178,
       "start_timestamp": "2026-07-15T22:44:16+08:00",
       "end_timestamp": "2026-07-15T22:44:16+08:00",
-      "markdown_size_bytes": 145564,
+      "markdown_size_bytes": 129127,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T15:11:05Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "d182d8ce-4d06-4a2b-a01d-aafb26b15384": {
+      "user_message_count": 1,
+      "agent_message_count": 33,
+      "start_timestamp": "2026-06-19T21:27:25+08:00",
+      "end_timestamp": "2026-06-19T21:27:25+08:00",
+      "markdown_size_bytes": 15011,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "d185ec7a-d6c4-4f28-a017-7405b6f65a94": {
       "user_message_count": 1,
@@ -1834,286 +2662,340 @@
       "end_timestamp": "2026-06-23T01:21:26+08:00",
       "markdown_size_bytes": 7080,
       "provider": "cursoride",
-      "last_updated": "2026-06-23T22:47:57Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "d21f515a-1e22-4939-b5c3-7b85d448426e": {
       "user_message_count": 1,
       "agent_message_count": 11,
       "start_timestamp": "2026-07-07T22:51:03+08:00",
       "end_timestamp": "2026-07-07T22:51:03+08:00",
-      "markdown_size_bytes": 3213,
+      "markdown_size_bytes": 2635,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T14:52:05Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "d28d41f3-7837-4e11-ab01-acc9ccc2cc00": {
+      "user_message_count": 4,
+      "agent_message_count": 165,
+      "start_timestamp": "2026-06-19T15:09:22+08:00",
+      "end_timestamp": "2026-06-19T15:09:22+08:00",
+      "markdown_size_bytes": 162172,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "d310b698-c862-4170-b8d9-e8a16a2127ef": {
+      "user_message_count": 1,
+      "agent_message_count": 14,
+      "start_timestamp": "2026-06-19T10:40:50+08:00",
+      "end_timestamp": "2026-06-19T10:40:50+08:00",
+      "markdown_size_bytes": 8445,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "d3a9276f-8a66-4fe4-a47e-b638572cb95c": {
       "user_message_count": 1,
-      "agent_message_count": 1,
+      "agent_message_count": 13,
       "start_timestamp": "2026-02-20T11:58:02+08:00",
       "end_timestamp": "1970-01-01T08:00:00+08:00",
-      "markdown_size_bytes": 726,
+      "markdown_size_bytes": 29357,
       "provider": "copilotide",
-      "last_updated": "2026-07-20T00:59:47Z"
+      "last_updated": "2026-07-22T12:10:08Z"
     },
     "d3b5f82c-55d5-4290-a04f-74e2a070aa74": {
       "user_message_count": 7,
-      "agent_message_count": 519,
+      "agent_message_count": 563,
       "start_timestamp": "2026-07-07T22:32:44+08:00",
       "end_timestamp": "2026-07-07T22:32:44+08:00",
-      "markdown_size_bytes": 553573,
+      "markdown_size_bytes": 442988,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T15:31:50Z"
+      "last_updated": "2026-07-22T12:10:20Z"
+    },
+    "d482345d-e30f-4e41-8dba-e7a73f8dc1f7": {
+      "user_message_count": 1,
+      "agent_message_count": 45,
+      "start_timestamp": "2026-06-18T16:08:49+08:00",
+      "end_timestamp": "2026-06-18T16:08:49+08:00",
+      "markdown_size_bytes": 42743,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "d539b302-ecd4-434e-b951-b1cfa801daab": {
       "user_message_count": 4,
-      "agent_message_count": 116,
+      "agent_message_count": 134,
       "start_timestamp": "2026-06-28T11:00:38+08:00",
       "end_timestamp": "2026-06-28T11:00:38+08:00",
-      "markdown_size_bytes": 135861,
+      "markdown_size_bytes": 105433,
       "provider": "cursoride",
-      "last_updated": "2026-06-28T03:17:29Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "d5770a98-199f-42ec-b7fd-dfcf5c6d89a8": {
       "user_message_count": 2,
-      "agent_message_count": 51,
+      "agent_message_count": 79,
       "start_timestamp": "2026-07-10T19:56:11+08:00",
       "end_timestamp": "2026-07-10T19:56:11+08:00",
-      "markdown_size_bytes": 27512,
+      "markdown_size_bytes": 59820,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T12:03:22Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "d60304ff-05ae-4666-b3e6-37028aa4d815": {
       "user_message_count": 1,
       "agent_message_count": 12,
       "start_timestamp": "2026-07-12T19:48:51+08:00",
       "end_timestamp": "2026-07-12T19:48:51+08:00",
-      "markdown_size_bytes": 3839,
+      "markdown_size_bytes": 3250,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T11:49:10Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "d69f4a0a-532f-4d42-91bd-ad2dc45c59cc": {
+      "user_message_count": 1,
+      "agent_message_count": 51,
+      "start_timestamp": "2026-06-20T01:18:56+08:00",
+      "end_timestamp": "2026-06-20T01:18:56+08:00",
+      "markdown_size_bytes": 39131,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "d8842e4d-a756-435a-8558-e82329c3d8fb": {
       "user_message_count": 3,
       "agent_message_count": 68,
       "start_timestamp": "2026-06-20T16:56:21+08:00",
       "end_timestamp": "2026-06-20T16:56:21+08:00",
-      "markdown_size_bytes": 56358,
+      "markdown_size_bytes": 48944,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T09:03:41Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "d921629c-1597-44f0-9528-53539dc0f1c9": {
+      "user_message_count": 1,
+      "agent_message_count": 97,
+      "start_timestamp": "2026-06-20T11:21:22+08:00",
+      "end_timestamp": "2026-06-20T11:21:22+08:00",
+      "markdown_size_bytes": 69146,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "d932093a-86bd-40ee-8c62-5ed88591dcac": {
       "user_message_count": 2,
-      "agent_message_count": 52,
+      "agent_message_count": 74,
       "start_timestamp": "2026-07-06T10:22:55+08:00",
       "end_timestamp": "2026-07-06T10:22:55+08:00",
-      "markdown_size_bytes": 237132,
+      "markdown_size_bytes": 140258,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T02:27:34Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "dafda658-2c2a-4864-976c-8f95e719bab4": {
       "user_message_count": 5,
-      "agent_message_count": 185,
+      "agent_message_count": 198,
       "start_timestamp": "2026-07-03T07:40:15+08:00",
       "end_timestamp": "2026-07-03T07:40:15+08:00",
-      "markdown_size_bytes": 247349,
+      "markdown_size_bytes": 219937,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T00:00:51Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "db7adbff-ccce-427a-9852-fd60cd937411": {
-      "user_message_count": 12,
-      "agent_message_count": 92,
+      "user_message_count": 13,
+      "agent_message_count": 119,
       "start_timestamp": "2026-07-13T22:14:50+08:00",
       "end_timestamp": "2026-07-13T22:14:50+08:00",
-      "markdown_size_bytes": 64195,
+      "markdown_size_bytes": 70684,
       "provider": "cursoride",
-      "last_updated": "2026-07-13T15:11:05Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "dd181b83-4aba-484d-a585-1aef3e968aee": {
       "user_message_count": 7,
-      "agent_message_count": 99,
+      "agent_message_count": 102,
       "start_timestamp": "2026-07-06T12:27:35+08:00",
       "end_timestamp": "2026-07-06T12:27:35+08:00",
-      "markdown_size_bytes": 278705,
+      "markdown_size_bytes": 244773,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T04:40:20Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "de922c8e-132e-44f1-9f7b-d0743c7bfacf": {
       "user_message_count": 2,
       "agent_message_count": 19,
       "start_timestamp": "2026-07-12T19:49:40+08:00",
       "end_timestamp": "2026-07-12T19:49:40+08:00",
-      "markdown_size_bytes": 8071,
+      "markdown_size_bytes": 6916,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T11:51:44Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "ded733da-8a64-466f-863c-02de0d91e1f8": {
       "user_message_count": 2,
-      "agent_message_count": 29,
+      "agent_message_count": 30,
       "start_timestamp": "2026-07-10T20:51:28+08:00",
       "end_timestamp": "2026-07-10T20:51:28+08:00",
-      "markdown_size_bytes": 17663,
+      "markdown_size_bytes": 18215,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T12:56:33Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "e0157445-430a-46b8-b109-a0d2e932b5d3": {
-      "user_message_count": 1,
-      "agent_message_count": 37,
+      "user_message_count": 2,
+      "agent_message_count": 69,
       "start_timestamp": "2026-07-15T19:46:47+08:00",
       "end_timestamp": "2026-07-15T19:46:47+08:00",
-      "markdown_size_bytes": 25251,
+      "markdown_size_bytes": 45522,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T11:47:30Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "e02c0912-0cd3-4431-aef1-222112bc700a": {
       "user_message_count": 3,
-      "agent_message_count": 36,
+      "agent_message_count": 39,
       "start_timestamp": "2026-07-07T23:20:52+08:00",
       "end_timestamp": "2026-07-07T23:20:52+08:00",
-      "markdown_size_bytes": 99891,
+      "markdown_size_bytes": 45863,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T15:27:45Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "e1999be1-abaf-481e-943e-baedd20531e4": {
       "user_message_count": 6,
-      "agent_message_count": 125,
+      "agent_message_count": 166,
       "start_timestamp": "2026-07-03T14:41:32+08:00",
       "end_timestamp": "2026-07-03T14:41:32+08:00",
-      "markdown_size_bytes": 177075,
+      "markdown_size_bytes": 186132,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T07:26:48Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "e2391db2-a9b4-462d-923c-204f1cf75664": {
       "user_message_count": 2,
-      "agent_message_count": 65,
+      "agent_message_count": 74,
       "start_timestamp": "2026-07-02T13:35:18+08:00",
       "end_timestamp": "2026-07-02T13:35:18+08:00",
-      "markdown_size_bytes": 43381,
+      "markdown_size_bytes": 42993,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T05:38:22Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "e3544f19-f8a4-422e-8ee0-6e641fb348c3": {
       "user_message_count": 3,
-      "agent_message_count": 56,
+      "agent_message_count": 73,
       "start_timestamp": "2026-07-06T15:22:00+08:00",
       "end_timestamp": "2026-07-06T15:22:00+08:00",
-      "markdown_size_bytes": 37540,
+      "markdown_size_bytes": 36571,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T08:00:54Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "e3bac80b-3fa0-4223-8dc0-f92078870b09": {
       "user_message_count": 1,
-      "agent_message_count": 11,
+      "agent_message_count": 86,
       "start_timestamp": "2026-07-05T22:32:06+08:00",
       "end_timestamp": "2026-07-05T22:32:06+08:00",
-      "markdown_size_bytes": 4172,
+      "markdown_size_bytes": 38988,
       "provider": "cursoride",
-      "last_updated": "2026-07-05T14:32:34Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "e3c28429-fc81-48b3-a559-95b39a3f5659": {
       "user_message_count": 11,
-      "agent_message_count": 190,
+      "agent_message_count": 216,
       "start_timestamp": "2026-07-15T09:19:17+08:00",
       "end_timestamp": "2026-07-15T09:19:17+08:00",
-      "markdown_size_bytes": 96617,
+      "markdown_size_bytes": 87128,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T03:06:21Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "e3eed36c-5aa2-414a-a047-b2c60e0f73d7": {
+      "user_message_count": 1,
+      "agent_message_count": 23,
+      "start_timestamp": "2026-06-18T16:37:03+08:00",
+      "end_timestamp": "2026-06-18T16:37:03+08:00",
+      "markdown_size_bytes": 11431,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "e40a6101-bb46-492b-879d-64213406f0d3": {
       "user_message_count": 1,
-      "agent_message_count": 4,
+      "agent_message_count": 10,
       "start_timestamp": "2026-07-02T21:00:15+08:00",
       "end_timestamp": "2026-07-02T21:00:15+08:00",
-      "markdown_size_bytes": 1427,
+      "markdown_size_bytes": 4535,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T13:01:01Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "e40ad918-ffa4-4bfa-b2e8-f33e274e5e0c": {
-      "user_message_count": 1,
-      "agent_message_count": 13,
+      "user_message_count": 2,
+      "agent_message_count": 83,
       "start_timestamp": "2026-07-08T10:17:18+08:00",
       "end_timestamp": "2026-07-08T10:17:18+08:00",
-      "markdown_size_bytes": 8749,
+      "markdown_size_bytes": 46075,
       "provider": "cursoride",
-      "last_updated": "2026-07-08T02:17:56Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "e42423fe-0e12-402b-b536-a2535767282f": {
       "user_message_count": 2,
       "agent_message_count": 23,
       "start_timestamp": "2026-07-09T06:22:53+08:00",
       "end_timestamp": "2026-07-09T06:22:53+08:00",
-      "markdown_size_bytes": 9644,
+      "markdown_size_bytes": 7886,
       "provider": "cursoride",
-      "last_updated": "2026-07-08T22:25:09Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "e531dc90-037f-4f93-8131-8f1d890b9ae7": {
       "user_message_count": 1,
       "agent_message_count": 118,
       "start_timestamp": "2026-07-11T08:02:19+08:00",
       "end_timestamp": "2026-07-11T08:02:19+08:00",
-      "markdown_size_bytes": 92519,
+      "markdown_size_bytes": 78713,
       "provider": "cursoride",
-      "last_updated": "2026-07-11T23:01:17Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "e5666e21-784f-4c02-9c9d-479213ee01a8": {
       "user_message_count": 1,
-      "agent_message_count": 12,
+      "agent_message_count": 35,
       "start_timestamp": "2026-07-02T21:36:17+08:00",
       "end_timestamp": "2026-07-02T21:36:17+08:00",
-      "markdown_size_bytes": 7888,
+      "markdown_size_bytes": 20656,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T13:37:03Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "e6d63edd-79e0-4ed2-9802-65b3fa54b83d": {
       "user_message_count": 1,
-      "agent_message_count": 7,
+      "agent_message_count": 43,
       "start_timestamp": "2026-07-06T15:13:26+08:00",
       "end_timestamp": "2026-07-06T15:13:26+08:00",
-      "markdown_size_bytes": 4918,
+      "markdown_size_bytes": 30908,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T07:14:19Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "e87bdb18-671a-48a6-9732-d8a928cd8069": {
       "user_message_count": 3,
-      "agent_message_count": 34,
+      "agent_message_count": 36,
       "start_timestamp": "2026-06-20T12:59:15+08:00",
       "end_timestamp": "2026-06-20T12:59:15+08:00",
-      "markdown_size_bytes": 15505,
+      "markdown_size_bytes": 13273,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T05:03:56Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "e8c2e78f-9b49-4003-aee8-6b7a89f8af95": {
       "user_message_count": 4,
-      "agent_message_count": 128,
+      "agent_message_count": 142,
       "start_timestamp": "2026-07-15T22:53:55+08:00",
       "end_timestamp": "2026-07-15T22:53:55+08:00",
-      "markdown_size_bytes": 123335,
+      "markdown_size_bytes": 101073,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T15:08:35Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "e90971f4-4bda-4f33-a45d-96776950e68b": {
       "user_message_count": 2,
-      "agent_message_count": 54,
+      "agent_message_count": 112,
       "start_timestamp": "2026-07-03T13:14:19+08:00",
       "end_timestamp": "2026-07-03T13:14:19+08:00",
-      "markdown_size_bytes": 136273,
+      "markdown_size_bytes": 130202,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T05:22:01Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "e90b1974-ae00-4112-8733-0fdd3603c1bc": {
       "user_message_count": 1,
-      "agent_message_count": 5,
+      "agent_message_count": 32,
       "start_timestamp": "2026-07-10T22:23:14+08:00",
       "end_timestamp": "2026-07-10T22:23:14+08:00",
-      "markdown_size_bytes": 3620,
+      "markdown_size_bytes": 21909,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T14:23:37Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "e924fec1-8350-4e6e-9373-837e53a7a0f3": {
       "user_message_count": 1,
-      "agent_message_count": 5,
+      "agent_message_count": 71,
       "start_timestamp": "2026-07-06T16:15:57+08:00",
       "end_timestamp": "2026-07-06T16:15:57+08:00",
-      "markdown_size_bytes": 3459,
+      "markdown_size_bytes": 38104,
       "provider": "cursoride",
-      "last_updated": "2026-07-06T08:16:19Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "e960246c-743c-4a4c-8b09-b4a03bc3d157": {
       "user_message_count": 5,
@@ -2125,211 +3007,265 @@
       "last_updated": "2026-06-21T10:50:28Z"
     },
     "e98f1783-44e4-450f-a6f6-1633a30c7a8c": {
-      "user_message_count": 5,
-      "agent_message_count": 135,
+      "user_message_count": 6,
+      "agent_message_count": 140,
       "start_timestamp": "2026-06-20T22:14:13+08:00",
       "end_timestamp": "2026-06-20T22:14:13+08:00",
-      "markdown_size_bytes": 93786,
+      "markdown_size_bytes": 72101,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T14:33:37Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "e9e8c288-0b40-4b8e-b14a-bcd889670601": {
+      "user_message_count": 3,
+      "agent_message_count": 69,
+      "start_timestamp": "2026-06-19T10:42:05+08:00",
+      "end_timestamp": "2026-06-19T10:42:05+08:00",
+      "markdown_size_bytes": 38214,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "ea2eda89-de97-4059-8178-591f16c5941c": {
       "user_message_count": 1,
-      "agent_message_count": 5,
+      "agent_message_count": 26,
       "start_timestamp": "2026-07-09T06:29:32+08:00",
       "end_timestamp": "2026-07-09T06:29:32+08:00",
-      "markdown_size_bytes": 1944,
+      "markdown_size_bytes": 9224,
       "provider": "cursoride",
-      "last_updated": "2026-07-08T22:31:05Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "eb30b9d8-d0ca-4602-be72-25460cab9421": {
+      "user_message_count": 9,
+      "agent_message_count": 254,
+      "start_timestamp": "2026-07-22T20:10:07+08:00",
+      "end_timestamp": "2026-07-22T20:10:07+08:00",
+      "markdown_size_bytes": 189107,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:29:16Z"
     },
     "ecbe0b56-3ed7-4ef2-b466-ed0bcb448597": {
       "user_message_count": 3,
-      "agent_message_count": 116,
+      "agent_message_count": 136,
       "start_timestamp": "2026-07-13T23:20:42+08:00",
       "end_timestamp": "2026-07-13T23:20:42+08:00",
-      "markdown_size_bytes": 154149,
+      "markdown_size_bytes": 89335,
       "provider": "cursoride",
-      "last_updated": "2026-07-13T15:28:15Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "ede35603-e33d-4cdc-8c71-114081ac4008": {
-      "user_message_count": 1,
-      "agent_message_count": 32,
+      "user_message_count": 2,
+      "agent_message_count": 48,
       "start_timestamp": "2026-07-05T22:37:42+08:00",
       "end_timestamp": "2026-07-05T22:37:42+08:00",
-      "markdown_size_bytes": 24578,
+      "markdown_size_bytes": 29819,
       "provider": "cursoride",
-      "last_updated": "2026-07-05T14:38:33Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "edf952d2-16ba-4f11-826e-1236ff132ba5": {
       "user_message_count": 5,
       "agent_message_count": 71,
       "start_timestamp": "2026-07-14T00:24:58+08:00",
       "end_timestamp": "2026-07-14T00:24:58+08:00",
-      "markdown_size_bytes": 37163,
+      "markdown_size_bytes": 32167,
       "provider": "cursoride",
-      "last_updated": "2026-07-14T00:17:43Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "eee41322-da90-4b74-ae67-5aa5df605d97": {
       "user_message_count": 10,
-      "agent_message_count": 589,
+      "agent_message_count": 654,
       "start_timestamp": "2026-06-20T12:29:21+08:00",
       "end_timestamp": "2026-06-20T12:29:21+08:00",
-      "markdown_size_bytes": 404193,
+      "markdown_size_bytes": 342454,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T04:58:27Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "ef66e430-859a-4de2-8016-11d1e1b1a66f": {
-      "user_message_count": 1,
-      "agent_message_count": 16,
+      "user_message_count": 3,
+      "agent_message_count": 110,
       "start_timestamp": "2026-07-02T09:59:11+08:00",
       "end_timestamp": "2026-07-02T09:59:11+08:00",
-      "markdown_size_bytes": 18811,
+      "markdown_size_bytes": 75578,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T01:59:50Z"
+      "last_updated": "2026-07-22T12:10:20Z"
     },
     "efe1c39d-9f11-48c0-b4f9-9a64003b6bd0": {
       "user_message_count": 11,
       "agent_message_count": 147,
       "start_timestamp": "2026-07-13T09:23:10+08:00",
       "end_timestamp": "2026-07-13T09:23:10+08:00",
-      "markdown_size_bytes": 235038,
+      "markdown_size_bytes": 103233,
       "provider": "cursoride",
-      "last_updated": "2026-07-13T14:14:35Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "f000d7fb-9e64-4c11-9475-025102db2449": {
       "user_message_count": 2,
       "agent_message_count": 29,
       "start_timestamp": "2026-07-12T19:51:51+08:00",
       "end_timestamp": "2026-07-12T19:51:51+08:00",
-      "markdown_size_bytes": 14655,
+      "markdown_size_bytes": 12748,
       "provider": "cursoride",
-      "last_updated": "2026-07-12T23:14:30Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "f01997fe-8754-4c22-84f5-7cc5cbab0c1d": {
-      "user_message_count": 4,
-      "agent_message_count": 211,
+      "user_message_count": 5,
+      "agent_message_count": 259,
       "start_timestamp": "2026-06-20T18:42:35+08:00",
       "end_timestamp": "2026-06-20T18:42:35+08:00",
-      "markdown_size_bytes": 444486,
+      "markdown_size_bytes": 197941,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T11:30:53Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "f04db186-744a-42d1-be90-02d7f3645c09": {
+      "user_message_count": 1,
+      "agent_message_count": 97,
+      "start_timestamp": "2026-07-02T08:21:58+08:00",
+      "end_timestamp": "2026-07-02T08:21:58+08:00",
+      "markdown_size_bytes": 55141,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "f163387c-6187-4cac-9b65-372874717f15": {
+      "user_message_count": 4,
+      "agent_message_count": 99,
+      "start_timestamp": "2026-06-19T18:25:51+08:00",
+      "end_timestamp": "2026-06-19T18:25:51+08:00",
+      "markdown_size_bytes": 44683,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "f171092a-22bc-476f-a93d-ce09cdbd2e57": {
       "user_message_count": 1,
-      "agent_message_count": 11,
+      "agent_message_count": 32,
       "start_timestamp": "2026-07-10T20:56:17+08:00",
       "end_timestamp": "2026-07-10T20:56:17+08:00",
-      "markdown_size_bytes": 7247,
+      "markdown_size_bytes": 17963,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T12:57:03Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "f1792a54-1caa-4dbb-b648-ac0ad6d2a1bd": {
       "user_message_count": 1,
       "agent_message_count": 70,
       "start_timestamp": "2026-07-10T00:10:36+08:00",
       "end_timestamp": "2026-07-10T00:10:36+08:00",
-      "markdown_size_bytes": 115305,
+      "markdown_size_bytes": 82342,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T01:09:49Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "f695817e-72f5-4317-8d78-258806506c13": {
       "user_message_count": 5,
-      "agent_message_count": 76,
+      "agent_message_count": 84,
       "start_timestamp": "2026-07-15T19:29:05+08:00",
       "end_timestamp": "2026-07-15T19:29:05+08:00",
-      "markdown_size_bytes": 62562,
+      "markdown_size_bytes": 50202,
       "provider": "cursoride",
-      "last_updated": "2026-07-15T11:37:55Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "f70e4399-f2cb-4fb8-853e-55b64ae5e5bb": {
       "user_message_count": 1,
-      "agent_message_count": 20,
+      "agent_message_count": 38,
       "start_timestamp": "2026-07-03T10:42:11+08:00",
       "end_timestamp": "2026-07-03T10:42:11+08:00",
-      "markdown_size_bytes": 15205,
+      "markdown_size_bytes": 26315,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T02:42:50Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "f8ad9944-1088-447b-b36c-6d35ac74f6e9": {
       "user_message_count": 2,
       "agent_message_count": 40,
       "start_timestamp": "2026-06-29T08:45:19+08:00",
       "end_timestamp": "2026-06-29T08:45:19+08:00",
-      "markdown_size_bytes": 54641,
+      "markdown_size_bytes": 23562,
       "provider": "cursoride",
-      "last_updated": "2026-06-29T00:49:15Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "f9f17540-d88a-49e5-afce-d0ce2c5754cb": {
       "user_message_count": 11,
       "agent_message_count": 616,
       "start_timestamp": "2026-07-09T22:18:35+08:00",
       "end_timestamp": "2026-07-09T22:18:35+08:00",
-      "markdown_size_bytes": 466724,
+      "markdown_size_bytes": 401933,
       "provider": "cursoride",
-      "last_updated": "2026-07-09T15:27:45Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "fc503dae-bee8-48de-9989-d4365dc7a7f3": {
       "user_message_count": 3,
-      "agent_message_count": 31,
+      "agent_message_count": 44,
       "start_timestamp": "2026-07-14T08:17:51+08:00",
       "end_timestamp": "2026-07-14T08:17:51+08:00",
-      "markdown_size_bytes": 16319,
+      "markdown_size_bytes": 18564,
       "provider": "cursoride",
-      "last_updated": "2026-07-14T01:26:53Z"
+      "last_updated": "2026-07-22T12:10:21Z"
+    },
+    "fde68c22-a2d9-43b3-bc05-008f17e4f72c": {
+      "user_message_count": 1,
+      "agent_message_count": 27,
+      "start_timestamp": "2026-06-19T10:11:44+08:00",
+      "end_timestamp": "2026-06-19T10:11:44+08:00",
+      "markdown_size_bytes": 24445,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "fe1d538e-8102-4217-8b00-53d25f8fd2bb": {
       "user_message_count": 3,
-      "agent_message_count": 27,
+      "agent_message_count": 30,
       "start_timestamp": "2026-07-07T11:36:19+08:00",
       "end_timestamp": "2026-07-07T11:36:19+08:00",
-      "markdown_size_bytes": 15258,
+      "markdown_size_bytes": 13646,
       "provider": "cursoride",
-      "last_updated": "2026-07-07T03:42:07Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "fe3f997d-4c23-4a9e-b926-f85cf90ac21d": {
-      "user_message_count": 6,
-      "agent_message_count": 289,
+      "user_message_count": 7,
+      "agent_message_count": 324,
       "start_timestamp": "2026-06-20T14:58:41+08:00",
       "end_timestamp": "2026-06-20T14:58:41+08:00",
-      "markdown_size_bytes": 267827,
+      "markdown_size_bytes": 217272,
       "provider": "cursoride",
-      "last_updated": "2026-06-20T07:29:58Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     },
     "fe814ff4-e0a7-4768-a301-3026e846b8a4": {
       "user_message_count": 2,
       "agent_message_count": 32,
       "start_timestamp": "2026-07-20T08:45:49+08:00",
       "end_timestamp": "2026-07-20T08:45:49+08:00",
-      "markdown_size_bytes": 17885,
+      "markdown_size_bytes": 15683,
       "provider": "cursoride",
-      "last_updated": "2026-07-20T00:59:57Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "fea56481-5333-4513-82eb-9b16aa11b4b5": {
       "user_message_count": 2,
-      "agent_message_count": 44,
+      "agent_message_count": 62,
       "start_timestamp": "2026-07-10T22:17:01+08:00",
       "end_timestamp": "2026-07-10T22:17:01+08:00",
-      "markdown_size_bytes": 49660,
+      "markdown_size_bytes": 37730,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T14:20:06Z"
+      "last_updated": "2026-07-22T12:10:22Z"
+    },
+    "ff71447a-8f2e-471c-b6f7-27f1f1f65572": {
+      "user_message_count": 1,
+      "agent_message_count": 12,
+      "start_timestamp": "2026-06-19T21:17:29+08:00",
+      "end_timestamp": "2026-06-19T21:17:29+08:00",
+      "markdown_size_bytes": 7185,
+      "provider": "cursoride",
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "ff7ded9b-730d-4f5e-9189-3210975db7e6": {
-      "user_message_count": 1,
-      "agent_message_count": 2,
+      "user_message_count": 2,
+      "agent_message_count": 68,
       "start_timestamp": "2026-07-02T20:50:16+08:00",
       "end_timestamp": "2026-07-02T20:50:16+08:00",
-      "markdown_size_bytes": 575,
+      "markdown_size_bytes": 33058,
       "provider": "cursoride",
-      "last_updated": "2026-07-02T12:50:54Z"
+      "last_updated": "2026-07-22T12:10:21Z"
     },
     "ffc430b2-e715-4209-bcb5-8d35f96dc1ab": {
       "user_message_count": 9,
-      "agent_message_count": 460,
+      "agent_message_count": 538,
       "start_timestamp": "2026-07-10T13:58:29+08:00",
       "end_timestamp": "2026-07-10T13:58:29+08:00",
-      "markdown_size_bytes": 500573,
+      "markdown_size_bytes": 450776,
       "provider": "cursoride",
-      "last_updated": "2026-07-10T12:07:23Z"
+      "last_updated": "2026-07-22T12:10:22Z"
     }
   }
 }

@@ -17,10 +17,8 @@ Searching the codebase for how spectrums and wavelength are used in the randomiz
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -103,21 +101,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -148,56 +137,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the spectrum mode configuration in randomizer.yaml and the build script. Also checking prior conversation details on wavelength comparison.</details></think>
+Reviewing the spectrum mode configuration in randomizer.yaml and the build script. Also checking prior conversation details on wavelength comparison.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-36-44Z-spectrum-and-wavelength-comparison.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-36-44Z-spectrum-and-wavelength-comparison.md</summary>
 
 </details></tool-use>
 
@@ -210,40 +175,27 @@ Reviewing the curate script scoring and weak spectrum pairs in the YAML file. Go
 
 Good spectrums need rich middle-ground options at many scale points. They should rely on concrete, familiar categories rather than abstract or synonym pairs. Temperature, size, speed, cost, and intensity are strong gradient dimensions. Avoid "Better X / Better Y" templates.
 
-Weak examples include binary either/or pairs, vague "Better X / Better Y" templates, and nonsensical combinations like indoor versus outdoor books. Stronger official spectrums include Hot versus Cold, Smells good versus Smells bad, Overrated versus Underrated, and Art versus Science. The key requirement is a smooth continuum where many distinct nouns or phrases can be placed at different scale positions.</details></think>
+Weak examples include binary either/or pairs, vague "Better X / Better Y" templates, and nonsensical combinations like indoor versus outdoor books. Stronger official spectrums include Hot versus Cold, Smells good versus Smells bad, Overrated versus Underrated, and Art versus Science. The key requirement is a smooth continuum where many distinct nouns or phrases can be placed at different scale positions.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -259,37 +211,25 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Wavelength](https://www.asmodee.ca/en/product/wavelength/)\n2. [Wavelength (game)](https://en.wikipedia.org/wiki/Wavelength_(game))\n3. [Wavelength (2019) - Board Game Wikia](https://boardgamewikia.com/wavelength/)\n4. [Steam Workshop::Wavelength (En/Fr) [Scripted, v2.7]](https://steamcommunity.com/sharedfiles/filedetails/?id=1710644686)\n5. [How to play Wavelength | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/wavelength/game-rules.php)\n\nSynthesis:\nWavelength is a social party game where players try to guess the location of a hidden bullseye on a dial based on a spectrum of two opposing concepts [1][2]. Players use prompt cards featuring binaries such as Hot - Cold, Job - Career, Rough - Smooth, Fantasy - Sci-Fi, and Sad Song - Happy Song [1][3][4]. The clue-giver, known as the Psychic, provides a single word or phrase conceptually positioned along that spectrum to guide their team to the target [5][6][7]. The game includes 84 double-sided cards for a total of 168 unique spectrums [6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWavelength\u003c/title\u003e\n\u003curl\u003ehttps://www.asmodee.ca/en/product/wavelength/\u003c/url\u003e\n\u003ccontent\u003eWavelength\n\n# Wavelength\n\nWavelength is a social guessing game in which two teams compete to read each other's minds.\n\nPlayers 2-12\n\nAge 14+\n\nDuration 30-45 min\n\nWhere to buy?\n\n#### Wavelength is a social guessing game in which two teams compete to read each other's minds.\n\nTeams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of…\n\nShow more\n\n#### Skills you'll use\n\n###### Teamwork\n\nPlay together as a team! With these games, cooperation is the way to victory!\n\nLearn the rules in video\n\n#### What's in the box\n\n- Rulebook\n- Custom plastic tray\n- 3 Scoring tokens\n- 84 Spectrum cards\n- \"The Device\"\n\n## Game details\n\n#### Wavelength is a social guessing game in which two teams compete to read each other's…\n\nTeams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is conceptually where the bullseye is located between those two binaries.\n\nTop\n\n## Liked Wavelength?Try these!\n\n### Just One\n\n### Unlock! – Escape Adventures\n\n- Unlock! is a cooperative card game inspired by escape rooms that uses a simple system… 10+ 1-6 60 min\n- Just One is a cooperative party game in which you play together to discover as… 8+ 3-7 15-30 min\n\n##### Let's stay connected!\n\nSubscribe to our newsletter here:\n\nSubscribe\n\nSkip\n\nI agree to receive information by e-mail and on social networks from Financière Amuse BidCo and the Asmodee Group companies listed text: here regarding their offers, services, games and events.\n\nYou may change your mind at any time.\n\nFor more information on the processing of your data, please see our Privacy Policy.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eWavelength (game)\u003c/title\u003e\n\u003curl\u003ehttps://en.wikipedia.org/wiki/Wavelength_(game)\u003c/url\u003e\n\u003ccontent\u003eWavelength is played with a deck of Spectrum cards, each listing two extremes at opposite ends of a spectrum (such as hot and cold), and with a custom device that has a point tracker, a dial on the outside, and a sliding hatch which opens to reveal a wheel with five small radial slices of different colours acting as the target range.\n...\nPlayers are divided into two teams and a player from the starting team is elected the \"Psychic\". The Psychic spins the device's wheel with the sliding hatch closed and secretly notes the position of the target range. A Spectrum card is then drawn and the Psychic gives a clue that suggests the location of the target slice on that spectrum. The Psychic's team attempt to interpret the clue and turn the dial to the location they guess it to be indicating. The opposing team then predicts whether they believe the guess to be to the left or to the right of the actual location. Once all guesses have been made, the sliding hatch is opened and the correct location of the target range is revealed.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eWavelength (2019) - Board Game Wikia\u003c/title\u003e\n\u003curl\u003ehttps://boardgamewikia.com/wavelength/\u003c/url\u003e\n\u003ccontent\u003eWavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is *conceptually* where the bullseye is located between those two binaries.\n...\nFor example, if the card this round is HOT-COLD and the bullseye is slightly to the \"cold\" side of the centre, the Psychic needs to give a clue somewhere in that region. Perhaps \"salad\"?\n...\nAfter the Psychic gives their clue, their team discusses where they think the bullseye is located and turns the dial to that location on that spectrum. The closer to the center of the bullseye the team guess, the more points they score!\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eSteam Workshop::Wavelength (En/Fr) [Scripted, v2.7]\u003c/title\u003e\n\u003curl\u003ehttps://steamcommunity.com/sharedfiles/filedetails/?id=1710644686\u003c/url\u003e\n\u003ccontent\u003eWavelength is a social guessing game where two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, but can only get your team to guess by:(1) Drawing a card with a pair of binaries on it, such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc....(2) Giving a clue that is *conceptually* where the bullseye is located between those two binaries.For example, if the card this round is HOT - COLD, the Psychic’s clue needs to be on the spectrum between extremely hot on the far left side to extremely cold on the far right side.After the Psychic gives their clue, your team discusses where they think the bullseye is located and turns the dial to that location on that spectrum.The closer to the center of the bullseye you guess, the more points your team scores!-----\n...\n(shown in 3rd video above): Dial controls! - Rotate the needle with the buttons - Adjust the amount of rotation with the number input in the middle - Spin the dial to get a random rotation on the spectrum - Cycles between showing the clue-giver the dial, revealing it to everyone but turning the spectrum black, and revealing the actual dial to everyone.-----Help needed for: Scans or good photos of the box (a 3d model would be appreciated), an assetBundle for the dial so it could be propped up and still be rotated properly (scripting makes rotation hard unless it's on one of the 3 main axes)-----Special thanks to CHRY's Starry Sky - Particle system mod!\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eHow to play Wavelength | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/wavelength/game-rules.php\u003c/url\u003e\n\u003ccontent\u003e- The Device\n- 84 spectrum cards\n- 3 Scoring tokens\n- Custom plastic tray\n- Rulebook\n...\nOne player from the active team-\n...\nPsychic-knows where the target is, but can only give a clue ON THE SPECTRUM between two opposing concepts. After that, their team- mates have to guess where the target is.\n...\nThey draw a card that has two opposing concepts on it, like \"Underrated - Overrated\" or \"Hot - Cold\".\n...\nThe psychic gives a clue where the target is located on the spectrum between the two concepts.\n...\nIn this example, the target is slightly to the \"hot\" side, so the Psychic says \"Coffee\" since coffee is hot, but not the hottest thing imaginable.\n...\nEach round begins with the current team's Psychic spinning the wheel to randomize the target's location, drawing a wavelength card, and giving a clue ON THE SPECTRUM between the two concepts on the card.\n...\nChoose a wavelength: Draw 1 wavelength card from the deck. They're double sided, and the Psychic can choose the side they want to use for their clue. On most cards there's a \"normal\" side and a \"weird\" side. Don't think too hard about it: just pick the one you find most interesting!\n...\nGive a clue: Look at where the target's center is located spatially along the visible area of the wheel. Now think of a clue that is conceptually where the target is located ON THE SPECTRUM between the two concepts on your card. Rules for how to give clues can be found later in this book.\n...\n's team has finalized their dial position, the\n...\n4 point\n...\nor right of the dial.\n...\nslot next to the\n...\nFor example, the image below shows the team guessing LEFT, i.e. they think the Psychic meant to convey something MORE HOT than the current team guessed.\n...\ntheir guesses, it's\n...\nmost exciting part of the game:\n...\nREVEAL. The Psychic opens the screen to reveal the target\n...\npoints if the dial is within the colored target area, as listed on the colored wedges (\n...\n-4 points).\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Wavelength](https://www.asmodee.ca/en/product/wavelength/)\n2. [Wavelength (game)](https://en.wikipedia.org/wiki/Wavelength_(game))\n3. [Wavelength (2019) - Board Game Wikia](https://boardgamewikia.com/wavelength/)\n4. [Steam Workshop::Wavelength (En/Fr) [Scripted, v2.7]](https://steamcommunity.com/sharedfiles/filedetails/?id=1710644686)\n5. [How to play Wavelength | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/wavelength/game-rules.php)\n\nSynthesis:\nWavelength is a social party game where players try to guess the location of a hidden bullseye on a dial based on a spectrum of two opposing concepts [1][2]. Players use prompt cards featuring binaries such as Hot - Cold, Job - Career, Rough - Smooth, Fantasy - Sci-Fi, and Sad Song - Happy Song [1][3][4]. The clue-giver, known as the Psychic, provides a single word or phrase conceptually positioned along that spectrum to guide their team to the target [5][6][7]. The game includes 84 double-sided cards for a total of 168 unique spectrums [6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWavelength\u003c/title\u003e\n\u003curl\u003ehttps://www.asmodee.ca/en/product/wavelength/\u003c/url\u003e\n\u003ccontent\u003eWavelength\n\n# Wavelength\n\nWavelength is a social guessing game in which two teams compete to read each other's minds.\n\nPlayers 2-12\n\nAge 14+\n\nDuration 30-45 min\n\nWhere to buy?\n\n#### Wavelength is a social guessing game in which two teams compete to read each other's minds.\n\nTeams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of…\n\nShow more\n\n#### Skills you'll use\n\n###### Teamwork\n\nPlay together as a team! With these games, cooperation is the way to victory!\n\nLearn the rules in video\n\n#### What's in the box\n\n- Rulebook\n- Custom plastic tray\n- 3 Scoring tokens\n- 84 Spectrum cards\n- \"The Device\"\n\n## Game details\n\n#### 
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants better spectrums for Wavelength gameplay. A hidden number on a scale should allow multiple possible answers. The clues must map across the full continuum.</details></think>
+The user wants better spectrums for Wavelength gameplay. A hidden number on a scale should allow multiple possible answers. The clues must map across the full continuum.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -302,42 +242,26 @@ Result:
 
 ```json
 {
-  "markdown": "Wavelength (2019) - Board Game Wikia\n\nx\n\n7.2\n\n# Wavelength (2019)\n\nRead your teammates’ minds in this pinpoint party game of infinite possibilities.\n\nRank: 528\n\n2-12 Players\n\n30-45 Min\n\nAge: 14+\n\nComplexity: 1.11/5\n\nDesigner: Alex Hague, Justin Vickers, Wolfgang Warsch\n\nArtist: Sofie Hannibal, Nan Na Hvass\n\nAdd to Favorites\n\n- Overview\n- How to Play\n- Videos\n- Play Now\n\nWavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is *conceptually* where the bullseye is located between those two binaries.\n\nFor example, if the card this round is HOT-COLD and the bullseye is slightly to the \"cold\" side of the centre, the Psychic needs to give a clue somewhere in that region. Perhaps \"salad\"?\n\nAfter the Psychic gives their clue, their team discusses where they think the bullseye is located and turns the dial to that location on that spectrum. The closer to the center of the bullseye the team guess, the more points they score!\n\n### Videos\n\nHow to Play\n\n### Wavelength Board Game - How to Play (Our BEST Teaching Video?)\n\nWavelength Board Game - How to Play (Our BEST Teaching Video?)\n\nReview\n\n### Wavelength Review - with Tom Vasel\n\nWavelength Review - with Tom Vasel\n\n### Where to Play Wavelength (2019)\n\n#### Board Game Cafes and Clubs Have Wavelength Near You\n\nShow me the way\n\n#### Play Online\n\nSorry, we can’t still find where to play this game online. If you know, please email us via [email protected]\n\n### Where to Buy Wavelength (2019)\n\nBuy now on Amazon\n\n*We could earn commissions when you purchase through these links.\n\n#### Classification\n\n##### Category\n\nhttps://boardgamewikia.com/browse/category/\n\n- Party Game\n\n##### Mechanism\n\n- Race\n- Targeted Clues\n- Team-Based Game\n\n##### Type\n\n- Party Games\n\n### Related Games\n\n### Suggested Games\n\nXem Nhanh\n\n### Change Password\n\nCurrent Password\n\nPassword\n\nRe-enter password\n\nReset Password X",
-  "url": "https://boardgamewikia.com/wavelength/"
-}
+  "markdown": "Wavelength (2019) - Board Game Wikia\n\nx\n\n7.2\n\n# Wavelength (2019)\n\nRead your teammates’ minds in this pinpoint party game of infinite possibilities.\n\nRank: 528\n\n2-12 Players\n\n30-45 Min\n\nAge: 14+\n\nComplexity: 1.11/5\n\nDesigner: Alex Hague, Justin Vickers, Wolfgang Warsch\n\nArtist: Sofie Hannibal, Nan Na Hvass\n\nAdd to Favorites\n\n- Overview\n- How to Play\n- Videos\n- Play Now\n\nWavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is *conceptually* where the bullseye is located between those two binaries.\n\nFor example, if the card this round is HOT-COLD and the bullseye is slightly to the \"cold\" side of the centre, the Psychic needs to give a clue somewhere in that region. Perhaps \"salad\"?\n\nAfter the Psychic gives their clue, their team discusses where they think the bullseye is located and turns the dial to that location on that spectrum. The closer to the center of the bullseye the team guess, the more points they score!\n\n### Videos\n\nHow to Play\n\n### Wavelength Board Game - How to Play (Our BEST Teaching Video?)\n\nWavelength Board Game - How to Play (Our BEST Teaching Video?)\n\nReview\n\n### Wavelength Review - with Tom Vasel\n\nWavelength Review - with Tom Vasel\n\n### Where to Play Wavelength (2019)\n\n#### Board Game Cafes and Clubs Have Wavelength Near You\n\nShow me the way\n\n#### Play Online\n\nSorry, we can’t still find where to play this game online. If you know, please email us via [email protected]\n\n### Where to Buy Wavelength (2019)\n\nBuy now on Amazon\n\n*We could earn commissions when you purchase throug
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-36-44Z-spectrum-and-wavelength-comparison.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-36-44Z-spectrum-and-wavelength-comparison.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -353,36 +277,19 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [How to Play Wavelength: Complete Game Rules Guide](https://www.wikihow.com/Play-Wavelength)\n2. [Wavelength – Christian Game Guy](https://christiangameguy.com/gamereviews/wavelength/)\n3. [Wavelength](https://www.asmodee.ca/en/product/wavelength/)\n4. [Wavelength | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/262543/wavelength)\n\nSynthesis:\nThe Wavelength game contains cards with the spectrums Smells bad - Smells good, Sandwich - Not a sandwich, and Fantasy - Sci-Fi [1][2][3][4]. These are specific examples of the game's binary spectrum prompts [1][3]. Because Wavelength features over 80 double-sided cards in its base set, a comprehensive public master list of every specific card combination is not maintained by the publisher, though community-created databases often track these components [5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to Play Wavelength: Complete Game Rules Guide\u003c/title\u003e\n\u003curl\u003ehttps://www.wikihow.com/Play-Wavelength\u003c/url\u003e\n\u003ccontent\u003eWavelength cards are double-sided, and each side lists 2 opposite ends of a spectrum, like “Hot - Cold,” “Smells good - Smells bad,” or “Sandwich - Not a sandwich.” The Psychic chooses a random card from the deck and picks whichever side they want. They read the card out loud to both teams before putting it in the game’s card slot.[2]\n...\n- Example: If the wavelength card is “Hot - Cold” and the target area is all the way to the left side, the Psychic may give a clue like “Lava” or “The Sun.” Avoid using multi-part clues, such as “Concrete on a summer day.”\n- Example: For the card “Sandwich - Not a Sandwich” and the target area is perfectly centered on the wheel, the Psychic could give a clue like “Hot dog.”\n- Clues must be on topic, and may not include any words on the wavelength card or their synonyms. Clues also cannot contain numbers.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eWavelength – Christian Game Guy\u003c/title\u003e\n\u003curl\u003ehttps://christiangameguy.com/gamereviews/wavelength/\u003c/url\u003e\n\u003ccontent\u003eThe game contains multiple cards which contain topics that can lead to inappropriate or uncomfortable topics. I’ve listed all of these cards below with a bullet point (look at example below). The game can easily be played with these cards thrown out.Example: Star Wars | Star Trek(the opposite of the other thing is on the other side of ” | “).\n...\nround in the\n...\n, each team picks a\n...\nwith giving a clue\n...\nthat will give their\n...\n. The name can easily be subbed out with words\n...\n“determiner\n...\nor “clue-giver”, without affecting gameplay.\n...\n•Useless body part | Useful body part•Feels\n...\n• Gossip | News•Forbidden | Encouraged•Underrated Weapon | Overrated Weapon•Uncontroversial topic | Controversial topic•Ugly man | Beautiful man•Smells bad | Smells good•Worst living person | Greatest living person\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eWavelength\u003c/title\u003e\n\u003curl\u003ehttps://www.asmodee.ca/en/product/wavelength/\u003c/url\u003e\n\u003ccontent\u003eWavelength\n\n# Wavelength\n\nWavelength is a social guessing game in which two teams compete to read each other's minds.\n\nPlayers 2-12\n\nAge 14+\n\nDuration 30-45 min\n\nWhere to buy?\n\n#### Wavelength is a social guessing game in which two teams compete to read each other's minds.\n\nTeams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of…\n\nShow more\n\n#### Skills you'll use\n\n###### Teamwork\n\nPlay together as a team! With these games, cooperation is the way to victory!\n\nLearn the rules in video\n\n#### What's in the box\n\n- Rulebook\n- Custom plastic tray\n- 3 Scoring tokens\n- 84 Spectrum cards\n- \"The Device\"\n\n## Game details\n\n#### Wavelength is a social guessing game in which two teams compete to read each other's…\n\nTeams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is conceptually where the bullseye is located between those two binaries.\n\nTop\n\n## Liked Wavelength?Try these!\n\n### Just One\n\n### Unlock! – Escape Adventures\n\n- Unlock! is a cooperative card game inspired by escape rooms that uses a simple system… 10+ 1-6 60 min\n- Just One is a cooperative party game in which you play together to discover as… 8+ 3-7 15-30 min\n\n##### Let's stay connected!\n\nSubscribe to our newsletter here:\n\nSubscribe\n\nSkip\n\nI agree to receive information by e-mail and on social networks from Financière Amuse BidCo and the Asmodee Group companies listed text: here regarding their offers, services, games and events.\n\nYou may change your mind at any time.\n\nFor more information on the processing of your data, please see our Privacy Policy.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eWavelength | Board Game | BoardGameGeek\u003c/title\u003e\n\u003curl\u003ehttps://boardgamegeek.com/boardgame/262543/wavelength\u003c/url\u003e\n\u003ccontent\u003e# Wavelength (2019)\n...\nRead your teammates’ minds in this pinpoint party game of infinite possibilities.\n...\nWavelength Review: Top of the Spectrum\n...\n### Spectrum Cards: A Free Digital Companion for Wavelength Players!\n...\n### Wavelength Cards (English and Spanish)\n...\n289675\n...\nwavelength-cards-english\n...\n1 plastic device, 84 Wavelength cards, 42 Advanced cards, 1 Rulebook, 3 Scoring tokens\n...\n126 Wavelength cards (66x44mm): • 84 Wavelength cards (double-sided) • 42 Advanced Wavelength cards (double-sided with “Advanced” down the middle)\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [How to Play Wavelength: Complete Game Rules Guide](https://www.wikihow.com/Play-Wavelength)\n2. [Wavelength – Christian Game Guy](https://christiangameguy.com/gamereviews/wavelength/)\n3. [Wavelength](https://www.asmodee.ca/en/product/wavelength/)\n4. [Wavelength | Board Game | BoardGameGeek](https://boardgamegeek.com/boardgame/262543/wavelength)\n\nSynthesis:\nThe Wavelength game contains cards with the spectrums Smells bad - Smells good, Sandwich - Not a sandwich, and Fantasy - Sci-Fi [1][2][3][4]. These are specific examples of the game's binary spectrum prompts [1][3]. Because Wavelength features over 80 double-sided cards in its base set, a comprehensive public master list of every specific card combination is not maintained by the publisher, though community-created databases often track these components [5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to Play Wavelength: Complete Game Rules Guide\u003c/title\u003e\n\u003curl\u003ehttps://www.wikihow.com/Play-Wavelength\u003c/url\u003e\n\u003ccontent\u003eWavelength cards are double-sided, and each side lists 2 opposite ends of a spectrum, like “Hot - Cold,” “Smells good - Smells bad,” or “Sandwich - Not a sandwich.” The Psychic chooses a random card from the deck and picks whichever side they want. They read the card out loud to both teams before putting it in the game’s card slot.[2]\n...\n- Example: If the wavelength card is “Hot - Cold” and the target area is all the way to the left side, the Psychic may give a clue like “Lava” or “The Sun.” Avoid using multi-part clues, such as “Concrete on a summer day.”\n- Example: For the card “Sandwich - Not a Sandwich” and the target area is perfectly centered on the wheel, the Psychic could give a clue like “Hot dog.”\n- Clues must be on topic, and may not include any words on the wavelength card or their synonyms. Clues also cannot contain numbers.\u003c/content\u003e\
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -403,7 +310,8 @@ The response will be structured as a design analysis rather than a direct YAML e
 
 Boring/Exciting, Smells Bad/Smells Good, Rough/Smooth, Simple/Complex, Common/Rare, and Safe/Dangerous are now flagged as missing or weak. Cheap/Expensive is behavioral rather than scalar. Kid Movie/Adult Movie is too edgy. Formal/Casual and Sweet/Savory are acceptable. Loud/Quiet and Overrated/Underrated are already present.
 
-Old/New and Easy/Hard are missing scalar pairs. Scary/Not Scary and Sport/Not a sport add classic Wavelength edges. Vegetable/Not a vegetable and Job/Career fill further gaps. Dog Person/Cat Person could become Pet/Pest or Harmless Pet/Exotic Pet. Breakfast foods like Pancake/Waffle are weaker than scalar alternatives.</details></think>
+Old/New and Easy/Hard are missing scalar pairs. Scary/Not Scary and Sport/Not a sport add classic Wavelength edges. Vegetable/Not a vegetable and Job/Career fill further gaps. Dog Person/Cat Person could become Pet/Pest or Harmless Pet/Exotic Pet. Breakfast foods like Pancake/Waffle are weaker than scalar alternatives.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -556,7 +464,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Implementing Wavelength-style spectrum curation by replacing weak pairs in the data randomizer.
 
-Planning to read the current spectrum section and curate script. Will build a curated list of 300 high-quality Wavelength-style pairs, update the randomizer YAML tagline and play hint, and adjust the scoring script to penalize parallel-alternative pairs.</details></think>
+Planning to read the current spectrum section and curate script. Will build a curated list of 300 high-quality Wavelength-style pairs, update the randomizer YAML tagline and play hint, and adjust the scoring script to penalize parallel-alternative pairs.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -565,44 +474,2444 @@ Implementing Wavelength-style spectrum curation: reading the maintainer scripts 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A comprehensive Wavelength-grade spectrum list of 300 pairs is needed.</details></think>
+A comprehensive Wavelength-grade spectrum list of 300 pairs is needed.
+
+The curate script will be updated with a canonical pool of 300 Wavelength-grade pairs. A new top-tier PIN set and additional NEW pairs will be added. The scoring logic will penalize parallel alternatives. Taglines and play hints will be revised to match the Wavelength style.
+
+The 300 curated pairs will be defined directly inside `curate-randomizer-300.py` as `SPECTRUM_CURATED`. The main function will use this list directly rather than ranking existing pairs. This avoids merging PIN, NEW, and existing sets.
+
+The main function will assert exactly 300 pairs from the curated list. Categorization themes include Hot/Cold, Overrated/Underrated, Stress relief/Stress cause, and Team builder/Team divider.
+
+Additional pair categories are being mapped out. These include selfish choice versus generous choice, confidence boost versus confidence drain, low effort versus high effort, mild habit versus risky habit, simple skill versus impressive skill, healthy snack versus treat food, quiet activity versus active sport, boring versus exciting, smells bad versus smells good, rough versus smooth, cheap versus expensive, easy versus hard, safe versus dangerous, common versus rare, simple versus complex, quiet versus loud, mild versus spicy, kid-friendly versus grown-up, useless versus useful, predictable versus surprising, relaxing versus stressful, polite versus rude, healthy versus unhealthy, old-fashioned versus modern, local versus exotic, calm versus chaotic, and forgiving versus strict.
+
+New pair categories include Obvious/Subtle, Sandwich/Not a sandwich, Sport/Not a sport, Vegetable/Not a vegetable, Art/Science, Job/Career, Tool/Toy, Pet/Pest, Fantasy/Sci-fi, Sad song/Happy song, and Indoor activity/Outdoor activity.
+
+Existing deck pairs that still fit the gradient style are being retained. These include Formal event/Casual hangout, City life/Country life, Early bird/Night owl, Low cost/High cost, Low risk/High risk, Low skill/High skill, Low maintenance/High maintenance, Big party/Small dinner, and Big celebration/Quiet acknowledgment.
+
+More curated pairs are being mapped out. These include planned trips versus spontaneous trips, minimal homes versus cozy clutter, deep research versus quick search, fresh pizza versus reheated pizza, firm mattresses versus soft mattresses, indie films versus blockbusters, thrift finds versus brand new items, learning by doing versus learning by watching, strict budgets versus treating yourself, whole foods versus processed foods, hands-on versus calling a pro, gentle rides versus thrill rides, short hikes versus long treks, quick showers versus long baths, overprepared versus underprepared, trusting strangers versus trusting slowly, detailed itineraries versus rough outlines, and keeping the mystery versus spoiling the ending.
+
+Weak or non-gradient pairs were rejected, including strategy games versus luck games and comedy podcasts versus true crime podcasts. The systematic build now focuses on a tight core of roughly thirty pairs drawn from the strongest categorical gradients.
+
+Additional gradient categories are being added to the curated pool. These include Bright/Dim, Fast/Slow, Big/Small, Sweet/Savory, Soft/Hard, Wet/Dry, Light/Heavy, Young/Old, Near/Far, Weak/Strong, Clean/Dirty, Full/Empty, Open/Closed, Wet weather/Dry weather, Fact/Opinion, Literal/Figurative, Serious/Silly, Private/Public, Temporary/Permanent, Formal/Casual, Narrow/Broad, Shallow/Deep, Sharp/Dull, Fresh/Stale, Organized/Messy, Patient/Impatient, Brave/Timid, Honest/Deceptive, and Active/Passive.
+
+The curated pool will be stored as `SPECTRUM_CURATED`, a list of 300 tuples. `SPECTRUM_REJECT` patterns will be added for scoring. `main()` will convert these tuples into left-right blocks. The first four family-friendly pairs are drafted: Hot/Cold, Overrated/Underrated, Boring/Exciting, and Smells bad/Smells good.
+
+The curated pool now holds roughly twenty-five pairs. These cover texture, price, difficulty, safety, rarity, complexity, volume, taste, utility, predictability, stress level, politeness, health, fashion, locality, calmness, strictness, obviousness, and category membership.
+
+The curated pool now holds roughly forty pairs. New entries include Art/Science, Job/Career, Tool/Toy, Pet/Pest, Fantasy/Sci-fi, Sad song/Happy song, Fiction/Nonfiction, Comedy/Drama, Indoor activity/Outdoor activity, Harmless prank/Cruel joke, Icebreaker/Conversation ender, Time saver/Time waster, Stress relief/Stress cause, Healthy choice/Indulgent choice, Selfish choice/Generous choice, Confidence boost/Confidence drain, and Team builder/Team divider.
+
+The curated pool now holds roughly sixty-five pairs. These add scalar categories such as Big/Small, Fast/Slow, Bright/Dim, Sweet/Savory, Soft/Firm, Light/Heavy, Clean/Dirty, Full/Empty, Shallow/Deep, Narrow/Wide, Sharp/Dull, Fresh/Stale, Patient/Impatient, Brave/Timid, Honest/Deceptive, Serious/Silly, and Formal/Casual.
+
+The curated pool now holds roughly ninety-five pairs. New entries include Introvert/Extrovert, Beginner/Expert, Amateur/Professional, Childish/Mature, Naive/Worldly, Optimistic/Pessimistic, Lazy/Driven, Forgotten/Famous, Pointless/Essential, Weak/Powerful, Fragile/Durable, Invisible/Attention-grabbing, Gentle/Aggressive, Passive/Assertive, Flexible/Rigid, and Spontaneous/Planned.
+
+The curated pool now holds roughly one hundred twenty-five pairs. New entries include Minimal/Extravagant, Ordinary/Extraordinary, Mainstream/Underground, Trendy/Timeless, Crowded/Empty, Handmade/Mass-produced, Natural/Artificial, Recyclable/Disposable, Reusable/Single-use, Indoor/Outdoor, Urban/Rural, Morning person/Night person, Summer mood/Winter mood, Rainy day/Sunny day, School day/Weekend, Work mode/Vacation mode, and Overhyped/Underrated gem.
+
+New curated pairs now include Guilty pleasure versus Proud favorite, Comfort food versus Adventurous food, Comfort show versus Prestige show, Comfort zone versus Challenge, Nostalgia versus Novelty, Classic versus Trending, Overexplained versus Mysterious, and Overdone versus Underappreciated.
+
+Activity intensity gradients are also being added, such as Quiet hobby versus Loud hobby, Solo hobby versus Group hobby, Low-key hangout versus Big night out, Quick errand versus All-day outing, Short walk versus Long hike, Quick shower versus Long bath, and Light snack versus Full meal.
+
+More curated pairs now cover daily life and personal preferences. These include Power nap versus Deep sleep, Mini vacation versus Dream trip, Quick game versus Epic campaign, Casual sport versus Competitive sport, Practice round versus Championship, Homework versus Passion project, Chore versus Hobby, Routine versus Adventure, Stay home versus Go out, Screen time versus Outside time, Rest day versus Training day, Window shopping versus Big purchase, Free sample versus Splurge, Budget meal versus Fine dining, Instant reply versus Thoughtful reply, and Quick fix versus Long-term fix.
+
+New curated pairs now cover shortcuts versus scenic routes, last-minute versus planned-ahead, rough drafts versus final versions, warm-ups versus main events, appetizers versus main courses, trailers versus full movies, sample chapters versus whole books, demos versus full albums, tutorials versus boss fights, and warm-up songs versus closing songs. Social and behavioral gradients are also being added, such as shy greetings versus bold introductions, whispering versus announcements, private jokes versus crowd pleasers, listening versus talking, following versus leading, and asking permission versus taking initiative.
+
+New curated pairs now cover personality traits and emotional responses. These include holding grudges versus letting go, overthinking versus trusting the gut, playing it safe versus taking risks, saying yes versus saying no, sharing everything versus keeping secrets, oversharing versus mystery, early apologies versus stubborn silence, forgiving quickly versus holding out, trusting easily versus trusting slowly, and being an open book versus being hard to read.
+
+Environment and sensory gradients are also being added. These include whisper quiet versus party loud, dim room versus bright room, cool breeze versus hot oven, soft pillow versus firm mattress, light blanket versus heavy quilt, and unscented versus strong perfume.
+
+New curated pairs now cover sensory and environmental gradients. These include mild flavor versus bold flavor, plain outfit versus statement outfit, minimal decor versus cozy clutter, tidy desk versus creative mess, empty fridge versus stocked pantry, and bare wall versus gallery wall.
+
+Food and drink gradients are also being added. These include room temperature versus piping hot, ice cold versus steaming, undercooked versus well done, raw versus cooked, plain water versus fancy drink, home cooking versus restaurant meal, packaged snack versus farmers market, leftovers versus fresh cooked, and reheated pizza versus fresh pizza.
+
+New curated pairs now cover instant versus fancy coffee, fruit versus chocolate dessert, and light versus heavy breakfast. Media and entertainment gradients are also being added, including background music versus concert, podcast versus live show, short video versus feature film, cartoon versus documentary, board game versus video game, party game versus strategy game, luck game versus skill game, kid movie versus grown-up movie, happy ending versus tragic ending, spoiler versus surprise twist, rewatch versus first watch, and live music versus recorded music.
+
+New curated pairs now cover entertainment and travel gradients. These include indie film versus blockbuster, classic board game versus party card game, comedy podcast versus true crime podcast, day trip versus world tour, staycation versus faraway trip, camping trip versus hotel stay, beach vacation versus mountain vacation, city break versus nature retreat, guided tour versus wandering freely, group travel versus solo travel, packing light versus packing heavy, road trip versus flight abroad, theme park ride versus nature trail, and tent camping versus cabin stay.
+
+New curated pairs now cover retail and dining gradients, such as farmers market versus supermarket run, bookstore browse versus online checkout, loud restaurant versus quiet restaurant, and big city noise versus small town quiet. Work and school gradients are also being added, including homework help versus figuring it alone, remote work versus office work, and strict deadlines versus flexible deadlines.
+
+New curated pairs now cover learning styles and study methods. These include deep research versus quick search, detailed plans versus rough ideas, learning by watching versus doing, group study versus solo study, front-of-class versus back-of-class, online courses versus in-person classes, handwritten notes versus typed messages, and paper to-do lists versus app to-do lists.
+
+Modern tech and lifestyle gradients are also being added. These include digital detox versus always connected, physical books versus e-books, dark mode versus light mode, paper maps versus GPS navigation, photo albums versus camera roll only, and handwritten letters versus quick texts.
+
+New curated pairs now cover technology eras, media formats, and home habits. These include landline versus smartphone, cable TV versus streaming, open headphones versus noise canceling, password manager versus memory only, DIY repair versus calling a pro, cooking from scratch versus using shortcuts, weekly deep clean versus daily light tidy, and live plants versus artificial plants.
+
+New curated pairs now cover daily routines and lifestyle choices. These include morning versus evening workouts, car karaoke versus quiet drives, standing versus sitting desks, home movie nights versus theater nights, DIY haircuts versus salon cuts, spontaneous versus planned gifts, strict budgets versus treat yourself, inbox zero versus backlog, early versus late checkouts, prompt versus last-minute RSVPs, frequent versus rare donations and volunteerism, and fuzzy boundary pairs such as gift versus not a gift and holiday versus not a holiday.
+
+More curated pairs are being added, such as breakfast versus dinner food, dessert versus non-dessert, music versus non-music, and snack versus meal. The remaining entries needed to reach 300 unique pairs are being counted. A Python script will generate and validate all 300 pairs programmatically, then update the files.
+
+Running the full script would reshuffle unrelated scale-clues and personal-scales decks. I will either add a --spectrum-only flag or manually update the spectrum block in the YAML.
+
+The safest approach is to update only the spectrum block in the curate script. The full script will be run with the new 300-pair curated list. Scale-clues and personal-scales should remain unchanged because their pins and scoring logic are identical.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Building the curated 300-pair list and updating the maintainer scripts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I'll create a comprehensive SPECTRUM_CURATED list.
+
+Writing a Python script to generate and verify 300 unique pairs. Replacing SPECTRUM_PIN and SPECTRUM_NEW with a single SPECTRUM_CURATED tuple. Updating rank_spectrums and the spectrum block text.
+
+Organizing the 300 pairs by eight categories: scalar poles, fuzzy boundaries, intensity gradients, social and behavioral gradients, food and sensory, media and entertainment, travel and places, and work and school. Starting with concrete examples like Hot/Cold, Overrated/Underrated, and Rough/Smooth.
+
+Continuing the scalar-pole list through entry 60, adding categories like Introvert/Extrovert, Beginner/Expert, and Optimistic/Pessimistic. Starting the fuzzy-boundary section with entries such as Sandwich/Not a sandwich, Sport/Not a sport, and Art/Science.
+
+Fuzzy-boundary entries now span genres, songs, activities, and meals. Strong evaluative pairs are being added next, starting with concepts like harmless prank versus cruel joke, time saver versus time waster, and confidence boost versus confidence drain.
+
+Strong evaluative pairs continue through entry 100. Activity gradients begin at entry 101, starting with quiet versus loud hobbies and solo versus group hangouts.
+
+Activity gradients continue through entry 127. Examples include power nap versus deep sleep, casual sport versus competitive sport, and whisper versus shout.
+
+Activity gradients continue through entry 148. New pairs include shy greeting versus bold introduction, listen versus talk, follow versus lead, and early bird versus night owl.
+
+Activity gradients continue through entry 150. New pairs include Rewatch/First watch and Spoiler/Surprise twist. The good-existing kept list begins at entry 151, covering formal events versus casual hangouts, city life versus country life, and whole foods versus processed foods.
+
+Good-existing kept pairs continue through entry 183. New entries cover travel, work, and lifestyle contrasts such as camping versus hotel stays, remote work versus office work, and physical books versus e-books.
+
+Cook from scratch versus shortcuts. Morning workout versus evening workout. Car karaoke versus quiet drive. Home movie night versus theater night. Spontaneous gift versus planned gift. Farmers market versus supermarket run. Bookstore browse versus online checkout. Theme park ride versus nature trail. Tent camping versus cabin stay. Hotel buffet versus corner café. Guided tour versus self-guided tour. City break versus nature retreat. Board game versus video game. Party card game versus strategy game. Live music versus recorded music. Comedy podcast versus true crime podcast.
+
+Fixed duplicate entry 199. Added entries 201–214, covering dessert types, breakfast weight, temperature extremes, scent intensity, and room ambiance.
+
+Entries 215–233 complete the curated list. New pairs cover travel and lifestyle contrasts such as empty fridge versus stocked pantry, road trip versus flight abroad, paper map versus GPS navigation, handwritten letter versus quick text, dark mode versus light mode, standing desk versus sitting desk, DIY haircut versus salon cut, garage sale versus online listing, compost bin versus trash bin, live plants versus artificial plants, early checkout versus late checkout, and RSVP promptly versus RSVP last minute.
+
+Entries 234–249 complete the curated list. New pairs cover donation frequency, desk jobs versus physical work, deadlines, study styles, classroom seating, online versus in-person learning, handwritten versus typed notes, paper versus app to-do lists, password storage methods, cable TV versus streaming, measured replies versus instant reactions, party size, library versus cafe atmosphere, front versus back rows, and low versus high cost.
+
+Entries 250–267 complete the curated list. New pairs cover risk levels, skill demands, maintenance needs, noise levels, eco-friendliness, multitasking, gift types, book genres, sports, and sensory contrasts. The "Too" pair was replaced with plain adjectives.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+# Build and validate 300 Wavelength-grade spectrum pairs
+pairs = [
+    (&#34;Hot&#34;, &#34;Cold&#34;),
+    (&#34;Overrated&#34;, &#34;Underrated&#34;),
+    (&#34;Boring&#34;, &#34;Exciting&#34;),
+    (&#34;Smells bad&#34;, &#34;Smells good&#34;),
+    (&#34;Rough&#34;, &#34;Smooth&#34;),
+    (&#34;Cheap&#34;, &#34;Expensive&#34;),
+    (&#34;Easy&#34;, &#34;Hard&#34;),
+    (&#34;Safe&#34;, &#34;Dangerous&#34;),
+    (&#34;Common&#34;, &#34;Rare&#34;),
+    (&#34;Simple&#34;, &#34;Complex&#34;),
+    (&#34;Quiet&#34;, &#34;Loud&#34;),
+    (&#34;Mild&#34;, &#34;Spicy&#34;),
+    (&#34;Useless&#34;, &#34;Useful&#34;),
+    (&#34;Predictable&#34;, &#34;Surprising&#34;),
+    (&#34;Relaxing&#34;, &#34;Stressful&#34;),
+    (&#34;Polite&#34;, &#34;Rude&#34;),
+    (&#34;Healthy&#34;, &#34;Unhealthy&#34;),
+    (&#34;Old-fashioned&#34;, &#34;Modern&#34;),
+    (&#34;Local&#34;, &#34;Exotic&#34;),
+    (&#34;Calm&#34;, &#34;Chaotic&#34;),
+    (&#34;Forgiving&#34;, &#34;Strict&#34;),
+    (&#34;Obvious&#34;, &#34;Subtle&#34;),
+    (&#34;Big&#34;, &#34;Small&#34;),
+    (&#34;Fast&#34;, &#34;Slow&#34;),
+    (&#34;Bright&#34;, &#34;Dim&#34;),
+    (&#34;Sweet&#34;, &#34;Savory&#34;),
+    (&#34;Soft&#34;, &#34;Firm&#34;),
+    (&#34;Light&#34;, &#34;Heavy&#34;),
+    (&#34;Clean&#34;, &#34;Dirty&#34;),
+    (&#34;Full&#34;, &#34;Empty&#34;),
+    (&#34;Shallow&#34;, &#34;Deep&#34;),
+    (&#34;Narrow&#34;, &#34;Wide&#34;),
+    (&#34;Sharp&#34;, &#34;Dull&#34;),
+    (&#34;Fresh&#34;, &#34;Stale&#34;),
+    (&#34;Patient&#34;, &#34;Impatient&#34;),
+    (&#34;Brave&#34;, &#34;Timid&#34;),
+    (&#34;Honest&#34;, &#34;Deceptive&#34;),
+    (&#34;Serious&#34;, &#34;Silly&#34;),
+    (&#34;Formal&#34;, &#34;Casual&#34;),
+    (&#34;Private&#34;, &#34;Public&#34;),
+    (&#34;Temporary&#34;, &#34;Permanent&#34;),
+    (&#34;Literal&#34;, &#34;Figurative&#34;),
+    (&#34;Fact&#34;, &#34;Opinion&#34;),
+    (&#34;Introvert&#34;, &#34;Extrovert&#34;),
+    (&#34;Beginner&#34;, &#34;Expert&#34;),
+    (&#34;Childish&#34;, &#34;Mature&#34;),
+    (&#34;Optimistic&#34;, &#34;Pessimistic&#34;),
+    (&#34;Lazy&#34;, &#34;Driven&#34;),
+    (&#34;Pointless&#34;, &#34;Essential&#34;),
+    (&#34;Weak&#34;, &#34;Powerful&#34;),
+    (&#34;Fragile&#34;, &#34;Durable&#34;),
+    (&#34;Gentle&#34;, &#34;Aggressive&#34;),
+    (&#34;Passive&#34;, &#34;Assertive&#34;),
+    (&#34;Flexible&#34;, &#34;Rigid&#34;),
+    (&#34;Minimal&#34;, &#34;Extravagant&#34;),
+    (&#34;Ordinary&#34;, &#34;Extraordinary&#34;),
+    (&#34;Mainstream&#34;, &#34;Underground&#34;),
+    (&#34;Natural&#34;, &#34;Artificial&#34;),
+    (&#34;Handmade&#34;, &#34;Mass-produced&#34;),
+    (&#34;Crowded&#34;, &#34;Empty&#34;),
+    (&#34;Sandwich&#34;, &#34;Not a sandwich&#34;),
+    (&#34;Sport&#34;, &#34;Not a sport&#34;),
+    (&#34;Vegetable&#34;, &#34;Not a vegetable&#34;),
+    (&#34;Art&#34;, &#34;Science&#34;),
+    (&#34;Job&#34;, &#34;Career&#34;),
+    (&#34;Tool&#34;, &#34;Toy&#34;),
+    (&#34;Pet&#34;, &#34;Pest&#34;),
+    (&#34;Fantasy&#34;, &#34;Sci-fi&#34;),
+    (&#34;Sad song&#34;, &#34;Happy song&#34;),
+    (&#34;Fiction&#34;, &#34;Nonfiction&#34;),
+    (&#34;Comedy&#34;, &#34;Drama&#34;),
+    (&#34;Indoor activity&#34;, &#34;Outdoor activity&#34;),
+    (&#34;Gift&#34;, &#34;Not a gift&#34;),
+    (&#34;Dessert&#34;, &#34;Not dessert&#34;),
+    (&#34;Breakfast food&#34;, &#34;Dinner food&#34;),
+    (&#34;Game&#34;, &#34;Not a game&#34;),
+    (&#34;Snack&#34;, &#34;Meal&#34;),
+    (&#34;Joke&#34;, &#34;Not a joke&#34;),
+    (&#34;Exercise&#34;, &#34;Not exercise&#34;),
+    (&#34;Holiday&#34;, &#34;Not a holiday&#34;),
+    (&#34;Harmless prank&#34;, &#34;Cruel joke&#34;),
+    (&#34;Icebreaker&#34;, &#34;Conversation ender&#34;),
+    (&#34;Time saver&#34;, &#34;Time waster&#34;),
+    (&#34;Stress relief&#34;, &#34;Stress cause&#34;),
+    (&#34;Healthy choice&#34;, &#34;Indulgent choice&#34;),
+    (&#34;Selfish choice&#34;, &#34;Generous choice&#34;),
+    (&#34;Confidence boost&#34;, &#34;Confidence drain&#34;),
+    (&#34;Team builder&#34;, &#34;Team divider&#34;),
+    (&#34;Low effort&#34;, &#34;High effort&#34;),
+    (&#34;Mild habit&#34;, &#34;Risky habit&#34;),
+    (&#34;Simple skill&#34;, &#34;Impressive skill&#34;),
+    (&#34;Cheap thrill&#34;, &#34;Expensive hobby&#34;),
+    (&#34;Overhyped&#34;, &#34;Underrated gem&#34;),
+    (&#34;Guilty pleasure&#34;, &#34;Proud favorite&#34;),
+    (&#34;Comfort zone&#34;, &#34;Challenge&#34;),
+    (&#34;Nostalgia&#34;, &#34;Novelty&#34;),
+    (&#34;Classic&#34;, &#34;Trending&#34;),
+    (&#34;Comfort food&#34;, &#34;Adventurous food&#34;),
+    (&#34;Underdone&#34;, &#34;Overdone&#34;),
+    (&#34;Overexplained&#34;, &#34;Mysterious&#34;),
+    (&#34;Quiet hobby&#34;, &#34;Loud hobby&#34;),
+    (&#34;Solo hobby&#34;, &#34;Group hobby&#34;),
+    (&#34;Low-key hangout&#34;, &#34;Big night out&#34;),
+    (&#34;Quick errand&#34;, &#34;All-day outing&#34;),
+    (&#34;Short walk&#34;, &#34;Long hike&#34;),
+    (&#34;Quick shower&#34;, &#34;Long bath&#34;),
+    (&#34;Light snack&#34;, &#34;Full meal&#34;),
+    (&#34;Power nap&#34;, &#34;Deep sleep&#34;),
+    (&#34;Mini vacation&#34;, &#34;Dream trip&#34;),
+    (&#34;Quick game&#34;, &#34;Epic campaign&#34;),
+    (&#34;Casual sport&#34;, &#34;Competitive sport&#34;),
+    (&#34;Practice round&#34;, &#34;Championship&#34;),
+    (&#34;Chore&#34;, &#34;Hobby&#34;),
+    (&#34;Routine&#34;, &#34;Adventure&#34;),
+    (&#34;Stay home&#34;, &#34;Go out&#34;),
+    (&#34;Rest day&#34;, &#34;Training day&#34;),
+    (&#34;Window shopping&#34;, &#34;Big purchase&#34;),
+    (&#34;Budget meal&#34;, &#34;Fine dining&#34;),
+    (&#34;Instant reply&#34;, &#34;Thoughtful reply&#34;),
+    (&#34;Quick fix&#34;, &#34;Long-term fix&#34;),
+    (&#34;Last minute&#34;, &#34;Planned ahead&#34;),
+    (&#34;Rough draft&#34;, &#34;Final version&#34;),
+    (&#34;Warm-up&#34;, &#34;Main event&#34;),
+    (&#34;Appetizer&#34;, &#34;Main course&#34;),
+    (&#34;Trailer&#34;, &#34;Feature film&#34;),
+    (&#34;Tutorial&#34;, &#34;Boss fight&#34;),
+    (&#34;Whisper&#34;, &#34;Shout&#34;),
+    (&#34;Shy greeting&#34;, &#34;Bold introduction&#34;),
+    (&#34;Listen&#34;, &#34;Talk&#34;),
+    (&#34;Follow&#34;, &#34;Lead&#34;),
+    (&#34;Play it safe&#34;, &#34;Take a risk&#34;),
+    (&#34;Overthink&#34;, &#34;Go with gut&#34;),
+    (&#34;Trust easily&#34;, &#34;Trust slowly&#34;),
+    (&#34;Open book&#34;, &#34;Hard to read&#34;),
+    (&#34;Forgive quickly&#34;, &#34;Hold a grudge&#34;),
+    (&#34;Ask permission&#34;, &#34;Take initiative&#34;),
+    (&#34;Overshare&#34;, &#34;Keep mystery&#34;),
+    (&#34;Early bird&#34;, &#34;Night owl&#34;),
+    (&#34;Summer mood&#34;, &#34;Winter mood&#34;),
+    (&#34;Rainy day&#34;, &#34;Sunny day&#34;),
+    (&#34;School day&#34;, &#34;Weekend&#34;),
+    (&#34;Work mode&#34;, &#34;Vacation mode&#34;),
+    (&#34;Screen time&#34;, &#34;Outside time&#34;),
+    (&#34;Homework&#34;, &#34;Passion project&#34;),
+    (&#34;Background music&#34;, &#34;Live concert&#34;),
+    (&#34;Short video&#34;, &#34;Feature film&#34;),
+    (&#34;Cartoon&#34;, &#34;Documentary&#34;),
+    (&#34;Rewatch&#34;, &#34;First watch&#34;),
+    (&#34;Spoiler&#34;, &#34;Surprise twist&#34;),
+    (&#34;Happy ending&#34;, &#34;Tragic ending&#34;),
+    (&#34;Formal event&#34;, &#34;Casual hangout&#34;),
+    (&#34;City life&#34;, &#34;Country life&#34;),
+    (&#34;Planned trip&#34;, &#34;Spontaneous trip&#34;),
+    (&#34;Minimal home&#34;, &#34;Cozy clutter&#34;),
+    (&#34;Packing light&#34;, &#34;Packing heavy&#34;),
+    (&#34;Deep research&#34;, &#34;Quick search&#34;),
+    (&#34;Fresh pizza&#34;, &#34;Reheated pizza&#34;),
+    (&#34;Firm mattress&#34;, &#34;Soft mattress&#34;),
+    (&#34;Indie film&#34;, &#34;Blockbuster&#34;),
+    (&#34;Thrift find&#34;, &#34;Brand new&#34;),
+    (&#34;Learn by doing&#34;, &#34;Learn by watching&#34;),
+    (&#34;Strict budget&#34;, &#34;Treat yourself&#34;),
+    (&#34;Big city noise&#34;, &#34;Small town quiet&#34;),
+    (&#34;Whole foods&#34;, &#34;Processed foods&#34;),
+    (&#34;Gentle ride&#34;, &#34;Thrill ride&#34;),
+    (&#34;Overprepared&#34;, &#34;Underprepared&#34;),
+    (&#34;Detailed itinerary&#34;, &#34;Rough outline&#34;),
+    (&#34;Inbox zero&#34;, &#34;Inbox backlog&#34;),
+    (&#34;Early arrival&#34;, &#34;Fashionably late&#34;),
+    (&#34;Strategy game&#34;, &#34;Luck game&#34;),
+    (&#34;Loud restaurant&#34;, &#34;Quiet restaurant&#34;),
+    (&#34;Home cooking&#34;, &#34;Restaurant meal&#34;),
+    (&#34;Camping trip&#34;, &#34;Hotel stay&#34;),
+    (&#34;Beach vacation&#34;, &#34;Mountain vacation&#34;),
+    (&#34;Group travel&#34;, &#34;Solo travel&#34;),
+    (&#34;Remote work&#34;, &#34;Office work&#34;),
+    (&#34;Video call&#34;, &#34;In-person meeting&#34;),
+    (&#34;Ask for help&#34;, &#34;Figure it out alone&#34;),
+    (&#34;Digital detox&#34;, &#34;Always connected&#34;),
+    (&#34;Physical book&#34;, &#34;E-book&#34;),
+    (&#34;DIY repair&#34;, &#34;Call a pro&#34;),
+    (&#34;Repair item&#34;, &#34;Replace item&#34;),
+    (&#34;Cook from scratch&#34;, &#34;Use shortcuts&#34;),
+    (&#34;Morning workout&#34;, &#34;Evening workout&#34;),
+    (&#34;Car karaoke&#34;, &#34;Quiet drive&#34;),
+    (&#34;Home movie night&#34;, &#34;Theater night&#34;),
+    (&#34;Spontaneous gift&#34;, &#34;Planned gift&#34;),
+    (&#34;Farmers market&#34;, &#34;Supermarket run&#34;),
+    (&#34;Bookstore browse&#34;, &#34;Online checkout&#34;),
+    (&#34;Theme park ride&#34;, &#34;Nature trail&#34;),
+    (&#34;Tent camping&#34;, &#34;Cabin stay&#34;),
+    (&#34;Hotel buffet&#34;, &#34;Corner café&#34;),
+    (&#34;Guided tour&#34;, &#34;Self-guided tour&#34;),
+    (&#34;City break&#34;, &#34;Nature retreat&#34;),
+    (&#34;Board game&#34;, &#34;Video game&#34;),
+    (&#34;Live music&#34;, &#34;Recorded music&#34;),
+    (&#34;Comedy podcast&#34;, &#34;True crime podcast&#34;),
+    (&#34;Kid movie&#34;, &#34;Grown-up movie&#34;),
+    (&#34;Instant coffee&#34;, &#34;Fancy coffee&#34;),
+    (&#34;Fruit dessert&#34;, &#34;Chocolate dessert&#34;),
+    (&#34;Light breakfast&#34;, &#34;Heavy breakfast&#34;),
+    (&#34;Room temperature&#34;, &#34;Piping hot&#34;),
+    (&#34;Ice cold&#34;, &#34;Steaming hot&#34;),
+    (&#34;Plain water&#34;, &#34;Fancy drink&#34;),
+    (&#34;Leftovers&#34;, &#34;Fresh cooked&#34;),
+    (&#34;Dim room&#34;, &#34;Bright room&#34;),
+    (&#34;Cool breeze&#34;, &#34;Hot oven&#34;),
+    (&#34;Light blanket&#34;, &#34;Heavy quilt&#34;),
+    (&#34;Unscented&#34;, &#34;Strong scent&#34;),
+    (&#34;Mild flavor&#34;, &#34;Bold flavor&#34;),
+    (&#34;Plain outfit&#34;, &#34;Statement outfit&#34;),
+    (&#34;Tidy desk&#34;, &#34;Creative mess&#34;),
+    (&#34;Empty fridge&#34;, &#34;Stocked pantry&#34;),
+    (&#34;Day trip&#34;, &#34;World tour&#34;),
+    (&#34;Staycation&#34;, &#34;Faraway trip&#34;),
+    (&#34;Road trip&#34;, &#34;Flight abroad&#34;),
+    (&#34;Paper map&#34;, &#34;GPS navigation&#34;),
+    (&#34;Photo album&#34;, &#34;Camera roll only&#34;),
+    (&#34;Handwritten letter&#34;, &#34;Quick text&#34;),
+    (&#34;Open headphones&#34;, &#34;Noise canceling&#34;),
+    (&#34;Dark mode&#34;, &#34;Light mode&#34;),
+    (&#34;Weekly deep clean&#34;, &#34;Daily light tidy&#34;),
+    (&#34;Window open&#34;, &#34;Window closed&#34;),
+    (&#34;Standing desk&#34;, &#34;Sitting desk&#34;),
+    (&#34;DIY haircut&#34;, &#34;Salon cut&#34;),
+    (&#34;Garage sale&#34;, &#34;Online listing&#34;),
+    (&#34;Compost bin&#34;, &#34;Trash bin&#34;),
+    (&#34;Live plants&#34;, &#34;Artificial plants&#34;),
+    (&#34;Early checkout&#34;, &#34;Late checkout&#34;),
+    (&#34;RSVP promptly&#34;, &#34;RSVP last minute&#34;),
+    (&#34;Donate often&#34;, &#34;Donate rarely&#34;),
+    (&#34;Volunteer often&#34;, &#34;Volunteer rarely&#34;),
+    (&#34;Desk job&#34;, &#34;Physical job&#34;),
+    (&#34;Team meeting&#34;, &#34;One-on-one chat&#34;),
+    (&#34;Strict deadline&#34;, &#34;Flexible deadline&#34;),
+    (&#34;Group study&#34;, &#34;Solo study&#34;),
+    (&#34;Front of class&#34;, &#34;Back of class&#34;),
+    (&#34;Online course&#34;, &#34;In-person class&#34;),
+    (&#34;Handwritten note&#34;, &#34;Typed message&#34;),
+    (&#34;Paper to-do list&#34;, &#34;App to-do list&#34;),
+    (&#34;Big party&#34;, &#34;Small dinner&#34;),
+    (&#34;Quiet library&#34;, &#34;Busy cafe&#34;),
+    (&#34;Front row&#34;, &#34;Back row&#34;),
+    (&#34;Low cost&#34;, &#34;High cost&#34;),
+    (&#34;Low risk&#34;, &#34;High risk&#34;),
+    (&#34;Low skill&#34;, &#34;High skill&#34;),
+    (&#34;Low maintenance&#34;, &#34;High maintenance&#34;),
+    (&#34;Eco-friendly&#34;, &#34;Convenient&#34;),
+    (&#34;Try new food&#34;, &#34;Stick to favorites&#34;),
+    (&#34;Multitask&#34;, &#34;Single task&#34;),
+    (&#34;Hot shower&#34;, &#34;Cold rinse&#34;),
+    (&#34;Gift experiences&#34;, &#34;Gift objects&#34;),
+    (&#34;Team sport&#34;, &#34;Individual sport&#34;),
+    (&#34;Healthy snack&#34;, &#34;Treat food&#34;),
+    (&#34;Sweet&#34;, &#34;Bitter&#34;),
+    (&#34;Wet&#34;, &#34;Dry&#34;),
+    (&#34;Near&#34;, &#34;Far&#34;),
+    (&#34;Young&#34;, &#34;Old&#34;),
+    (&#34;Pencil sketch&#34;, &#34;Oil painting&#34;),
+    (&#34;Flashlight&#34;, &#34;Spotlight&#34;),
+    (&#34;Pebble&#34;, &#34;Boulder&#34;),
+    (&#34;Drizzle&#34;, &#34;Storm&#34;),
+    (&#34;Sidewalk&#34;, &#34;Highway&#34;),
+    (&#34;Backyard&#34;, &#34;Wilderness&#34;),
+    (&#34;Knock-knock joke&#34;, &#34;Stand-up special&#34;),
+    (&#34;Nudge&#34;, &#34;Shove&#34;),
+    (&#34;Peek&#34;, &#34;Stare&#34;),
+    (&#34;Mumble&#34;, &#34;Speech&#34;),
+    (&#34;Tap&#34;, &#34;Slam&#34;),
+    (&#34;Crumb&#34;, &#34;Feast&#34;),
+    (&#34;Spark&#34;, &#34;Bonfire&#34;),
+    (&#34;Hum&#34;, &#34;Anthem&#34;),
+    (&#34;Doodle&#34;, &#34;Mural&#34;),
+    (&#34;Lemonade stand&#34;, &#34;Restaurant chain&#34;),
+    (&#34;Sandbox&#34;, &#34;Construction site&#34;),
+    (&#34;Puddle&#34;, &#34;Ocean&#34;),
+    (&#34;Sprain&#34;, &#34;Surgery&#34;),
+    (&#34;Mosquito bite&#34;, &#34;Bee sting&#34;),
+    (&#34;Crayon&#34;, &#34;Fountain pen&#34;),
+    (&#34;Stick figure&#34;, &#34;Masterpiece&#34;),
+    (&#34;Blink&#34;, &#34;Marathon&#34;),
+    (&#34;Ripple&#34;, &#34;Tsunami&#34;),
+    (&#34;Whisper secret&#34;, &#34;Press conference&#34;),
+    (&#34;Drop&#34;, &#34;Flood&#34;),
+    (&#34;Tickle&#34;, &#34;Tackle&#34;),
+    (&#34;Hint&#34;, &#34;Full spoiler&#34;),
+    (&#34;Nap&#34;, &#34;Overnight shift&#34;),
+    (&#34;Amateur hour&#34;, &#34;Pro league&#34;),
+    (&#34;Puddle jump&#34;, &#34;Cliff dive&#34;),
+    (&#34;Stick shift&#34;, &#34;Rocket launch&#34;),
+    (&#34;Paper airplane&#34;, &#34;Space shuttle&#34;),
+    (&#34;Bubble bath&#34;, &#34;Ice plunge&#34;),
+    (&#34;Tea party&#34;, &#34;Rock festival&#34;),
+    (&#34;Picture book&#34;, &#34;Textbook&#34;),
+    (&#34;Sticker chart&#34;, &#34;Doctorate&#34;),
+    (&#34;Piggy bank&#34;, &#34;Stock portfolio&#34;),
+    (&#34;Fort building&#34;, &#34;Skyscraper&#34;),
+    (&#34;Kiddie pool&#34;, &#34;Olympic pool&#34;),
+    (&#34;Training wheels&#34;, &#34;Motorcycle&#34;),
+    (&#34;Baby steps&#34;, &#34;Giant leap&#34;),
+    (&#34;Indoor voice&#34;, &#34;Stadium cheer&#34;),
+    (&#34;Night light&#34;, &#34;Stadium lights&#34;),
+    (&#34;Snack size&#34;, &#34;Family size&#34;),
+    (&#34;Single scoop&#34;, &#34;Banquet&#34;),
+    (&#34;One page&#34;, &#34;Encyclopedia&#34;),
+    (&#34;Single note&#34;, &#34;Symphony&#34;),
+    (&#34;One friend&#34;, &#34;Whole crowd&#34;),
+    (&#34;Solo trip&#34;, &#34;World cruise&#34;),
+    (&#34;Quick peek&#34;, &#34;Deep dive&#34;),
+    (&#34;Light rain&#34;, &#34;Hurricane&#34;),
+    (&#34;Cool fan&#34;, &#34;Blizzard&#34;),
+    (&#34;Warm hug&#34;, &#34;Bear hug&#34;),
+    (&#34;Soft whisper&#34;, &#34;Bullhorn&#34;),
+    (&#34;Gentle slope&#34;, &#34;Steep cliff&#34;),
+    (&#34;Calm lake&#34;, &#34;Raging river&#34;),
+    (&#34;Quiet street&#34;, &#34;Times Square&#34;),
+    (&#34;Small town&#34;, &#34;Megacity&#34;),
+    (&#34;Tiny apartment&#34;, &#34;Mansion&#34;),
+    (&#34;Closet space&#34;, &#34;Warehouse&#34;),
+    (&#34;Pocket change&#34;, &#34;Lottery jackpot&#34;),
+    (&#34;Coupon clip&#34;, &#34;Luxury splurge&#34;),
+    (&#34;Hand-me-down&#34;, &#34;Designer label&#34;),
+    (&#34;Free sample&#34;, &#34;VIP package&#34;),
+    (&#34;Community pool&#34;, &#34;Private island&#34;),
+    (&#34;Public park&#34;, &#34;Theme park&#34;),
+    (&#34;School play&#34;, &#34;Broadway show&#34;),
+    (&#34;Garage band&#34;, &#34;Stadium tour&#34;),
+    (&#34;Home video&#34;, &#34;Hollywood blockbuster&#34;),
+    (&#34;Flip phone&#34;, &#34;Latest flagship&#34;),
+    (&#34;Dial-up&#34;, &#34;Fiber internet&#34;),
+    (&#34;Typewriter&#34;, &#34;AI assistant&#34;),
+    (&#34;Paper ticket&#34;, &#34;VIP pass&#34;),
+    (&#34;Bus ride&#34;, &#34;Private jet&#34;),
+    (&#34;Shared room&#34;, &#34;Penthouse suite&#34;),
+    (&#34;Potluck dish&#34;, &#34;Catered feast&#34;),
+    (&#34;Microwave meal&#34;, &#34;Chef&#39;s table&#34;),
+    (&#34;Vending machine&#34;, &#34;Gourmet market&#34;),
+    (&#34;Food truck&#34;, &#34;Michelin star&#34;),
+    (&#34;Picnic blanket&#34;, &#34;Banquet hall&#34;),
+    (&#34;Cereal bowl&#34;, &#34;Holiday feast&#34;),
+    (&#34;Toast&#34;, &#34;Wedding cake&#34;),
+    (&#34;Water fountain&#34;, &#34;Chocolate fountain&#34;),
+    (&#34;Ice cube&#34;, &#34;Ice sculpture&#34;),
+    (&#34;Room fan&#34;, &#34;Wind tunnel&#34;),
+    (&#34;Desk lamp&#34;, &#34;Searchlight&#34;),
+    (&#34;Sticky note&#34;, &#34;Billboard&#34;),
+    (&#34;Text emoji&#34;, &#34;Love letter&#34;),
+    (&#34;Group chat&#34;, &#34;Keynote speech&#34;),
+    (&#34;Voicemail&#34;, &#34;Live interview&#34;),
+    (&#34;Sticky situation&#34;, &#34;National news&#34;),
+    (&#34;Minor glitch&#34;, &#34;System crash&#34;),
+    (&#34;Paper jam&#34;, &#34;Power outage&#34;),
+    (&#34;Lost sock&#34;, &#34;Lost luggage&#34;),
+    (&#34;Late bus&#34;, &#34;Canceled flight&#34;),
+    (&#34;Rain delay&#34;, &#34;Blizzard shutdown&#34;),
+    (&#34;Mild sunburn&#34;, &#34;Arctic expedition&#34;),
+    (&#34;Bee buzz&#34;, &#34;Thunder crack&#34;),
+    (&#34;Cat purr&#34;, &#34;Lion roar&#34;),
+    (&#34;Goldfish&#34;, &#34;Great white shark&#34;),
+    (&#34;Houseplant&#34;, &#34;Redwood forest&#34;),
+    (&#34;Ant hill&#34;, &#34;Mountain range&#34;),
+    (&#34;Puddle mirror&#34;, &#34;Grand canyon&#34;),
+    (&#34;Snowflake&#34;, &#34;Avalanche&#34;),
+    (&#34;Dust bunny&#34;, &#34;Sandstorm&#34;),
+    (&#34;Candle flame&#34;, &#34;Volcano&#34;),
+    (&#34;Matchstick&#34;, &#34;Wildfire&#34;),
+    (&#34;Paper boat&#34;, &#34;Cargo ship&#34;),
+    (&#34;Toy car&#34;, &#34;Freight train&#34;),
+    (&#34;Tricycle&#34;, &#34;Formula one&#34;),
+    (&#34;Kickball&#34;, &#34;World cup final&#34;),
+    (&#34;Duck pond&#34;, &#34;Whale watching&#34;),
+    (&#34;Butterfly&#34;, &#34;Eagle&#34;),
+    (&#34;Ladybug&#34;, &#34;T-Rex&#34;),
+    (&#34;Pet rock&#34;, &#34;Show horse&#34;),
+    (&#34;Stuffed animal&#34;, &#34;Guard dog&#34;),
+    (&#34;Gold star&#34;, &#34;Gold medal&#34;),
+    (&#34;Participation ribbon&#34;, &#34;Hall of fame&#34;),
+    (&#34;High five&#34;, &#34;Standing ovation&#34;),
+    (&#34;Thumb up&#34;, &#34;Parade&#34;),
+    (&#34;Wink&#34;, &#34;Spotlight moment&#34;),
+    (&#34;Inside voice&#34;, &#34;Sold-out arena&#34;),
+]
+
+seen = set()
+dups = []
+for l, r in pairs:
+    key = (l.lower(), r.lower())
+    rev = (r.lower(), l.lower())
+    if key in seen or rev in seen:
+        dups.append((l, r))
+    seen.add(key)
+
+print(&#39;count&#39;, len(pairs))
+print(&#39;unique&#39;, len(seen))
+print(&#39;dups&#39;, dups)
+PY</summary>
+```bash
+python3 << 'PY'
+# Build and validate 300 Wavelength-grade spectrum pairs
+pairs = [
+    ("Hot", "Cold"),
+    ("Overrated", "Underrated"),
+    ("Boring", "Exciting"),
+    ("Smells bad", "Smells good"),
+    ("Rough", "Smooth"),
+    ("Cheap", "Expensive"),
+    ("Easy", "Hard"),
+    ("Safe", "Dangerous"),
+    ("Common", "Rare"),
+    ("Simple", "Complex"),
+    ("Quiet", "Loud"),
+    ("Mild", "Spicy"),
+    ("Useless", "Useful"),
+    ("Predictable", "Surprising"),
+    ("Relaxing", "Stressful"),
+    ("Polite", "Rude"),
+    ("Healthy", "Unhealthy"),
+    ("Old-fashioned", "Modern"),
+    ("Local", "Exotic"),
+    ("Calm", "Chaotic"),
+    ("Forgiving", "Strict"),
+    ("Obvious", "Subtle"),
+    ("Big", "Small"),
+    ("Fast", "Slow"),
+    ("Bright", "Dim"),
+    ("Sweet", "Savory"),
+    ("Soft", "Firm"),
+    ("Light", "Heavy"),
+    ("Clean", "Dirty"),
+    ("Full", "Empty"),
+    ("Shallow", "Deep"),
+    ("Narrow", "Wide"),
+    ("Sharp", "Dull"),
+    ("Fresh", "Stale"),
+    ("Patient", "Impatient"),
+    ("Brave", "Timid"),
+    ("Honest", "Deceptive"),
+    ("Serious", "Silly"),
+    ("Formal", "Casual"),
+    ("Private", "Public"),
+    ("Temporary", "Permanent"),
+    ("Literal", "Figurative"),
+    ("Fact", "Opinion"),
+    ("Introvert", "Extrovert"),
+    ("Beginner", "Expert"),
+    ("Childish", "Mature"),
+    ("Optimistic", "Pessimistic"),
+    ("Lazy", "Driven"),
+    ("Pointless", "Essential"),
+    ("Weak", "Powerful"),
+    ("Fragile", "Durable"),
+    ("Gentle", "Aggressive"),
+    ("Passive", "Assertive"),
+    ("Flexible", "Rigid"),
+    ("Minimal", "Extravagant"),
+    ("Ordinary", "Extraordinary"),
+    ("Mainstream", "Underground"),
+    ("Natural", "Artificial"),
+    ("Handmade", "Mass-produced"),
+    ("Crowded", "Empty"),
+    ("Sandwich", "Not a sandwich"),
+    ("Sport", "Not a sport"),
+    ("Vegetable", "Not a vegetable"),
+    ("Art", "Science"),
+    ("Job", "Career"),
+    ("Tool", "Toy"),
+    ("Pet", "Pest"),
+    ("Fantasy", "Sci-fi"),
+    ("Sad song", "Happy song"),
+    ("Fiction", "Nonfiction"),
+    ("Comedy", "Drama"),
+    ("Indoor activity", "Outdoor activity"),
+    ("Gift", "Not a gift"),
+    ("Dessert", "Not dessert"),
+    ("Breakfast food", "Dinner food"),
+    ("Game", "Not a game"),
+    ("Snack", "Meal"),
+    ("Joke", "Not a joke"),
+    ("Exercise", "Not exercise"),
+    ("Holiday", "Not a holiday"),
+    ("Harmless prank", "Cruel joke"),
+    ("Icebreaker", "Conversation ender"),
+    ("Time saver", "Time waster"),
+    ("Stress relief", "Stress cause"),
+    ("Healthy choice", "Indulgent choice"),
+    ("Selfish choice", "Generous choice"),
+    ("Confidence boost", "Confidence drain"),
+    ("Team builder", "Team divider"),
+    ("Low effort", "High effort"),
+    ("Mild habit", "Risky habit"),
+    ("Simple skill", "Impressive skill"),
+    ("Cheap thrill", "Expensive hobby"),
+    ("Overhyped", "Underrated gem"),
+    ("Guilty pleasure", "Proud favorite"),
+    ("Comfort zone", "Challenge"),
+    ("Nostalgia", "Novelty"),
+    ("Classic", "Trending"),
+    ("Comfort food", "Adventurous food"),
+    ("Underdone", "Overdone"),
+    ("Overexplained", "Mysterious"),
+    ("Quiet hobby", "Loud hobby"),
+    ("Solo hobby", "Group hobby"),
+    ("Low-key hangout", "Big night out"),
+    ("Quick errand", "All-day outing"),
+    ("Short walk", "Long hike"),
+    ("Quick shower", "Long bath"),
+    ("Light snack", "Full meal"),
+    ("Power nap", "Deep sleep"),
+    ("Mini vacation", "Dream trip"),
+    ("Quick game", "Epic campaign"),
+    ("Casual sport", "Competitive sport"),
+    ("Practice round", "Championship"),
+    ("Chore", "Hobby"),
+    ("Routine", "Adventure"),
+    ("Stay home", "Go out"),
+    ("Rest day", "Training day"),
+    ("Window shopping", "Big purchase"),
+    ("Budget meal", "Fine dining"),
+    ("Instant reply", "Thoughtful reply"),
+    ("Quick fix", "Long-term fix"),
+    ("Last minute", "Planned ahead"),
+    ("Rough draft", "Final version"),
+    ("Warm-up", "Main event"),
+    ("Appetizer", "Main course"),
+    ("Trailer", "Feature film"),
+    ("Tutorial", "Boss fight"),
+    ("Whisper", "Shout"),
+    ("Shy greeting", "Bold introduction"),
+    ("Listen", "Talk"),
+    ("Follow", "Lead"),
+    ("Play it safe", "Take a risk"),
+    ("Overthink", "Go with gut"),
+    ("Trust easily", "Trust slowly"),
+    ("Open book", "Hard to read"),
+    ("Forgive quickly", "Hold a grudge"),
+    ("Ask permission", "Take initiative"),
+    ("Overshare", "Keep mystery"),
+    ("Early bird", "Night owl"),
+    ("Summer mood", "Winter mood"),
+    ("Rainy day", "Sunny day"),
+    ("School day", "Weekend"),
+    ("Work mode", "Vacation mode"),
+    ("Screen time", "Outside time"),
+    ("Homework", "Passion project"),
+    ("Background music", "Live concert"),
+    ("Short video", "Feature film"),
+    ("Cartoon", "Documentary"),
+    ("Rewatch", "First watch"),
+    ("Spoiler", "Surprise twist"),
+    ("Happy ending", "Tragic ending"),
+    ("Formal event", "Casual hangout"),
+    ("City life", "Country life"),
+    ("Planned trip", "Spontaneous trip"),
+    ("Minimal home", "Cozy clutter"),
+    ("Packing light", "Packing heavy"),
+    ("Deep research", "Quick search"),
+    ("Fresh pizza", "Reheated pizza"),
+    ("Firm mattress", "Soft mattress"),
+    ("Indie film", "Blockbuster"),
+    ("Thrift find", "Brand new"),
+    ("Learn by doing", "Learn by watching"),
+    ("Strict budget", "Treat yourself"),
+    ("Big city noise", "Small town quiet"),
+    ("Whole foods", "Processed foods"),
+    ("Gentle ride", "Thrill ride"),
+    ("Overprepared", "Underprepared"),
+    ("Detailed itinerary", "Rough outline"),
+    ("Inbox zero", "Inbox backlog"),
+    ("Early arrival", "Fashionably late"),
+    ("Strategy game", "Luck game"),
+    ("Loud restaurant", "Quiet restaurant"),
+    ("Home cooking", "Restaurant meal"),
+    ("Camping trip", "Hotel stay"),
+    ("Beach vacation", "Mountain vacation"),
+    ("Group travel", "Solo travel"),
+    ("Remote work", "Office work"),
+    ("Video call", "In-person meeting"),
+    ("Ask for help", "Figure it out alone"),
+    ("Digital detox", "Always connected"),
+    ("Physical book", "E-book"),
+    ("DIY repair", "Call a pro"),
+    ("Repair item", "Replace item"),
+    ("Cook from scratch", "Use shortcuts"),
+    ("Morning workout", "Evening workout"),
+    ("Car karaoke", "Quiet drive"),
+    ("Home movie night", "Theater night"),
+    ("Spontaneous gift", "Planned gift"),
+    ("Farmers market", "Supermarket run"),
+    ("Bookstore browse", "Online checkout"),
+    ("Theme park ride", "Nature trail"),
+    ("Tent camping", "Cabin stay"),
+    ("Hotel buffet", "Corner café"),
+    ("Guided tour", "Self-guided tour"),
+    ("City break", "Nature retreat"),
+    ("Board game", "Video game"),
+    ("Live music", "Recorded music"),
+    ("Comedy podcast", "True crime podcast"),
+    ("Kid movie", "Grown-up movie"),
+    ("Instant coffee", "Fancy coffee"),
+    ("Fruit dessert", "Chocolate dessert"),
+    ("Light breakfast", "Heavy breakfast"),
+    ("Room temperature", "Piping hot"),
+    ("Ice cold", "Steaming hot"),
+    ("Plain water", "Fancy drink"),
+    ("Leftovers", "Fresh cooked"),
+    ("Dim room", "Bright room"),
+    ("Cool breeze", "Hot oven"),
+    ("Light blanket", "Heavy quilt"),
+    ("Unscented", "Strong scent"),
+    ("Mild flavor", "Bold flavor"),
+    ("Plain outfit", "Statement outfit"),
+    ("Tidy desk", "Creative mess"),
+    ("Empty fridge", "Stocked pantry"),
+    ("Day trip", "World tour"),
+    ("Staycation", "Faraway trip"),
+    ("Road trip", "Flight abroad"),
+    ("Paper map", "GPS navigation"),
+    ("Photo album", "Camera roll only"),
+    ("Handwritten letter", "Quick text"),
+    ("Open headphones", "Noise canceling"),
+    ("Dark mode", "Light mode"),
+    ("Weekly deep clean", "Daily light tidy"),
+    ("Window open", "Window closed"),
+    ("Standing desk", "Sitting desk"),
+    ("DIY haircut", "Salon cut"),
+    ("Garage sale", "Online listing"),
+    ("Compost bin", "Trash bin"),
+    ("Live plants", "Artificial plants"),
+    ("Early checkout", "Late checkout"),
+    ("RSVP promptly", "RSVP last minute"),
+    ("Donate often", "Donate rarely"),
+    ("Volunteer often", "Volunteer rarely"),
+    ("Desk job", "Physical job"),
+    ("Team meeting", "One-on-one chat"),
+    ("Strict deadline", "Flexible deadline"),
+    ("Group study", "Solo study"),
+    ("Front of class", "Back of class"),
+    ("Online course", "In-person class"),
+    ("Handwritten note", "Typed message"),
+    ("Paper to-do list", "App to-do list"),
+    ("Big party", "Small dinner"),
+    ("Quiet library", "Busy cafe"),
+    ("Front row", "Back row"),
+    ("Low cost", "High cost"),
+    ("Low risk", "High risk"),
+    ("Low skill", "High skill"),
+    ("Low maintenance", "High maintenance"),
+    ("Eco-friendly", "Convenient"),
+    ("Try new food", "Stick to favorites"),
+    ("Multitask", "Single task"),
+    ("Hot shower", "Cold rinse"),
+    ("Gift experiences", "Gift objects"),
+    ("Team sport", "Individual sport"),
+    ("Healthy snack", "Treat food"),
+    ("Sweet", "Bitter"),
+    ("Wet", "Dry"),
+    ("Near", "Far"),
+    ("Young", "Old"),
+    ("Pencil sketch", "Oil painting"),
+    ("Flashlight", "Spotlight"),
+    ("Pebble", "Boulder"),
+    ("Drizzle", "Storm"),
+    ("Sidewalk", "Highway"),
+    ("Backyard", "Wilderness"),
+    ("Knock-knock joke", "Stand-up special"),
+    ("Nudge", "Shove"),
+    ("Peek", "Stare"),
+    ("Mumble", "Speech"),
+    ("Tap", "Slam"),
+    ("Crumb", "Feast"),
+    ("Spark", "Bonfire"),
+    ("Hum", "Anthem"),
+    ("Doodle", "Mural"),
+    ("Lemonade stand", "Restaurant chain"),
+    ("Sandbox", "Construction site"),
+    ("Puddle", "Ocean"),
+    ("Sprain", "Surgery"),
+    ("Mosquito bite", "Bee sting"),
+    ("Crayon", "Fountain pen"),
+    ("Stick figure", "Masterpiece"),
+    ("Blink", "Marathon"),
+    ("Ripple", "Tsunami"),
+    ("Whisper secret", "Press conference"),
+    ("Drop", "Flood"),
+    ("Tickle", "Tackle"),
+    ("Hint", "Full spoiler"),
+    ("Nap", "Overnight shift"),
+    ("Amateur hour", "Pro league"),
+    ("Puddle jump", "Cliff dive"),
+    ("Stick shift", "Rocket launch"),
+    ("Paper airplane", "Space shuttle"),
+    ("Bubble bath", "Ice plunge"),
+    ("Tea party", "Rock festival"),
+    ("Picture book", "Textbook"),
+    ("Sticker chart", "Doctorate"),
+    ("Piggy bank", "Stock portfolio"),
+    ("Fort building", "Skyscraper"),
+    ("Kiddie pool", "Olympic pool"),
+    ("Training wheels", "Motorcycle"),
+    ("Baby steps", "Giant leap"),
+    ("Indoor voice", "Stadium cheer"),
+    ("Night light", "Stadium lights"),
+    ("Snack size", "Family size"),
+    ("Single scoop", "Banquet"),
+    ("One page", "Encyclopedia"),
+    ("Single note", "Symphony"),
+    ("One friend", "Whole crowd"),
+    ("Solo trip", "World cruise"),
+    ("Quick peek", "Deep dive"),
+    ("Light rain", "Hurricane"),
+    ("Cool fan", "Blizzard"),
+    ("Warm hug", "Bear hug"),
+    ("Soft whisper", "Bullhorn"),
+    ("Gentle slope", "Steep cliff"),
+    ("Calm lake", "Raging river"),
+    ("Quiet street", "Times Square"),
+    ("Small town", "Megacity"),
+    ("Tiny apartment", "Mansion"),
+    ("Closet space", "Warehouse"),
+    ("Pocket change", "Lottery jackpot"),
+    ("Coupon clip", "Luxury splurge"),
+    ("Hand-me-down", "Designer label"),
+    ("Free sample", "VIP package"),
+    ("Community pool", "Private island"),
+    ("Public park", "Theme park"),
+    ("School play", "Broadway show"),
+    ("Garage band", "Stadium tour"),
+    ("Home video", "Hollywood blockbuster"),
+    ("Flip phone", "Latest flagship"),
+    ("Dial-up", "Fiber internet"),
+    ("Typewriter", "AI assistant"),
+    ("Paper ticket", "VIP pass"),
+    ("Bus ride", "Private jet"),
+    ("Shared room", "Penthouse suite"),
+    ("Potluck dish", "Catered feast"),
+    ("Microwave meal", "Chef's table"),
+    ("Vending machine", "Gourmet market"),
+    ("Food truck", "Michelin star"),
+    ("Picnic blanket", "Banquet hall"),
+    ("Cereal bowl", "Holiday feast"),
+    ("Toast", "Wedding cake"),
+    ("Water fountain", "Chocolate fountain"),
+    ("Ice cube", "Ice sculpture"),
+    ("Room fan", "Wind tunnel"),
+    ("Desk lamp", "Searchlight"),
+    ("Sticky note", "Billboard"),
+    ("Text emoji", "Love letter"),
+    ("Group chat", "Keynote speech"),
+    ("Voicemail", "Live interview"),
+    ("Sticky situation", "National news"),
+    ("Minor glitch", "System crash"),
+    ("Paper jam", "Power outage"),
+    ("Lost sock", "Lost luggage"),
+    ("Late bus", "Canceled flight"),
+    ("Rain delay", "Blizzard shutdown"),
+    ("Mild sunburn", "Arctic expedition"),
+    ("Bee buzz", "Thunder crack"),
+    ("Cat purr", "Lion roar"),
+    ("Goldfish", "Great white shark"),
+    ("Houseplant", "Redwood forest"),
+    ("Ant hill", "Mountain range"),
+    ("Puddle mirror", "Grand canyon"),
+    ("Snowflake", "Avalanche"),
+    ("Dust bunny", "Sandstorm"),
+    ("Candle flame", "Volcano"),
+    ("Matchstick", "Wildfire"),
+    ("Paper boat", "Cargo ship"),
+    ("Toy car", "Freight train"),
+    ("Tricycle", "Formula one"),
+    ("Kickball", "World cup final"),
+    ("Duck pond", "Whale watching"),
+    ("Butterfly", "Eagle"),
+    ("Ladybug", "T-Rex"),
+    ("Pet rock", "Show horse"),
+    ("Stuffed animal", "Guard dog"),
+    ("Gold star", "Gold medal"),
+    ("Participation ribbon", "Hall of fame"),
+    ("High five", "Standing ovation"),
+    ("Thumb up", "Parade"),
+    ("Wink", "Spotlight moment"),
+    ("Inside voice", "Sold-out arena"),
+]
+
+seen = set()
+dups = []
+for l, r in pairs:
+    key = (l.lower(), r.lower())
+    rev = (r.lower(), l.lower())
+    if key in seen or rev in seen:
+        dups.append((l, r))
+    seen.add(key)
+
+print('count', len(pairs))
+print('unique', len(seen))
+print('dups', dups)
+PY
+```
+
+```
+count 381
+unique 381
+dups []
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Trimming 381 pairs down to 300.
+
+Using the top 300 ordered pairs. Bottom entries are fine gradients. Ready to proceed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39; &gt; /tmp/spectrum_curated_300.py
+pairs = [
+    (&#34;Hot&#34;, &#34;Cold&#34;),
+    (&#34;Overrated&#34;, &#34;Underrated&#34;),
+    (&#34;Boring&#34;, &#34;Exciting&#34;),
+    (&#34;Smells bad&#34;, &#34;Smells good&#34;),
+    (&#34;Rough&#34;, &#34;Smooth&#34;),
+    (&#34;Cheap&#34;, &#34;Expensive&#34;),
+    (&#34;Easy&#34;, &#34;Hard&#34;),
+    (&#34;Safe&#34;, &#34;Dangerous&#34;),
+    (&#34;Common&#34;, &#34;Rare&#34;),
+    (&#34;Simple&#34;, &#34;Complex&#34;),
+    (&#34;Quiet&#34;, &#34;Loud&#34;),
+    (&#34;Mild&#34;, &#34;Spicy&#34;),
+    (&#34;Useless&#34;, &#34;Useful&#34;),
+    (&#34;Predictable&#34;, &#34;Surprising&#34;),
+    (&#34;Relaxing&#34;, &#34;Stressful&#34;),
+    (&#34;Polite&#34;, &#34;Rude&#34;),
+    (&#34;Healthy&#34;, &#34;Unhealthy&#34;),
+    (&#34;Old-fashioned&#34;, &#34;Modern&#34;),
+    (&#34;Local&#34;, &#34;Exotic&#34;),
+    (&#34;Calm&#34;, &#34;Chaotic&#34;),
+    (&#34;Forgiving&#34;, &#34;Strict&#34;),
+    (&#34;Obvious&#34;, &#34;Subtle&#34;),
+    (&#34;Big&#34;, &#34;Small&#34;),
+    (&#34;Fast&#34;, &#34;Slow&#34;),
+    (&#34;Bright&#34;, &#34;Dim&#34;),
+    (&#34;Sweet&#34;, &#34;Savory&#34;),
+    (&#34;Soft&#34;, &#34;Firm&#34;),
+    (&#34;Light&#34;, &#34;Heavy&#34;),
+    (&#34;Clean&#34;, &#34;Dirty&#34;),
+    (&#34;Full&#34;, &#34;Empty&#34;),
+    (&#34;Shallow&#34;, &#34;Deep&#34;),
+    (&#34;Narrow&#34;, &#34;Wide&#34;),
+    (&#34;Sharp&#34;, &#34;Dull&#34;),
+    (&#34;Fresh&#34;, &#34;Stale&#34;),
+    (&#34;Patient&#34;, &#34;Impatient&#34;),
+    (&#34;Brave&#34;, &#34;Timid&#34;),
+    (&#34;Honest&#34;, &#34;Deceptive&#34;),
+    (&#34;Serious&#34;, &#34;Silly&#34;),
+    (&#34;Formal&#34;, &#34;Casual&#34;),
+    (&#34;Private&#34;, &#34;Public&#34;),
+    (&#34;Temporary&#34;, &#34;Permanent&#34;),
+    (&#34;Literal&#34;, &#34;Figurative&#34;),
+    (&#34;Fact&#34;, &#34;Opinion&#34;),
+    (&#34;Introvert&#34;, &#34;Extrovert&#34;),
+    (&#34;Beginner&#34;, &#34;Expert&#34;),
+    (&#34;Childish&#34;, &#34;Mature&#34;),
+    (&#34;Optimistic&#34;, &#34;Pessimistic&#34;),
+    (&#34;Lazy&#34;, &#34;Driven&#34;),
+    (&#34;Pointless&#34;, &#34;Essential&#34;),
+    (&#34;Weak&#34;, &#34;Powerful&#34;),
+    (&#34;Fragile&#34;, &#34;Durable&#34;),
+    (&#34;Gentle&#34;, &#34;Aggressive&#34;),
+    (&#34;Passive&#34;, &#34;Assertive&#34;),
+    (&#34;Flexible&#34;, &#34;Rigid&#34;),
+    (&#34;Minimal&#34;, &#34;Extravagant&#34;),
+    (&#34;Ordinary&#34;, &#34;Extraordinary&#34;),
+    (&#34;Mainstream&#34;, &#34;Underground&#34;),
+    (&#34;Natural&#34;, &#34;Artificial&#34;),
+    (&#34;Handmade&#34;, &#34;Mass-produced&#34;),
+    (&#34;Crowded&#34;, &#34;Empty&#34;),
+    (&#34;Sandwich&#34;, &#34;Not a sandwich&#34;),
+    (&#34;Sport&#34;, &#34;Not a sport&#34;),
+    (&#34;Vegetable&#34;, &#34;Not a vegetable&#34;),
+    (&#34;Art&#34;, &#34;Science&#34;),
+    (&#34;Job&#34;, &#34;Career&#34;),
+    (&#34;Tool&#34;, &#34;Toy&#34;),
+    (&#34;Pet&#34;, &#34;Pest&#34;),
+    (&#34;Fantasy&#34;, &#34;Sci-fi&#34;),
+    (&#34;Sad song&#34;, &#34;Happy song&#34;),
+    (&#34;Fiction&#34;, &#34;Nonfiction&#34;),
+    (&#34;Comedy&#34;, &#34;Drama&#34;),
+    (&#34;Indoor activity&#34;, &#34;Outdoor activity&#34;),
+    (&#34;Gift&#34;, &#34;Not a gift&#34;),
+    (&#34;Dessert&#34;, &#34;Not dessert&#34;),
+    (&#34;Breakfast food&#34;, &#34;Dinner food&#34;),
+    (&#34;Game&#34;, &#34;Not a game&#34;),
+    (&#34;Snack&#34;, &#34;Meal&#34;),
+    (&#34;Joke&#34;, &#34;Not a joke&#34;),
+    (&#34;Exercise&#34;, &#34;Not exercise&#34;),
+    (&#34;Holiday&#34;, &#34;Not a holiday&#34;),
+    (&#34;Harmless prank&#34;, &#34;Cruel joke&#34;),
+    (&#34;Icebreaker&#34;, &#34;Conversation ender&#34;),
+    (&#34;Time saver&#34;, &#34;Time waster&#34;),
+    (&#34;Stress relief&#34;, &#34;Stress cause&#34;),
+    (&#34;Healthy choice&#34;, &#34;Indulgent choice&#34;),
+    (&#34;Selfish choice&#34;, &#34;Generous choice&#34;),
+    (&#34;Confidence boost&#34;, &#34;Confidence drain&#34;),
+    (&#34;Team builder&#34;, &#34;Team divider&#34;),
+    (&#34;Low effort&#34;, &#34;High effort&#34;),
+    (&#34;Mild habit&#34;, &#34;Risky habit&#34;),
+    (&#34;Simple skill&#34;, &#34;Impressive skill&#34;),
+    (&#34;Cheap thrill&#34;, &#34;Expensive hobby&#34;),
+    (&#34;Overhyped&#34;, &#34;Underrated gem&#34;),
+    (&#34;Guilty pleasure&#34;, &#34;Proud favorite&#34;),
+    (&#34;Comfort zone&#34;, &#34;Challenge&#34;),
+    (&#34;Nostalgia&#34;, &#34;Novelty&#34;),
+    (&#34;Classic&#34;, &#34;Trending&#34;),
+    (&#34;Comfort food&#34;, &#34;Adventurous food&#34;),
+    (&#34;Underdone&#34;, &#34;Overdone&#34;),
+    (&#34;Overexplained&#34;, &#34;Mysterious&#34;),
+    (&#34;Quiet hobby&#34;, &#34;Loud hobby&#34;),
+    (&#34;Solo hobby&#34;, &#34;Group hobby&#34;),
+    (&#34;Low-key hangout&#34;, &#34;Big night out&#34;),
+    (&#34;Quick errand&#34;, &#34;All-day outing&#34;),
+    (&#34;Short walk&#34;, &#34;Long hike&#34;),
+    (&#34;Quick shower&#34;, &#34;Long bath&#34;),
+    (&#34;Light snack&#34;, &#34;Full meal&#34;),
+    (&#34;Power nap&#34;, &#34;Deep sleep&#34;),
+    (&#34;Mini vacation&#34;, &#34;Dream trip&#34;),
+    (&#34;Quick game&#34;, &#34;Epic campaign&#34;),
+    (&#34;Casual sport&#34;, &#34;Competitive sport&#34;),
+    (&#34;Practice round&#34;, &#34;Championship&#34;),
+    (&#34;Chore&#34;, &#34;Hobby&#34;),
+    (&#34;Routine&#34;, &#34;Adventure&#34;),
+    (&#34;Stay home&#34;, &#34;Go out&#34;),
+    (&#34;Rest day&#34;, &#34;Training day&#34;),
+    (&#34;Window shopping&#34;, &#34;Big purchase&#34;),
+    (&#34;Budget meal&#34;, &#34;Fine dining&#34;),
+    (&#34;Instant reply&#34;, &#34;Thoughtful reply&#34;),
+    (&#34;Quick fix&#34;, &#34;Long-term fix&#34;),
+    (&#34;Last minute&#34;, &#34;Planned ahead&#34;),
+    (&#34;Rough draft&#34;, &#34;Final version&#34;),
+    (&#34;Warm-up&#34;, &#34;Main event&#34;),
+    (&#34;Appetizer&#34;, &#34;Main course&#34;),
+    (&#34;Trailer&#34;, &#34;Feature film&#34;),
+    (&#34;Tutorial&#34;, &#34;Boss fight&#34;),
+    (&#34;Whisper&#34;, &#34;Shout&#34;),
+    (&#34;Shy greeting&#34;, &#34;Bold introduction&#34;),
+    (&#34;Listen&#34;, &#34;Talk&#34;),
+    (&#34;Follow&#34;, &#34;Lead&#34;),
+    (&#34;Play it safe&#34;, &#34;Take a risk&#34;),
+    (&#34;Overthink&#34;, &#34;Go with gut&#34;),
+    (&#34;Trust easily&#34;, &#34;Trust slowly&#34;),
+    (&#34;Open book&#34;, &#34;Hard to read&#34;),
+    (&#34;Forgive quickly&#34;, &#34;Hold a grudge&#34;),
+    (&#34;Ask permission&#34;, &#34;Take initiative&#34;),
+    (&#34;Overshare&#34;, &#34;Keep mystery&#34;),
+    (&#34;Early bird&#34;, &#34;Night owl&#34;),
+    (&#34;Summer mood&#34;, &#34;Winter mood&#34;),
+    (&#34;Rainy day&#34;, &#34;Sunny day&#34;),
+    (&#34;School day&#34;, &#34;Weekend&#34;),
+    (&#34;Work mode&#34;, &#34;Vacation mode&#34;),
+    (&#34;Screen time&#34;, &#34;Outside time&#34;),
+    (&#34;Homework&#34;, &#34;Passion project&#34;),
+    (&#34;Background music&#34;, &#34;Live concert&#34;),
+    (&#34;Short video&#34;, &#34;Feature film&#34;),
+    (&#34;Cartoon&#34;, &#34;Documentary&#34;),
+    (&#34;Rewatch&#34;, &#34;First watch&#34;),
+    (&#34;Spoiler&#34;, &#34;Surprise twist&#34;),
+    (&#34;Happy ending&#34;, &#34;Tragic ending&#34;),
+    (&#34;Formal event&#34;, &#34;Casual hangout&#34;),
+    (&#34;City life&#34;, &#34;Country life&#34;),
+    (&#34;Planned trip&#34;, &#34;Spontaneous trip&#34;),
+    (&#34;Minimal home&#34;, &#34;Cozy clutter&#34;),
+    (&#34;Packing light&#34;, &#34;Packing heavy&#34;),
+    (&#34;Deep research&#34;, &#34;Quick search&#34;),
+    (&#34;Fresh pizza&#34;, &#34;Reheated pizza&#34;),
+    (&#34;Firm mattress&#34;, &#34;Soft mattress&#34;),
+    (&#34;Indie film&#34;, &#34;Blockbuster&#34;),
+    (&#34;Thrift find&#34;, &#34;Brand new&#34;),
+    (&#34;Learn by doing&#34;, &#34;Learn by watching&#34;),
+    (&#34;Strict budget&#34;, &#34;Treat yourself&#34;),
+    (&#34;Big city noise&#34;, &#34;Small town quiet&#34;),
+    (&#34;Whole foods&#34;, &#34;Processed foods&#34;),
+    (&#34;Gentle ride&#34;, &#34;Thrill ride&#34;),
+    (&#34;Overprepared&#34;, &#34;Underprepared&#34;),
+    (&#34;Detailed itinerary&#34;, &#34;Rough outline&#34;),
+    (&#34;Inbox zero&#34;, &#34;Inbox backlog&#34;),
+    (&#34;Early arrival&#34;, &#34;Fashionably late&#34;),
+    (&#34;Strategy game&#34;, &#34;Luck game&#34;),
+    (&#34;Loud restaurant&#34;, &#34;Quiet restaurant&#34;),
+    (&#34;Home cooking&#34;, &#34;Restaurant meal&#34;),
+    (&#34;Camping trip&#34;, &#34;Hotel stay&#34;),
+    (&#34;Beach vacation&#34;, &#34;Mountain vacation&#34;),
+    (&#34;Group travel&#34;, &#34;Solo travel&#34;),
+    (&#34;Remote work&#34;, &#34;Office work&#34;),
+    (&#34;Video call&#34;, &#34;In-person meeting&#34;),
+    (&#34;Ask for help&#34;, &#34;Figure it out alone&#34;),
+    (&#34;Digital detox&#34;, &#34;Always connected&#34;),
+    (&#34;Physical book&#34;, &#34;E-book&#34;),
+    (&#34;DIY repair&#34;, &#34;Call a pro&#34;),
+    (&#34;Repair item&#34;, &#34;Replace item&#34;),
+    (&#34;Cook from scratch&#34;, &#34;Use shortcuts&#34;),
+    (&#34;Morning workout&#34;, &#34;Evening workout&#34;),
+    (&#34;Car karaoke&#34;, &#34;Quiet drive&#34;),
+    (&#34;Home movie night&#34;, &#34;Theater night&#34;),
+    (&#34;Spontaneous gift&#34;, &#34;Planned gift&#34;),
+    (&#34;Farmers market&#34;, &#34;Supermarket run&#34;),
+    (&#34;Bookstore browse&#34;, &#34;Online checkout&#34;),
+    (&#34;Theme park ride&#34;, &#34;Nature trail&#34;),
+    (&#34;Tent camping&#34;, &#34;Cabin stay&#34;),
+    (&#34;Hotel buffet&#34;, &#34;Corner café&#34;),
+    (&#34;Guided tour&#34;, &#34;Self-guided tour&#34;),
+    (&#34;City break&#34;, &#34;Nature retreat&#34;),
+    (&#34;Board game&#34;, &#34;Video game&#34;),
+    (&#34;Live music&#34;, &#34;Recorded music&#34;),
+    (&#34;Comedy podcast&#34;, &#34;True crime podcast&#34;),
+    (&#34;Kid movie&#34;, &#34;Grown-up movie&#34;),
+    (&#34;Instant coffee&#34;, &#34;Fancy coffee&#34;),
+    (&#34;Fruit dessert&#34;, &#34;Chocolate dessert&#34;),
+    (&#34;Light breakfast&#34;, &#34;Heavy breakfast&#34;),
+    (&#34;Room temperature&#34;, &#34;Piping hot&#34;),
+    (&#34;Ice cold&#34;, &#34;Steaming hot&#34;),
+    (&#34;Plain water&#34;, &#34;Fancy drink&#34;),
+    (&#34;Leftovers&#34;, &#34;Fresh cooked&#34;),
+    (&#34;Dim room&#34;, &#34;Bright room&#34;),
+    (&#34;Cool breeze&#34;, &#34;Hot oven&#34;),
+    (&#34;Light blanket&#34;, &#34;Heavy quilt&#34;),
+    (&#34;Unscented&#34;, &#34;Strong scent&#34;),
+    (&#34;Mild flavor&#34;, &#34;Bold flavor&#34;),
+    (&#34;Plain outfit&#34;, &#34;Statement outfit&#34;),
+    (&#34;Tidy desk&#34;, &#34;Creative mess&#34;),
+    (&#34;Empty fridge&#34;, &#34;Stocked pantry&#34;),
+    (&#34;Day trip&#34;, &#34;World tour&#34;),
+    (&#34;Staycation&#34;, &#34;Faraway trip&#34;),
+    (&#34;Road trip&#34;, &#34;Flight abroad&#34;),
+    (&#34;Paper map&#34;, &#34;GPS navigation&#34;),
+    (&#34;Photo album&#34;, &#34;Camera roll only&#34;),
+    (&#34;Handwritten letter&#34;, &#34;Quick text&#34;),
+    (&#34;Open headphones&#34;, &#34;Noise canceling&#34;),
+    (&#34;Dark mode&#34;, &#34;Light mode&#34;),
+    (&#34;Weekly deep clean&#34;, &#34;Daily light tidy&#34;),
+    (&#34;Window open&#34;, &#34;Window closed&#34;),
+    (&#34;Standing desk&#34;, &#34;Sitting desk&#34;),
+    (&#34;DIY haircut&#34;, &#34;Salon cut&#34;),
+    (&#34;Garage sale&#34;, &#34;Online listing&#34;),
+    (&#34;Compost bin&#34;, &#34;Trash bin&#34;),
+    (&#34;Live plants&#34;, &#34;Artificial plants&#34;),
+    (&#34;Early checkout&#34;, &#34;Late checkout&#34;),
+    (&#34;RSVP promptly&#34;, &#34;RSVP last minute&#34;),
+    (&#34;Donate often&#34;, &#34;Donate rarely&#34;),
+    (&#34;Volunteer often&#34;, &#34;Volunteer rarely&#34;),
+    (&#34;Desk job&#34;, &#34;Physical job&#34;),
+    (&#34;Team meeting&#34;, &#34;One-on-one chat&#34;),
+    (&#34;Strict deadline&#34;, &#34;Flexible deadline&#34;),
+    (&#34;Group study&#34;, &#34;Solo study&#34;),
+    (&#34;Front of class&#34;, &#34;Back of class&#34;),
+    (&#34;Online course&#34;, &#34;In-person class&#34;),
+    (&#34;Handwritten note&#34;, &#34;Typed message&#34;),
+    (&#34;Paper to-do list&#34;, &#34;App to-do list&#34;),
+    (&#34;Big party&#34;, &#34;Small dinner&#34;),
+    (&#34;Quiet library&#34;, &#34;Busy cafe&#34;),
+    (&#34;Front row&#34;, &#34;Back row&#34;),
+    (&#34;Low cost&#34;, &#34;High cost&#34;),
+    (&#34;Low risk&#34;, &#34;High risk&#34;),
+    (&#34;Low skill&#34;, &#34;High skill&#34;),
+    (&#34;Low maintenance&#34;, &#34;High maintenance&#34;),
+    (&#34;Eco-friendly&#34;, &#34;Convenient&#34;),
+    (&#34;Try new food&#34;, &#34;Stick to favorites&#34;),
+    (&#34;Multitask&#34;, &#34;Single task&#34;),
+    (&#34;Hot shower&#34;, &#34;Cold rinse&#34;),
+    (&#34;Gift experiences&#34;, &#34;Gift objects&#34;),
+    (&#34;Team sport&#34;, &#34;Individual sport&#34;),
+    (&#34;Healthy snack&#34;, &#34;Treat food&#34;),
+    (&#34;Sweet&#34;, &#34;Bitter&#34;),
+    (&#34;Wet&#34;, &#34;Dry&#34;),
+    (&#34;Near&#34;, &#34;Far&#34;),
+    (&#34;Young&#34;, &#34;Old&#34;),
+    (&#34;Pencil sketch&#34;, &#34;Oil painting&#34;),
+    (&#34;Flashlight&#34;, &#34;Spotlight&#34;),
+    (&#34;Pebble&#34;, &#34;Boulder&#34;),
+    (&#34;Drizzle&#34;, &#34;Storm&#34;),
+    (&#34;Sidewalk&#34;, &#34;Highway&#34;),
+    (&#34;Backyard&#34;, &#34;Wilderness&#34;),
+    (&#34;Knock-knock joke&#34;, &#34;Stand-up special&#34;),
+    (&#34;Nudge&#34;, &#34;Shove&#34;),
+    (&#34;Peek&#34;, &#34;Stare&#34;),
+    (&#34;Mumble&#34;, &#34;Speech&#34;),
+    (&#34;Tap&#34;, &#34;Slam&#34;),
+    (&#34;Crumb&#34;, &#34;Feast&#34;),
+    (&#34;Spark&#34;, &#34;Bonfire&#34;),
+    (&#34;Hum&#34;, &#34;Anthem&#34;),
+    (&#34;Doodle&#34;, &#34;Mural&#34;),
+    (&#34;Lemonade stand&#34;, &#34;Restaurant chain&#34;),
+    (&#34;Sandbox&#34;, &#34;Construction site&#34;),
+    (&#34;Puddle&#34;, &#34;Ocean&#34;),
+    (&#34;Sprain&#34;, &#34;Surgery&#34;),
+    (&#34;Mosquito bite&#34;, &#34;Bee sting&#34;),
+    (&#34;Crayon&#34;, &#34;Fountain pen&#34;),
+    (&#34;Stick figure&#34;, &#34;Masterpiece&#34;),
+    (&#34;Blink&#34;, &#34;Marathon&#34;),
+    (&#34;Ripple&#34;, &#34;Tsunami&#34;),
+    (&#34;Whisper secret&#34;, &#34;Press conference&#34;),
+    (&#34;Drop&#34;, &#34;Flood&#34;),
+    (&#34;Tickle&#34;, &#34;Tackle&#34;),
+    (&#34;Hint&#34;, &#34;Full spoiler&#34;),
+    (&#34;Nap&#34;, &#34;Overnight shift&#34;),
+    (&#34;Amateur hour&#34;, &#34;Pro league&#34;),
+    (&#34;Puddle jump&#34;, &#34;Cliff dive&#34;),
+    (&#34;Stick shift&#34;, &#34;Rocket launch&#34;),
+    (&#34;Paper airplane&#34;, &#34;Space shuttle&#34;),
+    (&#34;Bubble bath&#34;, &#34;Ice plunge&#34;),
+    (&#34;Tea party&#34;, &#34;Rock festival&#34;),
+    (&#34;Picture book&#34;, &#34;Textbook&#34;),
+    (&#34;Sticker chart&#34;, &#34;Doctorate&#34;),
+    (&#34;Piggy bank&#34;, &#34;Stock portfolio&#34;),
+    (&#34;Fort building&#34;, &#34;Skyscraper&#34;),
+    (&#34;Kiddie pool&#34;, &#34;Olympic pool&#34;),
+    (&#34;Training wheels&#34;, &#34;Motorcycle&#34;),
+    (&#34;Baby steps&#34;, &#34;Giant leap&#34;),
+    (&#34;Indoor voice&#34;, &#34;Stadium cheer&#34;),
+    (&#34;Night light&#34;, &#34;Stadium lights&#34;),
+    (&#34;Snack size&#34;, &#34;Family size&#34;),
+    (&#34;Single scoop&#34;, &#34;Banquet&#34;),
+    (&#34;One page&#34;, &#34;Encyclopedia&#34;),
+    (&#34;Single note&#34;, &#34;Symphony&#34;),
+    (&#34;One friend&#34;, &#34;Whole crowd&#34;),
+    (&#34;Solo trip&#34;, &#34;World cruise&#34;),
+    (&#34;Quick peek&#34;, &#34;Deep dive&#34;),
+    (&#34;Light rain&#34;, &#34;Hurricane&#34;),
+    (&#34;Cool fan&#34;, &#34;Blizzard&#34;),
+    (&#34;Warm hug&#34;, &#34;Bear hug&#34;),
+    (&#34;Soft whisper&#34;, &#34;Bullhorn&#34;),
+    (&#34;Gentle slope&#34;, &#34;Steep cliff&#34;),
+    (&#34;Calm lake&#34;, &#34;Raging river&#34;),
+    (&#34;Quiet street&#34;, &#34;Times Square&#34;),
+    (&#34;Small town&#34;, &#34;Megacity&#34;),
+    (&#34;Tiny apartment&#34;, &#34;Mansion&#34;),
+    (&#34;Closet space&#34;, &#34;Warehouse&#34;),
+    (&#34;Pocket change&#34;, &#34;Lottery jackpot&#34;),
+    (&#34;Coupon clip&#34;, &#34;Luxury splurge&#34;),
+    (&#34;Hand-me-down&#34;, &#34;Designer label&#34;),
+    (&#34;Free sample&#34;, &#34;VIP package&#34;),
+    (&#34;Community pool&#34;, &#34;Private island&#34;),
+    (&#34;Public park&#34;, &#34;Theme park&#34;),
+    (&#34;School play&#34;, &#34;Broadway show&#34;),
+    (&#34;Garage band&#34;, &#34;Stadium tour&#34;),
+    (&#34;Home video&#34;, &#34;Hollywood blockbuster&#34;),
+    (&#34;Flip phone&#34;, &#34;Latest flagship&#34;),
+    (&#34;Dial-up&#34;, &#34;Fiber internet&#34;),
+    (&#34;Typewriter&#34;, &#34;AI assistant&#34;),
+    (&#34;Paper ticket&#34;, &#34;VIP pass&#34;),
+    (&#34;Bus ride&#34;, &#34;Private jet&#34;),
+    (&#34;Shared room&#34;, &#34;Penthouse suite&#34;),
+    (&#34;Potluck dish&#34;, &#34;Catered feast&#34;),
+    (&#34;Microwave meal&#34;, &#34;Chef&#39;s table&#34;),
+    (&#34;Vending machine&#34;, &#34;Gourmet market&#34;),
+    (&#34;Food truck&#34;, &#34;Michelin star&#34;),
+    (&#34;Picnic blanket&#34;, &#34;Banquet hall&#34;),
+    (&#34;Cereal bowl&#34;, &#34;Holiday feast&#34;),
+    (&#34;Toast&#34;, &#34;Wedding cake&#34;),
+    (&#34;Water fountain&#34;, &#34;Chocolate fountain&#34;),
+    (&#34;Ice cube&#34;, &#34;Ice sculpture&#34;),
+    (&#34;Room fan&#34;, &#34;Wind tunnel&#34;),
+    (&#34;Desk lamp&#34;, &#34;Searchlight&#34;),
+    (&#34;Sticky note&#34;, &#34;Billboard&#34;),
+    (&#34;Text emoji&#34;, &#34;Love letter&#34;),
+    (&#34;Group chat&#34;, &#34;Keynote speech&#34;),
+    (&#34;Voicemail&#34;, &#34;Live interview&#34;),
+    (&#34;Sticky situation&#34;, &#34;National news&#34;),
+    (&#34;Minor glitch&#34;, &#34;System crash&#34;),
+    (&#34;Paper jam&#34;, &#34;Power outage&#34;),
+    (&#34;Lost sock&#34;, &#34;Lost luggage&#34;),
+    (&#34;Late bus&#34;, &#34;Canceled flight&#34;),
+    (&#34;Rain delay&#34;, &#34;Blizzard shutdown&#34;),
+    (&#34;Mild sunburn&#34;, &#34;Arctic expedition&#34;),
+    (&#34;Bee buzz&#34;, &#34;Thunder crack&#34;),
+    (&#34;Cat purr&#34;, &#34;Lion roar&#34;),
+    (&#34;Goldfish&#34;, &#34;Great white shark&#34;),
+    (&#34;Houseplant&#34;, &#34;Redwood forest&#34;),
+    (&#34;Ant hill&#34;, &#34;Mountain range&#34;),
+    (&#34;Puddle mirror&#34;, &#34;Grand canyon&#34;),
+    (&#34;Snowflake&#34;, &#34;Avalanche&#34;),
+    (&#34;Dust bunny&#34;, &#34;Sandstorm&#34;),
+    (&#34;Candle flame&#34;, &#34;Volcano&#34;),
+    (&#34;Matchstick&#34;, &#34;Wildfire&#34;),
+    (&#34;Paper boat&#34;, &#34;Cargo ship&#34;),
+    (&#34;Toy car&#34;, &#34;Freight train&#34;),
+    (&#34;Tricycle&#34;, &#34;Formula one&#34;),
+    (&#34;Kickball&#34;, &#34;World cup final&#34;),
+    (&#34;Duck pond&#34;, &#34;Whale watching&#34;),
+    (&#34;Butterfly&#34;, &#34;Eagle&#34;),
+    (&#34;Ladybug&#34;, &#34;T-Rex&#34;),
+    (&#34;Pet rock&#34;, &#34;Show horse&#34;),
+    (&#34;Stuffed animal&#34;, &#34;Guard dog&#34;),
+    (&#34;Gold star&#34;, &#34;Gold medal&#34;),
+    (&#34;Participation ribbon&#34;, &#34;Hall of fame&#34;),
+    (&#34;High five&#34;, &#34;Standing ovation&#34;),
+    (&#34;Thumb up&#34;, &#34;Parade&#34;),
+    (&#34;Wink&#34;, &#34;Spotlight moment&#34;),
+    (&#34;Inside voice&#34;, &#34;Sold-out arena&#34;),
+][:300]
+assert len(pairs) == 300
+print(&#39;SPECTRUM_CURATED = [&#39;)
+for l, r in pairs:
+    print(f&#39;    ({l!r}, {r!r}),&#39;)
+print(&#39;]&#39;)
+PY
+wc -l /tmp/spectrum_curated_300.py</summary>
+```bash
+python3 << 'PY' > /tmp/spectrum_curated_300.py
+pairs = [
+    ("Hot", "Cold"),
+    ("Overrated", "Underrated"),
+    ("Boring", "Exciting"),
+    ("Smells bad", "Smells good"),
+    ("Rough", "Smooth"),
+    ("Cheap", "Expensive"),
+    ("Easy", "Hard"),
+    ("Safe", "Dangerous"),
+    ("Common", "Rare"),
+    ("Simple", "Complex"),
+    ("Quiet", "Loud"),
+    ("Mild", "Spicy"),
+    ("Useless", "Useful"),
+    ("Predictable", "Surprising"),
+    ("Relaxing", "Stressful"),
+    ("Polite", "Rude"),
+    ("Healthy", "Unhealthy"),
+    ("Old-fashioned", "Modern"),
+    ("Local", "Exotic"),
+    ("Calm", "Chaotic"),
+    ("Forgiving", "Strict"),
+    ("Obvious", "Subtle"),
+    ("Big", "Small"),
+    ("Fast", "Slow"),
+    ("Bright", "Dim"),
+    ("Sweet", "Savory"),
+    ("Soft", "Firm"),
+    ("Light", "Heavy"),
+    ("Clean", "Dirty"),
+    ("Full", "Empty"),
+    ("Shallow", "Deep"),
+    ("Narrow", "Wide"),
+    ("Sharp", "Dull"),
+    ("Fresh", "Stale"),
+    ("Patient", "Impatient"),
+    ("Brave", "Timid"),
+    ("Honest", "Deceptive"),
+    ("Serious", "Silly"),
+    ("Formal", "Casual"),
+    ("Private", "Public"),
+    ("Temporary", "Permanent"),
+    ("Literal", "Figurative"),
+    ("Fact", "Opinion"),
+    ("Introvert", "Extrovert"),
+    ("Beginner", "Expert"),
+    ("Childish", "Mature"),
+    ("Optimistic", "Pessimistic"),
+    ("Lazy", "Driven"),
+    ("Pointless", "Essential"),
+    ("Weak", "Powerful"),
+    ("Fragile", "Durable"),
+    ("Gentle", "Aggressive"),
+    ("Passive", "Assertive"),
+    ("Flexible", "Rigid"),
+    ("Minimal", "Extravagant"),
+    ("Ordinary", "Extraordinary"),
+    ("Mainstream", "Underground"),
+    ("Natural", "Artificial"),
+    ("Handmade", "Mass-produced"),
+    ("Crowded", "Empty"),
+    ("Sandwich", "Not a sandwich"),
+    ("Sport", "Not a sport"),
+    ("Vegetable", "Not a vegetable"),
+    ("Art", "Science"),
+    ("Job", "Career"),
+    ("Tool", "Toy"),
+    ("Pet", "Pest"),
+    ("Fantasy", "Sci-fi"),
+    ("Sad song", "Happy song"),
+    ("Fiction", "Nonfiction"),
+    ("Comedy", "Drama"),
+    ("Indoor activity", "Outdoor activity"),
+    ("Gift", "Not a gift"),
+    ("Dessert", "Not dessert"),
+    ("Breakfast food", "Dinner food"),
+    ("Game", "Not a game"),
+    ("Snack", "Meal"),
+    ("Joke", "Not a joke"),
+    ("Exercise", "Not exercise"),
+    ("Holiday", "Not a holiday"),
+    ("Harmless prank", "Cruel joke"),
+    ("Icebreaker", "Conversation ender"),
+    ("Time saver", "Time waster"),
+    ("Stress relief", "Stress cause"),
+    ("Healthy choice", "Indulgent choice"),
+    ("Selfish choice", "Generous choice"),
+    ("Confidence boost", "Confidence drain"),
+    ("Team builder", "Team divider"),
+    ("Low effort", "High effort"),
+    ("Mild habit", "Risky habit"),
+    ("Simple skill", "Impressive skill"),
+    ("Cheap thrill", "Expensive hobby"),
+    ("Overhyped", "Underrated gem"),
+    ("Guilty pleasure", "Proud favorite"),
+    ("Comfort zone", "Challenge"),
+    ("Nostalgia", "Novelty"),
+    ("Classic", "Trending"),
+    ("Comfort food", "Adventurous food"),
+    ("Underdone", "Overdone"),
+    ("Overexplained", "Mysterious"),
+    ("Quiet hobby", "Loud hobby"),
+    ("Solo hobby", "Group hobby"),
+    ("Low-key hangout", "Big night out"),
+    ("Quick errand", "All-day outing"),
+    ("Short walk", "Long hike"),
+    ("Quick shower", "Long bath"),
+    ("Light snack", "Full meal"),
+    ("Power nap", "Deep sleep"),
+    ("Mini vacation", "Dream trip"),
+    ("Quick game", "Epic campaign"),
+    ("Casual sport", "Competitive sport"),
+    ("Practice round", "Championship"),
+    ("Chore", "Hobby"),
+    ("Routine", "Adventure"),
+    ("Stay home", "Go out"),
+    ("Rest day", "Training day"),
+    ("Window shopping", "Big purchase"),
+    ("Budget meal", "Fine dining"),
+    ("Instant reply", "Thoughtful reply"),
+    ("Quick fix", "Long-term fix"),
+    ("Last minute", "Planned ahead"),
+    ("Rough draft", "Final version"),
+    ("Warm-up", "Main event"),
+    ("Appetizer", "Main course"),
+    ("Trailer", "Feature film"),
+    ("Tutorial", "Boss fight"),
+    ("Whisper", "Shout"),
+    ("Shy greeting", "Bold introduction"),
+    ("Listen", "Talk"),
+    ("Follow", "Lead"),
+    ("Play it safe", "Take a risk"),
+    ("Overthink", "Go with gut"),
+    ("Trust easily", "Trust slowly"),
+    ("Open book", "Hard to read"),
+    ("Forgive quickly", "Hold a grudge"),
+    ("Ask permission", "Take initiative"),
+    ("Overshare", "Keep mystery"),
+    ("Early bird", "Night owl"),
+    ("Summer mood", "Winter mood"),
+    ("Rainy day", "Sunny day"),
+    ("School day", "Weekend"),
+    ("Work mode", "Vacation mode"),
+    ("Screen time", "Outside time"),
+    ("Homework", "Passion project"),
+    ("Background music", "Live concert"),
+    ("Short video", "Feature film"),
+    ("Cartoon", "Documentary"),
+    ("Rewatch", "First watch"),
+    ("Spoiler", "Surprise twist"),
+    ("Happy ending", "Tragic ending"),
+    ("Formal event", "Casual hangout"),
+    ("City life", "Country life"),
+    ("Planned trip", "Spontaneous trip"),
+    ("Minimal home", "Cozy clutter"),
+    ("Packing light", "Packing heavy"),
+    ("Deep research", "Quick search"),
+    ("Fresh pizza", "Reheated pizza"),
+    ("Firm mattress", "Soft mattress"),
+    ("Indie film", "Blockbuster"),
+    ("Thrift find", "Brand new"),
+    ("Learn by doing", "Learn by watching"),
+    ("Strict budget", "Treat yourself"),
+    ("Big city noise", "Small town quiet"),
+    ("Whole foods", "Processed foods"),
+    ("Gentle ride", "Thrill ride"),
+    ("Overprepared", "Underprepared"),
+    ("Detailed itinerary", "Rough outline"),
+    ("Inbox zero", "Inbox backlog"),
+    ("Early arrival", "Fashionably late"),
+    ("Strategy game", "Luck game"),
+    ("Loud restaurant", "Quiet restaurant"),
+    ("Home cooking", "Restaurant meal"),
+    ("Camping trip", "Hotel stay"),
+    ("Beach vacation", "Mountain vacation"),
+    ("Group travel", "Solo travel"),
+    ("Remote work", "Office work"),
+    ("Video call", "In-person meeting"),
+    ("Ask for help", "Figure it out alone"),
+    ("Digital detox", "Always connected"),
+    ("Physical book", "E-book"),
+    ("DIY repair", "Call a pro"),
+    ("Repair item", "Replace item"),
+    ("Cook from scratch", "Use shortcuts"),
+    ("Morning workout", "Evening workout"),
+    ("Car karaoke", "Quiet drive"),
+    ("Home movie night", "Theater night"),
+    ("Spontaneous gift", "Planned gift"),
+    ("Farmers market", "Supermarket run"),
+    ("Bookstore browse", "Online checkout"),
+    ("Theme park ride", "Nature trail"),
+    ("Tent camping", "Cabin stay"),
+    ("Hotel buffet", "Corner café"),
+    ("Guided tour", "Self-guided tour"),
+    ("City break", "Nature retreat"),
+    ("Board game", "Video game"),
+    ("Live music", "Recorded music"),
+    ("Comedy podcast", "True crime podcast"),
+    ("Kid movie", "Grown-up movie"),
+    ("Instant coffee", "Fancy coffee"),
+    ("Fruit dessert", "Chocolate dessert"),
+    ("Light breakfast", "Heavy breakfast"),
+    ("Room temperature", "Piping hot"),
+    ("Ice cold", "Steaming hot"),
+    ("Plain water", "Fancy drink"),
+    ("Leftovers", "Fresh cooked"),
+    ("Dim room", "Bright room"),
+    ("Cool breeze", "Hot oven"),
+    ("Light blanket", "Heavy quilt"),
+    ("Unscented", "Strong scent"),
+    ("Mild flavor", "Bold flavor"),
+    ("Plain outfit", "Statement outfit"),
+    ("Tidy desk", "Creative mess"),
+    ("Empty fridge", "Stocked pantry"),
+    ("Day trip", "World tour"),
+    ("Staycation", "Faraway trip"),
+    ("Road trip", "Flight abroad"),
+    ("Paper map", "GPS navigation"),
+    ("Photo album", "Camera roll only"),
+    ("Handwritten letter", "Quick text"),
+    ("Open headphones", "Noise canceling"),
+    ("Dark mode", "Light mode"),
+    ("Weekly deep clean", "Daily light tidy"),
+    ("Window open", "Window closed"),
+    ("Standing desk", "Sitting desk"),
+    ("DIY haircut", "Salon cut"),
+    ("Garage sale", "Online listing"),
+    ("Compost bin", "Trash bin"),
+    ("Live plants", "Artificial plants"),
+    ("Early checkout", "Late checkout"),
+    ("RSVP promptly", "RSVP last minute"),
+    ("Donate often", "Donate rarely"),
+    ("Volunteer often", "Volunteer rarely"),
+    ("Desk job", "Physical job"),
+    ("Team meeting", "One-on-one chat"),
+    ("Strict deadline", "Flexible deadline"),
+    ("Group study", "Solo study"),
+    ("Front of class", "Back of class"),
+    ("Online course", "In-person class"),
+    ("Handwritten note", "Typed message"),
+    ("Paper to-do list", "App to-do list"),
+    ("Big party", "Small dinner"),
+    ("Quiet library", "Busy cafe"),
+    ("Front row", "Back row"),
+    ("Low cost", "High cost"),
+    ("Low risk", "High risk"),
+    ("Low skill", "High skill"),
+    ("Low maintenance", "High maintenance"),
+    ("Eco-friendly", "Convenient"),
+    ("Try new food", "Stick to favorites"),
+    ("Multitask", "Single task"),
+    ("Hot shower", "Cold rinse"),
+    ("Gift experiences", "Gift objects"),
+    ("Team sport", "Individual sport"),
+    ("Healthy snack", "Treat food"),
+    ("Sweet", "Bitter"),
+    ("Wet", "Dry"),
+    ("Near", "Far"),
+    ("Young", "Old"),
+    ("Pencil sketch", "Oil painting"),
+    ("Flashlight", "Spotlight"),
+    ("Pebble", "Boulder"),
+    ("Drizzle", "Storm"),
+    ("Sidewalk", "Highway"),
+    ("Backyard", "Wilderness"),
+    ("Knock-knock joke", "Stand-up special"),
+    ("Nudge", "Shove"),
+    ("Peek", "Stare"),
+    ("Mumble", "Speech"),
+    ("Tap", "Slam"),
+    ("Crumb", "Feast"),
+    ("Spark", "Bonfire"),
+    ("Hum", "Anthem"),
+    ("Doodle", "Mural"),
+    ("Lemonade stand", "Restaurant chain"),
+    ("Sandbox", "Construction site"),
+    ("Puddle", "Ocean"),
+    ("Sprain", "Surgery"),
+    ("Mosquito bite", "Bee sting"),
+    ("Crayon", "Fountain pen"),
+    ("Stick figure", "Masterpiece"),
+    ("Blink", "Marathon"),
+    ("Ripple", "Tsunami"),
+    ("Whisper secret", "Press conference"),
+    ("Drop", "Flood"),
+    ("Tickle", "Tackle"),
+    ("Hint", "Full spoiler"),
+    ("Nap", "Overnight shift"),
+    ("Amateur hour", "Pro league"),
+    ("Puddle jump", "Cliff dive"),
+    ("Stick shift", "Rocket launch"),
+    ("Paper airplane", "Space shuttle"),
+    ("Bubble bath", "Ice plunge"),
+    ("Tea party", "Rock festival"),
+    ("Picture book", "Textbook"),
+    ("Sticker chart", "Doctorate"),
+    ("Piggy bank", "Stock portfolio"),
+    ("Fort building", "Skyscraper"),
+    ("Kiddie pool", "Olympic pool"),
+    ("Training wheels", "Motorcycle"),
+    ("Baby steps", "Giant leap"),
+    ("Indoor voice", "Stadium cheer"),
+    ("Night light", "Stadium lights"),
+    ("Snack size", "Family size"),
+    ("Single scoop", "Banquet"),
+    ("One page", "Encyclopedia"),
+    ("Single note", "Symphony"),
+    ("One friend", "Whole crowd"),
+    ("Solo trip", "World cruise"),
+    ("Quick peek", "Deep dive"),
+    ("Light rain", "Hurricane"),
+    ("Cool fan", "Blizzard"),
+    ("Warm hug", "Bear hug"),
+    ("Soft whisper", "Bullhorn"),
+    ("Gentle slope", "Steep cliff"),
+    ("Calm lake", "Raging river"),
+    ("Quiet street", "Times Square"),
+    ("Small town", "Megacity"),
+    ("Tiny apartment", "Mansion"),
+    ("Closet space", "Warehouse"),
+    ("Pocket change", "Lottery jackpot"),
+    ("Coupon clip", "Luxury splurge"),
+    ("Hand-me-down", "Designer label"),
+    ("Free sample", "VIP package"),
+    ("Community pool", "Private island"),
+    ("Public park", "Theme park"),
+    ("School play", "Broadway show"),
+    ("Garage band", "Stadium tour"),
+    ("Home video", "Hollywood blockbuster"),
+    ("Flip phone", "Latest flagship"),
+    ("Dial-up", "Fiber internet"),
+    ("Typewriter", "AI assistant"),
+    ("Paper ticket", "VIP pass"),
+    ("Bus ride", "Private jet"),
+    ("Shared room", "Penthouse suite"),
+    ("Potluck dish", "Catered feast"),
+    ("Microwave meal", "Chef's table"),
+    ("Vending machine", "Gourmet market"),
+    ("Food truck", "Michelin star"),
+    ("Picnic blanket", "Banquet hall"),
+    ("Cereal bowl", "Holiday feast"),
+    ("Toast", "Wedding cake"),
+    ("Water fountain", "Chocolate fountain"),
+    ("Ice cube", "Ice sculpture"),
+    ("Room fan", "Wind tunnel"),
+    ("Desk lamp", "Searchlight"),
+    ("Sticky note", "Billboard"),
+    ("Text emoji", "Love letter"),
+    ("Group chat", "Keynote speech"),
+    ("Voicemail", "Live interview"),
+    ("Sticky situation", "National news"),
+    ("Minor glitch", "System crash"),
+    ("Paper jam", "Power outage"),
+    ("Lost sock", "Lost luggage"),
+    ("Late bus", "Canceled flight"),
+    ("Rain delay", "Blizzard shutdown"),
+    ("Mild sunburn", "Arctic expedition"),
+    ("Bee buzz", "Thunder crack"),
+    ("Cat purr", "Lion roar"),
+    ("Goldfish", "Great white shark"),
+    ("Houseplant", "Redwood forest"),
+    ("Ant hill", "Mountain range"),
+    ("Puddle mirror", "Grand canyon"),
+    ("Snowflake", "Avalanche"),
+    ("Dust bunny", "Sandstorm"),
+    ("Candle flame", "Volcano"),
+    ("Matchstick", "Wildfire"),
+    ("Paper boat", "Cargo ship"),
+    ("Toy car", "Freight train"),
+    ("Tricycle", "Formula one"),
+    ("Kickball", "World cup final"),
+    ("Duck pond", "Whale watching"),
+    ("Butterfly", "Eagle"),
+    ("Ladybug", "T-Rex"),
+    ("Pet rock", "Show horse"),
+    ("Stuffed animal", "Guard dog"),
+    ("Gold star", "Gold medal"),
+    ("Participation ribbon", "Hall of fame"),
+    ("High five", "Standing ovation"),
+    ("Thumb up", "Parade"),
+    ("Wink", "Spotlight moment"),
+    ("Inside voice", "Sold-out arena"),
+][:300]
+assert len(pairs) == 300
+print('SPECTRUM_CURATED = [')
+for l, r in pairs:
+    print(f'    ({l!r}, {r!r}),')
+print(']')
+PY
+wc -l /tmp/spectrum_curated_300.py
+```
+
+```
+302 /tmp/spectrum_curated_300.py
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Duplicate "Feature film" labels appear on the right side for both "Trailer" and "Short video". This is acceptable because the left poles differ.
+
+Patching curate-randomizer-300.py next. Replacing SPECTRUM_PIN through SPECTRUM_NEW with SPECTRUM_CURATED. Updating score_spectrum and main(). Adding SPECTRUM_TAGLINE and SPECTRUM_PLAY_HINT. Keeping penalties for Better/Too/Low/High templates.
+
+Parallel alternative patterns such as "person" and wrap styles are hard to detect programmatically. A SPECTRUM_WEAK set could help rank if needed later. The score_spectrum function is being improved for future merges even though it is no longer used directly. The main() function will build the spectrum dictionary from SPECTRUM_CURATED. The tagline constant is set to a two-opposing-ideas sliding scale prompt.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /tmp/spectrum_curated_300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The slice [:300] likely cut off the last entry, Baby steps/Giant leap.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Patching the curate script and regenerating the YAML.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+
+curate = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py&#39;)
+spectrum_data = Path(&#39;/tmp/spectrum_curated_300.py&#39;).read_text()
+
+text = curate.read_text()
+start = text.index(&#39;SPECTRUM_PIN = [&#39;)
+end = text.index(&#39;\n\n\ndef score_spectrum&#39;, start)
+
+new_block = &#39;&#39;&#39;SPECTRUM_TAGLINE = (
+    &#34;Two opposing ideas on one sliding scale. &#34;
+    &#34;One hidden spot on the line — name one word or phrase that belongs there.&#34;
+)
+SPECTRUM_PLAY_HINT = (
+    &#34;Give a single clue for where the target lands. &#34;
+    &#34;Works near either pole, not only the middle. Expect friendly debate.&#34;
+)
+
+# Wavelength-grade pairs: one sliding axis, many placeable clues (best first).
+&#39;&#39;&#39; + spectrum_data + &#39;&#39;&#39;
+
+# Parallel-alternative pairs that fail the pole test (preference forks, not gradients).
+SPECTRUM_WEAK = {
+    &#34;sandwich&#34;, &#34;wrap&#34;, &#34;pancake&#34;, &#34;waffle&#34;, &#34;tea person&#34;, &#34;coffee person&#34;,
+    &#34;morning news&#34;, &#34;morning music&#34;, &#34;sunrise watch&#34;, &#34;sunset watch&#34;,
+    &#34;forest walk&#34;, &#34;beach walk&#34;, &#34;apple orchard&#34;, &#34;apple bag&#34;,
+    &#34;escalator&#34;, &#34;stairs&#34;, &#34;elevator&#34;, &#34;bike errand&#34;, &#34;car errand&#34;,
+    &#34;cash payment&#34;, &#34;card payment&#34;, &#34;charades act&#34;, &#34;charades guess&#34;,
+    &#34;hot cocoa mug&#34;, &#34;hot tea mug&#34;, &#34;remember faces&#34;, &#34;remember names&#34;,
+    &#34;dog person&#34;, &#34;cat person&#34;, &#34;window seat&#34;, &#34;aisle seat&#34;,
+}
+
+&#39;&#39;&#39;
+
+text = text[:start] + new_block + text[end+1:]
+
+# Update score_spectrum
+old_score = &#39;&#39;&#39;def score_spectrum(left: str, right: str) -&gt; float:
+    score = 50.0
+    if left.startswith(&#34;Better &#34;) or right.startswith(&#34;Better &#34;):
+        score -= 10
+    if left.startswith(&#34;Too &#34;) and right.startswith(&#34;Too &#34;):
+        score -= 2
+    if left.startswith(&#34;Low &#34;) or left.startswith(&#34;High &#34;):
+        score -= 4
+    ll, rl = len(left), len(right)
+    if ll &gt; 22 or rl &gt; 22:
+        score -= 6
+    if ll &lt; 16 and rl &lt; 16:
+        score += 4
+    if &#34;person&#34; in left.lower() or &#34;person&#34; in right.lower():
+        score += 6
+    return score&#39;&#39;&#39;
+
+new_score = &#39;&#39;&#39;def score_spectrum(left: str, right: str) -&gt; float:
+    score = 50.0
+    ll, rl = left.lower(), right.lower()
+    if left.startswith(&#34;Better &#34;) or right.startswith(&#34;Better &#34;):
+        score -= 20
+    if left.startswith(&#34;Too &#34;) and right.startswith(&#34;Too &#34;):
+        score -= 8
+    if (left.startswith(&#34;Low &#34;) and right.startswith(&#34;High &#34;)) or (
+        left.startswith(&#34;High &#34;) and right.startswith(&#34;Low &#34;)
+    ):
+        score -= 6
+    if ll in SPECTRUM_WEAK or rl in SPECTRUM_WEAK:
+        score -= 15
+    if &#34; person&#34; in f&#34; {ll}&#34; or &#34; person&#34; in f&#34; {rl}&#34;:
+        score -= 10
+    if &#34;not a &#34; in ll or &#34;not a &#34; in rl or &#34;not &#34; in ll or &#34;not &#34; in rl:
+        score += 8  # fuzzy-boundary cards clue well in Wavelength
+    if len(left) &gt; 22 or len(right) &gt; 22:
+        score -= 6
+    if len(left) &lt; 14 and len(right) &lt; 14:
+        score += 5
+    return score&#39;&#39;&#39;
+
+if old_score not in text:
+    raise SystemExit(&#39;score_spectrum block not found&#39;)
+text = text.replace(old_score, new_score)
+
+# Update main spectrum line
+text = text.replace(
+    &#39;    spectrum = rank_spectrums(cols[&#34;spectrum&#34;][&#34;spectrums&#34;], SPECTRUM_PIN, SPECTRUM_NEW)[:TARGET]&#39;,
+    &#39;    spectrum = [{&#34;left&#34;: l, &#34;right&#34;: r} for l, r in SPECTRUM_CURATED]&#39;,
+)
+
+# Update block to use SPECTRUM_TAGLINE/PLAY_HINT
+text = text.replace(
+    &#34;        f\&#34;  tagline: {sp[&#39;tagline&#39;]}\\n\&#34;\n&#34;
+    &#34;        f\&#34;  play_hint: {sp[&#39;play_hint&#39;]}\\n\&#34;&#34;,
+    &#34;        f\&#34;  tagline: {SPECTRUM_TAGLINE}\\n\&#34;\n&#34;
+    &#34;        f\&#34;  play_hint: {SPECTRUM_PLAY_HINT}\\n\&#34;&#34;,
+)
+
+curate.write_text(text)
+print(&#39;patched curate script&#39;)
+PY
+python3 /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+```bash
+python3 << 'PY'
+from pathlib import Path
+
+curate = Path('/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py')
+spectrum_data = Path('/tmp/spectrum_curated_300.py').read_text()
+
+text = curate.read_text()
+start = text.index('SPECTRUM_PIN = [')
+end = text.index('\n\n\ndef score_spectrum', start)
+
+new_block = '''SPECTRUM_TAGLINE = (
+    "Two opposing ideas on one sliding scale. "
+    "One hidden spot on the line — name one word or phrase that belongs there."
+)
+SPECTRUM_PLAY_HINT = (
+    "Give a single clue for where the target lands. "
+    "Works near either pole, not only the middle. Expect friendly debate."
+)
+
+# Wavelength-grade pairs: one sliding axis, many placeable clues (best first).
+''' + spectrum_data + '''
+
+# Parallel-alternative pairs that fail the pole test (preference forks, not gradients).
+SPECTRUM_WEAK = {
+    "sandwich", "wrap", "pancake", "waffle", "tea person", "coffee person",
+    "morning news", "morning music", "sunrise watch", "sunset watch",
+    "forest walk", "beach walk", "apple orchard", "apple bag",
+    "escalator", "stairs", "elevator", "bike errand", "car errand",
+    "cash payment", "card payment", "charades act", "charades guess",
+    "hot cocoa mug", "hot tea mug", "remember faces", "remember names",
+    "dog person", "cat person", "window seat", "aisle seat",
+}
+
+'''
+
+text = text[:start] + new_block + text[end+1:]
+
+# Update score_spectrum
+old_score = '''def score_spectrum(left: str, right: str) -> float:
+    score = 50.0
+    if left.startswith("Better ") or right.startswith("Better "):
+        score -= 10
+    if left.startswith("Too ") and right.startswith("Too "):
+        score -= 2
+    if left.startswith("Low ") or left.startswith("High "):
+        score -= 4
+    ll, rl = len(left), len(right)
+    if ll > 22 or rl > 22:
+        score -= 6
+    if ll < 16 and rl < 16:
+        score += 4
+    if "person" in left.lower() or "person" in right.lower():
+        score += 6
+    return score'''
+
+new_score = '''def score_spectrum(left: str, right: str) -> float:
+    score = 50.0
+    ll, rl = left.lower(), right.lower()
+    if left.startswith("Better ") or right.startswith("Better "):
+        score -= 20
+    if left.startswith("Too ") and right.startswith("Too "):
+        score -= 8
+    if (left.startswith("Low ") and right.startswith("High ")) or (
+        left.startswith("High ") and right.startswith("Low ")
+    ):
+        score -= 6
+    if ll in SPECTRUM_WEAK or rl in SPECTRUM_WEAK:
+        score -= 15
+    if " person" in f" {ll}" or " person" in f" {rl}":
+        score -= 10
+    if "not a " in ll or "not a " in rl or "not " in ll or "not " in rl:
+        score += 8  # fuzzy-boundary cards clue well in Wavelength
+    if len(left) > 22 or len(right) > 22:
+        score -= 6
+    if len(left) < 14 and len(right) < 14:
+        score += 5
+    return score'''
+
+if old_score not in text:
+    raise SystemExit('score_spectrum block not found')
+text = text.replace(old_score, new_score)
+
+# Update main spectrum line
+text = text.replace(
+    '    spectrum = rank_spectrums(cols["spectrum"]["spectrums"], SPECTRUM_PIN, SPECTRUM_NEW)[:TARGET]',
+    '    spectrum = [{"left": l, "right": r} for l, r in SPECTRUM_CURATED]',
+)
+
+# Update block to use SPECTRUM_TAGLINE/PLAY_HINT
+text = text.replace(
+    "        f\"  tagline: {sp['tagline']}\\n\"\n"
+    "        f\"  play_hint: {sp['play_hint']}\\n\"",
+    "        f\"  tagline: {SPECTRUM_TAGLINE}\\n\"\n"
+    "        f\"  play_hint: {SPECTRUM_PLAY_HINT}\\n\"",
+)
+
+curate.write_text(text)
+print('patched curate script')
+PY
+python3 /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py
+```
+
+```
+patched curate script
+scale-clues: 300 (top: Things to bring on a deserted island....)
+personal-scales: 300 (top: How lazy are you?)
+spectrum: 300 (top: Hot | Cold)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The script ran successfully.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "Sandwich|Better small|Tea person|Pancake|Apple orchard"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "Sandwich|Better small|Tea person|Pancake|Apple orchard",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "Sandwich|Smells bad|Not a sandwich"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "Sandwich|Smells bad|Not a sandwich",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Wavelength classic "Sandwich / Not a sandwich" is now set.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a self-check to the curate script for spectrum count. Verifying the script looks correct.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+import yaml
+from pathlib import Path
+d = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())
+sp = [c for c in d[&#39;collections&#39;] if c[&#39;id&#39;]==&#39;spectrum&#39;][0]
+pairs = sp[&#39;spectrums&#39;]
+print(&#39;count&#39;, len(pairs))
+weak = [&#39;Wrap&#39;, &#39;Waffle&#39;, &#39;Coffee person&#39;, &#39;Better small&#39;, &#39;Apple orchard&#39;, &#39;Pancake&#39;]
+for w in weak:
+    hits = [(p[&#39;left&#39;], p[&#39;right&#39;]) for p in pairs if w in (p[&#39;left&#39;], p[&#39;right&#39;])]
+    if hits:
+        print(&#39;STILL HAS&#39;, w, hits)
+print(&#39;first&#39;, pairs[0])
+print(&#39;fuzzy&#39;, [p for p in pairs if &#39;Not a&#39; in p[&#39;right&#39;] or &#39;Not &#39; in p[&#39;right&#39;]][:5])
+&#34;
+</summary>
+```bash
+python3 -c "
+import yaml
+from pathlib import Path
+d = yaml.safe_load(Path('data/randomizer.yaml').read_text())
+sp = [c for c in d['collections'] if c['id']=='spectrum'][0]
+pairs = sp['spectrums']
+print('count', len(pairs))
+weak = ['Wrap', 'Waffle', 'Coffee person', 'Better small', 'Apple orchard', 'Pancake']
+for w in weak:
+    hits = [(p['left'], p['right']) for p in pairs if w in (p['left'], p['right'])]
+    if hits:
+        print('STILL HAS', w, hits)
+print('first', pairs[0])
+print('fuzzy', [p for p in pairs if 'Not a' in p['right'] or 'Not ' in p['right']][:5])
+"
+
+```
+
+```
+count 300
+first {'left': 'Hot', 'right': 'Cold'}
+fuzzy [{'left': 'Sandwich', 'right': 'Not a sandwich'}, {'left': 'Sport', 'right': 'Not a sport'}, {'left': 'Vegetable', 'right': 'Not a vegetable'}, {'left': 'Gift', 'right': 'Not a gift'}, {'left': 'Dessert', 'right': 'Not dessert'}]
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py",
+  "pattern": "spectrum =|SPECTRUM_TAGLINE|def score_spectrum"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py",
+  "pattern": "spectrum =|SPECTRUM_TAGLINE|def score_spectrum",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "scripts/curate-randomizer-300.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding with the summary.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --stat &amp;&amp; git diff data/randomizer.yaml | head -80</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat && git diff data/randomizer.yaml | head -80
+```
+
+```
+ .specstory/statistics.json                       |   45 +
+ assets/js/randomizer.js                          |   10 +-
+ content/english/notes/influence-without-title.md |    3 +
+ data/noteFileDates.json                          |    2 +-
+ data/randomizer.yaml                             | 1404 +++++++++++-----------
+ scripts/build-spectrum-500.py                    |   10 +-
+ scripts/curate-randomizer-300.py                 |  558 ++++++---
+ 7 files changed, 1178 insertions(+), 854 deletions(-)
+diff --git a/data/randomizer.yaml b/data/randomizer.yaml
+index da693ea..049450e 100644
+--- a/data/randomizer.yaml
++++ b/data/randomizer.yaml
+@@ -4,87 +4,94 @@ collections:
+ - id: scale-clues
+   title: Ranking prompts
+   mode: ranked-prompts
+-  tagline: Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100.
+-  play_hint: Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don't say your number.
++  tagline: Open situations and what-if scenarios. Name one example anyone at the table could say — the group ranks it from 1 to 100.
++  play_hint: Give one real example a kid or grown-up could both mean ("flashlight", "nap", "sandwich"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don't say your number.
+   items:
+-  - Things you'd want to do when you're very tired.
+   - Things to bring on a deserted island.
+-  - Superpowers you'd actually want to have.
+-  - Board games you'd bring to game night.
++  - Games that are fun at any age.
++  - Things you'd want to do when you're very tired.
+   - Snacks you'd want during a movie at home.
+-  - Foods you'd want for a comfort meal.
+-  - Things that would cheer you up on a bad day.
+-  - Things that would start a good conversation.
+-  - Things that would be embarrassing to drop in public.
+-  - Things you'd want when the Wi-Fi go
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The curate script also modified scale-clues and personal-scales. This was an unintended side effect.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Restoring scale-clues and personal-scales — the curate script changed them unintentionally.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+
+root = Path(&#39;data/randomizer.yaml&#39;)
+current = root.read_text()
+# Get original from git
+import subprocess
+orig = subprocess.check_output([&#39;git&#39;, &#39;show&#39;, &#39;HEAD:data/randomizer.yaml&#39;], text=True)
+
+def extract_block(text, col_id):
+    m = re.search(rf&#39;- id: {re.escape(col_id)}\n.*?(?=\n- id: |\Z)&#39;, text, re.S)
+    if not m:
+        raise SystemExit(f&#39;missing {col_id}&#39;)
+    return m.group(0)
+
+for col in (&#39;scale-clues&#39;, &#39;personal-scales&#39;):
+    block = extract_block(orig, col)
+    current = re.sub(rf&#39;- id: {re.escape(col)}\n.*?(?=\n- id: |\Z)&#39;, block.rstrip() + &#39;\n&#39;, current, count=1, flags=re.S)
+
+root.write_text(current)
+print(&#39;restored scale-clues and personal-scales from HEAD&#39;)
+PY
+python3 -c &#34;
+import yaml
+from pathlib import Path
+d=yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())
+for c in d[&#39;collections&#39;]:
+    print(c[&#39;id&#39;], len(c.get(&#39;items&#39;) or c.get(&#39;spectrums&#39;) or []))
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+root = Path('data/randomizer.yaml')
+current = root.read_text()
+# Get original from git
+import subprocess
+orig = subprocess.check_output(['git', 'show', 'HEAD:data/randomizer.yaml'], text=True)
+
+def extract_block(text, col_id):
+    m = re.search(rf'- id: {re.escape(col_id)}\n.*?(?=\n- id: |\Z)', text, re.S)
+    if not m:
+        raise SystemExit(f'missing {col_id}')
+    return m.group(0)
+
+for col in ('scale-clues', 'personal-scales'):
+    block = extract_block(orig, col)
+    current = re.sub(rf'- id: {re.escape(col)}\n.*?(?=\n- id: |\Z)', block.rstrip() + '\n', current, count=1, flags=re.S)
+
+root.write_text(current)
+print('restored scale-clues and personal-scales from HEAD')
+PY
+python3 -c "
+import yaml
+from pathlib import Path
+d=yaml.safe_load(Path('data/randomizer.yaml').read_text())
+for c in d['collections']:
+    print(c['id'], len(c.get('items') or c.get('spectrums') or []))
+"
+
+```
+
+```
+restored scale-clues and personal-scales from HEAD
+scale-clues 300
+personal-scales 300
+spectrum 300
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the curate script's main function to conditionally update spectrum or add a dedicated spectrum-only path.
+
+Three options were weighed to prevent accidental collection reordering during spectrum updates. The script currently differs from YAML HEAD on SCALE_CLUES_PIN, causing inconsistent ordering on full runs. This appears to be a pre-existing issue.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding `--only spectrum` to the curate script so future runs won't touch other decks.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --stat data/randomizer.yaml scripts/curate-randomizer-300.py scripts/build-spectrum-500.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat data/randomizer.yaml scripts/curate-randomizer-300.py scripts/build-spectrum-500.py
+```
+
+```
+ data/randomizer.yaml             | 1112 +++++++++++++++++++-------------------
+ scripts/build-spectrum-500.py    |   10 +-
+ scripts/curate-randomizer-300.py |  657 +++++++++++++++-------
+ 3 files changed, 1033 insertions(+), 746 deletions(-)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py --only spectrum 2&gt;&amp;1 | head -3</summary>
+```bash
+python3 /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py --only spectrum 2>&1 | head -3
+```
+
+```
+spectrum: 300 (top: Hot | Cold)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Done. The Concept spectrums deck is now Wavelength-grade.
+
+### What changed
+
+**`data/randomizer.yaml`** — 300 spectrum pairs rebuilt:
+- **Added** scalar poles: `Boring ↔ Exciting`, `Smells bad ↔ Smells good`, `Cheap ↔ Expensive`, `Safe ↔ Dangerous`, etc.
+- **Added** fuzzy-boundary cards: `Sandwich ↔ Not a sandwich`, `Sport ↔ Not a sport`, `Fantasy ↔ Sci-fi`, etc.
+- **Removed** parallel forks: Sandwich/Wrap, Pancake/Waffle, Tea/Coffee person, Apple orchard/Apple bag, all 11 `Better …` pairs, and similar non-gradient pairs
+- **Updated** tagline/play_hint for hidden-number clue play (works near either pole, not only the middle)
+
+**`scripts/curate-randomizer-300.py`**
+- Canonical `SPECTRUM_CURATED` list (300 pairs, best first)
+- Scoring penalizes preference forks and template pairs; boosts fuzzy-boundary cards
+- `--only spectrum` flag so other decks are not touched on regen
+
+**`scripts/build-spectrum-500.py`** — tagline/play_hint aligned
+
+### Top of deck now
+`Hot ↔ Cold`, `Overrated ↔ Underrated`, `Boring ↔ Exciting`, `Smells bad ↔ Smells good` …
+
+### To regenerate later
+```bash
+python3 scripts/curate-randomizer-300.py --only spectrum
+```
+
+Ranking prompts and personal icebreakers were left unchanged. Refresh the randomizer page and try a few cards — `Sandwich ↔ Not a sandwich` at 50 with clue "hot dog" is the classic Wavelength test.

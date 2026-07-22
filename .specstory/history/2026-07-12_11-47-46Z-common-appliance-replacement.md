@@ -14,7 +14,8 @@ Change space heater with a more common appliance
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I need to edit a file. I'll replace "spool" with another word and swap "space heater" for a more common appliance.</details></think>
+I need to edit a file. I'll replace "spool" with another word and swap "space heater" for a more common appliance.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -23,23 +24,15 @@ I'll open the extension cord post and find where "spool" and "space heater" appe
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -50,13 +43,106 @@ Parameters:
   "pattern": "spool|space heater"
 }
 ```
-Status: **loading**
+Additional data:
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "spool|space heater",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-24_11-34-53Z-best-examples-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/risk-management.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "static/exports/jorap-notes-anki.txt"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/extension-cord.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_02-54-38Z-skill-update-based-on-history.md"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 13
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user has `extension-cord.md` open and focused.
+
+Drafting replacements for "spool" and "space heater". Considering alternatives like "marathon" or "room-spanner" for the length heading, and a more common appliance for the space heater reference.
+
+Evaluating specific replacements for the space heater. Hair dryer and microwave are both common household appliances. Microwave is especially fitting because smart-plug.md already references it.
+
+Settled on **hair dryer** as the replacement appliance. It is more intuitive than microwave for warning against overloading a light extension cord. The length heading will change to "keep it short."
+
+Reconsidering the length heading. "Marathon" feels too idiomatic, and "fifty-footer" is slang. Now leaning toward removing the spool reference entirely and rewriting the paragraph to explain why 2 metres is short on purpose.
+
+Settled on "## Length: about 2 metres, not five" for the heading. This avoids the spool reference while cleanly referencing the next paragraph's warning about five-metre trip wires.
+
+Microwave was considered but rejected. Hair dryer is now the chosen appliance. It is more universally recognized and clearly high-wattage.
+
+Microwave is now the chosen appliance. It is nearly universal and unmistakably high-draw.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating `extension-cord.md`: replacing "spool" in the heading and swapping "space heater" for a more common high-draw appliance.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The requested changes are complete. The word "spool" was removed. "Space heater" was replaced with a more common appliance.
+
+"Not a spool" became "not five," matching the next paragraph's reference to "Five metres is a trip wire." "Space heater" was replaced with "microwave," a common high-draw appliance.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated `extension-cord.md`:
+
+1. **Heading** — `not a spool` → `not five`, which lines up with the line below about five metres being a trip wire.
+2. **Load example** — `space heater` → `microwave`, a more everyday high-draw appliance for the contrast.

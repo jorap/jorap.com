@@ -13,7 +13,8 @@ create a blog draft explaining the jorap notes functionality and features
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Drafting a blog post about JoRap notes functionality and features.</details></think>
+Drafting a blog post about JoRap notes functionality and features.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,37 +23,24 @@ I'll explore how notes work on the site and read the voice skill plus any existi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **52** results in **1** directory</summary>
 
-Directory: **** (52 files)
+Directory: **``** (52 files)
 
 | File |
 |------|
@@ -108,21 +96,12 @@ Directory: **** (52 files)
 | `./content/english/blog/miracle-isaiah-david.md` |
 | `./content/english/blog/dnpap-song-resources.md` |
 | `./content/english/blog/_index.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -197,4125 +176,44 @@ Result:
           },
           {
             "lineNumber": 93,
-            "text": "      \"- key_concept — first paragraph: one sentence (the angle, not a second definition); optional second paragraph with stakes, distinctions, [[wikilinks]]\","
-          },
-          {
-            "lineNumber": 94,
-            "text": "      \"- examples — exactly two plain bullets from different fields (best scenes first, no genre labels)\","
-          },
-          {
-            "lineNumber": 95,
-            "text": "      \"- relationships — typed rows (extends + contradicts minimum; optional implements, alternative); sort type a-z, then wikilink a-z\","
-          },
-          {
-            "lineNumber": 96,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 97,
-            "text": "      \"Page kinds: default atomic note (omit note_kind); hub/MOC use note_kind: index and may keep prose in body; utility/meta pages (Graph, Issues, Flashcards, Review, etc.) use note_kind: meta — never [[wikilink]] utility pages from content notes, use URLs.\","
-          },
-          {
-            "lineNumber": 98,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 99,
-            "text": "      \"Created/updated timestamps come from the file at build time — do not add a date field.\","
-          },
-          {
-            "lineNumber": 100,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 101,
-            "text": "      \"Voice: plain words, first person where natural, specific scenes, no AI filler (\\\"crucial\\\", \\\"delve\\\", \\\"leverage\\\", \\\"Furthermore\\\"). Read like JoRap typed it mid-life, not a textbook.\","
-          },
-          {
-            "lineNumber": 102,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 103,
-            "text": "      \"TOPIC: \" + trimmed,"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 105,
-            "text": "      \"EXISTING GARDEN NOTES (prefer these [[wikilink]] targets when they fit):\","
-          },
-          {
-            "lineNumber": 106,
-            "text": "      formatGardenSection(related),"
-          },
-          {
-            "lineNumber": 107,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 108,
-            "text": "      \"ROLE:\","
-          },
-          {
-            "lineNumber": 109,
-            "text": "      \"You are a garden editor and principle researcher (PKM, faith, ethics, systems). Find the clearest improvement principles on the topic, then distill each into one atomic note with a concrete next move.\","
-          },
-          {
-            "lineNumber": 110,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 111,
-            "text": "      \"ACTION:\","
-          },
-          {
-            "lineNumber": 112,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 113,
-            "text": "      \"1) RESEARCH THE TOPIC\","
-          },
-          {
-            "lineNumber": 192
-          },
-          {
-            "lineNumber": 193,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 247
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-creator.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.35688069462776184
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Digital Garden\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Digital Garden - A Wiki You Can Walk Through\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"My garden is where notes grow in public - linked, imperfect, alive on Hugo and Git.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "key_concept: \"My digital garden is a personal site where notes grow in public - linked, imperfect, alive.\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  - \"Our team's playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the first version was supposed to be final.\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "  - \"My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder until they're \\\"ready.\\\"\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  - type: alternative"
-          },
-          {
-            "lineNumber": 11,
-            "text": "    wikilink: \"[[Drafting in Public]]\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "    reason: \"Slow public growth vs ship drafts for feedback\""
-          },
-          {
-            "lineNumber": 13,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    wikilink: \"[[The Garage Concept]]\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "    reason: \"when public growth beats keeping scraps in the garage\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    wikilink: \"[[Evergreen Notes]]\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "    reason: \"Evergreen notes go public so they keep growing instead of rotting in a folder\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    wikilink: \"[[Free Tier Hosting Stack]]\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "    reason: \"Same Hugo-plus-git host I sell for [[Selling Static Sites]]\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    wikilink: \"[[Work in Progress]]\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "    reason: \"Public drafts and visible growth - garden ethos\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    wikilink: \"[[Success is Stewardship]]\""
-          },
-          {
-            "lineNumber": 27,
-            "text": "    reason: \"Tend borrowed reach - notes grow when shared\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "slug: \"digital-garden\""
-          },
-          {
-            "lineNumber": 29,
-            "text": "date: \"2026-06-18 06:00:00+00:00\""
-          },
-          {
-            "lineNumber": 30,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 31,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 32,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 33,
-            "text": "tags: [\"Digital Garden\", \"PKM\", \"Publishing\", \"Wiki\", \"Second Brain\", \"TiddlyWiki\", \"Hugo\", \"Static Site Generator\", \"Website Building\", \"Blogging\"]"
-          },
-          {
-            "lineNumber": 34,
-            "text": "aliases: [\"Advantages of Digital Gardens\", \"Gardening Metaphor\", \"Work in Progress\"]"
-          },
-          {
-            "lineNumber": 35,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 36,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 37,
-            "text": "card_sets: [\"Focus\", \"Review\"]"
-          },
-          {
-            "lineNumber": 38,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  - front: \"Playbook wiki still has last season's sets beside this year's. Is the first version supposed to be final?\""
-          },
-          {
-            "lineNumber": 40,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 4,
-            "line": 39
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/digital-garden.md",
-        "signatures": {}
-      },
-      "score": 0.3559035658836365
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "name: jorap-voice"
-          },
-          {
-            "lineNumber": 3,
-            "text": "description: \u003e-"
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Write and edit JoRap blog posts and notes garden prose in the author's personal"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  voice. Use plain words that land on first read."
-          },
-          {
-            "lineNumber": 6,
-            "text": "  Use when drafting, outlining, rewriting, or polishing blog content under"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  content/, notes frontmatter (description, key_concept, examples, relationship"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  reasons), flashcard fronts and backs on content/english/notes (with flashcards"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  skill), when the user asks to match their writing style, sound more human, or"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  when posts sound generic, SEO-ish, stiff, or AI-generated."
-          },
-          {
-            "lineNumber": 11,
-            "text": "---"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "# JoRap Voice"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-spoken - not like a content mill, a product listing, or ChatGPT with a thesaurus. **Vocabulary:** plain words only. Every word should land on first read."
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Primary test:** Would a reader think a real person typed this after using the thing? If it reads like a summary of what a good post *should* say, rewrite it."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "## When to use"
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "- Creating or expanding a post from an outline"
-          },
-          {
-            "lineNumber": 22,
-            "text": "- Rewriting AI-generated or stiff drafts"
-          },
-          {
-            "lineNumber": 23,
-            "text": "- Editing for tone without changing facts"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- Writing &#96;meta_title&#96; and &#96;description&#96; frontmatter"
-          },
-          {
-            "lineNumber": 25,
-            "text": "- **Notes garden** - &#96;description&#96;, &#96;key_concept&#96;, &#96;examples&#96;, &#96;relationships.reason&#96; on &#96;content/english/notes/&#96;"
-          },
-          {
-            "lineNumber": 26,
-            "text": "- **Flashcards** - cue fronts and apply backs on spine notes (use with [flashcards](../flashcards/SKILL.md); flashcards skill wins on shape, jorap-voice wins on word choice)"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "## Workflow"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "1. **Read 1-2 reference pieces** in the same category before writing. Good defaults:"
-          },
-          {
-            "lineNumber": 31,
-            "text": "   - Gear/reviews: &#96;content/english/blog/what-i-look-for-in-wireless-earphones.md&#96;"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 31
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./.cursor/skills/jorap-voice/SKILL.md",
-        "signatures": {}
-      },
-      "score": 0.3463456630706787
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/**"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Create Note page: topic → atomic-note AI prompt (principles + actionable output)."
-          },
-          {
-            "lineNumber": 3,
-            "text": " */"
-          },
-          {
-            "lineNumber": 4,
-            "text": "(function () {"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  var core = window.jorapNotesRandomCore;"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  if (!core) return;"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "  var topicEl = document.querySelector(\"[data-note-creator-topic]\");"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  var hintEl = document.querySelector(\"[data-note-creator-hint]\");"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  var dataEl = document.querySelector(\".notes-creator-garden-data\");"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  var promptEl = document.querySelector(\"[data-note-creator-prompt]\");"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  var copyPromptBtn = document.querySelector(\"[data-note-creator-copy-prompt]\");"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  if (!topicEl || !promptEl) return;"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "  var garden = [];"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  try {"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    garden = JSON.parse(dataEl ? dataEl.textContent : \"[]\");"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  } catch (e) {"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    garden = [];"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "  var PLACEHOLDER = \"Enter a topic above to generate the prompt.\";"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  var debounceTimer = null;"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  var defaultHint = hintEl ? hintEl.textContent : \"\";"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "  function topicReady() {"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    return String(topicEl.value || \"\").replace(/\\s+/g, \" \").trim().length \u003e 0;"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "  function topicWords(topic) {"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    return String(topic || \"\")"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      .toLowerCase()"
-          },
-          {
-            "lineNumber": 33,
-            "text": "      .split(/[^a-z0-9]+/)"
-          },
-          {
-            "lineNumber": 34,
-            "text": "      .filter(function (word) {"
-          },
-          {
-            "lineNumber": 35,
-            "text": "        return word.length \u003e 2;"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 37,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "  function noteSearchText(note) {"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    return (note.title + \" \" + (note.tags || []).join(\" \")).toLowerCase();"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "lineNumber": 43,
-            "text": "  function relevantGardenNotes(topic, limit) {"
-          },
-          {
-            "lineNumber": 44,
-            "text": "    var words = topicWords(topic);"
-          },
-          {
-            "lineNumber": 67,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 247
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./assets/js/notes-creator.js",
-        "signatures": {}
-      },
-      "score": 0.34234610199928284
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 138,
-            "text": "| Local prod preview | &#96;http://localhost:1313/&#96; (production flags) | &#96;pnpm preview&#96; |"
-          },
-          {
-            "lineNumber": 139
-          },
-          {
-            "lineNumber": 140,
-            "text": "Apex &#96;jorap.com&#96; redirects to &#96;www.jorap.com&#96; via &#96;static/_redirects&#96;."
-          },
-          {
-            "lineNumber": 141
-          },
-          {
-            "lineNumber": 142,
-            "text": "---"
-          },
-          {
-            "lineNumber": 143
-          },
-          {
-            "lineNumber": 144,
-            "text": "## 4. Content surfaces"
-          },
-          {
-            "lineNumber": 145
-          },
-          {
-            "lineNumber": 146,
-            "text": "### 4.1 Blog"
-          },
-          {
-            "lineNumber": 147
-          },
-          {
-            "lineNumber": 148,
-            "text": "**Path:** &#96;/blog/&#96;  "
-          },
-          {
-            "lineNumber": 149,
-            "text": "**Permalink:** &#96;/blog/:slug/&#96;  "
-          },
-          {
-            "lineNumber": 150,
-            "text": "**Format:** Standard Hugo frontmatter + Markdown body."
-          },
-          {
-            "lineNumber": 151
-          },
-          {
-            "lineNumber": 152,
-            "text": "| Field | Required | Notes |"
-          },
-          {
-            "lineNumber": 153,
-            "text": "| --- | --- | --- |"
-          },
-          {
-            "lineNumber": 154,
-            "text": "| &#96;title&#96;, &#96;description&#96;, &#96;slug&#96;, &#96;date&#96; | Yes | SEO and listing |"
-          },
-          {
-            "lineNumber": 155,
-            "text": "| &#96;categories&#96;, &#96;tags&#96; | Recommended | Taxonomy and related scoring |"
-          },
-          {
-            "lineNumber": 156,
-            "text": "| &#96;related_notes&#96; | Optional | Slugs of garden notes to surface |"
-          },
-          {
-            "lineNumber": 157,
-            "text": "| &#96;draft&#96; | Yes | &#96;false&#96; to publish |"
-          },
-          {
-            "lineNumber": 158
-          },
-          {
-            "lineNumber": 159,
-            "text": "**Features:** RSS, related posts, Disqus comments (configured), TOC on long posts, breadcrumbs, share controls, image lightbox, structured data (Article)."
-          },
-          {
-            "lineNumber": 160
-          },
-          {
-            "lineNumber": 161,
-            "text": "### 4.2 Static pages"
-          },
-          {
-            "lineNumber": 162
-          },
-          {
-            "lineNumber": 163,
-            "text": "**Path:** &#96;/:slug/&#96; (e.g. &#96;/about/&#96;)  "
-          },
-          {
-            "lineNumber": 164,
-            "text": "**Format:** Markdown under &#96;content/english/&#96; with appropriate layout."
-          },
-          {
-            "lineNumber": 165
-          },
-          {
-            "lineNumber": 166,
-            "text": "Used for about, contact, and marketing shells. Same visual system as blog."
-          },
-          {
-            "lineNumber": 167
-          },
-          {
-            "lineNumber": 168,
-            "text": "### 4.3 Notes garden"
-          },
-          {
-            "lineNumber": 169
-          },
-          {
-            "lineNumber": 170,
-            "text": "**Path:** &#96;/notes/&#96;  "
-          },
-          {
-            "lineNumber": 171,
-            "text": "**Permalink:** &#96;/notes/:slug/&#96;"
-          },
-          {
-            "lineNumber": 172
-          },
-          {
-            "lineNumber": 173,
-            "text": "The notes garden is a **second product surface** on the same design system. It implements a personal knowledge graph with atomic notes, typed relationships, tooling pages, and agent export."
-          },
-          {
-            "lineNumber": 174
-          },
-          {
-            "lineNumber": 175,
-            "text": "See **Section 5** for the full notes specification."
-          },
-          {
-            "lineNumber": 176
-          },
-          {
-            "lineNumber": 177,
-            "text": "### 4.4 CMS"
-          },
-          {
-            "lineNumber": 178
-          },
-          {
-            "lineNumber": 179,
-            "text": "**Path:** &#96;/admin/&#96;  "
-          },
-          {
-            "lineNumber": 180,
-            "text": "**Role:** Git-backed editing for non-git authors."
-          },
-          {
-            "lineNumber": 181
-          },
-          {
-            "lineNumber": 182,
-            "text": "Configuration and setup: [&#96;CMS_SETUP.md&#96;](./CMS_SETUP.md). CMS edits the same Markdown files the build consumes; there is no separate content database."
-          },
-          {
-            "lineNumber": 183
-          },
-          {
-            "lineNumber": 184,
-            "text": "---"
-          },
-          {
-            "lineNumber": 185
-          },
-          {
-            "lineNumber": 186,
-            "text": "## 5. Notes garden specification"
-          },
-          {
-            "lineNumber": 187
-          },
-          {
-            "lineNumber": 188,
-            "text": "### 5.1 Design intent"
-          },
-          {
-            "lineNumber": 189
-          },
-          {
-            "lineNumber": 190,
-            "text": "- **One note = one claim** quotable in conversation"
-          },
-          {
-            "lineNumber": 191,
-            "text": "- **Links are first-class** — wikilinks in prose; typed relationships in frontmatter"
-          },
-          {
-            "lineNumber": 192,
-            "text": "- **Tools are meta pages** — graph, issues, review, etc. are not garden ideas"
-          },
-          {
-            "lineNumber": 193,
-            "text": "- **Agents are consumers** — OKF export and copy buttons hand off structured context"
-          },
-          {
-            "lineNumber": 194
-          },
-          {
-            "lineNumber": 195,
-            "text": "### 5.2 Page kinds (&#96;note_kind&#96;)"
-          },
-          {
-            "lineNumber": 196
-          },
-          {
-            "lineNumber": 197,
-            "text": "| Kind | Default | Purpose | Body prose | Relationships |"
-          },
-          {
-            "lineNumber": 198,
-            "text": "| --- | --- | --- | --- | --- |"
-          },
-          {
-            "lineNumber": 199,
-            "text": "| &#96;note&#96; | Yes | Atomic garden claim | Empty (frontmatter only) | Required: &#96;extends&#96; + &#96;contradicts&#96; minimum |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 199
-          },
-          "startPosition": {
-            "line": 137
-          }
-        },
-        "relativeWorkspacePath": "./docs/SPEC.md",
-        "signatures": {}
-      },
-      "score": 0.3415969908237457
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "note_kind: \"meta\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "title: \"OKF Export\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "meta_title: \"OKF Export - Agent-Readable Notes Bundle\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "description: \"Open Knowledge Format (OKF) bundle - the same garden, flattened for agents - markdown paths, required &#96;type&#96;, no Hugo build.\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  Authoring stays in Hugo (&#96;[[wikilinks]]&#96;, graph, flashcards); this bundle is the pass-off copy for ChatGPT, agents, and tools outside the site."
-          },
-          {
-            "lineNumber": 8,
-            "text": "  "
-          },
-          {
-            "lineNumber": 9,
-            "text": "  Regenerated on production build and via &#96;npm run export:okf&#96;."
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"okf-export\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "date: \"2026-06-27 08:00:00+00:00\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 13,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 14,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "tags: [\"Notes\", \"Meta\", \"PKM\", \"OKF\"]"
-          },
-          {
-            "lineNumber": 16,
-            "text": "aliases: [\"OKF\", \"OKF Export\"]"
-          },
-          {
-            "lineNumber": 17,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 18,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 19,
-            "text": "---"
-          },
-          {
-            "lineNumber": 20,
-            "text": "[Open Knowledge Format (OKF) graph](/exports/okf/viz.html) - visual network of the exported bundle."
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "## ChatGPT workflow"
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "Three lanes - all copy-paste friendly:"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "| Goal | Where | What to paste |"
-          },
-          {
-            "lineNumber": 27,
-            "text": "|------|-------|---------------|"
-          },
-          {
-            "lineNumber": 28,
-            "text": "| **Create** a new atomic note | [Create Note](/notes/create/) | Copy prompt → ChatGPT → paste the markdown file back into &#96;content/english/notes/&#96; |"
-          },
-          {
-            "lineNumber": 29,
-            "text": "| **Find connections** between notes | Any note page (Random Note section) or [Random Duo](/notes/random-duo/) | Copy prompt - includes both note bodies + shortest wikilink path when one exists |"
-          },
-          {
-            "lineNumber": 30,
-            "text": "| **Give context** on existing notes | **Copy MD** or **Agent copy** on any note (upper right) | Paste into ChatGPT as background before asking questions |"
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "**Copy MD** copies the full Hugo file (frontmatter + &#96;[[wikilinks]]&#96;) - ready to save or edit. **Agent copy** copies the Open Knowledge Format (OKF) version with resolved markdown links, better when the model doesn't know your wikilink titles."
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "For the whole garden at once: **Copy catalog** on this page, or open [Bundle index](/exports/okf/index.md)."
-          },
-          {
-            "lineNumber": 35
-          },
-          {
-            "lineNumber": 36,
-            "text": "## Workflow combos"
-          },
-          {
-            "lineNumber": 37
-          },
-          {
-            "lineNumber": 38,
-            "text": "Each row maps to a site button plus a ChatGPT ask."
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40,
-            "text": "| Combo | Copy from site | Ask ChatGPT |"
-          },
-          {
-            "lineNumber": 41,
-            "text": "|-------|----------------|-------------|"
-          },
-          {
-            "lineNumber": 42,
-            "text": "| **Expand a hub (Maps of Content, MOC)** | **Copy hub cluster** on a hub page (e.g. [Maps of Content](/notes/maps-of-content/), [Eternal Principles](/notes/eternal-principles/)) + **Copy catalog** here | *What atomic notes are missing from this cluster? Output Hugo markdown files.* |"
-          },
-          {
-            "lineNumber": 43,
-            "text": "| **Garden maintenance** | **Copy issues** on [Issues](/notes/issues/) + **Copy MD** on 3-5 affected notes | *Fix broken links, add extends/contradicts rows, keep voice plain.* |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 43
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/okf-export.md",
-        "signatures": {}
-      },
-      "score": 0.34044140577316284
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 161,
-            "text": "### Frontmatter"
-          },
-          {
-            "lineNumber": 162
-          },
-          {
-            "lineNumber": 163,
-            "text": "- &#96;description&#96;: memorable one-breath **definition** - what the concept is or does; you should recall it cold weeks later. First person is fine when it states the claim plainly. Not keyword-stuffed, no &#96;[[wikilinks]]&#96;."
-          },
-          {
-            "lineNumber": 164,
-            "text": "- &#96;meta_title&#96;: useful and specific - not clickbait, not \"Ultimate Guide to…\" unless the post truly is a full guide."
-          },
-          {
-            "lineNumber": 165
-          },
-          {
-            "lineNumber": 166,
-            "text": "## Notes garden (variant)"
-          },
-          {
-            "lineNumber": 167
-          },
-          {
-            "lineNumber": 168,
-            "text": "Notes use **two registers**. Wiki prose can be denser; cards must stay plain."
-          },
-          {
-            "lineNumber": 169
-          },
-          {
-            "lineNumber": 170,
-            "text": "| Field | Voice | Pattern |"
-          },
-          {
-            "lineNumber": 171,
-            "text": "|-------|-------|---------|"
-          },
-          {
-            "lineNumber": 172,
-            "text": "| &#96;description&#96; | Memorable definition, one breath | \"Eternal life is Christ's gift by faith alone - not wages for good works.\" / \"Save what resonates into one inbox - then empty it weekly.\" |"
-          },
-          {
-            "lineNumber": 173,
-            "text": "| &#96;key_concept&#96; | Punch line, then expansion with wikilinks | Line 1: short claim. Blank line. Then lanes, links, \"first X, then Y\" |"
-          },
-          {
-            "lineNumber": 174,
-            "text": "| &#96;examples&#96; | Two scenes, different domains, same move | Sports + jeepney, deploy + kitchen, coffee + sideline - not two variants of one scene |"
-          },
-          {
-            "lineNumber": 175,
-            "text": "| &#96;relationships.reason&#96; | Short clause, telegraphic OK | \"Rollback first; after-action review after calm - not root-cause while users are down\" |"
-          },
-          {
-            "lineNumber": 176,
-            "text": "| &#96;cards&#96; | Plainest layer - see [flashcards](../flashcards/SKILL.md) | Cue → apply. No definition backs, no truncated fragments |"
-          },
-          {
-            "lineNumber": 177
-          },
-          {
-            "lineNumber": 178,
-            "text": "**Reference notes by type:** PKM &#96;capture.md&#96;; faith &#96;free-grace.md&#96;, &#96;sanctification.md&#96;; ethics &#96;the-golden-rule.md&#96;; systems &#96;blameless-after-action-review.md&#96;."
-          },
-          {
-            "lineNumber": 179
-          },
-          {
-            "lineNumber": 180,
-            "text": "**Flashcards boundary:** flashcards skill owns cue→apply structure and card count. jorap-voice owns word choice. Don't turn a good life cue into a \"What is X?\" definition card."
-          },
-          {
-            "lineNumber": 181
-          },
-          {
-            "lineNumber": 182,
-            "text": "### &#96;key_concept&#96; shape"
-          },
-          {
-            "lineNumber": 183
-          },
-          {
-            "lineNumber": 184,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 185,
-            "text": "[[Free Grace]] settles where I spend forever."
-          },
-          {
-            "lineNumber": 186
-          },
-          {
-            "lineNumber": 187,
-            "text": "Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance."
-          },
-          {
-            "lineNumber": 188,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 189
-          },
-          {
-            "lineNumber": 190,
-            "text": "Not: \"Sanctification is the process whereby believers undergo moral transformation…\""
-          },
-          {
-            "lineNumber": 191
-          },
-          {
-            "lineNumber": 192,
-            "text": "### &#96;title&#96; (notes)"
-          },
-          {
-            "lineNumber": 193
-          },
-          {
-            "lineNumber": 194,
-            "text": "**4 words.** A 5th word is allowed only when &#96;len(title) ≥ 30&#96; (letters, spaces, punctuation), the line is a **fixed phrase or scripture quote**, and the 5-word title beats the best 4-word option you can write. Otherwise trim."
-          },
-          {
-            "lineNumber": 195
-          },
-          {
-            "lineNumber": 196,
-            "text": "Examples: &#96;Golden Rule at Work&#96; (4); &#96;Integrity Without an Audience&#96; (4); &#96;Let Your Yes Be Yes&#96; (5 — Matthew 5:37, phrase exempt); &#96;There Is No Perfect Solution&#96; (5 — stable slug, phrase exempt)."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 196
-          },
-          "startPosition": {
-            "line": 159
-          }
-        },
-        "relativeWorkspacePath": "./.cursor/skills/jorap-voice/SKILL.md",
-        "signatures": {}
-      },
-      "score": 0.33189404010772705
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 198,
-            "text": "| --- | --- | --- | --- | --- |"
-          },
-          {
-            "lineNumber": 199,
-            "text": "| &#96;note&#96; | Yes | Atomic garden claim | Empty (frontmatter only) | Required: &#96;extends&#96; + &#96;contradicts&#96; minimum |"
-          },
-          {
-            "lineNumber": 200,
-            "text": "| &#96;index&#96; | No | Hub / MOC | Allowed (onboarding, lists) | Optional |"
-          },
-          {
-            "lineNumber": 201,
-            "text": "| &#96;meta&#96; | No | Tool surface | Allowed (tool docs) | Skip |"
-          },
-          {
-            "lineNumber": 202
-          },
-          {
-            "lineNumber": 203,
-            "text": "Utility surfaces (&#96;note_kind: meta&#96; or dedicated layouts) must **not** be wikilinked from content notes. &#96;npm run lint:utility-links&#96; enforces this."
-          },
-          {
-            "lineNumber": 204
-          },
-          {
-            "lineNumber": 205,
-            "text": "### 5.3 Atomic note frontmatter"
-          },
-          {
-            "lineNumber": 206
-          },
-          {
-            "lineNumber": 207,
-            "text": "**Shared blog fields:** &#96;title&#96;, &#96;meta_title&#96;, &#96;description&#96;, &#96;slug&#96;, &#96;date&#96;, &#96;image&#96;, &#96;categories&#96;, &#96;author&#96;, &#96;tags&#96;, &#96;featured&#96;, &#96;draft&#96;"
-          },
-          {
-            "lineNumber": 208
-          },
-          {
-            "lineNumber": 209,
-            "text": "**Garden-specific fields:**"
-          },
-          {
-            "lineNumber": 210
-          },
-          {
-            "lineNumber": 211,
-            "text": "| Field | Required | Rules |"
-          },
-          {
-            "lineNumber": 212,
-            "text": "| --- | --- | --- |"
-          },
-          {
-            "lineNumber": 213,
-            "text": "| &#96;description&#96; | Yes (atomic) | One breath, ≤20 words, no wikilinks |"
-          },
-          {
-            "lineNumber": 214,
-            "text": "| &#96;key_concept&#96; | Yes (atomic) | Angle + stakes; wikilinks allowed |"
-          },
-          {
-            "lineNumber": 215,
-            "text": "| &#96;examples&#96; | Recommended | Exactly two plain bullets; mid-action scenes |"
-          },
-          {
-            "lineNumber": 216,
-            "text": "| &#96;relationships&#96; | Yes (atomic) | Typed rows; each target once; sorted a-z |"
-          },
-          {
-            "lineNumber": 217,
-            "text": "| &#96;aliases&#96; | Optional | Alternate wikilink targets |"
-          },
-          {
-            "lineNumber": 218,
-            "text": "| &#96;note_kind&#96; | Optional | &#96;note&#96; (default), &#96;index&#96;, &#96;meta&#96; |"
-          },
-          {
-            "lineNumber": 219,
-            "text": "| &#96;review&#96; | Optional | &#96;true&#96; for flashcard spine notes |"
-          },
-          {
-            "lineNumber": 220,
-            "text": "| &#96;cards&#96; | When &#96;review: true&#96; | Six scenario cards (front/back) |"
-          },
-          {
-            "lineNumber": 221,
-            "text": "| &#96;card_sets&#96; | When &#96;review: true&#96; | Grouping for Review UI |"
-          },
-          {
-            "lineNumber": 222
-          },
-          {
-            "lineNumber": 223,
-            "text": "**Timestamps:** Created/updated display uses filesystem mtime via &#96;scripts/noteFileDates.js&#96; → &#96;data/noteFileDates.json&#96;. No manual &#96;lastmod&#96; maintenance."
-          },
-          {
-            "lineNumber": 224
-          },
-          {
-            "lineNumber": 225,
-            "text": "**Lint:** &#96;npm run lint:garden&#96; runs frontmatter, format, flashcard, utility-link, and voice checks."
-          },
-          {
-            "lineNumber": 226
-          },
-          {
-            "lineNumber": 227,
-            "text": "### 5.4 Relationship types"
-          },
-          {
-            "lineNumber": 228
-          },
-          {
-            "lineNumber": 229,
-            "text": "| Type | Meaning |"
-          },
-          {
-            "lineNumber": 230,
-            "text": "| --- | --- |"
-          },
-          {
-            "lineNumber": 231,
-            "text": "| &#96;extends&#96; | Builds on or applies the target |"
-          },
-          {
-            "lineNumber": 232,
-            "text": "| &#96;contradicts&#96; | Tension, exception, or corrective |"
-          },
-          {
-            "lineNumber": 233,
-            "text": "| &#96;implements&#96; | Operationalizes the target |"
-          },
-          {
-            "lineNumber": 234,
-            "text": "| &#96;alternative&#96; | Different path to a similar goal |"
-          },
-          {
-            "lineNumber": 235
-          },
-          {
-            "lineNumber": 236,
-            "text": "Each relationship row:"
-          },
-          {
-            "lineNumber": 237
-          },
-          {
-            "lineNumber": 238,
-            "text": "&#96;&#96;&#96;yaml"
-          },
-          {
-            "lineNumber": 239,
-            "text": "- type: extends"
-          },
-          {
-            "lineNumber": 240,
-            "text": "  wikilink: \"[[Target Note]]\""
-          },
-          {
-            "lineNumber": 241,
-            "text": "  reason: \"Plain one-line why\""
-          },
-          {
-            "lineNumber": 242,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 243
-          },
-          {
-            "lineNumber": 244,
-            "text": "### 5.5 Linking"
-          },
-          {
-            "lineNumber": 245
-          },
-          {
-            "lineNumber": 246,
-            "text": "| Mechanism | Syntax | Behavior |"
-          },
-          {
-            "lineNumber": 247,
-            "text": "| --- | --- | --- |"
-          },
-          {
-            "lineNumber": 248,
-            "text": "| Wikilink | &#96;[[Note Title]]&#96; | Resolves by title or &#96;aliases&#96; |"
-          },
-          {
-            "lineNumber": 249,
-            "text": "| Permalink | &#96;/notes/slug/&#96; | Canonical URL |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 249
-          },
-          "startPosition": {
-            "line": 197
-          }
-        },
-        "relativeWorkspacePath": "./docs/SPEC.md",
-        "signatures": {}
-      },
-      "score": 0.32478463649749756
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "# JoRap Notes — Platform Specification"
-          },
-          {
-            "lineNumber": 2
-          },
-          {
-            "lineNumber": 3,
-            "text": "**Version:** 1.0.0  "
-          },
-          {
-            "lineNumber": 4,
-            "text": "**Status:** Active  "
-          },
-          {
-            "lineNumber": 5,
-            "text": "**Last updated:** 2026-07-03  "
-          },
-          {
-            "lineNumber": 6,
-            "text": "**Canonical URL:** [https://www.jorap.com](https://www.jorap.com)"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "This document is the **complete product and platform specification** for JoRap Notes. It defines what the system is, who it serves, what it must do, and how success is measured. Companion docs carry detail this file references rather than duplicates:"
-          },
-          {
-            "lineNumber": 9
-          },
-          {
-            "lineNumber": 10,
-            "text": "| Document | Scope |"
-          },
-          {
-            "lineNumber": 11,
-            "text": "| --- | --- |"
-          },
-          {
-            "lineNumber": 12,
-            "text": "| [&#96;PRODUCT.md&#96;](./PRODUCT.md) | Audience, voice, anti-references, design principles |"
-          },
-          {
-            "lineNumber": 13,
-            "text": "| [&#96;DESIGN.md&#96;](./DESIGN.md) | Visual system, tokens, components |"
-          },
-          {
-            "lineNumber": 14,
-            "text": "| [&#96;.specify/memory/constitution.md&#96;](../.specify/memory/constitution.md) | Architectural principles and governance |"
-          },
-          {
-            "lineNumber": 15,
-            "text": "| [&#96;CMS_SETUP.md&#96;](./CMS_SETUP.md) | Static Site CMS (&#96;/admin&#96;) setup |"
-          },
-          {
-            "lineNumber": 16,
-            "text": "| [&#96;CLIENT_STATIC_SITE.md&#96;](./CLIENT_STATIC_SITE.md) | Client-site deploy checklist |"
-          },
-          {
-            "lineNumber": 17,
-            "text": "| [&#96;TROUBLESHOOTING.md&#96;](./TROUBLESHOOTING.md) | Build, deploy, and CMS gotchas |"
-          },
-          {
-            "lineNumber": 18,
-            "text": "| [&#96;TODO.md&#96;](./TODO.md) | Working backlog |"
-          },
-          {
-            "lineNumber": 19,
-            "text": "| [&#96;../specs/&#96;](../specs/) | Feature-specific speckit specs (user stories, FRs, checklists) |"
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "---"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "## 1. Purpose"
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "JoRap Notes is a **personal brand surface**: a static site that showcases how the author thinks, what they stand for, and the quality of their work so the right clients recognize fit and reach out with confidence."
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "The platform combines:"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "- **Blog** — long-form credibility and SEO"
-          },
-          {
-            "lineNumber": 30,
-            "text": "- **Notes garden** — atomic linked notes, graph, flashcards, and agent copy"
-          },
-          {
-            "lineNumber": 31,
-            "text": "- **Static pages** — about, contact, portfolio framing"
-          },
-          {
-            "lineNumber": 32,
-            "text": "- **CMS** — optional git-backed authoring for non-developers"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "Success means visitors leave with **professional credibility**, a **distinct point of view**, and **trust** that engaging the author is a serious business choice—not a casual follow of a hobby blog."
-          },
-          {
-            "lineNumber": 35
-          },
-          {
-            "lineNumber": 36,
-            "text": "---"
-          },
-          {
-            "lineNumber": 37
-          },
-          {
-            "lineNumber": 38,
-            "text": "## 2. Users \u0026 Scenarios"
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40,
-            "text": "### 2.1 Primary users"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42,
-            "text": "| User | Goal | Typical entry |"
-          },
-          {
-            "lineNumber": 43,
-            "text": "| --- | --- | --- |"
-          },
-          {
-            "lineNumber": 44,
-            "text": "| **Prospective client / decision-maker** | Assess credibility, clarity, and fit before outreach | Search, referral, LinkedIn |"
-          },
-          {
-            "lineNumber": 45,
-            "text": "| **Reader** | Learn from essays and connected ideas | Blog post, notes graph |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 45
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./docs/SPEC.md",
-        "signatures": {}
-      },
-      "score": 0.3226062059402466
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 248,
-            "text": "| Wikilink | &#96;[[Note Title]]&#96; | Resolves by title or &#96;aliases&#96; |"
-          },
-          {
-            "lineNumber": 249,
-            "text": "| Permalink | &#96;/notes/slug/&#96; | Canonical URL |"
-          },
-          {
-            "lineNumber": 250,
-            "text": "| Blog bridge | &#96;related_notes&#96; on blog posts | Surfaces garden from essays |"
-          },
-          {
-            "lineNumber": 251
-          },
-          {
-            "lineNumber": 252,
-            "text": "**Build-time checks:**"
-          },
-          {
-            "lineNumber": 253
-          },
-          {
-            "lineNumber": 254,
-            "text": "- Broken wikilinks → Hugo warning + Issues page"
-          },
-          {
-            "lineNumber": 255,
-            "text": "- Unlinked mentions → warning when note title appears without &#96;[[wikilink]]&#96;"
-          },
-          {
-            "lineNumber": 256,
-            "text": "- Pipe wikilinks (&#96;[[x\\|y]]&#96;) → flagged (not supported)"
-          },
-          {
-            "lineNumber": 257
-          },
-          {
-            "lineNumber": 258,
-            "text": "### 5.6 Tool surfaces"
-          },
-          {
-            "lineNumber": 259
-          },
-          {
-            "lineNumber": 260,
-            "text": "| Tool | URL | Function |"
-          },
-          {
-            "lineNumber": 261,
-            "text": "| --- | --- | --- |"
-          },
-          {
-            "lineNumber": 262,
-            "text": "| List | &#96;/notes/&#96; | Filterable index, featured random note |"
-          },
-          {
-            "lineNumber": 263,
-            "text": "| Graph | &#96;/notes/graph/&#96; | PixiJS network; filter by link density and orphans |"
-          },
-          {
-            "lineNumber": 264,
-            "text": "| Issues | &#96;/notes/issues/&#96; | Broken links, pipe wikilinks, unlinked mentions |"
-          },
-          {
-            "lineNumber": 265,
-            "text": "| Backlinks | &#96;/notes/backlinks/&#96; | Garden-wide backlink index |"
-          },
-          {
-            "lineNumber": 266,
-            "text": "| Flashcards | &#96;/notes/flashcards/&#96; | Card browser by set |"
-          },
-          {
-            "lineNumber": 267,
-            "text": "| Review | &#96;/notes/review/&#96; | Spaced-repetition quiz flow |"
-          },
-          {
-            "lineNumber": 268,
-            "text": "| Random Duo | &#96;/notes/random-duo/&#96; | Two random notes + connection prompt |"
-          },
-          {
-            "lineNumber": 269,
-            "text": "| Create Note | &#96;/notes/create/&#96; | Topic → AI prompt for one atomic note |"
-          },
-          {
-            "lineNumber": 270,
-            "text": "| OKF Export | &#96;/notes/okf-export/&#96; | Bundle index and agent workflow docs |"
-          },
-          {
-            "lineNumber": 271
-          },
-          {
-            "lineNumber": 272,
-            "text": "**Per-note affordances:** outgoing links, backlinks with snippets, See also (tag-related), hover previews, Copy MD, Agent copy (OKF export). Hub pages add Copy hub cluster."
-          },
-          {
-            "lineNumber": 273
-          },
-          {
-            "lineNumber": 274,
-            "text": "### 5.7 Flashcards"
-          },
-          {
-            "lineNumber": 275
-          },
-          {
-            "lineNumber": 276,
-            "text": "~20% of notes are habit-spine (&#96;review: true&#96;). Each carries six &#96;cards:&#96; with scenario cues on the front and one-breath actions on the back. &#96;card_sets:&#96; groups cards in Review."
-          },
-          {
-            "lineNumber": 277
-          },
-          {
-            "lineNumber": 278,
-            "text": "**Behavior:**"
-          },
-          {
-            "lineNumber": 279
-          },
-          {
-            "lineNumber": 280,
-            "text": "- Flip animation 350ms; crossfade when &#96;prefers-reduced-motion&#96;"
-          },
-          {
-            "lineNumber": 281,
-            "text": "- Spaced repetition state in browser &#96;localStorage&#96;"
-          },
-          {
-            "lineNumber": 282,
-            "text": "- Lint: &#96;npm run lint:cards&#96;, &#96;npm run audit:cards&#96;"
-          },
-          {
-            "lineNumber": 283
-          },
-          {
-            "lineNumber": 284,
-            "text": "### 5.8 OKF interoperability"
-          },
-          {
-            "lineNumber": 285
-          },
-          {
-            "lineNumber": 286,
-            "text": "The garden aligns with [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) for agent export, not for replacing Hugo authoring."
-          },
-          {
-            "lineNumber": 287
-          },
-          {
-            "lineNumber": 288,
-            "text": "| Live garden | OKF bundle (&#96;/exports/okf/&#96;) |"
-          },
-          {
-            "lineNumber": 289,
-            "text": "| --- | --- |"
-          },
-          {
-            "lineNumber": 290,
-            "text": "| &#96;[[wikilinks]]&#96; | Resolved markdown links |"
-          },
-          {
-            "lineNumber": 291,
-            "text": "| Hugo frontmatter | Flattened concept/hub files |"
-          },
-          {
-            "lineNumber": 292,
-            "text": "| Graph at runtime | Static viz at &#96;/exports/okf/viz.html&#96; |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 293
-          },
-          "startPosition": {
-            "line": 247
-          }
-        },
-        "relativeWorkspacePath": "./docs/SPEC.md",
-        "signatures": {}
-      },
-      "score": 0.32169678807258606
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Note Relationships\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Note Relationships - Four Link Types for the Garden\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  Four pair types in &#96;relationships&#96; frontmatter show how ideas push and pull - not just that two notes mention each other."
-          },
-          {
-            "lineNumber": 7,
-            "text": "  "
-          },
-          {
-            "lineNumber": 8,
-            "text": "  | Type | Question | Example |"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  |------|----------|---------|"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  | **extends** | What does this build on? | [[Signal vs Noise]] extends [[Capture]] |"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  | **contradicts** | What tradeoff does this push against? | [[Slow Productivity]] contradicts [[The 12 Week Year]] when fewer deep projects beat quarterly sprints |"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  | **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  "
-          },
-          {
-            "lineNumber": 15,
-            "text": "  Every atomic note carries a one-breath definition in &#96;description&#96;, angle in &#96;key_concept&#96;, two scenes in &#96;examples&#96;, and typed links in &#96;relationships&#96; frontmatter - not body sections."
-          },
-          {
-            "lineNumber": 16,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  - \"I'm updating the family chore chart and add \\\"feeds into: Saturday yard work\\\" next to \\\"take out trash\\\" plus \\\"conflicts with: bedtime when done late\\\" before I tape it to the fridge.\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "  - \"The coach's whiteboard lists \\\"feeds into: secondary break\\\" beside each drill - players see how today's reps connect before they leave the gym.\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  - type: alternative"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    wikilink: \"[[PARA Method]]\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "    reason: \"Body link types vs folder sort when typed links beat project buckets\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    wikilink: \"[[Maps of Content]]\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "    reason: \"when a hand-curated hub beats typing every edge in frontmatter\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    wikilink: \"[[Link Typing]]\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "    reason: \"Generic PKM term for what this page formalizes\""
-          },
-          {
-            "lineNumber": 29,
-            "text": "  - type: implements"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    wikilink: \"[[Linking by Meaning]]\""
-          },
-          {
-            "lineNumber": 31,
-            "text": "    reason: \"Typed rows carry vague wikilinks into named push and pull\""
-          },
-          {
-            "lineNumber": 32,
-            "text": "slug: \"note-relationships\""
-          },
-          {
-            "lineNumber": 33,
-            "text": "date: \"2026-06-19 08:00:00+00:00\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 33
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/note-relationships.md",
-        "signatures": {}
-      },
-      "score": 0.3102647066116333
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 38,
-            "text": "**Examples** - exactly two plain bullets in frontmatter from different fields. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox."
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40,
-            "text": "**Relationships** - &#96;extends&#96; and &#96;contradicts&#96; minimum; optional &#96;implements&#96; and &#96;alternative&#96;. Sorted relationship a-z then wikilink a-z; each target once."
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42,
-            "text": "## Create a note"
-          },
-          {
-            "lineNumber": 43
-          },
-          {
-            "lineNumber": 44,
-            "text": "&#96;&#96;&#96;bash"
-          },
-          {
-            "lineNumber": 45,
-            "text": "hugo new notes/my-idea.md"
-          },
-          {
-            "lineNumber": 46,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 47
-          },
-          {
-            "lineNumber": 48,
-            "text": "Or add a &#96;.md&#96; file under &#96;content/english/notes/&#96;. Atomic notes use &#96;description&#96;, &#96;key_concept&#96;, &#96;examples&#96;, and &#96;relationships&#96; in frontmatter plus the usual blog fields (&#96;title&#96;, &#96;meta_title&#96;, &#96;slug&#96;, &#96;date&#96;, &#96;image&#96;, &#96;categories&#96;, &#96;author&#96;, &#96;tags&#96;, &#96;featured&#96;, &#96;draft&#96;)."
-          },
-          {
-            "lineNumber": 49
-          },
-          {
-            "lineNumber": 50,
-            "text": "Created and updated timestamps come from the file itself at build time (&#96;scripts/noteFileDates.js&#96;) - no manual date fields to maintain."
-          },
-          {
-            "lineNumber": 51
-          },
-          {
-            "lineNumber": 52,
-            "text": "## Link between notes"
-          },
-          {
-            "lineNumber": 53
-          },
-          {
-            "lineNumber": 54,
-            "text": "Use wikilinks in the body:"
-          },
-          {
-            "lineNumber": 55
-          },
-          {
-            "lineNumber": 56,
-            "text": "- &#96;[[Atomic Notes]]&#96; - link by title"
-          },
-          {
-            "lineNumber": 57,
-            "text": "- &#96;[[atom]]&#96; - works via the &#96;aliases&#96; frontmatter field"
-          },
-          {
-            "lineNumber": 58
-          },
-          {
-            "lineNumber": 59,
-            "text": "What this site gives you:"
-          },
-          {
-            "lineNumber": 60
-          },
-          {
-            "lineNumber": 61,
-            "text": "- **Wikilinks** - &#96;[[Note Title]]&#96; in note bodies (no pipe labels)"
-          },
-          {
-            "lineNumber": 62,
-            "text": "- **Aliases** - alternate link targets in frontmatter (&#96;aliases: [\"PARA\"]&#96; on [[PARA Method]])"
-          },
-          {
-            "lineNumber": 63,
-            "text": "- **Outgoing links** - listed below each note's body"
-          },
-          {
-            "lineNumber": 64,
-            "text": "- **Backlinks** - with context snippets when another note links here"
-          },
-          {
-            "lineNumber": 65,
-            "text": "- **Graph** - map view; filter by high, low, no body links, and orphans at [/notes/graph/](/notes/graph/)"
-          },
-          {
-            "lineNumber": 66,
-            "text": "- **Issues** - broken wikilinks, pipe wikilinks, and unlinked mentions at [/notes/issues/](/notes/issues/); also shown on each note"
-          },
-          {
-            "lineNumber": 67,
-            "text": "- **See also** - tag-related notes generated at build time (not static in markdown)"
-          },
-          {
-            "lineNumber": 68,
-            "text": "- **Hover previews** - pause on a wikilink to peek at the target note"
-          },
-          {
-            "lineNumber": 69,
-            "text": "- **Maps of Content** - hub index at [[Maps of Content]]"
-          },
-          {
-            "lineNumber": 70,
-            "text": "- **Resurfacing** - featured random note and [Random Duo](/notes/random-duo/) on [/notes/](/notes/)"
-          },
-          {
-            "lineNumber": 71,
-            "text": "- **Create Note** - topic → AI prompt for one lint-ready atomic note at [/notes/create/](/notes/create/)"
-          },
-          {
-            "lineNumber": 72,
-            "text": "- **Copy MD** - on every note page: copies Hugo source for ChatGPT or your editor"
-          },
-          {
-            "lineNumber": 73,
-            "text": "- **Copy hub cluster** - on hub/MOC pages (&#96;note_kind: index&#96;): hub + all direct wikilink targets in one paste"
-          },
-          {
-            "lineNumber": 74,
-            "text": "- **Copy catalog** - on [OKF Export](/notes/okf-export/): full garden index for ChatGPT project context"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 74
-          },
-          "startPosition": {
-            "line": 36
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.30353283882141113
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Notes\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Notes\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"My linked note garden - wikilinks, backlinks, and a graph view of connected ideas.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"notes\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: 2026-06-18T08:00:00Z"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: [\"Notes\", \"Meta\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "---"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "A personal note garden of **atomic notes** - one claim per page, linked with &#96;[[wikilinks]]&#96;. Start at [[Getting Started]] or [[Maps of Content]]."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 15
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/_index.md",
-        "signatures": {}
-      },
-      "score": 0.30275699496269226
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 13,
-            "text": "  "
-          },
-          {
-            "lineNumber": 14,
-            "text": "  Every garden note carries flashcards (minimum 2). Deck size depends on importance: **8** hub/spine notes, **6** gospel and core PKM habits, **4** workplace/safety/PKM secondary, **2** everything else. Each carries a &#96;card_sets:&#96; list so Review can filter by group (Capture, Linking, Review, **Eternal Principles**, etc.). Gospel notes also tag a section set - **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship** - matching [[Eternal Principles]] sections. Cards ask what I'd *do* when capture, review, linking, or discipleship breaks down - not what a term *means*. **Card shape:** cue → move on the card (pause beat for impulse/gospel cards). Front = life's moment I'd recognize; back = do, decide, or say in one breath. **Cue only - no multiple choice:** state the moment on the front; never list options (&#96;X, Y, or Z?&#96;, &#96;A or B?&#96;) to pick from. **Front longer than back:** the prompt carries the scenario; the answer stays short. **No answer telegraphy:** don't name the note title, quote the verse, or fill in the blank on the front - give a subtle situational trigger instead. **No example-split:** never copy &#96;examples:&#96; sentences across front/back. **Quiz yourself** at [/notes/review/](/notes/review/). Sync decks with &#96;python3 scripts/sync-note-flashcards.py&#96;; validate with &#96;npm run lint:cards&#96; and &#96;npm run audit:cards&#96;."
-          },
-          {
-            "lineNumber": 15,
-            "text": "slug: \"flashcards\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "date: \"2026-06-18 08:00:00+00:00\""
-          },
-          {
-            "lineNumber": 17,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 19,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "tags: [\"Notes\", \"Meta\", \"Anki\", \"Learning\"]"
-          },
-          {
-            "lineNumber": 21,
-            "text": "aliases: [\"/notes/cards/\"]"
-          },
-          {
-            "lineNumber": 22,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 23,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 24,
-            "text": "---"
-          },
-          {
-            "lineNumber": 25,
-            "text": "## Frontmatter format (atomic notes)"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "Atomic garden notes store all claim data in frontmatter - body stays empty unless the page is a hub or utility doc:"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "&#96;&#96;&#96;yaml"
-          },
-          {
-            "lineNumber": 30,
-            "text": "description: \"One breath definition.\""
-          },
-          {
-            "lineNumber": 31,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  One sentence - the angle."
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "  Optional second paragraph with [[wikilinks]]."
-          },
-          {
-            "lineNumber": 35,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 36,
-            "text": "  - \"Mid-action scene one.\""
-          },
-          {
-            "lineNumber": 37,
-            "text": "  - \"Mid-action scene two - different field.\""
-          },
-          {
-            "lineNumber": 38,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    wikilink: \"[[Related Note]]\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 40
-          },
-          "startPosition": {
-            "line": 12
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/flashcards.md",
-        "signatures": {}
-      },
-      "score": 0.3014458417892456
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!)\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"How I Built JoRap Notes: A Developer's Guide to Static Site Hosting\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - faster, and honestly better than what I was paying for.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"how-i-built-jorap-notes\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: 2024-06-14T05:00:00Z"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/joraps-world.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: [\"Website\", \"Technology\", \"Tutorial\"]"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: [\"Website Building\", \"Hugo CMS\", \"GitHub\", \"Cloudflare Pages\", \"Static Sites\", \"JAMstack\", \"Self-Hosting\", \"PHP\", \"Migration\", \"Developer Life\", \"Hugo\", \"DevOps\", \"Site Migration\", \"Static Site Generator\", \"Web Hosting\", \"Publishing\", \"Digital Garden\", \"PKM\", \"Note Taking\", \"Blogging\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "related_notes:"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  - digital-garden"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  - drafting-in-public"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  - the-garage-concept"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  - selling-static-sites"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  - note-relationships"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  - success-is-stewardship"
-          },
-          {
-            "lineNumber": 18,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 19,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 20,
-            "text": "---"
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "\u003e **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying $12/month for. Here's exactly how I did it - including the parts I messed up."
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "## The short backstory"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "For years I had a basic PHP hosting plan, about $12 a month, that I shared with a client. When that client moved on, suddenly I was paying the whole bill for what was effectively just my personal blog. It didn't make sense."
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "I'd been hearing about static site generators and the whole \"JAMstack\" thing for a while but never had a reason to try them. Losing my hosting setup turned out to be exactly that reason. Sometimes you don't fix something until you have to."
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "## What I ended up using"
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "Three pieces, all working together:"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "- **Hugo** generates the site."
-          },
-          {
-            "lineNumber": 35,
-            "text": "- **GitHub** stores the code."
-          },
-          {
-            "lineNumber": 36,
-            "text": "- **Cloudflare Pages** builds and serves it."
-          },
-          {
-            "lineNumber": 37
-          },
-          {
-            "lineNumber": 38,
-            "text": "That's it. There's no database, no admin panel, no PHP, no cron jobs. When I want to publish, I write a Markdown file, push it to GitHub, and ninety seconds later it's live."
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40,
-            "text": "### Hugo, in plain English"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42,
-            "text": "Hugo takes a folder of Markdown files and a theme, and spits out a folder of plain HTML. That's the whole job. No database to back up, no server-side code to keep patched, nothing to break."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 42
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/blog/how-i-built-jorap-notes.md",
-        "signatures": {}
-      },
-      "score": 0.30136609077453613
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "note_kind: \"meta\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "layout: \"issues\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "title: \"Issues\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "meta_title: \"Garden Link Issues\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "description: |"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  Broken wikilinks and note titles mentioned in prose without a &#96;[[wikilink]]&#96; - listed below and on each affected note. Faith parallel: [[Judge Not]] - fix the speck in the graph without playing judge over the author."
-          },
-          {
-            "lineNumber": 8,
-            "text": "  "
-          },
-          {
-            "lineNumber": 9,
-            "text": "  **Missing note** means the wikilink target does not match any published note. **Pipe wikilink** means deprecated double-bracket syntax with a pipe label (&#96;[[target|label]]&#96;) - use &#96;[[Note Title]]&#96; only. **Unlinked mention** means another note's title appears in prose without a link - not in markdown headings (&#96;## …&#96;) or the **Note Relationships** table. **Structure issues** flag missing &#96;extends&#96; / &#96;contradicts&#96; rows in the **Note Relationships** table on garden notes (utility/meta pages are exempt). Frontmatter and flashcards are not checked - only the note body. Pairs with [[Backlinks]] and [[Random Duo]]."
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"issues\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "date: \"2026-06-19 08:00:00+00:00\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 13,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 14,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "tags: [\"Notes\", \"Meta\", \"Linking\"]"
-          },
-          {
-            "lineNumber": 16,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 17,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 18,
-            "text": "---"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 18
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/issues.md",
-        "signatures": {}
-      },
-      "score": 0.29952728748321533
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "note_kind: \"index\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "title: \"Getting Started\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "meta_title: \"Getting Started - Notes Garden\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "description: \"I keep one clear claim per note page and let wikilinks plus [/notes/](/notes/) do the browsing.\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  Public when &#96;draft: false&#96;; hidden while &#96;draft: true&#96;."
-          },
-          {
-            "lineNumber": 8,
-            "text": "  "
-          },
-          {
-            "lineNumber": 9,
-            "text": "  Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]]. Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one."
-          },
-          {
-            "lineNumber": 10,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    wikilink: \"[[Maps of Content]]\""
-          },
-          {
-            "lineNumber": 13,
-            "text": "    reason: \"when jumping into a hub beats reading onboarding first\""
-          },
-          {
-            "lineNumber": 14,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    wikilink: \"[[Note Relationships]]\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "    reason: \"Getting started teaches the garden rules that note relationships formalize with typed links\""
-          },
-          {
-            "lineNumber": 17,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    wikilink: \"[[Selling Static Sites]]\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "    reason: \"Same markdown-first Hugo workflow for paid client sites\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "slug: \"getting-started\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "date: \"2026-06-18 08:00:00+00:00\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 24,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "tags: [\"Notes\", \"Meta\", \"PKM\", \"Digital Garden\", \"Note Taking\", \"Hugo\", \"Website Building\"]"
-          },
-          {
-            "lineNumber": 26,
-            "text": "aliases: [\"start\"]"
-          },
-          {
-            "lineNumber": 27,
-            "text": "featured: true"
-          },
-          {
-            "lineNumber": 28,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 29,
-            "text": "---"
-          },
-          {
-            "lineNumber": 30,
-            "text": "## Atomic rule"
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "**One note = one claim** I'd cite in conversation. Put the definition in &#96;description&#96;, the angle in &#96;key_concept&#96;, two scenes in &#96;examples&#96;, and typed links in &#96;relationships&#96; frontmatter - not body &#96;##&#96; sections. Hub/MOC and utility pages may keep prose sections in the body. See [[Atomic Notes]] and [[Note Relationships]]."
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "**Description** - one breath, the single claim I'd quote in conversation."
-          },
-          {
-            "lineNumber": 35
-          },
-          {
-            "lineNumber": 36,
-            "text": "**Key concept** - not a second definition. First paragraph: one sentence (the angle). Next paragraph: stakes, distinctions, wikilinks."
-          },
-          {
-            "lineNumber": 37
-          },
-          {
-            "lineNumber": 38,
-            "text": "**Examples** - exactly two plain bullets in frontmatter from different fields. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox."
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40,
-            "text": "**Relationships** - &#96;extends&#96; and &#96;contradicts&#96; minimum; optional &#96;implements&#96; and &#96;alternative&#96;. Sorted relationship a-z then wikilink a-z; each target once."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 40
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.2990666925907135
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/**"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Notes home: featured block shows three random garden notes per visit."
-          },
-          {
-            "lineNumber": 3,
-            "text": " */"
-          },
-          {
-            "lineNumber": 4,
-            "text": "(function () {"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  var core = window.jorapNotesRandomCore;"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  if (!core) return;"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "  var root = document.querySelector(\"[data-notes-featured-random]\");"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  var dataEl = document.querySelector(\".notes-featured-random-data\");"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  var slot = document.querySelector(\"[data-notes-featured-random-slot]\");"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  if (!root || !dataEl || !slot) return;"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "  var PICK_COUNT = 3;"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "  var pool = [];"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  try {"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    pool = JSON.parse(dataEl.textContent);"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  } catch (e) {"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    pool = [];"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "  function escapeHtml(str) {"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    return String(str)"
-          },
-          {
-            "lineNumber": 24,
-            "text": "      .replace(/\u0026/g, \"\u0026amp;\")"
-          },
-          {
-            "lineNumber": 25,
-            "text": "      .replace(/\u003c/g, \"\u0026lt;\")"
-          },
-          {
-            "lineNumber": 26,
-            "text": "      .replace(/\u003e/g, \"\u0026gt;\")"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      .replace(/\"/g, \"\u0026quot;\");"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "  function pickMany(count) {"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    var picks = [];"
-          },
-          {
-            "lineNumber": 32,
-            "text": "    var exclude = [];"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    var n = Math.min(count, pool.length);"
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "    for (var i = 0; i \u003c n; i += 1) {"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      var pick = core.pickOne(pool, exclude);"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      if (!pick) break;"
-          },
-          {
-            "lineNumber": 38,
-            "text": "      picks.push(pick);"
-          },
-          {
-            "lineNumber": 39,
-            "text": "      exclude.push(pick.url);"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42,
-            "text": "    return picks;"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 44
-          },
-          {
-            "lineNumber": 45,
-            "text": "  function cardHtml(pick) {"
-          },
-          {
-            "lineNumber": 46,
-            "text": "    var"
-          },
-          {
-            "lineNumber": 67,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 81
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./assets/js/notes-featured-random.js",
-        "signatures": {}
-      },
-      "score": 0.2989349365234375
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 73,
-            "text": "- **Copy hub cluster** - on hub/MOC pages (&#96;note_kind: index&#96;): hub + all direct wikilink targets in one paste"
-          },
-          {
-            "lineNumber": 74,
-            "text": "- **Copy catalog** - on [OKF Export](/notes/okf-export/): full garden index for ChatGPT project context"
-          },
-          {
-            "lineNumber": 75,
-            "text": "- **Copy issues** - on [Issues](/notes/issues/): structured link/structure report for maintenance sprints"
-          },
-          {
-            "lineNumber": 76,
-            "text": "- **Agent copy** - OKF export markdown per note (resolved links), upper right beside Copy MD"
-          },
-          {
-            "lineNumber": 77,
-            "text": "- **OKF export** - full bundle at [/notes/okf-export/](/notes/okf-export/) and [/exports/okf/](/exports/okf/)"
-          },
-          {
-            "lineNumber": 78,
-            "text": "- **Flashcards** - ~12 habit spine notes (~20%) with &#96;review: true&#96; carry six scenario &#96;cards:&#96; in frontmatter plus &#96;card_sets:&#96; for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)"
-          },
-          {
-            "lineNumber": 79
-          },
-          {
-            "lineNumber": 80,
-            "text": "## Page kinds"
-          },
-          {
-            "lineNumber": 81
-          },
-          {
-            "lineNumber": 82,
-            "text": "| &#96;note_kind&#96; | What it is | Relationships table | Link from content notes? |"
-          },
-          {
-            "lineNumber": 83,
-            "text": "|-------------|------------|---------------------|--------------------------|"
-          },
-          {
-            "lineNumber": 84,
-            "text": "| &#96;note&#96; (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes - &#96;[[wikilink]]&#96; |"
-          },
-          {
-            "lineNumber": 85,
-            "text": "| &#96;index&#96; | Hub / MOC ([[Maps of Content]], [[Eternal Principles]], this page) | Optional | Yes |"
-          },
-          {
-            "lineNumber": 86,
-            "text": "| &#96;meta&#96; | Tool surface (Graph, Issues, Review, etc.) | Skip | No - URL only |"
-          },
-          {
-            "lineNumber": 87
-          },
-          {
-            "lineNumber": 88,
-            "text": "## Utility surfaces (don't wikilink)"
-          },
-          {
-            "lineNumber": 89
-          },
-          {
-            "lineNumber": 90,
-            "text": "These pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/), [Create Note](/notes/create/), [OKF Export](/notes/okf-export/). They are excluded from the graph node set, random pickers, and flashcard sources. **No &#96;## Note Relationships&#96; table** on utility pages - link by URL when pointing readers at a tool. **Don't &#96;[[wikilink]]&#96; to them** from content notes. &#96;npm run lint:utility-links&#96; catches violations."
-          },
-          {
-            "lineNumber": 91
-          },
-          {
-            "lineNumber": 92,
-            "text": "## Explore"
-          },
-          {
-            "lineNumber": 93
-          },
-          {
-            "lineNumber": 94,
-            "text": "- **Outgoing links** and **backlinks** (with snippets) show below each note."
-          },
-          {
-            "lineNumber": 95,
-            "text": "- **See also** suggests tag-related notes you haven't linked yet."
-          },
-          {
-            "lineNumber": 96,
-            "text": "- **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter high, low, no body links, and orphans."
-          },
-          {
-            "lineNumber": 97,
-            "text": "- **Issues** at [/notes/issues/](/notes/issues/) lists broken wikilinks and unlinked note mentions; warnings also show on each affected note."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 97
-          },
-          "startPosition": {
-            "line": 72
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.29808545112609863
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 79,
-            "text": "function buildPrompt(topic) {"
-          },
-          {
-            "lineNumber": 85
-          },
-          {
-            "lineNumber": 108
-          },
-          {
-            "lineNumber": 109,
-            "text": "      \"You are a garden editor and principle researcher (PKM, faith, ethics, systems). Find the clearest improvement principles on the topic, then distill each into one atomic note with a concrete next move.\","
-          },
-          {
-            "lineNumber": 110,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 111,
-            "text": "      \"ACTION:\","
-          },
-          {
-            "lineNumber": 112,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 113,
-            "text": "      \"1) RESEARCH THE TOPIC\","
-          },
-          {
-            "lineNumber": 114,
-            "text": "      \"   - List 3–7 principles that would actually improve how someone handles this topic day to day.\","
-          },
-          {
-            "lineNumber": 115,
-            "text": "      \"   - For each principle, name: the core claim (one sentence), why it helps, and one actionable move someone could do in the next 24 hours.\","
-          },
-          {
-            "lineNumber": 116,
-            "text": "      \"   - Drop vague or duplicate principles. Keep only claims I'd cite in conversation.\","
-          },
-          {
-            "lineNumber": 117,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 118,
-            "text": "      \"2) ATOMIZE\","
-          },
-          {
-            "lineNumber": 119,
-            "text": "      \"   - If more than one principle survives, output ONE note now (the strongest, most actionable claim) and list the others as suggested sibling notes to create separately.\","
-          },
-          {
-            "lineNumber": 120,
-            "text": "      \"   - Do not pack multiple principles into one file.\","
-          },
-          {
-            "lineNumber": 121,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 122,
-            "text": "      \"3) CHECK THE GARDEN\","
-          },
-          {
-            "lineNumber": 123,
-            "text": "      \"   - Before writing wikilinks, note which existing notes this claim extends, contradicts, implements, or alternatives to.\","
-          },
-          {
-            "lineNumber": 124,
-            "text": "      \"   - Use [[Note Title]] only (no pipe aliases). Link real concepts from the garden list when they fit.\","
-          },
-          {
-            "lineNumber": 125,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 126,
-            "text": "      \"4) WRITE THE ATOMIC NOTE (frontmatter fields)\","
-          },
-          {
-            "lineNumber": 127,
-            "text": "      \"   description:\","
-          },
-          {
-            "lineNumber": 128,
-            "text": "      \"   - One-breath definition (what it is — quotable, no wikilink dump; don't prefix with \\\"Title =\\\").\","
-          },
-          {
-            "lineNumber": 129,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 130,
-            "text": "      \"   key_concept:\","
-          },
-          {
-            "lineNumber": 131,
-            "text": "      \"   - First paragraph: one sentence — the angle, not a second definition.\","
-          },
-          {
-            "lineNumber": 132,
-            "text": "      \"   - Next paragraph: stakes, distinctions from neighbors, [[wikilinks]] to the graph.\","
-          },
-          {
-            "lineNumber": 133,
-            "text": "      \"   - If you need a second claim, that's another note.\","
-          },
-          {
-            "lineNumber": 134,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 135,
-            "text": "      \"   examples — exactly two plain bullets from different fields (no genre labels), each showing principle → immediate move:\","
-          },
-          {
-            "lineNumber": 136,
-            "text": "      \"   - Mid-action scenes: thumb on send, jeepney, clinic, group chat, bedtime, inbox\","
-          },
-          {
-            "lineNumber": 137,
-            "text": "      \"   - First person where natural; one concrete move per bullet\","
-          },
-          {
-            "lineNumber": 138,
-            "text": "      \"   - Rank strongest first; skip template-y setting swaps\","
-          },
-          {
-            "lineNumber": 139,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 192
-          },
-          {
-            "lineNumber": 193,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 247
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-creator.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            },
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 80
-              },
-              "startPosition": {
-                "column": 3,
-                "line": 79
-              }
-            },
-            {
-              "endPosition": {
-                "column": 12,
-                "line": 85
-              },
-              "startPosition": {
-                "column": 12,
-                "line": 85
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.2936846911907196
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"GTD vs PARA\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"GTD vs PARA - Tasks vs Knowledge\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  Tasks and knowledge need different homes."
-          },
-          {
-            "lineNumber": 7,
-            "text": "  "
-          },
-          {
-            "lineNumber": 8,
-            "text": "  [[Getting Things Done]] runs what has a next action and a deadline; [[PARA Method]] sorts what I'd cite with no finish line. Cousins, not competitors - same capture habit, two lanes. The failure mode is doubling admin: one inbox emptied weekly, tasks in the task app, notes in the garden."
-          },
-          {
-            "lineNumber": 9,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  - \"The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors.\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "  - \"The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline.\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    wikilink: \"[[PKM]]\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "    reason: \"when task inbox truth beats note-garden architecture\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    wikilink: \"[[Getting Things Done]]\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "    reason: \"Allen task-inbox system on the other side of the comparison\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    wikilink: \"[[PARA Method]]\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "    reason: \"GTD runs tasks and PARA sorts notes - here's how both work without doubling admin\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "slug: \"gtd-vs-para\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "date: \"2026-06-18 06:00:00+00:00\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 26,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 27,
-            "text": "tags: [\"GTD\", \"PARA\", \"Productivity\", \"PKM\", \"Tiago Forte\", \"David Allen\", \"Second Brain\", \"Note Taking\"]"
-          },
-          {
-            "lineNumber": 28,
-            "text": "aliases: [\"GTD\"]"
-          },
-          {
-            "lineNumber": 29,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 30,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 31,
-            "text": "card_sets: [\"Focus\", \"Workflow\"]"
-          },
-          {
-            "lineNumber": 32,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  - front: \"Fridge list for this week's groceries vs filing cabinet for school forms with no deadline. Which system?\""
-          },
-          {
-            "lineNumber": 34,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 4,
-            "line": 33
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/gtd-vs-para.md",
-        "signatures": {}
-      },
-      "score": 0.29096806049346924
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Linking by Meaning\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Linking by Meaning - How Ideas Find Each Other\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"I link notes so ideas meet in the graph without me memorizing every folder path.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  Folders sort. Links think."
-          },
-          {
-            "lineNumber": 7,
-            "text": "  "
-          },
-          {
-            "lineNumber": 8,
-            "text": "  I stopped trying to memorize every filename and started wiring [[Atomic Notes]] so ideas bump into each other in the graph. One link to what extends the thought, one to what pushes back - that's enough for the garden to be walkable six months later when the folder path is gone."
-          },
-          {
-            "lineNumber": 9,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  - \"I linked \\\"jeepney delay\\\" to \\\"leave earlier\\\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing.\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "  - \"The playbook card links \\\"late press\\\" to \\\"[[Slow the Moment]]\\\" - I find the counter without memorizing every filename in the binder.\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    wikilink: \"[[PARA Method]]\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "    reason: \"when links beat sorting by owner and deadline\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    wikilink: \"[[Atomic Notes]]\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "    reason: \"Links let atomic notes bump into each other without you memorizing every filename\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "slug: \"linking-by-meaning\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "date: \"2026-06-18 06:00:00+00:00\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 23,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "tags: [\"Linking\", \"PKM\", \"Note Taking\", \"Second Brain\", \"Digital Garden\", \"Graph\", \"Network\"]"
-          },
-          {
-            "lineNumber": 25,
-            "text": "aliases: [\"Interconnectivity\", \"Power of Interconnectivity\", \"The Power of Interconnectivity\", \"/notes/associative-linking/\"]"
-          },
-          {
-            "lineNumber": 26,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 27,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 28,
-            "text": "card_sets: [\"Linking\", \"Writing\"]"
-          },
-          {
-            "lineNumber": 29,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  - front: \"Just finished a new atomic note - filing it now. Minimum typed links before it's garden-ready?\""
-          },
-          {
-            "lineNumber": 31,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 4,
-            "line": 30
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/linking-by-meaning.md",
-        "signatures": {}
-      },
-      "score": 0.29063689708709717
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"The Garage Concept\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"The Garage Concept - Messy Workshop, Clean Showroom\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"My vault is the garage for scraps and experiments - the blog is the showroom, and I keep them separate.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two."
-          },
-          {
-            "lineNumber": 7,
-            "text": "  "
-          },
-          {
-            "lineNumber": 8,
-            "text": "  Client pass-off uses the same split: [[Selling Static Sites]] workshop in my drafts; the client's deploy branch is the showroom on [[Free Tier Hosting Stack]]."
-          },
-          {
-            "lineNumber": 9,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  - \"The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece.\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "  - \"The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on.\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    wikilink: \"[[Drafting in Public]]\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "    reason: \"when private workshop beats publishing half-baked notes\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    wikilink: \"[[Digital Garden]]\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "    reason: \"The garage is messy workshop; the garden showroom is public - you need both lanes\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    wikilink: \"[[Selling Static Sites]]\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "    reason: \"Client site stays showroom; experiments stay in the garage\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    wikilink: \"[[Sketchpad]]\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "    reason: \"Private workshop before anything goes public\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    wikilink: \"[[Success is Stewardship]]\""
-          },
-          {
-            "lineNumber": 27,
-            "text": "    reason: \"Showroom vs workshop - steward both lanes\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "slug: \"the-garage-concept\""
-          },
-          {
-            "lineNumber": 29,
-            "text": "date: \"2026-06-18 06:00:00+00:00\""
-          },
-          {
-            "lineNumber": 30,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 31,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 32,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 33,
-            "text": "tags: [\"Garage Concept\", \"Digital Garden\", \"PKM\", \"Publishing\", \"Workflow\", \"Privacy\", \"Hugo\", \"Static Site Generator\", \"Website Building\"]"
-          },
-          {
-            "lineNumber": 34,
-            "text": "aliases: [\"Garage Concept\"]"
-          },
-          {
-            "lineNumber": 35,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 36,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 37,
-            "text": "card_sets: [\"Focus\", \"Review\"]"
-          },
-          {
-            "lineNumber": 38,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  - front: \"Draft post's half-finished in my private folder and I'm tempted to publish tonight.\""
-          },
-          {
-            "lineNumber": 40,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 4,
-            "line": 39
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/the-garage-concept.md",
-        "signatures": {}
-      },
-      "score": 0.29017770290374756
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"{{ replace .Name \"-\" \" \" | title }}\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"{{ replace .Name \"-\" \" \" | title }}\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"One memorable definition - what this concept is or does, in one breath you could recall cold.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"{{ .Name }}\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: {{ .Date }}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: []"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: []"
-          },
-          {
-            "lineNumber": 11,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 12,
-            "text": "review: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "draft: true"
-          },
-          {
-            "lineNumber": 15,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  One sentence — the angle, not a second definition."
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "  Further explanation: stakes, distinctions, [[wikilinks]]. Skip the second paragraph when the description is enough."
-          },
-          {
-            "lineNumber": 19,
-            "text": "examples:"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  - \"Mid-action scene where this principle fires — not a definition restated.\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "  - \"Second scene from a different field — jeepney, clinic, inbox, bedtime.\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "relationships:"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  - type: extends"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    wikilink: \"[[Related Note]]\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "    reason: \"what this note builds on\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "  - type: contradicts"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    wikilink: \"[[Tension Note]]\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "    reason: \"when …\""
-          },
-          {
-            "lineNumber": 29,
-            "text": "---"
-          },
-          {
-            "lineNumber": 30
-          },
-          {
-            "lineNumber": 31,
-            "text": "For habit spine notes (&#96;review: true&#96;), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run &#96;hugo new content/english/notes/my-note.md --kind notes-review&#96;. Rules: double-quote every &#96;front&#96;, &#96;back&#96;, and set name; inline &#96;card_sets: [\"Set\"]&#96;; block list for &#96;cards&#96;; put &#96;draft&#96; last; do not add &#96;| JoRap Notes&#96; to &#96;meta_title&#96;. Don't &#96;[[wikilink]]&#96; utility pages (Graph, Issues, Flashcards, Review, Random Duo) — use URLs; see [[Getting Started]]."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 31
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./archetypes/notes.md",
-        "signatures": {}
-      },
-      "score": 0.28977230191230774
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "# JoRap Notes"
-          },
-          {
-            "lineNumber": 2
-          },
-          {
-            "lineNumber": 3,
-            "text": "Personal blog and digital garden at [www.jorap.com](https://www.jorap.com). Built with Hugo, Tailwind CSS v4, and the &#96;jorap&#96; theme."
-          },
-          {
-            "lineNumber": 4
-          },
-          {
-            "lineNumber": 5,
-            "text": "**Docs:** [&#96;docs/README.md&#96;](docs/README.md) — product voice, design system, deploy, CMS, troubleshooting."
-          },
-          {
-            "lineNumber": 6
-          },
-          {
-            "lineNumber": 7,
-            "text": "## Requirements"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "Versions are pinned in [&#96;scripts/deploy-versions.json&#96;](scripts/deploy-versions.json). Local dev typically uses [mise](https://mise.jdx.dev/) (see [&#96;.mise.toml&#96;](.mise.toml))."
-          },
-          {
-            "lineNumber": 10
-          },
-          {
-            "lineNumber": 11,
-            "text": "| Tool | Version |"
-          },
-          {
-            "lineNumber": 12,
-            "text": "|------|---------|"
-          },
-          {
-            "lineNumber": 13,
-            "text": "| Hugo Extended | 0.163.3 |"
-          },
-          {
-            "lineNumber": 14,
-            "text": "| Node.js | 20+ |"
-          },
-          {
-            "lineNumber": 15,
-            "text": "| pnpm | 11.7.0 |"
-          },
-          {
-            "lineNumber": 16,
-            "text": "| Go | 1.24+ |"
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "## Quick start"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "&#96;&#96;&#96;bash"
-          },
-          {
-            "lineNumber": 21,
-            "text": "git clone https://github.com/jonathanrapusas/jorap.com.git"
-          },
-          {
-            "lineNumber": 22,
-            "text": "cd jorap.com"
-          },
-          {
-            "lineNumber": 23,
-            "text": "pnpm install"
-          },
-          {
-            "lineNumber": 24,
-            "text": "pnpm dev"
-          },
-          {
-            "lineNumber": 25,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "Open http://localhost:1313"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "## Common commands"
-          },
-          {
-            "lineNumber": 30
-          },
-          {
-            "lineNumber": 31,
-            "text": "| Command | What it does |"
-          },
-          {
-            "lineNumber": 32,
-            "text": "|---------|----------------|"
-          },
-          {
-            "lineNumber": 33,
-            "text": "| &#96;pnpm dev&#96; | Dev server (Tailwind watch + note dates + Hugo) |"
-          },
-          {
-            "lineNumber": 34,
-            "text": "| &#96;pnpm run deploy&#96; | Production build to &#96;public/&#96; |"
-          },
-          {
-            "lineNumber": 35,
-            "text": "| &#96;pnpm run serve&#96; | Serve &#96;public/&#96; locally |"
-          },
-          {
-            "lineNumber": 36,
-            "text": "| &#96;pnpm run preview&#96; | One-shot production Hugo server |"
-          },
-          {
-            "lineNumber": 37,
-            "text": "| &#96;pnpm run lint:notes&#96; | Garden wikilink lint via Hugo build |"
-          },
-          {
-            "lineNumber": 38,
-            "text": "| &#96;pnpm run lint:cards&#96; | Flashcard frontmatter lint |"
-          },
-          {
-            "lineNumber": 39,
-            "text": "| &#96;pnpm run format&#96; | Prettier |"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "## Project layout"
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "lineNumber": 43,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 44,
-            "text": "content/english/     Blog posts, notes garden, pages"
-          },
-          {
-            "lineNumber": 45,
-            "text": "layouts/             Site-specific Hugo templates"
-          },
-          {
-            "lineNumber": 46,
-            "text": "themes/jorap/        Active theme (tokens in data/theme.json)"
-          },
-          {
-            "lineNumber": 47,
-            "text": "assets/js/           Site JavaScript (graph, random notes, flashcards)"
-          },
-          {
-            "lineNumber": 48,
-            "text": "assets/css/          Site overrides (notes garden, a11y)"
-          },
-          {
-            "lineNumber": 49,
-            "text": "static/              _headers, _redirects (copied to public/ by Hugo)"
-          },
-          {
-            "lineNumber": 50,
-            "text": "scripts/             Build, deploy, and content tooling"
-          },
-          {
-            "lineNumber": 51,
-            "text": "docs/                Product, design system, deploy guides"
-          },
-          {
-            "lineNumber": 52,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 53
-          },
-          {
-            "lineNumber": 54,
-            "text": "## Content"
-          },
-          {
-            "lineNumber": 55
-          },
-          {
-            "lineNumber": 56,
-            "text": "- **Blog:** &#96;content/english/blog/&#96;"
-          },
-          {
-            "lineNumber": 57,
-            "text": "- **Notes garden:** &#96;content/english/notes/&#96;"
-          },
-          {
-            "lineNumber": 58,
-            "text": "- **Getting started:** &#96;content/english/notes/getting-started.md&#96;"
-          },
-          {
-            "lineNumber": 59
-          },
-          {
-            "lineNumber": 60,
-            "text": "New notes: &#96;hugo new content/english/notes/my-note.md&#96;"
-          },
-          {
-            "lineNumber": 61
-          },
-          {
-            "lineNumber": 62,
-            "text": "## Deploy"
-          },
-          {
-            "lineNumber": 63
-          },
-          {
-            "lineNumber": 64,
-            "text": "Production deploy is &#96;pnpm run deploy&#96;. Cloudflare Pages runs the same command (see [&#96;wrangler.toml&#96;](wrangler.toml)). Hugo writes to &#96;.cache&#96; (via &#96;--cacheDir&#96; in &#96;deployBuild.mjs&#96;) so Cloudflare's build cache can reuse it. One-time Pages setup (dashboard):"
-          },
-          {
-            "lineNumber": 65
-          },
-          {
-            "lineNumber": 66,
-            "text": "- **Settings → Build → Variables** — set &#96;NODE_VERSION&#96; and &#96;GO_VERSION&#96; (build-time vars; &#96;wrangler.toml [vars]&#96; are runtime-only). Hugo is pinned in [&#96;scripts/deploy-versions.json&#96;](scripts/deploy-versions.json)."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 66
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./README.md",
-        "signatures": {}
-      },
-      "score": 0.2891767919063568
-    }
-  ]
-}
+            "text": "      \"- key_concept — first paragraph: one sentence (t
+… (output truncated)
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the specification to gather details on Jorap notes.</details></think>
+Reviewing the specification to gather details on Jorap notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4349,51 +247,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__obsidian-vs-hugo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__obsidian-vs-hugo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
@@ -4404,7 +277,8 @@ I have enough context to write a comprehensive blog draft on Jorap notes.
 
 The existing technical guide will stay separate. This draft will explain the actual features and tools users can access. I'm following the jorap-voice skill format and weighing titles like `__jorap-notes-features.md`.
 
-I've settled on a feature-tour structure. The draft will contrast notes with blogs, then cover atomic claims, wikilinks, graph browsing, typed relationships, tools, flashcards, and differences from Obsidian or Notion.</details></think>
+I've settled on a feature-tour structure. The draft will contrast notes with blogs, then cover atomic claims, wikilinks, graph browsing, typed relationships, tools, flashcards, and differences from Obsidian or Notion.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4413,24 +287,15 @@ Writing a feature-focused draft separate from the hosting post — personal tone
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__jorap-notes-features.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__jorap-notes-features.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__jorap-notes-features.md 2>&1
 ```
@@ -4439,12 +304,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4488,7 +347,8 @@ are there better names for tweets
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants better names for "tweets" in the context of Note Relationships on their JoRap notes site.</details></think>
+The user wants better names for "tweets" in the context of Note Relationships on their JoRap notes site.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4497,10 +357,8 @@ Searching the codebase for how "tweets" are used and where they appear relative 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4606,21 +464,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -4705,3198 +554,44 @@ Result:
           },
           {
             "lineNumber": 17,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 17
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/note-tweets.html",
-        "signatures": {}
-      },
-      "score": 0.4875204563140869
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 43,
-            "text": "            \u003cdiv class=\"content notes-content mb-10\"\u003e"
-          },
-          {
-            "lineNumber": 44,
-            "text": "              {{ partial \"notes/render-content.html\" . }}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 46
-          },
-          {
-            "lineNumber": 47,
-            "text": "            {{ partial \"notes/note-tweets.html\" . }}"
-          },
-          {
-            "lineNumber": 48
-          },
-          {
-            "lineNumber": 49,
-            "text": "            {{ partial \"notes/note-flashcards.html\" . }}"
-          },
-          {
-            "lineNumber": 50
-          },
-          {
-            "lineNumber": 51,
-            "text": "            {{ with $outgoing }}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "              {{- if not $hideOutgoingCards -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "              \u003caside class=\"notes-outgoing border-divider mb-6 rounded border p-5\"\u003e"
-          },
-          {
-            "lineNumber": 54,
-            "text": "                \u003ch2 id=\"links-from-this-note\" class=\"h6 mb-3\"\u003eLinks from this Note\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 55,
-            "text": "                \u003cul class=\"notes-outgoing-list grid gap-3 sm:grid-cols-2\"\u003e"
-          },
-          {
-            "lineNumber": 56,
-            "text": "                  {{ range . }}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "                    {{ partial \"notes/note-link-card.html\" (dict \"Page\" .Page \"Href\" .Href \"Title\" .Label) }}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "                  {{ end }}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "                \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 60,
-            "text": "              \u003c/aside\u003e"
-          },
-          {
-            "lineNumber": 61,
-            "text": "              {{- end -}}"
-          },
-          {
-            "lineNumber": 62,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 63
-          },
-          {
-            "lineNumber": 64,
-            "text": "            {{ partial \"notes/see-also.html\" . }}"
-          },
-          {
-            "lineNumber": 65
-          },
-          {
-            "lineNumber": 66,
-            "text": "            {{ with $backlinks }}"
-          },
-          {
-            "lineNumber": 67,
-            "text": "              \u003caside class=\"notes-backlinks border-divider mt-6 rounded border p-5\"\u003e"
-          },
-          {
-            "lineNumber": 68,
-            "text": "                \u003ch2 id=\"backlinks\" class=\"h6 mb-3\"\u003eBacklinks\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 69,
-            "text": "                \u003cul class=\"notes-backlinks-list grid gap-3 sm:grid-cols-2\"\u003e"
-          },
-          {
-            "lineNumber": 70,
-            "text": "                  {{ range . }}"
-          },
-          {
-            "lineNumber": 71,
-            "text": "                    {{ partial \"notes/backlink-item.html\" . }}"
-          },
-          {
-            "lineNumber": 72,
-            "text": "                  {{ end }}"
-          },
-          {
-            "lineNumber": 73,
-            "text": "                \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 74,
-            "text": "              \u003c/aside\u003e"
-          },
-          {
-            "lineNumber": 75,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 76,
-            "text": "          \u003c/article\u003e"
-          },
-          {
-            "lineNumber": 77,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 78
-          },
-          {
-            "lineNumber": 79,
-            "text": "        \u003cdiv class=\"hidden lg:col-4 lg:block\"\u003e"
-          },
-          {
-            "lineNumber": 80,
-            "text": "          {{ if $hasToc }}"
-          },
-          {
-            "lineNumber": 81,
-            "text": "            \u003cdiv class=\"toc-wrapper sticky top-[100px]\"\u003e"
-          },
-          {
-            "lineNumber": 82,
-            "text": "              \u003cdiv class=\"table-of-content toc-links\"\u003e"
-          },
-          {
-            "lineNumber": 83,
-            "text": "                \u003cp class=\"mb-3 text-h5 font-semibold\"\u003e{{ T \"table_of_contents\" | default \"Table of Contents\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 84,
-            "text": "                \u003cdiv class=\"toc-scroll\"\u003e{{ $notesToc.html | safeHTML }}\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 85,
-            "text": "              \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 86,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 87,
-            "text": "          {{ end }}"
-          },
-          {
-            "lineNumber": 88,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 89,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 90
-          },
-          {
-            "lineNumber": 91,
-            "text": "      {{ partial \"blog/related-posts.html\" . }}"
-          },
-          {
-            "lineNumber": 92,
-            "text": "      {{ partial \"notes/random-unrelated-notes.html\" (dict \"Context\" . \"Scope\" \"notes\") }}"
-          },
-          {
-            "lineNumber": 93,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 94,
-            "text": "  \u003c/section\u003e"
-          },
-          {
-            "lineNumber": 95
-          },
-          {
-            "lineNumber": 96,
-            "text": "  {{ partial \"notes/preview-index.html\" . }}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 97
-          },
-          "startPosition": {
-            "line": 42
-          }
-        },
-        "relativeWorkspacePath": "./layouts/notes/single.html",
-        "signatures": {}
-      },
-      "score": 0.47929689288139343
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ define \"main\" }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  {{ $notesToc := partial \"notes/toc.html\" . }}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  {{ $hasToc := $notesToc.has }}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "  {{ $page := . }}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  {{ $backlinks := partial \"notes/backlinks.html\" . }}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  {{ $outgoing := partial \"notes/outgoing-links.html\" . }}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  {{ $hideOutgoingCards := partial \"notes/index-has-body-wikilinks.html\" . }}"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "  \u003csection class=\"section pt-7\"\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "    \u003cdiv class=\"container\"\u003e"
-          },
-          {
-            "lineNumber": 11,
-            "text": "      \u003cdiv class=\"row justify-center\"\u003e"
-          },
-          {
-            "lineNumber": 12,
-            "text": "        \u003cdiv class=\"lg:col-8\"\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "          \u003carticle\u003e"
-          },
-          {
-            "lineNumber": 14,
-            "text": "            {{ partial \"notes/local-graph.html\" . }}"
-          },
-          {
-            "lineNumber": 15
-          },
-          {
-            "lineNumber": 16,
-            "text": "            {{ partial \"notes/toolbar.html\" (dict \"Context\" . \"active\" (cond (eq .Params.slug \"okf-export\") \"okf\" \"note\")) }}"
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "            \u003cdiv class=\"notes-article-header mb-4 flex flex-wrap items-start justify-between gap-x-4 gap-y-3\"\u003e"
-          },
-          {
-            "lineNumber": 19,
-            "text": "              \u003ch1 class=\"article-title mb-0 min-w-0 flex-1\"\u003e{{ .Title }}\u003c/h1\u003e"
-          },
-          {
-            "lineNumber": 20,
-            "text": "              {{ partial \"notes/copy-markdown.html\" (dict \"Context\" .) }}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "            {{- $meta := partial \"notes/note-meta.html\" . -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "            {{- if ne (.Params.note_kind | default \"note\") \"meta\" -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "              \u003cdiv class=\"notes-single-meta text-ink-muted mb-4 flex flex-wrap items-center gap-3 text-sm\"\u003e"
-          },
-          {
-            "lineNumber": 26,
-            "text": "                \u003cspan\u003eCreated {{ $meta.CreatedDisplay }} · Updated {{ $meta.UpdatedDisplay }}\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "              \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "            {{- end -}}"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "            {{ with .Params.tags }}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "              {{ partial \"notes/tag-chips.html\" (dict \"Tags\" . \"ListClass\" \"mb-4 flex flex-wrap gap-2\") }}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "            {{ partial \"notes/note-issues-panel.html\" . }}"
-          },
-          {
-            "lineNumber": 35
-          },
-          {
-            "lineNumber": 36,
-            "text": "            {{ if $hasToc }}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "              \u003cdiv class=\"toc-wrapper border-divider mb-6 rounded border p-4 lg:hidden\"\u003e"
-          },
-          {
-            "lineNumber": 38,
-            "text": "                \u003cp class=\"mb-3 font-semibold\"\u003e{{ T \"table_of_contents\" | default \"Table of Contents\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 39,
-            "text": "                \u003cdiv class=\"table-of-content toc-links\"\u003e{{ $notesToc.html | safeHTML }}\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 40,
-            "text": "              \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 41,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "lineNumber": 43,
-            "text": "            \u003cdiv class=\"content notes-content mb-10\"\u003e"
-          },
-          {
-            "lineNumber": 44,
-            "text": "              {{ partial \"notes/render-content.html\" . }}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "            \u003c/div\u003e"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 46
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/notes/single.html",
-        "signatures": {}
-      },
-      "score": 0.41817501187324524
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Table of contents for notes — body headings from RawContent, plus page sections"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  (flashcards, outgoing links, backlinks, related posts, random note) when present."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $start := 2 -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $end := 5 -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $ordered := true -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $listTag := cond $ordered \"ol\" \"ul\" -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $skipIds := slice \"see-also\" -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $html := \"\" -}}"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $raw := partial \"notes/assembled-content.html\" $page -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $raw = replaceRE &#96;(?s)\\n## See also[\\s\\S]*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 15
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- $headings := slice -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- range $line := split $raw \"\\n\" -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- if findRE &#96;^#{2,5}\\s+&#96; $line -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    {{- $level := len (index (findRE &#96;^#{2,5}&#96; $line) 0) -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- if and (ge $level $start) (le $level $end) -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "      {{- $title := replaceRE &#96;^#{2,5}\\s+&#96; \"\" $line | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- $title = replaceRE &#96;\\[\\[([^\\]|#]+)(?:#[^\\]]+)?\\]\\]&#96; \"$1\" $title -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "      {{- $title = replaceRE &#96;[*_]&#96; \"\" $title -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "      {{- $title = replaceRE &#96;\\{#[^}]+\\}$&#96; \"\" $title | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "      {{- $title = $title | plainify | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "      {{- $id := anchorize $title -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      {{- if and $title (not (in $skipIds $id)) -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "        {{- $headings = $headings | append (dict \"level\" $level \"title\" $title \"id\" $id) -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "{{- $extras := slice -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "{{- if gt (len (partial \"notes/cards-for-page.html\" $page)) 0 -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "  {{- $extras = $extras | append (dict \"level\" 2 \"title\" \"Flashcards\" \"id\" \"flashcards\") -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "{{- with $page.Params.tweets -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  {{- if gt (len .) 0 -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    {{- $extras = $extras | append (dict \"level\" 2 \"title\" \"Tweets\" \"id\" \"tweets\") -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "{{- $outgoing := partial \"notes/outgoing-links.html\" $page | default slice -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "{{- if gt (len $outgoing) 0 -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  {{- $extras = $extras | append (dict \"level\" 2 \"title\" \"Links from this Note\" \"id\" \"links-from-this-note\") -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "{{- $backlinkIndex := partialCached \"notes/backlinks-index.html\" site \"backlinks-index-v5\" -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "{{- $backlinks := index $backlinkIndex $page.RelPermalink | default slice -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "{{- if gt (len $backlinks) 0 -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "  {{- $extras = $extras | append (dict \"level\" 2 \"title\" \"Backlinks\" \"id\" \"backlinks\") -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 50
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/toc.html",
-        "signatures": {}
-      },
-      "score": 0.3995361328125
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ define \"main\" }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  {{ partial \"notes/lint-note-issues.html\" . }}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  {{ partial \"page-header\" . }}"
-          },
-          {
-            "lineNumber": 4
-          },
-          {
-            "lineNumber": 5,
-            "text": "  \u003csection class=\"section notes-index\"\u003e"
-          },
-          {
-            "lineNumber": 6,
-            "text": "    \u003cdiv class=\"container\"\u003e"
-          },
-          {
-            "lineNumber": 7,
-            "text": "      \u003cdiv class=\"row justify-center\"\u003e"
-          },
-          {
-            "lineNumber": 8,
-            "text": "        \u003cdiv class=\"lg:col-12\"\u003e"
-          },
-          {
-            "lineNumber": 9,
-            "text": "          {{ partial \"notes/toolbar.html\" (dict \"Context\" . \"active\" \"list\") }}"
-          },
-          {
-            "lineNumber": 10
-          },
-          {
-            "lineNumber": 11,
-            "text": "          {{- $page := . -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "          {{- if or $page.Description $page.Content -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "            \u003cdiv class=\"notes-index-intro content notes-content mb-8 max-w-[70ch]\"\u003e"
-          },
-          {
-            "lineNumber": 14,
-            "text": "              {{- with $page.Description -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "                \u003cp class=\"notes-index-lede text-ink-muted mb-4\"\u003e{{ . }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 16,
-            "text": "              {{- end -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "              {{- with $page.Content -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "                {{ partial \"notes/render-content.html\" (dict \"Page\" $page \"BodyOnly\" true) }}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "              {{- end -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 21,
-            "text": "          {{- end -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 23,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "      \u003cdiv class=\"notes-index-discover mb-10 grid gap-8\"\u003e"
-          },
-          {
-            "lineNumber": 26,
-            "text": "        {{ partial \"notes/featured-random-note.html\" . }}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "        {{ partial \"notes/recent-new.html\" (dict \"Context\" . \"Limit\" 6) }}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "      \u003cdiv class=\"row justify-center\"\u003e"
-          },
-          {
-            "lineNumber": 31,
-            "text": "        \u003cdiv class=\"lg:col-12\"\u003e"
-          },
-          {
-            "lineNumber": 32,
-            "text": "          {{- $notes := partial \"notes/pages.html\" . -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 32
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/notes/list.html",
-        "signatures": {}
-      },
-      "score": 0.3802739381790161
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 111,
-            "text": "              \u003cspan"
-          },
-          {
-            "lineNumber": 112,
-            "text": "                class=\"notes-list-count text-ink-muted ms-auto shrink-0 text-sm tabular-nums whitespace-nowrap\""
-          },
-          {
-            "lineNumber": 113,
-            "text": "                data-notes-count"
-          },
-          {
-            "lineNumber": 114,
-            "text": "                data-notes-total=\"{{ len $notes }}\""
-          },
-          {
-            "lineNumber": 115,
-            "text": "                aria-live=\"polite\"\u003e"
-          },
-          {
-            "lineNumber": 116,
-            "text": "                {{ len $notes }} notes"
-          },
-          {
-            "lineNumber": 117,
-            "text": "              \u003c/span\u003e"
-          },
-          {
-            "lineNumber": 118,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 119,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 120
-          },
-          {
-            "lineNumber": 121,
-            "text": "          \u003cdiv class=\"row notes-grid\" data-notes-grid\u003e"
-          },
-          {
-            "lineNumber": 122,
-            "text": "            {{ range $notes }}"
-          },
-          {
-            "lineNumber": 123,
-            "text": "              {{- $rels := partial \"notes/relationship-types.html\" . -}}"
-          },
-          {
-            "lineNumber": 124,
-            "text": "              {{- $searchBits := slice .Title (.Description | default \"\") -}}"
-          },
-          {
-            "lineNumber": 125,
-            "text": "              {{- $blurb := partial \"notes/note-blurb.html\" (dict \"Page\" .) -}}"
-          },
-          {
-            "lineNumber": 126,
-            "text": "              {{- with $blurb -}}"
-          },
-          {
-            "lineNumber": 127,
-            "text": "                {{- $searchBits = $searchBits | append . -}}"
-          },
-          {
-            "lineNumber": 128,
-            "text": "              {{- end -}}"
-          },
-          {
-            "lineNumber": 129,
-            "text": "              {{- range (.Params.tags | default slice) -}}"
-          },
-          {
-            "lineNumber": 130,
-            "text": "                {{- $searchBits = $searchBits | append . -}}"
-          },
-          {
-            "lineNumber": 131,
-            "text": "              {{- end -}}"
-          },
-          {
-            "lineNumber": 132,
-            "text": "              {{- range (.Params.aliases | default slice) -}}"
-          },
-          {
-            "lineNumber": 133,
-            "text": "                {{- $searchBits = $searchBits | append . -}}"
-          },
-          {
-            "lineNumber": 134,
-            "text": "              {{- end -}}"
-          },
-          {
-            "lineNumber": 135,
-            "text": "              {{- $tagSlugs := slice -}}"
-          },
-          {
-            "lineNumber": 136,
-            "text": "              {{- range (.Params.tags | default slice) -}}"
-          },
-          {
-            "lineNumber": 137,
-            "text": "                {{- $tagSlugs = $tagSlugs | append (. | urlize) -}}"
-          },
-          {
-            "lineNumber": 138,
-            "text": "              {{- end -}}"
-          },
-          {
-            "lineNumber": 139,
-            "text": "              {{- $categorySlugs := slice -}}"
-          },
-          {
-            "lineNumber": 140,
-            "text": "              {{- range (.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 141,
-            "text": "                {{- $categorySlugs = $categorySlugs | append (. | urlize) -}}"
-          },
-          {
-            "lineNumber": 142,
-            "text": "              {{- end -}}"
-          },
-          {
-            "lineNumber": 143,
-            "text": "              \u003cdiv"
-          },
-          {
-            "lineNumber": 144,
-            "text": "                class=\"md:col-6 lg:col-4 mb-8 flex notes-grid-item\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 144
-          },
-          "startPosition": {
-            "line": 110
-          }
-        },
-        "relativeWorkspacePath": "./layouts/notes/list.html",
-        "signatures": {}
-      },
-      "score": 0.34117066860198975
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $bodyOnly := false -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{- if reflect.IsMap . -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "  {{- $page = .Page -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  {{- $bodyOnly = .BodyOnly | default false -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $class := site.Params.notes.wikilink_class | default \"wikilink\" -}}"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $raw := cond $bodyOnly $page.RawContent (partial \"notes/assembled-content.html\" $page) -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $raw = replaceRE &#96;(?s)\\n## See also[\\s\\S]*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $content := $page.RenderString $raw -}}"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- /* Typographer may curl apostrophes inside [[wikilinks]] before we replace them */ -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- $content = replace $content \"\\u2019\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- $content = replace $content \"\\u2018\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- $content = replace $content \"\u0026rsquo;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "{{- $content = replace $content \"\u0026#8217;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- $content = replace $content \"\u0026apos;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "{{- /* Keep inline code / pre blocks literal (e.g. &#96;[[wikilinks]]&#96; in Getting Started) */ -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "{{- $protected := slice -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- $blocks := findRE &#96;(?s)\u003c(?:code|pre)[^\u003e]*\u003e.*?\u003c/(?:code|pre)\u003e&#96; $content -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "{{- range $i, $block := $blocks -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  {{- $token := printf \"WIKILINK-PROTECT-%d-END\" $i -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- $protected = $protected | append (dict \"token\" $token \"block\" $block) -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  {{- $content = replace $content $block $token -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 32
-          },
-          {
-            "lineNumber": 33,
-            "text": "{{- /* Resolve each [[wikilink]] via the link registry (case-insensitive keys) */ -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "{{- $links := findRE &#96;\\[\\[[^\\]|]+\\]\\]&#96; $content -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "{{- $links = union $links (findRE &#96;\\[\\[[^\\]|]+#[^\\]|]+\\]\\]&#96; $content) -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "{{- $seen := dict -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "{{- range $links -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "  {{- $full := . -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 38
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
-        "signatures": {}
-      },
-      "score": 0.3405248522758484
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 21,
-            "text": "\u003carticle"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  class=\"notes-card notes-card--interactive border-divider relative flex h-full w-full flex-col overflow-hidden rounded-xl border bg-elevated p-5 shadow-sm transition-[box-shadow,border-color] duration-200 ease-out motion-reduce:transition-none\"\u003e"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  \u003ca"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    class=\"notes-card__overlay\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "    href=\"{{ $href }}\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "    data-wikilink-preview=\"{{ $page.RelPermalink }}\""
-          },
-          {
-            "lineNumber": 27,
-            "text": "    aria-label=\"{{ $title }}\"\u003e\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  {{ $headingOpen }}{{ $title }}{{ $headingClose }}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- if $body -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    \u003cp class=\"notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none\"\u003e{{ $body }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  {{- else if $showDescription -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "    {{- with partial \"notes/note-blurb.html\" (dict \"Page\" $page \"DescriptionOnly\" true) -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "      \u003cp class=\"notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none\"\u003e{{ . }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 34,
-            "text": "    {{- else -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      \u003cdiv class=\"notes-card__spacer relative z-[1] flex-1 pointer-events-none\" aria-hidden=\"true\"\u003e\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "  {{- with $shared -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "    \u003cp class=\"notes-card__shared text-ink-muted relative z-[1] mt-3 text-xs pointer-events-none\"\u003e"
-          },
-          {
-            "lineNumber": 40,
-            "text": "      \u003cspan class=\"notes-card__shared-label font-medium\"\u003eShared:\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 41,
-            "text": "      {{ delimit (first 3 .) \", \" }}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "    \u003c/p\u003e"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "  {{- if $showTags -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "    {{- with $page.Params.tags -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "      {{- $tags := . -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "      {{- if gt $tagLimit 0 -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "        {{- $tags = first $tagLimit . -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "      {{ partial \"notes/tag-chips.html\" (dict"
-          },
-          {
-            "lineNumber": 51,
-            "text": "        \"Tags\" $tags"
-          },
-          {
-            "lineNumber": 52,
-            "text": "        \"ListClass\" \"notes-card__tags relative z-[2] mt-auto flex flex-wrap gap-2 pt-3\""
-          },
-          {
-            "lineNumber": 53,
-            "text": "        \"SizeClass\" \"text-xs\""
-          },
-          {
-            "lineNumber": 54,
-            "text": "        \"PadClass\" \"px-2 py-0.5\""
-          },
-          {
-            "lineNumber": 55,
-            "text": "      ) }}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "\u003c/article\u003e"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 58
-          },
-          "startPosition": {
-            "line": 20
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/note-card.html",
-        "signatures": {}
-      },
-      "score": 0.33917561173439026
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Cards for one note page: frontmatter cards array, legacy card_front/back,"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  optional lead-line fallback, and {{\u003c card \u003e}} shortcodes in the body."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Returns a slice of dicts: front, back, kind (frontmatter|legacy|lead|shortcode)."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $cards := slice -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $body := $page.RawContent | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $shortcodePattern := &#96;\\{\\{[%\u003c]\\s*card\\s+front=\"([^\"]+)\"\\s+back=\"([^\"]+)\"\\s*\u003e\\}\\}&#96; -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $leadPattern := &#96;^\\*\\*([^*]+)\\*\\*\\s*(?:=\\s*|—\\s*|-\\s*)(.+)$&#96; -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $lines := split $body \"\\n\" -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $firstLine := \"\" -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- if gt (len $lines) 0 -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- $firstLine = index $lines 0 -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- with $page.Params.cards -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- range . -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    {{- $front := .front -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $back := .back -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- if and $front $back -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- $sets := partial \"notes/card-sets.html\" (dict \"Page\" $page \"Card\" .) -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "      {{- $cards = $cards | append (dict \"front\" $front \"back\" $back \"kind\" \"frontmatter\" \"sets\" $sets) -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "{{- if eq (len $cards) 0 -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- $front := $page.Params.card_front -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  {{- $back := $page.Params.card_back -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  {{- if not $front -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "    {{- $leadMatches := findRESubmatch $leadPattern $firstLine -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    {{- with index $leadMatches 0 -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "      {{- $front = index . 1 -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      {{- if not $back -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "        {{- $back = index . 2 -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "  {{- if and $front $back -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "    {{- $kind := \"legacy\" -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "    {{- if not $page.Params.card_front -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "      {{- $kind = \"lead\" -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "    {{- $sets := partial \"notes/card-sets.html\" (dict \"Page\" $page) -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "    {{- $cards = $cards | append (dict \"front\" $front \"back\" $back \"kind\" $kind \"sets\" $sets) -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 49
-          },
-          {
-            "lineNumber": 50,
-            "text": "{{- range findRESubmatch $shortcodePattern $body -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- $front := index . 1 -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  {{- $back := index . 2 -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 52
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/cards-for-page.html",
-        "signatures": {}
-      },
-      "score": 0.3325706124305725
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 36,
-            "text": "{{- $seen := dict -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "{{- range $links -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "  {{- $full := . -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  {{- if index $seen $full -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "  {{- $seen = merge $seen (dict $full true) -}}"
-          },
-          {
-            "lineNumber": 43
-          },
-          {
-            "lineNumber": 44,
-            "text": "  {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" $full -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  {{- $target := $inner -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "  {{- $anchor := \"\" -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "  {{- if strings.Contains $inner \"#\" -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "    {{- $hashParts := split $inner \"#\" -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "    {{- $target = index $hashParts 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "    {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 52
-          },
-          {
-            "lineNumber": 53,
-            "text": "  {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $target) -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "  {{- with $resolved.Page -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "    {{- $href := .RelPermalink -}}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "    {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "      {{- $href = printf \"%s#%s\" $href $anchor -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "    {{- $text := $target -}}"
-          },
-          {
-            "lineNumber": 60,
-            "text": "    {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 61,
-            "text": "      {{- $text = $anchor -}}"
-          },
-          {
-            "lineNumber": 62,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 63,
-            "text": "    {{- $link := printf &#96;\u003ca href=\"%s\" class=\"%s\" data-wikilink-preview=\"%s\"\u003e%s\u003c/a\u003e&#96; $href $class .RelPermalink $text -}}"
-          },
-          {
-            "lineNumber": 64,
-            "text": "    {{- $content = replace $content $full $link -}}"
-          },
-          {
-            "lineNumber": 65,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 66,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 67
-          },
-          {
-            "lineNumber": 68,
-            "text": "{{- /* Unresolved wikilinks and deprecated [[target|label]] syntax */ -}}"
-          },
-          {
-            "lineNumber": 69,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported — use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
-          },
-          {
-            "lineNumber": 70,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"No matching note for this wikilink\"\u003e$1\u003c/span\u003e&#96; $class) $content -}}"
-          },
-          {
-            "lineNumber": 71
-          },
-          {
-            "lineNumber": 72,
-            "text": "{{- range $protected -}}"
-          },
-          {
-            "lineNumber": 73,
-            "text": "  {{- $content = replace $content .token .block -}}"
-          },
-          {
-            "lineNumber": 74,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 75
-          },
-          {
-            "lineNumber": 76,
-            "text": "{{- $content | safeHTML -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 76
-          },
-          "startPosition": {
-            "line": 35
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
-        "signatures": {}
-      },
-      "score": 0.3300614058971405
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Rebuild note markdown from frontmatter fields + remaining body."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Used for render, wikilink scans, TOC, and graph analytics."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $parts := slice -}}"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- with or $page.Params.description $page.Params.summary -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- $parts = $parts | append (strings.TrimSpace .) -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 11
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- with $page.Params.key_concept -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  {{- $parts = $parts | append (printf \"## Key Concept\\n\\n%s\" (strings.TrimSpace .)) -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 15
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- with $page.Params.examples -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  {{- $bullets := slice -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- range . -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    {{- if strings.TrimSpace . -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "      {{- $bullets = $bullets | append (printf \"- %s\" .) -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  {{- if $bullets -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    {{- $parts = $parts | append (printf \"## Examples\\n\\n%s\" (delimit $bullets \"\\n\")) -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "{{- with $page.Params.relationships -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- $rows := slice \"| Relationship | Wikilink | Reason |\" \"|--------------|----------|--------|\" -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  {{- range . -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {{- $rows = $rows | append (printf \"| %s | %s | %s |\" .type .wikilink .reason) -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  {{- $parts = $parts | append (printf \"## Note Relationships\\n\\n%s\" (delimit $rows \"\\n\")) -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 35
-          },
-          {
-            "lineNumber": 36,
-            "text": "{{- $body := $page.RawContent | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "{{- if and $body (ne $body \"-\") -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "  {{- $parts = $parts | append $body -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "{{- return (delimit $parts \"\\n\\n\") -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 41
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/assembled-content.html",
-        "signatures": {}
-      },
-      "score": 0.32824280858039856
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $limit := site.Params.blog.related_notes_limit | default 5 -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{- $related := partial \"notes/related-notes.html\" (dict \"Context\" $page \"Limit\" $limit \"MinSharedTags\" 2) -}}"
-          },
-          {
-            "lineNumber": 4
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- with $related -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  \u003cdiv class=\"section pb-0\"\u003e"
-          },
-          {
-            "lineNumber": 7,
-            "text": "    \u003ch2 id=\"related-notes\" class=\"h3 heading-title-case mb-2\"\u003e{{ T \"related_notes\" }}\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 8,
-            "text": "    \u003cp class=\"text-ink-muted mb-6 text-sm\"\u003e{{ T \"related_notes_lede\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 9,
-            "text": "    \u003cdiv class=\"row\"\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "      {{- range . -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "        {{- $note := .Page -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "        \u003cdiv class=\"md:col-6 mb-8 flex lg:col-4\"\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "          {{ partial \"notes/note-card.html\" (dict"
-          },
-          {
-            "lineNumber": 14,
-            "text": "            \"Page\" $note"
-          },
-          {
-            "lineNumber": 15,
-            "text": "            \"Body\" (partial \"notes/note-blurb.html\" (dict \"Page\" $note \"DescriptionOnly\" true))"
-          },
-          {
-            "lineNumber": 16,
-            "text": "            \"HeadingLevel\" 3"
-          },
-          {
-            "lineNumber": 17,
-            "text": "            \"HeadingClass\" \"h5\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "            \"Shared\" .Shared"
-          },
-          {
-            "lineNumber": 19,
-            "text": "            \"ShowTags\" false"
-          },
-          {
-            "lineNumber": 20,
-            "text": "          ) }}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 25,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 25
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/blog/related-notes.html",
-        "signatures": {}
-      },
-      "score": 0.31946563720703125
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 42,
-            "text": "          {{- if gt $data.notesWithIssues 0 -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "            \u003cdiv class=\"notes-issues-index space-y-6\"\u003e"
-          },
-          {
-            "lineNumber": 44,
-            "text": "              {{- range $notes -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "                {{- $note := .Page -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "                \u003csection class=\"notes-issues-group border-divider rounded border p-5\" id=\"{{ $note.File.ContentBaseName }}\"\u003e"
-          },
-          {
-            "lineNumber": 47,
-            "text": "                  \u003ch2 class=\"h6 mb-3\"\u003e"
-          },
-          {
-            "lineNumber": 48,
-            "text": "                    \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ $note.RelPermalink }}\"\u003e{{ $note.Title }}\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 49,
-            "text": "                    \u003cspan class=\"text-ink-muted font-normal\"\u003e({{ .total }})\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 50,
-            "text": "                  \u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 51,
-            "text": "                  \u003cul class=\"notes-issues__list mb-0 list-none space-y-2 p-0 text-sm\"\u003e"
-          },
-          {
-            "lineNumber": 52,
-            "text": "                    {{- range .broken -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "                      \u003cli class=\"notes-issues__item notes-issues__item--broken\"\u003e"
-          },
-          {
-            "lineNumber": 54,
-            "text": "                        \u003cstrong\u003eMissing note:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 55,
-            "text": "                        \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no matching page."
-          },
-          {
-            "lineNumber": 56,
-            "text": "                      \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 57,
-            "text": "                    {{- end -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "                    {{- range .pipe -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "                      \u003cli class=\"notes-issues__item notes-issues__item--pipe\"\u003e"
-          },
-          {
-            "lineNumber": 60,
-            "text": "                        \u003cstrong\u003ePipe wikilink:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 61,
-            "text": "                        \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
-          },
-          {
-            "lineNumber": 62,
-            "text": "                      \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 63,
-            "text": "                    {{- end -}}"
-          },
-          {
-            "lineNumber": 64,
-            "text": "                    {{- range .unlinked -}}"
-          },
-          {
-            "lineNumber": 65,
-            "text": "                      \u003cli class=\"notes-issues__item notes-issues__item--unlinked\"\u003e"
-          },
-          {
-            "lineNumber": 66,
-            "text": "                        \u003cstrong\u003eUnlinked mention:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 67,
-            "text": "                        \"{{ .mention }}\" →"
-          },
-          {
-            "lineNumber": 68,
-            "text": "                        \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ .suggestPage.RelPermalink }}\"\u003e\u003ccode\u003e[[{{ .suggestTitle }}]]\u003c/code\u003e\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 69,
-            "text": "                      \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 70,
-            "text": "                    {{- end -}}"
-          },
-          {
-            "lineNumber": 71,
-            "text": "                    {{- range .structure -}}"
-          },
-          {
-            "lineNumber": 72,
-            "text": "                      {{- if eq .type \"missingTable\" -}}"
-          },
-          {
-            "lineNumber": 73,
-            "text": "                        "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 24,
-            "line": 72
-          },
-          "startPosition": {
-            "line": 41
-          }
-        },
-        "relativeWorkspacePath": "./layouts/notes/issues.html",
-        "signatures": {}
-      },
-      "score": 0.31757938861846924
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 143,
-            "text": "              \u003cdiv"
-          },
-          {
-            "lineNumber": 144,
-            "text": "                class=\"md:col-6 lg:col-4 mb-8 flex notes-grid-item\""
-          },
-          {
-            "lineNumber": 145,
-            "text": "                data-note-tags=\"{{ delimit $tagSlugs \" \" }}\""
-          },
-          {
-            "lineNumber": 146,
-            "text": "                data-note-categories=\"{{ delimit $categorySlugs \" \" }}\""
-          },
-          {
-            "lineNumber": 147,
-            "text": "                data-note-rel-extends=\"{{ $rels.extends }}\""
-          },
-          {
-            "lineNumber": 148,
-            "text": "                data-note-rel-contradicts=\"{{ $rels.contradicts }}\""
-          },
-          {
-            "lineNumber": 149,
-            "text": "                data-note-rel-implements=\"{{ $rels.implements }}\""
-          },
-          {
-            "lineNumber": 150,
-            "text": "                data-note-rel-alternative=\"{{ $rels.alternative }}\""
-          },
-          {
-            "lineNumber": 151,
-            "text": "                data-note-rel-index=\"{{ partial \"notes/is-index-page.html\" . }}\""
-          },
-          {
-            "lineNumber": 152,
-            "text": "                data-note-search=\"{{ delimit $searchBits \" \" | lower }}\"\u003e"
-          },
-          {
-            "lineNumber": 153,
-            "text": "                {{ partial \"notes/note-card.html\" (dict"
-          },
-          {
-            "lineNumber": 154,
-            "text": "                  \"Page\" ."
-          },
-          {
-            "lineNumber": 155,
-            "text": "                  \"Body\" (partial \"notes/note-blurb.html\" (dict \"Page\" . \"DescriptionOnly\" true))"
-          },
-          {
-            "lineNumber": 156,
-            "text": "                  \"HeadingLevel\" 2"
-          },
-          {
-            "lineNumber": 157,
-            "text": "                  \"HeadingClass\" \"h5\""
-          },
-          {
-            "lineNumber": 158,
-            "text": "                  \"ShowTags\" true"
-          },
-          {
-            "lineNumber": 159,
-            "text": "                  \"TagLimit\" 4"
-          },
-          {
-            "lineNumber": 160,
-            "text": "                ) }}"
-          },
-          {
-            "lineNumber": 161,
-            "text": "              \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 162,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 163,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 164
-          },
-          {
-            "lineNumber": 165,
-            "text": "          \u003cp class=\"notes-filter-empty text-ink-muted hidden text-sm\" data-notes-filter-empty\u003e"
-          },
-          {
-            "lineNumber": 166,
-            "text": "            No notes match this filter."
-          },
-          {
-            "lineNumber": 167,
-            "text": "          \u003c/p\u003e"
-          },
-          {
-            "lineNumber": 168,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 169,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 170,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 171,
-            "text": "  \u003c/section\u003e"
-          },
-          {
-            "lineNumber": 172
-          },
-          {
-            "lineNumber": 173,
-            "text": "  {{ partial \"essentials/fingerprint-asset.html\" (dict \"src\" \"js/notes-list.js\" \"defer\" true) }}"
-          },
-          {
-            "lineNumber": 174,
-            "text": "  {{ partial \"essentials/fingerprint-asset.html\" (dict \"src\" \"js/notes-random-core.js\" \"defer\" true) }}"
-          },
-          {
-            "lineNumber": 175,
-            "text": "  {{ partial \"essentials/fingerprint-asset.html\" (dict \"src\" \"js/notes-featured-random.js\" \"defer\" true) }}"
-          },
-          {
-            "lineNumber": 176,
-            "text": "{{ end }}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 176
-          },
-          "startPosition": {
-            "line": 142
-          }
-        },
-        "relativeWorkspacePath": "./layouts/notes/list.html",
-        "signatures": {}
-      },
-      "score": 0.3121474087238312
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Recent updated notes. Dict: Context (page), Limit (optional, default site param)."
-          },
-          {
-            "lineNumber": 3,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $ctx := . -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $limit := site.Params.notes.recent_updates_limit | default 12 | int -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- if reflect.IsMap . -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  {{- $ctx = .Context -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  {{- with .Limit -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "    {{- $limit = . | int -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $notes := partial \"notes/pages.html\" $ctx -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $entries := slice -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- range $notes -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- $dates := partial \"notes/file-dates.html\" . -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  {{- $entries = $entries | append (dict \"Page\" . \"Dates\" $dates) -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- $recent := first $limit (sort $entries \"Dates.Updated\" \"desc\") -}}"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- with $recent -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  \u003csection class=\"notes-recent\"\u003e"
-          },
-          {
-            "lineNumber": 22,
-            "text": "    \u003ch2 class=\"h5 mb-1\"\u003eRecent updates\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    \u003cp class=\"text-ink-muted mb-3 text-sm\"\u003eNotes touched most recently.\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    \u003cul class=\"notes-recent-list grid gap-2 sm:grid-cols-2 lg:grid-cols-3\"\u003e"
-          },
-          {
-            "lineNumber": 25,
-            "text": "      {{- range . -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "        {{- $page := .Page -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "        {{- $dates := .Dates -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "        \u003cli class=\"notes-recent-item\"\u003e"
-          },
-          {
-            "lineNumber": 29,
-            "text": "          \u003ca class=\"notes-recent-link\" href=\"{{ $page.RelPermalink }}\" data-wikilink-preview=\"{{ $page.RelPermalink }}\"\u003e"
-          },
-          {
-            "lineNumber": 30,
-            "text": "            \u003cspan class=\"notes-recent-title\"\u003e{{ $page.Title }}\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 31,
-            "text": "            \u003cspan class=\"notes-recent-meta text-ink-muted\"\u003e{{ $dates.UpdatedShort }}\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 32,
-            "text": "          \u003c/a\u003e"
-          },
-          {
-            "lineNumber": 33,
-            "text": "        \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 34,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 36,
-            "text": "  \u003c/section\u003e"
-          },
-          {
-            "lineNumber": 37,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 37
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/recent-updated.html",
-        "signatures": {}
-      },
-      "score": 0.3121126890182495
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Pages under content/english/notes/."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Default: garden notes only (excludes utility/meta surfaces)."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Pass IncludeUtility: true for wikilink registry (graph, issues, flashcards, etc.)."
-          },
-          {
-            "lineNumber": 5,
-            "text": "  Pass ExcludeKinds to omit additional note_kind values."
-          },
-          {
-            "lineNumber": 6,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $includeUtility := false -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $excludeKinds := slice -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- if reflect.IsMap . -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $includeUtility = .IncludeUtility | default false -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- with .ExcludeKinds -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    {{- $excludeKinds = . -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $pages := slice -}}"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- range site.RegularPages -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- $dir := .File.Dir | default \"\" -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- if not (or (hasPrefix $dir \"notes/\") (eq $dir \"notes/\")) -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  {{- if .Draft -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- if and (not $includeUtility) (partial \"notes/is-utility-page.html\" .) -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  {{- $kind := .Params.note_kind | default \"note\" -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- if in $excludeKinds $kind -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  {{- $pages = $pages | append . -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "{{- return $pages -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 35
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/pages.html",
-        "signatures": {}
-      },
-      "score": 0.3073371648788452
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ define \"main\" }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  {{ partial \"page-header\" . }}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  {{ partial \"notes/dev-banner\" . }}"
-          },
-          {
-            "lineNumber": 4
-          },
-          {
-            "lineNumber": 5,
-            "text": "  \u003csection class=\"section\"\u003e"
-          },
-          {
-            "lineNumber": 6,
-            "text": "    \u003cdiv class=\"container\"\u003e"
-          },
-          {
-            "lineNumber": 7,
-            "text": "      \u003cdiv class=\"row gx-5\"\u003e"
-          },
-          {
-            "lineNumber": 8,
-            "text": "        \u003cdiv class=\"lg:col-8\"\u003e"
-          },
-          {
-            "lineNumber": 9,
-            "text": "          {{ $drafts := where (where site.Pages \"Section\" \"blog\") \"Draft\" true }}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "          {{ $drafts = partial \"sort-featured-first.html\" (dict \"Pages\" $drafts \"Sort\" \"date\") }}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "          {{ $paginator := .Paginate $drafts }}"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "          {{ if eq (len $paginator.Pages) 0 }}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "            \u003cp class=\"text-ink-muted\"\u003eNo draft posts yet. Add a file under \u003ccode\u003econtent/english/blog/\u003c/code\u003e with \u003ccode\u003edraft: true\u003c/code\u003e.\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 15,
-            "text": "          {{ else }}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "            \u003cdiv class=\"row\"\u003e"
-          },
-          {
-            "lineNumber": 17,
-            "text": "              {{ range $paginator.Pages }}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "                \u003cdiv class=\"md:col-6 mb-14\"\u003e"
-          },
-          {
-            "lineNumber": 19,
-            "text": "                  {{ partial \"components/blog-card\" . }}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "                \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 21,
-            "text": "              {{ end }}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 23,
-            "text": "            {{ partial \"components/pagination.html\" . }}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "          {{ end }}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 26,
-            "text": "        \u003cdiv class=\"lg:col-4\"\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "          {{ $widget := site.Params.widgets.sidebar }}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "          {{ partialCached \"widgets/widget-wrapper\" (dict \"Widgets\" $widget \"Scope\" .) }}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 30,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  \u003c/section\u003e"
-          },
-          {
-            "lineNumber": 33,
-            "text": "{{ end }}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 33
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/drafts/list.html",
-        "signatures": {}
-      },
-      "score": 0.30230459570884705
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Clickable note card with tag chips that link separately."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Dict: Page (required), Href, Title, Body, Shared, ShowDescription, ShowTags,"
-          },
-          {
-            "lineNumber": 4,
-            "text": "        HeadingLevel (default 3), HeadingClass (default \"h6\"), HeadingExtraClass (default \"font-medium\")."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $card := . -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $page := $card.Page -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $href := $card.Href | default $page.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $title := $card.Title | default $page.Title -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $body := $card.Body -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $shared := $card.Shared -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $showDescription := $card.ShowDescription | default false -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $showTags := $card.ShowTags | default false -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $tagLimit := $card.TagLimit | default 0 | int -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $headingLevel := $card.HeadingLevel | default 3 -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- $headingClass := $card.HeadingClass | default \"h6\" -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- $headingExtraClass := $card.HeadingExtraClass | default \"font-medium\" -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- $headingTag := printf \"h%d\" $headingLevel -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- $headingOpen := printf \"\u003c%s class=\\\"%s notes-card__title relative z-[1] mb-2 %s pointer-events-none\\\"\u003e\" $headingTag $headingClass $headingExtraClass | safeHTML -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- $headingClose := printf \"\u003c/%s\u003e\" $headingTag | safeHTML -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "\u003carticle"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  class=\"notes-card notes-card--interactive border-divider relative flex h-full w-full flex-col overflow-hidden rounded-xl border bg-elevated p-5 shadow-sm transition-[box-shadow,border-color] duration-200 ease-out motion-reduce:transition-none\"\u003e"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 22
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/note-card.html",
-        "signatures": {}
-      },
-      "score": 0.3009209930896759
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Recent new notes. Dict: Context (page), Limit (optional, default site param)."
-          },
-          {
-            "lineNumber": 3,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $ctx := . -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $limit := site.Params.notes.recent_new_limit | default 12 | int -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- if reflect.IsMap . -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  {{- $ctx = .Context -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  {{- with .Limit -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "    {{- $limit = . | int -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $notes := partial \"notes/pages.html\" $ctx -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $entries := slice -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- range $notes -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- $dates := partial \"notes/file-dates.html\" . -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  {{- $entries = $entries | append (dict \"Page\" . \"Dates\" $dates) -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- $recent := first $limit (sort $entries \"Dates.Created\" \"desc\") -}}"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- with $recent -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  \u003csection class=\"notes-recent\"\u003e"
-          },
-          {
-            "lineNumber": 22,
-            "text": "    \u003ch2 class=\"h5 mb-1\"\u003eNew notes\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    \u003cp class=\"text-ink-muted mb-3 text-sm\"\u003eLatest additions to the garden.\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    \u003cul class=\"notes-recent-list grid gap-3 sm:grid-cols-2 lg:grid-cols-3\"\u003e"
-          },
-          {
-            "lineNumber": 25,
-            "text": "      {{- range . -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "        {{- $page := .Page -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "        \u003cli class=\"notes-recent-item flex\"\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "          {{ partial \"notes/note-card.html\" (dict"
-          },
-          {
-            "lineNumber": 29,
-            "text": "            \"Page\" $page"
-          },
-          {
-            "lineNumber": 30,
-            "text": "            \"Body\" (partial \"notes/note-blurb.html\" (dict \"Page\" $page \"DescriptionOnly\" true))"
-          },
-          {
-            "lineNumber": 31,
-            "text": "            \"HeadingLevel\" 3"
-          },
-          {
-            "lineNumber": 32,
-            "text": "            \"HeadingClass\" \"h6\""
-          },
-          {
-            "lineNumber": 33,
-            "text": "          ) }}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "        \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 37,
-            "text": "  \u003c/section\u003e"
-          },
-          {
-            "lineNumber": 38,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 38
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/recent-new.html",
-        "signatures": {}
-      },
-      "score": 0.3000335097312927
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 28,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "      \u003cdiv class=\"row justify-center\"\u003e"
-          },
-          {
-            "lineNumber": 31,
-            "text": "        \u003cdiv class=\"lg:col-12\"\u003e"
-          },
-          {
-            "lineNumber": 32,
-            "text": "          {{- $notes := partial \"notes/pages.html\" . -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "          {{- $notes = partial \"notes/sort-by-connections.html\" (dict \"Pages\" $notes \"Context\" .) -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "          {{- $tagCounts := dict -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "          {{- $categoryCounts := dict -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "          {{- range $notes -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "            {{- range (.Params.tags | default slice) -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "              {{- $tagCounts = merge $tagCounts (dict . (add (index $tagCounts . | default 0) 1)) -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "            {{- end -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "            {{- range (.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "              {{- $categoryCounts = merge $categoryCounts (dict . (add (index $categoryCounts . | default 0) 1)) -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "            {{- end -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "          {{- end -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "          {{- $allTags := slice -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "          {{- range $tag, $_ := $tagCounts -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "            {{- $allTags = $allTags | append $tag -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "          {{- end -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "          {{- $allTags = sort $allTags -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "          {{- $allCategories := slice -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "          {{- range $cat, $_ := $categoryCounts -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "            {{- $allCategories = $allCategories | append $cat -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "          {{- end -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "          {{- $allCategories = sort $allCategories -}}"
-          },
-          {
-            "lineNumber": 54
-          },
-          {
-            "lineNumber": 55,
-            "text": "          \u003cheader class=\"notes-index-catalog__head mb-4\"\u003e"
-          },
-          {
-            "lineNumber": 56,
-            "text": "            \u003ch2 class=\"h5 mb-1\"\u003eAll notes\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 57,
-            "text": "            \u003cp class=\"text-ink-muted mb-0 text-sm\"\u003eBrowse, search, and filter the full garden.\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 58,
-            "text": "          \u003c/header\u003e"
-          },
-          {
-            "lineNumber": 59
-          },
-          {
-            "lineNumber": 60,
-            "text": "          \u003cdiv class=\"notes-list-controls border-divider mb-6 rounded border p-4 sm:p-5\"\u003e"
-          },
-          {
-            "lineNumber": 61,
-            "text": "            \u003cdiv class=\"notes-list-controls__top flex flex-wrap items-center gap-2 sm:gap-3\"\u003e"
-          },
-          {
-            "lineNumber": 62,
-            "text": "              "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 14,
-            "line": 61
-          },
-          "startPosition": {
-            "line": 27
-          }
-        },
-        "relativeWorkspacePath": "./layouts/notes/list.html",
-        "signatures": {}
-      },
-      "score": 0.29621580243110657
-    }
-  ]
-}
+  
+… (output truncated)
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user asks two things: display tweets before note relationships, and suggest better names for tweets.</details></think>
+The user asks two things: display tweets before note relationships, and suggest better names for tweets.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
 
 </details></tool-use>
 
@@ -7921,27 +616,20 @@ One replaces the `note-tweets.html` partial with a plain markdown `## Shareable 
 
 The other splits `single.html` into three distinct render passes: content up to examples, the tweets partial, then relationships. This is more complex but gives precise control over the exact insertion point.
 
-Plain markdown bullets would lose the partial’s bordered aside styling. Replacing a placeholder section with partial output was dismissed as too hacky. The simplest path remains splitting the content render in single.html.</details></think>
+Plain markdown bullets would lose the partial’s bordered aside styling. Replacing a placeholder section with partial output was dismissed as too hacky. The simplest path remains splitting the content render in single.html.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8007,13 +695,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -8045,7 +726,8 @@ Two ways to fix the table of contents order: add a `## Shareable lines` heading 
 
 A placeholder heading hack was rejected as too hacky. The plan is to fix the table of contents by manually inserting the tweets heading before Note Relationships in the headings slice within toc.html.
 
-The user may be asking purely for guidance rather than requesting immediate implementation. I will present the alternative names without renaming anything yet.</details></think>
+The user may be asking purely for guidance rather than requesting immediate implementation. I will present the alternative names without renaming anything yet.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -8054,32 +736,22 @@ Checking callers of `assembled-content` so we can reorder safely:
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8133,13 +805,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -8153,7 +818,8 @@ Adding an optional `Scope` parameter to `assembled-content` to control partial a
 
 `toc.html` will place tweet entries before the Note Relationships heading in the generated table of contents. They will be removed from `$extras` to prevent duplicate display.
 
-The `toc.html` logic now builds a new headings slice by iterating over the original list. When it reaches the `note-relationships` entry, it inserts the `Tweets` heading before it. This replaces the separate extras handling entirely.</details></think>
+The `toc.html` logic now builds a new headings slice by iterating over the original list. When it reaches the `note-relationships` entry, it inserts the `Tweets` heading before it. This replaces the separate extras handling entirely.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -8162,207 +828,111 @@ Moving tweets before Note Relationships in the page and TOC. Naming suggestions 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The next step is updating the assembled content.</details></think>
+The next step is updating the assembled content.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The assembled content appears correct.</details></think>
+The assembled content appears correct.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-tweets.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-tweets.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8387,29 +957,15 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1 | tail -20
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -8454,7 +1010,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Renaming "tweets" to "shareable_lines" in frontmatter across all notes. Using "Shareable lines" as the display heading.
 
-Updating hugo.toml, the note-tweets.html partial, and toc.html to use the new parameter name. All note frontmatter files need updating too. Considering whether to rename the partial itself.</details></think>
+Updating hugo.toml, the note-tweets.html partial, and toc.html to use the new parameter name. All note frontmatter files need updating too. Considering whether to rename the partial itself.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -8463,10 +1020,8 @@ Renaming `tweets` to `shareable_lines` in frontmatter and updating templates and
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8573,21 +1128,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8694,13 +1240,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -8708,101 +1247,62 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Bulk replacing `tweets:` with `shareable_lines:` across all note markdown files.
 
-Renaming related scripts, templates, and configs from "tweets" to "shareable-lines". Updating Python scripts, HTML partials, Hugo config, CSS IDs, and documentation.</details></think>
+Renaming related scripts, templates, and configs from "tweets" to "shareable-lines". Updating Python scripts, HTML partials, Hugo config, CSS IDs, and documentation.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-tweets.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-tweets.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8908,39 +1408,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Replacing `tweets:` with `shareable_lines:` in English note files only, excluding blog posts containing "retweets".</details></think>
+Replacing `tweets:` with `shareable_lines:` in English note files only, excluding blog posts containing "retweets".
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8970,21 +1456,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -9009,35 +1486,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the blog draft `__jorap-notes-features`.</details></think>
+Checking the blog draft `__jorap-notes-features`.
+</details></think>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -9067,285 +1534,140 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg -l '^tweets:$' content/english/notes | xargs -r sed -i 's/^tweets:$/shareable_lines:/'</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -l &#39;^tweets:$&#39; content/english/notes | xargs -r sed -i &#39;s/^tweets:$/shareable_lines:/&#39;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg -l '^tweets:$' content/english/notes | xargs -r sed -i 's/^tweets:$/shareable_lines:/'
 ```
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-shareable-lines.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
-<summary>Tool use: **delete_file**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-shareable-lines.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
-<summary>Tool use: **delete_file**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg '^tweets:' content/english/notes | wc -l && rg '^shareable_lines:' content/english/notes | wc -l && python3 scripts/lint-notes-frontmatter.py --self-check && python3 scripts/seed-note-shareable-lines.py --self-check && python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -5</summary>
-
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg &#39;^tweets:&#39; content/english/notes | wc -l &amp;&amp; rg &#39;^shareable_lines:&#39; content/english/notes | wc -l &amp;&amp; python3 scripts/lint-notes-frontmatter.py --self-check &amp;&amp; python3 scripts/seed-note-shareable-lines.py --self-check &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg '^tweets:' content/english/notes | wc -l && rg '^shareable_lines:' content/english/notes | wc -l && python3 scripts/lint-notes-frontmatter.py --self-check && python3 scripts/seed-note-shareable-lines.py --self-check && python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -5
 ```
@@ -9354,19 +1676,12 @@ cd /home/jorap/Documents/GitHub/jorap.com && rg '^tweets:' content/english/notes
 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg '^shareable_lines:' content/english/notes | wc -l && python3 scripts/lint-notes-frontmatter.py 2>&1 | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg &#39;^shareable_lines:&#39; content/english/notes | wc -l &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | head -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg '^shareable_lines:' content/english/notes | wc -l && python3 scripts/lint-notes-frontmatter.py 2>&1 | head -30
 ```
@@ -9376,20 +1691,12 @@ cd /home/jorap/Documents/GitHub/jorap.com && rg '^shareable_lines:' content/engl
 Note frontmatter lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -9427,42 +1734,27 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking notes-creator.js and assets/js for shareable_lines references in the AI prompt. The creator prompt may mention tweets.</details></think>
+Checking notes-creator.js and assets/js for shareable_lines references in the AI prompt. The creator prompt may mention tweets.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -9492,21 +1784,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -9531,21 +1814,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -9570,19 +1844,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The normalize script contains an unrelated "tweet" entry.</details></think>
+The normalize script contains an unrelated "tweet" entry.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -9623,7 +1891,8 @@ _**User**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Polishing the shareable lines component with impeccable attention to detail.</details></think>
+Polishing the shareable lines component with impeccable attention to detail.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -9632,9 +1901,8 @@ Polishing the shareable-lines block per impeccable: loading project context and 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: node /home/jorap/.cursor/skills/impeccable/scripts/context.mjs --target /home/jorap/Documents/GitHub/jorap.com</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node /home/jorap/.cursor/skills/impeccable/scripts/context.mjs --target /home/jorap/Documents/GitHub/jorap.com</summary>
 ```bash
 node /home/jorap/.cursor/skills/impeccable/scripts/context.mjs --target /home/jorap/Documents/GitHub/jorap.com
 ```
@@ -9676,364 +1944,29 @@ Success looks like: visitors leave with a clear sense of **professional credibil
 
 ## Design Principles
 
-1. **Ideas before optics.** The interface supports the message; it never competes with it. If a visual choice does not reinforce clarity or trust, it does not ship.
-
-2. **Professional is the baseline, not a mode.** Every page should feel appropriate for a client skim on a laptop between meetings: calm hierarchy, legible type, intentional restraint.
-
-3. **Credibility through restraint.** Show judgment in what you include and what you omit. Dense proof beats loud decoration.
-
-4. **Speak to buyers, not only to builders.** Copy and structure assume intelligent non-specialists; technical depth appears when it serves the reader’s decision, not as default posture.
-
-5. **Consistency builds trust.** Navigation, tone, and visual rhythm should feel like **one** deliberate practice, not a pile of experiments.
-
-## Content surfaces
-
-| Surface | Role | Primary paths |
-| --- | --- | --- |
-| **Blog** | Long-form essays, credibility, SEO | &#96;/blog/&#96; |
-| **Notes garden** | Idea graph, flashcards, backlinks, tools | &#96;/notes/&#96; |
-| **Pages** | About, contact, static marketing | &#96;/about/&#96;, etc. |
-| **CMS** | Authoring for non-git editors | &#96;/admin/&#96; |
-
-Blog and notes share one visual system (**restrained editorial**). Notes adds tool UI (graph, filters, flashcards) on the same tokens — see [&#96;DESIGN.md&#96;](./DESIGN.md).
-
-## Visual identity
-
-**North star:** *The Quiet Study* — warm paper, charcoal ink, editorial calm. Full spec: [&#96;DESIGN.md&#96;](./DESIGN.md). Machine-readable tokens: [&#96;DESIGN.json&#96;](./DESIGN.json).
-
-**Style label:** Restrained editorial (minimal in discipline, not in austerity). Warmth and legibility for client skims; no performative tech theater.
-
-## Accessibility &amp; Inclusion
-
-- **Target:** Aim for **WCAG 2.1 Level AA** for text contrast, focus visibility, and keyboard use on primary flows (read, navigate, search, contact).
-- **Motion:** Respect **&#96;prefers-reduced-motion&#96;** for non-essential animation; avoid motion as the only cue for meaning.
-- **Cognitive load:** Prefer plain language in UI chrome and critical paths; reserve depth for article body where readers choose to go long.
-
----
-
-# DESIGN.md
-
----
-name: JoRap Notes
-description: Warm neutral editorial surface for a professional personal brand, Hugo + Tailwind.
-colors:
-  surface: "#f5f3f0"
-  elevated: "#eeebe6"
-  accent: "#181614"
-  ink: "#161412"
-  ink-muted: "#3d3a37"
-  ink-faint: "#6b6762"
-  divider: "#e5e2dd"
-  deep: "#121110"
-typography:
-  display:
-    fontFamily: "Inter, sans-serif"
-    fontSize: "3.81rem"
-    fontWeight: 700
-    lineHeight: 1.12
-    letterSpacing: "-0.03em"
-  headline:
-    fontFamily: "Inter, sans-serif"
-    fontSize: "3.05rem"
-    fontWeight: 700
-    lineHeight: 1.12
-    letterSpacing: "-0.03em"
-  title:
-    fontFamily: "Inter, sans-serif"
-    fontSize: "2.44rem"
-    fontWeight: 600
-    lineHeight: 1.25
-    letterSpacing: "-0.02em"
-  body:
-    fontFamily: "Inter, sans-serif"
-    fontSize: "16px"
-    fontWeight: 400
-    lineHeight: 1.625
-    letterSpacing: "normal"
-  label:
-    fontFamily: "Inter, sans-serif"
-    fontSize: "14px"
-    fontWeight: 600
-    lineHeight: 1.25
-    letterSpacing: "normal"
-rounded:
-  sm: "2px"
-  md: "4px"
-  lg: "8px"
-  xl: "12px"
-  "2xl": "16px"
-spacing:
-  sm: "8px"
-  md: "16px"
-  lg: "24px"
-  xl: "32px"
-components:
-  button-primary:
-    backgroundColor: "{colors.accent}"
-    textColor: "#ffffff"
-    rounded: "{rounded.md}"
-    padding: "10px 20px"
-  button-primary-sm:
-    backgroundColor: "{colors.accent}"
-    textColor: "#ffffff"
-    rounded: "{rounded.sm}"
-    padding: "6px 16px"
-  button-outline-primary:
-    backgroundColor: "transparent"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.md}"
-    padding: "10px 20px"
-  blog-card:
-    backgroundColor: "{colors.elevated}"
-    textColor: "{colors.ink-muted}"
-    rounded: "{rounded.xl}"
-    padding: "20px 24px 24px"
----
-
-# Design System: JoRap Notes
-
-## Overview
-
-**Creative North Star: "The Quiet Study"**
-
-This system behaves like **daylight on good paper**: warm off-white fields, charcoal ink for authority, and almost no chromatic noise. Density is **editorial**, not dashboard. The interface is there to make long reads and portfolio judgment feel **calm and legible** under real client skims (laptop, bright office, short attention).
-
-The experience **rejects performative tech theater**: no neon accents, no interchangeable SaaS hero metrics, no visual chaos that reads as "creator energy" instead of **hireable clarity**. That line comes straight from **PRODUCT.md** (anti-references: performative nerd energy, generic SaaS sameness, chaotic personal brand).
-
-**Key Characteristics:**
-
-- **Restrained palette:** Tinted warm neutrals plus a single **charcoal** accent role (fills, key actions). Color carries meaning through **tone and contrast**, not rainbow UI chrome.
-- **Single sans hierarchy:** Inter for everything; hierarchy is **scale + weight + tracking**, not a second display face.
-- **Flat-first depth:** Surfaces are mostly **flat**; shadows are **small and rare**, used for dropdowns, floating controls, and card lift on hover, not for fake 3D marketing stacks.
-- **Motion is polite:** Short **ease-out** transitions (often 200 to 300ms). **Scroll behavior respects &#96;prefers-reduced-motion&#96;** at the document level.
-- **Layout rhythm:** Content lives in a **1320px max-width** container with **16px** horizontal padding. Sections use **56px / 80px** vertical padding (&#96;py-14&#96; / &#96;md:py-20&#96;). The notes garden reuses the same tokens and card language as the blog; tool surfaces (graph, flashcards) stay within the warm-neutral system.
-
-### Style positioning
-
-**Label:** **Restrained editorial** — not stark minimalism, not SaaS product UI.
-
-| Reads as | Does not read as |
-| --- | --- |
-| Daylight on good paper, hireable clarity | Sterile white-box minimal |
-| Professional personal brand | Dev-bro / creator chaos |
-| Calm long-form reading | Dashboard or marketing template |
-
-**Minimal in discipline** (one accent, one type family, flat-first). **Not minimal in look** (warm tints, cards, notes tools, tactile hovers). See **PRODUCT.md** for voice and anti-references.
-
-### Alternative directions (exploration only)
-
-Shortlist if the brand needs a sharper pivot later — prototype on one surface before a site-wide retheme:
-
-1. **Document / institutional** — memo/briefing layout; rules and columns; highest client-safe trust.
-2. **Typographic authority** — distinctive serif display + sans body; magazine hierarchy without template eyebrows.
-3. **Committed color** — one saturated hue carries 30–60% of surface; everything else quiet.
-4. **Monochrome instrument** — cool neutrals, tighter grid; notes tools feel native.
-
-Do not mix directions on one page without narrative reason. Identity-preservation wins: variants should extend **The Quiet Study**, not replace it silently.
-
-## Colors
-
-The palette is **warm paper and charcoal ink**: low chroma, slightly cream body, dusted borders, and a near-black accent that inverts cleanly in dark mode via the same semantic token names (&#96;bg-primary&#96; / &#96;dark:bg-darkmode-primary&#96;).
-
-### Primary
-
-- **Charcoal Fill** (&#96;#181614&#96;): Primary button fills, social icon tiles, TOC and pagination active states, and other **high-commitment** actions. In dark mode the token swaps to **warm cream** (&#96;#f2efe9&#96;) on dark surfaces so the same "accent" role reads as **light ink on charcoal**, not a second hue.
-
-### Secondary
-
-- Not used as a separate hue. **Secondary actions** use **outline** treatments (border + transparent fill) or **muted ink** links instead of a second brand color.
-
-### Tertiary
-
-- Omitted. The system does not introduce a third accent color.
-
-### Neutral
-
-- **Warm Paper** (&#96;#f5f3f0&#96;): Default page background (&#96;body&#96; / &#96;surface&#96;).
-- **Shell** (&#96;#eeebe6&#96;): Elevated panels, cards, inputs, blockquote backgrounds (&#96;elevated&#96; / &#96;light&#96;).
-- **Strong Ink** (&#96;#161412&#96;): Headings and highest-contrast text (&#96;text-dark&#96; / semantic &#96;ink&#96;).
-- **Body Ink** (&#96;#3d3a37&#96;): Paragraph and default reading color (&#96;text&#96; / &#96;ink-muted&#96;).
-- **Quiet Ink** (&#96;#6b6762&#96;): Meta lines, placeholders, de-emphasized UI (&#96;text-light&#96; / &#96;ink-faint&#96;).
-- **Dust Border** (&#96;#e5e2dd&#96;): Rules, card edges, table frames (&#96;border&#96; / &#96;divider&#96;).
-- **Deep Ground** (&#96;#121110&#96;): Deepest dark theme backdrop and small UI anchors where the theme uses &#96;dark&#96; as a solid (for example theme switcher track).
-
-Dark mode mirrors these roles with **&#96;darkmode-*&#96; CSS variables** (see &#96;data/theme.json&#96; and &#96;tailwind-plugin/tw-theme.js&#96;): surfaces darken, ink lightens, borders deepen, and the **accent fill inverts** so contrast ratios stay in family.
-
-### Functional (status &amp; tools)
-
-Reserved for **feedback and data visualization**, not brand decoration. Each has light and dark variants in &#96;data/theme.json&#96;.
-
-- **Warning** (&#96;#b45309&#96; / dark &#96;#fbbf24&#96;): Caution banners, dev-only notices.
-- **Error** (&#96;#991b1b&#96; ink on &#96;#fef2f2&#96; surface): Broken links, validation failures.
-- **Success** (&#96;#15803d&#96; / dark &#96;#4ade80&#96;): Positive confirmation states.
-- **Graph weak link** (&#96;#c27803&#96;): Low-weight edges in the notes graph canvas.
-
-### Named Rules
-
-**The One Accent Rule.** The charcoal / cream accent is the **only** strong contrast pair for chrome and CTAs. Do not introduce a second saturated hue for decoration.
-
-**The Gray-on-Color Rule.** Do not park **cool gray** text on tinted surfaces; use the **semantic ink** steps (&#96;ink&#96;, &#96;ink-muted&#96;, &#96;ink-faint&#96;) so text always shares the **warmth of the background**.
-
-## Typography
-
-**Display / UI Font:** Inter (with &#96;sans-serif&#96; fallback)  
-**Body Font:** Inter (same stack for &#96;font-primary&#96; and &#96;font-secondary&#96; in this project)
-
-**Character:** Neutral, contemporary, and **office-safe**. Weight and tracking do the hierarchy work; there is no editorial serif second voice in the current build.
-
-### Hierarchy
-
-- **Display** (700, &#96;3.81rem&#96; / &#96;clamp&#96; via &#96;text-h1&#96; and breakpoints, line-height ~1.12, tight negative tracking): Reserved for **top-level marketing or page titles** when the full scale ladder applies (&#96;h1&#96; / &#96;.h1&#96;).
-- **Headline** (700, &#96;3.05rem&#96; with responsive &#96;-sm&#96; variants, line-height ~1.12): Section headings (&#96;h2&#96;), large list titles.
-- **Title** (600, &#96;2.44rem&#96; down through &#96;1.25rem&#96; for &#96;h3&#96;–&#96;h6&#96;): Subheads, card titles, component headings. Blog cards also use **&#96;text-2xl&#96;** for card titles in templates.
-- **Body** (400, &#96;16px&#96; base with &#96;0.8×&#96; on small viewports via &#96;text-base-sm&#96;, line-height relaxed): Article body, descriptions. Prose is capped at **&#96;max-w-[70ch]&#96;** in &#96;.content&#96; for comfortable line length.
-- **Label** (600, inherited sizes on &#96;nav-link&#96; and buttons, semibold): Navigation, buttons, and emphasis. Buttons use **capitalize** in &#96;.btn&#96; (know that convention if you add new buttons).
-
-### Named Rules
-
-**The Inter-Only Rule.** Do not add a second font family for "personality" until **PRODUCT.md** explicitly asks for it; hierarchy must stay on **scale, weight, and tracking** first.
-
-**The Article Title Rule.** Blog post titles use &#96;.article-title&#96;: real &#96;h1&#96; with a **tighter ramp** (&#96;text-h2-sm&#96; through &#96;text-h1&#96;) so long titles stay dignified on small screens.
-
-## Elevation
-
-The system is **flat at rest**. Depth is **tonal** (surface vs elevated) first; **shadow** second.
-
-Shadows appear where something **floats above** the page: **dropdown panels** (&#96;shadow-lg&#96;), **back-to-top** control (&#96;shadow-lg&#96;), and **blog cards** (&#96;shadow-sm&#96;, **&#96;shadow-md&#96; on hover**). Cards use **border + subtle shadow** together so lift reads as **tactile**, not neon.
-
-Atmospheric **page headers** may use a **soft vertical gradient** (&#96;from-surface to-elevated&#96; or the &#96;bg-gradient&#96; utility) for a **sheet lift**, not glassmorphism.
-
-### Shadow Vocabulary
-
-- **Card rest** (&#96;shadow-sm&#96;, Tailwind default): Blog cards and light containers at rest.
-- **Card hover** (&#96;shadow-md&#96;): Slightly deeper lift on &#96;.component--blog-card&#96; hover, paired with **unchanged border color** so motion is restrained.
-- **Overlay / menu** (&#96;shadow-lg&#96;): Dropdown panels and floating FAB-style controls.
-
-### Named Rules
-
-**The Flat-by-Default Rule.** Do not stack **shadow + heavy border + gradient** on the same block unless one role is clearly primary; default to **flat elevated surface**.
-
-## Components
-
-### Buttons
-
-- **Shape:** Default radius **&#96;rounded&#96;** (&#96;4px&#96; / &#96;--radius&#96; default in Tailwind), small variant **&#96;rounded-sm&#96;** (&#96;2px&#96;).
-- **Primary:** &#96;bg-primary&#96; / &#96;text-white&#96;, semibold, **&#96;px-5 py-2&#96;**, &#96;border-transparent&#96;, **capitalized** label style in &#96;.btn&#96;.
-- **Outline primary:** Transparent fill, **&#96;border-dark&#96;** / &#96;text-text-dark&#96; in light mode; **&#96;dark:border-darkmode-primary&#96;** with light text; hover fills toward primary in both themes per &#96;.btn-outline-primary&#96;.
-- **Hover / Focus:** Generic **&#96;transition&#96;** on &#96;.btn&#96;; focus rings on **navigation** use **&#96;focus-visible:ring-2 ring-accent&#96;** with **offset** (see nav), not on every button class by default. Prefer **visible &#96;:focus-visible&#96;** for keyboard users.
-
-### Chips
-
-- **Taxonomy / tags** in widgets use **small rounded pills** (&#96;rounded&#96;, &#96;px-3 py-1&#96;) with **&#96;bg-white&#96;** on elevated panels; not a formal chip system. Keep **one** visual pattern for tags site-wide.
-
-### Cards / Containers
-
-- **Blog card (&#96;component--blog-card&#96;):** **&#96;rounded-xl&#96; (&#96;12px&#96;)**, **&#96;border-divider&#96;**, **&#96;bg-elevated&#96;**, **&#96;shadow-sm&#96;**, **hover &#96;shadow-md&#96;**, **300ms ease-out** on shadow and border. Internal padding **&#96;px-6 pt-5 pb-6&#96;**.
-- **Widgets** (categories, tags, author): **&#96;rounded&#96;** or **&#96;rounded-lg&#96;** on **&#96;bg-light&#96; / &#96;dark:bg-darkmode-light&#96;** panels with generous padding (&#96;p-6&#96;–&#96;p-8&#96;).
-
-### Inputs / Fields
-
-- **&#96;form-input&#96; utility:** Full width, **&#96;rounded&#96;**, **&#96;bg-elevated&#96;**, **&#96;px-6 py-4&#96;**, **&#96;text-ink&#96;**, placeholder **&#96;ink-faint&#96;**, **focus border** to **&#96;primary&#96;** / &#96;dark:focus:border-accent&#96;, **transparent ring** (no glow stack).
-
-### Navigation
-
-- **Header:** **&#96;border-b&#96;**, **&#96;bg-surface&#96;**, vertical rhythm **&#96;py-5&#96;**. Brand line uses **&#96;text-2xl&#96; / &#96;xl:text-3xl&#96;** for the site title.
-- **Links:** **&#96;font-semibold&#96;**, **&#96;text-ink&#96;**, **&#96;hover:text-accent&#96;**, **200ms ease-out** color transitions. Dropdown **panels** are **&#96;rounded-lg&#96;**, **&#96;border&#96;**, **&#96;shadow-lg&#96;**, **&#96;bg-elevated&#96;**, **padding &#96;p-4&#96;**, **min-width ~180px**.
-- **Mobile:** Checkbox hack **&#96;#nav-toggle&#96;**; ensure **keyboard and screen reader** behavior stays aligned when editing (triggers already use **&#96;aria-*&#96;** on dropdowns).
-
-### Signature: Prose long-form
-
-- **&#96;.content&#96; prose** applies typography plugin styling: **headings** use token-linked colors, **blockquotes** are **large, rounded, bordered** with **tinted background** (editorial pull-quote feel), **code** picks up **primary** ink for inline code, **links** underline and **hover to primary**.
-
-### Notes garden
-
-The notes section is a **second product surface** on the same system: no second palette, no dev-tool dark chrome. Cards, filters, and graph controls inherit blog-card language.
-
-- **Note card (&#96;notes-card&#96;):** Same **&#96;rounded-xl&#96; (&#96;12px&#96;)**, **&#96;border-divider&#96;**, **&#96;bg-elevated&#96;**, **&#96;shadow-sm&#96;** as blog cards. Title uses **accent** with a **subtle underline** that strengthens on hover/focus. Hover lifts with **accent border** and a **soft ink-tinted shadow** (&#96;0 4px 16px&#96; at 8% ink). Tags are **surface pills** with accent border; hover inverts to **accent fill**.
-- **Toolbar / filters:** Reuses **&#96;.btn&#96; / &#96;.btn-sm&#96;** primary and outline variants. Active filter = **filled accent**; inactive = **outline**. Count suffixes use muted ink (&#96;notes-filter__count&#96;).
-- **Graph view:** Canvas sits on **&#96;bg-elevated&#96;** with **&#96;border-divider&#96;** frame. Controls are **44px touch targets**, **&#96;rounded-md&#96; (&#96;6px&#96;)**, surface fill, divider border; pressed/hover states tint toward **accent** (8% mix on surface). Tooltip is a small elevated panel, not a floating neon HUD.
-- **Flashcards:** **&#96;rounded-lg&#96; (&#96;8px&#96;)**, **&#96;min-height 10–12rem&#96;**, front on **surface**, back on **elevated**. Flip uses **350ms ease**; reduced motion **crossfades** faces instead of 3D rotate.
-- **Backlinks / stats:** Stat tiles are **surface** on **elevated** panel, **&#96;rounded-lg&#96;**, divider border. Large values use **700 weight, −0.02em tracking**; labels are **13px muted ink**. Jump pills are **full-radius** (&#96;999px&#96;) surface chips.
-
-## Do's and Don'ts
-
-### Do:
-
-- **Do** keep **body copy** inside **~65–70ch** using existing &#96;.content&#96; / &#96;max-w-[70ch]&#96; patterns.
-- **Do** use **semantic tokens** (&#96;surface&#96;, &#96;elevated&#96;, &#96;ink&#96;, &#96;accent&#96;, &#96;divider&#96;) so light and dark stay paired.
-- **Do** use **short ease-out motion** (roughly **150–300ms**) for hovers and shadows, and **respect reduced motion** for scroll behavior (already on &#96;html&#96;).
-- **Do** treat **charcoal / cream inversion** as the **single accent story** for CTAs and key navigation emphasis.
-
-### Don't:
-
-- **Don't** lean on **performative nerd / dev-bro** visuals: rainbow syntax themes in chrome, meme density, or **gaming-stream** layout tropes on the **marketing shell** (per **PRODUCT.md** anti-references).
-- **Don't** ship **generic SaaS landing sameness**: interchangeable hero **big-number metrics**, stock **three-icon feature rows**, or **template thought-leader** filler blocks that could be any startup (per **PRODUCT.md**).
-- **Don't** use **chaotic personal brand** layouts: ironic clutter, random type scales, or **visual noise** that reads as **hard to work with** (per **PRODUCT.md**).
-- **Don't** use **gradient text** (&#96;background-clip: text&#96;) for headings; emphasis is **weight and size**, not decorative fill.
-- **Don't** use **thick side-stripe borders** as the main callout pattern; use **full border**, **background tint**, or **icon/number lead** instead (site-wide craft rule).
-- **Don't** hard-code **pure &#96;#000&#96; / &#96;#fff&#96;** for large fields; stay on **tinted** neutrals from **&#96;theme.json&#96;** except where third-party embeds require it.
-
----
-
-RESOLVED_CONTEXT:
-{
-  "targetPath": "/home/jorap/Documents/GitHub/jorap.com",
-  "targetExists": true,
-  "projectRoot": "/home/jorap/Documents/GitHub/jorap.com",
-  "repoRoot": "/home/jorap/Documents/GitHub/jorap.com",
-  "productPath": "docs/PRODUCT.md",
-  "designPath": "docs/DESIGN.md"
-}
-
----
-
-NEXT STEP: This project's register is &#96;brand&#96;. You MUST now read &#96;reference/brand.md&#96; before producing any design output.
-
+1. **Ideas before opti
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills/impeccable/reference/polish.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills/impeccable/reference/polish.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -10042,27 +1975,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing brand.md and sibling components to align the polish.
 
-Three design issues stand out. The side-stripe left border violates the impeccable standard and must be removed. Nested card backgrounds and borders create a card-in-card pattern that design forbids. The ordered list uses list-none, which breaks semantics and should become a simple stacked list.</details></think>
+Three design issues stand out. The side-stripe left border violates the impeccable standard and must be removed. Nested card backgrounds and borders create a card-in-card pattern that design forbids. The ordered list uses list-none, which breaks semantics and should become a simple stacked list.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills/impeccable/reference/brand.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills/impeccable/reference/brand.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -10092,56 +2018,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing blockquote styling and the notes-outgoing section.</details></think>
+Reviewing blockquote styling and the notes-outgoing section.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -10162,7 +2064,8 @@ The template now uses a bare `ul` with zero gap and padding. The list sits insid
 
 Realized the previous plan still created a nested card inside the elevated aside, violating DESIGN.md. The revised approach removes the inner list box entirely. Items will sit directly inside the aside with minimal vertical padding and top-border dividers between them. This keeps the markup flat and avoids any nested surface containers.
 
-Items will use symmetric padding so the first line needs no special top offset. Text color shifts to muted ink. A faint left quotation mark will appear before each line via a pseudo-element, creating a subtle editorial pull-quote feel without a side stripe.</details></think>
+Items will use symmetric padding so the first line needs no special top offset. Text color shifts to muted ink. A faint left quotation mark will appear before each line via a pseudo-element, creating a subtle editorial pull-quote feel without a side stripe.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -10171,39 +2074,22 @@ Removing the side-stripe (impeccable ban) and nested card pattern; aligning with
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: node /home/jorap/.cursor/skills/impeccable/scripts/detect.mjs --json /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css 2>&1 | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node /home/jorap/.cursor/skills/impeccable/scripts/detect.mjs --json /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css 2&gt;&amp;1 | head -40</summary>
 ```bash
 node /home/jorap/.cursor/skills/impeccable/scripts/detect.mjs --json /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css 2>&1 | head -40
 ```
@@ -10251,28 +2137,15 @@ node /home/jorap/.cursor/skills/impeccable/scripts/detect.mjs --json /home/jorap
     "ignoreValue": "0.375rem"
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -10310,36 +2183,22 @@ section still has too much space
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -10397,39 +2256,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The shareable lines section appears to be nested inside another element, which may be causing the extra spacing.</details></think>
+The shareable lines section appears to be nested inside another element, which may be causing the extra spacing.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -10459,13 +2304,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -10475,18 +2313,13 @@ Checking `.content.notes-content` and `prose h2` margins. The shareable lines si
 
 The aside’s `p-5` padding is likely causing the excess space. It sits inside `.content.notes-content`, so it inherits prose margins and adds its own padding. The tail section renders directly after it in the same container.
 
-Two approaches are being weighed. One strips the aside of all borders and padding to blend into the prose flow. The other keeps a light panel but tightens the gaps and padding.</details></think>
+Two approaches are being weighed. One strips the aside of all borders and padding to blend into the prose flow. The other keeps a light panel but tightens the gaps and padding.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -10505,23 +2338,20 @@ The markup will be minimal: a bare div with a tight heading and a list stripped 
 
 The section will use `margin-block: 1rem 1.25rem` to separate it from the Examples above. Items will lose all padding and borders for a tight stack. The list uses a 0.375rem flex gap. Text will be muted, small, and wrapped within a 65-character width.
 
-The Note Relationships heading may create unwanted space below the shareable lines. Prose h2 margins could add extra gap. I'll set a small bottom margin on the section to compensate.</details></think>
+The Note Relationships heading may create unwanted space below the shareable lines. Prose h2 margins could add extra gap. I'll set a small bottom margin on the section to compensate.
+</details></think>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -10551,21 +2381,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -10595,19 +2416,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Prose heading margins are small. They are not causing the excess space.</details></think>
+Prose heading margins are small. They are not causing the excess space.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -10616,31 +2431,15 @@ Stripping the boxed aside chrome and tightening gaps—it was adding padding on 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -10649,20 +2448,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The section’s excess space likely comes from the h2 heading. It should inherit prose heading margins from its parent.
 
-The shareable lines h2 needs a tighter top margin to avoid double spacing after the Examples section. The box itself is also adding extra space.</details></think>
+The shareable lines h2 needs a tighter top margin to avoid double spacing after the Examples section. The box itself is also adding extra space.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -10687,70 +2479,41 @@ I want it to have the same look at flashcards but at 3 cols
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The shareable lines section should mirror the flashcard design but display in three columns.</details></think>
+The shareable lines section should mirror the flashcard design but display in three columns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/flashcard.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/flashcard.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -10767,4 +2530,77 @@ The grid will use `grid-cols-1 sm:grid-cols-3` so it stacks on mobile and shows 
 
 Each card will use a flex layout to center its content vertically and horizontally. The background will be the elevated surface color. The cards will have a minimum height of 10rem. This targets the static flashcard face appearance rather than the flip animation.
 
-Cards will use 1.25rem padding and a 1px divider border. They will switch to the surface background and gain a subtle border-color transition. Text will be bold, centered, and balanced. The quote</details></think>
+Cards will use 1.25rem padding and a 1px divider border. They will switch to the surface background and gain a subtle border-color transition. Text will be bold, centered, and balanced. The quote mark pseudo-element will be removed to match the flashcard style.
+
+The shareable lines will remain inside the content div, positioned between the Examples and Note Relationships sections. They will adopt the flashcard aside styling while keeping their current place in the document flow. Prose-specific margin overrides will be adjusted to fit this layout.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Flashcards rely on Tailwind utility classes rather than dedicated CSS.
+
+Mirroring the flashcards aside markup exactly. The layout will use three columns on medium screens and up, stacking vertically on mobile.
+
+Adding a subtle hover accent to cards for parity with flashcards. The shareable lines section stays inside the content area rather than moving before relationships. The CSS block for shareable lines will be replaced entirely, and the quote pseudo-element removed to match the flashcards style.
+
+The aside’s bottom margin naturally separates it from the Note Relationships heading. I’ll remove conflicting prose margin rules and add a small top margin to keep the panel visually distinct from the surrounding content.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Restyling shareable lines to match the flashcard panel: bordered aside, card faces, 3-column grid.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Set the grid to three columns using `sm:grid-cols-3`, matching the flashcard layout.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Shareable lines now mirror the flashcards block:
+
+- **Same panel shell** — `border-divider rounded border p-5`, elevated background, `h6 mb-4` heading
+- **Same card face** — surface fill, divider border, `0.5rem` radius, `10rem` min-height, centered semibold text
+- **3-column grid** — `grid gap-4 sm:grid-cols-3` (stacks to 1 column on narrow screens)
+
+Still sits between Examples and Note Relationships. Refresh to see it.

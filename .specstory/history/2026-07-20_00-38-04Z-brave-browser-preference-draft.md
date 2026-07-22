@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Drafting a blog post about why Brave is the personal browser.
 
-Reviewing the jorap-voice skill and blog template. Checking similar posts for structure and format.</details></think>
+Reviewing the jorap-voice skill and blog template. Checking similar posts for structure and format.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,53 +25,29 @@ I'll draft this in your voice — first I'm pulling the blog template, jorap-voi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
@@ -79,7 +56,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Drafting a blog post about why Brave is the user's personal browser.
 
-Reviewing existing Brave mentions in prior posts. Planning a standalone draft post. Checking for related content and opinion guidelines.</details></think>
+Reviewing existing Brave mentions in prior posts. Planning a standalone draft post. Checking for related content and opinion guidelines.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -88,10 +66,8 @@ Checking for existing Brave content and an opinion-post reference to match tone 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -125,38 +101,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
 
 </details></tool-use>
 
@@ -167,66 +124,48 @@ I'm drafting a personal rationale for Brave as the primary browser.
 
 Settled on `__why-brave-browser.md` with slug `why-brave-browser`. Outlining content pillars: personal browser-switching history, built-in ad blocking via Shields, and Chromium compatibility.
 
-Expanding the outline to include the split from Chrome for work, a comparison with Firefox, Safari, and Edge, and Brave-specific features like BAT rewards, sync, and mobile. Also planning to cover trade-offs and actual usage: Chrome for client QA, Brave for reading and research, plus the Philippines context. Will check existing drafts for personal details.</details></think>
+Expanding the outline to include the split from Chrome for work, a comparison with Firefox, Safari, and Edge, and Brave-specific features like BAT rewards, sync, and mobile. Also planning to cover trade-offs and actual usage: Chrome for client QA, Brave for reading and research, plus the Philippines context. Will check existing drafts for personal details.
+</details></think>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **** (3 files)
+Directory: **``** (3 files)
 
 | File |
 |------|
 | `assets/images/feature-soundpeats-runfree.jpg` |
 | `assets/images/feature-consistent-ai-output.jpg` |
 | `assets/images/feature-mouse-wheel-click.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the images folder for hero images used in similar tech opinion posts.</details></think>
+Checking the images folder for hero images used in similar tech opinion posts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -332,21 +271,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -389,13 +319,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -405,7 +328,8 @@ A specstory about Brave shortcuts may provide useful context on how JoRap uses t
 
 Drafting the personal browser essay now. It will cover tab forest and ad noise, why Chrome is unsuitable for personal use, Brave's default shields, Chromium compatibility, the Chrome-versus-Brave split, and why Firefox, Safari, and Edge were rejected. BAT and crypto rewards will be noted as ignored.
 
-The draft will also address mobile Brave on Android, sacrifices made, and actual software usage. It will follow strict style rules: first-person throughout, no em dashes, no currency amounts, no AI slop, no "furthermore" or "additionally," and no passive recommendations. The post will be dated 2026-07-20 under Technology, Opinion, and Tips categories, tagged with Brave, Browser, Chrome, Chromium, Privacy, Ad Blocker, and Productivity. Related notes on attention economy, digital minimalism, and signal versus noise may be included. The full draft will be written next, followed by linting.</details></think>
+The draft will also address mobile Brave on Android, sacrifices made, and actual software usage. It will follow strict style rules: first-person throughout, no em dashes, no currency amounts, no AI slop, no "furthermore" or "additionally," and no passive recommendations. The post will be dated 2026-07-20 under Technology, Opinion, and Tips categories, tagged with Brave, Browser, Chrome, Chromium, Privacy, Ad Blocker, and Productivity. Related notes on attention economy, digital minimalism, and signal versus noise may be included. The full draft will be written next, followed by linting.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -414,56 +338,43 @@ Drafting the post in your voice, aligned with the Brave/Chrome split from your G
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running lint checks to ensure the draft passes voice, slop, and blog standards.</details></think>
+Running lint checks to ensure the draft passes voice, slop, and blog standards.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2>&1
 ```
 
 ```
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only -- content/english/blog/__why-brave-browser.md
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only -- content/english/blog/__why-brave-browser.md
 Blog frontmatter OK
 Slop lint OK
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check -- content/english/blog/__why-brave-browser.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/blog/__why-brave-browser.md
 Voice dash lint OK
 Voice lint OK
 $ python3 scripts/slop-lint.py --check -- content/english/blog/__why-brave-browser.md
 Slop lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The draft is complete and lint checks passed.</details></think>
+The draft is complete and lint checks passed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -498,7 +409,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A dedicated chapter on Brave sync will be added to the draft post.
 
-Reviewing the current draft for existing sync content. Checking personal context in specstory. Expanding into a full H2 section.</details></think>
+Reviewing the current draft for existing sync content. Checking personal context in specstory. Expanding into a full H2 section.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -507,23 +419,15 @@ I'll read the current draft and any Brave sync context in the repo, then add a d
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -549,13 +453,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -573,7 +470,8 @@ The chapter will open with a concrete hook: saving a link on the phone and findi
 
 The sync chapter will frame the lack of a Google account as a deliberate choice. It will note that Bitwarden handles passwords, so only bookmarks and history matter. The description will get a brief sync mention. The old paragraph in "On phone and laptop" will be removed entirely.
 
-The old sync paragraph will be replaced by a cross-reference to the new chapter. Tags will include Brave Sync. Lint checks will follow the edit.</details></think>
+The old sync paragraph will be replaced by a cross-reference to the new chapter. Tags will include Brave Sync. Lint checks will follow the edit.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -582,131 +480,78 @@ Adding a dedicated Brave Sync section and trimming the brief mention in the phon
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running lints to verify everything passes.</details></think>
+Running lints to verify everything passes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2>&1
 ```
 
 ```
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only -- content/english/blog/__why-brave-browser.md
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only -- content/english/blog/__why-brave-browser.md
 Blog frontmatter OK
 Slop lint OK
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check -- content/english/blog/__why-brave-browser.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/blog/__why-brave-browser.md
 Voice dash lint OK
 Voice lint OK
 $ python3 scripts/slop-lint.py --check -- content/english/blog/__why-brave-browser.md
 Slop lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All lints pass.</details></think>
+All lints pass.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -735,27 +580,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll add a note that Brave Origin is free on Linux.
 
-Searching the draft and repository for existing Brave Origin references to find the best placement.</details></think>
+Searching the draft and repository for existing Brave Origin references to find the best placement.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -784,13 +622,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -798,14 +629,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Brave Origin Nightly is installed on Linux.
 
-Verifying what Brave Origin is before mentioning it accurately.</details></think>
+Verifying what Brave Origin is before mentioning it accurately.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -821,23 +651,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [New Brave Origin premium experience offers users a minimalist version of the Brave browser | Brave](https://brave.com/blog/brave-origin/)\n2. [Linux Users Get This For Free! Brave Origin Costs $59.99 For Everyone Else](https://itsfoss.com/news/brave-origin-linux/)\n3. [Brave Gives Linux Users Its Stripped Down Origin Browser for Free](https://linuxiac.com/brave-gives-linux-users-its-stripped-down-origin-browser-for-free/)\n4. [Brave Origin | Brave](https://brave.com/origin/)\n5. [What is Brave Origin? – Brave Help Center](https://support.brave.app/hc/en-us/articles/38561489788173-What-is-Brave-Origin)\n\nSynthesis:\nBrave Origin is a minimalist version of the Brave browser that removes features like AI, crypto wallets, and VPNs while maintaining ad and tracker blocking [1][2][3]. It is available for free to all Linux users [4][1][5].\n\nTo get it on Linux, you can either download the standalone app or upgrade your existing Brave installation (version 1.91 or higher) by navigating to Settings, selecting System, and clicking the button labeled Proceed with Origin for free on Linux [1][2][5][6]. You may choose to pay for the license if you wish to support the company [7][1][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eNew Brave Origin premium experience offers users a minimalist version of the Brave browser | Brave\u003c/title\u003e\n\u003curl\u003ehttps://brave.com/blog/brave-origin/\u003c/url\u003e\n\u003ccontent\u003e“We’re excited to launch Brave Origin today, in response to demand from our users for a minimalist browser with best-in-class privacy and security protections,” said Brian Bondy, CTO and co-founder of Brave. “Origin gives our users the ad and tracker blocking they want coupled with the ability to manage which features appear in the browser, for a one-time fee across all their devices (and free on Linux). By supporting Brave as a business, users get the browser they asked for in order to manage their Web experience.”\n...\nwill be available via a one\n...\nof $59.99 US, and a single purchase will give you access to both options\n...\nmaking this one-\n...\n, you could choose\n...\nyour existing version of Brave,\n...\nBrave Origin is available via one-time purchase of $59.99 US, but the standalone and upgrade versions have different availability on different operating systems. Origin is also available for free for Linux users. The table below should clarify the options:\n...\n| | Available as an upgrade | Available as a standalone app | Available as a one-time purchase | Available for free |\n| --- | --- | --- | --- | --- |\n| Android (version 1.91 and above) | ✅ | | ✅ | |\n| iOS (1.91 and above) | ✅ | | ✅ | |\n| macOS (1.91 and above) | ✅ | ✅ | ✅ | |\n| Windows (1.91 and above) | ✅ | ✅ | ✅ | |\n| Linux (1.91 and above) | ✅ | ✅ | ✅ | ✅ |\n...\nNote that while Origin is available as a free download for Linux users, these users are of course still welcome to purchase Origin if they’d like to support Brave.\n...\nLinux users can choose to skip the purchase process and get the Origin standalone app for free. To do so, they should download and install Origin, then click the Proceed with Origin for free on Linux button. Note that this dialog appears only once on Linux.\n...\nLinux users can choose to skip the purchase process and upgrade to Origin for free by clicking Proceed with Origin for free on Linux on the desktop Settings page.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eLinux Users Get This For Free! Brave Origin Costs $59.99 For Everyone Else\u003c/title\u003e\n\u003curl\u003ehttps://itsfoss.com/news/brave-origin-linux/\u003c/url\u003e\n\u003ccontent\u003eLinux Users Get This For Free! Brave Origin Costs $59.99 For Everyone Else\n...\n# Linux Users Get This For Free! Brave Origin Costs $59.99 For Everyone Else\n...\nOrigin is Brave's stripped-down browser, built for people who never touch most of what the company packages with Brave Browser. It drops the AI assistant, the rewards program, the crypto wallet, and the VPN, leaving the ad and tracker blocking in place.\n...\nThough, for most users, Brave Origin costs $59.99 for a one-time license purchase for use across Windows, Android, macOS, and iOS. However, people running a Linux distro on their computer do not have to pay a dime or sign up for an account.\n...\nThe first thing Origin showed me was a choice built right into onboarding; pay for a license to support Brave, or proceed for free since I was on Linux. I went with free, and right after came the usual first-time setup screens.\n...\n## Installing Brave Origin on Linux\n...\nThere are two ways to get Brave Origin running on your Linux computer.\n...\nThe first is installing the standalone app (we talk about this in detail a bit later), where a dedicated application is downloaded into your system, and you just launch it to use it.\n...\nThe second method is to upgrade your existing Brave Browser installation by going into Settings \u003e System and scrolling down to the \"Brave Origin\" entry.\n...\nHere, you only need to click the \"Proceed with Origin for free on Linux\" button, and the browser switches over to the Origin experience, with the option to manually re-enable any of the disabled features.\n...\nSwitching back to the normal browser doesn't need a reinstallation either. You can do that by disabling the Brave Origin flag at&#96;brave://flags&#96;.\n...\n&#96;&#96;&#96;\nsudo\n...\nFor Arch Linux and derivatives, the way to get Brave Origin is via an AUR helper like yay or paru. The official instructions mention how to get it using yay:\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eBrave Gives Linux Users Its Stripped Down Origin Browser for Free\u003c/title\u003e\n\u003curl\u003ehttps://linuxiac.com/brave-gives-linux-users-its-stripped-down-origin-browser-for-free/\u003c/url\u003e\n\u003ccontent\u003eBrave Gives Linux Users Its Stripped Down Origin Browser for Free\n...\nRecently, Brave introduced Brave Origin, a minimalist version of its browser whose main appeal lies in what it removes rather than what it adds. The new edition strips out many optional Brave services, including AI, crypto, VPN, Rewards, Tor, and several telemetry mechanisms, while remaining free for Linux users.\n...\nThat makes Origin an unusual browser release. Brave frames it as a premium experience, but its main value is a smaller feature set. But what’s even more interesting is that on Windows and macOS, Brave Origin is a one-time purchase priced at $59.99. On Linux, users can access Origin for free.\n...\nFor Linux users, Origin can be used as a standalone browser or as an upgrade to an existing Brave installation. The upgrade option requires Brave 1.91 or later. Linux users installing the standalone version can skip the purchase process during setup, while those upgrading an existing installation can proceed from the Brave Origin section in the browser’s settings.\n...\nThe regular Brave browser remains unchanged. Brave says the existing browser will continue to be free and fully supported for users who want the full feature set or do not want to use Origin. The company also notes that users can already hide or disable many Brave features manually, although doing so does not remove those components from the browser executable.\n...\nYou can find instructions here on how Linux users can install it for free, depending on their distribution.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eBrave Origin | Brave\u003c/title\u003e\n\u003curl\u003ehttps://brave.com/origin/\u003c/url\u003e\n\u003ccontent\u003eA minimalist browser that lets you manage (or totally remove) features found in the free version of Brave.\n...\nUse Brave Origin as a standalone app, with no extra features. Or upgrade the existing Brave app on your device, and toggle features on/off as you wish.\n...\nAvailable as an upgrade\n...\nAvailable as a one-time purchase\n...\nAvailable as an upgrade\n...\nAvailable as a one-time purchase\n...\n91 and\n...\nAvailable as an upgrade\n...\nAvailable as a standalone app\n...\nAvailable as a one-time purchase\n...\nLinux 1.91 and above\n...\nAvailable as an upgrade\n...\nAvailable as a standalone app\n...\nAvailable as a one-time purchase\n...\nAvailable for free\n...\n| | Available as an upgrade | Available as a standalone app | Available as a one-time purchase | Available for free |\n| --- | --- | --- | --- | --- |\n| Android 1.91 and above | | | | |\n| iOS 1.91 and above | | | | |\n| macOS / Windows 1.91 and above | | | | |\n| Linux 1.91 and above | | | | |\n...\n- As a new, standalone browser product, available via a separate app download on your device\n...\n- As an upgrade to the existing version of Brave on your device\n...\nBoth versions will be available via a one-time purchase of $59.99 US, and a single purchase will give you access to both options. For example, after making this one-time purchase, you could choose to download the standalone app and upgrade your existing version of Brave, or use only one of these options. See detailed instructions on how to activate Origin across devices.\n...\nFor users who prefer\n...\ns rich feature set\n...\nWhy is Brave Origin free for Linux users, but not users of other operating systems?\n...\nSome Linux distros already offer a version of Brave that’s similar to Origin, where various features are turned off. We’re making Origin free to all Linux users so that Brave can offer a consistent user experience across these distros. On other platforms, Brave users are still able to hide or disable unwanted features for free in the non-Origin version of Brave.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eWhat is Brave Origin? – Brave Help Center\u003c/title\u003e\n\u003curl\u003ehttps://support.brave.app/hc/en-us/articles/38561489788173-What-is-Brave-Origin\u003c/url\u003e\n\u003ccontent\u003eBrave Origin is a minimalist version of Brave that allows users to disable the revenue-generating features that otherwise support Brave as a business. Brave Origin is available in two ways:\n...\nnew, standalone\n...\nproduct, available via\n...\nupgrade to the existing version of Brave on\n...\nBoth versions will be available via a one-time purchase at https://account.brave.com/, and a single purchase will give you access to both options. For example, after making this one-time purchase, you could choose to download the standalone app and upgrade your existing version of Brave, or use only one of these options.\n...\nBrave Origin is available via one-time purchase, but the standalone and upgrade versions have different availability on different operating systems. Brave Origin is also available for free for Linux users. The table below should clarify the options:\n...\n| Available as an upgrade | Available as a standalone app | Available as a one-time purchase | Available for free |\n| --- | --- | --- | --- |\n| Android(1.91.x and above) | ✅ | ✅ |\n| iOS(1.91.x and above) | ✅ | ✅ |\n| macOS(1.91.x and above) | ✅ | ✅ | ✅ |\n| Windows (1.91.x and above) | ✅ | ✅ | ✅ |\n| Linux (1.91.x and above) | ✅ | ✅ | ✅ | ✅ |\n...\nNote that while Brave Origin is available as a free download for Linux users, these users are of course still welcome to purchase if they’d like to support Brave.\n...\nLinux users can choose to skip the purchase process and get the Brave Origin standalone app for free. To do so, they should download and install Brave Origin, then click the&#96;Proceed with Origin for free&#96; on Linux button. Note that this dialog appears only once on Linux.\n...\nNote that Linux users can choose to skip the purchase process and upgrade to Brave Origin for free by clicking&#96;Proceed with Origin for free&#96; on Linux on the desktop Settings page.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [New Brave Origin premium experience offers users a minimalist version of the Brave browser | Brave](https://brave.com/blog/brave-origin/)\n2. [Linux Users Get This For Free! Brave Origin Costs $59.99 For Everyone Else](https://itsfoss.com/news/brave-origin-linux/)\n3. [Brave Gives Linux Users Its Stripped Down Origin Browser for Free](https://linuxiac.com/brave-gives-linux-users-its-stripped-down-origin-browser-for-free/)\n4. [Brave Origin | Brave](https://brave.com/origin/)\n5. [What is Brave Origin? – Brave Help Center](https://support.brave.app/hc/en-us/articles/38561489788173-What-is-Brave-Origin)\n\nSynthesis:\nBrave Origin is a minimalist version of the Brave browser that removes features like AI, crypto wallets, and VPNs while maintaining ad and tracker blocking [1][2][3]. It is available for free to all Linux users [4][1][5].\n\nTo get it on Linux, you can either download the standalone app or upgrade your existing Brave installation (version 1.91 or higher) by navigating to Settings, selecting System, and clicking the button labeled Proceed with Origin for free on Linux [1][2][5][6]. You may choose to pay for the license if you wish to support the company [7][1][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eNew Brave Origin premium experience offers users a minimalist version of the Brave browser | Brave\u003c/title\u003e\n\u003curl\u003ehttps://brave.com/blog/brave-origin/\u003c/url\u003e\n\u003ccontent\u003e“We’re excited to launch Brave Origin today, in response to demand from our users for a minimalist browser with best-in-class privacy and security protections,” said Brian Bondy, CTO and co-founder of Brave. “Origin gives our users the ad and tracker blocking they want coupled with the ability to manage which features appear in the browser, for a one-time fee across all their devices (and free on Linux). By supporting Brave as a business, users get the browser 
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -854,7 +673,8 @@ A dedicated short paragraph in the crypto section works best. I'll rewrite that 
 
 The draft text frames Brave Origin as a standalone install or an upgrade from standard Brave. It notes that Linux users can switch to it for free through Settings. The tone rejects ad revenue optimization and emphasizes wanting a plain browser rather than a side hustle.
 
-I'll keep the reference general as Brave Origin rather than Brave-Origin-Nightly. The "What I actually run" section will also note it on the Linux laptop. The addition stays brief.</details></think>
+I'll keep the reference general as Brave Origin rather than Brave-Origin-Nightly. The "What I actually run" section will also note it on the Linux laptop. The addition stays brief.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -863,101 +683,64 @@ I'll weave Brave Origin into the crypto section and the laptop bits — it fits 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running lints to verify.</details></think>
+Running lints to verify.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2>&1
 ```
 
 ```
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only -- content/english/blog/__why-brave-browser.md
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only -- content/english/blog/__why-brave-browser.md
 Blog frontmatter OK
 Slop lint OK
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check -- content/english/blog/__why-brave-browser.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/blog/__why-brave-browser.md
 Voice dash lint OK
 Voice lint OK
 $ python3 scripts/slop-lint.py --check -- content/english/blog/__why-brave-browser.md
 Slop lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Brave Origin is free on Linux.</details></think>
+Brave Origin is free on Linux.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -982,18 +765,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user uses Brave Origin on their Linux desktop because it is free on Linux.
 
-I'll read the current draft and adjust the wording to emphasize "free on Linux" as the primary motivation for choosing Origin on the desktop.</details></think>
+I'll read the current draft and adjust the wording to emphasize "free on Linux" as the primary motivation for choosing Origin on the desktop.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
@@ -1006,7 +784,8 @@ I'll rename "laptop" to "desktop" and consider splitting Brave Origin into its o
 
 The section will be renamed to lead with the free-Linux desktop reason. A new H2 heading will frame this. Brief mention of Origin itself. Crypto details will move to a short aside.
 
-The opening line will explain that Brave Origin is free on Linux while paid elsewhere. The stripped-down wallet and rewards features will appear only as a bonus detail. All references to the Linux machine will change from "laptop" to "desktop," though the phone remains unchanged.</details></think>
+The opening line will explain that Brave Origin is free on Linux while paid elsewhere. The stripped-down wallet and rewards features will appear only as a bonus detail. All references to the Linux machine will change from "laptop" to "desktop," though the phone remains unchanged.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1015,161 +794,92 @@ Reframing Brave Origin around your actual reason — free on Linux — and switc
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The sync section title should change from "phone and laptop" to "phone and desktop".</details></think>
+The sync section title should change from "phone and laptop" to "phone and desktop".
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:voice -- content/english/blog/__why-brave-browser.md 2>&1; pnpm lint:slop -- content/english/blog/__why-brave-browser.md 2>&1
 ```
 
 ```
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only -- content/english/blog/__why-brave-browser.md
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only -- content/english/blog/__why-brave-browser.md
 Blog frontmatter OK
 Slop lint OK
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check -- content/english/blog/__why-brave-browser.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/blog/__why-brave-browser.md
 Voice dash lint OK
 Voice lint OK
 $ python3 scripts/slop-lint.py --check -- content/english/blog/__why-brave-browser.md
 Slop lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Brave Origin is available for Linux.</details></think>
+Brave Origin is available for Linux.
+</details></think>
 
 _**Agent (auto-low)**_
 

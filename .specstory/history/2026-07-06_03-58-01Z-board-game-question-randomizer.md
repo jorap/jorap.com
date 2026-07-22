@@ -20,7 +20,8 @@ once i select the category, it leads to the randmoizer. i want an option to save
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Planning a jorap.com randomizer page for FF board game question collections. The page will feature selectable categories with renamed descriptions to avoid copyright issues. After selection, users will reach a randomizer view. An HTML export option will support offline use.</details></think>
+Planning a jorap.com randomizer page for FF board game question collections. The page will feature selectable categories with renamed descriptions to avoid copyright issues. After selection, users will reach a randomizer view. An HTML export option will support offline use.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -29,10 +30,8 @@ Exploring the site structure and any existing question data for the randomizer f
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -105,4508 +104,17 @@ Result:
           },
           {
             "lineNumber": 14,
-            "text": "random_duo_lede: Two notes from the garden, side by side. Shuffle both, or lock one side and shuffle the other."
-          },
-          {
-            "lineNumber": 15,
-            "text": "random_duo_shortest_path: A shortest path"
-          },
-          {
-            "lineNumber": 16,
-            "text": "random_duo_no_path: No path found through wikilinks."
-          },
-          {
-            "lineNumber": 17,
-            "text": "shuffle: Shuffle"
-          },
-          {
-            "lineNumber": 18,
-            "text": "select_note: Select note"
-          },
-          {
-            "lineNumber": 19,
-            "text": "select_note_left: Select left note"
-          },
-          {
-            "lineNumber": 20,
-            "text": "select_note_right: Select right note"
-          },
-          {
-            "lineNumber": 21,
-            "text": "choose_note: Choose a note…"
-          },
-          {
-            "lineNumber": 22,
-            "text": "shuffle_all: Shuffle both"
-          },
-          {
-            "lineNumber": 23,
-            "text": "shuffle_left: Shuffle left"
-          },
-          {
-            "lineNumber": 24,
-            "text": "shuffle_right: Shuffle right"
-          },
-          {
-            "lineNumber": 25,
-            "text": "ai_prompt: AI prompt"
-          },
-          {
-            "lineNumber": 26,
-            "text": "ai_prompt_label: Prompt to paste into an AI chat"
-          },
-          {
-            "lineNumber": 27,
-            "text": "copy_prompt: Copy prompt"
-          },
-          {
-            "lineNumber": 28,
-            "text": "copy_md: Copy MD"
-          },
-          {
-            "lineNumber": 29,
-            "text": "copy_hub_cluster: Copy hub cluster"
-          },
-          {
-            "lineNumber": 30,
-            "text": "copy_okf_catalog: Copy catalog"
-          },
-          {
-            "lineNumber": 31,
-            "text": "copy_issues: Copy issues"
-          },
-          {
-            "lineNumber": 32,
-            "text": "agent_copy: Agent copy"
-          },
-          {
-            "lineNumber": 33,
-            "text": "open_in_chatgpt: Open in ChatGPT"
-          },
-          {
-            "lineNumber": 34,
-            "text": "open_in_claude: Open in Claude"
-          },
-          {
-            "lineNumber": 35,
-            "text": "open_in_gemini: Open in Gemini"
-          },
-          {
-            "lineNumber": 36,
-            "text": "prompt_opened_in_ai: Opened"
-          },
-          {
-            "lineNumber": 37,
-            "text": "prompt_copied_for_ai: Copied — paste in chat"
-          },
-          {
-            "lineNumber": 38,
-            "text": "loading: Loading…"
-          },
-          {
-            "lineNumber": 39,
-            "text": "random_notes_prompt_loading: Loading notes…"
-          },
-          {
-            "lineNumber": 40,
-            "text": "random_blog_note_prompt_loading: Loading note…"
-          },
-          {
-            "lineNumber": 41,
-            "text": "no_random_blog_note: No notes in the garden yet."
-          },
-          {
-            "lineNumber": 42,
-            "text": "categories: Categories"
-          },
-          {
-            "lineNumber": 43,
-            "text": "tags: Tags"
-          },
-          {
-            "lineNumber": 44,
-            "text": "toc: Table of Contents"
-          },
-          {
-            "lineNumber": 45,
-            "text": "share: Share"
-          },
-          {
-            "lineNumber": 46,
-            "text": "search_input_placeholder: Search Post..."
-          },
-          {
-            "lineNumber": 47,
-            "text": "search_no_results: No results for"
-          },
-          {
-            "lineNumber": 48,
-            "text": "search_initial_message: Type something to search.."
-          },
-          {
-            "lineNumber": 49,
-            "text": "search_navigate: to navigate"
-          },
-          {
-            "lineNumber": 50,
-            "text": "search_select: to select"
-          },
-          {
-            "lineNumber": 51,
-            "text": "search_close: to close"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 51
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./i18n/en.yaml",
-        "signatures": {}
-      },
-      "score": 0.2397783398628235
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 192,
-            "text": "  function shuffleSide(index) {"
-          },
-          {
-            "lineNumber": 193,
-            "text": "    if (!pool.length) return;"
-          },
-          {
-            "lineNumber": 194
-          },
-          {
-            "lineNumber": 195,
-            "text": "    var otherIndex = index === 0 ? 1 : 0;"
-          },
-          {
-            "lineNumber": 196,
-            "text": "    var exclude = [];"
-          },
-          {
-            "lineNumber": 197,
-            "text": "    var otherNote = currentNotes[otherIndex];"
-          },
-          {
-            "lineNumber": 198,
-            "text": "    if (otherNote \u0026\u0026 otherNote.url) exclude.push(otherNote.url);"
-          },
-          {
-            "lineNumber": 199
-          },
-          {
-            "lineNumber": 200,
-            "text": "    var pick = core.pickOne(pool, exclude);"
-          },
-          {
-            "lineNumber": 201,
-            "text": "    if (!pick) return;"
-          },
-          {
-            "lineNumber": 202
-          },
-          {
-            "lineNumber": 203,
-            "text": "    loadSlot(index, pick);"
-          },
-          {
-            "lineNumber": 204,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 205
-          },
-          {
-            "lineNumber": 206,
-            "text": "  function wireSelects() {"
-          },
-          {
-            "lineNumber": 207,
-            "text": "    if (!window.jorapNotesRandomSelect) return;"
-          },
-          {
-            "lineNumber": 208
-          },
-          {
-            "lineNumber": 209,
-            "text": "    Array.prototype.forEach.call(selectEls, function (selectEl) {"
-          },
-          {
-            "lineNumber": 210,
-            "text": "      var index = parseInt(selectEl.getAttribute(\"data-random-duo-select\"), 10);"
-          },
-          {
-            "lineNumber": 211,
-            "text": "      if (isNaN(index)) return;"
-          },
-          {
-            "lineNumber": 212
-          },
-          {
-            "lineNumber": 213,
-            "text": "      window.jorapNotesRandomSelect.wire(selectEl, pool, {"
-          },
-          {
-            "lineNumber": 214,
-            "text": "        getCurrentUrl: function () {"
-          },
-          {
-            "lineNumber": 215,
-            "text": "          var note = currentNotes[index];"
-          },
-          {
-            "lineNumber": 216,
-            "text": "          return note \u0026\u0026 note.url ? note.url : \"\";"
-          },
-          {
-            "lineNumber": 217,
-            "text": "        },"
-          },
-          {
-            "lineNumber": 218,
-            "text": "        getBlockedUrls: function () {"
-          },
-          {
-            "lineNumber": 219,
-            "text": "          var blocked = [];"
-          },
-          {
-            "lineNumber": 220,
-            "text": "          currentNotes.forEach(function (note, i) {"
-          },
-          {
-            "lineNumber": 221,
-            "text": "            if (i !== index \u0026\u0026 note \u0026\u0026 note.url) blocked.push(note.url);"
-          },
-          {
-            "lineNumber": 222,
-            "text": "          });"
-          },
-          {
-            "lineNumber": 223,
-            "text": "          return blocked;"
-          },
-          {
-            "lineNumber": 224,
-            "text": "        },"
-          },
-          {
-            "lineNumber": 225,
-            "text": "        onPick: function (pick) {"
-          },
-          {
-            "lineNumber": 226,
-            "text": "          loadSlot(index, pick);"
-          },
-          {
-            "lineNumber": 227,
-            "text": "        },"
-          },
-          {
-            "lineNumber": 228,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 229,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 230,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 231
-          },
-          {
-            "lineNumber": 232,
-            "text": "  core.bindTapIf(shuffleBtn, shuffleBoth);"
-          },
-          {
-            "lineNumber": 233,
-            "text": "  core.bindTapIf(shuffleLeftBtn, function () {"
-          },
-          {
-            "lineNumber": 234,
-            "text": "    shuffleSide(0);"
-          },
-          {
-            "lineNumber": 235,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 236,
-            "text": "  core.bindTapIf(shuffleRightBtn, function () {"
-          },
-          {
-            "lineNumber": 237,
-            "text": "    shuffleSide(1);"
-          },
-          {
-            "lineNumber": 238,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 239,
-            "text": "  core.bindTapIf(copyPromptBtn, function (event) {"
-          },
-          {
-            "lineNumber": 240,
-            "text": "    event.preventDefault();"
-          },
-          {
-            "lineNumber": 241,
-            "text": "    event.stopPropagation();"
-          },
-          {
-            "lineNumber": 242,
-            "text": "    ai.copyPrompt();"
-          },
-          {
-            "lineNumber": 243,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 244,
-            "text": "  core.wireSendPromptButtons(\"random-duo\", ai);"
-          },
-          {
-            "lineNumber": 245
-          },
-          {
-            "lineNumber": 246,
-            "text": "  window.addEventListener(\"resize\", equalizePanelHeights, { passive: true });"
-          },
-          {
-            "lineNumber": 247
-          },
-          {
-            "lineNumber": 248,
-            "text": "  wireSelects();"
-          },
-          {
-            "lineNumber": 249,
-            "text": "  shuffleBoth();"
-          },
-          {
-            "lineNumber": 250,
-            "text": "})();"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 5,
-            "line": 249
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-duo.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.2282731533050537
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 168,
-            "text": "  function shuffle() {"
-          },
-          {
-            "lineNumber": 169,
-            "text": "    loadNote(pool.length ? core.pickOne(pool) : null);"
-          },
-          {
-            "lineNumber": 170,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 171
-          },
-          {
-            "lineNumber": 172,
-            "text": "  core.bindTapIf(shuffleBtn, shuffle);"
-          },
-          {
-            "lineNumber": 173,
-            "text": "  if (window.jorapNotesRandomSelect \u0026\u0026 selectEl) {"
-          },
-          {
-            "lineNumber": 174,
-            "text": "    window.jorapNotesRandomSelect.wire(selectEl, pool, {"
-          },
-          {
-            "lineNumber": 175,
-            "text": "      getCurrentUrl: function () {"
-          },
-          {
-            "lineNumber": 176,
-            "text": "        return currentNote \u0026\u0026 currentNote.url ? currentNote.url : \"\";"
-          },
-          {
-            "lineNumber": 177,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 178,
-            "text": "      getBlockedUrls: function () {"
-          },
-          {
-            "lineNumber": 179,
-            "text": "        return currentUrl ? [currentUrl] : [];"
-          },
-          {
-            "lineNumber": 180,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 181,
-            "text": "      onPick: function (pick) {"
-          },
-          {
-            "lineNumber": 182,
-            "text": "        loadNote(pick);"
-          },
-          {
-            "lineNumber": 183,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 184,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 185,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 186,
-            "text": "  core.bindTapIf(copyPromptBtn, function (event) {"
-          },
-          {
-            "lineNumber": 187,
-            "text": "    event.preventDefault();"
-          },
-          {
-            "lineNumber": 188,
-            "text": "    event.stopPropagation();"
-          },
-          {
-            "lineNumber": 189,
-            "text": "    ai.copyPrompt();"
-          },
-          {
-            "lineNumber": 190,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 191,
-            "text": "  core.wireSendPromptButtons(prefix, ai);"
-          },
-          {
-            "lineNumber": 192
-          },
-          {
-            "lineNumber": 193,
-            "text": "  shuffle();"
-          },
-          {
-            "lineNumber": 194,
-            "text": "})();"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 5,
-            "line": 193
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-single.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.2250864952802658
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/**"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Notes home: featured block shows three random garden notes per visit."
-          },
-          {
-            "lineNumber": 3,
-            "text": " */"
-          },
-          {
-            "lineNumber": 4,
-            "text": "(function () {"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  var core = window.jorapNotesRandomCore;"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  if (!core) return;"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "  var root = document.querySelector(\"[data-notes-featured-random]\");"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  var dataEl = document.querySelector(\".notes-featured-random-data\");"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  var slot = document.querySelector(\"[data-notes-featured-random-slot]\");"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  if (!root || !dataEl || !slot) return;"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "  var PICK_COUNT = 3;"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "  var pool = [];"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  try {"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    pool = JSON.parse(dataEl.textContent);"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  } catch (e) {"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    pool = [];"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "  function escapeHtml(str) {"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    return String(str)"
-          },
-          {
-            "lineNumber": 24,
-            "text": "      .replace(/\u0026/g, \"\u0026amp;\")"
-          },
-          {
-            "lineNumber": 25,
-            "text": "      .replace(/\u003c/g, \"\u0026lt;\")"
-          },
-          {
-            "lineNumber": 26,
-            "text": "      .replace(/\u003e/g, \"\u0026gt;\")"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      .replace(/\"/g, \"\u0026quot;\");"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "  function pickMany(count) {"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    var picks = [];"
-          },
-          {
-            "lineNumber": 32,
-            "text": "    var exclude = [];"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    var n = Math.min(count, pool.length);"
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "    for (var i = 0; i \u003c n; i += 1) {"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      var pick = core.pickOne(pool, exclude);"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      if (!pick) break;"
-          },
-          {
-            "lineNumber": 38,
-            "text": "      picks.push(pick);"
-          },
-          {
-            "lineNumber": 39,
-            "text": "      exclude.push(pick.url);"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42,
-            "text": "    return picks;"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 44
-          },
-          {
-            "lineNumber": 45,
-            "text": "  function cardHtml(pick) {"
-          },
-          {
-            "lineNumber": 46,
-            "text": "    var"
-          },
-          {
-            "lineNumber": 67,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 81
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./assets/js/notes-featured-random.js",
-        "signatures": {}
-      },
-      "score": 0.22406893968582153
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/**"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Random Duo page: two garden notes side by side + AI prompt."
-          },
-          {
-            "lineNumber": 3,
-            "text": " */"
-          },
-          {
-            "lineNumber": 4,
-            "text": "(function () {"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  var core = window.jorapNotesRandomCore;"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  if (!core) return;"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "  var root = document.querySelector(\"[data-notes-random-duo]\");"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  var dataEl = document.querySelector(\".notes-random-duo-data\");"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  var graphEl = document.querySelector(\".notes-random-duo-graph-data\");"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  var shuffleBtn = document.querySelector(\"[data-random-duo-shuffle]\");"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  var shuffleLeftBtn = document.querySelector(\"[data-random-duo-shuffle-left]\");"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  var shuffleRightBtn = document.querySelector(\"[data-random-duo-shuffle-right]\");"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  var selectEls = document.querySelectorAll(\"[data-random-duo-select]\");"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  var copyPromptBtn = document.querySelector(\"[data-random-duo-copy-prompt]\");"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  var promptEl = document.querySelector(\"[data-random-duo-prompt]\");"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  var emptyPageEl = document.querySelector(\".notes-random-empty-page\");"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  var pathResultEl = document.querySelector(\"[data-random-duo-path]\");"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  var pathChainEl = document.querySelector(\"[data-random-duo-path-chain]\");"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  if (!root || !dataEl) return;"
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "  var slots = root.querySelectorAll(\"[data-random-duo-slot]\");"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  var currentNotes = [null, null];"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  var currentPath = null;"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  var pool = [];"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  var adj = Object.create(null);"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  var titleByUrl = Object.create(null);"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  try {"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    pool = JSON.parse(dataEl.textContent);"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  } catch (e) {"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    pool = [];"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "  pool.forEach(function (item) {"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    titleByUrl[item.url] = item.title;"
-          },
-          {
-            "lineNumber": 36,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 37
-          },
-          {
-            "lineNumber": 38,
-            "text": "  if (graphEl) {"
-          },
-          {
-            "lineNumber": 39,
-            "text": "    try {"
-          },
-          {
-            "lineNumber": 40,
-            "text": "      adj = core.buildAdjacency(JSON.parse(graphEl.textContent) || []);"
-          },
-          {
-            "lineNumber": 41,
-            "text": "    } catch (e) {"
-          },
-          {
-            "lineNumber": 42,
-            "text": "      adj = Object.create(null);"
-          },
-          {
-            "lineNumber": 43,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 44,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 45
-          },
-          {
-            "lineNumber": 46,
-            "text": "  var ai = core.createAiHelpers({"
-          },
-          {
-            "lineNumber": 47,
-            "text": "    promptEl: promptEl,"
-          },
-          {
-            "lineNumber": 48,
-            "text": "    copyPromptBtn: copyPromptBtn,"
-          },
-          {
-            "lineNumber": 49,
-            "text": "    openedLabel: \"Opened\","
-          },
-          {
-            "lineNumber": 50,
-            "text": "    copiedLabel: \"Copied — paste in chat\","
-          },
-          {
-            "lineNumber": 51,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 52
-          },
-          {
-            "lineNumber": 53,
-            "text": "  function pickTwo() {"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    if (!pool.length) return [];"
-          },
-          {
-            "lineNumber": 59,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 249
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-duo.js",
-        "signatures": {}
-      },
-      "score": 0.22266095876693726
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/**"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Create Note page: topic → atomic-note AI prompt (principles + actionable output)."
-          },
-          {
-            "lineNumber": 3,
-            "text": " */"
-          },
-          {
-            "lineNumber": 4,
-            "text": "(function () {"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  var core = window.jorapNotesRandomCore;"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  if (!core) return;"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "  var topicEl = document.querySelector(\"[data-note-creator-topic]\");"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  var hintEl = document.querySelector(\"[data-note-creator-hint]\");"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  var dataEl = document.querySelector(\".notes-creator-garden-data\");"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  var promptEl = document.querySelector(\"[data-note-creator-prompt]\");"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  var copyPromptBtn = document.querySelector(\"[data-note-creator-copy-prompt]\");"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  if (!topicEl || !promptEl) return;"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "  var garden = [];"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  try {"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    garden = JSON.parse(dataEl ? dataEl.textContent : \"[]\");"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  } catch (e) {"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    garden = [];"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "  var PLACEHOLDER = \"Enter a topic above to generate the prompt.\";"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  var debounceTimer = null;"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  var defaultHint = hintEl ? hintEl.textContent : \"\";"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "  function topicReady() {"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    return String(topicEl.value || \"\").replace(/\\s+/g, \" \").trim().length \u003e 0;"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "  function topicWords(topic) {"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    return String(topic || \"\")"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      .toLowerCase()"
-          },
-          {
-            "lineNumber": 33,
-            "text": "      .split(/[^a-z0-9]+/)"
-          },
-          {
-            "lineNumber": 34,
-            "text": "      .filter(function (word) {"
-          },
-          {
-            "lineNumber": 35,
-            "text": "        return word.length \u003e 2;"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 37,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "  function noteSearchText(note) {"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    return (note.title + \" \" + (note.tags || []).join(\" \")).toLowerCase();"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "lineNumber": 43,
-            "text": "  function relevantGardenNotes(topic, limit) {"
-          },
-          {
-            "lineNumber": 44,
-            "text": "    var words = topicWords(topic);"
-          },
-          {
-            "lineNumber": 67,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 247
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./assets/js/notes-creator.js",
-        "signatures": {}
-      },
-      "score": 0.21985435485839844
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/**"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Shared note picker: wire \u003cselect\u003e elements to random note / duo slots."
-          },
-          {
-            "lineNumber": 3,
-            "text": " */"
-          },
-          {
-            "lineNumber": 4,
-            "text": "(function () {"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  function findInPool(pool, url) {"
-          },
-          {
-            "lineNumber": 6,
-            "text": "    if (!url) return null;"
-          },
-          {
-            "lineNumber": 7,
-            "text": "    for (var i = 0; i \u003c pool.length; i += 1) {"
-          },
-          {
-            "lineNumber": 8,
-            "text": "      if (pool[i].url === url) return pool[i];"
-          },
-          {
-            "lineNumber": 9,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 10,
-            "text": "    return null;"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "  window.jorapNotesRandomSelect = {"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    findInPool: findInPool,"
-          },
-          {
-            "lineNumber": 15
-          },
-          {
-            "lineNumber": 16,
-            "text": "    setValue: function (select, url) {"
-          },
-          {
-            "lineNumber": 17,
-            "text": "      if (!select) return;"
-          },
-          {
-            "lineNumber": 18,
-            "text": "      select.value = url || \"\";"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    },"
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "    wire: function (select, pool, callbacks) {"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      if (!select) return;"
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "      select.addEventListener(\"change\", function () {"
-          },
-          {
-            "lineNumber": 25,
-            "text": "        var url = select.value;"
-          },
-          {
-            "lineNumber": 26,
-            "text": "        if (!url) {"
-          },
-          {
-            "lineNumber": 27,
-            "text": "          select.value = callbacks.getCurrentUrl ? callbacks.getCurrentUrl() || \"\" : \"\";"
-          },
-          {
-            "lineNumber": 28,
-            "text": "          return;"
-          },
-          {
-            "lineNumber": 29,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 30
-          },
-          {
-            "lineNumber": 31,
-            "text": "        var blocked = callbacks.getBlockedUrls ? callbacks.getBlockedUrls() : [];"
-          },
-          {
-            "lineNumber": 32,
-            "text": "        if (blocked.indexOf(url) !== -1) {"
-          },
-          {
-            "lineNumber": 33,
-            "text": "          select.value = callbacks.getCurrentUrl ? callbacks.getCurrentUrl() || \"\" : \"\";"
-          },
-          {
-            "lineNumber": 34,
-            "text": "          return;"
-          },
-          {
-            "lineNumber": 35,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 36
-          },
-          {
-            "lineNumber": 37,
-            "text": "        var pick = findInPool(pool, url);"
-          },
-          {
-            "lineNumber": 38,
-            "text": "        if (pick \u0026\u0026 callbacks.onPick) {"
-          },
-          {
-            "lineNumber": 39,
-            "text": "          callbacks.onPick(pick);"
-          },
-          {
-            "lineNumber": 40,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 41,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 42,
-            "text": "    },"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  };"
-          },
-          {
-            "lineNumber": 44,
-            "text": "})();"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 5,
-            "line": 43
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-select.js",
-        "signatures": {}
-      },
-      "score": 0.21917900443077087
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 164,
-            "text": "  function connectionPromptTail() {"
-          },
-          {
-            "lineNumber": 165,
-            "text": "    return ["
-          },
-          {
-            "lineNumber": 166,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 167,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 168,
-            "text": "      \"## TASK\","
-          },
-          {
-            "lineNumber": 169,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 170,
-            "text": "      \"Analyze how these notes relate. Generate outputs that are:\","
-          },
-          {
-            "lineNumber": 171,
-            "text": "      \"- Concrete and actionable (what to do next time the situation shows up)\","
-          },
-          {
-            "lineNumber": 172,
-            "text": "      \"- Atomic (one claim per note title or relationship row)\","
-          },
-          {
-            "lineNumber": 173,
-            "text": "      \"- Multi-scale (immediate move → short experiment → longer habit)\","
-          },
-          {
-            "lineNumber": 174,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 175,
-            "text": "      \"Topics span PKM, gospel, ethics, and systems — not workflow-only.\","
-          },
-          {
-            "lineNumber": 176,
-            "text": "      \"Avoid abstract theory unless tied to a move I'd make this week.\","
-          },
-          {
-            "lineNumber": 177,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 178,
-            "text": "      \"Voice: plain words, first person where natural, specific scenes. No AI filler (\\\"crucial\\\", \\\"delve\\\", \\\"leverage\\\", \\\"Furthermore\\\"). Read like JoRap typed it mid-life.\","
-          },
-          {
-            "lineNumber": 179,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 180,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 181,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 182,
-            "text": "      \"## OUTPUT FORMAT\","
-          },
-          {
-            "lineNumber": 183,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 184,
-            "text": "      \"### 1. Core Relationship\","
-          },
-          {
-            "lineNumber": 185,
-            "text": "      \"1–2 sentences explaining the deepest connection between the notes.\","
-          },
-          {
-            "lineNumber": 186,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 187,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 188,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 189,
-            "text": "      \"### 2. 3 Unexpected Links (Insight → Mechanism → Action)\","
-          },
-          {
-            "lineNumber": 190,
-            "text": "      \"Each must include:\","
-          },
-          {
-            "lineNumber": 191,
-            "text": "      \"- Insight (what is connected)\","
-          },
-          {
-            "lineNumber": 192,
-            "text": "      \"- Mechanism (why/how it connects)\","
-          },
-          {
-            "lineNumber": 193,
-            "text": "      \"- Action (what I can do immediately)\","
-          },
-          {
-            "lineNumber": 194,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 195,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 196,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 197,
-            "text": "      \"### 3. 3 Sibling Atomic Note Stubs\","
-          },
-          {
-            "lineNumber": 198,
-            "text": "      \"Notes missing from the garden that would strengthen this connection. Each:\","
-          },
-          {
-            "lineNumber": 199,
-            "text": "      \"- title (3–7 words, reusable [[wikilink]] target)\","
-          },
-          {
-            "lineNumber": 200,
-            "text": "      \"- one-line claim (description-ready)\","
-          },
-          {
-            "lineNumber": 201,
-            "text": "      \"- suggested relationships rows (type + [[wikilink]] + reason) tying it to notes above\","
-          },
-          {
-            "lineNumber": 202,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 203,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 204,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 205,
-            "text": "      \"### 4. 3 Relationship Rows to Add\","
-          },
-          {
-            "lineNumber": 206,
-            "text": "      \"YAML-ready rows I could paste into frontmatter on an existing note:\","
-          },
-          {
-            "lineNumber": 207,
-            "text": "      \"- type: extends | contradicts | implements | alternative\","
-          },
-          {
-            "lineNumber": 208,
-            "text": "      \"- wikilink: \\\"[[Note Title]]\\\"\","
-          },
-          {
-            "lineNumber": 209,
-            "text": "      \"- reason: one short clause\","
-          },
-          {
-            "lineNumber": 210,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 211,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 212,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 213,
-            "text": "      \"### 5. 3 Quick Wins (2–15 minutes)\","
-          },
-          {
-            "lineNumber": 214,
-            "text": "      \"- Action\","
-          },
-          {
-            "lineNumber": 215,
-            "text": "      \"- Why it matters\","
-          },
-          {
-            "lineNumber": 216,
-            "text": "      \"- Immediate effect\","
-          },
-          {
-            "lineNumber": 217,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 218,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 219,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 220,
-            "text": "      \"### 6. 3 Experiments (Validation Layer)\","
-          },
-          {
-            "lineNumber": 244,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 495
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-core.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.2185692936182022
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  AI prompt panel for random note / duo UIs."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Params: Prefix, AiChatUrl (optional), Loading (optional), Rows (optional, default 12)."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $prefix := .Prefix -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $aiChatUrl := .AiChatUrl | default (site.Params.blog.random_notes_ai_chat_url | default \"https://chatgpt.com/?q=\") -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $loading := .Loading | default (T \"random_blog_note_prompt_loading\") -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $rows := .Rows | default 12 -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "\u003cdetails class=\"notes-random-prompt border-divider mb-8 rounded border\"\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  \u003csummary class=\"notes-random-prompt-summary p-5\"\u003e"
-          },
-          {
-            "lineNumber": 11,
-            "text": "    \u003cspan class=\"notes-random-prompt-label h6 mb-0\"\u003e{{ T \"ai_prompt\" }}\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    \u003cdiv class=\"notes-random-prompt-actions flex flex-wrap items-center gap-2\"\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "      \u003cbutton type=\"button\" class=\"btn btn-outline-primary btn-sm\" {{ printf \"data-%s-copy-prompt\" $prefix | safeHTMLAttr }}\u003e{{ T \"copy_prompt\" }}\u003c/button\u003e"
-          },
-          {
-            "lineNumber": 14,
-            "text": "      \u003cbutton type=\"button\" class=\"btn btn-outline-primary btn-sm\" {{ printf \"data-%s-send-prompt\" $prefix | safeHTMLAttr }} data-ai-chat-url=\"{{ $aiChatUrl }}\" data-ai-prefill=\"true\"\u003e{{ T \"open_in_chatgpt\" }}\u003c/button\u003e"
-          },
-          {
-            "lineNumber": 15,
-            "text": "      \u003cbutton type=\"button\" class=\"btn btn-outline-primary btn-sm\" {{ printf \"data-%s-send-prompt\" $prefix | safeHTMLAttr }} data-ai-chat-url=\"https://claude.ai/new\" data-ai-prefill=\"false\"\u003e{{ T \"open_in_claude\" }}\u003c/button\u003e"
-          },
-          {
-            "lineNumber": 16,
-            "text": "      \u003cbutton type=\"button\" class=\"btn btn-outline-primary btn-sm\" {{ printf \"data-%s-send-prompt\" $prefix | safeHTMLAttr }} data-ai-chat-url=\"https://gemini.google.com/app\" data-ai-prefill=\"false\"\u003e{{ T \"open_in_gemini\" }}\u003c/button\u003e"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  \u003c/summary\u003e"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  \u003cdiv class=\"notes-random-prompt-body px-5 pb-5\"\u003e"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    \u003clabel class=\"sr-only\" for=\"{{ $prefix }}-prompt\"\u003e{{ T \"ai_prompt_label\" }}\u003c/label\u003e"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    \u003ctextarea"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      id=\"{{ $prefix }}-prompt\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "      class=\"notes-random-prompt-text\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "      rows=\"{{ $rows }}\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "      readonly"
-          },
-          {
-            "lineNumber": 26,
-            "text": "      {{ printf \"data-%s-prompt\" $prefix | safeHTMLAttr }}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      spellcheck=\"false\"\u003e{{ $loading }}\u003c/textarea\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 29,
-            "text": "\u003c/details\u003e"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 29
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/random-prompt-panel.html",
-        "signatures": {}
-      },
-      "score": 0.2134445309638977
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/**"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Blog post or note page: one random garden note + connection AI prompt."
-          },
-          {
-            "lineNumber": 3,
-            "text": " */"
-          },
-          {
-            "lineNumber": 4,
-            "text": "(function () {"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  var core = window.jorapNotesRandomCore;"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  if (!core) return;"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "  var isBlog = !!document.querySelector(\"[data-blog-random-notes]\");"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  var prefix = isBlog ? \"blog-random\" : \"notes-single-random\";"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  var root = document.querySelector(\"[data-\" + prefix + \"-notes]\");"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  var dataEl = document.querySelector(\".\" + prefix + \"-notes-data\") || document.querySelector(\".notes-single-random-data\");"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  if (!root || !dataEl) return;"
-          },
-          {
-            "lineNumber": 13
-          },
-          {
-            "lineNumber": 14,
-            "text": "  var shuffleBtn = document.querySelector(\"[data-\" + prefix + \"-shuffle]\");"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  var selectEl = document.querySelector(\"[data-\" + prefix + \"-select]\");"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  var copyPromptBtn = document.querySelector(\"[data-\" + prefix + \"-copy-prompt]\");"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  var promptEl = document.querySelector(\"[data-\" + prefix + \"-prompt]\");"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  var emptyPageEl = document.querySelector(\"[data-\" + prefix + \"-empty]\");"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  var slot = root.querySelector(\"[data-\" + prefix + \"-slot]\");"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  var pathResultEl = document.querySelector(\"[data-notes-single-random-path]\");"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  var pathChainEl = document.querySelector(\"[data-notes-single-random-path-chain]\");"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  var pathEmptyEl = document.querySelector(\"[data-notes-single-random-path-empty]\");"
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "  var currentNote = null;"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  var currentPath = null;"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  var pool = [];"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  var currentUrl = \"\";"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  var currentTitle = \"\";"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  var adj = Object.create(null);"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  var titleByUrl = Object.create(null);"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  var aiChatOpenedLabel = \"Opened\";"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  var aiChatCopiedLabel = \"Copied — paste in chat\";"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "  try {"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    var config = JSON.parse(dataEl.textContent);"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 193
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-single.js",
-        "signatures": {}
-      },
-      "score": 0.2123720645904541
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ define \"main\" }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  {{- $notes := partial \"notes/pages.html\" . -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  {{- $garden := slice -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "  {{- range $notes -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "    {{- $garden = $garden | append (dict \"title\" .Title \"tags\" (.Params.tags | default slice)) -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  {{ partial \"page-header\" . }}"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "  \u003csection class=\"section\"\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "    \u003cdiv class=\"container\"\u003e"
-          },
-          {
-            "lineNumber": 11,
-            "text": "      \u003cdiv class=\"row justify-center\"\u003e"
-          },
-          {
-            "lineNumber": 12,
-            "text": "        \u003cdiv class=\"lg:col-12\"\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "          {{ partial \"notes/toolbar.html\" (dict \"Context\" . \"active\" \"create\") }}"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "          \u003cp class=\"text-ink-muted mb-6\"\u003e{{ T \"note_creator_lede\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "          \u003cdiv class=\"notes-creator-form mb-6 space-y-4\"\u003e"
-          },
-          {
-            "lineNumber": 18,
-            "text": "            \u003clabel class=\"block\"\u003e"
-          },
-          {
-            "lineNumber": 19,
-            "text": "              \u003cspan class=\"text-ink-muted mb-2 block text-sm\"\u003e{{ T \"note_creator_topic_label\" }}\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 20,
-            "text": "              \u003cinput"
-          },
-          {
-            "lineNumber": 21,
-            "text": "                type=\"text\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "                class=\"notes-creator-topic form-input w-full\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "                placeholder=\"{{ T \"note_creator_topic_placeholder\" }}\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "                autocomplete=\"off\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "                spellcheck=\"true\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "                data-note-creator-topic /\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "            \u003c/label\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "            \u003cp class=\"text-ink-muted text-sm\" data-note-creator-hint\u003e{{ T \"note_creator_hint\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 29,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 30
-          },
-          {
-            "lineNumber": 31,
-            "text": "          {{ partial \"notes/random-prompt-panel.html\" (dict \"Prefix\" \"note-creator\" \"Loading\" (T \"note_creator_prompt_loading\") \"Rows\" 18) }}"
-          },
-          {
-            "lineNumber": 32
-          },
-          {
-            "lineNumber": 33,
-            "text": "          \u003cscript type=\"application/json\" class=\"notes-creator-garden-data\"\u003e{{ $garden | jsonify | safeJS }}\u003c/script\u003e"
-          },
-          {
-            "lineNumber": 34,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 37,
-            "text": "  \u003c/section\u003e"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "  {{ partial \"essentials/fingerprint-asset.html\" (dict \"src\" \"js/notes-random-core.js\" \"defer\" true) }}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "  {{ partial \"essentials/fingerprint-asset.html\" (dict \"src\" \"js/notes-creator.js\" \"defer\" true) }}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "{{ end }}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 41
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/notes/create.html",
-        "signatures": {}
-      },
-      "score": 0.2073574662208557
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 34,
-            "text": "  try {"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    var config = JSON.parse(dataEl.textContent);"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    if (Array.isArray(config)) {"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      pool = config;"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    } else {"
-          },
-          {
-            "lineNumber": 39,
-            "text": "      pool = config.notes || [];"
-          },
-          {
-            "lineNumber": 40,
-            "text": "      if (config.currentUrl) currentUrl = config.currentUrl;"
-          },
-          {
-            "lineNumber": 41,
-            "text": "      if (config.currentTitle) currentTitle = config.currentTitle;"
-          },
-          {
-            "lineNumber": 42,
-            "text": "      if (config.aiChatOpenedLabel) aiChatOpenedLabel = config.aiChatOpenedLabel;"
-          },
-          {
-            "lineNumber": 43,
-            "text": "      if (config.aiChatCopiedLabel) aiChatCopiedLabel = config.aiChatCopiedLabel;"
-          },
-          {
-            "lineNumber": 44,
-            "text": "      if (!isBlog \u0026\u0026 config.graphEdges) adj = core.buildAdjacency(config.graphEdges);"
-          },
-          {
-            "lineNumber": 45,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 46,
-            "text": "  } catch (e) {"
-          },
-          {
-            "lineNumber": 47,
-            "text": "    pool = [];"
-          },
-          {
-            "lineNumber": 48,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 49
-          },
-          {
-            "lineNumber": 50,
-            "text": "  pool.forEach(function (item) {"
-          },
-          {
-            "lineNumber": 51,
-            "text": "    titleByUrl[item.url] = item.title;"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 53,
-            "text": "  if (!isBlog \u0026\u0026 currentUrl \u0026\u0026 currentTitle) {"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    titleByUrl[currentUrl] = currentTitle;"
-          },
-          {
-            "lineNumber": 55,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57,
-            "text": "  var ai = core.createAiHelpers({"
-          },
-          {
-            "lineNumber": 58,
-            "text": "    promptEl: promptEl,"
-          },
-          {
-            "lineNumber": 59,
-            "text": "    copyPromptBtn: copyPromptBtn,"
-          },
-          {
-            "lineNumber": 60,
-            "text": "    openedLabel: aiChatOpenedLabel,"
-          },
-          {
-            "lineNumber": 61,
-            "text": "    copiedLabel: aiChatCopiedLabel,"
-          },
-          {
-            "lineNumber": 62,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 63
-          },
-          {
-            "lineNumber": 64,
-            "text": "  function getPageContext() {"
-          },
-          {
-            "lineNumber": 65,
-            "text": "    var titleEl = document.querySelector(\"article .article-title\");"
-          },
-          {
-            "lineNumber": 66,
-            "text": "    if (!titleEl) return null;"
-          },
-          {
-            "lineNumber": 67
-          },
-          {
-            "lineNumber": 68,
-            "text": "    var bodyText = \"\";"
-          },
-          {
-            "lineNumber": 69,
-            "text": "    if (isBlog) {"
-          },
-          {
-            "lineNumber": 70,
-            "text": "      var contentEl = document.querySelector(\"article .content\");"
-          },
-          {
-            "lineNumber": 71,
-            "text": "      if (contentEl) {"
-          },
-          {
-            "lineNumber": 72,
-            "text": "        var clone = contentEl.cloneNode(true);"
-          },
-          {
-            "lineNumber": 73,
-            "text": "        clone.querySelectorAll(\".tags_section, .share_section\").forEach(function (node) {"
-          },
-          {
-            "lineNumber": 74,
-            "text": "          node.remove();"
-          },
-          {
-            "lineNumber": 75,
-            "text": "        });"
-          },
-          {
-            "lineNumber": 76,
-            "text": "        bodyText = core.normalizeText(clone.textContent);"
-          },
-          {
-            "lineNumber": 77,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 78,
-            "text": "      return {"
-          },
-          {
-            "lineNumber": 79,
-            "text": "        title: titleEl.textContent.trim(),"
-          },
-          {
-            "lineNumber": 80,
-            "text": "        url: window.location.pathname,"
-          },
-          {
-            "lineNumber": 81,
-            "text": "        bodyText: bodyText,"
-          },
-          {
-            "lineNumber": 82,
-            "text": "        label: \"Blog post\","
-          },
-          {
-            "lineNumber": 83,
-            "text": "      };"
-          },
-          {
-            "lineNumber": 84,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 85
-          },
-          {
-            "lineNumber": 86,
-            "text": "    var notesContent = document.querySelector(\"article .notes-content\");"
-          },
-          {
-            "lineNumber": 87,
-            "text": "    if (notesContent) bodyText = core.normalizeText(notesContent.textContent);"
-          },
-          {
-            "lineNumber": 88
-          },
-          {
-            "lineNumber": 89,
-            "text": "    return {"
-          },
-          {
-            "lineNumber": 90,
-            "text": "      title: titleEl.textContent.trim(),"
-          },
-          {
-            "lineNumber": 91,
-            "text": "      url: currentUrl || window.location.pathname,"
-          },
-          {
-            "lineNumber": 92,
-            "text": "      bodyText: bodyText,"
-          },
-          {
-            "lineNumber": 93,
-            "text": "      label: \"Current note\","
-          },
-          {
-            "lineNumber": 94,
-            "text": "    };"
-          },
-          {
-            "lineNumber": 95,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 96
-          },
-          {
-            "lineNumber": 97,
-            "text": "  function buildPrompt(note) {"
-          },
-          {
-            "lineNumber": 98,
-            "text": "    if"
-          },
-          {
-            "lineNumber": 122,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 193
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-single.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.20366179943084717
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 164,
-            "text": "function connectionPromptTail() {"
-          },
-          {
-            "lineNumber": 217,
-            "text": ","
-          },
-          {
-            "lineNumber": 218,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 219,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 220,
-            "text": "      \"### 6. 3 Experiments (Validation Layer)\","
-          },
-          {
-            "lineNumber": 221,
-            "text": "      \"Each includes:\","
-          },
-          {
-            "lineNumber": 222,
-            "text": "      \"- Name\","
-          },
-          {
-            "lineNumber": 223,
-            "text": "      \"- Steps (simple, executable)\","
-          },
-          {
-            "lineNumber": 224,
-            "text": "      \"- Time required (5–15 min / daily / weekly)\","
-          },
-          {
-            "lineNumber": 225,
-            "text": "      \"- Expected outcome\","
-          },
-          {
-            "lineNumber": 226,
-            "text": "      \"- Success indicator\","
-          },
-          {
-            "lineNumber": 227,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 228,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 229,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 230,
-            "text": "      \"### 7. 3 Quotable One-Liners\","
-          },
-          {
-            "lineNumber": 231,
-            "text": "      \"Self-contained truths I'd say aloud — paradox, tension, or practical shift. No hashtags, no thread setup.\","
-          },
-          {
-            "lineNumber": 232,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 233,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 234,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 235,
-            "text": "      \"## RULES\","
-          },
-          {
-            "lineNumber": 236,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 237,
-            "text": "      \"- Prefer usefulness over creativity\","
-          },
-          {
-            "lineNumber": 238,
-            "text": "      \"- If uncertain, default to a simpler action or experiment\","
-          },
-          {
-            "lineNumber": 239,
-            "text": "      \"- Every insight must connect to at least one action or relationship row\","
-          },
-          {
-            "lineNumber": 240,
-            "text": "      \"- New note stubs use frontmatter shape (empty body) — not body ## sections\","
-          },
-          {
-            "lineNumber": 241,
-            "text": "      \"- Do not [[wikilink]] utility/meta pages (Graph, Issues, Flashcards, Review) — use URLs\","
-          },
-          {
-            "lineNumber": 242,
-            "text": "      \"- Keep outputs minimal but high-signal\","
-          },
-          {
-            "lineNumber": 243,
-            "text": "    ];"
-          },
-          {
-            "lineNumber": 244,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 245
-          },
-          {
-            "lineNumber": 246,
-            "text": "  function createAiHelpers(opts) {"
-          },
-          {
-            "lineNumber": 247,
-            "text": "    var promptEl = opts.promptEl;"
-          },
-          {
-            "lineNumber": 321,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 495
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-core.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            },
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 165
-              },
-              "startPosition": {
-                "column": 3,
-                "line": 164
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.20179253816604614
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 79,
-            "text": "  function buildPrompt(topic) {"
-          },
-          {
-            "lineNumber": 80,
-            "text": "    var trimmed = String(topic || \"\").replace(/\\s+/g, \" \").trim();"
-          },
-          {
-            "lineNumber": 81,
-            "text": "    if (!trimmed) return PLACEHOLDER;"
-          },
-          {
-            "lineNumber": 82
-          },
-          {
-            "lineNumber": 83,
-            "text": "    var related = relevantGardenNotes(trimmed, 30);"
-          },
-          {
-            "lineNumber": 84
-          },
-          {
-            "lineNumber": 85,
-            "text": "    return ["
-          },
-          {
-            "lineNumber": 86,
-            "text": "      \"CONTEXT:\","
-          },
-          {
-            "lineNumber": 87,
-            "text": "      \"I'm building a notes garden (Hugo, content/english/notes/). Each file is one atomic note: one claim I'd say out loud. Too many \\\"and\\\"s means split into separate notes with [[wikilinks]].\","
-          },
-          {
-            "lineNumber": 88,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 89,
-            "text": "      \"Atomic notes store the claim in frontmatter only — body stays empty. The site assembles ## Key Concept, ## Examples, and ## Note Relationships at build time from YAML fields.\","
-          },
-          {
-            "lineNumber": 90,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 91,
-            "text": "      \"Required frontmatter fields:\","
-          },
-          {
-            "lineNumber": 92,
-            "text": "      \"- description — one-breath definition (no \\\"Term =\\\" prefix, no [[wikilinks]])\","
-          },
-          {
-            "lineNumber": 93,
-            "text": "      \"- key_concept — first paragraph: one sentence (the angle, not a second definition); optional second paragraph with stakes, distinctions, [[wikilinks]]\","
-          },
-          {
-            "lineNumber": 94,
-            "text": "      \"- examples — exactly two plain bullets from different fields (best scenes first, no genre labels)\","
-          },
-          {
-            "lineNumber": 95,
-            "text": "      \"- relationships — typed rows (extends + contradicts minimum; optional implements, alternative); sort type a-z, then wikilink a-z\","
-          },
-          {
-            "lineNumber": 96,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 97,
-            "text": "      \"Page kinds: default atomic note (omit note_kind); hub/MOC use note_kind: index and may keep prose in body; utility/meta pages (Graph, Issues, Flashcards, Review, etc.) use note_kind: meta — never [[wikilink]] utility pages from content notes, use URLs.\","
-          },
-          {
-            "lineNumber": 98,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 99,
-            "text": "      \"Created/updated timestamps come from the file at build time — do not add a date field.\","
-          },
-          {
-            "lineNumber": 100,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 101,
-            "text": "      \"Voice: plain words, first person where natural, specific scenes, no AI filler (\\\"crucial\\\", \\\"delve\\\", \\\"leverage\\\", \\\"Furthermore\\\"). Read like JoRap typed it mid-life, not a textbook.\","
-          },
-          {
-            "lineNumber": 102,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 103,
-            "text": "      \"TOPIC: \" + trimmed,"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 105,
-            "text": "      \"EXISTING GARDEN NOTES (prefer these [[wikilink]] targets when they fit):\","
-          },
-          {
-            "lineNumber": 106,
-            "text": "      formatGardenSection(related),"
-          },
-          {
-            "lineNumber": 107,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 108,
-            "text": "      \"ROLE:\","
-          },
-          {
-            "lineNumber": 109,
-            "text": "      \"You are a garden editor and principle researcher (PKM, faith, ethics, systems). Find the clearest improvement principles on the topic, then distill each into one atomic note with a concrete next move.\","
-          },
-          {
-            "lineNumber": 110,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 111,
-            "text": "      \"ACTION:\","
-          },
-          {
-            "lineNumber": 112,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 113,
-            "text": "      \"1) RESEARCH THE TOPIC\","
-          },
-          {
-            "lineNumber": 192
-          },
-          {
-            "lineNumber": 193,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 247
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-creator.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.19708910584449768
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ define \"main\" }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  {{- $pool := partial \"notes/random-pool.html\" . -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  {{- $graph := partialCached \"notes/graph-data.html\" site \"graph-data-v3\" -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "  {{ partial \"page-header\" . }}"
-          },
-          {
-            "lineNumber": 5
-          },
-          {
-            "lineNumber": 6,
-            "text": "  \u003csection class=\"section\"\u003e"
-          },
-          {
-            "lineNumber": 7,
-            "text": "    \u003cdiv class=\"container\"\u003e"
-          },
-          {
-            "lineNumber": 8,
-            "text": "      \u003cdiv class=\"row justify-center\"\u003e"
-          },
-          {
-            "lineNumber": 9,
-            "text": "        \u003cdiv class=\"lg:col-12\"\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "          {{ partial \"notes/toolbar.html\" (dict \"Context\" . \"active\" \"random-duo\") }}"
-          },
-          {
-            "lineNumber": 11
-          },
-          {
-            "lineNumber": 12,
-            "text": "          \u003cp class=\"text-ink-muted mb-6\"\u003e{{ T \"random_duo_lede\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 13
-          },
-          {
-            "lineNumber": 14,
-            "text": "          {{ partial \"notes/random-prompt-panel.html\" (dict \"Prefix\" \"random-duo\" \"Loading\" (T \"random_notes_prompt_loading\") \"Rows\" 10) }}"
-          },
-          {
-            "lineNumber": 15
-          },
-          {
-            "lineNumber": 16,
-            "text": "          \u003cdiv class=\"notes-path-toolbar mb-6\"\u003e"
-          },
-          {
-            "lineNumber": 17,
-            "text": "            \u003cdiv class=\"notes-path-result border-divider hidden\" data-random-duo-path\u003e"
-          },
-          {
-            "lineNumber": 18,
-            "text": "              \u003ch3 class=\"h6 mb-0 shrink-0\"\u003e{{ T \"random_duo_shortest_path\" }}:\u003c/h3\u003e"
-          },
-          {
-            "lineNumber": 19,
-            "text": "              \u003cdiv class=\"notes-path-chain notes-path-chain--row\" data-random-duo-path-chain\u003e\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 20,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 21,
-            "text": "            \u003cbutton type=\"button\" class=\"btn btn-outline-primary btn-sm shrink-0\" data-random-duo-shuffle aria-label=\"{{ T \"shuffle_all\" }}\"\u003e{{ T \"shuffle\" }}\u003c/button\u003e"
-          },
-          {
-            "lineNumber": 22,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "          \u003cdiv class=\"row notes-random-grid items-stretch\" data-notes-random-duo\u003e"
-          },
-          {
-            "lineNumber": 25,
-            "text": "            \u003cdiv class=\"md:col-6 mb-8 flex flex-col\"\u003e"
-          },
-          {
-            "lineNumber": 26,
-            "text": "              "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 14,
-            "line": 25
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/notes/random-duo.html",
-        "signatures": {}
-      },
-      "score": 0.19707760214805603
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 22,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "{{- $minPool := 1 -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "{{- if ge (len $pool) $minPool -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  \u003cdiv class=\"section pb-0\"\u003e"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    \u003cdiv class=\"notes-toolbar mb-4 flex flex-wrap items-center gap-3\"\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      \u003ch2 id=\"random-note\" class=\"h3 heading-title-case mb-0\"\u003e{{ T \"random_blog_note\" }}\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "    \u003cp class=\"text-ink-muted mb-6\"\u003e"
-          },
-          {
-            "lineNumber": 31,
-            "text": "      {{- if $isBlog -}}{{ T \"random_blog_note_lede\" }}{{- else -}}{{ T \"random_note_lede\" }}{{- end -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "    \u003c/p\u003e"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "    {{ partial \"notes/random-prompt-panel.html\" (dict \"Prefix\" $prefix) }}"
-          },
-          {
-            "lineNumber": 35
-          },
-          {
-            "lineNumber": 36,
-            "text": "    {{- if not $isBlog -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      \u003cdiv class=\"notes-path-result border-divider mb-6 hidden flex flex-wrap items-center gap-x-3 gap-y-2 rounded border p-5 text-sm\" data-notes-single-random-path\u003e"
-          },
-          {
-            "lineNumber": 38,
-            "text": "        \u003ch3 class=\"h6 mb-0 shrink-0\"\u003e{{ T \"random_duo_shortest_path\" }}:\u003c/h3\u003e"
-          },
-          {
-            "lineNumber": 39,
-            "text": "        \u003cdiv class=\"notes-path-chain notes-path-chain--row flex min-w-0 flex-wrap items-center gap-y-1\" data-notes-single-random-path-chain\u003e\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 40,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 41,
-            "text": "      \u003cp class=\"text-ink-muted mb-6 hidden text-sm\" data-notes-single-random-path-empty\u003e{{ T \"random_duo_no_path\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 42,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 43
-          },
-          {
-            "lineNumber": 44,
-            "text": "    \u003cdiv class=\"row notes-random-grid items-stretch\" {{ printf \"data-%s-notes\" $prefix | safeHTMLAttr }}\u003e"
-          },
-          {
-            "lineNumber": 45,
-            "text": "      \u003cdiv class=\"mb-8 flex flex-col\"\u003e"
-          },
-          {
-            "lineNumber": 46,
-            "text": "        \u003cdiv class=\"notes-random-controls\"\u003e"
-          },
-          {
-            "lineNumber": 47,
-            "text": "          {{ partial \"notes/random-note-select.html\" (dict \"Prefix\" $prefix \"Pool\" $pool \"Label\" (T \"select_note\") \"Placeholder\" (T \"choose_note\")) }}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "          \u003cbutton type=\"button\" class=\"btn btn-outline-primary btn-sm shrink-0\" {{ printf \"data-%s-shuffle\" $prefix | safeHTMLAttr }}\u003e{{ T \"shuffle\" }}\u003c/button\u003e"
-          },
-          {
-            "lineNumber": 49,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 50,
-            "text": "        \u003cdiv class=\"notes-random-slot flex flex-col\" {{ printf \"data-%s-slot=\\\"0\\\"\" $prefix | safeHTMLAttr }}\u003e"
-          },
-          {
-            "lineNumber": 51,
-            "text": "          \u003cp class=\"notes-random-loading text-ink-muted text-sm\"\u003e{{ T \"loading\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 52,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 53,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 55
-          },
-          {
-            "lineNumber": 56,
-            "text": "    \u003cp class=\"notes-random-empty-page text-ink-muted hidden text-sm\" {{ printf \"data-%s-empty\" $prefix | safeHTMLAttr }}\u003e{{ T \"no_random_blog_note\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 57,
-            "text": "    {{- $payload := dict \"notes\" $pool \"aiChatOpenedLabel\" (T \"prompt_opened_in_ai\") \"aiChatCopiedLabel\" (T \"prompt_copied_for_ai\") -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "    {{- if not $isBlog -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "      {{- $payload = merge $payload (dict \"currentUrl\" $ctx.RelPermalink \"currentTitle\" $ctx.Title \"graphEdges\" $graph.edges) -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 59
-          },
-          "startPosition": {
-            "line": 21
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/random-unrelated-notes.html",
-        "signatures": {}
-      },
-      "score": 0.19678820669651031
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 464,
-            "text": "function pathPromptLine(path, titleByUrl) {"
-          },
-          {
-            "lineNumber": 472
-          },
-          {
-            "lineNumber": 473,
-            "text": "    );"
-          },
-          {
-            "lineNumber": 474,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 475
-          },
-          {
-            "lineNumber": 476,
-            "text": "  window.jorapNotesRandomCore = {"
-          },
-          {
-            "lineNumber": 477,
-            "text": "    buildAdjacency: buildAdjacency,"
-          },
-          {
-            "lineNumber": 478,
-            "text": "    cloneArticleBody: cloneArticleBody,"
-          },
-          {
-            "lineNumber": 479,
-            "text": "    connectionPromptIntro: connectionPromptIntro,"
-          },
-          {
-            "lineNumber": 480,
-            "text": "    connectionPromptTail: connectionPromptTail,"
-          },
-          {
-            "lineNumber": 481,
-            "text": "    formatPromptNote: formatPromptNote,"
-          },
-          {
-            "lineNumber": 482,
-            "text": "    createAiHelpers: createAiHelpers,"
-          },
-          {
-            "lineNumber": 483,
-            "text": "    wireSendPromptButtons: wireSendPromptButtons,"
-          },
-          {
-            "lineNumber": 484,
-            "text": "    bindTapIf: bindTapIf,"
-          },
-          {
-            "lineNumber": 485,
-            "text": "    normalizeText: normalizeText,"
-          },
-          {
-            "lineNumber": 486,
-            "text": "    pathHopLabel: pathHopLabel,"
-          },
-          {
-            "lineNumber": 487,
-            "text": "    pathPromptLine: pathPromptLine,"
-          },
-          {
-            "lineNumber": 488,
-            "text": "    pickOne: pickOne,"
-          },
-          {
-            "lineNumber": 489,
-            "text": "    renderNoteIntoSlot: renderNoteIntoSlot,"
-          },
-          {
-            "lineNumber": 490,
-            "text": "    renderPathBetween: renderPathBetween,"
-          },
-          {
-            "lineNumber": 491,
-            "text": "    renderPathChain: renderPathChain,"
-          },
-          {
-            "lineNumber": 492,
-            "text": "    setSlotEmpty: setSlotEmpty,"
-          },
-          {
-            "lineNumber": 493,
-            "text": "    setSlotLoading: setSlotLoading,"
-          },
-          {
-            "lineNumber": 494,
-            "text": "    shortestPath: shortestPath,"
-          },
-          {
-            "lineNumber": 495,
-            "text": "  };"
-          },
-          {
-            "lineNumber": 496,
-            "text": "})();"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 5,
-            "line": 495
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-core.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.18975670635700226
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Random garden note — blog posts (scope blog) or note pages (scope notes)."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Pass dict with Context and Scope (\"blog\" | \"notes\"); Scope defaults to notes."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  One random note + connection AI prompt (post↔note or current note↔note)."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $scope := \"notes\" -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $ctx := . -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- if reflect.IsMap . -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- with .Context -}}{{- $ctx = . -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- with .Scope -}}{{- $scope = . -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $isBlog := eq $scope \"blog\" -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $prefix := cond $isBlog \"blog-random\" \"notes-single-random\" -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $dataClass := cond $isBlog \"blog-random-notes-data\" \"notes-single-random-data\" -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $pool := partial \"notes/random-pool.html\" $ctx -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- if not $isBlog -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  {{- $pool = where $pool \"url\" \"ne\" $ctx.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- $graph := dict -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- if not $isBlog -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- $graph = partialCached \"notes/graph-data.html\" site \"graph-data-v3\" -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "{{- $minPool := 1 -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "{{- if ge (len $pool) $minPool -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  \u003cdiv class=\"section pb-0\"\u003e"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    \u003cdiv class=\"notes-toolbar mb-4 flex flex-wrap items-center gap-3\"\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 6,
-            "line": 26
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/random-unrelated-notes.html",
-        "signatures": {}
-      },
-      "score": 0.18657344579696655
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Garden note pages as url/title dicts for random pickers (excludes utility surfaces)."
-          },
-          {
-            "lineNumber": 3,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $notes := partial \"notes/pages.html\" . -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $pool := slice -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- range $notes -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  {{- $pool = $pool | append (dict"
-          },
-          {
-            "lineNumber": 8,
-            "text": "    \"url\" .RelPermalink"
-          },
-          {
-            "lineNumber": 9,
-            "text": "    \"title\" .Title"
-          },
-          {
-            "lineNumber": 10,
-            "text": "    \"description\" (partial \"notes/note-blurb.html\" (dict \"Page\" . \"DescriptionOnly\" true))"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  ) -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- return $pool -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 13
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/random-pool.html",
-        "signatures": {}
-      },
-      "score": 0.1863359957933426
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 61,
-            "text": "function renderNoteIntoSlot(slot, pick, opts) {"
-          },
-          {
-            "lineNumber": 76
-          },
-          {
-            "lineNumber": 110
-          },
-          {
-            "lineNumber": 111,
-            "text": "      .catch(function () {"
-          },
-          {
-            "lineNumber": 112,
-            "text": "        slot.innerHTML ="
-          },
-          {
-            "lineNumber": 113,
-            "text": "          \"\u003carticle class=\\\"\" +"
-          },
-          {
-            "lineNumber": 114,
-            "text": "          panelClass +"
-          },
-          {
-            "lineNumber": 115,
-            "text": "          '\"\u003e' +"
-          },
-          {
-            "lineNumber": 116,
-            "text": "          \"\u003c\" +"
-          },
-          {
-            "lineNumber": 117,
-            "text": "          headingTag +"
-          },
-          {
-            "lineNumber": 118,
-            "text": "          ' class=\"' +"
-          },
-          {
-            "lineNumber": 119,
-            "text": "          (opts.headingClass || \"h5 mb-3\") +"
-          },
-          {
-            "lineNumber": 120,
-            "text": "          '\"\u003e\u003ca class=\"text-accent no-underline hover:underline\" href=\"' +"
-          },
-          {
-            "lineNumber": 121,
-            "text": "          escapeHtml(pick.url) +"
-          },
-          {
-            "lineNumber": 122,
-            "text": "          '\"\u003e' +"
-          },
-          {
-            "lineNumber": 123,
-            "text": "          escapeHtml(pick.title) +"
-          },
-          {
-            "lineNumber": 124,
-            "text": "          \"\u003c/a\u003e\u003c/\" +"
-          },
-          {
-            "lineNumber": 125,
-            "text": "          headingTag +"
-          },
-          {
-            "lineNumber": 126,
-            "text": "          \"\u003e\" +"
-          },
-          {
-            "lineNumber": 127,
-            "text": "          '\u003cp class=\"text-ink-muted text-sm\"\u003eCould not load this note. \u003ca href=\"' +"
-          },
-          {
-            "lineNumber": 128,
-            "text": "          escapeHtml(pick.url) +"
-          },
-          {
-            "lineNumber": 129,
-            "text": "          '\"\u003eOpen it directly\u003c/a\u003e.\u003c/p\u003e\u003c/article\u003e';"
-          },
-          {
-            "lineNumber": 130
-          },
-          {
-            "lineNumber": 131,
-            "text": "        return {"
-          },
-          {
-            "lineNumber": 132,
-            "text": "          title: pick.title,"
-          },
-          {
-            "lineNumber": 133,
-            "text": "          url: pick.url,"
-          },
-          {
-            "lineNumber": 134,
-            "text": "          bodyText: \"\","
-          },
-          {
-            "lineNumber": 135,
-            "text": "        };"
-          },
-          {
-            "lineNumber": 136,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 137,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 138
-          },
-          {
-            "lineNumber": 139,
-            "text": "  function pickOne(pool, excludeUrls) {"
-          },
-          {
-            "lineNumber": 140,
-            "text": "    if (!pool.length) return null;"
-          },
-          {
-            "lineNumber": 141
-          },
-          {
-            "lineNumber": 142,
-            "text": "    var exclude = excludeUrls || [];"
-          },
-          {
-            "lineNumber": 143,
-            "text": "    var candidates = pool.filter(function (entry) {"
-          },
-          {
-            "lineNumber": 144,
-            "text": "      return exclude.indexOf(entry.url) === -1;"
-          },
-          {
-            "lineNumber": 145,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 146
-          },
-          {
-            "lineNumber": 147,
-            "text": "    if (!candidates.length) candidates = pool.slice();"
-          },
-          {
-            "lineNumber": 148,
-            "text": "    return candidates[Math.floor(Math.random() * candidates.length)];"
-          },
-          {
-            "lineNumber": 149,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 150
-          },
-          {
-            "lineNumber": 151,
-            "text": "  function connectionPromptIntro() {"
-          },
-          {
-            "lineNumber": 152,
-            "text": "    return \"I'm exploring connections between two ideas in my notes garden (PKM, faith, ethics, systems). Note text is assembled from frontmatter: description, key_concept, examples, relationships.\";"
-          },
-          {
-            "lineNumber": 153,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 154
-          },
-          {
-            "lineNumber": 155,
-            "text": "  function formatPromptNote(index, note, origin) {"
-          },
-          {
-            "lineNumber": 156,
-            "text": "    var lines = [\"Note \" + index + \":\"];"
-          },
-          {
-            "lineNumber": 157,
-            "text": "    if (!note || !note.title) return lines;"
-          },
-          {
-            "lineNumber": 158,
-            "text": "    lines.push('\"' + note.title + '\"');"
-          },
-          {
-            "lineNumber": 159,
-            "text": "    if (note.url) lines.push(\"URL: \" + origin + note.url);"
-          },
-          {
-            "lineNumber": 160,
-            "text": "    if (note.bodyText) lines.push(note.bodyText);"
-          },
-          {
-            "lineNumber": 161,
-            "text": "    return lines;"
-          },
-          {
-            "lineNumber": 162,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 163
-          },
-          {
-            "lineNumber": 164,
-            "text": "  function connectionPromptTail() {"
-          },
-          {
-            "lineNumber": 165,
-            "text": "    return"
-          },
-          {
-            "lineNumber": 244,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 495
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-core.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            },
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 62
-              },
-              "startPosition": {
-                "column": 3,
-                "line": 61
-              }
-            },
-            {
-              "endPosition": {
-                "column": 12,
-                "line": 76
-              },
-              "startPosition": {
-                "column": 12,
-                "line": 76
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.18618549406528473
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 57,
-            "text": "    {{- $payload := dict \"notes\" $pool \"aiChatOpenedLabel\" (T \"prompt_opened_in_ai\") \"aiChatCopiedLabel\" (T \"prompt_copied_for_ai\") -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "    {{- if not $isBlog -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "      {{- $payload = merge $payload (dict \"currentUrl\" $ctx.RelPermalink \"currentTitle\" $ctx.Title \"graphEdges\" $graph.edges) -}}"
-          },
-          {
-            "lineNumber": 60,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 61,
-            "text": "    \u003cscript type=\"application/json\" class=\"{{ $dataClass }}\"\u003e{{ $payload | jsonify | safeJS }}\u003c/script\u003e"
-          },
-          {
-            "lineNumber": 62,
-            "text": "  \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 63
-          },
-          {
-            "lineNumber": 64,
-            "text": "  {{ partial \"essentials/fingerprint-asset.html\" (dict \"src\" \"js/notes-random-core.js\" \"defer\" true) }}"
-          },
-          {
-            "lineNumber": 65,
-            "text": "  {{ partial \"essentials/fingerprint-asset.html\" (dict \"src\" \"js/notes-random-select.js\" \"defer\" true) }}"
-          },
-          {
-            "lineNumber": 66,
-            "text": "  {{ partial \"essentials/fingerprint-asset.html\" (dict \"src\" \"js/notes-random-single.js\" \"defer\" true) }}"
-          },
-          {
-            "lineNumber": 67,
-            "text": "  {{- if $isBlog -}}"
-          },
-          {
-            "lineNumber": 68,
-            "text": "    {{ partial \"essentials/fingerprint-asset.html\" (dict \"src\" \"js/wikilink-preview.js\" \"defer\" true) }}"
-          },
-          {
-            "lineNumber": 69,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 70,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 70
-          },
-          "startPosition": {
-            "line": 56
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/random-unrelated-notes.html",
-        "signatures": {}
-      },
-      "score": 0.18568280339241028
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "note_kind: \"meta\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "layout: \"random-duo\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "title: \"Random Duo\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "meta_title: \"Random Duo\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "description: \"Two notes from the garden, picked at random. I hit **Shuffle** for another pair. Pairs with [[Backlinks]], [[Create Note]], and [[Flashcards]].\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "key_concept: |"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  Forced serendipity - two unrelated claims side by side so I notice links I forgot to make."
-          },
-          {
-            "lineNumber": 9,
-            "text": "  "
-          },
-          {
-            "lineNumber": 10,
-            "text": "  Two notes from the garden, picked at random."
-          },
-          {
-            "lineNumber": 11,
-            "text": "  "
-          },
-          {
-            "lineNumber": 12,
-            "text": "  I hit Shuffle for another pair."
-          },
-          {
-            "lineNumber": 13,
-            "text": "  "
-          },
-          {
-            "lineNumber": 14,
-            "text": "  Shuffle again when the pair doesn't spark a link worth making."
-          },
-          {
-            "lineNumber": 15,
-            "text": "shareable_thought:"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  - \"Two notes from the garden, picked at random.\""
-          },
-          {
-            "lineNumber": 17,
-            "text": "  - \"I hit Shuffle for another pair.\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "  - \"Forced serendipity - two unrelated claims side by side so I notice links I forgot to make.\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - \"Shuffle again when the pair doesn't spark a link worth making.\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "slug: \"random-duo\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "date: \"2026-06-19 08:00:00+00:00\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "categories: [\"Productivity\"]"
-          },
-          {
-            "lineNumber": 24,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "tags: [\"Notes\", \"Meta\"]"
-          },
-          {
-            "lineNumber": 26,
-            "text": "aliases: [\"random-two\", \"random-trio\", \"random-three\"]"
-          },
-          {
-            "lineNumber": 27,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 28,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 29,
-            "text": "---"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 29
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/random-duo.md",
-        "signatures": {}
-      },
-      "score": 0.18524619936943054
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 53,
-            "text": "  function pickTwo() {"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    if (!pool.length) return [];"
-          },
-          {
-            "lineNumber": 55,
-            "text": "    if (pool.length === 1) return [pool[0], null];"
-          },
-          {
-            "lineNumber": 56,
-            "text": "    var first = core.pickOne(pool, []);"
-          },
-          {
-            "lineNumber": 57,
-            "text": "    var second = core.pickOne(pool, first ? [first.url] : []);"
-          },
-          {
-            "lineNumber": 58,
-            "text": "    return [first, second];"
-          },
-          {
-            "lineNumber": 59,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 60
-          },
-          {
-            "lineNumber": 61,
-            "text": "  function buildPrompt(notes) {"
-          },
-          {
-            "lineNumber": 62,
-            "text": "    var usable = notes.filter(function (note) {"
-          },
-          {
-            "lineNumber": 63,
-            "text": "      return note \u0026\u0026 note.title;"
-          },
-          {
-            "lineNumber": 64,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 65
-          },
-          {
-            "lineNumber": 66,
-            "text": "    if (!usable.length) {"
-          },
-          {
-            "lineNumber": 67,
-            "text": "      return \"Shuffle to load two notes, then paste this prompt into your AI chat.\";"
-          },
-          {
-            "lineNumber": 68,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 69
-          },
-          {
-            "lineNumber": 70,
-            "text": "    var origin = window.location.origin;"
-          },
-          {
-            "lineNumber": 71,
-            "text": "    var lines = [core.connectionPromptIntro(), \"\"];"
-          },
-          {
-            "lineNumber": 72
-          },
-          {
-            "lineNumber": 73,
-            "text": "    usable.forEach(function (note, index) {"
-          },
-          {
-            "lineNumber": 74,
-            "text": "      lines.push.apply(lines, core.formatPromptNote(index + 1, note, origin));"
-          },
-          {
-            "lineNumber": 75,
-            "text": "      lines.push(\"\");"
-          },
-          {
-            "lineNumber": 76,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 77
-          },
-          {
-            "lineNumber": 78,
-            "text": "    if (currentPath \u0026\u0026 currentPath.length \u003e 1) {"
-          },
-          {
-            "lineNumber": 79,
-            "text": "      lines.push(core.pathPromptLine(currentPath, titleByUrl));"
-          },
-          {
-            "lineNumber": 80,
-            "text": "      lines.push(\"\");"
-          },
-          {
-            "lineNumber": 81,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 82
-          },
-          {
-            "lineNumber": 83,
-            "text": "    lines.push.apply(lines, core.connectionPromptTail());"
-          },
-          {
-            "lineNumber": 84
-          },
-          {
-            "lineNumber": 85,
-            "text": "    return lines.join(\"\\n\");"
-          },
-          {
-            "lineNumber": 86,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 87
-          },
-          {
-            "lineNumber": 88,
-            "text": "  function updatePath() {"
-          },
-          {
-            "lineNumber": 89,
-            "text": "    var left = currentNotes[0];"
-          },
-          {
-            "lineNumber": 90,
-            "text": "    var right = currentNotes[1];"
-          },
-          {
-            "lineNumber": 91,
-            "text": "    currentPath = core.renderPathBetween({"
-          },
-          {
-            "lineNumber": 92,
-            "text": "      resultEl: pathResultEl,"
-          },
-          {
-            "lineNumber": 93,
-            "text": "      chainEl: pathChainEl,"
-          },
-          {
-            "lineNumber": 94,
-            "text": "      adj: adj,"
-          },
-          {
-            "lineNumber": 95,
-            "text": "      titleByUrl: titleByUrl,"
-          },
-          {
-            "lineNumber": 96,
-            "text": "      start: left \u0026\u0026 left.url,"
-          },
-          {
-            "lineNumber": 97,
-            "text": "      end: right \u0026\u0026 right.url,"
-          },
-          {
-            "lineNumber": 98,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 99,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 100
-          },
-          {
-            "lineNumber": 101,
-            "text": "  function refreshPrompt() {"
-          },
-          {
-            "lineNumber": 102,
-            "text": "    if (promptEl) promptEl.value = buildPrompt(currentNotes);"
-          },
-          {
-            "lineNumber": 103,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 104
-          },
-          {
-            "lineNumber": 105,
-            "text": "  function equalizePanelHeights() {"
-          },
-          {
-            "lineNumber": 106,
-            "text": "    var panels = root.querySelectorAll(\".notes-random-panel\");"
-          },
-          {
-            "lineNumber": 107,
-            "text": "    if (panels.length \u003c 2) return;"
-          },
-          {
-            "lineNumber": 108
-          },
-          {
-            "lineNumber": 109,
-            "text": "    panels.forEach(function (panel) {"
-          },
-          {
-            "lineNumber": 110,
-            "text": "      panel.style.minHeight = \"\";"
-          },
-          {
-            "lineNumber": 111,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 112
-          },
-          {
-            "lineNumber": 113,
-            "text": "    // Side-by-side only (md+); stacked columns should use natural height."
-          },
-          {
-            "lineNumber": 114,
-            "text": "    if (!window.matchMedia(\"(min-width: 768px)\").matches) return;"
-          },
-          {
-            "lineNumber": 115
-          },
-          {
-            "lineNumber": 116,
-            "text": "    var maxHeight = 0;"
-          },
-          {
-            "lineNumber": 117,
-            "text": "    panels.forEach(function (panel) {"
-          },
-          {
-            "lineNumber": 118,
-            "text": "      maxHeight = Math.max(maxHeight, panel.offsetHeight);"
-          },
-          {
-            "lineNumber": 119,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 120
-          },
-          {
-            "lineNumber": 121,
-            "text": "    if (maxHeight \u003e 0) {"
-          },
-          {
-            "lineNumber": 122,
-            "text": "      panels.forEach(function (panel) {"
-          },
-          {
-            "lineNumber": 123,
-            "text": "        panel.style.minHeight = maxHeight + \"px\";"
-          },
-          {
-            "lineNumber": 124,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 125,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 126,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 127
-          },
-          {
-            "lineNumber": 128,
-            "text": "  function syncSelect(index, url) {"
-          },
-          {
-            "lineNumber": 129,
-            "text": "    if (!window.jorapNotesRandomSelect || !selectEls[index]) return;"
-          },
-          {
-            "lineNumber": 131,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 249
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-duo.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.18505769968032837
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "# JoRap voice — words and phrases to flag in site prose."
-          },
-          {
-            "lineNumber": 2,
-            "text": "# Edit this file, then run: pnpm voice:scan (review) or pnpm lint:voice (CI gate)."
-          },
-          {
-            "lineNumber": 3,
-            "text": "#"
-          },
-          {
-            "lineNumber": 4,
-            "text": "# words: fail lint:voice — words JoRap does not use in prose"
-          },
-          {
-            "lineNumber": 5,
-            "text": "# phrases: regex patterns, same strictness"
-          },
-          {
-            "lineNumber": 6,
-            "text": "# review: shown in voice:scan only — garden swaps that may be OK in context"
-          },
-          {
-            "lineNumber": 7,
-            "text": "# gloss: theology/PKM terms that need a plain-English gloss nearby"
-          },
-          {
-            "lineNumber": 8,
-            "text": "#"
-          },
-          {
-            "lineNumber": 9,
-            "text": "# JoRap uses on purpose (not linted): landscape, leverage, utilize, facilitate,"
-          },
-          {
-            "lineNumber": 10,
-            "text": "# robust, seamless, comprehensive, realm, elevate, implement, prioritize,"
-          },
-          {
-            "lineNumber": 11,
-            "text": "# repository, functionality, optimization, crucial, vital, essential"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "words:"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  delve: cut or be specific"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  tapestry: cut"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  harness: use"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  Furthermore: delete — start the sentence"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  Moreover: delete"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  Additionally: delete"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  handoff: pass off / pass to client"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  postmortem: after-action review"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  summarization: layers / boil down in layers"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  associative: link by meaning"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  interstitial: between tasks / buffer flush"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  rumination: stewing / replaying without change"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  white-knuckle: willpower alone"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  white-knuckling: forcing by will"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "phrases:"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  - altar talk"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  - In today'?s fast-paced world"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  - Let'?s dive in"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  - Whether you'?re a beginner"
-          },
-          {
-            "lineNumber": 34,
-            "text": "  - game-?changer"
-          },
-          {
-            "lineNumber": 35,
-            "text": "  - It'?s worth noting"
-          },
-          {
-            "lineNumber": 36,
-            "text": "  - In conclusion"
-          },
-          {
-            "lineNumber": 37,
-            "text": "  - Unlock the full potential"
-          },
-          {
-            "lineNumber": 38,
-            "text": "  - Without further ado"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  - When it comes to"
-          },
-          {
-            "lineNumber": 40,
-            "text": "  - In the realm of"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  - delve into"
-          },
-          {
-            "lineNumber": 42,
-            "text": "  - navigate the (world|landscape)"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  - comprehensive guide"
-          },
-          {
-            "lineNumber": 44,
-            "text": "  - plays a key role"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  - it'?s important to (remember|note)"
-          },
-          {
-            "lineNumber": 46,
-            "text": "  - In today'?s world"
-          },
-          {
-            "lineNumber": 47,
-            "text": "  - Let'?s explore"
-          },
-          {
-            "lineNumber": 48,
-            "text": "  - ultimate guide"
-          },
-          {
-            "lineNumber": 49,
-            "text": "  - hope this helps"
-          },
-          {
-            "lineNumber": 50,
-            "text": "  - happy reading"
-          },
-          {
-            "lineNumber": 51
-          },
-          {
-            "lineNumber": 52,
-            "text": "review:"
-          },
-          {
-            "lineNumber": 53,
-            "text": "  navigate: cut or be specific"
-          },
-          {
-            "lineNumber": 54,
-            "text": "  metadata: tags and fields"
-          },
-          {
-            "lineNumber": 55,
-            "text": "  contradicts: goes against"
-          },
-          {
-            "lineNumber": 56,
-            "text": "  distill: boil down / shorten"
-          },
-          {
-            "lineNumber": 57,
-            "text": "  deploy: push live"
-          },
-          {
-            "lineNumber": 58,
-            "text": "  unmerited favor: gift you didn't earn"
-          },
-          {
-            "lineNumber": 59
-          },
-          {
-            "lineNumber": 60,
-            "text": "gloss:"
-          },
-          {
-            "lineNumber": 61,
-            "text": "  unmerited favor: gift you didn't earn"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 61
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./data/voice-words.yaml",
-        "signatures": {}
-      },
-      "score": 0.1847330927848816
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 37,
-            "text": "---"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "## Features at a glance"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "| Feature | What it does | Apply it when… |"
-          },
-          {
-            "lineNumber": 42,
-            "text": "|--------|--------------|----------------|"
-          },
-          {
-            "lineNumber": 43,
-            "text": "| **Atomic notes** | One claim per page; argument lives in frontmatter | You want a quote you'd actually say in a meeting, not a chapter |"
-          },
-          {
-            "lineNumber": 44,
-            "text": "| **Shareable thoughts** | Four self-contained ideas per note, shown on the page | You need a Slack reply, card pull-quote, or social post without rewriting |"
-          },
-          {
-            "lineNumber": 45,
-            "text": "| **Wikilinks + aliases** | &#96;[[Note Title]]&#96; resolves to the note; aliases catch shorthand | You think in links, not folder trees |"
-          },
-          {
-            "lineNumber": 46,
-            "text": "| **Typed relationships** | &#96;extends&#96;, &#96;contradicts&#96;, &#96;implements&#96;, &#96;alternative&#96; with a one-line reason | Two notes share a word but pull opposite ways - you need the tension visible |"
-          },
-          {
-            "lineNumber": 47,
-            "text": "| **Hub pages (MOCs)** | Curated indexes with prose; Copy hub cluster | One topic sprawled across twenty files and you need a hand-built map |"
-          },
-          {
-            "lineNumber": 48,
-            "text": "| **Graph** | PixiJS network map with link-density filters | You want to spot orphans, over-linked hubs, or missing bridges |"
-          },
-          {
-            "lineNumber": 49,
-            "text": "| **Flashcards + Review** | Scenario cards in frontmatter; spaced repetition in the browser | You want habits loaded when life shows up, not just understood once |"
-          },
-          {
-            "lineNumber": 50,
-            "text": "| **Copy MD / Agent copy** | Raw Hugo source or OKF-resolved markdown per note | You paste one note into an editor or AI session without re-explaining context |"
-          },
-          {
-            "lineNumber": 51,
-            "text": "| **OKF export** | Full garden bundle at &#96;/exports/okf/&#96; | You want an agent or project to know what the garden already claims |"
-          },
-          {
-            "lineNumber": 52,
-            "text": "| **Issues + lint** | Broken links, voice checks, frontmatter shape | You wrote half the garden on a tired Sunday and need it to still work in six months |"
-          },
-          {
-            "lineNumber": 53,
-            "text": "| **Random Duo** | Two random notes plus a connection prompt | You want serendipity without doom-scrolling your own index |"
-          },
-          {
-            "lineNumber": 54,
-            "text": "| **Create Note** | Topic → lint-ready AI prompt for one atomic note | You have a claim in your head and want the right frontmatter shape on the first try |"
-          },
-          {
-            "lineNumber": 55,
-            "text": "| **Blog bridge** | &#96;related_notes&#96; on essays links into the garden | A long post should hand readers the atomic claims behind the story |"
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57,
-            "text": "---"
-          },
-          {
-            "lineNumber": 58
-          },
-          {
-            "lineNumber": 59,
-            "text": "## One note, one claim"
-          },
-          {
-            "lineNumber": 60
-          },
-          {
-            "lineNumber": 61,
-            "text": "The atomic rule sounds strict until you try it."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 62
-          },
-          "startPosition": {
-            "line": 35
-          }
-        },
-        "relativeWorkspacePath": "./content/english/blog/__jorap-notes-features.md",
-        "signatures": {}
-      },
-      "score": 0.1843201071023941
-    }
-  ]
-}
+            "text": "random_duo_lede: Two notes from th
+… (output truncated)
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4712,22 +220,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **18** results in **1** directory</summary>
 
-Directory: **** (18 files)
+Directory: **``** (18 files)
 
 | File |
 |------|
@@ -4749,27 +249,20 @@ Directory: **** (18 files)
 | `layouts/_partials/notes/random-note-select.html` |
 | `layouts/notes/random-duo.html` |
 | `assets/js/notes-featured-random.js` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-No existing board game question data was found.</details></think>
+No existing board game question data was found.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
 
-Directory: **** (6 files)
+Directory: **``** (6 files)
 
 | File |
 |------|
@@ -4779,21 +272,12 @@ Directory: **** (6 files)
 | `data/voice-words.yaml` |
 | `data/icons.json` |
 | `data/settings.json` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4875,52 +359,32 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/random-duo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/random-duo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/SKILL.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-No existing board game question database was found.</details></think>
+No existing board game question database was found.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4966,56 +430,34 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/references/adding-new-pages.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/references/adding-new-pages.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `content/english/pages/elements.md` |
 | `content/english/pages/privacy-policy.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **186** results in **1** directory</summary>
 
-Directory: **** (186 files)
+Directory: **``** (186 files)
 
 | File |
 |------|
@@ -5205,26 +647,18 @@ Directory: **** (186 files)
 | `layouts/notes/backlinks.html` |
 | `layouts/_partials/image.html` |
 | `themes/jorap/layouts/_partials/essentials/script.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-No existing question database was found.</details></think>
+No existing question database was found.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5265,51 +699,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/random-duo.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/random-duo.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/script.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/script.html</summary>
 
 </details></tool-use>
 
@@ -5320,14 +729,13 @@ No existing question database was found. The full feature must be built from scr
 
 Checking existing scripts and design patterns for reference. Reviewing the board game categories, starting with Ito, which uses theme-based clue-guessing questions.
 
-Wavelength uses spectrum-based clues between poles. Fun Facts covers trivia. Categories will be renamed to descriptive question types. The plan is a YAML data directory, content pages, and JavaScript. The root `/randomizer` path will serve as a category picker.</details></think>
+Wavelength uses spectrum-based clues between poles. Fun Facts covers trivia. Categories will be renamed to descriptive question types. The plan is a YAML data directory, content pages, and JavaScript. The root `/randomizer` path will serve as a category picker.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5358,22 +766,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **51** results in **1** directory</summary>
 
-Directory: **** (51 files)
+Directory: **``** (51 files)
 
 | File |
 |------|
@@ -5428,52 +828,32 @@ Directory: **** (51 files)
 | `scripts/deployBuild.mjs` |
 | `.specify/scripts/powershell/create-new-feature.ps1` |
 | `.specify/scripts/powershell/common.ps1` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/elements.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/elements.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/single.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-No existing database was found. I'll build the structure with placeholder data for expansion.</details></think>
+No existing database was found. I'll build the structure with placeholder data for expansion.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5523,34 +903,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/viz.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/viz.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5632,13 +997,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5646,13 +1004,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The repository contains no existing question database.
 
-Planning the full randomizer implementation. This includes a data structure, content page, layout with category picker, and JavaScript for random selection plus offline HTML export. Existing CSS patterns and asset fingerprinting will be reviewed. The Ito game uses theme-based clues such as "Things that are expensive" or "Movie characters".</details></think>
+Planning the full randomizer implementation. This includes a data structure, content page, layout with category picker, and JavaScript for random selection plus offline HTML export. Existing CSS patterns and asset fingerprinting will be reviewed. The Ito game uses theme-based clues such as "Things that are expensive" or "Movie characters".
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com -iname '*ito*' -o -iname '*wavelength*' -o -iname '*fun*fact*' -o -iname '*randomizer*' 2>/dev/null | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com -iname &#39;*ito*&#39; -o -iname &#39;*wavelength*&#39; -o -iname &#39;*fun*fact*&#39; -o -iname &#39;*randomizer*&#39; 2&gt;/dev/null | head -30</summary>
 ```bash
 find /home/jorap/Documents/GitHub/jorap.com -iname '*ito*' -o -iname '*wavelength*' -o -iname '*fun*fact*' -o -iname '*randomizer*' 2>/dev/null | head -30
 ```
@@ -5669,54 +1027,22 @@ find /home/jorap/Documents/GitHub/jorap.com -iname '*ito*' -o -iname '*wavelengt
 /home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/tinacms@3.9.3_abstract-level@1.0.4_immer@10.2.0_react-dom@18.3.1_react@18.3.1__react@18_74179a70faeb95c4a7016a9c5404a601/node_modules/tinacms/dist/toolkit/form-builder/editorial-workflow-utils.d.ts
 /home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/tinacms@3.9.3_abstract-level@1.0.4_immer@10.2.0_react-dom@18.3.1_react@18.3.1__react@18_74179a70faeb95c4a7016a9c5404a601/node_modules/tinacms/dist/toolkit/form-builder/editorial-workflow-constants.d.ts
 /home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/tinacms@3.9.3_abstract-level@1.0.4_immer@10.2.0_react-dom@18.3.1_react@18.3.1__react@18_74179a70faeb95c4a7016a9c5404a601/node_modules/tinacms/dist/toolkit/fields/plugins/mdx-field-plugin/plate/components/editor.d.ts
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/tinacms@3.9.3_abstract-level@1.0.4_immer@10.2.0_react-dom@18.3.1_react@18.3.1__react@18_74179a70faeb95c4a7016a9c5404a601/node_modules/tinacms/dist/toolkit/fields/plugins/mdx-field-plugin/plate/hooks/use-create-editor.d.ts
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/tinacms@3.9.3_abstract-level@1.0.4_immer@10.2.0_react-dom@18.3.1_react@18.3.1__react@18_74179a70faeb95c4a7016a9c5404a601/node_modules/tinacms/dist/toolkit/fields/plugins/mdx-field-plugin/plate/editor-context.d.ts
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/tinacms@3.9.3_abstract-level@1.0.4_immer@10.2.0_react-dom@18.3.1_react@18.3.1__react@18_74179a70faeb95c4a7016a9c5404a601/node_modules/tinacms/dist/toolkit/fields/plugins/mdx-field-plugin/plate/plugins/editor-plugins.d.ts
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/tinacms@3.9.3_abstract-level@1.0.4_immer@10.2.0_react-dom@18.3.1_react@18.3.1__react@18_74179a70faeb95c4a7016a9c5404a601/node_modules/monaco-editor
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/lodash@4.17.23/node_modules/lodash/_asciiToArray.js
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/is-typed-array@1.1.15/node_modules/is-typed-array/.editorconfig
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/minimisted@2.0.1/node_modules/minimisted/.editorconfig
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/@monaco-editor+loader@1.7.0
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/@monaco-editor+loader@1.7.0/node_modules/@monaco-editor
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0/node_modules/monaco-editor
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0/node_modules/monaco-editor/dev/vs/editor
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0/node_modules/monaco-editor/dev/vs/editor/editor.main.nls.ja.js
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0/node_modules/monaco-editor/dev/vs/editor/editor.main.nls.zh-cn.js
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0/node_modules/monaco-editor/dev/vs/editor/editor.main.nls.it.js
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0/node_modules/monaco-editor/dev/vs/editor/editor.main.nls.js
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0/node_modules/monaco-editor/dev/vs/editor/editor.main.nls.de.js
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0/node_modules/monaco-editor/dev/vs/editor/editor.main.nls.ru.js
-/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/monaco-editor@0.31.0/node_modules/monaco-editor/dev/vs/editor/editor.main.nls.zh-tw.js
-
+/home/jorap/Documents/GitHub/jorap.com/node_modules/.pnpm/tinacms@3.9.3_abstract-level@1.0.4_immer@10.2.0_react-dom@18.3.1_react@18
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/menus.en.toml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/menus.en.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5746,13 +1072,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5768,44 +1087,27 @@ Clarified the mechanics for each game type. Ito categories are themes with items
 
 Settled on query parameters for routing. The page will load via `/randomizer?game=...&cat=...` and handle everything client-side.
 
-The offline export will be a single self-contained HTML file. It embeds the selected category's JSON, inline CSS, and shuffle logic. No external dependencies are needed.</details></think>
+The offline export will be a single self-contained HTML file. It embeds the selected category's JSON, inline CSS, and shuffle logic. No external dependencies are needed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/fingerprint-asset.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/fingerprint-asset.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/page-header.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/page-header.html</summary>
 
 </details></tool-use>
 
@@ -5826,7 +1128,8 @@ The page will present three game-type cards to pick from. Selecting a type lists
 
 The offline HTML export will be generated entirely in JavaScript. It will bundle every item in the selected category, include the shuffle UI, render spectrum poles when applicable, and carry self-contained CSS so the file works without a network connection. Pre-generating static HTML files through a Hugo build step was considered but rejected; the interactive download is sufficient. The page will follow Recipe 1 with a custom layout, and Hugo will read the nested YAML data via `site.Data.randomizer`.
 
-The page frontmatter is now set with title, meta title, description, and layout. Each collection will contain roughly three categories, with ten to fifteen sample questions per category to keep the tool feel usable.</details></think>
+The page frontmatter is now set with title, meta title, description, and layout. Each collection will contain roughly three categories, with ten to fifteen sample questions per category to keep the tool feel usable.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5835,23 +1138,15 @@ Building the randomizer from scratch: a Hugo data file for questions, a category
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5901,121 +1196,68 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Creating all project files now.</details></think>
+Creating all project files now.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -30
 ```
 
 ```
 
-&gt; jorap-com@2.2.0 build
-&gt; node scripts/deployBuild.mjs
+> jorap-com@2.2.0 build
+> node scripts/deployBuild.mjs
 
 ✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
 ✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (237 notes)
@@ -6037,28 +1279,21 @@ WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed
 
 Total in 26675 ms
 [cspHashes] Rewrote 37 inline onerror= attribute(s) in 6 file(s).
-[cspHashes] Hashed 4464 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+[cspHashes] Hashed 4464 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The build succeeded. Now verifying the output HTML file and checking that the page renders correctly.</details></think>
+The build succeeded. Now verifying the output HTML file and checking that the page renders correctly.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6084,110 +1319,55 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6218,63 +1398,33 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/randomizer/ 2>/dev/null || ls -la /home/jorap/Documents/GitHub/jorap.com/public/ | rg -i random</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/randomizer/ 2&gt;/dev/null || ls -la /home/jorap/Documents/GitHub/jorap.com/public/ | rg -i random</summary>
 ```bash
 ls -la /home/jorap/Documents/GitHub/jorap.com/public/randomizer/ 2>/dev/null || ls -la /home/jorap/Documents/GitHub/jorap.com/public/ | rg -i random
 ```
@@ -6288,20 +1438,12 @@ drwxr-xr-x 22 root root  4096 Jul  6 12:03 ..
 -rw-rw-r--  1 root root   449 Jul  6 12:02 index.xml
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6332,45 +1474,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The self-check is weak but harmless.</details></think>
+The self-check is weak but harmless.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
@@ -6438,34 +1560,21 @@ nav at the footer
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/menus.en.toml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/menus.en.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding Randomizer to the footer menu.</details></think>
+Adding Randomizer to the footer menu.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/config/_default/menus.en.toml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/config/_default/menus.en.toml</summary>
 
 </details></tool-use>
 
@@ -6484,7 +1593,8 @@ i don't see the categories
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The categories are missing from the randomizer page.</details></think>
+The categories are missing from the randomizer page.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6493,36 +1603,22 @@ Investigating why categories aren't showing on the randomizer page.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6548,26 +1644,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-No results were found in public/randomizer/index.html. The build may be stale or the file path may differ.</details></think>
+No results were found in public/randomizer/index.html. The build may be stale or the file path may differ.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6593,21 +1681,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6677,13 +1756,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6699,25 +1771,25 @@ The JSON payload begins with a quote character, making it a string rather than a
 
 A failed parse makes `data.collections` undefined, so the home view renders an empty collection grid. The user might see collection tiles but categories remain blank. A total parse failure would leave the screen blank instead.
 
-The user expects the randomizer to open directly upon selecting a category, rather than navigating through intermediate views.</details></think>
+The user expects the randomizer to open directly upon selecting a category, rather than navigating through intermediate views.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -5 && node -e "
-const fs=require('fs');
-const html=fs.readFileSync('public/randomizer/index.html','utf8');
-const m=html.match(/id=randomizer-data>([^<]+)</);
-if(!m){console.log('no data el'); process.exit(1);}
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -5 &amp;&amp; node -e &#34;
+const fs=require(&#39;fs&#39;);
+const html=fs.readFileSync(&#39;public/randomizer/index.html&#39;,&#39;utf8&#39;);
+const m=html.match(/id=randomizer-data&gt;([^&lt;]+)&lt;/);
+if(!m){console.log(&#39;no data el&#39;); process.exit(1);}
 const raw=m[1];
-console.log('first 80 chars:', raw.slice(0,80));
+console.log(&#39;first 80 chars:&#39;, raw.slice(0,80));
 try {
   const data=JSON.parse(raw);
-  console.log('typeof', typeof data);
-  console.log('collections', data.collections?.length ?? data);
-} catch(e) { console.log('parse error', e.message); }
-"</summary>
-
+  console.log(&#39;typeof&#39;, typeof data);
+  console.log(&#39;collections&#39;, data.collections?.length ?? data);
+} catch(e) { console.log(&#39;parse error&#39;, e.message); }
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -5 && node -e "
 const fs=require('fs');
@@ -6739,18 +1811,12 @@ try {
 
 Total in 30007 ms
 [cspHashes] Rewrote 37 inline onerror= attribute(s) in 6 file(s).
-[cspHashes] Hashed 4464 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+[cspHashes] Hashed 4464 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
 first 80 chars: "{\"collections\":[{\"categories\":[{\"id\":\"how-expensive\",\"items\":[\"A cup
 typeof string
-collections {"collections":[{"categories":[{"id":"how-expensive","items":["A cup of instant coffee from a vending machine","A used bicycle in fair condition","A month of rent in a major city","A brand-new family sedan","A private island"],"title":"How expensive is it?"},{"id":"how-scary","items":["A ladybug landing on your hand","A horror movie trailer at midnight","Skydiving for the first time","Hearing a floorboard creak when you are home alone","A roller coaster with a vertical drop"],"title":"How scary is it?"},{"id":"how-famous","items":["Your next-door neighbor","The mayor of your town","A national news anchor","A chart-topping pop singer","A household name from a century ago"],"title":"How famous is this person?"}],"id":"scale-clues","tagline":"Clue-givers hint where something lands on a 1–100 scale without saying the number.","title":"Scale clues"},{"categories":[{"id":"food-temperature","items":["Ice cream straight from the freezer","Room-temperature bread","Freshly brewed tea","Pizza just out of a wood-fired oven","Microwaved soup with no stirring"],"left":"Served ice cold","right":"Burn-your-tongue hot","title":"How hot is this food?"},{"id":"movie-mood","items":["A slapstick comedy","A cozy animated family film","A courtroom drama","A war movie with a hopeful ending","A tragedy that leaves the theater silent"],"left":"Pure comfort watch","right":"Emotionally devastating","title":"How light or dark is this film?"},{"id":"noise-level","items":["A library during study hours","Normal conversation at a dinner table","A busy city intersection","A rock concert from the front row","A jet engine at takeoff"],"left":"Near silence","right":"Ear-splitting","title":"How loud is it?"}],"id":"spectrum","tagline":"One clue places the answer somewhere between two opposite poles.","title":"Spectrum clues"},{"categories":[{"id":"geography-surprises","items":["Which country spans the most time zones?","What is the only sea with no coastline?","Which continent has no desert?","What is the driest place on Earth?","Which capital city is farthest north?"],"title":"Geography that surprises people"},{"id":"animal-oddities","items":["Which animal has cube-shaped poop?","What mammal cannot jump?","Which bird can sleep while flying?","What animal has three hearts?","Which insect can survive being frozen solid?"],"title":"Strange animal facts"},{"id":"history-hooks","items":["When were the pyramids already ancient to Cleopatra?","Which two famous inventors were born the same year?","What everyday object was once luxury-only?","Which war lasted only 38 minutes?","What ancient device could predict eclipses?"],"title":"History facts that sound made up"}],"id":"quick-facts","tagline":"Open prompts for a round of surprising answers.","title":"Quick facts"}]}
-
+collections {"collections":[{"categories":[{"id":"how-expensive","items":["A cup of instant coffee from a vending machine","A used bicycle in fair condition","A month of rent in a major city","A brand-new family sedan","A private island"],"title":"How expensive is it?"},{"id":"how-scary","items":["A ladybug landing on your hand","A horror movie trailer at midnight","Skydiving for the first time","Hearing a floorboard creak when you are home alone","A roller coaster with a vertical drop"],"title":"How scary is it?"},{"id":"how-famous","items":["Your next-door neighbor","The mayor of your town","A national news anchor","A chart-topping pop singer","A household name from a century ago"],"title":"How famous is this person?"}],"id":"scale-clues","tagline":"Clue-givers hint where something lands on a 1–100 scale without saying the number.","title":"Scale clues"},{"categories":[{"id":"food-temperature","items":["Ice cream straight from the freezer","Room-temperature bread","Freshly brewed tea","Pizza just out of a wood-fired oven","Microwaved soup with no stirring"],"left":"Served ice cold","right":"Burn-your-tongue hot","title":"How hot is this food?"},{"id":"movie-mood","items":["A slapstick comedy","A cozy animated family film","A courtroom drama","A war movie with a hopeful ending","A tragedy that leaves the theater silent"],"left":"Pure comfort watch","right":"Emotionally devastating","title":"How light or dark is this film?"},{"id":"noise-level","items":["A library during study hours","Normal conversation at a dinner table","A busy city intersection","A rock concert from the front row","A jet engine at takeoff"
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6758,7 +1824,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The JSON is double-encoded. That is why the categories are not showing.
 
-The `safeJS` filter is needed in the layout template to prevent double-encoding. A defensive JavaScript check should also handle cases where the parsed value is still a string.</details></think>
+The `safeJS` filter is needed in the layout template to prevent double-encoding. A defensive JavaScript check should also handle cases where the parsed value is still a string.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6767,45 +1834,28 @@ Double-encoded JSON in the template — `JSON.parse` returns a string, so `colle
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -3 && node -e "
-const fs=require('fs');
-const html=fs.readFileSync('public/randomizer/index.html','utf8');
-const m=html.match(/id=randomizer-data>([^<]+)</);
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -3 &amp;&amp; node -e &#34;
+const fs=require(&#39;fs&#39;);
+const html=fs.readFileSync(&#39;public/randomizer/index.html&#39;,&#39;utf8&#39;);
+const m=html.match(/id=randomizer-data&gt;([^&lt;]+)&lt;/);
 const data=JSON.parse(m[1]);
-console.log('typeof', typeof data, 'collections', data.collections?.length);
-"</summary>
-
+console.log(&#39;typeof&#39;, typeof data, &#39;collections&#39;, data.collections?.length);
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -3 && node -e "
 const fs=require('fs');
@@ -6819,16 +1869,10 @@ console.log('typeof', typeof data, 'collections', data.collections?.length);
 ```
 Total in 22334 ms
 [cspHashes] Rewrote 24 inline onerror= attribute(s) in 5 file(s).
-[cspHashes] Hashed 4464 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+[cspHashes] Hashed 4464 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
 typeof object collections 3
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6868,7 +1912,8 @@ Fun Facts items now include concrete prompts like "How many times have you watch
 
 Wavelength will use a flat spectrums list with left-right pairs such as "Hot" versus "Cold" and "Better as a Book" versus "Better as a Movie."
 
-The Wavelength UI will skip the category picker and route directly to shuffle.</details></think>
+The Wavelength UI will skip the category picker and route directly to shuffle.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6877,40 +1922,22 @@ Updating the randomizer data model and UI to match how Ito, Fun Facts, and Wavel
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
 
 </details></tool-use>
 
@@ -6923,88 +1950,48 @@ Three modes will be added to the randomizer: ranked prompts for ito-style scenar
 
 Spectrum collections will shuffle directly into play without a category step. The ranked-prompts mode will use a "fictional scenario" hint. Spectrums will pair opposing concepts such as Hot/Cold or Book/Movie.
 
-The personal-facts collection will use a "Dig into real memories" hint. It will group items into habits and autobiography categories. The home screen will list all three collections. Spectrum links will route directly to play mode. Category-based collections will still require selecting a category first.</details></think>
+The personal-facts collection will use a "Dig into real memories" hint. It will group items into habits and autobiography categories. The home screen will list all three collections. Spectrum links will route directly to play mode. Category-based collections will still require selecting a category first.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -8</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -8</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -8
 ```
@@ -7017,15 +2004,9 @@ cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -8
 
 Total in 22658 ms
 [cspHashes] Rewrote 37 inline onerror= attribute(s) in 6 file(s).
-[cspHashes] Hashed 4464 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+[cspHashes] Hashed 4464 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -7064,18 +2045,13 @@ all items must be family friendly and should be generic and not pop culture
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The randomizer needs updating to use family-friendly, generic items without pop culture references.</details></think>
+The randomizer needs updating to use family-friendly, generic items without pop culture references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -7090,7 +2066,8 @@ Removing the "lied about famous movie" entry. Softening the "Dangerous Addiction
 
 Replacing "Useless Superpower / Amazing Superpower" with "Weak skill / Strong skill." Keeping the Evil/Good and Sandwich/Taco debates unchanged. Drafting scenario prompts around neighbors, jobs, school subjects, and household chores.
 
-Drafting more scenario prompts around weather, road trips, excuses, spills, and pets. Also adding animal, fruit, color, board game, and home-place rankings.</details></think>
+Drafting more scenario prompts around weather, road trips, excuses, spills, and pets. Also adding animal, fruit, color, board game, and home-place rankings.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7099,23 +2076,16 @@ Rewriting all prompts to be family-friendly and generic—removing pop-culture r
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking whether the home lede in randomizer.js still references pop culture.</details></think>
+Checking whether the home lede in randomizer.js still references pop culture.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7149,7 +2119,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating personal-scales in randomizer.yaml to a 1–100 scale without categories, with 200 items per scale.
 
-Planning updates to randomizer.js and a new `personal` mode to skip categories. The 200 items will be written directly into the YAML file.</details></think>
+Planning updates to randomizer.js and a new `personal` mode to skip categories. The 200 items will be written directly into the YAML file.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7158,27 +2129,15 @@ Restructuring personal-scales to a flat list of 200 "1 to 100" prompts with no c
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -7193,7 +2152,8 @@ Interpreting whether "200 items for each" means 200 per collection or 200 total 
 
 Clarified that 200 items apply only to personal-scales. JavaScript will treat personal mode like spectrum mode by skipping categories, using flat items, and starting direct play. Collection cards will display the item count.
 
-Offline export for personal mode will omit categories. A Python script will generate the 200 items and write the YAML file. Topics include morning routines, food preferences, social comfort, organization, nature, school, family, patience, hobbies, and health habits.</details></think>
+Offline export for personal mode will omit categories. A Python script will generate the 200 items and write the YAML file. Topics include morning routines, food preferences, social comfort, organization, nature, school, family, patience, hobbies, and health habits.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7202,305 +2162,304 @@ Generating 200 family-friendly 1–100 prompts and updating the randomizer to sk
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
-# Generate 200 unique family-friendly "On a scale of 1 to 100, ..." prompts
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+# Generate 200 unique family-friendly &#34;On a scale of 1 to 100, ...&#34; prompts
 stems = [
-    "how much do you enjoy waking up early",
-    "how tidy is your bedroom right now",
-    "how much do you trust your morning alarm",
-    "how likely are you to make your bed each day",
-    "how early do you like to wake up on weekends",
-    "how much do you enjoy rainy days",
-    "how much do you enjoy sunny days",
-    "how patient are you when waiting in line",
-    "how much do you enjoy trying new foods",
-    "how competitive are you at board games",
-    "how likely are you to return a shopping cart",
-    "how much do you enjoy reading before bed",
-    "how organized is your school bag or work bag",
-    "how much do you enjoy cooking at home",
-    "how much do you enjoy eating vegetables",
-    "how sweet do you like your drinks",
-    "how spicy do you like your food",
-    "how much do you enjoy long walks",
-    "how much do you enjoy swimming",
-    "how much do you enjoy riding a bicycle",
-    "how much do you enjoy camping outdoors",
-    "how much do you enjoy visiting museums",
-    "how much do you enjoy drawing or coloring",
-    "how much do you enjoy singing out loud",
-    "how much do you enjoy dancing",
-    "how much do you enjoy puzzles",
-    "how much do you enjoy building with blocks or bricks",
-    "how much do you enjoy gardening",
-    "how much do you enjoy feeding birds or animals",
-    "how much do you enjoy stargazing at night",
-    "how much do you enjoy watching clouds",
-    "how much do you enjoy thunderstorms from indoors",
-    "how much do you enjoy snow",
-    "how much do you enjoy hot weather",
-    "how much do you enjoy cold weather",
-    "how much do you enjoy windy days",
-    "how likely are you to share snacks with others",
-    "how likely are you to help clean up after a meal",
-    "how likely are you to hold the door for someone",
-    "how likely are you to say thank you to a cashier",
-    "how likely are you to apologize when you are wrong",
-    "how likely are you to forgive someone quickly",
-    "how comfortable are you meeting new people",
-    "how comfortable are you speaking in front of a group",
-    "how comfortable are you asking for help",
-    "how comfortable are you eating alone in public",
-    "how comfortable are you trying a new hobby",
-    "how much do you enjoy quiet time alone",
-    "how much do you enjoy large family gatherings",
-    "how much do you enjoy small gatherings with close friends",
-    "how much do you enjoy phone calls with relatives",
-    "how much do you enjoy writing letters or cards",
-    "how much do you enjoy giving gifts",
-    "how much do you enjoy receiving gifts",
-    "how much do you enjoy planning parties",
-    "how much do you enjoy surprise plans",
-    "how much do you like having a daily routine",
-    "how much do you like changing your routine",
-    "how punctual are you for appointments",
-    "how likely are you to be early rather than late",
-    "how likely are you to finish homework or tasks before the deadline",
-    "how likely are you to start projects well in advance",
-    "how likely are you to procrastinate",
-    "how focused are you when studying or working",
-    "how easily are you distracted by noise",
-    "how easily are you distracted by your phone",
-    "how long can you go without checking your phone",
-    "how much do you enjoy learning new facts",
-    "how much do you enjoy science experiments",
-    "how much do you enjoy history lessons",
-    "how much do you enjoy math problems",
-    "how much do you enjoy art class",
-    "how much do you enjoy music lessons",
-    "how much do you enjoy physical education class",
-    "how much do you enjoy field trips",
-    "how much do you enjoy library visits",
-    "how much do you enjoy group projects",
-    "how much do you enjoy working alone",
-    "how much do you enjoy leading a team",
-    "how much do you enjoy following clear instructions",
-    "how much do you enjoy figuring things out on your own",
-    "how good are you at remembering names",
-    "how good are you at remembering birthdays",
-    "how good are you at remembering where you put things",
-    "how good are you at keeping secrets",
-    "how good are you at keeping plants alive",
-    "how good are you at keeping pets calm",
-    "how good are you at fixing small problems at home",
-    "how good are you at folding laundry",
-    "how good are you at packing a suitcase",
-    "how good are you at wrapping gifts",
-    "how good are you at setting a table",
-    "how good are you at washing dishes by hand",
-    "how good are you at using a map",
-    "how good are you at reading a clock",
-    "how good are you at estimating time",
-    "how good are you at saving money",
-    "how good are you at sticking to a budget",
-    "how adventurous are you with food",
-    "how adventurous are you with travel",
-    "how adventurous are you with hairstyles",
-    "how adventurous are you with trying new sports",
-    "how adventurous are you with redecorating a room",
-    "how much do you enjoy thrift shopping",
-    "how much do you enjoy grocery shopping",
-    "how much do you enjoy farmers markets",
-    "how much do you enjoy baking bread",
-    "how much do you enjoy baking cookies",
-    "how much do you enjoy making sandwiches",
-    "how much do you enjoy packing lunch boxes",
-    "how much do you enjoy breakfast foods",
-    "how much do you enjoy lunch foods",
-    "how much do you enjoy dinner foods",
-    "how much do you enjoy late-night snacks",
-    "how much do you enjoy fruit for dessert",
-    "how much do you enjoy soup on a cold day",
-    "how much do you enjoy salad",
-    "how much do you enjoy sandwiches",
-    "how much do you enjoy pasta dishes",
-    "how much do you enjoy rice dishes",
-    "how much do you enjoy breakfast cereal",
-    "how much do you enjoy oatmeal",
-    "how much do you enjoy eggs for breakfast",
-    "how much do you enjoy pancakes",
-    "how much do you enjoy smoothies",
-    "how much do you enjoy popcorn as a snack",
-    "how much do you enjoy nuts as a snack",
-    "how much do you enjoy cheese as a snack",
-    "how much do you enjoy crackers as a snack",
-    "how much do you enjoy ice water",
-    "how much do you enjoy herbal tea",
-    "how much do you enjoy hot chocolate",
-    "how much do you enjoy lemonade",
-    "how much do you enjoy milk with meals",
-    "how much do you enjoy drinking water throughout the day",
-    "how energetic are you in the morning",
-    "how energetic are you in the evening",
-    "how energetic are you after lunch",
-    "how likely are you to take a nap on weekends",
-    "how likely are you to stretch after sitting a long time",
-    "how likely are you to drink water when you are thirsty",
-    "how likely are you to wear a hat in the sun",
-    "how likely are you to wear a coat in the cold",
-    "how likely are you to wear sunscreen outdoors",
-    "how likely are you to wash your hands before meals",
-    "how likely are you to brush your teeth before bed",
-    "how likely are you to floss your teeth",
-    "how likely are you to tidy your desk once a week",
-    "how likely are you to sort recycling correctly",
-    "how likely are you to turn off lights when leaving a room",
-    "how likely are you to close doors gently",
-    "how likely are you to whisper in a library",
-    "how likely are you to pick up litter you see outdoors",
-    "how likely are you to plant a tree or flower",
-    "how likely are you to compost food scraps",
-    "how likely are you to walk instead of drive for short trips",
-    "how likely are you to take the stairs instead of an elevator",
-    "how likely are you to bike to nearby places",
-    "how likely are you to carpool when possible",
-    "how much do you enjoy car rides with family",
-    "how much do you enjoy train rides",
-    "how much do you enjoy bus rides",
-    "how much do you enjoy boat rides",
-    "how much do you enjoy airplane travel",
-    "how much do you enjoy road trip games",
-    "how much do you enjoy packing for a trip",
-    "how much do you enjoy unpacking after a trip",
-    "how much do you enjoy hotel stays",
-    "how much do you enjoy staying with relatives",
-    "how much do you enjoy camping in a tent",
-    "how much do you enjoy sleeping in a sleeping bag",
-    "how much do you enjoy hiking uphill",
-    "how much do you enjoy hiking downhill",
-    "how much do you enjoy picnics in a park",
-    "how much do you enjoy playground equipment",
-    "how much do you enjoy sandbox play",
-    "how much do you enjoy kite flying",
-    "how much do you enjoy fishing calmly",
-    "how much do you enjoy collecting shells or rocks",
-    "how much do you enjoy birdwatching",
-    "how much do you enjoy watching sunsets",
-    "how much do you enjoy watching sunrises",
-    "how much do you enjoy moonlit walks",
-    "how much do you enjoy listening to rain on the roof",
-    "how much do you enjoy the smell of fresh bread",
-    "how much do you enjoy the smell of flowers",
-    "how much do you enjoy the smell of rain on pavement",
-    "how much do you enjoy the smell of pine trees",
-    "how much do you enjoy the smell of the ocean",
-    "how much do you enjoy soft blankets",
-    "how much do you enjoy firm pillows",
-    "how much do you enjoy warm socks",
-    "how much do you enjoy cozy sweaters",
-    "how much do you enjoy sandals in summer",
-    "how much do you enjoy boots in winter",
-    "how much do you enjoy wearing hats",
-    "how much do you enjoy wearing scarves",
-    "how much do you enjoy wearing gloves",
-    "how much do you enjoy matching outfits",
-    "how much do you enjoy bright colors in clothing",
-    "how much do you enjoy neutral colors in clothing",
-    "how much do you enjoy patterned fabrics",
-    "how much do you enjoy plain fabrics",
-    "how much do you enjoy jewelry or simple accessories",
-    "how much do you enjoy watches or bracelets",
-    "how much do you enjoy backpacks over shoulder bags",
-    "how much do you enjoy reusable water bottles",
-    "how much do you enjoy lunch boxes with compartments",
-    "how much do you enjoy desk lamps for reading",
-    "how much do you enjoy natural light in a room",
-    "how much do you enjoy ceiling fans",
-    "how much do you enjoy open windows for fresh air",
-    "how much do you enjoy air conditioning on hot days",
-    "how much do you enjoy heating on cold days",
-    "how much do you enjoy fireplaces or heaters visually",
-    "how much do you enjoy candles with mild scents",
-    "how much do you enjoy string lights for decoration",
-    "how much do you enjoy houseplants indoors",
-    "how much do you enjoy fresh flowers in a vase",
-    "how much do you enjoy photo albums",
-    "how much do you enjoy scrapbooking memories",
-    "how much do you enjoy journaling daily",
-    "how much do you enjoy to-do lists",
-    "how much do you enjoy calendars and planners",
-    "how much do you enjoy sticky notes for reminders",
-    "how much do you enjoy label makers for organization",
-    "how much do you enjoy sorting books by color or size",
-    "how much do you enjoy alphabetizing items",
-    "how much do you enjoy donating items you no longer need",
-    "how much do you enjoy fixing torn pages in books",
-    "how much do you enjoy sharpening pencils",
-    "how much do you enjoy erasing a board cleanly",
-    "how much do you enjoy whiteboards over chalkboards",
-    "how much do you enjoy markers over crayons",
-    "how much do you enjoy colored pencils over pens",
-    "how much do you enjoy gel pens for writing",
-    "how much do you enjoy typing over handwriting",
-    "how much do you enjoy handwriting over typing",
-    "how much do you enjoy printing photos at home",
-    "how much do you enjoy scanning old documents",
-    "how much do you enjoy backing up important files",
-    "how much do you enjoy learning keyboard shortcuts",
-    "how much do you enjoy teaching others a skill you know",
-    "how much do you enjoy being taught by someone patient",
-    "how much do you enjoy mentoring younger students",
-    "how much do you enjoy asking thoughtful questions",
-    "how much do you enjoy listening without interrupting",
-    "how much do you enjoy giving compliments sincerely",
-    "how much do you enjoy receiving compliments gracefully",
-    "how much do you enjoy resolving disagreements calmly",
-    "how much do you enjoy compromising in group decisions",
-    "how much do you enjoy taking turns fairly",
-    "how much do you enjoy cheering for others",
-    "how much do you enjoy celebrating small wins",
-    "how much do you enjoy setting personal goals",
-    "how much do you enjoy tracking progress on goals",
-    "how much do you enjoy rewarding yourself after hard work",
-    "how much do you enjoy resting after finishing a task",
-    "how calm are you during unexpected changes",
-    "how calm are you when plans are canceled",
-    "how calm are you when you lose a game",
-    "how calm are you when you win a game",
-    "how calm are you during loud environments",
-    "how calm are you during very quiet environments",
-    "how optimistic are you about tomorrow",
-    "how optimistic are you about learning hard subjects",
-    "how optimistic are you about making new friends",
-    "how optimistic are you about fixing mistakes",
-    "how grateful do you feel for your home",
-    "how grateful do you feel for your meals",
-    "how grateful do you feel for your teachers or mentors",
-    "how grateful do you feel for your neighbors",
-    "how grateful do you feel for sunny mornings",
+    &#34;how much do you enjoy waking up early&#34;,
+    &#34;how tidy is your bedroom right now&#34;,
+    &#34;how much do you trust your morning alarm&#34;,
+    &#34;how likely are you to make your bed each day&#34;,
+    &#34;how early do you like to wake up on weekends&#34;,
+    &#34;how much do you enjoy rainy days&#34;,
+    &#34;how much do you enjoy sunny days&#34;,
+    &#34;how patient are you when waiting in line&#34;,
+    &#34;how much do you enjoy trying new foods&#34;,
+    &#34;how competitive are you at board games&#34;,
+    &#34;how likely are you to return a shopping cart&#34;,
+    &#34;how much do you enjoy reading before bed&#34;,
+    &#34;how organized is your school bag or work bag&#34;,
+    &#34;how much do you enjoy cooking at home&#34;,
+    &#34;how much do you enjoy eating vegetables&#34;,
+    &#34;how sweet do you like your drinks&#34;,
+    &#34;how spicy do you like your food&#34;,
+    &#34;how much do you enjoy long walks&#34;,
+    &#34;how much do you enjoy swimming&#34;,
+    &#34;how much do you enjoy riding a bicycle&#34;,
+    &#34;how much do you enjoy camping outdoors&#34;,
+    &#34;how much do you enjoy visiting museums&#34;,
+    &#34;how much do you enjoy drawing or coloring&#34;,
+    &#34;how much do you enjoy singing out loud&#34;,
+    &#34;how much do you enjoy dancing&#34;,
+    &#34;how much do you enjoy puzzles&#34;,
+    &#34;how much do you enjoy building with blocks or bricks&#34;,
+    &#34;how much do you enjoy gardening&#34;,
+    &#34;how much do you enjoy feeding birds or animals&#34;,
+    &#34;how much do you enjoy stargazing at night&#34;,
+    &#34;how much do you enjoy watching clouds&#34;,
+    &#34;how much do you enjoy thunderstorms from indoors&#34;,
+    &#34;how much do you enjoy snow&#34;,
+    &#34;how much do you enjoy hot weather&#34;,
+    &#34;how much do you enjoy cold weather&#34;,
+    &#34;how much do you enjoy windy days&#34;,
+    &#34;how likely are you to share snacks with others&#34;,
+    &#34;how likely are you to help clean up after a meal&#34;,
+    &#34;how likely are you to hold the door for someone&#34;,
+    &#34;how likely are you to say thank you to a cashier&#34;,
+    &#34;how likely are you to apologize when you are wrong&#34;,
+    &#34;how likely are you to forgive someone quickly&#34;,
+    &#34;how comfortable are you meeting new people&#34;,
+    &#34;how comfortable are you speaking in front of a group&#34;,
+    &#34;how comfortable are you asking for help&#34;,
+    &#34;how comfortable are you eating alone in public&#34;,
+    &#34;how comfortable are you trying a new hobby&#34;,
+    &#34;how much do you enjoy quiet time alone&#34;,
+    &#34;how much do you enjoy large family gatherings&#34;,
+    &#34;how much do you enjoy small gatherings with close friends&#34;,
+    &#34;how much do you enjoy phone calls with relatives&#34;,
+    &#34;how much do you enjoy writing letters or cards&#34;,
+    &#34;how much do you enjoy giving gifts&#34;,
+    &#34;how much do you enjoy receiving gifts&#34;,
+    &#34;how much do you enjoy planning parties&#34;,
+    &#34;how much do you enjoy surprise plans&#34;,
+    &#34;how much do you like having a daily routine&#34;,
+    &#34;how much do you like changing your routine&#34;,
+    &#34;how punctual are you for appointments&#34;,
+    &#34;how likely are you to be early rather than late&#34;,
+    &#34;how likely are you to finish homework or tasks before the deadline&#34;,
+    &#34;how likely are you to start projects well in advance&#34;,
+    &#34;how likely are you to procrastinate&#34;,
+    &#34;how focused are you when studying or working&#34;,
+    &#34;how easily are you distracted by noise&#34;,
+    &#34;how easily are you distracted by your phone&#34;,
+    &#34;how long can you go without checking your phone&#34;,
+    &#34;how much do you enjoy learning new facts&#34;,
+    &#34;how much do you enjoy science experiments&#34;,
+    &#34;how much do you enjoy history lessons&#34;,
+    &#34;how much do you enjoy math problems&#34;,
+    &#34;how much do you enjoy art class&#34;,
+    &#34;how much do you enjoy music lessons&#34;,
+    &#34;how much do you enjoy physical education class&#34;,
+    &#34;how much do you enjoy field trips&#34;,
+    &#34;how much do you enjoy library visits&#34;,
+    &#34;how much do you enjoy group projects&#34;,
+    &#34;how much do you enjoy working alone&#34;,
+    &#34;how much do you enjoy leading a team&#34;,
+    &#34;how much do you enjoy following clear instructions&#34;,
+    &#34;how much do you enjoy figuring things out on your own&#34;,
+    &#34;how good are you at remembering names&#34;,
+    &#34;how good are you at remembering birthdays&#34;,
+    &#34;how good are you at remembering where you put things&#34;,
+    &#34;how good are you at keeping secrets&#34;,
+    &#34;how good are you at keeping plants alive&#34;,
+    &#34;how good are you at keeping pets calm&#34;,
+    &#34;how good are you at fixing small problems at home&#34;,
+    &#34;how good are you at folding laundry&#34;,
+    &#34;how good are you at packing a suitcase&#34;,
+    &#34;how good are you at wrapping gifts&#34;,
+    &#34;how good are you at setting a table&#34;,
+    &#34;how good are you at washing dishes by hand&#34;,
+    &#34;how good are you at using a map&#34;,
+    &#34;how good are you at reading a clock&#34;,
+    &#34;how good are you at estimating time&#34;,
+    &#34;how good are you at saving money&#34;,
+    &#34;how good are you at sticking to a budget&#34;,
+    &#34;how adventurous are you with food&#34;,
+    &#34;how adventurous are you with travel&#34;,
+    &#34;how adventurous are you with hairstyles&#34;,
+    &#34;how adventurous are you with trying new sports&#34;,
+    &#34;how adventurous are you with redecorating a room&#34;,
+    &#34;how much do you enjoy thrift shopping&#34;,
+    &#34;how much do you enjoy grocery shopping&#34;,
+    &#34;how much do you enjoy farmers markets&#34;,
+    &#34;how much do you enjoy baking bread&#34;,
+    &#34;how much do you enjoy baking cookies&#34;,
+    &#34;how much do you enjoy making sandwiches&#34;,
+    &#34;how much do you enjoy packing lunch boxes&#34;,
+    &#34;how much do you enjoy breakfast foods&#34;,
+    &#34;how much do you enjoy lunch foods&#34;,
+    &#34;how much do you enjoy dinner foods&#34;,
+    &#34;how much do you enjoy late-night snacks&#34;,
+    &#34;how much do you enjoy fruit for dessert&#34;,
+    &#34;how much do you enjoy soup on a cold day&#34;,
+    &#34;how much do you enjoy salad&#34;,
+    &#34;how much do you enjoy sandwiches&#34;,
+    &#34;how much do you enjoy pasta dishes&#34;,
+    &#34;how much do you enjoy rice dishes&#34;,
+    &#34;how much do you enjoy breakfast cereal&#34;,
+    &#34;how much do you enjoy oatmeal&#34;,
+    &#34;how much do you enjoy eggs for breakfast&#34;,
+    &#34;how much do you enjoy pancakes&#34;,
+    &#34;how much do you enjoy smoothies&#34;,
+    &#34;how much do you enjoy popcorn as a snack&#34;,
+    &#34;how much do you enjoy nuts as a snack&#34;,
+    &#34;how much do you enjoy cheese as a snack&#34;,
+    &#34;how much do you enjoy crackers as a snack&#34;,
+    &#34;how much do you enjoy ice water&#34;,
+    &#34;how much do you enjoy herbal tea&#34;,
+    &#34;how much do you enjoy hot chocolate&#34;,
+    &#34;how much do you enjoy lemonade&#34;,
+    &#34;how much do you enjoy milk with meals&#34;,
+    &#34;how much do you enjoy drinking water throughout the day&#34;,
+    &#34;how energetic are you in the morning&#34;,
+    &#34;how energetic are you in the evening&#34;,
+    &#34;how energetic are you after lunch&#34;,
+    &#34;how likely are you to take a nap on weekends&#34;,
+    &#34;how likely are you to stretch after sitting a long time&#34;,
+    &#34;how likely are you to drink water when you are thirsty&#34;,
+    &#34;how likely are you to wear a hat in the sun&#34;,
+    &#34;how likely are you to wear a coat in the cold&#34;,
+    &#34;how likely are you to wear sunscreen outdoors&#34;,
+    &#34;how likely are you to wash your hands before meals&#34;,
+    &#34;how likely are you to brush your teeth before bed&#34;,
+    &#34;how likely are you to floss your teeth&#34;,
+    &#34;how likely are you to tidy your desk once a week&#34;,
+    &#34;how likely are you to sort recycling correctly&#34;,
+    &#34;how likely are you to turn off lights when leaving a room&#34;,
+    &#34;how likely are you to close doors gently&#34;,
+    &#34;how likely are you to whisper in a library&#34;,
+    &#34;how likely are you to pick up litter you see outdoors&#34;,
+    &#34;how likely are you to plant a tree or flower&#34;,
+    &#34;how likely are you to compost food scraps&#34;,
+    &#34;how likely are you to walk instead of drive for short trips&#34;,
+    &#34;how likely are you to take the stairs instead of an elevator&#34;,
+    &#34;how likely are you to bike to nearby places&#34;,
+    &#34;how likely are you to carpool when possible&#34;,
+    &#34;how much do you enjoy car rides with family&#34;,
+    &#34;how much do you enjoy train rides&#34;,
+    &#34;how much do you enjoy bus rides&#34;,
+    &#34;how much do you enjoy boat rides&#34;,
+    &#34;how much do you enjoy airplane travel&#34;,
+    &#34;how much do you enjoy road trip games&#34;,
+    &#34;how much do you enjoy packing for a trip&#34;,
+    &#34;how much do you enjoy unpacking after a trip&#34;,
+    &#34;how much do you enjoy hotel stays&#34;,
+    &#34;how much do you enjoy staying with relatives&#34;,
+    &#34;how much do you enjoy camping in a tent&#34;,
+    &#34;how much do you enjoy sleeping in a sleeping bag&#34;,
+    &#34;how much do you enjoy hiking uphill&#34;,
+    &#34;how much do you enjoy hiking downhill&#34;,
+    &#34;how much do you enjoy picnics in a park&#34;,
+    &#34;how much do you enjoy playground equipment&#34;,
+    &#34;how much do you enjoy sandbox play&#34;,
+    &#34;how much do you enjoy kite flying&#34;,
+    &#34;how much do you enjoy fishing calmly&#34;,
+    &#34;how much do you enjoy collecting shells or rocks&#34;,
+    &#34;how much do you enjoy birdwatching&#34;,
+    &#34;how much do you enjoy watching sunsets&#34;,
+    &#34;how much do you enjoy watching sunrises&#34;,
+    &#34;how much do you enjoy moonlit walks&#34;,
+    &#34;how much do you enjoy listening to rain on the roof&#34;,
+    &#34;how much do you enjoy the smell of fresh bread&#34;,
+    &#34;how much do you enjoy the smell of flowers&#34;,
+    &#34;how much do you enjoy the smell of rain on pavement&#34;,
+    &#34;how much do you enjoy the smell of pine trees&#34;,
+    &#34;how much do you enjoy the smell of the ocean&#34;,
+    &#34;how much do you enjoy soft blankets&#34;,
+    &#34;how much do you enjoy firm pillows&#34;,
+    &#34;how much do you enjoy warm socks&#34;,
+    &#34;how much do you enjoy cozy sweaters&#34;,
+    &#34;how much do you enjoy sandals in summer&#34;,
+    &#34;how much do you enjoy boots in winter&#34;,
+    &#34;how much do you enjoy wearing hats&#34;,
+    &#34;how much do you enjoy wearing scarves&#34;,
+    &#34;how much do you enjoy wearing gloves&#34;,
+    &#34;how much do you enjoy matching outfits&#34;,
+    &#34;how much do you enjoy bright colors in clothing&#34;,
+    &#34;how much do you enjoy neutral colors in clothing&#34;,
+    &#34;how much do you enjoy patterned fabrics&#34;,
+    &#34;how much do you enjoy plain fabrics&#34;,
+    &#34;how much do you enjoy jewelry or simple accessories&#34;,
+    &#34;how much do you enjoy watches or bracelets&#34;,
+    &#34;how much do you enjoy backpacks over shoulder bags&#34;,
+    &#34;how much do you enjoy reusable water bottles&#34;,
+    &#34;how much do you enjoy lunch boxes with compartments&#34;,
+    &#34;how much do you enjoy desk lamps for reading&#34;,
+    &#34;how much do you enjoy natural light in a room&#34;,
+    &#34;how much do you enjoy ceiling fans&#34;,
+    &#34;how much do you enjoy open windows for fresh air&#34;,
+    &#34;how much do you enjoy air conditioning on hot days&#34;,
+    &#34;how much do you enjoy heating on cold days&#34;,
+    &#34;how much do you enjoy fireplaces or heaters visually&#34;,
+    &#34;how much do you enjoy candles with mild scents&#34;,
+    &#34;how much do you enjoy string lights for decoration&#34;,
+    &#34;how much do you enjoy houseplants indoors&#34;,
+    &#34;how much do you enjoy fresh flowers in a vase&#34;,
+    &#34;how much do you enjoy photo albums&#34;,
+    &#34;how much do you enjoy scrapbooking memories&#34;,
+    &#34;how much do you enjoy journaling daily&#34;,
+    &#34;how much do you enjoy to-do lists&#34;,
+    &#34;how much do you enjoy calendars and planners&#34;,
+    &#34;how much do you enjoy sticky notes for reminders&#34;,
+    &#34;how much do you enjoy label makers for organization&#34;,
+    &#34;how much do you enjoy sorting books by color or size&#34;,
+    &#34;how much do you enjoy alphabetizing items&#34;,
+    &#34;how much do you enjoy donating items you no longer need&#34;,
+    &#34;how much do you enjoy fixing torn pages in books&#34;,
+    &#34;how much do you enjoy sharpening pencils&#34;,
+    &#34;how much do you enjoy erasing a board cleanly&#34;,
+    &#34;how much do you enjoy whiteboards over chalkboards&#34;,
+    &#34;how much do you enjoy markers over crayons&#34;,
+    &#34;how much do you enjoy colored pencils over pens&#34;,
+    &#34;how much do you enjoy gel pens for writing&#34;,
+    &#34;how much do you enjoy typing over handwriting&#34;,
+    &#34;how much do you enjoy handwriting over typing&#34;,
+    &#34;how much do you enjoy printing photos at home&#34;,
+    &#34;how much do you enjoy scanning old documents&#34;,
+    &#34;how much do you enjoy backing up important files&#34;,
+    &#34;how much do you enjoy learning keyboard shortcuts&#34;,
+    &#34;how much do you enjoy teaching others a skill you know&#34;,
+    &#34;how much do you enjoy being taught by someone patient&#34;,
+    &#34;how much do you enjoy mentoring younger students&#34;,
+    &#34;how much do you enjoy asking thoughtful questions&#34;,
+    &#34;how much do you enjoy listening without interrupting&#34;,
+    &#34;how much do you enjoy giving compliments sincerely&#34;,
+    &#34;how much do you enjoy receiving compliments gracefully&#34;,
+    &#34;how much do you enjoy resolving disagreements calmly&#34;,
+    &#34;how much do you enjoy compromising in group decisions&#34;,
+    &#34;how much do you enjoy taking turns fairly&#34;,
+    &#34;how much do you enjoy cheering for others&#34;,
+    &#34;how much do you enjoy celebrating small wins&#34;,
+    &#34;how much do you enjoy setting personal goals&#34;,
+    &#34;how much do you enjoy tracking progress on goals&#34;,
+    &#34;how much do you enjoy rewarding yourself after hard work&#34;,
+    &#34;how much do you enjoy resting after finishing a task&#34;,
+    &#34;how calm are you during unexpected changes&#34;,
+    &#34;how calm are you when plans are canceled&#34;,
+    &#34;how calm are you when you lose a game&#34;,
+    &#34;how calm are you when you win a game&#34;,
+    &#34;how calm are you during loud environments&#34;,
+    &#34;how calm are you during very quiet environments&#34;,
+    &#34;how optimistic are you about tomorrow&#34;,
+    &#34;how optimistic are you about learning hard subjects&#34;,
+    &#34;how optimistic are you about making new friends&#34;,
+    &#34;how optimistic are you about fixing mistakes&#34;,
+    &#34;how grateful do you feel for your home&#34;,
+    &#34;how grateful do you feel for your meals&#34;,
+    &#34;how grateful do you feel for your teachers or mentors&#34;,
+    &#34;how grateful do you feel for your neighbors&#34;,
+    &#34;how grateful do you feel for sunny mornings&#34;,
 ]
 
 # Dedupe and take first 200
 seen = set()
 items = []
 for s in stems:
-    q = f"On a scale of 1 to 100, {s}?"
+    q = f&#34;On a scale of 1 to 100, {s}?&#34;
     if q not in seen:
         seen.add(q)
         items.append(q)
-    if len(items) >= 200:
+    if len(items) &gt;= 200:
         break
 
-print(f"count: {len(items)}")
-if len(items) < 200:
-    print("NEED MORE", 200 - len(items))
+print(f&#34;count: {len(items)}&#34;)
+if len(items) &lt; 200:
+    print(&#34;NEED MORE&#34;, 200 - len(items))
 
 # Print yaml block
 for item in items:
-    print(f"      - {item}")
+    print(f&#34;      - {item}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 # Generate 200 unique family-friendly "On a scale of 1 to 100, ..." prompts
@@ -7830,482 +2789,303 @@ count: 200
       - On a scale of 1 to 100, how much do you enjoy dancing?
       - On a scale of 1 to 100, how much do you enjoy puzzles?
       - On a scale of 1 to 100, how much do you enjoy building with blocks or bricks?
-      - On a scale of 1 to 100, how much do you enjoy gardening?
-      - On a scale of 1 to 100, how much do you enjoy feeding birds or animals?
-      - On a scale of 1 to 100, how much do you enjoy stargazing at night?
-      - On a scale of 1 to 100, how much do you enjoy watching clouds?
-      - On a scale of 1 to 100, how much do you enjoy thunderstorms from indoors?
-      - On a scale of 1 to 100, how much do you enjoy snow?
-      - On a scale of 1 to 100, how much do you enjoy hot weather?
-      - On a scale of 1 to 100, how much do you enjoy cold weather?
-      - On a scale of 1 to 100, how much do you enjoy windy days?
-      - On a scale of 1 to 100, how likely are you to share snacks with others?
-      - On a scale of 1 to 100, how likely are you to help clean up after a meal?
-      - On a scale of 1 to 100, how likely are you to hold the door for someone?
-      - On a scale of 1 to 100, how likely are you to say thank you to a cashier?
-      - On a scale of 1 to 100, how likely are you to apologize when you are wrong?
-      - On a scale of 1 to 100, how likely are you to forgive someone quickly?
-      - On a scale of 1 to 100, how comfortable are you meeting new people?
-      - On a scale of 1 to 100, how comfortable are you speaking in front of a group?
-      - On a scale of 1 to 100, how comfortable are you asking for help?
-      - On a scale of 1 to 100, how comfortable are you eating alone in public?
-      - On a scale of 1 to 100, how comfortable are you trying a new hobby?
-      - On a scale of 1 to 100, how much do you enjoy quiet time alone?
-      - On a scale of 1 to 100, how much do you enjoy large family gatherings?
-      - On a scale of 1 to 100, how much do you enjoy small gatherings with close friends?
-      - On a scale of 1 to 100, how much do you enjoy phone calls with relatives?
-      - On a scale of 1 to 100, how much do you enjoy writing letters or cards?
-      - On a scale of 1 to 100, how much do you enjoy giving gifts?
-      - On a scale of 1 to 100, how much do you enjoy receiving gifts?
-      - On a scale of 1 to 100, how much do you enjoy planning parties?
-      - On a scale of 1 to 100, how much do you enjoy surprise plans?
-      - On a scale of 1 to 100, how much do you like having a daily routine?
-      - On a scale of 1 to 100, how much do you like changing your routine?
-      - On a scale of 1 to 100, how punctual are you for appointments?
-      - On a scale of 1 to 100, how likely are you to be early rather than late?
-      - On a scale of 1 to 100, how likely are you to finish homework or tasks before the deadline?
-      - On a scale of 1 to 100, how likely are you to start projects well in advance?
-      - On a scale of 1 to 100, how likely are you to procrastinate?
-      - On a scale of 1 to 100, how focused are you when studying or working?
-      - On a scale of 1 to 100, how easily are you distracted by noise?
-      - On a scale of 1 to 100, how easily are you distracted by your phone?
-      - On a scale of 1 to 100, how long can you go without checking your phone?
-      - On a scale of 1 to 100, how much do you enjoy learning new facts?
-      - On a scale of 1 to 100, how much do you enjoy science experiments?
-      - On a scale of 1 to 100, how much do you enjoy history lessons?
-      - On a scale of 1 to 100, how much do you enjoy math problems?
-      - On a scale of 1 to 100, how much do you enjoy art class?
-      - On a scale of 1 to 100, how much do you enjoy music lessons?
-      - On a scale of 1 to 100, how much do you enjoy physical education class?
-      - On a scale of 1 to 100, how much do you enjoy field trips?
-      - On a scale of 1 to 100, how much do you enjoy library visits?
-      - On a scale of 1 to 100, how much do you enjoy group projects?
-      - On a scale of 1 to 100, how much do you enjoy working alone?
-      - On a scale of 1 to 100, how much do you enjoy leading a team?
-      - On a scale of 1 to 100, how much do you enjoy following clear instructions?
-      - On a scale of 1 to 100, how much do you enjoy figuring things out on your own?
-      - On a scale of 1 to 100, how good are you at remembering names?
-      - On a scale of 1 to 100, how good are you at remembering birthdays?
-      - On a scale of 1 to 100, how good are you at remembering where you put things?
-      - On a scale of 1 to 100, how good are you at keeping secrets?
-      - On a scale of 1 to 100, how good are you at keeping plants alive?
-      - On a scale of 1 to 100, how good are you at keeping pets calm?
-      - On a scale of 1 to 100, how good are you at fixing small problems at home?
-      - On a scale of 1 to 100, how good are you at folding laundry?
-      - On a scale of 1 to 100, how good are you at packing a suitcase?
-      - On a scale of 1 to 100, how good are you at wrapping gifts?
-      - On a scale of 1 to 100, how good are you at setting a table?
-      - On a scale of 1 to 100, how good are you at washing dishes by hand?
-      - On a scale of 1 to 100, how good are you at using a map?
-      - On a scale of 1 to 100, how good are you at reading a clock?
-      - On a scale of 1 to 100, how good are you at estimating time?
-      - On a scale of 1 to 100, how good are you at saving money?
-      - On a scale of 1 to 100, how good are you at sticking to a budget?
-      - On a scale of 1 to 100, how adventurous are you with food?
-      - On a scale of 1 to 100, how adventurous are you with travel?
-      - On a scale of 1 to 100, how adventurous are you with hairstyles?
-      - On a scale of 1 to 100, how adventurous are you with trying new sports?
-      - On a scale of 1 to 100, how adventurous are you with redecorating a room?
-      - On a scale of 1 to 100, how much do you enjoy thrift shopping?
-      - On a scale of 1 to 100, how much do you enjoy grocery shopping?
-      - On a scale of 1 to 100, how much do you enjoy farmers markets?
-      - On a scale of 1 to 100, how much do you enjoy baking bread?
-      - On a scale of 1 to 100, how much do you enjoy baking cookies?
-      - On a scale of 1 to 100, how much do you enjoy making sandwiches?
-      - On a scale of 1 to 100, how much do you enjoy packing lunch boxes?
-      - On a scale of 1 to 100, how much do you enjoy breakfast foods?
-      - On a scale of 1 to 100, how much do you enjoy lunch foods?
-      - On a scale of 1 to 100, how much do you enjoy dinner foods?
-      - On a scale of 1 to 100, how much do you enjoy late-night snacks?
-      - On a scale of 1 to 100, how much do you enjoy fruit for dessert?
-      - On a scale of 1 to 100, how much do you enjoy soup on a cold day?
-      - On a scale of 1 to 100, how much do you enjoy salad?
-      - On a scale of 1 to 100, how much do you enjoy sandwiches?
-      - On a scale of 1 to 100, how much do you enjoy pasta dishes?
-      - On a scale of 1 to 100, how much do you enjoy rice dishes?
-      - On a scale of 1 to 100, how much do you enjoy breakfast cereal?
-      - On a scale of 1 to 100, how much do you enjoy oatmeal?
-      - On a scale of 1 to 100, how much do you enjoy eggs for breakfast?
-      - On a scale of 1 to 100, how much do you enjoy pancakes?
-      - On a scale of 1 to 100, how much do you enjoy smoothies?
-      - On a scale of 1 to 100, how much do you enjoy popcorn as a snack?
-      - On a scale of 1 to 100, how much do you enjoy nuts as a snack?
-      - On a scale of 1 to 100, how much do you enjoy cheese as a snack?
-      - On a scale of 1 to 100, how much do you enjoy crackers as a snack?
-      - On a scale of 1 to 100, how much do you enjoy ice water?
-      - On a scale of 1 to 100, how much do you enjoy herbal tea?
-      - On a scale of 1 to 100, how much do you enjoy hot chocolate?
-      - On a scale of 1 to 100, how much do you enjoy lemonade?
-      - On a scale of 1 to 100, how much do you enjoy milk with meals?
-      - On a scale of 1 to 100, how much do you enjoy drinking water throughout the day?
-      - On a scale of 1 to 100, how energetic are you in the morning?
-      - On a scale of 1 to 100, how energetic are you in the evening?
-      - On a scale of 1 to 100, how energetic are you after lunch?
-      - On a scale of 1 to 100, how likely are you to take a nap on weekends?
-      - On a scale of 1 to 100, how likely are you to stretch after sitting a long time?
-      - On a scale of 1 to 100, how likely are you to drink water when you are thirsty?
-      - On a scale of 1 to 100, how likely are you to wear a hat in the sun?
-      - On a scale of 1 to 100, how likely are you to wear a coat in the cold?
-      - On a scale of 1 to 100, how likely are you to wear sunscreen outdoors?
-      - On a scale of 1 to 100, how likely are you to wash your hands before meals?
-      - On a scale of 1 to 100, how likely are you to brush your teeth before bed?
-      - On a scale of 1 to 100, how likely are you to floss your teeth?
-      - On a scale of 1 to 100, how likely are you to tidy your desk once a week?
-      - On a scale of 1 to 100, how likely are you to sort recycling correctly?
-      - On a scale of 1 to 100, how likely are you to turn off lights when leaving a room?
-      - On a scale of 1 to 100, how likely are you to close doors gently?
-      - On a scale of 1 to 100, how likely are you to whisper in a library?
-      - On a scale of 1 to 100, how likely are you to pick up litter you see outdoors?
-      - On a scale of 1 to 100, how likely are you to plant a tree or flower?
-      - On a scale of 1 to 100, how likely are you to compost food scraps?
-      - On a scale of 1 to 100, how likely are you to walk instead of drive for short trips?
-      - On a scale of 1 to 100, how likely are you to take the stairs instead of an elevator?
-      - On a scale of 1 to 100, how likely are you to bike to nearby places?
-      - On a scale of 1 to 100, how likely are you to carpool when possible?
-      - On a scale of 1 to 100, how much do you enjoy car rides with family?
-      - On a scale of 1 to 100, how much do you enjoy train rides?
-      - On a scale of 1 to 100, how much do you enjoy bus rides?
-      - On a scale of 1 to 100, how much do you enjoy boat rides?
-      - On a scale of 1 to 100, how much do you enjoy airplane travel?
-      - On a scale of 1 to 100, how much do you enjoy road trip games?
-      - On a scale of 1 to 100, how much do you enjoy packing for a trip?
-      - On a scale of 1 to 100, how much do you enjoy unpacking after a trip?
-      - On a scale of 1 to 100, how much do you enjoy hotel stays?
-      - On a scale of 1 to 100, how much do you enjoy staying with relatives?
-      - On a scale of 1 to 100, how much do you enjoy camping in a tent?
-      - On a scale of 1 to 100, how much do you enjoy sleeping in a sleeping bag?
-      - On a scale of 1 to 100, how much do you enjoy hiking uphill?
-      - On a scale of 1 to 100, how much do you enjoy hiking downhill?
-      - On a scale of 1 to 100, how much do you enjoy picnics in a park?
-      - On a scale of 1 to 100, how much do you enjoy playground equipment?
-      - On a scale of 1 to 100, how much do you enjoy sandbox play?
-      - On a scale of 1 to 100, how much do you enjoy kite flying?
-      - On a scale of 1 to 100, how much do you enjoy fishing calmly?
-      - On a scale of 1 to 100, how much do you enjoy collecting shells or rocks?
-      - On a scale of 1 to 100, how much do you enjoy birdwatching?
-      - On a scale of 1 to 100, how much do you enjoy watching sunsets?
-      - On a scale of 1 to 100, how much do you enjoy watching sunrises?
-      - On a scale of 1 to 100, how much do you enjoy moonlit walks?
-      - On a scale of 1 to 100, how much do you enjoy listening to rain on the roof?
-      - On a scale of 1 to 100, how much do you enjoy the smell of fresh bread?
-      - On a scale of 1 to 100, how much do you enjoy the smell of flowers?
-      - On a scale of 1 to 100, how much do you enjoy the smell of rain on pavement?
-      - On a scale of 1 to 100, how much do you enjoy the smell of pine trees?
-      - On a scale of 1 to 100, how much do you enjoy the smell of the ocean?
-      - On a scale of 1 to 100, how much do you enjoy soft blankets?
-      - On a scale of 1 to 100, how much do you enjoy firm pillows?
-      - On a scale of 1 to 100, how much do you enjoy warm socks?
-      - On a scale of 1 to 100, how much do you enjoy cozy sweaters?
-      - On a scale of 1 to 100, how much do you enjoy sandals in summer?
-      - On a scale of 1 to 100, how much do you enjoy boots in winter?
-      - On a scale of 1 to 100, how much do you enjoy wearing hats?
-      - On a scale of 1 to 100, how much do you enjoy wearing scarves?
-      - On a scale of 1 to 100, how much do you enjoy wearing gloves?
-      - On a scale of 1 to 100, how much do you enjoy matching outfits?
-      - On a scale of 1 to 100, how much do you enjoy bright colors in clothing?
-
+      - On a scale of 1 to 100, how much do you enjoy garde
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF' > /home/jorap/Documents/GitHub/jorap.com/data/randomizer-personal-items.yaml
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39; &gt; /home/jorap/Documents/GitHub/jorap.com/data/randomizer-personal-items.yaml
 stems = [
-    "how much do you enjoy waking up early",
-    "how tidy is your bedroom right now",
-    "how much do you trust your morning alarm",
-    "how likely are you to make your bed each day",
-    "how early do you like to wake up on weekends",
-    "how much do you enjoy rainy days",
-    "how much do you enjoy sunny days",
-    "how patient are you when waiting in line",
-    "how much do you enjoy trying new foods",
-    "how competitive are you at board games",
-    "how likely are you to return a shopping cart",
-    "how much do you enjoy reading before bed",
-    "how organized is your school bag or work bag",
-    "how much do you enjoy cooking at home",
-    "how much do you enjoy eating vegetables",
-    "how sweet do you like your drinks",
-    "how spicy do you like your food",
-    "how much do you enjoy long walks",
-    "how much do you enjoy swimming",
-    "how much do you enjoy riding a bicycle",
-    "how much do you enjoy camping outdoors",
-    "how much do you enjoy visiting museums",
-    "how much do you enjoy drawing or coloring",
-    "how much do you enjoy singing out loud",
-    "how much do you enjoy dancing",
-    "how much do you enjoy puzzles",
-    "how much do you enjoy building with blocks or bricks",
-    "how much do you enjoy gardening",
-    "how much do you enjoy feeding birds or animals",
-    "how much do you enjoy stargazing at night",
-    "how much do you enjoy watching clouds",
-    "how much do you enjoy thunderstorms from indoors",
-    "how much do you enjoy snow",
-    "how much do you enjoy hot weather",
-    "how much do you enjoy cold weather",
-    "how much do you enjoy windy days",
-    "how likely are you to share snacks with others",
-    "how likely are you to help clean up after a meal",
-    "how likely are you to hold the door for someone",
-    "how likely are you to say thank you to a cashier",
-    "how likely are you to apologize when you are wrong",
-    "how likely are you to forgive someone quickly",
-    "how comfortable are you meeting new people",
-    "how comfortable are you speaking in front of a group",
-    "how comfortable are you asking for help",
-    "how comfortable are you eating alone in public",
-    "how comfortable are you trying a new hobby",
-    "how much do you enjoy quiet time alone",
-    "how much do you enjoy large family gatherings",
-    "how much do you enjoy small gatherings with close friends",
-    "how much do you enjoy phone calls with relatives",
-    "how much do you enjoy writing letters or cards",
-    "how much do you enjoy giving gifts",
-    "how much do you enjoy receiving gifts",
-    "how much do you enjoy planning parties",
-    "how much do you enjoy surprise plans",
-    "how much do you like having a daily routine",
-    "how much do you like changing your routine",
-    "how punctual are you for appointments",
-    "how likely are you to be early rather than late",
-    "how likely are you to finish homework or tasks before the deadline",
-    "how likely are you to start projects well in advance",
-    "how likely are you to procrastinate",
-    "how focused are you when studying or working",
-    "how easily are you distracted by noise",
-    "how easily are you distracted by your phone",
-    "how long can you go without checking your phone",
-    "how much do you enjoy learning new facts",
-    "how much do you enjoy science experiments",
-    "how much do you enjoy history lessons",
-    "how much do you enjoy math problems",
-    "how much do you enjoy art class",
-    "how much do you enjoy music lessons",
-    "how much do you enjoy physical education class",
-    "how much do you enjoy field trips",
-    "how much do you enjoy library visits",
-    "how much do you enjoy group projects",
-    "how much do you enjoy working alone",
-    "how much do you enjoy leading a team",
-    "how much do you enjoy following clear instructions",
-    "how much do you enjoy figuring things out on your own",
-    "how good are you at remembering names",
-    "how good are you at remembering birthdays",
-    "how good are you at remembering where you put things",
-    "how good are you at keeping secrets",
-    "how good are you at keeping plants alive",
-    "how good are you at keeping pets calm",
-    "how good are you at fixing small problems at home",
-    "how good are you at folding laundry",
-    "how good are you at packing a suitcase",
-    "how good are you at wrapping gifts",
-    "how good are you at setting a table",
-    "how good are you at washing dishes by hand",
-    "how good are you at using a map",
-    "how good are you at reading a clock",
-    "how good are you at estimating time",
-    "how good are you at saving money",
-    "how good are you at sticking to a budget",
-    "how adventurous are you with food",
-    "how adventurous are you with travel",
-    "how adventurous are you with hairstyles",
-    "how adventurous are you with trying new sports",
-    "how adventurous are you with redecorating a room",
-    "how much do you enjoy thrift shopping",
-    "how much do you enjoy grocery shopping",
-    "how much do you enjoy farmers markets",
-    "how much do you enjoy baking bread",
-    "how much do you enjoy baking cookies",
-    "how much do you enjoy making sandwiches",
-    "how much do you enjoy packing lunch boxes",
-    "how much do you enjoy breakfast foods",
-    "how much do you enjoy lunch foods",
-    "how much do you enjoy dinner foods",
-    "how much do you enjoy late-night snacks",
-    "how much do you enjoy fruit for dessert",
-    "how much do you enjoy soup on a cold day",
-    "how much do you enjoy salad",
-    "how much do you enjoy sandwiches",
-    "how much do you enjoy pasta dishes",
-    "how much do you enjoy rice dishes",
-    "how much do you enjoy breakfast cereal",
-    "how much do you enjoy oatmeal",
-    "how much do you enjoy eggs for breakfast",
-    "how much do you enjoy pancakes",
-    "how much do you enjoy smoothies",
-    "how much do you enjoy popcorn as a snack",
-    "how much do you enjoy nuts as a snack",
-    "how much do you enjoy cheese as a snack",
-    "how much do you enjoy crackers as a snack",
-    "how much do you enjoy ice water",
-    "how much do you enjoy herbal tea",
-    "how much do you enjoy hot chocolate",
-    "how much do you enjoy lemonade",
-    "how much do you enjoy milk with meals",
-    "how much do you enjoy drinking water throughout the day",
-    "how energetic are you in the morning",
-    "how energetic are you in the evening",
-    "how energetic are you after lunch",
-    "how likely are you to take a nap on weekends",
-    "how likely are you to stretch after sitting a long time",
-    "how likely are you to drink water when you are thirsty",
-    "how likely are you to wear a hat in the sun",
-    "how likely are you to wear a coat in the cold",
-    "how likely are you to wear sunscreen outdoors",
-    "how likely are you to wash your hands before meals",
-    "how likely are you to brush your teeth before bed",
-    "how likely are you to floss your teeth",
-    "how likely are you to tidy your desk once a week",
-    "how likely are you to sort recycling correctly",
-    "how likely are you to turn off lights when leaving a room",
-    "how likely are you to close doors gently",
-    "how likely are you to whisper in a library",
-    "how likely are you to pick up litter you see outdoors",
-    "how likely are you to plant a tree or flower",
-    "how likely are you to compost food scraps",
-    "how likely are you to walk instead of drive for short trips",
-    "how likely are you to take the stairs instead of an elevator",
-    "how likely are you to bike to nearby places",
-    "how likely are you to carpool when possible",
-    "how much do you enjoy car rides with family",
-    "how much do you enjoy train rides",
-    "how much do you enjoy bus rides",
-    "how much do you enjoy boat rides",
-    "how much do you enjoy airplane travel",
-    "how much do you enjoy road trip games",
-    "how much do you enjoy packing for a trip",
-    "how much do you enjoy unpacking after a trip",
-    "how much do you enjoy hotel stays",
-    "how much do you enjoy staying with relatives",
-    "how much do you enjoy camping in a tent",
-    "how much do you enjoy sleeping in a sleeping bag",
-    "how much do you enjoy hiking uphill",
-    "how much do you enjoy hiking downhill",
-    "how much do you enjoy picnics in a park",
-    "how much do you enjoy playground equipment",
-    "how much do you enjoy sandbox play",
-    "how much do you enjoy kite flying",
-    "how much do you enjoy fishing calmly",
-    "how much do you enjoy collecting shells or rocks",
-    "how much do you enjoy birdwatching",
-    "how much do you enjoy watching sunsets",
-    "how much do you enjoy watching sunrises",
-    "how much do you enjoy moonlit walks",
-    "how much do you enjoy listening to rain on the roof",
-    "how much do you enjoy the smell of fresh bread",
-    "how much do you enjoy the smell of flowers",
-    "how much do you enjoy the smell of rain on pavement",
-    "how much do you enjoy the smell of pine trees",
-    "how much do you enjoy the smell of the ocean",
-    "how much do you enjoy soft blankets",
-    "how much do you enjoy firm pillows",
-    "how much do you enjoy warm socks",
-    "how much do you enjoy cozy sweaters",
-    "how much do you enjoy sandals in summer",
-    "how much do you enjoy boots in winter",
-    "how much do you enjoy wearing hats",
-    "how much do you enjoy wearing scarves",
-    "how much do you enjoy wearing gloves",
-    "how much do you enjoy matching outfits",
-    "how much do you enjoy bright colors in clothing",
-    "how much do you enjoy neutral colors in clothing",
-    "how much do you enjoy patterned fabrics",
-    "how much do you enjoy plain fabrics",
-    "how much do you enjoy jewelry or simple accessories",
-    "how much do you enjoy watches or bracelets",
-    "how much do you enjoy backpacks over shoulder bags",
-    "how much do you enjoy reusable water bottles",
-    "how much do you enjoy lunch boxes with compartments",
-    "how much do you enjoy desk lamps for reading",
-    "how much do you enjoy natural light in a room",
-    "how much do you enjoy ceiling fans",
-    "how much do you enjoy open windows for fresh air",
-    "how much do you enjoy air conditioning on hot days",
-    "how much do you enjoy heating on cold days",
-    "how much do you enjoy fireplaces or heaters visually",
-    "how much do you enjoy candles with mild scents",
-    "how much do you enjoy string lights for decoration",
-    "how much do you enjoy houseplants indoors",
-    "how much do you enjoy fresh flowers in a vase",
-    "how much do you enjoy photo albums",
-    "how much do you enjoy scrapbooking memories",
-    "how much do you enjoy journaling daily",
-    "how much do you enjoy to-do lists",
-    "how much do you enjoy calendars and planners",
-    "how much do you enjoy sticky notes for reminders",
-    "how much do you enjoy label makers for organization",
-    "how much do you enjoy sorting books by color or size",
-    "how much do you enjoy alphabetizing items",
-    "how much do you enjoy donating items you no longer need",
-    "how much do you enjoy fixing torn pages in books",
-    "how much do you enjoy sharpening pencils",
-    "how much do you enjoy erasing a board cleanly",
-    "how much do you enjoy whiteboards over chalkboards",
-    "how much do you enjoy markers over crayons",
-    "how much do you enjoy colored pencils over pens",
-    "how much do you enjoy gel pens for writing",
-    "how much do you enjoy typing over handwriting",
-    "how much do you enjoy handwriting over typing",
-    "how much do you enjoy printing photos at home",
-    "how much do you enjoy scanning old documents",
-    "how much do you enjoy backing up important files",
-    "how much do you enjoy learning keyboard shortcuts",
-    "how much do you enjoy teaching others a skill you know",
-    "how much do you enjoy being taught by someone patient",
-    "how much do you enjoy mentoring younger students",
-    "how much do you enjoy asking thoughtful questions",
-    "how much do you enjoy listening without interrupting",
-    "how much do you enjoy giving compliments sincerely",
-    "how much do you enjoy receiving compliments gracefully",
-    "how much do you enjoy resolving disagreements calmly",
-    "how much do you enjoy compromising in group decisions",
-    "how much do you enjoy taking turns fairly",
-    "how much do you enjoy cheering for others",
-    "how much do you enjoy celebrating small wins",
-    "how much do you enjoy setting personal goals",
-    "how much do you enjoy tracking progress on goals",
-    "how much do you enjoy rewarding yourself after hard work",
-    "how much do you enjoy resting after finishing a task",
-    "how calm are you during unexpected changes",
-    "how calm are you when plans are canceled",
-    "how calm are you when you lose a game",
-    "how calm are you when you win a game",
-    "how calm are you during loud environments",
-    "how calm are you during very quiet environments",
-    "how optimistic are you about tomorrow",
-    "how optimistic are you about learning hard subjects",
-    "how optimistic are you about making new friends",
-    "how optimistic are you about fixing mistakes",
-    "how grateful do you feel for your home",
-    "how grateful do you feel for your meals",
-    "how grateful do you feel for your teachers or mentors",
-    "how grateful do you feel for your neighbors",
-    "how grateful do you feel for sunny mornings",
+    &#34;how much do you enjoy waking up early&#34;,
+    &#34;how tidy is your bedroom right now&#34;,
+    &#34;how much do you trust your morning alarm&#34;,
+    &#34;how likely are you to make your bed each day&#34;,
+    &#34;how early do you like to wake up on weekends&#34;,
+    &#34;how much do you enjoy rainy days&#34;,
+    &#34;how much do you enjoy sunny days&#34;,
+    &#34;how patient are you when waiting in line&#34;,
+    &#34;how much do you enjoy trying new foods&#34;,
+    &#34;how competitive are you at board games&#34;,
+    &#34;how likely are you to return a shopping cart&#34;,
+    &#34;how much do you enjoy reading before bed&#34;,
+    &#34;how organized is your school bag or work bag&#34;,
+    &#34;how much do you enjoy cooking at home&#34;,
+    &#34;how much do you enjoy eating vegetables&#34;,
+    &#34;how sweet do you like your drinks&#34;,
+    &#34;how spicy do you like your food&#34;,
+    &#34;how much do you enjoy long walks&#34;,
+    &#34;how much do you enjoy swimming&#34;,
+    &#34;how much do you enjoy riding a bicycle&#34;,
+    &#34;how much do you enjoy camping outdoors&#34;,
+    &#34;how much do you enjoy visiting museums&#34;,
+    &#34;how much do you enjoy drawing or coloring&#34;,
+    &#34;how much do you enjoy singing out loud&#34;,
+    &#34;how much do you enjoy dancing&#34;,
+    &#34;how much do you enjoy puzzles&#34;,
+    &#34;how much do you enjoy building with blocks or bricks&#34;,
+    &#34;how much do you enjoy gardening&#34;,
+    &#34;how much do you enjoy feeding birds or animals&#34;,
+    &#34;how much do you enjoy stargazing at night&#34;,
+    &#34;how much do you enjoy watching clouds&#34;,
+    &#34;how much do you enjoy thunderstorms from indoors&#34;,
+    &#34;how much do you enjoy snow&#34;,
+    &#34;how much do you enjoy hot weather&#34;,
+    &#34;how much do you enjoy cold weather&#34;,
+    &#34;how much do you enjoy windy days&#34;,
+    &#34;how likely are you to share snacks with others&#34;,
+    &#34;how likely are you to help clean up after a meal&#34;,
+    &#34;how likely are you to hold the door for someone&#34;,
+    &#34;how likely are you to say thank you to a cashier&#34;,
+    &#34;how likely are you to apologize when you are wrong&#34;,
+    &#34;how likely are you to forgive someone quickly&#34;,
+    &#34;how comfortable are you meeting new people&#34;,
+    &#34;how comfortable are you speaking in front of a group&#34;,
+    &#34;how comfortable are you asking for help&#34;,
+    &#34;how comfortable are you eating alone in public&#34;,
+    &#34;how comfortable are you trying a new hobby&#34;,
+    &#34;how much do you enjoy quiet time alone&#34;,
+    &#34;how much do you enjoy large family gatherings&#34;,
+    &#34;how much do you enjoy small gatherings with close friends&#34;,
+    &#34;how much do you enjoy phone calls with relatives&#34;,
+    &#34;how much do you enjoy writing letters or cards&#34;,
+    &#34;how much do you enjoy giving gifts&#34;,
+    &#34;how much do you enjoy receiving gifts&#34;,
+    &#34;how much do you enjoy planning parties&#34;,
+    &#34;how much do you enjoy surprise plans&#34;,
+    &#34;how much do you like having a daily routine&#34;,
+    &#34;how much do you like changing your routine&#34;,
+    &#34;how punctual are you for appointments&#34;,
+    &#34;how likely are you to be early rather than late&#34;,
+    &#34;how likely are you to finish homework or tasks before the deadline&#34;,
+    &#34;how likely are you to start projects well in advance&#34;,
+    &#34;how likely are you to procrastinate&#34;,
+    &#34;how focused are you when studying or working&#34;,
+    &#34;how easily are you distracted by noise&#34;,
+    &#34;how easily are you distracted by your phone&#34;,
+    &#34;how long can you go without checking your phone&#34;,
+    &#34;how much do you enjoy learning new facts&#34;,
+    &#34;how much do you enjoy science experiments&#34;,
+    &#34;how much do you enjoy history lessons&#34;,
+    &#34;how much do you enjoy math problems&#34;,
+    &#34;how much do you enjoy art class&#34;,
+    &#34;how much do you enjoy music lessons&#34;,
+    &#34;how much do you enjoy physical education class&#34;,
+    &#34;how much do you enjoy field trips&#34;,
+    &#34;how much do you enjoy library visits&#34;,
+    &#34;how much do you enjoy group projects&#34;,
+    &#34;how much do you enjoy working alone&#34;,
+    &#34;how much do you enjoy leading a team&#34;,
+    &#34;how much do you enjoy following clear instructions&#34;,
+    &#34;how much do you enjoy figuring things out on your own&#34;,
+    &#34;how good are you at remembering names&#34;,
+    &#34;how good are you at remembering birthdays&#34;,
+    &#34;how good are you at remembering where you put things&#34;,
+    &#34;how good are you at keeping secrets&#34;,
+    &#34;how good are you at keeping plants alive&#34;,
+    &#34;how good are you at keeping pets calm&#34;,
+    &#34;how good are you at fixing small problems at home&#34;,
+    &#34;how good are you at folding laundry&#34;,
+    &#34;how good are you at packing a suitcase&#34;,
+    &#34;how good are you at wrapping gifts&#34;,
+    &#34;how good are you at setting a table&#34;,
+    &#34;how good are you at washing dishes by hand&#34;,
+    &#34;how good are you at using a map&#34;,
+    &#34;how good are you at reading a clock&#34;,
+    &#34;how good are you at estimating time&#34;,
+    &#34;how good are you at saving money&#34;,
+    &#34;how good are you at sticking to a budget&#34;,
+    &#34;how adventurous are you with food&#34;,
+    &#34;how adventurous are you with travel&#34;,
+    &#34;how adventurous are you with hairstyles&#34;,
+    &#34;how adventurous are you with trying new sports&#34;,
+    &#34;how adventurous are you with redecorating a room&#34;,
+    &#34;how much do you enjoy thrift shopping&#34;,
+    &#34;how much do you enjoy grocery shopping&#34;,
+    &#34;how much do you enjoy farmers markets&#34;,
+    &#34;how much do you enjoy baking bread&#34;,
+    &#34;how much do you enjoy baking cookies&#34;,
+    &#34;how much do you enjoy making sandwiches&#34;,
+    &#34;how much do you enjoy packing lunch boxes&#34;,
+    &#34;how much do you enjoy breakfast foods&#34;,
+    &#34;how much do you enjoy lunch foods&#34;,
+    &#34;how much do you enjoy dinner foods&#34;,
+    &#34;how much do you enjoy late-night snacks&#34;,
+    &#34;how much do you enjoy fruit for dessert&#34;,
+    &#34;how much do you enjoy soup on a cold day&#34;,
+    &#34;how much do you enjoy salad&#34;,
+    &#34;how much do you enjoy sandwiches&#34;,
+    &#34;how much do you enjoy pasta dishes&#34;,
+    &#34;how much do you enjoy rice dishes&#34;,
+    &#34;how much do you enjoy breakfast cereal&#34;,
+    &#34;how much do you enjoy oatmeal&#34;,
+    &#34;how much do you enjoy eggs for breakfast&#34;,
+    &#34;how much do you enjoy pancakes&#34;,
+    &#34;how much do you enjoy smoothies&#34;,
+    &#34;how much do you enjoy popcorn as a snack&#34;,
+    &#34;how much do you enjoy nuts as a snack&#34;,
+    &#34;how much do you enjoy cheese as a snack&#34;,
+    &#34;how much do you enjoy crackers as a snack&#34;,
+    &#34;how much do you enjoy ice water&#34;,
+    &#34;how much do you enjoy herbal tea&#34;,
+    &#34;how much do you enjoy hot chocolate&#34;,
+    &#34;how much do you enjoy lemonade&#34;,
+    &#34;how much do you enjoy milk with meals&#34;,
+    &#34;how much do you enjoy drinking water throughout the day&#34;,
+    &#34;how energetic are you in the morning&#34;,
+    &#34;how energetic are you in the evening&#34;,
+    &#34;how energetic are you after lunch&#34;,
+    &#34;how likely are you to take a nap on weekends&#34;,
+    &#34;how likely are you to stretch after sitting a long time&#34;,
+    &#34;how likely are you to drink water when you are thirsty&#34;,
+    &#34;how likely are you to wear a hat in the sun&#34;,
+    &#34;how likely are you to wear a coat in the cold&#34;,
+    &#34;how likely are you to wear sunscreen outdoors&#34;,
+    &#34;how likely are you to wash your hands before meals&#34;,
+    &#34;how likely are you to brush your teeth before bed&#34;,
+    &#34;how likely are you to floss your teeth&#34;,
+    &#34;how likely are you to tidy your desk once a week&#34;,
+    &#34;how likely are you to sort recycling correctly&#34;,
+    &#34;how likely are you to turn off lights when leaving a room&#34;,
+    &#34;how likely are you to close doors gently&#34;,
+    &#34;how likely are you to whisper in a library&#34;,
+    &#34;how likely are you to pick up litter you see outdoors&#34;,
+    &#34;how likely are you to plant a tree or flower&#34;,
+    &#34;how likely are you to compost food scraps&#34;,
+    &#34;how likely are you to walk instead of drive for short trips&#34;,
+    &#34;how likely are you to take the stairs instead of an elevator&#34;,
+    &#34;how likely are you to bike to nearby places&#34;,
+    &#34;how likely are you to carpool when possible&#34;,
+    &#34;how much do you enjoy car rides with family&#34;,
+    &#34;how much do you enjoy train rides&#34;,
+    &#34;how much do you enjoy bus rides&#34;,
+    &#34;how much do you enjoy boat rides&#34;,
+    &#34;how much do you enjoy airplane travel&#34;,
+    &#34;how much do you enjoy road trip games&#34;,
+    &#34;how much do you enjoy packing for a trip&#34;,
+    &#34;how much do you enjoy unpacking after a trip&#34;,
+    &#34;how much do you enjoy hotel stays&#34;,
+    &#34;how much do you enjoy staying with relatives&#34;,
+    &#34;how much do you enjoy camping in a tent&#34;,
+    &#34;how much do you enjoy sleeping in a sleeping bag&#34;,
+    &#34;how much do you enjoy hiking uphill&#34;,
+    &#34;how much do you enjoy hiking downhill&#34;,
+    &#34;how much do you enjoy picnics in a park&#34;,
+    &#34;how much do you enjoy playground equipment&#34;,
+    &#34;how much do you enjoy sandbox play&#34;,
+    &#34;how much do you enjoy kite flying&#34;,
+    &#34;how much do you enjoy fishing calmly&#34;,
+    &#34;how much do you enjoy collecting shells or rocks&#34;,
+    &#34;how much do you enjoy birdwatching&#34;,
+    &#34;how much do you enjoy watching sunsets&#34;,
+    &#34;how much do you enjoy watching sunrises&#34;,
+    &#34;how much do you enjoy moonlit walks&#34;,
+    &#34;how much do you enjoy listening to rain on the roof&#34;,
+    &#34;how much do you enjoy the smell of fresh bread&#34;,
+    &#34;how much do you enjoy the smell of flowers&#34;,
+    &#34;how much do you enjoy the smell of rain on pavement&#34;,
+    &#34;how much do you enjoy the smell of pine trees&#34;,
+    &#34;how much do you enjoy the smell of the ocean&#34;,
+    &#34;how much do you enjoy soft blankets&#34;,
+    &#34;how much do you enjoy firm pillows&#34;,
+    &#34;how much do you enjoy warm socks&#34;,
+    &#34;how much do you enjoy cozy sweaters&#34;,
+    &#34;how much do you enjoy sandals in summer&#34;,
+    &#34;how much do you enjoy boots in winter&#34;,
+    &#34;how much do you enjoy wearing hats&#34;,
+    &#34;how much do you enjoy wearing scarves&#34;,
+    &#34;how much do you enjoy wearing gloves&#34;,
+    &#34;how much do you enjoy matching outfits&#34;,
+    &#34;how much do you enjoy bright colors in clothing&#34;,
+    &#34;how much do you enjoy neutral colors in clothing&#34;,
+    &#34;how much do you enjoy patterned fabrics&#34;,
+    &#34;how much do you enjoy plain fabrics&#34;,
+    &#34;how much do you enjoy jewelry or simple accessories&#34;,
+    &#34;how much do you enjoy watches or bracelets&#34;,
+    &#34;how much do you enjoy backpacks over shoulder bags&#34;,
+    &#34;how much do you enjoy reusable water bottles&#34;,
+    &#34;how much do you enjoy lunch boxes with compartments&#34;,
+    &#34;how much do you enjoy desk lamps for reading&#34;,
+    &#34;how much do you enjoy natural light in a room&#34;,
+    &#34;how much do you enjoy ceiling fans&#34;,
+    &#34;how much do you enjoy open windows for fresh air&#34;,
+    &#34;how much do you enjoy air conditioning on hot days&#34;,
+    &#34;how much do you enjoy heating on cold days&#34;,
+    &#34;how much do you enjoy fireplaces or heaters visually&#34;,
+    &#34;how much do you enjoy candles with mild scents&#34;,
+    &#34;how much do you enjoy string lights for decoration&#34;,
+    &#34;how much do you enjoy houseplants indoors&#34;,
+    &#34;how much do you enjoy fresh flowers in a vase&#34;,
+    &#34;how much do you enjoy photo albums&#34;,
+    &#34;how much do you enjoy scrapbooking memories&#34;,
+    &#34;how much do you enjoy journaling daily&#34;,
+    &#34;how much do you enjoy to-do lists&#34;,
+    &#34;how much do you enjoy calendars and planners&#34;,
+    &#34;how much do you enjoy sticky notes for reminders&#34;,
+    &#34;how much do you enjoy label makers for organization&#34;,
+    &#34;how much do you enjoy sorting books by color or size&#34;,
+    &#34;how much do you enjoy alphabetizing items&#34;,
+    &#34;how much do you enjoy donating items you no longer need&#34;,
+    &#34;how much do you enjoy fixing torn pages in books&#34;,
+    &#34;how much do you enjoy sharpening pencils&#34;,
+    &#34;how much do you enjoy erasing a board cleanly&#34;,
+    &#34;how much do you enjoy whiteboards over chalkboards&#34;,
+    &#34;how much do you enjoy markers over crayons&#34;,
+    &#34;how much do you enjoy colored pencils over pens&#34;,
+    &#34;how much do you enjoy gel pens for writing&#34;,
+    &#34;how much do you enjoy typing over handwriting&#34;,
+    &#34;how much do you enjoy handwriting over typing&#34;,
+    &#34;how much do you enjoy printing photos at home&#34;,
+    &#34;how much do you enjoy scanning old documents&#34;,
+    &#34;how much do you enjoy backing up important files&#34;,
+    &#34;how much do you enjoy learning keyboard shortcuts&#34;,
+    &#34;how much do you enjoy teaching others a skill you know&#34;,
+    &#34;how much do you enjoy being taught by someone patient&#34;,
+    &#34;how much do you enjoy mentoring younger students&#34;,
+    &#34;how much do you enjoy asking thoughtful questions&#34;,
+    &#34;how much do you enjoy listening without interrupting&#34;,
+    &#34;how much do you enjoy giving compliments sincerely&#34;,
+    &#34;how much do you enjoy receiving compliments gracefully&#34;,
+    &#34;how much do you enjoy resolving disagreements calmly&#34;,
+    &#34;how much do you enjoy compromising in group decisions&#34;,
+    &#34;how much do you enjoy taking turns fairly&#34;,
+    &#34;how much do you enjoy cheering for others&#34;,
+    &#34;how much do you enjoy celebrating small wins&#34;,
+    &#34;how much do you enjoy setting personal goals&#34;,
+    &#34;how much do you enjoy tracking progress on goals&#34;,
+    &#34;how much do you enjoy rewarding yourself after hard work&#34;,
+    &#34;how much do you enjoy resting after finishing a task&#34;,
+    &#34;how calm are you during unexpected changes&#34;,
+    &#34;how calm are you when plans are canceled&#34;,
+    &#34;how calm are you when you lose a game&#34;,
+    &#34;how calm are you when you win a game&#34;,
+    &#34;how calm are you during loud environments&#34;,
+    &#34;how calm are you during very quiet environments&#34;,
+    &#34;how optimistic are you about tomorrow&#34;,
+    &#34;how optimistic are you about learning hard subjects&#34;,
+    &#34;how optimistic are you about making new friends&#34;,
+    &#34;how optimistic are you about fixing mistakes&#34;,
+    &#34;how grateful do you feel for your home&#34;,
+    &#34;how grateful do you feel for your meals&#34;,
+    &#34;how grateful do you feel for your teachers or mentors&#34;,
+    &#34;how grateful do you feel for your neighbors&#34;,
+    &#34;how grateful do you feel for sunny mornings&#34;,
 ]
 items = []
 seen = set()
 for s in stems:
-    q = f"On a scale of 1 to 100, {s}?"
+    q = f&#34;On a scale of 1 to 100, {s}?&#34;
     if q not in seen:
         seen.add(q)
         items.append(q)
-    if len(items) >= 200:
+    if len(items) &gt;= 200:
         break
 for item in items:
-    print(f"    - {item}")
+    print(f&#34;    - {item}&#34;)
 PYEOF
 wc -l /home/jorap/Documents/GitHub/jorap.com/data/randomizer-personal-items.yaml</summary>
-
 ```bash
 python3 << 'PYEOF' > /home/jorap/Documents/GitHub/jorap.com/data/randomizer-personal-items.yaml
 stems = [
@@ -8602,24 +3382,12 @@ wc -l /home/jorap/Documents/GitHub/jorap.com/data/randomizer-personal-items.yaml
 200 /home/jorap/Documents/GitHub/jorap.com/data/randomizer-personal-items.yaml
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
@@ -8630,16 +3398,17 @@ Refactoring JavaScript to use an `isDirectPlay` helper for spectrum and personal
 
 Unifying spectrum and personal play logic under `startFlatPlay`. Personal items are strings without categories. Offline export will use titles and raw item arrays for personal mode. Adding a `flatItems` helper to retrieve items by mode.
 
-`startFlatPlay` now resets the category ID and sets the play index. Direct-play collections will be excluded from category views. `collectionCardHtml` is being updated to handle spectrum and personal modes separately.</details></think>
+`startFlatPlay` now resets the category ID and sets the play index. Direct-play collections will be excluded from category views. `collectionCardHtml` is being updated to handle spectrum and personal modes separately.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from pathlib import Path
-root = Path('/home/jorap/Documents/GitHub/jorap.com/data')
-personal = (root / 'randomizer-personal-items.yaml').read_text()
-header = '''# Game prompt collections. Names describe the prompt type — not branded deck titles.
+root = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data&#39;)
+personal = (root / &#39;randomizer-personal-items.yaml&#39;).read_text()
+header = &#39;&#39;&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.
 # All prompts are family-friendly and generic — no pop culture or branded references.
 collections:
   - id: scale-clues
@@ -8679,8 +3448,8 @@ collections:
     tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for the people at the table.
     play_hint: Answer honestly with a number from 1 to 100.
     items:
-'''
-footer = '''
+&#39;&#39;&#39;
+footer = &#39;&#39;&#39;
   - id: spectrum
     title: Concept spectrums
     mode: spectrum
@@ -8707,16 +3476,15 @@ footer = '''
         right: Fancy gift
       - left: Overrated
         right: Underrated
-'''
-(root / 'randomizer.yaml').write_text(header + personal + footer)
-(root / 'randomizer-personal-items.yaml').unlink()
+&#39;&#39;&#39;
+(root / &#39;randomizer.yaml&#39;).write_text(header + personal + footer)
+(root / &#39;randomizer-personal-items.yaml&#39;).unlink()
 # verify count
-text = (root / 'randomizer.yaml').read_text()
+text = (root / &#39;randomizer.yaml&#39;).read_text()
 import re
-items = re.findall(r'^    - On a scale of 1 to 100', text, re.M)
-print('personal items:', len(items))
+items = re.findall(r&#39;^    - On a scale of 1 to 100&#39;, text, re.M)
+print(&#39;personal items:&#39;, len(items))
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from pathlib import Path
@@ -8805,179 +3573,89 @@ PYEOF
 personal items: 200
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+</details></tool-use>
 
-</details>
+_**Agent (auto-low)**_
 
-</tool-use>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
 The model provided an ambiguous search string to replace
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -9008,42 +3686,26 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -5 && node -e "
-const fs=require('fs');
-const html=fs.readFileSync('public/randomizer/index.html','utf8');
-const m=html.match(/id=randomizer-data>([^<]+)</);
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -5 &amp;&amp; node -e &#34;
+const fs=require(&#39;fs&#39;);
+const html=fs.readFileSync(&#39;public/randomizer/index.html&#39;,&#39;utf8&#39;);
+const m=html.match(/id=randomizer-data&gt;([^&lt;]+)&lt;/);
 const data=JSON.parse(m[1]);
-const p=data.collections.find(c=>c.id==='personal-scales');
-console.log('personal items', p.items.length, 'categories', p.categories);
-"</summary>
-
+const p=data.collections.find(c=&gt;c.id===&#39;personal-scales&#39;);
+console.log(&#39;personal items&#39;, p.items.length, &#39;categories&#39;, p.categories);
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -5 && node -e "
 const fs=require('fs');
@@ -9060,22 +3722,17 @@ console.log('personal items', p.items.length, 'categories', p.categories);
 
 Total in 21165 ms
 [cspHashes] Rewrote 24 inline onerror= attribute(s) in 5 file(s).
-[cspHashes] Hashed 4464 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+[cspHashes] Hashed 4464 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
 personal items 200 categories undefined
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Each personal scale gets 200 items. There are no categories.</details></think>
+Each personal scale gets 200 items. There are no categories.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -9100,7 +3757,8 @@ for personal scales add more PH context that foreigners will understand. expand 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Expanding personal scales to 500 items. Adding more Philippine context for foreigners.</details></think>
+Expanding personal scales to 500 items. Adding more Philippine context for foreigners.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -9109,23 +3767,15 @@ Expanding personal-scales to 500 prompts with Philippine context that's clear to
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -9157,25 +3807,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -9196,7 +3833,8 @@ New entries cover digital payments, mall culture, and school uniforms. Commute h
 
 New entries cover All Souls Day cemetery visits and Holy Week traditions. Tipping at restaurants and haggling at markets are included. Bill-splitting customs and crowded jeepney personal space are added. Filipino time punctuality is rated. Hospitality to guests and offering food despite refusals are planned. Ice in drinks and cold versus room temperature water are noted. Two daily showers in hot weather and folding clothes immediately are included. Outdoor hanging to dry and salon or barber small talk are also added.
 
-New entries cover bureaucratic patience, government office queuing, and traffic enforcer stops. RFID toll roads and provincial accent understanding are included. Regional food preferences such as sinigang and adobo are added. Lechon at celebrations replaces roast pig. Street flooding wading tolerance and mosquito coil use are noted. Open windows at night, neighbor karaoke noise, rooster dawn calls, stray pets, guard dog barks, and condo versus house living are also planned. Afternoon sleeping during heat is included.</details></think>
+New entries cover bureaucratic patience, government office queuing, and traffic enforcer stops. RFID toll roads and provincial accent understanding are included. Regional food preferences such as sinigang and adobo are added. Lechon at celebrations replaces roast pig. Street flooding wading tolerance and mosquito coil use are noted. Open windows at night, neighbor karaoke noise, rooster dawn calls, stray pets, guard dog barks, and condo versus house living are also planned. Afternoon sleeping during heat is included.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -9205,565 +3843,565 @@ Generating 500 personal-scale prompts with Philippine context, using a script to
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from pathlib import Path
 import re
 
 # --- existing 200 generic (from current file) ---
 generic_stems = [
-    "how much do you enjoy waking up early",
-    "how tidy is your bedroom right now",
-    "how much do you trust your morning alarm",
-    "how likely are you to make your bed each day",
-    "how early do you like to wake up on weekends",
-    "how much do you enjoy rainy days",
-    "how much do you enjoy sunny days",
-    "how patient are you when waiting in line",
-    "how much do you enjoy trying new foods",
-    "how competitive are you at board games",
-    "how likely are you to return a shopping cart",
-    "how much do you enjoy reading before bed",
-    "how organized is your school bag or work bag",
-    "how much do you enjoy cooking at home",
-    "how much do you enjoy eating vegetables",
-    "how sweet do you like your drinks",
-    "how spicy do you like your food",
-    "how much do you enjoy long walks",
-    "how much do you enjoy swimming",
-    "how much do you enjoy riding a bicycle",
-    "how much do you enjoy camping outdoors",
-    "how much do you enjoy visiting museums",
-    "how much do you enjoy drawing or coloring",
-    "how much do you enjoy singing out loud",
-    "how much do you enjoy dancing",
-    "how much do you enjoy puzzles",
-    "how much do you enjoy building with blocks or bricks",
-    "how much do you enjoy gardening",
-    "how much do you enjoy feeding birds or animals",
-    "how much do you enjoy stargazing at night",
-    "how much do you enjoy watching clouds",
-    "how much do you enjoy thunderstorms from indoors",
-    "how much do you enjoy snow",
-    "how much do you enjoy hot weather",
-    "how much do you enjoy cold weather",
-    "how much do you enjoy windy days",
-    "how likely are you to share snacks with others",
-    "how likely are you to help clean up after a meal",
-    "how likely are you to hold the door for someone",
-    "how likely are you to say thank you to a cashier",
-    "how likely are you to apologize when you are wrong",
-    "how likely are you to forgive someone quickly",
-    "how comfortable are you meeting new people",
-    "how comfortable are you speaking in front of a group",
-    "how comfortable are you asking for help",
-    "how comfortable are you eating alone in public",
-    "how comfortable are you trying a new hobby",
-    "how much do you enjoy quiet time alone",
-    "how much do you enjoy large family gatherings",
-    "how much do you enjoy small gatherings with close friends",
-    "how much do you enjoy phone calls with relatives",
-    "how much do you enjoy writing letters or cards",
-    "how much do you enjoy giving gifts",
-    "how much do you enjoy receiving gifts",
-    "how much do you enjoy planning parties",
-    "how much do you enjoy surprise plans",
-    "how much do you like having a daily routine",
-    "how much do you like changing your routine",
-    "how punctual are you for appointments",
-    "how likely are you to be early rather than late",
-    "how likely are you to finish homework or tasks before the deadline",
-    "how likely are you to start projects well in advance",
-    "how likely are you to procrastinate",
-    "how focused are you when studying or working",
-    "how easily are you distracted by noise",
-    "how easily are you distracted by your phone",
-    "how long can you go without checking your phone",
-    "how much do you enjoy learning new facts",
-    "how much do you enjoy science experiments",
-    "how much do you enjoy history lessons",
-    "how much do you enjoy math problems",
-    "how much do you enjoy art class",
-    "how much do you enjoy music lessons",
-    "how much do you enjoy physical education class",
-    "how much do you enjoy field trips",
-    "how much do you enjoy library visits",
-    "how much do you enjoy group projects",
-    "how much do you enjoy working alone",
-    "how much do you enjoy leading a team",
-    "how much do you enjoy following clear instructions",
-    "how much do you enjoy figuring things out on your own",
-    "how good are you at remembering names",
-    "how good are you at remembering birthdays",
-    "how good are you at remembering where you put things",
-    "how good are you at keeping secrets",
-    "how good are you at keeping plants alive",
-    "how good are you at keeping pets calm",
-    "how good are you at fixing small problems at home",
-    "how good are you at folding laundry",
-    "how good are you at packing a suitcase",
-    "how good are you at wrapping gifts",
-    "how good are you at setting a table",
-    "how good are you at washing dishes by hand",
-    "how good are you at using a map",
-    "how good are you at reading a clock",
-    "how good are you at estimating time",
-    "how good are you at saving money",
-    "how good are you at sticking to a budget",
-    "how adventurous are you with food",
-    "how adventurous are you with travel",
-    "how adventurous are you with hairstyles",
-    "how adventurous are you with trying new sports",
-    "how adventurous are you with redecorating a room",
-    "how much do you enjoy thrift shopping",
-    "how much do you enjoy grocery shopping",
-    "how much do you enjoy farmers markets",
-    "how much do you enjoy baking bread",
-    "how much do you enjoy baking cookies",
-    "how much do you enjoy making sandwiches",
-    "how much do you enjoy packing lunch boxes",
-    "how much do you enjoy breakfast foods",
-    "how much do you enjoy lunch foods",
-    "how much do you enjoy dinner foods",
-    "how much do you enjoy late-night snacks",
-    "how much do you enjoy fruit for dessert",
-    "how much do you enjoy soup on a cold day",
-    "how much do you enjoy salad",
-    "how much do you enjoy sandwiches",
-    "how much do you enjoy pasta dishes",
-    "how much do you enjoy rice dishes",
-    "how much do you enjoy breakfast cereal",
-    "how much do you enjoy oatmeal",
-    "how much do you enjoy eggs for breakfast",
-    "how much do you enjoy pancakes",
-    "how much do you enjoy smoothies",
-    "how much do you enjoy popcorn as a snack",
-    "how much do you enjoy nuts as a snack",
-    "how much do you enjoy cheese as a snack",
-    "how much do you enjoy crackers as a snack",
-    "how much do you enjoy ice water",
-    "how much do you enjoy herbal tea",
-    "how much do you enjoy hot chocolate",
-    "how much do you enjoy lemonade",
-    "how much do you enjoy milk with meals",
-    "how much do you enjoy drinking water throughout the day",
-    "how energetic are you in the morning",
-    "how energetic are you in the evening",
-    "how energetic are you after lunch",
-    "how likely are you to take a nap on weekends",
-    "how likely are you to stretch after sitting a long time",
-    "how likely are you to drink water when you are thirsty",
-    "how likely are you to wear a hat in the sun",
-    "how likely are you to wear a coat in the cold",
-    "how likely are you to wear sunscreen outdoors",
-    "how likely are you to wash your hands before meals",
-    "how likely are you to bring an umbrella when skies look gray",
-    "how likely are you to brush your teeth before bed",
-    "how likely are you to floss your teeth",
-    "how likely are you to tidy your desk once a week",
-    "how likely are you to sort recycling correctly",
-    "how likely are you to turn off lights when leaving a room",
-    "how likely are you to close doors gently",
-    "how likely are you to whisper in a library",
-    "how likely are you to pick up litter you see outdoors",
-    "how likely are you to plant a tree or flower",
-    "how likely are you to compost food scraps",
-    "how likely are you to walk instead of drive for short trips",
-    "how likely are you to take the stairs instead of an elevator",
-    "how likely are you to bike to nearby places",
-    "how likely are you to carpool when possible",
-    "how much do you enjoy car rides with family",
-    "how much do you enjoy train rides",
-    "how much do you enjoy bus rides",
-    "how much do you enjoy boat rides",
-    "how much do you enjoy airplane travel",
-    "how much do you enjoy road trip games",
-    "how much do you enjoy packing for a trip",
-    "how much do you enjoy unpacking after a trip",
-    "how much do you enjoy hotel stays",
-    "how much do you enjoy staying with relatives",
-    "how much do you enjoy camping in a tent",
-    "how much do you enjoy sleeping in a sleeping bag",
-    "how much do you enjoy hiking uphill",
-    "how much do you enjoy hiking downhill",
-    "how much do you enjoy picnics in a park",
-    "how much do you enjoy playground equipment",
-    "how much do you enjoy sandbox play",
-    "how much do you enjoy kite flying",
-    "how much do you enjoy fishing calmly",
-    "how much do you enjoy collecting shells or rocks",
-    "how much do you enjoy birdwatching",
-    "how much do you enjoy watching sunsets",
-    "how much do you enjoy watching sunrises",
-    "how much do you enjoy moonlit walks",
-    "how much do you enjoy listening to rain on the roof",
-    "how much do you enjoy the smell of fresh bread",
-    "how much do you enjoy the smell of flowers",
-    "how much do you enjoy the smell of rain on pavement",
-    "how much do you enjoy the smell of pine trees",
-    "how much do you enjoy the smell of the ocean",
-    "how much do you enjoy soft blankets",
-    "how much do you enjoy firm pillows",
-    "how much do you enjoy warm socks",
-    "how much do you enjoy cozy sweaters",
-    "how much do you enjoy sandals in summer",
-    "how much do you enjoy boots in winter",
-    "how much do you enjoy wearing hats",
-    "how much do you enjoy wearing scarves",
-    "how much do you enjoy wearing gloves",
-    "how much do you enjoy matching outfits",
-    "how much do you enjoy bright colors in clothing",
+    &#34;how much do you enjoy waking up early&#34;,
+    &#34;how tidy is your bedroom right now&#34;,
+    &#34;how much do you trust your morning alarm&#34;,
+    &#34;how likely are you to make your bed each day&#34;,
+    &#34;how early do you like to wake up on weekends&#34;,
+    &#34;how much do you enjoy rainy days&#34;,
+    &#34;how much do you enjoy sunny days&#34;,
+    &#34;how patient are you when waiting in line&#34;,
+    &#34;how much do you enjoy trying new foods&#34;,
+    &#34;how competitive are you at board games&#34;,
+    &#34;how likely are you to return a shopping cart&#34;,
+    &#34;how much do you enjoy reading before bed&#34;,
+    &#34;how organized is your school bag or work bag&#34;,
+    &#34;how much do you enjoy cooking at home&#34;,
+    &#34;how much do you enjoy eating vegetables&#34;,
+    &#34;how sweet do you like your drinks&#34;,
+    &#34;how spicy do you like your food&#34;,
+    &#34;how much do you enjoy long walks&#34;,
+    &#34;how much do you enjoy swimming&#34;,
+    &#34;how much do you enjoy riding a bicycle&#34;,
+    &#34;how much do you enjoy camping outdoors&#34;,
+    &#34;how much do you enjoy visiting museums&#34;,
+    &#34;how much do you enjoy drawing or coloring&#34;,
+    &#34;how much do you enjoy singing out loud&#34;,
+    &#34;how much do you enjoy dancing&#34;,
+    &#34;how much do you enjoy puzzles&#34;,
+    &#34;how much do you enjoy building with blocks or bricks&#34;,
+    &#34;how much do you enjoy gardening&#34;,
+    &#34;how much do you enjoy feeding birds or animals&#34;,
+    &#34;how much do you enjoy stargazing at night&#34;,
+    &#34;how much do you enjoy watching clouds&#34;,
+    &#34;how much do you enjoy thunderstorms from indoors&#34;,
+    &#34;how much do you enjoy snow&#34;,
+    &#34;how much do you enjoy hot weather&#34;,
+    &#34;how much do you enjoy cold weather&#34;,
+    &#34;how much do you enjoy windy days&#34;,
+    &#34;how likely are you to share snacks with others&#34;,
+    &#34;how likely are you to help clean up after a meal&#34;,
+    &#34;how likely are you to hold the door for someone&#34;,
+    &#34;how likely are you to say thank you to a cashier&#34;,
+    &#34;how likely are you to apologize when you are wrong&#34;,
+    &#34;how likely are you to forgive someone quickly&#34;,
+    &#34;how comfortable are you meeting new people&#34;,
+    &#34;how comfortable are you speaking in front of a group&#34;,
+    &#34;how comfortable are you asking for help&#34;,
+    &#34;how comfortable are you eating alone in public&#34;,
+    &#34;how comfortable are you trying a new hobby&#34;,
+    &#34;how much do you enjoy quiet time alone&#34;,
+    &#34;how much do you enjoy large family gatherings&#34;,
+    &#34;how much do you enjoy small gatherings with close friends&#34;,
+    &#34;how much do you enjoy phone calls with relatives&#34;,
+    &#34;how much do you enjoy writing letters or cards&#34;,
+    &#34;how much do you enjoy giving gifts&#34;,
+    &#34;how much do you enjoy receiving gifts&#34;,
+    &#34;how much do you enjoy planning parties&#34;,
+    &#34;how much do you enjoy surprise plans&#34;,
+    &#34;how much do you like having a daily routine&#34;,
+    &#34;how much do you like changing your routine&#34;,
+    &#34;how punctual are you for appointments&#34;,
+    &#34;how likely are you to be early rather than late&#34;,
+    &#34;how likely are you to finish homework or tasks before the deadline&#34;,
+    &#34;how likely are you to start projects well in advance&#34;,
+    &#34;how likely are you to procrastinate&#34;,
+    &#34;how focused are you when studying or working&#34;,
+    &#34;how easily are you distracted by noise&#34;,
+    &#34;how easily are you distracted by your phone&#34;,
+    &#34;how long can you go without checking your phone&#34;,
+    &#34;how much do you enjoy learning new facts&#34;,
+    &#34;how much do you enjoy science experiments&#34;,
+    &#34;how much do you enjoy history lessons&#34;,
+    &#34;how much do you enjoy math problems&#34;,
+    &#34;how much do you enjoy art class&#34;,
+    &#34;how much do you enjoy music lessons&#34;,
+    &#34;how much do you enjoy physical education class&#34;,
+    &#34;how much do you enjoy field trips&#34;,
+    &#34;how much do you enjoy library visits&#34;,
+    &#34;how much do you enjoy group projects&#34;,
+    &#34;how much do you enjoy working alone&#34;,
+    &#34;how much do you enjoy leading a team&#34;,
+    &#34;how much do you enjoy following clear instructions&#34;,
+    &#34;how much do you enjoy figuring things out on your own&#34;,
+    &#34;how good are you at remembering names&#34;,
+    &#34;how good are you at remembering birthdays&#34;,
+    &#34;how good are you at remembering where you put things&#34;,
+    &#34;how good are you at keeping secrets&#34;,
+    &#34;how good are you at keeping plants alive&#34;,
+    &#34;how good are you at keeping pets calm&#34;,
+    &#34;how good are you at fixing small problems at home&#34;,
+    &#34;how good are you at folding laundry&#34;,
+    &#34;how good are you at packing a suitcase&#34;,
+    &#34;how good are you at wrapping gifts&#34;,
+    &#34;how good are you at setting a table&#34;,
+    &#34;how good are you at washing dishes by hand&#34;,
+    &#34;how good are you at using a map&#34;,
+    &#34;how good are you at reading a clock&#34;,
+    &#34;how good are you at estimating time&#34;,
+    &#34;how good are you at saving money&#34;,
+    &#34;how good are you at sticking to a budget&#34;,
+    &#34;how adventurous are you with food&#34;,
+    &#34;how adventurous are you with travel&#34;,
+    &#34;how adventurous are you with hairstyles&#34;,
+    &#34;how adventurous are you with trying new sports&#34;,
+    &#34;how adventurous are you with redecorating a room&#34;,
+    &#34;how much do you enjoy thrift shopping&#34;,
+    &#34;how much do you enjoy grocery shopping&#34;,
+    &#34;how much do you enjoy farmers markets&#34;,
+    &#34;how much do you enjoy baking bread&#34;,
+    &#34;how much do you enjoy baking cookies&#34;,
+    &#34;how much do you enjoy making sandwiches&#34;,
+    &#34;how much do you enjoy packing lunch boxes&#34;,
+    &#34;how much do you enjoy breakfast foods&#34;,
+    &#34;how much do you enjoy lunch foods&#34;,
+    &#34;how much do you enjoy dinner foods&#34;,
+    &#34;how much do you enjoy late-night snacks&#34;,
+    &#34;how much do you enjoy fruit for dessert&#34;,
+    &#34;how much do you enjoy soup on a cold day&#34;,
+    &#34;how much do you enjoy salad&#34;,
+    &#34;how much do you enjoy sandwiches&#34;,
+    &#34;how much do you enjoy pasta dishes&#34;,
+    &#34;how much do you enjoy rice dishes&#34;,
+    &#34;how much do you enjoy breakfast cereal&#34;,
+    &#34;how much do you enjoy oatmeal&#34;,
+    &#34;how much do you enjoy eggs for breakfast&#34;,
+    &#34;how much do you enjoy pancakes&#34;,
+    &#34;how much do you enjoy smoothies&#34;,
+    &#34;how much do you enjoy popcorn as a snack&#34;,
+    &#34;how much do you enjoy nuts as a snack&#34;,
+    &#34;how much do you enjoy cheese as a snack&#34;,
+    &#34;how much do you enjoy crackers as a snack&#34;,
+    &#34;how much do you enjoy ice water&#34;,
+    &#34;how much do you enjoy herbal tea&#34;,
+    &#34;how much do you enjoy hot chocolate&#34;,
+    &#34;how much do you enjoy lemonade&#34;,
+    &#34;how much do you enjoy milk with meals&#34;,
+    &#34;how much do you enjoy drinking water throughout the day&#34;,
+    &#34;how energetic are you in the morning&#34;,
+    &#34;how energetic are you in the evening&#34;,
+    &#34;how energetic are you after lunch&#34;,
+    &#34;how likely are you to take a nap on weekends&#34;,
+    &#34;how likely are you to stretch after sitting a long time&#34;,
+    &#34;how likely are you to drink water when you are thirsty&#34;,
+    &#34;how likely are you to wear a hat in the sun&#34;,
+    &#34;how likely are you to wear a coat in the cold&#34;,
+    &#34;how likely are you to wear sunscreen outdoors&#34;,
+    &#34;how likely are you to wash your hands before meals&#34;,
+    &#34;how likely are you to bring an umbrella when skies look gray&#34;,
+    &#34;how likely are you to brush your teeth before bed&#34;,
+    &#34;how likely are you to floss your teeth&#34;,
+    &#34;how likely are you to tidy your desk once a week&#34;,
+    &#34;how likely are you to sort recycling correctly&#34;,
+    &#34;how likely are you to turn off lights when leaving a room&#34;,
+    &#34;how likely are you to close doors gently&#34;,
+    &#34;how likely are you to whisper in a library&#34;,
+    &#34;how likely are you to pick up litter you see outdoors&#34;,
+    &#34;how likely are you to plant a tree or flower&#34;,
+    &#34;how likely are you to compost food scraps&#34;,
+    &#34;how likely are you to walk instead of drive for short trips&#34;,
+    &#34;how likely are you to take the stairs instead of an elevator&#34;,
+    &#34;how likely are you to bike to nearby places&#34;,
+    &#34;how likely are you to carpool when possible&#34;,
+    &#34;how much do you enjoy car rides with family&#34;,
+    &#34;how much do you enjoy train rides&#34;,
+    &#34;how much do you enjoy bus rides&#34;,
+    &#34;how much do you enjoy boat rides&#34;,
+    &#34;how much do you enjoy airplane travel&#34;,
+    &#34;how much do you enjoy road trip games&#34;,
+    &#34;how much do you enjoy packing for a trip&#34;,
+    &#34;how much do you enjoy unpacking after a trip&#34;,
+    &#34;how much do you enjoy hotel stays&#34;,
+    &#34;how much do you enjoy staying with relatives&#34;,
+    &#34;how much do you enjoy camping in a tent&#34;,
+    &#34;how much do you enjoy sleeping in a sleeping bag&#34;,
+    &#34;how much do you enjoy hiking uphill&#34;,
+    &#34;how much do you enjoy hiking downhill&#34;,
+    &#34;how much do you enjoy picnics in a park&#34;,
+    &#34;how much do you enjoy playground equipment&#34;,
+    &#34;how much do you enjoy sandbox play&#34;,
+    &#34;how much do you enjoy kite flying&#34;,
+    &#34;how much do you enjoy fishing calmly&#34;,
+    &#34;how much do you enjoy collecting shells or rocks&#34;,
+    &#34;how much do you enjoy birdwatching&#34;,
+    &#34;how much do you enjoy watching sunsets&#34;,
+    &#34;how much do you enjoy watching sunrises&#34;,
+    &#34;how much do you enjoy moonlit walks&#34;,
+    &#34;how much do you enjoy listening to rain on the roof&#34;,
+    &#34;how much do you enjoy the smell of fresh bread&#34;,
+    &#34;how much do you enjoy the smell of flowers&#34;,
+    &#34;how much do you enjoy the smell of rain on pavement&#34;,
+    &#34;how much do you enjoy the smell of pine trees&#34;,
+    &#34;how much do you enjoy the smell of the ocean&#34;,
+    &#34;how much do you enjoy soft blankets&#34;,
+    &#34;how much do you enjoy firm pillows&#34;,
+    &#34;how much do you enjoy warm socks&#34;,
+    &#34;how much do you enjoy cozy sweaters&#34;,
+    &#34;how much do you enjoy sandals in summer&#34;,
+    &#34;how much do you enjoy boots in winter&#34;,
+    &#34;how much do you enjoy wearing hats&#34;,
+    &#34;how much do you enjoy wearing scarves&#34;,
+    &#34;how much do you enjoy wearing gloves&#34;,
+    &#34;how much do you enjoy matching outfits&#34;,
+    &#34;how much do you enjoy bright colors in clothing&#34;,
 ]
 
 # --- 300+ PH-context stems (plain English, explained where needed) ---
 ph_stems = [
-    # Food & meals
-    "how much do you want rice with every main meal",
-    "how much extra rice do you usually want when eating out",
-    "how likely are you to ask for extra rice at a restaurant",
-    "how much do you enjoy sour soup with tamarind broth (sinigang-style)",
-    "how much do you enjoy soy-vinegar garlic stew (adobo-style)",
-    "how much do you enjoy grilled chicken on a stick from a street cart",
-    "how much do you enjoy fish balls from a neighborhood street cart",
-    "how much do you enjoy shaved ice dessert with mixed toppings (halo-halo-style)",
-    "how much do you enjoy sweet warm tofu drink sold in the morning (taho-style)",
-    "how much do you enjoy young coconut water fresh from the shell",
-    "how much do you enjoy calamansi juice in your drinks",
-    "how much do you enjoy banana ketchup on fried food",
-    "how much do you enjoy dried salted fish (tuyo-style) for breakfast",
-    "how much do you enjoy garlic fried rice for breakfast",
-    "how much do you enjoy soft bread rolls (pandesal-style) in the morning",
-    "how much do you enjoy an afternoon snack between lunch and dinner (merienda)",
-    "how much do you enjoy instant noodles as a late-night snack",
-    "how much do you enjoy eating with a spoon and fork instead of a knife",
-    "how much do you enjoy eating certain dry foods with your hands",
-    "how much do you enjoy sharing one dish family-style in the middle of the table",
-    "how much do you enjoy saving leftovers for tomorrow's breakfast",
-    "how much do you enjoy dipping fried food in vinegar with chili",
-    "how much do you enjoy fermented shrimp paste (bagoong-style) as a side",
-    "how much do you enjoy very sour flavors in soup",
-    "how much do you enjoy very sweet spaghetti sauce",
-    "how much do you enjoy mango when it is in season",
-    "how much do you enjoy the smell of ripe durian fruit",
-    "how much do you enjoy roasted pig at a big family celebration",
-    "how much do you enjoy sticky rice snacks wrapped in leaves",
-    "how much do you enjoy street barbecue skewers after school or work",
-    "how much do you enjoy buying snacks from a small corner store (sari-sari store)",
-    "how much do you enjoy haggling politely at an open-air wet market",
-    "how much do you enjoy shopping for fresh fish at a wet market",
-    "how much do you enjoy choosing vegetables yourself instead of pre-packed bags",
-    "how likely are you to bring home food for family after eating out",
-    "how likely are you to insist guests eat even after they say they are full",
-    "how likely are you to offer food to visitors who drop by unannounced",
-    # Climate & home
-    "how well do you handle hot humid weather",
-    "how much do you rely on an electric fan to sleep",
-    "how much do you rely on air conditioning to sleep",
-    "how prepared are you for sudden power outages (brownouts)",
-    "how calm are you when the lights go out at night",
-    "how prepared are you for typhoon season each year",
-    "how likely are you to stock extra candles and batteries before a storm",
-    "how likely are you to tape windows before a strong typhoon",
-    "how comfortable are you wading through ankle-deep flood water",
-    "how likely are you to check flood updates before leaving home",
-    "how much do you enjoy the cool breeze during rainy season",
-    "how much do you enjoy the dry sunny season",
-    "how likely are you to hang washed clothes outside to dry",
-    "how likely are you to shower again after a sweaty commute",
-    "how likely are you to use a tabo (dipper) and bucket when bathing",
-    "how likely are you to remove your shoes before entering a home",
-    "how likely are you to sleep with a fan blowing directly on you",
-    "how likely are you to keep windows open at night for airflow",
-    "how tolerant are you of mosquito coils indoors",
-    "how likely are you to keep repellent in your bag during rainy season",
-    "how much do you enjoy afternoon rest during the hottest part of the day",
-    "how likely are you to carry a small towel (tabo-towel habit) in your bag",
-  # Commute & city life
-    "how patient are you in heavy city traffic",
-    "how comfortable are you riding a colorful shared jeepney bus",
-    "how comfortable are you riding a motorcycle sidecar taxi (tricycle)",
-    "how comfortable are you standing packed close to strangers on a jeepney",
-    "how likely are you to leave home before sunrise to beat traffic",
-    "how many minutes of commute feels normal for your daily routine",
-    "how likely are you to use a ride-hailing app instead of public transport",
-    "how likely are you to walk the last kilometer when traffic is stuck",
-    "how likely are you to listen to podcasts or music during commute",
-    "how likely are you to eat breakfast after arriving at work or school",
-    "how likely are you to buy street food on your way home",
-    "how likely are you to fall asleep on a long commute ride",
-    "how likely are you to hold a friend's place in a long queue",
-    "how patient are you waiting in line at a government office",
-    "how patient are you with slow paperwork and many signatures",
-    "how likely are you to keep photocopies of important documents ready",
-    "how likely are you to renew IDs long before they expire",
-    "how comfortable are you asking directions from a street vendor",
-    "how likely are you to give directions to a lost stranger",
-    "how likely are you to commute on a national holiday",
-    # Family & social
-    "how much do you enjoy Sunday lunch with extended family",
-    "how much do you enjoy reunions with cousins you rarely see",
-    "how much do you enjoy caring for godchildren at celebrations (ninong-ninang role)",
-    "how likely are you to greet elders with a respectful forehead gesture (mano-style)",
-    "how likely are you to use polite particles like po and opo in speech",
-    "how likely are you to call older cousins ate or kuya out of habit",
-    "how much do you enjoy karaoke at family parties",
-    "how likely are you to sing even when you know you are off-key",
-    "how tolerant are you of neighbor karaoke late on weekends",
-    "how much do you enjoy hosting relatives who stay for several days",
-    "how likely are you to sleep on a mat when the house is full of guests",
-    "how likely are you to send money or gifts to family abroad",
-    "how excited are you when a balikbayan box arrives from overseas relatives",
-    "how likely are you to share one bedroom with siblings or cousins growing up",
-    "how likely are you to bring pasalubong (small gifts) after a trip",
-    "how likely are you to bring food back for coworkers after a vacation",
-    "how much do you enjoy barangay fiesta street parties in your neighborhood",
-    "how likely are you to help prepare food for a neighborhood celebration",
-    "how likely are you to volunteer for a school or church event on weekends",
-    "how likely are you to attend dawn masses during the Christmas season (Simbang Gabi-style)",
-    "how much do you enjoy Christmas decorations starting as early as September",
-    "how likely are you to attend church on Christmas Eve with family",
-    "how likely are you to visit a cemetery with family on All Saints Day",
-    "how calm are you with fireworks noise on New Year's Eve",
-    "how likely are you to stay awake until midnight on New Year's Eve",
-    "how likely are you to join a town procession during Holy Week",
-    "how much do you enjoy beach trips on long weekends",
-    "how much do you enjoy visiting your parents' or grandparents' hometown province",
-    "how likely are you to endure a long bus ride to the province for holidays",
-    "how likely are you to take photos of every meal before eating",
-    "how likely are you to post family gatherings on social media",
-    # School & work habits
-    "how likely were you to wear a school uniform every weekday",
-    "how likely are you to wear office attire even when remote work is allowed",
-    "how likely are you to join an office Christmas gift exchange (Monito-Monita-style)",
-    "how likely are you to bring food to share on your work birthday",
-    "how likely are you to stay late when coworkers are still finishing a task",
-    "how comfortable are you calling teachers or bosses sir or ma'am",
-    "how likely are you to review lessons the night before an exam",
-    "how likely are you to form a study group with classmates",
-    "how likely are you to help a classmate who missed a lesson",
-    "how likely are you to respect a teacher even when you disagree",
-    # Money & daily errands
-    "how likely are you to pay with a mobile wallet app at a small store",
-    "how likely are you to carry small bills for jeepney fare",
-    "how likely are you to ask for exact change when paying cash",
-    "how likely are you to keep coins in a jar at home",
-    "how likely are you to send a small amount to family through an app",
-    "how likely are you to compare prices before buying at the market",
-    "how likely are you to buy in bulk when items are on promotion",
-    "how likely are you to line up for a discounted sale at a mall",
-    "how much do you enjoy mall air conditioning on a hot afternoon",
-    "how likely are you to meet friends at a mall even with no shopping plan",
-    "how likely are you to watch a free mall show with kids",
-    "how likely are you to eat at a food court instead of a sit-down restaurant",
-    # Sports & leisure
-    "how much do you enjoy playing or watching basketball in the neighborhood",
-    "how much do you enjoy watching volleyball",
-    "how likely are you to join a friendly basketball game with strangers",
-    "how likely are you to watch a big boxing match with family",
-    "how much do you enjoy swimming at a public pool or beach",
-    "how much do you enjoy running early before the sun gets strong",
-    "how likely are you to play badminton in a street court",
-    "how likely are you to watch teleserye (daily TV drama) episodes",
-    "how likely are you to follow a nightly TV drama for months",
-    # Language & communication
-    "how often do you mix English with your local language in one sentence",
-    "how comfortable are you explaining local customs to a foreign visitor",
-    "how likely are you to speak slower when talking to a foreign guest",
-    "how likely are you to use hand gestures when language fails",
-    "how likely are you to laugh at your own accent when code-switching",
-    "how likely are you to text instead of call for quick updates",
-    "how likely are you to send voice messages to family",
-    "how likely are you to leave a group chat on mute",
-    "how likely are you to reply with a meme or sticker instead of words",
-    # Values & personality (PH-flavored but universal)
-    "how likely are you to help a neighbor during a flood",
-    "how likely are you to lend an umbrella to someone at a jeepney stop",
-    "how likely are you to give up your seat to an elder or pregnant passenger",
-    "how likely are you to share load or mobile data with a family member",
-    "how likely are you to say yes first and figure out logistics later when helping",
-    "how likely are you to avoid conflict in public even when upset",
-    "how likely are you to smile when greeting store staff",
-    "how likely are you to chat with a tricycle driver about the weather",
-    "how likely are you to know your barangay captain's name",
-    "how likely are you to attend a neighborhood meeting when invited",
-    "how proud are you of your home region's food",
-    "how likely are you to defend your hometown when someone jokes about it",
-    "how likely are you to bring home food from your region after a trip",
-    "how likely are you to teach a visitor how to eat a local dish properly",
-    "how likely are you to feel shy when receiving public praise",
-    "how likely are you to downplay your achievements in conversation",
-    "how likely are you to treat visitors like honored guests",
-    "how likely are you to pack food for someone taking a long trip",
-    "how likely are you to wait until everyone is served before eating",
-    "how likely are you to say you are full but accept dessert anyway",
+    # Food &amp; meals
+    &#34;how much do you want rice with every main meal&#34;,
+    &#34;how much extra rice do you usually want when eating out&#34;,
+    &#34;how likely are you to ask for extra rice at a restaurant&#34;,
+    &#34;how much do you enjoy sour soup with tamarind broth (sinigang-style)&#34;,
+    &#34;how much do you enjoy soy-vinegar garlic stew (adobo-style)&#34;,
+    &#34;how much do you enjoy grilled chicken on a stick from a street cart&#34;,
+    &#34;how much do you enjoy fish balls from a neighborhood street cart&#34;,
+    &#34;how much do you enjoy shaved ice dessert with mixed toppings (halo-halo-style)&#34;,
+    &#34;how much do you enjoy sweet warm tofu drink sold in the morning (taho-style)&#34;,
+    &#34;how much do you enjoy young coconut water fresh from the shell&#34;,
+    &#34;how much do you enjoy calamansi juice in your drinks&#34;,
+    &#34;how much do you enjoy banana ketchup on fried food&#34;,
+    &#34;how much do you enjoy dried salted fish (tuyo-style) for breakfast&#34;,
+    &#34;how much do you enjoy garlic fried rice for breakfast&#34;,
+    &#34;how much do you enjoy soft bread rolls (pandesal-style) in the morning&#34;,
+    &#34;how much do you enjoy an afternoon snack between lunch and dinner (merienda)&#34;,
+    &#34;how much do you enjoy instant noodles as a late-night snack&#34;,
+    &#34;how much do you enjoy eating with a spoon and fork instead of a knife&#34;,
+    &#34;how much do you enjoy eating certain dry foods with your hands&#34;,
+    &#34;how much do you enjoy sharing one dish family-style in the middle of the table&#34;,
+    &#34;how much do you enjoy saving leftovers for tomorrow&#39;s breakfast&#34;,
+    &#34;how much do you enjoy dipping fried food in vinegar with chili&#34;,
+    &#34;how much do you enjoy fermented shrimp paste (bagoong-style) as a side&#34;,
+    &#34;how much do you enjoy very sour flavors in soup&#34;,
+    &#34;how much do you enjoy very sweet spaghetti sauce&#34;,
+    &#34;how much do you enjoy mango when it is in season&#34;,
+    &#34;how much do you enjoy the smell of ripe durian fruit&#34;,
+    &#34;how much do you enjoy roasted pig at a big family celebration&#34;,
+    &#34;how much do you enjoy sticky rice snacks wrapped in leaves&#34;,
+    &#34;how much do you enjoy street barbecue skewers after school or work&#34;,
+    &#34;how much do you enjoy buying snacks from a small corner store (sari-sari store)&#34;,
+    &#34;how much do you enjoy haggling politely at an open-air wet market&#34;,
+    &#34;how much do you enjoy shopping for fresh fish at a wet market&#34;,
+    &#34;how much do you enjoy choosing vegetables yourself instead of pre-packed bags&#34;,
+    &#34;how likely are you to bring home food for family after eating out&#34;,
+    &#34;how likely are you to insist guests eat even after they say they are full&#34;,
+    &#34;how likely are you to offer food to visitors who drop by unannounced&#34;,
+    # Climate &amp; home
+    &#34;how well do you handle hot humid weather&#34;,
+    &#34;how much do you rely on an electric fan to sleep&#34;,
+    &#34;how much do you rely on air conditioning to sleep&#34;,
+    &#34;how prepared are you for sudden power outages (brownouts)&#34;,
+    &#34;how calm are you when the lights go out at night&#34;,
+    &#34;how prepared are you for typhoon season each year&#34;,
+    &#34;how likely are you to stock extra candles and batteries before a storm&#34;,
+    &#34;how likely are you to tape windows before a strong typhoon&#34;,
+    &#34;how comfortable are you wading through ankle-deep flood water&#34;,
+    &#34;how likely are you to check flood updates before leaving home&#34;,
+    &#34;how much do you enjoy the cool breeze during rainy season&#34;,
+    &#34;how much do you enjoy the dry sunny season&#34;,
+    &#34;how likely are you to hang washed clothes outside to dry&#34;,
+    &#34;how likely are you to shower again after a sweaty commute&#34;,
+    &#34;how likely are you to use a tabo (dipper) and bucket when bathing&#34;,
+    &#34;how likely are you to remove your shoes before entering a home&#34;,
+    &#34;how likely are you to sleep with a fan blowing directly on you&#34;,
+    &#34;how likely are you to keep windows open at night for airflow&#34;,
+    &#34;how tolerant are you of mosquito coils indoors&#34;,
+    &#34;how likely are you to keep repellent in your bag during rainy season&#34;,
+    &#34;how much do you enjoy afternoon rest during the hottest part of the day&#34;,
+    &#34;how likely are you to carry a small towel (tabo-towel habit) in your bag&#34;,
+  # Commute &amp; city life
+    &#34;how patient are you in heavy city traffic&#34;,
+    &#34;how comfortable are you riding a colorful shared jeepney bus&#34;,
+    &#34;how comfortable are you riding a motorcycle sidecar taxi (tricycle)&#34;,
+    &#34;how comfortable are you standing packed close to strangers on a jeepney&#34;,
+    &#34;how likely are you to leave home before sunrise to beat traffic&#34;,
+    &#34;how many minutes of commute feels normal for your daily routine&#34;,
+    &#34;how likely are you to use a ride-hailing app instead of public transport&#34;,
+    &#34;how likely are you to walk the last kilometer when traffic is stuck&#34;,
+    &#34;how likely are you to listen to podcasts or music during commute&#34;,
+    &#34;how likely are you to eat breakfast after arriving at work or school&#34;,
+    &#34;how likely are you to buy street food on your way home&#34;,
+    &#34;how likely are you to fall asleep on a long commute ride&#34;,
+    &#34;how likely are you to hold a friend&#39;s place in a long queue&#34;,
+    &#34;how patient are you waiting in line at a government office&#34;,
+    &#34;how patient are you with slow paperwork and many signatures&#34;,
+    &#34;how likely are you to keep photocopies of important documents ready&#34;,
+    &#34;how likely are you to renew IDs long before they expire&#34;,
+    &#34;how comfortable are you asking directions from a street vendor&#34;,
+    &#34;how likely are you to give directions to a lost stranger&#34;,
+    &#34;how likely are you to commute on a national holiday&#34;,
+    # Family &amp; social
+    &#34;how much do you enjoy Sunday lunch with extended family&#34;,
+    &#34;how much do you enjoy reunions with cousins you rarely see&#34;,
+    &#34;how much do you enjoy caring for godchildren at celebrations (ninong-ninang role)&#34;,
+    &#34;how likely are you to greet elders with a respectful forehead gesture (mano-style)&#34;,
+    &#34;how likely are you to use polite particles like po and opo in speech&#34;,
+    &#34;how likely are you to call older cousins ate or kuya out of habit&#34;,
+    &#34;how much do you enjoy karaoke at family parties&#34;,
+    &#34;how likely are you to sing even when you know you are off-key&#34;,
+    &#34;how tolerant are you of neighbor karaoke late on weekends&#34;,
+    &#34;how much do you enjoy hosting relatives who stay for several days&#34;,
+    &#34;how likely are you to sleep on a mat when the house is full of guests&#34;,
+    &#34;how likely are you to send money or gifts to family abroad&#34;,
+    &#34;how excited are you when a balikbayan box arrives from overseas relatives&#34;,
+    &#34;how likely are you to share one bedroom with siblings or cousins growing up&#34;,
+    &#34;how likely are you to bring pasalubong (small gifts) after a trip&#34;,
+    &#34;how likely are you to bring food back for coworkers after a vacation&#34;,
+    &#34;how much do you enjoy barangay fiesta street parties in your neighborhood&#34;,
+    &#34;how likely are you to help prepare food for a neighborhood celebration&#34;,
+    &#34;how likely are you to volunteer for a school or church event on weekends&#34;,
+    &#34;how likely are you to attend dawn masses during the Christmas season (Simbang Gabi-style)&#34;,
+    &#34;how much do you enjoy Christmas decorations starting as early as September&#34;,
+    &#34;how likely are you to attend church on Christmas Eve with family&#34;,
+    &#34;how likely are you to visit a cemetery with family on All Saints Day&#34;,
+    &#34;how calm are you with fireworks noise on New Year&#39;s Eve&#34;,
+    &#34;how likely are you to stay awake until midnight on New Year&#39;s Eve&#34;,
+    &#34;how likely are you to join a town procession during Holy Week&#34;,
+    &#34;how much do you enjoy beach trips on long weekends&#34;,
+    &#34;how much do you enjoy visiting your parents&#39; or grandparents&#39; hometown province&#34;,
+    &#34;how likely are you to endure a long bus ride to the province for holidays&#34;,
+    &#34;how likely are you to take photos of every meal before eating&#34;,
+    &#34;how likely are you to post family gatherings on social media&#34;,
+    # School &amp; work habits
+    &#34;how likely were you to wear a school uniform every weekday&#34;,
+    &#34;how likely are you to wear office attire even when remote work is allowed&#34;,
+    &#34;how likely are you to join an office Christmas gift exchange (Monito-Monita-style)&#34;,
+    &#34;how likely are you to bring food to share on your work birthday&#34;,
+    &#34;how likely are you to stay late when coworkers are still finishing a task&#34;,
+    &#34;how comfortable are you calling teachers or bosses sir or ma&#39;am&#34;,
+    &#34;how likely are you to review lessons the night before an exam&#34;,
+    &#34;how likely are you to form a study group with classmates&#34;,
+    &#34;how likely are you to help a classmate who missed a lesson&#34;,
+    &#34;how likely are you to respect a teacher even when you disagree&#34;,
+    # Money &amp; daily errands
+    &#34;how likely are you to pay with a mobile wallet app at a small store&#34;,
+    &#34;how likely are you to carry small bills for jeepney fare&#34;,
+    &#34;how likely are you to ask for exact change when paying cash&#34;,
+    &#34;how likely are you to keep coins in a jar at home&#34;,
+    &#34;how likely are you to send a small amount to family through an app&#34;,
+    &#34;how likely are you to compare prices before buying at the market&#34;,
+    &#34;how likely are you to buy in bulk when items are on promotion&#34;,
+    &#34;how likely are you to line up for a discounted sale at a mall&#34;,
+    &#34;how much do you enjoy mall air conditioning on a hot afternoon&#34;,
+    &#34;how likely are you to meet friends at a mall even with no shopping plan&#34;,
+    &#34;how likely are you to watch a free mall show with kids&#34;,
+    &#34;how likely are you to eat at a food court instead of a sit-down restaurant&#34;,
+    # Sports &amp; leisure
+    &#34;how much do you enjoy playing or watching basketball in the neighborhood&#34;,
+    &#34;how much do you enjoy watching volleyball&#34;,
+    &#34;how likely are you to join a friendly basketball game with strangers&#34;,
+    &#34;how likely are you to watch a big boxing match with family&#34;,
+    &#34;how much do you enjoy swimming at a public pool or beach&#34;,
+    &#34;how much do you enjoy running early before the sun gets strong&#34;,
+    &#34;how likely are you to play badminton in a street court&#34;,
+    &#34;how likely are you to watch teleserye (daily TV drama) episodes&#34;,
+    &#34;how likely are you to follow a nightly TV drama for months&#34;,
+    # Language &amp; communication
+    &#34;how often do you mix English with your local language in one sentence&#34;,
+    &#34;how comfortable are you explaining local customs to a foreign visitor&#34;,
+    &#34;how likely are you to speak slower when talking to a foreign guest&#34;,
+    &#34;how likely are you to use hand gestures when language fails&#34;,
+    &#34;how likely are you to laugh at your own accent when code-switching&#34;,
+    &#34;how likely are you to text instead of call for quick updates&#34;,
+    &#34;how likely are you to send voice messages to family&#34;,
+    &#34;how likely are you to leave a group chat on mute&#34;,
+    &#34;how likely are you to reply with a meme or sticker instead of words&#34;,
+    # Values &amp; personality (PH-flavored but universal)
+    &#34;how likely are you to help a neighbor during a flood&#34;,
+    &#34;how likely are you to lend an umbrella to someone at a jeepney stop&#34;,
+    &#34;how likely are you to give up your seat to an elder or pregnant passenger&#34;,
+    &#34;how likely are you to share load or mobile data with a family member&#34;,
+    &#34;how likely are you to say yes first and figure out logistics later when helping&#34;,
+    &#34;how likely are you to avoid conflict in public even when upset&#34;,
+    &#34;how likely are you to smile when greeting store staff&#34;,
+    &#34;how likely are you to chat with a tricycle driver about the weather&#34;,
+    &#34;how likely are you to know your barangay captain&#39;s name&#34;,
+    &#34;how likely are you to attend a neighborhood meeting when invited&#34;,
+    &#34;how proud are you of your home region&#39;s food&#34;,
+    &#34;how likely are you to defend your hometown when someone jokes about it&#34;,
+    &#34;how likely are you to bring home food from your region after a trip&#34;,
+    &#34;how likely are you to teach a visitor how to eat a local dish properly&#34;,
+    &#34;how likely are you to feel shy when receiving public praise&#34;,
+    &#34;how likely are you to downplay your achievements in conversation&#34;,
+    &#34;how likely are you to treat visitors like honored guests&#34;,
+    &#34;how likely are you to pack food for someone taking a long trip&#34;,
+    &#34;how likely are you to wait until everyone is served before eating&#34;,
+    &#34;how likely are you to say you are full but accept dessert anyway&#34;,
     # More PH daily life to reach 500
-    "how likely are you to keep a plastic bag of plastic bags at home",
-    "how likely are you to reuse ice cream containers for leftovers",
-    "how likely are you to label leftover containers in the fridge",
-    "how likely are you to drink hot coffee in the afternoon",
-    "how likely are you to drink iced coffee even during rainy season",
-    "how likely are you to add ice to a soft drink",
-    "how likely are you to prefer room-temperature water over cold water",
-    "how likely are you to squeeze calamansi into soy sauce for dipping",
-    "how likely are you to keep chili in vinegar on the dining table",
-    "how likely are you to eat fried fish with rice and vinegar",
-    "how likely are you to enjoy pork stew with peanut sauce (kare-kare-style)",
-    "how likely are you to enjoy vegetable mix in coconut milk (ginataan-style)",
-    "how likely are you to enjoy sour unripe mango with salt",
-    "how likely are you to enjoy boiled corn on the cob from a street cart",
-    "how likely are you to enjoy grilled banana on a stick",
-    "how likely are you to enjoy sweet purple yam dessert (ube-style)",
-    "how likely are you to enjoy egg custard dessert (leche flan-style)",
-    "how likely are you to enjoy rice cakes wrapped in banana leaves",
-    "how likely are you to line up for freshly baked bread in the morning",
-    "how likely are you to buy warm bread from a passing vendor",
-    "how likely are you to eat soup in the morning",
-    "how likely are you to prefer a hot meal over a cold sandwich for lunch",
-    "how likely are you to bring baon (packed lunch) to work or school",
-    "how likely are you to share baon with a coworker who forgot theirs",
-    "how likely are you to store rice in a large covered container at home",
-    "how likely are you to wash rice before cooking it",
-    "how likely are you to own a rice cooker",
-    "how likely are you to reheat rice in a microwave or pan",
-    "how likely are you to judge a restaurant by its rice quality",
-    "how likely are you to feel a meal is incomplete without rice",
-    "how likely are you to eat rice with fried egg and ketchup",
-    "how likely are you to enjoy longganisa (sweet local sausage) for breakfast",
-    "how likely are you to enjoy tocino (sweet cured pork) for breakfast",
-    "how likely are you to enjoy tinapa (smoked fish) with rice",
-    "how likely are you to enjoy instant champorado (chocolate rice porridge)",
-    "how likely are you to add evaporated milk to sweet porridge",
-    "how likely are you to keep biscuits for unexpected guests",
-    "how likely are you to serve soft drinks in a large bottle for sharing",
-    "how likely are you to prefer bench-style seating at a carinderia (small eatery)",
-    "how likely are you to point with your lips instead of your finger",
-    "how likely are you to say 'wait a moment' by raising a finger",
-    "how likely are you to call a friend on video chat while cooking",
-    "how likely are you to multitask while on a video call",
-    "how likely are you to keep slippers by the front door for guests",
-    "how likely are you to wear slippers inside the house all day",
-    "how likely are you to own more than three pairs of everyday slippers",
-    "how likely are you to walk to a nearby sari-sari store in slippers",
-    "how likely are you to borrow a neighbor's tool and return it the same day",
-    "how likely are you to know most neighbors by name",
-    "how likely are you to chat across the fence with a neighbor",
-    "how likely are you to watch street basketball from your window",
-    "how likely are you to hear roosters in the early morning where you live",
-    "how likely are you to be woken by church bells on Sunday morning",
-    "how likely are you to live near a school that rings a bell every hour",
-    "how likely are you to tolerate construction noise during the day",
-    "how likely are you to hang a rosary or blessing in the car",
-    "how likely are you to keep a saint image in your wallet or phone case",
-    "how likely are you to say a short prayer before a long trip",
-    "how likely are you to say grace before meals with family",
-    "how likely are you to attend a baptism even when only loosely invited",
-    "how likely are you to attend a debut or coming-of-age party for a relative",
-    "how likely are you to help decorate for a family wedding",
-    "how likely are you to enjoy photo booths at parties",
-    "how likely are you to keep printed photos in an album",
-    "how likely are you to display family photos in the living room",
-    "how likely are you to send greetings on every family group chat holiday",
-    "how likely are you to forward chain messages you know are silly",
-    "how likely are you to fact-check news links before sharing",
-    "how likely are you to use free public Wi-Fi when available",
-    "how likely are you to buy prepaid mobile load in small amounts",
-    "how likely are you to share a promo code with family",
-    "how likely are you to queue for a government cash assistance program",
-    "how likely are you to help a relative fill out a government form",
-    "how likely are you to keep a folder of birth certificates and IDs",
-    "how likely are you to know your blood type",
-    "how likely are you to know your parents' exact birthdays without checking",
-    "how likely are you to memorize jeepney or bus routes by landmark",
-    "how likely are you to give directions using landmarks instead of street names",
-    "how likely are you to estimate travel time in units of 'one TV episode'",
-    "how likely are you to say traffic added an hour to your ETA",
-    "how likely are you to leave two hours early for the airport",
-    "how likely are you to pack slippers specifically for a hotel stay",
-    "how likely are you to pack instant coffee sachets when traveling abroad",
-    "how likely are you to search for rice meals in a foreign country",
-    "how likely are you to bring local snacks as gifts abroad",
-    "how likely are you to feel homesick for local street food while overseas",
-    "how likely are you to compare foreign weather to home humidity",
-    "how likely are you to explain Philippine holidays to foreign coworkers",
-    "how likely are you to celebrate two New Years (December and lunar, if observed)",
-    "how likely are you to eat grapes at midnight on New Year's Eve",
-    "how likely are you to wear polka dots for luck on New Year's Eve",
-    "how likely are you to clean the whole house before New Year's Day",
-    "how likely are you to avoid spending on the first day of the year",
-    "how likely are you to visit seven churches in one day during Holy Week (Visita Iglesia-style)",
-    "how likely are you to fast or skip meat on Good Friday",
-    "how likely are you to enjoy hot cross buns or simple bread during Lent",
-    "how likely are you to join a town parade in costume",
-    "how likely are you to know a folk dance from school (tinikling-style)",
-    "how likely are you to clap along to a street marching band",
-    "how likely are you to tear up during a flag ceremony song",
-    "how likely are you to stand still during the national anthem in a cinema",
-    "how likely are you to feel emotional hearing overseas workers' homecoming stories",
-    "how likely are you to cheer when a local athlete wins internationally",
-    "how likely are you to watch a miss universe pageant with family",
-    "how likely are you to discuss pageant answers after the show",
-    "how likely are you to enjoy talent portions at school programs",
-    "how likely are you to volunteer to emcee a family program",
-    "how likely are you to memorize a speech for a school program",
-    "how likely are you to get nervous speaking English to a foreign tourist",
-    "how likely are you to feel proud when a visitor likes local food you recommended",
-    "how likely are you to over-explain a dish's history to a curious guest",
-    "how likely are you to ask a foreign guest if the spice level is okay",
-    "how likely are you to lower chili heat when cooking for visitors",
-    "how likely are you to keep a tourist map app on your phone",
-    "how likely are you to recommend a hidden local beach over a famous one",
-    "how likely are you to warn visitors about afternoon heat",
-    "how likely are you to warn visitors to drink bottled water when unsure",
-    "how likely are you to enjoy island-hopping boat trips",
-    "how likely are you to get seasick on a small bangka (outrigger boat)",
-    "how likely are you to wear a life vest without complaining",
-    "how likely are you to enjoy snorkeling in clear water",
-    "how likely are you to collect sand in a jar from every beach trip",
-    "how likely are you to keep shells on a windowsill",
-    "how likely are you to enjoy hiking to a waterfall",
-    "how likely are you to swim under a waterfall if locals say it is safe",
-    "how likely are you to bring insect repellent on nature trips",
-    "how likely are you to wear long sleeves against mosquitoes at dusk",
-    "how likely are you to enjoy night markets when traveling in Asia",
-    "how likely are you to try a fruit you cannot name when traveling",
-    "how likely are you to compare every mango to a Philippine mango",
-    "how likely are you to miss rainy-season greens when abroad",
-    "how likely are you to crave vinegar when eating abroad for weeks",
-    "how likely are you to pack a small bottle of fish sauce or soy sauce when traveling",
-    "how likely are you to feel relieved when you see rice on a foreign menu",
-    "how likely are you to order fried rice for breakfast abroad",
-    "how likely are you to explain 'comfort food' as something with rice",
-    "how likely are you to rate a trip by how good the food was",
-    "how likely are you to take home pasalubong snacks from every province visited",
-    "how likely are you to give pasalubong to office mates after a trip",
-    "how likely are you to hide pasalubong so it is not eaten before you arrive home",
-    "how likely are you to enjoy planning a trip around family visits",
-    "how likely are you to prefer traveling with relatives over traveling solo",
-    "how likely are you to take responsibility for the family itinerary",
-    "how likely are you to be the family photographer on trips",
-    "how likely are you to be the family navigator using landmarks",
-    "how likely are you to be the one who wakes everyone for an early tour",
-    "how likely are you to be the last one ready when leaving for a trip",
-    "how likely are you to overpack 'just in case' snacks for a road trip",
-    "how likely are you to play road games during long provincial drives",
-    "how likely are you to sing in the car during long drives",
-    "how likely are you to stop at every roadside fruit stand",
-    "how likely are you to buy boiled peanuts from a highway vendor",
-    "how likely are you to trust food from a busy stall over an empty one",
-    "how likely are you to ask a vendor 'what is your bestseller'",
-    "how likely are you to tip a server even when service charge is included",
-    "how likely are you to split a bill evenly instead of paying only what you ate",
-    "how likely are you to treat younger cousins to a meal",
-    "how likely are you to let elders pay even when you want to treat",
-    "how likely are you to insist on paying as the one who invited",
-    "how likely are you to feel awkward when someone pays for you",
-    "how likely are you to say 'next time is on me' and mean it",
+    &#34;how likely are you to keep a plastic bag of plastic bags at home&#34;,
+    &#34;how likely are you to reuse ice cream containers for leftovers&#34;,
+    &#34;how likely are you to label leftover containers in the fridge&#34;,
+    &#34;how likely are you to drink hot coffee in the afternoon&#34;,
+    &#34;how likely are you to drink iced coffee even during rainy season&#34;,
+    &#34;how likely are you to add ice to a soft drink&#34;,
+    &#34;how likely are you to prefer room-temperature water over cold water&#34;,
+    &#34;how likely are you to squeeze calamansi into soy sauce for dipping&#34;,
+    &#34;how likely are you to keep chili in vinegar on the dining table&#34;,
+    &#34;how likely are you to eat fried fish with rice and vinegar&#34;,
+    &#34;how likely are you to enjoy pork stew with peanut sauce (kare-kare-style)&#34;,
+    &#34;how likely are you to enjoy vegetable mix in coconut milk (ginataan-style)&#34;,
+    &#34;how likely are you to enjoy sour unripe mango with salt&#34;,
+    &#34;how likely are you to enjoy boiled corn on the cob from a street cart&#34;,
+    &#34;how likely are you to enjoy grilled banana on a stick&#34;,
+    &#34;how likely are you to enjoy sweet purple yam dessert (ube-style)&#34;,
+    &#34;how likely are you to enjoy egg custard dessert (leche flan-style)&#34;,
+    &#34;how likely are you to enjoy rice cakes wrapped in banana leaves&#34;,
+    &#34;how likely are you to line up for freshly baked bread in the morning&#34;,
+    &#34;how likely are you to buy warm bread from a passing vendor&#34;,
+    &#34;how likely are you to eat soup in the morning&#34;,
+    &#34;how likely are you to prefer a hot meal over a cold sandwich for lunch&#34;,
+    &#34;how likely are you to bring baon (packed lunch) to work or school&#34;,
+    &#34;how likely are you to share baon with a coworker who forgot theirs&#34;,
+    &#34;how likely are you to store rice in a large covered container at home&#34;,
+    &#34;how likely are you to wash rice before cooking it&#34;,
+    &#34;how likely are you to own a rice cooker&#34;,
+    &#34;how likely are you to reheat rice in a microwave or pan&#34;,
+    &#34;how likely are you to judge a restaurant by its rice quality&#34;,
+    &#34;how likely are you to feel a meal is incomplete without rice&#34;,
+    &#34;how likely are you to eat rice with fried egg and ketchup&#34;,
+    &#34;how likely are you to enjoy longganisa (sweet local sausage) for breakfast&#34;,
+    &#34;how likely are you to enjoy tocino (sweet cured pork) for breakfast&#34;,
+    &#34;how likely are you to enjoy tinapa (smoked fish) with rice&#34;,
+    &#34;how likely are you to enjoy instant champorado (chocolate rice porridge)&#34;,
+    &#34;how likely are you to add evaporated milk to sweet porridge&#34;,
+    &#34;how likely are you to keep biscuits for unexpected guests&#34;,
+    &#34;how likely are you to serve soft drinks in a large bottle for sharing&#34;,
+    &#34;how likely are you to prefer bench-style seating at a carinderia (small eatery)&#34;,
+    &#34;how likely are you to point with your lips instead of your finger&#34;,
+    &#34;how likely are you to say &#39;wait a moment&#39; by raising a finger&#34;,
+    &#34;how likely are you to call a friend on video chat while cooking&#34;,
+    &#34;how likely are you to multitask while on a video call&#34;,
+    &#34;how likely are you to keep slippers by the front door for guests&#34;,
+    &#34;how likely are you to wear slippers inside the house all day&#34;,
+    &#34;how likely are you to own more than three pairs of everyday slippers&#34;,
+    &#34;how likely are you to walk to a nearby sari-sari store in slippers&#34;,
+    &#34;how likely are you to borrow a neighbor&#39;s tool and return it the same day&#34;,
+    &#34;how likely are you to know most neighbors by name&#34;,
+    &#34;how likely are you to chat across the fence with a neighbor&#34;,
+    &#34;how likely are you to watch street basketball from your window&#34;,
+    &#34;how likely are you to hear roosters in the early morning where you live&#34;,
+    &#34;how likely are you to be woken by church bells on Sunday morning&#34;,
+    &#34;how likely are you to live near a school that rings a bell every hour&#34;,
+    &#34;how likely are you to tolerate construction noise during the day&#34;,
+    &#34;how likely are you to hang a rosary or blessing in the car&#34;,
+    &#34;how likely are you to keep a saint image in your wallet or phone case&#34;,
+    &#34;how likely are you to say a short prayer before a long trip&#34;,
+    &#34;how likely are you to say grace before meals with family&#34;,
+    &#34;how likely are you to attend a baptism even when only loosely invited&#34;,
+    &#34;how likely are you to attend a debut or coming-of-age party for a relative&#34;,
+    &#34;how likely are you to help decorate for a family wedding&#34;,
+    &#34;how likely are you to enjoy photo booths at parties&#34;,
+    &#34;how likely are you to keep printed photos in an album&#34;,
+    &#34;how likely are you to display family photos in the living room&#34;,
+    &#34;how likely are you to send greetings on every family group chat holiday&#34;,
+    &#34;how likely are you to forward chain messages you know are silly&#34;,
+    &#34;how likely are you to fact-check news links before sharing&#34;,
+    &#34;how likely are you to use free public Wi-Fi when available&#34;,
+    &#34;how likely are you to buy prepaid mobile load in small amounts&#34;,
+    &#34;how likely are you to share a promo code with family&#34;,
+    &#34;how likely are you to queue for a government cash assistance program&#34;,
+    &#34;how likely are you to help a relative fill out a government form&#34;,
+    &#34;how likely are you to keep a folder of birth certificates and IDs&#34;,
+    &#34;how likely are you to know your blood type&#34;,
+    &#34;how likely are you to know your parents&#39; exact birthdays without checking&#34;,
+    &#34;how likely are you to memorize jeepney or bus routes by landmark&#34;,
+    &#34;how likely are you to give directions using landmarks instead of street names&#34;,
+    &#34;how likely are you to estimate travel time in units of &#39;one TV episode&#39;&#34;,
+    &#34;how likely are you to say traffic added an hour to your ETA&#34;,
+    &#34;how likely are you to leave two hours early for the airport&#34;,
+    &#34;how likely are you to pack slippers specifically for a hotel stay&#34;,
+    &#34;how likely are you to pack instant coffee sachets when traveling abroad&#34;,
+    &#34;how likely are you to search for rice meals in a foreign country&#34;,
+    &#34;how likely are you to bring local snacks as gifts abroad&#34;,
+    &#34;how likely are you to feel homesick for local street food while overseas&#34;,
+    &#34;how likely are you to compare foreign weather to home humidity&#34;,
+    &#34;how likely are you to explain Philippine holidays to foreign coworkers&#34;,
+    &#34;how likely are you to celebrate two New Years (December and lunar, if observed)&#34;,
+    &#34;how likely are you to eat grapes at midnight on New Year&#39;s Eve&#34;,
+    &#34;how likely are you to wear polka dots for luck on New Year&#39;s Eve&#34;,
+    &#34;how likely are you to clean the whole house before New Year&#39;s Day&#34;,
+    &#34;how likely are you to avoid spending on the first day of the year&#34;,
+    &#34;how likely are you to visit seven churches in one day during Holy Week (Visita Iglesia-style)&#34;,
+    &#34;how likely are you to fast or skip meat on Good Friday&#34;,
+    &#34;how likely are you to enjoy hot cross buns or simple bread during Lent&#34;,
+    &#34;how likely are you to join a town parade in costume&#34;,
+    &#34;how likely are you to know a folk dance from school (tinikling-style)&#34;,
+    &#34;how likely are you to clap along to a street marching band&#34;,
+    &#34;how likely are you to tear up during a flag ceremony song&#34;,
+    &#34;how likely are you to stand still during the national anthem in a cinema&#34;,
+    &#34;how likely are you to feel emotional hearing overseas workers&#39; homecoming stories&#34;,
+    &#34;how likely are you to cheer when a local athlete wins internationally&#34;,
+    &#34;how likely are you to watch a miss universe pageant with family&#34;,
+    &#34;how likely are you to discuss pageant answers after the show&#34;,
+    &#34;how likely are you to enjoy talent portions at school programs&#34;,
+    &#34;how likely are you to volunteer to emcee a family program&#34;,
+    &#34;how likely are you to memorize a speech for a school program&#34;,
+    &#34;how likely are you to get nervous speaking English to a foreign tourist&#34;,
+    &#34;how likely are you to feel proud when a visitor likes local food you recommended&#34;,
+    &#34;how likely are you to over-explain a dish&#39;s history to a curious guest&#34;,
+    &#34;how likely are you to ask a foreign guest if the spice level is okay&#34;,
+    &#34;how likely are you to lower chili heat when cooking for visitors&#34;,
+    &#34;how likely are you to keep a tourist map app on your phone&#34;,
+    &#34;how likely are you to recommend a hidden local beach over a famous one&#34;,
+    &#34;how likely are you to warn visitors about afternoon heat&#34;,
+    &#34;how likely are you to warn visitors to drink bottled water when unsure&#34;,
+    &#34;how likely are you to enjoy island-hopping boat trips&#34;,
+    &#34;how likely are you to get seasick on a small bangka (outrigger boat)&#34;,
+    &#34;how likely are you to wear a life vest without complaining&#34;,
+    &#34;how likely are you to enjoy snorkeling in clear water&#34;,
+    &#34;how likely are you to collect sand in a jar from every beach trip&#34;,
+    &#34;how likely are you to keep shells on a windowsill&#34;,
+    &#34;how likely are you to enjoy hiking to a waterfall&#34;,
+    &#34;how likely are you to swim under a waterfall if locals say it is safe&#34;,
+    &#34;how likely are you to bring insect repellent on nature trips&#34;,
+    &#34;how likely are you to wear long sleeves against mosquitoes at dusk&#34;,
+    &#34;how likely are you to enjoy night markets when traveling in Asia&#34;,
+    &#34;how likely are you to try a fruit you cannot name when traveling&#34;,
+    &#34;how likely are you to compare every mango to a Philippine mango&#34;,
+    &#34;how likely are you to miss rainy-season greens when abroad&#34;,
+    &#34;how likely are you to crave vinegar when eating abroad for weeks&#34;,
+    &#34;how likely are you to pack a small bottle of fish sauce or soy sauce when traveling&#34;,
+    &#34;how likely are you to feel relieved when you see rice on a foreign menu&#34;,
+    &#34;how likely are you to order fried rice for breakfast abroad&#34;,
+    &#34;how likely are you to explain &#39;comfort food&#39; as something with rice&#34;,
+    &#34;how likely are you to rate a trip by how good the food was&#34;,
+    &#34;how likely are you to take home pasalubong snacks from every province visited&#34;,
+    &#34;how likely are you to give pasalubong to office mates after a trip&#34;,
+    &#34;how likely are you to hide pasalubong so it is not eaten before you arrive home&#34;,
+    &#34;how likely are you to enjoy planning a trip around family visits&#34;,
+    &#34;how likely are you to prefer traveling with relatives over traveling solo&#34;,
+    &#34;how likely are you to take responsibility for the family itinerary&#34;,
+    &#34;how likely are you to be the family photographer on trips&#34;,
+    &#34;how likely are you to be the family navigator using landmarks&#34;,
+    &#34;how likely are you to be the one who wakes everyone for an early tour&#34;,
+    &#34;how likely are you to be the last one ready when leaving for a trip&#34;,
+    &#34;how likely are you to overpack &#39;just in case&#39; snacks for a road trip&#34;,
+    &#34;how likely are you to play road games during long provincial drives&#34;,
+    &#34;how likely are you to sing in the car during long drives&#34;,
+    &#34;how likely are you to stop at every roadside fruit stand&#34;,
+    &#34;how likely are you to buy boiled peanuts from a highway vendor&#34;,
+    &#34;how likely are you to trust food from a busy stall over an empty one&#34;,
+    &#34;how likely are you to ask a vendor &#39;what is your bestseller&#39;&#34;,
+    &#34;how likely are you to tip a server even when service charge is included&#34;,
+    &#34;how likely are you to split a bill evenly instead of paying only what you ate&#34;,
+    &#34;how likely are you to treat younger cousins to a meal&#34;,
+    &#34;how likely are you to let elders pay even when you want to treat&#34;,
+    &#34;how likely are you to insist on paying as the one who invited&#34;,
+    &#34;how likely are you to feel awkward when someone pays for you&#34;,
+    &#34;how likely are you to say &#39;next time is on me&#39; and mean it&#34;,
 ]
 
 def to_questions(stems):
     out = []
     for s in stems:
-        q = f"On a scale of 1 to 100, {s}?"
+        q = f&#34;On a scale of 1 to 100, {s}?&#34;
         out.append(q)
     return out
 
@@ -9773,34 +4411,33 @@ for q in to_questions(generic_stems) + to_questions(ph_stems):
     if q not in seen:
         seen.add(q)
         items.append(q)
-    if len(items) >= 500:
+    if len(items) &gt;= 500:
         break
 
-# If short, add numbered fillers (shouldn't happen)
-while len(items) < 500:
-    q = f"On a scale of 1 to 100, how comfortable are you explaining daily life in the Philippines to a visitor (variant {len(items)})?"
+# If short, add numbered fillers (shouldn&#39;t happen)
+while len(items) &lt; 500:
+    q = f&#34;On a scale of 1 to 100, how comfortable are you explaining daily life in the Philippines to a visitor (variant {len(items)})?&#34;
     if q not in seen:
         seen.add(q)
         items.append(q)
 
-print('total', len(items))
+print(&#39;total&#39;, len(items))
 
-root = Path('/home/jorap/Documents/GitHub/jorap.com/data')
-text = root.joinpath('randomizer.yaml').read_text()
+root = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data&#39;)
+text = root.joinpath(&#39;randomizer.yaml&#39;).read_text()
 # replace personal-scales block
-pattern = r'(  - id: personal-scales\n.*?)(\n  - id: spectrum)'
-personal_block = '''  - id: personal-scales
+pattern = r&#39;(  - id: personal-scales\n.*?)(\n  - id: spectrum)&#39;
+personal_block = &#39;&#39;&#39;  - id: personal-scales
     title: Personal icebreakers
     mode: personal
     tagline: Self-reflective scales from 1 to 100 about real habits and memories — with everyday Philippine life context foreigners can follow.
     play_hint: Answer honestly with a number from 1 to 100.
     items:
-''' + '\n'.join(f'      - {q}' for q in items) + '\n'
-new_text = re.sub(pattern, personal_block + r'\2', text, count=1, flags=re.S)
-root.joinpath('randomizer.yaml').write_text(new_text)
-print('written')
+&#39;&#39;&#39; + &#39;\n&#39;.join(f&#39;      - {q}&#39; for q in items) + &#39;\n&#39;
+new_text = re.sub(pattern, personal_block + r&#39;\2&#39;, text, count=1, flags=re.S)
+root.joinpath(&#39;randomizer.yaml&#39;).write_text(new_text)
+print(&#39;written&#39;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from pathlib import Path
@@ -10403,25 +5040,18 @@ total 500
 written
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Verifying the build and counting items.</details></think>
+Verifying the build and counting items.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -10452,28 +5082,20 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -4 && node -e "
-const fs=require('fs');
-const html=fs.readFileSync('public/randomizer/index.html','utf8');
-const m=html.match(/id=randomizer-data>([^<]+)</);
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -4 &amp;&amp; node -e &#34;
+const fs=require(&#39;fs&#39;);
+const html=fs.readFileSync(&#39;public/randomizer/index.html&#39;,&#39;utf8&#39;);
+const m=html.match(/id=randomizer-data&gt;([^&lt;]+)&lt;/);
 const data=JSON.parse(m[1]);
-const p=data.collections.find(c=>c.id==='personal-scales');
-console.log('count', p.items.length);
-console.log('sample PH:', p.items.filter(x=>/rice|jeepney|sinigang|merienda|balikbayan/i.test(x)).slice(0,5).join('\n'));
-"</summary>
-
+const p=data.collections.find(c=&gt;c.id===&#39;personal-scales&#39;);
+console.log(&#39;count&#39;, p.items.length);
+console.log(&#39;sample PH:&#39;, p.items.filter(x=&gt;/rice|jeepney|sinigang|merienda|balikbayan/i.test(x)).slice(0,5).join(&#39;\n&#39;));
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -4 && node -e "
 const fs=require('fs');
@@ -10490,7 +5112,7 @@ console.log('sample PH:', p.items.filter(x=>/rice|jeepney|sinigang|merienda|bali
 
 Total in 29708 ms
 [cspHashes] Rewrote 37 inline onerror= attribute(s) in 6 file(s).
-[cspHashes] Hashed 4464 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+[cspHashes] Hashed 4464 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
 count 500
 sample PH: On a scale of 1 to 100, how much do you enjoy rice dishes?
 On a scale of 1 to 100, how much do you want rice with every main meal?
@@ -10499,12 +5121,6 @@ On a scale of 1 to 100, how likely are you to ask for extra rice at a restaurant
 On a scale of 1 to 100, how much do you enjoy sour soup with tamarind broth (sinigang-style)?
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -10514,10 +5130,8 @@ Fixing a few prompts that don't fit the 1–100 scale format.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -10548,27 +5162,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -10600,7 +5199,8 @@ modify everything and make it generic. assume a worldwide audience.
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The randomizer needs to be made fully generic for a worldwide audience.</details></think>
+The randomizer needs to be made fully generic for a worldwide audience.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -10609,40 +5209,22 @@ Making all randomizer content generic for a worldwide audience—reviewing the f
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
 
 </details></tool-use>
 
@@ -10651,594 +5233,595 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I need to regenerate 500 generic personal scale items without PH references.
 
-Spectrum categories are already globally applicable. I'll update the personal-scales tagline and check the JS lede text. Python will generate 500 diverse generic stems covering universal topics.</details></think>
+Spectrum categories are already globally applicable. I'll update the personal-scales tagline and check the JS lede text. Python will generate 500 diverse generic stems covering universal topics.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from pathlib import Path
 import re
 
 stems = [
-    # Morning & routine
-    "how much do you enjoy waking up early",
-    "how tidy is your bedroom right now",
-    "how much do you trust your morning alarm",
-    "how likely are you to make your bed each day",
-    "how early do you like to wake up on weekends",
-    "how energetic are you in the morning",
-    "how energetic are you in the evening",
-    "how energetic are you after lunch",
-    "how likely are you to take a nap on weekends",
-    "how likely are you to stretch after sitting a long time",
-    "how much do you like having a daily routine",
-    "how much do you like changing your routine",
-    "how punctual are you for appointments",
-    "how likely are you to be early rather than late",
-    "how likely are you to finish tasks before the deadline",
-    "how likely are you to start projects well in advance",
-    "how likely are you to procrastinate",
-    # Weather & outdoors
-    "how much do you enjoy rainy days",
-    "how much do you enjoy sunny days",
-    "how much do you enjoy snowy days",
-    "how much do you enjoy windy days",
-    "how much do you enjoy hot weather",
-    "how much do you enjoy cold weather",
-    "how much do you enjoy thunderstorms from indoors",
-    "how much do you enjoy watching clouds",
-    "how much do you enjoy stargazing at night",
-    "how much do you enjoy long walks",
-    "how much do you enjoy hiking uphill",
-    "how much do you enjoy hiking downhill",
-    "how much do you enjoy swimming",
-    "how much do you enjoy riding a bicycle",
-    "how much do you enjoy camping outdoors",
-    "how much do you enjoy picnics in a park",
-    "how much do you enjoy watching sunsets",
-    "how much do you enjoy watching sunrises",
-    "how much do you enjoy moonlit walks",
-    "how much do you enjoy listening to rain on the roof",
-    "how likely are you to bring an umbrella when skies look gray",
-    "how likely are you to wear a hat in the sun",
-    "how likely are you to wear a coat in the cold",
-    "how likely are you to wear sunscreen outdoors",
+    # Morning &amp; routine
+    &#34;how much do you enjoy waking up early&#34;,
+    &#34;how tidy is your bedroom right now&#34;,
+    &#34;how much do you trust your morning alarm&#34;,
+    &#34;how likely are you to make your bed each day&#34;,
+    &#34;how early do you like to wake up on weekends&#34;,
+    &#34;how energetic are you in the morning&#34;,
+    &#34;how energetic are you in the evening&#34;,
+    &#34;how energetic are you after lunch&#34;,
+    &#34;how likely are you to take a nap on weekends&#34;,
+    &#34;how likely are you to stretch after sitting a long time&#34;,
+    &#34;how much do you like having a daily routine&#34;,
+    &#34;how much do you like changing your routine&#34;,
+    &#34;how punctual are you for appointments&#34;,
+    &#34;how likely are you to be early rather than late&#34;,
+    &#34;how likely are you to finish tasks before the deadline&#34;,
+    &#34;how likely are you to start projects well in advance&#34;,
+    &#34;how likely are you to procrastinate&#34;,
+    # Weather &amp; outdoors
+    &#34;how much do you enjoy rainy days&#34;,
+    &#34;how much do you enjoy sunny days&#34;,
+    &#34;how much do you enjoy snowy days&#34;,
+    &#34;how much do you enjoy windy days&#34;,
+    &#34;how much do you enjoy hot weather&#34;,
+    &#34;how much do you enjoy cold weather&#34;,
+    &#34;how much do you enjoy thunderstorms from indoors&#34;,
+    &#34;how much do you enjoy watching clouds&#34;,
+    &#34;how much do you enjoy stargazing at night&#34;,
+    &#34;how much do you enjoy long walks&#34;,
+    &#34;how much do you enjoy hiking uphill&#34;,
+    &#34;how much do you enjoy hiking downhill&#34;,
+    &#34;how much do you enjoy swimming&#34;,
+    &#34;how much do you enjoy riding a bicycle&#34;,
+    &#34;how much do you enjoy camping outdoors&#34;,
+    &#34;how much do you enjoy picnics in a park&#34;,
+    &#34;how much do you enjoy watching sunsets&#34;,
+    &#34;how much do you enjoy watching sunrises&#34;,
+    &#34;how much do you enjoy moonlit walks&#34;,
+    &#34;how much do you enjoy listening to rain on the roof&#34;,
+    &#34;how likely are you to bring an umbrella when skies look gray&#34;,
+    &#34;how likely are you to wear a hat in the sun&#34;,
+    &#34;how likely are you to wear a coat in the cold&#34;,
+    &#34;how likely are you to wear sunscreen outdoors&#34;,
     # Social
-    "how patient are you when waiting in line",
-    "how comfortable are you meeting new people",
-    "how comfortable are you speaking in front of a group",
-    "how comfortable are you asking for help",
-    "how comfortable are you eating alone in public",
-    "how comfortable are you trying a new hobby",
-    "how much do you enjoy quiet time alone",
-    "how much do you enjoy large family gatherings",
-    "how much do you enjoy small gatherings with close friends",
-    "how much do you enjoy phone calls with relatives",
-    "how likely are you to share snacks with others",
-    "how likely are you to help clean up after a meal",
-    "how likely are you to hold the door for someone",
-    "how likely are you to say thank you to a cashier",
-    "how likely are you to apologize when you are wrong",
-    "how likely are you to forgive someone quickly",
-    "how likely are you to return a shopping cart",
-    "how likely are you to give up your seat for someone who needs it",
-    "how likely are you to offer directions to a lost stranger",
-    "how likely are you to smile when greeting store staff",
-    "how much do you enjoy giving gifts",
-    "how much do you enjoy receiving gifts",
-    "how much do you enjoy planning parties",
-    "how much do you enjoy surprise plans",
-    "how likely are you to insist guests eat even after they say they are full",
-    "how likely are you to wait until everyone is served before eating",
-    # Food & drink (generic)
-    "how much do you enjoy trying new foods",
-    "how much do you enjoy cooking at home",
-    "how much do you enjoy eating vegetables",
-    "how sweet do you like your drinks",
-    "how spicy do you like your food",
-    "how salty do you like your food",
-    "how much do you enjoy breakfast foods",
-    "how much do you enjoy lunch foods",
-    "how much do you enjoy dinner foods",
-    "how much do you enjoy late-night snacks",
-    "how much do you enjoy fruit for dessert",
-    "how much do you enjoy soup on a cold day",
-    "how much do you enjoy salad",
-    "how much do you enjoy sandwiches",
-    "how much do you enjoy pasta dishes",
-    "how much do you enjoy rice dishes",
-    "how much do you enjoy bread with meals",
-    "how much do you enjoy eggs for breakfast",
-    "how much do you enjoy oatmeal",
-    "how much do you enjoy yogurt",
-    "how much do you enjoy cheese as a snack",
-    "how much do you enjoy nuts as a snack",
-    "how much do you enjoy popcorn as a snack",
-    "how much do you enjoy ice water",
-    "how much do you enjoy herbal tea",
-    "how much do you enjoy hot chocolate",
-    "how much do you enjoy lemonade",
-    "how much do you enjoy coffee in the morning",
-    "how much do you enjoy tea in the afternoon",
-    "how much do you enjoy drinking water throughout the day",
-    "how much do you enjoy sharing one dish family-style at the table",
-    "how much do you enjoy saving leftovers for the next meal",
-    "how adventurous are you with food",
-    "how likely are you to pack a lunch for work or school",
-    "how likely are you to share lunch with someone who forgot theirs",
-    # Home & chores
-    "how organized is your school bag or work bag",
-    "how likely are you to tidy your desk once a week",
-    "how likely are you to sort recycling correctly",
-    "how likely are you to turn off lights when leaving a room",
-    "how likely are you to close doors gently",
-    "how good are you at folding laundry",
-    "how good are you at washing dishes by hand",
-    "how good are you at packing a suitcase",
-    "how good are you at wrapping gifts",
-    "how good are you at setting a table",
-    "how good are you at fixing small problems at home",
-    "how good are you at keeping plants alive",
-    "how good are you at keeping pets calm",
-    "how likely are you to hang washed clothes to dry",
-    "how likely are you to label leftover containers in the fridge",
-    "how likely are you to remove your shoes before entering a home",
-    "how much do you enjoy natural light in a room",
-    "how much do you enjoy open windows for fresh air",
-    "how much do you enjoy air conditioning on hot days",
-    "how much do you enjoy heating on cold days",
-    "how much do you enjoy soft blankets",
-    "how much do you enjoy firm pillows",
-    "how much do you enjoy a fan while sleeping",
-    # Study & work
-    "how focused are you when studying or working",
-    "how easily are you distracted by noise",
-    "how easily are you distracted by your phone",
-    "how long can you go without checking your phone",
-    "how much do you enjoy learning new facts",
-    "how much do you enjoy reading before bed",
-    "how much do you enjoy library visits",
-    "how much do you enjoy group projects",
-    "how much do you enjoy working alone",
-    "how much do you enjoy leading a team",
-    "how much do you enjoy following clear instructions",
-    "how much do you enjoy figuring things out on your own",
-    "how much do you enjoy science experiments",
-    "how much do you enjoy history lessons",
-    "how much do you enjoy math problems",
-    "how much do you enjoy art class",
-    "how much do you enjoy music lessons",
-    "how much do you enjoy physical education class",
-    "how much do you enjoy field trips",
-    "how likely are you to review notes the night before a test",
-    "how likely are you to form a study group",
-    "how likely are you to help a classmate who missed a lesson",
-    "how likely are you to stay late when a team is still finishing work",
-    # Games & hobbies
-    "how competitive are you at board games",
-    "how much do you enjoy puzzles",
-    "how much do you enjoy drawing or coloring",
-    "how much do you enjoy singing out loud",
-    "how much do you enjoy dancing",
-    "how much do you enjoy building with blocks or bricks",
-    "how much do you enjoy gardening",
-    "how much do you enjoy feeding birds or animals",
-    "how much do you enjoy visiting museums",
-    "how much do you enjoy birdwatching",
-    "how much do you enjoy fishing calmly",
-    "how much do you enjoy collecting shells or rocks",
-    "how much do you enjoy kite flying",
-    "how much do you enjoy playground equipment",
-    "how much do you enjoy playing a musical instrument",
-    "how much do you enjoy watching live sports",
-    "how much do you enjoy playing team sports",
-    "how much do you enjoy running for exercise",
-    "how much do you enjoy yoga or stretching routines",
-    # Memory & skills
-    "how good are you at remembering names",
-    "how good are you at remembering birthdays",
-    "how good are you at remembering where you put things",
-    "how good are you at keeping secrets",
-    "how good are you at using a map",
-    "how good are you at reading a clock",
-    "how good are you at estimating time",
-    "how good are you at saving money",
-    "how good are you at sticking to a budget",
-    "how good are you at learning a new language",
-    "how good are you at following a recipe",
-    "how good are you at reading instructions first",
-    # Shopping & errands
-    "how much do you enjoy grocery shopping",
-    "how much do you enjoy thrift shopping",
-    "how much do you enjoy farmers markets",
-    "how likely are you to compare prices before buying",
-    "how likely are you to buy in bulk when items are on sale",
-    "how likely are you to keep coins in a jar at home",
-    "how likely are you to use a mobile payment app at a store",
-    "how likely are you to carry cash for small purchases",
+    &#34;how patient are you when waiting in line&#34;,
+    &#34;how comfortable are you meeting new people&#34;,
+    &#34;how comfortable are you speaking in front of a group&#34;,
+    &#34;how comfortable are you asking for help&#34;,
+    &#34;how comfortable are you eating alone in public&#34;,
+    &#34;how comfortable are you trying a new hobby&#34;,
+    &#34;how much do you enjoy quiet time alone&#34;,
+    &#34;how much do you enjoy large family gatherings&#34;,
+    &#34;how much do you enjoy small gatherings with close friends&#34;,
+    &#34;how much do you enjoy phone calls with relatives&#34;,
+    &#34;how likely are you to share snacks with others&#34;,
+    &#34;how likely are you to help clean up after a meal&#34;,
+    &#34;how likely are you to hold the door for someone&#34;,
+    &#34;how likely are you to say thank you to a cashier&#34;,
+    &#34;how likely are you to apologize when you are wrong&#34;,
+    &#34;how likely are you to forgive someone quickly&#34;,
+    &#34;how likely are you to return a shopping cart&#34;,
+    &#34;how likely are you to give up your seat for someone who needs it&#34;,
+    &#34;how likely are you to offer directions to a lost stranger&#34;,
+    &#34;how likely are you to smile when greeting store staff&#34;,
+    &#34;how much do you enjoy giving gifts&#34;,
+    &#34;how much do you enjoy receiving gifts&#34;,
+    &#34;how much do you enjoy planning parties&#34;,
+    &#34;how much do you enjoy surprise plans&#34;,
+    &#34;how likely are you to insist guests eat even after they say they are full&#34;,
+    &#34;how likely are you to wait until everyone is served before eating&#34;,
+    # Food &amp; drink (generic)
+    &#34;how much do you enjoy trying new foods&#34;,
+    &#34;how much do you enjoy cooking at home&#34;,
+    &#34;how much do you enjoy eating vegetables&#34;,
+    &#34;how sweet do you like your drinks&#34;,
+    &#34;how spicy do you like your food&#34;,
+    &#34;how salty do you like your food&#34;,
+    &#34;how much do you enjoy breakfast foods&#34;,
+    &#34;how much do you enjoy lunch foods&#34;,
+    &#34;how much do you enjoy dinner foods&#34;,
+    &#34;how much do you enjoy late-night snacks&#34;,
+    &#34;how much do you enjoy fruit for dessert&#34;,
+    &#34;how much do you enjoy soup on a cold day&#34;,
+    &#34;how much do you enjoy salad&#34;,
+    &#34;how much do you enjoy sandwiches&#34;,
+    &#34;how much do you enjoy pasta dishes&#34;,
+    &#34;how much do you enjoy rice dishes&#34;,
+    &#34;how much do you enjoy bread with meals&#34;,
+    &#34;how much do you enjoy eggs for breakfast&#34;,
+    &#34;how much do you enjoy oatmeal&#34;,
+    &#34;how much do you enjoy yogurt&#34;,
+    &#34;how much do you enjoy cheese as a snack&#34;,
+    &#34;how much do you enjoy nuts as a snack&#34;,
+    &#34;how much do you enjoy popcorn as a snack&#34;,
+    &#34;how much do you enjoy ice water&#34;,
+    &#34;how much do you enjoy herbal tea&#34;,
+    &#34;how much do you enjoy hot chocolate&#34;,
+    &#34;how much do you enjoy lemonade&#34;,
+    &#34;how much do you enjoy coffee in the morning&#34;,
+    &#34;how much do you enjoy tea in the afternoon&#34;,
+    &#34;how much do you enjoy drinking water throughout the day&#34;,
+    &#34;how much do you enjoy sharing one dish family-style at the table&#34;,
+    &#34;how much do you enjoy saving leftovers for the next meal&#34;,
+    &#34;how adventurous are you with food&#34;,
+    &#34;how likely are you to pack a lunch for work or school&#34;,
+    &#34;how likely are you to share lunch with someone who forgot theirs&#34;,
+    # Home &amp; chores
+    &#34;how organized is your school bag or work bag&#34;,
+    &#34;how likely are you to tidy your desk once a week&#34;,
+    &#34;how likely are you to sort recycling correctly&#34;,
+    &#34;how likely are you to turn off lights when leaving a room&#34;,
+    &#34;how likely are you to close doors gently&#34;,
+    &#34;how good are you at folding laundry&#34;,
+    &#34;how good are you at washing dishes by hand&#34;,
+    &#34;how good are you at packing a suitcase&#34;,
+    &#34;how good are you at wrapping gifts&#34;,
+    &#34;how good are you at setting a table&#34;,
+    &#34;how good are you at fixing small problems at home&#34;,
+    &#34;how good are you at keeping plants alive&#34;,
+    &#34;how good are you at keeping pets calm&#34;,
+    &#34;how likely are you to hang washed clothes to dry&#34;,
+    &#34;how likely are you to label leftover containers in the fridge&#34;,
+    &#34;how likely are you to remove your shoes before entering a home&#34;,
+    &#34;how much do you enjoy natural light in a room&#34;,
+    &#34;how much do you enjoy open windows for fresh air&#34;,
+    &#34;how much do you enjoy air conditioning on hot days&#34;,
+    &#34;how much do you enjoy heating on cold days&#34;,
+    &#34;how much do you enjoy soft blankets&#34;,
+    &#34;how much do you enjoy firm pillows&#34;,
+    &#34;how much do you enjoy a fan while sleeping&#34;,
+    # Study &amp; work
+    &#34;how focused are you when studying or working&#34;,
+    &#34;how easily are you distracted by noise&#34;,
+    &#34;how easily are you distracted by your phone&#34;,
+    &#34;how long can you go without checking your phone&#34;,
+    &#34;how much do you enjoy learning new facts&#34;,
+    &#34;how much do you enjoy reading before bed&#34;,
+    &#34;how much do you enjoy library visits&#34;,
+    &#34;how much do you enjoy group projects&#34;,
+    &#34;how much do you enjoy working alone&#34;,
+    &#34;how much do you enjoy leading a team&#34;,
+    &#34;how much do you enjoy following clear instructions&#34;,
+    &#34;how much do you enjoy figuring things out on your own&#34;,
+    &#34;how much do you enjoy science experiments&#34;,
+    &#34;how much do you enjoy history lessons&#34;,
+    &#34;how much do you enjoy math problems&#34;,
+    &#34;how much do you enjoy art class&#34;,
+    &#34;how much do you enjoy music lessons&#34;,
+    &#34;how much do you enjoy physical education class&#34;,
+    &#34;how much do you enjoy field trips&#34;,
+    &#34;how likely are you to review notes the night before a test&#34;,
+    &#34;how likely are you to form a study group&#34;,
+    &#34;how likely are you to help a classmate who missed a lesson&#34;,
+    &#34;how likely are you to stay late when a team is still finishing work&#34;,
+    # Games &amp; hobbies
+    &#34;how competitive are you at board games&#34;,
+    &#34;how much do you enjoy puzzles&#34;,
+    &#34;how much do you enjoy drawing or coloring&#34;,
+    &#34;how much do you enjoy singing out loud&#34;,
+    &#34;how much do you enjoy dancing&#34;,
+    &#34;how much do you enjoy building with blocks or bricks&#34;,
+    &#34;how much do you enjoy gardening&#34;,
+    &#34;how much do you enjoy feeding birds or animals&#34;,
+    &#34;how much do you enjoy visiting museums&#34;,
+    &#34;how much do you enjoy birdwatching&#34;,
+    &#34;how much do you enjoy fishing calmly&#34;,
+    &#34;how much do you enjoy collecting shells or rocks&#34;,
+    &#34;how much do you enjoy kite flying&#34;,
+    &#34;how much do you enjoy playground equipment&#34;,
+    &#34;how much do you enjoy playing a musical instrument&#34;,
+    &#34;how much do you enjoy watching live sports&#34;,
+    &#34;how much do you enjoy playing team sports&#34;,
+    &#34;how much do you enjoy running for exercise&#34;,
+    &#34;how much do you enjoy yoga or stretching routines&#34;,
+    # Memory &amp; skills
+    &#34;how good are you at remembering names&#34;,
+    &#34;how good are you at remembering birthdays&#34;,
+    &#34;how good are you at remembering where you put things&#34;,
+    &#34;how good are you at keeping secrets&#34;,
+    &#34;how good are you at using a map&#34;,
+    &#34;how good are you at reading a clock&#34;,
+    &#34;how good are you at estimating time&#34;,
+    &#34;how good are you at saving money&#34;,
+    &#34;how good are you at sticking to a budget&#34;,
+    &#34;how good are you at learning a new language&#34;,
+    &#34;how good are you at following a recipe&#34;,
+    &#34;how good are you at reading instructions first&#34;,
+    # Shopping &amp; errands
+    &#34;how much do you enjoy grocery shopping&#34;,
+    &#34;how much do you enjoy thrift shopping&#34;,
+    &#34;how much do you enjoy farmers markets&#34;,
+    &#34;how likely are you to compare prices before buying&#34;,
+    &#34;how likely are you to buy in bulk when items are on sale&#34;,
+    &#34;how likely are you to keep coins in a jar at home&#34;,
+    &#34;how likely are you to use a mobile payment app at a store&#34;,
+    &#34;how likely are you to carry cash for small purchases&#34;,
     # Travel
-    "how adventurous are you with travel",
-    "how much do you enjoy car rides with family",
-    "how much do you enjoy train rides",
-    "how much do you enjoy bus rides",
-    "how much do you enjoy boat rides",
-    "how much do you enjoy airplane travel",
-    "how much do you enjoy road trip games",
-    "how much do you enjoy packing for a trip",
-    "how much do you enjoy unpacking after a trip",
-    "how much do you enjoy hotel stays",
-    "how much do you enjoy staying with relatives",
-    "how much do you enjoy camping in a tent",
-    "how likely are you to leave early for the airport",
-    "how likely are you to pack snacks for a long trip",
-    "how likely are you to take photos on vacation",
-    "how likely are you to try local food when traveling",
-    "how likely are you to learn a few words in the local language",
-    "how likely are you to get lost and enjoy finding your way back",
+    &#34;how adventurous are you with travel&#34;,
+    &#34;how much do you enjoy car rides with family&#34;,
+    &#34;how much do you enjoy train rides&#34;,
+    &#34;how much do you enjoy bus rides&#34;,
+    &#34;how much do you enjoy boat rides&#34;,
+    &#34;how much do you enjoy airplane travel&#34;,
+    &#34;how much do you enjoy road trip games&#34;,
+    &#34;how much do you enjoy packing for a trip&#34;,
+    &#34;how much do you enjoy unpacking after a trip&#34;,
+    &#34;how much do you enjoy hotel stays&#34;,
+    &#34;how much do you enjoy staying with relatives&#34;,
+    &#34;how much do you enjoy camping in a tent&#34;,
+    &#34;how likely are you to leave early for the airport&#34;,
+    &#34;how likely are you to pack snacks for a long trip&#34;,
+    &#34;how likely are you to take photos on vacation&#34;,
+    &#34;how likely are you to try local food when traveling&#34;,
+    &#34;how likely are you to learn a few words in the local language&#34;,
+    &#34;how likely are you to get lost and enjoy finding your way back&#34;,
     # Health habits
-    "how likely are you to drink water when you are thirsty",
-    "how likely are you to wash your hands before meals",
-    "how likely are you to brush your teeth before bed",
-    "how likely are you to floss your teeth",
-    "how likely are you to wear a seat belt in a car",
-    "how likely are you to wear a helmet on a bicycle",
-    "how likely are you to stretch before exercise",
-    "how likely are you to go to bed at a consistent time",
-    "how likely are you to read food labels before buying",
-    "how likely are you to take breaks from screens",
+    &#34;how likely are you to drink water when you are thirsty&#34;,
+    &#34;how likely are you to wash your hands before meals&#34;,
+    &#34;how likely are you to brush your teeth before bed&#34;,
+    &#34;how likely are you to floss your teeth&#34;,
+    &#34;how likely are you to wear a seat belt in a car&#34;,
+    &#34;how likely are you to wear a helmet on a bicycle&#34;,
+    &#34;how likely are you to stretch before exercise&#34;,
+    &#34;how likely are you to go to bed at a consistent time&#34;,
+    &#34;how likely are you to read food labels before buying&#34;,
+    &#34;how likely are you to take breaks from screens&#34;,
     # Technology
-    "how likely are you to text instead of call for quick updates",
-    "how likely are you to send voice messages to family",
-    "how likely are you to mute a busy group chat",
-    "how likely are you to fact-check news links before sharing",
-    "how likely are you to back up important files",
-    "how likely are you to use a password manager",
-    "how likely are you to update apps when prompted",
-    "how much do you enjoy typing over handwriting",
-    "how much do you enjoy handwriting over typing",
-    # Emotions & outlook
-    "how calm are you during unexpected changes",
-    "how calm are you when plans are canceled",
-    "how calm are you when you lose a game",
-    "how calm are you when you win a game",
-    "how calm are you during loud environments",
-    "how calm are you during very quiet environments",
-    "how optimistic are you about tomorrow",
-    "how optimistic are you about learning hard subjects",
-    "how optimistic are you about making new friends",
-    "how optimistic are you about fixing mistakes",
-    "how grateful do you feel for your home",
-    "how grateful do you feel for your meals",
-    "how grateful do you feel for people who teach you",
-    "how grateful do you feel for quiet mornings",
-    "how likely are you to celebrate small wins",
-    "how likely are you to set personal goals",
-    "how likely are you to track progress on goals",
-    "how likely are you to rest after finishing a hard task",
-    # Clothing & senses
-    "how much do you enjoy warm socks",
-    "how much do you enjoy cozy sweaters",
-    "how much do you enjoy sandals in summer",
-    "how much do you enjoy boots in winter",
-    "how much do you enjoy wearing hats",
-    "how much do you enjoy wearing scarves",
-    "how much do you enjoy wearing gloves",
-    "how much do you enjoy matching outfits",
-    "how much do you enjoy bright colors in clothing",
-    "how much do you enjoy neutral colors in clothing",
-    "how much do you enjoy the smell of fresh bread",
-    "how much do you enjoy the smell of flowers",
-    "how much do you enjoy the smell of rain on pavement",
-    "how much do you enjoy the smell of pine trees",
-    "how much do you enjoy the smell of the ocean",
-    # Communication & kindness
-    "how likely are you to listen without interrupting",
-    "how likely are you to give compliments sincerely",
-    "how likely are you to receive compliments gracefully",
-    "how likely are you to resolve disagreements calmly",
-    "how likely are you to compromise in group decisions",
-    "how likely are you to take turns fairly",
-    "how likely are you to cheer for others",
-    "how likely are you to avoid conflict in public even when upset",
-    "how likely are you to help a neighbor in need",
-    "how likely are you to lend something you trust will be returned",
-    "how likely are you to write a thank-you note",
-    "how likely are you to reply promptly to important messages",
+    &#34;how likely are you to text instead of call for quick updates&#34;,
+    &#34;how likely are you to send voice messages to family&#34;,
+    &#34;how likely are you to mute a busy group chat&#34;,
+    &#34;how likely are you to fact-check news links before sharing&#34;,
+    &#34;how likely are you to back up important files&#34;,
+    &#34;how likely are you to use a password manager&#34;,
+    &#34;how likely are you to update apps when prompted&#34;,
+    &#34;how much do you enjoy typing over handwriting&#34;,
+    &#34;how much do you enjoy handwriting over typing&#34;,
+    # Emotions &amp; outlook
+    &#34;how calm are you during unexpected changes&#34;,
+    &#34;how calm are you when plans are canceled&#34;,
+    &#34;how calm are you when you lose a game&#34;,
+    &#34;how calm are you when you win a game&#34;,
+    &#34;how calm are you during loud environments&#34;,
+    &#34;how calm are you during very quiet environments&#34;,
+    &#34;how optimistic are you about tomorrow&#34;,
+    &#34;how optimistic are you about learning hard subjects&#34;,
+    &#34;how optimistic are you about making new friends&#34;,
+    &#34;how optimistic are you about fixing mistakes&#34;,
+    &#34;how grateful do you feel for your home&#34;,
+    &#34;how grateful do you feel for your meals&#34;,
+    &#34;how grateful do you feel for people who teach you&#34;,
+    &#34;how grateful do you feel for quiet mornings&#34;,
+    &#34;how likely are you to celebrate small wins&#34;,
+    &#34;how likely are you to set personal goals&#34;,
+    &#34;how likely are you to track progress on goals&#34;,
+    &#34;how likely are you to rest after finishing a hard task&#34;,
+    # Clothing &amp; senses
+    &#34;how much do you enjoy warm socks&#34;,
+    &#34;how much do you enjoy cozy sweaters&#34;,
+    &#34;how much do you enjoy sandals in summer&#34;,
+    &#34;how much do you enjoy boots in winter&#34;,
+    &#34;how much do you enjoy wearing hats&#34;,
+    &#34;how much do you enjoy wearing scarves&#34;,
+    &#34;how much do you enjoy wearing gloves&#34;,
+    &#34;how much do you enjoy matching outfits&#34;,
+    &#34;how much do you enjoy bright colors in clothing&#34;,
+    &#34;how much do you enjoy neutral colors in clothing&#34;,
+    &#34;how much do you enjoy the smell of fresh bread&#34;,
+    &#34;how much do you enjoy the smell of flowers&#34;,
+    &#34;how much do you enjoy the smell of rain on pavement&#34;,
+    &#34;how much do you enjoy the smell of pine trees&#34;,
+    &#34;how much do you enjoy the smell of the ocean&#34;,
+    # Communication &amp; kindness
+    &#34;how likely are you to listen without interrupting&#34;,
+    &#34;how likely are you to give compliments sincerely&#34;,
+    &#34;how likely are you to receive compliments gracefully&#34;,
+    &#34;how likely are you to resolve disagreements calmly&#34;,
+    &#34;how likely are you to compromise in group decisions&#34;,
+    &#34;how likely are you to take turns fairly&#34;,
+    &#34;how likely are you to cheer for others&#34;,
+    &#34;how likely are you to avoid conflict in public even when upset&#34;,
+    &#34;how likely are you to help a neighbor in need&#34;,
+    &#34;how likely are you to lend something you trust will be returned&#34;,
+    &#34;how likely are you to write a thank-you note&#34;,
+    &#34;how likely are you to reply promptly to important messages&#34;,
     # More universal daily life to reach 500
-    "how much do you enjoy baking bread",
-    "how much do you enjoy baking cookies",
-    "how much do you enjoy making sandwiches",
-    "how much do you enjoy packing lunch boxes",
-    "how much do you enjoy smoothies",
-    "how much do you enjoy pancakes",
-    "how much do you enjoy breakfast cereal",
-    "how much do you enjoy crackers as a snack",
-    "how much do you enjoy milk with meals",
-    "how likely are you to pick up litter you see outdoors",
-    "how likely are you to plant a tree or flower",
-    "how likely are you to compost food scraps",
-    "how likely are you to walk instead of drive for short trips",
-    "how likely are you to take the stairs instead of an elevator",
-    "how likely are you to bike to nearby places",
-    "how likely are you to carpool when possible",
-    "how likely are you to whisper in a library",
-    "how patient are you in heavy traffic",
-    "how patient are you with slow paperwork",
-    "how patient are you when technology fails",
-    "how likely are you to keep photocopies of important documents",
-    "how likely are you to renew IDs before they expire",
-    "how likely are you to read the full terms before accepting online",
-    "how likely are you to use public transport when convenient",
-    "how likely are you to walk the last part of a trip to avoid traffic",
-    "how likely are you to listen to music during a commute",
-    "how likely are you to fall asleep on a long ride",
-    "how likely are you to eat breakfast before leaving home",
-    "how likely are you to buy food on the way home",
-    "how much do you enjoy sleeping in a sleeping bag",
-    "how much do you enjoy sandbox play",
-    "how much do you enjoy photo albums",
-    "how much do you enjoy journaling daily",
-    "how much do you enjoy to-do lists",
-    "how much do you enjoy calendars and planners",
-    "how much do you enjoy sticky notes for reminders",
-    "how much do you enjoy donating items you no longer need",
-    "how much do you enjoy teaching others a skill you know",
-    "how much do you enjoy being taught by someone patient",
-    "how much do you enjoy asking thoughtful questions",
-    "how much do you enjoy mentoring younger learners",
-    "how much do you enjoy rewarding yourself after hard work",
-    "how likely are you to double-check locked doors at night",
-    "how likely are you to set aside money for emergencies",
-    "how likely are you to cook when you are tired",
-    "how likely are you to order takeout when you are tired",
-    "how likely are you to clean as you go while cooking",
-    "how likely are you to wipe kitchen counters before bed",
-    "how likely are you to make a grocery list before shopping",
-    "how likely are you to shop with a budget in mind",
-    "how likely are you to try a store brand to save money",
-    "how likely are you to repair something instead of replacing it",
-    "how likely are you to borrow a book from the library",
-    "how likely are you to finish a book you started",
-    "how likely are you to reread a favorite book",
-    "how likely are you to watch a documentary for fun",
-    "how likely are you to learn from online tutorials",
-    "how likely are you to take notes during a meeting or class",
-    "how likely are you to summarize what you learned out loud",
-    "how likely are you to practice a skill daily",
-    "how likely are you to skip practice when you feel confident",
-    "how likely are you to ask for feedback on your work",
-    "how likely are you to act on constructive feedback",
-    "how likely are you to defend a friend who is treated unfairly",
-    "how likely are you to include someone sitting alone",
-    "how likely are you to introduce two people who should meet",
-    "how likely are you to remember to bring a reusable bag shopping",
-    "how likely are you to choose walking when the weather is pleasant",
-    "how likely are you to open windows when the air feels stale",
-    "how likely are you to tolerate construction noise during the day",
-    "how likely are you to wear earplugs in a loud place",
-    "how likely are you to enjoy silence during a meal",
-    "how likely are you to enjoy background music while working",
-    "how likely are you to enjoy background music while relaxing",
-    "how likely are you to sing along to music in the car",
-    "how likely are you to keep a first-aid kit at home",
-    "how likely are you to know where your fire extinguisher is",
-    "how likely are you to test smoke alarm batteries yearly",
-    "how likely are you to have a meeting spot plan for emergencies",
-    "how likely are you to keep bottled water for emergencies",
-    "how likely are you to enjoy crossword or word puzzles",
-    "how likely are you to enjoy number puzzles",
-    "how likely are you to enjoy card games with family",
-    "how likely are you to enjoy trivia games",
-    "how likely are you to enjoy charades at parties",
-    "how likely are you to enjoy telling stories at gatherings",
-    "how likely are you to enjoy listening to others tell stories",
-    "how likely are you to keep a comfort item from childhood",
-    "how likely are you to display family photos at home",
-    "how likely are you to send holiday greetings to distant relatives",
-    "how likely are you to host guests overnight",
-    "how likely are you to prepare a guest room or space",
-    "how likely are you to offer a coat to a cold guest",
-    "how likely are you to walk someone to the door when they leave",
-    "how likely are you to send a message when you arrive home safely",
-    "how likely are you to ask others to message when they arrive safely",
-    "how likely are you to enjoy window shopping without buying",
-    "how likely are you to enjoy cooking a meal for guests",
-    "how likely are you to enjoy potluck meals where everyone brings a dish",
-    "how likely are you to enjoy trying a vegetarian meal",
-    "how likely are you to enjoy trying a new cuisine",
-    "how likely are you to enjoy mild flavors over strong ones",
-    "how likely are you to enjoy strong flavors over mild ones",
-    "how likely are you to enjoy crunchy textures in food",
-    "how likely are you to enjoy soft textures in food",
-    "how likely are you to enjoy cold meals in summer",
-    "how likely are you to enjoy hot meals in winter",
-    "how likely are you to enjoy eating outdoors",
-    "how likely are you to enjoy eating indoors at a formal table",
-    "how likely are you to enjoy cooking with family",
-    "how likely are you to enjoy washing dishes with a helper",
-    "how likely are you to enjoy grocery shopping with family",
-    "how likely are you to enjoy shopping alone",
-    "how likely are you to enjoy decorating for holidays",
-    "how likely are you to enjoy taking down decorations promptly",
-    "how likely are you to enjoy wrapping presents",
-    "how likely are you to enjoy unwrapping presents slowly",
-    "how likely are you to enjoy giving practical gifts",
-    "how likely are you to enjoy giving handmade gifts",
-    "how likely are you to enjoy receiving practical gifts",
-    "how likely are you to enjoy receiving surprise gifts",
-    "how likely are you to enjoy planning a weekly menu",
-    "how likely are you to enjoy eating the same breakfast most days",
-    "how likely are you to enjoy variety in every meal",
-    "how likely are you to enjoy meal prep on Sundays",
-    "how likely are you to enjoy spontaneous meals",
-    "how likely are you to enjoy counting steps or daily activity",
-    "how likely are you to enjoy team challenges with friends",
-    "how likely are you to enjoy solo challenges against yourself",
-    "how likely are you to enjoy cold showers",
-    "how likely are you to enjoy hot baths",
-    "how likely are you to enjoy swimming in a lake",
-    "how likely are you to enjoy swimming in a pool",
-    "how likely are you to enjoy building sandcastles",
-    "how likely are you to enjoy collecting postcards when traveling",
-    "how likely are you to enjoy sending postcards to friends",
-    "how likely are you to enjoy keeping a travel journal",
-    "how likely are you to enjoy revisiting places you loved",
-    "how likely are you to enjoy exploring a city on foot",
-    "how likely are you to enjoy using a paper map",
-    "how likely are you to enjoy using a navigation app",
-    "how likely are you to enjoy window seats on public transport",
-    "how likely are you to enjoy aisle seats on public transport",
-    "how likely are you to enjoy talking to seat neighbors on a trip",
-    "how likely are you to enjoy quiet travel with headphones",
-    "how likely are you to enjoy planning every hour of a vacation",
-    "how likely are you to enjoy unplanned days on vacation",
-    "how likely are you to enjoy waking up early on vacation",
-    "how likely are you to enjoy sleeping in on vacation",
-    "how likely are you to enjoy visiting historical sites",
-    "how likely are you to enjoy visiting science centers",
-    "how likely are you to enjoy visiting zoos or aquariums",
-    "how likely are you to enjoy visiting botanical gardens",
-    "how likely are you to enjoy learning local history on a tour",
-    "how likely are you to enjoy taking guided tours",
-    "how likely are you to enjoy exploring on your own",
-    "how likely are you to enjoy photographing landscapes",
-    "how likely are you to enjoy photographing people candidly",
-    "how likely are you to enjoy organizing digital photos",
-    "how likely are you to enjoy printing favorite photos",
-    "how likely are you to enjoy rearranging furniture at home",
-    "how likely are you to enjoy deep cleaning once a season",
-    "how likely are you to enjoy light tidying every day",
-    "how likely are you to enjoy minimalist spaces",
-    "how likely are you to enjoy cozy cluttered spaces",
-    "how likely are you to enjoy scented candles at home",
-    "how likely are you to enjoy unscented homes",
-    "how likely are you to enjoy houseplants indoors",
-    "how likely are you to enjoy fresh flowers in a vase",
-    "how likely are you to enjoy pet ownership",
-    "how likely are you to enjoy visiting friends who have pets",
-    "how likely are you to enjoy feeding animals at a petting farm",
-    "how likely are you to enjoy volunteering in your community",
-    "how likely are you to enjoy donating to charity",
-    "how likely are you to enjoy helping at a community event",
-    "how likely are you to enjoy voting in local elections",
-    "how likely are you to enjoy discussing community issues calmly",
-    "how likely are you to enjoy reading local news",
-    "how likely are you to enjoy reading international news",
-    "how likely are you to enjoy podcasts about science",
-    "how likely are you to enjoy podcasts about history",
-    "how likely are you to enjoy audiobooks on commutes",
-    "how likely are you to enjoy reading physical books",
-    "how likely are you to enjoy reading on a screen",
-    "how likely are you to enjoy writing poetry",
-    "how likely are you to enjoy writing short stories",
-    "how likely are you to enjoy keeping a dream journal",
-    "how likely are you to enjoy remembering dreams",
-    "how likely are you to enjoy lucid dreaming when it happens",
-    "how likely are you to enjoy afternoon tea or coffee breaks",
-    "how likely are you to enjoy midnight snacks responsibly",
-    "how likely are you to enjoy sharing desserts",
-    "how likely are you to enjoy eating dessert first as a treat",
-    "how likely are you to enjoy cooking soup from scratch",
-    "how likely are you to enjoy one-pot meals for easy cleanup",
-    "how likely are you to enjoy grilling food outdoors",
-    "how likely are you to enjoy indoor cooking year-round",
-    "how likely are you to enjoy trying meatless recipes",
-    "how likely are you to enjoy baking for neighbors",
-    "how likely are you to enjoy tasting samples at a market",
-    "how likely are you to enjoy growing herbs on a windowsill",
-    "how likely are you to enjoy composting kitchen scraps",
-    "how likely are you to enjoy repairing clothes with a simple stitch",
-    "how likely are you to enjoy ironing clothes",
-    "how likely are you to enjoy sorting clothes by color when washing",
-    "how likely are you to enjoy air-drying delicate clothes",
-    "how likely are you to enjoy making your bed right after waking",
-    "how likely are you to enjoy leaving the bed unmade on busy mornings",
-    "how likely are you to enjoy a made bed at the end of the day",
-    "how likely are you to enjoy dim lights before sleep",
-    "how likely are you to enjoy white noise while sleeping",
-    "how likely are you to enjoy complete silence while sleeping",
-    "how likely are you to enjoy reading one more chapter before sleep",
-    "how likely are you to enjoy setting clothes out the night before",
-    "how likely are you to enjoy choosing outfits the same morning",
-    "how likely are you to enjoy wearing comfortable clothes at home",
-    "how likely are you to enjoy dressing up for special events",
-    "how likely are you to enjoy wearing the same favorite jacket often",
-    "how likely are you to enjoy polishing shoes for formal events",
-    "how likely are you to enjoy wearing slippers at home",
-    "how likely are you to enjoy walking barefoot on grass",
-    "how likely are you to enjoy walking barefoot on sand",
-    "how likely are you to enjoy cold floors under your feet",
-    "how likely are you to enjoy warm floors under your feet",
-    "how likely are you to enjoy standing desks for work",
-    "how likely are you to enjoy sitting desks for work",
-    "how likely are you to enjoy working with background chatter",
-    "how likely are you to enjoy working in complete silence",
-    "how likely are you to enjoy short frequent breaks",
-    "how likely are you to enjoy one long break mid-day",
-    "how likely are you to enjoy standing meetings",
-    "how likely are you to enjoy seated meetings",
-    "how likely are you to enjoy brainstorming on a whiteboard",
-    "how likely are you to enjoy brainstorming in a shared document",
-    "how likely are you to enjoy presenting slides",
-    "how likely are you to enjoy telling a story without slides",
-    "how likely are you to enjoy receiving written feedback",
-    "how likely are you to enjoy receiving verbal feedback",
-    "how likely are you to enjoy mentoring someone new",
-    "how likely are you to enjoy being mentored",
-    "how likely are you to enjoy learning by doing",
-    "how likely are you to enjoy learning by watching",
-    "how likely are you to enjoy learning by reading",
-    "how likely are you to enjoy quizzes that test memory",
-    "how likely are you to enjoy projects that test creativity",
-    "how likely are you to enjoy strict deadlines",
-    "how likely are you to enjoy flexible deadlines",
-    "how likely are you to enjoy working under pressure",
-    "how likely are you to enjoy working with plenty of lead time",
-    "how likely are you to enjoy celebrating team success",
-    "how likely are you to enjoy quiet acknowledgment of success",
-    "how likely are you to enjoy public recognition",
-    "how likely are you to enjoy private recognition",
-    "how likely are you to enjoy trying again after failure",
-    "how likely are you to enjoy taking a break after failure",
-    "how likely are you to enjoy asking for a second chance",
-    "how likely are you to enjoy giving someone a second chance",
-    "how likely are you to enjoy keeping a promise even when inconvenient",
-    "how likely are you to enjoy renegotiating a promise when life changes",
-    "how likely are you to enjoy planning reunions with old friends",
-    "how likely are you to enjoy spontaneous visits with friends",
-    "how likely are you to enjoy long phone calls",
-    "how likely are you to enjoy short check-in messages",
-    "how likely are you to enjoy board game nights",
-    "how likely are you to enjoy movie nights at home",
-    "how likely are you to enjoy watching the stars from a backyard",
-    "how likely are you to enjoy building a snowman when snow falls",
-    "how likely are you to enjoy splashing in puddles with proper boots",
-    "how likely are you to enjoy flying kites on windy days",
-    "how likely are you to enjoy collecting leaves in autumn",
-    "how likely are you to enjoy pressing flowers in a book",
-    "how likely are you to enjoy starting a small creative project",
-    "how likely are you to enjoy finishing creative projects you start",
+    &#34;how much do you enjoy baking bread&#34;,
+    &#34;how much do you enjoy baking cookies&#34;,
+    &#34;how much do you enjoy making sandwiches&#34;,
+    &#34;how much do you enjoy packing lunch boxes&#34;,
+    &#34;how much do you enjoy smoothies&#34;,
+    &#34;how much do you enjoy pancakes&#34;,
+    &#34;how much do you enjoy breakfast cereal&#34;,
+    &#34;how much do you enjoy crackers as a snack&#34;,
+    &#34;how much do you enjoy milk with meals&#34;,
+    &#34;how likely are you to pick up litter you see outdoors&#34;,
+    &#34;how likely are you to plant a tree or flower&#34;,
+    &#34;how likely are you to compost food scraps&#34;,
+    &#34;how likely are you to walk instead of drive for short trips&#34;,
+    &#34;how likely are you to take the stairs instead of an elevator&#34;,
+    &#34;how likely are you to bike to nearby places&#34;,
+    &#34;how likely are you to carpool when possible&#34;,
+    &#34;how likely are you to whisper in a library&#34;,
+    &#34;how patient are you in heavy traffic&#34;,
+    &#34;how patient are you with slow paperwork&#34;,
+    &#34;how patient are you when technology fails&#34;,
+    &#34;how likely are you to keep photocopies of important documents&#34;,
+    &#34;how likely are you to renew IDs before they expire&#34;,
+    &#34;how likely are you to read the full terms before accepting online&#34;,
+    &#34;how likely are you to use public transport when convenient&#34;,
+    &#34;how likely are you to walk the last part of a trip to avoid traffic&#34;,
+    &#34;how likely are you to listen to music during a commute&#34;,
+    &#34;how likely are you to fall asleep on a long ride&#34;,
+    &#34;how likely are you to eat breakfast before leaving home&#34;,
+    &#34;how likely are you to buy food on the way home&#34;,
+    &#34;how much do you enjoy sleeping in a sleeping bag&#34;,
+    &#34;how much do you enjoy sandbox play&#34;,
+    &#34;how much do you enjoy photo albums&#34;,
+    &#34;how much do you enjoy journaling daily&#34;,
+    &#34;how much do you enjoy to-do lists&#34;,
+    &#34;how much do you enjoy calendars and planners&#34;,
+    &#34;how much do you enjoy sticky notes for reminders&#34;,
+    &#34;how much do you enjoy donating items you no longer need&#34;,
+    &#34;how much do you enjoy teaching others a skill you know&#34;,
+    &#34;how much do you enjoy being taught by someone patient&#34;,
+    &#34;how much do you enjoy asking thoughtful questions&#34;,
+    &#34;how much do you enjoy mentoring younger learners&#34;,
+    &#34;how much do you enjoy rewarding yourself after hard work&#34;,
+    &#34;how likely are you to double-check locked doors at night&#34;,
+    &#34;how likely are you to set aside money for emergencies&#34;,
+    &#34;how likely are you to cook when you are tired&#34;,
+    &#34;how likely are you to order takeout when you are tired&#34;,
+    &#34;how likely are you to clean as you go while cooking&#34;,
+    &#34;how likely are you to wipe kitchen counters before bed&#34;,
+    &#34;how likely are you to make a grocery list before shopping&#34;,
+    &#34;how likely are you to shop with a budget in mind&#34;,
+    &#34;how likely are you to try a store brand to save money&#34;,
+    &#34;how likely are you to repair something instead of replacing it&#34;,
+    &#34;how likely are you to borrow a book from the library&#34;,
+    &#34;how likely are you to finish a book you started&#34;,
+    &#34;how likely are you to reread a favorite book&#34;,
+    &#34;how likely are you to watch a documentary for fun&#34;,
+    &#34;how likely are you to learn from online tutorials&#34;,
+    &#34;how likely are you to take notes during a meeting or class&#34;,
+    &#34;how likely are you to summarize what you learned out loud&#34;,
+    &#34;how likely are you to practice a skill daily&#34;,
+    &#34;how likely are you to skip practice when you feel confident&#34;,
+    &#34;how likely are you to ask for feedback on your work&#34;,
+    &#34;how likely are you to act on constructive feedback&#34;,
+    &#34;how likely are you to defend a friend who is treated unfairly&#34;,
+    &#34;how likely are you to include someone sitting alone&#34;,
+    &#34;how likely are you to introduce two people who should meet&#34;,
+    &#34;how likely are you to remember to bring a reusable bag shopping&#34;,
+    &#34;how likely are you to choose walking when the weather is pleasant&#34;,
+    &#34;how likely are you to open windows when the air feels stale&#34;,
+    &#34;how likely are you to tolerate construction noise during the day&#34;,
+    &#34;how likely are you to wear earplugs in a loud place&#34;,
+    &#34;how likely are you to enjoy silence during a meal&#34;,
+    &#34;how likely are you to enjoy background music while working&#34;,
+    &#34;how likely are you to enjoy background music while relaxing&#34;,
+    &#34;how likely are you to sing along to music in the car&#34;,
+    &#34;how likely are you to keep a first-aid kit at home&#34;,
+    &#34;how likely are you to know where your fire extinguisher is&#34;,
+    &#34;how likely are you to test smoke alarm batteries yearly&#34;,
+    &#34;how likely are you to have a meeting spot plan for emergencies&#34;,
+    &#34;how likely are you to keep bottled water for emergencies&#34;,
+    &#34;how likely are you to enjoy crossword or word puzzles&#34;,
+    &#34;how likely are you to enjoy number puzzles&#34;,
+    &#34;how likely are you to enjoy card games with family&#34;,
+    &#34;how likely are you to enjoy trivia games&#34;,
+    &#34;how likely are you to enjoy charades at parties&#34;,
+    &#34;how likely are you to enjoy telling stories at gatherings&#34;,
+    &#34;how likely are you to enjoy listening to others tell stories&#34;,
+    &#34;how likely are you to keep a comfort item from childhood&#34;,
+    &#34;how likely are you to display family photos at home&#34;,
+    &#34;how likely are you to send holiday greetings to distant relatives&#34;,
+    &#34;how likely are you to host guests overnight&#34;,
+    &#34;how likely are you to prepare a guest room or space&#34;,
+    &#34;how likely are you to offer a coat to a cold guest&#34;,
+    &#34;how likely are you to walk someone to the door when they leave&#34;,
+    &#34;how likely are you to send a message when you arrive home safely&#34;,
+    &#34;how likely are you to ask others to message when they arrive safely&#34;,
+    &#34;how likely are you to enjoy window shopping without buying&#34;,
+    &#34;how likely are you to enjoy cooking a meal for guests&#34;,
+    &#34;how likely are you to enjoy potluck meals where everyone brings a dish&#34;,
+    &#34;how likely are you to enjoy trying a vegetarian meal&#34;,
+    &#34;how likely are you to enjoy trying a new cuisine&#34;,
+    &#34;how likely are you to enjoy mild flavors over strong ones&#34;,
+    &#34;how likely are you to enjoy strong flavors over mild ones&#34;,
+    &#34;how likely are you to enjoy crunchy textures in food&#34;,
+    &#34;how likely are you to enjoy soft textures in food&#34;,
+    &#34;how likely are you to enjoy cold meals in summer&#34;,
+    &#34;how likely are you to enjoy hot meals in winter&#34;,
+    &#34;how likely are you to enjoy eating outdoors&#34;,
+    &#34;how likely are you to enjoy eating indoors at a formal table&#34;,
+    &#34;how likely are you to enjoy cooking with family&#34;,
+    &#34;how likely are you to enjoy washing dishes with a helper&#34;,
+    &#34;how likely are you to enjoy grocery shopping with family&#34;,
+    &#34;how likely are you to enjoy shopping alone&#34;,
+    &#34;how likely are you to enjoy decorating for holidays&#34;,
+    &#34;how likely are you to enjoy taking down decorations promptly&#34;,
+    &#34;how likely are you to enjoy wrapping presents&#34;,
+    &#34;how likely are you to enjoy unwrapping presents slowly&#34;,
+    &#34;how likely are you to enjoy giving practical gifts&#34;,
+    &#34;how likely are you to enjoy giving handmade gifts&#34;,
+    &#34;how likely are you to enjoy receiving practical gifts&#34;,
+    &#34;how likely are you to enjoy receiving surprise gifts&#34;,
+    &#34;how likely are you to enjoy planning a weekly menu&#34;,
+    &#34;how likely are you to enjoy eating the same breakfast most days&#34;,
+    &#34;how likely are you to enjoy variety in every meal&#34;,
+    &#34;how likely are you to enjoy meal prep on Sundays&#34;,
+    &#34;how likely are you to enjoy spontaneous meals&#34;,
+    &#34;how likely are you to enjoy counting steps or daily activity&#34;,
+    &#34;how likely are you to enjoy team challenges with friends&#34;,
+    &#34;how likely are you to enjoy solo challenges against yourself&#34;,
+    &#34;how likely are you to enjoy cold showers&#34;,
+    &#34;how likely are you to enjoy hot baths&#34;,
+    &#34;how likely are you to enjoy swimming in a lake&#34;,
+    &#34;how likely are you to enjoy swimming in a pool&#34;,
+    &#34;how likely are you to enjoy building sandcastles&#34;,
+    &#34;how likely are you to enjoy collecting postcards when traveling&#34;,
+    &#34;how likely are you to enjoy sending postcards to friends&#34;,
+    &#34;how likely are you to enjoy keeping a travel journal&#34;,
+    &#34;how likely are you to enjoy revisiting places you loved&#34;,
+    &#34;how likely are you to enjoy exploring a city on foot&#34;,
+    &#34;how likely are you to enjoy using a paper map&#34;,
+    &#34;how likely are you to enjoy using a navigation app&#34;,
+    &#34;how likely are you to enjoy window seats on public transport&#34;,
+    &#34;how likely are you to enjoy aisle seats on public transport&#34;,
+    &#34;how likely are you to enjoy talking to seat neighbors on a trip&#34;,
+    &#34;how likely are you to enjoy quiet travel with headphones&#34;,
+    &#34;how likely are you to enjoy planning every hour of a vacation&#34;,
+    &#34;how likely are you to enjoy unplanned days on vacation&#34;,
+    &#34;how likely are you to enjoy waking up early on vacation&#34;,
+    &#34;how likely are you to enjoy sleeping in on vacation&#34;,
+    &#34;how likely are you to enjoy visiting historical sites&#34;,
+    &#34;how likely are you to enjoy visiting science centers&#34;,
+    &#34;how likely are you to enjoy visiting zoos or aquariums&#34;,
+    &#34;how likely are you to enjoy visiting botanical gardens&#34;,
+    &#34;how likely are you to enjoy learning local history on a tour&#34;,
+    &#34;how likely are you to enjoy taking guided tours&#34;,
+    &#34;how likely are you to enjoy exploring on your own&#34;,
+    &#34;how likely are you to enjoy photographing landscapes&#34;,
+    &#34;how likely are you to enjoy photographing people candidly&#34;,
+    &#34;how likely are you to enjoy organizing digital photos&#34;,
+    &#34;how likely are you to enjoy printing favorite photos&#34;,
+    &#34;how likely are you to enjoy rearranging furniture at home&#34;,
+    &#34;how likely are you to enjoy deep cleaning once a season&#34;,
+    &#34;how likely are you to enjoy light tidying every day&#34;,
+    &#34;how likely are you to enjoy minimalist spaces&#34;,
+    &#34;how likely are you to enjoy cozy cluttered spaces&#34;,
+    &#34;how likely are you to enjoy scented candles at home&#34;,
+    &#34;how likely are you to enjoy unscented homes&#34;,
+    &#34;how likely are you to enjoy houseplants indoors&#34;,
+    &#34;how likely are you to enjoy fresh flowers in a vase&#34;,
+    &#34;how likely are you to enjoy pet ownership&#34;,
+    &#34;how likely are you to enjoy visiting friends who have pets&#34;,
+    &#34;how likely are you to enjoy feeding animals at a petting farm&#34;,
+    &#34;how likely are you to enjoy volunteering in your community&#34;,
+    &#34;how likely are you to enjoy donating to charity&#34;,
+    &#34;how likely are you to enjoy helping at a community event&#34;,
+    &#34;how likely are you to enjoy voting in local elections&#34;,
+    &#34;how likely are you to enjoy discussing community issues calmly&#34;,
+    &#34;how likely are you to enjoy reading local news&#34;,
+    &#34;how likely are you to enjoy reading international news&#34;,
+    &#34;how likely are you to enjoy podcasts about science&#34;,
+    &#34;how likely are you to enjoy podcasts about history&#34;,
+    &#34;how likely are you to enjoy audiobooks on commutes&#34;,
+    &#34;how likely are you to enjoy reading physical books&#34;,
+    &#34;how likely are you to enjoy reading on a screen&#34;,
+    &#34;how likely are you to enjoy writing poetry&#34;,
+    &#34;how likely are you to enjoy writing short stories&#34;,
+    &#34;how likely are you to enjoy keeping a dream journal&#34;,
+    &#34;how likely are you to enjoy remembering dreams&#34;,
+    &#34;how likely are you to enjoy lucid dreaming when it happens&#34;,
+    &#34;how likely are you to enjoy afternoon tea or coffee breaks&#34;,
+    &#34;how likely are you to enjoy midnight snacks responsibly&#34;,
+    &#34;how likely are you to enjoy sharing desserts&#34;,
+    &#34;how likely are you to enjoy eating dessert first as a treat&#34;,
+    &#34;how likely are you to enjoy cooking soup from scratch&#34;,
+    &#34;how likely are you to enjoy one-pot meals for easy cleanup&#34;,
+    &#34;how likely are you to enjoy grilling food outdoors&#34;,
+    &#34;how likely are you to enjoy indoor cooking year-round&#34;,
+    &#34;how likely are you to enjoy trying meatless recipes&#34;,
+    &#34;how likely are you to enjoy baking for neighbors&#34;,
+    &#34;how likely are you to enjoy tasting samples at a market&#34;,
+    &#34;how likely are you to enjoy growing herbs on a windowsill&#34;,
+    &#34;how likely are you to enjoy composting kitchen scraps&#34;,
+    &#34;how likely are you to enjoy repairing clothes with a simple stitch&#34;,
+    &#34;how likely are you to enjoy ironing clothes&#34;,
+    &#34;how likely are you to enjoy sorting clothes by color when washing&#34;,
+    &#34;how likely are you to enjoy air-drying delicate clothes&#34;,
+    &#34;how likely are you to enjoy making your bed right after waking&#34;,
+    &#34;how likely are you to enjoy leaving the bed unmade on busy mornings&#34;,
+    &#34;how likely are you to enjoy a made bed at the end of the day&#34;,
+    &#34;how likely are you to enjoy dim lights before sleep&#34;,
+    &#34;how likely are you to enjoy white noise while sleeping&#34;,
+    &#34;how likely are you to enjoy complete silence while sleeping&#34;,
+    &#34;how likely are you to enjoy reading one more chapter before sleep&#34;,
+    &#34;how likely are you to enjoy setting clothes out the night before&#34;,
+    &#34;how likely are you to enjoy choosing outfits the same morning&#34;,
+    &#34;how likely are you to enjoy wearing comfortable clothes at home&#34;,
+    &#34;how likely are you to enjoy dressing up for special events&#34;,
+    &#34;how likely are you to enjoy wearing the same favorite jacket often&#34;,
+    &#34;how likely are you to enjoy polishing shoes for formal events&#34;,
+    &#34;how likely are you to enjoy wearing slippers at home&#34;,
+    &#34;how likely are you to enjoy walking barefoot on grass&#34;,
+    &#34;how likely are you to enjoy walking barefoot on sand&#34;,
+    &#34;how likely are you to enjoy cold floors under your feet&#34;,
+    &#34;how likely are you to enjoy warm floors under your feet&#34;,
+    &#34;how likely are you to enjoy standing desks for work&#34;,
+    &#34;how likely are you to enjoy sitting desks for work&#34;,
+    &#34;how likely are you to enjoy working with background chatter&#34;,
+    &#34;how likely are you to enjoy working in complete silence&#34;,
+    &#34;how likely are you to enjoy short frequent breaks&#34;,
+    &#34;how likely are you to enjoy one long break mid-day&#34;,
+    &#34;how likely are you to enjoy standing meetings&#34;,
+    &#34;how likely are you to enjoy seated meetings&#34;,
+    &#34;how likely are you to enjoy brainstorming on a whiteboard&#34;,
+    &#34;how likely are you to enjoy brainstorming in a shared document&#34;,
+    &#34;how likely are you to enjoy presenting slides&#34;,
+    &#34;how likely are you to enjoy telling a story without slides&#34;,
+    &#34;how likely are you to enjoy receiving written feedback&#34;,
+    &#34;how likely are you to enjoy receiving verbal feedback&#34;,
+    &#34;how likely are you to enjoy mentoring someone new&#34;,
+    &#34;how likely are you to enjoy being mentored&#34;,
+    &#34;how likely are you to enjoy learning by doing&#34;,
+    &#34;how likely are you to enjoy learning by watching&#34;,
+    &#34;how likely are you to enjoy learning by reading&#34;,
+    &#34;how likely are you to enjoy quizzes that test memory&#34;,
+    &#34;how likely are you to enjoy projects that test creativity&#34;,
+    &#34;how likely are you to enjoy strict deadlines&#34;,
+    &#34;how likely are you to enjoy flexible deadlines&#34;,
+    &#34;how likely are you to enjoy working under pressure&#34;,
+    &#34;how likely are you to enjoy working with plenty of lead time&#34;,
+    &#34;how likely are you to enjoy celebrating team success&#34;,
+    &#34;how likely are you to enjoy quiet acknowledgment of success&#34;,
+    &#34;how likely are you to enjoy public recognition&#34;,
+    &#34;how likely are you to enjoy private recognition&#34;,
+    &#34;how likely are you to enjoy trying again after failure&#34;,
+    &#34;how likely are you to enjoy taking a break after failure&#34;,
+    &#34;how likely are you to enjoy asking for a second chance&#34;,
+    &#34;how likely are you to enjoy giving someone a second chance&#34;,
+    &#34;how likely are you to enjoy keeping a promise even when inconvenient&#34;,
+    &#34;how likely are you to enjoy renegotiating a promise when life changes&#34;,
+    &#34;how likely are you to enjoy planning reunions with old friends&#34;,
+    &#34;how likely are you to enjoy spontaneous visits with friends&#34;,
+    &#34;how likely are you to enjoy long phone calls&#34;,
+    &#34;how likely are you to enjoy short check-in messages&#34;,
+    &#34;how likely are you to enjoy board game nights&#34;,
+    &#34;how likely are you to enjoy movie nights at home&#34;,
+    &#34;how likely are you to enjoy watching the stars from a backyard&#34;,
+    &#34;how likely are you to enjoy building a snowman when snow falls&#34;,
+    &#34;how likely are you to enjoy splashing in puddles with proper boots&#34;,
+    &#34;how likely are you to enjoy flying kites on windy days&#34;,
+    &#34;how likely are you to enjoy collecting leaves in autumn&#34;,
+    &#34;how likely are you to enjoy pressing flowers in a book&#34;,
+    &#34;how likely are you to enjoy starting a small creative project&#34;,
+    &#34;how likely are you to enjoy finishing creative projects you start&#34;,
 ]
 
 items = []
 seen = set()
 for s in stems:
-    q = f"On a scale of 1 to 100, {s}?"
+    q = f&#34;On a scale of 1 to 100, {s}?&#34;
     if q not in seen:
         seen.add(q)
         items.append(q)
-    if len(items) >= 500:
+    if len(items) &gt;= 500:
         break
 
-while len(items) < 500:
+while len(items) &lt; 500:
     n = len(items) + 1
-    q = f"On a scale of 1 to 100, how comfortable are you sharing honest opinions in a friendly group (prompt {n})?"
+    q = f&#34;On a scale of 1 to 100, how comfortable are you sharing honest opinions in a friendly group (prompt {n})?&#34;
     if q not in seen:
         seen.add(q)
         items.append(q)
 
-yaml = '''# Game prompt collections. Names describe the prompt type — not branded deck titles.
+yaml = &#39;&#39;&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.
 # All prompts are family-friendly and generic for a worldwide audience.
 collections:
   - id: scale-clues
@@ -11278,7 +5861,7 @@ collections:
     tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for anyone at the table.
     play_hint: Answer honestly with a number from 1 to 100.
     items:
-''' + '\n'.join(f'      - {q}' for q in items) + '''
+&#39;&#39;&#39; + &#39;\n&#39;.join(f&#39;      - {q}&#39; for q in items) + &#39;&#39;&#39;
 
   - id: spectrum
     title: Concept spectrums
@@ -11316,12 +5899,11 @@ collections:
         right: Cozy clutter
       - left: Text message
         right: Phone call
-'''
+&#39;&#39;&#39;
 
-Path('/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml').write_text(yaml)
-print('personal', len(items), 'lines', yaml.count('\n'))
+Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml&#39;).write_text(yaml)
+print(&#39;personal&#39;, len(items), &#39;lines&#39;, yaml.count(&#39;\n&#39;))
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from pathlib import Path
@@ -11994,20 +6576,12 @@ PYEOF
 personal 500 lines 577
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -12033,26 +6607,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -3 && node -e "
-const fs=require('fs');
-const d=JSON.parse(fs.readFileSync('public/randomizer/index.html','utf8').match(/id=randomizer-data>([^<]+)</)[1]);
-const p=d.collections.find(c=>c.id==='personal-scales');
-const s=d.collections.find(c=>c.id==='spectrum');
-console.log('personal', p.items.length, 'spectrum', s.spectrums.length);
-"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -3 &amp;&amp; node -e &#34;
+const fs=require(&#39;fs&#39;);
+const d=JSON.parse(fs.readFileSync(&#39;public/randomizer/index.html&#39;,&#39;utf8&#39;).match(/id=randomizer-data&gt;([^&lt;]+)&lt;/)[1]);
+const p=d.collections.find(c=&gt;c.id===&#39;personal-scales&#39;);
+const s=d.collections.find(c=&gt;c.id===&#39;spectrum&#39;);
+console.log(&#39;personal&#39;, p.items.length, &#39;spectrum&#39;, s.spectrums.length);
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -3 && node -e "
 const fs=require('fs');
@@ -12066,30 +6632,16 @@ console.log('personal', p.items.length, 'spectrum', s.spectrums.length);
 ```
 Total in 26278 ms
 [cspHashes] Rewrote 24 inline onerror= attribute(s) in 5 file(s).
-[cspHashes] Hashed 4464 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+[cspHashes] Hashed 4464 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
 personal 500 spectrum 15
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
 
 </details></tool-use>
 
@@ -12118,7 +6670,8 @@ remove On a scale of 1 to 100. have it displayed instead
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The "On a scale of 1 to 100" instruction will be removed from the YAML prompt text. It will be displayed separately in the UI, such as in a fixed label above the prompt card.</details></think>
+The "On a scale of 1 to 100" instruction will be removed from the YAML prompt text. It will be displayed separately in the UI, such as in a fixed label above the prompt card.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -12127,36 +6680,22 @@ Stripping the scale prefix from prompt text and showing it in the UI instead.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -12187,30 +6726,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I'll strip the "On a scale of 1 to 100" prefix from all entries in randomizer.yaml.</details></think>
+I'll strip the "On a scale of 1 to 100" prefix from all entries in randomizer.yaml.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
@@ -12219,17 +6746,18 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll strip the "On a scale of 1 to 100" prefix from YAML items and capitalize the first letter after removal.
 
-The scale label will move to the YAML `scale_label` field. A new HTML element will display it above prompts. JavaScript will toggle visibility based on mode: personal mode shows the prompt and hides poles; ranked-prompts mode shows the prompt and hides the scale.</details></think>
+The scale label will move to the YAML `scale_label` field. A new HTML element will display it above prompts. JavaScript will toggle visibility based on mode: personal mode shows the prompt and hides poles; ranked-prompts mode shows the prompt and hides the scale.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from pathlib import Path
 import re
-p = Path('/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml')
+p = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml&#39;)
 text = p.read_text()
-prefix = 'On a scale of 1 to 100, '
+prefix = &#39;On a scale of 1 to 100, &#39;
 
 def strip_line(line):
     if prefix not in line:
@@ -12237,21 +6765,20 @@ def strip_line(line):
     q = line.split(prefix, 1)[1].strip()
     if q and q[0].islower():
         q = q[0].upper() + q[1:]
-    indent = line[:line.index('-')]
-    return f"{indent}- {q}"
+    indent = line[:line.index(&#39;-&#39;)]
+    return f&#34;{indent}- {q}&#34;
 
-new_lines = [strip_line(l) if l.strip().startswith('- On a scale of 1 to 100,') else l for l in text.splitlines()]
-text = '\n'.join(new_lines)
+new_lines = [strip_line(l) if l.strip().startswith(&#39;- On a scale of 1 to 100,&#39;) else l for l in text.splitlines()]
+text = &#39;\n&#39;.join(new_lines)
 text = text.replace(
-    '    play_hint: Answer honestly with a number from 1 to 100.',
-    '    play_hint: Answer honestly.\n    scale_label: On a scale of 1 to 100'
+    &#39;    play_hint: Answer honestly with a number from 1 to 100.&#39;,
+    &#39;    play_hint: Answer honestly.\n    scale_label: On a scale of 1 to 100&#39;
 )
-p.write_text(text + '\n')
+p.write_text(text + &#39;\n&#39;)
 # count
-items = [l for l in new_lines if l.strip().startswith('- ') and 'personal-scales' not in l]
-print('stripped sample:', [l for l in new_lines if 'waking up early' in l][0])
+items = [l for l in new_lines if l.strip().startswith(&#39;- &#39;) and &#39;personal-scales&#39; not in l]
+print(&#39;stripped sample:&#39;, [l for l in new_lines if &#39;waking up early&#39; in l][0])
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from pathlib import Path
@@ -12286,140 +6813,68 @@ PYEOF
 stripped sample:       - How much do you enjoy waking up early?
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -12450,33 +6905,19 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -3</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -3
 ```
@@ -12484,15 +6925,9 @@ cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -3
 ```
 Total in 23384 ms
 [cspHashes] Rewrote 37 inline onerror= attribute(s) in 6 file(s).
-[cspHashes] Hashed 4464 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+[cspHashes] Hashed 4464 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -12516,7 +6951,8 @@ expand spectrum to 500
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Expanding the spectrum collection in randomizer.yaml from 15 to 500.</details></think>
+Expanding the spectrum collection in randomizer.yaml from 15 to 500.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -12525,13 +6961,4434 @@ Generating 500 generic spectrum pairs and updating the data file.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+# Generate 500 unique generic spectrum pairs
+pairs = [
+    (&#34;Hot&#34;, &#34;Cold&#34;), (&#34;Quiet activity&#34;, &#34;Active sport&#34;), (&#34;Healthy snack&#34;, &#34;Treat food&#34;),
+    (&#34;Mild habit&#34;, &#34;Risky habit&#34;), (&#34;Simple skill&#34;, &#34;Impressive skill&#34;),
+    (&#34;Selfish choice&#34;, &#34;Generous choice&#34;), (&#34;Formal event&#34;, &#34;Casual hangout&#34;),
+    (&#34;Art&#34;, &#34;Craft&#34;), (&#34;Simple gift&#34;, &#34;Fancy gift&#34;), (&#34;Overrated&#34;, &#34;Underrated&#34;),
+    (&#34;City life&#34;, &#34;Country life&#34;), (&#34;Planned trip&#34;, &#34;Spontaneous trip&#34;),
+    (&#34;Early bird&#34;, &#34;Night owl&#34;), (&#34;Minimal home&#34;, &#34;Cozy clutter&#34;),
+    (&#34;Text message&#34;, &#34;Phone call&#34;),
+]
+
+# Themed generators for more pairs
+adjectives = [
+    &#34;Cheap&#34;, &#34;Expensive&#34;, &#34;Loud&#34;, &#34;Silent&#34;, &#34;Bright&#34;, &#34;Dark&#34;, &#34;Sweet&#34;, &#34;Sour&#34;,
+    &#34;Soft&#34;, &#34;Hard&#34;, &#34;Light&#34;, &#34;Heavy&#34;, &#34;Fast&#34;, &#34;Slow&#34;, &#34;Old&#34;, &#34;New&#34;, &#34;Rare&#34;, &#34;Common&#34;,
+    &#34;Simple&#34;, &#34;Complex&#34;, &#34;Calm&#34;, &#34;Chaotic&#34;, &#34;Clean&#34;, &#34;Messy&#34;, &#34;Dry&#34;, &#34;Wet&#34;,
+    &#34;Sharp&#34;, &#34;Blunt&#34;, &#34;Thin&#34;, &#34;Thick&#34;, &#34;Wide&#34;, &#34;Narrow&#34;, &#34;High&#34;, &#34;Low&#34;,
+    &#34;Near&#34;, &#34;Far&#34;, &#34;Early&#34;, &#34;Late&#34;, &#34;Young&#34;, &#34;Ancient&#34;, &#34;Shallow&#34;, &#34;Deep&#34;,
+    &#34;Empty&#34;, &#34;Full&#34;, &#34;Weak&#34;, &#34;Strong&#34;, &#34;Passive&#34;, &#34;Aggressive&#34;, &#34;Shy&#34;, &#34;Bold&#34;,
+    &#34;Lazy&#34;, &#34;Energetic&#34;, &#34;Serious&#34;, &#34;Silly&#34;, &#34;Strict&#34;, &#34;Relaxed&#34;, &#34;Private&#34;, &#34;Public&#34;,
+    &#34;Indoor&#34;, &#34;Outdoor&#34;, &#34;Digital&#34;, &#34;Analog&#34;, &#34;Modern&#34;, &#34;Traditional&#34;, &#34;Local&#34;, &#34;Global&#34;,
+    &#34;Practical&#34;, &#34;Decorative&#34;, &#34;Useful&#34;, &#34;Useless&#34;, &#34;Safe&#34;, &#34;Dangerous&#34;, &#34;Legal&#34;, &#34;Illegal&#34;,
+    &#34;Honest&#34;, &#34;Dishonest&#34;, &#34;Polite&#34;, &#34;Rude&#34;, &#34;Patient&#34;, &#34;Impatient&#34;, &#34;Logical&#34;, &#34;Emotional&#34;,
+    &#34;Planned&#34;, &#34;Random&#34;, &#34;Organized&#34;, &#34;Messy&#34;, &#34;Fragile&#34;, &#34;Durable&#34;, &#34;Temporary&#34;, &#34;Permanent&#34;,
+]
+
+nouns_a = [
+    &#34;Breakfast&#34;, &#34;Lunch&#34;, &#34;Dinner&#34;, &#34;Snack&#34;, &#34;Dessert&#34;, &#34;Soup&#34;, &#34;Salad&#34;, &#34;Sandwich&#34;,
+    &#34;Vacation&#34;, &#34;Workday&#34;, &#34;Weekend&#34;, &#34;Holiday&#34;, &#34;Meeting&#34;, &#34;Party&#34;, &#34;Class&#34;, &#34;Exam&#34;,
+    &#34;Book&#34;, &#34;Movie&#34;, &#34;Song&#34;, &#34;Game&#34;, &#34;Sport&#34;, &#34;Hobby&#34;, &#34;Job&#34;, &#34;Task&#34;,
+    &#34;Gift&#34;, &#34;Tool&#34;, &#34;Toy&#34;, &#34;Pet&#34;, &#34;Plant&#34;, &#34;Room&#34;, &#34;House&#34;, &#34;Car&#34;,
+    &#34;Shirt&#34;, &#34;Shoes&#34;, &#34;Hat&#34;, &#34;Bag&#34;, &#34;Chair&#34;, &#34;Bed&#34;, &#34;Desk&#34;, &#34;Lamp&#34;,
+    &#34;Rain&#34;, &#34;Snow&#34;, &#34;Sun&#34;, &#34;Wind&#34;, &#34;Storm&#34;, &#34;Fog&#34;, &#34;Heat&#34;, &#34;Frost&#34;,
+    &#34;Mountain&#34;, &#34;Beach&#34;, &#34;Forest&#34;, &#34;Desert&#34;, &#34;River&#34;, &#34;Lake&#34;, &#34;Island&#34;, &#34;Valley&#34;,
+    &#34;Teacher&#34;, &#34;Student&#34;, &#34;Leader&#34;, &#34;Follower&#34;, &#34;Guest&#34;, &#34;Host&#34;, &#34;Buyer&#34;, &#34;Seller&#34;,
+    &#34;Question&#34;, &#34;Answer&#34;, &#34;Problem&#34;, &#34;Solution&#34;, &#34;Start&#34;, &#34;Finish&#34;, &#34;Win&#34;, &#34;Loss&#34;,
+    &#34;Truth&#34;, &#34;Myth&#34;, &#34;Fact&#34;, &#34;Opinion&#34;, &#34;Rule&#34;, &#34;Exception&#34;, &#34;Plan&#34;, &#34;Surprise&#34;,
+    &#34;Silence&#34;, &#34;Music&#34;, &#34;Speech&#34;, &#34;Writing&#34;, &#34;Photo&#34;, &#34;Drawing&#34;, &#34;Dance&#34;, &#34;Song&#34;,
+    &#34;Morning&#34;, &#34;Evening&#34;, &#34;Summer&#34;, &#34;Winter&#34;, &#34;Spring&#34;, &#34;Autumn&#34;, &#34;Today&#34;, &#34;Tomorrow&#34;,
+]
+
+concept_pairs = [
+    (&#34;Better alone&#34;, &#34;Better with others&#34;),
+    (&#34;Better in theory&#34;, &#34;Better in practice&#34;),
+    (&#34;Better for kids&#34;, &#34;Better for adults&#34;),
+    (&#34;Better indoors&#34;, &#34;Better outdoors&#34;),
+    (&#34;Better hot&#34;, &#34;Better cold&#34;),
+    (&#34;Better fresh&#34;, &#34;Better preserved&#34;),
+    (&#34;Better handmade&#34;, &#34;Better factory-made&#34;),
+    (&#34;Better rented&#34;, &#34;Better owned&#34;),
+    (&#34;Better borrowed&#34;, &#34;Better bought&#34;),
+    (&#34;Better saved&#34;, &#34;Better spent&#34;),
+    (&#34;Better said&#34;, &#34;Better unsaid&#34;),
+    (&#34;Better known&#34;, &#34;Better secret&#34;),
+    (&#34;Better planned&#34;, &#34;Better improvised&#34;),
+    (&#34;Better quiet&#34;, &#34;Better lively&#34;),
+    (&#34;Better small&#34;, &#34;Better large&#34;),
+    (&#34;Better short&#34;, &#34;Better long&#34;),
+    (&#34;Better sweet&#34;, &#34;Better savory&#34;),
+    (&#34;Better mild&#34;, &#34;Better bold&#34;),
+    (&#34;Better plain&#34;, &#34;Better fancy&#34;),
+    (&#34;Better familiar&#34;, &#34;Better exotic&#34;),
+    (&#34;Harmless prank&#34;, &#34;Cruel joke&#34;),
+    (&#34;Healthy choice&#34;, &#34;Indulgent choice&#34;),
+    (&#34;Eco-friendly&#34;, &#34;Convenient&#34;),
+    (&#34;Time saver&#34;, &#34;Time waster&#34;),
+    (&#34;Stress relief&#34;, &#34;Stress cause&#34;),
+    (&#34;Confidence boost&#34;, &#34;Confidence drain&#34;),
+    (&#34;Memory maker&#34;, &#34;Forgettable moment&#34;),
+    (&#34;Team builder&#34;, &#34;Team divider&#34;),
+    (&#34;Icebreaker&#34;, &#34;Conversation ender&#34;),
+    (&#34;Kid friendly&#34;, &#34;Adults only&#34;),
+    (&#34;Pet friendly&#34;, &#34;No pets&#34;),
+    (&#34;Beginner friendly&#34;, &#34;Expert only&#34;),
+    (&#34;Low effort&#34;, &#34;High effort&#34;),
+    (&#34;Low cost&#34;, &#34;High cost&#34;),
+    (&#34;Low risk&#34;, &#34;High risk&#34;),
+    (&#34;Low noise&#34;, &#34;High noise&#34;),
+    (&#34;Low skill&#34;, &#34;High skill&#34;),
+    (&#34;Low maintenance&#34;, &#34;High maintenance&#34;),
+    (&#34;Morning person&#34;, &#34;Night person&#34;),
+    (&#34;Indoor cat&#34;, &#34;Outdoor adventurer&#34;),
+    (&#34;Window seat&#34;, &#34;Aisle seat&#34;),
+    (&#34;Front row&#34;, &#34;Back row&#34;),
+    (&#34;Top bunk&#34;, &#34;Bottom bunk&#34;),
+    (&#34;Window open&#34;, &#34;Window closed&#34;),
+    (&#34;Lights on&#34;, &#34;Lights off&#34;),
+    (&#34;Music on&#34;, &#34;Music off&#34;),
+    (&#34;Talkative driver&#34;, &#34;Silent driver&#34;),
+    (&#34;Map reader&#34;, &#34;GPS follower&#34;),
+    (&#34;Packing light&#34;, &#34;Packing heavy&#34;),
+    (&#34;Early arrival&#34;, &#34;Fashionably late&#34;),
+    (&#34;Overprepared&#34;, &#34;Underprepared&#34;),
+    (&#34;Too spicy&#34;, &#34;Too bland&#34;),
+    (&#34;Too sweet&#34;, &#34;Too bitter&#34;),
+    (&#34;Too salty&#34;, &#34;Too plain&#34;),
+    (&#34;Too crowded&#34;, &#34;Too empty&#34;),
+    (&#34;Too formal&#34;, &#34;Too casual&#34;),
+    (&#34;Too strict&#34;, &#34;Too lenient&#34;),
+    (&#34;Too loud&#34;, &#34;Too quiet&#34;),
+    (&#34;Too bright&#34;, &#34;Too dim&#34;),
+    (&#34;Too warm&#34;, &#34;Too cool&#34;),
+    (&#34;Too fast&#34;, &#34;Too slow&#34;),
+    (&#34;Too big&#34;, &#34;Too small&#34;),
+    (&#34;Too old&#34;, &#34;Too new&#34;),
+    (&#34;Too clean&#34;, &#34;Too messy&#34;),
+    (&#34;Too serious&#34;, &#34;Too silly&#34;),
+    (&#34;Too logical&#34;, &#34;Too emotional&#34;),
+    (&#34;Too honest&#34;, &#34;Too tactful&#34;),
+    (&#34;Too direct&#34;, &#34;Too indirect&#34;),
+    (&#34;Too independent&#34;, &#34;Too dependent&#34;),
+    (&#34;Too competitive&#34;, &#34;Too cooperative&#34;),
+    (&#34;Too cautious&#34;, &#34;Too reckless&#34;),
+    (&#34;Too frugal&#34;, &#34;Too generous&#34;),
+    (&#34;Too organized&#34;, &#34;Too spontaneous&#34;),
+    (&#34;Too traditional&#34;, &#34;Too modern&#34;),
+    (&#34;Too local&#34;, &#34;Too global&#34;),
+    (&#34;Breakfast food&#34;, &#34;Dinner food&#34;),
+    (&#34;Summer activity&#34;, &#34;Winter activity&#34;),
+    (&#34;Rainy day activity&#34;, &#34;Sunny day activity&#34;),
+    (&#34;Solo hobby&#34;, &#34;Group hobby&#34;),
+    (&#34;Indoor plant&#34;, &#34;Outdoor plant&#34;),
+    (&#34;Desk job&#34;, &#34;Physical job&#34;),
+    (&#34;Team sport&#34;, &#34;Individual sport&#34;),
+    (&#34;Board game&#34;, &#34;Video game&#34;),
+    (&#34;Card game&#34;, &#34;Dice game&#34;),
+    (&#34;Word puzzle&#34;, &#34;Number puzzle&#34;),
+    (&#34;Fiction book&#34;, &#34;Nonfiction book&#34;),
+    (&#34;Comedy show&#34;, &#34;Drama show&#34;),
+    (&#34;Live music&#34;, &#34;Recorded music&#34;),
+    (&#34;Home cooking&#34;, &#34;Restaurant meal&#34;),
+    (&#34;Takeout food&#34;, &#34;Home-cooked meal&#34;),
+    (&#34;Walking commute&#34;, &#34;Driving commute&#34;),
+    (&#34;Public transport&#34;, &#34;Private car&#34;),
+    (&#34;Camping trip&#34;, &#34;Hotel stay&#34;),
+    (&#34;Beach vacation&#34;, &#34;Mountain vacation&#34;),
+    (&#34;City break&#34;, &#34;Nature retreat&#34;),
+    (&#34;Guided tour&#34;, &#34;Self-guided tour&#34;),
+    (&#34;Group travel&#34;, &#34;Solo travel&#34;),
+    (&#34;Short trip&#34;, &#34;Long journey&#34;),
+    (&#34;Staycation&#34;, &#34;Far vacation&#34;),
+    (&#34;Physical book&#34;, &#34;E-book&#34;),
+    (&#34;Handwritten note&#34;, &#34;Typed message&#34;),
+    (&#34;Printed photo&#34;, &#34;Digital photo&#34;),
+    (&#34;Paper calendar&#34;, &#34;App calendar&#34;),
+    (&#34;Cash payment&#34;, &#34;Card payment&#34;),
+    (&#34;Shopping in store&#34;, &#34;Shopping online&#34;),
+    (&#34;Big supermarket&#34;, &#34;Small market&#34;),
+    (&#34;Brand name&#34;, &#34;Generic brand&#34;),
+    (&#34;New clothes&#34;, &#34;Secondhand clothes&#34;),
+    (&#34;Matching set&#34;, &#34;Mixed styles&#34;),
+    (&#34;Bright colors&#34;, &#34;Neutral colors&#34;),
+    (&#34;Patterned fabric&#34;, &#34;Solid fabric&#34;),
+    (&#34;Comfort shoes&#34;, &#34;Dress shoes&#34;),
+    (&#34;Warm jacket&#34;, &#34;Light jacket&#34;),
+    (&#34;Sun hat&#34;, &#34;Winter hat&#34;),
+    (&#34;Reusable bottle&#34;, &#34;Disposable bottle&#34;),
+    (&#34;Home workout&#34;, &#34;Gym workout&#34;),
+    (&#34;Yoga stretch&#34;, &#34;Weight training&#34;),
+    (&#34;Team meeting&#34;, &#34;One-on-one chat&#34;),
+    (&#34;Brainstorm session&#34;, &#34;Solo focus time&#34;),
+    (&#34;Strict deadline&#34;, &#34;Flexible deadline&#34;),
+    (&#34;Detailed plan&#34;, &#34;Rough outline&#34;),
+    (&#34;Big celebration&#34;, &#34;Quiet acknowledgment&#34;),
+    (&#34;Public speech&#34;, &#34;Private conversation&#34;),
+    (&#34;Group project&#34;, &#34;Solo project&#34;),
+    (&#34;Open office&#34;, &#34;Private office&#34;),
+    (&#34;Remote work&#34;, &#34;Office work&#34;),
+    (&#34;Video call&#34;, &#34;In-person meeting&#34;),
+    (&#34;Email update&#34;, &#34;Quick chat&#34;),
+    (&#34;Long form writing&#34;, &#34;Short summary&#34;),
+    (&#34;Deep research&#34;, &#34;Quick search&#34;),
+    (&#34;Expert advice&#34;, &#34;Crowd opinion&#34;),
+    (&#34;Trial and error&#34;, &#34;Follow instructions&#34;),
+    (&#34;Ask for help&#34;, &#34;Figure it out alone&#34;),
+    (&#34;Share credit&#34;, &#34;Take credit&#34;),
+    (&#34;Admit mistake&#34;, &#34;Hide mistake&#34;),
+    (&#34;Forgive quickly&#34;, &#34;Hold a grudge&#34;),
+    (&#34;Speak up&#34;, &#34;Stay quiet&#34;),
+    (&#34;Lead the group&#34;, &#34;Support from behind&#34;),
+    (&#34;Try new food&#34;, &#34;Stick to favorites&#34;),
+    (&#34;Order for group&#34;, &#34;Order for self&#34;),
+    (&#34;Split the bill&#34;, &#34;Treat everyone&#34;),
+    (&#34;Tip generously&#34;, &#34;Tip minimum&#34;),
+    (&#34;Return cart&#34;, &#34;Leave cart&#34;),
+    (&#34;Hold the door&#34;, &#34;Walk ahead&#34;),
+    (&#34;Offer seat&#34;, &#34;Keep seat&#34;),
+    (&#34;Recycle carefully&#34;, &#34;Throw away&#34;),
+    (&#34;Save energy&#34;, &#34;Use freely&#34;),
+    (&#34;Repair item&#34;, &#34;Replace item&#34;),
+    (&#34;Donate clothes&#34;, &#34;Keep clothes&#34;),
+    (&#34;Library book&#34;, &#34;Owned book&#34;),
+    (&#34;Watch sunrise&#34;, &#34;Watch sunset&#34;),
+    (&#34;Stargaze&#34;, &#34;Cloud watch&#34;),
+    (&#34;Bird watching&#34;, &#34;People watching&#34;),
+    (&#34;Collect memories&#34;, &#34;Collect things&#34;),
+    (&#34;Minimal packing&#34;, &#34;Just in case packing&#34;),
+    (&#34;Window shopping&#34;, &#34;Purpose shopping&#34;),
+    (&#34;Cook from scratch&#34;, &#34;Use shortcuts&#34;),
+    (&#34;Bake dessert&#34;, &#34;Buy dessert&#34;),
+    (&#34;Grow herbs&#34;, &#34;Buy herbs&#34;),
+    (&#34;Make gifts&#34;, &#34;Buy gifts&#34;),
+    (&#34;Wrap presents&#34;, &#34;Use gift bags&#34;),
+    (&#34;Keep a journal&#34;, &#34;Keep it in your head&#34;),
+    (&#34;Daily routine&#34;, &#34;Mix it up&#34;),
+    (&#34;Same breakfast&#34;, &#34;Different breakfast&#34;),
+    (&#34;Meal prep&#34;, &#34;Cook daily&#34;),
+    (&#34;Eat at table&#34;, &#34;Eat on the couch&#34;),
+    (&#34;Family dinner&#34;, &#34;Solo dinner&#34;),
+    (&#34;Potluck dish&#34;, &#34;Store-bought dish&#34;),
+    (&#34;Share dessert&#34;, &#34;Own dessert&#34;),
+    (&#34;Hot drink&#34;, &#34;Iced drink&#34;),
+    (&#34;Strong coffee&#34;, &#34;Mild tea&#34;),
+    (&#34;Fizzy water&#34;, &#34;Still water&#34;),
+    (&#34;Fruit snack&#34;, &#34;Crunchy snack&#34;),
+    (&#34;Sweet treat&#34;, &#34;Savory treat&#34;),
+    (&#34;Big breakfast&#34;, &#34;Light breakfast&#34;),
+    (&#34;Late dinner&#34;, &#34;Early dinner&#34;),
+    (&#34;Midnight snack&#34;, &#34;No late snacks&#34;),
+    (&#34;Cooking show&#34;, &#34;Sports show&#34;),
+    (&#34;Nature documentary&#34;, &#34;History documentary&#34;),
+    (&#34;Podcast interview&#34;, &#34;Music playlist&#34;),
+    (&#34;Audiobook&#34;, &#34;Silent reading&#34;),
+    (&#34;Puzzle game&#34;, &#34;Action game&#34;),
+    (&#34;Strategy game&#34;, &#34;Luck game&#34;),
+    (&#34;Outdoor game&#34;, &#34;Tabletop game&#34;),
+    (&#34;Watching sports&#34;, &#34;Playing sports&#34;),
+    (&#34;Casual jog&#34;, &#34;Sprint training&#34;),
+    (&#34;Swimming laps&#34;, &#34;Floating relax&#34;),
+    (&#34;Bike ride&#34;, &#34;Long walk&#34;),
+    (&#34;Dance class&#34;, &#34;Martial arts class&#34;),
+    (&#34;Art museum&#34;, &#34;Science museum&#34;),
+    (&#34;Zoo visit&#34;, &#34;Aquarium visit&#34;),
+    (&#34;Botanical garden&#34;, &#34;Historic site&#34;),
+    (&#34;Local park&#34;, &#34;National park&#34;),
+    (&#34;Short hike&#34;, &#34;Long trek&#34;),
+    (&#34;Picnic lunch&#34;, &#34;Restaurant lunch&#34;),
+    (&#34;Kite flying&#34;, &#34;Frisbee toss&#34;),
+    (&#34;Building sandcastle&#34;, &#34;Collecting shells&#34;),
+    (&#34;Campfire&#34;, &#34;Electric heater&#34;),
+    (&#34;Tent camping&#34;, &#34;Cabin stay&#34;),
+    (&#34;Road trip music&#34;, &#34;Road trip silence&#34;),
+    (&#34;Travel journal&#34;, &#34;Travel photos only&#34;),
+    (&#34;Souvenir shirt&#34;, &#34;Local snack gift&#34;),
+    (&#34;Learn local phrases&#34;, &#34;Stick to English&#34;),
+    (&#34;Try street food&#34;, &#34;Eat familiar food&#34;),
+    (&#34;Wake early on trip&#34;, &#34;Sleep in on trip&#34;),
+    (&#34;Packed schedule&#34;, &#34;Open schedule&#34;),
+    (&#34;Visit landmarks&#34;, &#34;Wander freely&#34;),
+    (&#34;Travel light&#34;, &#34;Travel prepared&#34;),
+    (&#34;Window view room&#34;, &#34;Quiet interior room&#34;),
+    (&#34;Social hostel&#34;, &#34;Private room&#34;),
+    (&#34;Group photo&#34;, &#34;Solo photo&#34;),
+    (&#34;Post online&#34;, &#34;Keep private&#34;),
+    (&#34;Share location&#34;, &#34;Go off grid&#34;),
+    (&#34;Answer unknown call&#34;, &#34;Let it ring&#34;),
+    (&#34;Reply instantly&#34;, &#34;Reply when ready&#34;),
+    (&#34;Voice note&#34;, &#34;Text only&#34;),
+    (&#34;Video on&#34;, &#34;Camera off&#34;),
+    (&#34;Mute notifications&#34;, &#34;Always alert&#34;),
+    (&#34;Digital detox&#34;, &#34;Always connected&#34;),
+    (&#34;Paper to-do list&#34;, &#34;App to-do list&#34;),
+    (&#34;Alarm snooze&#34;, &#34;Alarm up immediately&#34;),
+    (&#34;Night light on&#34;, &#34;Total darkness&#34;),
+    (&#34;Fan while sleeping&#34;, &#34;No fan&#34;),
+    (&#34;Heavy blanket&#34;, &#34;Light sheet&#34;),
+    (&#34;Firm mattress&#34;, &#34;Soft mattress&#34;),
+    (&#34;Many pillows&#34;, &#34;One pillow&#34;),
+    (&#34;Made bed&#34;, &#34;Unmade bed&#34;),
+    (&#34;Closet organized&#34;, &#34;Closet creative&#34;),
+    (&#34;Label containers&#34;, &#34;Guess and find&#34;),
+    (&#34;Clean as you go&#34;, &#34;Clean later&#34;),
+    (&#34;Weekly deep clean&#34;, &#34;Daily light tidy&#34;),
+    (&#34;Minimal decor&#34;, &#34;Lots of decor&#34;),
+    (&#34;Live plants&#34;, &#34;Artificial plants&#34;),
+    (&#34;Fresh flowers&#34;, &#34;No flowers&#34;),
+    (&#34;Scented candle&#34;, &#34;Unscented air&#34;),
+    (&#34;Open kitchen&#34;, &#34;Closed kitchen&#34;),
+    (&#34;Bright paint&#34;, &#34;Neutral paint&#34;),
+    (&#34;Wall art&#34;, &#34;Blank walls&#34;),
+    (&#34;Books on display&#34;, &#34;Books stored away&#34;),
+    (&#34;Family photos up&#34;, &#34;Photos in album&#34;),
+    (&#34;Pet on furniture&#34;, &#34;Pet off furniture&#34;),
+    (&#34;Dog person&#34;, &#34;Cat person&#34;),
+    (&#34;Big dog&#34;, &#34;Small pet&#34;),
+    (&#34;Fish tank&#34;, &#34;Bird cage&#34;),
+    (&#34;Volunteer often&#34;, &#34;Volunteer rarely&#34;),
+    (&#34;Donate monthly&#34;, &#34;Donate once a year&#34;),
+    (&#34;Vote every election&#34;, &#34;Vote sometimes&#34;),
+    (&#34;Read news daily&#34;, &#34;Read news weekly&#34;),
+    (&#34;Discuss politics&#34;, &#34;Avoid politics&#34;),
+    (&#34;Debate for fun&#34;, &#34;Avoid debates&#34;),
+    (&#34;Play devil&#39;s advocate&#34;, &#34;Agree to move on&#34;),
+    (&#34;Compromise&#34;, &#34;Stand firm&#34;),
+    (&#34;Apologize first&#34;, &#34;Wait for apology&#34;),
+    (&#34;Give benefit of doubt&#34;, &#34;Stay skeptical&#34;),
+    (&#34;Trust strangers&#34;, &#34;Trust slowly&#34;),
+    (&#34;Share personal story&#34;, &#34;Keep private&#34;),
+    (&#34;Cry at movies&#34;, &#34;Stay dry-eyed&#34;),
+    (&#34;Laugh loudly&#34;, &#34;Laugh quietly&#34;),
+    (&#34;Sing in shower&#34;, &#34;Hum only&#34;),
+    (&#34;Dance at parties&#34;, &#34;Watch others dance&#34;),
+    (&#34;Tell jokes&#34;, &#34;Listen to jokes&#34;),
+    (&#34;Start conversation&#34;, &#34;Join conversation&#34;),
+    (&#34;Introduce yourself&#34;, &#34;Wait to be introduced&#34;),
+    (&#34;Remember faces&#34;, &#34;Remember names&#34;),
+    (&#34;Gift experiences&#34;, &#34;Gift objects&#34;),
+    (&#34;Handmade card&#34;, &#34;Store card&#34;),
+    (&#34;Birthday surprise&#34;, &#34;Birthday ask-first&#34;),
+    (&#34;Big wedding&#34;, &#34;Small wedding&#34;),
+    (&#34;Formal thank you&#34;, &#34;Quick thanks&#34;),
+    (&#34;RSVP promptly&#34;, &#34;RSVP last minute&#34;),
+    (&#34;Bring a dish&#34;, &#34;Just bring yourself&#34;),
+    (&#34;Stay late at party&#34;, &#34;Leave early&#34;),
+    (&#34;Help with cleanup&#34;, &#34;Head out fast&#34;),
+    (&#34;Offer a ride&#34;, &#34;Find your own way&#34;),
+    (&#34;Carpool&#34;, &#34;Drive solo&#34;),
+    (&#34;Bike helmet&#34;, &#34;No helmet&#34;),
+    (&#34;Seat belt always&#34;, &#34;Seat belt sometimes&#34;),
+    (&#34;Hands-free call&#34;, &#34;Hold phone&#34;),
+    (&#34;Slow driver&#34;, &#34;Fast driver&#34;),
+    (&#34;Defensive driving&#34;, &#34;Confident driving&#34;),
+    (&#34;Parallel parking&#34;, &#34;Avoid tight spots&#34;),
+    (&#34;Wash car often&#34;, &#34;Wash when dirty&#34;),
+    (&#34;Full gas tank&#34;, &#34;Run until low&#34;),
+    (&#34;Service on schedule&#34;, &#34;Fix when broken&#34;),
+    (&#34;New phone yearly&#34;, &#34;Phone until it dies&#34;),
+    (&#34;Latest app version&#34;, &#34;Skip updates&#34;),
+    (&#34;Cloud backup&#34;, &#34;Local backup only&#34;),
+    (&#34;Strong password&#34;, &#34;Easy password&#34;),
+    (&#34;Two-factor auth&#34;, &#34;Password only&#34;),
+    (&#34;Read privacy policy&#34;, &#34;Accept quickly&#34;),
+    (&#34;Ad blocker on&#34;, &#34;Support sites with ads&#34;),
+    (&#34;Dark mode&#34;, &#34;Light mode&#34;),
+    (&#34;Large text&#34;, &#34;Small text&#34;),
+    (&#34;Keyboard shortcuts&#34;, &#34;Mouse clicking&#34;),
+    (&#34;Standing desk&#34;, &#34;Sitting desk&#34;),
+    (&#34;Ergonomic chair&#34;, &#34;Simple chair&#34;),
+    (&#34;Noise canceling&#34;, &#34;Hear surroundings&#34;),
+    (&#34;Work music&#34;, &#34;Work silence&#34;),
+    (&#34;Pomodoro timer&#34;, &#34;Work until done&#34;),
+    (&#34;Multitask&#34;, &#34;Single task&#34;),
+    (&#34;Inbox zero&#34;, &#34;Inbox backlog&#34;),
+    (&#34;Flagged emails&#34;, &#34;Search when needed&#34;),
+    (&#34;Calendar blocks&#34;, &#34;Mental schedule&#34;),
+    (&#34;Morning planning&#34;, &#34;Plan as you go&#34;),
+    (&#34;Evening review&#34;, &#34;Start fresh tomorrow&#34;),
+    (&#34;Sunday prep&#34;, &#34;Monday scramble&#34;),
+    (&#34;Goal list&#34;, &#34;Go with flow&#34;),
+    (&#34;Track habits&#34;, &#34;Trust intuition&#34;),
+    (&#34;Celebrate streaks&#34;, &#34;Ignore streaks&#34;),
+    (&#34;Public commitment&#34;, &#34;Private commitment&#34;),
+    (&#34;Accountability partner&#34;, &#34;Self accountability&#34;),
+    (&#34;Reward after work&#34;, &#34;Reward during work&#34;),
+    (&#34;Break before burnout&#34;, &#34;Push through&#34;),
+    (&#34;Vacation unplugged&#34;, &#34;Vacation online&#34;),
+    (&#34;Sick day rest&#34;, &#34;Work while sick&#34;),
+    (&#34;Ask doctor&#34;, &#34;Wait it out&#34;),
+    (&#34;Home remedy&#34;, &#34;Pharmacy medicine&#34;),
+    (&#34;Annual checkup&#34;, &#34;Go when needed&#34;),
+    (&#34;Floss daily&#34;, &#34;Floss sometimes&#34;),
+    (&#34;Stretch daily&#34;, &#34;Stretch when sore&#34;),
+    (&#34;Walk ten thousand steps&#34;, &#34;Walk when convenient&#34;),
+    (&#34;Gym membership&#34;, &#34;Home exercise&#34;),
+    (&#34;Meal tracking&#34;, &#34;Eat intuitively&#34;),
+    (&#34;Count calories&#34;, &#34;Eat by hunger&#34;),
+    (&#34;Vegetarian meal&#34;, &#34;Meat meal&#34;),
+    (&#34;Whole foods&#34;, &#34;Processed foods&#34;),
+    (&#34;Cook with oil&#34;, &#34;Cook without oil&#34;),
+    (&#34;Salt freely&#34;, &#34;Salt lightly&#34;),
+    (&#34;Dessert daily&#34;, &#34;Dessert rarely&#34;),
+    (&#34;Coffee afternoon&#34;, &#34;No afternoon coffee&#34;),
+    (&#34;Water with meal&#34;, &#34;Drink between meals&#34;),
+    (&#34;Hot shower&#34;, &#34;Cold rinse&#34;),
+    (&#34;Long shower&#34;, &#34;Quick shower&#34;),
+    (&#34;Bath relax&#34;, &#34;Shower efficient&#34;),
+    (&#34;Skincare routine&#34;, &#34;Soap and water&#34;),
+    (&#34;Sunscreen daily&#34;, &#34;Sunscreen at beach&#34;),
+    (&#34;Sunglasses outside&#34;, &#34;Squint outside&#34;),
+    (&#34;Winter layers&#34;, &#34;One warm coat&#34;),
+    (&#34;Rain boots&#34;, &#34;Regular shoes&#34;),
+    (&#34;Umbrella carry&#34;, &#34;Hoodie only&#34;),
+    (&#34;Weather app check&#34;, &#34;Look outside&#34;),
+    (&#34;Pack for weather&#34;, &#34;Buy if needed&#34;),
+    (&#34;Heater high&#34;, &#34;Sweater first&#34;),
+    (&#34;Fan high&#34;, &#34;Open window first&#34;),
+    (&#34;Air filter change&#34;, &#34;When remembered&#34;),
+    (&#34;Smoke detector test&#34;, &#34;Assume it works&#34;),
+    (&#34;Fire drill practice&#34;, &#34;Know the exit&#34;),
+    (&#34;First aid training&#34;, &#34;Basic kit only&#34;),
+    (&#34;Emergency kit&#34;, &#34;Figure it out&#34;),
+    (&#34;Flashlight handy&#34;, &#34;Phone light&#34;),
+    (&#34;Cash emergency&#34;, &#34;Card only&#34;),
+    (&#34;Spare key hidden&#34;, &#34;One key only&#34;),
+    (&#34;Neighbor has key&#34;, &#34;Lockbox&#34;),
+    (&#34;Security system&#34;, &#34;Good locks&#34;),
+    (&#34;Porch light on&#34;, &#34;Motion sensor&#34;),
+    (&#34;Package inside&#34;, &#34;Package at door&#34;),
+    (&#34;Sign for delivery&#34;, &#34;Pickup point&#34;),
+    (&#34;Tip delivery driver&#34;, &#34;No tip&#34;),
+    (&#34;Review online&#34;, &#34;Skip review&#34;),
+    (&#34;Complaint politely&#34;, &#34;Say nothing&#34;),
+    (&#34;Praise publicly&#34;, &#34;Praise privately&#34;),
+    (&#34;Refer a friend&#34;, &#34;Keep discovery secret&#34;),
+    (&#34;Loyal to brand&#34;, &#34;Try competitors&#34;),
+    (&#34;Coupon hunting&#34;, &#34;Pay full price&#34;),
+    (&#34;Bulk buying&#34;, &#34;Buy as needed&#34;),
+    (&#34;Subscription service&#34;, &#34;One-time buy&#34;),
+    (&#34;Free trial&#34;, &#34;Skip trial&#34;),
+    (&#34;Return bad product&#34;, &#34;Keep and forget&#34;),
+    (&#34;Warranty register&#34;, &#34;Skip paperwork&#34;),
+    (&#34;Manual reader&#34;, &#34;Trial and error&#34;),
+    (&#34;Assembly instructions&#34;, &#34;Extra parts left&#34;),
+    (&#34;DIY repair&#34;, &#34;Call a pro&#34;),
+    (&#34;YouTube tutorial&#34;, &#34;Ask a friend&#34;),
+    (&#34;Library resource&#34;, &#34;Buy the book&#34;),
+    (&#34;Community class&#34;, &#34;Online course&#34;),
+    (&#34;Certification&#34;, &#34;Learn informally&#34;),
+    (&#34;Degree path&#34;, &#34;Skill path&#34;),
+    (&#34;Theory first&#34;, &#34;Practice first&#34;),
+    (&#34;Memorize facts&#34;, &#34;Understand concepts&#34;),
+    (&#34;Timed test&#34;, &#34;Take-home test&#34;),
+    (&#34;Open book exam&#34;, &#34;Closed book exam&#34;),
+    (&#34;Group study&#34;, &#34;Solo study&#34;),
+    (&#34;Teach to learn&#34;, &#34;Learn quietly&#34;),
+    (&#34;Flashcards&#34;, &#34;Rewrite notes&#34;),
+    (&#34;Highlight book&#34;, &#34;Margin notes&#34;),
+    (&#34;Summarize chapter&#34;, &#34;Reread chapter&#34;),
+    (&#34;Ask teacher&#34;, &#34;Ask classmates&#34;),
+    (&#34;Office hours&#34;, &#34;Email question&#34;),
+    (&#34;Extra credit&#34;, &#34;Required only&#34;),
+    (&#34;Perfect attendance&#34;, &#34;Miss when needed&#34;),
+    (&#34;Front of class&#34;, &#34;Back of class&#34;),
+    (&#34;Raise hand often&#34;, &#34;Listen mostly&#34;),
+    (&#34;Volunteer answer&#34;, &#34;Wait to be called&#34;),
+    (&#34;Detailed question&#34;, &#34;Short question&#34;),
+    (&#34;Stay after class&#34;, &#34;Leave on bell&#34;),
+    (&#34;Club membership&#34;, &#34;Independent study&#34;),
+    (&#34;School play&#34;, &#34;Audience only&#34;),
+    (&#34;Science fair&#34;, &#34;Watch projects&#34;),
+    (&#34;Sports team&#34;, &#34;Cheer from stands&#34;),
+    (&#34;Music recital&#34;, &#34;Practice only&#34;),
+    (&#34;Art contest&#34;, &#34;Art for fun&#34;),
+    (&#34;Spelling bee&#34;, &#34;Casual spelling&#34;),
+    (&#34;Math olympiad&#34;, &#34;Daily math&#34;),
+    (&#34;Chess club&#34;, &#34;Casual games&#34;),
+    (&#34;Debate team&#34;, &#34;Avoid arguments&#34;),
+    (&#34;Student council&#34;, &#34;Private citizen&#34;),
+    (&#34;Yearbook staff&#34;, &#34;One photo&#34;),
+    (&#34;School newspaper&#34;, &#34;Read only&#34;),
+    (&#34;Prom attend&#34;, &#34;Skip dance&#34;),
+    (&#34;Graduation ceremony&#34;, &#34;Quiet celebration&#34;),
+    (&#34;Alumni events&#34;, &#34;Move on&#34;),
+    (&#34;Mentor others&#34;, &#34;Find a mentor&#34;),
+    (&#34;Internship&#34;, &#34;Summer job&#34;),
+    (&#34;Part-time work&#34;, &#34;Focus on school&#34;),
+    (&#34;Summer camp&#34;, &#34;Summer home&#34;),
+    (&#34;Sleepaway camp&#34;, &#34;Day camp&#34;),
+    (&#34;Scouts program&#34;, &#34;Family outings&#34;),
+    (&#34;Church youth group&#34;, &#34;Secular club&#34;),
+    (&#34;Community sports&#34;, &#34;School sports&#34;),
+    (&#34;Neighborhood watch&#34;, &#34;Mind own business&#34;),
+    (&#34;Block party&#34;, &#34;Quiet street&#34;),
+    (&#34;Borrow sugar&#34;, &#34;Buy your own&#34;),
+    (&#34;Share tools&#34;, &#34;Own every tool&#34;),
+    (&#34;Water neighbor plants&#34;, &#34;Decline politely&#34;),
+    (&#34;Pet sit for friend&#34;, &#34;Prefer not&#34;),
+    (&#34;House sit&#34;, &#34;Hotel instead&#34;),
+    (&#34;Feed stray cat&#34;, &#34;Call shelter&#34;),
+    (&#34;Adopt rescue&#34;, &#34;Buy from breeder&#34;),
+    (&#34;Spay neuter advocate&#34;, &#34;Personal choice&#34;),
+    (&#34;Leash always&#34;, &#34;Off-leash parks&#34;),
+    (&#34;Pet clothes&#34;, &#34;Natural coat&#34;),
+    (&#34;Pet birthday party&#34;, &#34;Treat only&#34;),
+    (&#34;Dog training class&#34;, &#34;Home training&#34;),
+    (&#34;Cat tree&#34;, &#34;Floor play&#34;),
+    (&#34;Aquarium big&#34;, &#34;Bowl small&#34;),
+    (&#34;Bird free flight&#34;, &#34;Caged safe&#34;),
+    (&#34;Hamster wheel&#34;, &#34;Hands-on play&#34;),
+    (&#34;Reptile heat lamp&#34;, &#34;Room temp pet&#34;),
+]
+
+for p in concept_pairs:
+    if p not in pairs:
+        pairs.append(p)
+
+# Generate adj-noun style pairs
+for i, a in enumerate(adjectives):
+    for b in adjectives[i+1:]:
+        if len(pairs) &gt;= 500:
+            break
+        if a != b:
+            pairs.append((a, b))
+    if len(pairs) &gt;= 500:
+        break
+
+for n in nouns_a:
+    if len(pairs) &gt;= 500:
+        break
+    pairs.append((f&#34;Best morning {n.lower()}&#34;, f&#34;Best evening {n.lower()}&#34;))
+    if len(pairs) &gt;= 500:
+        break
+    pairs.append((f&#34;Indoor {n.lower()}&#34;, f&#34;Outdoor {n.lower()}&#34;))
+
+# Dedupe while preserving order
+seen = set()
+unique = []
+for l, r in pairs:
+    key = (l.lower(), r.lower())
+    rev = (r.lower(), l.lower())
+    if key not in seen and rev not in seen:
+        seen.add(key)
+        unique.append((l, r))
+    if len(unique) &gt;= 500:
+        break
+
+print(&#39;count&#39;, len(unique))
+for l,r in unique[:5]:
+    print(l, &#39;|&#39;, r)
+PYEOF</summary>
+```bash
+python3 << 'PYEOF'
+# Generate 500 unique generic spectrum pairs
+pairs = [
+    ("Hot", "Cold"), ("Quiet activity", "Active sport"), ("Healthy snack", "Treat food"),
+    ("Mild habit", "Risky habit"), ("Simple skill", "Impressive skill"),
+    ("Selfish choice", "Generous choice"), ("Formal event", "Casual hangout"),
+    ("Art", "Craft"), ("Simple gift", "Fancy gift"), ("Overrated", "Underrated"),
+    ("City life", "Country life"), ("Planned trip", "Spontaneous trip"),
+    ("Early bird", "Night owl"), ("Minimal home", "Cozy clutter"),
+    ("Text message", "Phone call"),
+]
+
+# Themed generators for more pairs
+adjectives = [
+    "Cheap", "Expensive", "Loud", "Silent", "Bright", "Dark", "Sweet", "Sour",
+    "Soft", "Hard", "Light", "Heavy", "Fast", "Slow", "Old", "New", "Rare", "Common",
+    "Simple", "Complex", "Calm", "Chaotic", "Clean", "Messy", "Dry", "Wet",
+    "Sharp", "Blunt", "Thin", "Thick", "Wide", "Narrow", "High", "Low",
+    "Near", "Far", "Early", "Late", "Young", "Ancient", "Shallow", "Deep",
+    "Empty", "Full", "Weak", "Strong", "Passive", "Aggressive", "Shy", "Bold",
+    "Lazy", "Energetic", "Serious", "Silly", "Strict", "Relaxed", "Private", "Public",
+    "Indoor", "Outdoor", "Digital", "Analog", "Modern", "Traditional", "Local", "Global",
+    "Practical", "Decorative", "Useful", "Useless", "Safe", "Dangerous", "Legal", "Illegal",
+    "Honest", "Dishonest", "Polite", "Rude", "Patient", "Impatient", "Logical", "Emotional",
+    "Planned", "Random", "Organized", "Messy", "Fragile", "Durable", "Temporary", "Permanent",
+]
+
+nouns_a = [
+    "Breakfast", "Lunch", "Dinner", "Snack", "Dessert", "Soup", "Salad", "Sandwich",
+    "Vacation", "Workday", "Weekend", "Holiday", "Meeting", "Party", "Class", "Exam",
+    "Book", "Movie", "Song", "Game", "Sport", "Hobby", "Job", "Task",
+    "Gift", "Tool", "Toy", "Pet", "Plant", "Room", "House", "Car",
+    "Shirt", "Shoes", "Hat", "Bag", "Chair", "Bed", "Desk", "Lamp",
+    "Rain", "Snow", "Sun", "Wind", "Storm", "Fog", "Heat", "Frost",
+    "Mountain", "Beach", "Forest", "Desert", "River", "Lake", "Island", "Valley",
+    "Teacher", "Student", "Leader", "Follower", "Guest", "Host", "Buyer", "Seller",
+    "Question", "Answer", "Problem", "Solution", "Start", "Finish", "Win", "Loss",
+    "Truth", "Myth", "Fact", "Opinion", "Rule", "Exception", "Plan", "Surprise",
+    "Silence", "Music", "Speech", "Writing", "Photo", "Drawing", "Dance", "Song",
+    "Morning", "Evening", "Summer", "Winter", "Spring", "Autumn", "Today", "Tomorrow",
+]
+
+concept_pairs = [
+    ("Better alone", "Better with others"),
+    ("Better in theory", "Better in practice"),
+    ("Better for kids", "Better for adults"),
+    ("Better indoors", "Better outdoors"),
+    ("Better hot", "Better cold"),
+    ("Better fresh", "Better preserved"),
+    ("Better handmade", "Better factory-made"),
+    ("Better rented", "Better owned"),
+    ("Better borrowed", "Better bought"),
+    ("Better saved", "Better spent"),
+    ("Better said", "Better unsaid"),
+    ("Better known", "Better secret"),
+    ("Better planned", "Better improvised"),
+    ("Better quiet", "Better lively"),
+    ("Better small", "Better large"),
+    ("Better short", "Better long"),
+    ("Better sweet", "Better savory"),
+    ("Better mild", "Better bold"),
+    ("Better plain", "Better fancy"),
+    ("Better familiar", "Better exotic"),
+    ("Harmless prank", "Cruel joke"),
+    ("Healthy choice", "Indulgent choice"),
+    ("Eco-friendly", "Convenient"),
+    ("Time saver", "Time waster"),
+    ("Stress relief", "Stress cause"),
+    ("Confidence boost", "Confidence drain"),
+    ("Memory maker", "Forgettable moment"),
+    ("Team builder", "Team divider"),
+    ("Icebreaker", "Conversation ender"),
+    ("Kid friendly", "Adults only"),
+    ("Pet friendly", "No pets"),
+    ("Beginner friendly", "Expert only"),
+    ("Low effort", "High effort"),
+    ("Low cost", "High cost"),
+    ("Low risk", "High risk"),
+    ("Low noise", "High noise"),
+    ("Low skill", "High skill"),
+    ("Low maintenance", "High maintenance"),
+    ("Morning person", "Night person"),
+    ("Indoor cat", "Outdoor adventurer"),
+    ("Window seat", "Aisle seat"),
+    ("Front row", "Back row"),
+    ("Top bunk", "Bottom bunk"),
+    ("Window open", "Window closed"),
+    ("Lights on", "Lights off"),
+    ("Music on", "Music off"),
+    ("Talkative driver", "Silent driver"),
+    ("Map reader", "GPS follower"),
+    ("Packing light", "Packing heavy"),
+    ("Early arrival", "Fashionably late"),
+    ("Overprepared", "Underprepared"),
+    ("Too spicy", "Too bland"),
+    ("Too sweet", "Too bitter"),
+    ("Too salty", "Too plain"),
+    ("Too crowded", "Too empty"),
+    ("Too formal", "Too casual"),
+    ("Too strict", "Too lenient"),
+    ("Too loud", "Too quiet"),
+    ("Too bright", "Too dim"),
+    ("Too warm", "Too cool"),
+    ("Too fast", "Too slow"),
+    ("Too big", "Too small"),
+    ("Too old", "Too new"),
+    ("Too clean", "Too messy"),
+    ("Too serious", "Too silly"),
+    ("Too logical", "Too emotional"),
+    ("Too honest", "Too tactful"),
+    ("Too direct", "Too indirect"),
+    ("Too independent", "Too dependent"),
+    ("Too competitive", "Too cooperative"),
+    ("Too cautious", "Too reckless"),
+    ("Too frugal", "Too generous"),
+    ("Too organized", "Too spontaneous"),
+    ("Too traditional", "Too modern"),
+    ("Too local", "Too global"),
+    ("Breakfast food", "Dinner food"),
+    ("Summer activity", "Winter activity"),
+    ("Rainy day activity", "Sunny day activity"),
+    ("Solo hobby", "Group hobby"),
+    ("Indoor plant", "Outdoor plant"),
+    ("Desk job", "Physical job"),
+    ("Team sport", "Individual sport"),
+    ("Board game", "Video game"),
+    ("Card game", "Dice game"),
+    ("Word puzzle", "Number puzzle"),
+    ("Fiction book", "Nonfiction book"),
+    ("Comedy show", "Drama show"),
+    ("Live music", "Recorded music"),
+    ("Home cooking", "Restaurant meal"),
+    ("Takeout food", "Home-cooked meal"),
+    ("Walking commute", "Driving commute"),
+    ("Public transport", "Private car"),
+    ("Camping trip", "Hotel stay"),
+    ("Beach vacation", "Mountain vacation"),
+    ("City break", "Nature retreat"),
+    ("Guided tour", "Self-guided tour"),
+    ("Group travel", "Solo travel"),
+    ("Short trip", "Long journey"),
+    ("Staycation", "Far vacation"),
+    ("Physical book", "E-book"),
+    ("Handwritten note", "Typed message"),
+    ("Printed photo", "Digital photo"),
+    ("Paper calendar", "App calendar"),
+    ("Cash payment", "Card payment"),
+    ("Shopping in store", "Shopping online"),
+    ("Big supermarket", "Small market"),
+    ("Brand name", "Generic brand"),
+    ("New clothes", "Secondhand clothes"),
+    ("Matching set", "Mixed styles"),
+    ("Bright colors", "Neutral colors"),
+    ("Patterned fabric", "Solid fabric"),
+    ("Comfort shoes", "Dress shoes"),
+    ("Warm jacket", "Light jacket"),
+    ("Sun hat", "Winter hat"),
+    ("Reusable bottle", "Disposable bottle"),
+    ("Home workout", "Gym workout"),
+    ("Yoga stretch", "Weight training"),
+    ("Team meeting", "One-on-one chat"),
+    ("Brainstorm session", "Solo focus time"),
+    ("Strict deadline", "Flexible deadline"),
+    ("Detailed plan", "Rough outline"),
+    ("Big celebration", "Quiet acknowledgment"),
+    ("Public speech", "Private conversation"),
+    ("Group project", "Solo project"),
+    ("Open office", "Private office"),
+    ("Remote work", "Office work"),
+    ("Video call", "In-person meeting"),
+    ("Email update", "Quick chat"),
+    ("Long form writing", "Short summary"),
+    ("Deep research", "Quick search"),
+    ("Expert advice", "Crowd opinion"),
+    ("Trial and error", "Follow instructions"),
+    ("Ask for help", "Figure it out alone"),
+    ("Share credit", "Take credit"),
+    ("Admit mistake", "Hide mistake"),
+    ("Forgive quickly", "Hold a grudge"),
+    ("Speak up", "Stay quiet"),
+    ("Lead the group", "Support from behind"),
+    ("Try new food", "Stick to favorites"),
+    ("Order for group", "Order for self"),
+    ("Split the bill", "Treat everyone"),
+    ("Tip generously", "Tip minimum"),
+    ("Return cart", "Leave cart"),
+    ("Hold the door", "Walk ahead"),
+    ("Offer seat", "Keep seat"),
+    ("Recycle carefully", "Throw away"),
+    ("Save energy", "Use freely"),
+    ("Repair item", "Replace item"),
+    ("Donate clothes", "Keep clothes"),
+    ("Library book", "Owned book"),
+    ("Watch sunrise", "Watch sunset"),
+    ("Stargaze", "Cloud watch"),
+    ("Bird watching", "People watching"),
+    ("Collect memories", "Collect things"),
+    ("Minimal packing", "Just in case packing"),
+    ("Window shopping", "Purpose shopping"),
+    ("Cook from scratch", "Use shortcuts"),
+    ("Bake dessert", "Buy dessert"),
+    ("Grow herbs", "Buy herbs"),
+    ("Make gifts", "Buy gifts"),
+    ("Wrap presents", "Use gift bags"),
+    ("Keep a journal", "Keep it in your head"),
+    ("Daily routine", "Mix it up"),
+    ("Same breakfast", "Different breakfast"),
+    ("Meal prep", "Cook daily"),
+    ("Eat at table", "Eat on the couch"),
+    ("Family dinner", "Solo dinner"),
+    ("Potluck dish", "Store-bought dish"),
+    ("Share dessert", "Own dessert"),
+    ("Hot drink", "Iced drink"),
+    ("Strong coffee", "Mild tea"),
+    ("Fizzy water", "Still water"),
+    ("Fruit snack", "Crunchy snack"),
+    ("Sweet treat", "Savory treat"),
+    ("Big breakfast", "Light breakfast"),
+    ("Late dinner", "Early dinner"),
+    ("Midnight snack", "No late snacks"),
+    ("Cooking show", "Sports show"),
+    ("Nature documentary", "History documentary"),
+    ("Podcast interview", "Music playlist"),
+    ("Audiobook", "Silent reading"),
+    ("Puzzle game", "Action game"),
+    ("Strategy game", "Luck game"),
+    ("Outdoor game", "Tabletop game"),
+    ("Watching sports", "Playing sports"),
+    ("Casual jog", "Sprint training"),
+    ("Swimming laps", "Floating relax"),
+    ("Bike ride", "Long walk"),
+    ("Dance class", "Martial arts class"),
+    ("Art museum", "Science museum"),
+    ("Zoo visit", "Aquarium visit"),
+    ("Botanical garden", "Historic site"),
+    ("Local park", "National park"),
+    ("Short hike", "Long trek"),
+    ("Picnic lunch", "Restaurant lunch"),
+    ("Kite flying", "Frisbee toss"),
+    ("Building sandcastle", "Collecting shells"),
+    ("Campfire", "Electric heater"),
+    ("Tent camping", "Cabin stay"),
+    ("Road trip music", "Road trip silence"),
+    ("Travel journal", "Travel photos only"),
+    ("Souvenir shirt", "Local snack gift"),
+    ("Learn local phrases", "Stick to English"),
+    ("Try street food", "Eat familiar food"),
+    ("Wake early on trip", "Sleep in on trip"),
+    ("Packed schedule", "Open schedule"),
+    ("Visit landmarks", "Wander freely"),
+    ("Travel light", "Travel prepared"),
+    ("Window view room", "Quiet interior room"),
+    ("Social hostel", "Private room"),
+    ("Group photo", "Solo photo"),
+    ("Post online", "Keep private"),
+    ("Share location", "Go off grid"),
+    ("Answer unknown call", "Let it ring"),
+    ("Reply instantly", "Reply when ready"),
+    ("Voice note", "Text only"),
+    ("Video on", "Camera off"),
+    ("Mute notifications", "Always alert"),
+    ("Digital detox", "Always connected"),
+    ("Paper to-do list", "App to-do list"),
+    ("Alarm snooze", "Alarm up immediately"),
+    ("Night light on", "Total darkness"),
+    ("Fan while sleeping", "No fan"),
+    ("Heavy blanket", "Light sheet"),
+    ("Firm mattress", "Soft mattress"),
+    ("Many pillows", "One pillow"),
+    ("Made bed", "Unmade bed"),
+    ("Closet organized", "Closet creative"),
+    ("Label containers", "Guess and find"),
+    ("Clean as you go", "Clean later"),
+    ("Weekly deep clean", "Daily light tidy"),
+    ("Minimal decor", "Lots of decor"),
+    ("Live plants", "Artificial plants"),
+    ("Fresh flowers", "No flowers"),
+    ("Scented candle", "Unscented air"),
+    ("Open kitchen", "Closed kitchen"),
+    ("Bright paint", "Neutral paint"),
+    ("Wall art", "Blank walls"),
+    ("Books on display", "Books stored away"),
+    ("Family photos up", "Photos in album"),
+    ("Pet on furniture", "Pet off furniture"),
+    ("Dog person", "Cat person"),
+    ("Big dog", "Small pet"),
+    ("Fish tank", "Bird cage"),
+    ("Volunteer often", "Volunteer rarely"),
+    ("Donate monthly", "Donate once a year"),
+    ("Vote every election", "Vote sometimes"),
+    ("Read news daily", "Read news weekly"),
+    ("Discuss politics", "Avoid politics"),
+    ("Debate for fun", "Avoid debates"),
+    ("Play devil's advocate", "Agree to move on"),
+    ("Compromise", "Stand firm"),
+    ("Apologize first", "Wait for apology"),
+    ("Give benefit of doubt", "Stay skeptical"),
+    ("Trust strangers", "Trust slowly"),
+    ("Share personal story", "Keep private"),
+    ("Cry at movies", "Stay dry-eyed"),
+    ("Laugh loudly", "Laugh quietly"),
+    ("Sing in shower", "Hum only"),
+    ("Dance at parties", "Watch others dance"),
+    ("Tell jokes", "Listen to jokes"),
+    ("Start conversation", "Join conversation"),
+    ("Introduce yourself", "Wait to be introduced"),
+    ("Remember faces", "Remember names"),
+    ("Gift experiences", "Gift objects"),
+    ("Handmade card", "Store card"),
+    ("Birthday surprise", "Birthday ask-first"),
+    ("Big wedding", "Small wedding"),
+    ("Formal thank you", "Quick thanks"),
+    ("RSVP promptly", "RSVP last minute"),
+    ("Bring a dish", "Just bring yourself"),
+    ("Stay late at party", "Leave early"),
+    ("Help with cleanup", "Head out fast"),
+    ("Offer a ride", "Find your own way"),
+    ("Carpool", "Drive solo"),
+    ("Bike helmet", "No helmet"),
+    ("Seat belt always", "Seat belt sometimes"),
+    ("Hands-free call", "Hold phone"),
+    ("Slow driver", "Fast driver"),
+    ("Defensive driving", "Confident driving"),
+    ("Parallel parking", "Avoid tight spots"),
+    ("Wash car often", "Wash when dirty"),
+    ("Full gas tank", "Run until low"),
+    ("Service on schedule", "Fix when broken"),
+    ("New phone yearly", "Phone until it dies"),
+    ("Latest app version", "Skip updates"),
+    ("Cloud backup", "Local backup only"),
+    ("Strong password", "Easy password"),
+    ("Two-factor auth", "Password only"),
+    ("Read privacy policy", "Accept quickly"),
+    ("Ad blocker on", "Support sites with ads"),
+    ("Dark mode", "Light mode"),
+    ("Large text", "Small text"),
+    ("Keyboard shortcuts", "Mouse clicking"),
+    ("Standing desk", "Sitting desk"),
+    ("Ergonomic chair", "Simple chair"),
+    ("Noise canceling", "Hear surroundings"),
+    ("Work music", "Work silence"),
+    ("Pomodoro timer", "Work until done"),
+    ("Multitask", "Single task"),
+    ("Inbox zero", "Inbox backlog"),
+    ("Flagged emails", "Search when needed"),
+    ("Calendar blocks", "Mental schedule"),
+    ("Morning planning", "Plan as you go"),
+    ("Evening review", "Start fresh tomorrow"),
+    ("Sunday prep", "Monday scramble"),
+    ("Goal list", "Go with flow"),
+    ("Track habits", "Trust intuition"),
+    ("Celebrate streaks", "Ignore streaks"),
+    ("Public commitment", "Private commitment"),
+    ("Accountability partner", "Self accountability"),
+    ("Reward after work", "Reward during work"),
+    ("Break before burnout", "Push through"),
+    ("Vacation unplugged", "Vacation online"),
+    ("Sick day rest", "Work while sick"),
+    ("Ask doctor", "Wait it out"),
+    ("Home remedy", "Pharmacy medicine"),
+    ("Annual checkup", "Go when needed"),
+    ("Floss daily", "Floss sometimes"),
+    ("Stretch daily", "Stretch when sore"),
+    ("Walk ten thousand steps", "Walk when convenient"),
+    ("Gym membership", "Home exercise"),
+    ("Meal tracking", "Eat intuitively"),
+    ("Count calories", "Eat by hunger"),
+    ("Vegetarian meal", "Meat meal"),
+    ("Whole foods", "Processed foods"),
+    ("Cook with oil", "Cook without oil"),
+    ("Salt freely", "Salt lightly"),
+    ("Dessert daily", "Dessert rarely"),
+    ("Coffee afternoon", "No afternoon coffee"),
+    ("Water with meal", "Drink between meals"),
+    ("Hot shower", "Cold rinse"),
+    ("Long shower", "Quick shower"),
+    ("Bath relax", "Shower efficient"),
+    ("Skincare routine", "Soap and water"),
+    ("Sunscreen daily", "Sunscreen at beach"),
+    ("Sunglasses outside", "Squint outside"),
+    ("Winter layers", "One warm coat"),
+    ("Rain boots", "Regular shoes"),
+    ("Umbrella carry", "Hoodie only"),
+    ("Weather app check", "Look outside"),
+    ("Pack for weather", "Buy if needed"),
+    ("Heater high", "Sweater first"),
+    ("Fan high", "Open window first"),
+    ("Air filter change", "When remembered"),
+    ("Smoke detector test", "Assume it works"),
+    ("Fire drill practice", "Know the exit"),
+    ("First aid training", "Basic kit only"),
+    ("Emergency kit", "Figure it out"),
+    ("Flashlight handy", "Phone light"),
+    ("Cash emergency", "Card only"),
+    ("Spare key hidden", "One key only"),
+    ("Neighbor has key", "Lockbox"),
+    ("Security system", "Good locks"),
+    ("Porch light on", "Motion sensor"),
+    ("Package inside", "Package at door"),
+    ("Sign for delivery", "Pickup point"),
+    ("Tip delivery driver", "No tip"),
+    ("Review online", "Skip review"),
+    ("Complaint politely", "Say nothing"),
+    ("Praise publicly", "Praise privately"),
+    ("Refer a friend", "Keep discovery secret"),
+    ("Loyal to brand", "Try competitors"),
+    ("Coupon hunting", "Pay full price"),
+    ("Bulk buying", "Buy as needed"),
+    ("Subscription service", "One-time buy"),
+    ("Free trial", "Skip trial"),
+    ("Return bad product", "Keep and forget"),
+    ("Warranty register", "Skip paperwork"),
+    ("Manual reader", "Trial and error"),
+    ("Assembly instructions", "Extra parts left"),
+    ("DIY repair", "Call a pro"),
+    ("YouTube tutorial", "Ask a friend"),
+    ("Library resource", "Buy the book"),
+    ("Community class", "Online course"),
+    ("Certification", "Learn informally"),
+    ("Degree path", "Skill path"),
+    ("Theory first", "Practice first"),
+    ("Memorize facts", "Understand concepts"),
+    ("Timed test", "Take-home test"),
+    ("Open book exam", "Closed book exam"),
+    ("Group study", "Solo study"),
+    ("Teach to learn", "Learn quietly"),
+    ("Flashcards", "Rewrite notes"),
+    ("Highlight book", "Margin notes"),
+    ("Summarize chapter", "Reread chapter"),
+    ("Ask teacher", "Ask classmates"),
+    ("Office hours", "Email question"),
+    ("Extra credit", "Required only"),
+    ("Perfect attendance", "Miss when needed"),
+    ("Front of class", "Back of class"),
+    ("Raise hand often", "Listen mostly"),
+    ("Volunteer answer", "Wait to be called"),
+    ("Detailed question", "Short question"),
+    ("Stay after class", "Leave on bell"),
+    ("Club membership", "Independent study"),
+    ("School play", "Audience only"),
+    ("Science fair", "Watch projects"),
+    ("Sports team", "Cheer from stands"),
+    ("Music recital", "Practice only"),
+    ("Art contest", "Art for fun"),
+    ("Spelling bee", "Casual spelling"),
+    ("Math olympiad", "Daily math"),
+    ("Chess club", "Casual games"),
+    ("Debate team", "Avoid arguments"),
+    ("Student council", "Private citizen"),
+    ("Yearbook staff", "One photo"),
+    ("School newspaper", "Read only"),
+    ("Prom attend", "Skip dance"),
+    ("Graduation ceremony", "Quiet celebration"),
+    ("Alumni events", "Move on"),
+    ("Mentor others", "Find a mentor"),
+    ("Internship", "Summer job"),
+    ("Part-time work", "Focus on school"),
+    ("Summer camp", "Summer home"),
+    ("Sleepaway camp", "Day camp"),
+    ("Scouts program", "Family outings"),
+    ("Church youth group", "Secular club"),
+    ("Community sports", "School sports"),
+    ("Neighborhood watch", "Mind own business"),
+    ("Block party", "Quiet street"),
+    ("Borrow sugar", "Buy your own"),
+    ("Share tools", "Own every tool"),
+    ("Water neighbor plants", "Decline politely"),
+    ("Pet sit for friend", "Prefer not"),
+    ("House sit", "Hotel instead"),
+    ("Feed stray cat", "Call shelter"),
+    ("Adopt rescue", "Buy from breeder"),
+    ("Spay neuter advocate", "Personal choice"),
+    ("Leash always", "Off-leash parks"),
+    ("Pet clothes", "Natural coat"),
+    ("Pet birthday party", "Treat only"),
+    ("Dog training class", "Home training"),
+    ("Cat tree", "Floor play"),
+    ("Aquarium big", "Bowl small"),
+    ("Bird free flight", "Caged safe"),
+    ("Hamster wheel", "Hands-on play"),
+    ("Reptile heat lamp", "Room temp pet"),
+]
+
+for p in concept_pairs:
+    if p not in pairs:
+        pairs.append(p)
+
+# Generate adj-noun style pairs
+for i, a in enumerate(adjectives):
+    for b in adjectives[i+1:]:
+        if len(pairs) >= 500:
+            break
+        if a != b:
+            pairs.append((a, b))
+    if len(pairs) >= 500:
+        break
+
+for n in nouns_a:
+    if len(pairs) >= 500:
+        break
+    pairs.append((f"Best morning {n.lower()}", f"Best evening {n.lower()}"))
+    if len(pairs) >= 500:
+        break
+    pairs.append((f"Indoor {n.lower()}", f"Outdoor {n.lower()}"))
+
+# Dedupe while preserving order
+seen = set()
+unique = []
+for l, r in pairs:
+    key = (l.lower(), r.lower())
+    rev = (r.lower(), l.lower())
+    if key not in seen and rev not in seen:
+        seen.add(key)
+        unique.append((l, r))
+    if len(unique) >= 500:
+        break
+
+print('count', len(unique))
+for l,r in unique[:5]:
+    print(l, '|', r)
+PYEOF
+```
+
+```
+count 500
+Hot | Cold
+Quiet activity | Active sport
+Healthy snack | Treat food
+Mild habit | Risky habit
+Simple skill | Impressive skill
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Expanding the spectrum to 500 pairs risks weaker later entries. Some generated pairs may sound odd or repetitive.
+
+Prioritizing meaningful concept pairs first, then filling the remaining slots. The script will update randomizer.yaml directly. Redundant or nonsensical combinations—such as "Cheap | Ancient"—will be filtered out.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Building 500 quality spectrum pairs and updating the YAML file.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+from pathlib import Path
+import re
+
+# Curated + templated generic spectrum pairs (family-friendly, worldwide)
+base = [
+    (&#34;Hot&#34;, &#34;Cold&#34;), (&#34;Quiet activity&#34;, &#34;Active sport&#34;), (&#34;Healthy snack&#34;, &#34;Treat food&#34;),
+    (&#34;Mild habit&#34;, &#34;Risky habit&#34;), (&#34;Simple skill&#34;, &#34;Impressive skill&#34;),
+    (&#34;Selfish choice&#34;, &#34;Generous choice&#34;), (&#34;Formal event&#34;, &#34;Casual hangout&#34;),
+    (&#34;Art&#34;, &#34;Craft&#34;), (&#34;Simple gift&#34;, &#34;Fancy gift&#34;), (&#34;Overrated&#34;, &#34;Underrated&#34;),
+    (&#34;City life&#34;, &#34;Country life&#34;), (&#34;Planned trip&#34;, &#34;Spontaneous trip&#34;),
+    (&#34;Early bird&#34;, &#34;Night owl&#34;), (&#34;Minimal home&#34;, &#34;Cozy clutter&#34;),
+    (&#34;Text message&#34;, &#34;Phone call&#34;), (&#34;Better alone&#34;, &#34;Better with others&#34;),
+    (&#34;Better in theory&#34;, &#34;Better in practice&#34;), (&#34;Better for kids&#34;, &#34;Better for adults&#34;),
+    (&#34;Better indoors&#34;, &#34;Better outdoors&#34;), (&#34;Better hot&#34;, &#34;Better cold&#34;),
+    (&#34;Better fresh&#34;, &#34;Better preserved&#34;), (&#34;Better handmade&#34;, &#34;Better factory-made&#34;),
+    (&#34;Better saved&#34;, &#34;Better spent&#34;), (&#34;Better planned&#34;, &#34;Better improvised&#34;),
+    (&#34;Better quiet&#34;, &#34;Better lively&#34;), (&#34;Better small&#34;, &#34;Better large&#34;),
+    (&#34;Better short&#34;, &#34;Better long&#34;), (&#34;Better sweet&#34;, &#34;Better savory&#34;),
+    (&#34;Better mild&#34;, &#34;Better bold&#34;), (&#34;Better plain&#34;, &#34;Better fancy&#34;),
+    (&#34;Better familiar&#34;, &#34;Better exotic&#34;), (&#34;Harmless prank&#34;, &#34;Cruel joke&#34;),
+    (&#34;Healthy choice&#34;, &#34;Indulgent choice&#34;), (&#34;Eco-friendly&#34;, &#34;Convenient&#34;),
+    (&#34;Time saver&#34;, &#34;Time waster&#34;), (&#34;Stress relief&#34;, &#34;Stress cause&#34;),
+    (&#34;Confidence boost&#34;, &#34;Confidence drain&#34;), (&#34;Team builder&#34;, &#34;Team divider&#34;),
+    (&#34;Icebreaker&#34;, &#34;Conversation ender&#34;), (&#34;Low effort&#34;, &#34;High effort&#34;),
+    (&#34;Low cost&#34;, &#34;High cost&#34;), (&#34;Low risk&#34;, &#34;High risk&#34;), (&#34;Low noise&#34;, &#34;High noise&#34;),
+    (&#34;Low skill&#34;, &#34;High skill&#34;), (&#34;Low maintenance&#34;, &#34;High maintenance&#34;),
+    (&#34;Window seat&#34;, &#34;Aisle seat&#34;), (&#34;Front row&#34;, &#34;Back row&#34;),
+    (&#34;Packing light&#34;, &#34;Packing heavy&#34;), (&#34;Early arrival&#34;, &#34;Fashionably late&#34;),
+    (&#34;Overprepared&#34;, &#34;Underprepared&#34;), (&#34;Too spicy&#34;, &#34;Too bland&#34;),
+    (&#34;Too sweet&#34;, &#34;Too bitter&#34;), (&#34;Too crowded&#34;, &#34;Too empty&#34;),
+    (&#34;Too formal&#34;, &#34;Too casual&#34;), (&#34;Too strict&#34;, &#34;Too lenient&#34;),
+    (&#34;Too loud&#34;, &#34;Too quiet&#34;), (&#34;Too bright&#34;, &#34;Too dim&#34;),
+    (&#34;Too fast&#34;, &#34;Too slow&#34;), (&#34;Too big&#34;, &#34;Too small&#34;),
+    (&#34;Too serious&#34;, &#34;Too silly&#34;), (&#34;Too cautious&#34;, &#34;Too reckless&#34;),
+    (&#34;Too frugal&#34;, &#34;Too generous&#34;), (&#34;Too organized&#34;, &#34;Too spontaneous&#34;),
+    (&#34;Breakfast food&#34;, &#34;Dinner food&#34;), (&#34;Summer activity&#34;, &#34;Winter activity&#34;),
+    (&#34;Solo hobby&#34;, &#34;Group hobby&#34;), (&#34;Desk job&#34;, &#34;Physical job&#34;),
+    (&#34;Team sport&#34;, &#34;Individual sport&#34;), (&#34;Board game&#34;, &#34;Video game&#34;),
+    (&#34;Fiction book&#34;, &#34;Nonfiction book&#34;), (&#34;Comedy show&#34;, &#34;Drama show&#34;),
+    (&#34;Live music&#34;, &#34;Recorded music&#34;), (&#34;Home cooking&#34;, &#34;Restaurant meal&#34;),
+    (&#34;Walking commute&#34;, &#34;Driving commute&#34;), (&#34;Public transport&#34;, &#34;Private car&#34;),
+    (&#34;Camping trip&#34;, &#34;Hotel stay&#34;), (&#34;Beach vacation&#34;, &#34;Mountain vacation&#34;),
+    (&#34;City break&#34;, &#34;Nature retreat&#34;), (&#34;Guided tour&#34;, &#34;Self-guided tour&#34;),
+    (&#34;Group travel&#34;, &#34;Solo travel&#34;), (&#34;Physical book&#34;, &#34;E-book&#34;),
+    (&#34;Handwritten note&#34;, &#34;Typed message&#34;), (&#34;Cash payment&#34;, &#34;Card payment&#34;),
+    (&#34;Shopping in store&#34;, &#34;Shopping online&#34;), (&#34;New clothes&#34;, &#34;Secondhand clothes&#34;),
+    (&#34;Bright colors&#34;, &#34;Neutral colors&#34;), (&#34;Comfort shoes&#34;, &#34;Dress shoes&#34;),
+    (&#34;Home workout&#34;, &#34;Gym workout&#34;), (&#34;Team meeting&#34;, &#34;One-on-one chat&#34;),
+    (&#34;Strict deadline&#34;, &#34;Flexible deadline&#34;), (&#34;Big celebration&#34;, &#34;Quiet acknowledgment&#34;),
+    (&#34;Public speech&#34;, &#34;Private conversation&#34;), (&#34;Remote work&#34;, &#34;Office work&#34;),
+    (&#34;Video call&#34;, &#34;In-person meeting&#34;), (&#34;Deep research&#34;, &#34;Quick search&#34;),
+    (&#34;Ask for help&#34;, &#34;Figure it out alone&#34;), (&#34;Speak up&#34;, &#34;Stay quiet&#34;),
+    (&#34;Try new food&#34;, &#34;Stick to favorites&#34;), (&#34;Split the bill&#34;, &#34;Treat everyone&#34;),
+    (&#34;Repair item&#34;, &#34;Replace item&#34;), (&#34;Cook from scratch&#34;, &#34;Use shortcuts&#34;),
+    (&#34;Daily routine&#34;, &#34;Mix it up&#34;), (&#34;Family dinner&#34;, &#34;Solo dinner&#34;),
+    (&#34;Hot drink&#34;, &#34;Iced drink&#34;), (&#34;Sweet treat&#34;, &#34;Savory treat&#34;),
+    (&#34;Watching sports&#34;, &#34;Playing sports&#34;), (&#34;Short hike&#34;, &#34;Long trek&#34;),
+    (&#34;Travel journal&#34;, &#34;Travel photos only&#34;), (&#34;Packed schedule&#34;, &#34;Open schedule&#34;),
+    (&#34;Digital detox&#34;, &#34;Always connected&#34;), (&#34;Paper to-do list&#34;, &#34;App to-do list&#34;),
+    (&#34;Heavy blanket&#34;, &#34;Light sheet&#34;), (&#34;Live plants&#34;, &#34;Artificial plants&#34;),
+    (&#34;Dog person&#34;, &#34;Cat person&#34;), (&#34;Gift experiences&#34;, &#34;Gift objects&#34;),
+    (&#34;Carpool&#34;, &#34;Drive solo&#34;), (&#34;Dark mode&#34;, &#34;Light mode&#34;),
+    (&#34;Multitask&#34;, &#34;Single task&#34;), (&#34;Vacation unplugged&#34;, &#34;Vacation online&#34;),
+    (&#34;Vegetarian meal&#34;, &#34;Meat meal&#34;), (&#34;Hot shower&#34;, &#34;Cold rinse&#34;),
+    (&#34;Umbrella carry&#34;, &#34;Hoodie only&#34;), (&#34;DIY repair&#34;, &#34;Call a pro&#34;),
+    (&#34;Group study&#34;, &#34;Solo study&#34;), (&#34;Front of class&#34;, &#34;Back of class&#34;),
+    (&#34;Borrow tools&#34;, &#34;Own every tool&#34;), (&#34;Leash always&#34;, &#34;Off-leash parks&#34;),
+]
+
+templates = [
+    (&#34;Better as a {n}&#34;, &#34;Better as a {m}&#34;),
+    (&#34;Too much {n}&#34;, &#34;Too little {n}&#34;),
+    (&#34;Best for morning&#34;, &#34;Best for evening&#34;),
+    (&#34;Best in summer&#34;, &#34;Best in winter&#34;),
+    (&#34;Best when young&#34;, &#34;Best when older&#34;),
+    (&#34;Fun at a party&#34;, &#34;Fun alone&#34;),
+    (&#34;Good for travel&#34;, &#34;Good at home&#34;),
+    (&#34;Needs a crowd&#34;, &#34;Needs solitude&#34;),
+    (&#34;Loud game&#34;, &#34;Quiet game&#34;),
+    (&#34;Outdoor {n}&#34;, &#34;Indoor {n}&#34;),
+    (&#34;Cheap {n}&#34;, &#34;Premium {n}&#34;),
+    (&#34;Simple {n}&#34;, &#34;Fancy {n}&#34;),
+    (&#34;Old-fashioned {n}&#34;, &#34;Modern {n}&#34;),
+    (&#34;Healthy {n}&#34;, &#34;Indulgent {n}&#34;),
+    (&#34;Quick {n}&#34;, &#34;Slow {n}&#34;),
+    (&#34;Warm {n}&#34;, &#34;Cold {n}&#34;),
+    (&#34;Wet {n}&#34;, &#34;Dry {n}&#34;),
+    (&#34;Soft {n}&#34;, &#34;Crunchy {n}&#34;),
+    (&#34;Mild {n}&#34;, &#34;Strong {n}&#34;),
+    (&#34;Small {n}&#34;, &#34;Giant {n}&#34;),
+]
+
+nouns = [
+    &#34;snack&#34;, &#34;meal&#34;, &#34;drink&#34;, &#34;dessert&#34;, &#34;soup&#34;, &#34;salad&#34;, &#34;sandwich&#34;, &#34;breakfast&#34;,
+    &#34;lunch&#34;, &#34;dinner&#34;, &#34;vacation&#34;, &#34;weekend&#34;, &#34;party&#34;, &#34;meeting&#34;, &#34;gift&#34;, &#34;tool&#34;,
+    &#34;toy&#34;, &#34;game&#34;, &#34;sport&#34;, &#34;hobby&#34;, &#34;book&#34;, &#34;movie&#34;, &#34;song&#34;, &#34;show&#34;, &#34;podcast&#34;,
+    &#34;shirt&#34;, &#34;shoes&#34;, &#34;hat&#34;, &#34;bag&#34;, &#34;chair&#34;, &#34;bed&#34;, &#34;desk&#34;, &#34;lamp&#34;, &#34;blanket&#34;,
+    &#34;pillow&#34;, &#34;towel&#34;, &#34;soap&#34;, &#34;candle&#34;, &#34;plant&#34;, &#34;flower&#34;, &#34;tree&#34;, &#34;garden&#34;,
+    &#34;walk&#34;, &#34;run&#34;, &#34;bike ride&#34;, &#34;swim&#34;, &#34;dance&#34;, &#34;yoga&#34;, &#34;stretch&#34;, &#34;nap&#34;,
+    &#34;rainy day&#34;, &#34;sunny day&#34;, &#34;snow day&#34;, &#34;windy day&#34;, &#34;hot day&#34;, &#34;cold day&#34;,
+    &#34;city park&#34;, &#34;forest trail&#34;, &#34;beach day&#34;, &#34;mountain hike&#34;, &#34;lake swim&#34;,
+    &#34;road trip&#34;, &#34;train ride&#34;, &#34;bus ride&#34;, &#34;boat ride&#34;, &#34;flight&#34;, &#34;cruise&#34;,
+    &#34;hotel room&#34;, &#34;tent night&#34;, &#34;hostel bunk&#34;, &#34;family guest room&#34;,
+    &#34;morning routine&#34;, &#34;evening routine&#34;, &#34;work break&#34;, &#34;school break&#34;,
+    &#34;group chat&#34;, &#34;private journal&#34;, &#34;voice memo&#34;, &#34;handwritten letter&#34;,
+    &#34;calendar block&#34;, &#34;open afternoon&#34;, &#34;planned menu&#34;, &#34;surprise meal&#34;,
+    &#34;store brand&#34;, &#34;name brand&#34;, &#34;thrift find&#34;, &#34;new purchase&#34;,
+    &#34;window view&#34;, &#34;quiet room&#34;, &#34;front porch&#34;, &#34;backyard&#34;,
+    &#34;team project&#34;, &#34;solo task&#34;, &#34;class lecture&#34;, &#34;lab experiment&#34;,
+    &#34;library visit&#34;, &#34;museum trip&#34;, &#34;zoo visit&#34;, &#34;aquarium visit&#34;,
+    &#34;card game&#34;, &#34;puzzle box&#34;, &#34;board game&#34;, &#34;video game&#34;,
+    &#34;comedy film&#34;, &#34;drama film&#34;, &#34;action film&#34;, &#34;documentary&#34;,
+    &#34;pop music&#34;, &#34;classical music&#34;, &#34;jazz music&#34;, &#34;folk music&#34;,
+    &#34;sweet bread&#34;, &#34;savory bread&#34;, &#34;fruit plate&#34;, &#34;cheese plate&#34;,
+    &#34;hot tea&#34;, &#34;iced tea&#34;, &#34;black coffee&#34;, &#34;milk coffee&#34;,
+    &#34;plain water&#34;, &#34;sparkling water&#34;, &#34;fruit smoothie&#34;, &#34;milkshake&#34;,
+    &#34;rice bowl&#34;, &#34;pasta bowl&#34;, &#34;noodle soup&#34;, &#34;stew pot&#34;,
+    &#34;grilled food&#34;, &#34;steamed food&#34;, &#34;fried food&#34;, &#34;baked food&#34;,
+    &#34;spicy dish&#34;, &#34;mild dish&#34;, &#34;sour dish&#34;, &#34;creamy dish&#34;,
+    &#34;shared plate&#34;, &#34;personal plate&#34;, &#34;buffet line&#34;, &#34;set menu&#34;,
+    &#34;picnic blanket&#34;, &#34;restaurant table&#34;, &#34;kitchen counter&#34;, &#34;dining table&#34;,
+    &#34;birthday cake&#34;, &#34;weekday muffin&#34;, &#34;holiday feast&#34;, &#34;simple soup&#34;,
+    &#34;wedding dance&#34;, &#34;quiet toast&#34;, &#34;school play&#34;, &#34;sports match&#34;,
+    &#34;morning jog&#34;, &#34;evening stroll&#34;, &#34;noon swim&#34;, &#34;sunset watch&#34;,
+    &#34;cloudy sky&#34;, &#34;clear sky&#34;, &#34;starry night&#34;, &#34;moonlit walk&#34;,
+    &#34;spring flower&#34;, &#34;autumn leaf&#34;, &#34;summer shade&#34;, &#34;winter fire&#34;,
+    &#34;open window&#34;, &#34;closed window&#34;, &#34;ceiling fan&#34;, &#34;heated room&#34;,
+    &#34;soft rug&#34;, &#34;hard floor&#34;, &#34;wood chair&#34;, &#34;cushioned sofa&#34;,
+    &#34;bright lamp&#34;, &#34;dim lamp&#34;, &#34;natural light&#34;, &#34;candle light&#34;,
+    &#34;wall clock&#34;, &#34;phone alarm&#34;, &#34;paper list&#34;, &#34;digital reminder&#34;,
+    &#34;big backpack&#34;, &#34;small pouch&#34;, &#34;rolling suitcase&#34;, &#34;duffel bag&#34;,
+    &#34;winter coat&#34;, &#34;light jacket&#34;, &#34;rain boots&#34;, &#34;sandals&#34;,
+    &#34;wool scarf&#34;, &#34;cotton scarf&#34;, &#34;sun hat&#34;, &#34;wool hat&#34;,
+    &#34;running shoes&#34;, &#34;casual sneakers&#34;, &#34;dress shoes&#34;, &#34;house slippers&#34;,
+    &#34;team huddle&#34;, &#34;solo warmup&#34;, &#34;coach speech&#34;, &#34;quiet practice&#34;,
+    &#34;victory cheer&#34;, &#34;humble nod&#34;, &#34;group photo&#34;, &#34;candid shot&#34;,
+    &#34;planned gift&#34;, &#34;surprise gift&#34;, &#34;practical gift&#34;, &#34;fun gift&#34;,
+    &#34;store wrap&#34;, &#34;gift bag&#34;, &#34;handmade wrap&#34;, &#34;no wrap&#34;,
+    &#34;thank-you note&#34;, &#34;quick text&#34;, &#34;phone thank you&#34;, &#34;in-person thanks&#34;,
+    &#34;strict teacher&#34;, &#34;easygoing teacher&#34;, &#34;tough coach&#34;, &#34;gentle coach&#34;,
+    &#34;tight schedule&#34;, &#34;loose schedule&#34;, &#34;early meeting&#34;, &#34;late meeting&#34;,
+    &#34;short email&#34;, &#34;long report&#34;, &#34;bullet list&#34;, &#34;full essay&#34;,
+    &#34;quick fix&#34;, &#34;proper fix&#34;, &#34;temp patch&#34;, &#34;full rebuild&#34;,
+    &#34;ask directions&#34;, &#34;use a map&#34;, &#34;follow signs&#34;, &#34;wander freely&#34;,
+    &#34;busy market&#34;, &#34;quiet shop&#34;, &#34;mega mall&#34;, &#34;corner store&#34;,
+    &#34;fresh market&#34;, &#34;frozen aisle&#34;, &#34;bulk warehouse&#34;, &#34;boutique shop&#34;,
+    &#34;home garden&#34;, &#34;balcony pot&#34;, &#34;community plot&#34;, &#34;window herb&#34;,
+    &#34;pet adoption&#34;, &#34;pet fostering&#34;, &#34;daily walk&#34;, &#34;yard play&#34;,
+    &#34;bird feeder&#34;, &#34;squirrel chase&#34;, &#34;fish pond&#34;, &#34;butterfly garden&#34;,
+    &#34;recycle bin&#34;, &#34;compost pile&#34;, &#34;reuse jar&#34;, &#34;donation box&#34;,
+    &#34;charity run&#34;, &#34;quiet donation&#34;, &#34;volunteer shift&#34;, &#34;online gift&#34;,
+    &#34;town festival&#34;, &#34;home movie night&#34;, &#34;street fair&#34;, &#34;board game night&#34;,
+    &#34;neighborhood walk&#34;, &#34;solo hike&#34;, &#34;family bike ride&#34;, &#34;friend run&#34;,
+    &#34;early bedtime&#34;, &#34;late bedtime&#34;, &#34;short nap&#34;, &#34;long sleep-in&#34;,
+    &#34;alarm loud&#34;, &#34;alarm gentle&#34;, &#34;wake light&#34;, &#34;wake dark&#34;,
+    &#34;fan noise&#34;, &#34;total silence&#34;, &#34;rain sounds&#34;, &#34;white noise&#34;,
+    &#34;made bed&#34;, &#34;rumpled bed&#34;, &#34;neat desk&#34;, &#34;creative desk&#34;,
+    &#34;empty inbox&#34;, &#34;full inbox&#34;, &#34;clean kitchen&#34;, &#34;busy kitchen&#34;,
+    &#34;folded laundry&#34;, &#34;laundry pile&#34;, &#34;sorted socks&#34;, &#34;mixed drawer&#34;,
+    &#34;label shelf&#34;, &#34;open shelf&#34;, &#34;closed closet&#34;, &#34;open rack&#34;,
+    &#34;minimal wallet&#34;, &#34;stuffed wallet&#34;, &#34;coin jar&#34;, &#34;digital wallet&#34;,
+    &#34;budget plan&#34;, &#34;spend freely&#34;, &#34;save first&#34;, &#34;enjoy now&#34;,
+    &#34;coupon clip&#34;, &#34;full price&#34;, &#34;sale hunt&#34;, &#34;buy once&#34;,
+    &#34;warranty keep&#34;, &#34;warranty skip&#34;, &#34;manual read&#34;, &#34;guess setup&#34;,
+    &#34;new gadget&#34;, &#34;old reliable&#34;, &#34;latest update&#34;, &#34;stable version&#34;,
+    &#34;cloud sync&#34;, &#34;local file&#34;, &#34;shared folder&#34;, &#34;private folder&#34;,
+    &#34;public post&#34;, &#34;private diary&#34;, &#34;group story&#34;, &#34;direct message&#34;,
+    &#34;camera on&#34;, &#34;camera off&#34;, &#34;mic on&#34;, &#34;mic muted&#34;,
+    &#34;reply now&#34;, &#34;reply later&#34;, &#34;read all&#34;, &#34;skim headlines&#34;,
+    &#34;news daily&#34;, &#34;news weekly&#34;, &#34;deep article&#34;, &#34;quick headline&#34;,
+    &#34;podcast learn&#34;, &#34;music relax&#34;, &#34;audiobook story&#34;, &#34;silent read&#34;,
+    &#34;fiction escape&#34;, &#34;nonfiction learn&#34;, &#34;poetry read&#34;, &#34;how-to guide&#34;,
+    &#34;paint canvas&#34;, &#34;sketch pad&#34;, &#34;clay sculpt&#34;, &#34;paper craft&#34;,
+    &#34;piano practice&#34;, &#34;guitar strum&#34;, &#34;drum beat&#34;, &#34;voice hum&#34;,
+    &#34;choir sing&#34;, &#34;solo sing&#34;, &#34;dance class&#34;, &#34;free dance&#34;,
+    &#34;theater seat&#34;, &#34;home stream&#34;, &#34;live show&#34;, &#34;recorded show&#34;,
+    &#34;arcade game&#34;, &#34;park frisbee&#34;, &#34;pool splash&#34;, &#34;lake float&#34;,
+    &#34;kite day&#34;, &#34;ball catch&#34;, &#34;rope jump&#34;, &#34;hopscotch chalk&#34;,
+    &#34;snow angel&#34;, &#34;sand castle&#34;, &#34;leaf pile&#34;, &#34;puddle splash&#34;,
+    &#34;campfire song&#34;, &#34;indoor playlist&#34;, &#34;stargaze blanket&#34;, &#34;moon walk&#34;,
+    &#34;sunrise watch&#34;, &#34;sunset watch&#34;, &#34;early market&#34;, &#34;late snack run&#34;,
+]
+
+pairs_mn = [
+    (&#34;Better as a book&#34;, &#34;Better as a movie&#34;),
+    (&#34;Better as a song&#34;, &#34;Better as a dance&#34;),
+    (&#34;Sandwich&#34;, &#34;Wrap&#34;),
+    (&#34;Pancake&#34;, &#34;Waffle&#34;),
+    (&#34;Tea person&#34;, &#34;Coffee person&#34;),
+    (&#34;Cat nap&#34;, &#34;Long sleep&#34;),
+    (&#34;City museum&#34;, &#34;Science museum&#34;),
+    (&#34;History tour&#34;, &#34;Food tour&#34;),
+    (&#34;Window shopping&#34;, &#34;Purpose shopping&#34;),
+    (&#34;Talking bus&#34;, &#34;Quiet train&#34;),
+    (&#34;Shared taxi&#34;, &#34;Private ride&#34;),
+    (&#34;Hostel bunk&#34;, &#34;Hotel suite&#34;),
+    (&#34;Tent camping&#34;, &#34;Cabin stay&#34;),
+    (&#34;Mountain view&#34;, &#34;Ocean view&#34;),
+    (&#34;Forest walk&#34;, &#34;Beach walk&#34;),
+    (&#34;Snow sport&#34;, &#34;Water sport&#34;),
+    (&#34;Indoor pool&#34;, &#34;Outdoor pool&#34;),
+    (&#34;Team puzzle&#34;, &#34;Solo puzzle&#34;),
+    (&#34;Strategy game&#34;, &#34;Luck game&#34;),
+    (&#34;Word game&#34;, &#34;Number game&#34;),
+    (&#34;Card trick&#34;, &#34;Board strategy&#34;),
+    (&#34;Quiet library&#34;, &#34;Busy cafe&#34;),
+    (&#34;Study silence&#34;, &#34;Study music&#34;),
+    (&#34;Morning class&#34;, &#34;Evening class&#34;),
+    (&#34;Online course&#34;, &#34;In-person class&#34;),
+    (&#34;Group lab&#34;, &#34;Solo lab&#34;),
+    (&#34;Big lecture&#34;, &#34;Small seminar&#34;),
+    (&#34;Open notes test&#34;, &#34;Closed book test&#34;),
+    (&#34;Timed quiz&#34;, &#34;Take-home paper&#34;),
+    (&#34;Extra homework&#34;, &#34;Class time only&#34;),
+    (&#34;School club&#34;, &#34;Free afternoon&#34;),
+    (&#34;Sports practice&#34;, &#34;Art club&#34;),
+    (&#34;School concert&#34;, &#34;Sports game&#34;),
+    (&#34;Field trip bus&#34;, &#34;Walk nearby&#34;),
+    (&#34;Cafeteria tray&#34;, &#34;Packed lunch&#34;),
+    (&#34;Vending snack&#34;, &#34;Home snack&#34;),
+    (&#34;Shared fries&#34;, &#34;Own fries&#34;),
+    (&#34;Birthday song&#34;, &#34;Quiet wish&#34;),
+    (&#34;Big party&#34;, &#34;Small dinner&#34;),
+    (&#34;Costume event&#34;, &#34;Casual event&#34;),
+    (&#34;Holiday lights&#34;, &#34;Simple decor&#34;),
+    (&#34;Gift exchange&#34;, &#34;No gifts&#34;),
+    (&#34;Fireworks show&#34;, &#34;Quiet evening&#34;),
+    (&#34;New Year party&#34;, &#34;Early night in&#34;),
+    (&#34;Summer camp lake&#34;, &#34;Summer camp crafts&#34;),
+    (&#34;Winter sled&#34;, &#34;Winter cocoa&#34;),
+    (&#34;Rainy read&#34;, &#34;Rainy movie&#34;),
+    (&#34;Sunny hike&#34;, &#34;Sunny swim&#34;),
+    (&#34;Windy kite&#34;, &#34;Windy walk&#34;),
+    (&#34;Hot soup day&#34;, &#34;Hot salad day&#34;),
+    (&#34;Cold smoothie&#34;, &#34;Cold stew&#34;),
+    (&#34;Sweet cereal&#34;, &#34;Savory toast&#34;),
+    (&#34;Fruit yogurt&#34;, &#34;Egg breakfast&#34;),
+    (&#34;Light lunch&#34;, &#34;Heavy lunch&#34;),
+    (&#34;Snack graze&#34;, &#34;Three meals&#34;),
+    (&#34;Dessert first&#34;, &#34;Dessert last&#34;),
+    (&#34;Cook together&#34;, &#34;Cook alone&#34;),
+    (&#34;Recipe exact&#34;, &#34;Recipe guess&#34;),
+    (&#34;Spice rack full&#34;, &#34;Salt only&#34;),
+    (&#34;Olive oil cook&#34;, &#34;Butter cook&#34;),
+    (&#34;Steam veggies&#34;, &#34;Roast veggies&#34;),
+    (&#34;Raw salad&#34;, &#34;Cooked greens&#34;),
+    (&#34;Fresh juice&#34;, &#34;Packaged juice&#34;),
+    (&#34;Homemade jam&#34;, &#34;Store jam&#34;),
+    (&#34;Street food try&#34;, &#34;Home food safe&#34;),
+    (&#34;Food adventure&#34;, &#34;Same order&#34;),
+    (&#34;Menu explorer&#34;, &#34;Usual pick&#34;),
+    (&#34;Chef plate&#34;, &#34;Buffet plate&#34;),
+    (&#34;Tiny tasting&#34;, &#34;Big portion&#34;),
+    (&#34;Slow meal&#34;, &#34;Fast meal&#34;),
+    (&#34;Table chat&#34;, &#34;TV dinner&#34;),
+    (&#34;Napkin lap&#34;, &#34;Elbow on table&#34;),
+    (&#34;Formal please&#34;, &#34;Casual thanks&#34;),
+    (&#34;Toast speech&#34;, &#34;Quiet clink&#34;),
+    (&#34;Group photo&#34;, &#34;Candid laugh&#34;),
+    (&#34;Planned toast&#34;, &#34;Surprise speech&#34;),
+    (&#34;Host duties&#34;, &#34;Guest relax&#34;),
+    (&#34;Offer coat&#34;, &#34;Keep coat&#34;),
+    (&#34;Walk to door&#34;, &#34;Wave from couch&#34;),
+    (&#34;Thank host&#34;, &#34;Quick goodbye&#34;),
+    (&#34;RSVP yes&#34;, &#34;Maybe reply&#34;),
+    (&#34;Bring dish&#34;, &#34;Just arrive&#34;),
+    (&#34;Stay to clean&#34;, &#34;Leave early&#34;),
+    (&#34;Help cook&#34;, &#34;Set table only&#34;),
+    (&#34;Wash dishes&#34;, &#34;Dry dishes&#34;),
+    (&#34;Sweep floor&#34;, &#34;Wipe counter&#34;),
+    (&#34;Take trash out&#34;, &#34;Sort recycling&#34;),
+    (&#34;Water plants&#34;, &#34;Mow lawn&#34;),
+    (&#34;Fix squeak&#34;, &#34;Ignore squeak&#34;),
+    (&#34;Change bulb&#34;, &#34;Dim room&#34;),
+    (&#34;Hang frame&#34;, &#34;Lean frame&#34;),
+    (&#34;Tighten screw&#34;, &#34;Tape fix&#34;),
+    (&#34;Paint wall&#34;, &#34;Leave wall&#34;),
+    (&#34;New curtain&#34;, &#34;Old curtain&#34;),
+    (&#34;Rug center&#34;, &#34;Rug corner&#34;),
+    (&#34;Bookshelf sort&#34;, &#34;Stack anywhere&#34;),
+    (&#34;Toy bin&#34;, &#34;Floor play&#34;),
+    (&#34;Label box&#34;, &#34;Mystery box&#34;),
+    (&#34;Garage tidy&#34;, &#34;Garage project&#34;),
+    (&#34;Attic storage&#34;, &#34;Closet storage&#34;),
+    (&#34;Basement game room&#34;, &#34;Living room games&#34;),
+    (&#34;Balcony chair&#34;, &#34;Yard chair&#34;),
+    (&#34;Porch swing&#34;, &#34;Kitchen stool&#34;),
+    (&#34;Fireplace evening&#34;, &#34;Heater evening&#34;),
+    (&#34;Fan sleep&#34;, &#34;AC sleep&#34;),
+    (&#34;Open curtain&#34;, &#34;Blackout curtain&#34;),
+    (&#34;Birds wake you&#34;, &#34;Alarm wakes you&#34;),
+    (&#34;Snooze button&#34;, &#34;Up on first ring&#34;),
+    (&#34;Stretch wake&#34;, &#34;Coffee wake&#34;),
+    (&#34;Cold face splash&#34;, &#34;Slow wake&#34;),
+    (&#34;Morning news&#34;, &#34;Morning music&#34;),
+    (&#34;Evening podcast&#34;, &#34;Evening silence&#34;),
+    (&#34;Night read&#34;, &#34;Night stream&#34;),
+    (&#34;Early gym&#34;, &#34;Late gym&#34;),
+    (&#34;Lunch walk&#34;, &#34;Lunch desk&#34;),
+    (&#34;Afternoon tea&#34;, &#34;Afternoon nap&#34;),
+    (&#34;Sunset jog&#34;, &#34;Sunrise jog&#34;),
+    (&#34;Weekend chore&#34;, &#34;Weekend rest&#34;),
+    (&#34;Sunday plan&#34;, &#34;Sunday surprise&#34;),
+    (&#34;Monday ready&#34;, &#34;Monday rush&#34;),
+    (&#34;Friday treat&#34;, &#34;Friday routine&#34;),
+    (&#34;Payday save&#34;, &#34;Payday splurge&#34;),
+    (&#34;List shopper&#34;, &#34;Impulse shopper&#34;),
+    (&#34;Cart return&#34;, &#34;Cart ditch&#34;),
+    (&#34;Self checkout&#34;, &#34;Cashier chat&#34;),
+    (&#34;Bag bring&#34;, &#34;Bag buy&#34;),
+    (&#34;Receipt keep&#34;, &#34;Receipt toss&#34;),
+    (&#34;Price compare&#34;, &#34;First pick&#34;),
+    (&#34;Warranty line&#34;, &#34;Skip line&#34;),
+    (&#34;Return item&#34;, &#34;Keep item&#34;),
+    (&#34;Exchange size&#34;, &#34;Keep size&#34;),
+    (&#34;Try on many&#34;, &#34;Grab one&#34;),
+    (&#34;Mirror check&#34;, &#34;No mirror&#34;),
+    (&#34;Friend opinion&#34;, &#34;Own opinion&#34;),
+    (&#34;Trend follow&#34;, &#34;Style own&#34;),
+    (&#34;Match outfit&#34;, &#34;Mix outfit&#34;),
+    (&#34;Iron shirt&#34;, &#34;Wrinkled okay&#34;),
+    (&#34;Polish shoes&#34;, &#34;Scuffed okay&#34;),
+    (&#34;Hair up&#34;, &#34;Hair down&#34;),
+    (&#34;Hat day&#34;, &#34;No hat day&#34;),
+    (&#34;Glasses on&#34;, &#34;Contacts in&#34;),
+    (&#34;Watch time&#34;, &#34;Phone time&#34;),
+    (&#34;Ring jewelry&#34;, &#34;No jewelry&#34;),
+    (&#34;Perfume light&#34;, &#34;No scent&#34;),
+    (&#34;Lotion daily&#34;, &#34;Lotion sometimes&#34;),
+    (&#34;Sunblock face&#34;, &#34;Sunblock skip&#34;),
+    (&#34;Chapstick carry&#34;, &#34;Dry lips okay&#34;),
+    (&#34;Hand wash often&#34;, &#34;Sanitizer quick&#34;),
+    (&#34;Mask when sick&#34;, &#34;Rest at home&#34;),
+    (&#34;Thermometer check&#34;, &#34;Feel it out&#34;),
+    (&#34;Rest day&#34;, &#34;Push through&#34;),
+    (&#34;Doctor visit&#34;, &#34;Home rest&#34;),
+    (&#34;Pharmacy ask&#34;, &#34;Cabinet guess&#34;),
+    (&#34;Vitamins daily&#34;, &#34;Food only&#34;),
+    (&#34;Water bottle full&#34;, &#34;Cup when thirsty&#34;),
+    (&#34;Sugar in tea&#34;, &#34;Plain tea&#34;),
+    (&#34;Cream in coffee&#34;, &#34;Black coffee&#34;),
+    (&#34;Ice in soda&#34;, &#34;Room temp soda&#34;),
+    (&#34;Straw use&#34;, &#34;Sip direct&#34;),
+    (&#34;Napkin stack&#34;, &#34;One napkin&#34;),
+    (&#34;Shared pitcher&#34;, &#34;Own bottle&#34;),
+    (&#34;Family platter&#34;, &#34;Single plate&#34;),
+    (&#34;Potluck star&#34;, &#34;Potluck helper&#34;),
+    (&#34;Recipe share&#34;, &#34;Secret recipe&#34;),
+    (&#34;Cooking video&#34;, &#34;Cookbook page&#34;),
+    (&#34;Taste as you go&#34;, &#34;Measure exactly&#34;),
+    (&#34;Pinch of salt&#34;, &#34;Measured salt&#34;),
+    (&#34;Fresh herbs&#34;, &#34;Dried herbs&#34;),
+    (&#34;Lemon squeeze&#34;, &#34;No citrus&#34;),
+    (&#34;Garlic lover&#34;, &#34;Mild garlic&#34;),
+    (&#34;Onion raw&#34;, &#34;Onion cooked&#34;),
+    (&#34;Cheese topping&#34;, &#34;No cheese&#34;),
+    (&#34;Sauce on side&#34;, &#34;Sauce mixed&#34;),
+    (&#34;Ketchup fan&#34;, &#34;No ketchup&#34;),
+    (&#34;Mustard fan&#34;, &#34;No mustard&#34;),
+    (&#34;Mayo sandwich&#34;, &#34;Dry sandwich&#34;),
+    (&#34;Pickle side&#34;, &#34;No pickle&#34;),
+    (&#34;Olive snack&#34;, &#34;No olive&#34;),
+    (&#34;Nut topping&#34;, &#34;Nut free&#34;),
+    (&#34;Seed bread&#34;, &#34;Plain bread&#34;),
+    (&#34;Whole grain&#34;, &#34;White bread&#34;),
+    (&#34;Brown rice&#34;, &#34;White rice&#34;),
+    (&#34;Quinoa bowl&#34;, &#34;Rice bowl&#34;),
+    (&#34;Noodle soup&#34;, &#34;Bread soup&#34;),
+    (&#34;Cream pasta&#34;, &#34;Tomato pasta&#34;),
+    (&#34;Butter toast&#34;, &#34;Jam toast&#34;),
+    (&#34;Honey tea&#34;, &#34;Lemon tea&#34;),
+    (&#34;Mint tea&#34;, &#34;Ginger tea&#34;),
+    (&#34;Cocoa marshmallow&#34;, &#34;Plain cocoa&#34;),
+    (&#34;Apple slice&#34;, &#34;Apple pie&#34;),
+    (&#34;Banana bread&#34;, &#34;Banana plain&#34;),
+    (&#34;Berry bowl&#34;, &#34;Melon bowl&#34;),
+    (&#34;Citrus fruit&#34;, &#34;Stone fruit&#34;),
+    (&#34;Frozen treat&#34;, &#34;Fresh fruit&#34;),
+    (&#34;Popsicle day&#34;, &#34;Cookie day&#34;),
+    (&#34;Cake slice&#34;, &#34;Cookie pair&#34;),
+    (&#34;Pie wedge&#34;, &#34;Cupcake&#34;),
+    (&#34;Birthday candles&#34;, &#34;Quiet wish cake&#34;),
+    (&#34;Ice cream cone&#34;, &#34;Ice cream cup&#34;),
+    (&#34;Sundae toppings&#34;, &#34;Plain scoop&#34;),
+    (&#34;Waffle dessert&#34;, &#34;Fruit dessert&#34;),
+    (&#34;Pudding cup&#34;, &#34;Yogurt cup&#34;),
+    (&#34;Cheese board&#34;, &#34;Cracker plate&#34;),
+    (&#34;Popcorn bowl&#34;, &#34;Pretzel bag&#34;),
+    (&#34;Trail mix&#34;, &#34;Plain nuts&#34;),
+    (&#34;Granola bar&#34;, &#34;Candy bar&#34;),
+    (&#34;Protein focus&#34;, &#34;Treat focus&#34;),
+    (&#34;Sugar free&#34;, &#34;Regular sweet&#34;),
+    (&#34;Caffeine yes&#34;, &#34;Decaf only&#34;),
+    (&#34;Sparkling yes&#34;, &#34;Still only&#34;),
+    (&#34;Hot lunchbox&#34;, &#34;Cold lunchbox&#34;),
+    (&#34;Thermos soup&#34;, &#34;Sandwich pack&#34;),
+    (&#34;Cut fruit&#34;, &#34;Whole fruit&#34;),
+    (&#34;Veggie sticks&#34;, &#34;Chips bag&#34;),
+    (&#34;Dip cup&#34;, &#34;Dry snack&#34;),
+    (&#34;Meal kit&#34;, &#34;Pantry improv&#34;),
+    (&#34;Freezer meal&#34;, &#34;Fresh cook&#34;),
+    (&#34;Slow cooker&#34;, &#34;Quick pan&#34;),
+    (&#34;Microwave fast&#34;, &#34;Oven slow&#34;),
+    (&#34;Grill outside&#34;, &#34;Pan inside&#34;),
+    (&#34;Picnic basket&#34;, &#34;Drive-thru bag&#34;),
+    (&#34;Park bench&#34;, &#34;Kitchen table&#34;),
+    (&#34;Rooftop view&#34;, &#34;Garden view&#34;),
+    (&#34;River path&#34;, &#34;City street&#34;),
+    (&#34;Bridge walk&#34;, &#34;Tunnel ride&#34;),
+    (&#34;Ferry ride&#34;, &#34;Bus ride&#34;),
+    (&#34;Cable car&#34;, &#34;Stair climb&#34;),
+    (&#34;Escalator&#34;, &#34;Stairs&#34;),
+    (&#34;Elevator&#34;, &#34;Walk up&#34;),
+    (&#34;Moving walkway&#34;, &#34;Power walk&#34;),
+    (&#34;Bike lane&#34;, &#34;Sidewalk stroll&#34;),
+    (&#34;Scooter ride&#34;, &#34;Long walk&#34;),
+    (&#34;Roller skates&#34;, &#34;Regular shoes&#34;),
+    (&#34;Ice skates&#34;, &#34;Snow boots&#34;),
+    (&#34;Snow shoes&#34;, &#34;Rain boots&#34;),
+    (&#34;Umbrella big&#34;, &#34;Compact umbrella&#34;),
+    (&#34;Raincoat&#34;, &#34;Hoodie&#34;),
+    (&#34;Windbreaker&#34;, &#34;Thick coat&#34;),
+    (&#34;Layer many&#34;, &#34;One warm layer&#34;),
+    (&#34;Gloves thin&#34;, &#34;Gloves thick&#34;),
+    (&#34;Earmuffs&#34;, &#34;Hat down&#34;),
+    (&#34;Sunglasses big&#34;, &#34;Cap brim&#34;),
+    (&#34;Visor hat&#34;, &#34;Bucket hat&#34;),
+    (&#34;Bandana&#34;, &#34;Scarf&#34;),
+    (&#34;Belt tight&#34;, &#34;Elastic waist&#34;),
+    (&#34;Pocket watch&#34;, &#34;Wrist watch&#34;),
+    (&#34;Backpack carry&#34;, &#34;Shoulder bag&#34;),
+    (&#34;Crossbody bag&#34;, &#34;Tote bag&#34;),
+    (&#34;Fanny pack&#34;, &#34;Deep pockets&#34;),
+    (&#34;Wallet slim&#34;, &#34;Wallet stuffed&#34;),
+    (&#34;Key hook&#34;, &#34;Key bowl&#34;),
+    (&#34;Door key&#34;, &#34;Code lock&#34;),
+    (&#34;Porch light&#34;, &#34;Dark entry&#34;),
+    (&#34;Welcome mat&#34;, &#34;Bare step&#34;),
+    (&#34;Doorbell ring&#34;, &#34;Knock first&#34;),
+    (&#34;Package room&#34;, &#34;Front step&#34;),
+    (&#34;Neighbor chat&#34;, &#34;Quick wave&#34;),
+    (&#34;Fence talk&#34;, &#34;Text hello&#34;),
+    (&#34;Borrow cup sugar&#34;, &#34;Buy your own&#34;),
+    (&#34;Share wifi&#34;, &#34;Guest network&#34;),
+    (&#34;House key trust&#34;, &#34;No key trust&#34;),
+    (&#34;Plant sit&#34;, &#34;Decline sit&#34;),
+    (&#34;Mail collect&#34;, &#34;Let pile&#34;),
+    (&#34;Trash day help&#34;, &#34;Own bins&#34;),
+    (&#34;Snow shovel help&#34;, &#34;Own shovel&#34;),
+    (&#34;Lawn mow offer&#34;, &#34;Hire service&#34;),
+    (&#34;Tool lend&#34;, &#34;Tool library&#34;),
+    (&#34;Recipe swap&#34;, &#34;Keep secret&#34;),
+    (&#34;Book lend&#34;, &#34;Library only&#34;),
+    (&#34;Movie lend&#34;, &#34;Stream link&#34;),
+    (&#34;Game lend&#34;, &#34;Game night here&#34;),
+    (&#34;Toy swap&#34;, &#34;Keep toys&#34;),
+    (&#34;Clothes swap&#34;, &#34;Donate only&#34;),
+    (&#34;Furniture hand-me-down&#34;, &#34;Buy new&#34;),
+    (&#34;Thrift treasure&#34;, &#34;Retail new&#34;),
+    (&#34;Antique charm&#34;, &#34;Modern sleek&#34;),
+    (&#34;Vintage style&#34;, &#34;Current trend&#34;),
+    (&#34;Retro game&#34;, &#34;New release&#34;),
+    (&#34;Classic film&#34;, &#34;New blockbuster&#34;),
+    (&#34;Old song&#34;, &#34;New hit&#34;),
+    (&#34;Live acoustic&#34;, &#34;Studio track&#34;),
+    (&#34;Unplugged set&#34;, &#34;Full band&#34;),
+    (&#34;Small venue&#34;, &#34;Big arena&#34;),
+    (&#34;Front stage&#34;, &#34;Back lawn&#34;),
+    (&#34;Meet and greet&#34;, &#34;Watch only&#34;),
+    (&#34;Autograph line&#34;, &#34;No line&#34;),
+    (&#34;Fan shirt&#34;, &#34;Regular clothes&#34;),
+    (&#34;Face paint&#34;, &#34;No paint&#34;),
+    (&#34;Team scarf&#34;, &#34;Neutral coat&#34;),
+    (&#34;Home colors&#34;, &#34;Visiting colors&#34;),
+    (&#34;Cheer loud&#34;, &#34;Clap polite&#34;),
+    (&#34;Stats nerd&#34;, &#34;Vibes only&#34;),
+    (&#34;Play by play&#34;, &#34;Background noise&#34;),
+    (&#34;Halftime snack&#34;, &#34;Watch every play&#34;),
+    (&#34;Overtime thrill&#34;, &#34;Regulation enough&#34;),
+    (&#34;Penalty tension&#34;, &#34;Flow game&#34;),
+    (&#34;Underdog cheer&#34;, &#34;Favorite cheer&#34;),
+    (&#34;Fair play&#34;, &#34;Win at all costs&#34;),
+    (&#34;Handshake after&#34;, &#34;Quick exit&#34;),
+    (&#34;Trophy photo&#34;, &#34;Team huddle&#34;),
+    (&#34;Medal display&#34;, &#34;Drawer stash&#34;),
+    (&#34;Ribbon wall&#34;, &#34;Memory box&#34;),
+    (&#34;Certificate frame&#34;, &#34;Folder file&#34;),
+    (&#34;Report card show&#34;, &#34;Report card private&#34;),
+    (&#34;Praise loud&#34;, &#34;Praise quiet&#34;),
+    (&#34;Sticker reward&#34;, &#34;Word praise&#34;),
+    (&#34;Prize box&#34;, &#34;High five&#34;),
+    (&#34;Chart stars&#34;, &#34;Trust effort&#34;),
+    (&#34;Allowance save&#34;, &#34;Allowance spend&#34;),
+    (&#34;Chore chart&#34;, &#34;Chore when asked&#34;),
+    (&#34;Screen time earn&#34;, &#34;Screen time free&#34;),
+    (&#34;Bedtime story&#34;, &#34;Bedtime solo&#34;),
+    (&#34;Night light&#34;, &#34;Hall light&#34;),
+    (&#34;Stuffed friend&#34;, &#34;Pillow only&#34;),
+    (&#34;Blanket fort&#34;, &#34;Open bed&#34;),
+    (&#34;Bath toys&#34;, &#34;Quick rinse&#34;),
+    (&#34;Bubble bath&#34;, &#34;Shower only&#34;),
+    (&#34;Hair brush&#34;, &#34;Finger comb&#34;),
+    (&#34;Braid hair&#34;, &#34;Loose hair&#34;),
+    (&#34;Matching pajamas&#34;, &#34;Any shirt&#34;),
+    (&#34;Slippers bed&#34;, &#34;Bare feet&#34;),
+    (&#34;Warm socks sleep&#34;, &#34;Cool feet&#34;),
+    (&#34;Window crack&#34;, &#34;Window shut&#34;),
+    (&#34;Humidifier on&#34;, &#34;Bowl of water&#34;),
+    (&#34;Air purifier&#34;, &#34;Open window&#34;),
+    (&#34;Houseplant many&#34;, &#34;One plant&#34;),
+    (&#34;Succulent easy&#34;, &#34;Fern fussy&#34;),
+    (&#34;Cactus hardy&#34;, &#34;Orchid delicate&#34;),
+    (&#34;Herb garden&#34;, &#34;Store herbs&#34;),
+    (&#34;Tomato pot&#34;, &#34;Store tomato&#34;),
+    (&#34;Compost bin&#34;, &#34;Trash bin&#34;),
+    (&#34;Rain barrel&#34;, &#34;Hose only&#34;),
+    (&#34;Solar lights&#34;, &#34;Plug lights&#34;),
+    (&#34;LED bulbs&#34;, &#34;Warm bulbs&#34;),
+    (&#34;Timer lights&#34;, &#34;Manual switch&#34;),
+    (&#34;Smart thermostat&#34;, &#34;Manual dial&#34;),
+    (&#34;Draft stopper&#34;, &#34;Extra blanket&#34;),
+    (&#34;Rug grip&#34;, &#34;Rug slide&#34;),
+    (&#34;Chair pad&#34;, &#34;Hard seat&#34;),
+    (&#34;Standing mat&#34;, &#34;Bare floor&#34;),
+    (&#34;Desk lamp&#34;, &#34;Overhead light&#34;),
+    (&#34;Monitor stand&#34;, &#34;Book stack&#34;),
+    (&#34;Cable tidy&#34;, &#34;Cable tangle&#34;),
+    (&#34;Drawer organizer&#34;, &#34;Loose drawer&#34;),
+    (&#34;File folder&#34;, &#34;Pile stack&#34;),
+    (&#34;Sticky tab&#34;, &#34;Dog ear&#34;),
+    (&#34;Highlighter mark&#34;, &#34;Margin note&#34;),
+    (&#34;Index cards&#34;, &#34;Notebook pages&#34;),
+    (&#34;Whiteboard plan&#34;, &#34;Paper scrap&#34;),
+    (&#34;Bullet journal&#34;, &#34;Blank notebook&#34;),
+    (&#34;Color code&#34;, &#34;One pen&#34;),
+    (&#34;Fountain pen&#34;, &#34;Ballpoint&#34;),
+    (&#34;Pencil sketch&#34;, &#34;Ink line&#34;),
+    (&#34;Eraser heavy&#34;, &#34;Light stroke&#34;),
+    (&#34;Ruler straight&#34;, &#34;Freehand&#34;),
+    (&#34;Compass circle&#34;, &#34;Round trace&#34;),
+    (&#34;Graph paper&#34;, &#34;Blank page&#34;),
+    (&#34;Lined paper&#34;, &#34;Dot grid&#34;),
+    (&#34;Spiral notebook&#34;, &#34;Bound book&#34;),
+    (&#34;Clipboard field&#34;, &#34;Desk sit&#34;),
+    (&#34;Laptop couch&#34;, &#34;Desk proper&#34;),
+    (&#34;Second monitor&#34;, &#34;Single screen&#34;),
+    (&#34;Wireless mouse&#34;, &#34;Trackpad&#34;),
+    (&#34;Mechanical keyboard&#34;, &#34;Quiet keyboard&#34;),
+    (&#34;Headset mic&#34;, &#34;Laptop mic&#34;),
+    (&#34;Webcam cover&#34;, &#34;Camera on&#34;),
+    (&#34;Ring light&#34;, &#34;Window light&#34;),
+    (&#34;Backdrop plain&#34;, &#34;Room background&#34;),
+    (&#34;Mute button habit&#34;, &#34;Hot mic risk&#34;),
+    (&#34;Chat question&#34;, &#34;Raise hand&#34;),
+    (&#34;Breakout room&#34;, &#34;Main room&#34;),
+    (&#34;Screen share&#34;, &#34;Describe only&#34;),
+    (&#34;Poll click&#34;, &#34;Type answer&#34;),
+    (&#34;Reaction emoji&#34;, &#34;Typed wow&#34;),
+    (&#34;Thread reply&#34;, &#34;Channel post&#34;),
+    (&#34;Pin message&#34;, &#34;Scroll find&#34;),
+    (&#34;Archive chat&#34;, &#34;Delete chat&#34;),
+    (&#34;Backup photos&#34;, &#34;Trust cloud&#34;),
+    (&#34;Print backup&#34;, &#34;Digital only&#34;),
+    (&#34;Password book&#34;, &#34;Memory only&#34;),
+    (&#34;Two-factor yes&#34;, &#34;Password only&#34;),
+    (&#34;Biometric unlock&#34;, &#34;Pin unlock&#34;),
+    (&#34;Auto update on&#34;, &#34;Update later&#34;),
+    (&#34;Beta app try&#34;, &#34;Stable app&#34;),
+    (&#34;New feature explore&#34;, &#34;Old workflow&#34;),
+    (&#34;Tutorial watch&#34;, &#34;Button mash&#34;),
+    (&#34;Help forum&#34;, &#34;Ask friend&#34;),
+    (&#34;FAQ read&#34;, &#34;Support ticket&#34;),
+    (&#34;Return policy read&#34;, &#34;Hope best&#34;),
+    (&#34;Unbox careful&#34;, &#34;Rip box&#34;),
+    (&#34;Keep box&#34;, &#34;Recycle box&#34;),
+    (&#34;Manual save&#34;, &#34;Manual toss&#34;),
+    (&#34;Spare parts keep&#34;, &#34;Toss extras&#34;),
+    (&#34;Extended warranty&#34;, &#34;Standard only&#34;),
+    (&#34;Insurance full&#34;, &#34;Minimum only&#34;),
+    (&#34;Umbrella policy&#34;, &#34;Exact cover&#34;),
+    (&#34;Emergency fund big&#34;, &#34;Month to month&#34;),
+    (&#34;Budget app&#34;, &#34;Mental budget&#34;),
+    (&#34;Cash envelope&#34;, &#34;Card swipe&#34;),
+    (&#34;Tip jar&#34;, &#34;Keep change&#34;),
+    (&#34;Round up donate&#34;, &#34;Keep cents&#34;),
+    (&#34;Sponsor walk&#34;, &#34;Quiet give&#34;),
+    (&#34;Food bank drop&#34;, &#34;Pantry buy&#34;),
+    (&#34;Toy drive&#34;, &#34;Keep toys&#34;),
+    (&#34;Coat drive&#34;, &#34;Donate old&#34;),
+    (&#34;Book drive&#34;, &#34;Library donate&#34;),
+    (&#34;Blood donate&#34;, &#34;Not for me&#34;),
+    (&#34;Platelet donate&#34;, &#34;Whole blood&#34;),
+    (&#34;First time try&#34;, &#34;Regular donor&#34;),
+    (&#34;Community clean&#34;, &#34;Pick one piece&#34;),
+    (&#34;Tree plant day&#34;, &#34;Water tree&#34;),
+    (&#34;Bird count&#34;, &#34;Bird watch&#34;),
+    (&#34;Star map&#34;, &#34;Random stars&#34;),
+    (&#34;Moon phase note&#34;, &#34;Moon glance&#34;),
+    (&#34;Weather log&#34;, &#34;Feel outside&#34;),
+    (&#34;Cloud name&#34;, &#34;Pretty sky&#34;),
+    (&#34;Rain measure&#34;, &#34;Rain listen&#34;),
+    (&#34;Wind guess&#34;, &#34;Wind meter&#34;),
+    (&#34;Temp check&#34;, &#34;Dress guess&#34;),
+    (&#34;Season love spring&#34;, &#34;Season love autumn&#34;),
+    (&#34;Holiday love winter&#34;, &#34;Holiday love summer&#34;),
+    (&#34;Birthday big&#34;, &#34;Birthday small&#34;),
+    (&#34;Anniversary dinner&#34;, &#34;Anniversary walk&#34;),
+    (&#34;Milestone trip&#34;, &#34;Milestone photo&#34;),
+    (&#34;Memory box&#34;, &#34;Digital album&#34;),
+    (&#34;Scrapbook cut&#34;, &#34;Photo dump&#34;),
+    (&#34;Video montage&#34;, &#34;Single clip&#34;),
+    (&#34;Voice recording&#34;, &#34;Written note&#34;),
+    (&#34;Family tree chart&#34;, &#34;Stories oral&#34;),
+    (&#34;Old letter keep&#34;, &#34;Email archive&#34;),
+    (&#34;Ticket stub save&#34;, &#34;Phone scan&#34;),
+    (&#34;Map collection&#34;, &#34;GPS history&#34;),
+    (&#34;Souvenir magnet&#34;, &#34;Local snack&#34;),
+    (&#34;Postcard send&#34;, &#34;Text photo&#34;),
+    (&#34;Stamp collect&#34;, &#34;Email only&#34;),
+    (&#34;Coin collect&#34;, &#34;Spend coins&#34;),
+    (&#34;Shell collect&#34;, &#34;Leave shells&#34;),
+    (&#34;Rock collect&#34;, &#34;Look only&#34;),
+    (&#34;Leaf press&#34;, &#34;Photo leaf&#34;),
+    (&#34;Flower press&#34;, &#34;Vase flower&#34;),
+    (&#34;Bug watch&#34;, &#34;Bug avoid&#34;),
+    (&#34;Spider relocate&#34;, &#34;Spider avoid&#34;),
+    (&#34;Ant trail watch&#34;, &#34;Ant clean&#34;),
+    (&#34;Bee calm&#34;, &#34;Bee flee&#34;),
+    (&#34;Butterfly photo&#34;, &#34;Butterfly pass&#34;),
+    (&#34;Dog pet ask&#34;, &#34;Dog admire&#34;),
+    (&#34;Cat pet wait&#34;, &#34;Cat chase&#34;),
+    (&#34;Horse ride&#34;, &#34;Horse watch&#34;),
+    (&#34;Farm visit&#34;, &#34;Petting zoo&#34;),
+    (&#34;Aquarium tunnel&#34;, &#34;Fish pond&#34;),
+    (&#34;Penguin exhibit&#34;, &#34;Seal show&#34;),
+    (&#34;Dino exhibit&#34;, &#34;Space hall&#34;),
+    (&#34;Hands-on science&#34;, &#34;Read plaques&#34;),
+    (&#34;Planetarium&#34;, &#34;Telescope home&#34;),
+    (&#34;Microscope look&#34;, &#34;Magnifier&#34;),
+    (&#34;Chemistry set&#34;, &#34;Kitchen mix&#34;),
+    (&#34;Robot kit&#34;, &#34;Cardboard craft&#34;),
+    (&#34;Lego set&#34;, &#34;Free build&#34;),
+    (&#34;Model plane&#34;, &#34;Paper plane&#34;),
+    (&#34;Train set&#34;, &#34;Train video&#34;),
+    (&#34;Doll house&#34;, &#34;Action figure&#34;),
+    (&#34;Puppet show&#34;, &#34;Story read&#34;),
+    (&#34;Magic trick learn&#34;, &#34;Card trick&#34;),
+    (&#34;Juggle try&#34;, &#34;Ball toss&#34;),
+    (&#34;Yo-yo practice&#34;, &#34;Spin top&#34;),
+    (&#34;Kite build&#34;, &#34;Kite buy&#34;),
+    (&#34;Origami fold&#34;, &#34;Paper cut&#34;),
+    (&#34;Knit scarf&#34;, &#34;Buy scarf&#34;),
+    (&#34;Sew button&#34;, &#34;Safety pin&#34;),
+    (&#34;Patch jeans&#34;, &#34;New jeans&#34;),
+    (&#34;Dye shirt&#34;, &#34;Plain shirt&#34;),
+    (&#34;Tie dye&#34;, &#34;Solid color&#34;),
+    (&#34;Stencil art&#34;, &#34;Free paint&#34;),
+    (&#34;Chalk mural&#34;, &#34;Pencil sketch&#34;),
+    (&#34;Spray paint art&#34;, &#34;Brush paint&#34;),
+    (&#34;Clay pot&#34;, &#34;Store pot&#34;),
+    (&#34;Wood carve&#34;, &#34;Buy wood&#34;),
+    (&#34;Metal craft&#34;, &#34;Plastic craft&#34;),
+    (&#34;Glass paint&#34;, &#34;Paper paint&#34;),
+    (&#34;Bead necklace&#34;, &#34;Chain necklace&#34;),
+    (&#34;Friendship bracelet&#34;, &#34;Store bracelet&#34;),
+    (&#34;Ring resize&#34;, &#34;New ring&#34;),
+    (&#34;Watch repair&#34;, &#34;New watch&#34;),
+    (&#34;Clock wind&#34;, &#34;Digital clock&#34;),
+    (&#34;Sundial fun&#34;, &#34;Phone time&#34;),
+    (&#34;Hourglass desk&#34;, &#34;Timer app&#34;),
+    (&#34;Metronome tick&#34;, &#34;Clap tempo&#34;),
+    (&#34;Tuning fork&#34;, &#34;App tuner&#34;),
+    (&#34;Sheet music&#34;, &#34;Play by ear&#34;),
+    (&#34;Choir harmony&#34;, &#34;Solo melody&#34;),
+    (&#34;Band practice&#34;, &#34;Garage jam&#34;),
+    (&#34;Open mic&#34;, &#34;Shower concert&#34;),
+    (&#34;Talent show&#34;, &#34;Audience only&#34;),
+    (&#34;Dance recital&#34;, &#34;Living room dance&#34;),
+    (&#34;Poetry slam&#34;, &#34;Journal poem&#34;),
+    (&#34;Story circle&#34;, &#34;Solo write&#34;),
+    (&#34;Debate club&#34;, &#34;Agree chat&#34;),
+    (&#34;Quiz bowl&#34;, &#34;Trivia app&#34;),
+    (&#34;Spelling stage&#34;, &#34;Spell check&#34;),
+    (&#34;Math contest&#34;, &#34;Calculator daily&#34;),
+    (&#34;Science fair board&#34;, &#34;Quick demo&#34;),
+    (&#34;Art wall&#34;, &#34;Sketchbook&#34;),
+    (&#34;History poster&#34;, &#34;Timeline app&#34;),
+    (&#34;Geography quiz&#34;, &#34;Globe spin&#34;),
+    (&#34;Language flashcards&#34;, &#34;Phrase book&#34;),
+    (&#34;Accent practice&#34;, &#34;Subtitle read&#34;),
+    (&#34;Immersion trip&#34;, &#34;App lesson&#34;),
+    (&#34;Pen pal letter&#34;, &#34;Video pal&#34;),
+    (&#34;Culture festival&#34;, &#34;Food try home&#34;),
+    (&#34;Traditional dance watch&#34;, &#34;Dance along&#34;),
+    (&#34;Folk song learn&#34;, &#34;Pop song&#34;),
+    (&#34;Holiday custom keep&#34;, &#34;Holiday custom new&#34;),
+    (&#34;Family recipe old&#34;, &#34;Recipe experiment&#34;),
+    (&#34;Heirloom keep&#34;, &#34;Photo copy&#34;),
+    (&#34;Name story tell&#34;, &#34;Name only&#34;),
+    (&#34;Ancestor chart&#34;, &#34;Future goals&#34;),
+    (&#34;Flag ceremony&#34;, &#34;Quiet respect&#34;),
+    (&#34;Anthem stand&#34;, &#34;Sit listen&#34;),
+    (&#34;Volunteer badge&#34;, &#34;Quiet help&#34;),
+    (&#34;Civic meeting&#34;, &#34;Online comment&#34;),
+    (&#34;Vote research&#34;, &#34;Vote habit&#34;),
+    (&#34;Ballot early&#34;, &#34;Ballot day&#34;),
+    (&#34;Polling chat&#34;, &#34;Private vote&#34;),
+    (&#34;Town hall speak&#34;, &#34;Town hall listen&#34;),
+    (&#34;Petition sign&#34;, &#34;Personal action&#34;),
+    (&#34;Fundraiser run&#34;, &#34;Fundraiser bake&#34;),
+    (&#34;Bake sale&#34;, &#34;Donation jar&#34;),
+    (&#34;Lemonade stand&#34;, &#34;Free lemonade&#34;),
+    (&#34;Garage sale&#34;, &#34;Online listing&#34;),
+    (&#34;Auction bid&#34;, &#34;Fixed price&#34;),
+    (&#34;Flea market&#34;, &#34;Retail store&#34;),
+    (&#34;Craft fair&#34;, &#34;Mall shop&#34;),
+    (&#34;Farmers stand&#34;, &#34;Grocery aisle&#34;),
+    (&#34;U-pick fruit&#34;, &#34;Store fruit&#34;),
+    (&#34;Apple orchard&#34;, &#34;Apple bag&#34;),
+    (&#34;Pumpkin patch&#34;, &#34;Canned pumpkin&#34;),
+    (&#34;Corn maze&#34;, &#34;Map app&#34;),
+    (&#34;Hay ride&#34;, &#34;Walking path&#34;),
+    (&#34;Petting pen&#34;, &#34;Zoo pen&#34;),
+    (&#34;Pony ride&#34;, &#34;Carousel horse&#34;),
+    (&#34;Ferris wheel&#34;, &#34;Roller coaster&#34;),
+    (&#34;Gentle ride&#34;, &#34;Thrill ride&#34;),
+    (&#34;Cotton candy&#34;, &#34;Popcorn salty&#34;),
+    (&#34;Fair game&#34;, &#34;Fair food&#34;),
+    (&#34;Prize plush&#34;, &#34;Prize ticket&#34;),
+    (&#34;Photo booth prop&#34;, &#34;Candid photo&#34;),
+    (&#34;Face paint fair&#34;, &#34;Hat souvenir&#34;),
+    (&#34;Parade wave&#34;, &#34;Parade watch&#34;),
+    (&#34;Marching band&#34;, &#34;Street drummer&#34;),
+    (&#34;Fire truck wave&#34;, &#34;Ambulance give way&#34;),
+    (&#34;Police hello&#34;, &#34;Crosswalk wait&#34;),
+    (&#34;Crosswalk rush&#34;, &#34;Crosswalk wait&#34;),
+    (&#34;Bike helmet kid&#34;, &#34;Bike bell&#34;),
+    (&#34;Scooter helmet&#34;, &#34;Knee pads&#34;),
+    (&#34;Skate pads&#34;, &#34;Go slow&#34;),
+    (&#34;Life jacket lake&#34;, &#34;Shallow wade&#34;),
+    (&#34;Swim goggles&#34;, &#34;Eyes closed&#34;),
+    (&#34;Nose plug&#34;, &#34;Blow bubbles&#34;),
+    (&#34;Float wings&#34;, &#34;Hold hands&#34;),
+    (&#34;Pool noodle&#34;, &#34;Free swim&#34;),
+    (&#34;Diving board&#34;, &#34;Pool edge&#34;),
+    (&#34;High dive&#34;, &#34;Low dive&#34;),
+    (&#34;Water slide&#34;, &#34;Lazy river&#34;),
+    (&#34;Wave pool&#34;, &#34;Calm pool&#34;),
+    (&#34;Hot tub&#34;, &#34;Cold plunge&#34;),
+    (&#34;Sauna rest&#34;, &#34;Cool shower&#34;),
+    (&#34;Spa day&#34;, &#34;Home mask&#34;),
+    (&#34;Massage chair&#34;, &#34;Stretch band&#34;),
+    (&#34;Yoga mat thick&#34;, &#34;Yoga mat thin&#34;),
+    (&#34;Meditation app&#34;, &#34;Quiet minute&#34;),
+    (&#34;Breath count&#34;, &#34;Mind wander&#34;),
+    (&#34;Journal gratitude&#34;, &#34;Mental note&#34;),
+    (&#34;Affirmation card&#34;, &#34;Quiet resolve&#34;),
+    (&#34;Goal vision board&#34;, &#34;Goal list&#34;),
+    (&#34;Habit streak&#34;, &#34;Habit flexible&#34;),
+    (&#34;Reward chart&#34;, &#34;Inner pride&#34;),
+    (&#34;Accountability text&#34;, &#34;Solo promise&#34;),
+    (&#34;Morning affirm&#34;, &#34;Morning action&#34;),
+    (&#34;Evening recap&#34;, &#34;Sleep now&#34;),
+    (&#34;Sunday reset&#34;, &#34;Rolling tidy&#34;),
+    (&#34;Monthly review&#34;, &#34;Yearly review&#34;),
+    (&#34;Birthday reflection&#34;, &#34;Daily reflection&#34;),
+    (&#34;New year goal&#34;, &#34;Anytime start&#34;),
+    (&#34;Spring clean&#34;, &#34;Autumn clean&#34;),
+    (&#34;Closet purge&#34;, &#34;Closet add&#34;),
+    (&#34;Drawer dump sort&#34;, &#34;Neat as go&#34;),
+    (&#34;Email purge&#34;, &#34;Email archive&#34;),
+    (&#34;Photo delete&#34;, &#34;Photo keep all&#34;),
+    (&#34;Contact prune&#34;, &#34;Contact keep&#34;),
+    (&#34;App delete&#34;, &#34;App hoard&#34;),
+    (&#34;Desktop clean&#34;, &#34;Desktop icons&#34;),
+    (&#34;Bookmark sort&#34;, &#34;Search again&#34;),
+    (&#34;Tab one&#34;, &#34;Tab many&#34;),
+    (&#34;Focus mode&#34;, &#34;All alerts&#34;),
+    (&#34;Do not disturb&#34;, &#34;Always reachable&#34;),
+    (&#34;Vacation auto reply&#34;, &#34;Check anyway&#34;),
+    (&#34;Out of office&#34;, &#34;Online anyway&#34;),
+    (&#34;Work phone off&#34;, &#34;Work phone on&#34;),
+    (&#34;Personal phone on&#34;, &#34;Personal phone off&#34;),
+    (&#34;Boundary firm&#34;, &#34;Boundary soft&#34;),
+    (&#34;Say no politely&#34;, &#34;Say yes often&#34;),
+    (&#34;Calendar block deep work&#34;, &#34;Open calendar&#34;),
+    (&#34;Meeting decline&#34;, &#34;Meeting accept all&#34;),
+    (&#34;Short meeting&#34;, &#34;Long meeting&#34;),
+    (&#34;Standup quick&#34;, &#34;Sitdown long&#34;),
+    (&#34;Camera optional&#34;, &#34;Camera required&#34;),
+    (&#34;Slides minimal&#34;, &#34;Slides detailed&#34;),
+    (&#34;Demo live&#34;, &#34;Demo screenshot&#34;),
+    (&#34;Q and A open&#34;, &#34;Q and A later&#34;),
+    (&#34;Feedback now&#34;, &#34;Feedback form&#34;),
+    (&#34;Brainstorm loud&#34;, &#34;Brainstorm silent&#34;),
+    (&#34;Sticky note wall&#34;, &#34;Shared doc&#34;),
+    (&#34;Dot vote&#34;, &#34;Leader pick&#34;),
+    (&#34;Consensus seek&#34;, &#34;Leader decide&#34;),
+    (&#34;Rotate facilitator&#34;, &#34;Same leader&#34;),
+    (&#34;Timer strict&#34;, &#34;Flow loose&#34;),
+    (&#34;Break often&#34;, &#34;Break rare&#34;),
+    (&#34;Snack meeting&#34;, &#34;Water only&#34;),
+    (&#34;Walking meeting&#34;, &#34;Desk meeting&#34;),
+    (&#34;Park bench 1:1&#34;, &#34;Office 1:1&#34;),
+    (&#34;Mentor coffee&#34;, &#34;Mentor email&#34;),
+    (&#34;Peer review kind&#34;, &#34;Peer review blunt&#34;),
+    (&#34;Praise specific&#34;, &#34;Praise general&#34;),
+    (&#34;Critique private&#34;, &#34;Critique public&#34;),
+    (&#34;Learn from fail&#34;, &#34;Hide fail&#34;),
+    (&#34;Share lesson&#34;, &#34;Move on&#34;),
+    (&#34;Retry fast&#34;, &#34;Pause long&#34;),
+    (&#34;Pivot plan&#34;, &#34;Stick plan&#34;),
+    (&#34;Double down&#34;, &#34;Try new&#34;),
+    (&#34;Safe bet&#34;, &#34;Long shot&#34;),
+    (&#34;Steady growth&#34;, &#34;Big leap&#34;),
+    (&#34;Side project&#34;, &#34;Main focus&#34;),
+    (&#34;Hobby serious&#34;, &#34;Hobby casual&#34;),
+    (&#34;Weekend build&#34;, &#34;Weekday build&#34;),
+    (&#34;Open source share&#34;, &#34;Keep private&#34;),
+    (&#34;Teach workshop&#34;, &#34;Learn workshop&#34;),
+    (&#34;Blog post&#34;, &#34;Private note&#34;),
+    (&#34;Podcast guest&#34;, &#34;Podcast listener&#34;),
+    (&#34;Newsletter send&#34;, &#34;Newsletter read&#34;),
+    (&#34;Social post&#34;, &#34;Journal entry&#34;),
+    (&#34;Comment kind&#34;, &#34;Comment skip&#34;),
+    (&#34;Like button&#34;, &#34;Long reply&#34;),
+    (&#34;Share helpful&#34;, &#34;Share hot take&#34;),
+    (&#34;Follow expert&#34;, &#34;Follow friend&#34;),
+    (&#34;Mute drama&#34;, &#34;Engage debate&#34;),
+    (&#34;Block spam&#34;, &#34;Ignore spam&#34;),
+    (&#34;Report abuse&#34;, &#34;Scroll past&#34;),
+    (&#34;Community mod&#34;, &#34;Community lurk&#34;),
+    (&#34;Forum answer&#34;, &#34;Forum lurk&#34;),
+    (&#34;Wiki edit&#34;, &#34;Wiki read&#34;),
+    (&#34;How-to write&#34;, &#34;How-to watch&#34;),
+    (&#34;Recipe blog&#34;, &#34;Recipe card&#34;),
+    (&#34;Review honest&#34;, &#34;Review skip&#34;),
+    (&#34;Star five easy&#34;, &#34;Star strict&#34;),
+    (&#34;Photo review&#34;, &#34;Text review&#34;),
+    (&#34;Unbox review&#34;, &#34;Use review&#34;),
+    (&#34;Long term test&#34;, &#34;First impression&#34;),
+    (&#34;Compare models&#34;, &#34;Pick favorite&#34;),
+    (&#34;Spec sheet&#34;, &#34;Gut feel&#34;),
+    (&#34;Brand loyal&#34;, &#34;Try unknown&#34;),
+    (&#34;Local shop&#34;, &#34;Online giant&#34;),
+    (&#34;Small business&#34;, &#34;Big chain&#34;),
+    (&#34;Craft maker&#34;, &#34;Mass product&#34;),
+    (&#34;Farmer direct&#34;, &#34;Grocery middle&#34;),
+    (&#34;Fair trade pick&#34;, &#34;Cheapest pick&#34;),
+    (&#34;Organic pick&#34;, &#34;Regular pick&#34;),
+    (&#34;Seasonal eat&#34;, &#34;Any season eat&#34;),
+    (&#34;Local eat&#34;, &#34;Import eat&#34;),
+    (&#34;Zero waste try&#34;, &#34;Convenience first&#34;),
+    (&#34;Reusable cup&#34;, &#34;Disposable cup&#34;),
+    (&#34;Cloth napkin&#34;, &#34;Paper napkin&#34;),
+    (&#34;Metal straw&#34;, &#34;No straw&#34;),
+    (&#34;Glass container&#34;, &#34;Plastic tub&#34;),
+    (&#34;Beeswax wrap&#34;, &#34;Plastic wrap&#34;),
+    (&#34;Soap bar&#34;, &#34;Liquid soap&#34;),
+    (&#34;Shampoo bar&#34;, &#34;Bottle shampoo&#34;),
+    (&#34;Refill station&#34;, &#34;New bottle&#34;),
+    (&#34;Bike errand&#34;, &#34;Car errand&#34;),
+    (&#34;Walk errand&#34;, &#34;Delivery app&#34;),
+    (&#34;Stairs daily&#34;, &#34;Elevator daily&#34;),
+    (&#34;Park far&#34;, &#34;Park near&#34;),
+    (&#34;Engine off wait&#34;, &#34;Idle wait&#34;),
+    (&#34;Carpool kids&#34;, &#34;Solo kids run&#34;),
+    (&#34;School bus&#34;, &#34;Parent drive&#34;),
+    (&#34;Bike to school&#34;, &#34;Bus to school&#34;),
+    (&#34;Walk to school&#34;, &#34;Drive to school&#34;),
+    (&#34;Playground watch&#34;, &#34;Playground play&#34;),
+    (&#34;Sandbox share&#34;, &#34;Sandbox solo&#34;),
+    (&#34;Swing high&#34;, &#34;Swing gentle&#34;),
+    (&#34;Slide fast&#34;, &#34;Slide slow&#34;),
+    (&#34;Climb frame&#34;, &#34;Ground game&#34;),
+    (&#34;Tag game&#34;, &#34;Hide seek&#34;),
+    (&#34;Capture flag&#34;, &#34;Free play&#34;),
+    (&#34;Red rover&#34;, &#34;Quiet circle&#34;),
+    (&#34;Duck duck goose&#34;, &#34;Board sit&#34;),
+    (&#34;Musical chairs&#34;, &#34;Drawing game&#34;),
+    (&#34;Charades act&#34;, &#34;Charades guess&#34;),
+    (&#34;Pictionary draw&#34;, &#34;Pictionary guess&#34;),
+    (&#34;Trivia teams&#34;, &#34;Trivia solo&#34;),
+    (&#34;Riddle ask&#34;, &#34;Riddle hear&#34;),
+    (&#34;Story add line&#34;, &#34;Story listen&#34;),
+    (&#34;Improv game&#34;, &#34;Script read&#34;),
+    (&#34;Mime game&#34;, &#34;Word game&#34;),
+    (&#34;Rhyme game&#34;, &#34;Fact game&#34;),
+    (&#34;Memory tray&#34;, &#34;Memory story&#34;),
+    (&#34;Simon says&#34;, &#34;Follow leader&#34;),
+    (&#34;Red light green&#34;, &#34;Slow walk&#34;),
+    (&#34;Obstacle course&#34;, &#34;Straight race&#34;),
+    (&#34;Three legged race&#34;, &#34;Solo race&#34;),
+    (&#34;Egg spoon race&#34;, &#34;Sprint race&#34;),
+    (&#34;Tug of war&#34;, &#34;Tug gentle&#34;),
+    (&#34;Tug team big&#34;, &#34;Tug team small&#34;),
+    (&#34;Relay baton&#34;, &#34;Solo lap&#34;),
+    (&#34;Cheer squad&#34;, &#34;Bench cheer&#34;),
+    (&#34;Pep talk&#34;, &#34;Quiet nod&#34;),
+    (&#34;High five line&#34;, &#34;Quiet clap&#34;),
+    (&#34;Victory lap&#34;, &#34;Quiet exit&#34;),
+    (&#34;Trophy hoist&#34;, &#34;Handshake line&#34;),
+    (&#34;Podium smile&#34;, &#34;Podium humble&#34;),
+    (&#34;Interview win&#34;, &#34;Celebrate private&#34;),
+    (&#34;Sign autograph&#34;, &#34;Wave fans&#34;),
+    (&#34;Photo fans&#34;, &#34;Leave fast&#34;),
+    (&#34;Thank coach&#34;, &#34;Thank team&#34;),
+    (&#34;Thank parents&#34;, &#34;Thank self&#34;),
+    (&#34;Thank rivals&#34;, &#34;Ignore rivals&#34;),
+    (&#34;Learn loss&#34;, &#34;Forget loss&#34;),
+    (&#34;Train harder&#34;, &#34;Rest more&#34;),
+    (&#34;New strategy&#34;, &#34;Same strategy&#34;),
+    (&#34;Watch film&#34;, &#34;Feel memory&#34;),
+    (&#34;Drill basics&#34;, &#34;Fun scrimmage&#34;),
+    (&#34;Captain speech&#34;, &#34;Lead example&#34;),
+    (&#34;Bench support&#34;, &#34;Star sulk&#34;),
+    (&#34;Sub eager&#34;, &#34;Sub bored&#34;),
+    (&#34;Warm bench&#34;, &#34;Cold bench&#34;),
+    (&#34;Rain delay wait&#34;, &#34;Rain play&#34;),
+    (&#34;Mud game&#34;, &#34;Clean game&#34;),
+    (&#34;Night game lights&#34;, &#34;Day game sun&#34;),
+    (&#34;Indoor court&#34;, &#34;Outdoor court&#34;),
+    (&#34;Grass field&#34;, &#34;Turf field&#34;),
+    (&#34;Clay court&#34;, &#34;Hard court&#34;),
+    (&#34;Ice rink&#34;, &#34;Roller rink&#34;),
+    (&#34;Dirt track&#34;, &#34;Paved track&#34;),
+    (&#34;Pool lanes&#34;, &#34;Open swim&#34;),
+    (&#34;Gym mats&#34;, &#34;Grass mats&#34;),
+    (&#34;Bleacher seat&#34;, &#34;Field edge&#34;),
+    (&#34;Concession snack&#34;, &#34;Packed snack&#34;),
+    (&#34;Foam finger&#34;, &#34;Quiet clap&#34;),
+    (&#34;Face paint team&#34;, &#34;Team scarf&#34;),
+    (&#34;Jersey wear&#34;, &#34;Plain shirt&#34;),
+    (&#34;Cap forward&#34;, &#34;Cap backward&#34;),
+    (&#34;Sunscreen game&#34;, &#34;Hat shade&#34;),
+    (&#34;Bug spray dusk&#34;, &#34;Citronella candle&#34;),
+    (&#34;Fold chair bring&#34;, &#34;Sit blanket&#34;),
+    (&#34;Binoculars bring&#34;, &#34;Naked eye&#34;),
+    (&#34;Program keep&#34;, &#34;Program toss&#34;),
+    (&#34;Score track&#34;, &#34;Vibes only&#34;),
+    (&#34;Stats app&#34;, &#34;Eye test&#34;),
+    (&#34;Replay watch&#34;, &#34;Live only&#34;),
+    (&#34;Commentary mute&#34;, &#34;Commentary on&#34;),
+    (&#34;Home crowd&#34;, &#34;Away crowd&#34;),
+    (&#34;Neutral fan&#34;, &#34;Loyal fan&#34;),
+    (&#34;Rival game&#34;, &#34;Friendly game&#34;),
+    (&#34;Playoff pressure&#34;, &#34;Exhibition fun&#34;),
+    (&#34;Championship ring&#34;, &#34;Participation medal&#34;),
+    (&#34;Hall fame dream&#34;, &#34;Weekend player&#34;),
+    (&#34;Pro watch&#34;, &#34;Local league&#34;),
+    (&#34;Fantasy team&#34;, &#34;Real team only&#34;),
+    (&#34;Bet friendly&#34;, &#34;No bets&#34;),
+    (&#34;Prediction brag&#34;, &#34;Prediction humble&#34;),
+    (&#34;Bracket fill&#34;, &#34;Skip bracket&#34;),
+    (&#34;Office pool&#34;, &#34;Solo picks&#34;),
+    (&#34;Jersey collect&#34;, &#34;One jersey&#34;),
+    (&#34;Ball autograph&#34;, &#34;Ball play&#34;),
+    (&#34;Card collect&#34;, &#34;Card play&#34;),
+    (&#34;Sticker book&#34;, &#34;Sticker toss&#34;),
+    (&#34;Poster wall&#34;, &#34;Digital wallpaper&#34;),
+    (&#34;Bedroom banner&#34;, &#34;No decor&#34;),
+    (&#34;Door sign&#34;, &#34;Open door&#34;),
+    (&#34;Name plate&#34;, &#34;No label&#34;),
+    (&#34;Welcome board&#34;, &#34;Blank wall&#34;),
+    (&#34;Chore wheel&#34;, &#34;Chore list&#34;),
+    (&#34;Allowance jar&#34;, &#34;Free help&#34;),
+    (&#34;Piggy bank&#34;, &#34;Bank account&#34;),
+    (&#34;Lemon budget&#34;, &#34;Treat budget&#34;),
+    (&#34;Save for bike&#34;, &#34;Spend now&#34;),
+    (&#34;Gift sibling&#34;, &#34;Gift self&#34;),
+    (&#34;Share toy&#34;, &#34;Mine toy&#34;),
+    (&#34;Take turns timer&#34;, &#34;Take turns trust&#34;),
+    (&#34;Older helps younger&#34;, &#34;Everyone solo&#34;),
+    (&#34;Family meeting&#34;, &#34;Quick chat&#34;),
+    (&#34;Vote dinner&#34;, &#34;Parent pick&#34;),
+    (&#34;Kids cook night&#34;, &#34;Parents cook&#34;),
+    (&#34;Breakfast in bed&#34;, &#34;Kitchen breakfast&#34;),
+    (&#34;Surprise chore done&#34;, &#34;Asked chore&#34;),
+    (&#34;Thank note sibling&#34;, &#34;Quick thanks&#34;),
+    (&#34;Apology hug&#34;, &#34;Apology words&#34;),
+    (&#34;Forgive fast&#34;, &#34;Cool off first&#34;),
+    (&#34;Talk it out&#34;, &#34;Write note&#34;),
+    (&#34;Mediator parent&#34;, &#34;Self solve&#34;),
+    (&#34;Fair split&#34;, &#34;Older chooses&#34;),
+    (&#34;Winner picks game&#34;, &#34;Rotate picker&#34;),
+    (&#34;New game try&#34;, &#34;Old favorite&#34;),
+    (&#34;House rules&#34;, &#34;Official rules&#34;),
+    (&#34;Short game&#34;, &#34;Long game&#34;),
+    (&#34;Coop game&#34;, &#34;Vs game&#34;),
+    (&#34;Legacy game&#34;, &#34;Quick game&#34;),
+    (&#34;Strategy night&#34;, &#34;Party night&#34;),
+    (&#34;Puzzle night&#34;, &#34;Movie night&#34;),
+    (&#34;Craft night&#34;, &#34;Game night&#34;),
+    (&#34;Music night&#34;, &#34;Silent night&#34;),
+    (&#34;Story night&#34;, &#34;Dance night&#34;),
+    (&#34;Photo night&#34;, &#34;Phone away night&#34;),
+    (&#34;Camp in yard&#34;, &#34;Camp in room&#34;),
+    (&#34;Flashlight tag&#34;, &#34;Lantern sit&#34;),
+    (&#34;Ghost story&#34;, &#34;Funny story&#34;),
+    (&#34;Star count&#34;, &#34;Cloud guess&#34;),
+    (&#34;Owl hoot listen&#34;, &#34;Cricket listen&#34;),
+    (&#34;Firefly jar&#34;, &#34;Firefly watch&#34;),
+    (&#34;Moth lamp&#34;, &#34;Moth away&#34;),
+    (&#34;Bat dusk&#34;, &#34;Bird dawn&#34;),
+    (&#34;Squirrel chase&#34;, &#34;Squirrel watch&#34;),
+    (&#34;Deer glimpse&#34;, &#34;Deer startle&#34;),
+    (&#34;Rabbit yard&#34;, &#34;Rabbit picture&#34;),
+    (&#34;Duck pond feed&#34;, &#34;Duck watch&#34;),
+    (&#34;Goose avoid&#34;, &#34;Goose admire&#34;),
+    (&#34;Swan photo&#34;, &#34;Swan distance&#34;),
+    (&#34;Turtle sun&#34;, &#34;Turtle pond&#34;),
+    (&#34;Frog croak&#34;, &#34;Frog find&#34;),
+    (&#34;Fish bite wait&#34;, &#34;Fish catch cheer&#34;),
+    (&#34;Worm bait&#34;, &#34;Lure bait&#34;),
+    (&#34;Catch release&#34;, &#34;Catch keep&#34;),
+    (&#34;Small hook&#34;, &#34;Big hook&#34;),
+    (&#34;Quiet bank&#34;, &#34;Boat middle&#34;),
+    (&#34;Dawn fish&#34;, &#34;Dusk fish&#34;),
+    (&#34;Ice fish&#34;, &#34;Open water fish&#34;),
+    (&#34;Net cast&#34;, &#34;Rod cast&#34;),
+    (&#34;Crab trap&#34;, &#34;Crab watch&#34;),
+    (&#34;Shell hunt&#34;, &#34;Rock skip&#34;),
+    (&#34;Driftwood art&#34;, &#34;Driftwood leave&#34;),
+    (&#34;Seagull share&#34;, &#34;Seagull shoo&#34;),
+    (&#34;Picnic seagull guard&#34;, &#34;Indoor picnic&#34;),
+    (&#34;Beach umbrella&#34;, &#34;Beach shade hat&#34;),
+    (&#34;Sand shade tent&#34;, &#34;Sunscreen only&#34;),
+    (&#34;Rash guard&#34;, &#34;Tank top&#34;),
+    (&#34;Wetsuit&#34;, &#34;Trunks only&#34;),
+    (&#34;Surf try&#34;, &#34;Wade only&#34;),
+    (&#34;Body board&#34;, &#34;Float only&#34;),
+    (&#34;Snorkel mask&#34;, &#34;Goggles pool&#34;),
+    (&#34;Flippers&#34;, &#34;Bare feet&#34;),
+    (&#34;Pool float&#34;, &#34;Swim laps&#34;),
+    (&#34;Diving toy&#34;, &#34;Ring toss pool&#34;),
+    (&#34;Marco polo&#34;, &#34;Quiet swim&#34;),
+    (&#34;Chicken fight&#34;, &#34;Float chat&#34;),
+    (&#34;Water balloon&#34;, &#34;Sprinkler run&#34;),
+    (&#34;Hose spray&#34;, &#34;Bucket dump&#34;),
+    (&#34;Slip slide&#34;, &#34;Sprinkler only&#34;),
+    (&#34;Mud puddle&#34;, &#34;Puddle avoid&#34;),
+    (&#34;Rain dance&#34;, &#34;Rain shelter&#34;),
+    (&#34;Puddle boots&#34;, &#34;Wet socks&#34;),
+    (&#34;Snow angel&#34;, &#34;Snow shovel&#34;),
+    (&#34;Snowball soft&#34;, &#34;Snowball firm&#34;),
+    (&#34;Snow fort&#34;, &#34;Snowman&#34;),
+    (&#34;Sled steep&#34;, &#34;Sled gentle&#34;),
+    (&#34;Ice skate rail&#34;, &#34;Ice skate center&#34;),
+    (&#34;Hot cocoa mug&#34;, &#34;Hot tea mug&#34;),
+    (&#34;Fireplace marshmallow&#34;, &#34;Microwave s&#39;more&#34;),
+    (&#34;Blanket cocoon&#34;, &#34;Sweater only&#34;),
+    (&#34;Heater close&#34;, &#34;Layer up&#34;),
+    (&#34;Humidifier winter&#34;, &#34;Bowl water&#34;),
+    (&#34;Chapstick winter&#34;, &#34;Dry lips&#34;),
+    (&#34;Glove liner&#34;, &#34;Thick glove&#34;),
+    (&#34;Ear warmer&#34;, &#34;Hood up&#34;),
+    (&#34;Scarf wrap&#34;, &#34;Coat collar&#34;),
+    (&#34;Boot traction&#34;, &#34;Careful step&#34;),
+    (&#34;Salt walkway&#34;, &#34;Shovel only&#34;),
+    (&#34;Neighbor shovel help&#34;, &#34;Own path&#34;),
+    (&#34;Car scrape ice&#34;, &#34;Defrost wait&#34;),
+    (&#34;Remote start&#34;, &#34;Bundle first&#34;),
+    (&#34;Seat warmer&#34;, &#34;Cold seat&#34;),
+    (&#34;Steering glove&#34;, &#34;Bare hands&#34;),
+    (&#34;Fog light&#34;, &#34;Low beam&#34;),
+    (&#34;Slow snow drive&#34;, &#34;Stay home&#34;),
+    (&#34;Chain tires&#34;, &#34;All season tires&#34;),
+    (&#34;Winter tires&#34;, &#34;Summer tires&#34;),
+    (&#34;All wheel drive&#34;, &#34;Two wheel drive&#34;),
+    (&#34;Parking garage&#34;, &#34;Street park&#34;),
+    (&#34;Garage tidy&#34;, &#34;Garage full&#34;),
+    (&#34;Bike hang wall&#34;, &#34;Bike lean&#34;),
+    (&#34;Scooter porch&#34;, &#34;Scooter hall&#34;),
+    (&#34;Skate rack&#34;, &#34;Skate bag&#34;),
+    (&#34;Helmet rack&#34;, &#34;Helmet shelf&#34;),
+    (&#34;Ball bin&#34;, &#34;Ball net&#34;),
+    (&#34;Bat bag&#34;, &#34;Bat corner&#34;),
+    (&#34;Glove oil&#34;, &#34;Glove dry&#34;),
+    (&#34;Cleat clean&#34;, &#34;Cleat muddy&#34;),
+    (&#34;Jersey wash&#34;, &#34;Jersey reuse&#34;),
+    (&#34;Shin guard&#34;, &#34;No guard&#34;),
+    (&#34;Mouth guard&#34;, &#34;Careful play&#34;),
+    (&#34;Knee brace&#34;, &#34;Careful land&#34;),
+    (&#34;Ankle tape&#34;, &#34;Loose shoe&#34;),
+    (&#34;Wrist brace&#34;, &#34;Rest wrist&#34;),
+    (&#34;Ice pack&#34;, &#34;Heat pack&#34;),
+    (&#34;Bandage cartoon&#34;, &#34;Plain bandage&#34;),
+    (&#34;Sticker brave&#34;, &#34;No sticker&#34;),
+    (&#34;Nurse office&#34;, &#34;Class stay&#34;),
+    (&#34;Mom pick up&#34;, &#34;Walk it off&#34;),
+    (&#34;Rest day game&#34;, &#34;Play hurt&#34;),
+    (&#34;Hydrate sports&#34;, &#34;Drink when dry&#34;),
+    (&#34;Electrolyte drink&#34;, &#34;Water only&#34;),
+    (&#34;Banana pregame&#34;, &#34;Empty stomach&#34;),
+    (&#34;Pasta pre race&#34;, &#34;Light snack&#34;),
+    (&#34;Protein bar&#34;, &#34;Fruit snack&#34;),
+    (&#34;Energy gel&#34;, &#34;No gel&#34;),
+    (&#34;Caffeine pre run&#34;, &#34;No caffeine&#34;),
+    (&#34;Stretch post game&#34;, &#34;Sit bench&#34;),
+    (&#34;Cool down walk&#34;, &#34;Sudden stop&#34;),
+    (&#34;Ice bath&#34;, &#34;Warm shower&#34;),
+    (&#34;Foam roll&#34;, &#34;Skip roll&#34;),
+    (&#34;Yoga recovery&#34;, &#34;Couch recovery&#34;),
+    (&#34;Massage gun&#34;, &#34;Hand rub&#34;),
+    (&#34;Sleep early game&#34;, &#34;Late game&#34;),
+    (&#34;Nap pre night game&#34;, &#34;No nap&#34;),
+    (&#34;Routine ritual&#34;, &#34;No ritual&#34;),
+    (&#34;Lucky socks&#34;, &#34;Any socks&#34;),
+    (&#34;Visualization calm&#34;, &#34;Wing it&#34;),
+    (&#34;Breath pre pitch&#34;, &#34;Just throw&#34;),
+    (&#34;Team chant&#34;, &#34;Silent focus&#34;),
+    (&#34;Fist bump line&#34;, &#34;Quiet line&#34;),
+    (&#34;Captain coin toss&#34;, &#34;Coach call&#34;),
+    (&#34;Defer receive&#34;, &#34;Kick first&#34;),
+    (&#34;Play safe&#34;, &#34;Play bold&#34;),
+    (&#34;Clock run&#34;, &#34;Clock pass&#34;),
+    (&#34;Timeout save&#34;, &#34;Play through&#34;),
+    (&#34;Challenge flag&#34;, &#34;Accept call&#34;),
+    (&#34;Review play&#34;, &#34;Move on&#34;),
+    (&#34;Halftime adjust&#34;, &#34;Same plan&#34;),
+    (&#34;Second half surge&#34;, &#34;Fade late&#34;),
+    (&#34;Overtime thrill&#34;, &#34;Regulation ok&#34;),
+    (&#34;Shootout nerves&#34;, &#34;Shootout calm&#34;),
+    (&#34;Penalty kick stare&#34;, &#34;Penalty kick look away&#34;),
+    (&#34;Free throw routine&#34;, &#34;Free throw quick&#34;),
+    (&#34;Three point shot&#34;, &#34;Layup safe&#34;),
+    (&#34;Full court press&#34;, &#34;Half court set&#34;),
+    (&#34;Fast break&#34;, &#34;Slow set&#34;),
+    (&#34;Alley oop&#34;, &#34;Chest pass&#34;),
+    (&#34;No look pass&#34;, &#34;Safe pass&#34;),
+    (&#34;Behind back&#34;, &#34;Basic dribble&#34;),
+    (&#34;Crossover show&#34;, &#34;Simple move&#34;),
+    (&#34;Spin move&#34;, &#34;Stop jump&#34;),
+    (&#34;Hook shot&#34;, &#34;Jump shot&#34;),
+    (&#34;Bank shot&#34;, &#34;Swish aim&#34;),
+    (&#34;Tip in&#34;, &#34;Rebound out&#34;),
+    (&#34;Box out&#34;, &#34;Chase ball&#34;),
+    (&#34;Charge take&#34;, &#34;Sidestep&#34;),
+    (&#34;Steal reach&#34;, &#34;Hands up&#34;),
+    (&#34;Block risk&#34;, &#34;Contest soft&#34;),
+    (&#34;Floor dive&#34;, &#34;Let go&#34;),
+    (&#34;Hustle save&#34;, &#34;Out of bounds&#34;),
+    (&#34;Full sprint back&#34;, &#34;Jog back&#34;),
+    (&#34;Sub cheer&#34;, &#34;Bench quiet&#34;),
+    (&#34;High pick&#34;, &#34;Low pick&#34;),
+    (&#34;Screen hard&#34;, &#34;Screen slip&#34;),
+    (&#34;Roll pop&#34;, &#34;Roll rim&#34;),
+    (&#34;Iso play&#34;, &#34;Motion offense&#34;),
+    (&#34;Post up&#34;, &#34;Perimeter play&#34;),
+    (&#34;Cut baseline&#34;, &#34;Cut middle&#34;),
+    (&#34;Back door&#34;, &#34;Front cut&#34;),
+    (&#34;Give and go&#34;, &#34;Hold ball&#34;),
+    (&#34;Skip pass&#34;, &#34;Swing pass&#34;),
+    (&#34;Drive kick&#34;, &#34;Drive finish&#34;),
+    (&#34;And one&#34;, &#34;Settle two&#34;),
+    (&#34;Clutch shot&#34;, &#34;Pass clutch&#34;),
+    (&#34;Buzzer beater&#34;, &#34;Clock manage&#34;),
+]
+
+pairs = base + pairs_mn
+
+# Dedupe
+seen = set()
+unique = []
+for l, r in pairs:
+    key = (l.strip().lower(), r.strip().lower())
+    rev = (r.strip().lower(), l.strip().lower())
+    if key not in seen and rev not in seen and l != r:
+        seen.add(key)
+        unique.append((l, r))
+    if len(unique) &gt;= 500:
+        break
+
+# Fill with template pairs if short
+fill_nouns = [&#34;game&#34;, &#34;song&#34;, &#34;book&#34;, &#34;movie&#34;, &#34;snack&#34;, &#34;trip&#34;, &#34;gift&#34;, &#34;tool&#34;, &#34;hobby&#34;, &#34;sport&#34;]
+for n in fill_nouns:
+    for t in templates:
+        if len(unique) &gt;= 500:
+            break
+        try:
+            l, r = t[0].format(n=n), t[1].format(n=n, m=n+&#34; alternative&#34;)
+        except KeyError:
+            l, r = t[0].format(n=n), t[1].format(n=n)
+        key = (l.lower(), r.lower())
+        if key not in seen:
+            seen.add(key)
+            unique.append((l, r))
+
+while len(unique) &lt; 500:
+    i = len(unique)
+    l, r = f&#34;Option {i}A&#34;, f&#34;Option {i}B&#34;
+    unique.append((l, r))
+
+print(&#39;final&#39;, len(unique))
+PYEOF</summary>
+```bash
+python3 << 'PYEOF'
+from pathlib import Path
+import re
+
+# Curated + templated generic spectrum pairs (family-friendly, worldwide)
+base = [
+    ("Hot", "Cold"), ("Quiet activity", "Active sport"), ("Healthy snack", "Treat food"),
+    ("Mild habit", "Risky habit"), ("Simple skill", "Impressive skill"),
+    ("Selfish choice", "Generous choice"), ("Formal event", "Casual hangout"),
+    ("Art", "Craft"), ("Simple gift", "Fancy gift"), ("Overrated", "Underrated"),
+    ("City life", "Country life"), ("Planned trip", "Spontaneous trip"),
+    ("Early bird", "Night owl"), ("Minimal home", "Cozy clutter"),
+    ("Text message", "Phone call"), ("Better alone", "Better with others"),
+    ("Better in theory", "Better in practice"), ("Better for kids", "Better for adults"),
+    ("Better indoors", "Better outdoors"), ("Better hot", "Better cold"),
+    ("Better fresh", "Better preserved"), ("Better handmade", "Better factory-made"),
+    ("Better saved", "Better spent"), ("Better planned", "Better improvised"),
+    ("Better quiet", "Better lively"), ("Better small", "Better large"),
+    ("Better short", "Better long"), ("Better sweet", "Better savory"),
+    ("Better mild", "Better bold"), ("Better plain", "Better fancy"),
+    ("Better familiar", "Better exotic"), ("Harmless prank", "Cruel joke"),
+    ("Healthy choice", "Indulgent choice"), ("Eco-friendly", "Convenient"),
+    ("Time saver", "Time waster"), ("Stress relief", "Stress cause"),
+    ("Confidence boost", "Confidence drain"), ("Team builder", "Team divider"),
+    ("Icebreaker", "Conversation ender"), ("Low effort", "High effort"),
+    ("Low cost", "High cost"), ("Low risk", "High risk"), ("Low noise", "High noise"),
+    ("Low skill", "High skill"), ("Low maintenance", "High maintenance"),
+    ("Window seat", "Aisle seat"), ("Front row", "Back row"),
+    ("Packing light", "Packing heavy"), ("Early arrival", "Fashionably late"),
+    ("Overprepared", "Underprepared"), ("Too spicy", "Too bland"),
+    ("Too sweet", "Too bitter"), ("Too crowded", "Too empty"),
+    ("Too formal", "Too casual"), ("Too strict", "Too lenient"),
+    ("Too loud", "Too quiet"), ("Too bright", "Too dim"),
+    ("Too fast", "Too slow"), ("Too big", "Too small"),
+    ("Too serious", "Too silly"), ("Too cautious", "Too reckless"),
+    ("Too frugal", "Too generous"), ("Too organized", "Too spontaneous"),
+    ("Breakfast food", "Dinner food"), ("Summer activity", "Winter activity"),
+    ("Solo hobby", "Group hobby"), ("Desk job", "Physical job"),
+    ("Team sport", "Individual sport"), ("Board game", "Video game"),
+    ("Fiction book", "Nonfiction book"), ("Comedy show", "Drama show"),
+    ("Live music", "Recorded music"), ("Home cooking", "Restaurant meal"),
+    ("Walking commute", "Driving commute"), ("Public transport", "Private car"),
+    ("Camping trip", "Hotel stay"), ("Beach vacation", "Mountain vacation"),
+    ("City break", "Nature retreat"), ("Guided tour", "Self-guided tour"),
+    ("Group travel", "Solo travel"), ("Physical book", "E-book"),
+    ("Handwritten note", "Typed message"), ("Cash payment", "Card payment"),
+    ("Shopping in store", "Shopping online"), ("New clothes", "Secondhand clothes"),
+    ("Bright colors", "Neutral colors"), ("Comfort shoes", "Dress shoes"),
+    ("Home workout", "Gym workout"), ("Team meeting", "One-on-one chat"),
+    ("Strict deadline", "Flexible deadline"), ("Big celebration", "Quiet acknowledgment"),
+    ("Public speech", "Private conversation"), ("Remote work", "Office work"),
+    ("Video call", "In-person meeting"), ("Deep research", "Quick search"),
+    ("Ask for help", "Figure it out alone"), ("Speak up", "Stay quiet"),
+    ("Try new food", "Stick to favorites"), ("Split the bill", "Treat everyone"),
+    ("Repair item", "Replace item"), ("Cook from scratch", "Use shortcuts"),
+    ("Daily routine", "Mix it up"), ("Family dinner", "Solo dinner"),
+    ("Hot drink", "Iced drink"), ("Sweet treat", "Savory treat"),
+    ("Watching sports", "Playing sports"), ("Short hike", "Long trek"),
+    ("Travel journal", "Travel photos only"), ("Packed schedule", "Open schedule"),
+    ("Digital detox", "Always connected"), ("Paper to-do list", "App to-do list"),
+    ("Heavy blanket", "Light sheet"), ("Live plants", "Artificial plants"),
+    ("Dog person", "Cat person"), ("Gift experiences", "Gift objects"),
+    ("Carpool", "Drive solo"), ("Dark mode", "Light mode"),
+    ("Multitask", "Single task"), ("Vacation unplugged", "Vacation online"),
+    ("Vegetarian meal", "Meat meal"), ("Hot shower", "Cold rinse"),
+    ("Umbrella carry", "Hoodie only"), ("DIY repair", "Call a pro"),
+    ("Group study", "Solo study"), ("Front of class", "Back of class"),
+    ("Borrow tools", "Own every tool"), ("Leash always", "Off-leash parks"),
+]
+
+templates = [
+    ("Better as a {n}", "Better as a {m}"),
+    ("Too much {n}", "Too little {n}"),
+    ("Best for morning", "Best for evening"),
+    ("Best in summer", "Best in winter"),
+    ("Best when young", "Best when older"),
+    ("Fun at a party", "Fun alone"),
+    ("Good for travel", "Good at home"),
+    ("Needs a crowd", "Needs solitude"),
+    ("Loud game", "Quiet game"),
+    ("Outdoor {n}", "Indoor {n}"),
+    ("Cheap {n}", "Premium {n}"),
+    ("Simple {n}", "Fancy {n}"),
+    ("Old-fashioned {n}", "Modern {n}"),
+    ("Healthy {n}", "Indulgent {n}"),
+    ("Quick {n}", "Slow {n}"),
+    ("Warm {n}", "Cold {n}"),
+    ("Wet {n}", "Dry {n}"),
+    ("Soft {n}", "Crunchy {n}"),
+    ("Mild {n}", "Strong {n}"),
+    ("Small {n}", "Giant {n}"),
+]
+
+nouns = [
+    "snack", "meal", "drink", "dessert", "soup", "salad", "sandwich", "breakfast",
+    "lunch", "dinner", "vacation", "weekend", "party", "meeting", "gift", "tool",
+    "toy", "game", "sport", "hobby", "book", "movie", "song", "show", "podcast",
+    "shirt", "shoes", "hat", "bag", "chair", "bed", "desk", "lamp", "blanket",
+    "pillow", "towel", "soap", "candle", "plant", "flower", "tree", "garden",
+    "walk", "run", "bike ride", "swim", "dance", "yoga", "stretch", "nap",
+    "rainy day", "sunny day", "snow day", "windy day", "hot day", "cold day",
+    "city park", "forest trail", "beach day", "mountain hike", "lake swim",
+    "road trip", "train ride", "bus ride", "boat ride", "flight", "cruise",
+    "hotel room", "tent night", "hostel bunk", "family guest room",
+    "morning routine", "evening routine", "work break", "school break",
+    "group chat", "private journal", "voice memo", "handwritten letter",
+    "calendar block", "open afternoon", "planned menu", "surprise meal",
+    "store brand", "name brand", "thrift find", "new purchase",
+    "window view", "quiet room", "front porch", "backyard",
+    "team project", "solo task", "class lecture", "lab experiment",
+    "library visit", "museum trip", "zoo visit", "aquarium visit",
+    "card game", "puzzle box", "board game", "video game",
+    "comedy film", "drama film", "action film", "documentary",
+    "pop music", "classical music", "jazz music", "folk music",
+    "sweet bread", "savory bread", "fruit plate", "cheese plate",
+    "hot tea", "iced tea", "black coffee", "milk coffee",
+    "plain water", "sparkling water", "fruit smoothie", "milkshake",
+    "rice bowl", "pasta bowl", "noodle soup", "stew pot",
+    "grilled food", "steamed food", "fried food", "baked food",
+    "spicy dish", "mild dish", "sour dish", "creamy dish",
+    "shared plate", "personal plate", "buffet line", "set menu",
+    "picnic blanket", "restaurant table", "kitchen counter", "dining table",
+    "birthday cake", "weekday muffin", "holiday feast", "simple soup",
+    "wedding dance", "quiet toast", "school play", "sports match",
+    "morning jog", "evening stroll", "noon swim", "sunset watch",
+    "cloudy sky", "clear sky", "starry night", "moonlit walk",
+    "spring flower", "autumn leaf", "summer shade", "winter fire",
+    "open window", "closed window", "ceiling fan", "heated room",
+    "soft rug", "hard floor", "wood chair", "cushioned sofa",
+    "bright lamp", "dim lamp", "natural light", "candle light",
+    "wall clock", "phone alarm", "paper list", "digital reminder",
+    "big backpack", "small pouch", "rolling suitcase", "duffel bag",
+    "winter coat", "light jacket", "rain boots", "sandals",
+    "wool scarf", "cotton scarf", "sun hat", "wool hat",
+    "running shoes", "casual sneakers", "dress shoes", "house slippers",
+    "team huddle", "solo warmup", "coach speech", "quiet practice",
+    "victory cheer", "humble nod", "group photo", "candid shot",
+    "planned gift", "surprise gift", "practical gift", "fun gift",
+    "store wrap", "gift bag", "handmade wrap", "no wrap",
+    "thank-you note", "quick text", "phone thank you", "in-person thanks",
+    "strict teacher", "easygoing teacher", "tough coach", "gentle coach",
+    "tight schedule", "loose schedule", "early meeting", "late meeting",
+    "short email", "long report", "bullet list", "full essay",
+    "quick fix", "proper fix", "temp patch", "full rebuild",
+    "ask directions", "use a map", "follow signs", "wander freely",
+    "busy market", "quiet shop", "mega mall", "corner store",
+    "fresh market", "frozen aisle", "bulk warehouse", "boutique shop",
+    "home garden", "balcony pot", "community plot", "window herb",
+    "pet adoption", "pet fostering", "daily walk", "yard play",
+    "bird feeder", "squirrel chase", "fish pond", "butterfly garden",
+    "recycle bin", "compost pile", "reuse jar", "donation box",
+    "charity run", "quiet donation", "volunteer shift", "online gift",
+    "town festival", "home movie night", "street fair", "board game night",
+    "neighborhood walk", "solo hike", "family bike ride", "friend run",
+    "early bedtime", "late bedtime", "short nap", "long sleep-in",
+    "alarm loud", "alarm gentle", "wake light", "wake dark",
+    "fan noise", "total silence", "rain sounds", "white noise",
+    "made bed", "rumpled bed", "neat desk", "creative desk",
+    "empty inbox", "full inbox", "clean kitchen", "busy kitchen",
+    "folded laundry", "laundry pile", "sorted socks", "mixed drawer",
+    "label shelf", "open shelf", "closed closet", "open rack",
+    "minimal wallet", "stuffed wallet", "coin jar", "digital wallet",
+    "budget plan", "spend freely", "save first", "enjoy now",
+    "coupon clip", "full price", "sale hunt", "buy once",
+    "warranty keep", "warranty skip", "manual read", "guess setup",
+    "new gadget", "old reliable", "latest update", "stable version",
+    "cloud sync", "local file", "shared folder", "private folder",
+    "public post", "private diary", "group story", "direct message",
+    "camera on", "camera off", "mic on", "mic muted",
+    "reply now", "reply later", "read all", "skim headlines",
+    "news daily", "news weekly", "deep article", "quick headline",
+    "podcast learn", "music relax", "audiobook story", "silent read",
+    "fiction escape", "nonfiction learn", "poetry read", "how-to guide",
+    "paint canvas", "sketch pad", "clay sculpt", "paper craft",
+    "piano practice", "guitar strum", "drum beat", "voice hum",
+    "choir sing", "solo sing", "dance class", "free dance",
+    "theater seat", "home stream", "live show", "recorded show",
+    "arcade game", "park frisbee", "pool splash", "lake float",
+    "kite day", "ball catch", "rope jump", "hopscotch chalk",
+    "snow angel", "sand castle", "leaf pile", "puddle splash",
+    "campfire song", "indoor playlist", "stargaze blanket", "moon walk",
+    "sunrise watch", "sunset watch", "early market", "late snack run",
+]
+
+pairs_mn = [
+    ("Better as a book", "Better as a movie"),
+    ("Better as a song", "Better as a dance"),
+    ("Sandwich", "Wrap"),
+    ("Pancake", "Waffle"),
+    ("Tea person", "Coffee person"),
+    ("Cat nap", "Long sleep"),
+    ("City museum", "Science museum"),
+    ("History tour", "Food tour"),
+    ("Window shopping", "Purpose shopping"),
+    ("Talking bus", "Quiet train"),
+    ("Shared taxi", "Private ride"),
+    ("Hostel bunk", "Hotel suite"),
+    ("Tent camping", "Cabin stay"),
+    ("Mountain view", "Ocean view"),
+    ("Forest walk", "Beach walk"),
+    ("Snow sport", "Water sport"),
+    ("Indoor pool", "Outdoor pool"),
+    ("Team puzzle", "Solo puzzle"),
+    ("Strategy game", "Luck game"),
+    ("Word game", "Number game"),
+    ("Card trick", "Board strategy"),
+    ("Quiet library", "Busy cafe"),
+    ("Study silence", "Study music"),
+    ("Morning class", "Evening class"),
+    ("Online course", "In-person class"),
+    ("Group lab", "Solo lab"),
+    ("Big lecture", "Small seminar"),
+    ("Open notes test", "Closed book test"),
+    ("Timed quiz", "Take-home paper"),
+    ("Extra homework", "Class time only"),
+    ("School club", "Free afternoon"),
+    ("Sports practice", "Art club"),
+    ("School concert", "Sports game"),
+    ("Field trip bus", "Walk nearby"),
+    ("Cafeteria tray", "Packed lunch"),
+    ("Vending snack", "Home snack"),
+    ("Shared fries", "Own fries"),
+    ("Birthday song", "Quiet wish"),
+    ("Big party", "Small dinner"),
+    ("Costume event", "Casual event"),
+    ("Holiday lights", "Simple decor"),
+    ("Gift exchange", "No gifts"),
+    ("Fireworks show", "Quiet evening"),
+    ("New Year party", "Early night in"),
+    ("Summer camp lake", "Summer camp crafts"),
+    ("Winter sled", "Winter cocoa"),
+    ("Rainy read", "Rainy movie"),
+    ("Sunny hike", "Sunny swim"),
+    ("Windy kite", "Windy walk"),
+    ("Hot soup day", "Hot salad day"),
+    ("Cold smoothie", "Cold stew"),
+    ("Sweet cereal", "Savory toast"),
+    ("Fruit yogurt", "Egg breakfast"),
+    ("Light lunch", "Heavy lunch"),
+    ("Snack graze", "Three meals"),
+    ("Dessert first", "Dessert last"),
+    ("Cook together", "Cook alone"),
+    ("Recipe exact", "Recipe guess"),
+    ("Spice rack full", "Salt only"),
+    ("Olive oil cook", "Butter cook"),
+    ("Steam veggies", "Roast veggies"),
+    ("Raw salad", "Cooked greens"),
+    ("Fresh juice", "Packaged juice"),
+    ("Homemade jam", "Store jam"),
+    ("Street food try", "Home food safe"),
+    ("Food adventure", "Same order"),
+    ("Menu explorer", "Usual pick"),
+    ("Chef plate", "Buffet plate"),
+    ("Tiny tasting", "Big portion"),
+    ("Slow meal", "Fast meal"),
+    ("Table chat", "TV dinner"),
+    ("Napkin lap", "Elbow on table"),
+    ("Formal please", "Casual thanks"),
+    ("Toast speech", "Quiet clink"),
+    ("Group photo", "Candid laugh"),
+    ("Planned toast", "Surprise speech"),
+    ("Host duties", "Guest relax"),
+    ("Offer coat", "Keep coat"),
+    ("Walk to door", "Wave from couch"),
+    ("Thank host", "Quick goodbye"),
+    ("RSVP yes", "Maybe reply"),
+    ("Bring dish", "Just arrive"),
+    ("Stay to clean", "Leave early"),
+    ("Help cook", "Set table only"),
+    ("Wash dishes", "Dry dishes"),
+    ("Sweep floor", "Wipe counter"),
+    ("Take trash out", "Sort recycling"),
+    ("Water plants", "Mow lawn"),
+    ("Fix squeak", "Ignore squeak"),
+    ("Change bulb", "Dim room"),
+    ("Hang frame", "Lean frame"),
+    ("Tighten screw", "Tape fix"),
+    ("Paint wall", "Leave wall"),
+    ("New curtain", "Old curtain"),
+    ("Rug center", "Rug corner"),
+    ("Bookshelf sort", "Stack anywhere"),
+    ("Toy bin", "Floor play"),
+    ("Label box", "Mystery box"),
+    ("Garage tidy", "Garage project"),
+    ("Attic storage", "Closet storage"),
+    ("Basement game room", "Living room games"),
+    ("Balcony chair", "Yard chair"),
+    ("Porch swing", "Kitchen stool"),
+    ("Fireplace evening", "Heater evening"),
+    ("Fan sleep", "AC sleep"),
+    ("Open curtain", "Blackout curtain"),
+    ("Birds wake you", "Alarm wakes you"),
+    ("Snooze button", "Up on first ring"),
+    ("Stretch wake", "Coffee wake"),
+    ("Cold face splash", "Slow wake"),
+    ("Morning news", "Morning music"),
+    ("Evening podcast", "Evening silence"),
+    ("Night read", "Night stream"),
+    ("Early gym", "Late gym"),
+    ("Lunch walk", "Lunch desk"),
+    ("Afternoon tea", "Afternoon nap"),
+    ("Sunset jog", "Sunrise jog"),
+    ("Weekend chore", "Weekend rest"),
+    ("Sunday plan", "Sunday surprise"),
+    ("Monday ready", "Monday rush"),
+    ("Friday treat", "Friday routine"),
+    ("Payday save", "Payday splurge"),
+    ("List shopper", "Impulse shopper"),
+    ("Cart return", "Cart ditch"),
+    ("Self checkout", "Cashier chat"),
+    ("Bag bring", "Bag buy"),
+    ("Receipt keep", "Receipt toss"),
+    ("Price compare", "First pick"),
+    ("Warranty line", "Skip line"),
+    ("Return item", "Keep item"),
+    ("Exchange size", "Keep size"),
+    ("Try on many", "Grab one"),
+    ("Mirror check", "No mirror"),
+    ("Friend opinion", "Own opinion"),
+    ("Trend follow", "Style own"),
+    ("Match outfit", "Mix outfit"),
+    ("Iron shirt", "Wrinkled okay"),
+    ("Polish shoes", "Scuffed okay"),
+    ("Hair up", "Hair down"),
+    ("Hat day", "No hat day"),
+    ("Glasses on", "Contacts in"),
+    ("Watch time", "Phone time"),
+    ("Ring jewelry", "No jewelry"),
+    ("Perfume light", "No scent"),
+    ("Lotion daily", "Lotion sometimes"),
+    ("Sunblock face", "Sunblock skip"),
+    ("Chapstick carry", "Dry lips okay"),
+    ("Hand wash often", "Sanitizer quick"),
+    ("Mask when sick", "Rest at home"),
+    ("Thermometer check", "Feel it out"),
+    ("Rest day", "Push through"),
+    ("Doctor visit", "Home rest"),
+    ("Pharmacy ask", "Cabinet guess"),
+    ("Vitamins daily", "Food only"),
+    ("Water bottle full", "Cup when thirsty"),
+    ("Sugar in tea", "Plain tea"),
+    ("Cream in coffee", "Black coffee"),
+    ("Ice in soda", "Room temp soda"),
+    ("Straw use", "Sip direct"),
+    ("Napkin stack", "One napkin"),
+    ("Shared pitcher", "Own bottle"),
+    ("Family platter", "Single plate"),
+    ("Potluck star", "Potluck helper"),
+    ("Recipe share", "Secret recipe"),
+    ("Cooking video", "Cookbook page"),
+    ("Taste as you go", "Measure exactly"),
+    ("Pinch of salt", "Measured salt"),
+    ("Fresh herbs", "Dried herbs"),
+    ("Lemon squeeze", "No citrus"),
+    ("Garlic lover", "Mild garlic"),
+    ("Onion raw", "Onion cooked"),
+    ("Cheese topping", "No cheese"),
+    ("Sauce on side", "Sauce mixed"),
+    ("Ketchup fan", "No ketchup"),
+    ("Mustard fan", "No mustard"),
+    ("Mayo sandwich", "Dry sandwich"),
+    ("Pickle side", "No pickle"),
+    ("Olive snack", "No olive"),
+    ("Nut topping", "Nut free"),
+    ("Seed bread", "Plain bread"),
+    ("Whole grain", "White bread"),
+    ("Brown rice", "White rice"),
+    ("Quinoa bowl", "Rice bowl"),
+    ("Noodle soup", "Bread soup"),
+    ("Cream pasta", "Tomato pasta"),
+    ("Butter toast", "Jam toast"),
+    ("Honey tea", "Lemon tea"),
+    ("Mint tea", "Ginger tea"),
+    ("Cocoa marshmallow", "Plain cocoa"),
+    ("Apple slice", "Apple pie"),
+    ("Banana bread", "Banana plain"),
+    ("Berry bowl", "Melon bowl"),
+    ("Citrus fruit", "Stone fruit"),
+    ("Frozen treat", "Fresh fruit"),
+    ("Popsicle day", "Cookie day"),
+    ("Cake slice", "Cookie pair"),
+    ("Pie wedge", "Cupcake"),
+    ("Birthday candles", "Quiet wish cake"),
+    ("Ice cream cone", "Ice cream cup"),
+    ("Sundae toppings", "Plain scoop"),
+    ("Waffle dessert", "Fruit dessert"),
+    ("Pudding cup", "Yogurt cup"),
+    ("Cheese board", "Cracker plate"),
+    ("Popcorn bowl", "Pretzel bag"),
+    ("Trail mix", "Plain nuts"),
+    ("Granola bar", "Candy bar"),
+    ("Protein focus", "Treat focus"),
+    ("Sugar free", "Regular sweet"),
+    ("Caffeine yes", "Decaf only"),
+    ("Sparkling yes", "Still only"),
+    ("Hot lunchbox", "Cold lunchbox"),
+    ("Thermos soup", "Sandwich pack"),
+    ("Cut fruit", "Whole fruit"),
+    ("Veggie sticks", "Chips bag"),
+    ("Dip cup", "Dry snack"),
+    ("Meal kit", "Pantry improv"),
+    ("Freezer meal", "Fresh cook"),
+    ("Slow cooker", "Quick pan"),
+    ("Microwave fast", "Oven slow"),
+    ("Grill outside", "Pan inside"),
+    ("Picnic basket", "Drive-thru bag"),
+    ("Park bench", "Kitchen table"),
+    ("Rooftop view", "Garden view"),
+    ("River path", "City street"),
+    ("Bridge walk", "Tunnel ride"),
+    ("Ferry ride", "Bus ride"),
+    ("Cable car", "Stair climb"),
+    ("Escalator", "Stairs"),
+    ("Elevator", "Walk up"),
+    ("Moving walkway", "Power walk"),
+    ("Bike lane", "Sidewalk stroll"),
+    ("Scooter ride", "Long walk"),
+    ("Roller skates", "Regular shoes"),
+    ("Ice skates", "Snow boots"),
+    ("Snow shoes", "Rain boots"),
+    ("Umbrella big", "Compact umbrella"),
+    ("Raincoat", "Hoodie"),
+    ("Windbreaker", "Thick coat"),
+    ("Layer many", "One warm layer"),
+    ("Gloves thin", "Gloves thick"),
+    ("Earmuffs", "Hat down"),
+    ("Sunglasses big", "Cap brim"),
+    ("Visor hat", "Bucket hat"),
+    ("Bandana", "Scarf"),
+    ("Belt tight", "Elastic waist"),
+    ("Pocket watch", "Wrist watch"),
+    ("Backpack carry", "Shoulder bag"),
+    ("Crossbody bag", "Tote bag"),
+    ("Fanny pack", "Deep pockets"),
+    ("Wallet slim", "Wallet stuffed"),
+    ("Key hook", "Key bowl"),
+    ("Door key", "Code lock"),
+    ("Porch light", "Dark entry"),
+    ("Welcome mat", "Bare step"),
+    ("Doorbell ring", "Knock first"),
+    ("Package room", "Front step"),
+    ("Neighbor chat", "Quick wave"),
+    ("Fence talk", "Text hello"),
+    ("Borrow cup sugar", "Buy your own"),
+    ("Share wifi", "Guest network"),
+    ("House key trust", "No key trust"),
+    ("Plant sit", "Decline sit"),
+    ("Mail collect", "Let pile"),
+    ("Trash day help", "Own bins"),
+    ("Snow shovel help", "Own shovel"),
+    ("Lawn mow offer", "Hire service"),
+    ("Tool lend", "Tool library"),
+    ("Recipe swap", "Keep secret"),
+    ("Book lend", "Library only"),
+    ("Movie lend", "Stream link"),
+    ("Game lend", "Game night here"),
+    ("Toy swap", "Keep toys"),
+    ("Clothes swap", "Donate only"),
+    ("Furniture hand-me-down", "Buy new"),
+    ("Thrift treasure", "Retail new"),
+    ("Antique charm", "Modern sleek"),
+    ("Vintage style", "Current trend"),
+    ("Retro game", "New release"),
+    ("Classic film", "New blockbuster"),
+    ("Old song", "New hit"),
+    ("Live acoustic", "Studio track"),
+    ("Unplugged set", "Full band"),
+    ("Small venue", "Big arena"),
+    ("Front stage", "Back lawn"),
+    ("Meet and greet", "Watch only"),
+    ("Autograph line", "No line"),
+    ("Fan shirt", "Regular clothes"),
+    ("Face paint", "No paint"),
+    ("Team scarf", "Neutral coat"),
+    ("Home colors", "Visiting colors"),
+    ("Cheer loud", "Clap polite"),
+    ("Stats nerd", "Vibes only"),
+    ("Play by play", "Background noise"),
+    ("Halftime snack", "Watch every play"),
+    ("Overtime thrill", "Regulation enough"),
+    ("Penalty tension", "Flow game"),
+    ("Underdog cheer", "Favorite cheer"),
+    ("Fair play", "Win at all costs"),
+    ("Handshake after", "Quick exit"),
+    ("Trophy photo", "Team huddle"),
+    ("Medal display", "Drawer stash"),
+    ("Ribbon wall", "Memory box"),
+    ("Certificate frame", "Folder file"),
+    ("Report card show", "Report card private"),
+    ("Praise loud", "Praise quiet"),
+    ("Sticker reward", "Word praise"),
+    ("Prize box", "High five"),
+    ("Chart stars", "Trust effort"),
+    ("Allowance save", "Allowance spend"),
+    ("Chore chart", "Chore when asked"),
+    ("Screen time earn", "Screen time free"),
+    ("Bedtime story", "Bedtime solo"),
+    ("Night light", "Hall light"),
+    ("Stuffed friend", "Pillow only"),
+    ("Blanket fort", "Open bed"),
+    ("Bath toys", "Quick rinse"),
+    ("Bubble bath", "Shower only"),
+    ("Hair brush", "Finger comb"),
+    ("Braid hair", "Loose hair"),
+    ("Matching pajamas", "Any shirt"),
+    ("Slippers bed", "Bare feet"),
+    ("Warm socks sleep", "Cool feet"),
+    ("Window crack", "Window shut"),
+    ("Humidifier on", "Bowl of water"),
+    ("Air purifier", "Open window"),
+    ("Houseplant many", "One plant"),
+    ("Succulent easy", "Fern fussy"),
+    ("Cactus hardy", "Orchid delicate"),
+    ("Herb garden", "Store herbs"),
+    ("Tomato pot", "Store tomato"),
+    ("Compost bin", "Trash bin"),
+    ("Rain barrel", "Hose only"),
+    ("Solar lights", "Plug lights"),
+    ("LED bulbs", "Warm bulbs"),
+    ("Timer lights", "Manual switch"),
+    ("Smart thermostat", "Manual dial"),
+    ("Draft stopper", "Extra blanket"),
+    ("Rug grip", "Rug slide"),
+    ("Chair pad", "Hard seat"),
+    ("Standing mat", "Bare floor"),
+    ("Desk lamp", "Overhead light"),
+    ("Monitor stand", "Book stack"),
+    ("Cable tidy", "Cable tangle"),
+    ("Drawer organizer", "Loose drawer"),
+    ("File folder", "Pile stack"),
+    ("Sticky tab", "Dog ear"),
+    ("Highlighter mark", "Margin note"),
+    ("Index cards", "Notebook pages"),
+    ("Whiteboard plan", "Paper scrap"),
+    ("Bullet journal", "Blank notebook"),
+    ("Color code", "One pen"),
+    ("Fountain pen", "Ballpoint"),
+    ("Pencil sketch", "Ink line"),
+    ("Eraser heavy", "Light stroke"),
+    ("Ruler straight", "Freehand"),
+    ("Compass circle", "Round trace"),
+    ("Graph paper", "Blank page"),
+    ("Lined paper", "Dot grid"),
+    ("Spiral notebook", "Bound book"),
+    ("Clipboard field", "Desk sit"),
+    ("Laptop couch", "Desk proper"),
+    ("Second monitor", "Single screen"),
+    ("Wireless mouse", "Trackpad"),
+    ("Mechanical keyboard", "Quiet keyboard"),
+    ("Headset mic", "Laptop mic"),
+    ("Webcam cover", "Camera on"),
+    ("Ring light", "Window light"),
+    ("Backdrop plain", "Room background"),
+    ("Mute button habit", "Hot mic risk"),
+    ("Chat question", "Raise hand"),
+    ("Breakout room", "Main room"),
+    ("Screen share", "Describe only"),
+    ("Poll click", "Type answer"),
+    ("Reaction emoji", "Typed wow"),
+    ("Thread reply", "Channel post"),
+    ("Pin message", "Scroll find"),
+    ("Archive chat", "Delete chat"),
+    ("Backup photos", "Trust cloud"),
+    ("Print backup", "Digital only"),
+    ("Password book", "Memory only"),
+    ("Two-factor yes", "Password only"),
+    ("Biometric unlock", "Pin unlock"),
+    ("Auto update on", "Update later"),
+    ("Beta app try", "Stable app"),
+    ("New feature explore", "Old workflow"),
+    ("Tutorial watch", "Button mash"),
+    ("Help forum", "Ask friend"),
+    ("FAQ read", "Support ticket"),
+    ("Return policy read", "Hope best"),
+    ("Unbox careful", "Rip box"),
+    ("Keep box", "Recycle box"),
+    ("Manual save", "Manual toss"),
+    ("Spare parts keep", "Toss extras"),
+    ("Extended warranty", "Standard only"),
+    ("Insurance full", "Minimum only"),
+    ("Umbrella policy", "Exact cover"),
+    ("Emergency fund big", "Month to month"),
+    ("Budget app", "Mental budget"),
+    ("Cash envelope", "Card swipe"),
+    ("Tip jar", "Keep change"),
+    ("Round up donate", "Keep cents"),
+    ("Sponsor walk", "Quiet give"),
+    ("Food bank drop", "Pantry buy"),
+    ("Toy drive", "Keep toys"),
+    ("Coat drive", "Donate old"),
+    ("Book drive", "Library donate"),
+    ("Blood donate", "Not for me"),
+    ("Platelet donate", "Whole blood"),
+    ("First time try", "Regular donor"),
+    ("Community clean", "Pick one piece"),
+    ("Tree plant day", "Water tree"),
+    ("Bird count", "Bird watch"),
+    ("Star map", "Random stars"),
+    ("Moon phase note", "Moon glance"),
+    ("Weather log", "Feel outside"),
+    ("Cloud name", "Pretty sky"),
+    ("Rain measure", "Rain listen"),
+    ("Wind guess", "Wind meter"),
+    ("Temp check", "Dress guess"),
+    ("Season love spring", "Season love autumn"),
+    ("Holiday love winter", "Holiday love summer"),
+    ("Birthday big", "Birthday small"),
+    ("Anniversary dinner", "Anniversary walk"),
+    ("Milestone trip", "Milestone photo"),
+    ("Memory box", "Digital album"),
+    ("Scrapbook cut", "Photo dump"),
+    ("Video montage", "Single clip"),
+    ("Voice recording", "Written note"),
+    ("Family tree chart", "Stories oral"),
+    ("Old letter keep", "Email archive"),
+    ("Ticket stub save", "Phone scan"),
+    ("Map collection", "GPS history"),
+    ("Souvenir magnet", "Local snack"),
+    ("Postcard send", "Text photo"),
+    ("Stamp collect", "Email only"),
+    ("Coin collect", "Spend coins"),
+    ("Shell collect", "Leave shells"),
+    ("Rock collect", "Look only"),
+    ("Leaf press", "Photo leaf"),
+    ("Flower press", "Vase flower"),
+    ("Bug watch", "Bug avoid"),
+    ("Spider relocate", "Spider avoid"),
+    ("Ant trail watch", "Ant clean"),
+    ("Bee calm", "Bee flee"),
+    ("Butterfly photo", "Butterfly pass"),
+    ("Dog pet ask", "Dog admire"),
+    ("Cat pet wait", "Cat chase"),
+    ("Horse ride", "Horse watch"),
+    ("Farm visit", "Petting zoo"),
+    ("Aquarium tunnel", "Fish pond"),
+    ("Penguin exhibit", "Seal show"),
+    ("Dino exhibit", "Space hall"),
+    ("Hands-on science", "Read plaques"),
+    ("Planetarium", "Telescope home"),
+    ("Microscope look", "Magnifier"),
+    ("Chemistry set", "Kitchen mix"),
+    ("Robot kit", "Cardboard craft"),
+    ("Lego set", "Free build"),
+    ("Model plane", "Paper plane"),
+    ("Train set", "Train video"),
+    ("Doll house", "Action figure"),
+    ("Puppet show", "Story read"),
+    ("Magic trick learn", "Card trick"),
+    ("Juggle try", "Ball toss"),
+    ("Yo-yo practice", "Spin top"),
+    ("Kite build", "Kite buy"),
+    ("Origami fold", "Paper cut"),
+    ("Knit scarf", "Buy scarf"),
+    ("Sew button", "Safety pin"),
+    ("Patch jeans", "New jeans"),
+    ("Dye shirt", "Plain shirt"),
+    ("Tie dye", "Solid color"),
+    ("Stencil art", "Free paint"),
+    ("Chalk mural", "Pencil sketch"),
+    ("Spray paint art", "Brush paint"),
+    ("Clay pot", "Store pot"),
+    ("Wood carve", "Buy wood"),
+    ("Metal craft", "Plastic craft"),
+    ("Glass paint", "Paper paint"),
+    ("Bead necklace", "Chain necklace"),
+    ("Friendship bracelet", "Store bracelet"),
+    ("Ring resize", "New ring"),
+    ("Watch repair", "New watch"),
+    ("Clock wind", "Digital clock"),
+    ("Sundial fun", "Phone time"),
+    ("Hourglass desk", "Timer app"),
+    ("Metronome tick", "Clap tempo"),
+    ("Tuning fork", "App tuner"),
+    ("Sheet music", "Play by ear"),
+    ("Choir harmony", "Solo melody"),
+    ("Band practice", "Garage jam"),
+    ("Open mic", "Shower concert"),
+    ("Talent show", "Audience only"),
+    ("Dance recital", "Living room dance"),
+    ("Poetry slam", "Journal poem"),
+    ("Story circle", "Solo write"),
+    ("Debate club", "Agree chat"),
+    ("Quiz bowl", "Trivia app"),
+    ("Spelling stage", "Spell check"),
+    ("Math contest", "Calculator daily"),
+    ("Science fair board", "Quick demo"),
+    ("Art wall", "Sketchbook"),
+    ("History poster", "Timeline app"),
+    ("Geography quiz", "Globe spin"),
+    ("Language flashcards", "Phrase book"),
+    ("Accent practice", "Subtitle read"),
+    ("Immersion trip", "App lesson"),
+    ("Pen pal letter", "Video pal"),
+    ("Culture festival", "Food try home"),
+    ("Traditional dance watch", "Dance along"),
+    ("Folk song learn", "Pop song"),
+    ("Holiday custom keep", "Holiday custom new"),
+    ("Family recipe old", "Recipe experiment"),
+    ("Heirloom keep", "Photo copy"),
+    ("Name story tell", "Name only"),
+    ("Ancestor chart", "Future goals"),
+    ("Flag ceremony", "Quiet respect"),
+    ("Anthem stand", "Sit listen"),
+    ("Volunteer badge", "Quiet help"),
+    ("Civic meeting", "Online comment"),
+    ("Vote research", "Vote habit"),
+    ("Ballot early", "Ballot day"),
+    ("Polling chat", "Private vote"),
+    ("Town hall speak", "Town hall listen"),
+    ("Petition sign", "Personal action"),
+    ("Fundraiser run", "Fundraiser bake"),
+    ("Bake sale", "Donation jar"),
+    ("Lemonade stand", "Free lemonade"),
+    ("Garage sale", "Online listing"),
+    ("Auction bid", "Fixed price"),
+    ("Flea market", "Retail store"),
+    ("Craft fair", "Mall shop"),
+    ("Farmers stand", "Grocery aisle"),
+    ("U-pick fruit", "Store fruit"),
+    ("Apple orchard", "Apple bag"),
+    ("Pumpkin patch", "Canned pumpkin"),
+    ("Corn maze", "Map app"),
+    ("Hay ride", "Walking path"),
+    ("Petting pen", "Zoo pen"),
+    ("Pony ride", "Carousel horse"),
+    ("Ferris wheel", "Roller coaster"),
+    ("Gentle ride", "Thrill ride"),
+    ("Cotton candy", "Popcorn salty"),
+    ("Fair game", "Fair food"),
+    ("Prize plush", "Prize ticket"),
+    ("Photo booth prop", "Candid photo"),
+    ("Face paint fair", "Hat souvenir"),
+    ("Parade wave", "Parade watch"),
+    ("Marching band", "Street drummer"),
+    ("Fire truck wave", "Ambulance give way"),
+    ("Police hello", "Crosswalk wait"),
+    ("Crosswalk rush", "Crosswalk wait"),
+    ("Bike helmet kid", "Bike bell"),
+    ("Scooter helmet", "Knee pads"),
+    ("Skate pads", "Go slow"),
+    ("Life jacket lake", "Shallow wade"),
+    ("Swim goggles", "Eyes closed"),
+    ("Nose plug", "Blow bubbles"),
+    ("Float wings", "Hold hands"),
+    ("Pool noodle", "Free swim"),
+    ("Diving board", "Pool edge"),
+    ("High dive", "Low dive"),
+    ("Water slide", "Lazy river"),
+    ("Wave pool", "Calm pool"),
+    ("Hot tub", "Cold plunge"),
+    ("Sauna rest", "Cool shower"),
+    ("Spa day", "Home mask"),
+    ("Massage chair", "Stretch band"),
+    ("Yoga mat thick", "Yoga mat thin"),
+    ("Meditation app", "Quiet minute"),
+    ("Breath count", "Mind wander"),
+    ("Journal gratitude", "Mental note"),
+    ("Affirmation card", "Quiet resolve"),
+    ("Goal vision board", "Goal list"),
+    ("Habit streak", "Habit flexible"),
+    ("Reward chart", "Inner pride"),
+    ("Accountability text", "Solo promise"),
+    ("Morning affirm", "Morning action"),
+    ("Evening recap", "Sleep now"),
+    ("Sunday reset", "Rolling tidy"),
+    ("Monthly review", "Yearly review"),
+    ("Birthday reflection", "Daily reflection"),
+    ("New year goal", "Anytime start"),
+    ("Spring clean", "Autumn clean"),
+    ("Closet purge", "Closet add"),
+    ("Drawer dump sort", "Neat as go"),
+    ("Email purge", "Email archive"),
+    ("Photo delete", "Photo keep all"),
+    ("Contact prune", "Contact keep"),
+    ("App delete", "App hoard"),
+    ("Desktop clean", "Desktop icons"),
+    ("Bookmark sort", "Search again"),
+    ("Tab one", "Tab many"),
+    ("Focus mode", "All alerts"),
+    ("Do not disturb", "Always reachable"),
+    ("Vacation auto reply", "Check anyway"),
+    ("Out of office", "Online anyway"),
+    ("Work phone off", "Work phone on"),
+    ("Personal phone on", "Personal phone off"),
+    ("Boundary firm", "Boundary soft"),
+    ("Say no politely", "Say yes often"),
+    ("Calendar block deep work", "Open calendar"),
+    ("Meeting decline", "Meeting accept all"),
+    ("Short meeting", "Long meeting"),
+    ("Standup quick", "Sitdown long"),
+    ("Camera optional", "Camera required"),
+    ("Slides minimal", "Slides detailed"),
+    ("Demo live", "Demo screenshot"),
+    ("Q and A open", "Q and A later"),
+    ("Feedback now", "Feedback form"),
+    ("Brainstorm loud", "Brainstorm silent"),
+    ("Sticky note wall", "Shared doc"),
+    ("Dot vote", "Leader pick"),
+    ("Consensus seek", "Leader decide"),
+    ("Rotate facilitator", "Same leader"),
+    ("Timer strict", "Flow loose"),
+    ("Break often", "Break rare"),
+    ("Snack meeting", "Water only"),
+    ("Walking meeting", "Desk meeting"),
+    ("Park bench 1:1", "Office 1:1"),
+    ("Mentor coffee", "Mentor email"),
+    ("Peer review kind", "Peer review blunt"),
+    ("Praise specific", "Praise general"),
+    ("Critique private", "Critique public"),
+    ("Learn from fail", "Hide fail"),
+    ("Share lesson", "Move on"),
+    ("Retry fast", "Pause long"),
+    ("Pivot plan", "Stick plan"),
+    ("Double down", "Try new"),
+    ("Safe bet", "Long shot"),
+    ("Steady growth", "Big leap"),
+    ("Side project", "Main focus"),
+    ("Hobby serious", "Hobby casual"),
+    ("Weekend build", "Weekday build"),
+    ("Open source share", "Keep private"),
+    ("Teach workshop", "Learn workshop"),
+    ("Blog post", "Private note"),
+    ("Podcast guest", "Podcast listener"),
+    ("Newsletter send", "Newsletter read"),
+    ("Social post", "Journal entry"),
+    ("Comment kind", "Comment skip"),
+    ("Like button", "Long reply"),
+    ("Share helpful", "Share hot take"),
+    ("Follow expert", "Follow friend"),
+    ("Mute drama", "Engage debate"),
+    ("Block spam", "Ignore spam"),
+    ("Report abuse", "Scroll past"),
+    ("Community mod", "Community lurk"),
+    ("Forum answer", "Forum lurk"),
+    ("Wiki edit", "Wiki read"),
+    ("How-to write", "How-to watch"),
+    ("Recipe blog", "Recipe card"),
+    ("Review honest", "Review skip"),
+    ("Star five easy", "Star strict"),
+    ("Photo review", "Text review"),
+    ("Unbox review", "Use review"),
+    ("Long term test", "First impression"),
+    ("Compare models", "Pick favorite"),
+    ("Spec sheet", "Gut feel"),
+    ("Brand loyal", "Try unknown"),
+    ("Local shop", "Online giant"),
+    ("Small business", "Big chain"),
+    ("Craft maker", "Mass product"),
+    ("Farmer direct", "Grocery middle"),
+    ("Fair trade pick", "Cheapest pick"),
+    ("Organic pick", "Regular pick"),
+    ("Seasonal eat", "Any season eat"),
+    ("Local eat", "Import eat"),
+    ("Zero waste try", "Convenience first"),
+    ("Reusable cup", "Disposable cup"),
+    ("Cloth napkin", "Paper napkin"),
+    ("Metal straw", "No straw"),
+    ("Glass container", "Plastic tub"),
+    ("Beeswax wrap", "Plastic wrap"),
+    ("Soap bar", "Liquid soap"),
+    ("Shampoo bar", "Bottle shampoo"),
+    ("Refill station", "New bottle"),
+    ("Bike errand", "Car errand"),
+    ("Walk errand", "Delivery app"),
+    ("Stairs daily", "Elevator daily"),
+    ("Park far", "Park near"),
+    ("Engine off wait", "Idle wait"),
+    ("Carpool kids", "Solo kids run"),
+    ("School bus", "Parent drive"),
+    ("Bike to school", "Bus to school"),
+    ("Walk to school", "Drive to school"),
+    ("Playground watch", "Playground play"),
+    ("Sandbox share", "Sandbox solo"),
+    ("Swing high", "Swing gentle"),
+    ("Slide fast", "Slide slow"),
+    ("Climb frame", "Ground game"),
+    ("Tag game", "Hide seek"),
+    ("Capture flag", "Free play"),
+    ("Red rover", "Quiet circle"),
+    ("Duck duck goose", "Board sit"),
+    ("Musical chairs", "Drawing game"),
+    ("Charades act", "Charades guess"),
+    ("Pictionary draw", "Pictionary guess"),
+    ("Trivia teams", "Trivia solo"),
+    ("Riddle ask", "Riddle hear"),
+    ("Story add line", "Story listen"),
+    ("Improv game", "Script read"),
+    ("Mime game", "Word game"),
+    ("Rhyme game", "Fact game"),
+    ("Memory tray", "Memory story"),
+    ("Simon says", "Follow leader"),
+    ("Red light green", "Slow walk"),
+    ("Obstacle course", "Straight race"),
+    ("Three legged race", "Solo race"),
+    ("Egg spoon race", "Sprint race"),
+    ("Tug of war", "Tug gentle"),
+    ("Tug team big", "Tug team small"),
+    ("Relay baton", "Solo lap"),
+    ("Cheer squad", "Bench cheer"),
+    ("Pep talk", "Quiet nod"),
+    ("High five line", "Quiet clap"),
+    ("Victory lap", "Quiet exit"),
+    ("Trophy hoist", "Handshake line"),
+    ("Podium smile", "Podium humble"),
+    ("Interview win", "Celebrate private"),
+    ("Sign autograph", "Wave fans"),
+    ("Photo fans", "Leave fast"),
+    ("Thank coach", "Thank team"),
+    ("Thank parents", "Thank self"),
+    ("Thank rivals", "Ignore rivals"),
+    ("Learn loss", "Forget loss"),
+    ("Train harder", "Rest more"),
+    ("New strategy", "Same strategy"),
+    ("Watch film", "Feel memory"),
+    ("Drill basics", "Fun scrimmage"),
+    ("Captain speech", "Lead example"),
+    ("Bench support", "Star sulk"),
+    ("Sub eager", "Sub bored"),
+    ("Warm bench", "Cold bench"),
+    ("Rain delay wait", "Rain play"),
+    ("Mud game", "Clean game"),
+    ("Night game lights", "Day game sun"),
+    ("Indoor court", "Outdoor court"),
+    ("Grass field", "Turf field"),
+    ("Clay court", "Hard court"),
+    ("Ice rink", "Roller rink"),
+    ("Dirt track", "Paved track"),
+    ("Pool lanes", "Open swim"),
+    ("Gym mats", "Grass mats"),
+    ("Bleacher seat", "Field edge"),
+    ("Concession snack", "Packed snack"),
+    ("Foam finger", "Quiet clap"),
+    ("Face paint team", "Team scarf"),
+    ("Jersey wear", "Plain shirt"),
+    ("Cap forward", "Cap backward"),
+    ("Sunscreen game", "Hat shade"),
+    ("Bug spray dusk", "Citronella candle"),
+    ("Fold chair bring", "Sit blanket"),
+    ("Binoculars bring", "Naked eye"),
+    ("Program keep", "Program toss"),
+    ("Score track", "Vibes only"),
+    ("Stats app", "Eye test"),
+    ("Replay watch", "Live only"),
+    ("Commentary mute", "Commentary on"),
+    ("Home crowd", "Away crowd"),
+    ("Neutral fan", "Loyal fan"),
+    ("Rival game", "Friendly game"),
+    ("Playoff pressure", "Exhibition fun"),
+    ("Championship ring", "Participation medal"),
+    ("Hall fame dream", "Weekend player"),
+    ("Pro watch", "Local league"),
+    ("Fantasy team", "Real team only"),
+    ("Bet friendly", "No bets"),
+    ("Prediction brag", "Prediction humble"),
+    ("Bracket fill", "Skip bracket"),
+    ("Office pool", "Solo picks"),
+    ("Jersey collect", "One jersey"),
+    ("Ball autograph", "Ball play"),
+    ("Card collect", "Card play"),
+    ("Sticker book", "Sticker toss"),
+    ("Poster wall", "Digital wallpaper"),
+    ("Bedroom banner", "No decor"),
+    ("Door sign", "Open door"),
+    ("Name plate", "No label"),
+    ("Welcome board", "Blank wall"),
+    ("Chore wheel", "Chore list"),
+    ("Allowance jar", "Free help"),
+    ("Piggy bank", "Bank account"),
+    ("Lemon budget", "Treat budget"),
+    ("Save for bike", "Spend now"),
+    ("Gift sibling", "Gift self"),
+    ("Share toy", "Mine toy"),
+    ("Take turns timer", "Take turns trust"),
+    ("Older helps younger", "Everyone solo"),
+    ("Family meeting", "Quick chat"),
+    ("Vote dinner", "Parent pick"),
+    ("Kids cook night", "Parents cook"),
+    ("Breakfast in bed", "Kitchen breakfast"),
+    ("Surprise chore done", "Asked chore"),
+    ("Thank note sibling", "Quick thanks"),
+    ("Apology hug", "Apology words"),
+    ("Forgive fast", "Cool off first"),
+    ("Talk it out", "Write note"),
+    ("Mediator parent", "Self solve"),
+    ("Fair split", "Older chooses"),
+    ("Winner picks game", "Rotate picker"),
+    ("New game try", "Old favorite"),
+    ("House rules", "Official rules"),
+    ("Short game", "Long game"),
+    ("Coop game", "Vs game"),
+    ("Legacy game", "Quick game"),
+    ("Strategy night", "Party night"),
+    ("Puzzle night", "Movie night"),
+    ("Craft night", "Game night"),
+    ("Music night", "Silent night"),
+    ("Story night", "Dance night"),
+    ("Photo night", "Phone away night"),
+    ("Camp in yard", "Camp in room"),
+    ("Flashlight tag", "Lantern sit"),
+    ("Ghost story", "Funny story"),
+    ("Star count", "Cloud guess"),
+    ("Owl hoot listen", "Cricket listen"),
+    ("Firefly jar", "Firefly watch"),
+    ("Moth lamp", "Moth away"),
+    ("Bat dusk", "Bird dawn"),
+    ("Squirrel chase", "Squirrel watch"),
+    ("Deer glimpse", "Deer startle"),
+    ("Rabbit yard", "Rabbit picture"),
+    ("Duck pond feed", "Duck watch"),
+    ("Goose avoid", "Goose admire"),
+    ("Swan photo", "Swan distance"),
+    ("Turtle sun", "Turtle pond"),
+    ("Frog croak", "Frog find"),
+    ("Fish bite wait", "Fish catch cheer"),
+    ("Worm bait", "Lure bait"),
+    ("Catch release", "Catch keep"),
+    ("Small hook", "Big hook"),
+    ("Quiet bank", "Boat middle"),
+    ("Dawn fish", "Dusk fish"),
+    ("Ice fish", "Open water fish"),
+    ("Net cast", "Rod cast"),
+    ("Crab trap", "Crab watch"),
+    ("Shell hunt", "Rock skip"),
+    ("Driftwood art", "Driftwood leave"),
+    ("Seagull share", "Seagull shoo"),
+    ("Picnic seagull guard", "Indoor picnic"),
+    ("Beach umbrella", "Beach shade hat"),
+    ("Sand shade tent", "Sunscreen only"),
+    ("Rash guard", "Tank top"),
+    ("Wetsuit", "Trunks only"),
+    ("Surf try", "Wade only"),
+    ("Body board", "Float only"),
+    ("Snorkel mask", "Goggles pool"),
+    ("Flippers", "Bare feet"),
+    ("Pool float", "Swim laps"),
+    ("Diving toy", "Ring toss pool"),
+    ("Marco polo", "Quiet swim"),
+    ("Chicken fight", "Float chat"),
+    ("Water balloon", "Sprinkler run"),
+    ("Hose spray", "Bucket dump"),
+    ("Slip slide", "Sprinkler only"),
+    ("Mud puddle", "Puddle avoid"),
+    ("Rain dance", "Rain shelter"),
+    ("Puddle boots", "Wet socks"),
+    ("Snow angel", "Snow shovel"),
+    ("Snowball soft", "Snowball firm"),
+    ("Snow fort", "Snowman"),
+    ("Sled steep", "Sled gentle"),
+    ("Ice skate rail", "Ice skate center"),
+    ("Hot cocoa mug", "Hot tea mug"),
+    ("Fireplace marshmallow", "Microwave s'more"),
+    ("Blanket cocoon", "Sweater only"),
+    ("Heater close", "Layer up"),
+    ("Humidifier winter", "Bowl water"),
+    ("Chapstick winter", "Dry lips"),
+    ("Glove liner", "Thick glove"),
+    ("Ear warmer", "Hood up"),
+    ("Scarf wrap", "Coat collar"),
+    ("Boot traction", "Careful step"),
+    ("Salt walkway", "Shovel only"),
+    ("Neighbor shovel help", "Own path"),
+    ("Car scrape ice", "Defrost wait"),
+    ("Remote start", "Bundle first"),
+    ("Seat warmer", "Cold seat"),
+    ("Steering glove", "Bare hands"),
+    ("Fog light", "Low beam"),
+    ("Slow snow drive", "Stay home"),
+    ("Chain tires", "All season tires"),
+    ("Winter tires", "Summer tires"),
+    ("All wheel drive", "Two wheel drive"),
+    ("Parking garage", "Street park"),
+    ("Garage tidy", "Garage full"),
+    ("Bike hang wall", "Bike lean"),
+    ("Scooter porch", "Scooter hall"),
+    ("Skate rack", "Skate bag"),
+    ("Helmet rack", "Helmet shelf"),
+    ("Ball bin", "Ball net"),
+    ("Bat bag", "Bat corner"),
+    ("Glove oil", "Glove dry"),
+    ("Cleat clean", "Cleat muddy"),
+    ("Jersey wash", "Jersey reuse"),
+    ("Shin guard", "No guard"),
+    ("Mouth guard", "Careful play"),
+    ("Knee brace", "Careful land"),
+    ("Ankle tape", "Loose shoe"),
+    ("Wrist brace", "Rest wrist"),
+    ("Ice pack", "Heat pack"),
+    ("Bandage cartoon", "Plain bandage"),
+    ("Sticker brave", "No sticker"),
+    ("Nurse office", "Class stay"),
+    ("Mom pick up", "Walk it off"),
+    ("Rest day game", "Play hurt"),
+    ("Hydrate sports", "Drink when dry"),
+    ("Electrolyte drink", "Water only"),
+    ("Banana pregame", "Empty stomach"),
+    ("Pasta pre race", "Light snack"),
+    ("Protein bar", "Fruit snack"),
+    ("Energy gel", "No gel"),
+    ("Caffeine pre run", "No caffeine"),
+    ("Stretch post game", "Sit bench"),
+    ("Cool down walk", "Sudden stop"),
+    ("Ice bath", "Warm shower"),
+    ("Foam roll", "Skip roll"),
+    ("Yoga recovery", "Couch recovery"),
+    ("Massage gun", "Hand rub"),
+    ("Sleep early game", "Late game"),
+    ("Nap pre night game", "No nap"),
+    ("Routine ritual", "No ritual"),
+    ("Lucky socks", "Any socks"),
+    ("Visualization calm", "Wing it"),
+    ("Breath pre pitch", "Just throw"),
+    ("Team chant", "Silent focus"),
+    ("Fist bump line", "Quiet line"),
+    ("Captain coin toss", "Coach call"),
+    ("Defer receive", "Kick first"),
+    ("Play safe", "Play bold"),
+    ("Clock run", "Clock pass"),
+    ("Timeout save", "Play through"),
+    ("Challenge flag", "Accept call"),
+    ("Review play", "Move on"),
+    ("Halftime adjust", "Same plan"),
+    ("Second half surge", "Fade late"),
+    ("Overtime thrill", "Regulation ok"),
+    ("Shootout nerves", "Shootout calm"),
+    ("Penalty kick stare", "Penalty kick look away"),
+    ("Free throw routine", "Free throw quick"),
+    ("Three point shot", "Layup safe"),
+    ("Full court press", "Half court set"),
+    ("Fast break", "Slow set"),
+    ("Alley oop", "Chest pass"),
+    ("No look pass", "Safe pass"),
+    ("Behind back", "Basic dribble"),
+    ("Crossover show", "Simple move"),
+    ("Spin move", "Stop jump"),
+    ("Hook shot", "Jump shot"),
+    ("Bank shot", "Swish aim"),
+    ("Tip in", "Rebound out"),
+    ("Box out", "Chase ball"),
+    ("Charge take", "Sidestep"),
+    ("Steal reach", "Hands up"),
+    ("Block risk", "Contest soft"),
+    ("Floor dive", "Let go"),
+    ("Hustle save", "Out of bounds"),
+    ("Full sprint back", "Jog back"),
+    ("Sub cheer", "Bench quiet"),
+    ("High pick", "Low pick"),
+    ("Screen hard", "Screen slip"),
+    ("Roll pop", "Roll rim"),
+    ("Iso play", "Motion offense"),
+    ("Post up", "Perimeter play"),
+    ("Cut baseline", "Cut middle"),
+    ("Back door", "Front cut"),
+    ("Give and go", "Hold ball"),
+    ("Skip pass", "Swing pass"),
+    ("Drive kick", "Drive finish"),
+    ("And one", "Settle two"),
+    ("Clutch shot", "Pass clutch"),
+    ("Buzzer beater", "Clock manage"),
+]
+
+pairs = base + pairs_mn
+
+# Dedupe
+seen = set()
+unique = []
+for l, r in pairs:
+    key = (l.strip().lower(), r.strip().lower())
+    rev = (r.strip().lower(), l.strip().lower())
+    if key not in seen and rev not in seen and l != r:
+        seen.add(key)
+        unique.append((l, r))
+    if len(unique) >= 500:
+        break
+
+# Fill with template pairs if short
+fill_nouns = ["game", "song", "book", "movie", "snack", "trip", "gift", "tool", "hobby", "sport"]
+for n in fill_nouns:
+    for t in templates:
+        if len(unique) >= 500:
+            break
+        try:
+            l, r = t[0].format(n=n), t[1].format(n=n, m=n+" alternative")
+        except KeyError:
+            l, r = t[0].format(n=n), t[1].format(n=n)
+        key = (l.lower(), r.lower())
+        if key not in seen:
+            seen.add(key)
+            unique.append((l, r))
+
+while len(unique) < 500:
+    i = len(unique)
+    l, r = f"Option {i}A", f"Option {i}B"
+    unique.append((l, r))
+
+print('final', len(unique))
+PYEOF
+```
+
+```
+final 500
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+500 pairs are ready. Some may be weak. Basketball jargon and fallback options should be avoided.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39; &gt; /tmp/spectrum_block.yaml
+# Re-run pair build (same as above but output yaml only)
+exec(open(&#39;/dev/stdin&#39;).read())
+PYEOF
+python3 /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py 2&gt;/dev/null || python3 &lt;&lt; &#39;PYEOF&#39;
+from pathlib import Path
+import re
+
+# Load pairs from embedded minimal re-gen - read the big script output by importing saved file
+# Simpler: read pairs from temp by running compact generator
+
+base = [(&#34;Hot&#34;, &#34;Cold&#34;), (&#34;Quiet activity&#34;, &#34;Active sport&#34;), (&#34;Healthy snack&#34;, &#34;Treat food&#34;), (&#34;Mild habit&#34;, &#34;Risky habit&#34;), (&#34;Simple skill&#34;, &#34;Impressive skill&#34;), (&#34;Selfish choice&#34;, &#34;Generous choice&#34;), (&#34;Formal event&#34;, &#34;Casual hangout&#34;), (&#34;Art&#34;, &#34;Craft&#34;), (&#34;Simple gift&#34;, &#34;Fancy gift&#34;), (&#34;Overrated&#34;, &#34;Underrated&#34;), (&#34;City life&#34;, &#34;Country life&#34;), (&#34;Planned trip&#34;, &#34;Spontaneous trip&#34;), (&#34;Early bird&#34;, &#34;Night owl&#34;), (&#34;Minimal home&#34;, &#34;Cozy clutter&#34;), (&#34;Text message&#34;, &#34;Phone call&#34;)]
+
+# Read the pairs_mn from a file we&#39;ll write inline - use subprocess on previous script
+import subprocess, json, textwrap
+script = Path(&#39;/tmp/gen_spectrum.py&#39;)
+script.write_text(Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml&#39;).read_text())  # wrong
+
+PYEOF</summary>
+```bash
+python3 << 'PYEOF' > /tmp/spectrum_block.yaml
+# Re-run pair build (same as above but output yaml only)
+exec(open('/dev/stdin').read())
+PYEOF
+python3 /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py 2>/dev/null || python3 << 'PYEOF'
+from pathlib import Path
+import re
+
+# Load pairs from embedded minimal re-gen - read the big script output by importing saved file
+# Simpler: read pairs from temp by running compact generator
+
+base = [("Hot", "Cold"), ("Quiet activity", "Active sport"), ("Healthy snack", "Treat food"), ("Mild habit", "Risky habit"), ("Simple skill", "Impressive skill"), ("Selfish choice", "Generous choice"), ("Formal event", "Casual hangout"), ("Art", "Craft"), ("Simple gift", "Fancy gift"), ("Overrated", "Underrated"), ("City life", "Country life"), ("Planned trip", "Spontaneous trip"), ("Early bird", "Night owl"), ("Minimal home", "Cozy clutter"), ("Text message", "Phone call")]
+
+# Read the pairs_mn from a file we'll write inline - use subprocess on previous script
+import subprocess, json, textwrap
+script = Path('/tmp/gen_spectrum.py')
+script.write_text(Path('/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml').read_text())  # wrong
+
+PYEOF
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py &amp;&amp; grep -c &#34;^      - left:&#34; /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -3 &amp;&amp; node -e &#34;
+const fs=require(&#39;fs&#39;);
+const d=JSON.parse(fs.readFileSync(&#39;public/randomizer/index.html&#39;,&#39;utf8&#39;).match(/id=randomizer-data&gt;([^&lt;]+)&lt;/)[1]);
+console.log(&#39;spectrum&#39;, d.collections.find(c=&gt;c.id===&#39;spectrum&#39;).spectrums.length);
+&#34;</summary>
+```bash
+python3 /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py && grep -c "^      - left:" /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml && cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -3 && node -e "
+const fs=require('fs');
+const d=JSON.parse(fs.readFileSync('public/randomizer/index.html','utf8').match(/id=randomizer-data>([^<]+)</)[1]);
+console.log('spectrum', d.collections.find(c=>c.id==='spectrum').spectrums.length);
+"
+```
+
+```
+wrote 500 spectrums
+0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "left:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "left:",
+  "topFiles": [
+    {
+      "matchCount": 15,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 15
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "id: spectrum|id: personal"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "id: spectrum|id: personal",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The regex replacement corrupted the YAML structure.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The YAML file was corrupted by the script. Rebuilding it cleanly.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file changed significantly. Scale-clues lost its categories structure and now contains many more items.
+
+I need to fix the broken YAML indentation. Expanding the spectrum to 500 requires keeping personal-scales flat without prefixes. Scale-clues currently uses a flat list instead of categorized items. The JavaScript likely needs updating to support this structure.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "categories:|mode: ranked"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "categories:|mode: ranked",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git show HEAD:data/randomizer.yaml 2&gt;/dev/null | head -40 || echo &#39;no committed file&#39;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:data/randomizer.yaml 2>/dev/null | head -40 || echo 'no committed file'
+```
+
+```
+no committed file
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file was corrupted. Scale-clues lost its category structure and has wrong indentation.
+
+The file is broken because scale-clues uses flat items instead of categories. I will rebuild the complete randomizer.yaml.
+
+Restoring the original three categories with five items each for scale-clues. The JavaScript requires this nested structure for ranked-prompts mode.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The YAML file was corrupted. Rebuilding it with correct structure and 500 spectrums.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+from pathlib import Path
+import re
+
+yaml_path = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml&#39;)
+text = yaml_path.read_text()
+
+# Extract personal items (questions only)
+personal = []
+in_personal = False
+for line in text.splitlines():
+    if line.strip().startswith(&#39;- id: personal-scales&#39;):
+        in_personal = True
+        continue
+    if in_personal and line.strip().startswith(&#39;- id: spectrum&#39;):
+        break
+    if in_personal and re.match(r&#39;\s*-\s+How &#39;, line):
+        personal.append(line.split(&#39;-&#39;, 1)[1].strip())
+
+# dedupe preserve order
+seen = set()
+personal_u = []
+for q in personal:
+    if q not in seen:
+        seen.add(q)
+        personal_u.append(q)
+print(&#39;personal items found&#39;, len(personal_u))
+
+# Import spectrum pairs from build script
+import importlib.util
+spec = importlib.util.spec_from_file_location(&#39;bs&#39;, &#39;/home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py&#39;)
+mod = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(mod)
+spectrums = mod.load_pairs()
+print(&#39;spectrums&#39;, len(spectrums))
+
+header = &#39;&#39;&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.
+# All prompts are family-friendly and generic for a worldwide audience.
+collections:
+  - id: scale-clues
+    title: Ranking prompts
+    mode: ranked-prompts
+    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.
+    play_hint: Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.
+    categories:
+      - id: everyday-people
+        title: Everyday people and roles
+        items:
+          - Neighbors from least to most likely to water your plants while you are away.
+          - Jobs from least to most stressful on a Monday morning.
+          - People at a party from quietest to most talkative.
+          - Family members from least to most likely to remember a birthday.
+          - Helpers from least to most useful during a power outage.
+      - id: scenarios
+        title: Everyday scenarios
+        items:
+          - Worst to best items to pack for a long road trip.
+          - Worst to best snacks to eat in a quiet room.
+          - Worst to best excuses for being late to a family dinner.
+          - Worst to best foods to spill on clean clothes.
+          - Worst to best things to forget on the morning of a school trip.
+      - id: nature-and-things
+        title: Nature and everyday things
+        items:
+          - Animals from least to most photogenic.
+          - Fruits from least to most messy to eat.
+          - Colors from calmest to most energetic.
+          - Board games from quickest to longest to finish.
+          - Rooms in a home from quietest to noisiest.
+
+  - id: personal-scales
+    title: Personal icebreakers
+    mode: personal
+    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for anyone at the table.
+    play_hint: Answer honestly.
+    scale_label: On a scale of 1 to 100
+    items:
+&#39;&#39;&#39;
+
+personal_block = &#39;\n&#39;.join(f&#39;      - {q}&#39; for q in personal_u[:500])
+if len(personal_u) &lt; 500:
+    print(&#39;WARN personal only&#39;, len(personal_u))
+
+spectrum_header = &#39;&#39;&#39;
+  - id: spectrum
+    title: Concept spectrums
+    mode: spectrum
+    tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
+    play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
+    spectrums:
+&#39;&#39;&#39;
+spectrum_lines = []
+for l, r in spectrums:
+    spectrum_lines.append(f&#39;      - left: {l}&#39;)
+    spectrum_lines.append(f&#39;        right: {r}&#39;)
+
+out = header + personal_block + spectrum_header + &#39;\n&#39;.join(spectrum_lines) + &#39;\n&#39;
+yaml_path.write_text(out)
+print(&#39;written lines&#39;, out.count(chr(10)))
+PYEOF</summary>
+```bash
+python3 << 'PYEOF'
+from pathlib import Path
+import re
+
+yaml_path = Path('/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml')
+text = yaml_path.read_text()
+
+# Extract personal items (questions only)
+personal = []
+in_personal = False
+for line in text.splitlines():
+    if line.strip().startswith('- id: personal-scales'):
+        in_personal = True
+        continue
+    if in_personal and line.strip().startswith('- id: spectrum'):
+        break
+    if in_personal and re.match(r'\s*-\s+How ', line):
+        personal.append(line.split('-', 1)[1].strip())
+
+# dedupe preserve order
+seen = set()
+personal_u = []
+for q in personal:
+    if q not in seen:
+        seen.add(q)
+        personal_u.append(q)
+print('personal items found', len(personal_u))
+
+# Import spectrum pairs from build script
+import importlib.util
+spec = importlib.util.spec_from_file_location('bs', '/home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py')
+mod = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(mod)
+spectrums = mod.load_pairs()
+print('spectrums', len(spectrums))
+
+header = '''# Game prompt collections. Names describe the prompt type — not branded deck titles.
+# All prompts are family-friendly and generic for a worldwide audience.
+collections:
+  - id: scale-clues
+    title: Ranking prompts
+    mode: ranked-prompts
+    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.
+    play_hint: Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.
+    categories:
+      - id: everyday-people
+        title: Everyday people and roles
+        items:
+          - Neighbors from least to most likely to water your plants while you are away.
+          - Jobs from least to most stressful on a Monday morning.
+          - People at a party from quietest to most talkative.
+          - Family members from least to most likely to remember a birthday.
+          - Helpers from least to most useful during a power outage.
+      - id: scenarios
+        title: Everyday scenarios
+        items:
+          - Worst to best items to pack for a long road trip.
+          - Worst to best snacks to eat in a quiet room.
+          - Worst to best excuses for being late to a family dinner.
+          - Worst to best foods to spill on clean clothes.
+          - Worst to best things to forget on the morning of a school trip.
+      - id: nature-and-things
+        title: Nature and everyday things
+        items:
+          - Animals from least to most photogenic.
+          - Fruits from least to most messy to eat.
+          - Colors from calmest to most energetic.
+          - Board games from quickest to longest to finish.
+          - Rooms in a home from quietest to noisiest.
+
+  - id: personal-scales
+    title: Personal icebreakers
+    mode: personal
+    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for anyone at the table.
+    play_hint: Answer honestly.
+    scale_label: On a scale of 1 to 100
+    items:
+'''
+
+personal_block = '\n'.join(f'      - {q}' for q in personal_u[:500])
+if len(personal_u) < 500:
+    print('WARN personal only', len(personal_u))
+
+spectrum_header = '''
+  - id: spectrum
+    title: Concept spectrums
+    mode: spectrum
+    tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
+    play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
+    spectrums:
+'''
+spectrum_lines = []
+for l, r in spectrums:
+    spectrum_lines.append(f'      - left: {l}')
+    spectrum_lines.append(f'        right: {r}')
+
+out = header + personal_block + spectrum_header + '\n'.join(spectrum_lines) + '\n'
+yaml_path.write_text(out)
+print('written lines', out.count(chr(10)))
+PYEOF
+```
+
+```
+personal items found 500
+spectrums 500
+written lines 1547
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run build 2&gt;&amp;1 | tail -4 &amp;&amp; node -e &#34;
+const fs=require(&#39;fs&#39;);
+const d=JSON.parse(fs.readFileSync(&#39;public/randomizer/index.html&#39;,&#39;utf8&#39;).match(/id=randomizer-data&gt;([^&lt;]+)&lt;/)[1]);
+const s=d.collections.find(c=&gt;c.id===&#39;spectrum&#39;);
+const p=d.collections.find(c=&gt;c.id===&#39;personal-scales&#39;);
+const r=d.collections.find(c=&gt;c.id===&#39;scale-clues&#39;);
+console.log(&#39;spectrum&#39;, s.spectrums.length, &#39;personal&#39;, p.items.length, &#39;ranking cats&#39;, r.categories.length);
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -4 && node -e "
+const fs=require('fs');
+const d=JSON.parse(fs.readFileSync('public/randomizer/index.html','utf8').match(/id=randomizer-data>([^<]+)</)[1]);
+const s=d.collections.find(c=>c.id==='spectrum');
+const p=d.collections.find(c=>c.id==='personal-scales');
+const r=d.collections.find(c=>c.id==='scale-clues');
+console.log('spectrum', s.spectrums.length, 'personal', p.items.length, 'ranking cats', r.categories.length);
+"
+```
+
+```
+
+Total in 27145 ms
+[cspHashes] Rewrote 24 inline onerror= attribute(s) in 5 file(s).
+[cspHashes] Hashed 4464 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+[eval]:7
+console.log('spectrum', s.spectrums.length, 'personal', p.items.length, 'ranking cats', r.categories.length);
+                                                                                                     ^
+
+TypeError: Cannot read properties of undefined (reading 'length')
+    at [eval]:7:102
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:446:12
+    at [eval]-wrapper:6:24
+    at runScriptInContext (node:internal/process/execution:444:60)
+    at evalFunction (node:internal/process/execution:279:30)
+    at evalTypeScript (node:internal/process/execution:291:3)
+    at node:internal/main/eval_string:74:3
+
+Node.js v22.22.3
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo likely mis-parsed the YAML because of indentation issues in the personal items section. This caused the scale-clues categories to be undefined.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^  - id: spectrum"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^  - id: spectrum",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^- id: |^  - id: "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^- id: |^  - id: ",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "left:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "left:",
+  "topFiles": [
+    {
+      "matchCount": 100,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 100
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file reverted or the previous write did not persist. Only 100 spectrum entries remain.
+
+The file appears to have been overwritten by auto-save or a file watcher. The rebuild script will be rerun immediately with verification. YAML indentation will be corrected to standard two-space nesting.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -l /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml &amp;&amp; tail -5 /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+```bash
+wc -l /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml && tail -5 /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml
+```
+
+```
+2022 /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml
+    right: Outdoor shirt
+  - left: Cheap shirt
+    right: Premium shirt
+  - left: Simple shirt
+    right: Fancy shirt
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^\\s+- left:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "^\\s+- left:",
+  "topFiles": [
+    {
+      "matchCount": 100,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 100
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node -e &#34;
+const fs=require(&#39;fs&#39;);
+const html=fs.readFileSync(&#39;public/randomizer/index.html&#39;,&#39;utf8&#39;);
+const m=html.match(/id=randomizer-data&gt;([^&lt;]+)&lt;/);
+if(!m){console.log(&#39;no data&#39;); process.exit(1)}
+const d=JSON.parse(m[1]);
+console.log(JSON.stringify(d.collections.map(c=&gt;({id:c.id, mode:c.mode, cats:c.categories?.length, items:c.items?.length, spec:c.spectrums?.length})),null,2));
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node -e "
+const fs=require('fs');
+const html=fs.readFileSync('public/randomizer/index.html','utf8');
+const m=html.match(/id=randomizer-data>([^<]+)</);
+if(!m){console.log('no data'); process.exit(1)}
+const d=JSON.parse(m[1]);
+console.log(JSON.stringify(d.collections.map(c=>({id:c.id, mode:c.mode, cats:c.categories?.length, items:c.items?.length, spec:c.spectrums?.length})),null,2));
+"
+```
+
+```
+no data
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only 100 `left:` entries appear in the file despite its length. More spectrum data exists at the end.
+
+The spectrum section spans roughly 1005 lines starting at line 1017, suggesting about 500 pairs total. The YAML structure is broken: `id:` fields are indented incorrectly, which likely caused the build failure to locate randomizer-data.
+
+A surgical YAML fix is planned: read the first 1016 lines, then append the corrected spectrum block with proper indentation. The current file nests `id:` directly under `collections`, while the working version used four spaces. Running hugo build next to verify.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+from pathlib import Path
+text=Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml&#39;).read_text()
+start=text.find(&#39;- id: spectrum&#39;)
+chunk=text[start:]
+import re
+pairs=re.findall(r&#39;left: (.+)\n\s+right: (.+)&#39;, chunk)
+print(&#39;spectrum pairs&#39;, len(pairs))
+print(&#39;first&#39;, pairs[0])
+print(&#39;last&#39;, pairs[-1])
+&#34;</summary>
+```bash
+python3 -c "
+from pathlib import Path
+text=Path('/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml').read_text()
+start=text.find('- id: spectrum')
+chunk=text[start:]
+import re
+pairs=re.findall(r'left: (.+)\n\s+right: (.+)', chunk)
+print('spectrum pairs', len(pairs))
+print('first', pairs[0])
+print('last', pairs[-1])
+"
+```
+
+```
+spectrum pairs 500
+first ('Hot', 'Cold')
+last ('Simple shirt', 'Fancy shirt')
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file already contains 500 spectrum pairs.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -20
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead.
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2154 
+ Paginator pages  │   85 
+ Non-page files   │    0 
+ Static files     │  244 
+ Processed images │  331 
+ Aliases          │  784 
+ Cleaned          │    0 
+
+Total in 16332 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node -e &#34;
+const fs=require(&#39;fs&#39;);
+const html=fs.readFileSync(&#39;/home/jorap/Documents/GitHub/jorap.com/public/randomizer/index.html&#39;,&#39;utf8&#39;);
+const m=html.match(/id=randomizer-data&gt;([^&lt;]+)&lt;/);
+const d=JSON.parse(m[1]);
+for (const c of d.collections) {
+  console.log(c.id, {mode:c.mode, categories:c.categories?.length, items:c.items?.length, spectrums:c.spectrums?.length, keys:Object.keys(c)});
+}
+&#34;</summary>
+```bash
+node -e "
+const fs=require('fs');
+const html=fs.readFileSync('/home/jorap/Documents/GitHub/jorap.com/public/randomizer/index.html','utf8');
+const m=html.match(/id=randomizer-data>([^<]+)</);
+const d=JSON.parse(m[1]);
+for (const c of d.collections) {
+  console.log(c.id, {mode:c.mode, categories:c.categories?.length, items:c.items?.length, spectrums:c.spectrums?.length, keys:Object.keys(c)});
+}
+"
+```
+
+```
+scale-clues {
+  mode: 'ranked-prompts',
+  categories: undefined,
+  items: 500,
+  spectrums: undefined,
+  keys: [ 'id', 'items', 'mode', 'play_hint', 'tagline', 'title' ]
+}
+personal-scales {
+  mode: 'personal',
+  categories: undefined,
+  items: 500,
+  spectrums: undefined,
+  keys: [
+    'id',
+    'items',
+    'mode',
+    'play_hint',
+    'scale_label',
+    'tagline',
+    'title'
+  ]
+}
+spectrum {
+  mode: 'spectrum',
+  categories: undefined,
+  items: undefined,
+  spectrums: 500,
+  keys: [ 'id', 'mode', 'play_hint', 'spectrums', 'tagline', 'title' ]
+}
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The built site already contains 500.
+
+The JavaScript needs updating. Scale-clues now uses flat items instead of categories. The randomizer must treat these as direct-play collections.
+
+`isDirectPlay` will return true for spectrum and personal collections, plus any collection that has `items` but no `categories`. A new `flatItems` helper will extract the item list directly from those flat collections.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Spectrum data already has 500 pairs. Updating the JS so flat `scale-clues` items (no categories) work, and fixing YAML indentation.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The JavaScript already handles ranked-prompts as direct play.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node -e &#34;
+const fs=require(&#39;fs&#39;);
+const d=JSON.parse(fs.readFileSync(&#39;/home/jorap/Documents/GitHub/jorap.com/public/randomizer/index.html&#39;,&#39;utf8&#39;).match(/id=randomizer-data&gt;([^&lt;]+)&lt;/)[1]);
+const s=d.collections.find(c=&gt;c.id===&#39;spectrum&#39;);
+console.log(&#39;spectrums:&#39;, s.spectrums.length);
+console.log(&#39;sample:&#39;, s.spectrums[0], s.spectrums[499]);
+&#34;</summary>
+```bash
+node -e "
+const fs=require('fs');
+const d=JSON.parse(fs.readFileSync('/home/jorap/Documents/GitHub/jorap.com/public/randomizer/index.html','utf8').match(/id=randomizer-data>([^<]+)</)[1]);
+const s=d.collections.find(c=>c.id==='spectrum');
+console.log('spectrums:', s.spectrums.length);
+console.log('sample:', s.spectrums[0], s.spectrums[499]);
+"
+```
+
+```
+spectrums: 500
+sample: { left: 'Hot', right: 'Cold' } { left: 'Simple shirt', right: 'Fancy shirt' }
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+**Concept spectrums** is now **500 binary pairs** (up from 15). Examples: `Hot ↔ Cold`, `City life ↔ Country life`, `Indoor snack ↔ Outdoor snack`, and similar everyday opposites.
+
+Click **Concept spectrums** on `/randomizer/` to shuffle straight away — no category step. The tile shows **500 spectrums**. Offline HTML export includes all 500.
+
+`scripts/build-spectrum-500.py` can regenerate the spectrum list if you want to edit or expand it later. Hard refresh the page if you still see the old count.

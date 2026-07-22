@@ -17,7 +17,8 @@ Improving wording in the jorap-voice file.
 
 Unclear whether to revise the jorap-voice skill itself or the blog post __extension-cord.md.
 
-Will revise the open `__extension-cord.md` draft using the jorap-voice skill. Reading the file and a reference post for voice.</details></think>
+Will revise the open `__extension-cord.md` draft using the jorap-voice skill. Reading the file and a reference post for voice.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -26,40 +27,22 @@ Improving the extension-cord draft in JoRap voice — reading the post and a ref
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
@@ -72,7 +55,8 @@ The slash format likely points to the skill path. Yet the open extension-cord fi
 
 The phrase "in /jorap-voice" could mean within the skill document itself. Running voice lint and checking voice-words.yaml will help determine the correct target.
 
-Reading the full jorap-voice SKILL.md to assess whether its wording needs improvement.</details></think>
+Reading the full jorap-voice SKILL.md to assess whether its wording needs improvement.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -81,40 +65,27 @@ Checking whether you meant the skill file or the open draft, and running the voi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__extension-cord.md 2>/dev/null || pnpm lint:voice 2>&1 | head -50</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/__extension-cord.md 2&gt;/dev/null || pnpm lint:voice 2&gt;&amp;1 | head -50</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__extension-cord.md 2>/dev/null || pnpm lint:voice 2>&1 | head -50
 ```
 
 ```
 [ELIFECYCLE] Command failed with exit code 1.
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash errors:
   content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -134,7 +105,8 @@ The blog post is the clear target. It is a draft and "improve wording" fits a dr
 
 Drafting replacement copy for the meta title and description. The title will drop the clickbait tone. The description will use plain numbers instead of odd phrasing. The opening will get consistent casing. The length section will shift from travel to bag priorities.
 
-Concrete replacements are taking shape. "Modest power" will become "not much juice" or "a light load." The flat plug section will pivot to headboard, booth, and furniture details instead of retelling the café story. The safety checklist will stay as bullets per the skill guidelines. The closing line about "boring gear that earns its spot" still carries a slight marketing tone.</details></think>
+Concrete replacements are taking shape. "Modest power" will become "not much juice" or "a light load." The flat plug section will pivot to headboard, booth, and furniture details instead of retelling the café story. The safety checklist will stay as bullets per the skill guidelines. The closing line about "boring gear that earns its spot" still carries a slight marketing tone.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -143,16 +115,8 @@ Polishing the extension-cord draft in JoRap voice: tightening repetition and sha
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
@@ -161,14 +125,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking voice lint on this file for issues.
 
-Global lint failed on alex-eala fil rather than extension-cord.e.</details></think>
+Global lint failed on alex-eala fil rather than extension-cord.e.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -194,21 +157,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -234,19 +188,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The post is clean. I'll summarize the wording improvements.</details></think>
+The post is clean. I'll summarize the wording improvements.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -286,18 +234,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll rewrite the sentence about the huge Apple charger blocking the socket, removing the phrase "free on paper."
 
-I'll check the surrounding context first. Then I'll rewrite the sentence in JoRap voice to show the outlet looks open but is blocked by the bulky charger.</details></think>
+I'll check the surrounding context first. Then I'll rewrite the sentence in JoRap voice to show the outlet looks open but is blocked by the bulky charger.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
@@ -310,27 +253,21 @@ Four rewrites are being considered. One uses "looks open, can't fit your plug." 
 
 The preferred rewrite is punchy and visual: "looks empty from across the room, won't take your plug."
 
-A shorter rewrite was considered but risks losing the "you thought you had a spot" angle. A longer three-part version was rejected as too wordy. The sentence must stay one short clause in the triplet.</details></think>
+A shorter rewrite was considered but risks losing the "you thought you had a spot" angle. A longer three-part version was rejected as too wordy. The sentence must stay one short clause in the triplet.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The sentence was revised. The phrase "free on paper" was removed.</details></think>
+The sentence was revised. The phrase "free on paper" was removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -355,7 +292,8 @@ Publishing the extension cord blog post.
 
 Removing the `__` prefix from the filename, setting `draft: false`, and dropping the slug line. Considering whether to commit as well.
 
-Proceeding with the full publish workflow including a git commit.</details></think>
+Proceeding with the full publish workflow including a git commit.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -364,22 +302,15 @@ Publishing the draft: renaming the file, setting `draft: false`, and removing th
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git status && git log -3 --oneline</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git status &amp;&amp; git log -3 --oneline</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git status && git log -3 --oneline
 ```
@@ -389,13 +320,13 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add &lt;file&gt;..." to update what will be committed)
-  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
 	modified:   .specstory/statistics.json
 	modified:   content/english/blog/__extension-cord.md
 
 Untracked files:
-  (use "git add &lt;file&gt;..." to include in what will be committed)
+  (use "git add <file>..." to include in what will be committed)
 	.specstory/history/2026-07-11_23-21-02Z-laptop-companion-specifications.md
 	.specstory/history/2026-07-12_00-03-01Z-additional-insights-request.md
 	.specstory/history/2026-07-12_00-03-01Z-jorap-voice-wording-improvement.md
@@ -407,12 +338,6 @@ ab1ae3b Update
 7bf7940 Update
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -422,14 +347,13 @@ Publishing the extension cord post.
 
 Renaming the file to remove the `__` prefix. Setting `draft: false` and removing the slug line. Adding the untracked image to the commit.
 
-Committing the changes now. I'll skip pushing unless the user asks. I'll exclude `.specstory` files.</details></think>
+Committing the changes now. I'll skip pushing unless the user asks. I'll exclude `.specstory` files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -460,21 +384,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -521,33 +436,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `assets/images/extension-cord.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -555,31 +455,17 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The image is located at assets/images/extension-cord.jpg. Hugo processes assets to /images/.
 
-Writing the published extension-cord.md and deleting the draft. Committing both files and the image asset.</details></think>
+Writing the published extension-cord.md and deleting the draft. Committing both files and the image asset.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
@@ -591,17 +477,17 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Committing the deploy-path files now.
 
-Will commit without pushing. The user can push to deploy separately.</details></think>
+Will commit without pushing. The user can push to deploy separately.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git add content/english/blog/extension-cord.md assets/images/extension-cord.jpg && git add -u content/english/blog/__extension-cord.md && git diff --cached --stat && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "$(cat <<'EOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git add content/english/blog/extension-cord.md assets/images/extension-cord.jpg &amp;&amp; git add -u content/english/blog/__extension-cord.md &amp;&amp; git diff --cached --stat &amp;&amp; git commit --trailer &#34;Co-authored-by: Cursor &lt;cursoragent@cursor.com&gt;&#34; -m &#34;$(cat &lt;&lt;&#39;EOF&#39;
 Publish extension cord gear post.
 
 EOF
-)" && git status</summary>
-
+)&#34; &amp;&amp; git status</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git add content/english/blog/extension-cord.md assets/images/extension-cord.jpg && git add -u content/english/blog/__extension-cord.md && git diff --cached --stat && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "$(cat <<'EOF'
 Publish extension cord gear post.
@@ -611,7 +497,7 @@ EOF
 ```
 
 ```
- assets/images/extension-cord.jpg         | Bin 0 -&gt; 379315 bytes
+ assets/images/extension-cord.jpg         | Bin 0 -> 379315 bytes
  content/english/blog/__extension-cord.md |  90 -------------------------------
  content/english/blog/extension-cord.md   |  81 ++++++++++++++++++++++++++++
  3 files changed, 81 insertions(+), 90 deletions(-)
@@ -625,12 +511,12 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
-  (use "git add &lt;file&gt;..." to update what will be committed)
-  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
 	modified:   .specstory/statistics.json
 
 Untracked files:
-  (use "git add &lt;file&gt;..." to include in what will be committed)
+  (use "git add <file>..." to include in what will be committed)
 	.specstory/history/2026-07-11_23-21-02Z-laptop-companion-specifications.md
 	.specstory/history/2026-07-12_00-03-01Z-additional-insights-request.md
 	.specstory/history/2026-07-12_00-03-01Z-jorap-voice-wording-improvement.md
@@ -638,18 +524,13 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Published successfully. Push to deploy on Cloudflare Pages.</details></think>
+Published successfully. Push to deploy on Cloudflare Pages.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -675,27 +556,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The title of the extension cord blog post needs improvement.
 
-Checking the current title and meta_title. Reviewing similar gear posts for consistent voice.</details></think>
+Checking the current title and meta_title. Reviewing similar gear posts for consistent voice.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -783,26 +657,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the earphones post and similar gear "what I look for" titles to find better patterns.</details></think>
+Reviewing the earphones post and similar gear "what I look for" titles to find better patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -829,25 +695,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
@@ -862,7 +715,8 @@ The earphones-style title feels mismatched because the post is more about why to
 
 The opener frames the extension cord as a daily essential rather than a shopping item. "The Short Extension Cord in My Laptop Bag" is the chosen title. The meta title will be tightened to match.
 
-The meta title will read "The Short Extension Cord in My Laptop Bag - Hotel Outlets and Tight Plugs" to stay cohesive with the main title.</details></think>
+The meta title will read "The Short Extension Cord in My Laptop Bag - Hotel Outlets and Tight Plugs" to stay cohesive with the main title.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -871,23 +725,16 @@ The opener is about what’s in the bag — updating the title to match that ang
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Title improved. No commit unless requested.</details></think>
+Title improved. No commit unless requested.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -911,7 +758,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user wants a better image for the extension cord blog post.
 
-Checking the current image and reviewing how other blog posts store and format images.</details></think>
+Checking the current image and reviewing how other blog posts store and format images.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -920,24 +768,17 @@ Reviewing the current image and how other gear posts handle featured images.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **10** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (10 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (10 files)
 
 | File |
 |------|
@@ -951,21 +792,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (10 files)
 | `assets/images/stop_snap.jpg` |
 | `assets/images/drupal-to-wp.jpg` |
 | `assets/images/feature-mouse-wheel-click.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -992,13 +824,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1006,27 +831,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The current image is a generic stock-photo AI style. It shows a white cord on a cafe table beside a Starbucks mug. A laptop is blurred in the background.
 
-Checking Hucesses image requirements for dimensions and processing options.</details></think>
+Checking Hucesses image requirements for dimensions and processing options.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/feature-mouse-wheel-click.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/feature-mouse-wheel-click.jpg</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1053,21 +871,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1102,13 +911,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1116,14 +918,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Featured images are stored in assets/images.
 
-The current image is generic stock photography. A generated image would look cleaner but may not suit the lifestyle aesthetic. Checking existing post images and theme dimensions for reference.</details></think>
+The current image is generic stock photography. A generated image would look cleaner but may not suit the lifestyle aesthetic. Checking existing post images and theme dimensions for reference.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1186,52 +987,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/feature-soundpeats-runfree.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/feature-soundpeats-runfree.jpg</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking how the blog single page displays images to determine the correct aspect ratio.</details></think>
+Checking how the blog single page displays images to determine the correct aspect ratio.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1266,13 +1047,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1284,7 +1058,8 @@ A ~1200×600 image would suit the layout well. I'll replace the generic AI stock
 
 I'll generate a 16:9 lifestyle product photo with warm natural light and a wooden surface. The image will show an extension cord coiled beside a laptop charger inside an open bag. It will be saved to assets/images/extension-cord.jpg.
 
-The prompt now specifies a two-meter white extension cord coiled with a black velcro tie beside a compact laptop charger in a black bag on a wooden desk. Warm natural light from the side and shallow depth of field will create a realistic, non-stock photo. No text or logos will appear. I need to verify where GenerateImage stores its output file.</details></think>
+The prompt now specifies a two-meter white extension cord coiled with a black velcro tie beside a compact laptop charger in a black bag on a wooden desk. Warm natural light from the side and shallow depth of field will create a realistic, non-stock photo. No text or logos will appear. I need to verify where GenerateImage stores its output file.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1293,10 +1068,8 @@ Generating a replacement that matches the post and the site's gear-photo style (
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="generate_image">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="generate_image"><details>
 <summary>Tool use: **generate_image**</summary>
-
 
 Parameters:
 
@@ -1319,13 +1092,6 @@ User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="generate_image"><details>
-<summary>Tool use: **generate_image**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1333,13 +1099,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The image was saved to the extension-cord assets directory.
 
-I'll copy the image to the public assets folder to replace the old version. I may crop it to 475:239 to match the CSS aspect ratio. Then I'll verify it looks correct.</details></think>
+I'll copy the image to the public assets folder to replace the old version. I may crop it to 475:239 to match the CSS aspect ratio. Then I'll verify it looks correct.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cp "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/extension-cord.jpg" "/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg" && file "/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg" && identify "/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg" 2>/dev/null || python3 -c "from PIL import Image; im=Image.open('/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg'); print(im.size)"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cp &#34;/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/extension-cord.jpg&#34; &#34;/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg&#34; &amp;&amp; file &#34;/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg&#34; &amp;&amp; identify &#34;/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg&#34; 2&gt;/dev/null || python3 -c &#34;from PIL import Image; im=Image.open(&#39;/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg&#39;); print(im.size)&#34;</summary>
 ```bash
 cp "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/extension-cord.jpg" "/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg" && file "/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg" && identify "/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg" 2>/dev/null || python3 -c "from PIL import Image; im=Image.open('/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg'); print(im.size)"
 ```
@@ -1349,24 +1115,12 @@ cp "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/ex
 (1536, 1024)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg</summary>
 
 </details></tool-use>
 
@@ -1375,18 +1129,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The old image may still be cached. The file command reports a PNG at 1536x1024. The generated image might be saved as a .jpg file.
 
-The description matches the old carbucks image. I will read the generated file directly from the cursor path.</details></think>
+The description matches the old carbucks image. I will read the generated file directly from the cursor path.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/extension-cord.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/assets/extension-cord.jpg</summary>
 
 </details></tool-use>
 
@@ -1395,7 +1144,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The new image is much improved. It shows an open laptop bag with a coiled extension cord and charger brick. A closed laptop sits in a hotel room with a lamp in the background.
 
-The image file is PNG data with a .jpg extension. Converting it to a proper JPEG will reduce file size. The current 1536x1024 resolution is slightly narrower than the blog's 475/239 ratio. Cropping to 2:1 would improve framing.</details></think>
+The image file is PNG data with a .jpg extension. Converting it to a proper JPEG will reduce file size. The current 1536x1024 resolution is slightly narrower than the blog's 475/239 ratio. Cropping to 2:1 would improve framing.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1404,15 +1154,15 @@ Converting to JPEG and cropping to the blog's ~2:1 aspect ratio.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt;&#39;PY&#39;
 from PIL import Image
-src = '/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg'
-im = Image.open(src).convert('RGB')
+src = &#39;/home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg&#39;
+im = Image.open(src).convert(&#39;RGB&#39;)
 w, h = im.size
 target = 475/239
 current = w/h
-if current > target:
+if current &gt; target:
     new_w = int(h * target)
     left = (w - new_w) // 2
     im = im.crop((left, 0, left + new_w, h))
@@ -1421,10 +1171,9 @@ else:
     top = (h - new_h) // 2
     im = im.crop((0, top, w, top + new_h))
 im = im.resize((1200, int(1200 / target)), Image.Resampling.LANCZOS)
-im.save(src, 'JPEG', quality=88, optimize=True)
-print(im.size, 'bytes', __import__('os').path.getsize(src))
+im.save(src, &#39;JPEG&#39;, quality=88, optimize=True)
+print(im.size, &#39;bytes&#39;, __import__(&#39;os&#39;).path.getsize(src))
 PY</summary>
-
 ```bash
 python3 <<'PY'
 from PIL import Image
@@ -1451,29 +1200,18 @@ PY
 (1200, 603) bytes 97555
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The image was cropped to 1200x603 and saved as a ~97KB JPEG. This shrinks the file size from 379KB.</details></think>
+The image was cropped to 1200x603 and saved as a ~97KB JPEG. This shrinks the file size from 379KB.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/extension-cord.jpg</summary>
 
 </details></tool-use>
 
@@ -1482,7 +1220,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The new image is much better and on-topic.
 
-A title change and image replacement remain uncommitted.</details></think>
+A title change and image replacement remain uncommitted.
+</details></think>
 
 _**Agent (auto-low)**_
 

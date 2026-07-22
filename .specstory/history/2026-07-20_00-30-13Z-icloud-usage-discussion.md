@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user indicated they do not use iCloud.
 
-Checking the open `__craft-prompt-framework` file around line 22. The iCloud reference likely needs removal or correction.</details></think>
+Checking the open `__craft-prompt-framework` file around line 22. The iCloud reference likely needs removal or correction.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,23 +25,15 @@ Checking the open file and recent context for iCloud references.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -79,39 +72,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user does not use iCloud. This likely relates to the blog post about keeping desktop and laptop devices.</details></think>
+The user does not use iCloud. This likely relates to the blog post about keeping desktop and laptop devices.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -138,13 +117,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -158,7 +130,8 @@ The replacement will contrast the phone's space rationing with the laptop's gene
 
 The iCloud reference should be removed entirely rather than replaced with a generic alternative. A better fit would be "without the weekly storage panic" or a callback to the parking lot screenshot deletion story.
 
-The replacement draft is finalized. It removes the iCloud reference entirely and contrasts the phone's space rationing with the laptop's generous storage and external drive. This small edit is purely factual.</details></think>
+The replacement draft is finalized. It removes the iCloud reference entirely and contrasts the phone's space rationing with the laptop's generous storage and external drive. This small edit is purely factual.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -167,23 +140,16 @@ Removing the iCloud reference from `why-keep-desktop-laptop.md` and replacing it
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The parking lot story already sets up the weekly cleanup ritual well. The fix is simple.</details></think>
+The parking lot story already sets up the weekly cleanup ritual well. The fix is simple.
+</details></think>
 
 _**Agent (auto-low)**_
 

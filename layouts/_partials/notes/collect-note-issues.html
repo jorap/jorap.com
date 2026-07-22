@@ -32,7 +32,7 @@
   {{- $note := . -}}
   {{- $path := $note.File.Path -}}
   {{- $raw := partial "notes/assembled-content.html" $note -}}
-  {{- $bodyOnly := $note.RawContent -}}
+  {{- $bodyOnly := partial "notes/note-raw-body.html" $note -}}
   {{- $fence := "```" -}}
   {{- $tick := "`" -}}
   {{- $raw = replaceRE (printf "(?s)%s[\\s\\S]*?%s" $fence $fence) "" $raw -}}

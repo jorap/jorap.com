@@ -37,7 +37,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll compare the jorap-voice skill against the seven rewrite prompts and voice guidelines.
 
-I'm mapping jorap-voice against each prompt to spot overlaps, gaps, and where the skill is stricter or looser.</details></think>
+I'm mapping jorap-voice against each prompt to spot overlaps, gaps, and where the skill is stricter or looser.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -46,23 +47,15 @@ Comparing your seven prompts against jorap-voice — I'll pull the skill's examp
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -89,50 +82,30 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing additional patterns in examples.md and checking voice-words.yaml.</details></think>
+Reviewing additional patterns in examples.md and checking voice-words.yaml.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `data/voice-words.yaml` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
@@ -149,7 +122,8 @@ One-Friend Flow maps to plain words, contractions, direct address, and the read-
 
 JoRap voice is author-specific and operational. It embeds site conventions, lint, voice-words.yaml, and frontmatter. It enforces a plain-words ladder stricter than lint. The seven prompts are generic rewrite lenses. They are reusable across authors and topics. Several prompts overlap heavily. Prompt three is the least explicit in JoRap voice. JoRap prefers confident opinion over visible second-guessing.
 
-Prompt seven risks implying excessive polish. JoRap voice resists that by favoring conversational editing, imperfect rhythm, and roughening one or two spots. A comparison table and synthesis are being prepared.</details></think>
+Prompt seven risks implying excessive polish. JoRap voice resists that by favoring conversational editing, imperfect rhythm, and roughening one or two spots. A comparison table and synthesis are being prepared.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -272,7 +246,8 @@ The remaining four prompts are One-Friend Flow, Sharper Point of View, Make It C
 
 A dedicated "Seven rewrite lenses" workflow will preserve all seven distinct prompts rather than collapsing them. The plan is to add a new "Rewrite lenses" section to the SKILL.md workflow, map each lens to a jorap-specific interpretation, and fold prompt 3 into the voice pillars or human markers.
 
-examples.md may get a small "show the thinking" example. Reading the current files first.</details></think>
+examples.md may get a small "show the thinking" example. Reading the current files first.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -281,27 +256,15 @@ Incorporating the seven rewrite lenses into jorap-voice — reading the skill fi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
@@ -312,4 +275,121 @@ Planning how to integrate the seven rewrite lenses into jorap-voice.
 
 The plan adds a dedicated "Seven rewrite passes" section with JoRap-specific interpretations. It introduces a "Reflective" pillar for "Show the Thinking," merges the de-AI pass with the seven passes, updates the voice check, and adds a small example. The goal is clean integration without bloat.
 
-Workflow step 3 will</details></think>
+Workflow step 3 will run the seven passes. The de-AI pass folds into pass #2. A new "Seven rewrite passes" section will follow the workflow. The voice check stays as step 4.
+
+Drafting the workflow now. Step 3 mandates the seven passes for all edits. Step 4 runs the voice check. Pass #2 strips AI tells. Pass #3 introduces "Show the Thinking" with tradeoffs and second-guesses. Pass #4 covers one-friend flow. Light edits still need passes #2, #5, and #7.
+
+Pass #5 sharpens point of view. Pass #6 makes itdible. Pass #7 is the top-editor pass, but JoRap treats it as anti-polish rather than generic engagement. The De-AI pass will be merged into pass #2 or reduced to a summary pointing to passes 1–7. The Reflective pillar will join the voice pillars table. Thinking markers will be added to human markers. The voice check will gain reflective and thinking items. An example for show the thinking will go into examples.md.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Integrating the seven passes into the workflow, adding a Reflective pillar, and a short example for "Show the Thinking."
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a cross-reference in the Human vs AI table or briefly updating examples.md with the seven passes.
+
+Updating the skill description in frontmatter to mention the seven passes. Reading the final SKILL.md to verify the flow.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The changes look good. I'll summarize what changed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated **jorap-voice** to bake in all seven passes. Here's what changed:
+
+### Workflow
+Step 3 is now **Run the seven rewrite passes** (mandatory). Light edits still need at least passes **#2, #5, and #7**.
+
+### New section: Seven rewrite passes
+Each of your seven prompts is a named pass with JoRap-specific rules:
+
+| Pass | Your prompt | JoRap twist |
+|------|-------------|-------------|
+| 1 | Lived-In Voice | Memories, mistakes, what you actually do |
+| 2 | Strip the AI Tells | Points at the existing AI-tells list |
+| 3 | Show the Thinking | Tradeoffs and doubts — **then land a take** |
+| 4 | One-Friend Flow | Read-aloud test, plain words |
+| 5 | Sharper Point of View | "I'd get…" not "users may prefer…" |
+| 6 | Make It Credible | Specifics per section, no currency |
+| 7 | Top-Editor Pass | **Anti-polish** — roughen, cut filler, close on a real pick |
+
+The old **De-AI pass** is now a short **Quick de-AI check** after the seven passes, with pointers back to the relevant pass numbers.
+
+### Voice pillars
+Added **Reflective** — show how you thought it through, then commit to a take.
+
+### Human markers
+Added **Visible thinking** (near-misses, tradeoffs, tipping observations).
+
+### Voice check
+New item: shows thinking somewhere, then lands a take.
+
+### examples.md
+- Sample for **visible thinking**
+- **Seven passes — when to deep-rewrite** table (fail more than one → rewrite the section from scratch)
+
+Files touched: `.cursor/skills/jorap-voice/SKILL.md` and `examples.md`.

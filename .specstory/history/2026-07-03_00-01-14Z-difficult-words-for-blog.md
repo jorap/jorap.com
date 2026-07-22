@@ -13,7 +13,8 @@ provide 50 of the most difficult words used that are published or in draft for b
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Compiling a list of 50 of the most difficult words used in published or draft blog and note content.</details></think>
+Compiling a list of 50 of the most difficult words used in published or draft blog and note content.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,54 +23,35 @@ I'll scan the voice tooling and published/draft blog and notes content to find t
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The request targets the 50 most difficult words actually used in published blog posts and draft notes. This differs from the voice-words.yaml lint list.</details></think>
+The request targets the 50 most difficult words actually used in published blog posts and draft notes. This differs from the voice-words.yaml lint list.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -177,22 +159,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **289** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (289 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (289 files)
 
 | File |
 |------|
@@ -485,61 +459,39 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (289 files)
 | `content/english/notes/psychological-safety.md` |
 | `content/english/notes/lean-startup.md` |
 | `content/english/notes/sanctification.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A prior reference to high school vocabulary removal appears in specstory history.</details></think>
+A prior reference to high school vocabulary removal appears in specstory history.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (3 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (3 files)
 
 | File |
 |------|
 | `.specstory/history/2026-06-20_11-43-50Z-high-school-level-vocabulary-for-flashcards.md` |
 | `.specstory/history/2026-06-20_11-46-55Z-jorap-voice-skill-vocabulary-adjustment.md` |
 | `.specstory/history/2026-06-21_15-23-30Z-high-school-vocabulary-removal.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -634,92 +586,55 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A prior conversation already tracked difficult words in `.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md` and included a script.</details></think>
+A prior conversation already tracked difficult words in `.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md` and included a script.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I'll compile 50 of the most difficult words from published blogs and notes, including drafts.</details></think>
+I'll compile 50 of the most difficult words from published blogs and notes, including drafts.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -728,9 +643,8 @@ Running vocabulary analysis across blog and notes, including drafts.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -fsSL "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english.txt" -o /tmp/google-10000-english.txt && wc -l /tmp/google-10000-english.txt</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -fsSL &#34;https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english.txt&#34; -o /tmp/google-10000-english.txt &amp;&amp; wc -l /tmp/google-10000-english.txt</summary>
 ```bash
 curl -fsSL "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english.txt" -o /tmp/google-10000-english.txt && wc -l /tmp/google-10000-english.txt
 ```
@@ -739,60 +653,54 @@ curl -fsSL "https://raw.githubusercontent.com/first20hours/google-10000-english/
 10000 /tmp/google-10000-english.txt
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
 
 CONTRACTIONS = {
-    "what's":"what","whats":"what","isn't":"is","isnt":"is","don't":"do","dont":"do",
-    "doesn't":"does","doesnt":"does","didn't":"did","didnt":"did","can't":"can","cant":"can",
-    "won't":"will","wont":"will","wasn't":"was","wasnt":"was","it's":"it","that's":"that",
-    "thats":"that","there's":"there","theres":"there","you're":"you","youre":"you",
-    "they're":"they","theyre":"they","we're":"we","i'm":"i","im":"i","i've":"have",
-    "ive":"have","you've":"have","youve":"have","we've":"have","weve":"have",
-    "they've":"have","theyve":"have","i'll":"will","ill":"will","you'll":"will",
-    "youll":"will","let's":"let","lets":"let","today's":"today","todays":"today",
-    "christ's":"christ","christs":"christ","god's":"god","gods":"god","wouldn't":"would",
-    "couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are",
+    &#34;what&#39;s&#34;:&#34;what&#34;,&#34;whats&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;isnt&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;dont&#34;:&#34;do&#34;,
+    &#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;doesnt&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;didnt&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;cant&#34;:&#34;can&#34;,
+    &#34;won&#39;t&#34;:&#34;will&#34;,&#34;wont&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;wasnt&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,
+    &#34;thats&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;theres&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;youre&#34;:&#34;you&#34;,
+    &#34;they&#39;re&#34;:&#34;they&#34;,&#34;theyre&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;im&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,
+    &#34;ive&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;youve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;weve&#34;:&#34;have&#34;,
+    &#34;they&#39;ve&#34;:&#34;have&#34;,&#34;theyve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;ill&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,
+    &#34;youll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;lets&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;todays&#34;:&#34;today&#34;,
+    &#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;christs&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;gods&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,
+    &#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;,
 }
 
 # Words common in everyday English but rank low in Google list
-COMMON_BLOCK = set("""
+COMMON_BLOCK = set(&#34;&#34;&#34;
 performance everything information categories management responsibility relationship
 relationships productivity conversation intellectual sustainable reasonable execution
 alternative waited traced drafting inbound skipping verdict unsafe ninety pile footwork
 showroom proofing workflows merciful justified worthless confess glorify hoarded sermons
 something everything anything someone everyone actually version really always already
 because through without between another around during before during while still
-""".split())
+&#34;&#34;&#34;.split())
 
-VOWELS = "aeiouy"
-def syllables(w: str) -> int:
+VOWELS = &#34;aeiouy&#34;
+def syllables(w: str) -&gt; int:
     w = w.lower()
-    if len(w) <= 3:
+    if len(w) &lt;= 3:
         return 1
     count = prev = 0
     for ch in w:
@@ -800,93 +708,93 @@ def syllables(w: str) -> int:
         if v and not prev:
             count += 1
         prev = v
-    if w.endswith("e") and count > 1 and not w.endswith("le"):
+    if w.endswith(&#34;e&#34;) and count &gt; 1 and not w.endswith(&#34;le&#34;):
         count -= 1
-    if w.endswith("y") and count > 1 and len(w) > 3:
+    if w.endswith(&#34;y&#34;) and count &gt; 1 and len(w) &gt; 3:
         count -= 1
     return max(1, count)
 
 CATS = {
-    "theology": {
-        "sanctification","justification","righteousness","discipleship","galatians","ephesians",
-        "romans","beatitudes","fellowship","salvation","scripture","sermon","sermons","abide",
-        "repent","forgive","forgiveness","righteous","believers","steward","devotion","obedience",
-        "faithfulness","gentleness","merciful","glorify","confess","peacemakers","disciples",
-        "justified","stubble","caesar","propitiation","exegesis","hermeneutics","eschatology",
-        "eschatological","predestination","sanctify","atonement","prophetic","theology",
-        "theological","liturgy","liturgical","ecclesiology","ecclesiastical","apologetics",
-        "apostolic","pentecost","pentecostal","exhortation","exhort","covenant","covenants",
-        "testament","messiah","messianic","redemption","redeemed","redeemer","transgression",
-        "transgressions","righteousness","unrighteous","unrighteousness","blameless",
+    &#34;theology&#34;: {
+        &#34;sanctification&#34;,&#34;justification&#34;,&#34;righteousness&#34;,&#34;discipleship&#34;,&#34;galatians&#34;,&#34;ephesians&#34;,
+        &#34;romans&#34;,&#34;beatitudes&#34;,&#34;fellowship&#34;,&#34;salvation&#34;,&#34;scripture&#34;,&#34;sermon&#34;,&#34;sermons&#34;,&#34;abide&#34;,
+        &#34;repent&#34;,&#34;forgive&#34;,&#34;forgiveness&#34;,&#34;righteous&#34;,&#34;believers&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;obedience&#34;,
+        &#34;faithfulness&#34;,&#34;gentleness&#34;,&#34;merciful&#34;,&#34;glorify&#34;,&#34;confess&#34;,&#34;peacemakers&#34;,&#34;disciples&#34;,
+        &#34;justified&#34;,&#34;stubble&#34;,&#34;caesar&#34;,&#34;propitiation&#34;,&#34;exegesis&#34;,&#34;hermeneutics&#34;,&#34;eschatology&#34;,
+        &#34;eschatological&#34;,&#34;predestination&#34;,&#34;sanctify&#34;,&#34;atonement&#34;,&#34;prophetic&#34;,&#34;theology&#34;,
+        &#34;theological&#34;,&#34;liturgy&#34;,&#34;liturgical&#34;,&#34;ecclesiology&#34;,&#34;ecclesiastical&#34;,&#34;apologetics&#34;,
+        &#34;apostolic&#34;,&#34;pentecost&#34;,&#34;pentecostal&#34;,&#34;exhortation&#34;,&#34;exhort&#34;,&#34;covenant&#34;,&#34;covenants&#34;,
+        &#34;testament&#34;,&#34;messiah&#34;,&#34;messianic&#34;,&#34;redemption&#34;,&#34;redeemed&#34;,&#34;redeemer&#34;,&#34;transgression&#34;,
+        &#34;transgressions&#34;,&#34;righteousness&#34;,&#34;unrighteous&#34;,&#34;unrighteousness&#34;,&#34;blameless&#34;,
     },
-    "pkm": {
-        "wikilinks","evergreen","fleeting","whiteboard","playbook","postmortem","rollback",
-        "handoff","repetition","spaced","distill","markdown","scribble","hoarding","fallacy",
-        "inbox","zettelkasten","serendipity","serendipitous","synthesis","synthesize",
-        "summarization","associative","backlinks","backlink","interstitial","interstitials",
-        "frontmatter","wikilink","graphview","taxonomy","taxonomies","metadata",
+    &#34;pkm&#34;: {
+        &#34;wikilinks&#34;,&#34;evergreen&#34;,&#34;fleeting&#34;,&#34;whiteboard&#34;,&#34;playbook&#34;,&#34;postmortem&#34;,&#34;rollback&#34;,
+        &#34;handoff&#34;,&#34;repetition&#34;,&#34;spaced&#34;,&#34;distill&#34;,&#34;markdown&#34;,&#34;scribble&#34;,&#34;hoarding&#34;,&#34;fallacy&#34;,
+        &#34;inbox&#34;,&#34;zettelkasten&#34;,&#34;serendipity&#34;,&#34;serendipitous&#34;,&#34;synthesis&#34;,&#34;synthesize&#34;,
+        &#34;summarization&#34;,&#34;associative&#34;,&#34;backlinks&#34;,&#34;backlink&#34;,&#34;interstitial&#34;,&#34;interstitials&#34;,
+        &#34;frontmatter&#34;,&#34;wikilink&#34;,&#34;graphview&#34;,&#34;taxonomy&#34;,&#34;taxonomies&#34;,&#34;metadata&#34;,
     },
-    "tech": {
-        "cloudflare","github","deploy","hugo","retainer","rollback","markdown","tailwind",
-        "javascript","typescript","webpack","minify","minification","repository","repositories",
-        "functionality","optimization","configurable","configuration","middleware",
-        "serverless","subdomain","subdomains","dns","ssl","tls","cdn","api","apis",
-        "obsidian","wordpress","shortcode","shortcodes","bundles","taxonomy","taxonomies",
+    &#34;tech&#34;: {
+        &#34;cloudflare&#34;,&#34;github&#34;,&#34;deploy&#34;,&#34;hugo&#34;,&#34;retainer&#34;,&#34;rollback&#34;,&#34;markdown&#34;,&#34;tailwind&#34;,
+        &#34;javascript&#34;,&#34;typescript&#34;,&#34;webpack&#34;,&#34;minify&#34;,&#34;minification&#34;,&#34;repository&#34;,&#34;repositories&#34;,
+        &#34;functionality&#34;,&#34;optimization&#34;,&#34;configurable&#34;,&#34;configuration&#34;,&#34;middleware&#34;,
+        &#34;serverless&#34;,&#34;subdomain&#34;,&#34;subdomains&#34;,&#34;dns&#34;,&#34;ssl&#34;,&#34;tls&#34;,&#34;cdn&#34;,&#34;api&#34;,&#34;apis&#34;,
+        &#34;obsidian&#34;,&#34;wordpress&#34;,&#34;shortcode&#34;,&#34;shortcodes&#34;,&#34;bundles&#34;,&#34;taxonomy&#34;,&#34;taxonomies&#34;,
     },
 }
 
-def categorize(w: str) -> str:
+def categorize(w: str) -&gt; str:
     for cat, words in CATS.items():
         if w in words:
             return cat
-    return "general"
+    return &#34;general&#34;
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
-def strip_markup(text: str) -> str:
+def strip_markup(text: str) -&gt; str:
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text)
-    text = HTML.sub(" ", text)
-    text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text)
+    text = HTML.sub(&#34; &#34;, text)
+    text = CODE.sub(&#34; &#34;, text)
     return text
 
-def prose_blob(path: Path, meta: dict, body: str) -> str:
+def prose_blob(path: Path, meta: dict, body: str) -&gt; str:
     chunks: list[str] = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip():
                 chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             val = meta.get(key)
             if isinstance(val, list):
                 for item in val:
                     if isinstance(item, str) and item.strip():
-                        if key == "aliases" and item.startswith("/"):
+                        if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;):
                             continue
                         chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip():
                         chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip():
                     chunks.append(reason)
         if body.strip():
             chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip():
                 chunks.append(val)
         if body.strip():
             chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq: Counter[str] = Counter()
 files_by_word: dict[str, set[str]] = defaultdict(set)
@@ -895,24 +803,24 @@ blog_count = 0
 notes_count = 0
 draft_count = 0
 
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes"):
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;):
         continue
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding=&#34;utf-8&#34;)
     m = FRONTMATTER.match(text)
     if not m:
         continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"):
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;):
         continue
-    if path.name == "_index.md":
+    if path.name == &#34;_index.md&#34;:
         continue
 
-    is_draft = bool(meta.get("draft"))
+    is_draft = bool(meta.get(&#34;draft&#34;))
     file_count += 1
     if is_draft:
         draft_count += 1
-    if path.parent.name == "blog":
+    if path.parent.name == &#34;blog&#34;:
         blog_count += 1
     else:
         notes_count += 1
@@ -920,39 +828,38 @@ for path in sorted(CONTENT.rglob("*.md")):
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
 
     rel = str(path.relative_to(ROOT))
-    for w in re.findall(r"[a-z]{4,}", blob):
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         files_by_word[w].add(rel)
 
 items = []
 for w, c in freq.items():
-    if c < 3 or w in COMMON_BLOCK:
+    if c &lt; 3 or w in COMMON_BLOCK:
         continue
     rank = common.get(w, 10001)
     syl = syllables(w)
     # Skip common everyday words (top 8000 in Google list)
-    if rank <= 8000 and w in common:
+    if rank &lt;= 8000 and w in common:
         continue
     # Score: frequency × (syllables + length + rarity)
-    rarity = (10001 - rank) if rank <= 10000 else 4000
+    rarity = (10001 - rank) if rank &lt;= 10000 else 4000
     score = c * (syl * 300 + max(0, len(w) - 6) * 50 + rarity)
     items.append((score, w, c, syl, rank, categorize(w), sorted(files_by_word[w])[:3]))
 
 items.sort(reverse=True)
 
-print(f"FILES: {file_count} total ({blog_count} blog, {notes_count} notes, {draft_count} drafts)")
-print(f"UNIQUE_TOKENS: {len(freq)}")
+print(f&#34;FILES: {file_count} total ({blog_count} blog, {notes_count} notes, {draft_count} drafts)&#34;)
+print(f&#34;UNIQUE_TOKENS: {len(freq)}&#34;)
 print()
-print(f"{'#':>3}  {'word':<22} {'freq':>4}  {'syl':>3}  {'rank':>5}  {'lane':<10}  sample files")
-print("-" * 110)
+print(f&#34;{&#39;#&#39;:&gt;3}  {&#39;word&#39;:&lt;22} {&#39;freq&#39;:&gt;4}  {&#39;syl&#39;:&gt;3}  {&#39;rank&#39;:&gt;5}  {&#39;lane&#39;:&lt;10}  sample files&#34;)
+print(&#34;-&#34; * 110)
 for i, (_, w, c, syl, rank, lane, samples) in enumerate(items[:50], 1):
-    rank_s = str(rank) if rank <= 10000 else "rare"
-    print(f"{i:3d}  {w:<22} {c:4d}  {syl:3d}  {rank_s:>5}  {lane:<10}  {'; '.join(samples)}")
+    rank_s = str(rank) if rank &lt;= 10000 else &#34;rare&#34;
+    print(f&#34;{i:3d}  {w:&lt;22} {c:4d}  {syl:3d}  {rank_s:&gt;5}  {lane:&lt;10}  {&#39;; &#39;.join(samples)}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -1173,61 +1080,16 @@ UNIQUE_TOKENS: 6387
   7  habit                    51    2   rare  general     content/english/blog/__client-site-pass-off.md; content/english/blog/__how-to-create-a-good-habit.md; content/english/blog/__personal-immune-booster-supplements.md
   8  jorap                    50    2   rare  general     content/english/blog/__canon-g3000.md; content/english/blog/__craft-prompt-framework.md; content/english/blog/__extension-cord.md
   9  deploy                   48    1   rare  tech        content/english/blog/__client-site-pass-off.md; content/english/blog/__hugo-static-site-generator.md; content/english/blog/__jobs-to-be-done-framework.md
- 10  rollback                 43    2   rare  pkm         content/english/notes/blameless-after-action-review.md; content/english/notes/build-a-reliable-default.md; content/english/notes/change-window.md
- 11  cloudflare               40    2   rare  tech        content/english/blog/__client-site-pass-off.md; content/english/blog/__hugo-static-site-generator.md; content/english/blog/__selling-static-sites.md
- 12  patience                 37    2   rare  general     content/english/blog/__shopee-tips.md; content/english/blog/how-i-built-jorap-notes.md; content/english/notes/abide-in-me.md
- 13  gentleness               34    3   rare  theology    content/english/notes/composure.md; content/english/notes/discipleship.md; content/english/notes/faithfulness.md
- 14  faithfulness             31    3   rare  theology    content/english/notes/compounding.md; content/english/notes/discipleship.md; content/english/notes/eternal-rewards.md
- 15  beats                    89    1   8580  general     content/english/blog/__extension-cord.md; content/english/blog/__how-to-create-a-good-habit.md; content/english/blog/__hugo-go-templates.md
- 16  justification            25    5   rare  theology    content/english/notes/abide-in-me.md; content/english/notes/assurance.md; content/english/notes/discipleship.md
- 17  inbox                    96    2   9080  pkm         content/english/blog/__client-site-pass-off.md; content/english/blog/__static-site-client-scope.md; content/english/blog/getting-started-with-rss-feeds-beginners-guide.md
- 18  steward                  31    2   rare  theology    content/english/notes/eternal-rewards.md; content/english/notes/faithful-steward.md; content/english/notes/faithfulness.md
- 19  facebook                 28    3   rare  general     content/english/blog/__drupal-to-wordpress.md; content/english/blog/__selling-static-sites.md; content/english/blog/__static-site-client-scope.md
- 20  kindness                 29    2   rare  general     content/english/blog/__craft-prompt-framework.md; content/english/notes/discipleship.md; content/english/notes/fruits-of-the-spirit.md
- 21  mercy                    60    1   8158  general     content/english/notes/forgiveness.md; content/english/notes/free-grace.md; content/english/notes/fruits-of-the-spirit.md
- 22  evergreen                25    3   rare  pkm         content/english/notes/daily-notes.md; content/english/notes/digital-garden.md; content/english/notes/drafting-in-public.md
- 23  retainer                 25    3   rare  tech        content/english/blog/__client-site-pass-off.md; content/english/blog/__selling-static-sites.md; content/english/blog/__static-site-client-scope.md
- 24  motive                   27    2   rare  general     content/english/notes/christianity-and-politics.md; content/english/notes/faith-and-works.md; content/english/notes/fruits-of-the-spirit.md
- 25  github                   27    2   rare  tech        content/english/blog/__hugo-static-site-generator.md; content/english/blog/__markdown-deep-dive.md; content/english/blog/__selling-static-sites.md
- 26  heroic                   26    2   rare  general     content/english/blog/__personal-immune-booster-supplements.md; content/english/notes/compounding.md; content/english/notes/continuous-improvement.md
- 27  sanctification           20    5   rare  theology    content/english/notes/abide-in-me.md; content/english/notes/discipleship.md; content/english/notes/faith-and-works.md
- 28  closeness                23    3   rare  general     content/english/blog/miracle-isaiah-david.md; content/english/notes/assurance.md; content/english/notes/create-regular-connection.md
- 29  naming                   25    2   rare  general     content/english/blog/__static-site-client-scope.md; content/english/notes/accountability.md; content/english/notes/building-a-personal-api.md
- 30  slice                    26    1   rare  general     content/english/blog/__sustainable-online-publishing.md; content/english/blog/__why-i-stopped-playing-marvel-snap.md; content/english/blog/top-reasons-create-maintain-your-own-website.md
- 31  entrusted                22    3   rare  general     content/english/notes/eternal-rewards.md; content/english/notes/faithful-steward.md; content/english/notes/faithfulness.md
- 32  sermon                   23    2   rare  theology    content/english/blog/__selling-static-sites.md; content/english/blog/__static-site-client-scope.md; content/english/notes/analog-capture-tools.md
- 33  repo                     23    2   rare  general     content/english/blog/__client-site-pass-off.md; content/english/blog/__obsidian-vs-hugo.md; content/english/blog/__selling-static-sites.md
- 34  righteousness            20    3   rare  theology    content/english/notes/christianity-and-politics.md; content/english/notes/fruits-of-the-spirit.md; content/english/notes/goodness.md
- 35  messy                    24    1   rare  general     content/english/blog/__sustainable-online-publishing.md; content/english/notes/by-their-fruits.md; content/english/notes/client-site-pass-off.md
- 36  youtube                  22    2   rare  general     content/english/blog/__craft-prompt-framework.md; content/english/blog/__drupal-to-wordpress.md; content/english/blog/__mi-box-s.md
- 37  hugoplate                20    3   rare  general     content/english/blog/__hugo-go-templates.md; content/english/blog/__hugo-static-site-generator.md; content/english/blog/__tailwind-css-v4.md
- 38  quarterfinals            18    4   rare  general     content/english/blog/alex-eala-pro-career-tracker.md
- 39  righteous                21    2   rare  theology    content/english/notes/faith-and-works.md; content/english/notes/free-grace.md; content/english/notes/grace.md
- 40  revoked                  20    3   rare  general     content/english/notes/abide-in-me.md; content/english/notes/assurance.md; content/english/notes/grace.md
- 41  hoard                    23    1   rare  general     content/english/notes/building-a-second-brain.md; content/english/notes/discipleship.md; content/english/notes/drafting-in-public.md
- 42  neighbor                 65    2   9191  general     content/english/blog/__client-site-pass-off.md; content/english/blog/__selling-static-sites.md; content/english/blog/__static-site-client-scope.md
- 43  whiteboard               19    3   rare  pkm         content/english/notes/complete-the-cycle.md; content/english/notes/context-aware-capture.md; content/english/notes/evergreen-vs-fleeting-notes.md
- 44  boring                   43    2   8356  general     content/english/blog/__canon-g3000.md; content/english/blog/__client-site-pass-off.md; content/english/blog/__drupal-to-wordpress.md
- 45  halftime                 20    2   rare  general     content/english/notes/attention-economy.md; content/english/notes/commonplace-book.md; content/english/notes/complete-the-cycle.md
- 46  applause                 20    2   rare  general     content/english/blog/__client-site-pass-off.md; content/english/notes/discipline.md; content/english/notes/faithful-steward.md
- 47  discipleship             17    4   rare  theology    content/english/notes/discipleship.md; content/english/notes/faith-and-works.md; content/english/notes/free-grace.md
- 48  commute                  20    2   rare  general     content/english/notes/capture.md; content/english/notes/convert-pain-into-learning.md; content/english/notes/daily-notes.md
- 49  forgiveness              17    4   rare  theology    content/english/notes/ask-seek-knock.md; content/english/notes/forgiveness-at-work.md; content/english/notes/forgiveness.md
- 50  saves                    37    2   8098  general     content/english/blog/__drupal-to-wordpress.md; content/english/blog/__extension-cord.md; content/english/blog/__mi-box-s.md
-
+ 10  rollback                 43    2   rare  pkm         content/english
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The initial list contains false positives such as brand names and common words. Refining the filter to exclude proper nouns and technical product names.</details></think>
+The initial list contains false positives such as brand names and common words. Refining the filter to exclude proper nouns and technical product names.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1236,37 +1098,37 @@ Refining the analysis to filter out proper nouns and everyday words that slipped
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
 
 CONTRACTIONS = {
-    "what's":"what","whats":"what","isn't":"is","isnt":"is","don't":"do","dont":"do",
-    "doesn't":"does","doesnt":"does","didn't":"did","didnt":"did","can't":"can","cant":"can",
-    "won't":"will","wont":"will","wasn't":"was","wasnt":"was","it's":"it","that's":"that",
-    "thats":"that","there's":"there","theres":"there","you're":"you","youre":"you",
-    "they're":"they","theyre":"they","we're":"we","i'm":"i","im":"i","i've":"have",
-    "ive":"have","you've":"have","youve":"have","we've":"have","weve":"have",
-    "they've":"have","theyve":"have","i'll":"will","ill":"will","you'll":"will",
-    "youll":"will","let's":"let","lets":"let","today's":"today","todays":"today",
-    "christ's":"christ","christs":"christ","god's":"god","gods":"god",
+    &#34;what&#39;s&#34;:&#34;what&#34;,&#34;whats&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;isnt&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;dont&#34;:&#34;do&#34;,
+    &#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;doesnt&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;didnt&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;cant&#34;:&#34;can&#34;,
+    &#34;won&#39;t&#34;:&#34;will&#34;,&#34;wont&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;wasnt&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,
+    &#34;thats&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;theres&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;youre&#34;:&#34;you&#34;,
+    &#34;they&#39;re&#34;:&#34;they&#34;,&#34;theyre&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;im&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,
+    &#34;ive&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;youve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;weve&#34;:&#34;have&#34;,
+    &#34;they&#39;ve&#34;:&#34;have&#34;,&#34;theyve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;ill&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,
+    &#34;youll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;lets&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;todays&#34;:&#34;today&#34;,
+    &#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;christs&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;gods&#34;:&#34;god&#34;,
 }
 
-# Everyday words that rank low in Google list but aren't hard
-COMMON_BLOCK = set("""
+# Everyday words that rank low in Google list but aren&#39;t hard
+COMMON_BLOCK = set(&#34;&#34;&#34;
 performance everything information categories management responsibility relationship
 relationships productivity conversation intellectual sustainable reasonable execution
 alternative waited traced drafting inbound skipping verdict unsafe ninety pile footwork
@@ -1276,20 +1138,20 @@ because through without between another around during before while still beats i
 mercy neighbor boring saves slice habit patience messy kindness facebook youtube github
 cloudflare deploy markdown repo naming heroic motive tempted faithful steward sermon
 entrusted hoard revoked closeness commute halftime applause heroic heroic heroic
-""".split())
+&#34;&#34;&#34;.split())
 
 # Proper nouns, brands, slugs — not vocabulary difficulty
-PROPER_BLOCK = set("""
+PROPER_BLOCK = set(&#34;&#34;&#34;
 jorap hugoplate wtatennis alexandra eala alex tennis wimbledon usopen shopee
 facebook youtube github cloudflare hugo obsidian wordpress tailwind pixijs anki
 drupal wordpress mi box canon g3000 marvel snap instant pot adobo dnpap
 hugoplate sveltia wrangler netlify vercel cloudflare pages
-""".split())
+&#34;&#34;&#34;.split())
 
-VOWELS = "aeiouy"
-def syllables(w: str) -> int:
+VOWELS = &#34;aeiouy&#34;
+def syllables(w: str) -&gt; int:
     w = w.lower()
-    if len(w) <= 3:
+    if len(w) &lt;= 3:
         return 1
     count = prev = 0
     for ch in w:
@@ -1297,142 +1159,141 @@ def syllables(w: str) -> int:
         if v and not prev:
             count += 1
         prev = v
-    if w.endswith("e") and count > 1 and not w.endswith("le"):
+    if w.endswith(&#34;e&#34;) and count &gt; 1 and not w.endswith(&#34;le&#34;):
         count -= 1
-    if w.endswith("y") and count > 1 and len(w) > 3:
+    if w.endswith(&#34;y&#34;) and count &gt; 1 and len(w) &gt; 3:
         count -= 1
     return max(1, count)
 
 CATS = {
-    "theology": {
-        "sanctification","justification","righteousness","discipleship","galatians","ephesians",
-        "romans","beatitudes","fellowship","salvation","scripture","sermon","sermons","abide",
-        "repent","forgive","forgiveness","righteous","believers","steward","devotion","obedience",
-        "faithfulness","gentleness","merciful","glorify","confess","peacemakers","disciples",
-        "justified","stubble","caesar","propitiation","atonement","transgression","transgressions",
-        "unrighteous","unrighteousness","blameless","exhortation","exhort","covenant","covenants",
-        "messiah","redemption","redeemed","redeemer","liturgy","liturgical","apologetics",
-        "apostolic","pentecost","pentecostal","eschatology","eschatological","predestination",
-        "sanctify","theology","theological","ecclesiology","ecclesiastical","hermeneutics",
+    &#34;theology&#34;: {
+        &#34;sanctification&#34;,&#34;justification&#34;,&#34;righteousness&#34;,&#34;discipleship&#34;,&#34;galatians&#34;,&#34;ephesians&#34;,
+        &#34;romans&#34;,&#34;beatitudes&#34;,&#34;fellowship&#34;,&#34;salvation&#34;,&#34;scripture&#34;,&#34;sermon&#34;,&#34;sermons&#34;,&#34;abide&#34;,
+        &#34;repent&#34;,&#34;forgive&#34;,&#34;forgiveness&#34;,&#34;righteous&#34;,&#34;believers&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;obedience&#34;,
+        &#34;faithfulness&#34;,&#34;gentleness&#34;,&#34;merciful&#34;,&#34;glorify&#34;,&#34;confess&#34;,&#34;peacemakers&#34;,&#34;disciples&#34;,
+        &#34;justified&#34;,&#34;stubble&#34;,&#34;caesar&#34;,&#34;propitiation&#34;,&#34;atonement&#34;,&#34;transgression&#34;,&#34;transgressions&#34;,
+        &#34;unrighteous&#34;,&#34;unrighteousness&#34;,&#34;blameless&#34;,&#34;exhortation&#34;,&#34;exhort&#34;,&#34;covenant&#34;,&#34;covenants&#34;,
+        &#34;messiah&#34;,&#34;redemption&#34;,&#34;redeemed&#34;,&#34;redeemer&#34;,&#34;liturgy&#34;,&#34;liturgical&#34;,&#34;apologetics&#34;,
+        &#34;apostolic&#34;,&#34;pentecost&#34;,&#34;pentecostal&#34;,&#34;eschatology&#34;,&#34;eschatological&#34;,&#34;predestination&#34;,
+        &#34;sanctify&#34;,&#34;theology&#34;,&#34;theological&#34;,&#34;ecclesiology&#34;,&#34;ecclesiastical&#34;,&#34;hermeneutics&#34;,
     },
-    "pkm": {
-        "wikilinks","evergreen","fleeting","whiteboard","playbook","postmortem","rollback",
-        "handoff","repetition","spaced","distill","markdown","scribble","hoarding","fallacy",
-        "inbox","zettelkasten","serendipity","serendipitous","synthesis","synthesize",
-        "summarization","associative","backlinks","backlink","interstitial","interstitials",
-        "frontmatter","wikilink","graphview","taxonomy","taxonomies","metadata","evergreen",
-        "fleeting","progressive","summarization","interstitial","serendipity",
+    &#34;pkm&#34;: {
+        &#34;wikilinks&#34;,&#34;evergreen&#34;,&#34;fleeting&#34;,&#34;whiteboard&#34;,&#34;playbook&#34;,&#34;postmortem&#34;,&#34;rollback&#34;,
+        &#34;handoff&#34;,&#34;repetition&#34;,&#34;spaced&#34;,&#34;distill&#34;,&#34;markdown&#34;,&#34;scribble&#34;,&#34;hoarding&#34;,&#34;fallacy&#34;,
+        &#34;inbox&#34;,&#34;zettelkasten&#34;,&#34;serendipity&#34;,&#34;serendipitous&#34;,&#34;synthesis&#34;,&#34;synthesize&#34;,
+        &#34;summarization&#34;,&#34;associative&#34;,&#34;backlinks&#34;,&#34;backlink&#34;,&#34;interstitial&#34;,&#34;interstitials&#34;,
+        &#34;frontmatter&#34;,&#34;wikilink&#34;,&#34;graphview&#34;,&#34;taxonomy&#34;,&#34;taxonomies&#34;,&#34;metadata&#34;,&#34;evergreen&#34;,
+        &#34;fleeting&#34;,&#34;progressive&#34;,&#34;summarization&#34;,&#34;interstitial&#34;,&#34;serendipity&#34;,
     },
-    "tech": {
-        "deploy","retainer","rollback","minify","minification","repository","repositories",
-        "functionality","optimization","configurable","configuration","middleware",
-        "serverless","subdomain","subdomains","shortcode","shortcodes","bundles",
-        "taxonomy","taxonomies","rendering","fingerprint","fingerprinting","canonical",
-        "canonicalization","preprocessor","preprocessing","transpiler","transpiling",
+    &#34;tech&#34;: {
+        &#34;deploy&#34;,&#34;retainer&#34;,&#34;rollback&#34;,&#34;minify&#34;,&#34;minification&#34;,&#34;repository&#34;,&#34;repositories&#34;,
+        &#34;functionality&#34;,&#34;optimization&#34;,&#34;configurable&#34;,&#34;configuration&#34;,&#34;middleware&#34;,
+        &#34;serverless&#34;,&#34;subdomain&#34;,&#34;subdomains&#34;,&#34;shortcode&#34;,&#34;shortcodes&#34;,&#34;bundles&#34;,
+        &#34;taxonomy&#34;,&#34;taxonomies&#34;,&#34;rendering&#34;,&#34;fingerprint&#34;,&#34;fingerprinting&#34;,&#34;canonical&#34;,
+        &#34;canonicalization&#34;,&#34;preprocessor&#34;,&#34;preprocessing&#34;,&#34;transpiler&#34;,&#34;transpiling&#34;,
     },
 }
 
-def categorize(w: str) -> str:
+def categorize(w: str) -&gt; str:
     for cat, words in CATS.items():
         if w in words:
             return cat
-    return "general"
+    return &#34;general&#34;
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
-def strip_markup(text: str) -> str:
+def strip_markup(text: str) -&gt; str:
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text)
-    text = HTML.sub(" ", text)
-    text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text)
+    text = HTML.sub(&#34; &#34;, text)
+    text = CODE.sub(&#34; &#34;, text)
     return text
 
-def prose_blob(path: Path, meta: dict, body: str) -> str:
+def prose_blob(path: Path, meta: dict, body: str) -&gt; str:
     chunks: list[str] = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip():
                 chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             val = meta.get(key)
             if isinstance(val, list):
                 for item in val:
                     if isinstance(item, str) and item.strip():
-                        if key == "aliases" and item.startswith("/"):
+                        if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;):
                             continue
                         chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip():
                         chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip():
                     chunks.append(reason)
         if body.strip():
             chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip():
                 chunks.append(val)
         if body.strip():
             chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq: Counter[str] = Counter()
 files_by_word: dict[str, set[str]] = defaultdict(set)
 
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md":
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;:
         continue
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding=&#34;utf-8&#34;)
     m = FRONTMATTER.match(text)
     if not m:
         continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"):
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;):
         continue
 
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
 
     rel = str(path.relative_to(ROOT))
-    for w in re.findall(r"[a-z]{4,}", blob):
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         files_by_word[w].add(rel)
 
 items = []
 for w, c in freq.items():
-    if c < 4 or w in COMMON_BLOCK or w in PROPER_BLOCK:
+    if c &lt; 4 or w in COMMON_BLOCK or w in PROPER_BLOCK:
         continue
     rank = common.get(w, 10001)
     syl = syllables(w)
     # Must be genuinely uncommon OR multi-syllable domain term
-    is_rare = w not in common or rank > 8500
-    is_long = syl >= 3 and len(w) >= 8
+    is_rare = w not in common or rank &gt; 8500
+    is_long = syl &gt;= 3 and len(w) &gt;= 8
     if not is_rare and not is_long:
         continue
-    rarity = (10001 - rank) if rank <= 10000 else 5000
+    rarity = (10001 - rank) if rank &lt;= 10000 else 5000
     score = c * (syl * 400 + max(0, len(w) - 7) * 80 + rarity)
     items.append((score, w, c, syl, rank, categorize(w), sorted(files_by_word[w])[:2]))
 
 items.sort(reverse=True)
 
-print(f"{'#':>3}  {'word':<24} {'uses':>4}  {'syl':>3}  {'lane':<10}  where")
-print("-" * 95)
+print(f&#34;{&#39;#&#39;:&gt;3}  {&#39;word&#39;:&lt;24} {&#39;uses&#39;:&gt;4}  {&#39;syl&#39;:&gt;3}  {&#39;lane&#39;:&lt;10}  where&#34;)
+print(&#34;-&#34; * 95)
 for i, (_, w, c, syl, rank, lane, samples) in enumerate(items[:50], 1):
-    short = [s.replace("content/english/", "") for s in samples]
-    print(f"{i:3d}  {w:<24} {c:4d}  {syl:3d}  {lane:<10}  {'; '.join(short)}")
+    short = [s.replace(&#34;content/english/&#34;, &#34;&#34;) for s in samples]
+    print(f&#34;{i:3d}  {w:&lt;24} {c:4d}  {syl:3d}  {lane:&lt;10}  {&#39;; &#39;.join(short)}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -1649,49 +1510,9 @@ PYEOF
  13  gentleness                 34    3  theology    notes/composure.md; notes/discipleship.md
  14  becoming                   27    3  general     notes/abide-in-me.md; notes/discipleship.md
  15  faithfulness               31    3  theology    notes/compounding.md; notes/discipleship.md
- 16  remember                   19    3  general     blog/__client-site-pass-off.md; blog/__drupal-to-wordpress.md
- 17  decision                   19    3  general     blog/__drupal-to-wordpress.md; blog/__selling-static-sites.md
- 18  fellowship                 42    3  theology    notes/assurance.md; notes/forgiveness.md
- 19  received                   18    3  general     notes/assurance.md; notes/forgiveness.md
- 20  justification              25    5  theology    notes/abide-in-me.md; notes/assurance.md
- 21  sometimes                  18    4  general     blog/__drupal-to-wordpress.md; blog/__how-to-create-a-good-habit.md
- 22  publishing                 18    3  general     blog/__blank-blog-template.md; blog/__blog-template.md
- 23  reference                  16    3  general     blog/__blank-blog-template.md; blog/__blog-template.md
- 24  parallel                   23    3  general     notes/atomic-notes.md; notes/break-the-escalation-cycle.md
- 25  attention                  17    3  general     blog/__wifi-router.md; blog/consistent-ai-output-wordpress-builds.md
- 26  evergreen                  25    3  pkm         notes/daily-notes.md; notes/digital-garden.md
- 27  specific                   15    3  general     blog/__canon-g3000.md; blog/__jobs-to-be-done-framework.md
- 28  retainer                   25    3  tech        blog/__client-site-pass-off.md; blog/__selling-static-sites.md
- 29  notebook                   19    3  general     blog/__personal-immune-booster-supplements.md; blog/__remote-work-checklist.md
- 30  connection                 15    3  general     notes/continuous-improvement.md; notes/create-regular-connection.md
- 31  sanctification             20    5  theology    notes/abide-in-me.md; notes/discipleship.md
- 32  articles                   14    3  general     blog/__make-ai-articles-more-human.md; blog/top-reasons-create-maintain-your-own-website.md
- 33  maintenance                15    3  general     blog/__canon-g3000.md; blog/__jobs-to-be-done-framework.md
- 34  leadership                 16    3  general     notes/ethical-leadership.md; notes/humility-and-service.md
- 35  wireless                   14    3  general     blog/__canon-g3000.md; blog/__rechargeable-batteries.md
- 36  principles                 16    3  general     notes/elon-musk.md; notes/first-principles-thinking.md
- 37  whatever                   16    3  general     blog/__jobs-to-be-done-framework.md; blog/__mi-box-s.md
- 38  technical                  13    3  general     blog/__client-site-pass-off.md; blog/__hugo-static-site-generator.md
- 39  database                   13    3  general     blog/__hugo-static-site-generator.md; blog/__selling-static-sites.md
- 40  extension                  15    3  general     blog/__extension-cord.md; blog/__remote-work-checklist.md
- 41  effective                  13    3  general     notes/assurance.md; notes/digital-minimalism.md
- 42  righteousness              20    3  theology    notes/christianity-and-politics.md; notes/fruits-of-the-spirit.md
- 43  especially                 13    3  general     blog/__canon-g3000.md; blog/__how-to-create-a-good-habit.md
- 44  features                   12    3  general     blog/__jobs-to-be-done-framework.md; blog/__smart-plug.md
- 45  favorites                  14    4  general     blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
- 46  quarterfinals              18    4  general     blog/alex-eala-pro-career-tracker.md
- 47  character                  13    3  general     blog/__how-to-create-a-good-habit.md; notes/by-their-fruits.md
- 48  tournament                 16    3  general     blog/alex-eala-pro-career-tracker.md; notes/crdt.md
- 49  righteous                  21    2  theology    notes/faith-and-works.md; notes/free-grace.md
- 50  activity                   12    3  general     blog/what-i-look-for-in-wireless-earphones.md; notes/eliminate-before-managing.md
-
+ 16  remember                   19    3  general     blog/__client-site-pass-off.md; blog/__drupal-to-wordpress.
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1699,50 +1520,51 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The current list still contains too many common words. I need to filter out frequent terms before compiling the final set.
 
-A stricter filter is needed. Words will be excluded if they rank above 9000 or are missing from the vocabulary list. Minimum two syllables and a blocklist of common three-syllable terms will further narrow the selection.</details></think>
+A stricter filter is needed. Words will be excluded if they rank above 9000 or are missing from the vocabulary list. Minimum two syllables and a blocklist of common three-syllable terms will further narrow the selection.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
 
 CONTRACTIONS = {
-    "what's":"what","whats":"what","isn't":"is","isnt":"is","don't":"do","dont":"do",
-    "doesn't":"does","doesnt":"does","didn't":"did","didnt":"did","can't":"can","cant":"can",
-    "won't":"will","wont":"will","wasn't":"was","wasnt":"was","it's":"it","that's":"that",
-    "thats":"that","there's":"there","theres":"there","you're":"you","youre":"you",
-    "they're":"they","theyre":"they","we're":"we","i'm":"i","im":"i","i've":"have",
-    "ive":"have","you've":"have","youve":"have","we've":"have","weve":"have",
-    "they've":"have","theyve":"have","i'll":"will","ill":"will","you'll":"will",
-    "youll":"will","let's":"let","lets":"let","today's":"today","todays":"today",
-    "christ's":"christ","christs":"christ","god's":"god","gods":"god",
+    &#34;what&#39;s&#34;:&#34;what&#34;,&#34;whats&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;isnt&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;dont&#34;:&#34;do&#34;,
+    &#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;doesnt&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;didnt&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;cant&#34;:&#34;can&#34;,
+    &#34;won&#39;t&#34;:&#34;will&#34;,&#34;wont&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;wasnt&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,
+    &#34;thats&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;theres&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;youre&#34;:&#34;you&#34;,
+    &#34;they&#39;re&#34;:&#34;they&#34;,&#34;theyre&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;im&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,
+    &#34;ive&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;youve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;weve&#34;:&#34;have&#34;,
+    &#34;they&#39;ve&#34;:&#34;have&#34;,&#34;theyve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;ill&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,
+    &#34;youll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;lets&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;todays&#34;:&#34;today&#34;,
+    &#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;christs&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;gods&#34;:&#34;god&#34;,
 }
 
 # Brands, slugs, product names
-PROPER_BLOCK = set("""
+PROPER_BLOCK = set(&#34;&#34;&#34;
 jorap hugoplate wtatennis alexandra alex eala shopee facebook youtube github
 cloudflare hugo obsidian wordpress tailwind pixijs anki drupal sveltia wrangler
 netlify vercel canon g3000 marvel snap dnpap hugoplate mi box
-""".split())
+&#34;&#34;&#34;.split())
 
-VOWELS = "aeiouy"
-def syllables(w: str) -> int:
+VOWELS = &#34;aeiouy&#34;
+def syllables(w: str) -&gt; int:
     w = w.lower()
-    if len(w) <= 3:
+    if len(w) &lt;= 3:
         return 1
     count = prev = 0
     for ch in w:
@@ -1750,144 +1572,143 @@ def syllables(w: str) -> int:
         if v and not prev:
             count += 1
         prev = v
-    if w.endswith("e") and count > 1 and not w.endswith("le"):
+    if w.endswith(&#34;e&#34;) and count &gt; 1 and not w.endswith(&#34;le&#34;):
         count -= 1
-    if w.endswith("y") and count > 1 and len(w) > 3:
+    if w.endswith(&#34;y&#34;) and count &gt; 1 and len(w) &gt; 3:
         count -= 1
     return max(1, count)
 
 CATS = {
-    "theology": {
-        "sanctification","justification","righteousness","discipleship","galatians","ephesians",
-        "romans","beatitudes","fellowship","salvation","scripture","sermon","sermons","abide",
-        "repent","forgive","forgiveness","righteous","believers","steward","devotion","obedience",
-        "faithfulness","gentleness","merciful","glorify","confess","peacemakers","disciples",
-        "justified","stubble","caesar","propitiation","atonement","transgression","transgressions",
-        "unrighteous","unrighteousness","blameless","exhortation","exhort","covenant","covenants",
-        "messiah","redemption","redeemed","redeemer","liturgy","liturgical","apologetics",
-        "apostolic","pentecost","pentecostal","eschatology","eschatological","predestination",
-        "sanctify","theology","theological","ecclesiology","ecclesiastical","hermeneutics",
-        "prophetic","testament","transfiguration","transfigured","propitiation","propitiate",
+    &#34;theology&#34;: {
+        &#34;sanctification&#34;,&#34;justification&#34;,&#34;righteousness&#34;,&#34;discipleship&#34;,&#34;galatians&#34;,&#34;ephesians&#34;,
+        &#34;romans&#34;,&#34;beatitudes&#34;,&#34;fellowship&#34;,&#34;salvation&#34;,&#34;scripture&#34;,&#34;sermon&#34;,&#34;sermons&#34;,&#34;abide&#34;,
+        &#34;repent&#34;,&#34;forgive&#34;,&#34;forgiveness&#34;,&#34;righteous&#34;,&#34;believers&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;obedience&#34;,
+        &#34;faithfulness&#34;,&#34;gentleness&#34;,&#34;merciful&#34;,&#34;glorify&#34;,&#34;confess&#34;,&#34;peacemakers&#34;,&#34;disciples&#34;,
+        &#34;justified&#34;,&#34;stubble&#34;,&#34;caesar&#34;,&#34;propitiation&#34;,&#34;atonement&#34;,&#34;transgression&#34;,&#34;transgressions&#34;,
+        &#34;unrighteous&#34;,&#34;unrighteousness&#34;,&#34;blameless&#34;,&#34;exhortation&#34;,&#34;exhort&#34;,&#34;covenant&#34;,&#34;covenants&#34;,
+        &#34;messiah&#34;,&#34;redemption&#34;,&#34;redeemed&#34;,&#34;redeemer&#34;,&#34;liturgy&#34;,&#34;liturgical&#34;,&#34;apologetics&#34;,
+        &#34;apostolic&#34;,&#34;pentecost&#34;,&#34;pentecostal&#34;,&#34;eschatology&#34;,&#34;eschatological&#34;,&#34;predestination&#34;,
+        &#34;sanctify&#34;,&#34;theology&#34;,&#34;theological&#34;,&#34;ecclesiology&#34;,&#34;ecclesiastical&#34;,&#34;hermeneutics&#34;,
+        &#34;prophetic&#34;,&#34;testament&#34;,&#34;transfiguration&#34;,&#34;transfigured&#34;,&#34;propitiation&#34;,&#34;propitiate&#34;,
     },
-    "pkm": {
-        "wikilinks","evergreen","fleeting","whiteboard","playbook","postmortem","rollback",
-        "handoff","repetition","spaced","distill","markdown","scribble","hoarding","fallacy",
-        "inbox","zettelkasten","serendipity","serendipitous","synthesis","synthesize",
-        "summarization","associative","backlinks","backlink","interstitial","interstitials",
-        "frontmatter","wikilink","graphview","taxonomy","taxonomies","metadata","progressive",
-        "summarize","summarized","summarizing","interconnected","interconnection",
-        "interconnectedness","normalization","deviance","deviant","crdt","backlinking",
+    &#34;pkm&#34;: {
+        &#34;wikilinks&#34;,&#34;evergreen&#34;,&#34;fleeting&#34;,&#34;whiteboard&#34;,&#34;playbook&#34;,&#34;postmortem&#34;,&#34;rollback&#34;,
+        &#34;handoff&#34;,&#34;repetition&#34;,&#34;spaced&#34;,&#34;distill&#34;,&#34;markdown&#34;,&#34;scribble&#34;,&#34;hoarding&#34;,&#34;fallacy&#34;,
+        &#34;inbox&#34;,&#34;zettelkasten&#34;,&#34;serendipity&#34;,&#34;serendipitous&#34;,&#34;synthesis&#34;,&#34;synthesize&#34;,
+        &#34;summarization&#34;,&#34;associative&#34;,&#34;backlinks&#34;,&#34;backlink&#34;,&#34;interstitial&#34;,&#34;interstitials&#34;,
+        &#34;frontmatter&#34;,&#34;wikilink&#34;,&#34;graphview&#34;,&#34;taxonomy&#34;,&#34;taxonomies&#34;,&#34;metadata&#34;,&#34;progressive&#34;,
+        &#34;summarize&#34;,&#34;summarized&#34;,&#34;summarizing&#34;,&#34;interconnected&#34;,&#34;interconnection&#34;,
+        &#34;interconnectedness&#34;,&#34;normalization&#34;,&#34;deviance&#34;,&#34;deviant&#34;,&#34;crdt&#34;,&#34;backlinking&#34;,
     },
-    "tech": {
-        "deploy","retainer","rollback","minify","minification","repository","repositories",
-        "functionality","optimization","configurable","configuration","middleware",
-        "serverless","subdomain","subdomains","shortcode","shortcodes","bundles",
-        "canonical","canonicalization","preprocessor","preprocessing","transpiler",
-        "transpiling","fingerprint","fingerprinting","stylesheet","stylesheets",
-        "headless","webhook","webhooks","lighthouse","minified","bundler","bundling",
+    &#34;tech&#34;: {
+        &#34;deploy&#34;,&#34;retainer&#34;,&#34;rollback&#34;,&#34;minify&#34;,&#34;minification&#34;,&#34;repository&#34;,&#34;repositories&#34;,
+        &#34;functionality&#34;,&#34;optimization&#34;,&#34;configurable&#34;,&#34;configuration&#34;,&#34;middleware&#34;,
+        &#34;serverless&#34;,&#34;subdomain&#34;,&#34;subdomains&#34;,&#34;shortcode&#34;,&#34;shortcodes&#34;,&#34;bundles&#34;,
+        &#34;canonical&#34;,&#34;canonicalization&#34;,&#34;preprocessor&#34;,&#34;preprocessing&#34;,&#34;transpiler&#34;,
+        &#34;transpiling&#34;,&#34;fingerprint&#34;,&#34;fingerprinting&#34;,&#34;stylesheet&#34;,&#34;stylesheets&#34;,
+        &#34;headless&#34;,&#34;webhook&#34;,&#34;webhooks&#34;,&#34;lighthouse&#34;,&#34;minified&#34;,&#34;bundler&#34;,&#34;bundling&#34;,
     },
 }
 
-def categorize(w: str) -> str:
+def categorize(w: str) -&gt; str:
     for cat, words in CATS.items():
         if w in words:
             return cat
-    return "general"
+    return &#34;general&#34;
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
-def strip_markup(text: str) -> str:
+def strip_markup(text: str) -&gt; str:
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text)
-    text = HTML.sub(" ", text)
-    text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text)
+    text = HTML.sub(&#34; &#34;, text)
+    text = CODE.sub(&#34; &#34;, text)
     return text
 
-def prose_blob(path: Path, meta: dict, body: str) -> str:
+def prose_blob(path: Path, meta: dict, body: str) -&gt; str:
     chunks: list[str] = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip():
                 chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             val = meta.get(key)
             if isinstance(val, list):
                 for item in val:
                     if isinstance(item, str) and item.strip():
-                        if key == "aliases" and item.startswith("/"):
+                        if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;):
                             continue
                         chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip():
                         chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip():
                     chunks.append(reason)
         if body.strip():
             chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip():
                 chunks.append(val)
         if body.strip():
             chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq: Counter[str] = Counter()
 files_by_word: dict[str, set[str]] = defaultdict(set)
 
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md":
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;:
         continue
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding=&#34;utf-8&#34;)
     m = FRONTMATTER.match(text)
     if not m:
         continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"):
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;):
         continue
 
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
 
     rel = str(path.relative_to(ROOT))
-    for w in re.findall(r"[a-z]{4,}", blob):
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         files_by_word[w].add(rel)
 
 items = []
 for w, c in freq.items():
-    if c < 4 or w in PROPER_BLOCK:
+    if c &lt; 4 or w in PROPER_BLOCK:
         continue
     rank = common.get(w, 10001)
     syl = syllables(w)
     # Strict: only words outside top 9000 common OR 4+ syllables
-    if rank <= 9000 and syl < 4:
+    if rank &lt;= 9000 and syl &lt; 4:
         continue
-    rarity = (10001 - rank) if rank <= 10000 else 5000
+    rarity = (10001 - rank) if rank &lt;= 10000 else 5000
     score = c * (syl * 500 + max(0, len(w) - 7) * 100 + rarity)
     items.append((score, w, c, syl, rank, categorize(w), sorted(files_by_word[w])[:2]))
 
 items.sort(reverse=True)
 
-print(f"{'#':>3}  {'word':<24} {'uses':>4}  {'syl':>3}  {'rank':>5}  {'lane':<10}  where")
-print("-" * 105)
+print(f&#34;{&#39;#&#39;:&gt;3}  {&#39;word&#39;:&lt;24} {&#39;uses&#39;:&gt;4}  {&#39;syl&#39;:&gt;3}  {&#39;rank&#39;:&gt;5}  {&#39;lane&#39;:&lt;10}  where&#34;)
+print(&#34;-&#34; * 105)
 for i, (_, w, c, syl, rank, lane, samples) in enumerate(items[:50], 1):
-    rank_s = str(rank) if rank <= 10000 else "rare"
-    short = [s.replace("content/english/", "") for s in samples]
-    print(f"{i:3d}  {w:<24} {c:4d}  {syl:3d}  {rank_s:>5}  {lane:<10}  {'; '.join(short)}")
+    rank_s = str(rank) if rank &lt;= 10000 else &#34;rare&#34;
+    short = [s.replace(&#34;content/english/&#34;, &#34;&#34;) for s in samples]
+    print(f&#34;{i:3d}  {w:&lt;24} {c:4d}  {syl:3d}  {rank_s:&gt;5}  {lane:&lt;10}  {&#39;; &#39;.join(short)}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -2092,106 +1913,67 @@ PYEOF
  13  faithfulness               31    3   rare  theology    notes/compounding.md; notes/discipleship.md
  14  justification              25    5   rare  theology    notes/abide-in-me.md; notes/assurance.md
  15  sometimes                  18    4   1737  general     blog/__drupal-to-wordpress.md; blog/__how-to-create-a-good-habit.md
- 16  steward                    31    2   rare  theology    notes/eternal-rewards.md; notes/faithful-steward.md
- 17  inbox                      96    2   9080  pkm         blog/__client-site-pass-off.md; blog/__static-site-client-scope.md
- 18  kindness                   29    2   rare  general     blog/__craft-prompt-framework.md; notes/discipleship.md
- 19  evergreen                  25    3   rare  pkm         notes/daily-notes.md; notes/digital-garden.md
- 20  retainer                   25    3   rare  tech        blog/__client-site-pass-off.md; blog/__selling-static-sites.md
- 21  sanctification             20    5   rare  theology    notes/abide-in-me.md; notes/discipleship.md
- 22  motive                     27    2   rare  general     notes/christianity-and-politics.md; notes/faith-and-works.md
- 23  heroic                     26    2   rare  general     blog/__personal-immune-booster-supplements.md; notes/compounding.md
- 24  closeness                  23    3   rare  general     blog/miracle-isaiah-david.md; notes/assurance.md
- 25  naming                     25    2   rare  general     blog/__static-site-client-scope.md; notes/accountability.md
- 26  entrusted                  22    3   rare  general     notes/eternal-rewards.md; notes/faithful-steward.md
- 27  slice                      26    1   rare  general     blog/__sustainable-online-publishing.md; blog/__why-i-stopped-playing-marvel-snap.md
- 28  righteousness              20    3   rare  theology    notes/christianity-and-politics.md; notes/fruits-of-the-spirit.md
- 29  sermon                     23    2   rare  theology    blog/__selling-static-sites.md; blog/__static-site-client-scope.md
- 30  repo                       23    2   rare  general     blog/__client-site-pass-off.md; blog/__obsidian-vs-hugo.md
- 31  quarterfinals              18    4   rare  general     blog/alex-eala-pro-career-tracker.md
- 32  favorites                  14    4   2607  general     blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
- 33  messy                      24    1   rare  general     blog/__sustainable-online-publishing.md; notes/by-their-fruits.md
- 34  righteous                  21    2   rare  theology    notes/faith-and-works.md; notes/free-grace.md
- 35  revoked                    20    3   rare  general     notes/abide-in-me.md; notes/assurance.md
- 36  whiteboard                 19    3   rare  pkm         notes/complete-the-cycle.md; notes/context-aware-capture.md
- 37  conversation               17    4   4932  general     blog/__rechargeable-batteries.md; blog/__selling-static-sites.md
- 38  discipleship               17    4   rare  theology    notes/discipleship.md; notes/faith-and-works.md
- 39  sustainable                15    4   3930  general     blog/__sustainable-online-publishing.md; notes/develop-dont-endanger.md
- 40  hoard                      23    1   rare  general     notes/building-a-second-brain.md; notes/discipleship.md
- 41  forgiveness                17    4   rare  theology    notes/ask-seek-knock.md; notes/forgiveness-at-work.md
- 42  neighbor                   65    2   9191  general     blog/__client-site-pass-off.md; blog/__selling-static-sites.md
- 43  information                10    4     49  general     notes/attention-economy.md; notes/christianity-and-politics.md
- 44  halftime                   20    2   rare  general     notes/attention-economy.md; notes/commonplace-book.md
- 45  applause                   20    2   rare  general     blog/__client-site-pass-off.md; notes/discipline.md
- 46  pile                       20    2   rare  general     blog/__rechargeable-batteries.md; blog/__selling-static-sites.md
- 47  commute                    20    2   rare  general     notes/capture.md; notes/convert-pain-into-learning.md
- 48  investigation              12    5   3143  general     notes/blameless-after-action-review.md; notes/heed-every-near-miss.md
- 49  responsibility             10    5   1487  general     notes/finish-strong.md; notes/leadership.md
- 50  teammate                   19    2   rare  general     blog/__sveltia-cms.md; blog/consistent-ai-output-wordpress-builds.md
-
+ 16  steward                    31    2   rare  theology   
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The initial list contained common words. A more human-curated approach is needed.</details></think>
+The initial list contained common words. A more human-curated approach is needed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
 
 CONTRACTIONS = {
-    "what's":"what","whats":"what","isn't":"is","isnt":"is","don't":"do","dont":"do",
-    "doesn't":"does","doesnt":"does","didn't":"did","didnt":"did","can't":"can","cant":"can",
-    "won't":"will","wont":"will","wasn't":"was","wasnt":"was","it's":"it","that's":"that",
-    "thats":"that","there's":"there","theres":"there","you're":"you","youre":"you",
-    "they're":"they","theyre":"they","we're":"we","i'm":"i","im":"i","i've":"have",
-    "ive":"have","you've":"have","youve":"have","we've":"have","weve":"have",
-    "they've":"have","theyve":"have","i'll":"will","ill":"will","you'll":"will",
-    "youll":"will","let's":"let","lets":"let","today's":"today","todays":"today",
-    "christ's":"christ","christs":"christ","god's":"god","gods":"god",
+    &#34;what&#39;s&#34;:&#34;what&#34;,&#34;whats&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;isnt&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;dont&#34;:&#34;do&#34;,
+    &#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;doesnt&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;didnt&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;cant&#34;:&#34;can&#34;,
+    &#34;won&#39;t&#34;:&#34;will&#34;,&#34;wont&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;wasnt&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,
+    &#34;thats&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;theres&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;youre&#34;:&#34;you&#34;,
+    &#34;they&#39;re&#34;:&#34;they&#34;,&#34;theyre&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;im&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,
+    &#34;ive&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;youve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;weve&#34;:&#34;have&#34;,
+    &#34;they&#39;ve&#34;:&#34;have&#34;,&#34;theyve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;ill&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,
+    &#34;youll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;lets&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;todays&#34;:&#34;today&#34;,
+    &#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;christs&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;gods&#34;:&#34;god&#34;,
 }
 
-PROPER_BLOCK = set("""
+PROPER_BLOCK = set(&#34;&#34;&#34;
 jorap hugoplate wtatennis alexandra alex shopee facebook youtube github cloudflare
 hugo obsidian wordpress tailwind pixijs anki drupal sveltia wrangler netlify vercel
 canon g3000 marvel dnpap
-""".split())
+&#34;&#34;&#34;.split())
 
 # Plain everyday words that happen to be absent/rare in Google 10k
-PLAIN_BLOCK = set("""
+PLAIN_BLOCK = set(&#34;&#34;&#34;
 faithful tempted habit deploy patience kindness motive heroic closeness naming entrusted
 slice sermon repo messy righteous revoked hoard halftime applause pile commute teammate
 messy inbox neighbor mercy boring saves slice scrimmage snapped pretending coworker
 wikilinks markdown github cloudflare retainer rollback evergreen inbox whiteboard
 handoff postmortem distill metadata contradicts deploy repo markdown
-""".split())
+&#34;&#34;&#34;.split())
 
-VOWELS = "aeiouy"
-def syllables(w: str) -> int:
+VOWELS = &#34;aeiouy&#34;
+def syllables(w: str) -&gt; int:
     w = w.lower()
-    if len(w) <= 3:
+    if len(w) &lt;= 3:
         return 1
     count = prev = 0
     for ch in w:
@@ -2199,217 +1981,216 @@ def syllables(w: str) -> int:
         if v and not prev:
             count += 1
         prev = v
-    if w.endswith("e") and count > 1 and not w.endswith("le"):
+    if w.endswith(&#34;e&#34;) and count &gt; 1 and not w.endswith(&#34;le&#34;):
         count -= 1
-    if w.endswith("y") and count > 1 and len(w) > 3:
+    if w.endswith(&#34;y&#34;) and count &gt; 1 and len(w) &gt; 3:
         count -= 1
     return max(1, count)
 
 CATS = {
-    "theology": {
-        "sanctification","justification","righteousness","discipleship","galatians","ephesians",
-        "romans","beatitudes","fellowship","salvation","scripture","sermon","sermons","abide",
-        "repent","forgive","forgiveness","righteous","believers","steward","devotion","obedience",
-        "faithfulness","gentleness","merciful","glorify","confess","peacemakers","disciples",
-        "justified","stubble","caesar","propitiation","atonement","transgression","transgressions",
-        "unrighteous","unrighteousness","blameless","exhortation","exhort","covenant","covenants",
-        "messiah","redemption","redeemed","redeemer","liturgy","liturgical","apologetics",
-        "apostolic","pentecost","pentecostal","eschatology","eschatological","predestination",
-        "sanctify","theology","theological","ecclesiology","ecclesiastical","hermeneutics",
-        "prophetic","testament","transfiguration","transfigured","propitiation","propitiate",
-        "beatitude","beatitudes","peacemakers","peacemaker","exhortation","exhortations",
+    &#34;theology&#34;: {
+        &#34;sanctification&#34;,&#34;justification&#34;,&#34;righteousness&#34;,&#34;discipleship&#34;,&#34;galatians&#34;,&#34;ephesians&#34;,
+        &#34;romans&#34;,&#34;beatitudes&#34;,&#34;fellowship&#34;,&#34;salvation&#34;,&#34;scripture&#34;,&#34;sermon&#34;,&#34;sermons&#34;,&#34;abide&#34;,
+        &#34;repent&#34;,&#34;forgive&#34;,&#34;forgiveness&#34;,&#34;righteous&#34;,&#34;believers&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;obedience&#34;,
+        &#34;faithfulness&#34;,&#34;gentleness&#34;,&#34;merciful&#34;,&#34;glorify&#34;,&#34;confess&#34;,&#34;peacemakers&#34;,&#34;disciples&#34;,
+        &#34;justified&#34;,&#34;stubble&#34;,&#34;caesar&#34;,&#34;propitiation&#34;,&#34;atonement&#34;,&#34;transgression&#34;,&#34;transgressions&#34;,
+        &#34;unrighteous&#34;,&#34;unrighteousness&#34;,&#34;blameless&#34;,&#34;exhortation&#34;,&#34;exhort&#34;,&#34;covenant&#34;,&#34;covenants&#34;,
+        &#34;messiah&#34;,&#34;redemption&#34;,&#34;redeemed&#34;,&#34;redeemer&#34;,&#34;liturgy&#34;,&#34;liturgical&#34;,&#34;apologetics&#34;,
+        &#34;apostolic&#34;,&#34;pentecost&#34;,&#34;pentecostal&#34;,&#34;eschatology&#34;,&#34;eschatological&#34;,&#34;predestination&#34;,
+        &#34;sanctify&#34;,&#34;theology&#34;,&#34;theological&#34;,&#34;ecclesiology&#34;,&#34;ecclesiastical&#34;,&#34;hermeneutics&#34;,
+        &#34;prophetic&#34;,&#34;testament&#34;,&#34;transfiguration&#34;,&#34;transfigured&#34;,&#34;propitiation&#34;,&#34;propitiate&#34;,
+        &#34;beatitude&#34;,&#34;beatitudes&#34;,&#34;peacemakers&#34;,&#34;peacemaker&#34;,&#34;exhortation&#34;,&#34;exhortations&#34;,
     },
-    "pkm": {
-        "wikilinks","evergreen","fleeting","whiteboard","playbook","postmortem","rollback",
-        "handoff","repetition","spaced","distill","markdown","scribble","hoarding","fallacy",
-        "inbox","zettelkasten","serendipity","serendipitous","synthesis","synthesize",
-        "summarization","associative","backlinks","backlink","interstitial","interstitials",
-        "frontmatter","wikilink","graphview","taxonomy","taxonomies","metadata","progressive",
-        "summarize","summarized","summarizing","interconnected","interconnection",
-        "normalization","deviance","deviant","crdt","backlinking","summarization",
-        "intellectual","sourcing","synthesis","synthesize","serendipity","serendipitous",
+    &#34;pkm&#34;: {
+        &#34;wikilinks&#34;,&#34;evergreen&#34;,&#34;fleeting&#34;,&#34;whiteboard&#34;,&#34;playbook&#34;,&#34;postmortem&#34;,&#34;rollback&#34;,
+        &#34;handoff&#34;,&#34;repetition&#34;,&#34;spaced&#34;,&#34;distill&#34;,&#34;markdown&#34;,&#34;scribble&#34;,&#34;hoarding&#34;,&#34;fallacy&#34;,
+        &#34;inbox&#34;,&#34;zettelkasten&#34;,&#34;serendipity&#34;,&#34;serendipitous&#34;,&#34;synthesis&#34;,&#34;synthesize&#34;,
+        &#34;summarization&#34;,&#34;associative&#34;,&#34;backlinks&#34;,&#34;backlink&#34;,&#34;interstitial&#34;,&#34;interstitials&#34;,
+        &#34;frontmatter&#34;,&#34;wikilink&#34;,&#34;graphview&#34;,&#34;taxonomy&#34;,&#34;taxonomies&#34;,&#34;metadata&#34;,&#34;progressive&#34;,
+        &#34;summarize&#34;,&#34;summarized&#34;,&#34;summarizing&#34;,&#34;interconnected&#34;,&#34;interconnection&#34;,
+        &#34;normalization&#34;,&#34;deviance&#34;,&#34;deviant&#34;,&#34;crdt&#34;,&#34;backlinking&#34;,&#34;summarization&#34;,
+        &#34;intellectual&#34;,&#34;sourcing&#34;,&#34;synthesis&#34;,&#34;synthesize&#34;,&#34;serendipity&#34;,&#34;serendipitous&#34;,
     },
-    "tech": {
-        "deploy","retainer","rollback","minify","minification","repository","repositories",
-        "functionality","optimization","configurable","configuration","middleware",
-        "serverless","subdomain","subdomains","shortcode","shortcodes","bundles",
-        "canonical","canonicalization","preprocessor","preprocessing","transpiler",
-        "transpiling","fingerprint","fingerprinting","stylesheet","stylesheets",
-        "headless","webhook","webhooks","lighthouse","minified","bundler","bundling",
-        "reconciliation","reconciling","reconciled","canonical","canonicalization",
+    &#34;tech&#34;: {
+        &#34;deploy&#34;,&#34;retainer&#34;,&#34;rollback&#34;,&#34;minify&#34;,&#34;minification&#34;,&#34;repository&#34;,&#34;repositories&#34;,
+        &#34;functionality&#34;,&#34;optimization&#34;,&#34;configurable&#34;,&#34;configuration&#34;,&#34;middleware&#34;,
+        &#34;serverless&#34;,&#34;subdomain&#34;,&#34;subdomains&#34;,&#34;shortcode&#34;,&#34;shortcodes&#34;,&#34;bundles&#34;,
+        &#34;canonical&#34;,&#34;canonicalization&#34;,&#34;preprocessor&#34;,&#34;preprocessing&#34;,&#34;transpiler&#34;,
+        &#34;transpiling&#34;,&#34;fingerprint&#34;,&#34;fingerprinting&#34;,&#34;stylesheet&#34;,&#34;stylesheets&#34;,
+        &#34;headless&#34;,&#34;webhook&#34;,&#34;webhooks&#34;,&#34;lighthouse&#34;,&#34;minified&#34;,&#34;bundler&#34;,&#34;bundling&#34;,
+        &#34;reconciliation&#34;,&#34;reconciling&#34;,&#34;reconciled&#34;,&#34;canonical&#34;,&#34;canonicalization&#34;,
     },
 }
 
-def categorize(w: str) -> str:
+def categorize(w: str) -&gt; str:
     for cat, words in CATS.items():
         if w in words:
             return cat
-    return "general"
+    return &#34;general&#34;
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
-def strip_markup(text: str) -> str:
+def strip_markup(text: str) -&gt; str:
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text)
-    text = HTML.sub(" ", text)
-    text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text)
+    text = HTML.sub(&#34; &#34;, text)
+    text = CODE.sub(&#34; &#34;, text)
     return text
 
-def prose_blob(path: Path, meta: dict, body: str) -> str:
+def prose_blob(path: Path, meta: dict, body: str) -&gt; str:
     chunks: list[str] = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip():
                 chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             val = meta.get(key)
             if isinstance(val, list):
                 for item in val:
                     if isinstance(item, str) and item.strip():
-                        if key == "aliases" and item.startswith("/"):
+                        if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;):
                             continue
                         chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip():
                         chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip():
                     chunks.append(reason)
         if body.strip():
             chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip():
                 chunks.append(val)
         if body.strip():
             chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq: Counter[str] = Counter()
 files_by_word: dict[str, set[str]] = defaultdict(set)
 
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md":
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;:
         continue
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding=&#34;utf-8&#34;)
     m = FRONTMATTER.match(text)
     if not m:
         continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"):
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;):
         continue
 
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
 
     rel = str(path.relative_to(ROOT))
-    for w in re.findall(r"[a-z]{4,}", blob):
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         files_by_word[w].add(rel)
 
 items = []
 for w, c in freq.items():
-    if c < 5 or w in PROPER_BLOCK or w in PLAIN_BLOCK:
+    if c &lt; 5 or w in PROPER_BLOCK or w in PLAIN_BLOCK:
         continue
     rank = common.get(w, 10001)
     syl = syllables(w)
-    # Hard filter: not in top 10k OR (rank > 9500 AND 3+ syllables)
-    if w in common and rank <= 9500 and syl < 3:
+    # Hard filter: not in top 10k OR (rank &gt; 9500 AND 3+ syllables)
+    if w in common and rank &lt;= 9500 and syl &lt; 3:
         continue
     # Skip common 4-syllable words in top 5000
-    if w in common and rank <= 5000:
+    if w in common and rank &lt;= 5000:
         continue
-    rarity = (10001 - rank) if rank <= 10000 else 5000
+    rarity = (10001 - rank) if rank &lt;= 10000 else 5000
     score = c * (syl * 600 + max(0, len(w) - 8) * 150 + rarity)
     items.append((score, w, c, syl, rank, categorize(w), sorted(files_by_word[w])[:2]))
 
 items.sort(reverse=True)
 
 # Also get sample context for top words
-def context(w: str, limit=1) -> str:
+def context(w: str, limit=1) -&gt; str:
     for path_str in sorted(files_by_word[w]):
         path = ROOT / path_str
-        text = path.read_text(encoding="utf-8")
+        text = path.read_text(encoding=&#34;utf-8&#34;)
         m = FRONTMATTER.match(text)
         if not m: continue
         meta = yaml.safe_load(m.group(1)) or {}
         body = text[m.end():]
         blob = strip_markup(prose_blob(path, meta, body))
-        for match in re.finditer(rf"(?i).{{0,40}}\b{re.escape(w)}\b.{{0,40}}", blob):
-            snippet = re.sub(r"\s+", " ", match.group(0)).strip()
+        for match in re.finditer(rf&#34;(?i).{{0,40}}\b{re.escape(w)}\b.{{0,40}}&#34;, blob):
+            snippet = re.sub(r&#34;\s+&#34;, &#34; &#34;, match.group(0)).strip()
             return snippet[:90]
-    return ""
+    return &#34;&#34;
 
-print(f"{'#':>3}  {'word':<22} {'uses':>4}  {'syl':>3}  {'lane':<10}  plain swap / note")
-print("-" * 100)
+print(f&#34;{&#39;#&#39;:&gt;3}  {&#39;word&#39;:&lt;22} {&#39;uses&#39;:&gt;4}  {&#39;syl&#39;:&gt;3}  {&#39;lane&#39;:&lt;10}  plain swap / note&#34;)
+print(&#34;-&#34; * 100)
 SWAPS = {
-    "obedience": "doing what God asks",
-    "justification": "declared right with God",
-    "sanctification": "becoming more like Christ over time",
-    "righteousness": "right standing / living right",
-    "discipleship": "following Jesus day to day",
-    "fellowship": "life together as believers",
-    "galatians": "Bible book (topic term OK)",
-    "faithfulness": "staying loyal / keeping your word",
-    "gentleness": "soft strength, not harsh",
-    "forgiveness": "letting go of a debt",
-    "normalization": "getting used to bad shortcuts",
-    "serendipity": "happy accident / lucky find",
-    "summarization": "boil down in layers",
-    "associative": "link by meaning",
-    "intellectual": "head-knowledge",
-    "synthesis": "combine ideas into one",
-    "reconciliation": "make things match again",
-    "investigation": "dig into what happened",
-    "sustainable": "keep it up long-term",
-    "responsibility": "what you're on the hook for",
-    "conversation": "back-and-forth talk",
-    "quarterfinals": "tennis bracket term (OK in tracker)",
-    "beatitudes": "Jesus' blessings list",
-    "peacemakers": "people who stop fights",
-    "transgression": "crossing a line",
-    "atonement": "payment that covers sin",
-    "propitiation": "sacrifice that satisfies wrath",
-    "hermeneutics": "how you read Scripture",
-    "eschatology": "end-times teaching",
-    "ecclesiastical": "church-related formal",
-    "blameless": "no finger-pointing",
-    "contradicts": "goes against",
-    "distill": "boil down",
-    "metadata": "tags and fields",
-    "deploy": "push live",
-    "retainer": "monthly upkeep fee",
-    "rollback": "undo / go back",
-    "handoff": "pass to client",
-    "postmortem": "after-action review",
-    "evergreen": "stays useful (PKM term)",
-    "fleeting": "quick capture (PKM term)",
-    "whiteboard": "big scratch space",
-    "fallacy": "bad reasoning pattern",
-    "hoarding": "piling up without using",
-    "repetition": "drill / spaced review",
-    "scribble": "rough jot",
-    "deviance": "drift from the standard",
-    "interstitial": "between-step note",
-    "backlinks": "notes that point here",
+    &#34;obedience&#34;: &#34;doing what God asks&#34;,
+    &#34;justification&#34;: &#34;declared right with God&#34;,
+    &#34;sanctification&#34;: &#34;becoming more like Christ over time&#34;,
+    &#34;righteousness&#34;: &#34;right standing / living right&#34;,
+    &#34;discipleship&#34;: &#34;following Jesus day to day&#34;,
+    &#34;fellowship&#34;: &#34;life together as believers&#34;,
+    &#34;galatians&#34;: &#34;Bible book (topic term OK)&#34;,
+    &#34;faithfulness&#34;: &#34;staying loyal / keeping your word&#34;,
+    &#34;gentleness&#34;: &#34;soft strength, not harsh&#34;,
+    &#34;forgiveness&#34;: &#34;letting go of a debt&#34;,
+    &#34;normalization&#34;: &#34;getting used to bad shortcuts&#34;,
+    &#34;serendipity&#34;: &#34;happy accident / lucky find&#34;,
+    &#34;summarization&#34;: &#34;boil down in layers&#34;,
+    &#34;associative&#34;: &#34;link by meaning&#34;,
+    &#34;intellectual&#34;: &#34;head-knowledge&#34;,
+    &#34;synthesis&#34;: &#34;combine ideas into one&#34;,
+    &#34;reconciliation&#34;: &#34;make things match again&#34;,
+    &#34;investigation&#34;: &#34;dig into what happened&#34;,
+    &#34;sustainable&#34;: &#34;keep it up long-term&#34;,
+    &#34;responsibility&#34;: &#34;what you&#39;re on the hook for&#34;,
+    &#34;conversation&#34;: &#34;back-and-forth talk&#34;,
+    &#34;quarterfinals&#34;: &#34;tennis bracket term (OK in tracker)&#34;,
+    &#34;beatitudes&#34;: &#34;Jesus&#39; blessings list&#34;,
+    &#34;peacemakers&#34;: &#34;people who stop fights&#34;,
+    &#34;transgression&#34;: &#34;crossing a line&#34;,
+    &#34;atonement&#34;: &#34;payment that covers sin&#34;,
+    &#34;propitiation&#34;: &#34;sacrifice that satisfies wrath&#34;,
+    &#34;hermeneutics&#34;: &#34;how you read Scripture&#34;,
+    &#34;eschatology&#34;: &#34;end-times teaching&#34;,
+    &#34;ecclesiastical&#34;: &#34;church-related formal&#34;,
+    &#34;blameless&#34;: &#34;no finger-pointing&#34;,
+    &#34;contradicts&#34;: &#34;goes against&#34;,
+    &#34;distill&#34;: &#34;boil down&#34;,
+    &#34;metadata&#34;: &#34;tags and fields&#34;,
+    &#34;deploy&#34;: &#34;push live&#34;,
+    &#34;retainer&#34;: &#34;monthly upkeep fee&#34;,
+    &#34;rollback&#34;: &#34;undo / go back&#34;,
+    &#34;handoff&#34;: &#34;pass to client&#34;,
+    &#34;postmortem&#34;: &#34;after-action review&#34;,
+    &#34;evergreen&#34;: &#34;stays useful (PKM term)&#34;,
+    &#34;fleeting&#34;: &#34;quick capture (PKM term)&#34;,
+    &#34;whiteboard&#34;: &#34;big scratch space&#34;,
+    &#34;fallacy&#34;: &#34;bad reasoning pattern&#34;,
+    &#34;hoarding&#34;: &#34;piling up without using&#34;,
+    &#34;repetition&#34;: &#34;drill / spaced review&#34;,
+    &#34;scribble&#34;: &#34;rough jot&#34;,
+    &#34;deviance&#34;: &#34;drift from the standard&#34;,
+    &#34;interstitial&#34;: &#34;between-step note&#34;,
+    &#34;backlinks&#34;: &#34;notes that point here&#34;,
 }
 
 for i, (_, w, c, syl, rank, lane, samples) in enumerate(items[:50], 1):
-    swap = SWAPS.get(w, "")
-    note = swap if swap else f"in {samples[0].replace('content/english/','') if samples else '?'}"
-    print(f"{i:3d}  {w:<22} {c:4d}  {syl:3d}  {lane:<10}  {note}")
+    swap = SWAPS.get(w, &#34;&#34;)
+    note = swap if swap else f&#34;in {samples[0].replace(&#39;content/english/&#39;,&#39;&#39;) if samples else &#39;?&#39;}&#34;
+    print(f&#34;{i:3d}  {w:&lt;22} {c:4d}  {syl:3d}  {lane:&lt;10}  {note}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -2702,42 +2483,9 @@ PYEOF
  20  aren                     19    2  general     in blog/__how-to-create-a-good-habit.md
  21  declared                 18    3  general     in notes/faith-and-works.md
  22  correction               16    3  general     in blog/__client-site-pass-off.md
- 23  discipline               17    3  general     in blog/__how-to-create-a-good-habit.md
- 24  reps                     20    1  general     in blog/__stuart-mcgill-big-three-low-back-exercises.md
- 25  quietly                  20    1  general     in blog/__client-site-pass-off.md
- 26  showroom                 18    2  general     in blog/__client-site-pass-off.md
- 27  assurance                17    3  general     in notes/assurance.md
- 28  vinegar                  16    3  general     in blog/__kewpie-mayo.md
- 29  borrowed                 16    3  general     in notes/active-knowledge-curation.md
- 30  stacked                  17    2  general     in blog/consistent-ai-output-wordpress-builds.md
- 31  goodness                 17    2  general     in notes/fruits-of-the-spirit.md
- 32  friction                 17    2  general     in blog/__drupal-to-wordpress.md
- 33  fleeting                 17    2  pkm         quick capture (PKM term)
- 34  everywhere               15    4  general     in blog/__drupal-to-wordpress.md
- 35  irreversible             12    5  general     in notes/hierarchy-of-controls.md
- 36  devotion                 15    3  theology    in notes/eternal-rewards.md
- 37  stewardship              14    3  general     in notes/faithful-steward.md
- 38  vague                    18    1  general     in blog/__craft-prompt-framework.md
- 39  sunk                     18    1  general     in notes/behavioral-economics.md
- 40  couldn                   18    1  general     in blog/__drupal-to-wordpress.md
- 41  produces                 18    3  general     in notes/abide-in-me.md
- 42  repetition               13    4  pkm         drill / spaced review
- 43  captured                 22    3  general     in blog/__canon-g3000.md
- 44  skipped                  16    2  general     in blog/__client-site-pass-off.md
- 45  revert                   16    2  general     in blog/how-i-built-jorap-notes.md
- 46  caesar                   16    2  theology    in notes/christianity-and-politics.md
- 47  blameless                14    3  theology    no finger-pointing
- 48  believers                14    3  theology    in notes/by-their-fruits.md
- 49  replaces                 14    3  general     in blog/__tailwind-css-v4.md
- 50  frontmatter              13    3  pkm         in blog/__client-site-pass-off.md
-
+ 23  discipline               17  
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2745,139 +2493,139 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The current extraction is returning fragmented contractions and unrelated terms. A cleaner approach is needed.
 
-A stricter curation criteria is being applied. Words must be rare, three-syllable or longer, and appear at least five times across blog and notes. The pipeline will exclude contractions, common verbs, and food terms. A manual allowlist of genuinely difficult words will supplement the automated filtering.</details></think>
+A stricter curation criteria is being applied. Words must be rare, three-syllable or longer, and appear at least five times across blog and notes. The pipeline will exclude contractions, common verbs, and food terms. A manual allowlist of genuinely difficult words will supplement the automated filtering.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt"
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
 
 CONTRACTIONS = {
-    "what's":"what","whats":"what","isn't":"is","isnt":"is","don't":"do","dont":"do",
-    "doesn't":"does","doesnt":"does","didn't":"did","didnt":"did","can't":"can","cant":"can",
-    "won't":"will","wont":"will","wasn't":"was","wasnt":"was","it's":"it","that's":"that",
-    "thats":"that","there's":"there","theres":"there","you're":"you","youre":"you",
-    "they're":"they","theyre":"they","we're":"we","i'm":"i","im":"i","i've":"have",
-    "ive":"have","you've":"have","youve":"have","we've":"have","weve":"have",
-    "they've":"have","theyve":"have","i'll":"will","ill":"will","you'll":"will",
-    "youll":"will","let's":"let","lets":"let","today's":"today","todays":"today",
-    "christ's":"christ","christs":"christ","god's":"god","gods":"god","wouldn't":"would",
-    "couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are",
-    "wasn't":"was","didn't":"did","doesn't":"does","don't":"do","isn't":"is","can't":"can",
-    "won't":"will","shouldn't":"should","wouldn't":"would","couldn't":"could",
+    &#34;what&#39;s&#34;:&#34;what&#34;,&#34;whats&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;isnt&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;dont&#34;:&#34;do&#34;,
+    &#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;doesnt&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;didnt&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;cant&#34;:&#34;can&#34;,
+    &#34;won&#39;t&#34;:&#34;will&#34;,&#34;wont&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;wasnt&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,
+    &#34;thats&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;theres&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;youre&#34;:&#34;you&#34;,
+    &#34;they&#39;re&#34;:&#34;they&#34;,&#34;theyre&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;im&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,
+    &#34;ive&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;youve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;weve&#34;:&#34;have&#34;,
+    &#34;they&#39;ve&#34;:&#34;have&#34;,&#34;theyve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;ill&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,
+    &#34;youll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;lets&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;todays&#34;:&#34;today&#34;,
+    &#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;christs&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;gods&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,
+    &#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;,
+    &#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,
+    &#34;won&#39;t&#34;:&#34;will&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,&#34;couldn&#39;t&#34;:&#34;could&#34;,
 }
 
-VOWELS = "aeiouy"
-def syllables(w: str) -> int:
+VOWELS = &#34;aeiouy&#34;
+def syllables(w: str) -&gt; int:
     w = w.lower()
-    if len(w) <= 3: return 1
+    if len(w) &lt;= 3: return 1
     count = prev = 0
     for ch in w:
         v = ch in VOWELS
         if v and not prev: count += 1
         prev = v
-    if w.endswith("e") and count > 1 and not w.endswith("le"): count -= 1
-    if w.endswith("y") and count > 1 and len(w) > 3: count -= 1
+    if w.endswith(&#34;e&#34;) and count &gt; 1 and not w.endswith(&#34;le&#34;): count -= 1
+    if w.endswith(&#34;y&#34;) and count &gt; 1 and len(w) &gt; 3: count -= 1
     return max(1, count)
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
-def strip_markup(text: str) -> str:
+def strip_markup(text: str) -&gt; str:
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text)
-    text = HTML.sub(" ", text)
-    text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text)
+    text = HTML.sub(&#34; &#34;, text)
+    text = CODE.sub(&#34; &#34;, text)
     return text
 
-def prose_blob(path: Path, meta: dict, body: str) -> str:
+def prose_blob(path: Path, meta: dict, body: str) -&gt; str:
     chunks = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             for item in meta.get(key) or []:
                 if isinstance(item, str) and item.strip():
-                    if key == "aliases" and item.startswith("/"): continue
+                    if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;): continue
                     chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip(): chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip(): chunks.append(reason)
         if body.strip(): chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
         if body.strip(): chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq = Counter()
 files_by_word = defaultdict(set)
 
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md": continue
-    text = path.read_text(encoding="utf-8")
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;: continue
+    text = path.read_text(encoding=&#34;utf-8&#34;)
     m = FRONTMATTER.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"): continue
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;): continue
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
     rel = str(path.relative_to(ROOT))
-    for w in re.findall(r"[a-z]{4,}", blob):
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         files_by_word[w].add(rel)
 
 # Only words absent from Google 10k, 3+ syllables, 5+ uses
 candidates = []
 for w, c in freq.items():
-    if w in common or c < 5: continue
+    if w in common or c &lt; 5: continue
     syl = syllables(w)
-    if syl < 3: continue
+    if syl &lt; 3: continue
     candidates.append((c * syl * len(w), w, c, syl, len(w)))
 
 candidates.sort(reverse=True)
-print("ABSENT FROM 10K, 3+ SYLLABLES, 5+ USES:")
+print(&#34;ABSENT FROM 10K, 3+ SYLLABLES, 5+ USES:&#34;)
 for i, (_, w, c, syl, ln) in enumerate(candidates[:80], 1):
-    print(f"{i:3d}  {w:<24} {c:4d}x  syl={syl}  len={ln}")
+    print(f&#34;{i:3d}  {w:&lt;24} {c:4d}x  syl={syl}  len={ln}&#34;)
 
-print("\n--- ALSO: IN 10K BUT RANK>9500, 4+ SYLLABLES ---")
+print(&#34;\n--- ALSO: IN 10K BUT RANK&gt;9500, 4+ SYLLABLES ---&#34;)
 candidates2 = []
 for w, c in freq.items():
-    if w not in common or c < 5: continue
+    if w not in common or c &lt; 5: continue
     rank = common[w]
-    if rank <= 9500: continue
+    if rank &lt;= 9500: continue
     syl = syllables(w)
-    if syl < 4: continue
+    if syl &lt; 4: continue
     candidates2.append((c * syl, w, c, syl, rank))
 candidates2.sort(reverse=True)
 for i, (_, w, c, syl, rank) in enumerate(candidates2[:30], 1):
-    print(f"{i:3d}  {w:<24} {c:4d}x  syl={syl}  rank={rank}")
+    print(f&#34;{i:3d}  {w:&lt;24} {c:4d}x  syl={syl}  rank={rank}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -3009,148 +2757,141 @@ PYEOF
 ```
 
 ```
-  File "&lt;stdin&gt;", line 9
+  File "<stdin>", line 9
     COMMON_PATH = Path("/tmp/google-10000-english.txt"
                       ^
 SyntaxError: '(' was never closed
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
 
 CONTRACTIONS = {
-    "what's":"what","whats":"what","isn't":"is","isnt":"is","don't":"do","dont":"do",
-    "doesn't":"does","doesnt":"does","didn't":"did","didnt":"did","can't":"can","cant":"can",
-    "won't":"will","wont":"will","wasn't":"was","wasnt":"was","it's":"it","that's":"that",
-    "thats":"that","there's":"there","theres":"there","you're":"you","youre":"you",
-    "they're":"they","theyre":"they","we're":"we","i'm":"i","im":"i","i've":"have",
-    "ive":"have","you've":"have","youve":"have","we've":"have","weve":"have",
-    "they've":"have","theyve":"have","i'll":"will","ill":"will","you'll":"will",
-    "youll":"will","let's":"let","lets":"let","today's":"today","todays":"today",
-    "christ's":"christ","christs":"christ","god's":"god","gods":"god","wouldn't":"would",
-    "couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are",
+    &#34;what&#39;s&#34;:&#34;what&#34;,&#34;whats&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;isnt&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;dont&#34;:&#34;do&#34;,
+    &#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;doesnt&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;didnt&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;cant&#34;:&#34;can&#34;,
+    &#34;won&#39;t&#34;:&#34;will&#34;,&#34;wont&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;wasnt&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,
+    &#34;thats&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;theres&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;youre&#34;:&#34;you&#34;,
+    &#34;they&#39;re&#34;:&#34;they&#34;,&#34;theyre&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;im&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,
+    &#34;ive&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;youve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;weve&#34;:&#34;have&#34;,
+    &#34;they&#39;ve&#34;:&#34;have&#34;,&#34;theyve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;ill&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,
+    &#34;youll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;lets&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;todays&#34;:&#34;today&#34;,
+    &#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;christs&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;gods&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,
+    &#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;,
 }
 
-VOWELS = "aeiouy"
-def syllables(w: str) -> int:
+VOWELS = &#34;aeiouy&#34;
+def syllables(w: str) -&gt; int:
     w = w.lower()
-    if len(w) <= 3: return 1
+    if len(w) &lt;= 3: return 1
     count = prev = 0
     for ch in w:
         v = ch in VOWELS
         if v and not prev: count += 1
         prev = v
-    if w.endswith("e") and count > 1 and not w.endswith("le"): count -= 1
-    if w.endswith("y") and count > 1 and len(w) > 3: count -= 1
+    if w.endswith(&#34;e&#34;) and count &gt; 1 and not w.endswith(&#34;le&#34;): count -= 1
+    if w.endswith(&#34;y&#34;) and count &gt; 1 and len(w) &gt; 3: count -= 1
     return max(1, count)
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
-def strip_markup(text: str) -> str:
+def strip_markup(text: str) -&gt; str:
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text)
-    text = HTML.sub(" ", text)
-    text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text)
+    text = HTML.sub(&#34; &#34;, text)
+    text = CODE.sub(&#34; &#34;, text)
     return text
 
-def prose_blob(path: Path, meta: dict, body: str) -> str:
+def prose_blob(path: Path, meta: dict, body: str) -&gt; str:
     chunks = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             for item in meta.get(key) or []:
                 if isinstance(item, str) and item.strip():
-                    if key == "aliases" and item.startswith("/"): continue
+                    if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;): continue
                     chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip(): chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip(): chunks.append(reason)
         if body.strip(): chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
         if body.strip(): chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq = Counter()
 files_by_word = defaultdict(set)
 
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md": continue
-    text = path.read_text(encoding="utf-8")
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;: continue
+    text = path.read_text(encoding=&#34;utf-8&#34;)
     m = FRONTMATTER.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"): continue
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;): continue
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
     rel = str(path.relative_to(ROOT))
-    for w in re.findall(r"[a-z]{4,}", blob):
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         files_by_word[w].add(rel)
 
 candidates = []
 for w, c in freq.items():
-    if w in common or c < 5: continue
+    if w in common or c &lt; 5: continue
     syl = syllables(w)
-    if syl < 3: continue
+    if syl &lt; 3: continue
     candidates.append((c * syl * len(w), w, c, syl, len(w)))
 
 candidates.sort(reverse=True)
-print("ABSENT FROM 10K, 3+ SYLLABLES, 5+ USES:")
+print(&#34;ABSENT FROM 10K, 3+ SYLLABLES, 5+ USES:&#34;)
 for i, (_, w, c, syl, ln) in enumerate(candidates[:80], 1):
-    print(f"{i:3d}  {w:<24} {c:4d}x  syl={syl}  len={ln}")
+    print(f&#34;{i:3d}  {w:&lt;24} {c:4d}x  syl={syl}  len={ln}&#34;)
 
-print("\n--- IN 10K BUT RANK>9500, 4+ SYLLABLES ---")
+print(&#34;\n--- IN 10K BUT RANK&gt;9500, 4+ SYLLABLES ---&#34;)
 candidates2 = []
 for w, c in freq.items():
-    if w not in common or c < 5: continue
+    if w not in common or c &lt; 5: continue
     rank = common[w]
-    if rank <= 9500: continue
+    if rank &lt;= 9500: continue
     syl = syllables(w)
-    if syl < 4: continue
+    if syl &lt; 4: continue
     candidates2.append((c * syl, w, c, syl, rank))
 candidates2.sort(reverse=True)
 for i, (_, w, c, syl, rank) in enumerate(candidates2[:30], 1):
-    print(f"{i:3d}  {w:<24} {c:4d}x  syl={syl}  rank={rank}")
+    print(f&#34;{i:3d}  {w:&lt;24} {c:4d}x  syl={syl}  rank={rank}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -3318,58 +3059,9 @@ ABSENT FROM 10K, 3+ SYLLABLES, 5+ USES:
  36  escalation                  9x  syl=4  len=10
  37  devotion                   15x  syl=3  len=8
  38  coworker                   15x  syl=3  len=8
- 39  adaptability                6x  syl=5  len=12
- 40  retaliation                 8x  syl=4  len=11
- 41  persecutors                 8x  syl=4  len=11
- 42  vinegar                    16x  syl=3  len=7
- 43  replaces                   14x  syl=3  len=8
- 44  scoreboard                 11x  syl=3  len=10
- 45  filipina                   10x  syl=4  len=8
- 46  deliberate                  8x  syl=4  len=10
- 47  merciful                   13x  syl=3  len=8
- 48  serendipity                 7x  syl=4  len=11
- 49  peacemaking                 7x  syl=4  len=11
- 50  disciples                  11x  syl=3  len=9
- 51  contradicts                 9x  syl=3  len=11
- 52  taxonomies                  7x  syl=4  len=10
- 53  repeatable                  7x  syl=4  len=10
- 54  beatitudes                  7x  syl=4  len=10
- 55  wimbledon                  10x  syl=3  len=9
- 56  earphones                  10x  syl=3  len=9
- 57  taxonomy                   11x  syl=3  len=8
- 58  holiness                   11x  syl=3  len=8
- 59  believer                   11x  syl=3  len=8
- 60  rechargeables               5x  syl=4  len=13
- 61  reconcile                   7x  syl=4  len=9
- 62  ecosystem                   7x  syl=4  len=9
- 63  autopilot                   7x  syl=4  len=9
- 64  rehearsed                   9x  syl=3  len=9
- 65  publishes                   9x  syl=3  len=9
- 66  polishing                   9x  syl=3  len=9
- 67  shortcodes                  8x  syl=3  len=10
- 68  reusable                   10x  syl=3  len=8
- 69  rechargeable                5x  syl=4  len=12
- 70  parable                    11x  syl=3  len=7
- 71  versatility                 5x  syl=4  len=11
- 72  situational                 5x  syl=4  len=11
- 73  respectable                 5x  syl=4  len=11
- 74  unchanged                   8x  syl=3  len=9
- 75  survives                    9x  syl=3  len=8
- 76  obsidian                    9x  syl=3  len=8
- 77  justified                   8x  syl=3  len=9
- 78  genuinely                   8x  syl=3  len=9
- 79  analytics                   6x  syl=4  len=9
- 80  tiddlywiki                  5x  syl=4  len=10
-
---- IN 10K BUT RANK&gt;9500, 4+ SYLLABLES ---
-
+ 39  adaptability                6x  s
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3381,28 +3073,29 @@ I am compiling the final 50-word list, organized by category. Proper nouns will 
 
 Plain words like borrowed and compounding were dropped. The final 50 will include theology terms and PKM jargon. Obedience and justification are the first entries.
 
-Theology terms continue through repentance and reconciliation. PKM and tech jargon follows with serendipity, frontmatter, wikilinks, evergreen, repetition, taxonomies, and retainer.</details></think>
+Theology terms continue through repentance and reconciliation. PKM and tech jargon follows with serendipity, frontmatter, wikilinks, evergreen, repetition, taxonomies, and retainer.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
 
-CHECK_WORDS = """
+CHECK_WORDS = &#34;&#34;&#34;
 normalization deviance intellectual sustainable investigation responsibility
 metadata distill deploy synthesis progressive incident hierarchical functionality
 optimization associative summarization postmortem handoff rollback deploy
@@ -3418,85 +3111,84 @@ merciful justified peacemaking commandment holiness parable believers disciples
 frontmatter wikilinks evergreen fleeting whiteboard repetition taxonomy taxonomies
 shortcodes retainer quarterfinals semifinals irreversible escalation ecosystem
 autopilot analytics repeatable negotiating entrusted closeness pretending
-""".split()
+&#34;&#34;&#34;.split()
 
-CONTRACTIONS = {"what's":"what","isn't":"is","don't":"do","doesn't":"does","didn't":"did","can't":"can","won't":"will","wasn't":"was","it's":"it","that's":"that","there's":"there","you're":"you","they're":"they","we're":"we","i'm":"i","i've":"have","you've":"have","we've":"have","they've":"have","i'll":"will","you'll":"will","let's":"let","today's":"today","christ's":"christ","god's":"god","wouldn't":"would","couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are"}
+CONTRACTIONS = {&#34;what&#39;s&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,&#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;}
 
 def strip_markup(text):
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text)
-    text = HTML.sub(" ", text)
-    text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text)
+    text = HTML.sub(&#34; &#34;, text)
+    text = CODE.sub(&#34; &#34;, text)
     return text
 
 def prose_blob(path, meta, body):
     chunks = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             for item in meta.get(key) or []:
                 if isinstance(item, str) and item.strip():
-                    if key == "aliases" and item.startswith("/"): continue
+                    if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;): continue
                     chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip(): chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip(): chunks.append(reason)
         if body.strip(): chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
         if body.strip(): chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 freq = Counter(); files = defaultdict(set)
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md": continue
-    text = path.read_text(encoding="utf-8"); m = FRONTMATTER.match(text)
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;: continue
+    text = path.read_text(encoding=&#34;utf-8&#34;); m = FRONTMATTER.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"): continue
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;): continue
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
     rel = str(path.relative_to(ROOT))
-    for w in re.findall(r"[a-z]{4,}", blob):
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1; files[w].add(rel)
 
-VOWELS="aeiouy"
+VOWELS=&#34;aeiouy&#34;
 def syllables(w):
     w=w.lower(); c=prev=0
     for ch in w:
         v=ch in VOWELS
         if v and not prev: c+=1
         prev=v
-    if w.endswith('e') and c>1 and not w.endswith('le'): c-=1
+    if w.endswith(&#39;e&#39;) and c&gt;1 and not w.endswith(&#39;le&#39;): c-=1
     return max(1,c)
 
-print(f"{'word':<22} {'uses':>4}  {'rank':>5}  {'syl':>3}  sample")
-print("-"*80)
+print(f&#34;{&#39;word&#39;:&lt;22} {&#39;uses&#39;:&gt;4}  {&#39;rank&#39;:&gt;5}  {&#39;syl&#39;:&gt;3}  sample&#34;)
+print(&#34;-&#34;*80)
 for w in sorted(set(CHECK_WORDS)):
     c = freq.get(w, 0)
     if c == 0: continue
     rank = common.get(w, 0)
-    rank_s = str(rank) if rank else "rare"
+    rank_s = str(rank) if rank else &#34;rare&#34;
     syl = syllables(w)
     s = sorted(files[w])[:1]
-    short = s[0].replace("content/english/", "") if s else ""
-    print(f"{w:<22} {c:4d}  {rank_s:>5}  {syl:3d}  {short}")
+    short = s[0].replace(&#34;content/english/&#34;, &#34;&#34;) if s else &#34;&#34;
+    print(f&#34;{w:&lt;22} {c:4d}  {rank_s:&gt;5}  {syl:3d}  {short}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -3640,142 +3332,86 @@ evergreen                25   rare    3  notes/daily-notes.md
 faithfulness             31   rare    3  notes/compounding.md
 fallacy                  19   rare    3  notes/break-the-escalation-cycle.md
 fellowship               42   6850    3  notes/assurance.md
-fleeting                 17   rare    2  notes/daily-notes.md
-forgiveness              17   rare    4  notes/ask-seek-knock.md
-frontmatter              13   rare    3  blog/__client-site-pass-off.md
-gentleness               34   rare    3  notes/composure.md
-glorify                  10   rare    3  notes/fruits-of-the-spirit.md
-hoarding                 15   rare    2  notes/discipleship.md
-holiness                 11   rare    3  notes/abide-in-me.md
-incident                  5   4926    3  notes/attention-to-detail.md
-intellectual              3   3740    4  notes/intellectual-sourcing.md
-interstitial              2   rare    4  notes/daily-notes.md
-investigation            12   3143    5  notes/blameless-after-action-review.md
-irreversible             12   rare    5  notes/hierarchy-of-controls.md
-justification            25   rare    5  notes/abide-in-me.md
-justified                 8   rare    3  notes/judgment-seat.md
-merciful                 13   rare    3  notes/fruits-of-the-spirit.md
-metadata                  6   8387    4  blog/__markdown-deep-dive.md
-negotiating              10   rare    4  blog/__mi-box-s.md
-normalization             2   rare    5  notes/normalization-of-deviance.md
-obedience                65   rare    3  notes/assurance.md
-parable                  11   rare    3  notes/eternal-rewards.md
-peacemakers              12   rare    4  notes/fruits-of-the-spirit.md
-peacemaking               7   rare    4  notes/peace.md
-persecutors               8   rare    4  notes/fruits-of-the-spirit.md
-pretending               16   rare    3  blog/__mi-box-s.md
-progressive               5   4436    3  notes/commonplace-book.md
-quarterfinals            18   rare    4  blog/alex-eala-pro-career-tracker.md
-reconciliation            6   rare    5  notes/peace.md
-repeatable                7   rare    4  blog/__drupal-to-wordpress.md
-repetition               13   rare    4  notes/compounding.md
-responsibility           10   1487    6  notes/finish-strong.md
-retainer                 25   rare    3  blog/__client-site-pass-off.md
-retaliation               8   rare    4  notes/love-your-enemies.md
-reversibility             4   rare    6  notes/reversibility.md
-righteousness            20   rare    3  notes/christianity-and-politics.md
-rollback                 43   rare    2  notes/blameless-after-action-review.md
-sanctification           20   rare    5  notes/abide-in-me.md
-scribble                 10   rare    2  notes/analog-capture-tools.md
-semifinals               12   rare    4  blog/alex-eala-pro-career-tracker.md
-serendipitous             1   rare    5  notes/digital-serendipity.md
-serendipity               7   rare    5  notes/digital-minimalism.md
-shortcodes                8   rare    3  blog/__hugo-go-templates.md
-situational               5   rare    4  notes/situational-control.md
-stewardship              14   rare    3  notes/faithful-steward.md
-sustainable              15   3930    4  blog/__sustainable-online-publishing.md
-synthesis                 8   6527    3  notes/first-principles-thinking.md
-taxonomies                7   rare    4  blog/__drupal-to-wordpress.md
-taxonomy                 11   rare    4  blog/__native-hugo-taxonomies.md
-versatility               5   rare    5  notes/versatility.md
-whiteboard               19   rare    3  notes/complete-the-cycle.md
-wikilinks                14   rare    3  blog/__markdown-deep-dive.md
-
+fleeting                 17   rare
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
 
-CHECK = "postmortem handoff summarization associative salvation galatians ephesians repentance transgression atonement covenant redemption eschatology hermeneutics propitiation exhortation functionality optimization repository configuration middleware canonical fingerprint headless webhook minification transpiler preprocessor accountability reversibility normalization deviance intellectual sustainable investigation responsibility".split()
+CHECK = &#34;postmortem handoff summarization associative salvation galatians ephesians repentance transgression atonement covenant redemption eschatology hermeneutics propitiation exhortation functionality optimization repository configuration middleware canonical fingerprint headless webhook minification transpiler preprocessor accountability reversibility normalization deviance intellectual sustainable investigation responsibility&#34;.split()
 
-CONTRACTIONS = {"what's":"what","isn't":"is","don't":"do","doesn't":"does","didn't":"did","can't":"can","won't":"will","wasn't":"was","it's":"it","that's":"that","there's":"there","you're":"you","they're":"they","we're":"we","i'm":"i","i've":"have","you've":"have","we've":"have","they've":"have","i'll":"will","you'll":"will","let's":"let","today's":"today","christ's":"christ","god's":"god","wouldn't":"would","couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are"}
+CONTRACTIONS = {&#34;what&#39;s&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,&#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;}
 
 def strip_markup(text):
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text); text = HTML.sub(" ", text); text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text); text = HTML.sub(&#34; &#34;, text); text = CODE.sub(&#34; &#34;, text)
     return text
 
 def prose_blob(path, meta, body):
     chunks = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             for item in meta.get(key) or []:
                 if isinstance(item, str) and item.strip():
-                    if key == "aliases" and item.startswith("/"): continue
+                    if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;): continue
                     chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip(): chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip(): chunks.append(reason)
         if body.strip(): chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
         if body.strip(): chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 freq = Counter()
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md": continue
-    text = path.read_text(encoding="utf-8"); m = FRONTMATTER.match(text)
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;: continue
+    text = path.read_text(encoding=&#34;utf-8&#34;); m = FRONTMATTER.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"): continue
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;): continue
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
-    for w in re.findall(r"[a-z]{4,}", blob):
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
 
 for w in CHECK:
-    print(f"{w}: {freq.get(w,0)}")
+    print(f&#34;{w}: {freq.get(w,0)}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -3890,20 +3526,12 @@ investigation: 12
 responsibility: 10
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3978,21 +3606,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4099,13 +3718,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4121,171 +3733,171 @@ Theology lane continues with blameless, holiness, stewardship, commandment, glor
 
 The list continues with distill, hoarding, metadata, shortcodes, deploy, rollback, retainer, serendipity, and interstitial. General hard words include irreversibility, reconciliation, investigation, accountability, responsibility, sustainable, normalization, and reversibility.
 
-The scoring formula weights syllables, rarity, and frequency. New entries include adaptability, versatility, situational, intellectual, escalation, retaliation, ecosystem, autopilot, deliberate, compounding, and tournament terms like quarterfinals and semifinals.</details></think>
+The scoring formula weights syllables, rarity, and frequency. New entries include adaptability, versatility, situational, intellectual, escalation, retaliation, ecosystem, autopilot, deliberate, compounding, and tournament terms like quarterfinals and semifinals.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re, math
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
-CONTRACTIONS = {"what's":"what","isn't":"is","don't":"do","doesn't":"does","didn't":"did","can't":"can","won't":"will","wasn't":"was","it's":"it","that's":"that","there's":"there","you're":"you","they're":"they","we're":"we","i'm":"i","i've":"have","you've":"have","we've":"have","they've":"have","i'll":"will","you'll":"will","let's":"let","today's":"today","christ's":"christ","god's":"god","wouldn't":"would","couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are"}
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
+CONTRACTIONS = {&#34;what&#39;s&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,&#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;}
 
-EXCLUDE = set("""
+EXCLUDE = set(&#34;&#34;&#34;
 wtatennis facebook hugoplate wimbledon obsidian tiddlywiki vinegar worcestershire
 filipina earphones jorap github cloudflare youtube shopee drupal wordpress hugo
 borrowed replaces revoked pretending closeness coworker negotiating scoreboard rehearsed
 publishes polishing unchanged survives genuinely reusable skipped revert stacked goodness
 friction verdict showroom quietly reps vague sunk produces captured declared eternal
 opposite integrity atomic discipline correction assurance vinegar aren couldn
-""".split())
+&#34;&#34;&#34;.split())
 
 CATS = {
-    "theology": {"sanctification","justification","righteousness","discipleship","galatians","ephesians","romans","beatitudes","fellowship","salvation","scripture","sermon","abide","repent","forgive","forgiveness","righteous","believers","steward","devotion","obedience","faithfulness","gentleness","merciful","glorify","confess","peacemakers","disciples","justified","blameless","holiness","parable","commandment","stewardship","peacemaking","persecutors","merciful","believer","repentance","galatians"},
-    "pkm": {"wikilinks","evergreen","fleeting","whiteboard","playbook","rollback","repetition","distill","scribble","hoarding","fallacy","serendipity","serendipitous","synthesis","associative","backlinks","frontmatter","wikilink","taxonomy","taxonomies","metadata","contradicts","interstitial","normalization","deviance","progressive","summarization","zettelkasten"},
-    "tech": {"deploy","retainer","rollback","shortcodes","webhook","configuration","canonical","fingerprint","headless","minification","repository","middleware","analytics","frontmatter","metadata","taxonomy","taxonomies"},
+    &#34;theology&#34;: {&#34;sanctification&#34;,&#34;justification&#34;,&#34;righteousness&#34;,&#34;discipleship&#34;,&#34;galatians&#34;,&#34;ephesians&#34;,&#34;romans&#34;,&#34;beatitudes&#34;,&#34;fellowship&#34;,&#34;salvation&#34;,&#34;scripture&#34;,&#34;sermon&#34;,&#34;abide&#34;,&#34;repent&#34;,&#34;forgive&#34;,&#34;forgiveness&#34;,&#34;righteous&#34;,&#34;believers&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;obedience&#34;,&#34;faithfulness&#34;,&#34;gentleness&#34;,&#34;merciful&#34;,&#34;glorify&#34;,&#34;confess&#34;,&#34;peacemakers&#34;,&#34;disciples&#34;,&#34;justified&#34;,&#34;blameless&#34;,&#34;holiness&#34;,&#34;parable&#34;,&#34;commandment&#34;,&#34;stewardship&#34;,&#34;peacemaking&#34;,&#34;persecutors&#34;,&#34;merciful&#34;,&#34;believer&#34;,&#34;repentance&#34;,&#34;galatians&#34;},
+    &#34;pkm&#34;: {&#34;wikilinks&#34;,&#34;evergreen&#34;,&#34;fleeting&#34;,&#34;whiteboard&#34;,&#34;playbook&#34;,&#34;rollback&#34;,&#34;repetition&#34;,&#34;distill&#34;,&#34;scribble&#34;,&#34;hoarding&#34;,&#34;fallacy&#34;,&#34;serendipity&#34;,&#34;serendipitous&#34;,&#34;synthesis&#34;,&#34;associative&#34;,&#34;backlinks&#34;,&#34;frontmatter&#34;,&#34;wikilink&#34;,&#34;taxonomy&#34;,&#34;taxonomies&#34;,&#34;metadata&#34;,&#34;contradicts&#34;,&#34;interstitial&#34;,&#34;normalization&#34;,&#34;deviance&#34;,&#34;progressive&#34;,&#34;summarization&#34;,&#34;zettelkasten&#34;},
+    &#34;tech&#34;: {&#34;deploy&#34;,&#34;retainer&#34;,&#34;rollback&#34;,&#34;shortcodes&#34;,&#34;webhook&#34;,&#34;configuration&#34;,&#34;canonical&#34;,&#34;fingerprint&#34;,&#34;headless&#34;,&#34;minification&#34;,&#34;repository&#34;,&#34;middleware&#34;,&#34;analytics&#34;,&#34;frontmatter&#34;,&#34;metadata&#34;,&#34;taxonomy&#34;,&#34;taxonomies&#34;},
 }
 
 SWAPS = {
-    "obedience":"doing what God asks","justification":"declared right with God",
-    "sanctification":"becoming more like Christ","righteousness":"right standing with God",
-    "discipleship":"following Jesus day to day","forgiveness":"letting a debt go",
-    "faithfulness":"staying loyal","gentleness":"soft strength, not harsh",
-    "fellowship":"life together as believers","salvation":"rescue from sin",
-    "blameless":"no finger-pointing","peacemakers":"people who stop fights",
-    "beatitudes":"Jesus' blessings list","holiness":"set apart for God",
-    "stewardship":"managing what you're given","commandment":"command from God",
-    "persecutors":"people who attack you","peacemaking":"making peace",
-    "glorify":"honor / give credit to God","merciful":"full of mercy",
-    "justified":"declared not guilty","parable":"story with a moral",
-    "devotion":"deep commitment","believers":"people who trust Jesus",
-    "disciples":"followers","galatians":"Bible book (topic OK)",
-    "frontmatter":"tags and fields at the top","wikilinks":"double-bracket links",
-    "evergreen":"stays useful over time","fleeting":"quick capture note",
-    "whiteboard":"big scratch space","fallacy":"bad reasoning trick",
-    "contradicts":"goes against","distill":"boil down","hoarding":"piling up unused",
-    "metadata":"tags and fields","shortcodes":"Hugo shortcuts","deploy":"push live",
-    "rollback":"undo / go back","retainer":"monthly upkeep fee",
-    "serendipity":"lucky find / happy accident","repetition":"drill / review again",
-    "taxonomy":"grouping system","taxonomies":"grouping systems",
-    "normalization":"getting used to bad shortcuts","deviance":"drift from the standard",
-    "irreversible":"can't undo","reconciliation":"make things match again",
-    "investigation":"dig into what happened","accountability":"answer for your choices",
-    "responsibility":"what you're on the hook for","sustainable":"keep it up long-term",
-    "reversibility":"can you undo it?","adaptability":"adjust when things change",
-    "versatility":"works in many situations","situational":"depends on context",
-    "intellectual":"head-knowledge","escalation":"fight getting bigger",
-    "retaliation":"payback","ecosystem":"whole connected system",
-    "autopilot":"running on habit","deliberate":"on purpose, not by accident",
-    "compounding":"builds on itself over time","quarterfinals":"tennis bracket (OK in tracker)",
-    "semifinals":"tennis bracket (OK in tracker)","scribble":"rough jot",
-    "progressive":"layer by layer","synthesis":"combine ideas into one",
-    "interstitial":"between-step note","analytics":"usage stats",
+    &#34;obedience&#34;:&#34;doing what God asks&#34;,&#34;justification&#34;:&#34;declared right with God&#34;,
+    &#34;sanctification&#34;:&#34;becoming more like Christ&#34;,&#34;righteousness&#34;:&#34;right standing with God&#34;,
+    &#34;discipleship&#34;:&#34;following Jesus day to day&#34;,&#34;forgiveness&#34;:&#34;letting a debt go&#34;,
+    &#34;faithfulness&#34;:&#34;staying loyal&#34;,&#34;gentleness&#34;:&#34;soft strength, not harsh&#34;,
+    &#34;fellowship&#34;:&#34;life together as believers&#34;,&#34;salvation&#34;:&#34;rescue from sin&#34;,
+    &#34;blameless&#34;:&#34;no finger-pointing&#34;,&#34;peacemakers&#34;:&#34;people who stop fights&#34;,
+    &#34;beatitudes&#34;:&#34;Jesus&#39; blessings list&#34;,&#34;holiness&#34;:&#34;set apart for God&#34;,
+    &#34;stewardship&#34;:&#34;managing what you&#39;re given&#34;,&#34;commandment&#34;:&#34;command from God&#34;,
+    &#34;persecutors&#34;:&#34;people who attack you&#34;,&#34;peacemaking&#34;:&#34;making peace&#34;,
+    &#34;glorify&#34;:&#34;honor / give credit to God&#34;,&#34;merciful&#34;:&#34;full of mercy&#34;,
+    &#34;justified&#34;:&#34;declared not guilty&#34;,&#34;parable&#34;:&#34;story with a moral&#34;,
+    &#34;devotion&#34;:&#34;deep commitment&#34;,&#34;believers&#34;:&#34;people who trust Jesus&#34;,
+    &#34;disciples&#34;:&#34;followers&#34;,&#34;galatians&#34;:&#34;Bible book (topic OK)&#34;,
+    &#34;frontmatter&#34;:&#34;tags and fields at the top&#34;,&#34;wikilinks&#34;:&#34;double-bracket links&#34;,
+    &#34;evergreen&#34;:&#34;stays useful over time&#34;,&#34;fleeting&#34;:&#34;quick capture note&#34;,
+    &#34;whiteboard&#34;:&#34;big scratch space&#34;,&#34;fallacy&#34;:&#34;bad reasoning trick&#34;,
+    &#34;contradicts&#34;:&#34;goes against&#34;,&#34;distill&#34;:&#34;boil down&#34;,&#34;hoarding&#34;:&#34;piling up unused&#34;,
+    &#34;metadata&#34;:&#34;tags and fields&#34;,&#34;shortcodes&#34;:&#34;Hugo shortcuts&#34;,&#34;deploy&#34;:&#34;push live&#34;,
+    &#34;rollback&#34;:&#34;undo / go back&#34;,&#34;retainer&#34;:&#34;monthly upkeep fee&#34;,
+    &#34;serendipity&#34;:&#34;lucky find / happy accident&#34;,&#34;repetition&#34;:&#34;drill / review again&#34;,
+    &#34;taxonomy&#34;:&#34;grouping system&#34;,&#34;taxonomies&#34;:&#34;grouping systems&#34;,
+    &#34;normalization&#34;:&#34;getting used to bad shortcuts&#34;,&#34;deviance&#34;:&#34;drift from the standard&#34;,
+    &#34;irreversible&#34;:&#34;can&#39;t undo&#34;,&#34;reconciliation&#34;:&#34;make things match again&#34;,
+    &#34;investigation&#34;:&#34;dig into what happened&#34;,&#34;accountability&#34;:&#34;answer for your choices&#34;,
+    &#34;responsibility&#34;:&#34;what you&#39;re on the hook for&#34;,&#34;sustainable&#34;:&#34;keep it up long-term&#34;,
+    &#34;reversibility&#34;:&#34;can you undo it?&#34;,&#34;adaptability&#34;:&#34;adjust when things change&#34;,
+    &#34;versatility&#34;:&#34;works in many situations&#34;,&#34;situational&#34;:&#34;depends on context&#34;,
+    &#34;intellectual&#34;:&#34;head-knowledge&#34;,&#34;escalation&#34;:&#34;fight getting bigger&#34;,
+    &#34;retaliation&#34;:&#34;payback&#34;,&#34;ecosystem&#34;:&#34;whole connected system&#34;,
+    &#34;autopilot&#34;:&#34;running on habit&#34;,&#34;deliberate&#34;:&#34;on purpose, not by accident&#34;,
+    &#34;compounding&#34;:&#34;builds on itself over time&#34;,&#34;quarterfinals&#34;:&#34;tennis bracket (OK in tracker)&#34;,
+    &#34;semifinals&#34;:&#34;tennis bracket (OK in tracker)&#34;,&#34;scribble&#34;:&#34;rough jot&#34;,
+    &#34;progressive&#34;:&#34;layer by layer&#34;,&#34;synthesis&#34;:&#34;combine ideas into one&#34;,
+    &#34;interstitial&#34;:&#34;between-step note&#34;,&#34;analytics&#34;:&#34;usage stats&#34;,
 }
 
-VOWELS="aeiouy"
+VOWELS=&#34;aeiouy&#34;
 def syllables(w):
     w=w.lower(); c=prev=0
     for ch in w:
         v=ch in VOWELS
         if v and not prev: c+=1
         prev=v
-    if w.endswith('e') and c>1 and not w.endswith('le'): c-=1
+    if w.endswith(&#39;e&#39;) and c&gt;1 and not w.endswith(&#39;le&#39;): c-=1
     return max(1,c)
 
 def categorize(w):
     for cat, words in CATS.items():
         if w in words: return cat
-    return "general"
+    return &#34;general&#34;
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
 def strip_markup(text):
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text); text = HTML.sub(" ", text); text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text); text = HTML.sub(&#34; &#34;, text); text = CODE.sub(&#34; &#34;, text)
     return text
 
 def prose_blob(path, meta, body):
     chunks = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             for item in meta.get(key) or []:
                 if isinstance(item, str) and item.strip():
-                    if key == "aliases" and item.startswith("/"): continue
+                    if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;): continue
                     chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip(): chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip(): chunks.append(reason)
         if body.strip(): chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
         if body.strip(): chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq = Counter(); files = defaultdict(set); blog_uses = Counter(); notes_uses = Counter()
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md": continue
-    text = path.read_text(encoding="utf-8"); m = FRONTMATTER.match(text)
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;: continue
+    text = path.read_text(encoding=&#34;utf-8&#34;); m = FRONTMATTER.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"): continue
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;): continue
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
     rel = str(path.relative_to(ROOT))
-    is_blog = path.parent.name == "blog"
-    for w in re.findall(r"[a-z]{4,}", blob):
+    is_blog = path.parent.name == &#34;blog&#34;
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1; files[w].add(rel)
         (blog_uses if is_blog else notes_uses)[w] += 1
 
 items = []
 for w, c in freq.items():
-    if c < 4 or w in EXCLUDE: continue
+    if c &lt; 4 or w in EXCLUDE: continue
     rank = common.get(w, 10001)
     syl = syllables(w)
     rarity = 5000 if w not in common else max(0, rank - 7000)
-    if w in common and rank <= 7000 and syl < 4:
+    if w in common and rank &lt;= 7000 and syl &lt; 4:
         continue
     difficulty = syl * 1200 + rarity + max(0, len(w)-8)*200
     score = difficulty * (1 + math.log2(c))
     items.append((score, w, c, syl, rank, categorize(w), blog_uses[w], notes_uses[w]))
 
 items.sort(reverse=True)
-print(f"Scanned 261 files (51 blog + 210 notes, including 36 drafts)\n")
+print(f&#34;Scanned 261 files (51 blog + 210 notes, including 36 drafts)\n&#34;)
 for i, (_, w, c, syl, rank, lane, b, n) in enumerate(items[:50], 1):
-    swap = SWAPS.get(w, "—")
-    rank_s = f"#{rank}" if rank <= 10000 else "rare"
+    swap = SWAPS.get(w, &#34;—&#34;)
+    rank_s = f&#34;#{rank}&#34; if rank &lt;= 10000 else &#34;rare&#34;
     where = []
-    if b: where.append(f"blog×{b}")
-    if n: where.append(f"notes×{n}")
-    print(f"{i:2d}. **{w}** ({c}×, {syl} syl, {rank_s}, {lane}) — {swap} [{', '.join(where)}]")
+    if b: where.append(f&#34;blog×{b}&#34;)
+    if n: where.append(f&#34;notes×{n}&#34;)
+    print(f&#34;{i:2d}. **{w}** ({c}×, {syl} syl, {rank_s}, {lane}) — {swap} [{&#39;, &#39;.join(where)}]&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -4475,40 +4087,9 @@ Scanned 261 files (51 blog + 210 notes, including 36 drafts)
 22. **rollback** (43×, 2 syl, rare, pkm) — undo / go back [notes×43]
 23. **whiteboard** (19×, 3 syl, rare, pkm) — big scratch space [notes×19]
 24. **semifinals** (12×, 4 syl, rare, general) — tennis bracket (OK in tracker) [blog×12]
-25. **adaptability** (6×, 6 syl, rare, general) — adjust when things change [notes×6]
-26. **patience** (37×, 2 syl, rare, general) — — [blog×2, notes×35]
-27. **fallacy** (19×, 3 syl, rare, pkm) — bad reasoning trick [notes×19]
-28. **stewardship** (14×, 3 syl, rare, theology) — managing what you're given [notes×14]
-29. **serendipity** (7×, 5 syl, rare, pkm) — lucky find / happy accident [notes×7]
-30. **steward** (31×, 2 syl, rare, theology) — — [notes×31]
-31. **reconciliation** (6×, 5 syl, rare, general) — make things match again [notes×6]
-32. **taxonomy** (11×, 4 syl, rare, pkm) — grouping system [blog×3, notes×8]
-33. **kindness** (29×, 2 syl, rare, general) — — [blog×1, notes×28]
-34. **frontmatter** (13×, 3 syl, rare, pkm) — tags and fields at the top [blog×4, notes×9]
-35. **motive** (27×, 2 syl, rare, general) — — [notes×27]
-36. **escalation** (9×, 4 syl, rare, general) — fight getting bigger [notes×9]
-37. **wikilinks** (14×, 3 syl, rare, pkm) — double-bracket links [blog×3, notes×11]
-38. **blameless** (14×, 3 syl, rare, theology) — no finger-pointing [notes×14]
-39. **believers** (14×, 3 syl, rare, theology) — people who trust Jesus [notes×14]
-40. **devotion** (15×, 3 syl, rare, theology) — deep commitment [notes×15]
-41. **heroic** (26×, 2 syl, rare, general) — — [blog×1, notes×25]
-42. **naming** (25×, 2 syl, rare, general) — — [blog×1, notes×24]
-43. **retaliation** (8×, 4 syl, rare, general) — payback [notes×8]
-44. **persecutors** (8×, 4 syl, rare, theology) — people who attack you [notes×8]
-45. **ninety** (14×, 3 syl, rare, general) — — [blog×4, notes×10]
-46. **messy** (24×, 2 syl, rare, general) — — [blog×1, notes×23]
-47. **compounding** (11×, 3 syl, rare, general) — builds on itself over time [notes×11]
-48. **commandment** (11×, 3 syl, rare, theology) — command from God [notes×11]
-49. **righteous** (21×, 2 syl, rare, theology) — — [notes×21]
-50. **sermon** (23×, 2 syl, rare, theology) — — [blog×4, notes×19]
-
+25. **adaptability** (6×, 6 syl, rare, general) — adjust when thing
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4522,7 +4103,8 @@ The first batch of 23 words is now complete. It includes theological terms like 
 
 The list now reaches 60 words. It adds deployment terms like shortcodes, deploy, and rollback, plus long general terms such as irreversible, reconciliation, investigation, and compounding. Sports terminology was considered but set aside.
 
-Quarterfinals and semifinals were considered but kept for the sports tracker. The final top 50 is now fully ordered by difficulty and voice impact. Sanctification leads the list, followed by justification, discipleship, irreversible, and reconciliation.</details></think>
+Quarterfinals and semifinals were considered but kept for the sports tracker. The final top 50 is now fully ordered by difficulty and voice impact. Sanctification leads the list, followed by justification, discipleship, irreversible, and reconciliation.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4634,7 +4216,8 @@ The user wants the next 100 uncommonly used words beyond the top 50 already prov
 
 I'll rerun the analysis to rank the next 100 words by applying the same scoring algorithm and excluding the top 50 already provided.
 
-The excluded top 50 words are now identified. They span theology and PKM/tech categories.</details></think>
+The excluded top 50 words are now identified. They span theology and PKM/tech categories.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4643,25 +4226,25 @@ Running the same vocabulary scan and returning ranks 51–150, excluding the top
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re, math
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
-CONTRACTIONS = {"what's":"what","isn't":"is","don't":"do","doesn't":"does","didn't":"did","can't":"can","won't":"will","wasn't":"was","it's":"it","that's":"that","there's":"there","you're":"you","they're":"they","we're":"we","i'm":"i","i've":"have","you've":"have","we've":"have","they've":"have","i'll":"will","you'll":"will","let's":"let","today's":"today","christ's":"christ","god's":"god","wouldn't":"would","couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are"}
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
+CONTRACTIONS = {&#34;what&#39;s&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,&#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;}
 
-TOP50 = set("""
+TOP50 = set(&#34;&#34;&#34;
 justification sanctification obedience faithfulness gentleness fellowship salvation
 righteousness discipleship forgiveness galatians peacemakers blameless stewardship
 commandment holiness beatitudes peacemaking persecutors believers glorify merciful
@@ -4669,115 +4252,114 @@ parable deploy rollback evergreen retainer whiteboard fallacy fleeting distill h
 repetition frontmatter wikilinks taxonomy shortcodes contradicts serendipity metadata
 irreversible investigation accountability responsibility sustainable reconciliation
 adaptability reversibility escalation retaliation quarterfinals semifinals
-""".split())
+&#34;&#34;&#34;.split())
 
-EXCLUDE = set("""
+EXCLUDE = set(&#34;&#34;&#34;
 wtatennis facebook hugoplate wimbledon obsidian tiddlywiki vinegar worcestershire
 filipina earphones jorap github cloudflare youtube shopee drupal wordpress hugo
 borrowed replaces revoked pretending closeness coworker negotiating scoreboard rehearsed
 publishes polishing unchanged survives genuinely reusable skipped revert stacked goodness
 friction verdict showroom quietly reps vague sunk produces captured declared eternal
 opposite integrity atomic discipline correction assurance aren couldn
-""".split())
+&#34;&#34;&#34;.split())
 
 CATS = {
-    "theology": {"sanctification","justification","righteousness","discipleship","galatians","ephesians","romans","beatitudes","fellowship","salvation","scripture","sermon","abide","repent","forgive","forgiveness","righteous","believers","steward","devotion","obedience","faithfulness","gentleness","merciful","glorify","confess","peacemakers","disciples","justified","blameless","holiness","parable","commandment","stewardship","peacemaking","persecutors","merciful","believer","repentance","galatians","ephesians","caesar","stubble","confess","repent","abide","testament","covenant","atonement","transfiguration","messiah","redemption","liturgy","apologetics","prophetic","exhortation","propitiation","transgression","unrighteous","unrighteousness","predestination","eschatology","hermeneutics","ecclesiastical","ecclesiology","sanctify","theological","theology"},
-    "pkm": {"wikilinks","evergreen","fleeting","whiteboard","playbook","rollback","repetition","distill","scribble","hoarding","fallacy","serendipity","serendipitous","synthesis","associative","backlinks","frontmatter","wikilink","taxonomy","taxonomies","metadata","contradicts","interstitial","normalization","deviance","progressive","summarization","zettelkasten","inbox","handoff","postmortem","summarization","backlink","backlinks","graphview","crdt","zettelkasten","interstitial","interstitials","serendipitous"},
-    "tech": {"deploy","retainer","rollback","shortcodes","webhook","configuration","canonical","fingerprint","headless","minification","repository","middleware","analytics","frontmatter","metadata","taxonomy","taxonomies","markdown","repo","bundler","minify","stylesheet","stylesheets","subdomain","serverless","transpiler","preprocessor","fingerprinting","webhooks","headless","canonicalization"},
+    &#34;theology&#34;: {&#34;sanctification&#34;,&#34;justification&#34;,&#34;righteousness&#34;,&#34;discipleship&#34;,&#34;galatians&#34;,&#34;ephesians&#34;,&#34;romans&#34;,&#34;beatitudes&#34;,&#34;fellowship&#34;,&#34;salvation&#34;,&#34;scripture&#34;,&#34;sermon&#34;,&#34;abide&#34;,&#34;repent&#34;,&#34;forgive&#34;,&#34;forgiveness&#34;,&#34;righteous&#34;,&#34;believers&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;obedience&#34;,&#34;faithfulness&#34;,&#34;gentleness&#34;,&#34;merciful&#34;,&#34;glorify&#34;,&#34;confess&#34;,&#34;peacemakers&#34;,&#34;disciples&#34;,&#34;justified&#34;,&#34;blameless&#34;,&#34;holiness&#34;,&#34;parable&#34;,&#34;commandment&#34;,&#34;stewardship&#34;,&#34;peacemaking&#34;,&#34;persecutors&#34;,&#34;merciful&#34;,&#34;believer&#34;,&#34;repentance&#34;,&#34;galatians&#34;,&#34;ephesians&#34;,&#34;caesar&#34;,&#34;stubble&#34;,&#34;confess&#34;,&#34;repent&#34;,&#34;abide&#34;,&#34;testament&#34;,&#34;covenant&#34;,&#34;atonement&#34;,&#34;transfiguration&#34;,&#34;messiah&#34;,&#34;redemption&#34;,&#34;liturgy&#34;,&#34;apologetics&#34;,&#34;prophetic&#34;,&#34;exhortation&#34;,&#34;propitiation&#34;,&#34;transgression&#34;,&#34;unrighteous&#34;,&#34;unrighteousness&#34;,&#34;predestination&#34;,&#34;eschatology&#34;,&#34;hermeneutics&#34;,&#34;ecclesiastical&#34;,&#34;ecclesiology&#34;,&#34;sanctify&#34;,&#34;theological&#34;,&#34;theology&#34;},
+    &#34;pkm&#34;: {&#34;wikilinks&#34;,&#34;evergreen&#34;,&#34;fleeting&#34;,&#34;whiteboard&#34;,&#34;playbook&#34;,&#34;rollback&#34;,&#34;repetition&#34;,&#34;distill&#34;,&#34;scribble&#34;,&#34;hoarding&#34;,&#34;fallacy&#34;,&#34;serendipity&#34;,&#34;serendipitous&#34;,&#34;synthesis&#34;,&#34;associative&#34;,&#34;backlinks&#34;,&#34;frontmatter&#34;,&#34;wikilink&#34;,&#34;taxonomy&#34;,&#34;taxonomies&#34;,&#34;metadata&#34;,&#34;contradicts&#34;,&#34;interstitial&#34;,&#34;normalization&#34;,&#34;deviance&#34;,&#34;progressive&#34;,&#34;summarization&#34;,&#34;zettelkasten&#34;,&#34;inbox&#34;,&#34;handoff&#34;,&#34;postmortem&#34;,&#34;summarization&#34;,&#34;backlink&#34;,&#34;backlinks&#34;,&#34;graphview&#34;,&#34;crdt&#34;,&#34;zettelkasten&#34;,&#34;interstitial&#34;,&#34;interstitials&#34;,&#34;serendipitous&#34;},
+    &#34;tech&#34;: {&#34;deploy&#34;,&#34;retainer&#34;,&#34;rollback&#34;,&#34;shortcodes&#34;,&#34;webhook&#34;,&#34;configuration&#34;,&#34;canonical&#34;,&#34;fingerprint&#34;,&#34;headless&#34;,&#34;minification&#34;,&#34;repository&#34;,&#34;middleware&#34;,&#34;analytics&#34;,&#34;frontmatter&#34;,&#34;metadata&#34;,&#34;taxonomy&#34;,&#34;taxonomies&#34;,&#34;markdown&#34;,&#34;repo&#34;,&#34;bundler&#34;,&#34;minify&#34;,&#34;stylesheet&#34;,&#34;stylesheets&#34;,&#34;subdomain&#34;,&#34;serverless&#34;,&#34;transpiler&#34;,&#34;preprocessor&#34;,&#34;fingerprinting&#34;,&#34;webhooks&#34;,&#34;headless&#34;,&#34;canonicalization&#34;},
 }
 
-VOWELS="aeiouy"
+VOWELS=&#34;aeiouy&#34;
 def syllables(w):
     w=w.lower(); c=prev=0
     for ch in w:
         v=ch in VOWELS
         if v and not prev: c+=1
         prev=v
-    if w.endswith('e') and c>1 and not w.endswith('le'): c-=1
-    if w.endswith('y') and c>1 and len(w)>3: c-=1
+    if w.endswith(&#39;e&#39;) and c&gt;1 and not w.endswith(&#39;le&#39;): c-=1
+    if w.endswith(&#39;y&#39;) and c&gt;1 and len(w)&gt;3: c-=1
     return max(1,c)
 
 def categorize(w):
     for cat, words in CATS.items():
         if w in words: return cat
-    return "general"
+    return &#34;general&#34;
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
 def strip_markup(text):
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text); text = HTML.sub(" ", text); text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text); text = HTML.sub(&#34; &#34;, text); text = CODE.sub(&#34; &#34;, text)
     return text
 
 def prose_blob(path, meta, body):
     chunks = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             for item in meta.get(key) or []:
                 if isinstance(item, str) and item.strip():
-                    if key == "aliases" and item.startswith("/"): continue
+                    if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;): continue
                     chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip(): chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip(): chunks.append(reason)
         if body.strip(): chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
         if body.strip(): chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq = Counter(); blog_uses = Counter(); notes_uses = Counter()
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md": continue
-    text = path.read_text(encoding="utf-8"); m = FRONTMATTER.match(text)
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;: continue
+    text = path.read_text(encoding=&#34;utf-8&#34;); m = FRONTMATTER.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"): continue
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;): continue
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
-    is_blog = path.parent.name == "blog"
-    for w in re.findall(r"[a-z]{4,}", blob):
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
+    is_blog = path.parent.name == &#34;blog&#34;
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         (blog_uses if is_blog else notes_uses)[w] += 1
 
 items = []
 for w, c in freq.items():
-    if c < 4 or w in EXCLUDE or w in TOP50: continue
+    if c &lt; 4 or w in EXCLUDE or w in TOP50: continue
     rank = common.get(w, 10001)
     syl = syllables(w)
     rarity = 5000 if w not in common else max(0, rank - 7000)
-    if w in common and rank <= 7000 and syl < 4:
+    if w in common and rank &lt;= 7000 and syl &lt; 4:
         continue
     difficulty = syl * 1200 + rarity + max(0, len(w)-8)*200
     score = difficulty * (1 + math.log2(c))
     items.append((score, w, c, syl, rank, categorize(w), blog_uses[w], notes_uses[w]))
 
 items.sort(reverse=True)
-print(f"Next 100 uncommon words (ranks 51–150, excluding prior top 50)\n")
-print(f"{'#':>3}  {'word':<22} {'uses':>4}  {'syl':>3}  {'rank':>5}  {'lane':<10}  where")
-print("-" * 95)
+print(f&#34;Next 100 uncommon words (ranks 51–150, excluding prior top 50)\n&#34;)
+print(f&#34;{&#39;#&#39;:&gt;3}  {&#39;word&#39;:&lt;22} {&#39;uses&#39;:&gt;4}  {&#39;syl&#39;:&gt;3}  {&#39;rank&#39;:&gt;5}  {&#39;lane&#39;:&lt;10}  where&#34;)
+print(&#34;-&#34; * 95)
 for i, (_, w, c, syl, rank, lane, b, n) in enumerate(items[:100], 51):
-    rank_s = f"#{rank}" if rank <= 10000 else "rare"
+    rank_s = f&#34;#{rank}&#34; if rank &lt;= 10000 else &#34;rare&#34;
     where = []
-    if b: where.append(f"blog×{b}")
-    if n: where.append(f"notes×{n}")
-    print(f"{i:3d}  {w:<22} {c:4d}  {syl:3d}  {rank_s:>5}  {lane:<10}  {', '.join(where)}")
+    if b: where.append(f&#34;blog×{b}&#34;)
+    if n: where.append(f&#34;notes×{n}&#34;)
+    print(f&#34;{i:3d}  {w:&lt;22} {c:4d}  {syl:3d}  {rank_s:&gt;5}  {lane:&lt;10}  {&#39;, &#39;.join(where)}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -4944,89 +4526,8 @@ Next 100 uncommon words (ranks 51–150, excluding prior top 50)
  73  taxonomies                7    4   rare  pkm         blog×7
  74  repeatable                7    4   rare  general     blog×2, notes×5
  75  teammate                 19    2   rare  general     blog×2, notes×17
- 76  believer                 11    3   rare  theology    notes×11
- 77  adobo                    11    3   rare  general     blog×10, notes×1
- 78  reconcile                 7    4   rare  general     notes×7
- 79  ecosystem                 7    4   rare  general     blog×7
- 80  autopilot                 7    4   rare  general     notes×7
- 81  scrimmage                16    2   rare  general     notes×16
- 82  snapped                  16    2   rare  general     notes×16
- 83  caesar                   16    2   rare  theology    notes×16
- 84  scripture                14    2   rare  theology    notes×14
- 85  stubble                  15    2   rare  theology    notes×15
- 86  posture                  15    2   rare  general     blog×2, notes×13
- 87  landed                   15    2   rare  general     blog×4, notes×11
- 88  forgive                  15    2   rare  theology    notes×15
- 89  fixing                   15    2   rare  general     blog×3, notes×12
- 90  rechargeables             5    4   rare  general     blog×5
- 91  analytics                 6    4   rare  tech        blog×2, notes×4
- 92  playbook                 14    2   rare  pkm         blog×1, notes×13
- 93  ninety                   14    2   rare  general     blog×4, notes×10
- 94  guessing                 14    2   rare  general     blog×5, notes×9
- 95  drawer                   14    2   rare  general     blog×8, notes×6
- 96  abide                    14    2   rare  theology    notes×14
- 97  semifinalist              4    5   rare  general     blog×4
- 98  slice                    26    1   rare  general     blog×3, notes×23
- 99  rechargeable              5    4   rare  general     blog×5
-100  justified                 8    3   rare  theology    notes×8
-101  typo                     13    2   rare  general     blog×7, notes×6
-102  rewrite                  13    2   rare  general     blog×2, notes×11
-103  confess                  13    2   rare  theology    notes×13
-104  bedtime                  13    2   rare  general     notes×13
-105  messy                    24    1   rare  general     blog×1, notes×23
-106  versatility               5    4   rare  general     notes×5
-107  situational               5    4   rare  general     notes×5
-108  respectable               5    4   rare  general     notes×5
-109  abiding                   8    3   rare  general     notes×8
-110  hoard                    23    1   rare  general     notes×23
-111  inbox                    96    2  #9080  pkm         blog×3, notes×93
-112  tailwind                 12    2   rare  general     blog×12
-113  spaced                   12    2   rare  general     notes×12
-114  recap                    12    2   rare  general     notes×12
-115  outward                  12    2   rare  general     notes×12
-116  merged                   12    2   rare  general     notes×12
-117  gladness                 12    2   rare  general     notes×12
-118  burned                   12    2   rare  general     blog×3, notes×9
-119  worthless                11    2   rare  general     notes×11
-120  reconciled                5    4   rare  general     notes×5
-121  memorizing                5    4   rare  general     blog×1, notes×4
-122  everything               44    4   #878  general     blog×26, notes×18
-123  forgiving                 7    3   rare  general     blog×1, notes×6
-124  composure                 7    3   rare  general     notes×7
-125  unsafe                   11    2   rare  general     notes×11
-126  spotify                  11    2   rare  general     blog×11
-127  servant                  11    2   rare  general     notes×11
-128  misses                   11    2   rare  general     notes×11
-129  honestly                 11    2   rare  general     blog×8, notes×3
-130  workflows                10    2   rare  general     notes×10
-131  redirect                  7    3   rare  general     blog×1, notes×6
-132  pareto                    7    3   rare  general     notes×7
-133  manila                    7    3   rare  general     blog×5, notes×2
-134  deciding                  7    3   rare  general     blog×2, notes×5
-135  debating                  7    3   rare  general     notes×7
-136  curation                  7    3   rare  general     notes×7
-137  smallest                 33    2  #9976  general     blog×2, notes×31
-138  perplexity                6    3   rare  general     blog×6
-139  confession                6    3   rare  general     notes×6
-140  neighbor                 65    2  #9191  general     blog×4, notes×61
-141  spreadsheet               8    2   rare  general     blog×3, notes×5
-142  urgency                  10    2   rare  general     notes×10
-143  typed                    10    2   rare  general     blog×1, notes×9
-144  standup                  10    2   rare  general     notes×10
-145  skipping                 10    2   rare  general     notes×10
-146  scribble                 10    2   rare  pkm         notes×10
-147  repeats                  10    2   rare  general     blog×4, notes×6
-148  gesture                  10    2   rare  general     blog×5, notes×5
-149  erase                    10    2   rare  general     notes×10
-150  edits                    10    2   rare  general     blog×4, notes×6
-
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5034,7 +4535,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Many common words still appear because they are missing from the Google 10k list.
 
-Refining the list to exclude plain words and focus on genuinely uncommon terms.</details></think>
+Refining the list to exclude plain words and focus on genuinely uncommon terms.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5043,25 +4545,25 @@ Tightening filters to drop everyday words that only look rare because they're mi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re, math
 from collections import Counter
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
-CONTRACTIONS = {"what's":"what","isn't":"is","don't":"do","doesn't":"does","didn't":"did","can't":"can","won't":"will","wasn't":"was","it's":"it","that's":"that","there's":"there","you're":"you","they're":"they","we're":"we","i'm":"i","i've":"have","you've":"have","we've":"have","they've":"have","i'll":"will","you'll":"will","let's":"let","today's":"today","christ's":"christ","god's":"god","wouldn't":"would","couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are"}
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
+CONTRACTIONS = {&#34;what&#39;s&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,&#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;}
 
-TOP50 = set("""
+TOP50 = set(&#34;&#34;&#34;
 justification sanctification obedience faithfulness gentleness fellowship salvation
 righteousness discipleship forgiveness galatians peacemakers blameless stewardship
 commandment holiness beatitudes peacemaking persecutors believers glorify merciful
@@ -5069,9 +4571,9 @@ parable deploy rollback evergreen retainer whiteboard fallacy fleeting distill h
 repetition frontmatter wikilinks taxonomy shortcodes contradicts serendipity metadata
 irreversible investigation accountability responsibility sustainable reconciliation
 adaptability reversibility escalation retaliation quarterfinals semifinals
-""".split())
+&#34;&#34;&#34;.split())
 
-PLAIN = set("""
+PLAIN = set(&#34;&#34;&#34;
 faithful tempted habit patience kindness heroic naming pile halftime commute applause
 teammate scrimmage snapped posture landed fixing guessing drawer messy slice hoard
 typo rewrite bedtime messy inbox neighbor smallest everything forgiving composure
@@ -5079,118 +4581,117 @@ unsafe honestly workflows redirect deciding debating curation spreadsheet urgenc
 standup skipping repeats gesture erase edits burned merged outward recap spaced
 gladness misses servant worthless honestly spotify adobo manila pareto perplexity
 entrusted motive heroic sermon repo pile ninety scrimmage snapped landed fixing
-""".split())
+&#34;&#34;&#34;.split())
 
-PROPER = set("""
+PROPER = set(&#34;&#34;&#34;
 wtatennis facebook hugoplate wimbledon obsidian tiddlywiki jorap github cloudflare
 youtube shopee drupal wordpress hugo tailwind spotify perplexity adobo manila pareto
 spotify
-""".split())
+&#34;&#34;&#34;.split())
 
 CATS = {
-    "theology": {"ephesians","romans","scripture","sermon","abide","repent","forgive","righteous","steward","devotion","disciples","justified","caesar","stubble","confess","believer","scripture","servant","confession","abiding","forgiving","worthless","glorify","repentance","testament","covenant","atonement","transfiguration","messiah","redemption","liturgy","apologetics","prophetic","exhortation","propitiation","transgression","unrighteous","predestination","eschatology","hermeneutics","ecclesiastical","sanctify","theological","theology","beatitude","peacemaker","mercy","grace","sanctified"},
-    "pkm": {"markdown","playbook","scribble","spaced","inbox","synthesis","progressive","normalization","deviance","interstitial","serendipitous","zettelkasten","backlinks","backlink","crdt","graphview","summarization","associative","taxonomies","curation","workflows","memorizing","redirect","rewrite"},
-    "tech": {"markdown","repo","analytics","tailwind","webhook","configuration","canonical","fingerprint","headless","minification","repository","middleware","rechargeables","rechargeable","repeatable","spreadsheet","workflows","bundler","minify","stylesheet","subdomain","serverless","transpiler","preprocessor","fingerprinting","webhooks","canonicalization","redirect"},
+    &#34;theology&#34;: {&#34;ephesians&#34;,&#34;romans&#34;,&#34;scripture&#34;,&#34;sermon&#34;,&#34;abide&#34;,&#34;repent&#34;,&#34;forgive&#34;,&#34;righteous&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;disciples&#34;,&#34;justified&#34;,&#34;caesar&#34;,&#34;stubble&#34;,&#34;confess&#34;,&#34;believer&#34;,&#34;scripture&#34;,&#34;servant&#34;,&#34;confession&#34;,&#34;abiding&#34;,&#34;forgiving&#34;,&#34;worthless&#34;,&#34;glorify&#34;,&#34;repentance&#34;,&#34;testament&#34;,&#34;covenant&#34;,&#34;atonement&#34;,&#34;transfiguration&#34;,&#34;messiah&#34;,&#34;redemption&#34;,&#34;liturgy&#34;,&#34;apologetics&#34;,&#34;prophetic&#34;,&#34;exhortation&#34;,&#34;propitiation&#34;,&#34;transgression&#34;,&#34;unrighteous&#34;,&#34;predestination&#34;,&#34;eschatology&#34;,&#34;hermeneutics&#34;,&#34;ecclesiastical&#34;,&#34;sanctify&#34;,&#34;theological&#34;,&#34;theology&#34;,&#34;beatitude&#34;,&#34;peacemaker&#34;,&#34;mercy&#34;,&#34;grace&#34;,&#34;sanctified&#34;},
+    &#34;pkm&#34;: {&#34;markdown&#34;,&#34;playbook&#34;,&#34;scribble&#34;,&#34;spaced&#34;,&#34;inbox&#34;,&#34;synthesis&#34;,&#34;progressive&#34;,&#34;normalization&#34;,&#34;deviance&#34;,&#34;interstitial&#34;,&#34;serendipitous&#34;,&#34;zettelkasten&#34;,&#34;backlinks&#34;,&#34;backlink&#34;,&#34;crdt&#34;,&#34;graphview&#34;,&#34;summarization&#34;,&#34;associative&#34;,&#34;taxonomies&#34;,&#34;curation&#34;,&#34;workflows&#34;,&#34;memorizing&#34;,&#34;redirect&#34;,&#34;rewrite&#34;},
+    &#34;tech&#34;: {&#34;markdown&#34;,&#34;repo&#34;,&#34;analytics&#34;,&#34;tailwind&#34;,&#34;webhook&#34;,&#34;configuration&#34;,&#34;canonical&#34;,&#34;fingerprint&#34;,&#34;headless&#34;,&#34;minification&#34;,&#34;repository&#34;,&#34;middleware&#34;,&#34;rechargeables&#34;,&#34;rechargeable&#34;,&#34;repeatable&#34;,&#34;spreadsheet&#34;,&#34;workflows&#34;,&#34;bundler&#34;,&#34;minify&#34;,&#34;stylesheet&#34;,&#34;subdomain&#34;,&#34;serverless&#34;,&#34;transpiler&#34;,&#34;preprocessor&#34;,&#34;fingerprinting&#34;,&#34;webhooks&#34;,&#34;canonicalization&#34;,&#34;redirect&#34;},
 }
 
-VOWELS="aeiouy"
+VOWELS=&#34;aeiouy&#34;
 def syllables(w):
     w=w.lower(); c=prev=0
     for ch in w:
         v=ch in VOWELS
         if v and not prev: c+=1
         prev=v
-    if w.endswith('e') and c>1 and not w.endswith('le'): c-=1
-    if w.endswith('y') and c>1 and len(w)>3: c-=1
+    if w.endswith(&#39;e&#39;) and c&gt;1 and not w.endswith(&#39;le&#39;): c-=1
+    if w.endswith(&#39;y&#39;) and c&gt;1 and len(w)&gt;3: c-=1
     return max(1,c)
 
 def categorize(w):
     for cat, words in CATS.items():
         if w in words: return cat
-    return "general"
+    return &#34;general&#34;
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
 def strip_markup(text):
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text); text = HTML.sub(" ", text); text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text); text = HTML.sub(&#34; &#34;, text); text = CODE.sub(&#34; &#34;, text)
     return text
 
 def prose_blob(path, meta, body):
     chunks = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             for item in meta.get(key) or []:
                 if isinstance(item, str) and item.strip():
-                    if key == "aliases" and item.startswith("/"): continue
+                    if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;): continue
                     chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip(): chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip(): chunks.append(reason)
         if body.strip(): chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
         if body.strip(): chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq = Counter(); blog_uses = Counter(); notes_uses = Counter()
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md": continue
-    text = path.read_text(encoding="utf-8"); m = FRONTMATTER.match(text)
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;: continue
+    text = path.read_text(encoding=&#34;utf-8&#34;); m = FRONTMATTER.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"): continue
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;): continue
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
-    is_blog = path.parent.name == "blog"
-    for w in re.findall(r"[a-z]{4,}", blob):
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
+    is_blog = path.parent.name == &#34;blog&#34;
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         (blog_uses if is_blog else notes_uses)[w] += 1
 
 items = []
 for w, c in freq.items():
-    if c < 3 or w in TOP50 or w in PLAIN or w in PROPER: continue
+    if c &lt; 3 or w in TOP50 or w in PLAIN or w in PROPER: continue
     rank = common.get(w, 10001)
     syl = syllables(w)
-    # uncommon: absent from 10k with 3+ syl, OR rank>8500 with 3+ syl, OR 4+ syl and rank>4000
+    # uncommon: absent from 10k with 3+ syl, OR rank&gt;8500 with 3+ syl, OR 4+ syl and rank&gt;4000
     absent = w not in common
     if absent:
-        if syl < 3 and len(w) < 9: continue
+        if syl &lt; 3 and len(w) &lt; 9: continue
     else:
-        if syl < 3: continue
-        if rank <= 8500 and syl < 4: continue
-        if rank <= 4000: continue
+        if syl &lt; 3: continue
+        if rank &lt;= 8500 and syl &lt; 4: continue
+        if rank &lt;= 4000: continue
     rarity = 5000 if absent else max(0, rank - 7500)
     difficulty = syl * 1200 + rarity + max(0, len(w)-8)*200
     score = difficulty * (1 + math.log2(c))
     items.append((score, w, c, syl, rank, categorize(w), blog_uses[w], notes_uses[w]))
 
 items.sort(reverse=True)
-print(f"{'#':>3}  {'word':<22} {'uses':>4}  {'syl':>3}  {'rank':>5}  {'lane':<10}  where")
-print("-" * 95)
+print(f&#34;{&#39;#&#39;:&gt;3}  {&#39;word&#39;:&lt;22} {&#39;uses&#39;:&gt;4}  {&#39;syl&#39;:&gt;3}  {&#39;rank&#39;:&gt;5}  {&#39;lane&#39;:&lt;10}  where&#34;)
+print(&#34;-&#34; * 95)
 for i, (_, w, c, syl, rank, lane, b, n) in enumerate(items[:100], 51):
-    rank_s = f"#{rank}" if rank <= 10000 else "rare"
+    rank_s = f&#34;#{rank}&#34; if rank &lt;= 10000 else &#34;rare&#34;
     where = []
-    if b: where.append(f"blog×{b}")
-    if n: where.append(f"notes×{n}")
-    print(f"{i:3d}  {w:<22} {c:4d}  {syl:3d}  {rank_s:>5}  {lane:<10}  {', '.join(where)}")
-print(f"\nTotal candidates after filters: {len(items)}")
+    if b: where.append(f&#34;blog×{b}&#34;)
+    if n: where.append(f&#34;notes×{n}&#34;)
+    print(f&#34;{i:3d}  {w:&lt;22} {c:4d}  {syl:3d}  {rank_s:&gt;5}  {lane:&lt;10}  {&#39;, &#39;.join(where)}&#34;)
+print(f&#34;\nTotal candidates after filters: {len(items)}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -5369,90 +4870,9 @@ PYEOF
  74  reusable                 10    3   rare  general     blog×10
  75  rehearsed                 9    3   rare  general     notes×9
  76  publishes                 9    3   rare  general     blog×7, notes×2
- 77  polishing                 9    3   rare  general     notes×9
- 78  scripture                14    2   rare  theology    notes×14
- 79  interconnectivity         3    6   rare  general     notes×3
- 80  rechargeables             5    4   rare  tech        blog×5
- 81  survives                  9    3   rare  general     blog×1, notes×8
- 82  analytics                 6    4   rare  tech        blog×2, notes×4
- 83  semifinalist              4    5   rare  general     blog×4
- 84  rechargeable              5    4   rare  tech        blog×5
- 85  unchanged                 8    3   rare  general     blog×2, notes×6
- 86  justified                 8    3   rare  theology    notes×8
- 87  genuinely                 8    3   rare  general     blog×7, notes×1
- 88  versatility               5    4   rare  general     notes×5
- 89  situational               5    4   rare  general     notes×5
- 90  respectable               5    4   rare  general     notes×5
- 91  abiding                   8    3   rare  theology    notes×8
- 92  reconciled                5    4   rare  general     notes×5
- 93  memorizing                5    4   rare  pkm         blog×1, notes×4
- 94  confession                6    3   rare  theology    notes×6
- 95  rolandgarros              4    4   rare  general     blog×4
- 96  scrolling                 9    2   rare  general     blog×4, notes×5
- 97  restraint                 9    2   rare  general     notes×9
- 98  untouched                 6    3   rare  general     blog×1, notes×5
- 99  surprises                 6    3   rare  general     blog×6
-100  summarize                 6    3   rare  general     notes×6
-101  ephesians                 6    3   rare  theology    notes×6
-102  endurance                 6    3   rare  general     blog×1, notes×5
-103  deadlines                 6    3   rare  general     blog×1, notes×5
-104  calculating               4    4   rare  general     notes×4
-105  uninterrupted             3    5   rare  general     notes×3
-106  restores                  6    3   rare  general     notes×6
-107  overhaul                  6    3   rare  general     notes×6
-108  marinade                  6    3   rare  general     blog×6
-109  humility                  6    3   rare  general     notes×6
-110  exposes                   6    3   rare  general     blog×1, notes×5
-111  reversible                4    4   rare  general     notes×4
-112  minimalism                4    4   rare  general     notes×4
-113  generosity                4    4   rare  general     notes×4
-114  spiritually               5    3   rare  general     notes×5
-115  lifecycle                 4    4   rare  general     notes×4
-116  evaluates                 4    4   rare  general     notes×4
-117  guadalajara               3    5   rare  general     blog×3
-118  underneath                5    3   rare  general     blog×4, notes×1
-119  disappears                5    3   rare  general     blog×5
-120  competence                5    3   rare  general     notes×5
-121  burstiness                5    3   rare  general     blog×5
-122  willpower                 5    3   rare  general     blog×1, notes×4
-123  repayment                 5    3   rare  general     notes×5
-124  milestone                 5    3   rare  general     notes×5
-125  imperfect                 5    3   rare  general     notes×5
-126  foresight                 5    3   rare  general     notes×5
-127  defending                 5    3   rare  general     blog×2, notes×3
-128  greatness                 7    2   rare  general     notes×7
-129  vanished                  5    3   rare  general     blog×2, notes×3
-130  revisit                   5    3   rare  general     blog×1, notes×4
-131  refusing                  5    3   rare  general     notes×5
-132  panicked                  5    3   rare  general     notes×5
-133  erased                    5    3   rare  general     notes×5
-134  barista                   5    3   rare  general     notes×5
-135  conversation             17    4  #4932  general     blog×6, notes×11
-136  elimination               5    5  #9436  general     notes×5
-137  technically               4    3   rare  general     blog×2, notes×2
-138  preparedness              3    4   rare  general     notes×3
-139  experiential              3    4   rare  general     notes×3
-140  knuckling                 6    2   rare  general     notes×6
-141  satisfying                4    3   rare  general     blog×4
-142  sandwiches                4    3   rare  general     blog×4
-143  resilience                4    3   rare  general     notes×4
-144  practicing                4    3   rare  general     notes×4
-145  implements                4    3   rare  general     notes×4
-146  forgetting                4    3   rare  general     blog×1, notes×3
-147  compassion                4    3   rare  general     notes×4
-148  collapsing                4    3   rare  general     notes×4
-149  grateful                 19    3  #9031  general     notes×19
-150  predictable               3    4   rare  general     blog×2, notes×1
-
-Total candidates after filters: 266
-
+ 77  polishing                 9    3   rare  general     n
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5460,29 +4880,30 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Some results remain noisy. Words like vinegar, earphones, and barista are product names or absent from the Google 10k list.
 
-A cleaner pass will isolate truly uncommon words useful for voice audits. Both a strict filtered list and a broader curated version will be provided.</details></think>
+A cleaner pass will isolate truly uncommon words useful for voice audits. Both a strict filtered list and a broader curated version will be provided.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re, math
 from collections import Counter
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
-CONTRACTIONS = {"what's":"what","isn't":"is","don't":"do","doesn't":"does","didn't":"did","can't":"can","won't":"will","wasn't":"was","it's":"it","that's":"that","there's":"there","you're":"you","they're":"they","we're":"we","i'm":"i","i've":"have","you've":"have","we've":"have","they've":"have","i'll":"will","you'll":"will","let's":"let","today's":"today","christ's":"christ","god's":"god","wouldn't":"would","couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are"}
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
+CONTRACTIONS = {&#34;what&#39;s&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,&#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;}
 
-TOP50 = set("""
+TOP50 = set(&#34;&#34;&#34;
 justification sanctification obedience faithfulness gentleness fellowship salvation
 righteousness discipleship forgiveness galatians peacemakers blameless stewardship
 commandment holiness beatitudes peacemaking persecutors believers glorify merciful
@@ -5490,18 +4911,18 @@ parable deploy rollback evergreen retainer whiteboard fallacy fleeting distill h
 repetition frontmatter wikilinks taxonomy shortcodes contradicts serendipity metadata
 irreversible investigation accountability responsibility sustainable reconciliation
 adaptability reversibility escalation retaliation quarterfinals semifinals
-""".split())
+&#34;&#34;&#34;.split())
 
 # food, brands, places, gear — uncommon in corpus but not vocabulary targets
-PROPER = set("""
+PROPER = set(&#34;&#34;&#34;
 worcestershire vinegar adobo marinade barista sandwiches earphones rechargeable
 rechargeables filipina rolandgarros guadalajara wtatennis facebook hugoplate wimbledon
 obsidian tiddlywiki jorap github cloudflare youtube shopee drupal wordpress hugo
 tailwind spotify perplexity manila pareto spotify knuckling burstiness
-""".split())
+&#34;&#34;&#34;.split())
 
 # everyday words absent from Google 10k — not voice concerns
-PLAIN = set("""
+PLAIN = set(&#34;&#34;&#34;
 faithful tempted habit patience kindness heroic naming pile halftime commute applause
 teammate scrimmage snapped posture landed fixing guessing drawer messy slice hoard
 typo rewrite bedtime inbox neighbor smallest forgiving composure unsafe honestly
@@ -5513,94 +4934,94 @@ polishing unchanged survives genuinely scrolling restraint knuckling greatness g
 surprises summarize restores overhaul exposes underneath disappears vanished revisit
 refusing panicked erased defending technically satisfying practicing implements
 forgetting collapsing predictable scoreboard publishes polishing unchanged survives
-""".split())
+&#34;&#34;&#34;.split())
 
 CATS = {
-    "theology": {"ephesians","romans","scripture","abide","repent","forgive","righteous","steward","devotion","disciples","justified","caesar","stubble","confess","believer","confession","abiding","forgiving","repentance","testament","covenant","atonement","transfiguration","messiah","redemption","liturgy","apologetics","prophetic","exhortation","propitiation","transgression","unrighteous","predestination","eschatology","hermeneutics","ecclesiastical","sanctify","theological","theology","spiritually","humility","compassion","generosity","endurance","willpower"},
-    "pkm": {"markdown","playbook","scribble","spaced","inbox","synthesis","progressive","normalization","deviance","interstitial","serendipitous","zettelkasten","backlinks","backlink","crdt","graphview","summarization","associative","taxonomies","curation","workflows","memorizing","redirect","rewrite","lifecycle","minimalism","experiential","summarize","forgetting"},
-    "tech": {"markdown","repo","analytics","webhook","configuration","canonical","fingerprint","headless","minification","repository","middleware","repeatable","spreadsheet","bundler","minify","stylesheet","subdomain","serverless","transpiler","preprocessor","fingerprinting","webhooks","canonicalization","redirect","implements","reversible","interconnectivity"},
+    &#34;theology&#34;: {&#34;ephesians&#34;,&#34;romans&#34;,&#34;scripture&#34;,&#34;abide&#34;,&#34;repent&#34;,&#34;forgive&#34;,&#34;righteous&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;disciples&#34;,&#34;justified&#34;,&#34;caesar&#34;,&#34;stubble&#34;,&#34;confess&#34;,&#34;believer&#34;,&#34;confession&#34;,&#34;abiding&#34;,&#34;forgiving&#34;,&#34;repentance&#34;,&#34;testament&#34;,&#34;covenant&#34;,&#34;atonement&#34;,&#34;transfiguration&#34;,&#34;messiah&#34;,&#34;redemption&#34;,&#34;liturgy&#34;,&#34;apologetics&#34;,&#34;prophetic&#34;,&#34;exhortation&#34;,&#34;propitiation&#34;,&#34;transgression&#34;,&#34;unrighteous&#34;,&#34;predestination&#34;,&#34;eschatology&#34;,&#34;hermeneutics&#34;,&#34;ecclesiastical&#34;,&#34;sanctify&#34;,&#34;theological&#34;,&#34;theology&#34;,&#34;spiritually&#34;,&#34;humility&#34;,&#34;compassion&#34;,&#34;generosity&#34;,&#34;endurance&#34;,&#34;willpower&#34;},
+    &#34;pkm&#34;: {&#34;markdown&#34;,&#34;playbook&#34;,&#34;scribble&#34;,&#34;spaced&#34;,&#34;inbox&#34;,&#34;synthesis&#34;,&#34;progressive&#34;,&#34;normalization&#34;,&#34;deviance&#34;,&#34;interstitial&#34;,&#34;serendipitous&#34;,&#34;zettelkasten&#34;,&#34;backlinks&#34;,&#34;backlink&#34;,&#34;crdt&#34;,&#34;graphview&#34;,&#34;summarization&#34;,&#34;associative&#34;,&#34;taxonomies&#34;,&#34;curation&#34;,&#34;workflows&#34;,&#34;memorizing&#34;,&#34;redirect&#34;,&#34;rewrite&#34;,&#34;lifecycle&#34;,&#34;minimalism&#34;,&#34;experiential&#34;,&#34;summarize&#34;,&#34;forgetting&#34;},
+    &#34;tech&#34;: {&#34;markdown&#34;,&#34;repo&#34;,&#34;analytics&#34;,&#34;webhook&#34;,&#34;configuration&#34;,&#34;canonical&#34;,&#34;fingerprint&#34;,&#34;headless&#34;,&#34;minification&#34;,&#34;repository&#34;,&#34;middleware&#34;,&#34;repeatable&#34;,&#34;spreadsheet&#34;,&#34;bundler&#34;,&#34;minify&#34;,&#34;stylesheet&#34;,&#34;subdomain&#34;,&#34;serverless&#34;,&#34;transpiler&#34;,&#34;preprocessor&#34;,&#34;fingerprinting&#34;,&#34;webhooks&#34;,&#34;canonicalization&#34;,&#34;redirect&#34;,&#34;implements&#34;,&#34;reversible&#34;,&#34;interconnectivity&#34;},
 }
 
-VOWELS="aeiouy"
+VOWELS=&#34;aeiouy&#34;
 def syllables(w):
     w=w.lower(); c=prev=0
     for ch in w:
         v=ch in VOWELS
         if v and not prev: c+=1
         prev=v
-    if w.endswith('e') and c>1 and not w.endswith('le'): c-=1
-    if w.endswith('y') and c>1 and len(w)>3: c-=1
+    if w.endswith(&#39;e&#39;) and c&gt;1 and not w.endswith(&#39;le&#39;): c-=1
+    if w.endswith(&#39;y&#39;) and c&gt;1 and len(w)&gt;3: c-=1
     return max(1,c)
 
 def categorize(w):
     for cat, words in CATS.items():
         if w in words: return cat
-    return "general"
+    return &#34;general&#34;
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
 def strip_markup(text):
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text); text = HTML.sub(" ", text); text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text); text = HTML.sub(&#34; &#34;, text); text = CODE.sub(&#34; &#34;, text)
     return text
 
 def prose_blob(path, meta, body):
     chunks = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             for item in meta.get(key) or []:
                 if isinstance(item, str) and item.strip():
-                    if key == "aliases" and item.startswith("/"): continue
+                    if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;): continue
                     chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip(): chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip(): chunks.append(reason)
         if body.strip(): chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
         if body.strip(): chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq = Counter(); blog_uses = Counter(); notes_uses = Counter()
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md": continue
-    text = path.read_text(encoding="utf-8"); m = FRONTMATTER.match(text)
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;: continue
+    text = path.read_text(encoding=&#34;utf-8&#34;); m = FRONTMATTER.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"): continue
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;): continue
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
-    is_blog = path.parent.name == "blog"
-    for w in re.findall(r"[a-z]{4,}", blob):
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
+    is_blog = path.parent.name == &#34;blog&#34;
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         (blog_uses if is_blog else notes_uses)[w] += 1
 
 items = []
 for w, c in freq.items():
-    if c < 3 or w in TOP50 or w in PLAIN or w in PROPER: continue
+    if c &lt; 3 or w in TOP50 or w in PLAIN or w in PROPER: continue
     rank = common.get(w, 10001)
     syl = syllables(w)
     absent = w not in common
     if absent:
-        if syl < 3 and len(w) < 9: continue
+        if syl &lt; 3 and len(w) &lt; 9: continue
     else:
-        if syl < 3: continue
-        if rank <= 8500 and syl < 4: continue
-        if rank <= 4000: continue
+        if syl &lt; 3: continue
+        if rank &lt;= 8500 and syl &lt; 4: continue
+        if rank &lt;= 4000: continue
     rarity = 5000 if absent else max(0, rank - 7500)
     difficulty = syl * 1200 + rarity + max(0, len(w)-8)*200
     score = difficulty * (1 + math.log2(c))
@@ -5610,27 +5031,26 @@ items.sort(reverse=True)
 
 # output as TSV for grouping
 rows = items[:100]
-theology = [r for r in rows if r[5]=='theology']
-pkm = [r for r in rows if r[5]=='pkm']
-tech = [r for r in rows if r[5]=='tech']
-general = [r for r in rows if r[5]=='general']
+theology = [r for r in rows if r[5]==&#39;theology&#39;]
+pkm = [r for r in rows if r[5]==&#39;pkm&#39;]
+tech = [r for r in rows if r[5]==&#39;tech&#39;]
+general = [r for r in rows if r[5]==&#39;general&#39;]
 
 def fmt_group(name, group, start):
-    print(f"\n### {name} ({len(group)})")
+    print(f&#34;\n### {name} ({len(group)})&#34;)
     for i, (_, w, c, syl, rank, lane, b, n) in enumerate(group, start):
-        rank_s = f"#{rank}" if rank <= 10000 else "rare"
-        where = f"blog×{b}, notes×{n}" if b and n else (f"blog×{b}" if b else f"notes×{n}")
-        print(f"{i}. **{w}** — {c}×, {syl} syl, {rank_s} ({where})")
+        rank_s = f&#34;#{rank}&#34; if rank &lt;= 10000 else &#34;rare&#34;
+        where = f&#34;blog×{b}, notes×{n}&#34; if b and n else (f&#34;blog×{b}&#34; if b else f&#34;notes×{n}&#34;)
+        print(f&#34;{i}. **{w}** — {c}×, {syl} syl, {rank_s} ({where})&#34;)
 
-print("Ranks 51–150 (excluding prior top 50)")
-print(f"Total in batch: {len(rows)}")
+print(&#34;Ranks 51–150 (excluding prior top 50)&#34;)
+print(f&#34;Total in batch: {len(rows)}&#34;)
 idx = 51
-for name, group in [("Theology", theology), ("PKM", pkm), ("Tech", tech), ("General", general)]:
+for name, group in [(&#34;Theology&#34;, theology), (&#34;PKM&#34;, pkm), (&#34;Tech&#34;, tech), (&#34;General&#34;, general)]:
     if group:
         fmt_group(name, group, idx)
         idx += len(group)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -5848,76 +5268,9 @@ Total in batch: 100
 86. **untouched** — 6×, 3 syl, rare (blog×1, notes×5)
 87. **deadlines** — 6×, 3 syl, rare (blog×1, notes×5)
 88. **calculating** — 4×, 4 syl, rare (notes×4)
-89. **uninterrupted** — 3×, 5 syl, rare (notes×3)
-90. **evaluates** — 4×, 4 syl, rare (notes×4)
-91. **competence** — 5×, 3 syl, rare (notes×5)
-92. **repayment** — 5×, 3 syl, rare (notes×5)
-93. **milestone** — 5×, 3 syl, rare (notes×5)
-94. **imperfect** — 5×, 3 syl, rare (notes×5)
-95. **foresight** — 5×, 3 syl, rare (notes×5)
-96. **conversation** — 17×, 4 syl, #4932 (blog×6, notes×11)
-97. **elimination** — 5×, 5 syl, #9436 (notes×5)
-98. **preparedness** — 3×, 4 syl, rare (notes×3)
-99. **resilience** — 4×, 3 syl, rare (notes×4)
-100. **trainable** — 4×, 3 syl, rare (notes×4)
-101. **spectacle** — 4×, 3 syl, rare (notes×4)
-102. **interrupt** — 4×, 3 syl, rare (notes×4)
-103. **instagram** — 4×, 3 syl, rare (blog×2, notes×2)
-104. **improvise** — 4×, 3 syl, rare (blog×1, notes×3)
-105. **bitwarden** — 4×, 3 syl, rare (blog×4)
-106. **beatitude** — 4×, 3 syl, rare (notes×4)
-107. **polished** — 13×, 3 syl, #9513 (blog×3, notes×10)
-108. **rumination** — 3×, 4 syl, rare (notes×3)
-109. **persecuted** — 3×, 4 syl, rare (notes×3)
-110. **negotiable** — 3×, 4 syl, rare (notes×3)
-111. **evacuation** — 3×, 4 syl, rare (notes×3)
-112. **competitor** — 3×, 4 syl, rare (blog×3)
-113. **adrenaline** — 3×, 4 syl, rare (notes×3)
-114. **faithfully** — 5×, 2 syl, rare (notes×5)
-115. **downstream** — 5×, 2 syl, rare (notes×5)
-116. **unmerited** — 3×, 4 syl, rare (notes×3)
-117. **semifinal** — 3×, 4 syl, rare (blog×2, notes×1)
-118. **ostapenko** — 3×, 4 syl, rare (blog×3)
-119. **marinades** — 3×, 4 syl, rare (blog×3)
-120. **avoidable** — 3×, 4 syl, rare (notes×3)
-121. **sidebar** — 4×, 3 syl, rare (blog×4)
-122. **reverted** — 4×, 3 syl, rare (notes×4)
-123. **reversed** — 4×, 3 syl, rare (notes×4)
-124. **redesign** — 4×, 3 syl, rare (blog×1, notes×3)
-125. **readable** — 4×, 3 syl, rare (blog×2, notes×2)
-126. **mistaken** — 4×, 3 syl, rare (notes×4)
-127. **linkedin** — 4×, 3 syl, rare (blog×1, notes×3)
-128. **ignoring** — 4×, 3 syl, rare (blog×1, notes×3)
-129. **hovering** — 4×, 3 syl, rare (notes×4)
-130. **hovered** — 4×, 3 syl, rare (notes×4)
-131. **fragile** — 4×, 3 syl, rare (notes×4)
-132. **endanger** — 4×, 3 syl, rare (notes×4)
-133. **emotion** — 4×, 3 syl, rare (notes×4)
-134. **emailed** — 4×, 3 syl, rare (notes×4)
-135. **deserves** — 4×, 3 syl, rare (notes×4)
-136. **everywhere** — 15×, 4 syl, #5681 (blog×9, notes×6)
-137. **filipino** — 3×, 4 syl, rare (blog×3)
-138. **elevator** — 3×, 4 syl, rare (notes×3)
-139. **sketchpad** — 5×, 2 syl, rare (notes×5)
-140. **shorthand** — 5×, 2 syl, rare (notes×5)
-141. **pointless** — 5×, 2 syl, rare (notes×5)
-142. **fragments** — 5×, 2 syl, rare (notes×5)
-143. **productivity** — 11×, 4 syl, #4217 (blog×1, notes×10)
-144. **frictionless** — 3×, 3 syl, rare (notes×3)
-145. **avoiding** — 8×, 3 syl, #9863 (blog×1, notes×7)
-146. **sentences** — 10×, 3 syl, #9211 (blog×1, notes×9)
-147. **transitions** — 3×, 3 syl, rare (notes×3)
-148. **frustrating** — 3×, 3 syl, rare (blog×1, notes×2)
-149. **distraction** — 3×, 3 syl, rare (notes×3)
-150. **corinthians** — 3×, 3 syl, rare (notes×3)
-
+89. **uninterru
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5927,29 +5280,30 @@ The bottom of the list still contains noise such as Instagram, Bitwarden, Linked
 
 Several promising words may have been excluded due to syllable count filters. Examples include markdown, steward, caesar, confess, playbook, and scribble.
 
-A refined query will return a clean numbered list of 51–150 words. It will exclude the top 50, require at least three uses or rank above 9000, and prioritize rare but meaningful terms.</details></think>
+A refined query will return a clean numbered list of 51–150 words. It will exclude the top 50, require at least three uses or rank above 9000, and prioritize rare but meaningful terms.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re, math
 from collections import Counter
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-CONTENT = ROOT / "content/english"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-MD_LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
-HTML = re.compile(r"<[^>]+>")
-CODE = re.compile(r"`[^`]+`")
-CONTRACTIONS = {"what's":"what","isn't":"is","don't":"do","doesn't":"does","didn't":"did","can't":"can","won't":"will","wasn't":"was","it's":"it","that's":"that","there's":"there","you're":"you","they're":"they","we're":"we","i'm":"i","i've":"have","you've":"have","we've":"have","they've":"have","i'll":"will","you'll":"will","let's":"let","today's":"today","christ's":"christ","god's":"god","wouldn't":"would","couldn't":"could","shouldn't":"should","hasn't":"has","haven't":"have","aren't":"are"}
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+MD_LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+HTML = re.compile(r&#34;&lt;[^&gt;]+&gt;&#34;)
+CODE = re.compile(r&#34;`[^`]+`&#34;)
+CONTRACTIONS = {&#34;what&#39;s&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,&#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;}
 
-TOP50 = set("""
+TOP50 = set(&#34;&#34;&#34;
 justification sanctification obedience faithfulness gentleness fellowship salvation
 righteousness discipleship forgiveness galatians peacemakers blameless stewardship
 commandment holiness beatitudes peacemaking persecutors believers glorify merciful
@@ -5957,92 +5311,92 @@ parable deploy rollback evergreen retainer whiteboard fallacy fleeting distill h
 repetition frontmatter wikilinks taxonomy shortcodes contradicts serendipity metadata
 irreversible investigation accountability responsibility sustainable reconciliation
 adaptability reversibility escalation retaliation quarterfinals semifinals
-""".split())
+&#34;&#34;&#34;.split())
 
 CATS = {
-    "theology": {"ephesians","romans","scripture","abide","repent","forgive","righteous","steward","devotion","disciples","justified","caesar","stubble","confess","believer","confession","abiding","forgiving","repentance","testament","covenant","atonement","transfiguration","messiah","redemption","liturgy","apologetics","prophetic","exhortation","propitiation","transgression","unrighteous","predestination","eschatology","hermeneutics","ecclesiastical","sanctify","theological","theology","spiritually","humility","compassion","generosity","endurance","willpower","beatitude","corinthians","unmerited","persecuted","faithfully","servant","sermon","righteousness"},
-    "pkm": {"markdown","playbook","scribble","spaced","inbox","synthesis","progressive","normalization","deviance","interstitial","serendipitous","zettelkasten","backlinks","backlink","crdt","graphview","summarization","associative","taxonomies","curation","workflows","memorizing","redirect","rewrite","lifecycle","minimalism","experiential","summarize","forgetting","hoarding","evergreen","fleeting"},
-    "tech": {"markdown","repo","analytics","webhook","configuration","canonical","fingerprint","headless","minification","repository","middleware","repeatable","spreadsheet","bundler","minify","stylesheet","subdomain","serverless","transpiler","preprocessor","fingerprinting","webhooks","canonicalization","redirect","implements","reversible","interconnectivity","downstream"},
-    "brand": {"wtatennis","facebook","hugoplate","wimbledon","obsidian","tiddlywiki","jorap","github","cloudflare","youtube","shopee","drupal","wordpress","hugo","tailwind","spotify","perplexity","manila","pareto","bitwarden","instagram","linkedin","ostapenko","rolandgarros","guadalajara","filipina","filipino","marinades","worcestershire","vinegar","adobo","marinade","barista","sandwiches","earphones","rechargeable","rechargeables","knuckling","burstiness"},
+    &#34;theology&#34;: {&#34;ephesians&#34;,&#34;romans&#34;,&#34;scripture&#34;,&#34;abide&#34;,&#34;repent&#34;,&#34;forgive&#34;,&#34;righteous&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;disciples&#34;,&#34;justified&#34;,&#34;caesar&#34;,&#34;stubble&#34;,&#34;confess&#34;,&#34;believer&#34;,&#34;confession&#34;,&#34;abiding&#34;,&#34;forgiving&#34;,&#34;repentance&#34;,&#34;testament&#34;,&#34;covenant&#34;,&#34;atonement&#34;,&#34;transfiguration&#34;,&#34;messiah&#34;,&#34;redemption&#34;,&#34;liturgy&#34;,&#34;apologetics&#34;,&#34;prophetic&#34;,&#34;exhortation&#34;,&#34;propitiation&#34;,&#34;transgression&#34;,&#34;unrighteous&#34;,&#34;predestination&#34;,&#34;eschatology&#34;,&#34;hermeneutics&#34;,&#34;ecclesiastical&#34;,&#34;sanctify&#34;,&#34;theological&#34;,&#34;theology&#34;,&#34;spiritually&#34;,&#34;humility&#34;,&#34;compassion&#34;,&#34;generosity&#34;,&#34;endurance&#34;,&#34;willpower&#34;,&#34;beatitude&#34;,&#34;corinthians&#34;,&#34;unmerited&#34;,&#34;persecuted&#34;,&#34;faithfully&#34;,&#34;servant&#34;,&#34;sermon&#34;,&#34;righteousness&#34;},
+    &#34;pkm&#34;: {&#34;markdown&#34;,&#34;playbook&#34;,&#34;scribble&#34;,&#34;spaced&#34;,&#34;inbox&#34;,&#34;synthesis&#34;,&#34;progressive&#34;,&#34;normalization&#34;,&#34;deviance&#34;,&#34;interstitial&#34;,&#34;serendipitous&#34;,&#34;zettelkasten&#34;,&#34;backlinks&#34;,&#34;backlink&#34;,&#34;crdt&#34;,&#34;graphview&#34;,&#34;summarization&#34;,&#34;associative&#34;,&#34;taxonomies&#34;,&#34;curation&#34;,&#34;workflows&#34;,&#34;memorizing&#34;,&#34;redirect&#34;,&#34;rewrite&#34;,&#34;lifecycle&#34;,&#34;minimalism&#34;,&#34;experiential&#34;,&#34;summarize&#34;,&#34;forgetting&#34;,&#34;hoarding&#34;,&#34;evergreen&#34;,&#34;fleeting&#34;},
+    &#34;tech&#34;: {&#34;markdown&#34;,&#34;repo&#34;,&#34;analytics&#34;,&#34;webhook&#34;,&#34;configuration&#34;,&#34;canonical&#34;,&#34;fingerprint&#34;,&#34;headless&#34;,&#34;minification&#34;,&#34;repository&#34;,&#34;middleware&#34;,&#34;repeatable&#34;,&#34;spreadsheet&#34;,&#34;bundler&#34;,&#34;minify&#34;,&#34;stylesheet&#34;,&#34;subdomain&#34;,&#34;serverless&#34;,&#34;transpiler&#34;,&#34;preprocessor&#34;,&#34;fingerprinting&#34;,&#34;webhooks&#34;,&#34;canonicalization&#34;,&#34;redirect&#34;,&#34;implements&#34;,&#34;reversible&#34;,&#34;interconnectivity&#34;,&#34;downstream&#34;},
+    &#34;brand&#34;: {&#34;wtatennis&#34;,&#34;facebook&#34;,&#34;hugoplate&#34;,&#34;wimbledon&#34;,&#34;obsidian&#34;,&#34;tiddlywiki&#34;,&#34;jorap&#34;,&#34;github&#34;,&#34;cloudflare&#34;,&#34;youtube&#34;,&#34;shopee&#34;,&#34;drupal&#34;,&#34;wordpress&#34;,&#34;hugo&#34;,&#34;tailwind&#34;,&#34;spotify&#34;,&#34;perplexity&#34;,&#34;manila&#34;,&#34;pareto&#34;,&#34;bitwarden&#34;,&#34;instagram&#34;,&#34;linkedin&#34;,&#34;ostapenko&#34;,&#34;rolandgarros&#34;,&#34;guadalajara&#34;,&#34;filipina&#34;,&#34;filipino&#34;,&#34;marinades&#34;,&#34;worcestershire&#34;,&#34;vinegar&#34;,&#34;adobo&#34;,&#34;marinade&#34;,&#34;barista&#34;,&#34;sandwiches&#34;,&#34;earphones&#34;,&#34;rechargeable&#34;,&#34;rechargeables&#34;,&#34;knuckling&#34;,&#34;burstiness&#34;},
 }
 
-VOWELS="aeiouy"
+VOWELS=&#34;aeiouy&#34;
 def syllables(w):
     w=w.lower(); c=prev=0
     for ch in w:
         v=ch in VOWELS
         if v and not prev: c+=1
         prev=v
-    if w.endswith('e') and c>1 and not w.endswith('le'): c-=1
-    if w.endswith('y') and c>1 and len(w)>3: c-=1
+    if w.endswith(&#39;e&#39;) and c&gt;1 and not w.endswith(&#39;le&#39;): c-=1
+    if w.endswith(&#39;y&#39;) and c&gt;1 and len(w)&gt;3: c-=1
     return max(1,c)
 
 def categorize(w):
-    for cat in ("brand",):
-        if w in CATS[cat]: return "brand"
-    for cat in ("theology","pkm","tech"):
+    for cat in (&#34;brand&#34;,):
+        if w in CATS[cat]: return &#34;brand&#34;
+    for cat in (&#34;theology&#34;,&#34;pkm&#34;,&#34;tech&#34;):
         if w in CATS[cat]: return cat
-    return "general"
+    return &#34;general&#34;
 
 common = {l.strip().lower(): i for i, l in enumerate(COMMON_PATH.read_text().splitlines(), 1) if l.strip()}
 
 def strip_markup(text):
     text = WIKILINK.sub(lambda m: m.group(2) or m.group(1), text)
-    text = MD_LINK.sub(r"\1", text); text = HTML.sub(" ", text); text = CODE.sub(" ", text)
+    text = MD_LINK.sub(r&#34;\1&#34;, text); text = HTML.sub(&#34; &#34;, text); text = CODE.sub(&#34; &#34;, text)
     return text
 
 def prose_blob(path, meta, body):
     chunks = []
-    notes = path.parent.name == "notes"
+    notes = path.parent.name == &#34;notes&#34;
     if notes:
-        for key in ("title", "meta_title", "description", "key_concept"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
-        for key in ("examples", "aliases"):
+        for key in (&#34;examples&#34;, &#34;aliases&#34;):
             for item in meta.get(key) or []:
                 if isinstance(item, str) and item.strip():
-                    if key == "aliases" and item.startswith("/"): continue
+                    if key == &#34;aliases&#34; and item.startswith(&#34;/&#34;): continue
                     chunks.append(item)
-        for card in meta.get("cards") or []:
+        for card in meta.get(&#34;cards&#34;) or []:
             if isinstance(card, dict):
-                for side in ("front", "back"):
+                for side in (&#34;front&#34;, &#34;back&#34;):
                     val = card.get(side)
                     if isinstance(val, str) and val.strip(): chunks.append(val)
-        for row in meta.get("relationships") or []:
+        for row in meta.get(&#34;relationships&#34;) or []:
             if isinstance(row, dict):
-                reason = row.get("reason")
+                reason = row.get(&#34;reason&#34;)
                 if isinstance(reason, str) and reason.strip(): chunks.append(reason)
         if body.strip(): chunks.append(body)
     else:
-        for key in ("title", "meta_title", "description", "summary"):
+        for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;summary&#34;):
             val = meta.get(key)
             if isinstance(val, str) and val.strip(): chunks.append(val)
         if body.strip(): chunks.append(body)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 freq = Counter(); blog_uses = Counter(); notes_uses = Counter()
-for path in sorted(CONTENT.rglob("*.md")):
-    if path.parent.name not in ("blog", "notes") or path.name == "_index.md": continue
-    text = path.read_text(encoding="utf-8"); m = FRONTMATTER.match(text)
+for path in sorted(CONTENT.rglob(&#34;*.md&#34;)):
+    if path.parent.name not in (&#34;blog&#34;, &#34;notes&#34;) or path.name == &#34;_index.md&#34;: continue
+    text = path.read_text(encoding=&#34;utf-8&#34;); m = FRONTMATTER.match(text)
     if not m: continue
     meta = yaml.safe_load(m.group(1)) or {}
-    if path.parent.name == "notes" and meta.get("note_kind", "note") in ("meta", "index"): continue
+    if path.parent.name == &#34;notes&#34; and meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;): continue
     body = text[m.end():].strip()
     blob = strip_markup(prose_blob(path, meta, body)).lower()
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        blob = re.sub(rf"\b{re.escape(src)}\b", dst, blob)
-    is_blog = path.parent.name == "blog"
-    for w in re.findall(r"[a-z]{4,}", blob):
+        blob = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
+    is_blog = path.parent.name == &#34;blog&#34;
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w] += 1
         (blog_uses if is_blog else notes_uses)[w] += 1
 
 items = []
 for w, c in freq.items():
-    if c < 4 or w in TOP50: continue
+    if c &lt; 4 or w in TOP50: continue
     rank = common.get(w, 10001)
     syl = syllables(w)
     rarity = 5000 if w not in common else max(0, rank - 7000)
-    if w in common and rank <= 7000 and syl <= 2: continue
+    if w in common and rank &lt;= 7000 and syl &lt;= 2: continue
     difficulty = syl * 1200 + rarity + max(0, len(w)-8)*200
     score = difficulty * (1 + math.log2(c))
     items.append((score, w, c, syl, rank, categorize(w), blog_uses[w], notes_uses[w]))
@@ -6054,17 +5408,16 @@ full_ranked = [(i+1, *x) for i, x in enumerate(items)]
 next100 = []
 for rank, score, w, c, syl, r, lane, b, n in full_ranked:
     if w in TOP50: continue
-    if lane == "brand": continue
+    if lane == &#34;brand&#34;: continue
     next100.append((len(next100)+51, w, c, syl, r, lane, b, n))
-    if len(next100) >= 100: break
+    if len(next100) &gt;= 100: break
 
 for row in next100:
     i, w, c, syl, rank, lane, b, n = row
-    rank_s = f"#{rank}" if rank <= 10000 else "rare"
-    where = f"blog×{b}, notes×{n}" if b and n else (f"blog×{b}" if b else f"notes×{n}")
-    print(f"{i:3d}|{w}|{c}|{syl}|{rank_s}|{lane}|{where}")
+    rank_s = f&#34;#{rank}&#34; if rank &lt;= 10000 else &#34;rare&#34;
+    where = f&#34;blog×{b}, notes×{n}&#34; if b and n else (f&#34;blog×{b}&#34; if b else f&#34;notes×{n}&#34;)
+    print(f&#34;{i:3d}|{w}|{c}|{syl}|{rank_s}|{lane}|{where}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -6247,68 +5600,9 @@ PYEOF
  94|reusable|10|3|rare|general|blog×10
  95|snapped|16|2|rare|general|notes×16
  96|skipped|16|2|rare|general|blog×1, notes×15
- 97|revert|16|2|rare|general|blog×1, notes×15
- 98|caesar|16|2|rare|theology|notes×16
- 99|rehearsed|9|3|rare|general|notes×9
-100|publishes|9|3|rare|general|blog×7, notes×2
-101|polishing|9|3|rare|general|notes×9
-102|scripture|14|2|rare|theology|notes×14
-103|stubble|15|2|rare|theology|notes×15
-104|posture|15|2|rare|general|blog×2, notes×13
-105|landed|15|2|rare|general|blog×4, notes×11
-106|forgive|15|2|rare|theology|notes×15
-107|fixing|15|2|rare|general|blog×3, notes×12
-108|survives|9|3|rare|general|blog×1, notes×8
-109|analytics|6|4|rare|tech|blog×2, notes×4
-110|playbook|14|2|rare|pkm|blog×1, notes×13
-111|ninety|14|2|rare|general|blog×4, notes×10
-112|guessing|14|2|rare|general|blog×5, notes×9
-113|drawer|14|2|rare|general|blog×8, notes×6
-114|abide|14|2|rare|theology|notes×14
-115|semifinalist|4|5|rare|general|blog×4
-116|slice|26|1|rare|general|blog×3, notes×23
-117|unchanged|8|3|rare|general|blog×2, notes×6
-118|justified|8|3|rare|theology|notes×8
-119|genuinely|8|3|rare|general|blog×7, notes×1
-120|typo|13|2|rare|general|blog×7, notes×6
-121|rewrite|13|2|rare|pkm|blog×2, notes×11
-122|confess|13|2|rare|theology|notes×13
-123|bedtime|13|2|rare|general|notes×13
-124|messy|24|1|rare|general|blog×1, notes×23
-125|versatility|5|4|rare|general|notes×5
-126|situational|5|4|rare|general|notes×5
-127|respectable|5|4|rare|general|notes×5
-128|abiding|8|3|rare|theology|notes×8
-129|hoard|23|1|rare|general|notes×23
-130|inbox|96|2|#9080|pkm|blog×3, notes×93
-131|spaced|12|2|rare|pkm|notes×12
-132|recap|12|2|rare|general|notes×12
-133|outward|12|2|rare|general|notes×12
-134|merged|12|2|rare|general|notes×12
-135|gladness|12|2|rare|general|notes×12
-136|burned|12|2|rare|general|blog×3, notes×9
-137|worthless|11|2|rare|general|notes×11
-138|reconciled|5|4|rare|general|notes×5
-139|memorizing|5|4|rare|pkm|blog×1, notes×4
-140|everything|44|4|#878|general|blog×26, notes×18
-141|forgiving|7|3|rare|theology|blog×1, notes×6
-142|composure|7|3|rare|general|notes×7
-143|unsafe|11|2|rare|general|notes×11
-144|servant|11|2|rare|theology|notes×11
-145|misses|11|2|rare|general|notes×11
-146|honestly|11|2|rare|general|blog×8, notes×3
-147|reps|20|1|rare|general|blog×3, notes×17
-148|quietly|20|1|rare|general|blog×17, notes×3
-149|workflows|10|2|rare|pkm|notes×10
-150|redirect|7|3|rare|pkm|blog×1, notes×6
-
+ 97|revert
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6318,7 +5612,8 @@ The list now runs from 51 to 150. Many entries remain plain words absent from th
 
 The response will group entries by lane—Theology, PKM, Tech, and General—and flag which words are genuinely uncommon versus plain terms missing from the frequency list. A brief methodology note will accompany the full numbered list.
 
-Genuinely uncommon words beyond the top 50 are being flagged for voice review. Theology candidates include steward, devotion, and justified. PKM candidates include markdown, taxonomies, and workflows. Tech candidates include repo and analytics. General candidates include closeness, borrowed, and compounding.</details></think>
+Genuinely uncommon words beyond the top 50 are being flagged for voice review. Theology candidates include steward, devotion, and justified. PKM candidates include markdown, taxonomies, and workflows. Tech candidates include repo and analytics. General candidates include closeness, borrowed, and compounding.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6445,7 +5740,8 @@ rumination
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants me to avoid using the words "interstitial" and "rumination".</details></think>
+The user wants me to avoid using the words "interstitial" and "rumination".
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6454,10 +5750,8 @@ Checking where those words appear and adding them to the voice lint list.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6564,24 +5858,540 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 
-</details>
-</tool-use>
+Parameters:
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "\\b(interstitial|rumination)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "\\b(interstitial|rumination)\\b",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/daily-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/convert-pain-into-learning.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 6
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding "interstitial" and "rumination" to voice-words.yaml as hard bans. Updating daily-notes.md and convert-pain-into-learning.md to remove them.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/daily-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/convert-pain-into-learning.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding interstitial and rumination to voice-words.yaml. Replacing interstitial with plain language in daily-notes.md.
+
+Also replacing rumination with plain language in convert-pain-into-learning.md. Considering plain alternatives like "between-task jot-downs" for the daily-notes tag and alias.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,html,json,yaml,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Interstitial"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Interstitial",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "./content/english/notes/daily-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-19_04-46-28Z-notes-formatting-for-jorap-voice.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-06-19_04-23-36Z-evergreen-notes-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-19_03-46-51Z-note-graph-functionality-issue.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-19_03-23-09Z-blog-and-notes-structure-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-19_03-00-56Z-post-draft-topics-for-knowledge-management.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "./.specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_02-55-39Z-improving-memorization-of-definitions.md"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 27
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The alias "Interstitial Journaling" contains the forbidden word interstitial. It redirects from an old note name.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "Interstitial|interstitial|rumination"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "Interstitial|interstitial|rumination",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/daily-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/convert-pain-into-learning.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,json,toml,yaml,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "interstitial-journaling"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "interstitial-journaling",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_02-55-39Z-notes-review-and-definition-updates.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-19_04-23-36Z-evergreen-notes-update.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-19_03-23-09Z-blog-and-notes-structure-consistency.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-20_03-20-28Z-notes-review-and-relationship-analysis.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-19_03-00-56Z-post-draft-topics-for-knowledge-management.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-19_04-46-28Z-notes-formatting-for-jorap-voice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_05-19-43Z-notes-image-asset.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_03-46-51Z-note-graph-functionality-issue.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": ".specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link-error.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_03-07-38Z-notes-section-with-obsidian-functionality.md"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 55
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "aliases:.*\"/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "aliases:.*\"/",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/client-site-pass-off.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/progressive-layers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/linking-by-meaning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/blameless-after-action-review.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Replacing interstitial references with a notes redirect path.
+
+Updating aliases to use the notes redirect path. Replacing "Interstitial" with "Between Tasks" in tags. Changing "interstitial buffer flushes" to "quick buffer flushes". Replacing "rumination" with "stewing" throughout the pain-to-learning article.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{txt,json,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\b(interstitial|rumination)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\b(interstitial|rumination)\\b",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-19_03-23-09Z-blog-and-notes-structure-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_02-55-39Z-notes-review-and-definition-updates.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-20_03-20-28Z-notes-review-and-relationship-analysis.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": ".specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-19_04-46-28Z-notes-formatting-for-jorap-voice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link-error.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_03-00-56Z-post-draft-topics-for-knowledge-management.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/daily-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_05-19-43Z-notes-image-asset.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_03-46-51Z-note-graph-functionality-issue.md"
+    },
+    {
+      "matchCount": 38,
+      "uri": ".specstory/history/2026-07-03_00-01-14Z-difficult-words-for-blog.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/convert-pain-into-learning.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-24_11-34-53Z-best-examples-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-19_04-23-36Z-evergreen-notes-update.md"
+    }
+  ],
+  "totalFiles": 20,
+  "totalMatches": 103
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Adding both words to the voice ban list and replacing them in the two notes that use them.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/daily-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/daily-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/convert-pain-into-learning.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/convert-pain-into-learning.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/convert-pain-into-learning.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check &amp;&amp; rg -i &#39;\b(interstitial|rumination)\b&#39; content/</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check && rg -i '\b(interstitial|rumination)\b' content/
+```
+
+```
+Voice lint OK
+content/english/notes/daily-notes.md:aliases: ["Between-Task Journaling", "/notes/interstitial-journaling/"]
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The "interstitial" in the URL alias is intentional for redirect. Lint skips URL aliases starting with "/". The alias path is `/notes/interstitial-journaling/`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Done. Both words are banned and scrubbed from prose.
+
+**`data/voice-words.yaml`** — added to strict `words:` list:
+- `interstitial` → between tasks / buffer flush
+- `rumination` → stewing / replaying without change
+
+**`daily-notes.md`**
+- `interstitial buffer flushes` → `quick buffer flushes`
+- tag `Interstitial` → `Between Tasks`
+- alias `Interstitial Journaling` → `Between-Task Journaling` (kept `/notes/interstitial-journaling/` as a URL redirect only)
+
+**`convert-pain-into-learning.md`**
+- `rumination without change` → `stewing without change` (description + key_concept)
+- example: `stewing on it without change`
+
+`pnpm lint:voice` passes. The only remaining `interstitial` is the redirect path in aliases — not reader-facing prose.

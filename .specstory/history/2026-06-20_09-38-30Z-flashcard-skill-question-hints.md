@@ -17,55 +17,36 @@ I'll read the flashcard skill and its examples so we can add guidance on subtle 
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `.cursor/skills/notes-flashcards/examples.md` |
 | `.cursor/skills/notes-flashcards/SKILL.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The notes-flashcards skill may also need updating.</details></think>
+The notes-flashcards skill may also need updating.
+</details></think>
 
 _**Agent (default)**_
 
@@ -74,32 +55,22 @@ Checking the duplicate skill and reference decks for how subtle hints are used t
 
 _**Agent (default)**_
 
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
 File not found
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -141,27 +112,20 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The flashcard skill already contains subtle hints and open questions. These should be formalized as a documented card design pattern.</details></think>
+The flashcard skill already contains subtle hints and open questions. These should be formalized as a documented card design pattern.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
 
-Directory: **** (4 files)
+Directory: **``** (4 files)
 
 | File |
 |------|
@@ -169,46 +133,33 @@ Directory: **** (4 files)
 | `.cursor/skills/flashcards/examples.md` |
 | `.cursor/skills/flashcards/SKILL.md` |
 | `.cursor/skills/notes-flashcards/SKILL.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-I found useful examples in capture.md.</details></think>
+I found useful examples in capture.md.
+</details></think>
 
 _**Agent (default)**_
 
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
 File not found
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-A file appears in the glob search but cannot be read. It may be excluded by .gitignore or .cursorignore.</details></think>
+A file appears in the glob search but cannot be read. It may be excluded by .gitignore or .cursorignore.
+</details></think>
 
 _**Agent (default)**_
 
@@ -217,121 +168,57 @@ Adding a dedicated section on subtle-hint questions, with examples that separate
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -365,7 +252,8 @@ _**User**_
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Running flashcards on all items. Likely means all notes with flashcards or review: true.</details></think>
+Running flashcards on all items. Likely means all notes with flashcards or review: true.
+</details></think>
 
 _**Agent (default)**_
 
@@ -374,10 +262,8 @@ Auditing all flashcard decks against the skill — finding every review note and
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -484,57 +370,38 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1
 ```
 
 ```
 
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Applying the flashcards skill to all review notes.</details></think>
+Applying the flashcards skill to all review notes.
+</details></think>
 
 _**Agent (default)**_
 
@@ -543,10 +410,8 @@ Reading all review-note decks to audit and update fronts with subtle hint questi
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -653,21 +518,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -774,13 +630,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -792,57 +641,34 @@ Applying the flashcards skill across all decks. Reviewing each card for telegrap
 
 para-method.md contains telegraphy issues. "Which PARA bucket?" names the concept directly.
 
-atomic-notes.md has solid cue-only questions. associative-linking.md needs subtle hint questions. love-your-enemies.md has a yes/no multiple choice fork. signal-vs-noise.md is mostly fine.</details></think>
+atomic-notes.md has solid cue-only questions. associative-linking.md needs subtle hint questions. love-your-enemies.md has a yes/no multiple choice fork. signal-vs-noise.md is mostly fine.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
@@ -855,7 +681,8 @@ Auditing flashcard decks for telegraphy, weak multiple-choice, missing hints, an
 
 Building-a-second-brain.md shows telegraphy in card 3 ("Name the acronym?") and a pure cue in card 5. Note-relationships.md uses telegraphy by asking "Which label?" and "Which typed link?" — these should be rewritten as cue-only without naming the specific label.
 
-Para-method.md telegraphs "Which PARA bucket?" and evergreen-notes.md uses a binary choice in card 2. Rewriting note-relationships as situational cues without naming link types.</details></think>
+Para-method.md telegraphs "Which PARA bucket?" and evergreen-notes.md uses a binary choice in card 2. Rewriting note-relationships as situational cues without naming link types.
+</details></think>
 
 _**Agent (default)**_
 
@@ -864,79 +691,43 @@ Reviewing decks that likely need the most work—telegraphy, multiple-choice fro
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
 
 </details></tool-use>
 
@@ -957,83 +748,48 @@ Note-relationships.md cards are being rewritten to avoid naming taxonomy upfront
 
 For note-relationships.md, the front will ask what relationship is being named rather than which label applies. The back will describe the move itself. The fourth card is next.
 
-evergreen-notes.md is next. Card 1 gains a hint about a fleeting spark recurring in weekly review. Card 2 replaces a binary MC question with a situational prompt about a daily-used tool trending on Twitter. The back suggests revising only when the fact remains true. Card 4 adds a hint about citing the note in a conversation later this year.</details></think>
+evergreen-notes.md is next. Card 1 gains a hint about a fleeting spark recurring in weekly review. Card 2 replaces a binary MC question with a situational prompt about a daily-used tool trending on Twitter. The back suggests revising only when the fact remains true. Card 4 adds a hint about citing the note in a conversation later this year.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
 
 </details></tool-use>
 
@@ -1042,70 +798,41 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Many decks are already in good shape with subtle hint questions.
 
-Several decks need the most work. Building-a-second-brain.md has telegraphy. Note-relationships.md uses vocabulary labels. Para-method.md has multiple-choice on card 1. Evergreen-notes.md has binary cues. Seek-the-kingdom-first.md needs hints on cards 5-6. Love-your-enemies.md needs hints on cards 1 and 3. Take-up-your-cross.md needs hints on cards 1, 3, 4, and 5. Weekly-review-checklists.md has an abstract card 5.</details></think>
+Several decks need the most work. Building-a-second-brain.md has telegraphy. Note-relationships.md uses vocabulary labels. Para-method.md has multiple-choice on card 1. Evergreen-notes.md has binary cues. Seek-the-kingdom-first.md needs hints on cards 5-6. Love-your-enemies.md needs hints on cards 1 and 3. Take-up-your-cross.md needs hints on cards 1, 3, 4, and 5. Weekly-review-checklists.md has an abstract card 5.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
@@ -1154,7 +881,8 @@ Drafted the weekly-review-checklists flashcard. It asks what rhythm locks in whe
 
 Started the trusted-inbox flashcards.
 
-Drafted the trusted-inbox flashcards. One pair asks whether to hold an urgent mid-day item or file it now, answering to wait and preserve flow. Another asks to merge two separate inboxes into one pipe. A third asks whether a cluttered inbox that never empties is still trusted, answering no. Fixed a multiple-choice lint issue by replacing "Hold or file now?" with "Where do I leave it?" to avoid triggering the regex.</details></think>
+Drafted the trusted-inbox flashcards. One pair asks whether to hold an urgent mid-day item or file it now, answering to wait and preserve flow. Another asks to merge two separate inboxes into one pipe. A third asks whether a cluttered inbox that never empties is still trusted, answering no. Fixed a multiple-choice lint issue by replacing "Hold or file now?" with "Where do I leave it?" to avoid triggering the regex.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1163,377 +891,191 @@ Applying flashcard skill updates across all review decks: fixing telegraphy, mul
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
 Invalid arguments:
 path: Required
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Updating the remaining decks with subtle hints for cue-only cards.</details></think>
+Updating the remaining decks with subtle hints for cue-only cards.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1
 ```
 
 ```
 
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter errors:
   content/english/notes/evergreen-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Fleeting spark keeps showing up in weekly review. Promote or…
@@ -1541,87 +1083,50 @@ Flashcard frontmatter errors:
   content/english/notes/weekly-review-checklists.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Travel week - review might get skipped entirely. Shorten or …
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 && npm run lint:voice 2>&1 | tail -20</summary>
-
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 &amp;&amp; npm run lint:voice 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 && npm run lint:voice 2>&1 | tail -20
 ```
 
 ```
 
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter OK
 
-&gt; jorap-com@2.2.0 lint:voice
-&gt; python3 scripts/notes-voice-sanitize.py --check
+> jorap-com@2.2.0 lint:voice
+> python3 scripts/notes-voice-sanitize.py --check
 
 Voice dash lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1631,7 +1136,8 @@ All lints pass. Checking the front and back lengths on forgiveness card 4. The b
 
 Card 4 front and back lengths are acceptable. The-trusted-inbox card 4 is also fine. Building-a-second-brain, note-relationships, para-method, and evergreen-notes were heavily updated.
 
-The remaining 14 decks were updated. Free-grace, atomic-notes, love-god, abide-in-me, love-your-neighbor, and cards.md needed no changes.</details></think>
+The remaining 14 decks were updated. Free-grace, atomic-notes, love-god, abide-in-me, love-your-neighbor, and cards.md needed no changes.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1684,7 +1190,8 @@ Extends Free Grace. Contradicts Humility and Service.
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Scanning the notes garden for redundant text in note relationship lines.</details></think>
+Scanning the notes garden for redundant text in note relationship lines.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1693,10 +1200,8 @@ Searching the notes garden for duplicate or redundant extends/contradicts relati
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1802,21 +1307,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1841,21 +1337,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1885,13 +1372,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1899,14 +1379,13 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Duplicate relationship lines appear throughout the notes.
 
-The redundant lines are likely duplicates created by a script. The qualified version with the "when" clause should be kept. The bare duplicate should be removed.</details></think>
+The redundant lines are likely duplicates created by a script. The qualified version with the "when" clause should be kept. The bare duplicate should be removed.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2013,38 +1492,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/strip-pipe-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/strip-pipe-wikilinks.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
 
 </details></tool-use>
 
@@ -2055,57 +1515,34 @@ Scanning files for duplicate Extends/Contradicts lines. Removing bare duplicates
 
 Found 16 files with duplicate Extends/Contradicts lines. Most pairs include a bare line and a "when" clause. Two files appear to lack the "when" clause entirely.
 
-The scan now covers roughly 30 files total. A Python script will handle deduplication across all of them.</details></think>
+The scan now covers roughly 30 files total. A Python script will handle deduplication across all of them.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
@@ -2122,7 +1559,8 @@ The fix requires two steps. First, remove duplicate bare lines from affected not
 
 The repent-and-believe contradiction points to "Compounding" rather than "There Is No Perfect Solution." This is a different target, not a simple duplicate. I will scan all notes for identical extends and contradicts pairs that appear once qualified and once bare, then remove the redundant bare lines.
 
-The script regex will be updated to strip qualified lines or match lines starting with the extends/contradicts pattern. The cleanup rule is to keep the qualified line and delete the bare duplicate for the same extends and contradicts pair. Eternal-principles shows an exception: both versions include an Index suffix, so the qualified line with its explanatory clause should be kept.</details></think>
+The script regex will be updated to strip qualified lines or match lines starting with the extends/contradicts pattern. The cleanup rule is to keep the qualified line and delete the bare duplicate for the same extends and contradicts pair. Eternal-principles shows an exception: both versions include an Index suffix, so the qualified line with its explanatory clause should be kept.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2131,89 +1569,88 @@ Duplicate relationship lines come from the wire script adding bare lines alongsi
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
 
-NOTES = Path("content/english/notes")
+NOTES = Path(&#34;content/english/notes&#34;)
 REL_LINE = re.compile(
-    r"^(?P<line>(?:Extends|Contradicts|Implements|Alternative to|Index for).+)$",
+    r&#34;^(?P&lt;line&gt;(?:Extends|Contradicts|Implements|Alternative to|Index for).+)$&#34;,
     re.M,
 )
 
-def bare_key(line: str) -> str | None:
-    """Normalize to extends+contradicts+implements core for dedupe."""
+def bare_key(line: str) -&gt; str | None:
+    &#34;&#34;&#34;Normalize to extends+contradicts+implements core for dedupe.&#34;&#34;&#34;
     m = re.match(
-        r"^(?:(?:Extends \[\[[^\]]+\]\]\.\s*)?"
-        r"(?:Contradicts \[\[[^\]]+\]\]\.\s*)?"
-        r"(?:Implements \[\[[^\]]+\]\]\.\s*)?"
-        r"(?:Alternative to \[\[[^\]]+\]\]\.\s*)?"
-        r"(?:Index for [^.]+\.\s*)?)",
+        r&#34;^(?:(?:Extends \[\[[^\]]+\]\]\.\s*)?&#34;
+        r&#34;(?:Contradicts \[\[[^\]]+\]\]\.\s*)?&#34;
+        r&#34;(?:Implements \[\[[^\]]+\]\]\.\s*)?&#34;
+        r&#34;(?:Alternative to \[\[[^\]]+\]\]\.\s*)?&#34;
+        r&#34;(?:Index for [^.]+\.\s*)?)&#34;,
         line,
     )
-    if not line.startswith("Extends "):
+    if not line.startswith(&#34;Extends &#34;):
         return None
     # extract link targets in order
     parts = []
-    for kind in ("Extends", "Contradicts", "Implements", "Alternative to"):
-        mm = re.search(rf"{kind} \[\[([^\]]+)\]\]", line)
+    for kind in (&#34;Extends&#34;, &#34;Contradicts&#34;, &#34;Implements&#34;, &#34;Alternative to&#34;):
+        mm = re.search(rf&#34;{kind} \[\[([^\]]+)\]\]&#34;, line)
         if mm:
-            parts.append(f"{kind}:{mm.group(1)}")
-    idx = re.search(r"Index for ([^.]+)\.", line)
+            parts.append(f&#34;{kind}:{mm.group(1)}&#34;)
+    idx = re.search(r&#34;Index for ([^.]+)\.&#34;, line)
     if idx:
-        parts.append(f"Index:{idx.group(1).strip()}")
-    return "|".join(parts) if parts else None
+        parts.append(f&#34;Index:{idx.group(1).strip()}&#34;)
+    return &#34;|&#34;.join(parts) if parts else None
 
-def is_bare_subset(long: str, short: str) -> bool:
-    """True if short is the unqualified prefix of long (same links)."""
+def is_bare_subset(long: str, short: str) -&gt; bool:
+    &#34;&#34;&#34;True if short is the unqualified prefix of long (same links).&#34;&#34;&#34;
     lk, sk = bare_key(long), bare_key(short)
     if not lk or not sk:
         return False
     if lk != sk:
         return False
-    # short should be only the link sentence(s), long adds ' when ...' or similar
-    return len(long) > len(short) and long.startswith(short.rstrip(".").split(".")[0])
+    # short should be only the link sentence(s), long adds &#39; when ...&#39; or similar
+    return len(long) &gt; len(short) and long.startswith(short.rstrip(&#34;.&#34;).split(&#34;.&#34;)[0])
 
 duplicates = []
-for path in sorted(NOTES.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    end = text.find("\n---", 3)
+    end = text.find(&#34;\n---&#34;, 3)
     body = text[end+4:]
     lines = body.splitlines()
-    rel_lines = [(i, ln.strip()) for i, ln in enumerate(lines) if ln.strip().startswith("Extends ")]
+    rel_lines = [(i, ln.strip()) for i, ln in enumerate(lines) if ln.strip().startswith(&#34;Extends &#34;)]
     for i, (idx1, l1) in enumerate(rel_lines):
         for idx2, l2 in rel_lines[i+1:]:
             k1, k2 = bare_key(l1), bare_key(l2)
             if k1 and k1 == k2:
                 duplicates.append((path.name, l1, l2))
-            elif k1 and k2 and k1.split("|")[:2] == k2.split("|")[:2]:
+            elif k1 and k2 and k1.split(&#34;|&#34;)[:2] == k2.split(&#34;|&#34;)[:2]:
                 # same extends/contradicts, different index suffix
-                if l1.replace(" when ", " X ").count(".") == l2.count("."):
+                if l1.replace(&#34; when &#34;, &#34; X &#34;).count(&#34;.&#34;) == l2.count(&#34;.&#34;):
                     pass
-                duplicates.append((path.name, "PAIR", l1[:80], l2[:80]))
+                duplicates.append((path.name, &#34;PAIR&#34;, l1[:80], l2[:80]))
 
 # Better: find bare duplicate after qualified
-for path in sorted(NOTES.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    end = text.find("\n---", 3)
+    end = text.find(&#34;\n---&#34;, 3)
     body = text[end+4:]
     lines = [ln.strip() for ln in body.splitlines() if ln.strip()]
-    rel = [ln for ln in lines if ln.startswith("Extends ")]
+    rel = [ln for ln in lines if ln.startswith(&#34;Extends &#34;)]
     for i, l1 in enumerate(rel):
         for l2 in rel[i+1:]:
             k1, k2 = bare_key(l1), bare_key(l2)
             if k1 == k2 and l1 != l2:
-                print(f"{path.name}:")
-                print(f"  KEEP? {l1}")
-                print(f"  DUP?  {l2}")
+                print(f&#34;{path.name}:&#34;)
+                print(f&#34;  KEEP? {l1}&#34;)
+                print(f&#34;  DUP?  {l2}&#34;)
                 print()
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re
@@ -2336,110 +1773,21 @@ great-commission.md:
   DUP?  Extends [[Repent and Believe]]. Contradicts [[The Collector's Fallacy]].
 
 heart-righteousness.md:
-  KEEP? Extends [[Judge Not]]. Contradicts [[Let Your Light Shine]] when I polish the outside while nursing anger inside.
-  DUP?  Extends [[Judge Not]]. Contradicts [[Let Your Light Shine]].
-
-humility-and-service.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[Let Your Light Shine]] when visibility becomes the goal instead of the byproduct.
-  DUP?  Extends [[Free Grace]]. Contradicts [[Let Your Light Shine]].
-
-judge-not.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[Humility and Service]] when I critique others to elevate myself.
-  DUP?  Extends [[Free Grace]]. Contradicts [[Humility and Service]].
-
-let-your-light-shine.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[The Garage Concept]] when I hide good works out of false modesty.
-  DUP?  Extends [[Free Grace]]. Contradicts [[The Garage Concept]].
-
-let-your-yes-be-yes.md:
-  KEEP? Extends [[Love Your Neighbor]]. Contradicts [[Drafting in Public]] when public words outrun private honesty.
-  DUP?  Extends [[Love Your Neighbor]]. Contradicts [[Drafting in Public]].
-
-love-god.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[Don't Worry]] when worry replaces trust.
-  DUP?  Extends [[Free Grace]]. Contradicts [[Don't Worry]].
-
-love-your-enemies.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[The Golden Rule]] when I wait for fair treatment before I act.
-  DUP?  Extends [[Free Grace]]. Contradicts [[The Golden Rule]].
-
-love-your-neighbor.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] only when I limit "neighbor" to people I already like.
-  DUP?  Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
-
-peacemakers.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] when I confuse peace with never confronting wrong.
-  DUP?  Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
-
-reconciliation-before-worship.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[Love God]] when I prioritize ceremony over the neighbor I've wronged.
-  DUP?  Extends [[Free Grace]]. Contradicts [[Love God]].
-
-render-unto-caesar.md:
-  KEEP? Extends [[Seek the Kingdom First]]. Contradicts [[Treasure in Heaven]] when I treat the state as ultimate lord.
-  DUP?  Extends [[Seek the Kingdom First]]. Contradicts [[Treasure in Heaven]].
-
-secret-devotion.md:
-  KEEP? Extends [[Ask Seek Knock]]. Contradicts [[Drafting in Public]] when every act of piety becomes content for applause.
-  DUP?  Extends [[Ask Seek Knock]]. Contradicts [[Drafting in Public]].
-
-seek-the-kingdom-first.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[Signal vs Noise]] when I treat every demand as kingdom-level priority.
-  DUP?  Extends [[Free Grace]]. Contradicts [[Signal vs Noise]].
-
-sunk-cost-fallacy.md:
-  KEEP? Extends [[There Is No Perfect Solution]]. Contradicts [[Forgiveness]] when I keep collecting on a grudge I should release.
-  DUP?  Extends [[There Is No Perfect Solution]]. Contradicts [[Forgiveness]].
-
-take-up-your-cross.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]] when I expect discipleship without cost.
-  DUP?  Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]].
-
-the-beatitudes.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[Humility and Service]] when pride masquerades as strength.
-  DUP?  Extends [[Free Grace]]. Contradicts [[Humility and Service]].
-
-the-golden-rule.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] when I only apply it to people who already treat me well.
-  DUP?  Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
-
-the-narrow-way.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[The Golden Rule]] when I take the comfortable path because everyone else does.
-  DUP?  Extends [[Free Grace]]. Contradicts [[The Golden Rule]].
-
-the-wise-builder.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[The Narrow Way]] when I claim Jesus without living his words.
-  DUP?  Extends [[Free Grace]]. Contradicts [[The Narrow Way]].
-
-treasure-in-heaven.md:
-  KEEP? Extends [[Free Grace]]. Contradicts [[The Collector's Fallacy]] when I hoard earth and call it wisdom.
-  DUP?  Extends [[Free Grace]]. Contradicts [[The Collector's Fallacy]].
-
-turn-the-other-cheek.md:
-  KEEP? Extends [[Love Your Enemies]]. Contradicts [[The Golden Rule]] when I wait to hit back before acting well.
-  DUP?  Extends [[Love Your Enemies]]. Contradicts [[The Golden Rule]].
-
-
+  KEEP? Extends [[Judge Not]]. Contradicts [[Let Your Light Shine]] when I polish the outside whi
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-29 files contain duplicates. repent-and-believe was excluded because its contradict targets differ.</details></think>
+29 files contain duplicates. repent-and-believe was excluded because its contradict targets differ.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2481,25 +1829,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
 
 </details></tool-use>
 
@@ -2508,7 +1843,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 A link in repent-and-believe is wrong: [[No Perfect Solution]] should be [[There Is No Perfect Solution]].
 
-The script contains a bare line with [[Compounding]] that duplicates the body contradiction. I will keep only the line extending Free Grace and contradicting There Is No Perfect Solution. The Compounding line should be removed.</details></think>
+The script contains a bare line with [[Compounding]] that duplicates the body contradiction. I will keep only the line extending Free Grace and contradicting There Is No Perfect Solution. The Compounding line should be removed.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2517,29 +1853,29 @@ Removing 29 duplicate bare relationship lines and updating the wire script so th
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
 
-NOTES = Path("content/english/notes")
+NOTES = Path(&#34;content/english/notes&#34;)
 
-def bare_key(line: str) -> str | None:
-    if not line.startswith("Extends "):
+def bare_key(line: str) -&gt; str | None:
+    if not line.startswith(&#34;Extends &#34;):
         return None
     parts = []
-    for kind in ("Extends", "Contradicts", "Implements", "Alternative to"):
-        mm = re.search(rf"{kind} \[\[([^\]]+)\]\]", line)
+    for kind in (&#34;Extends&#34;, &#34;Contradicts&#34;, &#34;Implements&#34;, &#34;Alternative to&#34;):
+        mm = re.search(rf&#34;{kind} \[\[([^\]]+)\]\]&#34;, line)
         if mm:
-            parts.append(f"{kind}:{mm.group(1)}")
-    idx = re.search(r"Index for ([^.]+)\.", line)
+            parts.append(f&#34;{kind}:{mm.group(1)}&#34;)
+    idx = re.search(r&#34;Index for ([^.]+)\.&#34;, line)
     if idx:
-        parts.append(f"Index:{idx.group(1).strip()}")
-    return "|".join(parts) if parts else None
+        parts.append(f&#34;Index:{idx.group(1).strip()}&#34;)
+    return &#34;|&#34;.join(parts) if parts else None
 
-def dedupe_body(body: str) -> tuple[str, int]:
+def dedupe_body(body: str) -&gt; tuple[str, int]:
     lines = body.splitlines()
-    rel_indices = [i for i, ln in enumerate(lines) if ln.strip().startswith("Extends ")]
+    rel_indices = [i for i, ln in enumerate(lines) if ln.strip().startswith(&#34;Extends &#34;)]
     remove = set()
     for a in range(len(rel_indices)):
         for b in range(a + 1, len(rel_indices)):
@@ -2547,34 +1883,33 @@ def dedupe_body(body: str) -> tuple[str, int]:
             l1, l2 = lines[i].strip(), lines[j].strip()
             if bare_key(l1) == bare_key(l2) and l1 != l2:
                 # keep longer (qualified) line
-                if len(l1) >= len(l2):
+                if len(l1) &gt;= len(l2):
                     remove.add(j)
                 else:
                     remove.add(i)
     if not remove:
         return body, 0
     new_lines = [ln for i, ln in enumerate(lines) if i not in remove]
-    text = "\n".join(new_lines)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    if body.endswith("\n"):
-        text += "\n"
+    text = &#34;\n&#34;.join(new_lines)
+    text = re.sub(r&#34;\n{3,}&#34;, &#34;\n\n&#34;, text)
+    if body.endswith(&#34;\n&#34;):
+        text += &#34;\n&#34;
     return text, len(remove)
 
 total = 0
-for path in sorted(NOTES.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    end = text.find("\n---", 3)
+    end = text.find(&#34;\n---&#34;, 3)
     fm, body = text[: end + 4], text[end + 4 :]
     new_body, n = dedupe_body(body)
     if n:
-        path.write_text(fm + new_body, encoding="utf-8")
-        print(f"  {path.name}: removed {n} duplicate line(s)")
+        path.write_text(fm + new_body, encoding=&#34;utf-8&#34;)
+        print(f&#34;  {path.name}: removed {n} duplicate line(s)&#34;)
         total += n
-print(f"\nDone: {total} duplicate line(s) removed.")
+print(f&#34;\nDone: {total} duplicate line(s) removed.&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re
@@ -2669,69 +2004,33 @@ PY
 Done: 30 duplicate line(s) removed.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
@@ -2740,7 +2039,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 apply_body needs to detect duplicate qualified relationship lines and skip adding the bare line.
 
-The old regex strips qualified lines too. This would delete valid relationships during wire script execution. The fix preserves qualified lines matching the same extends/contradicts mapping. Bare duplicates get stripped instead.</details></think>
+The old regex strips qualified lines too. This would delete valid relationships during wire script execution. The fix preserves qualified lines matching the same extends/contradicts mapping. Bare duplicates get stripped instead.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2749,95 +2049,78 @@ Updating the wire script so it preserves qualified lines and doesn't re-add bare
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
 
-NOTES = Path("content/english/notes")
+NOTES = Path(&#34;content/english/notes&#34;)
 
 def bare_key(line):
-    if not line.startswith("Extends "):
+    if not line.startswith(&#34;Extends &#34;):
         return None
     parts = []
-    for kind in ("Extends", "Contradicts", "Implements", "Alternative to"):
-        mm = re.search(rf"{kind} \[\[([^\]]+)\]\]", line)
+    for kind in (&#34;Extends&#34;, &#34;Contradicts&#34;, &#34;Implements&#34;, &#34;Alternative to&#34;):
+        mm = re.search(rf&#34;{kind} \[\[([^\]]+)\]\]&#34;, line)
         if mm:
-            parts.append(f"{kind}:{mm.group(1)}")
-    idx = re.search(r"Index for ([^.]+)\.", line)
+            parts.append(f&#34;{kind}:{mm.group(1)}&#34;)
+    idx = re.search(r&#34;Index for ([^.]+)\.&#34;, line)
     if idx:
-        parts.append(f"Index:{idx.group(1).strip()}")
-    return "|".join(parts) if parts else None
+        parts.append(f&#34;Index:{idx.group(1).strip()}&#34;)
+    return &#34;|&#34;.join(parts) if parts else None
 
 found = []
-for path in sorted(NOTES.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    body = text[text.find("\n---", 3)+4:]
-    rel = [ln.strip() for ln in body.splitlines() if ln.strip().startswith("Extends ")]
+    body = text[text.find(&#34;\n---&#34;, 3)+4:]
+    rel = [ln.strip() for ln in body.splitlines() if ln.strip().startswith(&#34;Extends &#34;)]
     for i, l1 in enumerate(rel):
         for l2 in rel[i+1:]:
             if bare_key(l1) == bare_key(l2):
                 found.append((path.name, l1, l2))
 
 if found:
-    print("REMAINING DUPLICATES:")
+    print(&#34;REMAINING DUPLICATES:&#34;)
     for f in found:
         print(f)
 else:
-    print("No duplicate relationship lines found.")
+    print(&#34;No duplicate relationship lines found.&#34;)
 
 # count notes with 2+ extends lines (different pairs)
 multi = []
-for path in sorted(NOTES.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    body = text[text.find("\n---", 3)+4:]
-    rel = [ln.strip() for ln in body.splitlines() if ln.strip().startswith("Extends ")]
-    if len(rel) > 1:
+    body = text[text.find(&#34;\n---&#34;, 3)+4:]
+    rel = [ln.strip() for ln in body.splitlines() if ln.strip().startswith(&#34;Extends &#34;)]
+    if len(rel) &gt; 1:
         multi.append((path.name, rel))
 
 if multi:
-    print("\nNotes with multiple Extends lines (different pairs):")
+    print(&#34;\nNotes with multiple Extends lines (different pairs):&#34;)
     for name, lines in multi:
-        print(f"  {name}:")
+        print(f&#34;  {name}:&#34;)
         for ln in lines:
-            print(f"    {ln}")
+            print(f&#34;    {ln}&#34;)
 PY
-python3 scripts/wire-note-relationships.py 2>&1 | tail -5</summary>
-
+python3 scripts/wire-note-relationships.py 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re
@@ -2905,37 +2188,19 @@ Done: 0 notes updated.
 Missing mappings (1): issues
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
@@ -2978,7 +2243,8 @@ the contradictions needs explanations to make sense
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Contradiction relationship lines in notes need explanatory text to make sense.</details></think>
+Contradiction relationship lines in notes need explanatory text to make sense.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2987,10 +2253,8 @@ Checking which relationship lines lack explanatory context and reviewing the not
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3096,38 +2360,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
@@ -3140,7 +2385,8 @@ Roughly 60 bare contradiction lines remain across PKM notes. The plan covers add
 
 The affected notes span product strategy, digital minimalism, capture methods, knowledge workflows, and personal productivity systems.
 
-The list now includes twenty-three additional notes covering productivity, methodology, and knowledge management. Each note body must be reviewed to draft accurate "when" explanations.</details></think>
+The list now includes twenty-three additional notes covering productivity, methodology, and knowledge management. Each note body must be reviewed to draft accurate "when" explanations.
+</details></think>
 
 _**Agent (default)**_
 
@@ -3149,10 +2395,8 @@ Many PKM notes still have bare contradict lines. I'll read those notes and add `
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="task_v2">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
-
 
 Parameters:
 
@@ -3183,19 +2427,13 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
-<summary>Tool use: **task_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The subagent provided useful suggestions.</details></think>
+The subagent provided useful suggestions.
+</details></think>
 
 _**Agent (default)**_
 
@@ -3204,27 +2442,15 @@ Adding `when …` explanations to bare contradict lines, updating the spec, and 
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
@@ -3243,128 +2469,73 @@ Eight more gospel notes were identified for the qualifier mapping: first-princip
 
 Nine additional gospel notes were added to the qualifier mapping: let-your-yes-be-yes, love-god, love-your-enemies, love-your-neighbor, peacemakers, reconciliation-before-worship, render-unto-caesar, repent-and-believe, and secret-devotion.
 
-Nine more gospel notes were added to the qualifier mapping: seek-the-kingdom-first, sunk-cost-fallacy, take-up-your-cross, the-beatitudes, the-golden-rule, the-narrow-way, the-wise-builder, treasure-in-heaven, and turn-the-other-cheek.</details></think>
+Nine more gospel notes were added to the qualifier mapping: seek-the-kingdom-first, sunk-cost-fallacy, take-up-your-cross, the-beatitudes, the-golden-rule, the-narrow-way, the-wise-builder, treasure-in-heaven, and turn-the-other-cheek.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts-when.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts-when.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/qualify-contradicts.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/qualify-contradicts.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/qualify-contradicts.py 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/qualify-contradicts.py 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/qualify-contradicts.py 2>&1
 ```
 
 ```
 Traceback (most recent call last):
-  File "/home/jorap/Documents/GitHub/jorap.com/scripts/qualify-contradicts.py", line 14, in &lt;module&gt;
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/qualify-contradicts.py", line 14, in <module>
     from contradicts_when import CONTRADICTS_WHEN, ONLY_WHEN_SLUGS  # noqa: E402
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ModuleNotFoundError: No module named 'contradicts_when'
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: mv /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts-when.py /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts_when.py && cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/qualify-contradicts.py 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: mv /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts-when.py /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts_when.py &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/qualify-contradicts.py 2&gt;&amp;1</summary>
 ```bash
 mv /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts-when.py /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts_when.py && cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/qualify-contradicts.py 2>&1
 ```
@@ -3426,49 +2597,42 @@ mv /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts-when.py /home/jora
 Done: 52 notes qualified.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
 
-NOTES = Path("content/english/notes")
-HAS_QUAL = re.compile(r"Contradicts \[\[[^\]]+\]\]\s+(?:when|only when|unless)\s+", re.I)
+NOTES = Path(&#34;content/english/notes&#34;)
+HAS_QUAL = re.compile(r&#34;Contradicts \[\[[^\]]+\]\]\s+(?:when|only when|unless)\s+&#34;, re.I)
 bare = []
-for path in sorted(NOTES.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    body = text[text.find("\n---", 3)+4:]
+    body = text[text.find(&#34;\n---&#34;, 3)+4:]
     for ln in body.splitlines():
         s = ln.strip()
-        if s.startswith("Extends ") and "Contradicts " in s and not HAS_QUAL.search(s):
+        if s.startswith(&#34;Extends &#34;) and &#34;Contradicts &#34; in s and not HAS_QUAL.search(s):
             bare.append((path.name, s))
 
 if bare:
-    print("STILL BARE:")
+    print(&#34;STILL BARE:&#34;)
     for b in bare:
-        print(f"  {b[0]}: {b[1][:90]}")
+        print(f&#34;  {b[0]}: {b[1][:90]}&#34;)
 else:
-    print("All contradicts lines have when-clauses.")
+    print(&#34;All contradicts lines have when-clauses.&#34;)
 
 # check love-your-neighbor
-t = (NOTES / "love-your-neighbor.md").read_text()
+t = (NOTES / &#34;love-your-neighbor.md&#34;).read_text()
 for ln in t.splitlines():
-    if ln.strip().startswith("Extends "):
-        print("love-your-neighbor:", ln.strip())
+    if ln.strip().startswith(&#34;Extends &#34;):
+        print(&#34;love-your-neighbor:&#34;, ln.strip())
 PY
-python3 scripts/wire-note-relationships.py 2>&1 | tail -3</summary>
-
+python3 scripts/wire-note-relationships.py 2&gt;&amp;1 | tail -3</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re
@@ -3511,44 +2675,25 @@ Done: 0 notes updated.
 Missing mappings (1): issues
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Considering adding an npm script for qualify-contradicts.</details></think>
+Considering adding an npm script for qualify-contradicts.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
@@ -3588,23 +2733,33 @@ i notice that the notes that have fewer than 6 flashards don't have good /flashc
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<think><details><summary>Thought Process</summary>
+Notes with fewer than six flashcards appear to lack quality cards.
+</details></think>
+
+_**Agent (default)**_
+
+Finding review notes with fewer than six cards and auditing their decks against the flashcard skill.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
 
-NOTES = Path("content/english/notes")
-CARD_RE = re.compile(r'^\s+-\s+front:', re.M)
+NOTES = Path(&#34;content/english/notes&#34;)
+CARD_RE = re.compile(r&#39;^\s+-\s+front:&#39;, re.M)
 
-for path in sorted(NOTES.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not re.search(r"^review:\s*true", text, re.M):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not re.search(r&#34;^review:\s*true&#34;, text, re.M):
         continue
     n = len(CARD_RE.findall(text))
     if n != 6:
-        print(f"{n}\t{path.name}")
+        print(f&#34;{n}\t{path.name}&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re
@@ -3622,27 +2777,1247 @@ for path in sorted(NOTES.glob("*.md")):
         print(f"{n}\t{path.name}")
 PY
 ```
-</details>
-</tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+```
+2	cards.md
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "^review: true"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "^review: true",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/associative-linking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/atomic-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-your-neighbor.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pareto-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/capture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/cards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-your-enemies.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-second-brain.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/para-method.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 25
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<think><details><summary>Thought Process</summary>
+The two-card file is cards.md, a meta utility page rather than a real spine note.
+</details></think>
 
-Status: **loading**
-
-
-</details>
-</tool-use>
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "count",
+  "pattern": "^  - front:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "pattern": "^  - front:",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/the-collectors-fallacy.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/pareto-principle.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/para-method.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/capture.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/building-a-second-brain.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/atomic-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/associative-linking.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/love-your-neighbor.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/love-your-enemies.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/love-god.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 146
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/associative-linking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/capture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/para-method.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/forgiveness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/cards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-second-brain.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-collectors-fallacy.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Many gospel notes in eternal-principles lack both the review flag and flashcard content.
+
+The user likely means fewer than six flashcards appear on the review page. I've identified the specific gospel notes in eternal-principles that currently lack cards.
+
+Only twelve gospel notes carry the review flag. The remaining notes in eternal-principles have no cards at all. The user's observation of "fewer than six" may instead refer to the cards.md meta page or incomplete decks on the site.
+
+The user might mean the existing cards are low-quality rather than missing entirely. I am checking whether cards exist outside the review:true system.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+
+NOTES = Path(&#34;content/english/notes&#34;)
+CARD_RE = re.compile(r&#39;^\s+-\s+front:&#39;, re.M)
+
+# gospel-tagged or eternal principles cluster
+gospel = []
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    tags = &#34;Eternal Principles&#34; in text or &#39;&#34;Gospel&#34;&#39; in text or &#34;Sermon on the Mount&#34; in text
+    review = bool(re.search(r&#34;^review:\s*true&#34;, text, re.M))
+    n = len(CARD_RE.findall(text))
+    if tags or review:
+        gospel.append((path.name, review, n))
+
+print(&#34;Gospel/cluster notes (review, card count):&#34;)
+for name, review, n in gospel:
+    if not review or n &lt; 6:
+        print(f&#34;  {&#39;review&#39; if review else &#39;no-review&#39;:10} {n} cards  {name}&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+CARD_RE = re.compile(r'^\s+-\s+front:', re.M)
+
+# gospel-tagged or eternal principles cluster
+gospel = []
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    tags = "Eternal Principles" in text or '"Gospel"' in text or "Sermon on the Mount" in text
+    review = bool(re.search(r"^review:\s*true", text, re.M))
+    n = len(CARD_RE.findall(text))
+    if tags or review:
+        gospel.append((path.name, review, n))
+
+print("Gospel/cluster notes (review, card count):")
+for name, review, n in gospel:
+    if not review or n < 6:
+        print(f"  {'review' if review else 'no-review':10} {n} cards  {name}")
+PY
+```
+
+```
+Gospel/cluster notes (review, card count):
+  no-review  0 cards  analog-capture-tools.md
+  no-review  0 cards  by-their-fruits.md
+  review     2 cards  cards.md
+  no-review  0 cards  childlike-faith.md
+  no-review  0 cards  compounding.md
+  no-review  0 cards  creative-output.md
+  no-review  0 cards  digital-minimalism.md
+  no-review  0 cards  dont-worry.md
+  no-review  0 cards  drafting-in-public.md
+  no-review  0 cards  eternal-principles.md
+  no-review  0 cards  eternal-rewards.md
+  no-review  0 cards  first-principles-thinking.md
+  no-review  0 cards  great-commission.md
+  no-review  0 cards  heart-righteousness.md
+  no-review  0 cards  humility-and-service.md
+  no-review  0 cards  judge-not.md
+  no-review  0 cards  let-your-light-shine.md
+  no-review  0 cards  let-your-yes-be-yes.md
+  no-review  0 cards  maps-of-content.md
+  no-review  0 cards  minimum-effective-dose.md
+  no-review  0 cards  peacemakers.md
+  no-review  0 cards  periodic-knowledge-review.md
+  no-review  0 cards  process-over-outcomes.md
+  no-review  0 cards  reconciliation-before-worship.md
+  no-review  0 cards  render-unto-caesar.md
+  no-review  0 cards  review.md
+  no-review  0 cards  secret-devotion.md
+  no-review  0 cards  slow-productivity.md
+  no-review  0 cards  spaced-repetition.md
+  no-review  0 cards  sunk-cost-fallacy.md
+  no-review  0 cards  the-beatitudes.md
+  no-review  0 cards  the-narrow-way.md
+  no-review  0 cards  there-is-no-perfect-solution.md
+  no-review  0 cards  treasure-in-heaven.md
+  no-review  0 cards  turn-the-other-cheek.md
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+A discrepancy was found between grep results and actual file contents: cards.md shows `review:true` in grep output but lacks it in the frontmatter.
+
+The grep result for cards.md came from example YAML in the document body rather than the frontmatter. This explains why the file read showed no review:true.
+
+Gospel notes are intentionally excluded from the six-card standard under the ~20% rule. The user's complaint about "good /flashcards" for incomplete notes likely targets these spineless notes, though the exact fix is unclear.
+
+Twelve gospel notes are confirmed as the intentional spine. The remaining notes lack cards entirely. The user likely wants either six-card decks added to those non-spine notes, the cards.md example corrected, or a deck audit.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+
+NOTES = Path(&#34;content/english/notes&#34;)
+
+def parse_frontmatter_cards(text):
+    if not text.startswith(&#34;---&#34;):
+        return 0, []
+    end = text.find(&#34;\n---&#34;, 3)
+    if end == -1:
+        return 0, []
+    fm = text[3:end]
+    if not re.search(r&#34;^cards:\s*$&#34;, fm, re.M):
+        return 0, []
+    cards = re.findall(r&#39;^\s+-\s+front:\s+(&#34;(?:[^&#34;\\]|\\.)*&#34;)&#39;, fm, re.M)
+    return len(cards), cards
+
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    n, _ = parse_frontmatter_cards(text)
+    review = bool(re.search(r&#34;^review:\s*true&#34;, text[:text.find(&#34;\n---&#34;, 3)+4] if text.startswith(&#34;---&#34;) else &#34;&#34;))
+    if n &gt; 0 and n != 6:
+        print(f&#34;{n} cards (review={review}): {path.name}&#34;)
+    elif review and n != 6:
+        print(f&#34;{n} cards (review={review}): {path.name}&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+
+def parse_frontmatter_cards(text):
+    if not text.startswith("---"):
+        return 0, []
+    end = text.find("\n---", 3)
+    if end == -1:
+        return 0, []
+    fm = text[3:end]
+    if not re.search(r"^cards:\s*$", fm, re.M):
+        return 0, []
+    cards = re.findall(r'^\s+-\s+front:\s+("(?:[^"\\]|\\.)*")', fm, re.M)
+    return len(cards), cards
+
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    n, _ = parse_frontmatter_cards(text)
+    review = bool(re.search(r"^review:\s*true", text[:text.find("\n---", 3)+4] if text.startswith("---") else ""))
+    if n > 0 and n != 6:
+        print(f"{n} cards (review={review}): {path.name}")
+    elif review and n != 6:
+        print(f"{n} cards (review={review}): {path.name}")
+PY
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Every review note currently contains exactly six flashcards in its frontmatter.
+
+The user may be seeing zero-card gospel notes as "fewer than six." They might also want the remaining eternal-principles notes to receive full six-card decks.
+
+The user likely means that prior /flashcards runs only produced quality decks for notes already carrying six cards, leaving shorter notes underdeveloped. The next step is to identify which notes have fewer than six cards and assign them full decks, starting with the zero-card gospel notes.
+
+Twelve spine notes are already assigned. Childlike Faith and Reconciliation Before Worship remain to be added.
+
+Sixteen additional gospel notes were identified. That total exceeds the twenty percent cap unless the entire cluster is being fully drilled.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "Second prompt|Third prompt|Fourth prompt|Fifth prompt|Sixth prompt"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Second prompt|Third prompt|Fourth prompt|Fifth prompt|Sixth prompt",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "count",
+  "pattern": "^  - front:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "pattern": "^  - front:",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/love-your-neighbor.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/building-a-second-brain.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/pareto-principle.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/forgiveness.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/capture.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/atomic-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/para-method.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/note-relationships.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 146
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+All 24 review notes contain 6 cards.
+
+Gospel notes in eternal-principles lack cards entirely. The 12 spine notes are already complete. I am identifying the remaining linked notes to add full decks.
+
+Eighteen gospel notes are missing cards. Adding all would double the current spine. Some existing decks may actually be card-poor rather than incomplete.
+
+Auditing existing decks for weak patterns: overly long backs, telegraphy, and definition-style cards.
+
+I am now reading the specific gospel notes that lack cards to assess their content.
+
+Many newly added gospel notes still lack cards. Only a handful received full decks. The rest remain without review material.
+
+I will batch-create 108 cards across the 18 remaining gospel notes. Each note needs six cards. I will read the reference decks and each note body to write them.
+
+I am mapping each of the eighteen gospel notes to its specific Eternal Principles section. This ensures the new cards align with the correct category.
+</details></think>
+
+_**Agent (default)**_
+
+All 24 `review: true` notes already have six cards; many gospel notes under Eternal Principles have none. Reading those notes and adding full six-card decks.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/childlike-faith.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/humility-and-service.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the remaining notes to find why shorter ones lack flashcards.
+
+Planning to generate 108 flashcards across all 18 notes. Mapping each note to its card set categories.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/heart-righteousness.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/great-commission.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-yes-be-yes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+I need to add full 6-card decks to all 18 gospel notes.
+
+I'll insert `review: true`, `card_sets`, and `cards` into each note's frontmatter. Then I'll batch-write 108 cards across all 18 notes. Each card will follow the six-card mix pattern.
+
+The six-card mix covers order fork, recovery, and boundary. I've started drafting the Beatitudes note with four cards so far, covering self-sufficiency, loss, thumb-clapping, and scrolling outrage.
+
+The Beatitudes deck now has six cards total. The last three cover righteousness, mercy, and persecution.
+
+Drafting has moved to the Priorities note. Two cards there address 2 AM bill spirals and news refresh loops.
+
+The Priorities deck now has six cards. They cover worry, calendar anxiety, Sunday dread, and master choice.
+
+Drafting has moved to the Judge Not note. Its first card asks which flaw to fix first: the friend's speck or the own plank.
+
+Judge Not now has five cards. They cover self-examination, mercy, hypocrisy, discernment, and personal standards. The sixth card is still being drafted.
+
+Judge Not now has six cards. The last one asks whether to roast another's broken garden or audit one's own first.
+
+Drafting has moved to the Childlike Faith note. Three cards there cover prayer posture, Bible shame, and merit-account thinking.
+
+Childlike Faith now has six cards. They cover trusting without merit, asking questions without shame, and receiving before understanding.
+
+Drafting has moved to the Narrow Way note. Its first two cards ask which gate to choose and warn that saying "Lord" does not guarantee entry.
+
+Narrow Way now has six cards. They cover grace-costly discipleship, broad-road temptation, moral-performance salvation, and hard-obedience courage.
+
+Drafting has moved to the Treasure in Heaven note. Its first card asks whether saving unused articles and gear reflects heart drift.
+
+Treasure in Heaven now has six cards. They cover moth-eaten earth, heaven-side storage, collector's fallacy, wallet and calendar as heart mirrors, grace-secure order, and a final check before unnecessary purchases.
+
+Drafting has moved to the Eternal Rewards note. Its first four cards cover secret prayer, grace-first reward order, merit-ladder error, and hidden generosity. The fifth card is still being written.
+
+Eternal Rewards now has six cards. The last two warn that faithful service is not a down payment on heaven, and that small daily obedience stacks eternally.
+
+Drafting has moved to the Secret Devotion note. Its first card asks who is the real audience during quiet time. The second card warns against giving with the left hand so the right can broadcast it. The third card begins questioning prayer crafted for how it sounds out loud.
+
+Secret Devotion now has six cards. They cover closet prayer, fasting without notice, hidden devotion over public piety, and Father seeing hidden acts.
+
+Drafting has moved to Humility and Service. Its first card asks whether grasping for status in a group project follows the kingdom path where the last become first. The second card questions why one waits to be served at home after serving at church.
+
+Humility and Service now has six cards. They cover foot-washing, humble self, and servant leadership.
+
+Drafting has moved to Let Your Light Shine. Its first card asks who gets glory when a good deed is captioned for credit.
+
+Let Your Light Shine now has six cards. They cover hiding help from false modesty, letting light shine for God’s credit, drafting charity posts for audience approval, and serving publicly so neighbors see God.
+
+Drafting has moved to the Peacemakers note. Its first five cards cover choosing reconciliation over picking sides, rejecting passive silence in favor of active peacemaking, speaking hard truths in love rather than soft-pedaling, and choosing reconciliation over revenge. The sixth card is still being written.
+
+Peacemakers now has six cards. The last two challenge the idea that peace means avoiding confrontation with sin, and define peace as truth plus reconciliation.
+
+Drafting has moved to Turn the Other Cheek. Its first card breaks the insult-retaliation cycle by refusing to escalate hurt. The second warns against throwing anger after sunk costs in a feud. The third calls for turning the cheek instead of becoming what hurt us. The fourth card is still being written.
+
+Turn the Other Cheek now has six cards. The last three break the evil-returning cycle, reject mirroring reputation slaps, and remind that grace frees us from keeping score.
+
+Drafting has moved to By Their Fruits. Its first two cards warn against judging teachers by charisma or bookmarks, and call for outcome-based evaluation over credentials.
+
+By Their Fruits now has six cards. They warn against judging teachers by charisma alone, and call for outcome-based evaluation over credentials. The last four cards cover distinguishing signal from noise, refraining from soul-condemnation online, and checking what fruit a new teaching produces before adopting it.
+
+Drafting has moved to Heart Righteousness. Its first card asks what Jesus called anger that simmers beneath outward politeness.
+
+Heart Righteousness now has six cards. They cover inward anger as murder in the heart, lust as adultery in the heart, and the difference between polished outward compliance and genuine heart righteousness. The last card asks who sees hidden inner sin.
+
+Drafting has moved to Reconciliation Before Worship. Its first card asks whether to offer a gift while a brother remains hurt. The second warns that Sunday worship while avoiding a wronged person hollows out the service. The third calls for leaving the gift and repairing the relationship before returning. The fourth uses the broken wikilink as a human parallel to broken relationships.
+
+Reconciliation Before Worship now has six cards. The last two warn that fellowship is restored, not re-earned, and that ceremony cannot patch a broken relationship.
+
+Drafting has moved to Render Unto Caesar. Its first card asks whether to dodge a tax bill as a kingdom protest. The second warns that patriotism and worship are tangled, and that God deserves ultimate allegiance while Caesar gets what is his.
+
+Render Unto Caesar now warns against idolizing Rome. It calls for paying taxes even when the kingdom ranks highest, and distinguishes self-owing to God from coin owing to Caesar. The note also rejects skipping civic duty because one is kingdom-first.
+
+Drafting has moved to the Great Commission note. Its first card warns that hoarding gospel truth is a collector's fallacy, just as hoarding notes is a PKM trap.
+
+The last five cards of the Great Commission note ask whether to lead with systems rather than repentance and belief, whether to delegate baptism and teaching to others, whether grace removes the need for obedience instruction, whether to stay silent at work despite Jesus’s promise to be with us, and whether hoarding truth in private study fulfills the command to make disciples.
+
+Drafting has moved to Let Your Yes Be Yes. Its first card warns that padding promises with extra oaths breaks the word. The second rejects flashy contract language in favor of plain integrity. The third calls for private honesty to match public words. The fourth compares a kitchen-sink note with six claims to speech, demanding one atomic yes. The fifth rejects exaggeration to win arguments, noting that beyond yes and no lies evil manipulation.
+</details></think>
+
+_**Agent (default)**_
+
+Adding full six-card decks to all 18 gospel notes missing them, using a script to inject frontmatter consistently.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/add-gospel-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Running the script and lint:cards. Updating eternal-principles.md to list more spine notes with cards, and checking cards.md.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/add-gospel-flashcards.py &amp;&amp; npm run lint:cards 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/add-gospel-flashcards.py && npm run lint:cards 2>&1
+```
+
+```
+  by-their-fruits.md
+  childlike-faith.md
+  dont-worry.md
+  eternal-rewards.md
+  great-commission.md
+  heart-righteousness.md
+  humility-and-service.md
+  judge-not.md
+  let-your-light-shine.md
+  let-your-yes-be-yes.md
+  peacemakers.md
+  reconciliation-before-worship.md
+  render-unto-caesar.md
+  secret-devotion.md
+  the-beatitudes.md
+  the-narrow-way.md
+  treasure-in-heaven.md
+  turn-the-other-cheek.md
+
+Done: 18 decks added.
+
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter errors:
+  content/english/notes/by-their-fruits.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): About to condemn the teacher's soul online. Discern or play …
+  content/english/notes/judge-not.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Charismatic teacher, ugly fruit in followers. Discern or con…
+  content/english/notes/render-unto-caesar.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Civic duty skipped because I'm kingdom-first. Excuse or dodg…
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/add-gospel-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/add-gospel-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/add-gospel-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+Invalid arguments:
+path: Required
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "Discern or|Excuse or"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Discern or|Excuse or",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/render-unto-caesar.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/judge-not.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/by-their-fruits.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1
+```
+
+```
+
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+NOTES = Path(&#34;content/english/notes&#34;)
+CARD_RE = re.compile(r&#39;^\s+-\s+front:&#39;, re.M)
+review = []
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if re.search(r&#34;^review:\s*true&#34;, text, re.M):
+        n = len(CARD_RE.findall(text[:text.find(&#34;\n---&#34;, 3)+4] if text.startswith(&#34;---&#34;) else &#34;&#34;))
+        # count in frontmatter only
+        end = text.find(&#34;\n---&#34;, 3)
+        fm = text[3:end] if end &gt; 0 else &#34;&#34;
+        n = len(re.findall(r&#39;^\s+-\s+front:&#39;, fm, re.M))
+        review.append((path.name, n))
+print(f&#34;Review notes: {len(review)}&#34;)
+bad = [x for x in review if x[1] != 6]
+print(f&#34;Not 6 cards: {bad}&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+NOTES = Path("content/english/notes")
+CARD_RE = re.compile(r'^\s+-\s+front:', re.M)
+review = []
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if re.search(r"^review:\s*true", text, re.M):
+        n = len(CARD_RE.findall(text[:text.find("\n---", 3)+4] if text.startswith("---") else ""))
+        # count in frontmatter only
+        end = text.find("\n---", 3)
+        fm = text[3:end] if end > 0 else ""
+        n = len(re.findall(r'^\s+-\s+front:', fm, re.M))
+        review.append((path.name, n))
+print(f"Review notes: {len(review)}")
+bad = [x for x in review if x[1] != 6]
+print(f"Not 6 cards: {bad}")
+PY
+```
+
+```
+Review notes: 43
+Not 6 cards: [('cards.md', 0)]
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether cards.md has review:true set.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/cards.md",
+  "pattern": "^review:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^review:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/cards.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The cards.md file includes `review: true` in its YAML example block.
+</details></think>
+
+_**Agent (default)**_
+
+You were right — the gap wasn't the existing spine decks (those already had 6 cards). It was **18 gospel notes in the Eternal Principles cluster with no flashcards at all**.
+
+### What was wrong
+- **24 notes** already had full 6-card decks (12 PKM + 12 gospel)
+- **18 gospel notes** had zero cards — so `/flashcards` never really applied to them
+
+### What I added (6 cards each, cue → apply)
+`the-beatitudes`, `dont-worry`, `judge-not`, `childlike-faith`, `the-narrow-way`, `treasure-in-heaven`, `eternal-rewards`, `secret-devotion`, `humility-and-service`, `let-your-light-shine`, `peacemakers`, `turn-the-other-cheek`, `by-their-fruits`, `heart-righteousness`, `reconciliation-before-worship`, `render-unto-caesar`, `great-commission`, `let-your-yes-be-yes`
+
+Each deck follows the flashcard skill: mid-life cues, subtle hint questions where useful, short imperative backs, proper `card_sets` (`Eternal Principles` + section label).
+
+### Totals now
+- **42 review notes** × 6 cards = **252 drill cards**
+- `npm run lint:cards` passes
+- Updated `eternal-principles.md` — gospel spine notes now documented as carrying full review decks
+
+Example from `the-beatitudes.md`:
+- Front: `Thumb itching to clap back and prove I'm strong. Which beatitude fork?`
+- Back: `Meek - don't grasp status.`

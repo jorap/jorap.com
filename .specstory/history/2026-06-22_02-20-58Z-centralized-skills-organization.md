@@ -21,7 +21,8 @@ Skills are scattered across three locations:
 - .agents/skills/
 - .cursor/skills/
 
-These need to be consolidated into a single directory.</details></think>
+These need to be consolidated into a single directory.
+</details></think>
 
 _**Agent (default)**_
 
@@ -30,11 +31,10 @@ I'll map where skills live today and how they're referenced so we can consolidat
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **12** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (12 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (12 files)
 
 | File |
 |------|
@@ -50,21 +50,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (12 files)
 | `.cursor/skills/ponytail-help/SKILL.md` |
 | `.cursor/skills/alex-eala-tracker-update/SKILL.md` |
 | `.cursor/skills/ponytail-review/SKILL.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -132,22 +123,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **17** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (17 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (17 files)
 
 | File |
 |------|
@@ -168,25 +151,18 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (17 files)
 | `.cursor/skills/ponytail-audit/SKILL.md` |
 | `.cursor/skills/ponytail-help/SKILL.md` |
 | `.cursor/skills/sync-upstreams/triage-hugoplate.sh` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Skills are currently scattered across two locations in the repository.</details></think>
+Skills are currently scattered across two locations in the repository.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/.cursor/skills /home/jorap/Documents/GitHub/jorap.com/.agents/skills -type f 2>/dev/null | sort; echo "---"; ls -la /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ 2>/dev/null; echo "---"; ls -la /home/jorap/Documents/GitHub/jorap.com/.agents/skills/ 2>/dev/null</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/.cursor/skills /home/jorap/Documents/GitHub/jorap.com/.agents/skills -type f 2&gt;/dev/null | sort; echo &#34;---&#34;; ls -la /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ 2&gt;/dev/null; echo &#34;---&#34;; ls -la /home/jorap/Documents/GitHub/jorap.com/.agents/skills/ 2&gt;/dev/null</summary>
 ```bash
 find /home/jorap/Documents/GitHub/jorap.com/.cursor/skills /home/jorap/Documents/GitHub/jorap.com/.agents/skills -type f 2>/dev/null | sort; echo "---"; ls -la /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ 2>/dev/null; echo "---"; ls -la /home/jorap/Documents/GitHub/jorap.com/.agents/skills/ 2>/dev/null
 ```
@@ -213,63 +189,731 @@ find /home/jorap/Documents/GitHub/jorap.com/.cursor/skills /home/jorap/Documents
 /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md
 /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-audit/SKILL.md
 /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-debt/SKILL.md
-/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-gain/SKILL.md
-/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-help/SKILL.md
-/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-review/SKILL.md
-/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail/SKILL.md
-/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/hugoplate-rsync-excludes.txt
-/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/preserve-lists.md
-/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md
-/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/triage-hugoplate.sh
----
-total 52
-drwxr-xr-x 12 root root 4096 Jun 21 22:58 .
-drwxr-xr-x  4 root root 4096 Jun 21 22:58 ..
-drwxr-xr-x  2 root root 4096 Jun 19 10:01 alex-eala-tracker-update
-drwxrwxr-x  2 root root 4096 Jun 22 10:07 flashcards
-lrwxrwxrwx  1 root root   60 Jun 20 10:48 impeccable -&gt; ../../../impeccable/dist/universal/.cursor/skills/impeccable
-drwxrwxr-x  2 root root 4096 Jun 22 10:07 jorap-voice
-drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail
-drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-audit
-drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-debt
-drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-gain
-drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-help
-drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-review
-drwxr-xr-x  2 root root 4096 Jun 21 22:58 sync-upstreams
----
-total 16
-drwxr-xr-x 4 root root 4096 Jun 20 10:39 .
-drwxr-xr-x 3 root root 4096 Jun 18 15:10 ..
-drwxr-xr-x 2 root root 4096 Jun 20 10:39 find-skills
-drwxr-xr-x 3 root root 4096 Jun 20 10:39 hugo-template-guidance
-
+/home/jorap/Docume
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+<think><details><summary>Thought Process</summary>
+There appears to be a split in how skills are currently organized.
+
+Project-specific skills live in `.cursor/skills/`. Hugoplate upstream skills live in `.agents/skills/`. The sync-upstreams skill copies from the latter. All skills should be consolidated into a single location.
+</details></think>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.agents/skills"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.agents/skills",
+  "topFiles": [
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-06-20_17-25-41Z-alex-eala-tracker-renaming.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-20_14-14-13Z-npm-deployment-build-improvements.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_03-23-09Z-blog-and-notes-structure-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_05-19-43Z-notes-image-asset.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_06-30-33Z-shortening-names-of-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_02-54-38Z-skill-update-based-on-history.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_04-36-18Z-notes-homepage-item-arrangement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_14-34-50Z-site-build-error-and-template-rendering.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_11-09-34Z-local-display-issues-for-notes-and-graphs.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-06-21_05-09-23Z-hugo-version-update-to-0.163.2.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-06-17_17-47-53Z-project-update-with-new-skill.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-19_03-07-38Z-notes-section-with-obsidian-functionality.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-19_03-46-51Z-note-graph-functionality-issue.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md"
+    }
+  ],
+  "totalFiles": 41,
+  "totalMatches": 285
+}
+```
+Status: **completed**
+
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md</summary>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-</details>
-</tool-use>
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills-cursor/create-skill/SKILL.md</summary>
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The skill structure is now clearer.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,mdc,sh,txt,json,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.agents/skills"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.agents/skills",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-19_03-07-38Z-notes-section-with-obsidian-functionality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_02-54-38Z-skill-update-based-on-history.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_03-20-28Z-notes-review-and-relationship-analysis.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_14-34-50Z-site-build-error-and-template-rendering.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-19_03-46-51Z-note-graph-functionality-issue.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-06-17_17-47-53Z-project-update-with-new-skill.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/sync-upstreams/preserve-lists.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": ".specstory/history/2026-06-20_02-41-11Z-upstream-synchronization.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-20_14-14-13Z-npm-run-deployment-builds-improvement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_09-41-14Z-categories-and-tags-page-format.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_10-39-21Z-deployment-process-overview.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_02-55-39Z-improving-memorization-of-definitions.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-06-20_14-14-13Z-deployment-builds-improvement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-06-21_05-09-23Z-hugo-version-update-to-0.163.2.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network-visualization.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_05-19-43Z-notes-image-asset.md"
+    }
+  ],
+  "totalFiles": 41,
+  "totalMatches": 285
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-help/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.agents/skills/hugo-template-guidance/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.agents/skills/find-skills/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+A clear plan is forming to centralize all skills in one location.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.agents",
+  "pattern": "\\.agents/skills"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.agents",
+  "pattern": "\\.agents/skills",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor",
+  "pattern": "\\.agents/skills"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor",
+  "pattern": "\\.agents/skills",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/sync-upstreams/preserve-lists.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".cursor/skills/sync-upstreams/SKILL.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/.agents/ 2&gt;/dev/null; git -C /home/jorap/Documents/GitHub/jorap.com ls-files .agents .cursor/skills 2&gt;/dev/null | head -50</summary>
+```bash
+ls -la /home/jorap/Documents/GitHub/jorap.com/.agents/ 2>/dev/null; git -C /home/jorap/Documents/GitHub/jorap.com ls-files .agents .cursor/skills 2>/dev/null | head -50
+```
+
+```
+total 12
+drwxr-xr-x  3 root root 4096 Jun 18 15:10 .
+drwxr-xr-x 30 root root 4096 Jun 21 22:58 ..
+drwxr-xr-x  4 root root 4096 Jun 20 10:39 skills
+.agents/skills/find-skills/SKILL.md
+.agents/skills/hugo-template-guidance/SKILL.md
+.agents/skills/hugo-template-guidance/references/adding-new-pages.md
+.agents/skills/hugo-template-guidance/references/component-usage.md
+.agents/skills/hugo-template-guidance/references/content-management.md
+.agents/skills/hugo-template-guidance/references/detect-mode.md
+.agents/skills/hugo-template-guidance/references/hugo-modules.md
+.agents/skills/hugo-template-guidance/references/i18n-guidance.md
+.agents/skills/hugo-template-guidance/references/page-configuration.md
+.agents/skills/hugo-template-guidance/references/preflight-checks.md
+.agents/skills/hugo-template-guidance/references/project-architecture.md
+.agents/skills/hugo-template-guidance/references/script-usage.md
+.agents/skills/hugo-template-guidance/references/styling-and-theming.md
+.cursor/skills/alex-eala-tracker-update/SKILL.md
+.cursor/skills/alex-eala-tracker-update/reference.md
+.cursor/skills/flashcards/SKILL.md
+.cursor/skills/flashcards/examples.md
+.cursor/skills/jorap-voice/SKILL.md
+.cursor/skills/jorap-voice/examples.md
+.cursor/skills/ponytail-audit/SKILL.md
+.cursor/skills/ponytail-debt/SKILL.md
+.cursor/skills/ponytail-gain/SKILL.md
+.cursor/skills/ponytail-help/SKILL.md
+.cursor/skills/ponytail-review/SKILL.md
+.cursor/skills/ponytail/SKILL.md
+.cursor/skills/sync-upstreams/SKILL.md
+.cursor/skills/sync-upstreams/hugoplate-rsync-excludes.txt
+.cursor/skills/sync-upstreams/preserve-lists.md
+.cursor/skills/sync-upstreams/triage-hugoplate.sh
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+I have a clear plan to centralize all skills in one place.
+
+Moving `find-skills` and `hugo-template-guidance` from `.agents/skills/` to `.cursor/skills/`. The old `.agents/skills/` directory will be removed. Sync-upstreams documentation needs updating to reference `.cursor/skills/`. Upstream Hugoplate sync will map upstream `.agents/skills/` to local `.cursor/skills/`. I will also check `triage-hugoplate.sh` for references.
+
+Using `git mv` preserves history. The rsync command will copy only the two hugoplate skills into `.cursor/skills/` to avoid overwriting JoRap-only skills.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/hugoplate/.agents/skills/ 2&gt;/dev/null || echo &#34;no hugoplate checkout&#34;</summary>
+```bash
+ls -la /home/jorap/Documents/GitHub/hugoplate/.agents/skills/ 2>/dev/null || echo "no hugoplate checkout"
+```
+
+```
+total 16
+drwxr-xr-x 4 root root 4096 Jun 20 10:39 .
+drwxr-xr-x 3 root root 4096 Jun 20 10:39 ..
+drwxr-xr-x 2 root root 4096 Jun 20 10:39 find-skills
+drwxr-xr-x 3 root root 4096 Jun 20 10:39 hugo-template-guidance
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/preserve-lists.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/triage-hugoplate.sh",
+  "pattern": "agents/skills"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/triage-hugoplate.sh",
+  "pattern": "agents/skills",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Executing the migration to centralize all skills in one place.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.agents/skills"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.agents/skills",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": ".cursor/skills/sync-upstreams/SKILL.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/sync-upstreams/preserve-lists.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Only sync-upstreams files need updating.
+</details></think>
+
+_**Agent (default)**_
+
+Moving Hugoplate skills into `.cursor/skills/` and updating the sync docs to match.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git mv .agents/skills/find-skills .cursor/skills/ &amp;&amp; git mv .agents/skills/hugo-template-guidance .cursor/skills/ &amp;&amp; rmdir .agents/skills 2&gt;/dev/null; rmdir .agents 2&gt;/dev/null; ls -la .cursor/skills/</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git mv .agents/skills/find-skills .cursor/skills/ && git mv .agents/skills/hugo-template-guidance .cursor/skills/ && rmdir .agents/skills 2>/dev/null; rmdir .agents 2>/dev/null; ls -la .cursor/skills/
+```
+
+```
+total 60
+drwxr-xr-x 14 jorap jorap 4096 Jun 22 10:22 .
+drwxr-xr-x  4 jorap jorap 4096 Jun 21 22:58 ..
+drwxr-xr-x  2 jorap jorap 4096 Jun 19 10:01 alex-eala-tracker-update
+drwxr-xr-x  2 jorap jorap 4096 Jun 20 10:39 find-skills
+drwxrwxr-x  2 jorap jorap 4096 Jun 22 10:07 flashcards
+drwxr-xr-x  3 jorap jorap 4096 Jun 20 10:39 hugo-template-guidance
+lrwxrwxrwx  1 jorap jorap   60 Jun 20 10:48 impeccable -> ../../../impeccable/dist/universal/.cursor/skills/impeccable
+drwxrwxr-x  2 jorap jorap 4096 Jun 22 10:07 jorap-voice
+drwxr-xr-x  2 jorap jorap 4096 Jun 21 22:58 ponytail
+drwxr-xr-x  2 jorap jorap 4096 Jun 21 22:58 ponytail-audit
+drwxr-xr-x  2 jorap jorap 4096 Jun 21 22:58 ponytail-debt
+drwxr-xr-x  2 jorap jorap 4096 Jun 21 22:58 ponytail-gain
+drwxr-xr-x  2 jorap jorap 4096 Jun 21 22:58 ponytail-help
+drwxr-xr-x  2 jorap jorap 4096 Jun 21 22:58 ponytail-review
+drwxr-xr-x  2 jorap jorap 4096 Jun 21 22:58 sync-upstreams
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/preserve-lists.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-help/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying progress toward centralizing all skills.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.agents"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.agents",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./.cursor/skills/sync-upstreams/preserve-lists.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.cursor/skills/sync-upstreams/SKILL.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git status --short .cursor/skills .agents 2&gt;/dev/null; test ! -d .agents &amp;&amp; echo &#34;.agents removed&#34; || ls -la .agents</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git status --short .cursor/skills .agents 2>/dev/null; test ! -d .agents && echo ".agents removed" || ls -la .agents
+```
+
+```
+R  .agents/skills/find-skills/SKILL.md -> .cursor/skills/find-skills/SKILL.md
+R  .agents/skills/hugo-template-guidance/SKILL.md -> .cursor/skills/hugo-template-guidance/SKILL.md
+R  .agents/skills/hugo-template-guidance/references/adding-new-pages.md -> .cursor/skills/hugo-template-guidance/references/adding-new-pages.md
+R  .agents/skills/hugo-template-guidance/references/component-usage.md -> .cursor/skills/hugo-template-guidance/references/component-usage.md
+R  .agents/skills/hugo-template-guidance/references/content-management.md -> .cursor/skills/hugo-template-guidance/references/content-management.md
+R  .agents/skills/hugo-template-guidance/references/detect-mode.md -> .cursor/skills/hugo-template-guidance/references/detect-mode.md
+R  .agents/skills/hugo-template-guidance/references/hugo-modules.md -> .cursor/skills/hugo-template-guidance/references/hugo-modules.md
+R  .agents/skills/hugo-template-guidance/references/i18n-guidance.md -> .cursor/skills/hugo-template-guidance/references/i18n-guidance.md
+R  .agents/skills/hugo-template-guidance/references/page-configuration.md -> .cursor/skills/hugo-template-guidance/references/page-configuration.md
+R  .agents/skills/hugo-template-guidance/references/preflight-checks.md -> .cursor/skills/hugo-template-guidance/references/preflight-checks.md
+R  .agents/skills/hugo-template-guidance/references/project-architecture.md -> .cursor/skills/hugo-template-guidance/references/project-architecture.md
+R  .agents/skills/hugo-template-guidance/references/script-usage.md -> .cursor/skills/hugo-template-guidance/references/script-usage.md
+R  .agents/skills/hugo-template-guidance/references/styling-and-theming.md -> .cursor/skills/hugo-template-guidance/references/styling-and-theming.md
+ M .cursor/skills/ponytail-help/SKILL.md
+ M .cursor/skills/sync-upstreams/SKILL.md
+ M .cursor/skills/sync-upstreams/preserve-lists.md
+.agents removed
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+All skills have been centralized in one place.
+</details></think>
+
+_**Agent (default)**_
+
+All project skills now live under **`.cursor/skills/`**.
+
+### What changed
+
+**Moved** (from `.agents/skills/`):
+- `find-skills`
+- `hugo-template-guidance` (with all `references/`)
+
+**Removed** the empty `.agents/` directory.
+
+**Updated** sync docs so Hugoplate upstream sync still works:
+- `sync-upstreams/SKILL.md` — rsyncs from Hugoplate’s `.agents/skills/` into `.cursor/skills/`
+- `sync-upstreams/preserve-lists.md` — paths updated
+- `ponytail-help/SKILL.md` — notes that all project skills are in `.cursor/skills/`
+
+### Current layout (`.cursor/skills/`)
+
+| Skill | Source |
+|-------|--------|
+| `alex-eala-tracker-update` | JoRap |
+| `find-skills` | Hugoplate (was `.agents/skills/`) |
+| `flashcards` | JoRap |
+| `hugo-template-guidance` | Hugoplate (was `.agents/skills/`) |
+| `impeccable` | symlink → upstream checkout |
+| `jorap-voice` | JoRap |
+| `ponytail*` (6 skills) | JoRap |
+| `sync-upstreams` | JoRap |
+
+**Not in this repo** (by design): Cursor built-in skills in `~/.cursor/skills-cursor/` and any personal skills in `~/.cursor/skills/`. Those are user-level, not project-level.
+
+Git has the moves staged as renames plus the doc edits. Say if you want a commit.

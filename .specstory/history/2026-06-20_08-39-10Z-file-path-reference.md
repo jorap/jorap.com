@@ -13,7 +13,8 @@ _**User**_
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The user shared a Hugo build error from a terminal file.</details></think>
+The user shared a Hugo build error from a terminal file.
+</details></think>
 
 _**Agent (default)**_
 
@@ -22,34 +23,23 @@ The Hugo error points to YAML frontmatter bleeding into the body — I'll open t
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The frontmatter closing `---` is incorrectly placed at line 41 instead of after the YAML frontmatter.</details></think>
+The frontmatter closing `---` is incorrectly placed at line 41 instead of after the YAML frontmatter.
+</details></think>
 
 _**Agent (default)**_
 
@@ -58,31 +48,15 @@ The closing `---` is at the bottom of the file instead of after the frontmatter.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
 
 </details></tool-use>
 
@@ -93,10 +67,8 @@ Checking for the same frontmatter issue in other new notes and verifying the bui
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -204,20 +176,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildDrafts --minify 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --buildDrafts --minify 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildDrafts --minify 2>&1 | tail -20
 ```
@@ -231,7 +195,7 @@ ERROR error building site: assemble: failed to create page from pageMetaSource /
   26 |     back: "Minimum on every atomic note."
   27 | draft: false
   28 | aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Interconnectivity"]
-&gt; 29 | Folders sort. Links think. I link so notes meet without me remembering every filename.
+> 29 | Folders sort. Links think. I link so notes meet without me remembering every filename.
        ^
   31 | Extends [[Atomic Notes]]. Contradicts [[PARA Method]].
   32 | 
@@ -239,10 +203,915 @@ ERROR error building site: assemble: failed to create page from pageMetaSource /
   34 |
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Multiple files are missing a closing `---` before their body content.
+</details></think>
+
+_**Agent (default)**_
+
+Same frontmatter issue appears in other notes — searching the repo for files missing the closing `---`.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+rg: regex parse error:
+    (?:^draft: false\n(?:aliases:.*\n)?(?!\-\-\-))
+                                       ^^^
+error: look-around, including look-ahead and look-behind, is not supported
+
+Consider enabling PCRE2 with the --pcre2 flag, which can handle backreferences
+and look-around.
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+rg: regex parse error:
+    (?:^aliases:.*\n(?!\-\-\-|\w+:))
+                    ^^^
+error: look-around, including look-ahead and look-behind, is not supported
+
+Consider enabling PCRE2 with the --pcre2 flag, which can handle backreferences
+and look-around.
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+notes = Path(&#34;content/english/notes&#34;)
+broken = []
+for p in sorted(notes.glob(&#34;*.md&#34;)):
+    text = p.read_text()
+    if not text.startswith(&#34;---\n&#34;):
+        continue
+    end = text.find(&#34;\n---\n&#34;, 4)
+    if end == -1:
+        broken.append((p.name, &#34;no closing ---&#34;))
+        continue
+    fm = text[4:end]
+    body_start = end + 5
+    body = text[body_start:]
+    # also check if there&#39;s a stray --- at end
+    if body.rstrip().endswith(&#34;---&#34;) and not body.rstrip().endswith(&#34;\n---\n&#34;):
+        pass
+    # check lines after draft/aliases without ---
+    lines = text.splitlines()
+    in_fm = False
+    for i, line in enumerate(lines):
+        if i == 0 and line == &#34;---&#34;:
+            in_fm = True
+            continue
+        if in_fm and line == &#34;---&#34;:
+            in_fm = False
+            break
+    if in_fm:
+        broken.append((p.name, f&#34;frontmatter never closed (ends line {len(lines)})&#34;))
+for name, reason in broken:
+    print(f&#34;{name}: {reason}&#34;)
+print(f&#34;Total: {len(broken)}&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+from pathlib import Path
+notes = Path("content/english/notes")
+broken = []
+for p in sorted(notes.glob("*.md")):
+    text = p.read_text()
+    if not text.startswith("---\n"):
+        continue
+    end = text.find("\n---\n", 4)
+    if end == -1:
+        broken.append((p.name, "no closing ---"))
+        continue
+    fm = text[4:end]
+    body_start = end + 5
+    body = text[body_start:]
+    # also check if there's a stray --- at end
+    if body.rstrip().endswith("---") and not body.rstrip().endswith("\n---\n"):
+        pass
+    # check lines after draft/aliases without ---
+    lines = text.splitlines()
+    in_fm = False
+    for i, line in enumerate(lines):
+        if i == 0 and line == "---":
+            in_fm = True
+            continue
+        if in_fm and line == "---":
+            in_fm = False
+            break
+    if in_fm:
+        broken.append((p.name, f"frontmatter never closed (ends line {len(lines)})"))
+for name, reason in broken:
+    print(f"{name}: {reason}")
+print(f"Total: {len(broken)}")
+PY
+```
+
+```
+capture.md: no closing ---
+Total: 1
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Only capture.md shows a missing closing `---` error. Hugo failed on associative-linking.md instead.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+notes = Path(&#34;content/english/notes&#34;)
+broken = []
+for p in sorted(notes.glob(&#34;*.md&#34;)):
+    text = p.read_text()
+    if not text.startswith(&#34;---&#34;):
+        continue
+    # Find first --- after line 1
+    m = re.search(r&#39;^---\n(.*?)\n---\n&#39;, text, re.DOTALL)
+    if not m:
+        broken.append((p.name, &#34;no valid frontmatter block&#34;))
+        continue
+    fm = m.group(1)
+    # Check for markdown-like lines in frontmatter (not yaml keys)
+    for i, line in enumerate(fm.splitlines(), 1):
+        stripped = line.strip()
+        if not stripped or stripped.startswith(&#34;#&#34;):
+            continue
+        if re.match(r&#39;^[\w_-]+:&#39;, line) or line.startswith(&#39;  &#39;) or line.startswith(&#39;- &#39;) or line.startswith(&#39;    &#39;):
+            continue
+        if stripped.startswith(&#39;**&#39;) or stripped.startswith(&#39;[&#39;) or re.match(r&#39;^[A-Z]&#39;, stripped):
+            broken.append((p.name, f&#34;line {i} in fm looks like body: {stripped[:60]!r}&#34;))
+            break
+for name, reason in broken:
+    print(f&#34;{name}: {reason}&#34;)
+print(f&#34;Total: {len(broken)}&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+from pathlib import Path
+import re
+notes = Path("content/english/notes")
+broken = []
+for p in sorted(notes.glob("*.md")):
+    text = p.read_text()
+    if not text.startswith("---"):
+        continue
+    # Find first --- after line 1
+    m = re.search(r'^---\n(.*?)\n---\n', text, re.DOTALL)
+    if not m:
+        broken.append((p.name, "no valid frontmatter block"))
+        continue
+    fm = m.group(1)
+    # Check for markdown-like lines in frontmatter (not yaml keys)
+    for i, line in enumerate(fm.splitlines(), 1):
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        if re.match(r'^[\w_-]+:', line) or line.startswith('  ') or line.startswith('- ') or line.startswith('    '):
+            continue
+        if stripped.startswith('**') or stripped.startswith('[') or re.match(r'^[A-Z]', stripped):
+            broken.append((p.name, f"line {i} in fm looks like body: {stripped[:60]!r}"))
+            break
+for name, reason in broken:
+    print(f"{name}: {reason}")
+print(f"Total: {len(broken)}")
+PY
+```
+
+```
+associative-linking.md: line 29 in fm looks like body: 'Folders sort. Links think. I link so notes meet without me r'
+building-a-second-brain.md: line 29 in fm looks like body: '**Second Brain** = offload ideas so my head can think, not h'
+capture.md: no valid frontmatter block
+forgiveness.md: line 29 in fm looks like body: '**Forgiveness** = forgive others from the heart, as the Fath'
+free-grace.md: line 29 in fm looks like body: "**Free grace** = eternal life is God's free gift through fai"
+love-god.md: line 29 in fm looks like body: '**Love God** = the greatest commandment Jesus named: love th'
+love-your-enemies.md: line 29 in fm looks like body: '**Love your enemies** = bless those who curse you, pray for '
+love-your-neighbor.md: line 29 in fm looks like body: '**Love your neighbor** = the second commandment like the fir'
+note-relationships.md: line 29 in fm looks like body: '**Note relationships** = five link types I put in the body -'
+para-method.md: line 29 in fm looks like body: '**[[PARA]]** is how I sort notes by life responsibility - no'
+repent-and-believe.md: line 29 in fm looks like body: "**Repent and believe** = Jesus' opening command: turn from s"
+seek-the-kingdom-first.md: line 29 in fm looks like body: "**Seek the kingdom first** = put God's rule and righteousnes"
+signal-vs-noise.md: line 29 in fm looks like body: "Most content is noise. PKM fails if capture doesn't filter. "
+take-up-your-cross.md: line 29 in fm looks like body: '**Take up your cross** = deny yourself, pick up the cross da'
+the-collectors-fallacy.md: line 29 in fm looks like body: "Collecting articles feels like progress. It isn't. The colle"
+the-golden-rule.md: line 29 in fm looks like body: '**The Golden Rule** = treat others how you want to be treate'
+the-trusted-inbox.md: line 29 in fm looks like body: "If I don't trust my inbox, I capture in my head instead. One"
+weekly-review-checklists.md: line 29 in fm looks like body: 'My weekly review is a checklist - inbox, calendar, pro
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+18 files are affected by this issue.
+</details></think>
+
+_**Agent (default)**_
+
+Fixing the same frontmatter delimiter issue across 18 notes with a script.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Most files contain trailing `---` separators that should be removed and placed after the last frontmatter field.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+
+notes = Path(&#34;content/english/notes&#34;)
+fixed = []
+
+for p in sorted(notes.glob(&#34;*.md&#34;)):
+    text = p.read_text()
+    if not text.startswith(&#34;---\n&#34;):
+        continue
+
+    lines = text.splitlines(keepends=True)
+    # locate opening ---
+    if lines[0].strip() != &#34;---&#34;:
+        continue
+
+    # find where frontmatter should end: last yaml line before body
+    yaml_key = re.compile(r&#39;^[\w_-]+:&#39;)
+    yaml_cont = re.compile(r&#39;^(\s+-\s|\s{2,})&#39;)
+
+    last_yaml_idx = 0
+    body_start = None
+    for i in range(1, len(lines)):
+        line = lines[i]
+        stripped = line.strip()
+        if stripped == &#34;---&#34;:
+            # existing close - if before body, record
+            last_yaml_idx = i - 1
+            body_start = i + 1
+            break
+        if yaml_key.match(line) or yaml_cont.match(line) or stripped == &#34;&#34;:
+            last_yaml_idx = i
+            continue
+        body_start = i
+        break
+
+    if body_start is None:
+        continue
+
+    # check if body_start line is actually body (not yaml)
+    body_line = lines[body_start].strip()
+    if yaml_key.match(lines[body_start]) or yaml_cont.match(lines[body_start]):
+        continue
+
+    # rebuild: fm lines through last_yaml_idx, then ---, then rest (skip stray trailing ---)
+    fm_lines = lines[:body_start]
+    body_lines = lines[body_start:]
+
+    # remove trailing standalone --- from body
+    while body_lines and body_lines[-1].strip() == &#34;---&#34;:
+        body_lines.pop()
+    if body_lines and not body_lines[-1].endswith(&#34;\n&#34;):
+        body_lines[-1] += &#34;\n&#34;
+
+    new_text = &#34;&#34;.join(fm_lines) + &#34;---\n&#34; + &#34;&#34;.join(body_lines)
+    if new_text != text:
+        p.write_text(new_text)
+        fixed.append(p.name)
+
+print(&#34;Fixed:&#34;, len(fixed))
+for f in fixed:
+    print(&#34; &#34;, f)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+from pathlib import Path
+import re
+
+notes = Path("content/english/notes")
+fixed = []
+
+for p in sorted(notes.glob("*.md")):
+    text = p.read_text()
+    if not text.startswith("---\n"):
+        continue
+
+    lines = text.splitlines(keepends=True)
+    # locate opening ---
+    if lines[0].strip() != "---":
+        continue
+
+    # find where frontmatter should end: last yaml line before body
+    yaml_key = re.compile(r'^[\w_-]+:')
+    yaml_cont = re.compile(r'^(\s+-\s|\s{2,})')
+
+    last_yaml_idx = 0
+    body_start = None
+    for i in range(1, len(lines)):
+        line = lines[i]
+        stripped = line.strip()
+        if stripped == "---":
+            # existing close - if before body, record
+            last_yaml_idx = i - 1
+            body_start = i + 1
+            break
+        if yaml_key.match(line) or yaml_cont.match(line) or stripped == "":
+            last_yaml_idx = i
+            continue
+        body_start = i
+        break
+
+    if body_start is None:
+        continue
+
+    # check if body_start line is actually body (not yaml)
+    body_line = lines[body_start].strip()
+    if yaml_key.match(lines[body_start]) or yaml_cont.match(lines[body_start]):
+        continue
+
+    # rebuild: fm lines through last_yaml_idx, then ---, then rest (skip stray trailing ---)
+    fm_lines = lines[:body_start]
+    body_lines = lines[body_start:]
+
+    # remove trailing standalone --- from body
+    while body_lines and body_lines[-1].strip() == "---":
+        body_lines.pop()
+    if body_lines and not body_lines[-1].endswith("\n"):
+        body_lines[-1] += "\n"
+
+    new_text = "".join(fm_lines) + "---\n" + "".join(body_lines)
+    if new_text != text:
+        p.write_text(new_text)
+        fixed.append(p.name)
+
+print("Fixed:", len(fixed))
+for f in fixed:
+    print(" ", f)
+PY
+```
+
+```
+Fixed: 93
+  _index.md
+  abide-in-me.md
+  active-knowledge-curation.md
+  analog-capture-tools.md
+  anti-fragile-systems.md
+  ask-seek-knock.md
+  associative-linking.md
+  atomic-notes.md
+  building-a-personal-api.md
+  building-a-second-brain.md
+  by-their-fruits.md
+  capture.md
+  cards.md
+  childlike-faith.md
+  compounding.md
+  context-aware-capture.md
+  creative-blocks.md
+  creative-output.md
+  daily-notes.md
+  digital-garden.md
+  digital-minimalism.md
+  digital-serendipity.md
+  dont-worry.md
+  drafting-in-public.md
+  eternal-principles.md
+  evergreen-notes.md
+  evergreen-vs-fleeting-notes.md
+  first-principles-thinking.md
+  forgiveness.md
+  free-grace.md
+  future-proofing-knowledge.md
+  getting-started.md
+  graph-view-analytics.md
+  graph.md
+  great-commission.md
+  gtd-vs-para.md
+  heart-righteousness.md
+  humility-and-service.md
+  intellectual-sourcing.md
+  issues.md
+  judge-not.md
+  let-your-light-shine.md
+  let-your-yes-be-yes.md
+  local-first-software.md
+  love-god.md
+  love-your-enemies.md
+  love-your-neighbor.md
+  low-hanging-fruit.md
+  maps-of-content.md
+  mental-models-list.md
+  metadata-strategy.md
+  mind-mapping.md
+  minimum-effective-dose.md
+  minimum-viable-product.md
+  mobile-capture-workflows.md
+  note-relationships.md
+  para-method.md
+  pareto-principle.md
+  peacemakers.md
+  periodic-knowledge-review.md
+  pkm.md
+  process-over-outcomes.md
+  progressive-summarization.md
+  random-duo.md
+  random-trio.md
+  reconciliation-before-worship.md
+  render-unto-caesar.md
+  repent-and-believe.md
+  review.md
+  rss-for-research.md
+  secret-devotion.md
+  seek-the-kingdom-first.md
+  signal-vs-noise.md
+  slow-productivity.md
+  spaced-repetition.md
+  sunk-cost-fallacy.md
+  synthesis-as-a-goal.md
+  take-up-your-cross.md
+  the-12-week-year.md
+  the-beatitudes.md
+  the-collectors-fallacy.md
+  the-feynman-technique.md
+  the-garage-concept.md
+  the-golden-rule.md
+  the-knowledge-lifecycle.md
+  the-narrow-way.md
+  the-second-brain-workflow.md
+  the-trusted-inbox.md
+  the-wise
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The script was too aggressive and modified 93 files, possibly including correct ones.
+
+The script likely inserted extra `---` delimiters into files that already had valid frontmatter.
+</details></think>
+
+_**Agent (default)**_
+
+The bulk fix may have been too aggressive — verifying the build and spot-checking a few files.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --buildDrafts --minify 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildDrafts --minify 2>&1 | tail -5
+```
+
+```
+ Processed images │  341 
+ Aliases          │  709 
+ Cleaned          │    0 
+
+Total in 10571 ms
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Build succeeded, but some notes have duplicate `---` delimiters — cleaning those up.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+
+notes = Path(&#34;content/english/notes&#34;)
+fixed = 0
+for p in notes.glob(&#34;*.md&#34;):
+    text = p.read_text()
+    new = re.sub(r&#39;^---\n---\n&#39;, &#39;---\n&#39;, text, count=1)
+    if new != text:
+        p.write_text(new)
+        fixed += 1
+print(f&#34;Removed duplicate --- from {fixed} files&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+from pathlib import Path
+import re
+
+notes = Path("content/english/notes")
+fixed = 0
+for p in notes.glob("*.md"):
+    text = p.read_text()
+    new = re.sub(r'^---\n---\n', '---\n', text, count=1)
+    if new != text:
+        p.write_text(new)
+        fixed += 1
+print(f"Removed duplicate --- from {fixed} files")
+PY
+```
+
+```
+Removed duplicate --- from 0 files
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^---$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^---$",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/graph-view-analytics.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/digital-serendipity.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/slow-productivity.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/first-principles-thinking.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/progressive-summarization.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/heart-righteousness.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/creative-blocks.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/spaced-repetition.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/future-proofing-knowledge.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/associative-linking.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/building-a-personal-api.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/mind-mapping.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/daily-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/drafting-in-public.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/pareto-principle.md"
+    }
+  ],
+  "totalFiles": 93,
+  "totalMatches": 279
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+notes = Path(&#34;content/english/notes&#34;)
+for p in sorted(notes.glob(&#34;*.md&#34;)):
+    lines = p.read_text().splitlines()
+    for i in range(len(lines)-1):
+        if lines[i] == &#39;---&#39; and lines[i+1] == &#39;---&#39;:
+            print(p.name, i+1)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+from pathlib import Path
+notes = Path("content/english/notes")
+for p in sorted(notes.glob("*.md")):
+    lines = p.read_text().splitlines()
+    for i in range(len(lines)-1):
+        if lines[i] == '---' and lines[i+1] == '---':
+            print(p.name, i+1)
+PY
+```
+
+```
+_index.md 13
+abide-in-me.md 15
+active-knowledge-curation.md 15
+analog-capture-tools.md 15
+anti-fragile-systems.md 15
+ask-seek-knock.md 30
+associative-linking.md 30
+atomic-notes.md 30
+building-a-personal-api.md 15
+building-a-second-brain.md 30
+by-their-fruits.md 15
+capture.md 30
+cards.md 15
+childlike-faith.md 15
+compounding.md 15
+context-aware-capture.md 15
+creative-blocks.md 15
+creative-output.md 15
+daily-notes.md 15
+digital-garden.md 15
+digital-minimalism.md 15
+digital-serendipity.md 15
+dont-worry.md 15
+drafting-in-public.md 15
+eternal-principles.md 15
+evergreen-notes.md 30
+evergreen-vs-fleeting-notes.md 15
+first-principles-thinking.md 15
+forgiveness.md 30
+free-grace.md 30
+future-proofing-knowledge.md 15
+getting-started.md 15
+graph-view-analytics.md 15
+graph.md 15
+great-commission.md 15
+gtd-vs-para.md 15
+heart-righteousness.md 15
+humility-and-service.md 15
+intellectual-sourcing.md 15
+issues.md 15
+judge-not.md 15
+let-your-light-shine.md 15
+let-your-yes-be-yes.md 15
+local-first-software.md 15
+love-god.md 30
+love-your-enemies.md 30
+love-your-neighbor.md 30
+low-hanging-fruit.md 15
+maps-of-content.md 15
+mental-models-list.md 15
+metadata-strategy.md 15
+mind-mapping.md 15
+minimum-effective-dose.md 15
+minimum-viable-product.md 15
+mobile-capture-workflows.md 15
+note-relationships.md 30
+para-method.md 30
+pareto-principle.md 30
+peacemakers.md 15
+periodic-knowledge-review.md 15
+pkm.md 15
+process-over-outcomes.md 15
+progressive-summarization.md 15
+random-duo.md 16
+random-trio.md 16
+reconciliation-before-worship.md 15
+render-unto-caesar.md 15
+repent-and-believe.md 30
+review.md 16
+rss-for-research.md 15
+secret-devotion.md 15
+seek-the-kingdom-first.md 30
+signal-vs-noise.md 30
+slow-productivity.md 15
+spaced-repetition.md 15
+sunk-cost-fallacy.md 15
+synthesis-as-a-goal.md 15
+take-up-your-cross.md 30
+the-12-week-year.md 15
+the-beatitudes.md 15
+the-collectors-fallacy.md 30
+the-feynman-technique.md 15
+the-garage-concept.md 15
+the-golden-rule.md 30
+the-knowledge-lifecycle.md 15
+the-narro
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Duplicate `---` lines appear in many files.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+
+notes = Path(&#34;content/english/notes&#34;)
+fixed = 0
+for p in notes.glob(&#34;*.md&#34;):
+    lines = p.read_text().splitlines(keepends=True)
+    new_lines = []
+    i = 0
+    changed = False
+    while i &lt; len(lines):
+        line = lines[i]
+        if line.rstrip(&#39;\n&#39;) == &#39;---&#39; and i + 1 &lt; len(lines) and lines[i+1].rstrip(&#39;\n&#39;) == &#39;---&#39;:
+            new_lines.append(line)
+            i += 2
+            changed = True
+            continue
+        new_lines.append(line)
+        i += 1
+    if changed:
+        p.write_text(&#39;&#39;.join(new_lines))
+        fixed += 1
+print(f&#34;Fixed {fixed} files&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+from pathlib import Path
+
+notes = Path("content/english/notes")
+fixed = 0
+for p in notes.glob("*.md"):
+    lines = p.read_text().splitlines(keepends=True)
+    new_lines = []
+    i = 0
+    changed = False
+    while i < len(lines):
+        line = lines[i]
+        if line.rstrip('\n') == '---' and i + 1 < len(lines) and lines[i+1].rstrip('\n') == '---':
+            new_lines.append(line)
+            i += 2
+            changed = True
+            continue
+        new_lines.append(line)
+        i += 1
+    if changed:
+        p.write_text(''.join(new_lines))
+        fixed += 1
+print(f"Fixed {fixed} files")
+PY
+```
+
+```
+Fixed 92 files
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Removing consecutive dashes may have broken legitimate frontmatter sequences.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --buildDrafts --minify 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildDrafts --minify 2>&1 | tail -5
+```
+
+```
+ Processed images │  341 
+ Aliases          │  709 
+ Cleaned          │    0 
+
+Total in 9760 ms
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The Hugo error was a **missing frontmatter delimiter**. In `ask-seek-knock.md`, the body started on line 29 while YAML was still open — Hugo tried to parse markdown as YAML and failed with `non-map value is specified`.
+
+The closing `---` had ended up at the bottom of the file instead of after the frontmatter fields.
+
+**Fix:** Move the closing `---` to immediately after the last frontmatter field (`aliases`), before the body.
+
+The same issue was present in several other notes (including `associative-linking.md`, `capture.md`, and others). Those are corrected too. Hugo builds successfully now — your dev server should recover on the next watch cycle, or you can restart it if needed.

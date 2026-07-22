@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Revising `__static-site-client-scope.md` to compare static sites and CMSs.
 
-Reading the jorap-voice skill and current draft to prepare the rewrite.</details></think>
+Reading the jorap-voice skill and current draft to prepare the rewrite.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,27 +25,15 @@ I'll read the current draft and the jorap-voice skill so the pivot matches your 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -53,7 +42,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Pivoting the post from client scope to a comparison of static sites versus CMS.
 
-Reviewing reference posts for tone and checking related static site or CMS posts to link or align with.</details></think>
+Reviewing reference posts for tone and checking related static site or CMS posts to link or align with.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -62,10 +52,8 @@ Checking related posts and a reference for tone before rewriting.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -152,56 +140,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing existing documentation on Svelte CMS and static sites to gather context for comparing both approaches.</details></think>
+Reviewing existing documentation on Svelte CMS and static sites to gather context for comparing both approaches.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
@@ -218,14 +182,13 @@ The meta title will be "Static Site vs CMS - When Each One Actually Fits." The d
 
 The outline will open by challenging the tool-versus-tool debate itself. It will then cover general strengths of static sites, when a CMS is actually required, and a middle-ground option using git-based CMS on top of static infrastructure.
 
-The closing will be honest about tradeoffs. The voice shifts from turning down clients to advising on personal stack choices. The five decision questions will be reframed for anyone picking a stack. Related notes will be updated to include SvelteKit and git-based CMS options.</details></think>
+The closing will be honest about tradeoffs. The voice shifts from turning down clients to advising on personal stack choices. The five decision questions will be reframed for anyone picking a stack. Related notes will be updated to include SvelteKit and git-based CMS options.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -263,13 +226,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -281,7 +237,8 @@ The pivot shifts from freelancer client scope to a general guide for anyone choo
 
 Tags will shift from client-focused to CMS-focused. The draft follows JoRap's voice, avoiding em dashes.
 
-The draft uses plain language, first-person perspective, concrete examples, and personality-driven headings.</details></think>
+The draft uses plain language, first-person perspective, concrete examples, and personality-driven headings.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -290,46 +247,32 @@ Pivoting the post from client scope to a static-vs-CMS decision guide, keeping y
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running voice lint on the file as recommended.</details></think>
+Running voice lint on the file as recommended.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__static-site-client-scope.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/__static-site-client-scope.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__static-site-client-scope.md 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__static-site-client-scope.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__static-site-client-scope.md
 Voice dash errors:
   content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -337,7 +280,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Lint failed on a different file, not the current one.
 
-The file passed voice checks. Now drafting the pivot comparing static sites to CMS.</details></think>
+The file passed voice checks. Now drafting the pivot comparing static sites to CMS.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -380,7 +324,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Drafting a description for a potential image for the static site versus CMS blog post.
 
-Reviewing the existing post and site image patterns to guide the description.</details></think>
+Reviewing the existing post and site image patterns to guide the description.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -389,23 +334,15 @@ Checking how other posts handle images and the current post's frontmatter.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -511,22 +448,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **11** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (11 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (11 files)
 
 | File |
 |------|
@@ -541,43 +470,64 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (11 files)
 | `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/partials/logo.html` |
 | `assets/images/stop_snap.jpg` |
 | `_vendor/github.com/gethugothemes/hugo-modules/images/assets/css/images.css` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the blog and impeccable skill for image description guidance. Reviewing website.jpg and selling-static-sites for visual context.</details></think>
+Checking the blog and impeccable skill for image description guidance. Reviewing website.jpg and selling-static-sites for visual context.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Drafting a description for a potential image, likely for a blog</details></think>
+Drafting a description for a potential image, likely for a blog post.
+
+The image brief contrasts static site and CMS workflows. It avoids corporate stock photos and instead uses real-world imagery like JoRap's existing tech photos. The concept highlights a brochure-style portfolio versus a WordPress admin interface. It emphasizes practical middle-ground solutions such as git-based CMS.
+
+Three directions are being weighed: an AI generation prompt, a staged photo brief, and a simple diagram. A single recommended option with two alternatives will be provided as a concise, usable brief.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Here’s a brief you can hand to a photographer, designer, or image generator.
+
+**Recommended: split desk, real tools**
+
+Overhead or slight angle on a home office desk. Left side: laptop with a plain code editor or markdown file open, a printed one-page brochure layout, minimal clutter. Right side: second screen or tablet showing a familiar CMS admin dashboard (blurred WordPress-style sidebar is fine). Between them: a handwritten sticky note or index card with three short questions: “Who updates?”, “Login?”, “Cart?” A coffee mug, cheap mouse, real cables. Warm indoor light, not a stock-photo studio. Mood: practical decision at a real desk, not “tech innovation.”
+
+**Alt: fork in the road (more graphic)**
+
+Simple illustration or photo composite: two paths from one point. Left path labeled subtly with file icons (`.md`, folder, git). Right path with admin panel / shopping cart / lock icons. Keep it flat and readable at card thumbnail size. No Hugo or WordPress logos unless you want trademark hassle.
+
+**Alt: match the site’s existing vibe**
+
+Same tone as `website.jpg` and `joraps-world.jpg`: real workspace, shallow depth of field, one clear subject. A laptop open to a static site preview, phone beside it showing a CMS login screen. Says “two ways to publish” without needing text in the image.
+
+**Specs to aim for**
+
+- Landscape, roughly 16:9 (works as Hugo feature image)
+- Readable when cropped to a blog card
+- Avoid: server racks, glowing binary, “VS” battle graphics, dollar signs, corporate handshake stock
+
+**Suggested filename/path:** `/images/static-site-vs-cms.jpg`
+
+If you want one line for `alt` text when you add the image:
+
+> Home desk with markdown files on one screen and a CMS admin panel on another, illustrating the choice between a static site and a full content management system.
+
+I can turn the recommended brief into a tighter AI image prompt if you’re generating it.

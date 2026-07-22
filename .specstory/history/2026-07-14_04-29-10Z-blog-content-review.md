@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing the hanamikoji-duopoly-retheme blog post for coherence and errors.
 
-Reading the blog post and jorap-voice skill examples. Running voice lint to check for errors.</details></think>
+Reading the blog post and jorap-voice skill examples. Running voice lint to check for errors.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,28 +25,21 @@ Reviewing the Hanamikoji post for sense, factual consistency, and JoRap voice �
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/hanamikoji-duopoly-retheme.md 2>&1; pnpm lint:blog -- content/english/blog/hanamikoji-duopoly-retheme.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/hanamikoji-duopoly-retheme.md 2&gt;&amp;1; pnpm lint:blog -- content/english/blog/hanamikoji-duopoly-retheme.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/hanamikoji-duopoly-retheme.md 2>&1; pnpm lint:blog -- content/english/blog/hanamikoji-duopoly-retheme.md 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check -- content/english/blog/hanamikoji-duopoly-retheme.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/blog/hanamikoji-duopoly-retheme.md
 Voice dash errors:
   content/english/blog/hanamikoji-duopoly-retheme.md: em/en dash found (4); use hyphen, comma, or parentheses (jorap-voice)
   content/english/blog/one-page-zine.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
@@ -54,24 +48,12 @@ $ python3 scripts/normalize-blog-frontmatter.py --verify -- content/english/blog
 Blog frontmatter OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
@@ -90,7 +72,8 @@ Action markers are correctly described as cardboard tokens rather than cards. Th
 
 The "fourteen little moves" line is slightly confusing because it describes seven nudgable markers rather than fourteen individual moves. Using "EU" as a country slot is a minor thematic quirk. The related note links feel appropriate. The JoRap voice is strong and practical overall, though some parallel triplets sound slightly AI-like.
 
-The parallel triplet about visual noise and friction is intentional borderlie that fits the punchy style. Now hunting down the em dashes.</details></think>
+The parallel triplet about visual noise and friction is intentional borderlie that fits the punchy style. Now hunting down the em dashes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -99,10 +82,8 @@ Checking em dashes, the typo, and Hanamikoji facts against the rules.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -133,21 +114,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -178,20 +150,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check -- content/english/blog/hanamikoji-duopoly-retheme.md 2>&1 | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check -- content/english/blog/hanamikoji-duopoly-retheme.md 2&gt;&amp;1 | head -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check -- content/english/blog/hanamikoji-duopoly-retheme.md 2>&1 | head -30
 ```
@@ -200,12 +164,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -225,36 +183,27 @@ Image paths still need verification.
 
 Specific voice errors spotted: a typo ("mechannic"), four em dashes across lines 143 and 147, and a grammar issue on line 41 where "mechanic and its simplicity holds" should read "holds" or use a singular "mechanic."
 
-The compound subject on line 41 needs a plural verb: "the mechanic and its simplicity hold." The parallel triplet "Mechanics unchanged. Visual noise stripped. Friction lowered." is intentionally punchy and fits the JoRap voice. The description frontmatter also reads well. "Burn a Trade-off" is acceptable gamer slang for the chop/pass action.</details></think>
+The compound subject on line 41 needs a plural verb: "the mechanic and its simplicity hold." The parallel triplet "Mechanics unchanged. Visual noise stripped. Friction lowered." is intentionally punchy and fits the JoRap voice. The description frontmatter also reads well. "Burn a Trade-off" is acceptable gamer slang for the chop/pass action.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (3 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (3 files)
 
 | File |
 |------|
 | `assets/images/duopoly-actions.jpg` |
 | `assets/images/duopoly.jpg` |
 | `assets/images/duopoly-countries.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -313,21 +262,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -343,23 +283,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [How to play Hanamikoji | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/hanamikoji/game-rules.php)\n2. [Gamehelphanamikoji - Board Game Arena](https://en.boardgamearena.com/doc/Gamehelphanamikoji)\n3. [Memoirs of Seven Geishas--A Double-Take Review of Hanamikoji — Theology of Games](https://www.theologyofgames.com/blog/2018/7/23/memoirs-of-seven-geishas-a-double-take-review-of-hanamikoji)\n4. [Hanamikoji: Getting charm points with the geishas -](https://www.boardgamemeeplelady.com/2020/12/16/hanamikoji-getting-charm-points-with-the-geishas/)\n5. [Hanamikoji: Elegant Choices - The Family Gamers](https://www.thefamilygamers.com/hanamikoji/)\n\nSynthesis:\nHanamikoji is a two-player strategy game where players compete to earn the favor of seven geishas by collecting matching performance item cards [1][2].\n\nGame components include 7 geisha cards, 21 item cards, 8 action markers, and 7 victory markers [1][3]. Each geisha card displays a charm point value (from 2 to 5), which matches the number of corresponding item cards available in the deck [3][4].\n\nPlayers win by reaching 4 geishas or 11 or more total charm points [1][5]. If no winner emerges in a round, victory markers remain in place for the next round [3][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to play Hanamikoji | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/hanamikoji/game-rules.php\u003c/url\u003e\n\u003ccontent\u003eIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel.\n...\n- 7 Geisha Cards\n- 21 Item Cards\n- 8 Action Markers\n- 7 Victory Markers\n...\n##### Geisha Cards\n...\n1 Charm Points (equal to the number of Item Cards of the corresponding type).\n...\n2 Corresponding Item.\n...\n##### Item Cards\n...\n1 Charm Points (equal to the number of Item Cards of the corresponding type).\n...\n2 Corresponding Item.\n...\nIn the game of Hanamikoji, the aim is to win 4 Geisha or 11 (or more) Charm Points. You and your opponent take turns to perform actions to get different kinds of Item Cards.\n...\nFor each Geisha, if you have more Item Cards of the corresponding type than your opponent, then you win the Geisha's favor.\n...\n7 Ge\n...\nCards in a row,\n...\nDeal each player 6 Item Cards as a hand.\n...\ninformation is hidden.\n...\nAction Marker and\n...\nchoose face-\n...\nmarkersd (each of\n...\nBoth players reveal the card under their Secret markers, and place this card on their side next to the corresponding Geisha. Then, compare the number of Item Cards on both sides of each Geisha:\n...\nOne side is more than the other: The side with more Item Cards wins this Geisha. Move the corresponding Victory Marker to the winning side.\n...\nAfter scoring, both players calculate the number of Geisha they win and the sum of their Charm Points. If any player reaches the winning goal, the game ends immediately (See: End of the Game).\n...\nIf any player wins 4 Geisha or 11 (or more) Charm Points, the game ends immediately.\n...\nIf only one player reaches the winning goal, he is the winner.\n...\nIf one player wins 4 Geisha and the other wins 11 (or more) Charm Points, the latter is the winner.\n...\nExample: Top player wins 3 Geisha, with a total of 8 Charm Points. Bottom player wins 3 Geisha, with a total of 11 Charm Points. Since the bottom player reaches the winning goal, the game ends immediately. Bottom player is the winner.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eGamehelphanamikoji - Board Game Arena\u003c/title\u003e\n\u003curl\u003ehttps://en.boardgamearena.com/doc/Gamehelphanamikoji\u003c/url\u003e\n\u003ccontent\u003eIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel. With careful speculation and sometimes a few bold moves, you may earn the essential items by giving away the less critical ones. Can you outsmart your opponent and win the most favors of the geisha?\n...\nThe aim is to win 4 (or more) Geishas or 11 (or more) Charm Points. Each Geisha has a number of Charm Points printed on her card. This number is also printed on each matching Item Card, as a reminder.\n...\nYou and your opponent take turns to perform actions to get different kinds of Item Cards. For each Geisha, if you have more Item Cards of the corresponding type than your opponent, then you win the Geisha’s favor, and thus her Charm Points at the end of the round.\n...\nBoth players reveal their reserved card and add it to their side of the corresponding Geisha.\n...\nThen, the number of Item Cards on both sides of each Geisha is compared:\n...\n- If one side has more cards than the other: The side with more Item Cards wins this Geisha. The corresponding Victory Marker is moved to the winning side.\n- Two sides are draw or no cards: The Victory Marker does not move.\n...\n- Victory Markers remain in place. (Note: They don’t move back to the center of each Geisha Card.)\n- Action tokens are flipped face-up.\n- The second player becomes the new starting player.\n- ALL Items cards are shuffled back.\n...\nIf any player wins 4 (or more) Geishas or 11 (or more) Charm Points, the game ends immediately. Each Geisha whose Victory Marker is on your side grants you her Charm Points, but these are lost if the other player steals the Geisha away in a future round.\n...\nIf only one player reaches the winning goal, they are the winner.\n...\nIf one player wins 4 Geishas and the other wins 11 (or more) Charm Points, the one with the Charm Points wins the tie.\n...\nPick 4\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eMemoirs of Seven Geishas--A Double-Take Review of Hanamikoji — Theology of Games\u003c/title\u003e\n\u003curl\u003ehttps://www.theologyofgames.com/blog/2018/7/23/memoirs-of-seven-geishas-a-double-take-review-of-hanamikoji\u003c/url\u003e\n\u003ccontent\u003e### The Components\n...\n- 8 Action markers (2 identical sets of 4 markers)\n- 7 Favor tokens\n- 21 Item cards\n- 7 Geisha cards\n- TOG's Top Rated/\n...\nThose Geisha cards have Charm Point values on them: three 2-value Geishas, two 3-value Geishas, and one each of a 4-value and 5-value. You might notice that those values add up to 21, which is the number of Item cards in the game. The Item cards each have an Item on them that corresponds to and matches one of the Geishas. There are as many of that Item as there are Charm Points on the Geisha.\n...\nYou set the Geisha cards out in a line, from lowest value to highest, and place a Favor token on the center of each card. Each player takes one of the identical sets of 4 Action markers and places them faceup in front of them. Shuffle the Item cards and set them aside. Randomly choose a starting player.\n...\nScoring--Both players reveal the Secret card they hid earlier and place it in front of the appropriate geisha. Now you look at the number of cards on each side of each geisha. If there are more cards on one side, you move the Charm token to that player's side of the card. If there's a tie (or there are no cards on either side), it's a draw and you don't move the Charm token. This becomes important in subsequent rounds, when a token might already be on one side or the other. It stays on that side in a draw.\n...\nNow you check the score. If a player has influenced 4 of the 7 geishas, he or she wins. Or if a player has influenced 11 points worth of geishas, he or she wins. It's entirely possible for both of those things to happen at the end of a round. If that does happen, the player who influenced 11 points of geishas wins that tie, and thus the game.\n...\nRefresh--If no one has won, you gather and shuffle the Item cards (including the one you set aside earlier in the round), flip Action markers faceup, and leave the Charm tokens where they are. The other player becomes the new starting player, and you play another round.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eHanamikoji: Getting charm points with the geishas -\u003c/title\u003e\n\u003curl\u003ehttps://www.boardgamemeeplelady.com/2020/12/16/hanamikoji-getting-charm-points-with-the-geishas/\u003c/url\u003e\n\u003ccontent\u003eoki, first\n...\nis one of\n...\nhave come into\n...\nly and Mash\n...\nThis small portable box, which is about the size of a small paperback, includes 7 geisha cards, 21 item cards, cardboard victory markers and cardboard action tokens — 4 for each player. Though the game comes with few components, it packs a big punch with its tension-filled back-and-forth gameplay. And you don’t need a lot of table space to play this game, which is good these days as many game tables have evolved into multi-purpose spaces within the household.\n...\nIn Hanamikoji, players are working to gain the favor of the seven geishas by collecting their favored performance item, in this case, cards that match the geishas’ symbol. The seven geisha cards are displayed in between the two players, and this is where most of the gaming occurs as cards are placed above or below each geisha card based on which player plays them. Each geisha card has a number on the top left of the card, which indicates their charm points and equals the number of matching item cards for that geisha. The geishas range from 2 to 5 charm points.\n...\nwill be scored\n...\nthe end of the round to go toward\n...\ngeisha’\n...\nforth taking one action each until they\n...\nve exhausted all their action tokens.\n...\nflip over secret cards that score,\n...\nisha favors based on the\n...\nof item cards each player has given them. The victory markers on the\n...\nPlayers play cards on their side of the board to gain charm points.\n...\nPlayers aim to win 4 geishas or 11 or more charm points. If there is no clear victory in the first round, players play until three rounds are over. In between rounds, the victory markers do not reset, but instead stay toward the side of the player who curried the geisha’s favor the previous round. If nobody gets the 4 geishas or 11 or more charm points after three rounds, the player with more geishas wins the game.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eHanamikoji: Elegant Choices - The Family Gamers\u003c/title\u003e\n\u003curl\u003ehttps://www.thefamilygamers.com/hanamikoji/\u003c/url\u003e\n\u003ccontent\u003eIn Hanamikoji, two players compete for seven geishas’ favor by taking four actions per round to strategically collect their preferred performance item. Designed by Kota Nakayama, with art by Maisherly and published by EmperorS4 and Deep Water Games, Hanamikoji is a game for two players that plays in 15 minutes or less. The object is to win the favor of four Geisha or score 11 charm points at the end of a round.\n...\nDepicted on the seven Geisha cards are charm points and a corresponding favored item. Item cards have charm points and the item name. Both sets of cards have a matching color scheme making them easy to pair together.\n...\nThe game is played over a varying number of rounds, moving through a sequence of four phases until a player wins the favor of a Geisha or 11 charm points. Phases flow as follows:\n...\nAfter both players have performed each of their four actions, it’s time to score. First. both players reveal the card under their Secret maker and move it next to its corresponding Geisha. Then they compare the number of item cards on both sides of each Geisha. If one side has more cards than the other, move the favor token to the winning side. If the sides are equal, do not move the favor marker.\n...\nAfter moving favor markers, each player than calculates the total number of charm points they receive from the Geishas whose favor they won. If any player gains the favor of four Geishas or has a total of 11 or more charm points a winner is declared. If not, then the game continues on.\n...\nFar player receives charm points from fan geisha (2) and flower geisha (5) for a total of 7. Near player gets 2 + 3 + 4 = 9 charm points. Neither has 11 this time, so they’ll play another round.\n...\nanamikoji\n...\nThere are a\n...\n, so there\n...\nmajority for a given category\n...\nIf short on time, there is an optional rule that ends the game after three rounds. Then the player who earns the most charm points in the final round wins.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [How to play Hanamikoji | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/hanamikoji/game-rules.php)\n2. [Gamehelphanamikoji - Board Game Arena](https://en.boardgamearena.com/doc/Gamehelphanamikoji)\n3. [Memoirs of Seven Geishas--A Double-Take Review of Hanamikoji — Theology of Games](https://www.theologyofgames.com/blog/2018/7/23/memoirs-of-seven-geishas-a-double-take-review-of-hanamikoji)\n4. [Hanamikoji: Getting charm points with the geishas -](https://www.boardgamemeeplelady.com/2020/12/16/hanamikoji-getting-charm-points-with-the-geishas/)\n5. [Hanamikoji: Elegant Choices - The Family Gamers](https://www.thefamilygamers.com/hanamikoji/)\n\nSynthesis:\nHanamikoji is a two-player strategy game where players compete to earn the favor of seven geishas by collecting matching performance item cards [1][2].\n\nGame components include 7 geisha cards, 21 item cards, 8 action markers, and 7 victory markers [1][3]. Each geisha card displays a charm point value (from 2 to 5), which matches the number of corresponding item cards available in the deck [3][4].\n\nPlayers win by reaching 4 geishas or 11 or more total charm points [1][5]. If no winner emerges in a round, victory markers remain in place for the next round [3][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to play Hanamikoji | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/hanamikoji/game-rules.php\u003c/url\u003e\n\u003ccontent\u003eIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel.\n...\n- 7 Geisha Cards\n- 21 Item Cards\n- 8 Action Markers\n- 7 Victory Markers\n...\n##### Geisha Cards\n...\n1 Charm Points (equal to the number of Item Cards of the corresponding type).\n...\n2 Corresponding Item.\n...\n##### Item Cards\n...\n1 Charm Points (equal to the number of
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -372,34 +301,25 @@ The retail charm point spread and row order are correct. "Fourteen little moves"
 
 Action names match retail English. Eight action markers are correct. The flip mechanic is a valid design choice. The `hanamikoji-rules` alias preserves URL continuity.
 
-The alias name differs from the post content but works for redirects. Need to check if the original file still exists or was renamed.</details></think>
+The alias name differs from the post content but works for redirects. Need to check if the original file still exists or was renamed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/content** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content`** (1 file)
 
 | File |
 |------|
 | `english/blog/hanamikoji-duopoly-retheme.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -471,13 +391,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -501,34 +414,25 @@ The `hanamikoji-rules` alias is meant for URL continuity only, since the post cl
 
 The related_notes slugs still need verification.
 
-The image shortcode references `images/duopoly-actions.jpg`, while the actual asset lives under `assets/images/`. Hugo usually resolves this path correctly.</details></think>
+The image shortcode references `images/duopoly-actions.jpg`, while the actual asset lives under `assets/images/`. Hugo usually resolves this path correctly.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/content** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content`** (1 file)
 
 | File |
 |------|
 | `english/notes/minimum-effective-dose.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -561,13 +465,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -575,27 +472,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Line 125 uses "theirs" to refer to action cards.
 
-The "tuck under theirs" phrasing is ambiguous but acceptable. Now checking for existing practice-small-experiments and signal-vs-noise notes.</details></think>
+The "tuck under theirs" phrasing is ambiguous but acceptable. Now checking for existing practice-small-experiments and signal-vs-noise notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/content** (2 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content`** (2 files)
 
 | File |
 |------|
 | `english/notes/signal-vs-noise.md` |
 | `english/notes/practice-small-experiments.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -613,7 +503,8 @@ The light AI tell uses a triple parallel punch that fits JoRap style. "Dull flag
 
 Re-reading the fourteen little moves line suggests it may describe fourteen binary ownership slots across seven markers, or cumulative nudges over a game. That reading is a stretch.
 
-The fourteen little moves line is flagged as slightly unclear phrasing rather than a factual error. The EU country listing is intentional dry humor for the business frame. The win condition math is correct. The flip mechanic omits neutral-on-tie behavior for DRAW cases, though this is acceptable for a build log.</details></think>
+The fourteen little moves line is flagged as slightly unclear phrasing rather than a factual error. The EU country listing is intentional dry humor for the business frame. The win condition math is correct. The flip mechanic omits neutral-on-tie behavior for DRAW cases, though this is acceptable for a build log.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -727,7 +618,8 @@ Applying the suggested fixes to the hanamikoji-duopoly-retheme.md file.
 
 Fixing the typo on line 41 and the grammar error. Correcting em dashes on lines 143 and 147. Considering optional soft polish items too.
 
-Limiting changes to the hard fixes only. Reading the file now.</details></think>
+Limiting changes to the hard fixes only. Reading the file now.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -736,26 +628,104 @@ Applying the typo, grammar, and em-dash fixes.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: </summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Applying all fixes now.
+
+Fixing four specific text issues across lines 41, 143, and 147. Then running lint to verify.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint to verify everything passes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/hanamikoji-duopoly-retheme.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/hanamikoji-duopoly-retheme.md 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/blog/hanamikoji-duopoly-retheme.md
+Voice dash errors:
+  content/english/blog/one-page-zine.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The hanamikoji post is clean. The lint failure comes from one-page-zine.
+
+Running lint directly on the hanamikoji file to confirm it passes in isolation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/hanamikoji-duopoly-retheme.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/hanamikoji-duopoly-retheme.md 2>&1
+```
+
+```
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All fixes have been applied.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Done. Changes:
+
+- **Line 41:** `mechannic and its simplicity holds` → `mechanic still holds`
+- **Line 143:** em dashes → parentheses around the aside
+- **Line 147:** two em dashes → period and comma
+
+`pnpm lint:voice` is clean on this file. (Site-wide lint still flags one em dash in `one-page-zine.md`, unrelated to this post.)

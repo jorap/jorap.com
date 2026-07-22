@@ -17,31 +17,103 @@ I'll read the note and the voice skill, then revise it to drop jorap.com and str
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I will edit the free-tier-hosting-stack document to remove references to jorap.com and emphasize the limitations of free hosting.</details></think>
+I will edit the free-tier-hosting-stack document to remove references to jorap.com and emphasize the limitations of free hosting.
+
+I will move the free tier limitations earlier in the document and describe exact constraints such as 500 monthly builds and one concurrent build. The tone will shift from optimistic framing to a more upfront warning about what breaks.
+
+The document will open with a warning that free hosting has hard caps, followed by a brief stack overview. The new structure leads with exact limits rather than starting with a blog link.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Revising the note to remove jorap.com references and lead with free-tier constraints.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md",
+  "pattern": "jorap\\.com|JoRap\\.com"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md",
+  "pattern": "jorap\\.com|JoRap\\.com",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/notes/free-tier-hosting-stack.md 2&gt;&amp;1 | head -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/notes/free-tier-hosting-stack.md 2>&1 | head -30
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/notes/free-tier-hosting-stack.md
+Voice dash errors:
+  content/english/blog/how-i-built-jorap-notes.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Updated `free-tier-hosting-stack.md`:
+
+**Removed jorap.com** — dropped from `examples` and the first flashcard. No other site-name references remain.
+
+**Limits up front** — `key_concept` now opens with hard caps (500 builds/account/month, 1 concurrent build, 20k files, 20-min timeout) and calls out what actually breaks: multi-client accounts, fat repos, build queues. Bandwidth is noted as the generous part.
+
+**Tone shift** — cut “normal brochure sites sit far below that.” Added a “Where free breaks first” section and tied failed builds to the monthly cap. `description` now leads with limits, not “$0 until upgrade.”
+
+**Examples and cards** — both scenes are limit-driven (twelve clients burning the build budget; a failed Hugo pin still eating a build slot).

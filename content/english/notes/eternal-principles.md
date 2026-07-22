@@ -11,7 +11,7 @@ key_concept: |
   - Each spine note opens `key_concept` with Jesus' words on that principle (NASB 1995) - then JoRap commentary and cross-links.
   - Start at [[Free Grace]] if the order matters. Then wander by section below.
   - Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/).
-  - Filter by **Eternal Principles**, **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
+  - Filter by **Eternal Principles**, **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship**, or **Jesus Rhythms** to match each section.
   - What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
 shareable_thought:
   - "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
@@ -25,6 +25,9 @@ relationships:
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Jesus' commands are how you live after grace, not the price tag for heaven"
+  - type: alternative
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Teaching lane vs biography lane - what He said and what He did"
 slug: "eternal-principles"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"
@@ -36,6 +39,9 @@ featured: true
 draft: false
 ---
 
+## Jesus' rhythms
+
+Biography lane - what the Gospels show He did day to day. Hub: [[Jesus' Rhythms]]. Teaching lane stays in the sections below.
 
 ## Theological basis
 

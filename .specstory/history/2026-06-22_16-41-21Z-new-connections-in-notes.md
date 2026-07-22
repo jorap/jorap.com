@@ -13,7 +13,8 @@ Find new connections across all notes
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Searching all notes for new connections.</details></think>
+Searching all notes for new connections.
+</details></think>
 
 _**Agent (default)**_
 
@@ -22,23 +23,15 @@ Exploring how note connections work in the codebase and what "find new connectio
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -122,4980 +115,17 @@ Result:
           },
           {
             "lineNumber": 17,
-            "text": "      {{- continue -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    {{- $noteLabels := .Params.tags | default slice -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $noteLabels = $noteLabels | append (.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- if eq (len $noteLabels) 0 -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- continue -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    {{- $shared := slice -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    {{- range $labels -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "      {{- if in $noteLabels . -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "        {{- $shared = $shared | append . -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    {{- $overlap := len $shared -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {{- if gt $overlap 0 -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      {{- $minLen := len $labels -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "      {{- if lt (len $noteLabels) $minLen -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "        {{- $minLen = len $noteLabels -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      {{- $score := div (float $overlap) (float $minLen) -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      {{- $results = $results | append (dict \"Page\" . \"Score\" $score \"Shared\" $shared) -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "  {{- $results = sort $results \"Score\" \"desc\" -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  {{- $results = first $limit $results -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 43
-          },
-          {
-            "lineNumber": 44,
-            "text": "{{- if eq (len $results) 0 -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  {{- $relatedNotes := slice -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "  {{- range site.RegularPages.Related $page -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "    {{- if eq .Section \"notes\" -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "      {{- if partial \"notes/is-utility-page.html\" . -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "      {{- $relatedNotes = $relatedNotes | append (dict \"Page\" . \"Score\" 0.0 \"Shared\" slice) -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "  {{- $results = first $limit $relatedNotes -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57,
-            "text": "{{- return $results -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 57
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/related-notes.html",
-        "signatures": {}
-      },
-      "score": 0.368522047996521
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 94,
-            "text": "    {{- range $needles -}}"
-          },
-          {
-            "lineNumber": 95,
-            "text": "      {{- if lt (len .) $minLen -}}"
-          },
-          {
-            "lineNumber": 96,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 97,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 98,
-            "text": "      {{- $isAlias := ne . $other.Title -}}"
-          },
-          {
-            "lineNumber": 99,
-            "text": "      {{- if and $isAlias $linkedToOther -}}"
-          },
-          {
-            "lineNumber": 100,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 101,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 102,
-            "text": "      {{- $words := split . \" \" -}}"
-          },
-          {
-            "lineNumber": 103,
-            "text": "      {{- $multiWord := gt (len $words) 1 -}}"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      {{- $escaped := replaceRE &#96;([.*+?^${}()|[\\]\\\\])&#96; &#96;\\\\$1&#96; . -}}"
-          },
-          {
-            "lineNumber": 105,
-            "text": "      {{- $wikilinkPattern := printf &#96;(?i)\\[\\[%s(?:#[^\\]|]+)?\\]\\]&#96; $escaped -}}"
-          },
-          {
-            "lineNumber": 106,
-            "text": "      {{- if findRE $wikilinkPattern $raw -}}"
-          },
-          {
-            "lineNumber": 107,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 108,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 109,
-            "text": "      {{- if $multiWord -}}"
-          },
-          {
-            "lineNumber": 110,
-            "text": "        {{- if not (findRE (printf &#96;(?i)%s&#96; $escaped) $mentionRaw) -}}"
-          },
-          {
-            "lineNumber": 111,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 112,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 113,
-            "text": "        {{- $wordPattern := printf &#96;(?i)(?:^|[^[\\w])%s(?:[^]\\w]|$)&#96; $escaped -}}"
-          },
-          {
-            "lineNumber": 114,
-            "text": "        {{- if not (findRE $wordPattern $mentionRaw) -}}"
-          },
-          {
-            "lineNumber": 115,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 116,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 117,
-            "text": "      {{- else -}}"
-          },
-          {
-            "lineNumber": 118,
-            "text": "        {{- if not (findRE (printf &#96;%s&#96; $escaped) $mentionRaw) -}}"
-          },
-          {
-            "lineNumber": 119,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 120,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 121,
-            "text": "        {{- $wordPattern := printf &#96;(?:^|[^[\\wA-Z])%s(?:[^]\\w]|$)&#96; $escaped -}}"
-          },
-          {
-            "lineNumber": 122,
-            "text": "        {{- if not (findRE $wordPattern $mentionRaw) -}}"
-          },
-          {
-            "lineNumber": 123,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 124,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 125,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 126,
-            "text": "      {{- $ukey := printf \"%s|%s\" $path (lower .) -}}"
-          },
-          {
-            "lineNumber": 127,
-            "text": "      {{- if not (index $unlinkedKeys $ukey) -}}"
-          },
-          {
-            "lineNumber": 128,
-            "text": "        {{- $unlinkedKeys = merge $unlinkedKeys (dict $ukey true) -}}"
-          },
-          {
-            "lineNumber": 129,
-            "text": "        {{- $unlinked = $unlinked | append (dict \"mention\" . \"suggestTitle\" $other.Title \"suggestPage\" $other) -}}"
-          },
-          {
-            "lineNumber": 130,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 131,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 132,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 133
-          },
-          {
-            "lineNumber": 134,
-            "text": "  {{- $structure := slice -}}"
-          },
-          {
-            "lineNumber": 135,
-            "text": "  {{- if and (eq ($note.Params.note_kind | default \"note\") \"note\") (not (partial \"notes/is-utility-page.html\" $note)) -}}"
-          },
-          {
-            "lineNumber": 136,
-            "text": "    {{- $rels := partial \"notes/relationship-types.html\" $note -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 136
-          },
-          "startPosition": {
-            "line": 93
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.36772701144218445
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /* Featured notes first; each group sorted by wikilink degree (desc), then title (asc). */ -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $pages := .Pages -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{- $graph := partialCached \"notes/graph-data.html\" site \"graph-data-v3\" -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $scratch := newScratch -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- range $graph.edges -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  {{- $scratch.Add .source 1 -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  {{- $scratch.Add .target 1 -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $sortByConnections := slice -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- range $pages -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $count := $scratch.Get .RelPermalink | default 0 -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- $key := printf \"%05d_%s\" (sub 99999 $count) .Title -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  {{- $sortByConnections = $sortByConnections | append (dict \"page\" . \"key\" $key) -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $sortByConnections = sort $sortByConnections \"key\" -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- $sorted := slice -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- range $sortByConnections -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- $sorted = $sorted | append .page -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- $featured := where $sorted \"Params.featured\" true -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "{{- $rest := complement $featured $sorted -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- return ($featured | append $rest) -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 22
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/sort-by-connections.html",
-        "signatures": {}
-      },
-      "score": 0.3670906126499176
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 50,
-            "text": "  {{- $pipeKeys := dict -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- $pipeMatches := findRE &#96;\\[\\[[^\\]]+\\|[^\\]]+\\]\\]&#96; $raw -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  {{- range $pipeMatches -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "    {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    {{- $key := lower $inner -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "    {{- if not (index $pipeKeys $key) -}}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "      {{- $pipeKeys = merge $pipeKeys (dict $key true) -}}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "      {{- $target := $inner -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "      {{- if strings.Contains $inner \"|\" -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "        {{- $target = index (split $inner \"|\") 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 60,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 61,
-            "text": "      {{- $pipe = $pipe | append (dict \"raw\" $inner \"target\" $target) -}}"
-          },
-          {
-            "lineNumber": 62,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 63,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 64
-          },
-          {
-            "lineNumber": 65,
-            "text": "  {{- $unlinked := slice -}}"
-          },
-          {
-            "lineNumber": 66,
-            "text": "  {{- $unlinkedKeys := dict -}}"
-          },
-          {
-            "lineNumber": 67,
-            "text": "  {{- /* Headings are structure, not prose mentions — e.g. ## Note Relationships */ -}}"
-          },
-          {
-            "lineNumber": 68,
-            "text": "  {{- $mentionRaw := replaceRE &#96;(?m)^#{1,6}\\s+[^\\n]*\\n?&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 69,
-            "text": "  {{- range $other := $gardenNotes -}}"
-          },
-          {
-            "lineNumber": 70,
-            "text": "    {{- if eq $other.RelPermalink $note.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 71,
-            "text": "      {{- continue -}}"
-          },
-          {
-            "lineNumber": 72,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 73,
-            "text": "    {{- $linkedToOther := false -}}"
-          },
-          {
-            "lineNumber": 74,
-            "text": "    {{- range findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?\\]\\]&#96; $raw -}}"
-          },
-          {
-            "lineNumber": 75,
-            "text": "      {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
-          },
-          {
-            "lineNumber": 76,
-            "text": "      {{- $target := $inner -}}"
-          },
-          {
-            "lineNumber": 77,
-            "text": "      {{- if strings.Contains $target \"#\" -}}"
-          },
-          {
-            "lineNumber": 78,
-            "text": "        {{- $target = index (split $target \"#\") 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 79,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 80,
-            "text": "      {{- if strings.Contains $target \"|\" -}}"
-          },
-          {
-            "lineNumber": 81,
-            "text": "        {{- $target = index (split $target \"|\") 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 82,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 83,
-            "text": "      {{- $target = replace $target \"\\u2019\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 84,
-            "text": "      {{- $target = replace $target \"\\u2018\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 85,
-            "text": "      {{- $resolved := index $registry.byKey (lower $target) -}}"
-          },
-          {
-            "lineNumber": 86,
-            "text": "      {{- if and $resolved (eq $resolved.RelPermalink $other.RelPermalink) -}}"
-          },
-          {
-            "lineNumber": 87,
-            "text": "        {{- $linkedToOther = true -}}"
-          },
-          {
-            "lineNumber": 88,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 89,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 90,
-            "text": "    {{- $needles := slice $other.Title -}}"
-          },
-          {
-            "lineNumber": 91,
-            "text": "    {{- with $other.Params.aliases -}}"
-          },
-          {
-            "lineNumber": 92,
-            "text": "      {{- $needles = union $needles . -}}"
-          },
-          {
-            "lineNumber": 93,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 94,
-            "text": "    {{- range $needles -}}"
-          },
-          {
-            "lineNumber": 95,
-            "text": "      {{- if lt (len .) $minLen -}}"
-          },
-          {
-            "lineNumber": 96,
-            "text": "        "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 8,
-            "line": 95
-          },
-          "startPosition": {
-            "line": 49
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.34470993280410767
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 68,
-            "text": "## Page kinds"
-          },
-          {
-            "lineNumber": 69
-          },
-          {
-            "lineNumber": 70,
-            "text": "| &#96;note_kind&#96; | What it is | Relationships table | Link from content notes? |"
-          },
-          {
-            "lineNumber": 71,
-            "text": "|-------------|------------|---------------------|--------------------------|"
-          },
-          {
-            "lineNumber": 72,
-            "text": "| &#96;note&#96; (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes — &#96;[[wikilink]]&#96; |"
-          },
-          {
-            "lineNumber": 73,
-            "text": "| &#96;index&#96; | Hub / MOC ([[Maps of Content]], [[Eternal Principles]], this page) | Optional | Yes |"
-          },
-          {
-            "lineNumber": 74,
-            "text": "| &#96;meta&#96; | Tool surface (Graph, Issues, Review, etc.) | Skip | No — URL only |"
-          },
-          {
-            "lineNumber": 75
-          },
-          {
-            "lineNumber": 76,
-            "text": "## Utility surfaces (don't wikilink)"
-          },
-          {
-            "lineNumber": 77
-          },
-          {
-            "lineNumber": 78,
-            "text": "These pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/), [Create Note](/notes/create/). They are excluded from the graph node set, random pickers, and flashcard sources. **No &#96;## Note Relationships&#96; table** on utility pages — link by URL when pointing readers at a tool. **Don't &#96;[[wikilink]]&#96; to them** from content notes. &#96;npm run lint:utility-links&#96; catches violations."
-          },
-          {
-            "lineNumber": 79
-          },
-          {
-            "lineNumber": 80,
-            "text": "## Explore"
-          },
-          {
-            "lineNumber": 81
-          },
-          {
-            "lineNumber": 82,
-            "text": "- **Outgoing links** and **backlinks** (with snippets) show below each note."
-          },
-          {
-            "lineNumber": 83,
-            "text": "- **See also** suggests tag-related notes you haven't linked yet."
-          },
-          {
-            "lineNumber": 84,
-            "text": "- **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter high, low, no body links, and orphans."
-          },
-          {
-            "lineNumber": 85,
-            "text": "- **Issues** at [/notes/issues/](/notes/issues/) lists broken wikilinks and unlinked note mentions; warnings also show on each affected note."
-          },
-          {
-            "lineNumber": 86,
-            "text": "- **Status filters** on [/notes/](/notes/) - inbox, stale (by file edit age), seedling, evergreen, archived."
-          },
-          {
-            "lineNumber": 87,
-            "text": "- &#96;npm run lint:notes&#96; catches broken wikilinks and unlinked mentions in the **body** at build time (frontmatter is not linted - use note titles freely in &#96;cards:&#96; and other fields)."
-          },
-          {
-            "lineNumber": 88
-          },
-          {
-            "lineNumber": 89,
-            "text": "## Publish to the blog"
-          },
-          {
-            "lineNumber": 90
-          },
-          {
-            "lineNumber": 91,
-            "text": "When a note is ready for a longer-form post, I distill it into &#96;content/english/blog/&#96; with the same frontmatter shape and set &#96;draft: false&#96;."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 91
-          },
-          "startPosition": {
-            "line": 66
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.3380950689315796
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 79,
-            "text": "  function buildPrompt(topic) {"
-          },
-          {
-            "lineNumber": 80,
-            "text": "    var trimmed = String(topic || \"\").replace(/\\s+/g, \" \").trim();"
-          },
-          {
-            "lineNumber": 81,
-            "text": "    if (!trimmed) return PLACEHOLDER;"
-          },
-          {
-            "lineNumber": 82
-          },
-          {
-            "lineNumber": 83,
-            "text": "    var today = new Date().toISOString().replace(/\\.\\d{3}Z$/, \"Z\");"
-          },
-          {
-            "lineNumber": 84,
-            "text": "    var related = relevantGardenNotes(trimmed, 30);"
-          },
-          {
-            "lineNumber": 85
-          },
-          {
-            "lineNumber": 86,
-            "text": "    return ["
-          },
-          {
-            "lineNumber": 87,
-            "text": "      \"CONTEXT:\","
-          },
-          {
-            "lineNumber": 88,
-            "text": "      \"I'm building a notes garden (Hugo, content/english/notes/). Each file is one atomic note: one claim I'd say out loud. Too many \\\"and\\\"s means split into separate notes with [[wikilinks]].\","
-          },
-          {
-            "lineNumber": 89,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 90,
-            "text": "      \"Allowed body sections only:\","
-          },
-          {
-            "lineNumber": 91,
-            "text": "      \"- Opening paragraph (bold term = one-line definition)\","
-          },
-          {
-            "lineNumber": 92,
-            "text": "      \"- ## Examples (exactly four bullets: Sports, Non-technical work, Home with children, Real world)\","
-          },
-          {
-            "lineNumber": 93,
-            "text": "      \"- ## Note Relationships (markdown table; must include at least one extends row and one contradicts row)\","
-          },
-          {
-            "lineNumber": 94,
-            "text": "      \"- ## See also (optional)\","
-          },
-          {
-            "lineNumber": 95,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 96,
-            "text": "      \"No other ## headings. Principles and actionable solutions belong in the opening prose and in the Examples — not in extra sections.\","
-          },
-          {
-            "lineNumber": 97,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 98,
-            "text": "      \"Voice: plain words, first person where natural, specific scenes, no AI filler (\\\"crucial\\\", \\\"delve\\\", \\\"leverage\\\", \\\"Furthermore\\\"). Read like JoRap typed it mid-life, not a textbook.\","
-          },
-          {
-            "lineNumber": 99,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 100,
-            "text": "      \"TOPIC: \" + trimmed,"
-          },
-          {
-            "lineNumber": 101,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 102,
-            "text": "      \"EXISTING GARDEN NOTES (prefer these [[wikilink]] targets when they fit):\","
-          },
-          {
-            "lineNumber": 103,
-            "text": "      formatGardenSection(related),"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 105,
-            "text": "      \"ROLE:\","
-          },
-          {
-            "lineNumber": 106,
-            "text": "      \"You are a PKM editor and principle researcher. Find the clearest improvement principles on the topic, then distill each into one atomic note with a concrete next move.\","
-          },
-          {
-            "lineNumber": 107,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 108,
-            "text": "      \"ACTION:\","
-          },
-          {
-            "lineNumber": 109,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 110,
-            "text": "      \"1) RESEARCH THE TOPIC\","
-          },
-          {
-            "lineNumber": 111,
-            "text": "      \"   - List 3–7 principles that would actually improve how someone handles this topic day to day.\","
-          },
-          {
-            "lineNumber": 112,
-            "text": "      \"   - For each principle, name: the core claim (one sentence), why it helps, and one actionable move someone could do in the next 24 hours.\","
-          },
-          {
-            "lineNumber": 113,
-            "text": "      \"   - Drop vague or duplicate principles. Keep only claims I'd cite in conversation.\","
-          },
-          {
-            "lineNumber": 114,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 115,
-            "text": "      \"2) ATOMIZE\","
-          },
-          {
-            "lineNumber": 116,
-            "text": "      \"   - If more than one principle survives, output ONE note now (the strongest, most actionable claim) and list the others as suggested sibling notes to create separately."
-          },
-          {
-            "lineNumber": 175
-          },
-          {
-            "lineNumber": 176,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 230
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-creator.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.33761346340179443
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 164,
-            "text": "def related_notes("
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 165,
-            "text": "    stem: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 166,
-            "text": "    title: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 167,
-            "text": "    tags: list[str],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 168,
-            "text": "    catalog: list[dict],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 169,
-            "text": "    limit: int = 5,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 170,
-            "text": ") -\u003e list[dict]:"
-          },
-          {
-            "lineNumber": 171,
-            "text": "    scored: list[tuple[float, dict]] = []"
-          },
-          {
-            "lineNumber": 172,
-            "text": "    for note in catalog:"
-          },
-          {
-            "lineNumber": 173,
-            "text": "        if note[\"stem\"] == stem:"
-          },
-          {
-            "lineNumber": 174,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 175,
-            "text": "        score = tag_relatedness(tags, note[\"tags\"])"
-          },
-          {
-            "lineNumber": 176,
-            "text": "        if score \u003c= 0:"
-          },
-          {
-            "lineNumber": 177,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 178,
-            "text": "        scored.append((score, note))"
-          },
-          {
-            "lineNumber": 179,
-            "text": "    scored.sort(key=lambda item: (-item[0], item[1][\"title\"]))"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 180,
-            "text": "    return [note for _, note in scored[:limit]]"
-          },
-          {
-            "lineNumber": 181
-          },
-          {
-            "lineNumber": 182
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 183,
-            "text": "def strip_section(body: str, heading: str) -\u003e str:"
-          },
-          {
-            "lineNumber": 184,
-            "text": "    pattern = rf\"\\n{re.escape(heading)}[\\s\\S]*$\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 184
-          },
-          "startPosition": {
-            "column": 51,
-            "line": 160
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {}
-      },
-      "score": 0.33354896306991577
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 50,
-            "text": "def suggested_aliases(title: str, slug: str, existing: list[str]) -\u003e list[str]:"
-          },
-          {
-            "lineNumber": 51,
-            "text": "    aliases = list(existing)"
-          },
-          {
-            "lineNumber": 52,
-            "text": "    seen = {a.lower() for a in aliases}"
-          },
-          {
-            "lineNumber": 53
-          },
-          {
-            "lineNumber": 54,
-            "text": "    def add(value: str) -\u003e None:"
-          },
-          {
-            "lineNumber": 55,
-            "text": "        value = value.strip()"
-          },
-          {
-            "lineNumber": 56,
-            "text": "        if not value or value.lower() in seen or value.lower() == title.lower():"
-          },
-          {
-            "lineNumber": 57,
-            "text": "            return"
-          },
-          {
-            "lineNumber": 58,
-            "text": "        aliases.append(value)"
-          },
-          {
-            "lineNumber": 59,
-            "text": "        seen.add(value.lower())"
-          },
-          {
-            "lineNumber": 60
-          },
-          {
-            "lineNumber": 61,
-            "text": "    add(slug.replace(\"-\", \" \"))"
-          },
-          {
-            "lineNumber": 62,
-            "text": "    paren = re.search(r\"\\(([^)]+)\\)\\s*$\", title)"
-          },
-          {
-            "lineNumber": 63,
-            "text": "    if paren:"
-          },
-          {
-            "lineNumber": 64,
-            "text": "        add(paren.group(1).strip())"
-          },
-          {
-            "lineNumber": 65
-          },
-          {
-            "lineNumber": 66,
-            "text": "    manual: dict[str, list[str]] = {"
-          },
-          {
-            "lineNumber": 67,
-            "text": "        \"PKM\": [\"Personal Knowledge Management\"],"
-          },
-          {
-            "lineNumber": 68,
-            "text": "        \"PARA Method\": [\"PARA\"],"
-          },
-          {
-            "lineNumber": 69,
-            "text": "        \"Maps of Content\": [\"MOC\"],"
-          },
-          {
-            "lineNumber": 70,
-            "text": "        \"Building a Second Brain\": [\"Second Brain\"],"
-          },
-          {
-            "lineNumber": 71,
-            "text": "        \"The Second Brain Workflow\": [\"Second Brain Workflow\"],"
-          },
-          {
-            "lineNumber": 72,
-            "text": "        \"Second Brain Daily Workflow\": [\"Daily Workflow\"],"
-          },
-          {
-            "lineNumber": 73,
-            "text": "        \"Spaced Repetition Systems (SRS)\": [\"SRS\"],"
-          },
-          {
-            "lineNumber": 74,
-            "text": "        \"Evergreen vs Fleeting Notes\": [\"Evergreen vs Fleeting\"],"
-          },
-          {
-            "lineNumber": 75,
-            "text": "        \"Local-first Software\": [\"Local First\"],"
-          },
-          {
-            "lineNumber": 76,
-            "text": "        \"Note-Taking for Researchers\": [\"Research Notes\"],"
-          },
-          {
-            "lineNumber": 77,
-            "text": "        \"The Collector's Fallacy\": [\"Collector's Fallacy\"],"
-          },
-          {
-            "lineNumber": 78,
-            "text": "        \"The 12 Week Year\": [\"12 Week Year\"],"
-          },
-          {
-            "lineNumber": 79,
-            "text": "        \"The Feynman Technique\": [\"Feynman Technique\"],"
-          },
-          {
-            "lineNumber": 80,
-            "text": "        \"The Archive Method\": [\"Archive Method\"],"
-          },
-          {
-            "lineNumber": 81,
-            "text": "        \"The Trusted Inbox\": [\"Trusted Inbox\"],"
-          },
-          {
-            "lineNumber": 82,
-            "text": "        \"The Garage Concept\": [\"Garage Concept\"],"
-          },
-          {
-            "lineNumber": 83,
-            "text": "        \"The Future of PKM\": [\"Future of PKM\"],"
-          },
-          {
-            "lineNumber": 84,
-            "text": "        \"The Knowledge Lifecycle\": [\"Knowledge Lifecycle\"],"
-          },
-          {
-            "lineNumber": 85,
-            "text": "        \"The Power of Interconnectivity\": [\"Interconnectivity\"],"
-          },
-          {
-            "lineNumber": 86,
-            "text": "        \"Atomic Design for Notes\": [\"Atomic Design\"],"
-          },
-          {
-            "lineNumber": 87,
-            "text": "        \"GTD vs PARA\": [\"GTD\"],"
-          },
-          {
-            "lineNumber": 88,
-            "text": "        \"E2EE Security\": [\"E2EE\"],"
-          },
-          {
-            "lineNumber": 89,
-            "text": "        \"Privacy and Data Sovereignty\": [\"Data Sovereignty\"],"
-          },
-          {
-            "lineNumber": 90,
-            "text": "        \"There Is No Perfect Solution\": [\"No Perfect Solution\"],"
-          },
-          {
-            "lineNumber": 91,
-            "text": "        \"Process Over Outcomes\": [\"Process Over Outcome\"],"
-          },
-          {
-            "lineNumber": 92,
-            "text": "        \"Anti-Fragile Systems\": [\"Antifragile\"],"
-          },
-          {
-            "lineNumber": 93,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 94,
-            "text": "    for value in manual.get(title, []):"
-          },
-          {
-            "lineNumber": 95,
-            "text": "        add(value)"
-          },
-          {
-            "lineNumber": 96
-          },
-          {
-            "lineNumber": 97,
-            "text": "    if title.endswith(\" Method\"):"
-          },
-          {
-            "lineNumber": 98,
-            "text": "        add(title[: -len(\" Method\")])"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 101
-          },
-          "startPosition": {
-            "column": 33,
-            "line": 46
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {}
-      },
-      "score": 0.3302074074745178
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 79,
-            "text": "function buildPrompt(topic) {"
-          },
-          {
-            "lineNumber": 86
-          },
-          {
-            "lineNumber": 149
-          },
-          {
-            "lineNumber": 150,
-            "text": "      \"   image: \\\"/images/note.jpg\\\"\","
-          },
-          {
-            "lineNumber": 151,
-            "text": "      \"   categories: [\\\"Ideas\\\", \\\"Tips\\\"]\","
-          },
-          {
-            "lineNumber": 152,
-            "text": "      \"   author: \\\"JoRap\\\"\","
-          },
-          {
-            "lineNumber": 153,
-            "text": "      \"   tags: [...]\","
-          },
-          {
-            "lineNumber": 154,
-            "text": "      \"   slug: \\\"kebab-case-slug\\\"\","
-          },
-          {
-            "lineNumber": 155,
-            "text": "      \"   featured: false\","
-          },
-          {
-            "lineNumber": 156,
-            "text": "      \"   status: seedling\","
-          },
-          {
-            "lineNumber": 157,
-            "text": "      \"   draft: false\","
-          },
-          {
-            "lineNumber": 158,
-            "text": "      \"   aliases: []\","
-          },
-          {
-            "lineNumber": 159,
-            "text": "      \"   ---\","
-          },
-          {
-            "lineNumber": 160,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 161,
-            "text": "      \"6) QUALITY GATE (run before finishing)\","
-          },
-          {
-            "lineNumber": 162,
-            "text": "      \"   - Atomic test: Can I say the whole note in one breath without \\\"and\\\" joining two ideas?\","
-          },
-          {
-            "lineNumber": 163,
-            "text": "      \"   - Action test: Does every Example show a move, not just a definition?\","
-          },
-          {
-            "lineNumber": 164,
-            "text": "      \"   - Lint test: Only allowed ## sections? extends + contradicts in the table?\","
-          },
-          {
-            "lineNumber": 165,
-            "text": "      \"   - Voice test: Would JoRap say this aloud? Any word I'd pause to define?\","
-          },
-          {
-            "lineNumber": 166,
-            "text": "      \"   - Link test: Every [[wikilink]] points to a plausible existing or proposed note title?\","
-          },
-          {
-            "lineNumber": 167,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 168,
-            "text": "      \"FORMAT:\","
-          },
-          {
-            "lineNumber": 169,
-            "text": "      \"1. Brief research summary (principles found, which one you're writing, siblings to create next)\","
-          },
-          {
-            "lineNumber": 170,
-            "text": "      \"2. Full markdown file ready to save as content/english/notes/{slug}.md\","
-          },
-          {
-            "lineNumber": 171,
-            "text": "      \"3. Bulleted list of suggested sibling atomic notes (title + one-line claim each)\","
-          },
-          {
-            "lineNumber": 172,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 173,
-            "text": "      \"TARGET AUDIENCE:\","
-          },
-          {
-            "lineNumber": 174,
-            "text": "      \"Practical, personal notes garden. Readers should finish knowing what the principle is and what to do next time the situation shows up.\","
-          },
-          {
-            "lineNumber": 175,
-            "text": "    ].join(\"\\n\");"
-          },
-          {
-            "lineNumber": 176,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 177
-          },
-          {
-            "lineNumber": 178,
-            "text": "  function refreshPrompt() {"
-          },
-          {
-            "lineNumber": 179,
-            "text": "    var topic = topicEl.value;"
-          },
-          {
-            "lineNumber": 180,
-            "text": "    promptEl.value = buildPrompt(topic);"
-          },
-          {
-            "lineNumber": 181,
-            "text": "    if (hintEl) {"
-          },
-          {
-            "lineNumber": 182,
-            "text": "      var trimmed = String(topic || \"\").replace(/\\s+/g, \" \").trim();"
-          },
-          {
-            "lineNumber": 183,
-            "text": "      hintEl.textContent = trimmed"
-          },
-          {
-            "lineNumber": 184,
-            "text": "        ? relevantGardenNotes(trimmed, 30).length +"
-          },
-          {
-            "lineNumber": 185,
-            "text": "          \" garden notes matched for wikilink hints. Copy the prompt or open it in your AI chat.\""
-          },
-          {
-            "lineNumber": 186,
-            "text": "        : defaultHint;"
-          },
-          {
-            "lineNumber": 187,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 188,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 189
-          },
-          {
-            "lineNumber": 190,
-            "text": "  var ai = core.createAiHelpers({"
-          },
-          {
-            "lineNumber": 191,
-            "text": "    promptEl: promptEl,"
-          },
-          {
-            "lineNumber": 192,
-            "text": "    copyPromptBtn: copyPromptBtn,"
-          },
-          {
-            "lineNumber": 193,
-            "text": "    openedLabel: \"Opened\","
-          },
-          {
-            "lineNumber": 194,
-            "text": "    copiedLabel: \"Copied — paste in chat\","
-          },
-          {
-            "lineNumber": 195,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 196
-          },
-          {
-            "lineNumber": 197,
-            "text": "  core.bindTapIf(copyPromptBtn, function (event) {"
-          },
-          {
-            "lineNumber": 198,
-            "text": "    event.preventDefault();"
-          },
-          {
-            "lineNumber": 199,
-            "text": "    if (!topicReady()) return;"
-          },
-          {
-            "lineNumber": 200,
-            "text": "    ai.copyPrompt();"
-          },
-          {
-            "lineNumber": 201,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 202
-          },
-          {
-            "lineNumber": 203,
-            "text": "  var sendBtns = document.querySelectorAll"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 230
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-creator.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            },
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 80
-              },
-              "startPosition": {
-                "column": 3,
-                "line": 79
-              }
-            },
-            {
-              "endPosition": {
-                "column": 12,
-                "line": 86
-              },
-              "startPosition": {
-                "column": 12,
-                "line": 86
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.32933318614959717
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 61,
-            "text": "async function initGraph(panel) {"
-          },
-          {
-            "lineNumber": 94
-          },
-          {
-            "lineNumber": 95
-          },
-          {
-            "lineNumber": 96,
-            "text": "  var nodes = data.nodes.map(function (n) {"
-          },
-          {
-            "lineNumber": 97,
-            "text": "    return {"
-          },
-          {
-            "lineNumber": 98,
-            "text": "      id: n.id,"
-          },
-          {
-            "lineNumber": 99,
-            "text": "      title: n.title,"
-          },
-          {
-            "lineNumber": 100,
-            "text": "      url: n.url,"
-          },
-          {
-            "lineNumber": 101,
-            "text": "      x: 0,"
-          },
-          {
-            "lineNumber": 102,
-            "text": "      y: 0,"
-          },
-          {
-            "lineNumber": 103,
-            "text": "      vx: 0,"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      vy: 0,"
-          },
-          {
-            "lineNumber": 105,
-            "text": "        degree: 0,"
-          },
-          {
-            "lineNumber": 106,
-            "text": "      inDegree: n.inDegree || 0,"
-          },
-          {
-            "lineNumber": 107,
-            "text": "      outDegree: n.outDegree || 0,"
-          },
-          {
-            "lineNumber": 108,
-            "text": "      orphan: Boolean(n.orphan),"
-          },
-          {
-            "lineNumber": 109,
-            "text": "      top: Boolean(n.top),"
-          },
-          {
-            "lineNumber": 110,
-            "text": "      middle: Boolean(n.middle),"
-          },
-          {
-            "lineNumber": 111,
-            "text": "      bottom: Boolean(n.bottom),"
-          },
-          {
-            "lineNumber": 112,
-            "text": "      deadEnd: Boolean(n.deadEnd),"
-          },
-          {
-            "lineNumber": 113,
-            "text": "      hub: Boolean(n.hub),"
-          },
-          {
-            "lineNumber": 114,
-            "text": "      primaryTag: n.primaryTag || \"\","
-          },
-          {
-            "lineNumber": 115,
-            "text": "      relExtends: Boolean(n.relExtends),"
-          },
-          {
-            "lineNumber": 116,
-            "text": "      relContradicts: Boolean(n.relContradicts),"
-          },
-          {
-            "lineNumber": 117,
-            "text": "      relImplements: Boolean(n.relImplements),"
-          },
-          {
-            "lineNumber": 118,
-            "text": "      relAlternative: Boolean(n.relAlternative),"
-          },
-          {
-            "lineNumber": 119,
-            "text": "      relIndex: Boolean(n.relIndex),"
-          },
-          {
-            "lineNumber": 120,
-            "text": "      label: null,"
-          },
-          {
-            "lineNumber": 121,
-            "text": "    };"
-          },
-          {
-            "lineNumber": 122,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 123
-          },
-          {
-            "lineNumber": 124,
-            "text": "  if (!isLocalGraph \u0026\u0026 nodes.length \u003e MAX_GLOBAL_GRAPH_NODES) {"
-          },
-          {
-            "lineNumber": 125,
-            "text": "    var totalNodes = nodes.length;"
-          },
-          {
-            "lineNumber": 126,
-            "text": "    nodes.sort(function (a, b) {"
-          },
-          {
-            "lineNumber": 127,
-            "text": "      return b.inDegree + b.outDegree - (a.inDegree + a.outDegree);"
-          },
-          {
-            "lineNumber": 128,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 129,
-            "text": "    nodes = nodes.slice(0, MAX_GLOBAL_GRAPH_NODES);"
-          },
-          {
-            "lineNumber": 130,
-            "text": "    var hintEl = panel.closest(\".container, section\")?.querySelector(\".notes-graph-hint\");"
-          },
-          {
-            "lineNumber": 131,
-            "text": "    if (hintEl) {"
-          },
-          {
-            "lineNumber": 132,
-            "text": "      hintEl.textContent ="
-          },
-          {
-            "lineNumber": 133,
-            "text": "        \"Showing \" +"
-          },
-          {
-            "lineNumber": 134,
-            "text": "        MAX_GLOBAL_GRAPH_NODES +"
-          },
-          {
-            "lineNumber": 135,
-            "text": "        \" of \" +"
-          },
-          {
-            "lineNumber": 136,
-            "text": "        totalNodes +"
-          },
-          {
-            "lineNumber": 137,
-            "text": "        \" most connected notes. \" +"
-          },
-          {
-            "lineNumber": 138,
-            "text": "        hintEl.textContent;"
-          },
-          {
-            "lineNumber": 139,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 140,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 141
-          },
-          {
-            "lineNumber": 142,
-            "text": "  var nodeById = {};"
-          },
-          {
-            "lineNumber": 143,
-            "text": "  nodes.forEach(function (n) {"
-          },
-          {
-            "lineNumber": 144,
-            "text": "    nodeById[n.id] = n;"
-          },
-          {
-            "lineNumber": 145,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 146
-          },
-          {
-            "lineNumber": 147,
-            "text": "  var focusNode = focusId ? nodeById[focusId] : null;"
-          },
-          {
-            "lineNumber": 148
-          },
-          {
-            "lineNumber": 149,
-            "text": "  var edgeKeys = {};"
-          },
-          {
-            "lineNumber": 150,
-            "text": "  var edges = (data.edges || [])"
-          },
-          {
-            "lineNumber": 151,
-            "text": "    .map(function (e) {"
-          },
-          {
-            "lineNumber": 152,
-            "text": "      var source = nodeById[e.source];"
-          },
-          {
-            "lineNumber": 153,
-            "text": "      var target = nodeById[e.target];"
-          },
-          {
-            "lineNumber": 154,
-            "text": "      if (!source || !target || source === target) return null;"
-          },
-          {
-            "lineNumber": 155,
-            "text": "      var key = source.id \u003c target.id ? source.id + \"\\0\" + target.id : target.id + \"\\0\" + source.id;"
-          },
-          {
-            "lineNumber": 156,
-            "text": "      if (edgeKeys[key]) return null;"
-          },
-          {
-            "lineNumber": 157,
-            "text": "      edgeKeys[key] = true;"
-          },
-          {
-            "lineNumber": 158,
-            "text": "      return { source: source, target: target };"
-          },
-          {
-            "lineNumber": 159,
-            "text": "    })"
-          },
-          {
-            "lineNumber": 160,
-            "text": "    .filter(Boolean);"
-          },
-          {
-            "lineNumber": 161
-          },
-          {
-            "lineNumber": 162,
-            "text": "  edges.forEach(function (e) {"
-          },
-          {
-            "lineNumber": 163,
-            "text": "    e.source.degree += 1;"
-          },
-          {
-            "lineNumber": 164,
-            "text": "    e.target.degree += 1;"
-          },
-          {
-            "lineNumber": 165,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 166
-          },
-          {
-            "lineNumber": 167,
-            "text": "  var width = 0;"
-          },
-          {
-            "lineNumber": 168,
-            "text": "  var height = 0;"
-          },
-          {
-            "lineNumber": 169,
-            "text": "  var transform = { x: 0, y: 0, k: 1 };"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 1347,
-            "text": "}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 1,
-            "line": 1346
-          },
-          "startPosition": {
-            "line": 60
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-graph.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 3,
-                "line": 62
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 61
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.3285289406776428
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2
-          },
-          {
-            "lineNumber": 3,
-            "text": "title: \"Note Relationships\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "meta_title: \"Note Relationships - Four Link Types for the Garden\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "description: \"Four pair types in the body table - extends, contradicts, implements, alternative. Hub and utility pages use note_kind flags.\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: 2026-06-19T08:00:00Z"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: [\"Linking\", \"PKM\", \"Note Taking\", \"Digital Garden\", \"Meta\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "slug: \"note-relationships\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 14,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 15,
-            "text": "card_sets: [\"Linking\", \"Writing\"]"
-          },
-          {
-            "lineNumber": 16,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  - front: \"New note builds on an older atomic claim - typing the connection in the body now. One relationship word?\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "    back: \"Type extends in the body.\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - front: \"This note pushes against a slower-work philosophy I named in the body. One typed link for that tension?\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "    back: \"Link as contradicts.\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "  - front: \"Weekly checklist makes a review habit real in my notes. Link type that says this note carries it out?\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "    back: \"Link as implements.\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "  - front: \"Hub page gathering twenty related notes under one roof. Frontmatter flag, not a table row?\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "    back: \"Set note_kind: index.\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "  - front: \"Atomic note ready to publish - minimum typed links before filing?\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "    back: \"One extends, one contradicts.\""
-          },
-          {
-            "lineNumber": 27,
-            "text": "  - front: \"Two tools solve the same job - picking one for this note. Link type for the other tool?\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "    back: \"Link the other as alternative.\""
-          },
-          {
-            "lineNumber": 29,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 30,
-            "text": "aliases: [\"link types\", \"Link Typing\"]"
-          },
-          {
-            "lineNumber": 31,
-            "text": "---"
-          },
-          {
-            "lineNumber": 32
-          },
-          {
-            "lineNumber": 33,
-            "text": "**Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use &#96;note_kind: index&#96; in frontmatter (not a row). **Utility pages** use &#96;note_kind: meta&#96; — link by URL, not wikilink."
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "| Type | Question | Example |"
-          },
-          {
-            "lineNumber": 36,
-            "text": "|------|----------|---------|"
-          },
-          {
-            "lineNumber": 37,
-            "text": "| **extends** | What does this build on? | [[Signal vs Noise]] extends [[Capture]] |"
-          },
-          {
-            "lineNumber": 38,
-            "text": "| **contradicts** | What tradeoff does this push against? | [[Slow Productivity]] contradicts [[The 12 Week Year]] when fewer deep projects beat quarterly sprints |"
-          },
-          {
-            "lineNumber": 39,
-            "text": "| **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 39
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/note-relationships.md",
-        "signatures": {}
-      },
-      "score": 0.3272182047367096
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 164,
-            "text": "  function connectionPromptTail() {"
-          },
-          {
-            "lineNumber": 165,
-            "text": "    return ["
-          },
-          {
-            "lineNumber": 166,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 167,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 168,
-            "text": "      \"## TASK\","
-          },
-          {
-            "lineNumber": 169,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 170,
-            "text": "      \"Analyze how these notes relate and generate outputs that are:\","
-          },
-          {
-            "lineNumber": 171,
-            "text": "      \"- Concrete and actionable\","
-          },
-          {
-            "lineNumber": 172,
-            "text": "      \"- System-oriented (PKM, workflows, thinking patterns)\","
-          },
-          {
-            "lineNumber": 173,
-            "text": "      \"- Atomic (one idea per item)\","
-          },
-          {
-            "lineNumber": 174,
-            "text": "      \"- Multi-scale (immediate → experimental → strategic)\","
-          },
-          {
-            "lineNumber": 175,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 176,
-            "text": "      \"Avoid abstract theory unless tied to action.\","
-          },
-          {
-            "lineNumber": 177,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 178,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 179,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 180,
-            "text": "      \"## OUTPUT FORMAT\","
-          },
-          {
-            "lineNumber": 181,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 182,
-            "text": "      \"### 1. Core Relationship\","
-          },
-          {
-            "lineNumber": 183,
-            "text": "      \"1–2 sentences explaining the deepest connection between the notes.\","
-          },
-          {
-            "lineNumber": 184,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 185,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 186,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 187,
-            "text": "      \"### 2. 3 Unexpected Links (Insight → Mechanism → Action)\","
-          },
-          {
-            "lineNumber": 188,
-            "text": "      \"Each must include:\","
-          },
-          {
-            "lineNumber": 189,
-            "text": "      \"- Insight (what is connected)\","
-          },
-          {
-            "lineNumber": 190,
-            "text": "      \"- Mechanism (why/how it connects)\","
-          },
-          {
-            "lineNumber": 191,
-            "text": "      \"- Action (what I can do immediately)\","
-          },
-          {
-            "lineNumber": 192,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 193,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 194,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 195,
-            "text": "      \"### 3. 3 Atomic Wikilink Ideas\","
-          },
-          {
-            "lineNumber": 196,
-            "text": "      \"- 3–7 words max\","
-          },
-          {
-            "lineNumber": 197,
-            "text": "      \"- Clear, reusable PKM note titles\","
-          },
-          {
-            "lineNumber": 198,
-            "text": "      \"- One idea per title\","
-          },
-          {
-            "lineNumber": 199,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 200,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 201,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 202,
-            "text": "      \"### 4. 3 Experiments (Validation Layer)\","
-          },
-          {
-            "lineNumber": 203,
-            "text": "      \"Each includes:\","
-          },
-          {
-            "lineNumber": 204,
-            "text": "      \"- Name\","
-          },
-          {
-            "lineNumber": 205,
-            "text": "      \"- Steps (simple, executable)\","
-          },
-          {
-            "lineNumber": 206,
-            "text": "      \"- Time required (5–15 min / daily / weekly)\","
-          },
-          {
-            "lineNumber": 207,
-            "text": "      \"- Expected outcome\","
-          },
-          {
-            "lineNumber": 208,
-            "text": "      \"- Success indicator\","
-          },
-          {
-            "lineNumber": 209,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 210,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 211,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 212,
-            "text": "      \"### 5. 3 Quick Wins (Immediate Actions)\","
-          },
-          {
-            "lineNumber": 213,
-            "text": "      \"- Must take 2–15 minutes\","
-          },
-          {
-            "lineNumber": 214,
-            "text": "      \"- Directly tied to insights\","
-          },
-          {
-            "lineNumber": 215,
-            "text": "      \"- Requires no setup\","
-          },
-          {
-            "lineNumber": 216,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 217,
-            "text": "      \"Format:\","
-          },
-          {
-            "lineNumber": 218,
-            "text": "      \"- Action\","
-          },
-          {
-            "lineNumber": 219,
-            "text": "      \"- Why it matters\","
-          },
-          {
-            "lineNumber": 220,
-            "text": "      \"- Immediate effect\","
-          },
-          {
-            "lineNumber": 221,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 222,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 223,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 224,
-            "text": "      \"### 6. 3 Big Picture Wins (System-Level Impact)\","
-          },
-          {
-            "lineNumber": 225,
-            "text": "      \"Focus on 3–12 month outcomes.\","
-          },
-          {
-            "lineNumber": 226,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 227,
-            "text": "      \"Each includes:\","
-          },
-          {
-            "lineNumber": 228,
-            "text": "      \"- Big Win\","
-          },
-          {
-            "lineNumber": 229,
-            "text": "      \"- Structural change\","
-          },
-          {
-            "lineNumber": 230,
-            "text": "      \"- Long-term value\","
-          },
-          {
-            "lineNumber": 231,
-            "text": "      \"- First step\","
-          },
-          {
-            "lineNumber": 232,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 233,
-            "text": "      \"---\","
-          },
-          {
-            "lineNumber": 234,
-            "text": "      \"\","
-          },
-          {
-            "lineNumber": 235,
-            "text": "      \"### 7. 3 Shareable Tweets (≤130 chars)\","
-          },
-          {
-            "lineNumber": 236,
-            "text": "      \"Rules:\","
-          },
-          {
-            "lineNumber": 237,
-            "text": "      \"- Self-contained\","
-          },
-          {
-            "lineNumber": 238,
-            "text": "      \"- No fluff or clichés\","
-          },
-          {
-            "lineNumber": 239,
-            "text": "      \"- Insight-driven or paradox-based\","
-          },
-          {
-            "lineNumber": 240,
-            "text": "      \"- No need for context\","
-          },
-          {
-            "lineNumber": 257,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 508
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-core.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.3270212411880493
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 27,
-            "text": "  {{- $bodyOutSeen := dict -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  {{- range $to := $notes -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    {{- if ne $fromId $to.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "      {{- $targets := slice $to.Title -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "      {{- with $to.Params.slug -}}{{- $targets = $targets | append . -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      {{- with $to.File -}}{{- $targets = $targets | append .ContentBaseName -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "      {{- with $to.Params.aliases -}}{{- $targets = union $targets . -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "      {{- $fullLinked := false -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      {{- $bodyLinked := false -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      {{- range $targets -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "        {{- if or (in $raw (printf \"[[%s]]\" .)) (findRE (printf &#96;\\[\\[%s(?:#[^\\]|]+)?\\]\\]&#96; .) $raw) -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "          {{- $fullLinked = true -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "        {{- if or (in $bodyRaw (printf \"[[%s]]\" .)) (findRE (printf &#96;\\[\\[%s(?:#[^\\]|]+)?\\]\\]&#96; .) $bodyRaw) -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "          {{- $bodyLinked = true -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "      {{- if $fullLinked -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "        {{- $edges = $edges | append (dict \"source\" $fromId \"target\" $to.RelPermalink) -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "      {{- if and $bodyLinked (not (index $bodyOutSeen $to.RelPermalink)) -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "        {{- $bodyOutSeen = merge $bodyOutSeen (dict $to.RelPermalink true) -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "        {{- $bv := index $bodyOutDeg $fromId | default 0 -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "        {{- $bodyOutDeg = merge $bodyOutDeg (dict $fromId (add $bv 1)) -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 55
-          },
-          {
-            "lineNumber": 56,
-            "text": "{{- $inDeg := dict -}}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "{{- $outDeg := dict -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "{{- $totalDeg := dict -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "{{- range $nodes -}}"
-          },
-          {
-            "lineNumber": 60,
-            "text": "  {{- $inDeg = merge $inDeg (dict .id 0) -}}"
-          },
-          {
-            "lineNumber": 61,
-            "text": "  {{- $outDeg = merge $outDeg (dict .id 0) -}}"
-          },
-          {
-            "lineNumber": 62,
-            "text": "  {{- $totalDeg = merge $totalDeg (dict .id 0) -}}"
-          },
-          {
-            "lineNumber": 63,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 64,
-            "text": "{{- range $edges -}}"
-          },
-          {
-            "lineNumber": 65,
-            "text": "  {{- $ov := index $outDeg .source | default 0 -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 65
-          },
-          "startPosition": {
-            "line": 26
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/graph-data.html",
-        "signatures": {}
-      },
-      "score": 0.3204788863658905
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 215,
-            "text": "def pick_link_candidates("
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 216,
-            "text": "    stem: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 217,
-            "text": "    title: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 218,
-            "text": "    tags: list[str],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 219,
-            "text": "    catalog: list[dict],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 220,
-            "text": "    exclude: set[str],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 221,
-            "text": "    needed: int,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 222,
-            "text": ") -\u003e list[str]:"
-          },
-          {
-            "lineNumber": 223,
-            "text": "    picks: list[str] = []"
-          },
-          {
-            "lineNumber": 224,
-            "text": "    for note in related_notes(stem, title, tags, catalog, limit=15):"
-          },
-          {
-            "lineNumber": 225,
-            "text": "        if not is_linkable(note):"
-          },
-          {
-            "lineNumber": 226,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 227,
-            "text": "        candidate = note[\"title\"]"
-          },
-          {
-            "lineNumber": 228,
-            "text": "        if candidate not in exclude and candidate != title and candidate not in picks:"
-          },
-          {
-            "lineNumber": 229,
-            "text": "            picks.append(candidate)"
-          },
-          {
-            "lineNumber": 230,
-            "text": "        if len(picks) \u003e= needed:"
-          },
-          {
-            "lineNumber": 231,
-            "text": "            return picks"
-          },
-          {
-            "lineNumber": 232,
-            "text": "    for note in catalog:"
-          },
-          {
-            "lineNumber": 233,
-            "text": "        if note[\"stem\"] == stem or not is_linkable(note):"
-          },
-          {
-            "lineNumber": 234,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 235,
-            "text": "        candidate = note[\"title\"]"
-          },
-          {
-            "lineNumber": 236,
-            "text": "        if candidate in exclude or candidate == title or candidate in picks:"
-          },
-          {
-            "lineNumber": 237,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 238,
-            "text": "        picks.append(candidate)"
-          },
-          {
-            "lineNumber": 239,
-            "text": "        if len(picks) \u003e= needed:"
-          },
-          {
-            "lineNumber": 240,
-            "text": "            break"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 241,
-            "text": "    return picks"
-          },
-          {
-            "lineNumber": 242
-          },
-          {
-            "lineNumber": 243
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 244,
-            "text": "def ensure_min_body_links("
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 245,
-            "text": "    body: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 246,
-            "text": "    stem: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 247,
-            "text": "    title: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 248,
-            "text": "    tags: list[str],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 249,
-            "text": "    catalog: list[dict],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 250,
-            "text": "    link_map: dict[str, str],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 251,
-            "text": "    min_links: int = MIN_BODY_LINKS,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 252,
-            "text": ") -\u003e str:"
-          },
-          {
-            "lineNumber": 253,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 270
-          },
-          "startPosition": {
-            "column": 55,
-            "line": 211
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {}
-      },
-      "score": 0.3199942111968994
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2
-          },
-          {
-            "lineNumber": 3,
-            "text": "title: \"Digital Serendipity\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "meta_title: \"Digital Serendipity - Stumbling on Your Own Ideas\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "description: \"Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time.\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: [\"Serendipity\", \"Resurfacing\", \"PKM\", \"Second Brain\", \"Linking\", \"Review\", \"Discovery\", \"Research\", \"Browser Tips\", \"Note Taking\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "slug: \"digital-serendipity\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 14,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 15,
-            "text": "aliases: [\"Serendipitous Resurfacing\", \"Serendipity\"]"
-          },
-          {
-            "lineNumber": 16,
-            "text": "---"
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "Serendipity isn't luck for me - I build systems where old notes surprise me at the right time."
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "## Examples"
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "- **Sports:** I'm flipping through old drill cards before practice and last month's footwork note bumps into today's injury log - I didn't plan the meeting, the link did."
-          },
-          {
-            "lineNumber": 23,
-            "text": "- **Non-technical work:** I'm searching old SOPs for \"label printer\" and a note on vendor callbacks from last quarter surfaces - serendipity isn't luck, it's links plus review."
-          },
-          {
-            "lineNumber": 24,
-            "text": "- **Home with children:** I'm flipping through old recipe cards while packing lunch and a card on quick weeknight meals bumps into one I wrote last month on batch cooking - the \"see also\" arrow on the adobo card did the work."
-          },
-          {
-            "lineNumber": 25,
-            "text": "- **Real world:** A random graph walk linked \"jeepney delay\" to \"leave earlier\" six weeks after I saved both - old notes surprised me at the right time because I'd wired the system for it."
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "## Note Relationships"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "| Relationship | Wikilink | Reason |"
-          },
-          {
-            "lineNumber": 30,
-            "text": "|--------------|----------|--------|"
-          },
-          {
-            "lineNumber": 31,
-            "text": "| alternative | [[Digital Minimalism]] | Surprise links vs fewer moving parts when rediscovery beats sync |"
-          },
-          {
-            "lineNumber": 32,
-            "text": "| contradicts | [[Digital Minimalism]] | when surprise links beat cutting tools and sync layers |"
-          },
-          {
-            "lineNumber": 33,
-            "text": "| extends | [[Associative Linking]] | Links build the systems where old notes surprise you at the right time |"
-          },
-          {
-            "lineNumber": 34,
-            "text": "| extends | [[Serendipity]] | Happy accident discovery — the noun behind the method |"
-          },
-          {
-            "lineNumber": 35,
-            "text": "| implements | [[Associative Linking]] | Random resurfacing carries link-first structure |"
-          },
-          {
-            "lineNumber": 36,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 37
-          },
-          {
-            "lineNumber": 38,
-            "text": "- [[Atomic Notes]] - Linking, Note Taking, PKM"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 38
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/digital-serendipity.md",
-        "signatures": {}
-      },
-      "score": 0.3157094120979309
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 53,
-            "text": "  function pickTwo() {"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    if (!pool.length) return [];"
-          },
-          {
-            "lineNumber": 55,
-            "text": "    if (pool.length === 1) return [pool[0], null];"
-          },
-          {
-            "lineNumber": 56,
-            "text": "    var first = core.pickOne(pool, []);"
-          },
-          {
-            "lineNumber": 57,
-            "text": "    var second = core.pickOne(pool, first ? [first.url] : []);"
-          },
-          {
-            "lineNumber": 58,
-            "text": "    return [first, second];"
-          },
-          {
-            "lineNumber": 59,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 60
-          },
-          {
-            "lineNumber": 61,
-            "text": "  function buildPrompt(notes) {"
-          },
-          {
-            "lineNumber": 62,
-            "text": "    var usable = notes.filter(function (note) {"
-          },
-          {
-            "lineNumber": 63,
-            "text": "      return note \u0026\u0026 note.title;"
-          },
-          {
-            "lineNumber": 64,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 65
-          },
-          {
-            "lineNumber": 66,
-            "text": "    if (!usable.length) {"
-          },
-          {
-            "lineNumber": 67,
-            "text": "      return \"Shuffle to load two notes, then paste this prompt into your AI chat.\";"
-          },
-          {
-            "lineNumber": 68,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 69
-          },
-          {
-            "lineNumber": 70,
-            "text": "    var origin = window.location.origin;"
-          },
-          {
-            "lineNumber": 71,
-            "text": "    var lines = [core.connectionPromptIntro(), \"\"];"
-          },
-          {
-            "lineNumber": 72
-          },
-          {
-            "lineNumber": 73,
-            "text": "    usable.forEach(function (note, index) {"
-          },
-          {
-            "lineNumber": 74,
-            "text": "      lines.push.apply(lines, core.formatPromptNote(index + 1, note, origin));"
-          },
-          {
-            "lineNumber": 75,
-            "text": "      lines.push(\"\");"
-          },
-          {
-            "lineNumber": 76,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 77
-          },
-          {
-            "lineNumber": 78,
-            "text": "    if (currentPath \u0026\u0026 currentPath.length \u003e 1) {"
-          },
-          {
-            "lineNumber": 79,
-            "text": "      lines.push(core.pathPromptLine(currentPath, titleByUrl));"
-          },
-          {
-            "lineNumber": 80,
-            "text": "      lines.push(\"\");"
-          },
-          {
-            "lineNumber": 81,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 82
-          },
-          {
-            "lineNumber": 83,
-            "text": "    lines.push.apply(lines, core.connectionPromptTail());"
-          },
-          {
-            "lineNumber": 84
-          },
-          {
-            "lineNumber": 85,
-            "text": "    return lines.join(\"\\n\");"
-          },
-          {
-            "lineNumber": 86,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 87
-          },
-          {
-            "lineNumber": 88,
-            "text": "  function updatePath() {"
-          },
-          {
-            "lineNumber": 89,
-            "text": "    var left = currentNotes[0];"
-          },
-          {
-            "lineNumber": 90,
-            "text": "    var right = currentNotes[1];"
-          },
-          {
-            "lineNumber": 91,
-            "text": "    currentPath = core.renderPathBetween({"
-          },
-          {
-            "lineNumber": 92,
-            "text": "      resultEl: pathResultEl,"
-          },
-          {
-            "lineNumber": 93,
-            "text": "      chainEl: pathChainEl,"
-          },
-          {
-            "lineNumber": 94,
-            "text": "      adj: adj,"
-          },
-          {
-            "lineNumber": 95,
-            "text": "      titleByUrl: titleByUrl,"
-          },
-          {
-            "lineNumber": 96,
-            "text": "      start: left \u0026\u0026 left.url,"
-          },
-          {
-            "lineNumber": 97,
-            "text": "      end: right \u0026\u0026 right.url,"
-          },
-          {
-            "lineNumber": 98,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 99,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 100
-          },
-          {
-            "lineNumber": 101,
-            "text": "  function refreshPrompt() {"
-          },
-          {
-            "lineNumber": 102,
-            "text": "    if (promptEl) promptEl.value = buildPrompt(currentNotes);"
-          },
-          {
-            "lineNumber": 103,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 104
-          },
-          {
-            "lineNumber": 105,
-            "text": "  function equalizePanelHeights() {"
-          },
-          {
-            "lineNumber": 106,
-            "text": "    var panels = root.querySelectorAll(\".notes-random-panel\");"
-          },
-          {
-            "lineNumber": 107,
-            "text": "    if (panels.length \u003c 2) return;"
-          },
-          {
-            "lineNumber": 108
-          },
-          {
-            "lineNumber": 109,
-            "text": "    panels.forEach(function (panel) {"
-          },
-          {
-            "lineNumber": 110,
-            "text": "      panel.style.minHeight = \"\";"
-          },
-          {
-            "lineNumber": 111,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 112
-          },
-          {
-            "lineNumber": 113,
-            "text": "    var maxHeight = 0;"
-          },
-          {
-            "lineNumber": 114,
-            "text": "    panels.forEach(function (panel) {"
-          },
-          {
-            "lineNumber": 115,
-            "text": "      maxHeight = Math.max(maxHeight, panel.offsetHeight);"
-          },
-          {
-            "lineNumber": 116,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 117
-          },
-          {
-            "lineNumber": 118,
-            "text": "    if (maxHeight \u003e 0) {"
-          },
-          {
-            "lineNumber": 119,
-            "text": "      panels.forEach(function (panel) {"
-          },
-          {
-            "lineNumber": 120,
-            "text": "        panel.style.minHeight = maxHeight + \"px\";"
-          },
-          {
-            "lineNumber": 121,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 122,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 123,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 124
-          },
-          {
-            "lineNumber": 125,
-            "text": "  function syncSelect(index, url) {"
-          },
-          {
-            "lineNumber": 126,
-            "text": "    if (!window.jorapNotesRandomSelect || !selectEls[index]) return;"
-          },
-          {
-            "lineNumber": 128,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 246
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-duo.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.31453830003738403
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Network Analysis\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Network Analysis\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"study links and hubs in a graph — who connects whom, what's isolated.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-22T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"PKM\", \"Graph\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"network-analysis\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: seedling"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16,
-            "text": "**Network analysis** = study links and hubs in a graph — who connects whom, what's isolated."
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "## Examples"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "- **Sports:** The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first."
-          },
-          {
-            "lineNumber": 21,
-            "text": "- **Non-technical work:** The org chart showed one coordinator linking twelve others - that's where I'd add backup before peak season."
-          },
-          {
-            "lineNumber": 22,
-            "text": "- **Home with children:** The chore chart showed one kid linking every task - the bottleneck we fixed first."
-          },
-          {
-            "lineNumber": 23,
-            "text": "- **Real world:** The garden graph showed one note linking twelve others - that's the doorway I'd prune first."
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "## Note Relationships"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "| Relationship | Wikilink | Reason |"
-          },
-          {
-            "lineNumber": 28,
-            "text": "|--------------|----------|--------|"
-          },
-          {
-            "lineNumber": 29,
-            "text": "| extends | [[Graph View Analytics]] | Named in notes that link here |"
-          },
-          {
-            "lineNumber": 30,
-            "text": "| extends | [[Associative Linking]] | Named in notes that link here |"
-          },
-          {
-            "lineNumber": 31,
-            "text": "| contradicts | [[Maps of Content]] | when the opposite frame fits better |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 31
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/network-analysis.md",
-        "signatures": {}
-      },
-      "score": 0.31313610076904297
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 197,
-            "text": "# Future-note extends (broken wikilink OK)"
-          },
-          {
-            "lineNumber": 198,
-            "text": "FUTURE_EXTENDS: dict[str, list[tuple[str, str]]] = {"
-          },
-          {
-            "lineNumber": 199,
-            "text": "    \"building-a-second-brain\": [(\"CODE Method\", \"Capture → Organize → Distill → Express pipeline Forte names\")],"
-          },
-          {
-            "lineNumber": 200,
-            "text": "    \"capture\": [(\"Frictionless Capture\", \"Zero-friction inbox is the habit this note assumes\")],"
-          },
-          {
-            "lineNumber": 201,
-            "text": "    \"daily-notes\": [(\"Fleeting Notes\", \"Scratch-pad lane before anything goes evergreen\")],"
-          },
-          {
-            "lineNumber": 202,
-            "text": "    \"digital-garden\": [(\"Work in Progress\", \"Public drafts and visible growth — garden ethos\")],"
-          },
-          {
-            "lineNumber": 203,
-            "text": "    \"evergreen-notes\": [(\"Permanent Notes\", \"Ahrens-style durable phrasing this note targets\")],"
-          },
-          {
-            "lineNumber": 204,
-            "text": "    \"gtd-vs-para\": [(\"Getting Things Done\", \"Allen task-inbox system on the other side of the comparison\")],"
-          },
-          {
-            "lineNumber": 205,
-            "text": "    \"para-method\": [(\"Getting Things Done\", \"Action-first capture Forte built PARA on top of\")],"
-          },
-          {
-            "lineNumber": 206,
-            "text": "    \"pkm\": [(\"Personal Knowledge Management\", \"Umbrella term this garden sits under\")],"
-          },
-          {
-            "lineNumber": 207,
-            "text": "    \"progressive-summarization\": [(\"Layered Reading\", \"Bold/highlight layers before rewrite — same distill move\")],"
-          },
-          {
-            "lineNumber": 208,
-            "text": "    \"slow-productivity\": [(\"Deep Work\", \"Fewer deep projects — Newport's focus frame nearby\")],"
-          },
-          {
-            "lineNumber": 209,
-            "text": "    \"spaced-repetition\": [(\"Forgetting Curve\", \"Ebbinghaus decay curve spaced repetition fights\")],"
-          },
-          {
-            "lineNumber": 210,
-            "text": "    \"the-12-week-year\": [(\"Quarterly Planning\", \"Sprint scoreboard rhythm this method compresses\")],"
-          },
-          {
-            "lineNumber": 211,
-            "text": "    \"the-trusted-inbox\": [(\"Inbox Zero\", \"Empty-the-inbox discipline this pipe depends on\")],"
-          },
-          {
-            "lineNumber": 212,
-            "text": "    \"pareto-principle\": [(\"Vilfredo Pareto\", \"80/20 origin story — worth its own note later\")],"
-          },
-          {
-            "lineNumber": 213,
-            "text": "    \"sunk-cost-fallacy\": [(\"Behavioral Economics\", \"Bias cluster this fallacy belongs to\")],"
-          },
-          {
-            "lineNumber": 214,
-            "text": "    \"anti-fragile-systems\": [(\"Antifragility\", \"Taleb term — systems that gain from stress\")],"
-          },
-          {
-            "lineNumber": 215,
-            "text": "    \"first-principles-thinking\": [(\"Elon Musk\", \"Famous modern example of strip-to-basics reasoning\")],"
-          },
-          {
-            "lineNumber": 216,
-            "text": "    \"minimum-viable-product\": [(\"Lean Startup\", \"Ship-to-learn loop Ries named\")],"
-          },
-          {
-            "lineNumber": 217,
-            "text": "    \"local-first-software\": [(\"CRDT\", \"Sync-without-server tech local-first apps use\")],"
-          },
-          {
-            "lineNumber": 218,
-            "text": "    \"mind-mapping\": [(\"Tony Buzan\", \"Named mind-map method this note contrasts with atoms\")],"
-          },
-          {
-            "lineNumber": 219,
-            "text": "    \"the-feynman-technique\": [(\"Richard Feynman\","
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 49,
-            "line": 218
-          },
-          "startPosition": {
-            "column": 1,
-            "line": 194
-          }
-        },
-        "relativeWorkspacePath": "./scripts/sync-note-relationships.py",
-        "signatures": {}
-      },
-      "score": 0.3127104938030243
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 61,
-            "text": "function renderNoteIntoSlot(slot, pick, opts) {"
-          },
-          {
-            "lineNumber": 76
-          },
-          {
-            "lineNumber": 110
-          },
-          {
-            "lineNumber": 111,
-            "text": "      .catch(function () {"
-          },
-          {
-            "lineNumber": 112,
-            "text": "        slot.innerHTML ="
-          },
-          {
-            "lineNumber": 113,
-            "text": "          \"\u003carticle class=\\\"\" +"
-          },
-          {
-            "lineNumber": 114,
-            "text": "          panelClass +"
-          },
-          {
-            "lineNumber": 115,
-            "text": "          '\"\u003e' +"
-          },
-          {
-            "lineNumber": 116,
-            "text": "          \"\u003c\" +"
-          },
-          {
-            "lineNumber": 117,
-            "text": "          headingTag +"
-          },
-          {
-            "lineNumber": 118,
-            "text": "          ' class=\"' +"
-          },
-          {
-            "lineNumber": 119,
-            "text": "          (opts.headingClass || \"h5 mb-3\") +"
-          },
-          {
-            "lineNumber": 120,
-            "text": "          '\"\u003e\u003ca class=\"text-accent no-underline hover:underline\" href=\"' +"
-          },
-          {
-            "lineNumber": 121,
-            "text": "          escapeHtml(pick.url) +"
-          },
-          {
-            "lineNumber": 122,
-            "text": "          '\"\u003e' +"
-          },
-          {
-            "lineNumber": 123,
-            "text": "          escapeHtml(pick.title) +"
-          },
-          {
-            "lineNumber": 124,
-            "text": "          \"\u003c/a\u003e\u003c/\" +"
-          },
-          {
-            "lineNumber": 125,
-            "text": "          headingTag +"
-          },
-          {
-            "lineNumber": 126,
-            "text": "          \"\u003e\" +"
-          },
-          {
-            "lineNumber": 127,
-            "text": "          '\u003cp class=\"text-ink-muted text-sm\"\u003eCould not load this note. \u003ca href=\"' +"
-          },
-          {
-            "lineNumber": 128,
-            "text": "          escapeHtml(pick.url) +"
-          },
-          {
-            "lineNumber": 129,
-            "text": "          '\"\u003eOpen it directly\u003c/a\u003e.\u003c/p\u003e\u003c/article\u003e';"
-          },
-          {
-            "lineNumber": 130
-          },
-          {
-            "lineNumber": 131,
-            "text": "        return {"
-          },
-          {
-            "lineNumber": 132,
-            "text": "          title: pick.title,"
-          },
-          {
-            "lineNumber": 133,
-            "text": "          url: pick.url,"
-          },
-          {
-            "lineNumber": 134,
-            "text": "          bodyText: \"\","
-          },
-          {
-            "lineNumber": 135,
-            "text": "        };"
-          },
-          {
-            "lineNumber": 136,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 137,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 138
-          },
-          {
-            "lineNumber": 139,
-            "text": "  function pickOne(pool, excludeUrls) {"
-          },
-          {
-            "lineNumber": 140,
-            "text": "    if (!pool.length) return null;"
-          },
-          {
-            "lineNumber": 141
-          },
-          {
-            "lineNumber": 142,
-            "text": "    var exclude = excludeUrls || [];"
-          },
-          {
-            "lineNumber": 143,
-            "text": "    var candidates = pool.filter(function (entry) {"
-          },
-          {
-            "lineNumber": 144,
-            "text": "      return exclude.indexOf(entry.url) === -1;"
-          },
-          {
-            "lineNumber": 145,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 146
-          },
-          {
-            "lineNumber": 147,
-            "text": "    if (!candidates.length) candidates = pool.slice();"
-          },
-          {
-            "lineNumber": 148,
-            "text": "    return candidates[Math.floor(Math.random() * candidates.length)];"
-          },
-          {
-            "lineNumber": 149,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 150
-          },
-          {
-            "lineNumber": 151,
-            "text": "  function connectionPromptIntro() {"
-          },
-          {
-            "lineNumber": 152,
-            "text": "    return \"I'm exploring connections between two ideas in the website.\";"
-          },
-          {
-            "lineNumber": 153,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 154
-          },
-          {
-            "lineNumber": 155,
-            "text": "  function formatPromptNote(index, note, origin) {"
-          },
-          {
-            "lineNumber": 156,
-            "text": "    var lines = [\"Note \" + index + \":\"];"
-          },
-          {
-            "lineNumber": 157,
-            "text": "    if (!note || !note.title) return lines;"
-          },
-          {
-            "lineNumber": 158,
-            "text": "    lines.push('\"' + note.title + '\"');"
-          },
-          {
-            "lineNumber": 159,
-            "text": "    if (note.url) lines.push(\"URL: \" + origin + note.url);"
-          },
-          {
-            "lineNumber": 160,
-            "text": "    if (note.bodyText) lines.push(note.bodyText);"
-          },
-          {
-            "lineNumber": 161,
-            "text": "    return lines;"
-          },
-          {
-            "lineNumber": 162,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 163
-          },
-          {
-            "lineNumber": 164,
-            "text": "  function connectionPromptTail() {"
-          },
-          {
-            "lineNumber": 165,
-            "text": "    return"
-          },
-          {
-            "lineNumber": 257,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 508
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-core.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            },
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 62
-              },
-              "startPosition": {
-                "column": 3,
-                "line": 61
-              }
-            },
-            {
-              "endPosition": {
-                "column": 12,
-                "line": 76
-              },
-              "startPosition": {
-                "column": 12,
-                "line": 76
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.3106718063354492
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 36,
-            "text": "- **Non-technical work:** A nurse can't find the policy by department folder but follows the wikilink from \"wrong dose\" to the double-check card - links think, folders only sort."
-          },
-          {
-            "lineNumber": 37,
-            "text": "- **Home with children:** The bedtime chart links \"snack fight\" to \"brush teeth first\" - I don't memorize every filename, the arrows get me there when everyone's tired."
-          },
-          {
-            "lineNumber": 38,
-            "text": "- **Real world:** I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40,
-            "text": "## Note Relationships"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42,
-            "text": "| Relationship | Wikilink | Reason |"
-          },
-          {
-            "lineNumber": 43,
-            "text": "|--------------|----------|--------|"
-          },
-          {
-            "lineNumber": 44,
-            "text": "| alternative | [[PARA Method]] | Link-first graph vs life buckets when folders beat waiting for links |"
-          },
-          {
-            "lineNumber": 45,
-            "text": "| contradicts | [[PARA Method]] | when links beat sorting by owner and deadline |"
-          },
-          {
-            "lineNumber": 46,
-            "text": "| extends | [[Atomic Notes]] | Links let atomic notes bump into each other without you memorizing every filename |"
-          },
-          {
-            "lineNumber": 47,
-            "text": "| implements | [[Atomic Notes]] | Typed wikilinks make one-claim files usable |"
-          },
-          {
-            "lineNumber": 48,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 49
-          },
-          {
-            "lineNumber": 50,
-            "text": "- [[Note Relationships]] - Linking, Meta, Note Taking"
-          },
-          {
-            "lineNumber": 51,
-            "text": "- [[Digital Garden]] - Digital Garden, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 52,
-            "text": "- [[Graph View Analytics]] - Graph, Linking, PKM"
-          },
-          {
-            "lineNumber": 53,
-            "text": "- [[Atomic Notes]] - Note Taking, PKM, Second Brain"
-          },
-          {
-            "lineNumber": 54,
-            "text": "- [[Digital Serendipity]] - Linking, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 55,
-            "text": "- [[Evergreen Notes]] - Note Taking, PKM, Second Brain"
-          },
-          {
-            "lineNumber": 56,
-            "text": "- [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 56
-          },
-          "startPosition": {
-            "line": 35
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/associative-linking.md",
-        "signatures": {}
-      },
-      "score": 0.31049859523773193
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 259,
-            "text": "function createAiHelpers(opts) {"
-          },
-          {
-            "lineNumber": 297
-          },
-          {
-            "lineNumber": 298
-          },
-          {
-            "lineNumber": 299,
-            "text": "    function sendPromptToChat(chatUrl, sendBtn, prefill) {"
-          },
-          {
-            "lineNumber": 300,
-            "text": "      if (!promptEl || !promptIsReady()) return;"
-          },
-          {
-            "lineNumber": 301
-          },
-          {
-            "lineNumber": 302,
-            "text": "      var prompt = promptEl.value;"
-          },
-          {
-            "lineNumber": 303
-          },
-          {
-            "lineNumber": 304,
-            "text": "      function openChat(url) {"
-          },
-          {
-            "lineNumber": 305,
-            "text": "        window.open(url, \"_blank\", \"noopener,noreferrer\");"
-          },
-          {
-            "lineNumber": 306,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 307
-          },
-          {
-            "lineNumber": 308,
-            "text": "      if (prefill \u0026\u0026 chatUrl.indexOf(\"?q=\") !== -1) {"
-          },
-          {
-            "lineNumber": 309,
-            "text": "        var prefillUrl = chatUrl + encodeURIComponent(prompt);"
-          },
-          {
-            "lineNumber": 310,
-            "text": "        if (prefillUrl.length \u003c= PROMPT_PREFILL_MAX_URL) {"
-          },
-          {
-            "lineNumber": 311,
-            "text": "          openChat(prefillUrl);"
-          },
-          {
-            "lineNumber": 312,
-            "text": "          flashButton(sendBtn, openedLabel);"
-          },
-          {
-            "lineNumber": 313,
-            "text": "          return;"
-          },
-          {
-            "lineNumber": 314,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 315,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 316
-          },
-          {
-            "lineNumber": 317,
-            "text": "      if (!navigator.clipboard) {"
-          },
-          {
-            "lineNumber": 318,
-            "text": "        openChat(aiChatFallbackUrl(chatUrl));"
-          },
-          {
-            "lineNumber": 319,
-            "text": "        return;"
-          },
-          {
-            "lineNumber": 320,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 321
-          },
-          {
-            "lineNumber": 322,
-            "text": "      navigator.clipboard.writeText(prompt).then(function () {"
-          },
-          {
-            "lineNumber": 323,
-            "text": "        openChat(aiChatFallbackUrl(chatUrl));"
-          },
-          {
-            "lineNumber": 324,
-            "text": "        flashButton(sendBtn, copiedLabel);"
-          },
-          {
-            "lineNumber": 325,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 326,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 327
-          },
-          {
-            "lineNumber": 328,
-            "text": "    return {"
-          },
-          {
-            "lineNumber": 329,
-            "text": "      flashButton: flashButton,"
-          },
-          {
-            "lineNumber": 330,
-            "text": "      promptIsReady: promptIsReady,"
-          },
-          {
-            "lineNumber": 331,
-            "text": "      copyPrompt: copyPrompt,"
-          },
-          {
-            "lineNumber": 332,
-            "text": "      sendPromptToChat: sendPromptToChat,"
-          },
-          {
-            "lineNumber": 333,
-            "text": "    };"
-          },
-          {
-            "lineNumber": 334,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 335
-          },
-          {
-            "lineNumber": 336,
-            "text": "  function wireSendPromptButtons(prefix, ai) {"
-          },
-          {
-            "lineNumber": 337,
-            "text": "    var btns = document.querySelectorAll(\"[data-\" + prefix + \"-send-prompt]\");"
-          },
-          {
-            "lineNumber": 338,
-            "text": "    Array.prototype.forEach.call(btns, function (btn) {"
-          },
-          {
-            "lineNumber": 339,
-            "text": "      bindTapIf(btn, function (event) {"
-          },
-          {
-            "lineNumber": 340,
-            "text": "        event.preventDefault();"
-          },
-          {
-            "lineNumber": 341,
-            "text": "        event.stopPropagation();"
-          },
-          {
-            "lineNumber": 342,
-            "text": "        var chatUrl = btn.getAttribute(\"data-ai-chat-url\") || \"https://chatgpt.com/?q=\";"
-          },
-          {
-            "lineNumber": 343,
-            "text": "        var prefill = btn.getAttribute(\"data-ai-prefill\") === \"true\";"
-          },
-          {
-            "lineNumber": 344,
-            "text": "        ai.sendPromptToChat(chatUrl, btn, prefill);"
-          },
-          {
-            "lineNumber": 345,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 346,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 347,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 348
-          },
-          {
-            "lineNumber": 349,
-            "text": "  function bindTapIf(el, fn) {"
-          },
-          {
-            "lineNumber": 350,
-            "text": "    var bind = window.jorapBindTouchClickIf;"
-          },
-          {
-            "lineNumber": 351,
-            "text": "    if (bind) {"
-          },
-          {
-            "lineNumber": 352,
-            "text": "      bind(el, fn);"
-          },
-          {
-            "lineNumber": 353,
-            "text": "      return;"
-          },
-          {
-            "lineNumber": 354,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 355,
-            "text": "    if (el) el.addEventListener(\"click\", fn);"
-          },
-          {
-            "lineNumber": 356,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 357
-          },
-          {
-            "lineNumber": 358,
-            "text": "  function buildAdjacency(edges) {"
-          },
-          {
-            "lineNumber": 359,
-            "text": "    var adj = Object.create(null);"
-          },
-          {
-            "lineNumber": 360,
-            "text": "    (edges || []).forEach(function (edge) {"
-          },
-          {
-            "lineNumber": 361,
-            "text": "      var s = edge.source;"
-          },
-          {
-            "lineNumber": 362,
-            "text": "      var t = edge.target;"
-          },
-          {
-            "lineNumber": 363,
-            "text": "      if (!adj[s]) adj[s] = [];"
-          },
-          {
-            "lineNumber": 364,
-            "text": "      if (!adj[t]) adj[t] = [];"
-          },
-          {
-            "lineNumber": 365,
-            "text": "      adj[s].push(t);"
-          },
-          {
-            "lineNumber": 366,
-            "text": "      adj[t].push(s);"
-          },
-          {
-            "lineNumber": 367,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 368,
-            "text": "    return adj;"
-          },
-          {
-            "lineNumber": 369,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 370
-          },
-          {
-            "lineNumber": 371,
-            "text": "  function shortestPath(adj, start, end) {"
-          },
-          {
-            "lineNumber": 372,
-            "text": "    if (!start || !end || start === end) return [start];"
-          },
-          {
-            "lineNumber": 398,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 508
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-core.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            },
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 165
-              },
-              "startPosition": {
-                "column": 3,
-                "line": 164
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.30965375900268555
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Scan garden notes for link and structure issues."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Returns dict:"
-          },
-          {
-            "lineNumber": 4,
-            "text": "    byPath — map File.Path → { broken, pipe, unlinked, structure, total }"
-          },
-          {
-            "lineNumber": 5,
-            "text": "    notes — slice of { Page, broken, pipe, unlinked, structure, total }"
-          },
-          {
-            "lineNumber": 6,
-            "text": "    brokenCount, pipeCount, unlinkedCount, structureCount, notesWithIssues"
-          },
-          {
-            "lineNumber": 7,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $registry := partialCached \"notes/link-registry.html\" site \"notes-registry-v2\" -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $gardenNotes := partial \"notes/pages.html\" (dict) -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $minLen := site.Params.notes.unlinked_min_length | default 6 | int -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $byPath := dict -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $allNotes := slice -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $brokenCount := 0 -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $pipeCount := 0 -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $unlinkedCount := 0 -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- $structureCount := 0 -}}"
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- range $gardenNotes -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- $note := . -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  {{- $path := $note.File.Path -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- $raw := $note.RawContent -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  {{- $fence := \"&#96;&#96;&#96;\" -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  {{- $tick := \"&#96;\" -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- $raw = replaceRE (printf \"(?s)%s[\\\\s\\\\S]*?%s\" $fence $fence) \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- $raw = replaceRE (printf \"%s[^%s\\\\n]+%s\" $tick $tick $tick) \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  {{- $raw = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  {{- $raw = replaceRE &#96;(?s)## See also.*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- $broken := slice -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  {{- $brokenKeys := dict -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  {{- $matches := findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?\\]\\]&#96; $raw -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  {{- range $matches -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "    {{- $target := $inner -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    {{- if strings.Contains $target \"#\" -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      {{- $target = index (split $target \"#\") 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    {{- $target = replace $target \"\\u2019\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "    {{- $target = replace $target \"\\u2018\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    {{- if not (index $registry.byKey (lower $target)) -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "      {{- $key := lower $target -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "      {{- if not (index $brokenKeys $key) -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "        {{- $brokenKeys = merge $brokenKeys (dict $key true) -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "        {{- $broken = $broken | append (dict \"target\" $target \"raw\" $inner) -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 48
-          },
-          {
-            "lineNumber": 49,
-            "text": "  {{- $pipe := slice -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "  {{- $pipeKeys := dict -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- $pipeMatches := findRE &#96;\\[\\[[^\\]]+\\|[^\\]]+\\]\\]&#96; $raw -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 51
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.30947038531303406
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Random garden note — blog posts (scope blog) or note pages (scope notes)."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Pass dict with Context and Scope (\"blog\" | \"notes\"); Scope defaults to notes."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  One random note + connection AI prompt (post↔note or current note↔note)."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $scope := \"notes\" -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $ctx := . -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- if reflect.IsMap . -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- with .Context -}}{{- $ctx = . -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- with .Scope -}}{{- $scope = . -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $isBlog := eq $scope \"blog\" -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $prefix := cond $isBlog \"blog-random\" \"notes-single-random\" -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $dataClass := cond $isBlog \"blog-random-notes-data\" \"notes-single-random-data\" -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $pool := partial \"notes/random-pool.html\" $ctx -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- if not $isBlog -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  {{- $pool = where $pool \"url\" \"ne\" $ctx.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- $graph := dict -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- if not $isBlog -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- $graph = partialCached \"notes/graph-data.html\" site \"graph-data-v3\" -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "{{- $minPool := 1 -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "{{- if ge (len $pool) $minPool -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  \u003cdiv class=\"section pb-0\"\u003e"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    \u003cdiv class=\"notes-toolbar mb-4 flex flex-wrap items-center gap-3\"\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 6,
-            "line": 26
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/random-unrelated-notes.html",
-        "signatures": {}
-      },
-      "score": 0.3085438907146454
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 406,
-            "text": "function renderPathChain(chainEl, path, titleByUrl) {"
-          },
-          {
-            "lineNumber": 427
-          },
-          {
-            "lineNumber": 429
-          },
-          {
-            "lineNumber": 430,
-            "text": "      })"
-          },
-          {
-            "lineNumber": 431,
-            "text": "      .join(\"\");"
-          },
-          {
-            "lineNumber": 432,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 433
-          },
-          {
-            "lineNumber": 434,
-            "text": "  function renderPathBetween(opts) {"
-          },
-          {
-            "lineNumber": 435,
-            "text": "    opts = opts || {};"
-          },
-          {
-            "lineNumber": 436,
-            "text": "    var resultEl = opts.resultEl;"
-          },
-          {
-            "lineNumber": 437,
-            "text": "    var chainEl = opts.chainEl;"
-          },
-          {
-            "lineNumber": 438,
-            "text": "    var emptyEl = opts.emptyEl;"
-          },
-          {
-            "lineNumber": 439,
-            "text": "    var start = opts.start;"
-          },
-          {
-            "lineNumber": 440,
-            "text": "    var end = opts.end;"
-          },
-          {
-            "lineNumber": 441,
-            "text": "    var sameNoteMsg = opts.sameNoteMsg || \"Pick two different notes.\";"
-          },
-          {
-            "lineNumber": 442,
-            "text": "    var noPathMsg = opts.noPathMsg || \"No path found through wikilinks.\";"
-          },
-          {
-            "lineNumber": 443
-          },
-          {
-            "lineNumber": 444,
-            "text": "    if (!resultEl) return null;"
-          },
-          {
-            "lineNumber": 445
-          },
-          {
-            "lineNumber": 446,
-            "text": "    if (!start || !end) {"
-          },
-          {
-            "lineNumber": 447,
-            "text": "      resultEl.classList.add(\"hidden\");"
-          },
-          {
-            "lineNumber": 448,
-            "text": "      if (emptyEl) emptyEl.classList.add(\"hidden\");"
-          },
-          {
-            "lineNumber": 449,
-            "text": "      return null;"
-          },
-          {
-            "lineNumber": 450,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 451
-          },
-          {
-            "lineNumber": 452,
-            "text": "    if (start === end) {"
-          },
-          {
-            "lineNumber": 453,
-            "text": "      resultEl.classList.add(\"hidden\");"
-          },
-          {
-            "lineNumber": 454,
-            "text": "      if (emptyEl) {"
-          },
-          {
-            "lineNumber": 455,
-            "text": "        emptyEl.classList.remove(\"hidden\");"
-          },
-          {
-            "lineNumber": 456,
-            "text": "        emptyEl.textContent = sameNoteMsg;"
-          },
-          {
-            "lineNumber": 457,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 458,
-            "text": "      return [start];"
-          },
-          {
-            "lineNumber": 459,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 460
-          },
-          {
-            "lineNumber": 461,
-            "text": "    var path = shortestPath(opts.adj, start, end);"
-          },
-          {
-            "lineNumber": 462,
-            "text": "    if (!path || path.length \u003c 2) {"
-          },
-          {
-            "lineNumber": 463,
-            "text": "      resultEl.classList.add(\"hidden\");"
-          },
-          {
-            "lineNumber": 464,
-            "text": "      if (emptyEl) {"
-          },
-          {
-            "lineNumber": 465,
-            "text": "        emptyEl.classList.remove(\"hidden\");"
-          },
-          {
-            "lineNumber": 466,
-            "text": "        emptyEl.textContent = noPathMsg;"
-          },
-          {
-            "lineNumber": 467,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 468,
-            "text": "      return null;"
-          },
-          {
-            "lineNumber": 469,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 470
-          },
-          {
-            "lineNumber": 471,
-            "text": "    if (emptyEl) emptyEl.classList.add(\"hidden\");"
-          },
-          {
-            "lineNumber": 472,
-            "text": "    resultEl.classList.remove(\"hidden\");"
-          },
-          {
-            "lineNumber": 473,
-            "text": "    renderPathChain(chainEl, path, opts.titleByUrl);"
-          },
-          {
-            "lineNumber": 474,
-            "text": "    return path;"
-          },
-          {
-            "lineNumber": 475,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 476
-          },
-          {
-            "lineNumber": 477,
-            "text": "  function pathPromptLine(path, titleByUrl) {"
-          },
-          {
-            "lineNumber": 478,
-            "text": "    if (!path || path.length \u003c 2) return \"\";"
-          },
-          {
-            "lineNumber": 479,
-            "text": "    return ("
-          },
-          {
-            "lineNumber": 480,
-            "text": "      \"A shortest wikilink path between these notes (others may exist):\\n\" +"
-          },
-          {
-            "lineNumber": 481,
-            "text": "      path"
-          },
-          {
-            "lineNumber": 482,
-            "text": "        .map(function (url) {"
-          },
-          {
-            "lineNumber": 483,
-            "text": "          return titleByUrl[url] || url;"
-          },
-          {
-            "lineNumber": 484,
-            "text": "        })"
-          },
-          {
-            "lineNumber": 485,
-            "text": "        .join(\" → \")"
-          },
-          {
-            "lineNumber": 486,
-            "text": "    );"
-          },
-          {
-            "lineNumber": 487,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 488
-          },
-          {
-            "lineNumber": 489,
-            "text": "  window.jorapNotesRandomCore = {"
-          },
-          {
-            "lineNumber": 490,
-            "text": "    buildAdjacency: buildAdjacency,"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 508
-          },
-          "startPosition": {
-            "line": 3
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/notes-random-core.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 4
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 4
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.3075827956199646
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Create Regular Connection\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Create Regular Connection - Small Rituals Beat Grand Gestures\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"I pick one simple connection habit and repeat it - trust grows in the boring reps.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-22T08:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Relationships\", \"Habits\", \"Connection\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"create-regular-connection\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: seedling"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16,
-            "text": "**Create regular connection** = I pick one small ritual and repeat it - ten minutes, one walk, one check-in - instead of waiting for a big gesture to make up for a dry month. Consistency tells people the relationship still has a slot on the calendar."
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "## Examples"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "- **Sports:** Our pickup group texts \"same court, same time Thursday\" every week - nobody's organizing a tournament; we just show up. That's the whole bond."
-          },
-          {
-            "lineNumber": 21,
-            "text": "- **Non-technical work:** I block fifteen minutes after standup to walk with one teammate - not a performance review, just the same loop every Tuesday."
-          },
-          {
-            "lineNumber": 22,
-            "text": "- **Home with children:** Bedtime is three questions every night: best part, hard part, tomorrow's one hope. Short, repeatable, no fancy \"quality time\" speech."
-          },
-          {
-            "lineNumber": 23,
-            "text": "- **Real world:** My parents and I call every Sunday after lunch - same window, even when there's nothing big to report. The habit carries the closeness."
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "## Note Relationships"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "| Relationship | Wikilink | Reason |"
-          },
-          {
-            "lineNumber": 28,
-            "text": "|--------------|----------|--------|"
-          },
-          {
-            "lineNumber": 29,
-            "text": "| contradicts | [[Follow Their Lead]] | when a rigid ritual blocks what they need today |"
-          },
-          {
-            "lineNumber": 30,
-            "text": "| extends | [[Habit Formation]] | Connection rituals are habits with a person's name on them |"
-          },
-          {
-            "lineNumber": 31,
-            "text": "| extends | [[Process Over Outcomes]] | The repeated moment matters more than one perfect date night |"
-          },
-          {
-            "lineNumber": 32,
-            "text": "| implements | [[Continuous Improvement]] | Small connection reps compound; one grand dinner doesn't |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 32
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/create-regular-connection.md",
-        "signatures": {}
-      },
-      "score": 0.30329689383506775
-    }
-  ]
-}
+            "text": "      
+… (output truncated)
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5141,11 +171,1204 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for new connections across all notes.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create-regular-connection.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "pattern": "find.*connection|new connection|connection.*across"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "find.*connection|new connection|connection.*across",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_04-36-18Z-notes-homepage-item-arrangement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_04-58-34Z-random-trio-feature-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_03-46-51Z-note-graph-functionality-issue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_07-32-04Z-capture.md-format-explanation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_04-04-25Z-graph-display-for-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_04-23-36Z-evergreen-notes-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 15
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **247** results in **1** directory</summary>
+
+Directory: **``** (247 files)
+
+| File |
+|------|
+| `content/english/notes/standard-operating-procedures.md` |
+| `layouts/_partials/notes/relationship-types.html` |
+| `content/english/notes/continuous-improvement.md` |
+| `content/english/notes/the-12-week-year.md` |
+| `layouts/_partials/notes/recent-updated.html` |
+| `content/english/notes/forgiveness.md` |
+| `content/english/notes/maps-of-content.md` |
+| `content/english/notes/pareto-principle.md` |
+| `content/english/notes/reversibility.md` |
+| `layouts/_partials/notes/note-card.html` |
+| `content/english/notes/execution.md` |
+| `layouts/notes/random-duo.html` |
+| `content/english/notes/render-unto-caesar.md` |
+| `content/english/notes/heed-every-near-miss.md` |
+| `content/english/notes/eternal-principles.md` |
+| `content/english/notes/associative-linking.md` |
+| `content/english/notes/mental-models.md` |
+| `content/english/notes/by-their-fruits.md` |
+| `content/english/notes/versatility.md` |
+| `layouts/_partials/notes/lint-note-issues.html` |
+| `content/english/notes/hierarchy-of-controls.md` |
+| `content/english/notes/weekly-review-checklists.md` |
+| `content/english/notes/recovery.md` |
+| `content/english/notes/strategic-foresight.md` |
+| `content/english/notes/childlike-faith.md` |
+| `content/english/notes/capture.md` |
+| `content/english/notes/develop-dont-endanger.md` |
+| `content/english/notes/control-the-rhythm.md` |
+| `layouts/_partials/notes/note-flashcards.html` |
+| `content/english/notes/quarterly-planning.md` |
+| `content/english/notes/leadership.md` |
+| `content/english/notes/drafting-in-public.md` |
+| `content/english/notes/building-a-second-brain.md` |
+| `content/english/notes/love-god.md` |
+| `layouts/_partials/notes/toolbar.html` |
+| `content/english/notes/future-proofing-knowledge.md` |
+| `content/english/notes/preparedness.md` |
+| `content/english/notes/slow-the-moment.md` |
+| `layouts/_partials/notes/status-badge.html` |
+| `content/english/notes/minimum-effective-dose.md` |
+| `content/english/notes/the-beatitudes.md` |
+| `content/english/notes/maintenance-window.md` |
+| `content/english/notes/reliability.md` |
+| `content/english/notes/share-sheet.md` |
+| `content/english/notes/flashcards.md` |
+| `content/english/notes/compounding.md` |
+| `content/english/notes/safety-comes-first.md` |
+| `content/english/notes/tony-buzan.md` |
+| `layouts/_partials/notes/featured-random-note.html` |
+| `layouts/_partials/notes/cards-for-page.html` |
+| `content/english/notes/life-before-achievement.md` |
+| `content/english/notes/taxonomy.md` |
+| `content/english/notes/repent-and-believe.md` |
+| `content/english/notes/graph-view-analytics.md` |
+| `content/english/notes/anti-fragile-systems.md` |
+| `content/english/notes/finish-strong.md` |
+| `content/english/notes/duty-of-care.md` |
+| `content/english/notes/risk-management.md` |
+| `content/english/notes/second-order-thinking.md` |
+| `content/english/notes/situational-control.md` |
+| `content/english/notes/forgetting-curve.md` |
+| `content/english/notes/the-feynman-technique.md` |
+| `content/english/notes/first-principles-thinking.md` |
+| `content/english/notes/habit-formation.md` |
+| `layouts/_partials/notes/see-also.html` |
+| `content/english/notes/spaced-repetition.md` |
+| `content/english/notes/growth-mindset.md` |
+| `content/english/notes/accountability.md` |
+| `layouts/_partials/notes/collect-note-issues.html` |
+| `content/english/notes/attention-economy.md` |
+| `content/english/notes/own-the-error.md` |
+| `content/english/notes/psychological-safety.md` |
+| `layouts/_partials/notes/note-link-card.html` |
+| `content/english/notes/the-wise-builder.md` |
+| `content/english/notes/convert-pain-into-learning.md` |
+| `content/english/notes/analog-capture-tools.md` |
+| `layouts/_partials/notes/preview-index.html` |
+| `content/english/notes/voice-memos.md` |
+| `content/english/notes/evergreen-notes.md` |
+| `content/english/notes/eliminate-before-managing.md` |
+| `layouts/_partials/notes/is-index-page.html` |
+| `content/english/notes/dont-worry.md` |
+| `content/english/notes/information-diet.md` |
+| `content/english/notes/inbox-zero.md` |
+| `content/english/notes/decision-quality.md` |
+| `layouts/notes/graph.html` |
+| `content/english/notes/the-garage-concept.md` |
+| `layouts/_partials/notes/card-set-filter-buttons.html` |
+| `content/english/notes/para-method.md` |
+| `content/english/notes/graph.md` |
+| `content/english/notes/coaching-ethics.md` |
+| `content/english/notes/sunk-cost-fallacy.md` |
+| `content/english/notes/deep-work.md` |
+| `layouts/_partials/notes/toc.html` |
+| `content/english/notes/the-knowledge-lifecycle.md` |
+| `content/english/notes/digital-minimalism.md` |
+| `content/english/notes/periodic-knowledge-review.md` |
+| `content/english/notes/incident-investigation.md` |
+| `content/english/notes/building-a-personal-api.md` |
+| `layouts/_partials/notes/random-note.html` |
+| `content/english/notes/getting-started.md` |
+| `content/english/notes/signal-vs-noise.md` |
+| `content/english/notes/mobile-capture-workflows.md` |
+| `content/english/notes/elon-musk.md` |
+| `layouts/_partials/notes/render-content.html` |
+| `content/english/notes/the-trusted-inbox.md` |
+| `content/english/notes/build-a-reliable-default.md` |
+| `content/english/notes/read-later-queue.md` |
+| `layouts/_partials/notes/toc-headings.html` |
+| `content/english/notes/backlinks.md` |
+| `content/english/notes/gtd-vs-para.md` |
+| `content/english/notes/crdt.md` |
+| `content/english/notes/sketchpad.md` |
+| `content/english/notes/take-up-your-cross.md` |
+| `content/english/notes/the-narrow-way.md` |
+| `content/english/notes/daily-notes.md` |
+| `content/english/notes/love-your-neighbor.md` |
+| `content/english/notes/intellectual-sourcing.md` |
+| `content/english/notes/treasure-in-heaven.md` |
+| `content/english/notes/great-commission.md` |
+| `content/english/notes/complete-the-cycle.md` |
+| `content/english/notes/minimum-viable-product.md` |
+| `content/english/notes/reconcile-before-the-review.md` |
+| `content/english/notes/turn-the-other-cheek.md` |
+| `content/english/notes/attention-to-detail.md` |
+| `layouts/_partials/notes/random-note-select.html` |
+| `layouts/notes/review.html` |
+| `layouts/notes/single.html` |
+| `content/english/notes/break-the-escalation-cycle.md` |
+| `content/english/notes/ask-seek-knock.md` |
+| `content/english/notes/create-regular-connection.md` |
+| `content/english/notes/the-collectors-fallacy.md` |
+| `content/english/notes/workplace-principles.md` |
+| `content/english/notes/energy-protects-judgment.md` |
+| `content/english/notes/discipline.md` |
+| `content/english/notes/listen-before-fixing.md` |
+| `layouts/_partials/notes/related-notes.html` |
+| `content/english/notes/free-grace.md` |
+| `content/english/notes/let-your-yes-be-yes.md` |
+| `content/english/notes/local-first-software.md` |
+| `content/english/notes/expect-the-counter.md` |
+| `layouts/notes/backlinks.html` |
+| `content/english/notes/habit-stacking.md` |
+| `content/english/notes/set-calm-boundaries.md` |
+| `content/english/notes/composure.md` |
+| `content/english/notes/synthesis-as-a-goal.md` |
+| `content/english/notes/the-golden-rule.md` |
+| `content/english/notes/outcomes-over-pitch-decks.md` |
+| `content/english/notes/secret-devotion.md` |
+| `layouts/_partials/notes/note-meta.html` |
+| `content/english/notes/deliberate-practice.md` |
+| `content/english/notes/evergreen-vs-fleeting-notes.md` |
+| `content/english/notes/creative-blocks.md` |
+| `content/english/notes/ship-it.md` |
+| `content/english/notes/judge-not.md` |
+| `content/english/notes/resilience.md` |
+| `content/english/notes/notice-the-good.md` |
+| `content/english/notes/getting-things-done.md` |
+| `content/english/notes/commonplace-book.md` |
+| `content/english/notes/slow-productivity.md` |
+| `content/english/notes/safety-by-design.md` |
+| `content/english/notes/ethical-leadership.md` |
+| `content/english/notes/love-your-enemies.md` |
+| `content/english/notes/pkm.md` |
+| `content/english/notes/create.md` |
+| `layouts/_partials/notes/cards-data.html` |
+| `content/english/notes/learning-organizations.md` |
+| `layouts/_partials/notes/dev-banner.html` |
+| `content/english/notes/mind-mapping.md` |
+| `content/english/notes/seek-the-kingdom-first.md` |
+| `content/english/notes/golden-rule-at-work.md` |
+| `layouts/_partials/notes/random-pool.html` |
+| `content/english/notes/eternal-rewards.md` |
+| `layouts/_partials/notes/backlinks.html` |
+| `content/english/notes/context-aware-capture.md` |
+| `content/english/notes/progressive-summarization.md` |
+| `content/english/notes/atomic-notes.md` |
+| `content/english/notes/metadata-strategy.md` |
+| `layouts/_partials/notes/file-dates.html` |
+| `content/english/notes/emotional-regulation.md` |
+| `content/english/notes/adaptability.md` |
+| `content/english/notes/note-relationships.md` |
+| `content/english/notes/systems-for-growth.md` |
+| `layouts/_partials/notes/has-cards.html` |
+| `content/english/notes/failure-as-feedback.md` |
+| `layouts/_partials/notes/local-graph.html` |
+| `content/english/notes/integrity-when-no-ones-watching.md` |
+| `layouts/notes/cards.html` |
+| `content/english/notes/random-duo.md` |
+| `content/english/notes/peacemakers.md` |
+| `content/english/notes/follow-through.md` |
+| `content/english/notes/creative-output.md` |
+| `content/english/notes/digital-serendipity.md` |
+| `content/english/notes/literature-notes.md` |
+| `layouts/notes/create.html` |
+| `layouts/_partials/notes/graph-data-local.html` |
+| `content/english/notes/heart-righteousness.md` |
+| `content/english/notes/_index.md` |
+| `content/english/notes/review.md` |
+| `content/english/notes/webhooks.md` |
+| `content/english/notes/issues.md` |
+| `layouts/_partials/notes/card-sets.html` |
+| `content/english/notes/layered-reading.md` |
+| `content/english/notes/process-over-outcomes.md` |
+| `content/english/notes/digital-garden.md` |
+| `layouts/_partials/notes/backlinks-index.html` |
+| `content/english/notes/there-is-no-perfect-solution.md` |
+| `content/english/notes/follow-their-lead.md` |
+| `content/english/notes/low-hanging-fruit.md` |
+| `layouts/_partials/notes/resolve-target.html` |
+| `content/english/notes/forgiveness-at-work.md` |
+| `layouts/_partials/notes/graph-data.html` |
+| `content/english/notes/sustainable-performance.md` |
+| `layouts/_partials/notes/outgoing-links.html` |
+| `layouts/_partials/notes/random-prompt-panel.html` |
+| `layouts/_partials/notes/link-registry.html` |
+| `layouts/_partials/notes/sort-by-connections.html` |
+| `content/english/notes/systems-thinking.md` |
+| `content/english/notes/self-control.md` |
+| `content/english/notes/reconciliation-before-worship.md` |
+| `layouts/_partials/notes/pages.html` |
+| `content/english/notes/humility-and-service.md` |
+| `content/english/notes/behavioral-economics.md` |
+| `layouts/_partials/notes/flashcard.html` |
+| `layouts/_partials/notes/tag-chips.html` |
+| `layouts/notes/list.html` |
+| `content/english/notes/share-what-you-learn.md` |
+| `content/english/notes/network-analysis.md` |
+| `layouts/notes/issues.html` |
+| `layouts/_partials/notes/random-unrelated-notes.html` |
+| `layouts/_partials/notes/note-issues-panel.html` |
+| `content/english/notes/lean-startup.md` |
+| `layouts/_partials/notes/collect-cards.html` |
+| `content/english/notes/integrity.md` |
+| `layouts/_partials/notes/is-utility-page.html` |
+| `content/english/notes/let-your-light-shine.md` |
+| `content/english/notes/active-knowledge-curation.md` |
+| `content/english/notes/servant-leadership.md` |
+| `content/english/notes/pressure-reveals-weakness.md` |
+| `content/english/notes/priorities-before-the-inbox.md` |
+| `content/english/notes/name-the-feeling.md` |
+| `content/english/notes/stay-effective-in-new-conditions.md` |
+| `content/english/notes/abide-in-me.md` |
+| `content/english/notes/plain-commitments-at-work.md` |
+| `content/english/notes/normalization-of-deviance.md` |
+| `content/english/notes/the-second-brain-workflow.md` |
+| `content/english/notes/discipleship.md` |
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for new connections across all notes.
+
+Reviewing the specstory history and the five new notes. Checking the relationship-sync script to understand how to find cross-note connections.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
+
+Directory: **``** (7 files)
+
+| File |
+|------|
+| `content/english/notes/listen-before-fixing.md` |
+| `content/english/notes/safety-comes-first.md` |
+| `content/english/notes/set-calm-boundaries.md` |
+| `content/english/notes/create-regular-connection.md` |
+| `content/english/notes/follow-their-lead.md` |
+| `content/english/notes/name-the-feeling.md` |
+| `content/english/notes/notice-the-good.md` |
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus&#39;-teachings.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Reading the new relationship notes and scanning the garden for connection opportunities.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-their-lead.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/listen-before-fixing.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/name-the-feeling.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/notice-the-good.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/safety-comes-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/set-calm-boundaries.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "relationship|connection|boundary|listen|empathy|feeling|safety|psychological|coaching|leadership|trust|communication"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "relationship|connection|boundary|listen|empathy|feeling|safety|psychological|coaching|leadership|trust|communication",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/read-later-queue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/crdt.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/tony-buzan.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/first-principles-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/compounding.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/judge-not.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/low-hanging-fruit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/voice-memos.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-knowledge-lifecycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/periodic-knowledge-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/metadata-strategy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/attention-economy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/layered-reading.md"
+    }
+  ],
+  "totalFiles": 186,
+  "totalMatches": 186
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+I need to map connections across all notes, linking the new cluster to the wider garden and identifying missing links between existing notes.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/emotional-regulation.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/coaching-ethics.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/habit-formation.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Starting a comprehensive scan to find new connections across all notes.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `./scripts/wire-notes-obsidian.py` |
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-over-outcomes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/continuous-improvement.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/duty-of-care.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/complete-the-cycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Searching all notes for new connections.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mental-models.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/slow-the-moment.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+I now understand the task. I need to find and wire new connections across the garden. This includes connecting the seven new relationship notes to existing notes bidirectionally.
+
+Mapping specific connections. "Extends" links will connect relationship notes to existing ones. "Contradicts" may link Safety Comes First to Follow Their Lead. Some connections are already implied.
+
+New connection candidates include Listen Before Fixing, Name the Feeling, Set Calm Boundaries, and Safety Comes First. Some links are already implied.
+
+Coaching-ethics extends Develop Don't Endanger. Safety Comes First extends Duty of Care and Life Before Achievement. Several potential links are already implied.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "Follow Their Lead|Create Regular Connection|Listen Before Fixing|Relationships"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Follow Their Lead|Create Regular Connection|Listen Before Fixing|Relationships",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/attention-to-detail.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/maintenance-window.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-rewards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/elon-musk.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-garden.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/first-principles-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/forgetting-curve.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/integrity.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/composure.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/para-method.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/convert-pain-into-learning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/associative-linking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/follow-their-lead.md"
+    }
+  ],
+  "totalFiles": 64,
+  "totalMatches": 222
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Implementing a comprehensive set of connection updates across all notes.
+
+A seven-note relationship cluster needs inbound links from existing notes. Extends relationships will connect to Follow Their Lead and Listen Before Fixing. The plan updates the sync script, index pages, and individual note bodies.
+
+Extends relationships now span Create Regular Connection, Break the Escalation Cycle, Set Calm Boundaries, and Name the Feeling.
+
+Contradicts links to Follow Their Lead. Extends links connect to Follow Their Lead, Create Regular Connection, and Notice the Good. Implements links connect to Listen Before Fixing and Follow Their Lead.
+
+Set Calm Boundaries already extends emotional-regulation. Name the Feeling already extends Break the Escalation Cycle. Contradicts links to Name the Feeling. Extends links connect to Listen Before Fixing and Set Calm Boundaries.
+
+New cross-note links connect Safety Comes First to Coaching Ethics and Follow Their Lead. Safety Comes First also extends Coaching Ethics and Set Calm Boundaries. Follow Their Lead contradicts Safety Comes First when harm is involved. Another note extends Safety Comes First and Set Calm Boundaries. It also extends Listen Before Fixing and Follow Their Lead.
+
+Create Regular Connection already extends habit-formation. A new Connection and communication section will house the seven notes. Love Your Neighbor extends Follow Their Lead, Listen Before Fixing, and Create Regular Connection. Create Regular Connection may extend Peacemakers. The next step is checking note-relationships.
+
+The user wants the actual work done, not just a report. I will add the new connections to the sync script, update the MOC and index pages, and run the script. I will also scan for weakly connected notes outside the new cluster.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/life-before-achievement.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Starting implementation now.
+
+Using a Python ADD dictionary to systematically update relationship tables. MOC pages will be edited directly for index listings. New connections include "break-the-escalation-cycle" linking to "Listen Before Fixing", "Name the Feeling", and "Set Calm Boundaries".
+
+More ADD entries are being added. "coaching-ethics" links to "Safety Comes First" and "Follow Their Lead". "complete-the-cycle" extends "Listen Before Fixing". "continuous-improvement" extends "Create Regular Connection" and "Notice the Good". The "create-regular-connection" entry is still pending.
+
+"create-regular-connection" now extends "Listen Before Fixing". "develop-dont-endanger" links to "Safety Comes First" and "Follow Their Lead". "duty-of-care" implements "Safety Comes First". "emotional-regulation" extends "Listen Before Fixing".
+
+"emotional-regulation" also extends "Name the Feeling" and "Set Calm Boundaries". "forgiveness" links to "Set Calm Boundaries". "habit-formation" extends "Create Regular Connection". "follow-their-lead" may get inbound-only additions. "listen-before-fixing" is next.
+
+"listen-before-fixing" is skipped because its outbound links are already solid.
+
+"love-your-neighbor" now extends "Follow Their Lead", "Listen Before Fixing", and "Create Regular Connection".
+
+"peacemakers" extends "Listen Before Fixing" and "Name the Feeling".
+
+"peacemakers" now also extends "Set Calm Boundaries" and implements "Break the Escalation Cycle". "process-over-outcomes" links to "Create Regular Connection" and "Notice the Good". "psychological-safety" extends "Listen Before Fixing".
+
+"psychological-safety" now extends "Follow Their Lead" and "Name the Feeling". "reconciliation-before-worship" links to "Listen Before Fixing" and "Follow Their Lead". "the-golden-rule" extends "Follow Their Lead".
+</details></think>
+
+_**Agent (default)**_
+
+Wiring bidirectional relationships for the new connection notes and updating MOC index pages.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/sync-note-relationships.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/sync-note-relationships.py
+```
+
+```
+updated: attention-economy.md
+updated: behavioral-economics.md
+updated: break-the-escalation-cycle.md
+updated: coaching-ethics.md
+updated: commonplace-book.md
+updated: complete-the-cycle.md
+updated: continuous-improvement.md
+updated: crdt.md
+updated: create-regular-connection.md
+updated: deep-work.md
+updated: develop-dont-endanger.md
+updated: duty-of-care.md
+updated: elon-musk.md
+updated: emotional-regulation.md
+updated: ethical-leadership.md
+updated: follow-their-lead.md
+updated: forgetting-curve.md
+updated: forgiveness.md
+updated: getting-things-done.md
+updated: habit-formation.md
+updated: hierarchy-of-controls.md
+updated: inbox-zero.md
+updated: incident-investigation.md
+updated: information-diet.md
+updated: layered-reading.md
+updated: lean-startup.md
+updated: learning-organizations.md
+updated: listen-before-fixing.md
+updated: literature-notes.md
+updated: love-your-neighbor.md
+updated: maintenance-window.md
+updated: mental-models.md
+updated: minimum-effective-dose.md
+updated: name-the-feeling.md
+updated: network-analysis.md
+updated: normalization-of-deviance.md
+updated: notice-the-good.md
+updated: peacemakers.md
+updated: plain-commitments-at-work.md
+updated: pressure-reveals-weakness.md
+updated: process-over-outcomes.md
+updated: psychological-safety.md
+updated: quarterly-planning.md
+updated: read-later-queue.md
+updated: reconciliation-before-worship.md
+updated: reversibility.md
+updated: risk-management.md
+updated: safety-by-design.md
+updated: safety-comes-first.md
+updated: self-control.md
+updated: set-calm-boundaries.md
+updated: share-sheet.md
+updated: ship-it.md
+updated: sketchpad.md
+updated: slow-the-moment.md
+updated: standard-operating-procedures.md
+updated: systems-for-growth.md
+updated: taxonomy.md
+updated: the-golden-rule.md
+updated: tony-buzan.md
+updated: voice-memos.md
+updated: webhooks.md
+done: 62 files
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/emotional-regulation.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "package.json",
+  "pattern": "lint:notes|lint:utility"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "lint:notes|lint:utility",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "./package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Connections look good. I'll add See also updates on love-your-neighbor for the relationship cluster. I'll also check if eternal-principles should reference the relationship notes.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create-regular-connection.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-utility-wikilinks.py 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-utility-wikilinks.py 2>&1 | tail -5
+```
+
+```
+Utility wikilinks OK
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a few more strong cross-domain connections that may have been missed.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/sync-note-relationships.py 2&gt;&amp;1 | rg &#39;forgiveness-at-work|golden-rule-at-work|reconcile-before|servant-leadership|done&#39;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/sync-note-relationships.py 2>&1 | rg 'forgiveness-at-work|golden-rule-at-work|reconcile-before|servant-leadership|done'
+```
+
+```
+updated: forgiveness-at-work.md
+updated: getting-things-done.md
+updated: golden-rule-at-work.md
+updated: reconcile-before-the-review.md
+updated: servant-leadership.md
+done: 47 files
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+I will summarize the connections found and wired across all notes.
+</details></think>
+
+_**Agent (default)**_
+
+Wired new connections across the garden — focused on the seven relationship notes and their strongest ties to faith, workplace, safety, and habit notes.
+
+### Relationship cluster (internal chain)
+
+The notes form a practical sequence:
+
+**Follow Their Lead** → **Listen Before Fixing** → **Name the Feeling** → **Set Calm Boundaries**
+
+**Safety Comes First** contradicts the first two when harm is on the table. **Create Regular Connection** and **Notice the Good** handle the habit/repetition side.
+
+### New inbound links (highlights)
+
+| Existing note | Now connects to |
+|---|---|
+| **The Golden Rule** | All four communication moves + Create Regular Connection + Notice the Good |
+| **Love Your Neighbor** | Follow Their Lead, Listen Before Fixing, Create Regular Connection |
+| **Peacemakers** | Listen Before Fixing, Name the Feeling, Set Calm Boundaries, Break the Escalation Cycle |
+| **Reconciliation Before Worship** | Listen Before Fixing, Follow Their Lead |
+| **Emotional Regulation** | Listen Before Fixing, Name the Feeling, Set Calm Boundaries |
+| **Slow the Moment** | implements all three communication moves |
+| **Process Over Outcomes / Continuous Improvement** | Create Regular Connection, Notice the Good |
+| **Habit Formation / Minimum Effective Dose** | Create Regular Connection |
+| **Psychological Safety** | Follow Their Lead, Listen Before Fixing, Name the Feeling |
+| **Coaching Ethics / Develop, Don't Endanger / Duty of Care** | Safety Comes First, Follow Their Lead |
+| **Break the Escalation Cycle** | Listen Before Fixing, Name the Feeling, Set Calm Boundaries |
+| **Golden Rule at Work / Reconcile Before the Review / Servant Leadership / Forgiveness at Work** | Workplace bridges into the relationship cluster |
+
+### Index pages updated
+
+- **Maps of Content** — new **Relationships** section listing all seven notes
+- **Workplace Principles** — four connection notes added under “How to treat colleagues”
+
+### How it was applied
+
+Added ~50 typed rows to `scripts/sync-note-relationships.py` and ran the sync across the garden (62 notes updated on the first pass). Utility wikilink lint passes.
+
+Strongest gaps still open if you want a second pass: **Turn the Other Cheek** → Set Calm Boundaries, and **Forgiveness** → Listen Before Fixing (repair after hurt). Say if you want those wired too.

@@ -17,10 +17,8 @@ I'll find how Sveltia is configured and how notes are structured so we can align
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -125,22 +123,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **5** results in **1** directory</summary>
 
-Directory: **** (5 files)
+Directory: **``** (5 files)
 
 | File |
 |------|
@@ -149,22 +139,14 @@ Directory: **** (5 files)
 | `.specstory/history/2026-05-02_14-51-45Z-updating-fields-in-sveltia-cms.md` |
 | `.specstory/history/2026-05-02_15-34-40Z-sveltia-cms-shortcodes-in-markdown.md` |
 | `content/english/blog/__sveltia-cms.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **250** results in **1** directory</summary>
 
-Directory: **** (250 files)
+Directory: **``** (250 files)
 
 | File |
 |------|
@@ -418,60 +400,33 @@ Directory: **** (250 files)
 | `content/english/notes/render-unto-caesar.md` |
 | `content/english/notes/control-the-rhythm.md` |
 | `content/english/notes/low-hanging-fruit.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -513,34 +468,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -590,39 +530,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a "notes" collection to the Sveltia configuration. Notes will use standard frontmatter fields: title, meta_title, and description.</details></think>
+Adding a "notes" collection to the Sveltia configuration. Notes will use standard frontmatter fields: title, meta_title, and description.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -729,69 +655,40 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **** (3 files)
+Directory: **``** (3 files)
 
 | File |
 |------|
 | `archetypes/default.md` |
 | `archetypes/notes-review.md` |
 | `archetypes/notes.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -873,21 +770,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -933,13 +821,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -949,14 +830,13 @@ Adding a notes collection to `static/admin/config.yml`. Checking the codebase fo
 
 The notes schema includes title, meta_title, description, slug, date, image, categories, author, tags, featured, draft, aliases, review, card_sets, cards, note_kind, and layout. Optional fields will support meta and index pages with special layouts. Nested card objects and list widgets are being verified against existing blog configuration.
 
-Existing blog configuration confirms the list widget pattern. Categories, cards, and card_sets will each use list widgets with nested string fields.</details></think>
+Existing blog configuration confirms the list widget pattern. Categories, cards, and card_sets will each use list widgets with nested string fields.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1021,39 +901,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SVELTIA_CMS_SETUP.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SVELTIA_CMS_SETUP.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a notes collection to config.yml. Reusing shared field patterns from the blog where possible. Note-specific fields will be added. note_kind and layout apply only to special utility pages.</details></think>
+Adding a notes collection to config.yml. Reusing shared field patterns from the blog where possible. Note-specific fields will be added. note_kind and layout apply only to special utility pages.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1083,21 +949,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1204,34 +1061,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/_index.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/_index.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1270,13 +1112,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1288,7 +1123,8 @@ Configuring note_kind and layout as optional select widgets. Empty strings may c
 
 Additional layout options include graph, issues, review, backlinks, create, and random-duo. The card_sets widget will function as a list of strings. Cards will use a list widget with nested front and back text fields. Notes will default to image "/images/note.jpg" and author "JoRap".
 
-New notes will default to draft status. Categories will remain empty by default. Body hints will reference wikilinks and note relationship tables. Meta title hints will match the notes suffix. Documentation updates will be skipped unless requested.</details></think>
+New notes will default to draft status. Categories will remain empty by default. Body hints will reference wikilinks and note relationship tables. Meta title hints will match the notes suffix. Documentation updates will be skipped unless requested.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1297,31 +1133,22 @@ Adding a notes collection to Sveltia config with note-specific frontmatter field
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && echo "YAML OK"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;import yaml; yaml.safe_load(open(&#39;/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml&#39;))&#34; &amp;&amp; echo &#34;YAML OK&#34;</summary>
 ```bash
 python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && echo "YAML OK"
 ```
 
 ```
 Traceback (most recent call last):
-  File "&lt;string&gt;", line 1, in &lt;module&gt;
+  File "<string>", line 1, in <module>
   File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 125, in safe_load
     return load(stream, SafeLoader)
            ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1355,55 +1182,15 @@ Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
     item_value = self.compose_node(node, item_key)
                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 82, in compose_node
-    node = self.compose_sequence_node(anchor)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 111, in compose_sequence_node
-    node.value.append(self.compose_node(node, index))
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
-    node = self.compose_mapping_node(anchor)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
-    item_value = self.compose_node(node, item_key)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 64, in compose_node
-    if self.check_event(AliasEvent):
-       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/yaml/parser.py", line 98, in check_event
-    self.current_event = self.state()
-                         ^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/yaml/parser.py", line 574, in parse_flow_mapping_value
-    return self.parse_flow_node()
-           ^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/yaml/parser.py", line 268, in parse_flow_node
-    return self.parse_node()
-           ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3/dist-packages/yaml/parser.py", line 369, in parse_node
-    raise ParserError("while parsing a %s node" % node, start_mark,
-yaml.parser.ParserError: while parsing a flow node
-expected the node content, but found '-'
-  in "/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml", line 145, column 13
-
+  File "/usr/lib/python3/di
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
@@ -1414,24 +1201,15 @@ Fixing YAML syntax: flow mappings can't mix with block sequences.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && echo "YAML OK"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;import yaml; yaml.safe_load(open(&#39;/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml&#39;))&#34; &amp;&amp; echo &#34;YAML OK&#34;</summary>
 ```bash
 python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && echo "YAML OK"
 ```
@@ -1440,12 +1218,6 @@ python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap
 YAML OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1479,23 +1251,15 @@ I'll trace how shortcodes are used in the site and what Sveltia already supports
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-05-02_15-34-40Z-sveltia-cms-shortcodes-in-markdown.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-05-02_15-34-40Z-sveltia-cms-shortcodes-in-markdown.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1600,22 +1364,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **21** results in **1** directory</summary>
 
-Directory: **** (21 files)
+Directory: **``** (21 files)
 
 | File |
 |------|
@@ -1640,34 +1396,19 @@ Directory: **** (21 files)
 | `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/youtube-lite.html` |
 | `themes/jorap/layouts/shortcodes/spotify_iframe_track.html` |
 | `themes/jorap/layouts/shortcodes/spotify_iframe_artist.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1713,21 +1454,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -1738,153 +1470,90 @@ Parameters:
 ```
 Result:
 
-```json
+````json
 {
-  "markdown": "# Custom Editor Components\n\nA custom editor component allows you to create reusable, complex block-level component available in the rich text editor. Registered components appear under the Insert button on the editor toolbar. When clicked, they insert a predefined template into the editor at the current cursor position.\n\n## Overview\n\nTo register a custom editor component, use the &#96;registerEditorComponent&#96; method on the &#96;CMS&#96; object:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent(definition);\n\n&#96;&#96;&#96;\n\nThe component &#96;definition&#96; object includes the following properties:\n\n### Required Properties\n\n- &#96;id&#96; (string): A unique identifier for the component. This is the name you will use to reference this component in the &#96;editor_components&#96; option for a RichText or Markdown field. It should be unique and not conflict with built-in component IDs (&#96;code-block&#96;, &#96;image&#96;).\n- &#96;fields&#96; (array of field definitions): An array defining the fields to be displayed in the component.\n- &#96;pattern&#96; (RegExp): A regular expression used to identify existing instances of the component in the Markdown content. It’s recommended to use named capture groups corresponding to the field names so that &#96;fromBlock&#96; can be omitted if no additional processing is needed. Matching could be either block (multiline) or inline, depending on the component. To match block content, use the &#96;s&#96; (dotAll) or &#96;m&#96; (multiline) flag, or include &#96;[\\s\\S]&#96; in the pattern.\n- &#96;fromBlock&#96; (function): A function that takes a regex match array and returns an object mapping field names to their values. This property can be omitted if the &#96;pattern&#96; regular expression contains named capture groups corresponding to the field names, and no additional processing like type conversion is needed. Otherwise, this property is required. You must provide a function to extract field values from the regex match.\n- &#96;toBlock&#96; (function): A function that takes an object mapping field names to their values and returns a string representing the Markdown content to be inserted.\n\n### Optional Properties\n\n- &#96;label&#96; (string): The text label displayed on the toolbar button. Defaults to the &#96;id&#96; value.\n- &#96;icon&#96; (string): A Material Symbols icon name to display on the toolbar button.\n- &#96;toPreview&#96; (function): A function that takes an object mapping field names to their values and returns a string or React element representing the HTML preview of the component in the editor. If omitted, no preview is shown.\n- &#96;mode&#96; (string): Editing mode for the component. &#96;block&#96; (default) renders the component within the rich text editor as an expandable field list. &#96;dialog&#96; renders a compact placeholder that opens a dialog when clicked.\n- &#96;summary&#96; (string): Template for the placeholder text when &#96;mode&#96; is &#96;dialog&#96;, e.g. &#96;{{title}} - {{videoId}}&#96;. Falls back to the first string field value, then to the component label.\n- &#96;collapsed&#96; (boolean): If true, the component's fields panel is collapsed by default when inserted (&#96;block&#96; mode only).\n\n::: warning Breaking change from Netlify/Decap CMS\n\nNetlify/Decap CMS implements the &#96;getAsset&#96; and &#96;fields&#96; parameters for the &#96;toPreview&#96; function, which can be used to replace image file paths with blob URLs in the preview. Sveltia CMS does not support these undocumented parameters because it automatically replaces image paths with blob URLs. See the Image with Caption example for details.\n\n:::\n\n## Using Components\n\nOnce registered, custom editor components can be used in any RichText or Markdown field. By default, all built-in and custom components are included. You can restrict which components are available by adding their &#96;id&#96; to the field’s &#96;editor_components&#96; array in the collection configuration.\n\nFor example, to allow only the built-in &#96;image&#96; component and custom &#96;callout&#96; and &#96;youtube&#96; components:\n\n::: code-group\n\n&#96;&#96;&#96;yaml{5} [YAML]\nfields:\n  - name: content\n    label: Content\n    widget: richtext\n    editor_components: [image, callout, youtube]\n\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;toml{5} [TOML]\n[[fields]]\nname = \"content\"\nlabel = \"Content\"\nwidget = \"richtext\"\neditor_components = [\"image\", \"callout\", \"youtube\"]\n\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;json{7} [JSON]\n{\n  \"fields\": [\n    {\n      \"name\": \"content\",\n      \"label\": \"Content\",\n      \"widget\": \"richtext\",\n      \"editor_components\": [\"image\", \"callout\", \"youtube\"]\n    }\n  ]\n}\n\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;js{7} [JavaScript]\n{\n  fields: [\n    {\n      name: \"content\",\n      label: \"Content\",\n      widget: \"richtext\",\n      editor_components: [\"image\", \"callout\", \"youtube\"],\n    },\n  ],\n}\n\n&#96;&#96;&#96;\n\n:::\n\n## Examples\n\n### Callout\n\nThe following example demonstrates how to register a custom editor component for a \"Callout\" block:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'callout',\n  label: 'Callout',\n  icon: 'campaign',\n  fields: [\n    { name: 'type', label: 'Type', widget: 'select', options: ['info', 'warning', 'error'] },\n    { name: 'message', label: 'Message' },\n  ],\n  pattern: /^:::callout (\\w+)\\n([\\s\\S]+?)\\n:::/m,\n  fromBlock: (match) =\u003e ({\n    type: match[1],\n    message: match[2].trim(),\n  }),\n  toBlock: (data) =\u003e &#96;:::callout ${data.type}\\n${data.message}\\n:::&#96;,\n  toPreview: (data) =\u003e &#96;:::callout ${data.type}\\n${data.message}\\n:::&#96;,\n});\n\n&#96;&#96;&#96;\n\nIn this example, the “Callout” component allows users to insert a callout block with a specified type (info, warning, or error) and a message. The &#96;pattern&#96; regular expression is used to identify existing callout blocks in the Markdown content, while the &#96;fromBlock&#96; and &#96;toBlock&#96; functions handle the conversion between the component's data and its Markdown representation.\n\n### File Link\n\nThis example demonstrates how to create a custom editor component for inserting a file link using the built-in &#96;file&#96; field type:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'file-link',\n  label: 'File Link',\n  icon: 'attach_file',\n  fields: [\n    { name: 'file', label: 'File', widget: 'file' },\n    { name: 'text', label: 'Text to Display', default: '{{file}}' },\n  ],\n  pattern: /\u003ca href=\"([^\"]+?)\" data-file-link\u003e([^\\n]+?)\u003c\\/a\u003e/,\n  fromBlock: (match) =\u003e ({\n    file: decodeURI(match[1]),\n    text: match[2],\n  }),\n  toBlock: (data) =\u003e &#96;\u003ca href=\"${data.file}\" data-file-link\u003e${data.text}\u003c/a\u003e&#96;,\n  toPreview: (data) =\u003e &#96;\u003ca href=\"${data.file}\" data-file-link\u003e${data.text}\u003c/a\u003e&#96;,\n});\n\n&#96;&#96;&#96;\n\n### Collapsible Note\n\nHere’s an example of a collapsible “Note” component:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'note',\n  label: 'Note',\n  icon: 'note_alt',\n  fields: [\n    { name: 'summary', label: 'Summary' },\n    { name: 'content', label: 'Content', widget: 'richtext' },\n  ],\n  pattern: /^\u003cdetails\u003e\\s*\u003csummary\u003e(?\u003csummary\u003e.+?)\u003c\\/summary\u003e\\s*(?\u003ccontent\u003e[\\s\\S]+?)\\s*\u003c\\/details\u003e/m,\n  toBlock: ({ summary, content }) =\u003e\n    &#96;\u003cdetails\u003e\\n\u003csummary\u003e${summary}\u003c/summary\u003e\\n${content}\\n\u003c/details\u003e&#96;,\n  toPreview: ({ summary, content }) =\u003e\n    &#96;\u003cdetails\u003e\\n\u003csummary\u003e${summary}\u003c/summary\u003e\\n\u003cp\u003e${content}\u003c/p\u003e\\n\u003c/details\u003e&#96;,\n});\n\n&#96;&#96;&#96;\n\nIn this example, the “Note” component creates a collapsible section using HTML &#96; &#96; and &#96; &#96; tags. The &#96;fromBlock&#96; function is omitted because the &#96;pattern&#96; regular expression uses named capture groups that correspond to the field names. The &#96;toBlock&#96; function generates the appropriate HTML structure for the note component based on the provided summary and content.\n\n### Image with Caption\n\nHere’s an example of a custom editor component for inserting an image with a caption using a Hugo shortcode:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'figure',\n  label: 'Image with Caption',\n  fields: [\n    { name: 'src', label: 'Image', widget: 'image' },\n    { name: 'caption', label: 'Caption' },\n  ],\n  pattern: /{{\u003c image src=\"(?\u003csrc\u003e.*?)\" caption=\"(?\u003ccaption\u003e.*?)\" \u003e}}/,\n  toBlock: ({ src, caption }) =\u003e &#96;{{\u003c image src=\"${src}\" caption=\"${caption}\" \u003e}}&#96;,\n  toPreview: ({ src, caption }) =\u003e\n    &#96;\u003cfigure\u003e\u003cimg src=\"${src}\" alt=\"\"\u003e\u003cfigcaption\u003e${caption}\u003c/figcaption\u003e\u003c/figure\u003e&#96;,\n});\n\n&#96;&#96;&#96;\n\nThe &#96;fromBlock&#96; function is omitted again because the &#96;pattern&#96; regular expression uses named capture groups that correspond to the field names. The &#96;toBlock&#96; function generates a Hugo shortcode for the image with caption, while the &#96;toPreview&#96; function creates an HTML figure element to display the image and its caption in the editor preview.\n\nNote that the &#96;src&#96; attribute will be automatically replaced with a blob URL in the editor preview when an image is selected, while the actual file path will be stored in the Markdown content.\n\n### YouTube Embed\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'youtube',\n  label: 'YouTube',\n  icon: 'youtube_activity',\n  fields: [\n    { name: 'id', label: 'ID' },\n    { name: 'width', label: 'Width', widget: 'number', valueType: 'int', default: 560 },\n    { name: 'height', label: 'Height', widget: 'number', valueType: 'int', default: 315 },\n  ],\n  pattern: /{{\u003c youtube id=\"(?\u003cid\u003e.*?)\"(?: width=\"(?\u003cwidth\u003e.*?)\" height=\"(?\u003cheight\u003e.*?)\")? \u003e}}/m,\n  fromBlock: ({ groups: { id, width, height } = {} }) =\u003e ({\n    id,\n    width: width ? Number(width) : 560,\n    height: height ? Number(height) : 315,\n  }),\n  toBlock: ({ id, width = 560, height = 315 }) =\u003e\n    &#96;{{\u003c youtube id=\"${id}\" width=\"${width}\" height=\"${height}\" \u003e}}&#96;,\n  toPreview: ({ id, width = 560, height = 315 }) =\u003e\n    id\n      ? &#96;\u003ciframe src=\"https://www.youtube-nocookie.com/embed/${id}\"\n          width=\"${width}\" height=\"${height}\" allowfullscreen\n          allow=\"autoplay; encrypted-media; picture-in-picture\"\u003e\u003c/iframe\u003e&#96;\n      : '',\n});\n\n&#96;&#96;&#96;\n\nIn this example, the “YouTube” component allows users to embed YouTube videos using a Hugo shortcode. The &#96;pattern&#96; regular expression captures the video ID, width, and height from the shortcode. The &#96;fromBlock&#96; function processes the captured values, casting width and height to numbers. The &#96;toBlock&#96; function generates the shortcode string, while the &#96;toPreview&#96; function creates an iframe preview of the embedded video.\n\nThe &#96;pattern&#96; uses the &#96;m&#96; (multiline) flag to make the component block-level, though it’s not multiline in this case.\n\n### Inline Link (Dialog Mode)\n\nThe &#96;dialog&#96; mode is ideal for inline elements that would be too disruptive to display as a block within the editor. This example creates a custom link shortcode that appears as a compact inline placeholder and opens a dialog when clicked:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'custom-link',\n  label: 'Custom Link',\n  icon: 'link',\n  mode: 'dialog',\n  summary: '{{text}} — {{url}}',\n  fields: [\n    { name: 'text', label: 'Link Text' },\n    { name: 'url', label: 'URL' },\n  ],\n  pattern: /\\[link text=\"(?\u003ctext\u003e.*?)\" url=\"(?\u003curl\u003e.*?)\"\\]/,\n  toBlock: ({ text, url }) =\u003e &#96;[link text=\"${text}\" url=\"${url}\"]&#96;,\n  toPreview: ({ text, url }) =\u003e &#96;\u003ca href=\"${url}\"\u003e${text}\u003c/a\u003e&#96;,\n});\n\n&#96;&#96;&#96;\n\nIn this example, the \"Custom Link\" component renders as a small inline chip in the editor showing the link text and URL. Clicking it opens a dialog where the user can fill in or update the fields. The &#96;summary&#96; template controls what text is shown in the placeholder — here it shows the link text and URL separated by an em dash. When neither the summary nor any string field value is available (e.g. for a freshly inserted component), the component &#96;label&#96; is shown as a fallback.\n\n### Using React for Preview\n\nThe &#96;toPreview&#96; function can also return a React element for a richer preview experience. This allows you to create more complex and styled previews directly in the editor. Sveltia CMS exposes &#96;createElement&#96; (alias: &#96;h&#96;) from React, so you can use it to build your preview component without needing JSX.\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'callout',\n  label: 'Callout',\n  fields: [\n    {\n      name: 'type',\n      label: 'Type',\n      widget: 'select',\n      options: ['info', 'warning', 'tip'],\n      default: 'info',\n    },\n    { name: 'content', label: 'Content', widget: 'text' },\n  ],\n  pattern: /\\[(?\u003ctype\u003einfo|warning|tip)\\]\\s*(?\u003ccontent\u003e.*)/gs,\n  fromBlock: (match) =\u003e ({ type: match.groups?.type, content: match.groups?.content }),\n  toBlock: ({ type = 'info', content = '' }) =\u003e &#96;[${type}] ${content}&#96;,\n  toPreview: ({ type = 'info', content = '' }) =\u003e {\n    const colors = { info: '#0ea5e9', warning: '#f59e0b', tip: '#22c55e' };\n    const borderColor = colors[type] ?? colors.info;\n\n    return h(\n      'div',\n      {\n        style: {\n          padding: '0.75em 1em',\n          borderLeft: &#96;4px solid ${borderColor}&#96;,\n          background: '#f8fafc',\n          borderRadius: '0 4px 4px 0',\n        },\n      },\n      h('strong', { style: { textTransform: 'capitalize' } }, type),\n      h('p', { style: { margin: '0.25em 0 0' } }, content),\n    );\n\n    /* or, with JSX (if your build setup supports it):\n    return (\n      \u003cdiv\n        style={{\n          padding: '0.75em 1em',\n          borderLeft: &#96;4px solid ${borderColor}&#96;,\n          background: '#f8fafc',\n          borderRadius: '0 4px 4px 0',\n        }}\n      \u003e\n        \u003cstrong style={{ textTransform: 'capitalize' }}\u003e{type}\u003c/strong\u003e\n        \u003cp style={{ margin: '0.25em 0 0' }}\u003e{content}\u003c/p\u003e\n      \u003c/div\u003e\n    );\n    */\n  },\n});\n\n&#96;&#96;&#96;",
-  "url": "https://sveltiacms.app/en/docs/api/editor-components"
-}
-```
+  "markdown": "# Custom Editor Components\n\nA custom editor component allows you to create reusable, complex block-level component available in the rich text editor. Registered components appear under the Insert button on the editor toolbar. When clicked, they insert a predefined template into the editor at the current cursor position.\n\n## Overview\n\nTo register a custom editor component, use the `registerEditorComponent` method on the `CMS` object:\n\n```js\nCMS.registerEditorComponent(definition);\n\n```\n\nThe component `definition` object includes the following properties:\n\n### Required Properties\n\n- `id` (string): A unique identifier for the component. This is the name you will use to reference this component in the `editor_components` option for a RichText or Markdown field. It should be unique and not conflict with built-in component IDs (`code-block`, `image`).\n- `fields` (array of field definitions): An array defining the fields to be displayed in the component.\n- `pattern` (RegExp): A regular expression used to identify existing instances of the component in the Markdown content. It’s recommended to use named capture groups corresponding to the field names so that `fromBlock` can be omitted if no additional processing is needed. Matching could be either block (multiline) or inline, depending on the component. To match block content, use the `s` (dotAll) or `m` (multiline) flag, or include `[\\s\\S]` in the pattern.\n- `fromBlock` (function): A function that takes a regex match array and returns an object mapping field names to their values. This property can be omitted if the `pattern` regular expression contains named capture groups corresponding to the field names, and no additional processing like type conversion is needed. Otherwise, this property is required. You must provide a function to extract field values from the regex match.\n- `toBlock` (function): A function that takes an object mapping field names to their values and returns a st
+… (output truncated)
+````
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The site uses positional shortcode arguments rather than named parameters. For example, `{{< youtube AdoeRVzt6FQ >}}` passes the ID directly instead of using `id="..."`.</details></think>
+The site uses positional shortcode arguments rather than named parameters. For example, `{{< youtube AdoeRVzt6FQ >}}` passes the ID directly instead of using `id="..."`.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube_time.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube_time.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_track.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_track.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_artist.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_artist.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/card.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/card.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1942,34 +1611,19 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `./static/admin/config.yml` |
 | `./static/admin/index.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1979,27 +1633,20 @@ Creating a shortcode registry file for the admin editor. Updating the admin inde
 
 Updating `config.yml` to include `editor_components` in the blog and notes body fields. The editor components script loads after the CMS library, so it registers correctly via the global `CMS` object. The `notice` shortcode is a paired block type.
 
-Defining regex patterns for shortcode parameters. Positional and named arguments must both be supported. The image shortcode will expose common attributes like src, caption, alt, and dimensions. YouTube, youtube_time, and spotify_iframe_track patterns are being drafted next.</details></think>
+Defining regex patterns for shortcode parameters. Positional and named arguments must both be supported. The image shortcode will expose common attributes like src, caption, alt, and dimensions. YouTube, youtube_time, and spotify_iframe_track patterns are being drafted next.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/flashcard.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/flashcard.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -2010,31 +1657,22 @@ Parameters:
 ```
 Result:
 
-```json
+````json
 {
-  "markdown": "Shortcodes | Hugolify, framework Hugo with Bootstrap and 7 headless CMS (CloudCannon, Decap, Netlify, Pages, Static, Sveltia and Tina)\n\n- Main content\n- Main navigation\n- Search\n- Go to the bottom of the page\n\nSearch\n\nAdd/modify shortcodes\n\nAvailable for CloudCannon, Decap CMS, Netlify CMS and Sveltia CMS\n\n## Add or remove shortcodes\n\n&#96;/config/_default/params.yaml&#96;\n\nAll shortcodes are available by default but if you want hide or add your shortcodes, you can do it:\n\n&#96;&#96;&#96;\nparams:\n  admin:\n    shortcodes:\n      # Array of available shortcodes\n      enable:\n        - alert\n        - badge\n        - blank_link\n        - blockquote\n        - button\n        - details\n        - map\n        - twitter\n        - youtube\n\n&#96;&#96;&#96;\n\n## Disable shortcodes\n\n&#96;/config/_default/params.yaml&#96;\n\n&#96;&#96;&#96;\nparams:\n  admin:\n    shortcodes:\n      enable: false\n\n&#96;&#96;&#96;\n\n## Create a shortcodes\n\n### Create file\n\nAdd a js shortcode file in shortcodes directory.\n\n&#96;&#96;&#96;\nlayouts/\n└── partials/\n    └── admin/\n        └── cms/\n            └── decapcms/\n                └── shortcodes/\n\n&#96;&#96;&#96;\n\nAnd add it in enable shortcodes: see above\n\n### Examples\n\nSee examples in repository (for decap CMS)\n\n## List of Hugolify shortcodes\n\nHugolify shortcodes",
+  "markdown": "Shortcodes | Hugolify, framework Hugo with Bootstrap and 7 headless CMS (CloudCannon, Decap, Netlify, Pages, Static, Sveltia and Tina)\n\n- Main content\n- Main navigation\n- Search\n- Go to the bottom of the page\n\nSearch\n\nAdd/modify shortcodes\n\nAvailable for CloudCannon, Decap CMS, Netlify CMS and Sveltia CMS\n\n## Add or remove shortcodes\n\n`/config/_default/params.yaml`\n\nAll shortcodes are available by default but if you want hide or add your shortcodes, you can do it:\n\n```\nparams:\n  admin:\n    shortcodes:\n      # Array of available shortcodes\n      enable:\n        - alert\n        - badge\n        - blank_link\n        - blockquote\n        - button\n        - details\n        - map\n        - twitter\n        - youtube\n\n```\n\n## Disable shortcodes\n\n`/config/_default/params.yaml`\n\n```\nparams:\n  admin:\n    shortcodes:\n      enable: false\n\n```\n\n## Create a shortcodes\n\n### Create file\n\nAdd a js shortcode file in shortcodes directory.\n\n```\nlayouts/\n└── partials/\n    └── admin/\n        └── cms/\n            └── decapcms/\n                └── shortcodes/\n\n```\n\nAnd add it in enable shortcodes: see above\n\n### Examples\n\nSee examples in repository (for decap CMS)\n\n## List of Hugolify shortcodes\n\nHugolify shortcodes",
   "url": "https://hugolify.io/docs/cms/admin/shortcodes"
 }
-```
+````
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2059,13 +1697,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -2089,7 +1720,8 @@ Component IDs will use a prefix to avoid colliding with built-in CMS components.
 
 Refined regex patterns for YouTube and Spotify shortcodes to handle empty tags and missing spaces before closing. The YouTube time shortcode will capture the video ID, start time, and end time. Spotify iframe track and artist shortcodes will support both named ID and positional ID formats.
 
-Regex patterns are being defined for the remaining shortcodes. Card will capture front and back text. Button will capture label, link, and optional style. TOC is a zero-parameter insert component. The notice shortcode will use a type selector and a content textarea.</details></think>
+Regex patterns are being defined for the remaining shortcodes. Card will capture front and back text. Button will capture label, link, and optional style. TOC is a zero-parameter insert component. The notice shortcode will use a type selector and a content textarea.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2098,41 +1730,28 @@ Implementing Sveltia editor components for our Hugo shortcodes and wiring them i
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The Content Security Policy permits loading editor components from the same origin.</details></think>
+The Content Security Policy permits loading editor components from the same origin.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2164,13 +1783,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -2180,7 +1792,8 @@ Updating frame-src in _headers and _middleware.js to allow YouTube and Spotify e
 
 Planning editor-components.js with a shared YAML list of editor components. Notes will include card and blog shortcodes, while excluding TOC.
 
-Adding a quote-escaping helper for shortcode generation. Considering YAML anchors to share the component list across configuration files.</details></think>
+Adding a quote-escaping helper for shortcode generation. Considering YAML anchors to share the component list across configuration files.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2189,114 +1802,57 @@ Creating editor components and updating CSP so embed previews (YouTube, Spotify)
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/_headers</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/_headers</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js && echo OK</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;import yaml; yaml.safe_load(open(&#39;/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml&#39;))&#34; &amp;&amp; node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js &amp;&amp; echo OK</summary>
 ```bash
 python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js && echo OK
 ```
@@ -2305,38 +1861,32 @@ python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap
 OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a minimal self-check for the regex patterns. The ponytail rule requires one runnable check for non-trivial logic.</details></think>
+Adding a minimal self-check for the regex patterns. The ponytail rule requires one runnable check for non-trivial logic.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: node <<'EOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node &lt;&lt;&#39;EOF&#39;
 const samples = [
-  ['youtube', '{{< youtube maG9TzsuVeM >}}', /^\{\{<\s*youtube\s+(?:id="(?<id>[^"]+)"|(?<posId>[^\s>]+))\s*>\}\}/m],
-  ['youtube_time', '{{< youtube_time id="7lka80ZAays" start="14" end="388" >}}', /^\{\{<\s*youtube_time\s+id="(?<id>[^"]+)"\s+start="(?<start>[^"]+)"\s+end="(?<end>[^"]+)"\s*>\}\}/m],
-  ['spotify', '{{< spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl >}}', /^\{\{<\s*spotify_iframe_track\s+(?:id="(?<id>[^"]+)"|(?<posId>[^\s>]+))\s*>\}\}/m],
-  ['image', '{{< image src="images/foo.png" caption="Cap" alt="Alt" webp="true" >}}', /^\{\{<\s*image\s+(?<attrs>[\s\S]+?)\s*>\}\}/m],
-  ['notice', '{{< notice "tip" >}}\nHello\n{{< /notice >}}', /^\{\{<\s*notice\s+"(?<type>[^"]+)"\s*>\}\}(?<content>[\s\S]+?)\{\{<\s*\/notice\s*>\}\}/m],
-  ['card', '{{< card front="Cue?" back="Move." >}}', /^\{\{<\s*card\s+front="(?<front>[^"]+)"\s+back="(?<back>[^"]+)"\s*>\}\}/m],
+  [&#39;youtube&#39;, &#39;{{&lt; youtube maG9TzsuVeM &gt;}}&#39;, /^\{\{&lt;\s*youtube\s+(?:id=&#34;(?&lt;id&gt;[^&#34;]+)&#34;|(?&lt;posId&gt;[^\s&gt;]+))\s*&gt;\}\}/m],
+  [&#39;youtube_time&#39;, &#39;{{&lt; youtube_time id=&#34;7lka80ZAays&#34; start=&#34;14&#34; end=&#34;388&#34; &gt;}}&#39;, /^\{\{&lt;\s*youtube_time\s+id=&#34;(?&lt;id&gt;[^&#34;]+)&#34;\s+start=&#34;(?&lt;start&gt;[^&#34;]+)&#34;\s+end=&#34;(?&lt;end&gt;[^&#34;]+)&#34;\s*&gt;\}\}/m],
+  [&#39;spotify&#39;, &#39;{{&lt; spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl &gt;}}&#39;, /^\{\{&lt;\s*spotify_iframe_track\s+(?:id=&#34;(?&lt;id&gt;[^&#34;]+)&#34;|(?&lt;posId&gt;[^\s&gt;]+))\s*&gt;\}\}/m],
+  [&#39;image&#39;, &#39;{{&lt; image src=&#34;images/foo.png&#34; caption=&#34;Cap&#34; alt=&#34;Alt&#34; webp=&#34;true&#34; &gt;}}&#39;, /^\{\{&lt;\s*image\s+(?&lt;attrs&gt;[\s\S]+?)\s*&gt;\}\}/m],
+  [&#39;notice&#39;, &#39;{{&lt; notice &#34;tip&#34; &gt;}}\nHello\n{{&lt; /notice &gt;}}&#39;, /^\{\{&lt;\s*notice\s+&#34;(?&lt;type&gt;[^&#34;]+)&#34;\s*&gt;\}\}(?&lt;content&gt;[\s\S]+?)\{\{&lt;\s*\/notice\s*&gt;\}\}/m],
+  [&#39;card&#39;, &#39;{{&lt; card front=&#34;Cue?&#34; back=&#34;Move.&#34; &gt;}}&#39;, /^\{\{&lt;\s*card\s+front=&#34;(?&lt;front&gt;[^&#34;]+)&#34;\s+back=&#34;(?&lt;back&gt;[^&#34;]+)&#34;\s*&gt;\}\}/m],
 ];
 for (const [name, text, re] of samples) {
   const m = text.match(re);
-  if (!m) throw new Error('no match: ' + name);
+  if (!m) throw new Error(&#39;no match: &#39; + name);
 }
-console.log('pattern checks ok');
+console.log(&#39;pattern checks ok&#39;);
 EOF</summary>
-
 ```bash
 node <<'EOF'
 const samples = [
@@ -2359,12 +1909,6 @@ EOF
 pattern checks ok
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -2410,7 +1954,8 @@ can you look at all possible shortcodes in the codebase and create jorap- equiva
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-I'll scan the codebase for all existing shortcodes and build custom jorap- prefixed editor components for each one in the Sveltia CMS setup.</details></think>
+I'll scan the codebase for all existing shortcodes and build custom jorap- prefixed editor components for each one in the Sveltia CMS setup.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2419,11 +1964,10 @@ I'll inventory every shortcode in the repo and map each to a customizable `jorap
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **21** results in **1** directory</summary>
 
-Directory: **** (21 files)
+Directory: **``** (21 files)
 
 | File |
 |------|
@@ -2448,21 +1992,12 @@ Directory: **** (21 files)
 | `themes/jorap/layouts/shortcodes/spotify.html` |
 | `_vendor/github.com/gethugothemes/hugo-modules/modal/layouts/shortcodes/modal.html` |
 | `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/slider.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2529,186 +2064,102 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the remaining shortcode templates to understand their syntax before creating custom jorap- equivalents.</details></think>
+Reviewing the remaining shortcode templates to understand their syntax before creating custom jorap- equivalents.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/accordion/layouts/shortcodes/accordion.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/accordion/layouts/shortcodes/accordion.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tabs.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tabs.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tab.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tab.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/gallery.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/gallery.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/slider.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/slider.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/video.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/video.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/mermaid/layouts/shortcodes/mermaid.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/mermaid/layouts/shortcodes/mermaid.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/modal/layouts/shortcodes/modal.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/modal/layouts/shortcodes/modal.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/youtube-lite.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/youtube-lite.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/vimeo-lite.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/vimeo-lite.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/shortcodes/adsense.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/shortcodes/adsense.html</summary>
 
 </details></tool-use>
 
@@ -2739,7 +2190,8 @@ Vimeo-lite previews will fall back to an iframe because the custom element canno
 
 The registry will be wrapped in an IIFE exposing a shared helpers object. The file will be organized by category with comments. Gallery and slider block conversion will match elements.md.
 
-Gallery fields will cover dir, class, height, width, webp, command, option, and zoomable. Video fields will include src, width, height, autoplay, loop, muted, controls, and class. Mermaid will use an inner text field for diagram syntax. Modal will wrap content between paired tags. Adsense slot and format attributes are being verified against template syntax.</details></think>
+Gallery fields will cover dir, class, height, width, webp, command, option, and zoomable. Video fields will include src, width, height, autoplay, loop, muted, controls, and class. Mermaid will use an inner text field for diagram syntax. Modal will wrap content between paired tags. Adsense slot and format attributes are being verified against template syntax.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2748,27 +2200,15 @@ Refactoring into a customizable registry and adding editor components for every 
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
 
 </details></tool-use>
 
@@ -2779,134 +2219,87 @@ A new `jorap-shortcodes.js` file will serve as the customization catalog. `edito
 
 The `jorap-shortcodes.js` catalog will use a `global.JORAP_SHORTCODES` array. Paired shortcodes will be defined explicitly for easy editing. A regex parser will extract tab blocks from inner content.
 
-A `serializeTabs` function will rebuild tab blocks from parsed data. Image shortcodes will preserve height, width, command, options, class, and title attributes. The full `jorap-shortcodes.js` registry will be lengthy but well-organized, beginning with a manifest comment for easy editing.</details></think>
+A `serializeTabs` function will rebuild tab blocks from parsed data. Image shortcodes will preserve height, width, command, options, class, and title attributes. The full `jorap-shortcodes.js` registry will be lengthy but well-organized, beginning with a manifest comment for easy editing.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/_headers</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/_headers</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Running validation checks on both JavaScript files and the YAML configuration. Verifying that the editor component IDs match between the code and the config file.</details></think>
+Running validation checks on both JavaScript files and the YAML configuration. Verifying that the editor component IDs match between the code and the config file.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js && node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js && python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && node <<'EOF'
-const fs = require('fs');
-const vm = require('vm');
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js &amp;&amp; node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js &amp;&amp; python3 -c &#34;import yaml; yaml.safe_load(open(&#39;/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml&#39;))&#34; &amp;&amp; node &lt;&lt;&#39;EOF&#39;
+const fs = require(&#39;fs&#39;);
+const vm = require(&#39;vm&#39;);
 const ctx = { window: {} };
-vm.runInNewContext(fs.readFileSync('/home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js','utf8'), ctx);
-const yaml = fs.readFileSync('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml','utf8');
-const listed = [...yaml.matchAll(/^\s+- jorap-/gm)].map(m => m[0].trim().slice(2));
-const ids = ctx.window.JORAP_EDITOR_COMPONENT_IDS.filter(id => id.startsWith('jorap-'));
-const missingInYaml = ids.filter(id => !listed.includes(id));
-const extraInYaml = listed.filter(id => !ids.includes(id));
+vm.runInNewContext(fs.readFileSync(&#39;/home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js&#39;,&#39;utf8&#39;), ctx);
+const yaml = fs.readFileSync(&#39;/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml&#39;,&#39;utf8&#39;);
+const listed = [...yaml.matchAll(/^\s+- jorap-/gm)].map(m =&gt; m[0].trim().slice(2));
+const ids = ctx.window.JORAP_EDITOR_COMPONENT_IDS.filter(id =&gt; id.startsWith(&#39;jorap-&#39;));
+const missingInYaml = ids.filter(id =&gt; !listed.includes(id));
+const extraInYaml = listed.filter(id =&gt; !ids.includes(id));
 if (missingInYaml.length || extraInYaml.length) {
   console.error({ missingInYaml, extraInYaml });
   process.exit(1);
 }
 const samples = [
-  ['accordion', '{{< accordion "Q?" >}}\nA\n{{< /accordion >}}', /^\{\{<\s*accordion\s+"(?<title>[^"]+)"\s*>\}\}(?<content>[\s\S]+?)\{\{<\s*\/accordion\s*>\}\}/m],
-  ['tabs', '{{< tabs >}}\n{{< tab "One" >}}\nHi\n{{< /tab >}}\n{{< /tabs >}}', /^\{\{<\s*tabs\s*>\}\}(?<inner>[\s\S]+?)\{\{<\s*\/tabs\s*>\}\}/m],
-  ['gallery', '{{< gallery dir="images/gallery" height="400" width="400" webp="true" command="Fit" zoomable="true" >}}', /^\{\{<\s*gallery\s+(?<attrs>[\s\S]+?)\s*>\}\}/m],
-  ['mermaid', '{{< mermaid >}}\ngraph TD\nA-->B\n{{< /mermaid >}}', /^\{\{<\s*mermaid\s*>\}\}(?<content>[\s\S]+?)\{\{<\s*\/mermaid\s*>\}\}/m],
-  ['video', '{{< video src="https://x.mp4" width="100%" controls="true" >}}', /^\{\{<\s*video\s+(?<attrs>[\s\S]+?)\s*>\}\}/m],
-  ['adsense', '{{< adsense slot="123" format="auto" >}}', /^\{\{<\s*adsense\s+(?<attrs>[\s\S]+?)\s*>\}\}/m],
+  [&#39;accordion&#39;, &#39;{{&lt; accordion &#34;Q?&#34; &gt;}}\nA\n{{&lt; /accordion &gt;}}&#39;, /^\{\{&lt;\s*accordion\s+&#34;(?&lt;title&gt;[^&#34;]+)&#34;\s*&gt;\}\}(?&lt;content&gt;[\s\S]+?)\{\{&lt;\s*\/accordion\s*&gt;\}\}/m],
+  [&#39;tabs&#39;, &#39;{{&lt; tabs &gt;}}\n{{&lt; tab &#34;One&#34; &gt;}}\nHi\n{{&lt; /tab &gt;}}\n{{&lt; /tabs &gt;}}&#39;, /^\{\{&lt;\s*tabs\s*&gt;\}\}(?&lt;inner&gt;[\s\S]+?)\{\{&lt;\s*\/tabs\s*&gt;\}\}/m],
+  [&#39;gallery&#39;, &#39;{{&lt; gallery dir=&#34;images/gallery&#34; height=&#34;400&#34; width=&#34;400&#34; webp=&#34;true&#34; command=&#34;Fit&#34; zoomable=&#34;true&#34; &gt;}}&#39;, /^\{\{&lt;\s*gallery\s+(?&lt;attrs&gt;[\s\S]+?)\s*&gt;\}\}/m],
+  [&#39;mermaid&#39;, &#39;{{&lt; mermaid &gt;}}\ngraph TD\nA--&gt;B\n{{&lt; /mermaid &gt;}}&#39;, /^\{\{&lt;\s*mermaid\s*&gt;\}\}(?&lt;content&gt;[\s\S]+?)\{\{&lt;\s*\/mermaid\s*&gt;\}\}/m],
+  [&#39;video&#39;, &#39;{{&lt; video src=&#34;https://x.mp4&#34; width=&#34;100%&#34; controls=&#34;true&#34; &gt;}}&#39;, /^\{\{&lt;\s*video\s+(?&lt;attrs&gt;[\s\S]+?)\s*&gt;\}\}/m],
+  [&#39;adsense&#39;, &#39;{{&lt; adsense slot=&#34;123&#34; format=&#34;auto&#34; &gt;}}&#39;, /^\{\{&lt;\s*adsense\s+(?&lt;attrs&gt;[\s\S]+?)\s*&gt;\}\}/m],
 ];
 for (const [name, text, re] of samples) {
-  if (!text.match(re)) throw new Error('no match: ' + name);
+  if (!text.match(re)) throw new Error(&#39;no match: &#39; + name);
 }
-console.log('sync + pattern checks ok (' + ids.length + ' jorap components)');
+console.log(&#39;sync + pattern checks ok (&#39; + ids.length + &#39; jorap components)&#39;);
 EOF</summary>
-
 ```bash
 node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js && node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js && python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && node <<'EOF'
 const fs = require('fs');
@@ -2963,35 +2356,28 @@ EOF
 }
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: node <<'EOF'
-const fs = require('fs');
-const vm = require('vm');
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node &lt;&lt;&#39;EOF&#39;
+const fs = require(&#39;fs&#39;);
+const vm = require(&#39;vm&#39;);
 const ctx = { window: {} };
-vm.runInNewContext(fs.readFileSync('/home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js','utf8'), ctx);
-const yaml = fs.readFileSync('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml','utf8');
-const listed = [...yaml.matchAll(/^\s+- (jorap-[\w-]+)/gm)].map(m => m[1]);
-const ids = ctx.window.JORAP_EDITOR_COMPONENT_IDS.filter(id => id.startsWith('jorap-'));
-console.log('registry', ids.length, 'yaml', listed.length);
-const missingInYaml = ids.filter(id => !listed.includes(id));
-const extraInYaml = listed.filter(id => !ids.includes(id));
+vm.runInNewContext(fs.readFileSync(&#39;/home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js&#39;,&#39;utf8&#39;), ctx);
+const yaml = fs.readFileSync(&#39;/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml&#39;,&#39;utf8&#39;);
+const listed = [...yaml.matchAll(/^\s+- (jorap-[\w-]+)/gm)].map(m =&gt; m[1]);
+const ids = ctx.window.JORAP_EDITOR_COMPONENT_IDS.filter(id =&gt; id.startsWith(&#39;jorap-&#39;));
+console.log(&#39;registry&#39;, ids.length, &#39;yaml&#39;, listed.length);
+const missingInYaml = ids.filter(id =&gt; !listed.includes(id));
+const extraInYaml = listed.filter(id =&gt; !ids.includes(id));
 if (missingInYaml.length || extraInYaml.length) {
   console.error({ missingInYaml, extraInYaml });
   process.exit(1);
 }
-console.log('sync ok');
+console.log(&#39;sync ok&#39;);
 EOF</summary>
-
 ```bash
 node <<'EOF'
 const fs = require('fs');
@@ -3017,18 +2403,13 @@ registry 20 yaml 20
 sync ok
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Preparing a mapping table and customization instructions for all shortcodes. Need to verify whether the Hugo accordion shortcode is paired.</details></think>
+Preparing a mapping table and customization instructions for all shortcodes. Need to verify whether the Hugo accordion shortcode is paired.
+</details></think>
 
 _**Agent (default)**_
 
@@ -3096,7 +2477,8 @@ on preview
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-YouTube Error 153 during preview is typically caused by iframe issues in Sveltia CMS. A missing or incorrect referrer policy is a common culprit.</details></think>
+YouTube Error 153 during preview is typically caused by iframe issues in Sveltia CMS. A missing or incorrect referrer policy is a common culprit.
+</details></think>
 
 _**Agent (default)**_
 
@@ -3105,10 +2487,8 @@ YouTube Error 153 usually means the embed iframe is missing required config (oft
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -3124,37 +2504,19 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [YouTube embeds fail with a 153 error](https://simonwillison.net/2025/Dec/1/youtube-embed-153-error/)\n2. [YouTube Error 153: Video Player Configuration Error when embedding YouTube videos](https://stackoverflow.com/questions/79802987/youtube-error-153-video-player-configuration-error-when-embedding-youtube-video)\n3. [YouTube API Services - Required Minimum Functionality  |  Google for Developers](https://developers.google.com/youtube/terms/required-minimum-functionality)\n4. [Article - Fixing YouTube Player Error...](https://teamdynamix.umich.edu/TDClient/30/Portal/KB/ArticleDet?ID=14491)\n5. [YouTube video in WebView gives error code 153 on Android](https://stackoverflow.com/questions/79761743/youtube-video-in-webview-gives-error-code-153-on-android)\n\nSynthesis:\nYouTube Error 153 occurs when the embedded player cannot verify the request origin, typically because the HTTP Referer header is missing or restricted [1][2][3].\n\nTo fix this:\n\nFor web embeds, add the attribute referrerpolicy=\"strict-origin-when-cross-origin\" to your iframe tag [2][4][5]. If you control the server, ensure your HTTP response header is set to Referrer-Policy: strict-origin-when-cross-origin [1][6][5]. Avoid policies like same-origin that strip referrer data [1][7].\n\nFor mobile app WebViews, you must explicitly inject a valid Referer header (e.g., https://your-app-bundle-id) into the request [3][5][8]. On Android, use loadDataWithBaseURL with a valid base URL, or use loadUrl with additional HTTP headers [3][5]. On iOS, add the Referer value to your URLRequest headers before loading [3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eYouTube embeds fail with a 153 error\u003c/title\u003e\n\u003curl\u003ehttps://simonwillison.net/2025/Dec/1/youtube-embed-153-error/\u003c/url\u003e\n\u003ccontent\u003eYouTube embeds fail with a 153 error\n...\nYouTube embeds fail with a 153 error. I just fixed this bug on my blog. I was getting an annoying \"Error 153: Video player configuration error\" on some of the YouTube video embeds (like this one) on this site. After some digging it turns out the culprit was this HTTP header, which Django's SecurityMiddleware was sending by default:\n...\n&#96;&#96;&#96;\nReferrer-Policy: same-origin\n\n&#96;&#96;&#96;\n...\nYouTube's embedded player terms documentation explains why this broke:\n...\nAPI Clients that use the YouTube embedded player (including the YouTube IFrame Player API) must provide identification through the&#96;HTTP Referer&#96; request header. In some environments, the browser will automatically set&#96;HTTP Referer&#96;, and API Clients need only ensure they are not setting the Referrer-Policy in a way that suppresses the&#96;Referer&#96; value. YouTube recommends using&#96;strict-origin-when-cross-origin&#96; Referrer-Policy, which is already the default in many browsers.\n...\nThe fix, which I outsourced to GitHub Copilot agent since I was on my phone, was to add this to my&#96;settings.py&#96;:\n...\n&#96;&#96;&#96;\nSECURE_REFERRER_POLICY = \"strict-origin-when-cross-origin\"\n\n&#96;&#96;&#96;\n...\nwhat the header means\n...\n&#96;strict-origin-when-cross-origin&#96; offers more privacy. With this policy, only the origin is sent in the Referer header of cross-origin requests.\n...\nThis prevents leaks of private data that may be accessible from other parts of the full URL such as the path and query string.\n...\nEffectively it means that any time you follow a link from my site to somewhere else they'll see this in the incoming HTTP headers even if you followed the link from a page other than my homepage:\n...\n&#96;&#96;&#96;\nReferer: https://simonwillison.net/\n\n&#96;&#96;&#96;\n...\nThe previous header,&#96;same-origin&#96;, is explained by MDN here:\n...\nSend the origin, path, and query string for same-origin requests. Don't send the Referer header for cross-origin requests.\n...\nThis meant that previously traffic from my site wasn't sending any HTTP referer at all!\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eYouTube Error 153: Video Player Configuration Error when embedding YouTube videos\u003c/title\u003e\n\u003curl\u003ehttps://stackoverflow.com/questions/79802987/youtube-error-153-video-player-configuration-error-when-embedding-youtube-video\u003c/url\u003e\n\u003ccontent\u003eWhen embedding YouTube videos using the IFrame API or direct embed URLs, the player occasionally displays the message “Error 153: Video Player Configuration Error” instead of loading the video. This issue occurs inconsistently, particularly in Angular Capacitor iOS apps, where it previously worked fine without any problems.\n...\nAdditional steps were taken to resolve\n...\nissue, including\n...\n-validation using the oEmbed API\n...\nadding referrerPolicy\n...\nstrict-origin-when-cross-origin\", and even trying the privacy-enhanced embed URL ([https://www.youtube-nocookie.com/embed/ScMzIvxBSi4](\n...\nwww.youtube\n...\ncom/embed\n...\nMzIvxBSi\n...\nbut the error still persists\n...\nYou need to either add this header:\n...\n'Referrer-Policy': 'strict-origin-when-cross-origin'\n...\n&#96;&#96;&#96;\nreferrerpolicy='strict-origin-when-cross-origin'\n...\nQuick update -\n...\n26, 202\n...\nissues with this\n...\n&#96;&#96;&#96;\n'Referrer-Policy': 'strict-origin-when-cross-origin'\n...\n\u003ciframe :src=\"https://your-youtube-embed.pages.dev?v=ScMzIvxBSi4\" allow=\"autoplay; fullscreen; picture-in-picture; encrypted-media\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen\u003e\u003c/iframe\u003e\n...\n- The &#96;iframe&#96; lacks a &#96;referrerpolicy&#96; attribute.\n...\n- The site has too strict a &#96;Referrer-Policy&#96; header (like &#96;no-referrer&#96;) that prevents sending the needed details.\n...\nor security plugin is stripping headers or interfering with the embed\n...\n**Their fix suggestion**: \nAdd &#96;referrerpolicy=\"strict-origin-when-cross-origin\"&#96; to the YouTube embed iframe\n...\nThis is an\n...\n- &#96;loadData()&#96; renders HTML, but it does **not send a Referer header**.\n...\n- YouTube now **requires a valid Referer** for embedded videos, even public ones.\n...\n- Without a Referer, YouTube treats the request as “restricted” → **error 153**.\n...\n**&#96;loadDataWithBaseURL(baseUrl, ...)&#96;**\n...\n- Setting &#96;baseUrl&#96; makes WebView send a **Referer header** with the iframe request.\n\n- YouTube sees a valid origin and allows the video to play.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eYouTube API Services - Required Minimum Functionality  |  Google for Developers\u003c/title\u003e\n\u003curl\u003ehttps://developers.google.com/youtube/terms/required-minimum-functionality\u003c/url\u003e\n\u003ccontent\u003eAPI Clients that use the YouTube embedded player (including the YouTube IFrame Player API) must provide identification through the &#96;HTTP Referer&#96; request header. In some environments, the browser will automatically set &#96;HTTP Referer&#96;, and API Clients need only ensure they are not setting the &#96;Referrer-Policy&#96; in a way that suppresses the &#96;Referer&#96; value. YouTube recommends using &#96;strict-origin-when-cross-origin&#96; Referrer-Policy, which is already the default in many browsers.\n...\nSimilarly, if integrating the YouTube embedded player in a window created by using JavaScript &#96;window.open&#96;, API Clients must not use the &#96;noreferrer&#96; feature, which suppresses the &#96;Referer&#96; value.\n...\nIn environments where &#96;HTTP Referer&#96; is empty by default and not automatically set by the browser, API Clients must take action to provide their identity through alternative means. In WebView integrations such as a mobile app or desktop app, &#96;HTTP Referer&#96; is empty by default and the &#96;Referer&#96; is typically set using one of these techniques:\n...\nFor other platforms where &#96;\n...\n&#96; is empty by\n...\n, set the &#96;\n...\n&#96; value by configuring the\n...\n. The exact technique might vary by platform.\n...\nAPI Clients with a high\n...\nof requests to\n...\nsee Usage and Quotas\n...\nThis section covers automatic playbacks. It applies to YouTube embedded players that either use the &#96;https://developers.google.com/youtube/player_parameters#autoplay&#96; player parameter or programmatically initiate automatic playback using the YouTube IFrame Player API service or another YouTube API service.\n...\n- Embedded players that\n...\nplay a video should initiate playback immediately when the page loads or as soon as the embedded player is fully visible. However, an API Client must not initiate an automatic playback until the player is visible and more than half of the player is visible on the page or screen.\n...\n- A page or screen must not have more than one YouTube player that\n...\nplays content simultaneously\n...\nbe at least\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eArticle - Fixing YouTube Player Error...\u003c/title\u003e\n\u003curl\u003ehttps://teamdynamix.umich.edu/TDClient/30/Portal/KB/ArticleDet?ID=14491\u003c/url\u003e\n\u003ccontent\u003eArticle - Fixing YouTube Player Error...\n\n## Updating...\n\n# Fixing YouTube Player Error 153 with Referrer Policy Settings\n\n## Environment\n\nYouTube video player embedded via iframe in web pages.\n\n## Issue\n\nWhen embedding YouTube videos in a website, the player displays the error “Error 153: Video player configuration error”. The embedded video may have been fine previously and only broken recently without any changes on the part of the website or the university.\n\n## Resolution\n\nTo fix the YouTube player error, try the following steps:\n\n1. Add the attribute&#96;referrerpolicy=\"strict-origin-when-cross-origin\"&#96; to the YouTube iframe tag(s).\n2. If the issue persists, add the following meta tag inside the&#96; &#96; section of your HTML document, but be aware this may reduce privacy protections:\n\n&#96;&#96;&#96;\n\u003cmeta name=\"referrer\" content=\"strict-origin-when-cross-origin\" /\u003e\n&#96;&#96;&#96;\n\n## Additional Information\n\nThere have been reports that using the YouTube oembed result might avoid this problem.\n\nFor more details and context, see the article: How to Fix YouTube Error 153 Video Player Configuration Error Explained.\n\nNeed additional information or assistance? Contact the ITS Service Center.\n\nSign in to leave feedback\n\n0 reviews\n\n## Deleting...\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eYouTube video in WebView gives error code 153 on Android\u003c/title\u003e\n\u003curl\u003ehttps://stackoverflow.com/questions/79761743/youtube-video-in-webview-gives-error-code-153-on-android\u003c/url\u003e\n\u003ccontent\u003e150\n...\n153\n...\n\";\n                                }\n                            }\n                        }\n                    });\n                }\n            \u003c/script\u003e\n        \u003c/body\u003e\n        \u003c/html\u003e\n    \"\"\".\n...\nYou need to add the below headers.\n...\n\u003e API Clients that use the YouTube embedded player (including the YouTube IFrame Player API) must provide identification through the HTTP Referer request header. In some environments, the browser will automatically set HTTP Referer, and API Clients need only ensure they are not setting the Referrer-Policy in a way that suppresses the Referer value. YouTube recommends using strict-origin-when-cross-origin Referrer-Policy, which is already the default in many browsers.\n\u003e \n\u003e Similarly, if integrating the YouTube embedded player in a window created by using JavaScript window.open, API Clients must not use the noreferrer feature, which suppresses the Referer value.\n...\n&#96;&#96;&#96;\n'Referer': 'https://com.org.app', // Package/Bundle ID\n'Referrer-Policy': 'strict-origin-when-cross-origin'\n&#96;&#96;&#96;\n...\nAll is pretty simple:\n...\n&#96;&#96;&#96;\nString videoUrl = \"https://www.youtube.com/embed/\"+url;\n...\nMap\u003cString, String\u003e headers = new HashMap\u003c\u003e();\nheaders.put(\"Referer\", \"https://your_site_here.com/\");\n...\nwebView.loadUrl(videoUrl, headers);\n&#96;&#96;&#96;\n...\n_**B) Using webview and html file with iframe and so one:**_\n...\n&#96;&#96;&#96;\nwebView.loadData(htmlContent, \"text/html; charset=utf-8\", null);\n&#96;&#96;&#96;\n...\n&#96;&#96;&#96;\nwebView.loadDataWithBaseURL(\"https://www.your_site_here.com/\", htmlContent, \"text/html\", \"charset=utf-8\", null);\n&#96;&#96;&#96;\n...\n&#96;&#96;&#96;\nreferrerpolicy=\"strict-origin-when-cross-origin\"\n...\nI scoured a few different threads and came across a number of potential fixes, and the first one below worked instantly. Add this to your header:\n...\n&#96;&#96;&#96;\n\u003chead\u003e\n    \u003cmeta name=\"referrer\" content=\"strict-origin-when-cross-origin\"\u003e\n\u003c/head\u003e\n...\nadd_header Referrer-Policy \"strict-origin-when-cross-origin\";\n...\nAdding &#96;referrerpolicy=\"strict-origin-when-cross-origin\"&#96; fixed it for me\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    },
-    {
-      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/75c6018f-1651-4311-97e6-a3622505e92d.txt\nSize: 21.7 KB, 701 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
-      "title": "YouTube Error 153: Video Player Configuration Error when embedding YouTube videos",
-      "url": "https://stackoverflow.com/questions/79802987/youtube-error-153-video-player-configuration-error-when-embedding-youtube-video"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [YouTube embeds fail with a 153 error](https://simonwillison.net/2025/Dec/1/youtube-embed-153-error/)\n2. [YouTube Error 153: Video Player Configuration Error when embedding YouTube videos](https://stackoverflow.com/questions/79802987/youtube-error-153-video-player-configuration-error-when-embedding-youtube-video)\n3. [YouTube API Services - Required Minimum Functionality  |  Google for Developers](https://developers.google.com/youtube/terms/required-minimum-functionality)\n4. [Article - Fixing YouTube Player Error...](https://teamdynamix.umich.edu/TDClient/30/Portal/KB/ArticleDet?ID=14491)\n5. [YouTube video in WebView gives error code 153 on Android](https://stackoverflow.com/questions/79761743/youtube-video-in-webview-gives-error-code-153-on-android)\n\nSynthesis:\nYouTube Error 153 occurs when the embedded player cannot verify the request origin, typically because the HTTP Referer header is missing or restricted [1][2][3].\n\nTo fix this:\n\nFor web embeds, add the attribute referrerpolicy=\"strict-origin-when-cross-origin\" to your iframe tag [2][4][5]. If you control the server, ensure your HTTP response header is set to Referrer-Policy: strict-origin-when-cross-origin [1][6][5]. Avoid policies like same-origin that strip referrer data [1][7].\n\nFor mobile app WebViews, you must explicitly inject a valid Referer header (e.g., https://your-app-bundle-id) into the request [3][5][8]. On Android, use loadDataWithBaseURL with a valid base URL, or use loadUrl with additional HTTP headers [3][5]. On iOS, add the Referer value to your URLRequest headers before loading [3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eYouTube embeds fail with a 153 error\u003c/title\u003e\n\u003curl\u003ehttps://simonwillison.net/2025/Dec/1/youtube-embed-153-error/\u003c/url\u003e\n\u003ccontent\u003eYouTube embeds fail with a 153 error\n...\nYouTube embeds fail with a 153 error. I just fixed this
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3185,24 +2547,221 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 
-</details>
-</tool-use>
+Parameters:
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/_headers",
+  "pattern": "Referrer|referrer"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/_headers",
+  "pattern": "Referrer|referrer",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "static/_headers"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/_headers</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The admin route inherits a strict-origin-when-cross-origin referrer policy. This should be compatible with YouTube's documentation.
+
+Sandboxed iframe previews may strip the referrer entirely. Adding `referrerpolicy="strict-origin-when-cross-origin"` directly to the embed iframe would ensure the correct header is sent.
+
+Explicitly setting Referrer-Policy in the admin middleware is another option. Adding an `origin` query parameter to the YouTube embed URL could also resolve the error. Thumbnail fallbacks were considered but rejected since the user wants a live preview.
+
+The `origin` query parameter should be added to the YouTube embed URL so the service recognizes the embedding domain. The iframe also needs an explicit `allow` attribute with permissions such as autoplay and encrypted media. Local development on localhost:1313 may still function despite the different referer.
+
+The `origin` query parameter can be injected dynamically using `window.location.origin` inside the `toPreview` functions, since those execute in the browser context. The `URL` API will handle existing query strings correctly. A meta tag for the referrer policy should also be added to `admin/index.html`.
+
+The `_headers` file should explicitly set `Referrer-Policy` for `/admin/*` routes. Using `www.youtube.com/embed` instead of `youtube-nocookie.com` may resolve the error. The site already uses `strict-origin-when-cross-origin`, so the same-origin policy is not the cause.
+
+Sveltia may sanitize the preview HTML and strip the iframe referrer policy. The global `Cross-Origin-Resource-Policy: same-site` header does not affect the admin route.
+
+A blob: or about:blank parent document in the CMS editor can leave the YouTube iframe with a null Referer. The `origin` query parameter is required in these cases. Dynamic injection via `window.location.origin` handles both local and production origins.
+</details></think>
+
+_**Agent (default)**_
+
+YouTube Error 153 is usually a missing Referer/origin on nested CMS preview iframes. Updating embed previews to pass `origin` and `referrerpolicy`, and setting admin referrer headers.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The model provided an ambiguous search string to replace
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The model provided an ambiguous search string to replace
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/_headers</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js",
+  "pattern": "youtube-nocookie"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js",
+  "pattern": "youtube-nocookie",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "static/admin/jorap-shortcodes.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js</summary>
+```bash
+node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Adding googlevideo.com to the admin CSP is unnecessary. The iframe has its own origin and handles internal requests separately. The current fix should suffice.
+</details></think>
+
+_**Agent (default)**_
+
+YouTube **Error 153** means the embed can’t verify where it’s being loaded from. Sveltia renders previews in nested iframes, so the YouTube request often has **no Referer** — even when the site’s global policy is fine.
+
+### Fixes applied
+
+1. **`embedFrame()` in `jorap-shortcodes.js`**
+   - Appends `?origin=<current admin URL>` to every YouTube embed
+   - Adds `referrerpolicy="strict-origin-when-cross-origin"` on the iframe
+   - Uses `www.youtube.com/embed` for CMS preview (published posts still use your Hugo privacy setting)
+
+2. **`static/admin/index.html`**
+   - Added `<meta name="referrer" content="strict-origin-when-cross-origin">`
+
+3. **Admin headers** (`_headers` + `_middleware.js`)
+   - Explicit `Referrer-Policy: strict-origin-when-cross-origin` on `/admin/*`
+
+After deploy, hard-refresh `/admin/` and open a post with a YouTube block — the preview should load instead of Error 153.
+
+If it still fails locally on `localhost`, that’s expected sometimes; production at `https://www.jorap.com/admin/` is the real check since `origin` will match your live domain.

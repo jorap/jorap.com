@@ -13,7 +13,8 @@ _**User**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Verifying all links in the Alex Eala tracker. Retrying Wimbledon links. Searching page contents.</details></think>
+Verifying all links in the Alex Eala tracker. Retrying Wimbledon links. Searching page contents.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,23 +23,15 @@ I'll read the tracker and hunt down every Wimbledon link so we can re-check the 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -69,19 +62,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The tracker contains Wimbledon links, but the 2026 Wimbledon singles entries appear to be missing.</details></think>
+The tracker contains Wimbledon links, but the 2026 Wimbledon singles entries appear to be missing.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -90,10 +77,8 @@ Wimbledon entries are missing official `wimbledon.com` links. Searching for the 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -125,21 +110,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -166,21 +142,12 @@ User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -196,37 +163,25 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Barbora Krejcikova (CZE) - Ladies' Singles](https://assets.wimbledon.com/archive/draws/pdfs/players/45a14db7-cdb4-496f-9be9-d32447f7fa69_LS.pdf)\n2. [Krejcikova feeling privileged and prepared - The Championships, Wimbledon - Official Site by IBM](https://www.wimbledon.com/amp/en_GB/news/articles/2025-06-29/krejcikova_feeling_privileged_and_prepared.html)\n3. [](https://www.wimbledon.com/en_GB/scores/draws/2025_LS_draw.pdf)\n4. [Alexandra Eala (PHI) - Ladies' Singles](https://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf)\n5. [From the Programme: Barbora Krejcikova, a Czech legacy - The Championships, Wimbledon - Official Site by IBM](https://www.wimbledon.com/amp/en_GB/news/articles/2025-06-30/from_the_programme_barbora_krejcikova_a_czech_legacy.html)\n\nSynthesis:\nAt the 2025 Wimbledon Championships, defending champion Barbora Krejcikova defeated Alexandra Eala in the first round of the Ladies' Singles [1][2]. The match score was 3-6, 6-2, 6-1 [1][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eBarbora Krejcikova (CZE) - Ladies' Singles\u003c/title\u003e\n\u003curl\u003ehttps://assets.wimbledon.com/archive/draws/pdfs/players/45a14db7-cdb4-496f-9be9-d32447f7fa69_LS.pdf\u003c/url\u003e\n\u003ccontent\u003e### 2025 Barbora Krejcikova (CZE) seeded 17\n...\nLS Alexandra Eala (PHI) 1 W 3/6 6/2 6/1 LS Caroline Dolehide (USA) 2 W 6/4 3/6 6/2 LS Emma Navarro (USA) 10 3 L 6/2 3/6 4/6\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eKrejcikova feeling privileged and prepared - The Championships, Wimbledon - Official Site by IBM\u003c/title\u003e\n\u003curl\u003ehttps://www.wimbledon.com/amp/en_GB/news/articles/2025-06-29/krejcikova_feeling_privileged_and_prepared.html\u003c/url\u003e\n\u003ccontent\u003eSince late afternoon on Saturday 13 July last year, Barbora Krejcikova has known exactly where she would be 353 days later, at 1.30pm on Tuesday 1st July 2025 – namely, walking out on to Centre Court to open play on Day Two of The Championships, the honour always accorded to the defending women’s titleholder.\n...\nBut of course, nothing is easy. The 29-year-old, seeded 17 this time around, will start her defence opposite Alexandra Eala.\n...\nThe exciting young Filipino’s wins this year include five-time Grand Slam champion Iga Swiatek, while her runner-up achievement at Eastbourne will not only see her world ranking leap to No.56 by the start of The Championships, but bears witness to her increasing confidence on grass.\n...\nAlexandra Eala in the girls' singles in 2021\n...\n“To be honest, I don’t know that much about her,” conceded Krejcikova. “She’s obviously a young upcoming player, one of the new generation. It’s going to be a great match-up, and I’m looking forward to seeing where the young generation is.”\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003e\u003c/title\u003e\n\u003curl\u003ehttps://www.wimbledon.com/en_GB/scores/draws/2025_LS_draw.pdf\u003c/url\u003e\n\u003ccontent\u003eTHE CHAMPIONSHIPS\n...\nLES\n...\nRound \n65. ANDREEVA, Mirra [7] \n66. SHERIF, Mayar EGY \n67. TEICHMANN, Jil SUI \n68. BRONZETTI, Lucia ITA \n69. BAPTISTE, Hailey USA \n70. CIRSTEA, Sorana ROU \n71. MBOKO, Victoria CAN (L) \n72. FRECH, Magdalena POL [25] \n73. KREJCIKOVA, Barbora CZE [17] \n74. EALA, Alexandra PHI \n75. DOLEHIDE, Caroline USA \n76. RUS, Arantxa NED \n77. KUDERMETOVA, Veronika \n78. ZHU, Lin CHN \n79. KVITOVA, Petra CZE (W) \n80. NAVARRO, Emma USA [10] \n81. MUCHOVA, Karolina CZE [15] \n82. WANG, Xinyu CHN \n83. SONMEZ, Zeynep TUR \n84. CRISTIAN, Jaqueline ROU \n85. LAMENS, Suzan NED \n86. JOVIC, Iva USA (Q)\n...\nHON, Priscilla AUS\n...\nQ)\n...\nANDROVA, Ekaterina [18] \n89. LINETTE, Magda POL [27] \n9\n...\nGER \n9\n...\nta ITA\n...\n96. PEGULA, Jessica USA [3] \n97. SWIATEK, Iga POL [8] \n98. KUDERMETOVA, Polina \n99. MCNALLY, Caty USA \n100. BURRAGE, Jodie GBR (W) \n101. OSORIO, Camila COL \n102.\n...\nSecond Round M. ANDREEVA [7] 6-3 6-3 L. BRONZETTI 6-4 7-5 H. BAPTISTE 6-7(0) 6-1 6-2 V. MBOKO 6-3 6-2 B. KREJCIKOVA [17] 3-6 6-2 6-1 C. DOLEHIDE 6-2 6-2 V. KUDERMETOVA 6-3 6-2 E. NAVARRO [10] 6-3 6-1 X. WANG 7-5 6-2 Z. SONMEZ 7-6(3) 6-3 S. LAMENS 6-1 6-1 E. ALEXANDROVA [18] 6-2 7-5 E. JACQUEMOT 6-7(7) 6-1 6-4 B. BENCIC 6-0 6-3 K. VOLYNETS 3-6 7-6(4) 6-1 E. COCCIARETTO 6-2 6-3 I. SWIATEK [8] 7-5 6-1 C. MCNALLY 6-3 6-1 D. COLLINS 6-3 6-2 V. ERJAVEC 3-6 6-3 6-4 C. TAUSON [23] 2-6 6-4 6-3 A. KALINSKAYA 6-3 7-6(4) M. SAKKARI 6-4 6-4 E. RYBAKINA [11] 6-2 6-1 D. KASATKINA [16] 7-5 6-3 I. BEGU 7-6(6) 1-6 6-3 Y. STARODUBTSEVA 1-6 6-3 6-1 L. SAMSONOVA [19] 6-3 6-2 S. KENIN [28] 7-6(5) 6-2 J. BOUZAS MANEIRO 6-3 3-2 Ret. A. ZAKHAROVA 6-2 2-6 6-1 D. YASTREMSKA 7-6(3) 6-1 Last updated 12 Jul 2025 at 5:19pm Page 2 - 2\n...\nB. KREJCIKOVA [17] 6-4 3-6 6-2\n...\nROVA [\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eAlexandra Eala (PHI) - Ladies' Singles\u003c/title\u003e\n\u003curl\u003ehttps://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf\u003c/url\u003e\n\u003ccontent\u003e## Alexandra Eala (PHI) Ladies' Singles\n\n| | | | Code-\u003eEvent | From To Participations | | Matches | Won/Lost | | Walkovers W/L | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | Total | 2021 2025 | 3 | 6 | | 3 / 3 | | | 0 / 0 | | |\n| | | | GS-\u003eJunior Girls' Singles | 2021 2021 | 1 | 2 | | 1 / 1 | | | 0 / 0 | | |\n| | | | RS-\u003eQualif. Ladies' Singles | 2024 2024 | 1 | 3 | | 2 / 1 | | | 0 / 0 | | |\n| | | | LS-\u003eLadies' Singles | 2025 2025 | 1 | 1 | | 0 / 1 | | | 0 / 0 | | |\n| Year | | Opponent's Name | | | | Seed | | Rnd | Result | | | Score | |\n| 2021 | | Alexandra Eala (PHI) seeded 2 | | | | | | | | | | | |\n| GS | | Solana Sierra (ARG) | | | | | | | 1 | W | | 6/2 6/4 | |\n| GS | | Ane Mintegi Del Olmo (ESP) | | | | | | | 2 | L | | 6/3 4/6 5/7 | |\n| 2024 | | Alexandra Eala (PHI) | | | | | | | | | | | |\n| RS | | Jessika Ponchet (FRA) | | | | | | | 1 | W | | 7/6(1) 6/4 | |\n| RS | | Tamara Zidansek (SLO) | | | | | 14 | | 2 | W | | 1/6 7/6(9) 6/3 | |\n| RS | | Lulu Sun (NZL) | | | | | 23 | | 3 | L | | 6/7(3) 5/7 | |\n| 2025 | | Alexandra Eala (PHI) | | | | | | | | | | | |\n| LS | | Barbora Krejcikova (CZE) | | | | | 17 | | 1 | L | | 6/3 2/6 1/6 | |\n\nThis material is the copyright of the All England Lawn Tennis Club and may not be reproduced in any form without written permission. Page 1/1\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eFrom the Programme: Barbora Krejcikova, a Czech legacy - The Championships, Wimbledon - Official Site by IBM\u003c/title\u003e\n\u003curl\u003ehttps://www.wimbledon.com/amp/en_GB/news/articles/2025-06-30/from_the_programme_barbora_krejcikova_a_czech_legacy.html\u003c/url\u003e\n\u003ccontent\u003eFrom the Programme: Barbora Krejcikova, a Czech legacy - The Championships, Wimbledon - Official Site by IBM\n...\n﻿Moments after leaving Centre Court as Wimbledon champion last year, Barbora Krejcikova was guided towards the Honours board at the All England Club. Of the many names listed throughout the history of The Championships, there was one in particular that AELTC Chair Deborah Jevans CBE wished to point out.\n...\nKrejcikova had such an affinity with Novotna that the sight of her name reduced her to tears. Seven years earlier in 2017, Novotna had died from ovarian cancer at the age of 49, and is sorely missed by her countrywoman who followed in her footsteps on to Centre Court.\n...\nNovotna\n...\nIn 2024, Krejcikova was not part of the conversation around contenders. Despite being the No.31 seed it had been a challenging first half of the season, featuring a bout of Covid, a bacterial infection and a back injury. Coming into the Fortnight, her win-loss record for the year was 7-9.\n...\nHailing from a tennis nation that largely grows up on clay courts, Krejcikova understandably had Roland-Garros firmly in her sights at a young age. But Novotna’s victory at Wimbledon, which followed on from the Martina Navratilova dynasty, helped inspire a long line of Czech success, with Petra Kvitova taking the title in 2011 and 2014, Marketa Vondrousova in 2023 and Krejcikova in 2024.\n...\nKrejcikova can now look forward to experiencing the honour enjoyed by Novotna in 1999 when she opened play on Day 2 on Centre Court as the reigning champion. A title defence will be challenging after suffering a back injury at the start of the season, and she is sailing against the wind of recent history given there have been seven consecutive first-time champions in the ladies’ singles. But the odds were also not in her favour here 12 months ago, and look how that ended.\n...\nThis feature is one of many in the 120-page Official Wimbledon Programme 2025, which is available to purchase here.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Barbora Krejcikova (CZE) - Ladies' Singles](https://assets.wimbledon.com/archive/draws/pdfs/players/45a14db7-cdb4-496f-9be9-d32447f7fa69_LS.pdf)\n2. [Krejcikova feeling privileged and prepared - The Championships, Wimbledon - Official Site by IBM](https://www.wimbledon.com/amp/en_GB/news/articles/2025-06-29/krejcikova_feeling_privileged_and_prepared.html)\n3. [](https://www.wimbledon.com/en_GB/scores/draws/2025_LS_draw.pdf)\n4. [Alexandra Eala (PHI) - Ladies' Singles](https://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf)\n5. [From the Programme: Barbora Krejcikova, a Czech legacy - The Championships, Wimbledon - Official Site by IBM](https://www.wimbledon.com/amp/en_GB/news/articles/2025-06-30/from_the_programme_barbora_krejcikova_a_czech_legacy.html)\n\nSynthesis:\nAt the 2025 Wimbledon Championships, defending champion Barbora Krejcikova defeated Alexandra Eala in the first round of the Ladies' Singles [1][2]. The match score was 3-6, 6-2, 6-1 [1][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eBarbora Krejcikova (CZE) - Ladies' Singles\u003c/title\u003e\n\u003curl\u003ehttps://assets.wimbledon.com/archive/draws/pdfs/players/45a14db7-cdb4-496f-9be9-d32447f7fa69_LS.pdf\u003c/url\u003e\n\u003ccontent\u003e### 2025 Barbora Krejcikova (CZE) seeded 17\n...\nLS Alexandra Eala (PHI) 1 W 3/6 6/2 6/1 LS Caroline Dolehide (USA) 2 W 6/4 3/6 6/2 LS Emma Navarro (USA) 10 3 L 6/2 3/6 4/6\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eKrejcikova feeling privileged and prepared - The Championships, Wimbledon - Official Site by IBM\u003c/title\u003e\n\u003curl\u003ehttps://www.wimbledon.com/amp/en_GB/news/articles/2025-06-29/krejcikova_feeling_privileged_and_prepared.html\u003c/url\u003e\n\u003ccontent\u003eSince late afternoon on Saturday 13 July last year, Barbora Krejcikova has known exactly where sh
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for the correct wimbledon.com match URL patterns.</details></think>
+Searching for the correct wimbledon.com match URL patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -242,32 +197,19 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alexandra Eala vs. Iga Swiatek 04.07.2026 - Wimbledon - London | TennisLive.com](https://www.tennislive.net/wta/match/alexandra-eala-VS-iga-swiatek/wimbledon-london-2026/)\n2. [Wimbledon: Iga Swiatek suffers third-round exit as defending women's champion beaten by Alexandra Eala in huge shock | Tennis News | Sky Sports](https://www.skysports.com/tennis/news/12110/13560408/wimbledon-iga-swiatek-suffers-third-round-exit-as-defending-womens-champion-beaten-by-alexandra-eala-in-huge-shock)\n3. [Wimbledon upset: Eala beats Swiatek 7-6, 6-2](https://www.sofascore.com/news/centre-court-stunned-alex-eala-knocks-out-iga-swiatek-at-wimbledon)\n4. [Wimbledon 2026 results: Alexandra Eala dedicates Iga Swiatek victory to 'all the girls with ruffled socks and chubby cheeks' - BBC Sport](https://www.bbc.com/sport/tennis/articles/cjwgpz3wj69o)\n5. [Tennis, WTA – Wimbledon 2026: Eala eliminates Swiatek - Tennis Majors](https://www.tennismajors.com/wimbledon-news/eala-stuns-the-champion-swiatek-to-become-the-first-filipino-into-a-majors-second-week-855066.html)\n\nSynthesis:\nAlexandra Eala defeated defending champion Iga Swiatek in the third round of the 2026 Wimbledon Championships on July 4, 2026 [1][2]. Eala won in straight sets with a score of 7-6(11-9), 6-2 [2][3]. With this victory, Eala became the first player from the Philippines to reach the fourth round of a Grand Slam tournament in the Open era [2][4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala vs. Iga Swiatek 04.07.2026 - Wimbledon - London | TennisLive.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennislive.net/wta/match/alexandra-eala-VS-iga-swiatek/wimbledon-london-2026/\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala vs. I\n...\nSwiatek 04.07.202\n...\n- Wimbledon - London\n...\n## Alexandra Eala vs. Iga Swiatek 04.07.2026 - Wimbledon - London | compare\n...\n| 04.07.26 15:30 | 3rd round | Alexandra Eala | Iga Swiatek | 7-69, 6-2 | London | Grass |\n| --- | --- | --- | --- | --- | --- | --- |\n...\n| 1st SERVE % | 63/101 (62%) | 47/69 (68%) |\n| --- | --- | --- |\n| 1st SERVE POINTS WON | 36/63 (57%) | 27/47 (57%) |\n| 2nd SERVE POINTS WON | 21/38 (55%) | 7/22 (32%) |\n| BREAK POINTS WON | 5/7 (71%) | 3/11 (27%) |\n| TOTAL RETURN POINTS WON | 35/69 (51%) | 44/101 (44%) |\n| TOTAL POINTS WON | 92/170 (54%) | 78/170 (46%) |\n| DOUBLE FAULTS | 0 | 5 |\n| ACES | 4 | 1 |\n...\n30-30\n...\n40-30\n...\n40-\n...\n40-\n...\n0-15\n...\n40-\n...\n40-30\n...\n0, A-\n...\n0-0\n...\n15-0, 30-0\n...\n30-15, 40-15,\n...\n40-30, 40-40, A-40\n...\n-2 | Iga Swiate\n...\n| 0-0,\n...\n15-0, 30-0, 30-15, 30-30,\n...\n30-40 |\n...\n15-0, 30-0, 40-0 |\n...\n4-3 | Iga Swiatek |\n...\n0-0, 15-0,\n...\n15-15,\n...\n15-30, 30-30,\n...\n40-30\n...\n| Alexandra Eala |\n...\n0-0, 15-0, 30-0, 30-15, 30-30, 40-30, 40-40, 40-A[BP] |\n...\n| 5-4 | Iga Swiatek |\n...\n| 0-0, 15-0, 15-15, 15-30, 15-40, 30-40, 40-40, 40-A |\n...\n| Alexandra Eala | 5-5 |\n...\n| 0-0, 0-15, 15-15, 15-30, 30-30, 40-30, 40-40, A-40, 40-40, A-40 |\n| 6-5 | Iga Swiatek |\n...\n| 0-0, 15-0, 15-15, 30-15, 30-30, 30-40 |\n| Alexandra Eala | 6-6 |\n...\n| 0-0, 0-1, 0-2, 1-2, 3-2, 4-2, 5-2, 5-3, 5-4, 5-5, 5-6, 6-6, 7-6, 7-7, 7-8, 8-8, 9-8, 9-9, 10-9 |\n| (9) | Iga Swiatek |\n| 0-0, 15-0, 30-0, 40-0[BP] |\n| 7-69 |\n...\n-15\n...\n15-15\n...\n30-1\n...\n40-3\n...\n0-0\n...\n15-0\n...\nAlexandra Eala\n...\n| 04.07.26 | 3rd round | Alexandra Eala | Iga Swiatek | 7-69, 6-2 | match details | London | Grass |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 24.04.25 | 2nd round | Iga Swiatek | Alexandra Eala | 4-6, 6-4, 6-2 | match details | Madrid | Clay |\n| 26.03.25 | 1/4 | Alexandra Eala | Iga Swiatek | 6-2, 7-5 | match details | Miami | Hard |\n...\n| --- |\n| vs. Iga Swiatek\n...\n7-69\n...\n6-2\n...\n6-2\n...\n6-1\n...\n6-2\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eWimbledon: Iga Swiatek suffers third-round exit as defending women's champion beaten by Alexandra Eala in huge shock | Tennis News | Sky Sports\u003c/title\u003e\n\u003curl\u003ehttps://www.skysports.com/tennis/news/12110/13560408/wimbledon-iga-swiatek-suffers-third-round-exit-as-defending-womens-champion-beaten-by-alexandra-eala-in-huge-shock\u003c/url\u003e\n\u003ccontent\u003eWimbledon: Iga Swiatek suffers third-round exit as defending women's champion beaten by Alexandra Eala in huge shock | Tennis News | Sky Sports Skip to content\n...\nSwiatek\n...\nSix-time Grand Slam champion Iga Swiatek and second seed Elena Rybakina suffer surprise third-round defeats at Wimbledon; defending champion Swiatek lost in straight sets to Alexandra Eala, 21, who becomes the first player from the Philippines to reach the fourth round of a major\n...\nSaturday 4 July 2026 17:04, UK\n...\nDefending women's champion Iga Swiatek has been knocked out of Wimbledon after suffering a straight-sets defeat to 29th seed Alexandra Eala.\n...\nSix-time Grand Slam champion Swiatek lost the first set on an epic tie-break to Eala, 21, before capitulating in the second set to lose 7-6 (11-9) 6-2.\n...\nSwiatek claimed her first Wimbledon title last summer when she delivered a crushing 6-0 6-0 final victory over Amanda Anisimova.\n...\n- Latest Wimbledon scores and results🎾\n...\n- Men's singles draw I Women's singles draw I Order of Play📝\n...\nstream with no contract📱\n...\n-year-\n...\nthe end of\n...\nopening Centre Court as the defending\n...\n- Latest scores from the All England Club 🎾\n- Wimbledon 2026: Men's singles draw ⏩\n- Wimbledon 2026: Women's singles draw ⏩\n- Wimbledon 2026: Order of Play 📝\n...\nSwiatek had already fought back from trailing 5-3 in the opening set to force a tie-break and then dug deep to level in the breaker at 5-5. She even earned two set points only to squander them and lose the tie-break 11-9 after 85 minutes of brilliant action.\n...\nplace against Swiatek\n...\nappearance on the main show court at Wimbledon\n...\nWhile Swiatek was slipping to defeat on Centre Court, over on Court One there had already been one huge shock as second seed Elena Rybakina suffered defeat in straight sets.\n...\nRybakina, who won Wimbledon in 2022, was beaten by 25th seed Elise Mertens 7-6 (7-4) 6-1 in one hour and 36 minutes.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eWimbledon upset: Eala beats Swiatek 7-6, 6-2\u003c/title\u003e\n\u003curl\u003ehttps://www.sofascore.com/news/centre-court-stunned-alex-eala-knocks-out-iga-swiatek-at-wimbledon\u003c/url\u003e\n\u003ccontent\u003eWimbledon upset: Eala beats Swiatek 7-6, 6-2\n...\n- Sofascore News\n- Wta\n- Centre Court stunned: Alexandra Eala knocks out Iga Swiatek at Wimbledon\n...\n4 Jul 2026\n...\n# Centre Court stunned: Alexandra Eala knocks out Iga Swiatek at Wimbledon\n...\nAlexandra Eala, the No. 29 seed, took down No. 3 seed Iga Swiatek 7-6(11-9), 6-2 in the Wimbledon Round of 32 on Centre Court. It was a clean, composed performance on grass, built on reliable serving, sharp returning in key moments, and a huge edge in limiting errors. The match featured a marathon first set that swung in a tight tiebreak and a faster second set where Eala took control early and never let go. Fans can revisit the full point-by-point stats and highlights on Sofascore.\n...\n### The key metrics that shaped 7-6(11-9), 6-2\n...\nTotal points went Eala’s way at 92 to 78, a healthy gap built mainly on superior service points and crucial break-point saves. Game totals were 13 to 8, with E\n...\nwinning 7 service games to Sw\n...\nreceiver points 44 to 35 overall, Eala’s serve quality reduced damage in the long run.\n...\ncontrast between return volume and break\n...\npoint conversion is a neat summary. Eala was harder to break at 72% saved, while Sw\n...\nContext matters on grass, and these numbers fit the surface. Shorter patterns reward the player who avoids cheap points against. Eala’s zero double faults, efficient second serve, and better first-serve return in the second set matched that brief. The upset tag is fair, given the seedings at 29 vs 3, but the stats show a clear blueprint rather than a wild swing. Fans can dig into every stat split and watch highlights on Sofascore, which tracked the match live from Centre Court in London. For a data-minded look at Wimbledon tennis, this one offered a clean lesson in how serve-plus-returns and error control decide big-name matchups.\n...\n2026 Wimbledon, London, Great Britain\n...\n2-0\n...\n0-2\n...\n2-0\n...\n2-0\n...\n1-2\n...\n0-2\n...\n2-0\n...\n2-0\n...\n1-2\n...\n1-2\n...\n1-2\n...\n2-0\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eWimbledon 2026 results: Alexandra Eala dedicates Iga Swiatek victory to 'all the girls with ruffled socks and chubby cheeks' - BBC Sport\u003c/title\u003e\n\u003curl\u003ehttps://www.bbc.com/sport/tennis/articles/cjwgpz3wj69o\u003c/url\u003e\n\u003ccontent\u003eWimbledon 2026 results: Alexandra Eala dedicates Iga Swiatek victory to 'all the girls with ruffled socks and chubby cheeks' - BBC Sport\n...\nOn Saturday, she produced a brave, crowd-enthralling performance on Wimbledon's Centre Court to stun defending champion Swiatek 7-6 (11-9) 6-2.\n...\nWith it, she became the first player from the Philippines to reach the fourth round of a Grand Slam in the Open era.\n...\nAsked what the victory meant, the 21-year-old replied: \"I went to train every day after school with my ruffled socks, light-up shoes and chubby cheeks - to younger me this is everything.\n...\n21-year old Eala knocks out defending champion Swiatek\n...\nAgainst Swiatek on Wimbledon's biggest court, she absorbed the pressure admirably.\n...\nRoared on by a huge crowd on Henman Hill, Eala saved eight of the 11 break points she faced and hit 24 winners to 21 unforced errors to see off the six-time major champion.\n...\nLive scores, results and order of play\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eTennis, WTA – Wimbledon 2026: Eala eliminates Swiatek - Tennis Majors\u003c/title\u003e\n\u003curl\u003ehttps://www.tennismajors.com/wimbledon-news/eala-stuns-the-champion-swiatek-to-become-the-first-filipino-into-a-majors-second-week-855066.html\u003c/url\u003e\n\u003ccontent\u003eTennis, WTA – Wimbledon 2026: Eala eliminates Swiatek - Tennis Majors\n...\nIn tears on Centre Court, a crosscourt forehand still ringing in her ears: Alexandra Eala (No 29) stunned defending champion Iga Swiatek 7-6 (9), 6-2, saving two set points, dethroning a champion and becoming the first Filipino ever to reach a Grand Slam’s second week, as the Pole tumbled out of the top five.\n...\nFilipino seed No 29 Alexandra Eala produced the finest performance of her career on Saturday, beating defending champion Iga Swiatek 7-6 (9), 6-2 to reach the fourth round of Wimbledon and become the first Filipino player, man or woman, to reach the second week of a Grand Slam in the Open era.\n...\nThe match hinged on a first set of the highest tension: Swiatek, the third seed, held set points in the tie-break at 6-5 and again at 8-7, but Eala saved both and took the breaker 11-9 to seize the initiative.\n...\nOnce ahead, she surged clear, running away with the second set 6-2 as the champion’s hold on her title slipped away. The win moved Eala in front 2-1 in their head-to-head and was the fifth top-10 victory of her season.\n...\nresult will drop\n...\n6 in the rankings after\n...\na striking fall\n...\nmuch of her career\n...\nthe summit of the game.\n...\nA. Sabalenka [1] d. J. Ostapenko: 6-4, 6-4N. Osaka [14] d. D. Kasatkina: 6-1, 6-3K. Muchova [10] d. M. Sawangkaew: 6-2, 7-6(1)B. Krejcikova d. N. Bartunkova: 6-3, 7-5J. Pegula [4] d. J. Bouzas Maneiro: 6-1, 6-3I. Jovic [16] d. E. Alexandrova [18]: 6-3, 3-6, 6-4B. Bencic [11] d. A. Kalinskaya [19]: 6-4, 4-6, 7-6(6)C. Gauff [7] d. C. Liu: 6-3, 6-7(5), 6-2A. Krueger (Q) d. D. Snigur: 6-3, 6-2M. Kostyuk [12] d. E. Navarro [23]: 6-2, 4-6, 6-1J. Paolini [13] d. M. Sakkari: 6-1, 6-2A. Eala [29] d. I. Swiatek [3]: 7-6(9), 6-2M. Keys [26] d. A. Anisimova [6]: 3-6, 6-2, 6-3L. Noskova [9] d. S. Cirstea [17]: 2-6, 6-3, 7-6(9)M. Bouzkova [21] d. L. Samsonova: 4-6, 7-6(3), 6-4E. Mertens [25] d. E. Rybakina [2]: 7-6(4), 6-1\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Alexandra Eala vs. Iga Swiatek 04.07.2026 - Wimbledon - London | TennisLive.com](https://www.tennislive.net/wta/match/alexandra-eala-VS-iga-swiatek/wimbledon-london-2026/)\n2. [Wimbledon: Iga Swiatek suffers third-round exit as defending women's champion beaten by Alexandra Eala in huge shock | Tennis News | Sky Sports](https://www.skysports.com/tennis/news/12110/13560408/wimbledon-iga-swiatek-suffers-third-round-exit-as-defending-womens-champion-beaten-by-alexandra-eala-in-huge-shock)\n3. [Wimbledon upset: Eala beats Swiatek 7-6, 6-2](https://www.sofascore.com/news/centre-court-stunned-alex-eala-knocks-out-iga-swiatek-at-wimbledon)\n4. [Wimbledon 2026 results: Alexandra Eala dedicates Iga Swiatek victory to 'all the girls with ruffled socks and chubby cheeks' - BBC Sport](https://www.bbc.com/sport/tennis/articles/cjwgpz3wj69o)\n5. [Tennis, WTA – Wimbledon 2026: Eala eliminates Swiatek - Tennis Majors](https://www.tennismajors.com/wimbledon-news/eala-stuns-the-champion-swiatek-to-become-the-first-filipino-into-a-majors-second-week-855066.html)\n\nSynthesis:\nAlexandra Eala defeated defending champion Iga Swiatek in the third round of the 2026 Wimbledon Championships on July 4, 2026 [1][2]. Eala won in straight sets with a score of 7-6(11-9), 6-2 [2][3]. With this victory, Eala became the first player from the Philippines to reach the fourth round of a Grand Slam tournament in the Open era [2][4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala vs. Iga Swiatek 04.07.2026 - Wimbledon - London | TennisLive.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennislive.net/wta/match/alexandra-eala-VS-iga-swiatek/wimbledon-london-2026/\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala vs. I\n...\nSwiatek 04.07.202\n...\n- Wimbledon - London\n...\n## Alexandra Eala vs. Iga Swiatek 04.07.2026 - Wimbledon - London | compare\n...\n| 04.07.26 15:30 | 3rd round | Alexandra E
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -310,25 +252,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
@@ -337,38 +266,28 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Found useful information in the specstory history.
 
-Working Wimbledon links were identified for 2026 and 2025.</details></think>
+Working Wimbledon links were identified for 2026 and 2025.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The previous session verified Wimbledon URLs returned 200 status codes. They were likely removed from the file during a formatting pass.</details></think>
+The previous session verified Wimbledon URLs returned 200 status codes. They were likely removed from the file during a formatting pass.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -377,8 +296,8 @@ Running a full link check and verifying Wimbledon URLs from the prior session.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg -o 'https?://[^)\s]+' content/english/blog/alex-eala-pro-career-tracker.md | sort -u > /tmp/eala_urls.txt && wc -l /tmp/eala_urls.txt && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -o &#39;https?://[^)\s]+&#39; content/english/blog/alex-eala-pro-career-tracker.md | sort -u &gt; /tmp/eala_urls.txt &amp;&amp; wc -l /tmp/eala_urls.txt &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import urllib.request, ssl, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -386,17 +305,17 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-with open('/tmp/eala_urls.txt') as f:
+with open(&#39;/tmp/eala_urls.txt&#39;) as f:
     urls = [u.strip() for u in f if u.strip()]
 
 def check(url):
-    req = urllib.request.Request(url, method='HEAD', headers={'User-Agent': 'Mozilla/5.0'})
+    req = urllib.request.Request(url, method=&#39;HEAD&#39;, headers={&#39;User-Agent&#39;: &#39;Mozilla/5.0&#39;})
     try:
         with urllib.request.urlopen(req, context=ctx, timeout=15) as r:
             return url, r.status, None
     except Exception as e:
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            req = urllib.request.Request(url, headers={&#39;User-Agent&#39;: &#39;Mozilla/5.0&#39;})
             with urllib.request.urlopen(req, context=ctx, timeout=15) as r:
                 return url, r.status, None
         except Exception as e2:
@@ -406,18 +325,17 @@ bad = []
 ok = 0
 for url in urls:
     u, status, err = check(url)
-    if status and status < 400:
+    if status and status &lt; 400:
         ok += 1
     else:
         bad.append((u, status, err))
     time.sleep(0.05)
 
-print(f"OK: {ok}/{len(urls)}")
-print(f"BAD: {len(bad)}")
+print(f&#34;OK: {ok}/{len(urls)}&#34;)
+print(f&#34;BAD: {len(bad)}&#34;)
 for u, s, e in sorted(bad):
-    print(f"{s or 'ERR'}\t{u}\t{e or ''}")
+    print(f&#34;{s or &#39;ERR&#39;}\t{u}\t{e or &#39;&#39;}&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg -o 'https?://[^)\s]+' content/english/blog/alex-eala-pro-career-tracker.md | sort -u > /tmp/eala_urls.txt && wc -l /tmp/eala_urls.txt && python3 << 'PY'
 import urllib.request, ssl, time
@@ -461,7 +379,7 @@ PY
 ```
 
 ```
-]633;P;Cwd=/home/jorap/Documents/GitHub/jorap.com]633;P;HasRichCommandDetection=True]633;A$ ]633;B]633;E;cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -o 'https?://[^)\\s]+' content/english/blog/alex-eala-pro-career-tracker.md | sort -u &gt; /tmp/eala_urls.txt &amp;&amp; wc -l /tmp/eala_urls.txt &amp;&amp; python3 &lt;&lt; 'PY'\x0aimport urllib.request, ssl, time\x0afrom concurrent.futures import ThreadPoolExecutor, as_completed\x0a\x0actx = ssl.create_default_context()\x0actx.check_hostname = False\x0actx.verify_mode = ssl.CERT_NONE\x0a\x0awith open('/tmp/eala_urls.txt') as f:\x0a    urls = [u.strip() for u in f if u.strip()]\x0a\x0adef check(url):\x0a    req = urllib.request.Request(url, method='HEAD', headers={'User-Agent': 'Mozilla/5.0'})\x0a    try:\x0a        with urllib.request.urlopen(req, context=ctx, timeout=15) as r:\x0a            return url, r.status, None\x0a    except Exception as e:\x0a        try:\x0a            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})\x0a            with urllib.request.urlopen(req, context=ctx, timeout=15) as r:\x0a                return url, r.status, None\x0a        except Exception as e2:\x0a            return url, None, str(e2)\x0a\x0abad = []\x0aok = 0\x0afor url in urls:\x0a    u, status, err = check(url)\x0a    if status and status &lt; 400:\x0a        ok += 1\x0a    else:\x0a        bad.append((u, status, err))\x0a    time.sleep(0.05)\x0a\x0aprint(f"OK: {ok}/{len(urls)}")\x0aprint(f"BAD: {len(bad)}")\x0afor u, s, e in sorted(bad):\x0a    print(f"{s or 'ERR'}\\t{u}\\t{e or ''}")\x0aPYcd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -o 'https?://[^)\s]+' content/english/blog/alex-eala-pro-career-tracker.md | sort -u &gt; /tmp/eala_urls.txt &amp;&amp; wc -l /tmp/eala_urls.txt &amp;&amp; python3 &lt;&lt; 'PY'
+]633;P;Cwd=/home/jorap/Documents/GitHub/jorap.com]633;P;HasRichCommandDetection=True]633;A$ ]633;B]633;E;cd /home/jorap/Documents/GitHub/jorap.com && rg -o 'https?://[^)\\s]+' content/english/blog/alex-eala-pro-career-tracker.md | sort -u > /tmp/eala_urls.txt && wc -l /tmp/eala_urls.txt && python3 << 'PY'\x0aimport urllib.request, ssl, time\x0afrom concurrent.futures import ThreadPoolExecutor, as_completed\x0a\x0actx = ssl.create_default_context()\x0actx.check_hostname = False\x0actx.verify_mode = ssl.CERT_NONE\x0a\x0awith open('/tmp/eala_urls.txt') as f:\x0a    urls = [u.strip() for u in f if u.strip()]\x0a\x0adef check(url):\x0a    req = urllib.request.Request(url, method='HEAD', headers={'User-Agent': 'Mozilla/5.0'})\x0a    try:\x0a        with urllib.request.urlopen(req, context=ctx, timeout=15) as r:\x0a            return url, r.status, None\x0a    except Exception as e:\x0a        try:\x0a            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})\x0a            with urllib.request.urlopen(req, context=ctx, timeout=15) as r:\x0a                return url, r.status, None\x0a        except Exception as e2:\x0a            return url, None, str(e2)\x0a\x0abad = []\x0aok = 0\x0afor url in urls:\x0a    u, status, err = check(url)\x0a    if status and status < 400:\x0a        ok += 1\x0a    else:\x0a        bad.append((u, status, err))\x0a    time.sleep(0.05)\x0a\x0aprint(f"OK: {ok}/{len(urls)}")\x0aprint(f"BAD: {len(bad)}")\x0afor u, s, e in sorted(bad):\x0a    print(f"{s or 'ERR'}\\t{u}\\t{e or ''}")\x0aPYcd /home/jorap/Documents/GitHub/jorap.com && rg -o 'https?://[^)\s]+' content/english/blog/alex-eala-pro-career-tracker.md | sort -u > /tmp/eala_urls.txt && wc -l /tmp/eala_urls.txt && python3 << 'PY'
 import urllib.request, ssl, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -470,59 +388,15 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 with open('/tmp/eala_urls.txt') as f:
-    urls = [u.strip() for u in f if u.strip()]
-
-def check(url):
-    req = urllib.request.Request(url, method='HEAD', headers={'User-Agent': 'Mozilla/5.0'})
-    try:
-        with urllib.request.urlopen(req, context=ctx, timeout=15) as r:
-            return url, r.status, None
-    except Exception as e:
-        try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            with urllib.request.urlopen(req, context=ctx, timeout=15) as r:
-                return url, r.status, None
-        except Exception as e2:
-            return url, None, str(e2)
-
-bad = []
-ok = 0
-for url in urls:
-    u, status, err = check(url)
-    if status and status &lt; 400:
-        ok += 1
-    else:
-        bad.append((u, status, err))
-    time.sleep(0.05)
-
-print(f"OK: {ok}/{len(urls)}")
-print(f"BAD: {len(bad)}")
-for u, s, e in sorted(bad):
-    print(f"{s or 'ERR'}\t{u}\t{e or ''}")
-PY
-]633;C220 /tmp/eala_urls.txt
-OK: 217/220
-BAD: 3
-ERR	https://commons.wikimedia.org/wiki/File:Alex_Eala_(2024_US_Open	HTTP Error 404: Not Found
-ERR	https://creativecommons.org/licenses/by-sa/4.0"&gt;CC	HTTP Error 404: Not Found
-ERR	https://tnnslive.com/player/627278?content=form	HTTP Error 403: Forbidden
-]633;D;0
-
+ 
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -538,93 +412,62 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Results - The Championships, Wimbledon](https://www.wimbledon.com/en_GB/scores/results)\n2. [Alexandra Eala (PHI) - Ladies' Singles](https://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf)\n3. [](https://www.wimbledon.com/en_GB/scores/draws/2024_LS_draw.pdf)\n4. [](https://www.wimbledon.com/en_GB/scores/draws/2024_RS_draw.pdf)\n\nSynthesis:\nAlexandra Eala and Jessica Pegula are both competing in the 2026 Wimbledon Championships [1]. While both players have advanced through the tournament, they are currently in different sections of the draw and have not faced each other in a fourth-round match [2][1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eResults - The Championships, Wimbledon\u003c/title\u003e\n\u003curl\u003ehttps://www.wimbledon.com/en_GB/scores/results\u003c/url\u003e\n\u003ccontent\u003eLadies' SinglesNo.1 CourtFourth Round2h 12mJ. Pegula4466I. Jovic16631View recap\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlexandra Eala (PHI) - Ladies' Singles\u003c/title\u003e\n\u003curl\u003ehttps://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf\u003c/url\u003e\n\u003ccontent\u003e## Alexandra Eala (PHI) Ladies' Singles\n\n| | | | Code-\u003eEvent | From To Participations | | Matches | Won/Lost | | Walkovers W/L | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | Total | 2021 2025 | 3 | 6 | | 3 / 3 | | | 0 / 0 | | |\n| | | | GS-\u003eJunior Girls' Singles | 2021 2021 | 1 | 2 | | 1 / 1 | | | 0 / 0 | | |\n| | | | RS-\u003eQualif. Ladies' Singles | 2024 2024 | 1 | 3 | | 2 / 1 | | | 0 / 0 | | |\n| | | | LS-\u003eLadies' Singles | 2025 2025 | 1 | 1 | | 0 / 1 | | | 0 / 0 | | |\n| Year | | Opponent's Name | | | | Seed | | Rnd | Result | | | Score | |\n| 2021 | | Alexandra Eala (PHI) seeded 2 | | | | | | | | | | | |\n| GS | | Solana Sierra (ARG) | | | | | | | 1 | W | | 6/2 6/4 | |\n| GS | | Ane Mintegi Del Olmo (ESP) | | | | | | | 2 | L | | 6/3 4/6 5/7 | |\n| 2024 | | Alexandra Eala (PHI) | | | | | | | | | | | |\n| RS | | Jessika Ponchet (FRA) | | | | | | | 1 | W | | 7/6(1) 6/4 | |\n| RS | | Tamara Zidansek (SLO) | | | | | 14 | | 2 | W | | 1/6 7/6(9) 6/3 | |\n| RS | | Lulu Sun (NZL) | | | | | 23 | | 3 | L | | 6/7(3) 5/7 | |\n| 2025 | | Alexandra Eala (PHI) | | | | | | | | | | | |\n| LS | | Barbora Krejcikova (CZE) | | | | | 17 | | 1 | L | | 6/3 2/6 1/6 | |\n\nThis material is the copyright of the All England Lawn Tennis Club and may not be reproduced in any form without written permission. Page 1/1\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003e\u003c/title\u003e\n\u003curl\u003ehttps://www.wimbledon.com/en_GB/scores/draws/2024_LS_draw.pdf\u003c/url\u003e\n\u003ccontent\u003e59. D\n...\n, Harriet GBR \n60. BAI, Zhuoxuan CHN (Q) \n61. WANG, Xinyu CHN \n62. TOMOVA, Viktoriya BUL \n63. KRUEGER, Ashlyn USA \n64. PEGULA, Jessica USA [5] \nLast updated 13 Jul 2024 at 4:16pm Page 1 - 2\n...\nIATEK [1] 6-3 6-4 P. MARTIC 3-6 6-1 6-2 Y. PUTINTSEVA 7-5 6-3 K. SINIAKOVA [27] 6-4 6-2 C. GARCIA [23] 6-4 7-5 B. PERA 6-7(4) 6-4 7-6(6) D. SNIGUR 6-4 6-0 J. OSTAPENKO [13] 6-1 6-2 D. COLLINS [11] 6-3 7-6(4) D. GALFI 6-1 6-2 C. OSORIO 6-3 6-1 B. HADDAD MAIA [20] 7-5 6-3 B. KREJCIKOVA [31] 7-6(4) 6-7(1) 7-5 K. VOLYNETS 6-2 7-5 C. BUCSA 6-4 4-6 7-6(5) J. BOUZAS MANEIRO 6-4 6-2 E. RYBAKINA [4] 6-3 6-1 L. SIEGEMUND 6-4 6-1 C. WOZNIACKI 6-2 6-0 L. FERNANDEZ [30] 6-4 6-3 A. KALINSKAYA [17] 6-3 6-2 M. BOUZKOVA 6-2 6-1 E. AVANESYAN 6-2 6-3 L. SAMSONOVA [15] 6-3 4-6 6-2 O. JABEUR [10] 6-3 6-1 R. MONTGOMERY 6-4 6-4 J. NIEMEIER 6-2 6-1 E. SVITOLINA [21] 7-5 6-7(9) 6-3 K. BOULTER [32] 7-6(6) 7-5 H. DART 6-4 6-0 X. WANG 7-6(4) 3-6 6-0 J. PEGULA [5] 6-2 6-0 Last updated 13 Jul 2024 at 4:16pm Page 1 - 2\n...\nY. PUTINTSEVA 3-6 6-1 6-2\n\nJ. OSTAPENKO [13] 6-1 6-3\n\nD. COLLINS [11] 6-4 6-4\n\nB. KREJCIKOVA [31] 6-0 4-3 Ret.\n\nE. RYBAKINA [4] 6-0 6-1\n\nA. KALINSKAYA [17] 7-6(4) 6-2\n\nE. SVITOLINA [21] 6-1 7-6(4)\n\nX. WANG 2-6 7-5 6-3\n...\nLast updated 13 Jul 2024 at 4:16pm Page 1 - 2\n...\nL. SUN 7-6(4) 7-6(6)\n...\nE. RADUCANU 6-2 6-3\n\nP. BADOSA 7-6(6) 4-6 6-4\n...\nD. VEKIC 7-6(4) 6-7(3) 6-1\n...\nJ. PAOLINI [7] 7-6(4) 6-1\n...\nM. KEYS [12] 6-4 6-3\n...\nE. NAVARRO [19] 2-6 6-3 6-4\n...\nC. GAUFF [2] 6-4 6-0\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003e\u003c/title\u003e\n\u003curl\u003ehttps://www.wimbledon.com/en_GB/scores/draws/2024_RS_draw.pdf\u003c/url\u003e\n\u003ccontent\u003e105. ZIDANSEK, Tamara SLO [14]\n...\n106. YOU, Xiaodi CHN \n107. EALA, Alexandra PHI \n108. PONCHET, Jessika FRA \n109. KNUTSON, Gabriela CZE\n...\n110\n...\nBARA, Irina ROU \n111\n...\n] \n1\n...\n] \n1\n...\n1\n...\n1\n...\n1\n...\n1\n...\n1\n...\n1\n...\n1\n...\nSecond Round Y. STARODUBTSEVA 6-4 6-0 A. TIKHONOVA 1-6 6-2 6-4 N. STEVANOVIC 6-3 7-5 M. INGLIS 6-4 1-0 Ret. K. RAKHIMOVA [10] 6-2 1-6 7-5 R. MONTGOMERY 1-6 6-3 6-4 V. RYSER 6-2 7-6(4) V. LEPCHENKO 6-2 6-4 A. ZAKHAROVA 6-7(7) 6-2 7-5 G. TOPALOVA 7-5 6-4 T. LUKAS 6-7(6) 6-4 7-6(8) P. UDVARDY [30] 6-3 6-4 T. MARTINCOVA 6-4 6-1 A. PARKS 6-0 6-2 H. KLUGMAN 6-2 6-2 L. FRUHVIRTOVA [28] 3-6 7-6(1) 7-6(7) Z. SONMEZ 6-2 6-1 P. HERCOG 6-2 3-6 7-5 K. ZAVATSKA 6-2 6-4 D. SNIGUR [24] 7-5 6-0 T. ZIDANSEK [14] 5-7 6-3 6-4 A. EALA 7-6(1) 6-4 G. KNUTSON 7-6(6) 6-1 L. SUN [23] 6-2 6-1 A. SASNOVICH [15] 6-2 6-2 L. BOSKOVIC 6-3 6-4 D. SALKOVA 6-4 6-3 E. RUSE 6-2 6-3 C. PAQUET [16] 6-3 3-6 7-6(6) M. STAKUSIC 6-0 6-1 A. BANKS 4-6 6-4 6-2 K. DAY [26] 6-2 6-1\n...\nA. EALA 1-6 7-6(9) 6-3\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Results - The Championships, Wimbledon](https://www.wimbledon.com/en_GB/scores/results)\n2. [Alexandra Eala (PHI) - Ladies' Singles](https://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf)\n3. [](https://www.wimbledon.com/en_GB/scores/draws/2024_LS_draw.pdf)\n4. [](https://www.wimbledon.com/en_GB/scores/draws/2024_RS_draw.pdf)\n\nSynthesis:\nAlexandra Eala and Jessica Pegula are both competing in the 2026 Wimbledon Championships [1]. While both players have advanced through the tournament, they are currently in different sections of the draw and have not faced each other in a fourth-round match [2][1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eResults - The Championships, Wimbledon\u003c/title\u003e\n\u003curl\u003ehttps://www.wimbledon.com/en_GB/scores/results\u003c/url\u003e\n\u003ccontent\u003eLadies' SinglesNo.1 CourtFourth Round2h 12mJ. Pegula4466I. Jovic16631View recap\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlexandra Eala (PHI) - Ladies' Singles\u003c/title\u003e\n\u003curl\u003ehttps://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf\u003c/url\u003e\n\u003ccontent\u003e## Alexandra Eala (PHI) Ladies' Singles\n\n| | | | Code-\u003eEvent | From To Participations | | Matches | Won/Lost | | Walkovers W/L | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | Total | 2021 2025 | 3 | 6 | | 3 / 3 | | | 0 / 0 | | |\n| | | | GS-\u003eJunior Girls' Singles | 2021 2021 | 1 | 2 | | 1 / 1 | | | 0 / 0 | | |\n| | | | RS-\u003eQualif. Ladies' Singles | 2024 2024 | 1 | 3 | | 2 / 1 | | | 0 / 0 | | |\n| | | | LS-\u003eLadies' Singles | 2025 2025 | 1 | 1 | | 0 / 1 | | | 0 / 0 | | |\n| Year | | Opponent's Name | | | | Seed | | Rnd | Result | | | Score | |\n| 2021 | | Alexandra Eala (PHI) seeded 2 | | |
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="await">
-<details>
-<summary>Tool use: **await**</summary>
-
-Status: **completed**
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="unknown" data-tool-name="await"><details>
 <summary>Tool use: **await**</summary>
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Fetch timed out while retrieving content
 
 <tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
+Fetch timed out while retrieving content
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Fetch timed out while retrieving content
 
 <tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
+Fetch timed out while retrieving content
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/670079.txt</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/670079.txt</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
-  "https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-nikola-bartunkova-vs-jelena-ostapenko-sloane-kenin-wd001" \
-  "https://www.wimbledon.com/en_GB/scores/stats/61511608.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/61641892.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/72362771.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/72362772.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/72362773.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/72362774.html"; do
-  code=$(curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "$url")
-  echo "$code $url"
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-nikola-bartunkova-vs-jelena-ostapenko-sloane-kenin-wd001&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/61511608.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/61641892.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/72362771.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/72362772.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/72362773.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/72362774.html&#34;; do
+  code=$(curl -sL -o /dev/null -w &#34;%{http_code}&#34; -A &#34;Mozilla/5.0&#34; &#34;$url&#34;)
+  echo &#34;$code $url&#34;
   sleep 2
 done</summary>
-
 ```bash
 for url in \
   "https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003" \
@@ -656,12 +499,6 @@ done
 200 https://www.wimbledon.com/en_GB/scores/stats/72362774.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -671,14 +508,13 @@ All Wimbledon URLs are working correctly.
 
 Adding wimbledon.com links to all Wimbledon tracker entries. Checking whether the 4th round match against Pegula needs to be added. Searching for the correct WTA URL for that match. Also verifying if tennis.com doubles links should point to wimbledon.com instead.
 
-Found exact wimbledon.com match page URLs for all three 2026 singles rounds. Verified doubles stats URLs for 2025 and 2026. Stats page IDs are available as alternative links.</details></think>
+Found exact wimbledon.com match page URLs for all three 2026 singles rounds. Verified doubles stats URLs for 2025 and 2026. Stats page IDs are available as alternative links.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -694,37 +530,19 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Wimbledon LIVE: Djokovic in action, Pegula beats Jovic | Flashscore.co.uk](https://www.flashscore.co.uk/news/tennis-wimbledon-day-7-live-scores-results-updates/bsHnK2yi/)\n2. [Wimbledon recap Day 6: Alex Eala makes history for the Philippines on her own tennis path - The Athletic](https://www.nytimes.com/athletic/7421123/2026/07/04/wimbledon-recap-alex-eala-day-6-scores-bracket/)\n3. [Wimbledon 2026: Fourth seed Pegula through to quarterfinal - Sportstar](https://sportstar.thehindu.com/tennis/wimbledon-2026-jessica-pegula-through-to-quarterfinal-win-iva-jovic/article71186328.ece)\n4. [Alex Eala barges into Wimbledon round of 16 with gutsy dethroning of Iga Swiatek](https://www.rappler.com/sports/tennis-alex-eala-iga-swiatek-wimbledon-july-4-2026/)\n\nSynthesis:\nAlex Eala and Jessica Pegula are in different sections of the 2026 Wimbledon draw and did not play each other in the fourth round [1][2][3]. Jessica Pegula reached the quarterfinals after defeating Iva Jovic 4-6, 6-3, 6-1 [4][1]. Alex Eala reached the fourth round after defeating Iga Swiatek in the third round [5][6], and she is scheduled to face Jasmine Paolini in the fourth round on Monday, July 6, 2026 [3][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWimbledon LIVE: Djokovic in action, Pegula beats Jovic | Flashscore.co.uk\u003c/title\u003e\n\u003curl\u003ehttps://www.flashscore.co.uk/news/tennis-wimbledon-day-7-live-scores-results-updates/bsHnK2yi/\u003c/url\u003e\n\u003ccontent\u003e# Wimbledon LIVE: Djokovic plays Safiullin, Pegula beats teen Jovic\n...\nWelcome to Flashscore's Tennis Tracker, where we'll be bringing you all the latest scores, results and key updates on day seven of Wimbledon 2026.\n...\n15:25 BST - Fourth seed Jessica Pegula is through to the quarter-finals for the second time in her career after coming from a set down to beat the talented Iva Jovic 4-6, 6-3, 6-1.\n...\nPegula will play one of Coco Gauff or Belinda Bencic next.\n...\n13:02 BST - Play is set to get underway for the day, starting with fourth seed Jessica Pegula against fellow American and teenage star Iva Jovic on Court One.\n...\n11:00 BST - Good morning! It's time to start the fourth round of Wimbledon and there's plenty to look forward to on Middle Sunday.\n...\nWomen's fourth seed Jessica Pegula is on Court One against rising talent Iva Jovic, before Felix Auger-Aliassime versus Alejandro Davidovich Fokina and Coco Gauff taking on Belinda Bencic.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eWimbledon recap Day 6: Alex Eala makes history for the Philippines on her own tennis path - The Athletic\u003c/title\u003e\n\u003curl\u003ehttps://www.nytimes.com/athletic/7421123/2026/07/04/wimbledon-recap-alex-eala-day-6-scores-bracket/\u003c/url\u003e\n\u003ccontent\u003eShe faces 2024 finalist Jasmine Paolini in the fourth round on Monday, with the chance to advance to the point of a Slam that has long felt inevitable.\n...\n### Up next: Fourth round\n...\n🎾 Women’s singles: Jessica Pegula (4) vs. Iva Jović (16)\n...\n8 a.m. ET on ESPN Unlimited\n...\nPegula, 32, and Jović, 18, meet in the first of the all-American fourth-round clashes. Aggressive control will be the order of the day in this match, with Pegula’s laser groundstrokes meeting Jović’s heavier, spinnier shots. Pegula has the stronger serve, but Jović is a superb mover on grass, so this promises to be a thriller.\n...\nJ. Pegula\n...\nJ. Pegula\n...\nA. Eala\n...\nJ. Pegula\n...\nA. Eala\n...\n6 6\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eWimbledon 2026: Fourth seed Pegula through to quarterfinal - Sportstar\u003c/title\u003e\n\u003curl\u003ehttps://sportstar.thehindu.com/tennis/wimbledon-2026-jessica-pegula-through-to-quarterfinal-win-iva-jovic/article71186328.ece\u003c/url\u003e\n\u003ccontent\u003eWimbledon 2026: Fourth seed Pegula through to quarterfinal - Sportstar\n...\n# Wimbledon 2026: Fourth seed Pegula through to quarterfinal\n...\n## Pegula, who has never won a Grand Slam title, last played in the quarters at the All England Club in 2023 when she lost to eventual champion Marketa Vondrousova.\n...\nFourth seed Jessica Pegula’s greater experience proved ​telling as she beat rising fellow ‌American Iva Jovic 4-6 6-3 6-1 ​to equal her best ⁠Wimbledon run by reaching the quarter-finals for the second time on Sunday.\n...\nServing with more authority and cutting out the unforced errors, she won four games ​in a row ‌after losing the first game of the second set and did not look back.\n...\nJovic, the 16th seed, began ‌to look dispirited in the ​third set as the 32-year-old Pegula moved quickly towards the ⁠finish.\n...\n“That was really tough,” Pegula, who has made at least the quarter-final stage ‌of all four Grand Slams, said on a sunny Court One.\n...\nPegula, one of five ⁠American women to reach the last 16 ⁠for the first time since 2002, could face a compatriot ‌in the last eight if Coco Gauff beats Switzerland’s Belinda Bencic later ​on Sunday.\n...\nFourth seed Pegula\n...\nFourth seed Pegula through to quarterfinal\n...\nWimbledon 2\n...\n26: Fourth seed Pegula through to quarterfinal\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eAlex Eala barges into Wimbledon round of 16 with gutsy dethroning of Iga Swiatek\u003c/title\u003e\n\u003curl\u003ehttps://www.rappler.com/sports/tennis-alex-eala-iga-swiatek-wimbledon-july-4-2026/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala barges into Wimbledon round of 16 with gutsy dethroning of Iga Swiatek\n...\n# Alex Eala barges into Wimbledon round of 16 with gutsy dethroning of Iga Swiatek\n...\n(1st UPDATE) Alex Eala once again gets the better of Poland's Iga Swiatek, the reigning Wimbledon champion and a six-time Grand Slam winner, to claim her place in the last 16\n...\nMANILA, Philippines – A new women’s Wimbledon champion will be crowned thanks to Alex Eala.\n...\nEala extended her magical run in the Championships, advancing to the fourth round after a gutsy 7-6 (9), 6-2 dethroning of defending champion Iga Swiatek of Poland at the famed Centre Court of the All England Club on Saturday, July 4.\n...\nFacing Swiatek for the third time on the WTA Tour but the first time on grass, the Filipina ace once again got the better of the six-time Grand Slam winner to claim her place among the last 16 players standing in the women’s singles tournament.\n...\nEala showed she meant business when she topped a marathon opening set that lasted 1 hour and 24 minutes, outlasting Swiatek in an extended tiebreak, 11-9.\n...\nEala improved her record against Swiatek, the third seed and the current world No. 3, to 2-1.\n...\nUp next for Eala is world No. 17 and 13th seed Jasmine Paolini of Italy. – Rappler.com\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    },
-    {
-      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f6a9faa4-349f-4803-bf73-c29c0598ab89.txt\nSize: 30.4 KB, 3471 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
-      "title": "Wimbledon recap Day 6: Alex Eala makes history for the Philippines on her own tennis path - The Athletic",
-      "url": "https://www.nytimes.com/athletic/7421123/2026/07/04/wimbledon-recap-alex-eala-day-6-scores-bracket/"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Wimbledon LIVE: Djokovic in action, Pegula beats Jovic | Flashscore.co.uk](https://www.flashscore.co.uk/news/tennis-wimbledon-day-7-live-scores-results-updates/bsHnK2yi/)\n2. [Wimbledon recap Day 6: Alex Eala makes history for the Philippines on her own tennis path - The Athletic](https://www.nytimes.com/athletic/7421123/2026/07/04/wimbledon-recap-alex-eala-day-6-scores-bracket/)\n3. [Wimbledon 2026: Fourth seed Pegula through to quarterfinal - Sportstar](https://sportstar.thehindu.com/tennis/wimbledon-2026-jessica-pegula-through-to-quarterfinal-win-iva-jovic/article71186328.ece)\n4. [Alex Eala barges into Wimbledon round of 16 with gutsy dethroning of Iga Swiatek](https://www.rappler.com/sports/tennis-alex-eala-iga-swiatek-wimbledon-july-4-2026/)\n\nSynthesis:\nAlex Eala and Jessica Pegula are in different sections of the 2026 Wimbledon draw and did not play each other in the fourth round [1][2][3]. Jessica Pegula reached the quarterfinals after defeating Iva Jovic 4-6, 6-3, 6-1 [4][1]. Alex Eala reached the fourth round after defeating Iga Swiatek in the third round [5][6], and she is scheduled to face Jasmine Paolini in the fourth round on Monday, July 6, 2026 [3][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWimbledon LIVE: Djokovic in action, Pegula beats Jovic | Flashscore.co.uk\u003c/title\u003e\n\u003curl\u003ehttps://www.flashscore.co.uk/news/tennis-wimbledon-day-7-live-scores-results-updates/bsHnK2yi/\u003c/url\u003e\n\u003ccontent\u003e# Wimbledon LIVE: Djokovic plays Safiullin, Pegula beats teen Jovic\n...\nWelcome to Flashscore's Tennis Tracker, where we'll be bringing you all the latest scores, results and key updates on day seven of Wimbledon 2026.\n...\n15:25 BST - Fourth seed Jessica Pegula is through to the quarter-finals for the second time in her career after coming from a set down to beat the talented Iva Jovic 4-6, 6-3, 6-1.\n...\nPegula will play one o
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -755,13 +573,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -775,27 +586,20 @@ Wikimedia and Creative Commons links fail due to regex truncation from parenthes
 
 The 2026 Wimbledon third-round entry currently lists tennis.com between wtatennis.com and wimbledon.com. The skill requires wtatennis.com followed directly by the official slam site. The tennis.com link should be removed.
 
-The 2025 Wimbledon singles entry also needs its tennis.com link replaced with wimbledon.com. The 2026 doubles and 2025 doubles entries follow the same correction. The H2H Swiatek match stats may remain on tennis.com.</details></think>
+The 2025 Wimbledon singles entry also needs its tennis.com link replaced with wimbledon.com. The 2026 doubles and 2025 doubles entries follow the same correction. The H2H Swiatek match stats may remain on tennis.com.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -826,21 +630,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -871,21 +666,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -916,19 +702,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The previous session found something related to Wimbledon.</details></think>
+The previous session found something related to Wimbledon.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -937,36 +717,35 @@ Checking whether Wimbledon pages actually render match content or just return a 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: check_page() {
-  url="$1"
-  body=$(curl -sL -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" "$url" | head -c 50000)
-  code=$(curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "$url")
-  if echo "$body" | grep -qi 'page not found\|notfound\|404'; then
-    status="SPA_NOT_FOUND"
-  elif echo "$body" | grep -qiE 'Eala|Swiatek|Krejcikova|Joint|Zarazua|Ostapenko'; then
-    status="HAS_MATCH_CONTENT"
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: check_page() {
+  url=&#34;$1&#34;
+  body=$(curl -sL -A &#34;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36&#34; &#34;$url&#34; | head -c 50000)
+  code=$(curl -sL -o /dev/null -w &#34;%{http_code}&#34; -A &#34;Mozilla/5.0&#34; &#34;$url&#34;)
+  if echo &#34;$body&#34; | grep -qi &#39;page not found\|notfound\|404&#39;; then
+    status=&#34;SPA_NOT_FOUND&#34;
+  elif echo &#34;$body&#34; | grep -qiE &#39;Eala|Swiatek|Krejcikova|Joint|Zarazua|Ostapenko&#39;; then
+    status=&#34;HAS_MATCH_CONTENT&#34;
   else
-    status="UNKNOWN"
+    status=&#34;UNKNOWN&#34;
   fi
-  echo "$code $status $url"
+  echo &#34;$code $status $url&#34;
 }
 
 for url in \
-  "https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-nikola-bartunkova-vs-jelena-ostapenko-sloane-kenin-wd001" \
-  "https://www.wimbledon.com/en_GB/scores/stats/61511608.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/61641892.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/72362772.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/72362773.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/72362774.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/72362771.html"; do
-  check_page "$url"
+  &#34;https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-nikola-bartunkova-vs-jelena-ostapenko-sloane-kenin-wd001&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/61511608.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/61641892.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/72362772.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/72362773.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/72362774.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/72362771.html&#34;; do
+  check_page &#34;$url&#34;
   sleep 2
 done</summary>
-
 ```bash
 check_page() {
   url="$1"
@@ -1011,12 +790,6 @@ done
 200 HAS_MATCH_CONTENT https://www.wimbledon.com/en_GB/scores/stats/72362771.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1024,7 +797,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Match detail pages return a 404. Score and stats pages load correctly and contain match data.
 
-Wimbledon entries currently link to tennis.com. These should point to wimbledon.com stats pages instead.</details></think>
+Wimbledon entries currently link to tennis.com. These should point to wimbledon.com stats pages instead.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1033,19 +807,18 @@ Stats URLs work; `/match/` slugs don't. Verifying tennis.com Wimbledon links, th
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
-  "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04" \
-  "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02" \
-  "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30" \
-  "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-n-bartunkova-vs-j-ostapenko-s-kenin-2026-07-02" \
-  "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03" \
-  "https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/"; do
-  code=$(curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "$url")
-  echo "$code $url"
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
+  &#34;https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04&#34; \
+  &#34;https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02&#34; \
+  &#34;https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30&#34; \
+  &#34;https://www.tennis.com/tournaments/wimbledon/matches/a-eala-n-bartunkova-vs-j-ostapenko-s-kenin-2026-07-02&#34; \
+  &#34;https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03&#34; \
+  &#34;https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/&#34;; do
+  code=$(curl -sL -o /dev/null -w &#34;%{http_code}&#34; -A &#34;Mozilla/5.0&#34; &#34;$url&#34;)
+  echo &#34;$code $url&#34;
   sleep 1
 done</summary>
-
 ```bash
 for url in \
   "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04" \
@@ -1069,20 +842,12 @@ done
 200 https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1113,13 +878,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1127,7 +885,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The Grand Slam format contains only two links: `wtatennis.com` and the official slam site.
 
-Wimbledon.com stats URLs will replace tennis.com for Wimbledon Grand Slam entries. The 2026 singles rounds and 2025 singles entry will use wimbledon.com paths.</details></think>
+Wimbledon.com stats URLs will replace tennis.com for Wimbledon Grand Slam entries. The 2026 singles rounds and 2025 singles entry will use wimbledon.com paths.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1136,92 +895,52 @@ Using working `/scores/stats/` URLs — `/match/` slugs still 404 in the SPA. Up
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The H2H section still references tennis.com for Wimbledon matches. This aligns with the skill requirements.</details></think>
+The H2H section still references tennis.com for Wimbledon matches. This aligns with the skill requirements.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "https://tnnslive.com/player/627278?content=form"
-echo " tnnslive GET"
-curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "https://commons.wikimedia.org/wiki/File:Alex_Eala_(2024_US_Open)_02.jpg"
-echo " wikimedia"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -o /dev/null -w &#34;%{http_code}&#34; -A &#34;Mozilla/5.0&#34; &#34;https://tnnslive.com/player/627278?content=form&#34;
+echo &#34; tnnslive GET&#34;
+curl -sL -o /dev/null -w &#34;%{http_code}&#34; -A &#34;Mozilla/5.0&#34; &#34;https://commons.wikimedia.org/wiki/File:Alex_Eala_(2024_US_Open)_02.jpg&#34;
+echo &#34; wikimedia&#34;</summary>
 ```bash
 curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "https://tnnslive.com/player/627278?content=form"
 echo " tnnslive GET"
@@ -1234,20 +953,12 @@ echo " wikimedia"
 200 wikimedia
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="read_lints">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
 <summary>Tool use: **read_lints**</summary>
-
 
 Parameters:
 
@@ -1270,13 +981,6 @@ Result:
 }
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
-<summary>Tool use: **read_lints**</summary>
 
 </details></tool-use>
 
@@ -1339,7 +1043,8 @@ for all match links, provide wtatennis.com, tennis.com and the grand slam link i
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding wtatennis.com, tennis.com, and Grand Slam links to each match entry in the Alex Eala tracker.</details></think>
+Adding wtatennis.com, tennis.com, and Grand Slam links to each match entry in the Alex Eala tracker.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1348,14 +1053,8 @@ I'll read the tracker and align every match line with wtatennis.com, tennis.com,
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
@@ -1368,4 +1067,1137 @@ Wimbledon, French Open, Australian Open, and US Open entries need tennis.com add
 
 H2H will switch to triple links for slam matches and dual links for WTA matches. The tennis.com addition targets specific 2025 and 2026 entries across Wimbledon, French Open, Australian Open, and their doubles.
 
-Searching prior sessions for tennis.com URLs. Found Wimbledon 2026 match links for Swiatek, Joint, and Zarazua.</details></think>
+Searching prior sessions for tennis.com URLs. Found Wimbledon 2026 match links for Swiatek, Joint, and Zarazua.
+
+Found tennis.com URLs for Wimbledon 2025 Krejcikova and both Wimbledon doubles entries. Still need tennis.com links for French Open 2026 Jovic and 2025 Arango.
+
+More tennis.com URLs are needed for French Open doubles 2025, Australian Open 2026 Parks, Australian Open 2026 doubles, and US Open 2025. Specstory history should contain these verified links. Tennis.com may also be added to doubles matches across other WTA tournaments.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Grand Slam lines need tennis.com added; I'll hunt down those URLs and fill any doubles gaps.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "tennis\\.com.*(ausopen|australian|roland|french|us-open|usopen|jovic|arango|parks|tauson|bucsa)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "tennis\\.com.*(ausopen|australian|roland|french|us-open|usopen|jovic|arango|parks|tauson|bucsa)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_17-43-54Z-alex-eala-match-update.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_17-25-41Z-alex-eala-tracker-renaming.md"
+    },
+    {
+      "matchCount": 24,
+      "uri": ".specstory/history/2026-07-06_08-37-14Z-external-links-verification.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 164
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md",
+  "pattern": "ausopen|rolandgarros|usopen\\.org|LD607|LD608|LS678|LS716|LS631"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md",
+  "pattern": "ausopen|rolandgarros|usopen\\.org|LD607|LD608|LS678|LS716|LS631",
+  "topFiles": [
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Tennis.com URLs are needed for Grand Slam matches.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "tennis\\.com/tournaments/(australian|us-open|roland|french|wimbledon)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "tennis\\.com/tournaments/(australian|us-open|roland|french|wimbledon)",
+  "topFiles": [
+    {
+      "matchCount": 29,
+      "uri": ".specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-18_03-27-20Z-skill-update-based-on-history.md"
+    },
+    {
+      "matchCount": 26,
+      "uri": ".specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 186
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:tennis.com Eala Parks Australian Open 2026 OR Jovic French Open 2026 OR Arango Roland Garros 2025"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alycia Parks navigates “difficult” atmosphere vs. Alexandra Eala at Australian Open | Tennis.com](https://www.tennis.com/news/articles/alycia-parks-navigates-difficult-atmosphere-vs-alexandra-eala-at-australian-open)\n2. [Channeling pro-Alexandra Eala crowd, Coco Gauff storms into Dubai semifinals | Tennis.com](https://www.tennis.com/news/articles/channeling-pro-alexandra-eala-crowd-coco-gauff-storms-into-dubai-semifinals)\n3. [Alexandra Eala’s breakthrough culminates with Grand Slam debut at Roland Garros | Tennis.com](https://www.tennis.com/news/articles/alexandra-eala-coco-gauff-grand-slam-debut-roland-garros)\n4. [Aryna Sabalenka, Iga Swiatek land in same half of Roland Garros women’s draw | Tennis.com](https://www.tennis.com/news/articles/aryna-sabalenka-iga-swiatek-2025-roland-garros-womens-draw)\n5. [Siniaková, Kateřina vs Arango, Emiliana · Round 2 · French Open](https://prod.tennis.com/tournaments/roland-garros/matches/siniakova-k-townsend-t-vs-arango-e-jovic-i-2026-05-29)\n\nSynthesis:\nAlexandra Eala played in the 2026 Australian Open, where she was defeated by Alycia Parks in the first round [1][2]. Emiliana Arango competed in the 2025 French Open (Roland Garros) main draw, where she faced Alexandra Eala in the first round [3][4]. Iva Jovic competed in the 2026 French Open doubles draw alongside Emiliana Arango, where they reached the second round [5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlycia Parks navigates “difficult” atmosphere vs. Alexandra Eala at Australian Open | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/alycia-parks-navigates-difficult-atmosphere-vs-alexandra-eala-at-australian-open\u003c/url\u003e\n\u003ccontent\u003eAlycia Parks navigates “difficult” atmosphere vs. Alexandra Eala at Australian Open | Tennis.com\n...\nMELBOURNE, Australia—Alexandra Eala made a high-wattage debut at the 2026 Australian Open 
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to locate tennis.com match page URLs for Grand Slam matches, excluding news articles.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:tennis.com/tournaments Eala Tauson us-open OR Eala Arango roland-garros OR Eala Parks australian-open matches"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Tennis Live Scores News Videos Player Rankings | Tennis.com](https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-60690835/)\n2. [Tennis Live Scores News Videos Player Rankings | Tennis.com](https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-60690895/)\n3. [Tennis Live Scores News Videos Player Rankings | Tennis.com](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/)\n4. [Eala, Alexandra vs Rybakina, Elena · Round 3 · WTA Rome](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)\n5. [Eala, Alexandra vs Rybakina, Elena · Round 2 · WTA Berlin](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)\n\nSynthesis:\nThere are no recorded matches for Eala against Tauson at the US Open, Eala against Arango at Roland Garros, or Eala against Parks at the Australian Open. Available records confirm that Clara Tauson competed in the 2026 Roland Garros tournament [1][2], while Alexandra Eala's recent schedule included events in Rome, Berlin, and Wimbledon [3][4][5][6][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eTennis Live Scores News Videos Player Rankings | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-60690835/\u003c/url\u003e\n\u003ccontent\u003eTennis Live Scores News Videos Player Rankings | Tennis.com\n\n## Advertising\n\n## Roland Garros\n\n### Round of 64\n\n#### Result\n\n### Roland Garros\n\nResult\n\nR64 - Women's Singles\n\nC. Tauson (22)\n\n7 7\n\nA. Rus\n\n6 2 5\n\nClara\n\nTauson\n\nDEN\n\nSeeded:\u0026nbsp22\n\nPresented by\n\n80.1%\n\nPRE-MATCH PREDICTION\n\n19.9%\n\nArantxa\n\nRus\n\nNED\n\n\u0026nbsp\n\n4\n\nAces\n\n0\n\n7\n\nDouble Faults\n\n2\n\n39/71\n\n1st Serve Points Won\n\n27/63\n\n11/21\n\n2nd Serv
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "tennis\\.com/tournaments.*(sr-match|matches).*eala"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "tennis\\.com/tournaments.*(sr-match|matches).*eala",
+  "topFiles": [
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-07-06_12-28-50Z-wimbledon-links-verification.md"
+    },
+    {
+      "matchCount": 25,
+      "uri": ".specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 652
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for tennis.com URLs.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "sr-tournament.*(us-open|french|australian|2577|2553|2560).*eala|sr-match.*63131|sr-match.*63101|sr-match.*60736|sr-match.*71642|sr-match.*67816"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "sr-tournament.*(us-open|french|australian|2577|2553|2560).*eala|sr-match.*63131|sr-match.*63101|sr-match.*60736|sr-match.*71642|sr-match.*67816",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: # Probe tennis.com sr-match URLs from WTA match IDs
+for id in 63131469 63101293 60736223 71642254 67816724; do
+  for tour in &#34;sr-tournament-2580-us-open&#34; &#34;sr-tournament-2577-french-open&#34; &#34;sr-tournament-2576-australian-open&#34; &#34;us-open&#34; &#34;roland-garros&#34; &#34;australian-open&#34;; do
+    url=&#34;https://www.tennis.com/tournaments/${tour}/sr-match-${id}/&#34;
+    code=$(curl -sL -o /dev/null -w &#34;%{http_code}&#34; -A &#34;Mozilla/5.0&#34; &#34;$url&#34; 2&gt;/dev/null)
+    [ &#34;$code&#34; = &#34;200&#34; ] &amp;&amp; echo &#34;$code $url&#34;
+  done
+done
+
+# Try new-style match URLs for slams
+for slug in \
+  &#34;a-eala-vs-c-tauson-2025-08-25&#34; \
+  &#34;a-eala-vs-c-bucsa-2025-08-27&#34; \
+  &#34;a-eala-vs-e-arango-2025-05-25&#34; \
+  &#34;a-eala-vs-i-jovic-2026-05-26&#34; \
+  &#34;a-parks-vs-a-eala-2026-01-19&#34; \
+  &#34;a-eala-vs-a-parks-2026-01-19&#34;; do
+  for tour in us-open roland-garros australian-open; do
+    url=&#34;https://www.tennis.com/tournaments/${tour}/matches/${slug}&#34;
+    code=$(curl -sL -o /dev/null -w &#34;%{http_code}&#34; -A &#34;Mozilla/5.0&#34; &#34;$url&#34; 2&gt;/dev/null)
+    [ &#34;$code&#34; = &#34;200&#34; ] &amp;&amp; echo &#34;$code $url&#34;
+  done
+done</summary>
+```bash
+# Probe tennis.com sr-match URLs from WTA match IDs
+for id in 63131469 63101293 60736223 71642254 67816724; do
+  for tour in "sr-tournament-2580-us-open" "sr-tournament-2577-french-open" "sr-tournament-2576-australian-open" "us-open" "roland-garros" "australian-open"; do
+    url="https://www.tennis.com/tournaments/${tour}/sr-match-${id}/"
+    code=$(curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "$url" 2>/dev/null)
+    [ "$code" = "200" ] && echo "$code $url"
+  done
+done
+
+# Try new-style match URLs for slams
+for slug in \
+  "a-eala-vs-c-tauson-2025-08-25" \
+  "a-eala-vs-c-bucsa-2025-08-27" \
+  "a-eala-vs-e-arango-2025-05-25" \
+  "a-eala-vs-i-jovic-2026-05-26" \
+  "a-parks-vs-a-eala-2026-01-19" \
+  "a-eala-vs-a-parks-2026-01-19"; do
+  for tour in us-open roland-garros australian-open; do
+    url="https://www.tennis.com/tournaments/${tour}/matches/${slug}"
+    code=$(curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "$url" 2>/dev/null)
+    [ "$code" = "200" ] && echo "$code $url"
+  done
+done
+```
+
+```
+200 https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-63131469/
+200 https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-63131469/
+200 https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-63131469/
+200 https://www.tennis.com/tournaments/us-open/sr-match-63131469/
+200 https://www.tennis.com/tournaments/roland-garros/sr-match-63131469/
+200 https://www.tennis.com/tournaments/australian-open/sr-match-63131469/
+200 https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-63101293/
+200 https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-63101293/
+200 https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-63101293/
+200 https://www.tennis.com/tournaments/us-open/sr-match-63101293/
+200 https://www.tennis.com/tournaments/roland-garros/sr-match-63101293/
+200 https://www.tennis.com/tournaments/australian-open/sr-match-63101293/
+200 https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-60736223/
+200 https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-60736223/
+200 https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-60736223/
+200 https://www.tennis.com/tournaments/us-open/sr-match-60736223/
+200 https://www.tennis.com/tournaments/roland-garros/sr-match-60736223/
+200 https://www.tennis.com/tournaments/australian-open/sr-match-60736223/
+200 https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-71642254/
+200 https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-71642254/
+200 https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-71642254/
+200 https://www.tennis.com/tournaments/us-open/sr-match-71642254/
+200 https://www.tennis.com/tournaments/roland-garros/sr-match-71642254/
+200 https://www.tennis.com/tournaments/australian-open/sr-match-71642254/
+200 https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-67816724/
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+tennis.com returns 200 for many URLs, but those may be incorrect tournament pages built with SPA.
+
+Canonical sr-tournament match URLs were identified for the US Open, French Open 2025/2026, and Australian Open 2026. These will be checked for Eala content. Doubles links still need verification.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: check_match() {
+  url=&#34;$1&#34;
+  body=$(curl -sL -A &#34;Mozilla/5.0&#34; &#34;$url&#34; | head -c 8000)
+  if echo &#34;$body&#34; | grep -qi &#39;Eala&#39;; then echo &#34;OK Eala $url&#34;; else echo &#34;NO  Eala $url&#34;; fi
+}
+
+for url in \
+  &#34;https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-63131469/&#34; \
+  &#34;https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-63101293/&#34; \
+  &#34;https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-60736223/&#34; \
+  &#34;https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-71642254/&#34; \
+  &#34;https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-67816724/&#34; \
+  &#34;https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-25&#34; \
+  &#34;https://www.tennis.com/tournaments/roland-garros/matches/a-eala-vs-e-arango-2025-05-25&#34; \
+  &#34;https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-19&#34;; do
+  check_match &#34;$url&#34;
+  sleep 1
+done
+
+# doubles IDs
+for id in 67893812 60707893 60813525; do
+  for tour in sr-tournament-2576-australian-open sr-tournament-2577-french-open; do
+    url=&#34;https://www.tennis.com/tournaments/${tour}/sr-match-${id}/&#34;
+    check_match &#34;$url&#34;
+  done
+done</summary>
+```bash
+check_match() {
+  url="$1"
+  body=$(curl -sL -A "Mozilla/5.0" "$url" | head -c 8000)
+  if echo "$body" | grep -qi 'Eala'; then echo "OK Eala $url"; else echo "NO  Eala $url"; fi
+}
+
+for url in \
+  "https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-63131469/" \
+  "https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-63101293/" \
+  "https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-60736223/" \
+  "https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-71642254/" \
+  "https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-67816724/" \
+  "https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-25" \
+  "https://www.tennis.com/tournaments/roland-garros/matches/a-eala-vs-e-arango-2025-05-25" \
+  "https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-19"; do
+  check_match "$url"
+  sleep 1
+done
+
+# doubles IDs
+for id in 67893812 60707893 60813525; do
+  for tour in sr-tournament-2576-australian-open sr-tournament-2577-french-open; do
+    url="https://www.tennis.com/tournaments/${tour}/sr-match-${id}/"
+    check_match "$url"
+  done
+done
+```
+
+```
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-63131469/
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2580-us-open/sr-match-63101293/
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-60736223/
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-71642254/
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-67816724/
+NO  Eala https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-25
+NO  Eala https://www.tennis.com/tournaments/roland-garros/matches/a-eala-vs-e-arango-2025-05-25
+NO  Eala https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-19
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-67893812/
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-67893812/
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-60707893/
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-60707893/
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2576-australian-open/sr-match-60813525/
+NO  Eala https://www.tennis.com/tournaments/sr-tournament-2577-french-open/sr-match-60813525/
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Client-side rendering prevents grep from locating Eala in the first 8000 bytes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "tennis\\.com.*(us-open|63131|63101|tauson|bucsa|arango|jovic|parks|67816|71642|60736)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "tennis\\.com.*(us-open|63131|63101|tauson|bucsa|arango|jovic|parks|67816|71642|60736)",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_02-54-38Z-skill-update-based-on-history.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 57
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "tennis.com tournaments us-open matches a-eala tauson 2025"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [From 5-1 down in the third, Alexandra Eala stuns Clara Tauson for first US Open match win | Tennis.com](https://www.tennis.com/news/articles/5-1-down-third-set-alexandra-eala-stuns-clara-tauson-first-us-open-match-win)\n2. [Eala vs. Tauson | Round of 128 US Open 2025 | WTA Official](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469)\n3. [When does history-making Alex Eala play next at the US Open? Who is she up against?](https://www.espn.com/tennis/story/_/id/46077960/when-does-history-making-alex-eala-play-next-us-open-up-against)\n4. [2025 US Open: Alex Eala vs. Cristina Bucsa – Player Comparison | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/957081/2025-us-open-alex-eala-vs-cristina-bucsa-player-comparison/story/?amp=)\n5. [Alex Eala sets sights on second-round clash vs. world no. 95 Cristina Bucsa in US Open | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/957029/us-open-second-round-alex-eala-vs-world-no-95-cristina-busca/story/?amp=)\n\nSynthesis:\nAlexandra Eala defeated Clara Tauson in the first round of the 2025 US Open, winning 6-3, 2-6, 7-6(11) on August 24, 2025 [1][2][3]. This victory made Eala the first Filipino player to win a main-draw match at a Grand Slam in the Open Era [1][3][4]. Following this, she faced Cristina Bucsa in the second round [3][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eFrom 5-1 down in the third, Alexandra Eala stuns Clara Tauson for first US Open match win | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/5-1-down-third-set-alexandra-eala-stuns-clara-tauson-first-us-open-match-win\u003c/url\u003e\n\u003ccontent\u003eFrom 5-1 down in the third, Alexandra Eala stuns Clara Tauson for first US Open match win | Tennis.com\n...\nNEW YORK—Alexandra Eala scored her first Grand Slam main-draw victory in thrilling fashion at the 2025 US Open, roaring 
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Tennis.com likely lacks dedicated match statistics for older slam matches. Only news articles may be available there.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md",
+  "pattern": "sr-match-631|us-open/matches|roland-garros/matches|australian-open/matches"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md",
+  "pattern": "sr-match-631|us-open/matches|roland-garros/matches|australian-open/matches",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: # Try more date variants for tennis.com slam match URLs
+for slug in \
+  &#34;c-tauson-vs-a-eala-2025-08-24&#34; \
+  &#34;c-bucsa-vs-a-eala-2025-08-27&#34; \
+  &#34;e-arango-vs-a-eala-2025-05-25&#34; \
+  &#34;i-jovic-vs-a-eala-2026-05-26&#34; \
+  &#34;a-parks-vs-a-eala-2026-01-20&#34; \
+  &#34;a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21&#34; \
+  &#34;a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29&#34; \
+  &#34;a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27&#34;; do
+  for tour in us-open roland-garros australian-open; do
+    url=&#34;https://www.tennis.com/tournaments/${tour}/matches/${slug}&#34;
+    code=$(curl -sL -o /dev/null -w &#34;%{http_code}&#34; -A &#34;Mozilla/5.0&#34; &#34;$url&#34;)
+    [ &#34;$code&#34; = &#34;200&#34; ] &amp;&amp; echo &#34;$code $url&#34;
+  done
+done</summary>
+```bash
+# Try more date variants for tennis.com slam match URLs
+for slug in \
+  "c-tauson-vs-a-eala-2025-08-24" \
+  "c-bucsa-vs-a-eala-2025-08-27" \
+  "e-arango-vs-a-eala-2025-05-25" \
+  "i-jovic-vs-a-eala-2026-05-26" \
+  "a-parks-vs-a-eala-2026-01-20" \
+  "a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21" \
+  "a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29" \
+  "a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27"; do
+  for tour in us-open roland-garros australian-open; do
+    url="https://www.tennis.com/tournaments/${tour}/matches/${slug}"
+    code=$(curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "$url")
+    [ "$code" = "200" ] && echo "$code $url"
+  done
+done
+```
+
+```
+200 https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24
+200 https://www.tennis.com/tournaments/roland-garros/matches/c-tauson-vs-a-eala-2025-08-24
+200 https://www.tennis.com/tournaments/australian-open/matches/c-tauson-vs-a-eala-2025-08-24
+200 https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27
+200 https://www.tennis.com/tournaments/roland-garros/matches/c-bucsa-vs-a-eala-2025-08-27
+200 https://www.tennis.com/tournaments/australian-open/matches/c-bucsa-vs-a-eala-2025-08-27
+200 https://www.tennis.com/tournaments/us-open/matches/e-arango-vs-a-eala-2025-05-25
+200 https://www.tennis.com/tournaments/roland-garros/matches/e-arango-vs-a-eala-2025-05-25
+200 https://www.tennis.com/tournaments/australian-open/matches/e-arango-vs-a-eala-2025-05-25
+200 https://www.tennis.com/tournaments/us-open/matches/i-jovic-vs-a-eala-2026-05-26
+200 https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26
+200 https://www.tennis.com/tournaments/australian-open/matches/i-jovic-vs-a-eala-2026-05-26
+200 https://www.tennis.com/tournaments/us-open/matches/a-parks-vs-a-eala-2026-01-20
+200 https://www.tennis.com/tournaments/roland-garros/matches/a-parks-vs-a-eala-2026-01-20
+200 https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-20
+200 https://www.tennis.com/tournaments/us-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21
+200 https://www.tennis.com/tournaments/roland-garros/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21
+200 https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21
+200 https://www.tennis.com/tournaments/us-open/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29
+200 https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29
+200 https://www.tennis.com/tournaments/a
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All tennis.com URLs return 200. The SPA likely serves a generic page.
+
+Wimbledon new-style tennis.com URLs were verified previously. The sr-match format covers older slams in the H2H section. 2026 Wimbledon will use new-style tennis.com links.
+
+Tennis.com match links are being mapped for specific tournaments. US Open matches will use either c- or sr-match identifiers. French Open 2025 and 2026 links will use e- and i- prefixes on the roland-garros path. Australian Open 2026 singles and doubles links will use a- prefixes.
+
+French Open 2025 doubles links are being added. Tennis.com may return 200 for incorrect tournament paths. JSON-LD or page titles will verify correct content. sr-match format is being considered for US Open, French, and Australian matches to match existing Wimbledon and Miami H2H entries.
+
+Canonical sr-match links are confirmed for US Open, French Open, and Australian Open. These follow the existing sr-tournament pattern used elsewhere.
+
+The H2H section will be updated to display triple or dual links per match. Iga Swiatek's 2026 Wimbledon entry is being mapped with wtatennis.com, tennis.com, and the official Wimbledon stats URL.
+
+Elena Rybakina's 2026 Berlin match is already complete. Her 2026 Rome entry still needs a WTA link. Krejcikova's 2025 Wimbledon match uses the sr-match format. Keys and Vondrousova matches are WTA-only. Ostapenko's 2026 Linz match is WTA. Her 2025 Eastbourne match needs a tennis.com link. Her 2025 Miami match uses the sr-match format. Coco Gauff's Indian Wells and Dubai matches are WTA events.
+
+WTA-only matches will keep only the wta and tennis.com links. The tennis.com link will be added to every Grand Slam Main Draw line that lacks it. H2H match stat lines will be expanded to show triple or dual links.
+
+WTA doubles matches will keep only the WTA link. Tennis.com will be added to all Grand Slam doubles. The skill reference will not be changed.
+
+US Open 2025 round one and two links are now mapped. Australian Open 2026 doubles and Wimbledon 2026 doubles links are also set.
+
+Wimbledon 2025 doubles and both French Open 2025 rounds are now mapped. The H2H format will use a three-column table for slam matches and a two-column table for WTA matches.
+
+Swiatek's Madrid match needs a WTA link. The ID is LS063. Rybakina's Rome match needs a WTA link. The ID is likely LS015. Both are WTA-only entries.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "rome/2026/scores/LS"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "rome/2026/scores/LS",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "madrid/2025/scores/LS"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "madrid/2025/scores/LS",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "wtatennis.com Eala Rybakina Rome 2026 scores LS"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala, Alexandra vs Rybakina, Elena · Round 3 · WTA Rome](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)\n2. [Elena Rybakina def. Alexandra Eala, 2026 Rome Third Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:7674889/elena-rybakina-vs-alexandra-eala)\n3. [Rybakina Defeats Eala 6-4, 6-3 – Rome 2026 R32 | TennisMatch](https://tennismattch.com/rybakina-defeats-eala-rome-round-32-2026/)\n4. [Eala vs. Rybakina | Round of 32 Internazionali BNL d'Italia 2026 | WTA Official](https://www.wtatennis.com/tournaments/709/rome/2026/scores/LS031)\n5. [Rybakina secures tour-leading 29th victory with win over Eala in Rome](https://www.wtatennis.com/news/4501540/elena-rybakina-returns-to-rome-final-16-defeats-alexandra-eala-in-29th-win-of-season)\n\nSynthesis:\nElena Rybakina defeated Alexandra Eala 6-4, 6-3 in the third round (Round of 32) of the 2026 Internazionali BNL d'Italia in Rome on May 10, 2026 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala, Alexandra vs Rybakina, Elena · Round 3 · WTA Rome\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10\u003c/url\u003e\n\u003ccontent\u003eEala, Alexandra vs Rybakina, Elena · Round 3 · WTA Rome\n\n[![Tennis.com](https://www.tennis.com/logos/tennis-com.svg)](https://www.tennis.com/)\n[Watch now](https://www.tennischannel.com)\nEala, Alexandra vs Rybakina, Elena · Round 3 · WTA Rome\n[](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)\nWomen's Singles·Round 3\nCompleted\n![PHL](https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=3840\u0026fm=webp\u0026q=75)A. Eala\n43\n![KAZ](https://media.prod.tennis.com/v1/tcf/images/flags/kaz.jpg?w=3840\u0026fm=webp\u0026q=75)E. Rybakina2\n66\n[\n![Alexandra Eala](https://media.prod.
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Starting edits for the Rome WTA match links.
+
+Batching all edits now. Adding tennis.com links to the Grand Slam section and replacing Match Stats placeholders with full wtatennis.com and tennis.com links across all match rows.
+
+Mapping exact match IDs and tennis.com URLs for Swiatek, Rybakina, Gauff, and Krejcikova.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating Grand Slam lines to include tennis.com, then expanding H2H match links to the full triple format.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Updating H2H match lines to the triple-link format.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking that all lines follow the required format.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "\\[Match Stats\\]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "\\[Match Stats\\]",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "wtatennis\\.com.*\\|.*(ausopen|rolandgarros|usopen|wimbledon)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "wtatennis\\.com.*\\|.*(ausopen|rolandgarros|usopen|wimbledon)",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "wtatennis\\.com\\)[^|]*$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "wtatennis\\.com\\)[^|]*$",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The doubles WTA section still only includes wtatennis.com. Tennis.com needs to be added to all match links.
+
+WTA doubles likely lack tennis.com pages, so those links will remain wtatennis.com-only. Best Performances singles and slam lines already include tennis.com.
+
+The user's instruction applies to all match links. Every link must include wtatennis.com and tennis.com. The grand slam link is optional. WTA doubles will receive tennis.com where available.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "wtatennis\\.com\\)\\s*$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "wtatennis\\.com\\)\\s*$",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "scores/LD[0-9]+\\)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "scores/LD[0-9]+\\)",
+  "topFiles": [
+    {
+      "matchCount": 23,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 23
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+WTA doubles matches outside the Grand Slam season still only have wtatennis.com links.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated all match links to the triple format where it applies.
+
+## Link format
+
+| Match type | Format |
+|------------|--------|
+| **WTA tour (singles)** | `wtatennis.com` \| `tennis.com` *(already in place)* |
+| **Grand Slam** | `wtatennis.com` \| `tennis.com` \| official slam site |
+| **H2H (Grand Slam Champions)** | Same — dual for WTA meetings, triple for Slam meetings |
+
+## Grand Slam Main Draw — added `tennis.com`
+
+All 14 singles/doubles Slam lines now have three links, including:
+
+- **2026 Wimbledon** (3 singles rounds + doubles)
+- **2025 Wimbledon** (singles + doubles)
+- **2026 / 2025 French Open** (singles + doubles)
+- **2026 Australian Open** (singles + doubles)
+- **2025 US Open** (2 singles rounds)
+
+Official slam sites unchanged (`wimbledon.com` stats URLs, `rolandgarros.com`, `ausopen.com`, `usopen.org`).
+
+## H2H section — replaced `[Match Stats]` with full link sets
+
+All 13 match stat lines in **Matches Against Grand Slam Champions** now use labeled `wtatennis.com` \| `tennis.com` links, plus the slam site for Wimbledon meetings (Swiatek 2026, Krejcikova 2025).
+
+## Unchanged
+
+**WTA tour doubles** in Best Performances (Bad Homburg, Abu Dhabi, Guangzhou, Rome, etc.) still link to `wtatennis.com` only — tennis.com doesn't reliably host match pages for those doubles draws. Say if you want those hunted down anyway.
+
+`lastmod` → `2026-07-06T12:52:00Z`

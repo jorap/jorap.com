@@ -13,7 +13,8 @@ look at the related notes in blog. how can we improve the output in each blog?
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing related blog notes to identify ways to improve each post's output.</details></think>
+Reviewing related blog notes to identify ways to improve each post's output.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,10 +23,8 @@ I'll trace how related notes are rendered on blog posts and what data drives tha
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -132,34 +131,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -267,47 +251,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -391,65 +354,39 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I'm examining how the note-card component renders related notes to identify potential improvements.</details></think>
+I'm examining how the note-card component renders related notes to identify potential improvements.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/see-also.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/see-also.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -482,61 +419,35 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts-lookup.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts-lookup.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **49** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (49 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (49 files)
 
 | File |
 |------|
@@ -589,13 +500,6 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (49 files)
 | `content/english/blog/__hugo-go-templates.md` |
 | `content/english/blog/__how-to-create-a-good-habit.md` |
 | `content/english/blog/__blank-blog-template.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -603,40 +507,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll examine the tags and content of "how-i-built-jorap-notes.md" and "hugoplate-theme-review.md" to understand how related notes match.
 
-I'll also check whether blogs wikilink to notes and review the wire-notes script and outgoing-links logic. Several problems are already clear: tag overlap alone is too narrow; Hugo's fallback .Related returns weak matches without shared labels; linked notes aren't excluded; and blog body keywords aren't matched against note titles.</details></think>
+I'll also check whether blogs wikilink to notes and review the wire-notes script and outgoing-links logic. Several problems are already clear: tag overlap alone is too narrow; Hugo's fallback .Related returns weak matches without shared labels; linked notes aren't excluded; and blog body keywords aren't matched against note titles.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -744,34 +635,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -803,21 +679,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -925,34 +792,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/outgoing-links.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/outgoing-links.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -979,26 +831,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Blogs rarely use wikilinks.</details></think>
+Blogs rarely use wikilinks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1106,34 +950,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1242,21 +1071,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1284,34 +1104,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/1.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/1.txt</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1371,275 +1176,134 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/how-i-built-jorap-notes/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/how-i-built-jorap-notes/ | sed -n &#39;/id=&#34;related-notes&#34;/,/id=&#34;random-note&#34;/p&#39; | head -80</summary>
 ```bash
 curl -s http://localhost:1313/blog/how-i-built-jorap-notes/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -80
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/dnpap-song-resources/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/dnpap-song-resources/ | sed -n &#39;/id=&#34;related-notes&#34;/,/id=&#34;random-note&#34;/p&#39; | head -80</summary>
 ```bash
 curl -s http://localhost:1313/blog/dnpap-song-resources/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -80
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/instant-pot-chicken-adobo/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/instant-pot-chicken-adobo/ | sed -n &#39;/id=&#34;related-notes&#34;/,/id=&#34;random-note&#34;/p&#39; | head -40</summary>
 ```bash
 curl -s http://localhost:1313/blog/instant-pot-chicken-adobo/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -40
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/how-i-built-jorap-notes/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -100</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/how-i-built-jorap-notes/ | sed -n &#39;/id=&#34;related-notes&#34;/,/id=&#34;random-note&#34;/p&#39; | head -100</summary>
 ```bash
 curl -s http://localhost:1313/blog/how-i-built-jorap-notes/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -100
 ```
 
 ```
-    &lt;h2 id="related-notes" class="h3 heading-title-case mb-6"&gt;Related Notes&lt;/h2&gt;
-    &lt;div class="row"&gt;&lt;div class="md:col-6 mb-8 flex lg:col-4"&gt;
-          &lt;article
-  class="notes-card notes-card-interactive border-divider relative flex h-full w-full flex-col rounded-lg border p-5"&gt;
-  &lt;a
+    <h2 id="related-notes" class="h3 heading-title-case mb-6">Related Notes</h2>
+    <div class="row"><div class="md:col-6 mb-8 flex lg:col-4">
+          <article
+  class="notes-card notes-card-interactive border-divider relative flex h-full w-full flex-col rounded-lg border p-5">
+  <a
     class="notes-card-overlay"
     href="/notes/free-tier-hosting-stack/"
     data-wikilink-preview="/notes/free-tier-hosting-stack/"
-    aria-label="Free Tier Hosting Stack"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Free Tier Hosting Stack&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none"&gt;Hugo builds static HTML, GitHub stores the repo, Cloudflare Pages builds and serves on every push - $0 until account limits or client policy say upgrade.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Free Hosting, GitHub&lt;/p&gt;&lt;ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"&gt;&lt;li&gt;
-        &lt;a
+    aria-label="Free Tier Hosting Stack"></a>
+  <h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none">Free Tier Hosting Stack</h3><p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none">Hugo builds static HTML, GitHub stores the repo, Cloudflare Pages builds and serves on every push - $0 until account limits or client policy say upgrade.</p><p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none">Website Building, Free Hosting, GitHub</p><ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"><li>
+        <a
           class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/website-building/"&gt;
+          href="/tags/website-building/">
           Website Building
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
+        </a>
+      </li><li>
+        <a
           class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/static-site-generator/"&gt;
+          href="/tags/static-site-generator/">
           Static Site Generator
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
+        </a>
+      </li><li>
+        <a
           class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/hugo/"&gt;
+          href="/tags/hugo/">
           Hugo
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/github/"&gt;
-          GitHub
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/cloudflare-pages/"&gt;
-          Cloudflare Pages
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/free-hosting/"&gt;
-          Free Hosting
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/devops/"&gt;
-          DevOps
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;/ul&gt;&lt;/article&gt;
-
-        &lt;/div&gt;&lt;div class="md:col-6 mb-8 flex lg:col-4"&gt;
-          &lt;article
-  class="notes-card notes-card-interactive border-divider relative flex h-full w-full flex-col rounded-lg border p-5"&gt;
-  &lt;a
-    class="notes-card-overlay"
-    href="/notes/drafting-in-public/"
-    data-wikilink-preview="/notes/drafting-in-public/"
-    aria-label="Drafting in Public"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Drafting in Public&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none"&gt;I publish rough ideas before they&amp;#39;re finished. Drafting in public keeps me honest and makes the garden grow. Faith parallel: [[Let Your Light Shine]] - visible good works, same instinct of putting work in the open, but the aim is God&amp;#39;s credit not mine.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Publishing&lt;/p&gt;&lt;ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/drafting-in-public/"&gt;
-          Drafting in Public
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/digital-garden/"&gt;
-          Digital Garden
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/publishing/"&gt;
-          Publishing
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/pkm/"&gt;
-          PKM
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/writing/"&gt;
-          Writing
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-          href="/tags/blogging/"&gt;
-          Blogging
-        &lt;/a&gt;
-      &lt;/li&gt;&lt;li&gt;
-        &lt;a
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 text-xs"
-
+        </a>
+      </li><li>
+        <a
+          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-2 py-0.5 
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/dnpap-song-resources/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -60</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/dnpap-song-resources/ | sed -n &#39;/id=&#34;related-notes&#34;/,/id=&#34;random-note&#34;/p&#39; | head -60</summary>
 ```bash
 curl -s http://localhost:1313/blog/dnpap-song-resources/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -60
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/instant-pot-chicken-adobo/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/instant-pot-chicken-adobo/ | sed -n &#39;/id=&#34;related-notes&#34;/,/id=&#34;random-note&#34;/p&#39; | head -40</summary>
 ```bash
 curl -s http://localhost:1313/blog/instant-pot-chicken-adobo/ | sed -n '/id="related-notes"/,/id="random-note"/p' | head -40
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The related notes sections for dnpap and chicken adobo are completely empty.</details></think>
+The related notes sections for dnpap and chicken adobo are completely empty.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/hugoplate-theme-review/ | sed -n '/id="related-notes"/,/id="random-note"/p' | grep -E 'aria-label=|text-xs pointer-events-none' | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/hugoplate-theme-review/ | sed -n &#39;/id=&#34;related-notes&#34;/,/id=&#34;random-note&#34;/p&#39; | grep -E &#39;aria-label=|text-xs pointer-events-none&#39; | head -30</summary>
 ```bash
 curl -s http://localhost:1313/blog/hugoplate-theme-review/ | sed -n '/id="related-notes"/,/id="random-note"/p' | grep -E 'aria-label=|text-xs pointer-events-none' | head -30
 ```
 
 ```
-    aria-label="Sketchpad"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Sketchpad&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none"&gt;Private scratch space before anything goes public - drafts, diagrams, half-ideas.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Digital Garden, PKM&lt;/p&gt;&lt;ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"&gt;&lt;li&gt;
-    aria-label="The Garage Concept"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;The Garage Concept&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none"&gt;The garage holds tools, scraps, experiments. The showroom is the blog. I don&amp;#39;t confuse the two.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Static Site Generator&lt;/p&gt;&lt;ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"&gt;&lt;li&gt;
-    aria-label="Digital Garden"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Digital Garden&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none"&gt;My digital garden is where notes grow in public - linked, imperfect, alive. Same [[Free Tier Hosting Stack]] I use for [[Selling Static Sites]] - Hugo, GitHub, Cloudflare Pages - though the garden is my lab, not a client deliverable.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Static Site Generator&lt;/p&gt;&lt;ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"&gt;&lt;li&gt;
-    aria-label="Drafting in Public"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Drafting in Public&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none"&gt;I publish rough ideas before they&amp;#39;re finished. Drafting in public keeps me honest and makes the garden grow. Faith parallel: [[Let Your Light Shine]] - visible good works, same instinct of putting work in the open, but the aim is God&amp;#39;s credit not mine.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Publishing&lt;/p&gt;&lt;ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"&gt;&lt;li&gt;
-    aria-label="Getting Started"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Getting Started&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none"&gt;One claim per page, linked with &#96;[[wikilinks]]&#96;, browsable at [/notes/](/notes/).&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Digital Garden&lt;/p&gt;&lt;ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"&gt;&lt;li&gt;
-    aria-label="Git-Based CMS"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Git-Based CMS&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none"&gt;A web editor (I use Sveltia or Decap) that commits markdown to the repo - same [[Free Tier Hosting Stack]] build on push, but the client gets buttons instead of VS Code.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Static Site Generator&lt;/p&gt;&lt;ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"&gt;&lt;li&gt;
-
+    aria-label="Sketchpad"></a>
+  <h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none">Sketchpad</h3><p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none">Private scratch space before anything goes public - drafts, diagrams, half-ideas.</p><p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none">Digital Garden, PKM</p><ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"><li>
+    aria-label="The Garage Concept"></a>
+  <h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none">The Garage Concept</h3><p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none">The garage holds tools, scraps, experiments. The showroom is the blog. I don&#39;t confuse the two.</p><p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none">Website Building, Hugo, Static Site Generator</p><ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"><li>
+    aria-label="Digital Garden"></a>
+  <h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none">Digital Garden</h3><p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none">My digital garden is where notes grow in public - linked, imperfect, alive. Same [[Free Tier Hosting Stack]] I use for [[Selling Static Sites]] - Hugo, GitHub, Cloudflare Pages - though the garden is my lab, not a client deliverable.</p><p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none">Website Building, Hugo, Static Site Generator</p><ul class="notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"><li>
+    aria-label="Drafting in Public"></a>
+  <h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none">Drafting in Public</h3><p class="text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none">I publish rough ideas before they&#39;re finished. Drafting in public keeps me honest and makes the garden grow. Fa
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/is-utility-page.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/is-utility-page.html</summary>
 
 </details></tool-use>
 
@@ -1656,14 +1320,13 @@ Blogs contain no wikilinks, so prose mentions of concepts never match note title
 
 Unlike notes, the blog see-also does not exclude notes already linked or mentioned in the post itself.
 
-Non-PKM posts such as recipes, worship, and tennis lack garden connections entirely. They could use manual frontmatter, title or keyword matching in the body, backlinks, or a curated mapping.</details></think>
+Non-PKM posts such as recipes, worship, and tennis lack garden connections entirely. They could use manual frontmatter, title or keyword matching in the body, backlinks, or a curated mapping.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1690,21 +1353,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1731,56 +1385,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
 Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/pages.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/pages.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1868,38 +1499,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/i18n/en.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/i18n/en.yaml</summary>
 
 </details></tool-use>
 
@@ -1912,7 +1524,8 @@ I'm structuring the response as an advisory exploration rather than an implement
 
 Ten concrete issues stand out. Empty results silently appear on non-PKM posts. PKM posts get shallow tag matches. Index pages and MOCs are polluted. Descriptions contain raw wikilinks. Tags duplicate across cards. There is no manual curation option. Title mentions are ignored. The bridge lacks explanation. Garden posts overlap with random notes. Scoring favors small-tag notes over deep matches. I am now ranking quick wins.
 
-Quick wins include adding lede copy, rendering wikilinks cleanly, excluding index notes, hiding empty shared-tags lines, and showing only shared tags. Medium improvements cover frontmatter overrides and title mention scanning.</details></think>
+Quick wins include adding lede copy, rendering wikilinks cleanly, excluding index notes, hiding empty shared-tags lines, and showing only shared tags. Medium improvements cover frontmatter overrides and title mention scanning.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2055,7 +1668,8 @@ Implementing blog note improvements and reviewing all blogs to check their conne
 
 Five specific improvements planned: a `related_notes` frontmatter override, excluding index notes from auto-matching, title-mention scanning as a secondary signal, a slimmer card UI, and stricter scoring thresholds. A script or Hugo build analysis will map current note connections, with manual curation added where needed.
 
-Now starting implementation. Updating the related-notes partials for both notes and blog layouts, adding lede copy and a slimmer card design, and preparing to review all blog posts to add manual `related_notes` frontmatter where needed.</details></think>
+Now starting implementation. Updating the related-notes partials for both notes and blog layouts, adding lede copy and a slimmer card design, and preparing to review all blog posts to add manual `related_notes` frontmatter where needed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2064,50 +1678,31 @@ Implementing related-notes improvements, then auditing every blog post against t
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **49** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (49 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (49 files)
 
 | File |
 |------|
@@ -2160,13 +1755,6 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (49 files)
 | `content/english/blog/__wifi-router.md` |
 | `content/english/blog/top-reasons-create-maintain-your-own-website.md` |
 | `content/english/blog/__hugo-go-templates.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2178,41 +1766,28 @@ The rewrite will use manual overrides from frontmatter, exclude index notes, sco
 
 A Python script will audit all blogs to map current tag-based matches and identify gaps. Blogs lacking natural connections will be flagged for manual override.
 
-Manual `related_notes` overrides will be added to specific blogs such as worship entries linked to gospel notes. Tag scoring will use cosine similarity over set overlap. Matches will require at least two shared tags, or a score of at least 0.35 with one shared tag.</details></think>
+Manual `related_notes` overrides will be added to specific blogs such as worship entries linked to gospel notes. Tag scoring will use cosine similarity over set overlap. Matches will require at least two shared tags, or a score of at least 0.35 with one shared tag.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2224,14 +1799,13 @@ Inlining the note blurb directly into the blog's related-notes template instead 
 
 The note blurb now strips markdown links too. The related-notes template is being rewritten to support manual overrides via page parameters.
 
-Four ranking tiers are planned: manual overrides, tag overlap, title mentions for blogs, and Hugo's fallback. Notes will be deduplicated by RelPermalink and scored. A Python script will audit all blogs to check note connections.</details></think>
+Four ranking tiers are planned: manual overrides, tag overlap, title mentions for blogs, and Hugo's fallback. Notes will be deduplicated by RelPermalink and scored. A Python script will audit all blogs to check note connections.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2284,25 +1858,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
 
 </details></tool-use>
 
@@ -2327,7 +1888,8 @@ A configurable `MinSharedTags` parameter will let see-also.html use a lower thre
 
 The note-blurb snippet will be embedded inline within the blog wrapper. A new i18n key will label the related-notes section. A one-off audit script will scan all blogs to identify which ones lack related_notes entries. After the audit, dnpap and power-of-worship-pads will receive their missing manual note links.
 
-Miracle-isaiah-david will link to childlike-faith and free-grace notes. Worship posts such as dnpap-song-resources and power-of-worship-pads will connect to prayer and worship topics. Blogs with strong automatic matches will remain empty. Curated links will only be added where a genuine thematic connection exists. The next step is to grep for faith and gospel note slugs.</details></think>
+Miracle-isaiah-david will link to childlike-faith and free-grace notes. Worship posts such as dnpap-song-resources and power-of-worship-pads will connect to prayer and worship topics. Blogs with strong automatic matches will remain empty. Curated links will only be added where a genuine thematic connection exists. The next step is to grep for faith and gospel note slugs.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2336,89 +1898,49 @@ Implementing template changes and an audit script to map each blog post to garde
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/i18n/en.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/i18n/en.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Writing a Python audit script to review all blogs and check their connected notes.</details></think>
+Writing a Python audit script to review all blogs and check their connected notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-blog-related-notes.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-blog-related-notes.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-notes.py</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/audit-blog-related-notes.py</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-notes.py
 ```
@@ -2439,18 +1961,9 @@ power-of-the-mouse-wheel-click                       auto   tags: inbox-zero, in
 power-of-worship-pads-enhancing-your-worship-with-guitar auto   mentions: dont-worry
 set-it-forget-it-arroz-caldo                         none   —
 top-reasons-create-maintain-your-own-website         auto   tags: drafting-in-public, commonplace-book, sketchpad, digital-garden, literature-notes, note-relationships
-top-reasons-why-you-still-need-use-desktop-laptop    auto   tags: mobile-capture-workflows, context-aware-capture, attention-economy, deep-work, inbox-zero, information-diet
-what-i-look-for-in-wireless-earphones                none   —
-
-15 published blogs; 6 with no garden connection.
-
+top-reasons-why-you-still-need-use-desktop-laptop    auto   tags: mobile-capture-workflows, context-aware-capture, attention-ec
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2458,14 +1971,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The audit is complete. Blogs lacking note connections but sharing a thematic fit will receive `related_notes` frontmatter.
 
-Tennis performance notes fit the career tracker. Worship resources connect to love-god and free-grace. Adobo lacks garden notes. Miracle and faith stories link to childlike-faith and miracles. The worship pads mention already scans correctly.</details></think>
+Tennis performance notes fit the career tracker. Worship resources connect to love-god and free-grace. Adobo lacks garden notes. Miracle and faith stories link to childlike-faith and miracles. The worship pads mention already scans correctly.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2553,78 +2065,46 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for faith-related note slugs.</details></think>
+Searching for faith-related note slugs.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2692,38 +2172,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 
@@ -2732,7 +2193,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Worship pads already receives the dont-worry note from the mention scan.
 
-Manual related_notes are being assigned to dnpap, miracle, alex eala, and earphones. Food posts remain empty. The next step is verifying that hugo builds correctly with math.Sqrt and isset.</details></think>
+Manual related_notes are being assigned to dnpap, miracle, alex eala, and earphones. Food posts remain empty. The next step is verifying that hugo builds correctly with math.Sqrt and isset.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2741,100 +2203,52 @@ Adding curated `related_notes` to posts with no auto matches, then verifying the
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1 | tail -20
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo 2>&1 | tail -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo 2&gt;&amp;1 | tail -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo 2>&1 | tail -30
 ```
@@ -2844,15 +2258,9 @@ Start building sites …
 hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
 
 Total in 8146 ms
-ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md" failed: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html:2:15": execute of template failed: template: blog/single.html:2:15: executing "main" at &lt;partial "blog/toc.html" .&gt;: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/toc.html:17:21": execute of template failed: template: _partials/blog/toc.html:17:21: executing "_partials/blog/toc.html" at &lt;partial "notes/related-notes.html" (dict "Context" $page "Limit" $relatedNotesLimit)&gt;: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html:135:4": execute of template failed: template: _partials/notes/related-notes.html:135:4: executing "_partials/notes/related-notes.html" at &lt;return&gt;: wrong number of args for return: want 0 got 1
+ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md" failed: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html:2:15": execute of template failed: template: blog/single.html:2:15: executing "main" at <partial "blog/toc.html" .>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/toc.html:17:21": execute of template failed: template: _partials/blog/toc.html:17:21: executing "_partials/blog/toc.html" at <partial "notes/related-notes.html" (dict "Context" $page "Limit" $relatedNotesLimit)>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html:135:4": execute of template failed: template: _partials/notes/related-notes.html:135:4: executing "_partials/notes/related-notes.html" at <return>: wrong number of args for return: want 0 got 1
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2864,7 +2272,8 @@ The error likely comes from an early return passing a value, which Hugo may reje
 
 The original partial used the same final `return $results` and worked fine. The early return in the manual block is likely the culprit; it only executes when the condition is met, so the partial falls through to the final return instead.
 
-Hugo may be rejecting the return because the partial is being included in a context that does not support return values. The original working partial used the same final return syntax, so the change itself is likely causing the failure.</details></think>
+Hugo may be rejecting the return because the partial is being included in a context that does not support return values. The original working partial used the same final return syntax, so the change itself is likely causing the failure.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2873,24 +2282,15 @@ Fixing the partial: Hugo doesn't allow early `return` with a value in this conte
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo 2>&1 | tail -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo 2&gt;&amp;1 | tail -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo 2>&1 | tail -15
 ```
@@ -2913,19 +2313,12 @@ hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 Buil
 Total in 18657 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-notes.py</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/audit-blog-related-notes.py</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-notes.py
 ```
@@ -2945,114 +2338,73 @@ miracle-isaiah-david                                 manual → childlike-faith,
 power-of-the-mouse-wheel-click                       auto   tags: inbox-zero, information-diet, context-aware-capture, the-second-brain-workflow, getting-things-done, atomic-notes
 power-of-worship-pads-enhancing-your-worship-with-guitar manual → love-god, ask-seek-knock, dont-worry
 set-it-forget-it-arroz-caldo                         none   —
-top-reasons-create-maintain-your-own-website         auto   tags: drafting-in-public, commonplace-book, sketchpad, digital-garden, literature-notes, note-relationships
-top-reasons-why-you-still-need-use-desktop-laptop    auto   tags: mobile-capture-workflows, context-aware-capture, attention-economy, deep-work, inbox-zero, information-diet
-what-i-look-for-in-wireless-earphones                manual → attention-economy, deep-work, digital-minimalism
-
-15 published blogs; 2 with no garden connection.
-
+top-reasons-create-maintain-your-own-website         auto   tags: drafting-in-public, commonplace-book, sketchpad, digital-garden, literature-notes, note
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/hugoplate-theme-review/ | sed -n '/id="related-notes"/,/id="random-note"/p' | grep -E 'aria-label=|heading-title-case|text-ink-muted mb-6 text-sm|text-xs pointer-events-none' | head -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/hugoplate-theme-review/ | sed -n &#39;/id=&#34;related-notes&#34;/,/id=&#34;random-note&#34;/p&#39; | grep -E &#39;aria-label=|heading-title-case|text-ink-muted mb-6 text-sm|text-xs pointer-events-none&#39; | head -20</summary>
 ```bash
 curl -s http://localhost:1313/blog/hugoplate-theme-review/ | sed -n '/id="related-notes"/,/id="random-note"/p' | grep -E 'aria-label=|heading-title-case|text-ink-muted mb-6 text-sm|text-xs pointer-events-none' | head -20
 ```
 
 ```
-    &lt;h2 id="related-notes" class="h3 heading-title-case mb-2"&gt;Related Notes&lt;/h2&gt;
-    &lt;p class="text-ink-muted mb-6 text-sm"&gt;Garden notes that share topics with this post.&lt;/p&gt;
-    aria-label="The Garage Concept"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;The Garage Concept&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none"&gt;Client handoff uses the same split: Selling Static Sites workshop in my drafts; the client&amp;#39;s deploy branch is the showroom on Free Tier Hosting Stack.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Static Site Generator&lt;/p&gt;&lt;/article&gt;
-    aria-label="Digital Garden"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Digital Garden&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none"&gt;My digital garden is a personal site where notes grow in public - linked, imperfect, alive.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Static Site Generator&lt;/p&gt;&lt;/article&gt;
-    aria-label="Drafting in Public"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Drafting in Public&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none"&gt;I publish rough ideas before they&amp;#39;re finished - drafting in public keeps the garden honest.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Publishing&lt;/p&gt;&lt;/article&gt;
-    aria-label="Sketchpad"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Sketchpad&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none"&gt;Rough visual thinking belongs on paper first - polish comes after the shape is right.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Digital Garden, PKM&lt;/p&gt;&lt;/article&gt;
-    aria-label="Git-Based CMS"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Git-Based CMS&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none"&gt;I publish via Git directly.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Static Site Generator&lt;/p&gt;&lt;/article&gt;
-    aria-label="Free Tier Hosting Stack"&gt;&lt;/a&gt;
-  &lt;h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none"&gt;Free Tier Hosting Stack&lt;/h3&gt;&lt;p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none"&gt;Full walkthrough: How I Built JoRap Notes.&lt;/p&gt;&lt;p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none"&gt;Website Building, Hugo, Static Site Generator&lt;/p&gt;&lt;/article&gt;
-      &lt;h2 id="random-note" class="h3 heading-title-case mb-0"&gt;Random Note&lt;/h2&gt;
-
+    <h2 id="related-notes" class="h3 heading-title-case mb-2">Related Notes</h2>
+    <p class="text-ink-muted mb-6 text-sm">Garden notes that share topics with this post.</p>
+    aria-label="The Garage Concept"></a>
+  <h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none">The Garage Concept</h3><p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none">Client handoff uses the same split: Selling Static Sites workshop in my drafts; the client&#39;s deploy branch is the showroom on Free Tier Hosting Stack.</p><p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none">Website Building, Hugo, Static Site Generator</p></article>
+    aria-label="Digital Garden"></a>
+  <h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none">Digital Garden</h3><p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none">My digital garden is a personal site where notes grow in public - linked, imperfect, alive.</p><p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none">Website Building, Hugo, Static Site Generator</p></article>
+    aria-label="Drafting in Public"></a>
+  <h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none">Drafting in Public</h3><p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none">I publish rough ideas before they&#39;re finished - drafting in public keeps the garden honest.</p><p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none">Website Building, Hugo, Publishing</p></article>
+    aria-label="Sketchpad"></a>
+  <h3 class="h5 notes-card-title relative z-[1] mb-2 text-ink pointer-events-none">Sketchpad</h3><p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none">Rough visual thinking belongs on paper first - polish comes after the shape is right.</p><p class="text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none">D
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/dnpap-song-resources/ | sed -n '/id="related-notes"/,/id="random-note"/p' | grep 'aria-label=' | head -10</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/dnpap-song-resources/ | sed -n &#39;/id=&#34;related-notes&#34;/,/id=&#34;random-note&#34;/p&#39; | grep &#39;aria-label=&#39; | head -10</summary>
 ```bash
 curl -s http://localhost:1313/blog/dnpap-song-resources/ | sed -n '/id="related-notes"/,/id="random-note"/p' | grep 'aria-label=' | head -10
 ```
 
 ```
-    aria-label="Love God"&gt;&lt;/a&gt;
-    aria-label="Free Grace"&gt;&lt;/a&gt;
-    aria-label="Ask Seek Knock"&gt;&lt;/a&gt;
+    aria-label="Love God"></a>
+    aria-label="Free Grace"></a>
+    aria-label="Ask Seek Knock"></a>
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Getting Started and Sketchpad remain visible. Sketchpad matches the minimum two-tag requirement.</details></think>
+Getting Started and Sketchpad remain visible. Sketchpad matches the minimum two-tag requirement.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a comment to the blog template frontmatter about the optional `related_notes` field.</details></think>
+Adding a comment to the blog template frontmatter about the optional `related_notes` field.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
 
 </details></tool-use>
 
@@ -3132,7 +2484,8 @@ http://localhost:1313/notes/
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Applying polish to the notes page.</details></think>
+Applying polish to the notes page.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3141,58 +2494,45 @@ Reviewing the notes index layout and live page to identify polish opportunities.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | head -200</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | head -200</summary>
 ```bash
 curl -s http://localhost:1313/notes/ | head -200
 ```
 
 ```
-&lt;!doctype html&gt;
-&lt;html
+<!doctype html>
+<html
   itemscope
   class="h-full"
   lang="en"
-  itemtype="http://schema.org/WebPage"&gt;
-  &lt;head&gt;&lt;script src="/livereload.js?mindelay=10&amp;amp;v=2&amp;amp;port=1313&amp;amp;path=livereload" data-no-instant defer&gt;&lt;/script&gt;
+  itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
-    &lt;meta charset="utf-8" /&gt;
+    <meta charset="utf-8" />
 
 
-&lt;meta
+<meta
   name="viewport"
-  content="width=device-width, initial-scale=1, maximum-scale=5" /&gt;
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
 
 
 
-&lt;script&gt;
+<script>
   (function () {
     try {
       var stored = null;
@@ -3203,20 +2543,16 @@ curl -s http://localhost:1313/notes/ | head -200
       } else if (stored === "light") {
         dark = false;
       } else {
-        dark = !!(window.matchMedia &amp;&amp; window.matchMedia("(prefers-color-scheme: dark)").matches);
+        dark = !!(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
       }
       document.documentElement.classList[dark ? "add" : "remove"]("dark");
     } catch (_) {}
   })();
-&lt;/script&gt;
+</script>
 
 
 
-&lt;meta name="theme-name" content="jorap" /&gt;
-
-
-
-
+<meta name="theme-name" content="jorap" />
 
 
 
@@ -3228,11 +2564,15 @@ curl -s http://localhost:1313/notes/ | head -200
 
 
 
-&lt;link rel="shortcut icon" href="/images/jorap_hu_9dc0267744949652.png" type="image/x-icon"&gt;
-&lt;link rel="icon" href="/images/jorap_hu_9dc0267744949652.png" type="image/x-icon"&gt;
-&lt;link rel="icon" type="image/png" sizes="48x48" href="/images/jorap_hu_2114a78a17e4e1a5.png"&gt;
-&lt;link rel="icon" type="image/png" sizes="96x96" href="/images/jorap_hu_9dc0267744949652.png"&gt;
-&lt;link rel="apple-touch-icon" sizes="144x144" href="/images/jorap_hu_364f2c7ce706e3bb.png"&gt;
+
+
+
+
+<link rel="shortcut icon" href="/images/jorap_hu_9dc0267744949652.png" type="image/x-icon">
+<link rel="icon" href="/images/jorap_hu_9dc0267744949652.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/jorap_hu_2114a78a17e4e1a5.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/jorap_hu_9dc0267744949652.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/jorap_hu_364f2c7ce706e3bb.png">
 
 
 
@@ -3241,13 +2581,13 @@ curl -s http://localhost:1313/notes/ | head -200
 
 
 
-&lt;link rel="manifest" href="/manifest.webmanifest" /&gt;
-&lt;meta
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta
   name="msapplication-TileColor"
-  content="#ddd" /&gt;
-&lt;meta
+  content="#ddd" />
+<meta
   name="theme-color"
-  content="#ffffff" /&gt;
+  content="#ffffff" />
 
 
 
@@ -3297,7 +2637,7 @@ curl -s http://localhost:1313/notes/ | head -200
 
 
 
-&lt;title&gt;Notes&lt;/title&gt;
+<title>Notes</title>
 
 
 
@@ -3313,18 +2653,18 @@ curl -s http://localhost:1313/notes/ | head -200
 
 
 
-  &lt;meta
+  <meta
     name="keywords"
-    content="JoRap Notes, JoRap, JoRap.com, Jonathan Rapusas, front-end developer, WordPress, Hugo, static sites, Metro Manila, remote" /&gt;
+    content="JoRap Notes, JoRap, JoRap.com, Jonathan Rapusas, front-end developer, WordPress, Hugo, static sites, Metro Manila, remote" />
 
 
 
 
-&lt;meta name="description" content="My linked note garden - wikilinks, backlinks, and a graph view of connected ideas." /&gt;
+<meta name="description" content="My linked note garden - wikilinks, backlinks, and a graph view of connected ideas." />
 
 
 
-  &lt;meta name="author" content="JoRap" /&gt;
+  <meta name="author" content="JoRap" />
 
 
 
@@ -3342,89 +2682,78 @@ curl -s http://localhost:1313/notes/ | head -200
   
   
     
-    
-      
-    
-
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-      
-        &lt;meta property="og:image" content="http://localhost:1313/images/note.jpg" /&gt;
-        &lt;meta name="twitter:image" content="http://localhost:1313/images/note.jpg" /&gt;
-        &lt;meta
-          name="twitter:card"
-          content="summary_large_image" /&gt;
-      
-      
-      &lt;meta property="og:image:width" content="851" /&gt;
-      &lt;meta property="og:image:height" content="428" /&gt;
-    
-
-
-    
-    &lt;meta
-      property="og:image:type"
-      content="image/.jpg" /&gt;
-  
-
+   
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Polishing the /notes/ page.</details></think>
+Polishing the /notes/ page.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: node /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/scripts/context.mjs</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/scripts/context.mjs</summary>
 ```bash
 node /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/scripts/context.mjs
 ```
-</details>
-</tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+```
+# PRODUCT.md
 
+# Product
+
+## Register
+
+brand
+
+## Users
+
+**Primary:** Potential clients and decision-makers who hire or partner for strategic and technical work, and who care about **ideas, framing, and judgment** as much as delivery.
+
+**Context:** They arrive from search, referrals, or your network. They skim for credibility, clarity, and whether you think in outcomes, not only stack trivia. They may not identify as developers; they need to understand **why you** without wading through insider posture.
+
+## Product Purpose
+
+JoRap Notes is a **personal brand surface** at [jorap.com](https://www.jorap.com): it showcases how you think, what you stand for, and the quality of your work so that the right clients **recognize fit** and reach out with confidence.
+
+Success looks like: visitors leave with a clear sense of **professional credibility**, **distinct point of view**, and **trust** that engaging you is a serious business choice, not a casual follow of a hobby blog.
+
+## Brand Personality
+
+**Voice:** Confident, direct, and composed. You explain complexity without performing it. Warmth is welcome; **whimsy and “fan service” to a tech in-group are not** the main register.
+
+**Three-word personality:** **Professional, idea-led, credible.**
+
+**Emotional goals:** Respect, clarity, and “I’d trust this person in a room with stakeholders,” not “this person’s online persona is a character.”
+
+## Anti-references
+
+- **Performative nerd / dev-bro energy:** Exhaustive flexing, in-jokes as identity, or a site that reads like a gaming stream overlay. You are not optimizing for peer applause at the expense of client comfort.
+- **Generic SaaS landing sameness:** Interchangeable hero metrics, stock startup cadence, or template-y “thought leader” filler that could be anyone.
+- **Chaotic personal brand:** Cute chaos, irony-as-personality, or visual noise that undermines the signal that you are **easy to work with** and **clear in communication**.
+
+## Design Principles
+
+1. **Ideas before opti
+… (output truncated)
+```
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/reference/polish.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/reference/polish.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3455,11 +2784,836 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-recent-pair|notes-featured|notes-card|heading-title"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-recent-pair|notes-featured|notes-card|heading-title",
+  "topFiles": [
+    {
+      "matchCount": 19,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 19
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/_index.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `themes/jorap/layouts/_partials/page-header.html` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | sed -n &#39;/&lt;main/,/&lt;\/main&gt;/p&#39; | head -250</summary>
+```bash
+curl -s http://localhost:1313/notes/ | sed -n '/<main/,/<\/main>/p' | head -250
+```
+
+```
+    <main id="main" class="flex-1" tabindex="-1">
+      
+  
+  <section>
+  <div class="container text-center">
+    <div
+      class="from-surface to-elevated rounded-2xl bg-gradient-to-b px-8 py-14">
+      <h1>Notes</h1>
+      
+
+
+
+
+<ul class="mt-6 inline-flex space-x-1 capitalize">
+  <li>
+    <a class="text-accent" href="http://localhost:1313/">
+      Home
+    </a>
+    <span class="inlin-block mr-1">/</span>
+  </li>
+  
+    
+  
+  <li>
+    <span class="text-accent">
+      Notes
+    </span>
+  </li>
+</ul>
+
+    </div>
+  </div>
+</section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-12">
+          <div class="notes-toolbar mb-6 flex flex-wrap items-center gap-2 xl:gap-3">
+  <a
+    class="btn btn-sm btn-primary"
+    href="/notes/"aria-current="page">
+    All<span class="notes-filter__count"> | 215</span>
+  </a><a
+      class="btn btn-sm btn-outline-primary"
+      href="/notes/graph/">
+      Graph
+    </a><a
+    class="btn btn-sm btn-outline-primary"
+    href="/notes/issues/">
+    Issues<span class="notes-filter__count"> | 0</span>
+  </a>
+  <a
+    class="btn btn-sm btn-outline-primary"
+    href="/notes/backlinks/">
+    Backlinks
+  </a><a
+      class="btn btn-sm btn-outline-primary"
+      href="/notes/flashcards/">
+      Flashcards
+    </a>
+    <a
+      class="btn btn-sm btn-outline-primary"
+      href="/notes/review/">
+      Review
+    </a><a
+    class="btn btn-sm btn-outline-primary"
+    href="/notes/okf-export/">
+    OKF
+  </a>
+  <a
+    class="btn btn-sm btn-outline-primary"
+    href="/notes/create/">
+    <span class="xl:hidden">Create</span><span class="hidden xl:inline">Create Note</span>
+  </a><a
+  class="btn btn-sm btn-outline-primary"
+  href="/notes/random-duo/"
+  aria-label="Random duo">
+  <span class="xl:hidden">Duo</span><span class="hidden xl:inline">Random Duo</span>
+</a>
+</div>
+
+
+          <section class="notes-featured-random mb-8" data-notes-featured-random>
+  <h2 class="h5 mb-3">Fe
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The notes index page layout is now clear.
+
+Several polish issues stand out. The page header omits the lede from _index.md. The featured random note flashes "Loading…" before JavaScript populates it. Recent sections list twelve items across three columns, making the index too long. The notes-recent-pair component likely needs a two-column layout on large screens.
+
+More polish issues surfaced. The recent section carries a redundant bottom margin. Section headings are inconsistent. The featured random note title is awkward. The main grid shows full tags on 215 cards, which is noisy. The count display "215 / 215" is confusing. The toolbar wraps too many buttons. Next I will examine the featured-random script, notes-list logic, card styles, and compare against polished pages like backlinks.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/config",
+  "pattern": "recent_new_limit|recent_updates_limit"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/config",
+  "pattern": "recent_new_limit|recent_updates_limit",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "config/_default/params.toml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/page-header.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-index|notes-list|notes-home"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-index|notes-list|notes-home",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-list.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_11-05-26Z-category-number-addition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_03-00-38Z-sveltia-notes-update.md"
+    },
+    {
+      "matchCount": 54,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_03-07-38Z-notes-section-with-obsidian-functionality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_03-20-28Z-notes-review-and-relationship-analysis.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link-error.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_03-18-44Z-changelog-update-request.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-01_23-45-32Z-backlinks-page-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network-visualization.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc-creation.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_10-39-21Z-deployment-process-overview.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md"
+    }
+  ],
+  "totalFiles": 34,
+  "totalMatches": 150
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the notes homepage specification and checking for a dedicated page header layout.
+
+Restructuring list.html to place the intro after the toolbar, then show featured and recent notes side by side, followed by the full notes grid. Recent note limits will shrink on the index page. Cards will use note-blurbs with truncated tags. The random note section will be renamed to "Surprise me."
+
+The random note section will get panel styling, a shuffle button, and a better lead. Recent note partials will accept an optional limit parameter from their parent. CSS will add a two-column grid for the featured-and-recent pair, a compact recent list capped at six items, and section headers. The note counter will show totals without filters and filtered counts with totals otherwise. A description line under the page title is being considered for the notes section only.
+
+A custom page-header partial or a targeted description injection in list.html is preferable to altering the global header. The recent sections will be capped at six items each on the index page to prevent overwhelming the layout. Grid cards will likely hide tags entirely or show only three, since 215 notes would make tag chips noisy.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/file-dates.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "renderNoteIntoSlot"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "renderNoteIntoSlot",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-core.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-random-single.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-featured-random.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-duo.js"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-19_04-36-18Z-notes-homepage-item-arrangement.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Starting a focused polish pass on the notes page.
+
+Restructuring list.html with an intro section, a clearer discover container, and a catalog heading. Recent partials will accept a limit parameter. Featured note copy and panel styling are being polished. CSS adds a max-width prose class for the intro.
+
+Adding CSS for the recent pair grid, discover spacing, and catalog heading layout. Featured random note gets a panel border. Recent sections shift to two columns on small screens for a cleaner look. The note counter now shows "X of Y" when filtering is active. File dates will use a short format like "Jul 1" on the list page.
+
+The featured random note heading becomes "Random pick" with a lede paragraph inside a bordered panel. Section headings will follow a consistent pattern with optional ledes. A shuffle button was considered but skipped to keep the featured polish minimal. An optional TagLimit parameter will be added to note-card, defaulting to showing all tags.
+
+The catalog header now includes a muted subtitle beneath the "All notes" heading. Grid cards will use note-blurb with tags hidden or limited to four. Featured random note sits in the left column; recent notes stack vertically in the right column on large screens.
+
+On mobile the featured random note will appear first, followed by the recent sections. The featured random partial loses its bottom margin when nested inside the discover container. Recent partials will read Context and Limit from a dictionary argument, falling back to the current context when passed directly.
+
+The featured random note slot receives a rounded border with a divider background. The discover container will align its column heights. Grid cards will hide tags entirely to reduce visual noise, though tags remain searchable.
+
+Cards will show up to four tags. The grid passes TagLimit 4 to note-blurb while keeping ShowTags true. The catalog count will display as "215 notes" rather than "215 / 215" when no filter is active.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Applying focused polish: clearer hierarchy, intro copy, tighter discover section, and cleaner catalog cards.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/file-dates.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding CSS polish to the notes index page.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The context passed to the notes render partial was incorrect. Inside `with .Content`, the context is the content string rather than the page object.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo 2>&1 | tail -20
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+Total in 18414 ms
+ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/_index.md" failed: "/home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html:148:19": execute of template failed: template: notes/list.html:148:19: executing "main" at <partial "notes/note-card.html" (dict "Page" . "Body" (partial "notes/note-blurb.html" (dict "Page" .)) "HeadingLevel" 2 "HeadingClass" "h5" "HeadingExtraClass" "text-ink" "ShowTags" true "TagLimit" 4)>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html:42:23": execute of template failed: template: _partials/notes/note-card.html:42:23: executing "_partials/notes/note-card.html" at <.TagLimit>: can't evaluate field TagLimit in type []string
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo 2&gt;&amp;1 | tail -15</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo 2>&1 | tail -15
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2073 
+ Paginator pages  │  107 
+ Non-page files   │    0 
+ Static files     │  229 
+ Processed images │  331 
+ Aliases          │  710 
+ Cleaned          │    0 
+
+Total in 19109 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | sed -n &#39;/&lt;main/,/&lt;\/main&gt;/p&#39; | grep -E &#39;notes-index|Random pick|All notes|notes-index-intro|215 notes|key_concept|Created Jul|text-ink-muted mb-3 text-sm&#39; | head -30</summary>
+```bash
+curl -s http://localhost:1313/notes/ | sed -n '/<main/,/<\/main>/p' | grep -E 'notes-index|Random pick|All notes|notes-index-intro|215 notes|key_concept|Created Jul|text-ink-muted mb-3 text-sm' | head -30
+```
+
+```
+  <section class="section notes-index">
+<div class="notes-index-intro content notes-content mb-8 max-w-[70ch]">
+      <div class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8">
+        <div class="notes-index-discover__random min-w-0">
+  <h2 class="h5 mb-1">Random pick</h2>
+  <p class="text-ink-muted mb-3 text-sm">One note from the garden — refreshed each visit.</p>
+        <div class="notes-index-discover__recent notes-recent-stack grid min-w-0 gap-6">
+    <p class="text-ink-muted mb-3 text-sm">Latest additions to the garden.</p>
+    <p class="text-ink-muted mb-3 text-sm">Notes touched most recently.</p>
+        <div class="lg:col-12"><header class="notes-index-catalog__head mb-4">
+            <h2 class="h5 mb-1">All notes</h2>
+                215 notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ | sed -n &#39;/notes-index-intro/,/notes-index-discover/p&#39; | head -15</summary>
+```bash
+curl -s http://localhost:1313/notes/ | sed -n '/notes-index-intro/,/notes-index-discover/p' | head -15
+```
+
+```
+<div class="notes-index-intro content notes-content mb-8 max-w-[70ch]">
+              <p>My linked note garden - wikilinks, backlinks, and a graph view of connected ideas.</p>
+<p>A personal note garden of <strong>atomic notes</strong> - one claim per page, linked with <code>[[wikilinks]]</code>. Start at <a href="/notes/getting-started/" class="wikilink" data-wikilink-preview="/notes/getting-started/">Getting Started</a> or <a href="/notes/maps-of-content/" class="wikilink" data-wikilink-preview="/notes/maps-of-content/">Maps of Content</a>.</p>
+
+            </div></div>
+      </div>
+
+      <div class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8">
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The intro appears to show both the meta description and the _index.md body. The description line may be coming from another source.
+
+The first paragraph is the frontmatter description. The second is the _index.md body text.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/_index.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The list intro should not use full render-content. That function includes description through assembled-content.
+
+Using raw `.Content` for the index intro would skip wikilink resolution. Removing the description from frontmatter is another option. A lighter partial could also work.
+
+A custom partial that only resolves wikilinks is too messy. The simplest fix is to merge the description into the body and remove the description field from _index.md.
+
+The duplicate comes from the description being prepended inside assembled-content before the body. A lazy fix is to show the description as a lead paragraph and render only raw content with wikilinks resolved. This avoids changing the render-content partial.
+
+The description field should remain in frontmatter for SEO meta. A minimal `notes/render-body.html` partial will render only the body content.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A minimal change to `render-content` will let it accept a dictionary with `Page` and `BodyOnly`.
+
+The `render-content` partial now checks if its input is a map. If so, it extracts `$page` and `$bodyOnly`. The index template passes a dictionary with `Page` and `BodyOnly` set to true. The description renders as a muted lede above the body.
+
+The index template now wraps the description and body in a dedicated intro container. A local `$page` variable is needed to check both fields.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing duplicate intro: description as lede, body-only wikilink rendering.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet 2&gt;&amp;1; curl -s http://localhost:1313/notes/ | sed -n &#39;/notes-index-intro/,/notes-index-discover/p&#39; | head -12</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1; curl -s http://localhost:1313/notes/ | sed -n '/notes-index-intro/,/notes-index-discover/p' | head -12
+```
+
+```
+<div class="notes-index-intro content notes-content mb-8 max-w-[70ch]"><p class="notes-index-lede text-ink-muted mb-4">My linked note garden - wikilinks, backlinks, and a graph view of connected ideas.</p>A personal note garden of <strong>atomic notes</strong> - one claim per page, linked with <code>[[wikilinks]]</code>. Start at <a href="/notes/getting-started/" class="wikilink" data-wikilink-preview="/notes/getting-started/">Getting Started</a> or <a href="/notes/maps-of-content/" class="wikilink" data-wikilink-preview="/notes/maps-of-content/">Maps of Content</a>.</div></div>
+      </div>
+
+      <div class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8">
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Polished `/notes/` with clearer hierarchy and less noise. Changes:
+
+## Layout & hierarchy
+- **Intro** — Description renders as a lede; body copy renders separately with working wikilinks (no duplicate paragraph).
+- **Discover** — Two-column on desktop: **Random pick** left, **New notes** + **Recent updates** right (6 each, was 12).
+- **Catalog** — **All notes** section header with short lede before search/filter.
+
+## Cards & copy
+- Grid cards use **`key_concept` blurbs** (via `note-blurb`) instead of raw descriptions.
+- Tags capped at **4 per card**; cards use **elevated** background to match the rest of the site.
+- Count reads **"215 notes"** / **"12 of 215"** when filtered (not `215 / 215`).
+- Recent dates shortened to **"Jul 1, 2026"** (no time).
+
+## Visual polish
+- Section headings each have a one-line lede.
+- Random pick in a bordered panel with min-height (less layout jump on load).
+- Recent links tightened with hover transitions.
+- Intro lede uses balanced line wrapping.
+
+## Files touched
+- `layouts/notes/list.html`
+- `layouts/_partials/notes/featured-random-note.html`
+- `layouts/_partials/notes/recent-new.html` / `recent-updated.html`
+- `layouts/_partials/notes/render-content.html` (`BodyOnly` flag)
+- `layouts/_partials/notes/note-card.html` (`TagLimit`)
+- `assets/css/custom.css`
+- `assets/js/notes-list.js`
+
+Refresh http://localhost:1313/notes/ to see it. If you want the recipe/lifestyle posts to stay out of the garden bridge entirely, that's already handled — only the index polish here.

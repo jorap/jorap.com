@@ -13,7 +13,8 @@ what notes needs more clarification?
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants to know which notes need more clarification.</details></think>
+The user wants to know which notes need more clarification.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,10 +23,8 @@ I'll search the notes system for how clarification needs are tracked and flagged
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -132,21 +131,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -253,22 +243,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **224** results in **1** directory</summary>
 
-Directory: **** (224 files)
+Directory: **``** (224 files)
 
 | File |
 |------|
@@ -496,21 +478,12 @@ Directory: **** (224 files)
 | `content/english/notes/pressure-reveals-weakness.md` |
 | `content/english/notes/joy.md` |
 | `content/english/notes/great-commission.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -617,47 +590,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -704,26 +656,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for how notes track clarification needs.</details></think>
+Searching for how notes track clarification needs.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -831,34 +775,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -965,52 +894,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants to know which notes need clarification. This likely concerns structural gaps such as missing extends or contradicts, or a specific concept within the notes-creator and notes-review systems.</details></think>
+The user wants to know which notes need clarification. This likely concerns structural gaps such as missing extends or contradicts, or a specific concept within the notes-creator and notes-review systems.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1118,20 +1027,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg "broken wikilink|unlinked mention|structure" | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#34;broken wikilink|unlinked mention|structure&#34; | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg "broken wikilink|unlinked mention|structure" | head -80
 ```
@@ -1141,71 +1042,44 @@ cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && n
 ✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (223 notes)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `layouts/_partials/notes/collect-note-issues.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_05-35-18Z-ai-prompts-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_05-35-18Z-ai-prompts-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The Hugo build showed no lint issues. Structure problems may only appear in the partial and not be logged as warnings.</details></think>
+The Hugo build showed no lint issues. Structure problems may only appear in the partial and not be logged as warnings.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1261,40 +1135,27 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The script `scripts/lint-notes-frontmatter.py` may help identify notes that need clarification.</details></think>
+The script `scripts/lint-notes-frontmatter.py` may help identify notes that need clarification.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **12** results in **1** directory</summary>
 
-Directory: **** (12 files)
+Directory: **``** (12 files)
 
 | File |
 |------|
@@ -1310,21 +1171,12 @@ Directory: **** (12 files)
 | `scripts/normalize-notes-format.py` |
 | `scripts/reformat-note-frontmatter.py` |
 | `scripts/audit-blog-related-notes.py` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1411,25 +1263,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Identifying which notes need clarification, such as descriptions, relationships, or structure.</details></think>
+Identifying which notes need clarification, such as descriptions, relationships, or structure.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1
 ```
@@ -1440,59 +1285,42 @@ FAIL wikilink in description: reliability.md
 1 note(s) failed frontmatter lint
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Writing a Python script to audit all notes for clarity issues.</details></think>
+Writing a Python script to audit all notes for clarity issues.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 from pathlib import Path
 
-NOTES = Path("content/english/notes")
-SKIP = {"_index.md"}
+NOTES = Path(&#34;content/english/notes&#34;)
+SKIP = {&#34;_index.md&#34;}
 MAX_DESC = 20
 
 def load(path):
-    text = path.read_text(encoding="utf-8")
-    m = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    m = re.match(r&#34;^---\s*\n(.*?)\n---&#34;, text, re.DOTALL)
     if not m:
         return {}, text
     fm = yaml.safe_load(m.group(1)) or {}
@@ -1500,97 +1328,96 @@ def load(path):
     return fm, body
 
 issues = {
-    "missing_extends": [],
-    "missing_contradicts": [],
-    "missing_relationships": [],
-    "missing_key_concept": [],
-    "missing_examples": [],
-    "thin_examples": [],
-    "desc_wikilink": [],
-    "desc_too_long": [],
-    "desc_missing": [],
-    "nonempty_body": [],
-    "body_sections": [],
+    &#34;missing_extends&#34;: [],
+    &#34;missing_contradicts&#34;: [],
+    &#34;missing_relationships&#34;: [],
+    &#34;missing_key_concept&#34;: [],
+    &#34;missing_examples&#34;: [],
+    &#34;thin_examples&#34;: [],
+    &#34;desc_wikilink&#34;: [],
+    &#34;desc_too_long&#34;: [],
+    &#34;desc_missing&#34;: [],
+    &#34;nonempty_body&#34;: [],
+    &#34;body_sections&#34;: [],
 }
 
-for path in sorted(NOTES.glob("*.md")):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
     if path.name in SKIP:
         continue
     fm, body = load(path)
-    kind = fm.get("note_kind", "note")
-    if kind in ("meta", "index"):
+    kind = fm.get(&#34;note_kind&#34;, &#34;note&#34;)
+    if kind in (&#34;meta&#34;, &#34;index&#34;):
         continue
     name = path.stem
 
-    rels = fm.get("relationships") or []
-    types = {r.get("type") for r in rels if isinstance(r, dict)}
+    rels = fm.get(&#34;relationships&#34;) or []
+    types = {r.get(&#34;type&#34;) for r in rels if isinstance(r, dict)}
     if not rels:
-        issues["missing_relationships"].append(name)
-    if "extends" not in types:
-        issues["missing_extends"].append(name)
-    if "contradicts" not in types:
-        issues["missing_contradicts"].append(name)
+        issues[&#34;missing_relationships&#34;].append(name)
+    if &#34;extends&#34; not in types:
+        issues[&#34;missing_extends&#34;].append(name)
+    if &#34;contradicts&#34; not in types:
+        issues[&#34;missing_contradicts&#34;].append(name)
 
-    if not fm.get("key_concept"):
-        issues["missing_key_concept"].append(name)
+    if not fm.get(&#34;key_concept&#34;):
+        issues[&#34;missing_key_concept&#34;].append(name)
 
-    ex = fm.get("examples") or []
+    ex = fm.get(&#34;examples&#34;) or []
     if not ex:
-        issues["missing_examples"].append(name)
-    elif len(ex) < 2:
-        issues["thin_examples"].append(name)
+        issues[&#34;missing_examples&#34;].append(name)
+    elif len(ex) &lt; 2:
+        issues[&#34;thin_examples&#34;].append(name)
 
-    desc = fm.get("description")
+    desc = fm.get(&#34;description&#34;)
     if not isinstance(desc, str) or not desc.strip():
-        issues["desc_missing"].append(name)
+        issues[&#34;desc_missing&#34;].append(name)
     else:
         d = desc.strip()
-        if "[[" in d:
-            issues["desc_wikilink"].append(name)
-        if len(d.split()) > MAX_DESC:
-            issues["desc_too_long"].append((name, len(d.split())))
+        if &#34;[[&#34; in d:
+            issues[&#34;desc_wikilink&#34;].append(name)
+        if len(d.split()) &gt; MAX_DESC:
+            issues[&#34;desc_too_long&#34;].append((name, len(d.split())))
 
     if body.strip():
-        issues["nonempty_body"].append(name)
+        issues[&#34;nonempty_body&#34;].append(name)
 
-    for heading in ("Key Concept", "Examples", "Note Relationships", "See also"):
-        if re.search(rf"^## {re.escape(heading)}\s*$", body, re.M):
-            issues["body_sections"].append((name, heading))
+    for heading in (&#34;Key Concept&#34;, &#34;Examples&#34;, &#34;Note Relationships&#34;, &#34;See also&#34;):
+        if re.search(rf&#34;^## {re.escape(heading)}\s*$&#34;, body, re.M):
+            issues[&#34;body_sections&#34;].append((name, heading))
 
 # notes needing BOTH extends and contradicts
-needs_both = sorted(set(issues["missing_extends"]) | set(issues["missing_contradicts"]))
+needs_both = sorted(set(issues[&#34;missing_extends&#34;]) | set(issues[&#34;missing_contradicts&#34;]))
 
-print("=== STRUCTURE (missing typed links) ===")
-print(f"missing extends: {len(issues['missing_extends'])}")
-for n in issues["missing_extends"][:30]:
-    print(f"  - {n}")
-if len(issues["missing_extends"]) > 30:
-    print(f"  ... +{len(issues['missing_extends'])-30} more")
+print(&#34;=== STRUCTURE (missing typed links) ===&#34;)
+print(f&#34;missing extends: {len(issues[&#39;missing_extends&#39;])}&#34;)
+for n in issues[&#34;missing_extends&#34;][:30]:
+    print(f&#34;  - {n}&#34;)
+if len(issues[&#34;missing_extends&#34;]) &gt; 30:
+    print(f&#34;  ... +{len(issues[&#39;missing_extends&#39;])-30} more&#34;)
 
-print(f"\nmissing contradicts: {len(issues['missing_contradicts'])}")
-for n in issues["missing_contradicts"][:30]:
-    print(f"  - {n}")
-if len(issues["missing_contradicts"]) > 30:
-    print(f"  ... +{len(issues['missing_contradicts'])-30} more")
+print(f&#34;\nmissing contradicts: {len(issues[&#39;missing_contradicts&#39;])}&#34;)
+for n in issues[&#34;missing_contradicts&#34;][:30]:
+    print(f&#34;  - {n}&#34;)
+if len(issues[&#34;missing_contradicts&#34;]) &gt; 30:
+    print(f&#34;  ... +{len(issues[&#39;missing_contradicts&#39;])-30} more&#34;)
 
-print(f"\nmissing any relationships: {len(issues['missing_relationships'])}")
+print(f&#34;\nmissing any relationships: {len(issues[&#39;missing_relationships&#39;])}&#34;)
 
-print("\n=== FRONTMATTER GAPS ===")
-for key in ("missing_key_concept", "missing_examples", "thin_examples", "desc_missing", "desc_wikilink", "nonempty_body", "body_sections"):
+print(&#34;\n=== FRONTMATTER GAPS ===&#34;)
+for key in (&#34;missing_key_concept&#34;, &#34;missing_examples&#34;, &#34;thin_examples&#34;, &#34;desc_missing&#34;, &#34;desc_wikilink&#34;, &#34;nonempty_body&#34;, &#34;body_sections&#34;):
     vals = issues[key]
-    print(f"{key}: {len(vals)}")
+    print(f&#34;{key}: {len(vals)}&#34;)
     for v in vals[:15]:
-        print(f"  - {v}")
-    if len(vals) > 15:
-        print(f"  ... +{len(vals)-15} more")
+        print(f&#34;  - {v}&#34;)
+    if len(vals) &gt; 15:
+        print(f&#34;  ... +{len(vals)-15} more&#34;)
 
-print(f"\ndesc too long (>20 words): {len(issues['desc_too_long'])}")
-for n, w in sorted(issues['desc_too_long'], key=lambda x: -x[1])[:20]:
-    print(f"  - {n}: {w} words")
+print(f&#34;\ndesc too long (&gt;20 words): {len(issues[&#39;desc_too_long&#39;])}&#34;)
+for n, w in sorted(issues[&#39;desc_too_long&#39;], key=lambda x: -x[1])[:20]:
+    print(f&#34;  - {n}: {w} words&#34;)
 
-print(f"\nTOTAL notes needing extends OR contradicts: {len(needs_both)}")
+print(f&#34;\nTOTAL notes needing extends OR contradicts: {len(needs_both)}&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml
@@ -1720,25 +1547,17 @@ desc_wikilink: 1
 nonempty_body: 0
 body_sections: 0
 
-desc too long (&gt;20 words): 0
+desc too long (>20 words): 0
 
 TOTAL notes needing extends OR contradicts: 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1764,13 +1583,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1778,59 +1590,60 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The notes appear structurally clean.
 
-Only `reliability.md` contains a wikilink in its description. A deeper audit is needed to identify notes with vague or experiential descriptions rather than clear definitions. I will also check Hugo build issues, draft status, and voice lint results.</details></think>
+Only `reliability.md` contains a wikilink in its description. A deeper audit is needed to identify notes with vague or experiential descriptions rather than clear definitions. I will also check Hugo build issues, draft status, and voice lint results.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 from pathlib import Path
 
-NOTES = Path("content/english/notes")
-SKIP = {"_index.md"}
+NOTES = Path(&#34;content/english/notes&#34;)
+SKIP = {&#34;_index.md&#34;}
 
 def load(path):
-    text = path.read_text(encoding="utf-8")
-    m = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    m = re.match(r&#34;^---\s*\n(.*?)\n---&#34;, text, re.DOTALL)
     fm = yaml.safe_load(m.group(1)) or {} if m else {}
     return fm
 
 # Heuristic from flashcard audit: description should name what X is/does
 WEAK_PATTERNS = [
-    (re.compile(r"^I (keep|use|run|only|treat|name|walk|bring|said|try|want|need|like|prefer)\b", re.I), "starts with I-verb (experiential, not definitional)"),
-    (re.compile(r"^When\b", re.I), "starts with When (situational, not definitional)"),
-    (re.compile(r"^Most\b", re.I), "starts with Most"),
-    (re.compile(r"^Good\b", re.I), "starts with Good"),
-    (re.compile(r"^The smallest\b", re.I), "starts with The smallest"),
-    (re.compile(r"\bmeans\b", re.I), "uses 'means' (ok but check)"),
-    (re.compile(r"\bnot\b.*\bnot\b", re.I), "double negative / contrast-heavy"),
+    (re.compile(r&#34;^I (keep|use|run|only|treat|name|walk|bring|said|try|want|need|like|prefer)\b&#34;, re.I), &#34;starts with I-verb (experiential, not definitional)&#34;),
+    (re.compile(r&#34;^When\b&#34;, re.I), &#34;starts with When (situational, not definitional)&#34;),
+    (re.compile(r&#34;^Most\b&#34;, re.I), &#34;starts with Most&#34;),
+    (re.compile(r&#34;^Good\b&#34;, re.I), &#34;starts with Good&#34;),
+    (re.compile(r&#34;^The smallest\b&#34;, re.I), &#34;starts with The smallest&#34;),
+    (re.compile(r&#34;\bmeans\b&#34;, re.I), &#34;uses &#39;means&#39; (ok but check)&#34;),
+    (re.compile(r&#34;\bnot\b.*\bnot\b&#34;, re.I), &#34;double negative / contrast-heavy&#34;),
 ]
 
-# Notes that don't state what the thing IS (no "is/are" in first 12 words)
+# Notes that don&#39;t state what the thing IS (no &#34;is/are&#34; in first 12 words)
 no_copula = []
 weak_desc = []
 thin_kc = []
 few_cards = []
 draft_notes = []
 
-for path in sorted(NOTES.glob("*.md")):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
     if path.name in SKIP:
         continue
     fm = load(path)
-    kind = fm.get("note_kind", "note")
-    if kind in ("meta", "index"):
+    kind = fm.get(&#34;note_kind&#34;, &#34;note&#34;)
+    if kind in (&#34;meta&#34;, &#34;index&#34;):
         continue
     name = path.stem
-    if fm.get("draft"):
+    if fm.get(&#34;draft&#34;):
         draft_notes.append(name)
 
-    desc = (fm.get("description") or "").strip()
+    desc = (fm.get(&#34;description&#34;) or &#34;&#34;).strip()
     if desc:
-        first12 = " ".join(desc.split()[:12])
-        if not re.search(r"\b(is|are|was|means|isn't|aren't)\b", first12, re.I):
-            # also accept "X -" pattern or colon definitions
-            if not re.search(r"[:—–-]\s*\w", desc[:60]):
+        first12 = &#34; &#34;.join(desc.split()[:12])
+        if not re.search(r&#34;\b(is|are|was|means|isn&#39;t|aren&#39;t)\b&#34;, first12, re.I):
+            # also accept &#34;X -&#34; pattern or colon definitions
+            if not re.search(r&#34;[:—–-]\s*\w&#34;, desc[:60]):
                 no_copula.append((name, desc[:80]))
 
     for pat, label in WEAK_PATTERNS[:3]:
@@ -1838,38 +1651,37 @@ for path in sorted(NOTES.glob("*.md")):
             weak_desc.append((name, label, desc[:70]))
             break
 
-    kc = fm.get("key_concept")
+    kc = fm.get(&#34;key_concept&#34;)
     if isinstance(kc, str):
         words = len(kc.split())
-        if words < 15:
-            thin_kc.append((name, words, kc.replace("\n"," ")[:70]))
+        if words &lt; 15:
+            thin_kc.append((name, words, kc.replace(&#34;\n&#34;,&#34; &#34;)[:70]))
 
-    cards = fm.get("cards") or []
-    if len(cards) < 4:
+    cards = fm.get(&#34;cards&#34;) or []
+    if len(cards) &lt; 4:
         few_cards.append((name, len(cards)))
 
-print("=== DRAFT NOTES ===")
-print(draft_notes or "(none)")
+print(&#34;=== DRAFT NOTES ===&#34;)
+print(draft_notes or &#34;(none)&#34;)
 
-print(f"\n=== DESCRIPTIONS without is/are/means in first 12 words ({len(no_copula)}) ===")
+print(f&#34;\n=== DESCRIPTIONS without is/are/means in first 12 words ({len(no_copula)}) ===&#34;)
 for n, d in no_copula[:25]:
-    print(f"  {n}: {d}...")
-if len(no_copula) > 25:
-    print(f"  ... +{len(no_copula)-25} more")
+    print(f&#34;  {n}: {d}...&#34;)
+if len(no_copula) &gt; 25:
+    print(f&#34;  ... +{len(no_copula)-25} more&#34;)
 
-print(f"\n=== EXPERIENTIAL DESCRIPTION OPENERS ({len(weak_desc)}) ===")
+print(f&#34;\n=== EXPERIENTIAL DESCRIPTION OPENERS ({len(weak_desc)}) ===&#34;)
 for n, label, d in weak_desc[:20]:
-    print(f"  {n} [{label}]: {d}...")
+    print(f&#34;  {n} [{label}]: {d}...&#34;)
 
-print(f"\n=== THIN key_concept (<15 words) ({len(thin_kc)}) ===")
+print(f&#34;\n=== THIN key_concept (&lt;15 words) ({len(thin_kc)}) ===&#34;)
 for n, w, k in thin_kc[:15]:
-    print(f"  {n} ({w}w): {k}...")
+    print(f&#34;  {n} ({w}w): {k}...&#34;)
 
-print(f"\n=== FEW CARDS (<4) ({len(few_cards)}) ===")
+print(f&#34;\n=== FEW CARDS (&lt;4) ({len(few_cards)}) ===&#34;)
 for n, c in sorted(few_cards, key=lambda x: x[1])[:20]:
-    print(f"  {n}: {c} cards")
+    print(f&#34;  {n}: {c} cards&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml
@@ -1982,90 +1794,15 @@ PY
   commonplace-book: Before linked notes, I kept quotes and ideas in one book I'd actually reopen....
   composure: When the room spikes, I slow my tone so people read calm instead of panic....
   compounding: I keep doing the small right thing until the curve finally bends - flat for a lo...
-  continuous-improvement: Each miss becomes one tweak to the process, not a lecture about trying harder....
-  control-the-rhythm: I set pace in hard conversations before adrenaline picks it for me....
-  convert-pain-into-learning: I only gain from a failure if it changes how I act the next time the situation s...
-  crdt: CRDTs let two offline devices merge edits without me picking last-write-wins by ...
-  decision-quality: I judge choices by whether they hold after sleep, new facts, and the real bill -...
-  deep-work: I protect uninterrupted blocks for hard thinking and let capture catch what trie...
-  develop-dont-endanger: I push people to grow without picking drills where pain or risk replaces the act...
-  ... +69 more
-
-=== EXPERIENTIAL DESCRIPTION OPENERS (22) ===
-  accountability [starts with I-verb (experiential, not definitional)]: I name one owner for the outcome before the group chat turns into some...
-  assurance [starts with When (situational, not definitional)]: When doubt shows up, I rest on what Christ already finished, not on ho...
-  attention-economy [starts with I-verb (experiential, not definitional)]: I treat my feed like a slot machine someone else owns - if I'm not pay...
-  build-a-reliable-default [starts with When (situational, not definitional)]: When I'm tired, I fall back on what I've rehearsed most - so that fall...
-  composure [starts with When (situational, not definitional)]: When the room spikes, I slow my tone so people read calm instead of pa...
-  compounding [starts with I-verb (experiential, not definitional)]: I keep doing the small right thing until the curve finally bends - fla...
-  convert-pain-into-learning [starts with I-verb (experiential, not definitional)]: I only gain from a failure if it changes how I act the next time the s...
-  elon-musk [starts with When (situational, not definitional)]: When someone needs a pop-culture name for strip-to-basics thinking, Mu...
-  first-principles-thinking [starts with When (situational, not definitional)]: When a note is just someone else's quote, I add a section on what I ac...
-  graph-view-analytics [starts with I-verb (experiential, not definitional)]: I use the link graph to spot orphans and over-connected hubs, not beca...
-  growth-mindset [starts with I-verb (experiential, not definitional)]: I treat a rough outing as data about what to practice next, not proof ...
-  gtd-vs-para [starts with I-verb (experiential, not definitional)]: I run tasks through GTD and notes through PARA as cousins that share c...
-  leadership [starts with When (situational, not definitional)]: When the room goes quiet and everyone looks at me, I own what happens ...
-  mental-models [starts with I-verb (experiential, not definitional)]: I keep a short list of thinking shortcuts that survived real decisions...
-  mobile-capture-workflows [starts with Most]: Most sparks die on mobile because capture takes twelve taps. I reduced...
-  notice-the-good [starts with I-verb (experiential, not definitional)]: I name the specific helpful move out loud so people know what to repea...
-  own-the-error [starts with When (situational, not definitional)]: When I miss, I say I missed - blame-shifting turns a fixable bug into ...
-  pareto-principle [starts with Most]: Most results come from a small slice of work - find the slice, protect...
-  set-calm-boundaries [starts with I-verb (experiential, not definitional)]: I name one clear limit on behavior in a steady voice - not a character...
-  slow-productivity [starts with I-verb (experiential, not definitional)]: I run fewer active projects so notes become finished work, not a guilt...
-
-=== THIN key_concept (&lt;15 words) (17) ===
-  associative-linking (13w): Folders sort.  Links think. Associative linking lets notes meet withou...
-  digital-minimalism (14w): Fewer apps and less syncing.  My PKM got better when I stopped collect...
-  emotional-regulation (13w): Emotional regulation is noticing the spike without letting it drive th...
-  evergreen-vs-fleeting-notes (13w): Both lanes, clear promotion rules.  Fleeting notes catch sparks; everg...
-  expect-the-counter (13w): Don't only rehearse the opening.  Ask what happens after the other sid...
-  growth-mindset (14w): Growth mindset treats ability as trainable - mistakes are data, not a ...
-  gtd-vs-para (12w): GTD runs my tasks.  PARA runs my notes - cousins, not competitors. ...
-  listen-before-fixing (13w): I let people finish before I hand them advice, correction, or a fix....
-  mobile-capture-workflows (14w): Mobile capture: share sheet to inbox - save the spark before I scroll ...
-  name-the-feeling (14w): I say what emotion I hear before I jump to what should happen next....
-  notice-the-good (13w): I name the specific helpful thing they did - not vague good job....
-  periodic-knowledge-review (14w): Notes rot without review - calendar weekly and quarterly passes for in...
-  process-over-outcomes (14w): I focus on a repeatable process - I can rerun it when motivation dips....
-  set-calm-boundaries (13w): I name one clear limit in a steady voice - behavior, not character....
-  slow-productivity (12w): Slow productivity pushes back on busy-as-virtue - fewer projects, more...
-
-=== FEW CARDS (&lt;4) (41) ===
-  adaptability: 2 cards
-  attention-to-detail: 2 cards
-  behavioral-economics: 2 cards
-  build-a-reliable-default: 2 cards
-  client-site-handoff: 2 cards
-  complete-the-cycle: 2 cards
-  continuous-improvement: 2 cards
-  convert-pain-into-learning: 2 cards
-  create-regular-connection: 2 cards
-  decision-quality: 2 cards
-  deliberate-practice: 2 cards
-  discipline: 2 cards
-  elon-musk: 2 cards
-  emotional-regulation: 2 cards
-  energy-protects-judgment: 2 cards
-  expect-the-counter: 2 cards
-  failure-as-feedback: 2 cards
-  finish-strong: 2 cards
-  follow-their-lead: 2 cards
-  follow-through: 2 cards
-
+  continuous-improvement: Each miss becomes one tweak 
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py 2>&1 | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py 2&gt;&amp;1 | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py 2>&1 | head -40
 ```
@@ -2074,20 +1811,12 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2114,42 +1843,26 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The garden structure looks solid. I need to identify which notes still need clarification.</details></think>
+The garden structure looks solid. I need to identify which notes still need clarification.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2188,49 +1901,37 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking relationship records for empty or placeholder reason fields.</details></think>
+Checking relationship records for empty or placeholder reason fields.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 from pathlib import Path
 
-NOTES = Path("content/english/notes")
-SKIP = {"_index.md"}
+NOTES = Path(&#34;content/english/notes&#34;)
+SKIP = {&#34;_index.md&#34;}
 
 def load(path):
-    text = path.read_text(encoding="utf-8")
-    m = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    m = re.match(r&#34;^---\s*\n(.*?)\n---&#34;, text, re.DOTALL)
     return yaml.safe_load(m.group(1)) or {} if m else {}
 
-GENERIC_REASON = re.compile(r"^(what this|when \.\.\.|when …|builds on|tension|related|see also|n/?a|todo|tbd)\b", re.I)
+GENERIC_REASON = re.compile(r&#34;^(what this|when \.\.\.|when …|builds on|tension|related|see also|n/?a|todo|tbd)\b&#34;, re.I)
 SHORT_REASON = 8  # words
 
 generic_reasons = []
@@ -2238,44 +1939,43 @@ short_reasons = []
 missing_reason = []
 duplicate_desc_kc = []
 
-for path in sorted(NOTES.glob("*.md")):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
     if path.name in SKIP:
         continue
     fm = load(path)
-    if fm.get("note_kind", "note") in ("meta", "index"):
+    if fm.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;):
         continue
     name = path.stem
-    desc = (fm.get("description") or "").strip().lower()
-    kc = (fm.get("key_concept") or "").strip().lower()
+    desc = (fm.get(&#34;description&#34;) or &#34;&#34;).strip().lower()
+    kc = (fm.get(&#34;key_concept&#34;) or &#34;&#34;).strip().lower()
     if desc and kc and desc in kc[:len(desc)+5]:
         duplicate_desc_kc.append(name)
 
-    for i, row in enumerate(fm.get("relationships") or []):
+    for i, row in enumerate(fm.get(&#34;relationships&#34;) or []):
         if not isinstance(row, dict):
             continue
-        reason = (row.get("reason") or "").strip()
-        wikilink = row.get("wikilink", "")
+        reason = (row.get(&#34;reason&#34;) or &#34;&#34;).strip()
+        wikilink = row.get(&#34;wikilink&#34;, &#34;&#34;)
         if not reason:
             missing_reason.append((name, wikilink))
-        elif len(reason.split()) < SHORT_REASON:
+        elif len(reason.split()) &lt; SHORT_REASON:
             short_reasons.append((name, wikilink, reason))
         elif GENERIC_REASON.search(reason):
             generic_reasons.append((name, wikilink, reason))
 
-print(f"duplicate desc in key_concept start: {len(duplicate_desc_kc)}")
+print(f&#34;duplicate desc in key_concept start: {len(duplicate_desc_kc)}&#34;)
 for n in duplicate_desc_kc[:10]:
-    print(f"  - {n}")
+    print(f&#34;  - {n}&#34;)
 
-print(f"\nmissing relationship reason: {len(missing_reason)}")
-print(f"short relationship reason (<8 words): {len(short_reasons)}")
+print(f&#34;\nmissing relationship reason: {len(missing_reason)}&#34;)
+print(f&#34;short relationship reason (&lt;8 words): {len(short_reasons)}&#34;)
 for n, w, r in short_reasons[:20]:
-    print(f"  {n} → {w}: \"{r}\"")
+    print(f&#34;  {n} → {w}: \&#34;{r}\&#34;&#34;)
 
-print(f"\ngeneric relationship reason: {len(generic_reasons)}")
+print(f&#34;\ngeneric relationship reason: {len(generic_reasons)}&#34;)
 for n, w, r in generic_reasons[:10]:
-    print(f"  {n} → {w}: \"{r}\"")
+    print(f&#34;  {n} → {w}: \&#34;{r}\&#34;&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml
@@ -2340,7 +2040,7 @@ PY
 duplicate desc in key_concept start: 0
 
 missing relationship reason: 0
-short relationship reason (&lt;8 words): 374
+short relationship reason (<8 words): 374
   abide-in-me → [[Sanctification]]: "Abiding is how holiness grows after justification"
   accountability → [[Complete the Cycle]]: "Owners close loops"
   accountability → [[Own the Error]]: "Accountability starts with naming the miss"
@@ -2365,28 +2065,15 @@ short relationship reason (&lt;8 words): 374
 generic relationship reason: 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg -i "warn|broken|unlinked|issue" | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg -i &#34;warn|broken|unlinked|issue&#34; | head -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg -i "warn|broken|unlinked|issue" | head -30
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2396,14 +2083,13 @@ The garden looks good overall.
 
 The audit found zero structural or link issues. One description wikilink issue remains for reliability. I am checking which notes still lack clear definitions.
 
-Most descriptions intentionally use first-person voice. The worst offenders are situational quotes that never state what the concept actually is. Examples include assurance, composure, and convert-pain-into-learning.</details></think>
+Most descriptions intentionally use first-person voice. The worst offenders are situational quotes that never state what the concept actually is. Examples include assurance, composure, and convert-pain-into-learning.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2510,72 +2196,64 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 from pathlib import Path
 
-NOTES = Path("content/english/notes")
-SKIP = {"_index.md"}
+NOTES = Path(&#34;content/english/notes&#34;)
+SKIP = {&#34;_index.md&#34;}
 
 def load(path):
-    text = path.read_text(encoding="utf-8")
-    m = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    m = re.match(r&#34;^---\s*\n(.*?)\n---&#34;, text, re.DOTALL)
     return yaml.safe_load(m.group(1)) or {} if m else {}
 
-# Strict: description doesn't define WHAT the thing is
-# Flag if: starts with When/I and no "X is" pattern anywhere in description
+# Strict: description doesn&#39;t define WHAT the thing is
+# Flag if: starts with When/I and no &#34;X is&#34; pattern anywhere in description
 # AND title word (or key alias) not in description
 undefining = []
 lazy_reasons = []
 
-for path in sorted(NOTES.glob("*.md")):
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
     if path.name in SKIP:
         continue
     fm = load(path)
-    if fm.get("note_kind", "note") in ("meta", "index"):
+    if fm.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;):
         continue
     name = path.stem
-    title = fm.get("title", "")
-    desc = (fm.get("description") or "").strip()
+    title = fm.get(&#34;title&#34;, &#34;&#34;)
+    desc = (fm.get(&#34;description&#34;) or &#34;&#34;).strip()
     if not desc:
         continue
 
-    title_words = set(re.findall(r"[A-Za-z']+", title.lower()))
+    title_words = set(re.findall(r&#34;[A-Za-z&#39;]+&#34;, title.lower()))
     desc_lower = desc.lower()
-    has_title_word = any(w in desc_lower for w in title_words if len(w) > 3)
-    has_definition = bool(re.search(r"\b(is|are|means|isn't|aren't)\b", desc, re.I))
-    starts_situational = bool(re.match(r"^(When|If|After|Before|I |Most |Good )", desc))
+    has_title_word = any(w in desc_lower for w in title_words if len(w) &gt; 3)
+    has_definition = bool(re.search(r&#34;\b(is|are|means|isn&#39;t|aren&#39;t)\b&#34;, desc, re.I))
+    starts_situational = bool(re.match(r&#34;^(When|If|After|Before|I |Most |Good )&#34;, desc))
 
     if starts_situational and not has_definition and not has_title_word:
         undefining.append((name, desc))
 
-    for row in fm.get("relationships") or []:
-        reason = (row.get("reason") or "").strip()
-        if "Named in notes that link here" in reason:
-            lazy_reasons.append((name, row.get("wikilink"), reason))
+    for row in fm.get(&#34;relationships&#34;) or []:
+        reason = (row.get(&#34;reason&#34;) or &#34;&#34;).strip()
+        if &#34;Named in notes that link here&#34; in reason:
+            lazy_reasons.append((name, row.get(&#34;wikilink&#34;), reason))
 
-print("=== DESCRIPTIONS: situational opener, no is/are, title word absent ===")
-print(f"count: {len(undefining)}\n")
+print(&#34;=== DESCRIPTIONS: situational opener, no is/are, title word absent ===&#34;)
+print(f&#34;count: {len(undefining)}\n&#34;)
 for n, d in undefining:
-    print(f"• **{n.replace('-',' ').title()}** — {d}")
+    print(f&#34;• **{n.replace(&#39;-&#39;,&#39; &#39;).title()}** — {d}&#34;)
 
-print(f"\n=== LAZY RELATIONSHIP REASONS ({len(lazy_reasons)}) ===")
+print(f&#34;\n=== LAZY RELATIONSHIP REASONS ({len(lazy_reasons)}) ===&#34;)
 for n, w, r in lazy_reasons:
-    print(f"• {n} → {w}")
+    print(f&#34;• {n} → {w}&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, yaml
@@ -2652,132 +2330,9 @@ count: 71
 • **Composure** — When the room spikes, I slow my tone so people read calm instead of panic.
 • **Compounding** — I keep doing the small right thing until the curve finally bends - flat for a long time, then not.
 • **Control The Rhythm** — I set pace in hard conversations before adrenaline picks it for me.
-• **Convert Pain Into Learning** — I only gain from a failure if it changes how I act the next time the situation shows up.
-• **Decision Quality** — I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting high.
-• **Deep Work** — I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt.
-• **Deliberate Practice** — I train the weak slice on purpose - feedback, correction, repeat - not the part I already nail.
-• **Develop Dont Endanger** — I push people to grow without picking drills where pain or risk replaces the actual skill.
-• **Discipline** — I do what I said I'd do when nobody's clapping and motivation walked out.
-• **Duty Of Care** — If roles flipped, I'd want reasonable protection from harm - that's the bar I owe people under me.
-• **Eliminate Before Managing** — I remove unnecessary danger first instead of stacking procedures and gear on top of it.
-• **Emotional Regulation** — I can feel the spike without letting it pick my next sentence.
-• **Energy Protects Judgment** — I protect sleep and recovery because tired me makes worse calls than rested me on the same facts.
-• **Evergreen Notes** — I phrase ideas I'd still stand behind in two years and revise when reality shifts, not when a trend spikes.
-• **Expect The Counter** — I plan what happens after the other side adapts, not just how my opening move looks on paper.
-• **Failure As Feedback** — I read a miss as signal about process or skill, not as proof I'm the wrong kind of person.
-• **Forgiveness At Work** — I release a colleague's debt from my heart without pretending the slight didn't matter or skipping boundaries where trust broke.
-• **Grateful Obedience** — I obey today because Christ already saved me, not to buy or re-earn eternal life.
-• **Growth Mindset** — I treat a rough outing as data about what to practice next, not proof I'm stuck with a fixed label.
-• **Habit Formation** — I repeat one small move until it runs on autopilot instead of re-debating it every morning.
-• **Intellectual Sourcing** — I cite sources in notes to trust my synthesis and find the original later.
-• **Layered Reading** — I don't read a book once and pretend I absorbed it - I pass through again when I need more.
-• **Leadership** — When the room goes quiet and everyone looks at me, I own what happens next - title optional.
-• **Literature Notes** — After I read a source, I write what stuck in my own words - not a pile of copied highlights.
-• **Maintenance Window** — I block garden time on the calendar so broken links don't ambush me on a random Sunday.
-• **Mental Models** — I keep a short list of thinking shortcuts that survived real decisions - not every model on Wikipedia.
-• **Network Analysis** — I look at which notes connect everything else - those hubs tell me where the garden actually lives.
-• **Notice The Good** — I name the specific helpful move out loud so people know what to repeat.
-• **Own The Error** — When I miss, I say I missed - blame-shifting turns a fixable bug into a long argument.
-• **Pareto Principle** — Most results come from a small slice of work - find the slice, protect it, cut the rest.
-• **Patience** — I wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping.
-• **Peacemakers** — I pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet.
-• **Periodic Knowledge Review** — If I never revisit notes, they rot - I calendar weekly and quarterly passes like I'd calendar bills.
-• **Progressive Summarization** — I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I actually reuse the note.
-• **Reconciliation Before Worship** — If your brother has something against you, go reconcile first - then come offer your gift.
-• **Resilience** — I bend without lying to myself that the hit didn't cost anything.
-• **Sanctification** — After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in.
-• **Second Order Thinking** — I ask what the clever fix triggers next - copycats, shortcuts, and incentives I didn't plan for.
-• **Secret Devotion** — I give, pray, and fast for God to see - not for applause in the group chat.
-• **Self Control** — I pick the next move on purpose - the urge doesn't get to drive.
-• **Selling Static Sites** — I charge for the build and handoff; hosting stays free until traffic or client policy forces upgrade.
-• **Servant Leadership** — I unblock the team, coach through the mess, take blame up, and pass credit down.
-• **Set Calm Boundaries** — I name one clear limit on behavior in a steady voice - not a character attack.
-• **Share What You Learn** — I write the doc, do the handoff, and answer the junior's question - hoarding know-how helps nobody.
-• **Ship It** — I push the good-enough version live instead of polishing until the deadline owns me.
-• **Situational Control** — I steer pace, format, and who speaks in the room when I can't own the whole outcome.
-• **Sketchpad** — I rough out shapes on paper first - drafts and diagrams before anything public.
-• **Slow Productivity** — I run fewer active projects so notes become finished work, not a guilt backlog.
-• **Spaced Repetition** — I review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up.
-• **Staged Rollout** — I ship to a small slice first so rollback stays cheap if the new state bleeds.
-• **Sustainable Performance** — I aim for a pace I can hold next month without burning out or cutting safety corners.
-• **Systems Thinking** — I trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch.
-• **Take Up Your Cross** — I deny myself and follow Christ daily - choosing his will over mine, not collecting suffering points.
-• **The Feynman Technique** — I teach the note out loud to a blank page - wherever I stumble, I don't understand yet.
-• **The Golden Rule** — I treat people how I'd want to be treated - active care, not just avoiding harm.
-• **Treasure In Heaven** — I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take.
-• **Turn The Other Cheek** — When someone hits or insults me, I don't hand back the same - I break the retaliation loop.
-• **Versatility** — I can plug into more than one lane when the team or the client needs a shift.
-
-=== LAZY RELATIONSHIP REASONS (61) ===
-• attention-economy → [[Digital Minimalism]]
-• attention-economy → [[Signal vs Noise]]
-• behavioral-economics → [[Decision Quality]]
-• behavioral-economics → [[Sunk Cost Fallacy]]
-• coaching-ethics → [[Develop, Don't Endanger]]
-• coaching-ethics → [[Servant Leadership]]
-• commonplace-book → [[Analog Capture Tools]]
-• commonplace-book → [[Intellectual Sourcing]]
-• crdt → [[Local-first Software]]
-• deep-work → [[Slow Productivity]]
-• duty-of-care → [[Develop, Don't Endanger]]
-• duty-of-care → [[Life Before Achievement]]
-• elon-musk → [[First Principles Thinking]]
-• ethical-leadership → [[Life Before Achievement]]
-• ethical-leadership → [[Servant Leadership]]
-• forgetting-curve → [[Spaced Repetition]]
-• getting-things-done → [[GTD vs PARA]]
-• getting-things-done → [[The Trusted Inbox]]
-• hierarchy-of-controls → [[Eliminate Before Managing]]
-• inbox-zero → [[Getting Things Done]]
-• inbox-zero → [[The Trusted Inbox]]
-• incident-investigation → [[Heed Every Near-Miss]]
-• incident-investigation → [[Own the Error]]
-• information-diet → [[Digital Minimalism]]
-• information-diet → [[Signal vs Noise]]
-• layered-reading → [[Literature Notes]]
-• layered-reading → [[Progressive Summarization]]
-• lean-startup → [[Minimum Viable Product]]
-• learning-organizations → [[Continuous Improvement]]
-• learning-organizations → [[Convert Pain Into Learning]]
-• literature-notes → [[Intellectual Sourcing]]
-• literature-notes → [[Progressive Summarization]]
-• maintenance-window → [[Periodic Knowledge Review]]
-• maintenance-window → [[Weekly Review Checklists]]
-• network-analysis → [[Associative Linking]]
-• network-analysis → [[Graph View Analytics]]
-• normalization-of-deviance → [[Heed Every Near-Miss]]
-• psychological-safety → [[Heed Every Near-Miss]]
-• psychological-safety → [[Own the Error]]
-• quarterly-planning → [[Periodic Knowledge Review]]
-• quarterly-planning → [[The 12 Week Year]]
-• read-later-queue → [[The Collector's Fallacy]]
-• read-later-queue → [[The Trusted Inbox]]
-• reversibility → [[Decision Quality]]
-• reversibility → [[Life Before Achievement]]
-• risk-management → [[Eliminate Before Managing]]
-• risk-management → [[Heed Every Near-Miss]]
-• safety-by-design → [[Eliminate Before Managing]]
-• safety-by-design → [[Hierarchy of Controls]]
-• share-sheet → [[Capture]]
-• share-sheet → [[Mobile Capture Workflows]]
-• ship-it → [[Creative Output]]
-• ship-it → [[Minimum Viable Product]]
-• sketchpad → [[Drafting in Public]]
-• sketchpad → [[The Garage Concept]]
-• taxonomy → [[Metadata Strategy]]
-• taxonomy → [[PARA Method]]
-• tony-buzan → [[Mind Mapping]]
-• voice-memos → [[Context-Aware Capture]]
-• voice-memos → [[Mobile Capture Workflows]]
-• webhooks → [[Building a Personal API]]
-
+• **Convert Pain Into Learning** — I only gain from a failure if it changes how I act the next time the s
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2793,7 +2348,8 @@ No broken links, missing extends, or drafts were found. Three issues need clarif
 
 17 notes are under 15 words and may need thinning. 41 notes sit at the minimum two-card deck size. The 33 lazy reasons map to 11 unique notes, including attention-economy, behavioral-economics, and coaching-ethics.
 
-The lazy-reason tally is closer to 35 unique notes than 33. The full list includes hierarchy-of-controls, inbox-zero, incident-investigation, information-diet, and many others.</details></think>
+The lazy-reason tally is closer to 35 unique notes than 33. The full list includes hierarchy-of-controls, inbox-zero, incident-investigation, information-diet, and many others.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2888,7 +2444,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Proceeding with all four suggested fixes.
 
-Starting with the jorap-voice skill guidelines. Then systematically reviewing all 35 affected notes to apply the four fixes.</details></think>
+Starting with the jorap-voice skill guidelines. Then systematically reviewing all 35 affected notes to apply the four fixes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2897,23 +2454,15 @@ I'll work through all four fixes in order: Reliability description, placeholder 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3021,29 +2570,322 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reading all four files that require editing.</details></think>
+Reading all four files that require editing.
+
+Found 35 placeholder files, roughly 22 situational descriptions, and 17 thin key concepts to fix. Reading all files in batches now. Placeholder reasons require understanding each note's context. Specific situational topics include Assurance, Composure, Convert Pain Into Learning, Build a Reliable Default, Control the Rhythm, Own the Error, Elon Musk, and First Principles Thinking.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+Parameters:
+
+```json
+{
+  "description": "Fix placeholder relationship reasons",
+  "model": "auto-low",
+  "name": "general-purpose",
+  "prompt": "Fix all \"Named in notes that link here\" placeholder relationship reasons in JoRap garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFiles to fix (grep found these):\ndeep-work.md, risk-management.md, share-sheet.md, maintenance-window.md, normalization-of-deviance.md, psychological-safety.md, commonplace-book.md, ship-it.md, network-analysis.md, quarterly-planning.md, reversibility.md, duty-of-care.md, incident-investigation.md, crdt.md, layered-reading.md, getting-things-done.md, attention-economy.md, sketchpad.md, hierarchy-of-controls.md, information-diet.md, tony-buzan.md, forgetting-curve.md, webhooks.md, ethical-leadership.md, taxonomy.md, voice-memos.md, safety-by-design.md, read-later-queue.md, elon-musk.md, inbox-zero.md, literature-notes.md, lean-startup.md, coaching-ethics.md, behavioral-economics.md, learning-organizations.md\n\nFor EACH file:\n1. Read the full note (title, description, key_concept, examples, all relationships)\n2. Replace ONLY rows where reason is exactly \"Named in notes that link here\" with a real clause explaining WHY that link type fits (extends/contradicts/implements/alternative)\n3. Match JoRap voice: plain words, clause not paragraph, specific to the two notes' tension\n4. Do NOT change anything else in the files\n\nExamples of good reasons from other notes:\n- \"when waiting for perfect reliability blocks shipping something useful now\"\n- \"Owners close loops\"\n- \"Prune and tend - same curator job\"\n\nAfter edits, verify no \"Named in notes that link here\" remains in content/english/notes/\n\nReturn a summary table: file → wikilink → new reason for each change made.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "status": "success",
+  "subagentComposerId": "50b42026-e140-4e9c-a4a1-1d14755c640b",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "50b42026-e140-4e9c-a4a1-1d14755c640b"
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+Parameters:
+
+```json
+{
+  "description": "Fix situational descriptions",
+  "model": "auto-low",
+  "name": "general-purpose",
+  "prompt": "Rewrite `description` frontmatter in these JoRap garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ to be memorable definitions recallable cold.\n\nFiles (read each first):\nassurance.md, composure.md, convert-pain-into-learning.md, build-a-reliable-default.md, control-the-rhythm.md, own-the-error.md, elon-musk.md, first-principles-thinking.md, graph-view-analytics.md, growth-mindset.md, gtd-vs-para.md, leadership.md, mental-models.md, mobile-capture-workflows.md, notice-the-good.md, pareto-principle.md, set-calm-boundaries.md, slow-productivity.md, accountability.md, compounding.md\n\nRules from jorap-voice:\n- `description` = memorable definition in one breath, ≤20 words, NO [[wikilinks]]\n- Plain words JoRap would say aloud\n- Can use first person when it helps recall, but must answer \"what IS this?\" not just \"what do I do when...\"\n- Do NOT change key_concept, examples, relationships, cards, or any other field\n- Only edit the `description:` line in frontmatter\n\nGood examples:\n- \"Accountability is naming who owns the result - and what happens when it slips.\" (from accountability.md - but rewrite if current is situational)\n- \"David Allen's capture-clarify-organize loop gives me a trusted inbox, next actions, and a weekly review.\"\n\nReturn: file → old description → new description for each file changed.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "status": "success",
+  "subagentComposerId": "510b46dc-14ae-46c7-9c74-a5a043b28afc",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "510b46dc-14ae-46c7-9c74-a5a043b28afc"
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+Parameters:
+
+```json
+{
+  "description": "Expand thin key_concepts",
+  "model": "auto-low",
+  "name": "general-purpose",
+  "prompt": "Expand thin `key_concept` frontmatter in these JoRap garden notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nFiles (key_concept currently under ~15 words or too thin):\nassociative-linking.md, digital-minimalism.md, emotional-regulation.md, evergreen-vs-fleeting-notes.md, expect-the-counter.md, growth-mindset.md, gtd-vs-para.md, listen-before-fixing.md, mobile-capture-workflows.md, name-the-feeling.md, notice-the-good.md, periodic-knowledge-review.md, process-over-outcomes.md, set-calm-boundaries.md, slow-productivity.md\n\nRules:\n- `key_concept` = the angle/stakes, NOT a second copy of description\n- Can include [[wikilinks]] for graph context\n- 1-2 short paragraphs, punchy opening line\n- Do NOT change description, examples, relationships, cards, or other fields\n- Match existing note voice\n\nReturn: file → old key_concept → new key_concept for each file changed.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "status": "success",
+  "subagentComposerId": "6751e74c-8793-46dd-8a38-ba68fb9170e4",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "6751e74c-8793-46dd-8a38-ba68fb9170e4"
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Subagents finished the bulk edits; I'm verifying everything landed and running the linters.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Named in notes that link here"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Named in notes that link here",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 &amp;&amp; python3 scripts/notes-voice-lint.py 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 && python3 scripts/notes-voice-lint.py 2>&1
+```
+
+```
+Note frontmatter lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, yaml
+from pathlib import Path
+NOTES = Path(&#34;content/english/notes&#34;)
+files = [
+&#34;assurance.md&#34;,&#34;composure.md&#34;,&#34;convert-pain-into-learning.md&#34;,&#34;build-a-reliable-default.md&#34;,
+&#34;control-the-rhythm.md&#34;,&#34;own-the-error.md&#34;,&#34;elon-musk.md&#34;,&#34;first-principles-thinking.md&#34;,
+&#34;graph-view-analytics.md&#34;,&#34;growth-mindset.md&#34;,&#34;gtd-vs-para.md&#34;,&#34;leadership.md&#34;,&#34;mental-models.md&#34;,
+&#34;mobile-capture-workflows.md&#34;,&#34;notice-the-good.md&#34;,&#34;pareto-principle.md&#34;,&#34;set-calm-boundaries.md&#34;,
+&#34;slow-productivity.md&#34;,&#34;accountability.md&#34;,&#34;compounding.md&#34;,&#34;reliability.md&#34;
+]
+for f in files:
+    text = (NOTES/f).read_text()
+    m = re.match(r&#34;^---\s*\n(.*?)\n---&#34;, text, re.DOTALL)
+    fm = yaml.safe_load(m.group(1))
+    desc = (fm.get(&#39;description&#39;) or &#39;&#39;).strip()
+    words = len(desc.split())
+    flags = []
+    if &#39;[[&#39; in desc: flags.append(&#39;wikilink&#39;)
+    if words &gt; 20: flags.append(f&#39;{words}w&#39;)
+    print(f&#34;{f}: {words}w {&#39; &#39;.join(flags)} | {desc[:70]}...&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml
+from pathlib import Path
+NOTES = Path("content/english/notes")
+files = [
+"assurance.md","composure.md","convert-pain-into-learning.md","build-a-reliable-default.md",
+"control-the-rhythm.md","own-the-error.md","elon-musk.md","first-principles-thinking.md",
+"graph-view-analytics.md","growth-mindset.md","gtd-vs-para.md","leadership.md","mental-models.md",
+"mobile-capture-workflows.md","notice-the-good.md","pareto-principle.md","set-calm-boundaries.md",
+"slow-productivity.md","accountability.md","compounding.md","reliability.md"
+]
+for f in files:
+    text = (NOTES/f).read_text()
+    m = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
+    fm = yaml.safe_load(m.group(1))
+    desc = (fm.get('description') or '').strip()
+    words = len(desc.split())
+    flags = []
+    if '[[' in desc: flags.append('wikilink')
+    if words > 20: flags.append(f'{words}w')
+    print(f"{f}: {words}w {' '.join(flags)} | {desc[:70]}...")
+PY
+```
+
+```
+assurance.md: 16w  | Assurance is resting on Christ's finished work when doubt hits - not m...
+composure.md: 16w  | Composure is steady voice and pace when the room isn't - people read c...
+convert-pain-into-learning.md: 13w  | Convert pain into learning means failure must produce correction, not ...
+build-a-reliable-default.md: 14w  | A reliable default is the simple rehearsed move I run when thinking is...
+control-the-rhythm.md: 15w  | Control the rhythm is taking back pace before urgency, conflict, or so...
+own-the-error.md: 15w  | Owning the error is naming the miss clearly so failure becomes informa...
+elon-musk.md: 14w  | Elon Musk is the pop-culture shorthand for first-principles thinking -...
+first-principles-thinking.md: 14w  | First principles thinking is rebuilding from what I actually believe, ...
+graph-view-analytics.md: 15w  | Graph view analytics reads my link map for orphans, over-connected hub...
+growth-mindset.md: 16w  | Growth mindset treats ability as trainable - mistakes are data, not pr...
+gtd-vs-para.md: 16w  | GTD vs PARA runs tasks in one system and notes in another - cousins, n...
+leadership.md: 15w  | Leadership is owning direction, pace, and care when people look to you...
+mental-models.md: 12w  | Mental models are thinking shortcuts I keep when they survive real dec...
+mobile-capture-workflows.md: 18w  | Mobile capture is one tap to save the spark before I scroll away - sha...
+notice-the-good.md: 15w  | Notice the good means naming the specific helpful move so people know ...
+pareto-principle.md: 17w  | The Pareto principle is the 80/20 rule - most results come from a smal...
+set-calm-boundaries.md: 16w  | A calm boundary is one clear limit on behavior, named steady - not a c...
+slow-productivity.md: 15w  | Slow productivity is fewer active projects so work finishes deep inste...
+accountability.md: 14w  | Accountability is naming who owns the result - and what happens when i...
+compounding.md: 16w  | Compounding is small gains stacked ov
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg -i &#34;warn|error|broken|unlinked&#34; | head -20 || echo &#34;Hugo build clean&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg -i "warn|error|broken|unlinked" | head -20 || echo "Hugo build clean"
+```
+
+```
+Hugo build clean
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/attention-economy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All four tasks completed successfully.
+</details></think>
+
+_**Agent (auto-low)**_
+
+All four passes are done. Linters and Hugo build are clean.
+
+## 1. Reliability description
+Removed the wikilink from `description`:
+> Reliability is closing loops on time often enough that people stop asking twice.
+
+## 2. Placeholder relationship reasons (35 notes, 61 rows)
+Replaced every `"Named in notes that link here"` with a real clause. Examples:
+- **Attention Economy** → Signal vs Noise: *"Platforms sell noise - you guard signal"*
+- **Getting Things Done** → The Trusted Inbox: *"Trusted inbox is the heart of the loop"*
+- **Ship It** → Minimum Viable Product: *"Smallest shippable slice beats endless polish"*
+
+## 3. Situational descriptions → definitions (20 notes)
+Rewrote descriptions to answer "what *is* this?" in ≤20 words. Examples:
+- **Assurance**: *"Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score."*
+- **Composure**: *"Composure is steady voice and pace when the room isn't - people read calm as competence."*
+- **Accountability**: *"Accountability is naming who owns the result - and what happens when it slips."*
+
+## 4. Thin `key_concept` expanded (15 notes)
+Added angle and stakes without duplicating descriptions. Examples:
+- **Associative Linking** — punchy opener plus how typed links make the garden walkable months later
+- **Emotional Regulation** — *"Feel the spike. Don't mail it."* with links to Slow the Moment and Name the Feeling
+- **Slow Productivity** — busy vs finished tension, with Deep Work as the depth cost
+
+**Verification:** `lint-notes-frontmatter` OK · `notes-voice-lint` OK · Hugo build clean · zero placeholder reasons remaining.

@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Considering what the next post should focus on for the homepage.
 
-Exploring the Hugo site structure to understand how the homepage works and what content exists.</details></think>
+Exploring the Hugo site structure to understand how the homepage works and what content exists.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,10 +25,8 @@ I'll trace how the homepage picks what to feature and what content is queued nex
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -134,22 +133,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **305** results in **1** directory</summary>
 
-Directory: **** (305 files)
+Directory: **``** (305 files)
 
 | File |
 |------|
@@ -458,36 +449,27 @@ Directory: **** (305 files)
 | `content/english/notes/periodic-knowledge-review.md` |
 | `content/english/notes/christianity-and-politics.md` |
 | `content/english/drafts/_index.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the homepage layout, section configuration, and planning documents to determine the next focus area.</details></think>
+Reviewing the homepage layout, section configuration, and planning documents to determine the next focus area.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
 
-Directory: **** (6 files)
+Directory: **``** (6 files)
 
 | File |
 |------|
@@ -497,41 +479,24 @@ Directory: **** (6 files)
 | `themes/jorap/layouts/_partials/sections/home-writing.html` |
 | `layouts/home.webmanifest` |
 | `themes/jorap/layouts/home.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/_index.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -637,25 +602,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/anti-fragile-systems.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/anti-fragile-systems.md</summary>
 
 </details></tool-use>
 
@@ -664,30 +616,626 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing the homepage structure, templates, and planning documents to determine the next focus area.
 
-Checking recent specstory history for homepage and bible notes reviews.</details></think>
+Checking recent specstory history for homepage and bible notes reviews.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/home.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/home.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/_index.md</summary>
 
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/home-writing.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/home-intro.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the Hugo configuration for homepage settings and blog post slugs.
+
+Also checking a recent specstory about bible notes review and homepage.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/home-scope.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
+
+Directory: **``** (3 files)
+
+| File |
+|------|
+| `content/english/notes/minimum-viable-product.md` |
+| `content/english/notes/slow-productivity.md` |
+| `docs/PRODUCT.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking hugo.toml and PRODUCT.md for homepage configuration and strategy.
+
+Also reviewing blog posts and featured content.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "home_blog|home_intro|home_scope"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "home_blog|home_intro|home_scope",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-18_17-22-23Z-email-functionality-in-contact-us-form.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_02-45-48Z-file-path-reference.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".impeccable/critique/2026-06-18T17-10-25Z__themes-jorap-layouts-home-html.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_09-57-42Z-tag-list-row-gap-issue.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-19_05-19-43Z-notes-image-asset.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 35,
+      "uri": ".specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-05-04_00-44-55Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/sections/home-intro.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_17-18-55Z-button-and-link-padding-consistency.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-23_22-51-23Z-impeccable-critique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-28_01-16-50Z-codebase-review-for-improvements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/sections/home-scope.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_00-39-28Z-blank-page-issue-on-jorap-admin.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-09_14-07-18Z-site-improvement-suggestions.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "config/_default/params.toml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/sections/home-writing.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".impeccable/critique/2026-06-18T17-25-43Z__themes-jorap-layouts-home-html.md"
+    }
+  ],
+  "totalFiles": 18,
+  "totalMatches": 77
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/PRODUCT.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **54** results in **1** directory</summary>
+
+Directory: **``** (54 files)
+
+| File |
+|------|
+| `content/english/blog/__mi-box-s.md` |
+| `content/english/blog/__native-hugo-taxonomies.md` |
+| `content/english/blog/__tailwind-css-v4.md` |
+| `content/english/blog/dnpap-song-resources.md` |
+| `content/english/blog/hugoplate-theme-review.md` |
+| `content/english/blog/__extension-cord.md` |
+| `content/english/blog/__hugo-shortcodes-deep-dive.md` |
+| `content/english/blog/__markdown-deep-dive.md` |
+| `content/english/blog/__sustainable-online-publishing.md` |
+| `content/english/blog/__sveltia-cms.md` |
+| `content/english/blog/__hugo-go-templates.md` |
+| `content/english/blog/__jobs-to-be-done-framework.md` |
+| `content/english/blog/__personal-immune-booster-supplements.md` |
+| `content/english/blog/why-i-stopped-playing-marvel-snap.md` |
+| `content/english/blog/__password-managers.md` |
+| `content/english/blog/__hugo-static-site-generator.md` |
+| `content/english/blog/__stuart-mcgill-big-three-low-back-exercises.md` |
+| `content/english/blog/power-of-the-mouse-wheel-click.md` |
+| `content/english/blog/consistent-ai-output-wordpress-builds.md` |
+| `content/english/blog/__markdown-formatting.md` |
+| `content/english/blog/__shopee-tips.md` |
+| `content/english/blog/_index.md` |
+| `content/english/blog/miracle-isaiah-david.md` |
+| `content/english/blog/__wifi-router.md` |
+| `content/english/blog/__second-cellphone.md` |
+| `content/english/blog/__how-to-create-a-good-habit.md` |
+| `content/english/blog/__worcestershire-sauce-lee-and-perrins.md` |
+| `content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md` |
+| `content/english/blog/__blog-template.md` |
+| `content/english/blog/how-i-built-jorap-notes.md` |
+| `content/english/blog/getting-started-with-rss-feeds-beginners-guide.md` |
+| `content/english/blog/instant-pot-arroz-caldo.md` |
+| `content/english/blog/__client-site-pass-off.md` |
+| `content/english/blog/__kewpie-mayo.md` |
+| `content/english/blog/__jorap-notes-features.md` |
+| `content/english/blog/__static-site-client-scope.md` |
+| `content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md` |
+| `content/english/blog/__hugo-page-bundles.md` |
+| `content/english/blog/__craft-prompt-framework.md` |
+| `content/english/blog/__obsidian-vs-hugo.md` |
+| `content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md` |
+| `content/english/blog/what-i-look-for-in-wireless-earphones.md` |
+| `content/english/blog/__rechargeable-batteries.md` |
+| `content/english/blog/__canon-g3000.md` |
+| `content/english/blog/__drupal-to-wordpress.md` |
+| `content/english/blog/alex-eala-pro-career-tracker.md` |
+| `content/english/blog/instant-pot-chicken-adobo.md` |
+| `content/english/blog/top-reasons-create-maintain-your-own-website.md` |
+| `content/english/blog/set-it-forget-it-arroz-caldo.md` |
+| `content/english/blog/__smart-plug.md` |
+| `content/english/blog/__blank-blog-template.md` |
+| `content/english/blog/__make-ai-articles-more-human.md` |
+| `content/english/blog/__remote-work-checklist.md` |
+| `content/english/blog/__selling-static-sites.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the homepage blog parameters and recent specstory to determine the next post focus.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning to map out the homepage structure.
+
+Three interpretations of the question are being weighed: a new buyer-focused blog post, an existing draft ready for homepage pinning, or a note that could be turned into homepage content.
+
+Focusing on gaps between the homepage curation and PRODUCT.md guidance. Reviewing unpublished drafts and recent critiques to identify buyer-relevant posts missing from the current homepage.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "^draft:|^featured:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^draft:|^featured:",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/why-i-stopped-playing-marvel-snap.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/instant-pot-chicken-adobo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/how-i-built-jorap-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__static-site-client-scope.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__shopee-tips.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__make-ai-articles-more-human.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__sustainable-online-publishing.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/top-reasons-create-maintain-your-own-website.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__blank-blog-template.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__worcestershire-sauce-lee-and-perrins.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__second-cellphone.md"
+    }
+  ],
+  "totalFiles": 54,
+  "totalMatches": 107
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__static-site-client-scope.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The plan for the next homepage post is now clear.
+
+The next homepage post should be the first of three drafts for "Writing for site owners": "selling-static-sites," covering how to quote client websites. The remaining two drafts, "static-site-client-scope" and "client-site-pass-off," will follow in sequence.
+
+The Impeccable critique recommends replacing the current homepage pins with buyer-relevant topics such as migrations, hiring freelancers, and owning your site. The existing pins are mixed, with only two fully buyer-focused and several less relevant.
+
+Facebook favorites and RSS/desktop guides are the weakest buyer-relevant pins. The next post should be the first unpublished client-work draft, either `client-site-pass-off` or the scope post. Publishing them in sequence—scope, then quote, then pass-off—maximizes homepage impact.
+
+`static-site-client-scope` is the best candidate for the next homepage pin. It directly addresses whether static sites are right for buyers and aligns with the "WordPress & static sites" and "Migrations & upkeep" home_scope topics. The "consistent-ai-output-wordpress-builds" post already holds the hero slot.
+
+`client-site-pass-off` is another viable option. It targets a real post-launch pain point that site owners feel. The `drupal-to-wordpress` draft is too developer-centric for the homepage. I am also reviewing `__remote-work-checklist` and `__sustainable-online-publishing` for buyer relevance, and checking for any changelog or planning documents.
+
+The anti-fragile-systems note could become a homepage post about future-proofing, but the client-work trilogy is more directly aligned. I will also review the home_proof section.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.impeccable",
+  "pattern": "buyer|homepage|post_slugs|next post"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.impeccable",
+  "pattern": "buyer|homepage|post_slugs|next post",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": ".impeccable/critique/2026-06-18T17-25-43Z__themes-jorap-layouts-home-html.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".impeccable/critique/2026-07-02T23-29-02Z__site-wide-ui-ux-review.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".impeccable/critique/2026-06-23T22-53-30Z__themes-jorap-layouts-home-html.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".impeccable/critique/2026-07-02T23-23-52Z__site-wide-ui-ux-review.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".impeccable/critique/2026-06-18T17-10-25Z__themes-jorap-layouts-home-html.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".impeccable/critique/2026-06-23T15-11-36Z__themes-jorap-layouts-home-html.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 48
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A comprehensive answer is ready.
+
+The next homepage post should be the draft client-work trilogy. Publish static-site-client-scope first to answer whether the reader should hire you. Then publish selling-static-sites and client-site-pass-off. After publishing, replace the weakest pins, such as the Facebook hidden gem and the RSS beginners guide.
+
+Two posts could serve as homepage hero: `static-site-client-scope` or `consistent-ai-output-wordpress-builds`. Both are strong buyer signals. `drupal-to-wordpress` is another candidate for second place. `sustainable-online-publishing` could replace the Facebook pin. The anti-fragile-systems thread is unrelated.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The homepage is already set up as a **buyer-facing** surface, not a reverse-chron blog dump. The hero, scope block, and pinned posts all point at site owners and decision-makers.
+
+## What the homepage is optimizing for
+
+From `config/_default/params.toml`:
+
+- **Intro** — person-first positioning (Jonathan Rapusas, remote freelance since 2013)
+- **Scope** — WordPress/static sites, hosting, migrations, training
+- **Writing grid** — section title **"Writing for site owners"**, with 5 pinned slugs
+
+The lead card (largest slot) is always the **first slug** in that list — currently `consistent-ai-output-wordpress-builds`.
+
+## Gap in the current grid
+
+Three pins are strong for buyers:
+
+1. `consistent-ai-output-wordpress-builds`
+2. `top-reasons-create-maintain-your-own-website`
+3. `top-reasons-why-you-still-need-use-desktop-laptop`
+
+Two are weaker for a hiring decision-maker:
+
+- `facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience` — useful, but lifestyle/social, not “why hire JoRap”
+- `getting-started-with-rss-feeds-beginners-guide` — adjacent, but tool-tip energy, not proof of client judgment
+
+Your Impeccable critiques said the same thing: curate toward **migrations, hiring a freelancer, owning your site** — not peer build logs or hobby posts.
+
+## The next post to focus on: **`static-site-client-scope`**
+
+You already have a draft trilogy aimed exactly at homepage buyers:
+
+| Draft slug | Title | Why it fits |
+|---|---|---|
+| **`static-site-client-scope`** | *When I Say Yes to a Client Website (and When I Send You to WordPress)* | Answers the buyer’s first question: “Is this the right stack / the right person?” Mirrors **Work I Take On** directly. |
+| `selling-static-sites` | *How I Quote Client Websites* | Trust signal — transparent pricing, no mystery bundles |
+| `client-site-pass-off` | *What Happens After Your Website Goes Live* | Post-launch pain — “who publishes next?” |
+
+**Publish `static-site-client-scope` first.** It’s the top of the funnel; the other two assume the reader is already considering hiring you.
+
+Runner-up if you want a migration angle instead: **`drupal-to-wordpress`** (already `featured: true`, still draft) — fits **Migrations & upkeep**, but reads more as your career story than a buyer’s decision guide.
+
+## How to wire it in
+
+After you publish (drop `draft: true`, remove the `__` filename prefix if you use that convention):
+
+1. Add `"static-site-client-scope"` to `home_blog.post_slugs`
+2. Swap out `facebooks-hidden-gem-...` (and optionally RSS)
+3. Consider promoting it to **slot 2** — keep AI/WordPress as the hero, put scope right under it
+
+Something like:
+
+```toml
+post_slugs = [
+  "consistent-ai-output-wordpress-builds",
+  "static-site-client-scope",
+  "top-reasons-create-maintain-your-own-website",
+  "client-site-pass-off",  # after you publish it
+  "top-reasons-why-you-still-need-use-desktop-laptop",
+]
+```
+
+## After that
+
+Publish in order: **scope → quote (`selling-static-sites`) → pass-off (`client-site-pass-off`)**. That gives you a complete “how I think about client sites” arc without writing anything new — just finishing what’s already drafted.
+
+`anti-fragile-systems` (the note you had open) is a strong *ideas* piece, but for homepage buyer focus it’s better as a notes-garden depth link from one of the client posts (`future-proofing-knowledge`, plain files, tested backups) than as the next homepage hero.
+
+Want me to polish and publish `static-site-client-scope` and update `post_slugs`?

@@ -41,7 +41,7 @@
     {{- $parts = $parts | append (printf "## Note Relationships\n\n%s" (delimit $rows "\n")) -}}
   {{- end -}}
 
-  {{- $body := $page.RawContent | strings.TrimSpace -}}
+  {{- $body := partial "notes/note-raw-body.html" $page -}}
   {{- if and $body (ne $body "-") -}}
     {{- $parts = $parts | append $body -}}
   {{- end -}}

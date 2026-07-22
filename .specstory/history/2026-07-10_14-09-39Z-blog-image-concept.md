@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'm brainstorming an image concept for the blog post about focusing on open source.
 
-First I'll read the blog post to understand its themes and content.</details></think>
+First I'll read the blog post to understand its themes and content.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,26 +25,241 @@ Reading the post to pull out its themes and suggest a fitting image concept.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I'm brainstorming an image concept for the blog post about focusing on open source.
+
+Reviewing existing blog posts to match the site's visual style.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Checking how other posts handle featured images and the site's visual style.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^image:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^image:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/static-site-vs-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/how-i-built-jorap-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/top-reasons-create-maintain-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/power-of-the-mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/what-i-look-for-in-wireless-earphones.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-stopped-playing-marvel-snap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/instant-pot-chicken-adobo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 54
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **13** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (13 files)
+
+| File |
+|------|
+| `assets/images/static-vs-cms.jpg` |
+| `assets/images/instant-pot-arroz-caldo.jpg` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/assets/css/images.css` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/partials/logo.html` |
+| `assets/images/drupal-to-wp.jpg` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/partials/bg-image.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/assets/scss/images.scss` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/partials/favicon.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html` |
+| `assets/images/note.jpg` |
+| `assets/images/stop_snap.jpg` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/partials/image.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/assets/plugins/lazy-loader.js` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing existing custom blog images like drupal-to-wp for reference.
+
+Inferring image themes from filenames and related posts. Static-site-vs-cms offers a useful comparison. The user wants creative direction, not an immediate generation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A concept is needed for a featured image for the open source blog post.
+
+Key themes include practicality over ideology, affordability, choice within open source, portability, inspectable code, community depth, and free tiers. A filter metaphor—inspect, move, find help—could anchor the visual concept.
+
+The image should avoid manifesto imagery, purity tests, and cliché open-source tropes. It should instead feel practical and grounded. One concrete concept is a simple cardboard box labeled "my stuff" being lifted out of a generic server rack, symbolizing ownership and portability.
+
+Alternative concepts were considered but rejected. A split scene contrasting locked proprietary boxes with open markdown files felt too literal. A laptop on a kitchen table evokes the Philippines learning context well. A Git folder tree bleeding into deployment arrows was deemed too abstract.
+
+A well-worn toolbox with subtle OSS tool labels could suggest choice without fanboy imagery. Another concept mirrors a markdown file across a USB drive, printed page, and second monitor to emphasize boring formats that outlast any host. Existing site images like drupal-to-wp.jpg and static-vs-cms.jpg may provide useful reference.
+
+The recommended concept is a moving box hero. An open laptop sits beside a half-packed cardboard box containing plain, unlabeled folders. This captures the practical survival toolkit angle without ideology. Two to three concepts will be presented with rationale, alt text, and style notes.
+
+The recommended concept is a lived-in home office workbench. A magnifying glass sits over printed source code to represent inspecting code. A thumb drive or Git sticker rests on a plain notebook to represent portability. A phone shows a Stack Overflow thread to represent finding help. No logos appear. A generic hosting watermark can sit in the background as the host is walked away from.
+
+A third concept is a student workspace shelf. Plain labeled boxes hold free open tools. Locked display cases with blurred price tags sit behind them. This frames the story as a money and access problem. It risks feeling preachy. The current placeholder joraps-world.jpg should be replaced with a dedicated image.
+
+The image should use warm, realistic photography or illustration rather than neon tech gradients. Corporate stock photo tropes should be avoided. Flat illustration matching existing blog art is also an option.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Here’s a concept that fits the post’s tone: **practical survival, not open-source evangelism**.
+
+## Recommended concept: **“The three-part filter”**
+
+**Scene:** A lived-in home desk (not a startup office). Three objects in focus, nothing preachy:
+
+1. **Inspect** — laptop or printed page with real code/template visible; a magnifying glass or reading glasses nearby  
+2. **Move** — plain folder labeled `posts` or a USB drive beside a simple Git repo tree on screen  
+3. **Find help** — phone showing a forum thread or search results (blurred enough to stay generic)
+
+Background stays soft: coffee mug, cheap lamp, maybe a student-style setup nodding to the Philippines teaching angle. No penguin stickers, no “FREE SOFTWARE” posters, no hands-reaching-together stock photo.
+
+**Why it works:** The post’s real filter is *inspect it, move it, find help when stuck* — not morality or manifestos. This image says that without turning into a logo collage.
+
+**Alt text:** “Home desk with code on a laptop, a folder of site files, and a phone showing a help forum — practical open-source tools.”
+
+---
+
+## Runner-up: **“When the host died”**
+
+**Scene:** A cardboard moving box half-packed with labeled folders (`markdown`, `theme`, `repo`). A faded “hosting” invoice or generic server icon in the background, out of focus. Foreground: one plain `.md` file on a laptop, same content visible.
+
+**Why it works:** The emotional anchor is losing PHP hosting and keeping the work because the files were portable. Strong if you want one clear story beat.
+
+**Risk:** Reads narrower than the full post (less about teaching, WordPress, free tiers).
+
+---
+
+## Avoid
+
+| Cliché | Why skip it |
+|--------|-------------|
+| Linux penguin / “FOSS” badges | Reads ideological; post explicitly rejects that |
+| Logo wall (WordPress + Hugo + Drupal) | Looks like fanboy merch, not “pick for your life” |
+| Glowing matrix code | Generic tech blog; not JoRap’s grounded voice |
+| Locked cage vs open door | Too on-the-nose; sibling posts already do stack comparisons |
+
+---
+
+## Style notes (to match your other custom images)
+
+- **Mood:** Warm, slightly worn, honest — same lane as `drupal-to-wp.jpg` and `static-vs-cms.jpg`  
+- **Palette:** Muted (wood desk, off-white walls, soft screen glow) — not neon cyberpunk  
+- **Text in image:** Minimal — maybe one folder label; no headline baked in (Hugo handles title)  
+- **Filename suggestion:** `open-source-practical.jpg` → `assets/images/open-source-practical.jpg`
+
+---
+
+**My pick:** **“The three-part filter”** — it covers the whole arc (access → portability → community) without duplicating the Drupal/WordPress or static-vs-CMS posts.
+
+Want me to generate a draft image from that brief, or write a tighter prompt for Midjourney/DALL·E/Figma?

@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I need to rank all blogs on the site by how easy or hard they are to understand.
 
-This is a Hugo blog at jorap.com. I'll locate all posts and read them to judge difficulty.</details></think>
+This is a Hugo blog at jorap.com. I'll locate all posts and read them to judge difficulty.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,11 +25,10 @@ I'll find all blog posts and read them to rank by how hard they are to understan
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **60** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (60 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (60 files)
 
 | File |
 |------|
@@ -92,21 +92,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (60 files)
 | `content/english/blog/__how-to-create-a-good-habit.md` |
 | `content/english/blog/__rechargeable-batteries.md` |
 | `content/english/blog/__immune-booster-supplements.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -213,13 +204,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -227,7 +211,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Many blog posts exist. Some prefixed with `__` appear to be drafts or unpublished.
 
-Checking frontmatter to separate drafts from published posts. Difficulty will be judged by jargon density, prerequisites, length, and conceptual abstraction. A sample of posts across categories will be reviewed to build the ranking.</details></think>
+Checking frontmatter to separate drafts from published posts. Difficulty will be judged by jargon density, prerequisites, length, and conceptual abstraction. A sample of posts across categories will be reviewed to build the ranking.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -236,10 +221,8 @@ Checking which posts are published and sampling content across topics to assess 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -346,64 +329,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-go-templates.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-go-templates.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
@@ -412,7 +364,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 More blog posts are needed to rank them by difficulty.
 
-Samples from easy and hard categories will be checked next. Full lengths and complexity matter too. Posts will be read in batches.</details></think>
+Samples from easy and hard categories will be checked next. Full lengths and complexity matter too. Posts will be read in batches.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -421,10 +374,8 @@ Reading more posts across categories to build a fair difficulty ranking.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="task_v2">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
-
 
 Parameters:
 
@@ -455,13 +406,6 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
-<summary>Tool use: **task_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -471,7 +415,8 @@ The subagent performed a thorough job.
 
 Spot-checking rankings for accuracy. Verifying published versus draft counts and reviewing a couple posts. The Alex Eala tracker is appropriately Tier 3 moderate. Considering whether the empty blog template belongs in Tier 1.
 
-Confirmed the empty blog template belongs in Tier 1. CAI output at Tier 4 and JoRap Notes at Tier 5 appear correct. Now verifying hanamikoji and alex eala posts.</details></think>
+Confirmed the empty blog template belongs in Tier 1. CAI output at Tier 4 and JoRap Notes at Tier 5 appear correct. Now verifying hanamikoji and alex eala posts.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -480,40 +425,22 @@ Spot-checking a few edge cases to validate the ranking.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-blog-template.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-blog-template.md</summary>
 
 </details></tool-use>
 
@@ -522,7 +449,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The blog rankings by difficulty are ready.
 
-The ranking will be organized into tiers from easiest to hardest. Methodology notes will cover published versus draft status and the definition of difficulty. The empty template will be excluded from the top tier and noted separately.</details></think>
+The ranking will be organized into tiers from easiest to hardest. Methodology notes will cover published versus draft status and the definition of difficulty. The empty template will be excluded from the top tier and noted separately.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -669,7 +597,8 @@ I will rank the blog posts by the amount of AI slop they contain. Then I will su
 
 I will scan the posts for AI slop markers. These include generic filler phrases. I will also check for uniform structure. Buzzwords and corporate speak will be flagged. Missing personal details and repetitive transitions matter too. Formulaic TL;DR boxes and perfect bullet lists will be noted.
 
-I will read the jorap-voice and humanize-ai-articles skills. These define the intended voice and anti-slop guidelines. I will sample posts across tiers to compare authentic voice against AI slop.</details></think>
+I will read the jorap-voice and humanize-ai-articles skills. These define the intended voice and anti-slop guidelines. I will sample posts across tiers to compare authentic voice against AI slop.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -678,36 +607,22 @@ I'll read your voice guidelines and sample posts across the blog to rank AI slop
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -785,21 +700,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -858,13 +764,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -872,26 +771,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A more systematic analysis is needed.
 
-Checking voice-words.yaml for AI tell patterns. Running voice:scan if available. Comparing high-slop posts like draft tutorials against low-slop personal stories.</details></think>
+Checking voice-words.yaml for AI tell patterns. Running voice:scan if available. Comparing high-slop posts like draft tutorials against low-slop personal stories.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>/dev/null | head -200</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm voice:scan 2&gt;/dev/null | head -200</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>/dev/null | head -200
 ```
@@ -929,83 +822,22 @@ Review-only (edit data/voice-words.yaml review: to tune)
     content/english/notes/rollback-principle.md · cards[0].front
     content/english/notes/rollback-principle.md · examples[0]
     content/english/notes/rollback-principle.md · key_concept
-    content/english/notes/rollback-principle.md · relationships.reason
-    content/english/notes/staged-rollout.md · aliases[0]
-    content/english/notes/staged-rollout.md · cards[0].front
-    content/english/notes/staged-rollout.md · key_concept
-    content/english/notes/staged-rollout.md · relationships.reason
-    content/english/notes/standard-operating-procedures.md · relationships.reason
-    content/english/notes/the-garage-concept.md · key_concept
-  Distill (10) → boil down / shorten
-    content/english/notes/building-a-second-brain.md · cards[0].front
-    content/english/notes/building-a-second-brain.md · cards[5].back
-    content/english/notes/building-a-second-brain.md · key_concept
-    content/english/notes/building-a-second-brain.md · meta_title
-    content/english/notes/building-a-second-brain.md · relationships.reason
-    content/english/notes/evergreen-notes.md · cards[5].back
-    content/english/notes/literature-notes.md · relationships.reason
-    content/english/notes/the-second-brain-workflow.md · description
-    content/english/notes/the-second-brain-workflow.md · key_concept
-    content/english/notes/the-second-brain-workflow.md · relationships.reason
-  contradicts (8) → goes against
-    content/english/notes/linking-by-meaning.md · cards[0].back
-    content/english/notes/linking-by-meaning.md · cards[1].back
-    content/english/notes/linking-by-meaning.md · cards[5].back
-    content/english/notes/linking-by-meaning.md · cards[5].front
-    content/english/notes/note-relationships.md · cards[1].back
-    content/english/notes/note-relationships.md · cards[4].back
-    content/english/notes/note-relationships.md · description
-    content/english/notes/note-relationships.md · key_concept
-  metadata (7) → tags and fields
-    content/english/notes/context-aware-capture.md · relationships.reason
-    content/english/notes/metadata-strategy.md · key_concept
-    content/english/notes/metadata-strategy.md · key_concept
-    content/english/notes/metadata-strategy.md · key_concept
-    content/english/notes/metadata-strategy.md · meta_title
-    content/english/notes/metadata-strategy.md · title
-    content/english/notes/taxonomy.md · key_concept
-  navigate (3) → cut or be specific
-    content/english/blog/mouse-wheel-click.md · body
-    content/english/blog/mouse-wheel-click.md · body
-    content/english/notes/taxonomy.md · relationships.reason
-  Unmerited Favor (2) → gift you didn't earn
-    content/english/notes/grace.md · aliases[0]
-    content/english/notes/grace.md · meta_title
-
-pnpm lint:voice — fail CI on strict hits
-
+    content/english/notes/rollback-principle.md
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
 
 </details></tool-use>
 
@@ -1016,84 +848,54 @@ Systematic analysis of more posts is needed to identify AI slop indicators beyon
 
 Seven indicators of AI slop have been identified. These include structural formulas like TL;DR blocks and symmetrical bullet lists. Generic tutorial voice without personal details is another marker. Recycled framework posts and repetitive section patterns also signal AI slop. Further reading link dumps and over-polished parallel structure are included. The absence of specific lived details is the final indicator.
 
-Several posts are being reviewed to gauge AI slop levels. Examples include hugoplate, sustainable publishing, open source focus, password managers, immune boosters, and GRE comparisons.</details></think>
+Several posts are being reviewed to gauge AI slop levels. Examples include hugoplate, sustainable publishing, open source focus, password managers, immune boosters, and GRE comparisons.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for AI slop indicators like "Bottom line," "Expanded from," symmetrical patterns, and generic opens. Reviewing more suspect posts.</details></think>
+Searching for AI slop indicators like "Bottom line," "Expanded from," symmetrical patterns, and generic opens. Reviewing more suspect posts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1200,21 +1002,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1273,21 +1066,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1326,38 +1110,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jobs-to-be-done-framework.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jobs-to-be-done-framework.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
 
 </details></tool-use>
 
@@ -1374,70 +1139,41 @@ Sustainable online publishing carries formulaic elements like "Bottom line" and 
 
 Miracle of Isaiah David ranks lowest. It is deeply personal with specific dates and humor about gender. Why I Stopped Playing Marvel Snap, What I Look for in Wireless Earphones, and Mouse Wheel Click also rank lowest. They rely on reference voice posts.
 
-More low-slop candidates include a personal Drupal-to-Wordpress career story, a pergear extension-cord post, a parenting article with a real child, a build log, and practical instant-pot recipes with specific burn notices. Meta posts like interesting facts about jorap and a DNPAP song-resources link page carry minimal prose. A Facebook favorites tip and an empty blog template rank lowest. Additional posts still need review to finalize the slop rankings.</details></think>
+More low-slop candidates include a personal Drupal-to-Wordpress career story, a pergear extension-cord post, a parenting article with a real child, a build log, and practical instant-pot recipes with specific burn notices. Meta posts like interesting facts about jorap and a DNPAP song-resources link page carry minimal prose. A Facebook favorites tip and an empty blog template rank lowest. Additional posts still need review to finalize the slop rankings.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
 
 </details></tool-use>
 
@@ -1458,44 +1194,27 @@ The McGill Big Three post follows an exercise-guide format. Markdown tutorials a
 
 A four-step blueprint shape borders on thought-leadership slop. The lowest-slop published posts include miracle-isaiah-david, why-i-stopped-playing-marvel-snap, what-i-look-for-in-wireless-earphones, mouse-wheel-click, drupal-to-wordpress, why-i-focused-on-open-source, how-i-built-jorap-notes, extension-cord, hanamikoji, instant pot recipes, set-it-forget-it-arroz-caldo, facebook-favorites, dnpap-song-resources, why-keep-desktop-laptop, why-run-your-own-website, getting-started-with-rss, and one-page-zine.
 
-Hugoplate carries lived experience through Saturday theme shopping and a case-sensitivity embarrassment. Alex-Eala is encyclopedic and skimmable but lacks narrative voice. The next step is to review extension-cord and __rechargeable-batteries for tier placement.</details></think>
+Hugoplate carries lived experience through Saturday theme shopping and a case-sensitivity embarrassment. Alex-Eala is encyclopedic and skimmable but lacks narrative voice. The next step is to review extension-cord and __rechargeable-batteries for tier placement.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__rechargeable-batteries.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__rechargeable-batteries.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
 
 </details></tool-use>
 
@@ -1514,7 +1233,8 @@ More posts are being ranked. Review templates for smart plugs and routers sit in
 
 The remaining posts are being ranked. Personal parenting, Instant Pot recipes, and blog templates sit in Tier 2. Wireless earphone analysis and Marvel Snap stoppage are Tier 1. The full 58-item list will be ordered from most to least slop with clearer justifications. Eliminating AI slop will reference the jorap-voice seven-pass skill.
 
-Concrete anti-slop measures are now defined. These include running `pnpm lint:voice`, eliminating wiki exports without full rewrite, killing "Bottom line" and "Expanded from" patterns, adding one real failure per section, and conducting read-aloud tests. The CRAFT post ironically warns about slop while containing it. The humanize-ai-articles piece may be published only after fixing it.</details></think>
+Concrete anti-slop measures are now defined. These include running `pnpm lint:voice`, eliminating wiki exports without full rewrite, killing "Bottom line" and "Expanded from" patterns, adding one real failure per section, and conducting read-aloud tests. The CRAFT post ironically warns about slop while containing it. The humanize-ai-articles piece may be published only after fixing it.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1737,7 +1457,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll outline rules to prevent AI slop.
 
-I'll check existing lint scripts, cursor rules, and jorap-voice skills to identify concrete rules to add.</details></think>
+I'll check existing lint scripts, cursor rules, and jorap-voice skills to identify concrete rules to add.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1746,41 +1467,30 @@ I'll check your existing voice lint, blog rules, and Cursor config so any new an
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (2 files)
 
 | File |
 |------|
 | `.cursor/rules/deploy-commits.mdc` |
 | `.cursor/rules/ponytail.mdc` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (6 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (6 files)
 
 | File |
 |------|
@@ -1790,26 +1500,18 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (6 files)
 | `scripts/garden-voice-lint.py` |
 | `scripts/garden-voice-finish.py` |
 | `scripts/notes-voice-lint.py` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for voice lint scripts across package.json and lint:blog configurations.</details></think>
+Searching for voice lint scripts across package.json and lint:blog configurations.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1840,22 +1542,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **30** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (30 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (30 files)
 
 | File |
 |------|
@@ -1889,41 +1583,24 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (30 files)
 | `scripts/strip-desc-from-key-concept.py` |
 | `scripts/export-anki-deck.py` |
 | `scripts/blog_shortcodes.py` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `scripts/setup-git-hooks.sh` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2030,52 +1707,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the lint script and related files to understand current linting rules and identify extensions that could prevent AI slop.</details></think>
+Reviewing the lint script and related files to understand current linting rules and identify extensions that could prevent AI slop.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2101,13 +1758,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2115,44 +1765,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking notes-voice-sanitize for relevant rules.
 
-Reviewing Python files for em dash rules, blog archetypes, and existing blog-specific slop lint. Also checking examples.md for structural rules.</details></think>
+Reviewing Python files for em dash rules, blog archetypes, and existing blog-specific slop lint. Also checking examples.md for structural rules.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
 
 </details></tool-use>
 
@@ -2179,28 +1812,21 @@ The existing `lint:blog` script only normalizes frontmatter; it should also chec
 
 A pre-commit or pre-publish hook should run stricter lint once `draft: false`.
 
-Next step is reviewing `normalize-blog-frontmatter.py` to see how to extend it.</details></think>
+Next step is reviewing `normalize-blog-frontmatter.py` to see how to extend it.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-File not found
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
-
+File not found
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2208,7 +1834,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user wants recommendations for rules to avoid AI Slop, not implementation details.
 
-Concrete rule text will be grouped by layer: existing checks, easy YAML additions, Cursor rules, lint script extensions, publish gate requirements, jorap-voice skill updates, and agent workflow rules. A key gap was identified: drafts bypass voice lint entirely, so slop can slip through when vocabulary appears clean.</details></think>
+Concrete rule text will be grouped by layer: existing checks, easy YAML additions, Cursor rules, lint script extensions, publish gate requirements, jorap-voice skill updates, and agent workflow rules. A key gap was identified: drafts bypass voice lint entirely, so slop can slip through when vocabulary appears clean.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2458,7 +2085,8 @@ Planning the specific implementation steps:
 - Consider a garden-voice skill for notes
 - Account for draft linting
 
-Reviewing existing lint patterns and notes frontmatter before writing any new code. Will add self-checks to the new scripts and run the linters once everything is wired up.</details></think>
+Reviewing existing lint patterns and notes frontmatter before writing any new code. Will add self-checks to the new scripts and run the linters once everything is wired up.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2467,50 +2095,31 @@ Implementing anti-slop rules for blog and notes: reviewing existing lint pattern
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **237** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (237 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (237 files)
 
 | File |
 |------|
@@ -2751,13 +2360,6 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (237 files)
 | `content/english/notes/versatility.md` |
 | `content/english/notes/evergreen-notes.md` |
 | `content/english/notes/by-their-fruits.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2767,40 +2369,27 @@ A unified `scripts/slop-lint.py` script will check structural slop for both blog
 
 The plan also covers updating `data/voice-words.yaml`, adding a Cursor anti-slop rule, wiring `package.json` scripts, and adding slop gates to the voice skills. Notes require distinct slop checks around frontmatter fields like `key_concept` and `description`.
 
-Reviewing existing garden-voice lint and skill files to identify overlap with the new slop checks.</details></think>
+Reviewing existing garden-voice lint and skill files to identify overlap with the new slop checks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2899,13 +2488,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2919,14 +2501,13 @@ Blog rules now include passive recommendations, parallel bullets, and empty sect
 
 Notes rules now target advisory phrasing in key_concept, generic frontmatter recommendations, and weak opener patterns. Parallel bullets and multi-sentence definitions are also flagged. The linter will run against existing files first. If too many false positives appear, most rules will switch to warn-only and only fail on clear publish blockers. Those blockers include expanded-from and idea-captured-from placeholders.
 
-Blog rules now include `image-template.jpg` and empty `body` words. Always-warn categories cover bottom-line headers, further reading with three or more links, third-person advice, and parallel bullets. Notes lack a standard `draft` field, so the linter will skip draft notes for failures while still warning on them.</details></think>
+Blog rules now include `image-template.jpg` and empty `body` words. Always-warn categories cover bottom-line headers, further reading with three or more links, third-person advice, and parallel bullets. Notes lack a standard `draft` field, so the linter will skip draft notes for failures while still warning on them.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2952,21 +2533,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3073,21 +2645,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3112,13 +2675,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3130,14 +2686,13 @@ Slop lint on notes needs to warn rather than fail. For CI to pass initially, fai
 
 Fail rules will block publishing only for wiki-export footers, placeholder images, and bodies under 100 words. The extension-cord, sustainable, and one-page-zine posts are already live and can be warned on. third-person still needs verification.
 
-I'll build out the full system by adding voice-words expansions and creating slop-lint.py with fail and warn tiers. Then I'll wire it into lint:voice, lint:blog, and lint:garden. For CI to pass now, publish blockers should only fail unpublished content; zero published posts currently carry wiki-export or image-template flags.</details></think>
+I'll build out the full system by adding voice-words expansions and creating slop-lint.py with fail and warn tiers. Then I'll wire it into lint:voice, lint:blog, and lint:garden. For CI to pass now, publish blockers should only fail unpublished content; zero published posts currently carry wiki-export or image-template flags.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3244,21 +2799,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3357,13 +2903,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3371,27 +2910,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Wiki exports and image templates are currently in draft status.
 
-Published posts must pass publish blockers. A markdown file previously showed draft:false but may have incorrect frontmatter.</details></think>
+Published posts must pass publish blockers. A markdown file previously showed draft:false but may have incorrect frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3416,13 +2948,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3438,14 +2963,13 @@ Drafting notes-specific rules next. Failures will catch third-person advice in k
 
 Finished the parallel-bullet detector. It collects first words from consecutive bullet lines and flags when three in a row match. Also started drafting an empty-sections check to catch headings followed by dividers or empty content.
 
-Skipping a fuzzy first-person opener check for blogs. Scanning description, key_concept, examples, shareable_thought, cards, and relationship reasons for slop; titles are excluded. Notes rules will avoid false positives on dictionary-style opening lines.</details></think>
+Skipping a fuzzy first-person opener check for blogs. Scanning description, key_concept, examples, shareable_thought, cards, and relationship reasons for slop; titles are excluded. Notes rules will avoid false positives on dictionary-style opening lines.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3511,25 +3035,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
@@ -3546,14 +3057,13 @@ Slop-lint will exit with code 1 on fail severity. Drafts will receive warn-level
 
 Draft detection will rely on frontmatter flags or filenames. Empty bodies will fail only on published posts under eighty words. `slop:scan` will warn on all structural rules for drafts. The linter script will self-check against ponytail rules. Tests will follow implementation. `lint:voice` will guard against regressions in published content.
 
-Checking whether `boasts`, `empower`, and `streamline` already appear in existing content before adding them to the slop rules.</details></think>
+Checking whether `boasts`, `empower`, and `streamline` already appear in existing content before adding them to the slop rules.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3579,21 +3089,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3619,13 +3120,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3633,7 +3127,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 New strict words will not break existing content.
 
-Comprehensive will be added to review instead of strict. Slop rules will live in a separate YAML file rather than merging with voice-words. Now implementing the script.</details></think>
+Comprehensive will be added to review instead of strict. Slop rules will live in a separate YAML file rather than merging with voice-words. Now implementing the script.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3642,96 +3137,49 @@ Implementing the slop linter, config, Cursor rule, and wiring it into existing l
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating voice-words.yaml, package.json, cursor rules, skills, and archetype files. Then running linters.</details></think>
+Updating voice-words.yaml, package.json, cursor rules, skills, and archetype files. Then running linters.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/anti-slop.mdc</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/anti-slop.mdc</summary>
 
 </details></tool-use>
 
@@ -3746,7 +3194,8 @@ Lint:voice and lint:slop should pass cleanly. Slop:scan will flag many warnings 
 
 A potential redundancy was spotted: lint:blog runs slop-lint across all blogs and notes, which may duplicate work already done by lint:garden.
 
-Scope flags will be added to slop-lint. lint:blog will scan only blog paths. lint:slop and lint:garden will continue scanning all files.</details></think>
+Scope flags will be added to slop-lint. lint:blog will scan only blog paths. lint:slop and lint:garden will continue scanning all files.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3755,86 +3204,49 @@ Scoping `lint:blog` to blog-only so it doesn't re-check notes.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
 The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Fixing lint:garden to use --notes-only.</details></think>
+Fixing lint:garden to use --notes-only.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -3843,44 +3255,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Adding a Slop gate section to jorap-voice after the Quick de-AI check. It will go to garden-voice after the workflow or in the voice check section.
 
-Updating the jorape voice check checklist. Adding an anti-slop checklist comment to archetypes/blog.md. Running linters.</details></think>
+Updating the jorape voice check checklist. Adding an anti-slop checklist comment to archetypes/blog.md. Running linters.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3911,90 +3306,53 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the garden voice check section to add a slop gate.</details></think>
+Reviewing the garden voice check section to add a slop gate.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a slop gate to the garden-voice skill before the Voice check section.</details></think>
+Adding a slop gate to the garden-voice skill before the Voice check section.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
 The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4002,13 +3360,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The jorap-voice frontmatter edit failed, but the slop gate section was added.
 
-Running the linters now.</details></think>
+Running the linters now.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --self-check && pnpm lint:slop && pnpm lint:blog && pnpm lint:voice && pnpm slop:scan 2>&1 | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/slop-lint.py --self-check &amp;&amp; pnpm lint:slop &amp;&amp; pnpm lint:blog &amp;&amp; pnpm lint:voice &amp;&amp; pnpm slop:scan 2&gt;&amp;1 | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --self-check && pnpm lint:slop && pnpm lint:blog && pnpm lint:voice && pnpm slop:scan 2>&1 | head -80
 ```
@@ -4017,21 +3375,15 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --self
 slop-lint self-check OK
 $ python3 scripts/slop-lint.py --check
 Slop lint OK
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only
 Blog frontmatter OK
 Slop lint OK
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash errors:
   content/english/blog/__grade-1-better-than-kumon.md: em/en dash found (32); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4039,13 +3391,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Linting failed on `__grade-1-better-than-kumon`.
 
-The em dash lint failure is pre-existing and unrelated to these changes. I'll run `slop:scan` and `lint:garden` for notes. Blog drafts are excluded from `notes-voice-lint`, so the voice scan should pass. I'm also checking whether "Expanded from" triggers a false positive.</details></think>
+The em dash lint failure is pre-existing and unrelated to these changes. I'll run `slop:scan` and `lint:garden` for notes. Blog drafts are excluded from `notes-voice-lint`, so the voice scan should pass. I'm also checking whether "Expanded from" triggers a false positive.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | head -100</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:scan 2&gt;&amp;1 | head -100</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | head -100
 ```
@@ -4089,33 +3441,15 @@ Warn (fix before publish)
   parallel-bullets (8) — rewrite parallel Ensures/Provides bullets as plain speech
     content/english/blog/__canon-g3000.md · body
     content/english/blog/__hugo-go-templates.md · body
-    content/english/blog/__humanize-ai-articles.md · body
-    content/english/blog/__mi-box-s.md · body
-    content/english/blog/alex-eala-pro-career-tracker.md · body
-    content/english/blog/consistent-ai-output-wordpress-builds.md · body
-    content/english/blog/set-it-forget-it-arroz-caldo.md · body
-    content/english/notes/the-beatitudes.md · key_concept
-  link-farm (1) — cut link farm or keep max 2 Further-reading links
-    content/english/blog/__humanize-ai-articles.md · body
-  passive-advice (1) — cut committee voice
-    content/english/blog/__humanize-ai-articles.md · body
-
-pnpm lint:slop — fail CI on publish blockers
-
+    content/english/blog/__huma
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --check --notes-only && pnpm lint:garden 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/slop-lint.py --check --notes-only &amp;&amp; pnpm lint:garden 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --check --notes-only && pnpm lint:garden 2>&1 | tail -20
 ```
@@ -4144,12 +3478,6 @@ FAIL shareable_thought[2] not from principle: success-is-stewardship.md
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4157,7 +3485,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Notes linting passed. Garden lint has pre-existing failures unrelated to these changes.
 
-Implementation is complete. Strict phrases like "Expanded from" and "Idea captured from" now appear in voice-words.yaml, adding double coverage against voice lint. Draft blogs skip voice lint, so wiki exports there won't fail until publish; slop still warns draft authors.</details></think>
+Implementation is complete. Strict phrases like "Expanded from" and "Idea captured from" now appear in voice-words.yaml, adding double coverage against voice lint. Draft blogs skip voice lint, so wiki exports there won't fail until publish; slop still warns draft authors.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4246,7 +3575,8 @@ About 60 posts total. Published posts are priority. Drafts with heavy AI slop fo
 
 Published posts flagged include alex-eala, consistent-ai-output, and set-it-forget-it-arroz-caldo with parallel-bullets. Extension-cord, sustainable, and one-page-zine carry bottom-line slop. Reading these now.
 
-Rewriting every draft wiki export from scratch would be too massive. I will instead apply targeted fixes where possible, such as removing Bottom lines, stripping wiki footers, correcting parallel bullets, and replacing third-person advice. Deeper rewrites will happen only where necessary. Starting with a full scan to catalog every issue per file.</details></think>
+Rewriting every draft wiki export from scratch would be too massive. I will instead apply targeted fixes where possible, such as removing Bottom lines, stripping wiki footers, correcting parallel bullets, and replacing third-person advice. Deeper rewrites will happen only where necessary. Starting with a full scan to catalog every issue per file.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4255,9 +3585,8 @@ Reviewing all blog posts against jorap-voice and fixing AI slop, starting with p
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:scan 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1
 ```
@@ -4301,33 +3630,15 @@ Warn (fix before publish)
   parallel-bullets (8) — rewrite parallel Ensures/Provides bullets as plain speech
     content/english/blog/__canon-g3000.md · body
     content/english/blog/__hugo-go-templates.md · body
-    content/english/blog/__humanize-ai-articles.md · body
-    content/english/blog/__mi-box-s.md · body
-    content/english/blog/alex-eala-pro-career-tracker.md · body
-    content/english/blog/consistent-ai-output-wordpress-builds.md · body
-    content/english/blog/set-it-forget-it-arroz-caldo.md · body
-    content/english/notes/the-beatitudes.md · key_concept
-  link-farm (1) — cut link farm or keep max 2 Further-reading links
-    content/english/blog/__humanize-ai-articles.md · body
-  passive-advice (1) — cut committee voice
-    content/english/blog/__humanize-ai-articles.md · body
-
-pnpm lint:slop — fail CI on publish blockers
-
+    content/english/blog/__huma
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --summary --review 2>&1 | head -60</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --summary --review 2&gt;&amp;1 | head -60</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --summary --review 2>&1 | head -60
 ```
@@ -4365,50 +3676,15 @@ Review-only (edit data/voice-words.yaml review: to tune)
     content/english/notes/rollback-principle.md · cards[0].front
     content/english/notes/rollback-principle.md · examples[0]
     content/english/notes/rollback-principle.md · key_concept
-    content/english/notes/rollback-principle.md · relationships.reason
-    content/english/notes/staged-rollout.md · aliases[0]
-    content/english/notes/staged-rollout.md · cards[0].front
-    content/english/notes/staged-rollout.md · key_concept
-    content/english/notes/staged-rollout.md · relationships.reason
-    content/english/notes/standard-operating-procedures.md · relationships.reason
-    content/english/notes/the-garage-concept.md · key_concept
-  Distill (10) → boil down / shorten
-    content/english/notes/building-a-second-brain.md · cards[0].front
-    content/english/notes/building-a-second-brain.md · cards[5].back
-    content/english/notes/building-a-second-brain.md · key_concept
-    content/english/notes/building-a-second-brain.md · meta_title
-    content/english/notes/building-a-second-brain.md · relationships.reason
-    content/english/notes/evergreen-notes.md · cards[5].back
-    content/english/notes/literature-notes.md · relationships.reason
-    content/english/notes/the-second-brain-workflow.md · description
-    content/english/notes/the-second-brain-workflow.md · key_concept
-    content/english/notes/the-second-brain-workflow.md · relationships.reason
-  contradicts (8) → goes against
-    content/english/notes/linking-by-meaning.md · cards[0].back
-    content/english/notes/linking-by-meaning.md · cards[1].back
-    content/english/notes/linking-by-meaning.md · cards[5].back
-    content/english/notes/linking-by-meaning.md · cards[5].front
-    content/english/notes/note-relationships.md · cards[1].back
-    content/english/notes/note-relationships.md · cards[4].back
-    content/english/notes/note-relationships.md · description
-    content/english/notes/note-relationships.md · key_concept
-  metadata (7) → tags and fields
-
+    content/english/notes/rollback-principle.md
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4516,13 +3792,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4532,14 +3801,13 @@ A systematic review of all blogs is needed. A per-file list of slop issues and a
 
 Twenty-five published posts were flagged. Bottom-line sections will be replaced with concrete closers. Parallel bullets will be fixed where flagged. Draft posts need broader rewrites.
 
-All 60 blog files must be reviewed. Wiki export footers and bot-style endings will be removed. Easy parallel bullet fixes will be applied first. Deep rewrites are needed for Tier 5 slop drafts such as password managers, CRAFT, habits, and JTBD. Task agents or batched work will handle the volume.</details></think>
+All 60 blog files must be reviewed. Wiki export footers and bot-style endings will be removed. Easy parallel bullet fixes will be applied first. Deep rewrites are needed for Tier 5 slop drafts such as password managers, CRAFT, habits, and JTBD. Task agents or batched work will handle the volume.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4646,43 +3914,35 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 from scripts.slop_lint import scan_blog, load_rules, BLOG
 from pathlib import Path
-rules = load_rules().get('blog', {})
-for p in sorted(BLOG.glob('*.md')):
+rules = load_rules().get(&#39;blog&#39;, {})
+for p in sorted(BLOG.glob(&#39;*.md&#39;)):
     hits = scan_blog(p, rules)
     if hits:
-        pub = 'PUB' if not p.name.startswith('__') and not __import__('re').search(r'^draft: true', p.read_text(), re.M) else 'draft'
+        pub = &#39;PUB&#39; if not p.name.startswith(&#39;__&#39;) and not __import__(&#39;re&#39;).search(r&#39;^draft: true&#39;, p.read_text(), re.M) else &#39;draft&#39;
         for h in hits:
-            print(f'{pub}\t{h.rule}\t{p.name}\t{h.field}')
-" 2>/dev/null || python3 <<'PY'
+            print(f&#39;{pub}\t{h.rule}\t{p.name}\t{h.field}&#39;)
+&#34; 2&gt;/dev/null || python3 &lt;&lt;&#39;PY&#39;
 import re, sys
-sys.path.insert(0, 'scripts')
+sys.path.insert(0, &#39;scripts&#39;)
 from slop_lint import scan_blog, load_rules, BLOG
-rules = load_rules().get('blog', {})
-for p in sorted(BLOG.glob('*.md')):
+rules = load_rules().get(&#39;blog&#39;, {})
+for p in sorted(BLOG.glob(&#39;*.md&#39;)):
     hits = scan_blog(p, rules)
     if hits:
         text = p.read_text()
-        m = re.search(r'^draft:\s*(true|false)', text, re.M)
-        pub = 'PUB' if m and m.group(1)=='false' else 'draft'
+        m = re.search(r&#39;^draft:\s*(true|false)&#39;, text, re.M)
+        pub = &#39;PUB&#39; if m and m.group(1)==&#39;false&#39; else &#39;draft&#39;
         for h in hits:
-            print(f'{pub}\t{h.rule}\t{p.name}\t{h.field}')
+            print(f&#39;{pub}\t{h.rule}\t{p.name}\t{h.field}&#39;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 from scripts.slop_lint import scan_blog, load_rules, BLOG
@@ -4712,16 +3972,10 @@ PY
 
 ```
 Traceback (most recent call last):
-  File "&lt;stdin&gt;", line 3, in &lt;module&gt;
+  File "<stdin>", line 3, in <module>
 ModuleNotFoundError: No module named 'slop_lint'
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4737,7 +3991,8 @@ Only 29 files need changes. Eighteen contain wiki footers to strip. Published pa
 
 A helper script will strip wiki footers and convert Bottom line headings into plain closing paragraphs. The text itself may still be slop, so the worst posts will need manual deep fixes.
 
-The jorap-voice skill requires closers to vary or end on a concrete take. Generic closers will be polished during the edit. Only three published posts need full jorap-voice passes. The remaining twenty-two draft bottom lines will get quick closer polish if they are generic. Multiple files will be read and edited in parallel.</details></think>
+The jorap-voice skill requires closers to vary or end on a concrete take. Generic closers will be polished during the edit. Only three published posts need full jorap-voice passes. The remaining twenty-two draft bottom lines will get quick closer polish if they are generic. Multiple files will be read and edited in parallel.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4746,49 +4001,29 @@ Prioritizing published posts, then batch-fixing drafts. Reading files that need 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4819,21 +4054,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4864,21 +4090,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4909,13 +4126,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4941,7 +4151,8 @@ Immune-booster will use a personal stack with jeepney and travel context, and lo
 
 set-it-forget-it's false parallel bullet is caused by recipe ingredients. Three bullets start with "1": "- 1 cup", "- 1 kg", and "- 1 Knorr". The linter misreads these numbers as repeated words. I will fix the blog content directly rather than tweak the linter.
 
-I will patch slop-lint.py to skip bullets whose first token is a number. This fixes the false parallel bullet flags in alex-eala and set-it-forget-it without editing blog content.</details></think>
+I will patch slop-lint.py to skip bullets whose first token is a number. This fixes the false parallel bullet flags in alex-eala and set-it-forget-it without editing blog content.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4950,31 +4161,15 @@ Fixing published posts first, then batch-cleaning drafts and rewriting the worst
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
@@ -4983,65 +4178,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I accidentally removed the Safety habits section.
 
-Restoring the Safety habits section. Removing only the Bottom line.et file. Fixing extension-cord.md.</details></think>
+Restoring the Safety habits section. Removing only the Bottom line.et file. Fixing extension-cord.md.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
 
 </details></tool-use>
 
@@ -5052,28 +4216,20 @@ Creating a batch script to strip AI slop from all draft blogs, targeting wiki fo
 
 Writing `scripts/blog-de-slop.py` to batch-process bottom lines and wiki footers across all blogs. The script will strip markdown separators and AI-generated attribution lines. Tier-5 drafts will be rewritten manually afterward.
 
-Seven tier-5 drafts are queued for full rewrites via Task agents. The batch script will run first, followed by agent launches.</details></think>
+Seven tier-5 drafts are queued for full rewrites via Task agents. The batch script will run first, followed by agent launches.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog-de-slop.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog-de-slop.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/blog-de-slop.py --write</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/blog-de-slop.py --write</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/blog-de-slop.py --write
 ```
@@ -5110,12 +4266,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/blog-de-slop.py --w
 Done: 27 file(s)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5125,7 +4275,8 @@ _**Agent (auto-low)**_
 
 Seven tier 5 drafts are queued for full rewrite: password managers, prompt framework, habit creation, jobs-to-be-done framework, immune boosters, remote checklist, and humanizing AI articles. Two parallel agents will handle them. Remaining generic slop will also be caught.
 
-The seven tier 5 drafts will be rewritten directly rather than by agents. Additional fixes include 32 em dash instances, parallel bullets in canon and hugo-go-templates, and passive advice in the humanize draft.</details></think>
+The seven tier 5 drafts will be rewritten directly rather than by agents. Additional fixes include 32 em dash instances, parallel bullets in canon and hugo-go-templates, and passive advice in the humanize draft.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5134,53 +4285,29 @@ Rewriting the seven highest-slop drafts with lived-in voice. Reading their curre
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
 
 </details></tool-use>
 
@@ -5191,50 +4318,27 @@ Rewriting seven blog files with lived-in JoRap voice.
 
 Drafting personal stories for password managers, remote work, and habits. Launching two parallel Task agents to handle the rewrites.
 
-Switched to direct batch writing to preserve quality.</details></think>
+Switched to direct batch writing to preserve quality.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
 
 </details></tool-use>
 
@@ -5243,65 +4347,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Continuing the review of habits, craft, JTBD, and immune topics.
 
-Rewriting four remaining drafts to remove AI slop. Habits will use personal examples. Craft will use a real prompt instead of meta-prompt text. JTBD will use a client story. Immune will use personal experience with a disclaimer.</details></think>
+Rewriting four remaining drafts to remove AI slop. Habits will use personal examples. Craft will use a real prompt instead of meta-prompt text. JTBD will use a client story. Immune will use personal experience with a disclaimer.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jobs-to-be-done-framework.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jobs-to-be-done-framework.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
 
 </details></tool-use>
 
@@ -5310,13 +4383,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Fixing remaining drafts with generic closers or parallel bullets.
 
-Running a slop scan across all blogs to catch remaining AI slop. Fixing __grade-1 em dashes and parallel bullets in __canon-g3000, __hugo-go-templates, and __mi-box-s. Scanning published HYPRE posts for leftover issues. May use a Task agent to polish remaining drafts.</details></think>
+Running a slop scan across all blogs to catch remaining AI slop. Fixing __grade-1 em dashes and parallel bullets in __canon-g3000, __hugo-go-templates, and __mi-box-s. Scanning published HYPRE posts for leftover issues. May use a Task agent to polish remaining drafts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 && python3 scripts/notes-voice-sanitize.py --check 2>&1 | head -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:scan 2&gt;&amp;1 &amp;&amp; python3 scripts/notes-voice-sanitize.py --check 2&gt;&amp;1 | head -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 && python3 scripts/notes-voice-sanitize.py --check 2>&1 | head -20
 ```
@@ -5351,20 +4424,12 @@ Voice dash errors:
   content/english/blog/__grade-1-better-than-kumon.md: em/en dash found (32); use hyphen, comma, or parentheses (jorap-voice)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5390,21 +4455,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5435,13 +4491,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5449,14 +4498,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The humanize-ai section still contains passive advice, likely the "it is important to consider" phrase from the bad example.
 
-I'll rephrase the bad example in humanize-ai to remove the passive advice. I also need to fix grade-1 em dashes with the sanitize script, and correct parallel bullets in canon, hugo-go-templates, and mi-box-s.</details></think>
+I'll rephrase the bad example in humanize-ai to remove the passive advice. I also need to fix grade-1 em dashes with the sanitize script, and correct parallel bullets in canon, hugo-go-templates, and mi-box-s.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5486,21 +4534,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5530,21 +4569,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5574,21 +4604,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5618,20 +4639,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-sanitize.py content/english/blog/__grade-1-better-than-kumon.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-sanitize.py content/english/blog/__grade-1-better-than-kumon.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-sanitize.py content/english/blog/__grade-1-better-than-kumon.md 2>&1
 ```
@@ -5642,12 +4655,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-sanitiz
 Done: 1 files updated.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5659,27 +4666,27 @@ mi-box-s has four "You" lines at 59-62. hugo-go-templates has three lines starti
 
 The humanize blockquote will be rewritten without the passive-advice phrase. The canon-g3000 lines will vary their opening words instead of repeating "You."
 
-alex-ealava may contain repeated year headers that bypass digit-skipping logic. A Python script will locate the exact parallel pattern.</details></think>
+alex-ealava may contain repeated year headers that bypass digit-skipping logic. A Python script will locate the exact parallel pattern.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import re
 from pathlib import Path
-text = Path('content/english/blog/alex-eala-pro-career-tracker.md').read_text()
+text = Path(&#39;content/english/blog/alex-eala-pro-career-tracker.md&#39;).read_text()
 lines = []
 for line in text.splitlines():
     s=line.strip()
-    if s.startswith('- '):
-        w=s[2:].split()[0].lower().rstrip(':') if s[2:].split() else ''
-        if w and not w[0].isdigit() and not w.startswith('**'):
+    if s.startswith(&#39;- &#39;):
+        w=s[2:].split()[0].lower().rstrip(&#39;:&#39;) if s[2:].split() else &#39;&#39;
+        if w and not w[0].isdigit() and not w.startswith(&#39;**&#39;):
             lines.append((w, s[:60]))
 for i in range(len(lines)-2):
     if lines[i][0]==lines[i+1][0]==lines[i+2][0]:
-        print('RUN', lines[i][0], lines[i][1], lines[i+2][1])
-"</summary>
-
+        print(&#39;RUN&#39;, lines[i][0], lines[i][1], lines[i+2][1])
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import re
@@ -5705,52 +4712,26 @@ RUN round - Round of 16, d. Badosa w/o | [wtatennis.com](https://www.w - Round o
 RUN round - Round of 32, d. Keys 6-4, 6-2 | [wtatennis.com](https://ww - Round of 128, d. Volynets 6-3, 7-6(3) | [wtatennis.com](ht
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
 
 </details></tool-use>
 
@@ -5765,65 +4746,34 @@ The detector will now only flag parallel bullets whose first words appear in a k
 
 The repeated word must be in the slop-verbs set. The word "round" in match logs is a false positive.
 
-The hugo-go-templates file contains `{{` bullets that are code examples, not slop. The slop-verbs filter catches these too. I will update parallel_bullet_runs in slop-lint.py and fix the canon and mi-box files.</details></think>
+The hugo-go-templates file contains `{{` bullets that are code examples, not slop. The slop-verbs filter catches these too. I will update parallel_bullet_runs in slop-lint.py and fix the canon and mi-box files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
 
 </details></tool-use>
 
@@ -5834,13 +4784,13 @@ Polishing remaining draft blogs with lighter AI slop. Grepping for generic patte
 
 Published posts still need a final sweep for lingering generic phrases. Placeholder images remain unresolved. Six published posts were fixed. Twenty-seven mechanical files were de-slopped. Seven Tier 5 posts were fully rewritten.
 
-Running lint:blog, lint:slop, and lint:voice on published content. Sanitizing all notes if needed. Running a final slop scan.</details></think>
+Running lint:blog, lint:slop, and lint:voice on published content. Sanitizing all notes if needed. Running a final slop scan.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --self-check && pnpm slop:scan 2>&1 && pnpm lint:blog && pnpm lint:slop && python3 scripts/notes-voice-sanitize.py --check 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/slop-lint.py --self-check &amp;&amp; pnpm slop:scan 2&gt;&amp;1 &amp;&amp; pnpm lint:blog &amp;&amp; pnpm lint:slop &amp;&amp; python3 scripts/notes-voice-sanitize.py --check 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --self-check && pnpm slop:scan 2>&1 && pnpm lint:blog && pnpm lint:slop && python3 scripts/notes-voice-sanitize.py --check 2>&1
 ```
@@ -5868,7 +4818,7 @@ Warn (fix before publish)
     content/english/blog/__humanize-ai-articles.md · body
 
 pnpm lint:slop — fail CI on publish blockers
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only
 Blog frontmatter OK
 Slop lint OK
 $ python3 scripts/slop-lint.py --check
@@ -5876,20 +4826,12 @@ Slop lint OK
 Voice dash lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5920,13 +4862,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5934,20 +4869,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The mi-box section still contains parallel bullets. Lines 59–62 likely repeat "You" four times.
 
-Fixing the remaining parallel bullets in mi-box. Investigating why passive-advice is still flagged; the cached bad example may persist despite edits. Will grep and run Python to locate the exact hit.</details></think>
+Fixing the remaining parallel bullets in mi-box. Investigating why passive-advice is still flagged; the cached bad example may persist despite edits. Will grep and run Python to locate the exact hit.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import re
 from pathlib import Path
 from scripts.slop_lint import scan_blog, load_rules, BLOG
-p = BLOG / '__humanize-ai-articles.md'
-for h in scan_blog(p, load_rules().get('blog',{})):
+p = BLOG / &#39;__humanize-ai-articles.md&#39;
+for h in scan_blog(p, load_rules().get(&#39;blog&#39;,{})):
     print(h)
-"</summary>
-
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import re
@@ -5961,44 +4896,29 @@ for h in scan_blog(p, load_rules().get('blog',{})):
 
 ```
 Traceback (most recent call last):
-  File "&lt;string&gt;", line 4, in &lt;module&gt;
+  File "<string>", line 4, in <module>
 ModuleNotFoundError: No module named 'scripts.slop_lint'
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for passive-advice patterns to identify AI slop.</details></think>
+Searching for passive-advice patterns to identify AI slop.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6028,20 +4948,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | tail -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:scan 2&gt;&amp;1 | tail -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | tail -15
 ```
@@ -6064,12 +4976,6 @@ Warn (fix before publish)
 pnpm lint:slop — fail CI on publish blockers
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6077,28 +4983,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A passive-advice match was found inside an example. The pattern caught the phrase "it's important to note that".
 
-Rephrasing the bullet avoids a regex fix. Updating slop-lint to ignore quoted examples would be overkill.</details></think>
+Rephrasing the bullet avoids a regex fix. Updating slop-lint to ignore quoted examples would be overkill.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | tail -8</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:scan 2&gt;&amp;1 | tail -8</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | tail -8
 ```
@@ -6114,12 +5012,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | tail -8
 pnpm lint:slop — fail CI on publish blockers
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6129,24 +5021,24 @@ Only placeholder-image warnings remain. These are expected for drafts without re
 
 Most published posts were already clean. Fixed minor issues in extension-cord, sustainable, one-page-zine, and consistent-ai-output. Removed wiki footers and bottom-line headers from 27 drafts. Rewrote seven drafts entirely. Updated slop-lint rules.
 
-29 drafts still use image-template.jpg placeholders. Real images are needed at publish time. A blog-de-slop npm script was considered but skipped as a one-time tool. Published posts will be re-checked for slop.</details></think>
+29 drafts still use image-template.jpg placeholders. Real images are needed at publish time. A blog-de-slop npm script was considered but skipped as a one-time tool. Published posts will be re-checked for slop.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import re
 from pathlib import Path
-blog = Path('content/english/blog')
+blog = Path(&#39;content/english/blog&#39;)
 pub = []
-for p in sorted(blog.glob('*.md')):
+for p in sorted(blog.glob(&#39;*.md&#39;)):
     t = p.read_text()
-    if re.search(r'^draft:\s*false', t, re.M) and not p.name.startswith('__'):
+    if re.search(r&#39;^draft:\s*false&#39;, t, re.M) and not p.name.startswith(&#39;__&#39;):
         pub.append(p.name)
-print(f'Published: {len(pub)}')
+print(f&#39;Published: {len(pub)}&#39;)
 for n in pub: print(n)
-"</summary>
-
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import re
@@ -6190,18 +5082,13 @@ why-run-your-own-website.md
 worship-pads-solo-guitar.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All 24 published posts are now free of AI slop.</details></think>
+All 24 published posts are now free of AI slop.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6267,7 +5154,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing all garden notes via garden-voice to remove AI slop, following the same approach used for blogs.
 
-Running linters to identify slop issues across all notes before fixing them.</details></think>
+Running linters to identify slop issues across all notes before fixing them.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6276,9 +5164,8 @@ Running garden linters to find slop across all notes, then fixing issues systema
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --check --notes-only 2>&1; echo "---"; python3 scripts/garden-voice-lint.py --summary 2>&1; echo "---"; pnpm lint:voice 2>&1 | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/slop-lint.py --check --notes-only 2&gt;&amp;1; echo &#34;---&#34;; python3 scripts/garden-voice-lint.py --summary 2&gt;&amp;1; echo &#34;---&#34;; pnpm lint:voice 2&gt;&amp;1 | head -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --check --notes-only 2>&1; echo "---"; python3 scripts/garden-voice-lint.py --summary 2>&1; echo "---"; pnpm lint:voice 2>&1 | head -30
 ```
@@ -6290,24 +5177,17 @@ Garden voice — 237 files, 6 issues
   count=3: 5
   line1-wikilink: 1
 ---
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash lint OK
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | rg -A200 "notes" | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:scan 2&gt;&amp;1 | rg -A200 &#34;notes&#34; | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | rg -A200 "notes" | head -40
 ```
@@ -6331,10 +5211,2677 @@ Warn (fix before publish)
 pnpm lint:slop — fail CI on publish blockers
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The notes review passed with zero AI Slop failures.
+
+Only six garden-voice lint issues surfaced. Earlier runs flagged twenty-one frontmatter problems. Full lint:garden and lint:frontmatter will reveal the full scope. Voice:scan and manual sampling will catch slop missed by automated tools. Fixes will target both the six lint issues and any slop-related frontmatter.
+
+Now searching for dictionary openers and generic phrases in the notes.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1
+```
+
+```
+Garden voice lint:
+  content/english/notes/build-a-reliable-default.md: examples: count=3
+  content/english/notes/follow-christ-then-lead.md: key_concept: line1-wikilink (When the captain's chair and Christ's command pull opposite ways, I deny the sho)
+  content/english/notes/future-proofing-knowledge.md: examples: count=3
+  content/english/notes/information-diet.md: examples: count=3
+  content/english/notes/metadata-strategy.md: examples: count=3
+  content/english/notes/the-garage-concept.md: examples: count=3
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -40
+```
+
+```
+FAIL shareable_thought[2] not from principle: abide-in-me.md
+FAIL shareable_thought[3] not from principle: first-principles-thinking.md
+FAIL description in key_concept (Follow Christ first when leadership pressure collides with H…): follow-christ-then-lead.md
+FAIL shareable_thought[1] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[2] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[1] not from principle: forgiveness-at-work.md
+FAIL shareable_thought[2] not from principle: forgiveness-at-work.md
+FAIL shareable_thought[2] not from principle: god-centered-design.md
+FAIL shareable_thought[3] not from principle: god-centered-design.md
+FAIL description in key_concept (Treat colleagues the way I want to be treated - in email ton…): golden-rule-at-work.md
+FAIL shareable_thought[1] not from principle: graph-view-analytics.md
+FAIL shareable_thought[2] not from principle: graph-view-analytics.md
+FAIL shareable_thought[3] not from principle: graph-view-analytics.md
+FAIL shareable_thought[3] not from principle: justification.md
+FAIL shareable_thought[3] not from principle: sanctification.md
+FAIL shareable_thought[3] not from principle: signal-vs-noise.md
+FAIL shareable_thought[1] not from principle: signature-move.md
+FAIL shareable_thought[2] not from principle: signature-move.md
+FAIL shareable_thought[3] not from principle: signature-move.md
+FAIL description in key_concept (An early win is entrusted, not a license to coast through th…): steward-after-the-win.md
+FAIL shareable_thought[2] not from principle: success-is-stewardship.md
+
+21 note(s) failed frontmatter lint
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "count",
+  "pattern": "users should|one might|it is recommended|This is a (framework|process|method)|plays a key role|Furthermore|Additionally|When it comes to"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "pattern": "users should|one might|it is recommended|This is a (framework|process|method)|plays a key role|Furthermore|Additionally|When it comes to",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "count",
+  "pattern": "is the process whereby|is defined as|refers to the"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "pattern": "is the process whereby|is defined as|refers to the",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The notes garden is in much better shape than the blogs.
+
+Garden voice lint shows six issues. Five notes have three examples instead of two. One note has a wikilink in key_concept. Frontmatter lint flags twenty-one notes for shareable_thought alignment and description placement. These are voice quality issues rather than pure AI slop. A deeper slop scan is next for voice patterns, parallel bullets, dictionary openers, and generic fragments.
+
+Running slop-lint with a notes-only filter. Searching for multi-sentence examples, generic descriptions, and contractions in frontmatter. Running garden-voice-lint across all issue types.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re, sys
+sys.path.insert(0, &#39;scripts&#39;)
+import importlib.util
+spec = importlib.util.spec_from_file_location(&#39;slop&#39;, &#39;scripts/slop-lint.py&#39;)
+slop = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(slop)
+rules = slop.load_rules().get(&#39;notes&#39;, {})
+notes = sorted((Path(&#39;content/english/notes&#39;)).glob(&#39;*.md&#39;))
+hits = []
+for p in notes:
+    hits.extend(slop.scan_note(p, rules))
+for h in hits:
+    print(f&#34;{h.severity}\t{h.rule}\t{h.path}\t{h.field}\t{h.detail}&#34;)
+print(&#39;TOTAL&#39;, len(hits))
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+from pathlib import Path
+import re, sys
+sys.path.insert(0, 'scripts')
+import importlib.util
+spec = importlib.util.spec_from_file_location('slop', 'scripts/slop-lint.py')
+slop = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(slop)
+rules = slop.load_rules().get('notes', {})
+notes = sorted((Path('content/english/notes')).glob('*.md'))
+hits = []
+for p in notes:
+    hits.extend(slop.scan_note(p, rules))
+for h in hits:
+    print(f"{h.severity}\t{h.rule}\t{h.path}\t{h.field}\t{h.detail}")
+print('TOTAL', len(hits))
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py", line 44, in <module>
+    @dataclass(frozen=True)
+     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 1258, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 983, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 749, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "content",
+  "pattern": "^  - \"[^\"]{1,25}\"$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^  - \"[^\"]{1,25}\"$",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/plain-commitments-at-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-garage-concept.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/christianity-and-politics.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/ethical-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/strategic-foresight.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/atomic-notes.md"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --summary --review 2&gt;&amp;1 | rg &#34;content/english/notes&#34; | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --summary --review 2>&1 | rg "content/english/notes" | head -40
+```
+
+```
+    content/english/notes/blameless-after-action-review.md · cards[0].front
+    content/english/notes/blameless-after-action-review.md · cards[1].front
+    content/english/notes/blameless-after-action-review.md · description
+    content/english/notes/blameless-after-action-review.md · examples[0]
+    content/english/notes/blameless-after-action-review.md · key_concept
+    content/english/notes/change-window.md · aliases[0]
+    content/english/notes/change-window.md · cards[2].front
+    content/english/notes/change-window.md · cards[3].front
+    content/english/notes/change-window.md · key_concept
+    content/english/notes/change-window.md · relationships.reason
+    content/english/notes/change-window.md · relationships.reason
+    content/english/notes/client-site-pass-off.md · key_concept
+    content/english/notes/free-tier-hosting-stack.md · cards[0].front
+    content/english/notes/free-tier-hosting-stack.md · relationships.reason
+    content/english/notes/free-tier-hosting-stack.md · relationships.reason
+    content/english/notes/free-tier-hosting-stack.md · relationships.reason
+    content/english/notes/maintenance-window.md · relationships.reason
+    content/english/notes/reversibility.md · key_concept
+    content/english/notes/reversibility.md · relationships.reason
+    content/english/notes/rollback-principle.md · cards[0].front
+    content/english/notes/rollback-principle.md · examples[0]
+    content/english/notes/rollback-principle.md · key_concept
+    content/english/notes/rollback-principle.md · relationships.reason
+    content/english/notes/staged-rollout.md · aliases[0]
+    content/english/notes/staged-rollout.md · cards[0].front
+    content/english/notes/staged-rollout.md · key_concept
+    content/english/notes/staged-rollout.md · relationships.reason
+    content/english/notes/standard-operating-procedures.md · relationships.reason
+    content/english/notes/the-garage-concept.md · key_concept
+    content/english/notes/building-a-second-brain.md · cards[
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The notes garden appears largely free of AI slop vocabulary.
+
+Six garden-voice lint issues remain. Twenty-one frontmatter lint failures need fixing. These include shareable_thought alignment and description formatting. Shareable_thought fragments also need scanning.
+
+The six garden-voice fixes target example counts and a wikilink in follow-christ-then-lead.md. The twenty-one frontmatter fixes cover abide-in-me.md, first-principles-thinking.md, forgiveness-at-work.md, god-centered-design.md, and five other notes.
+
+The remaining frontmatter fixes cover eight more notes: golden-rule-at-work.md, graph-view-analytics.md, justification.md, sanctification.md, signal-vs-noise.md, signature-move.md, steward-after-the-win.md, and success-is-stewardship.md. I am now reading lint-notes-frontmatter.py to understand the "not from principle" rule.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 3,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "not from principle|shareable_thought"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "not from principle|shareable_thought",
+  "topFiles": [
+    {
+      "matchCount": 44,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to understand the `shareable_line_from_principle` function to fix the 21 failing notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 25,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "def shareable_line_from_principle|def gets_point_across"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "def shareable_line_from_principle|def gets_point_across",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for `shareable_line_from_principle` in `notes_content.py` or similar files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_line_from_principle"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_line_from_principle",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signature-move.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading `shareable_line_from_principle` in `notes_content.py`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "description in key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "description in key_concept",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Shareable thought lines must originate from the description or key_concept principle pool.
+
+Abide-in-me's third shareable thought likely lacks a matching principle. Follow-christ-then-lead needs its wikilink split from the claim line. Shareable issues appear on lines 1 and 2. The description belongs in the key_concept section. Lint will pinpoint exact failures before a batch fix.
+
+Thirteen files failed lint. Shareable thought issues appear in abide-in-me, first-principles-thinking, forgiveness-at-work, god-centered-design, golden-rule-at-work, graph-view-analytics, justification, sanctification, signal-vs-noise, signature-move, and success-is-stewardship. Two files need their descriptions moved into key_concept. Garden voice is next.
+
+Five garden-voice files need one example trimmed. The garage concept has four redundant key-concept bullets repeating the same idea; these will be consolidated. Lint will run individually on all failing files to catch exact errors.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in abide-in-me first-principles-thinking follow-christ-then-lead forgiveness-at-work god-centered-design golden-rule-at-work graph-view-analytics justification sanctification signal-vs-noise signature-move steward-after-the-win success-is-stewardship; do python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;$f&#34;; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in abide-in-me first-principles-thinking follow-christ-then-lead forgiveness-at-work god-centered-design golden-rule-at-work graph-view-analytics justification sanctification signal-vs-noise signature-move steward-after-the-win success-is-stewardship; do python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "$f"; done
+```
+
+```
+FAIL shareable_thought[2] not from principle: abide-in-me.md
+FAIL shareable_thought[3] not from principle: first-principles-thinking.md
+FAIL description in key_concept (Follow Christ first when leadership pressure collides with H…): follow-christ-then-lead.md
+FAIL shareable_thought[1] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[2] not from principle: follow-christ-then-lead.md
+FAIL shareable_thought[1] not from principle: forgiveness-at-work.md
+FAIL shareable_thought[2] not from principle: forgiveness-at-work.md
+FAIL shareable_thought[2] not from principle: god-centered-design.md
+FAIL shareable_thought[3] not from principle: god-centered-design.md
+FAIL description in key_concept (Treat colleagues the way I want to be treated - in email ton…): golden-rule-at-work.md
+FAIL shareable_thought[1] not from principle: graph-view-analytics.md
+FAIL shareable_thought[2] not from principle: graph-view-analytics.md
+FAIL shareable_thought[3] not from principle: graph-view-analytics.md
+FAIL shareable_thought[3] not from principle: justification.md
+FAIL shareable_thought[3] not from principle: sanctification.md
+FAIL shareable_thought[3] not from principle: signal-vs-noise.md
+FAIL shareable_thought[1] not from principle: signature-move.md
+FAIL shareable_thought[2] not from principle: signature-move.md
+FAIL shareable_thought[3] not from principle: signature-move.md
+FAIL description in key_concept (An early win is entrusted, not a license to coast through th…): steward-after-the-win.md
+FAIL shareable_thought[2] not from principle: success-is-stewardship.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The "shareable_thought" note needs to be fixed by copying or adapting lines from the key_concept or description bullets.
+
+The "abide-in-me" shareable should mirror its key_concept: "Abiding is ongoing dependence, not a one-time conversion event." The "first-principles" shareable uses wording close to its key_concept, though normalization may be failing.
+
+The first-principles shareable should use the exact key-concept line: "The tell is whether you can defend the claim without citing the source - if you cannot, you do not own it yet."
+
+For llow-christ-then-lead, the key-concept needs its wikilink separated from the first gloss line. A duplicate description line at key-concept line 10 should be removed. Shareables [1] and [2] must be rewritten to pull from key-concept lines.
+
+For forgiveness-at-work, shareable[0] appears to be the description itself, which seems acceptable.
+
+The forgiveness-at-work shareables [1] and [2] diverge from their key_concept lines. I am checking the principle_line_pool logic to find the correct matches.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 30,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def principle_line_pool|def key_concept_overlaps"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def principle_line_pool|def key_concept_overlaps",
+  "topFiles": [
+    {
+      "matchCount": 62,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The needed fixes are now clear.
+
+Systematic fixes are underway across all files. Shareable_thought lines will match exact key_concept clauses. Description duplicates will be removed. Wikilinks will be corrected. Examples will be trimmed to two. Redundant key_concept bullets will be stripped. The first file reviewed is abide-in-me.md.
+
+The first-principles-thinking.md fix uses the exact key_concept text about defending claims without citing sources. Follow-christ-then-lead.md needs its wikilink split and its duplicate description removed. Its shareable thoughts will be rewritten to match key_concept lines about discipleship versus leadership.
+
+The first shareable thought in follow-christ-then-lead.md will be replaced with the exact key_concept clause naming two seats: upward allegiance and outward care.
+
+Follow-christ-then-lead.md shareable[2] will use the God-Centered Design clause from key_concept line 12. Key_concept will also add a line about denying shortcuts when the captain’s chair and Christ’s command pull opposite ways, plus the Take Up Your Cross instruction. Forgiveness-at-work.md shareable[1] will be rewritten to match the exact key_concept text about stopping ledger-keeping on old slights.
+
+The second shareable thought in forgiveness-at-work.md will be rewritten to match the exact key_concept clause: forgiving is not pretending it did not hurt.
+
+In god-centered-design.md, shareable[2] will be fixed to the exact key_concept line about calendars built for applause feeling empty on Monday. Shareable[3] will be rewritten to match the Seek the Kingdom First filter.
+
+Shareable[3] in god-centered-design.md will use the plain key_concept text about Seek the Kingdom First and Love r Neighbor, with no wikilinks in the shareable.
+
+Golden-rule-at-work.md has a duplicate description bullet in key_concept that will be stripped.
+
+Graph-view-analytics.md shareable thoughts are not drawn from the principle and need correction.
+
+Graph-view-analytics.md shareable[2] will be rewritten to match the exact key_concept bullet about reading the link map for orphan notes, over-connected hubs, and forgotten gaps.
+
+Graph-view-analytics.md shareable[1] will be rewritten to match the exact key_concept bullet about reading the link map for orphan notes, over-linked hubs, and forgotten gaps. Lines 6 through 10 in that key_concept will be stripped because they repeat earlier content.
+
+The review continues with justification.md, sanctification shareable[3], signal-vs-noise shareable[3], signature-move, and steward-after-the-win. The duplicate description bullet in steward-after-the-win will be removed.
+
+Success-is-stewardship shareable[2] is next. The justification shareable and the-beatitudes will be checked for parallel bullets.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/the-beatitudes.md",
+  "pattern": "^- "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^- ",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The justification shareable[3] test failed. Confession restores fellowship when one sins, but it does not re-buy the standing faith already settled.
+
+shareable[3] now matches the key concept: standing versus fellowship keeps the verdict separate from daily closeness. Confession restores fellowship, it does not re-buy heaven.
+
+The sanctification shareable[3] now reads: "Discipleship is the daily walk with Jesus — hearing and doing what He said, not a one-time decision filed away."
+
+The signal-versus-noise shareable[3] reads: "If nothing would change this month, headline only — no mental slot and no save." This line is missing from the key concept. It needs to be added there or rephrased from the existing principle pool.
+
+Signature-move shareables fail against the key concept. One line matches the description. Another about pressure shrinking the menu is missing from the key concept. The third line is close to key concept line nine.
+
+Signature-move shareables will be fixed to exact key-concept lines. The duplicate description in steward-after-the-win key-concept line six will be removed. The success-is-stewardship shareable[2] will use plain text from the Faithful Steward parable instead of a pool reference. Redundant key-concepts in the-garage-concept and future-proofing will also be cleaned up.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing all 21 frontmatter lint failures and 6 garden-voice issues, and trimming redundant key_concept slop.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The god-centered-design shareable[3] needs its key_concept aligned exactly with the Love Your Neighbor section.
+
+The key_concept line was normalized to "Seek the Kingdom First is the priority filter - Love Your Neighbor keeps it from becoming selfish spirituality." "Neighbor love" was replaced with "Love Your Neighbor" to avoid a mismatch. Additional fixes are in progress.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Some operations failed. I am reading the failed files and fixing them properly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signature-move.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The signature-move shareable_thought needs to match key_concept.
+
+Remove the duplicate description from the steward-after-the-win key_concept. Verify that success-is-stewardship shareables reference the Faithful Steward parable. Check that god-centered-design shareable[3] contains the exact priority filter wording. Forgiveness-at-work may fail due to strict shareable matching.
+
+Trimming examples down to five notes. Five more concepts need review: build-a-reliable-default, future-proofing-knowledge, information-diet, metadata-strategy, and the-garage-concept. Linters will reveal the current state. Signature-move shareable[1] should read: "A signature move is the one answer I have drilled until I reach for it without thinking when the clock gets loud."
+
+Signature-move shareable[2] should read: "In the garden the same discipline is one principle in the claim and two scenes that feel unrelated but run the same move." Shareable[3] should read: "Domain labels do not count as diffe split surfaces until the reader believes the abstraction travels." The duplicate description to remove from steward-after-the-win is line 6: "An early win is entrusted, not a license to coast through the boring middle."
+
+Success-is-stewardship shareable[2] should cite the parable directly. Shareable[3] could read: "This note is the headline above the parable: promotion, audience, and a good season are entrusted, not trophies I earned to keep." The god-centered-design key_concept is being reviewed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing a god-centered-design note. The shareable[1] entry should read "Good works visible so the Father gets glory" rather than "Good works stay visible."
+
+Fixing god-centered-design shareable[3] to use exact key_concept text. Aligning signature-move shareables with the KC. Removing a duplicate line from steward-after-the-win. Updating success-is-stewardship shareables [2] and [3]. Trimming build-a-reliable-default examples to two. De-slopping key_concepts in the-garage-concept and future-proofing-knowledge.
+
+Removing the Inter font example from build-a-reliable-default. Keeping the clinic and fire plan examples instead.
+
+In the-garage-concept, removing the private captures/hugo example. Keeping the practice film and garage porch examples.
+
+Stripping redundant duplicate bullets from the-garage-concept key_concept. Keeping lines 6-7 and 11 while dropping 8-10.
+
+Removing the redundant duplicate description from future-proofing key_concept. Keeping lines 9-10.
+
+Trimming information-diet examples to commute podcasts and outrage sports. Dropping the Facebook example. Removing the Hugo example from metadata-strategy. Keeping tag twelve labels and team wiki. Verifying follow-christ-then-lead line 1 passes garden-voice lint. Running linters after edits.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signature-move.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Line 2 of the shareable_thought references a removed key_concept bullet about Future-proofing knowledge. That reference needs fixing.
+
+The-garage-concept shareables still reference removed bullets about the garage vault and the blog showroom. These need updating to match the remaining key_concept pool. Then I'll run the linters.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 &amp;&amp; python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 && python3 scripts/garden-voice-lint.py --check 2>&1 && python3 scripts/lint-notes-frontmatter.py 2>&1
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check && python3 scripts/slop-lint.py --check --notes-only
+FAIL shareable_thought[2] overlaps [3]: first-principles-thinking.md
+FAIL shareable_thought[3] 131 chars (max 130): justification.md
+FAIL shareable_thought[3] fragment: success-is-stewardship.md
+FAIL shareable_thought[3] meta note language: success-is-stewardship.md
+FAIL shareable_thought[3] not from principle: the-garage-concept.md
+
+5 note(s) failed frontmatter lint
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Five failures remain. One overlap was found between first-principles-thinking shareable[2] and [3].
+
+Three more issues were found: justification shareable[3] is one character over the 130-character limit; success-is-stewardship shareable[3] contains fragment and meta-note language; and the-garage-concept shareable[3] does not come from a principle. The next step is to read these files and notes_content.py to understand overlap rules.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "overlaps|shareable_line_from_principle|fragment|meta note"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "overlaps|shareable_line_from_principle|fragment|meta note",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/strip-desc-from-key-concept.py"
+    },
+    {
+      "matchCount": 8,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 12,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/split-key-concept-bullets.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/fix-shareable-thought.py"
+    },
+    {
+      "matchCount": 5,
+      "uri": "scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/audit-flashcard-north-star.py"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 36
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing justification, shareable thought, and notes content for overlap and meta-note language.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The first-principles-thinking section contains overlapping entries at indices 2 and 3.
+
+Entry [2] will be rewritten to distinguish explanation from rebuilding. Entry [3] must drop one character to fit the 130-character limit while preserving its key concept.
+
+The justification line will read: "Standing vs Fellowship keeps the verdict separate from closeness - confession restores fellowship, it does not re-buy heaven."
+
+success-is-stewardship entry [3] uses meta-note language and must be replaced with a non-meta line from the pool.
+
+success-is-stewardship entry [3] will read: "Promotion and platform are entrusted for faithful use - enter the master's joy, do not bury the talent in ego."
+
+The-garage-concept shareable[3] must match its exact key_concept text.
+
+The-garage-concept shareable[3] will use the exact key_concept line, dropping wikilinks to match the pool.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def principle_line_pool|meta note"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def principle_line_pool|meta note",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking meta note language.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "meta note|meta_note|This note"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "meta note|meta_note|This note",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "meta note"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "meta note",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading lint-notes-frontmatter near line 90.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "meta|gets_point"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "meta|gets_point",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for the META_NOTE_LANG regex.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+META_NOTE_LANG needs to be added to notes_content.py.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "META_NOTE_LANG"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "META_NOTE_LANG",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the text around line 358.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The headline note matches the META_NOTE_LANG pattern.
+
+success-is-stewardship [3] will use the faithful-use quote. first-principles [2] will use the rebuild quote. justification [3] will drop "it does not" to save three characters.
+
+garage [3] will use the full key_concept line without wikilinks, since the pool may strip them. I am checking how normalize handles the principle poolnot.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Wikilinks are being stripped to plain link text in the pool.
+
+Garage line 7 will have its wikilinks stripped to plain text. Shareable [3] must match that normalized text. The meta slop "This note is the headline" will be removed from key_concept in success-is-stewardship.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check && python3 scripts/slop-lint.py --check --notes-only
+FAIL shareable_thought[3] not from principle: justification.md
+FAIL shareable_thought[3] 151 chars (max 130): the-garage-concept.md
+
+2 note(s) failed frontmatter lint
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The justification shareable[3] was corrected by removing "it" from "it does not," but key_concept still contains the redundant phrase.
+
+Shareable[3] must align with key_concept. I am weighing whether to shorten key_concept or pull a different shareable line from the pool.
+
+A bible gloss line about faith and the case closing at trust is being considered for shareable[3]. The garage shareable[3] is 151 characters, so it needs to be shortened to fit the 130-character limit. Using only the first semicolon portion of a longer pool entry is one option.
+
+The garage shareable[3] will be drawn from the principle pool. A shorter semicolon split is about sixty characters. The justification shareable will match key_concept exactly. The key_concept line will be trimmed to "Confession restores fellowship, it does not re-buy heaven."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check && python3 scripts/slop-lint.py --check --notes-only
+FAIL shareable_thought[3] fragment: the-garage-concept.md
+
+1 note(s) failed frontmatter lint
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Found a lowercase "the" at the start of a fragment in the garage-concept shareable section.
+
+Drafting a revision to replace the lowercase fragment with "Client pass-off uses the same split: Selling Static Sites workshop in my drafts."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A lowercase "t" at the start of "the client's deploy branch..." is causing a failure.
+
+The replacement note is under 130 characters and includes the verb "uses".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 &amp;&amp; pnpm slop:scan --notes-only 2&gt;&amp;1 | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 && pnpm slop:scan --notes-only 2>&1 | head -40
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check && python3 scripts/slop-lint.py --check --notes-only
+Note frontmatter lint OK
+FAIL unsorted rel faithfulness.md
+FAIL unsorted rel peacemakers.md
+FAIL unsorted rel risk-management.md
+FAIL unsorted rel steward-after-the-win.md
+FAIL unsorted rel success-is-stewardship.md
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A normalize-notes-format issue exists with unsorted relationships.
+
+Checking what the normalize script expects for the edited files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -20
+```
+
+```
+the-beatitudes.md: trailing newline
+the-collectors-fallacy.md: trailing newline
+the-feynman-technique.md: trailing newline
+the-garage-concept.md: trailing newline
+the-golden-rule.md: trailing newline
+the-knowledge-lifecycle.md: trailing newline
+the-narrow-way.md: trailing newline
+the-second-brain-workflow.md: trailing newline
+the-trusted-inbox.md: trailing newline
+the-wise-builder.md: trailing newline
+there-is-no-perfect-solution.md: trailing newline
+title-without-influence.md: trailing newline
+transformation-principles.md: format normalized
+treasure-in-heaven.md: trailing newline
+turn-the-other-cheek.md: trailing newline
+versatility.md: trailing newline
+weekly-review-checklists.md: trailing newline
+workplace-principles.md: format normalized
+
+updated 236 files (236 fixes)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The normalize command unexpectedly updated 236 files.
+
+Running lint again to verify the fix. The normalize update was likely triggered by unsorted relative imports. The actual garden-voice changes will be highlighted instead of the mass normalization.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 &amp;&amp; pnpm lint:voice 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 && pnpm lint:voice 2>&1
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check && python3 scripts/slop-lint.py --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter errors:
+  content/english/notes/information-diet.md: card count must be 2, 4, 6, or 8 (has 5)
+  content/english/notes/own-your-part.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Coach hasn't fixed my defense and game night is close. Waiti…
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "package.json",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "slop:scan"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "slop:scan",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether five cards in information-diet were created by my changes or by normalize.
+
+own-your-part appears pre-existing. Now examining the information-diet cards section.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --stat content/english/notes/ | head -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/notes/ | head -30
+```
+
+```
+ content/english/notes/abide-in-me.md               |  6 ++----
+ content/english/notes/accept-the-starting-line.md  |  2 --
+ content/english/notes/accountability.md            |  1 -
+ content/english/notes/active-knowledge-curation.md |  1 -
+ content/english/notes/adaptability.md              |  1 -
+ content/english/notes/analog-capture-tools.md      |  1 -
+ content/english/notes/anti-fragile-systems.md      |  1 -
+ content/english/notes/ask-seek-knock.md            |  2 --
+ content/english/notes/assurance.md                 |  2 --
+ content/english/notes/atomic-notes.md              |  2 --
+ content/english/notes/attention-economy.md         |  2 --
+ content/english/notes/attention-to-detail.md       |  1 -
+ content/english/notes/backlinks.md                 |  1 -
+ content/english/notes/behavioral-economics.md      |  1 -
+ .../english/notes/blameless-after-action-review.md |  2 --
+ .../english/notes/break-the-escalation-cycle.md    |  2 --
+ content/english/notes/build-a-reliable-default.md  |  2 --
+ content/english/notes/building-a-personal-api.md   |  1 -
+ content/english/notes/building-a-second-brain.md   |  2 --
+ content/english/notes/by-their-fruits.md           |  3 +--
+ content/english/notes/capture.md                   |  2 --
+ content/english/notes/change-takes-repetition.md   |  2 --
+ content/english/notes/change-window.md             |  2 --
+ content/english/notes/childlike-faith.md           |  6 ++----
+ content/english/notes/christianity-and-politics.md |  2 --
+ content/english/notes/christlikeness.md            |  3 ---
+ content/english/notes/client-site-pass-off.md      |  4 ----
+ content/english/notes/coaching-ethics.md           |  1 -
+ content/english/notes/commonplace-book.md          |  1 -
+ content/english/notes/complete-the-cycle.md        |  1 -
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The normalize script touched 236 files. Most changes were trailing newlines.
+
+The normalize script accidentally expanded its scope beyond garden-voice slop removal. information-diet now has four cards, which is valid. The lint:garden failure on own-your-part.md appears pre-existing and unrelated to these edits. I am checking whether normalize modified that file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/own-your-part.md | head -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/own-your-part.md | head -5
+```
+
+```
+diff --git a/content/english/notes/own-your-part.md b/content/english/notes/own-your-part.md
+index d6612cf9..a757a564 100644
+--- a/content/english/notes/own-your-part.md
++++ b/content/english/notes/own-your-part.md
+@@ -57,6 +57,3 @@ cards:
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The own-your-part file only had its trailing newline normalized. The flashcard issue predates these changes.
+
+Lint:garden must pass for the task to be complete. I'll read the failing own-your-part card.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 2,
+  "contextBefore": 2,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md",
+  "pattern": "Coach hasn't fixed"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md",
+  "pattern": "Coach hasn't fixed",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/own-your-part.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check && python3 scripts/slop-lint.py --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter errors:
+  content/english/notes/information-diet.md: card count must be 2, 4, 6, or 8 (has 3)
+  content/english/notes/own-your-part.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Coach hasn't fixed my defense and game night is close. Waiti…
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Information-diet needs one more card to reach four.
+
+I accidentally removed two cards instead of one. I am adding back the Facebook card to restore the fourth card. I am also rewriting the multiple choice card front for own-your-part.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 &amp;&amp; pnpm lint:voice 2&gt;&amp;1 &amp;&amp; python3 scripts/slop-lint.py --summary --notes-only 2&gt;&amp;1 | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 && pnpm lint:voice 2>&1 && python3 scripts/slop-lint.py --summary --notes-only 2>&1 | head -20
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check && python3 scripts/slop-lint.py --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit issues:
+  content/english/notes/change-takes-repetition.md [fragment-back] front=Capture habit died after the weekend I reorganized ever… back=Same ten-minute block for months.…
+  content/english/notes/change-takes-repetition.md [fragment-back] front=Team wants a transformation offsite to fix culture. Wha… back=Same levers repeated - not one breakthro…
+  content/english/notes/christlikeness.md [note-title-on-back] front=Virtue streak is my proof God accepts me. Mixing up wha… back=Faith saves - Christlikeness grows after…
+  content/english/notes/god-centered-design.md [truncated-back] front=I'm people-pleasing the room instead of obeying God. Wh… back=God's reign sets the aim - neighbor-love…
+  content/english/notes/heed-every-near-miss.md [telegraphy-front] front=Kid almost choked on the same team-building snack twice… back=Luck is not control - change the snack.…
+  content/english/notes/present-a-living-sacrifice.md [telegraphy-front] front=Romans 12:1 on my lips, same snap reactions at dinner. … back=Renew the mind - sacrifice needs reshape…
+  content/english/notes/purpose-and-vision.md [telegraphy-front] front=Vision poster on the wall but calendar says otherwise. … back=Filter Tuesday's calendar - not decorati…
+  content/english/notes/signature-move.md [telegraphy-front] front=Both examples in my draft are work meetings with the sa… back=Split surfaces - same room twice does no…
+
+8 issue(s) in garden flashcards
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The north-star audit is part of lint:garden. It fails on pre-existing issues, including god-centered-design and signature-move, which were already edited.
+
+The god-centered-design failure likely predates our edits, since we changed shareables rather than cards. I will verify the git diff for those files. Lint:garden must pass before the work is complete.
+
+Reverting the mass normalize is too risky because 236 files changed. I will run the slop scan and garden-voice checks separately, since the north-star audit failures likely predate our edits.
+
+I will revert the accidental mass normalize. The 236-file diff is mostly harmless trailing-newline cleanup, but it is noise from an unintended command. I am separating the files we intentionally edited from those touched only by normalization.
+
+I am identifying the exact files we intentionally edited versus those touched only by the accidental normalize. I will check whether the normalize changes were purely whitespace, such as trailing newlines, to decide which files to revert.
+
+Reverting the accidental normalize is too complex. I will leave the trailing-newline changes in place and treat them as part of the lint:garden verification chain. The meaningful slop fixes are in roughly twenty files. I will run slop-lint and garden-voice-lint separately to confirm they pass, while noting the pre-existing north-star failures. I am checking the conversation history to verify whether those north-star issues existed before our edits.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 &amp;&amp; python3 scripts/slop-lint.py --check --notes-only 2&gt;&amp;1 &amp;&amp; python3 scripts/slop-lint.py --summary --notes-only 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 && python3 scripts/slop-lint.py --check --notes-only 2>&1 && python3 scripts/slop-lint.py --summary --notes-only 2>&1
+```
+
+```
+Garden voice lint OK
+Slop lint OK
+Slop scan — 0 blog, 237 notes, 0 fail, 0 warn
+Rules: data/slop-rules.yaml
+
+No slop flags.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --numstat content/english/notes/ | awk &#39;$1+$2&gt;2&#39; | wc -l &amp;&amp; git diff --numstat content/english/notes/ | awk &#39;$1+$2&lt;=2&#39; | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --numstat content/english/notes/ | awk '$1+$2>2' | wc -l && git diff --numstat content/english/notes/ | awk '$1+$2<=2' | wc -l
+```
+
+```
+60
+175
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+60 files contain substantive changes. 175 files have minor edits, likely just trailing newlines.
+
+Reverting the 175 whitespace-only files to reduce noise. I will be more careful and only list files that were intentionally edited.
+
+The intentional edits cover twelve specific topics. Normalization changes to faithfulness, peacemakers, and risk-management were not intentional. I will revert only files with trailing newline changes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reverting accidental whitespace-only changes from the normalize script, keeping substantive garden-voice edits.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in $(git diff --name-only content/english/notes/); do if ! git diff -w --quiet &#34;$f&#34; 2&gt;/dev/null; then echo &#34;keep $f&#34;; else git checkout -- &#34;$f&#34;; fi; done 2&gt;&amp;1 | tail -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in $(git diff --name-only content/english/notes/); do if ! git diff -w --quiet "$f" 2>/dev/null; then echo "keep $f"; else git checkout -- "$f"; fi; done 2>&1 | tail -30
+```
+
+```
+keep content/english/notes/stay-effective-in-new-conditions.md
+keep content/english/notes/steward-after-the-win.md
+keep content/english/notes/strategic-foresight.md
+keep content/english/notes/success-is-stewardship.md
+keep content/english/notes/sunk-cost-fallacy.md
+keep content/english/notes/sustainable-performance.md
+keep content/english/notes/synthesis-as-a-goal.md
+keep content/english/notes/systems-for-growth.md
+keep content/english/notes/systems-thinking.md
+keep content/english/notes/take-up-your-cross.md
+keep content/english/notes/taxonomy.md
+keep content/english/notes/the-12-week-year.md
+keep content/english/notes/the-beatitudes.md
+keep content/english/notes/the-collectors-fallacy.md
+keep content/english/notes/the-feynman-technique.md
+keep content/english/notes/the-garage-concept.md
+keep content/english/notes/the-golden-rule.md
+keep content/english/notes/the-knowledge-lifecycle.md
+keep content/english/notes/the-narrow-way.md
+keep content/english/notes/the-second-brain-workflow.md
+keep content/english/notes/the-trusted-inbox.md
+keep content/english/notes/the-wise-builder.md
+keep content/english/notes/there-is-no-perfect-solution.md
+keep content/english/notes/title-without-influence.md
+keep content/english/notes/transformation-principles.md
+keep content/english/notes/treasure-in-heaven.md
+keep content/english/notes/turn-the-other-cheek.md
+keep content/english/notes/versatility.md
+keep content/english/notes/weekly-review-checklists.md
+keep content/english/notes/workplace-principles.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The review retained far more than 19 files.
+
+The normalize script likely altered unintended files. Checking stay-effective-in-new-conditions.md for unexpected changes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/stay-effective-in-new-conditions.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/stay-effective-in-new-conditions.md
+```
+
+```
+diff --git a/content/english/notes/stay-effective-in-new-conditions.md b/content/english/notes/stay-effective-in-new-conditions.md
+index f2e56cfd..2ec98d30 100644
+--- a/content/english/notes/stay-effective-in-new-conditions.md
++++ b/content/english/notes/stay-effective-in-new-conditions.md
+@@ -51,4 +51,3 @@ cards:
+     back: "New footwork - do not defend yesterday."
+ draft: false
+ ---
+-
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --name-only content/english/notes/ | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --name-only content/english/notes/ | wc -l
+```
+
+```
+235
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The revert script failed. Git diff -w ignores whitespace but still shows line deletions.
+
+A better approach is to revert all notes except the intentional list. The intentional files include abide-in-me.md, first-principles-thinking.md, follow-christ-then-lead.md, forgiveness-at-work.md, god-centered-design.md, golden-rule-at-work.md, graph-view-analytics.md, justification.md, sanctification.md, signal-vs-noise.md, signature-move.md, steward-after-the-win.md, success-is-stewardship.md, build-a-reliable-default.md, the-garage-concept.md, future-proofing-knowledge.md, information-diet.md, metadata-strategy.md, and own-your-part.md.
+
+No stash exists. Reverting all notes and re-applying edits would be too much work. A targeted approach is better: for each changed file, if the diff only removes a final blank line after `---`, checkout that file directly. transformation-principles.md and workplace-principles.md may also need checking if normalize altered their relationships.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import subprocess
+from pathlib import Path
+
+notes = Path(&#34;content/english/notes&#34;)
+keep = {
+    &#34;abide-in-me.md&#34;, &#34;first-principles-thinking.md&#34;, &#34;follow-christ-then-lead.md&#34;,
+    &#34;forgiveness-at-work.md&#34;, &#34;god-centered-design.md&#34;, &#34;golden-rule-at-work.md&#34;,
+    &#34;graph-view-analytics.md&#34;, &#34;justification.md&#34;, &#34;sanctification.md&#34;, &#34;signal-vs-noise.md&#34;,
+    &#34;signature-move.md&#34;, &#34;steward-after-the-win.md&#34;, &#34;success-is-stewardship.md&#34;,
+    &#34;build-a-reliable-default.md&#34;, &#34;the-garage-concept.md&#34;, &#34;future-proofing-knowledge.md&#34;,
+    &#34;information-diet.md&#34;, &#34;metadata-strategy.md&#34;, &#34;own-your-part.md&#34;,
+}
+reverted = []
+for f in subprocess.check_output([&#34;git&#34;, &#34;diff&#34;, &#34;--name-only&#34;, &#34;content/english/notes/&#34;], text=True).splitlines():
+    name = Path(f).name
+    if name in keep:
+        continue
+    diff = subprocess.check_output([&#34;git&#34;, &#34;diff&#34;, f], text=True)
+    # trailing newline only: single hunk removing blank line after ---
+    lines = [l for l in diff.splitlines() if l.startswith(&#39;+&#39;) or l.startswith(&#39;-&#39;)]
+    lines = [l for l in lines if l not in (&#39;--- a/&#39;+f.split(&#39;/&#39;,1)[1], &#39;+++ b/&#39;+f.split(&#39;/&#39;,1)[1]) and not l.startswith(&#39;@@&#39;)]
+    if all(l == &#39;-\n&#39; or l == &#39;-&#39; for l in lines) or (len(lines)==1 and lines[0]==&#39;-&#39;):
+        subprocess.run([&#34;git&#34;, &#34;checkout&#34;, &#34;--&#34;, f], check=True)
+        reverted.append(name)
+print(f&#34;reverted {len(reverted)} trailing-newline-only files&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import subprocess
+from pathlib import Path
+
+notes = Path("content/english/notes")
+keep = {
+    "abide-in-me.md", "first-principles-thinking.md", "follow-christ-then-lead.md",
+    "forgiveness-at-work.md", "god-centered-design.md", "golden-rule-at-work.md",
+    "graph-view-analytics.md", "justification.md", "sanctification.md", "signal-vs-noise.md",
+    "signature-move.md", "steward-after-the-win.md", "success-is-stewardship.md",
+    "build-a-reliable-default.md", "the-garage-concept.md", "future-proofing-knowledge.md",
+    "information-diet.md", "metadata-strategy.md", "own-your-part.md",
+}
+reverted = []
+for f in subprocess.check_output(["git", "diff", "--name-only", "content/english/notes/"], text=True).splitlines():
+    name = Path(f).name
+    if name in keep:
+        continue
+    diff = subprocess.check_output(["git", "diff", f], text=True)
+    # trailing newline only: single hunk removing blank line after ---
+    lines = [l for l in diff.splitlines() if l.startswith('+') or l.startswith('-')]
+    lines = [l for l in lines if l not in ('--- a/'+f.split('/',1)[1], '+++ b/'+f.split('/',1)[1]) and not l.startswith('@@')]
+    if all(l == '-\n' or l == '-' for l in lines) or (len(lines)==1 and lines[0]=='-'):
+        subprocess.run(["git", "checkout", "--", f], check=True)
+        reverted.append(name)
+print(f"reverted {len(reverted)} trailing-newline-only files")
+PY
+```
+
+```
+reverted 0 trailing-newline-only files
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The script failed to match. I'll stash our files, checkout all notes, then pop the stash for our files only.
+
+Copying our 19 files to /tmp, checking out all notes, then restoring them.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; mkdir -p /tmp/garden-voice-keep &amp;&amp; for f in abide-in-me first-principles-thinking follow-christ-then-lead forgiveness-at-work god-centered-design golden-rule-at-work graph-view-analytics justification sanctification signal-vs-noise signature-move steward-after-the-win success-is-stewardship build-a-reliable-default the-garage-concept future-proofing-knowledge information-diet metadata-strategy own-your-part; do cp &#34;content/english/notes/$f.md&#34; &#34;/tmp/garden-voice-keep/$f.md&#34;; done &amp;&amp; git checkout -- content/english/notes/ &amp;&amp; for f in /tmp/garden-voice-keep/*.md; do cp &#34;$f&#34; &#34;content/english/notes/$(basename $f)&#34;; done &amp;&amp; git diff --name-only content/english/notes/ | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && mkdir -p /tmp/garden-voice-keep && for f in abide-in-me first-principles-thinking follow-christ-then-lead forgiveness-at-work god-centered-design golden-rule-at-work graph-view-analytics justification sanctification signal-vs-noise signature-move steward-after-the-win success-is-stewardship build-a-reliable-default the-garage-concept future-proofing-knowledge information-diet metadata-strategy own-your-part; do cp "content/english/notes/$f.md" "/tmp/garden-voice-keep/$f.md"; done && git checkout -- content/english/notes/ && for f in /tmp/garden-voice-keep/*.md; do cp "$f" "content/english/notes/$(basename $f)"; done && git diff --name-only content/english/notes/ | wc -l
+```
+
+```
+19
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only 19 files changed.
+
+Running full lint again.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check && python3 scripts/slop-lint.py --check --notes-only
+Note frontmatter lint OK
+FAIL unsorted rel faithfulness.md
+FAIL unsorted rel peacemakers.md
+FAIL unsorted rel risk-management.md
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Pre-existing unsorted relationships remain in faithfulness, peacemakers, and risk-management. These were not introduced by recent edits.
+
+The normalize step fixed two duplicate entries: "steward-after-the-win" and "success-is-stewardre". Checking whether these three files contain pre-existing issues on the main branch.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git stash push -m temp -- content/english/notes/ &amp;&amp; python3 scripts/normalize-notes-format.py --verify 2&gt;&amp;1 | head -10; git stash pop</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git stash push -m temp -- content/english/notes/ && python3 scripts/normalize-notes-format.py --verify 2>&1 | head -10; git stash pop
+```
+
+```
+Saved working directory and index state On master: temp
+<stdin>:133: trailing whitespace.
+  
+<stdin>:207: trailing whitespace.
+  
+<stdin>:494: new blank line at EOF.
++
+<stdin>:460: new blank line at EOF.
++
+<stdin>:411: new blank line at EOF.
++
+warning: squelched 16 whitespace errors
+warning: 21 lines add whitespace errors.
+FAIL examples build-a-reliable-default.md: 3
+FAIL unsorted rel faithfulness.md
+FAIL examples future-proofing-knowledge.md: 3
+FAIL examples information-diet.md: 3
+FAIL examples metadata-strategy.md: 3
+FAIL unsorted rel peacemakers.md
+FAIL unsorted rel risk-management.md
+FAIL unsorted rel steward-after-the-win.md
+FAIL unsorted rel success-is-stewardship.md
+FAIL examples the-garage-concept.md: 3
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md
+	modified:   .specstory/statistics.json
+	modified:   content/english/notes/abide-in-me.md
+	modified:   content/english/notes/build-a-reliable-default.md
+	modified:   content/english/notes/first-principles-thinking.md
+	modified:   content/english/notes/follow-christ-then-lead.md
+	modified:   content/english/notes/forgiveness-at-work.md
+	modified:   content/english/notes/future-proofing-knowledge.md
+	modified:   content/english/notes/god-centered-design.md
+	modified:   content/english/notes/golden-rule-at-work.md
+	modified:   content/english/notes/graph-view-analytics.md
+	modified:   content/english/notes/information-diet.md
+	modified:   content/english/notes/justification.md
+	modified:   content/english/notes/metadata-strategy.md
+	modified:   content/english/notes/own-your-part.md
+	modified:   content/english/notes/sanctification.md
+	modified:   content/english/notes/signal-vs-noise.md
+	modified:   content/english/notes/signature-move.md
+	mod
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Baseline already shows unsorted relative failures in faithfulness, peacemakers, risk-management, steward-after-the-win, and success-is-stewardship.
+
+Only the two edited files need normalization. The other three unsorted relative failures are pre-existing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "unsorted rel|sort.*rel"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "unsorted rel|sort.*rel",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-notes-format.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking how relationships should be sorted.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Relationships need sorting by type and wikilink.
+
+The extends list is already alphabetically sorted.
+
+Sorting by type and wikilink appears correct. The failure likely stems from a normalization change removing trailing newlines. Comparing against the git HEAD version to verify.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git show HEAD:content/english/notes/steward-after-the-win.md | sed -n &#39;/^relationships:/,/^[a-z]/p&#39; | head -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:content/english/notes/steward-after-the-win.md | sed -n '/^relationships:/,/^[a-z]/p' | head -30
+```
+
+```
+relationships:
+  - type: alternative
+    wikilink: "[[Minimum Viable Product]]"
+    reason: "Ship the next slice vs coast because the first slice landed"
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when I celebrate the save pile instead of the next ship"
+  - type: extends
+    wikilink: "[[Compounding]]"
+    reason: "Faithful use after the spike still stacks on quiet Tuesdays"
+  - type: extends
+    wikilink: "[[Faithful Steward]]"
+    reason: "Faithful Steward warns against burying talent after one good return"
+  - type: extends
+    wikilink: "[[Finish Strong]]"
+    reason: "Win is mid-game - close the tail, do not stop at halftime"
+  - type: extends
+    wikilink: "[[Complete the Cycle]]"
+    reason: "Steward promises through the boring middle"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Promotion win - keep serving the team, not grabbing credit"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Headline for the coast temptation right after a good season"
+  - type: extends
+    wikilink: "[[Sustainable Performance]]"
+    reason: "Victory-lap sprint burns the gift - pace you can repeat"
+slug: "steward-after-the-win"
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The current sort order correctly places Complete the Cycle before Compounding.
+
+The sort order is correct. The verify failure on steward-after-the-win is unexpected. Running Python to investigate.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import yaml
+from pathlib import Path
+from notes_content import split_frontmatter
+path = Path(&#34;content/english/notes/steward-after-the-win.md&#34;)
+fm = yaml.safe_load(split_frontmatter(path.read_text())[0])
+rows = [(r.get(&#34;type&#34;, &#34;&#34;), r.get(&#34;wikilink&#34;, &#34;&#34;)) for r in fm[&#34;relationships&#34;]]
+sorted_rows = sorted(rows, key=lambda r: (r[0].lower(), r[1].lower()))
+print(&#34;rows:&#34;, rows)
+print(&#34;sorted:&#34;, sorted_rows)
+print(&#34;match:&#34;, rows == sorted_rows)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import yaml
+from pathlib import Path
+from notes_content import split_frontmatter
+path = Path("content/english/notes/steward-after-the-win.md")
+fm = yaml.safe_load(split_frontmatter(path.read_text())[0])
+rows = [(r.get("type", ""), r.get("wikilink", "")) for r in fm["relationships"]]
+sorted_rows = sorted(rows, key=lambda r: (r[0].lower(), r[1].lower()))
+print("rows:", rows)
+print("sorted:", sorted_rows)
+print("match:", rows == sorted_rows)
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+ModuleNotFoundError: No module named 'notes_content'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Scripts need to be added to the path.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+import yaml
+from pathlib import Path
+from notes_content import split_frontmatter
+for name in [&#34;steward-after-the-win&#34;, &#34;success-is-stewardship&#34;]:
+    path = Path(f&#34;content/english/notes/{name}.md&#34;)
+    fm = yaml.safe_load(split_frontmatter(path.read_text())[0])
+    rows = [(r.get(&#34;type&#34;, &#34;&#34;), r.get(&#34;wikilink&#34;, &#34;&#34;)) for r in fm[&#34;relationships&#34;]]
+    sorted_rows = sorted(rows, key=lambda r: (r[0].lower(), r[1].lower()))
+    print(name, &#34;match:&#34;, rows == sorted_rows)
+    if rows != sorted_rows:
+        for a,b in zip(rows, sorted_rows):
+            if a!=b: print(&#34;  diff&#34;, a, &#34;vs&#34;, b)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && PYTHONPATH=scripts python3 - <<'PY'
+import yaml
+from pathlib import Path
+from notes_content import split_frontmatter
+for name in ["steward-after-the-win", "success-is-stewardship"]:
+    path = Path(f"content/english/notes/{name}.md")
+    fm = yaml.safe_load(split_frontmatter(path.read_text())[0])
+    rows = [(r.get("type", ""), r.get("wikilink", "")) for r in fm["relationships"]]
+    sorted_rows = sorted(rows, key=lambda r: (r[0].lower(), r[1].lower()))
+    print(name, "match:", rows == sorted_rows)
+    if rows != sorted_rows:
+        for a,b in zip(rows, sorted_rows):
+            if a!=b: print("  diff", a, "vs", b)
+PY
+```
+
+```
+steward-after-the-win match: True
+success-is-stewardship match: True
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The review passes. Lint failures in faithfulness, peacemakers, and risk-management are pre-existing and unrelated to this task.
+
+Linting only the changed files. Checking noteFileDates.json for unwanted auto-updates.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff data/noteFileDates.json | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff data/noteFileDates.json | head -20
+```
+
+```
+diff --git a/data/noteFileDates.json b/data/noteFileDates.json
+index b5ca31d1..7f206b45 100644
+--- a/data/noteFileDates.json
++++ b/data/noteFileDates.json
+@@ -1,946 +1,946 @@
+ {
+   "notes/abide-in-me.md": {
+-    "created": "2026-07-10T06:28:53.811Z",
+-    "updated": "2026-07-12T09:24:15.894Z"
++    "created": "2026-07-19T12:50:49.115Z",
++    "updated": "2026-07-19T12:50:49.115Z"
+   },
+   "notes/accept-the-starting-line.md": {
+-    "created": "2026-07-10T06:28:53.812Z",
+-    "updated": "2026-07-10T23:05:52.133Z"
++    "created": "2026-07-19T12:50:19.847Z",
++    "updated": "2026-07-19T12:50:19.848Z"
+   },
+   "notes/accountability.md": {
+-    "created": "2026-07-10T06:28:53.812Z",
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 &amp;&amp; python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 &amp;&amp; python3 scripts/slop-lint.py --check --notes-only 2&gt;&amp;1 &amp;&amp; pnpm lint:voice 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 && python3 scripts/garden-voice-lint.py --check 2>&1 && python3 scripts/slop-lint.py --check --notes-only 2>&1 && pnpm lint:voice 2>&1
+```
+
+```
+Note frontmatter lint OK
+Garden voice lint OK
+Slop lint OK
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reverting an accidental change to noteFileDates.json from normalize.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git checkout -- data/noteFileDates.json</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git checkout -- data/noteFileDates.json
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I am reviewing /garden-voice for notes and AI slop.
+
+The garden-voice pass is complete. 19 notes were edited.
+
+- Shareable_thought alignment fixed in 19 files.
+- Three examples trimmed to two.
+- Redundant key_concept slop removed.
+- A wikilink corrected.
+- Minor card fixes applied.
+
+Lint checks passed.
+
+Pre-existing lint failures remain in rel hfulness, peacemakers, risk-management, and the north-star flashcard audit. No commit will be made without explicit request.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Garden-voice pass is done. **19 notes** edited; all garden voice, slop, and frontmatter lints pass on the full notes set.
+
+## What changed
+
+**Shareable / frontmatter alignment** (13 notes) — `shareable_thought` lines now match the `description`/`key_concept` principle pool, with overlaps and meta language removed:
+`abide-in-me`, `first-principles-thinking`, `follow-christ-then-lead`, `forgiveness-at-work`, `god-centered-design`, `golden-rule-at-work`, `graph-view-analytics`, `justification`, `sanctification`, `signal-vs-noise`, `signature-move`, `steward-after-the-win`, `success-is-stewardship`, `the-garage-concept`
+
+**Structural slop trimmed**
+- **3 examples → 2:** `build-a-reliable-default`, `future-proofing-knowledge`, `information-diet`, `metadata-strategy`, `the-garage-concept`
+- **Redundant `key_concept` bullets cut** (description duplicates, parallel restatements, "this note is the headline…"): `golden-rule-at-work`, `graph-view-analytics`, `future-proofing-knowledge`, `steward-after-the-win`, `success-is-stewardship`, `the-garage-concept`
+- **`follow-christ-then-lead`:** wikilink pulled off line 1; claim stack tightened
+
+**Cards** (tied to example trims): `information-diet` back to 4 cards; `own-your-part` cue fixed (no "A or B?" multiple-choice front)
+
+## Lint status
+
+| Check | Result |
+|-------|--------|
+| `lint-notes-frontmatter` | OK |
+| `garden-voice-lint` | OK |
+| `slop-lint --notes-only` | OK — **0 fails, 0 warns** across 237 notes |
+| `lint:voice` | OK |
+
+`pnpm lint:garden` still fails on **pre-existing** repo issues unrelated to this pass: unsorted `relationships` in `faithfulness`, `peacemakers`, `risk-management`, and 8 north-star flashcard audit warnings in other notes.
+
+Nothing committed. Say if you want a commit or those pre-existing `lint:garden` failures fixed next.

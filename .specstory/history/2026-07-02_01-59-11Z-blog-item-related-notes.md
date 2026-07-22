@@ -13,7 +13,8 @@ _**User**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All blog items must have `related_notes`.</details></think>
+All blog items must have `related_notes`.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,11 +23,10 @@ I'll check the blog posts and how `related_notes` is used so we can add it every
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **49** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (49 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (49 files)
 
 | File |
 |------|
@@ -79,21 +79,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (49 files)
 | `content/english/blog/__mi-box-s.md` |
 | `content/english/blog/__kewpie-mayo.md` |
 | `content/english/blog/__blank-blog-template.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -201,21 +192,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -323,21 +305,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -445,65 +418,39 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I need to find blog posts missing the `related_notes` field.</details></think>
+I need to find blog posts missing the `related_notes` field.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -612,37 +559,20 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -673,13 +603,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -689,29 +612,1508 @@ There's an audit script for this — I'll run it to see which posts are still mi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-blog-related-notes.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-blog-related-notes.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-notes.py 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/audit-blog-related-notes.py 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-notes.py 2>&1
 ```
-</details>
-</tool-use>
+
+```
+BLOG SLUG                                            MODE   NOTES
+----------------------------------------------------------------------------------------------------
+alex-eala-pro-career-tracker                         manual (empty manual list)
+consistent-ai-output-wordpress-builds                auto   tags: building-a-personal-api, creative-blocks, mobile-capture-workflows, the-knowledge-lifecycle, the-trusted-inbox, context-aware-capture
+dnpap-song-resources                                 manual (empty manual list)
+facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience auto   tags: digital-minimalism, note-relationships, attention-economy, graph-view-analytics, signal-vs-noise, commonplace-book
+getting-started-with-rss-feeds-a-beginners-guide     auto   tags: synthesis-as-a-goal, literature-notes, digital-minimalism, digital-serendipity, the-second-brain-workflow, attention-economy
+how-i-built-jorap-notes                              auto   tags: free-tier-hosting-stack, digital-garden, drafting-in-public, the-garage-concept, selling-static-sites, note-relationships | mentions: patience
+hugoplate-theme-review                               auto   tags: the-garage-concept, digital-garden, drafting-in-public, git-based-cms, free-tier-hosting-stack, selling-static-sites
+instant-pot-chicken-adobo                            none   —
+miracle-isaiah-david                                 manual (empty manual list)
+power-of-the-mouse-wheel-click                       auto   tags: context-aware-capture, the-second-brain-workflow, commonplace-book, crdt, inbox-zero, information-diet
+power-of-worship-pads-enhancing-your-worship-with-guitar manual (empty manual list)
+set-it-forget-it-arroz-caldo                         none   —
+top-reasons-create-maintain-your-own-website         auto   tags: drafting-in-public, digital-garden, commonplace-book, sketchpad, note-relationships, the-garage-concept
+top-reasons-why-you-still-need-use-desktop-laptop    au
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The audit flagged empty manual lists, yet grepping found slugs present.
+
+The audit code returns an empty list when `related_notes` is `[]`. This explains why grep found slugs while the audit flagged empty manual lists.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/audit-blog-related-notes.py --drafts 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-notes.py --drafts 2>&1
+```
+
+```
+BLOG SLUG                                            MODE   NOTES
+----------------------------------------------------------------------------------------------------
+canon-g3000                                          none   —
+craft-prompt-framework                               manual (empty manual list)
+drupal-to-wordpress                                  manual (empty manual list)
+extension-cord                                       none   —
+how-to-create-a-good-habit                           manual (empty manual list)
+hugo-go-templates                                    manual (empty manual list)
+hugo-page-bundles                                    manual (empty manual list)
+hugo-shortcodes-deep-dive                            manual (empty manual list)
+hugo-static-site-generator                           manual (empty manual list)
+jobs-to-be-done-framework                            manual (empty manual list)
+kewpie-mayo                                          none   —
+make-ai-articles-more-human                          manual (empty manual list)
+markdown-deep-dive                                   manual (empty manual list)
+markdown-formatting                                  manual (empty manual list)
+mi-box-s                                             none   —
+native-hugo-taxonomies                               manual (empty manual list)
+obsidian-vs-hugo                                     manual (empty manual list)
+password-managers                                    manual (empty manual list)
+personal-immune-booster-supplements                  manual (empty manual list)
+rechargeable-batteries                               manual (empty manual list)
+remote-work-checklist                                manual (empty manual list)
+second-cellphone                                     none   —
+shopee-tips                                          manual (empty manual list)
+smart-plug                                           manual (empty manual list)
+stu
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The audit script incorrectly reports empty manual lists for posts that clearly contain related_notes in their files.
+
+The audit code stores manual related_notes as tag_hits. The print logic then checks tag_hits for emptiness. This mismatch likely causes the false empty list report.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import yaml, re
+from pathlib import Path
+text = Path(&#39;content/english/blog/dnpap-song-resources.md&#39;).read_text()
+m = re.match(r&#39;^---\s*\n(.*?)\n---&#39;, text, re.DOTALL)
+meta = yaml.safe_load(m.group(1))
+print(&#39;related_notes:&#39;, repr(meta.get(&#39;related_notes&#39;)))
+print(&#39;type:&#39;, type(meta.get(&#39;related_notes&#39;)))
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import yaml, re
+from pathlib import Path
+text = Path('content/english/blog/dnpap-song-resources.md').read_text()
+m = re.match(r'^---\s*\n(.*?)\n---', text, re.DOTALL)
+meta = yaml.safe_load(m.group(1))
+print('related_notes:', repr(meta.get('related_notes')))
+print('type:', type(meta.get('related_notes')))
+"
+```
+
+```
+related_notes: ['love-god', 'free-grace', 'ask-seek-knock']
+type: <class 'list'>
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^related_notes:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^related_notes:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-shortcodes-deep-dive.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__personal-immune-booster-supplements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-page-bundles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__rechargeable-batteries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/miracle-isaiah-david.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__stuart-mcgill-big-three-low-back-exercises.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-go-templates.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__native-hugo-taxonomies.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-static-site-generator.md"
+    }
+  ],
+  "totalFiles": 28,
+  "totalMatches": 28
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The audit script display has a bug. It uses `tag_hits` for printing. In manual mode the slugs are in the first return value's second element. That element is assigned to `tag_hits`.
+
+The real bug is in `audit_rows`. For manual mode it appends `rest`, which is `[]`, instead of the actual manual slug list. The audit display is wrong for manual entries, but the actual files may be fine.
+
+17 of 46 blog posts lack `related_notes` entirely. Two posts have none. Three others were auto-detected and still need frontmatter added.
+
+Eight drafts lack related_notes entirely. Published posts with manual references include alex-eala, dnpap, miracle-isaiah, power-of-worship, and what-i-look-for.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The audit script has a display bug for manual entries; I'll identify which posts are actually missing `related_notes` and fill them in.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/*.md; do grep -q &#39;^related_notes:&#39; &#34;$f&#34; || echo &#34;$f&#34;; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do grep -q '^related_notes:' "$f" || echo "$f"; done
+```
+
+```
+content/english/blog/__blank-blog-template.md
+content/english/blog/__blog-template.md
+content/english/blog/__canon-g3000.md
+content/english/blog/consistent-ai-output-wordpress-builds.md
+content/english/blog/__extension-cord.md
+content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
+content/english/blog/getting-started-with-rss-feeds-beginners-guide.md
+content/english/blog/how-i-built-jorap-notes.md
+content/english/blog/hugoplate-theme-review.md
+content/english/blog/_index.md
+content/english/blog/instant-pot-chicken-adobo.md
+content/english/blog/__kewpie-mayo.md
+content/english/blog/__mi-box-s.md
+content/english/blog/power-of-the-mouse-wheel-click.md
+content/english/blog/__second-cellphone.md
+content/english/blog/set-it-forget-it-arroz-caldo.md
+content/english/blog/__tailwind-css-v4.md
+content/english/blog/top-reasons-create-maintain-your-own-website.md
+content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md
+content/english/blog/__why-i-stopped-playing-marvel-snap.md
+content/english/blog/__worcestershire-sauce-lee-and-perrins.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import sys
+sys.path.insert(0, &#39;scripts&#39;)
+from audit_blog_related_notes import audit_rows, combined_slugs, find_related_slugs, note_pool, load_md
+from pathlib import Path
+
+notes = note_pool()
+for path in sorted(Path(&#39;content/english/blog&#39;).glob(&#39;*.md&#39;)):
+    if path.name in {&#39;_index.md&#39;, &#39;__blog-template.md&#39;, &#39;__blank-blog-template.md&#39;}:
+        continue
+    meta, body, _ = load_md(path)
+    if meta.get(&#39;related_notes&#39;) is not None:
+        continue
+    mode, tag_hits, mentions = find_related_slugs(meta, body, notes)
+    slugs = combined_slugs(tag_hits, mentions) if mode != &#39;manual&#39; else []
+    print(f&#39;{path.name}: {mode} -&gt; {slugs}&#39;)
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import sys
+sys.path.insert(0, 'scripts')
+from audit_blog_related_notes import audit_rows, combined_slugs, find_related_slugs, note_pool, load_md
+from pathlib import Path
+
+notes = note_pool()
+for path in sorted(Path('content/english/blog').glob('*.md')):
+    if path.name in {'_index.md', '__blog-template.md', '__blank-blog-template.md'}:
+        continue
+    meta, body, _ = load_md(path)
+    if meta.get('related_notes') is not None:
+        continue
+    mode, tag_hits, mentions = find_related_slugs(meta, body, notes)
+    slugs = combined_slugs(tag_hits, mentions) if mode != 'manual' else []
+    print(f'{path.name}: {mode} -> {slugs}')
+"
+```
+
+```
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+ModuleNotFoundError: No module named 'audit_blog_related_notes'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+21 files are missing related_notes. Some will be excluded.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__kewpie-mayo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__tailwind-css-v4.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__worcestershire-sauce-lee-and-perrins.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Posts in "none" mode require manual selection of relevant notes.
+
+Matching notes to each post:
+
+- Adobo: preparedness or recovery
+- Arroz: reliability or building-a-personal-api
+- G3000: reliability
+- Extension cord: reliability
+- Kewpie mayo: digital-minimalism or attention-economy
+- Mi Box: mobile-capture-workflows, preparedness, or reliability
+
+Tailwind CSS needs two shared tags to match a note. The audit found none for drafts.
+
+Gaming post: attention-economy, digital-minimalism, signal-vs-noise.
+
+Worcestershire sauce: food pantry.
+
+Food posts without tag overlap may need tangential notes like slow-productivity or preparedness.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Food|Recipes|Cooking|Gaming|Printer|Tailwind"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Food|Recipes|Cooking|Gaming|Printer|Tailwind",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying slug names exist for the suggested notes.
+
+Mapping specific related_notes to each missing post. Adobo gets habit-formation and slow-productivity. Arroz-caldo gets slow-productivity and recovery. Canon G3000 gets reliability.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for s in habit-formation slow-productivity preparedness recovery reliability building-a-personal-api safety-comes-first digital-minimalism attention-economy information-diet mobile-capture-workflows future-proofing-knowledge metadata-strategy the-garage-concept free-tier-hosting-stack git-based-cms signal-vs-noise sunk-cost-fallacy attention-to-detail creative-blocks context-aware-capture the-knowledge-lifecycle the-trusted-inbox synthesis-as-a-goal literature-notes digital-serendipity the-second-brain-workflow selling-static-sites note-relationships commonplace-book deep-work drafting-in-public digital-garden sketchpad; do test -f &#34;content/english/notes/$s.md&#34; || echo &#34;MISSING: $s&#34;; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for s in habit-formation slow-productivity preparedness recovery reliability building-a-personal-api safety-comes-first digital-minimalism attention-economy information-diet mobile-capture-workflows future-proofing-knowledge metadata-strategy the-garage-concept free-tier-hosting-stack git-based-cms signal-vs-noise sunk-cost-fallacy attention-to-detail creative-blocks context-aware-capture the-knowledge-lifecycle the-trusted-inbox synthesis-as-a-goal literature-notes digital-serendipity the-second-brain-workflow selling-static-sites note-relationships commonplace-book deep-work drafting-in-public digital-garden sketchpad; do test -f "content/english/notes/$s.md" || echo "MISSING: $s"; done
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All slugs are present. I'll batch-add related_notes to all 18 posts.
+
+Blog templates need updating too. I'll uncomment related_notes in both template files. A Python script should handle all 18 posts cleanly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding `related_notes` to the 18 posts that are missing it, using audit suggestions where available and sensible manual picks elsewhere.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
+import re
+import sys
+from pathlib import Path
+
+import yaml
+
+ROOT = Path(&#39;.&#39;)
+BLOG_DIR = ROOT / &#39;content/english/blog&#39;
+NOTES_DIR = ROOT / &#39;content/english/notes&#39;
+SKIP = {&#39;_index.md&#39;, &#39;__blog-template.md&#39;, &#39;__blank-blog-template.md&#39;}
+
+# Import audit helpers by exec
+audit = Path(&#39;scripts/audit-blog-related-notes.py&#39;).read_text()
+ns = {}
+exec(compile(audit, &#39;audit-blog-related-notes.py&#39;, &#39;exec&#39;), ns)
+
+note_pool = ns[&#39;note_pool&#39;]
+find_related_slugs = ns[&#39;find_related_slugs&#39;]
+combined_slugs = ns[&#39;combined_slugs&#39;]
+load_md = ns[&#39;load_md&#39;]
+
+MANUAL = {
+    &#39;instant-pot-chicken-adobo&#39;: [&#39;habit-formation&#39;, &#39;slow-productivity&#39;, &#39;preparedness&#39;, &#39;recovery&#39;],
+    &#39;set-it-forget-it-arroz-caldo&#39;: [&#39;slow-productivity&#39;, &#39;habit-formation&#39;, &#39;preparedness&#39;, &#39;recovery&#39;],
+    &#39;canon-g3000&#39;: [&#39;reliability&#39;, &#39;building-a-personal-api&#39;, &#39;preparedness&#39;],
+    &#39;extension-cord&#39;: [&#39;reliability&#39;, &#39;preparedness&#39;, &#39;safety-comes-first&#39;],
+    &#39;kewpie-mayo&#39;: [&#39;slow-productivity&#39;, &#39;attention-to-detail&#39;],
+    &#39;mi-box-s&#39;: [&#39;digital-minimalism&#39;, &#39;attention-economy&#39;, &#39;information-diet&#39;],
+    &#39;second-cellphone&#39;: [&#39;preparedness&#39;, &#39;reliability&#39;, &#39;mobile-capture-workflows&#39;],
+    &#39;tailwind-css-v4&#39;: [&#39;future-proofing-knowledge&#39;, &#39;the-garage-concept&#39;, &#39;free-tier-hosting-stack&#39;, &#39;git-based-cms&#39;, &#39;metadata-strategy&#39;],
+    &#39;why-i-stopped-playing-marvel-snap&#39;: [&#39;attention-economy&#39;, &#39;digital-minimalism&#39;, &#39;signal-vs-noise&#39;, &#39;sunk-cost-fallacy&#39;],
+    &#39;worcestershire-sauce-lee-and-perrins&#39;: [&#39;slow-productivity&#39;, &#39;attention-to-detail&#39;],
+}
+
+notes = note_pool()
+updated = []
+
+for path in sorted(BLOG_DIR.glob(&#39;*.md&#39;)):
+    if path.name in SKIP:
+        continue
+    meta, body, text = load_md(path)
+    if meta.get(&#39;related_notes&#39;) is not None:
+        continue
+    slug = meta.get(&#39;slug&#39;) or path.stem
+    if slug in MANUAL:
+        slugs = MANUAL[slug]
+    else:
+        mode, tag_hits, mentions = find_related_slugs(meta, body, notes)
+        slugs = combined_slugs(tag_hits, mentions)
+    if not slugs:
+        print(f&#39;SKIP no slugs: {path.name}&#39;, file=sys.stderr)
+        continue
+    block = &#39;related_notes:\n&#39; + &#39;&#39;.join(f&#39;  - {s}\n&#39; for s in slugs)
+    new_text, n = re.subn(r&#39;^(featured:)&#39;, block + r&#39;\1&#39;, text, count=1, flags=re.MULTILINE)
+    if n == 0:
+        new_text, n = re.subn(r&#39;^(draft:)&#39;, block + r&#39;\1&#39;, text, count=1, flags=re.MULTILINE)
+    if n == 0:
+        print(f&#39;FAIL insert: {path.name}&#39;, file=sys.stderr)
+        continue
+    path.write_text(new_text, encoding=&#39;utf-8&#39;)
+    updated.append((path.name, slugs))
+
+for name, slugs in updated:
+    print(f&#39;{name}: {&#34;, &#34;.join(slugs)}&#39;)
+print(f&#39;\nUpdated {len(updated)} file(s).&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+import re
+import sys
+from pathlib import Path
+
+import yaml
+
+ROOT = Path('.')
+BLOG_DIR = ROOT / 'content/english/blog'
+NOTES_DIR = ROOT / 'content/english/notes'
+SKIP = {'_index.md', '__blog-template.md', '__blank-blog-template.md'}
+
+# Import audit helpers by exec
+audit = Path('scripts/audit-blog-related-notes.py').read_text()
+ns = {}
+exec(compile(audit, 'audit-blog-related-notes.py', 'exec'), ns)
+
+note_pool = ns['note_pool']
+find_related_slugs = ns['find_related_slugs']
+combined_slugs = ns['combined_slugs']
+load_md = ns['load_md']
+
+MANUAL = {
+    'instant-pot-chicken-adobo': ['habit-formation', 'slow-productivity', 'preparedness', 'recovery'],
+    'set-it-forget-it-arroz-caldo': ['slow-productivity', 'habit-formation', 'preparedness', 'recovery'],
+    'canon-g3000': ['reliability', 'building-a-personal-api', 'preparedness'],
+    'extension-cord': ['reliability', 'preparedness', 'safety-comes-first'],
+    'kewpie-mayo': ['slow-productivity', 'attention-to-detail'],
+    'mi-box-s': ['digital-minimalism', 'attention-economy', 'information-diet'],
+    'second-cellphone': ['preparedness', 'reliability', 'mobile-capture-workflows'],
+    'tailwind-css-v4': ['future-proofing-knowledge', 'the-garage-concept', 'free-tier-hosting-stack', 'git-based-cms', 'metadata-strategy'],
+    'why-i-stopped-playing-marvel-snap': ['attention-economy', 'digital-minimalism', 'signal-vs-noise', 'sunk-cost-fallacy'],
+    'worcestershire-sauce-lee-and-perrins': ['slow-productivity', 'attention-to-detail'],
+}
+
+notes = note_pool()
+updated = []
+
+for path in sorted(BLOG_DIR.glob('*.md')):
+    if path.name in SKIP:
+        continue
+    meta, body, text = load_md(path)
+    if meta.get('related_notes') is not None:
+        continue
+    slug = meta.get('slug') or path.stem
+    if slug in MANUAL:
+        slugs = MANUAL[slug]
+    else:
+        mode, tag_hits, mentions = find_related_slugs(meta, body, notes)
+        slugs = combined_slugs(tag_hits, mentions)
+    if not slugs:
+        print(f'SKIP no slugs: {path.name}', file=sys.stderr)
+        continue
+    block = 'related_notes:\n' + ''.join(f'  - {s}\n' for s in slugs)
+    new_text, n = re.subn(r'^(featured:)', block + r'\1', text, count=1, flags=re.MULTILINE)
+    if n == 0:
+        new_text, n = re.subn(r'^(draft:)', block + r'\1', text, count=1, flags=re.MULTILINE)
+    if n == 0:
+        print(f'FAIL insert: {path.name}', file=sys.stderr)
+        continue
+    path.write_text(new_text, encoding='utf-8')
+    updated.append((path.name, slugs))
+
+for name, slugs in updated:
+    print(f'{name}: {", ".join(slugs)}')
+print(f'\nUpdated {len(updated)} file(s).')
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 15, in <module>
+  File "audit-blog-related-notes.py", line 17, in <module>
+NameError: name '__file__' is not defined. Did you mean: '__name__'?
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The audit script will be imported as a module or called via subprocess with modifications.
+
+StrReplace will be used to add frontmatter to 18 files in batches. A --write-all flag was considered but rejected to keep changes minimal.
+
+Mapping related_notes to specific posts. WordPress builds, Facebook's hidden gem, and RSS beginner guide each have six items. The fourth post is still being identified.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__kewpie-mayo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__tailwind-css-v4.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__worcestershire-sauce-lee-and-perrins.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying that all blog posts have related_notes, excluding the index file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/*.md; do grep -q &#39;^related_notes:&#39; &#34;$f&#34; || echo &#34;MISSING: $f&#34;; done &amp;&amp; echo &#34;---&#34; &amp;&amp; python3 scripts/audit-blog-related-notes.py 2&gt;&amp;1 | tail -5 &amp;&amp; python3 scripts/audit-blog-related-notes.py --drafts 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do grep -q '^related_notes:' "$f" || echo "MISSING: $f"; done && echo "---" && python3 scripts/audit-blog-related-notes.py 2>&1 | tail -5 && python3 scripts/audit-blog-related-notes.py --drafts 2>&1 | tail -5
+```
+
+```
+MISSING: content/english/blog/_index.md
+---
+top-reasons-create-maintain-your-own-website         manual (empty manual list)
+top-reasons-why-you-still-need-use-desktop-laptop    manual (empty manual list)
+what-i-look-for-in-wireless-earphones                manual (empty manual list)
+
+15 published blogs; 0 with no garden connection.
+why-i-stopped-playing-marvel-snap                    manual (empty manual list)
+wifi-router                                          manual (empty manual list)
+worcestershire-sauce-lee-and-perrins                 manual (empty manual list)
+
+31 draft blogs; 0 with no garden connection.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All blog posts except `_index.md` now have `related_notes`.
+
+The `_index.md` file is a section listing page, so skipping it is correct. The audit script shows an empty manual list because of a display bug in `audit_rows`, but the actual content is fine. I will fix that one-line bug.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the audit script display bug so manual `related_notes` show correctly.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-blog-related-notes.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/audit-blog-related-notes.py 2&gt;&amp;1 | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-notes.py 2>&1 | head -20
+```
+
+```
+BLOG SLUG                                            MODE   NOTES
+----------------------------------------------------------------------------------------------------
+alex-eala-pro-career-tracker                         manual → expect-the-counter, resilience, follow-through
+consistent-ai-output-wordpress-builds                manual → building-a-personal-api, creative-blocks, mobile-capture-workflows, the-knowledge-lifecycle, the-trusted-inbox, context-aware-capture
+dnpap-song-resources                                 manual → love-god, free-grace, ask-seek-knock
+facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience manual → digital-minimalism, note-relationships, attention-economy, graph-view-analytics, signal-vs-noise, commonplace-book
+getting-started-with-rss-feeds-a-beginners-guide     manual → synthesis-as-a-goal, literature-notes, digital-minimalism, digital-serendipity, the-second-brain-workflow, attention-economy
+how-i-built-jorap-notes                              manual → free-tier-hosting-stack, digital-garden, drafting-in-public, the-garage-concept, selling-static-sites, note-relationships
+hugoplate-theme-review                               manual → the-garage-concept, digital-garden, drafting-in-public, git-based-cms, free-tier-hosting-stack, selling-static-sites
+instant-pot-chicken-adobo                            manual → habit-formation, slow-productivity, preparedness, recovery
+miracle-isaiah-david                                 manual → childlike-faith, free-grace, dont-worry
+power-of-the-mouse-wheel-click                       manual → context-aware-capture, the-second-brain-workflow, commonplace-book, crdt, inbox-zero, information-diet
+power-of-worship-pads-enhancing-your-worship-with-guitar manual → love-god, ask-seek-knock, dont-worry
+set-it-forget-it-arroz-caldo                         manual → slow-productivity, habit-formation, preparedness, recovery
+top-reasons-create-maintain-your-own-website         manual → d
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All blog items now have related_notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Every blog post under `content/english/blog/` now has `related_notes` in frontmatter — **18 posts** were missing it.
+
+**Published posts (8)** — matched from tag overlap via the audit script:
+- `consistent-ai-output-wordpress-builds`, `facebooks-hidden-gem-…`, `getting-started-with-rss-feeds-…`, `how-i-built-jorap-notes`, `hugoplate-theme-review`, `power-of-the-mouse-wheel-click`, `top-reasons-create-maintain-your-own-website`, `top-reasons-why-you-still-need-use-desktop-laptop`
+
+**Drafts & gear/food posts (10)** — hand-picked garden notes where tags didn’t overlap:
+- Recipe posts → `habit-formation`, `slow-productivity`, `preparedness`, `recovery`
+- Gear reviews → `reliability`, `preparedness`, `digital-minimalism`, etc.
+- Marvel Snap → `attention-economy`, `digital-minimalism`, `signal-vs-noise`, `sunk-cost-fallacy`
+- Tailwind v4 → Hugo/site-building notes
+
+**Templates** — `__blog-template.md` and `__blank-blog-template.md` now include `related_notes` as a required example field.
+
+Also fixed a small bug in `scripts/audit-blog-related-notes.py` that was showing manual lists as empty.
+
+`_index.md` is the section listing page, not an article — left without `related_notes`. Say if you want that too.
+
+---
+
+_**User**_
+
+in the related notes block. prioritize results from related_notes frontmatter
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Prioritizing results from `related_notes` frontmatter in the related notes block.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll trace how the related notes block is built and where frontmatter vs auto-matched results get merged.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,md,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "related-notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "related-notes",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "./.specstory/history/2026-07-02_01-59-11Z-blog-item-related-notes.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "./.specstory/history/2026-07-02_00-24-02Z-notes-layout-preference.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-02_01-07-08Z-flashcard-guiding-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./layouts/notes/single.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./layouts/_partials/blog/related-notes.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md"
+    },
+    {
+      "matchCount": 57,
+      "uri": "./.specstory/history/2026-07-02_00-03-14Z-blog-output-improvement-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-01_23-54-03Z-css-hidden-flex-properties.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./themes/jorap/layouts/blog/single.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-01_15-16-34Z-http-500-error-on-jorap.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-01_15-00-26Z-random-notes-display-check.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "./.specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-28_03-00-38Z-sveltia-notes-update.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./.specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-22_16-41-21Z-new-connections-in-notes.md"
+    }
+  ],
+  "totalFiles": 53,
+  "totalMatches": 365
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The current template uses `isset $page`, which prevents prioritizing results from related_notes frontmatter.
+
+The template currently treats `related_notes` as exclusive. When frontmatter is present, it returns only those items and ignores auto-matches. The desired behavior is to list frontmatter notes first, then fill remaining slots with tag overlap, mentions, and Hugo `.Related`. I should also check `blog/toc.html` for a similar ordering issue.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.html",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "related-notes\\.html"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "related-notes\\.html",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/related-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/layouts/blog/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/see-also.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/toc.html"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The current implementation is exclusive. When `related_notes` is set, it only shows frontmatter items and skips auto matching entirely.
+
+"Prioritize" suggests frontmatter results should appear first, followed by auto-matched items. This would replace the exclusive mode with a prioritized merge.
+
+The implementation plan removes the exclusive branch. Frontmatter items will be added first with high scores to preserve their order. Auto-matched results will follow as fallbacks. Duplicate entries will be skipped. Results will be sorted by score and limited to the maximum.
+
+Manual items will keep their frontmatter order by scoring each one slightly lower than the previous, so they remain before auto-matched results. An empty `related_notes` list will fall through to auto-matching instead of skipping it entirely.
+
+Manual items will receive scores starting at 2.0 and decrementing by 0.01 per entry to preserve their frontmatter order. Auto-matched results will only be added if they are not duplicates. Hugo .Related will fill remaining slots even when manual items are present, rather than only running when the list is completely empty.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Switching from exclusive frontmatter-only mode to frontmatter-first, then auto-matching to fill remaining slots.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "exclusive"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "exclusive",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-02_00-03-14Z-blog-output-improvement-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.cursor/skills/ponytail-review/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network-visualization.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_02-55-39Z-improving-memorization-of-definitions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.github/prompts/speckit.clarify.prompt.md"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -5
+```
+
+```
+]633;C Processed images │  331 
+ Aliases          │  712 
+ Cleaned          │    0 
+
+Total in 21619 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/179719.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md",
+  "pattern": "related_notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md",
+  "pattern": "related_notes",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Build succeeded. Verifying Hugo output for dnpap shows manual notes ordered first in frontmatter: love-god, free-grace, ask-seek-knock.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; grep -oP &#39;id=&#34;related-notes&#34;[^&gt;]*&gt;.*?(?=id=&#34;random-note&#34;)&#39; public/blog/dnpap-song-resources/index.html 2&gt;/dev/null | grep -oP &#39;aria-label=&#34;[^&#34;]+&#34;&#39; | head -10</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && grep -oP 'id="related-notes"[^>]*>.*?(?=id="random-note")' public/blog/dnpap-song-resources/index.html 2>/dev/null | grep -oP 'aria-label="[^"]+"' | head -10
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; grep -oP &#39;aria-label=&#34;[^&#34;]+&#34;&#39; public/blog/hugoplate-theme-review/index.html | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && grep -oP 'aria-label="[^"]+"' public/blog/hugoplate-theme-review/index.html | head -20
+```
+
+```
+aria-label="Open and close site navigation"
+aria-label="Switch to dark mode"
+aria-label="share facebook"
+aria-label="share x"
+aria-label="share email"
+aria-label="share linkedin"
+aria-label="copy link"
+aria-label="Read More: How I Built JoRap Notes: My Journey from Expensive Hosting to Free (and Better!)"
+aria-label="Read More: Top Reasons to Create and Maintain Your Own Website"
+aria-label="Read More: Consistent AI Output for WordPress Builds"
+aria-label="Read More: What I Look For in Wireless Earphones"
+aria-label="Read More: The Mouse Wheel Click: One Button, Three Operating Systems"
+aria-label="Read More: Facebook's Hidden Gem: The Favorites Feed"
+aria-label="The Garage Concept"
+aria-label="Digital Garden"
+aria-label="Drafting in Public"
+aria-label="Git-Based CMS"
+aria-label="Free Tier Hosting Stack"
+aria-label="Selling Static Sites"
+aria-label="Select note"
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugoplate currently displays manual notes first based on frontmatter order.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*dnpap*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "id=\"related-notes\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "id=\"related-notes\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the related-notes section works correctly without an ID. The hugoplate implementation appears to function properly.
+
+The change looks correct. I'll check if any remaining comments still reference exclusive mode. The new prioritization scores manual entries higher than automatic ones. This should ensure frontmatter results appear first.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated `layouts/_partials/notes/related-notes.html` so `related_notes` frontmatter is **prioritized**, not exclusive.
+
+**Before:** If `related_notes` was set, only those slugs were shown — tag overlap, body mentions, and Hugo `.Related` were skipped entirely.
+
+**After:**
+1. **Frontmatter first** — slugs from `related_notes` appear first, in the order you listed them (scores 10, 9, 8… so they stay ahead of auto matches)
+2. **Tag overlap** — fills remaining slots up to the limit
+3. **Title mentions** (blog only) — if still under the limit
+4. **Hugo `.Related`** — last resort filler
+
+So a post like `hugoplate-theme-review` with 6 curated notes still shows those 6 first; if you only list 3, the block can fill out to the limit with auto-matched garden notes.
+
+Hugo build passes.
+
+---
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: success
+task_id: 179719
+title: Build Hugo site to verify template compiles
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/179719.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a brief summary of the related_notes prioritization change.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The related notes block now **prioritizes** `related_notes` frontmatter instead of treating it as the only source.
+
+Curated slugs show first, in the order you listed them. If there’s room under the limit, tag overlap, body mentions, and Hugo `.Related` fill the rest. Hugo build completed successfully.

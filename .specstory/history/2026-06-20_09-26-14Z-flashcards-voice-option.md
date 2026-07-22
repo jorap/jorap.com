@@ -13,7 +13,8 @@ for /flashcards ensure to use /jorap-voice
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Flashcards will use the JoRap voice skill.</details></think>
+Flashcards will use the JoRap voice skill.
+</details></think>
 
 _**Agent (default)**_
 
@@ -22,37 +23,24 @@ Updating the flashcards skill to require JoRap voice. Checking the current skill
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
 
-Directory: **** (4 files)
+Directory: **``** (4 files)
 
 | File |
 |------|
@@ -60,103 +48,66 @@ Directory: **** (4 files)
 | `./.cursor/skills/sync-upstreams/SKILL.md` |
 | `./.cursor/skills/jorap-voice/SKILL.md` |
 | `./.cursor/skills/update-alex-eala-tracker/SKILL.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
 File not found
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Updating the flashcards skill to use jorap-voice.</details></think>
+Updating the flashcards skill to use jorap-voice.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `.cursor/skills/notes-flashcards/SKILL.md` |
 | `.cursor/skills/notes-flashcards/examples.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
 File not found
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/</summary>
 ```bash
 ls -la /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/
 ```
@@ -166,18 +117,12 @@ total 28
 drwxr-xr-x 6 root root 4096 Jun 20 17:24 .
 drwxr-xr-x 3 root root 4096 May 29 08:30 ..
 drwxrwxr-x 2 root root 4096 Jun 20 17:24 flashcards
-lrwxrwxrwx 1 root root   60 Jun 20 10:48 impeccable -&gt; ../../../impeccable/dist/universal/.cursor/skills/impeccable
+lrwxrwxrwx 1 root root   60 Jun 20 10:48 impeccable -> ../../../impeccable/dist/universal/.cursor/skills/impeccable
 drwxrwxr-x 2 root root 4096 Jun 18 15:23 jorap-voice
 drwxr-xr-x 2 root root 4096 Jun 20 10:54 sync-upstreams
 drwxr-xr-x 2 root root 4096 Jun 19 10:01 update-alex-eala-tracker
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -185,7 +130,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The notes-flashcards folder does not exist on disk. It may have been planned but never created, or left as an untracked file in git.
 
-I will update the flashcards skill to mandate jorap-voice usage. This includes adding cross-references to the skill and examples files, and linking both skills bidirectionally in their descriptions.</details></think>
+I will update the flashcards skill to mandate jorap-voice usage. This includes adding cross-references to the skill and examples files, and linking both skills bidirectionally in their descriptions.
+</details></think>
 
 _**Agent (default)**_
 
@@ -194,175 +140,85 @@ Updating both skills so flashcard work requires JoRap voice: adding a voice sect
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -393,25 +249,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
@@ -450,7 +293,8 @@ update /flashcards to exclude multiple choice
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Updating the flashcards skill to exclude multiple choice cards.</details></think>
+Updating the flashcards skill to exclude multiple choice cards.
+</details></think>
 
 _**Agent (default)**_
 
@@ -459,49 +303,29 @@ Reviewing the flashcards skill and reference decks for multiple-choice patterns 
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -587,30 +411,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Updating the flashcards skill to exclude multiple choice patterns.</details></think>
+Updating the flashcards skill to exclude multiple choice patterns.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
 
 </details></tool-use>
 
@@ -625,14 +437,13 @@ The update covers skill files, examples, archetypes, and cards.md. A regex heuri
 
 The lint regexes now target comma-separated option lists and trailing "or" before a question mark. Open-recall examples are confirmed safe. Edge cases are being reviewed.
 
-Word boundaries prevent false positives from words like "before." The lint rule will flag any front containing "or" that appears to list alternatives.</details></think>
+Word boundaries prevent false positives from words like "before." The lint rule will flag any front containing "or" that appears to list alternatives.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -739,13 +550,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -765,7 +569,8 @@ The distinction between multiple choice and scenario description is now sharper.
 
 The rule is now stated simply: the front must state the moment alone, never list answer options. Any "A or B?" tail should be dropped; the cue stays on the front, and the move goes on the back. Scaffold examples across SKILL.md, examples.md, cards.md, and archetypes will be rewritten to remove multiple choice patterns. Lint detection is secondary to the skill update.
 
-Lint enforcement will be added to `lint-flashcard-frontmatter.py`. The plan is to update `SKILL.md`, `examples.md`, `archetypes/notes-review.md`, and `cards.md` with the new rule, anti-goals, and checklist.</details></think>
+Lint enforcement will be added to `lint-flashcard-frontmatter.py`. The plan is to update `SKILL.md`, `examples.md`, `archetypes/notes-review.md`, and `cards.md` with the new rule, anti-goals, and checklist.
+</details></think>
 
 _**Agent (default)**_
 
@@ -774,226 +579,106 @@ Updating the flashcards skill to ban multiple-choice fronts and adding a lint ch
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
@@ -1004,47 +689,30 @@ Adding lint enforcement for multiple-choice fronts:
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | head -80
 ```
 
 ```
 
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter errors:
   content/english/notes/abide-in-me.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Pruning hurts — fear God revoked my place. Does pruning revo…
@@ -1056,63 +724,9 @@ Flashcard frontmatter errors:
   content/english/notes/atomic-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Three ideas under one heading in a single file. Three wikili…
   content/english/notes/atomic-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Note reads like a mini blog post with multiple sections. Tri…
   content/english/notes/building-a-second-brain.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Second brain filling with interesting links — hoard or ship?…
-  content/english/notes/building-a-second-brain.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Tempted to publish raw captures without distilling. Ship raw…
-  content/english/notes/capture.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Mid-commute spark I might forget. First move — drop in one i…
-  content/english/notes/capture.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Tempted to split work and home into two capture inboxes. Mer…
-  content/english/notes/evergreen-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Fleeting spark keeps showing up in weekly review. Promote to…
-  content/english/notes/evergreen-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Sentences might not hold in two years. Evergreen or keep fle…
-  content/english/notes/evergreen-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): I'd cite this in conversation later this year. Evergreen buc…
-  content/english/notes/evergreen-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Trendy take I might regret next year. Evergreen it now, or w…
-  content/english/notes/evergreen-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Evergreen note has bold layers but no claim I'd quote. Publi…
-  content/english/notes/forgiveness.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Wronged and refusing to forgive. Does that undo salvation or…
-  content/english/notes/forgiveness.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Same person hurt me again — tempted to stop counting. Forgiv…
-  content/english/notes/forgiveness.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Hurt still stings — forgiving feels like pretending it didn'…
-  content/english/notes/forgiveness.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Repeat offender apologizes again. Forgive with boundaries, o…
-  content/english/notes/free-grace.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Obedience after conversion — am I paying for heaven or livin…
-  content/english/notes/love-your-enemies.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Someone slandered me online — outrage rising. Outrage, silen…
-  content/english/notes/love-your-enemies.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Only loving people who love me back. What's my standard — ta…
-  content/english/notes/love-your-neighbor.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Neighbor I'd rather avoid lives next door. Do they count — l…
-  content/english/notes/love-your-neighbor.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Walking past someone hurt on the road — shared ethnicity or …
-  content/english/notes/note-relationships.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Weekly checklist makes a review habit real in practice. Exte…
-  content/english/notes/para-method.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Reference material with no owner yet. Projects, areas, or re…
-  content/english/notes/para-method.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Project finished — files still in active work folder. Leave …
-  content/english/notes/para-method.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Ongoing responsibility with no end date — project bucket or …
-  content/english/notes/para-method.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Topic folder tree vs PARA — am I tagging subject or naming o…
-  content/english/notes/pareto-principle.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Polishing the long tail while the vital few stall. Stop poli…
-  content/english/notes/pareto-principle.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Someone treats 80/20 as physical law. Correct them — math ho…
-  content/english/notes/repent-and-believe.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Delaying faith until my habits improve. Enter when — when fi…
-  content/english/notes/repent-and-believe.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Head agrees with gospel facts but life unchanged. Enough ass…
-  content/english/notes/repent-and-believe.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Same sin again — despair that heaven is lost. Turn again mea…
-  content/english/notes/repent-and-believe.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Waiting until I'm worthy to enter. Enter someday, or by fait…
-  content/english/notes/seek-the-kingdom-first.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Wallet and calendar both pulling hard. Which leads — money o…
-  content/english/notes/seek-the-kingdom-first.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Treating kingdom life like something I must earn. Receive fi…
-  content/english/notes/signal-vs-noise.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Interesting article but it won't change what I do this month…
-  content/english/notes/signal-vs-noise.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Thumb on save — one filter question about action or belief b…
-  content/english/notes/signal-vs-noise.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Good content, wrong month, no action hook. Trophy case, or s…
-  content/english/notes/take-up-your-cross.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Comfortable faith — avoiding the hard obedience I heard prea…
-  content/english/notes/take-up-your-cross.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Cross-bearing to feel saved or earn heaven. Earn salvation o…
-  content/english/notes/take-up-your-cross.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): One big surrender last year, same sin pattern today. One her…
-  content/english/notes/take-up-your-cross.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Clutching comfort when obedience will cost me something toda…
-  content/english/notes/take-up-your-cross.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Choosing scroll over the costly obedience I know is next. De…
-  content/english/notes/take-up-your-cross.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Heard the hard teaching, unchanged how I treat people. What'…
-  content/english/notes/the-collectors-fallacy.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): No planned creative output tied to this save. Save anyway, o…
-  content/english/notes/the-golden-rule.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Criticism is true but tone is cruel. Say it anyway, or pause…
-  content/english/notes/the-trusted-inbox.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Friday review starting — step one before calendar or project…
-  content/english/notes/the-trusted-inbox.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Items rotting without weekly processing — occasional misses …
-  content/english/notes/the-trusted-inbox.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Mid-day an inbox item screams for a project folder. File now…
-  content/english/notes/the-trusted-inbox.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Two inboxes for work and home — merge into one pipe, or keep…
-  content/english/notes/the-wise-builder.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Can quote the hard commands on money and enemies but skip th…
-  content/english/notes/weekly-review-checklists.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Review feels stale — tempted to reinvent the checklist for c…
-  content/english/notes/weekly-review-checklists.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Travel week — review might get skipped entirely. Twenty minu…
-  content/english/notes/weekly-review-checklists.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): When do I run weekly review — whenever I remember, or same d…
-
+  content/english/notes/building-a-second-brain.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Tempted to publish raw captures without dist
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1120,7 +734,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Some false positives might exist.
 
-The regex pattern likely catches false positives. It flags "or belief" in descriptive text as a multiple-choice fork. This may not actually be a binary choice.</details></think>
+The regex pattern likely catches false positives. It flags "or belief" in descriptive text as a multiple-choice fork. This may not actually be a binary choice.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1154,7 +769,8 @@ yes
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Bulk-rewriting all failing flashcard decks to cue-only fronts. Removing multiple choice.</details></think>
+Bulk-rewriting all failing flashcard decks to cue-only fronts. Removing multiple choice.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1163,9 +779,8 @@ Bulk-rewriting failing card fronts to cue-only. Gathering the full list of viola
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | rg "card front must be cue-only" | wc -l && npm run lint:cards 2>&1 | rg "^  content" | sed 's/:.*//' | sort -u</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 | rg &#34;card front must be cue-only&#34; | wc -l &amp;&amp; npm run lint:cards 2&gt;&amp;1 | rg &#34;^  content&#34; | sed &#39;s/:.*//&#39; | sort -u</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | rg "card front must be cue-only" | wc -l && npm run lint:cards 2>&1 | rg "^  content" | sed 's/:.*//' | sort -u
 ```
@@ -1174,33 +789,19 @@ cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | rg "card 
 58
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1307,37 +908,29 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 from pathlib import Path
 import sys
-sys.path.insert(0, 'scripts')
+sys.path.insert(0, &#39;scripts&#39;)
 from importlib.util import spec_from_loader, module_from_spec
 import importlib.util
-spec = importlib.util.spec_from_file_location('lint', 'scripts/lint-flashcard-frontmatter.py')
+spec = importlib.util.spec_from_file_location(&#39;lint&#39;, &#39;scripts/lint-flashcard-frontmatter.py&#39;)
 lint = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(lint)
-for path in sorted((Path('content/english/notes')).glob('*.md')):
+for path in sorted((Path(&#39;content/english/notes&#39;)).glob(&#39;*.md&#39;)):
     block, _ = lint.split_frontmatter(path.read_text())
-    if not lint.parse_bool(block, 'review'): continue
+    if not lint.parse_bool(block, &#39;review&#39;): continue
     for front, back, _ in lint.parse_cards(block):
         ft = front[1:-1] if lint.is_quoted(front) else front
         if lint.is_multiple_choice_front(ft):
-            print(f'{path.name}|{ft}')
-"
+            print(f&#39;{path.name}|{ft}&#39;)
+&#34;
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 from pathlib import Path
@@ -1380,155 +973,64 @@ evergreen-notes.md|Evergreen note has bold layers but no claim I'd quote. Publis
 forgiveness.md|Wronged and refusing to forgive. Does that undo salvation or break fellowship?
 forgiveness.md|Same person hurt me again — tempted to stop counting. Forgive again or close the ledger?
 forgiveness.md|Hurt still stings — forgiving feels like pretending it didn't matter. True or false?
-forgiveness.md|Repeat offender apologizes again. Forgive with boundaries, or enable the pattern?
-free-grace.md|Obedience after conversion — am I paying for heaven or living gratefully?
-love-your-enemies.md|Someone slandered me online — outrage rising. Outrage, silence, or prayer first?
-love-your-enemies.md|Only loving people who love me back. What's my standard — tax-collector level or higher?
-love-your-neighbor.md|Neighbor I'd rather avoid lives next door. Do they count — likability, or proximity and need?
-love-your-neighbor.md|Walking past someone hurt on the road — shared ethnicity or mercy defines neighbor?
-note-relationships.md|Weekly checklist makes a review habit real in practice. Extends the idea or implements it?
-para-method.md|Reference material with no owner yet. Projects, areas, or resources shelf?
-para-method.md|Project finished — files still in active work folder. Leave or move?
-para-method.md|Ongoing responsibility with no end date — project bucket or area?
-para-method.md|Topic folder tree vs PARA — am I tagging subject or naming owner and deadline?
-pareto-principle.md|Polishing the long tail while the vital few stall. Stop polishing or keep equal effort?
-pareto-principle.md|Someone treats 80/20 as physical law. Correct them — math homework or shorthand?
-repent-and-believe.md|Delaying faith until my habits improve. Enter when — when fixed, or today?
-repent-and-believe.md|Head agrees with gospel facts but life unchanged. Enough assent, or must I rely on Christ?
-repent-and-believe.md|Same sin again — despair that heaven is lost. Turn again means re-earn, or restore?
-repent-and-believe.md|Waiting until I'm worthy to enter. Enter someday, or by faith today?
-seek-the-kingdom-first.md|Wallet and calendar both pulling hard. Which leads — money or heart?
-seek-the-kingdom-first.md|Treating kingdom life like something I must earn. Receive first, or perform first?
-signal-vs-noise.md|Interesting article but it won't change what I do this month. Save it, or admire and move on?
-signal-vs-noise.md|Thumb on save — one filter question about action or belief before I commit?
-signal-vs-noise.md|Good content, wrong month, no action hook. Trophy case, or skip the save?
-take-up-your-cross.md|Comfortable faith — avoiding the hard obedience I heard preached. Count cost or stay comfortable?
-take-up-your-cross.md|Cross-bearing to feel saved or earn heaven. Earn salvation or shape life after faith?
-take-up-your-cross.md|One big surrender last year, same sin pattern today. One heroic moment or daily posture?
-take-up-your-cross.md|Clutching comfort when obedience will cost me something today. Save my life or lose it for his sake?
-take-up-your-cross.md|Choosing scroll over the costly obedience I know is next. Deny self or indulge?
-take-up-your-cross.md|Heard the hard teaching, unchanged how I treat people. What's missing — hear or do?
-the-collectors-fallacy.md|No planned creative output tied to this save. Save anyway, or skip?
-the-golden-rule.md|Criticism is true but tone is cruel. Say it anyway, or pause?
-the-trusted-inbox.md|Friday review starting — step one before calendar or projects?
-the-trusted-inbox.md|Items rotting without weekly processing — occasional misses or rot kills trust faster?
-the-trusted-inbox.md|Mid-day an inbox item screams for a project folder. File now, or wait for review?
-the-trusted-inbox.md|Two inboxes for work and home — merge into one pipe, or keep separate?
-the-wise-builder.md|Can quote the hard commands on money and enemies but skip them. Lip service or obey?
-weekly-review-checklists.md|Review feels stale — tempted to reinvent the checklist for creativity. Reinvent or keep boring?
-weekly-review-checklists.md|Travel week — review might get skipped entirely. Twenty minutes or zero?
-weekly-review-checklists.md|When do I run weekly review — whenever I remember, or same day every week?
 
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
@@ -1537,4 +1039,434 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Reading the remaining files comes first. Then all fronts will be rewritten.
 
-love-god.md was not in the MC list but contains a "Pick one" prompt. Checking abide-in-me.md for regex matches on "or" and question marks.</details></think>
+love-god.md was not in the MC list but contains a "Pick one" prompt. Checking abide-in-me.md for regex matches on "or" and question marks.
+
+The regex correctly skips the period in "or Scripture," so that line passes. Now examining line 24.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining files now.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Rewriting all MC fronts.
+
+Fixing regex false positives where "or" matches phrases like "action or belief" without a trailing period. Ensuring front longer than back still holds.
+
+Rewriting three MC front lines into open-ended questions. One replaces "salvation or refine connection" with "What does pruning actually mean?" Another swaps "Willpower alone or receive from the vine" for "What's missing?" A third replaces "Come as wage earner or child" with "How am I approaching the Father?"
+
+Continuing the MC front rewrites.
+
+One replaces "optional polish or minimum" with "Required before filing?"
+
+Another replaces "Split into two notes, or keep as one?" with "What do I do?"
+
+A third replaces "Split or keep?" with "What's the move?"
+
+A fourth line about three ideas under one heading is cut off mid-sentence.
+
+Replacing "Three wikilinks, or one long file?" with "What's wrong?" and "Trim or split?" with "What's the fix?". Replacing "hoard or ship?" with "Nothing publishing." Replacing "distill first?" with "What's the order?". A fourth line about a mid-commute spark is cut off.
+
+The mid-commute spark line is now complete: "Mid-commute spark I might forget before I'm home."
+
+Work and home capture inboxes are merged into one line: "Tempted to split work and home into two capture inboxes."
+
+Fleeting spark appears in weekly review. It becomes "Fleeting spark keeps showing up in weekly review."
+
+Sentences might not hold in two years. That line becomes "Sentences might not hold in two years. Which bucket?"
+
+Replacing "Which bucket?" with "Still publishable?" to avoid telegraphy. Adding a line about wronged and refusing to forgive.
+
+The wronged-and-forgive line becomes "What breaks?" The repeat-offender line becomes "What's the move?" The hurt-stings line is left as-is.
+
+Obedience after conversion becomes "what's driving it?" Slander triggers a line about thumb hovering over reply. The tax-collector standard question becomes "What standard am I actually using?" The neighbor question is cut off.
+
+The neighbor line is now complete: "Walking past someone hurt on the road. What defines neighbor here?"
+
+The weekly checklist line becomes "Which link type?" The reference-material line becomes "Which PARA bucket?" The finished-project line becomes "Files still in active work folder."
+
+Ongoing responsibilities with no end date become "Wrong bucket?" The topic-folder-versus-PARA line becomes "What am I actually naming?" The long-tail-polishing line becomes "Polishing the long tail while the vital few stall." The 80/20 line is cut off.
+
+The 80/20 line is now complete: "Someone treats 80/20 as physical law. How do I correct them?"
+
+The delay-faith line becomes "Delaying faith until my habits improve." The head-agrees-but-life-unchanged line becomes "What's missing?" The same-sin-again line becomes "What does turning again mean?" The waiting-until-worthy line is cut off.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Applying cue-only rewrites across all affected notes.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1
+```
+
+```
+
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+Bulk rewrite done — **58 card fronts** across **25 spine notes** now use cue-only fronts. `npm run lint:cards` passes.
+
+### Pattern applied
+- **Removed** option menus (`A or B?`, `X, Y, or Z?`, `true or false?`)
+- **Kept** the moment on the front; backs unchanged
+- **Open cues** where helpful (`What's missing?`, `What's step one?`, `What's the move?`)
+
+### Examples
+
+| Before | After |
+|--------|-------|
+| `Someone slandered me online — outrage, silence, or prayer first?` | `Someone slandered me online. Thumb hovering over reply.` |
+| `Mid-commute spark — inbox or organize on the spot?` | `Mid-commute spark I might forget before I'm home.` |
+| `Criticism is true but tone is cruel. Say it anyway, or pause?` | `Criticism is true but tone is cruel. Finger on send.` |
+| `When do I run weekly review — whenever I remember, or same day every week?` | `When do I run weekly review?` |
+
+### Notes touched
+PKM: `capture`, `atomic-notes`, `evergreen-notes`, `para-method`, `signal-vs-noise`, `the-trusted-inbox`, `weekly-review-checklists`, and others.
+
+Gospel: `forgiveness`, `love-your-enemies`, `repent-and-believe`, `take-up-your-cross`, `the-golden-rule`, and others.

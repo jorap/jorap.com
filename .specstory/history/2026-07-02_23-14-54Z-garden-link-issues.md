@@ -25,7 +25,8 @@ SUMMARY
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-JoRap notes garden report shows one unlinked mention: "stewardship" should link to [[Faithful Steward]].</details></think>
+JoRap notes garden report shows one unlinked mention: "stewardship" should link to [[Faithful Steward]].
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -34,83 +35,54 @@ I'll find the "Loss of Reward" note and add the missing wikilink for "stewardshi
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/notes/loss-of-reward.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/notes/faithful-steward.md` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The file loss-of-reward.md contains only frontmatter. It has no body text with the word "stewardship".</details></think>
+The file loss-of-reward.md contains only frontmatter. It has no body text with the word "stewardship".
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -119,10 +91,8 @@ The note may only have frontmatter — I'll search for "stewardship" and check h
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -153,21 +123,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -274,32 +235,290 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `content/english/notes/success-is-stewardship.md` |
 | `.specstory/history/2026-07-02_13-41-47Z-success-is-stewardship-notes.md` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<think><details><summary>Thought Process</summary>
+The loss-of-reward.md file has no body content.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,go,tmpl}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "unlinked mention"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "unlinked mention",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./layouts/_partials/notes/build-issues-report.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./layouts/_partials/notes/lint-note-issues.html"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 4
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+"Stewardship" is an alias of "Faithful Steward".
+
+The linter flagged "Poor stewardship" in loss-of-reward.md frontmatter. Pipe wikilinks are deprecated. The fix is to use `[[Faithful Steward]]`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\[\\[.*\\|.*\\]\\]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\[\\[.*\\|.*\\]\\]",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/eternal-principles.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 52
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The linter processes `assembled-content.html`, which contains frontmatter.
+
+The unlinked mention "stewardship" aliases to "Faithful Steward". The relationship already links to "Success is Stewardship". The fix is to replace the bare word with `[[Faithful Steward]]`.
+
+Three fixes are under consideration. Rewording the reason avoids the bare alias entirely. Alternatively, the relationship wikilink could point directly to `[[Faithful Steward]]` instead of `[[Success is Stewardship]]`.
+
+Linking the bare alias to `[[Faithful Steward]]` would conflict with the relationship pointing to `[[Success is Stewardship]]`. Rewording the reason to avoid the alias entirely is the cleaner fix.
+
+The wikilink `[[Faithful Steward]]` renders correctly in YAML frontmatter. The relationship target itself could also be switched to `[[Faithful Steward]]`.
+
+The linter explicitly suggests linking the bare alias to `[[Faithful Steward]]`. The minimum fix is to add that wikilink directly in the reason field.
+
+Adding `[[Faithful Steward]]` directly to the reason field sounds awkward. Better rephrasing options include "use" or "failure" before the title. The cleanest fix is to avoid the bare alias entirely by rewording the sentence.
+
+Changing the relationship target to `[[Faithful Steward]]` was considered. This conflicts with the existing `[[Success is Stewardship]]` link, which represents a different concept. The `key_concept` field offers no clear guidance.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "reason:.*\\[\\["
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "reason:.*\\[\\[",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/convert-pain-into-learning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sustainable-performance.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/deep-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-garden.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/heed-every-near-miss.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/complete-the-cycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Relationships are assembled into a Note Relationships table.
+
+The unlinked mention scan strips only the "## Note Relationships" heading, leaving the table content intact. Reason text inside the table is still scanned for mentions.
+
+The fix is to link "stewardship" to [[Faithful Steward]] in the table reason. Rewording the text to avoid the alias is awkward. The relationship extends "Success is Stewardship".
+
+Rewording the reason to avoid the alias is cleaner prose. However, the linter requires linking to [[Faithful Steward]]. Adding the wikilink would break alias detection because the parser strips it before matching. Rendering the full wikilink in the table would also look awkward.
+
+A better approach may be to keep the existing Success is Stewardship relationship and simply reword its reason to avoid the stewardship word entirely. This preserves the existing connection rather than replacing it with a different target.
+
+Three approaches were weighed: rewording the existing reason to avoid the stewardship alias, replacing the Success is Stewardship target with Faithful Steward, or adding a Faithful Steward link while keeping the current relationship. Rewording the reason is the cleanest prose option. Natural phrasing such as "poor faithful use" was considered but rejected because the alias matches "stewardship," not "faithful use."
+
+Only "stewardship" triggers the alias check; the other aliases are too long. The simplest fix is to replace the word with `[[Faithful Steward]]` directly in the reason, matching the pattern used elsewhere in the file. The resulting awkward prose is acceptable because it satisfies the linter requirement.
+
+The chosen fix is to reword the reason to avoid the stewardship alias entirely. The phrase "Neglected entrusted gifts shrink reward, not salvation" is cleaner prose than embedding a wikilink in the table. This avoids awkward linked prose while satisfying the linter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the relationship reason: "stewardship" is an alias of `Faithful Steward` and appears unlinked in the assembled Note Relationships table.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1
+```
+
+```
+
+> jorap-com@2.2.0 lint:notes
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
+
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (224 notes)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Fixed in **Loss of Reward**. The word `stewardship` in the `[[Success is Stewardship]]` relationship reason was matching the `Faithful Steward` alias without a wikilink.
+
+Updated the reason to:
+
+```38:38:content/english/notes/loss-of-reward.md
+    reason: "Ignoring [[Faithful Steward]] shrinks reward, not salvation"
+```
+
+`npm run lint:notes` is clean — no broken wikilinks or unlinked mentions.

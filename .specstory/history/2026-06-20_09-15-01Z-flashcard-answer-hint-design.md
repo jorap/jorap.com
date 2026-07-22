@@ -13,7 +13,8 @@ don't make the answers obvious for the flashcards that the answer is at the fron
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants subtle hints on flashcards instead of obvious answers at the front.</details></think>
+The user wants subtle hints on flashcards instead of obvious answers at the front.
+</details></think>
 
 _**Agent (default)**_
 
@@ -22,23 +23,15 @@ I'll look at how flashcards are structured and rendered so we can replace obviou
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -144,34 +137,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -253,38 +231,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/jorap-voice-notes.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/jorap-voice-notes.py</summary>
 
 </details></tool-use>
 
@@ -293,14 +252,13 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The flashcard answers are too obvious from the front. I'll replace them with subtle hints instead.
 
-Checking the newly added gospel notes for cards where the front text reveals the answer. Some titles contain the exact answer, like "Golden Rule," while others may already be subtle enough.</details></think>
+Checking the newly added gospel notes for cards where the front text reveals the answer. Some titles contain the exact answer, like "Golden Rule," while others may already be subtle enough.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -407,38 +365,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-card-uniqueness.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-card-uniqueness.py</summary>
 
 </details></tool-use>
 
@@ -447,70 +386,41 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Flashcard fronts should avoid obvious answers. A subtle hint will be provided instead.
 
-Specific examples reveal how answer clues leak onto the front. Descriptions of the golden rule, the three verbs in Matthew 7:7, and the grace-through-faith mechanism all expose the correct response.</details></think>
+Specific examples reveal how answer clues leak onto the front. Descriptions of the golden rule, the three verbs in Matthew 7:7, and the grace-through-faith mechanism all expose the correct response.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
@@ -521,7 +431,8 @@ The flashcard answers should remain hidden behind subtle hints rather than being
 
 Current flashcards reveal answers through direct quotes, named concepts, and structural clues. Scenario triggers should instead use indirect prompts, much like the good habit cards.
 
-All review note files are being reviewed to locate existing flashcards. The list spans topics from associative linking to note relationships.</details></think>
+All review note files are being reviewed to locate existing flashcards. The list spans topics from associative linking to note relationships.
+</details></think>
 
 _**Agent (default)**_
 
@@ -530,10 +441,8 @@ Reading all review-note flashcards to find fronts that give away the answer.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -640,155 +549,82 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
 
 </details></tool-use>
 
@@ -829,18 +665,13 @@ For ask-seek-knock, the Matthew 7:7 reference is removed. The hint now contrasts
 
 New ask-seek-knock hints ask whether the Father grants exactly what is requested or what is truly good, what three priorities come before daily bread, whether the audience in Matthew 6 is people or the Father, and what persistent asking includes besides requests.
 
-The abide-in-me card removes John 15 quotes and the word "abiding." It asks where Jesus says fruit actually comes from when service and less sin feel dry inside.</details></think>
+The abide-in-me card removes John 15 quotes and the word "abiding." It asks where Jesus says fruit actually comes from when service and less sin feel dry inside.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
@@ -869,7 +700,8 @@ Drafting four more cards. One asks about the audience for prayer in Matthew 6. A
 
 Drafting four more cards. One contrasts scrolling news against five minutes in Scripture. Another asks what must dwell in a believer for prayers to align with Christ's will. A third uses anxiety about money and status to test whether seeking God's kingdom brings material provision. The fourth asks what comes first when the calendar fills before prayer. The fifth names the two masters in Matthew 6. The sixth notes that wallet and calendar both pull hard.
 
-Drafting five more cards. One contrasts where money leads versus where the heart leads. Another asks whether the kingdom is earned by living it or received by faith and then lived. One challenges delaying faith until habits improve. One rejects groveling until good enough. One questions whether believing gospel facts alone suffices. One distinguishes entry into life from obeying commands afterward. One asks whether repeating the same sin re-earns heaven or restores fellowship.</details></think>
+Drafting five more cards. One contrasts where money leads versus where the heart leads. Another asks whether the kingdom is earned by living it or received by faith and then lived. One challenges delaying faith until habits improve. One rejects groveling until good enough. One questions whether believing gospel facts alone suffices. One distinguishes entry into life from obeying commands afterward. One asks whether repeating the same sin re-earns heaven or restores fellowship.
+</details></think>
 
 _**Agent (default)**_
 
@@ -878,84 +710,43 @@ Rewriting flashcard fronts across all review notes: scenario triggers only, no c
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fix-flashcard-lengths.py && npm run lint:cards</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/fix-flashcard-lengths.py &amp;&amp; npm run lint:cards</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fix-flashcard-lengths.py && npm run lint:cards
 ```
@@ -988,32 +779,18 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fix-flashcard-lengt
 
 Done: 24 notes updated.
 
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
@@ -1052,110 +829,64 @@ I'll read the skill-authoring guide and the project's flashcard conventions so t
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills-cursor/create-skill/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills-cursor/create-skill/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (3 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (3 files)
 
 | File |
 |------|
 | `.cursor/skills/jorap-voice/SKILL.md` |
 | `.cursor/skills/update-alex-eala-tracker/SKILL.md` |
 | `.cursor/skills/sync-upstreams/SKILL.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1185,39 +916,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-I have enough context to create a flashcard skill.</details></think>
+I have enough context to create a flashcard skill.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/enable-note-flashcards.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/enable-note-flashcards.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1323,19 +1040,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Planning to create a flashcard skill at `.cursor/skills/notes-flashcards/SKILL.md` with an `examples.md` file for good and bad pairs.</details></think>
+Planning to create a flashcard skill at `.cursor/skills/notes-flashcards/SKILL.md` with an `examples.md` file for good and bad pairs.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1344,31 +1055,15 @@ Creating a project skill that encodes the garden's flashcard conventions and the
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
 
 </details></tool-use>
 
@@ -1403,7 +1098,8 @@ The notes-flashcards skill needs clearer guidance on the best goals and purposes
 
 The most effective flashcard goal is retrieval practice. This forces active recall from memory rather than simple recognition. This aligns with the existing subtle-hint approach.
 
-Cards should target real-world decision-making rather than isolated facts. They must automate habits under pressure, like muscle memory for workflows. Durable recall requires spaced repetition instead of cramming.</details></think>
+Cards should target real-world decision-making rather than isolated facts. They must automate habits under pressure, like muscle memory for workflows. Durable recall requires spaced repetition instead of cramming.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1412,40 +1108,22 @@ Reviewing the skill and how the garden frames spaced repetition so we can sharpe
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
 
 </details></tool-use>
 
@@ -1458,7 +1136,8 @@ The best flashcard goal is active retrieval under pressure. Cards should force t
 
 Four concrete goals shape the skill.
 
-Cards should trigger the correct action before the learner flips them. They should automate decisions at failure points so the right move becomes automatic when tired or stressed. Wiki content should provide linked context and nuance; cards should hold only one cold recall target. Finally, the goal is durable recall through spaced repetition, not one-time learning.</details></think>
+Cards should trigger the correct action before the learner flips them. They should automate decisions at failure points so the right move becomes automatic when tired or stressed. Wiki content should provide linked context and nuance; cards should hold only one cold recall target. Finally, the goal is durable recall through spaced repetition, not one-time learning.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1467,31 +1146,15 @@ Adding a goals-first section to the skill — grounded in retrieval practice and
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
 
 </details></tool-use>
 
@@ -1545,7 +1208,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The skill should be updated so flashcards help recall and apply principles immediately in real life, not just pass a review session.
 
-Flashcards should use a trigger-principle-action chain. Fronts capture real-life triggers. Backs hold the immediate application. IF-THEN implementation intentions and recognition-in-the-wild recall will strengthen follow-through.</details></think>
+Flashcards should use a trigger-principle-action chain. Fronts capture real-life triggers. Backs hold the immediate application. IF-THEN implementation intentions and recognition-in-the-wild recall will strengthen follow-through.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1554,27 +1218,15 @@ Updating the skill to center on real-world cue → recall → immediate action.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
 
 </details></tool-use>
 
@@ -1585,65 +1237,34 @@ Restructuring the skill around the core cycle: cue in real life, recall the prin
 
 Drawing on Peter Gollwitzer's implementation intentions. Cards will pair exact life cues with verb-first imperative actions. A "real-life litmus test" will check whether the next five seconds are already planned. The back of each card should be the immediate action itself, not just the principle.
 
-Cards will be written as IF-THEN pairs. The front captures the exact real-life cue—sensory, temporal, or emotional. The back contains the immediate action to take within five seconds. Skill files will be updated first; the cards.md archetype may receive a brief note about immediate application.</details></think>
+Cards will be written as IF-THEN pairs. The front captures the exact real-life cue—sensory, temporal, or emotional. The back contains the immediate action to take within five seconds. Skill files will be updated first; the cards.md archetype may receive a brief note about immediate application.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
 
 </details></tool-use>
 
@@ -1685,7 +1306,8 @@ _**User**_
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing all flashcards in the notes garden.</details></think>
+Reviewing all flashcards in the notes garden.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1694,10 +1316,8 @@ Auditing every `review: true` note against the cue → apply skill, then rewriti
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1804,39 +1424,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Reading all flashcard frontmatter from the 24 review notes. Excluding cards.md, spaced-repetition, and getting-started.</details></think>
+Reading all flashcard frontmatter from the 24 review notes. Excluding cards.md, spaced-repetition, and getting-started.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1943,26 +1549,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The grep output was truncated. I'll fetch the remaining cards and back sides from all files.</details></think>
+The grep output was truncated. I'll fetch the remaining cards and back sides from all files.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2068,25 +1666,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
 
 </details></tool-use>
 
@@ -2133,7 +1718,8 @@ Take-up-your-cross is being rebuilt around six concrete moments: counting the co
 
 Abide-in-me is now fully drafted. It uses the vine metaphor to remind the user that fruit comes from connection, not effort alone. It warns that apart from the vine nothing good can grow. It reassures that pruning refines rather than revoking salvation. It also directs morning choices toward Scripture and prayer, and suggests letting God’s words abide in the heart when prayers feel misaligned with the will.
 
-The wise-builder deck is mostly complete. A few minor refinements remain.</details></think>
+The wise-builder deck is mostly complete. A few minor refinements remain.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2142,42 +1728,28 @@ Rewriting all 24 decks for cue → apply. Updating the bulk script and applying 
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The REWRITES dictionary will be replaced with cue-to-apply focused versions.</details></think>
+The REWRITES dictionary will be replaced with cue-to-apply focused versions.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-flashcard-lengths.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fix-flashcard-lengths.py && npm run lint:cards</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/fix-flashcard-lengths.py &amp;&amp; npm run lint:cards</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fix-flashcard-lengths.py && npm run lint:cards
 ```
@@ -2210,56 +1782,32 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fix-flashcard-lengt
 
 Done: 24 notes updated.
 
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter OK
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
@@ -2311,7 +1859,8 @@ _**User**_
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Renaming the skill from "notes-flashcards" to "flashcards".</details></think>
+Renaming the skill from "notes-flashcards" to "flashcards".
+</details></think>
 
 _**Agent (default)**_
 
@@ -2320,10 +1869,8 @@ Renaming the skill directory and updating references from `notes-flashcards` to 
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2352,104 +1899,61 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `.cursor/skills/notes-flashcards/SKILL.md` |
 | `.cursor/skills/notes-flashcards/examples.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Only the skill directory itself references notes-flashcards.</details></think>
+Only the skill directory itself references notes-flashcards.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cp /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md && rm -rf /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cp /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md &amp;&amp; rm -rf /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards</summary>
 ```bash
 cp /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards/examples.md /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md && rm -rf /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/notes-flashcards
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2477,13 +1981,6 @@ Additional data:
 }
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>
 
@@ -2560,7 +2057,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Hugo is failing to render the page because of a slice bounds error in `.Fragments.Headings`. This occurs inside the notes table-of-contents partial.
 
-The crash affects specific notes such as forgiveness.md and love-god.md. A Hugo bug or content issue—possibly frontmatter cards or duplicate body content—is likely causing the fragment parser to panic. I will inspect the affected note files and the toc partials to identify the root cause.</details></think>
+The crash affects specific notes such as forgiveness.md and love-god.md. A Hugo bug or content issue—possibly frontmatter cards or duplicate body content—is likely causing the fragment parser to panic. I will inspect the affected note files and the toc partials to identify the root cause.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2569,53 +2067,29 @@ Investigating the Hugo Fragments/TOC error on those note pages.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
@@ -2624,35 +2098,27 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The error is a Hugo internal panic caused by a slice bounds issue in `.Fragments.Headings`.
 
-Wikilinks with pipe aliases and special characters like apostrophes may be confusing fragment offset calculations. Em dashes or Unicode could also trigger this. The failure occurs during rendering of the body content rather than frontmatter.</details></think>
+Wikilinks with pipe aliases and special characters like apostrophes may be confusing fragment offset calculations. Em dashes or Unicode could also trigger this. The failure occurs during rendering of the body content rather than frontmatter.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | head -40
 ```
@@ -2675,12 +2141,6 @@ hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 Buil
 Total in 17487 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -2692,29 +2152,23 @@ Live reload may behave differently than a static build. The slice bounds error i
 
 Wikilinks with pipe aliases in the body text are the likely culprit. Hugo's Fragment parser tracks heading positions against raw markdown, but rendered HTML links vary in length. This mismatch causes the slice bounds error.
 
-Evaluating fixes for the template. Options include using `try` or `recover` in the template, skipping pages that trigger the bug, or disabling a Hugo setting. Removing pipe wikilinks from the content is not ideal.</details></think>
+Evaluating fixes for the template. Options include using `try` or `recover` in the template, skipping pages that trigger the bug, or disabling a Hugo setting. Removing pipe wikilinks from the content is not ideal.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc-headings.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc-headings.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo server --port 1314 --bind 127.0.0.1 2>&1 | head -30 &
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo server --port 1314 --bind 127.0.0.1 2&gt;&amp;1 | head -30 &amp;
 sleep 8
-curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1314/notes/forgiveness/ 2>/dev/null || echo "curl failed"
-kill %1 2>/dev/null || true</summary>
-
+curl -s -o /dev/null -w &#34;%{http_code}&#34; http://127.0.0.1:1314/notes/forgiveness/ 2&gt;/dev/null || echo &#34;curl failed&#34;
+kill %1 2&gt;/dev/null || true</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo server --port 1314 --bind 127.0.0.1 2>&1 | head -30 &
 sleep 8
@@ -2723,28 +2177,20 @@ kill %1 2>/dev/null || true
 ```
 
 ```
-]633;P;Cwd=/home/jorap/Documents/GitHub/jorap.com]633;P;HasRichCommandDetection=True]633;A$ ]633;B]633;E;cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo server --port 1314 --bind 127.0.0.1 2&gt;&amp;1 | head -30 &amp;\x0asleep 8\x0acurl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1314/notes/forgiveness/ 2&gt;/dev/null || echo "curl failed"\x0akill %1 2&gt;/dev/null || truecd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo server --port 1314 --bind 127.0.0.1 2&gt;&amp;1 | head -30 &amp;
+]633;P;Cwd=/home/jorap/Documents/GitHub/jorap.com]633;P;HasRichCommandDetection=True]633;A$ ]633;B]633;E;cd /home/jorap/Documents/GitHub/jorap.com && hugo server --port 1314 --bind 127.0.0.1 2>&1 | head -30 &\x0asleep 8\x0acurl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1314/notes/forgiveness/ 2>/dev/null || echo "curl failed"\x0akill %1 2>/dev/null || truecd /home/jorap/Documents/GitHub/jorap.com && hugo server --port 1314 --bind 127.0.0.1 2>&1 | head -30 &
 sleep 8
-curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1314/notes/forgiveness/ 2&gt;/dev/null || echo "curl failed"
-kill %1 2&gt;/dev/null || true
+curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1314/notes/forgiveness/ 2>/dev/null || echo "curl failed"
+kill %1 2>/dev/null || true
 ]633;C200]633;D;0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (default)**_
@@ -2758,14 +2204,13 @@ The root cause is now clear. The `render-content.html` template renders stripped
 
 The crash occurs when `toc.html` reads `.Fragments.Headings`, not during the render step itself. Apostrophes, em dashes, and pipe wikilinks may also trigger the panic.
 
-The `[[Ask Seek Knock|Lord's Prayer]]` wikilink on line 33 is confirmed as the trigger. Three fixes are being weighed: a defensive template guard, manual regex parsing of `.RawContent` headings, or skipping the TOC for atomic notes that only contain a See also section.</details></think>
+The `[[Ask Seek Knock|Lord's Prayer]]` wikilink on line 33 is confirmed as the trigger. Three fixes are being weighed: a defensive template guard, manual regex parsing of `.RawContent` headings, or skipping the TOC for atomic notes that only contain a See also section.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2796,34 +2241,19 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/510319.txt</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/510319.txt</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -2885,7 +2315,7 @@ Result:
           },
           {
             "lineNumber": 11,
-            "text": "    {{- $html = printf &#96;\u003cnav id=\"TableOfContents\"\u003e\u003c%s\u003e%s\u003c/%s\u003e\u003c/nav\u003e&#96; $listTag $items $listTag -}}"
+            "text": "    {{- $html = printf `\u003cnav id=\"TableOfContents\"\u003e\u003c%s\u003e%s\u003c/%s\u003e\u003c/nav\u003e` $listTag $items $listTag -}}"
           },
           {
             "lineNumber": 12,
@@ -2906,4600 +2336,23 @@ Result:
           },
           "startPosition": {}
         },
-        "relativeWorkspacePath": "./layouts/_partials/notes/toc.html",
-        "signatures": {}
-      },
-      "score": 0.5261076092720032
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /* Renders nested \u003cli\u003e items for a heading tree. */ -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $start := .start -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{- $end := .end -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $skipIds := .skipIds -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- range .headings -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  {{- if and (ge .Level $start) (le .Level $end) (not (in $skipIds .ID)) -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "    \u003cli\u003e\u003ca href=\"#{{ .ID }}\"\u003e{{ .Title | safeHTML }}\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 8,
-            "text": "    {{- with .Headings -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "      \u003col\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "        {{- partial \"notes/toc-headings.html\" (dict \"headings\" . \"start\" $start \"end\" $end \"skipIds\" $skipIds) -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "      \u003c/ol\u003e"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "    \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- else if .Headings -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    {{- partial \"notes/toc-headings.html\" (dict \"headings\" .Headings \"start\" $start \"end\" $end \"skipIds\" $skipIds) -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 17
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/toc-headings.html",
-        "signatures": {}
-      },
-      "score": 0.4172188639640808
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ define \"main\" }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  {{ $notesToc := partial \"notes/toc.html\" . }}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  {{ $hasToc := $notesToc.has }}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "  {{ $page := . }}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  {{ $backlinks := partial \"notes/backlinks.html\" . }}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  {{ $outgoing := partial \"notes/outgoing-links.html\" . }}"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "  \u003csection class=\"section pt-7\"\u003e"
-          },
-          {
-            "lineNumber": 9,
-            "text": "    \u003cdiv class=\"container\"\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "      \u003cdiv class=\"row justify-center\"\u003e"
-          },
-          {
-            "lineNumber": 11,
-            "text": "        \u003cdiv class=\"lg:col-8\"\u003e"
-          },
-          {
-            "lineNumber": 12,
-            "text": "          \u003carticle\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "            {{ partial \"notes/local-graph.html\" . }}"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "            {{ partial \"notes/toolbar.html\" (dict \"Context\" . \"active\" \"note\") }}"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "            \u003ch1 class=\"article-title mb-4\"\u003e{{ .Title }}\u003c/h1\u003e"
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "            {{- $meta := partial \"notes/note-meta.html\" . -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "            {{- if ne (.Params.note_kind | default \"note\") \"meta\" -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "              \u003cdiv class=\"notes-single-meta text-ink-muted mb-4 flex flex-wrap items-center gap-3 text-sm\"\u003e"
-          },
-          {
-            "lineNumber": 22,
-            "text": "                {{ partial \"notes/status-badge.html\" (dict \"Page\" .) }}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "                \u003cspan\u003eCreated {{ $meta.Created.Format \"Jan 2, 2006\" }} · Updated {{ $meta.Updated.Format \"Jan 2, 2006\" }}\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 24,
-            "text": "              \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 25,
-            "text": "            {{- end -}}"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "            {{ with .Params.tags }}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "              {{ partial \"notes/tag-chips.html\" (dict \"Tags\" . \"ListClass\" \"mb-4 flex flex-wrap gap-2\") }}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 30
-          },
-          {
-            "lineNumber": 31,
-            "text": "            {{ partial \"notes/note-issues-panel.html\" . }}"
-          },
-          {
-            "lineNumber": 32
-          },
-          {
-            "lineNumber": 33,
-            "text": "            {{ if $hasToc }}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "              \u003cdiv class=\"toc-wrapper border-divider mb-6 rounded border p-4 lg:hidden\"\u003e"
-          },
-          {
-            "lineNumber": 35,
-            "text": "                \u003cp class=\"mb-3 font-semibold\"\u003e{{ T \"table_of_contents\" | default \"Table of Contents\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 36,
-            "text": "                \u003cdiv class=\"table-of-content toc-links\"\u003e{{ $notesToc.html | safeHTML }}\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 37,
-            "text": "              \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 38,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40,
-            "text": "            \u003cdiv class=\"content notes-content mb-10\"\u003e"
-          },
-          {
-            "lineNumber": 41,
-            "text": "              {{ partial \"notes/render-content.html\" . }}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 43
-          },
-          {
-            "lineNumber": 44,
-            "text": "            {{ partial \"notes/note-flashcards.html\" . }}"
-          },
-          {
-            "lineNumber": 45
-          },
-          {
-            "lineNumber": 46,
-            "text": "            {{ with $outgoing }}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "              \u003caside class=\"notes-outgoing border-divider mb-6 rounded border p-5\"\u003e"
-          },
-          {
-            "lineNumber": 48,
-            "text": "                "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 16,
-            "line": 47
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/notes/single.html",
-        "signatures": {}
-      },
-      "score": 0.38863706588745117
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ $class:= .Class }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{ $scratch := newScratch }}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{ if not (.Collapsed | default true) }} "
-          },
-          {
-            "lineNumber": 4,
-            "text": "  {{ $scratch.Set \"openAttr\" \"open\" }}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{ else }}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  {{ $scratch.Set \"openAttr\" \"\" }}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{ end }}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "\u003cdetails {{ $scratch.Get \"openAttr\" | safeHTMLAttr }} class=\"table-of-content {{$class}}\"\u003e"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  \u003csummary\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "    {{ with i18n \"toc\" }}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "      {{ . }}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    {{ else }}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "      Table Of Contents"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    {{ end }}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  \u003c/summary\u003e"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  {{ .TableOfContents }}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "\u003c/details\u003e"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 17
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/table-of-contents/layouts/partials/toc.html",
-        "signatures": {}
-      },
-      "score": 0.361711710691452
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 46,
-            "text": "            {{ with $outgoing }}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "              \u003caside class=\"notes-outgoing border-divider mb-6 rounded border p-5\"\u003e"
-          },
-          {
-            "lineNumber": 48,
-            "text": "                \u003ch2 class=\"h6 mb-3\"\u003eLinks from this Note\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 49,
-            "text": "                \u003cul class=\"notes-outgoing-list grid gap-3 sm:grid-cols-2\"\u003e"
-          },
-          {
-            "lineNumber": 50,
-            "text": "                  {{ range . }}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "                    {{ partial \"notes/note-link-card.html\" (dict \"Page\" .Page \"Href\" .Href \"Title\" .Label) }}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "                  {{ end }}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "                \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 54,
-            "text": "              \u003c/aside\u003e"
-          },
-          {
-            "lineNumber": 55,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57,
-            "text": "            {{ partial \"notes/see-also.html\" . }}"
-          },
-          {
-            "lineNumber": 58
-          },
-          {
-            "lineNumber": 59,
-            "text": "            {{ with $backlinks }}"
-          },
-          {
-            "lineNumber": 60,
-            "text": "              \u003caside class=\"notes-backlinks border-divider mt-6 rounded border p-5\"\u003e"
-          },
-          {
-            "lineNumber": 61,
-            "text": "                \u003ch2 class=\"h6 mb-3\"\u003eBacklinks\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 62,
-            "text": "                \u003cul class=\"notes-backlinks-list grid gap-3 sm:grid-cols-2\"\u003e"
-          },
-          {
-            "lineNumber": 63,
-            "text": "                  {{ range . }}"
-          },
-          {
-            "lineNumber": 64,
-            "text": "                    {{ partial \"notes/note-link-card.html\" (dict \"Page\" .Page) }}"
-          },
-          {
-            "lineNumber": 65,
-            "text": "                  {{ end }}"
-          },
-          {
-            "lineNumber": 66,
-            "text": "                \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 67,
-            "text": "              \u003c/aside\u003e"
-          },
-          {
-            "lineNumber": 68,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 69,
-            "text": "          \u003c/article\u003e"
-          },
-          {
-            "lineNumber": 70,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 71
-          },
-          {
-            "lineNumber": 72,
-            "text": "        \u003cdiv class=\"hidden lg:col-4 lg:block\"\u003e"
-          },
-          {
-            "lineNumber": 73,
-            "text": "          {{ if $hasToc }}"
-          },
-          {
-            "lineNumber": 74,
-            "text": "            \u003cdiv class=\"toc-wrapper sticky top-[100px]\"\u003e"
-          },
-          {
-            "lineNumber": 75,
-            "text": "              \u003cdiv class=\"table-of-content toc-links\"\u003e"
-          },
-          {
-            "lineNumber": 76,
-            "text": "                \u003cp class=\"mb-3 text-h5 font-semibold\"\u003e{{ T \"table_of_contents\" | default \"Table of Contents\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 77,
-            "text": "                \u003cdiv class=\"toc-scroll\"\u003e{{ $notesToc.html | safeHTML }}\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 78,
-            "text": "              \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 79,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 80,
-            "text": "          {{ end }}"
-          },
-          {
-            "lineNumber": 81,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 82,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 83
-          },
-          {
-            "lineNumber": 84,
-            "text": "      {{ partial \"blog/related-posts.html\" . }}"
-          },
-          {
-            "lineNumber": 85,
-            "text": "      {{ partial \"notes/random-unrelated-notes.html\" . }}"
-          },
-          {
-            "lineNumber": 86,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 87,
-            "text": "  \u003c/section\u003e"
-          },
-          {
-            "lineNumber": 88
-          },
-          {
-            "lineNumber": 89,
-            "text": "  {{ partial \"notes/preview-index.html\" . }}"
-          },
-          {
-            "lineNumber": 90
-          },
-          {
-            "lineNumber": 91,
-            "text": "  {{ if site.Params.notes.enable_graph }}"
-          },
-          {
-            "lineNumber": 92,
-            "text": "    {{ with resources.Get \"js/notes-graph.js\" }}"
-          },
-          {
-            "lineNumber": 93,
-            "text": "      \u003cscript src=\"{{ .RelPermalink }}\" defer\u003e\u003c/script\u003e"
-          },
-          {
-            "lineNumber": 94,
-            "text": "    {{ end }}"
-          },
-          {
-            "lineNumber": 95,
-            "text": "  {{ end }}"
-          },
-          {
-            "lineNumber": 96,
-            "text": "  {{ with resources.Get \"js/wikilink-preview.js\" }}"
-          },
-          {
-            "lineNumber": 97,
-            "text": "    \u003cscript src=\"{{ .RelPermalink }}\" defer\u003e\u003c/script\u003e"
-          },
-          {
-            "lineNumber": 98,
-            "text": "  {{ end }}"
-          },
-          {
-            "lineNumber": 99,
-            "text": "  {{ with resources.Get \"js/notes-flashcard.js\" }}"
-          },
-          {
-            "lineNumber": 100,
-            "text": "    \u003cscript src=\"{{ .RelPermalink }}\" defer\u003e\u003c/script\u003e"
-          },
-          {
-            "lineNumber": 101,
-            "text": "  {{ end }}"
-          },
-          {
-            "lineNumber": 102,
-            "text": "{{ end }}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 102
-          },
-          "startPosition": {
-            "line": 45
-          }
-        },
-        "relativeWorkspacePath": "./layouts/notes/single.html",
-        "signatures": {}
-      },
-      "score": 0.3611742854118347
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $class := site.Params.notes.wikilink_class | default \"wikilink\" -}}"
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- /* Render from raw so | inside [[wikilinks]] does not split markdown tables */ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $raw := $page.RawContent -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $raw = replaceRE &#96;(?s)\\n## See also[\\s\\S]*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- /* Tokenize wikilinks outside fenced/inline code before Goldmark */ -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $wikilinkTokens := slice -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $tokenIndex := 0 -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $fenceParts := split $raw \"&#96;&#96;&#96;\" -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $rawOut := \"\" -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- range $fi, $fencePart := $fenceParts -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- if gt $fi 0 -}}{{- $rawOut = printf \"%s&#96;&#96;&#96;\" $rawOut -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- if eq (mod $fi 2) 1 -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    {{- $rawOut = printf \"%s%s\" $rawOut $fencePart -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  {{- else -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    {{- $segment := $fencePart -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    {{- $inlineParts := split $segment \"&#96;\" -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $segOut := \"\" -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- range $ii, $inlinePart := $inlineParts -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- if gt $ii 0 -}}{{- $segOut = printf \"%s&#96;\" $segOut -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "      {{- if eq (mod $ii 2) 1 -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "        {{- $segOut = printf \"%s%s\" $segOut $inlinePart -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "      {{- else -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "        {{- $chunk := $inlinePart -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "        {{- range findRE &#96;\\[\\[[^\\]]+\\]\\]&#96; $chunk -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "          {{- $token := printf \"WIKILINK-MD-%d-END\" $tokenIndex -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "          {{- $tokenIndex = add $tokenIndex 1 -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "          {{- $wikilinkTokens = $wikilinkTokens | append (dict \"token\" $token \"link\" .) -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "          {{- $chunk = replace $chunk . $token 1 -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "        {{- $segOut = printf \"%s%s\" $segOut $chunk -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    {{- $rawOut = printf \"%s%s\" $rawOut $segOut -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "{{- $raw = $rawOut -}}"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "{{- $content := $page.RenderString $raw -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "{{- range $wikilinkTokens -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  {{- $content = replace $content .token .link -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 45
-          },
-          {
-            "lineNumber": 46,
-            "text": "{{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 49
-          },
-          {
-            "lineNumber": 50,
-            "text": "{{- /* Typographer may curl apostrophes inside [[wikilinks]] before we replace them */ -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "{{- $content = replace $content \"\\u2019\" \"'\" -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 51
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
-        "signatures": {}
-      },
-      "score": 0.32896140217781067
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 44,
-            "text": "          {{ if $hasToc }}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "          \u003cdiv class=\"toc-wrapper border rounded p-4 relative z-10 mb-6 lg:hidden\"\u003e"
-          },
-          {
-            "lineNumber": 46,
-            "text": "            \u003cbutton"
-          },
-          {
-            "lineNumber": 47,
-            "text": "              type=\"button\""
-          },
-          {
-            "lineNumber": 48,
-            "text": "              id=\"mobile-toc-toggle\""
-          },
-          {
-            "lineNumber": 49,
-            "text": "              class=\"flex min-h-11 w-full items-center justify-between gap-3 rounded text-left text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface\""
-          },
-          {
-            "lineNumber": 50,
-            "text": "              aria-expanded=\"false\""
-          },
-          {
-            "lineNumber": 51,
-            "text": "              aria-controls=\"mobile-toc-panel\"\u003e"
-          },
-          {
-            "lineNumber": 52,
-            "text": "              \u003cspan class=\"text-base font-semibold\"\u003e{{ T \"table_of_contents\" | default \"Table of Contents\" }}\u003c/span\u003e"
-          },
-          {
-            "lineNumber": 53,
-            "text": "              \u003cspan"
-          },
-          {
-            "lineNumber": 54,
-            "text": "                id=\"toc-chevron\""
-          },
-          {
-            "lineNumber": 55,
-            "text": "                class=\"shrink-0 transition-transform duration-300 ease-out motion-reduce:transition-none\""
-          },
-          {
-            "lineNumber": 56,
-            "text": "                aria-hidden=\"true\"\u003e"
-          },
-          {
-            "lineNumber": 57,
-            "text": "                {{ partial \"components/icon\" (dict \"Name\" \"chevron-down\" \"Class\" \"h-5 w-5\") }}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "              \u003c/span\u003e"
-          },
-          {
-            "lineNumber": 59,
-            "text": "            \u003c/button\u003e"
-          },
-          {
-            "lineNumber": 60,
-            "text": "            \u003cdiv id=\"mobile-toc-panel\" class=\"mobile-toc-content mt-4 hidden\"\u003e"
-          },
-          {
-            "lineNumber": 61,
-            "text": "              \u003cdiv class=\"table-of-content toc-links\"\u003e"
-          },
-          {
-            "lineNumber": 62,
-            "text": "                {{ .TableOfContents }}"
-          },
-          {
-            "lineNumber": 63,
-            "text": "              \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 64,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 65,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 66,
-            "text": "          {{ end }}"
-          },
-          {
-            "lineNumber": 67
-          },
-          {
-            "lineNumber": 68,
-            "text": "          \u003cdiv class=\"content mb-10\"\u003e"
-          },
-          {
-            "lineNumber": 69,
-            "text": "            {{ .Content }}"
-          },
-          {
-            "lineNumber": 70
-          },
-          {
-            "lineNumber": 71,
-            "text": "            {{ $tags:= .Params.tags }}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 71
-          },
-          "startPosition": {
-            "line": 43
-          }
-        },
-        "relativeWorkspacePath": "./themes/jorap/layouts/blog/single.html",
-        "signatures": {}
-      },
-      "score": 0.3248923122882843
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Pages under content/english/notes/."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Default: garden notes only (excludes utility/meta surfaces)."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Pass IncludeUtility: true for wikilink registry (graph, issues, flashcards, etc.)."
-          },
-          {
-            "lineNumber": 5,
-            "text": "  Pass ExcludeKinds to omit additional note_kind values."
-          },
-          {
-            "lineNumber": 6,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $includeUtility := false -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $excludeKinds := slice -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- if reflect.IsMap . -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $includeUtility = .IncludeUtility | default false -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- with .ExcludeKinds -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    {{- $excludeKinds = . -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $pages := slice -}}"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- range site.RegularPages -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- $dir := .File.Dir | default \"\" -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- if not (or (hasPrefix $dir \"notes/\") (eq $dir \"notes/\")) -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  {{- if .Draft -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- if and (not $includeUtility) (partial \"notes/is-utility-page.html\" .) -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  {{- $kind := .Params.note_kind | default \"note\" -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- if in $excludeKinds $kind -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  {{- $pages = $pages | append . -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "{{- return $pages -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 35
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/pages.html",
-        "signatures": {}
-      },
-      "score": 0.32356756925582886
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ $class:= .Get \"class\" }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "\u003cdetails class=\"table-of-content {{$class}}\"\u003e"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  \u003csummary\u003e"
-          },
-          {
-            "lineNumber": 4,
-            "text": "    {{ with i18n \"toc\" }}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "      {{ . }}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "    {{ else }}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "      Table Of Contents"
-          },
-          {
-            "lineNumber": 8,
-            "text": "    {{ end }}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  \u003c/summary\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{ .Page.TableOfContents }}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "\u003c/details\u003e"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 11
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/table-of-contents/layouts/shortcodes/toc.html",
-        "signatures": {}
-      },
-      "score": 0.31610921025276184
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Maps of Content\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Maps of Content (MOC) - Index Pages That Think\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"A MOC is a curated index of notes on a topic - a table of contents I write by hand.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"MOC\", \"Maps of Content\", \"PKM\", \"Linking\", \"Organization\", \"Second Brain\", \"Hugo\", \"Website Building\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"maps-of-content\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: true"
-          },
-          {
-            "lineNumber": 12,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "aliases: [\"MOC\"]"
-          },
-          {
-            "lineNumber": 14,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16,
-            "text": "**Maps of Content (MOCs)** are hub notes that index related ideas. I use pages like this to wander the garden."
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "## Maps"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "### Foundations"
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "- [[PKM]]"
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Building a Second Brain]]"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Atomic Notes]]"
-          },
-          {
-            "lineNumber": 25,
-            "text": "- [[Maps of Content]]"
-          },
-          {
-            "lineNumber": 26,
-            "text": "- [[Getting Started]]"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "### Capture"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "- [[Capture]]"
-          },
-          {
-            "lineNumber": 31,
-            "text": "- [[Context-Aware Capture]]"
-          },
-          {
-            "lineNumber": 32,
-            "text": "- [[Analog Capture Tools]]"
-          },
-          {
-            "lineNumber": 33,
-            "text": "- [[Mobile Capture Workflows]]"
-          },
-          {
-            "lineNumber": 34,
-            "text": "- [[The Trusted Inbox]]"
-          },
-          {
-            "lineNumber": 35,
-            "text": "- [[RSS for Research]]"
-          },
-          {
-            "lineNumber": 36,
-            "text": "- [[Signal vs Noise]]"
-          },
-          {
-            "lineNumber": 37
-          },
-          {
-            "lineNumber": 38,
-            "text": "### Organize"
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40,
-            "text": "- [[PARA Method]]"
-          },
-          {
-            "lineNumber": 41,
-            "text": "- [[GTD vs PARA]]"
-          },
-          {
-            "lineNumber": 42,
-            "text": "- [[The Knowledge Lifecycle]]"
-          },
-          {
-            "lineNumber": 43,
-            "text": "- [[Metadata Strategy]]"
-          },
-          {
-            "lineNumber": 44,
-            "text": "- [[Daily Notes]]"
-          },
-          {
-            "lineNumber": 45
-          },
-          {
-            "lineNumber": 46,
-            "text": "### Distill \u0026 review"
-          },
-          {
-            "lineNumber": 47
-          },
-          {
-            "lineNumber": 48,
-            "text": "- [[Progressive Summarization]]"
-          },
-          {
-            "lineNumber": 49,
-            "text": "- [[Weekly Review Checklists]]"
-          },
-          {
-            "lineNumber": 50,
-            "text": "- [[Periodic Knowledge Review]]"
-          },
-          {
-            "lineNumber": 51,
-            "text": "- [[Evergreen Notes]]"
-          },
-          {
-            "lineNumber": 52,
-            "text": "- [[Evergreen vs Fleeting Notes]]"
-          },
-          {
-            "lineNumber": 53,
-            "text": "- [[The 12 Week Year]]"
-          },
-          {
-            "lineNumber": 54
-          },
-          {
-            "lineNumber": 55,
-            "text": "### Connect \u0026 explore"
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57,
-            "text": "- [[Note Relationships]]"
-          },
-          {
-            "lineNumber": 58,
-            "text": "- [[Associative Linking]]"
-          },
-          {
-            "lineNumber": 59,
-            "text": "- [[Graph View Analytics]]"
-          },
-          {
-            "lineNumber": 60,
-            "text": "- [[Digital Serendipity]]"
-          },
-          {
-            "lineNumber": 61,
-            "text": "- [[Mind Mapping]]"
-          },
-          {
-            "lineNumber": 62
-          },
-          {
-            "lineNumber": 63,
-            "text": "### Express"
-          },
-          {
-            "lineNumber": 64
-          },
-          {
-            "lineNumber": 65,
-            "text": "- [[Creative Output]]"
-          },
-          {
-            "lineNumber": 66,
-            "text": "- [[Drafting in Public]]"
-          },
-          {
-            "lineNumber": 67,
-            "text": "- [[Synthesis as a Goal]]"
-          },
-          {
-            "lineNumber": 68,
-            "text": "- [[Creative Blocks]]"
-          },
-          {
-            "lineNumber": 69
-          },
-          {
-            "lineNumber": 70,
-            "text": "### Faith"
-          },
-          {
-            "lineNumber": 71
-          },
-          {
-            "lineNumber": 72,
-            "text": "- [[Free Grace]]"
-          },
-          {
-            "lineNumber": 73,
-            "text": "- [[Eternal Principles]]"
-          },
-          {
-            "lineNumber": 74,
-            "text": "- [[Love God]]"
-          },
-          {
-            "lineNumber": 75,
-            "text": "- [[Love Your Neighbor]]"
-          },
-          {
-            "lineNumber": 76,
-            "text": "- [[The Golden Rule]]"
-          },
-          {
-            "lineNumber": 77,
-            "text": "- [[Forgiveness]]"
-          },
-          {
-            "lineNumber": 78
-          },
-          {
-            "lineNumber": 79,
-            "text": "### Mental models"
-          },
-          {
-            "lineNumber": 80
-          },
-          {
-            "lineNumber": 81,
-            "text": "- [[Mental Models List]]"
-          },
-          {
-            "lineNumber": 82
-          },
-          {
-            "lineNumber": 83,
-            "text": "### Systems \u0026 tools"
-          },
-          {
-            "lineNumber": 84
-          },
-          {
-            "lineNumber": 85,
-            "text": "- [[Digital Garden]]"
-          },
-          {
-            "lineNumber": 86,
-            "text": "- [[Local-first Software]]"
-          },
-          {
-            "lineNumber": 87,
-            "text": "- [[Future-Proofing Knowledge]]"
-          },
-          {
-            "lineNumber": 88
-          },
-          {
-            "lineNumber": 89,
-            "text": "Extends [[Active Knowledge Curation]]. Contradicts [[Atomic Notes]]. Index for the garden."
-          },
-          {
-            "lineNumber": 90
-          },
-          {
-            "lineNumber": 91,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 92
-          },
-          {
-            "lineNumber": 93,
-            "text": "- [[Getting Started]]"
-          },
-          {
-            "lineNumber": 94,
-            "text": "- [[PKM]]"
-          },
-          {
-            "lineNumber": 95,
-            "text": "- [[Building a Second Brain]]"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 95
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/maps-of-content.md",
-        "signatures": {}
-      },
-      "score": 0.3078716993331909
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 66,
-            "text": "          {{ end }}"
-          },
-          {
-            "lineNumber": 67
-          },
-          {
-            "lineNumber": 68,
-            "text": "          \u003cdiv class=\"content mb-10\"\u003e"
-          },
-          {
-            "lineNumber": 69,
-            "text": "            {{ .Content }}"
-          },
-          {
-            "lineNumber": 70
-          },
-          {
-            "lineNumber": 71,
-            "text": "            {{ $tags:= .Params.tags }}"
-          },
-          {
-            "lineNumber": 72,
-            "text": "            {{ if $tags }}"
-          },
-          {
-            "lineNumber": 73,
-            "text": "            \u003cdiv class=\"not-prose mb-2 tags_section\"\u003e"
-          },
-          {
-            "lineNumber": 74,
-            "text": "              \u003cp class=\"mb-2 font-semibold text-ink\"\u003e{{ T \"tags\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 75,
-            "text": "              \u003cul class=\"flex flex-wrap gap-2\"\u003e"
-          },
-          {
-            "lineNumber": 76,
-            "text": "                {{ range $i,$p:= $tags }}"
-          },
-          {
-            "lineNumber": 77,
-            "text": "                \u003cli\u003e"
-          },
-          {
-            "lineNumber": 78,
-            "text": "                  \u003ca class=\"bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1\""
-          },
-          {
-            "lineNumber": 79,
-            "text": "                    href=\"{{ &#96;tags/&#96; | relLangURL }}{{ . | urlize | lower }}/\"\u003e"
-          },
-          {
-            "lineNumber": 80,
-            "text": "                    {{ . | title }}"
-          },
-          {
-            "lineNumber": 81,
-            "text": "                  \u003c/a\u003e"
-          },
-          {
-            "lineNumber": 82,
-            "text": "                \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 83,
-            "text": "                {{ end }}"
-          },
-          {
-            "lineNumber": 84,
-            "text": "              \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 85,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 86,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 87
-          },
-          {
-            "lineNumber": 88,
-            "text": "            \u003cdiv class=\"mb-2 share_section\"\u003e"
-          },
-          {
-            "lineNumber": 89,
-            "text": "              \u003cp class=\"not-prose mb-2 font-semibold text-ink\"\u003e{{ T \"share\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 90,
-            "text": "              {{ partial \"components/social-share\" (dict \"Context\" . \"Class\" \"share-icons\" \"Title\" .Title \"Whatsapp\""
-          },
-          {
-            "lineNumber": 91,
-            "text": "              false \"Telegram\" false \"Pinterest\" false \"Tumblr\" false \"Vk\" false \"Reddit\" false) }}"
-          },
-          {
-            "lineNumber": 92,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 93
-          },
-          {
-            "lineNumber": 94,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 95,
-            "text": "          {{/* Comments */}}"
-          },
-          {
-            "lineNumber": 96,
-            "text": "          {{ if site.Config.Services.Disqus.Shortname }}"
-          },
-          {
-            "lineNumber": 97,
-            "text": "          \u003cdiv class=\"mt-20\"\u003e"
-          },
-          {
-            "lineNumber": 98,
-            "text": "            {{ template \"_internal/disqus.html\" . }}"
-          },
-          {
-            "lineNumber": 99,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 100,
-            "text": "          {{ end }}"
-          },
-          {
-            "lineNumber": 101,
-            "text": "        \u003c/article\u003e"
-          },
-          {
-            "lineNumber": 102,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 103,
-            "text": "      {{ if $hasToc }}"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      \u003cdiv class=\"lg:col-4\"\u003e"
-          },
-          {
-            "lineNumber": 105,
-            "text": "        \u003cdiv class=\"sidebar-wrapper flex flex-col h-full\"\u003e"
-          },
-          {
-            "lineNumber": 106,
-            "text": "          {{/* Desktop TOC - hidden on mobile */}}"
-          },
-          {
-            "lineNumber": 107,
-            "text": "          \u003cdiv class=\"toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-surface\"\u003e"
-          },
-          {
-            "lineNumber": 108,
-            "text": "            \u003cdiv class=\"table-of-content toc-links\"\u003e"
-          },
-          {
-            "lineNumber": 109,
-            "text": "              \u003cp class=\"mb-3 text-h5 font-semibold leading-snug tracking-tight text-ink\"\u003e{{ T \"table_of_contents\" | default \"Table of Contents\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 110,
-            "text": "              \u003cdiv class=\"toc-scroll\"\u003e{{ .TableOfContents }}\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 111,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 112,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 113,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 114,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 115,
-            "text": "      {{ end }}"
-          },
-          {
-            "lineNumber": 116,
-            "text": "    \u003c/div\u003e"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 117
-          },
-          "startPosition": {
-            "line": 65
-          }
-        },
-        "relativeWorkspacePath": "./themes/jorap/layouts/blog/single.html",
-        "signatures": {}
-      },
-      "score": 0.30507129430770874
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 50,
-            "text": "const initMobileToc = "
-          },
-          {
-            "lineNumber": 70
-          },
-          {
-            "lineNumber": 71,
-            "text": "  };"
-          },
-          {
-            "lineNumber": 72
-          },
-          {
-            "lineNumber": 73,
-            "text": "  const initScrollSpy = () =\u003e {"
-          },
-          {
-            "lineNumber": 74,
-            "text": "    const tocLinks = document.querySelectorAll(\".table-of-content a\");"
-          },
-          {
-            "lineNumber": 75,
-            "text": "    if (tocLinks.length === 0) return;"
-          },
-          {
-            "lineNumber": 76
-          },
-          {
-            "lineNumber": 77,
-            "text": "    const content = document.querySelector(\".content\");"
-          },
-          {
-            "lineNumber": 78,
-            "text": "    if (!content) return;"
-          },
-          {
-            "lineNumber": 79
-          },
-          {
-            "lineNumber": 80,
-            "text": "    const headings = Array.from("
-          },
-          {
-            "lineNumber": 81,
-            "text": "      content.querySelectorAll(\"h1, h2, h3, h4, h5, h6\"),"
-          },
-          {
-            "lineNumber": 82,
-            "text": "    ).filter((h) =\u003e h.id);"
-          },
-          {
-            "lineNumber": 83,
-            "text": "    if (headings.length === 0) return;"
-          },
-          {
-            "lineNumber": 84
-          },
-          {
-            "lineNumber": 85,
-            "text": "    const linksById = {};"
-          },
-          {
-            "lineNumber": 86,
-            "text": "    tocLinks.forEach((link) =\u003e {"
-          },
-          {
-            "lineNumber": 87,
-            "text": "      const href = link.getAttribute(\"href\");"
-          },
-          {
-            "lineNumber": 88,
-            "text": "      if (href \u0026\u0026 href.startsWith(\"#\")) linksById[href.slice(1)] = link;"
-          },
-          {
-            "lineNumber": 89,
-            "text": "      link.classList.add(\"transition-all\", \"duration-200\", \"ease-out\");"
-          },
-          {
-            "lineNumber": 90,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 91
-          },
-          {
-            "lineNumber": 92,
-            "text": "    const setActive = (heading) =\u003e {"
-          },
-          {
-            "lineNumber": 93,
-            "text": "      if (!heading) return;"
-          },
-          {
-            "lineNumber": 94,
-            "text": "      tocLinks.forEach((l) =\u003e l.classList.remove(\"font-bold\"));"
-          },
-          {
-            "lineNumber": 95,
-            "text": "      const active = linksById[heading.id];"
-          },
-          {
-            "lineNumber": 96,
-            "text": "      if (active) active.classList.add(\"font-bold\");"
-          },
-          {
-            "lineNumber": 97,
-            "text": "    };"
-          },
-          {
-            "lineNumber": 98
-          },
-          {
-            "lineNumber": 99,
-            "text": "    let ticking = false;"
-          },
-          {
-            "lineNumber": 100,
-            "text": "    const onScroll = () =\u003e {"
-          },
-          {
-            "lineNumber": 101,
-            "text": "      if (ticking) return;"
-          },
-          {
-            "lineNumber": 102,
-            "text": "      ticking = true;"
-          },
-          {
-            "lineNumber": 103,
-            "text": "      requestAnimationFrame(() =\u003e {"
-          },
-          {
-            "lineNumber": 104,
-            "text": "        const offset = getHeaderOffset();"
-          },
-          {
-            "lineNumber": 105,
-            "text": "        const scrollTop = window.scrollY + offset + 1;"
-          },
-          {
-            "lineNumber": 106,
-            "text": "        let current = headings[0];"
-          },
-          {
-            "lineNumber": 107,
-            "text": "        for (const h of headings) {"
-          },
-          {
-            "lineNumber": 108,
-            "text": "          if (h.offsetTop \u003c= scrollTop) current = h;"
-          },
-          {
-            "lineNumber": 109,
-            "text": "          else break;"
-          },
-          {
-            "lineNumber": 110,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 111,
-            "text": "        if ("
-          },
-          {
-            "lineNumber": 112,
-            "text": "          window.innerHeight + window.scrollY \u003e="
-          },
-          {
-            "lineNumber": 113,
-            "text": "          document.body.offsetHeight - 100"
-          },
-          {
-            "lineNumber": 114,
-            "text": "        ) {"
-          },
-          {
-            "lineNumber": 115,
-            "text": "          current = headings[headings.length - 1];"
-          },
-          {
-            "lineNumber": 116,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 117,
-            "text": "        setActive(current);"
-          },
-          {
-            "lineNumber": 118,
-            "text": "        ticking = false;"
-          },
-          {
-            "lineNumber": 119,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 120,
-            "text": "    };"
-          },
-          {
-            "lineNumber": 121
-          },
-          {
-            "lineNumber": 122,
-            "text": "    window.addEventListener(\"scroll\", onScroll, { passive: true });"
-          },
-          {
-            "lineNumber": 123,
-            "text": "    onScroll();"
-          },
-          {
-            "lineNumber": 124,
-            "text": "  };"
-          },
-          {
-            "lineNumber": 125
-          },
-          {
-            "lineNumber": 126,
-            "text": "  document.addEventListener(\"DOMContentLoaded\", () =\u003e {"
-          },
-          {
-            "lineNumber": 127,
-            "text": "    initAnchorLinks();"
-          },
-          {
-            "lineNumber": 128,
-            "text": "    initMobileToc();"
-          },
-          {
-            "lineNumber": 129,
-            "text": "    initScrollSpy();"
-          },
-          {
-            "lineNumber": 130
-          },
-          {
-            "lineNumber": 131,
-            "text": "    if (window.location.hash) {"
-          },
-          {
-            "lineNumber": 132,
-            "text": "      setTimeout(() =\u003e {"
-          },
-          {
-            "lineNumber": 133,
-            "text": "        scrollToElement(document.getElementById(window.location.hash.slice(1)));"
-          },
-          {
-            "lineNumber": 134,
-            "text": "      }, 100);"
-          },
-          {
-            "lineNumber": 135,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 136,
-            "text": "  });"
-          },
-          {
-            "lineNumber": 137,
-            "text": "})();"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 5,
-            "line": 136
-          },
-          "startPosition": {
-            "line": 12
-          }
-        },
-        "relativeWorkspacePath": "./assets/js/toc.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 1,
-                "line": 13
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 13
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.30308839678764343
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "#!/usr/bin/env python3"
-          },
-          {
-            "lineNumber": 2,
-            "text": "\"\"\"Expand note bodies to full evergreen claims from frontmatter descriptions.\"\"\""
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4,
-            "text": "from __future__ import annotations"
-          },
-          {
-            "lineNumber": 5
-          },
-          {
-            "lineNumber": 6,
-            "text": "import re"
-          },
-          {
-            "lineNumber": 7,
-            "text": "from pathlib import Path"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "ROOT = Path(__file__).resolve().parents[1]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "NOTES_DIR = ROOT / \"content/english/notes\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "SKIP = {\"_index\", \"graph\", \"maps-of-content\", \"getting-started\", \"atomic-notes\"}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "SEE_ALSO = \"## See also\""
-          },
-          {
-            "lineNumber": 13
-          },
-          {
-            "lineNumber": 14,
-            "text": "# Timeless rewrites for descriptions that name this site or other dated anchors."
-          },
-          {
-            "lineNumber": 15,
-            "text": "DESC_OVERRIDES: dict[str, str] = {"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    \"building-a-second-brain\": ("
-          },
-          {
-            "lineNumber": 17,
-            "text": "        \"My brain is for having ideas, not storing them. \""
-          },
-          {
-            "lineNumber": 18,
-            "text": "        \"A Second Brain is the system that holds them - starting with [[Capture]].\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "    ),"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    \"digital-garden\": ("
-          },
-          {
-            "lineNumber": 21,
-            "text": "        \"My digital garden is a personal site where notes grow in public - \""
-          },
-          {
-            "lineNumber": 22,
-            "text": "        \"linked, imperfect, alive.\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "    ),"
-          },
-          {
-            "lineNumber": 24,
-            "text": "}"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "# Wikilink substitutions applied after the body is built (longest matches first)."
-          },
-          {
-            "lineNumber": 27,
-            "text": "WIKILINK_FIXES: dict[str, list[tuple[str, str]]] = {"
-          },
-          {
-            "lineNumber": 28,
-            "text": "    \"capture\": [(\"PKM\", \"[[PKM]]\")],"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    \"para-method\": [(\"PARA\", \"[[PARA]]\")],"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    \"organization\": [(\" in PKM isn't\", \" in [[PKM]] isn't\")],"
-          },
-          {
-            "lineNumber": 31,
-            "text": "}"
-          },
-          {
-            "lineNumber": 32
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 34,
-            "text": "def split_frontmatter(text: str) -\u003e tuple[str, str, str]:"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    if not text.startswith(\"---\"):"
-          },
-          {
-            "lineNumber": 36,
-            "text": "        return \"\", text, text"
-          },
-          {
-            "lineNumber": 37,
-            "text": "    end = text.find(\"\\n---\", 3)"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    if end == -1:"
-          },
-          {
-            "lineNumber": 39,
-            "text": "        return \"\", text, text"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 40,
-            "text": "    return text[: end + 4], text[3:end].strip(), text[end + 4 :].lstrip(\"\\n\")"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 43,
-            "text": "def parse_scalar(block: str, key: str) -\u003e str:"
-          },
-          {
-            "lineNumber": 44,
-            "text": "    match = re.search(rf'^{key}:\\s*\"?([^\"\\n]+)\"?', block, re.M)"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 44
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./scripts/evergreen-notes.py",
-        "signatures": {}
-      },
-      "score": 0.3030324876308441
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 119,
-            "text": "# Notes stale/updated tracking uses filesystem mtime (:fileModTime), not Git or manual lastmod fields."
-          },
-          {
-            "lineNumber": 120,
-            "text": "[frontmatter]"
-          },
-          {
-            "lineNumber": 121,
-            "text": "lastmod = [\":fileModTime\"]"
-          },
-          {
-            "lineNumber": 122
-          },
-          {
-            "lineNumber": 123,
-            "text": "############################# Modules ############################"
-          },
-          {
-            "lineNumber": 124,
-            "text": "[module]"
-          },
-          {
-            "lineNumber": 125,
-            "text": "[[module.mounts]]"
-          },
-          {
-            "lineNumber": 126,
-            "text": "source = 'assets'"
-          },
-          {
-            "lineNumber": 127,
-            "text": "target = 'assets'"
-          },
-          {
-            "lineNumber": 128,
-            "text": "[[module.mounts]]"
-          },
-          {
-            "lineNumber": 129,
-            "text": "disableWatch = true"
-          },
-          {
-            "lineNumber": 130,
-            "text": "source = 'hugo_stats.json'"
-          },
-          {
-            "lineNumber": 131,
-            "text": "target = 'assets/notwatching/hugo_stats.json'"
-          },
-          {
-            "lineNumber": 132
-          },
-          {
-            "lineNumber": 133
-          },
-          {
-            "lineNumber": 134,
-            "text": "############################# Outputs ############################"
-          },
-          {
-            "lineNumber": 135,
-            "text": "[outputs]"
-          },
-          {
-            "lineNumber": 136,
-            "text": "home     = [\"HTML\", \"RSS\", \"WebAppManifest\", \"SearchIndex\", \"llms\", \"llmsfull\", \"md\"]"
-          },
-          {
-            "lineNumber": 137,
-            "text": "page     = [\"HTML\", \"RSS\", \"md\"]"
-          },
-          {
-            "lineNumber": 138,
-            "text": "section  = [\"HTML\", \"RSS\", \"md\"]"
-          },
-          {
-            "lineNumber": 139,
-            "text": "taxonomy = [\"HTML\", \"RSS\", \"md\"]"
-          },
-          {
-            "lineNumber": 140,
-            "text": "term     = [\"HTML\", \"RSS\", \"md\"]"
-          },
-          {
-            "lineNumber": 141
-          },
-          {
-            "lineNumber": 142,
-            "text": "############################# Imaging ############################"
-          },
-          {
-            "lineNumber": 143,
-            "text": "[imaging]"
-          },
-          {
-            "lineNumber": 144,
-            "text": "# See https://github.com/disintegration/imaging"
-          },
-          {
-            "lineNumber": 145,
-            "text": "# Default JPEG or WebP quality setting. Default is 75."
-          },
-          {
-            "lineNumber": 146,
-            "text": "quality = 80"
-          },
-          {
-            "lineNumber": 147,
-            "text": "resampleFilter = \"Lanczos\""
-          },
-          {
-            "lineNumber": 148
-          },
-          {
-            "lineNumber": 149,
-            "text": "############################ Caches ##############################"
-          },
-          {
-            "lineNumber": 150,
-            "text": "[caches]"
-          },
-          {
-            "lineNumber": 151,
-            "text": "[caches.images]"
-          },
-          {
-            "lineNumber": 152,
-            "text": "dir = \":resourceDir/_gen\""
-          },
-          {
-            "lineNumber": 153,
-            "text": "maxAge = \"720h\""
-          },
-          {
-            "lineNumber": 154
-          },
-          {
-            "lineNumber": 155,
-            "text": "[caches.assets]"
-          },
-          {
-            "lineNumber": 156,
-            "text": "dir = \":resourceDir/_gen\""
-          },
-          {
-            "lineNumber": 157,
-            "text": "maxAge = \"720h\""
-          },
-          {
-            "lineNumber": 158
-          },
-          {
-            "lineNumber": 159
-          },
-          {
-            "lineNumber": 160,
-            "text": "############################ Markup ##############################"
-          },
-          {
-            "lineNumber": 161,
-            "text": "[markup]"
-          },
-          {
-            "lineNumber": 162,
-            "text": "[markup.goldmark.renderer]"
-          },
-          {
-            "lineNumber": 163,
-            "text": "unsafe = true"
-          },
-          {
-            "lineNumber": 164
-          },
-          {
-            "lineNumber": 165,
-            "text": "# Keep the typographer extension on (curly quotes, ellipses, angle quotes) but"
-          },
-          {
-            "lineNumber": 166,
-            "text": "# render &#96;--&#96; and &#96;---&#96; as literal ASCII hyphens instead of en/em dashes."
-          },
-          {
-            "lineNumber": 167,
-            "text": "[markup.goldmark.extensions.typographer]"
-          },
-          {
-            "lineNumber": 168,
-            "text": "emDash = \"--\""
-          },
-          {
-            "lineNumber": 169,
-            "text": "enDash = \"-\""
-          },
-          {
-            "lineNumber": 170
-          },
-          {
-            "lineNumber": 171,
-            "text": "[markup.highlight]"
-          },
-          {
-            "lineNumber": 172,
-            "text": "style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html"
-          },
-          {
-            "lineNumber": 173,
-            "text": "lineNumbersInTable = false"
-          },
-          {
-            "lineNumber": 174
-          },
-          {
-            "lineNumber": 175,
-            "text": "[markup.tableOfContents]"
-          },
-          {
-            "lineNumber": 176,
-            "text": "startLevel = 2"
-          },
-          {
-            "lineNumber": 177,
-            "text": "endLevel = 5"
-          },
-          {
-            "lineNumber": 178,
-            "text": "ordered = true"
-          },
-          {
-            "lineNumber": 179
-          },
-          {
-            "lineNumber": 180
-          },
-          {
-            "lineNumber": 181,
-            "text": "########################### Media types ###########################"
-          },
-          {
-            "lineNumber": 182,
-            "text": "[mediaTypes]"
-          },
-          {
-            "lineNumber": 183,
-            "text": "[mediaTypes.\"application/manifest+json\"]"
-          },
-          {
-            "lineNumber": 184,
-            "text": "suffixes = [\"webmanifest\"]"
-          },
-          {
-            "lineNumber": 185
-          },
-          {
-            "lineNumber": 186
-          },
-          {
-            "lineNumber": 187,
-            "text": "########################### Output Format ##########################"
-          },
-          {
-            "lineNumber": 188,
-            "text": "[outputFormats]"
-          },
-          {
-            "lineNumber": 189,
-            "text": "[outputFormats.WebAppManifest]"
-          },
-          {
-            "lineNumber": 190,
-            "text": "mediaType = \"application/manifest+json\""
-          },
-          {
-            "lineNumber": 191,
-            "text": "rel = \"manifest\""
-          },
-          {
-            "lineNumber": 192
-          },
-          {
-            "lineNumber": 193,
-            "text": "[outputFormats.SearchIndex]"
-          },
-          {
-            "lineNumber": 194,
-            "text": "mediaType = \"application/json\""
-          },
-          {
-            "lineNumber": 195,
-            "text": "baseName = \"searchindex\""
-          },
-          {
-            "lineNumber": 196,
-            "text": "isPlainText = true"
-          },
-          {
-            "lineNumber": 197,
-            "text": "notAlternative = true"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 199
-          },
-          "startPosition": {
-            "line": 118
-          }
-        },
-        "relativeWorkspacePath": "./hugo.toml",
-        "signatures": {}
-      },
-      "score": 0.2993741035461426
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Getting Started\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Getting Started - Notes Garden\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"getting-started\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: 2026-06-18T08:00:00Z"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: [\"Notes\", \"Meta\", \"PKM\", \"Digital Garden\", \"Note Taking\", \"Hugo\", \"Website Building\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "aliases: [\"start\"]"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "featured: true"
-          },
-          {
-            "lineNumber": 14,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16,
-            "text": "**Notes garden** = one claim per page, linked with &#96;[[wikilinks]]&#96;, browsable at [/notes/](/notes/)."
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "Public when &#96;draft: false&#96;; hidden while &#96;draft: true&#96;. Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Faith parallel: [[Childlike Faith]] — beginner posture; receive the guide, don't perform expertise on day one."
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "Extends [[Note Relationships]]. Index for this site."
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "## Atomic rule"
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "**One note = one claim** I'd cite in conversation. No &#96;##&#96; sections, no \"bottom line\" - link out instead. See [[Atomic Notes]]. Each note also states what it **extends** and **contradicts** - see [[Note Relationships]]."
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "## Create a note"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "&#96;&#96;&#96;bash"
-          },
-          {
-            "lineNumber": 29,
-            "text": "hugo new notes/my-idea.md"
-          },
-          {
-            "lineNumber": 30,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "Or add a &#96;.md&#96; file under &#96;content/english/notes/&#96;. Use the same frontmatter as blog posts (&#96;title&#96;, &#96;meta_title&#96;, &#96;description&#96;, &#96;slug&#96;, &#96;date&#96;, &#96;image&#96;, &#96;categories&#96;, &#96;author&#96;, &#96;tags&#96;, &#96;featured&#96;, &#96;draft&#96;) plus optional lifecycle fields:"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "- &#96;status&#96; - &#96;seedling&#96; (draft claim), &#96;evergreen&#96; (stable), &#96;inbox&#96; (unprocessed), or &#96;archived&#96;"
-          },
-          {
-            "lineNumber": 35
-          },
-          {
-            "lineNumber": 36,
-            "text": "Created and updated timestamps come from the file itself at build time (&#96;scripts/noteFileDates.js&#96;) - no manual date fields to maintain."
-          },
-          {
-            "lineNumber": 37
-          },
-          {
-            "lineNumber": 38,
-            "text": "## Link between notes"
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40,
-            "text": "Use wikilinks in the body:"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42,
-            "text": "- &#96;[[Atomic Notes]]&#96; - link by title"
-          },
-          {
-            "lineNumber": 43,
-            "text": "- &#96;[[Atomic Notes|atoms]]&#96; - link with custom label"
-          },
-          {
-            "lineNumber": 44,
-            "text": "- &#96;[[atom]]&#96; - works via the &#96;aliases&#96; frontmatter field"
-          },
-          {
-            "lineNumber": 45
-          },
-          {
-            "lineNumber": 46,
-            "text": "What this site gives you:"
-          },
-          {
-            "lineNumber": 47
-          },
-          {
-            "lineNumber": 48,
-            "text": "- **Wikilinks** - &#96;[[Note Title]]&#96; and &#96;[[alias|label]]&#96; in note bodies"
-          },
-          {
-            "lineNumber": 49,
-            "text": "- **Aliases** - alternate link targets in frontmatter (&#96;aliases: [\"PARA\"]&#96; on [[PARA Method]])"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 49
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.2966580390930176
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 459,
-            "text": "def main() -\u003e None:"
-          },
-          {
-            "lineNumber": 480
-          },
-          {
-            "lineNumber": 481,
-            "text": "    link_map = build_link_map(catalog)"
-          },
-          {
-            "lineNumber": 482
-          },
-          {
-            "lineNumber": 483,
-            "text": "    for note in catalog:"
-          },
-          {
-            "lineNumber": 484,
-            "text": "        inner = update_frontmatter_aliases(note[\"inner\"], suggested_aliases(note[\"title\"], note[\"slug\"], note[\"aliases\"]))"
-          },
-          {
-            "lineNumber": 485
-          },
-          {
-            "lineNumber": 486,
-            "text": "        if note[\"stem\"] == \"maps-of-content\":"
-          },
-          {
-            "lineNumber": 487,
-            "text": "            body = build_moc_body(catalog)"
-          },
-          {
-            "lineNumber": 488,
-            "text": "        elif note[\"stem\"] == \"getting-started\":"
-          },
-          {
-            "lineNumber": 489,
-            "text": "            body = strip_section(note[\"body\"], SEE_ALSO_HEADING).rstrip() + \"\\n\""
-          },
-          {
-            "lineNumber": 490,
-            "text": "        else:"
-          },
-          {
-            "lineNumber": 491,
-            "text": "            body = strip_section(note[\"body\"], SEE_ALSO_HEADING)"
-          },
-          {
-            "lineNumber": 492,
-            "text": "            body = strip_section(body, MOC_HEADING).rstrip() + \"\\n\""
-          },
-          {
-            "lineNumber": 493,
-            "text": "            body = inline_link(body, targets)"
-          },
-          {
-            "lineNumber": 494,
-            "text": "            body = ensure_min_body_links("
-          },
-          {
-            "lineNumber": 495,
-            "text": "                body,"
-          },
-          {
-            "lineNumber": 496,
-            "text": "                note[\"stem\"],"
-          },
-          {
-            "lineNumber": 497,
-            "text": "                note[\"title\"],"
-          },
-          {
-            "lineNumber": 498,
-            "text": "                note[\"tags\"],"
-          },
-          {
-            "lineNumber": 499,
-            "text": "                catalog,"
-          },
-          {
-            "lineNumber": 500,
-            "text": "                link_map,"
-          },
-          {
-            "lineNumber": 501,
-            "text": "            )"
-          },
-          {
-            "lineNumber": 502
-          },
-          {
-            "lineNumber": 503,
-            "text": "            related = related_notes(note[\"stem\"], note[\"title\"], note[\"tags\"], catalog)"
-          },
-          {
-            "lineNumber": 504,
-            "text": "            for rel in related:"
-          },
-          {
-            "lineNumber": 505,
-            "text": "                rel[\"_shared\"] = sorted(set(note[\"tags\"]) \u0026 set(rel[\"tags\"]))"
-          },
-          {
-            "lineNumber": 506,
-            "text": "            linked = existing_wikilinks(body)"
-          },
-          {
-            "lineNumber": 507,
-            "text": "            see_also = build_see_also("
-          },
-          {
-            "lineNumber": 508,
-            "text": "                related,"
-          },
-          {
-            "lineNumber": 509,
-            "text": "                linked,"
-          },
-          {
-            "lineNumber": 510,
-            "text": "                note[\"stem\"],"
-          },
-          {
-            "lineNumber": 511,
-            "text": "                note[\"title\"],"
-          },
-          {
-            "lineNumber": 512,
-            "text": "                catalog,"
-          },
-          {
-            "lineNumber": 513,
-            "text": "                link_map,"
-          },
-          {
-            "lineNumber": 514,
-            "text": "                body,"
-          },
-          {
-            "lineNumber": 515,
-            "text": "            )"
-          },
-          {
-            "lineNumber": 516,
-            "text": "            if see_also:"
-          },
-          {
-            "lineNumber": 517,
-            "text": "                body = body.rstrip() + \"\\n\\n\" + see_also"
-          },
-          {
-            "lineNumber": 518
-          },
-          {
-            "lineNumber": 519,
-            "text": "        fm = f\"---\\n{inner}\\n---\\n\\n\""
-          },
-          {
-            "lineNumber": 520,
-            "text": "        note[\"path\"].write_text(fm + body, encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 521,
-            "text": "        updated += 1"
-          },
-          {
-            "lineNumber": 522,
-            "text": "        print(f\"updated: {note['path'].name}\")"
-          },
-          {
-            "lineNumber": 523
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 524,
-            "text": "    print(f\"\\nDone: {updated} notes wired for wikilinks, aliases, and See also sections.\")"
-          },
-          {
-            "lineNumber": 525
-          },
-          {
-            "lineNumber": 526
-          },
-          {
-            "lineNumber": 527,
-            "text": "if __name__ == \"__main__\":"
-          },
-          {
-            "lineNumber": 528,
-            "text": "    main()"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 10,
-            "line": 527
-          },
-          "startPosition": {
-            "line": 458
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 460
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 459
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.2955426573753357
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 423,
-            "text": "def load_catalog() -\u003e list[dict]:"
-          },
-          {
-            "lineNumber": 424,
-            "text": "    catalog: list[dict] = []"
-          },
-          {
-            "lineNumber": 425,
-            "text": "    for path in sorted(NOTES_DIR.glob(\"*.md\")):"
-          },
-          {
-            "lineNumber": 426,
-            "text": "        if path.name in SKIP_FILES:"
-          },
-          {
-            "lineNumber": 427,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 428,
-            "text": "        text = path.read_text(encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 429,
-            "text": "        _, inner, body = split_frontmatter(text)"
-          },
-          {
-            "lineNumber": 430,
-            "text": "        title = parse_scalar(inner, \"title\")"
-          },
-          {
-            "lineNumber": 431,
-            "text": "        slug = parse_scalar(inner, \"slug\") or path.stem"
-          },
-          {
-            "lineNumber": 432,
-            "text": "        tags = parse_yaml_list(inner, \"tags\")"
-          },
-          {
-            "lineNumber": 433,
-            "text": "        aliases = parse_yaml_list(inner, \"aliases\")"
-          },
-          {
-            "lineNumber": 434,
-            "text": "        layout = parse_scalar(inner, \"layout\")"
-          },
-          {
-            "lineNumber": 435,
-            "text": "        note_kind = parse_scalar(inner, \"note_kind\") or \"note\""
-          },
-          {
-            "lineNumber": 436,
-            "text": "        catalog.append("
-          },
-          {
-            "lineNumber": 437,
-            "text": "            {"
-          },
-          {
-            "lineNumber": 438,
-            "text": "                \"path\": path,"
-          },
-          {
-            "lineNumber": 439,
-            "text": "                \"stem\": path.stem,"
-          },
-          {
-            "lineNumber": 440,
-            "text": "                \"title\": title,"
-          },
-          {
-            "lineNumber": 441,
-            "text": "                \"slug\": slug,"
-          },
-          {
-            "lineNumber": 442,
-            "text": "                \"tags\": tags,"
-          },
-          {
-            "lineNumber": 443,
-            "text": "                \"aliases\": aliases,"
-          },
-          {
-            "lineNumber": 444,
-            "text": "                \"layout\": layout,"
-          },
-          {
-            "lineNumber": 445,
-            "text": "                \"note_kind\": note_kind,"
-          },
-          {
-            "lineNumber": 446,
-            "text": "                \"body\": body,"
-          },
-          {
-            "lineNumber": 447,
-            "text": "                \"inner\": inner,"
-          },
-          {
-            "lineNumber": 448,
-            "text": "            }"
-          },
-          {
-            "lineNumber": 449,
-            "text": "        )"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 450,
-            "text": "    return catalog"
-          },
-          {
-            "lineNumber": 451
-          },
-          {
-            "lineNumber": 452
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 453,
-            "text": "def is_linkable(note: dict) -\u003e bool:"
-          },
-          {
-            "lineNumber": 454,
-            "text": "    if note.get(\"layout\") == \"graph\":"
-          },
-          {
-            "lineNumber": 455,
-            "text": "        return False"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 456,
-            "text": "    return True"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 15,
-            "line": 455
-          },
-          "startPosition": {
-            "column": 31,
-            "line": 419
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {}
-      },
-      "score": 0.29469454288482666
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 69,
-            "text": "{{- range $links -}}"
-          },
-          {
-            "lineNumber": 70,
-            "text": "  {{- $full := . -}}"
-          },
-          {
-            "lineNumber": 71,
-            "text": "  {{- if index $seen $full -}}"
-          },
-          {
-            "lineNumber": 72,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 73,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 74,
-            "text": "  {{- $seen = merge $seen (dict $full true) -}}"
-          },
-          {
-            "lineNumber": 75
-          },
-          {
-            "lineNumber": 76,
-            "text": "  {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" $full -}}"
-          },
-          {
-            "lineNumber": 77,
-            "text": "  {{- $left := $inner -}}"
-          },
-          {
-            "lineNumber": 78,
-            "text": "  {{- $label := \"\" -}}"
-          },
-          {
-            "lineNumber": 79,
-            "text": "  {{- if strings.Contains $inner \"|\" -}}"
-          },
-          {
-            "lineNumber": 80,
-            "text": "    {{- $pipeParts := split $inner \"|\" -}}"
-          },
-          {
-            "lineNumber": 81,
-            "text": "    {{- $left = index $pipeParts 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 82,
-            "text": "    {{- $label = index $pipeParts 1 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 83,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 84,
-            "text": "  {{- $target := $left -}}"
-          },
-          {
-            "lineNumber": 85,
-            "text": "  {{- $anchor := \"\" -}}"
-          },
-          {
-            "lineNumber": 86,
-            "text": "  {{- if strings.Contains $left \"#\" -}}"
-          },
-          {
-            "lineNumber": 87,
-            "text": "    {{- $hashParts := split $left \"#\" -}}"
-          },
-          {
-            "lineNumber": 88,
-            "text": "    {{- $target = index $hashParts 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 89,
-            "text": "    {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 90,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 91
-          },
-          {
-            "lineNumber": 92,
-            "text": "  {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $target) -}}"
-          },
-          {
-            "lineNumber": 93,
-            "text": "  {{- with $resolved.Page -}}"
-          },
-          {
-            "lineNumber": 94,
-            "text": "    {{- $href := .RelPermalink -}}"
-          },
-          {
-            "lineNumber": 95,
-            "text": "    {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 96,
-            "text": "      {{- $href = printf \"%s#%s\" $href $anchor -}}"
-          },
-          {
-            "lineNumber": 97,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 98,
-            "text": "    {{- $text := $label -}}"
-          },
-          {
-            "lineNumber": 99,
-            "text": "    {{- if not $text -}}"
-          },
-          {
-            "lineNumber": 100,
-            "text": "      {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 101,
-            "text": "        {{- $text = $anchor -}}"
-          },
-          {
-            "lineNumber": 102,
-            "text": "      {{- else -}}"
-          },
-          {
-            "lineNumber": 103,
-            "text": "        {{- $text = $target -}}"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 105,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 106,
-            "text": "    {{- $link := printf &#96;\u003ca href=\"%s\" class=\"%s\" data-wikilink-preview=\"%s\"\u003e%s\u003c/a\u003e&#96; $href $class .RelPermalink $text -}}"
-          },
-          {
-            "lineNumber": 107,
-            "text": "    {{- $content = replace $content $full $link -}}"
-          },
-          {
-            "lineNumber": 108,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 109,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 110
-          },
-          {
-            "lineNumber": 111,
-            "text": "{{- /* Unresolved wikilinks */ -}}"
-          },
-          {
-            "lineNumber": 112,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"No matching note for this wikilink\"\u003e$1\u003c/span\u003e&#96; $class) $content -}}"
-          },
-          {
-            "lineNumber": 113
-          },
-          {
-            "lineNumber": 114,
-            "text": "{{- range $protected -}}"
-          },
-          {
-            "lineNumber": 115,
-            "text": "  {{- $content = replace $content .token .block -}}"
-          },
-          {
-            "lineNumber": 116,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 117
-          },
-          {
-            "lineNumber": 118,
-            "text": "{{- $content | safeHTML -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 118
-          },
-          "startPosition": {
-            "line": 68
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
-        "signatures": {}
-      },
-      "score": 0.29457759857177734
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 327,
-            "text": "def build_moc_body(catalog: list[dict]) -\u003e str:"
-          },
-          {
-            "lineNumber": 387
-          },
-          {
-            "lineNumber": 388,
-            "text": "    lines = ["
-          },
-          {
-            "lineNumber": 389,
-            "text": "        \"**Maps of Content (MOCs)** are hub notes that index related ideas. Use this page to wander the garden.\","
-          },
-          {
-            "lineNumber": 390,
-            "text": "        \"\","
-          },
-          {
-            "lineNumber": 391,
-            "text": "        MOC_HEADING,"
-          },
-          {
-            "lineNumber": 392,
-            "text": "        \"\","
-          },
-          {
-            "lineNumber": 393,
-            "text": "    ]"
-          },
-          {
-            "lineNumber": 394,
-            "text": "    for cluster, stems in clusters.items():"
-          },
-          {
-            "lineNumber": 395,
-            "text": "        lines.append(f\"### {cluster}\")"
-          },
-          {
-            "lineNumber": 396,
-            "text": "        lines.append(\"\")"
-          },
-          {
-            "lineNumber": 397,
-            "text": "        for stem in stems:"
-          },
-          {
-            "lineNumber": 398,
-            "text": "            note = by_stem.get(stem)"
-          },
-          {
-            "lineNumber": 399,
-            "text": "            if note:"
-          },
-          {
-            "lineNumber": 400,
-            "text": "                lines.append(f\"- [[{note['title']}]]\")"
-          },
-          {
-            "lineNumber": 401,
-            "text": "        lines.append(\"\")"
-          },
-          {
-            "lineNumber": 402
-          },
-          {
-            "lineNumber": 403,
-            "text": "    lines.extend("
-          },
-          {
-            "lineNumber": 404,
-            "text": "        ["
-          },
-          {
-            "lineNumber": 405,
-            "text": "            SEE_ALSO_HEADING,"
-          },
-          {
-            "lineNumber": 406,
-            "text": "            \"\","
-          },
-          {
-            "lineNumber": 407,
-            "text": "            \"- [[Getting Started]]\","
-          },
-          {
-            "lineNumber": 408,
-            "text": "            \"- [[PKM]]\","
-          },
-          {
-            "lineNumber": 409,
-            "text": "            \"- [[Building a Second Brain]]\","
-          },
-          {
-            "lineNumber": 410,
-            "text": "            \"\","
-          },
-          {
-            "lineNumber": 411,
-            "text": "        ]"
-          },
-          {
-            "lineNumber": 412,
-            "text": "    )"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 413,
-            "text": "    return \"\\n\".join(lines)"
-          },
-          {
-            "lineNumber": 414
-          },
-          {
-            "lineNumber": 415
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 416,
-            "text": "def update_frontmatter_aliases(inner: str, aliases: list[str]) -\u003e str:"
-          },
-          {
-            "lineNumber": 417,
-            "text": "    block = yaml_list(aliases)"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 419
-          },
-          "startPosition": {
-            "line": 326
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 328
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 327
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.29246750473976135
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 327,
-            "text": "def build_moc_body(catalog: list[dict]) -\u003e str:"
-          },
-          {
-            "lineNumber": 328,
-            "text": "    clusters: dict[str, list[str]] = {"
-          },
-          {
-            "lineNumber": 329,
-            "text": "        \"Foundations\": ["
-          },
-          {
-            "lineNumber": 330,
-            "text": "            \"pkm\","
-          },
-          {
-            "lineNumber": 331,
-            "text": "            \"building-a-second-brain\","
-          },
-          {
-            "lineNumber": 332,
-            "text": "            \"atomic-notes\","
-          },
-          {
-            "lineNumber": 333,
-            "text": "            \"maps-of-content\","
-          },
-          {
-            "lineNumber": 334,
-            "text": "            \"getting-started\","
-          },
-          {
-            "lineNumber": 335,
-            "text": "        ],"
-          },
-          {
-            "lineNumber": 336,
-            "text": "        \"Capture\": ["
-          },
-          {
-            "lineNumber": 337,
-            "text": "            \"capture\","
-          },
-          {
-            "lineNumber": 338,
-            "text": "            \"context-aware-capture\","
-          },
-          {
-            "lineNumber": 339,
-            "text": "            \"analog-capture-tools\","
-          },
-          {
-            "lineNumber": 340,
-            "text": "            \"mobile-capture-workflows\","
-          },
-          {
-            "lineNumber": 341,
-            "text": "            \"the-trusted-inbox\","
-          },
-          {
-            "lineNumber": 342,
-            "text": "            \"newsletter-filtering\","
-          },
-          {
-            "lineNumber": 343,
-            "text": "            \"signal-vs-noise\","
-          },
-          {
-            "lineNumber": 344,
-            "text": "        ],"
-          },
-          {
-            "lineNumber": 345,
-            "text": "        \"Organize\": ["
-          },
-          {
-            "lineNumber": 346,
-            "text": "            \"para-method\","
-          },
-          {
-            "lineNumber": 347,
-            "text": "            \"gtd-vs-para\","
-          },
-          {
-            "lineNumber": 348,
-            "text": "            \"organization\","
-          },
-          {
-            "lineNumber": 349,
-            "text": "            \"the-archive-method\","
-          },
-          {
-            "lineNumber": 350,
-            "text": "            \"metadata-strategy\","
-          },
-          {
-            "lineNumber": 351,
-            "text": "            \"daily-notes\","
-          },
-          {
-            "lineNumber": 352,
-            "text": "        ],"
-          },
-          {
-            "lineNumber": 353,
-            "text": "        \"Distill \u0026 review\": ["
-          },
-          {
-            "lineNumber": 354,
-            "text": "            \"progressive-summarization\","
-          },
-          {
-            "lineNumber": 355,
-            "text": "            \"weekly-review-checklists\","
-          },
-          {
-            "lineNumber": 356,
-            "text": "            \"periodic-knowledge-review\","
-          },
-          {
-            "lineNumber": 357,
-            "text": "            \"evergreen-notes\","
-          },
-          {
-            "lineNumber": 358,
-            "text": "            \"evergreen-vs-fleeting-notes\","
-          },
-          {
-            "lineNumber": 359,
-            "text": "            \"serendipitous-resurfacing\","
-          },
-          {
-            "lineNumber": 360,
-            "text": "        ],"
-          },
-          {
-            "lineNumber": 361,
-            "text": "        \"Connect \u0026 explore\": ["
-          },
-          {
-            "lineNumber": 362,
-            "text": "            \"associative-linking\","
-          },
-          {
-            "lineNumber": 363,
-            "text": "            \"the-power-of-interconnectivity\","
-          },
-          {
-            "lineNumber": 364,
-            "text": "            \"graph-view-analytics\","
-          },
-          {
-            "lineNumber": 365,
-            "text": "            \"digital-serendipity\","
-          },
-          {
-            "lineNumber": 366,
-            "text": "            \"mind-mapping\","
-          },
-          {
-            "lineNumber": 367,
-            "text": "            \"visual-thinking\","
-          },
-          {
-            "lineNumber": 368,
-            "text": "        ],"
-          },
-          {
-            "lineNumber": 369,
-            "text": "        \"Express\": ["
-          },
-          {
-            "lineNumber": 370,
-            "text": "            \"creative-output\","
-          },
-          {
-            "lineNumber": 371,
-            "text": "            \"distraction-free-writing\","
-          },
-          {
-            "lineNumber": 372,
-            "text": "            \"drafting-in-public\","
-          },
-          {
-            "lineNumber": 373,
-            "text": "            \"from-note-to-book\","
-          },
-          {
-            "lineNumber": 374,
-            "text": "            \"synthesis-as-a-goal\","
-          },
-          {
-            "lineNumber": 375,
-            "text": "            \"creative-blocks\","
-          },
-          {
-            "lineNumber": 376,
-            "text": "        ],"
-          },
-          {
-            "lineNumber": 377,
-            "text": "        \"Systems \u0026 tools\": ["
-          },
-          {
-            "lineNumber": 378,
-            "text": "            \"digital-garden\","
-          },
-          {
-            "lineNumber": 379,
-            "text": "            \"advantages-of-digital-gardens\","
-          },
-          {
-            "lineNumber": 380,
-            "text": "            \"local-first-software\","
-          },
-          {
-            "lineNumber": 381,
-            "text": "            \"future-proofing-knowledge\","
-          },
-          {
-            "lineNumber": 382,
-            "text": "            \"privacy-and-data-sovereignty\","
-          },
-          {
-            "lineNumber": 383,
-            "text": "            \"e2ee-security\","
-          },
-          {
-            "lineNumber": 384,
-            "text": "        ],"
-          },
-          {
-            "lineNumber": 385,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 386
-          },
-          {
-            "lineNumber": 387,
-            "text": "    by_stem = {note[\"stem\"]: note for note in catalog}"
-          },
-          {
-            "lineNumber": 388,
-            "text": "    lines = ["
-          },
-          {
-            "lineNumber": 389,
-            "text": "        \"**Maps of Content (MOCs)** are hub notes that index related ideas. Use this page to wander the garden."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 412
-          },
-          "startPosition": {
-            "column": 34,
-            "line": 323
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {}
-      },
-      "score": 0.2902252674102783
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Notes\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Notes\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"My linked note garden - wikilinks, backlinks, and a graph view of connected ideas.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"notes\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: 2026-06-18T08:00:00Z"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: [\"Notes\", \"Meta\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "---"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "A personal note garden of **atomic notes** - one claim per page, linked with &#96;[[wikilinks]]&#96;. Start at [[Getting Started]] or [[Maps of Content]]."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 15
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/_index.md",
-        "signatures": {}
-      },
-      "score": 0.2881490886211395
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/*"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Unified TOC + on-page anchor handling."
-          },
-          {
-            "lineNumber": 3,
-            "text": " *"
-          },
-          {
-            "lineNumber": 4,
-            "text": " * Responsibilities (previously split across this file and an inline \u003cscript\u003e"
-          },
-          {
-            "lineNumber": 5,
-            "text": " * in themes/jorap/layouts/blog/single.html):"
-          },
-          {
-            "lineNumber": 6,
-            "text": " *   1. Smooth-scroll for in-page &#96;#anchor&#96; links, offset by the sticky header."
-          },
-          {
-            "lineNumber": 7,
-            "text": " *   2. Mobile TOC collapse/expand toggle on blog posts."
-          },
-          {
-            "lineNumber": 8,
-            "text": " *   3. Scroll-spy: bold the TOC entry whose heading is currently in view."
-          },
-          {
-            "lineNumber": 9,
-            "text": " *"
-          },
-          {
-            "lineNumber": 10,
-            "text": " * Header height is read from the &#96;--header-offset&#96; CSS custom property"
-          },
-          {
-            "lineNumber": 11,
-            "text": " * (see themes/jorap/assets/css/base.css) so there is one source of truth."
-          },
-          {
-            "lineNumber": 12,
-            "text": " */"
-          },
-          {
-            "lineNumber": 13,
-            "text": "(function () {"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  \"use strict\";"
-          },
-          {
-            "lineNumber": 15
-          },
-          {
-            "lineNumber": 16,
-            "text": "  const getHeaderOffset = () =\u003e {"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    const raw = getComputedStyle(document.documentElement)"
-          },
-          {
-            "lineNumber": 18,
-            "text": "      .getPropertyValue(\"--header-offset\")"
-          },
-          {
-            "lineNumber": 19,
-            "text": "      .trim();"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    const parsed = parseInt(raw, 10);"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    return Number.isFinite(parsed) ? parsed : 100;"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  };"
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "  const scrollToElement = (el) =\u003e {"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    if (!el) return;"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    window.scrollTo({"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      top: el.getBoundingClientRect().top + window.scrollY - getHeaderOffset(),"
-          },
-          {
-            "lineNumber": 28,
-            "text": "      behavior: \"smooth\","
-          },
-          {
-            "lineNumber": 29,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  };"
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "  const initAnchorLinks = () =\u003e {"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    const links = document.querySelectorAll('a[href^=\"#\"]:not([href=\"#\"])');"
-          },
-          {
-            "lineNumber": 34,
-            "text": "    links.forEach((link) =\u003e {"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      link.addEventListener(\"click\", (e) =\u003e {"
-          },
-          {
-            "lineNumber": 36,
-            "text": "        const id = link.getAttribute(\"href\").slice(1);"
-          },
-          {
-            "lineNumber": 37,
-            "text": "        const target = document.getElementById(id);"
-          },
-          {
-            "lineNumber": 38,
-            "text": "        if (!target) return;"
-          },
-          {
-            "lineNumber": 39,
-            "text": "        e.preventDefault();"
-          },
-          {
-            "lineNumber": 40,
-            "text": "        scrollToElement(target);"
-          },
-          {
-            "lineNumber": 41,
-            "text": "        if (history.pushState) {"
-          },
-          {
-            "lineNumber": 42,
-            "text": "          history.pushState(null, \"\", &#96;#${id}&#96;);"
-          },
-          {
-            "lineNumber": 43,
-            "text": "        } else {"
-          },
-          {
-            "lineNumber": 44,
-            "text": "          location.hash = &#96;#${id}&#96;;"
-          },
-          {
-            "lineNumber": 45,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 46,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 47,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 48,
-            "text": "  };"
-          },
-          {
-            "lineNumber": 49
-          },
-          {
-            "lineNumber": 50,
-            "text": "  const initMobileToc = () =\u003e {"
-          },
-          {
-            "lineNumber": 51,
-            "text": "    const toggle = document.getElementById;"
-          },
-          {
-            "lineNumber": 71,
-            "text": ";"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 136
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./assets/js/toc.js",
-        "signatures": {}
-      },
-      "score": 0.2855590581893921
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "#!/usr/bin/env python3"
-          },
-          {
-            "lineNumber": 2,
-            "text": "\"\"\"Rewrite note bodies to atomic form: one claim, short prose, wikilinks — no blog sections.\"\"\""
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4,
-            "text": "from __future__ import annotations"
-          },
-          {
-            "lineNumber": 5
-          },
-          {
-            "lineNumber": 6,
-            "text": "import re"
-          },
-          {
-            "lineNumber": 7,
-            "text": "from pathlib import Path"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "ROOT = Path(__file__).resolve().parents[1]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "NOTES_DIR = ROOT / \"content/english/notes\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "SKIP = {\"_index\", \"graph\", \"maps-of-content\", \"getting-started\", \"atomic-notes\"}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "SEE_ALSO = \"## See also\""
-          },
-          {
-            "lineNumber": 13
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 15,
-            "text": "def split_frontmatter(text: str) -\u003e tuple[str, str, str]:"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    if not text.startswith(\"---\"):"
-          },
-          {
-            "lineNumber": 17,
-            "text": "        return \"\", text, text"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    end = text.find(\"\\n---\", 3)"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    if end == -1:"
-          },
-          {
-            "lineNumber": 20,
-            "text": "        return \"\", text, text"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 21,
-            "text": "    return text[: end + 4], text[3:end].strip(), text[end + 4 :].lstrip(\"\\n\")"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 24,
-            "text": "def parse_scalar(block: str, key: str) -\u003e str:"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    match = re.search(rf'^{key}:\\s*\"?([^\"\\n]+)\"?', block, re.M)"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 25
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./scripts/atomize-notes.py",
-        "signatures": {}
-      },
-      "score": 0.27941280603408813
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Atomic Notes\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Atomic Notes - One Idea, One File\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"One idea per note I'd cite in conversation - not mini blog posts.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Atomic Notes\", \"Zettelkasten\", \"PKM\", \"Note Taking\", \"Second Brain\", \"Linking\", \"Information Architecture\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"atomic-notes\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "aliases: [\"atom\", \"Atomic Design for Notes\", \"Atomic Design\"]"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 14,
-            "text": "card_sets: [\"Writing\", \"Linking\"]"
-          },
-          {
-            "lineNumber": 15,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  - front: \"Draft mixes browser tips AND meeting notes in one file. Split into two notes, or keep as one?\""
-          },
-          {
-            "lineNumber": 17,
-            "text": "    back: \"Split — one claim per note.\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "  - front: \"Can't say the whole note in one breath without using 'and'. Split or keep?\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "    back: \"Split into atomic notes.\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "  - front: \"Three ideas under one heading in a single file. Three wikilinks, or one long file?\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "    back: \"Split — three wikilinks.\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "  - front: \"Note reads like a mini blog post with multiple sections. Trim or split?\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "    back: \"Split — one citable claim.\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "  - front: \"Tempted to organize with headings inside one file instead of links. What do I use?\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "    back: \"Wikilinks between notes.\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "  - front: \"Can't link to one idea buried in a kitchen-sink note. What's the fix?\""
-          },
-          {
-            "lineNumber": 27,
-            "text": "    back: \"Split it — not atomic yet.\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 29,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 30,
-            "text": "---"
-          },
-          {
-            "lineNumber": 31,
-            "text": "**Atomic notes** = one claim I'd say out loud - too many &#96;and&#96;s, split it."
-          },
-          {
-            "lineNumber": 32
-          },
-          {
-            "lineNumber": 33,
-            "text": "**Rule of thumb:** one thing I'd cite in conversation - \"why middle-click saves tab chaos\" is atomic; \"browser tips and meeting notes\" is not."
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "Small notes stack like Lego blocks - claim, how-to, example - linked, not merged. Link with &#96;[[wikilinks]]&#96;; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] — say one plain thing; let your yes be yes."
-          },
-          {
-            "lineNumber": 36
-          },
-          {
-            "lineNumber": 37,
-            "text": "Extends [[PKM]]. Contradicts [[Maps of Content]]."
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "## See also"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 40
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/atomic-notes.md",
-        "signatures": {}
-      },
-      "score": 0.2724156975746155
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 474,
-            "text": "def main() -\u003e None:"
-          },
-          {
-            "lineNumber": 562
-          },
-          {
-            "lineNumber": 563,
-            "text": "        elif stem == \"_index\":"
-          },
-          {
-            "lineNumber": 564,
-            "text": "            new_body = ("
-          },
-          {
-            "lineNumber": 565,
-            "text": "                \"A personal note garden of **atomic notes** - one claim per page, linked with &#96;[[wikilinks]]&#96;. \""
-          },
-          {
-            "lineNumber": 566,
-            "text": "                \"Start at [[Getting Started]] or [[Maps of Content]].\\n\""
-          },
-          {
-            "lineNumber": 567,
-            "text": "            )"
-          },
-          {
-            "lineNumber": 568,
-            "text": "            path.write_text(f\"{fm}\\n\\n{new_body}\", encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 569,
-            "text": "            updated += 1"
-          },
-          {
-            "lineNumber": 570,
-            "text": "            print(f\"voice: {path.name}\")"
-          },
-          {
-            "lineNumber": 571,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 572,
-            "text": "        else:"
-          },
-          {
-            "lineNumber": 573,
-            "text": "            print(f\"no lead mapping: {path.name}\")"
-          },
-          {
-            "lineNumber": 574,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 575
-          },
-          {
-            "lineNumber": 576,
-            "text": "        new_body = \"\\n\\n\".join(no_em_dash(p) for p in new_parts)"
-          },
-          {
-            "lineNumber": 577,
-            "text": "        fm_inner = update_description(fm_inner, stem)"
-          },
-          {
-            "lineNumber": 578,
-            "text": "        fm_block = f\"---\\n{fm_inner}\\n---\""
-          },
-          {
-            "lineNumber": 579,
-            "text": "        out = f\"{fm_block}\\n\\n{new_body}\\n\\n{no_em_dash(see_also)}\" if see_also else f\"{fm_block}\\n\\n{new_body}\\n\""
-          },
-          {
-            "lineNumber": 580,
-            "text": "        path.write_text(out, encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 581,
-            "text": "        updated += 1"
-          },
-          {
-            "lineNumber": 582,
-            "text": "        print(f\"voice: {path.name}\")"
-          },
-          {
-            "lineNumber": 583
-          },
-          {
-            "lineNumber": 584,
-            "text": "    # graph.md body"
-          },
-          {
-            "lineNumber": 585,
-            "text": "    graph = NOTES_DIR / \"graph.md\""
-          },
-          {
-            "lineNumber": 586,
-            "text": "    gtext = graph.read_text(encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 587,
-            "text": "    fm, fm_inner, body = split_frontmatter(gtext)"
-          },
-          {
-            "lineNumber": 588,
-            "text": "    if \"**Note graph**\" not in body:"
-          },
-          {
-            "lineNumber": 589,
-            "text": "        graph.write_text("
-          },
-          {
-            "lineNumber": 590,
-            "text": "            gtext.rstrip()"
-          },
-          {
-            "lineNumber": 591,
-            "text": "            + \"\\n\\n**Notes graph** = open the link map and filter by link frequency: high, low, no body links, orphans.\\n\","
-          },
-          {
-            "lineNumber": 592,
-            "text": "            encoding=\"utf-8\","
-          },
-          {
-            "lineNumber": 593,
-            "text": "        )"
-          },
-          {
-            "lineNumber": 594,
-            "text": "        print(\"voice: graph.md\")"
-          },
-          {
-            "lineNumber": 595
-          },
-          {
-            "lineNumber": 596,
-            "text": "    # Global em-dash pass on every note file"
-          },
-          {
-            "lineNumber": 597,
-            "text": "    dash_count = 0"
-          },
-          {
-            "lineNumber": 598,
-            "text": "    for path in sorted(NOTES_DIR.glob(\"*.md\")):"
-          },
-          {
-            "lineNumber": 599,
-            "text": "        raw = path.read_text(encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 600,
-            "text": "        fixed = no_em_dash(raw)"
-          },
-          {
-            "lineNumber": 601,
-            "text": "        if fixed != raw:"
-          },
-          {
-            "lineNumber": 602,
-            "text": "            path.write_text(fixed, encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 603,
-            "text": "            dash_count += 1"
-          },
-          {
-            "lineNumber": 604,
-            "text": "    if dash_count:"
-          },
-          {
-            "lineNumber": 605,
-            "text": "        print(f\"em-dash pass: {dash_count} files\")"
-          },
-          {
-            "lineNumber": 606
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 607,
-            "text": "    print(f\"\\nDone: {updated} notes updated.\")"
-          },
-          {
-            "lineNumber": 608
-          },
-          {
-            "lineNumber": 609
-          },
-          {
-            "lineNumber": 610,
-            "text": "if __name__ == \"__main__\":"
-          },
-          {
-            "lineNumber": 611,
-            "text": "    main()"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 10,
-            "line": 610
-          },
-          "startPosition": {
-            "line": 473
-          }
-        },
-        "relativeWorkspacePath": "./scripts/jorap-voice-notes.py",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 475
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 474
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.2709139585494995
-    }
-  ]
-}
+        "relativeWorkspacePath": "./layouts/_partials/notes/
+… (output truncated)
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The Hugo build now succeeds.</details></think>
+The Hugo build now succeeds.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7530,22 +2383,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
 
-Directory: **** (4 files)
+Directory: **``** (4 files)
 
 | File |
 |------|
@@ -7553,78 +2398,46 @@ Directory: **** (4 files)
 | `_vendor/github.com/gethugothemes/hugo-modules/components/render-link/layouts/_default/_markup/render-link.html` |
 | `themes/jorap/layouts/_markup/render-heading.html` |
 | `layouts/_partials/notes/render-content.html` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The pipe wikilink `[[Creative Output|shipping]]` on line 33 of `the-wise-builder.md` is causing the TOC template error.</details></think>
+The pipe wikilink `[[Creative Output|shipping]]` on line 33 of `the-wise-builder.md` is causing the TOC template error.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_markup/render-heading.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_markup/render-heading.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -7640,23 +2453,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Bug Report: Runtime panic (index out of range) in TOC generation with nested extension nodes · Issue #14677 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/14677)\n2. [Fix panic when passthrough elements are used in headings · 8b00030 · gohugoio/hugo](https://github.com/gohugoio/hugo/commit/8b00030b344d21635e5634698700f1d13145fead)\n3. [Strikethrough in markdown heading triggers runtime error · Issue #11783 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/11783)\n4. [Template fails at .Fragments.Headings - support - HUGO](https://discourse.gohugo.io/t/template-fails-at-fragments-headings/48963)\n5. [Fragments](https://gohugo.io/methods/page/fragments/)\n\nSynthesis:\nThe slice bounds out of range error during Hugo Table of Contents (TOC) generation is a known issue caused by Hugo's Goldmark TOC renderer failing to process certain nested Markdown extension nodes [1][2]. Specifically, using extensions like Passthrough (e.g., LaTeX $...$ delimiters) or Strikethrough within headings can trigger a panic because the TOC renderer does not recognize these node types during recursive traversal [1][3].\n\nTo resolve this, ensure you are using a recent version of Hugo (v0.159.1 or later includes specific fixes for passthrough nodes) [1][2]. If you encounter this on older versions, consider updating your Hugo binary or defensively wrapping your template code to ensure the Fragments object is not nil before access [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eBug Report: Runtime panic (index out of range) in TOC generation with nested extension nodes · Issue #14677 · gohugoio/hugo\u003c/title\u003e\n\u003curl\u003ehttps://github.com/gohugoio/hugo/issues/14677\u003c/url\u003e\n\u003ccontent\u003e## Bug Report: Runtime panic (index out of range) in TOC generation with nested extension nodes\n...\nHugo panics with &#96;runtime error: index out of range&#96; during site builds when calling &#96;.Summary&#96; or generating a Table of Contents (TOC) for pages that contain specific Markdown extension nodes (like LaTeX/Passthrough) nested inside standard nodes (like Emphasis) within a heading.\n...\nThe panic occurs in markup/goldmark/toc.go. Hugo's TOC renderer is a simplified Goldmark renderer that does not have all extensions registered. When it encounters an unknown node kind ID (e.g., from the Passthrough extension) while recursively rendering a heading's children, Goldmark's internal renderer attempts to access an out-of-bounds index in its renderer function slice.\n...\nThe build crashes with a panic:\n&#96;panic: runtime error: index out of range [41] with length 41&#96; (The index may vary depending on the extension's Kind ID).\n...\n&#96;&#96;&#96;toml\n[markup.goldmark.extensions.passthrough]\n  enable = true\n[markup.goldmark.extensions.passthrough.delimiters]\n  inline = [['$', '$']]\n&#96;&#96;&#96;\n...\n**QingGo** mentioned this in PR [#14678: fix: prevent TOC rendering panics in Goldmark by adding recovery](https://github.com/gohugoio/hugo/pull/14678) · Mar 27, 2026 at 10:28am\n...\nno layout file\n...\nfile which matches Hugo\n...\n\u003e Built in 13 ms\n\u003e ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of \"/\" failed: template: rss.xml:55:22: executing \"rss.xml\" at \u003c.Summary\u003e: error calling Summary: runtime error: index out of range [41] with length 41\n\u003e &#96;&#96;&#96;\n\u003e \n\u003e log after fix:\n\u003e \n\u003e &#96;&#96;&#96;\n\u003e (base) ➜ fix-hugo-error /Users/qinggo/code/hugo/hugo_fixed server\n...\n\u003e Watching for\n...\nin /Users/qinggo/code/fix-h\n...\n-error/\n...\n/qinggo/\n...\n/fix-h\n...\n-error/\n...\nfix-h\n...\n-error/\n...\n**xingzihai** mentioned this in PR [#14693: fix: prevent panic in TOC generation with passthrough nodes](https://github.com/gohugoio/hugo/pull/14693) · Mar 30, 2026 at 4:24am\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eFix panic when passthrough elements are used in headings · 8b00030 · gohugoio/hugo\u003c/title\u003e\n\u003curl\u003ehttps://github.com/gohugoio/hugo/commit/8b00030b344d21635e5634698700f1d13145fead\u003c/url\u003e\n\u003ccontent\u003e122\n...\ncfg.Extensions\n...\nsthroughRenderer{},\n...\n7 +1\n...\n.Document, reader text.Reader, pc parse\n \t\t\tast.KindAutoLink,\n \t\t\tast\n...\nKindRawHTML\n...\nast\n...\nKindText,\n-\t\t\tast.KindString:\n+\t\t\tast\n...\nKindString,\n+\t\t\tpassthrough.KindPassthroughInline,\n+\t\t\tpassthrough.KindPassthroughBlock:\n \t\t\terr := t.r.Render(\u0026headingText, reader.Source(), n)\n \t\t\tif err != nil {\n \t\t\t\treturn s, err\n...\n-171,\n...\n4,3\n...\ntocPassthroughRenderer\n...\nthe TOC.\n...\n+type tocPassthroughRenderer struct{}\n...\n+func (r *tocPassthroughRenderer) RegisterFuncs(reg renderer.NodeRendererFuncRegisterer) {\n+\treg.Register(passthrough.KindPassthroughInline, r.render)\n+\treg.Register(passthrough.KindPassthroughBlock, r.render)\n+}\n...\n+func (r *tocPassthroughRenderer) render(w util.BufWriter, src []byte, node ast.Node, entering bool) (ast.WalkStatus, error) {\n+\tif !entering {\n+\t\treturn ast.WalkContinue, nil\n+\t}\n...\n+\tswitch nn := node.(type) {\n+\tcase *passthrough.PassthroughInline:\n+\t\tw.Write(nn.Segment.Value(src))\n+\tcase *passthrough.PassthroughBlock:\n+\t\tfor i := range nn.Lines().Len() {\n+\t\t\tline := nn.Lines().At(i)\n+\t\t\tw.Write(line.Value(src))\n+\t\t}\n+\t}\n+\treturn ast.WalkSkipChildren, nil\n+}\n+\n var whiteSpaceRe = regexp.MustCompile(&#96;\\s+&#96;)\n \n // sanitizeTOCHeadingTitle sanitizes s for use as a TOC heading title.\n...\n+// Issue 14677\n+func TestTableOfContentsWithPassthrough(t *testing.T) {\n+\tt.Parallel()\n+\n+\tfiles := &#96;\n...\n+[markup.goldmark.extensions.passthrough]\n+  enable = true\n...\n+[markup.goldmark.extensions.passthrough.delimiters]\n+  inline = [['$', '$']]\n...\n+## Heading with **$a$**\n+\n...\n+## Heading with $b$\n+\n+## Heading with *$x + y$*\n+\n...\n+-- layouts/home.html --\n+{{ .TableOfContents }}\n+&#96;\n+\n+\tb := hugolib.Test(t, files)\n+\n+\tb.AssertFileContent(\"public/index.html\",\n+\t\t&#96;\u003cli\u003e\u003ca href=\"#heading-with\"\u003eHeading with \u003cstrong\u003e$a$\u003c/strong\u003e\u003c/a\u003e\u003c/li\u003e&#96;,\n+\t\t&#96;\u003cli\u003e\u003ca href=\"#heading-with-1\"\u003eHeading with $b$\u003c/a\u003e\u003c/li\u003e&#96;,\n+\t\t&#96;\u003cli\u003e\u003ca href=\"#heading-with-2\"\u003eHeading with \u003cem\u003e$x + y$\u003c/em\u003e\u003c/a\u003e\u003c/li\u003e&#96;,\n+\t)\n+}\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eStrikethrough in markdown heading triggers runtime error · Issue #11783 · gohugoio/hugo\u003c/title\u003e\n\u003curl\u003ehttps://github.com/gohugoio/hugo/issues/11783\u003c/url\u003e\n\u003ccontent\u003e## Strikethrough in markdown heading triggers runtime error\n...\n&#96;&#96;&#96;\nError: error building site: render: failed to render pages: render of \"term\" failed: template: _internal/_default/rss.xml:67:22: executing \"_internal/_default/rss.xml\" at \u003c.Summary\u003e: error calling Summary: runtime error: index out of range [32] with length 20\n&#96;&#96;&#96;\n...\nwhen these two conditions are true:\n\n- ~~table of contents (TOC) is generated or taxonomies are configured~~\n- Markdown page contains a certain combination of ~~strike-through~~ markup\n...\n**lyind** mentioned this in PR [#11784: markup/goldmark: Render strikethrough and emojis in TOC entries](https://github.com/gohugoio/hugo/pull/11784) · Dec 5, 2023 at 11:56pm\n...\n\u003e Whether you've configured taxonomies or are rendering a TOC is irrelevant.\n\u003e \n\u003e Simplest way to reproduce... put this in any markdown file:\n\u003e \n\u003e &#96;&#96;&#96;\n\u003e # [~~a~~](b)\n\u003e &#96;&#96;&#96;\n\u003e \n\u003e It seems like the example above is unlikely to occur in the field, which is probably why this error hasn't shown up before. This isn't anything new. I can reproduce with v0.65.3 and later.\n\u003e \n\u003e This is not an upstream issue. Goldmark 1.6.0 handles this as expected, without error:\n\u003e \n\u003e &#96;&#96;&#96;go\n\u003e func main() {\n\u003e md := goldmark.New(\n\u003e goldmark.WithExtensions(\n\u003e extension.Strikethrough,\n\u003e ),\n\u003e )\n\u003e \n\u003e input := &#96;\n\u003e # [~~a~~](b)\n\u003e &#96;\n\u003e \n\u003e var buf bytes.Buffer\n\u003e if err := md.Convert([]byte(input), \u0026buf); err != nil {\n\u003e panic(err)\n\u003e }\n\u003e \n\u003e fmt.Println(buf.String())\n\u003e \n\u003e }\n\u003e &#96;&#96;&#96;\n\u003e \n\u003e These examples do _not_ trigger the error:\n\u003e \n\u003e &#96;&#96;&#96;\n\u003e # [Image: ~~a~~ | b]\n\u003e # ~~a~~\n\u003e # [a](b \"~~c~~\")\n\u003e &#96;&#96;&#96;\n...\ngoldmark.\n...\n,\n\u003e\n...\n),\n\u003e\n...\n\u003e \u003e if err :=\n...\n\u003e I think the problem is that &#96;toc.go&#96; insufficiently accounts for child nodes.\n\u003e \n\u003e Still, I'd love to fix this issue in a forward oriented way (addressing all the linked issues) and without adding more complex logic to &#96;toc.go&#96; than necessary.\n\u003e \n\u003e I didn't fully test the effect on the rendered TOC, yet.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eTemplate fails at .Fragments.Headings - support - HUGO\u003c/title\u003e\n\u003curl\u003ehttps://discourse.gohugo.io/t/template-fails-at-fragments-headings/48963\u003c/url\u003e\n\u003ccontent\u003eof template failed\n...\n&#96;.Fragments&#96; is&#96;nil&#96; when TOC is disabled (hence the error):\n...\n&#96;.Fragments&#96; is not&#96;nil&#96; when TOC is disabled:\n...\n&#96;&#96;&#96;\n{\n  \"Headings\": [],\n  \"Identifiers\": null,\n  \"HeadingsMap\": {}\n}\n...\n&#96;&#96;&#96;\n{{ with .Fragments }}\n  \u003cpre\u003e{{ .Headings | jsonify (dict \"indent\" \" \") }}\u003c/pre\u003e\n{{ end }}\n\n&#96;&#96;&#96;\n...\nYou’re welcome. One other thing to note: when using .Fragments with AsciiDoc content the&#96;Level&#96; will always be zero.\n...\nThat’s right, thanks for mentioning that. This is how I solved, just in case anybody stumbles upon this. Most likely there are better ways to overcome that limitation, but this worked well for my needs so far.\n...\n&#96;&#96;&#96;\n{{- with .Fragments -}}\n    \u003cnav\u003e\n      \u003cdiv\u003e\n        {{- with . -}}\n          \u003cdiv class=\"toc-title\"\u003eContents\u003c/div\u003e\n          {{- range .Headings -}}\n            \u003cul class=\"toc\"\u003e\n              {{- with .Headings -}}{{ template \"toc-subheading\" (dict \"headings\" . \"level\" 0) }}{{- end -}}\n            \u003c/ul\u003e\n          {{- end -}}\n        {{- end -}}\n      \u003c/div\u003e\n    \u003c/nav\u003e\n{{ end -}}\n...\n{{- define \"toc-subheading\" -}}\n  {{- $headings := .headings -}}\n  {{- $level := .level -}}\n  {{- $padding := (mul $level 4) -}}\n  {{- $class := cond (gt $level 0) (printf \"padding-left-%d\" (add $padding 2) ) \"padding-left-3\" -}}\n  {{- range $headings }}\n    {{- if .Title }}\n      \u003cli class=\"toc-item\"\u003e\n        \u003ca class=\"toc-item-link {{ $class }}\" href=\"#{{ anchorize .ID }}\"\u003e\n          {{- .Title | safeHTML | plainify | htmlUnescape -}}\n        \u003c/a\u003e\n      \u003c/li\u003e\n    {{- end -}}\n    {{- with .Headings -}}\n      {{ template \"toc-subheading\" (dict \"headings\" . \"level\" (add $level 1)) }}\n    {{- end -}}\n  {{- end -}}\n...\nhttps://github.com/gohugoio/hugo/issues/12291 This (the level 0 problem) will be fixed shortly.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eFragments\u003c/title\u003e\n\u003curl\u003ehttps://gohugo.io/methods/page/fragments/\u003c/url\u003e\n\u003ccontent\u003e&#96;Headings&#96;(&#96;slice&#96;) A slice of maps of all headings on the page, with first-level keys for each heading. Each map contains the following keys:&#96;ID&#96;,&#96;Level&#96;,&#96;Title&#96; and&#96;Headings&#96;. To inspect the data structure:\n...\n&#96;&#96;&#96;\n\u003cpre\u003e{{ debug.Dump .Fragments.Headings }}\u003c/pre\u003e\n...\n&#96;HeadingsMap&#96;(&#96;map&#96;) A nested map of\n...\nmap contains the\n...\nkeys:&#96;ID\n...\n&#96; and&#96;Headings&#96;. To inspect the data structure:\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Bug Report: Runtime panic (index out of range) in TOC generation with nested extension nodes · Issue #14677 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/14677)\n2. [Fix panic when passthrough elements are used in headings · 8b00030 · gohugoio/hugo](https://github.com/gohugoio/hugo/commit/8b00030b344d21635e5634698700f1d13145fead)\n3. [Strikethrough in markdown heading triggers runtime error · Issue #11783 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/11783)\n4. [Template fails at .Fragments.Headings - support - HUGO](https://discourse.gohugo.io/t/template-fails-at-fragments-headings/48963)\n5. [Fragments](https://gohugo.io/methods/page/fragments/)\n\nSynthesis:\nThe slice bounds out of range error during Hugo Table of Contents (TOC) generation is a known issue caused by Hugo's Goldmark TOC renderer failing to process certain nested Markdown extension nodes [1][2]. Specifically, using extensions like Passthrough (e.g., LaTeX $...$ delimiters) or Strikethrough within headings can trigger a panic because the TOC renderer does not recognize these node types during recursive traversal [1][3].\n\nTo resolve this, ensure you are using a recent version of Hugo (v0.159.1 or later includes specific fixes for passthrough nodes) [1][2]. If you encounter this on older versions, consider updating your Hugo binary or defensively wrapping your template code to ensure the Fragments object is not nil before access [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eBug Report: Runtime panic (index out of range) in TOC generation with nested extension nodes · Issue #14677 · gohugoio/hugo\u003c/title\u003e\n\u003curl\u003ehttps://github.com/gohugoio/hugo/issues/14677\u003c/url\u003e\n\u003ccontent\u003e## Bug Report: Runtime panic (index out of range) in TOC generation with nested extension nodes\n...\nHugo panics with `runtime error: index out of range` during site builds when
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -7681,14 +2483,13 @@ Writing the replacement template now. It reads `.RawContent`, strips the trailin
 
 Inside the line loop, each heading is extracted with regex, its level is measured, and its title is cleaned by stripping wikilinks, emphasis, and markdown formatting before generating an anchor ID. Valid headings are appended to a slice, and the loop ends. The template then initializes an empty HTML string to build the table of contents.
 
-The template now builds the navigation list by looping over collected headings, wrapping items in ordered or unordered tags, and returning the HTML with a presence flag. Nested headings are unnecessary for these notes, since most atomic pages only contain top-level headings.</details></think>
+The template now builds the navigation list by looping over collected headings, wrapping items in ordered or unordered tags, and returning the HTML with a presence flag. Nested headings are unnecessary for these notes, since most atomic pages only contain top-level headings.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7718,38 +2519,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
 
 </details></tool-use>
 
@@ -7762,14 +2544,13 @@ A recursive template approach could build nested TOC from a flat heading list us
 
 Drafting a flat-heading loop with level comparisons and nested `<ol>` tags in Hugo. This is too complex. Passing a nested dictionary from raw parsing would be simpler. A scratch-pad partial is too involved.
 
-Flat CSS padding is simpler than nested lists but may not match existing styles. The better approach is a stack-based algorithm to build a nested dictionary tree directly in Hugo.</details></think>
+Flat CSS padding is simpler than nested lists but may not match existing styles. The better approach is a stack-based algorithm to build a nested dictionary tree directly in Hugo.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7815,13 +2596,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -7833,7 +2607,8 @@ A new `toc-from-raw.html` partial will parse raw content, strip the "See also" s
 
 The loop opens `<ol>` tags when descending deeper into headings and closes `</li>` and `</ol>` when ascending back up. Markdown formatting will be stripped from the generated titles.
 
-Wikilinks, bold, italic, and custom anchor IDs will be stripped from titles. Anchor IDs will match Hugo's `anchorize` output. The existing `notes/toc.html` partial will be rewritten to parse raw content directly.</details></think>
+Wikilinks, bold, italic, and custom anchor IDs will be stripped from titles. Anchor IDs will match Hugo's `anchorize` output. The existing `notes/toc.html` partial will be rewritten to parse raw content directly.
+</details></think>
 
 _**Agent (default)**_
 
@@ -7842,31 +2617,15 @@ Replacing `.Fragments.Headings` with raw-markdown parsing — Hugo panics when p
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc-raw-nested.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc-raw-nested.html</summary>
 
 </details></tool-use>
 
@@ -7879,7 +2638,8 @@ A flat iterative approach looks more robust. One partial would loop through head
 
 Indent-only nesting was rejected because maps-of-content requires true nesting. The plan is now to fix the existing nested partial with a recursive `toc-walk` function that walks headings by index and returns HTML plus the next index.
 
-The recursive partial approach is being abandoned. Returning dictionaries from partials is unreliable in older Hugo versions. Using `.TableOfContents` would likely trigger the same panic. The chosen fix is a flat list with CSS padding instead of nested `<ol>` tags.</details></think>
+The recursive partial approach is being abandoned. Returning dictionaries from partials is unreliable in older Hugo versions. Using `.TableOfContents` would likely trigger the same panic. The chosen fix is a flat list with CSS padding instead of nested `<ol>` tags.
+</details></think>
 
 _**Agent (default)**_
 
@@ -7888,27 +2648,12 @@ Simplifying the TOC approach — the nested partial was overcomplicated.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
@@ -7917,52 +2662,29 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -15 && for p in forgiveness love-god the-golden-rule the-wise-builder maps-of-content; do curl -s -o /dev/null -w "$p: %{http_code}\n" "file://$(pwd)/public/notes/$p/index.html" 2>/dev/null || test -f "public/notes/$p/index.html" && echo "$p: built" || echo "$p: MISSING"; done</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -15 &amp;&amp; for p in forgiveness love-god the-golden-rule the-wise-builder maps-of-content; do curl -s -o /dev/null -w &#34;$p: %{http_code}\n&#34; &#34;file://$(pwd)/public/notes/$p/index.html&#34; 2&gt;/dev/null || test -f &#34;public/notes/$p/index.html&#34; &amp;&amp; echo &#34;$p: built&#34; || echo &#34;$p: MISSING&#34;; done</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -15 && for p in forgiveness love-god the-golden-rule the-wise-builder maps-of-content; do curl -s -o /dev/null -w "$p: %{http_code}\n" "file://$(pwd)/public/notes/$p/index.html" 2>/dev/null || test -f "public/notes/$p/index.html" && echo "$p: built" || echo "$p: MISSING"; done
 ```
@@ -7995,20 +2717,12 @@ maps-of-content: 000
 maps-of-content: built
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8034,21 +2748,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8074,21 +2779,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8114,26 +2810,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The page may correctly lack a table of contents.</details></think>
+The page may correctly lack a table of contents.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8164,21 +2852,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8204,21 +2883,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8249,21 +2919,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8289,13 +2950,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -8305,13 +2959,13 @@ The table of contents may be failing to render for map-of-content pages.
 
 Checking whether the heading regex matches correctly in Hugo templates. The TOC might be missing entirely if the regex fails to capture headings. A realization about the cause is emerging.
 
-The root cause is now clear. Hugo's `findRE` does not use multiline mode by default, so the `^` anchor only matches the start of the entire raw string rather than each individual line. This prevents the regex from capturing headings inside the content. The fix is to add the `(?m)` multiline flag to the pattern, or alternatively switch to splitting the raw text by newlines and trimming lines directly.</details></think>
+The root cause is now clear. Hugo's `findRE` does not use multiline mode by default, so the `^` anchor only matches the start of the entire raw string rather than each individual line. This prevents the regex from capturing headings inside the content. The fix is to add the `(?m)` multiline flag to the pattern, or alternatively switch to splitting the raw text by newlines and trimming lines directly.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo build --cleanDestinationDir 2>&1 | tail -5 && rg -o 'TableOfContents[^<]{0,200}' public/notes/maps-of-content/index.html | head -3 && rg -o 'TableOfContents[^<]{0,200}' public/notes/eternal-principles/index.html | head -3 && rg -c 'TableOfContents' public/notes/forgiveness/index.html || echo "forgiveness: no toc"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build --cleanDestinationDir 2&gt;&amp;1 | tail -5 &amp;&amp; rg -o &#39;TableOfContents[^&lt;]{0,200}&#39; public/notes/maps-of-content/index.html | head -3 &amp;&amp; rg -o &#39;TableOfContents[^&lt;]{0,200}&#39; public/notes/eternal-principles/index.html | head -3 &amp;&amp; rg -c &#39;TableOfContents&#39; public/notes/forgiveness/index.html || echo &#34;forgiveness: no toc&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo build --cleanDestinationDir 2>&1 | tail -5 && rg -o 'TableOfContents[^<]{0,200}' public/notes/maps-of-content/index.html | head -3 && rg -o 'TableOfContents[^<]{0,200}' public/notes/eternal-principles/index.html | head -3 && rg -c 'TableOfContents' public/notes/forgiveness/index.html || echo "forgiveness: no toc"
 ```
@@ -8322,19 +2976,13 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo build --cleanDestinationDir 2>
  Cleaned          │    0 
 
 Total in 10626 ms
-TableOfContents"&gt;
-TableOfContents"&gt;
-TableOfContents"&gt;
-TableOfContents"&gt;
+TableOfContents">
+TableOfContents">
+TableOfContents">
+TableOfContents">
 forgiveness: no toc
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -8374,7 +3022,8 @@ output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Preparing a brief summary of the Hugo server test result for the forgiveness page.</details></think>
+Preparing a brief summary of the Hugo server test result for the forgiveness page.
+</details></think>
 
 _**Agent (default)**_
 
@@ -8397,10 +3046,8 @@ Searching for pipe wikilink handling and how the issues page reports problems.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8502,34 +3149,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8591,26 +3223,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Removing pipe wikilink support from render-content.</details></think>
+Removing pipe wikilink support from render-content.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8660,22 +3284,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **5** results in **1** directory</summary>
 
-Directory: **** (5 files)
+Directory: **``** (5 files)
 
 | File |
 |------|
@@ -8684,21 +3300,12 @@ Directory: **** (5 files)
 | `./layouts/_partials/notes/note-issues-panel.html` |
 | `./layouts/_partials/notes/lint-note-issues.html` |
 | `./layouts/_partials/notes/collect-note-issues.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8784,69 +3391,39 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Reading collect-note-issues.html and issues.html to understand how to add pipe wikilink detection.</details></think>
+Reading collect-note-issues.html and issues.html to understand how to add pipe wikilink detection.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
 
 </details></tool-use>
 
@@ -8859,4 +3436,651 @@ Removing pipe parsing from render-content.html. Tokenization can remain for tabl
 
 Broken pipe links will be flagged as issues rather than rendered as custom labels. The collect-note-issues script will detect `[[target|label]]` patterns and add a `pipeWikilinks` slice to each note's issues. The issues page will then display these findings.
 
-Updating the note issues panel and lint utilities to reflect the removal. Existing pipe wikilinks will be converted to plain `[[Target]]` format. Documentation and title cleanup logic will be simplified. Graph data scripts will be updated to ignore pipe labels.</details></think>
+Updating the note issues panel and lint utilities to reflect the removal. Existing pipe wikilinks will be converted to plain `[[Target]]` format. Documentation and title cleanup logic will be simplified. Graph data scripts will be updated to ignore pipe labels.
+
+The wire-notes script also needs its regex updated. Pipe wikilinks will be converted to plain targets, with labels moved to prose where needed.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/*.md",
+  "pattern": "\\[\\[[^\\]]+\\|[^\\]]+\\]\\]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\[\\[[^\\]]+\\|[^\\]]+\\]\\]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/forgiveness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/peacemakers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/minimum-effective-dose.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/let-your-light-shine.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/humility-and-service.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/creative-output.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/notes/getting-started.md"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-issues-panel.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/outgoing-links.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Planning a comprehensive fix.
+
+A script will strip pipe characters from wikilinks across all markdown files. The issues page will gain a dedicated pipe-wikilink detector. Broken-link checks will ignore pipe syntax entirely.
+
+The renderer will drop its pipe-tokenization logic entirely. Any remaining pipe characters in wikilinks will render as broken spans. Only backtick examples in getting-started docs may still contain pipes.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `./content/english/notes/there-is-no-perfect-solution.md` |
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `./content/english/notes/minimum-viable-product.md` |
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The target "No Perfect Solution" may resolve through an alias.
+
+A Python script will strip pipe wikilinks by replacing `[[text|label]]` with `[[text]]`. The `get-started` page needs manual cleanup. The `collect-note-issues` cache key advances to v3.
+
+Pipe wikilinks will be detected with a regex that excludes anchors. Broken-link checks will skip pipe matches. The GoHTML template will gather pipe link matches into a slice.
+
+The broken-link regex must exclude pipes entirely. A partial match like `[[Free Grace` would otherwise capture only the target portion of a pipe wikilink.
+</details></think>
+
+_**Agent (default)**_
+
+Removing pipe wikilink support, adding issues detection, and converting existing pipe wikilinks in content.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/strip-pipe-wikilinks.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+A bug in render-content.html depends on the order of replaceRE.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-issues-panel.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-issues-panel.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/outgoing-links.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/graph-data.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/graph-data.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/strip-pipe-wikilinks.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/strip-pipe-wikilinks.py
+```
+
+```
+  ask-seek-knock.md: 1 pipe wikilink(s)
+  creative-output.md: 1 pipe wikilink(s)
+  dont-worry.md: 2 pipe wikilink(s)
+  forgiveness.md: 3 pipe wikilink(s)
+  free-grace.md: 1 pipe wikilink(s)
+  getting-started.md: 2 pipe wikilink(s)
+  humility-and-service.md: 1 pipe wikilink(s)
+  issues.md: 1 pipe wikilink(s)
+  let-your-light-shine.md: 1 pipe wikilink(s)
+  let-your-yes-be-yes.md: 2 pipe wikilink(s)
+  minimum-effective-dose.md: 1 pipe wikilink(s)
+  peacemakers.md: 1 pipe wikilink(s)
+  repent-and-believe.md: 1 pipe wikilink(s)
+  secret-devotion.md: 1 pipe wikilink(s)
+  the-narrow-way.md: 1 pipe wikilink(s)
+  the-wise-builder.md: 1 pipe wikilink(s)
+
+Done: 21 pipe wikilink(s) removed.
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The strip script also converted getting-started examples.
+
+The strip script does not skip code blocks. Pipe wikilinks inside backticks may still appear on line 43.
+
+Issues.md had a pipe wikilink in its prose that was stripped to `[[note]]`. This risks triggering false broken-link detection. The page is meta so note-issues-panel skips it. The text should use backticks or an escaped link instead.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/there-is-no-perfect-solution.md",
+  "pattern": "aliases|title"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/there-is-no-perfect-solution.md",
+  "pattern": "aliases|title",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The `collect-note-issues` script strips inline code before scanning, so `[[target|label]]` wikilinks in issues.md won't be flagged.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/*.md",
+  "pattern": "\\[\\[[^\\]]+\\|[^\\]]+\\]\\]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\[\\[[^\\]]+\\|[^\\]]+\\]\\]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/issues.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -20
+```
+
+```
+Start building sites … 
+hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 BuildDate=2026-06-15T14:55:00Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 1563 
+ Paginator pages  │   49 
+ Non-page files   │    0 
+ Static files     │    6 
+ Processed images │  331 
+ Aliases          │  521 
+ Cleaned          │    0 
+
+Total in 10378 ms
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+`collect-note-issues` strips inline code before scanning, so `issues.md` with `[[target|label]]` inside backticks will not be flagged.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**/*",
+  "pattern": "\\|[^\\]]+\\?\\]\\]|pipeParts|split \\$inner \\\"\\|\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\|[^\\]]+\\?\\]\\]|pipeParts|split \\$inner \\\"\\|\\\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./layouts/_partials/notes/collect-note-issues.html"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the wiki-link regex to exclude pipes.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-notes-obsidian.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py",
+  "pattern": "group\\(2\\)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py",
+  "pattern": "group\\(2\\)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Removed pipe wikilink support (`[[target|label]]`) across the garden.
+
+**Rendering** — `render-content.html` simplified: no pipe labels, no pre-Goldmark tokenization. Any remaining pipe syntax renders as a broken link with a clear tooltip.
+
+**Content** — Stripped 21 pipe wikilinks from 16 notes via `scripts/strip-pipe-wikilinks.py` (e.g. `[[Free Grace|free grace]]` → `[[Free Grace]]`). Updated `getting-started.md` and fixed `repent-and-believe.md` to link `[[There Is No Perfect Solution]]`.
+
+**Issues page** — New **Pipe wikilink** category on `/notes/issues/`, per-note panels, and build warnings. Documented in `issues.md`.
+
+**Also updated:** `outgoing-links`, `backlinks`, `graph-data`, `lint-utility-wikilinks.py`, `wire-notes-obsidian.py`.
+
+Only `[[Note Title]]` and `[[Note Title#anchor]]` are supported now. Run `python3 scripts/strip-pipe-wikilinks.py` if any pipe syntax slips back in.

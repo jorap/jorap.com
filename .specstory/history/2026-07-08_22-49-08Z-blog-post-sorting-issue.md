@@ -13,7 +13,8 @@ http://localhost:1313/blog/ check why it is not sorted in the correct order
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Investigating why the blog posts at localhost:1313/blog/ are not sorted in the correct order.</details></think>
+Investigating why the blog posts at localhost:1313/blog/ are not sorted in the correct order.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,10 +23,8 @@ I'll trace how the blog index is built and what sort order it uses.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -132,22 +131,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **61** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (61 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (61 files)
 
 | File |
 |------|
@@ -212,21 +203,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (61 files)
 | `content/english/blog/what-i-look-for-in-wireless-earphones.md` |
 | `layouts/blog/list.html` |
 | `content/english/blog/instant-pot-chicken-adobo.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -277,50 +259,28 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/ 2>/dev/null | head -200</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/ 2&gt;/dev/null | head -200</summary>
 ```bash
 curl -s http://localhost:1313/blog/ 2>/dev/null | head -200
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/list.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -402,48 +362,28 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **32** results in **1** directory</summary>
 
-Directory: **/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com** (32 files)
+Directory: **`/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com`** (32 files)
 
 | File |
 |------|
@@ -479,54 +419,31 @@ Directory: **/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com*
 | `terminals/284119.txt` |
 | `terminals/122938.txt` |
 | `terminals/3.txt` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `layouts/_partials/sort-featured-first.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/list.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -632,55 +549,34 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/ 2>/dev/null | rg -o '<h3[^>]*>.*?</h3>|<time[^>]*>[^<]+</time>' | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/blog/ 2&gt;/dev/null | rg -o &#39;&lt;h3[^&gt;]*&gt;.*?&lt;/h3&gt;|&lt;time[^&gt;]*&gt;[^&lt;]+&lt;/time&gt;&#39; | head -40</summary>
 ```bash
 curl -s http://localhost:1313/blog/ 2>/dev/null | rg -o '<h3[^>]*>.*?</h3>|<time[^>]*>[^<]+</time>' | head -40
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The curl request failed. The Hugo server may not be running.</details></think>
+The curl request failed. The Hugo server may not be running.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/sort-featured-first.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/sort-featured-first.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -710,42 +606,26 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg -i 'arroz|blog/' | head -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo list all 2&gt;/dev/null | rg -i &#39;arroz|blog/&#39; | head -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg -i 'arroz|blog/' | head -20
 ```
@@ -759,26 +639,9 @@ content/english/blog/__client-site-pass-off.md,client-site-pass-off,What Happens
 content/english/blog/__static-site-client-scope.md,static-site-client-scope,When I Say Yes to a Client Website (and When I Send You to WordPress),2026-07-02T06:00:00Z,0001-01-01T00:00:00Z,2026-07-02T06:00:00Z,true,https://www.jorap.com/blog/static-site-client-scope/,page,blog
 content/english/blog/__selling-static-sites.md,selling-static-sites,How I Quote Client Websites,2026-07-02T05:00:00Z,0001-01-01T00:00:00Z,2026-07-02T05:00:00Z,true,https://www.jorap.com/blog/selling-static-sites/,page,blog
 content/english/blog/__hugo-go-templates.md,hugo-go-templates,Hugo Go Templates,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/hugo-go-templates/,page,blog
-content/english/blog/__hugo-page-bundles.md,hugo-page-bundles,Hugo Page Bundles,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/hugo-page-bundles/,page,blog
-content/english/blog/__hugo-shortcodes-deep-dive.md,hugo-shortcodes-deep-dive,Hugo Shortcodes Deep Dive,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/hugo-shortcodes-deep-dive/,page,blog
-content/english/blog/__hugo-static-site-generator.md,hugo-static-site-generator,Hugo Static Site Generator,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/hugo-static-site-generator/,page,blog
-content/english/blog/__markdown-deep-dive.md,markdown-deep-dive,Markdown Deep Dive,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/markdown-deep-dive/,page,blog
-content/english/blog/__markdown-formatting.md,markdown-formatting,Markdown Formatting,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/markdown-formatting/,page,blog
-content/english/blog/__native-hugo-taxonomies.md,native-hugo-taxonomies,Native Hugo Taxonomies,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/native-hugo-taxonomies/,page,blog
-content/english/blog/__obsidian-vs-hugo.md,obsidian-vs-hugo,Obsidian vs Hugo,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/obsidian-vs-hugo/,page,blog
-content/english/blog/__sveltia-cms.md,sveltia-cms,Sveltia CMS,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/sveltia-cms/,page,blog
-content/english/blog/__tailwind-css-v4.md,tailwind-css-v4,Tailwind CSS v4.0,2026-06-19T06:00:00Z,0001-01-01T00:00:00Z,2026-06-19T06:00:00Z,true,https://www.jorap.com/blog/tailwind-css-v4/,page,blog
-content/english/blog/__drupal-to-wordpress.md,drupal-to-wordpress,Why I Switched from Drupal to WordPress,2026-06-18T06:30:00Z,0001-01-01T00:00:00Z,2026-06-18T06:30:00Z,true,https://www.jorap.com/blog/drupal-to-wordpress/,page,blog
-content/english/blog/__craft-prompt-framework.md,craft-prompt-framework,The CRAFT Prompt Framework,2026-06-18T06:13:00Z,0001-01-01T00:00:00Z,2026-06-18T06:13:00Z,true,https://www.jorap.com/blog/craft-prompt-framework/,page,blog
-content/english/blog/__sustainable-online-publishing.md,sustainable-online-publishing,Sustainable Online Publishing,2026-06-18T06:12:00Z,0001-01-01T00:00:00Z,2026-06-18T06:12:00Z,true,https://www.jorap.com/blog/sustainable-online-publishing/,page,blog
-
+content/english/blog/__hugo-page-bundles.md,hugo-page-bundles,Hugo Page Bundles,20
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -786,26 +649,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The blog list is sorted by date. The top entry uses a local timezone offset (+08:00) instead of UTC (Z). This mismatch likely causes the incorrect ordering.
 
-Featured posts are forced to the top regardless of date. The theme's list.html may be overriding the project's custom layout. I'll build the site to verify the exact rendering order.</details></think>
+Featured posts are forced to the top regardless of date. The theme's list.html may be overriding the project's custom layout. I'll build the site to verify the exact rendering order.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg 'blog/' | rg -v '__' | head -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo list all 2&gt;/dev/null | rg &#39;blog/&#39; | rg -v &#39;__&#39; | head -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg 'blog/' | rg -v '__' | head -15
 ```
@@ -818,29 +675,15 @@ content/english/blog/consistent-ai-output-wordpress-builds.md,consistent-ai-outp
 content/english/blog/hugoplate-theme-review.md,hugoplate-theme-review,HugoPlate: The Theme Quietly Powering This Site,2026-05-29T05:00:00Z,0001-01-01T00:00:00Z,2026-05-29T05:00:00Z,false,https://www.jorap.com/blog/hugoplate-theme-review/,page,blog
 content/english/blog/power-of-the-mouse-wheel-click.md,power-of-the-mouse-wheel-click,"The Mouse Wheel Click: One Button, Three Operating Systems",2026-05-28T05:00:00Z,0001-01-01T00:00:00Z,2026-05-28T05:00:00Z,false,https://www.jorap.com/blog/power-of-the-mouse-wheel-click/,page,blog
 content/english/blog/what-i-look-for-in-wireless-earphones.md,what-i-look-for-in-wireless-earphones,What I Look For in Wireless Earphones,2026-05-27T05:00:00Z,0001-01-01T00:00:00Z,2026-05-27T05:00:00Z,false,https://www.jorap.com/blog/what-i-look-for-in-wireless-earphones/,page,blog
-content/english/blog/instant-pot-chicken-adobo.md,instant-pot-chicken-adobo,Instant Pot Chicken Adobo,2026-05-03T23:00:00+08:00,0001-01-01T00:00:00Z,2026-05-03T23:00:00+08:00,false,https://www.jorap.com/blog/instant-pot-chicken-adobo/,page,blog
-content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md,power-of-worship-pads-enhancing-your-worship-with-guitar,Worship Pads for Solo Guitar: What Changed When I Finally Tried Them,2025-05-04T05:00:00Z,0001-01-01T00:00:00Z,2025-05-04T05:00:00Z,false,https://www.jorap.com/blog/power-of-worship-pads-enhancing-your-worship-with-guitar/,page,blog
-content/english/blog/set-it-forget-it-arroz-caldo.md,set-it-forget-it-arroz-caldo,The Set It and Forget It Arroz Caldo,2025-03-29T05:00:00Z,0001-01-01T00:00:00Z,2025-03-29T05:00:00Z,false,https://www.jorap.com/blog/set-it-forget-it-arroz-caldo/,page,blog
-content/english/blog/how-i-built-jorap-notes.md,how-i-built-jorap-notes,How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!),2024-06-14T05:00:00Z,0001-01-01T00:00:00Z,2024-06-14T05:00:00Z,false,https://www.jorap.com/blog/how-i-built-jorap-notes/,page,blog
-content/english/blog/getting-started-with-rss-feeds-beginners-guide.md,getting-started-with-rss-feeds-a-beginners-guide,Getting Started with RSS Feeds,2024-03-30T05:00:00Z,0001-01-01T00:00:00Z,2024-03-30T05:00:00Z,false,https://www.jorap.com/blog/getting-started-with-rss-feeds-a-beginners-guide/,page,blog
-content/english/blog/top-reasons-create-maintain-your-own-website.md,,Top Reasons to Create and Maintain Your Own Website,2024-03-10T05:00:00Z,0001-01-01T00:00:00Z,2024-03-10T05:00:00Z,false,https://www.jorap.com/blog/top-reasons-create-maintain-your-own-website/,page,blog
-content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md,facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience,Facebook's Hidden Gem: The Favorites Feed,2024-02-04T05:00:00Z,0001-01-01T00:00:00Z,2024-02-04T05:00:00Z,false,https://www.jorap.com/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience/,page,blog
-content/english/blog/miracle-isaiah-david.md,miracle-isaiah-david,The Miracle of Isaiah David,2023-05-08T05:00:00Z,0001-01-01T00:00:00Z,2023-05-08T05:00:00Z,false,https://www.jorap.com/blog/miracle-isaiah-david/,page,blog
-
+content/english/blog/instant-pot-chicken-adobo.md,instant-pot-chicken-adobo,Instant Pot Chicken Adobo,2026-05-03T23:00:00+08:00,0001-01-01T00:00:0
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet && rg -o 'blog-card__title[^>]*>[^<]+|datetime="[^"]+"' public/blog/index.html | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet &amp;&amp; rg -o &#39;blog-card__title[^&gt;]*&gt;[^&lt;]+|datetime=&#34;[^&#34;]+&#34;&#39; public/blog/index.html | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet && rg -o 'blog-card__title[^>]*>[^<]+|datetime="[^"]+"' public/blog/index.html | head -40
 ```
@@ -849,20 +692,12 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet && rg -o 'blog-card__t
 ]633;C]633;D;1
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -897,16 +732,10 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Only two posts match `featured: true` in the codebase, yet Hugo's list shows many more featured entries. This mismatch likely explains the incorrect sorting.</details></think>
+Only two posts match `featured: true` in the codebase, yet Hugo's list shows many more featured entries. This mismatch likely explains the incorrect sorting.
+</details></think>

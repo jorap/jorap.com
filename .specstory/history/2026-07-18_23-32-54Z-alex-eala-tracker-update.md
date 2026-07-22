@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Preparing a full Alex Eala Pro Career Tracker update.
 
-Reading the current tracker file and reference documents to identify missing data. Only necessary updates will be fetched.</details></think>
+Reading the current tracker file and reference documents to identify missing data. Only necessary updates will be fetched.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,27 +25,15 @@ Running a full Alex Eala tracker refresh: reading the current file first, then f
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
@@ -57,7 +46,8 @@ Checking for updates since July 13. Wimbledon 2026 ended early July. A ranking d
 
 The skill description and reference template both list No. 29. The WTA career high needs verification. Several 2026 tournaments appear missing from the tracker, including Indian Wells, Miami, Rome, Stuttgart, Linz, and Queen's. Best Performances only includes tournaments reaching quarterfinals or better.
 
-None of the missing 2026 tournaments reached quarterfinals or better, so they correctly remain excluded from Best Performances. The next post-Wimbledon tournaments to check are likely grass court events followed by hard court season prep.</details></think>
+None of the missing 2026 tournaments reached quarterfinals or better, so they correctly remain excluded from Best Performances. The next post-Wimbledon tournaments to check are likely grass court events followed by hard court season prep.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -65,10 +55,8 @@ Checking for results
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -84,23 +72,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alexandra Eala voted Star of the Swing after grass-court breakthrough](https://www.wtatennis.com/news/4537271/alexandra-eala-voted-star-of-the-swing-after-grass-court-breakthrough)\n2. [Wimbledon 2026: Jasmine Paolini ends Alexandra Eala’s fairytale run to return to quarter-finals](https://www.olympics.com/en/news/wimbledon-2026-jasmine-paolini-alexandra-eala-fourth-round-results)\n3. [Alex Eala's historic Wimbledon run ends in fourth-round loss to Jasmine Paolini - ESPN](https://www.espn.com/tennis/story/_/id/49286771/alex-eala-historic-wimbledon-run-ends-fourth-round-loss-jasmine-paolini)\n4. [Alexandra Eala Stats, News, Pictures, Bio, Videos - ESPN](https://www.espn.com/tennis/player/_/id/7759/alexandra-eala)\n5. [Alexandra Eala WTA Ranking, Stats \u0026 Match Record | TennisDB](https://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala)\n\nSynthesis:\nIn July 2026, Alexandra Eala reached the Round of 16 at Wimbledon, marking the best Grand Slam result for a player from the Philippines in the Open Era [1][2][3]. She defeated Renata Zarazua in the first round, Maya Joint in the second, and reigning champion Iga Swiatek in the third round [4][5][6]. Her run ended in the fourth round with a 4-6, 6-4, 3-6 loss to Jasmine Paolini [2][7][3]. Following these performances, she achieved a career-high WTA singles ranking of world No. 28 on July 13, 2026 [5][1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala voted Star of the Swing after grass-court breakthrough\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4537271/alexandra-eala-voted-star-of-the-swing-after-grass-court-breakthrough\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala voted Star of the Swing after grass-court breakthrough\n\nGo back to the home page\n\n-\n\n# Alexandra Eala voted Star of the Swing after grass-court breakthrough\n\n1m read 17 Jul 2026 9h ago\n\nWTA\n\nThe fans have made their choice, and Alexandra Eala is your Star of the Swing for the grass-court season. Eala captured nearly 90% of the vote, finishing ahead of a field of contenders that included newly crowned Wimbledon champion Linda Noskova.\n\nThe 21-year-old from the Philippines set her trajectory early, opening the grass swing by winning her second career WTA 125 title at the Lexus Birmingham Open. Eala navigated a week of rain delays to defeat Nikola Bartunkova in a three-set final, then carried that momentum into Germany, where she reached the semifinals at the WTA 500 in Berlin.\n\nEala followed that with her best Grand Slam performance to date at Wimbledon. Seeded No. 29, she became the first player from the Philippines to reach the second week of a singles major in the Open Era. Her standout moment came in the third round on Centre Court, where she defeated defending champion Iga Swiatek 7-6(9), 6-2.\n\nThough her run ended in the Round of 16 with a close three-set loss to Jasmine Paolini, Eala’s five-week stretch pushed her to a career-high ranking of No. 28 on the WTA Tour Driven by Mercedes-Benz.\n\nFinishing second and third in the fan voting were the two women who played in the all-Czech final at SW19: Wimbledon champion Linda Noskova and runner-up Karolina Muchova.\n\nNoskova, 21, secured her first Grand Slam title with a 6-2, 5-7, 6-3 victory on Centre Court. Muchova extended the match by recovering from a break down in the second set to force a third before Noskova pulled away.\n\nWTA Staff\n\n## Suggested Video\n\nShare\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eWimbledon 2026: Jasmine Paolini ends Alexandra Eala’s fairytale run to return to quarter-finals\u003c/title\u003e\n\u003curl\u003ehttps://www.olympics.com/en/news/wimbledon-2026-jasmine-paolini-alexandra-eala-fourth-round-results\u003c/url\u003e\n\u003ccontent\u003eWimbledon 2026: Jasmine Paolini ends Alexandra Eala’s fairytale run to return to quarter-finals\n...\n# Wimbledon 2026: Jasmine Paolini ends Alexandra Eala’s fairytale run to return to quarter-finals\n...\nNo. 13 seed Paolini booked her place in the final eight with an entertaining three-set victory against the Philippines' Eala.\n...\n20\n...\n15:00 GMT+03\n...\nA former women’s singles finalist at the Championships, the No. 13 seed fought to a three-set victory over Filipina starlet Alexandra Eala on Monday (6 July).\n...\nPaolini sealed her spot in the quarter-final with a 6-4, 4-6, 6-3 win on Centre Court, returning to the final eight for the first time since 2024. It is a first victory for the Italian against the No. 29 seed after prevailing in two hours and 22 minutes.\n...\nIt has not been an easy season for Paolini, who arrived in SW19 with a 12-7 season record and no second-week Slam appearance since last year’s French Open. But the 30-year-old is soaring back into the quarter-finals, where she will face 12th seed Marta Kostyuk of Ukraine.\n...\nAfter taking out third seed and reigning champion Iga Świątek, Eala had every right to enter her maiden appearance in a major round of 16 with confidence.\n...\nAfter drawing level in the second set, the Asian player's career-best Grand Slam run ends in the fourth round, a valiant effort from the 21-year-old who continues to raise the bar for the Philippines.\n...\nPaolini, competing in her sixth Wimbledon main draw, came out with more consistent baseline strokes and enjoyed herself in the rallies. The world No. 17 won 56 per cent of points between five and eight shots while hitting 38 winners to Eala’s 25.\n...\nPaolini recorded 70 per cent of first serves in, and found an extra gear in the deciding set to force a backhand error from Eala for a break at 5-3. This will not be the last that Centre Court sees of Eala, while Paolini aims to build on her resurgence in the quarter-final on Wednesday (8 July).\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eAlex Eala's historic Wimbledon run ends in fourth-round loss to Jasmine Paolini - ESPN\u003c/title\u003e\n\u003curl\u003ehttps://www.espn.com/tennis/story/_/id/49286771/alex-eala-historic-wimbledon-run-ends-fourth-round-loss-jasmine-paolini\u003c/url\u003e\n\u003ccontent\u003eAlex Eala's historic Wimbledon run ends in fourth-round loss to Jasmine Paolini - ESPN\n...\nAlexandra Eala's historic campaign at Wimbledon 2026 came to an end in the fourth round against Italy's Jasmine Paolini with a 4-6, 6-4, 3-6 loss on Monday evening at Centre Court in the All England Lawn Tennis and Croquet Club.\n...\nPaolini levelled their head-to-head at one win apiece after avenging her earlier defeat to Eala, who prevailed 6-1, 7-6(5) in the Round of 32 at the Dubai Tennis Championships earlier this year.\n...\n- Wimbledon (@Wimbledon) July 6, 2026\n...\n, exchanging holds\n...\nkeep the set\n...\nat 2-2\n...\nfive points to escape\n...\nWith this trend remaining true until the seventh game, where the Italian had a 4-3 advantage, she was able to claim a huge break in the eighth to move within cusp of victory. It would then lead to Paolini capping the match off with a three-game run to advance to the quarterfinals.\n...\nThough Eala's Wimbledon campaign came to an end, she leaves London having rewritten Philippine tennis history, becoming the first player from the country to reach the fourth round of the Championships. In doing so, she surpassed the third-round finishes of Philippine greats Felicisimo Ampon (1949, 1950, 1953), Raymundo Deyro (1948, 1953), and Cesar Carmona (1950) during the amateur era.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eAlexandra Eala Stats, News, Pictures, Bio, Videos - ESPN\u003c/title\u003e\n\u003curl\u003ehttps://www.espn.com/tennis/player/_/id/7759/alexandra-eala\u003c/url\u003e\n\u003ccontent\u003e#### CURRENT TOURNAMENT\n...\nWIMBLEDON- London, Great BritainJune 22, 2026 to July 12, 2026\n...\n| ROUND | OPPONENT | RESULT | SCORE |\n| --- | --- | --- | --- |\n| Women's Singles |\n| 1st | Renata Zarazua | W | 6-1, 6-2 |\n| 2nd | Maya Joint | W | 3-6, 6-2, 6-0 |\n| 3rd | (3) Iga Swiatek | - | July 4 12:00 AM ET |\n| ROUND | OPPONENT | RESULT | SCORE |\n| Women's Doubles - Partner: Nikola Bartunkova |\n| 1st | (8) Sofia Kenin\u0026 Jelena Ostapenko | L | 6-3, 3-6, 1-6 |\n| *Grand Slam event. |\n...\n| YEAR | PRIZE MONEY | SINGLES TITLES | DOUBLES TITLES | SINGLES W-L |\n| --- | --- | --- | --- | --- |\n| 2026 | $871,438 | 0 | 0 | 27-17 |\n| 2025 | $907,777 | 0 | 0 | 40-26 |\n| 2024 | $297,054 | 0 | 0 | 42-31 |\n| 2023 | $96,876 | 0 | 0 | 45-23 |\n| 2022 | $49,547 | 0 | 0 | 45-20 |\n| 2021 | $13,524 | 0 | 0 | 17-13 |\n| 2020 | $1,290 | 0 | 0 | 5-4 |\n| Career | $2,235,123 | 0 | 0 | 221-134 |\n...\n- WTA World Ranking: #32\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eAlexandra Eala WTA Ranking, Stats \u0026 Match Record | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala\u003c/url\u003e\n\u003ccontent\u003e28 (Jul 13, 2026)\n...\n| Date | Tournament | Category | Round | Surface | Opponent | Score | Result | H2H | Match |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Jul 6, 2026 | Wimbledon | Grand Slam | R16 | Grass | Jasmine Paolini#17 | 4-6 6-4 3-6 | L | H2H | Match data |\n| Jul 4, 2026 | Wimbledon | Grand Slam | R32 | Grass | Iga Swiatek#3 | 7-6(9) 6-2 | W | H2H | Match data |\n| Jul 2, 2026 | Wimbledon | Grand Slam | R64 | Grass | Maya Joint#87 | 3-6 6-2 6-0 | W | H2H | Match data |\n| Jun 30, 2026 | Wimbledon | Grand Slam | R128 | Grass | Renata Zarazua#75 | 6-1 6-2 | W | H2H | Match data |\n| Jun 22, 2026 | Bad Homburg | WTA 500 | R32 | Grass | Elise Mertens#26 | 3-6 3-6 | L | H2H | Match data |\n...\n| Season | Age | Type | W | L | M | Win % | Start Rank | End Rank |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2021\n...\n0 | 1\n...\n1 | 0.0% | — | —\n...\n1 | 1 | 2 |\n...\n50.0% |\n...\n1,185 | 526\n...\n| 2022 | 17 | Qualifying Q | 0 | 1 | 1 | 0.0% | — | — |\n| 2022 | 17 | WTA | 0 | 1 | 1 | 0.0% | 526 | 214 |\n| 2023 | 18 | Qualifying Q | 8 | 0 | 8 | 100.0% | — | — |\n| 2023 | 18 | WTA | 0 | 6 | 6 | 0.0% | 215 | 190 |\n| 2024 | 19 | Qualifying Q | 8 | 6 | 14 | 57.1% | — | — |\n| 2024 | 19 | WTA | 1 | 6 | 7 | 14.3% | 185 | 147 |\n| 2025 | 20 | Qualifying Q | 3 | 2 | 5 | 60.0% | — | — |\n| 2025 | 20 | WTA | 9 | 12 | 21 | 42.9% | 147 | 53 |\n| 2026 | 21 | WTA | 22 | 17 | 39 | 56.4% | 53 | 28 |\n| Career | | — | 33 | 43 | 76 | 43.4% | — | — |\n...\n26 |\n...\n7 | 18\n...\n61.1\n...\n40.0\n...\n| 7 | 4 | 11 | 63.6\n...\n| 22 | 17 | 39 | 56\n...\n|\n| Career | — | — | 19 |\n...\n25 |\n...\n44 | 43.2% | 7 | 12 |\n...\n19 |\n...\n| 33 | 43\n...\n--- | --- | --- | --- | ---\n...\nJul 13, 2026\n...\nWhat is Alexandra Eala's highest WTA ranking? Alexandra Eala's career-high WTA singles ranking is world No. 28, first achieved on July 13, 2026.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Alexandra Eala voted Star of the Swing after grass-court breakthrough](https://www.wtatennis.com/news/4537271/alexandra-eala-voted-star-of-the-swing-after-grass-court-breakthrough)\n2. [Wimbledon 2026: Jasmine Paolini ends Alexandra Eala’s fairytale run to return to quarter-finals](https://www.olympics.com/en/news/wimbledon-2026-jasmine-paolini-alexandra-eala-fourth-round-results)\n3. [Alex Eala's historic Wimbledon run ends in fourth-round loss to Jasmine Paolini - ESPN](https://www.espn.com/tennis/story/_/id/49286771/alex-eala-historic-wimbledon-run-ends-fourth-round-loss-jasmine-paolini)\n4. [Alexandra Eala Stats, News, Pictures, Bio, Videos - ESPN](https://www.espn.com/tennis/player/_/id/7759/alexandra-eala)\n5. [Alexandra Eala WTA Ranking, Stats \u0026 Match Record | TennisDB](https://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala)\n\nSynthesis:\nIn July 2026, Alexandra Eala reached the Round of 16 at Wimbledon, marking the best Grand Slam result for a player from the Philippines in the Open Era [1][2][3]. She defeated Renata Zarazua in the first round, Maya Joint in the second, and reigning champion Iga Swiatek in the third round [4][5][6]. Her run ended in the fourth round with a 4-6, 6-4, 3-6 loss to Jasmine Paolini [2][7][3]. Following these performances, she achieved a career-high WTA singles ranking of world No. 28 on July 13, 2026 [5][1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala voted Star of the Swing after grass-court breakthrough\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4537271/alexandra-eala-voted-star-of-the-swing-after-grass-court-breakthrough\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala voted Star of the Swing after grass-court breakthrough\n\nGo back to the home page\n\n-\n\n# Alexandra Eala voted Star of the Swing after grass-court breakthrough\n\n1m read 17 Jul 2026 9h ago\n\nWTA\n\nThe fans hav
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -110,10 +87,8 @@ and ranking changes
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -129,28 +104,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala climbs to career-high world No. 28 in WTA rankings](https://www.spin.ph/tennis/alex-eala-climbs-to-career-high-world-no-28-after-historic-wimbledon-run-a6035-20260713)\n2. [Alexandra Eala WTA Ranking, Stats \u0026 Match Record | TennisDB](https://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala)\n3. [Alex Eala rises to career best No. 28 in WTA rankings](https://sports.inquirer.net/686153/alex-eala-rises-to-career-best-no-28-in-wta-rankings)\n4. [Alexandra Eala](https://en.wikipedia.org/wiki/Alexandra_Eala)\n\nSynthesis:\nAlex Eala's current WTA career-high ranking is world No. 28 [1][2]. She officially achieved this milestone on July 13, 2026, following her historic run to the fourth round of the 2026 Wimbledon Championships [1][3]. This ranking surpassed her previous career-best of No. 29, which she first reached in March 2026 [4][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala climbs to career-high world No. 28 in WTA rankings\u003c/title\u003e\n\u003curl\u003ehttps://www.spin.ph/tennis/alex-eala-climbs-to-career-high-world-no-28-after-historic-wimbledon-run-a6035-20260713\u003c/url\u003e\n\u003ccontent\u003eAlex Eala climbs to career-high world No. 28 in WTA rankings ;\n...\n# Alex Eala rises to new career-high No. 28 in latest WTA rankings\n...\nEala reaches new milestone after an impressive grasscourt campaign highlighted by a Round-of-16 appearance at Wimbledon\n...\nALEX Eala' s historic Wimbledon campaign has officially translated into another milestone.\n...\nThe Filipina tennis star climbed four spots to a new career-high world No. 28 in the latest Women's Tennis Association (WTA) rankings released on Monday, eclipsing her previous best of No. 29 set earlier this year.\n...\nThe 21-year-old made the jump after reaching the fourth round of a Grand Slam for the first time, highlighted by a stunning victory over defending champion Iga Swiatek before bowing out to eventual quarterfinalist Jasmine Paolini in three sets.\n...\nThe new ranking places Eala in an even stronger position heading into the North American hard-court swing and the year's final Grand Slam, the US Open.\n...\nShe will next see action at the WTA 500 Mubadala DC Open on July 25 after a 12-4 grass-court campaign marked by a Round of 16 finish at Wimbledon, a semifinal appearance in Berlin, and a WTA 125 title in Birmingham.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlexandra Eala WTA Ranking, Stats \u0026 Match Record | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala\u003c/url\u003e\n\u003ccontent\u003e28 (Jul 13, 2026)\n...\n| 0 | 1 | 1 | 0.0% | — | —\n...\n| 2022 | 17 | WTA | 0 | 1 | 1 | 0.0% | 526 | 214 |\n| 2023 | 18 | Qualifying Q | 8 | 0 | 8 | 100.0% | — | — |\n| 2023 | 18 | WTA | 0 | 6 | 6 | 0.0% | 215 | 190 |\n| 2024 | 19 | Qualifying Q | 8 | 6 | 14 | 57.1% | — | — |\n| 2024 | 19 | WTA | 1 | 6 | 7 | 14.3% | 185 | 147 |\n| 2025 | 20 | Qualifying Q | 3 | 2 | 5 | 60.0% | — | — |\n| 2025 | 20 | WTA | 9 | 12 | 21 | 42.9% | 147 | 53 |\n| 2026 | 21 | WTA | 22 | 17 | 39 | 56.4% | 53 | 28 |\n| Career | | — | 33 | 43 | 76 | 43.4% | — | — |\n...\n19\n...\n## WTA Ranking History\n...\nCareer-high date\n...\nJul 13, 2026\n...\nWhat is Alexandra Eala's highest WTA ranking? Alexandra Eala's career-high WTA singles ranking is world No. 28, first achieved on July 13, 2026.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eAlex Eala rises to career best No. 28 in WTA rankings\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/686153/alex-eala-rises-to-career-best-no-28-in-wta-rankings\u003c/url\u003e\n\u003ccontent\u003eAlex Eala rises to career best No. 28 in WTA rankings\n...\n# Alex Eala rises to career best No. 28 in WTA rankings\n...\nINQUIRER.net/ 12:44 PM July 13, 2026\n...\nMANILA, Philippines— Alex Eala reached a new career-high ranking in the WTA on Monday following her deep run at the 2026 Wimbledon Championships.\n...\nEala climbed four spots to World No. 28 after reaching the fourth round at Wimbledon, her best Grand Slam campaign yet, before bowing to Jasmine Paolini.\n...\nHer previous career-high ranking was No. 29, set in March.\n...\nEala also enjoyed an impressive grass-court season, highlighted by her Birmingham WTA 125 title and a semifinal appearance at the Berlin Open, where she defeated two Top 10 players before falling to eventual Wimbledon champion Linda Noskova.\n...\nAt Wimbledon, where she was seeded 29th, Eala became the first Filipino to reach the round of 16 in any Grand Slam singles tournament.\n...\nShe dethroned Iga Swiatek to reach the fourth round after impressive showings against Renata Zarazua and Maya Joint.\n...\nEala, who returned to the Philippines on Sunday, is taking a brief break before resuming her hard-court campaign leading to the US Open.\n...\nShe is expected to compete in the Mubadala DC Open, a WTA 500 tournament in the United States, and the WTA 1000 National Bank Open in Canada.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eAlexandra Eala\u003c/title\u003e\n\u003curl\u003ehttps://en.wikipedia.org/wiki/Alexandra_Eala\u003c/url\u003e\n\u003ccontent\u003eAlexandra Maniego Eala (born May 23, 2005) is a Filipino professional tennis player. She achieved a career-high singles ranking of world No. 29 by the WTA on March 16, 2026, making her the highest-ranked Filipino in WTA Tour history. Eala is the first Filipino to break into the WTA top 30, have multiple wins over top-10 players and major champions, and reach a tour-level final in the Open Era.\n...\n| Eala at the 2025 SEA Games | - |\n| --- | --- |\n| Full name | Alexandra Maniego Eala |\n| Country (sports) | Philippines |\n| Residence | Metro Manila, Philippines, Mallorca, Spain |\n| Born | (2005-05-23) May 23, 2005 (age 21), Quezon City, Philippines |\n| Height | 1.75 m (5 ft 9 in) |\n| Turned pro | March 2020 |\n| Plays | Left-handed (two-handed backhand) |\n| Coach | Joan Bosch, Alexandro Viaene, Lluc Bauza |\n| Prize money | US$ 2,235,123 |\n| Singles | - |\n| Career record | 221–134 |\n| Career titles | 2 WTA 125 |\n| Highest ranking | No. 29 (March 16, 2026) |\n| Current ranking | No. 32 (June 29, 2026) |\n| Grand Slam singles results | - |\n| Australian Open | 1R (2026) |\n| French Open | 1R (2025, 2026) |\n| Wimbledon | 3R (2026) |\n| US Open | 2R (2025) |\n| Doubles | - |\n| Career record | 49–48 |\n| Career titles | 0 |\n| Highest ranking | No. 88 (May 4, 2026) |\n| Current ranking | No. 126 (June 29, 2026) |\n| Grand Slam doubles results | - |\n| Australian Open | 1R (2026) |\n| French Open | 2R (2025) |\n| Wimbledon | 1R (2025, 2026) |\n...\nAt the Indian Wells Open, Eala advanced to the fourth round, before falling to Linda Nosková. In doubles, she and Iva Jovic were eliminated in the opening round. Her singles run contributed to a career-high ranking of world No. 29 on March 16, 2026. She followed this with another fourth-round appearance at the Miami Open, where she was defeated by Karolína Muchová.\n...\n25 |\n| Overall win–\n...\n1–1 |\n...\n0–1 | 0–6 |\n...\n1–6 |\n...\n6–6 |\n...\n8–5 |\n...\n16–25\n...\n-end ranking | 529 | 219 | 205 | 158 | 50\n...\n$2,133,305 |\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    },
-    {
-      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/20580ee0-2f90-4f36-8591-68917f4d479a.txt\nSize: 28.0 KB, 384 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
-      "title": "Alexandra Eala",
-      "url": "https://en.wikipedia.org/wiki/Alexandra_Eala"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Alex Eala climbs to career-high world No. 28 in WTA rankings](https://www.spin.ph/tennis/alex-eala-climbs-to-career-high-world-no-28-after-historic-wimbledon-run-a6035-20260713)\n2. [Alexandra Eala WTA Ranking, Stats \u0026 Match Record | TennisDB](https://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala)\n3. [Alex Eala rises to career best No. 28 in WTA rankings](https://sports.inquirer.net/686153/alex-eala-rises-to-career-best-no-28-in-wta-rankings)\n4. [Alexandra Eala](https://en.wikipedia.org/wiki/Alexandra_Eala)\n\nSynthesis:\nAlex Eala's current WTA career-high ranking is world No. 28 [1][2]. She officially achieved this milestone on July 13, 2026, following her historic run to the fourth round of the 2026 Wimbledon Championships [1][3]. This ranking surpassed her previous career-best of No. 29, which she first reached in March 2026 [4][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala climbs to career-high world No. 28 in WTA rankings\u003c/title\u003e\n\u003curl\u003ehttps://www.spin.ph/tennis/alex-eala-climbs-to-career-high-world-no-28-after-historic-wimbledon-run-a6035-20260713\u003c/url\u003e\n\u003ccontent\u003eAlex Eala climbs to career-high world No. 28 in WTA rankings ;\n...\n# Alex Eala rises to new career-high No. 28 in latest WTA rankings\n...\nEala reaches new milestone after an impressive grasscourt campaign highlighted by a Round-of-16 appearance at Wimbledon\n...\nALEX Eala' s historic Wimbledon campaign has officially translated into another milestone.\n...\nThe Filipina tennis star climbed four spots to a new career-high world No. 28 in the latest Women's Tennis Association (WTA) rankings released on Monday, eclipsing her previous best of No. 29 set earlier this year.\n...\nThe 21-year-old made the jump after reaching the fourth round of a Grand Slam for the first time, highlighted by a stunning victory over defending champion Iga 
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -184,7 +143,8 @@ No other Other Top 20 players won Grand Slams. Wimbledon 2026 singles rounds nee
 
 The 2025 Wimbledon singles score is verified as 3-6, 6-2, 1-6. The doubles Bad Homburg entry is already present. The doubles Bad Homburg match is already recorded. The doubles Bad Homburg entry is already present.
 
-Fetching WTA profile and match pages to identify remaining gaps. Paolini’s profile will be checked to confirm her slam titles and career high. Indian Wells Round of 16 is confirmed as not reaching quarterfinals. Fetches will proceed with polite delays.</details></think>
+Fetching WTA profile and match pages to identify remaining gaps. Paolini’s profile will be checked to confirm her slam titles and career high. Indian Wells Round of 16 is confirmed as not reaching quarterfinals. Fetches will proceed with polite delays.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -192,10 +152,8 @@ Confirming career high No. 28 and scanning for
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -211,23 +169,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala joins star-studded DC Open player list | ABS-CBN Sports](https://www.abs-cbn.com/sports/othersports/2026/7/18/alex-eala-joins-star-studded-dc-open-player-list-0025)\n2. [Alex Eala to resume campaign in Mubadala DC Open | The Manila Times](https://www.manilatimes.net/2026/07/08/sports/alex-eala-to-resume-campaign-in-mubadala-dc-open/2380425)\n3. [Eala, Venus Williams to team up anew in Mubadala DC Open doubles | Philstar.com](https://www.philstar.com/sports/2026/07/18/2542990/eala-venus-williams-team-anew-mubadala-dc-open-doubles)\n\nSynthesis:\nAlex Eala is confirmed to compete in the 2026 Mubadala DC Open in Washington, D.C. [1][2][3]. She is entered in the tournament's main draw for singles and will also partner with Venus Williams in the doubles competition [1][4][5]. The WTA 500 hard-court event is scheduled to run from July 27 to August 2, 2026, with qualifying rounds held from July 25 to 26 [1][6][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala joins star-studded DC Open player list | ABS-CBN Sports\u003c/title\u003e\n\u003curl\u003ehttps://www.abs-cbn.com/sports/othersports/2026/7/18/alex-eala-joins-star-studded-dc-open-player-list-0025\u003c/url\u003e\n\u003ccontent\u003e# Alex Eala joins star-studded DC Open player list\n...\n#### Dyan Castillejo,\n...\n#### ABS-CBN News\n#### Published July 18, 2026 12:25 AM PHT\n...\nFilipina tennis star Alex Eala and tennis legend Venus Williams join the star-studded singles field of the Mubadala DC Open, a WTA 500 event.\n...\nTop players competing include WTA No. 3 Jessica Pegula and No. 10 Elina Svitolina. The powerhouse lineup also features No. 11 Marta Kostyuk, No. 13 Naomi Osaka, No. 18 Diana Shnaider, No. 15 Jasmine Paolini, and No. 20 Anna Kalinskaya.\n...\nSeveral other top 30 players are also set to clash, including Madison Keys, Leylah Fernandez, Clara Tauson, Emma Navarro, Anastasia Potapova, and Ann Li.\n...\nAlso competing are Magdalena Frech, Cristina Bucsa, Katerina Siniakova, Xinyu Wang, Qinwen Zheng, Liudmila Samsonova, and Eala’s 'SEA-ster', Janice Tjen.\n...\nThe tournament's main draw is scheduled to run from July 27 to August 2.\n...\n**Alex, Venus team up anew**\n...\nEala and Williams are also teaming up once again on the hardcourts.\n...\nThe Filipino rising star and the former world No. 1 have been confirmed as a wildcard pairing in the doubles draw at the Mubadala DC Open.\n...\n“Dream Team,” the DC Open official page wrote on Instagram. \n[**Singapore PM tells Marcos: Eala may be first Southeast Asian to bring home Grand Slam **](https://www.abs-cbn.com/sports/othersports/2026/7/16/eala-may-be-first-southeast-asian-to-win-grand-slam-title-singapore-pm-1421) \nThe two have history together on court, as they first partnered at the WTA 500 Bad Homburg Open in Germany last June, winning their opening match over Alexandra Osborne and Catherine Harrison before bowing out in the quarterfinals.\n...\nThe reunion comes at a high point for Eala, who was just named Star of the Swing for the 2026 grass-court season.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlex Eala to resume campaign in Mubadala DC Open | The Manila Times\u003c/title\u003e\n\u003curl\u003ehttps://www.manilatimes.net/2026/07/08/sports/alex-eala-to-resume-campaign-in-mubadala-dc-open/2380425\u003c/url\u003e\n\u003ccontent\u003eAlex Eala to resume campaign in Mubadala DC Open | The Manila Times\n\nTHE SUNDAY TIMES\n\nMedia OutReach Newswire\n\nEXPATS \u0026 DIPLOMATS\n\nTHE MANILA TIMES 500\n\nTMT DIGITAL EDITION\n\nTMT 127TH ANNIVERSARY\n\n# Alex Eala to resume campaign in Mubadala DC Open\n\nMANILA, Philippines — After a solid grass court season capped by a historic Wimbledon run, Filipino tennis ace Alex Eala will take a 3-week break before returning to action at the Mubadala DC Open slated from July 27 to August 2.\n\nMubadala is a 500-level event set in Washington, D.C., United States, where world No. 32 Eala will begin her North American hard-court swing which culminates in the final major of the year -- the US Open.\n\nWorld No. 8 Elina Svitolina, No. 13 Marta Kostyuk, No. 14 Naomi Osaka, and No. 16 Iva Jovic are some of the star players confirmed in the main draw of the tourney.\n\nAfter Washington, Eala is expected to take her act at the National Bank Open in Toronto set from August 1 to 13.\n\nEala just finished a dream run in Wimbledon where she became the first Filipino singles player to reach the fourth round.\n\nGet the latest news delivered to your inbox\n\nSign up for The Manila Times newsletters\n\nBy signing up with an email address, I acknowledge that I have read and agree to the Terms of Service and Privacy Policy.\n\nEala defeated Mexican Renata Zarazua, Aussie Maya Joint, and defending champ in Polish Iga Swiatek before falling to Italian Jasmine Paolini in the round of 16 last Monday.\n\nThis website uses cookies. By continuing to browse the website, you are agreeing to our use of cookies. Read More.\n\nClose\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eEala, Venus Williams to team up anew in Mubadala DC Open doubles | Philstar.com\u003c/title\u003e\n\u003curl\u003ehttps://www.philstar.com/sports/2026/07/18/2542990/eala-venus-williams-team-anew-mubadala-dc-open-doubles\u003c/url\u003e\n\u003ccontent\u003e# Eala, Venus Williams to team up anew in Mubadala DC Open doubles\n...\nJuly 18, 2026 | 11:19am\n...\nMANILA, Philippines -- Filipina tennis ace Alex Eala is once again partnering with American icon Venus Williams, this time in the Mubadala DC Open in Washington, DC.\n...\nEala and Williams will be part of a star-studded doubles lineup in the tournament, which will feature 18 Grand Slam doubles and mixed doubles champions across both the ATP and the WTA tours.\n...\nEala and Williams first\n...\nin the first\n...\nThe Mubadala DC Open is scheduled from July 25 to August 2.\n...\nFor her part, Eala returned to the country last week, after a fruitful performance at Wimbledon.\n...\nShe reached the Round of 16 in the Grand Slam tournament before falling against Jasmine Paolini.\n...\nIn the doubles’ tournament, Eala and partner Nikola Bartunkova bowed out in the first round against Jelena Ostapenko and Sofia Kenin.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Alex Eala joins star-studded DC Open player list | ABS-CBN Sports](https://www.abs-cbn.com/sports/othersports/2026/7/18/alex-eala-joins-star-studded-dc-open-player-list-0025)\n2. [Alex Eala to resume campaign in Mubadala DC Open | The Manila Times](https://www.manilatimes.net/2026/07/08/sports/alex-eala-to-resume-campaign-in-mubadala-dc-open/2380425)\n3. [Eala, Venus Williams to team up anew in Mubadala DC Open doubles | Philstar.com](https://www.philstar.com/sports/2026/07/18/2542990/eala-venus-williams-team-anew-mubadala-dc-open-doubles)\n\nSynthesis:\nAlex Eala is confirmed to compete in the 2026 Mubadala DC Open in Washington, D.C. [1][2][3]. She is entered in the tournament's main draw for singles and will also partner with Venus Williams in the doubles competition [1][4][5]. The WTA 500 hard-court event is scheduled to run from July 27 to August 2, 2026, with qualifying rounds held from July 25 to 26 [1][6][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala joins star-studded DC Open player list | ABS-CBN Sports\u003c/title\u003e\n\u003curl\u003ehttps://www.abs-cbn.com/sports/othersports/2026/7/18/alex-eala-joins-star-studded-dc-open-player-list-0025\u003c/url\u003e\n\u003ccontent\u003e# Alex Eala joins star-studded DC Open player list\n...\n#### Dyan Castillejo,\n...\n#### ABS-CBN News\n#### Published July 18, 2026 12:25 AM PHT\n...\nFilipina tennis star Alex Eala and tennis legend Venus Williams join the star-studded singles field of the Mubadala DC Open, a WTA 500 event.\n...\nTop players competing include WTA No. 3 Jessica Pegula and No. 10 Elina Svitolina. The powerhouse lineup also features No. 11 Marta Kostyuk, No. 13 Naomi Osaka, No. 18 Diana Shnaider, No. 15 Jasmine Paolini, and No. 20 Anna Kalinskaya.\n...\nSeveral other top 30 players are also set to clash, including Madison Keys, Leylah Fernandez, Clara Tauson, Emma Navarro, Anastasia Potapova, and Ann
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -238,10 +185,8 @@ gaps — including Paolini's Slam-winner promotion and missing links.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -254,20 +199,12 @@ Result:
 
 ```json
 {
-  "markdown": "Alexandra Eala | Player Stats \u0026 More – WTA Official\n\nGo back to the home page\n\n-\n\nAlexandra Eala | Player Stats \u0026 More – WTA Official\n[Skip to main content](#)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/1fed3d88-0b63-4e6c-92ec-98051c1e381c/WTAxMB-star_joint-logo_h_MB-version_p_3C_web-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/wta/)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/)\n[\n![WTA Logo](https://photoresources.wtatennis.com/wta/document/2025/12/04/5da42b69-828e-4814-9ef9-daa4c8f68b2e/WTA_Logo_Core_Purple_RGB.svg)\nGo back to the home page\n](https://www.wtatennis.com)\n-\n[\n![WTA_Web_Quick-Links_Tiles-Scores_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=142\u0026height=142)\nScores\n](/scores)\n[\n![WTA_Web_Quick-Links_Tiles-Rankings_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/de183c42-affb-457b-b525-7632af6b3ff4/WTA_Web_Quick-Links_Tiles-Rankings_288x288.png?width=142\u0026height=142)\nRankings\n](/rankings)\n[\n![WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288](https://photoresources.wtatennis.com/photo-resources/2026/06/26/0964ad3d-37bb-440e-b790-147373d5546b/WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288.png?width=142\u0026height=142)\nExclusives\n](/collections/exclusive-content)\n[\n![Finals Quick Link Tile](https://photoresources.wtatennis.com/photo-resources/2026/07/01/31b16e6f-6330-402d-939e-6637056caeed/Finals-Quick-Link-Tile.png?width=142\u0026height=142)\nFinals\n](/tournaments/wta-finals/tickets)\n[\n![WTA_Web_Quick-Links_Tiles-TourCalendar_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/0d87f564-b960-44f8-ab26-25311f04458a/WTA_Web_Quick-Links_Tiles-TourCalendar_288x288.png?width=142\u0026height=142)\nCalendar\n](/tournaments)\n[\n![WTA_Web_Quick-Links_Tiles-Video_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/530dc648-a1be-4e05-b3d3-448af7a569b6/WTA_Web_Quick-Links_Tiles-Video_288x288.png?width=142\u0026height=142)\nHighlights\n](/videos/highlights)\n[\n![unlocked](https://photoresources.wtatennis.com/photo-resources/2025/07/24/622320bc-5e8a-4e8b-a81d-50aad1e3852a/unlocked.png?width=142\u0026height=142)\nUnlocked\n](/unlocked)\n[\n![WTA_Web_Quick-Links_Tiles-H2H_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/608acc46-d2dc-4ae4-9fa9-4a10b93e08f6/WTA_Web_Quick-Links_Tiles-H2H_288x288.png?width=142\u0026height=142)\nH2H\n](/head-to-head)\n![Eala-Torso_330332](https://photoresources.wtatennis.com/photo-resources/2026/04/08/c6734b36-e108-4c6f-b3c5-8337d5ae93dd/Eala-Torso_330332.png?width=790\u0026height=740)\nInactive\nFavorite\n# Alexandra\nEala\n![PHI](/resources/v7.48.5/i/elements/flags/phi.svg)\nPHI\n21 yrs\n5' 9'' (1.75m)\nYTD 2026\nCareer\nCurrent Singles Rank\n28\n![](/resources/v7.48.5/i/elements/trophy-56.png)\nSingles Titles\n0\n![](/resources/v7.48.5/i/elements/trophy-56.png)\nWon / Lost\n30 / 18\n![](/resources/v7.48.5/i/elements/trophy-56.png)\nPrize Money\n\u0026dollar;1,285,330\n![](/resources/v7.48.5/i/elements/trophy-56.png)\n## Stories\nLoading videos\n## Biography\n* Coached by Joan Bosch\n*\nStarted playing tennis aged four\n*\nCompeted in the WTA Future Stars event in 2016 and 2017 in Singapore (first time at age 11 and won the Li Na Inspiration Award)\n*\nMade WTA Tour debut at 2021 Miami in qualifying\n*\nTrains at the Rafael Nadal Academy in Mallorca\n*\nPreferred surface is hard\n*\nParents are Mike and Rizza (who was a professional swimmer who competed at the 1985 Southeast Asian Games); brother is also a budding tennis player\n*\nEnjoys upbeat Spanish music and watching comedy and horror movies\n*\nLoves ice cream, rice and milk tea\n## Plays\nLeft-Handed\n## Career High\n28\n## Height\n5' 9'' (1.75m)\n## Birthday\nMay 23, 2005\nMay 23, 2005\n## Birthplace\nQuezon City, Philippines\n## Career Highlights\nSINGLES\nFinalist (1): 2025 - Eastbourne\nWTA 125 TITLES AND FINALS\nSINGLES\nWinner (2): 2026 - Birmingham\n2025 - Guadalajara\n## Career in Review\nBreakout 2025 season saw her break into the Top 100 after SF run at WTA 1000 Miami; as a wild card she registered back-to-back Top 10 wins over No.5 Keys and No.2 Swiatek. Went on to reach maiden Tour final at Eastbourne and then won her first WTA 125 title Guadalajara. Her year-end ranking was a career high No.50\nFollowing her Miami 2025 result, she made history by becoming the first player from the Philippines to reach a WTA 1000 semifinal and the first to enter the WTA World Top 100 ranking\nIn 2024 made 2r at WTA 1000 Madrid (l. Cirstea) as well as playing main draw at Abu Dhabi, Guadalajara, Wuhan, Guangzhou and Jiujiang. Earned fourth ITF career title at W100 Vitoria-Gasteiz and reached a career high ranking of No.143 in July\nEntered first Grand Slam in 2023 at Australian Open qualifying (l. Doi in Q1). As a qualifier reached main draw at Hua Hin (l. Maria), Osaka (l. Sakatsume), Guangzhou (l. Maria) and Monastir (l. Mertens) taking her ranking into Top 200 for first time\nClaimed first ITF title in 2022 at Chiang Rai $25K and also played WTA Miami opening main draw match (l. Brengle) and qualifying at Madrid (l. Bondar).\nIn 2021 played first Tour level match at Miami qualifying (l. Kuzmova) and reached 2r at Cluj Napoca on clay (l. Sherif).\nBest result of 2021 was reaching QF at Grenoble $25K\nBegan on the ITF circuit in 2020 at the age of 14\nRead Full Biography\nHide Full Biography\n## Latest Matches\n[\nAll Matches\n](/players/330332/alexandra-eala/matches)\nLoading matches\nSorry, there are no matches available for this year.\nMatches do not include current week match results.\n## Player updates\n[\nAll news\nView all news\n](/news)\n[\n](/news/4538115/venus-williams-and-alexandra-eala-team-up-again-for-mubadala-dc-open-doubles)\n![Venus Williams and Alexandra Eala, Bad Homburg 2026](https://photoresources.wtatennis.com/photo-resources/2026/07/18/1aff9c19-7377-4f23-b199-ce68c6c94cbe/Venus-Williams-and-Alexandra-Eala-Bad-Homburg-2026.jpg?width=500\u0026height=500)\n###\nVenus Williams and Alexandra Eala to team up again for Mubadala DC Open doubles\n1m read\n19h ago\n[](/videos/4537116/full-match-replay-eala-upsets-rybakina-in-berlin-for-fifth-top-10-win)\nRegister to view\n###\nFull match replay: Eala upsets Rybakina in Berlin for fifth Top 10 win\n2d ago\n![Full match replay Eala upsets Rybakina in Berlin for fifth Top 10 win](https://photoresources.wtatennis.com/photo-resources/2026/07/16/be656199-cc11-44b4-ad82-bb9fe5ab8cb0/sA9yj5oe.jpg?width=160\u0026height=160)\n01:18:59\n[](/news/4531622/paolini-pips-eala-becomes-first-italian-woman-with-multiple-wimbledon-quarterfinals)\n[\nMatch Reaction\n](/news/match-reaction)\n###\nPaolini outlasts Eala to reach second Wimbledon quarterfinal, will face Kostyuk\n4m read\n1w ago\n![Jasmine Paolini](https://photoresources.wtatennis.com/photo-resources/2026/07/06/5148b40a-1af9-421a-9e99-91e96b250235/Jasmine_Paolini_-_Wimbledon_Championships_2026_-_Day_8-DSC_1366.jpg?width=160\u0026height=160)\n[](/news/4530974/anatomy-of-a-hot-shot-capturing-alexandra-ealas-centre-court-dive)\n[\nSocial Buzz\n](/news/social-buzz)\n###\nAnatomy of a hot shot: Capturing Alexandra Eala's Centre Court stretch\n2m read\n1w ago\n![Alexandra Eala, Wimbledon 2026](https://photoresources.wtatennis.com/photo-resources/2026/07/05/248c0e25-3c69-4398-9a00-55b1451885ac/Eala-R3-Jimmie.jpg?width=160\u0026height=160)\n[](/news/4530785/best-of-wimbledon-round-3-swiatek-rybakina-exits-open-door-for-new-contenders)\nRegister to view\n[\nanalysis\n](/news/analysis)\n###\nBest of Wimbledon Round 3: Swiatek, Rybakina exits open door for new contenders\n5m read\n2w ago\n![Linda Noskova, Wimbledon 2023](https://photoresources.wtatennis.com/photo-resources/2026/07/04/e40e059e-50a9-4990-8b15-f7727e26de36/GettyImages-2284051734.jpg?width=160\u0026height=160)\n[](/news/4530668/eala-dethrones-swiatek-at-wimbledon-to-make-new-history-for-the-philippines)\n[\nMatch Reaction\n](/news/match-reaction)\n###\nEala dethrones Swiatek at Wimbledon to make new history for the Philippines\n5m read\n2w ago\n![Alexandra Eala, Wimbledon 2026](https://photoresources.wtatennis.com/photo-resources/2026/07/04/88233e8b-97a7-4178-bd58-6cb8e4ef13ea/Eala-R3-Henry-Nicholls-AFP.jpg?width=160\u0026height=160)\n[](/news/4530337/the-best-moments-from-a-wild-first-week-at-wimbledon)\n[\nanalysis\n](/news/analysis)\n###\nBest moments from the first week at Wimbledon: Osaka's statement win, Serena's return\n5m read\n1w ago\n![naomi osaka wimbledon 2026](https://photoresources.wtatennis.com/photo-resources/2026/07/06/d4e12c17-e5c8-4d24-9b58-204e6cd581f6/GettyImages-2284203813.jpg?width=160\u0026height=160)",
-  "url": "https://www.wtatennis.com/players/330332/alexandra-eala"
-}
+  "markdown": "Alexandra Eala | Player Stats \u0026 More – WTA Official\n\nGo back to the home page\n\n-\n\nAlexandra Eala | Player Stats \u0026 More – WTA Official\n[Skip to main content](#)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/1fed3d88-0b63-4e6c-92ec-98051c1e381c/WTAxMB-star_joint-logo_h_MB-version_p_3C_web-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/wta/)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/)\n[\n![WTA Logo](https://photoresources.wtatennis.com/wta/document/2025/12/04/5da42b69-828e-4814-9ef9-daa4c8f68b2e/WTA_Logo_Core_Purple_RGB.svg)\nGo back to the home page\n](https://www.wtatennis.com)\n-\n[\n![WTA_Web_Quick-Links_Tiles-Scores_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=142\u0026height=142)\nScores\n](/scores)\n[\n![WTA_Web_Quick-Links_Tiles-Rankings_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/de183c42-affb-457b-b525-7632af6b3ff4/WTA_Web_Quick-Links_Tiles-Rankings_288x288.png?width=142\u0026height=142)\nRankings\n](/rankings)\n[\n![WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288](https://photoresources.wtatennis.com/photo-resources/2026/06/26/0964ad3d-37bb-440e-b790-147373d5546b/WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288.png?width=142\u0026height=142)\nExclusives\n](/collections/exclusive-content)\n[\n![Finals Quick Link Tile](https://photoresources.wtatennis.com/photo-resources/2026/07/01/31b16e6f-6330-402d-939e-6637056caeed/Finals-Quick-Link-Tile.png?width=142\u0026height=142)\nFinals\n](/tournaments/wt
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
 
 </details></tool-use>
 
@@ -276,13 +213,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A career-high number was found.
 
-Paolini's French Open title needs a promotion update. The DC Open doubles pairing is upcoming. No new tournament results exist since July 13. A Bad Homburg loss is below the quarterfinal threshold. Missing Wimbledon links are being checked.</details></think>
+Paolini's French Open title needs a promotion update. The DC Open doubles pairing is upcoming. No new tournament results exist since July 13. A Bad Homburg loss is below the quarterfinal threshold. Missing Wimbledon links are being checked.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: sleep 3 && curl -sL "https://www.wtatennis.com/players/319280/jasmine-paolini" | grep -iE 'Career High|Grand Slam|French Open|Wimbledon|title' | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 3 &amp;&amp; curl -sL &#34;https://www.wtatennis.com/players/319280/jasmine-paolini&#34; | grep -iE &#39;Career High|Grand Slam|French Open|Wimbledon|title&#39; | head -30</summary>
 ```bash
 sleep 3 && curl -sL "https://www.wtatennis.com/players/319280/jasmine-paolini" | grep -iE 'Career High|Grand Slam|French Open|Wimbledon|title' | head -30
 ```
@@ -291,20 +228,12 @@ sleep 3 && curl -sL "https://www.wtatennis.com/players/319280/jasmine-paolini" |
 ]633;C]633;D;1
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -320,23 +249,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alexandra Eala (PHI) - Ladies' Singles](https://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf)\n\nSynthesis:\nAt the 2026 Wimbledon Championships, Alexandra Eala competed in several matches. She defeated Renata Zarazua in an earlier round [1] and secured a victory against Taylah Joint in the deciding set [2]. Eala then reached the third round, where she defeated Iga Swiatek with a score of 7-6(9), 6-2 [3]. Her tournament run concluded in the fourth round, where she was defeated by Jasmine Paolini [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala (PHI) - Ladies' Singles\u003c/title\u003e\n\u003curl\u003ehttps://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf\u003c/url\u003e\n\u003ccontent\u003e## Alexandra Eala (PHI) Ladies' Singles\n\n| | | | Code-\u003eEvent | From To Participations | | Matches | Won/Lost | | Walkovers W/L | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | Total | 2021 2025 | 3 | 6 | | 3 / 3 | | | 0 / 0 | | |\n| | | | GS-\u003eJunior Girls' Singles | 2021 2021 | 1 | 2 | | 1 / 1 | | | 0 / 0 | | |\n| | | | RS-\u003eQualif. Ladies' Singles | 2024 2024 | 1 | 3 | | 2 / 1 | | | 0 / 0 | | |\n| | | | LS-\u003eLadies' Singles | 2025 2025 | 1 | 1 | | 0 / 1 | | | 0 / 0 | | |\n| Year | | Opponent's Name | | | | Seed | | Rnd | Result | | | Score | |\n| 2021 | | Alexandra Eala (PHI) seeded 2 | | | | | | | | | | | |\n| GS | | Solana Sierra (ARG) | | | | | | | 1 | W | | 6/2 6/4 | |\n| GS | | Ane Mintegi Del Olmo (ESP) | | | | | | | 2 | L | | 6/3 4/6 5/7 | |\n| 2024 | | Alexandra Eala (PHI) | | | | | | | | | | | |\n| RS | | Jessika Ponchet (FRA) | | | | | | | 1 | W | | 7/6(1) 6/4 | |\n| RS | | Tamara Zidansek (SLO) | | | | | 14 | | 2 | W | | 1/6 7/6(9) 6/3 | |\n| RS | | Lulu Sun (NZL) | | | | | 23 | | 3 | L | | 6/7(3) 5/7 | |\n| 2025 | | Alexandra Eala (PHI) | | | | | | | | | | | |\n| LS | | Barbora Krejcikova (CZE) | | | | | 17 | | 1 | L | | 6/3 2/6 1/6 | |\n\nThis material is the copyright of the All England Lawn Tennis Club and may not be reproduced in any form without written permission. Page 1/1\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Alexandra Eala (PHI) - Ladies' Singles](https://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf)\n\nSynthesis:\nAt the 2026 Wimbledon Championships, Alexandra Eala competed in several matches. She defeated Renata Zarazua in an earlier round [1] and secured a victory against Taylah Joint in the deciding set [2]. Eala then reached the third round, where she defeated Iga Swiatek with a score of 7-6(9), 6-2 [3]. Her tournament run concluded in the fourth round, where she was defeated by Jasmine Paolini [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala (PHI) - Ladies' Singles\u003c/title\u003e\n\u003curl\u003ehttps://assets.wimbledon.com/archive/draws/pdfs/players/633ebec6-3d18-4bbe-9081-1e1be9b08309_LS.pdf\u003c/url\u003e\n\u003ccontent\u003e## Alexandra Eala (PHI) Ladies' Singles\n\n| | | | Code-\u003eEvent | From To Participations | | Matches | Won/Lost | | Walkovers W/L | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | Total | 2021 2025 | 3 | 6 | | 3 / 3 | | | 0 / 0 | | |\n| | | | GS-\u003eJunior Girls' Singles | 2021 2021 | 1 | 2 | | 1 / 1 | | | 0 / 0 | | |\n| | | | RS-\u003eQualif. Ladies' Singles | 2024 2024 | 1 | 3 | | 2 / 1 | | | 0 / 0 | | |\n| | | | LS-\u003eLadies' Singles | 2025 2025 | 1 | 1 | | 0 / 1 | | | 0 / 0 | | |\n| Year | | Opponent's Name | | | | Seed | | Rnd | Result | | | Score | |\n| 2021 | | Alexandra Eala (PHI) seeded 2 | | | | | | | | | | | |\n| GS | | Solana Sierra (ARG) | | | | | | | 1 | W | | 6/2 6/4 | |\n| GS | | Ane Mintegi Del Olmo (ESP) | | | | | | | 2 | L | | 6/3 4/6 5/7 | |\n| 2024 | | Alexandra Eala (PHI) | | | | | | | | | | | |\n| RS | | Jessika Ponchet (FRA) | | | | | | | 1 | W | | 7/6(1) 6/4 | |\n| RS | | Tamara Zidansek (SLO) | | | | | 14 | | 2 | W | | 1/6 7/6(9) 6/3 | |\n| RS | | Lulu Sun (NZL) | | | | | 23 | | 3 | L | | 6/7(3) 5
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -345,31 +263,21 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking curl output and searching for Wimbledon match page URLs.
 
-Also fetching tennis.com for recent activity.</details></think>
+Also fetching tennis.com for recent activity.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="await">
-<details>
-<summary>Tool use: **await**</summary>
-
-Status: **completed**
-
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="unknown" data-tool-name="await"><details>
 <summary>Tool use: **await**</summary>
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -390,13 +298,6 @@ User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -406,27 +307,20 @@ Tennis.com shows the career high doubles rank as 130, not 88.
 
 The tracker lists No. 88 as the doubles career high. This conflicts with tennis.com showing 130. The singles fetch did not clearly display the doubles career high. I will check the WTA profile directly.
 
-The tennis.com fetch returned limited content without an activity feed. I will read the curl output and search for the doubles career high.</details></think>
+The tennis.com fetch returned limited content without an activity feed. I will read the curl output and search for the doubles career high.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/211640.txt</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/211640.txt</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -442,28 +336,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Eala surges to career-high No. 88 in WTA doubles rankings | The Manila Times](https://www.manilatimes.net/2026/05/04/sports/eala-surges-to-career-high-no-88in-wta-doubles-rankings/2334614)\n2. [Eala reaches career-best No. 88 in WTA doubles, climbs to No. 42 in singles](https://www.dzrh.com.ph/post/eala-reaches-career-best-no-88-in-wta-doubles-climbs-to-no-42-in-singles)\n3. [Alexandra Eala](https://en.wikipedia.org/wiki/Alexandra_Eala)\n4. [Alexandra Eala Stats | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/330332/-/stats)\n5. [Eala surges to career-high No. 88�in WTA doubles rankings - Worldnews.com](https://article.wn.com/view/2026/05/04/Eala_surges_to_careerhigh_No_88_in_WTA_doubles_rankings/)\n\nSynthesis:\nAlexandra Eala reached a career-high WTA doubles ranking of world number 88 on May 4, 2026 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala surges to career-high No. 88 in WTA doubles rankings | The Manila Times\u003c/title\u003e\n\u003curl\u003ehttps://www.manilatimes.net/2026/05/04/sports/eala-surges-to-career-high-no-88in-wta-doubles-rankings/2334614\u003c/url\u003e\n\u003ccontent\u003eEala surges to career-high No. 88 in WTA doubles rankings | The Manila Times\n\n# Eala surges to career-high No. 88 in WTA doubles rankings\n\nMANILA, Philippines — Filipino sensation Alexandra \"Alex\" Eala rose to career-high No. 88 in the official Women's Tennis Association (WTA) doubles rankings on Monday.\n\nEala gained 120 ranking points for a total of 888, rising 13 spots from No. 101 two weeks ago and eclipsing her previous high of No. 99 by 11 notches.\n\nPremium + Digital Edition\n\nAd-free access\n\nP 80 per month (billed annually at P 960)\n\n- Unlimited ad-free access to website articles\n- Limited offer: Subscribe today and get digital edition access for free (accessible with up to 3 devices)\n\nTRY FREE FOR 14 DAYS\n\nSee details\n\nSee details\n\nIf you have an active account, log in here.\n\nThis website uses cookies. By continuing to browse the website, you are agreeing to our use of cookies. Read More.\n\nClose\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eEala reaches career-best No. 88 in WTA doubles, climbs to No. 42 in singles\u003c/title\u003e\n\u003curl\u003ehttps://www.dzrh.com.ph/post/eala-reaches-career-best-no-88-in-wta-doubles-climbs-to-no-42-in-singles\u003c/url\u003e\n\u003ccontent\u003eEala reaches career-best No. 88 in WTA doubles, climbs to No. 42 in singles\n\nJuly 11, 2026 Saturday\n\nloading...\n\nSearch\n\nnation\n\nentertainment\n\nworld\n\nsports\n\nlifestyle\n\nLoad More Posts...\n\nAll posts loaded...\n\nEala reaches career-best No. 88 in WTA doubles, climbs to No. 42 in singles\n\nSports\n\nEala reaches career-best No. 88 in WTA doubles, climbs to No. 42 in singles\n\nby Thea Divina04 May 2026\n\nPhoto from Internazionali BNL d'Italia / Facebook\n\nAlexandra “Alex” Eala moved up to a career-high No. 88 in the Women’s Tennis Association (WTA) doubles rankings on Monday, while also improving to No. 42 in the singles standings after another strong stretch on tour.\n\nEala collected 120 ranking points for a total of 888, jumping 13 places from No. 101 two weeks earlier and surpassing her previous best of No. 99 in doubles.\n\nThe 20-year-old competed in the Madrid doubles event alongside Turkish partner Zeynep Sönmez, where they reached the second round.\n\nHer latest rise in the rankings comes ahead of the WTA 1000 Italian Open in Rome, set for May 5 to 17, where she is expected to compete as part of her clay-court campaign.\n\nAfter Rome, Eala is scheduled to play in the qualifying rounds of the WTA 500 Strasbourg Grand Prix Open from May 17 to 23. She turns 21 on May 23.\n\nShe is also listed to make her second appearance at Roland Garros, which runs from May 24 to June 7, as she continues to improve her position in both singles and doubles.\n\nShare\n\nRelated Topics\n\nWatch Live\n\nlisten Live\n\nDZRH News Live Streaming\n\nListen Live\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eAlexandra Eala\u003c/title\u003e\n\u003curl\u003ehttps://en.wikipedia.org/wiki/Alexandra_Eala\u003c/url\u003e\n\u003ccontent\u003eAlexandra Maniego Eala (born May 23, 2005) is a Filipino professional tennis player. She achieved a career-high singles ranking of world No. 29 by the WTA on March 16, 2026, making her the highest-ranked Filipino in WTA Tour history. Eala is the first Filipino to break into the WTA top 30, have multiple wins over top-10 players and major champions, and reach a tour-level final in the Open Era.\n...\n| Eala at the 2025 SEA Games | - |\n| --- | --- |\n| Full name | Alexandra Maniego Eala |\n| Country (sports) | Philippines |\n| Residence | Metro Manila, Philippines, Mallorca, Spain |\n| Born | (2005-05-23) May 23, 2005 (age 21), Quezon City, Philippines |\n| Height | 1.75 m (5 ft 9 in) |\n| Turned pro | March 2020 |\n| Plays | Left-handed (two-handed backhand) |\n| Coach | Joan Bosch, Alexandro Viaene, Lluc Bauza |\n| Prize money | US$ 2,235,123 |\n| Singles | - |\n| Career record | 221–134 |\n| Career titles | 2 WTA 125 |\n| Highest ranking | No. 29 (March 16, 2026) |\n| Current ranking | No. 32 (June 29, 2026) |\n| Grand Slam singles results | - |\n| Australian Open | 1R (2026) |\n| French Open | 1R (2025, 2026) |\n| Wimbledon | 3R (2026) |\n| US Open | 2R (2025) |\n| Doubles | - |\n| Career record | 49–48 |\n| Career titles | 0 |\n| Highest ranking | No. 88 (May 4, 2026) |\n| Current ranking | No. 126 (June 29, 2026) |\n| Grand Slam doubles results | - |\n| Australian Open | 1R (2026) |\n| French Open | 2R (2025) |\n| Wimbledon | 1R (2025, 2026) |\n...\nAt the Indian Wells Open, Eala advanced to the fourth round, before falling to Linda Nosková. In doubles, she and Iva Jovic were eliminated in the opening round. Her singles run contributed to a career-high ranking of world No. 29 on March 16, 2026. She followed this with another fourth-round appearance at the Miami Open, where she was defeated by Karolína Muchová.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eAlexandra Eala Stats | Player Stats \u0026 More – WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/players/330332/-/stats\u003c/url\u003e\n\u003ccontent\u003eCurrent Singles Rank\n...\n2026\n...\n2026\n...\nSingles Career High Ranking\n...\nDoubles Ranking\n...\n130\nDoubles Career High Ranking\n88\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eEala surges to career-high No. 88�in WTA doubles rankings - Worldnews.com\u003c/title\u003e\n\u003curl\u003ehttps://article.wn.com/view/2026/05/04/Eala_surges_to_careerhigh_No_88_in_WTA_doubles_rankings/\u003c/url\u003e\n\u003ccontent\u003eEala surges to career-high No. 88�in WTA doubles rankings - Worldnews.com\n\n# Eala surges to career-high No. 88�in WTA doubles rankings\n\nPosted 2026-05-04, The Manila Times Headlines\n\nMANILA, Philippines — Filipino sensation Alexandra \"Alex\" Eala rose career-high No. 88 in the official Women's Tennis Association (WTA) doubles rankings on Monday. Eala gained 120 ranking points for a total of 888, rising 13 spots from No. 101 two weeks ago and eclipsing her previous high of No. 99 by 11 notches. ... read full story\n\n## Ask about this article\n\nAnswer for your question of the article will be displayed here ...\n\nInterpret\n\n## Related News\n\n### Doubles career-high: Alex Eala climbs 14 spots to No. 87 at WTA live rankings\n\nThe Manila Times 2026-04-25, 02:30\n\n### Eala eyes top 30 WTA ranking return\n\nThe Manila Times 2026-03-25, 16:39\n\n### Alex Eala jumps to No. 39 in WTA live rankings\n\nThe Manila Times 2026-05-05, 02:19\n\n## Related News\n\n### Eala surges to career-high 88th in doubles\n\nThe Manila Times 2026-05-04, 17:30\n\n### Alex Eala hits new career-best No. 29 at WTA rankings\n\nThe Manila Times 2026-03-16, 01:40\n\n### Eala nets P6.3 million, new career-high No. 28 ranking from Indian Wells stint\n\nThe Philippine Star 2026-03-12, 03:39\n\n### Eala, Baptiste exit Italian Open doubles, losing to top 2 WTA players\n\nThe Philadelphia Inquirer 2026-05-12, 13:27\n\n### Alex Eala rises to No. 28 in WTA live rankings\n\nThe Manila Times 2026-03-07, 09:18\n\n### Eala drops to 49th in WTA live rankings as last year’s 390 Miami Open points expire\n\nThe Manila Times 2026-03-17, 01:21\n\n### Alex Eala Slides to No. 45 in WTA Rankings After Miami as Clay Season Looms\n\nGulf News 2026-03-30, 10:37\n\n### EXPLORE WN.com\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    },
-    {
-      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f37c4cfa-fed8-4212-b8ed-fd35aa49aa68.txt\nSize: 28.0 KB, 384 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
-      "title": "Alexandra Eala",
-      "url": "https://en.wikipedia.org/wiki/Alexandra_Eala"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Eala surges to career-high No. 88 in WTA doubles rankings | The Manila Times](https://www.manilatimes.net/2026/05/04/sports/eala-surges-to-career-high-no-88in-wta-doubles-rankings/2334614)\n2. [Eala reaches career-best No. 88 in WTA doubles, climbs to No. 42 in singles](https://www.dzrh.com.ph/post/eala-reaches-career-best-no-88-in-wta-doubles-climbs-to-no-42-in-singles)\n3. [Alexandra Eala](https://en.wikipedia.org/wiki/Alexandra_Eala)\n4. [Alexandra Eala Stats | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/330332/-/stats)\n5. [Eala surges to career-high No. 88�in WTA doubles rankings - Worldnews.com](https://article.wn.com/view/2026/05/04/Eala_surges_to_careerhigh_No_88_in_WTA_doubles_rankings/)\n\nSynthesis:\nAlexandra Eala reached a career-high WTA doubles ranking of world number 88 on May 4, 2026 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala surges to career-high No. 88 in WTA doubles rankings | The Manila Times\u003c/title\u003e\n\u003curl\u003ehttps://www.manilatimes.net/2026/05/04/sports/eala-surges-to-career-high-no-88in-wta-doubles-rankings/2334614\u003c/url\u003e\n\u003ccontent\u003eEala surges to career-high No. 88 in WTA doubles rankings | The Manila Times\n\n# Eala surges to career-high No. 88 in WTA doubles rankings\n\nMANILA, Philippines — Filipino sensation Alexandra \"Alex\" Eala rose to career-high No. 88 in the official Women's Tennis Association (WTA) doubles rankings on Monday.\n\nEala gained 120 ranking points for a total of 888, rising 13 spots from No. 101 two weeks ago and eclipsing her previous high of No. 99 by 11 notches.\n\nPremium + Digital Edition\n\nAd-free access\n\nP 80 per month (billed annually at P 960)\n\n- Unlimited ad-free access to website articles\n- Limited offer: Subscribe today and get digital edition access for free (accessible with up to 3 devices)\n\nTRY FREE FOR 14 DAYS\n\nSee details
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -476,14 +354,13 @@ Paolini needs promotion to Grand Slam Champions. Wimbledon 2026 singles links mu
 
 Bad Homburg R32 is below the threshold and excluded. Paolini's Grand Slam Champions block is drafted with her French Open 2024 win, career high of No. 4, and head-to-head links.
 
-Paolini’s 2026 Wimbledon fourth-round loss and Dubai round-of-32 win are being added. She will be inserted between Keys and Vondrousova in the Grand Slam Champions list. The wimbledon.com match URLs for all 2026 Wimbledon rounds still need to be found.</details></think>
+Paolini’s 2026 Wimbledon fourth-round loss and Dubai round-of-32 win are being added. She will be inserted between Keys and Vondrousova in the Grand Slam Champions list. The wimbledon.com match URLs for all 2026 Wimbledon rounds still need to be found.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -499,32 +376,19 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alexandra Eala Iga Swiatek live score and H2H results - Sofascore](https://www.sofascore.com/tennis/match/alexandra-eala-iga-swiatek/xpQbsziGc)\n2. [Alex Eala dethrones defending champion Iga Swiatek in Wimbledon third round - ESPN](https://www.espn.com.au/tennis/story/_/id/49268443/alex-eala-dethrones-defending-champion-iga-swiatek-wimbledon-third-round)\n3. [Wimbledon 2026 results: Alexandra Eala dedicates Iga Swiatek victory to 'all the girls with ruffled socks and chubby cheeks' - BBC Sport](https://www.bbc.com/sport/tennis/articles/cjwgpz3wj69o)\n4. [Reigning champion Iga Swiatek crashes out in straight sets as Alexandra Eala pulls off major shock to progress to the round of 16 at Wimbledon 2026](https://www.tntsports.co.uk/tennis/wimbledon-women/2026/live-alexandra-eala-iga-swiatek_mtc1655158/live-commentary.shtml)\n5. [Wimbledon 2026: Alexandra Eala stuns reigning champion Iga Świątek in third-round epic](https://www.olympics.com/en/news/wimbledon-2026-alexandra-eala-defending-champion-iga-swiatek-third-round)\n\nSynthesis:\nAlexandra Eala defeated defending champion Iga Swiatek 7-6(11-9), 6-2 on Centre Court at Wimbledon on July 4, 2026 [1][2][3]. This third-round victory lasted two hours and 15 minutes, marking Eala's first time reaching the round of 16 at a Grand Slam [4][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala Iga Swiatek live score and H2H results - Sofascore\u003c/title\u003e\n\u003curl\u003ehttps://www.sofascore.com/tennis/match/alexandra-eala-iga-swiatek/xpQbsziGc\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala Iga Swiatek live score and H2H results - Sofascore\n...\n# Alexandra Eala vs Iga Swiatek live score and H2H results\n...\n- Tennis\n- Grand Slam\n- Wimbledon, London, Great Britain, Round of 32\n...\n04/07/2026\n...\n12:30\n...\nWimbledon, Women\n...\nCentre Court stunned: Alexandra Eala knocks out Iga Swiatek at WimbledonAlexandra Eala toppled No. 3 seed Iga Swiatek 7-6(11-9) 6-2 at Wimbledon. Serve efficiency and fewer errors drove a measured Round of 32 win.Sofascore4 Jul 2026\n...\nA. Eala\n...\nDate and time04/07/2026\n...\n12:30\n...\nCompetitionTennis, Grand Slam, Wimbledon, London, Great Britain, Round of 32\n...\nVenueCentre Court\n...\nLocationLondon, United Kingdom\n...\nGround typeGrass\n...\nA. Eala I. Swiatek\n...\nWimbledon, Women\n...\nGrand Slam•\n...\nEalaI\n...\nSwiatek2\n...\nSwiatek\n...\nSwiatek\n...\nA. Eala\n...\n. Swiatek\n...\nWimbledon, Women\n...\nEalaI\n...\nSwiatek\n...\nWimbledon, Women\n...\nWimbledon, Women\n...\nAlexandra Eala\n...\nAlexandra Eala vs Iga Swiatek live match starts on 4 Jul 2026 at 12:30 UTC at Centre Court, London, United Kingdom. Alexandra Eala v Iga Swiatek is part of Wimbledon, London, Great Britain. Results of the previous head to head matches between Alexandra Eala and Iga Swiatek are also available on Sofascore.On our tennis event page you can find detailed statistics of the current match, such as:\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlex Eala dethrones defending champion Iga Swiatek in Wimbledon third round - ESPN\u003c/title\u003e\n\u003curl\u003ehttps://www.espn.com.au/tennis/story/_/id/49268443/alex-eala-dethrones-defending-champion-iga-swiatek-wimbledon-third-round\u003c/url\u003e\n\u003ccontent\u003eAlex Eala dethrones defending champion Iga Swiatek in Wimbledon third round - ESPN\n...\nAlex Eala reacts after beating Poland's Iga Swiatek in their women's singles third round match at the Wimbledon. Photo by Henry Nicholls / AFP via Getty Images\n...\nMarch 27, 2025 was the last time Iga Swiatek lost to a left-handed player. Four hundred sixty-five days later, the woman responsible for that defeat in Alex Eala once again toppled the Polish star, this time on the sport's most iconic stage.\n...\nEala stunned the defending champion Swiatek through a superb 7-6(9), 6-2 victory on Saturday at Centre Court to book her place in the Round of 16 of the 2026 Wimbledon Open.\n...\nThis moves their head-to-head matchup to 2-1 in favor of Eala. It would be remembered that part of the 21-year old's magical 2025 Miami Open run was a quarterfinal victory over the world no. 3, 6-2, 7-5. But Swiatek quickly responded with a 6-4, 4-6, 6-2 triumph over Eala in the 2025 Madrid Open.\n...\nTo serve for the match in the eighth game, Eala fended off four break points from Swiatek to complete the impressive victory.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eWimbledon 2026 results: Alexandra Eala dedicates Iga Swiatek victory to 'all the girls with ruffled socks and chubby cheeks' - BBC Sport\u003c/title\u003e\n\u003curl\u003ehttps://www.bbc.com/sport/tennis/articles/cjwgpz3wj69o\u003c/url\u003e\n\u003ccontent\u003eWimbledon 2026 results: Alexandra Eala dedicates Iga Swiatek victory to 'all the girls with ruffled socks and chubby cheeks' - BBC Sport\n...\nThree years ago, Alexandra Eala was presented with her graduation diploma from the Rafael Nadal tennis academy by Iga Swiatek.\n...\nOn Saturday, she produced a brave, crowd-enthralling performance on Wimbledon's Centre Court to stun defending champion Swiatek 7-6 (11-9) 6-2.\n...\nWith it, she became the first player from the Philippines to reach the fourth round of a Grand Slam in the Open era.\n...\nAsked what the victory meant, the 21-year-old replied: \"I went to train every day after school with my ruffled socks, light-up shoes and chubby cheeks - to younger me this is everything.\n...\ngirls with ruffled\n...\n21-year old Eala knocks out defending champion Swiatek\n...\nAgainst Swiatek on Wimbledon's biggest court, she absorbed the pressure admirably.\n...\nRoared on by a huge crowd on Henman Hill, Eala saved eight of the 11 break points she faced and hit 24 winners to 21 unforced errors to see off the six-time major champion.\n...\n\"The match started at 20:30 local time and everybody on social media was following the match and posting about Filipino pride,\" former Philippines tennis player Dyan Castillejo told Sportsworld on the BBC World Service.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eReigning champion Iga Swiatek crashes out in straight sets as Alexandra Eala pulls off major shock to progress to the round of 16 at Wimbledon 2026\u003c/title\u003e\n\u003curl\u003ehttps://www.tntsports.co.uk/tennis/wimbledon-women/2026/live-alexandra-eala-iga-swiatek_mtc1655158/live-commentary.shtml\u003c/url\u003e\n\u003ccontent\u003eReigning champion Iga Swiatek crashes out in straight sets as Alexandra Eala pulls off major shock to progress to the round of 16 at Wimbledon 2026\n...\n# Reigning champion Iga Swiatek crashes out in straight sets as Alexandra Eala pulls off major shock to progress to the round of 16 at Wimbledon 2026\n...\nA. Eala vs I. Swiatek | Wimbledon\n...\nWomen's Singles | Round 3 | 04.07.2026 | Centre Court\n...\nA. Eala (2\n...\nI. Swiatek (\n...\nDEFENDNG CHAMPION IGA SWIATEK BOWS OUT TO INSPIRED EALA AT WIMBLEDON 2026\n...\nAlexandra Eala secured the biggest win of her career as she defeated reigning Wimbledon champion Iga Swiatek to reach the round of 16 at a Grand Slam for the first time.\n...\nThe Filipina star took advantage of a sub-par performance from the six-time major winner to triumph 7-6 6-2 in two hours and 15 minutes in front a stunned Centre Court crowd.\n...\n’m really grateful to be able to share Centre Court with her at Wimbledon nonetheless.\n...\nThe third seed belatedly offered some resistance but could not deny the 21-year-old, who unleashed a crosscourt forehand winner to seal victory on her third match point.\n...\nGAME, SET AND MATCH! - EALA 7-6 6-2 SWIATEK\n...\nEala battles back from 0-30 and then throws\n...\nside to side\n...\nIt’s a rollercoaster game that proves to be a fitting finale to an absorbing match with the 29th seed fighting off a couple more break points before finally clinching a famous victory on her third match point courtesy of a cross-court forehand winner.\n...\nBREAK! – EALA 7-6 4-2 SWIATEK\n...\nEALA 7-6\n...\nSWIATEK\n...\nEALA 7-6 4-0 SWIATEK\n...\nEALA 7\n...\nSET! – EALA 7-6 SWIATEK\n...\nAs a result, the underdog claims the opener in one hour and 25 minutes. What a treat for those on Centre Court!\n...\nEALA 4-2 SWIATEK\n...\nEALA 6-6 SWIATEK\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eWimbledon 2026: Alexandra Eala stuns reigning champion Iga Świątek in third-round epic\u003c/title\u003e\n\u003curl\u003ehttps://www.olympics.com/en/news/wimbledon-2026-alexandra-eala-defending-champion-iga-swiatek-third-round\u003c/url\u003e\n\u003ccontent\u003eThe Filipina starlet recorded her second career victory over the six-time Grand Slam champion on Centre Court on Saturday (4 July).\n...\nAlexandra Eala brought Centre Court to its feet as she fell to her knees in tears with the biggest victory of her career at Wimbledon 2026.\n...\nThe Filipina tennis star extended her career-best run into the fourth round, thanks to a remarkable 7-6(9), 6-2 victory against defending champion Iga Świątek on Saturday (4 July).\n...\nThere is something about Świątek that brings the best out of Eala: it was against the Polish Olympic bronze medallist that she secured one of her career highlight victories at the 2025 Miami Open. In their first meeting on grass in a two-hour, 14-minute tussle on Centre Court, the 21-year-old has done it again.\n...\n## Wimbledon 2026 – Ecstatic Alex Eala rocks Centre Court\n...\nThe last time Eala played on Centre Court, she was making her Championships debut against the then-reigning champion, Barbora Krejčíková. Thirteen months later and back on her favourite court as a seed, she secured a seventh victory against a top 10 player and first of the season.\n...\nEala was clinical in capitalising on Świątek’s shaky serve, as she broke five times and won 68 per cent of points on the third seed’s second serve. While the defending champion committed more than twice as many unforced errors (44 to 21), her Filipina opponent hardly put a foot wrong at the All England Club.\n...\non its own\n...\nfor a fourth\n...\n, Eala pushed through a rally to draw another forced error and clinch the\n...\nŚwiątek had the chance to pull the set back to within one game when she broke\n...\n21-year-old, but at\n...\nmissed a backhand volley as\n...\nala broke right back.\n...\nEala took until her third match point – the 17th point of the game amid four saved break points – to crack the code and her opponent, a sweeping forehand winner across court triggering an eruption of ecstasy across south-west London and the Philippines.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Alexandra Eala Iga Swiatek live score and H2H results - Sofascore](https://www.sofascore.com/tennis/match/alexandra-eala-iga-swiatek/xpQbsziGc)\n2. [Alex Eala dethrones defending champion Iga Swiatek in Wimbledon third round - ESPN](https://www.espn.com.au/tennis/story/_/id/49268443/alex-eala-dethrones-defending-champion-iga-swiatek-wimbledon-third-round)\n3. [Wimbledon 2026 results: Alexandra Eala dedicates Iga Swiatek victory to 'all the girls with ruffled socks and chubby cheeks' - BBC Sport](https://www.bbc.com/sport/tennis/articles/cjwgpz3wj69o)\n4. [Reigning champion Iga Swiatek crashes out in straight sets as Alexandra Eala pulls off major shock to progress to the round of 16 at Wimbledon 2026](https://www.tntsports.co.uk/tennis/wimbledon-women/2026/live-alexandra-eala-iga-swiatek_mtc1655158/live-commentary.shtml)\n5. [Wimbledon 2026: Alexandra Eala stuns reigning champion Iga Świątek in third-round epic](https://www.olympics.com/en/news/wimbledon-2026-alexandra-eala-defending-champion-iga-swiatek-third-round)\n\nSynthesis:\nAlexandra Eala defeated defending champion Iga Swiatek 7-6(11-9), 6-2 on Centre Court at Wimbledon on July 4, 2026 [1][2][3]. This third-round victory lasted two hours and 15 minutes, marking Eala's first time reaching the round of 16 at a Grand Slam [4][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala Iga Swiatek live score and H2H results - Sofascore\u003c/title\u003e\n\u003curl\u003ehttps://www.sofascore.com/tennis/match/alexandra-eala-iga-swiatek/xpQbsziGc\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala Iga Swiatek live score and H2H results - Sofascore\n...\n# Alexandra Eala vs Iga Swiatek live score and H2H results\n...\n- Tennis\n- Grand Slam\n- Wimbledon, London, Great Britain, Round of 32\n...\n04/07/2026\n...\n12:30\n...\nWimbledon, Women\n...\nCentre Court stunned: Alexandra Eala knocks out Iga Swiatek at WimbledonAlex
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -537,20 +401,12 @@ Result:
 
 ```json
 {
-  "markdown": "Jasmine Paolini | Player Stats \u0026 More – WTA Official\n\nGo back to the home page\n\n-\n\nJasmine Paolini | Player Stats \u0026 More – WTA Official\n[Skip to main content](#)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/1fed3d88-0b63-4e6c-92ec-98051c1e381c/WTAxMB-star_joint-logo_h_MB-version_p_3C_web-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/wta/)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/)\n[\n![WTA Logo](https://photoresources.wtatennis.com/wta/document/2025/12/04/5da42b69-828e-4814-9ef9-daa4c8f68b2e/WTA_Logo_Core_Purple_RGB.svg)\nGo back to the home page\n](https://www.wtatennis.com)\n-\n[\n![WTA_Web_Quick-Links_Tiles-Scores_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=142\u0026height=142)\nScores\n](/scores)\n[\n![WTA_Web_Quick-Links_Tiles-Rankings_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/de183c42-affb-457b-b525-7632af6b3ff4/WTA_Web_Quick-Links_Tiles-Rankings_288x288.png?width=142\u0026height=142)\nRankings\n](/rankings)\n[\n![WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288](https://photoresources.wtatennis.com/photo-resources/2026/06/26/0964ad3d-37bb-440e-b790-147373d5546b/WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288.png?width=142\u0026height=142)\nExclusives\n](/collections/exclusive-content)\n[\n![Finals Quick Link Tile](https://photoresources.wtatennis.com/photo-resources/2026/07/01/31b16e6f-6330-402d-939e-6637056caeed/Finals-Quick-Link-Tile.png?width=142\u0026height=142)\nFinals\n](/tournaments/wta-finals/tickets)\n[\n![WTA_Web_Quick-Links_Tiles-TourCalendar_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/0d87f564-b960-44f8-ab26-25311f04458a/WTA_Web_Quick-Links_Tiles-TourCalendar_288x288.png?width=142\u0026height=142)\nCalendar\n](/tournaments)\n[\n![WTA_Web_Quick-Links_Tiles-Video_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/530dc648-a1be-4e05-b3d3-448af7a569b6/WTA_Web_Quick-Links_Tiles-Video_288x288.png?width=142\u0026height=142)\nHighlights\n](/videos/highlights)\n[\n![unlocked](https://photoresources.wtatennis.com/photo-resources/2025/07/24/622320bc-5e8a-4e8b-a81d-50aad1e3852a/unlocked.png?width=142\u0026height=142)\nUnlocked\n](/unlocked)\n[\n![WTA_Web_Quick-Links_Tiles-H2H_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/608acc46-d2dc-4ae4-9fa9-4a10b93e08f6/WTA_Web_Quick-Links_Tiles-H2H_288x288.png?width=142\u0026height=142)\nH2H\n](/head-to-head)\n![Paolini-Torso_319280](https://photoresources.wtatennis.com/photo-resources/2026/04/08/553638b0-5f80-4694-899e-a86dfae1d37b/Paolini-Torso_319280.png?width=790\u0026height=740)\nInactive\nFavorite\n# Jasmine\nPaolini\n![ITA](/resources/v7.48.5/i/elements/flags/ita.svg)\nITA\n30 yrs\n5' 4\" (1.63m)\nFollow Me\n[\n](https://www.instagram.com/jasmine_paolini/)\n[\n](https://www.facebook.com/JasminePaoliniOfficial/)\nYTD 2026\nCareer\nCurrent Doubles Rank\n14\n![](/resources/v7.48.5/i/elements/trophy-56.png)\nDoubles Titles\n0\n![](/resources/v7.48.5/i/elements/trophy-56.png)\nWon / Lost\n12 / 7\n![](/resources/v7.48.5/i/elements/trophy-56.png)\nPrize Money\n\u0026dollar;1,959,517\n![](/resources/v7.48.5/i/elements/trophy-56.png)\n## Stories\nLoading videos\n## Biography\n* Resides in Bagni di Lucca and trains in Forte dei Marmi, Italy\n*\nFather is Ugo Paolini, mother is Jacqueline Gardiner and brother is William Paolini. Grandmother lives in Lodz, Poland. Mother is of Ghanaian/Polish descent\n*\nIdolizes Roger Federer\n*\nFavorite shot is her forehand and favorite surface is clay\n*\nSpeaks Italian, English and Polish\n## Plays\nRight-Handed\n## Career High\n4\n## Height\n5' 4\" (1.63m)\n## Birthday\nJan 4, 1996\nJanuary 4, 1996\n## Birthplace\nCastelnuovo di Garfagnana, Italy\n## Career Highlights\nSINGLES\nWinner (3): 2025 - Rome\n2024 - Dubai\n2021 - Portoroz\nFinalist (6): 2025 - Cincinnati\n2024 - Wimbledon, Roland Garros\n2023 - Monastir, Palermo\n2022 - Cluj-Napoca\nDOUBLES\nWinner (10): 2025 - Beijing, Roland Garros, Rome, Doha (all w/Errani)\n2024 - Rome, Linz, Olympics, Beijing (all w/Errani)\n2023 - Monastir (w/Errani)\n2021 - Hamburg (w/Teichmann)\nFinalist (4): 2026 - Miami (w/Errani)\n2025 - Berlin (w/Errani)\n2024 - Roland Garros (w/Errani)\n2022 - Melbourne #1 (w/Errani)\nWTA 125 TITLES AND FINALS\nSINGLES\nWinner (2): 2023 - Florence\n2021 - Bol\nFinalist (1): 2023 - Makarska\n2021 - Saint-Malo\n## Career in Review\nIn 2025 earned second WTA 1000 title of her career on home soil at Rome, also winning the doubles title with Errani - became the first woman to sweep the Rome singles and doubles titles since Monica Seles in 1990\nAlso in 2025 won her first Grand Slam title in any discipline, pairing with Errani to claim the Roland Garros women's doubles crown and qualified for the 2025 WTA Finals in both singles and doubles for the second time in her career after 2024\nBreakout 2024 season saw her win the biggest title of her career at WTA 1000 Dubai and also reach her first Grand Slam finals, finishing R-Up at Roland-Garros and Wimbledon. Qualified for her first WTA Finals in singles and doubles, broke into the Top 10 for the first time in her career and finished the season as the World No.4\nFinished 2023 by breaking into Top 30 for first time, achieving No. 29 on Oct 23, 2023 after becoming runner-up at Monastir (l. Mertens). Also achieved runner-up at Palermo and SF at Zhengzhou (l. Zheng both times) as well as QFs at Lyon (l. Garcia) and Cincinnati as a qualifier (l. eventual champion Gauff). Enjoyed two Top 10 wins (No.10 Garcia and No.4 Rybakina).\nIn 2022, finished R-Up at Cluj-Napoca (l. Blinkova), while made back-to-back SF at Palermo (l. Bronzetti) and Warsaw (l. eventual champion Garcia); also reached QF at Lyon (l. Yastremska), Portoroz (l. eventual champion Siniakova) and Parma (l. Kovinic)\nBroke into Top 50 on January 31, 2021\nPosted near-Top 50 season finish in 2021 after capturing first WTA singles title of career at Portoroz (d. Riske in F)\nStrong season finish also brought SF run at Courmayeur (l. eventual champion Vekic) and QF effort at Linz (l. Halep); posted best win of season over No.18 Mertens en route to 3r at Indian Wells (l. Pegula)\nAlso in 2021 won the WTA 125K event in Bol, Croatia (d. Rus in F) and was R-Up at the same level in Saint Malo (l. Golubic)\nCaptured first WTA doubles title in 2021, at Hamburg (w/Teichmann)\nIn 2021, for first time in career, contested the full suite of all four Grand Slam events; reached 2r at Roland Garros and US Open, equalling best previous Slam result\nIn 2020, reached 2r four times at WTA tournaments, including Roland Garros (l. Kvitova)\nHighlights of 2019 included QF showings at Guangzhou and Palermo, a SF run at the WTA 125K Series event at Karlsruhe, lifting seventh, eighth and ninth ITF Circuit titles of her career, at $60KBrescia-ITA, $25K ITF/Curtiba-BRA and $100K ITF/Tokyo-JPN, and qualifying for maiden Grand Slam main draw at Roland Garros (l. Kasatkina in 1r)\nEnded 2018 ranked No.180, with season highlight a maiden WTA singles QF at Prague (d. No.15 Kasatkina, l. Zhang)\nMade WTA main draw debut at 2017 Bastad (l. Suarez Navarro in 1r) and also fell 1r at Guangzhou and in qualifying a further three times\nMade WTA qualifying debut at 2015 Rome\nMade professional debut on ITF Circuit in Italy in 2011\nRead Full Biography\nHide Full Biography\n## Latest Matches\n[\nAll Matches\n](/players/319280/jasmine-paolini/matches)\nLoading matches\nSorry, there are no matches available for this year.\nMatches do not include current week match results.\n## \"I started to play tennis when I was five, and I fell in love with the sport.\"\nJasmine Paolini\n![Jasmine Paolini](https://photoresources.wtatennis.com/photo-resources/2024/12/30/acb0cf7c-c9a2-41a8-b3ad-f025de68841a/Jasmine_Paolini_-_United_Cup_2025_-_Day_2-DSC_4713.jpg?width=350\u0026height=350)\n## Player updates\n[\nAll news\nView all news\n](/news)\n[\n](/news/4532539/kostyuk-beats-paolini-to-reach-first-wimbledon-semifinal)\n[\nMatch Reaction\n](/news/match-reaction)\n![Marta Kostyuk, Wimbledon 2026](https://photoresources.wtatennis.com/photo-resources/2026/07/08/b3ced16e-e0a9-4ec7-9420-f51454f06d76/Marta-Kostyuk-Wimbledon-2026.jpg?width=500\u0026height=500)\n###\nKostyuk one win from history after reaching first Wimbledon semifinal\n2m read\n1w ago\n[](/news/4531880/wimbledon-2026-quarterfinal-preview-kostyuk-paolini-noskova-mertens-who-advances-to-the-final-4-at-the-all-england-club)\n[\npreviews\n](/news/previews)\n###\nWimbledon quarter preview: Will 2024 runner-up Paolini return to final 4 in London?\n4m read\n1w ago\n![quarterpreviewwednesday](https://photoresources.wtatennis.com/photo-resources/2026/07/07/a0831d39-8680-48f6-8ef9-46128489378b/quarterpreviewwednesday.png?width=160\u0026height=160)\n[](/news/4531630/jasmine-paolini-thanks-idol-roger-federer-after-reaching-wimbledon-quarterfinals)\n[\nSocial Buzz\n](/news/social-buzz)\n###\nPaolini thanks 'idol' Roger Federer after reaching Wimbledon quarterfinals\n1m read\n1w ago\n![Jasmine paolini wimbledon 2026](https://photoresources.wtatennis.com/photo-resources/2026/07/06/16e7ca14-6edd-442e-a028-7d0b52f514ba/Jasmine_Paolini_-_Wimbledon_Championships_2026_-_Day_8-DSC_5548A.jpg?width=160\u0026height=160)\n[](/news/4531622/paolini-pips-eala-becomes-first-italian-woman-with-multiple-wimbledon-quarterfinals)\n[\nMatch Reaction\n](/news/match-reaction)\n###\nPaolini outlasts Eala to reach second Wimbledon quarterfinal, will face Kostyuk\n4m read\n1w ago\n![Jasmine Paolini](https://photoresources.wtatennis.com/photo-resources/2026/07/06/5148b40a-1af9-421a-9e99-91e96b250235/Jasmine_Paolini_-_Wimbledon_Championships_2026_-_Day_8-DSC_1366.jpg?width=160\u0026height=160)\n[](/news/4528736/defending-finalist-anisimova-rolls-in-return-to-wimbledon)\n[\nMatch Reaction\n](/news/match-reaction)\n###\nFormer Wimbledon finalists Anisimova, Paolini, Pliskova all win on Day 2\n3m read\n2w ago\n![Amanda Anisimova, 2026 Wimbledon R1 (Getty)](https://photoresources.wtatennis.com/photo-resources/2026/06/30/0d490830-e020-4f5b-8f50-073ebc1213ad/GettyImages-2283995417.jpg?width=160\u0026height=160)\n[](/videos/4525532/maria-stuns-top-seed-paolini-in-eastbourne-for-first-top-20-win-in-12-months)\n[\nhighlights\n](/videos/highlights)\n###\nMaria stuns top seed Paolini in Eastbourne for first Top 20 win in 12 months\n3w ago\n![Tatjana Maria, Eastbourne 2026](https://photoresources.wtatennis.com/photo-resources/2026/06/23/04151384-a5cc-420c-b4c2-e0bcf0f83b58/Maria-R1-Harriet-Lander-LTA.jpg?width=160\u0026height=160)\n03:51\n[](/news/4509341/takeaways-chwalinska-upsets-zheng-as-paolini-advances-at-roland-garros)\n[\nMatch Reaction\n](/news/match-reaction)\n###\nTakeaways: Chwalinska upsets Zheng as Paolini advances at Roland Garros\n2m read\n1mo ago\n![Maja Chwalinska, Paris 2026](https://photoresources.wtatennis.com/photo-resources/2026/05/25/a2bfcbab-8a2a-43f0-a15f-da06667d512c/Maja-Chwalinska-Paris-2026.jpg?width=160\u0026height=160)",
-  "url": "https://www.wtatennis.com/players/319280/jasmine-paolini"
-}
+  "markdown": "Jasmine Paolini | Player Stats \u0026 More – WTA Official\n\nGo back to the home page\n\n-\n\nJasmine Paolini | Player Stats \u0026 More – WTA Official\n[Skip to main content](#)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/1fed3d88-0b63-4e6c-92ec-98051c1e381c/WTAxMB-star_joint-logo_h_MB-version_p_3C_web-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/wta/)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/)\n[\n![WTA Logo](https://photoresources.wtatennis.com/wta/document/2025/12/04/5da42b69-828e-4814-9ef9-daa4c8f68b2e/WTA_Logo_Core_Purple_RGB.svg)\nGo back to the home page\n](https://www.wtatennis.com)\n-\n[\n![WTA_Web_Quick-Links_Tiles-Scores_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=142\u0026height=142)\nScores\n](/scores)\n[\n![WTA_Web_Quick-Links_Tiles-Rankings_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/de183c42-affb-457b-b525-7632af6b3ff4/WTA_Web_Quick-Links_Tiles-Rankings_288x288.png?width=142\u0026height=142)\nRankings\n](/rankings)\n[\n![WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288](https://photoresources.wtatennis.com/photo-resources/2026/06/26/0964ad3d-37bb-440e-b790-147373d5546b/WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288.png?width=142\u0026height=142)\nExclusives\n](/collections/exclusive-content)\n[\n![Finals Quick Link Tile](https://photoresources.wtatennis.com/photo-resources/2026/07/01/31b16e6f-6330-402d-939e-6637056caeed/Finals-Quick-Link-Tile.png?width=142\u0026height=142)\nFinals\n](/tournaments/
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
 
 </details></tool-use>
 
@@ -571,7 +427,8 @@ The tracker still needs several updates:
 - Missing WTA links for 2025 Wimbledon singles and doubles
 - Bad Homburg and Indian Wells/Miami exits are below the QF threshold and should be skipped
 
-Wimbledon 2026 doubles links are also missing. The wimbledon.com URL pattern is unclear. Similar sites use direct match page URLs. The exact wimbledon.com structure must be determined.</details></think>
+Wimbledon 2026 doubles links are also missing. The wimbledon.com URL pattern is unclear. Similar sites use direct match page URLs. The exact wimbledon.com structure must be determined.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -579,10 +436,8 @@ Paolini stays in Other Top 20 — Roland Garros 2024 finalist, not a Slam single
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -598,28 +453,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar](https://tennistourcalendar.com/alexandra-eala-at-the-wimbledon-championships/)\n2. [Jasmine Paolini vs Alexandra Eala 6-4 4-6 6-3 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-05-paolini-eala/)\n3. [Iga Świątek vs Alexandra Eala 7-6(9) 6-2 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles)](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-03-swiatek-eala/)\n4. [2026 Wimbledon Championships – Day-by-day summaries](https://en.wikipedia.org/wiki/2026_Wimbledon_Championships_%E2%80%93_Day-by-day_summaries)\n5. [Alexandra Eala vs Maya Joint 3-6 6-2 6-0 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-01-eala-joint/)\n\nSynthesis:\nAt the 2026 Wimbledon Championships, 21-year-old Alexandra Eala entered the tournament as the No. 29 seed, becoming the first player from the Philippines to be seeded at a Grand Slam [1]. She reached the fourth round (Round of 16) before being eliminated by Jasmine Paolini [1][2]. \n\nHer run included a notable third-round victory over the defending champion and No. 3 seed Iga Świątek [3][4]. Eala finished her campaign with a record of 3-1, having defeated Renata Zarazúa in the first round and Maya Joint in the second [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar\u003c/title\u003e\n\u003curl\u003ehttps://tennistourcalendar.com/alexandra-eala-at-the-wimbledon-championships/\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar\n...\nFilipino tennis sensation Alexandra “Alex” Eala enters the 2026 Wimbledon Championships having already secured her place in the history books. At just 21 years old, the rising star from Quezon City arrives in London as the No.29 seed. This makes her the first player from the Philippines—man or woman—ever to be seeded at a Grand Slam tennis tournament.\n...\nAside from carrying the pride of the Philippines on her shoulders, Eala is also competing for a slice of a record-breaking financial purse. The All England Club announced a massive 20% increase in total player prize money for the 2026 tournament, offering equal pay across the draws.\n...\nBy securing a direct entry into the main draw as a seeded player, Eala has locked in a guaranteed payout of £80,000 (roughly $105,625 USD) just for her first-round appearance. Should her grass-court magic take her all the way to the ultimate victory on Centre Court, she would claim a life-changing £3.6 million winner’s check (approximately $4.75 million USD).\n...\nBelow is the live tracker table for Alexandra Eala’s 2026 Wimbledon progress. This table will be updated daily as she completes her matches to show her opponents, results, and the minimum prize money she has secured.\n...\n### Alexandra Eala’s Wimbledon 2026 Tournament Tracker\n...\n| Round | Opponent | Match Result | Prize Money (GBP) | Prize Money (USD) |\n| --- | --- | --- | --- | --- |\n| First Round | Renata Zarazúa | 6-1, 6-2 | £80,000 | $105,625 |\n| Second Round | Maya Joint | 3-6, 6-2, 6-0 | £126,000 | $166,360 |\n| Third Round | Iga Świątek | 7-6 (11-9), 6-2 | £185,000 | $244,255 |\n| Fourth Round | Jasmine Paolini | 4-6, 6-4, 3-6 | £300,000 | $396,100 |\n| Quarterfinals | Did not advance | – | – | – |\n| Semifinals | Did not advance | – | – | – |\n| Runner-Up Finish | Did not advance | – | – | – |\n| Champion | Did not advance | – | – | – |\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eJasmine Paolini vs Alexandra Eala 6-4 4-6 6-3 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash\u003c/title\u003e\n\u003curl\u003ehttps://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-05-paolini-eala/\u003c/url\u003e\n\u003ccontent\u003eJasmine Paolini vs Alexandra Eala 6-4 4-6 6-3 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash\n...\nSports · Wimbledon 2026· Women's Singles · Round of 16\n...\n| Jasmine Paolini✓ | 6 | 4 | 6 |\n| --- | --- | --- | --- |\n| Alexandra Eala | 4 | 6 | 3 |\n...\nFinal · Monday, July 6, 2026 · Round of 16\n...\nPaolini beat Eala 6-4 4-6 6-3 in 2:21 on Centre Court, recovering from a lost middle set. She out-hit the 29th seed 38 winners to 25 — at the cost of 42 unforced errors — and won 101 points to 89, holding serve through a tense decider.\n...\nStats: Official wimbledon.com match statistics (IBM) · as of 2026-07-07\n...\nThe breakout ran into the battle-tested. Alexandra Eala, whose defeat of the No. 3 seed Iga Świątek had been the story of the women's draw, took the middle set off Jasmine Paolini and gave Centre Court a scare — but the 13th seed steadied and won 6-4 4-6 6-3 in 2:21. It was a wild, high-variance afternoon of ball-striking: Paolini piled up 38 winners to Eala's 25 and paid for the aggression with 42 unforced errors, yet she won the points that counted, 101 to 89, and her second serve held firm (65% of those points) when the decider tightened. Eala's fearless left-handed tennis and the freedom of a player with nothing to lose won her a set; over three, Paolini's completeness told, exactly as the tape suggested. She moves into a quarter-final against the 12th seed Marta Kostyuk.\n...\nhas already shown\n...\n- Paolini beat Eala 6-4 4-6 6-3, weathering a second-set fightback from the 29th seed.\n- Eala, whose 7-6(9) 6-2 win over the No. 3 seed Świątek was the story of the draw, extended her run to the last 16 before Paolini's experience told.\n- Paolini advances to a quarter-final against the 12th seed Marta Kostyuk.\n...\nCourt \u0026 schedule: Centre Court, completed in 2:21. (TennisTemple match stats and ESPN scoreboard, as of 2026-07-06)\n...\nVenue: All England Lawn Tennis and Croquet Club, London — grass.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eIga Świątek vs Alexandra Eala 7-6(9) 6-2 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles)\u003c/title\u003e\n\u003curl\u003ehttps://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-03-swiatek-eala/\u003c/url\u003e\n\u003ccontent\u003eIga Świątek vs Alexandra Eala 7-6(9) 6-2 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles)\n...\nSports · Wimbledon 2026· Women's Singles · Round of 32\n...\n| Alexandra Eala✓ | 7 | 6 |\n| --- | --- | --- |\n| Iga Świątek | 69 | 2 |\n...\nFinal · Saturday, July 4, 2026 · Round of 32\n...\nEala stunned the defending champion, beating Świątek 7-6(9) 6-2 on Centre Court to reach the last 16. The Filipina saved the moment in a wild first-set tiebreak — winning it 11-9 — then ran away with the second as Świątek's serve cracked: 32% of second-serve points won, five double faults. Eala broke five times to Świątek's three and won 92 points to 78.\n...\nThe upset of the tournament, and on the champion's own court. Alexandra Eala — the 29th seed, the Philippines' trailblazer — beat defending champion Iga Świątek 7-6(9) 6-2 on Centre Court, ending a title defense that had looked to be gathering pace. The first set turned on a tiebreak Eala took 11-9; once it was hers, Świątek unravelled, her second serve punished (32% won) and five double faults leaking away the second. Eala, who stunned Świątek on hard courts in Miami a year ago, now does it on grass — and moves into a last-16 tie with 2024 finalist Jasmine Paolini, a quarter-final suddenly within reach.\n...\n-handling is\n...\n. Eala\n...\nfearlessness is real —\n...\n- A rematch of one of 2025's biggest upsets: Eala beat Świątek at Miami before Świątek answered in Madrid — 1-1, and a first meeting on grass.\n- Eala, the Philippines' trailblazing No. 29 seed, has dropped one set in two rounds and finished round two winning 12 of 14 games.\n- Świątek's title defense is gathering pace — the 6-1 6-3 over Plíšková was her cleanest match since the fortnight began.\n...\nLevel at 1-1, both in 2025 — Eala won the Miami quarterfinal, Świątek answered in Madrid; a first meeting on grass.\n...\nCourt \u0026 schedule: Centre Court (Tennis\n...\nas of 2026-0\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003e2026 Wimbledon Championships – Day-by-day summaries\u003c/title\u003e\n\u003curl\u003ehttps://en.wikipedia.org/wiki/2026_Wimbledon_Championships_%E2%80%93_Day-by-day_summaries\u003c/url\u003e\n\u003ccontent\u003e| Event | Winner | Loser | Score |\n| Gentlemen's Singles – 2nd round | Alex de Minaur [5] | Adrian Mannarino | 6–3, 6–2, 6–2 |\n| Ladies' Singles – 2nd round | Alexandra Eala [29] | Maya Joint | 3–6, 6–2, 6–0 |\n| Gentlemen's Singles – 2nd round | Flavio Cobolli [9] | James Duckworth | 7−6(7−4), 3–6, 7−6(7−3), 6–1 |\n| Ladies' Singles – 2nd round | Linda Noskova [9] | Camila Osorio | 6–3, 4–6, 6–2 |\n| Matches began at 11 am (1:30 pm on Centre Court and 1:00 pm on No. 1 Court) BST | | | |\n...\n| Matches on main courts | | | |\n| --- | --- | --- | --- |\n| Matches on Centre Court | | | |\n| Event | Winner | Loser | Score |\n| Ladies' Singles – 3rd round | Alexandra Eala [29] | Iga Świątek [3] | 7–6(11–9), 6–2 |\n| Ladies' Singles – 3rd round | Madison Keys [26] | Amanda Anisimova [6] | 3–6, 6−2, 6−3 |\n| Gentlemen's Singles – 3rd round | Grigor Dimitrov [WC] | Matteo Berrettini | 6−3, 6−4, 3−6, 5−7, 6−4 |\n| Matches on No. 1 Court | | | |\n...\n- Seeds out:\n- - Gentlemen's Singles: Alex de Minaur [5], Alexander Bublik [10]\n- Ladies' Singles: Marie Bouzková [21], Madison Keys [26], Alexandra Eala [29]\n- Gentlemen's Doubles: Simone Bolelli/ Andrea Vavassori [4]\n- Ladies' Doubles: Anna Danilina/ Aleksandra Krunić [3], Laura Siegemund/ Vera Zvonareva [7]\n- Mixed Doubles: Christian Harrison/ Zhang Shuai [5], Neal Skupski/ Desirae Krawczyk [6]\n- Schedule of play\n...\n| Matches on main courts | | | |\n| --- | --- | --- | --- |\n| Matches on Centre Court | | | |\n| Event | Winner | Loser | Score |\n| Ladies' Singles – 4th round | Jasmine Paolini [13] | Alexandra Eala [29] | 6−4, 4−6, 6−3 |\n| Gentlemen's Singles – 4th round | Arthur Fery [WC] | Grigor Dimitrov [WC] | 7–5, 3–6, 4–6, 6–4, 7–6(10–7) |\n| Gentlemen's Singles – 4th round | Jiří Lehečka [13] vs Alexander Zverev [2] | | 4–6, 5–7, 3–3, suspended |\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eAlexandra Eala vs Maya Joint 3-6 6-2 6-0 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash\u003c/title\u003e\n\u003curl\u003ehttps://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-01-eala-joint/\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala vs Maya Joint 3-6 6-2 6-0 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash\n...\nSports · Wimbledon 2026· Women's Singles · Round of 64\n...\n| Alexandra Eala✓ | 3 | 6 | 6 |\n| --- | --- | --- | --- |\n| Maya Joint | 6 | 2 | 0 |\n...\nFinal · Thursday, July 2, 2026 · Round of 64\n...\nAlexandra Eala turned a losing position into a rout. The No. 29 seed from the Philippines dropped the first set to Australian teenager Maya Joint — who days earlier had ended Serena Williams' comeback — then conceded just two games the rest of the way, winning 3-6 6-2 6-0 on No. 3 Court. Joint's numbers tell the collapse: 37 winners but 41 unforced errors, while Eala kept a clean 20/18 line and cashed five of her nineteen break chances. Her reward is the section's toughest possible assignment: defending champion Iga Świątek in the third round.\n...\nMaya Joint arrived carrying the loudest headline of the first round — the Australian teenager had ended Serena Williams' comeback, beating the 44-year-old seven-time champion in three sets — and for a set she looked capable of another. Then Alexandra Eala took over. The 29th seed from the Philippines, a 6-1 6-2 winner over Renata Zarazúa in her opener, conceded two games after dropping the first, running out 3-6 6-2 6-0 in a meeting of two of the tour's youngest names. The steadier player won, and her prize is this section's most forbidding assignment: defending champion Iga Świątek, the third seed, in the last 32.\n...\n- Joint arrived off the round-one win over Serena Williams, the 44-year-old seven-time champion playing on a wildcard.\n- Eala, the Philippines' trailblazing No. 29 seed, was the steadier player in a meeting of two of the tour's youngest names.\n- The winner drew a third-round date with the Świątek–Plíšková winner.\n...\nCourt \u0026 schedule: No. 3 Court, Day 4. (ESPN scoreboard, as of 2026-07-02)\n...\nVenue: All England Lawn Tennis and Croquet Club, London — grass.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    },
-    {
-      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/5ceb3a9e-488c-44ad-9588-a86513005c62.txt\nSize: 30.5 KB, 491 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
-      "title": "2026 Wimbledon Championships – Day-by-day summaries",
-      "url": "https://en.wikipedia.org/wiki/2026_Wimbledon_Championships_%E2%80%93_Day-by-day_summaries"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Alexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar](https://tennistourcalendar.com/alexandra-eala-at-the-wimbledon-championships/)\n2. [Jasmine Paolini vs Alexandra Eala 6-4 4-6 6-3 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-05-paolini-eala/)\n3. [Iga Świątek vs Alexandra Eala 7-6(9) 6-2 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles)](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-03-swiatek-eala/)\n4. [2026 Wimbledon Championships – Day-by-day summaries](https://en.wikipedia.org/wiki/2026_Wimbledon_Championships_%E2%80%93_Day-by-day_summaries)\n5. [Alexandra Eala vs Maya Joint 3-6 6-2 6-0 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-01-eala-joint/)\n\nSynthesis:\nAt the 2026 Wimbledon Championships, 21-year-old Alexandra Eala entered the tournament as the No. 29 seed, becoming the first player from the Philippines to be seeded at a Grand Slam [1]. She reached the fourth round (Round of 16) before being eliminated by Jasmine Paolini [1][2]. \n\nHer run included a notable third-round victory over the defending champion and No. 3 seed Iga Świątek [3][4]. Eala finished her campaign with a record of 3-1, having defeated Renata Zarazúa in the first round and Maya Joint in the second [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar\u003c/title\u003e\n\u003curl\u003ehttps://tennistourcalendar.com/alexandra-eala-at-the-wimbledon-championships/\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar\n...\nFilipino tennis sensation Alexandra “Alex” E
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -630,10 +469,8 @@ Checking Wimbledon official links and any other gaps.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -692,13 +529,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -710,25 +540,25 @@ Verified 200 responses include five 2026 match pages and two 2025 stats pages.
 
 Paolini's 4th round Wimbledon URL needs verification. Kenin is Sofia Kenin, not Sloane Kenin. Stats pages may replace direct wimbledon.com links. The current file lacks 2026 Wimbledon singles wimbledon.com entries. A few URLs will be tested with curl.
 
-Eala reached the R16 at Indian Wells, not the quarterfinals. The TNNSLIVE form page will be checked next, though only one fetch is allowed.</details></think>
+Eala reached the R16 at Indian Wells, not the quarterfinals. The TNNSLIVE form page will be checked next, though only one fetch is allowed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
-  "https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-jasmine-paolini-ws004" \
-  "https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-nikola-bartunkova-vs-jelena-ostapenko-sofia-kenin-wd001" \
-  "https://www.wimbledon.com/en_GB/scores/stats/61511608.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/61641892.html"; do
-  code=$(curl -sL -o /dev/null -w "%{http_code}" "$url")
-  title=$(curl -sL "$url" | grep -oP '(?<=<title>)[^<]+' | head -1)
-  echo "$code | $title | $url"
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-jasmine-paolini-ws004&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-nikola-bartunkova-vs-jelena-ostapenko-sofia-kenin-wd001&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/61511608.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/61641892.html&#34;; do
+  code=$(curl -sL -o /dev/null -w &#34;%{http_code}&#34; &#34;$url&#34;)
+  title=$(curl -sL &#34;$url&#34; | grep -oP &#39;(?&lt;=&lt;title&gt;)[^&lt;]+&#39; | head -1)
+  echo &#34;$code | $title | $url&#34;
 done</summary>
-
 ```bash
 for url in \
   "https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004" \
@@ -756,35 +586,29 @@ done
 000 |  | https://www.wimbledon.com/en_GB/scores/stats/61641892.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The sandbox blocks network access. Full_network permission is required.</details></think>
+The sandbox blocks network access. Full_network permission is required.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
-  "https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-jasmine-paolini-ws004" \
-  "https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001" \
-  "https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-nikola-bartunkova-vs-jelena-ostapenko-sofia-kenin-wd001" \
-  "https://www.wimbledon.com/en_GB/scores/stats/61511608.html" \
-  "https://www.wimbledon.com/en_GB/scores/stats/61641892.html"; do
-  title=$(curl -sL -A "Mozilla/5.0" "$url" | grep -oP '(?<=<title>)[^<]+' | head -1)
-  echo "$title | $url"
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-jasmine-paolini-ws004&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001&#34; \
+  &#34;https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-nikola-bartunkova-vs-jelena-ostapenko-sofia-kenin-wd001&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/61511608.html&#34; \
+  &#34;https://www.wimbledon.com/en_GB/scores/stats/61641892.html&#34;; do
+  title=$(curl -sL -A &#34;Mozilla/5.0&#34; &#34;$url&#34; | grep -oP &#39;(?&lt;=&lt;title&gt;)[^&lt;]+&#39; | head -1)
+  echo &#34;$title | $url&#34;
 done</summary>
-
 ```bash
 for url in \
   "https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004" \
@@ -811,12 +635,6 @@ Results - The Championships, Wimbledon | https://www.wimbledon.com/en_GB/scores/
 Results - The Championships, Wimbledon | https://www.wimbledon.com/en_GB/scores/stats/61641892.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -826,14 +644,13 @@ Wimbledon URLs have been verified.
 
 Paolini match URL confirmed. Checking 2025 Wimbledon singles links on tennis.com. Verifying stats page titles include both players. Will fetch Krejcikova and doubles links next. Bad Homburg singles was a Round 32 loss. DC Open has not started. A final WTA fetch is planned within budget.
 
-Four substantive updates are planned: adding wimbledon.com links for 2025 Wimbledon singles across all four rounds, adding 2026 Wimbledon doubles links, filling missing 2025 singles and doubles links, and bumping lastmod.</details></think>
+Four substantive updates are planned: adding wimbledon.com links for 2025 Wimbledon singles across all four rounds, adding 2026 Wimbledon doubles links, filling missing 2025 singles and doubles links, and bumping lastmod.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -849,32 +666,19 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round | Tennis.com](https://www.tennis.com/news/articles/alexandra-eala-tests-defending-wimbledon-champ-barbora-krejcikova-first-round)\n2. [Wimbledon 2025: Defending champion Barbora Krejcikova avoids first-round upset - BBC Sport](https://www.bbc.co.uk/sport/tennis/articles/cr4wwpg1lkyo)\n3. [Defending champ Krejcikova recovers to edge Eala in three sets at Wimbledon](https://www.wtatennis.com/news/4299730/defending-champ-krejcikova-recovers-to-edge-eala-in-three-sets-at-wimbledon)\n4. [Barbora Krejčiková Alexandra Eala live score and H2H results - Sofascore](https://www.sofascore.com/tennis/match/alexandra-eala-barbora-krejcikova/YhzsziGc)\n5. [Tennis Live Scores News Videos Player Rankings | Tennis.com](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/)\n\nSynthesis:\nAt the 2025 Wimbledon Championships, defending champion Barbora Krejcikova defeated Alexandra Eala in the first round on July 1, 2025 [1][2]. Eala, making her main-draw debut at the tournament, won the opening set before Krejcikova rallied to win the match 3-6, 6-2, 6-1 [1][3]. The match lasted two hours and 10 minutes on Centre Court [1][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/alexandra-eala-tests-defending-wimbledon-champ-barbora-krejcikova-first-round\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round | Tennis.com\n...\nAlexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round\n...\n# Alexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round\n...\nAlexandra Eala impressed in her Wimbledon debut but fell short of dethroning defending champion Barbora Krecjikova on Centre Court, the 20-year-old ultimately bowing out, 3-6, 6-2, 6-1.\n...\nThe phenom from the Philippines arrived for her first main-draw appearance at the All England Club fresh off reaching her first WTA final, but was unable to convert a one-set lead against the former world No. 2, who kicked off her title defense with a two-hour, 10-minute victory.\n...\n\"Well, definitely very happy with this win because the match was really tough,\" said Krejcikova. \"It's a first round, so it's obviously very difficult to enter the tournament. But I'm really happy that I got through and I'm in the second round, that yeah, I can keep going.\"\n...\nThe Quezon City native, decked out in Nike's homage to the Philippines' national flower, looked to be a dangerous floater against the No. 17th-seeded Krejcikova, who has played few matches in 2025 after winning her second major title at this tournament last summer. The Czech withdrew from Eastbourne after winning two close matches and reaching the quarterfinals, and appeared undercooked in the early goings against Eala.\n...\n5-2\n...\nshook off losing a long\n...\n—during which\n...\nsaved a set point on her serve—to clinch the\n...\non her third opportunity.\n...\nikova caught fire\n...\ntaking a 5-0 lead of\n...\nEala and Krejcikova battled through numerous close games as the final set got underway but it was Krejcikova winning the crucial points, nabbing a 5-1, double-break advantage that allowed her to serve for the match.\n...\nUp 40-0 on her serve, Krejcikova nailed a backhand down the line and let out a roar of relief, having edged into the second round.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eWimbledon 2025: Defending champion Barbora Krejcikova avoids first-round upset - BBC Sport\u003c/title\u003e\n\u003curl\u003ehttps://www.bbc.co.uk/sport/tennis/articles/cr4wwpg1lkyo\u003c/url\u003e\n\u003ccontent\u003eWimbledon 2025: Defending champion Barbora Krejcikova avoids first-round upset - BBC Sport\n...\nDefending Wimbledon champion Barbora Krejcikova said she is happy to be back playing at the \"temple of tennis\" as she avoided a first-round upset with victory over promising youngster Alexandra Eala.\n...\nThe Czech had been an injury doubt coming into the tournament but showed her experience in a 3-6 6-2 6-1 win when she opened Tuesday's play on her return to Centre Court.\n...\nMany anticipated her lack of match fitness - she has only played six matches this year - had laid the foundations for an upset at the All England Club against up-and-coming 20-year-old Filipino Eala.\n...\nIga Swiatek at the Miami Open in March, then made more history by becoming the first\n...\nto reach the final of a WTA Tour event at East\n...\nThe pair traded breaks early on as Krejcikova's exquisite lob to take Eala's serve was cancelled out by a double fault to put the match back on serve.\n...\nMistakes from the reigning champion and an impressive range of shots from Eala secured a second break, and this time Krejcikova could not convert her break-back opportunity, missing the forehand on break point.\n...\nAfter a lengthy game at 5-2 where Krejcikova saved a set point, Eala held her nerve to brilliantly serve out the set.\n...\nKrejcikova came back in the second set and, while she still looked uncomfortable on serve - frequently redoing her ball toss - she motored to a 5-0 lead.\n...\nLooking somewhat disappointed and desperate to avoid a second-set bagel, Eala rallied to hold her serve, then overturned one of the breaks, but could not prevent Krejcikova levelling the match.\n...\nA more comfortable third set followed as Krejcikova tidied up the errors and finally showed her emotion as she put herself on the brink of victory by securing the double break for 5-1, letting out a roar after her passing winner.\n...\nAnd a similar outburst of emotion followed as she booked her place in the second round.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eDefending champ Krejcikova recovers to edge Eala in three sets at Wimbledon\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4299730/defending-champ-krejcikova-recovers-to-edge-eala-in-three-sets-at-wimbledon\u003c/url\u003e\n\u003ccontent\u003eDefending champ Krejcikova recovers to edge Eala in three sets at Wimbledon\n...\n# Defending champ Krejcikova recovers to edge Eala in three sets at Wimbledon\n...\nWIMBLEDON -- Given their form coming in, Barbora Krejcikova and Alexandra Eala couldn’t have been on more different trajectories.\n...\nKrejcikova, the defending Wimbledon champion and No. 17 seed, missed the first five months of 2025 with a back injury and had to withdraw from this week's Eastbourne quarterfinals citing a thigh injury. She was a modest 3-4 in 2025 since returning from a debilitating back injury.\n...\nEala, still a teenager, leaped into the public consciousness back in March by beating three former Grand Slam champions -- Jelena Ostapenko, Madison Keys and Iga Swiatek -- in Miami. At the age of 20, last week she won six matches, including qualifying, to reach the final in Eastbourne before losing to Maya Joint -- 12-10 in a third-set tiebreak.\n...\nBut as Tuesday’s match progressed, muscle memory seemed to take over and Krejcikova regained her groove on the grass, defeating Eala 3-6, 6-2, 6-1.\n...\nA clean backhand down the line to finish it left Krejcikova -- fist aloft -- roaring in triumph. She now has 14 match-wins at Wimbledon, more than any other Grand Slam.\n...\n, she’ll have a chance to regain it.\n...\nWith Krejcikova serving at 2-3 in the first set, Eala broke through on the strength of a backhand winner. Playing only the second Grand Slam main draw of her young career, she made that stand up by taking better care of her serve and hitting fewer unforced errors than Krejcikova.\n...\nBut the defending champion came screaming back, taking a 5-0 lead in the second set and eventually forcing a decider.\n...\nDown 1-0 and facing her second break point, Eala didn’t do enough with an approach shot and couldn’t handle the subsequent volley. In the final analysis, Krejcikova -- an accomplished doubles player -- was better at the net. She won eight of 13 points, while Eala was only 2-for-9.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eBarbora Krejčiková Alexandra Eala live score and H2H results - Sofascore\u003c/title\u003e\n\u003curl\u003ehttps://www.sofascore.com/tennis/match/alexandra-eala-barbora-krejcikova/YhzsziGc\u003c/url\u003e\n\u003ccontent\u003eBarbora Krejčiková Alexandra Eala live score and H2H results - Sofascore\n...\n# Barbora Krejčiková vs Alexandra Eala live score and H2H results\n...\n- Tennis\n- Grand Slam\n- Wimbledon, London, Great Britain, Round of 128\n...\n17 B. KrejčikováWTA 38th\n...\nA. EalaWTA 32nd\n...\n01/07/2025\n...\n12:30\n...\nFull-time\n...\n10\n...\nB. Krejčiková\n...\nKrejčiková\n...\nB. Krejčiková\n...\nA. Eala\n...\nB. Krejčiková\n...\nB. Krejčiková\n...\nB. Krejčiková\n...\n2nd set • 40m\n...\n38th1320\n...\nDate and time01/07/2025\n...\n12:30\n...\nCompetitionTennis, Grand Slam, Wimbledon, London, Great Britain, Round of 128\n...\nVenueCentre Court\n...\nLocationLondon, United Kingdom\n...\nGround typeGrass\n...\nB. Krejčiková A. Eala\n...\nHead-to-head\n...\nGrand Slam•\n...\n01/07/25FTB. KrejčikováA. Eala2211\n...\nB. Krejčiková\n...\nA. Eala\n...\nGrand Slam•\n...\nB. Krejčiková\n...\nKrejčiková\n...\nKrejčiková\n...\nB. Krejčiková\n...\nKrejčiková\n...\nbut Barbora Krejčiková\n...\nwins 33%\n...\nAlexandra Eala\n...\nAbout the event\n...\nBarbora Krejčiková vs Alexandra Eala live match starts on 1 Jul 2025 at 12:30 UTC at Centre Court, London, United Kingdom. Barbora Krejčiková v Alexandra Eala is part of Wimbledon, London, Great Britain. Results of the previous head to head matches between Barbora Krejčiková and Alexandra Eala are also available on Sofascore.On our tennis event page you can find detailed statistics of the current match, such as:\n...\nora Krejčiková\n...\nAlexandra Eala\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eTennis Live Scores News Videos Player Rankings | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/\u003c/url\u003e\n\u003ccontent\u003eTennis Live Scores News Videos Player Rankings | Tennis.com\n\n## Advertising\n\n## Wimbledon\n\n### Round of 128\n\n#### Result\n\n### Wimbledon\n\nResult\n\nR128 - Women's Singles\n\nB. Krejcikova (17)\n\n3 6 6\n\nA. Eala\n\n6 2 1\n\nBarbora\n\nKrejcikova\n\nCZE\n\nSeeded:\u0026nbsp17\n\nPresented by\n\n45.3%\n\nPRE-MATCH PREDICTION\n\n54.7%\n\nAlexandra\n\nEala\n\nPHL\n\n\u0026nbsp\n\n6\n\nAces\n\n1\n\n6\n\nDouble Faults\n\n1\n\n39/63\n\n1st Serve Points Won\n\n25/50\n\n16/24\n\n2nd Serve Points Won\n\n21/41\n\n6/9\n\nBreak Points saved\n\n10/16\n\n9\n\nService games won\n\n6\n\n25/50\n\n1st Serve Return Points Won\n\n24/63\n\n20/41\n\n2nd Serve Return Points Won\n\n8/24\n\n6/16\n\nBreak Points Converted\n\n3/9\n\n6\n\nReturn games won\n\n3\n\n7\n\nMax Points in a row\n\n3\n\n5\n\nMax Games in a row\n\n4\n\n55/93\n\nTotal Service Points Won\n\n46/92\n\n46/92\n\nTotal Return Points Won\n\n38/93\n\n101/185\n\nTotal Points Won\n\n84/185\n\nShow Other Scores\n\nTennis Channel Plus Logo Tennis Channel Logo Winner Ball Info SPINNER GRAND SLAM LOGO FULLSCREEN WHITE FULLSCREEN LATEST DOCUMENTS DOWNLOAD DOCUMENT ALBUM LIVE BLOG VISUAL STORIES\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Alexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round | Tennis.com](https://www.tennis.com/news/articles/alexandra-eala-tests-defending-wimbledon-champ-barbora-krejcikova-first-round)\n2. [Wimbledon 2025: Defending champion Barbora Krejcikova avoids first-round upset - BBC Sport](https://www.bbc.co.uk/sport/tennis/articles/cr4wwpg1lkyo)\n3. [Defending champ Krejcikova recovers to edge Eala in three sets at Wimbledon](https://www.wtatennis.com/news/4299730/defending-champ-krejcikova-recovers-to-edge-eala-in-three-sets-at-wimbledon)\n4. [Barbora Krejčiková Alexandra Eala live score and H2H results - Sofascore](https://www.sofascore.com/tennis/match/alexandra-eala-barbora-krejcikova/YhzsziGc)\n5. [Tennis Live Scores News Videos Player Rankings | Tennis.com](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/)\n\nSynthesis:\nAt the 2025 Wimbledon Championships, defending champion Barbora Krejcikova defeated Alexandra Eala in the first round on July 1, 2025 [1][2]. Eala, making her main-draw debut at the tournament, won the opening set before Krejcikova rallied to win the match 3-6, 6-2, 6-1 [1][3]. The match lasted two hours and 10 minutes on Centre Court [1][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/alexandra-eala-tests-defending-wimbledon-champ-barbora-krejcikova-first-round\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round | Tennis.com\n...\nAlexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round\n...\n# Alexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round\n...\nAlexandra Eala impressed in her Wimbledon debut but fell short of dethroni
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -890,23 +694,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala, Nikola Bartunkova fall to Jelena Ostapenko, Sofia Kenin in Wimbledon doubles | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/993583/alex-eala-nikola-bartunkova-fall-to-jelena-ostapenko-sofia-kenin-in-wimbledon-doubles/story/)\n2. [Eala, Bartunkova yield to Kenin, Ostapenko in first round of Wimbledon doubles • PhilSTAR Life](https://philstarlife.com/news-and-views/572725-eala-bartunkova-yield-kenin-ostapenko-first-round-wimbledon-doubles)\n3. [Wimbledon 2026: Alex Eala and Nikola Bartůňková beaten in doubles first round by Sofia Kenin and Jeļena Ostapenko](https://www.olympics.com/en/news/wimbledon-2026-eala-bartunkova-kenin-ostapenko-doubles-round-one)\n4. [Manila Bulletin - After singles breakthrough, Eala bow out in Wimbledon doubles with Bartunkova](https://mb.com.ph/2026/07/03/after-singles-breakthrough-eala-and-bartunkova-bow-out-in-wimbledon-doubles)\n\nSynthesis:\nAlex Eala and Nikola Bartunkova were eliminated in the first round of the 2026 Wimbledon women's doubles tournament on July 2, 2026 [1][2]. They lost to the eighth-seeded pair of Sofia Kenin and Jelena Ostapenko in three sets with a score of 3-6, 6-3, 6-1 [2][3][4]. Despite winning the first set, Eala and Bartunkova were defeated after one hour and 53 minutes of play [1][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala, Nikola Bartunkova fall to Jelena Ostapenko, Sofia Kenin in Wimbledon doubles | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/993583/alex-eala-nikola-bartunkova-fall-to-jelena-ostapenko-sofia-kenin-in-wimbledon-doubles/story/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala, Nikola Bartunkova fall to Jelena Ostapenko, Sofia Kenin in Wimbledon doubles | GMA News Online\n...\nPublished July 3, 2026 3:58am\n...\nWimbledon - London, Britain - July 2, 2026 Philippines' Alexandra Eala in action during her second round match against Australia's Maya Joint REUTERS/Marko Djurica\n...\nAlexandra \"Alex\" Eala and Nikola Bartunkova bowed out of the Wimbledon women's doubles tournament after falling to the tandem of Jelena Ostapenko and Sofia Kenin, 3-6, 6-3, 6-1, in the first round early Friday (Philippine time).\n...\nEala and Bartunkova got off to a strong start, racing to a 3-0 lead before Ostapenko and Kenin won back-to-back games. Eala and Bartunkova responded by taking the next two games, while Ostapenko and Kenin managed one more as the Filipina-Czech pair secured the opening set.\n...\nThe momentum shifted in the next two sets, however, as Ostapenko and Kenin took control to complete the comeback victory in one hour and 53 minutes.\n...\nThe Latvian-American duo broke away for a 5-2 advantage in the second set after the score was tied at 2-2. Eala and Bartunkova claimed one more game, but Ostapenko and Kenin closed out the set to force a decider which they swept.\n...\nBefore competing in doubles, Eala booked her place in the Wimbledon Round of 32 with a 3-6, 6-2, 6-0 victory over Maya Joint in the second round.\n...\nTags: Alex Eala, Nikola Bartunkova, Jelena Ostapenko, sofia kenin, Wimbledon 2026\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eEala, Bartunkova yield to Kenin, Ostapenko in first round of Wimbledon doubles • PhilSTAR Life\u003c/title\u003e\n\u003curl\u003ehttps://philstarlife.com/news-and-views/572725-eala-bartunkova-yield-kenin-ostapenko-first-round-wimbledon-doubles\u003c/url\u003e\n\u003ccontent\u003eEala, Bartunkova yield to Kenin, Ostapenko in first round of Wimbledon doubles • PhilSTAR Life\n\n@nikolabartunkova, @wimbledon / Instagram\n\nAlex Eala and her Czech doubles partner Nikola Bartunková bowed out of the doubles competition at the 2026 Wimbledon Open after they conceded to No. 8 seeds Sofia Kenin of the US and Latvia's Jelena Ostapenko with a 3-6, 6-3, 6-1 defeat early Friday, July 3.\n\nHad it gone the other way, it would have been Eala's second victory of the day. Earlier on July 2, she sealed a payback win against Australia's Maya Joint in the singles second round. Joint previously beat Eala at the Lexus Eastbourne Open championship last year.\n\nEala and Bartunkova took the opening set with a strong start, securing a 3-0 lead before falling back to Ostapenko and Kenin's back-to-back wins in the next two games. The Filipina and Czech dug deep and won the next two games, giving way to their opponents in the next one, but ultimately finished the set with a win.\n\nIn the next two sets, the Latvian-American pair took decisive control, pounding out a 5-2 lead in the second set after Eala and Bartunkova claimed the first two games. Although the Philippine-Czechia duo managed to win a third game in the second set, Ostapenko and Kenin broke away for a victory in both the second and third sets.\n\nKenin and Ostapenko each have Grand Slam singles titles.\n\nEala can now focus on her next singles match in the third round on July 4 against another familiar opponent, No. 3 seed and defending champion Iga Swiatek. They have previously played against each other twice, splitting the matches between them.\n\nThe Filipina tennis ace has been on an unprecedented run. As it is now, she has made history as the first-seeded Filipino tennis player to win two singles main draw matches in Wimbledon.\n\nShare this article\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eWimbledon 2026: Alex Eala and Nikola Bartůňková beaten in doubles first round by Sofia Kenin and Jeļena Ostapenko\u003c/title\u003e\n\u003curl\u003ehttps://www.olympics.com/en/news/wimbledon-2026-eala-bartunkova-kenin-ostapenko-doubles-round-one\u003c/url\u003e\n\u003ccontent\u003eWimbledon 2026: Alex Eala and Nikola Bartůňková beaten in doubles first round by Sofia Kenin and Jeļena Ostapenko\n\n# Wimbledon 2026: Alex Eala and Nikola Bartůňková beaten in doubles first round by Sofia Kenin and Jeļena Ostapenko\n\nThe Filipina tennis star and her 20-year-old Czech teammate were knocked out by the No. 8 seeds at the All England Club on Thursday (2 July).\n\nPicture by Cameron Spencer/Getty Images\n\nBy Olympics.com Updated on 02 July 2026 19:41 GMT+01 min read\n\nAlexandra Eala was unable to secure a second victory of the day at Wimbledon 2026 on Thursday (2 July).\n\nThe Filipina star, fresh off stamping her spot in round three of the singles competition, teamed up with Czechia's Nikola Bartůňková but fell to a 3-6, 6-3, 6-1 defeat to No. 8 seeds Sofia Kenin and Jeļena Ostapenko.\n\nBoth their opponents had previously won Grand Slam singles titles, while Kenin joined Eala in playing two tennis matches in two days; she was beaten by Amanda Anisimova in a super tiebreak in the women's singles second round.\n\nEala will fully dedicate her focus to the women's singles event now, as she takes on No. 3 seed Iga Świątek in the third round on Saturday (4 July).\n\n- Wimbledon: Eala comes back to beat Maya Joint and set up Iga Świątek third-round clash\n\nCelebrate Olympic Day and Sonic’s birthday in style 💙⚡. Discover the special-edition Sonic x Olympic Collection and join the movement. Shop now 🛍️\n\n29 June - 12 JulyTennis | Wimbledon | London | Great BritainTennis\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eManila Bulletin - After singles breakthrough, Eala bow out in Wimbledon doubles with Bartunkova\u003c/title\u003e\n\u003curl\u003ehttps://mb.com.ph/2026/07/03/after-singles-breakthrough-eala-and-bartunkova-bow-out-in-wimbledon-doubles\u003c/url\u003e\n\u003ccontent\u003eManila Bulletin - After singles breakthrough, Eala bow out in Wimbledon doubles with Bartunkova\n...\n# After singles breakthrough, Eala bow out in Wimbledon doubles with Bartunkova\n...\nPublished Jul 3, 2026 05:28 am\n...\n- Fresh off her singles breakthrough a few hours ago, Eala couldn't carry that momentum into the doubles as she and Bartunkova ran out of gas against their seasoned rivals.\n...\nAlex Eala and Nikola Bartunkova bowed out of the Wimbledon Championships doubles after yielding to eighth-seeded pair Jelena Ostapenko and Sofia Kenin, 3-6, 6-3, 6-1, in the opening round on Friday, July 3 (Philippine time).\n...\nFresh off her singles breakthrough a few hours ago, Eala couldn’t carry that momentum into the doubles as she and Bartunkova ran out of gas against their seasoned rivals.\n...\nEala and Bartunkova, who actually played against each other in the finals of the Birmingham Classic that the Filipina won, started off strong by claiming the first set, before Ostapenko and Kenin regained their bearings and dominated the next two frames.\n...\nOstapenko, a 2024 US Open doubles champion, and Kenin, a two-time doubles quarterfinalist, advanced to the second round where they will face either the pair of McCartney Kessler and Diana Shnaider, or the tandem of Anastasia Detiuc and Irina Khromacheva.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Alex Eala, Nikola Bartunkova fall to Jelena Ostapenko, Sofia Kenin in Wimbledon doubles | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/993583/alex-eala-nikola-bartunkova-fall-to-jelena-ostapenko-sofia-kenin-in-wimbledon-doubles/story/)\n2. [Eala, Bartunkova yield to Kenin, Ostapenko in first round of Wimbledon doubles • PhilSTAR Life](https://philstarlife.com/news-and-views/572725-eala-bartunkova-yield-kenin-ostapenko-first-round-wimbledon-doubles)\n3. [Wimbledon 2026: Alex Eala and Nikola Bartůňková beaten in doubles first round by Sofia Kenin and Jeļena Ostapenko](https://www.olympics.com/en/news/wimbledon-2026-eala-bartunkova-kenin-ostapenko-doubles-round-one)\n4. [Manila Bulletin - After singles breakthrough, Eala bow out in Wimbledon doubles with Bartunkova](https://mb.com.ph/2026/07/03/after-singles-breakthrough-eala-and-bartunkova-bow-out-in-wimbledon-doubles)\n\nSynthesis:\nAlex Eala and Nikola Bartunkova were eliminated in the first round of the 2026 Wimbledon women's doubles tournament on July 2, 2026 [1][2]. They lost to the eighth-seeded pair of Sofia Kenin and Jelena Ostapenko in three sets with a score of 3-6, 6-3, 6-1 [2][3][4]. Despite winning the first set, Eala and Bartunkova were defeated after one hour and 53 minutes of play [1][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala, Nikola Bartunkova fall to Jelena Ostapenko, Sofia Kenin in Wimbledon doubles | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/993583/alex-eala-nikola-bartunkova-fall-to-jelena-ostapenko-sofia-kenin-in-wimbledon-doubles/story/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala, Nikola Bartunkova fall to Jelena Ostapenko, Sofia Kenin in Wimbledon doubles | GMA News Online\n...\nPublished July 3, 2026 3:58am\n...\nWimbledon - London, Britain - July 2, 2026 Philippines' Alexandra Eala in action during her se
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -915,14 +708,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Found the tennis.com URL for the 2025 Wimbledon singles match between Krejcikova and her opponent.
 
-Searching for the 2025 WTA URL for Krejcikova's singles match. The tracker lacks this link. Also checking tennis.com for 2025 doubles and 2026 doubles. Will grep specstory for previously used links.</details></think>
+Searching for the 2025 WTA URL for Krejcikova's singles match. The tracker lacks this link. Also checking tennis.com for 2025 doubles and 2026 doubles. Will grep specstory for previously used links.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -961,21 +753,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -991,37 +774,25 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Defending champ Krejcikova recovers to edge Eala in three sets at Wimbledon](https://www.wtatennis.com/news/4299730/defending-champ-krejcikova-recovers-to-edge-eala-in-three-sets-at-wimbledon)\n2. [HIGHLIGHTS: Alex Eala vs Barbora Krejcikova – 2025 Wimbledon Championships](https://www.rappler.com/sports/tennis-match-updates-highlights-results-video-watch-alex-eala-barbora-krejcikova-wimbledon-july-1-2025/)\n3. [Alex Eala falters after strong start, loses in Wimbledon debut - ESPN](https://www.espn.com/tennis/story/_/id/45630738/alex-eala-wimbledon-barbora-krejcikova)\n4. [Alexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round | Tennis.com](https://www.tennis.com/news/articles/alexandra-eala-tests-defending-wimbledon-champ-barbora-krejcikova-first-round)\n5. [Krejcikova vs. Eala | Round of 128 The Championships, Wimbledon 2025 | WTA Official](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608)\n\nSynthesis:\nIn the first round of the 2025 Wimbledon Championships on July 1, 2025, defending champion Barbora Krejcikova defeated Alexandra Eala [1][2]. Although Eala won the first set, Krejcikova recovered to win the match 3-6, 6-2, 6-1 on Centre Court [2][3][4]. This match was a Round of 128 encounter [5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eDefending champ Krejcikova recovers to edge Eala in three sets at Wimbledon\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4299730/defending-champ-krejcikova-recovers-to-edge-eala-in-three-sets-at-wimbledon\u003c/url\u003e\n\u003ccontent\u003eDefending champ Krejcikova recovers to edge Eala in three sets at Wimbledon\n...\n# Defending champ Krejcikova recovers to edge Eala in three sets at Wimbledon\n...\nWIMBLEDON -- Given their form coming in, Barbora Krejcikova and Alexandra Eala couldn’t have been on more different trajectories.\n...\nKrejcikova, the defending Wimbledon champion and No. 17 seed, missed the first five months of 2025 with a back injury and had to withdraw from this week's Eastbourne quarterfinals citing a thigh injury. She was a modest 3-4 in 2025 since returning from a debilitating back injury.\n...\nEala, still a teenager, leaped into the public consciousness back in March by beating three former Grand Slam champions -- Jelena Ostapenko, Madison Keys and Iga Swiatek -- in Miami. At the age of 20, last week she won six matches, including qualifying, to reach the final in Eastbourne before losing to Maya Joint -- 12-10 in a third-set tiebreak.\n...\nBut as Tuesday’s match progressed, muscle memory seemed to take over and Krejcikova regained her groove on the grass, defeating Eala 3-6, 6-2, 6-1.\n...\nA clean backhand down the line to finish it left Krejcikova -- fist aloft -- roaring in triumph. She now has 14 match-wins at Wimbledon, more than any other Grand Slam.\n...\n’ll have a\n...\nregain it.\n...\nWith Krejcikova serving at 2-3 in the first set, Eala broke through on the strength of a backhand winner. Playing only the second Grand Slam main draw of her young career, she made that stand up by taking better care of her serve and hitting fewer unforced errors than Krejcikova.\n...\nBut the defending champion came screaming back, taking a 5-0 lead in the second set and eventually forcing a decider.\n...\nDown 1-0 and facing her second break point, Eala didn’t do enough with an approach shot and couldn’t handle the subsequent volley. In the final analysis, Krejcikova -- an accomplished doubles player -- was better at the net. She won eight of 13 points, while Eala was only 2-for-9.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eHIGHLIGHTS: Alex Eala vs Barbora Krejcikova – 2025 Wimbledon Championships\u003c/title\u003e\n\u003curl\u003ehttps://www.rappler.com/sports/tennis-match-updates-highlights-results-video-watch-alex-eala-barbora-krejcikova-wimbledon-july-1-2025/\u003c/url\u003e\n\u003ccontent\u003eHIGHLIGHTS: Alex Eala vs Barbora Krejcikova – 2025 Wimbledon Championships\n...\n# HIGHLIGHTS: Alex Eala vs Barbora Krejcikova – 2025 Wimbledon Championships\n...\nAlex Eala ends her historic debut in the 2025 Wimbledon Championships women's singles, falling to defending champion Barbora Krejcikova in the first round\n...\nMANILA, Philippines – Alex Eala once again proved a champion is not untouchable, as she dragged reigning Wimbledon queen Barbora Krejcikova to an extended opening-round match with a first-set statement win, before eventually fading to a 3-6, 6-2, 6-1 loss at Centre Court of the All England Lawn Tennis and Croquet Club in the United Kingdom on Tuesday, July 1.\n...\n- Krejcikova wins the match, 3-6, 6-2, 6-1, to advance to the second round after disposing of Eala in 2 hours and 12 minutes.\n...\n- Eala puts the defending champion on the ropes and wins the opening set, 6-3.\n...\n5-3.\n...\n- Wimbledon.com gives Alex Eala a slightly higher possibility of winning (51%) against Barbora Krejcikova (49%).\n- This is likely because of the string of injuries that has beset Barbora Krejcikova, the defending champion from the Czech Republic.\n...\nA baptism of fire awaits Alex Eala as she sets foot on hallowed grass in her first career Wimbledon appearance at the Centre Court of the All England Lawn Tennis and Croquet Club in the United Kingdom on Tuesday, July 1, 8:30 pm, Manila time.\n...\nNow perched on a new career-high rank of world No. 56, the 20-year-old Filipina sensation immediately takes on the monumental task of dethroning the reigning Wimbledon champion Barbora Krejcikova of the Czech Republic, albeit with the latter still hobbling due to a thigh injury.\n...\nWorld No. 16 Krejcikova, meanwhile, has a lot to prove after retiring from the Eastbourne quarterfinals due to injury, and never got a chance to get a crack at either Eala or Joint on the way to the top.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eAlex Eala falters after strong start, loses in Wimbledon debut - ESPN\u003c/title\u003e\n\u003curl\u003ehttps://www.espn.com/tennis/story/_/id/45630738/alex-eala-wimbledon-barbora-krejcikova\u003c/url\u003e\n\u003ccontent\u003eAlex Eala falters after strong start, loses in Wimbledon debut - ESPN\n...\nDespite a strong start, Alex Eala fell to defending champion Barbora Krejčíková in her Wimbledon debut. Neil Hall/EPA/Shutterstock\n...\nThe 20-year-old Filipina, ranked No. 56 in the world, showed early promise but ultimately bowed out to 2024 Wimbledon Open champion and world No. 16 Barbora Krejčíková, 6-3, 2-6, 1-6, in the first round of the 2025 Wimbledon Open. It marked a second straight first-round Grand Slam exit for Eala, who also lost at Roland Garros earlier this year against Emiliana Arango of Columbia.\n...\nComing in with momentum from a strong grass-court performance in the Eastbourne Open, Eala looked sharp and fearless early. After conceding an early break in the third game, she stormed back with four straight games - highlighted by two breaks of serve - to take a commanding 5-2 lead. Krejčíková, who struggled with five double faults in the set, managed to hold a gritty eighth game, but Eala stayed composed and served it out to take the opener, stunning the Centre Court crowd.\n...\nIn the third, fatigue and errors began to take a toll on Eala. Krejčíková broke early and dominated the remainder of the set, sealing the victory in a grueling two hours and 10 minutes match. Despite the loss, Eala's first-set effort drew praise, showing she can go toe-to-toe with the sport's elite when at her best.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eAlexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/alexandra-eala-tests-defending-wimbledon-champ-barbora-krejcikova-first-round\u003c/url\u003e\n\u003ccontent\u003ejcikova in\n...\n# Alexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round\n...\nled Krejcikova by a set before falling in her Centre Court debut.\n...\nAlexandra Eala impressed in her Wimbledon debut but fell short of dethroning defending champion Barbora Krecjikova on Centre Court, the 20-year-old ultimately bowing out, 3-6, 6-2, 6-1.\n...\nThe phenom from the Philippines arrived for her first main-draw appearance at the All England Club fresh off reaching her first WTA final, but was unable to convert a one-set lead against the former world No. 2, who kicked off her title defense with a two-hour, 10-minute victory.\n...\n\"Well, definitely very happy with this win because the match was really tough,\" said Krejcikova. \"It's a first round, so it's obviously very difficult to enter the tournament. But I'm really happy that I got through and I'm in the second round, that yeah, I can keep going.\"\n...\nThe Quezon City native, decked out in Nike's homage to the Philippines' national flower, looked to be a dangerous floater against the No. 17th-seeded Krejcikova, who has played few matches in 2025 after winning her second major title at this tournament last summer. The Czech withdrew from Eastbourne after winning two close matches and reaching the quarterfinals, and appeared undercooked in the early goings against Eala.\n...\nEala raced to a 5-2 lead and shook off losing a long eighth game—during which Krejcikova saved a set point on her serve—to clinch the opening set on her third opportunity.\n...\nthere, taking a 5-0 lead of her own and held off a resurgent Eala to level the match at one set apiece.\n...\nEala and Krejcikova battled through numerous close games as the final set got underway but it was Krejcikova winning the crucial points, nabbing a 5-1, double-break advantage that allowed her to serve for the match.\n...\nUp 40-0 on her serve, Krejcikova nailed a backhand down the line and let out a roar of relief, having edged into the second round.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eKrejcikova vs. Eala | Round of 128 The Championships, Wimbledon 2025 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608\u003c/url\u003e\n\u003ccontent\u003eKrejcikova vs. Eala | Round of 128 The Championships, Wimbledon 2025 | WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Defending champ Krejcikova recovers to edge Eala in three sets at Wimbledon](https://www.wtatennis.com/news/4299730/defending-champ-krejcikova-recovers-to-edge-eala-in-three-sets-at-wimbledon)\n2. [HIGHLIGHTS: Alex Eala vs Barbora Krejcikova – 2025 Wimbledon Championships](https://www.rappler.com/sports/tennis-match-updates-highlights-results-video-watch-alex-eala-barbora-krejcikova-wimbledon-july-1-2025/)\n3. [Alex Eala falters after strong start, loses in Wimbledon debut - ESPN](https://www.espn.com/tennis/story/_/id/45630738/alex-eala-wimbledon-barbora-krejcikova)\n4. [Alexandra Eala tests defending Wimbledon champ Barbora Krejcikova in first round | Tennis.com](https://www.tennis.com/news/articles/alexandra-eala-tests-defending-wimbledon-champ-barbora-krejcikova-first-round)\n5. [Krejcikova vs. Eala | Round of 128 The Championships, Wimbledon 2025 | WTA Official](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608)\n\nSynthesis:\nIn the first round of the 2025 Wimbledon Championships on July 1, 2025, defending champion Barbora Krejcikova defeated Alexandra Eala [1][2]. Although Eala won the first set, Krejcikova recovered to win the match 3-6, 6-2, 6-1 on Centre Court [2][3][4]. This match was a Round of 128 encounter [5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eDefending champ Krejcikova recovers to edge Eala in three sets at Wimbledon\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4299730/defending-champ-krejcikova-recovers-to-edge-eala-in-three-sets-at-wimbledon\u003c/url\u003e\n\u003ccontent\u003eDefending champ Krejcikova recovers to edge Eala in three sets at Wimbledon\n...\n# Defending champ Krejcikova recovers to edge Eala in three sets at Wimbledon\n...\nWIMBLEDON -- Given their form coming in, Barbora Krejcikova and Alexandra Eala couldn’t have been on more different trajectories.\n...\nKrejcikova, the defending Wimbledon ch
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All necessary links are gathered. Now locating the tennis.com URLs for 2025 and 2026 doubles.</details></think>
+All necessary links are gathered. Now locating the tennis.com URLs for 2025 and 2026 doubles.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1064,13 +835,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1078,14 +842,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The formatting history shows a 2025 doubles tennis.com link for the A-Eala versus Q-Gleason-I-Martins match on July 3rd. The URL uses a partial path.
 
-Searching specstory for the full URL.</details></think>
+Searching specstory for the full URL.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1120,21 +883,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1185,13 +939,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1201,33 +948,27 @@ The tennis.com URL for 2026 doubles appears to be missing or unreachable.
 
 Wimbledon.com links appear to be missing from the current file. The 2025 doubles score correctly shows Eala losing 4-6, 2-6. The 2026 doubles score correctly shows Eala winning the first set 6-3 but losing the next two 3-6, 1-6.
 
-Checking the wimbledon-link-removal session to determine whether to restore the missing links.</details></think>
+Checking the wimbledon-link-removal session to determine whether to restore the missing links.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_12-57-45Z-wimbledon-link-removal.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_12-57-45Z-wimbledon-link-removal.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
-  "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-n-bartunkova-vs-j-ostapenko-s-kenin-2026-07-02" \
-  "https://www.tennis.com/tournaments/wimbledon/matches/n-bartunkova-a-eala-vs-j-ostapenko-s-kenin-2026-07-02" \
-  "https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01" \
-  "https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/"; do
-  title=$(curl -sL -A "Mozilla/5.0" "$url" | grep -oP '(?<=<title>)[^<]+' | head -1)
-  echo "$title | $url"
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
+  &#34;https://www.tennis.com/tournaments/wimbledon/matches/a-eala-n-bartunkova-vs-j-ostapenko-s-kenin-2026-07-02&#34; \
+  &#34;https://www.tennis.com/tournaments/wimbledon/matches/n-bartunkova-a-eala-vs-j-ostapenko-s-kenin-2026-07-02&#34; \
+  &#34;https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01&#34; \
+  &#34;https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/&#34;; do
+  title=$(curl -sL -A &#34;Mozilla/5.0&#34; &#34;$url&#34; | grep -oP &#39;(?&lt;=&lt;title&gt;)[^&lt;]+&#39; | head -1)
+  echo &#34;$title | $url&#34;
 done</summary>
-
 ```bash
 for url in \
   "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-n-bartunkova-vs-j-ostapenko-s-kenin-2026-07-02" \
@@ -1246,12 +987,6 @@ Barbora Krejčíková vs Alexandra Eala · Wimbledon | https://www.tennis.com/to
 Tournament not found | Tennis.com | https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1263,18 +998,13 @@ The skill still instructs adding wimbledon.com links. Verified match pages appea
 
 Adding wimbledon.com links back without user request is too risky. The refresh will only bump lastmod and fix safe gaps. No new tournament results appeared since July 13. The No. 28 ranking remains unchanged. Missing tennis.com/wta links for 2025 Wimbledon may be added instead.
 
-2025 Wimbledon singles and doubles need wta and tennis.com links. 2026 Wimbledon doubles needs tennis.com. The skill requires wimbledon.com for Grand Slams. The prior removal reason is being reviewed.</details></think>
+2025 Wimbledon singles and doubles need wta and tennis.com links. 2026 Wimbledon doubles needs tennis.com. The skill requires wimbledon.com for Grand Slams. The prior removal reason is being reviewed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_12-57-45Z-wimbledon-link-removal.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_12-57-45Z-wimbledon-link-removal.md</summary>
 
 </details></tool-use>
 
@@ -1293,7 +1023,8 @@ No new results appeared since July 13. The update will bump the lastmod date, ad
 
 Checking whether Krejcikova's 2025 Wimbledon loss should include H2H match stats links. Bad Homburg and Indian Wells rounds are below quarterfinals, so they are not missing. Washington and Bad Homburg singles entries may be absent.
 
-Miami 2026's round-of-sixteen loss is also below the quarterfinal threshold and will be skipped. The substantive edits appear minimal.</details></think>
+Miami 2026's round-of-sixteen loss is also below the quarterfinal threshold and will be skipped. The substantive edits appear minimal.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1302,61 +1033,29 @@ No new results since July 13 — career high No. 28 is confirmed. Adding missing
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
@@ -1365,7 +1064,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I made an error on Krejcikova's H2H record.
 
-The original H2H line used opponent-first scores. My first correction flipped set two incorrectly. The correct Eala-first loss is 3-6, 6-2, 1-6.</details></think>
+The original H2H line used opponent-first scores. My first correction flipped set two incorrectly. The correct Eala-first loss is 3-6, 6-2, 1-6.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1374,25 +1074,15 @@ Fixing the Krejcikova H2H score — set 2 should be 6-2, not 2-6.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="read_lints">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
 <summary>Tool use: **read_lints**</summary>
-
 
 Parameters:
 
@@ -1416,13 +1106,6 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
-<summary>Tool use: **read_lints**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1432,7 +1115,8 @@ Preparing a concise summary.
 
 No new tournament results since July 13. Career high No. 28 singles confirmed on WTA; doubles still No. 88. Rankings remain unchanged. Paolini stays in Other Top 20 as French Open 2024 finalist. Added missing WTA and tennis.com links for 2025 Wimbledon. Fixed Krejcikova H2H score to Eala-first format. Did not re-add wimbledon.com links.
 
-No tennis.com URL found for 2026 Wimbledon. Next: DC Open WTA 500 Washington (singles main draw and Venus Williams doubles wildcard).</details></think>
+No tennis.com URL found for 2026 Wimbledon. Next: DC Open WTA 500 Washington (singles main draw and Venus Williams doubles wildcard).
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1478,7 +1162,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating the alex-eala-tracker-update skill rule to exclude walkovers from matches.
 
-Reading the skill file and tracker to locate where to apply the rule. Will also check reference.md if needed.</details></think>
+Reading the skill file and tracker to locate where to apply the rule. Will also check reference.md if needed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1487,10 +1172,8 @@ Updating the tracker skill rule and checking the tracker for walkover entries to
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1526,25 +1209,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -1555,53 +1225,34 @@ Updating the rule to exclude walkovers from matches.
 
 Applying this to SKILL.md and reference.md. For the tracker, walkovers won't count as H2H meetings or appear as match lines. The Paula Badosa H2H block may be removed entirely.
 
-Walkovers may still appear in tournament round progressions without counting as H2H matches. Reviewing Paula Badosa's tracker entries and H2H/watch list sections for additional context.</details></think>
+Walkovers may still appear in tournament round progressions without counting as H2H matches. Reviewing Paula Badosa's tracker entries and H2H/watch list sections for additional context.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1632,13 +1283,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1652,14 +1296,13 @@ Miami R16 will drop the walkover line entirely. The tournament narrative will sk
 
 Tournament walkovers will be noted as withdrawals rather than matches. Doubles walkovers will be removed from tournament doubles. Badosa may return to the watch list.
 
-Badosa is not currently on the watch list. Her absence is tied to the walkover. Adding her back now that the walkover is removed. Checking reference.md against the current watch list.</details></think>
+Badosa is not currently on the watch list. Her absence is tied to the walkover. Adding her back now that the walkover is removed. Checking reference.md against the current watch list.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1690,25 +1333,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -1723,31 +1353,20 @@ Also removing a walkover line from Canberra doubles. Considering a brief note fo
 
 Decided to simply delete walkover lines rather than add non-match notes. The Miami tournament progression remains clear without the R16 round. Now updating reference.md.
 
-Retirements count as matches, not walkovers. Keeping Gauff's "WIN (Retired)" entries in H2H. Also adding the walkover rule to the watch-list workflow section in SKILL.md.</details></think>
+Retirements count as matches, not walkovers. Keeping Gauff's "WIN (Retired)" entries in H2H. Also adding the walkover rule to the watch-list workflow section in SKILL.md.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
@@ -1762,7 +1381,8 @@ Walkovers will be defined as non-matches with no H2H block or Matches line. Oppo
 
 Badosa will be inserted into the watch list between Andreescu and Bencic. The Miami R16 Badosa line will be removed. The Ningbo doubles walkover line will be deleted. The Canberra doubles QF walkover line will be removed. The lastmod timestamp will be bumped. The Ningbo tournament will retain its QF exit line. The Canberra tournament will keep its SF loss and R16 win. Static exports will be left alone.
 
-The head-to-head workflow will direct users to the Walkovers rule. The watch list promotion rule will explicitly exclude walkover-only contact.</details></think>
+The head-to-head workflow will direct users to the Walkovers rule. The watch list promotion rule will explicitly exclude walkover-only contact.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1771,106 +1391,50 @@ Adding the walkover rule to the skill and applying it to the tracker — removin
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -1879,152 +1443,82 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Fixing duplicate step numbers in the H2H workflow.
 
-Reading the relevant section.</details></think>
+Reading the relevant section.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Applying the tracker changes now.</details></think>
+Applying the tracker changes now.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
 The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
@@ -2033,29 +1527,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking whether Badosa belongs alphabetically between Andreescu and Andreeva.
 
-Confirmed Badosa belongs after Andreescu and Andreeva alphabetically.</details></think>
+Confirmed Badosa belongs after Andreescu and Andreeva alphabetically.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2081,13 +1566,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2095,7 +1573,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Walkovers are now excluded from the tracker.
 
-Retirements remain included. Walkovers are excluded.</details></think>
+Retirements remain included. Walkovers are excluded.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2142,7 +1621,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I need to report the task result and check for follow-up actions.
 
-Paolini's WTA profile fetch failed with exit code 1. She was correctly not promoted because she won doubles slams, not singles.</details></think>
+Paolini's WTA profile fetch failed with exit code 1. She was correctly not promoted because she won doubles slams, not singles.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2161,14 +1641,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Adding career high ranking to the "Matches to Watch Out For" entries in alex-eala-pro-career-tracker.md at lines 625–638.
 
-Checking reference.md and the tracker for existing career highs and watch list IDs.</details></think>
+Checking reference.md and the tracker for existing career highs and watch list IDs.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2199,34 +1678,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2261,13 +1725,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2277,27 +1734,20 @@ Adding career high rankings for each watch list player.
 
 Most career highs are already known. Bianca Andreescu peaks at No. 4. Paula Badosa is former No. 2. Sofia Kenin reached No. 4. Naomi Osaka is No. 1. Emma Raducanu is around No. 10. Amanda Anisimova still needs verification.
 
-Aryna Sabalenka is No. 1. Qinwen Zheng is around No. 5 or 7. Searching reference.md and the repository for additional career high data.</details></think>
+Aryna Sabalenka is No. 1. Qinwen Zheng is around No. 5 or 7. Searching reference.md and the repository for additional career high data.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -2313,33 +1763,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Amanda Anisimova](https://en.wikipedia.org/wiki/Amanda_Anisimova)\n2. [WTA rankings](https://en.wikipedia.org/wiki/WTA_rankings)\n3. [WTA Singles World Rankings - complete list: Rybakina closes in on Sabalenka, Eala seals Wimbledon seed spot](https://www.olympics.com/en/news/wta-singles-world-rankings-complete-tennis-list-aryna-sabalenka-elena-rybakina-coco-gauff)\n4. [Aryna Sabalenka Rankings \u0026 Ranking History - TennisStats.com](https://tennisstats.com/players/aryna-sabalenka/rankings)\n5. [Amanda Anisimova Rankings \u0026 Ranking History - TennisStats.com](https://tennisstats.com/players/amanda-anisimova/rankings)\n\nSynthesis:\nThe career-high WTA singles rankings for these players are as follows: Amanda Anisimova reached No. 3 in January 2026 [1][2]. Bianca Andreescu attained a career-high of No. 4 [2]. Mirra Andreeva reached No. 5 [2]. Belinda Bencic hit No. 4 [2]. Sofia Kenin peaked at No. 4 [2]. Emma Navarro climbed to No. 8 [2]. Naomi Osaka held the No. 1 ranking [2]. Emma Raducanu reached a career-high of No. 10 [2]. Aryna Sabalenka has been world No. 1 [2][3]. Diana Shnaider reached No. 15 [2]. Zheng Qinwen peaked at No. 5 [2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAmanda Anisimova\u003c/title\u003e\n\u003curl\u003ehttps://en.wikipedia.org/wiki/Amanda_Anisimova\u003c/url\u003e\n\u003ccontent\u003eAmanda Kay Victoria Anisimova (/ˌænɪsɪˈmoʊvə/; born August 31, 2001) is an American professional tennis player. She has a career-high singles ranking of world No. 3, achieved in January 2026. Anisimova is a two-time Grand Slam tournament finalist, at the 2025 Wimbledon Championships and at the 2025 US Open. She has won four WTA Tour titles, including two WTA 1000 events.\n...\nAnisimova reached her career-best ranking to date in 2022, before temporarily stepping away from the sport for mental health reasons. Following her return, Anisimova posted her career-best results in 2025, including the Wimbledon and US Open finals, two WTA 1000 titles, and a top-5 ranking. In 2026, she reached the world No. 3 ranking.\n...\n| Singles |\n...\n–123 |\n...\n6. |\n...\nAt the Charleston Open, she advanced to the quarterfinals defeating tenth seed Yulia Putintseva. Next, she upset fourth-seeded Emma Navarro, before she had to retire in her semifinal match against Sofia Kenin. Following the French Open, where she reached round four for the third time, defeating 22nd seed Clara Tauson, Anisimova made her top 15 debut on June 9, 2025.\n...\nZheng Qinwen\n...\nbeat Iga Świątek in\n...\nin a rematch of\n...\nto Aryna Sabalenka\n...\nrecorded a new\n...\nOn January 5, 2026, Anisimova reached a new career-high of world No. 3 in the WTA rankings. At the Australian Open, she defeated Simona Waltert, Kateřina Siniaková, Peyton Stearns and Wang Xinyu to reach the quarterfinals, at which point her run was ended by sixth seed Jessica Pegula. In February at the Dubai Tennis Championships, Anisimova was given a bye as second seed and then a walkover when Barbora Krejčíková withdrew from the tournament due to a thigh injury. She then recorded wins over wildcard entrant Janice Tjen and fifth seed Mirra Andreeva to make it through to the semifinals, where she lost to fourth seed Jessica Pegula in three sets.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eWTA rankings\u003c/title\u003e\n\u003curl\u003ehttps://en.wikipedia.org/wiki/WTA_rankings\u003c/url\u003e\n\u003ccontent\u003e| Singles race rankings as of 29 June 2026 [update] |\n| --- |\n| No. | Player | Points | Tourn |\n| 1 | Mirra Andreeva | 4,929 | 13 |\n| 2 | Aryna Sabalenka | 4,705 | 10 |\n| 3 | Elena Rybakina(KAZ) | 4,497 | 12 |\n| 4 | Elina Svitolina(UKR) | 4,106 | 12 |\n| 5 | Jessica Pegula(USA) | 3,520 | 11 |\n| 6 | Karolína Muchová(CZE) | 2,970 | 12 |\n| 7 | Coco Gauff(USA) | 2,704 | 11 |\n| 8 | Marta Kostyuk(UKR) | 2,495 | 10 |\n| 9 | Victoria Mboko(CAN) | 2,393 | 13 |\n| 10 | Sorana Cîrstea(ROU) | 1,915 | 15 |\n| 11 | Iga Świątek(POL) | 1,824 | 11 |\n| 12 | Linda Nosková(CZE) | 1,674 | 12 |\n| 13 | Iva Jovic(USA) | 1,622 | 14 |\n| 14 | Diana Shnaider | 1,615 | 14 |\n| 15 | Belinda Bencic(SUI) | 1,612 | 10 |\n| 16 | Maja Chwalinska(POL) | 1,454 | 4 |\n| 17 | Madison Keys(USA) | 1,444 | 13 |\n| 18 | Anastasia Potapova(AUT) | 1,423 | 14 |\n| 19 | Amanda Anisimova(USA) | 1,368 | 8 |\n| 20 | Anna Kalinskaya | 1,300 | 13 |\n...\n| Aryna Sabalenka\n...\n| 2 | Elena\n...\nbakina(\n...\n8,143 | |\n...\n| 3 | Iga Świątek(POL) | 6,409 | |\n...\n| 4 | Jessica Pegula(USA) | 5,881 | |\n...\n| 5 | Mirra Andreeva | 5,653 | |\n...\n| 6 | Amanda Anisimova(USA) | 5,523 | |\n...\n| 7 | Coco Gauff(USA) | 4,879 | |\n| 8 | Elina Svitolina(UKR) | 4,471 | |\n| 9 | Karolína Muchová(CZE) | 3,878 | 2 |\n| 10 | Victoria Mboko(CAN) | 3,670 | 1 |\n| 11 | Belinda Bencic(SUI) | 3,385 | 1 |\n| 12 | Linda Nosková(CZE) | 3,359 | 2 |\n| 13 | Marta Kostyuk(UKR) | 3,157 | |\n| 14 | Naomi Osaka(JPN) | 2,848 | 1 |\n| 15 | Diana Shnaider | 2,458 | 1 |\n| 16 | Iva Jovic(USA) | 2,436 | 1 |\n| 17 | Jasmine Paolini(ITA) | 2,423 | 3 |\n| 18 | Sorana Cîrstea(ROU) | 2,415 | |\n| 19 | Ekaterina Alexandrova | 2,411 | |\n| 20 | Anna Kalinskaya | 2,240 | |\n...\n2020 | A. Barty | S. Halep |\n...\n. Osaka | S. Kenin★ | E. Svitolina | K. Plíšková | B. Andreescu | P. Kvitová | K. Bertens | A. Sabalenka |\n...\n| 2024 | A. Sabalenka★ | I. Świątek | C. Gauff | J. Paolini★ | Q. Zheng★ | E. Rybakina | J. Pegula | E. Navarro★ | D. Kasatkina | B. Krejčíková |\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eWTA Singles World Rankings - complete list: Rybakina closes in on Sabalenka, Eala seals Wimbledon seed spot\u003c/title\u003e\n\u003curl\u003ehttps://www.olympics.com/en/news/wta-singles-world-rankings-complete-tennis-list-aryna-sabalenka-elena-rybakina-coco-gauff\u003c/url\u003e\n\u003ccontent\u003eWTA Singles World Rankings - complete list: Rybakina closes in on Sabalenka, Eala seals Wimbledon seed spot\n\n# WTA Singles World Rankings - complete list: Rybakina closes in on Sabalenka, Eala seals Wimbledon seed spot\n\nDiscover the top 100 women's singles players in the world right now, as the best tennis players battle for glory on the WTA Tour.\n\nPicture by Julian Finney/Getty Images\n\nBy Olympics.com Updated on 22 June 2026 13:43 GMT+02 min read\n\nWho is the best female tennis player in the world?\n\nBased on the numbers of the WTA singles rankings, Aryna Sabalenka remains the long-undisputed world No. 1; since October 2024, no one has surpassed the 28-year-old at the top.\n\nThe 2026 Laureus World Sportswoman of the Year has won four Grand Slam titles so far, with three singles trophies this season.\n\nSabalenka heads to Wimbledon just 947 points above world No.2 Elena Rybakina, a former champion at the All England Club in 2022. Neither woman has more than two wins on the grass surface heading to SW19.\n\nDefending champion Iga Świątek has a hefty 2,000 points to defend as the third seed, just ahead of USA No. 1 Jessica Pegula and French Open champion Mirra Andreeva, the third youngest winner of a major this century.\n\nAmanda Anisimova and Coco Gauff are ranked sixth and seventh with Elina Svitolina at No. 8, while world number nine Victoria Mboko will miss Wimbledon due to a knee injury.\n\nLinda Nosková rounds out the top 10 after clinching the Berlin Open title (WTA 500), and Alexandra Eala becomes the Philippines' first singles seed at Wimbledon by rising five spots to No. 30.\n\n- ATP Singles World Rankings - complete list: Jannik Sinner remains on top, Taylor Fritz up to seventh\n\nCelebrate Olympic Day and Sonic’s birthday in style 💙⚡. Discover the special-edition Sonic x Olympic Collection and join the movement. Shop now 🛍️\n\n## WTA Singles World Rankings - complete list\n\n## Sonic x Olympic Collection\n\nShop now\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eAryna Sabalenka Rankings \u0026 Ranking History - TennisStats.com\u003c/title\u003e\n\u003curl\u003ehttps://tennisstats.com/players/aryna-sabalenka/rankings\u003c/url\u003e\n\u003ccontent\u003eAryna Sabalenka\n...\nAryna Sab\n...\nAryna Sabalenka\n...\nAs of 2026 June\n...\nAs of 2026 June\n...\nCareer High Ranking\n...\n2025 February\n...\nCareer High Points\n...\n9416\n...\n2024 November\n...\n2026 June\n...\n9090\n...\nWTA Singles\n...\nAryna Sabalenka\n...\n9,090\n...\nElena Rybakina\n...\nMirra Andreeva\n...\n653\n...\nAmanda Anisimova\n...\n5,523\n...\nBelinda Bencic\n...\n2026\n...\n2026\n...\n2026\n...\n2026\n...\n2025\n...\n2025\n...\n2025\n...\n2025\n...\n2025\n...\n2024\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eAmanda Anisimova Rankings \u0026 Ranking History - TennisStats.com\u003c/title\u003e\n\u003curl\u003ehttps://tennisstats.com/players/amanda-anisimova/rankings\u003c/url\u003e\n\u003ccontent\u003eWTA Rank\n...\nAs of 2026 May\n...\n5995\n...\nAs of 2026 May\n...\nCareer High Ranking\n...\n2022 November\n...\nCareer High Points\n...\n2038\n...\n2019 August\n...\n2026 May\n...\n5995\n...\n2026\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    },
-    {
-      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/8e1d4020-48fc-4ff1-b23e-5856edffe6c4.txt\nSize: 44.2 KB, 375 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
-      "title": "Amanda Anisimova",
-      "url": "https://en.wikipedia.org/wiki/Amanda_Anisimova"
-    },
-    {
-      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/b0b6a7f3-60b7-45cc-a356-87c18a871bd3.txt\nSize: 36.2 KB, 689 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
-      "title": "WTA rankings",
-      "url": "https://en.wikipedia.org/wiki/WTA_rankings"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Amanda Anisimova](https://en.wikipedia.org/wiki/Amanda_Anisimova)\n2. [WTA rankings](https://en.wikipedia.org/wiki/WTA_rankings)\n3. [WTA Singles World Rankings - complete list: Rybakina closes in on Sabalenka, Eala seals Wimbledon seed spot](https://www.olympics.com/en/news/wta-singles-world-rankings-complete-tennis-list-aryna-sabalenka-elena-rybakina-coco-gauff)\n4. [Aryna Sabalenka Rankings \u0026 Ranking History - TennisStats.com](https://tennisstats.com/players/aryna-sabalenka/rankings)\n5. [Amanda Anisimova Rankings \u0026 Ranking History - TennisStats.com](https://tennisstats.com/players/amanda-anisimova/rankings)\n\nSynthesis:\nThe career-high WTA singles rankings for these players are as follows: Amanda Anisimova reached No. 3 in January 2026 [1][2]. Bianca Andreescu attained a career-high of No. 4 [2]. Mirra Andreeva reached No. 5 [2]. Belinda Bencic hit No. 4 [2]. Sofia Kenin peaked at No. 4 [2]. Emma Navarro climbed to No. 8 [2]. Naomi Osaka held the No. 1 ranking [2]. Emma Raducanu reached a career-high of No. 10 [2]. Aryna Sabalenka has been world No. 1 [2][3]. Diana Shnaider reached No. 15 [2]. Zheng Qinwen peaked at No. 5 [2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAmanda Anisimova\u003c/title\u003e\n\u003curl\u003ehttps://en.wikipedia.org/wiki/Amanda_Anisimova\u003c/url\u003e\n\u003ccontent\u003eAmanda Kay Victoria Anisimova (/ˌænɪsɪˈmoʊvə/; born August 31, 2001) is an American professional tennis player. She has a career-high singles ranking of world No. 3, achieved in January 2026. Anisimova is a two-time Grand Slam tournament finalist, at the 2025 Wimbledon Championships and at the 2025 US Open. She has won four WTA Tour titles, including two WTA 1000 events.\n...\nAnisimova reached her career-best ranking to date in 2022, before temporarily stepping away from the sport for mental health reasons. Following her return, Anisimova posted her career-best r
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -2352,14 +1781,13 @@ WTA career high rankings have been identified for each player. These include sin
 
 Existing tracker IDs will be kept despite a discrepancy in Navarro's WTA ID. A compact inline format is being considered for watch list entries. This would place the career high ranking near the credential note. Badosa's existing "Former world No. 2" wording may be standardized to match.
 
-The watch list format will place the career high ranking before the credential note, separated by a semicolon. Badosa's existing "Former world No. 2" will be replaced with "career high No. 2" for consistency. A Wikipedia grep will verify the career high figures.</details></think>
+The watch list format will place the career high ranking before the credential note, separated by a semicolon. Badosa's existing "Former world No. 2" will be replaced with "career high No. 2" for consistency. A Wikipedia grep will verify the career high figures.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2415,13 +1843,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2437,7 +1858,8 @@ Badosa's entry will drop "Former world No. 2" and read "career high No. 2". The 
 
 Scope stays limited to the tracker section and its lastmod timestamp. Existing player IDs will remain unchanged. Shnaider may have improved further since reaching the 2026 Olympics semifinals; an Olympics article listed her at No. 14 in June 2026.
 
-The Wikipedia career high table lists Shnaider at No. 15 with 2,458 points, though a current snapshot shows 14. I'll use 15 for her career high. Andreeva's peak is No. 5.</details></think>
+The Wikipedia career high table lists Shnaider at No. 15 with 2,458 points, though a current snapshot shows 14. I'll use 15 for her career high. Andreeva's peak is No. 5.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2446,61 +1868,29 @@ Adding career-high singles to each watch-list line, using the same `No. XX` form
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -2509,7 +1899,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The watch list table in reference.md should also include career highs for future reference.
 
-The skill file was updated to document the career high format. Adding a career high column to reference.md may be overkill since the skill already covers the format. A brief response to the user template is next.</details></think>
+The skill file was updated to document the career high format. Adding a career high column to reference.md may be overkill since the skill already covers the format. A brief response to the user template is next.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2528,14 +1919,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating the tracker rules to allow walkovers in the Best Performances in WTA Tournaments section. They will remain excluded from H2H sections.
 
-Checking the current walkover rules in SKILL.md and reference.md. Will review whether to restore removed walkover lines in the tracker.</details></think>
+Checking the current walkover rules in SKILL.md and reference.md. Will review whether to restore removed walkover lines in the tracker.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2570,21 +1960,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2610,13 +1991,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2624,57 +1998,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating SKILL.md to allow walkovers in Best Performances tournament runs.
 
-Also updating reference.md. Removing the Step 3 bullet that prohibits walkovers in tournament runs. Adjusting verification to exclude walkovers only from H2H. Restoring removed walkover tracker entries for Miami 2025 Badosa, Ningbo doubles, and Canberra doubles. Badosa remains on the watch list for H2H.</details></think>
+Also updating reference.md. Removing the Step 3 bullet that prohibits walkovers in tournament runs. Adjusting verification to exclude walkovers only from H2H. Restoring removed walkover tracker entries for Miami 2025 Badosa, Ningbo doubles, and Canberra doubles. Badosa remains on the watch list for H2H.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -2683,31 +2034,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking whether the Grand Slam section also needs walkover rules.
 
-Walkovers will be allowed only in Best Performances, formatted as `Round, d./l. Opponent w/o | links`. Grand Slam and H2H sections remain unchanged. Tracker walkover lines for Miami 2025, Ningbo 2024 doubles, and Canberra 2024 doubles will be restored. A score format note for walkovers will be added to reference.md.</details></think>
+Walkovers will be allowed only in Best Performances, formatted as `Round, d./l. Opponent w/o | links`. Grand Slam and H2H sections remain unchanged. Tracker walkover lines for Miami 2025, Ningbo 2024 doubles, and Canberra 2024 doubles will be restored. A score format note for walkovers will be added to reference.md.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
@@ -2716,7 +2056,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating rules to allow walkovers in Best Performances.
 
-Miami needs a Round 16 slot between Quarterfinals and Round 32. Badosa remains on the watch list. Adding a walkover example to reference.md. Updating the verify checklist to restrict walkovers to H2H sections only.</details></think>
+Miami needs a Round 16 slot between Quarterfinals and Round 32. Badosa remains on the watch list. Adding a walkover example to reference.md. Updating the verify checklist to restrict walkovers to H2H sections only.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2725,148 +2066,78 @@ Updating the walkover rules to allow them in Best Performances only, and restori
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a walkover example to the score format section in reference.md would improve consistency.</details></think>
+Adding a walkover example to the score format section in reference.md would improve consistency.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updated rules now allow walkovers in Best Performances. The tracker has restored walkover lines there. Badosa remains on the watch list rather than H2H.</details></think>
+Updated rules now allow walkovers in Best Performances. The tracker has restored walkover lines there. Badosa remains on the watch list rather than H2H.
+</details></think>
 
 _**Agent (auto-low)**_
 

@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Investigating why "bema" does not appear in search results.
 
-This is a Hugo site. Searching the codebase for the search implementation and any content related to "bema".</details></think>
+This is a Hugo site. Searching the codebase for the search implementation and any content related to "bema".
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,10 +25,8 @@ I'll trace how site search works and whether any content mentions "bema".
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -96,21 +95,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -217,22 +207,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **18** results in **1** directory</summary>
 
-Directory: **** (18 files)
+Directory: **``** (18 files)
 
 | File |
 |------|
@@ -254,13 +236,6 @@ Directory: **** (18 files)
 | `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-modal.html` |
 | `specs/001-site-search/spec.md` |
 | `specs/001-site-search/checklists/requirements.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -268,57 +243,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 "Bema" exists in `content/english/notes/judgment-seat.md` with aliases including "bema". The search failure likely stems from indexing or alias handling issues.
 
-Checking whether aliases are included in the search index.</details></think>
+Checking whether aliases are included in the search index.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/list.searchindex.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/list.searchindex.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search-core.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search-core.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-08_02-18-55Z-search-functionality-issue.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-08_02-18-55Z-search-functionality-issue.md</summary>
 
 </details></tool-use>
 
@@ -329,14 +281,13 @@ The search index likely isn't picking up the alias "bema" from the note file.
 
 The note contains no body text. Search indexes titles, descriptions, keywords, tags, and plain content. Frontmatter fields like aliases and key_concept are excluded from search indexing.
 
-Checking whether key_concept renders into the searchable content. Searching for a search_keyword parameter pattern. Running a search test to confirm.</details></think>
+Checking whether key_concept renders into the searchable content. Searching for a search_keyword parameter pattern. Running a search test to confirm.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -442,34 +393,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -535,13 +471,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -551,14 +480,13 @@ I now understand the issue. I am verifying the details.
 
 The search index indexes rendered markdown body text, not frontmatter. judgment-seat.md has no body content, so "bema" does not appear in the indexed content. Frontmatter fields like aliases and key_concept are not indexed. The page also lacks a search_keyword parameter.
 
-Checking whether other notes with aliases, such as MVP, return results in search.</details></think>
+Checking whether other notes with aliases, such as MVP, return results in search.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -590,21 +518,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -629,39 +548,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/specs/001-site-search/spec.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/specs/001-site-search/spec.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the search index to see what content is actually indexed.</details></think>
+Checking the search index to see what content is actually indexed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -688,21 +593,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -727,21 +623,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -766,13 +653,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -780,13 +660,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The search index appears to be minified on one line. That would explain why the search failed to locate it.
 
-I'll read a portion of the file or use shell commands to parse it.</details></think>
+I'll read a portion of the file or use shell commands to parse it.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json'); const j=d.find(x=>x.slug.includes('judgment-seat')); console.log(JSON.stringify(j,null,2));"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node -e &#34;const d=require(&#39;/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json&#39;); const j=d.find(x=&gt;x.slug.includes(&#39;judgment-seat&#39;)); console.log(JSON.stringify(j,null,2));&#34;</summary>
 ```bash
 node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json'); const j=d.find(x=>x.slug.includes('judgment-seat')); console.log(JSON.stringify(j,null,2));"
 ```
@@ -798,8 +678,8 @@ node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchin
   "title": "Judgment Seat",
   "description": "Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith.",
   "date": "June 29, 2026",
-  "image": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  \n\n  \n  \n    \n      \n    \n\n\n    \n    \n\n\n    \n    \n      \n      \n    \n    \n    \n\n\n    \n    \n      \n      \n        \n        \n        \n        \n        \n        \n\n\n        \n        \n\n\n        &lt;img\n          \n            src=\"/images/note_hu_e12698dd03ae0aa7.webp\" loading=\"lazy\" decoding=\"async\"\n          \n\n          alt=\"\"\n          class=\"  img\"\n          width=\"420\"\n          height=\"211\"\n          onerror=\"this.onerror='null';this.src='\\/images\\/note_hu_ea32965062c24e09.jpg';\" /&gt;\n\n        \n      \n      \n    \n    \n  \n\n\n  \n",
-  "imageSM": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  \n\n  \n  \n    \n      \n    \n\n\n    \n    \n\n\n    \n    \n      \n      \n    \n    \n    \n\n\n    \n    \n      \n      \n        \n        \n        \n        \n        \n        \n          \n          \n          \n          \n        \n\n\n        \n        \n\n\n        &lt;img\n          \n            src=\"/images/note_hu_52ddf61746f2982b.webp\" loading=\"lazy\" decoding=\"async\"\n          \n\n          alt=\"\"\n          class=\"  img\"\n          width=\"100\"\n          height=\"100\"\n          onerror=\"this.onerror='null';this.src='\\/images\\/note_hu_a16cedd4422a51bd.jpg';\" /&gt;\n\n        \n      \n      \n    \n    \n  \n\n\n  \n",
+  "image": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  \n\n  \n  \n    \n      \n    \n\n\n    \n    \n\n\n    \n    \n      \n      \n    \n    \n    \n\n\n    \n    \n      \n      \n        \n        \n        \n        \n        \n        \n\n\n        \n        \n\n\n        <img\n          \n            src=\"/images/note_hu_e12698dd03ae0aa7.webp\" loading=\"lazy\" decoding=\"async\"\n          \n\n          alt=\"\"\n          class=\"  img\"\n          width=\"420\"\n          height=\"211\"\n          onerror=\"this.onerror='null';this.src='\\/images\\/note_hu_ea32965062c24e09.jpg';\" />\n\n        \n      \n      \n    \n    \n  \n\n\n  \n",
+  "imageSM": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  \n\n  \n  \n    \n      \n    \n\n\n    \n    \n\n\n    \n    \n      \n      \n    \n    \n    \n\n\n    \n    \n      \n      \n        \n        \n        \n        \n        \n        \n          \n          \n          \n          \n        \n\n\n        \n        \n\n\n        <img\n          \n            src=\"/images/note_hu_52ddf61746f2982b.webp\" loading=\"lazy\" decoding=\"async\"\n          \n\n          alt=\"\"\n          class=\"  img\"\n          width=\"100\"\n          height=\"100\"\n          onerror=\"this.onerror='null';this.src='\\/images\\/note_hu_a16cedd4422a51bd.jpg';\" />\n\n        \n      \n      \n    \n    \n  \n\n\n  \n",
   "searchKeyword": "",
   "categories": "Faith",
   "tags": "Gospel, Jesus Christ, Eternal Principles, Reward, Theology",
@@ -807,12 +687,6 @@ node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchin
 }
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -822,13 +696,13 @@ The cause of the missing search result is now fully confirmed.
 
 The search index contains no "bema" text. The note title is "Judgment Seat". The description and tags omit the word. Only the aliases and key_concept fields hold it, but those are not indexed. Adding a `search_keyword` field would fix this.
 
-Including aliases and key_concept in the search index would catch more terms. The MVP alias will be checked as another data point.</details></think>
+Including aliases and key_concept in the search index would catch more terms. The MVP alias will be checked as another data point.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json'); const mvp=d.find(x=>x.slug.includes('minimum-viable')); console.log({title:mvp.title, searchKeyword:mvp.searchKeyword, contentLen:mvp.content.length, contentHasMVP:mvp.content.toLowerCase().includes('mvp'), titleHasMVP:mvp.title.toLowerCase().includes('mvp')});"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node -e &#34;const d=require(&#39;/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json&#39;); const mvp=d.find(x=&gt;x.slug.includes(&#39;minimum-viable&#39;)); console.log({title:mvp.title, searchKeyword:mvp.searchKeyword, contentLen:mvp.content.length, contentHasMVP:mvp.content.toLowerCase().includes(&#39;mvp&#39;), titleHasMVP:mvp.title.toLowerCase().includes(&#39;mvp&#39;)});&#34;</summary>
 ```bash
 node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json'); const mvp=d.find(x=>x.slug.includes('minimum-viable')); console.log({title:mvp.title, searchKeyword:mvp.searchKeyword, contentLen:mvp.content.length, contentHasMVP:mvp.content.toLowerCase().includes('mvp'), titleHasMVP:mvp.title.toLowerCase().includes('mvp')});"
 ```
@@ -843,12 +717,6 @@ node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchin
 }
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -856,13 +724,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The same systemic issue prevents MVP from being searchable via alias.
 
-Many notes store content in frontmatter rather than body text, which likely explains the missing search results. I am now checking the eternal-rewards note for bema references.</details></think>
+Many notes store content in frontmatter rather than body text, which likely explains the missing search results. I am now checking the eternal-rewards note for bema references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json'); const hits=d.filter(x=>JSON.stringify(x).toLowerCase().includes('bema')); console.log(hits.map(x=>({slug:x.slug,title:x.title,hasBemaInContent:x.content.toLowerCase().includes('bema')})));"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node -e &#34;const d=require(&#39;/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json&#39;); const hits=d.filter(x=&gt;JSON.stringify(x).toLowerCase().includes(&#39;bema&#39;)); console.log(hits.map(x=&gt;({slug:x.slug,title:x.title,hasBemaInContent:x.content.toLowerCase().includes(&#39;bema&#39;)})));&#34;</summary>
 ```bash
 node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json'); const hits=d.filter(x=>JSON.stringify(x).toLowerCase().includes('bema')); console.log(hits.map(x=>({slug:x.slug,title:x.title,hasBemaInContent:x.content.toLowerCase().includes('bema')})));"
 ```
@@ -871,12 +739,6 @@ node -e "const d=require('/home/jorap/Documents/GitHub/jorap.com/public/searchin
 []
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -884,7 +746,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The search index contains no pages with the word "bema".
 
-"bema" appears in page aliases, key concepts, and frontmatter relationships, but none of those fields are indexed. The body content is empty.</details></think>
+"bema" appears in page aliases, key concepts, and frontmatter relationships, but none of those fields are indexed. The body content is empty.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -939,7 +802,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Extending the search index to include key_concept, shareable_thought, and relationships fields from frontmatter.
 
-Reading the search index template, JavaScript core, and test script to understand how to integrate the new fields.</details></think>
+Reading the search index template, JavaScript core, and test script to understand how to integrate the new fields.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -948,53 +812,29 @@ I'll extend the search index and matching logic to include those frontmatter fie
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/list.searchindex.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/list.searchindex.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search-core.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search-core.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
 
 </details></tool-use>
 
@@ -1009,14 +849,13 @@ Folding the fields into the existing content field would minimize changes to sea
 
 Appending the extra fields to the existing content field would minimize the diff to a single Hugo template change and leave search.js untouched. This also automatically assigns body-level priority to those matches. Separate indexed fields were considered but set aside for now.
 
-Raw key_concept strings contain shortcodes and wikilinks, yet the words remain searchable. Shareable_thought arrays need joining, and relationships require extracting wikilink, reason, and type text. An existing partial for flattening frontmatter is being checked.</details></think>
+Raw key_concept strings contain shortcodes and wikilinks, yet the words remain searchable. Shareable_thought arrays need joining, and relationships require extracting wikilink, reason, and type text. An existing partial for flattening frontmatter is being checked.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1090,25 +929,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
@@ -1117,4 +943,176 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The `assembled-content.html` partial already builds markdown from frontmatter.
 
-Search currently indexes only rendered body markdown. Appending assembled content to the search index would</details></think>
+Search currently indexes only rendered body markdown. Appending assembled content to the search index would help, but `shareable_thought` is missing from `assembled-content`. Need to check other partials to include it.
+
+Relationships are already in assembled-content. A dedicated search-text partial is cleaner than extending the existing one. Inline template injection is another option. The simplest path is appending shareable_thought to the current assembled-content.
+
+Description is already indexed separately, so reusing assembled-content would duplicate it. Raw key_concept contains shortcode syntax like `{{< bible` and `[[wikilinks]]`, but plain text search still works on those fragments. Relationships will be flattened from YAML into plain text.
+
+Drafting a `search-fields.html` partial to gather searchable text. It slices together trimmed key_concept values, non-empty shareable_thought entries, and flattened relationship strings.
+
+The partial will return a single space-delimited string. Separate searchable fields are preferable to merging everything into the main content field. These will be keyConcept, shareableThought, and flattened relationships. The search template will inject them alongside the existing content. matchesSearch and the JavaScript duplicate filter need updating to handle these new fields. They will carry the same priority as the main content field.
+
+A `searchableText` helper will concatenate the four searchable fields—content, keyConcept, shareableThought, and relationships—into a single string for JavaScript matching. The `searchMatchPriority` function will check title matches first, then fall back to scanning that combined text across all four fields.
+
+Optional chaining with empty-string defaults will safely handle missing fields. The JSON template will use camelCase keys such as `keyConcept` to match existing conventions. The override for `list.searchindex.json` is confirmed in place. Next step is to run the build and test.
+
+The partial will return a dictionary instead of a plain string. It gathers trimmed shareable thoughts into a slice, flattens relationships into a slice, and returns a dict keyed by camelCase fields including keyConcept.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll add a small Hugo partial for those frontmatter fields, wire them into the index, and update the search matcher.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/search-index-fields.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/list.searchindex.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/list.searchindex.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search-core.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the search test with --build to verify everything works.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/test-search.mjs --build</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/test-search.mjs --build
+```
+
+```
+test-search
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (237 notes)
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2202 
+ Paginator pages  │   85 
+ Non-page files   │    0 
+ Static files     │  244 
+ Processed images │  371 
+ Aliases          │  798 
+ Cleaned          │   10 
+
+Total in 27217 ms
+
+searchindex.json
+  ok public/searchindex.json exists
+  ok parses as JSON
+  ok is not empty
+  ok root value is an array
+  ok indexes 254 pages
+  ok round-trips through JSON.stringify
+  ok every item has required string fields
+  ok section "blog" is in configured include list
+  ok section "notes" is in configured include list
+  ok includes /notes/issues/ (multiline description regression)
+  ok issues description keeps paragraph break when parsed
+
+match and rank logic
+  ok finds a title match in live index
+  ok finds a body match in live index
+  ok title match ranks above body-only match
+  ok matches configured tags
+  ok matches configured categories
+  ok matches searchKeyword
+  ok matches description/body toggle path via content
+  ok honours tags toggle off
+  ok groups index by configured sections
+  ok both configured sections have indexed pages
+  ok section-scoped search returns groups
+  ok query "issues" finds Issues note
+  ok indexes judgment seat note
+  ok query "bema" matches key_concept on judgment seat
+
+built HTML wiring
+  ok homepage defines same-origin searchindex URL
+  ok homepage defines includeSectionsInSearch
+  ok homepage search sections include blog and notes
+  ok homepage renders search modal
+  ok homepage renders search input
+  ok homepage exposes search open trigger
+  ok built JS bundle includes search script
+
+all passe
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All tests passed, including the new bema test.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Search now indexes `key_concept`, `shareable_thought`, and `relationships` from note frontmatter.
+
+**What changed**
+
+1. **`layouts/_partials/notes/search-index-fields.html`** — flattens those three fields into searchable text.
+2. **`layouts/_default/list.searchindex.json`** — adds `keyConcept`, `shareableThought`, and `relationships` to each index entry.
+3. **`assets/js/search-core.js`** and **`assets/js/search.js`** — match and rank against the combined body text (markdown body + those fields).
+4. **`scripts/test-search.mjs`** — validates the new fields; includes a regression check that `"bema"` finds Judgment Seat.
+
+Title matches still rank above frontmatter/body matches. Searching **bema** should now return the Judgment Seat note after deploy.

@@ -17,56 +17,37 @@ I'll read the recipe file and a similar one for ingredient formatting convention
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (3 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (3 files)
 
 | File |
 |------|
 | `.specstory/history/2026-07-08_22-17-50Z-recipe-rules-and-guidelines.md` |
 | `.specstory/history/2026-07-08_22-19-42Z-arroz-caldo-instant-pot-recipe.md` |
 | `.specstory/history/2026-07-07_14-51-03Z-instant-pot-chicken-adobo-recipe.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding units to the ingredient bullet points in the arroz caldo recipe.</details></think>
+Adding units to the ingredient bullet points in the arroz caldo recipe.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -75,58 +56,36 @@ Checking recipe guidelines and the Instant Pot arroz caldo draft for unit conven
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-08_22-17-50Z-recipe-rules-and-guidelines.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-08_22-17-50Z-recipe-rules-and-guidelines.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (3 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (3 files)
 
 | File |
 |------|
 | `content/english/blog/set-it-forget-it-arroz-caldo.md` |
 | `content/english/blog/instant-pot-arroz-caldo.md` |
 | `.specstory/history/2026-07-08_22-19-42Z-arroz-caldo-instant-pot-recipe.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -160,13 +119,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -178,7 +130,8 @@ Using the instant-pot format with explicit units and conversions. Scaling the ri
 
 Finalizing exact units for each ingredient. Glutinous rice becomes 1 cup (200 g). Chicken thigh fillets become 1 kg (2.2 lbs). The Knorr cube becomes 1 teaspoon (5 g) powder. Fresh ginger becomes 3 inches (7–8 cm). Fish sauce becomes 2–3 tablespoons (30–45 ml). Optional items like Kasubha and onions may get minimal units. Toppings will stay flexible.
 
-Toppings will use specific counts: 2–3 halved kalamansi, 2–3 green onion stalks, and 2–4 hard-boiled eggs. Kasubha may get a “pinch” label. The rice cooker batch is roughly half the instant pot size, so proportions like ginger and garlic scale down accordingly.</details></think>
+Toppings will use specific counts: 2–3 halved kalamansi, 2–3 green onion stalks, and 2–4 hard-boiled eggs. Kasubha may get a “pinch” label. The rice cooker batch is roughly half the instant pot size, so proportions like ginger and garlic scale down accordingly.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -187,23 +140,16 @@ Updating the ingredients section to match the Instant Pot recipe's unit format, 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updated the file to include units for each ingredient in the bullet points.</details></think>
+Updated the file to include units for each ingredient in the bullet points.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -226,31 +172,20 @@ apply it in the recipe stapes as well
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Applying ingredient units to the recipe steps in set-it-forget-it-arroz-caldo.md.</details></think>
+Applying ingredient units to the recipe steps in set-it-forget-it-arroz-caldo.md.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
 
 </details></tool-use>
 
@@ -259,7 +194,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Applying ingredient units to the recipe steps as well.
 
-Updating Step 1 and Step 2 with exact ingredient quantities and units.</details></think>
+Updating Step 1 and Step 2 with exact ingredient quantities and units.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -268,31 +204,15 @@ Updating the method steps to name ingredients with the same units as the list.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
 

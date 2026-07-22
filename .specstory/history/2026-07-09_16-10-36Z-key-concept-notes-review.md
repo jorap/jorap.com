@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing all notes. Removing extra spacing between bullet items in key concept sections.
 
-Checking the flashcards and jorap-voice skills to understand note structure. Reading example files to locate key concept patterns.</details></think>
+Checking the flashcards and jorap-voice skills to understand note structure. Reading example files to locate key concept patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,10 +25,8 @@ Reviewing note structure and how "key concept" bullet spacing is formatted acros
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -134,35 +133,21 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **238** results in **1** directory</summary>
 
-Directory: **** (238 files)
+Directory: **``** (238 files)
 
 | File |
 |------|
@@ -404,13 +389,6 @@ Directory: **** (238 files)
 | `content/english/notes/share-what-you-learn.md` |
 | `content/english/notes/faithful-steward.md` |
 | `content/english/notes/recovery.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -420,7 +398,8 @@ I need to understand the issue better.
 
 Blank lines between bullet points in the `key_concept` YAML frontmatter should be removed.
 
-I found blank lines after bullets in `key_concept` sections. I will search all notes for this pattern and check the specstory history file.</details></think>
+I found blank lines after bullets in `key_concept` sections. I will search all notes for this pattern and check the specstory history file.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -429,23 +408,15 @@ Checking the review notes and scanning all notes for blank lines between `key_co
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-09_16-04-56Z-bullet-item-review-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-09_16-04-56Z-bullet-item-review-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -471,21 +442,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -593,13 +555,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -609,7 +564,8 @@ This continues a prior task.
 
 The user clarified that bullet items in key_concept sections should not have blank lines between them. I will find and remove these blank lines across all notes. I will also continue reviewing split bullet fragments from the previous session.
 
-Reading accept-the-starting-line.md as a formatting reference. Checking the git diff to see what was already changed.</details></think>
+Reading accept-the-starting-line.md as a formatting reference. Checking the git diff to see what was already changed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -618,52 +574,45 @@ Checking a well-formatted note and scanning `key_concept` sections for blank lin
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, pathlib
 
-notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
 blank_between_bullets = []
 
-for path in sorted(notes_dir.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    parts = text.split("---", 2)
-    if len(parts) < 3:
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
         continue
     fm = parts[1]
-    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', fm, re.M)
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, fm, re.M)
     if not m:
         continue
     block = m.group(1)
     lines = block.splitlines()
     for i in range(len(lines)-1):
-        if re.match(r'^  - ', lines[i]) and lines[i+1].strip() == '' and i+2 < len(lines) and re.match(r'^  - ', lines[i+2]):
+        if re.match(r&#39;^  - &#39;, lines[i]) and lines[i+1].strip() == &#39;&#39; and i+2 &lt; len(lines) and re.match(r&#39;^  - &#39;, lines[i+2]):
             blank_between_bullets.append((path.name, i+1, lines[i][:80], lines[i+2][:80]))
 
-print(f"Files with blank lines between bullets: {len(set(f[0] for f in blank_between_bullets))}")
-print(f"Total blank-line gaps: {len(blank_between_bullets)}")
+print(f&#34;Files with blank lines between bullets: {len(set(f[0] for f in blank_between_bullets))}&#34;)
+print(f&#34;Total blank-line gaps: {len(blank_between_bullets)}&#34;)
 for name, line, prev, nxt in blank_between_bullets[:20]:
-    print(f"{name}:{line}")
-    print(f"  prev: {prev}")
-    print(f"  next: {nxt}")
+    print(f&#34;{name}:{line}&#34;)
+    print(f&#34;  prev: {prev}&#34;)
+    print(f&#34;  next: {nxt}&#34;)
     print()
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, pathlib
@@ -742,113 +691,68 @@ active-knowledge-curation.md:1
   next:   - A folder of unread saves isn't a garden - I prune monthly and wire notes I'd
 
 active-knowledge-curation.md:3
-  prev:   - A folder of unread saves isn't a garden - I prune monthly and wire notes I'd
-  next:   - Unread saves rot until I prune monthly and wire what I'd actually recommend.
-
-adaptability.md:1
-  prev:   - Keep the goal, swap the method when the ground moves.
-  next:   - Adaptability swaps the method when conditions shift - same aim, different pl
-
-adaptability.md:3
-  prev:   - Adaptability swaps the method when conditions shift - same aim, different pl
-  next:   - Adaptability is changing method without losing aim when conditions, tools, o
-
-adaptability.md:5
-  prev:   - Adaptability is changing method without losing aim when conditions, tools, o
-  next:   - The tell isn't whether you adapt - it's whether the goal survives the pivot 
-
-analog-capture-tools.md:1
-  prev:   - Paper capture uses the same inbox rule as digital - for meetings, sermons, a
-  next:   - The scrap gets copied into the real system later - paper is capture, not sto
-
-analog-capture-tools.md:3
-  prev:   - The scrap gets copied into the real system later - paper is capture, not sto
-  next:   - Analog capture wins when the phone dies or the meeting blocks screens - same
-
-analog-capture-tools.md:5
-  prev:   - Analog capture wins when the phone dies or the meeting blocks screens - same
-  next:   - Paper still goes in the same inbox when screens are off limits.
-
-anti-fragile-systems.md:1
-  prev:   - Note systems that survive app shutdowns - plain files, open formats, and bac
-  next:   - I build on plain files and open formats so an app shutdown doesn't erase yea
-
-anti-fragile-systems.md:3
-  prev:   - I build on plain files and open formats so an app shutdown doesn't erase yea
-  next:   - Test backups while the app still works - not after the export dies.
-
-ask-seek-knock.md:2
-  prev:   - Keep asking, seeking, knocking - God gives like a parent who gives bread, no
-  next:   - Jesus compares God to a parent who gives bread, not a stone.
-
-
+  prev:   - A folder of un
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, pathlib
 
-notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
 issues = []
 
-for path in sorted(notes_dir.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    parts = text.split("---", 2)
-    if len(parts) < 3:
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
         continue
     fm = parts[1]
-    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', fm, re.M)
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, fm, re.M)
     if not m:
         continue
     block = m.group(1)
     lines = block.splitlines()
     bullets = []
     for i, line in enumerate(lines):
-        if re.match(r'^  - ', line):
+        if re.match(r&#39;^  - &#39;, line):
             content = line[4:].strip()
             bullets.append((i+1, content))
     
     for idx, (line_no, content) in enumerate(bullets):
-        prev = bullets[idx-1][1] if idx > 0 else None
-        nxt = bullets[idx+1][1] if idx+1 < len(bullets) else None
+        prev = bullets[idx-1][1] if idx &gt; 0 else None
+        nxt = bullets[idx+1][1] if idx+1 &lt; len(bullets) else None
         flags = []
-        if content and content[0].islower() and not content.startswith('[['):
-            flags.append("lowercase_start")
+        if content and content[0].islower() and not content.startswith(&#39;[[&#39;):
+            flags.append(&#34;lowercase_start&#34;)
         words = content.split()
-        if len(words) <= 5 and not content.startswith('{{<') and '[[/' not in content:
+        if len(words) &lt;= 5 and not content.startswith(&#39;{{&lt;&#39;) and &#39;[[/&#39; not in content:
             if content and content[0].islower():
-                flags.append("short_fragment")
-        if re.match(r'^(and|or|but|then|that|which|before|after|not|still|also|only|just|with|for|to|in|on|of|a|an|the)\b', content, re.I):
-            if content[0].islower() or content.split()[0].lower() in {'and','or','but','then','that','which','before','after','not','still','also','only','just','with','for','to','in','on','of','a','an','the'}:
-                flags.append("continuation_word")
-        if prev and not re.search(r'[.!?:;"\'\)]$', prev.rstrip()) and content and content[0].islower():
-            flags.append("follows_unfinished")
-        if nxt and content and not re.search(r'[.!?:;"\'\)]$', content.rstrip()) and nxt[0].islower():
-            flags.append("split_sentence")
-        if content and content[0].isupper() and len(words) >= 3 and not re.search(r'[.!?:;"\'\)]$', content.rstrip()):
-            if not content.startswith('|') and '{{< bible' not in content:
-                flags.append("no_terminal_punct")
+                flags.append(&#34;short_fragment&#34;)
+        if re.match(r&#39;^(and|or|but|then|that|which|before|after|not|still|also|only|just|with|for|to|in|on|of|a|an|the)\b&#39;, content, re.I):
+            if content[0].islower() or content.split()[0].lower() in {&#39;and&#39;,&#39;or&#39;,&#39;but&#39;,&#39;then&#39;,&#39;that&#39;,&#39;which&#39;,&#39;before&#39;,&#39;after&#39;,&#39;not&#39;,&#39;still&#39;,&#39;also&#39;,&#39;only&#39;,&#39;just&#39;,&#39;with&#39;,&#39;for&#39;,&#39;to&#39;,&#39;in&#39;,&#39;on&#39;,&#39;of&#39;,&#39;a&#39;,&#39;an&#39;,&#39;the&#39;}:
+                flags.append(&#34;continuation_word&#34;)
+        if prev and not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, prev.rstrip()) and content and content[0].islower():
+            flags.append(&#34;follows_unfinished&#34;)
+        if nxt and content and not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, content.rstrip()) and nxt[0].islower():
+            flags.append(&#34;split_sentence&#34;)
+        if content and content[0].isupper() and len(words) &gt;= 3 and not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, content.rstrip()):
+            if not content.startswith(&#39;|&#39;) and &#39;{{&lt; bible&#39; not in content:
+                flags.append(&#34;no_terminal_punct&#34;)
         if flags:
             issues.append((path.name, line_no, content[:120], sorted(set(flags))))
 
-print(f"Found {len(issues)} suspicious bullets\n")
+print(f&#34;Found {len(issues)} suspicious bullets\n&#34;)
 for name, line_no, content, flags in issues:
-    print(f"{name}:{line_no} [{','.join(flags)}]")
-    print(f"  {content}")
+    print(f&#34;{name}:{line_no} [{&#39;,&#39;.join(flags)}]&#34;)
+    print(f&#34;  {content}&#34;)
     print()
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, pathlib
@@ -955,541 +859,9 @@ change-window.md:3 [continuation_word]
   A change window is boring calendar hygiene: deploy Tuesday morning, freeze before holidays, keep the old build one click
 
 change-window.md:4 [continuation_word]
-  Not fear of shipping - matching risk to coverage.
-
-client-site-pass-off.md:8 [continuation_word]
-  Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game.
-
-client-site-pass-off.md:10 [continuation_word]
-  Before deposit I pick one pass-off model - Git lesson, retainer batch, or showroom branch.
-
-commonplace-book.md:1 [continuation_word]
-  A personal book of quotes and ideas worth keeping - ancestor of linked notes.
-
-commonplace-book.md:3 [continuation_word]
-  A personal quote bank beats rereading whole books when you need one line in conversation. [[Literature Notes]] feed the 
-
-commonplace-book.md:5 [continuation_word]
-  Before linked notes, I kept quotes and ideas in one book I'd actually reopen.
-
-complete-the-cycle.md:1 [continuation_word]
-  The meeting isn't done until recap, owners, dates, and verification close the loop.
-
-complete-the-cycle.md:3 [continuation_word]
-  A decision without an owner and a date is still just talk - execution is where the loop actually starts.
-
-composure.md:7 [continuation_word]
-  The composure has to be visible - a calm voice with shaking hands under the table still reads as calm to everyone watchi
-
-compounding.md:5 [continuation_word]
-  The first months look like nothing - that's the trap.
-
-compounding.md:12 [continuation_word]
-  The curve stays flat until it suddenly bends.
-
-context-aware-capture.md:3 [continuation_word]
-  A saved link is a mystery six weeks later unless I jot the why while I still remember it.
-
-control-the-rhythm.md:7 [continuation_word]
-  The room usually can't tell the difference between you slowing down and you being in control - so slow down.
-
-create.md:3 [continuation_word]
-  The prompt narrows a topic to one standup-sized claim. The examples that come out are actionable, not theoretical.
-
-create.md:7 [continuation_word]
-  The prompt finds improvement principles, picks one atomic claim, and asks for actionable examples in garden format.
-
-creative-output.md:9 [continuation_word]
-  The inventory only pays off the day it becomes something someone else can read, hear, or eat.
-
-daily-notes.md:5 [continuation_word]
-  A scratch pad for the day - not every fragment deserves to become permanent.
-
-decision-quality.md:5 [continuation_word]
-  A choice that only looks good in the meeting room is not a quality decision.
-
-deep-work.md:1 [continuation_word]
-  The block only works if it's actually protected - phone away, door closed, not just fewer tabs open.
-
-deliberate-practice.md:3 [continuation_word]
-  The discomfort is the signal you're in the right spot - comfortable reps mean you drifted back to what you already do we
-
-develop-dont-endanger.md:3 [continuation_word]
-  A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits.
-
-digital-minimalism.md:4 [continuation_word]
-  That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling me off the not
-
-digital-serendipity.md:7 [continuation_word]
-  A walkable graph beats hoping I'll remember the right filename.
-
-discern-his-will-daily.md:13 [continuation_word]
-  A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first.
-
-discipline.md:1 [continuation_word]
-  The applause was never reliable fuel to begin with - it shows up for the highlight, not the Tuesday rep.
-
-dont-copy-the-pattern.md:17 [continuation_word]
-  And do not be conformed to this world - refuse before renewal reshapes the mind.
-
-dont-worry.md:4 [continuation_word]
-  The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble.
-
-dont-worry.md:10 [continuation_word]
-  The Father already feeds birds.
-
-dont-worry.md:12 [continuation_word]
-  The Father already feeds birds - worry about tomorrow argues with someone who runs the weather.
-
-emotional-regulation.md:5 [continuation_word]
-  The stake is simple: one unchecked reply can feed a thread I didn't mean to start.
-
-eternal-principles.md:3 [continuation_word]
-  The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works.
-
-eternal-rewards.md:22 [continuation_word]
-  The [[Judgment Seat]] is where works get evaluated; [[Loss of Reward]] keeps reward-loss separate from salvation-loss.
-
-ethical-leadership.md:1 [continuation_word]
-  The standard you walk past is the standard you accept for everyone under you.
-
-evergreen-vs-fleeting-notes.md:4 [continuation_word]
-  The stake is rot - sparks that never promote clutter the inbox, and forcing everything evergreen buries what was only tr
-
-execution.md:5 [continuation_word]
-  A decision earns nothing until finished work lands, not when the slide deck or the intention is done.
-
-expect-the-counter.md:3 [continuation_word]
-  The opening move isn't the game - they adapt, and I need a second plan ready.
-
-failure-as-feedback.md:1 [continuation_word]
-  A miss tells you what to fix next - process, skill, assumption - if you don't treat it as an identity verdict.
-
-failure-as-feedback.md:4 [continuation_word]
-  The miss is feedback on what to build next, not proof you were never in.
-
-faithful-steward.md:7 [continuation_word]
-  The master returns to settle accounts - faithful use repaid, buried talent rebuked.
-
-faithful-steward.md:12 [continuation_word]
-  After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks.
-
-faithfulness.md:8 [continuation_word]
-  The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation.
-
-finish-strong.md:3 [continuation_word]
-  A project, conversation, competition, or responsibility isn't successful until the last commitment is done.
-
-finish-strong.md:4 [continuation_word]
-  Not when the launch post goes up or the first lap feels fast.
-
-finish-strong.md:8 [continuation_word]
-  The last commitment closed is what makes the launch real.
-
-first-principles-thinking.md:1 [continuation_word]
-  A saved quote isn't a principle until I rebuild the claim in my own words.
-
-first-principles-thinking.md:3 [continuation_word]
-  The tell is whether you can defend the claim without citing the source - if you can't, you don't own it yet.
-
-flashcards.md:3 [continuation_word]
-  Not review count, streak length, or facts memorized - retention, application, and explanation in real life.
-
-flashcards.md:11 [continuation_word]
-  Or perform a useful skill, understand an important subject, or communicate more clearly.
-
-follow-their-lead.md:9 [continuation_word]
-  The redirect lands better once they know you actually understood their version first.
-
-follow-through.md:1 [continuation_word]
-  The work after the handshake - recap, owners, dates, verification.
-
-follow-through.md:7 [continuation_word]
-  A yes without owners and dates is a promise with no delivery address.
-
-forgiveness.md:8 [continuation_word]
-  The unforgiving servant - king forgave an unpayable debt; refusing a small debt exposed a heart out of step.
-
-forgiveness.md:10 [continuation_word]
-  The parable of the unforgiving servant makes the math plain: the king forgave an unpayable debt picture of [[Free Grace]
-
-forgiveness.md:13 [continuation_word]
-  For believers, unforgiveness chokes fellowship and joy - it doesn't undo eternal life bought by faith ([[Standing vs Fel
-
-free-grace.md:21 [continuation_word]
-  For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand so that we would walk 
-
-free-tier-hosting-stack.md:6 [continuation_word]
-  The traps are build count, queue time, and fat repos.
-
-free-tier-hosting-stack.md:17 [continuation_word]
-  A theme with thousands of unoptimized images can hit the 20k-file cap.
-
-fruits-of-the-spirit.md:9 [continuation_word]
-  With **fruit of the Spirit** - one vine, one cluster, grown over time.
-
-git-based-cms.md:4 [continuation_word]
-  Before I redirect them to WordPress, this is the middle path.
-
-git-based-cms.md:10 [continuation_word]
-  Still say no to bad dynamic scope - CMS doesn't add a database.
-
-git-based-cms.md:16 [continuation_word]
-  A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs.
-
-git-based-cms.md:18 [continuation_word]
-  A git CMS doesn't add a database - it commits markdown the same push-live build already uses.
-
-git-based-cms.md:22 [continuation_word]
-  A git CMS still means saying no to bad dynamic scope - buttons for clients, same static build underneath.
-
-god-centered-design.md:4 [continuation_word]
-  A calendar built for applause still feels empty on Monday.
-
-god-centered-design.md:14 [continuation_word]
-  Not crowd applause, ego, or my comfort.
-
-golden-rule-at-work.md:3 [continuation_word]
-  The check is experiential - how would I want feedback delivered, how would I want to be included, how would I want a mis
-
-golden-rule-at-work.md:9 [continuation_word]
-  In email tone, credit, deadlines, and hallway gossip.
-
-graph-view-analytics.md:1 [continuation_word]
-  The link map shows notes with no links, notes with too many, and gaps I forgot to connect.
-
-graph.md:11 [continuation_word]
-  The top twenty percent by wikilinks are the anchors worth pruning around.
-
-growth-mindset.md:3 [continuation_word]
-  The stake is identity on the line - one rough outing becomes a label instead of a rep list.
-
-gtd-vs-para.md:5 [continuation_word]
-  The failure mode is doubling admin: one inbox emptied weekly, tasks in the task app, notes in the garden.
-
-habit-formation.md:1 [continuation_word]
-  The goal isn't motivation - it's making the decision once, so it stops needing to be re-made every single day.
-
-habit-stacking.md:3 [continuation_word]
-  The anchor has to already be bulletproof - stacking onto a habit you sometimes skip just gives you two habits you someti
-
-heed-every-near-miss.md:3 [continuation_word]
-  The opposite read is usually right: the system failed, and luck blocked the worst outcome.
-
-heed-every-near-miss.md:4 [continuation_word]
-  A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same a
-
-heed-every-near-miss.md:6 [continuation_word]
-  A close call means the system nearly failed, not that we got proof the activity was safe because nobody died.
-
-influence-without-title.md:5 [continuation_word]
-  The neighbor who counted heads in the blackout.
-
-intellectual-sourcing.md:7 [continuation_word]
-  A cited note is one I can defend in conversation months later.
-
-judge-not.md:6 [continuation_word]
-  Still judge fruit - outcomes over time tell you what's underneath the hype.
-
-judgment-seat.md:2 [continuation_word]
-  The Son of Man repays deeds - reward review for the saved, not re-deciding who gets eternal life.
-
-judgment-seat.md:10 [continuation_word]
-  The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned.
-
-justification.md:2 [continuation_word]
-  The tax collector went home justified - humility before God, not self-promotion, is what Jesus commended.
-
-justification.md:25 [continuation_word]
-  Before my obedience caught up.
-
-leadership-is-influence.md:1 [continuation_word]
-  The org chart can borrow authority; influence is what people actually grant you - trust built in small deposits, spent w
-
-lean-startup.md:7 [continuation_word]
-  The waitlist number matters less than whether those people would actually pay today.
-
-let-your-light-shine.md:6 [continuation_word]
-  Not performance piety for applause - visible good for God's credit, not my feed.
-
-let-your-light-shine.md:8 [continuation_word]
-  The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people.
-
-literature-notes.md:6 [continuation_word]
-  After I read a source, I write what stuck in my own words - not a pile of copied highlights.
-
-loss-of-reward.md:19 [continuation_word]
-  A saved believer can still lose reward.
-
-love-your-enemies.md:6 [continuation_word]
-  The Father's free grace toward the unjust is the pattern: I love enemies because God loved me first.
-
-love-your-neighbor.md:10 [continuation_word]
-  The Samaritan acted as neighbor - go and do the same, don't debate who counts.
-
-low-hanging-fruit.md:1 [continuation_word]
-  Not every task deserves hero energy.
-
-low-hanging-fruit.md:7 [continuation_word]
-  The easy win I can grab now.
-
-maps-of-content.md:1 [continuation_word]
-  A MOC is a curated index of notes on a topic.
-
-maps-of-content.md:7 [continuation_word]
-  A table of contents I write by hand beats whatever the folder tree implies.
-
-measure-then-iterate.md:4 [continuation_word]
-  Not defend the rollout because the slide was convincing.
-
-measure-then-iterate.md:10 [continuation_word]
-  Not guess and overhaul.
-
-mental-models.md:3 [continuation_word]
-  A model nobody reaches for is the same problem as a junk-drawer bookmark - recall under pressure is the value.
-
-mind-mapping.md:3 [continuation_word]
-  The map shows relationships at a glance; the atomic notes are what actually survive review and get linked in.
-
-minimum-effective-dose.md:7 [continuation_word]
-  The smallest change that still moves the needle - not the heroic overhaul.
-
-minimum-viable-product.md:1 [continuation_word]
-  The smallest thing I can ship that tests the idea - not a polished fantasy.
-
-mobile-capture-workflows.md:3 [continuation_word]
-  On mobile, friction is the enemy - most ideas die between the notification and the app switch.
-
-name-the-feeling.md:7 [continuation_word]
-  That sounds frustrating lands before my fix plan.
-
-normalization-of-deviance.md:1 [continuation_word]
-  The third unchallenged shortcut is the warning - not the accident that finally forces a meeting.
-
-notice-the-good.md:5 [continuation_word]
-  The stake is reinforcement: praise the scoreboard and the steady process stays invisible.
-
-okf-export.md:5 [continuation_word]
-  The same garden, flattened for agents - markdown paths, required type, no Hugo build.
-
-okf-export.md:11 [continuation_word]
-  The OKF bundle is the same garden flattened for agents - markdown paths, required type, no Hugo build.
-
-outcomes-over-pitch-decks.md:4 [continuation_word]
-  On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - don't sell [[Free T
-
-own-your-part.md:4 [continuation_word]
-  Not filing complaints until someone else acts.
-
-own-your-part.md:10 [continuation_word]
-  Not wait for a hand-down fix from upstairs.
-
-pareto-principle.md:4 [no_terminal_punct]
-  Same rule for flashcards: only spine notes carry &#96;review: true&#96; here
-
-pareto-principle.md:8 [continuation_word]
-  The Pareto principle is the 80/20 rule.
-
-patience.md:1 [continuation_word]
-  The Spirit doesn't shortcut the wait - it changes what waiting does to you, so the delay doesn't calcify into resentment
-
-patience.md:10 [continuation_word]
-  The Spirit grows a slow fuse, not a countdown to snapping.
-
-peacemakers.md:5 [continuation_word]
-  The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free
-
-people-centered-design.md:1 [continuation_word]
-  A process that ignores the people inside it gets worked around by Friday.
-
-plain-commitments-at-work.md:4 [continuation_word]
-  On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Sit
-
-platform-reach-is-borrowed.md:1 [continuation_word]
-  On Facebook, X, YouTube, or TikTok, you're a tenant.
-
-preparedness.md:7 [continuation_word]
-  The rehearsal doesn't need to be dramatic - walking the checklist once on a slow day counts.
-
-present-a-living-sacrifice.md:11 [continuation_word]
-  Not a dead bull on an altar - my body, my Tuesday, my choices offered as worship that's alive.
-
-priorities-before-the-inbox.md:1 [continuation_word]
-  The inbox is other people's priorities wearing a siren.
-
-purpose-and-vision.md:8 [continuation_word]
-  A clear outcome anchors daily choices.
-
-quarterly-planning.md:3 [continuation_word]
-  A year-long goal hides slippage for months; thirteen weeks can't.
-
-read-later-queue.md:1 [continuation_word]
-  A parking lot for links you'll process later - dangerous if it becomes a graveyard.
-
-reconcile-before-the-review.md:3 [continuation_word]
-  The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKR
-
-reconciliation-before-worship.md:5 [continuation_word]
-  The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return.
-
-recovery.md:1 [continuation_word]
-  The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.
-
-recovery.md:7 [continuation_word]
-  The elite athlete's rest day isn't optional recovery - it's programmed like the workout.
-
-renewed-mind.md:9 [continuation_word]
-  And do not be conformed to this world, but be transformed by the renewing of your mind.
-
-review.md:2 [continuation_word]
-  Not how many cards you reviewed, how long your streak is, or how many facts you memorized.
-
-rollback-principle.md:5 [continuation_word]
-  The team needed "my call, here's the fix," not a speech.
-
-safety-comes-first.md:3 [continuation_word]
-  The choice they lose is narrow and temporary - which risk, not whether to be safe at all.
-
-sanctification.md:16 [continuation_word]
-  After God declares me righteous, he keeps shaping my habits and heart.
-
-seek-the-kingdom-first.md:4 [continuation_word]
-  The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]].
-
-self-control.md:9 [continuation_word]
-  The urge doesn't get to drive.
-
-selling-static-sites.md:9 [continuation_word]
-  Not the $12/month PHP plan I used to share with a client.
-
-servant-leadership.md:1 [continuation_word]
-  The corporate ladder rewards visibility; this principle runs the other way.
-
-set-calm-boundaries.md:7 [continuation_word]
-  A calm boundary is one clear limit on behavior, named steady - not a character attack.
-
-shadow-the-work.md:9 [continuation_word]
-  Before I redraw the process or the slide.
-
-share-what-you-learn.md:4 [continuation_word]
-  A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map.
-
-signal-vs-noise.md:5 [continuation_word]
-  The filter is simple: would I act or cite this within thirty days?
-
-situational-control.md:5 [continuation_word]
-  The room notices who's steering even when nobody announced it.
-
-slow-the-moment.md:3 [continuation_word]
-  Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - no
-
-spaced-repetition.md:3 [continuation_word]
-  The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing.
-
-spaced-repetition.md:4 [continuation_word,no_terminal_punct]
-  In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with &#96;review: true&#96;
-
-standard-operating-procedures.md:7 [continuation_word]
-  The checklist isn't an insult to competence - it's what competence looks like when adrenaline is running the show.
-
-stay-effective-in-new-conditions.md:1 [continuation_word]
-  The tell is confidence that doesn't match the room - certainty imported from somewhere else.
-
-stay-effective-in-new-conditions.md:5 [continuation_word]
-  The habit that worked in my last role can flop in the next room.
-
-steward-after-the-win.md:9 [continuation_word]
-  An early win is entrusted, not a license to coast.
-
-strategic-foresight.md:1 [continuation_word]
-  The scoreboard update happens whether or not you planned for it - foresight is being ready before it does.
-
-strategic-foresight.md:5 [continuation_word]
-  The board six months out - after everyone reacts - matters more than tonight's score.
-
-sustainable-performance.md:7 [continuation_word]
-  The sprint feels like progress in the moment; the bill for it always arrives, just later than planned.
-
-synthesis-as-a-goal.md:7 [continuation_word]
-  The wiki can hold borrowed lines; I still owe one page in my own words.
-
-systems-for-growth.md:5 [continuation_word]
-  The loops you build on purpose.
-
-systems-thinking.md:5 [continuation_word]
-  The same fire coming back next week is the tell you patched the symptom and left the loop untouched.
-
-take-up-your-cross.md:4 [continuation_word]
-  The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day.
-
-taxonomy.md:1 [continuation_word]
-  A classification scheme - folders, tags, types - for finding things later.
-
-the-feynman-technique.md:5 [continuation_word]
-  A blank page is the honest audience - no jargon to hide behind.
-
-the-garage-concept.md:1 [continuation_word]
-  The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.
-
-the-garage-concept.md:7 [continuation_word]
-  The blog is the showroom, and I keep them separate.
-
-the-garage-concept.md:9 [continuation_word]
-  The garage concept splits showroom and workshop - the blog is the showroom, drafts are the garage.
-
-the-golden-rule.md:4 [continuation_word]
-  The check is experiential - how would I want to be spoken to, helped, forgiven, included?
-
-the-golden-rule.md:5 [continuation_word]
-  That sets the floor for every interaction.
-
-the-golden-rule.md:12 [continuation_word]
-  The Golden Rule is active care for my neighbor - not just avoiding harm and calling it love.
-
-the-narrow-way.md:6 [continuation_word]
-  Not everyone who says Lord Lord enters - false profession vs believer who stumbles and may lose reward but stays saved.
-
-the-narrow-way.md:8 [continuation_word]
-  In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religio
-
-the-narrow-way.md:12 [continuation_word]
-  The road to life is narrow and hard.
-
-the-narrow-way.md:14 [continuation_word]
-  The easy broad path is the one I'd drift onto.
-
-the-narrow-way.md:16 [continuation_word]
-  The narrow way warns the road to life is narrow and hard - few find it, but it's the one Jesus named.
-
-the-second-brain-workflow.md:11 [continuation_word]
-  The second-brain workflow runs CODE and PARA in one loop - capture daily, express weekly.
-
-the-trusted-inbox.md:3 [continuation_word]
-  An inbox I don't empty becomes a junk drawer I stop using.
-
-title-without-influence.md:12 [continuation_word]
-  A title borrows authority; if nobody moves when you speak, you're managing paperwork, not leading.
-
-treasure-in-heaven.md:6 [continuation_word]
-  The [[Judgment Seat]] evaluates what lasts - wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when wo
-
-turn-the-other-cheek.md:4 [continuation_word]
-  The point isn't passivity toward all evil - it's refusing to become what hurt you.
-
-weekly-review-checklists.md:1 [continuation_word]
-  The checklist should be boring on purpose.
-
-workplace-principles.md:5 [continuation_word]
-  The same ethics as Eternal Principles, in plain office language where religious terms sound awkward.
-
-
+  Not fear of shipping - matching risk t
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1501,7 +873,8 @@ Found 237 files with 738 blank-line gaps. Will script the bulk removal and revie
 
 The instruction covers two tasks: removing blank lines between bullets in `key_concept`, and fixing split or cropped bullet text from the previous session.
 
-Many continuation-word flags are false positives. Legitimate words like "The" and "A" appear at bullet starts. I am narrowing the search to real fragments. I will check lowercase_start, follows_unfinished, split_sentence, and short_fragment patterns. I will also review the modified files from git diff.</details></think>
+Many continuation-word flags are false positives. Legitimate words like "The" and "A" appear at bullet starts. I am narrowing the search to real fragments. I will check lowercase_start, follows_unfinished, split_sentence, and short_fragment patterns. I will also review the modified files from git diff.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1510,56 +883,31 @@ Removing blank lines between `key_concept` bullets and checking modified notes f
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/notes/ | tail -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --stat content/english/notes/ | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/notes/ | tail -5
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
 
 </details></tool-use>
 
@@ -1576,30 +924,22 @@ The accept-the-starting-line.md bullets likely belong together. by-their-fruits.
 
 The script will also merge bullets that continue a thought without terminal punctuation. The wolf-animal bullet appears in both by-their-fruits.md and shareable_thought.
 
-Checking git diffs to verify prior changes and avoid accidentally merging legitimate separate bullets.</details></think>
+Checking git diffs to verify prior changes and avoid accidentally merging legitimate separate bullets.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/abide-in-me.md content/english/notes/forgiveness.md content/english/notes/by-their-fruits.md 2>/dev/null | head -120</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/abide-in-me.md content/english/notes/forgiveness.md content/english/notes/by-their-fruits.md 2&gt;/dev/null | head -120</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/abide-in-me.md content/english/notes/forgiveness.md content/english/notes/by-their-fruits.md 2>/dev/null | head -120
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1631,25 +971,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/attention-economy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/attention-economy.md</summary>
 
 </details></tool-use>
 
@@ -1664,14 +991,13 @@ Merging split bullets requires a careful heuristic. Content that directly matche
 
 A script will remove blank lines between bullets across all notes first. Then it will scan for split fragments. A fragment likely continues the previous bullet if the prior line lacks terminal punctuation and the next line starts lowercase. Continuation words such as "and" or "then" also signal a split.
 
-Accept-the-starting-line shows a split from its description. The script will merge bullets that lack terminal punctuation and continue with lowercase text. It will also join bullets ending with colons and subsequent continuations. Notes without blank lines will be checked to confirm the target format.</details></think>
+Accept-the-starting-line shows a split from its description. The script will merge bullets that lack terminal punctuation and continue with lowercase text. It will also join bullets ending with colons and subsequent continuations. Notes without blank lines will be checked to confirm the target format.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1743,61 +1069,53 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, pathlib
 
-notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
 
 # Find bullets that are likely split continuations (merge candidates)
 merge_candidates = []
 
-for path in sorted(notes_dir.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    parts = text.split("---", 2)
-    if len(parts) < 3:
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
         continue
     fm = parts[1]
-    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', fm, re.M)
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, fm, re.M)
     if not m:
         continue
     block = m.group(1)
     lines = block.splitlines()
-    bullets = [(i, line[4:].strip()) for i, line in enumerate(lines) if re.match(r'^  - ', line)]
+    bullets = [(i, line[4:].strip()) for i, line in enumerate(lines) if re.match(r&#39;^  - &#39;, line)]
     
     for idx in range(1, len(bullets)):
         prev_i, prev = bullets[idx-1]
         cur_i, cur = bullets[idx]
         # Strong merge signals
         if cur and cur[0].islower():
-            merge_candidates.append((path.name, prev[:80], cur[:80], 'lowercase_start'))
-        elif prev.rstrip().endswith(':') and cur:
-            merge_candidates.append((path.name, prev[:80], cur[:80], 'colon_continuation'))
-        elif prev.rstrip().endswith(' in reverse:'):
-            merge_candidates.append((path.name, prev[:80], cur[:80], 'colon_continuation'))
-        elif re.match(r'^(Then|And|Or|Not|That|Same)\b', cur) and len(prev.split()) <= 8:
-            merge_candidates.append((path.name, prev[:80], cur[:80], 'continuation_pronoun'))
+            merge_candidates.append((path.name, prev[:80], cur[:80], &#39;lowercase_start&#39;))
+        elif prev.rstrip().endswith(&#39;:&#39;) and cur:
+            merge_candidates.append((path.name, prev[:80], cur[:80], &#39;colon_continuation&#39;))
+        elif prev.rstrip().endswith(&#39; in reverse:&#39;):
+            merge_candidates.append((path.name, prev[:80], cur[:80], &#39;colon_continuation&#39;))
+        elif re.match(r&#39;^(Then|And|Or|Not|That|Same)\b&#39;, cur) and len(prev.split()) &lt;= 8:
+            merge_candidates.append((path.name, prev[:80], cur[:80], &#39;continuation_pronoun&#39;))
 
-print(f"Merge candidates: {len(merge_candidates)}")
+print(f&#34;Merge candidates: {len(merge_candidates)}&#34;)
 for item in merge_candidates[:40]:
-    print(f"\n{item[0]} [{item[3]}]")
-    print(f"  prev: {item[1]}")
-    print(f"  cur:  {item[2]}")
+    print(f&#34;\n{item[0]} [{item[3]}]&#34;)
+    print(f&#34;  prev: {item[1]}&#34;)
+    print(f&#34;  cur:  {item[2]}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, pathlib
@@ -1879,12 +1197,6 @@ own-your-part.md [continuation_pronoun]
   cur:  Not wait for a hand-down fix from upstairs.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1896,14 +1208,13 @@ A bulk fix across roughly 237 files will remove blank lines between consecutive 
 
 Merged bullets will use a " - " separator. The "review" likely continues the prior session on cropped bullets. The plan is to run the bulk fix first, then address any remaining split bullet issues.
 
-Eight obvious merge candidates will be fixed first. Lowercase bullets in key_concept are almost certainly fragments and will be scanned for. Mid-sentence splits will also be checked.</details></think>
+Eight obvious merge candidates will be fixed first. Lowercase bullets in key_concept are almost certainly fragments and will be scanned for. Mid-sentence splits will also be checked.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1955,45 +1266,37 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, pathlib
 
-notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
 lowercase_bullets = []
 
-for path in sorted(notes_dir.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    parts = text.split("---", 2)
-    if len(parts) < 3:
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
         continue
     fm = parts[1]
-    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', fm, re.M)
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, fm, re.M)
     if not m:
         continue
     block = m.group(1)
     for line in block.splitlines():
-        if re.match(r'^  - [a-z]', line):
+        if re.match(r&#39;^  - [a-z]&#39;, line):
             lowercase_bullets.append((path.name, line.strip()[:100]))
 
-print(f"Lowercase-start bullets in key_concept: {len(lowercase_bullets)}")
+print(f&#34;Lowercase-start bullets in key_concept: {len(lowercase_bullets)}&#34;)
 for name, content in lowercase_bullets:
-    print(f"{name}: {content}")
+    print(f&#34;{name}: {content}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, pathlib
@@ -2027,12 +1330,6 @@ PYEOF
 Lowercase-start bullets in key_concept: 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2046,7 +1343,8 @@ Blank lines around bible shortcodes will be preserved. Blank lines between conse
 
 Merging rules target two patterns: bullets ending with colons, and short preceding bullets followed by Then/And/Or/Not. Truncated bullets were not found in modified files.
 
-Reading additional modified files to check for content issues beyond blank lines.</details></think>
+Reading additional modified files to check for content issues beyond blank lines.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2055,46 +1353,46 @@ Writing a script to remove blank lines between `key_concept` bullets and merge o
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, pathlib
 
-notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
 changed = []
 
-CONTINUATION_STARTERS = re.compile(r'^(Then|And|Or|Not|That|Same)\b')
+CONTINUATION_STARTERS = re.compile(r&#39;^(Then|And|Or|Not|That|Same)\b&#39;)
 
-def merge_bullets(prev: str, cur: str) -> str | None:
-    """Return merged bullet text if cur clearly continues prev, else None."""
+def merge_bullets(prev: str, cur: str) -&gt; str | None:
+    &#34;&#34;&#34;Return merged bullet text if cur clearly continues prev, else None.&#34;&#34;&#34;
     prev = prev.strip()
     cur = cur.strip()
-    if prev.endswith(':'):
-        return f"{prev.rstrip(':')} - {cur[0].lower() + cur[1:]}" if cur else prev
-    if CONTINUATION_STARTERS.match(cur) and len(prev.split()) <= 12:
-        if prev.endswith('.'):
+    if prev.endswith(&#39;:&#39;):
+        return f&#34;{prev.rstrip(&#39;:&#39;)} - {cur[0].lower() + cur[1:]}&#34; if cur else prev
+    if CONTINUATION_STARTERS.match(cur) and len(prev.split()) &lt;= 12:
+        if prev.endswith(&#39;.&#39;):
             prev = prev[:-1]
-        return f"{prev} - {cur[0].lower() + cur[1:]}"
+        return f&#34;{prev} - {cur[0].lower() + cur[1:]}&#34;
     return None
 
-def fix_key_concept_block(block: str) -> tuple[str, bool]:
+def fix_key_concept_block(block: str) -&gt; tuple[str, bool]:
     lines = block.splitlines(keepends=True)
     if not lines:
         return block, False
 
     # Pass 1: remove blank lines between consecutive bullets
-    stripped = [l.rstrip('\n') for l in lines]
+    stripped = [l.rstrip(&#39;\n&#39;) for l in lines]
     pass1 = []
     modified = False
     for i, line in enumerate(stripped):
-        if line.strip() == '':
-            prev_b = pass1 and re.match(r'^  - ', pass1[-1])
+        if line.strip() == &#39;&#39;:
+            prev_b = pass1 and re.match(r&#39;^  - &#39;, pass1[-1])
             # find next non-blank
             nxt = None
             for j in range(i + 1, len(stripped)):
-                if stripped[j].strip() != '':
+                if stripped[j].strip() != &#39;&#39;:
                     nxt = stripped[j]
                     break
-            nxt_b = nxt and re.match(r'^  - ', nxt)
+            nxt_b = nxt and re.match(r&#39;^  - &#39;, nxt)
             if prev_b and nxt_b:
                 modified = True
                 continue
@@ -2103,51 +1401,50 @@ def fix_key_concept_block(block: str) -> tuple[str, bool]:
     # Pass 2: merge split bullets
     pass2 = []
     i = 0
-    while i < len(pass1):
+    while i &lt; len(pass1):
         line = pass1[i]
-        if re.match(r'^  - ', line) and i + 1 < len(pass1) and re.match(r'^  - ', pass1[i + 1]):
+        if re.match(r&#39;^  - &#39;, line) and i + 1 &lt; len(pass1) and re.match(r&#39;^  - &#39;, pass1[i + 1]):
             prev_text = line[4:]
             cur_text = pass1[i + 1][4:]
             merged = merge_bullets(prev_text, cur_text)
             if merged:
-                pass2.append(f"  - {merged}")
+                pass2.append(f&#34;  - {merged}&#34;)
                 i += 2
                 modified = True
                 continue
         pass2.append(line)
         i += 1
 
-    result = '\n'.join(pass2)
-    if pass1 and not result.endswith('\n') and block.endswith('\n'):
-        result += '\n'
+    result = &#39;\n&#39;.join(pass2)
+    if pass1 and not result.endswith(&#39;\n&#39;) and block.endswith(&#39;\n&#39;):
+        result += &#39;\n&#39;
     return result, modified
 
-for path in sorted(notes_dir.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
-    parts = text.split("---", 2)
-    if len(parts) < 3:
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
         continue
     fm = parts[1]
-    m = re.search(r'^(key_concept:\s*\|\s*\n)((?:  .*\n)*)', fm, re.M)
+    m = re.search(r&#39;^(key_concept:\s*\|\s*\n)((?:  .*\n)*)&#39;, fm, re.M)
     if not m:
         continue
     prefix, block = m.group(1), m.group(2)
     new_block, modified = fix_key_concept_block(block)
     if modified:
         new_fm = fm[:m.start(2)] + new_block + fm[m.end(2):]
-        new_text = f"---{new_fm}---{parts[2]}"
-        path.write_text(new_text, encoding="utf-8")
+        new_text = f&#34;---{new_fm}---{parts[2]}&#34;
+        path.write_text(new_text, encoding=&#34;utf-8&#34;)
         changed.append(path.name)
 
-print(f"Updated {len(changed)} files")
+print(f&#34;Updated {len(changed)} files&#34;)
 for name in changed[:30]:
     print(name)
-if len(changed) > 30:
-    print(f"... and {len(changed)-30} more")
+if len(changed) &gt; 30:
+    print(f&#34;... and {len(changed)-30} more&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, pathlib
@@ -2277,12 +1574,6 @@ complete-the-cycle.md
 ... and 207 more
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2290,7 +1581,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 237 files were updated. Now verifying the changes.
 
-No blank lines remain between bullets. Merge results look correct. Checking a few key files for any remaining split bullet issues.</details></think>
+No blank lines remain between bullets. Merge results look correct. Checking a few key files for any remaining split bullet issues.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2299,66 +1591,47 @@ Verifying fixes and scanning for remaining split-bullet issues.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, pathlib
 
-notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
 remaining_blanks = 0
-for path in sorted(notes_dir.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    parts = text.split("---", 2)
-    if len(parts) < 3: continue
-    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', parts[1], re.M)
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3: continue
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, parts[1], re.M)
     if not m: continue
     lines = m.group(1).splitlines()
     for i in range(len(lines)-1):
-        if re.match(r'^  - ', lines[i]) and lines[i+1].strip() == '' and i+2 < len(lines) and re.match(r'^  - ', lines[i+2]):
+        if re.match(r&#39;^  - &#39;, lines[i]) and lines[i+1].strip() == &#39;&#39; and i+2 &lt; len(lines) and re.match(r&#39;^  - &#39;, lines[i+2]):
             remaining_blanks += 1
-            print(f"STILL BLANK: {path.name}:{i+1}")
+            print(f&#34;STILL BLANK: {path.name}:{i+1}&#34;)
 
-print(f"Remaining blank gaps between bullets: {remaining_blanks}")
+print(f&#34;Remaining blank gaps between bullets: {remaining_blanks}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, pathlib
@@ -2385,12 +1658,6 @@ PYEOF
 Remaining blank gaps between bullets: 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2398,7 +1665,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A capitalization error was found in forgiveness.md at line 14. The merge incorrectly lowercased "I" to "i".
 
-The merge logic needs fixing. It lowercases the first letter after colons even when that letter is "I". I will find all similar bad merges and correct them.</details></think>
+The merge logic needs fixing. It lowercases the first letter after colons even when that letter is "I". I will find all similar bad merges and correct them.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2407,10 +1675,8 @@ Fixing a merge bug that lowercased "I" after colons.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2442,21 +1708,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2564,13 +1821,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2578,57 +1828,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 One lowercase "i" was found in forgiveness.md.
 
-Fixing the lowercase "i" and checking grace.md for a colon continuation merge.</details></think>
+Fixing the lowercase "i" and checking grace.md for a colon continuation merge.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/change-takes-repetition.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/change-takes-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
 
 </details></tool-use>
 
@@ -2643,13 +1870,13 @@ I am weighing whether to fix grace.md by adding a semicolon or splitting the bul
 
 The own-your-part.md issue is clearer now. Line 8 is actually a separate bullet that belongs under line 7. A gap between lines 7 and 8 prevented the merge. I will check grace.md's original state to fix its merge errors.
 
-I am checking git status and diff to locate the original grace.md content.</details></think>
+I am checking git status and diff to locate the original grace.md content.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/grace.md content/english/notes/forgiveness.md content/english/notes/own-your-part.md 2>/dev/null | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/grace.md content/english/notes/forgiveness.md content/english/notes/own-your-part.md 2&gt;/dev/null | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/grace.md content/english/notes/forgiveness.md content/english/notes/own-your-part.md 2>/dev/null | head -80
 ```
@@ -2660,7 +1887,7 @@ index 73e6ead..d6016cb 100644
 --- a/content/english/notes/forgiveness.md
 +++ b/content/english/notes/forgiveness.md
 @@ -9,12 +9,9 @@ key_concept: |
-   {{&lt; bible ref="Matthew 18:21-35" emphasize="35" &gt;}}
+   {{< bible ref="Matthew 18:21-35" emphasize="35" >}}
    
    - Seventy times seven ends ledger-keeping - stop counting how many times you've been wronged.
 -  
@@ -2679,66 +1906,22 @@ index 9bc271f..38da74c 100644
 +++ b/content/english/notes/grace.md
 @@ -5,23 +5,18 @@ description: "Grace is gift I never earned starting with salvation and continuin
  key_concept: |
-   {{&lt; bible ref="John 3:16-18" emphasize="16" &gt;}}
+   {{< bible ref="John 3:16-18" emphasize="16" >}}
    - God didn't wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
 -  
    - [[Mercy]] withholds what I deserve; grace gives what I couldn't earn.
    
-   {{&lt; bible ref="Ephesians 2:1-5" emphasize="5" &gt;}}
+   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
    
-   - Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
--  
-   - [[Free Grace]] is grace applied to eternal life: Christ paid what I couldn't; I receive by faith, not wages.
-   - [[Justification]] names the verdict grace triggers - declared righteous at faith.
-   - [[Sanctification]] and [[Grateful Obedience]] are grace after the gift: grow and obey from thanks, not to buy acceptance.
-   - [[Forgiveness]] flows the same way - forgive because grace already cleared my debt.
-   - [[Assurance]] and [[Standing vs Fellowship]] keep a bad week from collapsing standing with closeness.
--  - PKM mirror:
--  - [[Minimum Effective Dose]] - faith is the smallest act that still works for salvation grace is why one sufficient gift beats a lifetime merit ladder.
--  
-+  - PKM mirror - [[Minimum Effective Dose]] - faith is the smallest act that still works for salvation grace is why one sufficient gift beats a lifetime merit ladder.
-   - Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack.
--  
-   - Grace and forgiveness flow the same way - gift received first, extension to others second.
- examples:
-   - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
-diff --git a/content/english/notes/own-your-part.md b/content/english/notes/own-your-part.md
-index 9fb1247..f8543c5 100644
---- a/content/english/notes/own-your-part.md
-+++ b/content/english/notes/own-your-part.md
-@@ -4,15 +4,11 @@ meta_title: "Own Your Part - Change Your Slice Without Waiting"
- description: "I change my slice of the problem - not wait for a hand-down fix from upstairs."
- key_concept: |
-   - Waiting for headquarters to fix your lane is how stale processes survive years.
--  
-   - Own your part means I take charge of what I can move - my habit, my pass-off, my corner of the workflow.
-   - Not filing complaints until someone else acts.
-   - [[Accountability]] names who answers for the outcome; [[Own the Error]] names the miss after it lands.
-   - This note is the proactive lane: start the fix before permission arrives.
--  
--  - I change my slice of the problem.
--  
--  - Not wait for a hand-down fix from upstairs.
-+  - I change my slice of the problem - not wait for a hand-down fix from upstairs.
- examples:
-   - "The shared drive was chaos for months until one teammate renamed folders and posted a one-page map - own your part, not another ticket to IT."
-   - "I stopped waiting for the coach to fix my defense and asked for ten minutes of footwork after practice - my gap, my rep request."
-
+   - 
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2802,13 +1985,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2818,13 +1994,13 @@ I need to fix a capitalization error in forgiveness.md. I will also remove extra
 
 I also need to fix grace.md. The merged line there combines "salvation" and "grace" without punctuation. I will either restore proper punctuation or split it back into two bullets.
 
-I found the exact broken line in grace.md. I am now grepping other files for similar merge issues.</details></think>
+I found the exact broken line in grace.md. I am now grepping other files for similar merge issues.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/ | rg '^\+  - .* - [a-z]' | head -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/ | rg &#39;^\+  - .* - [a-z]&#39; | head -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/ | rg '^\+  - .* - [a-z]' | head -20
 ```
@@ -2844,23 +2020,15 @@ cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/ | r
 +  - [[Seek the Kingdom First]] orders the week before anxiety sets the agenda - same fruit, two moves - rest in the Father, work for peace where you can.
 +  - Acceptable to God - your spiritual service of worship - not a dead bull on an altar - my body, my Tuesday, my choices offered as worship that's alive.
 +  - [[Mercy]] received first - then the living sacrifice, then the renewed mind - and do not be conformed to this world, but be transformed by the renewing of your mind.
-+  - **The question:** Can I recall and use this knowledge when it matters? - not how many cards you reviewed, how long your streak is, or how many facts you memorized.
-
++  - **The question:** Can I recall and use this knowledge
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2892,13 +2060,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2906,7 +2067,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Fixing a capitalization error in forgiveness.md.
 
-Adding a semicolon in grace.md. Checking review.md and flashcards.md for duplicate "not" patterns and awkward merge bullets. Scanning present-a-living-sacrifice.md and other files for redundant bullet descriptions.</details></think>
+Adding a semicolon in grace.md. Checking review.md and flashcards.md for duplicate "not" patterns and awkward merge bullets. Scanning present-a-living-sacrifice.md and other files for redundant bullet descriptions.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2915,53 +2077,29 @@ Fixing merge artifacts and scanning for remaining content issues.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/attention-economy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/attention-economy.md</summary>
 
 </details></tool-use>
 
@@ -2972,61 +2110,34 @@ Duplicate bullets remain in attention-economy and by-their-fruits. These appear 
 
 Removed spaces between bullets as requested. Fixed a lowercase "i" in forgiveness.md and a missing semicolon in grace.md. Reviewing merged lines for awkward phrasing. Scanning for truncated bullets.
 
-Attention-economy lines 9–11 contain redundant bullet splits. Consolidating those would require content editing beyond formatting. Running a final scan for blank lines and lowercase "i" errors.</details></think>
+Attention-economy lines 9–11 contain redundant bullet splits. Consolidating those would require content editing beyond formatting. Running a final scan for blank lines and lowercase "i" errors.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
 
 </details></tool-use>
 
@@ -3035,49 +2146,49 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The merges look reasonable overall.
 
-Running a final scan for split or cropped bullets that may still need fixing.</details></think>
+Running a final scan for split or cropped bullets that may still need fixing.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, pathlib
 
-notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
 
 # Check remaining issues
 blanks = 0
 truncated = []
 
-for path in sorted(notes_dir.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    parts = text.split("---", 2)
-    if len(parts) < 3: continue
-    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', parts[1], re.M)
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3: continue
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, parts[1], re.M)
     if not m: continue
     lines = m.group(1).splitlines()
     for i in range(len(lines)-1):
-        if re.match(r'^  - ', lines[i]) and lines[i+1].strip() == '' and i+2 < len(lines) and re.match(r'^  - ', lines[i+2]):
+        if re.match(r&#39;^  - &#39;, lines[i]) and lines[i+1].strip() == &#39;&#39; and i+2 &lt; len(lines) and re.match(r&#39;^  - &#39;, lines[i+2]):
             blanks += 1
     
-    bullets = [l[4:].strip() for l in lines if re.match(r'^  - ', l)]
+    bullets = [l[4:].strip() for l in lines if re.match(r&#39;^  - &#39;, l)]
     for idx, content in enumerate(bullets):
-        if not content or content.startswith('{{<') or content.startswith('**'):
+        if not content or content.startswith(&#39;{{&lt;&#39;) or content.startswith(&#39;**&#39;):
             continue
         words = content.split()
         # truncated: no terminal punct, ends mid-clause, short
-        if (len(words) >= 3 and len(words) <= 8 
-            and not re.search(r'[.!?:;"\'\)]$', content.rstrip())
-            and not content.startswith('[[')
-            and not content.startswith('|')):
+        if (len(words) &gt;= 3 and len(words) &lt;= 8 
+            and not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, content.rstrip())
+            and not content.startswith(&#39;[[&#39;)
+            and not content.startswith(&#39;|&#39;)):
             truncated.append((path.name, content))
 
-print(f"Blank gaps between bullets: {blanks}")
-print(f"Possible truncated bullets (short, no ending punct): {len(truncated)}")
+print(f&#34;Blank gaps between bullets: {blanks}&#34;)
+print(f&#34;Possible truncated bullets (short, no ending punct): {len(truncated)}&#34;)
 for name, content in truncated[:15]:
-    print(f"  {name}: {content}")
+    print(f&#34;  {name}: {content}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, pathlib
@@ -3123,12 +2234,6 @@ Blank gaps between bullets: 0
 Possible truncated bullets (short, no ending punct): 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3138,7 +2243,8 @@ Preparing a clear summary of the note review.
 
 Removed blank lines between consecutive bullet items in key_concept across 237 notes. Merged eight split bullets where description text was cropped. Fixed capitalization and semicolon artifacts in forgiveness.md and grace.md. Some notes still contain redundant duplicate bullets.
 
-The remaining duplicate bullets in notes such as attention-economy are content quality issues rather than formatting problems caused by cropping.</details></think>
+The remaining duplicate bullets in notes such as attention-economy are content quality issues rather than formatting problems caused by cropping.
+</details></think>
 
 _**Agent (auto-low)**_
 

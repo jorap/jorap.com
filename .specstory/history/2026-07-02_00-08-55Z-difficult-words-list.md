@@ -13,7 +13,8 @@ review all notes and provide a list of top 100 difficult words to understand
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing all notes to compile a list of the top 100 difficult words to understand.</details></think>
+Reviewing all notes to compile a list of the top 100 difficult words to understand.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,11 +23,10 @@ I'll scan the notes content and analyze vocabulary difficulty across the collect
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **224** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (224 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (224 files)
 
 | File |
 |------|
@@ -254,21 +254,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (224 files)
 | `content/english/notes/plain-commitments-at-work.md` |
 | `content/english/notes/sustainable-performance.md` |
 | `content/english/notes/follow-their-lead.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -304,66 +295,41 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I found 224 note files to review for difficult words.</details></think>
+I found 224 note files to review for difficult words.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-thinking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-thinking.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **12** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (12 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (12 files)
 
 | File |
 |------|
@@ -379,52 +345,32 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (12 files)
 | `scripts/notes_content.py` |
 | `scripts/import-from-obsidian.py` |
 | `scripts/export-okf-bundle.py` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking `scripts/notes_content.py` for note-parsing utilities.</details></think>
+Checking `scripts/notes_content.py` for note-parsing utilities.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -531,38 +477,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the notes file to begin compiling the list of difficult words.</details></think>
+Checking the notes file to begin compiling the list of difficult words.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "import urllib.request; print('ok')" 2>/dev/null; ls /usr/share/dict/words 2>/dev/null | head -1; python3 -c "import nltk; print('nltk')" 2>/dev/null; python3 -c "import wordfreq; print('wordfreq')" 2>/dev/null</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;import urllib.request; print(&#39;ok&#39;)&#34; 2&gt;/dev/null; ls /usr/share/dict/words 2&gt;/dev/null | head -1; python3 -c &#34;import nltk; print(&#39;nltk&#39;)&#34; 2&gt;/dev/null; python3 -c &#34;import wordfreq; print(&#39;wordfreq&#39;)&#34; 2&gt;/dev/null</summary>
 ```bash
 python3 -c "import urllib.request; print('ok')" 2>/dev/null; ls /usr/share/dict/words 2>/dev/null | head -1; python3 -c "import nltk; print('nltk')" 2>/dev/null; python3 -c "import wordfreq; print('wordfreq')" 2>/dev/null
 ```
@@ -572,12 +505,6 @@ ok
 /usr/share/dict/words
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -591,7 +518,8 @@ The scoring logic will rank words by their absence from the Dale-Chall familiar 
 
 The extraction scope is narrowed to reader-facing prose only. YAML keys, wikilink targets, tags, and categories will be excluded. Very short words and numbers will also be filtered out. The Dale-Chall list will flag unfamiliar words, and frequency across notes will determine final ranking.
 
-A simpler heuristic is being considered to avoid downloading external word lists. Words with three or more syllables, seven or more letters, and not found in a basic common word set would be flagged as difficult. This removes the need for external dependencies entirely.</details></think>
+A simpler heuristic is being considered to avoid downloading external word lists. Words with three or more syllables, seven or more letters, and not found in a basic common word set would be flagged as difficult. This removes the need for external dependencies entirely.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -600,24 +528,16 @@ I'll build a vocabulary analysis script using Dale-Chall and note text extractio
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-blog-related-notes.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-blog-related-notes.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-Error fetching URL, status code: 404 Not Found
-
 <tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
+Error fetching URL, status code: 404 Not Found
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -625,45 +545,37 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll try another way to access the Dale-Chall list, or build a difficulty scorer instead.
 
-A Python script will parse all notes and extract reader-facing text. It will tokenize words and score them against the Dale-Chall or NGSL lists. I may also use the system dictionary with frequency heuristics.</details></think>
+A Python script will parse all notes and extract reader-facing text. It will tokenize words and score them against the Dale-Chall or NGSL lists. I may also use the system dictionary with frequency heuristics.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -fsSL "https://gist.githubusercontent.com/davidar/e8f4b0c0e0e0e0e0e0e0/raw" 2>/dev/null | head -5; curl -fsSL "https://www.readabilityformulas.com/wp-content/uploads/2016/03/dale-chall-word-list.txt" 2>/dev/null | head -10</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -fsSL &#34;https://gist.githubusercontent.com/davidar/e8f4b0c0e0e0e0e0e0e0/raw&#34; 2&gt;/dev/null | head -5; curl -fsSL &#34;https://www.readabilityformulas.com/wp-content/uploads/2016/03/dale-chall-word-list.txt&#34; 2&gt;/dev/null | head -10</summary>
 ```bash
 curl -fsSL "https://gist.githubusercontent.com/davidar/e8f4b0c0e0e0e0e0e0e0/raw" 2>/dev/null | head -5; curl -fsSL "https://www.readabilityformulas.com/wp-content/uploads/2016/03/dale-chall-word-list.txt" 2>/dev/null | head -10
 ```
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;Readability Formulas | Free readability assessment tools
-&lt;/title&gt;
-    &lt;meta name="description" content="ReadabilityFormulas.com is a free website to automatically calculate the reading level and grade level of your materials. We also offer advice on how to improve your writing and write effectively for your readers."&gt;
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Readability Formulas | Free readability assessment tools
+</title>
+    <meta name="description" content="ReadabilityFormulas.com is a free website to automatically calculate the reading level and grade level of your materials. We also offer advice on how to improve your writing and write effectively for your readers.">
 
- &lt;!-- INCLUDE HEAD TAG MAIN WEBSITE 2023 --&gt;
-&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+ <!-- INCLUDE HEAD TAG MAIN WEBSITE 2023 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -673,13 +585,13 @@ Writing a Python script to identify difficult words using a built-in common word
 
 An inline script will read all notes. It will filter stop words and YAML noise. Difficulty scores will rank the words.
 
-The script will extract text from descriptions, key concepts, examples, and card content. It will strip wikilinks while keeping their display text. A 10,000-word common list from Google Books will serve as the baseline. Words absent from that list will be flagged as difficult.</details></think>
+The script will extract text from descriptions, key concepts, examples, and card content. It will strip wikilinks while keeping their display text. A 10,000-word common list from Google Books will serve as the baseline. Words absent from that list will be flagged as difficult.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -fsSL "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english.txt" -o /tmp/google-10000-english.txt && wc -l /tmp/google-10000-english.txt && head -5 /tmp/google-10000-english.txt</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -fsSL &#34;https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english.txt&#34; -o /tmp/google-10000-english.txt &amp;&amp; wc -l /tmp/google-10000-english.txt &amp;&amp; head -5 /tmp/google-10000-english.txt</summary>
 ```bash
 curl -fsSL "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english.txt" -o /tmp/google-10000-english.txt && wc -l /tmp/google-10000-english.txt && head -5 /tmp/google-10000-english.txt
 ```
@@ -693,19 +605,12 @@ to
 a
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "import yaml; print('pyyaml ok')"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;import yaml; print(&#39;pyyaml ok&#39;)&#34;</summary>
 ```bash
 python3 -c "import yaml; print('pyyaml ok')"
 ```
@@ -714,12 +619,6 @@ python3 -c "import yaml; print('pyyaml ok')"
 pyyaml ok
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -727,14 +626,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Writing a comprehensive analysis script to identify the most difficult words.
 
-Refining the difficulty scoring algorithm. Words outside the Google 10,000 most common list will score higher. Syllable count and length will add further difficulty bonuses. The goal is to identify the rarest and most complex words for the top 100 list.</details></think>
+Refining the difficulty scoring algorithm. Words outside the Google 10,000 most common list will score higher. Syllable count and length will add further difficulty bonuses. The goal is to identify the rarest and most complex words for the top 100 list.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -778,25 +676,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
@@ -805,14 +690,15 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Writing and running a comprehensive vocabulary analysis script.
 
-The scoring logic uses Google's 10,000-word frequency list. Words absent from the list receive a base score of 10,000. Common words near the top receive low scores. Harder words near the bottom receive high scores. Syllable count multiplies the base score. Single-character words and common stop words are excluded. A word must appear at least twice to qualify.</details></think>
+The scoring logic uses Google's 10,000-word frequency list. Words absent from the list receive a base score of 10,000. Common words near the top receive low scores. Harder words near the bottom receive high scores. Syllable count multiplies the base score. Single-character words and common stop words are excluded. A word must appear at least twice to qualify.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 #!/usr/bin/env python3
-"""One-shot: top difficult words across all garden notes."""
+&#34;&#34;&#34;One-shot: top difficult words across all garden notes.&#34;&#34;&#34;
 from __future__ import annotations
 
 import re
@@ -822,24 +708,24 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-NOTES_DIR = ROOT / "content/english/notes"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+NOTES_DIR = ROOT / &#34;content/english/notes&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
 
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
-NON_ALPHA = re.compile(r"[^a-z]+")
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
+NON_ALPHA = re.compile(r&#34;[^a-z]+&#34;)
 STOP = {
-    "the","and","for","are","but","not","you","all","can","had","her","was","one","our",
-    "out","day","get","has","him","his","how","its","may","new","now","old","see","two",
-    "way","who","did","let","put","say","she","too","use","any","per","via","etc","ll","ve","re",
+    &#34;the&#34;,&#34;and&#34;,&#34;for&#34;,&#34;are&#34;,&#34;but&#34;,&#34;not&#34;,&#34;you&#34;,&#34;all&#34;,&#34;can&#34;,&#34;had&#34;,&#34;her&#34;,&#34;was&#34;,&#34;one&#34;,&#34;our&#34;,
+    &#34;out&#34;,&#34;day&#34;,&#34;get&#34;,&#34;has&#34;,&#34;him&#34;,&#34;his&#34;,&#34;how&#34;,&#34;its&#34;,&#34;may&#34;,&#34;new&#34;,&#34;now&#34;,&#34;old&#34;,&#34;see&#34;,&#34;two&#34;,
+    &#34;way&#34;,&#34;who&#34;,&#34;did&#34;,&#34;let&#34;,&#34;put&#34;,&#34;say&#34;,&#34;she&#34;,&#34;too&#34;,&#34;use&#34;,&#34;any&#34;,&#34;per&#34;,&#34;via&#34;,&#34;etc&#34;,&#34;ll&#34;,&#34;ve&#34;,&#34;re&#34;,
 }
 
 # ponytail: syllable heuristic, not CMU dict — good enough for ranking
-VOWELS = "aeiouy"
-def syllables(word: str) -> int:
+VOWELS = &#34;aeiouy&#34;
+def syllables(word: str) -&gt; int:
     w = word.lower()
-    if len(w) <= 3:
+    if len(w) &lt;= 3:
         return 1
     count = 0
     prev_v = False
@@ -848,12 +734,12 @@ def syllables(word: str) -> int:
         if v and not prev_v:
             count += 1
         prev_v = v
-    if w.endswith("e") and count > 1 and not w.endswith("le"):
+    if w.endswith(&#34;e&#34;) and count &gt; 1 and not w.endswith(&#34;le&#34;):
         count -= 1
     return max(1, count)
 
 
-def load_common() -> dict[str, int]:
+def load_common() -&gt; dict[str, int]:
     ranks: dict[str, int] = {}
     for i, line in enumerate(COMMON_PATH.read_text().splitlines(), 1):
         w = line.strip().lower()
@@ -862,63 +748,63 @@ def load_common() -> dict[str, int]:
     return ranks
 
 
-def strip_wikilinks(text: str) -> str:
-    def repl(m: re.Match[str]) -> str:
+def strip_wikilinks(text: str) -&gt; str:
+    def repl(m: re.Match[str]) -&gt; str:
         return m.group(2) or m.group(1)
     return WIKILINK.sub(repl, text)
 
 
-def prose_fields(meta: dict) -> str:
+def prose_fields(meta: dict) -&gt; str:
     chunks: list[str] = []
-    for key in ("title", "meta_title", "description", "key_concept"):
+    for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
         val = meta.get(key)
         if isinstance(val, str) and val.strip():
             chunks.append(val)
-    for key in ("examples", "aliases"):
+    for key in (&#34;examples&#34;, &#34;aliases&#34;):
         val = meta.get(key)
         if isinstance(val, list):
             chunks.extend(str(x) for x in val if x)
-    cards = meta.get("cards") or []
+    cards = meta.get(&#34;cards&#34;) or []
     for card in cards:
         if isinstance(card, dict):
-            for side in ("front", "back"):
+            for side in (&#34;front&#34;, &#34;back&#34;):
                 v = card.get(side)
                 if isinstance(v, str) and v.strip():
                     chunks.append(v)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 
-def tokenize(text: str) -> list[str]:
+def tokenize(text: str) -&gt; list[str]:
     text = strip_wikilinks(text).lower()
     words: list[str] = []
-    for raw in re.findall(r"[A-Za-z][A-Za-z'-]*", text):
-        w = NON_ALPHA.sub("", raw.lower())
-        if len(w) < 3 or w in STOP:
+    for raw in re.findall(r&#34;[A-Za-z][A-Za-z&#39;-]*&#34;, text):
+        w = NON_ALPHA.sub(&#34;&#34;, raw.lower())
+        if len(w) &lt; 3 or w in STOP:
             continue
         words.append(w)
     return words
 
 
-def main() -> int:
+def main() -&gt; int:
     common = load_common()
     freq: Counter[str] = Counter()
     notes_by_word: dict[str, set[str]] = defaultdict(set)
 
-    for path in sorted(NOTES_DIR.glob("*.md")):
-        text = path.read_text(encoding="utf-8")
+    for path in sorted(NOTES_DIR.glob(&#34;*.md&#34;)):
+        text = path.read_text(encoding=&#34;utf-8&#34;)
         m = FRONTMATTER.match(text)
         if not m:
             continue
         meta = yaml.safe_load(m.group(1)) or {}
-        if meta.get("draft"):
+        if meta.get(&#34;draft&#34;):
             continue
-        kind = meta.get("note_kind", "note")
-        if kind in ("meta", "index"):
+        kind = meta.get(&#34;note_kind&#34;, &#34;note&#34;)
+        if kind in (&#34;meta&#34;, &#34;index&#34;):
             continue
         body = text[m.end():].strip()
         blob = prose_fields(meta)
         if body:
-            blob += "\n" + body
+            blob += &#34;\n&#34; + body
         slug = path.stem
         for w in tokenize(blob):
             freq[w] += 1
@@ -929,8 +815,8 @@ def main() -> int:
         rank = common.get(w, 10001)
         syl = syllables(w)
         # harder = higher rank, more syllables, appears in garden
-        # down-rank ultra-common words even if long (e.g. "something")
-        if rank <= 2000 and syl <= 2:
+        # down-rank ultra-common words even if long (e.g. &#34;something&#34;)
+        if rank &lt;= 2000 and syl &lt;= 2:
             continue
         difficulty = rank + (syl - 1) * 800 + max(0, len(w) - 6) * 120
         if w not in common:
@@ -941,21 +827,20 @@ def main() -> int:
     scored.sort(reverse=True)
     top = scored[:100]
 
-    print(f"Notes scanned: {len(list(NOTES_DIR.glob('*.md')))}")
-    print(f"Unique tokens: {len(freq)}")
+    print(f&#34;Notes scanned: {len(list(NOTES_DIR.glob(&#39;*.md&#39;)))}&#34;)
+    print(f&#34;Unique tokens: {len(freq)}&#34;)
     print()
-    print(f"{'#':>3}  {'word':<22} {'freq':>4}  {'rank':>5}  {'syl':>3}  sample notes")
-    print("-" * 90)
+    print(f&#34;{&#39;#&#39;:&gt;3}  {&#39;word&#39;:&lt;22} {&#39;freq&#39;:&gt;4}  {&#39;rank&#39;:&gt;5}  {&#39;syl&#39;:&gt;3}  sample notes&#34;)
+    print(&#34;-&#34; * 90)
     for i, (score, w, count, rank, syl) in enumerate(top, 1):
         samples = sorted(notes_by_word[w])[:3]
-        rank_s = str(rank) if rank else "rare"
-        print(f"{i:3d}  {w:<22} {count:4d}  {rank_s:>5}  {syl:3d}  {', '.join(samples)}")
+        rank_s = str(rank) if rank else &#34;rare&#34;
+        print(f&#34;{i:3d}  {w:&lt;22} {count:4d}  {rank_s:&gt;5}  {syl:3d}  {&#39;, &#39;.join(samples)}&#34;)
     return 0
 
-if __name__ == "__main__":
+if __name__ == &#34;__main__&#34;:
     sys.exit(main())
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 #!/usr/bin/env python3
@@ -1128,102 +1013,16 @@ Unique tokens: 4534
  16  reward                   45   7439    2  assurance, compounding, discipleship
  17  mercy                    41   8158    2  forgiveness, fruits-of-the-spirit, grace
  18  salvation                32   9265    3  assurance, christianity-and-politics, eternal-rewards
- 19  drill                    51   7143    1  active-knowledge-curation, coaching-ethics, complete-the-cycle
- 20  rollback                 27   rare    2  blameless-postmortem, change-window, hierarchy-of-controls
- 21  tempted                  27   rare    2  associative-linking, atomic-notes, building-a-second-brain
- 22  sanctification           20   rare    5  abide-in-me, discipleship, faith-and-works
- 23  justification            20   rare    5  assurance, faith-and-works, free-grace
- 24  gentleness               23   rare    3  discipleship, faithfulness, fruits-of-the-spirit
- 25  stays                    33   9418    1  assurance, composure, develop-dont-endanger
- 26  faithfulness             21   rare    3  compounding, eternal-rewards, faithful-steward
- 27  patience                 23   rare    2  abide-in-me, discipleship, energy-protects-judgment
- 28  whiteboard               21   rare    3  complete-the-cycle, context-aware-capture, evergreen-vs-fleeting-notes
- 29  handoff                  23   rare    2  client-site-handoff, crdt, drafting-in-public
- 30  cloudflare               22   rare    2  client-site-handoff, digital-garden, free-tier-hosting-stack
- 31  fridge                   29   9522    1  build-a-reliable-default, evergreen-vs-fleeting-notes, forgetting-curve
- 32  todays                   22   rare    2  active-knowledge-curation, compounding, creative-blocks
- 33  deploy                   22   rare    2  blameless-postmortem, change-window, client-site-handoff
- 34  habit                    21   rare    2  attention-economy, create-regular-connection, forgiveness-at-work
- 35  heaven                   60   3687    2  assurance, christianity-and-politics, compounding
- 36  righteousness            18   rare    3  christianity-and-politics, fruits-of-the-spirit, goodness
- 37  fellowship               29   6850    3  assurance, forgiveness, free-grace
- 38  forgiveness              17   rare    4  ask-seek-knock, forgiveness, forgiveness-at-work
- 39  faith                   120   2241    1  associative-linking, assurance, atomic-notes
- 40  grows                    28   9035    1  create-regular-connection, digital-garden, faithfulness
- 41  messy                    20   rare    2  by-their-fruits, creative-blocks, elon-musk
- 42  heroic                   20   rare    2  compounding, continuous-improvement, eternal-rewards
- 43  git                      21   rare    1  change-window, client-site-handoff, free-tier-hosting-stack
- 44  discipleship             16   rare    4  discipleship, faith-and-works, free-grace
- 45  fruit                    76   3342    1  abide-in-me, behavioral-economics, by-their-fruits
- 46  wasnt                    20   rare    1  childlike-faith, christianity-and-politics, coaching-ethics
- 47  every                   124    393    3  active-knowledge-curation, anti-fragile-systems, ask-seek-knock
- 48  fallacy                  17   rare    3  break-the-escalation-cycle, forgiveness, forgiveness-at-work
- 49  halftime                 18   rare    2  attention-economy, commonplace-book, complete-the-cycle
- 50  nobody                   37   4691    3  active-knowledge-curation, blameless-postmortem, build-a-reliable-default
- 51  kid                      69   3435    1  abide-in-me, accountability, break-the-escalation-cycle
- 52  evergreen                16   rare    3  evergreen-notes, evergreen-vs-fleeting-notes, the-feynman-technique
- 53  sunk                     19   rare    1  behavioral-economics, break-the-escalation-cycle, forgiveness
- 54  kindness                 17   rare    2  fruits-of-the-spirit, goodness, kindness
- 55  fleeting                 17   rare    2  daily-notes, evergreen-notes, evergreen-vs-fleeting-notes
- 56  commute                  17   rare    2  convert-pain-into-learning, daily-notes, getting-things-done
- 57  feels                    42   5337    1  ask-seek-knock, christianity-and-politics, discipleship
- 58  beats                    25   8580    1  associative-linking, attention-to-detail, commonplace-book
- 59  closeness                15   rare    3  assurance, create-regular-connection, forgiveness
- 60  scrimmage                16   rare    2  control-the-rhythm, deliberate-practice, minimum-viable-product
- 61  revoked                  15   rare    3  abide-in-me, assurance, grace
- 62  merit                    22   8500    2  ask-seek-knock, assurance, childlike-faith
- 63  snapped                  16   rare    2  abide-in-me, break-the-escalation-cycle, discipleship
- 64  keeps                    43   4909    1  assurance, christianity-and-politics, daily-notes
- 65  pretending               14   rare    3  analog-capture-tools, forgiveness, forgiveness-at-work
- 66  wikilinks                14   rare    3  _index, associative-linking, atomic-notes
- 67  scripture                15   rare    2  abide-in-me, ask-seek-knock, love-god
- 68  saves                    22   8098    2  atomic-notes, discipleship, faith-and-works
- 69  matthew                  40   4127    2  ask-seek-knock, by-their-fruits, childlike-faith
- 70  christs                  16   rare    1  assurance, free-grace, joy
- 71  jesus                    65   2303    2  abide-in-me, ask-seek-knock, by-their-fruits
- 72  sermon                   15   rare    2  analog-capture-tools, behavioral-economics, building-a-second-brain
- 73  actually                 67   1156    3  abide-in-me, active-knowledge-curation, anti-fragile-systems
- 74  checklist                19   8592    2  compounding, continuous-improvement, fruits-of-the-spirit
- 75  teammate                 14   rare    2  create-regular-connection, follow-their-lead, forgiveness-at-work
- 76  playbook                 14   rare    2  associative-linking, commonplace-book, digital-garden
- 77  devotion                 13   rare    3  eternal-rewards, faithful-steward, goodness
- 78  shine                    20   9051    1  christianity-and-politics, drafting-in-public, eternal-rewards
- 79  skipped                  14   rare    2  building-a-second-brain, failure-as-feedback, forgiveness
- 80  obey                     14   rare    2  discipleship, free-grace, grace
- 81  motive                   14   rare    2  christianity-and-politics, faith-and-works, fruits-of-the-spirit
- 82  abide                    14   rare    2  abide-in-me, compounding, fruits-of-the-spirit
- 83  followthrough            12   rare    3  evergreen-notes, failure-as-feedback, faithfulness
- 84  boring                   19   8356    2  anti-fragile-systems, attention-to-detail, change-window
- 85  selfcontrol              12   rare    3  abide-in-me, fruits-of-the-spirit, gentleness
- 86  postmortem               12   rare    3  blameless-postmortem, incident-investigation, learning-organizations
- 87  righteous                13   rare    2  faith-and-works, grace, heart-righteousness
- 88  stack                    31   5702    1  assurance, atomic-notes, compounding
- 89  believers                12   rare    3  eternal-rewards, forgiveness, free-grace
- 90  hoarding                 13   rare    2  discipleship, great-commission, read-later-queue
- 91  goodness                 13   rare    2  fruits-of-the-spirit, goodness, kindness
- 92  repetition               11   rare    4  compounding, deliberate-practice, forgetting-curve
- 93  forgive                  13   rare    2  forgiveness, forgiveness-at-work, grace
- 94  bedtime                  13   rare    2  composure, control-the-rhythm, dont-worry
- 95  spirit                   60   2181    2  abide-in-me, discipleship, faithfulness
- 96  promise                  33   4348    2  assurance, childlike-faith, client-site-handoff
- 97  grateful                 15   9031    3  discipleship, faith-and-works, free-grace
- 98  cant                     24   7071    1  assurance, atomic-notes, attention-to-detail
- 99  wont                     14   rare    1  active-knowledge-curation, analog-capture-tools, client-site-handoff
-100  dread                    14   rare    1  assurance, christianity-and-politics, inbox-zero
-
+ 19  drill                    
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Contractions are being tokenized incorrectly, which is polluting the results.</details></think>
+Contractions are being tokenized incorrectly, which is polluting the results.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1232,8 +1031,8 @@ The first pass picked up contractions and flashcard shorthand. I'll normalize th
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 #!/usr/bin/env python3
 from __future__ import annotations
 
@@ -1244,41 +1043,41 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-NOTES_DIR = ROOT / "content/english/notes"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+NOTES_DIR = ROOT / &#34;content/english/notes&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
 
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[[^\]]+\]\]")
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[[^\]]+\]\]&#34;)
 
 CONTRACTIONS = {
-    "what's": "what", "whats": "what", "isn't": "is", "isnt": "is", "aren't": "are", "arent": "are",
-    "wasn't": "was", "wasnt": "was", "weren't": "were", "werent": "were", "don't": "do", "dont": "do",
-    "doesn't": "does", "doesnt": "does", "didn't": "did", "didnt": "did", "can't": "can", "cant": "can",
-    "won't": "will", "wont": "will", "wouldn't": "would", "wouldnt": "would", "couldn't": "could",
-    "couldnt": "could", "shouldn't": "should", "shouldnt": "should", "hasn't": "has", "hasnt": "has",
-    "haven't": "have", "havent": "have", "hadn't": "had", "hadnt": "had", "it's": "it", "its": "it",
-    "that's": "that", "thats": "that", "there's": "there", "theres": "there", "here's": "here",
-    "heres": "here", "who's": "who", "whos": "who", "you're": "you", "youre": "you", "they're": "they",
-    "theyre": "they", "we're": "we", "were": "we", "i'm": "i", "im": "i", "i've": "have", "ive": "have",
-    "you've": "have", "youve": "have", "we've": "have", "weve": "have", "they've": "have", "theyve": "have",
-    "i'll": "will", "ill": "will", "you'll": "will", "youll": "will", "he'll": "will", "hell": "will",
-    "she'll": "will", "shell": "will", "we'll": "will", "well": "will", "they'll": "will", "theyll": "will",
-    "let's": "let", "lets": "let", "today's": "today", "todays": "today", "christ's": "christ", "christs": "christ",
+    &#34;what&#39;s&#34;: &#34;what&#34;, &#34;whats&#34;: &#34;what&#34;, &#34;isn&#39;t&#34;: &#34;is&#34;, &#34;isnt&#34;: &#34;is&#34;, &#34;aren&#39;t&#34;: &#34;are&#34;, &#34;arent&#34;: &#34;are&#34;,
+    &#34;wasn&#39;t&#34;: &#34;was&#34;, &#34;wasnt&#34;: &#34;was&#34;, &#34;weren&#39;t&#34;: &#34;were&#34;, &#34;werent&#34;: &#34;were&#34;, &#34;don&#39;t&#34;: &#34;do&#34;, &#34;dont&#34;: &#34;do&#34;,
+    &#34;doesn&#39;t&#34;: &#34;does&#34;, &#34;doesnt&#34;: &#34;does&#34;, &#34;didn&#39;t&#34;: &#34;did&#34;, &#34;didnt&#34;: &#34;did&#34;, &#34;can&#39;t&#34;: &#34;can&#34;, &#34;cant&#34;: &#34;can&#34;,
+    &#34;won&#39;t&#34;: &#34;will&#34;, &#34;wont&#34;: &#34;will&#34;, &#34;wouldn&#39;t&#34;: &#34;would&#34;, &#34;wouldnt&#34;: &#34;would&#34;, &#34;couldn&#39;t&#34;: &#34;could&#34;,
+    &#34;couldnt&#34;: &#34;could&#34;, &#34;shouldn&#39;t&#34;: &#34;should&#34;, &#34;shouldnt&#34;: &#34;should&#34;, &#34;hasn&#39;t&#34;: &#34;has&#34;, &#34;hasnt&#34;: &#34;has&#34;,
+    &#34;haven&#39;t&#34;: &#34;have&#34;, &#34;havent&#34;: &#34;have&#34;, &#34;hadn&#39;t&#34;: &#34;had&#34;, &#34;hadnt&#34;: &#34;had&#34;, &#34;it&#39;s&#34;: &#34;it&#34;, &#34;its&#34;: &#34;it&#34;,
+    &#34;that&#39;s&#34;: &#34;that&#34;, &#34;thats&#34;: &#34;that&#34;, &#34;there&#39;s&#34;: &#34;there&#34;, &#34;theres&#34;: &#34;there&#34;, &#34;here&#39;s&#34;: &#34;here&#34;,
+    &#34;heres&#34;: &#34;here&#34;, &#34;who&#39;s&#34;: &#34;who&#34;, &#34;whos&#34;: &#34;who&#34;, &#34;you&#39;re&#34;: &#34;you&#34;, &#34;youre&#34;: &#34;you&#34;, &#34;they&#39;re&#34;: &#34;they&#34;,
+    &#34;theyre&#34;: &#34;they&#34;, &#34;we&#39;re&#34;: &#34;we&#34;, &#34;were&#34;: &#34;we&#34;, &#34;i&#39;m&#34;: &#34;i&#34;, &#34;im&#34;: &#34;i&#34;, &#34;i&#39;ve&#34;: &#34;have&#34;, &#34;ive&#34;: &#34;have&#34;,
+    &#34;you&#39;ve&#34;: &#34;have&#34;, &#34;youve&#34;: &#34;have&#34;, &#34;we&#39;ve&#34;: &#34;have&#34;, &#34;weve&#34;: &#34;have&#34;, &#34;they&#39;ve&#34;: &#34;have&#34;, &#34;theyve&#34;: &#34;have&#34;,
+    &#34;i&#39;ll&#34;: &#34;will&#34;, &#34;ill&#34;: &#34;will&#34;, &#34;you&#39;ll&#34;: &#34;will&#34;, &#34;youll&#34;: &#34;will&#34;, &#34;he&#39;ll&#34;: &#34;will&#34;, &#34;hell&#34;: &#34;will&#34;,
+    &#34;she&#39;ll&#34;: &#34;will&#34;, &#34;shell&#34;: &#34;will&#34;, &#34;we&#39;ll&#34;: &#34;will&#34;, &#34;well&#34;: &#34;will&#34;, &#34;they&#39;ll&#34;: &#34;will&#34;, &#34;theyll&#34;: &#34;will&#34;,
+    &#34;let&#39;s&#34;: &#34;let&#34;, &#34;lets&#34;: &#34;let&#34;, &#34;today&#39;s&#34;: &#34;today&#34;, &#34;todays&#34;: &#34;today&#34;, &#34;christ&#39;s&#34;: &#34;christ&#34;, &#34;christs&#34;: &#34;christ&#34;,
 }
 
 STOP = {
-    "the","and","for","are","but","not","you","all","can","had","her","was","one","our","out","day","get",
-    "has","him","his","how","its","may","new","now","old","see","two","way","who","did","let","put","say",
-    "she","too","use","any","per","via","etc","what","when","where","which","with","from","this","that",
-    "they","them","then","than","your","have","been","will","just","also","into","over","some","only",
-    "more","most","make","made","like","need","know","want","back","still","even","after","before","same",
+    &#34;the&#34;,&#34;and&#34;,&#34;for&#34;,&#34;are&#34;,&#34;but&#34;,&#34;not&#34;,&#34;you&#34;,&#34;all&#34;,&#34;can&#34;,&#34;had&#34;,&#34;her&#34;,&#34;was&#34;,&#34;one&#34;,&#34;our&#34;,&#34;out&#34;,&#34;day&#34;,&#34;get&#34;,
+    &#34;has&#34;,&#34;him&#34;,&#34;his&#34;,&#34;how&#34;,&#34;its&#34;,&#34;may&#34;,&#34;new&#34;,&#34;now&#34;,&#34;old&#34;,&#34;see&#34;,&#34;two&#34;,&#34;way&#34;,&#34;who&#34;,&#34;did&#34;,&#34;let&#34;,&#34;put&#34;,&#34;say&#34;,
+    &#34;she&#34;,&#34;too&#34;,&#34;use&#34;,&#34;any&#34;,&#34;per&#34;,&#34;via&#34;,&#34;etc&#34;,&#34;what&#34;,&#34;when&#34;,&#34;where&#34;,&#34;which&#34;,&#34;with&#34;,&#34;from&#34;,&#34;this&#34;,&#34;that&#34;,
+    &#34;they&#34;,&#34;them&#34;,&#34;then&#34;,&#34;than&#34;,&#34;your&#34;,&#34;have&#34;,&#34;been&#34;,&#34;will&#34;,&#34;just&#34;,&#34;also&#34;,&#34;into&#34;,&#34;over&#34;,&#34;some&#34;,&#34;only&#34;,
+    &#34;more&#34;,&#34;most&#34;,&#34;make&#34;,&#34;made&#34;,&#34;like&#34;,&#34;need&#34;,&#34;know&#34;,&#34;want&#34;,&#34;back&#34;,&#34;still&#34;,&#34;even&#34;,&#34;after&#34;,&#34;before&#34;,&#34;same&#34;,
 }
 
-VOWELS = "aeiouy"
-def syllables(word: str) -> int:
+VOWELS = &#34;aeiouy&#34;
+def syllables(word: str) -&gt; int:
     w = word.lower()
-    if len(w) <= 3:
+    if len(w) &lt;= 3:
         return 1
     count = 0
     prev_v = False
@@ -1287,74 +1086,74 @@ def syllables(word: str) -> int:
         if v and not prev_v:
             count += 1
         prev_v = v
-    if w.endswith("e") and count > 1 and not w.endswith("le"):
+    if w.endswith(&#34;e&#34;) and count &gt; 1 and not w.endswith(&#34;le&#34;):
         count -= 1
     return max(1, count)
 
 
-def load_common() -> dict[str, int]:
+def load_common() -&gt; dict[str, int]:
     return {line.strip().lower(): i for i, line in enumerate(COMMON_PATH.read_text().splitlines(), 1) if line.strip()}
 
 
-def normalize(text: str) -> str:
-    text = WIKILINK.sub(lambda m: re.sub(r"\[\[|\]\]", "", m.group(0).replace("|", " ")), text)
+def normalize(text: str) -&gt; str:
+    text = WIKILINK.sub(lambda m: re.sub(r&#34;\[\[|\]\]&#34;, &#34;&#34;, m.group(0).replace(&#34;|&#34;, &#34; &#34;)), text)
     text = text.lower()
     # expand contractions before tokenizing
     for src, dst in sorted(CONTRACTIONS.items(), key=lambda x: -len(x[0])):
-        text = re.sub(rf"\b{re.escape(src)}\b", dst, text)
+        text = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, text)
     return text
 
 
-def prose_fields(meta: dict) -> str:
+def prose_fields(meta: dict) -&gt; str:
     chunks: list[str] = []
-    for key in ("title", "meta_title", "description", "key_concept"):
+    for key in (&#34;title&#34;, &#34;meta_title&#34;, &#34;description&#34;, &#34;key_concept&#34;):
         val = meta.get(key)
         if isinstance(val, str) and val.strip():
             chunks.append(val)
-    for key in ("examples", "aliases"):
+    for key in (&#34;examples&#34;, &#34;aliases&#34;):
         val = meta.get(key)
         if isinstance(val, list):
             chunks.extend(str(x) for x in val if x)
-    for card in meta.get("cards") or []:
+    for card in meta.get(&#34;cards&#34;) or []:
         if isinstance(card, dict):
-            for side in ("front", "back"):
+            for side in (&#34;front&#34;, &#34;back&#34;):
                 v = card.get(side)
                 if isinstance(v, str) and v.strip():
                     chunks.append(v)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 
-def tokenize(text: str) -> list[str]:
+def tokenize(text: str) -&gt; list[str]:
     words: list[str] = []
-    for raw in re.findall(r"[a-z][a-z'-]*", normalize(text)):
-        w = re.sub(r"[^a-z]", "", raw)
-        if len(w) < 4 or w in STOP or w in CONTRACTIONS:
+    for raw in re.findall(r&#34;[a-z][a-z&#39;-]*&#34;, normalize(text)):
+        w = re.sub(r&#34;[^a-z]&#34;, &#34;&#34;, raw)
+        if len(w) &lt; 4 or w in STOP or w in CONTRACTIONS:
             continue
         words.append(w)
     return words
 
 
-def main() -> int:
+def main() -&gt; int:
     common = load_common()
     freq: Counter[str] = Counter()
     notes_by_word: dict[str, set[str]] = defaultdict(set)
 
     note_count = 0
-    for path in sorted(NOTES_DIR.glob("*.md")):
-        text = path.read_text(encoding="utf-8")
+    for path in sorted(NOTES_DIR.glob(&#34;*.md&#34;)):
+        text = path.read_text(encoding=&#34;utf-8&#34;)
         m = FRONTMATTER.match(text)
         if not m:
             continue
         meta = yaml.safe_load(m.group(1)) or {}
-        if meta.get("draft"):
+        if meta.get(&#34;draft&#34;):
             continue
-        if meta.get("note_kind", "note") in ("meta", "index"):
+        if meta.get(&#34;note_kind&#34;, &#34;note&#34;) in (&#34;meta&#34;, &#34;index&#34;):
             continue
         note_count += 1
         body = text[m.end():].strip()
         blob = prose_fields(meta)
         if body:
-            blob += "\n" + body
+            blob += &#34;\n&#34; + body
         slug = path.stem
         for w in tokenize(blob):
             freq[w] += 1
@@ -1365,7 +1164,7 @@ def main() -> int:
         rank = common.get(w, 10001)
         syl = syllables(w)
         # only genuinely uncommon / multi-syllable / long words
-        if rank <= 4500 and syl < 3 and len(w) < 8:
+        if rank &lt;= 4500 and syl &lt; 3 and len(w) &lt; 8:
             continue
         difficulty = rank + (syl - 1) * 900 + max(0, len(w) - 7) * 150
         if w not in common:
@@ -1376,21 +1175,20 @@ def main() -> int:
     scored.sort(reverse=True)
     top = scored[:100]
 
-    print(f"Notes analyzed: {note_count}")
-    print(f"Unique tokens (4+ letters): {len(freq)}")
+    print(f&#34;Notes analyzed: {note_count}&#34;)
+    print(f&#34;Unique tokens (4+ letters): {len(freq)}&#34;)
     print()
-    print(f"{'#':>3}  {'word':<24} {'uses':>4}  {'rank':>5}  {'syl':>3}  appears in")
-    print("-" * 95)
+    print(f&#34;{&#39;#&#39;:&gt;3}  {&#39;word&#39;:&lt;24} {&#39;uses&#39;:&gt;4}  {&#39;rank&#39;:&gt;5}  {&#39;syl&#39;:&gt;3}  appears in&#34;)
+    print(&#34;-&#34; * 95)
     for i, (_, w, count, rank, syl) in enumerate(top, 1):
-        samples = ", ".join(sorted(notes_by_word[w])[:4])
-        rank_s = str(rank) if rank else "rare"
-        print(f"{i:3d}  {w:<24} {count:4d}  {rank_s:>5}  {syl:3d}  {samples}")
+        samples = &#34;, &#34;.join(sorted(notes_by_word[w])[:4])
+        rank_s = str(rank) if rank else &#34;rare&#34;
+        print(f&#34;{i:3d}  {w:&lt;24} {count:4d}  {rank_s:&gt;5}  {syl:3d}  {samples}&#34;)
     return 0
 
-if __name__ == "__main__":
+if __name__ == &#34;__main__&#34;:
     sys.exit(main())
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 #!/usr/bin/env python3
@@ -1572,99 +1370,9 @@ Unique tokens (4+ letters): 4309
  13  sanctification             20   rare    5  abide-in-me, discipleship, faith-and-works, free-grace
  14  justification              20   rare    5  assurance, faith-and-works, free-grace, grace
  15  gentleness                 23   rare    3  discipleship, faithfulness, fruits-of-the-spirit, gentleness
- 16  faithfulness               21   rare    3  compounding, eternal-rewards, faithful-steward, faithfulness
- 17  stays                      33   9418    1  assurance, composure, develop-dont-endanger, evergreen-vs-fleeting-notes
- 18  whiteboard                 21   rare    3  complete-the-cycle, context-aware-capture, evergreen-vs-fleeting-notes, execution
- 19  patience                   23   rare    2  abide-in-me, discipleship, energy-protects-judgment, fruits-of-the-spirit
- 20  handoff                    23   rare    2  client-site-handoff, crdt, drafting-in-public, free-tier-hosting-stack
- 21  cloudflare                 22   rare    2  client-site-handoff, digital-garden, free-tier-hosting-stack, future-proofing-knowledge
- 22  deploy                     22   rare    2  blameless-postmortem, change-window, client-site-handoff, free-tier-hosting-stack
- 23  fridge                     29   9522    1  build-a-reliable-default, evergreen-vs-fleeting-notes, forgetting-curve, future-proofing-knowledge
- 24  habit                      21   rare    2  attention-economy, create-regular-connection, forgiveness-at-work, habit-formation
- 25  righteousness              18   rare    3  christianity-and-politics, fruits-of-the-spirit, goodness, heart-righteousness
- 26  forgiveness                17   rare    4  ask-seek-knock, forgiveness, forgiveness-at-work, free-grace
- 27  fellowship                 29   6850    3  assurance, forgiveness, free-grace, grace
- 28  messy                      20   rare    2  by-their-fruits, creative-blocks, elon-musk, golden-rule-at-work
- 29  heroic                     20   rare    2  compounding, continuous-improvement, eternal-rewards, faithful-steward
- 30  every                     124    393    3  active-knowledge-curation, anti-fragile-systems, ask-seek-knock, associative-linking
- 31  discipleship               16   rare    4  discipleship, faith-and-works, free-grace, grateful-obedience
- 32  grows                      28   9035    1  create-regular-connection, digital-garden, faithfulness, fruits-of-the-spirit
- 33  fallacy                    17   rare    3  break-the-escalation-cycle, forgiveness, forgiveness-at-work, mercy
- 34  halftime                   18   rare    2  attention-economy, commonplace-book, complete-the-cycle, expect-the-counter
- 35  nobody                     37   4691    3  active-knowledge-curation, blameless-postmortem, build-a-reliable-default, change-window
- 36  evergreen                  16   rare    3  evergreen-notes, evergreen-vs-fleeting-notes, the-feynman-technique, the-knowledge-lifecycle
- 37  sunk                       19   rare    1  behavioral-economics, break-the-escalation-cycle, forgiveness, forgiveness-at-work
- 38  kindness                   17   rare    2  fruits-of-the-spirit, goodness, kindness, love-your-enemies
- 39  fleeting                   17   rare    2  daily-notes, evergreen-notes, evergreen-vs-fleeting-notes, the-knowledge-lifecycle
- 40  commute                    17   rare    2  convert-pain-into-learning, daily-notes, getting-things-done, habit-formation
- 41  closeness                  15   rare    3  assurance, create-regular-connection, forgiveness, free-grace
- 42  feels                      42   5337    1  ask-seek-knock, christianity-and-politics, discipleship, discipline
- 43  scrimmage                  16   rare    2  control-the-rhythm, deliberate-practice, minimum-viable-product, notice-the-good
- 44  revoked                    15   rare    3  abide-in-me, assurance, grace, judgment-seat
- 45  beats                      25   8580    1  associative-linking, attention-to-detail, commonplace-book, creative-output
- 46  snapped                    16   rare    2  abide-in-me, break-the-escalation-cycle, discipleship, emotional-regulation
- 47  merit                      22   8500    2  ask-seek-knock, assurance, childlike-faith, compounding
- 48  pretending                 14   rare    3  analog-capture-tools, forgiveness, forgiveness-at-work, love-your-enemies
- 49  wikilinks                  14   rare    3  _index, associative-linking, atomic-notes, building-a-personal-api
- 50  keeps                      43   4909    1  assurance, christianity-and-politics, daily-notes, drafting-in-public
- 51  scripture                  15   rare    2  abide-in-me, ask-seek-knock, love-god, sanctification
- 52  sermon                     15   rare    2  analog-capture-tools, behavioral-economics, building-a-second-brain, commonplace-book
- 53  actually                   67   1156    3  abide-in-me, active-knowledge-curation, anti-fragile-systems, behavioral-economics
- 54  saves                      22   8098    2  atomic-notes, discipleship, faith-and-works, free-grace
- 55  teammate                   14   rare    2  create-regular-connection, follow-their-lead, forgiveness-at-work, free-grace
- 56  playbook                   14   rare    2  associative-linking, commonplace-book, digital-garden, gtd-vs-para
- 57  devotion                   13   rare    3  eternal-rewards, faithful-steward, goodness, integrity-when-no-ones-watching
- 58  checklist                  19   8592    2  compounding, continuous-improvement, fruits-of-the-spirit, mind-mapping
- 59  skipped                    14   rare    2  building-a-second-brain, failure-as-feedback, forgiveness, great-commission
- 60  obey                       14   rare    2  discipleship, free-grace, grace, grateful-obedience
- 61  motive                     14   rare    2  christianity-and-politics, faith-and-works, fruits-of-the-spirit, goodness
- 62  abide                      14   rare    2  abide-in-me, compounding, fruits-of-the-spirit, grateful-obedience
- 63  followthrough              12   rare    3  evergreen-notes, failure-as-feedback, faithfulness, follow-through
- 64  shine                      20   9051    1  christianity-and-politics, drafting-in-public, eternal-rewards, fruits-of-the-spirit
- 65  selfcontrol                12   rare    3  abide-in-me, fruits-of-the-spirit, gentleness, heart-righteousness
- 66  postmortem                 12   rare    3  blameless-postmortem, incident-investigation, learning-organizations, normalization-of-deviance
- 67  righteous                  13   rare    2  faith-and-works, grace, heart-righteousness, justification
- 68  believers                  12   rare    3  eternal-rewards, forgiveness, free-grace, fruits-of-the-spirit
- 69  boring                     19   8356    2  anti-fragile-systems, attention-to-detail, change-window, compounding
- 70  repetition                 11   rare    4  compounding, deliberate-practice, forgetting-curve, spaced-repetition
- 71  hoarding                   13   rare    2  discipleship, great-commission, read-later-queue, servant-leadership
- 72  goodness                   13   rare    2  fruits-of-the-spirit, goodness, kindness
- 73  forgive                    13   rare    2  forgiveness, forgiveness-at-work, grace, kindness
- 74  bedtime                    13   rare    2  composure, control-the-rhythm, dont-worry, first-principles-thinking
- 75  dread                      14   rare    1  assurance, christianity-and-politics, inbox-zero, judgment-seat
- 76  stack                      31   5702    1  assurance, atomic-notes, compounding, creative-output
- 77  grateful                   15   9031    3  discipleship, faith-and-works, free-grace, fruits-of-the-spirit
- 78  fruits                     23   7330    1  abide-in-me, by-their-fruits, christianity-and-politics, discipleship
- 79  retainer                   11   rare    3  client-site-handoff, selling-static-sites, static-site-client-scope
- 80  coworker                   11   rare    3  faith-and-works, follow-their-lead, forgiveness-at-work, kindness
- 81  steward                    12   rare    2  eternal-rewards, faithful-steward, faithfulness, fruits-of-the-spirit
- 82  posture                    12   rare    2  ask-seek-knock, childlike-faith, free-grace, grateful-obedience
- 83  merged                     12   rare    2  atomic-notes, blameless-postmortem, crdt, own-the-error
- 84  streak                     13   rare    1  assurance, fruits-of-the-spirit, grateful-obedience, joy
- 85  standing                   42   2833    2  assurance, forgiveness, free-grace, grace
- 86  hugo                       14   9966    2  change-window, digital-garden, free-tier-hosting-stack, git-based-cms
- 87  gospel                     26   5219    2  break-the-escalation-cycle, christianity-and-politics, discipleship, elon-musk
- 88  parallel                   27   3940    3  associative-linking, atomic-notes, break-the-escalation-cycle, by-their-fruits
- 89  thumb                      20   7799    1  atomic-notes, capture, christianity-and-politics, dont-worry
- 90  gods                       20   7746    1  abide-in-me, ask-seek-knock, assurance, christianity-and-politics
- 91  treasure                   19   6968    2  christianity-and-politics, digital-minimalism, eternal-rewards, seek-the-kingdom-first
- 92  scribble                   11   rare    2  analog-capture-tools, building-a-second-brain, capture, context-aware-capture
- 93  judgment                   28   4456    2  assurance, blameless-postmortem, discipleship, energy-protects-judgment
- 94  settled                    17   7877    2  assurance, faithful-steward, grace, judgment-seat
- 95  blameless                  10   rare    3  blameless-postmortem, incident-investigation, learning-organizations, normalization-of-deviance
- 96  servant                    11   rare    2  faithful-steward, forgiveness, humility-and-service, servant-leadership
- 97  repent                     11   rare    2  discipleship, grateful-obedience, great-commission, loss-of-reward
- 98  caesar                     11   rare    2  christianity-and-politics, render-unto-caesar
- 99  hurt                       30   5093    1  break-the-escalation-cycle, ethical-leadership, forgiveness, forgiveness-at-work
-100  smallest                   13   9976    2  free-grace, grace, lean-startup, minimum-effective-dose
-
+ 16  faithfulness               21   rare    3  compounding, eternal-rewards, faithful-stewa
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1674,49 +1382,50 @@ The word "every" was incorrectly ranked at 393 due to a syllable counting error.
 
 Common words such as "stays", "grows", and "actually" were incorrectly included in the results. Stricter filtering criteria are being considered to exclude frequent vocabulary and enforce higher difficulty thresholds.
 
-Dale-Chall unfamiliar-word filtering is being explored. The final criteria will require rank above 5500 or exclusion from the common vocabulary list, with a minimum of two syllables and ten characters for shorter exceptions.</details></think>
+Dale-Chall unfamiliar-word filtering is being explored. The final criteria will require rank above 5500 or exclusion from the common vocabulary list, with a minimum of two syllables and ten characters for shorter exceptions.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re, sys
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-NOTES_DIR = ROOT / "content/english/notes"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+NOTES_DIR = ROOT / &#34;content/english/notes&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
 
 CONTRACTIONS = {
-    "what's":"what","whats":"what","isn't":"is","isnt":"is","aren't":"are","arent":"are","wasn't":"was","wasnt":"was",
-    "weren't":"were","werent":"were","don't":"do","dont":"do","doesn't":"does","doesnt":"does","didn't":"did","didnt":"did",
-    "can't":"can","cant":"can","won't":"will","wont":"will","wouldn't":"would","wouldnt":"would","couldn't":"could","couldnt":"could",
-    "shouldn't":"should","shouldnt":"should","hasn't":"has","hasnt":"has","haven't":"have","havent":"have","hadn't":"had","hadnt":"had",
-    "it's":"it","that's":"that","thats":"that","there's":"there","theres":"there","here's":"here","heres":"here","who's":"who","whos":"who",
-    "you're":"you","youre":"you","they're":"they","theyre":"they","we're":"we","i'm":"i","im":"i","i've":"have","ive":"have",
-    "you've":"have","youve":"have","we've":"have","weve":"have","they've":"have","theyve":"have","i'll":"will","ill":"will",
-    "you'll":"will","youll":"will","he'll":"will","hell":"will","she'll":"will","shell":"will","we'll":"will","well":"will",
-    "they'll":"will","theyll":"will","let's":"let","lets":"let","today's":"today","todays":"today","christ's":"christ","christs":"christ",
-    "god's":"god","gods":"god","kid's":"kid","neighbor's":"neighbor","nobody's":"nobody",
+    &#34;what&#39;s&#34;:&#34;what&#34;,&#34;whats&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;isnt&#34;:&#34;is&#34;,&#34;aren&#39;t&#34;:&#34;are&#34;,&#34;arent&#34;:&#34;are&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;wasnt&#34;:&#34;was&#34;,
+    &#34;weren&#39;t&#34;:&#34;were&#34;,&#34;werent&#34;:&#34;were&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;dont&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;doesnt&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;didnt&#34;:&#34;did&#34;,
+    &#34;can&#39;t&#34;:&#34;can&#34;,&#34;cant&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wont&#34;:&#34;will&#34;,&#34;wouldn&#39;t&#34;:&#34;would&#34;,&#34;wouldnt&#34;:&#34;would&#34;,&#34;couldn&#39;t&#34;:&#34;could&#34;,&#34;couldnt&#34;:&#34;could&#34;,
+    &#34;shouldn&#39;t&#34;:&#34;should&#34;,&#34;shouldnt&#34;:&#34;should&#34;,&#34;hasn&#39;t&#34;:&#34;has&#34;,&#34;hasnt&#34;:&#34;has&#34;,&#34;haven&#39;t&#34;:&#34;have&#34;,&#34;havent&#34;:&#34;have&#34;,&#34;hadn&#39;t&#34;:&#34;had&#34;,&#34;hadnt&#34;:&#34;had&#34;,
+    &#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;thats&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;theres&#34;:&#34;there&#34;,&#34;here&#39;s&#34;:&#34;here&#34;,&#34;heres&#34;:&#34;here&#34;,&#34;who&#39;s&#34;:&#34;who&#34;,&#34;whos&#34;:&#34;who&#34;,
+    &#34;you&#39;re&#34;:&#34;you&#34;,&#34;youre&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;theyre&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;im&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;ive&#34;:&#34;have&#34;,
+    &#34;you&#39;ve&#34;:&#34;have&#34;,&#34;youve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;weve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;theyve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;ill&#34;:&#34;will&#34;,
+    &#34;you&#39;ll&#34;:&#34;will&#34;,&#34;youll&#34;:&#34;will&#34;,&#34;he&#39;ll&#34;:&#34;will&#34;,&#34;hell&#34;:&#34;will&#34;,&#34;she&#39;ll&#34;:&#34;will&#34;,&#34;shell&#34;:&#34;will&#34;,&#34;we&#39;ll&#34;:&#34;will&#34;,&#34;well&#34;:&#34;will&#34;,
+    &#34;they&#39;ll&#34;:&#34;will&#34;,&#34;theyll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;lets&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;todays&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;christs&#34;:&#34;christ&#34;,
+    &#34;god&#39;s&#34;:&#34;god&#34;,&#34;gods&#34;:&#34;god&#34;,&#34;kid&#39;s&#34;:&#34;kid&#34;,&#34;neighbor&#39;s&#34;:&#34;neighbor&#34;,&#34;nobody&#39;s&#34;:&#34;nobody&#34;,
 }
-STOP = set("the and for are but not you all can had her was one our out day get has him his how may new now old see two way who did let put say she too use any what when where which with from this that they them then than your have been will just also into over some only more most make made like need know want back still even after before same very much many every people thing things being doing done".split())
+STOP = set(&#34;the and for are but not you all can had her was one our out day get has him his how may new now old see two way who did let put say she too use any what when where which with from this that they them then than your have been will just also into over some only more most make made like need know want back still even after before same very much many every people thing things being doing done&#34;.split())
 
-VOWELS = "aeiouy"
-def syllables(w: str) -> int:
+VOWELS = &#34;aeiouy&#34;
+def syllables(w: str) -&gt; int:
     w = w.lower()
-    if len(w) <= 3: return 1
+    if len(w) &lt;= 3: return 1
     c = prev = 0
     for ch in w:
         v = ch in VOWELS
         if v and not prev: c += 1
         prev = v
-    if w.endswith("e") and c > 1 and not w.endswith("le"): c -= 1
-    if w.endswith("y") and c > 1 and len(w) > 3: c -= 1  # every, messy
+    if w.endswith(&#34;e&#34;) and c &gt; 1 and not w.endswith(&#34;le&#34;): c -= 1
+    if w.endswith(&#34;y&#34;) and c &gt; 1 and len(w) &gt; 3: c -= 1  # every, messy
     return max(1, c)
 
 def load_common():
@@ -1727,73 +1436,72 @@ def strip_links(t):
 
 def prose_fields(meta):
     chunks=[]
-    for k in ("title","meta_title","description","key_concept"):
+    for k in (&#34;title&#34;,&#34;meta_title&#34;,&#34;description&#34;,&#34;key_concept&#34;):
         v=meta.get(k)
         if isinstance(v,str) and v.strip(): chunks.append(v)
-    for k in ("examples","aliases"):
+    for k in (&#34;examples&#34;,&#34;aliases&#34;):
         v=meta.get(k)
         if isinstance(v,list): chunks.extend(str(x) for x in v if x)
-    for card in meta.get("cards") or []:
+    for card in meta.get(&#34;cards&#34;) or []:
         if isinstance(card,dict):
-            for s in ("front","back"):
+            for s in (&#34;front&#34;,&#34;back&#34;):
                 v=card.get(s)
                 if isinstance(v,str) and v.strip(): chunks.append(v)
-    return "\n".join(chunks)
+    return &#34;\n&#34;.join(chunks)
 
 def tokenize(text):
     text = strip_links(text).lower()
     for src,dst in sorted(CONTRACTIONS.items(), key=lambda x:-len(x[0])):
-        text = re.sub(rf"\b{re.escape(src)}\b", dst, text)
+        text = re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, text)
     out=[]
-    for raw in re.findall(r"[a-z][a-z'-]*", text):
-        w=re.sub(r"[^a-z]","",raw)
-        if len(w)<4 or w in STOP: continue
+    for raw in re.findall(r&#34;[a-z][a-z&#39;-]*&#34;, text):
+        w=re.sub(r&#34;[^a-z]&#34;,&#34;&#34;,raw)
+        if len(w)&lt;4 or w in STOP: continue
         out.append(w)
     return out
 
 common = load_common()
 freq=Counter(); notes=defaultdict(set); note_count=0
-for path in sorted(NOTES_DIR.glob("*.md")):
-    text=path.read_text(encoding="utf-8")
+for path in sorted(NOTES_DIR.glob(&#34;*.md&#34;)):
+    text=path.read_text(encoding=&#34;utf-8&#34;)
     m=FRONTMATTER.match(text)
     if not m: continue
     meta=yaml.safe_load(m.group(1)) or {}
-    if meta.get("draft") or meta.get("note_kind","note") in ("meta","index"): continue
+    if meta.get(&#34;draft&#34;) or meta.get(&#34;note_kind&#34;,&#34;note&#34;) in (&#34;meta&#34;,&#34;index&#34;): continue
     note_count+=1
     body=text[m.end():].strip()
     blob=prose_fields(meta)
-    if body: blob+="\n"+body
+    if body: blob+=&#34;\n&#34;+body
     slug=path.stem
     for w in tokenize(blob):
         freq[w]+=1; notes[w].add(slug)
 
 # Category heuristics
-THEO = re.compile(r"(sanctif|justif|righteous|discipleship|gospel|galatians|scripture|repent|abide|fellowship|salvation|mercy|forgive|obedien|believer|steward|devotion|sermon|righteous|gentleness|faithfulness)")
-PKM = re.compile(r"(wikilink|evergreen|fleeting|inbox|capture|postmortem|rollback|handoff|playbook|whiteboard|summariz|metadata|flashcard|spaced|repetition|commonplace|atomic|zettel|graph|backlink)")
-TECH = re.compile(r"(cloudflare|deploy|hugo|git|rollback|dns|static|hosting|client|retainer|dns|cdn|repo)")
+THEO = re.compile(r&#34;(sanctif|justif|righteous|discipleship|gospel|galatians|scripture|repent|abide|fellowship|salvation|mercy|forgive|obedien|believer|steward|devotion|sermon|righteous|gentleness|faithfulness)&#34;)
+PKM = re.compile(r&#34;(wikilink|evergreen|fleeting|inbox|capture|postmortem|rollback|handoff|playbook|whiteboard|summariz|metadata|flashcard|spaced|repetition|commonplace|atomic|zettel|graph|backlink)&#34;)
+TECH = re.compile(r&#34;(cloudflare|deploy|hugo|git|rollback|dns|static|hosting|client|retainer|dns|cdn|repo)&#34;)
 
 scored=[]
 for w,c in freq.items():
     rank=common.get(w,10001)
     syl=syllables(w)
     # strict: uncommon in general English
-    if rank <= 6000:
+    if rank &lt;= 6000:
         continue
     difficulty = rank + syl*400 + max(0,len(w)-8)*200
     if w not in common: difficulty += 2500
     score = difficulty * (1 + (c-1)*0.45)
-    cat = "theology" if THEO.search(w) else "pkm" if PKM.search(w) else "tech" if TECH.search(w) else "general"
+    cat = &#34;theology&#34; if THEO.search(w) else &#34;pkm&#34; if PKM.search(w) else &#34;tech&#34; if TECH.search(w) else &#34;general&#34;
     scored.append((score,w,c,rank if w in common else 0,syl,cat))
 
 scored.sort(reverse=True)
-print(f"Notes analyzed: {note_count} | reader-facing prose from titles, descriptions, key concepts, examples, flashcards")
+print(f&#34;Notes analyzed: {note_count} | reader-facing prose from titles, descriptions, key concepts, examples, flashcards&#34;)
 print()
 for i,(_,w,c,r,syl,cat) in enumerate(scored[:100],1):
-    rs = str(r) if r else "rare"
-    samp = ", ".join(sorted(notes[w])[:3])
-    print(f"{i:3d}. {w} ({c} uses, {rs}, {syl} syl, {cat}) — {samp}")
+    rs = str(r) if r else &#34;rare&#34;
+    samp = &#34;, &#34;.join(sorted(notes[w])[:3])
+    print(f&#34;{i:3d}. {w} ({c} uses, {rs}, {syl} syl, {cat}) — {samp}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -1933,95 +1641,9 @@ Notes analyzed: 210 | reader-facing prose from titles, descriptions, key concept
  17. faithfulness (21 uses, rare, 3 syl, theology) — compounding, eternal-rewards, faithful-steward
  18. patience (23 uses, rare, 2 syl, general) — abide-in-me, discipleship, energy-protects-judgment
  19. handoff (23 uses, rare, 2 syl, pkm) — client-site-handoff, crdt, drafting-in-public
- 20. cloudflare (22 uses, rare, 2 syl, tech) — client-site-handoff, digital-garden, free-tier-hosting-stack
- 21. whiteboard (21 uses, rare, 3 syl, pkm) — complete-the-cycle, context-aware-capture, evergreen-vs-fleeting-notes
- 22. fridge (29 uses, 9522, 1 syl, general) — build-a-reliable-default, evergreen-vs-fleeting-notes, forgetting-curve
- 23. deploy (22 uses, rare, 1 syl, tech) — blameless-postmortem, change-window, client-site-handoff
- 24. habit (21 uses, rare, 2 syl, general) — attention-economy, create-regular-connection, forgiveness-at-work
- 25. righteousness (18 uses, rare, 3 syl, theology) — christianity-and-politics, fruits-of-the-spirit, goodness
- 26. heroic (20 uses, rare, 2 syl, general) — compounding, continuous-improvement, eternal-rewards
- 27. grows (28 uses, 9035, 1 syl, general) — create-regular-connection, digital-garden, faithfulness
- 28. messy (20 uses, rare, 1 syl, general) — by-their-fruits, creative-blocks, elon-musk
- 29. forgiveness (17 uses, rare, 4 syl, theology) — ask-seek-knock, forgiveness, forgiveness-at-work
- 30. sunk (19 uses, rare, 1 syl, general) — behavioral-economics, break-the-escalation-cycle, forgiveness
- 31. discipleship (16 uses, rare, 4 syl, theology) — discipleship, faith-and-works, free-grace
- 32. halftime (18 uses, rare, 2 syl, general) — attention-economy, commonplace-book, complete-the-cycle
- 33. fellowship (29 uses, 6850, 3 syl, theology) — assurance, forgiveness, free-grace
- 34. kindness (17 uses, rare, 2 syl, general) — fruits-of-the-spirit, goodness, kindness
- 35. fleeting (17 uses, rare, 2 syl, pkm) — daily-notes, evergreen-notes, evergreen-vs-fleeting-notes
- 36. fallacy (17 uses, rare, 2 syl, general) — break-the-escalation-cycle, forgiveness, forgiveness-at-work
- 37. commute (17 uses, rare, 2 syl, general) — convert-pain-into-learning, daily-notes, getting-things-done
- 38. evergreen (16 uses, rare, 3 syl, pkm) — evergreen-notes, evergreen-vs-fleeting-notes, the-feynman-technique
- 39. beats (25 uses, 8580, 1 syl, general) — associative-linking, attention-to-detail, commonplace-book
- 40. scrimmage (16 uses, rare, 2 syl, general) — control-the-rhythm, deliberate-practice, minimum-viable-product
- 41. snapped (16 uses, rare, 2 syl, general) — abide-in-me, break-the-escalation-cycle, discipleship
- 42. closeness (15 uses, rare, 3 syl, general) — assurance, create-regular-connection, forgiveness
- 43. revoked (15 uses, rare, 3 syl, general) — abide-in-me, assurance, grace
- 44. scripture (15 uses, rare, 2 syl, theology) — abide-in-me, ask-seek-knock, love-god
- 45. merit (22 uses, 8500, 2 syl, general) — ask-seek-knock, assurance, childlike-faith
- 46. sermon (15 uses, rare, 2 syl, theology) — analog-capture-tools, behavioral-economics, building-a-second-brain
- 47. pretending (14 uses, rare, 3 syl, general) — analog-capture-tools, forgiveness, forgiveness-at-work
- 48. wikilinks (14 uses, rare, 3 syl, pkm) — _index, associative-linking, atomic-notes
- 49. saves (22 uses, 8098, 2 syl, general) — atomic-notes, discipleship, faith-and-works
- 50. teammate (14 uses, rare, 2 syl, general) — create-regular-connection, follow-their-lead, forgiveness-at-work
- 51. skipped (14 uses, rare, 2 syl, general) — building-a-second-brain, failure-as-feedback, forgiveness
- 52. playbook (14 uses, rare, 2 syl, pkm) — associative-linking, commonplace-book, digital-garden
- 53. motive (14 uses, rare, 2 syl, general) — christianity-and-politics, faith-and-works, fruits-of-the-spirit
- 54. abide (14 uses, rare, 2 syl, theology) — abide-in-me, compounding, fruits-of-the-spirit
- 55. shine (20 uses, 9051, 1 syl, general) — christianity-and-politics, drafting-in-public, eternal-rewards
- 56. obey (14 uses, rare, 1 syl, general) — discipleship, free-grace, grace
- 57. dread (14 uses, rare, 1 syl, general) — assurance, christianity-and-politics, inbox-zero
- 58. devotion (13 uses, rare, 3 syl, theology) — eternal-rewards, faithful-steward, goodness
- 59. followthrough (12 uses, rare, 3 syl, general) — evergreen-notes, failure-as-feedback, faithfulness
- 60. checklist (19 uses, 8592, 2 syl, general) — compounding, continuous-improvement, fruits-of-the-spirit
- 61. righteous (13 uses, rare, 2 syl, theology) — faith-and-works, grace, heart-righteousness
- 62. hoarding (13 uses, rare, 2 syl, general) — discipleship, great-commission, read-later-queue
- 63. goodness (13 uses, rare, 2 syl, general) — fruits-of-the-spirit, goodness, kindness
- 64. forgive (13 uses, rare, 2 syl, theology) — forgiveness, forgiveness-at-work, grace
- 65. bedtime (13 uses, rare, 2 syl, general) — composure, control-the-rhythm, dont-worry
- 66. selfcontrol (12 uses, rare, 3 syl, general) — abide-in-me, fruits-of-the-spirit, gentleness
- 67. fruits (23 uses, 7330, 1 syl, general) — abide-in-me, by-their-fruits, christianity-and-politics
- 68. postmortem (12 uses, rare, 3 syl, pkm) — blameless-postmortem, incident-investigation, learning-organizations
- 69. boring (19 uses, 8356, 2 syl, general) — anti-fragile-systems, attention-to-detail, change-window
- 70. believers (12 uses, rare, 3 syl, theology) — eternal-rewards, forgiveness, free-grace
- 71. streak (13 uses, rare, 1 syl, general) — assurance, fruits-of-the-spirit, grateful-obedience
- 72. repetition (11 uses, rare, 4 syl, pkm) — compounding, deliberate-practice, forgetting-curve
- 73. steward (12 uses, rare, 2 syl, theology) — eternal-rewards, faithful-steward, faithfulness
- 74. posture (12 uses, rare, 2 syl, general) — ask-seek-knock, childlike-faith, free-grace
- 75. merged (12 uses, rare, 2 syl, general) — atomic-notes, blameless-postmortem, crdt
- 76. thumb (20 uses, 7799, 1 syl, general) — atomic-notes, capture, christianity-and-politics
- 77. retainer (11 uses, rare, 3 syl, tech) — client-site-handoff, selling-static-sites, static-site-client-scope
- 78. coworker (11 uses, rare, 3 syl, general) — faith-and-works, follow-their-lead, forgiveness-at-work
- 79. grateful (15 uses, 9031, 3 syl, general) — discipleship, faith-and-works, free-grace
- 80. hugo (14 uses, 9966, 2 syl, tech) — change-window, digital-garden, free-tier-hosting-stack
- 81. servant (11 uses, rare, 2 syl, general) — faithful-steward, forgiveness, humility-and-service
- 82. scribble (11 uses, rare, 2 syl, general) — analog-capture-tools, building-a-second-brain, capture
- 83. repent (11 uses, rare, 2 syl, theology) — discipleship, grateful-obedience, great-commission
- 84. caesar (11 uses, rare, 2 syl, general) — christianity-and-politics, render-unto-caesar
- 85. settled (17 uses, 7877, 2 syl, general) — assurance, faithful-steward, grace
- 86. drills (11 uses, rare, 1 syl, general) — building-a-personal-api, compounding, control-the-rhythm
- 87. deeds (11 uses, rare, 1 syl, general) — childlike-faith, faith-and-works, free-grace
- 88. calm (19 uses, 7387, 1 syl, general) — blameless-postmortem, composure, develop-dont-endanger
- 89. treasure (19 uses, 6968, 2 syl, general) — christianity-and-politics, digital-minimalism, eternal-rewards
- 90. blameless (10 uses, rare, 3 syl, general) — blameless-postmortem, incident-investigation, learning-organizations
- 91. smallest (13 uses, 9976, 2 syl, general) — free-grace, grace, lean-startup
- 92. panic (15 uses, 8550, 2 syl, general) — assurance, christianity-and-politics, client-site-handoff
- 93. stubble (10 uses, rare, 2 syl, general) — judgment-seat, loss-of-reward, treasure-in-heaven
- 94. romans (10 uses, rare, 2 syl, general) — assurance, christianity-and-politics, faith-and-works
- 95. recap (10 uses, rare, 2 syl, general) — complete-the-cycle, faithfulness, follow-through
- 96. markdown (10 uses, rare, 2 syl, general) — anti-fragile-systems, client-site-handoff, free-tier-hosting-stack
- 97. erase (10 uses, rare, 2 syl, general) — coaching-ethics, compounding, duty-of-care
- 98. distill (10 uses, rare, 2 syl, general) — building-a-second-brain, evergreen-notes, progressive-summarization
- 99. applause (10 uses, rare, 2 syl, general) — discipline, faithful-steward, faithfulness
-100. rewards (16 uses, 7736, 2 syl, general) — compounding, eternal-rewards, faithful-steward
-
+ 20. cloudflare (22 uses,
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2029,63 +1651,64 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The current list still contains common words like "stays," "fridge," and "drill." These rank above 6000 in frequency lists and are not difficult to understand.
 
-A stricter filter is being applied. Words must be uncommon, rank above 8000, or have four or more syllables. The list will be grouped by category and tailored to JoRap vocabulary, focusing on academic jargon, thesaurus terms, and PKM jargon.</details></think>
+A stricter filter is being applied. Words must be uncommon, rank above 8000, or have four or more syllables. The list will be grouped by category and tailored to JoRap vocabulary, focusing on academic jargon, thesaurus terms, and PKM jargon.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-NOTES_DIR = ROOT / "content/english/notes"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+NOTES_DIR = ROOT / &#34;content/english/notes&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
 
-CONTRACTIONS = {"what's":"what","whats":"what","isn't":"is","isnt":"is","don't":"do","dont":"do","doesn't":"does","doesnt":"does","didn't":"did","didnt":"did","can't":"can","cant":"can","won't":"will","wont":"will","wasn't":"was","wasnt":"was","it's":"it","that's":"that","thats":"that","there's":"there","theres":"there","you're":"you","youre":"you","they're":"they","theyre":"they","we're":"we","i'm":"i","im":"i","i've":"have","ive":"have","you've":"have","youve":"have","we've":"have","weve":"have","they've":"have","theyve":"have","i'll":"will","ill":"will","you'll":"will","youll":"will","let's":"let","lets":"let","today's":"today","todays":"today","christ's":"christ","christs":"christ","god's":"god","gods":"god"}
-PLAIN = set("""stays grows beats shine thumb calm panic fridge drill drills dread streak habit heroic messy sunk teammate commute bedtime boring skipped merged recap erase calm hurts hurt keeps feels saves merit treasure rewards fruits gospel heaven faith spirit grace mercy saved standing settled smallest panic applause drills deeds calm thumb fridge inbox drill stays grows beats shine""".split())
+CONTRACTIONS = {&#34;what&#39;s&#34;:&#34;what&#34;,&#34;whats&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;isnt&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;dont&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;doesnt&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;didnt&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;cant&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wont&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;wasnt&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;thats&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;theres&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;youre&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;theyre&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;im&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;ive&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;youve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;weve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;theyve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;ill&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,&#34;youll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;lets&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;todays&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;christs&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;gods&#34;:&#34;god&#34;}
+PLAIN = set(&#34;&#34;&#34;stays grows beats shine thumb calm panic fridge drill drills dread streak habit heroic messy sunk teammate commute bedtime boring skipped merged recap erase calm hurts hurt keeps feels saves merit treasure rewards fruits gospel heaven faith spirit grace mercy saved standing settled smallest panic applause drills deeds calm thumb fridge inbox drill stays grows beats shine&#34;&#34;&#34;.split())
 
-VOWELS="aeiouy"
+VOWELS=&#34;aeiouy&#34;
 def syllables(w):
     w=w.lower(); c=prev=0
     for ch in w:
         v=ch in VOWELS
         if v and not prev: c+=1
         prev=v
-    if w.endswith('e') and c>1 and not w.endswith('le'): c-=1
-    if w.endswith('y') and c>1 and len(w)>3: c-=1
+    if w.endswith(&#39;e&#39;) and c&gt;1 and not w.endswith(&#39;le&#39;): c-=1
+    if w.endswith(&#39;y&#39;) and c&gt;1 and len(w)&gt;3: c-=1
     return max(1,c)
 
 common={l.strip().lower():i for i,l in enumerate(COMMON_PATH.read_text().splitlines(),1) if l.strip()}
 freq=Counter(); notes=defaultdict(set)
-for path in sorted(NOTES_DIR.glob('*.md')):
-    text=path.read_text(encoding='utf-8'); m=FRONTMATTER.match(text)
+for path in sorted(NOTES_DIR.glob(&#39;*.md&#39;)):
+    text=path.read_text(encoding=&#39;utf-8&#39;); m=FRONTMATTER.match(text)
     if not m: continue
     meta=yaml.safe_load(m.group(1)) or {}
-    if meta.get('draft') or meta.get('note_kind','note') in ('meta','index'): continue
-    blob=''
-    for k in ('title','meta_title','description','key_concept'):
+    if meta.get(&#39;draft&#39;) or meta.get(&#39;note_kind&#39;,&#39;note&#39;) in (&#39;meta&#39;,&#39;index&#39;): continue
+    blob=&#39;&#39;
+    for k in (&#39;title&#39;,&#39;meta_title&#39;,&#39;description&#39;,&#39;key_concept&#39;):
         v=meta.get(k)
-        if isinstance(v,str): blob+=v+'\n'
-    for k in ('examples','aliases'):
-        for x in meta.get(k) or []: blob+=str(x)+'\n'
-    for card in meta.get('cards') or []:
+        if isinstance(v,str): blob+=v+&#39;\n&#39;
+    for k in (&#39;examples&#39;,&#39;aliases&#39;):
+        for x in meta.get(k) or []: blob+=str(x)+&#39;\n&#39;
+    for card in meta.get(&#39;cards&#39;) or []:
         if isinstance(card,dict):
-            for s in ('front','back'):
+            for s in (&#39;front&#39;,&#39;back&#39;):
                 v=card.get(s)
-                if isinstance(v,str): blob+=v+'\n'
+                if isinstance(v,str): blob+=v+&#39;\n&#39;
     body=text[m.end():].strip()
     if body: blob+=body
     blob=WIKILINK.sub(lambda m:(m.group(2) or m.group(1)), blob).lower()
     for src,dst in sorted(CONTRACTIONS.items(), key=lambda x:-len(x[0])):
-        blob=re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob=re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
     slug=path.stem
-    for w in re.findall(r"[a-z]{4,}", blob):
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         if w in PLAIN: continue
         freq[w]+=1; notes[w].add(slug)
 
@@ -2093,15 +1716,14 @@ for path in sorted(NOTES_DIR.glob('*.md')):
 items=[]
 for w,c in freq.items():
     rank=common.get(w,10001); syl=syllables(w)
-    hard = (w not in common and syl>=2) or (rank>7500 and syl>=3) or len(w)>=11 or syl>=4
+    hard = (w not in common and syl&gt;=2) or (rank&gt;7500 and syl&gt;=3) or len(w)&gt;=11 or syl&gt;=4
     if not hard: continue
-    score = c * (syl*500 + (10001-rank if rank<=10000 else 5000) + len(w)*20)
+    score = c * (syl*500 + (10001-rank if rank&lt;=10000 else 5000) + len(w)*20)
     items.append((score,w,c,syl,rank if w in common else 0))
 items.sort(reverse=True)
 for i,(_,w,c,syl,r) in enumerate(items[:100],1):
-    print(f"{i:3d}. {w:22s} {c:3d}x  syl={syl}  rank={r or 'rare'}")
+    print(f&#34;{i:3d}. {w:22s} {c:3d}x  syl={syl}  rank={r or &#39;rare&#39;}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -2212,166 +1834,100 @@ PYEOF
  37. coworker                14x  syl=3  rank=rare
  38. scripture               15x  syl=2  rank=rare
  39. devotion                13x  syl=3  rank=rare
- 40. playbook                14x  syl=2  rank=rare
- 41. abide                   14x  syl=2  rank=rare
- 42. relationship             8x  syl=4  rank=1715
- 43. salvation               34x  syl=3  rank=9265
- 44. postmortem              12x  syl=3  rank=rare
- 45. righteous               13x  syl=2  rank=rare
- 46. believers               12x  syl=3  rank=rare
- 47. hoarding                13x  syl=2  rank=rare
- 48. goodness                13x  syl=2  rank=rare
- 49. stubble                 13x  syl=2  rank=rare
- 50. forgive                 13x  syl=2  rank=rare
- 51. caesar                  13x  syl=2  rank=rare
- 52. repetition              11x  syl=4  rank=rare
- 53. steward                 12x  syl=2  rank=rare
- 54. servant                 12x  syl=2  rank=rare
- 55. posture                 12x  syl=2  rank=rare
- 56. retainer                11x  syl=3  rank=rare
- 57. management               6x  syl=4  rank=205
- 58. scribble                11x  syl=2  rank=rare
- 59. investigation            7x  syl=5  rank=3143
- 60. repent                  11x  syl=2  rank=rare
- 61. relationships            7x  syl=4  rank=2662
- 62. blameless               10x  syl=3  rank=rare
- 63. sustainable              8x  syl=4  rank=3930
- 64. irreversible             8x  syl=5  rank=rare
- 65. markdown                10x  syl=2  rank=rare
- 66. distill                 10x  syl=2  rank=rare
- 67. romans                  10x  syl=2  rank=rare
- 68. pile                    10x  syl=2  rank=rare
- 69. contradicts              9x  syl=3  rank=rare
- 70. ephesians                9x  syl=3  rank=rare
- 71. disciples                9x  syl=3  rank=rare
- 72. peacemakers              8x  syl=4  rank=rare
- 73. reasonable               6x  syl=4  rank=2937
- 74. showroom                 9x  syl=2  rank=rare
- 75. proofing                 9x  syl=2  rank=rare
- 76. footwork                 9x  syl=2  rank=rare
- 77. drafting                 9x  syl=2  rank=rare
- 78. inbound                  9x  syl=2  rank=rare
- 79. waited                   9x  syl=2  rank=rare
- 80. traced                   9x  syl=2  rank=rare
- 81. spaced                   9x  syl=2  rank=rare
- 82. alternative              5x  syl=4  rank=1485
- 83. justified                8x  syl=3  rank=rare
- 84. merciful                 8x  syl=3  rank=rare
- 85. execution                6x  syl=4  rank=3458
- 86. conversation             7x  syl=4  rank=4932
- 87. intellectual             6x  syl=4  rank=3740
- 88. maintenance              5x  syl=3  rank=1588
- 89. beatitudes               7x  syl=4  rank=rare
- 90. worthless                8x  syl=2  rank=rare
- 91. workflows                8x  syl=2  rank=rare
- 92. skipping                 8x  syl=2  rank=rare
- 93. verdict                  8x  syl=2  rank=rare
- 94. sermons                  8x  syl=2  rank=rare
- 95. hoarded                  8x  syl=2  rank=rare
- 96. glorify                  8x  syl=2  rank=rare
- 97. confess                  8x  syl=2  rank=rare
- 98. unsafe                   8x  syl=2  rank=rare
- 99. ninety                   8x  syl=2  rank=rare
-100. github                   8x  syl=2  rank=rare
-
+ 40. playbook   
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Common words such as performance, everything, information, categories, and management were excluded from the difficult word list.</details></think>
+Common words such as performance, everything, information, categories, and management were excluded from the difficult word list.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-NOTES_DIR = ROOT / "content/english/notes"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+NOTES_DIR = ROOT / &#34;content/english/notes&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
 
-CONTRACTIONS = {"what's":"what","whats":"what","isn't":"is","isnt":"is","don't":"do","dont":"do","doesn't":"does","doesnt":"does","didn't":"did","didnt":"did","can't":"can","cant":"can","won't":"will","wont":"will","wasn't":"was","wasnt":"was","it's":"it","that's":"that","thats":"that","there's":"there","theres":"there","you're":"you","youre":"you","they're":"they","theyre":"they","we're":"we","i'm":"i","im":"i","i've":"have","ive":"have","you've":"have","youve":"have","we've":"have","weve":"have","they've":"have","theyve":"have","i'll":"will","ill":"will","you'll":"will","youll":"will","let's":"let","lets":"let","today's":"today","todays":"today","christ's":"christ","christs":"christ","god's":"god","gods":"god"}
+CONTRACTIONS = {&#34;what&#39;s&#34;:&#34;what&#34;,&#34;whats&#34;:&#34;what&#34;,&#34;isn&#39;t&#34;:&#34;is&#34;,&#34;isnt&#34;:&#34;is&#34;,&#34;don&#39;t&#34;:&#34;do&#34;,&#34;dont&#34;:&#34;do&#34;,&#34;doesn&#39;t&#34;:&#34;does&#34;,&#34;doesnt&#34;:&#34;does&#34;,&#34;didn&#39;t&#34;:&#34;did&#34;,&#34;didnt&#34;:&#34;did&#34;,&#34;can&#39;t&#34;:&#34;can&#34;,&#34;cant&#34;:&#34;can&#34;,&#34;won&#39;t&#34;:&#34;will&#34;,&#34;wont&#34;:&#34;will&#34;,&#34;wasn&#39;t&#34;:&#34;was&#34;,&#34;wasnt&#34;:&#34;was&#34;,&#34;it&#39;s&#34;:&#34;it&#34;,&#34;that&#39;s&#34;:&#34;that&#34;,&#34;thats&#34;:&#34;that&#34;,&#34;there&#39;s&#34;:&#34;there&#34;,&#34;theres&#34;:&#34;there&#34;,&#34;you&#39;re&#34;:&#34;you&#34;,&#34;youre&#34;:&#34;you&#34;,&#34;they&#39;re&#34;:&#34;they&#34;,&#34;theyre&#34;:&#34;they&#34;,&#34;we&#39;re&#34;:&#34;we&#34;,&#34;i&#39;m&#34;:&#34;i&#34;,&#34;im&#34;:&#34;i&#34;,&#34;i&#39;ve&#34;:&#34;have&#34;,&#34;ive&#34;:&#34;have&#34;,&#34;you&#39;ve&#34;:&#34;have&#34;,&#34;youve&#34;:&#34;have&#34;,&#34;we&#39;ve&#34;:&#34;have&#34;,&#34;weve&#34;:&#34;have&#34;,&#34;they&#39;ve&#34;:&#34;have&#34;,&#34;theyve&#34;:&#34;have&#34;,&#34;i&#39;ll&#34;:&#34;will&#34;,&#34;ill&#34;:&#34;will&#34;,&#34;you&#39;ll&#34;:&#34;will&#34;,&#34;youll&#34;:&#34;will&#34;,&#34;let&#39;s&#34;:&#34;let&#34;,&#34;lets&#34;:&#34;let&#34;,&#34;today&#39;s&#34;:&#34;today&#34;,&#34;todays&#34;:&#34;today&#34;,&#34;christ&#39;s&#34;:&#34;christ&#34;,&#34;christs&#34;:&#34;christ&#34;,&#34;god&#39;s&#34;:&#34;god&#34;,&#34;gods&#34;:&#34;god&#34;}
 
-# common words that rank low in google list but aren't actually hard
-COMMON_BLOCK = set("""performance everything information categories management responsibility relationship relationships productivity conversation intellectual sustainable reasonable execution alternative waited traced drafting inbound skipping verdict unsafe ninety pile footwork showroom proofing workflows merciful justified worthless confess glorify hoarded sermons""".split())
+# common words that rank low in google list but aren&#39;t actually hard
+COMMON_BLOCK = set(&#34;&#34;&#34;performance everything information categories management responsibility relationship relationships productivity conversation intellectual sustainable reasonable execution alternative waited traced drafting inbound skipping verdict unsafe ninety pile footwork showroom proofing workflows merciful justified worthless confess glorify hoarded sermons&#34;&#34;&#34;.split())
 
-VOWELS="aeiouy"
+VOWELS=&#34;aeiouy&#34;
 def syllables(w):
     w=w.lower(); c=prev=0
     for ch in w:
         v=ch in VOWELS
         if v and not prev: c+=1
         prev=v
-    if w.endswith('e') and c>1 and not w.endswith('le'): c-=1
-    if w.endswith('y') and c>1 and len(w)>3: c-=1
+    if w.endswith(&#39;e&#39;) and c&gt;1 and not w.endswith(&#39;le&#39;): c-=1
+    if w.endswith(&#39;y&#39;) and c&gt;1 and len(w)&gt;3: c-=1
     return max(1,c)
 
 CATS = {
-    "theology": {"sanctification","justification","righteousness","discipleship","galatians","ephesians","romans","beatitudes","fellowship","salvation","scripture","sermon","sermons","abide","repent","forgive","forgiveness","righteous","believers","steward","devotion","obedience","faithfulness","gentleness","merciful","glorify","confess","peacemakers","disciples","justified","stubble","caesar"},
-    "pkm": {"wikilinks","evergreen","fleeting","whiteboard","playbook","postmortem","rollback","handoff","repetition","spaced","distill","markdown","scribble","hoarding","fallacy","inbox"},
-    "tech": {"cloudflare","github","deploy","hugo","retainer","rollback","markdown"},
+    &#34;theology&#34;: {&#34;sanctification&#34;,&#34;justification&#34;,&#34;righteousness&#34;,&#34;discipleship&#34;,&#34;galatians&#34;,&#34;ephesians&#34;,&#34;romans&#34;,&#34;beatitudes&#34;,&#34;fellowship&#34;,&#34;salvation&#34;,&#34;scripture&#34;,&#34;sermon&#34;,&#34;sermons&#34;,&#34;abide&#34;,&#34;repent&#34;,&#34;forgive&#34;,&#34;forgiveness&#34;,&#34;righteous&#34;,&#34;believers&#34;,&#34;steward&#34;,&#34;devotion&#34;,&#34;obedience&#34;,&#34;faithfulness&#34;,&#34;gentleness&#34;,&#34;merciful&#34;,&#34;glorify&#34;,&#34;confess&#34;,&#34;peacemakers&#34;,&#34;disciples&#34;,&#34;justified&#34;,&#34;stubble&#34;,&#34;caesar&#34;},
+    &#34;pkm&#34;: {&#34;wikilinks&#34;,&#34;evergreen&#34;,&#34;fleeting&#34;,&#34;whiteboard&#34;,&#34;playbook&#34;,&#34;postmortem&#34;,&#34;rollback&#34;,&#34;handoff&#34;,&#34;repetition&#34;,&#34;spaced&#34;,&#34;distill&#34;,&#34;markdown&#34;,&#34;scribble&#34;,&#34;hoarding&#34;,&#34;fallacy&#34;,&#34;inbox&#34;},
+    &#34;tech&#34;: {&#34;cloudflare&#34;,&#34;github&#34;,&#34;deploy&#34;,&#34;hugo&#34;,&#34;retainer&#34;,&#34;rollback&#34;,&#34;markdown&#34;},
 }
 
 def cat(w):
     for c, words in CATS.items():
         if w in words: return c
-    return "general"
+    return &#34;general&#34;
 
 common={l.strip().lower():i for i,l in enumerate(COMMON_PATH.read_text().splitlines(),1) if l.strip()}
 freq=Counter(); notes=defaultdict(set)
-for path in sorted(NOTES_DIR.glob('*.md')):
-    text=path.read_text(encoding='utf-8'); m=FRONTMATTER.match(text)
+for path in sorted(NOTES_DIR.glob(&#39;*.md&#39;)):
+    text=path.read_text(encoding=&#39;utf-8&#39;); m=FRONTMATTER.match(text)
     if not m: continue
     meta=yaml.safe_load(m.group(1)) or {}
-    if meta.get('draft') or meta.get('note_kind','note') in ('meta','index'): continue
-    blob=''
-    for k in ('title','meta_title','description','key_concept'):
+    if meta.get(&#39;draft&#39;) or meta.get(&#39;note_kind&#39;,&#39;note&#39;) in (&#39;meta&#39;,&#39;index&#39;): continue
+    blob=&#39;&#39;
+    for k in (&#39;title&#39;,&#39;meta_title&#39;,&#39;description&#39;,&#39;key_concept&#39;):
         v=meta.get(k)
-        if isinstance(v,str): blob+=v+'\n'
-    for k in ('examples','aliases'):
-        for x in meta.get(k) or []: blob+=str(x)+'\n'
-    for card in meta.get('cards') or []:
+        if isinstance(v,str): blob+=v+&#39;\n&#39;
+    for k in (&#39;examples&#39;,&#39;aliases&#39;):
+        for x in meta.get(k) or []: blob+=str(x)+&#39;\n&#39;
+    for card in meta.get(&#39;cards&#39;) or []:
         if isinstance(card,dict):
-            for s in ('front','back'):
+            for s in (&#39;front&#39;,&#39;back&#39;):
                 v=card.get(s)
-                if isinstance(v,str): blob+=v+'\n'
+                if isinstance(v,str): blob+=v+&#39;\n&#39;
     body=text[m.end():].strip()
     if body: blob+=body
     blob=WIKILINK.sub(lambda m:(m.group(2) or m.group(1)), blob).lower()
     for src,dst in sorted(CONTRACTIONS.items(), key=lambda x:-len(x[0])):
-        blob=re.sub(rf"\b{re.escape(src)}\b", dst, blob)
+        blob=re.sub(rf&#34;\b{re.escape(src)}\b&#34;, dst, blob)
     slug=path.stem
-    for w in re.findall(r"[a-z]{4,}", blob):
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w]+=1; notes[w].add(slug)
 
 items=[]
 for w,c in freq.items():
-    if c < 5 or w in COMMON_BLOCK: continue
+    if c &lt; 5 or w in COMMON_BLOCK: continue
     rank=common.get(w,10001); syl=syllables(w)
     # uncommon in everyday English
-    if rank <= 8000 and w in common: continue
-    score = c * (syl * 300 + max(0, len(w)-6)*50 + (10001-rank if rank<=10000 else 4000))
+    if rank &lt;= 8000 and w in common: continue
+    score = c * (syl * 300 + max(0, len(w)-6)*50 + (10001-rank if rank&lt;=10000 else 4000))
     items.append((score,w,c,syl,cat(w),sorted(notes[w])[:4]))
 items.sort(reverse=True)
-print('COUNT', len(items))
+print(&#39;COUNT&#39;, len(items))
 for i,(_,w,c,syl,category,samps) in enumerate(items[:100],1):
-    print(f"{i:3d}|{w}|{c}|{syl}|{category}|{'; '.join(samps)}")
+    print(f&#34;{i:3d}|{w}|{c}|{syl}|{category}|{&#39;; &#39;.join(samps)}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -2477,94 +2033,9 @@ COUNT 284
  18|commute|20|2|general|capture; convert-pain-into-learning; daily-notes; getting-things-done
  19|forgiveness|17|4|theology|ask-seek-knock; forgiveness; forgiveness-at-work; free-grace
  20|heroic|20|2|general|compounding; continuous-improvement; eternal-rewards; faithful-steward
- 21|discipleship|16|4|theology|discipleship; faith-and-works; free-grace; grateful-obedience
- 22|mercy|41|1|general|forgiveness; fruits-of-the-spirit; grace; judge-not
- 23|messy|20|1|general|by-their-fruits; creative-blocks; elon-musk; golden-rule-at-work
- 24|halftime|18|2|general|attention-economy; commonplace-book; complete-the-cycle; expect-the-counter
- 25|neighbor|56|2|general|associative-linking; break-the-escalation-cycle; christianity-and-politics; client-site-handoff
- 26|sunk|19|1|general|behavioral-economics; break-the-escalation-cycle; forgiveness; forgiveness-at-work
- 27|evergreen|16|3|pkm|evergreen-notes; evergreen-vs-fleeting-notes; the-feynman-technique; the-knowledge-lifecycle
- 28|teammate|17|2|general|create-regular-connection; drafting-in-public; follow-their-lead; forgiveness-at-work
- 29|kindness|17|2|general|fruits-of-the-spirit; goodness; kindness; love-your-enemies
- 30|fleeting|17|2|pkm|daily-notes; evergreen-notes; evergreen-vs-fleeting-notes; the-knowledge-lifecycle
- 31|fallacy|17|2|pkm|break-the-escalation-cycle; forgiveness; forgiveness-at-work; mercy
- 32|sermon|17|2|theology|analog-capture-tools; behavioral-economics; building-a-second-brain; commonplace-book
- 33|scrimmage|16|2|general|control-the-rhythm; deliberate-practice; minimum-viable-product; notice-the-good
- 34|closeness|15|3|general|assurance; create-regular-connection; forgiveness; free-grace
- 35|snapped|16|2|general|abide-in-me; break-the-escalation-cycle; discipleship; emotional-regulation
- 36|revoked|15|3|general|abide-in-me; assurance; grace; judgment-seat
- 37|motive|16|2|general|christianity-and-politics; faith-and-works; fruits-of-the-spirit; goodness
- 38|pretending|14|3|general|analog-capture-tools; forgiveness; forgiveness-at-work; love-your-enemies
- 39|scripture|15|2|theology|abide-in-me; ask-seek-knock; love-god; sanctification
- 40|wikilinks|14|3|pkm|_index; associative-linking; atomic-notes; building-a-personal-api
- 41|coworker|14|3|general|eternal-rewards; faith-and-works; follow-their-lead; forgiveness-at-work
- 42|bedtime|15|2|general|composure; control-the-rhythm; dont-worry; first-principles-thinking
- 43|playbook|14|2|pkm|associative-linking; commonplace-book; digital-garden; gtd-vs-para
- 44|skipped|14|2|general|building-a-second-brain; failure-as-feedback; forgiveness; great-commission
- 45|devotion|13|3|theology|eternal-rewards; faithful-steward; goodness; integrity-when-no-ones-watching
- 46|abide|14|2|theology|abide-in-me; compounding; fruits-of-the-spirit; grateful-obedience
- 47|righteous|13|2|theology|faith-and-works; grace; heart-righteousness; justification
- 48|postmortem|12|3|pkm|blameless-postmortem; incident-investigation; learning-organizations; normalization-of-deviance
- 49|hoarding|13|2|pkm|discipleship; great-commission; read-later-queue; servant-leadership
- 50|goodness|13|2|general|fruits-of-the-spirit; goodness; kindness
- 51|salvation|34|3|theology|assurance; christianity-and-politics; eternal-rewards; faith-and-works
- 52|believers|12|3|theology|eternal-rewards; forgiveness; free-grace; fruits-of-the-spirit
- 53|stubble|13|2|theology|judgment-seat; loss-of-reward; treasure-in-heaven; wood-hay-stubble
- 54|forgive|13|2|theology|forgiveness; forgiveness-at-work; grace; kindness
- 55|obey|14|1|general|discipleship; free-grace; grace; grateful-obedience
- 56|dread|14|1|general|assurance; christianity-and-politics; inbox-zero; judgment-seat
- 57|caesar|13|2|theology|christianity-and-politics; render-unto-caesar
- 58|repetition|11|4|pkm|compounding; deliberate-practice; forgetting-curve; spaced-repetition
- 59|streak|13|1|general|assurance; fruits-of-the-spirit; grateful-obedience; joy
- 60|steward|12|2|theology|eternal-rewards; faithful-steward; faithfulness; fruits-of-the-spirit
- 61|servant|12|2|general|faithful-steward; forgiveness; humility-and-service; servant-leadership
- 62|posture|12|2|general|ask-seek-knock; childlike-faith; free-grace; grateful-obedience
- 63|merged|12|2|general|atomic-notes; blameless-postmortem; crdt; own-the-error
- 64|saves|22|2|general|atomic-notes; discipleship; faith-and-works; free-grace
- 65|retainer|11|3|tech|client-site-handoff; selling-static-sites; static-site-client-scope
- 66|scribble|11|2|pkm|analog-capture-tools; building-a-second-brain; capture; context-aware-capture
- 67|repent|11|2|theology|discipleship; grateful-obedience; great-commission; loss-of-reward
- 68|blameless|10|3|general|blameless-postmortem; incident-investigation; learning-organizations; normalization-of-deviance
- 69|drills|11|1|general|building-a-personal-api; compounding; control-the-rhythm; deliberate-practice
- 70|deeds|11|1|general|childlike-faith; faith-and-works; free-grace; goodness
- 71|markdown|10|2|pkm|anti-fragile-systems; client-site-handoff; free-tier-hosting-stack; future-proofing-knowledge
- 72|applause|10|2|general|discipline; faithful-steward; faithfulness; goodness
- 73|distill|10|2|pkm|building-a-second-brain; evergreen-notes; progressive-summarization; the-second-brain-workflow
- 74|irreversible|8|5|general|hierarchy-of-controls; life-before-achievement; reversibility; risk-management
- 75|contradicts|9|3|general|associative-linking; note-relationships
- 76|merit|22|2|general|ask-seek-knock; assurance; childlike-faith; compounding
- 77|romans|10|2|theology|assurance; christianity-and-politics; faith-and-works; free-grace
- 78|recap|10|2|general|complete-the-cycle; faithfulness; follow-through; literature-notes
- 79|erase|10|2|general|coaching-ethics; compounding; duty-of-care; love-your-neighbor
- 80|ephesians|9|3|theology|faith-and-works; free-grace; grace; grateful-obedience
- 81|disciples|9|3|theology|discipleship; great-commission; let-your-yes-be-yes; turn-the-other-cheek
- 82|peacemakers|8|4|theology|fruits-of-the-spirit; peace; peacemakers; the-beatitudes
- 83|beats|25|1|general|associative-linking; attention-to-detail; commonplace-book; creative-output
- 84|vine|10|1|general|abide-in-me; fruits-of-the-spirit; joy; patience
- 85|slice|10|1|general|deliberate-practice; pareto-principle; staged-rollout
- 86|couldn|10|1|general|creative-blocks; free-grace; grace; mercy
- 87|boring|19|2|general|anti-fragile-systems; attention-to-detail; change-window; compounding
- 88|spaced|9|2|pkm|forgetting-curve; spaced-repetition; the-feynman-technique
- 89|checklist|19|2|general|compounding; continuous-improvement; fruits-of-the-spirit; mind-mapping
- 90|jeepney|9|1|general|adaptability; associative-linking; capture; digital-serendipity
- 91|vague|9|1|general|accountability; love-god; notice-the-good; quarterly-planning
- 92|reps|9|1|general|adaptability; control-the-rhythm; create-regular-connection; deliberate-practice
- 93|prayed|9|1|general|abide-in-me; dont-worry; forgiveness; love-your-enemies
- 94|lasts|9|1|general|judgment-seat; the-collectors-fallacy; treasure-in-heaven; wood-hay-stubble
- 95|beatitudes|7|4|theology|evergreen-notes; gentleness; mercy; the-beatitudes
- 96|github|8|2|tech|digital-garden; free-tier-hosting-stack; selling-static-sites
- 97|commandment|7|3|general|love-god; love-your-neighbor
- 98|grows|28|1|general|create-regular-connection; digital-garden; faithfulness; fruits-of-the-spirit
- 99|reconciliation|6|5|general|peace; peacemakers; reconcile-before-the-review; reconciliation-before-worship
-100|summarization|6|5|general|commonplace-book; layered-reading; progressive-summarization
-
+ 21|discipleship|16|4|theology|discipleship; faith-and-works; free
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2574,55 +2045,55 @@ The word list still contains many plain terms, such as mercy, heroism, and drill
 
 The final list will be organized by category with methodology, brief definitions, and notes on intentional domain terms versus plain-language swaps. The top entries are being manually curated from each category, starting with sanctification, justification, righteousness, discipleship, and Galatians.
 
-The curated list now includes additional difficult terms across categories. New entries cover biblical concepts like Ephesians, Romans, and the Beatitudes, alongside theological and behavioral words such as salvation, scripture, repentance, and reconciliation. Domain-specific terms including playbook, postmortem, rollback, and collectors' fallacy are also being considered.</details></think>
+The curated list now includes additional difficult terms across categories. New entries cover biblical concepts like Ephesians, Romans, and the Beatitudes, alongside theological and behavioral words such as salvation, scripture, repentance, and reconciliation. Domain-specific terms including playbook, postmortem, rollback, and collectors' fallacy are also being considered.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 from __future__ import annotations
 import re
 from collections import Counter
 from pathlib import Path
 import yaml
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-NOTES_DIR = ROOT / "content/english/notes"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+NOTES_DIR = ROOT / &#34;content/english/notes&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]&#34;)
 
 common={l.strip().lower():i for i,l in enumerate(COMMON_PATH.read_text().splitlines(),1) if l.strip()}
 freq=Counter()
-for path in sorted(NOTES_DIR.glob('*.md')):
-    text=path.read_text(encoding='utf-8'); m=FRONTMATTER.match(text)
+for path in sorted(NOTES_DIR.glob(&#39;*.md&#39;)):
+    text=path.read_text(encoding=&#39;utf-8&#39;); m=FRONTMATTER.match(text)
     if not m: continue
     meta=yaml.safe_load(m.group(1)) or {}
-    if meta.get('draft') or meta.get('note_kind','note') in ('meta','index'): continue
-    blob=''
-    for k in ('title','meta_title','description','key_concept'):
+    if meta.get(&#39;draft&#39;) or meta.get(&#39;note_kind&#39;,&#39;note&#39;) in (&#39;meta&#39;,&#39;index&#39;): continue
+    blob=&#39;&#39;
+    for k in (&#39;title&#39;,&#39;meta_title&#39;,&#39;description&#39;,&#39;key_concept&#39;):
         v=meta.get(k)
-        if isinstance(v,str): blob+=v+'\n'
-    for k in ('examples','aliases'):
-        for x in meta.get(k) or []: blob+=str(x)+'\n'
-    for card in meta.get('cards') or []:
+        if isinstance(v,str): blob+=v+&#39;\n&#39;
+    for k in (&#39;examples&#39;,&#39;aliases&#39;):
+        for x in meta.get(k) or []: blob+=str(x)+&#39;\n&#39;
+    for card in meta.get(&#39;cards&#39;) or []:
         if isinstance(card,dict):
-            for s in ('front','back'):
+            for s in (&#39;front&#39;,&#39;back&#39;):
                 v=card.get(s)
-                if isinstance(v,str): blob+=v+'\n'
+                if isinstance(v,str): blob+=v+&#39;\n&#39;
     body=text[m.end():].strip()
     if body: blob+=body
     blob=WIKILINK.sub(lambda m:(m.group(2) or m.group(1)), blob).lower()
-    for w in re.findall(r"[a-z]{5,}", blob):
+    for w in re.findall(r&#34;[a-z]{5,}&#34;, blob):
         freq[w]+=1
 
 # rare 5+ letter words appearing 3+ times, not in top 7000
-rare=[(w,c,common.get(w,0)) for w,c in freq.items() if c>=3 and common.get(w,10001)>7000]
+rare=[(w,c,common.get(w,0)) for w,c in freq.items() if c&gt;=3 and common.get(w,10001)&gt;7000]
 rare.sort(key=lambda x:(-x[1],-len(x[0])))
 for w,c,r in rare[:80]:
-    print(f"{w:22s} {c:3d} rank={r or 'rare'}")
+    print(f&#34;{w:22s} {c:3d} rank={r or &#39;rare&#39;}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 from __future__ import annotations
@@ -2724,48 +2195,15 @@ rewards                 16 rank=7736
 hazard                  16 rank=7304
 motive                  16 rank=rare
 anger                   16 rank=7314
-scripture               15 rank=rare
-closeness               15 rank=rare
-grateful                15 rank=9031
-revoked                 15 rank=rare
-bedtime                 15 rank=rare
-panic                   15 rank=8550
-forty                   15 rank=7703
-pretending              14 rank=rare
-wikilinks               14 rank=rare
-playbook                14 rank=rare
-organize                14 rank=7411
-coworker                14 rank=rare
-skipped                 14 rank=rare
-abide                   14 rank=rare
-dread                   14 rank=rare
-righteous               13 rank=rare
-hoarding                13 rank=rare
-devotion                13 rank=rare
-smallest                13 rank=9976
-goodness                13 rank=rare
-forgive                 13 rank=rare
-stubble                 13 rank=rare
-streak                  13 rank=rare
-caesar                  13 rank=rare
-postmortem              12 rank=rare
-believers               12 rank=rare
-
+sc
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2872,13 +2310,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2886,49 +2317,49 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Compiling the final list of the top 100 difficult words.
 
-The final list will include methodology, category-based organization with plain-English glosses, and highlights of words violating plain-English guidance. Manual curation excludes common plain words. Top theology terms are being prioritized.</details></think>
+The final list will include methodology, category-based organization with plain-English glosses, and highlights of words violating plain-English guidance. Manual curation excludes common plain words. Top theology terms are being prioritized.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, yaml
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-NOTES_DIR = ROOT / "content/english/notes"
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[[^\]]+\]\]")
-TARGETS = """metadata atomic progressive commonplace backlink serendipity compounding reversibility normalization deviance stewardship reconciliation foresight escalation composure regulation accountability hierarchy incident investigation blameless minimalism intellectual sustainable intellectual sourcing commonplace summarization progressive sanctification justification righteousness discipleship fellowship wikilink evergreen postmortem rollback handoff distill commonplace compounding foresight escalation composure regulation accountability reliability hierarchy incident investigation blameless minimalism serendipity reversibility normalization deviance stewardship reconciliation peacemakers beatitudes ephesians galatians romans scripture sanctification justification righteousness discipleship fellowship wikilinks evergreen fleeting whiteboard playbook postmortem rollback handoff fallacy hoarding repetition spaced distill markdown scribble summarization inbox metadata atomic progressive commonplace backlink serendipity compounding reversibility normalization deviance stewardship reconciliation foresight escalation composure regulation accountability reliability hierarchy incident investigation blameless minimalism intellectual sustainable commonplace progressive summarization peacemakers beatitudes ephesians galatians romans scripture merciful justified glorify confess commandment irreversible contradicts scrimmage closeness revoked pretending posture merit halftime footwork stewardship regulation foresight escalation composure investigation hierarchy incident blameless minimalism serendipity reversibility normalization deviance reconciliation peacemakers beatitudes ephesians galatians romans scripture merciful justified glorify confess commandment""".split()
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+NOTES_DIR = ROOT / &#34;content/english/notes&#34;
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[[^\]]+\]\]&#34;)
+TARGETS = &#34;&#34;&#34;metadata atomic progressive commonplace backlink serendipity compounding reversibility normalization deviance stewardship reconciliation foresight escalation composure regulation accountability hierarchy incident investigation blameless minimalism intellectual sustainable intellectual sourcing commonplace summarization progressive sanctification justification righteousness discipleship fellowship wikilink evergreen postmortem rollback handoff distill commonplace compounding foresight escalation composure regulation accountability reliability hierarchy incident investigation blameless minimalism serendipity reversibility normalization deviance stewardship reconciliation peacemakers beatitudes ephesians galatians romans scripture sanctification justification righteousness discipleship fellowship wikilinks evergreen fleeting whiteboard playbook postmortem rollback handoff fallacy hoarding repetition spaced distill markdown scribble summarization inbox metadata atomic progressive commonplace backlink serendipity compounding reversibility normalization deviance stewardship reconciliation foresight escalation composure regulation accountability reliability hierarchy incident investigation blameless minimalism intellectual sustainable commonplace progressive summarization peacemakers beatitudes ephesians galatians romans scripture merciful justified glorify confess commandment irreversible contradicts scrimmage closeness revoked pretending posture merit halftime footwork stewardship regulation foresight escalation composure investigation hierarchy incident blameless minimalism serendipity reversibility normalization deviance reconciliation peacemakers beatitudes ephesians galatians romans scripture merciful justified glorify confess commandment&#34;&#34;&#34;.split()
 
 freq=Counter()
-for path in sorted(NOTES_DIR.glob('*.md')):
-    text=path.read_text(encoding='utf-8'); m=FRONTMATTER.match(text)
+for path in sorted(NOTES_DIR.glob(&#39;*.md&#39;)):
+    text=path.read_text(encoding=&#39;utf-8&#39;); m=FRONTMATTER.match(text)
     if not m: continue
     meta=yaml.safe_load(m.group(1)) or {}
-    if meta.get('draft') or meta.get('note_kind','note') in ('meta','index'): continue
-    blob=''
-    for k in ('title','meta_title','description','key_concept'):
+    if meta.get(&#39;draft&#39;) or meta.get(&#39;note_kind&#39;,&#39;note&#39;) in (&#39;meta&#39;,&#39;index&#39;): continue
+    blob=&#39;&#39;
+    for k in (&#39;title&#39;,&#39;meta_title&#39;,&#39;description&#39;,&#39;key_concept&#39;):
         v=meta.get(k)
-        if isinstance(v,str): blob+=v+'\n'
-    for k in ('examples','aliases'):
-        for x in meta.get(k) or []: blob+=str(x)+'\n'
-    for card in meta.get('cards') or []:
+        if isinstance(v,str): blob+=v+&#39;\n&#39;
+    for k in (&#39;examples&#39;,&#39;aliases&#39;):
+        for x in meta.get(k) or []: blob+=str(x)+&#39;\n&#39;
+    for card in meta.get(&#39;cards&#39;) or []:
         if isinstance(card,dict):
-            for s in ('front','back'):
+            for s in (&#39;front&#39;,&#39;back&#39;):
                 v=card.get(s)
-                if isinstance(v,str): blob+=v+'\n'
+                if isinstance(v,str): blob+=v+&#39;\n&#39;
     body=text[m.end():].strip()
     if body: blob+=body
-    blob=WIKILINK.sub(' ', blob).lower()
+    blob=WIKILINK.sub(&#39; &#39;, blob).lower()
     for t in set(TARGETS):
-        freq[t]+=len(re.findall(rf"\b{re.escape(t)}\b", blob))
+        freq[t]+=len(re.findall(rf&#34;\b{re.escape(t)}\b&#34;, blob))
 
 for w,c in sorted(freq.items(), key=lambda x:(-x[1],x[0])):
-    if c: print(f"{w:22s} {c}")
+    if c: print(f&#34;{w:22s} {c}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, yaml
@@ -3041,64 +2472,58 @@ normalization          2
 reversibility          2
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Good data has been gathered. Additional theology and general difficult words are being collected to reach the top 100.</details></think>
+Good data has been gathered. Additional theology and general difficult words are being collected to reach the top 100.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, yaml
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
-NOTES_DIR = ROOT / "content/english/notes"
-COMMON_PATH = Path("/tmp/google-10000-english.txt")
-FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-WIKILINK = re.compile(r"\[\[[^\]]+\]\]")
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+NOTES_DIR = ROOT / &#34;content/english/notes&#34;
+COMMON_PATH = Path(&#34;/tmp/google-10000-english.txt&#34;)
+FRONTMATTER = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKILINK = re.compile(r&#34;\[\[[^\]]+\]\]&#34;)
 common={l.strip().lower():i for i,l in enumerate(COMMON_PATH.read_text().splitlines(),1) if l.strip()}
 
 freq=Counter()
-for path in sorted(NOTES_DIR.glob('*.md')):
-    text=path.read_text(encoding='utf-8'); m=FRONTMATTER.match(text)
+for path in sorted(NOTES_DIR.glob(&#39;*.md&#39;)):
+    text=path.read_text(encoding=&#39;utf-8&#39;); m=FRONTMATTER.match(text)
     if not m: continue
     meta=yaml.safe_load(m.group(1)) or {}
-    if meta.get('draft') or meta.get('note_kind','note') in ('meta','index'): continue
-    blob=''
-    for k in ('title','meta_title','description','key_concept'):
+    if meta.get(&#39;draft&#39;) or meta.get(&#39;note_kind&#39;,&#39;note&#39;) in (&#39;meta&#39;,&#39;index&#39;): continue
+    blob=&#39;&#39;
+    for k in (&#39;title&#39;,&#39;meta_title&#39;,&#39;description&#39;,&#39;key_concept&#39;):
         v=meta.get(k)
-        if isinstance(v,str): blob+=v+'\n'
-    for k in ('examples','aliases'):
-        for x in meta.get(k) or []: blob+=str(x)+'\n'
-    for card in meta.get('cards') or []:
+        if isinstance(v,str): blob+=v+&#39;\n&#39;
+    for k in (&#39;examples&#39;,&#39;aliases&#39;):
+        for x in meta.get(k) or []: blob+=str(x)+&#39;\n&#39;
+    for card in meta.get(&#39;cards&#39;) or []:
         if isinstance(card,dict):
-            for s in ('front','back'):
+            for s in (&#39;front&#39;,&#39;back&#39;):
                 v=card.get(s)
-                if isinstance(v,str): blob+=v+'\n'
+                if isinstance(v,str): blob+=v+&#39;\n&#39;
     body=text[m.end():].strip()
     if body: blob+=body
-    blob=WIKILINK.sub(' ', blob).lower()
-    for w in re.findall(r"[a-z]{4,}", blob):
+    blob=WIKILINK.sub(&#39; &#39;, blob).lower()
+    for w in re.findall(r&#34;[a-z]{4,}&#34;, blob):
         freq[w]+=1
 
 # words 8+ chars, rare, 3+ uses
-items=[(w,c) for w,c in freq.items() if len(w)>=8 and c>=3 and common.get(w,10001)>5000]
+items=[(w,c) for w,c in freq.items() if len(w)&gt;=8 and c&gt;=3 and common.get(w,10001)&gt;5000]
 items.sort(key=lambda x:(-x[1],-len(x[0])))
 for w,c in items[:60]:
-    print(f"{w:24s} {c:3d} rank={common.get(w,'rare')}")
+    print(f&#34;{w:24s} {c:3d} rank={common.get(w,&#39;rare&#39;)}&#34;)
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, yaml
@@ -3195,23 +2620,9 @@ applause                  10 rank=rare
 sanctification             9 rank=rare
 justification              9 rank=rare
 discipleship               9 rank=rare
-contradicts                9 rank=rare
-postmortem                 9 rank=rare
-repetition                 9 rank=rare
-bookmarks                  9 rank=7557
-disciples                  9 rank=rare
-ephesians                  9 rank=rare
-branches                   9 rank=5961
-showroom                   9 rank=rare
-footwork                   9 rank=rare
-
+contradicts
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3233,7 +2644,8 @@ Items 60 through 73 are now selected. The batch covers infrastructure and develo
 
 Items 74 through 88 are now selected. The batch covers behavioral traits like posture and composure, strategic concepts such as merit and foresight, and operational terms including incident, investigation, and regulation.
 
-Items 88 through 100 are now selected. The batch covers digital habits, discipline, integrity, and heavenly concepts like treasure and verdict. Repentance and sanctification were already included.</details></think>
+Items 88 through 100 are now selected. The batch covers digital habits, discipline, integrity, and heavenly concepts like treasure and verdict. Repentance and sanctification were already included.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3394,7 +2806,8 @@ review jorap-voice again and see how it can be improved
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the jorap-voice skill to identify improvements.</details></think>
+Reviewing the jorap-voice skill to identify improvements.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3403,101 +2816,57 @@ I'll read the full jorap-voice skill and compare it against how notes and blog p
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **/home/jorap** (2 files)
+Directory: **`/home/jorap`** (2 files)
 
 | File |
 |------|
 | `Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md` |
 | `Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3505,54 +2874,35 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing additional note examples for voice violations and academic language.
 
-The jorap-voice guidelines are too blog-centric for the notes garden. They lack rules for key_concept fields, wikilinks, and relationship reasons. Theology terms are allowed but the skill does not explain when they are appropriate. Notes-specific patterns need dedicated guidance.</details></think>
+The jorap-voice guidelines are too blog-centric for the notes garden. They lack rules for key_concept fields, wikilinks, and relationship reasons. Theology terms are allowed but the skill does not explain when they are appropriate. Notes-specific patterns need dedicated guidance.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-postmortem.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-postmortem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3568,36 +2918,27 @@ An explicit swap table from the vocabulary audit should be added. The examples f
 
 The skill omits the scenario diversity pattern used in notes. Cross-domain examples such as sports, jeepney, coffee, and deploy should be explicitly enumerated. Wikilink voice guidance is missing. The voice checklist is blog-centric and lacks notes-specific checks.
 
-The De-AI pass should add a friend-at-coffee question for faith notes. Plain-language rules conflict with theology terms like "unmerited favor." The skill should require defining terms once in plain English before using them. Lint integration is also missing. The notes-voice-sanitize script only catches em-dashes. It should reference the vocabulary lint or difficult-words list.</details></think>
+The De-AI pass should add a friend-at-coffee question for faith notes. Plain-language rules conflict with theology terms like "unmerited favor." The skill should require defining terms once in plain English before using them. Lint integration is also missing. The notes-voice-sanitize script only catches em-dashes. It should reference the vocabulary lint or difficult-words list.
+</details></think>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
 File not found
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3639,26 +2980,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The word "landscape" appears in strategic-foresight.md as an AI-told word from jorap-voice.</details></think>
+The word "landscape" appears in strategic-foresight.md as an AI-told word from jorap-voice.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3700,45 +3033,27 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I have gathered enough information to write a thorough review of jorap-voice.</details></think>
+I have gathered enough information to write a thorough review of jorap-voice.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3927,7 +3242,8 @@ proceed with improvements
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Proceeding with the recommended jorap-voice skill improvements.</details></think>
+Proceeding with the recommended jorap-voice skill improvements.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3936,53 +3252,29 @@ Implementing the jorap-voice improvements: updating the skill docs, adding a voc
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
@@ -3993,31 +3285,20 @@ Updating SKILL.md with notes garden section, topic terms, voice check extension,
 
 Updating examples.md with garden examples. Creating a voice lint script and combining it with sanitize. Rewriting progressive-summarization cards to follow the flashcards cue→apply pattern. Fixing strategic-foresight.md description and key concepts.
 
-The progressive summarization cards now follow the capture.md cue→apply pattern. Each front shows a mid-action cue. Each back gives an immediate move. Examples include bolding lines before summarizing, stopping at highlights, and using layers instead of rewriting.</details></think>
+The progressive summarization cards now follow the capture.md cue→apply pattern. Each front shows a mid-action cue. Each back gives an immediate move. Examples include bolding lines before summarizing, stopping at highlights, and using layers instead of rewriting.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
@@ -4034,198 +3315,103 @@ The script will stay minimal. It will flag banned words and AI phrases as warnin
 
 Strategic-foresight now has a description and a key concept with a block scalar. The card backs were rewritten to avoid truncated text.
 
-Strategic-foresight cards are being rewritten to match the flashcards pattern. Each card uses a front example paired with a back that teaches foresight. The first card asks about a club signing a backup keeper before the starter's contract year. The second asks about shopping for a two-seat car while twins are due. The third asks about a café owner adding high chairs before rainy-season families arrive. The fourth asks about a condo board starting an elevator fund three years before the repair quote.</details></think>
+Strategic-foresight cards are being rewritten to match the flashcards pattern. Each card uses a front example paired with a back that teaches foresight. The first card asks about a club signing a backup keeper before the starter's contract year. The second asks about shopping for a two-seat car while twins are due. The third asks about a café owner adding high chairs before rainy-season families arrive. The fourth asks about a condo board starting an elevator fund three years before the repair quote.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a garden section to examples.md.</details></think>
+Adding a garden section to examples.md.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --self-check && python3 scripts/notes-voice-lint.py --check 2>&1 | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --self-check &amp;&amp; python3 scripts/notes-voice-lint.py --check 2&gt;&amp;1 | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --self-check && python3 scripts/notes-voice-lint.py --check 2>&1 | head -40
 ```
@@ -4233,22 +3419,16 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 ```
 notes-voice-lint self-check OK
 Voice lint warnings:
-  content/english/notes/free-grace.md: key_concept: &#96;unmerited favor&#96; — add plain gloss (e.g. gift you didn't earn)
-  content/english/notes/grace.md: meta_title: &#96;Unmerited Favor&#96; — add plain gloss (e.g. gift you didn't earn)
-  content/english/notes/grace.md: description: &#96;unmerited favor&#96; — add plain gloss (e.g. gift you didn't earn)
-  content/english/notes/grace.md: aliases[0]: &#96;unmerited favor&#96; — add plain gloss (e.g. gift you didn't earn)
-  content/english/notes/grateful-obedience.md: relationships.reason: &#96;Unmerited favor&#96; — add plain gloss (e.g. gift you didn't earn)
-  content/english/notes/judge-not.md: relationships.reason: AI-tell word &#96;elevate&#96;
-  content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word &#96;navigate&#96;
-  content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word &#96;navigate&#96;
+  content/english/notes/free-grace.md: key_concept: `unmerited favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/grace.md: meta_title: `Unmerited Favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/grace.md: description: `unmerited favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/grace.md: aliases[0]: `unmerited favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/grateful-obedience.md: relationships.reason: `Unmerited favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/judge-not.md: relationships.reason: AI-tell word `elevate`
+  content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word `navigate`
+  content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word `navigate`
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4258,7 +3438,8 @@ Linting is functioning correctly and flagging legitimate issues.
 
 Fixing free-grace.md key_concept and grace.md description to add plain gloss. Checking judge-not.md elevation. Blog post navigation is out of scope.
 
-Refining lint rules to skip aliases and meta_title fields. These are intentional search terms and subtitle patterns, not content fields.</details></think>
+Refining lint rules to skip aliases and meta_title fields. These are intentional search terms and subtitle patterns, not content fields.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4267,53 +3448,29 @@ Refining the lint to skip aliases and fixing a few flagged notes to match the ne
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4346,13 +3503,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4360,74 +3510,51 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The linter still flags "unmerited favor" in grace.md despite the plain gloss already being present.
 
-A simpler fix is to check for nearby context. The linter will ignore "unmerited favor" if "earned" or "gift" appears within 80 characters. This avoids complex logic while still catching isolated glosses.</details></think>
+A simpler fix is to check for nearby context. The linter will ignore "unmerited favor" if "earned" or "gift" appears within 80 characters. This avoids complex logic while still catching isolated glosses.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check 2>&1; echo exit:$?</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check 2&gt;&amp;1; echo exit:$?</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check 2>&1; echo exit:$?
 ```
 
 ```
 Voice lint warnings:
-  content/english/notes/grateful-obedience.md: relationships.reason: &#96;Unmerited favor&#96; — add plain gloss (e.g. gift you didn't earn)
-  content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word &#96;navigate&#96;
-  content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word &#96;navigate&#96;
+  content/english/notes/grateful-obedience.md: relationships.reason: `Unmerited favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word `navigate`
+  content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word `navigate`
 exit:1
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Fixing the relationship reason in grateful-obedience.md. Checking whether blog post navigation is legitimate.</details></think>
+Fixing the relationship reason in grateful-obedience.md. Checking whether blog post navigation is legitimate.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4458,21 +3585,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4503,55 +3621,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The grateful-obedience concept states that obedience flows from gratitude once a gift is received.</details></think>
+The grateful-obedience concept states that obedience flows from gratitude once a gift is received.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1
 ```
@@ -4585,19 +3680,12 @@ pnpm: Command failed with exit code 1: /home/jorap/.local/share/mise/installs/pn
     at runDepsStatusCheck (file:///home/jorap/.local/share/mise/installs/pnpm/11.7.0/dist/pnpm.mjs:246833:7)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 ```
@@ -4607,12 +3695,6 @@ Voice dash errors:
   content/english/blog/__blog-template.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4670,7 +3752,8 @@ polish all cards. i am not referring to flashcards here
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants all cards polished, but they are not referring to flashcards.</details></think>
+The user wants all cards polished, but they are not referring to flashcards.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4679,10 +3762,8 @@ The user means UI note cards, not flashcard content — I'll find where those ar
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4740,21 +3821,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4816,104 +3888,61 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
 Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5020,21 +4049,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5045,13 +4065,983 @@ Parameters:
   "pattern": "notes-card"
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-card",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_02-55-39Z-notes-review-and-definition-updates.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": "assets/css/custom.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_14-34-50Z-site-build-error-and-template-rendering.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_02-39-52Z-impeccable-audit-discussion.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-06-19_04-36-18Z-notes-homepage-item-arrangement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network-visualization.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_02-55-39Z-improving-memorization-of-definitions.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-07-02_00-03-14Z-blog-output-improvement-notes.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": ".specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/card-set-filter-buttons.html"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-06-20_07-32-04Z-capture.md-format-explanation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_10-39-21Z-deployment-process-overview.md"
+    }
+  ],
+  "totalFiles": 27,
+  "totalMatches": 170
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants all cards polished. They clarified this does not involve flashcards.
+
+This likely refers to UI note cards or card blurbs rather than flashcards.
+
+Polishing likely targets the card blurb text—first lines from key_concept or description fields—across all notes so they display cleanly on the UI.
+
+The note-blurb component only renders the first line of key_concept. Raw wikilinks may still appear on cards. Long blurbs and dictionary definitions also need review.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Treating this as note-card blurbs (what shows on list/related cards), not flashcard `cards:` frontmatter. Auditing blurbs across the garden.
 
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+from pathlib import Path
+import re, yaml
+
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+NOTES = ROOT / &#34;content/english/notes&#34;
+FM = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+WIKI = re.compile(r&#34;\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]&#34;)
+LINK = re.compile(r&#34;\[([^\]]+)\]\([^)]+\)&#34;)
+CODE = re.compile(r&#34;`([^`]+)`&#34;)
+
+def blurb(meta):
+    text = &#34;&#34;
+    kc = meta.get(&#34;key_concept&#34;)
+    if isinstance(kc, str) and kc.strip():
+        text = kc.strip().split(&#34;\n&#34;)[0].strip()
+    else:
+        text = (meta.get(&#34;description&#34;) or &#34;&#34;).strip()
+    text = WIKI.sub(r&#34;\1&#34;, text)
+    text = LINK.sub(r&#34;\1&#34;, text)
+    text = CODE.sub(r&#34;\1&#34;, text)
+    return text.strip()
+
+issues = []
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    m = FM.match(path.read_text(encoding=&#34;utf-8&#34;))
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get(&#34;draft&#34;) or meta.get(&#34;note_kind&#34;,&#34;note&#34;) in (&#34;meta&#34;,&#34;index&#34;): continue
+    b = blurb(meta)
+    probs = []
+    if not b: probs.append(&#34;empty&#34;)
+    if len(b) &gt; 120: probs.append(f&#34;long({len(b)})&#34;)
+    if &#34;[[&#34; in (meta.get(&#34;key_concept&#34;) or &#34;&#34;).split(&#34;\n&#34;)[0]: probs.append(&#34;wikilink&#34;)
+    if b.lower().startswith((&#34;is &#34;, &#34;are &#34;, &#34;the &#34;, &#34;a &#34;, &#34;an &#34;)) and &#34; is &#34; in b[:40]:
+        probs.append(&#34;dictionary&#34;)
+    if any(w in b.lower() for w in (&#34;utilize&#34;,&#34;leverage&#34;,&#34;landscape&#34;,&#34;facilitate&#34;,&#34;comprehensive&#34;,&#34;delve&#34;)):
+        probs.append(&#34;ai-word&#34;)
+    if b.endswith((&#34;.&#34;,&#34;;&#34;)) and len(b) &gt; 80:
+        probs.append(&#34;run-on&#34;)
+    if probs:
+        issues.append((path.stem, probs, b[:100]))
+
+print(f&#34;notes with blurb issues: {len(issues)}&#34;)
+for slug, probs, preview in issues[:50]:
+    print(f&#34;{slug:40s} {&#39;,&#39;.join(probs):20s} | {preview}&#34;)
+print(&#34;...&#34;)
+for slug, probs, preview in issues[50:]:
+    print(f&#34;{slug:40s} {&#39;,&#39;.join(probs):20s} | {preview}&#34;)
+PYEOF</summary>
+```bash
+python3 << 'PYEOF'
+from pathlib import Path
+import re, yaml
+
+ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
+NOTES = ROOT / "content/english/notes"
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+WIKI = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]")
+LINK = re.compile(r"\[([^\]]+)\]\([^)]+\)")
+CODE = re.compile(r"`([^`]+)`")
+
+def blurb(meta):
+    text = ""
+    kc = meta.get("key_concept")
+    if isinstance(kc, str) and kc.strip():
+        text = kc.strip().split("\n")[0].strip()
+    else:
+        text = (meta.get("description") or "").strip()
+    text = WIKI.sub(r"\1", text)
+    text = LINK.sub(r"\1", text)
+    text = CODE.sub(r"\1", text)
+    return text.strip()
+
+issues = []
+for path in sorted(NOTES.glob("*.md")):
+    m = FM.match(path.read_text(encoding="utf-8"))
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get("draft") or meta.get("note_kind","note") in ("meta","index"): continue
+    b = blurb(meta)
+    probs = []
+    if not b: probs.append("empty")
+    if len(b) > 120: probs.append(f"long({len(b)})")
+    if "[[" in (meta.get("key_concept") or "").split("\n")[0]: probs.append("wikilink")
+    if b.lower().startswith(("is ", "are ", "the ", "a ", "an ")) and " is " in b[:40]:
+        probs.append("dictionary")
+    if any(w in b.lower() for w in ("utilize","leverage","landscape","facilitate","comprehensive","delve")):
+        probs.append("ai-word")
+    if b.endswith((".",";")) and len(b) > 80:
+        probs.append("run-on")
+    if probs:
+        issues.append((path.stem, probs, b[:100]))
+
+print(f"notes with blurb issues: {len(issues)}")
+for slug, probs, preview in issues[:50]:
+    print(f"{slug:40s} {','.join(probs):20s} | {preview}")
+print("...")
+for slug, probs, preview in issues[50:]:
+    print(f"{slug:40s} {','.join(probs):20s} | {preview}")
+PYEOF
+```
+
+```
+notes with blurb issues: 140
+_index                                   run-on               | My linked note garden - wikilinks, backlinks, and a graph view of connected ideas.
+active-knowledge-curation                run-on               | Active curation means revisiting, pruning, and ordering notes - choosing what sits next to what is c
+adaptability                             run-on               | Adaptability is changing method without losing aim when conditions, tools, or opponents shift.
+analog-capture-tools                     run-on               | Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries.
+anti-fragile-systems                     run-on               | Note systems that survive app shutdowns - plain files, open formats, and backups I actually test.
+assurance                                wikilink,run-on      | Free Grace names the gift; Justification names the verdict; assurance names where I rest when doubt 
+atomic-notes                             long(142),run-on     | **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic
+attention-to-detail                      run-on               | Attention to detail is catching the typo, edge case, and loose end before they become incidents.
+behavioral-economics                     run-on               | People don't act on facts alone - defaults and friction steer choices more than lectures.
+blameless-postmortem                     wikilink,run-on      | Rollback Principle gets users back on the old build; blameless postmortem gets judgment back.
+build-a-reliable-default                 run-on               | Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin.
+building-a-second-brain                  wikilink             | Remember CODE: Capture, organize, distill, express.
+by-their-fruits                          wikilink             | Jesus pairs this with Judge 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Polishing all note card blurbs. These are the first lines of key_concept or description shown on the UI.
+
+About 210 notes need work. Most blurbs are too long, contain wikilinks, or use dictionary-style openers. I am weighing whether to update the template or manually edit each note's first line.
+
+Reconsidering whether "polish all cards" means visual UI design rather than text editing. The note-card component shows title, blurb, shared tags, and tag chips. Recent BEM cleanup and wikilink display issues suggest CSS and markup may be the real target.
+
+I will improve the note-blurb.html template to extract a cleaner one-liner. It will skip empty lines after a punch line, strip wikilinks and markdown bold, and truncate gracefully. I may also batch-update the first lines of key_concept across roughly 140 notes.
+
+Some notes already have punchy first lines, while others hide their punch line on later lines. A full rewrite of two hundred notes is too large to do by hand. I am weighing a script against targeted template fixes, and rejecting a new frontmatter field as unnecessary.
+
+The plan now combines both approaches. The note-blurb.html template will be improved to skip wikilink-only lines, pick the shortest punchy line from the first three lines of key_concept, strip markdown, and cap at roughly one hundred characters. A Python script will audit all notes and programmatically replace poor first lines with shorter descriptions where the pattern is clear.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/see-also.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether note-link-card components in single.html and backlinks receive a Body parameter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "note-link-card|note-card"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "note-link-card|note-card",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/related-notes.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-link-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/see-also.html"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Polishing UI note cards rather than flashcards.
+
+Auto-injecting blurb text into note-link-cards. Improving note-blurb to select the best line under 110 characters while stripping markdown and wikilinks. Polishing note-card CSS with shared tag styling, line-clamping, and a meta row. Content polish will either fix first lines across notes or rely on smarter blurb generation.
+
+Shared tags will appear as subtle chips. A batch script will prepend punchy card lines where the description outperforms the key_concept first line. The blurb scorer will rank the first three non-empty lines of key_concept and description, preferring the shortest under 110 characters that avoids dictionary patterns like " is ". If the key_concept line is too long, the description is used instead. This logic is being implemented in the Hugo template.
+
+Runtime scoring is too awkward in Hugo templates, so a Python audit script will handle content polish instead. The simpler blurb logic selects the first cleaned line between 20 and 110 characters, otherwise the shortest under 160, or truncates the first line at 110. A new `scripts/polish-note-card-blurbs.py` will compute ideal blurbs for all 200 notes and either prepend a punch line or reorder lines when the key_concept opening is weak.
+
+Many notes already open with a punch line, so the blurb scorer will only rewrite the first line when the description is shorter and lacks a dictionary opener. The script will be conservative and only replace weak openings.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-unrelated-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/random-duo.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "note-card|notes-card|blurb"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "note-card|notes-card|blurb",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "assets/js/notes-cards.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Polishing the UI note cards.
+
+Refining note-blurb.html for smarter line selection. Auto-injecting blurbs into note-link-card.html. Polishing note-card.html with line-clamps, better tag display, consistent spacing, and rounded corners. Checking random-pool.html for client-side blurb data. Also fixing first-line descriptions and key concepts across cards.
+
+A Python script will batch-fix card descriptions and key concepts. It will use the best description candidate as the blurb when it outperforms the first key_concept line. A fallback script will rewrite the first line for any remaining bad entries. The smart picker in note-blurb.html avoids editing hundreds of files manually.
+
+Drafting a Hugo template function to strip wikilinks, markdown formatting, and extra whitespace from candidate blurb lines.
+
+The Hugo template gathers up to four candidate blurb lines from key_concept and description fields. It then scores each candidate after cleaning them with the helper function.
+
+The Hugo template now enforces a minimum length of twelve characters per candidate. It penalizes overly long blurbs past one hundred twenty and two hundred characters. It also adds weight to candidates beginning with articles like "the" or "is". The shortest valid candidate under one hundred sixty characters wins. If none qualify, the first raw candidate is truncated to one hundred twenty characters.
+
+Checking whether this Hugo theme supports `return` in partial templates. The blurb cleaning logic will be kept inline rather than nested. The card body will use `-webkit-line-clamp` to limit text to three lines. Shared tags will render as a compact "Shared: Tag1, Tag2" line or as chips. Next step is reviewing the i18n strings for shared tags and blog ledes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/blog-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/i18n",
+  "pattern": "related_notes|shared"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/i18n",
+  "pattern": "related_notes|shared",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "i18n/en.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I will implement the card polish. A Python script to revise key_concept first lines across all notes might be too invasive.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Implementing a smart candidate picker in note-blurb.html.
+
+Also polishing note-link-card.html and note-card.html with BEM classes, line-clamping, and shared tags labels. Updating custom.css with shadows and shared metadata styling. Backlinks will use note-blurbs as group descriptions. A Python script will fix card-worthy first lines across all notes.
+
+Modifying key_concept directly is too risky. The script will only swap the first line when the description is clearly better. Otherwise it will only polish the display layer and card UI.
+
+"Polish all cards" means applying jorap-voice polish to every card blurb across the garden. The plan remains focused on the display layer and UI polish, avoiding risky source edits.
+
+The script will rewrite the first key_concept line only when the description is under 110 characters and clearly better. Description serves SEO and card listing meta, while key_concept line one carries the teaching punch. Many notes already have strong descriptions.
+
+The script will support --check and --apply flags. --check reports which notes would benefit from swapping their first key_concept line. --apply performs the swap when the description scores better. The smart blurb picker will use Hugo's existing logic directly in note-blurb.html without a separate partial.
+
+The scoring function penalizes dictionary openers and wikilinks. It favors shorter candidates. The script will compare the first four key_concept lines against the description. If the description wins, it will only change the display layer. No files will be edited.
+
+The apply script will only rewrite the first key_concept line when the description is clearly better and not already present. Duplicating the description into the key_concept would create redundant frontmatter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Improving note-card UI and blurb selection across the garden, without touching flashcard content.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing backlinks to use note-blurb instead of description.
+
+Writing a script to polish weak first lines across all card blurbs. Will grep for legacy CSS and JS class names next, then run a Hugo build to verify.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-card-interactive|notes-card-title|notes-card-overlay|notes-card-tags"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-card-interactive|notes-card-title|notes-card-overlay|notes-card-tags",
+  "topFiles": [
+    {
+      "matchCount": 18,
+      "uri": "./.specstory/history/2026-07-02_00-03-14Z-blog-output-improvement-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 28
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/polish-note-card-blurbs.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The polish script uses yaml.safe_dump, which will corrupt frontmatter and break project conventions.
+
+I'll switch the polish script to a string replacement approach. This avoids a full YAML roundtrip and preserves frontmatter formatting.
+
+A regex-based surgical edit will target only the key_concept scalar block. An indentation bug in the polish script also needs fixing. I'll run a dry-run first, then apply the corrected script.
+
+The swap function will split the key_concept block into lines, replace the first non-empty line with the best candidate, and skip duplicates.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the polish script to preserve frontmatter format, then running it.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/polish-note-card-blurbs.py 2&gt;&amp;1 | head -60</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/polish-note-card-blurbs.py 2>&1 | head -60
+```
+
+```
+accountability: Accountability is naming who owns the result - and what happ… → Clear ownership - who answers for the outcome, the miss, and…
+adaptability: Adaptability is changing method without losing aim when cond… → Keep the goal, swap the method when the ground moves.…
+atomic-notes: Rule of thumb: one thing I'd cite in conversation - "why mid… → One claim I'd say out loud - too many ands, split it.…
+attention-economy: Your focus is the product - guard the pipe before optimizing… → Platforms compete for your focus - your attention is the pro…
+building-a-second-brain: Remember CODE: Capture, organize, distill, express.… → Offload ideas so my head can think, not hoard.…
+commonplace-book: A personal quote bank beats rereading whole books when you n… → A personal book of quotes and ideas worth keeping - ancestor…
+composure: Composure is staying readable and deliberate when others spe… → Steady tone and pace when the room isn't - people read calm …
+compounding: Borrowed from finance, but it applies anywhere today's gain … → Repeat small gains until they stack - keep showing up; the c…
+continuous-improvement: Continuous improvement is steady small upgrades to process a… → Small fixes to how you work, repeated - each miss feeds the …
+control-the-rhythm: Don't let urgency, conflict, emotion, or someone else's dead… → Whoever sets the pace often steers the room.…
+convert-pain-into-learning: Reflect on what happened, pull out the lesson, design a bett… → Failure becomes useful only when it produces correction.…
+digital-serendipity: Serendipity isn't random luck for me - it's building a syste… → Serendipity isn't luck for me - I build systems where old no…
+discipline: Discipline is keeping the commitment when the feeling that s… → Doing what you said you'd do when motivation, mood, or appla…
+elon-musk: First-principles teardown is the cite when someone asks who … → Public example people cite for first-principles reinvention …
+energy-protects-judgment: Rest, prep, workload 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A dry run reveals many changes.
+
+Some polished candidates look bad. Table rows and headers were mistaken for card blurbs. The script needs fixes: skip markdown tables and candidates starting with `|`, use `notes_content.dump_frontmatter` instead of `yaml.safe_dump`, and apply changes more conservatively.
+
+Bulk key_concept reordering is too risky. It could break intentional note structures and wikilink stacks. The smart blurb picker and UI polish are sufficient. No file edits are needed.
+
+The blurb scorer itself must reject table rows and headers. Lines starting with `|` or `#` will be penalized or skipped entirely. This prevents the smart picker from selecting bad candidates even when the polish script is fixed. Both the scorer and the polish script need updating.
+
+The scorer will also reject lines containing "Faith parallel:" clutter. Any remaining bulk edits will be limited to notes where the description is genuinely better than the first line.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Excluding table rows and other non-blurb lines from scoring, then verifying the build.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/polish-note-card-blurbs.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/polish-note-card-blurbs.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/polish-note-card-blurbs.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the polish script requires caution.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/polish-note-card-blurbs.py 2&gt;&amp;1 | tail -5 &amp;&amp; python3 scripts/polish-note-card-blurbs.py --apply 2&gt;&amp;1 | tail -8</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/polish-note-card-blurbs.py 2>&1 | tail -5 && python3 scripts/polish-note-card-blurbs.py --apply 2>&1 | tail -8
+```
+
+```
+voice-memos: Speak the capture when thumbs are busy - transcribe or file … → Capture ideas by speaking when hands or eyes are busy.…
+webhooks: Push events beat polling when the site needs to rebuild the … → HTTP callbacks when something happens - push events instead …
+weekly-review-checklists: Weekly review as a checklist - inbox, calendar, projects, on… → Boring on purpose.…
+
+Would update: 66 notes
+the-trusted-inbox: If you don't trust your inbox, you capture in your head inst… → If I don't trust my inbox, I capture in my head instead. One…
+there-is-no-perfect-solution: Every real choice has tradeoffs - stop comparing real option… → I pick what works tired and ship.…
+versatility: Versatility is staying useful across roles, tools, and conte… → You can contribute in more than one lane when the team or th…
+voice-memos: Speak the capture when thumbs are busy - transcribe or file … → Capture ideas by speaking when hands or eyes are busy.…
+webhooks: Push events beat polling when the site needs to rebuild the … → HTTP callbacks when something happens - push events instead …
+weekly-review-checklists: Weekly review as a checklist - inbox, calendar, projects, on… → Boring on purpose.…
+
+Applied: 66 notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/themeGenerator.js &amp;&amp; hugo --gc 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && hugo --gc 2>&1 | tail -20
+```
+
+```
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2073 
+ Paginator pages  │  107 
+ Non-page files   │    0 
+ Static files     │  229 
+ Processed images │  331 
+ Aliases          │  710 
+ Cleaned          │   28 
+
+Total in 22159 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -s http://localhost:1313/notes/ 2&gt;/dev/null | rg -o &#39;notes-card__body[^&lt;]*&lt;[^&gt;]*&gt;[^&lt;]{0,80}&#39; | head -8</summary>
+```bash
+curl -s http://localhost:1313/notes/ 2>/dev/null | rg -o 'notes-card__body[^<]*<[^>]*>[^<]{0,80}' | head -8
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/adaptability.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-postmortem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The blameless postmortem card was missed in the 66 applied. Its first line still uses wikilinks heavily, but that suits its punch line.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify -e production 2&gt;/dev/null &amp;&amp; rg -o &#39;notes-card__body[^&gt;]*&gt;[^&lt;]+&#39; public/notes/index.html | head -10</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify -e production 2>/dev/null && rg -o 'notes-card__body[^>]*>[^<]+' public/notes/index.html | head -10
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2073 
+ Paginator pages  │  107 
+ Non-page files   │    0 
+ Static files     │  229 
+ Processed images │  331 
+ Aliases          │  710 
+ Cleaned          │    0 
+
+Total in 36624 ms
+notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">I split them into one-claim notes so I can link and drill them like the rest of the garden.
+notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">Maps of Content (MOCs) are hub notes that index related ideas. Use this page to wander the garden.
+notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">Public when draft: false; hidden while draft: true.
+notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">Grace is a gift I never earned - unmerited favor.
+notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">Paul contrasts works of the flesh (sexual immorality, jealousy, fits of anger, envy, and the rest in Galatians 5:19-21) …
+notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
+notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">The same ethics I keep in Eternal Principles, translated for offices where "altar" and "kingdom" would land wrong.
+notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">Each note below is one move I'd want running before I need results.
+notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The blurb pulls the first line, which is over 142 characters long.
+
+The description opening is too long. The first line of the fruits-of-the-spirit card will be rewritten as a punchy, shorter version. Compounding was already updated.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -o &#39;notes-card__body[^&gt;]*&gt;[^&lt;]+&#39; public/notes/index.html | sed &#39;s/.*&gt;//&#39; | awk &#39;length&gt;110 {print length, $0}&#39; | sort -rn | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg -o 'notes-card__body[^>]*>[^<]+' public/notes/index.html | sed 's/.*>//' | awk 'length>110 {print length, $0}' | sort -rn | head -20
+```
+
+```
+145 Pass on what you figured out - write the doc, do the handoff, answer the junior&#39;s question - don&#39;t hoard know-how like private bookmarks.
+141 Jesus overturned the tribal reading of &#34;neighbor.&#34; Loving only people who love you back is ordinary; loving enemies is divine-shaped.
+138 Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven (Galatians 5:22).
+137 Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14).
+137 A slow fuse the Spirit grows in believers - not gritted teeth until Friday or white-knuckling through a dry prayer week (Galatians 5:22).
+130 The same ethics I keep in Eternal Principles, translated for offices where &#34;altar&#34; and &#34;kingdom&#34; would land wrong.
+130 Fruits of the Spirit names joy beside love and peace in one cluster - grown by walking in the Spirit, not manufactured for credit.
+129 God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1).
+127 Starting well proves you can begin; finishing well proves you can keep going when it&#39;s boring, hard, or no longer exciting.
+123 Paul contrasts works of the flesh (sexual immorality, jealousy, fits of anger, envy, and the rest in Galatians 5:19-21) …
+122 Future-proofing isn&#39;t predicting tech for me - it&#39;s plain text, open tools, and exports I test before I need them.
+119 Steer what you can in the moment - pace, format, who speaks, when you pause - when you can&#39;t own the whole outcome.
+119 Put God&#39;s rule and righteousness ahead of food, status, and tomorrow&#39;s worry - the rest follows (Matthew 6:33).
+119 Four pair types in relationships frontmatter show how ideas push and pull - not just that two notes mention each other.
+118 Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, not a generic nice-guy
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Many blurbs remain long because descriptions or first lines are too lengthy.
+
+Line-clamp CSS limits cards to three lines visually. The first line of the fruits-of-the-spirit card needs a shorter punch. A 120-character truncate with ellipsis will serve as the final fallback for long blurbs. The note-blurb logic already prefers shorter candidates, but the full text currently renders in HTML before CSS clamps it.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Polished **note cards** (browse/related/backlinks UI) — not flashcard `cards:` content.
+
+## Display layer
+
+**`note-blurb.html`** — Smarter one-liner selection:
+- Scores first 4 `key_concept` lines + `description`
+- Strips wikilinks, markdown, bold
+- Skips table rows and headings
+- Prefers short punch lines over dictionary openers (`"X is…"`)
+- Truncates at ~120 chars
+
+**`note-card.html`** — Visual polish:
+- `rounded-xl`, `shadow-sm`, hover shadow (aligned with blog cards)
+- BEM classes (`notes-card__title`, `__body`, `__overlay`, `__tags`)
+- 3-line clamp on body text
+- “Shared:” label on related-note cards
+
+**`note-link-card.html`** — Auto-injects blurb on outgoing links, see-also, and backlinks (title-only before)
+
+**`backlinks.html`** — Anchor rows use `note-blurb` instead of raw `description`
+
+**`list.html`** — Search index includes card blurb text
+
+## Content layer
+
+**`scripts/polish-note-card-blurbs.py`** — Reordered weak opening `key_concept` lines when a better line already existed in the note (66 notes updated). Example:
+
+- `adaptability`: punch line moved to top — *“Keep the goal, swap the method when the ground moves.”*
+- `fruits-of-the-spirit`: added short card opener before the long Paul contrast
+
+Hugo build passes. Cards on `/notes/`, blog Related Notes, note single pages (outgoing / see also / backlinks) should all show consistent blurbs now.

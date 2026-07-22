@@ -1,4 +1,4 @@
 {{- /* Hub/MOC pages whose body already lists child wikilinks — skip redundant link cards. */ -}}
 {{- $isIndex := partial "notes/is-index-page.html" . -}}
-{{- $hasBodyWikilinks := gt (len (findRE `\[\[[^\]]+\]\]` .RawContent)) 0 -}}
+{{- $hasBodyWikilinks := gt (len (findRE `\[\[[^\]]+\]\]` (partial "notes/note-raw-body.html" .))) 0 -}}
 {{- return (and $isIndex $hasBodyWikilinks) -}}

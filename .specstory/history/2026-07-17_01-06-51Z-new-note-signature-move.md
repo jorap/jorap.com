@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Exploring the concept of a new note titled "Signature Move".
 
-Checking the notes garden structure and existing notes. Will review the garden-voice skill and search for prior context on "Signature Move".</details></think>
+Checking the notes garden structure and existing notes. Will review the garden-voice skill and search for prior context on "Signature Move".
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,11 +25,10 @@ Exploring how notes are structured in the garden and whether "Signature Move" al
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **236** results in **1** directory</summary>
 
-Directory: **** (236 files)
+Directory: **``** (236 files)
 
 | File |
 |------|
@@ -268,21 +268,12 @@ Directory: **** (236 files)
 | `content/english/notes/finish-strong.md` |
 | `content/english/notes/goodness.md` |
 | `content/english/notes/grace.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -311,34 +302,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -372,13 +348,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -386,7 +355,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A reference in `.specstory/history` defines a signature move as one principle paired with two unrelated scenes.
 
-I'll examine additional reference notes and recent entries to understand structure.</details></think>
+I'll examine additional reference notes and recent entries to understand structure.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -395,66 +365,36 @@ Found a prior mention of the garden's "signature move" — digging into that con
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/synthesis-as-a-goal.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/synthesis-as-a-goal.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
@@ -463,14 +403,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The idea is to create a meta-note about the garden's "Signature Move" writing convention. This pattern pairs one core principle with two unrelated scenes.
 
-I'll check related meta-notes about conventions and review specstory history for more context.</details></think>
+I'll check related meta-notes about conventions and review specstory history for more context.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -576,47 +515,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -698,13 +616,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -712,53 +623,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll check the DESIGN documentation.
 
-I'll review existing meta-notes like getting-started, flashcards, and create-note to find good comparators for a Signature Move.</details></think>
+I'll review existing meta-notes like getting-started, flashcards, and create-note to find good comparators for a Signature Move.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/DESIGN.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/DESIGN.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -820,13 +712,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -836,44 +721,27 @@ I'll read note-relationships.md and create.md next. They relate closely to garde
 
 Three options are being weighed for "Signature Move": a regular atomic note, a meta utility, or an extension of getting-started. The pattern is not yet a formal note in the garden. The garden already codifies two unrelated scenes from different life surfaces in garden-voice and getting-started. The concept would name the repeatable structure: one principle plus two unrelated scenes. Getting Started already contains an Examples section with exactly two plain bullets in frontmatter from different fields.
 
-I will frame the response as an exploration rather than immediate creation. It will cover the concept itself, garden fit, existing note relationships, draft shape, and tradeoffs.</details></think>
+I will frame the response as an exploration rather than immediate creation. It will cover the concept itself, garden fit, existing note relationships, draft shape, and tradeoffs.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
 
 </details></tool-use>
 
@@ -900,7 +768,8 @@ Unlike the garden-voice skill, which targets agents, this note targets garden re
 
 Four choices remain: atomic note versus expanded Getting Started, adding flashcards, title preference, and whether "Signature Move" is the right name.
 
-The name evokes sports and performance, which aligns with JoRap's coaching and sports examples across the garden. I will draft a sample frontmatter structure as an exploration rather than creating the file immediately.</details></think>
+The name evokes sports and performance, which aligns with JoRap's coaching and sports examples across the garden. I will draft a sample frontmatter structure as an exploration rather than creating the file immediately.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1046,7 +915,8 @@ Drafting the Signature Move note. Basketball is the obvious reference, but the c
 
 Basketball will anchor the note, then extend the concept to the garden's writing pattern. I'll check tone references and similar notes for structure. The file will live at content/english/notes/signature-move.md, likely as an atomic frontmatter-only note with a cross-link in getting-started.md. I'll follow the ponytail approach: minimal diff, no over-engineering.
 
-The note will carry `review: true` and `cards` frontmatter. It will map the basketball signature move to the garden's "one principle, two scenes" pattern. Two examples from different surfaces will prove the same move applies broadly. Sibling relationships will connect it to related notes. I am checking existing basketball references and the getting-started file for the cross-link.</details></think>
+The note will carry `review: true` and `cards` frontmatter. It will map the basketball signature move to the garden's "one principle, two scenes" pattern. Two examples from different surfaces will prove the same move applies broadly. Sibling relationships will connect it to related notes. I am checking existing basketball references and the getting-started file for the cross-link.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1055,10 +925,8 @@ Creating the Signature Move note with a basketball anchor and a garden-writing a
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1116,38 +984,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/failure-as-feedback.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/failure-as-feedback.md</summary>
 
 </details></tool-use>
 
@@ -1180,31 +1029,20 @@ Reconsidering the relationship direction. The note may instead add a line in [[G
 
 Reconsidering relationship labels. Atomic Notes is the right extension for how the note proves its claim. Capture will not implement the note itself. Other candidates like Habit Formation or Flashcards were dismissed as stretches. The contradiction link to The Collector's Fallacy remains.
 
-Build a Reliable Default is now added as an extension. It fits the signature move under pressure. Mind Mapping was rejected as an alternative.</details></think>
+Build a Reliable Default is now added as an extension. It fits the signature move under pressure. Mind Mapping was rejected as an alternative.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/build-a-reliable-default.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -1236,7 +1074,8 @@ The four shareable lines are:
 - One principle in the claim, two unrelated scenes that prove it travels.
 - Domain labels do not count — split surfaces until the abstraction feels portable.
 
-The description will be written in third person and kept under twenty words: "The one practiced answer you reach for when the moment speeds up — on court and in a note." The two examples will contrast a basketball end-of-game situation with a garden writing scene. Next, create the file and update the Getting Started page.</details></think>
+The description will be written in third person and kept under twenty words: "The one practiced answer you reach for when the moment speeds up — on court and in a note." The two examples will contrast a basketball end-of-game situation with a garden writing scene. Next, create the file and update the Getting Started page.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1245,30 +1084,122 @@ Creating the note and adding a cross-link in Getting Started.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signature-move.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signature-move.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint checks and verifying the Hugo build.
+
+Confirmed the relationship fields use the minimum required structure. Verified alphabetical sort order for related notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/signature-move.md 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/signature-move.md 2>&1 | tail -20
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/signature-move.md
+Voice dash errors:
+  content/english/blog/__grade-1-better-than-kumon.md: em/en dash found (32); use hyphen, comma, or parentheses (jorap-voice)
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build --minify 2&gt;&amp;1 | tail -15</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build --minify 2>&1 | tail -15
+```
+
+```
+]633;CStart building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2034 
+ Paginator pages  │   20 
+ Non-page files   │    0 
+ Static files     │  268 
+ Processed images │  517 
+ Aliases          │  748 
+ Cleaned          │    0 
+
+Total in 34948 ms
+]633;D;0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A voice lint failure occurred on an unrelated blog file rather than the note itself.
+
+Running voice lint directly on the signature-move file to isolate the failure.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/notes/signature-move.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/notes/signature-move.md 2>&1
+```
+
+```
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Hugo build completed successfully. Voice lint passed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Created **Signature Move** at `content/english/notes/signature-move.md` and linked it from Getting Started.
+
+**The claim:** In basketball, a signature move is the one finish you have drilled until pressure shrinks the menu. Outside the court, the same discipline shows up in the garden: one principle in the claim, two scenes from different rooms that prove the move travels.
+
+**Examples** (eating its own cooking):
+- End-game basketball: knee drive and up-and-under, not a new invention
+- Note drafting: wristband + jeepney receipt, not two Ahrens quotes
+
+**Graph links:** extends [[Atomic Notes]], [[Build a Reliable Default]], [[Evergreen Notes]], [[Synthesis as a Goal]]; contradicts [[The Collector's Fallacy]]
+
+**Flashcards:** six scenario cards on `review: true` in Writing and Growth sets
+
+The note passes voice lint and Hugo builds clean. It will show at `/notes/signature-move/` once published.
+
+Want me to commit this batch?

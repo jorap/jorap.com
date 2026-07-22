@@ -13,7 +13,8 @@ ensure there are no duplicated note Relationships. Only have 2 examples. Ensure 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing duplicate note relationships. Keeping only two examples from very different fields.</details></think>
+Removing duplicate note relationships. Keeping only two examples from very different fields.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,23 +23,15 @@ I'll inspect how note relationships are defined in the notes format and scan for
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -130,65 +123,39 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Re-examining the request to ensure no duplicate note relationships exist and that the two examples differ significantly.</details></think>
+Re-examining the request to ensure no duplicate note relationships exist and that the two examples differ significantly.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -296,53 +263,34 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_12-33-11Z-note-formatting-adjustment.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_12-33-11Z-note-formatting-adjustment.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing note relationships to remove duplicates and select two examples with very different fields.</details></think>
+Reviewing note relationships to remove duplicates and select two examples with very different fields.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
 
-Directory: **** (7 files)
+Directory: **``** (7 files)
 
 | File |
 |------|
@@ -353,75 +301,67 @@ Directory: **** (7 files)
 | `scripts/notes-voice-sanitize.py` |
 | `scripts/wire-notes-obsidian.py` |
 | `scripts/resolve-note-link-issues.py` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
 from collections import defaultdict
 
-notes_dir = Path('/home/jorap/Documents/GitHub/jorap.com/content/english/notes')
+notes_dir = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#39;)
 issues = {
-    'dup_wikilink': [],
-    'too_many_examples': [],
-    'too_few_examples': [],
-    'many_extends': [],
+    &#39;dup_wikilink&#39;: [],
+    &#39;too_many_examples&#39;: [],
+    &#39;too_few_examples&#39;: [],
+    &#39;many_extends&#39;: [],
 }
-for f in sorted(notes_dir.glob('*.md')):
+for f in sorted(notes_dir.glob(&#39;*.md&#39;)):
     text = f.read_text()
-    if '## Note Relationships' not in text:
+    if &#39;## Note Relationships&#39; not in text:
         continue
     # examples count
-    m = re.search(r'## Examples\n\n((?:- .+\n)+)', text)
+    m = re.search(r&#39;## Examples\n\n((?:- .+\n)+)&#39;, text)
     if m:
-        bullets = [l for l in m.group(1).strip().split('\n') if l.startswith('- ')]
-        if len(bullets) > 2:
-            issues['too_many_examples'].append((f.name, len(bullets)))
-        elif len(bullets) < 2 and f.name not in ('getting-started.md',):
-            issues['too_few_examples'].append((f.name, len(bullets)))
-    elif f.name not in ('getting-started.md',):
-        issues['too_few_examples'].append((f.name, 0))
+        bullets = [l for l in m.group(1).strip().split(&#39;\n&#39;) if l.startswith(&#39;- &#39;)]
+        if len(bullets) &gt; 2:
+            issues[&#39;too_many_examples&#39;].append((f.name, len(bullets)))
+        elif len(bullets) &lt; 2 and f.name not in (&#39;getting-started.md&#39;,):
+            issues[&#39;too_few_examples&#39;].append((f.name, len(bullets)))
+    elif f.name not in (&#39;getting-started.md&#39;,):
+        issues[&#39;too_few_examples&#39;].append((f.name, 0))
     
     # relationships table dup wikilinks
-    rel_start = text.index('## Note Relationships')
+    rel_start = text.index(&#39;## Note Relationships&#39;)
     rel_section = text[rel_start:]
-    table_rows = re.findall(r'^\| ([^|]+) \| \[\[([^\]]+)\]\] \|', rel_section, re.M)
+    table_rows = re.findall(r&#39;^\| ([^|]+) \| \[\[([^\]]+)\]\] \|&#39;, rel_section, re.M)
     seen = defaultdict(list)
     for rel, link in table_rows:
         seen[link.lower()].append((rel.strip(), link))
-    dups = {k:v for k,v in seen.items() if len(v)>1}
+    dups = {k:v for k,v in seen.items() if len(v)&gt;1}
     if dups:
-        issues['dup_wikilink'].append((f.name, dups))
+        issues[&#39;dup_wikilink&#39;].append((f.name, dups))
     
-    extends = [link for rel, link in table_rows if rel.strip() == 'extends']
-    if len(extends) > 2:
-        issues['many_extends'].append((f.name, len(extends), extends))
+    extends = [link for rel, link in table_rows if rel.strip() == &#39;extends&#39;]
+    if len(extends) &gt; 2:
+        issues[&#39;many_extends&#39;].append((f.name, len(extends), extends))
 
-print('=== Duplicate wikilinks in Note Relationships ===')
-for name, dups in issues['dup_wikilink']:
-    print(f'{name}: {dups}')
+print(&#39;=== Duplicate wikilinks in Note Relationships ===&#39;)
+for name, dups in issues[&#39;dup_wikilink&#39;]:
+    print(f&#39;{name}: {dups}&#39;)
 
-print(f"\n=== Notes with >2 examples ({len(issues['too_many_examples'])}) ===")
-for name, n in issues['too_many_examples'][:20]:
-    print(f'  {name}: {n}')
-if len(issues['too_many_examples']) > 20:
-    print(f'  ... and {len(issues["too_many_examples"])-20} more')
+print(f&#34;\n=== Notes with &gt;2 examples ({len(issues[&#39;too_many_examples&#39;])}) ===&#34;)
+for name, n in issues[&#39;too_many_examples&#39;][:20]:
+    print(f&#39;  {name}: {n}&#39;)
+if len(issues[&#39;too_many_examples&#39;]) &gt; 20:
+    print(f&#39;  ... and {len(issues[&#34;too_many_examples&#34;])-20} more&#39;)
 
-print(f"\n=== Notes with >2 extends rows ({len(issues['many_extends'])}) ===")
-for name, n, ext in issues['many_extends'][:15]:
-    print(f'  {name}: {n} -> {ext}')
+print(f&#34;\n=== Notes with &gt;2 extends rows ({len(issues[&#39;many_extends&#39;])}) ===&#34;)
+for name, n, ext in issues[&#39;many_extends&#39;][:15]:
+    print(f&#39;  {name}: {n} -&gt; {ext}&#39;)
 PY</summary>
-
 ```bash
 python3 << 'PY'
 import re
@@ -498,155 +438,28 @@ daily-notes.md: {'fleeting notes': [('alternative', 'Fleeting Notes'), ('extends
 deep-work.md: {'slow productivity': [('extends', 'Slow Productivity'), ('extends', 'Slow Productivity')]}
 develop-dont-endanger.md: {'sustainable performance': [('contradicts', 'Sustainable Performance'), ('extends', 'Sustainable Performance')]}
 digital-garden.md: {'evergreen notes': [('extends', 'Evergreen Notes'), ('implements', 'Evergreen Notes')]}
-digital-minimalism.md: {'digital serendipity': [('alternative', 'Digital Serendipity'), ('contradicts', 'Digital Serendipity')]}
-digital-serendipity.md: {'digital minimalism': [('alternative', 'Digital Minimalism'), ('contradicts', 'Digital Minimalism')], 'associative linking': [('extends', 'Associative Linking'), ('implements', 'Associative Linking')]}
-drafting-in-public.md: {'digital garden': [('alternative', 'Digital Garden'), ('extends', 'Digital Garden')]}
-duty-of-care.md: {'safety comes first': [('implements', 'Safety Comes First'), ('implements', 'Safety Comes First')]}
-eliminate-before-managing.md: {'risk management': [('alternative', 'Risk Management'), ('contradicts', 'Risk Management')]}
-elon-musk.md: {'first principles thinking': [('extends', 'First Principles Thinking'), ('extends', 'First Principles Thinking')]}
-ethical-leadership.md: {'servant leadership': [('extends', 'Servant Leadership'), ('extends', 'Servant Leadership')]}
-evergreen-notes.md: {'daily notes': [('alternative', 'Daily Notes'), ('contradicts', 'Daily Notes')], 'atomic notes': [('extends', 'Atomic Notes'), ('implements', 'Atomic Notes')]}
-evergreen-vs-fleeting-notes.md: {'note maturity': [('alternative', 'Note Maturity'), ('extends', 'Note Maturity')]}
-follow-their-lead.md: {'emotional regulation': [('implements', 'Emotional Regulation'), ('implements', 'Emotional Regulation')]}
-forgetting-curve.md: {'spaced repetition': [('extends', 'Spaced Repetition'), ('extends', 'Spaced Repetition')]}
-forgiveness-at-work.md: {'sunk cost fallacy': [('contradicts', 'Sunk Cost Fallacy'), ('extends', 'Sunk Cost Fallacy')]}
-future-proofing-knowledge.md: {'building a personal api': [('alternative', 'Building a Personal API'), ('contradicts', 'Building a Personal API')]}
-getting-things-done.md: {'the trusted inbox': [('extends', 'The Trusted Inbox'), ('extends', 'The Trusted Inbox')]}
-graph-view-analytics.md: {'maps of content': [('alternative', 'Maps of Content'), ('contradicts', 'Maps of Content')], 'associative linking': [('extends', 'Associative Linking'), ('implements', 'Associative Linking')]}
-gtd-vs-para.md: {'getting things done': [('alternative', 'Getting Things Done'), ('extends', 'Getting Things Done')], 'para method': [('alternative', 'PARA Method'), ('extends', 'PARA Method')]}
-heed-every-near-miss.md: {'incident investigation': [('alternative', 'Incident Investigation'), ('extends', 'Incident Investigation')]}
-hierarchy-of-controls.md: {'eliminate before managing': [('extends', 'Eliminate Before Managing'), ('extends', 'Eliminate Before Managing')]}
-humility-and-service.md: {'let your light shine': [('alternative', 'Let Your Light Shine'), ('contradicts', 'Let Your Light Shine')]}
-inbox-zero.md: {'the trusted inbox': [('extends', 'The Trusted Inbox'), ('extends', 'The Trusted Inbox')]}
-incident-investigation.md: {'own the error': [('extends', 'Own the Error'), ('extends', 'Own the Error')]}
-information-diet.md: {'signal vs noise': [('extends', 'Signal vs Noise'), ('extends', 'Signal vs Noise')]}
-intellectual-sourcing.md: {'progressive summarization': [('alternative', 'Progressive Summarization'), ('contradicts', 'Progressive Summarization')]}
-layered-reading.md: {'progressive summarization': [('extends', 'Progressive Summarization'), ('extends', 'Progressive Summarization')]}
-leadership.md: {'servant leadership': [('alternative', 'Servant Leadership'), ('contradicts', 'Servant Leadership')]}
-learning-organizations.md: {'convert pain into learning': [('extends', 'Convert Pain Into Learning'), ('extends', 'Convert Pain Into Learning')]}
-listen-before-fixing.md: {'emotional regulation': [('implements', 'Emotional Regulation'), ('implements', 'Emotional Regulation')]}
-literature-notes.md: {'progressive summarization': [('extends', 'Progressive Summarization'), ('extends', 'Progressive Summarization')]}
-maintenance-window.md: {'weekly review checklists': [('extends', 'Weekly Review Checklists'), ('extends', 'Weekly Review Checklists')]}
-mental-models.md: {'pkm': [('extends', 'PKM'), ('extends', 'PKM'), ('extends', 'PKM'), ('extends', 'PKM'), ('extends', 'PKM')]}
-metadata-strategy.md: {'building a personal api': [('alternative', 'Building a Personal API'), ('contradicts', 'Building a Personal API')]}
-mind-mapping.md: {'atomic notes': [('alternative', 'Atomic Notes'), ('contradicts', 'Atomic Notes')], 'creative output': [('extends', 'Creative Output'), ('implements', 'Creative Output')]}
-minimum-viable-product.md: {'evergreen notes': [('alternative', 'Evergreen Notes'), ('contradicts', 'Evergreen Notes')], 'creative output': [('extends', 'Creative Output'), ('implements', 'Creative Output')]}
-mobile-capture-workflows.md: {'analog capture tools': [('alternative', 'Analog Capture Tools'), ('contradicts', 'Analog Capture Tools')], 'capture': [('extends', 'Capture'), ('implements', 'Capture')]}
-name-the-feeling.md: {'break the escalation cycle': [('implements', 'Break the Escalation Cycle'), ('implements', 'Break the Escalation Cycle')]}
-network-analysis.md: {'graph view analytics': [('extends', 'Graph View Analytics'), ('extends', 'Graph View Analytics')]}
-normalization-of-deviance.md: {'heed every near-miss': [('extends', 'Heed Every Near-Miss'), ('extends', 'Heed Every Near-Miss')]}
-notice-the-good.md: {'follow their lead': [('implements', 'Follow Their Lead'), ('implements', 'Follow Their Lead')]}
-outcomes-over-pitch-decks.md: {'signal vs noise': [('contradicts', 'Signal vs Noise'), ('extends', 'Signal vs Noise')]}
-para-method.md: {'associative linking': [('alternative', 'Associative Linking'), ('contradicts', 'Associative Linking')], 'building a second brain': [('extends', 'Building a Second Brain'), ('implements', 'Building a Second Brain')]}
-peacemakers.md: {'love your enemies': [('alternative', 'Love Your Enemies'), ('contradicts', 'Love Your Enemies')]}
-periodic-knowledge-review.md: {'minimum effective dose': [('alternative', 'Minimum Effective Dose'), ('contradicts', 'Minimum Effective Dose')], 'active knowledge curation': [('extends', 'Active Knowledge Curation'), ('implements', 'Active Knowledge Curation')]}
-pkm.md: {'getting started': [('extends', 'Getting Started'), ('implements', 'Getting Started')]}
-priorities-before-the-inbox.md: {'signal vs noise': [('contradicts', 'Signal vs Noise'), ('extends', 'Signal vs Noise')]}
-progressive-summarization.md: {'building a second brain': [('extends', 'Building a Second Brain'), ('implements', 'Building a Second Brain')]}
-psychological-safety.md: {'own the error': [('extends', 'Own the Error'), ('extends', 'Own the Error')]}
-quarterly-planning.md: {'the 12 week year': [('extends', 'The 12 Week Year'), ('extends', 'The 12 Week Year')]}
-read-later-queue.md: {'the trusted inbox': [('extends', 'The Trusted Inbox'), ('extends', 'The Trusted Inbox')]}
-reversibility.md: {'life before achievement': [('extends', 'Life Before Achievement'), ('extends', 'Life Before Achievement')]}
-safety-by-design.md: {'hierarchy of controls': [('extends', 'Hierarchy of Controls'), ('extends', 'Hierarchy of Controls')]}
-safety-comes-first.md: {'set calm boundaries': [('implements', 'Set Calm Boundaries'), ('implements', 'Set Calm Boundaries')]}
-set-calm-boundaries.md: {'break the escalation cycle': [('implements', 'Break the Escalation Cycle'), ('implements', 'Break the Escalation Cycle')]}
-share-sheet.md: {'mobile capture workflows': [('extends', 'Mobile Capture Workflows'), ('extends', 'Mobile Capture Workflows')]}
-signal-vs-noise.md: {'capture': [('contradicts', 'Capture'), ('extends', 'Capture')]}
-sketchpad.md: {'the garage concept': [('extends', 'The Garage Concept'), ('extends', 'The Garage Concept')]}
-slow-productivity.md: {'the 12 week year': [('alternative', 'The 12 Week Year'), ('contradicts', 'The 12 Week Year')]}
-spaced-repetition.md: {'evergreen notes': [('extends', 'Evergreen Notes'), ('implements', 'Evergreen Notes')]}
-synthesis-as-a-goal.md: {'progressive summarization': [('alternative', 'Progressive Summarization'), ('contradicts', 'Progressive Summarization')], 'creative output': [('extends', 'Creative Output'), ('implements', 'Creative Output')]}
-taxonomy.md: {'para method': [('extends', 'PARA Method'), ('extends', 'PARA Method')]}
-the-12-week-year.md: {'slow productivity': [('alternative', 'Slow Productivity'), ('contradicts', 'Slow Productivity')]}
-the-collectors-fallacy.md: {'capture': [('alternative', 'Capture'), ('contradicts', 'Capture')]}
-the-feynman-technique.md: {'spaced repetition': [('alternative', 'Spaced Repetition'), ('contradicts', 'Spaced Repetition')], 'evergreen notes': [('extends', 'Evergreen Notes'), ('implements', 'Evergreen Notes')]}
-the-garage-concept.md: {'digital garden': [('alternative', 'Digital Garden'), ('extends', 'Digital Garden')]}
-the-knowledge-lifecycle.md: {'evergreen vs fleeting notes': [('alternative', 'Evergreen vs Fleeting Notes'), ('extends', 'Evergreen vs Fleeting Notes'), ('implements', 'Evergreen vs Fleeting Notes')]}
-the-second-brain-workflow.md: {'minimum effective dose': [('alternative', 'Minimum Effective Dose'), ('contradicts', 'Minimum Effective Dose')]}
-the-trusted-inbox.md: {'mobile capture workflows': [('alternative', 'Mobile Capture Workflows'), ('contradicts', 'Mobile Capture Workflows')], 'capture': [('extends', 'Capture'), ('implements', 'Capture')]}
-there-is-no-perfect-solution.md: {'pareto principle': [('alternative', 'Pareto Principle'), ('contradicts', 'Pareto Principle')]}
-tony-buzan.md: {'mind mapping': [('extends', 'Mind Mapping'), ('extends', 'Mind Mapping')]}
-voice-memos.md: {'mobile capture workflows': [('extends', 'Mobile Capture Workflows'), ('extends', 'Mobile Capture Workflows')]}
-webhooks.md: {'building a personal api': [('extends', 'Building a Personal API'), ('extends', 'Building a Personal API')]}
-weekly-review-checklists.md: {'minimum effective dose': [('alternative', 'Minimum Effective Dose'), ('contradicts', 'Minimum Effective Dose')]}
-
-=== Notes with &gt;2 examples (199) ===
-  abide-in-me.md: 4
-  accountability.md: 4
-  active-knowledge-curation.md: 4
-  adaptability.md: 4
-  analog-capture-tools.md: 4
-  anti-fragile-systems.md: 4
-  ask-seek-knock.md: 4
-  associative-linking.md: 4
-  assurance.md: 4
-  atomic-notes.md: 4
-  attention-economy.md: 4
-  attention-to-detail.md: 4
-  behavioral-economics.md: 4
-  break-the-escalation-cycle.md: 4
-  build-a-reliable-default.md: 4
-  building-a-personal-api.md: 4
-  building-a-second-brain.md: 5
-  by-their-fruits.md: 4
-  capture.md: 4
-  childlike-faith.md: 4
-  ... and 179 more
-
-=== Notes with &gt;2 extends rows (122) ===
-  abide-in-me.md: 3 -&gt; ['Free Grace', 'Fruits of the Spirit', 'Sanctification']
-  accountability.md: 3 -&gt; ['Complete the Cycle', 'Own the Error', 'Servant Leadership']
-  adaptability.md: 3 -&gt; ['Expect the Counter', 'Stay Effective in New Conditions', 'Versatility']
-  anti-fragile-systems.md: 3 -&gt; ['Antifragility', 'Future-Proofing Knowledge', 'Heed Every Near-Miss']
-  assurance.md: 5 -&gt; ['Childlike Faith', 'Free Grace', 'Justification', 'Loss of Reward', 'Standing vs Fellowship']
-  attention-economy.md: 3 -&gt; ['Digital Minimalism', 'Signal vs Noise', 'Signal vs Noise']
-  attention-to-detail.md: 3 -&gt; ['Complete the Cycle', "Integrity When No One's Watching", 'Signal vs Noise']
-  behavioral-economics.md: 3 -&gt; ['Decision Quality', 'Sunk Cost Fallacy', 'Sunk Cost Fallacy']
-  break-the-escalation-cycle.md: 6 -&gt; ['Control the Rhythm', 'Listen Before Fixing', 'Name the Feeling', 'Set Calm Boundaries', 'Slow the Moment', 'Turn the Other Cheek']
-  build-a-reliable-default.md: 7 -&gt; ['Capture', 'Habit Formation', 'Preparedness', 'Pressure Reveals Weakness', 'Rollback Principle', 'Standard Operating Procedures', 'The Trusted Inbox']
-  christianity-and-politics.md: 4 -&gt; ['Love Your Enemies', 'Love Your Neighbor', 'Render Unto Caesar', 'Seek the Kingdom First']
-  client-site-handoff.md: 5 -&gt; ['Git-Based CMS', 'Plain Commitments at Work', 'Selling Static Sites', 'Share What You Learn', 'The Garage Concept']
-  coaching-ethics.md: 3 -&gt; ["Develop, Don't Endanger", 'Safety Comes First', 'Servant Leadership']
-  commonplace-book.md: 3 -&gt; ['Analog Capture Tools', 'Intellectual Sourcing', 'Intellectual Sourcing']
-  complete-the-cycle.md: 7 -&gt; ['Accountability', 'Attention to Detail', 'Finish Strong', 'Follow-Through', 'Listen Before Fixing', 'Pressure Reveals Weakness', 'The Trusted Inbox']
-
+digital-minimalism.md: {'digital serendipity': [('alternative', 'Digital Serendipity'), ('contradicts', 'Digital Serendipi
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing duplicate note relationships. Keeping only two examples in the Examples section. Ensuring those two examples cover very different fields.</details></think>
+Removing duplicate note relationships. Keeping only two examples in the Examples section. Ensuring those two examples cover very different fields.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
@@ -673,31 +486,31 @@ The deduplication rule is now stricter: each wikilink may appear only once, even
 
 The script will keep the best existing examples rather than rewriting them. For relationship deduplication, a wikilink may appear only once; if it carries both contradicts and extends, only the contradicts row will be retained.
 
-The user’s instruction to remove duplicates overrides the tension between contradicting and extending the same note. Four extends entries to different notes are not duplicates and will be preserved. The notes-creator.js template will be updated to require exactly two examples instead of up to five.</details></think>
+The user’s instruction to remove duplicates overrides the tension between contradicting and extending the same note. Four extends entries to different notes are not duplicates and will be preserved. The notes-creator.js template will be updated to require exactly two examples instead of up to five.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
-notes_dir = Path('/home/jorap/Documents/GitHub/jorap.com/content/english/notes')
+notes_dir = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#39;)
 too_few = []
-for f in sorted(notes_dir.glob('*.md')):
+for f in sorted(notes_dir.glob(&#39;*.md&#39;)):
     text = f.read_text()
-    if '## Examples' not in text:
+    if &#39;## Examples&#39; not in text:
         too_few.append((f.name, 0))
         continue
-    m = re.search(r'## Examples\n\n((?:- .+\n)+)', text)
+    m = re.search(r&#39;## Examples\n\n((?:- .+\n)+)&#39;, text)
     if m:
-        bullets = [l for l in m.group(1).strip().split('\n') if l.startswith('- ')]
-        if len(bullets) < 2:
+        bullets = [l for l in m.group(1).strip().split(&#39;\n&#39;) if l.startswith(&#39;- &#39;)]
+        if len(bullets) &lt; 2:
             too_few.append((f.name, len(bullets)))
-print(f'too few: {len(too_few)}')
+print(f&#39;too few: {len(too_few)}&#39;)
 for x in too_few[:10]:
     print(x)
 PY</summary>
-
 ```bash
 python3 << 'PY'
 import re
@@ -734,20 +547,12 @@ too few: 14
 ('pressure-reveals-weakness.md', 0)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -803,25 +608,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_13-08-10Z-note-relationship-duplication.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_13-08-10Z-note-relationship-duplication.md</summary>
 
 </details></tool-use>
 
@@ -836,7 +628,8 @@ Six example domains are now defined. They span faith, parenting, sports, digital
 
 Completed the domain list with six more categories: service, workplace, home, school, meta, and safety. Started writing a keyword-based function to identify which domain each example belongs to.
 
-Implemented the `pick_two_diverse` function. It scores each example against the first bullet by comparing their domain sets, then selects the second example that maximizes domain diversity.</details></think>
+Implemented the `pick_two_diverse` function. It scores each example against the first bullet by comparing their domain sets, then selects the second example that maximizes domain diversity.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -845,182 +638,97 @@ I'll extend the normalization script to dedupe relationship rows, trim examples 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Implementing the full normalize script extension and running it. Also updating getting-started.md and notes-creator.js.</details></think>
+Implementing the full normalize script extension and running it. Also updating getting-started.md and notes-creator.js.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a self-check to the script and running it. Fixing the DOMAIN_KEYWORDS structure where tuple unpacking was incorrect.</details></think>
+Adding a self-check to the script and running it. Fixing the DOMAIN_KEYWORDS structure where tuple unpacking was incorrect.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -20
 ```
@@ -1032,52 +740,32 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-for
 SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 17
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Line 29 contains a syntax error where the tuple closes with `"),` instead of `),`. Line 30 uses `]` to close the list.</details></think>
+Line 29 contains a syntax error where the tuple closes with `"),` instead of `),`. Line 30 uses `]` to close the list.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -25</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py 2&gt;&amp;1 | tail -25</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -25
 ```
@@ -1095,7 +783,7 @@ elon-musk.md: trimmed 2 example(s)
 emotional-regulation.md: trimmed 2 example(s)
 energy-protects-judgment.md: trimmed 2 example(s)
 Traceback (most recent call last):
-  File "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py", line 237, in &lt;module&gt;
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py", line 237, in <module>
     sys.exit(main())
              ^^^^^^
   File "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py", line 225, in main
@@ -1110,106 +798,76 @@ Traceback (most recent call last):
 ValueError: not enough values to unpack (expected 2, got 1)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+</details></tool-use>
 
-</details>
-
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
 The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A potential bug in `split_section` could cause the first `##` in a relationship block to incorrectly match table content. This seems unlikely.</details></think>
+A potential bug in `split_section` could cause the first `##` in a relationship block to incorrectly match table content. This seems unlikely.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -5 && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py 2&gt;&amp;1 | tail -5 &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
 from collections import defaultdict
 
-notes_dir = Path('content/english/notes')
+notes_dir = Path(&#39;content/english/notes&#39;)
 bad_ex = []
 bad_rel = []
-for f in sorted(notes_dir.glob('*.md')):
+for f in sorted(notes_dir.glob(&#39;*.md&#39;)):
     text = f.read_text()
-    if '## Examples' in text:
-        m = re.search(r'## Examples\n\n((?:- .+\n)+)', text)
+    if &#39;## Examples&#39; in text:
+        m = re.search(r&#39;## Examples\n\n((?:- .+\n)+)&#39;, text)
         if m:
-            bullets = [l for l in m.group(1).strip().split('\n') if l.startswith('- ')]
-            if len(bullets) > 2:
+            bullets = [l for l in m.group(1).strip().split(&#39;\n&#39;) if l.startswith(&#39;- &#39;)]
+            if len(bullets) &gt; 2:
                 bad_ex.append((f.name, len(bullets)))
-    if '## Note Relationships' in text:
-        rel_start = text.index('## Note Relationships')
-        rows = re.findall(r'^\| ([^|]+) \| \[\[([^\]]+)\]\] \|', text[rel_start:], re.M)
+    if &#39;## Note Relationships&#39; in text:
+        rel_start = text.index(&#39;## Note Relationships&#39;)
+        rows = re.findall(r&#39;^\| ([^|]+) \| \[\[([^\]]+)\]\] \|&#39;, text[rel_start:], re.M)
         seen = defaultdict(int)
         for _, link in rows:
             seen[link.lower()] += 1
-        dups = {k:v for k,v in seen.items() if v>1}
+        dups = {k:v for k,v in seen.items() if v&gt;1}
         if dups:
             bad_rel.append((f.name, dups))
 
-print(f'notes with >2 examples: {len(bad_ex)}')
-for x in bad_ex[:5]: print(' ', x)
-print(f'notes with duplicate rel wikilinks: {len(bad_rel)}')
-for x in bad_rel[:10]: print(' ', x)
+print(f&#39;notes with &gt;2 examples: {len(bad_ex)}&#39;)
+for x in bad_ex[:5]: print(&#39; &#39;, x)
+print(f&#39;notes with duplicate rel wikilinks: {len(bad_rel)}&#39;)
+for x in bad_rel[:10]: print(&#39; &#39;, x)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -5 && python3 << 'PY'
 import re
@@ -1250,89 +908,57 @@ wood-hay-stubble.md: trimmed 2 example(s)
 workplace-principles.md: format normalized
 
 updated 152 files (212 fixes)
-notes with &gt;2 examples: 0
+notes with >2 examples: 0
 notes with duplicate rel wikilinks: 0
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The golden rule now has two distinct examples. Digital and social fields differ from sports and coaching fields. Duplicated note relationships are removed.</details></think>
+The golden rule now has two distinct examples. Digital and social fields differ from sports and coaching fields. Duplicated note relationships are removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py --verify && python3 scripts/normalize-notes-format.py --check 2>&1 | tail -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py --verify &amp;&amp; python3 scripts/normalize-notes-format.py --check 2&gt;&amp;1 | tail -3</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py --verify && python3 scripts/normalize-notes-format.py --check 2>&1 | tail -3
 ```
 
 ```
 Traceback (most recent call last):
-  File "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py", line 272, in &lt;module&gt;
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py", line 272, in <module>
     sys.exit(main())
              ^^^^^^
   File "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py", line 251, in main
@@ -1344,34 +970,19 @@ Traceback (most recent call last):
 ValueError: too many values to unpack (expected 2)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py --verify && python3 scripts/normalize-notes-format.py --check 2>&1 | tail -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py --verify &amp;&amp; python3 scripts/normalize-notes-format.py --check 2&gt;&amp;1 | tail -3</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py --verify && python3 scripts/normalize-notes-format.py --check 2>&1 | tail -3
 ```
@@ -1381,12 +992,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-for
 would update 0 files (0 fixes)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1423,4 +1028,492 @@ for note Relationships sort by relationship a-z then wikilink a-z
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Note Relationships will be sorted by relationship type first, then by</details></think>
+Note Relationships will be sorted by relationship type first, then by wikilink.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating relationship table sorting to alphabetical by relationship type, then wikilink.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sorted.*REL_PRIORITY|sort.*relationship"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sorted.*REL_PRIORITY|sort.*relationship",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Sorting note relationships by relationship name, then wikilink, both a-z.
+
+Need a function that always re-sorts relationships, even when no duplicates exist.
+
+Dedupe rebuilds the table with the new sort key, so re-running normalize should fix all files. But if only the sort order changed, the removed count stays zero and the changes list won't mention it. Need to ensure the file still gets written, or add a resort step that always runs.
+
+The existing dedupe rebuild already handles sorting correctly. When sort order differs, the rebuilt table will not match the original rows, so `out != raw` will trigger a file write.
+
+Documentation across getting-started, note-relationships, and notes-creator needs updating to reflect the new sort order.
+
+Other scripts such as sync-note-relationships.py should also be checked for consistency.
+
+The golden rule already sorts by relationship a-z then wikilink a-z. No changes needed there.
+
+REL_PRIORITY and alphabetical order differ for the four relationship types. REL_PRIORITY places contradicts before extends, while alphabetical would place alternative before contradicts. Since capture.md had no alternative rows, its current order matches alphabetical.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{md,js,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sorted by type|sort.*type"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sorted by type|sort.*type",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-01_13-08-10Z-note-relationship-duplication.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/okf-viz/generate.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-06-22_07-26-03Z-genre-examples-for-better-understanding.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": "./.specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-19_04-04-25Z-graph-display-for-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-05-28_03-13-26Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-05-10_06-27-45Z-system-update-process-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 40
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/active-knowledge-curation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py",
+  "pattern": "sort"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py",
+  "pattern": "sort",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "scripts/sync-note-relationships.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js",
+  "pattern": "sort|Relationship"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js",
+  "pattern": "sort|Relationship",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "assets/js/notes-creator.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py",
+  "pattern": "TYPE_ORDER"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py",
+  "pattern": "TYPE_ORDER",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/sync-note-relationships.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+sync-note-relationships.py already sorts relationships alphabetically by name.
+
+normalize-notes-format.py currently sorts by REL_PRIORITY instead of the requested a-z order. I will update its sort key to lowercase relationship and wikilink names, and remove REL_PRIORITY from sorting while keeping it for deduplication.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the sort to relationship A–Z, then wikilink A–Z, and re-running across all notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Line 239 contains a shadowing bug where the loop variable `rel` hides the existing `rel` string variable.
+
+The list comprehension does not leak its variable into the outer scope. `findall(rel)` evaluates against the outer `rel` string before the inner `rel` is created.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py",
+  "pattern": "TYPE_ORDER"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py",
+  "pattern": "TYPE_ORDER",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/sync-note-relationships.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-notes-format.py 2&gt;&amp;1 | tail -8 &amp;&amp; python3 scripts/normalize-notes-format.py --verify</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-notes-format.py 2>&1 | tail -8 && python3 scripts/normalize-notes-format.py --verify
+```
+
+```
+slow-the-moment.md: format normalized
+spaced-repetition.md: format normalized
+standing-vs-fellowship.md: format normalized
+systems-for-growth.md: format normalized
+the-narrow-way.md: format normalized
+workplace-principles.md: format normalized
+
+updated 39 files (39 fixes)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/active-knowledge-curation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Updated **Note Relationships** sorting to **relationship a-z, then wikilink a-z** (`alternative` → `contradicts` → `extends` → `implements`, with wikilinks alphabetized within each type).
+
+**Changes:**
+- `scripts/normalize-notes-format.py` — new sort key; verify checks order
+- `scripts/sync-note-relationships.py` — same sort rule
+- Docs updated in `getting-started.md`, `note-relationships.md`, `notes-creator.js`
+- Re-ran normalize on **39 notes** that were out of order (also fixed broken markdown in getting-started and note-relationships from an earlier edit)
+
+**Example** — `active-knowledge-curation.md` now reads:
+
+```41:45:content/english/notes/active-knowledge-curation.md
+| alternative | [[Maps of Content]] | Hand-built hub vs revisit-and-prune when curation stays inline |
+| contradicts | [[The Collector's Fallacy]] | when pruning replaces actually shipping |
+| extends | [[Building a Second Brain]] | Offloaded notes only work when you revisit and prune, not just save links |
+| extends | [[Gardening Metaphor]] | Prune and tend - same curator job |
+| implements | [[Periodic Knowledge Review]] | Monthly prune carries the review habit this note names |
+```
+
+`python3 scripts/normalize-notes-format.py --verify` passes clean.

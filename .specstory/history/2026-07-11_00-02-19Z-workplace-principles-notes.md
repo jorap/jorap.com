@@ -16,7 +16,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Notes tied to Workplace Principles must exclude Bible verses. The tone should remain friendly and corporate.
 
-I'll explore the codebase to locate Workplace Principles and identify its connected notes.</details></think>
+I'll explore the codebase to locate Workplace Principles and identify its connected notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -25,10 +26,8 @@ I'll find which notes link to Workplace Principles and scan them for Bible verse
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -135,21 +134,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -256,39 +246,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I'll read the workplace principles file to identify connected notes and check them for bible verses.</details></think>
+I'll read the workplace principles file to identify connected notes and check them for bible verses.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -339,21 +315,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -462,13 +429,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -484,7 +444,8 @@ Twelve Workplace Principles notes contain bible shortcodes. Servant Leadership a
 
 Reconsidering whether "directly connected" means the notes listed in workplace-principles.md or any note linked to Workplace Principles. This distinction determines which files to edit.
 
-The workplace-principles.md description confirms these are the corporate versions for secular teams. Now grepping the body sections for bible references.</details></think>
+The workplace-principles.md description confirms these are the corporate versions for secular teams. Now grepping the body sections for bible references.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -493,10 +454,8 @@ Identifying workplace notes listed in the MOC and scanning them for Bible shortc
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -528,21 +487,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -574,21 +524,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -620,21 +561,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -666,21 +598,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -712,21 +635,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -758,21 +672,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -804,21 +709,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -850,21 +746,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -896,21 +783,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -942,21 +820,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -988,21 +857,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1034,13 +894,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1050,14 +903,13 @@ Twelve workplace notes contain bible shortcodes.
 
 Checking the remaining workplace notes for scripture references beyond bible shortcodes.
 
-Reading the affected files to replace bible shortcodes and explicit verse citations with plain corporate language. Also reviewing the garden-voice skill.</details></think>
+Reading the affected files to replace bible shortcodes and explicit verse citations with plain corporate language. Also reviewing the garden-voice skill.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1084,21 +936,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1125,21 +968,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1166,21 +1000,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1207,21 +1032,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1248,21 +1064,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1289,64 +1096,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
 
 </details></tool-use>
 
@@ -1355,148 +1131,83 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Scanning the remaining files for bible shortcodes to understand the pattern.
 
-Removing bible shortcodes and explicit verse references from workplace notes. Replacing them with plain corporate claims. Checking garden-voice for workplace-specific guidance.</details></think>
+Removing bible shortcodes and explicit verse references from workplace notes. Replacing them with plain corporate claims. Checking garden-voice for workplace-specific guidance.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
 
 </details></tool-use>
 
@@ -1513,7 +1224,8 @@ Gospel wikilinks will remain to preserve depth without verse citations. The note
 
 own-your-part.md serves as the template for plain corporate claims without Bible verses. The notes "servant-leadership" and "follow-christ-then-lead" are workplace-linked despite their Faith/Gospel tags, so they will lose all verse citations. I am also verifying "forgiveness-at-work" and "outcomes-over-pitch-decks" for specific scripture references.
 
-success-is-stewardship and steward-after-the-win contain parable and Jesus language in their key concepts beyond the shortcodes. A comprehensive grep across all listed workplace notes will catch every scripture pattern.</details></think>
+success-is-stewardship and steward-after-the-win contain parable and Jesus language in their key concepts beyond the shortcodes. A comprehensive grep across all listed workplace notes will catch every scripture pattern.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1522,39 +1234,38 @@ Scanning all Workplace Principles notes for remaining scripture references beyon
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && for f in golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work follow-their-lead listen-before-fixing name-the-feeling set-calm-boundaries outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead own-your-part people-centered-design shadow-the-work share-what-you-learn integrity-without-an-audience success-is-stewardship steward-after-the-win eliminate-before-managing develop-dont-endanger heed-every-near-miss life-before-achievement pressure-reveals-weakness finish-strong own-the-error; do echo "=== $f ==="; rg -n '\{\{< bible|Matthew|Mark [0-9]|Luke [0-9]|John [0-9]|Romans|Galatians|Ephesians|Corinthians|Proverbs|parable|Seventy times|Scripture open|Father who sees|master.s joy|wash feet|Jesus' content/english/notes/$f.md 2>/dev/null || true; done</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work follow-their-lead listen-before-fixing name-the-feeling set-calm-boundaries outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead own-your-part people-centered-design shadow-the-work share-what-you-learn integrity-without-an-audience success-is-stewardship steward-after-the-win eliminate-before-managing develop-dont-endanger heed-every-near-miss life-before-achievement pressure-reveals-weakness finish-strong own-the-error; do echo &#34;=== $f ===&#34;; rg -n &#39;\{\{&lt; bible|Matthew|Mark [0-9]|Luke [0-9]|John [0-9]|Romans|Galatians|Ephesians|Corinthians|Proverbs|parable|Seventy times|Scripture open|Father who sees|master.s joy|wash feet|Jesus&#39; content/english/notes/$f.md 2&gt;/dev/null || true; done</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && for f in golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work follow-their-lead listen-before-fixing name-the-feeling set-calm-boundaries outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead own-your-part people-centered-design shadow-the-work share-what-you-learn integrity-without-an-audience success-is-stewardship steward-after-the-win eliminate-before-managing develop-dont-endanger heed-every-near-miss life-before-achievement pressure-reveals-weakness finish-strong own-the-error; do echo "=== $f ==="; rg -n '\{\{< bible|Matthew|Mark [0-9]|Luke [0-9]|John [0-9]|Romans|Galatians|Ephesians|Corinthians|Proverbs|parable|Seventy times|Scripture open|Father who sees|master.s joy|wash feet|Jesus' content/english/notes/$f.md 2>/dev/null || true; done
 ```
 
 ```
 === golden-rule-at-work ===
-6:  {{&lt; bible ref="Matthew 7:12" emphasize="12" &gt;}}
+6:  {{< bible ref="Matthew 7:12" emphasize="12" >}}
 === forgiveness-at-work ===
-6:  {{&lt; bible ref="Matthew 18:21-35" emphasize="35" &gt;}}
+6:  {{< bible ref="Matthew 18:21-35" emphasize="35" >}}
 10:  - Seventy times seven ends ledger-keeping - stop collecting forever on a debt that poisons work.
 17:  - "Seventy times seven ends ledger-keeping."
 === reconcile-before-the-review ===
-6:  {{&lt; bible "Matthew 5:23-24" &gt;}}
+6:  {{< bible "Matthew 5:23-24" >}}
 === break-the-escalation-cycle ===
-6:  {{&lt; bible "Matthew 5:39" &gt;}}
+6:  {{< bible "Matthew 5:39" >}}
 === plain-commitments-at-work ===
-6:  {{&lt; bible "Matthew 5:37" &gt;}}
+6:  {{< bible "Matthew 5:37" >}}
 === follow-their-lead ===
 === listen-before-fixing ===
 === name-the-feeling ===
 === set-calm-boundaries ===
 === outcomes-over-pitch-decks ===
-6:  {{&lt; bible "Matthew 7:16-20" &gt;}}
+6:  {{< bible "Matthew 7:16-20" >}}
 === priorities-before-the-inbox ===
-6:  {{&lt; bible "Matthew 6:33" &gt;}}
+6:  {{< bible "Matthew 6:33" >}}
 === servant-leadership ===
-6:  {{&lt; bible ref="Mark 10:45" emphasize="45" &gt;}}
+6:  {{< bible ref="Mark 10:45" emphasize="45" >}}
 39:    reason: "Jesus' upside-down ladder - same move in standups and 1:1s"
 === follow-christ-then-lead ===
-6:  {{&lt; bible "Matthew 16:24" &gt;}}
+6:  {{< bible "Matthew 16:24" >}}
 11:  - [[Follow Christ, Then Lead]] is the move when the room wants a shortcut, a cover-up, or a compromise I would never take alone with Scripture open.
 65:  - front: "Room wants a cover-up I would never take alone with Scripture open. One sequence?"
 === own-your-part ===
@@ -1562,46 +1273,22 @@ cd /home/jorap/Documents/GitHub/jorap.com && for f in golden-rule-at-work forgiv
 === shadow-the-work ===
 === share-what-you-learn ===
 === integrity-without-an-audience ===
-6:  {{&lt; bible ref="Matthew 6:1-4" emphasize="4" &gt;}}
+6:  {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
 7:  - Father who sees in secret repays - honest work when nobody applauds is still seen by God.
 === success-is-stewardship ===
-6:  {{&lt; bible ref="Matthew 25:14-30" emphasize="23" &gt;}}
+6:  {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
 8:  - Promotion and platform are entrusted for faithful use - enter the master's joy, do not bury the talent in ego.
 11:  - [[Faithful Steward]] is the parable Jesus told - well done for faithful use, buried talent rebuked.
 12:  - This note is the headline above the parable: promotion, audience, and a good season are entrusted, not trophies I earned to keep.
-22:  - "Faithful Steward is the parable Jesus told."
-51:    reason: "Headline principle above the parable - entrusted, not owned"
-=== steward-after-the-win ===
-6:  {{&lt; bible ref="Matthew 25:14-30" emphasize="23" &gt;}}
-9:  - [[Faithful Steward]] is the parable shape - well done for faithful use over years, buried talent for playing it safe after one good season.
-20:  - "Faithful Steward is the parable shape."
-=== eliminate-before-managing ===
-=== develop-dont-endanger ===
-=== heed-every-near-miss ===
-=== life-before-achievement ===
-=== pressure-reveals-weakness ===
-=== finish-strong ===
-=== own-the-error ===
-
+22:  - "Faithful St
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/listen-before-fixing.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/listen-before-fixing.md</summary>
 
 </details></tool-use>
 
@@ -1628,14 +1315,13 @@ Success-is-stewardship will drop the parable language. It will open with a plain
 
 Steward-after-the-win will receive similar cleanup.
 
-share-what-you-learn also needs bible removal, since it belongs to Workplace Principles.</details></think>
+share-what-you-learn also needs bible removal, since it belongs to Workplace Principles.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1661,21 +1347,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1701,13 +1378,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1717,7 +1387,8 @@ Proceeding with edits to remove bible verses from Workplace Principles notes.
 
 Removing bible verses and "Scripture open" from follow-christ-then-lead while keeping its identity references. For success-is-stewardship and steward-after-the-win, stripping parable-specific language and bible verses while retaining wikilinks to Faithful Steward.
 
-Also removing God and Father references from integrity-without-an-audience while keeping its Secret Devotion wikilink. Replacing the religious phrase "do not condemn souls" in outcomes-over-pitch-decks with plain language. Cleaning duplicate lines in outcomes-over-pitch-decks and break-the-escalation-cycle.</details></think>
+Also removing God and Father references from integrity-without-an-audience while keeping its Secret Devotion wikilink. Replacing the religious phrase "do not condemn souls" in outcomes-over-pitch-decks with plain language. Cleaning duplicate lines in outcomes-over-pitch-decks and break-the-escalation-cycle.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1726,336 +1397,161 @@ Removing Bible shortcodes and scripture-specific language from the 12 affected w
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing five Workplace Principles notes. Removing bible verses from each to keep the content corporate-friendly.</details></think>
+Reviewing five Workplace Principles notes. Removing bible verses from each to keep the content corporate-friendly.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
 
 </details></tool-use>
 
@@ -2064,26 +1560,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Fixing a duplicate line in the integrity-without-an-audience note.
 
-Checking Workplace Principles notes for remaining bible shortcodes. Reviewing "kingdom" language in priorities-before-the-inbox. Assessing whether "Wash feet" in servant-leadership is too religious. Confirming "hard verse" in follow-christ-then-lead is acceptable.</details></think>
+Checking Workplace Principles notes for remaining bible shortcodes. Reviewing "kingdom" language in priorities-before-the-inbox. Assessing whether "Wash feet" in servant-leadership is too religious. Confirming "hard verse" in follow-christ-then-lead is acceptable.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && for f in golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead integrity-without-an-audience success-is-stewardship steward-after-the-win; do rg -n '\{\{< bible|Matthew [0-9]|Mark [0-9]|Luke [0-9]|John [0-9]:|Romans [0-9]|Galatians [0-9]' content/english/notes/$f.md && echo "FAIL $f" || true; done; echo "--- all workplace MOC notes ---"; notes="golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work follow-their-lead listen-before-fixing name-the-feeling set-calm-boundaries outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead own-your-part people-centered-design shadow-the-work share-what-you-learn integrity-without-an-audience success-is-stewardship steward-after-the-win eliminate-before-managing develop-dont-endanger heed-every-near-miss life-before-achievement pressure-reveals-weakness finish-strong own-the-error"; for f in $notes; do rg -l '\{\{< bible' content/english/notes/$f.md 2>/dev/null; done | wc -l</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead integrity-without-an-audience success-is-stewardship steward-after-the-win; do rg -n &#39;\{\{&lt; bible|Matthew [0-9]|Mark [0-9]|Luke [0-9]|John [0-9]:|Romans [0-9]|Galatians [0-9]&#39; content/english/notes/$f.md &amp;&amp; echo &#34;FAIL $f&#34; || true; done; echo &#34;--- all workplace MOC notes ---&#34;; notes=&#34;golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work follow-their-lead listen-before-fixing name-the-feeling set-calm-boundaries outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead own-your-part people-centered-design shadow-the-work share-what-you-learn integrity-without-an-audience success-is-stewardship steward-after-the-win eliminate-before-managing develop-dont-endanger heed-every-near-miss life-before-achievement pressure-reveals-weakness finish-strong own-the-error&#34;; for f in $notes; do rg -l &#39;\{\{&lt; bible&#39; content/english/notes/$f.md 2&gt;/dev/null; done | wc -l</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && for f in golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead integrity-without-an-audience success-is-stewardship steward-after-the-win; do rg -n '\{\{< bible|Matthew [0-9]|Mark [0-9]|Luke [0-9]|John [0-9]:|Romans [0-9]|Galatians [0-9]' content/english/notes/$f.md && echo "FAIL $f" || true; done; echo "--- all workplace MOC notes ---"; notes="golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work follow-their-lead listen-before-fixing name-the-feeling set-calm-boundaries outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead own-your-part people-centered-design shadow-the-work share-what-you-learn integrity-without-an-audience success-is-stewardship steward-after-the-win eliminate-before-managing develop-dont-endanger heed-every-near-miss life-before-achievement pressure-reveals-weakness finish-strong own-the-error"; for f in $notes; do rg -l '\{\{< bible' content/english/notes/$f.md 2>/dev/null; done | wc -l
 ```
@@ -2093,12 +1583,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && for f in golden-rule-at-work forgiv
 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2106,28 +1590,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 All bible shortcodes have been removed from Workplace Principles notes.
 
-Removing a duplicate line from integrity-without-an-audience.md. Scanning for any remaining scripture references.</details></think>
+Removing a duplicate line from integrity-without-an-audience.md. Scanning for any remaining scripture references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && notes="golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work follow-their-lead listen-before-fixing name-the-feeling set-calm-boundaries outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead own-your-part people-centered-design shadow-the-work share-what-you-learn integrity-without-an-audience success-is-stewardship steward-after-the-win eliminate-before-managing develop-dont-endanger heed-every-near-miss life-before-achievement pressure-reveals-weakness finish-strong own-the-error"; rg -n 'Matthew|Mark [0-9]|Luke [0-9]|John [0-9]:|Romans [0-9]|Galatians [0-9]|Seventy times|parable Jesus|Father who sees|Scripture open|master.s joy' $(for f in $notes; do echo content/english/notes/$f.md; done) 2>/dev/null || echo "clean"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; notes=&#34;golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work follow-their-lead listen-before-fixing name-the-feeling set-calm-boundaries outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead own-your-part people-centered-design shadow-the-work share-what-you-learn integrity-without-an-audience success-is-stewardship steward-after-the-win eliminate-before-managing develop-dont-endanger heed-every-near-miss life-before-achievement pressure-reveals-weakness finish-strong own-the-error&#34;; rg -n &#39;Matthew|Mark [0-9]|Luke [0-9]|John [0-9]:|Romans [0-9]|Galatians [0-9]|Seventy times|parable Jesus|Father who sees|Scripture open|master.s joy&#39; $(for f in $notes; do echo content/english/notes/$f.md; done) 2&gt;/dev/null || echo &#34;clean&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && notes="golden-rule-at-work forgiveness-at-work reconcile-before-the-review break-the-escalation-cycle plain-commitments-at-work follow-their-lead listen-before-fixing name-the-feeling set-calm-boundaries outcomes-over-pitch-decks priorities-before-the-inbox servant-leadership follow-christ-then-lead own-your-part people-centered-design shadow-the-work share-what-you-learn integrity-without-an-audience success-is-stewardship steward-after-the-win eliminate-before-managing develop-dont-endanger heed-every-near-miss life-before-achievement pressure-reveals-weakness finish-strong own-the-error"; rg -n 'Matthew|Mark [0-9]|Luke [0-9]|John [0-9]:|Romans [0-9]|Galatians [0-9]|Seventy times|parable Jesus|Father who sees|Scripture open|master.s joy' $(for f in $notes; do echo content/english/notes/$f.md; done) 2>/dev/null || echo "clean"
 ```
@@ -2136,20 +1612,12 @@ cd /home/jorap/Documents/GitHub/jorap.com && notes="golden-rule-at-work forgiven
 clean
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2189,13 +1657,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2203,14 +1664,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 All Workplace Principles notes are now free of bible shortcodes and scripture references.
 
-Skipping skill documentation updates. Checking for validation scripts that might flag missing bible shortcodes in faith notes.</details></think>
+Skipping skill documentation updates. Checking for validation scripts that might flag missing bible shortcodes in faith notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2289,21 +1749,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2367,39 +1818,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking garden-voice-lint.py for workplace note exceptions or Matthew reference flags.</details></think>
+Checking garden-voice-lint.py for workplace note exceptions or Matthew reference flags.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2430,30 +1867,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking garden-voice-lint.py to see if it requires bible references in faith notes.</details></think>
+Checking garden-voice-lint.py to see if it requires bible references in faith notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
 
 </details></tool-use>
 
@@ -2464,13 +1889,13 @@ The garden-voice-lint tool will flag any notes directly linked to Workplace Prin
 
 Three Workplace Principles notes carry Gospel tags. The better fix is to exempt workplace lane notes from the faith-no-verse lint rule rather than stripping those tags.
 
-Running the lint now to identify exactly which notes fail.</details></think>
+Running the lint now to identify exactly which notes fail.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 | rg 'faith-no-verse|golden-rule|forgiveness|reconcile|break-the|plain-commit|outcomes|priorities|servant|follow-christ|integrity|success-is|steward-after' || true</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 | rg &#39;faith-no-verse|golden-rule|forgiveness|reconcile|break-the|plain-commit|outcomes|priorities|servant|follow-christ|integrity|success-is|steward-after&#39; || true</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 | rg 'faith-no-verse|golden-rule|forgiveness|reconcile|break-the|plain-commit|outcomes|priorities|servant|follow-christ|integrity|success-is|steward-after' || true
 ```
@@ -2489,12 +1914,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.p
   content/english/notes/steward-after-the-win.md: key_concept: faith-no-verse (steward-after-the-win)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2502,14 +1921,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating garden-voice-lint.py to exempt Workplace Principles notes from the bible verse ban.
 
-Checking which affected notes carry the Workplace tag. Most do, but steward-after-the-win does not.</details></think>
+Checking which affected notes carry the Workplace tag. Most do, but steward-after-the-win does not.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2542,21 +1960,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2624,13 +2033,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2640,14 +2042,13 @@ The notes "steward-after-the-win" and "follow-christ-then-lead" lack the Workpla
 
 success-is-stewardship carries both Workplace and Gospel tags. Lint may still reject it because is_faith is checked first. The cleanest fix is to exempt faith-no-verse notes when Workplace is present in their tags. I will also add the Workplace tag to follow-christ-then-lead.
 
-A helper function will detect the Workplace lane by checking for the "workplace" tag. The lint rule will exempt faith-no-verse notes when that lane is active. Both target notes need the Workplace tag added for consistency. The garden-voice SKILL.md should also be updated to clarify the workplace register.</details></think>
+A helper function will detect the Workplace lane by checking for the "workplace" tag. The lint rule will exempt faith-no-verse notes when that lane is active. Both target notes need the Workplace tag added for consistency. The garden-voice SKILL.md should also be updated to clarify the workplace register.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2673,13 +2074,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2689,13 +2083,13 @@ Adding a minimal workplace lane exception to garden-voice-lint.py. Updating gard
 
 Adding Workplace tags to steward-after-the-win and follow-christ-then-lead. Investigating why success-is-stewardship was not flagged by the linter despite its Workplace tag.
 
-The linter likely filtered out success-is-stewardship due to a truncated ripgrep output. Its key concept contains no bible verse matches.</details></think>
+The linter likely filtered out success-is-stewardship due to a truncated ripgrep output. Its key concept contains no bible verse matches.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 | rg 'success-is-stewardship' || echo "not flagged"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 | rg &#39;success-is-stewardship&#39; || echo &#34;not flagged&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 | rg 'success-is-stewardship' || echo "not flagged"
 ```
@@ -2704,12 +2098,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.p
 not flagged
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2717,26 +2105,26 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 success-is-stewardship was not flagged.
 
-Checking why the note wasn't flagged. Ruled out "Peter" and "James" as matches. Will inspect the key_concept and test the BIBLE regex.</details></think>
+Checking why the note wasn't flagged. Ruled out "Peter" and "James" as matches. Will inspect the key_concept and test the BIBLE regex.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import re, yaml
 from pathlib import Path
-BIBLE = re.compile(r'\{\{<\s*bible|NASB|Matthew|Mark|Luke|John \d|Romans|Ephesians|Galatians|Corinthians|Peter|James|Hebrews|Psalm|Proverbs|Colossians|Philippians|Timothy|Titus|Revelation|Isaiah|Jeremiah', re.I)
-text = Path('content/english/notes/success-is-stewardship.md').read_text()
+BIBLE = re.compile(r&#39;\{\{&lt;\s*bible|NASB|Matthew|Mark|Luke|John \d|Romans|Ephesians|Galatians|Corinthians|Peter|James|Hebrews|Psalm|Proverbs|Colossians|Philippians|Timothy|Titus|Revelation|Isaiah|Jeremiah&#39;, re.I)
+text = Path(&#39;content/english/notes/success-is-stewardship.md&#39;).read_text()
 import re as R
-m = R.match(r'^---\s*\n(.*?)\n---', text, R.DOTALL)
+m = R.match(r&#39;^---\s*\n(.*?)\n---&#39;, text, R.DOTALL)
 meta = yaml.safe_load(m.group(1))
-kc = meta['key_concept']
-print('match:', bool(BIBLE.search(kc)))
+kc = meta[&#39;key_concept&#39;]
+print(&#39;match:&#39;, bool(BIBLE.search(kc)))
 if BIBLE.search(kc): print(BIBLE.search(kc).group())
-tags = meta.get('tags')
-print('tags', tags)
-"</summary>
-
+tags = meta.get(&#39;tags&#39;)
+print(&#39;tags&#39;, tags)
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import re, yaml
@@ -2760,12 +2148,6 @@ mark
 tags ['Gospel', 'Eternal Principles', 'Stewardship', 'Leadership', 'Workplace', 'Discipleship']
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2773,25 +2155,25 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The Bible regex incorrectly matches words like "remark" and "benchmark" because they contain "Mark".
 
-success-is-stewardship is a false positive from the "mark" substring match. I still need to update garden-voice-lint for the workplace exemption. I should also check whether steward-after-the-win matches accidentally.</details></think>
+success-is-stewardship is a false positive from the "mark" substring match. I still need to update garden-voice-lint for the workplace exemption. I should also check whether steward-after-the-win matches accidentally.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import re, yaml
 from pathlib import Path
-BIBLE = re.compile(r'\{\{<\s*bible|NASB|Matthew|Mark|Luke|John \d|Romans|Ephesians|Galatians|Corinthians|Peter|James|Hebrews|Psalm|Proverbs|Colossians|Philippians|Timothy|Titus|Revelation|Isaiah|Jeremiah', re.I)
-for stem in ['steward-after-the-win','follow-christ-then-lead']:
-    text = Path(f'content/english/notes/{stem}.md').read_text()
+BIBLE = re.compile(r&#39;\{\{&lt;\s*bible|NASB|Matthew|Mark|Luke|John \d|Romans|Ephesians|Galatians|Corinthians|Peter|James|Hebrews|Psalm|Proverbs|Colossians|Philippians|Timothy|Titus|Revelation|Isaiah|Jeremiah&#39;, re.I)
+for stem in [&#39;steward-after-the-win&#39;,&#39;follow-christ-then-lead&#39;]:
+    text = Path(f&#39;content/english/notes/{stem}.md&#39;).read_text()
     import re as R
-    m = R.match(r'^---\s*\n(.*?)\n---', text, R.DOTALL)
+    m = R.match(r&#39;^---\s*\n(.*?)\n---&#39;, text, R.DOTALL)
     meta = yaml.safe_load(m.group(1))
-    kc = meta['key_concept']
+    kc = meta[&#39;key_concept&#39;]
     hit = BIBLE.search(kc)
-    print(stem, 'match', bool(hit), hit.group() if hit else '')
-"</summary>
-
+    print(stem, &#39;match&#39;, bool(hit), hit.group() if hit else &#39;&#39;)
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import re, yaml
@@ -2813,12 +2195,6 @@ steward-after-the-win match False
 follow-christ-then-lead match False 
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2826,7 +2202,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating garden-voice-lint.py with a workplace exemption. This keeps bible verses out of notes tied to Workplace Principles.
 
-Adding Workplace tags to two more notes. A new "Workplace lane" section in the garden-voice skill will block bible shortcodes and enforce gospel depth through wikilinks, preventing regressions.</details></think>
+Adding Workplace tags to two more notes. A new "Workplace lane" section in the garden-voice skill will block bible shortcodes and enforce gospel depth through wikilinks, preventing regressions.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2835,119 +2212,63 @@ Updating the lint rule and tagging so workplace notes stay verse-free without fa
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running lint again to verify workplace notes pass.</details></think>
+Running lint again to verify workplace notes pass.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 | rg 'faith-no-verse.*(golden-rule|forgiveness|reconcile|break-the|plain-commit|outcomes|priorities|servant|follow-christ|integrity|success-is|steward-after)' || echo "workplace faith-no-verse: clean" && python3 scripts/garden-voice-lint.py --self-check</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 | rg &#39;faith-no-verse.*(golden-rule|forgiveness|reconcile|break-the|plain-commit|outcomes|priorities|servant|follow-christ|integrity|success-is|steward-after)&#39; || echo &#34;workplace faith-no-verse: clean&#34; &amp;&amp; python3 scripts/garden-voice-lint.py --self-check</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 | rg 'faith-no-verse.*(golden-rule|forgiveness|reconcile|break-the|plain-commit|outcomes|priorities|servant|follow-christ|integrity|success-is|steward-after)' || echo "workplace faith-no-verse: clean" && python3 scripts/garden-voice-lint.py --self-check
 ```
@@ -2957,18 +2278,13 @@ workplace faith-no-verse: clean
 garden-voice-lint self-check OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Notes tied to Workplace Principles will be free of bible verses. The tone will stay friendly and corporate.</details></think>
+Notes tied to Workplace Principles will be free of bible verses. The tone will stay friendly and corporate.
+</details></think>
 
 _**Agent (auto-low)**_
 

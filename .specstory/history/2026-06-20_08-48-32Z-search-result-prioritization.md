@@ -17,10 +17,8 @@ I'll find where site search is implemented and how results are ranked so we can 
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -104,4144 +102,17 @@ Result:
             "lineNumber": 17,
             "text": "{{- $searchablePages = where $searchablePages \"Draft\" false -}}"
           },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- $totalPagesLength := len $searchablePages -}}"
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "[{{- range $i, $e := $searchablePages -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- if not .Params.ignoreSearch -}}"
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "{{- $date:= time.Format \":date_long\" .PublishDate -}}"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- $.Scratch.Delete \"image\" -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "{{- $.Scratch.Delete \"imageSM\" -}}"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "{{- if .Params.image -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  {{- $.Scratch.Set \"image\" (partial \"searchImage\" (dict \"Src\" .Params.image \"Size\" \"420x\" \"Command\" \"Resize\")) -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  {{- $.Scratch.Set \"imageSM\" (partial \"searchImage\" (dict \"Src\" .Params.image \"Size\" \"100x100\" \"Command\" \"Fill\")) -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "{{- else if .Params.images -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  {{- range first 1 .Params.images -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "  {{- $.Scratch.Set \"image\" (partial \"searchImage\" (dict \"Src\" . \"Size\" \"420x\" \"Command\" \"Resize\")) -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "  {{- $.Scratch.Set \"imageSM\" (partial \"searchImage\" (dict \"Src\" . \"Size\" \"100x100\" \"Command\" \"Fill\")) -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "{{- $image:= $.Scratch.Get \"image\" -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "{{- $imageSM:= $.Scratch.Get \"imageSM\" -}}"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42,
-            "text": "{"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  \"section\": \"{{.Section | humanize}}\","
-          },
-          {
-            "lineNumber": 44,
-            "text": "  \"slug\": \"{{- .RelPermalink -}}\","
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 44
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_default/list.searchindex.json",
-        "signatures": {}
-      },
-      "score": 0.2800653576850891
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 229,
-            "text": "const displayResult = "
-          },
-          {
-            "lineNumber": 230,
-            "text": "const generateSearchResultHTML = "
-          },
-          {
-            "lineNumber": 269,
-            "text": "let templateDefinition ="
-          },
-          {
-            "lineNumber": 285,
-            "text": "&#96;;"
-          },
-          {
-            "lineNumber": 286
-          },
-          {
-            "lineNumber": 287,
-            "text": "      const renderedItems = filteredItems"
-          },
-          {
-            "lineNumber": 288,
-            "text": "        .map((innerItem) =\u003e {"
-          },
-          {
-            "lineNumber": 289,
-            "text": "          let output = renderResult(templateDefinition, {"
-          },
-          {
-            "lineNumber": 290,
-            "text": "            slug: innerItem.slug,"
-          },
-          {
-            "lineNumber": 291,
-            "text": "            date: innerItem.date,"
-          },
-          {
-            "lineNumber": 292,
-            "text": "            description:"
-          },
-          {
-            "lineNumber": 293,
-            "text": "              description == \"true\""
-          },
-          {
-            "lineNumber": 294,
-            "text": "                ? highlightResult(innerItem.description)"
-          },
-          {
-            "lineNumber": 295,
-            "text": "                : \"\","
-          },
-          {
-            "lineNumber": 296,
-            "text": "            title: highlightResult(innerItem.title),"
-          },
-          {
-            "lineNumber": 297,
-            "text": "            image: image == \"true\" ? innerItem.image : \"\","
-          },
-          {
-            "lineNumber": 298,
-            "text": "            tags: tags == \"true\" ? highlightResult(innerItem.tags) : \"nomatch\","
-          },
-          {
-            "lineNumber": 299,
-            "text": "            categories:"
-          },
-          {
-            "lineNumber": 300,
-            "text": "              categories == \"true\""
-          },
-          {
-            "lineNumber": 301,
-            "text": "                ? highlightResult(innerItem.categories)"
-          },
-          {
-            "lineNumber": 302,
-            "text": "                : \"nomatch\","
-          },
-          {
-            "lineNumber": 303,
-            "text": "            content: highlightResultContent(innerItem.content),"
-          },
-          {
-            "lineNumber": 304,
-            "text": "          });"
-          },
-          {
-            "lineNumber": 305
-          },
-          {
-            "lineNumber": 306,
-            "text": "          return output;"
-          },
-          {
-            "lineNumber": 307,
-            "text": "        })"
-          },
-          {
-            "lineNumber": 308,
-            "text": "        .join(\"\");"
-          },
-          {
-            "lineNumber": 309
-          },
-          {
-            "lineNumber": 310,
-            "text": "      return &#96;"
-          },
-          {
-            "lineNumber": 311,
-            "text": "\t\t\t\t\u003cdiv class=\"search-result-group\"\u003e"
-          },
-          {
-            "lineNumber": 312,
-            "text": "\t\t\t\t\t\u003cp class=\"search-result-group-title\"\u003e${item.section}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 313,
-            "text": "\t\t\t\t\t${renderedItems}"
-          },
-          {
-            "lineNumber": 314,
-            "text": "\t\t\t\t\u003c/div\u003e&#96;;"
-          },
-          {
-            "lineNumber": 315,
-            "text": "    };"
-          },
-          {
-            "lineNumber": 316
-          },
-          {
-            "lineNumber": 317,
-            "text": "    const filteredItemsLength = searchItems.reduce((totalLength, item) =\u003e {"
-          },
-          {
-            "lineNumber": 318,
-            "text": "      const filteredItems = item.data.filter("
-          },
-          {
-            "lineNumber": 319,
-            "text": "        (d) =\u003e"
-          },
-          {
-            "lineNumber": 320,
-            "text": "          d.title.toLowerCase().includes(searchString) ||"
-          },
-          {
-            "lineNumber": 321,
-            "text": "          (description === \"true\""
-          },
-          {
-            "lineNumber": 322,
-            "text": "            ? d.description?.toLowerCase().includes(searchString)"
-          },
-          {
-            "lineNumber": 323,
-            "text": "            : \"\") ||"
-          },
-          {
-            "lineNumber": 324,
-            "text": "          d.searchKeyword.toLowerCase().includes(searchString) ||"
-          },
-          {
-            "lineNumber": 325,
-            "text": "          (tags === \"true\""
-          },
-          {
-            "lineNumber": 326,
-            "text": "            ? d.tags?.toLowerCase().includes(searchString)"
-          },
-          {
-            "lineNumber": 327,
-            "text": "            : \"\") ||"
-          },
-          {
-            "lineNumber": 328,
-            "text": "          (categories === \"true\""
-          },
-          {
-            "lineNumber": 329,
-            "text": "            ? d.categories?.toLowerCase().includes(searchString)"
-          },
-          {
-            "lineNumber": 330,
-            "text": "            : \"\") ||"
-          },
-          {
-            "lineNumber": 331,
-            "text": "          d.content.toLowerCase().includes(searchString)"
-          },
-          {
-            "lineNumber": 332,
-            "text": "      );"
-          },
-          {
-            "lineNumber": 333
-          },
-          {
-            "lineNumber": 334,
-            "text": "      return totalLength + filteredItems.length;"
-          },
-          {
-            "lineNumber": 335,
-            "text": "    }, 0);"
-          },
-          {
-            "lineNumber": 336
-          },
-          {
-            "lineNumber": 337,
-            "text": "    // count time start"
-          },
-          {
-            "lineNumber": 338,
-            "text": "    const startTime = performance.now();"
-          },
-          {
-            "lineNumber": 339
-          },
-          {
-            "lineNumber": 340,
-            "text": "    // Render Result into HTML"
-          },
-          {
-            "lineNumber": 341,
-            "text": "    const htmlString = searchItems.map(generateSearchResultHTML).join(\"\");"
-          },
-          {
-            "lineNumber": 342,
-            "text": "    searchResult.forEach((el) =\u003e {"
-          },
-          {
-            "lineNumber": 343,
-            "text": "      el.innerHTML = htmlString;"
-          },
-          {
-            "lineNumber": 344,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 345
-          },
-          {
-            "lineNumber": 346,
-            "text": "    // count time end"
-          },
-          {
-            "lineNumber": 347,
-            "text": "    const endTime = performance.now();"
-          },
-          {
-            "lineNumber": 348
-          },
-          {
-            "lineNumber": 349,
-            "text": "    // count total-result and time"
-          },
-          {
-            "lineNumber": 350,
-            "text": "    let totalResults = &#96;\u003cem\u003e&#96;;"
-          },
-          {
-            "lineNumber": 387,
-            "text": ";"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 1,
-            "line": 386
-          },
-          "startPosition": {
-            "column": 2,
-            "line": 228
-          }
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 9,
-                "line": 229
-              },
-              "startPosition": {
-                "column": 3,
-                "line": 229
-              }
-            },
-            {
-              "endPosition": {
-                "column": 25,
-                "line": 229
-              },
-              "startPosition": {
-                "column": 9,
-                "line": 229
-              }
-            },
-            {
-              "endPosition": {
-                "column": 11,
-                "line": 230
-              },
-              "startPosition": {
-                "column": 5,
-                "line": 230
-              }
-            },
-            {
-              "endPosition": {
-                "column": 38,
-                "line": 230
-              },
-              "startPosition": {
-                "column": 11,
-                "line": 230
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.2708789110183716
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 42,
-            "text": "{"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  \"section\": \"{{.Section | humanize}}\","
-          },
-          {
-            "lineNumber": 44,
-            "text": "  \"slug\": \"{{- .RelPermalink -}}\","
-          },
-          {
-            "lineNumber": 45,
-            "text": "  \"title\": \"{{- htmlEscape .Title -}}\","
-          },
-          {
-            "lineNumber": 46,
-            "text": "  \"description\": \"{{- htmlEscape .Description}}\","
-          },
-          {
-            "lineNumber": 47,
-            "text": "  \"date\": \"{{- $date -}}\","
-          },
-          {
-            "lineNumber": 48,
-            "text": "  \"image\": {{$image | jsonify}},"
-          },
-          {
-            "lineNumber": 49,
-            "text": "  \"imageSM\": {{$imageSM | jsonify}},"
-          },
-          {
-            "lineNumber": 50,
-            "text": "  \"searchKeyword\": \"{{- htmlEscape .Params.search_keyword -}}\","
-          },
-          {
-            "lineNumber": 51,
-            "text": "  \"categories\": \"{{- if .Params.categories -}}{{- delimit .Params.categories &#96;, &#96; -}}{{- end -}}\","
-          },
-          {
-            "lineNumber": 52,
-            "text": "  \"tags\": \"{{- if .Params.tags -}}{{- delimit .Params.tags &#96;, &#96; -}}{{- end -}}\","
-          },
-          {
-            "lineNumber": 53,
-            "text": "  \"content\": {{- $e.Plain | jsonify -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "}{{- if ne $i (sub $totalPagesLength 1) -}},{{- end -}}"
-          },
-          {
-            "lineNumber": 55
-          },
-          {
-            "lineNumber": 56,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "{{- end -}}]"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 57
-          },
-          "startPosition": {
-            "line": 41
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_default/list.searchindex.json",
-        "signatures": {}
-      },
-      "score": 0.2602235972881317
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 121,
-            "text": "const doSearch = async "
-          },
-          {
-            "lineNumber": 224
-          },
-          {
-            "lineNumber": 225,
-            "text": "      selectItem(-1);"
-          },
-          {
-            "lineNumber": 226,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 227,
-            "text": "  };"
-          },
-          {
-            "lineNumber": 228
-          },
-          {
-            "lineNumber": 229,
-            "text": "  const displayResult = (searchItems, searchString) =\u003e {"
-          },
-          {
-            "lineNumber": 230,
-            "text": "    const generateSearchResultHTML = (item) =\u003e {"
-          },
-          {
-            "lineNumber": 231,
-            "text": "      const highlightResult = (content) =\u003e {"
-          },
-          {
-            "lineNumber": 232,
-            "text": "        const regex = new RegExp(searchString, \"i\");"
-          },
-          {
-            "lineNumber": 233,
-            "text": "        return content.replace(regex, (match) =\u003e &#96;\u003cu\u003e${match}\u003c/u\u003e&#96;);"
-          },
-          {
-            "lineNumber": 234,
-            "text": "      };"
-          },
-          {
-            "lineNumber": 235,
-            "text": "      const highlightResultContent = (content) =\u003e {"
-          },
-          {
-            "lineNumber": 236,
-            "text": "        const regex = new RegExp(searchString, \"i\");"
-          },
-          {
-            "lineNumber": 237,
-            "text": "        const matchIndex = content.search(regex);"
-          },
-          {
-            "lineNumber": 238
-          },
-          {
-            "lineNumber": 239,
-            "text": "        if (matchIndex \u003e= 0) {"
-          },
-          {
-            "lineNumber": 240,
-            "text": "          const matchedContent = content.slice(matchIndex);"
-          },
-          {
-            "lineNumber": 241,
-            "text": "          const lastWord = content.slice(0, matchIndex).split(\" \").pop();"
-          },
-          {
-            "lineNumber": 242
-          },
-          {
-            "lineNumber": 243,
-            "text": "          return matchedContent.replace("
-          },
-          {
-            "lineNumber": 244,
-            "text": "            regex,"
-          },
-          {
-            "lineNumber": 245,
-            "text": "            (match) =\u003e lastWord + &#96;\u003cmark\u003e${match}\u003c/mark\u003e&#96;"
-          },
-          {
-            "lineNumber": 246,
-            "text": "          );"
-          },
-          {
-            "lineNumber": 247,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 248
-          },
-          {
-            "lineNumber": 249,
-            "text": "        return content;"
-          },
-          {
-            "lineNumber": 250,
-            "text": "      };"
-          },
-          {
-            "lineNumber": 251
-          },
-          {
-            "lineNumber": 252,
-            "text": "      const filteredItems = item.data.filter("
-          },
-          {
-            "lineNumber": 253,
-            "text": "        (d) =\u003e"
-          },
-          {
-            "lineNumber": 254,
-            "text": "          d.title.toLowerCase().includes(searchString) ||"
-          },
-          {
-            "lineNumber": 255,
-            "text": "          (description === \"true\""
-          },
-          {
-            "lineNumber": 256,
-            "text": "            ? d.description?.toLowerCase().includes(searchString)"
-          },
-          {
-            "lineNumber": 257,
-            "text": "            : \"\") ||"
-          },
-          {
-            "lineNumber": 258,
-            "text": "          d.searchKeyword.toLowerCase().includes(searchString) ||"
-          },
-          {
-            "lineNumber": 259,
-            "text": "          (tags === \"true\""
-          },
-          {
-            "lineNumber": 260,
-            "text": "            ? d.tags?.toLowerCase().includes(searchString)"
-          },
-          {
-            "lineNumber": 261,
-            "text": "            : \"\") ||"
-          },
-          {
-            "lineNumber": 262,
-            "text": "          (categories === \"true\""
-          },
-          {
-            "lineNumber": 263,
-            "text": "            ? d.categories?.toLowerCase().includes(searchString)"
-          },
-          {
-            "lineNumber": 264,
-            "text": "            : \"\") ||"
-          },
-          {
-            "lineNumber": 265,
-            "text": "          d.content.toLowerCase().includes(searchString)"
-          },
-          {
-            "lineNumber": 266,
-            "text": "      );"
-          },
-          {
-            "lineNumber": 267
-          },
-          {
-            "lineNumber": 268,
-            "text": "      // pull template from hugo template definition"
-          },
-          {
-            "lineNumber": 315,
-            "text": ";"
-          },
-          {
-            "lineNumber": 387,
-            "text": ";"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 1,
-            "line": 386
-          },
-          "startPosition": {
-            "column": 2,
-            "line": 120
-          }
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js",
-        "signatures": {}
-      },
-      "score": 0.25768840312957764
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 90,
-            "text": "{{- $enriched := slice -}}"
-          },
-          {
-            "lineNumber": 91,
-            "text": "{{- range $nodes -}}"
-          },
-          {
-            "lineNumber": 92,
-            "text": "  {{- $in := index $inDeg .id | default 0 -}}"
-          },
-          {
-            "lineNumber": 93,
-            "text": "  {{- $out := index $outDeg .id | default 0 -}}"
-          },
-          {
-            "lineNumber": 94,
-            "text": "  {{- $total := index $totalDeg .id | default 0 -}}"
-          },
-          {
-            "lineNumber": 95,
-            "text": "  {{- $bodyOut := index $bodyOutDeg .id | default 0 -}}"
-          },
-          {
-            "lineNumber": 96,
-            "text": "  {{- $enriched = $enriched | append (merge . (dict"
-          },
-          {
-            "lineNumber": 97,
-            "text": "    \"inDegree\" $in"
-          },
-          {
-            "lineNumber": 98,
-            "text": "    \"outDegree\" $out"
-          },
-          {
-            "lineNumber": 99,
-            "text": "    \"totalDegree\" $total"
-          },
-          {
-            "lineNumber": 100,
-            "text": "    \"orphan\" (eq $in 0)"
-          },
-          {
-            "lineNumber": 101,
-            "text": "    \"hub\" (ge $total $hubThreshold)"
-          },
-          {
-            "lineNumber": 102,
-            "text": "    \"deadEnd\" (eq $bodyOut 0)"
-          },
-          {
-            "lineNumber": 103,
-            "text": "    \"weak\" (and (lt $total $hubThreshold) (le $total $weakThreshold))"
-          },
-          {
-            "lineNumber": 104,
-            "text": "  )) -}}"
-          },
-          {
-            "lineNumber": 105,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 106
-          },
-          {
-            "lineNumber": 107,
-            "text": "{{- $maxDeg := -1 -}}"
-          },
-          {
-            "lineNumber": 108,
-            "text": "{{- range $totalDeg -}}"
-          },
-          {
-            "lineNumber": 109,
-            "text": "  {{- if gt . $maxDeg -}}"
-          },
-          {
-            "lineNumber": 110,
-            "text": "    {{- $maxDeg = . -}}"
-          },
-          {
-            "lineNumber": 111,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 112,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 113
-          },
-          {
-            "lineNumber": 114,
-            "text": "{{- $nearMax := slice -}}"
-          },
-          {
-            "lineNumber": 115,
-            "text": "{{- range $id, $count := $totalDeg -}}"
-          },
-          {
-            "lineNumber": 116,
-            "text": "  {{- if ge $count (sub $maxDeg 1) -}}"
-          },
-          {
-            "lineNumber": 117,
-            "text": "    {{- $nearMax = $nearMax | append $id -}}"
-          },
-          {
-            "lineNumber": 118,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 119,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 120
-          },
-          {
-            "lineNumber": 121,
-            "text": "{{- $focusId := \"\" -}}"
-          },
-          {
-            "lineNumber": 122,
-            "text": "{{- $bestOut := -1 -}}"
-          },
-          {
-            "lineNumber": 123,
-            "text": "{{- range $nearMax -}}"
-          },
-          {
-            "lineNumber": 124,
-            "text": "  {{- $oid := . -}}"
-          },
-          {
-            "lineNumber": 125,
-            "text": "  {{- $out := index $outDeg $oid | default 0 -}}"
-          },
-          {
-            "lineNumber": 126,
-            "text": "  {{- if gt $out $bestOut -}}"
-          },
-          {
-            "lineNumber": 127,
-            "text": "    {{- $bestOut = $out -}}"
-          },
-          {
-            "lineNumber": 128,
-            "text": "    {{- $focusId = $oid -}}"
-          },
-          {
-            "lineNumber": 129,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 130,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 131
-          },
-          {
-            "lineNumber": 132,
-            "text": "{{- $hubTitles := slice \"Maps of Content\" \"PKM\" \"Getting Started\" -}}"
-          },
-          {
-            "lineNumber": 133,
-            "text": "{{- range $hubTitles -}}"
-          },
-          {
-            "lineNumber": 134,
-            "text": "  {{- $hubTitle := . -}}"
-          },
-          {
-            "lineNumber": 135,
-            "text": "  {{- range $enriched -}}"
-          },
-          {
-            "lineNumber": 136,
-            "text": "    {{- if and (in $nearMax .id) (eq .title $hubTitle) -}}"
-          },
-          {
-            "lineNumber": 137,
-            "text": "      {{- if eq (index $outDeg .id | default 0) $bestOut -}}"
-          },
-          {
-            "lineNumber": 138,
-            "text": "        {{- $focusId = .id -}}"
-          },
-          {
-            "lineNumber": 139,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 140,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 141,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 142,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 143
-          },
-          {
-            "lineNumber": 144,
-            "text": "{{- if eq $focusId \"\" -}}"
-          },
-          {
-            "lineNumber": 145,
-            "text": "  {{- $focusId = index $nearMax 0 -}}"
-          },
-          {
-            "lineNumber": 146,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 147
-          },
-          {
-            "lineNumber": 148,
-            "text": "{{- return (dict \"nodes\" $enriched \"edges\" $edges \"focus\" $focusId \"mode\" \"global\") -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 148
-          },
-          "startPosition": {
-            "line": 88
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/graph-data.html",
-        "signatures": {}
-      },
-      "score": 0.23662513494491577
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 121,
-            "text": "const doSearch = async "
-          },
-          {
-            "lineNumber": 125,
-            "text": "(el) =\u003e {"
-          },
-          {
-            "lineNumber": 126,
-            "text": "const notFoundContent = &#96;"
-          },
-          {
-            "lineNumber": 132,
-            "text": "${search_no_results} \"\u003cb\u003e${escapeHTML(searchString)}\u003c/b\u003e\"\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 133,
-            "text": "  \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 134,
-            "text": "&#96;;"
-          },
-          {
-            "lineNumber": 135,
-            "text": "        el.innerHTML = notFoundContent;"
-          },
-          {
-            "lineNumber": 136,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 137,
-            "text": "    } else {"
-          },
-          {
-            "lineNumber": 138,
-            "text": "      searchIcon \u0026\u0026 (searchIcon.style.display = \"initial\");"
-          },
-          {
-            "lineNumber": 139,
-            "text": "      searchIconReset \u0026\u0026 (searchIconReset.style.display = \"none\");"
-          },
-          {
-            "lineNumber": 140,
-            "text": "      emptySearchResult.forEach((el) =\u003e {"
-          },
-          {
-            "lineNumber": 141,
-            "text": "        el.innerHTML = search_initial_message;"
-          },
-          {
-            "lineNumber": 142,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 143,
-            "text": "    }"
-          },
-          {
-            "lineNumber": 144
-          },
-          {
-            "lineNumber": 145,
-            "text": "    let filteredJSON = includeSectionsInSearch.map((section) =\u003e {"
-          },
-          {
-            "lineNumber": 146,
-            "text": "      const data = jsonData.filter("
-          },
-          {
-            "lineNumber": 147,
-            "text": "        (item) =\u003e slugify(item.section) === slugify(section)"
-          },
-          {
-            "lineNumber": 148,
-            "text": "      );"
-          },
-          {
-            "lineNumber": 149
-          },
-          {
-            "lineNumber": 150,
-            "text": "      const sectionName = section.replace(/[-_]/g, \" \");"
-          },
-          {
-            "lineNumber": 151,
-            "text": "      return {"
-          },
-          {
-            "lineNumber": 152,
-            "text": "        section: capitalizeFirstLetter(sectionName),"
-          },
-          {
-            "lineNumber": 153,
-            "text": "        data,"
-          },
-          {
-            "lineNumber": 154,
-            "text": "      };"
-          },
-          {
-            "lineNumber": 155,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 156
-          },
-          {
-            "lineNumber": 157,
-            "text": "    let searchItem = filteredJSON.filter((item) =\u003e {"
-          },
-          {
-            "lineNumber": 158,
-            "text": "      if (searchString === \"\") {"
-          },
-          {
-            "lineNumber": 159,
-            "text": "        return false;"
-          },
-          {
-            "lineNumber": 160,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 161,
-            "text": "      return item.data.some((el) =\u003e {"
-          },
-          {
-            "lineNumber": 162,
-            "text": "        const regex = new RegExp(searchString, \"gi\");"
-          },
-          {
-            "lineNumber": 163,
-            "text": "        return ("
-          },
-          {
-            "lineNumber": 164,
-            "text": "          el.title.toLowerCase().match(regex) ||"
-          },
-          {
-            "lineNumber": 165,
-            "text": "          el.description?.toLowerCase().match(regex) ||"
-          },
-          {
-            "lineNumber": 166,
-            "text": "          el.searchKeyword.toLowerCase().match(regex) ||"
-          },
-          {
-            "lineNumber": 167,
-            "text": "          el.content.toLowerCase().match(regex) ||"
-          },
-          {
-            "lineNumber": 168,
-            "text": "          el.tags?.toLowerCase().match(regex) ||"
-          },
-          {
-            "lineNumber": 169,
-            "text": "          el.categories?.toLowerCase().match(regex)"
-          },
-          {
-            "lineNumber": 170,
-            "text": "        );"
-          },
-          {
-            "lineNumber": 171,
-            "text": "      });"
-          },
-          {
-            "lineNumber": 172,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 173
-          },
-          {
-            "lineNumber": 174,
-            "text": "    displayResult(searchItem, searchString);"
-          },
-          {
-            "lineNumber": 175
-          },
-          {
-            "lineNumber": 176,
-            "text": "    // Navigate with arrow keys"
-          },
-          {
-            "lineNumber": 177,
-            "text": "    if (searchModal \u0026\u0026 searchString != \"\")"
-          },
-          {
-            "lineNumber": 227,
-            "text": ";"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 1,
-            "line": 226
-          },
-          "startPosition": {
-            "column": 2,
-            "line": 120
-          }
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 9,
-                "line": 121
-              },
-              "startPosition": {
-                "column": 3,
-                "line": 121
-              }
-            },
-            {
-              "endPosition": {
-                "column": 26,
-                "line": 121
-              },
-              "startPosition": {
-                "column": 9,
-                "line": 121
-              }
-            },
-            {
-              "endPosition": {
-                "column": 7,
-                "line": 125
-              },
-              "startPosition": {
-                "column": 7,
-                "line": 125
-              }
-            },
-            {
-              "endPosition": {
-                "column": 9,
-                "line": 126
-              },
-              "startPosition": {
-                "column": 33,
-                "line": 125
-              }
-            },
-            {
-              "endPosition": {
-                "column": 15,
-                "line": 126
-              },
-              "startPosition": {
-                "column": 9,
-                "line": 126
-              }
-            },
-            {
-              "endPosition": {
-                "column": 34,
-                "line": 126
-              },
-              "startPosition": {
-                "column": 15,
-                "line": 126
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.23156845569610596
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /* Featured notes first; each group sorted by wikilink degree (desc), then title (asc). */ -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $pages := .Pages -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{- $graph := partial \"notes/graph-data.html\" .Context -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $scratch := newScratch -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- range $graph.edges -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  {{- $scratch.Add .source 1 -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  {{- $scratch.Add .target 1 -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $sortByConnections := slice -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- range $pages -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $count := $scratch.Get .RelPermalink | default 0 -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- $key := printf \"%05d_%s\" (sub 99999 $count) .Title -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  {{- $sortByConnections = $sortByConnections | append (dict \"page\" . \"key\" $key) -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $sortByConnections = sort $sortByConnections \"key\" -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- $sorted := slice -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- range $sortByConnections -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- $sorted = $sorted | append .page -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- $featured := where $sorted \"Params.featured\" true -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "{{- $rest := complement $featured $sorted -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- return ($featured | append $rest) -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 22
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/sort-by-connections.html",
-        "signatures": {}
-      },
-      "score": 0.22599239647388458
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 156,
-            "text": "### Step 5 — Head-to-head sections"
-          },
-          {
-            "lineNumber": 157
-          },
-          {
-            "lineNumber": 158,
-            "text": "Two groups exist today:"
-          },
-          {
-            "lineNumber": 159
-          },
-          {
-            "lineNumber": 160,
-            "text": "1. **Matches Against Grand Slam Champions** — opponent has won at least one major"
-          },
-          {
-            "lineNumber": 161,
-            "text": "2. **Matches Against Other Top 20 Players** — top-tier opponents without slam section yet"
-          },
-          {
-            "lineNumber": 162
-          },
-          {
-            "lineNumber": 163,
-            "text": "**Promotion rule:** When Eala plays someone listed under **Matches to Watch Out For**, move them to the correct H2H section and remove them from the watch list. Same rule for any opponent who has a completed pro H2H but is still on the watch list (e.g. after a first meeting at a Slam or 1000)."
-          },
-          {
-            "lineNumber": 164
-          },
-          {
-            "lineNumber": 165,
-            "text": "**Slam-winner promotion:** When an opponent in **Other Top 20 Players** wins a Grand Slam singles title — or already has one verified on WTA but is still in Other Top 20 — **promote** them to **Grand Slam Champions** on the next update. See [Slam-winner promotion workflow](#slam-winner-promotion-workflow)."
-          },
-          {
-            "lineNumber": 166
-          },
-          {
-            "lineNumber": 167,
-            "text": "**New opponent rule:**"
-          },
-          {
-            "lineNumber": 168
-          },
-          {
-            "lineNumber": 169,
-            "text": "- Won a Grand Slam (or wins one before/after first meeting) → &#96;### [Name]&#96; under **Grand Slam Champions** — never under Other Top 20, even if they are also a current top-20 player"
-          },
-          {
-            "lineNumber": 170,
-            "text": "- Top 20 or notable rivalry **without** a Slam singles title → new &#96;### [Name]&#96; under **Other Top 20 Players** (WTA profile, H2H link, and YouTube embeds only — no match stat lines)"
-          },
-          {
-            "lineNumber": 171
-          },
-          {
-            "lineNumber": 172,
-            "text": "Grand Slam titles table is required only in the Grand Slam Champions section. Look up titles on the opponent's WTA profile."
-          },
-          {
-            "lineNumber": 173
-          },
-          {
-            "lineNumber": 174,
-            "text": "#### Grand Slam Champions sort"
-          },
-          {
-            "lineNumber": 175
-          },
-          {
-            "lineNumber": 176,
-            "text": "After adding or reordering opponents in **Matches Against Grand Slam Champions**, sort blocks by:"
-          },
-          {
-            "lineNumber": 177
-          },
-          {
-            "lineNumber": 178,
-            "text": "1. **Total Grand Slam singles titles** (descending)"
-          },
-          {
-            "lineNumber": 179,
-            "text": "2. **Tie-break:** opponent whose **most recent Slam title is newer** goes first"
-          },
-          {
-            "lineNumber": 180
-          },
-          {
-            "lineNumber": 181,
-            "text": "Count titles from each opponent's **Grand Slam Titles** table. Do not re-sort **Other Top 20 Players** by Slam count — sort **Other Top 20** blocks **alphabetically by last name** instead."
-          },
-          {
-            "lineNumber": 182
-          },
-          {
-            "lineNumber": 183,
-            "text": "### Step 6 — YouTube embeds"
-          },
-          {
-            "lineNumber": 184
-          },
-          {
-            "lineNumber": 185,
-            "text": "Add &#96;{{\u003c youtube VIDEO_ID \u003e}}&#96; shortcodes below tournament and H2H entries when verified match footage exists. Follow [YouTube embed rules](reference.md#youtube-embed-rules). Never guess video IDs — verify each ID via YouTube oembed (&#96;title&#96; + &#96;author_name&#96;)."
-          },
-          {
-            "lineNumber": 186
-          },
-          {
-            "lineNumber": 187,
-            "text": "Search **official tour/slam channels first**, then **rights-holding broadcasters in any region** (Americas, Europe, Asia-Pacific, Middle East, etc.) before leaving a gap. See [Broadcaster search strategy](reference.md#broadcaster-search-strategy)."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 187
-          },
-          "startPosition": {
-            "line": 154
-          }
-        },
-        "relativeWorkspacePath": "./.cursor/skills/update-alex-eala-tracker/SKILL.md",
-        "signatures": {}
-      },
-      "score": 0.22366094589233398
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 111,
-            "text": "def main() -\u003e None:"
-          },
-          {
-            "lineNumber": 112,
-            "text": "    catalog = load_catalog()"
-          },
-          {
-            "lineNumber": 113,
-            "text": "    for note in catalog:"
-          },
-          {
-            "lineNumber": 114,
-            "text": "        scored = []"
-          },
-          {
-            "lineNumber": 115,
-            "text": "        for n in catalog:"
-          },
-          {
-            "lineNumber": 116,
-            "text": "            if n[\"stem\"] == note[\"stem\"]:"
-          },
-          {
-            "lineNumber": 117,
-            "text": "                continue"
-          },
-          {
-            "lineNumber": 118,
-            "text": "            score = tag_relatedness(note[\"tags\"], n[\"tags\"])"
-          },
-          {
-            "lineNumber": 119,
-            "text": "            if score \u003e 0:"
-          },
-          {
-            "lineNumber": 120,
-            "text": "                scored.append((score, n))"
-          },
-          {
-            "lineNumber": 121,
-            "text": "        scored.sort(key=lambda item: (-item[0], item[1][\"title\"]))"
-          },
-          {
-            "lineNumber": 122,
-            "text": "        atomic = atomize_body(note[\"title\"], note[\"description\"])"
-          },
-          {
-            "lineNumber": 123,
-            "text": "        see_also = build_see_also(note[\"stem\"], note[\"tags\"], catalog)"
-          },
-          {
-            "lineNumber": 124,
-            "text": "        fm, _, _ = split_frontmatter(note[\"path\"].read_text(encoding=\"utf-8\"))"
-          },
-          {
-            "lineNumber": 125,
-            "text": "        note[\"path\"].write_text(f\"{fm}\\n\\n{atomic}\\n\\n{see_also}\", encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 126,
-            "text": "        print(f\"atomized: {note['path'].name}\")"
-          },
-          {
-            "lineNumber": 127
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 128,
-            "text": "    print(f\"\\nDone: {len(catalog)} notes atomized.\")"
-          },
-          {
-            "lineNumber": 129
-          },
-          {
-            "lineNumber": 130
-          },
-          {
-            "lineNumber": 131,
-            "text": "if __name__ == \"__main__\":"
-          },
-          {
-            "lineNumber": 132,
-            "text": "    main()"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 10,
-            "line": 131
-          },
-          "startPosition": {
-            "column": 18,
-            "line": 107
-          }
-        },
-        "relativeWorkspacePath": "./scripts/atomize-notes.py",
-        "signatures": {}
-      },
-      "score": 0.21951699256896973
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /* Featured pages first, then the rest. Sort: \"date\" (newest) or \"title\". */ -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $pages := .Pages -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{- $sort := .Sort | default \"date\" -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $featured := where $pages \"Params.featured\" true -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $rest := complement $featured $pages -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- if eq $sort \"title\" -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  {{- $featured = $featured.ByTitle -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  {{- $rest = $rest.ByTitle -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- else -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $featured = $featured.ByDate.Reverse -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $rest = $rest.ByDate.Reverse -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- return ($featured | append $rest) -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 13
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/sort-featured-first.html",
-        "signatures": {}
-      },
-      "score": 0.21483160555362701
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ $class:= .Class }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{ $context:= .Context }}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{ $permalink:= $context.RelPermalink }}"
-          },
-          {
-            "lineNumber": 4
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{ with site.Params.search }}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  {{ if .enable }}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "    \u003cscript id=\"search-result-item-template\" type=\"text/x-js-template\"\u003e"
-          },
-          {
-            "lineNumber": 8,
-            "text": "      \u003cdiv class=\"search-result-item\"\u003e"
-          },
-          {
-            "lineNumber": 9,
-            "text": "        \u003cdiv class=\"search-result-item-image\"\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "          #{image}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 12,
-            "text": "        \u003cdiv class=\"search-result-item-body\"\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "          \u003ca href=\"#{slug}\" class=\"search-result-item-title\"\u003e#{title}\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 14,
-            "text": "          \u003cp class=\"search-result-item-description\"\u003e#{description}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 15,
-            "text": "          \u003cp class=\"search-result-item-content\"\u003e#{content}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 16,
-            "text": "          \u003cdiv class=\"search-result-item-taxonomies\"\u003e"
-          },
-          {
-            "lineNumber": 17,
-            "text": "            \u003cdiv\u003e"
-          },
-          {
-            "lineNumber": 18,
-            "text": "              \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"currentColor\" viewBox=\"0 0 16 16\" style=\"margin-top:-2px\"\u003e"
-          },
-          {
-            "lineNumber": 19,
-            "text": "                \u003cpath d=\"M11 0H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2 2 2 0 0 0 2-2V4a2 2 0 0 0-2-2 2 2 0 0 0-2-2zm2 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1V3zM2 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V2z\"/\u003e"
-          },
-          {
-            "lineNumber": 20,
-            "text": "              \u003c/svg\u003e"
-          },
-          {
-            "lineNumber": 21,
-            "text": "              #{categories}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 23,
-            "text": "            \u003cdiv\u003e"
-          },
-          {
-            "lineNumber": 24,
-            "text": "              \u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"currentColor\" viewBox=\"0 0 16 16\"\u003e"
-          },
-          {
-            "lineNumber": 25,
-            "text": "                \u003cpath d=\"M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z\"/\u003e"
-          },
-          {
-            "lineNumber": 26,
-            "text": "                \u003cpath d=\"M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z\"/\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "              \u003c/svg\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "              #{tags}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 30,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 31,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    \u003c/script\u003e"
-          },
-          {
-            "lineNumber": 34,
-            "text": "    \u003cdiv"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      class=\"search-page {{ $class }}\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 35
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-page.html",
-        "signatures": {}
-      },
-      "score": 0.2140904664993286
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 119,
-            "text": "# Notes stale/updated tracking uses filesystem mtime (:fileModTime), not Git or manual lastmod fields."
-          },
-          {
-            "lineNumber": 120,
-            "text": "[frontmatter]"
-          },
-          {
-            "lineNumber": 121,
-            "text": "lastmod = [\":fileModTime\"]"
-          },
-          {
-            "lineNumber": 122
-          },
-          {
-            "lineNumber": 123,
-            "text": "############################# Modules ############################"
-          },
-          {
-            "lineNumber": 124,
-            "text": "[module]"
-          },
-          {
-            "lineNumber": 125,
-            "text": "[[module.mounts]]"
-          },
-          {
-            "lineNumber": 126,
-            "text": "source = 'assets'"
-          },
-          {
-            "lineNumber": 127,
-            "text": "target = 'assets'"
-          },
-          {
-            "lineNumber": 128,
-            "text": "[[module.mounts]]"
-          },
-          {
-            "lineNumber": 129,
-            "text": "disableWatch = true"
-          },
-          {
-            "lineNumber": 130,
-            "text": "source = 'hugo_stats.json'"
-          },
-          {
-            "lineNumber": 131,
-            "text": "target = 'assets/notwatching/hugo_stats.json'"
-          },
-          {
-            "lineNumber": 132
-          },
-          {
-            "lineNumber": 133
-          },
-          {
-            "lineNumber": 134,
-            "text": "############################# Outputs ############################"
-          },
-          {
-            "lineNumber": 135,
-            "text": "[outputs]"
-          },
-          {
-            "lineNumber": 136,
-            "text": "home     = [\"HTML\", \"RSS\", \"WebAppManifest\", \"SearchIndex\", \"llms\", \"llmsfull\", \"md\"]"
-          },
-          {
-            "lineNumber": 137,
-            "text": "page     = [\"HTML\", \"RSS\", \"md\"]"
-          },
-          {
-            "lineNumber": 138,
-            "text": "section  = [\"HTML\", \"RSS\", \"md\"]"
-          },
-          {
-            "lineNumber": 139,
-            "text": "taxonomy = [\"HTML\", \"RSS\", \"md\"]"
-          },
-          {
-            "lineNumber": 140,
-            "text": "term     = [\"HTML\", \"RSS\", \"md\"]"
-          },
-          {
-            "lineNumber": 141
-          },
-          {
-            "lineNumber": 142,
-            "text": "############################# Imaging ############################"
-          },
-          {
-            "lineNumber": 143,
-            "text": "[imaging]"
-          },
-          {
-            "lineNumber": 144,
-            "text": "# See https://github.com/disintegration/imaging"
-          },
-          {
-            "lineNumber": 145,
-            "text": "# Default JPEG or WebP quality setting. Default is 75."
-          },
-          {
-            "lineNumber": 146,
-            "text": "quality = 80"
-          },
-          {
-            "lineNumber": 147,
-            "text": "resampleFilter = \"Lanczos\""
-          },
-          {
-            "lineNumber": 148
-          },
-          {
-            "lineNumber": 149,
-            "text": "############################ Caches ##############################"
-          },
-          {
-            "lineNumber": 150,
-            "text": "[caches]"
-          },
-          {
-            "lineNumber": 151,
-            "text": "[caches.images]"
-          },
-          {
-            "lineNumber": 152,
-            "text": "dir = \":resourceDir/_gen\""
-          },
-          {
-            "lineNumber": 153,
-            "text": "maxAge = \"720h\""
-          },
-          {
-            "lineNumber": 154
-          },
-          {
-            "lineNumber": 155,
-            "text": "[caches.assets]"
-          },
-          {
-            "lineNumber": 156,
-            "text": "dir = \":resourceDir/_gen\""
-          },
-          {
-            "lineNumber": 157,
-            "text": "maxAge = \"720h\""
-          },
-          {
-            "lineNumber": 158
-          },
-          {
-            "lineNumber": 159
-          },
-          {
-            "lineNumber": 160,
-            "text": "############################ Markup ##############################"
-          },
-          {
-            "lineNumber": 161,
-            "text": "[markup]"
-          },
-          {
-            "lineNumber": 162,
-            "text": "[markup.goldmark.renderer]"
-          },
-          {
-            "lineNumber": 163,
-            "text": "unsafe = true"
-          },
-          {
-            "lineNumber": 164
-          },
-          {
-            "lineNumber": 165,
-            "text": "# Keep the typographer extension on (curly quotes, ellipses, angle quotes) but"
-          },
-          {
-            "lineNumber": 166,
-            "text": "# render &#96;--&#96; and &#96;---&#96; as literal ASCII hyphens instead of en/em dashes."
-          },
-          {
-            "lineNumber": 167,
-            "text": "[markup.goldmark.extensions.typographer]"
-          },
-          {
-            "lineNumber": 168,
-            "text": "emDash = \"--\""
-          },
-          {
-            "lineNumber": 169,
-            "text": "enDash = \"-\""
-          },
-          {
-            "lineNumber": 170
-          },
-          {
-            "lineNumber": 171,
-            "text": "[markup.highlight]"
-          },
-          {
-            "lineNumber": 172,
-            "text": "style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html"
-          },
-          {
-            "lineNumber": 173,
-            "text": "lineNumbersInTable = false"
-          },
-          {
-            "lineNumber": 174
-          },
-          {
-            "lineNumber": 175,
-            "text": "[markup.tableOfContents]"
-          },
-          {
-            "lineNumber": 176,
-            "text": "startLevel = 2"
-          },
-          {
-            "lineNumber": 177,
-            "text": "endLevel = 5"
-          },
-          {
-            "lineNumber": 178,
-            "text": "ordered = true"
-          },
-          {
-            "lineNumber": 179
-          },
-          {
-            "lineNumber": 180
-          },
-          {
-            "lineNumber": 181,
-            "text": "########################### Media types ###########################"
-          },
-          {
-            "lineNumber": 182,
-            "text": "[mediaTypes]"
-          },
-          {
-            "lineNumber": 183,
-            "text": "[mediaTypes.\"application/manifest+json\"]"
-          },
-          {
-            "lineNumber": 184,
-            "text": "suffixes = [\"webmanifest\"]"
-          },
-          {
-            "lineNumber": 185
-          },
-          {
-            "lineNumber": 186
-          },
-          {
-            "lineNumber": 187,
-            "text": "########################### Output Format ##########################"
-          },
-          {
-            "lineNumber": 188,
-            "text": "[outputFormats]"
-          },
-          {
-            "lineNumber": 189,
-            "text": "[outputFormats.WebAppManifest]"
-          },
-          {
-            "lineNumber": 190,
-            "text": "mediaType = \"application/manifest+json\""
-          },
-          {
-            "lineNumber": 191,
-            "text": "rel = \"manifest\""
-          },
-          {
-            "lineNumber": 192
-          },
-          {
-            "lineNumber": 193,
-            "text": "[outputFormats.SearchIndex]"
-          },
-          {
-            "lineNumber": 194,
-            "text": "mediaType = \"application/json\""
-          },
-          {
-            "lineNumber": 195,
-            "text": "baseName = \"searchindex\""
-          },
-          {
-            "lineNumber": 196,
-            "text": "isPlainText = true"
-          },
-          {
-            "lineNumber": 197,
-            "text": "notAlternative = true"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 199
-          },
-          "startPosition": {
-            "line": 118
-          }
-        },
-        "relativeWorkspacePath": "./hugo.toml",
-        "signatures": {}
-      },
-      "score": 0.19993619620800018
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Tag/category related notes for a page (blog → notes garden)."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Mirrors scripts/wire-notes-obsidian.py related_notes(); falls back to Hugo"
-          },
-          {
-            "lineNumber": 4,
-            "text": "  .Related filtered to the notes section when there is no direct overlap."
-          },
-          {
-            "lineNumber": 5,
-            "text": "  Returns a slice of dicts: Page, Score, Shared."
-          },
-          {
-            "lineNumber": 6,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $page := .Context -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $limit := .Limit | default 5 -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $labels := $page.Params.tags | default slice -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $labels = $labels | append ($page.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $results := slice -}}"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- if gt (len $labels) 0 -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- $notes := partial \"notes/pages.html\" (dict) -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- range $notes -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    {{- if eq .RelPermalink $page.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "      {{- continue -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    {{- $noteLabels := .Params.tags | default slice -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $noteLabels = $noteLabels | append (.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- if eq (len $noteLabels) 0 -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- continue -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    {{- $shared := slice -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    {{- range $labels -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "      {{- if in $noteLabels . -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "        {{- $shared = $shared | append . -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    {{- $overlap := len $shared -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {{- if gt $overlap 0 -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      {{- $minLen := len $labels -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "      {{- if lt (len $noteLabels) $minLen -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "        {{- $minLen = len $noteLabels -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      {{- $score := div (float $overlap) (float $minLen) -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      {{- $results = $results | append (dict \"Page\" . \"Score\" $score \"Shared\" $shared) -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "  {{- $results = sort $results \"Score\" \"desc\" -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  {{- $results = first $limit $results -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 43
-          },
-          {
-            "lineNumber": 44,
-            "text": "{{- if eq (len $results) 0 -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  {{- $relatedNotes := slice -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "  {{- range site.RegularPages.Related $page -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "    {{- if eq .Section \"notes\" -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "      {{- if partial \"notes/is-utility-page.html\" . -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "      {{- $relatedNotes = $relatedNotes | append (dict \"Page\" . \"Score\" 0.0 \"Shared\" slice) -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "  {{- $results = first $limit $relatedNotes -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57,
-            "text": "{{- return $results -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 57
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/related-notes.html",
-        "signatures": {}
-      },
-      "score": 0.19436979293823242
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 165,
-            "text": "def related_notes("
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 166,
-            "text": "    stem: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 167,
-            "text": "    title: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 168,
-            "text": "    tags: list[str],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 169,
-            "text": "    catalog: list[dict],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 170,
-            "text": "    limit: int = 5,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 171,
-            "text": ") -\u003e list[dict]:"
-          },
-          {
-            "lineNumber": 172,
-            "text": "    scored: list[tuple[float, dict]] = []"
-          },
-          {
-            "lineNumber": 173,
-            "text": "    for note in catalog:"
-          },
-          {
-            "lineNumber": 174,
-            "text": "        if note[\"stem\"] == stem:"
-          },
-          {
-            "lineNumber": 175,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 176,
-            "text": "        score = tag_relatedness(tags, note[\"tags\"])"
-          },
-          {
-            "lineNumber": 177,
-            "text": "        if score \u003c= 0:"
-          },
-          {
-            "lineNumber": 178,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 179,
-            "text": "        scored.append((score, note))"
-          },
-          {
-            "lineNumber": 180,
-            "text": "    scored.sort(key=lambda item: (-item[0], item[1][\"title\"]))"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 181,
-            "text": "    return [note for _, note in scored[:limit]]"
-          },
-          {
-            "lineNumber": 182
-          },
-          {
-            "lineNumber": 183
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 184,
-            "text": "def strip_section(body: str, heading: str) -\u003e str:"
-          },
-          {
-            "lineNumber": 185,
-            "text": "    pattern = rf\"\\n{re.escape(heading)}[\\s\\S]*$\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 185
-          },
-          "startPosition": {
-            "column": 51,
-            "line": 161
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {}
-      },
-      "score": 0.19426506757736206
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 225,
-            "text": "**Grand Slam Champions** (sorted by Slam titles): Iga Swiatek (326408), Elena Rybakina (324166), Coco Gauff (328560), Barbora Krejcikova (318314), Madison Keys (316959), Marketa Vondrousova (323027), Jelena Ostapenko (319939)"
-          },
-          {
-            "lineNumber": 226
-          },
-          {
-            "lineNumber": 227,
-            "text": "**Other Top 20** (alphabetical by last name): Ekaterina Alexandrova (319007), Leylah Fernandez (326735), Iva Jovic (332285), Marta Kostyuk (326482), Karolina Muchova (322191), Linda Noskova (329668), Jasmine Paolini (319280), Jessica Pegula (316956), Elina Svitolina (316738), Clara Tauson (327793)"
-          },
-          {
-            "lineNumber": 228
-          },
-          {
-            "lineNumber": 229,
-            "text": "Sort **Other Top 20** and **Matches to Watch Out For** alphabetically by **last name** when adding or reordering entries."
-          },
-          {
-            "lineNumber": 230
-          },
-          {
-            "lineNumber": 231,
-            "text": "**Paolini (319280):** French Open 2024 **singles** champion, but Eala's only meeting is the Rome 2025 **doubles** QF vs Paolini/Errani — keep in **Other Top 20** until a singles H2H exists. Do **not** promote on doubles-Slam titles alone."
-          },
-          {
-            "lineNumber": 232
-          },
-          {
-            "lineNumber": 233,
-            "text": "## Surface labels"
-          },
-          {
-            "lineNumber": 234
-          },
-          {
-            "lineNumber": 235,
-            "text": "Use exactly: &#96;Hard Court&#96;, &#96;Clay Court&#96;, &#96;Grass Court&#96;"
-          },
-          {
-            "lineNumber": 236
-          },
-          {
-            "lineNumber": 237,
-            "text": "## Result labels"
-          },
-          {
-            "lineNumber": 238
-          },
-          {
-            "lineNumber": 239,
-            "text": "Use exactly: &#96;Win&#96;, &#96;Loss&#96;, or &#96;Win (Retired)&#96; when applicable"
-          },
-          {
-            "lineNumber": 240
-          },
-          {
-            "lineNumber": 241,
-            "text": "## Link preferences"
-          },
-          {
-            "lineNumber": 242
-          },
-          {
-            "lineNumber": 243,
-            "text": "| Content | Preferred link |"
-          },
-          {
-            "lineNumber": 244,
-            "text": "| --- | --- |"
-          },
-          {
-            "lineNumber": 245,
-            "text": "| WTA tour matches | &#96;tennis.com&#96; tournament match URL |"
-          },
-          {
-            "lineNumber": 246,
-            "text": "| WTA official scores | &#96;wtatennis.com&#96; tournament scores URL |"
-          },
-          {
-            "lineNumber": 247,
-            "text": "| Grand Slams | WTA scores first, then official slam match page |"
-          },
-          {
-            "lineNumber": 248,
-            "text": "| Player / H2H | &#96;wtatennis.com&#96; |"
-          },
-          {
-            "lineNumber": 249,
-            "text": "| Exit round (tournaments) | Main line links to deepest round played; earlier rounds on sub-bullets |"
-          },
-          {
-            "lineNumber": 250
-          },
-          {
-            "lineNumber": 251,
-            "text": "## YouTube embed rules"
-          },
-          {
-            "lineNumber": 252
-          },
-          {
-            "lineNumber": 253,
-            "text": "Embed only when the video shows **actual tennis** (points, games, match action). Reject news segments that announce results without match footage."
-          },
-          {
-            "lineNumber": 254
-          },
-          {
-            "lineNumber": 255,
-            "text": "### Placement"
-          },
-          {
-            "lineNumber": 256
-          },
-          {
-            "lineNumber": 257,
-            "text": "- **WTA tournament entries (singles):** up to two embeds directly below the entry — the **last two matches** played, **earlier round first**"
-          },
-          {
-            "lineNumber": 258,
-            "text": "- **Grand Slams (singles):** embed below the tournament block — one per round when separate verified uploads exist"
-          },
-          {
-            "lineNumber": 259,
-            "text": "- **Grand Slams (doubles):** same as singles; search with &#96;doubles&#96;, partner surname, and both team names (e.g. &#96;Eala Lys Wimbledon doubles&#96;, &#96;Eala Zarazua Roland Garros doubles&#96;)"
-          },
-          {
-            "lineNumber": 260,
-            "text": "- **H2H sections (Grand Slam Champions):** match stat lines plus YouTube embeds below relevant match lines"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 260
-          },
-          "startPosition": {
-            "line": 224
-          }
-        },
-        "relativeWorkspacePath": "./.cursor/skills/update-alex-eala-tracker/reference.md",
-        "signatures": {}
-      },
-      "score": 0.1934116929769516
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 259,
-            "text": "- **Grand Slams (doubles):** same as singles; search with &#96;doubles&#96;, partner surname, and both team names (e.g. &#96;Eala Lys Wimbledon doubles&#96;, &#96;Eala Zarazua Roland Garros doubles&#96;)"
-          },
-          {
-            "lineNumber": 260,
-            "text": "- **H2H sections (Grand Slam Champions):** match stat lines plus YouTube embeds below relevant match lines"
-          },
-          {
-            "lineNumber": 261,
-            "text": "- **H2H sections (Other Top 20 Players):** YouTube embeds only — no match stat lines"
-          },
-          {
-            "lineNumber": 262
-          },
-          {
-            "lineNumber": 263,
-            "text": "**Duplicate embeds:** When the same &#96;VIDEO_ID&#96; would appear in both a tournament block and an H2H section, keep it in **one place only**. Prefer **H2H sections** for opponent-specific duplicates; tournament blocks keep non-overlapping round highlights only. A tournament entry may have **no embeds** when every verified video was moved to H2H (e.g. Miami 2025 SF vs Pegula/Świątek)."
-          },
-          {
-            "lineNumber": 264
-          },
-          {
-            "lineNumber": 265,
-            "text": "- **WTA tournament entries (doubles):** primary &#96;wtatennis.com&#96; link on the exit round; sub-bullets for earlier rounds. Up to two verified embeds below the entry (last two rounds, earlier first)."
-          },
-          {
-            "lineNumber": 266
-          },
-          {
-            "lineNumber": 267,
-            "text": "Search in this order until a verified match video is found:"
-          },
-          {
-            "lineNumber": 268
-          },
-          {
-            "lineNumber": 269,
-            "text": "1. **Official tour / slam channels** — WTA (&#96;WTA&#96;), LTA (&#96;LTA&#96;), Grand Slam channels (&#96;Australian Open&#96;, &#96;Wimbledon&#96;, &#96;US Open Tennis Championships&#96;, &#96;Roland-Garros&#96;), tournament organizers (&#96;Tennis Canada&#96;, &#96;Tennis Australia&#96;, etc.)"
-          },
-          {
-            "lineNumber": 270,
-            "text": "2. **Rights-holding broadcasters (any region)** — verified uploads from networks that hold TV/streaming rights for that event. Accept when &#96;author_name&#96; is a known broadcaster and the title clearly names the match (both players or player + round), tournament, and includes match footage labels such as &#96;Highlights&#96;, &#96;Extended Highlights&#96;, &#96;Match Highlights&#96;, &#96;Full Match&#96;, &#96;REPLAY&#96;, &#96;H/L&#96;, or regional equivalents."
-          },
-          {
-            "lineNumber": 271
-          },
-          {
-            "lineNumber": 272,
-            "text": "Do **not** limit broadcaster search to one country. For every gap, search globally before omitting an embed."
-          },
-          {
-            "lineNumber": 273
-          },
-          {
-            "lineNumber": 274,
-            "text": "### Broadcaster search strategy"
-          },
-          {
-            "lineNumber": 275
-          },
-          {
-            "lineNumber": 276,
-            "text": "Run multiple YouTube queries per missing match:"
-          },
-          {
-            "lineNumber": 277
-          },
-          {
-            "lineNumber": 278,
-            "text": "1. &#96;[Player A] [Player B] [Tournament] [Year] highlights&#96;"
-          },
-          {
-            "lineNumber": 279,
-            "text": "2. For **doubles:** &#96;[Eala] [Partner] [Opponent pair or surnames] [Slam] [Year] doubles highlights&#96; — also try partner-only pair names from the draw"
-          },
-          {
-            "lineNumber": 280,
-            "text": "3. Same query + broadcaster names from the table below (e.g. &#96;beIN&#96;, &#96;Eurosport&#96;, &#96;Tennis Channel&#96;, &#96;SPOTV&#96;)"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 280
-          },
-          "startPosition": {
-            "line": 258
-          }
-        },
-        "relativeWorkspacePath": "./.cursor/skills/update-alex-eala-tracker/reference.md",
-        "signatures": {}
-      },
-      "score": 0.19328594207763672
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Resolve the document \u003ctitle\u003e / og:title value."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Non-home pages: page-specific meta_title (or fallbacks) + \" | JoRap Notes\"."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Homepage: meta_title verbatim when set."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $titleSuffix := site.Params.metadata.title_suffix | default site.Title -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $suffix := printf \" | %s\" $titleSuffix -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $title := site.Title -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- if .IsHome -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- with .Params.meta_title -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "    {{- $title = . -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- else -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- $base := \"\" -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- if .Params.meta_title -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    {{- $base = .Params.meta_title -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  {{- else if .Params.title -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    {{- $base = .Params.title -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- else if or (eq .Kind \"term\") (eq .Kind \"taxonomy\") -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $base = .Title | title -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- else if .Title -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "    {{- $base = .Title -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- if $base -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    {{- $legacy := site.Params.metadata.legacy_title_suffixes | default (slice \"JoRap Notes\" \"JoRap\" \"Notes Garden\") -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    {{- $legacy = $legacy | append $titleSuffix site.Title | uniq -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    {{- range seq 5 -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "      {{- range $legacy -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "        {{- $base = strings.TrimSuffix (printf \" | %s\" .) $base | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "    {{- $title = printf \"%s%s\" $base $suffix -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "{{- return $title -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 35
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/page-meta-title.html",
-        "signatures": {}
-      },
-      "score": 0.19194650650024414
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 183,
-            "text": "### Step 6 — YouTube embeds"
-          },
-          {
-            "lineNumber": 184
-          },
-          {
-            "lineNumber": 185,
-            "text": "Add &#96;{{\u003c youtube VIDEO_ID \u003e}}&#96; shortcodes below tournament and H2H entries when verified match footage exists. Follow [YouTube embed rules](reference.md#youtube-embed-rules). Never guess video IDs — verify each ID via YouTube oembed (&#96;title&#96; + &#96;author_name&#96;)."
-          },
-          {
-            "lineNumber": 186
-          },
-          {
-            "lineNumber": 187,
-            "text": "Search **official tour/slam channels first**, then **rights-holding broadcasters in any region** (Americas, Europe, Asia-Pacific, Middle East, etc.) before leaving a gap. See [Broadcaster search strategy](reference.md#broadcaster-search-strategy)."
-          },
-          {
-            "lineNumber": 188
-          },
-          {
-            "lineNumber": 189,
-            "text": "For **Best Performances in WTA Tournaments** (singles), embed the **last two matches** of each run, in chronological order (earlier round first, exit round second)."
-          },
-          {
-            "lineNumber": 190
-          },
-          {
-            "lineNumber": 191,
-            "text": "For **Grand Slam Main Draw Results** (singles and doubles), search for verified match footage for **each round played**. Embed below the tournament block — one shortcode per round when separate official/broadcaster uploads exist; otherwise one embed for the run. Same channel rules as singles; include &#96;doubles&#96; / both pair names in YouTube queries."
-          },
-          {
-            "lineNumber": 192
-          },
-          {
-            "lineNumber": 193,
-            "text": "### Step 7 — Verify"
-          },
-          {
-            "lineNumber": 194
-          },
-          {
-            "lineNumber": 195,
-            "text": "- No duplicate tournament lines"
-          },
-          {
-            "lineNumber": 196,
-            "text": "- Years descending within each subsection"
-          },
-          {
-            "lineNumber": 197,
-            "text": "- Link order: &#96;wtatennis.com&#96; before &#96;tennis.com&#96; or official slam site everywhere"
-          },
-          {
-            "lineNumber": 198,
-            "text": "- Grand Slam Champions section sorted by Slam titles (see above)"
-          },
-          {
-            "lineNumber": 199,
-            "text": "- Grand Slam Champions **Matches** lists are newest-first"
-          },
-          {
-            "lineNumber": 200,
-            "text": "- No Slam singles title-holder left in Other Top 20 (promote if found)"
-          },
-          {
-            "lineNumber": 201,
-            "text": "- **At a glance** matches WTA Rankings and latest milestones"
-          },
-          {
-            "lineNumber": 202,
-            "text": "- YouTube embeds from official/broadcaster channels only — no fan reuploads"
-          },
-          {
-            "lineNumber": 203,
-            "text": "- No duplicate &#96;VIDEO_ID&#96; across tournament and H2H sections (H2H wins)"
-          },
-          {
-            "lineNumber": 204,
-            "text": "- Exit-round tournament links point to the deepest round played"
-          },
-          {
-            "lineNumber": 205,
-            "text": "- Tournament names are **brand-free** and include &#96;(WTA 125|250|500|1000)&#96; on every WTA tour line; Grand Slams use the four major names only"
-          },
-          {
-            "lineNumber": 206,
-            "text": "- H2H match lines use brand-free tournament names"
-          },
-          {
-            "lineNumber": 207,
-            "text": "- Links resolve (fetch or spot-check key URLs)"
-          },
-          {
-            "lineNumber": 208,
-            "text": "- &#96;lastmod&#96; bumped; other frontmatter unchanged unless user asks"
-          },
-          {
-            "lineNumber": 209,
-            "text": "- Run &#96;read_lints&#96; on the edited file if available"
-          },
-          {
-            "lineNumber": 210
-          },
-          {
-            "lineNumber": 211,
-            "text": "## Link format rules"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 212
-          },
-          "startPosition": {
-            "line": 181
-          }
-        },
-        "relativeWorkspacePath": "./.cursor/skills/update-alex-eala-tracker/SKILL.md",
-        "signatures": {}
-      },
-      "score": 0.19067589938640594
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Cached lookup of all published notes by title, slug, filename, and aliases."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Returns dict: byKey (lowercase key → Page), notes (slice of Pages)."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $notes := partial \"notes/pages.html\" (dict \"IncludeUtility\" true) -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $byKey := dict -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- range $notes -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  {{- $page := . -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- $keys := slice $page.Title -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- with $page.Params.slug -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "    {{- $keys = $keys | append . -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  {{- with $page.File -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    {{- $keys = $keys | append .ContentBaseName -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  {{- with $page.Params.aliases -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    {{- $keys = union $keys . -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- range $keys -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $byKey = merge $byKey (dict (lower .) $page) -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "{{- return (dict \"byKey\" $byKey \"notes\" $notes) -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 23
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/link-registry.html",
-        "signatures": {}
-      },
-      "score": 0.1878173053264618
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 41,
-            "text": "{"
-          },
-          {
-            "lineNumber": 42,
-            "text": "  \"section\": \"{{.Section | humanize}}\","
-          },
-          {
-            "lineNumber": 43,
-            "text": "  \"slug\": \"{{- .RelPermalink -}}\","
-          },
-          {
-            "lineNumber": 44,
-            "text": "  \"title\": \"{{- htmlEscape .Title -}}\","
-          },
-          {
-            "lineNumber": 45,
-            "text": "  \"description\": \"{{- htmlEscape .Description}}\","
-          },
-          {
-            "lineNumber": 46,
-            "text": "  \"date\": \"{{- $date -}}\","
-          },
-          {
-            "lineNumber": 47,
-            "text": "  \"image\": {{$image | jsonify}},"
-          },
-          {
-            "lineNumber": 48,
-            "text": "  \"imageSM\": {{$imageSM | jsonify}},"
-          },
-          {
-            "lineNumber": 49,
-            "text": "  \"searchKeyword\": \"{{- htmlEscape .Params.search_keyword -}}\","
-          },
-          {
-            "lineNumber": 50,
-            "text": "  \"categories\": \"{{- if .Params.categories -}}{{- delimit .Params.categories &#96;, &#96; -}}{{- end -}}\","
-          },
-          {
-            "lineNumber": 51,
-            "text": "  \"tags\": \"{{- if .Params.tags -}}{{- delimit .Params.tags &#96;, &#96; -}}{{- end -}}\","
-          },
-          {
-            "lineNumber": 52,
-            "text": "  \"content\": {{- $e.Plain | jsonify -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "}{{- if ne $i (sub $totalPagesLength 1) -}},{{- end -}}"
-          },
-          {
-            "lineNumber": 54
-          },
-          {
-            "lineNumber": 55,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "{{- end -}}]"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 56
-          },
-          "startPosition": {
-            "line": 40
-          }
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/search/layouts/_default/list.searchindex.json",
-        "signatures": {}
-      },
-      "score": 0.18708139657974243
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 229,
-            "text": "const displayResult = "
-          },
-          {
-            "lineNumber": 230,
-            "text": "const generateSearchResultHTML = "
-          },
-          {
-            "lineNumber": 266
-          },
-          {
-            "lineNumber": 267
-          },
-          {
-            "lineNumber": 268,
-            "text": "      // pull template from hugo template definition"
-          },
-          {
-            "lineNumber": 269,
-            "text": "      let templateDefinition ="
-          },
-          {
-            "lineNumber": 270,
-            "text": "        searchResultItemTemplate != null"
-          },
-          {
-            "lineNumber": 271,
-            "text": "          ? searchResultItemTemplate.innerHTML"
-          },
-          {
-            "lineNumber": 272,
-            "text": "          : &#96;"
-          },
-          {
-            "lineNumber": 273,
-            "text": "          \u003cdiv class=\"search-result-item\"\u003e"
-          },
-          {
-            "lineNumber": 274,
-            "text": "          #{ isset image }\u003cdiv class=\"search-result-item-image\"\u003e#{image}\u003c/div\u003e#{ end }"
-          },
-          {
-            "lineNumber": 275,
-            "text": "          \u003cdiv class=\"search-result-item-body\"\u003e"
-          },
-          {
-            "lineNumber": 276,
-            "text": "            \u003ca href=\"#{slug}\" class=\"search-result-item-title\"\u003e#{title}\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 277,
-            "text": "            #{ isset description }\u003cp class=\"search-result-item-description\"\u003e#{description}\u003c/p\u003e#{ end }"
-          },
-          {
-            "lineNumber": 278,
-            "text": "            \u003cp class=\"search-result-item-content\"\u003e#{content}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 279,
-            "text": "            \u003cdiv class=\"search-result-item-taxonomies\"\u003e"
-          },
-          {
-            "lineNumber": 280,
-            "text": "              #{ isset categories }\u003cdiv\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"currentColor\" viewBox=\"0 0 16 16\" style=\"margin-top:-2px\"\u003e\u003cpath d=\"M11 0H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2 2 2 0 0 0 2-2V4a2 2 0 0 0-2-2 2 2 0 0 0-2-2zm2 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1V3zM2 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V2z\"/\u003e\u003c/svg\u003e#{categories}\u003c/div\u003e#{ end }"
-          },
-          {
-            "lineNumber": 281,
-            "text": "              "
-          },
-          {
-            "lineNumber": 282,
-            "text": "              #{ isset tags }\u003cdiv\u003e\u003csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" fill=\"currentColor\" viewBox=\"0 0 16 16\"\u003e\u003cpath d=\"M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z\"/\u003e\u003cpath d=\"M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z\"/\u003e\u003c/svg\u003e#{tags}\u003c/div\u003e#{ end }"
-          },
-          {
-            "lineNumber": 283,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 284,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 285,
-            "text": "        \u003c/div\u003e&#96;;"
-          },
-          {
-            "lineNumber": 286
-          },
-          {
-            "lineNumber": 287,
-            "text": "      const renderedItems = filteredItems"
-          },
-          {
-            "lineNumber": 288,
-            "text": "        .map"
-          },
-          {
-            "lineNumber": 307
-          },
-          {
-            "lineNumber": 308,
-            "text": ";"
-          },
-          {
-            "lineNumber": 315,
-            "text": ";"
-          },
-          {
-            "lineNumber": 387,
-            "text": ";"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 1,
-            "line": 386
-          },
-          "startPosition": {
-            "column": 2,
-            "line": 228
-          }
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 9,
-                "line": 229
-              },
-              "startPosition": {
-                "column": 3,
-                "line": 229
-              }
-            },
-            {
-              "endPosition": {
-                "column": 25,
-                "line": 229
-              },
-              "startPosition": {
-                "column": 9,
-                "line": 229
-              }
-            },
-            {
-              "endPosition": {
-                "column": 11,
-                "line": 230
-              },
-              "startPosition": {
-                "column": 5,
-                "line": 230
-              }
-            },
-            {
-              "endPosition": {
-                "column": 38,
-                "line": 230
-              },
-              "startPosition": {
-                "column": 11,
-                "line": 230
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.18674980103969574
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{/*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Local override of gethugothemes/hugo-modules/seo-tools/basic-seo."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Identical to upstream except the \u003cbase href\u003e tag is intentionally removed."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Upstream emits \u003cbase href=\"{{ .Permalink }}\" /\u003e, which pins every document's"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  asset resolution to the canonical host. That breaks any non-canonical host"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  (e.g. Cloudflare/Netlify previews like jorapdotcom.pages.dev) because the"
-          },
-          {
-            "lineNumber": 7,
-            "text": "  SRI-fingerprinted CSS/JS become cross-origin to the document and the browser"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  silently refuses to apply them. Hugo's root-relative URLs (/css/..., /js/...)"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  resolve correctly on any host without a \u003cbase\u003e tag, so we drop it entirely."
-          },
-          {
-            "lineNumber": 10,
-            "text": "*/}}"
-          },
-          {
-            "lineNumber": 11
-          },
-          {
-            "lineNumber": 12,
-            "text": "\u003c!-- checking title --\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{ $title := partial \"page-meta-title.html\" . }}"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15
-          },
-          {
-            "lineNumber": 16,
-            "text": "\u003c!-- checking description (never default to .Summary — it panics on short note bodies in Hugo 0.163+) --\u003e"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{ $description := \"\" }}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{ if .Params.meta_description }}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{ $description = .Params.meta_description }}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{ else if .Params.description }}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{ $description = .Params.description }}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{ else if site.Params.metadata.description }}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  {{ $description = site.Params.metadata.description }}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "{{ else }}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{ $description = .Plain | plainify | truncate 160 }}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{ end }}"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "\u003c!-- checking og image --\u003e"
-          },
-          {
-            "lineNumber": 30,
-            "text": "{{ $imagePath := site.Params.metadata.image }}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "{{ if .Params.meta_image }}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  {{ $imagePath = .Params.meta_image }}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  \u003c!-- checking multiple images --\u003e"
-          },
-          {
-            "lineNumber": 34,
-            "text": "{{ else if .Params.images }}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "  {{ range first 1 .Params.images }}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    {{ $imagePath = . }}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "  {{ end }}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "  \u003c!-- checking single images --\u003e"
-          },
-          {
-            "lineNumber": 39,
-            "text": "{{ else if .Params.image }}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "  {{ $imagePath = .Params.image }}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "{{ end }}"
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "lineNumber": 43,
-            "text": "\u003c!-- title --\u003e"
-          },
-          {
-            "lineNumber": 44,
-            "text": "\u003ctitle\u003e{{ $title }}\u003c/title\u003e"
-          },
-          {
-            "lineNumber": 45
-          },
-          {
-            "lineNumber": 46,
-            "text": "\u003c!-- meta noindex --\u003e"
-          },
-          {
-            "lineNumber": 47,
-            "text": "{{ if .Param \"noindex\" }}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "  \u003cmeta name=\"robots\" content=\"noindex,nofollow\" /\u003e"
-          },
-          {
-            "lineNumber": 49,
-            "text": "{{ end }}"
-          },
-          {
-            "lineNumber": 50
-          },
-          {
-            "lineNumber": 51
-          },
-          {
-            "lineNumber": 52,
-            "text": "\u003c!-- meta canonical --\u003e"
-          },
-          {
-            "lineNumber": 53,
-            "text": "{{ with .Params.canonical }}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "  \u003clink rel=\"canonical\" href=\"{{ . }}\" itemprop=\"url\" /\u003e"
-          },
-          {
-            "lineNumber": 55,
-            "text": "{{ end }}"
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57
-          },
-          {
-            "lineNumber": 58,
-            "text": "\u003c!-- multilingual SEO optimizations --\u003e"
-          },
-          {
-            "lineNumber": 59,
-            "text": "{{ if .IsTranslated }}"
-          },
-          {
-            "lineNumber": 60,
-            "text": "  {{ range .AllTranslations }}"
-          },
-          {
-            "lineNumber": 61,
-            "text": "    \u003clink rel=\"alternate\" hreflang=\"{{ .Lang }}\" href=\"{{ .Permalink }}\" /\u003e"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 61
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/basic-seo.html",
-        "signatures": {}
-      },
-      "score": 0.18596449494361877
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Tag/category related blog posts for any page (notes → blog)."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Falls back to Hugo .Related (blog only), then recent blog posts."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Returns a slice of pages."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $page := .Context -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $limit := .Limit | default 3 -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $labels := $page.Params.tags | default slice -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $labels = $labels | append ($page.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $results := slice -}}"
-          },
-          {
-            "lineNumber": 11
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $blogPages := where (where site.RegularPages \"Section\" \"blog\") \"Draft\" false -}}"
-          },
-          {
-            "lineNumber": 13
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- if gt (len $labels) 0 -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- $scored := slice -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  {{- range $blogPages -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    {{- if eq .RelPermalink $page.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "      {{- continue -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $postLabels := .Params.tags | default slice -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- $postLabels = $postLabels | append (.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "    {{- if eq (len $postLabels) 0 -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "      {{- continue -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    {{- $overlap := 0 -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    {{- range $labels -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      {{- if in $postLabels . -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "        {{- $overlap = add $overlap 1 -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {{- if gt $overlap 0 -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      {{- $minLen := len $labels -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "      {{- if lt (len $postLabels) $minLen -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "        {{- $minLen = len $postLabels -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "      {{- $score := div (float $overlap) (float $minLen) -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      {{- $scored = $scored | append (dict \"Page\" . \"Score\" $score) -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "  {{- $scored = sort $scored \"Score\" \"desc\" -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  {{- range first $limit $scored -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "    {{- $results = $results | append .Page -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 45
-          },
-          {
-            "lineNumber": 46,
-            "text": "{{- if eq (len $results) 0 -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "  {{- range site.RegularPages.Related $page -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "    {{- if and (eq .Section \"blog\") (not .Draft) -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "      {{- $results = $results | append . -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  {{- $results = first $limit $results -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 54
-          },
-          {
-            "lineNumber": 55,
-            "text": "{{- if eq (len $results) 0 -}}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "  {{- $blogOthers := complement (slice $page) $blogPages -}}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "  {{- $results = first $limit ($blogOthers.ByDate.Reverse) -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 59
-          },
-          {
-            "lineNumber": 60,
-            "text": "{{- return $results -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 60
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/blog/related-posts-lookup.html",
-        "signatures": {}
-      },
-      "score": 0.1825105994939804
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- $allSections := slice -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- range site.Home.Sections -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "  {{- $allSections = $allSections | append .Section -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 5
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $include_all_sections := site.Params.search.include_all_sections -}}"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $search_sections := $allSections -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- if not $include_all_sections -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $search_sections = site.Params.search.include_sections | default site.Params.mainSections -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 12
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $searchablePages := (where site.RegularPages \"Section\" \"in\" $search_sections) -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- if site.Params.search.include_list_pages -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $searchablePages = (where site.Pages \"Section\" \"in\" $search_sections) -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 17
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- $totalPagesLength := len $searchablePages -}}"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "[{{- range $i, $e := $searchablePages -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "{{- if not .Params.ignoreSearch -}}"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "{{- $date:= time.Format \":date_long\" .PublishDate -}}"
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "{{- $.Scratch.Delete \"image\" -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- $.Scratch.Delete \"imageSM\" -}}"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "{{- if .Params.image -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- $.Scratch.Set \"image\" (partial \"searchImage\" (dict \"Src\" .Params.image \"Size\" \"420x\" \"Command\" \"Resize\")) -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  {{- $.Scratch.Set \"imageSM\" (partial \"searchImage\" (dict \"Src\" .Params.image \"Size\" \"100x100\" \"Command\" \"Fill\")) -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "{{- else if .Params.images -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  {{- range first 1 .Params.images -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  {{- $.Scratch.Set \"image\" (partial \"searchImage\" (dict \"Src\" . \"Size\" \"420x\" \"Command\" \"Resize\")) -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "  {{- $.Scratch.Set \"imageSM\" (partial \"searchImage\" (dict \"Src\" . \"Size\" \"100x100\" \"Command\" \"Fill\")) -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 37
-          },
-          {
-            "lineNumber": 38,
-            "text": "{{- $image:= $.Scratch.Get \"image\" -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "{{- $imageSM:= $.Scratch.Get \"imageSM\" -}}"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "{"
-          },
-          {
-            "lineNumber": 42,
-            "text": "  \"section\": \"{{.Section | humanize}}\","
-          },
-          {
-            "lineNumber": 43,
-            "text": "  \"slug\": \"{{- .RelPermalink -}}\","
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 43
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/search/layouts/_default/list.searchindex.json",
-        "signatures": {}
-      },
-      "score": 0.18153010308742523
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 80,
-            "text": "def atomize_body(title: str, description: str) -\u003e str:"
-          },
-          {
-            "lineNumber": 81,
-            "text": "    desc = description.strip()"
-          },
-          {
-            "lineNumber": 82,
-            "text": "    if not desc:"
-          },
-          {
-            "lineNumber": 83,
-            "text": "        return f\"**{title}**.\""
-          },
-          {
-            "lineNumber": 84,
-            "text": "    if desc.lower().startswith(title.lower()):"
-          },
-          {
-            "lineNumber": 85,
-            "text": "        sentence = f\"**{title}**{desc[len(title) :]}\""
-          },
-          {
-            "lineNumber": 86,
-            "text": "    else:"
-          },
-          {
-            "lineNumber": 87,
-            "text": "        sentence = f\"**{title}** — {lead_text(desc)}\""
-          },
-          {
-            "lineNumber": 88,
-            "text": "    sentence = sentence.rstrip(\".\") + \".\""
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 89,
-            "text": "    return re.sub(r\"\\?\\.\", \".\", sentence)"
-          },
-          {
-            "lineNumber": 90
-          },
-          {
-            "lineNumber": 91
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 92,
-            "text": "def load_catalog() -\u003e list[dict]:"
-          },
-          {
-            "lineNumber": 93,
-            "text": "    catalog = []"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 107
-          },
-          "startPosition": {
-            "column": 15,
-            "line": 76
-          }
-        },
-        "relativeWorkspacePath": "./scripts/atomize-notes.py",
-        "signatures": {}
-      },
-      "score": 0.18091720342636108
-    }
-  ]
-}
+   
+… (output truncated)
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4348,11 +219,673 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js` |
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The search logic is in the vendored Hugo module `search/assets/js/search.js`.
+</details></think>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "search"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "search",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "hugo.toml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **21** results in **1** directory</summary>
+
+Directory: **``** (21 files)
+
+| File |
+|------|
+| `assets/js/gallery-slider.js` |
+| `assets/js/notes-random-trio.js` |
+| `assets/js/back-to-top.js` |
+| `_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/assets/js/gallery-slider.js` |
+| `_vendor/github.com/gethugothemes/hugo-modules/tab/assets/js/tab.js` |
+| `assets/js/toc.js` |
+| `_vendor/github.com/gethugothemes/hugo-modules/accordion/assets/js/accordion.js` |
+| `assets/js/notes-review.js` |
+| `_vendor/github.com/gethugothemes/hugo-modules/modal/assets/js/modal.js` |
+| `assets/js/notes-graph.js` |
+| `assets/js/notes-list.js` |
+| `themes/jorap/assets/js/main.js` |
+| `assets/js/notes-flashcard.js` |
+| `assets/js/wikilink-preview.js` |
+| `assets/js/blog-random-notes.js` |
+| `assets/js/notes-single-random-notes.js` |
+| `assets/js/notes-cards.js` |
+| `assets/js/share.js` |
+| `assets/js/notes-random-duo.js` |
+| `assets/js/notes-featured-random.js` |
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "assets/js/search|override|search priority|title.*body"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "assets/js/search|override|search priority|title.*body",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "scripts/wire-notes-obsidian.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "static/_headers"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".agents/skills/hugo-template-guidance/references/project-architecture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/gallery-slider.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/sync-upstreams/preserve-lists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "static/admin/config.yml"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/sync-upstreams/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/safe.css"
+    },
+    {
+      "matchCount": 3,
+      "uri": "themes/jorap/assets/css/main.css"
+    },
+    {
+      "matchCount": 4,
+      "uri": "themes/jorap/assets/plugins/swiper/swiper-bundle.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".agents/skills/hugo-template-guidance/references/styling-and-theming.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/card-sets.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/basic-seo.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".agents/skills/hugo-template-guidance/references/adding-new-pages.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".agents/skills/hugo-template-guidance/references/component-usage.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/jorap-voice-notes.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/assets/plugins/swiper/swiper-bundle.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".agents/skills/hugo-template-guidance/references/hugo-modules.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/logo.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/cards.md"
+    }
+  ],
+  "totalFiles": 22,
+  "totalMatches": 43
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/gallery-slider.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search\\.js|search priority|title first"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search\\.js|search priority|title first",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "hugo.toml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Creating `assets/js/search.js` as a local override of the vendor module to implement title-first sorting.
+
+The approach follows the gallery-slider pattern of copying the vendor file and making minimal changes. The sort logic will target `filteredItems` inside `generateSearchResultHTML`, placing title matches before body matches. Description, searchKeyword, tags, and categories are excluded from this priority order.
+
+The sort will use a simple two-tier ranking: title matches first, then body matches. Items matching both title and body will rank in the title group. Description, keywords, tags, and categories are excluded from this priority order.
+
+A `matchRank` helper will assign titles rank 0, body matches rank 1, and all other matches rank 2. The duplicated filter function will also be extracted to keep the code DRY.
+</details></think>
+
+_**Agent (default)**_
+
+Checking for other search UIs (e.g. notes list) that might need the same title-first ordering.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "search|filter.*title"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "search|filter.*title",
+  "topFiles": [
+    {
+      "matchCount": 11,
+      "uri": "assets/js/notes-graph.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 11
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The main site search logic is located in search.js within the hugo-modules.
+
+Creating a local override at `assets/js/search.js` by copying the vendor file. Extracting helper functions to avoid duplication while adding the title-first search sorting logic.
+
+The helper functions are now defined. `matchesSearch` checks title, description, keywords, tags, categories, and content. `searchMatchPriority` assigns a score of 0 for title matches, 1 for content matches, and 2 otherwise. `sortSearchResults` filters matches and sorts them by priority.
+</details></think>
+
+_**Agent (default)**_
+
+Creating a local `assets/js/search.js` override (matching the gallery-slider pattern) and sorting results so title matches rank above body matches.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cp /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+```bash
+cp /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The model provided an ambiguous search string to replace
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "contextBefore": 2,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/search.js",
+  "pattern": "filteredItems"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/search.js",
+  "pattern": "filteredItems",
+  "topFiles": [
+    {
+      "matchCount": 78,
+      "uri": "assets/js/search.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo project assets override module assets when both exist at the same path.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc --minify 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc --minify 2>&1 | tail -20
+```
+
+```
+Start building sites … 
+hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 BuildDate=2026-06-15T14:55:00Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 1557 
+ Paginator pages  │   47 
+ Non-page files   │    0 
+ Static files     │    6 
+ Processed images │  331 
+ Aliases          │  518 
+ Cleaned          │    0 
+
+Total in 10950 ms
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "searchMatchPriority|filterAndSortSearchResults"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "searchMatchPriority|filterAndSortSearchResults",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "search-wrapper|Theme override of gethugothemes/hugo-modules/search"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "search-wrapper|Theme override of gethugothemes/hugo-modules/search",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/ | head -30 &amp;&amp; find /home/jorap/Documents/GitHub/jorap.com/public -name &#39;*search*&#39; 2&gt;/dev/null | head -20</summary>
+```bash
+ls -la /home/jorap/Documents/GitHub/jorap.com/public/ | head -30 && find /home/jorap/Documents/GitHub/jorap.com/public -name '*search*' 2>/dev/null | head -20
+```
+
+```
+total 1044
+drwxr-xr-x  20 root root   4096 Jun 20 16:49 .
+drwxr-xr-x  28 root root   4096 Jun 20 15:20 ..
+-rw-rw-r--   1 root root  16070 Jun 20 16:50 404.html
+drwxrwxr-x   2 root root   4096 Jun 20 15:20 about
+drwxr-xr-x   2 root root   4096 May 29 08:30 admin
+drwxrwxr-x   5 root root   4096 Jun 20 15:20 authors
+drwxrwxr-x  51 root root   4096 Jun 20 15:20 blog
+drwxrwxr-x  35 root root   4096 Jun 20 15:20 categories
+drwxrwxr-x   2 root root   4096 Jun 20 15:20 contact
+drwxrwxr-x   2 root root   4096 Jun 20 16:43 css
+drwxrwxr-x   3 root root   4096 Jun 20 15:20 drafts
+drwxrwxr-x   2 root root   4096 Jun 20 15:20 elements
+drwxr-xr-x   2 root root   4096 Jun 20 01:05 exports
+drwxrwxr-x   2 root root   4096 Jun 20 15:20 fonts
+-rw-r--r--   1 root root   7285 May 31 08:27 _headers
+-rw-r--r--   1 root root   3525 May 31 08:27 .htaccess
+drwxrwxr-x   3 root root  20480 Jun 20 15:20 images
+-rw-rw-r--   1 root root  31649 Jun 20 16:50 index.html
+-rw-rw-r--   1 root root    169 Jun 20 16:49 index.md
+-rw-rw-r--   1 root root  53048 Jun 20 16:49 index.xml
+drwxrwxr-x   2 root root   4096 Jun 20 16:49 js
+-rw-rw-r--   1 root root 342386 Jun 20 16:49 llms-full.txt
+-rw-rw-r--   1 root root  48419 Jun 20 16:49 llms.txt
+-rw-rw-r--   1 root root    759 Jun 20 16:49 manifest.webmanifest
+drwxrwxr-x 224 root root  12288 Jun 20 16:30 notes
+drwxrwxr-x   2 root root   4096 Jun 20 15:20 pages
+drwxrwxr-x   2 root root   4096 Jun 20 15:20 privacy-policy
+-rw-rw-r--   1 root root 366574 Jun 20 16:49 searchindex.json
+drwxrwxr-x   2 root root   4096 Jun 20 15:20 sections
+/home/jorap/Documents/GitHub/jorap.com/public/searchindex.json
+/home/jorap/Documents/GitHub/jorap.com/public/tags/research
+/home/jorap/Documents/GitHub/jorap.com/public/tags/customer-research
+/home/jorap/Documents/GitHub/jorap.com/public/notes/rss-for-research
+/home/jorap/Documents/GitHub/jorap.com/public/notes/Research Notes
+/home/jorap/Documents/GitHub/jorap.com/public/notes/note taking for researchers
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/js/ &amp;&amp; rg -l &#34;searchMatchPriority|title.toLowerCase\(\).includes&#34; /home/jorap/Documents/GitHub/jorap.com/public/js/ 2&gt;/dev/null | head -5</summary>
+```bash
+ls -la /home/jorap/Documents/GitHub/jorap.com/public/js/ && rg -l "searchMatchPriority|title.toLowerCase\(\).includes" /home/jorap/Documents/GitHub/jorap.com/public/js/ 2>/dev/null | head -5
+```
+
+```
+total 652
+drwxrwxr-x  2 root root   4096 Jun 20 16:49 .
+drwxr-xr-x 20 root root   4096 Jun 20 16:49 ..
+-rw-rw-r--  1 root root  12694 Jun 20 16:49 blog-random-notes.js
+-rw-rw-r--  1 root root   1182 Jun 20 16:49 notes-cards.js
+-rw-rw-r--  1 root root   3252 Jun 20 16:49 notes-featured-random.js
+-rw-rw-r--  1 root root   1052 Jun 20 16:49 notes-flashcard.js
+-rw-rw-r--  1 root root  23097 Jun 20 16:49 notes-graph.js
+-rw-rw-r--  1 root root   1256 Jun 20 16:49 notes-list.js
+-rw-rw-r--  1 root root  10865 Jun 20 16:49 notes-random-duo.js
+-rw-rw-r--  1 root root  11330 Jun 20 16:49 notes-random-trio.js
+-rw-rw-r--  1 root root  10335 Jun 20 16:49 notes-review.js
+-rw-rw-r--  1 root root  12947 Jun 20 16:49 notes-single-random-notes.js
+-rw-rw-r--  1 root root  71590 Jun 20 16:49 script-lazy.min.25e94f511f21b2c7184d2b36df1bb9d867c702d2d1a23486939d15db4fc99ebe.js
+-rw-rw-r--  1 root root 155444 Jun 20 16:50 script.min.1baffa8e3cba6edf031f244f35b86345b49d9527632003778ded63b88585f5e4.js
+-rw-rw-r--  1 root root 155730 Jun 20 16:49 script.min.2f983a29ab9fcd7ba06dc28904cc0fef024ba4609f667ecd6677c0d22e79aba0.js
+-rw-rw-r--  1 root root 155617 Jun 20 16:49 script.min.94923c0347ea859770713a90b1b79930abb6f69329de86a6b9679aa1401e3486.js
+-rw-rw-r--  1 root root   3228 Jun 20 16:49 wikilink-preview.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/script.min.2f983a29ab9fcd7ba06dc28904cc0fef024ba4609f667ecd6677c0d22e79aba0.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/script.min.94923c0347ea859770713a90b1b79930abb6f69329de86a6b9679aa1401e3486.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/script.min.1baffa8e3cba6edf031f244f35b86345b49d9527632003778ded63b88585f5e4.js
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+Search results now rank **title matches first**, then **body-only matches**.
+
+I added a local override at `assets/js/search.js` (same pattern as `gallery-slider.js`) so the vendored Hugo search module isn’t edited directly. Results are sorted within each section group:
+
+1. **Title match** — query appears in the note title  
+2. **Body match** — query appears only in content  
+3. **Other** — description, keywords, tags, or categories only
+
+The sorting applies to both the displayed results and keyboard navigation (↑/↓). Rebuild or refresh the dev server to pick it up.

@@ -13,7 +13,8 @@ for spectrum can we streamline to 200 and have them sorted by best to worst
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Streamline the spectrum to 200 items and sort them from best to worst.</details></think>
+Streamline the spectrum to 200 items and sort them from best to worst.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,10 +23,8 @@ Exploring how spectrum is built and used so we can reduce it to 200 items sorted
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -113,34 +112,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/build-spectrum-500.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -173,52 +157,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reading more of the randomizer.</details></think>
+Reading more of the randomizer.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -251,29 +215,303 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_07-06-59Z-spectrum-optimization-for-scaling.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_07-06-59Z-spectrum-optimization-for-scaling.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The request is clear: streamline the spectrum</details></think>
+The request is clear: streamline the spectrum to 200 items and sort them from best to worst.
+
+The curation script currently targets 300 entries. I'll change the target to 200, trim the curated list to the top 200, and rerun the script.
+
+The curated list is already best-first, so I'll simply take the first 200 entries. I may also update or deprecate build-spectrum-500.py.
+
+The spectrum section does not use `rank_spectrums`. It pulls directly from `SPECTRUM_CURATED` and asserts the length matches the target. This makes trimming to the top 200 straightforward.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js",
+  "pattern": "300|500|spectrum"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js",
+  "pattern": "300|500|spectrum",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": "assets/js/randomizer.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+from pathlib import Path
+import re
+text = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py&#39;).read_text()
+# count SPECTRUM_CURATED tuples
+import ast
+start = text.index(&#39;SPECTRUM_CURATED = [&#39;)
+end = text.index(&#39;]&#39;, start) + 1
+# naive count
+pairs = re.findall(r\&#34;\(&#39;([^&#39;]+)&#39;, &#39;([^&#39;]+)&#39;\)\&#34;, text[text.index(&#39;SPECTRUM_CURATED&#39;):text.index(&#39;SPECTRUM_WEAK&#39;)])
+print(&#39;SPECTRUM_CURATED count:&#39;, len(pairs))
+# count yaml spectrums
+yaml = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml&#39;).read_text()
+spec = yaml[yaml.index(&#39;- id: spectrum&#39;):]
+print(&#39;yaml spectrum count:&#39;, spec.count(&#39;  - left:&#39;))
+&#34;</summary>
+```bash
+python3 -c "
+from pathlib import Path
+import re
+text = Path('/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py').read_text()
+# count SPECTRUM_CURATED tuples
+import ast
+start = text.index('SPECTRUM_CURATED = [')
+end = text.index(']', start) + 1
+# naive count
+pairs = re.findall(r\"\('([^']+)', '([^']+)'\)\", text[text.index('SPECTRUM_CURATED'):text.index('SPECTRUM_WEAK')])
+print('SPECTRUM_CURATED count:', len(pairs))
+# count yaml spectrums
+yaml = Path('/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml').read_text()
+spec = yaml[yaml.index('- id: spectrum'):]
+print('yaml spectrum count:', spec.count('  - left:'))
+"
+```
+
+```
+SPECTRUM_CURATED count: 300
+yaml spectrum count: 300
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The full picture is now clear.
+
+The spectrum list is already best-first. I'll add a 200-item target, trim the curated list to the top 200, update the main function, and run the script with `--only spectrum`.
+
+I'll trim the source file itself to keep the curated list clean. The existing `rank_spectrums` function isn't used for spectrum; main() relies on the manually ordered list directly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+import re
+from pathlib import Path
+text = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py&#39;).read_text()
+pairs = re.findall(r\&#34;\(&#39;([^&#39;]+)&#39;, &#39;([^&#39;]+)&#39;\)\&#34;, text[text.index(&#39;SPECTRUM_CURATED&#39;):text.index(&#39;SPECTRUM_WEAK&#39;)])
+print(&#39;199:&#39;, pairs[198])
+print(&#39;200:&#39;, pairs[199])
+print(&#39;201:&#39;, pairs[200])
+print(&#39;--- cut starts ---&#39;)
+for i in range(199, min(210, len(pairs))):
+    print(i+1, pairs[i])
+print(&#39;--- last 5 ---&#39;)
+for i in range(len(pairs)-5, len(pairs)):
+    print(i+1, pairs[i])
+&#34;</summary>
+```bash
+python3 -c "
+import re
+from pathlib import Path
+text = Path('/home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py').read_text()
+pairs = re.findall(r\"\('([^']+)', '([^']+)'\)\", text[text.index('SPECTRUM_CURATED'):text.index('SPECTRUM_WEAK')])
+print('199:', pairs[198])
+print('200:', pairs[199])
+print('201:', pairs[200])
+print('--- cut starts ---')
+for i in range(199, min(210, len(pairs))):
+    print(i+1, pairs[i])
+print('--- last 5 ---')
+for i in range(len(pairs)-5, len(pairs)):
+    print(i+1, pairs[i])
+"
+```
+
+```
+199: ('Instant coffee', 'Fancy coffee')
+200: ('Fruit dessert', 'Chocolate dessert')
+201: ('Light breakfast', 'Heavy breakfast')
+--- cut starts ---
+200 ('Fruit dessert', 'Chocolate dessert')
+201 ('Light breakfast', 'Heavy breakfast')
+202 ('Room temperature', 'Piping hot')
+203 ('Ice cold', 'Steaming hot')
+204 ('Plain water', 'Fancy drink')
+205 ('Leftovers', 'Fresh cooked')
+206 ('Dim room', 'Bright room')
+207 ('Cool breeze', 'Hot oven')
+208 ('Light blanket', 'Heavy quilt')
+209 ('Unscented', 'Strong scent')
+210 ('Mild flavor', 'Bold flavor')
+--- last 5 ---
+296 ('Piggy bank', 'Stock portfolio')
+297 ('Fort building', 'Skyscraper')
+298 ('Kiddie pool', 'Olympic pool')
+299 ('Training wheels', 'Motorcycle')
+300 ('Baby steps', 'Giant leap')
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Items 201–300 are removed. These are weaker lifestyle and scale metaphor pairs. The remaining set is ranked best to worst.
+
+The target is set to 200. The curated list will be trimmed to the first 200 entries. The script will be updated and run.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Trimming spectrum to the top 200 curated pairs (already best-first) and updating the curation script.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a SPECTRUM_TARGET constant set to 200.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/curate-randomizer-300.py --only spectrum</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/curate-randomizer-300.py --only spectrum
+```
+
+```
+spectrum: 200 (top: Hot | Cold)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+from pathlib import Path
+yaml = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml&#39;).read_text()
+spec = yaml[yaml.index(&#39;- id: spectrum&#39;):]
+count = spec.count(&#39;  - left:&#39;)
+# last pair
+import re
+pairs = re.findall(r&#39;  - left: (.+)\n    right: (.+)&#39;, spec)
+print(&#39;count:&#39;, count)
+print(&#39;first:&#39;, pairs[0])
+print(&#39;last:&#39;, pairs[-1])
+&#34;</summary>
+```bash
+python3 -c "
+from pathlib import Path
+yaml = Path('/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml').read_text()
+spec = yaml[yaml.index('- id: spectrum'):]
+count = spec.count('  - left:')
+# last pair
+import re
+pairs = re.findall(r'  - left: (.+)\n    right: (.+)', spec)
+print('count:', count)
+print('first:', pairs[0])
+print('last:', pairs[-1])
+"
+```
+
+```
+count: 200
+first: ('Hot', 'Cold')
+last: ('Fruit dessert', 'Chocolate dessert')
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Spectrum is now **200 pairs**, ordered **best → worst**.
+
+**What changed**
+- `scripts/curate-randomizer-300.py`: added `SPECTRUM_TARGET = 200`, trimmed `SPECTRUM_CURATED` to the top 200 (dropped the weaker tail — lifestyle forks, scale metaphors like "Baby steps | Giant leap", duplicate poles).
+- `data/randomizer.yaml`: regenerated via the curation script.
+
+**Order** (already Wavelength-style, best first):
+1. **Hot | Cold** — universal scalar poles
+2. Core adjective axes (Overrated/Underrated, Easy/Hard, etc.)
+3. Category-boundary cards (Sandwich/Not a sandwich, Sport/Not a sport)
+4. Lifestyle spectrums that still clue well
+5. **Fruit dessert | Chocolate dessert** — last of the 200
+
+The randomizer JS reads the list dynamically, so no frontend changes were needed. Re-run with:
+
+```bash
+python3 scripts/curate-randomizer-300.py --only spectrum
+```

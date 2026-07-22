@@ -15,7 +15,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The user shared a Hugo build error from their terminal.
 
-The error originates in the 404 page template. It fails while rendering `partialCached "essentials/style.html"`. The failure cascades from `_partials/essentials/style.html` at line 60.</details></think>
+The error originates in the 404 page template. It fails while rendering `partialCached "essentials/style.html"`. The failure cascades from `_partials/essentials/style.html` at line 60.
+</details></think>
 
 _**Agent (default)**_
 
@@ -24,27 +25,15 @@ Investigating the Hugo build error in `style.html` — `resources.Concat` is rec
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.agents/skills/hugo-template-guidance/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.agents/skills/hugo-template-guidance/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -53,14 +42,13 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The issue is clear at line 60.
 
-The root cause is a type mismatch. When `$stylesLazy` is empty, `append` produces a `[]interface{}` slice instead of a slice of Resource objects. This causes `resources.Concat` to fail.</details></think>
+The root cause is a type mismatch. When `$stylesLazy` is empty, `append` produces a `[]interface{}` slice instead of a slice of Resource objects. This causes `resources.Concat` to fail.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -92,21 +80,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -141,40 +120,27 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Lazy CSS plugins are configured.</details></think>
+Lazy CSS plugins are configured.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **11** results in **1** directory</summary>
 
-Directory: **** (11 files)
+Directory: **``** (11 files)
 
 | File |
 |------|
@@ -189,74 +155,52 @@ Directory: **** (11 files)
 | `themes/jorap/assets/css/utilities.css` |
 | `themes/jorap/assets/css/module-overrides.css` |
 | `themes/jorap/assets/css/safe.css` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Looking at the hugo.toml file.</details></think>
+Looking at the hugo.toml file.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/script.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/script.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The root cause is that all CSS plugins are set to `lazy = false`. This leaves `$stylesLazy` empty.</details></think>
+The root cause is that all CSS plugins are set to `lazy = false`. This leaves `$stylesLazy` empty.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **** (3 files)
+Directory: **``** (3 files)
 
 | File |
 |------|
 | `themes/jorap/assets/plugins/maps/google-map.js` |
 | `themes/jorap/assets/plugins/swiper/swiper-bundle.css` |
 | `themes/jorap/assets/plugins/swiper/swiper-bundle.js` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -20
 ```
@@ -266,15 +210,9 @@ Start building sites …
 hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 BuildDate=2026-06-15T14:55:00Z VendorInfo=gohugoio
 
 Total in 556 ms
-ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/authors/william-jacob.md" failed: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/baseof.html:15:7": execute of template failed: template: authors/single.html:15:7: executing "authors/single.html" at &lt;partialCached "essentials/style.html" .&gt;: error calling partialCached: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html:60:40": execute of template failed: template: _partials/essentials/style.html:60:40: executing "_partials/essentials/style.html" at &lt;resources.Concat&gt;: error calling Concat: expected slice of Resource objects, received []interface {} instead
+ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/authors/william-jacob.md" failed: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/baseof.html:15:7": execute of template failed: template: authors/single.html:15:7: executing "authors/single.html" at <partialCached "essentials/style.html" .>: error calling partialCached: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html:60:40": execute of template failed: template: _partials/essentials/style.html:60:40: executing "_partials/essentials/style.html" at <resources.Concat>: error calling Concat: expected slice of Resource objects, received []interface {} instead
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -290,35 +228,26 @@ script.html would have the same empty-slice problem, but lazy JavaScript plugins
 
 A simpler approach uses a boolean flag to track whether lazy styles were concatenated. This avoids template scoping issues where variables assigned inside conditional blocks may not persist outside them.
 
-Hugo template scoping rules allow direct assignment to `$stylesLazy` inside the conditional block without needing a separate boolean flag. The chosen fix simply wraps the `resources.Concat` call and its production minification and fingerprinting pipeline within `{{ if gt (len $stylesLazy) 0 }}`.</details></think>
+Hugo template scoping rules allow direct assignment to `$stylesLazy` inside the conditional block without needing a separate boolean flag. The chosen fix simply wraps the `resources.Concat` call and its production minification and fingerprinting pipeline within `{{ if gt (len $stylesLazy) 0 }}`.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `./_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/assets/plugins/glightbox/glightbox.js` |
 | `./_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/assets/plugins/glightbox/glightbox.css` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -385,13 +314,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -401,7 +323,8 @@ glightbox.css originates from a Hugo module called gallery-slider in _vendor.
 
 The error occurs because all CSS plugins have `lazy = false`, leaving `$stylesLazy` empty. I will guard the Concat call in style.html to skip lazy styles when the slice is empty.
 
-The fix will wrap the lazy stylesheet logic in a length check. Production minification and fingerprinting will also be moved inside that same conditional block.</details></think>
+The fix will wrap the lazy stylesheet logic in a length check. Production minification and fingerprinting will also be moved inside that same conditional block.
+</details></think>
 
 _**Agent (default)**_
 
@@ -410,16 +333,8 @@ The build fails because all CSS plugins are non-lazy, so `$stylesLazy` stays emp
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
 
 </details></tool-use>
 
@@ -430,7 +345,8 @@ A bug remains in the template logic. After the fix, `$stylesLazy` is reassigned 
 
 The fix should use a separate boolean flag like `$hasStylesLazy` instead of checking `len` on the Resource object.
 
-Using a boolean flag avoids the length check entirely. A simpler alternative is to use `with` to scope the concatenated resource directly.</details></think>
+Using a boolean flag avoids the length check entirely. A simpler alternative is to use `with` to scope the concatenated resource directly.
+</details></think>
 
 _**Agent (default)**_
 
@@ -439,52 +355,29 @@ Consolidating the lazy-style block so we don't call `len` on a Resource after co
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -15
 ```
@@ -507,12 +400,6 @@ hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 Buil
 Total in 6840 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -558,7 +445,8 @@ upstream changed my home page and about page
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Upstream changes affected the home page and about page.</details></think>
+Upstream changes affected the home page and about page.
+</details></think>
 
 _**Agent (default)**_
 
@@ -567,24 +455,17 @@ Upstream likely touched the home and about layouts or content — I'll read the 
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **8** results in **1** directory</summary>
 
-Directory: **** (8 files)
+Directory: **``** (8 files)
 
 | File |
 |------|
@@ -596,85 +477,52 @@ Directory: **** (8 files)
 | `./.impeccable/critique/2026-06-18T17-25-43Z__themes-jorap-layouts-home-html.md` |
 | `./.impeccable/critique/2026-06-18T17-10-25Z__themes-jorap-layouts-home-html.md` |
 | `./layouts/home.webmanifest` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `content/english/about/_index.md` |
 | `themes/jorap/layouts/about/list.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Upstream changes affected the home page and about page.</details></think>
+Upstream changes affected the home page and about page.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/preserve-lists.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/preserve-lists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/home.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/home.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/about/list.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/about/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff themes/jorap/layouts/home.html themes/jorap/layouts/about/list.html 2>/dev/null; echo "---"; ls -la ../hugoplate/layouts/home.html ../hugoplate/layouts/about/list.html 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff themes/jorap/layouts/home.html themes/jorap/layouts/about/list.html 2&gt;/dev/null; echo &#34;---&#34;; ls -la ../hugoplate/layouts/home.html ../hugoplate/layouts/about/list.html 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff themes/jorap/layouts/home.html themes/jorap/layouts/about/list.html 2>/dev/null; echo "---"; ls -la ../hugoplate/layouts/home.html ../hugoplate/layouts/about/list.html 2>&1
 ```
@@ -688,303 +536,148 @@ index e7fab7b..f90a422
 +++ b/themes/jorap/layouts/home.html
 @@ -1,14 +1,148 @@
  {{ define "main" }}
--  &lt;section class="section section--home !py-8 md:!py-10"&gt;
--    &lt;div class="container"&gt;
+-  <section class="section section--home !py-8 md:!py-10">
+-    <div class="container">
 -      {{ partial "sections/home-intro.html" . }}
-+  &lt;!-- Banner --&gt;
++  <!-- Banner -->
 +  {{ with .Params.banner }}
-+    &lt;section class="section pt-14"&gt;
-+      &lt;div class="container"&gt;
-+        &lt;div class="row justify-center"&gt;
-+          &lt;div class="lg:col-7 md:col-9 mb-8 text-center"&gt;
-+            &lt;h1 class="mb-4 text-h3 lg:text-h1"&gt;
++    <section class="section pt-14">
++      <div class="container">
++        <div class="row justify-center">
++          <div class="lg:col-7 md:col-9 mb-8 text-center">
++            <h1 class="mb-4 text-h3 lg:text-h1">
 +              {{ .title | markdownify }}
-+            &lt;/h1&gt;
-+            &lt;p class="mb-8"&gt;
++            </h1>
++            <p class="mb-8">
 +              {{ .content | markdownify }}
-+            &lt;/p&gt;
++            </p>
 +            {{ with .button }}
 +              {{ if .enable }}
-+                &lt;a
++                <a
 +                  class="btn btn-primary"
 +                  href="{{ .link | absURL }}"
-+                  {{ if strings.HasPrefix .link &#96;http&#96; }}
++                  {{ if strings.HasPrefix .link `http` }}
 +                    target="_blank" rel="noopener"
-+                  {{ end }}&gt;
++                  {{ end }}>
 +                  {{ .label }}
-+                &lt;/a&gt;
++                </a>
 +              {{ end }}
 +            {{ end }}
-+          &lt;/div&gt;
-+          &lt;div class="col-12"&gt;
++          </div>
++          <div class="col-12">
 +            {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
 +            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
-+          &lt;/div&gt;
-+        &lt;/div&gt;
-+      &lt;/div&gt;
-+    &lt;/section&gt;
++          </div>
++        </div>
++      </div>
++    </section>
 +  {{ end }}
-+  &lt;!-- /Banner --&gt;
++  <!-- /Banner -->
  
--      &lt;div class="mt-10 border-t border-divider pt-10 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-x-12 xl:gap-x-16"&gt;
+-      <div class="mt-10 border-t border-divider pt-10 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-x-12 xl:gap-x-16">
 -        {{ partial "sections/home-scope.html" . }}
 -        {{ partial "sections/home-proof.html" . }}
-+  &lt;!-- Features --&gt;
++  <!-- Features -->
 +  {{ range $i, $e:= .Params.features }}
-+    &lt;section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}"&gt;
-+      &lt;div class="container"&gt;
-+        &lt;div class="row items-center justify-between"&gt;
-+          &lt;div
-+            class="mb:md-0 {{ if not (modBool $i 2) }}
-+              md:order-2
-+            {{ end }} md:col-5 mb-6"&gt;
-+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
-+          &lt;/div&gt;
-+          &lt;div
-+            class="{{ if not (modBool $i 2) }}
-+              md:order-1
-+            {{ end }} md:col-7 lg:col-6"&gt;
-+            &lt;h2 class="mb-4"&gt;
-+              {{ .title | markdownify }}
-+            &lt;/h2&gt;
-+            &lt;p class="mb-8 text-lg"&gt;
-+              {{ .content | markdownify }}
-+            &lt;/p&gt;
-+            &lt;ul&gt;
-+              {{ range .bulletpoints }}
-+                &lt;li class="relative mb-4 pl-6"&gt;
-+                  &lt;i class="fa fa-check absolute left-0 top-1.5"&gt;&lt;/i&gt;
-+                  {{ . | markdownify }}
-+                &lt;/li&gt;
-+              {{ end }}
-+            &lt;/ul&gt;
-+            {{ with .button }}
-+              {{ if .enable }}
-+                &lt;a class="btn btn-primary mt-6" href="{{ .link | absURL }}"&gt;
-+                  {{ .label }}
-+                  &lt;i class="fa fa-arrow-right pl-2"&gt;&lt;/i&gt;
-+                &lt;/a&gt;
-+              {{ end }}
-+            {{ end }}
-+          &lt;/div&gt;
-+        &lt;/div&gt;
-       &lt;/div&gt;
--    &lt;/div&gt;
--  &lt;/section&gt;
-+    &lt;/section&gt;
-+  {{ end }}
-+  &lt;!-- /Features --&gt;
-+
-+  &lt;!-- Testimonials --&gt;
-+  {{ with site.GetPage "sections/testimonial" }}
-+    {{ if .Params.enable }}
-+      &lt;section class="section"&gt;
-+        &lt;div class="container"&gt;
-+          &lt;div class="row"&gt;
-+            &lt;div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center"&gt;
-+              &lt;h2 class="mb-4"&gt;
-+                {{ .Title | markdownify }}
-+              &lt;/h2&gt;
-+              &lt;p&gt;
-+                {{ .Params.description | markdownify }}
-+              &lt;/p&gt;
-+            &lt;/div&gt;
-+            &lt;div class="col-12"&gt;
-+              &lt;div class="swiper testimonial-slider"&gt;
-+                &lt;div class="swiper-wrapper"&gt;
-+                  {{ range .Params.testimonials }}
-+                    &lt;div class="swiper-slide"&gt;
-+                      &lt;div
-+                        class="bg-light dark:bg-darkmode-light rounded-lg px-7 py-10"&gt;
-+                        &lt;div class="text-text-dark dark:text-white"&gt;
-+                          &lt;svg
-+                            width="33"
-+                            height="20"
-+                            viewBox="0 0 33 20"
-+                            fill="none"
-+                            xmlns="http://www.w3.org/2000/svg"&gt;
-+                            &lt;path
-+                              d="M1.28375 19.41L0.79375 18.64C1.21375 17.0067 1.75042 15.07 2.40375 12.83C3.05708 10.5433 3.75708 8.28 4.50375 6.04C5.29708 3.75333 6.06708 1.77 6.81375 0.0899959H15.3538C14.9338 2.09666 14.4904 4.26667 14.0238 6.6C13.5571 8.88666 13.1371 11.15 12.7638 13.39C12.4371 15.5833 12.1571 17.59 11.9238 19.41H1.28375ZM31.69 0.0899959L32.18 0.859998C31.76 2.54 31.2233 4.5 30.57 6.74C29.9167 8.98 29.2167 11.2433 28.47 13.53C27.7233 15.77 26.9533 17.73 26.16 19.41H17.69C18.0167 17.9167 18.3433 16.33 18.67 14.65C18.9967 12.9233 19.3 11.22 19.58 9.54C19.9067 7.81333 20.1867 6.15667 20.42 4.57C20.7 2.93666 20.91 1.44333 21.05 0.0899959H31.69Z"
-+                              fill="currentColor" /&gt;
-+                          &lt;/svg&gt;
-+                        &lt;/div&gt;
-+                        &lt;blockquote class="mt-8"&gt;
-+                          {{ .content | markdownify }}
-+                        &lt;/blockquote&gt;
-+                        &lt;div class="mt-11 flex items-center"&gt;
-+                          &lt;div class="text-text-dark dark:text-white"&gt;
-+                            {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
-+                          &lt;/div&gt;
-+                          &lt;div class="ml-4"&gt;
-+                            &lt;h3 class="h5 font-primary font-semibold"&gt;
-+                              {{ .name }}
-+                            &lt;/h3&gt;
-+                            &lt;p class="text-text-dark dark:text-white"&gt;
-+                              {{ .designation | markdownify }}
-+                            &lt;/p&gt;
-+                          &lt;/div&gt;
-+                        &lt;/div&gt;
-+                      &lt;/div&gt;
-+                    &lt;/div&gt;
-+                  {{ end }}
-+                &lt;/div&gt;
-+                &lt;div
-+                  class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"&gt;&lt;/div&gt;
-+              &lt;/div&gt;
-+            &lt;/div&gt;
-+          &lt;/div&gt;
-+        &lt;/div&gt;
-+      &lt;/section&gt;
-+    {{ end }}
-+  {{ end }}
-+  &lt;!-- /Testimonials --&gt;
- 
--  {{ partial "sections/home-writing.html" . }}
-+  &lt;!-- Call to action --&gt;
-+  {{ partial "call-to-action" . }}
-+  &lt;!-- /Call to action --&gt;
- {{ end }}
----
-ls: cannot access '../hugoplate/layouts/about/list.html': No such file or directory
--rwxr-xr-x 1 root root 6031 Jun 20 10:39 ../hugoplate/layouts/home.html
-
++    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
++      <d
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Upstream changes modified the home and about pages.</details></think>
+Upstream changes modified the home and about pages.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:themes/jorap/layouts/home.html && echo "===ABOUT===" && git show HEAD:themes/jorap/layouts/about/list.html 2>/dev/null; git diff themes/jorap/layouts/about/list.html</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git show HEAD:themes/jorap/layouts/home.html &amp;&amp; echo &#34;===ABOUT===&#34; &amp;&amp; git show HEAD:themes/jorap/layouts/about/list.html 2&gt;/dev/null; git diff themes/jorap/layouts/about/list.html</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:themes/jorap/layouts/home.html && echo "===ABOUT===" && git show HEAD:themes/jorap/layouts/about/list.html 2>/dev/null; git diff themes/jorap/layouts/about/list.html
 ```
 
 ```
 {{ define "main" }}
-  &lt;section class="section section--home !py-8 md:!py-10"&gt;
-    &lt;div class="container"&gt;
+  <section class="section section--home !py-8 md:!py-10">
+    <div class="container">
       {{ partial "sections/home-intro.html" . }}
 
-      &lt;div class="mt-10 border-t border-divider pt-10 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-x-12 xl:gap-x-16"&gt;
+      <div class="mt-10 border-t border-divider pt-10 lg:mt-12 lg:grid lg:grid-cols-2 lg:gap-x-12 xl:gap-x-16">
         {{ partial "sections/home-scope.html" . }}
         {{ partial "sections/home-proof.html" . }}
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
+      </div>
+    </div>
+  </section>
 
   {{ partial "sections/home-writing.html" . }}
 {{ end }}
 ===ABOUT===
 {{ define "main" }}
-  &lt;section class="section"&gt;
-    &lt;div class="container"&gt;
-      &lt;div class="row justify-center"&gt;
-        &lt;div class="md:col-10 lg:col-7 text-center"&gt;
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-7 text-center">
           {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-          &lt;h2 class="h3 heading-title-case mb-6"&gt;{{ .Title }}&lt;/h2&gt;
-        &lt;/div&gt;
-        &lt;div class="md:col-10 lg:col-7"&gt;
-          &lt;div class="content"&gt;{{ .Content }}&lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/section&gt;
+          <h2 class="h3 heading-title-case mb-6">{{ .Title }}</h2>
+        </div>
+        <div class="md:col-10 lg:col-7">
+          <div class="content">{{ .Content }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
 {{ end }}
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/home-intro.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/home-intro.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/about/_index.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/about/_index.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-home.html was overwritten by upstream and must be restored from HEAD.</details></think>
+home.html was overwritten by upstream and must be restored from HEAD.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `./themes/jorap/layouts/about/list.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1011,20 +704,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff --name-only HEAD | rg -i 'home|about'</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --name-only HEAD | rg -i &#39;home|about&#39;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff --name-only HEAD | rg -i 'home|about'
 ```
@@ -1033,40 +718,26 @@ cd /home/jorap/Documents/GitHub/jorap.com && git diff --name-only HEAD | rg -i '
 themes/jorap/layouts/home.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Only `home.html` differs from HEAD. `about.html` appears unchanged.</details></think>
+Only `home.html` differs from HEAD. `about.html` appears unchanged.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/hugoplate/layouts/about* 2>/dev/null; ls -la /home/jorap/Documents/GitHub/hugoplate/layouts/about/ 2>/dev/null</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/hugoplate/layouts/about* 2&gt;/dev/null; ls -la /home/jorap/Documents/GitHub/hugoplate/layouts/about/ 2&gt;/dev/null</summary>
 ```bash
 ls -la /home/jorap/Documents/GitHub/hugoplate/layouts/about* 2>/dev/null; ls -la /home/jorap/Documents/GitHub/hugoplate/layouts/about/ 2>/dev/null
 ```
@@ -1075,20 +746,12 @@ ls -la /home/jorap/Documents/GitHub/hugoplate/layouts/about* 2>/dev/null; ls -la
 -rw-r--r-- 1 root root 496 Jun 20 10:39 /home/jorap/Documents/GitHub/hugoplate/layouts/about.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1123,89 +786,55 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Upstream uses `about.html`, but JoRap uses `about/list.html`.</details></think>
+Upstream uses `about.html`, but JoRap uses `about/list.html`.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/hugoplate/layouts/about.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/hugoplate/layouts/about.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/hugoplate-rsync-excludes.txt</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/hugoplate-rsync-excludes.txt</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff HEAD -- themes/jorap/layouts/about/ content/english/about/ config/ data/ 2>/dev/null | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff HEAD -- themes/jorap/layouts/about/ content/english/about/ config/ data/ 2&gt;/dev/null | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff HEAD -- themes/jorap/layouts/about/ content/english/about/ config/ data/ 2>/dev/null | head -80
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The about page file has not changed relative to HEAD.</details></think>
+The about page file has not changed relative to HEAD.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1276,25 +905,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/page-header.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/page-header.html</summary>
 
 </details></tool-use>
 
@@ -1303,26 +919,20 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The About page layout `about/list.html` remains unchanged.
 
-Upstream changes likely affect the About page through `page-header.html`, CSS, or base templates. The Home page should be restored from git HEAD.</details></think>
+Upstream changes likely affect the About page through `page-header.html`, CSS, or base templates. The Home page should be restored from git HEAD.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/baseof.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/baseof.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff HEAD -- themes/jorap/layouts/baseof.html themes/jorap/layouts/_partials/page-header.html themes/jorap/layouts/about/list.html themes/jorap/layouts/single.html themes/jorap/layouts/list.html 2>/dev/null</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff HEAD -- themes/jorap/layouts/baseof.html themes/jorap/layouts/_partials/page-header.html themes/jorap/layouts/about/list.html themes/jorap/layouts/single.html themes/jorap/layouts/list.html 2&gt;/dev/null</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff HEAD -- themes/jorap/layouts/baseof.html themes/jorap/layouts/_partials/page-header.html themes/jorap/layouts/about/list.html themes/jorap/layouts/single.html themes/jorap/layouts/list.html 2>/dev/null
 ```
@@ -1333,43 +943,35 @@ index d96f439..b19b413 100755
 --- a/themes/jorap/layouts/_partials/page-header.html
 +++ b/themes/jorap/layouts/_partials/page-header.html
 @@ -1,7 +1,7 @@
- &lt;section&gt;
-   &lt;div class="container text-center"&gt;
-     &lt;div
--      class="from-surface to-elevated rounded-2xl bg-gradient-to-b px-8 py-14"&gt;
-+      class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14"&gt;
-       &lt;h1&gt;{{ T (printf "%s" (lower .Title)) | default .Title | title }}&lt;/h1&gt;
+ <section>
+   <div class="container text-center">
+     <div
+-      class="from-surface to-elevated rounded-2xl bg-gradient-to-b px-8 py-14">
++      class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14">
+       <h1>{{ T (printf "%s" (lower .Title)) | default .Title | title }}</h1>
        {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}
-     &lt;/div&gt;
+     </div>
 diff --git a/themes/jorap/layouts/list.html b/themes/jorap/layouts/list.html
 index 62b3e7a..2daec85 100755
 --- a/themes/jorap/layouts/list.html
 +++ b/themes/jorap/layouts/list.html
 @@ -9,7 +9,7 @@
-           &lt;li class="m-3"&gt;
-             &lt;a
+           <li class="m-3">
+             <a
                href="{{ .Permalink }}"
--              class="text-ink block text-xl"&gt;
-+              class="text-text-dark dark:text-darkmode-text-dark block text-xl"&gt;
+-              class="text-ink block text-xl">
++              class="text-text-dark dark:text-darkmode-text-dark block text-xl">
                {{ .Title }}
-             &lt;/a&gt;
-           &lt;/li&gt;
+             </a>
+           </li>
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1396,13 +998,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1416,14 +1011,13 @@ The preserve list incorrectly marked home.html as safe to sync from Hugoplate, b
 
 Hugo resolves the about page correctly through layouts/about/list.html, so the visual shift is likely CSS-only. I will restore home.html and add it to the preserve list to protect the custom JoRap layout.
 
-The about page layout is intact. Its visual shift likely comes from global CSS token changes. I will check git history for about and review improvised critiques to confirm the original design. I also need to inspect page-header diffs, since upstream replaced JoRap tokens with hugoplate defaults.</details></think>
+The about page layout is intact. Its visual shift likely comes from global CSS token changes. I will check git history for about and review improvised critiques to confirm the original design. I also need to inspect page-header diffs, since upstream replaced JoRap tokens with hugoplate defaults.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1478,20 +1072,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git log -3 --oneline -- themes/jorap/layouts/home.html themes/jorap/layouts/about/list.html</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git log -3 --oneline -- themes/jorap/layouts/home.html themes/jorap/layouts/about/list.html</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git log -3 --oneline -- themes/jorap/layouts/home.html themes/jorap/layouts/about/list.html
 ```
@@ -1502,24 +1088,12 @@ ea271be Update
 0b9b7b3 updates
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.impeccable/critique/2026-06-18T17-25-43Z__themes-jorap-layouts-home-html.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.impeccable/critique/2026-06-18T17-25-43Z__themes-jorap-layouts-home-html.md</summary>
 
 </details></tool-use>
 
@@ -1530,33 +1104,21 @@ The about page is self-contained and does not use the page-header template.
 
 No about.html exists in the theme root. The about page likely uses the list layout. Global CSS changes may explain why it appears altered.
 
-The primary fix is restoring home.html from HEAD. The about page layout is unchanged; any perceived visual differences likely come from upstream CSS or styling updates.</details></think>
+The primary fix is restoring home.html from HEAD. The about page layout is unchanged; any perceived visual differences likely come from upstream CSS or styling updates.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git status --short themes/jorap/layouts/ | rg -i 'home|about'</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git status --short themes/jorap/layouts/ | rg -i &#39;home|about&#39;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git status --short themes/jorap/layouts/ | rg -i 'home|about'
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/contact/list.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/contact/list.html</summary>
 
 </details></tool-use>

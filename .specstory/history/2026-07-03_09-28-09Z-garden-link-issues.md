@@ -25,7 +25,8 @@ SUMMARY
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-JoRap notes garden report shows one unlinked mention: "Second Brain" should link to [[Building a Second Brain]].</details></think>
+JoRap notes garden report shows one unlinked mention: "Second Brain" should link to [[Building a Second Brain]].
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -34,10 +35,8 @@ I'll find the Trusted Inbox note and fix the unlinked "Second Brain" mention.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -139,61 +138,39 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/notes/the-trusted-inbox.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The file appears to contain only frontmatter.</details></think>
+The file appears to contain only frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -202,19 +179,15 @@ Checking how the link checker works and how similar notes link "Second Brain" in
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -260,34 +233,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/active-knowledge-curation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/active-knowledge-curation.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -394,21 +352,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -435,41 +384,224 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The note title is lowercase "second brain," not "Second Brain."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/themeGenerator.js &gt;/dev/null &amp;&amp; node scripts/noteFileDates.js &gt;/dev/null &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#34;unlinked mention|the-trusted-inbox&#34; || echo &#34;No link warnings&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js >/dev/null && node scripts/noteFileDates.js >/dev/null && hugo --gc 2>&1 | rg "unlinked mention|the-trusted-inbox" || echo "No link warnings"
+```
+
+```
+WARN  unlinked mention of "Second Brain" (→ [[Building a Second Brain]]) in notes/the-trusted-inbox.md
+No link warnings
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The unlinked mention "Second Brain" appears in the-trusted-inbox.md.
+
+The file contains only frontmatter with lowercase "second brain" and no body text. The linter still reports an unlinked mention, so it may be scanning frontmatter fields or using case-insensitive matching.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "unlinked"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "unlinked",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/lint-note-issues.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/build-issues-report.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/related-notes.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/note-issues-panel.html"
+    },
+    {
+      "matchCount": 15,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/toolbar.html"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 28
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The note title is lowercase "second brain," not "Second Brain."</details></think>
+The linter checks `assembled-content.html` rather than raw content alone.
+</details></think>
 
 _**Agent (auto-low)**_
-
-File not found
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js >/dev/null && node scripts/noteFileDates.js >/dev/null && hugo --gc 2>&1 | rg "unlinked mention|the-trusted-inbox" || echo "No link warnings"</summary>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 
-```bash
-cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js >/dev/null && node scripts/noteFileDates.js >/dev/null && hugo --gc 2>&1 | rg "unlinked mention|the-trusted-inbox" || echo "No link warnings"
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "**/the-trusted-inbox*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "second brain|Second Brain"
+}
 ```
-</details>
-</tool-use>
+Additional data:
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "second brain|Second Brain",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The assembled content includes key concepts and examples from frontmatter.
+
+The unlinked mention "second brain" appears in key_concept. shareable_thought was skipped during assembly. The alias matches case-insensitively. Linking "second brain" to [[Building a Second Brain]] in key_concept resolves the issue.
+
+The phrase appears as "not a second brain". The link should read "not a [[Building a Second Brain]]". This follows the pattern used in other notes.
+
+The alias "Second Brain" is preferable to the full title because it keeps the original lowercase wording intact. Pipe syntax is deprecated.
+
+The alias "Second Brain" would render as "Second Brain" in the link text, altering the lowercase prose. This creates a voice concern.
+
+Without pipe syntax, the display text equals the link target. Using the full title would render "Building a Second Brain," which sounds awkward in the sentence. The alias "Second Brain" is the better choice.
+
+Both key_concept and shareable_thought should be updated for consistency. The exact phrase to change is "not a second brain."
+</details></think>
+
+_**Agent (auto-low)**_
+
+The linter scans assembled content, including `key_concept`, where "second brain" matches the "Second Brain" alias. I'll add the wikilink there.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#34;unlinked mention|broken wikilink&#34; || echo &#34;No link warnings&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg "unlinked mention|broken wikilink" || echo "No link warnings"
+```
+
+```
+No link warnings
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Fixed the unlinked mention in **The Trusted Inbox**.
+
+The phrase "second brain" in `key_concept` and `shareable_thought` matched the **Building a Second Brain** alias without a wikilink. Both now use `[[Building a Second Brain]]`.
+
+Hugo build reports no remaining link warnings.

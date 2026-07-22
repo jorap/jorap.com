@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing all blog posts with the jorap-voice skill to verify clarity and catch errors.
 
-Scanning the blog directory for all posts. Reading reference posts first. Then reviewing each post systematically for voice, consistency, and errors.</details></think>
+Scanning the blog directory for all posts. Reading reference posts first. Then reviewing each post systematically for voice, consistency, and errors.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,11 +25,10 @@ I'll review all blog posts with the jorap-voice lens—checking sense, consisten
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **57** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (57 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (57 files)
 
 | File |
 |------|
@@ -89,26 +89,18 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (57 files)
 | `content/english/blog/consistent-ai-output-wordpress-builds.md` |
 | `content/english/blog/__hugo-page-bundles.md` |
 | `content/english/blog/one-page-zine.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1; echo "---"; pnpm lint:blog 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1; echo &#34;---&#34;; pnpm lint:blog 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1; echo "---"; pnpm lint:blog 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash errors:
   content/english/blog/one-page-zine.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
@@ -117,24 +109,12 @@ $ python3 scripts/normalize-blog-frontmatter.py --verify
 Blog frontmatter OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
@@ -143,13 +123,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Getting a broader picture before checking the blogs.
 
-About 25 published posts and 30 drafts were found. I'll scan the published set for voice issues and factual errors, then check drafts too. Common AI tells and currency amounts will be flagged.</details></think>
+About 25 published posts and 30 drafts were found. I'll scan the published set for voice issues and factual errors, then check drafts too. Common AI tells and currency amounts will be flagged.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1 | head -200</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm voice:scan 2&gt;&amp;1 | head -200</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1 | head -200
 ```
@@ -187,66 +167,15 @@ Review-only (edit data/voice-words.yaml review: to tune)
     content/english/notes/reversibility.md · relationships.reason
     content/english/notes/rollback-principle.md · cards[0].front
     content/english/notes/rollback-principle.md · examples[0]
-    content/english/notes/rollback-principle.md · key_concept
-    content/english/notes/rollback-principle.md · relationships.reason
-    content/english/notes/staged-rollout.md · aliases[0]
-    content/english/notes/staged-rollout.md · cards[0].front
-    content/english/notes/staged-rollout.md · key_concept
-    content/english/notes/staged-rollout.md · relationships.reason
-    content/english/notes/standard-operating-procedures.md · relationships.reason
-    content/english/notes/the-garage-concept.md · key_concept
-  Distill (10) → boil down / shorten
-    content/english/notes/building-a-second-brain.md · cards[0].front
-    content/english/notes/building-a-second-brain.md · cards[5].back
-    content/english/notes/building-a-second-brain.md · key_concept
-    content/english/notes/building-a-second-brain.md · meta_title
-    content/english/notes/building-a-second-brain.md · relationships.reason
-    content/english/notes/evergreen-notes.md · cards[5].back
-    content/english/notes/literature-notes.md · relationships.reason
-    content/english/notes/the-second-brain-workflow.md · description
-    content/english/notes/the-second-brain-workflow.md · key_concept
-    content/english/notes/the-second-brain-workflow.md · relationships.reason
-  contradicts (8) → goes against
-    content/english/notes/linking-by-meaning.md · cards[0].back
-    content/english/notes/linking-by-meaning.md · cards[1].back
-    content/english/notes/linking-by-meaning.md · cards[5].back
-    content/english/notes/linking-by-meaning.md · cards[5].front
-    content/english/notes/note-relationships.md · cards[1].back
-    content/english/notes/note-relationships.md · cards[4].back
-    content/english/notes/note-relationships.md · description
-    content/english/notes/note-relationships.md · key_concept
-  metadata (6) → tags and fields
-    content/english/notes/context-aware-capture.md · relationships.reason
-    content/english/notes/metadata-strategy.md · key_concept
-    content/english/notes/metadata-strategy.md · key_concept
-    content/english/notes/metadata-strategy.md · meta_title
-    content/english/notes/metadata-strategy.md · title
-    content/english/notes/taxonomy.md · key_concept
-  navigate (3) → cut or be specific
-    content/english/blog/mouse-wheel-click.md · body
-    content/english/blog/mouse-wheel-click.md · body
-    content/english/notes/taxonomy.md · relationships.reason
-  Unmerited Favor (2) → gift you didn't earn
-    content/english/notes/grace.md · aliases[0]
-    content/english/notes/grace.md · meta_title
-
-pnpm lint:voice — fail CI on strict hits
-
+    content/english/notes/rollback-principle.md · ke
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -353,21 +282,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -402,13 +322,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -418,7 +331,8 @@ I will read all published blog posts systematically.
 
 About 25 published posts were found. I am cataloging their titles to review them in batches.
 
-The remaining 24 posts are now catalogued. A duplicate draft field was spotted in one file. Parallel batch reads will follow. AI tells and engagement bait will be checked.</details></think>
+The remaining 24 posts are now catalogued. A duplicate draft field was spotted in one file. Parallel batch reads will follow. AI tells and engagement bait will be checked.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -427,10 +341,8 @@ Reviewing all published posts in batches for voice, factual errors, and structur
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -460,21 +372,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -580,21 +483,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="task_v2">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
-
 
 Parameters:
 
@@ -625,13 +519,6 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
-<summary>Tool use: **task_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -639,7 +526,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The subagent completed a thorough review.
 
-Verifying the subagent's critical findings by reviewing the key files directly. This ensures factual errors are confirmed before reporting.</details></think>
+Verifying the subagent's critical findings by reviewing the key files directly. This ensures factual errors are confirmed before reporting.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -648,36 +536,22 @@ Verifying the critical findings in the key posts.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -710,25 +584,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
 
 </details></tool-use>
 
@@ -751,27 +612,20 @@ Lepchenko's score of 6-3, 7-6(3), 6-3 is inconsistent for a best-of-three match,
 
 A quick scan of flagged posts and the checklist link is next.
 
-The user requested a review rather than immediate fixes, so findings will be reported clearly. Next steps include checking the instant-pot-chicken-adobo post and verifying the markdown-deep-dive draft status.</details></think>
+The user requested a review rather than immediate fixes, so findings will be reported clearly. Next steps include checking the instant-pot-chicken-adobo post and verifying the markdown-deep-dive draft status.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -802,25 +656,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
 
 </details></tool-use>
 
@@ -831,7 +672,8 @@ The subagent was wrong. The chicken adobo blog does contain voice in its opening
 
 The chicken adobo blog lacks a closing paragraph. The Duopoly post incorrectly claims seven countries and seven geisha boards. Retail Hanamikoji has six geisha boards. The US country entry is not part of retail.
 
-The US entry at five points has no retail Hanamikoji equivalent; the highest retail geisha board is four charms. The Duopoly post should either acknowledge it as a seven-market expansion or correct it to six markets. The review will present this clearly. Twenty-four posts are published, excluding the draft deep-dive.</details></think>
+The US entry at five points has no retail Hanamikoji equivalent; the highest retail geisha board is four charms. The Duopoly post should either acknowledge it as a seven-market expansion or correct it to six markets. The review will present this clearly. Twenty-four posts are published, excluding the draft deep-dive.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -949,7 +791,8 @@ The Duopoly variant’s seventh market should be explicitly labeled as an intent
 
 The retail win condition is four of six geisha or eleven plus charm points. The duopoly variant raises both thresholds to four of seven countries or eleven plus points. The retail mapping table incorrectly lists twenty-one total charm points; the correct figure is sixteen. The phrase "mechanics unchanged" will be revised to reflect the intentional seventh-market addition.
 
-The author likely confused the seven geishas in retail with the seven markets in Duopoly. Removing the United States market would make the variant a true one-to-one retheme, though retail contains twenty-one item cards for six geishas.</details></think>
+The author likely confused the seven geishas in retail with the seven markets in Duopoly. Removing the United States market would make the variant a true one-to-one retheme, though retail contains twenty-one item cards for six geishas.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -958,53 +801,29 @@ Fixing the factual errors and the voice-lint em dash. Reading the affected files
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
@@ -1025,23 +844,20 @@ Line 47 will note the one-to-one mapping caveat for the seventh market. The reta
 
 The seven-markets section will explain that retail uses six geisha with sixteen total charm, while Duopoly adds the US market as a seventh row for cleaner three-deals-per-country math.
 
-The internal link to the Sveltia CMS draft will be removed. It will become plain text or an external link. Decap will point to decapcms.org. The repository will be searched for existing Sveltia references.</details></think>
+The internal link to the Sveltia CMS draft will be removed. It will become plain text or an external link. Decap will point to decapcms.org. The repository will be searched for existing Sveltia references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -1062,13 +878,6 @@ User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1082,14 +891,13 @@ The US market at five is a home tweak, not retail canon. Retail wins four of six
 
 I will update the component table and correct lines 41, 83, and 101. The US market row needs a footnote calling it a home addition rather than a five-charm equivalent. Six retail geishas map to six of the seven countries.
 
-Retail totals forty-one cards; Duopoly totals thirty-six. The broken Sveltia CMS link will become plain text or an external URL.</details></think>
+Retail totals forty-one cards; Duopoly totals thirty-six. The broken Sveltia CMS link will become plain text or an external URL.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1156,13 +964,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1172,7 +973,8 @@ The Sveltia CMS reference will appear as plain text rather than an internal link
 
 Decap may link to its official site. Sveltia will stay plain text. The hanamikoji edits will clarify mechanics, retail versus duopoly, the seven markets breakdown, and point value wording.
 
-Retail totals 41 points, not 43. The retail table shows six geisha and six tokens. The retail victory marker count is six. The win threshold reads "same win count (4); Duopoly adds a seventh market."</details></think>
+Retail totals 41 points, not 43. The retail table shows six geisha and six tokens. The retail victory marker count is six. The win threshold reads "same win count (4); Duopoly adds a seventh market."
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1181,203 +983,110 @@ Applying fixes across all four files.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running lint:voice to verify the fixes pass.</details></think>
+Running lint:voice to verify the fixes pass.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 && pnpm lint:blog 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1 &amp;&amp; pnpm lint:blog 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 && pnpm lint:blog 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash lint OK
 Voice lint OK
 $ python3 scripts/normalize-blog-frontmatter.py --verify
 Blog frontmatter OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All lints now pass. I'll summarize the fixes.</details></think>
+All lints now pass. I'll summarize the fixes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1408,7 +1117,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user corrected me. There are 7 geishas in Hanamikoji, not 6.
 
-I will verify the geisha count and update the post accordingly. I will search online and check the codebase for authoritative references.</details></think>
+I will verify the geisha count and update the post accordingly. I will search online and check the codebase for authoritative references.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1416,10 +1126,8 @@ You're right to push back — I'll verify the retail
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -1435,23 +1143,12 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [How to play Hanamikoji | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/hanamikoji/game-rules.php)\n2. [Hanamikoji Rulebook - 1jour-1jeu.com](https://cdn.1j1ju.com/medias/e0/90/0c-hanamikoji-rulebook.pdf)\n3. [Hanamikoji (2018) - Card Games - 1jour-1jeu.com](https://en.1jour-1jeu.com/cardgame/2018-hanamikoji)\n4. [Hanamikoji – How to Impress Geisha Card Game Review - Board Game Authority](https://www.boardgameauthority.com/hanamikoji-geisha-card-game-review/)\n5. [How To Play Hanamikoji | Zatu Games](https://zatu.com/blogs/how-to-play/how-to-play-hanamikoji)\n\nSynthesis:\nThe board game Hanamikoji includes exactly 7 geisha cards [1][2][3]. These cards are placed in a row between the two players during setup [1][4][5]. Each card corresponds to a specific type and quantity of item cards in the deck, ranging in charm value from 2 to 5 [6][7][8].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to play Hanamikoji | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/hanamikoji/game-rules.php\u003c/url\u003e\n\u003ccontent\u003eIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel.\n...\n- 7 Geisha Cards\n- 21 Item Cards\n- 8 Action Markers\n- 7 Victory Markers\n...\nIn the game of Hanamikoji, the aim is to win 4 Geisha or 11 (or more) Charm Points. You and your opponent take turns to perform actions to get different kinds of Item Cards.\n...\n1 Place 7 Geisha Cards in a row, in the following order from left to right, between players.\n...\n2 Place 1 Victory Marker on the center of each Geisha Card.\n...\n3 Stack the Item Cards face-down into a pile and place them aside.\n\n4 Each\n...\nMarkers of the same color with the colored side up, and places them in front of himself.\n...\nIf any player wins 4 Geisha or 11 (or more) Charm Points, the game ends immediately.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eHanamikoji Rulebook - 1jour-1jeu.com\u003c/title\u003e\n\u003curl\u003ehttps://cdn.1j1ju.com/medias/e0/90/0c-hanamikoji-rulebook.pdf\u003c/url\u003e\n\u003ccontent\u003e7 Geisha Cards 8 Action Markers\n...\n21 Item Cards\n...\nIn the game of Hanamikoji, the aim is to win 4 Geisha or 11 (or more) Charm Points. You and your opponent take turns to perform actions to get different kinds of Item Cards. For each Geisha, if you have more Item Cards of the corresponding type than your opponent, then you win the Geisha’s favor. The game will continue until either player has reached the winning goal in the Scoring phase.\n...\nIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel. With careful speculation and sometimes a few bold moves, you may earn the essential items by giving away the less critical ones. Can you outsmart your opponent and win the most favors of the geisha?\n...\nBeginning with the\n...\nplayer, players alternate to take one turn (Player A\n...\nB → Player A → Player B → and so forth) until\n...\nIn your turn, you must draw a card from the Item deck,\n...\nan action. There is\n...\nno fixed action order. \nWhen you perform an action, you choose 1 of your face-up colored side Action Marker and perform \nthe corresponding action. After resolving the action, flip the marker face-down. You can’t choose \nface-down markersd (each of the player’s action markers will only be used once during the round). \nThere are 4 actions in Hanamikoji: \n\n1. Place 7 Geisha Cards in a row, in the following order from left to right, between players. \n2. Place 1 Victory Marker on the center of each Geisha Card. \n3. Stack the Item Cards face-down into a pile and place them aside. \n4. Each player takes 4 Action Markers of the same color with the colored side up, and places \nthem in front of himself. \n5. The younger player is the starting player. \n\n## Phase 1:\n...\nall 2\n...\n1\n...\ngame box unseen\n...\nthis \nround. Nether player is unable\n...\neach player\n...\nCards as a\n...\nStack the remaining\n...\nthe row of\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eHanamikoji (2018) - Card Games - 1jour-1jeu.com\u003c/title\u003e\n\u003curl\u003ehttps://en.1jour-1jeu.com/cardgame/2018-hanamikoji\u003c/url\u003e\n\u003ccontent\u003eWelcome to the most famous street geishas of the old capital, Hanamikoji. Players will compete to win the favor of the seven geisha mistresses by collecting items that represent their performance. With thoughtful anticipations and bold decisions, you can win the essentials by leaving out the least interesting ones. Will you be smarter than your opponent to gain a majority of geisha favors?\n...\nContents of the box : 7 Geisha cards, 8 Action tokens, 21 Object cards, 7 Favor tokens, 1 Rulebook.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eHanamikoji – How to Impress Geisha Card Game Review - Board Game Authority\u003c/title\u003e\n\u003curl\u003ehttps://www.boardgameauthority.com/hanamikoji-geisha-card-game-review/\u003c/url\u003e\n\u003ccontent\u003eHanamikoji is what most people would call a light game or a filler game. It consists of 7 large Geisha Cards, 21 Item Cards, 8 Action Markers, and 7 Victory Markers and takes about 10 – 15 minutes to play. Setup is very easy: simply place the seven Geisha Cards in a row (in sequential order) between the players. Then place a Victory Marker in the center of each Geisha Card. Each player gets four Action Markers, placed face up in front of them. Finally, the Item Cards are placed within each reach of both players. And that’s it; you are ready to begin playing Hanamikoji.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eHow To Play Hanamikoji | Zatu Games\u003c/title\u003e\n\u003curl\u003ehttps://zatu.com/blogs/how-to-play/how-to-play-hanamikoji\u003c/url\u003e\n\u003ccontent\u003eYou place the 7 large Geisha cards in numerical order in a row between the players so that each person is sitting opposite the other. Each card gets a victory token placed in the centre.\n...\nFirst player then shuffles the 21 item cards (whose colours match the Geishas) and discards one face down back into the box, before dealing 6 face down cards to each person. The remaining item cards form a deck at the end of the Geisha Row. Note that the Geishas and their matching item cards show a “charm value” – this has relevance at end of round scoring (see below).\n...\nGeisha. Whoever has collected the most has won the favour\n...\nthat particular artist and so the victory token slides to\n...\nIf there is a draw,\n...\nstays put in\n...\nIf one player has won the favour of 4 Geishas (i.e. they have the majority on 4 different Geisha cards) they win the game. Alternatively, if both players have less than 4 Geishas, the winning player will be the one whose charm values add up to 11 or more – note that the charm values are not multiplied by the number of cards used to win a particular Geisha (so e.g. a majority set of 2 x flautists (purple Geisha with a charm value of 2) is still only worth 2 charms).\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [How to play Hanamikoji | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/hanamikoji/game-rules.php)\n2. [Hanamikoji Rulebook - 1jour-1jeu.com](https://cdn.1j1ju.com/medias/e0/90/0c-hanamikoji-rulebook.pdf)\n3. [Hanamikoji (2018) - Card Games - 1jour-1jeu.com](https://en.1jour-1jeu.com/cardgame/2018-hanamikoji)\n4. [Hanamikoji – How to Impress Geisha Card Game Review - Board Game Authority](https://www.boardgameauthority.com/hanamikoji-geisha-card-game-review/)\n5. [How To Play Hanamikoji | Zatu Games](https://zatu.com/blogs/how-to-play/how-to-play-hanamikoji)\n\nSynthesis:\nThe board game Hanamikoji includes exactly 7 geisha cards [1][2][3]. These cards are placed in a row between the two players during setup [1][4][5]. Each card corresponds to a specific type and quantity of item cards in the deck, ranging in charm value from 2 to 5 [6][7][8].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to play Hanamikoji | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/hanamikoji/game-rules.php\u003c/url\u003e\n\u003ccontent\u003eIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel.\n...\n- 7 Geisha Cards\n- 21 Item Cards\n- 8 Action Markers\n- 7 Victory Markers\n...\nIn the game of Hanamikoji, the aim is to win 4 Geisha or 11 (or more) Charm Points. You and your opponent take turns to perform actions to get different kinds of Item Cards.\n...\n1 Place 7 Geisha Cards in a row, in the following order from left to right, between players.\n...\n2 Place 1 Victory Marker on the center of each Geisha Card.\n...\n3 Stack the Item Cards face-down into a pile and place them aside.\n\n4 Each\n...\nMarkers of the same color with the colored side up, and places them in front of himself.\n...\nIf any player wins 4 Geisha or 11 (or more) Charm Poi
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
 
@@ -1462,14 +1159,8 @@ Hanamikoji count and fix the post accordingly.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
@@ -1482,22 +1173,16 @@ The user confirmed seven geishas in Hanamikoji. Web search supports this count.
 
 The retail total is 21 charm points across seven geishas. My audit was wrong. I will check git diff to confirm whether other fixes remain intact.
 
-I will apologize for the error and avoid unnecessary edits if the file is already correct. I am checking git diff to verify actual repository changes.</details></think>
+I will apologize for the error and avoid unnecessary edits if the file is already correct. I am checking git diff to verify actual repository changes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/blog/hanamikoji-duopoly-retheme.md
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1505,13 +1190,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 No git diff exists for hanamikoji. The changes may have been reverted, or the file was never modified.
 
-Checking git diff for all blog files.</details></think>
+Checking git diff for all blog files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/blog/</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --stat content/english/blog/</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/blog/
 ```
@@ -1523,12 +1208,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/blo
  3 files changed, 4 insertions(+), 4 deletions(-)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1536,7 +1215,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The previous hanamikoji edits appear to have been reverted or were never saved.
 
-My audit was wrong. The original post correctly listed 7 geishas. No code changes are needed.</details></think>
+My audit was wrong. The original post correctly listed 7 geishas. No code changes are needed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1566,7 +1246,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Running another blog audit with jorap-voice. Correcting the earlier mistake: Hanamikoji has 7 geishas.
 
-Scanning all published blogs for sense, errors, and voice issues. Running lint and batch-checking efficiently.</details></think>
+Scanning all published blogs for sense, errors, and voice issues. Running lint and batch-checking efficiently.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1575,35 +1256,26 @@ Re-auditing all published blogs with jorap-voice, keeping Hanamikoji at 7 geisha
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1; pnpm lint:blog 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1; pnpm lint:blog 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1; pnpm lint:blog 2>&1
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash lint OK
 Voice lint OK
 $ python3 scripts/normalize-blog-frontmatter.py --verify
 Blog frontmatter OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1710,21 +1382,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1831,13 +1494,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1847,14 +1503,13 @@ _**Agent (auto-low)**_
 
 The file likely contains conflicting draft flags. Published posts are being tallied by filtering out `__` prefixed drafts.
 
-Twenty-four published posts were tallied. Next, grepping for broken internal links, currency, AI tells, and spot-checking alex-eala fixes.</details></think>
+Twenty-four published posts were tallied. Next, grepping for broken internal links, currency, AI tells, and spot-checking alex-eala fixes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1928,21 +1583,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1972,21 +1618,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2092,52 +1729,32 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking published posts for links to draft-only posts. Reviewing the extension-cord remote checklist. Noting miracle-isaiah empty image dimensions. Flagging an alex eastbourne line. Confirming hanamikoji is correct.</details></think>
+Checking published posts for links to draft-only posts. Reviewing the extension-cord remote checklist. Noting miracle-isaiah empty image dimensions. Flagging an alex eastbourne line. Confirming hanamikoji is correct.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2167,60 +1784,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2254,13 +1844,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2268,40 +1851,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking static-site-vs-cms for the Sveltia fix and scanning for more alex-eala issues.
 
-Reading voice-flagged post openings to update the audit. Verifying whether __markdown-deep-dive is a draft file.</details></think>
+Reading voice-flagged post openings to update the audit. Verifying whether __markdown-deep-dive is a draft file.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2379,25 +1949,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
 
 </details></tool-use>
 
@@ -2408,14 +1965,13 @@ Checking additional items for the audit.
 
 Found minor wording issues in the Alex Eala WTA 1000 semifinal post and the how-i-built subtitle. The worship-pads bit.ly link and cross-post redundancy between why-run and sustainable need review. The hanamikoji post is factually sound. Published internal links in why-i-focused-on-open-source correctly point to drupal-to-wordpress and how-i-built-jorap-notes.
 
-Published internal links in hugoplate-theme-review and why-run-youwebsite correctly point to how-i-built-jorap-notes. The arroz-caldo posts cross-reference each other properly. No broken links remain after the Sveltia fix. Draft __sveltia links to a draft post, which is expected. Now checking the alex-eala post for score typos or factual issues.</details></think>
+Published internal links in hugoplate-theme-review and why-run-youwebsite correctly point to how-i-built-jorap-notes. The arroz-caldo posts cross-reference each other properly. No broken links remain after the Sveltia fix. Draft __sveltia links to a draft post, which is expected. Now checking the alex-eala post for score typos or factual issues.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2440,21 +1996,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2479,38 +2026,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
@@ -2519,14 +2047,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Compiling the full audit now.
 
-The audit confirms no factual errors in the Hanamikoji post. Fixes for the zine em dash, Sveltia link, and author names are already applied. Lint passes and no broken internal links were found. Voice flags remain unchanged. Now double-checking worship-pads and DNPAP Pagibig links.</details></think>
+The audit confirms no factual errors in the Hanamikoji post. Fixes for the zine em dash, Sveltia link, and author names are already applied. Lint passes and no broken internal links were found. Voice flags remain unchanged. Now double-checking worship-pads and DNPAP Pagibig links.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2556,21 +2083,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2600,25 +2118,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
 
 </details></tool-use>
 
@@ -2627,7 +2132,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The comprehensive audit is ready.
 
-24 published posts are lint-clean. The earlier Hanamikoji count was wrong; seven geishas is correct. No critical factual errors remain. Minor issues include a missing link in the extension-cord checklist, a minor wording inconsistency with Alex's WTA 1000 Tour Semifinals post, and potentially misleading aliases. Voice nuance is unchanged. No fixes will be suggested unless requested.</details></think>
+24 published posts are lint-clean. The earlier Hanamikoji count was wrong; seven geishas is correct. No critical factual errors remain. Minor issues include a missing link in the extension-cord checklist, a minor wording inconsistency with Alex's WTA 1000 Tour Semifinals post, and potentially misleading aliases. Voice nuance is unchanged. No fixes will be suggested unless requested.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2758,4 +2264,523 @@ Recipes: instant-pot-chicken-adobo has voice in the opening and "Why I use the I
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user shared an audit of their published </details></think>
+The user shared an audit of their published posts. Most items are factual or structural nits, not blocking issues. One recipe needs a closing line.
+
+I parsed the audit into specific fixes. These include correcting a WTA tournament label, removing a broken remote-checklist link, deleting duplicate aliases, fixing an empty image attribute, repairing a bit.ly link, and adding a closing line to the adobo recipe.
+
+I also flagged six generic posts that need voice fixes. I will read the files and apply all corrections.
+
+I will soften the extension-cord reference to "on my packing list" rather than linking to an unpublished checklist. I also need to locate the actual destination for the worship-pads bit.ly link and determine correct image dimensions for the miracle-isaiah post. The voice rewrites are a larger task, so I will finish the quick fixes first and then tackle the substantive voice edits.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Working through the minor nits first, then the voice passes on the flagged posts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining voice-pass files: sustainable-online-publishing, getting-started-with-rss-feeds, and consistent-ai-output-wordpress-builds. Also checking the fb-post image dimensions.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: file /home/jorap/Documents/GitHub/jorap.com/static/images/fb-post-isaiah-david.jpg 2&gt;/dev/null; identify /home/jorap/Documents/GitHub/jorap.com/static/images/fb-post-isaiah-david.jpg 2&gt;/dev/null || python3 -c &#34;
+from pathlib import Path
+try:
+    from PIL import Image
+    p = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/static/images/fb-post-isaiah-david.jpg&#39;)
+    if p.exists():
+        im = Image.open(p)
+        print(im.size)
+    else:
+        # try assets or content
+        for root in [&#39;assets&#39;,&#39;content&#39;]:
+            for f in Path(&#39;/home/jorap/Documents/GitHub/jorap.com&#39;).rglob(&#39;fb-post-isaiah-david.jpg&#39;):
+                im = Image.open(f)
+                print(f, im.size)
+except Exception as e:
+    print(&#39;err&#39;, e)
+&#34;</summary>
+```bash
+file /home/jorap/Documents/GitHub/jorap.com/static/images/fb-post-isaiah-david.jpg 2>/dev/null; identify /home/jorap/Documents/GitHub/jorap.com/static/images/fb-post-isaiah-david.jpg 2>/dev/null || python3 -c "
+from pathlib import Path
+try:
+    from PIL import Image
+    p = Path('/home/jorap/Documents/GitHub/jorap.com/static/images/fb-post-isaiah-david.jpg')
+    if p.exists():
+        im = Image.open(p)
+        print(im.size)
+    else:
+        # try assets or content
+        for root in ['assets','content']:
+            for f in Path('/home/jorap/Documents/GitHub/jorap.com').rglob('fb-post-isaiah-david.jpg'):
+                im = Image.open(f)
+                print(f, im.size)
+except Exception as e:
+    print('err', e)
+"
+```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/static/images/fb-post-isaiah-david.jpg: cannot open `/home/jorap/Documents/GitHub/jorap.com/static/images/fb-post-isaiah-david.jpg' (No such file or directory)
+/home/jorap/Documents/GitHub/jorap.com/assets/images/fb-post-isaiah-david.jpg (2048, 1536)
+/home/jorap/Documents/GitHub/jorap.com/assets/images/fb-post-isaiah-david.jpg (2048, 1536)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Juan López Música Free Worship Ambient Pads download"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Worship Pads Free – Worship Pads – Free and Premium Ambient and Atmospheric pads for worship and more.](https://worshippadsfree.com/pads/)\n2. [Ambient Pads for Worship Free – Worship Pads Free](https://worshippadsfree.com/pads/2018/09/ambient-pads-for-worship-free/)\n\nSynthesis:\nJuan López Música provides ambient worship pads that are available for download through his YouTube channel [1][2][3]. You can find links to download these pads in the descriptions of his specific key-based ambient pad videos, such as his E | C#m or C | Am recordings [2][3]. These files are generally designed for use in worship settings to provide atmospheric support [4][1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWorship Pads Free – Worship Pads – Free and Premium Ambient and Atmospheric pads for worship and more.\u003c/title\u003e\n\u003curl\u003ehttps://worshippadsfree.com/pads/\u003c/url\u003e\n\u003ccontent\u003eWorship Pads Free – Worship Pads – Free and Premium Ambient and Atmospheric pads for worship and more.\n...\n#### Free Minor Pads for Worship\n...\nThree beautiful free packs of Worship Pads to make the environment of your ministry incredible. Três pacotes gratuitos de Worship Pads para criar um ambiente incrível para suas ministrações. Pack 1 – Bells Minor / Read more\n...\nAprenda neste artigo como usar os Worship Pads Free e dicas para o uso de nossos Pads Gratuitos. Se você tem dúvidas sobre o que é um Worship Pad, leia nosso artigo sobre o assunto: Read more\n...\n#### Demonstração Worship Pads Free – Wake (Hillsong) – Pad Sweeper Flanger\n...\nOferecemos vários timbres e tipos de PADs Gratuitos que acabam gerando dúvidas na escolha de qual usar em determinadas músicas. Para ajudar na escolha do PAD mais adequado criamos várias demonstrações usando trechos de canções conhecidas, Read more\n...\n#### Worship Pads Gratuito – Pacote Basic Standard\n...\nApresentamos neste artigo o
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I will fix all the audit findings the user provided.
+
+Planned fixes include correcting the WTA 1000 wording in alex-eala, removing the broken remote-work-checklist promise from extension-cord, deleting the aliases line in hanamikoji, scaling the oversized miracle-isaiah image, and adding the Juan López link to worship-pads.
+
+I will also add a closing line to the adobo recipe, sharpen the voice in the desktop-laptop post, expand the website-building article with more concrete examples, and differentiate the publishing guide from the website post. I will read the voice reference and mouse-wheel-click posts to match tone before editing.
+
+The extension-cord rewrite will cite the item in a travel bag checklist instead of a broken draft link. For worship-pads, Juan López’s YouTube channel or worshippadsfree.com is the safer destination because the bit.ly link rots.
+
+I will use a direct link to worshippadsfree.com/pads/ or the embedded YouTube video for Juan López, avoiding broken redirects. Voice rewrites will be surgical edits rather than full rewrites.
+
+The desktop-laptop post will gain a tax-season borrow story, specific tool names, and Philippines context where natural. The website post will lead with jorap.com specifics like Hugo garden and notes earlier. The publishing guide will sharpen its habit and deployment angle, and cross-link to the website post instead of repeating it.
+
+The RSS guide will list specific feeds and Inoreader folders. The WordPress article will name concrete files like functions.php and block.json. The JoRap notes title will lose the "My Journey" SEO fluff. I am checking the arroz-caldo recipe for closing-line tone.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+Offset 115 is beyond file length (111 lines)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "miracle*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "height=\\\"[0-9]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "height=\\\"[0-9]",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the end of instant-pot-arroz-caldo to match its closing style.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "height=\\\"[0-9]+\\\" width=\\\"[0-9]+\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "height=\\\"[0-9]+\\\" width=\\\"[0-9]+\\\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/one-page-zine.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/hanamikoji-duopoly-retheme.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/consistent-ai-output-wordpress-builds.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Facebook post image scales to 750 pixels tall at a width of 1000.
+
+I'll apply all audit fixes in two batches. First quick corrections. Then voice edits to tighten and personalize. I'll add the tax-season neighbor story. I'll mention Hugo builds and WordPress client sites. I'll trim or combine sections where needed.
+
+The desktop-laptop post will get a specific crash story and a mention of the Hugo terminal, Inoreader, and Slack stack. The own-website post will cite the jorap notes garden and a real post that taught the author something. The publishing post is next.
+
+The publishing post will cross-link to the philosophy piece and trim its duplicated stack table. It will focus on PHP hosting loss, deployment habits, and Cloudflare build budgets. The RSS feeds post will add concrete examples like the author’s own blog and real-world feeds. Next is the consistent-ai-output post.
+
+The consistent-ai-output post will gain concrete WordPress examples: a `jorap_block_open()` helper, `block.json`, and an ACF field like `block_title`. It will also mention Cursor project rules files.
+
+The JoRap notes title will change to "How I Built JoRap Notes: After Losing PHP Hosting."
+
+The instant-pot adobo recipe will close with a paragraph about being a weeknight default, pairing with rice, and repeating the dish.
+
+Worship pad links will point to worshippadsfree.com or the Juan López YouTube video.
+
+The worship pad download will reference the YouTube video description instead of a separate site.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Applying quick fixes first, then targeted voice passes on the flagged posts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Voice checks pass for the five posts.
+
+Proceeding with surgical edits.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The sermon clip sentence in why-keep-desktop-laptop is awkward.
+
+The awkward sentence now reads naturally.
+
+The phrase "Desktop software is where the full toolbox lives..." was removed from the real software section. It needs to be restored with the line "For anything that's actually work, I want the full version."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing an awkward sentence about a sermon clip in why-keep-desktop-laptop.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1 &amp;&amp; pnpm lint:blog 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 && pnpm lint:blog 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/normalize-blog-frontmatter.py --verify
+Blog frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The duopoly retheme file is correct. Minor nits noted: redundant WTA wording, interchangeable RSS how-to, consulting framework lacks concrete examples, and the hosting journey title reads like template SEO. The adobo recipe needs a closing line. All other items look good.
+</details></think>
+
+_**Agent (auto-low)**_
+
+All audit items addressed. Summary:
+
+### Minor nits
+- **alex-eala** — "WTA 1000 Tour Semifinals" → "WTA 1000 semifinal"
+- **extension-cord** — "remote work checklist" → "travel bag" (no link to unpublished draft)
+- **hanamikoji** — removed `aliases: ["hanamikoji-rules"]`
+- **miracle-isaiah-david** — image `height="750" width="1000"` (from 2048×1536 asset)
+- **worship-pads** — bit.ly → YouTube description link
+- **instant-pot-chicken-adobo** — closing paragraph on weeknight default
+
+### Voice passes
+- **how-i-built-jorap-notes** — title → "After Losing PHP Hosting"
+- **why-keep-desktop-laptop** — sermon clip crash, `hugo server` + WP staging, client-build multitasking
+- **why-run-your-own-website** — opens with notes garden, extension-cord traffic, Eala tracker; Drupal post as writing example
+- **sustainable-online-publishing** — cross-links `why-run-your-own-website`; stack table replaced with link to build post (less overlap)
+- **getting-started-with-rss-feeds** — `jorap.com/blog/index.xml`; folder examples (WTA, board-game blogs)
+- **consistent-ai-output-wordpress-builds** — concrete `block.php`, `jorap_block_open()`, `inc/blocks/examples/card.php`, `.cursor/rules`
+
+`pnpm lint:voice` and `pnpm lint:blog` both pass.

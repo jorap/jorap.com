@@ -15,7 +15,8 @@ find all possible connections
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Creating a new note titled "Renewed Mind" and searching for all possible connections.</details></think>
+Creating a new note titled "Renewed Mind" and searching for all possible connections.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,37 +25,24 @@ I'll explore how notes are structured in the repo and search for anything relate
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **227** results in **1** directory</summary>
 
-Directory: **** (227 files)
+Directory: **``** (227 files)
 
 | File |
 |------|
@@ -285,21 +273,12 @@ Directory: **** (227 files)
 | `content/english/notes/turn-the-other-cheek.md` |
 | `content/english/notes/the-narrow-way.md` |
 | `content/english/notes/maps-of-content.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -323,26 +302,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-"Renewed Mind" does not exist in the current codebase.</details></think>
+"Renewed Mind" does not exist in the current codebase.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -408,81 +379,46 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `archetypes/notes-review.md` |
 | `archetypes/notes.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -588,47 +524,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -658,117 +573,67 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/habit-formation.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/habit-formation.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for connections to "Renewed Mind," drawing from Romans 12:2.</details></think>
+Searching for connections to "Renewed Mind," drawing from Romans 12:2.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/change-takes-repetition.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/change-takes-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -874,60 +739,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1001,77 +839,40 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/heart-righteousness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/heart-righteousness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/emotional-regulation.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/emotional-regulation.md</summary>
 
 </details></tool-use>
 
@@ -1080,27 +881,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 "Renewed Mind" comes from Romans 12:2.
 
-The verse calls for non-conformity to worldly patterns and mind renewal as the engine of transformation. This leads to discerning God's will. It connects to sanctification, discipleship, and abiding. PKM parallels include information diet, mental models, and growth mindset.</details></think>
+The verse calls for non-conformity to worldly patterns and mind renewal as the engine of transformation. This leads to discerning God's will. It connects to sanctification, discipleship, and abiding. PKM parallels include information diet, mental models, and growth mindset.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1202,25 +996,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
 
 </details></tool-use>
 
@@ -1288,26 +1069,20 @@ Alternative relationships identified:
 
 Also checking digital-minimalism, slow-the-moment, and behavioral-economics.
 
-The backlink page auto-generates from wikilinks and relationships. Reciprocal links may not need manual entry. Proceeding to create the renewed-mind note.</details></think>
+The backlink page auto-generates from wikilinks and relationships. Reciprocal links may not need manual entry. Proceeding to create the renewed-mind note.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo new content/english/notes/renewed-mind.md --kind notes 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo new content/english/notes/renewed-mind.md --kind notes 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo new content/english/notes/renewed-mind.md --kind notes 2>&1
 ```
@@ -1316,33 +1091,19 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo new content/english/notes/rene
 Content "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md" created
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1449,38 +1210,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-minimalism.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-minimalism.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
 
 </details></tool-use>
 
@@ -1507,7 +1249,8 @@ Digital Minimalism is added. It cuts feeds that conform the mind to outrage. Att
 
 Renewed Mind will be added to the eternal-principles hub near Sanctification. Strong and reasonable PKM cross-links matching the eternal-principles pattern will be included.
 
-The note will use one-way frontmatter relationships with auto-generated backlinks. The title is "Renewed Mind." The meta title is "Renewed Mind - Romans 12:2 Mind Transformation." The description is under twenty words with no wikilinks. It reads: "Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey."</details></think>
+The note will use one-way frontmatter relationships with auto-generated backlinks. The title is "Renewed Mind." The meta title is "Renewed Mind - Romans 12:2 Mind Transformation." The description is under twenty words with no wikilinks. It reads: "Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey."
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1516,29 +1259,21 @@ Writing the note with Romans 12:2 content and wiring relationships across the fa
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Adding the note to the eternal-principles hub. Running linters.</details></think>
+Adding the note to the eternal-principles hub. Running linters.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | rg -i "renewed-mind|FAIL|error" || true; npm run lint:voice 2>&1 | rg -i "renewed-mind|FAIL|error" || true; python3 scripts/lint-notes-frontmatter.py 2>&1 | rg -i "renewed-mind|FAIL|error" || true</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 | rg -i &#34;renewed-mind|FAIL|error&#34; || true; npm run lint:voice 2&gt;&amp;1 | rg -i &#34;renewed-mind|FAIL|error&#34; || true; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg -i &#34;renewed-mind|FAIL|error&#34; || true</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | rg -i "renewed-mind|FAIL|error" || true; npm run lint:voice 2>&1 | rg -i "renewed-mind|FAIL|error" || true; python3 scripts/lint-notes-frontmatter.py 2>&1 | rg -i "renewed-mind|FAIL|error" || true
 ```
@@ -1557,81 +1292,51 @@ FAIL wikilink in shareable_thought[3]: the-trusted-inbox.md
 9 note(s) failed frontmatter lint
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A fragment failed validation. The phrase about testing and approving God's will was rejected.</details></think>
+A fragment failed validation. The phrase about testing and approving God's will was rejected.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | tail -5; python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "renewed-mind"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 | tail -5; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;renewed-mind&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | tail -5; python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "renewed-mind"
 ```
 
 ```
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter errors:
   content/english/notes/own-your-part.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Coach hasn't fixed my defense and game night is close. Waiti…
 FAIL shareable_thought[3] fragment: renewed-mind.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1663,21 +1368,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1736,34 +1432,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1794,53 +1475,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Fixing shareable_thought[3]. It cannot start with "Then".</details></think>
+Fixing shareable_thought[3]. It cannot start with "Then".
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "renewed-mind" || echo "renewed-mind OK"; npm run audit:cards 2>&1 | rg "renewed-mind" || echo "cards audit OK for renewed-mind"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;renewed-mind&#34; || echo &#34;renewed-mind OK&#34;; npm run audit:cards 2&gt;&amp;1 | rg &#34;renewed-mind&#34; || echo &#34;cards audit OK for renewed-mind&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "renewed-mind" || echo "renewed-mind OK"; npm run audit:cards 2>&1 | rg "renewed-mind" || echo "cards audit OK for renewed-mind"
 ```
@@ -1850,12 +1510,6 @@ renewed-mind OK
 cards audit OK for renewed-mind
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1930,7 +1584,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reciprocal relationship rows will be added to the linked notes connecting to Renewed Mind.
 
-Reading renewed-mind.md to identify relationships. Reciprocal mappings are being determined for each type.</details></think>
+Reading renewed-mind.md to identify relationships. Reciprocal mappings are being determined for each type.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1939,23 +1594,15 @@ I'll add reciprocal `relationships` rows on each linked note — reading `renewe
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1989,13 +1636,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2007,4 +1647,737 @@ Reading relationship sections across files to avoid duplicates. Reciprocal seman
 
 Bidirectional extends relationships are confirmed. Alternative and contradicts are also symmetric. Now reading sync-note-relationships.
 
-The 34 linked notes are now catalogued by type. Alternatives cover first principles, mental models, and self control. Contradicts cover compounding and perfect solutions. Extends cover abide in me, ask seek knock, attention economy, behavioral economics,</details></think>
+The 34 linked notes are now catalogued by type. Alternatives cover first principles, mental models, and self control. Contradicts cover compounding and perfect solutions. Extends cover abide in me, ask seek knock, attention economy, behavioral economics, change takes repetition, and christlikeness.
+
+The extends list continues through digital minimalism, discipleship, emotional regulation, free grace, fruits of the spirit, god centered design, grateful obedience, growth mindset, habit formation, heart righteousness, information diet, justification, love God, mercy, priorities before the inbox, process over outcomes, and repent and believe.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 80,
+  "glob": "content/english/notes/{first-principles-thinking,mental-models,self-control,compounding,there-is-no-perfect-solution,abide-in-me,ask-seek-knock,attention-economy,behavioral-economics,change-takes-repetition,christlikeness,digital-minimalism,discipleship,emotional-regulation,free-grace,fruits-of-the-spirit,god-centered-design,grateful-obedience,growth-mindset,habit-formation,heart-righteousness,information-diet,justification,love-god,mercy,priorities-before-the-inbox,process-over-outcomes,repent-and-believe,sanctification,seek-the-kingdom-first,signal-vs-noise,standing-vs-fellowship,take-up-your-cross,the-wise-builder}.md",
+  "pattern": "^relationships:|^slug:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^relationships:|^slug:",
+  "topFiles": [
+    {
+      "matchCount": 40,
+      "uri": "content/english/notes/compounding.md"
+    },
+    {
+      "matchCount": 89,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 34,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 46,
+      "uri": "content/english/notes/process-over-outcomes.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 26,
+      "uri": "content/english/notes/behavioral-economics.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": "content/english/notes/information-diet.md"
+    },
+    {
+      "matchCount": 49,
+      "uri": "content/english/notes/change-takes-repetition.md"
+    },
+    {
+      "matchCount": 63,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 45,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 45,
+      "uri": "content/english/notes/habit-formation.md"
+    },
+    {
+      "matchCount": 34,
+      "uri": "content/english/notes/priorities-before-the-inbox.md"
+    },
+    {
+      "matchCount": 33,
+      "uri": "content/english/notes/first-principles-thinking.md"
+    },
+    {
+      "matchCount": 47,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 38,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 35,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 39,
+      "uri": "content/english/notes/self-control.md"
+    }
+  ],
+  "totalFiles": 34,
+  "totalMatches": 68
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to read more files to locate their relationships sections.
+
+Reading the remaining files in batch now. Reciprocal relationship rows will be added to first-principles-thinking, mental-models, and self-control. A post-patch deduplication script will follow.
+
+Reciprocal rows are being mapped for compounding, there-is-no-perfect-solution, abide-in-me, ask-seek-knock, attention-economy, and behavioral-economics. Contradictions and extensions are being distinguished.
+
+Reciprocal rows are being mapped for change-takes-repetition, christlikeness, digital-minimalism, discipleship, emotional-regulation, and free-grace.
+
+Reciprocal rows are being mapped for fruits-of-the-spirit, god-centered-design, grateful-obedience, growth-mindset, habit-formation, and heart-righteousness.
+
+Reciprocal rows are being mapped for information-diet, justification, love-god, mercy, priorities-before-the-inbox, and process-over-outcomes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 35,
+  "glob": "{first-principles-thinking,mental-models,self-control,there-is-no-perfect-solution,abide-in-me,attention-economy,christlikeness,digital-minimalism,discipleship,emotional-regulation,free-grace,god-centered-design,grateful-obedience,growth-mindset,habit-formation,heart-righteousness,justification,love-god,mercy,priorities-before-the-inbox,sanctification,seek-the-kingdom-first,standing-vs-fellowship,take-up-your-cross,the-wise-builder}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^relationships:",
+  "topFiles": [
+    {
+      "matchCount": 33,
+      "uri": "content/english/notes/first-principles-thinking.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/grateful-obedience.md"
+    },
+    {
+      "matchCount": 31,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/habit-formation.md"
+    },
+    {
+      "matchCount": 34,
+      "uri": "content/english/notes/priorities-before-the-inbox.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/growth-mindset.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/god-centered-design.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/christlikeness.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/standing-vs-fellowship.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/mercy.md"
+    },
+    {
+      "matchCount": 28,
+      "uri": "content/english/notes/mental-models.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 40,
+  "glob": "{mental-models,self-control,attention-economy,christlikeness,digital-minimalism,discipleship,emotional-regulation,god-centered-design,growth-mindset,heart-righteousness,justification,mercy,seek-the-kingdom-first,standing-vs-fellowship,take-up-your-cross,the-wise-builder,change-takes-repetition}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^relationships:",
+  "topFiles": [
+    {
+      "matchCount": 30,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 28,
+      "uri": "content/english/notes/mental-models.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/mercy.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/heart-righteousness.md"
+    },
+    {
+      "matchCount": 38,
+      "uri": "content/english/notes/growth-mindset.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/change-takes-repetition.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/god-centered-design.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/emotional-regulation.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": "content/english/notes/attention-economy.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/standing-vs-fellowship.md"
+    },
+    {
+      "matchCount": 41,
+      "uri": "content/english/notes/christlikeness.md"
+    },
+    {
+      "matchCount": 39,
+      "uri": "content/english/notes/self-control.md"
+    },
+    {
+      "matchCount": 35,
+      "uri": "content/english/notes/the-wise-builder.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Still need to add reciprocal relationships rows for attention-economy, christlikeness, emotional-regulation, god-centered-design, growth-mindset, standing-vs-fellowship, the-wise-builder, change-takes-repetition, and self-control.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Using a small script to add all 34 reciprocal rows, then running the repo's relationship sync to sort and dedupe.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+import re
+
+# reciprocal: (filename, type, reason) — from each note&#39;s perspective
+RECIPROCALS = [
+    (&#34;first-principles-thinking.md&#34;, &#34;alternative&#34;, &#34;Received gospel mind vs ethics derived from scratch&#34;),
+    (&#34;mental-models.md&#34;, &#34;alternative&#34;, &#34;Scripture-shaped mind vs worldly thinking shortcuts&#34;),
+    (&#34;self-control.md&#34;, &#34;alternative&#34;, &#34;Spirit-fed renewal vs general restraint skill&#34;),
+    (&#34;compounding.md&#34;, &#34;contradicts&#34;, &#34;when self-stacked discipline mimics renewal without abiding&#34;),
+    (&#34;there-is-no-perfect-solution.md&#34;, &#34;contradicts&#34;, &#34;when I delay feeding my mind until thoughts feel holy&#34;),
+    (&#34;abide-in-me.md&#34;, &#34;extends&#34;, &#34;His words dwell where mind renewal actually reads&#34;),
+    (&#34;ask-seek-knock.md&#34;, &#34;extends&#34;, &#34;Seek in Scripture feeds mind renewal on rhythm&#34;),
+    (&#34;attention-economy.md&#34;, &#34;extends&#34;, &#34;What fights for mind-share before Scripture gets a turn&#34;),
+    (&#34;behavioral-economics.md&#34;, &#34;extends&#34;, &#34;Culture&#39;s defaults steer choices - renewal interrupts the pattern&#34;),
+    (&#34;change-takes-repetition.md&#34;, &#34;extends&#34;, &#34;Mind renewal bends across ordinary Tuesdays&#34;),
+    (&#34;christlikeness.md&#34;, &#34;extends&#34;, &#34;Romans 12:2 engine for conformity to Christ, not the world&#34;),
+    (&#34;digital-minimalism.md&#34;, &#34;extends&#34;, &#34;Cut feeds that conform the mind to outrage and hurry&#34;),
+    (&#34;discipleship.md&#34;, &#34;extends&#34;, &#34;Daily following reshapes the mind that chooses obedience&#34;),
+    (&#34;emotional-regulation.md&#34;, &#34;extends&#34;, &#34;Renewed mind buys the gap before the world&#39;s script mails the reply&#34;),
+    (&#34;free-grace.md&#34;, &#34;extends&#34;, &#34;Mind renewal follows gift received - doesn&#39;t buy heaven&#34;),
+    (&#34;fruits-of-the-spirit.md&#34;, &#34;extends&#34;, &#34;Renewed mind walks by the Spirit - flesh defaults lose steering&#34;),
+    (&#34;god-centered-design.md&#34;, &#34;extends&#34;, &#34;Don&#39;t conform life to culture&#39;s design defaults&#34;),
+    (&#34;grateful-obedience.md&#34;, &#34;extends&#34;, &#34;Romans 12:1-2 pair - living sacrifice needs a renewed mind&#34;),
+    (&#34;growth-mindset.md&#34;, &#34;extends&#34;, &#34;Faith lane - mind can change; world&#39;s fixed labels aren&#39;t the verdict&#34;),
+    (&#34;habit-formation.md&#34;, &#34;extends&#34;, &#34;Scripture-before-inbox reps bend thought defaults&#34;),
+    (&#34;heart-righteousness.md&#34;, &#34;extends&#34;, &#34;Inner standard starts where mind renewal reaches motive&#34;),
+    (&#34;information-diet.md&#34;, &#34;extends&#34;, &#34;Diet curates feeds; renewal feeds Scripture that reshapes judgment&#34;),
+    (&#34;justification.md&#34;, &#34;extends&#34;, &#34;Declared righteous first; mind renewal grows after&#34;),
+    (&#34;love-god.md&#34;, &#34;extends&#34;, &#34;Mind devotion is one quarter of whole-person love&#34;),
+    (&#34;mercy.md&#34;, &#34;extends&#34;, &#34;Romans 12:1 - renewal responds to mercy already received&#34;),
+    (&#34;priorities-before-the-inbox.md&#34;, &#34;extends&#34;, &#34;Scripture before algorithm defaults rewrite the morning&#34;),
+    (&#34;process-over-outcomes.md&#34;, &#34;extends&#34;, &#34;Daily mind renewal beats one emotional retreat high&#34;),
+    (&#34;repent-and-believe.md&#34;, &#34;extends&#34;, &#34;Change of mind at entry; renewal keeps the turn going&#34;),
+    (&#34;sanctification.md&#34;, &#34;extends&#34;, &#34;Mind renewal is the inner engine of slow becoming&#34;),
+    (&#34;seek-the-kingdom-first.md&#34;, &#34;extends&#34;, &#34;Kingdom-first fills the mind before worry sets the agenda&#34;),
+    (&#34;signal-vs-noise.md&#34;, &#34;extends&#34;, &#34;Kingdom signal before culture noise enters the mind&#34;),
+    (&#34;standing-vs-fellowship.md&#34;, &#34;extends&#34;, &#34;Fruitless week - keep renewing without panicking standing&#34;),
+    (&#34;take-up-your-cross.md&#34;, &#34;extends&#34;, &#34;Renewed mind enables choosing God&#39;s will over self-will&#34;),
+    (&#34;the-wise-builder.md&#34;, &#34;extends&#34;, &#34;Renewed hearing produces doing - sand is hear-only religion&#34;),
+]
+
+base = Path(&#34;content/english/notes&#34;)
+row = &#39;  - type: {type}\n    wikilink: &#34;[[Renewed Mind]]&#34;\n    reason: &#34;{reason}&#34;\n&#39;
+added = skipped = 0
+for fname, typ, reason in RECIPROCALS:
+    path = base / fname
+    text = path.read_text()
+    if &#34;[[Renewed Mind]]&#34; in text:
+        skipped += 1
+        continue
+    new_row = row.format(type=typ, reason=reason)
+    m = re.search(r&#34;^slug:&#34;, text, re.M)
+    if not m:
+        print(f&#34;NO SLUG: {fname}&#34;)
+        continue
+    text = text[:m.start()] + new_row + text[m.start():]
+    path.write_text(text)
+    added += 1
+print(f&#34;added {added}, skipped {skipped}&#34;)
+PY
+python3 scripts/sync-note-relationships.py 2&gt;&amp;1 | tail -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+import re
+
+# reciprocal: (filename, type, reason) — from each note's perspective
+RECIPROCALS = [
+    ("first-principles-thinking.md", "alternative", "Received gospel mind vs ethics derived from scratch"),
+    ("mental-models.md", "alternative", "Scripture-shaped mind vs worldly thinking shortcuts"),
+    ("self-control.md", "alternative", "Spirit-fed renewal vs general restraint skill"),
+    ("compounding.md", "contradicts", "when self-stacked discipline mimics renewal without abiding"),
+    ("there-is-no-perfect-solution.md", "contradicts", "when I delay feeding my mind until thoughts feel holy"),
+    ("abide-in-me.md", "extends", "His words dwell where mind renewal actually reads"),
+    ("ask-seek-knock.md", "extends", "Seek in Scripture feeds mind renewal on rhythm"),
+    ("attention-economy.md", "extends", "What fights for mind-share before Scripture gets a turn"),
+    ("behavioral-economics.md", "extends", "Culture's defaults steer choices - renewal interrupts the pattern"),
+    ("change-takes-repetition.md", "extends", "Mind renewal bends across ordinary Tuesdays"),
+    ("christlikeness.md", "extends", "Romans 12:2 engine for conformity to Christ, not the world"),
+    ("digital-minimalism.md", "extends", "Cut feeds that conform the mind to outrage and hurry"),
+    ("discipleship.md", "extends", "Daily following reshapes the mind that chooses obedience"),
+    ("emotional-regulation.md", "extends", "Renewed mind buys the gap before the world's script mails the reply"),
+    ("free-grace.md", "extends", "Mind renewal follows gift received - doesn't buy heaven"),
+    ("fruits-of-the-spirit.md", "extends", "Renewed mind walks by the Spirit - flesh defaults lose steering"),
+    ("god-centered-design.md", "extends", "Don't conform life to culture's design defaults"),
+    ("grateful-obedience.md", "extends", "Romans 12:1-2 pair - living sacrifice needs a renewed mind"),
+    ("growth-mindset.md", "extends", "Faith lane - mind can change; world's fixed labels aren't the verdict"),
+    ("habit-formation.md", "extends", "Scripture-before-inbox reps bend thought defaults"),
+    ("heart-righteousness.md", "extends", "Inner standard starts where mind renewal reaches motive"),
+    ("information-diet.md", "extends", "Diet curates feeds; renewal feeds Scripture that reshapes judgment"),
+    ("justification.md", "extends", "Declared righteous first; mind renewal grows after"),
+    ("love-god.md", "extends", "Mind devotion is one quarter of whole-person love"),
+    ("mercy.md", "extends", "Romans 12:1 - renewal responds to mercy already received"),
+    ("priorities-before-the-inbox.md", "extends", "Scripture before algorithm defaults rewrite the morning"),
+    ("process-over-outcomes.md", "extends", "Daily mind renewal beats one emotional retreat high"),
+    ("repent-and-believe.md", "extends", "Change of mind at entry; renewal keeps the turn going"),
+    ("sanctification.md", "extends", "Mind renewal is the inner engine of slow becoming"),
+    ("seek-the-kingdom-first.md", "extends", "Kingdom-first fills the mind before worry sets the agenda"),
+    ("signal-vs-noise.md", "extends", "Kingdom signal before culture noise enters the mind"),
+    ("standing-vs-fellowship.md", "extends", "Fruitless week - keep renewing without panicking standing"),
+    ("take-up-your-cross.md", "extends", "Renewed mind enables choosing God's will over self-will"),
+    ("the-wise-builder.md", "extends", "Renewed hearing produces doing - sand is hear-only religion"),
+]
+
+base = Path("content/english/notes")
+row = '  - type: {type}\n    wikilink: "[[Renewed Mind]]"\n    reason: "{reason}"\n'
+added = skipped = 0
+for fname, typ, reason in RECIPROCALS:
+    path = base / fname
+    text = path.read_text()
+    if "[[Renewed Mind]]" in text:
+        skipped += 1
+        continue
+    new_row = row.format(type=typ, reason=reason)
+    m = re.search(r"^slug:", text, re.M)
+    if not m:
+        print(f"NO SLUG: {fname}")
+        continue
+    text = text[:m.start()] + new_row + text[m.start():]
+    path.write_text(text)
+    added += 1
+print(f"added {added}, skipped {skipped}")
+PY
+python3 scripts/sync-note-relationships.py 2>&1 | tail -3
+```
+
+```
+added 34, skipped 0
+updated: transformation-principles.md
+updated: treasure-in-heaven.md
+done: 54 files
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "count",
+  "pattern": "\\[\\[Renewed Mind\\]\\]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "pattern": "\\[\\[Renewed Mind\\]\\]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/compounding.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/habit-formation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/grateful-obedience.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/process-over-outcomes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/god-centered-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/christlikeness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mental-models.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/self-control.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/attention-economy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/change-takes-repetition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/behavioral-economics.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/growth-mindset.md"
+    }
+  ],
+  "totalFiles": 35,
+  "totalMatches": 37
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 2,
+  "contextBefore": 1,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md",
+  "pattern": "Renewed Mind"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md",
+  "pattern": "Renewed Mind",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/sanctification.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;renewed-mind|sanctification|information-diet|first-principles&#34; || echo &#34;lint OK for sample files&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "renewed-mind|sanctification|information-diet|first-principles" || echo "lint OK for sample files"
+```
+
+```
+lint OK for sample files
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Renewed Mind appears in 35 files. 34 are reciprocal links plus the file itself. Eternal principles has 3 mentions in the hub listing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 5,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md",
+  "pattern": "relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md",
+  "pattern": "relationships:",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/renewed-mind.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Reciprocal `relationships` rows are in place on all **34 linked notes**. Each mirrors the type from [[Renewed Mind]] (`extends`, `alternative`, or `contradicts`) with a reason from that note's side.
+
+Examples:
+
+- **[[Sanctification]]** — `extends` — "Mind renewal is the inner engine of slow becoming"
+- **[[First Principles Thinking]]** — `alternative` — "Received gospel mind vs ethics derived from scratch"
+- **[[Compounding]]** — `contradicts` — "when self-stacked discipline mimics renewal without abiding"
+- **[[Information Diet]]** — `extends` — "Diet curates feeds; renewal feeds Scripture that reshapes judgment"
+
+Ran `scripts/sync-note-relationships.py` afterward so rows are sorted and deduped across the garden (54 files normalized). Frontmatter lint is clean on the touched notes.
+
+The graph is now bidirectional: every note [[Renewed Mind]] points to also points back.

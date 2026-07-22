@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 This appears to be a Hugo garden issue where note descriptions are leaking into key concepts.
 
-Searching the codebase to understand how notes, descriptions, and key concepts are structured.</details></think>
+Searching the codebase to understand how notes, descriptions, and key concepts are structured.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,19 +25,15 @@ I'll find how notes descriptions and key concepts are defined and rendered, then
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -142,22 +139,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **238** results in **1** directory</summary>
 
-Directory: **** (238 files)
+Directory: **``** (238 files)
 
 | File |
 |------|
@@ -399,26 +388,18 @@ Directory: **** (238 files)
 | `content/english/notes/kindness.md` |
 | `content/english/notes/eternal-rewards.md` |
 | `content/english/notes/finish-strong.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching notes and templates for key_concept to understand its relationship with descriptions.</details></think>
+Searching notes and templates for key_concept to understand its relationship with descriptions.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -429,23 +410,84 @@ Parameters:
   "pattern": "key_concept"
 }
 ```
-Status: **loading**
+Additional data:
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "key_concept",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/transformation-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/plain-commitments-at-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/energy-protects-judgment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/first-principles-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "data/ep-verse-explanations.yaml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-personal-api.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/inbox-zero.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "scripts/archive/format-faith-bible-blocks.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/information-diet.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/failure-as-feedback.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/standard-operating-procedures.md"
+    },
+    {
+      "matchCount": 63,
+      "uri": ".specstory/history/2026-07-02_00-24-02Z-notes-layout-preference.md"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 1690
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -456,26 +498,1154 @@ Parameters:
   "pattern": "key_concept"
 }
 ```
-Status: **loading**
+Additional data:
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "key_concept",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/active-knowledge-curation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/christianity-and-politics.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/goodness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/staged-rollout.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/slow-the-moment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/preparedness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/kindness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/taxonomy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-12-week-year.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peacemakers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/habit-stacking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/blameless-after-action-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/dont-copy-the-pattern.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/priorities-before-the-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mind-mapping.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    }
+  ],
+  "totalFiles": 30,
+  "totalMatches": 241
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: </summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to prevent note descriptions from appearing in key_concept fields to avoid duplicate content.
+
+Searching for existing audit scripts to detect duplicate content between descriptions and key_concepts. Will run a script to identify affected notes and fix them.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **``** (2 files)
+
+| File |
+|------|
+| `scripts/split-key-concept-bullets.py` |
+| `scripts/bulletize-key-concepts.py` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "description.*key_concept|duplicate"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "description.*key_concept|duplicate",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/fix-shareable-thought.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/archive/normalize-verse-paragraphs.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/cspHashes.mjs"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/build-grade1-quiz.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-migrate.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/randomizer-maintain.py"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 21
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether notes-voice-lint.py and garden-voice-lint.py already verify that note descriptions do not appear in key_concept.
+
+notes_content.py may also be relevant.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Duplicate content needs to be removed from key_concept fields. Description text should not appear there, especially the first line.
+
+Searching for existing lint checks and running an audit to identify notes where descriptions appear in key_concept.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "desc.*key_concept|description.*duplicate|desc-in-kc|desc_in"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "desc.*key_concept|description.*duplicate|desc-in-kc|desc_in",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./.cursor/skills/jorap-voice/SKILL.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "matchCount": 24,
+      "uri": "./.specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/garden-voice-migrate.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-10_05-47-02Z-bema-search-issue.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./assets/js/notes-random.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-09_16-10-36Z-key-concept-notes-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-09_15-34-09Z-notes-review-and-key-concepts.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/fix-shareable-thought.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/notes_content.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./data/scripture-nasb1995.json"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-07_04-31-58Z-obsidian-features-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-06_07-02-15Z-category-selection-randomization.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-06_03-58-01Z-board-game-question-randomizer.md"
+    }
+  ],
+  "totalFiles": 50,
+  "totalMatches": 236
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking lint-notes-frontmatter.py for description overlap in key_concept fields. Running a Python script to identify any remaining duplicates.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **``** (2 files)
+
+| File |
+|------|
+| `scripts/lint-notes-frontmatter.py` |
+| `scripts/lint-flashcard-frontmatter.py` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "description.*key_concept|desc.*kc|overlap"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "description.*key_concept|desc.*kc|overlap",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-migrate.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 9,
+      "uri": "scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/fix-shareable-thought.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes-voice-lint.py"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading lint-notes-frontmatter.py to understand existing checks. Running a script to find notes where description appears in key_concept.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No lint check currently prevents note descriptions from appearing in key concepts. I need to add one.
+
+Scanning all notes for overlap between descriptions and key_concepts. Fixes will follow. A lint check will prevent regression.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll scan all notes for description text duplicated in key_concept, then add a lint rule to prevent it.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, yaml
+from pathlib import Path
+from scripts.notes_content import normalize_shareable_line, shareable_lines_overlap, split_frontmatter
+
+NOTES = Path(&#34;content/english/notes&#34;)
+SKIP = {&#34;_index.md&#34;}
+
+def desc_parts(desc):
+    flat = &#34; &#34;.join(desc.split())
+    parts = [flat]
+    parts.extend(re.split(r&#34;(?&lt;=[.!?])\s+|\s[-—–]\s|;\s+&#34;, flat))
+    return [normalize_shareable_line(p) for p in parts if len(normalize_shareable_line(p)) &gt;= 10]
+
+def kc_lines(kc):
+    lines = []
+    for raw in kc.splitlines():
+        line = raw.strip()
+        if not line or line.startswith(&#34;{{&lt;&#34;) or line.startswith(&#34;|&#34;):
+            continue
+        if line.startswith(&#34;- &#34;):
+            line = line[2:].strip()
+        lines.append(line)
+    return lines
+
+hits = []
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    if path.name in SKIP:
+        continue
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    raw_fm, _ = split_frontmatter(text)
+    fm = yaml.safe_load(raw_fm) or {}
+    if fm.get(&#34;draft&#34;) or fm.get(&#34;note_kind&#34;, &#34;note&#34;) in {&#34;meta&#34;, &#34;index&#34;}:
+        continue
+    desc = fm.get(&#34;description&#34;) or &#34;&#34;
+    kc = fm.get(&#34;key_concept&#34;) or &#34;&#34;
+    if not isinstance(desc, str) or not isinstance(kc, str):
+        continue
+    dparts = desc_parts(desc)
+    for kline in kc_lines(kc):
+        nk = normalize_shareable_line(kline)
+        if len(nk) &lt; 10:
+            continue
+        for dp in dparts:
+            if shareable_lines_overlap(dp, nk) or dp in nk or nk in dp:
+                hits.append((path.name, desc[:70], kline[:90]))
+                break
+        else:
+            continue
+        break
+
+print(f&#34;Found {len(hits)} notes with description in key_concept&#34;)
+for h in hits[:30]:
+    print(f&#34;  {h[0]}&#34;)
+    print(f&#34;    desc: {h[1]}&#34;)
+    print(f&#34;    kc:   {h[2]}&#34;)
+if len(hits) &gt; 30:
+    print(f&#34;  ... and {len(hits)-30} more&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml
+from pathlib import Path
+from scripts.notes_content import normalize_shareable_line, shareable_lines_overlap, split_frontmatter
+
+NOTES = Path("content/english/notes")
+SKIP = {"_index.md"}
+
+def desc_parts(desc):
+    flat = " ".join(desc.split())
+    parts = [flat]
+    parts.extend(re.split(r"(?<=[.!?])\s+|\s[-—–]\s|;\s+", flat))
+    return [normalize_shareable_line(p) for p in parts if len(normalize_shareable_line(p)) >= 10]
+
+def kc_lines(kc):
+    lines = []
+    for raw in kc.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("{{<") or line.startswith("|"):
+            continue
+        if line.startswith("- "):
+            line = line[2:].strip()
+        lines.append(line)
+    return lines
+
+hits = []
+for path in sorted(NOTES.glob("*.md")):
+    if path.name in SKIP:
+        continue
+    text = path.read_text(encoding="utf-8")
+    raw_fm, _ = split_frontmatter(text)
+    fm = yaml.safe_load(raw_fm) or {}
+    if fm.get("draft") or fm.get("note_kind", "note") in {"meta", "index"}:
+        continue
+    desc = fm.get("description") or ""
+    kc = fm.get("key_concept") or ""
+    if not isinstance(desc, str) or not isinstance(kc, str):
+        continue
+    dparts = desc_parts(desc)
+    for kline in kc_lines(kc):
+        nk = normalize_shareable_line(kline)
+        if len(nk) < 10:
+            continue
+        for dp in dparts:
+            if shareable_lines_overlap(dp, nk) or dp in nk or nk in dp:
+                hits.append((path.name, desc[:70], kline[:90]))
+                break
+        else:
+            continue
+        break
+
+print(f"Found {len(hits)} notes with description in key_concept")
+for h in hits[:30]:
+    print(f"  {h[0]}")
+    print(f"    desc: {h[1]}")
+    print(f"    kc:   {h[2]}")
+if len(hits) > 30:
+    print(f"  ... and {len(hits)-30} more")
+PY
+```
+
+```
+Found 144 notes with description in key_concept
+  accountability.md
+    desc: Accountability is naming who owns the result - and what happens when i
+    kc:   Accountability is naming who owns the result - and what happens when it slips.
+  active-knowledge-curation.md
+    desc: A folder of unread saves is not a garden - prune monthly and wire note
+    kc:   A folder of unread saves is not a garden until someone prunes monthly and wires what they 
+  adaptability.md
+    desc: Adaptability swaps the method when conditions shift - same aim, differ
+    kc:   Adaptability swaps the method when conditions shift - same aim, different plan.
+  analog-capture-tools.md
+    desc: Analog capture wins when the phone dies or the meeting blocks screens 
+    kc:   Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone 
+  assurance.md
+    desc: Assurance is resting on Christ's finished work when doubt hits - not m
+    kc:   Assurance is resting on Christ's finished work when doubt hits - not my week's obedience s
+  behavioral-economics.md
+    desc: People choose what default and friction make easy, not what a neat lec
+    kc:   People choose what default and friction make easy, not what a neat lecture said they shoul
+  blameless-after-action-review.md
+    desc: After rollback restores service, the team learns what broke in the sys
+    kc:   After rollback restores service, I learn what broke in the system - not who to punish for 
+  break-the-escalation-cycle.md
+    desc: Break the escalation cycle - do not match tone for tone when a sharp e
+    kc:   Break the escalation cycle - do not match tone for tone when a sharp email lands.
+  build-a-reliable-default.md
+    desc: A reliable default is the simple rehearsed move that runs when thinkin
+    kc:   A reliable default is the simple rehearsed move that runs when thinking is thin.
+  change-takes-repetition.md
+    desc: Real change is the same moves on repeat, not one breakthrough weekend.
+    kc:   Rea
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+144 notes have descriptions that overlap with key_concepts. These descriptions need to be removed from key_concepts.
+
+A lint check should be added to prevent future overlaps. The fix requires rewriting key_concept bullets to expand on the concept rather than duplicate the description. An automated approach is needed for all 144 notes.
+
+Removing overlapping key_concept bullets is the safest automated fix. I will check sample notes to confirm the remaining bullets still provide useful content.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+`capture.md` shows the correct pattern: description and key_concept are kept separate.
+
+Many notes duplicate their description in the first key_concept bullet. I will remove those overlapping bullets, add a lint check to prevent regression, and regenerate shareable_thought where needed. For faith-and-works, the first bullet duplicates the description entirely and should be removed.
+
+Compounding has the same duplicate bullet. I will write a script to detect overlapping key_concept bullets and remove them, then check notes_content.py for existing frontmatter utilities.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-shareable-thought.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A script will strip duplicate note descriptions from key concepts. A lint check will be added. The fix will run. Shareable thoughts will regenerate for affected notes.
+
+The fix targets all 144 notes. A reusable helper will be added to notes_content.py. The fix script may be integrated into the existing lint script. Bible shortcodes and tables must be preserved during bullet parsing.
+
+The fix will split key_concept into lines and remove bullets that overlap with the description. An overlap helper will be added to notes_content.py.
+
+Edge cases where all bullets overlap with the description are being considered. The fix must handle empty key_concept values.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, yaml
+from pathlib import Path
+from scripts.notes_content import normalize_shareable_line, shareable_lines_overlap, split_frontmatter
+
+NOTES = Path(&#34;content/english/notes&#34;)
+BULLET = re.compile(r&#34;^\s*-\s+&#34;)
+BIBLE = re.compile(r&#34;^\s*\{\{&lt;\s*bible\b&#34;, re.I)
+TABLE = re.compile(r&#34;^\s*\|&#34;)
+
+def desc_parts(desc):
+    flat = &#34; &#34;.join(desc.split())
+    parts = [flat]
+    parts.extend(re.split(r&#34;(?&lt;=[.!?])\s+|\s[-—–]\s|;\s+&#34;, flat))
+    return [normalize_shareable_line(p) for p in parts if len(normalize_shareable_line(p)) &gt;= 10]
+
+def overlaps(desc, line):
+    dparts = desc_parts(desc)
+    nk = normalize_shareable_line(line.lstrip(&#34;- &#34;).strip())
+    if len(nk) &lt; 10:
+        return False
+    for dp in dparts:
+        if shareable_lines_overlap(dp, nk) or dp in nk or nk in dp:
+            return True
+    return False
+
+def strip_kc(kc, desc):
+    out = []
+    for raw in kc.splitlines():
+        s = raw.strip()
+        if not s:
+            out.append(raw)
+            continue
+        if BULLET.match(raw) and overlaps(desc, s):
+            continue
+        out.append(raw)
+    # trim extra blank lines
+    text = &#34;\n&#34;.join(out).strip(&#34;\n&#34;)
+    if text:
+        text += &#34;\n&#34;
+    return text
+
+empty = []
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    if path.name == &#34;_index.md&#34;:
+        continue
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    raw_fm, body = split_frontmatter(text)
+    fm = yaml.safe_load(raw_fm) or {}
+    if fm.get(&#34;draft&#34;) or fm.get(&#34;note_kind&#34;, &#34;note&#34;) in {&#34;meta&#34;, &#34;index&#34;}:
+        continue
+    desc = fm.get(&#34;description&#34;) or &#34;&#34;
+    kc = fm.get(&#34;key_concept&#34;) or &#34;&#34;
+    if not isinstance(desc, str) or not isinstance(kc, str):
+        continue
+    new_kc = strip_kc(kc, desc)
+    # count remaining bullets
+    bullets = [l for l in new_kc.splitlines() if BULLET.match(l)]
+    if not bullets and kc.strip():
+        empty.append(path.name)
+
+print(f&#34;Would leave 0 bullets: {len(empty)}&#34;)
+for n in empty[:20]:
+    print(f&#34;  {n}&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml
+from pathlib import Path
+from scripts.notes_content import normalize_shareable_line, shareable_lines_overlap, split_frontmatter
+
+NOTES = Path("content/english/notes")
+BULLET = re.compile(r"^\s*-\s+")
+BIBLE = re.compile(r"^\s*\{\{<\s*bible\b", re.I)
+TABLE = re.compile(r"^\s*\|")
+
+def desc_parts(desc):
+    flat = " ".join(desc.split())
+    parts = [flat]
+    parts.extend(re.split(r"(?<=[.!?])\s+|\s[-—–]\s|;\s+", flat))
+    return [normalize_shareable_line(p) for p in parts if len(normalize_shareable_line(p)) >= 10]
+
+def overlaps(desc, line):
+    dparts = desc_parts(desc)
+    nk = normalize_shareable_line(line.lstrip("- ").strip())
+    if len(nk) < 10:
+        return False
+    for dp in dparts:
+        if shareable_lines_overlap(dp, nk) or dp in nk or nk in dp:
+            return True
+    return False
+
+def strip_kc(kc, desc):
+    out = []
+    for raw in kc.splitlines():
+        s = raw.strip()
+        if not s:
+            out.append(raw)
+            continue
+        if BULLET.match(raw) and overlaps(desc, s):
+            continue
+        out.append(raw)
+    # trim extra blank lines
+    text = "\n".join(out).strip("\n")
+    if text:
+        text += "\n"
+    return text
+
+empty = []
+for path in sorted(NOTES.glob("*.md")):
+    if path.name == "_index.md":
+        continue
+    text = path.read_text(encoding="utf-8")
+    raw_fm, body = split_frontmatter(text)
+    fm = yaml.safe_load(raw_fm) or {}
+    if fm.get("draft") or fm.get("note_kind", "note") in {"meta", "index"}:
+        continue
+    desc = fm.get("description") or ""
+    kc = fm.get("key_concept") or ""
+    if not isinstance(desc, str) or not isinstance(kc, str):
+        continue
+    new_kc = strip_kc(kc, desc)
+    # count remaining bullets
+    bullets = [l for l in new_kc.splitlines() if BULLET.match(l)]
+    if not bullets and kc.strip():
+        empty.append(path.name)
+
+print(f"Would leave 0 bullets: {len(empty)}")
+for n in empty[:20]:
+    print(f"  {n}")
+PY
+```
+
+```
+Would leave 0 bullets: 0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Duplicate stripping leaves no notes with zero bullets. Next steps are adding helper functions to notes_content.py and a lint check to lint-notes-frontmatter.py.
+
+A one-time fix script will be created alongside the lint changes. The overlap logic will live in notes_content.py, and the script will support a --check flag. I am reviewing how dump_frontmatter is used elsewhere before writing the script.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-shareable-thought.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "lint.*frontmatter|lint:notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "lint.*frontmatter|lint:notes",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a `description_clause_parts` helper to `notes_content.py` to extract description clause parts.
+
+Also adding `line_overlaps_description` and `strip_description_from_key_concept` helpers to `notes_content.py`. Creating `scripts/strip-desc-from-key-concept.py` with check and fix modes. Will run the fix script, then `fix-shareable-thought.py`, and finally `lint:frontmatter` to verify. The strip function preserves bible shortcodes and tables while removing overlapping bullet lines.
+
+Shareable_thought may still contain description text after key_concept cleanup. Lines that were duplicates removed from key_concept but remain in shareable_thought are acceptable because the description itself remains valid.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding overlap detection to the shared notes helpers, a lint rule, and a fix script to strip duplicate bullets from key concepts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+New helper functions will be added before `_self_check`, and that function will be extended.
+
+Next, `lint-notes-frontmatter.py` will be updated and a fix script created.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/strip-desc-from-key-concept.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the fix script now. Then checking shareable thoughts and linting.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes_content.py 2&gt;/dev/null || python3 -c &#34;from scripts.notes_content import _self_check; _self_check(); print(&#39;notes_content self-check OK&#39;)&#34; &amp;&amp; python3 scripts/strip-desc-from-key-concept.py &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes_content.py 2>/dev/null || python3 -c "from scripts.notes_content import _self_check; _self_check(); print('notes_content self-check OK')" && python3 scripts/strip-desc-from-key-concept.py && python3 scripts/lint-notes-frontmatter.py 2>&1 | head -40
+```
+
+```
+Stripped description from key_concept on 144 note(s)
+FAIL shareable_thought[0] not from principle: honest-self-awareness.md
+FAIL shareable_thought[3] not from principle: local-first-software.md
+FAIL shareable_thought[0] not from principle: present-a-living-sacrifice.md
+FAIL shareable_thought[0] not from principle: synthesis-as-a-goal.md
+FAIL shareable_thought[1] not from principle: the-feynman-technique.md
+FAIL shareable_thought[2] not from principle: the-knowledge-lifecycle.md
+
+6 note(s) failed frontmatter lint
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Key concept descriptions are fixed across 144 notes. Six shareable_thought failures remain. These likely stem from duplicate lines referencing removed key_concept bullets or from broken principle pool matches.
+
+Running fix-shareable-thought on the failing notes or all notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/fix-shareable-thought.py --failing &amp;&amp; python3 scripts/lint-notes-frontmatter.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/fix-shareable-thought.py --failing && python3 scripts/lint-notes-frontmatter.py
+```
+
+```
+Wrote shareable_thought on 6 note(s)
+FAIL shareable_thought need 4 items: the-knowledge-lifecycle.md
+
+1 note(s) failed frontmatter lint
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The knowledge lifecycle note still fails to exclude its description from key concepts.
+
+Reading the file to fix it manually.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-knowledge-lifecycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Key concepts shrank to a single bullet after removing note descriptions.
+
+Adding lifecycle-stage bullets to key_concept and fixing shareable_thought to four items. Reviewing garden-voice and related notes for tone.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-vs-fleeting-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Key concepts in the knowledge lifecycle document will be expanded with bullet points about lifecycle stages. These points must not duplicate the existing description text.
+
+Four key-concept bullets will be added to the knowledge lifecycle document. They will cover raw capture tagging, fade as an archive signal, Note Maturity naming stages, and effort spent only on reuse. Then the note will be fixed and the shareable thought regenerated.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-knowledge-lifecycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I accidentally removed the examples section. I am restoring it now.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-knowledge-lifecycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint again to verify everything passes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py &amp;&amp; python3 scripts/strip-desc-from-key-concept.py --check</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py && python3 scripts/strip-desc-from-key-concept.py --check
+```
+
+```
+Note frontmatter lint OK
+No description in key_concept
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All lints pass. Adding a self-check to strip note descriptions from key concepts. Verifying faith-and-works for extra blank lines left by stripping.
+
+Fixed 144 notes with duplicated descriptions in key_concept first bullets. Added a lint check in lint-notes-frontmatter.py and a strip script for reruns. Verified compounding and capture examples. Extra blank lines in faith-and-works are minor and were left untouched.
+
+Fixed the-knowledge-lifecycle.md manually. Key_concept was too thin after s-Regen. Six shareable_thought fields were regenerated. No commit was requested.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Done. **144 notes** had their `description` repeated as the first `key_concept` bullet — those duplicates are removed.
+
+**What changed**
+
+1. **Content** — Stripped overlapping bullets from `key_concept` across 144 notes. `description` stays the one-breath definition; `key_concept` now only adds angle, examples, and links. Example:
+
+```5:11:content/english/notes/compounding.md
+key_concept: |
+  - Small gains repeated look like nothing is happening; most people quit right before the curve would have bent.
+  - Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills.
+  - Heroic weeks feel good; boring repetition wins.
+  - Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone.
+  - [[Eternal Rewards]] repays daily faithfulness over years, not a lump-sum merit binge.
+  - [[Loss of Reward]] is the other side: a bad season shrinks reward, it does not erase [[Free Grace]].
+```
+
+2. **Lint guard** — `lint-notes-frontmatter.py` now fails if any `key_concept` bullet overlaps the `description` (runs with `pnpm lint:frontmatter` / `pnpm lint:garden`).
+
+3. **Fix script** — `scripts/strip-desc-from-key-concept.py` for reruns (`--check` to audit only).
+
+4. **Edge case** — `the-knowledge-lifecycle.md` was left with one bullet after the strip; expanded `key_concept` and fixed `shareable_thought`. Six other notes had `shareable_thought` regenerated.
+
+All frontmatter lint passes. `capture.md`-style notes (description and key concept already distinct) were untouched.

@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A stronger visual concept is needed for the mouse wheel click blog post.
 
-Reviewing the blog post content and existing image patterns across the Hugo site to ensure visual consistency.</details></think>
+Reviewing the blog post content and existing image patterns across the Hugo site to ensure visual consistency.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,23 +25,15 @@ I'll read the post and see how other blog images are handled so we can propose a
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -126,76 +119,46 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing existing images and feature visuals to understand the site's style.</details></think>
+Reviewing existing images and feature visuals to understand the site's style.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (2 files)
 
 | File |
 |------|
 | `.specstory/history/2026-05-31_16-59-16Z-middle-mouse-wheel-click-functionality.md` |
 | `content/english/blog/power-of-the-mouse-wheel-click.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -302,13 +265,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -316,56 +272,435 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing the existing image and other feature images to ensure visual consistency.
 
-Checking specstory history for prior image concept discussions.</details></think>
+Checking specstory history for prior image concept discussions.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/feature-mouse-wheel-click.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/feature-mouse-wheel-click.jpg</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-30-12Z-image-concept-for-website.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-30-12Z-image-concept-for-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/static-vs-cms.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/static-vs-cms.jpg</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/website.jpg</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/website.jpg</summary>
 
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing previous specstory history to identify the preferred image format.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-30-12Z-image-concept-for-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/drupal-to-wp.jpg</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing existing image concepts to understand the preferred visual style.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
+Offset 350 is beyond file length (146 lines)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+Offset 350 is beyond file length (50 lines)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the full file to understand the current image concept.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-23-14Z-image-concept-for-static-site.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-09-39Z-blog-image-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-30-12Z-image-concept-for-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The specstory files are truncated and lack the full agent responses.
+
+Checking recent image concept history and whether a new concept image file exists for the website post.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/.specstory`** (4 files)
+
+| File |
+|------|
+| `history/2026-07-10_14-42-56Z-image-concept-improvement.md` |
+| `history/2026-07-10_14-30-12Z-image-concept-for-website.md` |
+| `history/2026-07-10_14-23-14Z-image-concept-for-static-site.md` |
+| `history/2026-07-10_14-09-39Z-blog-image-concept.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*image*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "## (Recommended|Concept|Image concept|Generation prompt)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "## (Recommended|Concept|Image concept|Generation prompt)",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-10_14-30-12Z-image-concept-for-website.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the latest image concept improvement file to understand the full format.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-42-56Z-image-concept-improvement.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/assets/images`** (1 file)
+
+| File |
+|------|
+| `website.jpg` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The specstory file for this query comes from a prior incomplete session.
+
+Searching prior specstory files for completed image concepts and generation prompts from static-site and website posts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*2026-07-10*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "Generation prompt|Recommended concept|One gesture|clipboard|desk scene"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "Generation prompt|Recommended concept|One gesture|clipboard|desk scene",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/open-source.jpg</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I now understand the site's image aesthetic.
+
+The current images rely on generic AI stock shots with dark cinematic product photography and neon blue glows. They feel impersonal and disconnected from the cozy, physical storytelling style the site actually wants to promote.
+
+The current image uses floating OS logos. That feels cheap and misses the cozy desk style. It also misses the post's actual hook. The real story is the mouse wheel click. It opens links in background tabs. It works identically on Windows Mac and Linux. Trackpad users lack this gesture.
+
+A better concept would mirror the cozy desk style used in other posts. A split scene on a warm-lit desk could contrast the tedious right-click flow with the single-mouse-wheel-press shortcut. A physical mouse with a finger on the scroll wheel would replace the glowing sci-fi effect. The image would show a handwritten sticky note detailing the difference, perhaps with arrows and a scratch-out to emphasize the old method.
+
+The concept now includes a specific visual detail: a yellow Post-it on the desk reading "wheel, not menu" or "faster button under your finger." The scene should capture a real research session with a laptop full of links, a stack of browser tab edges visible in the background, and a warm afternoon light. An over-shoulder or three-quarter view of the monitor would frame the action.
+
+The menu freeze concept now shows a frozen context menu with "Open link in new tab" highlighted. A handwritten sticky arrow points to the scroll wheel. This makes the menu the slow path. Three small OS sticky notes would read "same click" across Windows Mac and Linux. The strongest concept merges the cozy desk style with the before-and-after contrast.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/assets/images`** (7 files)
+
+| File |
+|------|
+| `open-source.jpg` |
+| `static-vs-cms.jpg` |
+| `note.jpg` |
+| `instant-pot-arroz-caldo.jpg` |
+| `website.jpg` |
+| `drupal-to-wp.jpg` |
+| `stop_snap.jpg` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 5,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-03_00-27-22Z-optimal-steps-in-wordpress-build-process.md",
+  "pattern": "image concept|feature-mouse"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-03_00-27-22Z-optimal-steps-in-wordpress-build-process.md",
+  "pattern": "image concept|feature-mouse",
+  "topFiles": [
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-06-03_00-27-22Z-optimal-steps-in-wordpress-build-process.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The local mouse wheel click image was missing from the asset paths. Checking whether it is gitignored or located elsewhere.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/assets/images/</summary>
+```bash
+ls -la /home/jorap/Documents/GitHub/jorap.com/assets/images/
+```
+
+```
+total 15564
+drwxr-xr-x 3 root root    4096 Jul 10 22:16 .
+drwxr-xr-x 5 root root    4096 Jul  9 22:21 ..
+-rw-r--r-- 1 root root   75717 May 29 08:30 alex-eala.jpg
+-rw-r--r-- 1 root root   98067 May 29 08:30 arroz-caldo.jpg
+-rw-r--r-- 1 root root    2271 May 29 08:30 avatar.png
+-rw-r--r-- 1 root root    4005 May 29 08:30 avatar-sm.png
+-rw-r--r-- 1 root root   80952 May 29 08:30 banner.png
+-rw-r--r-- 1 root root   20036 May 29 08:30 bg.jpg
+-rw-r--r-- 1 root root   19721 May 29 08:30 call-to-action.png
+-rw-r--r-- 1 root root  121863 May 29 08:30 Chicken-Adobo.jpg
+-rw-r--r-- 1 root root 4723249 Jun 18 15:10 Consistent_AI_Web_Development_Blueprint.png
+-rw-rw-r-- 1 root root 2366514 Jul 10 22:35 drupal-to-wp.jpg
+-rw-r--r-- 1 root root    1906 May 29 08:30 favicon.png
+-rw-r--r-- 1 root root   16937 May 29 08:30 fb-desktop-feed.jpg
+-rw-r--r-- 1 root root   33438 May 29 08:30 fbf.jpg
+-rw-r--r-- 1 root root   27471 May 29 08:30 fb-mobile-feed.jpg
+-rw-r--r-- 1 root root  320574 May 29 08:30 fb-post-isaiah-david.jpg
+-rw-r--r-- 1 root root 1759503 Jun 18 15:10 feature-consistent-ai-output.jpg
+-rw-r--r-- 1 root root   64731 May 29 08:30 feature-desktop.jpg
+-rw-r--r-- 1 root root   26653 May 29 08:30 feature-dnpap.jpg
+-rw-r--r-- 1 root root   39735 May 29 08:30 feature-isaiah-david.jpg
+-rw-r--r-- 1 root root 1911508 Jun 18 15:10 feature-mouse-wheel-click.jpg
+-rw-r--r-- 1 root root 2142670 Jun 18 15:10 feature-soundpeats-runfree.jpg
+drwxr-xr-x 2 root root    4096 May 29 08:30 gallery
+-rw-r--r-- 1 root root   73363 May 29 08:30 guitar.jpg
+-rw-r--r-- 1 root root    4881 May 29 08:30 image-placeholder.png
+-rw-r--r-- 1 root root   10972 May 29 08:30 image-template.jpg
+-rw-r--r-- 1 root root  108149 Jul  9 06:38 instant-pot-arroz-caldo.jpg
+-rw-r--r-- 1 root root   12543 May 29 08:30 jorap.png
+-rw-r--r-- 1 root root   40663 May 29 08:30 joraps-world.jpg
+-rw-r--r-- 1 root root   27042 May 29 08:30 jw.jpg
+-rw-r--r-- 1 root root    3090 May 29 08:30 logo-darkmode.png
+-rw-r--r-- 1 root root 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I understand the request for a better image concept for the power-of-the-mouse-wheel-click document.
+
+The current mouse-wheel-click image uses a neon sci-fi style that clashes with the site's newer cozy desk aesthetic. I'll propose a concept aligned with that modern look instead.
+
+The concept centers on a warm desk scene with a real mouse wheel, clipboard, and sticky notes. The visual arc shows three right-click steps collapsing into one wheel press, ending with a stack of background tabs. Cross-platform compatibility appears subtly without logos. A generation prompt and file path will accompany the concept.
+
+The scene will use a 3/4 angle over a wooden desk. A browser window shows a long row of tabs across the top. A mouse sits in the foreground with its scroll wheel visibly pressed down. A yellow sticky note carries a struck-through "right-click → new tab" line and an arrow pointing to the wheel. A second note reads "Win · Mac · Linux — same click." Warm afternoon light replaces the neon glow. Props like a red pen and coffee mug echo the sibling images.
+
+A faintly ghosted context menu on screen will mark the slow path. The mouse and finger on the wheel must stay large and clear for thumbnail readability. Sticky text should be two to three words maximum. The image should use a 3:2 aspect ratio such as 1536 by 1024.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The current `feature-mouse-wheel-click.jpg` doesn’t match where your newer blog art landed. It’s a dark neon product shot with floating OS logos — fine as generic tech stock, but it misses the post’s actual hook and looks nothing like `static-vs-cms.jpg`, `drupal-to-wp.jpg`, or `open-source.jpg`.
+
+Your post isn’t really “look, a mouse.” It’s: **people take the slow right-click path hundreds of times a day, and the faster button is already under their finger — same on every OS.**
+
+---
+
+## Recommended concept: **“Press the wheel, not the menu”**
+
+A warm desk scene in the same family as your recent feature images — wooden surface, natural light, handwritten note, real hardware.
+
+### Scene
+- **3/4 overhead** of a desk during a research session (article or search results on screen, lots of clickable links).
+- **Browser tab bar** crowded with tabs — the visual payoff of wheel-clicking links into the background.
+- **Mouse in the foreground**, index finger **pressing the scroll wheel down** (slight depression visible). Ordinary Logitech-style mouse, not a glowing sci-fi prop.
+- **Yellow sticky note** on the desk, handwritten in pen:
+  - Struck through: `right-click → new tab`
+  - Below, with a small arrow pointing at the wheel: **`press the wheel`**
+- Optional tiny second sticky in the corner: **`Win · Mac · Linux`** — same gesture, no hologram logos.
+- Props for continuity: red pen, coffee mug edge, shallow depth of field.
+
+### On screen (subtle)
+- A **faded context menu** on the laptop — “Open link in new tab” visible but ghosted, like the path you’re leaving behind.
+- Current page still in focus; new tabs stacking above. Shows *what the gesture does*, not just *where the button is*.
+
+### Mood
+- Afternoon workspace, not cyberpunk.
+- Practical tip energy — the “I noticed this at the desk next to mine” vibe from the post opener.
+
+### Why this works
+| Current image | New concept |
+|---|---|
+| Neon glow, floating logos | Handwritten note, real desk |
+| “Cool mouse button” | “Slow path vs fast path” — the post’s thesis |
+| Generic tech hero | Matches your newer blog art language |
+| OS logos as decoration | Cross-platform as a quiet sticky, not a billboard |
+
+---
+
+## Generation prompt
+
+Paste this into your image tool (adjust if needed):
+
+```
+Warm lifestyle desk photograph, 3:2 aspect ratio, shallow depth of field. Wooden desk during a browsing research session. Laptop screen shows a web article with many hyperlinks and a crowded browser tab bar with many open tabs. A standard black wireless mouse in the foreground with a human index finger pressing the scroll wheel straight down, wheel slightly depressed. Yellow sticky note on desk with handwritten blue ink: "right-click → new tab" crossed out, and below it "press the wheel" with a small arrow pointing toward the mouse wheel. Faint ghosted right-click context menu visible on the laptop screen showing "Open link in new tab". Small second sticky note reads "Win · Mac · Linux". Red ballpoint pen and coffee mug at desk edge. Soft natural afternoon window light, cozy home office, photorealistic, no neon glow, no floating hologram icons, no text overlays except handwritten sticky notes. Editorial blog header image style matching warm desk photography.
+```
+
+**Output path:** `assets/images/feature-mouse-wheel-click.jpg`  
+**Frontmatter:** already points to `/images/feature-mouse-wheel-click.jpg` — no markdown change needed.
+
+---
+
+## Alternatives (if you want a different angle)
+
+1. **Split sticky** — two stickies side by side: “3 clicks” (right-click path) vs “1 press” (wheel). More literal, very readable at card size.
+2. **Tab stack close-up** — monitor fills frame, finger on wheel at bottom edge, tabs multiplying across the top. Less desk props, more “browser workflow” focus.
+3. **Bookmark folder** — wheel-click on a bookmark folder opening a morning-routine tab burst. Better if you want to highlight that section instead of link-opening.
+
+---
+
+**Recommendation:** go with the desk scene. It matches your site’s newer images, tells the before/after story in one frame, and still reads at blog-card size because the sticky says the whole thing in four words.
+
+Want me to generate this and drop it into `assets/images/feature-mouse-wheel-click.jpg`?

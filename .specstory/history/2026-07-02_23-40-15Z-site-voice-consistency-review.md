@@ -13,7 +13,8 @@ I want a quick way to review if my whole site follows my voice. I want to check 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants a quick way to audit their entire site against their personal voice. They need to verify whether specific words or phrases match their own style.</details></think>
+The user wants a quick way to audit their entire site against their personal voice. They need to verify whether specific words or phrases match their own style.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,23 +23,15 @@ A voice-consistency checker fits your notes/blog workflow — I'll read your voi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -146,22 +139,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **44** results in **1** directory</summary>
 
-Directory: **** (44 files)
+Directory: **``** (44 files)
 
 | File |
 |------|
@@ -209,19 +194,13 @@ Directory: **** (44 files)
 | `scripts/polish-note-card-blurbs.py` |
 | `scripts/tidy-key-concept-refs.py` |
 | `scripts/clearModules.js` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-There is already a `pnpm lint:voice` command with two scripts.</details></think>
+There is already a `pnpm lint:voice` command with two scripts.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -230,68 +209,44 @@ You already have `lint:voice` — I'll read those scripts and see how far they r
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants a quick way to audit whether their entire site matches their personal voice by checking for specific words or phrases they would or wouldn't use.</details></think>
+The user wants a quick way to audit whether their entire site matches their personal voice by checking for specific words or phrases they would or wouldn't use.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **289** results in **1** directory</summary>
 
-Directory: **** (289 files)
+Directory: **``** (289 files)
 
 | File |
 |------|
@@ -584,21 +539,12 @@ Directory: **** (289 files)
 | `./content/english/authors/william-jacob.md` |
 | `./content/english/authors/sam-wilson.md` |
 | `./content/english/authors/_index.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -654,37 +600,23 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1 | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 | head -40
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash errors:
   content/english/blog/how-i-built-jorap-notes.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -692,28 +624,22 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A quick way to audit the entire site against personal voice preferences. Specific words and phrases would be checked for consistency.
 
-The existing `pnpm lint:voice` only covers notes and blogs. It flags em/en dashes and AI-tell words. The user likely needs a configurable word list, broader content coverage, and an easy-to-scan report. I will check examples.md and existing voice files for patterns.</details></think>
+The existing `pnpm lint:voice` only covers notes and blogs. It flags em/en dashes and AI-tell words. The user likely needs a configurable word list, broader content coverage, and an easy-to-scan report. I will check examples.md and existing voice files for patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **288** results in **1** directory</summary>
 
-Directory: **** (288 files)
+Directory: **``** (288 files)
 
 | File |
 |------|
@@ -1005,21 +931,12 @@ Directory: **** (288 files)
 | `./content/english/authors/john-doe.md` |
 | `./content/english/authors/william-jacob.md` |
 | `./content/english/authors/_index.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1057,25 +974,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A quick way to audit voice across the entire site is needed. Specific words and phrases should be checked against personal usage patterns.</details></think>
+A quick way to audit voice across the entire site is needed. Specific words and phrases should be checked against personal usage patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/content/english/</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/content/english/</summary>
 ```bash
 ls -la /home/jorap/Documents/GitHub/jorap.com/content/english/
 ```
@@ -1095,20 +1005,12 @@ drwxr-xr-x  2 root root  4096 May 29 08:30 pages
 drwxr-xr-x  2 root root  4096 May 29 08:30 sections
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1134,25 +1036,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
@@ -1165,15 +1054,15 @@ A dedicated `pnpm voice:scan` command would replace the hardcoded `pnpm lint:voi
 
 The config file will group entries into words, phrases, and hints. Each word includes a replacement suggestion. A `--summary` flag will aggregate all hits across the site. The linter will scan every English markdown file. A `voice:scan` alias may be added to package.json.
 
-The grouped report will show each word with its total count and the exact files where it appears. No extra documentation will be added, since the user prefers minimal changes without unsolicited markdown files.</details></think>
+The grouped report will show each word with its total count and the exact files where it appears. No extra documentation will be added, since the user prefers minimal changes without unsolicited markdown files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
 
-Directory: **** (6 files)
+Directory: **``** (6 files)
 
 | File |
 |------|
@@ -1183,25 +1072,12 @@ Directory: **** (6 files)
 | `content/english/sections/testimonial.md` |
 | `content/english/contact/_index.md` |
 | `content/english/about/_index.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/_index.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/_index.md</summary>
 
 </details></tool-use>
 
@@ -1212,38 +1088,25 @@ The homepage still contains Hugoplate boilerplate rather than JoRap voice.
 
 A YAML config file will store voice words and swap phrases. The lint script will read from it and gain a `--summary` flag for grouped review output. A new `voice:scan` command will run across all content directories. Blog and notes pages will get structured frontmatter extraction, while other pages will be scanned by body text.
 
-Non-notes and non-blog pages will have their frontmatter stripped before scanning the remaining body text. The YAML structure will list individual words with replacement suggestions under a `landscape` and `leverage` key, plus a `phrases` array for common filler phrases. Rather than creating new files, the existing lint script will be extended directly.</details></think>
+Non-notes and non-blog pages will have their frontmatter stripped before scanning the remaining body text. The YAML structure will list individual words with replacement suggestions under a `landscape` and `leverage` key, plus a `phrases` array for common filler phrases. Rather than creating new files, the existing lint script will be extended directly.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/drafts/_index.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/about/_index.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/about/_index.md</summary>
 
 </details></tool-use>
 
@@ -1262,7 +1125,8 @@ Adding phrases like "In the realm of" and "comprehensive guide" to the YAML conf
 
 "Navigate" will remain phrase-only to avoid false positives in tech contexts. "Deploy" may be legitimate in hosting notes, so severity levels or manual review are preferable to hard failures.
 
-Settled on a single YAML list shared by both `lint:voice` and `voice:scan`. The lint command will enforce a strict subset, while the scan command provides a human-readable summary for manual review. Context-specific swaps like `deploy` or `postmortem` may still trigger false positives, so the user will edit the list directly to remove words they accept in certain contexts.</details></think>
+Settled on a single YAML list shared by both `lint:voice` and `voice:scan`. The lint command will enforce a strict subset, while the scan command provides a human-readable summary for manual review. Context-specific swaps like `deploy` or `postmortem` may still trigger false positives, so the user will edit the list directly to remove words they accept in certain contexts.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1271,117 +1135,63 @@ You already have `pnpm lint:voice`; I'll add an editable word list and a `voice:
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Rewriting notes-voice-lint.py to help audit site voice and catch inconsistent phrasing.</details></think>
+Rewriting notes-voice-lint.py to help audit site voice and catch inconsistent phrasing.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --self-check && pnpm voice:scan 2>&1 | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --self-check &amp;&amp; pnpm voice:scan 2&gt;&amp;1 | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --self-check && pnpm voice:scan 2>&1 | head -80
 ```
@@ -1424,64 +1234,16 @@ Review-only (edit data/voice-words.yaml review: to tune)
     content/english/notes/change-window.md · aliases[0]
     content/english/notes/change-window.md · cards[2].front
     content/english/notes/change-window.md · cards[3].front
-    content/english/notes/change-window.md · key_concept
-    content/english/notes/change-window.md · relationships.reason
-    content/english/notes/change-window.md · relationships.reason
-    content/english/notes/client-site-handoff.md · key_concept
-    content/english/notes/free-tier-hosting-stack.md · cards[0].front
-    content/english/notes/free-tier-hosting-stack.md · key_concept
-    content/english/notes/free-tier-hosting-stack.md · key_concept
-    content/english/notes/free-tier-hosting-stack.md · relationships.reason
-    content/english/notes/free-tier-hosting-stack.md · relationships.reason
-    content/english/notes/free-tier-hosting-stack.md · relationships.reason
-    content/english/notes/git-based-cms.md · key_concept
-    content/english/notes/lean-startup.md · key_concept
-    content/english/notes/maintenance-window.md · relationships.reason
-    content/english/notes/reversibility.md · key_concept
-    content/english/notes/reversibility.md · key_concept
-    content/english/notes/reversibility.md · relationships.reason
-    content/english/notes/rollback-principle.md · cards[0].front
-    content/english/notes/rollback-principle.md · examples[0]
-    content/english/notes/rollback-principle.md · key_concept
-    content/english/notes/rollback-principle.md · relationships.reason
-    content/english/notes/staged-rollout.md · aliases[0]
-    content/english/notes/staged-rollout.md · cards[0].front
-    content/english/notes/staged-rollout.md · key_concept
-    content/english/notes/staged-rollout.md · relationships.reason
-    content/english/notes/standard-operating-procedures.md · relationships.reason
-    content/english/notes/the-garage-concept.md · key_concept
-  Handoff (32) → pass off / pass to client
-    content/english/notes/client-site-handoff.md · aliases[0]
-    content/english/notes/client-site-handoff.md · cards[0].front
-    content/english/notes/client-site-handoff.md · description
-    content/english/notes/client-site-handoff.md · key_concept
-    content/english/notes/client-site-handoff.md · key_concept
-    content/english/notes/client-site-handoff.md · meta_title
-    content/english/notes/client-site-handoff.md · relationships.reason
-    content/english/notes/client-site-handoff.md · relationships.reason
-    content/english/notes/client-site-handoff.md · relationships.reason
-    content/english/notes/client-site-handoff.md · title
-    content/english/notes/crdt.md · cards[2].back
-    content/english/notes/drafting-in-public.md · cards[0].back
-    content/english/notes/drafting-in-public.md · examples[0]
-    content/english/notes/free-tier-hosting-stack.md · key_concept
-    content/english/notes/git-based-cms.md · relationships.reason
-    content/english/notes/graph-view-analytics.md · cards[1].front
-    content/english/notes/graph-view-analytics.md · examples[0]
-
+    content/english/notes/chang
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The `navigate` word flagged a blog post about mouse wheel clicks. This appears to be legitimate technical usage rather than a false positive.</details></think>
+The `navigate` word flagged a blog post about mouse wheel clicks. This appears to be legitimate technical usage rather than a false positive.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1490,59 +1252,29 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
 
 </details></tool-use>
 
@@ -1626,7 +1358,8 @@ Also checking jorap-voice examples.md for patterns missing from voice-words.yaml
 
 Extracting prose from all markdown files and tokenizing words over four characters to isolate rare terms. Also grepping for anti-patterns from examples.md that may be missing from voice-words.yaml.
 
-Targeting words that appear only once to five times and carry academic suffixes like -tion or -ize. Flagging multi-word phrases that sound stiff or robotic. Building a quick frequency scan to surface these rare suspicious terms.</details></think>
+Targeting words that appear only once to five times and carry academic suffixes like -tion or -ize. Flagging multi-word phrases that sound stiff or robotic. Building a quick frequency scan to surface these rare suspicious terms.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1635,9 +1368,8 @@ Running the voice scan and mining site prose for rare or stiff words not already
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm voice:scan 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1
 ```
@@ -1679,153 +1411,22 @@ Review-only (edit data/voice-words.yaml review: to tune)
     content/english/notes/change-window.md · relationships.reason
     content/english/notes/change-window.md · relationships.reason
     content/english/notes/client-site-handoff.md · key_concept
-    content/english/notes/free-tier-hosting-stack.md · cards[0].front
-    content/english/notes/free-tier-hosting-stack.md · key_concept
-    content/english/notes/free-tier-hosting-stack.md · key_concept
-    content/english/notes/free-tier-hosting-stack.md · relationships.reason
-    content/english/notes/free-tier-hosting-stack.md · relationships.reason
-    content/english/notes/free-tier-hosting-stack.md · relationships.reason
-    content/english/notes/git-based-cms.md · key_concept
-    content/english/notes/lean-startup.md · key_concept
-    content/english/notes/maintenance-window.md · relationships.reason
-    content/english/notes/reversibility.md · key_concept
-    content/english/notes/reversibility.md · key_concept
-    content/english/notes/reversibility.md · relationships.reason
-    content/english/notes/rollback-principle.md · cards[0].front
-    content/english/notes/rollback-principle.md · examples[0]
-    content/english/notes/rollback-principle.md · key_concept
-    content/english/notes/rollback-principle.md · relationships.reason
-    content/english/notes/staged-rollout.md · aliases[0]
-    content/english/notes/staged-rollout.md · cards[0].front
-    content/english/notes/staged-rollout.md · key_concept
-    content/english/notes/staged-rollout.md · relationships.reason
-    content/english/notes/standard-operating-procedures.md · relationships.reason
-    content/english/notes/the-garage-concept.md · key_concept
-  Handoff (32) → pass off / pass to client
-    content/english/notes/client-site-handoff.md · aliases[0]
-    content/english/notes/client-site-handoff.md · cards[0].front
-    content/english/notes/client-site-handoff.md · description
-    content/english/notes/client-site-handoff.md · key_concept
-    content/english/notes/client-site-handoff.md · key_concept
-    content/english/notes/client-site-handoff.md · meta_title
-    content/english/notes/client-site-handoff.md · relationships.reason
-    content/english/notes/client-site-handoff.md · relationships.reason
-    content/english/notes/client-site-handoff.md · relationships.reason
-    content/english/notes/client-site-handoff.md · title
-    content/english/notes/crdt.md · cards[2].back
-    content/english/notes/drafting-in-public.md · cards[0].back
-    content/english/notes/drafting-in-public.md · examples[0]
-    content/english/notes/free-tier-hosting-stack.md · key_concept
-    content/english/notes/git-based-cms.md · relationships.reason
-    content/english/notes/graph-view-analytics.md · cards[1].front
-    content/english/notes/graph-view-analytics.md · examples[0]
-    content/english/notes/habit-stacking.md · cards[1].front
-    content/english/notes/habit-stacking.md · examples[0]
-    content/english/notes/plain-commitments-at-work.md · key_concept
-    content/english/notes/selling-static-sites.md · description
-    content/english/notes/selling-static-sites.md · key_concept
-    content/english/notes/selling-static-sites.md · key_concept
-    content/english/notes/selling-static-sites.md · key_concept
-    content/english/notes/selling-static-sites.md · key_concept
-    content/english/notes/selling-static-sites.md · relationships.reason
-    content/english/notes/share-what-you-learn.md · description
-    content/english/notes/share-what-you-learn.md · key_concept
-    content/english/notes/share-what-you-learn.md · key_concept
-    content/english/notes/share-what-you-learn.md · relationships.reason
-    content/english/notes/static-site-client-scope.md · key_concept
-    content/english/notes/the-garage-concept.md · key_concept
-  Postmortem (19) → after-action review
-    content/english/notes/blameless-postmortem.md · aliases[0]
-    content/english/notes/blameless-postmortem.md · cards[0].back
-    content/english/notes/blameless-postmortem.md · cards[3].back
-    content/english/notes/blameless-postmortem.md · examples[0]
-    content/english/notes/blameless-postmortem.md · key_concept
-    content/english/notes/blameless-postmortem.md · meta_title
-    content/english/notes/blameless-postmortem.md · relationships.reason
-    content/english/notes/blameless-postmortem.md · relationships.reason
-    content/english/notes/blameless-postmortem.md · relationships.reason
-    content/english/notes/blameless-postmortem.md · title
-    content/english/notes/convert-pain-into-learning.md · relationships.reason
-    content/english/notes/heed-every-near-miss.md · relationships.reason
-    content/english/notes/incident-investigation.md · key_concept
-    content/english/notes/learning-organizations.md · key_concept
-    content/english/notes/normalization-of-deviance.md · key_concept
-    content/english/notes/normalization-of-deviance.md · relationships.reason
-    content/english/notes/rollback-principle.md · cards[0].back
-    content/english/notes/rollback-principle.md · examples[0]
-    content/english/notes/rollback-principle.md · relationships.reason
-  Distill (16) → boil down / shorten
-    content/english/notes/building-a-second-brain.md · cards[0].front
-    content/english/notes/building-a-second-brain.md · cards[5].back
-    content/english/notes/building-a-second-brain.md · key_concept
-    content/english/notes/building-a-second-brain.md · meta_title
-    content/english/notes/building-a-second-brain.md · relationships.reason
-    content/english/notes/evergreen-notes.md · cards[5].back
-    content/english/notes/intellectual-sourcing.md · relationships.reason
-    content/english/notes/progressive-summarization.md · cards[1].back
-    content/english/notes/progressive-summarization.md · description
-    content/english/notes/progressive-summarization.md · key_concept
-    content/english/notes/progressive-summarization.md · key_concept
-    content/english/notes/progressive-summarization.md · relationships.reason
-    content/english/notes/progressive-summarization.md · relationships.reason
-    content/english/notes/progressive-summarization.md · relationships.reason
-    content/english/notes/the-second-brain-workflow.md · description
-    content/english/notes/the-second-brain-workflow.md · relationships.reason
-  contradicts (9) → goes against
-    content/english/notes/associative-linking.md · cards[0].back
-    content/english/notes/associative-linking.md · cards[1].back
-    content/english/notes/associative-linking.md · cards[5].back
-    content/english/notes/associative-linking.md · cards[5].front
-    content/english/notes/note-relationships.md · cards[1].back
-    content/english/notes/note-relationships.md · cards[4].back
-    content/english/notes/note-relationships.md · description
-    content/english/notes/note-relationships.md · key_concept
-    content/english/notes/note-relationships.md · key_concept
-  metadata (5) → tags and fields
-    content/english/notes/context-aware-capture.md · relationships.reason
-    content/english/notes/metadata-strategy.md · key_concept
-    content/english/notes/metadata-strategy.md · meta_title
-    content/english/notes/metadata-strategy.md · title
-    content/english/notes/taxonomy.md · key_concept
-  navigate (3) → cut or be specific
-    content/english/blog/power-of-the-mouse-wheel-click.md · body
-    content/english/blog/power-of-the-mouse-wheel-click.md · body
-    content/english/notes/taxonomy.md · relationships.reason
-  unmerited favor (3) → gift you didn't earn
-    content/english/notes/free-grace.md · key_concept
-    content/english/notes/grace.md · aliases[0]
-    content/english/notes/grace.md · meta_title
-
-pnpm lint:voice — fail CI on strict hits
-
+    content/english/notes/free-tier-hos
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1856,33 +1457,27 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I need to find uncommon words and phrases on the site that are missing from voice-words.yaml.</details></think>
+I need to find uncommon words and phrases on the site that are missing from voice-words.yaml.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(".")
-CONTENT = ROOT / "content/english"
+ROOT = Path(&#34;.&#34;)
+CONTENT = ROOT / &#34;content/english&#34;
 
 # Expanded suspect vocab from jorap-voice (not all in voice-words.yaml)
-SUSPECT_WORDS = """
+SUSPECT_WORDS = &#34;&#34;&#34;
 landscape delve leverage utilize facilitate robust seamless comprehensive realm tapestry
 harness elevate furthermore moreover additionally implement prioritize repository functionality
 optimization crucial vital essential navigate disseminate optimal ensures delivers provides
@@ -1890,67 +1485,67 @@ utilization transformative paradigm synergy holistic methodology stakeholders en
 boasts facilitates empowers streamline underscore pivotal paramount myriad plethora
 facilitate disseminate ascertain endeavor subsequently consequently nevertheless
 whereby therein thereof herein aforementioned utilize leveraging robustness scalability
-""".split()
+&#34;&#34;&#34;.split()
 
 SUSPECT_PHRASES = [
-    r"at the end of the day",
-    r"it is (?:recommended|important|worth)",
-    r"users may find",
-    r"one (?:might|should|could) consider",
-    r"in order to",
-    r"as well as",
-    r"not only .{0,40} but also",
-    r"plays a (?:key|vital|crucial) role",
-    r"in today'?s",
-    r"whether you'?re",
-    r"here'?s everything you need",
-    r"boasts a",
-    r"offers a range of",
-    r"seamless experience",
-    r"robust solution",
-    r"comprehensive (?:guide|overview|approach)",
-    r"game.?chang",
-    r"unlock (?:the|your)",
-    r"delve into",
-    r"it'?s worth noting",
-    r"happy reading",
-    r"hope this helps",
-    r"without further ado",
-    r"when it comes to",
-    r"in the (?:realm|world) of",
-    r"navigate the",
-    r"transform your",
-    r"take your .{0,20} to the next level",
-    r"empower(?:s|ing)? (?:you|users)",
-    r"cutting.?edge",
-    r"state.?of.?the.?art",
-    r"best.?in.?class",
-    r"a wide range of",
-    r"in conclusion",
-    r"to sum up",
-    r"furthermore|moreover|additionally",
+    r&#34;at the end of the day&#34;,
+    r&#34;it is (?:recommended|important|worth)&#34;,
+    r&#34;users may find&#34;,
+    r&#34;one (?:might|should|could) consider&#34;,
+    r&#34;in order to&#34;,
+    r&#34;as well as&#34;,
+    r&#34;not only .{0,40} but also&#34;,
+    r&#34;plays a (?:key|vital|crucial) role&#34;,
+    r&#34;in today&#39;?s&#34;,
+    r&#34;whether you&#39;?re&#34;,
+    r&#34;here&#39;?s everything you need&#34;,
+    r&#34;boasts a&#34;,
+    r&#34;offers a range of&#34;,
+    r&#34;seamless experience&#34;,
+    r&#34;robust solution&#34;,
+    r&#34;comprehensive (?:guide|overview|approach)&#34;,
+    r&#34;game.?chang&#34;,
+    r&#34;unlock (?:the|your)&#34;,
+    r&#34;delve into&#34;,
+    r&#34;it&#39;?s worth noting&#34;,
+    r&#34;happy reading&#34;,
+    r&#34;hope this helps&#34;,
+    r&#34;without further ado&#34;,
+    r&#34;when it comes to&#34;,
+    r&#34;in the (?:realm|world) of&#34;,
+    r&#34;navigate the&#34;,
+    r&#34;transform your&#34;,
+    r&#34;take your .{0,20} to the next level&#34;,
+    r&#34;empower(?:s|ing)? (?:you|users)&#34;,
+    r&#34;cutting.?edge&#34;,
+    r&#34;state.?of.?the.?art&#34;,
+    r&#34;best.?in.?class&#34;,
+    r&#34;a wide range of&#34;,
+    r&#34;in conclusion&#34;,
+    r&#34;to sum up&#34;,
+    r&#34;furthermore|moreover|additionally&#34;,
 ]
 
 # Common plain words / tech OK — skip in rarity scan
-STOP = set("""
+STOP = set(&#34;&#34;&#34;
 the and for are but not you all can had her was one our out day get has him his how its may new now old see way who boy did its let put say she too use any may own say she too use any may own
 that with have this will from they been were said each which their time would about there could other after first never these think where being under while might should those people through before
 between during without against something someone everything anything nothing another however therefore because although though unless until within across around behind beyond during toward towards
 blog note notes card cards front back body title draft meta description concept examples relationships reason author tags categories featured review layout slug image date aliases
 hugo cloudflare wordpress github tailwind bootstrap javascript markdown obsidian anki static hosting deploy deployment server client website internet browser mobile desktop windows linux
-""".split())
+&#34;&#34;&#34;.split())
 
 def load_text(path):
-    text = path.read_text(encoding="utf-8")
-    if text.startswith("---"):
-        end = text.find("\n---", 3)
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if text.startswith(&#34;---&#34;):
+        end = text.find(&#34;\n---&#34;, 3)
         if end != -1:
             text = text[end+4:]
     # strip code blocks and wikilinks partially
-    text = re.sub(r"```.*?```", " ", text, flags=re.S)
-    text = re.sub(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", r"\1", text)
-    text = re.sub(r"`[^`]+`", " ", text)
-    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r&#34;```.*?```&#34;, &#34; &#34;, text, flags=re.S)
+    text = re.sub(r&#34;\[\[([^\]|]+)(?:\|[^\]]+)?\]\]&#34;, r&#34;\1&#34;, text)
+    text = re.sub(r&#34;`[^`]+`&#34;, &#34; &#34;, text)
+    text = re.sub(r&#34;\[([^\]]+)\]\([^)]+\)&#34;, r&#34;\1&#34;, text)
     return text
 
 word_locs = defaultdict(list)
@@ -1958,7 +1553,7 @@ word_counts = Counter()
 phrase_hits = defaultdict(list)
 suspect_found = defaultdict(list)
 
-paths = sorted(CONTENT.rglob("*.md"))
+paths = sorted(CONTENT.rglob(&#34;*.md&#34;))
 all_text = []
 
 for path in paths:
@@ -1969,63 +1564,62 @@ for path in paths:
 
     for pat in SUSPECT_PHRASES:
         for m in re.finditer(pat, lower, re.I):
-            snippet = text[max(0,m.start()-30):m.end()+40].replace("\n", " ")
+            snippet = text[max(0,m.start()-30):m.end()+40].replace(&#34;\n&#34;, &#34; &#34;)
             phrase_hits[pat].append((rel, snippet.strip()[:100]))
 
     for w in SUSPECT_WORDS:
-        for m in re.finditer(rf"\b{re.escape(w)}\b", text, re.I):
+        for m in re.finditer(rf&#34;\b{re.escape(w)}\b&#34;, text, re.I):
             suspect_found[w.lower()].append(rel)
 
-    for m in re.finditer(r"\b[a-zA-Z]{7,}\b", text):
+    for m in re.finditer(r&#34;\b[a-zA-Z]{7,}\b&#34;, text):
         w = m.group(0).lower()
-        if w in STOP or len(w) > 20:
+        if w in STOP or len(w) &gt; 20:
             continue
         word_counts[w] += 1
-        if len(word_locs[w]) < 5:
+        if len(word_locs[w]) &lt; 5:
             word_locs[w].append(rel)
 
 # Rare long words (1-4 uses) that look academic
-RARE_SUFFIX = re.compile(r"(tion|ment|ness|ology|ization|isation|ative|eous|ious|ically|ually|fulness)$")
+RARE_SUFFIX = re.compile(r&#34;(tion|ment|ness|ology|ization|isation|ative|eous|ious|ically|ually|fulness)$&#34;)
 rare_fancy = []
 for w, c in word_counts.items():
-    if c > 4 or len(w) < 9:
+    if c &gt; 4 or len(w) &lt; 9:
         continue
-    if RARE_SUFFIX.search(w) or w.endswith("ize") or w.endswith("ise"):
+    if RARE_SUFFIX.search(w) or w.endswith(&#34;ize&#34;) or w.endswith(&#34;ise&#34;):
         rare_fancy.append((c, w, word_locs[w][:3]))
 
 rare_fancy.sort()
 
-print("=== SUSPECT WORDS IN CONTENT (expanded jorap-voice list) ===")
+print(&#34;=== SUSPECT WORDS IN CONTENT (expanded jorap-voice list) ===&#34;)
 for w in sorted(suspect_found, key=lambda x: (-len(suspect_found[x]), x)):
     locs = suspect_found[w]
-    if w in {"deploy","postmortem","distill","handoff","metadata","contradicts","navigate","vital","essential","prioritize","repository"}:
+    if w in {&#34;deploy&#34;,&#34;postmortem&#34;,&#34;distill&#34;,&#34;handoff&#34;,&#34;metadata&#34;,&#34;contradicts&#34;,&#34;navigate&#34;,&#34;vital&#34;,&#34;essential&#34;,&#34;prioritize&#34;,&#34;repository&#34;}:
         continue  # already in voice scan
-    print(f"  {w} ({len(locs)})")
+    print(f&#34;  {w} ({len(locs)})&#34;)
     for loc in sorted(set(locs))[:4]:
-        print(f"    {loc}")
-    if len(set(locs)) > 4:
-        print(f"    ... +{len(set(locs))-4} more")
+        print(f&#34;    {loc}&#34;)
+    if len(set(locs)) &gt; 4:
+        print(f&#34;    ... +{len(set(locs))-4} more&#34;)
 
-print("\n=== SUSPECT PHRASES NOT IN voice-words.yaml ===")
+print(&#34;\n=== SUSPECT PHRASES NOT IN voice-words.yaml ===&#34;)
 for pat in sorted(phrase_hits, key=lambda p: -len(phrase_hits[p])):
   hits = phrase_hits[pat]
   if not hits:
     continue
   # skip if covered by existing yaml phrases roughly
-  skip = any(x in pat for x in ["when it comes", "worth noting", "in conclusion", "without further", "navigate the", "comprehensive guide", "plays a key", "happy reading", "hope this helps", "in today", "whether you", "delve into", "unlock", "game.chang", "realm of", "world of"])
+  skip = any(x in pat for x in [&#34;when it comes&#34;, &#34;worth noting&#34;, &#34;in conclusion&#34;, &#34;without further&#34;, &#34;navigate the&#34;, &#34;comprehensive guide&#34;, &#34;plays a key&#34;, &#34;happy reading&#34;, &#34;hope this helps&#34;, &#34;in today&#34;, &#34;whether you&#34;, &#34;delve into&#34;, &#34;unlock&#34;, &#34;game.chang&#34;, &#34;realm of&#34;, &#34;world of&#34;])
   if skip:
     continue
-  print(f"  /{pat}/ ({len(hits)})")
+  print(f&#34;  /{pat}/ ({len(hits)})&#34;)
   for rel, snip in hits[:3]:
-    print(f"    {rel}: …{snip}…")
+    print(f&#34;    {rel}: …{snip}…&#34;)
 
-print("\n=== RARE ACADEMIC-LOOKING WORDS (1-4 uses, 9+ letters) ===")
+print(&#34;\n=== RARE ACADEMIC-LOOKING WORDS (1-4 uses, 9+ letters) ===&#34;)
 for c, w, locs in rare_fancy[:40]:
-    print(f"  {w} ({c}) — {', '.join(locs)}")
+    print(f&#34;  {w} ({c}) — {&#39;, &#39;.join(locs)}&#34;)
 
 PY</summary>
-
-```bash
+````bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
 import re
 from collections import Counter, defaultdict
@@ -2177,7 +1771,7 @@ for c, w, locs in rare_fancy[:40]:
     print(f"  {w} ({c}) — {', '.join(locs)}")
 
 PY
-```
+````
 
 ```
 === SUSPECT WORDS IN CONTENT (expanded jorap-voice list) ===
@@ -2212,39 +1806,15 @@ PY
   condemnation (1) — content/english/notes/eternal-principles.md
   condiment (1) — content/english/blog/__kewpie-mayo.md
   confirmation (1) — content/english/blog/hugoplate-theme-review.md
-  congregation (1) — content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md
-  connection (1) — content/english/notes/eternal-principles.md
-  consumption (1) — content/english/blog/__jobs-to-be-done-framework.md
-  customize (1) — content/english/blog/hugoplate-theme-review.md
-  delicious (1) — content/english/blog/__worcestershire-sauce-lee-and-perrins.md
-  department (1) — content/english/blog/miracle-isaiah-david.md
-  destination (1) — content/english/blog/power-of-the-mouse-wheel-click.md
-  direction (1) — content/english/blog/__obsidian-vs-hugo.md
-  distribution (1) — content/english/blog/__sustainable-online-publishing.md
-  enrollment (1) — content/english/about/_index.md
-  equipment (1) — content/english/blog/__stuart-mcgill-big-three-low-back-exercises.md
-  evaluation (1) — content/english/about/_index.md
-  experiment (1) — content/english/blog/consistent-ai-output-wordpress-builds.md
-  formation (1) — content/english/notes/systems-for-growth.md
-  franchise (1) — content/english/blog/miracle-isaiah-david.md
-  greatness (1) — content/english/notes/workplace-principles.md
-  hameltion (1) — content/english/blog/alex-eala-pro-career-tracker.md
-
+  congregation (1
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2292,21 +1862,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2342,26 +1903,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching JoRap's authored content for uncommon or stiff words, excluding boilerplate drafts.</details></think>
+Searching JoRap's authored content for uncommon or stiff words, excluding boilerplate drafts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2429,21 +1982,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2551,36 +2095,29 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path("content/english")
-# Only authored lanes — skip theme boilerplate pages/sections and draft __ posts for "your voice"
-SKIP_PARTS = {"pages", "sections", "drafts"}
-paths = [p for p in ROOT.rglob("*.md") if not any(part in SKIP_PARTS for part in p.parts) and not p.name.startswith("__")]
+ROOT = Path(&#34;content/english&#34;)
+# Only authored lanes — skip theme boilerplate pages/sections and draft __ posts for &#34;your voice&#34;
+SKIP_PARTS = {&#34;pages&#34;, &#34;sections&#34;, &#34;drafts&#34;}
+paths = [p for p in ROOT.rglob(&#34;*.md&#34;) if not any(part in SKIP_PARTS for part in p.parts) and not p.name.startswith(&#34;__&#34;)]
 
-WORD = re.compile(r"\b[a-z]{8,}\b", re.I)
+WORD = re.compile(r&#34;\b[a-z]{8,}\b&#34;, re.I)
 counts = Counter()
 locs = defaultdict(set)
 
 for p in paths:
-    t = p.read_text(encoding="utf-8").lower()
-    if t.startswith("---"):
-        end = t.find("\n---", 3)
+    t = p.read_text(encoding=&#34;utf-8&#34;).lower()
+    if t.startswith(&#34;---&#34;):
+        end = t.find(&#34;\n---&#34;, 3)
         if end != -1: t = t[end+4:]
     for m in WORD.finditer(t):
         w = m.group(0)
@@ -2588,25 +2125,24 @@ for p in paths:
         locs[w].add(str(p.relative_to(ROOT)))
 
 # Plain/common — not interesting
-COMMON = set("something everything anything themselves together different important something everything because through without between another however therefore everything something".split())
-COMMON |= {w*2 for w in "about after again being could every first great little might never other place right small still their there these think those three under until where which while would write written".split()}
+COMMON = set(&#34;something everything anything themselves together different important something everything because through without between another however therefore everything something&#34;.split())
+COMMON |= {w*2 for w in &#34;about after again being could every first great little might never other place right small still their there these think those three under until where which while would write written&#34;.split()}
 
-candidates = [(c,w) for w,c in counts.items() if 2 <= c <= 6 and w not in COMMON]
+candidates = [(c,w) for w,c in counts.items() if 2 &lt;= c &lt;= 6 and w not in COMMON]
 candidates.sort()
 
 # Latinate / stiff endings
-stiff = re.compile(r"(ization|isation|ology|fulness|iveness|atively|ement|ation|ution)$")
+stiff = re.compile(r&#34;(ization|isation|ology|fulness|iveness|atively|ement|ation|ution)$&#34;)
 picked = []
 for c,w in candidates:
-    if stiff.search(w) or w.endswith(("ize","ise","ify","ous","ive")):
+    if stiff.search(w) or w.endswith((&#34;ize&#34;,&#34;ise&#34;,&#34;ify&#34;,&#34;ous&#34;,&#34;ive&#34;)):
         picked.append((c,w,sorted(locs[w])[:3]))
 picked.sort()
-print(f"Scanned {len(paths)} files (notes, blog, about, contact — no theme pages, no __ drafts)\n")
-print("STIFF-LOOKING WORDS (2-6 uses):")
+print(f&#34;Scanned {len(paths)} files (notes, blog, about, contact — no theme pages, no __ drafts)\n&#34;)
+print(&#34;STIFF-LOOKING WORDS (2-6 uses):&#34;)
 for c,w,ls in picked[:35]:
-    print(f"  {w} ({c}) — {'; '.join(ls)}")
+    print(f&#34;  {w} ({c}) — {&#39;; &#39;.join(ls)}&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
 import re
@@ -2681,31 +2217,21 @@ STIFF-LOOKING WORDS (2-6 uses):
   reconciliation (3) — notes/eternal-principles.md; notes/workplace-principles.md
   gorgeous (4) — blog/getting-started-with-rss-feeds-beginners-guide.md; blog/hugoplate-theme-review.md; blog/power-of-worship-pads-enhancing-your-worship-experience.md
   salvation (4) — notes/eternal-principles.md
-  effective (5) — notes/eternal-principles.md; notes/pressure-reveals-weakness.md; notes/systems-for-growth.md
-  forgiveness (5) — notes/eternal-principles.md; notes/workplace-principles.md
-  conversation (6) — blog/consistent-ai-output-wordpress-builds.md; blog/miracle-isaiah-david.md; blog/what-i-look-for-in-wireless-earphones.md
-  navigation (6) — authors/john-doe.md; authors/sam-wilson.md; authors/william-jacob.md
-
+  effective (5) — notes/eternal-principles.md; notes/pressure-reveals-weakness.md; notes/systems-for-growth.
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching published jorap-voice content for stiff words missing from the YAML list.</details></think>
+Searching published jorap-voice content for stiff words missing from the YAML list.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2761,21 +2287,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2883,21 +2400,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2933,26 +2441,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching notes descriptions and key_concepts for stiff wording in the garden layer.</details></think>
+Searching notes descriptions and key_concepts for stiff wording in the garden layer.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2996,21 +2496,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3054,21 +2545,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3108,22 +2590,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching reconciliation-before-worship for "prioritize" and scanning key_concept and description fields for uncommon words.</details></think>
+Searching reconciliation-before-worship for "prioritize" and scanning key_concept and description fields for uncommon words.
+</details></think>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 rg: regex parse error:
     (?:\b(optimize|optimiz|implement(?!s)|synergy|transform|transformation|synerg|disseminat|ascertain|subsequently|nevertheless|whereby|aforementioned|utiliz|facilitat|leverag|robust|seamless|comprehensive|delve|landscape|harness|elevate|tapestry|realm|empower|streamlin|underscore|pivotal|paramount|myriad|plethora|holistic|paradigm|methodology)\b)
                                     ^^^
@@ -3131,58 +2609,33 @@ error: look-around, including look-ahead and look-behind, is not supported
 
 Consider enabling PCRE2 with the --pcre2 flag, which can handle backreferences
 and look-around.
+</details></tool-use>
 
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3226,17 +2679,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 rg: regex parse error:
     (?:\b(prioritiz|essential|crucial|implement(?!s)|functionality|optimization|repository)\b)
                                                ^^^
@@ -3244,19 +2692,12 @@ error: look-around, including look-ahead and look-behind, is not supported
 
 Consider enabling PCRE2 with the --pcre2 flag, which can handle backreferences
 and look-around.
-
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3288,13 +2729,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3302,14 +2736,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The word "elevate" appears in "reconciliation-before-worship" but was missing from the voice scan results despite being listed as strict in voice-words.yaml.
 
-The regex `\belevate\b` fails to match "elevates" due to a stem-matching gap. This is a miss to flag.</details></think>
+The regex `\belevate\b` fails to match "elevates" due to a stem-matching gap. This is a miss to flag.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3357,21 +2790,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3411,21 +2835,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3457,13 +2872,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3471,40 +2879,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking "reconciliation-before-worship" for "prioritize" and "voice scan" related to "relationships".
 
-Organizing findings by priority. "Vital" is the top hit at seven instances; these should move to review or allowlist. "Essential" is a false positive. "Prioritize" and "repository" need review or deletion. "Elevate" appears in reconciliation-before-worship. "Stakeholders" is on the about page. Additional terms include deploy, handoff, postmortem, distill, contradicts, metadata, navigate, and unmerited favor.</details></think>
+Organizing findings by priority. "Vital" is the top hit at seven instances; these should move to review or allowlist. "Essential" is a false positive. "Prioritize" and "repository" need review or deletion. "Elevate" appears in reconciliation-before-worship. "Stakeholders" is on the about page. Additional terms include deploy, handoff, postmortem, distill, contradicts, metadata, navigate, and unmerited favor.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3536,19 +2931,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-"Strategic Foresight" is well represented in key_concept. The title uses it as the topic term.</details></think>
+"Strategic Foresight" is well represented in key_concept. The title uses it as the topic term.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3639,7 +3028,8 @@ provide top 50 complicated words used
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Compiling the top 50 most complicated words used across the site.</details></think>
+Compiling the top 50 most complicated words used across the site.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3648,50 +3038,50 @@ Mining site prose for the 50 most complicated words by frequency, length, and ac
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path("content/english")
-paths = sorted(ROOT.rglob("*.md"))
+ROOT = Path(&#34;content/english&#34;)
+paths = sorted(ROOT.rglob(&#34;*.md&#34;))
 
-# Very common English — not "complicated"
-COMMON = set("""
+# Very common English — not &#34;complicated&#34;
+COMMON = set(&#34;&#34;&#34;
 the and for are but not you all can had her was one our out day get has him his how its may new now old see way who boy did let put say she too use any own
 that with have this will from they been were said each which their time would about there could other after first never these think where being under while might should those people through before
 between during without against something someone everything anything nothing another however therefore because although though unless until within across around behind beyond toward towards
 when what some them then than only also just like make made many much more most very well even back over such here take come want give look find know long little great still every same both
 between under again further once upon always often already always really maybe perhaps almost enough almost quite rather pretty actually probably definitely certainly exactly simply exactly
 about after again against along among another around because before behind below beside besides beyond during except inside into near off onto outside since through throughout toward towards
-your yours yourself you're they've we're don't won't can't isn't aren't wasn't weren't hasn't haven't hadn't doesn't didn't wouldn't couldn't shouldn't it's that's what's who's here's there's let's
+your yours yourself you&#39;re they&#39;ve we&#39;re don&#39;t won&#39;t can&#39;t isn&#39;t aren&#39;t wasn&#39;t weren&#39;t hasn&#39;t haven&#39;t hadn&#39;t doesn&#39;t didn&#39;t wouldn&#39;t couldn&#39;t shouldn&#39;t it&#39;s that&#39;s what&#39;s who&#39;s here&#39;s there&#39;s let&#39;s
 blog note notes card cards front back body title draft meta description concept examples relationships reason author tags categories featured review layout slug image date aliases
 hugo cloudflare wordpress github tailwind bootstrap javascript markdown obsidian anki static hosting server client website internet browser mobile desktop windows linux google facebook
 english philippines manila content section paragraph heading bullet list image link page site post posts recipe recipes chicken adobo rice soup sauce
-""".split())
+&#34;&#34;&#34;.split())
 
-# Theology/PKM/product names OK in this garden — exclude from "complicated" ranking
-ALLOW = set("""
+# Theology/PKM/product names OK in this garden — exclude from &#34;complicated&#34; ranking
+ALLOW = set(&#34;&#34;&#34;
 hugo cloudflare wordpress tailwind bootstrap obsidian ankr github javascript markdown
 sanctification justification reconciliation forgiveness righteousness commandment congregation
 wikilinks flashcards metadata taxonomy taxonomy postmortem reversibility accountability
 associative evergreen progressive summarization discipleship sanctification
-""".split())
+&#34;&#34;&#34;.split())
 
-WORD = re.compile(r"\b[a-zA-Z]{6,}\b")
+WORD = re.compile(r&#34;\b[a-zA-Z]{6,}\b&#34;)
 
-def strip_md(text: str) -> str:
-    if text.startswith("---"):
-        end = text.find("\n---", 3)
+def strip_md(text: str) -&gt; str:
+    if text.startswith(&#34;---&#34;):
+        end = text.find(&#34;\n---&#34;, 3)
         if end != -1:
             text = text[end + 4 :]
-    text = re.sub(r"```.*?```", " ", text, flags=re.S)
-    text = re.sub(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", r" \1 ", text)
-    text = re.sub(r"`[^`]+`", " ", text)
-    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r" \1 ", text)
-    text = re.sub(r"https?://\S+", " ", text)
-    text = re.sub(r"#[a-z0-9-]+", " ", text, flags=re.I)
+    text = re.sub(r&#34;```.*?```&#34;, &#34; &#34;, text, flags=re.S)
+    text = re.sub(r&#34;\[\[([^\]|]+)(?:\|[^\]]+)?\]\]&#34;, r&#34; \1 &#34;, text)
+    text = re.sub(r&#34;`[^`]+`&#34;, &#34; &#34;, text)
+    text = re.sub(r&#34;\[([^\]]+)\]\([^)]+\)&#34;, r&#34; \1 &#34;, text)
+    text = re.sub(r&#34;https?://\S+&#34;, &#34; &#34;, text)
+    text = re.sub(r&#34;#[a-z0-9-]+&#34;, &#34; &#34;, text, flags=re.I)
     return text
 
 counts = Counter()
@@ -3700,12 +3090,12 @@ total_tokens = 0
 
 for p in paths:
     rel = str(p.relative_to(ROOT))
-    t = strip_md(p.read_text(encoding="utf-8"))
+    t = strip_md(p.read_text(encoding=&#34;utf-8&#34;))
     for m in WORD.finditer(t):
         w = m.group(0).lower()
         if w in COMMON or w in ALLOW:
             continue
-        if w.isdigit() or len(w) > 22:
+        if w.isdigit() or len(w) &gt; 22:
             continue
         counts[w] += 1
         locs[w].add(rel)
@@ -3713,39 +3103,38 @@ for p in paths:
 
 # Complication score: length + suffix bonus + inverse frequency (rarer = more complicated in personal voice)
 LATIN = re.compile(
-    r"(tion|sion|ment|ness|ology|ography|ization|isation|ative|itive|eous|ious|ically|ually|fulness|ability|ibility|ance|ence|ship|ward)$"
+    r&#34;(tion|sion|ment|ness|ology|ography|ization|isation|ative|itive|eous|ious|ically|ually|fulness|ability|ibility|ance|ence|ship|ward)$&#34;
 )
-LATIN_VERB = re.compile(r"(ify|ize|ise)$")
+LATIN_VERB = re.compile(r&#34;(ify|ize|ise)$&#34;)
 
-def score(w: str, c: int) -> float:
+def score(w: str, c: int) -&gt; float:
     s = len(w) * 0.6
     if LATIN.search(w):
         s += 8
     elif LATIN_VERB.search(w):
         s += 5
-    if len(w) >= 12:
+    if len(w) &gt;= 12:
         s += 3
-  # rare in this corpus = more likely "complicated for JoRap voice"
+  # rare in this corpus = more likely &#34;complicated for JoRap voice&#34;
     if c == 1:
         s += 6
     elif c == 2:
         s += 4
-    elif c <= 4:
+    elif c &lt;= 4:
         s += 2
     return s
 
 ranked = sorted(counts.items(), key=lambda kv: (-score(kv[0], kv[1]), -len(kv[0]), kv[0]))
 top = ranked[:80]
 
-print(f"Corpus: {len(paths)} markdown files, {sum(counts.values())} content words (6+ letters, deduped common)\n")
-print(f"{'#':>2}  {'word':<22} {'uses':>4}  {'score':>5}  example file")
-print("-" * 72)
+print(f&#34;Corpus: {len(paths)} markdown files, {sum(counts.values())} content words (6+ letters, deduped common)\n&#34;)
+print(f&#34;{&#39;#&#39;:&gt;2}  {&#39;word&#39;:&lt;22} {&#39;uses&#39;:&gt;4}  {&#39;score&#39;:&gt;5}  example file&#34;)
+print(&#34;-&#34; * 72)
 for i, (w, c) in enumerate(top[:50], 1):
     ex = sorted(locs[w])[0]
-    print(f"{i:2}  {w:<22} {c:4}  {score(w,c):5.1f}  {ex}")
+    print(f&#34;{i:2}  {w:&lt;22} {c:4}  {score(w,c):5.1f}  {ex}&#34;)
 PY</summary>
-
-```bash
+````bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
 import re
 from collections import Counter, defaultdict
@@ -3841,7 +3230,7 @@ for i, (w, c) in enumerate(top[:50], 1):
     ex = sorted(locs[w])[0]
     print(f"{i:2}  {w:<22} {c:4}  {score(w,c):5.1f}  {ex}")
 PY
-```
+````
 
 ```
 Corpus: 289 markdown files, 9426 content words (6+ letters, deduped common)
@@ -3872,40 +3261,9 @@ Corpus: 289 markdown files, 9426 content words (6+ letters, deduped common)
 22  consultation              2   22.2  blog/miracle-isaiah-david.md
 23  faithfulness              2   22.2  notes/eternal-principles.md
 24  prescription              2   22.2  blog/__personal-immune-booster-supplements.md
-25  achievement               1   20.6  notes/workplace-principles.md
-26  archaeology               1   20.6  blog/__kewpie-mayo.md
-27  attribution               1   20.6  blog/hugoplate-theme-review.md
-28  consumption               1   20.6  blog/__jobs-to-be-done-framework.md
-29  destination               1   20.6  blog/power-of-the-mouse-wheel-click.md
-30  identically               1   20.6  blog/power-of-the-mouse-wheel-click.md
-31  indentation               1   20.6  blog/__client-site-handoff.md
-32  inspiration               1   20.6  blog/getting-started-with-rss-feeds-beginners-guide.md
-33  interaction               1   20.6  blog/__personal-immune-booster-supplements.md
-34  negotiation               1   20.6  blog/top-reasons-why-you-still-need-use-desktop-laptop.md
-35  publication               1   20.6  blog/miracle-isaiah-david.md
-36  replacement               1   20.6  blog/__shopee-tips.md
-37  retaliation               1   20.6  notes/eternal-principles.md
-38  ventilation               1   20.6  blog/__wifi-router.md
-39  notification              3   20.2  blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
-40  relationship              4   20.2  blog/__why-i-stopped-playing-marvel-snap.md
-41  adaptation                1   20.0  notes/pressure-reveals-weakness.md
-42  adjustment                1   20.0  blog/__craft-prompt-framework.md
-43  assignment                1   20.0  blog/__why-i-stopped-playing-marvel-snap.md
-44  attachment                1   20.0  blog/__hugo-page-bundles.md
-45  automation                1   20.0  blog/__smart-plug.md
-46  capability                1   20.0  notes/pressure-reveals-weakness.md
-47  compassion                1   20.0  notes/eternal-principles.md
-48  conclusion                1   20.0  blog/top-reasons-create-maintain-your-own-website.md
-49  conference                1   20.0  about/_index.md
-50  confession                1   20.0  notes/eternal-principles.md
-
+25  achievement               1   20.6  notes/workplace-princip
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3913,7 +3271,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The results skew heavily toward rare, one-off words found in drafts and theme pages.
 
-I'll filter the results to published notes and blog posts only, excluding drafts and theme pages. The list will focus on complicated words that actually appear repeatedly in the user's voice content.</details></think>
+I'll filter the results to published notes and blog posts only, excluding drafts and theme pages. The list will focus on complicated words that actually appear repeatedly in the user's voice content.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3922,54 +3281,54 @@ The first pass was skewed by one-off draft words — rerunning on published note
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path("content/english")
-SKIP_DIRS = {"pages", "sections", "drafts", "authors"}
+ROOT = Path(&#34;content/english&#34;)
+SKIP_DIRS = {&#34;pages&#34;, &#34;sections&#34;, &#34;drafts&#34;, &#34;authors&#34;}
 paths = [
-    p for p in sorted(ROOT.rglob("*.md"))
-    if not any(d in SKIP_DIRS for d in p.parts) and not p.name.startswith("__")
+    p for p in sorted(ROOT.rglob(&#34;*.md&#34;))
+    if not any(d in SKIP_DIRS for d in p.parts) and not p.name.startswith(&#34;__&#34;)
 ]
 
-COMMON = set("""
+COMMON = set(&#34;&#34;&#34;
 the and for are but not you all can had her was one our out day get has him his how its may new now old see way who boy did let put say she too use any own
 that with this will from they been were said each which their time would about there could other after first never these think where being under while might should those people through before
 between during without against something someone everything anything nothing another however therefore because although though unless until within across around behind beyond toward towards
 when what some them then than only also just like make made many much more most very well even back over such here take come want give look find know long little great still every same both
-your yours yourself you're they've we're don't won't can't isn't aren't wasn't weren't hasn't haven't hadn't doesn't didn't wouldn't couldn't shouldn't it's that's what's who's here's there's let's
+your yours yourself you&#39;re they&#39;ve we&#39;re don&#39;t won&#39;t can&#39;t isn&#39;t aren&#39;t wasn&#39;t weren&#39;t hasn&#39;t haven&#39;t hadn&#39;t doesn&#39;t didn&#39;t wouldn&#39;t couldn&#39;t shouldn&#39;t it&#39;s that&#39;s what&#39;s who&#39;s here&#39;s there&#39;s let&#39;s
 blog note notes card cards front back body title draft meta description concept examples relationships reason author tags categories featured review layout slug image date aliases
 hugo cloudflare wordpress github tailwind bootstrap javascript markdown obsidian static hosting server client website internet browser mobile desktop windows linux google facebook
 english philippines manila content section paragraph heading bullet list image link page site post posts recipe recipes chicken adobo rice soup sauce
 children family friend friends mother father husband wife school church team coach player match game season practice training workout exercise
-""".split())
+&#34;&#34;&#34;.split())
 
-WORD = re.compile(r"\b[a-zA-Z]{7,}\b")
-LATIN = re.compile(r"(tion|sion|ment|ness|ology|ography|ization|isation|ative|itive|eous|ious|ically|ually|fulness|ability|ibility|ance|ence|ship)$")
-LATIN_VERB = re.compile(r"(ify|ize|ise)$")
+WORD = re.compile(r&#34;\b[a-zA-Z]{7,}\b&#34;)
+LATIN = re.compile(r&#34;(tion|sion|ment|ness|ology|ography|ization|isation|ative|itive|eous|ious|ically|ually|fulness|ability|ibility|ance|ence|ship)$&#34;)
+LATIN_VERB = re.compile(r&#34;(ify|ize|ise)$&#34;)
 
-def strip_md(text: str) -> str:
-    if text.startswith("---"):
-        end = text.find("\n---", 3)
+def strip_md(text: str) -&gt; str:
+    if text.startswith(&#34;---&#34;):
+        end = text.find(&#34;\n---&#34;, 3)
         if end != -1:
             text = text[end + 4 :]
-    text = re.sub(r"```.*?```", " ", text, flags=re.S)
-    text = re.sub(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", r" \1 ", text)
-    text = re.sub(r"`[^`]+`", " ", text)
-    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r" \1 ", text)
-    text = re.sub(r"https?://\S+", " ", text)
+    text = re.sub(r&#34;```.*?```&#34;, &#34; &#34;, text, flags=re.S)
+    text = re.sub(r&#34;\[\[([^\]|]+)(?:\|[^\]]+)?\]\]&#34;, r&#34; \1 &#34;, text)
+    text = re.sub(r&#34;`[^`]+`&#34;, &#34; &#34;, text)
+    text = re.sub(r&#34;\[([^\]]+)\]\([^)]+\)&#34;, r&#34; \1 &#34;, text)
+    text = re.sub(r&#34;https?://\S+&#34;, &#34; &#34;, text)
     return text
 
-def score(w: str, c: int) -> float:
+def score(w: str, c: int) -&gt; float:
     s = len(w) * 0.55
     if LATIN.search(w):
         s += 9
     elif LATIN_VERB.search(w):
         s += 5
-    if len(w) >= 12:
+    if len(w) &gt;= 12:
         s += 2
     # weight frequency lightly — repeated complicated words matter more for voice audit
     s += min(c, 12) * 1.2
@@ -3979,23 +3338,22 @@ counts = Counter()
 locs = defaultdict(set)
 for p in paths:
     rel = str(p.relative_to(ROOT))
-    for m in WORD.finditer(strip_md(p.read_text(encoding="utf-8"))):
+    for m in WORD.finditer(strip_md(p.read_text(encoding=&#34;utf-8&#34;))):
         w = m.group(0).lower()
-        if w in COMMON or len(w) > 22:
+        if w in COMMON or len(w) &gt; 22:
             continue
         counts[w] += 1
         locs[w].add(rel)
 
 ranked = sorted(counts.items(), key=lambda kv: (-score(kv[0], kv[1]), -len(kv[0]), kv[0]))
 
-print(f"Published notes + blog: {len(paths)} files\n")
-print(f"{'#':>2}  {'word':<22} {'uses':>4}  {'score':>5}  sample")
-print("-" * 70)
+print(f&#34;Published notes + blog: {len(paths)} files\n&#34;)
+print(f&#34;{&#39;#&#39;:&gt;2}  {&#39;word&#39;:&lt;22} {&#39;uses&#39;:&gt;4}  {&#39;score&#39;:&gt;5}  sample&#34;)
+print(&#34;-&#34; * 70)
 for i, (w, c) in enumerate(ranked[:50], 1):
-    print(f"{i:2}  {w:<22} {c:4}  {score(w,c):5.1f}  {sorted(locs[w])[0]}")
+    print(f&#34;{i:2}  {w:&lt;22} {c:4}  {score(w,c):5.1f}  {sorted(locs[w])[0]}&#34;)
 PY</summary>
-
-```bash
+````bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
 import re
 from collections import Counter, defaultdict
@@ -4067,7 +3425,7 @@ print("-" * 70)
 for i, (w, c) in enumerate(ranked[:50], 1):
     print(f"{i:2}  {w:<22} {c:4}  {score(w,c):5.1f}  {sorted(locs[w])[0]}")
 PY
-```
+````
 
 ```
 Published notes + blog: 244 files
@@ -4098,40 +3456,9 @@ Published notes + blog: 244 files
 22  frontmatter              13   20.4  notes/flashcards.md
 23  consultation              2   20.0  blog/miracle-isaiah-david.md
 24  faithfulness              2   20.0  notes/eternal-principles.md
-25  notification              2   20.0  blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
-26  attention                 5   19.9  blog/consistent-ai-output-wordpress-builds.md
-27  accountability            1   19.9  notes/eternal-principles.md
-28  administration            1   19.9  about/_index.md
-29  semifinals               12   19.9  blog/alex-eala-pro-career-tracker.md
-30  audience                  5   19.4  blog/top-reasons-create-maintain-your-own-website.md
-31  collaboration             1   19.3  about/_index.md
-32  configuration             1   19.3  blog/hugoplate-theme-review.md
-33  documentation             1   19.3  blog/how-i-built-jorap-notes.md
-34  righteousness             1   19.3  notes/eternal-principles.md
-35  summarization             1   19.3  notes/maps-of-content.md
-36  different                12   19.3  about/_index.md
-37  favorites                12   19.3  blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
-38  hugoplate                22   19.3  blog/how-i-built-jorap-notes.md
-39  knowledge                12   19.3  blog/miracle-isaiah-david.md
-40  wtatennis                73   19.3  blog/alex-eala-pro-career-tracker.md
-41  commission                4   19.3  notes/eternal-principles.md
-42  difference                4   19.3  blog/how-i-built-jorap-notes.md
-43  fellowship                4   19.3  notes/eternal-principles.md
-44  leadership                4   19.3  notes/eternal-principles.md
-45  caption                   5   18.9  blog/consistent-ai-output-wordpress-builds.md
-46  adaptability              1   18.8  notes/systems-for-growth.md
-47  cancellation              1   18.8  blog/what-i-look-for-in-wireless-earphones.md
-48  condemnation              1   18.8  notes/eternal-principles.md
-49  confirmation              1   18.8  blog/hugoplate-theme-review.md
-50  congregation              1   18.8  blog/power-of-worship-pads-enhancing-your-worship-experience.md
-
+25  notification              2   20.0  blog/facebo
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4139,25 +3466,26 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The scoring is incorrectly flagging common words like "actually" and "version" as complicated. These terms are too simple for the voice sense.
 
-A stricter filter is needed. Minimum length nine characters. Latin suffixes or curated patterns required. Common conversational words excluded. Plain speakers would not use these. Ranking will combine complexity with log usage count.</details></think>
+A stricter filter is needed. Minimum length nine characters. Latin suffixes or curated patterns required. Common conversational words excluded. Plain speakers would not use these. Ranking will combine complexity with log usage count.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path("content/english")
-SKIP_DIRS = {"pages", "sections", "drafts", "authors"}
+ROOT = Path(&#34;content/english&#34;)
+SKIP_DIRS = {&#34;pages&#34;, &#34;sections&#34;, &#34;drafts&#34;, &#34;authors&#34;}
 paths = [
-    p for p in sorted(ROOT.rglob("*.md"))
-    if not any(d in SKIP_DIRS for d in p.parts) and not p.name.startswith("__")
+    p for p in sorted(ROOT.rglob(&#34;*.md&#34;))
+    if not any(d in SKIP_DIRS for d in p.parts) and not p.name.startswith(&#34;__&#34;)
 ]
 
-# Conversational / tech / proper nouns — not "complicated" for voice audit
-SKIP = set("""
+# Conversational / tech / proper nouns — not &#34;complicated&#34; for voice audit
+SKIP = set(&#34;&#34;&#34;
 actually usually different version performance creative attention audience position knowledge
 favorites hugoplate wtatennis quarterfinals semifinals tournament conversation automatically
 reference frontmatter documentation configuration notification commission difference leadership
@@ -4166,32 +3494,32 @@ english philippines manila google facebook wordpress cloudflare tailwind bootstr
 markdown obsidian hugo github wireless earphones earphone earbuds over ears
 children family friends mother father husband school church coach player match season practice
 something everything anything themselves together important because through without between
-""".split())
+&#34;&#34;&#34;.split())
 
 LATIN = re.compile(
-    r"(tion|sion|ment|ness|ology|ography|ization|isation|ative|itive|eous|ious|ically|ually|fulness|ability|ibility|ance|ence|ship|ward|ism|ist)$"
+    r&#34;(tion|sion|ment|ness|ology|ography|ization|isation|ative|itive|eous|ious|ically|ually|fulness|ability|ibility|ance|ence|ship|ward|ism|ist)$&#34;
 )
-WORD = re.compile(r"\b[a-zA-Z]{9,}\b")
+WORD = re.compile(r&#34;\b[a-zA-Z]{9,}\b&#34;)
 
-def strip_md(text: str) -> str:
-    if text.startswith("---"):
-        end = text.find("\n---", 3)
+def strip_md(text: str) -&gt; str:
+    if text.startswith(&#34;---&#34;):
+        end = text.find(&#34;\n---&#34;, 3)
         if end != -1:
             text = text[end + 4 :]
-    text = re.sub(r"```.*?```", " ", text, flags=re.S)
-    text = re.sub(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", r" \1 ", text)
-    text = re.sub(r"`[^`]+`", " ", text)
-    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r" \1 ", text)
-    text = re.sub(r"https?://\S+", " ", text)
+    text = re.sub(r&#34;```.*?```&#34;, &#34; &#34;, text, flags=re.S)
+    text = re.sub(r&#34;\[\[([^\]|]+)(?:\|[^\]]+)?\]\]&#34;, r&#34; \1 &#34;, text)
+    text = re.sub(r&#34;`[^`]+`&#34;, &#34; &#34;, text)
+    text = re.sub(r&#34;\[([^\]]+)\]\([^)]+\)&#34;, r&#34; \1 &#34;, text)
+    text = re.sub(r&#34;https?://\S+&#34;, &#34; &#34;, text)
     return text
 
 counts = Counter()
 locs = defaultdict(set)
 for p in paths:
     rel = str(p.relative_to(ROOT))
-    for m in WORD.finditer(strip_md(p.read_text(encoding="utf-8"))):
+    for m in WORD.finditer(strip_md(p.read_text(encoding=&#34;utf-8&#34;))):
         w = m.group(0).lower()
-        if w in SKIP or len(w) > 24:
+        if w in SKIP or len(w) &gt; 24:
             continue
         if not LATIN.search(w):
             continue
@@ -4201,16 +3529,15 @@ for p in paths:
 # Sort: most used complicated words first, then longer
 ranked = sorted(counts.items(), key=lambda kv: (-kv[1], -len(kv[0]), kv[0]))
 
-print(f"Published notes + blog ({len(paths)} files)")
-print("Complicated = 9+ letters + Latinate ending (-tion, -ment, -ness, -ology, …)\n")
-print(f"{'#':>2}  {'word':<24} {'uses':>4}  example")
-print("-" * 65)
+print(f&#34;Published notes + blog ({len(paths)} files)&#34;)
+print(&#34;Complicated = 9+ letters + Latinate ending (-tion, -ment, -ness, -ology, …)\n&#34;)
+print(f&#34;{&#39;#&#39;:&gt;2}  {&#39;word&#39;:&lt;24} {&#39;uses&#39;:&gt;4}  example&#34;)
+print(&#34;-&#34; * 65)
 for i, (w, c) in enumerate(ranked[:50], 1):
-    print(f"{i:2}  {w:<24} {c:4}  {sorted(locs[w])[0]}")
-print(f"\n({len(ranked)} qualifying words total)")
+    print(f&#34;{i:2}  {w:&lt;24} {c:4}  {sorted(locs[w])[0]}&#34;)
+print(f&#34;\n({len(ranked)} qualifying words total)&#34;)
 PY</summary>
-
-```bash
+````bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
 import re
 from collections import Counter, defaultdict
@@ -4276,7 +3603,7 @@ for i, (w, c) in enumerate(ranked[:50], 1):
     print(f"{i:2}  {w:<24} {c:4}  {sorted(locs[w])[0]}")
 print(f"\n({len(ranked)} qualifying words total)")
 PY
-```
+````
 
 ```
 Published notes + blog (244 files)
@@ -4311,39 +3638,9 @@ Complicated = 9+ letters + Latinate ending (-tion, -ment, -ness, -ology, …)
 25  commitment                  2  notes/systems-for-growth.md
 26  escalation                  2  notes/workplace-principles.md
 27  eventually                  2  blog/how-i-built-jorap-notes.md
-28  management                  2  blog/power-of-worship-pads-enhancing-your-worship-experience.md
-29  repetition                  2  notes/systems-for-growth.md
-30  awareness                   2  blog/what-i-look-for-in-wireless-earphones.md
-31  basically                   2  blog/how-i-built-jorap-notes.md
-32  checklist                   2  blog/power-of-worship-pads-enhancing-your-worship-experience.md
-33  closeness                   2  blog/miracle-isaiah-david.md
-34  execution                   2  notes/pressure-reveals-weakness.md
-35  righteous                   2  notes/eternal-principles.md
-36  accountability              1  notes/eternal-principles.md
-37  administration              1  about/_index.md
-38  collaboration               1  about/_index.md
-39  righteousness               1  notes/eternal-principles.md
-40  summarization               1  notes/maps-of-content.md
-41  adaptability                1  notes/systems-for-growth.md
-42  cancellation                1  blog/what-i-look-for-in-wireless-earphones.md
-43  condemnation                1  notes/eternal-principles.md
-44  confirmation                1  blog/hugoplate-theme-review.md
-45  congregation                1  blog/power-of-worship-pads-enhancing-your-worship-experience.md
-46  prescription                1  blog/miracle-isaiah-david.md
-47  subscription                1  blog/power-of-worship-pads-enhancing-your-worship-experience.md
-48  achievement                 1  notes/workplace-principles.md
-49  alternative                 1  blog/instant-pot-chicken-adobo.md
-50  attribution                 1  blog/hugoplate-theme-review.md
-
-(94 qualifying words total)
-
+28  mana
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4351,43 +3648,43 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The list contains some plain conversational words that are not truly complicated.
 
-A lane column will mark voice categories against jorap-voice rules. The final list will group words by theological status, PKM relevance, and plainness. Adverbs and overly common terms will be filtered out.</details></think>
+A lane column will mark voice categories against jorap-voice rules. The final list will group words by theological status, PKM relevance, and plainness. Adverbs and overly common terms will be filtered out.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
 import re
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path("content/english")
-SKIP_DIRS = {"pages", "sections", "drafts", "authors"}
-paths = [p for p in ROOT.rglob("*.md") if not any(d in SKIP_DIRS for d in p.parts) and not p.name.startswith("__")]
+ROOT = Path(&#34;content/english&#34;)
+SKIP_DIRS = {&#34;pages&#34;, &#34;sections&#34;, &#34;drafts&#34;, &#34;authors&#34;}
+paths = [p for p in ROOT.rglob(&#34;*.md&#34;) if not any(d in SKIP_DIRS for d in p.parts) and not p.name.startswith(&#34;__&#34;)]
 
 def strip_md(text):
-    if text.startswith("---"):
-        end = text.find("\n---", 3)
+    if text.startswith(&#34;---&#34;):
+        end = text.find(&#34;\n---&#34;, 3)
         if end != -1: text = text[end+4:]
-    text = re.sub(r"```.*?```", " ", text, flags=re.S)
-    text = re.sub(r"\[\[[^\]]+\]\]", " ", text)
-    text = re.sub(r"`[^`]+`", " ", text)
+    text = re.sub(r&#34;```.*?```&#34;, &#34; &#34;, text, flags=re.S)
+    text = re.sub(r&#34;\[\[[^\]]+\]\]&#34;, &#34; &#34;, text)
+    text = re.sub(r&#34;`[^`]+`&#34;, &#34; &#34;, text)
     return text.lower()
 
-text = " ".join(strip_md(p.read_text(encoding="utf-8")) for p in paths)
+text = &#34; &#34;.join(strip_md(p.read_text(encoding=&#34;utf-8&#34;)) for p in paths)
 voice_flags = [
-    "deploy", "handoff", "postmortem", "distill", "metadata", "contradicts", "navigate",
-    "prioritize", "essential", "vital", "stakeholders", "gorgeous", "elevate", "elevates",
-    "comprehensive", "strategic", "stewardship", "sanctification", "justification",
-    "reconciliation", "discipleship", "forgiveness", "obedience", "summarization",
+    &#34;deploy&#34;, &#34;handoff&#34;, &#34;postmortem&#34;, &#34;distill&#34;, &#34;metadata&#34;, &#34;contradicts&#34;, &#34;navigate&#34;,
+    &#34;prioritize&#34;, &#34;essential&#34;, &#34;vital&#34;, &#34;stakeholders&#34;, &#34;gorgeous&#34;, &#34;elevate&#34;, &#34;elevates&#34;,
+    &#34;comprehensive&#34;, &#34;strategic&#34;, &#34;stewardship&#34;, &#34;sanctification&#34;, &#34;justification&#34;,
+    &#34;reconciliation&#34;, &#34;discipleship&#34;, &#34;forgiveness&#34;, &#34;obedience&#34;, &#34;summarization&#34;,
 ]
-for w in sorted(voice_flags, key=lambda w: -len(re.findall(rf"\b{re.escape(w)}\w*\b", text))):
-    c = len(re.findall(rf"\b{re.escape(w)}\w*\b", text))
+for w in sorted(voice_flags, key=lambda w: -len(re.findall(rf&#34;\b{re.escape(w)}\w*\b&#34;, text))):
+    c = len(re.findall(rf&#34;\b{re.escape(w)}\w*\b&#34;, text))
     if c:
-        print(f"{w}: {c}")
+        print(f&#34;{w}: {c}&#34;)
 PY</summary>
-
-```bash
+````bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
 import re
 from collections import Counter
@@ -4418,7 +3715,7 @@ for w in sorted(voice_flags, key=lambda w: -len(re.findall(rf"\b{re.escape(w)}\w
     if c:
         print(f"{w}: {c}")
 PY
-```
+````
 
 ```
 deploy: 6
@@ -4433,77 +3730,71 @@ stakeholders: 1
 discipleship: 1
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Voice flag counts appear low because the simple text join may not capture frontmatter correctly. The voice scan previously showed higher counts.</details></think>
+Voice flag counts appear low because the simple text join may not capture frontmatter correctly. The voice scan previously showed higher counts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
 import re, sys
 from collections import Counter
 from pathlib import Path
-sys.path.insert(0, "scripts")
+sys.path.insert(0, &#34;scripts&#34;)
 # inline minimal yaml load
 import yaml
-ROOT = Path("content/english")
-SKIP_DIRS = {"pages", "sections", "drafts", "authors"}
-FM = re.compile(r"^---\s*\n(.*?)\n---", re.S)
+ROOT = Path(&#34;content/english&#34;)
+SKIP_DIRS = {&#34;pages&#34;, &#34;sections&#34;, &#34;drafts&#34;, &#34;authors&#34;}
+FM = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.S)
 
 def prose_paths():
-    for p in sorted(ROOT.rglob("*.md")):
-        if any(d in SKIP_DIRS for d in p.parts) or p.name.startswith("__"):
+    for p in sorted(ROOT.rglob(&#34;*.md&#34;)):
+        if any(d in SKIP_DIRS for d in p.parts) or p.name.startswith(&#34;__&#34;):
             continue
         yield p
 
 def all_prose():
     chunks = []
     for p in prose_paths():
-        raw = p.read_text(encoding="utf-8")
+        raw = p.read_text(encoding=&#34;utf-8&#34;)
         m = FM.match(raw)
         body = raw[m.end():] if m else raw
         meta = yaml.safe_load(m.group(1)) if m else {}
-        notes = p.parent.name == "notes"
+        notes = p.parent.name == &#34;notes&#34;
         if notes:
-            for k in ("title","meta_title","description","key_concept"):
+            for k in (&#34;title&#34;,&#34;meta_title&#34;,&#34;description&#34;,&#34;key_concept&#34;):
                 v = meta.get(k)
                 if isinstance(v,str): chunks.append(v)
-            for k in ("examples","aliases"):
+            for k in (&#34;examples&#34;,&#34;aliases&#34;):
                 for item in meta.get(k) or []:
                     if isinstance(item,str): chunks.append(item)
-            for card in meta.get("cards") or []:
+            for card in meta.get(&#34;cards&#34;) or []:
                 if isinstance(card,dict):
-                    for side in ("front","back"):
+                    for side in (&#34;front&#34;,&#34;back&#34;):
                         v = card.get(side)
                         if isinstance(v,str): chunks.append(v)
-            for row in meta.get("relationships") or []:
-                if isinstance(row,dict) and isinstance(row.get("reason"),str):
-                    chunks.append(row["reason"])
+            for row in meta.get(&#34;relationships&#34;) or []:
+                if isinstance(row,dict) and isinstance(row.get(&#34;reason&#34;),str):
+                    chunks.append(row[&#34;reason&#34;])
         else:
-            for k in ("title","meta_title","description","summary"):
+            for k in (&#34;title&#34;,&#34;meta_title&#34;,&#34;description&#34;,&#34;summary&#34;):
                 v = meta.get(k)
                 if isinstance(v,str): chunks.append(v)
             chunks.append(body)
-    return "\n".join(chunks).lower()
+    return &#34;\n&#34;.join(chunks).lower()
 
 text = all_prose()
-stiff = ["deploy","handoff","postmortem","distill","metadata","contradicts","navigate","prioritize","essential","vital","stakeholders","gorgeous","elevate","comprehensive","strategic","summarization","implementation","stewardship","sanctification","justification","reconciliation","discipleship"]
-print("Stiff words in prose fields (notes frontmatter + blog body):")
-for w in sorted(stiff, key=lambda w: -len(re.findall(rf"\b{re.escape(w)}\w*\b", text))):
-    c = len(re.findall(rf"\b{re.escape(w)}\w*\b", text))
-    if c: print(f"  {w}: {c}")
+stiff = [&#34;deploy&#34;,&#34;handoff&#34;,&#34;postmortem&#34;,&#34;distill&#34;,&#34;metadata&#34;,&#34;contradicts&#34;,&#34;navigate&#34;,&#34;prioritize&#34;,&#34;essential&#34;,&#34;vital&#34;,&#34;stakeholders&#34;,&#34;gorgeous&#34;,&#34;elevate&#34;,&#34;comprehensive&#34;,&#34;strategic&#34;,&#34;summarization&#34;,&#34;implementation&#34;,&#34;stewardship&#34;,&#34;sanctification&#34;,&#34;justification&#34;,&#34;reconciliation&#34;,&#34;discipleship&#34;]
+print(&#34;Stiff words in prose fields (notes frontmatter + blog body):&#34;)
+for w in sorted(stiff, key=lambda w: -len(re.findall(rf&#34;\b{re.escape(w)}\w*\b&#34;, text))):
+    c = len(re.findall(rf&#34;\b{re.escape(w)}\w*\b&#34;, text))
+    if c: print(f&#34;  {w}: {c}&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
 import re, sys
@@ -4585,12 +3876,6 @@ Stiff words in prose fields (notes frontmatter + blog body):
   elevate: 1
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4598,7 +3883,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The merged list of 50 most useful words for voice review is ready.
 
-The merged list combines frequent stiff words with overlooked latinate academic terms. Deploy leads at 49, followed by handoff at 34 and justification at 25. Distinctive additions include obedience, forgiveness, fellowship, and salvation.</details></think>
+The merged list combines frequent stiff words with overlooked latinate academic terms. Deploy leads at 49, followed by handoff at 34 and justification at 25. Distinctive additions include obedience, forgiveness, fellowship, and salvation.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4696,7 +3982,8 @@ show the other words for review
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Replacing handoff, postmortem, summarization, and associative with plain alternatives. The remaining 50 words are allowed. Other words will be shown for review.</details></think>
+Replacing handoff, postmortem, summarization, and associative with plain alternatives. The remaining 50 words are allowed. Other words will be shown for review.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4705,10 +3992,8 @@ Banning those four words in the voice list and replacing every occurrence across
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4815,25 +4100,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
@@ -4844,14 +4116,13 @@ Replacing forbidden terms and reviewing the remaining words.
 
 Forbidden terms appear in note titles and slugs. Renaming files would break links. I'll replace prose uses and find plain alternatives.
 
-Plain replacements found: pass off, after-action review, boil down, and linking by meaning. Note slugs may become passoff, closeout, layered-notes, or progressive-layers.</details></think>
+Plain replacements found: pass off, after-action review, boil down, and linking by meaning. Note slugs may become passoff, closeout, layered-notes, or progressive-layers.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4960,94 +4231,55 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `content/english/notes/client-site-handoff.md` |
 | `content/english/blog/__client-site-handoff.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/notes/blameless-postmortem.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/notes/progressive-summarization.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `content/english/notes/associative-linking.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5055,23 +4287,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I will rename four spine notes with new slugs and titles.
 
-I will update all wikilinks and replace prose across the garden. I will revise voice-words.yaml, jorap-voice skill references, and scripts. I will regenerate noteFileDates.json if needed. The `handoff` note will become `client-site-pass-off.md` titled "Client Site Pass-Off". `postmortem` will become "after-action review".</details></think>
+I will update all wikilinks and replace prose across the garden. I will revise voice-words.yaml, jorap-voice skill references, and scripts. I will regenerate noteFileDates.json if needed. The `handoff` note will become `client-site-pass-off.md` titled "Client Site Pass-Off". `postmortem` will become "after-action review".
+</details></think>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5103,21 +4332,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5224,21 +4444,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5273,21 +4484,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5322,21 +4524,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5367,13 +4560,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5383,14 +4569,13 @@ Planning replacements for the forbidden terms.
 
 Mapping replacements: handoff becomes pass-off, postmortem becomes after-action review, summarization becomes layers, and associative becomes meaning-based. Renaming files accordingly, though the after-action title is quite long.
 
-Settled on specific filenames and titles. The postmortem file will be `after-action-review.md` titled "Blameless After-Action Review." The summarization file becomes `progressive-layers.md` titled "Progressive Layers." The associative file becomes `linking-by-meaning.md` titled "Linking by Meaning." The client-site draft renames to `client-site-pass-off.md`.</details></think>
+Settled on specific filenames and titles. The postmortem file will be `after-action-review.md` titled "Blameless After-Action Review." The summarization file becomes `progressive-layers.md` titled "Progressive Layers." The associative file becomes `linking-by-meaning.md` titled "Linking by Meaning." The client-site draft renames to `client-site-pass-off.md`.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5498,21 +4683,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5547,21 +4723,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5592,21 +4759,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5632,21 +4790,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5681,25 +4830,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
 
 </details></tool-use>
 
@@ -5714,57 +4850,34 @@ Prose-level replacements will use "pass-off" as a hyphenated noun and "after-act
 
 The alias "postmortem" will be removed entirely. "Associative" will be dropped from prose where it appears standalone. Agent handoff copy may shift to "agent export" or "copy for agents".
 
-"ChatGPT handoff" will become "agent copy" in layouts and getting-started docs. The migration script will also update slugs in audit-note-categories.py and sync-note-flashcards.py. noteFileDates.json will be regenerated during the build. A single migration script will run all replacements and renames together.</details></think>
+"ChatGPT handoff" will become "agent copy" in layouts and getting-started docs. The migration script will also update slugs in audit-note-categories.py and sync-note-flashcards.py. noteFileDates.json will be regenerated during the build. A single migration script will run all replacements and renames together.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-postmortem.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-postmortem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-handoff.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-handoff.md</summary>
 
 </details></tool-use>
 
@@ -5779,7 +4892,8 @@ Handoff sheet becomes shift-change sheet. Shift handoff chart becomes shift-chan
 
 docs/SPEC.md will be updated too. Agent handoff becomes agent copy. OKF handoff becomes OKF export. Handoff and postmortem will be removed from the voice-words.yaml review section. Jorap-voice SKILL.md references will be updated to the new filenames.
 
-audit-note-categories.py and sync-note-flashcards.py will get the new mappings. noteFileDates.json keys will be updated. The progressive-summarization card keeps "distill" since only summarization was banned. Blameless aliases will drop "postmortem" and use "after-action review". Client-site aliases will change "site handoff" to "site pass-off".</details></think>
+audit-note-categories.py and sync-note-flashcards.py will get the new mappings. noteFileDates.json keys will be updated. The progressive-summarization card keeps "distill" since only summarization was banned. Blameless aliases will drop "postmortem" and use "after-action review". Client-site aliases will change "site handoff" to "site pass-off".
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5788,14 +4902,13 @@ Renaming the four spine notes and running a bulk prose replacement across the re
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && \
-git mv content/english/notes/client-site-handoff.md content/english/notes/client-site-pass-off.md && \
-git mv content/english/notes/blameless-postmortem.md content/english/notes/blameless-after-action-review.md && \
-git mv content/english/notes/progressive-summarization.md content/english/notes/progressive-layers.md && \
-git mv content/english/notes/associative-linking.md content/english/notes/linking-by-meaning.md && \
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; \
+git mv content/english/notes/client-site-handoff.md content/english/notes/client-site-pass-off.md &amp;&amp; \
+git mv content/english/notes/blameless-postmortem.md content/english/notes/blameless-after-action-review.md &amp;&amp; \
+git mv content/english/notes/progressive-summarization.md content/english/notes/progressive-layers.md &amp;&amp; \
+git mv content/english/notes/associative-linking.md content/english/notes/linking-by-meaning.md &amp;&amp; \
 git mv content/english/blog/__client-site-handoff.md content/english/blog/__client-site-pass-off.md</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && \
 git mv content/english/notes/client-site-handoff.md content/english/notes/client-site-pass-off.md && \
@@ -5804,34 +4917,19 @@ git mv content/english/notes/progressive-summarization.md content/english/notes/
 git mv content/english/notes/associative-linking.md content/english/notes/linking-by-meaning.md && \
 git mv content/english/blog/__client-site-handoff.md content/english/blog/__client-site-pass-off.md
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-banned-voice-words.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-banned-voice-words.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-banned-voice-words.py</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-banned-voice-words.py</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-banned-voice-words.py
 ```
@@ -5879,73 +4977,35 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-banned-voic
   content/english/notes/selling-static-sites.md
   content/english/notes/share-what-you-learn.md
   content/english/notes/spaced-repetition.md
-  content/english/notes/static-site-client-scope.md
-  content/english/notes/synthesis-as-a-goal.md
-  content/english/notes/taxonomy.md
-  content/english/notes/the-garage-concept.md
-  scripts/audit-note-categories.py
-  scripts/sync-note-flashcards.py
-  data/voice-words.yaml
-  docs/CLIENT_STATIC_SITE.md
-  docs/SPEC.md
-  layouts/_partials/notes/build-issues-report.html
-  layouts/_partials/notes/copy-markdown.html
-  assets/js/notes-copy-md.js
-  .cursor/skills/jorap-voice/SKILL.md
-  .cursor/skills/jorap-voice/examples.md
-
-Done: 56 files
-
+  content/english/notes/static-site-client-sco
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Verifying that no banned words remain in the content.</details></think>
+Verifying that no banned words remain in the content.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5971,21 +5031,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6011,78 +5062,46 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating noteFileDates.json and reading progressive-layers and client-site-pass-off.</details></think>
+Updating noteFileDates.json and reading progressive-layers and client-site-pass-off.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-layers.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-layers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6108,32 +5127,20 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The migration script corrupted voice-words.yaml.</details></think>
+The migration script corrupted voice-words.yaml.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6142,25 +5149,15 @@ The migration script mangled `voice-words.yaml` — fixing the banned-word keys 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6191,23 +5188,9 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
@@ -6217,14 +5200,13 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The noteFileDates update may have been triggered by a file watcher or a rename operation.</details></think>
+The noteFileDates update may have been triggered by a file watcher or a rename operation.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6250,46 +5232,30 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 | head -25</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1 | head -25</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 | head -25
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash errors:
   content/english/blog/how-i-built-jorap-notes.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
   content/english/drafts/_index.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6320,26 +5286,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-noteFileDates already appears to have updated paths automatically.</details></think>
+noteFileDates already appears to have updated paths automatically.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6370,33 +5328,19 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm export:anki 2>&1 | tail -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm export:anki 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm export:anki 2>&1 | tail -5
 ```
@@ -6406,12 +5350,6 @@ $ python3 scripts/export-anki-deck.py
 Wrote 890 cards to /home/jorap/Documents/GitHub/jorap.com/static/exports/jorap-notes-anki.txt
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6421,7 +5359,8 @@ The remaining 46 words from the top 50 are ready for review.
 
 Reviewing the remaining 46 words against the four banned terms. Most appear acceptable. A few flagged for review or stricter linting include distill, contradicts, gorgeous, and metadata.
 
-More words flagged for review or stricter linting include navigate, escalation, execution, consultation, and stakeholders. Faithfulness, assurance, and righteousness are acceptable. Environment, maintenance, commitment, management, and repetition are plain. Essential is mixed. Strategic is PKM title OK. Administration and collaboration are about or resume. Navigate, escalation, and execution need review. Prioritize and elevate are strict. Accountability is a note title.</details></think>
+More words flagged for review or stricter linting include navigate, escalation, execution, consultation, and stakeholders. Faithfulness, assurance, and righteousness are acceptable. Environment, maintenance, commitment, management, and repetition are plain. Essential is mixed. Strategic is PKM title OK. Administration and collaboration are about or resume. Navigate, escalation, and execution need review. Prioritize and elevate are strict. Accountability is a note title.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6430,75 +5369,42 @@ Adding URL aliases so old note links keep working.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-layers.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-layers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Banned words placed in aliases might trigger lint:voice.</details></think>
+Banned words placed in aliases might trigger lint:voice.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6585,25 +5491,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -6612,72 +5505,42 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Hugo aliases are display labels rather than URL redirects.
 
-The slug field controls the URL. Aliases should contain full paths like `/notes/client-site-handoff/`. Banned words such as "postmortem" trigger voice lint and must be removed from aliases. I will replace those entries with URL paths.</details></think>
+The slug field controls the URL. Aliases should contain full paths like `/notes/client-site-handoff/`. Banned words such as "postmortem" trigger voice lint and must be removed from aliases. I will replace those entries with URL paths.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-layers.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-layers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-URL aliases still contain banned words in their paths. Lint will flag "handoff" in paths like "/notes/client-site-handoff/". These aliases need updating.</details></think>
+URL aliases still contain banned words in their paths. Lint will flag "handoff" in paths like "/notes/client-site-handoff/". These aliases need updating.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6686,42 +5549,22 @@ URL redirect aliases contain the old slugs — excluding path-style aliases from
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
 
@@ -6827,7 +5670,8 @@ essential
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-These words are actively used by the user and should not be flagged or banned in the voice lint system.</details></think>
+These words are actively used by the user and should not be flagged or banned in the voice lint system.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6836,23 +5680,15 @@ Removing those from the strict lint list — they're words you use on purpose.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6887,13 +5723,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6909,21 +5738,153 @@ The skill update will be minimal. One line will note that voice-words.yaml is th
 
 Phrase patterns such as "In the realm of," "navigate the (world|landscape)," and "comprehensive guide" will stay banned. These target specific AI constructions rather than individual words.
 
-Lint will be run next to verify the updated state.</details></think>
+Lint will be run next to verify the updated state.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
+</details></tool-use>
 
-Status: **loading**
+_**Agent (auto-low)**_
 
-</details>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --self-check &amp;&amp; pnpm voice:scan 2&gt;&amp;1 | head -25</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --self-check && pnpm voice:scan 2>&1 | head -25
+```
+
+```
+Traceback (most recent call last):
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py", line 277, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py", line 246, in main
+    _self_check()
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py", line 239, in _self_check
+    assert rules.words["landscape"].search("navigate the landscape")
+           ~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'landscape'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --self-check &amp;&amp; pnpm voice:scan 2&gt;&amp;1 | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --self-check && pnpm voice:scan 2>&1 | head -20
+```
+
+```
+notes-voice-lint self-check OK
+$ python3 scripts/notes-voice-lint.py --summary --review
+Voice scan — 289 files, 0 strict, 72 review-only
+Word list: data/voice-words.yaml
+
+Review-only (edit data/voice-words.yaml review: to tune)
+  deploy (36) → push live
+    content/english/blog/how-i-built-jorap-notes.md · body
+    content/english/blog/how-i-built-jorap-notes.md · body
+    content/english/blog/hugoplate-theme-review.md · body
+    content/english/notes/blameless-after-action-review.md · cards[0].front
+    content/english/notes/blameless-after-action-review.md · cards[1].front
+    content/english/notes/blameless-after-action-review.md · description
+    content/english/notes/blameless-after-action-review.md · examples[0]
+    content/english/notes/change-window.md · aliases[0]
+    content/english/notes/change-window.md · cards[2].front
+    content/english/notes/change-window.md · cards[3].front
+    content/english/notes/change-window.md · key_concept
+    content/english/notes/change-window.md · relationships.reason
+    content/english/notes/change-window.md · relationships.reason
+    content/english/notes/client-site-pass-off.md · key_concept
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Updated. Those 16 words are **off the lint ban list** and documented as words you use on purpose.
+
+**Still strict** (`data/voice-words.yaml` `words:`):
+- delve, tapestry, harness, Furthermore/Moreover/Additionally
+- handoff, postmortem, summarization, associative (from earlier)
+
+**Phrase patterns** still catch hollow constructions like `In the realm of…` and `comprehensive guide` even though you use *realm* and *comprehensive* as words — say the word if you mean it; the phrase lint only flags the stock AI shapes.
+
+`pnpm voice:scan` now shows **0 strict hits** for prose. Remaining flags are `review:` only (deploy, distill, metadata, etc.).
+
+`jorap-voice` skill points at `data/voice-words.yaml` as the lint source of truth so it doesn't contradict your vocabulary.

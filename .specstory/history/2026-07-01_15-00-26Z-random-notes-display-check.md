@@ -13,7 +13,8 @@ check if all random notes are displayed correctly
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking how random notes display on this Hugo site.</details></think>
+Checking how random notes display on this Hugo site.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,10 +23,8 @@ I'll trace how random notes are selected and rendered, then verify they display 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -131,35 +130,21 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **8** results in **1** directory</summary>
 
-Directory: **** (8 files)
+Directory: **``** (8 files)
 
 | File |
 |------|
@@ -171,79 +156,48 @@ Directory: **** (8 files)
 | `content/english/notes/random-duo.md` |
 | `layouts/_partials/notes/featured-random-note.html` |
 | `layouts/_partials/notes/random-prompt-panel.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reading the core random notes files to check for display issues.</details></think>
+Reading the core random notes files to check for display issues.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-unrelated-notes.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-unrelated-notes.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
 
-Directory: **** (4 files)
+Directory: **``** (4 files)
 
 | File |
 |------|
@@ -251,11 +205,1861 @@ Directory: **** (4 files)
 | `assets/js/notes-random-core.js` |
 | `assets/js/notes-random-select.js` |
 | `assets/js/notes-random-single.js` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-single.js</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-duo.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js,toml}",
+  "pattern": "random-unrelated|featured-random|random-pool|notes-random"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "random-unrelated|featured-random|random-pool|notes-random",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/toc.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": "assets/js/notes-random-duo.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/blog/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-note-select.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/toc.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": "layouts/_partials/notes/featured-random-note.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": "assets/js/notes-featured-random.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/create.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 8,
+      "uri": "assets/js/notes-random-core.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 14,
+      "uri": "layouts/notes/random-duo.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": "layouts/_partials/notes/random-prompt-panel.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/notes/cards.html"
+    },
+    {
+      "matchCount": 9,
+      "uri": "layouts/_partials/notes/random-unrelated-notes.html"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 65
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/pages.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking if the Hugo server is running before building the site to verify the random notes display correctly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Building the site and validating random-note pools and rendering across all surfaces.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/is-utility-page.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/random-duo.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a Hugo build and creating a validation script to verify JavaScript parsing of all random notes. Checking pool size from Hugo as well.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -20
+```
+
+```
+]633;C
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-note-select.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-select.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/225721.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Hugo build appears stuck or very slow. I'll try a faster alternative like `hugo list all`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: kill 934050 2&gt;/dev/null; ls -la /home/jorap/Documents/GitHub/jorap.com/public/notes/ 2&gt;/dev/null | head -5; ls /home/jorap/Documents/GitHub/jorap.com/public/notes/index.html 2&gt;/dev/null</summary>
+```bash
+kill 934050 2>/dev/null; ls -la /home/jorap/Documents/GitHub/jorap.com/public/notes/ 2>/dev/null | head -5; ls /home/jorap/Documents/GitHub/jorap.com/public/notes/index.html 2>/dev/null
+```
+
+```
+total 2728
+drwxrwxr-x 497 root root  20480 Jul  1 21:54 .
+drwxr-xr-x  21 root root   4096 Jul  1 23:01 ..
+drwxrwxr-x   2 root root   4096 Jun 29 01:40 12 Week Year
+drwxrwxr-x   2 root root   4096 Jun 30 10:10 1 corinthians 3 fire
+/home/jorap/Documents/GitHub/jorap.com/public/notes/index.html
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/package.json",
+  "pattern": "random"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "random",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+An existing public build from July 1st is available. A Node script will validate that all random notes parse correctly from the built HTML.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node &lt;&lt;&#39;SCRIPT&#39;
+const fs = require(&#39;fs&#39;);
+const path = require(&#39;path&#39;);
+const { JSDOM } = require(&#39;jsdom&#39;);
+
+const publicDir = &#39;/home/jorap/Documents/GitHub/jorap.com/public&#39;;
+
+function readHtml(rel) {
+  const p = path.join(publicDir, rel);
+  if (!fs.existsSync(p)) return null;
+  return fs.readFileSync(p, &#39;utf8&#39;);
+}
+
+function parsePoolFromPage(html, className) {
+  const re = new RegExp(`&lt;script type=&#34;application/json&#34; class=&#34;${className}&#34;&gt;([^&lt;]+)&lt;/script&gt;`);
+  const m = html.match(re);
+  if (!m) return null;
+  try { return JSON.parse(m[1]); } catch { return null; }
+}
+
+function validateNoteHtml(html, url) {
+  const dom = new JSDOM(html);
+  const doc = dom.window.document;
+  const article = doc.querySelector(&#39;article&#39;);
+  const titleEl = doc.querySelector(&#39;.article-title&#39;);
+  const contentEl = doc.querySelector(&#39;.notes-content&#39;);
+  const issues = [];
+  if (!article) issues.push(&#39;missing article&#39;);
+  if (!titleEl) issues.push(&#39;missing .article-title&#39;);
+  if (!contentEl) issues.push(&#39;missing .notes-content&#39;);
+  if (titleEl &amp;&amp; !titleEl.textContent.trim()) issues.push(&#39;empty title&#39;);
+  if (contentEl &amp;&amp; !contentEl.textContent.trim()) issues.push(&#39;empty content&#39;);
+  return issues;
+}
+
+const notesIndex = readHtml(&#39;notes/index.html&#39;);
+const duoPage = readHtml(&#39;notes/random-duo/index.html&#39;);
+
+const pools = {
+  featured: parsePoolFromPage(notesIndex, &#39;notes-featured-random-data&#39;),
+  duo: parsePoolFromPage(duoPage, &#39;notes-random-duo-data&#39;),
+};
+
+console.log(&#39;Pool sizes:&#39;, Object.fromEntries(Object.entries(pools).map(([k,v]) =&gt; [k, Array.isArray(v) ? v.length : v])));
+
+// Use featured pool as canonical (should match duo)
+const pool = pools.featured || pools.duo || [];
+if (!pool.length) {
+  console.error(&#39;No pool found in built HTML&#39;);
+  process.exit(1);
+}
+
+const failures = [];
+const warnings = [];
+const utilitySlugs = new Set([&#39;graph&#39;,&#39;cards&#39;,&#39;review&#39;,&#39;issues&#39;,&#39;backlinks&#39;,&#39;random-duo&#39;,&#39;create&#39;,&#39;flashcards&#39;]);
+
+for (const entry of pool) {
+  const rel = entry.url.replace(/^\//, &#39;&#39;);
+  const filePath = path.join(publicDir, rel, &#39;index.html&#39;);
+  if (!fs.existsSync(filePath)) {
+    failures.push({ url: entry.url, title: entry.title, issue: &#39;file missing: &#39; + filePath });
+    continue;
+  }
+  const html = fs.readFileSync(filePath, &#39;utf8&#39;);
+  const issues = validateNoteHtml(html, entry.url);
+  if (issues.length) failures.push({ url: entry.url, title: entry.title, issue: issues.join(&#39;, &#39;) });
+
+  const slug = entry.url.replace(/^\/notes\//, &#39;&#39;).replace(/\/$/, &#39;&#39;);
+  if (utilitySlugs.has(slug)) warnings.push({ url: entry.url, title: entry.title, issue: &#39;utility page in pool&#39; });
+}
+
+// Check duo pool matches featured
+if (pools.featured &amp;&amp; pools.duo) {
+  const f = new Set(pools.featured.map(x =&gt; x.url).sort());
+  const d = new Set(pools.duo.map(x =&gt; x.url).sort());
+  const onlyF = [...f].filter(u =&gt; !d.has(u));
+  const onlyD = [...d].filter(u =&gt; !f.has(u));
+  if (onlyF.length || onlyD.length) {
+    console.log(&#39;Pool mismatch featured vs duo:&#39;, { onlyFeatured: onlyF.length, onlyDuo: onlyD.length });
+  } else {
+    console.log(&#39;Featured and duo pools match (&#39; + f.size + &#39; notes)&#39;);
+  }
+}
+
+// Spot-check random UI pages exist
+const uiChecks = [
+  [&#39;notes/index.html&#39;, &#39;data-notes-featured-random&#39;],
+  [&#39;notes/random-duo/index.html&#39;, &#39;data-notes-random-duo&#39;],
+];
+for (const [rel, attr] of uiChecks) {
+  const html = readHtml(rel);
+  console.log(rel + &#39;: &#39; + (html &amp;&amp; html.includes(attr) ? &#39;OK&#39; : &#39;MISSING &#39; + attr));
+}
+
+// Sample note single page random section
+const sampleNote = pool[0];
+if (sampleNote) {
+  const noteHtml = readHtml(sampleNote.url.replace(/^\//, &#39;&#39;) + &#39;index.html&#39;);
+  const hasRandom = noteHtml &amp;&amp; noteHtml.includes(&#39;data-notes-single-random-notes&#39;);
+  console.log(&#39;Sample note random section (&#39; + sampleNote.title + &#39;): &#39; + (hasRandom ? &#39;OK&#39; : &#39;MISSING&#39;));
+  if (noteHtml) {
+    const payload = parsePoolFromPage(noteHtml, &#39;notes-single-random-data&#39;);
+    if (payload &amp;&amp; payload.notes) {
+      const excludesSelf = !payload.notes.some(n =&gt; n.url === sampleNote.url);
+      console.log(&#39;  Pool excludes current note: &#39; + (excludesSelf ? &#39;OK&#39; : &#39;FAIL&#39;));
+      console.log(&#39;  Pool size on note page: &#39; + payload.notes.length);
+    }
+  }
+}
+
+console.log(&#39;\nValidated&#39;, pool.length, &#39;pool notes&#39;);
+console.log(&#39;Failures:&#39;, failures.length);
+if (failures.length) {
+  failures.slice(0, 20).forEach(f =&gt; console.log(&#39;  -&#39;, f.title, &#39;|&#39;, f.url, &#39;|&#39;, f.issue));
+  if (failures.length &gt; 20) console.log(&#39;  ... and&#39;, failures.length - 20, &#39;more&#39;);
+}
+console.log(&#39;Warnings:&#39;, warnings.length);
+warnings.forEach(w =&gt; console.log(&#39;  -&#39;, w.title, &#39;|&#39;, w.url));
+
+process.exit(failures.length ? 1 : 0);
+SCRIPT</summary>
+```bash
+node <<'SCRIPT'
+const fs = require('fs');
+const path = require('path');
+const { JSDOM } = require('jsdom');
+
+const publicDir = '/home/jorap/Documents/GitHub/jorap.com/public';
+
+function readHtml(rel) {
+  const p = path.join(publicDir, rel);
+  if (!fs.existsSync(p)) return null;
+  return fs.readFileSync(p, 'utf8');
+}
+
+function parsePoolFromPage(html, className) {
+  const re = new RegExp(`<script type="application/json" class="${className}">([^<]+)</script>`);
+  const m = html.match(re);
+  if (!m) return null;
+  try { return JSON.parse(m[1]); } catch { return null; }
+}
+
+function validateNoteHtml(html, url) {
+  const dom = new JSDOM(html);
+  const doc = dom.window.document;
+  const article = doc.querySelector('article');
+  const titleEl = doc.querySelector('.article-title');
+  const contentEl = doc.querySelector('.notes-content');
+  const issues = [];
+  if (!article) issues.push('missing article');
+  if (!titleEl) issues.push('missing .article-title');
+  if (!contentEl) issues.push('missing .notes-content');
+  if (titleEl && !titleEl.textContent.trim()) issues.push('empty title');
+  if (contentEl && !contentEl.textContent.trim()) issues.push('empty content');
+  return issues;
+}
+
+const notesIndex = readHtml('notes/index.html');
+const duoPage = readHtml('notes/random-duo/index.html');
+
+const pools = {
+  featured: parsePoolFromPage(notesIndex, 'notes-featured-random-data'),
+  duo: parsePoolFromPage(duoPage, 'notes-random-duo-data'),
+};
+
+console.log('Pool sizes:', Object.fromEntries(Object.entries(pools).map(([k,v]) => [k, Array.isArray(v) ? v.length : v])));
+
+// Use featured pool as canonical (should match duo)
+const pool = pools.featured || pools.duo || [];
+if (!pool.length) {
+  console.error('No pool found in built HTML');
+  process.exit(1);
+}
+
+const failures = [];
+const warnings = [];
+const utilitySlugs = new Set(['graph','cards','review','issues','backlinks','random-duo','create','flashcards']);
+
+for (const entry of pool) {
+  const rel = entry.url.replace(/^\//, '');
+  const filePath = path.join(publicDir, rel, 'index.html');
+  if (!fs.existsSync(filePath)) {
+    failures.push({ url: entry.url, title: entry.title, issue: 'file missing: ' + filePath });
+    continue;
+  }
+  const html = fs.readFileSync(filePath, 'utf8');
+  const issues = validateNoteHtml(html, entry.url);
+  if (issues.length) failures.push({ url: entry.url, title: entry.title, issue: issues.join(', ') });
+
+  const slug = entry.url.replace(/^\/notes\//, '').replace(/\/$/, '');
+  if (utilitySlugs.has(slug)) warnings.push({ url: entry.url, title: entry.title, issue: 'utility page in pool' });
+}
+
+// Check duo pool matches featured
+if (pools.featured && pools.duo) {
+  const f = new Set(pools.featured.map(x => x.url).sort());
+  const d = new Set(pools.duo.map(x => x.url).sort());
+  const onlyF = [...f].filter(u => !d.has(u));
+  const onlyD = [...d].filter(u => !f.has(u));
+  if (onlyF.length || onlyD.length) {
+    console.log('Pool mismatch featured vs duo:', { onlyFeatured: onlyF.length, onlyDuo: onlyD.length });
+  } else {
+    console.log('Featured and duo pools match (' + f.size + ' notes)');
+  }
+}
+
+// Spot-check random UI pages exist
+const uiChecks = [
+  ['notes/index.html', 'data-notes-featured-random'],
+  ['notes/random-duo/index.html', 'data-notes-random-duo'],
+];
+for (const [rel, attr] of uiChecks) {
+  const html = readHtml(rel);
+  console.log(rel + ': ' + (html && html.includes(attr) ? 'OK' : 'MISSING ' + attr));
+}
+
+// Sample note single page random section
+const sampleNote = pool[0];
+if (sampleNote) {
+  const noteHtml = readHtml(sampleNote.url.replace(/^\//, '') + 'index.html');
+  const hasRandom = noteHtml && noteHtml.includes('data-notes-single-random-notes');
+  console.log('Sample note random section (' + sampleNote.title + '): ' + (hasRandom ? 'OK' : 'MISSING'));
+  if (noteHtml) {
+    const payload = parsePoolFromPage(noteHtml, 'notes-single-random-data');
+    if (payload && payload.notes) {
+      const excludesSelf = !payload.notes.some(n => n.url === sampleNote.url);
+      console.log('  Pool excludes current note: ' + (excludesSelf ? 'OK' : 'FAIL'));
+      console.log('  Pool size on note page: ' + payload.notes.length);
+    }
+  }
+}
+
+console.log('\nValidated', pool.length, 'pool notes');
+console.log('Failures:', failures.length);
+if (failures.length) {
+  failures.slice(0, 20).forEach(f => console.log('  -', f.title, '|', f.url, '|', f.issue));
+  if (failures.length > 20) console.log('  ... and', failures.length - 20, 'more');
+}
+console.log('Warnings:', warnings.length);
+warnings.forEach(w => console.log('  -', w.title, '|', w.url));
+
+process.exit(failures.length ? 1 : 0);
+SCRIPT
+```
+
+```
+node:internal/modules/cjs/loader:1433
+  throw err;
+  ^
+
+Error: Cannot find module 'jsdom'
+Require stack:
+- /home/jorap/Documents/GitHub/jorap.com/[stdin]
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.require (node:internal/modules/cjs/loader:1527:12)
+    at require (node:internal/modules/helpers:147:16)
+    at [stdin]:3:19
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:446:12 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/jorap/Documents/GitHub/jorap.com/[stdin]' ]
+}
+
+Node.js v22.23.0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node &lt;&lt;&#39;SCRIPT&#39;
+const fs = require(&#39;fs&#39;);
+const path = require(&#39;path&#39;);
+
+const publicDir = &#39;/home/jorap/Documents/GitHub/jorap.com/public&#39;;
+
+function readHtml(rel) {
+  const p = path.join(publicDir, rel);
+  if (!fs.existsSync(p)) return null;
+  return fs.readFileSync(p, &#39;utf8&#39;);
+}
+
+function parsePoolFromPage(html, className) {
+  const re = new RegExp(`&lt;script type=&#34;application/json&#34; class=&#34;${className}&#34;&gt;([^&lt;]+)&lt;/script&gt;`);
+  const m = html.match(re);
+  if (!m) return null;
+  try { return JSON.parse(m[1]); } catch { return null; }
+}
+
+function validateNoteHtml(html) {
+  const issues = [];
+  if (!/&lt;article[\s&gt;]/i.test(html)) issues.push(&#39;missing article&#39;);
+  if (!/class=&#34;[^&#34;]*article-title[^&#34;]*&#34;/i.test(html)) issues.push(&#39;missing .article-title&#39;);
+  if (!/class=&#34;[^&#34;]*notes-content[^&#34;]*&#34;/i.test(html)) issues.push(&#39;missing .notes-content&#39;);
+  const titleMatch = html.match(/class=&#34;[^&#34;]*article-title[^&#34;]*&#34;[^&gt;]*&gt;([^&lt;]+)&lt;/i);
+  if (titleMatch &amp;&amp; !titleMatch[1].trim()) issues.push(&#39;empty title&#39;);
+  return issues;
+}
+
+const notesIndex = readHtml(&#39;notes/index.html&#39;);
+const duoPage = readHtml(&#39;notes/random-duo/index.html&#39;);
+
+const pools = {
+  featured: parsePoolFromPage(notesIndex, &#39;notes-featured-random-data&#39;),
+  duo: parsePoolFromPage(duoPage, &#39;notes-random-duo-data&#39;),
+};
+
+console.log(&#39;Pool sizes:&#39;, Object.fromEntries(Object.entries(pools).map(([k,v]) =&gt; [k, Array.isArray(v) ? v.length : v])));
+
+const pool = pools.featured || pools.duo || [];
+if (!pool.length) { console.error(&#39;No pool found&#39;); process.exit(1); }
+
+const failures = [];
+const warnings = [];
+const utilitySlugs = new Set([&#39;graph&#39;,&#39;cards&#39;,&#39;review&#39;,&#39;issues&#39;,&#39;backlinks&#39;,&#39;random-duo&#39;,&#39;create&#39;,&#39;flashcards&#39;]);
+
+for (const entry of pool) {
+  const rel = entry.url.replace(/^\//, &#39;&#39;) + &#39;index.html&#39;;
+  const filePath = path.join(publicDir, rel);
+  if (!fs.existsSync(filePath)) {
+    failures.push({ url: entry.url, title: entry.title, issue: &#39;file missing&#39; });
+    continue;
+  }
+  const html = fs.readFileSync(filePath, &#39;utf8&#39;);
+  const issues = validateNoteHtml(html);
+  if (issues.length) failures.push({ url: entry.url, title: entry.title, issue: issues.join(&#39;, &#39;) });
+  const slug = entry.url.replace(/^\/notes\//, &#39;&#39;).replace(/\/$/, &#39;&#39;);
+  if (utilitySlugs.has(slug)) warnings.push({ url: entry.url, title: entry.title, issue: &#39;utility in pool&#39; });
+}
+
+if (pools.featured &amp;&amp; pools.duo) {
+  const fUrls = pools.featured.map(x =&gt; x.url).sort();
+  const dUrls = pools.duo.map(x =&gt; x.url).sort();
+  const match = JSON.stringify(fUrls) === JSON.stringify(dUrls);
+  console.log(&#39;Featured vs duo pool match:&#39;, match ? &#39;YES (&#39; + fUrls.length + &#39;)&#39; : &#39;NO&#39;);
+}
+
+const uiChecks = [
+  [&#39;notes/index.html&#39;, [&#39;data-notes-featured-random&#39;, &#39;notes-featured-random-data&#39;, &#39;notes-random-core&#39;]],
+  [&#39;notes/random-duo/index.html&#39;, [&#39;data-notes-random-duo&#39;, &#39;notes-random-duo-data&#39;, &#39;notes-random-duo.js&#39;]],
+];
+for (const [rel, markers] of uiChecks) {
+  const html = readHtml(rel) || &#39;&#39;;
+  markers.forEach(m =&gt; console.log(rel + &#39; has &#39; + m + &#39;:&#39;, html.includes(m) ? &#39;OK&#39; : &#39;MISSING&#39;));
+}
+
+// Note single random section on several samples
+for (const sample of pool.slice(0, 5).concat(pool.slice(-2))) {
+  const noteHtml = readHtml(sample.url.replace(/^\//, &#39;&#39;) + &#39;index.html&#39;) || &#39;&#39;;
+  const payload = parsePoolFromPage(noteHtml, &#39;notes-single-random-data&#39;);
+  const hasUi = noteHtml.includes(&#39;data-notes-single-random-notes&#39;);
+  const excludesSelf = payload &amp;&amp; payload.notes &amp;&amp; !payload.notes.some(n =&gt; n.url === sample.url);
+  console.log(&#39;Note page&#39;, sample.title + &#39;:&#39;, hasUi ? &#39;UI OK&#39; : &#39;UI MISSING&#39;, &#39;| pool&#39;, payload?.notes?.length ?? &#39;?&#39;, &#39;| excludes self&#39;, excludesSelf ? &#39;OK&#39; : &#39;FAIL&#39;);
+}
+
+// Blog random section
+const blogDir = path.join(publicDir, &#39;blog&#39;);
+let blogChecked = 0, blogOk = 0;
+if (fs.existsSync(blogDir)) {
+  const posts = fs.readdirSync(blogDir).filter(d =&gt; fs.existsSync(path.join(blogDir, d, &#39;index.html&#39;))).slice(0, 10);
+  for (const slug of posts) {
+    const html = readHtml(&#39;blog/&#39; + slug + &#39;/index.html&#39;) || &#39;&#39;;
+    blogChecked++;
+    if (html.includes(&#39;data-blog-random-notes&#39;)) blogOk++;
+  }
+  console.log(&#39;Blog posts with random section:&#39;, blogOk + &#39;/&#39; + blogChecked + &#39; sampled&#39;);
+}
+
+console.log(&#39;\nValidated&#39;, pool.length, &#39;pool notes&#39;);
+console.log(&#39;Failures:&#39;, failures.length);
+failures.forEach(f =&gt; console.log(&#39;  FAIL&#39;, f.title, &#39;|&#39;, f.url, &#39;|&#39;, f.issue));
+console.log(&#39;Warnings:&#39;, warnings.length);
+warnings.forEach(w =&gt; console.log(&#39;  WARN&#39;, w.title, &#39;|&#39;, w.url));
+SCRIPT</summary>
+```bash
+node <<'SCRIPT'
+const fs = require('fs');
+const path = require('path');
+
+const publicDir = '/home/jorap/Documents/GitHub/jorap.com/public';
+
+function readHtml(rel) {
+  const p = path.join(publicDir, rel);
+  if (!fs.existsSync(p)) return null;
+  return fs.readFileSync(p, 'utf8');
+}
+
+function parsePoolFromPage(html, className) {
+  const re = new RegExp(`<script type="application/json" class="${className}">([^<]+)</script>`);
+  const m = html.match(re);
+  if (!m) return null;
+  try { return JSON.parse(m[1]); } catch { return null; }
+}
+
+function validateNoteHtml(html) {
+  const issues = [];
+  if (!/<article[\s>]/i.test(html)) issues.push('missing article');
+  if (!/class="[^"]*article-title[^"]*"/i.test(html)) issues.push('missing .article-title');
+  if (!/class="[^"]*notes-content[^"]*"/i.test(html)) issues.push('missing .notes-content');
+  const titleMatch = html.match(/class="[^"]*article-title[^"]*"[^>]*>([^<]+)</i);
+  if (titleMatch && !titleMatch[1].trim()) issues.push('empty title');
+  return issues;
+}
+
+const notesIndex = readHtml('notes/index.html');
+const duoPage = readHtml('notes/random-duo/index.html');
+
+const pools = {
+  featured: parsePoolFromPage(notesIndex, 'notes-featured-random-data'),
+  duo: parsePoolFromPage(duoPage, 'notes-random-duo-data'),
+};
+
+console.log('Pool sizes:', Object.fromEntries(Object.entries(pools).map(([k,v]) => [k, Array.isArray(v) ? v.length : v])));
+
+const pool = pools.featured || pools.duo || [];
+if (!pool.length) { console.error('No pool found'); process.exit(1); }
+
+const failures = [];
+const warnings = [];
+const utilitySlugs = new Set(['graph','cards','review','issues','backlinks','random-duo','create','flashcards']);
+
+for (const entry of pool) {
+  const rel = entry.url.replace(/^\//, '') + 'index.html';
+  const filePath = path.join(publicDir, rel);
+  if (!fs.existsSync(filePath)) {
+    failures.push({ url: entry.url, title: entry.title, issue: 'file missing' });
+    continue;
+  }
+  const html = fs.readFileSync(filePath, 'utf8');
+  const issues = validateNoteHtml(html);
+  if (issues.length) failures.push({ url: entry.url, title: entry.title, issue: issues.join(', ') });
+  const slug = entry.url.replace(/^\/notes\//, '').replace(/\/$/, '');
+  if (utilitySlugs.has(slug)) warnings.push({ url: entry.url, title: entry.title, issue: 'utility in pool' });
+}
+
+if (pools.featured && pools.duo) {
+  const fUrls = pools.featured.map(x => x.url).sort();
+  const dUrls = pools.duo.map(x => x.url).sort();
+  const match = JSON.stringify(fUrls) === JSON.stringify(dUrls);
+  console.log('Featured vs duo pool match:', match ? 'YES (' + fUrls.length + ')' : 'NO');
+}
+
+const uiChecks = [
+  ['notes/index.html', ['data-notes-featured-random', 'notes-featured-random-data', 'notes-random-core']],
+  ['notes/random-duo/index.html', ['data-notes-random-duo', 'notes-random-duo-data', 'notes-random-duo.js']],
+];
+for (const [rel, markers] of uiChecks) {
+  const html = readHtml(rel) || '';
+  markers.forEach(m => console.log(rel + ' has ' + m + ':', html.includes(m) ? 'OK' : 'MISSING'));
+}
+
+// Note single random section on several samples
+for (const sample of pool.slice(0, 5).concat(pool.slice(-2))) {
+  const noteHtml = readHtml(sample.url.replace(/^\//, '') + 'index.html') || '';
+  const payload = parsePoolFromPage(noteHtml, 'notes-single-random-data');
+  const hasUi = noteHtml.includes('data-notes-single-random-notes');
+  const excludesSelf = payload && payload.notes && !payload.notes.some(n => n.url === sample.url);
+  console.log('Note page', sample.title + ':', hasUi ? 'UI OK' : 'UI MISSING', '| pool', payload?.notes?.length ?? '?', '| excludes self', excludesSelf ? 'OK' : 'FAIL');
+}
+
+// Blog random section
+const blogDir = path.join(publicDir, 'blog');
+let blogChecked = 0, blogOk = 0;
+if (fs.existsSync(blogDir)) {
+  const posts = fs.readdirSync(blogDir).filter(d => fs.existsSync(path.join(blogDir, d, 'index.html'))).slice(0, 10);
+  for (const slug of posts) {
+    const html = readHtml('blog/' + slug + '/index.html') || '';
+    blogChecked++;
+    if (html.includes('data-blog-random-notes')) blogOk++;
+  }
+  console.log('Blog posts with random section:', blogOk + '/' + blogChecked + ' sampled');
+}
+
+console.log('\nValidated', pool.length, 'pool notes');
+console.log('Failures:', failures.length);
+failures.forEach(f => console.log('  FAIL', f.title, '|', f.url, '|', f.issue));
+console.log('Warnings:', warnings.length);
+warnings.forEach(w => console.log('  WARN', w.title, '|', w.url));
+SCRIPT
+```
+
+```
+Pool sizes: { featured: 215, duo: 215 }
+Featured vs duo pool match: YES (215)
+notes/index.html has data-notes-featured-random: OK
+notes/index.html has notes-featured-random-data: OK
+notes/index.html has notes-random-core: OK
+notes/random-duo/index.html has data-notes-random-duo: OK
+notes/random-duo/index.html has notes-random-duo-data: OK
+notes/random-duo/index.html has notes-random-duo.js: OK
+Note page Faithfulness: UI OK | pool 214 | excludes self OK
+Note page Gentleness: UI OK | pool 214 | excludes self OK
+Note page Goodness: UI OK | pool 214 | excludes self OK
+Note page Joy: UI OK | pool 214 | excludes self OK
+Note page Kindness: UI OK | pool 214 | excludes self OK
+Note page The Trusted Inbox: UI OK | pool 214 | excludes self OK
+Note page Weekly Review Checklists: UI OK | pool 214 | excludes self OK
+Blog posts with random section: 10/10 sampled
+
+Validated 215 pool notes
+Failures: 0
+Warnings: 0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The built public folder validates well. However, the public folder may be stale because many changes remain uncommitted.
+
+Running `hugo list all` will verify the note pool against live data without a full rebuild. Recent frontmatter changes or draft flags might also prevent notes from rendering.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The existing build looks good; next I'll compare it to the current source to catch anything the stale `public/` output might miss.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo list all 2&gt;/dev/null | rg &#39;^content/english/notes/&#39; | wc -l; hugo list all 2&gt;/dev/null | rg &#39;^content/english/notes/&#39; | rg -i &#39;draft|meta|random-duo|graph|create|issues|review|backlinks|cards&#39; | head -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg '^content/english/notes/' | wc -l; hugo list all 2>/dev/null | rg '^content/english/notes/' | rg -i 'draft|meta|random-duo|graph|create|issues|review|backlinks|cards' | head -30
+```
+
+```
+]633;C
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-note.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,md}",
+  "pattern": "random-note\\.html"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "random-note\\.html",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-21_11-09-34Z-local-display-issues-for-notes-and-graphs.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-21_04-58-34Z-random-trio-feature-discussion.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-01_15-00-26Z-random-notes-display-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/toolbar.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link-error.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 44,
+      "uri": ".specstory/history/2026-06-20_06-30-33Z-shortening-names-of-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_02-55-39Z-notes-review-and-definition-updates.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_05-12-25Z-note-connection-analysis-framework.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 23,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/list.html"
+    }
+  ],
+  "totalFiles": 32,
+  "totalMatches": 146
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name &#39;*.md&#39; | wc -l; find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name &#39;*.md&#39; -exec grep -l &#39;^draft: true&#39; {} \; 2&gt;/dev/null | wc -l</summary>
+```bash
+find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name '*.md' | wc -l; find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name '*.md' -exec grep -l '^draft: true' {} \; 2>/dev/null | wc -l
+```
+
+```
+224
+0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/443512.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+There are 224 markdown files in content/english/notes but only 215 notes in the pool. The extra files are likely utility or meta pages.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/content/english/notes &amp;&amp; echo &#34;=== meta note_kind ===&#34; &amp;&amp; rg -l &#39;^note_kind:\s*meta&#39; . 2&gt;/dev/null; echo &#34;=== utility layouts ===&#34; &amp;&amp; rg -l &#39;^layout:\s*&#34;(graph|cards|review|issues|backlinks|random-duo|create)&#34;&#39; . 2&gt;/dev/null; echo &#34;=== count garden (non-meta, non-utility layout) ===&#34; &amp;&amp; for f in *.md; do grep -q &#39;^note_kind: meta&#39; &#34;$f&#34; 2&gt;/dev/null &amp;&amp; continue; grep -qE &#39;^layout: &#34;(graph|cards|review|issues|backlinks|random-duo|create)&#34;&#39; &#34;$f&#34; 2&gt;/dev/null &amp;&amp; continue; echo &#34;$f&#34;; done | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/content/english/notes && echo "=== meta note_kind ===" && rg -l '^note_kind:\s*meta' . 2>/dev/null; echo "=== utility layouts ===" && rg -l '^layout:\s*"(graph|cards|review|issues|backlinks|random-duo|create)"' . 2>/dev/null; echo "=== count garden (non-meta, non-utility layout) ===" && for f in *.md; do grep -q '^note_kind: meta' "$f" 2>/dev/null && continue; grep -qE '^layout: "(graph|cards|review|issues|backlinks|random-duo|create)"' "$f" 2>/dev/null && continue; echo "$f"; done | wc -l
+```
+
+```
+=== meta note_kind ===
+=== utility layouts ===
+./flashcards.md
+./backlinks.md
+./graph.md
+./random-duo.md
+./issues.md
+./create.md
+./review.md
+=== count garden (non-meta, non-utility layout) ===
+217
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt;&#39;SCRIPT&#39;
+import json, re, os, glob
+
+public = &#39;/home/jorap/Documents/GitHub/jorap.com/public&#39;
+notes_dir = &#39;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#39;
+
+# Expected garden notes from source
+utility_layouts = {&#39;graph&#39;,&#39;cards&#39;,&#39;review&#39;,&#39;issues&#39;,&#39;backlinks&#39;,&#39;random-duo&#39;,&#39;create&#39;}
+expected = []
+for path in glob.glob(os.path.join(notes_dir, &#39;*.md&#39;)):
+    text = open(path, encoding=&#39;utf-8&#39;).read()
+    if re.search(r&#39;^draft:\s*true\b&#39;, text, re.M):
+        continue
+    if re.search(r&#39;^note_kind:\s*meta\b&#39;, text, re.M):
+        continue
+    m = re.search(r&#39;^layout:\s*&#34;([^&#34;]+)&#34;&#39;, text, re.M)
+    if m and m.group(1) in utility_layouts:
+        continue
+    title_m = re.search(r&#39;^title:\s*&#34;?([^&#34;\n]+)&#34;?&#39;, text, re.M)
+    slug_m = re.search(r&#39;^slug:\s*&#34;?([^&#34;\n]+)&#34;?&#39;, text, re.M)
+    title = title_m.group(1).strip(&#39;&#34;&#39;) if title_m else os.path.splitext(os.path.basename(path))[0]
+    slug = slug_m.group(1).strip(&#39;&#34;&#39;) if slug_m else os.path.splitext(os.path.basename(path))[0]
+    url = f&#39;/notes/{slug}/&#39;
+    expected.append({&#39;url&#39;: url, &#39;title&#39;: title, &#39;file&#39;: os.path.basename(path)})
+
+# Built pool
+html = open(os.path.join(public, &#39;notes/index.html&#39;), encoding=&#39;utf-8&#39;).read()
+m = re.search(r&#39;class=&#34;notes-featured-random-data&#34;&gt;([^&lt;]+)&lt;/script&gt;&#39;, html)
+built = json.loads(m.group(1)) if m else []
+
+exp_urls = {x[&#39;url&#39;] for x in expected}
+built_urls = {x[&#39;url&#39;] for x in built}
+missing_in_build = sorted(exp_urls - built_urls)
+extra_in_build = sorted(built_urls - exp_urls)
+
+print(&#39;Expected garden notes (source):&#39;, len(expected))
+print(&#39;Built pool:&#39;, len(built))
+print(&#39;Missing from build (in source, not in pool):&#39;, len(missing_in_build))
+for u in missing_in_build[:15]:
+    note = next(x for x in expected if x[&#39;url&#39;]==u)
+    print(&#39;  -&#39;, note[&#39;title&#39;], u, note[&#39;file&#39;])
+print(&#39;Extra in build (in pool, not expected):&#39;, len(extra_in_build))
+for u in extra_in_build[:15]:
+    note = next(x for x in built if x[&#39;url&#39;]==u)
+    print(&#39;  -&#39;, note[&#39;title&#39;], u)
+
+# Validate all expected notes have renderable HTML
+failures = []
+for note in expected:
+    rel = note[&#39;url&#39;].strip(&#39;/&#39;) + &#39;/index.html&#39;
+    fp = os.path.join(public, rel)
+    if not os.path.exists(fp):
+        failures.append((note[&#39;title&#39;], note[&#39;url&#39;], &#39;no built page&#39;))
+        continue
+    h = open(fp, encoding=&#39;utf-8&#39;).read()
+    if &#39;notes-content&#39; not in h or &#39;article-title&#39; not in h:
+        failures.append((note[&#39;title&#39;], note[&#39;url&#39;], &#39;missing render markers&#39;))
+
+print(&#39;Render failures among expected notes:&#39;, len(failures))
+for f in failures[:20]:
+    print(&#39;  FAIL&#39;, f[0], f[1], f[2])
+SCRIPT</summary>
+```bash
+python3 <<'SCRIPT'
+import json, re, os, glob
+
+public = '/home/jorap/Documents/GitHub/jorap.com/public'
+notes_dir = '/home/jorap/Documents/GitHub/jorap.com/content/english/notes'
+
+# Expected garden notes from source
+utility_layouts = {'graph','cards','review','issues','backlinks','random-duo','create'}
+expected = []
+for path in glob.glob(os.path.join(notes_dir, '*.md')):
+    text = open(path, encoding='utf-8').read()
+    if re.search(r'^draft:\s*true\b', text, re.M):
+        continue
+    if re.search(r'^note_kind:\s*meta\b', text, re.M):
+        continue
+    m = re.search(r'^layout:\s*"([^"]+)"', text, re.M)
+    if m and m.group(1) in utility_layouts:
+        continue
+    title_m = re.search(r'^title:\s*"?([^"\n]+)"?', text, re.M)
+    slug_m = re.search(r'^slug:\s*"?([^"\n]+)"?', text, re.M)
+    title = title_m.group(1).strip('"') if title_m else os.path.splitext(os.path.basename(path))[0]
+    slug = slug_m.group(1).strip('"') if slug_m else os.path.splitext(os.path.basename(path))[0]
+    url = f'/notes/{slug}/'
+    expected.append({'url': url, 'title': title, 'file': os.path.basename(path)})
+
+# Built pool
+html = open(os.path.join(public, 'notes/index.html'), encoding='utf-8').read()
+m = re.search(r'class="notes-featured-random-data">([^<]+)</script>', html)
+built = json.loads(m.group(1)) if m else []
+
+exp_urls = {x['url'] for x in expected}
+built_urls = {x['url'] for x in built}
+missing_in_build = sorted(exp_urls - built_urls)
+extra_in_build = sorted(built_urls - exp_urls)
+
+print('Expected garden notes (source):', len(expected))
+print('Built pool:', len(built))
+print('Missing from build (in source, not in pool):', len(missing_in_build))
+for u in missing_in_build[:15]:
+    note = next(x for x in expected if x['url']==u)
+    print('  -', note['title'], u, note['file'])
+print('Extra in build (in pool, not expected):', len(extra_in_build))
+for u in extra_in_build[:15]:
+    note = next(x for x in built if x['url']==u)
+    print('  -', note['title'], u)
+
+# Validate all expected notes have renderable HTML
+failures = []
+for note in expected:
+    rel = note['url'].strip('/') + '/index.html'
+    fp = os.path.join(public, rel)
+    if not os.path.exists(fp):
+        failures.append((note['title'], note['url'], 'no built page'))
+        continue
+    h = open(fp, encoding='utf-8').read()
+    if 'notes-content' not in h or 'article-title' not in h:
+        failures.append((note['title'], note['url'], 'missing render markers'))
+
+print('Render failures among expected notes:', len(failures))
+for f in failures[:20]:
+    print('  FAIL', f[0], f[1], f[2])
+SCRIPT
+```
+
+```
+Expected garden notes (source): 217
+Built pool: 215
+Missing from build (in source, not in pool): 2
+  - Notes /notes/notes/ _index.md
+  - OKF Export /notes/okf-export/ okf-export.md
+Extra in build (in pool, not expected): 0
+Render failures among expected notes: 1
+  FAIL Notes /notes/notes/ no built page
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The source contains 217 garden notes, but the built pool has only 215. Two notes appear to be missing.
+
+Two missing items are `/notes/notes/_index.md` and `/notes/okf-export/`. The okf-export folder may be meta or have a special layout. Seven utility pages were identified.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/_index.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls /home/jorap/Documents/GitHub/jorap.com/public/notes/okf-export/index.html 2&gt;/dev/null &amp;&amp; echo exists || echo missing; rg -l &#39;okf-export&#39; /home/jorap/Documents/GitHub/jorap.com/public/notes/index.html 2&gt;/dev/null | head -1; python3 -c &#34;
+import json,re
+h=open(&#39;/home/jorap/Documents/GitHub/jorap.com/public/notes/index.html&#39;).read()
+pool=json.loads(re.search(r&#39;notes-featured-random-data\&#34;&gt;([^&lt;]+)&#39;,h).group(1))
+print(&#39;okf in pool&#39;, any(&#39;okf&#39; in x[&#39;url&#39;] for x in pool))
+&#34;</summary>
+```bash
+ls /home/jorap/Documents/GitHub/jorap.com/public/notes/okf-export/index.html 2>/dev/null && echo exists || echo missing; rg -l 'okf-export' /home/jorap/Documents/GitHub/jorap.com/public/notes/index.html 2>/dev/null | head -1; python3 -c "
+import json,re
+h=open('/home/jorap/Documents/GitHub/jorap.com/public/notes/index.html').read()
+pool=json.loads(re.search(r'notes-featured-random-data\">([^<]+)',h).group(1))
+print('okf in pool', any('okf' in x['url'] for x in pool))
+"
+```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/public/notes/okf-export/index.html
+exists
+/home/jorap/Documents/GitHub/jorap.com/public/notes/index.html
+okf in pool False
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The okf-export note is correctly excluded because its note_kind is meta.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^note_kind:\\s*meta"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^note_kind:\\s*meta",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/_index.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt;&#39;SCRIPT&#39;
+import json, re, os, glob
+
+public = &#39;/home/jorap/Documents/GitHub/jorap.com/public&#39;
+notes_dir = &#39;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#39;
+
+utility_layouts = {&#39;graph&#39;,&#39;cards&#39;,&#39;review&#39;,&#39;issues&#39;,&#39;backlinks&#39;,&#39;random-duo&#39;,&#39;create&#39;}
+expected = []
+for path in glob.glob(os.path.join(notes_dir, &#39;*.md&#39;)):
+    text = open(path, encoding=&#39;utf-8&#39;).read()
+    if re.search(r&#39;^draft:\s*true\b&#39;, text, re.M):
+        continue
+    if re.search(r&#39;^note_kind:\s*meta\b&#39;, text, re.M):
+        continue
+    m = re.search(r&#39;^layout:\s*&#34;([^&#34;]+)&#34;&#39;, text, re.M)
+    if m and m.group(1) in utility_layouts:
+        continue
+    title_m = re.search(r&#39;^title:\s*&#34;?([^&#34;\n]+)&#34;?&#39;, text, re.M)
+    slug_m = re.search(r&#39;^slug:\s*&#34;?([^&#34;\n]+)&#34;?&#39;, text, re.M)
+    title = title_m.group(1).strip(&#39;&#34;&#39;) if title_m else os.path.splitext(os.path.basename(path))[0]
+    slug = slug_m.group(1).strip(&#39;&#34;&#39;) if slug_m else os.path.splitext(os.path.basename(path))[0]
+    url = f&#39;/notes/{slug}/&#39;
+    expected.append({&#39;url&#39;: url, &#39;title&#39;: title, &#39;file&#39;: os.path.basename(path)})
+
+html = open(os.path.join(public, &#39;notes/index.html&#39;), encoding=&#39;utf-8&#39;).read()
+built = json.loads(re.search(r&#39;class=&#34;notes-featured-random-data&#34;&gt;([^&lt;]+)&lt;/script&gt;&#39;, html).group(1))
+
+exp_urls = sorted(x[&#39;url&#39;] for x in expected)
+built_urls = sorted(x[&#39;url&#39;] for x in built)
+print(&#39;Expected:&#39;, len(exp_urls), &#39;Built:&#39;, len(built_urls))
+if exp_urls == built_urls:
+    print(&#39;Source and built pools MATCH exactly&#39;)
+else:
+    missing = set(exp_urls)-set(built_urls)
+    extra = set(built_urls)-set(exp_urls)
+    print(&#39;Missing:&#39;, missing)
+    print(&#39;Extra:&#39;, extra)
+
+# Simulate JS fetch validation for all built URLs
+fail = []
+for entry in built:
+    fp = os.path.join(public, entry[&#39;url&#39;].strip(&#39;/&#39;), &#39;index.html&#39;)
+    h = open(fp, encoding=&#39;utf-8&#39;).read()
+    if not re.search(r&#39;&lt;article[\s&gt;]&#39;, h): fail.append((entry[&#39;url&#39;], &#39;no article&#39;))
+    elif not re.search(r&#39;class=&#34;[^&#34;]*article-title&#39;, h): fail.append((entry[&#39;url&#39;], &#39;no title&#39;))
+    elif not re.search(r&#39;class=&#34;[^&#34;]*notes-content&#39;, h): fail.append((entry[&#39;url&#39;], &#39;no content&#39;))
+print(&#39;JS-parse failures:&#39;, len(fail))
+
+# Check select option counts on duo page
+duo = open(os.path.join(public, &#39;notes/random-duo/index.html&#39;)).read()
+opts = re.findall(r&#39;&lt;option value=&#34;/notes/[^&#34;]+&#34;&gt;&#39;, duo)
+print(&#39;Duo select options:&#39;, len(opts), &#39;(expect&#39;, len(built), &#39;)&#39;)
+
+# Check dropdown on note single
+sample = built[10]
+sh = open(os.path.join(public, sample[&#39;url&#39;].strip(&#39;/&#39;), &#39;index.html&#39;)).read()
+opts2 = re.findall(r&#39;&lt;option value=&#34;/notes/[^&#34;]+&#34;&gt;&#39;, sh)
+print(&#39;Single-note random select options:&#39;, len(opts2), &#39;(expect&#39;, len(built)-1, &#39; excluding self)&#39;)
+SCRIPT</summary>
+```bash
+python3 <<'SCRIPT'
+import json, re, os, glob
+
+public = '/home/jorap/Documents/GitHub/jorap.com/public'
+notes_dir = '/home/jorap/Documents/GitHub/jorap.com/content/english/notes'
+
+utility_layouts = {'graph','cards','review','issues','backlinks','random-duo','create'}
+expected = []
+for path in glob.glob(os.path.join(notes_dir, '*.md')):
+    text = open(path, encoding='utf-8').read()
+    if re.search(r'^draft:\s*true\b', text, re.M):
+        continue
+    if re.search(r'^note_kind:\s*meta\b', text, re.M):
+        continue
+    m = re.search(r'^layout:\s*"([^"]+)"', text, re.M)
+    if m and m.group(1) in utility_layouts:
+        continue
+    title_m = re.search(r'^title:\s*"?([^"\n]+)"?', text, re.M)
+    slug_m = re.search(r'^slug:\s*"?([^"\n]+)"?', text, re.M)
+    title = title_m.group(1).strip('"') if title_m else os.path.splitext(os.path.basename(path))[0]
+    slug = slug_m.group(1).strip('"') if slug_m else os.path.splitext(os.path.basename(path))[0]
+    url = f'/notes/{slug}/'
+    expected.append({'url': url, 'title': title, 'file': os.path.basename(path)})
+
+html = open(os.path.join(public, 'notes/index.html'), encoding='utf-8').read()
+built = json.loads(re.search(r'class="notes-featured-random-data">([^<]+)</script>', html).group(1))
+
+exp_urls = sorted(x['url'] for x in expected)
+built_urls = sorted(x['url'] for x in built)
+print('Expected:', len(exp_urls), 'Built:', len(built_urls))
+if exp_urls == built_urls:
+    print('Source and built pools MATCH exactly')
+else:
+    missing = set(exp_urls)-set(built_urls)
+    extra = set(built_urls)-set(exp_urls)
+    print('Missing:', missing)
+    print('Extra:', extra)
+
+# Simulate JS fetch validation for all built URLs
+fail = []
+for entry in built:
+    fp = os.path.join(public, entry['url'].strip('/'), 'index.html')
+    h = open(fp, encoding='utf-8').read()
+    if not re.search(r'<article[\s>]', h): fail.append((entry['url'], 'no article'))
+    elif not re.search(r'class="[^"]*article-title', h): fail.append((entry['url'], 'no title'))
+    elif not re.search(r'class="[^"]*notes-content', h): fail.append((entry['url'], 'no content'))
+print('JS-parse failures:', len(fail))
+
+# Check select option counts on duo page
+duo = open(os.path.join(public, 'notes/random-duo/index.html')).read()
+opts = re.findall(r'<option value="/notes/[^"]+">', duo)
+print('Duo select options:', len(opts), '(expect', len(built), ')')
+
+# Check dropdown on note single
+sample = built[10]
+sh = open(os.path.join(public, sample['url'].strip('/'), 'index.html')).read()
+opts2 = re.findall(r'<option value="/notes/[^"]+">', sh)
+print('Single-note random select options:', len(opts2), '(expect', len(built)-1, ' excluding self)')
+SCRIPT
+```
+
+```
+Expected: 217 Built: 215
+Missing: {'/notes/notes/', '/notes/okf-export/'}
+Extra: set()
+JS-parse failures: 0
+Duo select options: 430 (expect 215 )
+Single-note random select options: 214 (expect 214  excluding self)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The expected count is 217, but the built count is 215. Two paths are missing: `/notes/notes/` and `/notes/okf-export/`.
+
+The two missing items are a meta note and a section index, both correctly excluded. The 430 duo select options equal 215 per select. The single note page shows 214 options, excluding itself. All 215 notes pass JavaScript parse validation.
+
+The regex failed to catch `note_kind: "meta"` because of quotes. The corrected expected pool is 215. Next I will simulate the JavaScript renderNoteIntoSlot to verify featured random notes load content.
+
+Blog random works. Recent uncommitted changes may affect the build. I am simulating the full JavaScript render path to verify cloneArticleBody and cloneNoteContent clone content correctly. Both functions appear to work as intended.
+
+The featured random slot uses cloneArticleBody. The notes-content wrapper is a child of the article element and is not in the SKIP_ARTICLE list. It will be included in the cloned output.
+
+Featured random correctly preserves the notes-content wrapper while stripping titles, outgoing links, backlinks, and flashcards. The duo view uses cloneNoteContent, which pulls only the inner notes-content block. Fetch behavior will be verified against a live HTTP server, since file:// does not support fetch requests.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "note_kind:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "note_kind:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pressure-reveals-weakness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/graph.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/maps-of-content.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/issues.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/random-duo.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/backlinks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/okf-export.md"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 19
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt;&#39;SCRIPT&#39;
+# Simulate renderNoteIntoSlot parse check on random sample
+import json, re, os, random
+public = &#39;/home/jorap/Documents/GitHub/jorap.com/public&#39;
+html = open(os.path.join(public, &#39;notes/index.html&#39;)).read()
+pool = json.loads(re.search(r&#39;notes-featured-random-data&#34;&gt;([^&lt;]+)&#39;, html).group(1))
+random.seed(42)
+sample = random.sample(pool, min(25, len(pool)))
+issues = []
+for entry in sample:
+    h = open(os.path.join(public, entry[&#39;url&#39;].strip(&#39;/&#39;), &#39;index.html&#39;)).read()
+    # JS: doc.querySelector(&#34;article&#34;), .article-title, .notes-content
+    if not re.search(r&#39;&lt;article\b&#39;, h): issues.append((entry[&#39;title&#39;], &#39;no article&#39;))
+    # title must be in article header area
+    if not re.search(r&#39;class=&#34;[^&#34;]*article-title[^&#34;]*&#34;[^&gt;]*&gt;\s*\S&#39;, h): issues.append((entry[&#39;title&#39;], &#39;empty/missing title&#39;))
+    content = re.search(r&#39;class=&#34;[^&#34;]*notes-content[^&#34;]*&#34;[^&gt;]*&gt;(.*?)&lt;/div&gt;\s*(?:&lt;aside|&lt;div class=&#34;notes-note-flashcards|&lt;aside class=&#34;notes-outgoing|$)&#39;, h, re.S)
+    if not content: 
+        # fallback: just check notes-content exists with some text
+        if not re.search(r&#39;class=&#34;[^&#34;]*notes-content[^&#34;]*&#34;[^&gt;]*&gt;\s*\S&#39;, h, re.S):
+            issues.append((entry[&#39;title&#39;], &#39;empty notes-content&#39;))
+print(&#39;Sampled&#39;, len(sample), &#39;notes for deep parse check&#39;)
+print(&#39;Issues:&#39;, len(issues))
+for i in issues: print(&#39; &#39;, i)
+
+# Verify blog random data payload
+blog_posts = [d for d in os.listdir(os.path.join(public, &#39;blog&#39;)) if os.path.isdir(os.path.join(public, &#39;blog&#39;, d))][:3]
+for slug in blog_posts:
+    h = open(os.path.join(public, &#39;blog&#39;, slug, &#39;index.html&#39;)).read()
+    data = re.search(r&#39;class=&#34;blog-random-notes-data&#34;&gt;([^&lt;]+)&#39;, h)
+    pool_len = len(json.loads(data.group(1))[&#39;notes&#39;]) if data else None
+    has_article = bool(re.search(r&#39;&lt;article\b&#39;, h))
+    print(f&#39;Blog {slug}: pool={pool_len}, article={has_article}, random_ui={(&#34;data-blog-random-notes&#34; in h)}&#39;)
+SCRIPT</summary>
+```bash
+python3 <<'SCRIPT'
+# Simulate renderNoteIntoSlot parse check on random sample
+import json, re, os, random
+public = '/home/jorap/Documents/GitHub/jorap.com/public'
+html = open(os.path.join(public, 'notes/index.html')).read()
+pool = json.loads(re.search(r'notes-featured-random-data">([^<]+)', html).group(1))
+random.seed(42)
+sample = random.sample(pool, min(25, len(pool)))
+issues = []
+for entry in sample:
+    h = open(os.path.join(public, entry['url'].strip('/'), 'index.html')).read()
+    # JS: doc.querySelector("article"), .article-title, .notes-content
+    if not re.search(r'<article\b', h): issues.append((entry['title'], 'no article'))
+    # title must be in article header area
+    if not re.search(r'class="[^"]*article-title[^"]*"[^>]*>\s*\S', h): issues.append((entry['title'], 'empty/missing title'))
+    content = re.search(r'class="[^"]*notes-content[^"]*"[^>]*>(.*?)</div>\s*(?:<aside|<div class="notes-note-flashcards|<aside class="notes-outgoing|$)', h, re.S)
+    if not content: 
+        # fallback: just check notes-content exists with some text
+        if not re.search(r'class="[^"]*notes-content[^"]*"[^>]*>\s*\S', h, re.S):
+            issues.append((entry['title'], 'empty notes-content'))
+print('Sampled', len(sample), 'notes for deep parse check')
+print('Issues:', len(issues))
+for i in issues: print(' ', i)
+
+# Verify blog random data payload
+blog_posts = [d for d in os.listdir(os.path.join(public, 'blog')) if os.path.isdir(os.path.join(public, 'blog', d))][:3]
+for slug in blog_posts:
+    h = open(os.path.join(public, 'blog', slug, 'index.html')).read()
+    data = re.search(r'class="blog-random-notes-data">([^<]+)', h)
+    pool_len = len(json.loads(data.group(1))['notes']) if data else None
+    has_article = bool(re.search(r'<article\b', h))
+    print(f'Blog {slug}: pool={pool_len}, article={has_article}, random_ui={("data-blog-random-notes" in h)}')
+SCRIPT
+```
+
+```
+Sampled 25 notes for deep parse check
+Issues: 0
+Blog remote-work-checklist: pool=215, article=True, random_ui=True
+Blog markdown-formatting: pool=215, article=True, random_ui=True
+Blog make-ai-articles-more-human: pool=215, article=True, random_ui=True
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Index pages such as maps-of-content, getting-started, and eternal-principles exist among the notes.
+
+Index pages are intentionally included in the random pool. The count discrepancy came from a regex bug: the script failed to handle quotes around the meta value, causing it to miss the okf-export exclusion.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt;&#39;SCRIPT&#39;
+import json, re, os, glob
+
+public = &#39;/home/jorap/Documents/GitHub/jorap.com/public&#39;
+notes_dir = &#39;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#39;
+
+html = open(os.path.join(public, &#39;notes/index.html&#39;)).read()
+pool = json.loads(re.search(r&#39;notes-featured-random-data&#34;&gt;([^&lt;]+)&#39;, html).group(1))
+pool_urls = {x[&#39;url&#39;] for x in pool}
+
+# index and meta pages in source
+for path in sorted(glob.glob(os.path.join(notes_dir, &#39;*.md&#39;))):
+    text = open(path, encoding=&#39;utf-8&#39;).read()
+    m = re.search(r&#39;^note_kind:\s*&#34;?([^&#34;\n]+)&#34;?&#39;, text, re.M)
+    if not m: continue
+    kind = m.group(1)
+    if kind not in (&#39;index&#39;, &#39;meta&#39;): continue
+    slug_m = re.search(r&#39;^slug:\s*&#34;?([^&#34;\n]+)&#34;?&#39;, text, re.M)
+    slug = slug_m.group(1).strip(&#39;&#34;&#39;) if slug_m else os.path.splitext(os.path.basename(path))[0]
+    url = f&#39;/notes/{slug}/&#39;
+    in_pool = url in pool_urls
+    print(f&#39;{kind:5} {os.path.basename(path):30} in_pool={in_pool} url={url}&#39;)
+
+# verify index pages render for random fetch
+index_in_pool = [x for x in pool if any(k in x[&#39;url&#39;] for k in [&#39;getting-started&#39;,&#39;maps-of-content&#39;,&#39;eternal-principles&#39;,&#39;systems-for-growth&#39;,&#39;workplace-principles&#39;])]
+print(&#39;\nSample index/MOC in pool:&#39;, [x[&#39;title&#39;] for x in index_in_pool[:5]])
+for entry in index_in_pool[:3]:
+    h = open(os.path.join(public, entry[&#39;url&#39;].strip(&#39;/&#39;), &#39;index.html&#39;)).read()
+    ok = &#39;notes-content&#39; in h and &#39;article-title&#39; in h
+    print(&#39; &#39;, entry[&#39;title&#39;], &#39;renderable:&#39;, ok)
+SCRIPT</summary>
+```bash
+python3 <<'SCRIPT'
+import json, re, os, glob
+
+public = '/home/jorap/Documents/GitHub/jorap.com/public'
+notes_dir = '/home/jorap/Documents/GitHub/jorap.com/content/english/notes'
+
+html = open(os.path.join(public, 'notes/index.html')).read()
+pool = json.loads(re.search(r'notes-featured-random-data">([^<]+)', html).group(1))
+pool_urls = {x['url'] for x in pool}
+
+# index and meta pages in source
+for path in sorted(glob.glob(os.path.join(notes_dir, '*.md'))):
+    text = open(path, encoding='utf-8').read()
+    m = re.search(r'^note_kind:\s*"?([^"\n]+)"?', text, re.M)
+    if not m: continue
+    kind = m.group(1)
+    if kind not in ('index', 'meta'): continue
+    slug_m = re.search(r'^slug:\s*"?([^"\n]+)"?', text, re.M)
+    slug = slug_m.group(1).strip('"') if slug_m else os.path.splitext(os.path.basename(path))[0]
+    url = f'/notes/{slug}/'
+    in_pool = url in pool_urls
+    print(f'{kind:5} {os.path.basename(path):30} in_pool={in_pool} url={url}')
+
+# verify index pages render for random fetch
+index_in_pool = [x for x in pool if any(k in x['url'] for k in ['getting-started','maps-of-content','eternal-principles','systems-for-growth','workplace-principles'])]
+print('\nSample index/MOC in pool:', [x['title'] for x in index_in_pool[:5]])
+for entry in index_in_pool[:3]:
+    h = open(os.path.join(public, entry['url'].strip('/'), 'index.html')).read()
+    ok = 'notes-content' in h and 'article-title' in h
+    print(' ', entry['title'], 'renderable:', ok)
+SCRIPT
+```
+
+```
+meta  backlinks.md                   in_pool=False url=/notes/backlinks/
+meta  create.md                      in_pool=False url=/notes/create/
+index eternal-principles.md          in_pool=True url=/notes/eternal-principles/
+meta  flashcards.md                  in_pool=False url=/notes/flashcards/
+index getting-started.md             in_pool=True url=/notes/getting-started/
+meta  graph.md                       in_pool=False url=/notes/graph/
+meta  issues.md                      in_pool=False url=/notes/issues/
+index maps-of-content.md             in_pool=True url=/notes/maps-of-content/
+meta  okf-export.md                  in_pool=False url=/notes/okf-export/
+index pressure-reveals-weakness.md   in_pool=True url=/notes/pressure-reveals-weakness/
+meta  random-duo.md                  in_pool=False url=/notes/random-duo/
+meta  review.md                      in_pool=False url=/notes/review/
+index systems-for-growth.md          in_pool=True url=/notes/systems-for-growth/
+index workplace-principles.md        in_pool=True url=/notes/workplace-principles/
+
+Sample index/MOC in pool: ['Systems for Growth', 'Workplace Principles', 'Eternal Principles', 'Getting Started', 'Maps of Content']
+  Systems for Growth renderable: True
+  Workplace Principles renderable: True
+  Eternal Principles renderable: True
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Everything looks correct. I'll spin up a local server to verify JavaScript fetch works in practice, or confirm the built HTML structure supports it.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for f in notes-random-core notes-random-single notes-random-duo notes-random-select notes-featured-random; do ls /home/jorap/Documents/GitHub/jorap.com/public/js/${f}*.js 2&gt;/dev/null || echo &#34;MISSING $f&#34;; done</summary>
+```bash
+for f in notes-random-core notes-random-single notes-random-duo notes-random-select notes-featured-random; do ls /home/jorap/Documents/GitHub/jorap.com/public/js/${f}*.js 2>/dev/null || echo "MISSING $f"; done
+```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-random-core.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-random-core.min.43872dab6b12853e7f9b427b0cbdc2b04bdbfcc773673bc8c88327f3931c0591.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-random-single.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-random-single.min.975439909554bfd19fdd7e90ddf331d15e2f5a8e7c3f4cfd3c0a8a6c014a86f0.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-random-duo.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-random-duo.min.f5fe0e7693649dc0a7a565c01d1bde202d278091a0eeaa14b4666b976eb21453.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-random-select.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-random-select.min.db3bd82549678dfe6686de26b38365a9ea7539ffa1720d118a187c3193197dc0.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-featured-random.js
+/home/jorap/Documents/GitHub/jorap.com/public/js/notes-featured-random.min.4680d59dd45f31741a4807e999e7e746a7233caedcec8664460f605fbadeb442.js
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/public &amp;&amp; python3 -m http.server 8765 &amp;
+sleep 1
+python3 &lt;&lt;&#39;SCRIPT&#39;
+import json, re, urllib.request, random
+# get pool from file
+html = open(&#39;/home/jorap/Documents/GitHub/jorap.com/public/notes/index.html&#39;).read()
+pool = json.loads(re.search(r&#39;notes-featured-random-data&#34;&gt;([^&lt;]+)&#39;, html).group(1))
+random.seed(0)
+sample = random.sample(pool, 10)
+fail = []
+for entry in sample:
+    url = &#39;http://127.0.0.1:8765&#39; + entry[&#39;url&#39;]
+    try:
+        with urllib.request.urlopen(url, timeout=5) as r:
+            body = r.read().decode(&#39;utf-8&#39;, errors=&#39;replace&#39;)
+        if r.status != 200: fail.append((entry[&#39;title&#39;], &#39;status&#39;, r.status))
+        elif &#39;notes-content&#39; not in body: fail.append((entry[&#39;title&#39;], &#39;no content&#39;))
+        elif &#39;article-title&#39; not in body: fail.append((entry[&#39;title&#39;], &#39;no title&#39;))
+    except Exception as e:
+        fail.append((entry[&#39;title&#39;], str(e)))
+print(&#39;HTTP fetch test:&#39;, len(sample), &#39;sampled,&#39;, len(fail), &#39;failures&#39;)
+for f in fail: print(&#39; &#39;, f)
+SCRIPT
+kill %1 2&gt;/dev/null</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/public && python3 -m http.server 8765 &
+sleep 1
+python3 <<'SCRIPT'
+import json, re, urllib.request, random
+# get pool from file
+html = open('/home/jorap/Documents/GitHub/jorap.com/public/notes/index.html').read()
+pool = json.loads(re.search(r'notes-featured-random-data">([^<]+)', html).group(1))
+random.seed(0)
+sample = random.sample(pool, 10)
+fail = []
+for entry in sample:
+    url = 'http://127.0.0.1:8765' + entry['url']
+    try:
+        with urllib.request.urlopen(url, timeout=5) as r:
+            body = r.read().decode('utf-8', errors='replace')
+        if r.status != 200: fail.append((entry['title'], 'status', r.status))
+        elif 'notes-content' not in body: fail.append((entry['title'], 'no content'))
+        elif 'article-title' not in body: fail.append((entry['title'], 'no title'))
+    except Exception as e:
+        fail.append((entry['title'], str(e)))
+print('HTTP fetch test:', len(sample), 'sampled,', len(fail), 'failures')
+for f in fail: print(' ', f)
+SCRIPT
+kill %1 2>/dev/null
+```
+
+```
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/literature-notes/ HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/minimum-effective-dose/ HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/safety-by-design/ HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/blameless-postmortem/ HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/self-control/ HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/abide-in-me/ HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/servant-leadership/ HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/quarterly-planning/ HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/pkm/ HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [01/Jul/2026 23:10:31] "GET /notes/the-second-brain-workflow/ HTTP/1.1" 200 -
+HTTP fetch test: 10 sampled, 0 failures
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All four random note surfaces display correctly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+**All random note surfaces are working correctly** against the current built site (`public/`).
+
+## What was checked
+
+There are four random-note UIs, all fed by the same pool via `random-pool.html`:
+
+| Surface | Location | Status |
+|---------|----------|--------|
+| **Featured Random** | `/notes/` home | OK |
+| **Random Duo** | `/notes/random-duo/` | OK |
+| **Random Note** | Bottom of every note page | OK |
+| **Random Note** | Bottom of blog posts | OK |
+
+## Pool validation (215 notes)
+
+- **215 garden notes** in the pool — featured and duo pools match exactly
+- **0 render failures** — every pool note has `<article>`, `.article-title`, and `.notes-content` (required by `renderNoteIntoSlot`)
+- **0 HTTP fetch failures** — sampled notes return 200 and parse correctly (same path the JS uses)
+- **Correct exclusions** — 9 utility/meta pages kept out: Graph, Flashcards, Review, Issues, Backlinks, Random Duo, Create, OKF Export, plus the section `_index`
+
+**Included by design:** hub/MOC pages with `note_kind: index` (Getting Started, Maps of Content, Eternal Principles, etc.) — they render fine in random slots.
+
+## UI wiring
+
+- Note pages: random section present, pool size **214** (current note excluded)
+- Duo page: **215 options × 2 selects** = 430 `<option>` tags (expected)
+- All JS bundles present: `notes-random-core`, `-single`, `-duo`, `-select`, `-featured-random`
+- Blog posts sampled: random section + pool of 215 on each
+
+## Summary
+
+Nothing broken found. Every eligible garden note can be picked, fetched, and rendered in all random UIs. Utility/meta pages are correctly excluded.
+
+**Note:** You have many uncommitted note changes in git. The validation used today’s `public/` build — run `hugo` before deploy if you want the live pool to reflect those edits.
+
+---
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: aborted
+task_id: 225721
+title: Build Hugo site for validation
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/225721.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: aborted
+task_id: 443512
+title: Count Hugo note pages from source
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/443512.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Random notes validation is complete. No further action is required.
+</details></think>
+
+_**Agent (auto-low)**_
+
+**Random notes check: all good.**
+
+All four surfaces (Featured Random on `/notes/`, Random Duo, random section on note pages, random section on blog posts) share the same **215-note pool** and render correctly. Every pool note has the DOM structure the JS expects, fetches return 200, and utility/meta pages (Graph, Flashcards, Review, etc.) are correctly excluded.
+
+The Hugo rebuilds I started were slow and got aborted; validation used your existing `public/` build from today instead. If you want uncommitted note edits in the pool, run `hugo` before deploy.

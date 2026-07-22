@@ -13,7 +13,8 @@ In all notes, remove the "note name ="  at the first sentence
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing the "note name =" prefix from the first sentence of every note.</details></think>
+Removing the "note name =" prefix from the first sentence of every note.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,10 +23,8 @@ Searching notes for the "note name =" pattern in opening sentences.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -51,45 +50,27 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The pattern is clear. Every note begins with "note name =".</details></think>
+The pattern is clear. Every note begins with "note name =".
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -98,10 +79,8 @@ Searching for the `**Title** =` pattern across all notes.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -209,21 +188,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -330,25 +300,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
@@ -357,14 +314,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Removing the `**Note Title** = ` prefix from the first sentence of every note.
 
-About 170 files need this change. I'll use a script to strip the `**Title** = ` prefix from the first content line after frontmatter. I'll also update the archetype template and notes-creator.js to prevent future occurrences.</details></think>
+About 170 files need this change. I'll use a script to strip the `**Title** = ` prefix from the first content line after frontmatter. I'll also update the archetype template and notes-creator.js to prevent future occurrences.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -472,34 +428,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -530,27 +471,20 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing the "note name =" prefix from the first sentence of all notes.</details></think>
+Removing the "note name =" prefix from the first sentence of all notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **214** results in **1** directory</summary>
 
-Directory: **** (214 files)
+Directory: **``** (214 files)
 
 | File |
 |------|
@@ -768,52 +702,32 @@ Directory: **** (214 files)
 | `content/english/notes/ask-seek-knock.md` |
 | `content/english/notes/forgiveness.md` |
 | `content/english/notes/review.md` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking getting-started.md for the second match at line 2.</details></think>
+Checking getting-started.md for the second match at line 2.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -844,28 +758,688 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\*\\*[^*]+\\*\\* ="
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\*\\*[^*]+\\*\\* =",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/decision-quality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/recovery.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-second-brain.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/standing-vs-fellowship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-light-shine.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/convert-pain-into-learning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/wood-hay-stubble.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/habit-formation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/git-based-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/integrity.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/maintenance-window.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/failure-as-feedback.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ethical-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/client-site-handoff.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/attention-economy.md"
+    }
+  ],
+  "totalFiles": 171,
+  "totalMatches": 172
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
-Status: **loading**
+Parameters:
 
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{md,mdc}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\*\\*.*\\*\\* ="
+}
+```
+Additional data:
 
-</details>
-</tool-use>
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\*\\*.*\\*\\* =",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconcile-before-the-review.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/humility-and-service.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/integrity-when-no-ones-watching.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/recovery.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipline.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/set-calm-boundaries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/own-the-error.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/incident-investigation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/judgment-seat.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/capture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/finish-strong.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create-regular-connection.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/priorities-before-the-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "archetypes/notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/build-a-reliable-default.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/selling-static-sites.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/spaced-repetition.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 278
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+graph.md contains two matches at lines 16 and 22.
+
+A Python script will batch-process all note files. It will parse frontmatter, find the first non-empty line after it, and strip the title prefix. Capitalization may need adjustment for the remaining sentence.
+
+After stripping the title prefix, the first letter of each remaining sentence will be capitalized for proper grammar.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,js,mdc}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\*\\*.*\\*\\* = one-breath|\\*\\*Title\\*\\* =|Opening line.*\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\*\\*.*\\*\\* = one-breath|\\*\\*Title\\*\\* =|Opening line.*\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-06-30_04-43-36Z-notes-formatting-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-creator.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 19
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills",
+  "pattern": "\\*\\*.*\\*\\* ="
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills",
+  "pattern": "\\*\\*.*\\*\\* =",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A Python script will process all note files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Running a batch edit to strip `**Title** =` from each note's opening line, then updating the archetype and notes-creator guidance.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+
+NOTES_DIR = Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
+PATTERN = re.compile(r&#34;^\*\*[^*]+\*\* = (.*)$&#34;)
+changed = []
+skipped = []
+
+for path in sorted(NOTES_DIR.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        continue
+    end = text.find(&#34;\n---&#34;, 3)
+    if end == -1:
+        continue
+    body_start = end + 4  # after closing ---
+    body = text[body_start:]
+    lines = body.splitlines(keepends=True)
+
+    # find first non-empty content line
+    idx = None
+    for i, line in enumerate(lines):
+        if line.strip():
+            idx = i
+            break
+    if idx is None:
+        skipped.append(path.name)
+        continue
+
+    m = PATTERN.match(lines[idx].rstrip(&#34;\n&#34;))
+    if not m:
+        skipped.append(path.name)
+        continue
+
+    rest = m.group(1)
+    if rest and rest[0].islower():
+        rest = rest[0].upper() + rest[1:]
+
+    newline = &#34;\n&#34; if lines[idx].endswith(&#34;\n&#34;) else &#34;&#34;
+    lines[idx] = rest + newline
+    new_text = text[:body_start] + &#34;&#34;.join(lines)
+    if new_text != text:
+        path.write_text(new_text, encoding=&#34;utf-8&#34;)
+        changed.append(path.name)
+
+print(f&#34;Changed: {len(changed)}&#34;)
+print(f&#34;Skipped (no opening pattern): {len(skipped)}&#34;)
+if changed[:5]:
+    print(&#34;Sample:&#34;, &#34;, &#34;.join(changed[:5]))
+PY</summary>
+```bash
+python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES_DIR = Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+PATTERN = re.compile(r"^\*\*[^*]+\*\* = (.*)$")
+changed = []
+skipped = []
+
+for path in sorted(NOTES_DIR.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    end = text.find("\n---", 3)
+    if end == -1:
+        continue
+    body_start = end + 4  # after closing ---
+    body = text[body_start:]
+    lines = body.splitlines(keepends=True)
+
+    # find first non-empty content line
+    idx = None
+    for i, line in enumerate(lines):
+        if line.strip():
+            idx = i
+            break
+    if idx is None:
+        skipped.append(path.name)
+        continue
+
+    m = PATTERN.match(lines[idx].rstrip("\n"))
+    if not m:
+        skipped.append(path.name)
+        continue
+
+    rest = m.group(1)
+    if rest and rest[0].islower():
+        rest = rest[0].upper() + rest[1:]
+
+    newline = "\n" if lines[idx].endswith("\n") else ""
+    lines[idx] = rest + newline
+    new_text = text[:body_start] + "".join(lines)
+    if new_text != text:
+        path.write_text(new_text, encoding="utf-8")
+        changed.append(path.name)
+
+print(f"Changed: {len(changed)}")
+print(f"Skipped (no opening pattern): {len(skipped)}")
+if changed[:5]:
+    print("Sample:", ", ".join(changed[:5]))
+PY
+```
+
+```
+Changed: 171
+Skipped (no opening pattern): 43
+Sample: abide-in-me.md, accountability.md, adaptability.md, ask-seek-knock.md, assurance.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+171 files were updated. Now updating the notes archetype.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\*\\*[^*]+\\*\\* ="
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\*\\*[^*]+\\*\\* =",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/graph.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\*\\*[^*]+\\*\\* ="
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\*\\*[^*]+\\*\\* =",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/graph.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only graph.md retains the ** = pattern, intentionally within its Key Concept section.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Skipped files lack the `**Title** =` pattern. Some use different title formats instead.
+
+Updating the archetype template and JavaScript file to remove the "note name = " prefix. The getting-started guide will also be revised.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\*\\*[^*]+\\*\\* is "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\*\\*[^*]+\\*\\* is ",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pkm.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/para-method.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Done. Removed the `**Note name** =` prefix from the opening line in **171 notes**.
+
+**Before:** `**The Golden Rule** = treat others how you want to be treated...`  
+**After:** `Treat others how you want to be treated...`
+
+**43 notes** were left as-is — they already opened without that pattern (e.g. `Folders sort. Links think.` in associative-linking, or `**PKM** is...` in pkm).
+
+Also updated:
+- `archetypes/notes.md` — new notes no longer get the `**Title** =` template
+- `assets/js/notes-creator.js` — prompt guidance matches
+- `getting-started.md` — structure docs updated
+
+`graph.md` still uses `**Top 20%** =` etc. in Key Concept — those are glossary definitions, not the opening sentence.

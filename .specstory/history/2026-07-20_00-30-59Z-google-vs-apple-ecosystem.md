@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Drafting a blog post comparing the Google and Apple ecosystems.
 
-Reviewing the jorap-voice skill and existing blog posts to match the correct writing style and structure.</details></think>
+Reviewing the jorap-voice skill and existing blog posts to match the correct writing style and structure.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,49 +25,29 @@ I'll read your blog voice skill and a few similar posts so the draft matches you
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -174,19 +155,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing reference posts and checking available hero images before drafting the blog.</details></think>
+Reviewing reference posts and checking available hero images before drafting the blog.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -195,36 +170,22 @@ I'll pull in a few more reference posts and scan the repo for your Google/Apple 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -320,48 +281,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (3 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (3 files)
 
 | File |
 |------|
 | `assets/images/feature-consistent-ai-output.jpg` |
 | `assets/images/feature-mouse-wheel-click.jpg` |
 | `assets/images/feature-soundpeats-runfree.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Searching for images and existing ideas about the Google versus Apple ecosystem.</details></think>
+Searching for images and existing ideas about the Google versus Apple ecosystem.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -392,22 +337,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **18** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (18 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (18 files)
 
 | File |
 |------|
@@ -429,25 +366,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (18 files)
 | `assets/images/sustainable-publishing.jpg` |
 | `assets/images/duopoly.jpg` |
 | `assets/images/Consistent_AI_Web_Development_Blueprint.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
 
 </details></tool-use>
 
@@ -456,14 +380,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'm gathering details about JoRap's specific Google tools—Gmail, Chrome, and Android—to ground the blog draft in concrete examples.
 
-Also checking the ideas garden for additional notes.</details></think>
+Also checking the ideas garden for additional notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -530,34 +453,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -588,13 +496,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -606,34 +507,21 @@ Mapping out specific Google ecosystem evidence from the repository: Chrome brows
 
 Specific Apple references identified: a blocked outlet by an Apple charger, Apple TV lock-in, Apple Home, and iOS. The draft will use JoRap's voice, stay grounded in lived experience, and follow strict formatting rules including no em dashes, no currency, first-person narration, and specific details per section.
 
-The draft will acknowledge genuine Apple strengths rather than forcing artificial balance. Checking available image files for the hero section.</details></think>
+The draft will acknowledge genuine Apple strengths rather than forcing artificial balance. Checking available image files for the hero section.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
 
 </details></tool-use>
 
@@ -646,7 +534,8 @@ Drafting the blog post around five key themes. Cross-platform compatibility span
 
 Google defaults like Drive backups and Meet calls align with his workflow. USB-C universality avoids the Apple charger outlet block. Honest friction points include iMessage social pressure, handing kids OTPs on shared devices, and Apple TV lock-in against cheaper alternatives. Repair and upgrade limitations mirror the laptop post. He will concede Apple's strengths honestly.
 
-He will concede Apple's build quality, resale value, and iPad tablet appeal. Family FaceTime adoption and privacy marketing are noted too. The draft will mirror the desktop-laptop post format with a relatable opening, personality-driven sections, and a close on actual usage. The filename and slug are being finalized before writing and lint checks.</details></think>
+He will concede Apple's build quality, resale value, and iPad tablet appeal. Family FaceTime adoption and privacy marketing are noted too. The draft will mirror the desktop-laptop post format with a relatable opening, personality-driven sections, and a close on actual usage. The filename and slug are being finalized before writing and lint checks.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -655,50 +544,36 @@ Drafting the post in your voice, grounded in details from your existing posts.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running lint checks before drafting the blog post.</details></think>
+Running lint checks before drafting the blog post.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2>&1; pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2>&1; pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1; pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1; pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2>&1; pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2>&1; pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2>&1
 ```
 
 ```
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only content/english/blog/__google-over-apple-ecosystem.md
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only content/english/blog/__google-over-apple-ecosystem.md
 Blog frontmatter OK
 Slop lint OK
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
 Voice dash lint OK
 Voice lint OK
 $ python3 scripts/slop-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
 Slop lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -706,7 +581,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The draft blog comparing the Google and Apple ecosystems is complete and passes all linter checks.
 
-The draft is ready for review. It draws on existing blog details like the Mi Box S, second Android phone, and Google Meet earphone setup. Specific refinements such as exact phone models, switching timelines, or Google Home references can be added later.</details></think>
+The draft is ready for review. It draws on existing blog details like the Mi Box S, second Android phone, and Google Meet earphone setup. Specific refinements such as exact phone models, switching timelines, or Google Home references can be added later.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -746,18 +622,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Adding two points to the draft: Apple hardware is expensive, while Google is relatively more open.
 
-Reading the draft now. I'll weave in the points naturally using JoRap voice and relative terms like "premium" and "budget tier," avoiding specific currency amounts.</details></think>
+Reading the draft now. I'll weave in the points naturally using JoRap voice and relative terms like "premium" and "budget tier," avoiding specific currency amounts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
@@ -768,7 +639,8 @@ Apple hardware costs will be woven into the Android and possibly TV sections, or
 
 Relative pricing terms will describe Apple hardware without specific currency figures. Google's relative openness will be highlighted through USB-C, sideloading, manufacturer choice, and open-source Android.
 
-Apple’s premium pricing applies to phones, laptops, adapters, and streamers. Budget Android devices on Shopee offer a comparable alternative. Google’s ecosystem spans operating systems, while Apple’s AirDrop remains strictly Apple-to-Apple. Open standards such as Chromecast and Gmail IMAP contrast with Apple’s proprietary ports.</details></think>
+Apple’s premium pricing applies to phones, laptops, adapters, and streamers. Budget Android devices on Shopee offer a comparable alternative. Google’s ecosystem spans operating systems, while Apple’s AirDrop remains strictly Apple-to-Apple. Open standards such as Chromecast and Gmail IMAP contrast with Apple’s proprietary ports.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -777,71 +649,50 @@ I'll weave in the cost contrast and Google's relative openness in your voice, wi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running linters to verify everything passes.</details></think>
+Running linters to verify everything passes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1 &amp;&amp; pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1 &amp;&amp; pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2>&1
 ```
 
 ```
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only content/english/blog/__google-over-apple-ecosystem.md
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only content/english/blog/__google-over-apple-ecosystem.md
 Blog frontmatter OK
 Slop lint OK
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
 Voice dash lint OK
 Voice lint OK
 $ python3 scripts/slop-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
 Slop lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Apple hardware is expensive. Google is relatively more open.</details></think>
+Apple hardware is expensive. Google is relatively more open.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -866,18 +717,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The blog post should explain why the Google ecosystem outperforms Apple in corporate settings.
 
-I'll read the current draft and weave in corporate angles that fit JoRap's voice. He builds WordPress sites for clients and uses Google Workspace and Meet. I'll cover client work, shared docs, BYOD, Android fleet management, cost, and cross-platform teams.</details></think>
+I'll read the current draft and weave in corporate angles that fit JoRap's voice. He builds WordPress sites for clients and uses Google Workspace and Meet. I'll cover client work, shared docs, BYOD, Android fleet management, cost, and cross-platform teams.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
@@ -888,7 +734,8 @@ A section on corporate and business use will be added.
 
 The perspective comes from freelance WordPress work rather than running an IT department. Google Workspace avoids hardware costs and Mac distribution. It supports mixed Android and Windows devices. Shared documents and Meet links work across operating systems without requiring specific software.
 
-The section will be titled with personality rather than a dry corporate label. It will cover client handoffs via Gmail and Meet, and how contractors on random laptops join meetings. It will likely sit after the Files section or before the "What I give up" section.</details></think>
+The section will be titled with personality rather than a dry corporate label. It will cover client handoffs via Gmail and Meet, and how contractors on random laptops join meetings. It will likely sit after the Files section or before the "What I give up" section.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -897,71 +744,50 @@ Adding a corporate angle tied to your client and freelance work.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running linters.</details></think>
+Running linters.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1 &amp;&amp; pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1 &amp;&amp; pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2>&1
 ```
 
 ```
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only content/english/blog/__google-over-apple-ecosystem.md
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only content/english/blog/__google-over-apple-ecosystem.md
 Blog frontmatter OK
 Slop lint OK
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
 Voice dash lint OK
 Voice lint OK
 $ python3 scripts/slop-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
 Slop lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The analysis is complete.</details></think>
+The analysis is complete.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -989,14 +815,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The backup phone is kept in a bag rather than a drawer.
 
-Checking the blog post and related drafts for "drawer" references that need updating.</details></think>
+Checking the blog post and related drafts for "drawer" references that need updating.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1028,21 +853,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1073,13 +889,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1091,72 +900,42 @@ Four specific lines need updating. "Drawer phone" is a metaphorical concept term
 
 I will leave the second-cellphone post untouched. The replacements will use natural phrasing like "buried in my bag."
 
-Line 57 will reference a travel SIM box for a second handset kept out of daily rotation. Line 117 will describe the cheap Android as a pocket device rarely reached unless intended. The JoRap voice will stay concise.</details></think>
+Line 57 will reference a travel SIM box for a second handset kept out of daily rotation. Line 117 will describe the cheap Android as a pocket device rarely reached unless intended. The JoRap voice will stay concise.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The second-cellphone draft also incorrectly states the backup phone is in a drawer. I'll correct that too.</details></think>
+The second-cellphone draft also incorrectly states the backup phone is in a drawer. I'll correct that too.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1165,10 +944,8 @@ The Google post is updated. I'll fix the same bag-vs-drawer detail in your secon
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1199,30 +976,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I noticed the second post also mentions hiding the phone in a bag. I will read the full file to verify.</details></think>
+I noticed the second post also mentions hiding the phone in a bag. I will read the full file to verify.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
 
 </details></tool-use>
 
@@ -1231,98 +996,61 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The second post already mentions hiding the phone in a bag, but still contains inconsistent drawer references.
 
-I'll correct the second post too for consistency. "Drawer" becomes "bag" throughout. I'll mention both fixes.</details></think>
+I'll correct the second post too for consistency. "Drawer" becomes "bag" throughout. I'll mention both fixes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md 2>&1 && pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md 2&gt;&amp;1 &amp;&amp; pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md 2>&1 && pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md 2>&1
 ```
 
 ```
-$ python3 scripts/normalize-blog-frontmatter.py --verify &amp;&amp; python3 scripts/slop-lint.py --check --blog-only content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md
 Blog frontmatter OK
 Slop lint OK
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__google-over-apple-ecosystem.md content/english/blog/__second-cellphone.md
 Voice dash lint OK
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The backup phone is kept in a bag rather than a drawer.</details></think>
+The backup phone is kept in a bag rather than a drawer.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1343,27 +1071,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user wants the Google versus Apple blog post updated to reflect their actual browser setup.
 
-Brave is the personal browser. Chrome is used for work and testing. I will locate all Chrome references in the post and correct them to reflect this distinction.</details></think>
+Brave is the personal browser. Chrome is used for work and testing. I will locate all Chrome references in the post and correct them to reflect this distinction.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1407,13 +1128,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1425,55 +1139,90 @@ A new heading should frame Brave as the personal choice and Chrome as the work b
 
 The rewritten section will be titled "## Brave for daily life, Chrome for work." Brave is a practical middle ground: it runs on Chromium, keeps Google services accessible, and avoids locking the user into Apple's ecosystem.
 
-Chrome is chosen for WordPress, Meet, developer tools, and QA because most visitors use it. Safari on borrowed Macs still fights the extension stack. The split between Brave and Chrome is intentional, not a compromise. Chromium gives real cross-platform choice; Safari locks users into Apple's ecosystem. The tone stays JoRap and avoids em dashes.</details></think>
+Chrome is chosen for WordPress, Meet, developer tools, and QA because most visitors use it. Safari on borrowed Macs still fights the extension stack. The split between Brave and Chrome is intentional, not a compromise. Chromium gives real cross-platform choice; Safari locks users into Apple's ecosystem. The tone stays JoRap and avoids em dashes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+Updating the browser section to reflect Brave for personal use and Chrome for work/testing.
 
-<details><summary>Tool use: **edit_file_v2**</summary>
 
-Status: **loading**
-
-</details>
-
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2**</summary>
-
-Status: **loading**
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2**</summary>
-
-Status: **loading**
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running linters.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1 &amp;&amp; pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1 &amp;&amp; pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md 2>&1 && pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md 2>&1
+```
+
+```
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only content/english/blog/__google-over-apple-ecosystem.md
+Blog frontmatter OK
+Slop lint OK
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/slop-lint.py --check content/english/blog/__google-over-apple-ecosystem.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user prefers Brave for personal browsing and Chrome for work testing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated the browser section to **"Brave for me, Chrome for work"**:
+
+- **Brave** for everyday browsing (blocks junk, still Chromium)
+- **Chrome** in a separate work profile for client logins, dev tools, extensions
+- **Site testing in Chrome first** because it's still the most-used browser - Brave can look fine while Chrome shows the bug
+- Chromium-on-every-OS vs Safari's Apple-hardware story
+- Closing list now says Brave daily, Chrome for client work and QA
+
+Description, tags, and the "What I actually run" section match. Linters pass.

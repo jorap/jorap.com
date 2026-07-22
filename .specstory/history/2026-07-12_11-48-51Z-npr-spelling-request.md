@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user wants the abbreviation "npr" spelled out.
 
-Searching the codebase for "npr" to identify the specific abbreviation.</details></think>
+Searching the codebase for "npr" to identify the specific abbreviation.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,10 +25,8 @@ Searching the codebase for "npr" to see what should be spelled out.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -62,25 +61,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
@@ -89,7 +75,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The search located "NPR" in the instant-pot-arroz-caldo.md blog post, not in extension-cord.md.
 
-"NPR" stands for "Natural Pressure Release" in that blog post. I'll read the file to expand the abbreviation.</details></think>
+"NPR" stands for "Natural Pressure Release" in that blog post. I'll read the file to expand the abbreviation.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -98,14 +85,8 @@ Found "NPR" in the Instant Pot post — likely "Natural Pressure Release". Readi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
 
 </details></tool-use>
 
@@ -114,7 +95,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user wants to spell out "NPR" on line 36.
 
-Line 36 should spell out "natural pressure release" to match the document's existing full phrases.</details></think>
+Line 36 should spell out "natural pressure release" to match the document's existing full phrases.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -123,23 +105,16 @@ Spelling out the lone "NPR" abbreviation in the Instant Pot post to match the re
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-NPR stands for Natural Pressure Release.</details></think>
+NPR stands for Natural Pressure Release.
+</details></think>
 
 _**Agent (auto-low)**_
 

@@ -17,10 +17,8 @@ I'll inspect how scale clues are defined in the randomizer data and how categori
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -127,60 +125,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -211,13 +182,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -233,31 +197,20 @@ The implementation plan is now clear. `scale-clues` will use a flat `items` list
 
 The `isDirectPlay` and `flatItems` functions both hardcode `spectrum` and `personal`. I will extend both to include `ranked-prompts` so flat items work correctly.
 
-Collection cards currently show category counts, so that logic must change to display prompt counts for ranked-prompts with flat items. Generating 500 items manually is impractical, so a script or expanded YAML is needed. Existing items follow patterns like "X from least to most Y" or "Worst to best X".</details></think>
+Collection cards currently show category counts, so that logic must change to display prompt counts for ranked-prompts with flat items. Generating 500 items manually is impractical, so a script or expanded YAML is needed. Existing items follow patterns like "X from least to most Y" or "Worst to best X".
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
 
 </details></tool-use>
 
@@ -268,7 +221,8 @@ Generating 500 scale-clues items with no categories.
 
 Restructuring YAML to flat items. Updating randomizer.js to treat ranked-prompts as direct play when items exist without categories.
 
-Adding ranked-prompts to the direct-play and flat-items logic. Collection cards will show item counts for ranked-prompts. A Python script will generate 500 diverse scale-clues prompts using templates like "from least to most" and "worst to best".</details></think>
+Adding ranked-prompts to the direct-play and flat-items logic. Collection cards will show item counts for ranked-prompts. A Python script will generate 500 diverse scale-clues prompts using templates like "from least to most" and "worst to best".
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -277,255 +231,255 @@ Restructuring scale-clues to a flat list and generating 500 items. Updating the 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml, textwrap
 
 # Templates: (pattern, subjects list) — family-friendly, worldwide audience
 templates = [
-    ("{s} from least to most stressful on a Monday morning.", [
-        "Jobs", "School subjects", "Household chores", "Errands", "Morning routines",
-        "Commutes", "Meetings", "Deadlines", "Appointments", "Phone calls",
+    (&#34;{s} from least to most stressful on a Monday morning.&#34;, [
+        &#34;Jobs&#34;, &#34;School subjects&#34;, &#34;Household chores&#34;, &#34;Errands&#34;, &#34;Morning routines&#34;,
+        &#34;Commutes&#34;, &#34;Meetings&#34;, &#34;Deadlines&#34;, &#34;Appointments&#34;, &#34;Phone calls&#34;,
     ]),
-    ("{s} from quietest to most talkative.", [
-        "People at a party", "Classmates", "Coworkers", "Family members at dinner",
-        "Guests at a wedding", "Kids at a playground", "Shoppers in a store",
-        "Passengers on a bus", "Neighbors", "Teammates on the bench",
+    (&#34;{s} from quietest to most talkative.&#34;, [
+        &#34;People at a party&#34;, &#34;Classmates&#34;, &#34;Coworkers&#34;, &#34;Family members at dinner&#34;,
+        &#34;Guests at a wedding&#34;, &#34;Kids at a playground&#34;, &#34;Shoppers in a store&#34;,
+        &#34;Passengers on a bus&#34;, &#34;Neighbors&#34;, &#34;Teammates on the bench&#34;,
     ]),
-    ("{s} from least to most likely to remember a birthday.", [
-        "Family members", "Friends", "Coworkers", "Neighbors", "Classmates",
-        "Relatives", "Roommates", "Teammates", "Teachers", "Siblings",
+    (&#34;{s} from least to most likely to remember a birthday.&#34;, [
+        &#34;Family members&#34;, &#34;Friends&#34;, &#34;Coworkers&#34;, &#34;Neighbors&#34;, &#34;Classmates&#34;,
+        &#34;Relatives&#34;, &#34;Roommates&#34;, &#34;Teammates&#34;, &#34;Teachers&#34;, &#34;Siblings&#34;,
     ]),
-    ("{s} from least to most useful during a power outage.", [
-        "Household items", "Tools", "Snacks", "Light sources", "Blankets",
-        "Board games", "Books", "Batteries", "Candles", "Water containers",
+    (&#34;{s} from least to most useful during a power outage.&#34;, [
+        &#34;Household items&#34;, &#34;Tools&#34;, &#34;Snacks&#34;, &#34;Light sources&#34;, &#34;Blankets&#34;,
+        &#34;Board games&#34;, &#34;Books&#34;, &#34;Batteries&#34;, &#34;Candles&#34;, &#34;Water containers&#34;,
     ]),
-    ("Worst to best {s}.", [
-        "items to pack for a long road trip", "snacks to eat in a quiet room",
-        "excuses for being late to a family dinner", "foods to spill on clean clothes",
-        "things to forget on the morning of a school trip", "gifts for a picky relative",
-        "places to nap on a busy day", "sounds to hear while studying",
-        "smells in a kitchen", "things to step on barefoot",
-        "items to leave in a hot car", "ways to wake someone up",
-        "things to find in your pocket", "surprises at a birthday party",
-        "items to borrow from a neighbor", "things to do on a rainy afternoon",
-        "places to sit during a long wait", "things to bring to a picnic",
-        "ways to cool down on a hot day", "things to organize on a Sunday",
-        "items in a first-aid kit by usefulness", "things to say when you burn dinner",
-        "places to hide snacks from siblings", "ways to cheer up a friend",
-        "things to clean before guests arrive", "items to keep in a desk drawer",
-        "ways to pass time on a long flight", "things to do when the Wi-Fi is down",
-        "places to read on a lazy afternoon", "things to pack for a beach day",
-        "ways to stay warm without a heater", "things to photograph on vacation",
-        "items to grab in a fire drill practice", "ways to make a small room feel bigger",
-        "things to do before bed", "items to keep in a car glove box",
-        "ways to celebrate a small win", "things to write on a thank-you card",
-        "places to stargaze", "things to do on your first day somewhere new",
+    (&#34;Worst to best {s}.&#34;, [
+        &#34;items to pack for a long road trip&#34;, &#34;snacks to eat in a quiet room&#34;,
+        &#34;excuses for being late to a family dinner&#34;, &#34;foods to spill on clean clothes&#34;,
+        &#34;things to forget on the morning of a school trip&#34;, &#34;gifts for a picky relative&#34;,
+        &#34;places to nap on a busy day&#34;, &#34;sounds to hear while studying&#34;,
+        &#34;smells in a kitchen&#34;, &#34;things to step on barefoot&#34;,
+        &#34;items to leave in a hot car&#34;, &#34;ways to wake someone up&#34;,
+        &#34;things to find in your pocket&#34;, &#34;surprises at a birthday party&#34;,
+        &#34;items to borrow from a neighbor&#34;, &#34;things to do on a rainy afternoon&#34;,
+        &#34;places to sit during a long wait&#34;, &#34;things to bring to a picnic&#34;,
+        &#34;ways to cool down on a hot day&#34;, &#34;things to organize on a Sunday&#34;,
+        &#34;items in a first-aid kit by usefulness&#34;, &#34;things to say when you burn dinner&#34;,
+        &#34;places to hide snacks from siblings&#34;, &#34;ways to cheer up a friend&#34;,
+        &#34;things to clean before guests arrive&#34;, &#34;items to keep in a desk drawer&#34;,
+        &#34;ways to pass time on a long flight&#34;, &#34;things to do when the Wi-Fi is down&#34;,
+        &#34;places to read on a lazy afternoon&#34;, &#34;things to pack for a beach day&#34;,
+        &#34;ways to stay warm without a heater&#34;, &#34;things to photograph on vacation&#34;,
+        &#34;items to grab in a fire drill practice&#34;, &#34;ways to make a small room feel bigger&#34;,
+        &#34;things to do before bed&#34;, &#34;items to keep in a car glove box&#34;,
+        &#34;ways to celebrate a small win&#34;, &#34;things to write on a thank-you card&#34;,
+        &#34;places to stargaze&#34;, &#34;things to do on your first day somewhere new&#34;,
     ]),
-    ("{s} from least to most photogenic.", [
-        "Animals", "Landmarks", "Flowers", "Sunsets", "Buildings",
-        "Birds", "Parks", "Beaches", "Mountains", "Street scenes",
+    (&#34;{s} from least to most photogenic.&#34;, [
+        &#34;Animals&#34;, &#34;Landmarks&#34;, &#34;Flowers&#34;, &#34;Sunsets&#34;, &#34;Buildings&#34;,
+        &#34;Birds&#34;, &#34;Parks&#34;, &#34;Beaches&#34;, &#34;Mountains&#34;, &#34;Street scenes&#34;,
     ]),
-    ("{s} from least to most messy to eat.", [
-        "Fruits", "Snacks", "Desserts", "Street foods", "Sandwiches",
-        "Pastries", "Soups", "Salads", "Finger foods", "Breakfast foods",
+    (&#34;{s} from least to most messy to eat.&#34;, [
+        &#34;Fruits&#34;, &#34;Snacks&#34;, &#34;Desserts&#34;, &#34;Street foods&#34;, &#34;Sandwiches&#34;,
+        &#34;Pastries&#34;, &#34;Soups&#34;, &#34;Salads&#34;, &#34;Finger foods&#34;, &#34;Breakfast foods&#34;,
     ]),
-    ("{s} from calmest to most energetic.", [
-        "Colors", "Music genres", "Dance styles", "Workout types", "Hobbies",
-        "Room decorations", "Party themes", "Sports", "Cartoon characters", "Weather types",
+    (&#34;{s} from calmest to most energetic.&#34;, [
+        &#34;Colors&#34;, &#34;Music genres&#34;, &#34;Dance styles&#34;, &#34;Workout types&#34;, &#34;Hobbies&#34;,
+        &#34;Room decorations&#34;, &#34;Party themes&#34;, &#34;Sports&#34;, &#34;Cartoon characters&#34;, &#34;Weather types&#34;,
     ]),
-    ("{s} from quickest to longest to finish.", [
-        "Board games", "Card games", "Puzzles", "Chores", "Homework tasks",
-        "Cooking recipes", "Craft projects", "Movies", "Books", "Road trips",
+    (&#34;{s} from quickest to longest to finish.&#34;, [
+        &#34;Board games&#34;, &#34;Card games&#34;, &#34;Puzzles&#34;, &#34;Chores&#34;, &#34;Homework tasks&#34;,
+        &#34;Cooking recipes&#34;, &#34;Craft projects&#34;, &#34;Movies&#34;, &#34;Books&#34;, &#34;Road trips&#34;,
     ]),
-    ("{s} from quietest to noisiest.", [
-        "Rooms in a home", "Appliances", "Musical instruments", "Toys",
-        "Pets", "Vehicles", "Kitchen tools", "Sports", "Celebrations", "Weather events",
+    (&#34;{s} from quietest to noisiest.&#34;, [
+        &#34;Rooms in a home&#34;, &#34;Appliances&#34;, &#34;Musical instruments&#34;, &#34;Toys&#34;,
+        &#34;Pets&#34;, &#34;Vehicles&#34;, &#34;Kitchen tools&#34;, &#34;Sports&#34;, &#34;Celebrations&#34;, &#34;Weather events&#34;,
     ]),
-    ("{s} from softest to hardest.", [
-        "Fabrics", "Pillows", "Fruits when ripe", "Bread types", "Mattresses",
-        "Stuffed animals", "Cheeses", "Ground surfaces to walk on", "Balls to catch", "Sponges",
+    (&#34;{s} from softest to hardest.&#34;, [
+        &#34;Fabrics&#34;, &#34;Pillows&#34;, &#34;Fruits when ripe&#34;, &#34;Bread types&#34;, &#34;Mattresses&#34;,
+        &#34;Stuffed animals&#34;, &#34;Cheeses&#34;, &#34;Ground surfaces to walk on&#34;, &#34;Balls to catch&#34;, &#34;Sponges&#34;,
     ]),
-    ("{s} from lightest to heaviest.", [
-        "Everyday objects", "Sports equipment", "School supplies", "Kitchen tools",
-        "Books", "Bags when packed", "Fruits", "Containers when full", "Hand tools", "Musical cases",
+    (&#34;{s} from lightest to heaviest.&#34;, [
+        &#34;Everyday objects&#34;, &#34;Sports equipment&#34;, &#34;School supplies&#34;, &#34;Kitchen tools&#34;,
+        &#34;Books&#34;, &#34;Bags when packed&#34;, &#34;Fruits&#34;, &#34;Containers when full&#34;, &#34;Hand tools&#34;, &#34;Musical cases&#34;,
     ]),
-    ("{s} from mildest to spiciest.", [
-        "Sauces", "Snacks", "Soups", "Street foods", "Seasonings",
-        "Restaurant dishes", "Chips flavors", "Noodle dishes", "Dips", "Marinades",
+    (&#34;{s} from mildest to spiciest.&#34;, [
+        &#34;Sauces&#34;, &#34;Snacks&#34;, &#34;Soups&#34;, &#34;Street foods&#34;, &#34;Seasonings&#34;,
+        &#34;Restaurant dishes&#34;, &#34;Chips flavors&#34;, &#34;Noodle dishes&#34;, &#34;Dips&#34;, &#34;Marinades&#34;,
     ]),
-    ("{s} from least to most expensive.", [
-        "Hobbies", "Sports to try", "Gifts for a teenager", "Vacation ideas",
-        "Musical instruments", "Pets to own", "Weekend activities", "School supplies",
-        "Household upgrades", "Birthday party ideas",
+    (&#34;{s} from least to most expensive.&#34;, [
+        &#34;Hobbies&#34;, &#34;Sports to try&#34;, &#34;Gifts for a teenager&#34;, &#34;Vacation ideas&#34;,
+        &#34;Musical instruments&#34;, &#34;Pets to own&#34;, &#34;Weekend activities&#34;, &#34;School supplies&#34;,
+        &#34;Household upgrades&#34;, &#34;Birthday party ideas&#34;,
     ]),
-    ("{s} from least to most relaxing.", [
-        "Weekend activities", "Sounds", "Scents", "Places to visit", "Hobbies",
-        "Beverages", "Textures", "Rooms to sit in", "Vacation spots", "Ways to unwind",
+    (&#34;{s} from least to most relaxing.&#34;, [
+        &#34;Weekend activities&#34;, &#34;Sounds&#34;, &#34;Scents&#34;, &#34;Places to visit&#34;, &#34;Hobbies&#34;,
+        &#34;Beverages&#34;, &#34;Textures&#34;, &#34;Rooms to sit in&#34;, &#34;Vacation spots&#34;, &#34;Ways to unwind&#34;,
     ]),
-    ("{s} from least to most exciting.", [
-        "Rides at a fair", "Sports to watch", "Movies to see in theaters",
-        "Surprise party ideas", "Games for game night", "Holiday traditions",
-        "Road trip stops", "Birthday activities", "Team sports to play", "Adventure activities",
+    (&#34;{s} from least to most exciting.&#34;, [
+        &#34;Rides at a fair&#34;, &#34;Sports to watch&#34;, &#34;Movies to see in theaters&#34;,
+        &#34;Surprise party ideas&#34;, &#34;Games for game night&#34;, &#34;Holiday traditions&#34;,
+        &#34;Road trip stops&#34;, &#34;Birthday activities&#34;, &#34;Team sports to play&#34;, &#34;Adventure activities&#34;,
     ]),
-    ("{s} from least to most embarrassing in public.", [
-        "Mishaps", "Outfit choices", "Things to say by accident", "Dance moves",
-        "Ringtone choices", "Things to drop", "Ways to trip", "Foods to eat clumsily",
-        "Things parents say loudly", "Ways to wave hello",
+    (&#34;{s} from least to most embarrassing in public.&#34;, [
+        &#34;Mishaps&#34;, &#34;Outfit choices&#34;, &#34;Things to say by accident&#34;, &#34;Dance moves&#34;,
+        &#34;Ringtone choices&#34;, &#34;Things to drop&#34;, &#34;Ways to trip&#34;, &#34;Foods to eat clumsily&#34;,
+        &#34;Things parents say loudly&#34;, &#34;Ways to wave hello&#34;,
     ]),
-    ("{s} from least to most impressive to learn.", [
-        "Skills", "Languages", "Instruments", "Magic tricks", "Recipes",
-        "Sports moves", "Crafts", "Dance moves", "Card tricks", "Drawing techniques",
+    (&#34;{s} from least to most impressive to learn.&#34;, [
+        &#34;Skills&#34;, &#34;Languages&#34;, &#34;Instruments&#34;, &#34;Magic tricks&#34;, &#34;Recipes&#34;,
+        &#34;Sports moves&#34;, &#34;Crafts&#34;, &#34;Dance moves&#34;, &#34;Card tricks&#34;, &#34;Drawing techniques&#34;,
     ]),
-    ("{s} from least to most dangerous if done carelessly.", [
-        "Kitchen tasks", "DIY projects", "Sports", "Outdoor activities",
-        "Things to do on a ladder", "Things to do with scissors", "Science experiments at home",
-        "Things to carry while walking", "Ways to cross a street", "Things to plug in",
+    (&#34;{s} from least to most dangerous if done carelessly.&#34;, [
+        &#34;Kitchen tasks&#34;, &#34;DIY projects&#34;, &#34;Sports&#34;, &#34;Outdoor activities&#34;,
+        &#34;Things to do on a ladder&#34;, &#34;Things to do with scissors&#34;, &#34;Science experiments at home&#34;,
+        &#34;Things to carry while walking&#34;, &#34;Ways to cross a street&#34;, &#34;Things to plug in&#34;,
     ]),
-    ("{s} from least to most likely to make you late.", [
-        "Morning habits", "Distractions", "Chores", "Notifications", "Snooze-button habits",
-        "Breakfast choices", "Traffic situations", "Last-minute tasks", "Weather delays", "Forgotten items",
+    (&#34;{s} from least to most likely to make you late.&#34;, [
+        &#34;Morning habits&#34;, &#34;Distractions&#34;, &#34;Chores&#34;, &#34;Notifications&#34;, &#34;Snooze-button habits&#34;,
+        &#34;Breakfast choices&#34;, &#34;Traffic situations&#34;, &#34;Last-minute tasks&#34;, &#34;Weather delays&#34;, &#34;Forgotten items&#34;,
     ]),
-    ("{s} from least to most satisfying to complete.", [
-        "Chores", "Puzzles", "Craft projects", "Workouts", "Organizing tasks",
-        "Homework assignments", "Gardening jobs", "Cooking tasks", "Cleaning jobs", "To-do list items",
+    (&#34;{s} from least to most satisfying to complete.&#34;, [
+        &#34;Chores&#34;, &#34;Puzzles&#34;, &#34;Craft projects&#34;, &#34;Workouts&#34;, &#34;Organizing tasks&#34;,
+        &#34;Homework assignments&#34;, &#34;Gardening jobs&#34;, &#34;Cooking tasks&#34;, &#34;Cleaning jobs&#34;, &#34;To-do list items&#34;,
     ]),
-    ("{s} from least to most awkward at a party.", [
-        "Conversation starters", "Dance moves", "Ways to hold a plate", "Icebreaker games",
-        "Things to wear", "Ways to greet someone new", "Things to bring as a guest",
-        "Ways to leave early politely", "Topics to bring up", "Ways to join a group chat",
+    (&#34;{s} from least to most awkward at a party.&#34;, [
+        &#34;Conversation starters&#34;, &#34;Dance moves&#34;, &#34;Ways to hold a plate&#34;, &#34;Icebreaker games&#34;,
+        &#34;Things to wear&#34;, &#34;Ways to greet someone new&#34;, &#34;Things to bring as a guest&#34;,
+        &#34;Ways to leave early politely&#34;, &#34;Topics to bring up&#34;, &#34;Ways to join a group chat&#34;,
     ]),
-    ("{s} from least to most refreshing.", [
-        "Drinks on a hot day", "Showers after exercise", "Breezes", "Fruits",
-        "Swimming spots", "Morning rituals", "Snacks after school", "Desserts in summer",
-        "Ways to cool a room", "Afternoon breaks",
+    (&#34;{s} from least to most refreshing.&#34;, [
+        &#34;Drinks on a hot day&#34;, &#34;Showers after exercise&#34;, &#34;Breezes&#34;, &#34;Fruits&#34;,
+        &#34;Swimming spots&#34;, &#34;Morning rituals&#34;, &#34;Snacks after school&#34;, &#34;Desserts in summer&#34;,
+        &#34;Ways to cool a room&#34;, &#34;Afternoon breaks&#34;,
     ]),
-    ("{s} from least to most comforting.", [
-        "Foods when you are sick", "Sounds on a rainy day", "Textures", "Smells at home",
-        "Movies to rewatch", "Blanket types", "Hot drinks", "Childhood memories", "Hugs from family",
-        "Places to sit when tired",
+    (&#34;{s} from least to most comforting.&#34;, [
+        &#34;Foods when you are sick&#34;, &#34;Sounds on a rainy day&#34;, &#34;Textures&#34;, &#34;Smells at home&#34;,
+        &#34;Movies to rewatch&#34;, &#34;Blanket types&#34;, &#34;Hot drinks&#34;, &#34;Childhood memories&#34;, &#34;Hugs from family&#34;,
+        &#34;Places to sit when tired&#34;,
     ]),
-    ("{s} from least to most surprising as a gift.", [
-        "Birthday gifts", "Stocking stuffers", "Thank-you gifts", "Housewarming gifts",
-        "Teacher gifts", "Graduation gifts", "Holiday gifts", "Secret Santa gifts",
-        "Gifts for a coworker", "Gifts for a neighbor",
+    (&#34;{s} from least to most surprising as a gift.&#34;, [
+        &#34;Birthday gifts&#34;, &#34;Stocking stuffers&#34;, &#34;Thank-you gifts&#34;, &#34;Housewarming gifts&#34;,
+        &#34;Teacher gifts&#34;, &#34;Graduation gifts&#34;, &#34;Holiday gifts&#34;, &#34;Secret Santa gifts&#34;,
+        &#34;Gifts for a coworker&#34;, &#34;Gifts for a neighbor&#34;,
     ]),
-    ("{s} from least to most likely to start an argument.", [
-        "Board game rules", "Topics at dinner", "Movie picks", "Restaurant choices",
-        "Music on a road trip", "Thermostat settings", "Pizza toppings", "Weekend plans",
-        "Sports teams to support", "Chores to assign",
+    (&#34;{s} from least to most likely to start an argument.&#34;, [
+        &#34;Board game rules&#34;, &#34;Topics at dinner&#34;, &#34;Movie picks&#34;, &#34;Restaurant choices&#34;,
+        &#34;Music on a road trip&#34;, &#34;Thermostat settings&#34;, &#34;Pizza toppings&#34;, &#34;Weekend plans&#34;,
+        &#34;Sports teams to support&#34;, &#34;Chores to assign&#34;,
     ]),
-    ("{s} from least to most useful in a kitchen.", [
-        "Utensils", "Appliances", "Spices", "Containers", "Cleaning tools",
-        "Gadgets", "Pots and pans", "Cutting tools", "Storage ideas", "Small appliances",
+    (&#34;{s} from least to most useful in a kitchen.&#34;, [
+        &#34;Utensils&#34;, &#34;Appliances&#34;, &#34;Spices&#34;, &#34;Containers&#34;, &#34;Cleaning tools&#34;,
+        &#34;Gadgets&#34;, &#34;Pots and pans&#34;, &#34;Cutting tools&#34;, &#34;Storage ideas&#34;, &#34;Small appliances&#34;,
     ]),
-    ("{s} from least to most fun at a sleepover.", [
-        "Games", "Snacks", "Movies", "Activities", "Pranks that stay harmless",
-        "Music playlists", "Truth-or-dare questions", "Late-night talks", "Pillow fort ideas",
-        "Morning breakfast ideas",
+    (&#34;{s} from least to most fun at a sleepover.&#34;, [
+        &#34;Games&#34;, &#34;Snacks&#34;, &#34;Movies&#34;, &#34;Activities&#34;, &#34;Pranks that stay harmless&#34;,
+        &#34;Music playlists&#34;, &#34;Truth-or-dare questions&#34;, &#34;Late-night talks&#34;, &#34;Pillow fort ideas&#34;,
+        &#34;Morning breakfast ideas&#34;,
     ]),
-    ("{s} from least to most likely to survive a week without charging.", [
-        "Gadgets", "Toys with batteries", "Flashlights", "Remote controls",
-        "Watches", "Portable speakers", "Handheld games", "Calculators", "Keyboards", "Mice",
+    (&#34;{s} from least to most likely to survive a week without charging.&#34;, [
+        &#34;Gadgets&#34;, &#34;Toys with batteries&#34;, &#34;Flashlights&#34;, &#34;Remote controls&#34;,
+        &#34;Watches&#34;, &#34;Portable speakers&#34;, &#34;Handheld games&#34;, &#34;Calculators&#34;, &#34;Keyboards&#34;, &#34;Mice&#34;,
     ]),
-    ("{s} from least to most dramatic in a story.", [
-        "Plot twists", "Weather events in fiction", "Villain entrances", "Reveal moments",
-        "Goodbyes", "Reunion scenes", "Sports comeback moments", "Surprise endings",
-        "Arguments in a movie", "Rescue scenes",
+    (&#34;{s} from least to most dramatic in a story.&#34;, [
+        &#34;Plot twists&#34;, &#34;Weather events in fiction&#34;, &#34;Villain entrances&#34;, &#34;Reveal moments&#34;,
+        &#34;Goodbyes&#34;, &#34;Reunion scenes&#34;, &#34;Sports comeback moments&#34;, &#34;Surprise endings&#34;,
+        &#34;Arguments in a movie&#34;, &#34;Rescue scenes&#34;,
     ]),
-    ("{s} from least to most polite.", [
-        "Ways to decline an invitation", "Ways to ask for help", "Ways to interrupt politely",
-        "Ways to say no", "Ways to thank someone", "Ways to apologize", "Ways to compliment someone",
-        "Ways to ask someone to lower their voice", "Ways to leave a group chat", "Ways to return something borrowed",
+    (&#34;{s} from least to most polite.&#34;, [
+        &#34;Ways to decline an invitation&#34;, &#34;Ways to ask for help&#34;, &#34;Ways to interrupt politely&#34;,
+        &#34;Ways to say no&#34;, &#34;Ways to thank someone&#34;, &#34;Ways to apologize&#34;, &#34;Ways to compliment someone&#34;,
+        &#34;Ways to ask someone to lower their voice&#34;, &#34;Ways to leave a group chat&#34;, &#34;Ways to return something borrowed&#34;,
     ]),
-    ("{s} from least to most likely to impress a crowd.", [
-        "Talent show acts", "Desserts to bring", "Party tricks", "Outfits for a formal event",
-        "Speeches", "Science fair projects", "Art pieces", "Musical performances",
-        "Athletic feats", "Magic tricks",
+    (&#34;{s} from least to most likely to impress a crowd.&#34;, [
+        &#34;Talent show acts&#34;, &#34;Desserts to bring&#34;, &#34;Party tricks&#34;, &#34;Outfits for a formal event&#34;,
+        &#34;Speeches&#34;, &#34;Science fair projects&#34;, &#34;Art pieces&#34;, &#34;Musical performances&#34;,
+        &#34;Athletic feats&#34;, &#34;Magic tricks&#34;,
     ]),
-    ("{s} from least to most likely to be forgotten at home.", [
-        "School items", "Work items", "Travel essentials", "Grocery list items",
-        "Gym bag items", "Umbrellas", "Water bottles", "Lunch boxes", "Keys", "Chargers",
+    (&#34;{s} from least to most likely to be forgotten at home.&#34;, [
+        &#34;School items&#34;, &#34;Work items&#34;, &#34;Travel essentials&#34;, &#34;Grocery list items&#34;,
+        &#34;Gym bag items&#34;, &#34;Umbrellas&#34;, &#34;Water bottles&#34;, &#34;Lunch boxes&#34;, &#34;Keys&#34;, &#34;Chargers&#34;,
     ]),
-    ("{s} from least to most likely to cheer someone up.", [
-        "Small gestures", "Text messages", "Snacks to share", "Songs to play",
-        "Compliments", "Memes to send", "Walks to suggest", "Movies to recommend",
-        "Flowers to bring", "Jokes to tell",
+    (&#34;{s} from least to most likely to cheer someone up.&#34;, [
+        &#34;Small gestures&#34;, &#34;Text messages&#34;, &#34;Snacks to share&#34;, &#34;Songs to play&#34;,
+        &#34;Compliments&#34;, &#34;Memes to send&#34;, &#34;Walks to suggest&#34;, &#34;Movies to recommend&#34;,
+        &#34;Flowers to bring&#34;, &#34;Jokes to tell&#34;,
     ]),
-    ("{s} from least to most difficult to wrap as a gift.", [
-        "Shapes to wrap", "Odd-sized items", "Fragile items", "Soft items",
-        "Items without a box", "Sports gear", "Plants", "Bicycles", "Stuffed animals", "Posters",
+    (&#34;{s} from least to most difficult to wrap as a gift.&#34;, [
+        &#34;Shapes to wrap&#34;, &#34;Odd-sized items&#34;, &#34;Fragile items&#34;, &#34;Soft items&#34;,
+        &#34;Items without a box&#34;, &#34;Sports gear&#34;, &#34;Plants&#34;, &#34;Bicycles&#34;, &#34;Stuffed animals&#34;, &#34;Posters&#34;,
     ]),
-    ("{s} from least to most likely to cause a mess.", [
-        "Kids activities", "Cooking steps", "Craft supplies", "Pets", "Science projects",
-        "Gardening tasks", "Painting projects", "Baking recipes", "Outdoor games", "Car snacks",
+    (&#34;{s} from least to most likely to cause a mess.&#34;, [
+        &#34;Kids activities&#34;, &#34;Cooking steps&#34;, &#34;Craft supplies&#34;, &#34;Pets&#34;, &#34;Science projects&#34;,
+        &#34;Gardening tasks&#34;, &#34;Painting projects&#34;, &#34;Baking recipes&#34;, &#34;Outdoor games&#34;, &#34;Car snacks&#34;,
     ]),
-    ("{s} from least to most likely to make you smile.", [
-        "Animal videos", "Compliments from strangers", "Unexpected kindness", "Old photos",
-        "Handwritten notes", "Surprise visits", "Perfect weather days", "Finding money in a pocket",
-        "A song you forgot you loved", "A perfectly timed joke",
+    (&#34;{s} from least to most likely to make you smile.&#34;, [
+        &#34;Animal videos&#34;, &#34;Compliments from strangers&#34;, &#34;Unexpected kindness&#34;, &#34;Old photos&#34;,
+        &#34;Handwritten notes&#34;, &#34;Surprise visits&#34;, &#34;Perfect weather days&#34;, &#34;Finding money in a pocket&#34;,
+        &#34;A song you forgot you loved&#34;, &#34;A perfectly timed joke&#34;,
     ]),
-    ("{s} from least to most likely to need instructions.", [
-        "Furniture to assemble", "Recipes", "Board games", "Gadgets", "Craft kits",
-        "Exercise equipment", "Toys with many pieces", "Apps to set up", "Plants to care for",
-        "Holiday decorations to hang",
+    (&#34;{s} from least to most likely to need instructions.&#34;, [
+        &#34;Furniture to assemble&#34;, &#34;Recipes&#34;, &#34;Board games&#34;, &#34;Gadgets&#34;, &#34;Craft kits&#34;,
+        &#34;Exercise equipment&#34;, &#34;Toys with many pieces&#34;, &#34;Apps to set up&#34;, &#34;Plants to care for&#34;,
+        &#34;Holiday decorations to hang&#34;,
     ]),
-    ("{s} from least to most likely to improve your mood on a bad day.", [
-        "Self-care habits", "Short walks", "Comfort foods", "Phone calls to make",
-        "Shows to rewatch", "Chores that help you feel in control", "Songs on a playlist",
-        "Hot showers", "Journaling prompts", "Stretching routines",
+    (&#34;{s} from least to most likely to improve your mood on a bad day.&#34;, [
+        &#34;Self-care habits&#34;, &#34;Short walks&#34;, &#34;Comfort foods&#34;, &#34;Phone calls to make&#34;,
+        &#34;Shows to rewatch&#34;, &#34;Chores that help you feel in control&#34;, &#34;Songs on a playlist&#34;,
+        &#34;Hot showers&#34;, &#34;Journaling prompts&#34;, &#34;Stretching routines&#34;,
     ]),
-    ("{s} from least to most likely to be shared online.", [
-        "Vacation photos", "Pet photos", "Meal photos", "Achievement posts",
-        "Funny memes", "Sunset photos", "Baby photos", "Workout updates", "Book recommendations",
-        "Home renovation before-and-afters",
+    (&#34;{s} from least to most likely to be shared online.&#34;, [
+        &#34;Vacation photos&#34;, &#34;Pet photos&#34;, &#34;Meal photos&#34;, &#34;Achievement posts&#34;,
+        &#34;Funny memes&#34;, &#34;Sunset photos&#34;, &#34;Baby photos&#34;, &#34;Workout updates&#34;, &#34;Book recommendations&#34;,
+        &#34;Home renovation before-and-afters&#34;,
     ]),
-    ("{s} from least to most likely to wake a light sleeper.", [
-        "Household sounds", "Alarm types", "Notification sounds", "Pet behaviors",
-        "Street noises", "Appliance beeps", "Footsteps", "Door sounds", "Phone vibrations",
-        "Thunder distances",
+    (&#34;{s} from least to most likely to wake a light sleeper.&#34;, [
+        &#34;Household sounds&#34;, &#34;Alarm types&#34;, &#34;Notification sounds&#34;, &#34;Pet behaviors&#34;,
+        &#34;Street noises&#34;, &#34;Appliance beeps&#34;, &#34;Footsteps&#34;, &#34;Door sounds&#34;, &#34;Phone vibrations&#34;,
+        &#34;Thunder distances&#34;,
     ]),
-    ("{s} from least to most likely to start a hobby.", [
-        "Weekend workshops", "YouTube tutorials", "Gift kits", "School clubs",
-        "Books that inspire action", "Friends who invite you along", "Vacation activities",
-        "Apps that gamify learning", "Community classes", "Equipment sales",
+    (&#34;{s} from least to most likely to start a hobby.&#34;, [
+        &#34;Weekend workshops&#34;, &#34;YouTube tutorials&#34;, &#34;Gift kits&#34;, &#34;School clubs&#34;,
+        &#34;Books that inspire action&#34;, &#34;Friends who invite you along&#34;, &#34;Vacation activities&#34;,
+        &#34;Apps that gamify learning&#34;, &#34;Community classes&#34;, &#34;Equipment sales&#34;,
     ]),
-    ("{s} from least to most likely to be reused.", [
-        "Containers", "Gift bags", "Clothing items", "Furniture pieces", "Books",
-        "Craft supplies", "Shopping bags", "Jars", "Cardboard boxes", "Holiday decorations",
+    (&#34;{s} from least to most likely to be reused.&#34;, [
+        &#34;Containers&#34;, &#34;Gift bags&#34;, &#34;Clothing items&#34;, &#34;Furniture pieces&#34;, &#34;Books&#34;,
+        &#34;Craft supplies&#34;, &#34;Shopping bags&#34;, &#34;Jars&#34;, &#34;Cardboard boxes&#34;, &#34;Holiday decorations&#34;,
     ]),
-    ("{s} from least to most likely to need a backup plan.", [
-        "Outdoor events", "Travel days", "Cooking ambitious recipes", "Technology-dependent tasks",
-        "Sports practices", "Picnics", "Road trips", "Presentations", "Camping trips", "Birthday parties",
+    (&#34;{s} from least to most likely to need a backup plan.&#34;, [
+        &#34;Outdoor events&#34;, &#34;Travel days&#34;, &#34;Cooking ambitious recipes&#34;, &#34;Technology-dependent tasks&#34;,
+        &#34;Sports practices&#34;, &#34;Picnics&#34;, &#34;Road trips&#34;, &#34;Presentations&#34;, &#34;Camping trips&#34;, &#34;Birthday parties&#34;,
     ]),
-    ("{s} from least to most likely to teach patience.", [
-        "Waiting situations", "Slow hobbies", "Long games", "Queue experiences",
-        "Learning instruments", "Gardening tasks", "Puzzles", "Traffic patterns", "Customer service calls",
-        "Homework subjects",
+    (&#34;{s} from least to most likely to teach patience.&#34;, [
+        &#34;Waiting situations&#34;, &#34;Slow hobbies&#34;, &#34;Long games&#34;, &#34;Queue experiences&#34;,
+        &#34;Learning instruments&#34;, &#34;Gardening tasks&#34;, &#34;Puzzles&#34;, &#34;Traffic patterns&#34;, &#34;Customer service calls&#34;,
+        &#34;Homework subjects&#34;,
     ]),
-    ("{s} from least to most likely to become a tradition.", [
-        "Holiday rituals", "Family meals", "Birthday customs", "Weekend routines",
-        "Vacation habits", "Game night picks", "Movie marathons", "Annual trips",
-        "New Year habits", "Back-to-school rituals",
+    (&#34;{s} from least to most likely to become a tradition.&#34;, [
+        &#34;Holiday rituals&#34;, &#34;Family meals&#34;, &#34;Birthday customs&#34;, &#34;Weekend routines&#34;,
+        &#34;Vacation habits&#34;, &#34;Game night picks&#34;, &#34;Movie marathons&#34;, &#34;Annual trips&#34;,
+        &#34;New Year habits&#34;, &#34;Back-to-school rituals&#34;,
     ]),
-    ("{s} from least to most likely to need teamwork.", [
-        "Moving furniture", "Cooking a big meal", "Planning a surprise", "Cleaning a garage",
-        "Setting up a tent", "Organizing a fundraiser", "Building a fort", "Wrapping many gifts",
-        "Packing a car for a trip", "Assembling a playground set",
+    (&#34;{s} from least to most likely to need teamwork.&#34;, [
+        &#34;Moving furniture&#34;, &#34;Cooking a big meal&#34;, &#34;Planning a surprise&#34;, &#34;Cleaning a garage&#34;,
+        &#34;Setting up a tent&#34;, &#34;Organizing a fundraiser&#34;, &#34;Building a fort&#34;, &#34;Wrapping many gifts&#34;,
+        &#34;Packing a car for a trip&#34;, &#34;Assembling a playground set&#34;,
     ]),
-    ("{s} from least to most likely to improve with practice.", [
-        "Skills", "Recipes", "Sports techniques", "Instruments", "Languages",
-        "Drawing", "Public speaking", "Typing speed", "Memory games", "Dance moves",
+    (&#34;{s} from least to most likely to improve with practice.&#34;, [
+        &#34;Skills&#34;, &#34;Recipes&#34;, &#34;Sports techniques&#34;, &#34;Instruments&#34;, &#34;Languages&#34;,
+        &#34;Drawing&#34;, &#34;Public speaking&#34;, &#34;Typing speed&#34;, &#34;Memory games&#34;, &#34;Dance moves&#34;,
     ]),
-    ("{s} from least to most likely to be overrated.", [
-        "Trendy foods", "Popular apps", "Famous tourist spots", "Fashion trends",
-        "Blockbuster movies", "Viral challenges", "Luxury items", "Morning routines online",
-        "Productivity hacks", "Influencer recommendations",
+    (&#34;{s} from least to most likely to be overrated.&#34;, [
+        &#34;Trendy foods&#34;, &#34;Popular apps&#34;, &#34;Famous tourist spots&#34;, &#34;Fashion trends&#34;,
+        &#34;Blockbuster movies&#34;, &#34;Viral challenges&#34;, &#34;Luxury items&#34;, &#34;Morning routines online&#34;,
+        &#34;Productivity hacks&#34;, &#34;Influencer recommendations&#34;,
     ]),
-    ("{s} from least to most likely to be underrated.", [
-        "Simple hobbies", "Quiet parks", "Homemade meals", "Walking as exercise",
-        "Library visits", "Afternoon naps", "Handwritten letters", "Local museums",
-        "Thrift store finds", "Board games from childhood",
+    (&#34;{s} from least to most likely to be underrated.&#34;, [
+        &#34;Simple hobbies&#34;, &#34;Quiet parks&#34;, &#34;Homemade meals&#34;, &#34;Walking as exercise&#34;,
+        &#34;Library visits&#34;, &#34;Afternoon naps&#34;, &#34;Handwritten letters&#34;, &#34;Local museums&#34;,
+        &#34;Thrift store finds&#34;, &#34;Board games from childhood&#34;,
     ]),
 ]
 
@@ -540,59 +494,58 @@ for pattern, subjects in templates:
 
 # Fill remaining with numbered variations if under 500
 fillers = [
-    ("Places from least to most crowded on a weekend.", "weekend crowd"),
-    ("Sounds from least to most annoying in an open office.", "office sound"),
-    ("Smells from least to most appetizing from a bakery.", "bakery smell"),
-    ("Textures from least to most pleasant to touch.", "texture"),
-    ("Weather from least to most pleasant for a picnic.", "picnic weather"),
-    ("Times of day from least to most productive for you.", "time of day"),
-    ("Seasons from least to most favorite for outdoor walks.", "season walk"),
-    ("Colors from least to most likely on a sports jersey.", "jersey color"),
-    ("Shapes from least to most stable when stacked.", "stackable shape"),
-    ("Materials from least to most durable for daily use.", "durable material"),
+    (&#34;Places from least to most crowded on a weekend.&#34;, &#34;weekend crowd&#34;),
+    (&#34;Sounds from least to most annoying in an open office.&#34;, &#34;office sound&#34;),
+    (&#34;Smells from least to most appetizing from a bakery.&#34;, &#34;bakery smell&#34;),
+    (&#34;Textures from least to most pleasant to touch.&#34;, &#34;texture&#34;),
+    (&#34;Weather from least to most pleasant for a picnic.&#34;, &#34;picnic weather&#34;),
+    (&#34;Times of day from least to most productive for you.&#34;, &#34;time of day&#34;),
+    (&#34;Seasons from least to most favorite for outdoor walks.&#34;, &#34;season walk&#34;),
+    (&#34;Colors from least to most likely on a sports jersey.&#34;, &#34;jersey color&#34;),
+    (&#34;Shapes from least to most stable when stacked.&#34;, &#34;stackable shape&#34;),
+    (&#34;Materials from least to most durable for daily use.&#34;, &#34;durable material&#34;),
 ]
 idx = 0
-while len(items) < 500:
+while len(items) &lt; 500:
     base, tag = fillers[idx % len(fillers)]
-    variant = base.replace(".", f" (set {len(items)//len(fillers)+1}).")
+    variant = base.replace(&#34;.&#34;, f&#34; (set {len(items)//len(fillers)+1}).&#34;)
     if variant not in seen:
         seen.add(variant)
         items.append(variant)
     idx += 1
-    if idx > 2000:
+    if idx &gt; 2000:
         break
 
 items = items[:500]
-print(f"Generated {len(items)} items")
+print(f&#34;Generated {len(items)} items&#34;)
 
 # Read existing yaml and replace scale-clues section
-with open("data/randomizer.yaml") as f:
+with open(&#34;data/randomizer.yaml&#34;) as f:
     content = f.read()
 
 # Parse with yaml to get rest of file
-with open("data/randomizer.yaml") as f:
+with open(&#34;data/randomizer.yaml&#34;) as f:
     data = yaml.safe_load(f)
 
 # Build new scale-clues
 scale_clues = {
-    "id": "scale-clues",
-    "title": "Ranking prompts",
-    "mode": "ranked-prompts",
-    "tagline": "A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.",
-    "play_hint": "Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.",
-    "items": items,
+    &#34;id&#34;: &#34;scale-clues&#34;,
+    &#34;title&#34;: &#34;Ranking prompts&#34;,
+    &#34;mode&#34;: &#34;ranked-prompts&#34;,
+    &#34;tagline&#34;: &#34;A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.&#34;,
+    &#34;play_hint&#34;: &#34;Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.&#34;,
+    &#34;items&#34;: items,
 }
 
 # Replace first collection
-data["collections"][0] = scale_clues
+data[&#34;collections&#34;][0] = scale_clues
 
-with open("data/randomizer.yaml", "w") as f:
+with open(&#34;data/randomizer.yaml&#34;, &#34;w&#34;) as f:
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=120)
 
-print("Updated randomizer.yaml")
+print(&#34;Updated randomizer.yaml&#34;)
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import yaml, textwrap
@@ -915,63 +868,34 @@ Generated 500 items
 Updated randomizer.yaml
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A Python script using yaml.dump likely altered the file's formatting.</details></think>
+A Python script using yaml.dump likely altered the file's formatting.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -980,36 +904,22 @@ Checking the generated YAML — PyYAML may have altered formatting and some fill
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1036,19 +946,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The script generated exactly 500 items from templates without needing fillers.</details></think>
+The script generated exactly 500 items from templates without needing fillers.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1057,10 +961,8 @@ The YAML structure broke — `personal-scales` was nested under `scale-clues`. F
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1091,27 +993,19 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import yaml
-with open('data/randomizer.yaml') as f:
+with open(&#39;data/randomizer.yaml&#39;) as f:
     d = yaml.safe_load(f)
-for c in d['collections']:
-    n = len(c.get('items',[])) or sum(len(cat.get('items',[])) for cat in c.get('categories',[]))
-    print(c['id'], 'items:', n, 'cats:', len(c.get('categories',[])))
-"</summary>
-
+for c in d[&#39;collections&#39;]:
+    n = len(c.get(&#39;items&#39;,[])) or sum(len(cat.get(&#39;items&#39;,[])) for cat in c.get(&#39;categories&#39;,[]))
+    print(c[&#39;id&#39;], &#39;items:&#39;, n, &#39;cats:&#39;, len(c.get(&#39;categories&#39;,[])))
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import yaml
@@ -1129,32 +1023,19 @@ personal-scales items: 500 cats: 0
 spectrum items: 0 cats: 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -5
 ```
@@ -1168,12 +1049,6 @@ Total in 19692 ms
 ]633;D;0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1183,7 +1058,8 @@ The Hugo build succeeded. The YAML structure is valid despite pyYAML's different
 
 No header comments will be restored to keep changes minimal. The randomizer.md page copy needs updating because scale-clues now has no categories and all collections are direct play. The categories view is no longer needed.
 
-The categories view is preserved as dead code for future use. The randomizer.md text will be updated to remove the category reference.</details></think>
+The categories view is preserved as dead code for future use. The randomizer.md text will be updated to remove the category reference.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1192,31 +1068,15 @@ Build succeeded. Updating the page copy since no collection uses categories anym
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/pages/randomizer.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -1264,7 +1124,8 @@ output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Preparing a brief summary of the task result.</details></think>
+Preparing a brief summary of the task result.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1283,7 +1144,8 @@ scale-clues ensure that it is easy to provide answers to these
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Scale-clues prompts should be easy to answer. Players can easily provide clues or examples that fit on a 1–100 scale.</details></think>
+Scale-clues prompts should be easy to answer. Players can easily provide clues or examples that fit on a 1–100 scale.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1292,40 +1154,22 @@ Reviewing scale-clues prompts for clarity and answerability — vague or abstrac
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -1360,7 +1204,8 @@ Four prompt formats are chosen: "Category — from low to high," "Worst to best 
 
 The 500-item set will mix roughly 200 unique category-plus-scale combinations, 150 worst-to-best-for-a-situation prompts, and 150 one-line how-questions. The goal is to vary the scale itself rather than swap only the category noun. Abstract categories like notifications or equipment sales will be eliminated, along with single-item prompts that act as their own category.
 
-Phrases and social traits are poor clues. Pizza toppings, breakfast foods, and board games are good examples.</details></think>
+Phrases and social traits are poor clues. Pizza toppings, breakfast foods, and board games are good examples.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1369,8 +1214,8 @@ Many prompts are too abstract or meta — they ask players to rank categories in
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml, re
 
 # Each entry: prompt text. Rule: clue = ONE concrete noun (food, animal, job, place, object).
@@ -1383,590 +1228,589 @@ def add(*items):
         if p not in prompts:
             prompts.append(p)
 
-# --- Foods & drinks (concrete, nameable) ---
+# --- Foods &amp; drinks (concrete, nameable) ---
 food_cats = [
-    "Fruits", "Vegetables", "Snacks", "Desserts", "Breakfast foods", "Lunch foods",
-    "Dinner foods", "Street foods", "Sandwiches", "Soups", "Salads", "Pastries",
-    "Cookies", "Candies", "Chips flavors", "Ice cream flavors", "Pizza toppings",
-    "Pasta dishes", "Rice dishes", "Bread types", "Cheeses", "Nuts", "Berries",
-    "Citrus fruits", "Root vegetables", "Leafy greens", "Frozen foods", "Canned foods",
-    "Hot drinks", "Cold drinks", "Smoothie ingredients", "Juice flavors",
-    "Condiments", "Sauces", "Spices", "Herbs", "Dips", "Spreads", "Cereals",
-    "Eggs dishes", "Seafood", "Meats", "Plant-based proteins", "Holiday foods",
-    "Picnic foods", "Camping foods", "Movie theater snacks", "Ballpark foods",
-    "Food truck items", "Bakery items", "Chocolate types", "Gummy candies",
+    &#34;Fruits&#34;, &#34;Vegetables&#34;, &#34;Snacks&#34;, &#34;Desserts&#34;, &#34;Breakfast foods&#34;, &#34;Lunch foods&#34;,
+    &#34;Dinner foods&#34;, &#34;Street foods&#34;, &#34;Sandwiches&#34;, &#34;Soups&#34;, &#34;Salads&#34;, &#34;Pastries&#34;,
+    &#34;Cookies&#34;, &#34;Candies&#34;, &#34;Chips flavors&#34;, &#34;Ice cream flavors&#34;, &#34;Pizza toppings&#34;,
+    &#34;Pasta dishes&#34;, &#34;Rice dishes&#34;, &#34;Bread types&#34;, &#34;Cheeses&#34;, &#34;Nuts&#34;, &#34;Berries&#34;,
+    &#34;Citrus fruits&#34;, &#34;Root vegetables&#34;, &#34;Leafy greens&#34;, &#34;Frozen foods&#34;, &#34;Canned foods&#34;,
+    &#34;Hot drinks&#34;, &#34;Cold drinks&#34;, &#34;Smoothie ingredients&#34;, &#34;Juice flavors&#34;,
+    &#34;Condiments&#34;, &#34;Sauces&#34;, &#34;Spices&#34;, &#34;Herbs&#34;, &#34;Dips&#34;, &#34;Spreads&#34;, &#34;Cereals&#34;,
+    &#34;Eggs dishes&#34;, &#34;Seafood&#34;, &#34;Meats&#34;, &#34;Plant-based proteins&#34;, &#34;Holiday foods&#34;,
+    &#34;Picnic foods&#34;, &#34;Camping foods&#34;, &#34;Movie theater snacks&#34;, &#34;Ballpark foods&#34;,
+    &#34;Food truck items&#34;, &#34;Bakery items&#34;, &#34;Chocolate types&#34;, &#34;Gummy candies&#34;,
 ]
 food_scales = [
-    "least to most messy to eat",
-    "least to most sweet",
-    "least to most spicy",
-    "least to most salty",
-    "least to most sour",
-    "least to most bitter",
-    "least to most filling",
-    "least to most healthy",
-    "least to most expensive at a grocery store",
-    "least to most likely to stain clothes",
-    "least to most crunchy",
-    "least to most soft",
-    "least to most smelly",
-    "least to most likely to need a napkin",
-    "least to most kid-friendly",
-    "least to most adult-acquired taste",
-    "least to most likely to share at a party",
-    "least to most likely to melt in the sun",
-    "least to most likely to go bad quickly",
-    "least to most comforting when sick",
+    &#34;least to most messy to eat&#34;,
+    &#34;least to most sweet&#34;,
+    &#34;least to most spicy&#34;,
+    &#34;least to most salty&#34;,
+    &#34;least to most sour&#34;,
+    &#34;least to most bitter&#34;,
+    &#34;least to most filling&#34;,
+    &#34;least to most healthy&#34;,
+    &#34;least to most expensive at a grocery store&#34;,
+    &#34;least to most likely to stain clothes&#34;,
+    &#34;least to most crunchy&#34;,
+    &#34;least to most soft&#34;,
+    &#34;least to most smelly&#34;,
+    &#34;least to most likely to need a napkin&#34;,
+    &#34;least to most kid-friendly&#34;,
+    &#34;least to most adult-acquired taste&#34;,
+    &#34;least to most likely to share at a party&#34;,
+    &#34;least to most likely to melt in the sun&#34;,
+    &#34;least to most likely to go bad quickly&#34;,
+    &#34;least to most comforting when sick&#34;,
 ]
 for cat in food_cats[:25]:
     for scale in food_scales[:4]:
-        add(f"{cat} — {scale}.")
+        add(f&#34;{cat} — {scale}.&#34;)
 
 # --- Animals ---
 animal_cats = [
-    "Farm animals", "Pets", "Wild animals", "Birds", "Insects", "Sea creatures",
-    "Zoo animals", "Forest animals", "Desert animals", "Jungle animals",
-    "Reptiles", "Rodents", "Cats breeds", "Dog breeds", "Horse breeds",
-    "Aquarium fish", "Butterflies", "Spiders", "Bugs in a garden", "Dinosaurs (for kids)",
+    &#34;Farm animals&#34;, &#34;Pets&#34;, &#34;Wild animals&#34;, &#34;Birds&#34;, &#34;Insects&#34;, &#34;Sea creatures&#34;,
+    &#34;Zoo animals&#34;, &#34;Forest animals&#34;, &#34;Desert animals&#34;, &#34;Jungle animals&#34;,
+    &#34;Reptiles&#34;, &#34;Rodents&#34;, &#34;Cats breeds&#34;, &#34;Dog breeds&#34;, &#34;Horse breeds&#34;,
+    &#34;Aquarium fish&#34;, &#34;Butterflies&#34;, &#34;Spiders&#34;, &#34;Bugs in a garden&#34;, &#34;Dinosaurs (for kids)&#34;,
 ]
 animal_scales = [
-    "least to most dangerous in the wild",
-    "quietest to loudest",
-    "slowest to fastest",
-    "smallest to largest",
-    "least to most cute",
-    "least to most scary",
-    "least to most likely as a pet",
-    "least to most likely to be in a cartoon",
-    "least to most smelly",
-    "least to most photogenic",
-    "least to most likely to steal food",
-    "least to most likely to appear in a dream",
+    &#34;least to most dangerous in the wild&#34;,
+    &#34;quietest to loudest&#34;,
+    &#34;slowest to fastest&#34;,
+    &#34;smallest to largest&#34;,
+    &#34;least to most cute&#34;,
+    &#34;least to most scary&#34;,
+    &#34;least to most likely as a pet&#34;,
+    &#34;least to most likely to be in a cartoon&#34;,
+    &#34;least to most smelly&#34;,
+    &#34;least to most photogenic&#34;,
+    &#34;least to most likely to steal food&#34;,
+    &#34;least to most likely to appear in a dream&#34;,
 ]
 for cat in animal_cats:
     for scale in animal_scales[:3]:
-        add(f"{cat} — {scale}.")
+        add(f&#34;{cat} — {scale}.&#34;)
 
 # --- Jobs ---
 job_scales = [
-    "least to most stressful on a Monday morning",
-    "least to most physically demanding",
-    "least to most likely to work outdoors",
-    "least to most likely to wear a uniform",
-    "least to most likely to use a computer all day",
-    "least to most respected by kids",
-    "least to most likely to work nights",
-    "least to most likely to talk to strangers",
-    "least to most likely to travel for work",
-    "least to most likely to wear a suit",
-    "least to most creative",
-    "least to most dangerous",
-    "highest to lowest typical salary",
-    "least to most likely to have summers off",
-    "least to most likely to save lives",
+    &#34;least to most stressful on a Monday morning&#34;,
+    &#34;least to most physically demanding&#34;,
+    &#34;least to most likely to work outdoors&#34;,
+    &#34;least to most likely to wear a uniform&#34;,
+    &#34;least to most likely to use a computer all day&#34;,
+    &#34;least to most respected by kids&#34;,
+    &#34;least to most likely to work nights&#34;,
+    &#34;least to most likely to talk to strangers&#34;,
+    &#34;least to most likely to travel for work&#34;,
+    &#34;least to most likely to wear a suit&#34;,
+    &#34;least to most creative&#34;,
+    &#34;least to most dangerous&#34;,
+    &#34;highest to lowest typical salary&#34;,
+    &#34;least to most likely to have summers off&#34;,
+    &#34;least to most likely to save lives&#34;,
 ]
 jobs = [
-    "Jobs", "Office jobs", "Medical jobs", "Teaching jobs", "Trade jobs",
-    "Creative jobs", "Service jobs", "Sports jobs", "Science jobs", "Tech jobs",
+    &#34;Jobs&#34;, &#34;Office jobs&#34;, &#34;Medical jobs&#34;, &#34;Teaching jobs&#34;, &#34;Trade jobs&#34;,
+    &#34;Creative jobs&#34;, &#34;Service jobs&#34;, &#34;Sports jobs&#34;, &#34;Science jobs&#34;, &#34;Tech jobs&#34;,
 ]
 for j in jobs:
     for s in job_scales[:5]:
-        add(f"{j} — {s}.")
+        add(f&#34;{j} — {s}.&#34;)
 
 # --- Places ---
 place_cats = [
-    "Rooms in a house", "Places in a city", "Vacation destinations", "Countries",
-    "Landmarks", "Parks", "Beaches", "Mountains", "Museums", "Stores",
-    "Restaurants types", "School locations", "Airport areas", "Hospital areas",
-    "Places to read", "Places to exercise", "Places to shop", "Places to nap",
-    "Places to take photos", "Places to meet friends",
+    &#34;Rooms in a house&#34;, &#34;Places in a city&#34;, &#34;Vacation destinations&#34;, &#34;Countries&#34;,
+    &#34;Landmarks&#34;, &#34;Parks&#34;, &#34;Beaches&#34;, &#34;Mountains&#34;, &#34;Museums&#34;, &#34;Stores&#34;,
+    &#34;Restaurants types&#34;, &#34;School locations&#34;, &#34;Airport areas&#34;, &#34;Hospital areas&#34;,
+    &#34;Places to read&#34;, &#34;Places to exercise&#34;, &#34;Places to shop&#34;, &#34;Places to nap&#34;,
+    &#34;Places to take photos&#34;, &#34;Places to meet friends&#34;,
 ]
 place_scales = [
-    "quietest to noisiest",
-    "least to most crowded on a weekend",
-    "least to most expensive to visit",
-    "least to most relaxing",
-    "least to most exciting for kids",
-    "least to most likely to rain",
-    "coldest to hottest climate",
-    "least to most photogenic",
-    "least to most likely to get lost in",
-    "least to most formal",
+    &#34;quietest to noisiest&#34;,
+    &#34;least to most crowded on a weekend&#34;,
+    &#34;least to most expensive to visit&#34;,
+    &#34;least to most relaxing&#34;,
+    &#34;least to most exciting for kids&#34;,
+    &#34;least to most likely to rain&#34;,
+    &#34;coldest to hottest climate&#34;,
+    &#34;least to most photogenic&#34;,
+    &#34;least to most likely to get lost in&#34;,
+    &#34;least to most formal&#34;,
 ]
 for p in place_cats:
     for s in place_scales[:3]:
-        add(f"{p} — {s}.")
+        add(f&#34;{p} — {s}.&#34;)
 
-# --- Sports & activities ---
+# --- Sports &amp; activities ---
 sport_cats = [
-    "Olympic sports", "Ball sports", "Water sports", "Winter sports", "Martial arts",
-    "Dance styles", "Gym exercises", "Playground activities", "Party games",
-    "Board games", "Card games", "Video game genres", "Outdoor hobbies",
-    "Indoor hobbies", "Crafts", "Musical instruments", "Art supplies",
+    &#34;Olympic sports&#34;, &#34;Ball sports&#34;, &#34;Water sports&#34;, &#34;Winter sports&#34;, &#34;Martial arts&#34;,
+    &#34;Dance styles&#34;, &#34;Gym exercises&#34;, &#34;Playground activities&#34;, &#34;Party games&#34;,
+    &#34;Board games&#34;, &#34;Card games&#34;, &#34;Video game genres&#34;, &#34;Outdoor hobbies&#34;,
+    &#34;Indoor hobbies&#34;, &#34;Crafts&#34;, &#34;Musical instruments&#34;, &#34;Art supplies&#34;,
 ]
 sport_scales = [
-    "least to most physically tiring",
-    "least to most expensive to start",
-    "quickest to slowest to learn basics",
-    "least to most likely to cause injury",
-    "least to most fun at a party",
-    "least to most competitive",
-    "least to most likely to sweat",
-    "least to most quiet to practice",
+    &#34;least to most physically tiring&#34;,
+    &#34;least to most expensive to start&#34;,
+    &#34;quickest to slowest to learn basics&#34;,
+    &#34;least to most likely to cause injury&#34;,
+    &#34;least to most fun at a party&#34;,
+    &#34;least to most competitive&#34;,
+    &#34;least to most likely to sweat&#34;,
+    &#34;least to most quiet to practice&#34;,
 ]
 for c in sport_cats:
     for s in sport_scales[:2]:
-        add(f"{c} — {s}.")
+        add(f&#34;{c} — {s}.&#34;)
 
-# --- Objects & household ---
+# --- Objects &amp; household ---
 object_cats = [
-    "Kitchen tools", "Bathroom items", "Bedroom items", "Garage tools", "School supplies",
-    "Office supplies", "Camping gear", "Cleaning supplies", "Electronics",
-    "Furniture pieces", "Bags and backpacks", "Shoes types", "Hat styles",
-    "Fabrics", "Building materials", "Toys", "Puzzles", "Books genres",
-    "Movies genres", "TV show types", "Phone apps", "Vehicles", "Bicycles types",
-    "Motorcycles types", "Boats types", "Flowers", "Trees", "Houseplants",
-    "Gemstones", "Metals", "Plastics uses", "Containers", "Light sources",
+    &#34;Kitchen tools&#34;, &#34;Bathroom items&#34;, &#34;Bedroom items&#34;, &#34;Garage tools&#34;, &#34;School supplies&#34;,
+    &#34;Office supplies&#34;, &#34;Camping gear&#34;, &#34;Cleaning supplies&#34;, &#34;Electronics&#34;,
+    &#34;Furniture pieces&#34;, &#34;Bags and backpacks&#34;, &#34;Shoes types&#34;, &#34;Hat styles&#34;,
+    &#34;Fabrics&#34;, &#34;Building materials&#34;, &#34;Toys&#34;, &#34;Puzzles&#34;, &#34;Books genres&#34;,
+    &#34;Movies genres&#34;, &#34;TV show types&#34;, &#34;Phone apps&#34;, &#34;Vehicles&#34;, &#34;Bicycles types&#34;,
+    &#34;Motorcycles types&#34;, &#34;Boats types&#34;, &#34;Flowers&#34;, &#34;Trees&#34;, &#34;Houseplants&#34;,
+    &#34;Gemstones&#34;, &#34;Metals&#34;, &#34;Plastics uses&#34;, &#34;Containers&#34;, &#34;Light sources&#34;,
 ]
 object_scales = [
-    "lightest to heaviest",
-    "cheapest to most expensive",
-    "least to most fragile",
-    "least to most useful in an emergency",
-    "least to most likely to break if dropped",
-    "softest to hardest",
-    "smallest to largest",
-    "least to most annoying sound when used",
-    "least to most likely to need batteries",
-    "least to most old-fashioned",
+    &#34;lightest to heaviest&#34;,
+    &#34;cheapest to most expensive&#34;,
+    &#34;least to most fragile&#34;,
+    &#34;least to most useful in an emergency&#34;,
+    &#34;least to most likely to break if dropped&#34;,
+    &#34;softest to hardest&#34;,
+    &#34;smallest to largest&#34;,
+    &#34;least to most annoying sound when used&#34;,
+    &#34;least to most likely to need batteries&#34;,
+    &#34;least to most old-fashioned&#34;,
 ]
 for c in object_cats:
     for s in object_scales[:2]:
-        add(f"{c} — {s}.")
+        add(f&#34;{c} — {s}.&#34;)
 
 # --- Worst to best (situation + category, clue = one item) ---
 worst_best = [
-    "snacks to eat in a quiet library",
-    "foods to spill on white clothes",
-    "items to pack for a beach day",
-    "items to pack for a snowy day",
-    "items to pack for a long flight",
-    "items to keep in a car emergency kit",
-    "gifts for a ten-year-old",
-    "gifts for a grandparent",
-    "gifts under twenty dollars",
-    "things to do on a rainy day",
-    "things to do on a snow day",
-    "things to do when bored at home",
-    "ways to cool down on a hot day",
-    "ways to warm up on a cold day",
-    "pets for a small apartment",
-    "pets for a house with a yard",
-    "subjects to study before a test",
-    "excuses for being late (believability)",
-    "places to sit during a three-hour wait",
-    "sounds to fall asleep to",
-    "sounds that ruin concentration",
-    "smells in a kitchen (pleasantness)",
-    "things to step on barefoot",
-    "items to forget on a camping trip",
-    "items to borrow from a neighbor",
-    "toppings on toast",
-    "things to put in a salad",
-    "things to hang on a wall",
-    "things to plant in a garden",
-    "tools for a quick home fix",
-    "board games for two players",
-    "board games for a large group",
-    "card games for families",
-    "icebreaker questions at a new job",
-    "team-building activities",
-    "birthday party activities for kids",
-    "birthday party activities for adults",
-    "road trip car games",
-    "restaurant orders when you are very hungry",
-    "fast-food menu items",
-    "coffee shop orders",
-    "things to watch on a sick day",
-    "things to clean before guests arrive",
-    "containers for leftovers",
-    "umbrella alternatives in light rain",
-    "shoes for a long walk",
-    "jackets for windy weather",
-    "hats for sunny weather",
-    "backpack items for school",
-    "desk items for productivity",
+    &#34;snacks to eat in a quiet library&#34;,
+    &#34;foods to spill on white clothes&#34;,
+    &#34;items to pack for a beach day&#34;,
+    &#34;items to pack for a snowy day&#34;,
+    &#34;items to pack for a long flight&#34;,
+    &#34;items to keep in a car emergency kit&#34;,
+    &#34;gifts for a ten-year-old&#34;,
+    &#34;gifts for a grandparent&#34;,
+    &#34;gifts under twenty dollars&#34;,
+    &#34;things to do on a rainy day&#34;,
+    &#34;things to do on a snow day&#34;,
+    &#34;things to do when bored at home&#34;,
+    &#34;ways to cool down on a hot day&#34;,
+    &#34;ways to warm up on a cold day&#34;,
+    &#34;pets for a small apartment&#34;,
+    &#34;pets for a house with a yard&#34;,
+    &#34;subjects to study before a test&#34;,
+    &#34;excuses for being late (believability)&#34;,
+    &#34;places to sit during a three-hour wait&#34;,
+    &#34;sounds to fall asleep to&#34;,
+    &#34;sounds that ruin concentration&#34;,
+    &#34;smells in a kitchen (pleasantness)&#34;,
+    &#34;things to step on barefoot&#34;,
+    &#34;items to forget on a camping trip&#34;,
+    &#34;items to borrow from a neighbor&#34;,
+    &#34;toppings on toast&#34;,
+    &#34;things to put in a salad&#34;,
+    &#34;things to hang on a wall&#34;,
+    &#34;things to plant in a garden&#34;,
+    &#34;tools for a quick home fix&#34;,
+    &#34;board games for two players&#34;,
+    &#34;board games for a large group&#34;,
+    &#34;card games for families&#34;,
+    &#34;icebreaker questions at a new job&#34;,
+    &#34;team-building activities&#34;,
+    &#34;birthday party activities for kids&#34;,
+    &#34;birthday party activities for adults&#34;,
+    &#34;road trip car games&#34;,
+    &#34;restaurant orders when you are very hungry&#34;,
+    &#34;fast-food menu items&#34;,
+    &#34;coffee shop orders&#34;,
+    &#34;things to watch on a sick day&#34;,
+    &#34;things to clean before guests arrive&#34;,
+    &#34;containers for leftovers&#34;,
+    &#34;umbrella alternatives in light rain&#34;,
+    &#34;shoes for a long walk&#34;,
+    &#34;jackets for windy weather&#34;,
+    &#34;hats for sunny weather&#34;,
+    &#34;backpack items for school&#34;,
+    &#34;desk items for productivity&#34;,
 ]
 for wb in worst_best:
-    add(f"Worst to best {wb}.")
+    add(f&#34;Worst to best {wb}.&#34;)
 
 # --- Simple A-to-B scales (name one thing on the scale) ---
 simple = [
-    "Common animals — least scary to most scary.",
-    "Common jobs — least outdoor to most outdoor.",
-    "Breakfast cereals — least sweet to most sweet.",
-    "Sodas — least fizzy to most fizzy.",
-    "Cheeses — mildest to strongest smell.",
-    "Chocolates — least dark to most dark.",
-    "Bread — softest to crunchiest.",
-    "Fruits — least juicy to most juicy.",
-    "Vegetables — least bitter to most bitter.",
-    "Meats — leanest to fattiest.",
-    "Fish — mildest to fishiest taste.",
-    "Noodles — thinnest to thickest.",
-    "Pasta shapes — least to most sauce-holding ability.",
-    "Pizza crusts — thinnest to thickest.",
-    "Ice cream — least creamy to most creamy.",
-    "Coffee drinks — least to most caffeinated.",
-    "Tea types — mildest to strongest flavor.",
-    "Sandwich breads — softest to hardest crust.",
-    "Chip flavors — blandest to boldest.",
-    "Candy — least sour to most sour.",
-    "Fruits — easiest to hardest to peel.",
-    "Nuts — easiest to hardest to crack.",
-    "Herbs — mildest to strongest smell.",
-    "Peppers — mildest to hottest.",
-    "Milk types — least to most creamy.",
-    "Yogurt flavors — tartest to sweetest.",
-    "House pets — least to most maintenance.",
-    "Dog sizes — smallest to largest breed.",
-    "Cat behaviors — calmest to wildest.",
-    "Birds as pets — quietest to noisiest.",
-    "Fish tank fish — easiest to hardest to keep alive.",
-    "Farm animals — calmest to most chaotic.",
-    "Zoo animals — slowest to fastest.",
-    "Insects — least to most creepy.",
-    "Spiders — smallest to largest (common ones).",
-    "Bugs — least to most likely to fly at your face.",
-    "Sea animals — shallowest to deepest habitat.",
-    "Whales and dolphins — smallest to largest.",
-    "Sharks — least to most feared (reputation).",
-    "Dinosaurs — smallest to largest.",
-    "Reptiles — slowest to fastest.",
-    "Amphibians — least to most slimy.",
-    "Colors — calmest to most energetic feeling.",
-    "Colors — coolest to warmest feeling.",
-    "Fabrics — softest to scratchiest.",
-    "Metals — lightest to heaviest (common ones).",
-    "Wood types — softest to hardest.",
-    "Rocks — smoothest to roughest.",
-    "Gemstones — least to most valuable (common knowledge).",
-    "Flowers — least to most fragrant.",
-    "Trees — shortest to tallest (typical).",
-    "Houseplants — hardest to easiest to kill.",
-    "Vegetables — fastest to slowest to cook.",
-    "Fruits — fastest to slowest to ripen.",
-    "Leftovers — shortest to longest fridge life.",
-    "Snacks — least to most addictive.",
-    "Desserts — least to most decadent.",
-    "Holiday candies — least to most nostalgic.",
-    "Soups — thinnest to thickest.",
-    "Sauces — mildest to spiciest.",
-    "Dips — creamiest to chunkiest.",
-    "Spreads — sweetest to savoriest.",
-    "Breakfast items — quickest to slowest to prepare.",
-    "Microwave meals — worst to best quality.",
-    "Frozen pizzas — thinnest to thickest crust.",
-    "Fast food burgers — smallest to largest.",
-    "Taco fillings — mildest to spiciest.",
-    "Burrito sizes — smallest to largest.",
-    "Sushi types — mildest to strongest flavor.",
-    "Ramen toppings — mildest to boldest.",
-    "Curry dishes — mildest to hottest.",
-    "Stir-fry vegetables — quickest to slowest to cook.",
-    "Smoothie fruits — least to most tart.",
-    "Juice flavors — sweetest to tartest.",
-    "Sodas — least to most sugary tasting.",
-    "Energy drinks — mildest to strongest kick.",
-    "Mocktails — least to most fancy.",
-    "Cocktail names — mildest to strongest (reputation).",
-    "Wine types — sweetest to driest (reputation).",
-    "Beer types — lightest to darkest.",
-    "Rooms — coldest to warmest in winter.",
-    "Rooms — brightest to dimmest.",
-    "Furniture — hardest to softest to sit on.",
-    "Chairs — least to most comfortable.",
-    "Beds — narrowest to widest.",
-    "Pillows — flattest to fluffiest.",
-    "Blankets — lightest to heaviest.",
-    "Towels — roughest to softest.",
-    "Soap scents — mildest to strongest.",
-    "Shampoo scents — mildest to strongest.",
-    "Toothpaste flavors — mildest to strongest.",
-    "Cleaning products — mildest to harshest smell.",
-    "Vacuum sounds — quietest to loudest.",
-    "Appliances — quietest to noisiest.",
-    "Kitchen gadgets — least to most useful.",
-    "Knives — dullest to sharpest (when new).",
-    "Pots — smallest to largest.",
-    "Plates — smallest to largest.",
-    "Cups — smallest to largest.",
-    "Water bottles — smallest to largest.",
-    "Lunch boxes — smallest to largest.",
-    "Backpacks — smallest to largest.",
-    "Suitcases — smallest to largest.",
-    "Cars — smallest to largest.",
-    "Trucks — smallest to largest.",
-    "Buses — shortest to longest.",
-    "Trains — slowest to fastest.",
-    "Planes — smallest to largest (passenger).",
-    "Boats — smallest to largest.",
-    "Bikes — slowest to fastest (types).",
-    "Scooters — slowest to fastest.",
-    "Skateboards — stablest to wobbliest for beginners.",
-    "Roller skates — easiest to hardest for beginners.",
-    "Sports balls — smallest to largest.",
-    "Rackets — lightest to heaviest.",
-    "Gym weights — lightest to heaviest.",
-    "Yoga poses — easiest to hardest.",
-    "Stretches — easiest to hardest.",
-    "Running distances — shortest to longest.",
-    "Swimming strokes — slowest to fastest.",
-    "Dance moves — easiest to hardest.",
-    "Martial arts — gentlest to roughest reputation.",
-    "Playground equipment — safest to scariest for parents.",
-    "Theme park rides — mildest to wildest.",
-    "Carnival rides — mildest to wildest.",
-    "Roller coasters — shortest to longest ride.",
-    "Water slides — mildest to steepest.",
-    "Board games — shortest to longest play time.",
-    "Card games — simplest to most complex rules.",
-    "Puzzles — fewest to most pieces (typical boxes).",
-    "LEGO sets — smallest to largest piece count.",
-    "Video games — easiest to hardest (reputation).",
-    "Movie lengths — shortest to longest (typical).",
-    "Book lengths — shortest to longest (typical).",
-    "Comic books — thinnest to thickest.",
-    "Magazines — thinnest to thickest.",
-    "Newspaper sections — thinnest to thickest.",
-    "School subjects — easiest to hardest (typical student view).",
-    "Homework tasks — quickest to longest.",
-    "Tests — easiest to hardest (reputation).",
-    "College majors — easiest to hardest (reputation).",
-    "Languages — easiest to hardest for English speakers.",
-    "Musical instruments — easiest to hardest to learn.",
-    "Songs to sing — easiest to hardest (range).",
-    "Band instruments — quietest to loudest.",
-    "Orchestra sections — quietest to loudest.",
-    "Art mediums — messiest to cleanest.",
-    "Paint colors — lightest to darkest.",
-    "Drawing tools — thinnest to thickest line.",
-    "Craft supplies — messiest to tidiest.",
-    "Sewing projects — simplest to most complex.",
-    "Knitting projects — quickest to longest.",
-    "Woodworking projects — simplest to most ambitious.",
-    "DIY repairs — easiest to hardest.",
-    "Tools — least to most dangerous if misused.",
-    "Power tools — quietest to loudest.",
-    "Hand tools — smallest to largest.",
-    "Screws — smallest to largest (common).",
-    "Nails — shortest to longest.",
-    "Glue types — weakest to strongest bond.",
-    "Tape types — weakest to strongest stick.",
-    "Batteries — shortest to longest life (typical use).",
-    "Light bulbs — dimmest to brightest.",
-    "Candles — shortest to longest burn.",
-    "Matches — hardest to easiest to light in wind.",
-    "Umbrellas — smallest to largest.",
-    "Rain boots — shortest to tallest.",
-    "Winter coats — lightest to heaviest.",
-    "Gloves — thinnest to thickest.",
-    "Scarves — shortest to longest.",
-    "Sunglasses — darkest to lightest tint.",
-    "Watches — cheapest to most expensive (brands people know).",
-    "Phones — oldest to newest generation feel.",
-    "Laptops — lightest to heaviest.",
-    "Tablets — smallest to largest screen.",
-    "Headphones — cheapest to most expensive (reputation).",
-    "Speakers — quietest to loudest.",
-    "TV sizes — smallest to largest.",
-    "Monitors — smallest to largest.",
-    "Keyboards — quietest to loudest typing.",
-    "Mice — smallest to largest.",
-    "Chargers — slowest to fastest (reputation).",
-    "Wi-Fi spots — weakest to strongest signal (typical places).",
-    "Apps — most to least used daily (typical person).",
-    "Social media platforms — calmest to most chaotic.",
-    "Emojis — least to most used.",
-    "Text abbreviations — oldest to newest generation.",
-    "Memes — oldest to newest format (internet eras).",
-    "Holidays — least to most festive.",
-    "Birthday traditions — simplest to most elaborate.",
-    "Wedding traditions — simplest to most elaborate.",
-    "Greeting styles — most to least formal.",
-    "Handshakes — weakest to firmest.",
-    "Hugs — briefest to longest (social norm).",
-    "Party sizes — intimate to massive.",
-    "Restaurants — casual to fancy.",
-    "Hotels — budget to luxury.",
-    "Airlines — budget to premium (reputation).",
-    "Seats on a plane — worst to best.",
-    "Train seats — worst to best.",
-    "Bus seats — worst to best.",
-    "Traffic — lightest to heaviest (time of day).",
-    "Parking spots — worst to best.",
-    "Roads — smoothest to bumpiest.",
-    "Bridges — shortest to longest (famous ones).",
-    "Tunnels — shortest to longest.",
-    "Elevators — slowest to fastest.",
-    "Escalators — shortest to longest.",
-    "Stairs — fewest to most steps (everyday places).",
-    "Doors — lightest to heaviest to open.",
-    "Windows — smallest to largest.",
-    "Keys — fewest to most on a keyring.",
-    "Locks — easiest to hardest to pick (movie reputation).",
-    "Safes — smallest to largest.",
-    "Wallets — thinnest to thickest when full.",
-    "Coins — least to most value.",
-    "Bills — smallest to largest denomination.",
-    "Piggy banks — smallest to largest.",
-    "Prizes — cheapest to most exciting at a fair.",
-    "Lottery tickets — worst to best odds (reputation).",
-    "Coupons — smallest to biggest savings.",
-    "Sales — smallest to biggest discount events.",
-    "Thrift finds — least to most surprising quality.",
-    "Garage sale items — least to most valuable surprise.",
-    "Antiques — least to most valuable (common sense).",
-    "Collectibles — least to most valuable (reputation).",
-    "Stamps — least to most valuable (reputation).",
-    "Coins (collectible) — least to most valuable (reputation).",
-    "Baseball cards — least to most valuable (reputation).",
-    "Comic issues — least to most valuable (reputation).",
-    "Action figures — least to most valuable (nostalgia).",
-    "Dolls — least to most creepy (reputation).",
-    "Stuffed animals — smallest to largest.",
-    "Teddy bears — least to most cuddly.",
-    "Toy cars — smallest to largest.",
-    "Toy blocks — smallest to largest set.",
-    "Dolls houses — smallest to largest.",
-    "Pretend food — least to most realistic.",
-    "Costumes — simplest to most elaborate.",
-    "Halloween candies — least to most desired.",
-    "Christmas gifts — least to most exciting unwrap.",
-    "Easter candies — least to most desired.",
-    "Valentine chocolates — least to most romantic.",
-    "Fireworks — quietest to loudest.",
-    "Sparklers — shortest to longest burn.",
-    "Balloons — smallest to largest.",
-    "Bubbles — smallest to largest wand.",
-    "Kites — easiest to hardest to fly.",
-    "Frisbees — easiest to hardest to throw straight.",
-    "Yo-yos — easiest to hardest tricks.",
-    "Jacks — easiest to hardest (game speed).",
-    "Marbles — smallest to largest.",
-    "Jump ropes — shortest to longest.",
-    "Hula hoops — smallest to largest.",
-    "Trampolines — smallest to largest.",
-    "Pools — shallowest to deepest (backyard).",
-    "Water guns — weakest to strongest stream.",
-    "Sandcastles — simplest to most ambitious.",
-    "Snowmen accessories — least to most essential.",
-    "Sleds — slowest to fastest hill ride.",
-    "Skis — shortest to longest.",
-    "Snowboards — easiest to hardest for beginners.",
-    "Gloves for snow — thinnest to warmest.",
-    "Scarves for wind — shortest to longest protection.",
-    "Campfires — smallest to largest.",
-    "Tents — smallest to largest.",
-    "Sleeping bags — thinnest to warmest.",
-    "Camp stoves — simplest to most elaborate.",
-    "Trail snacks — least to most energizing.",
-    "Hiking trails — easiest to hardest (reputation).",
-    "Mountain peaks — shortest to tallest climb (famous).",
-    "Lakes — smallest to largest (well-known).",
-    "Rivers — calmest to wildest.",
-    "Waterfalls — shortest to tallest (famous).",
-    "Caves — smallest to largest tourist cave.",
-    "Islands — smallest to largest (famous).",
-    "Deserts — driest to hottest reputation.",
-    "Rainforests — wettest to densest reputation.",
-    "Volcanoes — dormant to active reputation.",
-    "Earthquakes — weakest to strongest (Richter examples people know).",
-    "Storms — mildest to wildest.",
-    "Cloud types — fluffiest to darkest.",
-    "Rain — lightest to heaviest downpour words.",
-    "Snow — lightest to heaviest fall words.",
-    "Wind — gentlest to strongest (Beaufort words).",
-    "Temperature words — coldest to hottest.",
-    "Seasons — least to most favorite for outdoor BBQ.",
-    "Months — coldest to hottest (Northern Hemisphere).",
-    "Days of the week — most to least liked (typical).",
-    "Times of day — sleepiest to most alert feeling.",
-    "Alarms — gentlest to harshest sound.",
-    "Morning drinks — weakest to strongest wake-up.",
-    "Commutes — shortest to longest (typical).",
-    "Traffic jams — briefest to longest (typical story).",
-    "Meetings — shortest to longest (office joke scale).",
-    "Emails — shortest to longest (typical).",
-    "Phone calls — briefest to longest (typical).",
-    "Texts — shortest to longest (typical).",
-    "Notifications — least to most annoying.",
-    "Chores — quickest to longest.",
-    "Laundry loads — smallest to largest.",
-    "Dishes — fewest to most after a dinner party.",
-    "Trash bags — smallest to largest.",
-    "Recycling bins — emptiest to fullest (typical week).",
-    "Closets — tidiest to messiest (typical).",
-    "Drawers — tidiest to messiest (typical).",
-    "Desks — tidiest to messiest (typical).",
-    "Cars inside — cleanest to messiest.",
-    "Garages — tidiest to messiest.",
-    "Yards — tidiest to wildest.",
-    "Fences — shortest to tallest.",
-    "Gates — narrowest to widest.",
-    "Driveways — shortest to longest.",
-    "Sidewalks — smoothest to bumpiest.",
-    "Lawns — smallest to largest.",
-    "Garden beds — smallest to largest.",
-    "Compost piles — smallest to largest.",
-    "Wood piles — smallest to largest.",
-    "Tool sheds — smallest to largest.",
-    "Bird feeders — simplest to most elaborate.",
-    "Dog houses — smallest to largest.",
-    "Chicken coops — smallest to largest.",
-    "Beehives — calmest to busiest reputation.",
+    &#34;Common animals — least scary to most scary.&#34;,
+    &#34;Common jobs — least outdoor to most outdoor.&#34;,
+    &#34;Breakfast cereals — least sweet to most sweet.&#34;,
+    &#34;Sodas — least fizzy to most fizzy.&#34;,
+    &#34;Cheeses — mildest to strongest smell.&#34;,
+    &#34;Chocolates — least dark to most dark.&#34;,
+    &#34;Bread — softest to crunchiest.&#34;,
+    &#34;Fruits — least juicy to most juicy.&#34;,
+    &#34;Vegetables — least bitter to most bitter.&#34;,
+    &#34;Meats — leanest to fattiest.&#34;,
+    &#34;Fish — mildest to fishiest taste.&#34;,
+    &#34;Noodles — thinnest to thickest.&#34;,
+    &#34;Pasta shapes — least to most sauce-holding ability.&#34;,
+    &#34;Pizza crusts — thinnest to thickest.&#34;,
+    &#34;Ice cream — least creamy to most creamy.&#34;,
+    &#34;Coffee drinks — least to most caffeinated.&#34;,
+    &#34;Tea types — mildest to strongest flavor.&#34;,
+    &#34;Sandwich breads — softest to hardest crust.&#34;,
+    &#34;Chip flavors — blandest to boldest.&#34;,
+    &#34;Candy — least sour to most sour.&#34;,
+    &#34;Fruits — easiest to hardest to peel.&#34;,
+    &#34;Nuts — easiest to hardest to crack.&#34;,
+    &#34;Herbs — mildest to strongest smell.&#34;,
+    &#34;Peppers — mildest to hottest.&#34;,
+    &#34;Milk types — least to most creamy.&#34;,
+    &#34;Yogurt flavors — tartest to sweetest.&#34;,
+    &#34;House pets — least to most maintenance.&#34;,
+    &#34;Dog sizes — smallest to largest breed.&#34;,
+    &#34;Cat behaviors — calmest to wildest.&#34;,
+    &#34;Birds as pets — quietest to noisiest.&#34;,
+    &#34;Fish tank fish — easiest to hardest to keep alive.&#34;,
+    &#34;Farm animals — calmest to most chaotic.&#34;,
+    &#34;Zoo animals — slowest to fastest.&#34;,
+    &#34;Insects — least to most creepy.&#34;,
+    &#34;Spiders — smallest to largest (common ones).&#34;,
+    &#34;Bugs — least to most likely to fly at your face.&#34;,
+    &#34;Sea animals — shallowest to deepest habitat.&#34;,
+    &#34;Whales and dolphins — smallest to largest.&#34;,
+    &#34;Sharks — least to most feared (reputation).&#34;,
+    &#34;Dinosaurs — smallest to largest.&#34;,
+    &#34;Reptiles — slowest to fastest.&#34;,
+    &#34;Amphibians — least to most slimy.&#34;,
+    &#34;Colors — calmest to most energetic feeling.&#34;,
+    &#34;Colors — coolest to warmest feeling.&#34;,
+    &#34;Fabrics — softest to scratchiest.&#34;,
+    &#34;Metals — lightest to heaviest (common ones).&#34;,
+    &#34;Wood types — softest to hardest.&#34;,
+    &#34;Rocks — smoothest to roughest.&#34;,
+    &#34;Gemstones — least to most valuable (common knowledge).&#34;,
+    &#34;Flowers — least to most fragrant.&#34;,
+    &#34;Trees — shortest to tallest (typical).&#34;,
+    &#34;Houseplants — hardest to easiest to kill.&#34;,
+    &#34;Vegetables — fastest to slowest to cook.&#34;,
+    &#34;Fruits — fastest to slowest to ripen.&#34;,
+    &#34;Leftovers — shortest to longest fridge life.&#34;,
+    &#34;Snacks — least to most addictive.&#34;,
+    &#34;Desserts — least to most decadent.&#34;,
+    &#34;Holiday candies — least to most nostalgic.&#34;,
+    &#34;Soups — thinnest to thickest.&#34;,
+    &#34;Sauces — mildest to spiciest.&#34;,
+    &#34;Dips — creamiest to chunkiest.&#34;,
+    &#34;Spreads — sweetest to savoriest.&#34;,
+    &#34;Breakfast items — quickest to slowest to prepare.&#34;,
+    &#34;Microwave meals — worst to best quality.&#34;,
+    &#34;Frozen pizzas — thinnest to thickest crust.&#34;,
+    &#34;Fast food burgers — smallest to largest.&#34;,
+    &#34;Taco fillings — mildest to spiciest.&#34;,
+    &#34;Burrito sizes — smallest to largest.&#34;,
+    &#34;Sushi types — mildest to strongest flavor.&#34;,
+    &#34;Ramen toppings — mildest to boldest.&#34;,
+    &#34;Curry dishes — mildest to hottest.&#34;,
+    &#34;Stir-fry vegetables — quickest to slowest to cook.&#34;,
+    &#34;Smoothie fruits — least to most tart.&#34;,
+    &#34;Juice flavors — sweetest to tartest.&#34;,
+    &#34;Sodas — least to most sugary tasting.&#34;,
+    &#34;Energy drinks — mildest to strongest kick.&#34;,
+    &#34;Mocktails — least to most fancy.&#34;,
+    &#34;Cocktail names — mildest to strongest (reputation).&#34;,
+    &#34;Wine types — sweetest to driest (reputation).&#34;,
+    &#34;Beer types — lightest to darkest.&#34;,
+    &#34;Rooms — coldest to warmest in winter.&#34;,
+    &#34;Rooms — brightest to dimmest.&#34;,
+    &#34;Furniture — hardest to softest to sit on.&#34;,
+    &#34;Chairs — least to most comfortable.&#34;,
+    &#34;Beds — narrowest to widest.&#34;,
+    &#34;Pillows — flattest to fluffiest.&#34;,
+    &#34;Blankets — lightest to heaviest.&#34;,
+    &#34;Towels — roughest to softest.&#34;,
+    &#34;Soap scents — mildest to strongest.&#34;,
+    &#34;Shampoo scents — mildest to strongest.&#34;,
+    &#34;Toothpaste flavors — mildest to strongest.&#34;,
+    &#34;Cleaning products — mildest to harshest smell.&#34;,
+    &#34;Vacuum sounds — quietest to loudest.&#34;,
+    &#34;Appliances — quietest to noisiest.&#34;,
+    &#34;Kitchen gadgets — least to most useful.&#34;,
+    &#34;Knives — dullest to sharpest (when new).&#34;,
+    &#34;Pots — smallest to largest.&#34;,
+    &#34;Plates — smallest to largest.&#34;,
+    &#34;Cups — smallest to largest.&#34;,
+    &#34;Water bottles — smallest to largest.&#34;,
+    &#34;Lunch boxes — smallest to largest.&#34;,
+    &#34;Backpacks — smallest to largest.&#34;,
+    &#34;Suitcases — smallest to largest.&#34;,
+    &#34;Cars — smallest to largest.&#34;,
+    &#34;Trucks — smallest to largest.&#34;,
+    &#34;Buses — shortest to longest.&#34;,
+    &#34;Trains — slowest to fastest.&#34;,
+    &#34;Planes — smallest to largest (passenger).&#34;,
+    &#34;Boats — smallest to largest.&#34;,
+    &#34;Bikes — slowest to fastest (types).&#34;,
+    &#34;Scooters — slowest to fastest.&#34;,
+    &#34;Skateboards — stablest to wobbliest for beginners.&#34;,
+    &#34;Roller skates — easiest to hardest for beginners.&#34;,
+    &#34;Sports balls — smallest to largest.&#34;,
+    &#34;Rackets — lightest to heaviest.&#34;,
+    &#34;Gym weights — lightest to heaviest.&#34;,
+    &#34;Yoga poses — easiest to hardest.&#34;,
+    &#34;Stretches — easiest to hardest.&#34;,
+    &#34;Running distances — shortest to longest.&#34;,
+    &#34;Swimming strokes — slowest to fastest.&#34;,
+    &#34;Dance moves — easiest to hardest.&#34;,
+    &#34;Martial arts — gentlest to roughest reputation.&#34;,
+    &#34;Playground equipment — safest to scariest for parents.&#34;,
+    &#34;Theme park rides — mildest to wildest.&#34;,
+    &#34;Carnival rides — mildest to wildest.&#34;,
+    &#34;Roller coasters — shortest to longest ride.&#34;,
+    &#34;Water slides — mildest to steepest.&#34;,
+    &#34;Board games — shortest to longest play time.&#34;,
+    &#34;Card games — simplest to most complex rules.&#34;,
+    &#34;Puzzles — fewest to most pieces (typical boxes).&#34;,
+    &#34;LEGO sets — smallest to largest piece count.&#34;,
+    &#34;Video games — easiest to hardest (reputation).&#34;,
+    &#34;Movie lengths — shortest to longest (typical).&#34;,
+    &#34;Book lengths — shortest to longest (typical).&#34;,
+    &#34;Comic books — thinnest to thickest.&#34;,
+    &#34;Magazines — thinnest to thickest.&#34;,
+    &#34;Newspaper sections — thinnest to thickest.&#34;,
+    &#34;School subjects — easiest to hardest (typical student view).&#34;,
+    &#34;Homework tasks — quickest to longest.&#34;,
+    &#34;Tests — easiest to hardest (reputation).&#34;,
+    &#34;College majors — easiest to hardest (reputation).&#34;,
+    &#34;Languages — easiest to hardest for English speakers.&#34;,
+    &#34;Musical instruments — easiest to hardest to learn.&#34;,
+    &#34;Songs to sing — easiest to hardest (range).&#34;,
+    &#34;Band instruments — quietest to loudest.&#34;,
+    &#34;Orchestra sections — quietest to loudest.&#34;,
+    &#34;Art mediums — messiest to cleanest.&#34;,
+    &#34;Paint colors — lightest to darkest.&#34;,
+    &#34;Drawing tools — thinnest to thickest line.&#34;,
+    &#34;Craft supplies — messiest to tidiest.&#34;,
+    &#34;Sewing projects — simplest to most complex.&#34;,
+    &#34;Knitting projects — quickest to longest.&#34;,
+    &#34;Woodworking projects — simplest to most ambitious.&#34;,
+    &#34;DIY repairs — easiest to hardest.&#34;,
+    &#34;Tools — least to most dangerous if misused.&#34;,
+    &#34;Power tools — quietest to loudest.&#34;,
+    &#34;Hand tools — smallest to largest.&#34;,
+    &#34;Screws — smallest to largest (common).&#34;,
+    &#34;Nails — shortest to longest.&#34;,
+    &#34;Glue types — weakest to strongest bond.&#34;,
+    &#34;Tape types — weakest to strongest stick.&#34;,
+    &#34;Batteries — shortest to longest life (typical use).&#34;,
+    &#34;Light bulbs — dimmest to brightest.&#34;,
+    &#34;Candles — shortest to longest burn.&#34;,
+    &#34;Matches — hardest to easiest to light in wind.&#34;,
+    &#34;Umbrellas — smallest to largest.&#34;,
+    &#34;Rain boots — shortest to tallest.&#34;,
+    &#34;Winter coats — lightest to heaviest.&#34;,
+    &#34;Gloves — thinnest to thickest.&#34;,
+    &#34;Scarves — shortest to longest.&#34;,
+    &#34;Sunglasses — darkest to lightest tint.&#34;,
+    &#34;Watches — cheapest to most expensive (brands people know).&#34;,
+    &#34;Phones — oldest to newest generation feel.&#34;,
+    &#34;Laptops — lightest to heaviest.&#34;,
+    &#34;Tablets — smallest to largest screen.&#34;,
+    &#34;Headphones — cheapest to most expensive (reputation).&#34;,
+    &#34;Speakers — quietest to loudest.&#34;,
+    &#34;TV sizes — smallest to largest.&#34;,
+    &#34;Monitors — smallest to largest.&#34;,
+    &#34;Keyboards — quietest to loudest typing.&#34;,
+    &#34;Mice — smallest to largest.&#34;,
+    &#34;Chargers — slowest to fastest (reputation).&#34;,
+    &#34;Wi-Fi spots — weakest to strongest signal (typical places).&#34;,
+    &#34;Apps — most to least used daily (typical person).&#34;,
+    &#34;Social media platforms — calmest to most chaotic.&#34;,
+    &#34;Emojis — least to most used.&#34;,
+    &#34;Text abbreviations — oldest to newest generation.&#34;,
+    &#34;Memes — oldest to newest format (internet eras).&#34;,
+    &#34;Holidays — least to most festive.&#34;,
+    &#34;Birthday traditions — simplest to most elaborate.&#34;,
+    &#34;Wedding traditions — simplest to most elaborate.&#34;,
+    &#34;Greeting styles — most to least formal.&#34;,
+    &#34;Handshakes — weakest to firmest.&#34;,
+    &#34;Hugs — briefest to longest (social norm).&#34;,
+    &#34;Party sizes — intimate to massive.&#34;,
+    &#34;Restaurants — casual to fancy.&#34;,
+    &#34;Hotels — budget to luxury.&#34;,
+    &#34;Airlines — budget to premium (reputation).&#34;,
+    &#34;Seats on a plane — worst to best.&#34;,
+    &#34;Train seats — worst to best.&#34;,
+    &#34;Bus seats — worst to best.&#34;,
+    &#34;Traffic — lightest to heaviest (time of day).&#34;,
+    &#34;Parking spots — worst to best.&#34;,
+    &#34;Roads — smoothest to bumpiest.&#34;,
+    &#34;Bridges — shortest to longest (famous ones).&#34;,
+    &#34;Tunnels — shortest to longest.&#34;,
+    &#34;Elevators — slowest to fastest.&#34;,
+    &#34;Escalators — shortest to longest.&#34;,
+    &#34;Stairs — fewest to most steps (everyday places).&#34;,
+    &#34;Doors — lightest to heaviest to open.&#34;,
+    &#34;Windows — smallest to largest.&#34;,
+    &#34;Keys — fewest to most on a keyring.&#34;,
+    &#34;Locks — easiest to hardest to pick (movie reputation).&#34;,
+    &#34;Safes — smallest to largest.&#34;,
+    &#34;Wallets — thinnest to thickest when full.&#34;,
+    &#34;Coins — least to most value.&#34;,
+    &#34;Bills — smallest to largest denomination.&#34;,
+    &#34;Piggy banks — smallest to largest.&#34;,
+    &#34;Prizes — cheapest to most exciting at a fair.&#34;,
+    &#34;Lottery tickets — worst to best odds (reputation).&#34;,
+    &#34;Coupons — smallest to biggest savings.&#34;,
+    &#34;Sales — smallest to biggest discount events.&#34;,
+    &#34;Thrift finds — least to most surprising quality.&#34;,
+    &#34;Garage sale items — least to most valuable surprise.&#34;,
+    &#34;Antiques — least to most valuable (common sense).&#34;,
+    &#34;Collectibles — least to most valuable (reputation).&#34;,
+    &#34;Stamps — least to most valuable (reputation).&#34;,
+    &#34;Coins (collectible) — least to most valuable (reputation).&#34;,
+    &#34;Baseball cards — least to most valuable (reputation).&#34;,
+    &#34;Comic issues — least to most valuable (reputation).&#34;,
+    &#34;Action figures — least to most valuable (nostalgia).&#34;,
+    &#34;Dolls — least to most creepy (reputation).&#34;,
+    &#34;Stuffed animals — smallest to largest.&#34;,
+    &#34;Teddy bears — least to most cuddly.&#34;,
+    &#34;Toy cars — smallest to largest.&#34;,
+    &#34;Toy blocks — smallest to largest set.&#34;,
+    &#34;Dolls houses — smallest to largest.&#34;,
+    &#34;Pretend food — least to most realistic.&#34;,
+    &#34;Costumes — simplest to most elaborate.&#34;,
+    &#34;Halloween candies — least to most desired.&#34;,
+    &#34;Christmas gifts — least to most exciting unwrap.&#34;,
+    &#34;Easter candies — least to most desired.&#34;,
+    &#34;Valentine chocolates — least to most romantic.&#34;,
+    &#34;Fireworks — quietest to loudest.&#34;,
+    &#34;Sparklers — shortest to longest burn.&#34;,
+    &#34;Balloons — smallest to largest.&#34;,
+    &#34;Bubbles — smallest to largest wand.&#34;,
+    &#34;Kites — easiest to hardest to fly.&#34;,
+    &#34;Frisbees — easiest to hardest to throw straight.&#34;,
+    &#34;Yo-yos — easiest to hardest tricks.&#34;,
+    &#34;Jacks — easiest to hardest (game speed).&#34;,
+    &#34;Marbles — smallest to largest.&#34;,
+    &#34;Jump ropes — shortest to longest.&#34;,
+    &#34;Hula hoops — smallest to largest.&#34;,
+    &#34;Trampolines — smallest to largest.&#34;,
+    &#34;Pools — shallowest to deepest (backyard).&#34;,
+    &#34;Water guns — weakest to strongest stream.&#34;,
+    &#34;Sandcastles — simplest to most ambitious.&#34;,
+    &#34;Snowmen accessories — least to most essential.&#34;,
+    &#34;Sleds — slowest to fastest hill ride.&#34;,
+    &#34;Skis — shortest to longest.&#34;,
+    &#34;Snowboards — easiest to hardest for beginners.&#34;,
+    &#34;Gloves for snow — thinnest to warmest.&#34;,
+    &#34;Scarves for wind — shortest to longest protection.&#34;,
+    &#34;Campfires — smallest to largest.&#34;,
+    &#34;Tents — smallest to largest.&#34;,
+    &#34;Sleeping bags — thinnest to warmest.&#34;,
+    &#34;Camp stoves — simplest to most elaborate.&#34;,
+    &#34;Trail snacks — least to most energizing.&#34;,
+    &#34;Hiking trails — easiest to hardest (reputation).&#34;,
+    &#34;Mountain peaks — shortest to tallest climb (famous).&#34;,
+    &#34;Lakes — smallest to largest (well-known).&#34;,
+    &#34;Rivers — calmest to wildest.&#34;,
+    &#34;Waterfalls — shortest to tallest (famous).&#34;,
+    &#34;Caves — smallest to largest tourist cave.&#34;,
+    &#34;Islands — smallest to largest (famous).&#34;,
+    &#34;Deserts — driest to hottest reputation.&#34;,
+    &#34;Rainforests — wettest to densest reputation.&#34;,
+    &#34;Volcanoes — dormant to active reputation.&#34;,
+    &#34;Earthquakes — weakest to strongest (Richter examples people know).&#34;,
+    &#34;Storms — mildest to wildest.&#34;,
+    &#34;Cloud types — fluffiest to darkest.&#34;,
+    &#34;Rain — lightest to heaviest downpour words.&#34;,
+    &#34;Snow — lightest to heaviest fall words.&#34;,
+    &#34;Wind — gentlest to strongest (Beaufort words).&#34;,
+    &#34;Temperature words — coldest to hottest.&#34;,
+    &#34;Seasons — least to most favorite for outdoor BBQ.&#34;,
+    &#34;Months — coldest to hottest (Northern Hemisphere).&#34;,
+    &#34;Days of the week — most to least liked (typical).&#34;,
+    &#34;Times of day — sleepiest to most alert feeling.&#34;,
+    &#34;Alarms — gentlest to harshest sound.&#34;,
+    &#34;Morning drinks — weakest to strongest wake-up.&#34;,
+    &#34;Commutes — shortest to longest (typical).&#34;,
+    &#34;Traffic jams — briefest to longest (typical story).&#34;,
+    &#34;Meetings — shortest to longest (office joke scale).&#34;,
+    &#34;Emails — shortest to longest (typical).&#34;,
+    &#34;Phone calls — briefest to longest (typical).&#34;,
+    &#34;Texts — shortest to longest (typical).&#34;,
+    &#34;Notifications — least to most annoying.&#34;,
+    &#34;Chores — quickest to longest.&#34;,
+    &#34;Laundry loads — smallest to largest.&#34;,
+    &#34;Dishes — fewest to most after a dinner party.&#34;,
+    &#34;Trash bags — smallest to largest.&#34;,
+    &#34;Recycling bins — emptiest to fullest (typical week).&#34;,
+    &#34;Closets — tidiest to messiest (typical).&#34;,
+    &#34;Drawers — tidiest to messiest (typical).&#34;,
+    &#34;Desks — tidiest to messiest (typical).&#34;,
+    &#34;Cars inside — cleanest to messiest.&#34;,
+    &#34;Garages — tidiest to messiest.&#34;,
+    &#34;Yards — tidiest to wildest.&#34;,
+    &#34;Fences — shortest to tallest.&#34;,
+    &#34;Gates — narrowest to widest.&#34;,
+    &#34;Driveways — shortest to longest.&#34;,
+    &#34;Sidewalks — smoothest to bumpiest.&#34;,
+    &#34;Lawns — smallest to largest.&#34;,
+    &#34;Garden beds — smallest to largest.&#34;,
+    &#34;Compost piles — smallest to largest.&#34;,
+    &#34;Wood piles — smallest to largest.&#34;,
+    &#34;Tool sheds — smallest to largest.&#34;,
+    &#34;Bird feeders — simplest to most elaborate.&#34;,
+    &#34;Dog houses — smallest to largest.&#34;,
+    &#34;Chicken coops — smallest to largest.&#34;,
+    &#34;Beehives — calmest to busiest reputation.&#34;,
 ]
 add(*simple)
 
 # Trim or pad to exactly 500
 prompts = prompts[:500]
-while len(prompts) < 500:
+while len(prompts) &lt; 500:
     i = len(prompts)
-    prompts.append(f"Everyday objects — least to most useful (#{i+1}).")
+    prompts.append(f&#34;Everyday objects — least to most useful (#{i+1}).&#34;)
 
-print(f"Count: {len(prompts)}")
+print(f&#34;Count: {len(prompts)}&#34;)
 
 # Quality check: flag hard patterns
 bad = []
 for p in prompts:
-    if re.search(r"likely to (start|become|need|teach|improve)", p):
+    if re.search(r&#34;likely to (start|become|need|teach|improve)&#34;, p):
         bad.append(p)
-    if "from least to most likely" in p and "—" not in p:
+    if &#34;from least to most likely&#34; in p and &#34;—&#34; not in p:
         bad.append(p)
-    if "#" in p:
+    if &#34;#&#34; in p:
         bad.append(p)
-print(f"Flagged: {len(bad)}")
+print(f&#34;Flagged: {len(bad)}&#34;)
 
-with open("data/randomizer.yaml") as f:
+with open(&#34;data/randomizer.yaml&#34;) as f:
     data = yaml.safe_load(f)
 
-data["collections"][0] = {
-    "id": "scale-clues",
-    "title": "Ranking prompts",
-    "mode": "ranked-prompts",
-    "tagline": "A clear scale plus a category of everyday things. Name one concrete example — food, animal, job, place, or object.",
-    "play_hint": "Give one real example everyone knows (\"pizza\", \"nurse\", \"giraffe\"). It should land on the 1–100 scale without saying the number.",
-    "items": prompts,
+data[&#34;collections&#34;][0] = {
+    &#34;id&#34;: &#34;scale-clues&#34;,
+    &#34;title&#34;: &#34;Ranking prompts&#34;,
+    &#34;mode&#34;: &#34;ranked-prompts&#34;,
+    &#34;tagline&#34;: &#34;A clear scale plus a category of everyday things. Name one concrete example — food, animal, job, place, or object.&#34;,
+    &#34;play_hint&#34;: &#34;Give one real example everyone knows (\&#34;pizza\&#34;, \&#34;nurse\&#34;, \&#34;giraffe\&#34;). It should land on the 1–100 scale without saying the number.&#34;,
+    &#34;items&#34;: prompts,
 }
 
-with open("data/randomizer.yaml", "w") as f:
-    f.write("# Game prompt collections. Names describe the prompt type — not branded deck titles.\n")
-    f.write("# All prompts are family-friendly and generic for a worldwide audience.\n")
+with open(&#34;data/randomizer.yaml&#34;, &#34;w&#34;) as f:
+    f.write(&#34;# Game prompt collections. Names describe the prompt type — not branded deck titles.\n&#34;)
+    f.write(&#34;# All prompts are family-friendly and generic for a worldwide audience.\n&#34;)
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=1000)
 
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import yaml, re
@@ -2571,33 +2415,19 @@ Count: 500
 Flagged: 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2623,25 +2453,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -2652,7 +2469,8 @@ The personal-scales nesting issue remains unresolved.
 
 Line counts check out. The remaining question is whether personal-scales is a sibling or nested collection in the YAML.
 
-Alcohol-related prompts may violate the family-friendly requirement. "Cocktail names," "wine," and "beer" should be replaced with easier alternatives. The vegetable spiciness ranking is also awkward. Validation will identify and fix these items.</details></think>
+Alcohol-related prompts may violate the family-friendly requirement. "Cocktail names," "wine," and "beer" should be replaced with easier alternatives. The vegetable spiciness ranking is also awkward. Validation will identify and fix these items.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2661,10 +2479,8 @@ Filtering out alcohol-related prompts and a few abstract ones that don't fit a f
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2695,26 +2511,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Those four alcohol-related prompts will be replaced with easy family-friendly alternatives.</details></think>
+Those four alcohol-related prompts will be replaced with easy family-friendly alternatives.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2740,42 +2548,26 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import yaml
-with open('data/randomizer.yaml') as f:
+with open(&#39;data/randomizer.yaml&#39;) as f:
     d = yaml.safe_load(f)
-items = d['collections'][0]['items']
-print('count', len(items))
-print('sample:', items[0], '|', items[200], '|', items[-1])
-"</summary>
-
+items = d[&#39;collections&#39;][0][&#39;items&#39;]
+print(&#39;count&#39;, len(items))
+print(&#39;sample:&#39;, items[0], &#39;|&#39;, items[200], &#39;|&#39;, items[-1])
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import yaml
@@ -2792,12 +2584,6 @@ count 500
 sample: Fruits — least to most messy to eat. | Science jobs — least to most stressful on a Monday morning. | Rooms — brightest to dimmest.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2836,10 +2622,8 @@ Researching Ito's prompt style and comparing it to our scale-clues deck.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -2855,50 +2639,26 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Ito - Arcane Wonders](https://www.arcanewonders.com/product/ito/)\n2. [Ito Review | The Mind Meets Wavelength (Sort Of)](https://rolltoreview.com/ito-party-game-review/)\n3. [Dale Yu: Review of Ito | The Opinionated Gamers](https://opinionatedgamers.com/2023/12/05/dale-yu-review-of-ito/)\n4. [boardgame geek](https://boardgamegeek.com/thread/3495531/ito-an-awesome-party-game)\n\nSynthesis:\nIto is a cooperative party game where 2 to 10 players receive a secret number from 1 to 100 and must arrange their cards in numerical order by providing theme-based clues [1][2].\n\nGameplay:\n1. Draw a category card (e.g., spiciest food, superpowers) [1][3].\n2. Provide a clue representing your number’s position on a low-to-high scale (e.g., low number = mild, high number = extreme) without using numbers or values [1][4].\n3. Place your card face-down in a row and discuss the order with the group [1][5].\n4. Reveal the cards; you win if they are in ascending order [1][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eIto - Arcane Wonders\u003c/title\u003e\n\u003curl\u003ehttps://www.arcanewonders.com/product/ito/\u003c/url\u003e\n\u003ccontent\u003eAt the start of the game, each player gets a secret number card that can have a value between 1 and 100. Remember, it’s a SECRET, so of course the other players can’t tell you directly what number they have, and neither can you!\n...\n“ito” is a cooperative card game where you link number cards in your hand to a hint related to a shared category, trying to arrange the cards on the table in numerical order. To compare hints, you will need to discuss with your fellow players.\n...\nFeaturing all new hand drawn illustrations for each number card and new categories. Categories are split into 3 types: Family, Everyone and Action!\n...\n- Shuffle the Category Cards to create a deck.\n...\n- Shuffle the Number Cards to create a deck.\n...\n- Place the Zero Card in the middle of the table leaving space for players to lay their Number Cards in the Playing Space.\n...\nEvery player must provide an example related to the chosen category which hints towards the number they hold in their hand. This can be done freely among the players without a strict turn order. When you have your hint, play the card into the Playing Space, placing it either next to the zero (if you played first), immediately to the right of the previous card played, or in-between two cards that have been played creating a thread with no breaks.\n...\nThe objective is for all players to arrange the cards in a row starting from the Zero card, in numerical order lowest to highest. Closer to the Zero card means a lower number. When you play a card in the row, place one of your Player Cards face up under the Number Card to mark it as yours.\n...\nDiscuss as a group where each card belongs in the thread, changing the order of a card if needed. When everyone has agreed on the order of the cards, the resolution phase begins. Starting from 0, reveal each card one by one. If all the cards are in correct numerical order, lowest to highest, you win!\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eIto Review | The Mind Meets Wavelength (Sort Of)\u003c/title\u003e\n\u003curl\u003ehttps://rolltoreview.com/ito-party-game-review/\u003c/url\u003e\n\u003ccontent\u003e- Great prompts and clues spark bouts of laughter\n- Quick to learn, quick to play, quick to set up, works with anybody and almost any group size\n- Every player stays involved each round\n- Wide range of category cards keeps things fresh\n- Small, portable, and easy to teach, awesome for travelling\n...\nIto is a light co-op game about lining up numbers in the right order, without actually knowing what anyone’s number is. Don’t worry, it’s not a maths test. It’s more like a group mentalist challenge with a splash of silliness.\n...\nEveryone gets a secret number between 1 and 100. You can look at your own, but you’re not allowed to say it out loud. That’d be too easy. Instead, you’ll give a clue based on the round’s Category card, which usually presents some sort of scale. Some examples: biggest animal, spiciest food, or most embarrassing thing to get caught doing.\n...\nOnce you’ve shared your clue, you place your card into the lineup on the table where you think it belongs. When everyone’s done, there’s a chance to discuss, debate, and rearrange the order of the cards.\n...\nThen comes the moment of truth. Flip the cards and if the numbers are perfectly lined up from smallest to biggest, you win the round! On to a tougher challenge where one player has to place two cards. Get it wrong? No worries. Draw a new category and go again.\n...\nto call an ‘activity game\n...\nshared challenge and\n...\n, too. I\n...\nwith more players, but\n...\nfour of us, we\n...\nhad one card\n...\nWhich happens more than you think, because the category cards leave a lot up to interpretation and imagination. Some are personal, like “Things that would be weird to hear from the person on your left.” Others are just plain fun, like “Good things to shout while using a special move or attack.” There are even action-based ones for the braver players, and some gentler, family-friendly prompts for anyone who’d prefer not to act out a dramatic death scene at Sunday lunch.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eDale Yu: Review of Ito | The Opinionated Gamers\u003c/title\u003e\n\u003curl\u003ehttps://opinionatedgamers.com/2023/12/05/dale-yu-review-of-ito/\u003c/url\u003e\n\u003ccontent\u003eito is a cooperative game where you and your friends will each get your own secret number you then have to try to put in order as a group based on the clues you give related to the chosen theme. At the start of the game, each player gets a secret number card that can have a value between 1 and 100. Remember, it’s a SECRET, so of course the other players can’t tell you directly what number they have, and neither can you! The trick is for everyone to understand their intentions just by hearing theme-based clues. Do you and your friends see eye to eye in how you view the world? Have fun finding out in this exciting party game!\n...\nTo setup, each player gets the two cubes in their color. The deck is shuffled and each player draws a card. The zero card is placed on the table. Then draw the top card of the theme deck, consult the chart and decide which theme to use for the round.\n...\nNext, each player must provide an answer to the theme which hopefully hints at the number they hold. An answer that is very thematic would correspond to a high number card and an opposite answer would be pointing to a low number. For instance if the theme was complicated boardgames, “Weather Machine” would tell me you have a high number while “Qwirkle” would suggest a low number. There is no order to this phase, and players can give answers in any order. Or if the theme was tasty foods, to me: “pizza” = 95, “rhubarb” = 1.\n...\nAs players give their answer, they place their card facedown on the table and mark it with a cube of their color. The group must work together to order the cards in low to high order on the table. When the cards are all placed on the table, they are flipped over one at a time, and the order is checked. The group wins if the cards are in correct ascending order!\n...\nfirst game is successful\n...\nthe next round\n...\nas each player is now given\n...\nnumber cards, and therefore must give\n...\ndouble the number\n...\nanswers to put\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eboardgame geek\u003c/title\u003e\n\u003curl\u003ehttps://boardgamegeek.com/thread/3495531/ito-an-awesome-party-game\u003c/url\u003e\n\u003ccontent\u003e# [Ito - an awesome party game.](https://boardgamegeek.com/thread/3495531/ito-an-awesome-party-game)\n...\nIto // is a simple yet clever card game for two to eight players that takes ten minutes to play each round. In this cooperative party game, players organize a set of face-down cards in the correct order by responding to a set topic. At the end of the round, the cards are revealed, and if they are all in the correct numerical order, the group wins Ito together.\n...\nInitially, each player is dealt a face-down card, that shows a value of 1 to 100, which they keep to themselves. Then a prompt such as “Here I would travel with a time machine”, “This job is important” or “This requires luck” is read out aloud. Now players take turns placing their card face down in the middle of the table and declaring a response to the given prompt. The response categorieses their card on a scale of 1 to 100, which will give others a clue as to where they should play their card and what response to give. After all cards are played the responses are discussed and the order of cards rearranged if needed. Once all players are happy all cards are turned over to reveal if they are in the correct order.\n...\nIto is not only a great game to get a bunch of strangers talking as an icebreaker activity, but it also works very well when you are familiar with the other players, just don’t be surprised by the responses of the people you thought you knew so well. Ito is hilariously funny in one moment, cruel, harsh or even inappropriate in another. I have\n...\nsiblings debate their responses in disbelief over what the other\n...\nsaid and a group of strangers find common ground to win the game together and discuss the topic at lengths thereafter. We love Ito for its simplicity and the fact that a large amount of the game is user-generated through the creative responses of each player.\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    },
-    {
-      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c54c687e-be0f-45d8-b06f-2095d5a5259a.txt\nSize: 27.3 KB, 270 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
-      "title": "boardgame geek",
-      "url": "https://boardgamegeek.com/thread/3495531/ito-an-awesome-party-game"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Ito - Arcane Wonders](https://www.arcanewonders.com/product/ito/)\n2. [Ito Review | The Mind Meets Wavelength (Sort Of)](https://rolltoreview.com/ito-party-game-review/)\n3. [Dale Yu: Review of Ito | The Opinionated Gamers](https://opinionatedgamers.com/2023/12/05/dale-yu-review-of-ito/)\n4. [boardgame geek](https://boardgamegeek.com/thread/3495531/ito-an-awesome-party-game)\n\nSynthesis:\nIto is a cooperative party game where 2 to 10 players receive a secret number from 1 to 100 and must arrange their cards in numerical order by providing theme-based clues [1][2].\n\nGameplay:\n1. Draw a category card (e.g., spiciest food, superpowers) [1][3].\n2. Provide a clue representing your number’s position on a low-to-high scale (e.g., low number = mild, high number = extreme) without using numbers or values [1][4].\n3. Place your card face-down in a row and discuss the order with the group [1][5].\n4. Reveal the cards; you win if they are in ascending order [1][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eIto - Arcane Wonders\u003c/title\u003e\n\u003curl\u003ehttps://www.arcanewonders.com/product/ito/\u003c/url\u003e\n\u003ccontent\u003eAt the start of the game, each player gets a secret number card that can have a value between 1 and 100. Remember, it’s a SECRET, so of course the other players can’t tell you directly what number they have, and neither can you!\n...\n“ito” is a cooperative card game where you link number cards in your hand to a hint related to a shared category, trying to arrange the cards on the table in numerical order. To compare hints, you will need to discuss with your fellow players.\n...\nFeaturing all new hand drawn illustrations for each number card and new categories. Categories are split into 3 types: Family, Everyone and Action!\n...\n- Shuffle the Category Cards to create a deck.\n...\n- Shuffle the Number Cards to create a deck.\n...\n- Place the Zer
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3005,21 +2765,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
 <summary>Tool use: **web_search**</summary>
-
 
 Parameters:
 
@@ -3035,45 +2786,26 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Ito Review | The Mind Meets Wavelength (Sort Of)](https://rolltoreview.com/ito-party-game-review/)\n2. [Ito | The Gaming CircusTest how well you know your friends in this small box card game. Ito is an invative and entertaining cooperative party game which get players working together to place their number in the correct order without revealing them. To help the players work out your numbers you will give theme-based clues to help others work out where their number fits. This results in player relying on shared perspectives, intuition and a bit of humour to succeed. At the beginning of the game players receive a secret number between 1 and 100 from the deck. The challenge now is not to say the number out loud and can only give clues based on the chosen theme. The themes range from spicy food all the way to famous movie characters causing some interesting clue to be given and requiring deciphering. The better the team deduces the correct answer from the hints and they communicate with each other the better they will do. But be careful differences in perception can lead to hilarious mix-ups and unexpected surprises. Can you get all your numbers in a row?](https://www.thegamingcircus.co.uk/product-page/ito)\n3. [Get Your Thoughts in Order in ‘ito’ – GeekDad](https://geekdad.com/2025/03/get-your-thoughts-in-order-in-ito/)\n4. [iTO（イト）お題一覧　完全協力型ボードゲームのお題をジャンル毎に紹介【2025年度版】 | ゲームあれこれ](https://gamearekore.com/ito%ef%bc%88%e3%82%a4%e3%83%88%ef%bc%89%e5%ae%8c%e5%85%a8%e5%8d%94%e5%8a%9b%e5%9e%8b%e3%83%9c%e3%83%bc%e3%83%89%e3%82%b2%e3%83%bc%e3%83%a0%e3%81%ae%e3%81%8a%e9%a1%8c%e4%b8%80%e8%a6%a7%e3%80%80/)\n\nSynthesis:\nIn the board game Ito, players assign a subjective value (1 to 100) to a clue based on a theme card. While there is no official category titled \"spiciest,\" \"spiciest food\" is a commonly cited example of an Ito theme [1][2][3].\n\nThe themes in Ito generally fall into categories such as popularity scales, personal preferences, and action-based prompts [1][4]. The \"Adult\" category (often designated by pink cards) contains themes regarding relationships, social etiquette, and personal preferences, which are sometimes colloquially referred to as the spicier or more mature side of the game [5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eIto Review | The Mind Meets Wavelength (Sort Of)\u003c/title\u003e\n\u003curl\u003ehttps://rolltoreview.com/ito-party-game-review/\u003c/url\u003e\n\u003ccontent\u003eand easy to\n...\nEveryone gets a secret number between 1 and 100. You can look at your own, but you’re not allowed to say it out loud. That’d be too easy. Instead, you’ll give a clue based on the round’s Category card, which usually presents some sort of scale. Some examples: biggest animal, spiciest food, or most embarrassing thing to get caught doing.\n...\nSo if the category is Popular things to collect and your number is low, you might say something like “used tissues.” High number? Maybe something beloved and wildly collectable… like board games?\n...\nWhich happens more than you think, because the category cards leave a lot up to interpretation and imagination. Some are personal, like “Things that would be weird to hear from the person on your left.” Others are just plain fun, like “Good things to shout while using a special move or attack.” There are even action-based ones for the braver players, and some gentler, family-friendly prompts for anyone who’d prefer not to act out a dramatic death scene at Sunday lunch.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eIto | The Gaming CircusTest how well you know your friends in this small box card game. Ito is an invative and entertaining cooperative party game which get players working together to place their number in the correct order without revealing them. To help the players work out your numbers you will give theme-based clues to help others work out where their number fits. This results in player relying on shared perspectives, intuition and a bit of humour to succeed. At the beginning of the game players receive a secret number between 1 and 100 from the deck. The challenge now is not to say the number out loud and can only give clues based on the chosen theme. The themes range from spicy food all the way to famous movie characters causing some interesting clue to be given and requiring deciphering. The better the team deduces the correct answer from the hints and they communicate with each other the better they will do. But be careful differences in perception can lead to hilarious mix-ups and unexpected surprises. Can you get all your numbers in a row?\u003c/title\u003e\n\u003curl\u003ehttps://www.thegamingcircus.co.uk/product-page/ito\u003c/url\u003e\n\u003ccontent\u003eTest how well you know your friends in this small box card game.Ito is an invative and entertaining cooperative party game which get players working together to place their number in the correct order without revealing them. To help the players work out your numbers you will give theme-based clues to help others work out where their number fits. This results in player relying on shared perspectives, intuition and a bit of humour to succeed.At the beginning of the game players receive a secret number between 1 and 100 from the deck. The challenge now is not to say the number out loud and can only give clues based on the chosen theme. The themes range from spicy food all the way to famous movie characters causing some interesting clue to be given and requiring deciphering. The better the team deduces the correct answer from the hints and they communicate with each other the better they will do. But be careful differences in perception can lead to hilarious mix-ups and unexpected surprises.Can you get all your numbers in a row?\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eGet Your Thoughts in Order in ‘ito’ – GeekDad\u003c/title\u003e\n\u003curl\u003ehttps://geekdad.com/2025/03/get-your-thoughts-in-order-in-ito/\u003c/url\u003e\n\u003ccontent\u003e- Visit GeekMom\n- Zero card\n- 100 Number cards\n- 50 Category cards\n- 30 Player cards (3 per player)\n...\nCategory cards: everyone, family, and action. Photo: Jonathan H. Liu\n...\nCategory cards are double-sided and there’s a wide variety of topics. Some are simply phrased like “Popular ____” and others are more niche, like “Good things to say with a special move or attack.” Most of the cards are yellow “Everyone” cards, but there are about a dozen white cards that are marked as “Family” topics that are a little more geared toward kids (“Flavors of ice cream that would be tasty”), and then a handful of black “Action” cards with things like “Most ridiculous dance (act it out!)”\n...\nIn the groups I’ve played with we’ve primarily used the yellow “Everyone” cards, though I have used some of the white “Family” cards with younger players. (So far we haven’t been brave enough to try the “Action” cards yet!) My groups have preferred the cards that are a little more descriptive or situational rather than the ones that are popularity scales, and there are enough that you can play several games in a row and change it up each time.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eiTO（イト）お題一覧　完全協力型ボードゲームのお題をジャンル毎に紹介【2025年度版】 | ゲームあれこれ\u003c/title\u003e\n\u003curl\u003ehttps://gamearekore.com/ito%ef%bc%88%e3%82%a4%e3%83%88%ef%bc%89%e5%ae%8c%e5%85%a8%e5%8d%94%e5%8a%9b%e5%9e%8b%e3%83%9c%e3%83%bc%e3%83%89%e3%82%b2%e3%83%bc%e3%83%a0%e3%81%ae%e3%81%8a%e9%a1%8c%e4%b8%80%e8%a6%a7%e3%80%80/\u003c/url\u003e\n\u003ccontent\u003eiTO（イト）には100種類ものテーマが存在しており、そのジャンルもさまざま。\n...\n- 2.1 食べ物系\n- 2.2 お店・建物系\n- 2.3 人物系\n- 2.4 趣味・娯楽系\n- 2.5 生き物系\n- 2.6 ぶっ飛び系\n- 2.7 キャラクター系\n- 2.8 感情系\n- 2.9 学校・学生系\n- 2.10 大人向け（ピンク色カード）\n- 2.11 その他\n...\n51. ボードゲームの人気（1:人気ない-100:人気ある）\n...\n④生き物\n...\n| ・アプリ・ウェブサービスの人気（1:人気ない-100:人気ある）・おもちゃの人気（1:人気ない-100:人気ある）・映画の人気（1:人気ない-100:人気ある）・趣味の人気（1:人気ない-100:人気ある）・アニメ・漫画の人気（1:人気ない-100:人気ある）・ゲームの人気（1:人気ない-100:人気ある）・童話の人気（1:人気ない-100:人気ある）・歌・曲の人気（1:人気ない-100:人気ある）・スポーツの人気（1:人気ない-100:人気ある）・テレビ番組の人気（1:人気ない-100:人気ある）・\n...\n人気ない-100:人気ある）・旅行したい国\n...\n人気ない-1\n...\n:人気ある）・旅行先に持っていきたいもの（1:いらない-\n...\n）・ボードゲームの（\n...\n:重い\n...\n|\n| --- |\n...\n### 大人向け（ピンク色カード）\n...\n（1:そうでもない-1\n...\n（1:喜ばない-100:\n...\n）・グッとくる\n...\nこない-100:\n...\n・シチュエーション）（1:されたくない-100:\n...\nい）・酒のつまみ・\n...\n（1:\n...\nない-100:人気ある）・化粧\n...\nの人気（1:人気ない-100:\n...\nの人気（1:人気ない-100:人気ある）・\n...\nの人気（1:\n...\nない-100:\n...\nある）・恋人にしたい\n...\nの人気（1:人気ない-100:人気ある）・モテる条件・特技（1:モテない-100:モテる） |\n| --- |\u003c/content\u003e\n\u003c/result\u003e",
-      "title": "Web search results"
-    }
-  ],
-  "rejected": false
-}
+      "chunk": "Links:\n1. [Ito Review | The Mind Meets Wavelength (Sort Of)](https://rolltoreview.com/ito-party-game-review/)\n2. [Ito | The Gaming CircusTest how well you know your friends in this small box card game. Ito is an invative and entertaining cooperative party game which get players working together to place their number in the correct order without revealing them. To help the players work out your numbers you will give theme-based clues to help others work out where their number fits. This results in player relying on shared perspectives, intuition and a bit of humour to succeed. At the beginning of the game players receive a secret number between 1 and 100 from the deck. The challenge now is not to say the number out loud and can only give clues based on the chosen theme. The themes range from spicy food all the way to famous movie characters causing some interesting clue to be given and requiring deciphering. The better the team deduces the correct answer from the hints and they communicate with each other the better they will do. But be careful differences in perception can lead to hilarious mix-ups and unexpected surprises. Can you get all your numbers in a row?](https://www.thegamingcircus.co.uk/product-page/ito)\n3. [Get Your Thoughts in Order in ‘ito’ – GeekDad](https://geekdad.com/2025/03/get-your-thoughts-in-order-in-ito/)\n4. [iTO（イト）お題一覧　完全協力型ボードゲームのお題をジャンル毎に紹介【2025年度版】 | ゲームあれこれ](https://gamearekore.com/ito%ef%bc%88%e3%82%a4%e3%83%88%ef%bc%89%e5%ae%8c%e5%85%a8%e5%8d%94%e5%8a%9b%e5%9e%8b%e3%83%9c%e3%83%bc%e3%83%89%e3%82%b2%e3%83%bc%e3%83%a0%e3%81%ae%e3%81%8a%e9%a1%8c%e4%b8%80%e8%a6%a7%e3%80%80/)\n\nSynthesis:\nIn the board game Ito, players assign a subjective value (1 to 100) to a clue based on a theme card. While there is no official category titled \"spiciest,\" \"spiciest food\" is a commonly cited example of an Ito theme [1][2][3].\n\nThe themes in Ito generally fall into categories such as p
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
-<summary>Tool use: **web_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c54c687e-be0f-45d8-b06f-2095d5a5259a.txt</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c54c687e-be0f-45d8-b06f-2095d5a5259a.txt</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -3086,29 +2818,19 @@ Result:
 
 ```json
 {
-  "markdown": "iTO（イト）お題一覧 完全協力型ボードゲームのお題をジャンル毎に紹介【2025年度版】 | ゲームあれこれ\n\n※この記事には広告表現を含みます\n\n▼iTO（イト）クモノイトの遊び方については以下の記事を参照ください。 iTO（イト） 価値観のズレを楽しむ協力カードゲームのルールと家族で遊んだ感想を紹介\n\n▼iTO（イト）アカイイトの遊び方については以下の記事を参照ください。 iTO（イト）アカイイト 裏切りと協力のカードゲームのルールと家族の感想を紹介\n\niTO（イト）には100種類ものテーマが存在しており、そのジャンルもさまざま。\n\nだから飽きることなく遊べるのですが、その反面、テーマによって年齢層を選ぶのも確かです。\n\n実際、我が家では小学生低学年の息子と遊ぶときにだいぶテーマを選ぶことに。（「住みたい国や場所の人気」なんて小学生低学年の息子君には難しいですしね）\n\nこの記事ではそんな悩みを解決するべく、100種類のテーマをジャンルごとに分けて紹介しています。\n\nジャンル分けされているので、ゲーム開始前に難しそうなテーマを省いておけばスムーズにゲームを楽しむことができますよ。\n\nまた、我が家のお子様代表。息子君が問題なく遊ぶことのできたテーマも選りすぐって紹介しているので良かったら参考にしてみてください。\n\n| 商品情報ジャンル：ワード系対象年齢：8歳～プレイ人数：2～10人プレイ時間：約30分発売元：株式会社アークライトゲームデザイン：326（ナカムラ ミツル）イラスト：326（ナカムラ ミツル）カードサイズ：63×88mm、44×63mm販売価格：2,200円（税込み） |\n| --- |\n\nアークライト ito (イト) (2-10人用 30分 8才以上向け) ボードゲーム\n\nアークライト(Arclight)\n\n目次 [非表示]\n\n2 ジャンル別 お題一覧\n\n- 2.1 食べ物系\n- 2.2 お店・建物系\n- 2.3 人物系\n- 2.4 趣味・娯楽系\n- 2.5 生き物系\n- 2.6 ぶっ飛び系\n- 2.7 キャラクター系\n- 2.8 感情系\n- 2.9 学校・学生系\n- 2.10 大人向け（ピンク色カード）\n- 2.11 その他\n\n## iTO（イト）のお題一覧\n\nツカヤ\n\nよく100種類も考えついたなあ\n\n1. 4 iTO お題一覧まとめ\n2. コンビニの商品の人気（1:人気ない-100:人気ある）\n3. 100円ショップの商品の人気（1:人気ない-100:人気ある）\n4. 飲食店の人気（1:人気ない-100:人気ある）\n5. 駅の人気（1:人気ない-100:人気ある）\n6. 中華料理の人気（1:人気ない-100:人気ある）\n7. 学校給食の人気（1:人気ない-100:人気ある）\n8. 有名人の人気（1:人気ない-100:人気ある）\n9. 子供に人気なもの（1:人気ない-100:人気ある）\n10. アニメ・漫画のキャラの人気（1:人気ない-100:人気ある）\n11. ゲームキャラの人気（モンスター含む）（1:人気ない-100:人気ある）\n12. キャラクターの人気（ゆるキャラ含む）（1:人気ない-100:人気ある）\n13. プレゼント・お土産の人気（1:人気ない-100:人気ある）\n14. 建物の人気（1:人気ない-100:人気ある）\n15. 住みたい国や場所の人気（1:人気ない-100:人気ある）\n16. アプリ・ウェブサービスの人気（1:人気ない-100:人気ある）\n17. 乗り物の人気（1:人気ない-100:人気ある）\n18. 俳優の人気（1:人気ない-100:人気ある）\n19. 悪役の人気（1:人気ない-100:人気ある）\n20. 食べ物の人気（1:人気ない-100:人気ある）\n21. 飲み物の人気（1:人気ない-100:人気ある）\n22. 生き物の人気（1:人気ない-100:人気ある）\n23. おもちゃの人気（1:人気ない-100:人気ある）\n24. 電化製品の人気（1:人気ない-100:人気ある）\n25. 映画の人気（1:人気ない-100:人気ある）\n26. ミュージシャンの人気（1:人気ない-100:人気ある）\n27. お菓子・スイーツ・アイスの人気（1:人気ない-100:人気ある）\n28. ペットの人気（1:人気ない-100:人気ある）\n29. 職業の人気（1:人気ない-100:人気ある）\n30. おにぎりの具の人気（1:人気ない-100:人気ある）\n31. パンの種類の人気（1:人気ない-100:人気ある）\n32. 趣味の人気（1:人気ない-100:人気ある）\n33. メーカー（ブランド）の人気（1:人気ない-100:人気ある）\n34. アニメ・漫画の人気（1:人気ない-100:人気ある）\n35. ゲームの人気（1:人気ない-100:人気ある）\n36. 和食料理の人気（1:人気ない-100:人気ある）\n37. 洋食料理の人気（1:人気ない-100:人気ある）\n38. 歴史上の人物の人気（1:人気ない-100:人気ある）\n39. 声優の人気（1:人気ない-100:人気ある）\n40. 童話の人気（1:人気ない-100:人気ある）\n41. 歌・曲の人気（1:人気ない-100:人気ある）\n42. 映画の登場人物の人気（1:人気ない-100:人気ある）\n43. アスリートの人気（1:人気ない-100:人気ある）\n44. スポーツの人気（1:人気ない-100:人気ある）\n45. テレビ番組の人気（1:人気ない-100:人気ある）\n46. 恋人にしたい職業の人気（1:人気ない-100:人気ある）\n47. デートスポットの人気（1:人気ない-100:人気ある）\n48. ハネムーンで行きたい場所の人気（1:人気ない-100:人気ある）\n49. 酒のつまみ・居酒屋メニューの人気（1:人気ない-100:人気ある）\n50. 化粧品の人気（1:人気ない-100:人気ある）\n51. ボードゲームの人気（1:人気ない-100:人気ある）\n52. 資格・免許の人気（1:人気ない-100:人気ある）\n53. 旅行したい国や場所の人気（1:人気ない-100:人気ある）\n54. 旅行先に持っていきたいもの（1:いらない-100:持っていきたい）\n55. ゾンビと戦うときに持っていきたいもの（1:いらない-100:持っていたい）\n56. 無人島に持っていきたいもの（1:いらない-100:持っていきたい）\n57. 一人暮らしに必要なもの（1:いらない-100:必須）\n58. 美しいもの（1:美しくない-100:美しい）\n59. こわいもの（1:こわくない-100:こわい）\n60. 楽しいこと（1:楽しくない-100:楽しい）\n61. 嬉しいこと（1:嬉しくない-100:嬉しい）\n62. カバンに入っていたら嬉しいもの（1:嬉しくない-100:嬉しい）\n63. 言われて嬉しい言葉（1:どうでもいい-100:嬉しい）\n64. なりたい生き物（1:なりたくない-100:なりたい）\n65. なりたい歴史上の人物（1:なりたくない-100:なりたい）\n66. なりたい有名人（1:なりたくない-100:なりたい）\n67. なりたいキャラ（アニメ・漫画・ゲーム）（1:なりたくない-100:なりたい）\n68. 生き物の大きさ（1:小さい-100:大きい）\n69. 学校にあるものの大きさ（1:小さい-100:大きい）\n70. 歴史上の人物の強さ（1:弱い-100:強い）\n71. 映画の登場人物の強さ（1:弱い-100:強い）\n72. 生き物の強さ（1:弱い-100:強い）\n73. アニメ・漫画のキャラの強さ（1:弱い-100:強い）\n74. ゲームキャラの強さ（モンスター含む）（1:弱い-100:強い）\n75. 強そうな言葉（漢字、熟語など）（1:弱そう-100:強そう）\n76. 強そうな効果音（創作OK）（1:弱そう-100:強そう）\n77. 有名人の年収・資産（1:貧乏-100:金持ち）\n78. 重そうなもの（1:軽い-100:重い）\n79. ボードゲームの（物理的な）重さ（1:軽い-100:重い）\n80. 食べ物のカロリー（1:低カロリー-100:高カロリー）\n81. モテる条件・特技（1:モテない-100:モテる）\n82. やわらかそうなもの（1:かたい-100:やわらかい）\n83. カッコいいもの（1:カッコ悪い-100:カッコいい）\n84. カッコいいセリフ（1:カッコ悪い-100:カッコいい）\n85. カッコいい苗字・名前（1:平凡-100:カッコいい）\n86. かわいいもの（1:かわいくない-100:かわいい）\n87. 小学生が好きな言葉（1:好きじゃない-100:好き）\n88. 中高生が好きな言葉（1:好きじゃない-100:好き）\n89. 人生で大切なもの・こと（1:どうでもいい-100:大切）\n90. 雪山で遭難したときにもっていたいもの（1:いらない-100:持っていたい）\n91. 地球観光に来た宇宙人にあげたいお土産（1:あげたくない-100:あげたい）\n92. テンションが上がるもの・こと（1:上がらない-100:上がる）\n93. 時代遅れの言葉（1:そうでもない-100:時代遅れ）\n94. オタクが喜ぶセリフ・設定（1:喜ばない-100:喜ぶ）\n95. グッとくる仕草・行動（1:グッとこない-100:グッとくる）\n96. 結婚したい有名人（1:結婚したくない-100:結婚したい）\n97. 結婚したいキャラ（アニメ・漫画・ゲーム）（1:結婚したくない-100:結婚したい）\n98. 親になってほしいキャラ（アニメ・漫画・ゲーム）（1:なってほしくない-100:なってほしい）\n99. ほしい特殊能力・武器（必殺技・道具）（1:いらない-100:ほしい）\n100. 便利なもの（1:不便-100:便利）\n101. されたいプロポーズ（セリフ・シチュエーション）（1:されたくない-100:されたい）\n\nアークライト ito (イト) (2-10人用 30分 8才以上向け) ボードゲーム\n\nアークライト(Arclight)\n\n## ジャンル別 お題一覧\n\n遊びたい相手や状況で、不要なジャンルを抜けばより盛上ると思います。\n\n①食べ物系②お店・建物系③趣味・娯楽系④生き物系⑤ぶっ飛び系⑥キャラクター系⑦感情系⑧学校・学生系⑨大人向け（ピンク色カード）⑩その他\n\n### 食べ物系\n\n| ・飲食店の人気（1:人気ない-100:人気ある）・中華料理の人気（1:人気ない-100:人気ある）・学校給食の人気（1:人気ない-100:人気ある）・食べ物の人気（1:人気ない-100:人気ある）・飲み物の人気（1:人気ない-100:人気ある）・お菓子・スイーツ・アイスの人気（1:人気ない-100:人気ある）・おにぎりの具の人気（1:人気ない-100:人気ある）・パンの種類の人気（1:人気ない-100:人気ある）・和食料理の人気（1:人気ない-100:人気ある）・洋食料理の人気（1:人気ない-100:人気ある）・食べ物のカロリー（1:低カロリー-100:高カロリー） |\n| --- |\n\n### お店・建物系\n\n| ・コンビニの商品の人気（1:人気ない-100:人気ある）・100円ショップの商品の人気（1:人気ない-100:人気ある）・駅の人気（1:人気ない-100:人気ある）・建物の人気（1:人気ない-100:人気ある） |\n| --- |\n\n### 人物系\n\n| ・有名人の人気（1:人気ない-100:人気ある）・俳優の人気（1:人気ない-100:人気ある）・悪役の人気（1:人気ない-100:人気ある）・ミュージシャンの人気（1:人気ない-100:人気ある）・歴史上の人物の人気（1:人気ない-100:人気ある）・声優の人気（1:人気ない-100:人気ある）・映画の登場人物の人気（1:人気ない-100:人気ある）・アスリートの人気（1:人気ない-100:人気ある）・なりたい歴史上の人物（1:なりたくない-100:なりたい）・なりたい有名人（1:なりたくない-100:なりたい）・歴史上の人物の強さ（1:弱い-100:強い）・映画の登場人物の強さ（1:弱い-100:強い）・有名人の年収・資産（1:貧乏-100:金持ち）・ 結婚したい有名人（1:結婚したくない-100:結婚したい） |\n| --- |\n\n### 趣味・娯楽系\n\n| ・アプリ・ウェブサービスの人気（1:人気ない-100:人気ある）・おもちゃの人気（1:人気ない-100:人気ある）・映画の人気（1:人気ない-100:人気ある）・趣味の人気（1:人気ない-100:人気ある）・アニメ・漫画の人気（1:人気ない-100:人気ある）・ゲームの人気（1:人気ない-100:人気ある）・童話の人気（1:人気ない-100:人気ある）・歌・曲の人気（1:人気ない-100:人気ある）・スポーツの人気（1:人気ない-100:人気ある）・テレビ番組の人気（1:人気ない-100:人気ある）・ボードゲームの人気（1:人気ない-100:人気ある）・旅行したい国や場所の人気（1:人気ない-100:人気ある）・旅行先に持っていきたいもの（1:いらない-100:持っていきたい）・ボードゲームの（物理的な）重さ（1:軽い-100:重い） |\n| --- |\n\n### 生き物系\n\n| ・生き物の人気（1:人気ない-100:人気ある）・ペットの人気（1:人気ない-100:人気ある）・なりたい生き物（1:なりたくない-100:なりたい）・生き物の大きさ（1:小さい-100:大きい）・生き物の強さ（1:弱い-100:強い） |\n| --- |\n\n### ぶっ飛び系\n\n| ・ゾンビと戦うときに持っていきたいもの（1:いらない-100:持っていたい）・無人島に持っていきたいもの（1:いらない-100:持っていきたい）・雪山で遭難したときにもっていたいもの（1:いらない-100:持っていたい）・地球観光に来た宇宙人にあげたいお土産（1:あげたくない-100:あげたい） |\n| --- |\n\n### キャラクター系\n\n| ・アニメ・漫画のキャラの人気（1:人気ない-100:人気ある）・ゲームキャラの人気（モンスター含む）（1:人気ない-100:人気ある）・キャラクターの人気（ゆるキャラ含む）（1:人気ない-100:人気ある）・なりたいキャラ（アニメ・漫画・ゲーム）（1:なりたくない-100:なりたい）・アニメ・漫画のキャラの強さ（1:弱い-100:強い）・ゲームキャラの強さ（モンスター含む）（1:弱い-100:強い）・結婚したいキャラ（アニメ・漫画・ゲーム）（1:結婚したくない-100:結婚したい）・親になってほしいキャラ（アニメ・漫画・ゲーム）（1:なってほしくない-100:なってほしい） |\n| --- |\n\n### 感情系\n\n| ・美しいもの（1:美しくない-100:美しい）・こわいもの（1:こわくない-100:こわい）・楽しいこと（1:楽しくない-100:楽しい）・嬉しいこと（1:嬉しくない-100:嬉しい）・カバンに入っていたら嬉しいもの（1:嬉しくない-100:嬉しい）・言われて嬉しい言葉（1:どうでもいい-100:嬉しい）・カッコいいもの（1:カッコ悪い-100:カッコいい）・ カッコいいセリフ（1:カッコ悪い-100:カッコいい）・カッコいい苗字・名前（1:平凡-100:カッコいい）・かわいいもの（1:かわいくない-100:かわいい）・テンションが上がるもの・こと（1:上がらない-100:上がる） |\n| --- |\n\n### 学校・学生系\n\n| ・学校にあるものの大きさ（1:小さい-100:大きい）・小学生が好きな言葉（1:好きじゃない-100:好き）・中高生が好きな言葉（1:好きじゃない-100:好き）・職業の人気（1:人気ない-100:人気ある） |\n| --- |\n\n### 大人向け（ピンク色カード）\n\n| ・時代遅れの言葉（1:そうでもない-100:時代遅れ）・オタクが喜ぶセリフ・設定（1:喜ばない-100:喜ぶ）・グッとくる仕草・行動（1:グッとこない-100:グッとくる）・されたいプロポーズ（セリフ・シチュエーション）（1:されたくない-100:されたい）・酒のつまみ・居酒屋メニューの人気（1:人気ない-100:人気ある）・化粧品の人気（1:人気ない-100:人気ある）・デートスポットの人気（1:人気ない-100:人気ある）・ハネムーンで行きたい場所の人気（1:人気ない-100:人気ある）・恋人にしたい職業の人気（1:人気ない-100:人気ある）・モテる条件・特技（1:モテない-100:モテる） |\n| --- |\n\n### その他\n\n| ・子供に人気なもの（1:人気ない-100:人気ある）・プレゼント・お土産の人気（1:人気ない-100:人気ある）・住みたい国や場所の人気（1:人気ない-100:人気ある）・乗り物の人気（1:人気ない-100:人気ある）・電化製品の人気（1:人気ない-100:人気ある）・メーカー（ブランド）の人気（1:人気ない-100:人気ある）・資格・免許の人気（1:人気ない-100:人気ある）・一人暮らしに必要なもの（1:いらない-100:必須）・強そうな言葉（漢字、熟語など）（1:弱そう-100:強そう）・強そうな効果音（創作OK）（1:弱そう-100:強そう）・重そうなもの（1:軽い-100:重い）・やわらかそうなもの（1:かたい-100:やわらかい）・人生で大切なもの・こと（1:どうでもいい-100:大切）・ほしい特殊能力・武器（必殺技・道具）（1:いらない-100:ほしい）・便利なもの（1:不便-100:便利） |\n| --- |\n\nツカヤ\n\nジャンル分けしてみて分かったのですが、かなりジャンルが豊富ですね！\n\nアークライト ito (イト) (2-10人用 30分 8才以上向け) ボードゲーム\n\ncreated by Rinker\n\nアークライト(Arclight)\n\n## 息子君お気に入りのお題一覧\n\n人によって異なるとは思いますが、同年代のお子さんからのウケは良いと思います。\n\n特に盛上ったのは「学校にあるものの大きさ」！\n\n娘だけ体育館を含めた全域で考えていたのにたいして、私も含めた残りの家族は教室限定で考えていたため、サイズ感がぜんぜん合わずに大混乱でした(笑)\n\n| ・ゾンビと戦うときに持っていきたいもの（1:いらない-100:持っていたい）・おにぎりの具の人気（1:人気ない-100:人気ある）・食べ物のカロリー（1:低カロリー-100:高カロリー）・飲み物の人気（1:人気ない-100:人気ある）・アニメ・漫画のキャラの強さ（1:弱い-100:強い）・ゲームキャラの強さ（モンスター含む）（1:弱い-100:強い）・学校給食の人気（1:人気ない-100:人気ある）・生き物の強さ（1:弱い-100:強い）・学校にあるものの大きさ（1:小さい-100:大きい）・やわらかそうなもの（1:かたい-100:やわらかい） |\n| --- |\n\n## iTO お題一覧まとめ\n\niTO（イト）お題一覧 完全協力型ボードゲームのお題をジャンル分け紹介 でした。\n\nどうだったでしょうか？\n\nこの記事を通してなにかお気に入りのお題が見つかったり、プレイ時の参考になれば幸いです。\n\n別記事ではiTO(イト)以外のワード系ボードゲームについて紹介しているので、気になる方は覗いてみてくださいね。\n\niTO(イト)以外のワード系ボードゲーム紹介記事\n\n●あいうえバトルのルールと遊び方の詳細はコチラ●ピッタンコはんはんのルールと遊び方の詳細はコチラ●語彙の王様のルールと遊び方の詳細はコチラ●ワードッチのルールと遊び方の詳細はコチラ●カタカナーシのルールと遊び方の詳細はコチラ\n\nアークライト ito (イト) (2-10人用 30分 8才以上向け) ボードゲーム\n\nアークライト(Arclight)\n\n他にも面白いボードゲームをたくさん紹介していますので、よかったら別の記事も読んでみてくださいね！！\n\n【2025年度版】知育ゲームのオススメ 7選を徹底紹介\n\n【2025年度版】ボードゲームおすすめランキング65選\n\n【2024年度版】暇つぶしに最適なおすすめゲーム20選\n\n相互リンク\n\nプレイバシーポリシー\n\n### iTO（イト） 子供たちの価値観を知ることができる！ゲームのルールと家族で遊んだ感想を紹介【2025年度版】\n\n### デストラベルファンタジー 神経衰弱と推理ゲームが合体したボードゲームのルールと家族で遊んだ感想を紹介\n\n### イナイーノ ルールと家族で遊んだ感想を紹介 誰よりも速くナイを見つけろ！\n\n### iTO（イト）アカイイト 裏切りと協力のカードゲームのルールと家族の感想を紹介【2025年度版】\n\niTO（イト） 子供たちの価値観を知ることができる！ゲームのルールと家族で遊んだ感想を紹介【2025年度版】\n\niTO（イト）アカイイト 裏切りと協力のカードゲームのルールと家族の感想を紹介【2025年度版】\n\nPAGE TOP\n\nメニュー\n\n月別記事\n\n- 2023年05月\n- 2023年06月\n- 2023年07月\n- 2023年08月\n- 2023年09月\n- 2023年10月\n- 2023年11月\n- 2023年12月\n- 2024年01月\n- 2024年02月\n- 2024年03月\n- 2024年05月\n- 2024年06月\n- 2024年07月\n- 2024年08月\n- 2024年09月\n- 2024年10月\n- 2024年11月\n- 2024年12月\n- 2025年01月\n- 2025年02月\n- 2025年03月\n- 2025年04月\n- 2025年05月\n- 2025年06月\n- 2025年07月\n- 2025年08月\n- 2025年11月\n- 2025年12月\n- 2026年01月\n- 2026年02月\n- 2026年03月\n- 2026年04月\n\n検索\n\nサイドバー\n\nタイトルとURLをコピーしました",
-  "url": "https://gamearekore.com/ito%ef%bc%88%e3%82%a4%e3%83%88%ef%bc%89%e5%ae%8c%e5%85%a8%e5%8d%94%e5%8a%9b%e5%9e%8b%e3%83%9c%e3%83%bc%e3%83%89%e3%82%b2%e3%83%bc%e3%83%a0%e3%81%ae%e3%81%8a%e9%a1%8c%e4%b8%80%e8%a6%a7%e3%80%80/"
-}
+  "markdown": "iTO（イト）お題一覧 完全協力型ボードゲームのお題をジャンル毎に紹介【2025年度版】 | ゲームあれこれ\n\n※この記事には広告表現を含みます\n\n▼iTO（イト）クモノイトの遊び方については以下の記事を参照ください。 iTO（イト） 価値観のズレを楽しむ協力カードゲームのルールと家族で遊んだ感想を紹介\n\n▼iTO（イト）アカイイトの遊び方については以下の記事を参照ください。 iTO（イト）アカイイト 裏切りと協力のカードゲームのルールと家族の感想を紹介\n\niTO（イト）には100種類ものテーマが存在しており、そのジャンルもさまざま。\n\nだから飽きることなく遊べるのですが、その反面、テーマによって年齢層を選ぶのも確かです。\n\n実際、我が家では小学生低学年の息子と遊ぶときにだいぶテーマを選ぶことに。（「住みたい国や場所の人気」なんて小学生低学年の息子君には難しいですしね）\n\nこの記事ではそんな悩みを解決するべく、100種類のテーマをジャンルごとに分けて紹介しています。\n\nジャンル分けされているので、ゲーム開始前に難しそうなテーマを省いておけばスムーズにゲームを楽しむことができますよ。\n\nまた、我が家のお子様代表。息子君が問題なく遊ぶことのできたテーマも選りすぐって紹介しているので良かったら参考にしてみてください。\n\n| 商品情報ジャンル：ワード系対象年齢：8歳～プレイ人数：2～10人プレイ時間：約30分発売元：株式会社アークライトゲームデザイン：326（ナカムラ ミツル）イラスト：326（ナカムラ ミツル）カードサイズ：63×88mm、44×63mm販売価格：2,200円（税込み） |\n| --- |\n\nアークライト ito (イト) (2-10人用 30分 8才以上向け) ボードゲーム\n\nアークライト(Arclight)\n\n目次 [非表示]\n\n2 ジャンル別 お題一覧\n\n- 2.1 食べ物系\n- 2.2 お店・建物系\n- 2.3 人物系\n- 2.4 趣味・娯楽系\n- 2.5 生き物系\n- 2.6 ぶっ飛び系\n- 2.7 キャラクター系\n- 2.8 感情系\n- 2.9 学校・学生系\n- 2.10 大人向け（ピンク色カード）\n- 2.11 その他\n\n## iTO（イト）のお題一覧\n\nツカヤ\n\nよく100種類も考えついたなあ\n\n1. 4 iTO お題一覧まとめ\n2. コンビニの商品の人気（1:人気ない-100:人気ある）\n3. 100円ショップの商品の人気（1:人気ない-100:人気ある）\n4. 飲食店の人気（1:人気ない-100:人気ある）\n5. 駅の人気（1:人気ない-100:人気ある）\n6. 中華料理の人気（1:人気ない-100:人気ある）\n7. 学校給食の人気（1:人気ない-100:人気ある）\n8. 有名人の人気（1:人気ない-100:人気ある）\n9. 子供に人気なもの（1:人気ない-100:人気ある）\n10. アニメ・漫画のキャラの人気（1:人気ない-100:人気ある）\n11. ゲームキャラの人気（モンスター含む）（1:人気ない-100:人気ある）\n12. キャラクターの人気（ゆるキャラ含む）（1:人気ない-100:人気ある）\n13. プレゼント・お土産の人気（1:人気ない-100:人気ある）\n14. 建物の人気（1:人気ない-100:人気ある）\n15. 住みたい国や場所の人気（1:人気ない-100:人気ある）\n16. アプリ・ウェブサービスの人気（1:人気ない-100:人気ある）\n17. 乗り物の人気（1:人気ない-100:人気ある）\n18. 俳優の人気（1:人気ない-100:人気ある）\n19. 悪役の人気（1:人気ない-100:人気ある）\n20. 食べ物の人気（1:人気ない-100:人気ある）\n21. 飲み物の人気（1:人気ない-100:人気ある）\n22. 生き物の人気（1:人気ない-100:人気ある）\n23. おもちゃの人気（1:人気ない-100:人気ある）\n24. 電化製品の人気（1:人気ない-100:人気ある）\n25. 映画の人気（1:人気ない-100:人気ある）\n26. ミュージシャンの人気（1:人気ない-100:人気ある）\n27. お菓子・スイーツ・アイスの人気（1:人気ない-100:人気ある）\n28. ペットの人気（1:人気ない-100:人気ある）\n29. 職業の人気（1:人気ない-100:人気ある）\n30. おにぎりの具の人気（1:人気ない-100:人気ある）\n31. パンの種類の人気（1:人気ない-100:人気ある
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
 <summary>Tool use: **web_fetch**</summary>
-
 
 Parameters:
 
@@ -3121,55 +2843,46 @@ Result:
 
 ```json
 {
-  "markdown": "Get Your Thoughts in Order in ‘ito’ – GeekDad\n\nOn a scale of 1 to 100 of things that make you happy, what would 37 be?\n\n## What Is ito?\n\nito is a cooperative party game for 2 to 10 players, ages 8 and up, and takes about 10 minutes to play (though that can vary based on player count and how much time you spend gabbing). It retails for $14.99 and is available in stores; Arcane Wonders is currently sold out but you can be notified when it’s back in stock. The version in this review is from Arcane Wonders, though there are previously published versions—this appears to take some of the rules of ito Rainbow from 2022, itself a variation from 2019’s ito.\n\nito was designed by Mitsuru Nakamura and published by Arclight Games with Arcane Wonders, with illustrations by Nadia Carrim.\n\nito components. Photo: Jonathan H. Liu\n\n## ito Components\n\nito‘s components are pretty simple:\n\n- Visit GeekMom\n- Zero card\n- 100 Number cards\n- 50 Category cards\n- 30 Player cards (3 per player)\n\nThe 3 Promises of ito. Photo: Jonathan H. Liu\n\nThe zero card has a 0 on one side, and on the other has “3 Promises of ito” to help set expectations: the main goal is for everyone to have fun, you can help other people think of ideas, and enjoy the different ways of thinking.\n\nEvery number card has a little thread decoration at the bottom. Photo: Jonathan H. Liu\n\nThe number cards go from 1 to 100 and the cards are easy to read: a large number on a white background, with a little decoration at the bottom. The decorations are all one-line drawings that extend to both edges of the card, so that when you play all of the numbers in a line, it forms a continuous line across them, representing a connecting “thread,” one of the translations of the Japanese word “ito.”\n\nCategory cards: everyone, family, and action. Photo: Jonathan H. Liu\n\nCategory cards are double-sided and there’s a wide variety of topics. Some are simply phrased like “Popular ____” and others are more niche, like “Good things to say with a special move or attack.” Most of the cards are yellow “Everyone” cards, but there are about a dozen white cards that are marked as “Family” topics that are a little more geared toward kids (“Flavors of ice cream that would be tasty”), and then a handful of black “Action” cards with things like “Most ridiculous dance (act it out!)”\n\nPlayer cards are used to indicate which players the number cards belong to. Photo: Jonathan H. Liu\n\nPlayer cards are mostly solid color cards with a little thread decoration; each color also has a unique icon at the bottom to assist with color identification, which is helpful because there are multiple shades of blue, green, and purple.\n\nA perfect use of box space. Photo: Jonathan H. Liu\n\nThe whole thing comes in a very compact box, almost exactly the size of the cards stacked side by side.\n\n## How to Play ito\n\nYou can download a copy of the rule sheet here.\n\n### The Goal\n\nThe goal of the game is to play all of your number cards in the correct order, using descriptive clues based on the category.\n\n### Setup\n\nSet the zero card in the center of the play area. Shuffle the category cards and draw one at random (or choose one as a group).\n\nShuffle the number cards and deal each player 1 card secretly. Give each player a set of player cards.\n\n### Gameplay\n\nEach player should look at their number and compare it to the category, and come up with a clue that they think best fits their number. There is no turn order—you just play when you’re ready.\n\nFor the category “Things you want to do when you are tired,” green player said “Take a nap.” Yellow player said “watch a movie and inserted their card between 0 and green. Photo: Jonathan H. Liu\n\nWhen you have a clue, you state your idea and place your card face-down on the table, with one of your player cards tucked underneath it so everyone can see whose cards are whose. Cards must be played directly next to other cards (including the zero) or can be inserted in the row, but you should not leave any gaps to indicate how far you think your number is from any existing cards. Your hint cannot contain numbers!\n\nIf my card is 17, it’s something I don’t want to do when I’m tired. Photo: Jonathan H. Liu\n\nPlayers are free to discuss where they think cards should go based on the hints and can rearrange cards as long as everyone agrees.\n\nI decide to go for “make a long drive,” something I hate doing when I’m tired. Photo: Jonathan H. Liu\n\n### Game End\n\nOnce everyone has placed their card into the line and everyone agrees with the order, reveal the cards one at a time starting from zero. If all the cards are in numerical order, you win!\n\nRevealing the cards shows we got them in the correct order—we won! Photo: Jonathan H. Liu\n\nIn this example, it was pretty easy because we only had three numbers and they were all pretty far apart, but sometimes you’ll have multiple cards that are close together, and of course that’s more likely when you have more players.\n\n### Challenge Mode\n\nFor a bigger challenge, give one player 2 number cards instead of 1. If you win, add another number card the next round and play again. You win when everyone has 2 cards and you get all the cards in the right order.\n\n(For a simpler variant, you can also just give everyone 2 number cards.)\n\nito is a 2025 GeekDad Game of the Year Finalist!\n\n## Why You Should Play ito\n\nI received an advance copy of ito back in December, and it quickly became my most-played game for the month. Sure, it’s a very quick game, the sort where you’re likely to play a few times in a row, but it’s also a game that I was able to play with a very broad range of players, including the members of my family who aren’t normally as excited about games. My kids have been borrowing it to play with their friends, and it’s one that I’ve had just as much fun playing with my close friends as with strangers at a convention. I had more than one person from my gaming group who immediately wanted to buy a copy after playing it the first time—and then had to wait until January when it was actually released.\n\nThe idea of coming up with a clue that fits a number isn’t entirely new. Wavelength is perhaps the most similar to this: the clue-giver gets a category and a random target on a dial (basically a number from 1 to 100), and has to give their team a clue that helps them figure out the target. For the clue-giver, it’s an exercise in coming up with something that is 78% on the “sandwich/not a sandwich” spectrum, and for the guessers it is trying to figure out what number their clue-giver means when they say “Oreo cookie.” It’s a really fun game and leads to all sorts of wacky conversations, and the absolute thrill of hitting the target is amazing—but the one downside is that, as in many other clue-guessing games, there’s a good bit of downtime as everyone is waiting for the clue-giver to come up with something.\n\nLots of categories to choose from. Photo: Jonathan H. Liu\n\nOne of the things that makes ito shine is that everyone is simultaneously clue-giver and guesser. Everyone has a random number and is trying to come up with the clue, and everyone is also trying to figure out where their number is in relation to all of the other clues that have been given. Do I think Snickers or Twix are the more popular candy bar? What about Almond Joy—surely that’s lower, right?\n\nThe concept of ranking things is also not uncommon, and I feel like there’s been a slew of them just in the past year. Figment has you line up cards based on how much of a particular color is present; The Gang challenges the group to rank their poker hands; Mind Map challenges you to place random objects on a two-dimensional grid. And, of course, there’s the Timeline series of games where you’re trying to place events in chronological order (or other challenges like placing animals in size order). I think we just have this itch to categorize and rank things, whether it’s cooperative or competitive, and ito is one way to scratch that itch.\n\nI mentioned earlier that one translation of “ito” is “thread.” The box mentions that another translation is “intention,” and that’s another important aspect of the game. It’s important to remember that you’re ranking the cards based on what each player meant rather than figuring out some sort of objective values. For instance, in one game the category was “superpowers you would like to have” and I had a 97. My clue was “the ability to pause time” because, frankly, that’s something that I always wish I could do. There was a lot of discussion about how that compared to other powers—but the goal is to figure out my number, not whether pausing time is objectively better or worse than flying or invisibility or anything else. There’s a lot of flexibility—you can revise your clues after hearing other people’s clues, and you can ask clarifying questions, too.\n\nThat’s important, because a lot of the categories are very subjective: what you consider scary or important or fun is going to be very different from someone else. If somebody says “spiders” for “Things that make you happy if you find them in your pocket or backpack,” you should probably check if they love spiders or hate spiders.\n\nI’ve played ito with as few as 3 players and as many as 8 (I haven’t hit the full 10 players yet), and it has been a blast every time. Of course, it does get a bit harder when you have more people, so when we have fewer players we often play the challenge version or give everyone two numbers just to up the difficulty a bit. I like that it’s small enough that it’s easy to take with me, and it’s very easy to learn so you can get going quickly.\n\nIn the groups I’ve played with we’ve primarily used the yellow “Everyone” cards, though I have used some of the white “Family” cards with younger players. (So far we haven’t been brave enough to try the “Action” cards yet!) My groups have preferred the cards that are a little more descriptive or situational rather than the ones that are popularity scales, and there are enough that you can play several games in a row and change it up each time.\n\nAlthough the publisher Arcane Wonders is currently sold out, ito should still be available in game stores and other online retailers. Just be sure to compare the cover image, or you’ll be getting a different version than what I’ve described here. The original 2019 Arclight Games edition rules are significantly different, but the 2022 ito Rainbow sounds like it’s pretty close.\n\nIf you’re looking for a game that’s a great conversation starter and can accommodate a wide range of player counts and player types, ito is a great option!\n\n---\n\nClick here to see all our tabletop game reviews.\n\nTo subscribe to GeekDad’s tabletop gaming coverage, please copy this link and add it to your RSS reader.\n\nDisclosure: GeekDad received a copy of this game for review purposes.\n\nLiked it? Take a second to support GeekDad and GeekMom on Patreon!\n\n## Related Posts\n\n### Spend Father’s Day With Amazon Luna, The Cloud Gaming Service Dad (Probably) Already Has\n\nhttps://geekdad.com/2022/06/spend-fathers-day-with-amazon-luna/\n\nJune 18, 2022June 17, 2022\n\n### ‘Bee Speaker’ by Adrian Tchaikovsky: A Book Review\n\nhttps://geekdad.com/2025/06/bee-speaker-by-adrian-tchaikovsky-a-book-review/\n\nJune 5, 2025June 5, 2025\n\n### Review — ‘Frankenstein: New World’ #2 — An Infection Is Spreading\n\nhttps://geekdad.com/2022/09/review-frankenstein-new-world-2-an-infection-is-spreading/\n\nSeptember 25, 2022September 24, 2022",
-  "url": "https://geekdad.com/2025/03/get-your-thoughts-in-order-in-ito/"
-}
+  "markdown": "Get Your Thoughts in Order in ‘ito’ – GeekDad\n\nOn a scale of 1 to 100 of things that make you happy, what would 37 be?\n\n## What Is ito?\n\nito is a cooperative party game for 2 to 10 players, ages 8 and up, and takes about 10 minutes to play (though that can vary based on player count and how much time you spend gabbing). It retails for $14.99 and is available in stores; Arcane Wonders is currently sold out but you can be notified when it’s back in stock. The version in this review is from Arcane Wonders, though there are previously published versions—this appears to take some of the rules of ito Rainbow from 2022, itself a variation from 2019’s ito.\n\nito was designed by Mitsuru Nakamura and published by Arclight Games with Arcane Wonders, with illustrations by Nadia Carrim.\n\nito components. Photo: Jonathan H. Liu\n\n## ito Components\n\nito‘s components are pretty simple:\n\n- Visit GeekMom\n- Zero card\n- 100 Number cards\n- 50 Category cards\n- 30 Player cards (3 per player)\n\nThe 3 Promises of ito. Photo: Jonathan H. Liu\n\nThe zero card has a 0 on one side, and on the other has “3 Promises of ito” to help set expectations: the main goal is for everyone to have fun, you can help other people think of ideas, and enjoy the different ways of thinking.\n\nEvery number card has a little thread decoration at the bottom. Photo: Jonathan H. Liu\n\nThe number cards go from 1 to 100 and the cards are easy to read: a large number on a white background, with a little decoration at the bottom. The decorations are all one-line drawings that extend to both edges of the card, so that when you play all of the numbers in a line, it forms a continuous line across them, representing a connecting “thread,” one of the translations of the Japanese word “ito.”\n\nCategory cards: everyone, family, and action. Photo: Jonathan H. Liu\n\nCategory cards are double-sided and there’s a wide variety of topics. Some are simply phrased like “Popular ____” and others are
+… (output truncated)
 ```
 User decision: **accepted**
 
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
-<summary>Tool use: **web_fetch**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml, re
 from collections import Counter
 
-with open('data/randomizer.yaml') as f:
+with open(&#39;data/randomizer.yaml&#39;) as f:
     data = yaml.safe_load(f)
-items = data['collections'][0]['items']
+items = data[&#39;collections&#39;][0][&#39;items&#39;]
 
 # Pattern stats
-has_em_dash = sum(1 for i in items if ' — ' in i)
-worst_best = sum(1 for i in items if i.startswith('Worst to best'))
-popularity = sum(1 for i in items if 'popular' in i.lower() or 'reputation' in i.lower())
-personal = sum(1 for i in items if any(x in i.lower() for x in ['typical', 'office joke', 'your ', 'person on']))
+has_em_dash = sum(1 for i in items if &#39; — &#39; in i)
+worst_best = sum(1 for i in items if i.startswith(&#39;Worst to best&#39;))
+popularity = sum(1 for i in items if &#39;popular&#39; in i.lower() or &#39;reputation&#39; in i.lower())
+personal = sum(1 for i in items if any(x in i.lower() for x in [&#39;typical&#39;, &#39;office joke&#39;, &#39;your &#39;, &#39;person on&#39;]))
 
 # Extract scale endings
 scales = Counter()
 for i in items:
-    if ' — ' in i:
-        scales[i.split(' — ',1)[1]] += 1
-    elif i.startswith('Worst to best'):
-        scales['worst-to-best situational'] += 1
+    if &#39; — &#39; in i:
+        scales[i.split(&#39; — &#39;,1)[1]] += 1
+    elif i.startswith(&#39;Worst to best&#39;):
+        scales[&#39;worst-to-best situational&#39;] += 1
 
-print('Total:', len(items))
-print('Em-dash category+scale:', has_em_dash)
-print('Worst to best:', worst_best)
-print('Top scale patterns:', scales.most_common(8))
+print(&#39;Total:&#39;, len(items))
+print(&#39;Em-dash category+scale:&#39;, has_em_dash)
+print(&#39;Worst to best:&#39;, worst_best)
+print(&#39;Top scale patterns:&#39;, scales.most_common(8))
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import yaml, re
@@ -3208,24 +2921,12 @@ Worst to best: 50
 Top scale patterns: [('worst-to-best situational', 50), ('lightest to heaviest.', 33), ('cheapest to most expensive.', 33), ('least to most messy to eat.', 25), ('least to most sweet.', 25), ('least to most spicy.', 25), ('least to most salty.', 25), ('quietest to noisiest.', 21)]
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c9154de1-4fad-452e-9327-2c65e0f34861.txt</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c9154de1-4fad-452e-9327-2c65e0f34861.txt</summary>
 
 </details></tool-use>
 
@@ -3244,7 +2945,8 @@ Hypothetical scenarios like desert island items or zombie combat gear appear in 
 
 Scale-clues is taxonomy-driven and repetitive. It lacks personal prompts, popularity scales, and action cards. The content is fully family-friendly and globally generic. It does not use secret numbers or cooperative ordering. It simply displays prompts without those mechanics.
 
-Scale-clues favors objective attributes like messy, loud, and heavy over subjective ones. Playfulness is lower because the game treats rankings as textbook facts rather than playful debate. One overlap example is the Ito prompt "spiciest food" matching scale-clues "Peppers — mildest to hottest" and "Sauces — mildest to spiciest."</details></think>
+Scale-clues favors objective attributes like messy, loud, and heavy over subjective ones. Playfulness is lower because the game treats rankings as textbook facts rather than playful debate. One overlap example is the Ito prompt "spiciest food" matching scale-clues "Peppers — mildest to hottest" and "Sauces — mildest to spiciest."
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3355,7 +3057,8 @@ A 60/40 split seems right: roughly 300 situational prompts and 200 hypothetical 
 
 Concrete prompt ideas are taking shape. Situational examples include "Things you want to do when you are tired" and "Superpowers you would like to have." Hypothetical scenarios include desert island items and zombie apocalypse supplies.
 
-Prompts will stay general and avoid table-specific references. The scale ranks items from least to most desirable.</details></think>
+Prompts will stay general and avoid table-specific references. The scale ranks items from least to most desirable.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3364,23 +3067,15 @@ Reshaping scale-clues toward open situational and hypothetical prompts (Ito-styl
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3411,13 +3106,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3427,439 +3115,440 @@ Lines 4 through 509 will be replaced with new scale-clues content.
 
 A Python script will load the YAML, replace collection 0 items, and preserve personal-scales and spectrum. About 500 prompts are planned: roughly 250 situational and 250 hypothetical. Situational clues will use patterns like "Things you'd want to do when you're tired," where nap equals high want and long drives equal low want. Numbers remain secret and clues are placed on the scale.
 
-Scale directions will be explicit in prompts, such as "least want" versus "most want," or inferred naturally from context like Ito's "fun things" theme.</details></think>
+Scale directions will be explicit in prompts, such as "least want" versus "most want," or inferred naturally from context like Ito's "fun things" theme.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml
 
 situational = [
-    # Daily life & energy
-    "Things you'd want to do when you're very tired.",
-    "Things you'd want to do on a lazy Sunday morning.",
-    "Things you'd want to do right after waking up.",
-    "Things you'd want to do before going to bed.",
-    "Things you'd want to do when you can't sleep.",
-    "Things you'd want to do on your first day off in months.",
-    "Things you'd want to do when you have ten free minutes.",
-    "Things you'd want to do when you have a whole afternoon free.",
-    "Things you'd want to do when it's raining outside.",
-    "Things you'd want to do when it's too hot to go outside.",
-    "Things you'd want to do when it's too cold to go outside.",
-    "Things you'd want to do when you're stuck indoors all day.",
-    "Things you'd want to do when you're bored at home.",
-    "Things you'd want to do when waiting for food to arrive.",
-    "Things you'd want to do while waiting in a long line.",
-    "Things you'd want to do during a short break at work or school.",
-    "Things you'd want to do on a commute.",
-    "Things you'd want to do during a lunch break.",
-    "Things you'd want to do right after a big meal.",
-    "Things you'd want to do when you're slightly hungry.",
-    # Mood & social
-    "Things that would cheer you up on a bad day.",
-    "Things that would make a ordinary day feel special.",
-    "Things that would calm you down when you're stressed.",
-    "Things that would help you focus when studying.",
-    "Things that would help you relax before a test.",
-    "Things that would make a guest feel welcome.",
-    "Things that would make a shy person open up.",
-    "Things that would make a party more fun.",
-    "Things that would make a long dinner more interesting.",
-    "Things that would make a road trip more bearable.",
-    "Things that would make a waiting room less boring.",
-    "Things that would make a small gift feel thoughtful.",
-    "Things that would make a thank-you feel sincere.",
-    "Things that would make an apology feel genuine.",
-    "Things that would make a compliment land well.",
-    "Things that would start a good conversation.",
-    "Things that would end an awkward silence.",
-    "Things that would be nice to hear on your birthday.",
-    "Things that would be nice to hear after a hard week.",
-    "Things that would be nice to hear from a friend far away.",
-    # Home & chores
-    "Things you'd want to find when cleaning a messy room.",
-    "Things you'd want to own if you lived alone.",
-    "Things you'd want in a first apartment.",
-    "Things you'd want in a dream kitchen.",
-    "Things you'd want in a cozy reading nook.",
-    "Things you'd want on a well-stocked desk.",
-    "Things you'd want in a bathroom cabinet.",
-    "Things you'd want in a garage toolbox.",
-    "Things you'd want in a garden shed.",
-    "Things you'd want near the front door.",
-    "Things you'd want to grab before guests arrive.",
-    "Things you'd want to finish before a vacation.",
-    "Things you'd want to do the night before a trip.",
-    "Things you'd want to do the morning of a trip.",
-    "Things you'd want to unpack first after moving.",
-    "Chores you'd actually don't mind doing.",
-    "Chores you'd postpone as long as possible.",
-    "Household tasks that feel satisfying when done.",
-    "Household tasks that always take longer than expected.",
-    "Weekend projects you'd enjoy starting.",
-    # Food & meals
-    "Foods you'd want for a comfort meal.",
-    "Foods you'd want on a sick day.",
-    "Foods you'd want at a celebration dinner.",
-    "Foods you'd want at a casual picnic.",
-    "Foods you'd want on a cold winter night.",
-    "Foods you'd want on a hot summer afternoon.",
-    "Snacks you'd want during a movie at home.",
-    "Snacks you'd want on a long car ride.",
-    "Snacks you'd want after school or work.",
-    "Snacks you'd want at a sleepover.",
-    "Breakfast foods that would wake you up.",
-    "Lunch foods you could eat every week.",
-    "Dinner foods you'd cook for someone you like.",
-    "Desserts you'd order if calories didn't matter.",
-    "Drinks you'd want on a scorching day.",
-    "Drinks you'd want on a freezing day.",
-    "Foods you'd teach a kid to cook first.",
-    "Foods you'd bring to a potluck.",
-    "Foods you'd avoid eating in public.",
-    "Foods that smell amazing while cooking.",
-    # School & work
-    "School subjects you'd enjoy revisiting as an adult.",
-    "School projects you'd actually look forward to.",
-    "Things you'd want in a perfect study space.",
-    "Things you'd want on the first day of a new job.",
-    "Things you'd want on the first day of school.",
-    "Things you'd want in a team meeting to go smoothly.",
-    "Things you'd want before giving a presentation.",
-    "Things you'd want after finishing a big project.",
-    "Skills you'd want to learn in a weekend workshop.",
-    "Skills that would impress at a talent show.",
-    "Hobbies you'd pick up if you had more free time.",
-    "Hobbies you'd recommend to a complete beginner.",
-    "Jobs that would suit someone who loves being outdoors.",
-    "Jobs that would suit someone who loves quiet.",
-    "Jobs that would suit someone who loves helping people.",
-    "Jobs that would suit someone who loves building things.",
-    "Jobs that would suit someone who loves travel.",
-    "Jobs you'd want to try for just one day.",
-    "Jobs children often dream about.",
-    "Jobs that sound harder than they look.",
-    # Travel & places
-    "Places you'd want to visit on a once-in-a-lifetime trip.",
-    "Places you'd want to explore on foot for a day.",
-    "Places you'd want to take a visiting friend.",
-    "Places you'd want to photograph on vacation.",
-    "Places you'd want to return to again and again.",
-    "Places you'd want to see at sunrise.",
-    "Places you'd want to see at night.",
-    "Places that would feel peaceful to sit in for an hour.",
-    "Places that would feel exciting to visit alone.",
-    "Places that would feel fun with a big group.",
-    "Countries you'd want to visit for the food.",
-    "Countries you'd want to visit for nature.",
-    "Countries you'd want to visit for history.",
-    "Cities you'd want to wander without a plan.",
-    "Vacation activities worth waking up early for.",
-    "Vacation activities perfect for doing nothing.",
-    "Things you'd want in a hotel room.",
-    "Things you'd want on a long flight.",
-    "Things you'd want on a train journey.",
-    "Things you'd want at a beach all day.",
-    # Entertainment & culture
-    "Movies you'd watch again and again.",
-    "Movies perfect for a family night.",
-    "Movies perfect for a solo rainy afternoon.",
-    "Books you'd give to a curious teenager.",
-    "Books you'd bring on a long trip.",
-    "Board games you'd bring to game night.",
-    "Board games you'd play with non-gamers.",
-    "Card games you'd teach in five minutes.",
-    "Party games that work with any group size.",
-    "Songs you'd put on a road-trip playlist.",
-    "Songs you'd put on a cleaning playlist.",
-    "Songs you'd put on a workout playlist.",
-    "TV shows you'd binge on a sick day.",
-    "Cartoons adults still enjoy.",
-    "Sports you'd watch even if you don't play.",
-    "Sports you'd actually try yourself.",
-    "Museum exhibits that would hold your attention.",
-    "Festivals or fairs you'd travel to attend.",
-    "Holiday traditions you'd want to keep.",
-    "Holiday traditions you'd invent for friends.",
-    # Kids & family
-    "Toys you'd want as a kid again.",
-    "Games you'd play with a five-year-old.",
-    "Games you'd play with a teenager.",
-    "Activities for a rainy day with kids.",
-    "Activities for a sunny day at the park.",
-    "Birthday party ideas that always work.",
-    "Birthday gifts kids actually use.",
-    "Rewards you'd offer for good behavior.",
-    "Pets that would fit a busy family.",
-    "Pets that would fit a small home.",
-    "Family outings that don't cost much.",
-    "Family outings worth saving up for.",
-    "Things grandparents love to do with grandkids.",
-    "Things you'd want in a kid's backpack.",
-    "Things you'd want in a school lunchbox.",
-    "Bedtime stories that never get old.",
-    "Back-to-school supplies worth splurging on.",
-    "Summer activities you'd sign a kid up for.",
-    "Winter activities that beat staying inside.",
-    "Science fair project ideas that sound impressive.",
+    # Daily life &amp; energy
+    &#34;Things you&#39;d want to do when you&#39;re very tired.&#34;,
+    &#34;Things you&#39;d want to do on a lazy Sunday morning.&#34;,
+    &#34;Things you&#39;d want to do right after waking up.&#34;,
+    &#34;Things you&#39;d want to do before going to bed.&#34;,
+    &#34;Things you&#39;d want to do when you can&#39;t sleep.&#34;,
+    &#34;Things you&#39;d want to do on your first day off in months.&#34;,
+    &#34;Things you&#39;d want to do when you have ten free minutes.&#34;,
+    &#34;Things you&#39;d want to do when you have a whole afternoon free.&#34;,
+    &#34;Things you&#39;d want to do when it&#39;s raining outside.&#34;,
+    &#34;Things you&#39;d want to do when it&#39;s too hot to go outside.&#34;,
+    &#34;Things you&#39;d want to do when it&#39;s too cold to go outside.&#34;,
+    &#34;Things you&#39;d want to do when you&#39;re stuck indoors all day.&#34;,
+    &#34;Things you&#39;d want to do when you&#39;re bored at home.&#34;,
+    &#34;Things you&#39;d want to do when waiting for food to arrive.&#34;,
+    &#34;Things you&#39;d want to do while waiting in a long line.&#34;,
+    &#34;Things you&#39;d want to do during a short break at work or school.&#34;,
+    &#34;Things you&#39;d want to do on a commute.&#34;,
+    &#34;Things you&#39;d want to do during a lunch break.&#34;,
+    &#34;Things you&#39;d want to do right after a big meal.&#34;,
+    &#34;Things you&#39;d want to do when you&#39;re slightly hungry.&#34;,
+    # Mood &amp; social
+    &#34;Things that would cheer you up on a bad day.&#34;,
+    &#34;Things that would make a ordinary day feel special.&#34;,
+    &#34;Things that would calm you down when you&#39;re stressed.&#34;,
+    &#34;Things that would help you focus when studying.&#34;,
+    &#34;Things that would help you relax before a test.&#34;,
+    &#34;Things that would make a guest feel welcome.&#34;,
+    &#34;Things that would make a shy person open up.&#34;,
+    &#34;Things that would make a party more fun.&#34;,
+    &#34;Things that would make a long dinner more interesting.&#34;,
+    &#34;Things that would make a road trip more bearable.&#34;,
+    &#34;Things that would make a waiting room less boring.&#34;,
+    &#34;Things that would make a small gift feel thoughtful.&#34;,
+    &#34;Things that would make a thank-you feel sincere.&#34;,
+    &#34;Things that would make an apology feel genuine.&#34;,
+    &#34;Things that would make a compliment land well.&#34;,
+    &#34;Things that would start a good conversation.&#34;,
+    &#34;Things that would end an awkward silence.&#34;,
+    &#34;Things that would be nice to hear on your birthday.&#34;,
+    &#34;Things that would be nice to hear after a hard week.&#34;,
+    &#34;Things that would be nice to hear from a friend far away.&#34;,
+    # Home &amp; chores
+    &#34;Things you&#39;d want to find when cleaning a messy room.&#34;,
+    &#34;Things you&#39;d want to own if you lived alone.&#34;,
+    &#34;Things you&#39;d want in a first apartment.&#34;,
+    &#34;Things you&#39;d want in a dream kitchen.&#34;,
+    &#34;Things you&#39;d want in a cozy reading nook.&#34;,
+    &#34;Things you&#39;d want on a well-stocked desk.&#34;,
+    &#34;Things you&#39;d want in a bathroom cabinet.&#34;,
+    &#34;Things you&#39;d want in a garage toolbox.&#34;,
+    &#34;Things you&#39;d want in a garden shed.&#34;,
+    &#34;Things you&#39;d want near the front door.&#34;,
+    &#34;Things you&#39;d want to grab before guests arrive.&#34;,
+    &#34;Things you&#39;d want to finish before a vacation.&#34;,
+    &#34;Things you&#39;d want to do the night before a trip.&#34;,
+    &#34;Things you&#39;d want to do the morning of a trip.&#34;,
+    &#34;Things you&#39;d want to unpack first after moving.&#34;,
+    &#34;Chores you&#39;d actually don&#39;t mind doing.&#34;,
+    &#34;Chores you&#39;d postpone as long as possible.&#34;,
+    &#34;Household tasks that feel satisfying when done.&#34;,
+    &#34;Household tasks that always take longer than expected.&#34;,
+    &#34;Weekend projects you&#39;d enjoy starting.&#34;,
+    # Food &amp; meals
+    &#34;Foods you&#39;d want for a comfort meal.&#34;,
+    &#34;Foods you&#39;d want on a sick day.&#34;,
+    &#34;Foods you&#39;d want at a celebration dinner.&#34;,
+    &#34;Foods you&#39;d want at a casual picnic.&#34;,
+    &#34;Foods you&#39;d want on a cold winter night.&#34;,
+    &#34;Foods you&#39;d want on a hot summer afternoon.&#34;,
+    &#34;Snacks you&#39;d want during a movie at home.&#34;,
+    &#34;Snacks you&#39;d want on a long car ride.&#34;,
+    &#34;Snacks you&#39;d want after school or work.&#34;,
+    &#34;Snacks you&#39;d want at a sleepover.&#34;,
+    &#34;Breakfast foods that would wake you up.&#34;,
+    &#34;Lunch foods you could eat every week.&#34;,
+    &#34;Dinner foods you&#39;d cook for someone you like.&#34;,
+    &#34;Desserts you&#39;d order if calories didn&#39;t matter.&#34;,
+    &#34;Drinks you&#39;d want on a scorching day.&#34;,
+    &#34;Drinks you&#39;d want on a freezing day.&#34;,
+    &#34;Foods you&#39;d teach a kid to cook first.&#34;,
+    &#34;Foods you&#39;d bring to a potluck.&#34;,
+    &#34;Foods you&#39;d avoid eating in public.&#34;,
+    &#34;Foods that smell amazing while cooking.&#34;,
+    # School &amp; work
+    &#34;School subjects you&#39;d enjoy revisiting as an adult.&#34;,
+    &#34;School projects you&#39;d actually look forward to.&#34;,
+    &#34;Things you&#39;d want in a perfect study space.&#34;,
+    &#34;Things you&#39;d want on the first day of a new job.&#34;,
+    &#34;Things you&#39;d want on the first day of school.&#34;,
+    &#34;Things you&#39;d want in a team meeting to go smoothly.&#34;,
+    &#34;Things you&#39;d want before giving a presentation.&#34;,
+    &#34;Things you&#39;d want after finishing a big project.&#34;,
+    &#34;Skills you&#39;d want to learn in a weekend workshop.&#34;,
+    &#34;Skills that would impress at a talent show.&#34;,
+    &#34;Hobbies you&#39;d pick up if you had more free time.&#34;,
+    &#34;Hobbies you&#39;d recommend to a complete beginner.&#34;,
+    &#34;Jobs that would suit someone who loves being outdoors.&#34;,
+    &#34;Jobs that would suit someone who loves quiet.&#34;,
+    &#34;Jobs that would suit someone who loves helping people.&#34;,
+    &#34;Jobs that would suit someone who loves building things.&#34;,
+    &#34;Jobs that would suit someone who loves travel.&#34;,
+    &#34;Jobs you&#39;d want to try for just one day.&#34;,
+    &#34;Jobs children often dream about.&#34;,
+    &#34;Jobs that sound harder than they look.&#34;,
+    # Travel &amp; places
+    &#34;Places you&#39;d want to visit on a once-in-a-lifetime trip.&#34;,
+    &#34;Places you&#39;d want to explore on foot for a day.&#34;,
+    &#34;Places you&#39;d want to take a visiting friend.&#34;,
+    &#34;Places you&#39;d want to photograph on vacation.&#34;,
+    &#34;Places you&#39;d want to return to again and again.&#34;,
+    &#34;Places you&#39;d want to see at sunrise.&#34;,
+    &#34;Places you&#39;d want to see at night.&#34;,
+    &#34;Places that would feel peaceful to sit in for an hour.&#34;,
+    &#34;Places that would feel exciting to visit alone.&#34;,
+    &#34;Places that would feel fun with a big group.&#34;,
+    &#34;Countries you&#39;d want to visit for the food.&#34;,
+    &#34;Countries you&#39;d want to visit for nature.&#34;,
+    &#34;Countries you&#39;d want to visit for history.&#34;,
+    &#34;Cities you&#39;d want to wander without a plan.&#34;,
+    &#34;Vacation activities worth waking up early for.&#34;,
+    &#34;Vacation activities perfect for doing nothing.&#34;,
+    &#34;Things you&#39;d want in a hotel room.&#34;,
+    &#34;Things you&#39;d want on a long flight.&#34;,
+    &#34;Things you&#39;d want on a train journey.&#34;,
+    &#34;Things you&#39;d want at a beach all day.&#34;,
+    # Entertainment &amp; culture
+    &#34;Movies you&#39;d watch again and again.&#34;,
+    &#34;Movies perfect for a family night.&#34;,
+    &#34;Movies perfect for a solo rainy afternoon.&#34;,
+    &#34;Books you&#39;d give to a curious teenager.&#34;,
+    &#34;Books you&#39;d bring on a long trip.&#34;,
+    &#34;Board games you&#39;d bring to game night.&#34;,
+    &#34;Board games you&#39;d play with non-gamers.&#34;,
+    &#34;Card games you&#39;d teach in five minutes.&#34;,
+    &#34;Party games that work with any group size.&#34;,
+    &#34;Songs you&#39;d put on a road-trip playlist.&#34;,
+    &#34;Songs you&#39;d put on a cleaning playlist.&#34;,
+    &#34;Songs you&#39;d put on a workout playlist.&#34;,
+    &#34;TV shows you&#39;d binge on a sick day.&#34;,
+    &#34;Cartoons adults still enjoy.&#34;,
+    &#34;Sports you&#39;d watch even if you don&#39;t play.&#34;,
+    &#34;Sports you&#39;d actually try yourself.&#34;,
+    &#34;Museum exhibits that would hold your attention.&#34;,
+    &#34;Festivals or fairs you&#39;d travel to attend.&#34;,
+    &#34;Holiday traditions you&#39;d want to keep.&#34;,
+    &#34;Holiday traditions you&#39;d invent for friends.&#34;,
+    # Kids &amp; family
+    &#34;Toys you&#39;d want as a kid again.&#34;,
+    &#34;Games you&#39;d play with a five-year-old.&#34;,
+    &#34;Games you&#39;d play with a teenager.&#34;,
+    &#34;Activities for a rainy day with kids.&#34;,
+    &#34;Activities for a sunny day at the park.&#34;,
+    &#34;Birthday party ideas that always work.&#34;,
+    &#34;Birthday gifts kids actually use.&#34;,
+    &#34;Rewards you&#39;d offer for good behavior.&#34;,
+    &#34;Pets that would fit a busy family.&#34;,
+    &#34;Pets that would fit a small home.&#34;,
+    &#34;Family outings that don&#39;t cost much.&#34;,
+    &#34;Family outings worth saving up for.&#34;,
+    &#34;Things grandparents love to do with grandkids.&#34;,
+    &#34;Things you&#39;d want in a kid&#39;s backpack.&#34;,
+    &#34;Things you&#39;d want in a school lunchbox.&#34;,
+    &#34;Bedtime stories that never get old.&#34;,
+    &#34;Back-to-school supplies worth splurging on.&#34;,
+    &#34;Summer activities you&#39;d sign a kid up for.&#34;,
+    &#34;Winter activities that beat staying inside.&#34;,
+    &#34;Science fair project ideas that sound impressive.&#34;,
     # Embarrassing / funny (mild, family-safe)
-    "Things that would be embarrassing to drop in public.",
-    "Things that would be embarrassing to say too loudly.",
-    "Things that would be embarrassing to wear to a formal event.",
-    "Things that would be funny to see a celebrity do.",
-    "Things that would be funny to bring to show-and-tell.",
-    "Things that would be awkward to forget someone's name.",
-    "Sounds that would be awkward in a quiet library.",
-    "Sounds that would be welcome at a sports game.",
-    "Outfits that would stand out at a wedding.",
-    "Outfits that would blend in anywhere.",
-    "Excuses for being late that might actually work.",
-    "Excuses for being late that nobody believes.",
-    "Things you'd hate to find in your lunchbox.",
-    "Things you'd love to find in your lunchbox.",
-    "Surprises you'd enjoy on an ordinary Tuesday.",
-    "Surprises you'd hate on an ordinary Tuesday.",
-    "Things that would make you laugh in a serious meeting.",
-    "Things that would ruin a perfectly good cake.",
-    "Things that would save a ruined dinner.",
-    "Things that would make a prank harmless and funny.",
-    # Importance & desire
-    "Things in life you'd never want to lose.",
-    "Things you'd save first in a small fire (if safe).",
-    "Things you'd want to learn before age thirty.",
-    "Things you'd want to teach every child.",
-    "Things that feel worth the wait.",
-    "Things that aren't worth the hype.",
-    "Things that get better with age.",
-    "Things that get worse with age.",
-    "Inventions that would make daily life easier.",
-    "Inventions that would make travel easier.",
-    "Superpowers you'd actually want to have.",
-    "Superpowers that would cause more trouble than help.",
-    "Superpowers perfect for a lazy person.",
-    "Superpowers perfect for a helpful person.",
-    "Time periods you'd visit with a time machine.",
-    "Historical figures you'd want to meet for an hour.",
-    "Animals you'd want as an impossible pet.",
-    "Animals you'd want to see in the wild once.",
-    "Plants you'd want in every neighborhood.",
-    "Trees you'd want in your backyard.",
+    &#34;Things that would be embarrassing to drop in public.&#34;,
+    &#34;Things that would be embarrassing to say too loudly.&#34;,
+    &#34;Things that would be embarrassing to wear to a formal event.&#34;,
+    &#34;Things that would be funny to see a celebrity do.&#34;,
+    &#34;Things that would be funny to bring to show-and-tell.&#34;,
+    &#34;Things that would be awkward to forget someone&#39;s name.&#34;,
+    &#34;Sounds that would be awkward in a quiet library.&#34;,
+    &#34;Sounds that would be welcome at a sports game.&#34;,
+    &#34;Outfits that would stand out at a wedding.&#34;,
+    &#34;Outfits that would blend in anywhere.&#34;,
+    &#34;Excuses for being late that might actually work.&#34;,
+    &#34;Excuses for being late that nobody believes.&#34;,
+    &#34;Things you&#39;d hate to find in your lunchbox.&#34;,
+    &#34;Things you&#39;d love to find in your lunchbox.&#34;,
+    &#34;Surprises you&#39;d enjoy on an ordinary Tuesday.&#34;,
+    &#34;Surprises you&#39;d hate on an ordinary Tuesday.&#34;,
+    &#34;Things that would make you laugh in a serious meeting.&#34;,
+    &#34;Things that would ruin a perfectly good cake.&#34;,
+    &#34;Things that would save a ruined dinner.&#34;,
+    &#34;Things that would make a prank harmless and funny.&#34;,
+    # Importance &amp; desire
+    &#34;Things in life you&#39;d never want to lose.&#34;,
+    &#34;Things you&#39;d save first in a small fire (if safe).&#34;,
+    &#34;Things you&#39;d want to learn before age thirty.&#34;,
+    &#34;Things you&#39;d want to teach every child.&#34;,
+    &#34;Things that feel worth the wait.&#34;,
+    &#34;Things that aren&#39;t worth the hype.&#34;,
+    &#34;Things that get better with age.&#34;,
+    &#34;Things that get worse with age.&#34;,
+    &#34;Inventions that would make daily life easier.&#34;,
+    &#34;Inventions that would make travel easier.&#34;,
+    &#34;Superpowers you&#39;d actually want to have.&#34;,
+    &#34;Superpowers that would cause more trouble than help.&#34;,
+    &#34;Superpowers perfect for a lazy person.&#34;,
+    &#34;Superpowers perfect for a helpful person.&#34;,
+    &#34;Time periods you&#39;d visit with a time machine.&#34;,
+    &#34;Historical figures you&#39;d want to meet for an hour.&#34;,
+    &#34;Animals you&#39;d want as an impossible pet.&#34;,
+    &#34;Animals you&#39;d want to see in the wild once.&#34;,
+    &#34;Plants you&#39;d want in every neighborhood.&#34;,
+    &#34;Trees you&#39;d want in your backyard.&#34;,
 ]
 
 hypothetical = [
-    # Survival & stranded
-    "Things to bring on a deserted island.",
-    "Things to bring if stranded in a forest overnight.",
-    "Things to bring if your car broke down far from town.",
-    "Things to bring if you were stuck in a snowstorm indoors.",
-    "Things to bring if the power went out for a week.",
-    "Things to bring if you had to camp with no phone signal.",
-    "Things to bring if you were lost on a hiking trail.",
-    "Things to bring if you had to spend a night in an airport.",
-    "Things to bring if you were locked out of your house.",
-    "Things to bring if an elevator stopped between floors.",
-    "Things you'd want if water supply was cut off for three days.",
-    "Things you'd want if you had to cook only with a campfire.",
-    "Things you'd want if you had to sleep outside unexpectedly.",
-    "Things you'd want if a heat wave knocked out air conditioning.",
-    "Things you'd want if you heard a strange noise at night.",
+    # Survival &amp; stranded
+    &#34;Things to bring on a deserted island.&#34;,
+    &#34;Things to bring if stranded in a forest overnight.&#34;,
+    &#34;Things to bring if your car broke down far from town.&#34;,
+    &#34;Things to bring if you were stuck in a snowstorm indoors.&#34;,
+    &#34;Things to bring if the power went out for a week.&#34;,
+    &#34;Things to bring if you had to camp with no phone signal.&#34;,
+    &#34;Things to bring if you were lost on a hiking trail.&#34;,
+    &#34;Things to bring if you had to spend a night in an airport.&#34;,
+    &#34;Things to bring if you were locked out of your house.&#34;,
+    &#34;Things to bring if an elevator stopped between floors.&#34;,
+    &#34;Things you&#39;d want if water supply was cut off for three days.&#34;,
+    &#34;Things you&#39;d want if you had to cook only with a campfire.&#34;,
+    &#34;Things you&#39;d want if you had to sleep outside unexpectedly.&#34;,
+    &#34;Things you&#39;d want if a heat wave knocked out air conditioning.&#34;,
+    &#34;Things you&#39;d want if you heard a strange noise at night.&#34;,
     # Zombie / adventure (family-safe silly)
-    "Things you'd want if friendly zombies were coming (silly scenario).",
-    "Things you'd want to barricade a door with in an emergency.",
-    "Things you'd want in a homemade fort.",
-    "Things you'd want to build a raft with.",
-    "Things you'd want to cross a muddy field with.",
-    "Things you'd want to signal for help from far away.",
-    "Things you'd want to start a fire without matches.",
-    "Things you'd want to purify questionable water.",
-    "Things you'd want to navigate without GPS.",
-    "Things you'd want to stay warm without a heater.",
-    "Things you'd want to stay cool without electricity.",
-    "Things you'd want to pass time during a long blackout.",
-    "Things you'd want if you had to walk twenty miles.",
-    "Things you'd want if you could only carry one bag.",
-    "Things you'd want if you had to move in one day.",
-    # Space & sci-fi (playful)
-    "Things you'd give a tourist from another planet.",
-    "Things you'd pack for a one-week space station visit.",
-    "Things you'd want on the first colony on Mars.",
-    "Things you'd want if gravity suddenly halved for an hour.",
-    "Things you'd want if you could breathe underwater for a day.",
-    "Things you'd want if you could fly for one afternoon.",
-    "Things you'd want if you shrunk to the size of an ant.",
-    "Things you'd want if you grew to the size of a building.",
-    "Things you'd want if animals could talk for one day.",
-    "Things you'd want if it rained something other than water.",
-    "Things you'd want if every door became a portal for an hour.",
-    "Things you'd want if you woke up a hundred years in the future.",
-    "Things you'd want if you woke up a hundred years in the past.",
-    "Things you'd want on a submarine for a month.",
-    "Things you'd want on a hot-air balloon ride gone long.",
-    # Contest & challenge
-    "Things you'd want in a three-legged race.",
-    "Things you'd want in an egg-and-spoon race.",
-    "Things you'd want in a treasure hunt in the backyard.",
-    "Things you'd want in a twenty-four-hour charity livestream.",
-    "Things you'd want in a cooking challenge with random ingredients.",
-    "Things you'd want in a build-the-tallest-tower contest.",
-    "Things you'd want in a no-talking team challenge.",
-    "Things you'd want in a blindfolded taste test.",
-    "Things you'd want in a one-minute packing challenge.",
-    "Things you'd want in a backyard obstacle course.",
-    "Things you'd want if you had to entertain fifty kids for an hour.",
-    "Things you'd want if you had to host dinner for ten strangers.",
-    "Things you'd want if you had to plan a wedding in one week.",
-    "Things you'd want if you had to move a piano upstairs.",
-    "Things you'd want if you had to fix a leak before guests arrive.",
-    # Shopping & limits
-    "Things you'd buy with only ten dollars at a grocery store.",
-    "Things you'd buy with only ten dollars at a hardware store.",
-    "Things you'd buy if you could only shop at a dollar store.",
-    "Things you'd grab in a five-minute pharmacy run.",
-    "Things you'd grab if the store was closing in two minutes.",
-    "Things you'd want if you could only eat one food for a week.",
-    "Things you'd want if you could only wear one outfit for a month.",
-    "Things you'd want if you had no internet for a month.",
-    "Things you'd want if you had no car for a month.",
-    "Things you'd want if you could only use hand tools.",
-    "Things you'd want if batteries disappeared for a day.",
-    "Things you'd want if all screens stopped working for a weekend.",
-    "Things you'd want if restaurants closed for a week.",
-    "Things you'd want if delivery apps stopped working.",
-    "Things you'd want if maps stopped working on your phone.",
+    &#34;Things you&#39;d want if friendly zombies were coming (silly scenario).&#34;,
+    &#34;Things you&#39;d want to barricade a door with in an emergency.&#34;,
+    &#34;Things you&#39;d want in a homemade fort.&#34;,
+    &#34;Things you&#39;d want to build a raft with.&#34;,
+    &#34;Things you&#39;d want to cross a muddy field with.&#34;,
+    &#34;Things you&#39;d want to signal for help from far away.&#34;,
+    &#34;Things you&#39;d want to start a fire without matches.&#34;,
+    &#34;Things you&#39;d want to purify questionable water.&#34;,
+    &#34;Things you&#39;d want to navigate without GPS.&#34;,
+    &#34;Things you&#39;d want to stay warm without a heater.&#34;,
+    &#34;Things you&#39;d want to stay cool without electricity.&#34;,
+    &#34;Things you&#39;d want to pass time during a long blackout.&#34;,
+    &#34;Things you&#39;d want if you had to walk twenty miles.&#34;,
+    &#34;Things you&#39;d want if you could only carry one bag.&#34;,
+    &#34;Things you&#39;d want if you had to move in one day.&#34;,
+    # Space &amp; sci-fi (playful)
+    &#34;Things you&#39;d give a tourist from another planet.&#34;,
+    &#34;Things you&#39;d pack for a one-week space station visit.&#34;,
+    &#34;Things you&#39;d want on the first colony on Mars.&#34;,
+    &#34;Things you&#39;d want if gravity suddenly halved for an hour.&#34;,
+    &#34;Things you&#39;d want if you could breathe underwater for a day.&#34;,
+    &#34;Things you&#39;d want if you could fly for one afternoon.&#34;,
+    &#34;Things you&#39;d want if you shrunk to the size of an ant.&#34;,
+    &#34;Things you&#39;d want if you grew to the size of a building.&#34;,
+    &#34;Things you&#39;d want if animals could talk for one day.&#34;,
+    &#34;Things you&#39;d want if it rained something other than water.&#34;,
+    &#34;Things you&#39;d want if every door became a portal for an hour.&#34;,
+    &#34;Things you&#39;d want if you woke up a hundred years in the future.&#34;,
+    &#34;Things you&#39;d want if you woke up a hundred years in the past.&#34;,
+    &#34;Things you&#39;d want on a submarine for a month.&#34;,
+    &#34;Things you&#39;d want on a hot-air balloon ride gone long.&#34;,
+    # Contest &amp; challenge
+    &#34;Things you&#39;d want in a three-legged race.&#34;,
+    &#34;Things you&#39;d want in an egg-and-spoon race.&#34;,
+    &#34;Things you&#39;d want in a treasure hunt in the backyard.&#34;,
+    &#34;Things you&#39;d want in a twenty-four-hour charity livestream.&#34;,
+    &#34;Things you&#39;d want in a cooking challenge with random ingredients.&#34;,
+    &#34;Things you&#39;d want in a build-the-tallest-tower contest.&#34;,
+    &#34;Things you&#39;d want in a no-talking team challenge.&#34;,
+    &#34;Things you&#39;d want in a blindfolded taste test.&#34;,
+    &#34;Things you&#39;d want in a one-minute packing challenge.&#34;,
+    &#34;Things you&#39;d want in a backyard obstacle course.&#34;,
+    &#34;Things you&#39;d want if you had to entertain fifty kids for an hour.&#34;,
+    &#34;Things you&#39;d want if you had to host dinner for ten strangers.&#34;,
+    &#34;Things you&#39;d want if you had to plan a wedding in one week.&#34;,
+    &#34;Things you&#39;d want if you had to move a piano upstairs.&#34;,
+    &#34;Things you&#39;d want if you had to fix a leak before guests arrive.&#34;,
+    # Shopping &amp; limits
+    &#34;Things you&#39;d buy with only ten dollars at a grocery store.&#34;,
+    &#34;Things you&#39;d buy with only ten dollars at a hardware store.&#34;,
+    &#34;Things you&#39;d buy if you could only shop at a dollar store.&#34;,
+    &#34;Things you&#39;d grab in a five-minute pharmacy run.&#34;,
+    &#34;Things you&#39;d grab if the store was closing in two minutes.&#34;,
+    &#34;Things you&#39;d want if you could only eat one food for a week.&#34;,
+    &#34;Things you&#39;d want if you could only wear one outfit for a month.&#34;,
+    &#34;Things you&#39;d want if you had no internet for a month.&#34;,
+    &#34;Things you&#39;d want if you had no car for a month.&#34;,
+    &#34;Things you&#39;d want if you could only use hand tools.&#34;,
+    &#34;Things you&#39;d want if batteries disappeared for a day.&#34;,
+    &#34;Things you&#39;d want if all screens stopped working for a weekend.&#34;,
+    &#34;Things you&#39;d want if restaurants closed for a week.&#34;,
+    &#34;Things you&#39;d want if delivery apps stopped working.&#34;,
+    &#34;Things you&#39;d want if maps stopped working on your phone.&#34;,
     # Nature disasters (mild)
-    "Things you'd want before a hurricane indoors.",
-    "Things you'd want during a long drought.",
-    "Things you'd want during a week of nonstop rain.",
-    "Things you'd want if your town flooded (safe indoors).",
-    "Things you'd want if a volcano erupted far away but ash arrived.",
-    "Things you'd want if wildlife wandered into your yard.",
-    "Things you'd want if bees moved into your porch.",
-    "Things you'd want if a tree fell across your driveway.",
-    "Things you'd want if a river rose near a campsite.",
-    "Things you'd want if sandstorm trapped you at a rest stop.",
-    "Things you'd want if fog made driving impossible.",
-    "Things you'd want if ice coated every sidewalk.",
-    "Things you'd want if hail damaged your garden.",
-    "Things you'd want during a heat advisory with no AC.",
-    "Things you'd want during a cold snap with a weak furnace.",
+    &#34;Things you&#39;d want before a hurricane indoors.&#34;,
+    &#34;Things you&#39;d want during a long drought.&#34;,
+    &#34;Things you&#39;d want during a week of nonstop rain.&#34;,
+    &#34;Things you&#39;d want if your town flooded (safe indoors).&#34;,
+    &#34;Things you&#39;d want if a volcano erupted far away but ash arrived.&#34;,
+    &#34;Things you&#39;d want if wildlife wandered into your yard.&#34;,
+    &#34;Things you&#39;d want if bees moved into your porch.&#34;,
+    &#34;Things you&#39;d want if a tree fell across your driveway.&#34;,
+    &#34;Things you&#39;d want if a river rose near a campsite.&#34;,
+    &#34;Things you&#39;d want if sandstorm trapped you at a rest stop.&#34;,
+    &#34;Things you&#39;d want if fog made driving impossible.&#34;,
+    &#34;Things you&#39;d want if ice coated every sidewalk.&#34;,
+    &#34;Things you&#39;d want if hail damaged your garden.&#34;,
+    &#34;Things you&#39;d want during a heat advisory with no AC.&#34;,
+    &#34;Things you&#39;d want during a cold snap with a weak furnace.&#34;,
     # Social hypotheticals
-    "Things you'd want if you had to introduce yourself to a new class.",
-    "Things you'd want if you had to speak to a crowd of five hundred.",
-    "Things you'd want if you had to negotiate peace between siblings.",
-    "Things you'd want if you had to plan a surprise party in secret.",
-    "Things you'd want if you had to babysit five kids alone.",
-    "Things you'd want if you had to dogsit ten energetic dogs.",
-    "Things you'd want if you had to catsit a very shy cat.",
-    "Things you'd want if you had to house-sit a mansion for a week.",
-    "Things you'd want if you had to farm-sit for a neighbor.",
-    "Things you'd want if you had to run a lemonade stand all day.",
-    "Things you'd want if you had to sell everything you own in a day.",
-    "Things you'd want if you had to live in a tiny house.",
-    "Things you'd want if you had to live on a boat for a year.",
-    "Things you'd want if you had to live above a noisy shop.",
-    "Things you'd want if you had to share one bathroom with six people.",
+    &#34;Things you&#39;d want if you had to introduce yourself to a new class.&#34;,
+    &#34;Things you&#39;d want if you had to speak to a crowd of five hundred.&#34;,
+    &#34;Things you&#39;d want if you had to negotiate peace between siblings.&#34;,
+    &#34;Things you&#39;d want if you had to plan a surprise party in secret.&#34;,
+    &#34;Things you&#39;d want if you had to babysit five kids alone.&#34;,
+    &#34;Things you&#39;d want if you had to dogsit ten energetic dogs.&#34;,
+    &#34;Things you&#39;d want if you had to catsit a very shy cat.&#34;,
+    &#34;Things you&#39;d want if you had to house-sit a mansion for a week.&#34;,
+    &#34;Things you&#39;d want if you had to farm-sit for a neighbor.&#34;,
+    &#34;Things you&#39;d want if you had to run a lemonade stand all day.&#34;,
+    &#34;Things you&#39;d want if you had to sell everything you own in a day.&#34;,
+    &#34;Things you&#39;d want if you had to live in a tiny house.&#34;,
+    &#34;Things you&#39;d want if you had to live on a boat for a year.&#34;,
+    &#34;Things you&#39;d want if you had to live above a noisy shop.&#34;,
+    &#34;Things you&#39;d want if you had to share one bathroom with six people.&#34;,
     # Oddball what-ifs
-    "Things you'd want if money grew on a tree in your yard.",
-    "Things you'd want if it snowed in summer for one day.",
-    "Things you'd want if the moon looked twice as big tonight.",
-    "Things you'd want if every cat in town gathered on your lawn.",
-    "Things you'd want if you found a hidden room in your house.",
-    "Things you'd want if you discovered a secret garden.",
-    "Things you'd want if your bicycle could only go backwards.",
-    "Things you'd want if elevators only went up, never down.",
-    "Things you'd want if socks kept disappearing mysteriously.",
-    "Things you'd want if your phone only worked on Tuesdays.",
-    "Things you'd want if homework graded itself honestly.",
-    "Things you'd want if chores paid real coins.",
-    "Things you'd want if you could pause time for five minutes a day.",
-    "Things you'd want if you could rewind one conversation a day.",
-    "Things you'd want if you could speak every language for a week.",
+    &#34;Things you&#39;d want if money grew on a tree in your yard.&#34;,
+    &#34;Things you&#39;d want if it snowed in summer for one day.&#34;,
+    &#34;Things you&#39;d want if the moon looked twice as big tonight.&#34;,
+    &#34;Things you&#39;d want if every cat in town gathered on your lawn.&#34;,
+    &#34;Things you&#39;d want if you found a hidden room in your house.&#34;,
+    &#34;Things you&#39;d want if you discovered a secret garden.&#34;,
+    &#34;Things you&#39;d want if your bicycle could only go backwards.&#34;,
+    &#34;Things you&#39;d want if elevators only went up, never down.&#34;,
+    &#34;Things you&#39;d want if socks kept disappearing mysteriously.&#34;,
+    &#34;Things you&#39;d want if your phone only worked on Tuesdays.&#34;,
+    &#34;Things you&#39;d want if homework graded itself honestly.&#34;,
+    &#34;Things you&#39;d want if chores paid real coins.&#34;,
+    &#34;Things you&#39;d want if you could pause time for five minutes a day.&#34;,
+    &#34;Things you&#39;d want if you could rewind one conversation a day.&#34;,
+    &#34;Things you&#39;d want if you could speak every language for a week.&#34;,
     # More situational to reach 500 if needed
 ]
 
 # Expand situational with more variants
 extra_situational = [
-    "Things you'd want when packing for an overnight trip.",
-    "Things you'd want when packing for a month abroad.",
-    "Things you'd want when redecorating a bedroom.",
-    "Things you'd want when starting a vegetable garden.",
-    "Things you'd want when adopting a rescue pet.",
-    "Things you'd want when learning to swim as an adult.",
-    "Things you'd want when learning to drive.",
-    "Things you'd want when moving to a new city alone.",
-    "Things you'd want when joining a new sports team.",
-    "Things you'd want when starting a new school mid-year.",
-    "Things you'd want when meeting your partner's parents.",
-    "Things you'd want when hosting your first dinner party.",
-    "Things you'd want when running your first 5K.",
-    "Things you'd want when baking for the first time.",
-    "Things you'd want when fixing a flat tire.",
-    "Things you'd want when assembling flat-pack furniture.",
-    "Things you'd want when hanging pictures on a wall.",
-    "Things you'd want when unclogging a sink.",
-    "Things you'd want when painting a room.",
-    "Things you'd want when washing a car by hand.",
-    "Things you'd want when pruning an overgrown tree.",
-    "Things you'd want when building a sandcastle competition entry.",
-    "Things you'd want when flying a kite on a windy hill.",
-    "Things you'd want when stargazing away from city lights.",
-    "Things you'd want when birdwatching at dawn.",
-    "Things you'd want when fishing on a quiet lake.",
-    "Things you'd want when kayaking for the first time.",
-    "Things you'd want when roller-skating after years away.",
-    "Things you'd want when ice-skating outdoors.",
-    "Things you'd want when sledding after fresh snow.",
-    "Things you'd want when building a snowman with kids.",
-    "Things you'd want when making hot chocolate from scratch.",
-    "Things you'd want when roasting marshmallows outdoors.",
-    "Things you'd want when telling stories around a campfire.",
-    "Things you'd want when sleeping in a tent for the first time.",
-    "Things you'd want when waking up in an unfamiliar hotel.",
-    "Things you'd want when jet-lagged in a new time zone.",
-    "Things you'd want when missing home on a long trip.",
-    "Things you'd want when reuniting with an old friend.",
-    "Things you'd want when saying goodbye at the airport.",
-    "Things you'd want when writing a heartfelt letter.",
-    "Things you'd want when keeping a daily journal.",
-    "Things you'd want when meditating for ten minutes.",
-    "Things you'd want when stretching after sitting all day.",
-    "Things you'd want when taking a digital detox weekend.",
-    "Things you'd want when decluttering a closet.",
-    "Things you'd want when organizing digital photos.",
-    "Things you'd want when backing up important files.",
-    "Things you'd want when setting up a home workspace.",
-    "Things you'd want when soundproofing a room cheaply.",
+    &#34;Things you&#39;d want when packing for an overnight trip.&#34;,
+    &#34;Things you&#39;d want when packing for a month abroad.&#34;,
+    &#34;Things you&#39;d want when redecorating a bedroom.&#34;,
+    &#34;Things you&#39;d want when starting a vegetable garden.&#34;,
+    &#34;Things you&#39;d want when adopting a rescue pet.&#34;,
+    &#34;Things you&#39;d want when learning to swim as an adult.&#34;,
+    &#34;Things you&#39;d want when learning to drive.&#34;,
+    &#34;Things you&#39;d want when moving to a new city alone.&#34;,
+    &#34;Things you&#39;d want when joining a new sports team.&#34;,
+    &#34;Things you&#39;d want when starting a new school mid-year.&#34;,
+    &#34;Things you&#39;d want when meeting your partner&#39;s parents.&#34;,
+    &#34;Things you&#39;d want when hosting your first dinner party.&#34;,
+    &#34;Things you&#39;d want when running your first 5K.&#34;,
+    &#34;Things you&#39;d want when baking for the first time.&#34;,
+    &#34;Things you&#39;d want when fixing a flat tire.&#34;,
+    &#34;Things you&#39;d want when assembling flat-pack furniture.&#34;,
+    &#34;Things you&#39;d want when hanging pictures on a wall.&#34;,
+    &#34;Things you&#39;d want when unclogging a sink.&#34;,
+    &#34;Things you&#39;d want when painting a room.&#34;,
+    &#34;Things you&#39;d want when washing a car by hand.&#34;,
+    &#34;Things you&#39;d want when pruning an overgrown tree.&#34;,
+    &#34;Things you&#39;d want when building a sandcastle competition entry.&#34;,
+    &#34;Things you&#39;d want when flying a kite on a windy hill.&#34;,
+    &#34;Things you&#39;d want when stargazing away from city lights.&#34;,
+    &#34;Things you&#39;d want when birdwatching at dawn.&#34;,
+    &#34;Things you&#39;d want when fishing on a quiet lake.&#34;,
+    &#34;Things you&#39;d want when kayaking for the first time.&#34;,
+    &#34;Things you&#39;d want when roller-skating after years away.&#34;,
+    &#34;Things you&#39;d want when ice-skating outdoors.&#34;,
+    &#34;Things you&#39;d want when sledding after fresh snow.&#34;,
+    &#34;Things you&#39;d want when building a snowman with kids.&#34;,
+    &#34;Things you&#39;d want when making hot chocolate from scratch.&#34;,
+    &#34;Things you&#39;d want when roasting marshmallows outdoors.&#34;,
+    &#34;Things you&#39;d want when telling stories around a campfire.&#34;,
+    &#34;Things you&#39;d want when sleeping in a tent for the first time.&#34;,
+    &#34;Things you&#39;d want when waking up in an unfamiliar hotel.&#34;,
+    &#34;Things you&#39;d want when jet-lagged in a new time zone.&#34;,
+    &#34;Things you&#39;d want when missing home on a long trip.&#34;,
+    &#34;Things you&#39;d want when reuniting with an old friend.&#34;,
+    &#34;Things you&#39;d want when saying goodbye at the airport.&#34;,
+    &#34;Things you&#39;d want when writing a heartfelt letter.&#34;,
+    &#34;Things you&#39;d want when keeping a daily journal.&#34;,
+    &#34;Things you&#39;d want when meditating for ten minutes.&#34;,
+    &#34;Things you&#39;d want when stretching after sitting all day.&#34;,
+    &#34;Things you&#39;d want when taking a digital detox weekend.&#34;,
+    &#34;Things you&#39;d want when decluttering a closet.&#34;,
+    &#34;Things you&#39;d want when organizing digital photos.&#34;,
+    &#34;Things you&#39;d want when backing up important files.&#34;,
+    &#34;Things you&#39;d want when setting up a home workspace.&#34;,
+    &#34;Things you&#39;d want when soundproofing a room cheaply.&#34;,
 ]
 
 extra_hypothetical = [
-    "Things you'd want if you had to cross a river on foot.",
-    "Things you'd want if you had to spend a week in a lighthouse.",
-    "Things you'd want if you had to live in a library for a month.",
-    "Things you'd want if you had to live in a museum overnight.",
-    "Things you'd want if you had to survive on a rooftop garden.",
-    "Things you'd want if you had to cross a desert in a cart.",
-    "Things you'd want if you had to explore a cave with a guide.",
-    "Things you'd want if you had to spend a night in a castle tour.",
-    "Things you'd want if you had to ride a horse for a full day.",
-    "Things you'd want if you had to sail a small boat alone.",
-    "Things you'd want if you had to bike across a country slowly.",
-    "Things you'd want if you had to walk a pilgrimage route.",
-    "Things you'd want if you had to trade items at a flea market.",
-    "Things you'd want if you had to barter without cash for a day.",
-    "Things you'd want if you had to cook for a food bank line.",
-    "Things you'd want if you had to teach a class with no materials.",
-    "Things you'd want if you had to run a school fair booth alone.",
-    "Things you'd want if you had to judge a talent show fairly.",
-    "Things you'd want if you had to referee a kids' soccer game.",
-    "Things you'd want if you had to coach absolute beginners.",
-    "Things you'd want if you had to fix a costume minutes before a play.",
-    "Things you'd want if you had to find a lost dog in the neighborhood.",
-    "Things you'd want if you had to return a wallet full of cash.",
-    "Things you'd want if you had to help a stranger change a tire.",
-    "Things you'd want if you had to translate for someone at a hospital.",
+    &#34;Things you&#39;d want if you had to cross a river on foot.&#34;,
+    &#34;Things you&#39;d want if you had to spend a week in a lighthouse.&#34;,
+    &#34;Things you&#39;d want if you had to live in a library for a month.&#34;,
+    &#34;Things you&#39;d want if you had to live in a museum overnight.&#34;,
+    &#34;Things you&#39;d want if you had to survive on a rooftop garden.&#34;,
+    &#34;Things you&#39;d want if you had to cross a desert in a cart.&#34;,
+    &#34;Things you&#39;d want if you had to explore a cave with a guide.&#34;,
+    &#34;Things you&#39;d want if you had to spend a night in a castle tour.&#34;,
+    &#34;Things you&#39;d want if you had to ride a horse for a full day.&#34;,
+    &#34;Things you&#39;d want if you had to sail a small boat alone.&#34;,
+    &#34;Things you&#39;d want if you had to bike across a country slowly.&#34;,
+    &#34;Things you&#39;d want if you had to walk a pilgrimage route.&#34;,
+    &#34;Things you&#39;d want if you had to trade items at a flea market.&#34;,
+    &#34;Things you&#39;d want if you had to barter without cash for a day.&#34;,
+    &#34;Things you&#39;d want if you had to cook for a food bank line.&#34;,
+    &#34;Things you&#39;d want if you had to teach a class with no materials.&#34;,
+    &#34;Things you&#39;d want if you had to run a school fair booth alone.&#34;,
+    &#34;Things you&#39;d want if you had to judge a talent show fairly.&#34;,
+    &#34;Things you&#39;d want if you had to referee a kids&#39; soccer game.&#34;,
+    &#34;Things you&#39;d want if you had to coach absolute beginners.&#34;,
+    &#34;Things you&#39;d want if you had to fix a costume minutes before a play.&#34;,
+    &#34;Things you&#39;d want if you had to find a lost dog in the neighborhood.&#34;,
+    &#34;Things you&#39;d want if you had to return a wallet full of cash.&#34;,
+    &#34;Things you&#39;d want if you had to help a stranger change a tire.&#34;,
+    &#34;Things you&#39;d want if you had to translate for someone at a hospital.&#34;,
 ]
 
 all_situational = situational + extra_situational
@@ -3871,7 +3560,7 @@ seen = set()
 
 def add_list(lst, limit):
     for p in lst:
-        if p not in seen and len(prompts) < 500:
+        if p not in seen and len(prompts) &lt; 500:
             seen.add(p)
             prompts.append(p)
 
@@ -3880,66 +3569,65 @@ add_list(all_hypothetical, 200)
 
 # Fill to 500 with combined unique generators if short
 fill_s = [
-    "Things you'd want when {}",
-    "Things that would help during {}",
+    &#34;Things you&#39;d want when {}&#34;,
+    &#34;Things that would help during {}&#34;,
 ]
 fill_h = [
-    "Things you'd want if you had to {}",
-    "Things you'd bring for {}",
+    &#34;Things you&#39;d want if you had to {}&#34;,
+    &#34;Things you&#39;d bring for {}&#34;,
 ]
 activities_s = [
-    "a power outage", "a heat wave", "a snow day", "a sick day at home",
-    "a long queue at the doctor", "a delayed flight", "a broken washing machine",
-    "a last-minute potluck", "a neighborhood block party", "a school fundraiser",
+    &#34;a power outage&#34;, &#34;a heat wave&#34;, &#34;a snow day&#34;, &#34;a sick day at home&#34;,
+    &#34;a long queue at the doctor&#34;, &#34;a delayed flight&#34;, &#34;a broken washing machine&#34;,
+    &#34;a last-minute potluck&#34;, &#34;a neighborhood block party&#34;, &#34;a school fundraiser&#34;,
 ]
 activities_h = [
-    "survive a week without a fridge", "cross town during a parade shutdown",
-    "host a picnic in the wind", "clean a flooded basement (safely)",
-    "move furniture up narrow stairs", "paint a fence in one afternoon",
-    "build a treehouse with basic tools", "run a yard sale alone",
-    "keep plants alive while neighbors travel", "feed a crowd with pantry staples",
+    &#34;survive a week without a fridge&#34;, &#34;cross town during a parade shutdown&#34;,
+    &#34;host a picnic in the wind&#34;, &#34;clean a flooded basement (safely)&#34;,
+    &#34;move furniture up narrow stairs&#34;, &#34;paint a fence in one afternoon&#34;,
+    &#34;build a treehouse with basic tools&#34;, &#34;run a yard sale alone&#34;,
+    &#34;keep plants alive while neighbors travel&#34;, &#34;feed a crowd with pantry staples&#34;,
 ]
 idx = 0
-while len(prompts) < 500:
-    if len(prompts) % 2 == 0 and idx < len(activities_s) * 3:
+while len(prompts) &lt; 500:
+    if len(prompts) % 2 == 0 and idx &lt; len(activities_s) * 3:
         a = activities_s[idx % len(activities_s)]
-        p = f"Things you'd want during {a}."
+        p = f&#34;Things you&#39;d want during {a}.&#34;
     else:
         a = activities_h[idx % len(activities_h)]
-        p = f"Things you'd want if you had to {a}."
+        p = f&#34;Things you&#39;d want if you had to {a}.&#34;
     idx += 1
     if p not in seen:
         seen.add(p)
         prompts.append(p)
-    if idx > 5000:
+    if idx &gt; 5000:
         break
 
 prompts = prompts[:500]
-print(f"Final count: {len(prompts)}")
-print(f"Situational-ish: {sum(1 for p in prompts if not p.startswith('Things you') or 'if you' not in p)}")
-print("First 3:", prompts[:3])
-print("Last 3:", prompts[-3:])
+print(f&#34;Final count: {len(prompts)}&#34;)
+print(f&#34;Situational-ish: {sum(1 for p in prompts if not p.startswith(&#39;Things you&#39;) or &#39;if you&#39; not in p)}&#34;)
+print(&#34;First 3:&#34;, prompts[:3])
+print(&#34;Last 3:&#34;, prompts[-3:])
 
-with open('data/randomizer.yaml') as f:
+with open(&#39;data/randomizer.yaml&#39;) as f:
     data = yaml.safe_load(f)
 
-data['collections'][0] = {
-    'id': 'scale-clues',
-    'title': 'Ranking prompts',
-    'mode': 'ranked-prompts',
-    'tagline': 'Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100.',
-    'play_hint': 'Give one real example ("flashlight", "take a nap", "duct tape"). Your clue should land on the scale without saying the number.',
-    'items': prompts,
+data[&#39;collections&#39;][0] = {
+    &#39;id&#39;: &#39;scale-clues&#39;,
+    &#39;title&#39;: &#39;Ranking prompts&#39;,
+    &#39;mode&#39;: &#39;ranked-prompts&#39;,
+    &#39;tagline&#39;: &#39;Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100.&#39;,
+    &#39;play_hint&#39;: &#39;Give one real example (&#34;flashlight&#34;, &#34;take a nap&#34;, &#34;duct tape&#34;). Your clue should land on the scale without saying the number.&#39;,
+    &#39;items&#39;: prompts,
 }
 
-with open('data/randomizer.yaml', 'w') as f:
-    f.write('# Game prompt collections. Names describe the prompt type — not branded deck titles.\n')
-    f.write('# All prompts are family-friendly and generic for a worldwide audience.\n')
+with open(&#39;data/randomizer.yaml&#39;, &#39;w&#39;) as f:
+    f.write(&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.\n&#39;)
+    f.write(&#39;# All prompts are family-friendly and generic for a worldwide audience.\n&#39;)
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=1000)
 
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import yaml
@@ -4457,12 +4145,6 @@ First 3: ["Things you'd want to do when you're very tired.", "Things you'd want 
 Last 3: ["Things you'd want during a neighborhood block party.", "Things you'd want if you had to feed a crowd with pantry staples.", "Things you'd want during a power outage."]
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4472,155 +4154,154 @@ Only 415 prompts generated — adding more unique situational and hypothetical p
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml
 
-with open('data/randomizer.yaml') as f:
+with open(&#39;data/randomizer.yaml&#39;) as f:
     data = yaml.safe_load(f)
-prompts = list(data['collections'][0]['items'])
+prompts = list(data[&#39;collections&#39;][0][&#39;items&#39;])
 seen = set(prompts)
 
 more = [
     # situational
-    "Things you'd want when the Wi-Fi goes down at home.",
-    "Things you'd want when your phone battery hits one percent.",
-    "Things you'd want when you forget an umbrella.",
-    "Things you'd want when you spill coffee on your shirt.",
-    "Things you'd want when you burn the toast.",
-    "Things you'd want when the smoke alarm goes off while cooking.",
-    "Things you'd want when you lock yourself out of a room.",
-    "Things you'd want when you can't find your keys.",
-    "Things you'd want when you miss the last bus.",
-    "Things you'd want when traffic adds an hour to your trip.",
-    "Things you'd want when a meeting runs twice as long.",
-    "Things you'd want when a friend cancels last minute.",
-    "Things you'd want when plans change on a holiday.",
-    "Things you'd want when you're the first one awake in the house.",
-    "Things you'd want when you're the last one awake in the house.",
-    "Things you'd want when sharing a small kitchen.",
-    "Things you'd want when sharing one bathroom with family.",
-    "Things you'd want when working from a noisy café.",
-    "Things you'd want when working from a silent library.",
-    "Things you'd want when studying with friends who chat.",
-    "Things you'd want when helping a younger sibling with homework.",
-    "Things you'd want when volunteering at a community event.",
-    "Things you'd want when donating items before a move.",
-    "Things you'd want when sorting old photos.",
-    "Things you'd want when writing a speech for someone else.",
-    "Things you'd want when wrapping gifts at midnight.",
-    "Things you'd want when decorating for a holiday.",
-    "Things you'd want when taking down holiday decorations.",
-    "Things you'd want when spring-cleaning the garage.",
-    "Things you'd want when organizing a charity bake sale.",
+    &#34;Things you&#39;d want when the Wi-Fi goes down at home.&#34;,
+    &#34;Things you&#39;d want when your phone battery hits one percent.&#34;,
+    &#34;Things you&#39;d want when you forget an umbrella.&#34;,
+    &#34;Things you&#39;d want when you spill coffee on your shirt.&#34;,
+    &#34;Things you&#39;d want when you burn the toast.&#34;,
+    &#34;Things you&#39;d want when the smoke alarm goes off while cooking.&#34;,
+    &#34;Things you&#39;d want when you lock yourself out of a room.&#34;,
+    &#34;Things you&#39;d want when you can&#39;t find your keys.&#34;,
+    &#34;Things you&#39;d want when you miss the last bus.&#34;,
+    &#34;Things you&#39;d want when traffic adds an hour to your trip.&#34;,
+    &#34;Things you&#39;d want when a meeting runs twice as long.&#34;,
+    &#34;Things you&#39;d want when a friend cancels last minute.&#34;,
+    &#34;Things you&#39;d want when plans change on a holiday.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the first one awake in the house.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the last one awake in the house.&#34;,
+    &#34;Things you&#39;d want when sharing a small kitchen.&#34;,
+    &#34;Things you&#39;d want when sharing one bathroom with family.&#34;,
+    &#34;Things you&#39;d want when working from a noisy café.&#34;,
+    &#34;Things you&#39;d want when working from a silent library.&#34;,
+    &#34;Things you&#39;d want when studying with friends who chat.&#34;,
+    &#34;Things you&#39;d want when helping a younger sibling with homework.&#34;,
+    &#34;Things you&#39;d want when volunteering at a community event.&#34;,
+    &#34;Things you&#39;d want when donating items before a move.&#34;,
+    &#34;Things you&#39;d want when sorting old photos.&#34;,
+    &#34;Things you&#39;d want when writing a speech for someone else.&#34;,
+    &#34;Things you&#39;d want when wrapping gifts at midnight.&#34;,
+    &#34;Things you&#39;d want when decorating for a holiday.&#34;,
+    &#34;Things you&#39;d want when taking down holiday decorations.&#34;,
+    &#34;Things you&#39;d want when spring-cleaning the garage.&#34;,
+    &#34;Things you&#39;d want when organizing a charity bake sale.&#34;,
     # hypothetical
-    "Things you'd want if you had to spend a night in a treehouse.",
-    "Things you'd want if you had to cross a city only on foot.",
-    "Things you'd want if you had to live without a microwave for a year.",
-    "Things you'd want if you had to live without a washing machine for a month.",
-    "Things you'd want if you had to shower only with cold water for a week.",
-    "Things you'd want if you had to eat only pantry food for ten days.",
-    "Things you'd want if you had to entertain yourself with no books or screens.",
-    "Things you'd want if you had to navigate a new city with a paper map.",
-    "Things you'd want if you had to carry all your belongings in a backpack.",
-    "Things you'd want if you had to sleep on a friend's couch for a month.",
-    "Things you'd want if you had to share one laptop among four people.",
-    "Things you'd want if you had to teach yourself guitar in two weeks.",
-    "Things you'd want if you had to run a food truck for one day.",
-    "Things you'd want if you had to open a pop-up shop for a weekend.",
-    "Things you'd want if you had to guide tourists with no training.",
-    "Things you'd want if you had to fix a bike on the roadside.",
-    "Things you'd want if you had to patch a tent in the rain.",
-    "Things you'd want if you had to keep a campfire going all night.",
-    "Things you'd want if you had to find your way back before dark.",
-    "Things you'd want if you had to cross a busy market with fragile items.",
-    "Things you'd want if you had to move a sleeping baby without waking them.",
-    "Things you'd want if you had to calm a frightened dog in a storm.",
-    "Things you'd want if you had to rescue a cat from a tall tree.",
-    "Things you'd want if you had to return a library book years overdue.",
-    "Things you'd want if you had to apologize to a whole team at once.",
-    "Things you'd want if you had to break surprising news gently.",
-    "Things you'd want if you had to keep a secret for a month.",
-    "Things you'd want if you had to plan a reunion for fifty people.",
-    "Things you'd want if you had to photograph a wedding alone.",
-    "Things you'd want if you had to DJ a party with no experience.",
-    "Things you'd want if you had to MC a school assembly.",
-    "Things you'd want if you had to lead a hike for beginners.",
-    "Things you'd want if you had to coach a kids' relay race.",
-    "Things you'd want if you had to build a float for a parade.",
-    "Things you'd want if you had to paint a mural in one weekend.",
-    "Things you'd want if you had to restore a rusty old bike.",
-    "Things you'd want if you had to replant a storm-damaged garden.",
-    "Things you'd want if you had to feed birds through a harsh winter.",
-    "Things you'd want if you had to collect rainwater for plants.",
-    "Things you'd want if you had to insulate windows for winter cheaply.",
-    "Things you'd want if you had to cool a room without AC.",
-    "Things you'd want if you had to dry clothes without a dryer.",
-    "Things you'd want if you had to charge devices without wall outlets.",
-    "Things you'd want if you had to light a home with only candles.",
-    "Things you'd want if you had to cook for twelve on one stove.",
-    "Things you'd want if you had to bake fifty cupcakes overnight.",
-    "Things you'd want if you had to slice vegetables for a huge salad.",
-    "Things you'd want if you had to keep ice cream frozen on a hot day.",
-    "Things you'd want if you had to transport a cake in a car.",
-    "Things you'd want if you had to pack fragile souvenirs in a suitcase.",
-    "Things you'd want if you had to mail a oddly shaped gift.",
-    "Things you'd want if you had to assemble a swing set before kids arrive.",
-    "Things you'd want if you had to inflate twenty balloons quickly.",
-    "Things you'd want if you had to find a lost ring in grass.",
-    "Things you'd want if you had to unstick a zipper before an event.",
-    "Things you'd want if you had to remove a stain before a photo.",
-    "Things you'd want if you had to iron a shirt with no iron.",
-    "Things you'd want if you had to shine shoes before a ceremony.",
-    "Things you'd want if you had to braid hair in five minutes.",
-    "Things you'd want if you had to tie a tie from memory.",
-    "Things you'd want if you had to fold a fitted sheet properly.",
-    "Things you'd want if you had to label boxes during a move.",
-    "Things you'd want if you had to unpack the kitchen first.",
-    "Things you'd want if you had to baby-proof a house in an afternoon.",
-    "Things you'd want if you had to pet-proof a garden.",
-    "Things you'd want if you had to childproof a rental for a visit.",
-    "Things you'd want if you had to sound-dampen a nursery.",
-    "Things you'd want if you had to build a quick ramp for wheels.",
-    "Things you'd want if you had to carry groceries up five flights.",
-    "Things you'd want if you had to haul water uphill to a campsite.",
-    "Things you'd want if you had to dig a fire pit safely.",
-    "Things you'd want if you had to identify edible plants (with a guide).",
-    "Things you'd want if you had to follow animal tracks in mud.",
-    "Things you'd want if you had to build a shelter from branches.",
-    "Things you'd want if you had to stay visible on a foggy trail.",
-    "Things you'd want if you had to cross ice near a shore carefully.",
-    "Things you'd want if you had to wade through shallow floodwater safely.",
-    "Things you'd want if you had to wait out a storm in a car.",
-    "Things you'd want if you had to change a tire in the dark.",
-    "Things you'd want if you had to jump-start a car with help.",
-    "Things you'd want if you had to parallel park a large vehicle.",
-    "Things you'd want if you had to load a roof rack in wind.",
-    "Things you'd want if you had to tow a small trailer uphill.",
-    "Things you'd want if you had to ride public transit with huge luggage.",
-    "Things you'd want if you had to sleep on an overnight train.",
-    "Things you'd want if you had to camp on rocky ground.",
-    "Things you'd want if you had to filter sand out of camp meals.",
+    &#34;Things you&#39;d want if you had to spend a night in a treehouse.&#34;,
+    &#34;Things you&#39;d want if you had to cross a city only on foot.&#34;,
+    &#34;Things you&#39;d want if you had to live without a microwave for a year.&#34;,
+    &#34;Things you&#39;d want if you had to live without a washing machine for a month.&#34;,
+    &#34;Things you&#39;d want if you had to shower only with cold water for a week.&#34;,
+    &#34;Things you&#39;d want if you had to eat only pantry food for ten days.&#34;,
+    &#34;Things you&#39;d want if you had to entertain yourself with no books or screens.&#34;,
+    &#34;Things you&#39;d want if you had to navigate a new city with a paper map.&#34;,
+    &#34;Things you&#39;d want if you had to carry all your belongings in a backpack.&#34;,
+    &#34;Things you&#39;d want if you had to sleep on a friend&#39;s couch for a month.&#34;,
+    &#34;Things you&#39;d want if you had to share one laptop among four people.&#34;,
+    &#34;Things you&#39;d want if you had to teach yourself guitar in two weeks.&#34;,
+    &#34;Things you&#39;d want if you had to run a food truck for one day.&#34;,
+    &#34;Things you&#39;d want if you had to open a pop-up shop for a weekend.&#34;,
+    &#34;Things you&#39;d want if you had to guide tourists with no training.&#34;,
+    &#34;Things you&#39;d want if you had to fix a bike on the roadside.&#34;,
+    &#34;Things you&#39;d want if you had to patch a tent in the rain.&#34;,
+    &#34;Things you&#39;d want if you had to keep a campfire going all night.&#34;,
+    &#34;Things you&#39;d want if you had to find your way back before dark.&#34;,
+    &#34;Things you&#39;d want if you had to cross a busy market with fragile items.&#34;,
+    &#34;Things you&#39;d want if you had to move a sleeping baby without waking them.&#34;,
+    &#34;Things you&#39;d want if you had to calm a frightened dog in a storm.&#34;,
+    &#34;Things you&#39;d want if you had to rescue a cat from a tall tree.&#34;,
+    &#34;Things you&#39;d want if you had to return a library book years overdue.&#34;,
+    &#34;Things you&#39;d want if you had to apologize to a whole team at once.&#34;,
+    &#34;Things you&#39;d want if you had to break surprising news gently.&#34;,
+    &#34;Things you&#39;d want if you had to keep a secret for a month.&#34;,
+    &#34;Things you&#39;d want if you had to plan a reunion for fifty people.&#34;,
+    &#34;Things you&#39;d want if you had to photograph a wedding alone.&#34;,
+    &#34;Things you&#39;d want if you had to DJ a party with no experience.&#34;,
+    &#34;Things you&#39;d want if you had to MC a school assembly.&#34;,
+    &#34;Things you&#39;d want if you had to lead a hike for beginners.&#34;,
+    &#34;Things you&#39;d want if you had to coach a kids&#39; relay race.&#34;,
+    &#34;Things you&#39;d want if you had to build a float for a parade.&#34;,
+    &#34;Things you&#39;d want if you had to paint a mural in one weekend.&#34;,
+    &#34;Things you&#39;d want if you had to restore a rusty old bike.&#34;,
+    &#34;Things you&#39;d want if you had to replant a storm-damaged garden.&#34;,
+    &#34;Things you&#39;d want if you had to feed birds through a harsh winter.&#34;,
+    &#34;Things you&#39;d want if you had to collect rainwater for plants.&#34;,
+    &#34;Things you&#39;d want if you had to insulate windows for winter cheaply.&#34;,
+    &#34;Things you&#39;d want if you had to cool a room without AC.&#34;,
+    &#34;Things you&#39;d want if you had to dry clothes without a dryer.&#34;,
+    &#34;Things you&#39;d want if you had to charge devices without wall outlets.&#34;,
+    &#34;Things you&#39;d want if you had to light a home with only candles.&#34;,
+    &#34;Things you&#39;d want if you had to cook for twelve on one stove.&#34;,
+    &#34;Things you&#39;d want if you had to bake fifty cupcakes overnight.&#34;,
+    &#34;Things you&#39;d want if you had to slice vegetables for a huge salad.&#34;,
+    &#34;Things you&#39;d want if you had to keep ice cream frozen on a hot day.&#34;,
+    &#34;Things you&#39;d want if you had to transport a cake in a car.&#34;,
+    &#34;Things you&#39;d want if you had to pack fragile souvenirs in a suitcase.&#34;,
+    &#34;Things you&#39;d want if you had to mail a oddly shaped gift.&#34;,
+    &#34;Things you&#39;d want if you had to assemble a swing set before kids arrive.&#34;,
+    &#34;Things you&#39;d want if you had to inflate twenty balloons quickly.&#34;,
+    &#34;Things you&#39;d want if you had to find a lost ring in grass.&#34;,
+    &#34;Things you&#39;d want if you had to unstick a zipper before an event.&#34;,
+    &#34;Things you&#39;d want if you had to remove a stain before a photo.&#34;,
+    &#34;Things you&#39;d want if you had to iron a shirt with no iron.&#34;,
+    &#34;Things you&#39;d want if you had to shine shoes before a ceremony.&#34;,
+    &#34;Things you&#39;d want if you had to braid hair in five minutes.&#34;,
+    &#34;Things you&#39;d want if you had to tie a tie from memory.&#34;,
+    &#34;Things you&#39;d want if you had to fold a fitted sheet properly.&#34;,
+    &#34;Things you&#39;d want if you had to label boxes during a move.&#34;,
+    &#34;Things you&#39;d want if you had to unpack the kitchen first.&#34;,
+    &#34;Things you&#39;d want if you had to baby-proof a house in an afternoon.&#34;,
+    &#34;Things you&#39;d want if you had to pet-proof a garden.&#34;,
+    &#34;Things you&#39;d want if you had to childproof a rental for a visit.&#34;,
+    &#34;Things you&#39;d want if you had to sound-dampen a nursery.&#34;,
+    &#34;Things you&#39;d want if you had to build a quick ramp for wheels.&#34;,
+    &#34;Things you&#39;d want if you had to carry groceries up five flights.&#34;,
+    &#34;Things you&#39;d want if you had to haul water uphill to a campsite.&#34;,
+    &#34;Things you&#39;d want if you had to dig a fire pit safely.&#34;,
+    &#34;Things you&#39;d want if you had to identify edible plants (with a guide).&#34;,
+    &#34;Things you&#39;d want if you had to follow animal tracks in mud.&#34;,
+    &#34;Things you&#39;d want if you had to build a shelter from branches.&#34;,
+    &#34;Things you&#39;d want if you had to stay visible on a foggy trail.&#34;,
+    &#34;Things you&#39;d want if you had to cross ice near a shore carefully.&#34;,
+    &#34;Things you&#39;d want if you had to wade through shallow floodwater safely.&#34;,
+    &#34;Things you&#39;d want if you had to wait out a storm in a car.&#34;,
+    &#34;Things you&#39;d want if you had to change a tire in the dark.&#34;,
+    &#34;Things you&#39;d want if you had to jump-start a car with help.&#34;,
+    &#34;Things you&#39;d want if you had to parallel park a large vehicle.&#34;,
+    &#34;Things you&#39;d want if you had to load a roof rack in wind.&#34;,
+    &#34;Things you&#39;d want if you had to tow a small trailer uphill.&#34;,
+    &#34;Things you&#39;d want if you had to ride public transit with huge luggage.&#34;,
+    &#34;Things you&#39;d want if you had to sleep on an overnight train.&#34;,
+    &#34;Things you&#39;d want if you had to camp on rocky ground.&#34;,
+    &#34;Things you&#39;d want if you had to filter sand out of camp meals.&#34;,
 ]
 
 for p in more:
     if p not in seen:
         seen.add(p)
         prompts.append(p)
-    if len(prompts) >= 500:
+    if len(prompts) &gt;= 500:
         break
 
-print('count', len(prompts))
-data['collections'][0]['items'] = prompts[:500]
+print(&#39;count&#39;, len(prompts))
+data[&#39;collections&#39;][0][&#39;items&#39;] = prompts[:500]
 
-with open('data/randomizer.yaml', 'w') as f:
-    f.write('# Game prompt collections. Names describe the prompt type — not branded deck titles.\n')
-    f.write('# All prompts are family-friendly and generic for a worldwide audience.\n')
+with open(&#39;data/randomizer.yaml&#39;, &#39;w&#39;) as f:
+    f.write(&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.\n&#39;)
+    f.write(&#39;# All prompts are family-friendly and generic for a worldwide audience.\n&#39;)
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=1000)
 
 PYEOF
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import yaml
@@ -4775,44 +4456,31 @@ PYEOF
 count 500
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import yaml
-with open('data/randomizer.yaml') as f:
+with open(&#39;data/randomizer.yaml&#39;) as f:
     d = yaml.safe_load(f)
-items = d['collections'][0]['items']
-hyp = sum(1 for p in items if 'if you had to' in p or 'if you were' in p or 'if you could' in p or 'if ' in p and 'if you' in p)
+items = d[&#39;collections&#39;][0][&#39;items&#39;]
+hyp = sum(1 for p in items if &#39;if you had to&#39; in p or &#39;if you were&#39; in p or &#39;if you could&#39; in p or &#39;if &#39; in p and &#39;if you&#39; in p)
 sit = len(items) - hyp
-print('total', len(items))
-print('hypothetical-ish', hyp)
-print('situational-ish', sit)
-print('collections', len(d['collections']))
-print('personal items', len(d['collections'][1]['items']))
-"</summary>
-
+print(&#39;total&#39;, len(items))
+print(&#39;hypothetical-ish&#39;, hyp)
+print(&#39;situational-ish&#39;, sit)
+print(&#39;collections&#39;, len(d[&#39;collections&#39;]))
+print(&#39;personal items&#39;, len(d[&#39;collections&#39;][1][&#39;items&#39;]))
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import yaml
@@ -4837,25 +4505,18 @@ collections 3
 personal items 500
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Roughly 71% is situational. The rest is hypothetical.</details></think>
+Roughly 71% is situational. The rest is hypothetical.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4887,34 +4548,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4944,13 +4590,6 @@ Additional data:
 }
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>
 
@@ -4995,7 +4634,8 @@ The "deserted island" prompt also works clearly. 100 means most essential.
 
 But some prompts are ambiguous. "Things that aren't worth the hype" uses a double negative. It is unclear whether high means more or less worthwhile.
 
-Other prompts are ambiguous too. "Jobs that sound harder than they look" is unclear whether high means harder or easier. Subjective scoring without shared calibration is a feature in Ito. Verbs and nouns both work as answers. Many prompts in the deck may have unclear scale directions.</details></think>
+Other prompts are ambiguous too. "Jobs that sound harder than they look" is unclear whether high means harder or easier. Subjective scoring without shared calibration is a feature in Ito. Verbs and nouns both work as answers. Many prompts in the deck may have unclear scale directions.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5004,36 +4644,22 @@ Checking the deck against Ito’s core rule: your clue should land where your se
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5064,13 +4690,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5080,7 +4699,8 @@ The user asks whether prompts suit Ito-style play, where a secret number maps to
 
 Prompts suit Ito-style play. Most use a 1-to-100 fit scale. The clue-giver picks one example matching their number. Subjective calibration is expected. A few prompts are ambiguous. One contains a grammar error.
 
-Line 31 contains a typo. Meta-ranking prompts such as "Chores you'd postpone" require extra thought. Some prompts are ambiguous. "Things you'd want IN a three-legged race" could mean racing equipment or the activity itself. Budget prompts leave unclear whether high numbers signal stronger desire or higher prices.</details></think>
+Line 31 contains a typo. Meta-ranking prompts such as "Chores you'd postpone" require extra thought. Some prompts are ambiguous. "Things you'd want IN a three-legged race" could mean racing equipment or the activity itself. Budget prompts leave unclear whether high numbers signal stronger desire or higher prices.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5135,14 +4755,13 @@ yes
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user confirmed their agreement.</details></think>
+The user confirmed their agreement.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5173,25 +4792,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -5206,141 +4812,143 @@ Drafting clearer prompt replacements with obvious scale directions.
 
 Settling on "want" style replacements. Chores become tasks you'd feel good about finishing. Jobs become roles you'd recommend to a friend who loves kids.
 
-Finalizing the four prompt replacements. Chores become tasks you'd feel proud to finish before dinner. Jobs become roles you'd pick if you love being outdoors all day. The remaining two prompts are still being drafted.</details></think>
+Finalizing the four prompt replacements. Chores become tasks you'd feel proud to finish before dinner. Jobs become roles you'd pick if you love being outdoors all day. The remaining two prompts are still being drafted.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-Status: **loading**
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "Excuses for being late|nobody believes|aren't worth|postpone|sound harder|three-legged|ten dollars"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "Excuses for being late|nobody believes|aren't worth|postpone|sound harder|three-legged|ten dollars",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+import yaml
+with open(&#39;/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml&#39;) as f:
+    d=yaml.safe_load(f)
+print(len(d[&#39;collections&#39;][0][&#39;items&#39;]))
+print(d[&#39;collections&#39;][0][&#39;play_hint&#39;])
+&#34;</summary>
+```bash
+python3 -c "
+import yaml
+with open('/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml') as f:
+    d=yaml.safe_load(f)
+print(len(d['collections'][0]['items']))
+print(d['collections'][0]['play_hint'])
+"
+```
+
+```
+500
+Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don't say your number.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Done.
+
+**`play_hint`** now states the scale: 1 = weakest fit, 100 = strongest — rank what you meant, don’t say your number.
+
+**Fixed / replaced 11 fuzzy prompts:**
+- Grammar: “an ordinary day”, “Chores you actually don't mind doing”
+- Swapped inverted or unclear scales (postpone, hype, age, trouble superpowers, $10 buys, three-legged race) for clearer “want / fit / grab first” wording
+
+Still **500 prompts**. The deck should read more clearly at the table for secret-number clues.

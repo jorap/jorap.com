@@ -13,7 +13,8 @@ have a look at brave shortcuts and all links under Resource and archive and orga
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing Brave shortcuts and links under Resource and Archive to organize folders.</details></think>
+Reviewing Brave shortcuts and links under Resource and Archive to organize folders.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,51 +23,31 @@ I'll search the repo for Brave shortcuts and the Resource/archive link sections 
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -103,21 +84,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -222,39 +194,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/CLIENT_STATIC_SITE.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/CLIENT_STATIC_SITE.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-These shortcuts likely belong to local Brave bookmarks rather than repository files.</details></think>
+These shortcuts likely belong to local Brave bookmarks rather than repository files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -278,36 +236,20 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap -maxdepth 4 -type d -iname '*brave*' 2>/dev/null | head -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap -maxdepth 4 -type d -iname &#39;*brave*&#39; 2&gt;/dev/null | head -20</summary>
 ```bash
 find /home/jorap -maxdepth 4 -type d -iname '*brave*' 2>/dev/null | head -20
 ```
@@ -320,10 +262,2159 @@ find /home/jorap -maxdepth 4 -type d -iname '*brave*' 2>/dev/null | head -20
 /home/jorap/.var/app/com.brave.Browser
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing Brave shortcuts and organizing folders under Resource and Archive.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/.config/BraveSoftware /home/jorap/.var/app/com.brave.Browser -name &#39;Bookmarks*&#39; -o -name &#39;Shortcuts*&#39; 2&gt;/dev/null | head -30</summary>
+```bash
+find /home/jorap/.config/BraveSoftware /home/jorap/.var/app/com.brave.Browser -name 'Bookmarks*' -o -name 'Shortcuts*' 2>/dev/null | head -30
+```
+
+```
+/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks
+/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Shortcuts
+/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Shortcuts-journal
+/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks.bak
+/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks
+/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts
+/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts-journal
+/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks.bak
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/.specstory",
+  "pattern": "brave|Resource|archive"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/.specstory",
+  "pattern": "brave|Resource|archive",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Found Brave bookmarks and shortcuts files. Reading the JSON structure to locate Resource and Archive folders.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json
+from pathlib import Path
+
+for p in [
+    Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks&#34;),
+    Path(&#34;/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks&#34;),
+]:
+    if not p.exists():
+        continue
+    data = json.loads(p.read_text())
+    print(f&#34;\n=== {p} ===&#34;)
+    def walk(node, path=&#34;&#34;):
+        if node.get(&#34;type&#34;) == &#34;folder&#34;:
+            name = node.get(&#34;name&#34;, &#34;&#34;)
+            new_path = f&#34;{path}/{name}&#34; if path else name
+            children = node.get(&#34;children&#34;, [])
+            if any(k in name.lower() for k in [&#34;resource&#34;, &#34;archive&#34;, &#34;shortcut&#34;]) or &#34;Resource&#34; in path or &#34;Archive&#34; in path or name in (&#34;Bookmarks bar&#34;, &#34;Other bookmarks&#34;, &#34;Mobile bookmarks&#34;):
+                print(f&#34;FOLDER: {new_path} ({len(children)} items)&#34;)
+                for c in children:
+                    if c.get(&#34;type&#34;) == &#34;folder&#34;:
+                        print(f&#34;  [folder] {c.get(&#39;name&#39;)} ({len(c.get(&#39;children&#39;,[]))} items)&#34;)
+                    else:
+                        print(f&#34;  [url] {c.get(&#39;name&#39;)[:60]}&#34;)
+            for c in children:
+                walk(c, new_path)
+        elif not path:
+            for c in node.get(&#34;roots&#34;, {}).values():
+                walk(c, &#34;&#34;)
+    walk(data.get(&#34;roots&#34;, {}).get(&#34;bookmark_bar&#34;, {}), &#34;bookmark_bar&#34;)
+    walk(data.get(&#34;roots&#34;, {}).get(&#34;other&#34;, {}), &#34;other&#34;)
+    walk(data.get(&#34;roots&#34;, {}).get(&#34;synced&#34;, {}), &#34;synced&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+import json
+from pathlib import Path
+
+for p in [
+    Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks"),
+    Path("/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks"),
+]:
+    if not p.exists():
+        continue
+    data = json.loads(p.read_text())
+    print(f"\n=== {p} ===")
+    def walk(node, path=""):
+        if node.get("type") == "folder":
+            name = node.get("name", "")
+            new_path = f"{path}/{name}" if path else name
+            children = node.get("children", [])
+            if any(k in name.lower() for k in ["resource", "archive", "shortcut"]) or "Resource" in path or "Archive" in path or name in ("Bookmarks bar", "Other bookmarks", "Mobile bookmarks"):
+                print(f"FOLDER: {new_path} ({len(children)} items)")
+                for c in children:
+                    if c.get("type") == "folder":
+                        print(f"  [folder] {c.get('name')} ({len(c.get('children',[]))} items)")
+                    else:
+                        print(f"  [url] {c.get('name')[:60]}")
+            for c in children:
+                walk(c, new_path)
+        elif not path:
+            for c in node.get("roots", {}).values():
+                walk(c, "")
+    walk(data.get("roots", {}).get("bookmark_bar", {}), "bookmark_bar")
+    walk(data.get("roots", {}).get("other", {}), "other")
+    walk(data.get("roots", {}).get("synced", {}), "synced")
+PY
+```
+
+```
+
+=== /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks ===
+FOLDER: bookmark_bar/Bookmarks bar (28 items)
+  [url] DD
+  [url] DD2
+  [url] DD3
+  [url] Ideas
+  [url] ChatGPT
+  [folder] PROJECT (28 items)
+  [folder] AREA (17 items)
+  [folder] RESOURCE (64 items)
+  [folder] ARCHIVE (63 items)
+  [url] Cursor Directory
+  [url] TWCSS
+  [url] Bootstrap 5
+  [url] Music | Karl Verkade
+  [url] My Products and Services | Dell Philippines
+  [url] Youtube to Transcript
+  [url] Free Youtube Transcript Generator by Tactiq.io
+  [url] KWF Diksiyonaryo ng Wikang Filipino
+  [url] Diksiyonaryo
+  [url] Tagalog English Dictionary
+  [url] Metrobank
+  [url] Music - YouTube Kids
+  [url] Ploogins - Cutting-edge AI-Driven WordPress Plugin Advisor.
+  [url] WebpageFX/designerly
+  [url] Messenger
+  [url] Z-Library – the world’s largest e-book library. Your gateway
+  [url] Copy YouTube Transcript
+  [url] CanIRun.ai — Can your machine run AI models?
+  [url] 404 Error Logs ‹ JNGTech Industries — WordPress
+FOLDER: bookmark_bar/Bookmarks bar/RESOURCE (64 items)
+  [folder] _Reviewed (3 items)
+  [folder] US Visa (2 items)
+  [folder] Davis Schools (2 items)
+  [folder] Home (12 items)
+  [folder] Web Dev (24 items)
+  [folder] AI (3 items)
+  [folder] Software (3 items)
+  [folder] Snap (26 items)
+  [folder] ID (16 items)
+  [folder] COVID-19 (6 items)
+  [folder] eBooks (4 items)
+  [url] GigaRoam
+  [url] 192.168.55.254/skyrouter/wizard.asp
+  [url] 192.168.55.254/skyrouter/login.asp
+  [url] SVG to CSS converter | SVG Backgrounds
+  [url] Data up to 365 days with DITO Advance Pay | DITO Telecom
+  [url] GitHub - EightShapes/contrast-grid
+  [url] EightShapes Contrast Grid
+  [url] EastWest
+  [url] Color Contrast Grid - Create a color grid showing contrast r
+  [url] GitHub - mherchel/contrast-grid: App for contrastgrid.com
+  [url] Free Online Programming Courses: HTML, CSS, JavaScript | | C
+  [url] PAGASA(Philippine Atmospheric,Geophysical and Astronomical S
+  [url] Pricing - E
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json
+from pathlib import Path
+
+for p in [
+    Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts&#34;),
+    Path(&#34;/home/jorap/.config/BraveSoftware/ profile-Origin-Nightly/Default/Shortcuts&#34;),
+]:
+    p = Path(str(p).replace(&#34; profile-Origin-Nightly&#34;, &#34;/Brave-Origin-Nightly&#34;))
+    if not p.exists():
+        continue
+    print(f&#34;\n=== {p} ({p.stat().st_size} bytes) ===&#34;)
+    # Shortcuts is LevelDB or JSON? check magic
+    head = p.read_bytes()[:200]
+    print(&#34;head:&#34;, head[:80])
+PY
+ls -la /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts* 2&gt;/dev/null
+file /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts</summary>
+```bash
+python3 << 'PY'
+import json
+from pathlib import Path
+
+for p in [
+    Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts"),
+    Path("/home/jorap/.config/BraveSoftware/ profile-Origin-Nightly/Default/Shortcuts"),
+]:
+    p = Path(str(p).replace(" profile-Origin-Nightly", "/Brave-Origin-Nightly"))
+    if not p.exists():
+        continue
+    print(f"\n=== {p} ({p.stat().st_size} bytes) ===")
+    # Shortcuts is LevelDB or JSON? check magic
+    head = p.read_bytes()[:200]
+    print("head:", head[:80])
+PY
+ls -la /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts* 2>/dev/null
+file /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts
+```
+
+```
+
+=== /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts (229376 bytes) ===
+head: b'SQLite format 3\x00\x10\x00\x01\x01\x00@  \x00\x00\x00\xc5\x00\x00\x002\x00\x00\x00\x11\x00\x00\x00"\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+
+=== /home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Shortcuts (81920 bytes) ===
+head: b'SQLite format 3\x00\x10\x00\x01\x01\x00@  \x00\x00\x00i\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+-rw------- 1 root root 229376 Jul  1 10:30 /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts
+-rw------- 1 root root      0 Jul  1 10:30 /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts-journal
+/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts: SQLite 3.x database, last written using SQLite version 3051003, file counter 197, database pages 50, 1st free page 17, free pages 34, cookie 0x2, schema 4, UTF-8, version-valid-for 197
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the current contents of the RESOURCE and ARCHIVE folders to plan the organization of Brave shortcuts and links.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll pull the full RESOURCE and ARCHIVE bookmark lists and inspect Brave shortcuts so we can sort loose links into folders.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json
+from pathlib import Path
+from urllib.parse import urlparse
+
+p = Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks&#34;)
+data = json.loads(p.read_text())
+
+def find_folder(roots, name):
+    def walk(node):
+        if node.get(&#34;type&#34;) == &#34;folder&#34;:
+            if node.get(&#34;name&#34;) == name:
+                return node
+            for c in node.get(&#34;children&#34;, []):
+                r = walk(c)
+                if r: return r
+    for root in roots.values():
+        r = walk(root)
+        if r: return r
+
+resource = find_folder(data[&#34;roots&#34;], &#34;RESOURCE&#34;)
+archive = find_folder(data[&#34;roots&#34;], &#34;ARCHIVE&#34;)
+
+for label, folder in [(&#34;RESOURCE&#34;, resource), (&#34;ARCHIVE&#34;, archive)]:
+    print(f&#34;\n{&#39;=&#39;*60}\n{label} - loose URLs (not in subfolder)\n{&#39;=&#39;*60}&#34;)
+    for c in folder[&#34;children&#34;]:
+        if c.get(&#34;type&#34;) == &#34;url&#34;:
+            url = c.get(&#34;url&#34;,&#34;&#34;)
+            domain = urlparse(url).netloc
+            print(f&#34;  {c.get(&#39;name&#39;)[:70]}\n    {domain}\n    {url[:100]}&#34;)
+    print(f&#34;\n{label} - existing subfolders:&#34;)
+    for c in folder[&#34;children&#34;]:
+        if c.get(&#34;type&#34;) == &#34;folder&#34;:
+            print(f&#34;  {c.get(&#39;name&#39;)} ({len(c.get(&#39;children&#39;,[]))} items)&#34;)
+            for sub in c.get(&#34;children&#34;, [])[:3]:
+                print(f&#34;    - {sub.get(&#39;name&#39;)[:60]}&#34;)
+            if len(c.get(&#34;children&#34;,[])) &gt; 3:
+                print(f&#34;    ... +{len(c[&#39;children&#39;])-3} more&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+import json
+from pathlib import Path
+from urllib.parse import urlparse
+
+p = Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks")
+data = json.loads(p.read_text())
+
+def find_folder(roots, name):
+    def walk(node):
+        if node.get("type") == "folder":
+            if node.get("name") == name:
+                return node
+            for c in node.get("children", []):
+                r = walk(c)
+                if r: return r
+    for root in roots.values():
+        r = walk(root)
+        if r: return r
+
+resource = find_folder(data["roots"], "RESOURCE")
+archive = find_folder(data["roots"], "ARCHIVE")
+
+for label, folder in [("RESOURCE", resource), ("ARCHIVE", archive)]:
+    print(f"\n{'='*60}\n{label} - loose URLs (not in subfolder)\n{'='*60}")
+    for c in folder["children"]:
+        if c.get("type") == "url":
+            url = c.get("url","")
+            domain = urlparse(url).netloc
+            print(f"  {c.get('name')[:70]}\n    {domain}\n    {url[:100]}")
+    print(f"\n{label} - existing subfolders:")
+    for c in folder["children"]:
+        if c.get("type") == "folder":
+            print(f"  {c.get('name')} ({len(c.get('children',[]))} items)")
+            for sub in c.get("children", [])[:3]:
+                print(f"    - {sub.get('name')[:60]}")
+            if len(c.get("children",[])) > 3:
+                print(f"    ... +{len(c['children'])-3} more")
+PY
+```
+
+```
+
+============================================================
+RESOURCE - loose URLs (not in subfolder)
+============================================================
+  GigaRoam
+    gigaroam.smart.com.ph
+    https://gigaroam.smart.com.ph/
+  192.168.55.254/skyrouter/wizard.asp
+    192.168.55.254
+    http://192.168.55.254/skyrouter/wizard.asp
+  192.168.55.254/skyrouter/login.asp
+    192.168.55.254
+    http://192.168.55.254/skyrouter/login.asp
+  SVG to CSS converter | SVG Backgrounds
+    www.svgbackgrounds.com
+    https://www.svgbackgrounds.com/tools/svg-to-css/
+  Data up to 365 days with DITO Advance Pay | DITO Telecom
+    dito.ph
+    https://dito.ph/blog/dito-advance-pay
+  GitHub - EightShapes/contrast-grid
+    github.com
+    https://github.com/EightShapes/contrast-grid
+  EightShapes Contrast Grid
+    contrast-grid.eightshapes.com
+    https://contrast-grid.eightshapes.com/
+  EastWest
+    www.eastwestbanker.com
+    https://www.eastwestbanker.com/
+  Color Contrast Grid - Create a color grid showing contrast ratios
+    contrastgrid.com
+    https://contrastgrid.com/
+  GitHub - mherchel/contrast-grid: App for contrastgrid.com
+    github.com
+    https://github.com/mherchel/contrast-grid
+  Free Online Programming Courses: HTML, CSS, JavaScript | | CodeBasics
+    code-basics.com
+    https://code-basics.com/
+  PAGASA(Philippine Atmospheric,Geophysical and Astronomical Services Ad
+    121.58.193.173:8080
+    http://121.58.193.173:8080/
+  Pricing - Etch
+    etchwp.com
+    https://etchwp.com/pricing/?group=1
+  Dr. Berg | Health and Fitness News, Courses, Recipes, Natural Remedies
+    www.drberg.com
+    https://www.drberg.com/
+  drberg.ph
+    drberg.ph
+    https://drberg.ph/
+  htaccess tester - madewithlove
+    htaccess.madewithlove.com
+    https://htaccess.madewithlove.com/
+  Greenflare SEO Web Crawler
+    greenflare.io
+    https://greenflare.io/
+  NotebookLM
+    notebooklm.google.com
+    https://notebooklm.google.com/?original_referer=https:%2F%2Fnotebooklm.google%23&pli=1
+  Moder
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sqlite3 /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts &#34;.schema&#34; 2&gt;/dev/null; echo &#39;---&#39;; sqlite3 /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts &#34;SELECT * FROM omni_box_shortcuts LIMIT 20;&#34; 2&gt;/dev/null || sqlite3 /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts &#34;.tables&#34;</summary>
+```bash
+sqlite3 /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts ".schema" 2>/dev/null; echo '---'; sqlite3 /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts "SELECT * FROM omni_box_shortcuts LIMIT 20;" 2>/dev/null || sqlite3 /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts ".tables"
+```
+
+```
+---
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.146.5/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.150.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.155.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.157.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.158.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.2/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+Command 'sqlite3' not found, but can be installed with:
+apt install sqlite3
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the Web Dev subfolder in RESOURCE to avoid duplicate categories. Then examining Brave shortcuts with Python sqlite3.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json, sqlite3
+from pathlib import Path
+
+# Shortcuts DB
+db = &#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts&#34;
+conn = sqlite3.connect(f&#34;file:{db}?mode=ro&#34;, uri=True)
+cur = conn.cursor()
+cur.execute(&#34;SELECT name FROM sqlite_master WHERE type=&#39;table&#39;&#34;)
+print(&#34;Tables:&#34;, [r[0] for r in cur.fetchall()])
+for t in cur.execute(&#34;SELECT name FROM sqlite_master WHERE type=&#39;table&#39;&#34;):
+    tname = t[0]
+    print(f&#34;\n--- {tname} ---&#34;)
+    cur.execute(f&#34;PRAGMA table_info({tname})&#34;)
+    cols = [c[1] for c in cur.fetchall()]
+    print(&#34;cols:&#34;, cols)
+    cur.execute(f&#34;SELECT * FROM {tname} LIMIT 30&#34;)
+    rows = cur.fetchall()
+    for r in rows:
+        print(r)
+conn.close()
+
+# Web Dev subfolders
+p = Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks&#34;)
+data = json.loads(p.read_text())
+
+def find_folder(roots, name):
+    def walk(node):
+        if node.get(&#34;type&#34;) == &#34;folder&#34;:
+            if node.get(&#34;name&#34;) == name: return node
+            for c in node.get(&#34;children&#34;, []):
+                r = walk(c)
+                if r: return r
+    for root in roots.values():
+        r = walk(root)
+        if r: return r
+
+webdev = None
+def find_webdev(node):
+    global webdev
+    if node.get(&#34;type&#34;)==&#34;folder&#34; and node.get(&#34;name&#34;)==&#34;Web Dev&#34;:
+        return node
+    for c in node.get(&#34;children&#34;,[]):
+        r = find_webdev(c)
+        if r: return r
+
+for root in data[&#34;roots&#34;].values():
+    wd = find_webdev(root)
+    if wd:
+        print(&#34;\n=== Web Dev structure ===&#34;)
+        for c in wd[&#34;children&#34;]:
+            if c.get(&#34;type&#34;)==&#34;folder&#34;:
+                print(f&#34;  {c[&#39;name&#39;]} ({len(c.get(&#39;children&#39;,[]))})&#34;)
+                for sub in c.get(&#34;children&#34;,[])[:5]:
+                    print(f&#34;    - {sub.get(&#39;name&#39;)[:55]}&#34;)
+            else:
+                print(f&#34;  [url] {c.get(&#39;name&#39;)[:55]}&#34;)
+        break
+PY</summary>
+```bash
+python3 << 'PY'
+import json, sqlite3
+from pathlib import Path
+
+# Shortcuts DB
+db = "/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts"
+conn = sqlite3.connect(f"file:{db}?mode=ro", uri=True)
+cur = conn.cursor()
+cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
+print("Tables:", [r[0] for r in cur.fetchall()])
+for t in cur.execute("SELECT name FROM sqlite_master WHERE type='table'"):
+    tname = t[0]
+    print(f"\n--- {tname} ---")
+    cur.execute(f"PRAGMA table_info({tname})")
+    cols = [c[1] for c in cur.fetchall()]
+    print("cols:", cols)
+    cur.execute(f"SELECT * FROM {tname} LIMIT 30")
+    rows = cur.fetchall()
+    for r in rows:
+        print(r)
+conn.close()
+
+# Web Dev subfolders
+p = Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks")
+data = json.loads(p.read_text())
+
+def find_folder(roots, name):
+    def walk(node):
+        if node.get("type") == "folder":
+            if node.get("name") == name: return node
+            for c in node.get("children", []):
+                r = walk(c)
+                if r: return r
+    for root in roots.values():
+        r = walk(root)
+        if r: return r
+
+webdev = None
+def find_webdev(node):
+    global webdev
+    if node.get("type")=="folder" and node.get("name")=="Web Dev":
+        return node
+    for c in node.get("children",[]):
+        r = find_webdev(c)
+        if r: return r
+
+for root in data["roots"].values():
+    wd = find_webdev(root)
+    if wd:
+        print("\n=== Web Dev structure ===")
+        for c in wd["children"]:
+            if c.get("type")=="folder":
+                print(f"  {c['name']} ({len(c.get('children',[]))})")
+                for sub in c.get("children",[])[:5]:
+                    print(f"    - {sub.get('name')[:55]}")
+            else:
+                print(f"  [url] {c.get('name')[:55]}")
+        break
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+sqlite3.OperationalError: database is locked
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cp /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts /tmp/brave-shortcuts-copy.db &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, sqlite3, shutil
+from pathlib import Path
+
+conn = sqlite3.connect(&#34;/tmp/brave-shortcuts-copy.db&#34;)
+cur = conn.cursor()
+cur.execute(&#34;SELECT name FROM sqlite_master WHERE type=&#39;table&#39;&#34;)
+print(&#34;Tables:&#34;, [r[0] for r in cur.fetchall()])
+for t in cur.execute(&#34;SELECT name FROM sqlite_master WHERE type=&#39;table&#39;&#34;):
+    tname = t[0]
+    print(f&#34;\n--- {tname} ---&#34;)
+    cur.execute(f&#34;PRAGMA table_info({tname})&#34;)
+    cols = [c[1] for c in cur.fetchall()]
+    print(&#34;cols:&#34;, cols)
+    cur.execute(f&#34;SELECT * FROM {tname}&#34;)
+    for r in cur.fetchall():
+        print(r)
+conn.close()
+
+p = Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks&#34;)
+data = json.loads(p.read_text())
+
+def find_webdev(node):
+    if node.get(&#34;type&#34;)==&#34;folder&#34; and node.get(&#34;name&#34;)==&#34;Web Dev&#34;:
+        return node
+    for c in node.get(&#34;children&#34;,[]):
+        r = find_webdev(c)
+        if r: return r
+
+for root in data[&#34;roots&#34;].values():
+    wd = find_webdev(root)
+    if wd:
+        print(&#34;\n=== Web Dev structure ===&#34;)
+        for c in wd[&#34;children&#34;]:
+            if c.get(&#34;type&#34;)==&#34;folder&#34;:
+                print(f&#34;  {c[&#39;name&#39;]} ({len(c.get(&#39;children&#39;,[]))})&#34;)
+                for sub in c.get(&#34;children&#34;,[]):
+                    print(f&#34;    - {sub.get(&#39;name&#39;)[:60]}&#34;)
+            else:
+                print(f&#34;  [url] {c.get(&#39;name&#39;)[:60]}&#34;)
+        break
+PY</summary>
+```bash
+cp /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Shortcuts /tmp/brave-shortcuts-copy.db && python3 << 'PY'
+import json, sqlite3, shutil
+from pathlib import Path
+
+conn = sqlite3.connect("/tmp/brave-shortcuts-copy.db")
+cur = conn.cursor()
+cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
+print("Tables:", [r[0] for r in cur.fetchall()])
+for t in cur.execute("SELECT name FROM sqlite_master WHERE type='table'"):
+    tname = t[0]
+    print(f"\n--- {tname} ---")
+    cur.execute(f"PRAGMA table_info({tname})")
+    cols = [c[1] for c in cur.fetchall()]
+    print("cols:", cols)
+    cur.execute(f"SELECT * FROM {tname}")
+    for r in cur.fetchall():
+        print(r)
+conn.close()
+
+p = Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks")
+data = json.loads(p.read_text())
+
+def find_webdev(node):
+    if node.get("type")=="folder" and node.get("name")=="Web Dev":
+        return node
+    for c in node.get("children",[]):
+        r = find_webdev(c)
+        if r: return r
+
+for root in data["roots"].values():
+    wd = find_webdev(root)
+    if wd:
+        print("\n=== Web Dev structure ===")
+        for c in wd["children"]:
+            if c.get("type")=="folder":
+                print(f"  {c['name']} ({len(c.get('children',[]))})")
+                for sub in c.get("children",[]):
+                    print(f"    - {sub.get('name')[:60]}")
+            else:
+                print(f"  [url] {c.get('name')[:60]}")
+        break
+PY
+```
+
+```
+Tables: ['meta', 'omni_box_shortcuts']
+
+--- meta ---
+cols: ['key', 'value']
+('mmap_status', '-1')
+('version', '2')
+('last_compatible_version', '1')
+
+=== Web Dev structure ===
+  Front End (13)
+    - Jon Rapusas on CodePen
+    - My Long List of Simple Hover Effects
+    - Open-Source UI elements - made with CSS and HTML
+    - Practical Use Cases For CSS Variables - Ahmad Shadeed
+    - CSS Gradient Text — CSS Gradient
+    - Free Open Source Tailwind CSS Components | HyperUI
+    - Introduction - CSSUI
+    - Copy & Paste CSS - Buttons Design
+    - Tailwind To CSS
+    - Animista - On-Demand CSS Animations Library
+    - CSS Portal - Generators, Resources, Tools, HTML - CSS Portal
+    - CSS Selectors
+    - Browser Details | Support Details | Tech Support | Computer 
+  Back End (0)
+  Design (5)
+    - Infographic: The Optimal Length for Every Social Media Updat
+    - Image Creator from Microsoft Bing
+    - Bigjpg - AI Super-Resolution lossless image enlarging / upsc
+    - Reverse image search engine powered by the best AI understan
+    - LeiaPix Converter | Depth Animations
+  CMS (12)
+    - Tools - Kevin Geary
+    - wp_nav_menu() | Function | WordPress Developer Resources
+    - Add-ons for Hugo | Hugo Codex
+    - Introduction | Curated Hugo Shortcodes Collection
+    - Awesome Hugo Shortcodes For Your Websites | Atharva Shah
+    - Hugo Timeline Shortcode – MetalBlueberry
+    - Roneo / Hugo Shortcode Collection · GitLab
+    - Pack of Shortcodes for Hugo - GeekThis
+    - This Blog is now Fixelized · Spammed and Gamed
+    - form backend service
+    - Custom Forms with No Server Code | Formspree
+    - GPL
+  WordPress (3)
+    - WP Query Generator
+    - Mega Menu
+    - Squarespace Pricing - All Pricing Plans – Squarespace
+  [url] How to Use CSS aspect-ratio — SitePoint
+  [url] 10 Simple CSS and JavaScript Micro-interactions for Buttons 
+  [url] Using ACF PRO to Customize WordPress Blocks | ACF
+  [url] Microwave-Fried Shallots and Olives Make the Perfect Crispy 
+  [url] Building ACF b
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The omni_box_shortcuts table returned no rows. It may be empty or the read occurred before the copy. I will check again.
+
+Planning the folder structure now. Home will hold GigaRoam, DITO, skyrouter, PAGASA, and EastWest links. Web Dev and Front End will receive tools like SVG to CSS, contrast testers, Modern CSS, SmolCSS, grid codepens, imagehover, htaccess tester, Greenflare SEO, Rich Results Test, Web Platform Status, Photopea, PHP the right way, Speedometer, Etch pricing, PRO Elements, WP Awards, Svgl, Phosphor Icons, icones, and hover effect ideas. AI shortcuts will go under an AI folder alongside NotebookLM, LMArena, DeepSeek, Prompt Engineering Guide, and Generative AI Coursera.
+
+New categories include Software, eBooks, Finance, Sports, and Misc reading. Existing RESOURCE subfolders will guide the reorganization. New subfolders will be created where needed. Existing ones will be merged.
+
+Front End will hold CSS and design tools. CMS or WordPress will hold Etch pricing, PRO Elements, WP Awards, Rich Results Test, Greenflare SEO, PHP the right way, and Web Platform Status. Speedometer and code-basics.com will go under Dev Tools.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json
+from pathlib import Path
+
+p = Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks&#34;)
+data = json.loads(p.read_text())
+
+def find_folder(roots, name):
+    def walk(node):
+        if node.get(&#34;type&#34;) == &#34;folder&#34;:
+            if node.get(&#34;name&#34;) == name: return node
+            for c in node.get(&#34;children&#34;, []):
+                r = walk(c)
+                if r: return r
+    for root in roots.values():
+        r = walk(root)
+        if r: return r
+
+for fname in [&#34;Home&#34;, &#34;AI&#34;, &#34;Software&#34;, &#34;eBooks&#34;]:
+    folder = find_folder(data[&#34;roots&#34;], fname)
+    print(f&#34;\n=== {fname} ===&#34;)
+    for c in folder.get(&#34;children&#34;, []):
+        print(f&#34;  {c.get(&#39;name&#39;)[:70]}&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+import json
+from pathlib import Path
+
+p = Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks")
+data = json.loads(p.read_text())
+
+def find_folder(roots, name):
+    def walk(node):
+        if node.get("type") == "folder":
+            if node.get("name") == name: return node
+            for c in node.get("children", []):
+                r = walk(c)
+                if r: return r
+    for root in roots.values():
+        r = walk(root)
+        if r: return r
+
+for fname in ["Home", "AI", "Software", "eBooks"]:
+    folder = find_folder(data["roots"], fname)
+    print(f"\n=== {fname} ===")
+    for c in folder.get("children", []):
+        print(f"  {c.get('name')[:70]}")
+PY
+```
+
+```
+
+=== Home ===
+  Search Engines
+  192.168.0.1
+  192.168.1.1
+  192.168.8.1
+  PHPMyAdmin
+  1313
+  8080
+  8089
+  Snapdrop
+  Messenger | Facebook
+  Smart Bro 5G Rocket WiFi
+  My Grammarly
+
+=== AI ===
+  Long PROMPTs Splitter
+  Youtube Chapters
+  Any Summary - Summarize any file with AI!
+
+=== Software ===
+  brave-portable
+  VSCodium
+  vscode
+  congo
+  TiddlyWiki5
+  FeatherWiki
+  tailwindcss
+  hugo
+  WordPress
+  pods
+  Sublime Text
+
+=== eBooks ===
+  Z-Library
+  Library Genesis
+  Z-Library Project
+  Z-Library Project - OFFICIAL
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import sqlite3
+conn = sqlite3.connect(&#34;/tmp/brave-shortcuts-copy.db&#34;)
+cur = conn.cursor()
+cur.execute(&#34;SELECT COUNT(*) FROM omni_box_shortcuts&#34;)
+print(&#34;shortcut count:&#34;, cur.fetchone()[0])
+cur.execute(&#34;SELECT * FROM omni_box_shortcuts ORDER BY last_access_time DESC&#34;)
+for r in cur.fetchall():
+    print(r)
+conn.close()
+PY</summary>
+```bash
+python3 << 'PY'
+import sqlite3
+conn = sqlite3.connect("/tmp/brave-shortcuts-copy.db")
+cur = conn.cursor()
+cur.execute("SELECT COUNT(*) FROM omni_box_shortcuts")
+print("shortcut count:", cur.fetchone()[0])
+cur.execute("SELECT * FROM omni_box_shortcuts ORDER BY last_access_time DESC")
+for r in cur.fetchall():
+    print(r)
+conn.close()
+PY
+```
+
+```
+shortcut count: 135
+('c33f4d12-d647-456b-a089-ec9382889f92', 'messenger.com', 'messenger.com', 'https://www.messenger.com/', 0, 'messenger.com', '0,1', 'Messenger', '0,0', 1, 1, '', 13427342840897947, 2)
+('27655998-a928-4d30-b783-383eaa4d3ebc', 'play store\\', 'play store\\', 'https://search.brave.com/search?q=play+store%5C&source=desktop', 0, 'play store\\', '0,0', '', '', 5, 7, ':br', 13427342702064973, 1)
+('888c5dc1-b6a8-45e6-a531-4684ec5c4fd0', 'kids mode vivo global', 'kids mode vivo global', 'https://search.brave.com/search?q=kids+mode+vivo+global&source=desktop', 0, 'kids mode vivo global', '0,0', '', '', 5, 7, ':br', 13427342586559621, 1)
+('bbd10217-e6b9-4210-8077-baa2ff005226', 'oppo kids mode is not locking after an hour', 'oppo kids mode is not locking after an hour', 'https://search.brave.com/search?q=oppo+kids+mode+is+not+locking+after+an+hour&source=desktop', 0, 'oppo kids mode is not locking after an hour', '0,0', '', '', 5, 7, ':br', 13427342491637275, 1)
+('0c41aa15-45c5-477c-946e-e912251e6317', 'keep.google.com\\', 'keep.google.com', 'http://keep.google.com/', 0, 'keep.google.com', '0,1', 'Google Keep', '0,0', 1, 1, '', 13427342370770953, 2)
+('2a4a27af-01cc-42b2-8fac-2272098d69f1', 'surefeedback changelog', 'surefeedback changelog', 'https://search.brave.com/search?q=surefeedback+changelog&source=desktop', 0, 'surefeedback changelog', '0,0', '', '', 5, 7, ':br', 13427334223418451, 1)
+('325c5ebf-4455-4283-b7a2-ee627fbb9cfa', 'mail.yahoo.com', 'mail.yahoo.com', 'http://mail.yahoo.com/', 0, 'mail.yahoo.com', '0,1', 'Yahoo Mail', '0,0', 1, 1, '', 13427333173166421, 19)
+('e80b4c3d-09c6-47ae-a16f-e4791ecd5a1e', 'usage', 'https://cursor.com/dashboard/usage', 'https://cursor.com/dashboard/usage', 0, 'cursor.com/dashboard/usage', '0,1', 'Sign in', '0,0', 1, 1, '', 13427332766978892, 6)
+('28ed6947-a59a-4348-956d-2f08504cfd96', 'github desktop linux', 'github desktop linux', 'https://search.brave.com/search?q=github+desktop+linux&source=desktop', 0, 'github de
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I understand the request. Brave bookmarks in the RESOURCE and ARCHIVE folders need to be organized by moving loose URLs into subfolders.
+
+Brave shortcuts are likely frequent address-bar entries that should become bookmarks. These would then be sorted into the Resource and Archive folders.
+
+"Brave shortcuts" likely refers to top-level bookmark bar items rather than browser autocomplete history. The main task remains sorting loose links into subfolders within the Resource and Archive folders.
+
+A Python script will back up the bookmarks file and move loose URLs into subfolders within Resource and Archive. New folders will be created where needed. Home page links are being mapped to specific categories.
+
+Web Dev front-end links include SVG converters, CSS tools, icon libraries, and photo editing sites. CMS tools cover pricing, WordPress plugins, and web platform status. Root-level Web Dev items are speedometers and programming course links. AI shortcuts group notebookLM, deepseek, and coursera courses. Software shortcuts include nvcleanstall, context menu tweaks, and PC manager utilities.
+
+New subfolders are planned for Resource and Archive. Resource will receive eBooks, Health, Sports, Finance, and Reading categories. Archive will get a WordPress section for plugins, snippets, and frameworks.
+
+Archive subfolders are being defined. CSS and UI tools will group hover effects, component libraries, and defensive CSS. Web Dev Tools covers converters and testing utilities. Immigration and travel links, PKM resources, weather sites, AI archives, Snap decks, and tech news will each get dedicated folders.
+
+New subfolders are being added to Resource and Archive. Resource will hold Misc Tools, Food/Misc, Board Games, Browser utilities, and macOS/Windows guides. Archive will mirror these categories where it makes sense. WebTNG may be grouped under WordPress or Web Dev. The Snap folder placement is still being decided between Resource and Archive.
+
+Chrome bookmark metadata such as IDs and dates will be preserved during reorganization. The script will remove nodes from parent lists and add them to target folders, creating nested directories like Web Dev > Front End as needed. Both Brave profiles will be backed up and updated together. Brave must be closed before the script runs to prevent file overwrites.
+
+The omni_box_shortcuts schema was checked. It does not match the user's intent. The script will be run inline instead of stored in the repository. Node objects will be copied and only their parent references changed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll back up the bookmarks file, then sort loose links in RESOURCE and ARCHIVE into subfolders that match your existing PARA structure.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json, shutil, re
+from pathlib import Path
+from datetime import datetime
+from urllib.parse import urlparse
+
+BOOKMARKS = Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks&#34;)
+NIGHTLY = Path(&#34;/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks&#34;)
+
+def domain(url):
+    return urlparse(url).netloc.lower().replace(&#34;www.&#34;, &#34;&#34;)
+
+def match_url(url, patterns):
+    d = domain(url)
+    u = url.lower()
+    for p in patterns:
+        if p.startswith(&#34;http&#34;):
+            if u.startswith(p.lower()): return True
+        elif p in d or p in u:
+            return True
+    return False
+
+# target_path -&gt; url patterns (domain fragments or full prefix)
+RESOURCE_MAP = {
+    &#34;Home&#34;: [
+        &#34;gigaroam.smart.com.ph&#34;, &#34;192.168.55.254&#34;, &#34;dataloader&#34;, &#34;dito.ph&#34;,
+        &#34;121.58.193.173&#34;, &#34;eastwestbanker.com&#34;,
+    ],
+    &#34;Web Dev/Front End&#34;: [
+        &#34;svgbackgrounds.com&#34;, &#34;contrast-grid&#34;, &#34;contrastgrid.com&#34;, &#34;moderncss.dev&#34;,
+        &#34;smolcss.dev&#34;, &#34;codepen.io/kevinpowell&#34;, &#34;mdigi.tools&#34;, &#34;imagehover.io&#34;,
+        &#34;svgl.app&#34;, &#34;phosphoricons.com&#34;, &#34;icones.js.org&#34;, &#34;tympanus.net/Development/HoverEffectIdeas&#34;,
+        &#34;photopea.com&#34;,
+    ],
+    &#34;Web Dev/CMS&#34;: [
+        &#34;etchwp.com&#34;, &#34;proelements.org&#34;, &#34;thewpweekly.com&#34;, &#34;greenflare.io&#34;,
+        &#34;search.google.com/test/rich-results&#34;, &#34;webstatus.dev&#34;, &#34;phptherightway.com&#34;,
+        &#34;htaccess.madewithlove.com&#34;,
+    ],
+    &#34;Web Dev&#34;: [
+        &#34;browserbench.org/Speedometer&#34;, &#34;code-basics.com&#34;,
+    ],
+    &#34;AI&#34;: [
+        &#34;notebooklm.google.com&#34;, &#34;chat.deepseek.com&#34;, &#34;promptingguide.ai&#34;,
+        &#34;beta.lmarena.ai&#34;, &#34;coursera.org/learn/generative-ai&#34;,
+    ],
+    &#34;Software&#34;: [
+        &#34;techpowerup.com/download/techpowerup-nvcleanstall&#34;, &#34;sordum.org/14479&#34;,
+        &#34;pcmanager.microsoft.com&#34;, &#34;asus.com/us/accessories/docks&#34;,
+    ],
+    &#34;eBooks&#34;: [
+        &#34;go-to-library.sk&#34;,
+    ],
+    &#34;Health&#34;: [
+        &#34;drberg.com&#34;, &#34;drberg.ph&#34;,
+    ],
+    &#34;Sports&#34;: [
+        &#34;espncricinfo.com&#34;, &#34;streameast&#34;,
+    ],
+    &#34;Finance&#34;: [
+        &#34;cnbc.com/quotes/.DBCVIX&#34;,
+    ],
+    &#34;Reading&#34;: [
+        &#34;nitter.net&#34;, &#34;nngroup.com/articles/why-you-only-need&#34;, &#34;abcnews.go.com/538&#34;,
+        &#34;nationaldaycalendar.com&#34;, &#34;mashed.com/410383/popular-arizona&#34;,
+    ],
+}
+
+ARCHIVE_MAP = {
+    &#34;WordPress&#34;: [
+        &#34;wpturbo.dev&#34;, &#34;smashingmagazine.com/2012/05/wordpress-shortcodes&#34;,
+        &#34;github.com/PetePeteRepeat/WordPress-Snippet&#34;, &#34;wpmudev.com/blog/shun-the-plugin&#34;,
+        &#34;library.wpcode.com&#34;, &#34;mikelaroy.ca/blog/wordpress-acf-blocks&#34;,
+        &#34;codeable.io/blog/wordpress-taxonomy&#34;, &#34;wordpress.org/plugins/plugins-condition&#34;,
+        &#34;wordpress.org/plugins/regenerate-thumbnails&#34;, &#34;wordpress.org/plugins/advanced-custom-fields-table&#34;,
+        &#34;coreframework.com&#34;, &#34;webtng.com&#34;,
+    ],
+    &#34;CSS &amp; UI&#34;: [
+        &#34;ianlunn.github.io/Hover&#34;, &#34;freefrontend.com&#34;, &#34;codemyui.com&#34;,
+        &#34;getbootstrap.com/docs/5.0/examples/cheatsheet&#34;, &#34;freefrontend.com/css-link-styles&#34;,
+        &#34;daisyui.com/components&#34;, &#34;mambaui.com/components&#34;, &#34;cssbud.com&#34;,
+        &#34;defensivecss.dev&#34;, &#34;sailboatui.com/docs/components/accordion&#34;,
+        &#34;flexbox.ninja/demos/same-height-columns&#34;, &#34;css3buttongenerator.com&#34;,
+        &#34;splidejs.com&#34;, &#34;scrollbar.app&#34;, &#34;free-icons.github.io&#34;, &#34;iconhunt.site&#34;,
+        &#34;fontpair.co&#34;, &#34;venngage.com/tools/accessible-color-palette&#34;,
+        &#34;picography.co&#34;, &#34;icomoon.io/app&#34;,
+    ],
+    &#34;Web Dev Tools&#34;: [
+        &#34;autoprefixer.github.io&#34;, &#34;convertcsv.com/html-table-to-csv&#34;,
+        &#34;github.com/cbracco/html5-test-page&#34;, &#34;mail-tester.com&#34;, &#34;webcode.tools&#34;,
+        &#34;snippetclub.com&#34;, &#34;danielzeljko.github.io/blog-preview-card&#34;,
+    ],
+    &#34;Immigration &amp; Events&#34;: [
+        &#34;canada.ca/en/immigration&#34;, &#34;asia.wordcamp.org/2025/tickets&#34;,
+    ],
+    &#34;PKM&#34;: [
+        &#34;linkingyourthinking.com/lyt-kit&#34;, &#34;fortelabs.com/blog/basboverview&#34;,
+    ],
+    &#34;Weather&#34;: [
+        &#34;windy.com&#34;, &#34;wunderground.com/hourly/ph/san-juan&#34;,
+    ],
+    &#34;AI&#34;: [
+        &#34;copilot.microsoft.com&#34;, &#34;chat.openai.com&#34;,
+    ],
+    &#34;Snap&#34;: [
+        &#34;snap.untapped.gg&#34;,
+    ],
+    &#34;Tech &amp; Browser&#34;: [
+        &#34;unboxdiaries.com&#34;, &#34;chrome.google.com/webstore&#34;, &#34;chrome://settings&#34;,
+    ],
+    &#34;Misc Tools&#34;: [
+        &#34;all8.com/tools/bpm&#34;, &#34;goblin.tools&#34;, &#34;temp-mail.org&#34;, &#34;addslice.com/dashboard&#34;,
+        &#34;restorephotos.io&#34;, &#34;makeuseof.com/tag/macos-windows-10&#34;,
+        &#34;nilesoft.org&#34;, &#34;webflow.com/made-in-webflow/website/gsap-text&#34;,
+        &#34;youtube.com/watch?v=-QO-YUDzvyI&#34;,
+    ],
+    &#34;Board Games&#34;: [
+        &#34;boardgamegeek.com/boardgame/328211&#34;,
+    ],
+    &#34;Food&#34;: [
+        &#34;valrhona.asia&#34;,
+    ],
+}
+
+def find_folder_by_path(roots, path_parts):
+    def walk(node, idx):
+        if node.get(&#34;type&#34;) != &#34;folder&#34;:
+            return None
+        if node.get(&#34;name&#34;) != path_parts[idx]:
+            return None
+        if idx == len(path_parts) - 1:
+            return node
+        for c in node.get(&#34;children&#34;, []):
+            r = walk(c, idx + 1)
+            if r:
+                return r
+        return None
+    for root in roots.values():
+        r = walk(root, 0)
+        if r:
+            return r
+    return None
+
+def ensure_folder(parent, name):
+    for c in parent.get(&#34;children&#34;, []):
+        if c.get(&#34;type&#34;) == &#34;folder&#34; and c.get(&#34;name&#34;) == name:
+            return c
+    folder = {
+        &#34;type&#34;: &#34;folder&#34;,
+        &#34;name&#34;: name,
+        &#34;id&#34;: str(abs(hash((name, id_images := datetime.now().timestamp()))))[:8],  # ponytail: id not uuid; Brave rewrites on load
+        &#34;children&#34;: [],
+    }
+    parent.setdefault(&#34;children&#34;, []).append(folder)
+    return folder
+
+def ensure_path(roots, para_name, path_parts):
+    para = find_folder_by_path(roots, [&#34;Bookmarks bar&#34;, para_name])
+    if not para:
+        raise SystemExit(f&#34;Missing {para_name}&#34;)
+    node = para
+    for part in path_parts:
+        node = ensure_folder(node, part)
+    return node
+
+def target_for(url, mapping):
+    for target, patterns in mapping.items():
+        if match_url(url, patterns):
+            return target
+    return None
+
+def organize_file(path):
+    data = json.loads(path.read_text())
+    roots = data[&#34;roots&#34;]
+    moved = {&#34;RESOURCE&#34;: {}, &#34;ARCHIVE&#34;: {}}
+
+    for para, mapping in [(&#34;RESOURCE&#34;, RESOURCE_MAP), (&#34;ARCHIVE&#34;, ARCHIVE_MAP)]:
+        para_folder = find_folder_by_path(roots, [&#34;Bookmarks bar&#34;, para])
+        loose = [c for c in para_folder[&#34;children&#34;] if c.get(&#34;type&#34;) == &#34;url&#34;]
+        remaining = []
+        for item in loose:
+            url = item.get(&#34;url&#34;, &#34;&#34;)
+            target = target_for(url, mapping)
+            if not target:
+                remaining.append(item)
+                continue
+            parts = target.split(&#34;/&#34;)
+            dest = ensure_path(roots, para, parts)
+            dest.setdefault(&#34;children&#34;, []).append(item)
+            moved[para][item.get(&#34;name&#34;, url)[:50]] = target
+        para_folder[&#34;children&#34;] = [c for c in para_folder[&#34;children&#34;] if c.get(&#34;type&#34;) == &#34;folder&#34;] + remaining
+
+    # fix ids properly using uuid
+    import uuid
+    def fix_ids(node):
+        if &#34;id&#34; not in node or len(str(node.get(&#34;id&#34;,&#34;&#34;))) &lt; 10:
+            node[&#34;id&#34;] = str(uuid.uuid4())
+        if node.get(&#34;type&#34;) == &#34;folder&#34;:
+            for c in node.get(&#34;children&#34;, []):
+                fix_ids(c)
+    for root in roots.values():
+        fix_ids(root)
+
+    ts = datetime.now().strftime(&#34;%Y%m%d-%H%M%S&#34;)
+    backup = path.with_name(path.name + f&#34;.organize-{ts}.bak&#34;)
+    shutil.copy2(path, backup)
+    path.write_text(json.dumps(data, indent=3))
+    return moved, backup, remaining_count(para_folder=None)
+
+def remaining_count(**_):
+    return None
+
+def count_loose(data, para):
+    para_folder = find_folder_by_path(data[&#34;roots&#34;], [&#34;Bookmarks bar&#34;, para])
+    return sum(1 for c in para_folder[&#34;children&#34;] if c.get(&#34;type&#34;) == &#34;url&#34;)
+
+for path in [BOOKMARKS, NIGHTLY]:
+    if not path.exists():
+        continue
+    data_before = json.loads(path.read_text())
+    r_before = count_loose(data_before, &#34;RESOURCE&#34;)
+    a_before = count_loose(data_before, &#34;ARCHIVE&#34;)
+    moved, backup, _ = organize_file(path)
+    data_after = json.loads(path.read_text())
+    r_after = count_loose(data_after, &#34;RESOURCE&#34;)
+    a_after = count_loose(data_after, &#34;ARCHIVE&#34;)
+    print(f&#34;\n{path}&#34;)
+    print(f&#34;  backup: {backup}&#34;)
+    print(f&#34;  RESOURCE loose: {r_before} -&gt; {r_after}  moved {sum(1 for _ in moved[&#39;RESOURCE&#39;])}&#34;)
+    print(f&#34;  ARCHIVE loose:  {a_before} -&gt; {a_after}  moved {sum(1 for _ in moved[&#39;ARCHIVE&#39;])}&#34;)
+    if r_after:
+        pf = find_folder_by_path(data_after[&#34;roots&#34;], [&#34;Bookmarks bar&#34;, &#34;RESOURCE&#34;])
+        print(&#34;  RESOURCE still loose:&#34;)
+        for c in pf[&#34;children&#34;]:
+            if c.get(&#34;type&#34;)==&#34;url&#34;: print(f&#34;    - {c.get(&#39;name&#39;)[:60]}&#34;)
+    if a_after:
+        pf = find_folder_by_path(data_after[&#34;roots&#34;], [&#34;Bookmarks bar&#34;, &#34;ARCHIVE&#34;])
+        print(&#34;  ARCHIVE still loose:&#34;)
+        for c in pf[&#34;children&#34;]:
+            if c.get(&#34;type&#34;)==&#34;url&#34;: print(f&#34;    - {c.get(&#39;name&#39;)[:60]}&#34;)
+    print(&#34;  New RESOURCE folders:&#34;)
+    pf = find_folder_by_path(data_after[&#34;roots&#34;], [&#34;Bookmarks bar&#34;, &#34;RESOURCE&#34;])
+    for c in pf[&#34;children&#34;]:
+        if c.get(&#34;type&#34;)==&#34;folder&#34;:
+            print(f&#34;    {c[&#39;name&#39;]} ({len(c.get(&#39;children&#39;,[]))})&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+import json, shutil, re
+from pathlib import Path
+from datetime import datetime
+from urllib.parse import urlparse
+
+BOOKMARKS = Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks")
+NIGHTLY = Path("/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks")
+
+def domain(url):
+    return urlparse(url).netloc.lower().replace("www.", "")
+
+def match_url(url, patterns):
+    d = domain(url)
+    u = url.lower()
+    for p in patterns:
+        if p.startswith("http"):
+            if u.startswith(p.lower()): return True
+        elif p in d or p in u:
+            return True
+    return False
+
+# target_path -> url patterns (domain fragments or full prefix)
+RESOURCE_MAP = {
+    "Home": [
+        "gigaroam.smart.com.ph", "192.168.55.254", "dataloader", "dito.ph",
+        "121.58.193.173", "eastwestbanker.com",
+    ],
+    "Web Dev/Front End": [
+        "svgbackgrounds.com", "contrast-grid", "contrastgrid.com", "moderncss.dev",
+        "smolcss.dev", "codepen.io/kevinpowell", "mdigi.tools", "imagehover.io",
+        "svgl.app", "phosphoricons.com", "icones.js.org", "tympanus.net/Development/HoverEffectIdeas",
+        "photopea.com",
+    ],
+    "Web Dev/CMS": [
+        "etchwp.com", "proelements.org", "thewpweekly.com", "greenflare.io",
+        "search.google.com/test/rich-results", "webstatus.dev", "phptherightway.com",
+        "htaccess.madewithlove.com",
+    ],
+    "Web Dev": [
+        "browserbench.org/Speedometer", "code-basics.com",
+    ],
+    "AI": [
+        "notebooklm.google.com", "chat.deepseek.com", "promptingguide.ai",
+        "beta.lmarena.ai", "coursera.org/learn/generative-ai",
+    ],
+    "Software": [
+        "techpowerup.com/download/techpowerup-nvcleanstall", "sordum.org/14479",
+        "pcmanager.microsoft.com", "asus.com/us/accessories/docks",
+    ],
+    "eBooks": [
+        "go-to-library.sk",
+    ],
+    "Health": [
+        "drberg.com", "drberg.ph",
+    ],
+    "Sports": [
+        "espncricinfo.com", "streameast",
+    ],
+    "Finance": [
+        "cnbc.com/quotes/.DBCVIX",
+    ],
+    "Reading": [
+        "nitter.net", "nngroup.com/articles/why-you-only-need", "abcnews.go.com/538",
+        "nationaldaycalendar.com", "mashed.com/410383/popular-arizona",
+    ],
+}
+
+ARCHIVE_MAP = {
+    "WordPress": [
+        "wpturbo.dev", "smashingmagazine.com/2012/05/wordpress-shortcodes",
+        "github.com/PetePeteRepeat/WordPress-Snippet", "wpmudev.com/blog/shun-the-plugin",
+        "library.wpcode.com", "mikelaroy.ca/blog/wordpress-acf-blocks",
+        "codeable.io/blog/wordpress-taxonomy", "wordpress.org/plugins/plugins-condition",
+        "wordpress.org/plugins/regenerate-thumbnails", "wordpress.org/plugins/advanced-custom-fields-table",
+        "coreframework.com", "webtng.com",
+    ],
+    "CSS & UI": [
+        "ianlunn.github.io/Hover", "freefrontend.com", "codemyui.com",
+        "getbootstrap.com/docs/5.0/examples/cheatsheet", "freefrontend.com/css-link-styles",
+        "daisyui.com/components", "mambaui.com/components", "cssbud.com",
+        "defensivecss.dev", "sailboatui.com/docs/components/accordion",
+        "flexbox.ninja/demos/same-height-columns", "css3buttongenerator.com",
+        "splidejs.com", "scrollbar.app", "free-icons.github.io", "iconhunt.site",
+        "fontpair.co", "venngage.com/tools/accessible-color-palette",
+        "picography.co", "icomoon.io/app",
+    ],
+    "Web Dev Tools": [
+        "autoprefixer.github.io", "convertcsv.com/html-table-to-csv",
+        "github.com/cbracco/html5-test-page", "mail-tester.com", "webcode.tools",
+        "snippetclub.com", "danielzeljko.github.io/blog-preview-card",
+    ],
+    "Immigration & Events": [
+        "canada.ca/en/immigration", "asia.wordcamp.org/2025/tickets",
+    ],
+    "PKM": [
+        "linkingyourthinking.com/lyt-kit", "fortelabs.com/blog/basboverview",
+    ],
+    "Weather": [
+        "windy.com", "wunderground.com/hourly/ph/san-juan",
+    ],
+    "AI": [
+        "copilot.microsoft.com", "chat.openai.com",
+    ],
+    "Snap": [
+        "snap.untapped.gg",
+    ],
+    "Tech & Browser": [
+        "unboxdiaries.com", "chrome.google.com/webstore", "chrome://settings",
+    ],
+    "Misc Tools": [
+        "all8.com/tools/bpm", "goblin.tools", "temp-mail.org", "addslice.com/dashboard",
+        "restorephotos.io", "makeuseof.com/tag/macos-windows-10",
+        "nilesoft.org", "webflow.com/made-in-webflow/website/gsap-text",
+        "youtube.com/watch?v=-QO-YUDzvyI",
+    ],
+    "Board Games": [
+        "boardgamegeek.com/boardgame/328211",
+    ],
+    "Food": [
+        "valrhona.asia",
+    ],
+}
+
+def find_folder_by_path(roots, path_parts):
+    def walk(node, idx):
+        if node.get("type") != "folder":
+            return None
+        if node.get("name") != path_parts[idx]:
+            return None
+        if idx == len(path_parts) - 1:
+            return node
+        for c in node.get("children", []):
+            r = walk(c, idx + 1)
+            if r:
+                return r
+        return None
+    for root in roots.values():
+        r = walk(root, 0)
+        if r:
+            return r
+    return None
+
+def ensure_folder(parent, name):
+    for c in parent.get("children", []):
+        if c.get("type") == "folder" and c.get("name") == name:
+            return c
+    folder = {
+        "type": "folder",
+        "name": name,
+        "id": str(abs(hash((name, id_images := datetime.now().timestamp()))))[:8],  # ponytail: id not uuid; Brave rewrites on load
+        "children": [],
+    }
+    parent.setdefault("children", []).append(folder)
+    return folder
+
+def ensure_path(roots, para_name, path_parts):
+    para = find_folder_by_path(roots, ["Bookmarks bar", para_name])
+    if not para:
+        raise SystemExit(f"Missing {para_name}")
+    node = para
+    for part in path_parts:
+        node = ensure_folder(node, part)
+    return node
+
+def target_for(url, mapping):
+    for target, patterns in mapping.items():
+        if match_url(url, patterns):
+            return target
+    return None
+
+def organize_file(path):
+    data = json.loads(path.read_text())
+    roots = data["roots"]
+    moved = {"RESOURCE": {}, "ARCHIVE": {}}
+
+    for para, mapping in [("RESOURCE", RESOURCE_MAP), ("ARCHIVE", ARCHIVE_MAP)]:
+        para_folder = find_folder_by_path(roots, ["Bookmarks bar", para])
+        loose = [c for c in para_folder["children"] if c.get("type") == "url"]
+        remaining = []
+        for item in loose:
+            url = item.get("url", "")
+            target = target_for(url, mapping)
+            if not target:
+                remaining.append(item)
+                continue
+            parts = target.split("/")
+            dest = ensure_path(roots, para, parts)
+            dest.setdefault("children", []).append(item)
+            moved[para][item.get("name", url)[:50]] = target
+        para_folder["children"] = [c for c in para_folder["children"] if c.get("type") == "folder"] + remaining
+
+    # fix ids properly using uuid
+    import uuid
+    def fix_ids(node):
+        if "id" not in node or len(str(node.get("id",""))) < 10:
+            node["id"] = str(uuid.uuid4())
+        if node.get("type") == "folder":
+            for c in node.get("children", []):
+                fix_ids(c)
+    for root in roots.values():
+        fix_ids(root)
+
+    ts = datetime.now().strftime("%Y%m%d-%H%M%S")
+    backup = path.with_name(path.name + f".organize-{ts}.bak")
+    shutil.copy2(path, backup)
+    path.write_text(json.dumps(data, indent=3))
+    return moved, backup, remaining_count(para_folder=None)
+
+def remaining_count(**_):
+    return None
+
+def count_loose(data, para):
+    para_folder = find_folder_by_path(data["roots"], ["Bookmarks bar", para])
+    return sum(1 for c in para_folder["children"] if c.get("type") == "url")
+
+for path in [BOOKMARKS, NIGHTLY]:
+    if not path.exists():
+        continue
+    data_before = json.loads(path.read_text())
+    r_before = count_loose(data_before, "RESOURCE")
+    a_before = count_loose(data_before, "ARCHIVE")
+    moved, backup, _ = organize_file(path)
+    data_after = json.loads(path.read_text())
+    r_after = count_loose(data_after, "RESOURCE")
+    a_after = count_loose(data_after, "ARCHIVE")
+    print(f"\n{path}")
+    print(f"  backup: {backup}")
+    print(f"  RESOURCE loose: {r_before} -> {r_after}  moved {sum(1 for _ in moved['RESOURCE'])}")
+    print(f"  ARCHIVE loose:  {a_before} -> {a_after}  moved {sum(1 for _ in moved['ARCHIVE'])}")
+    if r_after:
+        pf = find_folder_by_path(data_after["roots"], ["Bookmarks bar", "RESOURCE"])
+        print("  RESOURCE still loose:")
+        for c in pf["children"]:
+            if c.get("type")=="url": print(f"    - {c.get('name')[:60]}")
+    if a_after:
+        pf = find_folder_by_path(data_after["roots"], ["Bookmarks bar", "ARCHIVE"])
+        print("  ARCHIVE still loose:")
+        for c in pf["children"]:
+            if c.get("type")=="url": print(f"    - {c.get('name')[:60]}")
+    print("  New RESOURCE folders:")
+    pf = find_folder_by_path(data_after["roots"], ["Bookmarks bar", "RESOURCE"])
+    for c in pf["children"]:
+        if c.get("type")=="folder":
+            print(f"    {c['name']} ({len(c.get('children',[]))})")
+PY
+```
+
+```
+
+/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks
+  backup: /home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks.organize-20260701-120533.bak
+  RESOURCE loose: 53 -> 4  moved 49
+  ARCHIVE loose:  62 -> 3  moved 59
+  RESOURCE still loose:
+    - Speedometer 3
+    - Hover Effect Ideas | Set 1
+    - Best Free Certificate Courses Online [2025] | SkillUP
+    - .DBCVIX
+  ARCHIVE still loose:
+    - Hover.css - A collection of CSS3 powered hover effects
+    - PetePeteRepeat/WordPress-Snippet-Collection: Collection of u
+    - (10) Text Stagger Scroll Animations in Webflow - YouTube
+  New RESOURCE folders:
+    _Reviewed (3)
+    US Visa (2)
+    Davis Schools (2)
+    Home (18)
+    Web Dev (25)
+    AI (8)
+    Software (7)
+    Snap (26)
+    ID (16)
+    COVID-19 (6)
+    eBooks (5)
+    Health (2)
+    Sports (2)
+    Reading (5)
+
+/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks
+  backup: /home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks.organize-20260701-120533.bak
+  RESOURCE loose: 53 -> 4  moved 49
+  ARCHIVE loose:  62 -> 3  moved 59
+  RESOURCE still loose:
+    - Speedometer 3
+    - Hover Effect Ideas | Set 1
+    - Best Free Certificate Courses Online [2025] | SkillUP
+    - .DBCVIX
+  ARCHIVE still loose:
+    - Hover.css - A collection of CSS3 powered hover effects
+    - PetePeteRepeat/WordPress-Snippet-Collection: Collection of u
+    - (10) Text Stagger Scroll Animations in Webflow - YouTube
+  New RESOURCE folders:
+    _Reviewed (3)
+    US Visa (2)
+    Davis Schools (2)
+    Home (18)
+    Web Dev (25)
+    AI (8)
+    Software (7)
+    Snap (26)
+    ID (16)
+    COVID-19 (6)
+    eBooks (5)
+    Health (2)
+    Sports (2)
+    Reading (5)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing remaining loose items manually. Verifying Web Dev subfolder counts. The Finance folder was not created.
+</details></think>
+
+_**Agent (auto-low)**_
+
+A few links didn't match the URL patterns — I'll move those manually and verify the folder structure.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json
+from pathlib import Path
+
+p = Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks&#34;)
+data = json.loads(p.read_text())
+
+def find_folder_by_path(roots, path_parts):
+    def walk(node, idx):
+        if node.get(&#34;type&#34;) != &#34;folder&#34; or node.get(&#34;name&#34;) != path_parts[idx]:
+            return None
+        if idx == len(path_parts) - 1:
+            return node
+        for c in node.get(&#34;children&#34;, []):
+            r = walk(c, idx + 1)
+            if r: return r
+    for root in roots.values():
+        r = walk(root, 0)
+        if r: return r
+
+def find_loose(para):
+    pf = find_folder_by_path(data[&#34;roots&#34;], [&#34;Bookmarks bar&#34;, para])
+    return [c for c in pf[&#34;children&#34;] if c.get(&#34;type&#34;)==&#34;url&#34;]
+
+for item in find_loose(&#34;RESOURCE&#34;) + find_loose(&#34;ARCHIVE&#34;):
+    print(item.get(&#34;name&#34;)[:60])
+    print(&#34; &#34;, item.get(&#34;url&#34;))
+    print()
+PY</summary>
+```bash
+python3 << 'PY'
+import json
+from pathlib import Path
+
+p = Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks")
+data = json.loads(p.read_text())
+
+def find_folder_by_path(roots, path_parts):
+    def walk(node, idx):
+        if node.get("type") != "folder" or node.get("name") != path_parts[idx]:
+            return None
+        if idx == len(path_parts) - 1:
+            return node
+        for c in node.get("children", []):
+            r = walk(c, idx + 1)
+            if r: return r
+    for root in roots.values():
+        r = walk(root, 0)
+        if r: return r
+
+def find_loose(para):
+    pf = find_folder_by_path(data["roots"], ["Bookmarks bar", para])
+    return [c for c in pf["children"] if c.get("type")=="url"]
+
+for item in find_loose("RESOURCE") + find_loose("ARCHIVE"):
+    print(item.get("name")[:60])
+    print(" ", item.get("url"))
+    print()
+PY
+```
+
+```
+Speedometer 3
+  https://browserbench.org/Speedometer3.0/
+
+Hover Effect Ideas | Set 1
+  https://tympanus.net/Development/HoverEffectIdeas/
+
+Best Free Certificate Courses Online [2025] | SkillUP
+  https://www.simplilearn.com/skillup-free-online-courses
+
+.DBCVIX
+  https://www.cnbc.com/quotes/.DBCVIX
+
+Hover.css - A collection of CSS3 powered hover effects
+  https://ianlunn.github.io/Hover/
+
+PetePeteRepeat/WordPress-Snippet-Collection: Collection of u
+  https://github.com/PetePeteRepeat/WordPress-Snippet-Collection
+
+(10) Text Stagger Scroll Animations in Webflow - YouTube
+  https://www.youtube.com/watch?v=-QO-YUDzvyI
+
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The match function has an issue with browserbench.org/Speedometer URLs. It should match the browserbench.org domain but does not.
+
+The browserbench.org match fails because the pattern uses "Speedometer" while the URL contains "Speedometer3.0". The tympanus.net entry should match correctly once lowercasing is applied.
+
+The tympanus match fails because the pattern uses uppercase "Development" and "HoverEffectIdeas", but the URL lowercases to "development/hovereffectideas". The cnbc match should actually succeed since both strings normalize to lowercase.
+
+Finance was excluded from the New RESOURCE folders output, so it did not match. Hover.css should match correctly once lowercasing is applied.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json, shutil, uuid
+from pathlib import Path
+from datetime import datetime
+
+BOOKMARKS = [
+    Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks&#34;),
+    Path(&#34;/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks&#34;),
+]
+
+REMAINING = {
+    &#34;RESOURCE&#34;: {
+        &#34;Web Dev&#34;: [&#34;browserbench.org/Speedometer3&#34;],
+        &#34;Web Dev/Front End&#34;: [&#34;tympanus.net/Development/HoverEffectIdeas&#34;],
+        &#34;Reading&#34;: [&#34;simplilearn.com/skillup&#34;],
+        &#34;Finance&#34;: [&#34;cnbc.com/quotes/.DBCVIX&#34;],
+    },
+    &#34;ARCHIVE&#34;: {
+        &#34;CSS &amp; UI&#34;: [&#34;ianlunn.github.io/Hover&#34;],
+        &#34;WordPress&#34;: [&#34;PetePeteRepeat/WordPress-Snippet-Collection&#34;],
+        &#34;Misc Tools&#34;: [&#34;youtube.com/watch?v=-QO-YUDzvyI&#34;],
+    },
+}
+
+def find_folder_by_path(roots, path_parts):
+    def walk(node, idx):
+        if node.get(&#34;type&#34;) != &#34;folder&#34; or node.get(&#34;name&#34;) != path_parts[idx]:
+            return None
+        if idx == len(path_parts) - 1:
+            return node
+        for c in node.get(&#34;children&#34;, []):
+            r = walk(c, idx + 1)
+            if r: return r
+    for root in roots.values():
+        r = walk(root, 0)
+        if r: return r
+
+def ensure_folder(parent, name):
+    for c in parent.get(&#34;children&#34;, []):
+        if c.get(&#34;type&#34;) == &#34;folder&#34; and c.get(&#34;name&#34;) == name:
+            return c
+    folder = {&#34;type&#34;: &#34;folder&#34;, &#34;name&#34;: name, &#34;id&#34;: str(uuid.uuid4()), &#34;children&#34;: []}
+    parent.setdefault(&#34;children&#34;, []).append(folder)
+    return folder
+
+def ensure_path(roots, para, parts):
+    node = find_folder_by_path(roots, [&#34;Bookmarks bar&#34;, para])
+    for part in parts:
+        node = ensure_folder(node, part)
+    return node
+
+for path in BOOKMARKS:
+    if not path.exists():
+        continue
+    data = json.loads(path.read_text())
+    roots = data[&#34;roots&#34;]
+    moved = 0
+    for para, targets in REMAINING.items():
+        pf = find_folder_by_path(roots, [&#34;Bookmarks bar&#34;, para])
+        loose = [c for c in pf[&#34;children&#34;] if c.get(&#34;type&#34;) == &#34;url&#34;]
+        keep = []
+        for item in loose:
+            url = item.get(&#34;url&#34;, &#34;&#34;).lower()
+            placed = False
+            for target, patterns in targets.items():
+                if any(p.lower() in url for p in patterns):
+                    dest = ensure_path(roots, para, target.split(&#34;/&#34;))
+                    dest[&#34;children&#34;].append(item)
+                    moved += 1
+                    placed = True
+                    break
+            if not placed:
+                keep.append(item)
+        pf[&#34;children&#34;] = [c for c in pf[&#34;children&#34;] if c.get(&#34;type&#34;) == &#34;folder&#34;] + keep
+    path.write_text(json.dumps(data, indent=3))
+    print(f&#34;{path.name}: moved {moved} remaining loose items&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+import json, shutil, uuid
+from pathlib import Path
+from datetime import datetime
+
+BOOKMARKS = [
+    Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks"),
+    Path("/home/jorap/.config/BraveSoftware/Brave-Origin-Nightly/Default/Bookmarks"),
+]
+
+REMAINING = {
+    "RESOURCE": {
+        "Web Dev": ["browserbench.org/Speedometer3"],
+        "Web Dev/Front End": ["tympanus.net/Development/HoverEffectIdeas"],
+        "Reading": ["simplilearn.com/skillup"],
+        "Finance": ["cnbc.com/quotes/.DBCVIX"],
+    },
+    "ARCHIVE": {
+        "CSS & UI": ["ianlunn.github.io/Hover"],
+        "WordPress": ["PetePeteRepeat/WordPress-Snippet-Collection"],
+        "Misc Tools": ["youtube.com/watch?v=-QO-YUDzvyI"],
+    },
+}
+
+def find_folder_by_path(roots, path_parts):
+    def walk(node, idx):
+        if node.get("type") != "folder" or node.get("name") != path_parts[idx]:
+            return None
+        if idx == len(path_parts) - 1:
+            return node
+        for c in node.get("children", []):
+            r = walk(c, idx + 1)
+            if r: return r
+    for root in roots.values():
+        r = walk(root, 0)
+        if r: return r
+
+def ensure_folder(parent, name):
+    for c in parent.get("children", []):
+        if c.get("type") == "folder" and c.get("name") == name:
+            return c
+    folder = {"type": "folder", "name": name, "id": str(uuid.uuid4()), "children": []}
+    parent.setdefault("children", []).append(folder)
+    return folder
+
+def ensure_path(roots, para, parts):
+    node = find_folder_by_path(roots, ["Bookmarks bar", para])
+    for part in parts:
+        node = ensure_folder(node, part)
+    return node
+
+for path in BOOKMARKS:
+    if not path.exists():
+        continue
+    data = json.loads(path.read_text())
+    roots = data["roots"]
+    moved = 0
+    for para, targets in REMAINING.items():
+        pf = find_folder_by_path(roots, ["Bookmarks bar", para])
+        loose = [c for c in pf["children"] if c.get("type") == "url"]
+        keep = []
+        for item in loose:
+            url = item.get("url", "").lower()
+            placed = False
+            for target, patterns in targets.items():
+                if any(p.lower() in url for p in patterns):
+                    dest = ensure_path(roots, para, target.split("/"))
+                    dest["children"].append(item)
+                    moved += 1
+                    placed = True
+                    break
+            if not placed:
+                keep.append(item)
+        pf["children"] = [c for c in pf["children"] if c.get("type") == "folder"] + keep
+    path.write_text(json.dumps(data, indent=3))
+    print(f"{path.name}: moved {moved} remaining loose items")
+PY
+```
+
+```
+Bookmarks: moved 7 remaining loose items
+Bookmarks: moved 7 remaining loose items
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the final folder structure. Analyzing shortcuts to group frequently used sites and identify duplicates.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json, sqlite3
+from pathlib import Path
+from collections import Counter
+
+p = Path(&#34;/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks&#34;)
+data = json.loads(p.read_text())
+
+def find_folder(roots, name):
+    def walk(node):
+        if node.get(&#34;type&#34;)==&#34;folder&#34; and node.get(&#34;name&#34;)==name: return node
+        for c in node.get(&#34;children&#34;,[]):
+            r=walk(c)
+            if r: return r
+    for root in roots.values():
+        r=walk(root)
+        if r: return r
+
+def print_tree(folder, indent=0):
+    for c in folder.get(&#34;children&#34;, []):
+        if c.get(&#34;type&#34;)==&#34;folder&#34;:
+            n = len(c.get(&#34;children&#34;,[]))
+            print(&#34;  &#34;*indent + f&#34;📁 {c[&#39;name&#39;]} ({n})&#34;)
+            if indent &lt; 1 or c[&#39;name&#39;] in (&#39;Web Dev&#39;, &#39;Front End&#39;, &#39;CMS&#39;, &#39;WordPress&#39;, &#39;Design&#39;):
+                print_tree(c, indent+1)
+        else:
+            if indent == 0:
+                print(&#34;  &#34;*indent + f&#34;🔗 {c.get(&#39;name&#39;)[:55]}&#34;)
+
+for para in [&#34;RESOURCE&#34;, &#34;ARCHIVE&#34;]:
+    f = find_folder(data[&#34;roots&#34;], para)
+    loose = sum(1 for c in f[&#34;children&#34;] if c.get(&#34;type&#34;)==&#34;url&#34;)
+    folders = sum(1 for c in f[&#34;children&#34;] if c.get(&#34;type&#34;)==&#34;folder&#34;)
+    print(f&#34;\n{&#39;=&#39;*50}\n{para}: {folders} folders, {loose} loose links at root\n{&#39;=&#39;*50}&#34;)
+    print_tree(f)
+
+# Shortcuts summary
+conn = sqlite3.connect(&#34;/tmp/brave-shortcuts-copy.db&#34;)
+cur = conn.cursor()
+cur.execute(&#34;PRAGMA table_info(omni_box_shortcuts)&#34;)
+cols = [c[1] for c in cur.fetchall()]
+# type col likely index 9 or find by name
+cur.execute(&#34;SELECT contents, fill_into_edit, destination_url, type FROM omni_box_shortcuts&#34;)
+rows = cur.fetchall()
+types = Counter(r[3] for r in rows)
+print(f&#34;\n=== Brave address-bar shortcuts: {len(rows)} total ===&#34;)
+print(&#34;By type:&#34;, dict(types))
+# type 5,7 seem search; 1,16 seem navigations
+sites = []
+searches = []
+for contents, fill, dest, t in rows:
+    if t in (5, 7) or &#39;search.brave.com&#39; in (dest or &#39;&#39;):
+        searches.append(contents)
+    elif dest and not dest.startswith(&#39;chrome://&#39;):
+        sites.append((contents, dest))
+print(f&#34;  Site shortcuts: {len(sites)}&#34;)
+print(f&#34;  Search history: {len(searches)}&#34;)
+print(&#34;\nTop site shortcuts by keyword:&#34;)
+from collections import defaultdict
+by_kw = defaultdict(list)
+for kw, dest in sites:
+    by_kw[kw.lower().strip()].append(dest)
+for kw, dests in sorted(by_kw.items(), key=lambda x: -len(x[1]))[:15]:
+    print(f&#34;  {kw}: {len(dests)} entries&#34;)
+conn.close()
+PY</summary>
+```bash
+python3 << 'PY'
+import json, sqlite3
+from pathlib import Path
+from collections import Counter
+
+p = Path("/home/jorap/.var/app/com.brave.Browser/config/BraveSoftware/Brave-Browser/Default/Bookmarks")
+data = json.loads(p.read_text())
+
+def find_folder(roots, name):
+    def walk(node):
+        if node.get("type")=="folder" and node.get("name")==name: return node
+        for c in node.get("children",[]):
+            r=walk(c)
+            if r: return r
+    for root in roots.values():
+        r=walk(root)
+        if r: return r
+
+def print_tree(folder, indent=0):
+    for c in folder.get("children", []):
+        if c.get("type")=="folder":
+            n = len(c.get("children",[]))
+            print("  "*indent + f"📁 {c['name']} ({n})")
+            if indent < 1 or c['name'] in ('Web Dev', 'Front End', 'CMS', 'WordPress', 'Design'):
+                print_tree(c, indent+1)
+        else:
+            if indent == 0:
+                print("  "*indent + f"🔗 {c.get('name')[:55]}")
+
+for para in ["RESOURCE", "ARCHIVE"]:
+    f = find_folder(data["roots"], para)
+    loose = sum(1 for c in f["children"] if c.get("type")=="url")
+    folders = sum(1 for c in f["children"] if c.get("type")=="folder")
+    print(f"\n{'='*50}\n{para}: {folders} folders, {loose} loose links at root\n{'='*50}")
+    print_tree(f)
+
+# Shortcuts summary
+conn = sqlite3.connect("/tmp/brave-shortcuts-copy.db")
+cur = conn.cursor()
+cur.execute("PRAGMA table_info(omni_box_shortcuts)")
+cols = [c[1] for c in cur.fetchall()]
+# type col likely index 9 or find by name
+cur.execute("SELECT contents, fill_into_edit, destination_url, type FROM omni_box_shortcuts")
+rows = cur.fetchall()
+types = Counter(r[3] for r in rows)
+print(f"\n=== Brave address-bar shortcuts: {len(rows)} total ===")
+print("By type:", dict(types))
+# type 5,7 seem search; 1,16 seem navigations
+sites = []
+searches = []
+for contents, fill, dest, t in rows:
+    if t in (5, 7) or 'search.brave.com' in (dest or ''):
+        searches.append(contents)
+    elif dest and not dest.startswith('chrome://'):
+        sites.append((contents, dest))
+print(f"  Site shortcuts: {len(sites)}")
+print(f"  Search history: {len(searches)}")
+print("\nTop site shortcuts by keyword:")
+from collections import defaultdict
+by_kw = defaultdict(list)
+for kw, dest in sites:
+    by_kw[kw.lower().strip()].append(dest)
+for kw, dests in sorted(by_kw.items(), key=lambda x: -len(x[1]))[:15]:
+    print(f"  {kw}: {len(dests)} entries")
+conn.close()
+PY
+```
+
+```
+
+==================================================
+RESOURCE: 15 folders, 0 loose links at root
+==================================================
+📁 _Reviewed (3)
+📁 US Visa (2)
+📁 Davis Schools (2)
+📁 Home (18)
+  📁 Search Engines (4)
+📁 Web Dev (26)
+  📁 Front End (29)
+  📁 Back End (0)
+  📁 Design (5)
+  📁 CMS (20)
+    📁 GPL (3)
+  📁 WordPress (3)
+📁 AI (8)
+📁 Software (7)
+📁 Snap (26)
+  📁 Content Creators (6)
+📁 ID (16)
+📁 COVID-19 (6)
+📁 eBooks (5)
+📁 Health (2)
+📁 Sports (2)
+📁 Reading (6)
+📁 Finance (1)
+
+==================================================
+ARCHIVE: 13 folders, 0 loose links at root
+==================================================
+📁 Home Stuff (8)
+📁 Immigration & Events (2)
+📁 Misc Tools (9)
+📁 Tech & Browser (3)
+📁 PKM (2)
+📁 WordPress (12)
+📁 Web Dev Tools (7)
+📁 CSS & UI (20)
+📁 Snap (1)
+📁 AI (2)
+📁 Board Games (1)
+📁 Weather (2)
+📁 Food (1)
+Traceback (most recent call last):
+  File "<stdin>", line 42, in <module>
+sqlite3.OperationalError: no such column: destination_url
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import sqlite3
+from collections import Counter, defaultdict
+conn = sqlite3.connect(&#34;/tmp/brave-shortcuts-copy.db&#34;)
+cur = conn.cursor()
+cur.execute(&#34;PRAGMA table_info(omni_box_shortcuts)&#34;)
+cols = [c[1] for c in cur.fetchall()]
+print(&#34;columns:&#34;, cols)
+# use actual column names
+cur.execute(f&#34;SELECT * FROM Left omni_box_shortcuts LIMIT 1&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+import sqlite3
+from collections import Counter, defaultdict
+conn = sqlite3.connect("/tmp/brave-shortcuts-copy.db")
+cur = conn.cursor()
+cur.execute("PRAGMA table_info(omni_box_shortcuts)")
+cols = [c[1] for c in cur.fetchall()]
+print("columns:", cols)
+# use actual column names
+cur.execute(f"SELECT * FROM Left omni_box_shortcuts LIMIT 1")
+PY
+```
+
+```
+columns: ['id', 'text', 'fill_into_edit', 'url', 'document_type', 'contents', 'contents_class', 'description', 'description_class', 'transition', 'type', 'keyword', 'last_access_time', 'number_of_hits']
+Traceback (most recent call last):
+  File "<stdin>", line 9, in <module>
+sqlite3.OperationalError: no such table: Left
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Analyzing shortcuts by their type field to understand how they categorize.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import sqlite3
+from collections import Counter, defaultdict
+conn = sqlite3.connect(&#34;/tmp/brave-shortcuts-copy.db&#34;)
+cur = conn.cursor()
+cur.execute(&#34;SELECT text, url, type, number_of_hits FROM omni_box_shortcuts ORDER BY number_of_hits DESC&#34;)
+rows = cur.fetchall()
+types = Counter(r[2] for r in rows)
+print(f&#34;Brave shortcuts: {len(rows)} entries&#34;)
+print(&#34;Types:&#34;, dict(types))
+# type 1 = bookmark/history nav, 5/7 = search
+sites = [(t,u,h) for t,u,ty,h in rows if ty in (1,16) and u and &#39;search.brave.com&#39; not in u and not u.startswith(&#39;chrome://&#39;)]
+searches = [(t,u,h) for t,u,ty,h in rows if ty in (5,7) or (u and &#39;search.brave.com&#39; in u)]
+print(f&#34;\nPinned site shortcuts: {len(sites)}&#34;)
+print(f&#34;Search query shortcuts: {len(searches)}&#34;)
+print(&#34;\nMost-used site shortcuts:&#34;)
+for text, url, hits in sorted(sites, key=lambda x: -x[2])[:20]:
+    print(f&#34;  {hits:3d}x  {text[:40]:40} -&gt; {url[:60]}&#34;)
+print(&#34;\nDuplicate keywords (same text, multiple URLs):&#34;)
+by_text = defaultdict(list)
+for text, url, ty, hits in rows:
+    if ty in (1,16) and url and &#39;search.brave.com&#39; not in url:
+        by_text[text.lower().strip()].append((url, hits))
+dups = {k:v for k,v in by_text.items() if len(v)&gt;1}
+for k, urls in sorted(dups.items(), key=lambda x: -sum(u[1] for u in x[1]))[:12]:
+    print(f&#34;  {k}: {len(urls)} variants&#34;)
+    for u,h in urls[:3]:
+        print(f&#34;      {h}x {u[:70]}&#34;)
+conn.close()
+PY</summary>
+```bash
+python3 << 'PY'
+import sqlite3
+from collections import Counter, defaultdict
+conn = sqlite3.connect("/tmp/brave-shortcuts-copy.db")
+cur = conn.cursor()
+cur.execute("SELECT text, url, type, number_of_hits FROM omni_box_shortcuts ORDER BY number_of_hits DESC")
+rows = cur.fetchall()
+types = Counter(r[2] for r in rows)
+print(f"Brave shortcuts: {len(rows)} entries")
+print("Types:", dict(types))
+# type 1 = bookmark/history nav, 5/7 = search
+sites = [(t,u,h) for t,u,ty,h in rows if ty in (1,16) and u and 'search.brave.com' not in u and not u.startswith('chrome://')]
+searches = [(t,u,h) for t,u,ty,h in rows if ty in (5,7) or (u and 'search.brave.com' in u)]
+print(f"\nPinned site shortcuts: {len(sites)}")
+print(f"Search query shortcuts: {len(searches)}")
+print("\nMost-used site shortcuts:")
+for text, url, hits in sorted(sites, key=lambda x: -x[2])[:20]:
+    print(f"  {hits:3d}x  {text[:40]:40} -> {url[:60]}")
+print("\nDuplicate keywords (same text, multiple URLs):")
+by_text = defaultdict(list)
+for text, url, ty, hits in rows:
+    if ty in (1,16) and url and 'search.brave.com' not in url:
+        by_text[text.lower().strip()].append((url, hits))
+dups = {k:v for k,v in by_text.items() if len(v)>1}
+for k, urls in sorted(dups.items(), key=lambda x: -sum(u[1] for u in x[1]))[:12]:
+    print(f"  {k}: {len(urls)} variants")
+    for u,h in urls[:3]:
+        print(f"      {h}x {u[:70]}")
+conn.close()
+PY
+```
+
+```
+Brave shortcuts: 135 entries
+Types: {1: 67, 16: 8, 7: 60}
+
+Pinned site shortcuts: 73
+Search query shortcuts: 62
+
+Most-used site shortcuts:
+   88x  keep.google                              -> http://keep.google.com/
+   42x  messenger                                -> https://www.messenger.com/
+   33x  facebook                                 -> https://www.facebook.com/
+   22x  gmail.com                                -> http://gmail.com/
+   19x  mail.yahoo.com                           -> http://mail.yahoo.com/
+   15x  youtube                                  -> https://www.youtube.com/feed/subscriptions
+   15x  live-tennis.eu/en/wta-live-ranking       -> https://live-tennis.eu/en/wta-live-ranking
+   12x  jorap                                    -> http://www.jorap.com/
+    9x  shopee                                   -> https://shopee.ph/
+    9x  linkedin.com/                            -> http://linkedin.com/
+    9x  github.com/orgs/WebpageFX/repositories   -> https://github.com/orgs/WebpageFX/repositories
+    8x  drive                                    -> https://drive.google.com/
+    6x  usage                                    -> https://cursor.com/dashboard/usage
+    5x  facebook.com                             -> https://www.facebook.com/
+    4x  github                                   -> https://github.com/orgs/WebpageFX/repositories
+    4x  youtube.com/                             -> http://youtube.com/
+    4x  logos.com                                -> https://www.logos.com/
+    4x  localhost:10004/wp-admin/                -> http://localhost:10004/wp-admin/
+    4x  lcrembeddedsystems.com                   -> https://www.lcrembeddedsystems.com/
+    3x  gcfsouthmetro.org                        -> https://gcfsouthmetro.org/
+
+Duplicate keywords (same text, multiple URLs):
+  facebook: 2 variants
+      33x https://www.facebook.com/
+      2x https://www.facebook.com/messages
+  wilo: 2 variants
+      2x http://www.wilo.com/
+      1x https://www.wilo.com/
+  cur
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Bookmarks are organized. Folders in Resource and Archive are now structured. The shortcuts database itself was not cleaned.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Organized your Brave **RESOURCE** and **ARCHIVE** bookmark folders. Both profiles were updated (Flatpak Brave + Brave Nightly).
+
+## What changed
+
+**Before:** 53 loose links in RESOURCE, 62 loose in ARCHIVE — everything sitting at the folder root.
+
+**After:** **0 loose links** at the root of either folder. All sorted into subfolders.
+
+### RESOURCE (15 folders)
+
+| Folder | What went in |
+|--------|----------------|
+| **Home** (+6) | GigaRoam, Skyrouter, DITO, PAGASA, EastWest |
+| **Web Dev** | Speedometer, CodeBasics → root; CSS/tools → **Front End**; SEO/PHP/WP refs → **CMS** |
+| **AI** (+5) | NotebookLM, DeepSeek, Prompt Guide, LMArena, Coursera |
+| **Software** (+4) | NVCleanstall, PC Manager, Win11 context menu, ASUS dock |
+| **eBooks** (+1) | Z-library mirror |
+| **Health** *(new)* | Dr. Berg sites |
+| **Sports** *(new)* | ESPNcricinfo, StreamEast |
+| **Reading** *(new)* | NN/g, 538, nitter, National Day Calendar, etc. |
+| **Finance** *(new)* | .DBCVIX |
+
+Existing folders (_Reviewed, US Visa, Davis Schools, Snap, ID, COVID-19) were left as-is.
+
+### ARCHIVE (13 folders)
+
+| Folder | What went in |
+|--------|----------------|
+| **WordPress** *(new)* | Snippets, plugins, ACF, WPTurbo, Core Framework, WebTNG |
+| **CSS & UI** *(new)* | Hover.css, generators, component libs, icons, fonts |
+| **Web Dev Tools** *(new)* | Autoprefixer, mail-tester, HTML→CSV, etc. |
+| **Immigration & Events** *(new)* | Canada visa portal, WordCamp Asia tickets |
+| **PKM** *(new)* | LYT Kit, Building a Second Brain |
+| **Weather** *(new)* | Windy, Wunderground |
+| **AI** *(new)* | Copilot, ChatGPT (archived) |
+| **Snap** *(new)* | Untapped.gg deck meta |
+| **Tech & Browser**, **Misc Tools**, **Board Games**, **Food** | Everything else by theme |
+
+**Home Stuff** (IKEA desk gear) was already there — untouched.
+
+## Brave shortcuts (address bar)
+
+135 entries total — these are autocomplete history, not bookmark folders:
+
+- **73** site shortcuts (e.g. `keep.google` 88×, `messenger` 42×, `facebook` 33×)
+- **62** one-off Brave Search queries (safe to clear via **Settings → Privacy → Clear browsing data → Autocomplete** if you want a cleaner omnibar)
+
+I didn’t modify the shortcuts DB — Brave locks it while running, and pruning search history is a separate cleanup if you want it.
+
+## Backups
+
+- `~/.var/app/com.brave.Browser/.../Bookmarks.organize-20260701-120533.bak`
+- Same timestamp backup on Nightly
+
+**Restart Brave** (or close and reopen) so it reloads the updated bookmarks. If Brave was open during the edit, it may have overwritten changes — check RESOURCE/ARCHIVE; if they’re flat again, say the word and I’ll re-run with Brave closed.

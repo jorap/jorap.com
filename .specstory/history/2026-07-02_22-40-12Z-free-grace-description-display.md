@@ -21,7 +21,8 @@ under title, it must display the description
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user shared HTML from a notes backlinks UI component. They want the description displayed under the title.</details></think>
+The user shared HTML from a notes backlinks UI component. They want the description displayed under the title.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -30,10 +31,8 @@ I'll find where the backlinks group markup and styles are defined so the descrip
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -75,21 +74,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -123,103 +113,65 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The HTML already places the description beneath the title within a flex column layout.</details></think>
+The HTML already places the description beneath the title within a flex column layout.
+</details></think>
 
 _**Agent (auto-low)**_
-
-File not found
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
-
+File not found
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **** (1 file)
+Directory: **``** (1 file)
 
 | File |
 |------|
 | `layouts/_partials/notes/note-blurb.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -292,13 +244,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -308,57 +253,40 @@ Card blocks use `DescriptionOnly true` to show the frontmatter description.
 
 The backlinks template likely omits `DescriptionOnly`, causing the description to render inline beside the title rather than underneath it.
 
-The heading CSS stacks children vertically, yet the summary wrapper uses `align-items: center`, which may still place the description on the same line. I will inspect `note-blurb.html` to confirm whether `DescriptionOnly` mode is needed.</details></think>
+The heading CSS stacks children vertically, yet the summary wrapper uses `align-items: center`, which may still place the description on the same line. I will inspect `note-blurb.html` to confirm whether `DescriptionOnly` mode is needed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **** (2 files)
+Directory: **``** (2 files)
 
 | File |
 |------|
 | `./content/english/notes/free-grace.md` |
 | `./.specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -399,13 +327,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -413,27 +334,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The description is already present in the HTML the user provided.
 
-The description may not be stacking vertically under the title on screen. A Tailwind override could be forcing the heading items to remain inline.</details></think>
+The description may not be stacking vertically under the title on screen. A Tailwind override could be forcing the heading items to remain inline.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -463,21 +377,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -508,25 +413,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
 
 </details></tool-use>
 
@@ -535,4 +427,895 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The design history contradicts itself. It says descriptions belong in the body to avoid clutter, yet later states group headers will show descriptions.
 
-The description currently renders inside the summary element. The user wants it directly beneath the title. A flex layout issue may be preventing proper vertical stacking.</details></think>
+The description currently renders inside the summary element. The user wants it directly beneath the title. A flex layout issue may be preventing proper vertical stacking.
+
+The heading likely lacks column flex styling in production. Inline spans default to horizontal alignment, so the title and description remain on one line. A CSS specificity conflict or undeployed rule could be blocking the vertical stack.
+
+Tailwind utilities may override the heading span's display property. The summary's center alignment could also squash the heading. The description might be rendering inline next to the title because the heading CSS was never saved or contains a bug.
+
+I will run Hugo to inspect the live output. The description may be flowing inline because the heading flex column styles are missing or failing to load. I am checking whether the title and description classes need explicit `display: block` declarations. I will also search for conflicting mobile responsive rules.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-backlinks"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-backlinks",
+  "topFiles": [
+    {
+      "matchCount": 44,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 44
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -5 &amp;&amp; rg -o &#39;notes-backlinks-group__heading[^}]+}&#39; public/css/*.css 2&gt;/dev/null | head -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -5 && rg -o 'notes-backlinks-group__heading[^}]+}' public/css/*.css 2>/dev/null | head -3
+```
+
+```
+ Processed images │  331 
+ Aliases          │  715 
+ Cleaned          │    0 
+
+Total in 12751 ms
+public/css/style.min.4ced652a02be28dddb10f310d3a0e5aaa84638abd1ba916e1f73bf146f9f8429.css:notes-backlinks-group__heading{flex:1;min-width:0;display:flex;flex-direction:column;gap:.15rem}
+public/css/style.min.4f679f1c3ab6d8ab09877164949ba05d77ce6f96e11ee6d17713647eb0af2d6e.css:notes-backlinks-group__heading{flex:1;min-width:0;display:flex;flex-direction:column;gap:.15rem}
+public/css/style.min.d50ed2f30c95466ad84791979e83aa43ee6c29148e1ebf2f122ab4187977f71f.css:notes-backlinks-group__heading{flex:1;min-width:0;display:flex;flex-direction:column;gap:.15rem}
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -A2 &#39;notes-backlinks-group__title.*Free Grace&#39; public/notes/backlinks/index.html 2&gt;/dev/null | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg -A2 'notes-backlinks-group__title.*Free Grace' public/notes/backlinks/index.html 2>/dev/null | head -20
+```
+
+```
+                      <span class="notes-backlinks-group__title">Free Grace</span><span class="notes-backlinks-group__desc">Eternal life is Christ&#39;s gift received by faith alone, not wages for commandments, principles, or good works.</span></span>
+                    <span class="notes-backlinks-group__meta">
+                      <span
+--
+                      <span class="notes-backlinks-group__title">Sanctification</span><span class="notes-backlinks-group__desc">Free Grace settles where I spend forever.</span></span>
+                    <span class="notes-backlinks-group__meta">
+                      <span
+--
+                      <span class="notes-backlinks-group__title">Discipleship</span><span class="notes-backlinks-group__desc">Under Free Grace, discipleship is Grateful Obedience - grateful response, not payment.</span></span>
+                    <span class="notes-backlinks-group__meta">
+                      <span
+--
+                      <span class="notes-backlinks-group__title">Eternal Rewards</span><span class="notes-backlinks-group__desc">Free Grace settles where I spend forever: faith in Christ alone. (Matthew 6:4, 6:18; 16:27; 25:21).</span></span>
+                    <span class="notes-backlinks-group__meta">
+                      <span
+--
+                      <span class="notes-backlinks-group__title">Standing vs Fellowship</span><span class="notes-backlinks-group__desc">Free Grace secured eternal life once.</span></span>
+                    <span class="notes-backlinks-group__meta">
+                      <span
+--
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The title and description are adjacent spans with no whitespace in the minified HTML. A flex-column layout should still stack them vertically.
+
+The description may be rendering inline with the title instead of below it. This could be caused by a broken flex column, insufficient width, or a CSS override.
+
+The description may wrap unexpectedly due to `align-items: center` or a line-clamp rule on narrow screens. The user likely wants the description to appear below the title visually, so this is a CSS fix. Inside a flex column, child elements become flex items regardless of their default inline or block display.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "under title|group__desc|backlinks-group__heading"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "under title|group__desc|backlinks-group__heading",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-02_22-40-12Z-free-grace-description-display.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/docs/DESIGN.md",
+  "pattern": "backlinks"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/docs/DESIGN.md",
+  "pattern": "backlinks",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-02_22-40-12Z-free-grace-description-display.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+This appears to be a continuation of the same issue.
+
+The CSS should stack the title and description vertically within the heading. A global `span` display rule may be overriding the flex layout.
+
+The heading container may be treated as inline content. The custom.css file might not be included on the backlinks page.
+
+The description text is correct. The problem is purely visual. Column flex should stack the title and description vertically. The real cause is becoming clear.
+
+The heading container may be rendering as a row rather than a column. That would place the title and description on one line. A CSS load order issue might also be preventing the flex display from applying.
+
+No Tailwind classes are present on the heading span. The source HTML shows the title and description as adjacent inline spans without line breaks. I will add explicit `display: block` to both elements and switch the summary alignment to `flex-start`. I will also enable `DescriptionOnly` for consistency with the cards.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/custom.css",
+  "pattern": "summary|details"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "summary|details",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": "./assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Free Grace description is present in the HTML.
+
+The description appears directly beneath the title in the markup. The visual problem likely stems from CSS layout, such as missing flex or display: contents rules.
+
+The description might be invisible due to a zero-height parent or overflow clipping. The summary row's vertical alignment could also be pushing the badge out of view.
+
+Flex layout on the heading may not be working properly inside the summary element. Using block-level elements instead of spans could force the title and description to stack vertically.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Considering how the user sees the title and description.
+
+The title and description are inline spans inside the heading, so they likely appear on one line. The flex layout may not be applying due to missing CSS or a browser quirk. A more robust fix would use a grid or block layout for the heading, or change the summary alignment.
+
+Using `DescriptionOnly true` should pull the correct description source. The description field could also serve as a fallback when the key_concept blurb is empty. For backlinks group headers, the frontmatter description is more appropriate than a scraped key_concept line. Another possibility is that production lacks the latest CSS, causing the title and description to collapse inline.
+
+A concrete plan is taking shape. The template will use `DescriptionOnly true` and fall back to the raw page description. The heading will switch to a block layout with explicit classes. CSS will set `align-items: flex-start`, `display: block`, `width: 100%`, and allow two lines instead of clamping to one.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{css,scss,html}",
+  "pattern": "notes-backlinks-group"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "notes-backlinks-group",
+  "topFiles": [
+    {
+      "matchCount": 20,
+      "uri": "./assets/css/custom.css"
+    },
+    {
+      "matchCount": 10,
+      "uri": "./layouts/notes/backlinks.html"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 30
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a quick test to verify the description renders correctly under the title.
+
+Suspecting the CSS may be missing from the live build. Checking how custom.css gets bundled and whether Tailwind v4 overrides the flex layout.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg &#39;stylesheet.*style\.min&#39; public/notes/backlinks/index.html | head -1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg 'stylesheet.*style\.min' public/notes/backlinks/index.html | head -1
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg &#39;link rel.*css&#39; public/notes/backlinks/index.html | head -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg 'link rel.*css' public/notes/backlinks/index.html | head -3
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls /home/jorap/Documents/GitHub/jorap.com/public/notes/ 2&gt;/dev/null | head -5</summary>
+```bash
+ls /home/jorap/Documents/GitHub/jorap.com/public/notes/ 2>/dev/null | head -5
+```
+
+```
+12 Week Year
+1 corinthians 3 fire
+80
+80-20 Rule
+abide-in-me
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/public -name &#39;index.html&#39; -path &#39;*backlink*&#39; 2&gt;/dev/null | head -3</summary>
+```bash
+find /home/jorap/Documents/GitHub/jorap.com/public -name 'index.html' -path '*backlink*' 2>/dev/null | head -3
+```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "style\\.min"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "style\\.min",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "rel=\\\"stylesheet\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "rel=\\\"stylesheet\\\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "notes-backlinks-group__heading"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "notes-backlinks-group__heading",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "Free Grace"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "Free Grace",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The public folder may have been rebuilt differently, or the page content changed.
+
+The fix uses `DescriptionOnly true` to show the frontmatter description. The HTML changes the heading to a div and the description to a block element. CSS adds `align-items: flex-start` and explicit `display: block` to prevent vertical centering issues.
+
+The description markup is already present; the problem is purely visual layout. The heading is a span nested inside a `<summary>` element, which may trigger browser-specific rendering quirks. A two-line clamp is being considered for longer descriptions.
+
+The description element will use `display: block` and `width: 100%`. Notes lacking a description will fall back to the blurb partial.
+
+The heading wrapper will switch from a span to a div. A newline will be added in the template between the title and description for source readability. The CSS fix targets inline spans flowing together when flex fails to apply on the parent.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The description is in the markup but likely flows inline with the title. I'll fix the layout so it stacks under the title and use the frontmatter description like the note cards do.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -3 &amp;&amp; rg -o &#39;.{0,80}Free Grace.{0,120}&#39; public/notes/backlinks/index.html | head -1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -3 && rg -o '.{0,80}Free Grace.{0,120}' public/notes/backlinks/index.html | head -1
+```
+
+```
+ Cleaned          │    0 
+
+Total in 19430 ms
+                    <span class="notes-backlinks-stat__label">Top: Free Grace</span></div>
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 1,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "notes-backlinks-group__title.*Free Grace"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "notes-backlinks-group__title.*Free Grace",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "notes-backlinks-group__heading"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "notes-backlinks-group__heading",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "public/notes/backlinks/index.html"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 227
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "Free Grace"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "Free Grace",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "public/notes/backlinks/index.html"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 80
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The markup includes a heading, title, and description.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.css",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "notes-backlinks-group__desc\\{display:block"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "notes-backlinks-group__desc\\{display:block",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "public/css/*.css",
+  "pattern": "notes-backlinks-group__desc"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "notes-backlinks-group__desc",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No CSS appears in the public directory. It may be served via CDN or loaded from a different path.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "\\.css"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "\\.css",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "notes-backlinks-group__desc"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html",
+  "pattern": "notes-backlinks-group__desc",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/notes/backlinks/index.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Fixed. The description was in the DOM but sat inline with the title instead of stacking below it.
+
+**Template** (`layouts/notes/backlinks.html`):
+- Switched the heading wrapper from `<span>` to `<div>` so block layout works reliably inside `<summary>`
+- Uses `DescriptionOnly` so group headers show the frontmatter `description` (same as note cards), not a scraped `key_concept` line
+
+**CSS** (`assets/css/custom.css`):
+- Title and description are `display: block` so the description always sits on its own line under the title
+- Summary row uses `align-items: flex-start` so multi-line headings align cleanly with the rank and badge
+- Removed the single-line clamp so the full description is visible
+
+For Free Grace you should now see:
+
+**Free Grace**  
+*Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works.*
+
+Rebuild or refresh the backlinks page to pick up the changes.

@@ -13,7 +13,8 @@ update @CHANGELOG.md
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the current CHANGELOG and recent git changes to identify what needs updating.</details></think>
+Reviewing the current CHANGELOG and recent git changes to identify what needs updating.
+</details></think>
 
 _**Agent (default)**_
 
@@ -22,31 +23,18 @@ I'll read the changelog and recent changes to see what belongs in the update.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff -- assets/css/custom.css assets/js/notes-random-core.js assets/js/notes-random-duo.js i18n/en.yaml layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff -- assets/css/custom.css assets/js/notes-random-core.js assets/js/notes-random-duo.js i18n/en.yaml layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff -- assets/css/custom.css assets/js/notes-random-core.js assets/js/notes-random-duo.js i18n/en.yaml layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -56,9 +44,8 @@ Checking git status and reading the modified files to capture what changed.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git status && git diff HEAD -- assets/css/custom.css assets/js/notes-random-core.js assets/js/notes-random-duo.js i18n/en.yaml layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html 2>/dev/null | head -500</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git status &amp;&amp; git diff HEAD -- assets/css/custom.css assets/js/notes-random-core.js assets/js/notes-random-duo.js i18n/en.yaml layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html 2&gt;/dev/null | head -500</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git status && git diff HEAD -- assets/css/custom.css assets/js/notes-random-core.js assets/js/notes-random-duo.js i18n/en.yaml layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html 2>/dev/null | head -500
 ```
@@ -70,37 +57,19 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/updateChangelog.mjs</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/updateChangelog.mjs</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md</summary>
 
 </details></tool-use>
 
@@ -111,9 +80,8 @@ Recent commits and the random-duo/shuffle changes should tell us what to write i
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git log --oneline -10 && echo "---" && git log -1 --format='%B' && echo "---" && git show HEAD --stat</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git log --oneline -10 &amp;&amp; echo &#34;---&#34; &amp;&amp; git log -1 --format=&#39;%B&#39; &amp;&amp; echo &#34;---&#34; &amp;&amp; git show HEAD --stat</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git log --oneline -10 && echo "---" && git log -1 --format='%B' && echo "---" && git show HEAD --stat
 ```
@@ -134,7 +102,7 @@ Update CHANGELOG.md
 
 ---
 commit 5d5568c6a81103bda3b73fc9a62d88b88e600441
-Author: jrapusas &lt;jonathanrap@gmail.com&gt;
+Author: jrapusas <jonathanrap@gmail.com>
 Date:   Mon Jun 22 11:18:06 2026 +0800
 
     Update CHANGELOG.md
@@ -143,20 +111,12 @@ Date:   Mon Jun 22 11:18:06 2026 +0800
  1 file changed, 5 insertions(+)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -196,33 +156,19 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/i18n/en.yaml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/i18n/en.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git log --since="2026-06-22" --format='%h %s' && echo "---" && git diff 3ed8003..49fe203 -- assets/css/custom.css assets/js/notes-random-core.js assets/js/notes-random-duo.js i18n/en.yaml layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html 2>/dev/null | head -400</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git log --since=&#34;2026-06-22&#34; --format=&#39;%h %s&#39; &amp;&amp; echo &#34;---&#34; &amp;&amp; git diff 3ed8003..49fe203 -- assets/css/custom.css assets/js/notes-random-core.js assets/js/notes-random-duo.js i18n/en.yaml layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html 2&gt;/dev/null | head -400</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git log --since="2026-06-22" --format='%h %s' && echo "---" && git diff 3ed8003..49fe203 -- assets/css/custom.css assets/js/notes-random-core.js assets/js/notes-random-duo.js i18n/en.yaml layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html 2>/dev/null | head -400
 ```
@@ -295,355 +241,15 @@ index 99a466f..d3509c3 100644
 +.social-icons li a {
 +  min-height: var(--touch-target-min, 2.75rem);
 +  min-width: var(--touch-target-min, 2.75rem);
-+  height: auto;
-+  width: auto;
-+}
-+
-+/* Filter pills: keyboard focus ring */
-+.notes-filter:focus-visible,
-+.notes-graph-filter:focus-visible {
-+  outline: none;
-+  box-shadow:
-+    0 0 0 2px var(--color-surface),
-+    0 0 0 4px var(--color-accent);
-+}
-+
-+/* Buttons: touch minimum at all breakpoints */
-+.btn-sm {
-+  min-height: var(--touch-target-min, 2.75rem);
-+}
-+
-+/* Mobile/tablet nav CTA: vertically center label in touch-height button */
-+@media (max-width: 1023.98px) {
-+  .nav-item--cta {
-+    display: flex;
-+    align-items: center;
-+    justify-content: center;
-+    width: 100%;
-+  }
-+
-+  .nav-item--cta .btn {
-+    display: inline-flex;
-+    align-items: center;
-+    justify-content: center;
-+    width: 100%;
-+    min-height: var(--touch-target-min, 2.75rem);
-+    line-height: 1.25;
-+  }
-+}
-+
- /* Target divs with inline style matching the YouTube embed container */
- 
- /* Robust selectors for YouTube embed containers (handles spacing variations) */
-@@ -69,10 +165,10 @@ html.dark .content b {
- 
- .notes-dev-banner {
-   margin-bottom: 1.25rem;
--  border: 1px solid #dc2626;
-+  border: 1px solid var(--color-error-border);
-   border-radius: 0.5rem;
--  background: #fef2f2;
--  color: #991b1b;
-+  background: var(--color-error-surface);
-+  color: var(--color-error-ink);
-   padding: 0.75rem 1rem;
-   font-size: 0.875rem;
- }
-@@ -83,17 +179,7 @@ html.dark .content b {
- 
- .notes-dev-banner code {
-   font-size: 0.8125rem;
--  color: #7f1d1d;
--}
--
--html.dark .notes-dev-banner {
--  background: #450a0a;
--  border-color: #f87171;
--  color: #fecaca;
--}
--
--html.dark .notes-dev-banner code {
--  color: #fecaca;
-+  color: var(--color-error-code);
- }
- 
- .notes-content .wikilink {
-@@ -110,13 +196,13 @@ html.dark .notes-dev-banner code {
- 
- .notes-issues,
- .notes-issues-summary {
--  border-color: #f59e0b;
--  background: #fffbeb;
-+  border-color: var(--color-warning-border);
-+  background: var(--color-warning-surface);
- }
- 
- .notes-issues__title,
- .notes-issues-summary .h6 {
--  color: #92400e;
-+  color: var(--color-warning-ink);
- }
- 
- .notes-issues__item--broken code,
-@@ -124,19 +210,8 @@ html.dark .notes-dev-banner code {
-   font-size: 0.8125rem;
- }
- 
--html.dark .notes-issues,
--html.dark .notes-issues-summary {
--  background: #451a03;
--  border-color: #fbbf24;
--}
--
--html.dark .notes-issues__title,
--html.dark .notes-issues-summary .h6 {
--  color: #fde68a;
--}
--
- html.dark .notes-issues__item code {
--  color: #fef3c7;
-+  color: var(--color-warning-code);
- }
- 
- .notes-graph-panel--local {
-@@ -591,7 +666,7 @@ body.notes-graph-present-open {
- }
- 
- .notes-graph-filter__count--orphan {
--  color: var(--color-warning, #b45309);
-+  color: var(--color-warning);
- }
- 
- .notes-graph-filter__count--top {
-@@ -603,7 +678,7 @@ body.notes-graph-present-open {
- }
- 
- .notes-graph-filter__count--bottom {
--  color: var(--graph-weak, #c27803);
-+  color: var(--color-graph-weak);
- }
- 
- @media (max-width: 1279.98px) {
-@@ -740,13 +815,13 @@ body.notes-graph-present-open {
- }
- 
- .notes-status--seedling {
--  color: var(--color-warning, #b45309);
--  border-color: color-mix(in srgb, var(--color-warning, #b45309) 35%, var(--color-divider));
-+  color: var(--color-warning);
-+  border-color: color-mix(in srgb, var(--color-warning) 35%, var(--color-divider));
- }
- 
- .notes-status--evergreen {
--  color: #15803d;
--  border-color: color-mix(in srgb, #15803d 35%, var(--color-divider));
-+  color: var(--color-success);
-+  border-color: color-mix(in srgb, var(--color-success) 35%, var(--color-divider));
- }
- 
- .notes-status--inbox {
-@@ -819,6 +894,88 @@ body.notes-graph-present-open {
-   align-items: stretch;
- }
- 
-+.notes-random-controls {
-+  align-items: stretch;
-+  display: flex;
-+  flex-wrap: nowrap;
-+  gap: 0.75rem;
-+  margin-bottom: 0.75rem;
-+}
-+
-+.notes-random-controls .notes-random-select,
-+.notes-random-controls .btn {
-+  box-sizing: border-box;
-+  height: var(--touch-target-min, 2.75rem);
-+  min-height: var(--touch-target-min, 2.75rem);
-+}
-+
-+.notes-random-controls .notes-random-select {
-+  flex: 1;
-+  line-height: 1.25;
-+  margin-bottom: 0;
-+  min-width: 0;
-+  padding-block: var(--btn-py, 0.5rem);
-+}
-+
-+.notes-random-controls .btn {
-+  flex-shrink: 0;
-+  white-space: nowrap;
-+}
-+
-+.notes-path-toolbar {
-+  align-items: stretch;
-+  display: flex;
-+  flex-wrap: nowrap;
-+  gap: 0.75rem;
-+}
-+
-+.notes-path-toolbar .notes-path-result {
-+  align-items: center;
-+  border: 1px solid var(--color-divider);
-+  border-radius: 0.375rem;
-+  display: flex;
-+  flex: 1;
-+  flex-wrap: nowrap;
-+  font-size: 0.875rem;
-+  gap: 0.5rem;
-+  line-height: 1.25;
-+  min-height: var(--touch-target-min, 2.75rem);
-+  min-width: 0;
-+  overflow: hidden;
-+  padding: 0 0.75rem;
-+}
-+
-+.notes-path-toolbar .notes-path-result .h6 {
-+  flex-shrink: 0;
-+  font-size: inherit;
-+  font-weight: 600;
-+  line-height: inherit;
-+}
-+
-+.notes-path-toolbar .notes-path-chain--row {
-+  align-items: center;
-+  display: flex;
-+  flex: 1;
-+  flex-wrap: nowrap;
-+  gap: 0;
-+  min-width: 0;
-+  overflow-x: auto;
-+  overscroll-behavior-x: contain;
-+  scrollbar-width: thin;
-+}
-+
-+.notes-path-toolbar .notes-path-chain--row a,
-+.notes-path-toolbar .notes-path-chain--row span {
-+  flex-shrink: 0;
-+  white-space: nowrap;
-+}
-+
-+.notes-path-toolbar .btn {
-+  flex-shrink: 0;
-+  height: var(--touch-target-min, 2.75rem);
-+  min-height: var(--touch-target-min, 2.75rem);
-+}
-+
- .notes-random-select {
-   appearance: none;
-   background: var(--color-surface)
-@@ -1021,6 +1178,37 @@ body.notes-graph-present-open {
-   text-align: center;
- }
- 
-+@media (prefers-reduced-motion: reduce) {
-+  .notes-flashcard {
-+    perspective: none;
-+  }
-+
-+  .notes-flashcard__inner {
-+    transition: none;
-+    transform: none !important;
-+  }
-+
-+  .notes-flashcard__face {
-+    backface-visibility: visible;
-+    position: relative;
-+    inset: auto;
-+    min-height: 10rem;
-+  }
-+
-+  .notes-flashcard__face--back {
-+    display: none;
-+    transform: none;
-+  }
-+
-+  .notes-flashcard.is-flipped .notes-flashcard__face--front {
-+    display: none;
-+  }
-+
-+  .notes-flashcard.is-flipped .notes-flashcard__face--back {
-+    display: flex;
-+  }
-+}
-+
- .notes-flashcard__source {
-   margin-bottom: 0;
- }
-diff --git a/assets/js/notes-random-core.js b/assets/js/notes-random-core.js
-index 8416e43..03736b2 100644
---- a/assets/js/notes-random-core.js
-+++ b/assets/js/notes-random-core.js
-@@ -335,30 +335,34 @@
-     var sameNoteMsg = opts.sameNoteMsg || "Pick two different notes.";
-     var noPathMsg = opts.noPathMsg || "No path found through wikilinks.";
- 
--    if (!resultEl || !emptyEl) return null;
-+    if (!resultEl) return null;
- 
-     if (!start || !end) {
-       resultEl.classList.add("hidden");
--      emptyEl.classList.add("hidden");
-+      if (emptyEl) emptyEl.classList.add("hidden");
-       return null;
-     }
- 
-     if (start === end) {
-       resultEl.classList.add("hidden");
--      emptyEl.classList.remove("hidden");
--      emptyEl.textContent = sameNoteMsg;
-+      if (emptyEl) {
-+        emptyEl.classList.remove("hidden");
-+        emptyEl.textContent = sameNoteMsg;
-+      }
-       return [start];
-     }
- 
-     var path = shortestPath(opts.adj, start, end);
-     if (!path || path.length &lt; 2) {
-       resultEl.classList.add("hidden");
--      emptyEl.classList.remove("hidden");
--      emptyEl.textContent = noPathMsg;
-+      if (emptyEl) {
-+        emptyEl.classList.remove("hidden");
-+        emptyEl.textContent = noPathMsg;
-+      }
-       return null;
-     }
- 
--    emptyEl.classList.add("hidden");
-+    if (emptyEl) emptyEl.classList.add("hidden");
-     resultEl.classList.remove("hidden");
-     renderPathChain(chainEl, path, opts.titleByUrl);
-     return path;
-diff --git a/assets/js/notes-random-duo.js b/assets/js/notes-random-duo.js
-index 7725fa2..7c033a8 100644
---- a/assets/js/notes-random-duo.js
-+++ b/assets/js/notes-random-duo.js
-@@ -18,7 +18,6 @@
-   var emptyPageEl = document.querySelector(".notes-random-empty-page");
-   var pathResultEl = document.querySelector("[data-random-duo-path]");
-   var pathChainEl = document.querySelector("[data-random-duo-path-chain]");
--  var pathEmptyEl = document.querySelector("[data-random-duo-path-empty]");
-   if (!root || !dataEl) return;
- 
-   var slots = root.querySelectorAll("[data-random-duo-slot]");
-@@ -104,7 +103,6 @@
-     currentPath = core.renderPathBetween({
-
++  height: auto
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git log --since="2026-06-21" --format='%h %ad %s' --date=short</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git log --since=&#34;2026-06-21&#34; --format=&#39;%h %ad %s&#39; --date=short</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git log --since="2026-06-21" --format='%h %ad %s' --date=short
 ```
@@ -661,30 +267,24 @@ b477ae9 2026-06-22 Updates
 aa99742 2026-06-21 Updates
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing today's changes to update the CHANGELOG.</details></think>
+Reviewing today's changes to update the CHANGELOG.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff 63a89f9..49fe203 --stat</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff 63a89f9..49fe203 --stat</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff 63a89f9..49fe203 --stat
 ```
 
 ```
- {.agents =&gt; .cursor}/skills/find-skills/SKILL.md   |     0
+ {.agents => .cursor}/skills/find-skills/SKILL.md   |     0
  .cursor/skills/flashcards/SKILL.md                 |    14 +-
  .cursor/skills/flashcards/examples.md              |     6 +-
  .../skills/hugo-template-guidance/SKILL.md         |     0
@@ -715,181 +315,15 @@ cd /home/jorap/Documents/GitHub/jorap.com && git diff 63a89f9..49fe203 --stat
  ..._15-27-45Z-file-name-change-to-mental-models.md | 16224 +++++++++++++++++++
  ...16-32Z-missing-hugo-extended-package-warning.md | 11504 +++++++++++++
  ...22_02-20-58Z-centralized-skills-organization.md |   275 +
- ...-06-22_02-39-52Z-impeccable-audit-discussion.md |  6575 ++++++++
- ...-22_03-05-21Z-random-duo-and-shuffle-options.md |  6583 ++++++++
- .specstory/statistics.json                         |   120 +-
- CHANGELOG.md                                       |   120 +
- README.md                                          |     2 +-
- assets/css/custom.css                              |   285 +-
- assets/js/main.js                                  |   139 +
- assets/js/notes-featured-random.js                 |     2 +-
- assets/js/notes-graph.js                           |   106 +-
- assets/js/notes-list.js                            |   164 +-
- assets/js/notes-random-core.js                     |   137 +
- assets/js/notes-random-duo.js                      |    49 +-
- assets/js/notes-random-single.js                   |    37 +
- config/_default/params.toml                        |     5 +-
- config/development/hugo.toml                       |     1 +
- content/english/notes/abide-in-me.md               |    11 +-
- content/english/notes/active-knowledge-curation.md |    14 +-
- content/english/notes/analog-capture-tools.md      |    13 +-
- content/english/notes/anti-fragile-systems.md      |    12 +-
- content/english/notes/ask-seek-knock.md            |    11 +-
- content/english/notes/associative-linking.md       |    15 +-
- content/english/notes/atomic-notes.md              |    15 +-
- content/english/notes/backlinks.md                 |    16 +
- .../english/notes/break-the-escalation-cycle.md    |    36 +
- content/english/notes/building-a-personal-api.md   |    13 +-
- content/english/notes/building-a-second-brain.md   |    14 +-
- content/english/notes/by-their-fruits.md           |    11 +-
- content/english/notes/capture.md                   |    14 +-
- content/english/notes/childlike-faith.md           |    11 +-
- content/english/notes/compounding.md               |    14 +-
- content/english/notes/context-aware-capture.md     |    12 +-
- content/english/notes/creative-blocks.md           |    12 +-
- content/english/notes/creative-output.md           |    14 +-
- content/english/notes/daily-notes.md               |    14 +-
- content/english/notes/digital-garden.md            |    14 +-
- content/english/notes/digital-minimalism.md        |    13 +-
- content/english/notes/digital-serendipity.md       |    14 +-
- content/english/notes/discipleship.md              |    54 +
- content/english/notes/dont-worry.md                |    11 +-
- content/english/notes/drafting-in-public.md        |    14 +-
- content/english/notes/eternal-principles.md        |    18 +-
- content/english/notes/eternal-rewards.md           |    11 +-
- content/english/notes/evergreen-notes.md           |    16 +-
- .../english/notes/evergreen-vs-fleeting-notes.md   |    20 +-
- content/english/notes/first-principles-thinking.md |    13 +-
- content/english/notes/flashcards.md                |     2 -
- content/english/notes/forgiveness-at-work.md       |    36 +
- content/english/notes/forgiveness.md               |    11 +-
- content/english/notes/free-grace.md                |    11 +-
- content/english/notes/future-proofing-knowledge.md |    13 +-
- content/english/notes/getting-started.md           |    20 +-
- content/english/notes/golden-rule-at-work.md       |    36 +
- content/english/notes/graph-view-analytics.md      |    16 +-
- content/english/notes/graph.md                     |     8 +-
- content/english/notes/great-commission.md          |    12 +-
- content/english/notes/gtd-vs-para.md               |    14 +-
- content/english/notes/heart-righteousness.md       |    11 +-
- content/english/notes/humility-and-service.md      |    13 +-
- .../notes/integrity-when-no-ones-watching.md       |    36 +
- content/english/notes/intellectual-sourcing.md     |    13 +-
- content/english/notes/issues.md                    |     4 +-
- content/english/notes/judge-not.md                 |    11 +-
- content/english/notes/let-your-light-shine.md      |    11 +-
- content/english/notes/let-your-yes-be-yes.md       |    11 +-
- content/english/notes/local-first-software.md      |    13 +-
- content/english/notes/love-god.md                  |    11 +-
- content/english/notes/love-your-enemies.md         |    12 +-
- content/english/notes/love-your-neighbor.md        |    11 +-
- content/english/notes/low-hanging-fruit.md         |    13 +-
- content/english/notes/maps-of-content.md           |    16 +-
- .../{mental-models-list.md =&gt; mental-models.md}    |    17 +-
- content/english/notes/metadata-strategy.md         |    13 +-
- content/english/notes/mind-mapping.md              |    14 +-
- content/english/notes/minimum-effective-dose.md    |    13 +-
- content/english/notes/minimum-viable-product.md    |    14 +-
- content/english/notes/mobile-capture-workflows.md  |    14 +-
- content/english/notes/note-relationships.md        |    27 +-
- content/english/notes/outcomes-over-pitch-decks.md |    36 +
- content/english/notes/para-method.md               |    14 +-
- content/english/notes/pareto-principle.md          |    12 +-
- content/english/notes/peacemakers.md               |    12 +-
- content/english/notes/periodic-knowledge-review.md |    14 +-
- content/english/notes/pkm.md                       |    14 +-
- content/english/notes/plain-commitments-at-work.md |    36 +
- .../english/notes/priorities-before-the-inbox.md   |    36 +
- content/english/notes/process-over-outcomes.md     |    12 +-
- content/english/notes/progressive-summarization.md |    14 +-
- content/english/notes/random-duo.md                |     2 -
- .../english/notes/reconcile-before-the-review.md   |    36 +
- .../english/notes/reconciliation-before-worship.md |    11 +-
- content/english/notes/render-unto-caesar.md        |    11 +-
- content/english/notes/repent-and-believe.md        |    11 +-
- content/english/notes/review.md                    |     2 -
- content/english/notes/rss-for-research.md          |    24 -
- content/english/notes/secret-devotion.md           |    12 +-
- content/english/notes/seek-the-kingdom-first.md    |    11 +-
- content/english/notes/servant-leadership.md        |    36 +
- content/english/notes/share-what-you-learn.md      |    36 +
- content/english/notes/signal-vs-noise.md           |    13 +-
- content/english/notes/slow-productivity.md         |    13 +-
- content/english/notes/spaced-repetition.md         |    14 +-
- content/english/notes/sunk-cost-fallacy.md         |    12 +-
- content/english/notes/synthesis-as-a-goal.md       |    16 +-
- content/english/notes/take-up-your-cross.md        |    11 +-
- content/english/notes/the-12-week-year.md          |    13 +-
- content/english/notes/the-beatitudes.md            |    33 +-
- content/english/notes/the-collectors-fallacy.md    |    13 +-
- content/english/notes/the-feynman-technique.md     |    14 +-
- content/english/notes/the-garage-concept.md        |    13 +-
- content/english/notes/the-golden-rule.md           |    11 +-
- content/english/notes/the-knowledge-lifecycle.md   |    14 +-
- content/english/notes/the-narrow-way.md            |    11 +-
- content/english/notes/the-second-brain-workflow.md |    17 +-
- content/english/notes/the-trusted-inbox.md         |    14 +-
- content/english/notes/the-wise-builder.md          |    11 +-
- .../english/notes/there-is-no-perfect-solution.md  |    12 +-
- content/english/notes/treasure-in-heaven.md        |    11 +-
- content/english/notes/turn-the-other-cheek.md      |    11 +-
- content/english/notes/weekly-review-checklists.md  |    13 +-
- content/english/notes/workplace-principles.md      |    66 +
- data/noteFileDates.json                            |   422 +-
- data/theme.json                                    |    26 +-
- i18n/en.yaml                                       |     2 +
- layouts/_partials/blog/related-notes.html          |     2 +-
- layouts/_partials/blog/related-posts.html          |     2 +-
- layouts/_partials/blog/toc.html                    |    41 +
- layouts/_partials/components/theme-switcher.html   |    92 +
- .../_partials/essentials/fingerprint-asset.html    |     2 +
- layouts/_partials/essentials/header.html           |     2 +-
- layouts/_partials/essentials/publish-asset.html    |     7 +-
- layouts/_partials/notes/collect-note-issues.html   |    77 +-
- layouts/_partials/notes/graph-data-local.html      |     2 +-
- layouts/_partials/notes/graph-data.html            |    85 +-
- layouts/_partials/notes/has-cards.html             |    13 +
- layouts/_partials/notes/is-index-page.html         |     2 +
- layouts/_partials/notes/is-utility-page.html       |     2 +-
- layouts/_partials/notes/lint-note-issues.html      |     2 +-
- layouts/_partials/notes/note-flashcards.html       |     2 +-
- layouts/_partials/notes/note-issues-panel.html     |    25 +-
- layouts/_partials/notes/random-note-select.html    |     7 +-
- .../_partials/notes/random-unrelated-notes.html    |    22 +-
- layouts/_partials/notes/relationship-types.html    |    26 +
- layouts/_partials/notes/sort-by-connections.html   |     2 +-
- layouts/_partials/notes/toc.html                   |    31 +-
- layouts/_partials/notes/toolbar.html               |    18 +-
- layouts/baseof.html                                |    59 +
- layouts/notes/backlinks.html                       |    54 +
- layouts/notes/graph.html                           |    65 +-
- layouts/notes/issues.html                          |    26 +-
- layouts/notes/list.html                            |   160 +-
- layouts/notes/random-duo.html                      |    26 +-
- layouts/notes/review.html                          |     4 +-
- layouts/notes/single.html                          |     4 +-
- package.json                                       |     4 +-
- scripts/installGitHooks.mjs                        |    27 +
- scripts/sync-note-relationships.py                 |   382 +
- scripts/updateChangelog.mjs                        |   168 +
- themes/jorap/assets/css/generated-theme.css        |    22 +
- themes/jorap/layouts/blog/single.html              |     7 +-
- 190 files changed, 73980 insertions(+), 573 deletions(-)
-
+ ...-06-22_02-39-52Z-impeccable-audit-
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff 63a89f9..49fe203 -- layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html i18n/en.yaml assets/js/notes-random-duo.js assets/js/main.js layouts/baseof.html layouts/_partials/essentials/header.html layouts/_partials/components/theme-switcher.html data/theme.json 2>/dev/null</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff 63a89f9..49fe203 -- layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html i18n/en.yaml assets/js/notes-random-duo.js assets/js/main.js layouts/baseof.html layouts/_partials/essentials/header.html layouts/_partials/components/theme-switcher.html data/theme.json 2&gt;/dev/null</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff 63a89f9..49fe203 -- layouts/_partials/notes/random-note-select.html layouts/_partials/notes/random-unrelated-notes.html layouts/notes/random-duo.html i18n/en.yaml assets/js/notes-random-duo.js assets/js/main.js layouts/baseof.html layouts/_partials/essentials/header.html layouts/_partials/components/theme-switcher.html data/theme.json 2>/dev/null
 ```
@@ -907,20 +341,20 @@ index 0000000..d295bb2
 +
 +  const dropdownTriggers = document.querySelectorAll(".nav-dropdown-trigger");
 +
-+  const setDropdownExpanded = (navItem, expanded) =&gt; {
++  const setDropdownExpanded = (navItem, expanded) => {
 +    const btn = navItem?.querySelector(".nav-dropdown-trigger");
 +    if (btn) btn.setAttribute("aria-expanded", expanded ? "true" : "false");
 +  };
 +
-+  const closeAllDropdowns = () =&gt; {
-+    document.querySelectorAll(".nav-dropdown.active").forEach((item) =&gt; {
++  const closeAllDropdowns = () => {
++    document.querySelectorAll(".nav-dropdown.active").forEach((item) => {
 +      item.classList.remove("active");
 +      setDropdownExpanded(item, false);
 +    });
 +  };
 +
-+  const openDropdown = (navItem) =&gt; {
-+    document.querySelectorAll(".nav-dropdown.active").forEach((item) =&gt; {
++  const openDropdown = (navItem) => {
++    document.querySelectorAll(".nav-dropdown.active").forEach((item) => {
 +      if (item !== navItem) {
 +        item.classList.remove("active");
 +        setDropdownExpanded(item, false);
@@ -930,24 +364,24 @@ index 0000000..d295bb2
 +    setDropdownExpanded(navItem, true);
 +  };
 +
-+  const dropdownLinks = (navItem) =&gt;
++  const dropdownLinks = (navItem) =>
 +    Array.from(navItem?.querySelectorAll(".nav-dropdown-link") || []);
 +
-+  document.addEventListener("click", (e) =&gt; {
++  document.addEventListener("click", (e) => {
 +    if (!e.target.closest(".nav-dropdown")) {
 +      closeAllDropdowns();
 +    }
 +  });
 +
-+  document.addEventListener("keydown", (e) =&gt; {
++  document.addEventListener("keydown", (e) => {
 +    if (e.key === "Escape") closeAllDropdowns();
 +  });
 +
-+  dropdownTriggers.forEach((toggler) =&gt; {
++  dropdownTriggers.forEach((toggler) => {
 +    const navItem = toggler.closest(".nav-item");
 +    if (!navItem) return;
 +
-+    toggler.addEventListener("click", (e) =&gt; {
++    toggler.addEventListener("click", (e) => {
 +      e.preventDefault();
 +      if (navItem.classList.contains("active")) {
 +        navItem.classList.remove("active");
@@ -957,578 +391,11 @@ index 0000000..d295bb2
 +      openDropdown(navItem);
 +    });
 +
-+    toggler.addEventListener("keydown", (e) =&gt; {
++    toggler.addEventListener("keydown", (e) => {
 +      const links = dropdownLinks(navItem);
-+      const open = navItem.classList.contains("active");
-+
-+      if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
-+        if (e.key !== "ArrowDown" || !open) {
-+          e.preventDefault();
-+          if (!open) openDropdown(navItem);
-+          if (links.length) links[0].focus();
-+        } else if (links.length) {
-+          e.preventDefault();
-+          links[0].focus();
-+        }
-+        return;
-+      }
-+
-+      if (e.key === "ArrowUp" &amp;&amp; open &amp;&amp; links.length) {
-+        e.preventDefault();
-+        links[links.length - 1].focus();
-+      }
-+    });
-+
-+    dropdownLinks(navItem).forEach((link, index, links) =&gt; {
-+      link.addEventListener("keydown", (e) =&gt; {
-+        if (e.key === "Escape") {
-+          e.preventDefault();
-+          closeAllDropdowns();
-+          toggler.focus();
-+          return;
-+        }
-+
-+        if (e.key === "ArrowDown") {
-+          e.preventDefault();
-+          links[(index + 1) % links.length].focus();
-+          return;
-+        }
-+
-+        if (e.key === "ArrowUp") {
-+          e.preventDefault();
-+          if (index === 0) {
-+            closeAllDropdowns();
-+            toggler.focus();
-+          } else {
-+            links[index - 1].focus();
-+          }
-+          return;
-+        }
-+
-+        if (e.key === "Home") {
-+          e.preventDefault();
-+          links[0].focus();
-+          return;
-+        }
-+
-+        if (e.key === "End") {
-+          e.preventDefault();
-+          links[links.length - 1].focus();
-+        }
-+      });
-+    });
-+  });
-+
-+  const testimonialRoot = document.querySelector(".testimonial-slider");
-+  if (testimonialRoot) {
-+    new Swiper(".testimonial-slider", {
-+      spaceBetween: 24,
-+      loop: true,
-+      pagination: {
-+        el: ".testimonial-slider-pagination",
-+        type: "bullets",
-+        clickable: true,
-+      },
-+      breakpoints: {
-+        768: {
-+          slidesPerView: 2,
-+        },
-+        992: {
-+          slidesPerView: 3,
-+        },
-+      },
-+    });
-+  }
-+})();
-diff --git a/assets/js/notes-random-duo.js b/assets/js/notes-random-duo.js
-index a09e813..7c033a8 100644
---- a/assets/js/notes-random-duo.js
-+++ b/assets/js/notes-random-duo.js
-@@ -7,6 +7,7 @@
- 
-   var root = document.querySelector("[data-notes-random-duo]");
-   var dataEl = document.querySelector(".notes-random-duo-data");
-+  var graphEl = document.querySelector(".notes-random-duo-graph-data");
-   var shuffleBtn = document.querySelector("[data-random-duo-shuffle]");
-   var shuffleLeftBtn = document.querySelector("[data-random-duo-shuffle-left]");
-   var shuffleRightBtn = document.querySelector("[data-random-duo-shuffle-right]");
-@@ -15,11 +16,16 @@
-   var sendPromptBtn = document.querySelector("[data-random-duo-send-prompt]");
-   var promptEl = document.querySelector("[data-random-duo-prompt]");
-   var emptyPageEl = document.querySelector(".notes-random-empty-page");
-+  var pathResultEl = document.querySelector("[data-random-duo-path]");
-+  var pathChainEl = document.querySelector("[data-random-duo-path-chain]");
-   if (!root || !dataEl) return;
- 
-   var slots = root.querySelectorAll("[data-random-duo-slot]");
-   var currentNotes = [null, null];
-+  var currentPath = null;
-   var pool = [];
-+  var adj = Object.create(null);
-+  var titleByUrl = Object.create(null);
-   var aiChatUrl = "https://chatgpt.com/?q=";
- 
-   try {
-@@ -28,6 +34,18 @@
-     pool = [];
-   }
- 
-+  pool.forEach(function (item) {
-+    titleByUrl[item.url] = item.title;
-+  });
-+
-+  if (graphEl) {
-+    try {
-+      adj = core.buildAdjacency(JSON.parse(graphEl.textContent) || []);
-+    } catch (e) {
-+      adj = Object.create(null);
-+    }
-+  }
-+
-   var ai = core.createAiHelpers({
-     promptEl: promptEl,
-     aiChatUrl: aiChatUrl,
-@@ -66,6 +84,11 @@
-       lines.push("");
-     });
- 
-+    if (currentPath &amp;&amp; currentPath.length &gt; 1) {
-+      lines.push(core.pathPromptLine(currentPath, titleByUrl));
-+      lines.push("");
-+    }
-+
-     lines.push("Please analyze:");
-     lines.push("- Note 1 + Note 2 (together)");
-     lines.push("");
-@@ -74,6 +97,23 @@
-     return lines.join("\n");
-   }
- 
-+  function updatePath() {
-+    var left = currentNotes[0];
-+    var right = currentNotes[1];
-+    currentPath = core.renderPathBetween({
-+      resultEl: pathResultEl,
-+      chainEl: pathChainEl,
-+      adj: adj,
-+      titleByUrl: titleByUrl,
-+      start: left &amp;&amp; left.url,
-+      end: right &amp;&amp; right.url,
-+    });
-+  }
-+
-+  function refreshPrompt() {
-+    if (promptEl) promptEl.value = buildPrompt(currentNotes);
-+  }
-+
-   function equalizePanelHeights() {
-     var panels = root.querySelectorAll(".notes-random-panel");
-     if (panels.length &lt; 2) return;
-@@ -117,7 +157,8 @@
-       .then(function (note) {
-         currentNotes[index] = note;
-         syncSelect(index, note &amp;&amp; note.url ? note.url : "");
--        if (promptEl) promptEl.value = buildPrompt(currentNotes);
-+        updatePath();
-+        refreshPrompt();
-         window.requestAnimationFrame(equalizePanelHeights);
-         return note;
-       });
-@@ -131,7 +172,8 @@
-       });
-       currentNotes = [null, null];
-       syncAllSelects();
--      if (promptEl) promptEl.value = buildPrompt([]);
-+      updatePath();
-+      refreshPrompt();
-       return;
-     }
- 
-@@ -150,7 +192,8 @@
-     ).then(function (notes) {
-       currentNotes = notes;
-       syncAllSelects();
--      if (promptEl) promptEl.value = buildPrompt(currentNotes);
-+      updatePath();
-+      refreshPrompt();
-       window.requestAnimationFrame(equalizePanelHeights);
-     });
-   }
-diff --git a/data/theme.json b/data/theme.json
-index d28caaa..3f7febf 100644
---- a/data/theme.json
-+++ b/data/theme.json
-@@ -6,7 +6,18 @@
-         "body": "#f5f3f0",
-         "border": "#e5e2dd",
-         "light": "#eeebe6",
--        "dark": "#121110"
-+        "dark": "#121110",
-+        "warning": "#b45309",
-+        "warning-ink": "#92400e",
-+        "warning-surface": "#fffbeb",
-+        "warning-border": "#f59e0b",
-+        "warning-code": "#fef3c7",
-+        "error-ink": "#991b1b",
-+        "error-surface": "#fef2f2",
-+        "error-border": "#dc2626",
-+        "error-code": "#7f1d1d",
-+        "success": "#15803d",
-+        "graph-weak": "#c27803"
-       },
-       "text_color": {
-         "text": "#3d3a37",
-@@ -20,7 +31,18 @@
-         "body": "#121110",
-         "border": "#504d48",
-         "light": "#2a2824",
--        "dark": "#f2efe9"
-+        "dark": "#f2efe9",
-+        "warning": "#fbbf24",
-+        "warning-ink": "#fde68a",
-+        "warning-surface": "#451a03",
-+        "warning-border": "#fbbf24",
-+        "warning-code": "#fef3c7",
-+        "error-ink": "#fecaca",
-+        "error-surface": "#450a0a",
-+        "error-border": "#f87171",
-+        "error-code": "#fecaca",
-+        "success": "#4ade80",
-+        "graph-weak": "#c27803"
-       },
-       "text_color": {
-         "text": "#d9d4cd",
-diff --git a/i18n/en.yaml b/i18n/en.yaml
-index 1b351b6..cf399f3 100644
---- a/i18n/en.yaml
-+++ b/i18n/en.yaml
-@@ -6,6 +6,8 @@ random_blog_note: Random Note
- random_blog_note_lede: One garden note picked at random — shuffle for a new pairing with this post.
- random_note_lede: One garden note picked at random — shuffle for a new pairing with this note.
- random_duo_lede: Two notes from the garden, side by side. Shuffle both, or lock one side and shuffle the other.
-+random_duo_shortest_path: A shortest path
-+random_duo_no_path: No path found through wikilinks.
- shuffle: Shuffle
- select_note: Select note
- select_note_left: Select left note
-diff --git a/layouts/_partials/components/theme-switcher.html b/layouts/_partials/components/theme-switcher.html
-new file mode 100644
-index 0000000..607c704
---- /dev/null
-+++ b/layouts/_partials/components/theme-switcher.html
-@@ -0,0 +1,92 @@
-+&lt;!-- theme switcher (button) --&gt;
-+{{ $class := .Class }}
-+{{ if site.Params.theme_switcher }}
-+  &lt;button
-+    type="button"
-+    data-theme-switcher
-+    class="header-utility-control theme-switcher-btn text-ink hover:text-accent {{ $class }}"
-+    aria-label="Switch to dark mode"
-+    aria-pressed="false"&gt;
-+    &lt;svg
-+      class="h-5 w-5 dark:hidden"
-+      viewBox="0 0 24 24"
-+      fill="currentColor"
-+      aria-hidden="true"&gt;
-+      &lt;path
-+        fill-rule="evenodd"
-+        clip-rule="evenodd"
-+        d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z" /&gt;
-+    &lt;/svg&gt;
-+    &lt;svg
-+      class="hidden h-5 w-5 dark:block"
-+      viewBox="0 0 56 56"
-+      fill="currentColor"
-+      aria-hidden="true"&gt;
-+      &lt;path
-+        d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z" /&gt;
-+    &lt;/svg&gt;
-+  &lt;/button&gt;
-+
-+  &lt;script&gt;
-+    (function () {
-+      "use strict";
-+
-+      var DARK = "dark";
-+      var LIGHT = "light";
-+      var KEY = "theme";
-+
-+      function readStored() {
-+        try { return localStorage.getItem(KEY); } catch (_) { return null; }
-+      }
-+
-+      function writeStored(value) {
-+        try { localStorage.setItem(KEY, value); } catch (_) {}
-+      }
-+
-+      function isDark() {
-+        return document.documentElement.classList.contains(DARK);
-+      }
-+
-+      function syncControls(dark) {
-+        document.querySelectorAll("[data-theme-switcher]").forEach(function (el) {
-+          el.setAttribute("aria-pressed", dark ? "true" : "false");
-+          el.setAttribute(
-+            "aria-label",
-+            dark ? "Switch to light mode" : "Switch to dark mode",
-+          );
-+        });
-+      }
-+
-+      function applyDark(dark) {
-+        document.documentElement.classList[dark ? "add" : "remove"](DARK);
-+        syncControls(dark);
-+      }
-+
-+      document.querySelectorAll("[data-theme-switcher]").forEach(function (el) {
-+        syncControls(isDark());
-+        el.addEventListener("click", function () {
-+          var next = !isDark();
-+          applyDark(next);
-+          writeStored(next ? DARK : LIGHT);
-+        });
-+      });
-+
-+      window.addEventListener("storage", function (e) {
-+        if (e.key !== KEY) return;
-+        if (e.newValue === DARK) applyDark(true);
-+        else if (e.newValue === LIGHT) applyDark(false);
-+      });
-+
-+      {{ if eq site.Params.theme_default "system" }}
-+      if (window.matchMedia) {
-+        var mql = window.matchMedia("(prefers-color-scheme: dark)");
-+        var onSystemChange = function (e) {
-+          if (readStored() === null) applyDark(e.matches);
-+        };
-+        if (mql.addEventListener) mql.addEventListener("change", onSystemChange);
-+        else if (mql.addListener) mql.addListener(onSystemChange);
-+      }
-+      {{ end }}
-+    })();
-+  &lt;/script&gt;
-+{{ end }}
-diff --git a/layouts/_partials/essentials/header.html b/layouts/_partials/essentials/header.html
-index 82c596f..469e67d 100644
---- a/layouts/_partials/essentials/header.html
-+++ b/layouts/_partials/essentials/header.html
-@@ -123,7 +123,7 @@
-         {{ $ctaActive := eq ($ctaURL | absLangURL) ($currentPage.Permalink | absLangURL) }}
-         &lt;li class="nav-item nav-item--cta"&gt;
-           &lt;a
--            class="btn btn-outline-primary block w-full text-center lg:inline-block lg:w-auto{{ if $ctaActive }}
-+            class="btn btn-outline-primary inline-flex w-full items-center justify-center lg:inline-flex lg:w-auto{{ if $ctaActive }}
-               active{{ end }}"
-             href="{{ $ctaURL }}"&gt;
-             {{ site.Params.navigation_button.label }}
-diff --git a/layouts/_partials/notes/random-note-select.html b/layouts/_partials/notes/random-note-select.html
-index 2c858c7..95c107c 100644
---- a/layouts/_partials/notes/random-note-select.html
-+++ b/layouts/_partials/notes/random-note-select.html
-@@ -8,12 +8,7 @@
- {{- $placeholder := .Placeholder -}}
- {{- $slot := .Slot | default "" -}}
- &lt;select
--  class="notes-random-select mb-3 w-full"
--  {{- if $slot -}}
--    {{ printf "data-%s-select=\"%s\"" $prefix $slot | safeHTMLAttr }}
--  {{- else -}}
--    {{ printf "data-%s-select" $prefix | safeHTMLAttr }}
--  {{- end -}}
-+  class="notes-random-select"{{ if $slot }}{{ printf " data-%s-select=%q" $prefix $slot | safeHTMLAttr }}{{ else }}{{ printf " data-%s-select" $prefix | safeHTMLAttr }}{{ end }}
-   aria-label="{{ $label }}"&gt;
-   &lt;option value=""&gt;{{ $placeholder }}&lt;/option&gt;
-   {{- range $pool -}}
-diff --git a/layouts/_partials/notes/random-unrelated-notes.html b/layouts/_partials/notes/random-unrelated-notes.html
-index 3b6d509..c9697cc 100644
---- a/layouts/_partials/notes/random-unrelated-notes.html
-+++ b/layouts/_partials/notes/random-unrelated-notes.html
-@@ -16,14 +16,17 @@
- {{- if not $isBlog -}}
-   {{- $pool = where $pool "url" "ne" $ctx.RelPermalink -}}
- {{- end -}}
-+{{- $graph := dict -}}
-+{{- if not $isBlog -}}
-+  {{- $graph = partialCached "notes/graph-data.html" site "graph-data-v3" -}}
-+{{- end -}}
- {{- $minPool := 1 -}}
- {{- $aiChatUrl := site.Params.blog.random_notes_ai_chat_url | default "https://chatgpt.com/?q=" -}}
- {{- $aiChatLabel := site.Params.blog.random_notes_ai_chat_label | default (T "open_in_chatgpt") -}}
- {{- if ge (len $pool) $minPool -}}
-   &lt;div class="section pb-0"&gt;
-     &lt;div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3"&gt;
--      &lt;h2 class="h3 heading-title-case mb-0 mr-auto"&gt;{{ T "random_blog_note" }}&lt;/h2&gt;
--      &lt;button type="button" class="btn btn-outline-primary btn-sm" {{ printf "data-%s-shuffle" $prefix | safeHTMLAttr }}&gt;{{ T "shuffle" }}&lt;/button&gt;
-+      &lt;h2 id="random-note" class="h3 heading-title-case mb-0"&gt;{{ T "random_blog_note" }}&lt;/h2&gt;
-     &lt;/div&gt;
- 
-     &lt;p class="text-ink-muted mb-6"&gt;
-@@ -32,9 +35,20 @@
- 
-     {{ partial "notes/random-prompt-panel.html" (dict "Prefix" $prefix "AiChatLabel" $aiChatLabel) }}
- 
-+    {{- if not $isBlog -}}
-+      &lt;div class="notes-path-result border-divider mb-6 hidden flex flex-wrap items-center gap-x-3 gap-y-2 rounded border p-5 text-sm" data-notes-single-random-path&gt;
-+        &lt;h3 class="h6 mb-0 shrink-0"&gt;{{ T "random_duo_shortest_path" }}:&lt;/h3&gt;
-+        &lt;div class="notes-path-chain notes-path-chain--row flex min-w-0 flex-wrap items-center gap-y-1" data-notes-single-random-path-chain&gt;&lt;/div&gt;
-+      &lt;/div&gt;
-+      &lt;p class="text-ink-muted mb-6 hidden text-sm" data-notes-single-random-path-empty&gt;{{ T "random_duo_no_path" }}&lt;/p&gt;
-+    {{- end -}}
-+
-     &lt;div class="row notes-random-grid items-stretch" {{ printf "data-%s-notes" $prefix | safeHTMLAttr }}&gt;
-       &lt;div class="mb-8 flex flex-col"&gt;
--        {{ partial "notes/random-note-select.html" (dict "Prefix" $prefix "Pool" $pool "Label" (T "select_note") "Placeholder" (T "choose_note")) }}
-+        &lt;div class="notes-random-controls"&gt;
-+          {{ partial "notes/random-note-select.html" (dict "Prefix" $prefix "Pool" $pool "Label" (T "select_note") "Placeholder" (T "choose_note")) }}
-+          &lt;button type="button" class="btn btn-outline-primary btn-sm shrink-0" {{ printf "data-%s-shuffle" $prefix | safeHTMLAttr }}&gt;{{ T "shuffle" }}&lt;/button&gt;
-+        &lt;/div&gt;
-         &lt;div class="notes-random-slot flex flex-col" {{ printf "data-%s-slot=\"0\"" $prefix | safeHTMLAttr }}&gt;
-           &lt;p class="notes-random-loading text-ink-muted text-sm"&gt;{{ T "loading" }}&lt;/p&gt;
-         &lt;/div&gt;
-@@ -44,7 +58,7 @@
-     &lt;p class="notes-random-empty-page text-ink-muted hidden text-sm" {{ printf "data-%s-empty" $prefix | safeHTMLAttr }}&gt;{{ T "no_random_blog_note" }}&lt;/p&gt;
-     {{- $payload := dict "notes" $pool "aiChatUrl" $aiChatUrl "aiChatOpenedLabel" (T "prompt_opened_in_ai") "aiChatCopiedLabel" (T "prompt_copied_for_ai") -}}
-     {{- if not $isBlog -}}
--      {{- $payload = merge $payload (dict "currentUrl" $ctx.RelPermalink) -}}
-+      {{- $payload = merge $payload (dict "currentUrl" $ctx.RelPermalink "currentTitle" $ctx.Title "graphEdges" $graph.edges) -}}
-     {{- end -}}
-     &lt;script type="application/json" class="{{ $dataClass }}"&gt;{{ $payload | jsonify | safeJS }}&lt;/script&gt;
-   &lt;/div&gt;
-diff --git a/layouts/baseof.html b/layouts/baseof.html
-new file mode 100644
-index 0000000..1eef280
---- /dev/null
-+++ b/layouts/baseof.html
-@@ -0,0 +1,59 @@
-+&lt;!doctype html&gt;
-+&lt;html
-+  itemscope
-+  class="{{- if and (not site.Params.theme_switcher) (eq site.Params.theme_default &#96;dark&#96;) -}}
-+    dark
-+  {{- end -}} h-full"
-+  lang="{{ site.Language.Lang }}"
-+  itemtype="http://schema.org/WebPage"&gt;
-+  &lt;head&gt;
-+    &lt;!-- head (don't cache it) --&gt;
-+    {{ partial "essentials/head.html" . }}
-+
-+
-+    &lt;!-- style: defer until hugo_stats.json exists for Tailwind @source (see https://gohugo.io/functions/css/tailwindcss/) --&gt;
-+    {{ with (templates.Defer (dict "key" "global")) }}
-+      {{ partial "essentials/style.html" . }}
-+    {{ end }}
-+
-+  &lt;/head&gt;
-+
-+  &lt;body class="min-h-full flex flex-col"&gt;
-+    &lt;a class="skip-link" href="#main"&gt;Skip to content&lt;/a&gt;
-+
-+    &lt;!-- cache partial only in production --&gt;
-+    {{ if hugo.IsProduction }}
-+      {{ partialCached "preloader.html" . }}
-+      {{ partialCached "gtm-noscript.html" . }}
-+    {{ else }}
-+      {{ partial "preloader.html" . }}
-+
-+
-+      &lt;!-- tailwind size indicator --&gt;
-+      {{ partial "components/tw-size-indicator.html" . }}
-+    {{ end }}
-+
-+
-+    &lt;!-- announcement --&gt;
-+    {{ partialCached "announcement.html" . }}
-+
-+
-+    &lt;!-- header (don't cache it) --&gt;
-+    {{ partial "essentials/header.html" . }}
-+    {{ partial "search-modal.html" (dict "Context" . ) }}
-+
-+
-+    &lt;main id="main" class="flex-1" tabindex="-1"&gt;
-+      {{ block "main" . }}{{ end }}
-+    &lt;/main&gt;
-+
-+    &lt;!-- footer --&gt;
-+    {{ partial "essentials/footer.html" . }}
-+
-+    &lt;!-- back to top --&gt;
-+    {{ partial "components/back-to-top.html" . }}
-+
-+    &lt;!-- script (always cache it) --&gt;
-+    {{ partialCached "essentials/script.html" . }}
-+  &lt;/body&gt;
-+&lt;/html&gt;
-diff --git a/layouts/notes/random-duo.html b/layouts/notes/random-duo.html
-index 71d0d39..55a0d50 100644
---- a/layouts/notes/random-duo.html
-+++ b/layouts/notes/random-duo.html
-@@ -1,5 +1,6 @@
- {{ define "main" }}
-   {{- $pool := partial "notes/random-pool.html" . -}}
-+  {{- $graph := partialCached "notes/graph-data.html" site "graph-data-v3" -}}
-   {{- $aiChatLabel := site.Params.blog.random_notes_ai_chat_label | default (T "open_in_chatgpt") -}}
- 
-   {{ partial "page-header" . }}
-@@ -10,25 +11,33 @@
-         &lt;div class="lg:col-10"&gt;
-           {{ partial "notes/toolbar.html" (dict "Context" . "active" "random-duo") }}
- 
--          &lt;div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3"&gt;
--            &lt;button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle&gt;{{ T "shuffle_all" }}&lt;/button&gt;
--            &lt;button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle-left&gt;{{ T "shuffle_left" }}&lt;/button&gt;
--            &lt;button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle-right&gt;{{ T "shuffle_right" }}&lt;/button&gt;
--          &lt;/div&gt;
--
-           &lt;p class="text-ink-muted mb-6"&gt;{{ T "random_duo_lede" }}&lt;/p&gt;
- 
-           {{ partial "notes/random-prompt-panel.html" (dict "Prefix" "random-duo" "AiChatLabel" $aiChatLabel "Loading" (T "random_notes_prompt_loading") "Rows" 10) }}
- 
-+          &lt;div class="notes-path-toolbar mb-6"&gt;
-+            &lt;div class="notes-path-result border-divider hidden" data-random-duo-path&gt;
-+              &lt;h3 class="h6 mb-0 shrink-0"&gt;{{ T "random_duo_shortest_path" }}:&lt;/h3&gt;
-+              &lt;div class="notes-path-chain notes-path-chain--row" data-random-duo-path-chain&gt;&lt;/div&gt;
-+            &lt;/div&gt;
-+            &lt;button type="button" class="btn btn-outline-primary btn-sm shrink-0" data-random-duo-shuffle aria-label="{{ T "shuffle_all" }}"&gt;{{ T "shuffle" }}&lt;/button&gt;
-+          &lt;/div&gt;
-+
-           &lt;div class="row notes-random-grid items-stretch" data-notes-random-duo&gt;
-             &lt;div class="md:col-6 mb-8 flex flex-col"&gt;
--              {{ partial "notes/random-note-select.html" (dict "Prefix" "random-duo" "Pool" $pool "Label" (T "select_note_left") "Placeholder" (T "choose_note") "Slot" "0") }}
-+              &lt;div class="notes-random-controls"&gt;
-+                {{ partial "notes/random-note-select.html" (dict "Prefix" "random-duo" "Pool" $pool "Label" (T "select_note_left") "Placeholder" (T "choose_note") "Slot" "0") }}
-+                &lt;button type="button" class="btn btn-outline-primary btn-sm shrink-0" data-random-duo-shuffle-left aria-label="{{ T "shuffle_left" }}"&gt;{{ T "shuffle" }}&lt;/button&gt;
-+              &lt;/div&gt;
-               &lt;div class="notes-random-slot flex flex-col" data-random-duo-slot="0"&gt;
-                 &lt;p class="notes-random-loading text-ink-muted text-sm"&gt;{{ T "loading" }}&lt;/p&gt;
-               &lt;/div&gt;
-             &lt;/div&gt;
-             &lt;div class="md:col-6 mb-8 flex flex-col"&gt;
--              {{ partial "notes/random-note-select.html" (dict "Prefix" "random-duo" "Pool" $pool "Label" (T "select_note_right") "Placeholder" (T "choose_note") "Slot" "1") }}
-+              &lt;div class="notes-random-controls"&gt;
-+                {{ partial "notes/random-note-select.html" (dict "Prefix" "random-duo" "Pool" $pool "Label" (T "select_note_right") "Placeholder" (T "choose_note") "Slot" "1") }}
-+                &lt;button type="button" class="btn btn-outline-primary btn-sm shrink-0" data-random-duo-shuffle-right aria-label="{{ T "shuffle_right" }}"&gt;{{ T "shuffle" }}&lt;/button&gt;
-+              &lt;/div&gt;
-               &lt;div class="notes-random-slot flex flex-col" data-random-duo-slot="1"&gt;
-                 &lt;p class="notes-random-loading text-ink-muted text-sm"&gt;{{ T "loading" }}&lt;/p&gt;
-               &lt;/div&gt;
-@@ -37,6 +46,7 @@
- 
-           &lt;p class="notes-random-empty-page text-ink-muted hidden text-sm"&gt;{{ T "no_random_blog_note" }}&lt;/p&gt;
-           &lt;script type="application/json" class="notes-random-duo-data"&gt;{{ $pool | jsonify | safeJS }}&lt;/script&gt;
-+          &lt;script type="application/json" class="notes-random-duo-graph-data"&gt;{{ $graph.edges | jsonify | safeJS }}&lt;/script&gt;
-         &lt;/div&gt;
-       &lt;/div&gt;
-     &lt;/div&gt;
-
++      const open = navItem.classList.contains("activ
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1538,13 +405,13 @@ The CHANGELOG for 2026-06-22 contains raw file paths from the auto-update hook. 
 
 Two functional changes from today are ready for the changelog: centralized agent skills under `.cursor/skills/`, and accessibility improvements including a skip link, nav keyboard and dropdown support, and theme switcher ARIA.
 
-More accessibility updates include focus rings on theme switcher and filter pills, 44px touch targets for footer icons, and reduced-motion support for flashcards and skip links. Theme tokens now use semantic warning, error, success, and graph-weak colors instead of hardcoded values. Random notes UX was refined with shuffle buttons moved next to dropdowns, a "Shuffle both" option placed near the shortest path toolbar, and wikilink path visualization between notes.</details></think>
+More accessibility updates include focus rings on theme switcher and filter pills, 44px touch targets for footer icons, and reduced-motion support for flashcards and skip links. Theme tokens now use semantic warning, error, success, and graph-weak colors instead of hardcoded values. Random notes UX was refined with shuffle buttons moved next to dropdowns, a "Shuffle both" option placed near the shortest path toolbar, and wikilink path visualization between notes.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff 63a89f9..49fe203 -- assets/js/notes-graph.js layouts/notes/review.html package.json scripts/installGitHooks.mjs config/_default/params.toml --no-color 2>/dev/null | head -200</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff 63a89f9..49fe203 -- assets/js/notes-graph.js layouts/notes/review.html package.json scripts/installGitHooks.mjs config/_default/params.toml --no-color 2&gt;/dev/null | head -200</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff 63a89f9..49fe203 -- assets/js/notes-graph.js layouts/notes/review.html package.json scripts/installGitHooks.mjs config/_default/params.toml --no-color 2>/dev/null | head -200
 ```
@@ -1564,10 +431,10 @@ index 7a1253a..87cce61 100644
    var panels = document.querySelectorAll("[data-notes-graph]");
    if (!panels.length) return;
  
--  for (var i = 0; i &lt; panels.length; i++) {
+-  for (var i = 0; i < panels.length; i++) {
 -    await initGraph(panels[i]);
 +  if (typeof IntersectionObserver === "undefined") {
-+    for (var i = 0; i &lt; panels.length; i++) {
++    for (var i = 0; i < panels.length; i++) {
 +      await initGraph(panels[i]);
 +    }
 +    return;
@@ -1586,7 +453,7 @@ index 7a1253a..87cce61 100644
 +    { rootMargin: "200px 0px" },
 +  );
 +
-+  for (var j = 0; j &lt; panels.length; j++) {
++  for (var j = 0; j < panels.length; j++) {
 +    observer.observe(panels[j]);
    }
  }
@@ -1613,151 +480,9 @@ index 7a1253a..87cce61 100644
 +      primaryTag: n.primaryTag || "",
 +      relExtends: Boolean(n.relExtends),
 +      relContradicts: Boolean(n.relContradicts),
-+      relImplements: Boolean(n.relImplements),
-+      relAlternative: Boolean(n.relAlternative),
-+      relIndex: Boolean(n.relIndex),
-       label: null,
-     };
-   });
- 
-+  if (!isLocalGraph &amp;&amp; nodes.length &gt; MAX_GLOBAL_GRAPH_NODES) {
-+    var totalNodes = nodes.length;
-+    nodes.sort(function (a, b) {
-+      return b.inDegree + b.outDegree - (a.inDegree + a.outDegree);
-+    });
-+    nodes = nodes.slice(0, MAX_GLOBAL_GRAPH_NODES);
-+    var hintEl = panel.closest(".container, section")?.querySelector(".notes-graph-hint");
-+    if (hintEl) {
-+      hintEl.textContent =
-+        "Showing " +
-+        MAX_GLOBAL_GRAPH_NODES +
-+        " of " +
-+        totalNodes +
-+        " most connected notes. " +
-+        hintEl.textContent;
-+    }
-+  }
 +
-   var nodeById = {};
-   nodes.forEach(function (n) {
-     nodeById[n.id] = n;
-@@ -122,6 +171,8 @@ async function initGraph(panel) {
-   var hovered = focusNode || null;
-   var searchQuery = "";
-   var graphFilter = "all";
-+  var graphColorMode = "rank";
-+  var tagPalette = ["#2563eb", "#15803d", "#b45309", "#be123c", "#7c3aed", "#0f766e", "#c27803", "#4b5563"];
-   var draggingNode = null;
-   var dragMoved = false;
-   var dragStart = null;
-@@ -167,8 +218,9 @@ async function initGraph(panel) {
-       nodeHover: pixiColor(resolveToken("--color-ink", "#161412")),
-       nodeFocus: pixiColor(resolveToken("--color-accent", "#181614")),
-       nodeOrphan: pixiColor(resolveToken("--color-warning", "#b45309")),
--      nodeHub: pixiColor(resolveToken("--color-accent", "#181614")),
--      nodeWeak: pixiColor(resolveToken("--graph-weak", "#c27803")),
-+      nodeTop: pixiColor(resolveToken("--color-accent", "#181614")),
-+      nodeMiddle: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
-+      nodeBottom: pixiColor(resolveToken("--color-graph-weak", "#c27803")),
-       nodeDeadEnd: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
-       surface: pixiColor(resolveToken("--color-surface", "#f5f3f0")),
-       label: pixiColor(resolveToken("--color-ink", "#161412")),
-@@ -603,12 +655,28 @@ async function initGraph(panel) {
-     return node.title.toLowerCase().indexOf(searchQuery) !== -1;
-   }
- 
-+  function tagColor(tag) {
-+    if (!tag) return colors.node;
-+    var h = 0;
-+    for (var i = 0; i &lt; tag.length; i += 1) {
-+      h = (h * 31 + tag.charCodeAt(i)) &gt;&gt;&gt; 0;
-+    }
-+    return pixiColor(tagPalette[h % tagPalette.length]);
-+  }
-+
-   function passesFilter(node) {
-     if (graphFilter === "all") return true;
-     if (graphFilter === "orphan") return node.orphan;
--    if (graphFilter === "hub") return node.hub;
--    if (graphFilter === "weak") return node.weak;
-+    if (graphFilter === "top") return node.top;
-+    if (graphFilter === "middle") return node.middle;
-+    if (graphFilter === "bottom") return node.bottom;
-     if (graphFilter === "deadEnd") return node.deadEnd;
-+    if (graphFilter === "hub") return node.hub;
-+    if (graphFilter === "relExtends") return node.relExtends;
-+    if (graphFilter === "relContradicts") return node.relContradicts;
-+    if (graphFilter === "relImplements") return node.relImplements;
-+    if (graphFilter === "relAlternative") return node.relAlternative;
-+    if (graphFilter === "relIndex") return node.relIndex;
-     return true;
-   }
- 
-@@ -619,9 +687,11 @@ async function initGraph(panel) {
-   function nodeFill(node, isFocus, isHover, inHighlight, highlight) {
-     if (isFocus) return colors.nodeFocus;
-     if (isHover) return colors.nodeHover;
-+    if (graphColorMode === "tag") return tagColor(node.primaryTag);
-     if (node.orphan &amp;&amp; (graphFilter === "all" || graphFilter === "orphan")) return colors.nodeOrphan;
--    if (node.hub &amp;&amp; (graphFilter === "all" || graphFilter === "hub")) return colors.nodeHub;
--    if (node.weak &amp;&amp; (graphFilter === "all" || graphFilter === "weak")) return colors.nodeWeak;
-+    if (node.top &amp;&amp; (graphFilter === "all" || graphFilter === "top")) return colors.nodeTop;
-+    if (node.bottom &amp;&amp; (graphFilter === "all" || graphFilter === "bottom")) return colors.nodeBottom;
-+    if (node.middle &amp;&amp; (graphFilter === "all" || graphFilter === "middle")) return colors.nodeMiddle;
-     if (node.deadEnd &amp;&amp; (graphFilter === "all" || graphFilter === "deadEnd")) return colors.nodeDeadEnd;
-     if (inHighlight &amp;&amp; highlight) return colors.nodeActive;
-     return colors.node;
-@@ -1145,6 +1215,22 @@ async function initGraph(panel) {
-     });
-   }
- 
-+  if (colorEls.length) {
-+    colorEls.forEach(function (btn) {
-+      bindGraphControl(btn, function () {
-+        graphColorMode = btn.getAttribute("data-graph-color") || "rank";
-+        colorEls.forEach(function (el) {
-+          var active = el === btn;
-+          el.classList.toggle("btn-primary", active);
-+          el.classList.toggle("btn-outline-primary", !active);
-+          el.setAttribute("aria-pressed", active ? "true" : "false");
-+        });
-+        draw();
-+        wake();
-+      });
-+    });
-+  }
-+
-   function wake() {
-     needsFrame = true;
-     if (!rafId) {
-diff --git a/config/_default/params.toml b/config/_default/params.toml
-index 17c685b..be4952e 100644
---- a/config/_default/params.toml
-+++ b/config/_default/params.toml
-@@ -44,10 +44,7 @@ strict_unlinked = false
- unlinked_min_length = 6
- stale_days = 90
- recent_limit = 12
--graph_hub_percentile = 85
--graph_hub_min_total = 15
--graph_weak_percentile = 25
--graph_weak_max_total = 8
-+graph_tail_percentile = 20
- 
- # Blog single: automated related content sections
- [blog]
-diff --git a/layouts/notes/review.html b/layouts/notes/review.html
-index 99f5d21..d641260 100644
---- a/layouts/notes/review.html
-+++ b/layouts/notes/review.html
-
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1767,13 +492,13 @@ Checking the git log to compare today's changes against the June 21st entry.
 
 The June 21st entry already covered filters, notes-random-core, graph changes, Hugo updates, asset fingerprinting, and Cloudflare fixes. Today's diff likely contains mostly new items such as accessibility improvements and random duo shuffle UX.
 
-The June 22nd changelog will cover two main areas. Random notes UX received shuffle button repositioning, shortest wikilink path display on random duo and single-note sections, and AI prompts now include path lines. Accessibility improvements include skip-to-content links, nav dropdown keyboard navigation, theme switcher accessibility, focus-visible rings, and 44px touch targets.</details></think>
+The June 22nd changelog will cover two main areas. Random notes UX received shuffle button repositioning, shortest wikilink path display on random duo and single-note sections, and AI prompts now include path lines. Accessibility improvements include skip-to-content links, nav dropdown keyboard navigation, theme switcher accessibility, focus-visible rings, and 44px touch targets.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff 63a89f9..49fe203 -- layouts/notes/review.html package.json scripts/installGitHooks.mjs --no-color</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff 63a89f9..49fe203 -- layouts/notes/review.html package.json scripts/installGitHooks.mjs --no-color</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff 63a89f9..49fe203 -- layouts/notes/review.html package.json scripts/installGitHooks.mjs --no-color
 ```
@@ -1784,19 +509,19 @@ index 99f5d21..d641260 100644
 --- a/layouts/notes/review.html
 +++ b/layouts/notes/review.html
 @@ -50,11 +50,11 @@
-                 &lt;/div&gt;
+                 </div>
  
-                 &lt;div class="notes-review-card border-divider rounded border p-6" style="background: var(--color-surface);"&gt;
--                  &lt;p class="notes-review-label text-ink-muted mb-2 text-xs uppercase tracking-wide"&gt;Question&lt;/p&gt;
-+                  &lt;p class="notes-review-label text-ink-muted mb-2 text-sm font-medium"&gt;Question&lt;/p&gt;
-                   &lt;p class="notes-review-front mb-6 text-lg font-semibold leading-snug" data-notes-review-front&gt;&lt;/p&gt;
+                 <div class="notes-review-card border-divider rounded border p-6" style="background: var(--color-surface);">
+-                  <p class="notes-review-label text-ink-muted mb-2 text-xs uppercase tracking-wide">Question</p>
++                  <p class="notes-review-label text-ink-muted mb-2 text-sm font-medium">Question</p>
+                   <p class="notes-review-front mb-6 text-lg font-semibold leading-snug" data-notes-review-front></p>
  
-                   &lt;div class="notes-review-answer hidden" data-notes-review-answer&gt;
--                    &lt;p class="notes-review-label text-ink-muted mb-2 text-xs uppercase tracking-wide"&gt;Answer&lt;/p&gt;
-+                    &lt;p class="notes-review-label text-ink-muted mb-2 text-sm font-medium"&gt;Answer&lt;/p&gt;
-                     &lt;p class="notes-review-back mb-4 leading-relaxed" data-notes-review-back&gt;&lt;/p&gt;
-                     &lt;p class="notes-review-source text-ink-muted mb-4 text-xs hidden" data-notes-review-source&gt;&lt;/p&gt;
-                   &lt;/div&gt;
+                   <div class="notes-review-answer hidden" data-notes-review-answer>
+-                    <p class="notes-review-label text-ink-muted mb-2 text-xs uppercase tracking-wide">Answer</p>
++                    <p class="notes-review-label text-ink-muted mb-2 text-sm font-medium">Answer</p>
+                     <p class="notes-review-back mb-4 leading-relaxed" data-notes-review-back></p>
+                     <p class="notes-review-source text-ink-muted mb-4 text-xs hidden" data-notes-review-source></p>
+                   </div>
 diff --git a/package.json b/package.json
 index 0cae0a5..92ced68 100644
 --- a/package.json
@@ -1808,7 +533,7 @@ index 0cae0a5..92ced68 100644
 -    "postinstall": "node scripts/fix-tailwind-bin.js"
 +    "changelog": "node scripts/updateChangelog.mjs",
 +    "hooks:install": "node scripts/installGitHooks.mjs",
-+    "postinstall": "node scripts/fix-tailwind-bin.js &amp;&amp; node scripts/installGitHooks.mjs"
++    "postinstall": "node scripts/fix-tailwind-bin.js && node scripts/installGitHooks.mjs"
    },
    "devDependencies": {
      "@tailwindcss/cli": "^4.3.1",
@@ -1816,43 +541,9 @@ diff --git a/scripts/installGitHooks.mjs b/scripts/installGitHooks.mjs
 new file mode 100644
 index 0000000..fa5fe0d
 --- /dev/null
-+++ b/scripts/installGitHooks.mjs
-@@ -0,0 +1,27 @@
-+#!/usr/bin/env node
-+/**
-+ * Install prepare-commit-msg hook (updates CHANGELOG.md on commit).
-+ * Embeds the absolute Node path — git hooks often run without mise/nvm on PATH.
-+ */
-+import fs from "node:fs";
-+import path from "node:path";
-+import { projectRoot } from "./spawnUtil.mjs";
-+
-+const gitDir = path.join(projectRoot, ".git");
-+if (!fs.existsSync(gitDir)) {
-+  console.warn("hooks:install skipped (not a git checkout)");
-+  process.exit(0);
-+}
-+
-+const nodeBin = process.execPath.replace(/\\/g, "/");
-+const hookPath = path.join(gitDir, "hooks", "prepare-commit-msg");
-+const root = projectRoot.replace(/\\/g, "/");
-+const hook = &#96;#!/bin/sh
-+set -e
-+cd "${root}"
-+"${nodeBin}" scripts/updateChangelog.mjs "$1"
-+git add CHANGELOG.md
-+&#96;;
-+
-+fs.writeFileSync(hookPath, hook, { mode: 0o755 });
-+console.log("hooks: installed prepare-commit-msg → CHANGELOG.md");
 
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1862,7 +553,8 @@ Rewriting the 2026-06-22 CHANGELOG entry with human-readable descriptions instea
 
 The rewritten entry follows the standard CHANGELOG format. It covers shortest-path wikilinks, notes-graph filters and lazy initialization, skip-to-content navigation, theme tokens, and the auto-update git hook.
 
-The rewritten entry also covers changes. Random buttons now sit beside dropdowns. Agent skills moved to `.cursor/skills/`. Graph percentile config became `graph_tail_percentile`. Status banner colors switched to theme tokens. Touch targets and focus rings improved. Flashcard flip respects reduced motion.</details></think>
+The rewritten entry also covers changes. Random buttons now sit beside dropdowns. Agent skills moved to `.cursor/skills/`. Graph percentile config became `graph_tail_percentile`. Status banner colors switched to theme tokens. Touch targets and focus rings improved. Flashcard flip respects reduced motion.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1871,29 +563,15 @@ Replacing the auto-generated file list with concise, human-readable changelog en
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
 
 </details></tool-use>
 
@@ -1926,7 +604,8 @@ create a skill to update changelog. refer to spectory. remove changelog update i
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Creating a skill to update the changelog per specstory. Removing the automatic changelog update from the commit hook.</details></think>
+Creating a skill to update the changelog per specstory. Removing the automatic changelog update from the commit hook.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1935,58 +614,36 @@ I'll review how skills are structured here, what SpecStory says about changelog 
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills-cursor/create-skill/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills-cursor/create-skill/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/updateChangelog.mjs</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/updateChangelog.mjs</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/installGitHooks.mjs</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/installGitHooks.mjs</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2094,22 +751,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **12** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (12 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (12 files)
 
 | File |
 |------|
@@ -2125,47 +774,26 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (12 files)
 | `.cursor/skills/ponytail-help/SKILL.md` |
 | `.cursor/skills/find-skills/SKILL.md` |
 | `.cursor/skills/ponytail-review/SKILL.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2228,73 +856,40 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-debt/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-help/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-22_03-18-44Z-changelog-update-request.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-22_02-39-52Z-impeccable-audit-discussion.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-debt/SKILL.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-help/SKILL.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-22_03-18-44Z-changelog-update-request.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-06-22_02-39-52Z-impeccable-audit-discussion.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2349,13 +944,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -2363,39 +951,27 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 I'll create a skill file at `.cursor/skills/update-changelog/SKILL.md`. It will instruct the agent to update the changelog using specstory context and git diffs, producing human-readable bullet points. I also need to remove the changelog update from the commit step.
 
-I'll remove the automatic changelog update by deleting the git hook installation script and removing the hook from postinstall. I'll also delete the `updateChangelog.mjs` script, since the skill replaces it.</details></think>
+I'll remove the automatic changelog update by deleting the git hook installation script and removing the hook from postinstall. I'll also delete the `updateChangelog.mjs` script, since the skill replaces it.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/find-skills/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/find-skills/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: test -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg && cat /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg || echo "no hook"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: test -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg &amp;&amp; cat /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg || echo &#34;no hook&#34;</summary>
 ```bash
 test -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg && cat /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg || echo "no hook"
 ```
@@ -2408,12 +984,6 @@ cd "/home/jorap/Documents/GitHub/jorap.com"
 git add CHANGELOG.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -2423,7 +993,8 @@ The plan is to create a Cursor skill at `.cursor/skills/update-changelog/SKILL.m
 
 The skill will generate human-readable bullets in CHANGELOG format. The old commit-time changelog will be removed by deleting the git hook script, the update script, and the related package.json entries. The CHANGELOG header and README deploy section will also be updated.
 
-The skill will source session context from `.specstory/history/`, follow the existing CHANGELOG format, and apply functional file scoping logic. It will summarize git diffs and specstory sessions into human-readable bullets. The 2026-06-22 Added section will lose its auto-update bullet. A note about the new skill may be added to today's changelog entry.</details></think>
+The skill will source session context from `.specstory/history/`, follow the existing CHANGELOG format, and apply functional file scoping logic. It will summarize git diffs and specstory sessions into human-readable bullets. The 2026-06-22 Added section will lose its auto-update bullet. A note about the new skill may be added to today's changelog entry.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2432,27 +1003,12 @@ Creating the changelog skill, removing the commit hook, and updating related doc
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/update-changelog/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/update-changelog/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
@@ -2461,13 +1017,6 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
 
@@ -2475,9 +1024,8 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rm -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rm -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg</summary>
 ```bash
 rm -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg
 ```
@@ -2486,87 +1034,48 @@ rm -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg
 rm: cannot remove '/home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg': Read-only file system
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
 Cancelled
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Retrying the hook deletion with smart mode approval. The user explicitly requested removing the changelog update from the commit.</details></think>
+Retrying the hook deletion with smart mode approval. The user explicitly requested removing the changelog update from the commit.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2575,26 +1084,17 @@ Retrying hook removal with approval — you asked to remove commit-time changelo
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rm -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rm -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg</summary>
 ```bash
 rm -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2629,40 +1129,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Removed the changelog update hook and its scripts. Updated package.json, CHANGELOG, and README. Added a changelog entry for the removal.</details></think>
+Removed the changelog update hook and its scripts. Updated package.json, CHANGELOG, and README. Added a changelog entry for the removal.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: test -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg && echo "hook still exists" || echo "hook removed"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: test -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg &amp;&amp; echo &#34;hook still exists&#34; || echo &#34;hook removed&#34;</summary>
 ```bash
 test -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg && echo "hook still exists" || echo "hook removed"
 ```
@@ -2671,12 +1156,6 @@ test -f /home/jorap/Documents/GitHub/jorap.com/.git/hooks/prepare-commit-msg && 
 hook removed
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -2721,10 +1200,8 @@ Renaming the skill to `changelog-update` and updating references.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2767,51 +1244,23 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/update-changelog/SKILL.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/update-changelog/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/changelog-update/SKILL.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/changelog-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
@@ -2820,44 +1269,28 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Checking whether the empty update-changelog directory still exists.</details></think>
+Checking whether the empty update-changelog directory still exists.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rmdir /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/update-changelog 2>/dev/null; ls /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ | grep changelog</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rmdir /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/update-changelog 2&gt;/dev/null; ls /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ | grep changelog</summary>
 ```bash
 rmdir /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/update-changelog 2>/dev/null; ls /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ | grep changelog
 ```
@@ -2866,12 +1299,6 @@ rmdir /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/update-changelog 2>/
 changelog-update
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -2892,7 +1319,8 @@ can we standardize content spacing?
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The request to standardize content spacing is ambiguous. It could refer to the changelog-update SKILL.md file or CSS spacing across the site.</details></think>
+The request to standardize content spacing is ambiguous. It could refer to the changelog-update SKILL.md file or CSS spacing across the site.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2901,23 +1329,15 @@ Content spacing could mean the site, the skill file, or the changelog — I'll c
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/changelog-update/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/changelog-update/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -3018,3193 +1438,17 @@ Result:
             "text": "  @apply inline-block;"
           },
           {
-            "lineNumber": 22,
-            "text": "}"
-          },
-          {
-            "lineNumber": 23,
-            "text": ".social-icons li a {"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  @apply inline-flex h-9 w-9 items-center justify-center rounded-sm bg-accent;"
-          },
-          {
-            "lineNumber": 25,
-            "text": "}"
-          },
-          {
-            "lineNumber": 26,
-            "text": ".social-icons li a svg {"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  @apply h-5 w-5 fill-surface;"
-          },
-          {
-            "lineNumber": 28,
-            "text": "}"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "/* Content / prose style."
-          },
-          {
-            "lineNumber": 31,
-            "text": " * Uses semantic tokens (ink, ink-muted, elevated, divider, accent) so dark mode"
-          },
-          {
-            "lineNumber": 32,
-            "text": " * is handled automatically by tailwind-plugin/tw-theme.js — no &#96;dark:&#96; twins needed."
-          },
-          {
-            "lineNumber": 33,
-            "text": " */"
-          },
-          {
-            "lineNumber": 34,
-            "text": ".content {"
-          },
-          {
-            "lineNumber": 35,
-            "text": "  @apply prose max-w-full font-primary;"
-          },
-          {
-            "lineNumber": 36,
-            "text": "  @apply prose-headings:mb-[.3em] prose-headings:mt-[.6em] prose-headings:text-ink prose-headings:text-balance prose-headings:leading-[1.25];"
-          },
-          {
-            "lineNumber": 37,
-            "text": "  @apply prose-h1:text-h1-sm md:prose-h1:text-h1;"
-          },
-          {
-            "lineNumber": 38,
-            "text": "  @apply prose-h2:text-h2-sm md:prose-h2:text-h2;"
-          },
-          {
-            "lineNumber": 39,
-            "text": "  @apply prose-h3:text-h3-sm md:prose-h3:text-h3;"
-          },
-          {
-            "lineNumber": 40,
-            "text": "  @apply prose-img:max-w-full prose-img:rounded;"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  @apply prose-hr:border-divider;"
-          },
-          {
-            "lineNumber": 42,
-            "text": "  @apply prose-p:text-base prose-p:text-ink-muted;"
-          },
-          {
-            "lineNumber": 43,
-            "text": "  @apply prose-blockquote:rounded-lg prose-blockquote:border prose-blockquote:border-accent/25 prose-blockquote:bg-elevated prose-blockquote:px-8 prose-blockquote:py-10 prose-blockquote:font-primary prose-blockquote:text-2xl prose-blockquote:not-italic prose-blockquote:text-ink;"
-          },
-          {
-            "lineNumber": 44,
-            "text": "  @apply prose-pre:rounded-lg prose-pre:bg-elevated;"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  @apply prose-code:px-1 prose-code:text-accent;"
-          },
-          {
-            "lineNumber": 46,
-            "text": "  @apply prose-strong:text-ink;"
-          },
-          {
-            "lineNumber": 47,
-            "text": "  @apply prose-a:text-ink-muted prose-a:underline prose-a:hover:text-accent;"
-          },
-          {
-            "lineNumber": 48,
-            "text": "  @apply prose-li:text-ink-muted;"
-          },
-          {
-            "lineNumber": 49,
-            "text": "  @apply prose-table:relative prose-table:overflow-hidden prose-table:rounded-lg prose-table:before:absolute prose-table:before:left-0 prose-table:before:top-0 prose-table:before:h-full prose-table:before:w-full prose-table:before:rounded-[inherit] prose-table:before:border prose-table:before:border-divider prose-table:before:content-[\"\"];"
-          },
-          {
-            "lineNumber": 50,
-            "text": "  @apply prose-thead:border-divider prose-thead:bg-elevated;"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 50
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./themes/jorap/assets/css/components.css",
-        "signatures": {}
-      },
-      "score": 0.4766004979610443
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 136,
-            "text": "### Hierarchy"
-          },
-          {
-            "lineNumber": 137
-          },
-          {
-            "lineNumber": 138,
-            "text": "- **Display** (700, &#96;3.81rem&#96; / &#96;clamp&#96; via &#96;text-h1&#96; and breakpoints, line-height ~1.12, tight negative tracking): Reserved for **top-level marketing or page titles** when the full scale ladder applies (&#96;h1&#96; / &#96;.h1&#96;)."
-          },
-          {
-            "lineNumber": 139,
-            "text": "- **Headline** (700, &#96;3.05rem&#96; with responsive &#96;-sm&#96; variants, line-height ~1.12): Section headings (&#96;h2&#96;), large list titles."
-          },
-          {
-            "lineNumber": 140,
-            "text": "- **Title** (600, &#96;2.44rem&#96; down through &#96;1.25rem&#96; for &#96;h3&#96;–&#96;h6&#96;): Subheads, card titles, component headings. Blog cards also use **&#96;text-2xl&#96;** for card titles in templates."
-          },
-          {
-            "lineNumber": 141,
-            "text": "- **Body** (400, &#96;16px&#96; base with &#96;0.8×&#96; on small viewports via &#96;text-base-sm&#96;, line-height relaxed): Article body, descriptions. Prose is capped at **&#96;max-w-[70ch]&#96;** in &#96;.content&#96; for comfortable line length."
-          },
-          {
-            "lineNumber": 142,
-            "text": "- **Label** (600, inherited sizes on &#96;nav-link&#96; and buttons, semibold): Navigation, buttons, and emphasis. Buttons use **capitalize** in &#96;.btn&#96; (know that convention if you add new buttons)."
-          },
-          {
-            "lineNumber": 143
-          },
-          {
-            "lineNumber": 144,
-            "text": "### Named Rules"
-          },
-          {
-            "lineNumber": 145
-          },
-          {
-            "lineNumber": 146,
-            "text": "**The Inter-Only Rule.** Do not add a second font family for \"personality\" until **PRODUCT.md** explicitly asks for it; hierarchy must stay on **scale, weight, and tracking** first."
-          },
-          {
-            "lineNumber": 147
-          },
-          {
-            "lineNumber": 148,
-            "text": "**The Article Title Rule.** Blog post titles use &#96;.article-title&#96;: real &#96;h1&#96; with a **tighter ramp** (&#96;text-h2-sm&#96; through &#96;text-h1&#96;) so long titles stay dignified on small screens."
-          },
-          {
-            "lineNumber": 149
-          },
-          {
-            "lineNumber": 150,
-            "text": "## Elevation"
-          },
-          {
-            "lineNumber": 151
-          },
-          {
-            "lineNumber": 152,
-            "text": "The system is **flat at rest**. Depth is **tonal** (surface vs elevated) first; **shadow** second."
-          },
-          {
-            "lineNumber": 153
-          },
-          {
-            "lineNumber": 154,
-            "text": "Shadows appear where something **floats above** the page: **dropdown panels** (&#96;shadow-lg&#96;), **back-to-top** control (&#96;shadow-lg&#96;), and **blog cards** (&#96;shadow-sm&#96;, **&#96;shadow-md&#96; on hover**). Cards use **border + subtle shadow** together so lift reads as **tactile**, not neon."
-          },
-          {
-            "lineNumber": 155
-          },
-          {
-            "lineNumber": 156,
-            "text": "Atmospheric **page headers** may use a **soft vertical gradient** (&#96;from-surface to-elevated&#96; or the &#96;bg-gradient&#96; utility) for a **sheet lift**, not glassmorphism."
-          },
-          {
-            "lineNumber": 157
-          },
-          {
-            "lineNumber": 158,
-            "text": "### Shadow Vocabulary"
-          },
-          {
-            "lineNumber": 159
-          },
-          {
-            "lineNumber": 160,
-            "text": "- **Card rest** (&#96;shadow-sm&#96;, Tailwind default): Blog cards and light containers at rest."
-          },
-          {
-            "lineNumber": 161,
-            "text": "- **Card hover** (&#96;shadow-md&#96;): Slightly deeper lift on &#96;.component--blog-card&#96; hover, paired with **unchanged border color** so motion is restrained."
-          },
-          {
-            "lineNumber": 162,
-            "text": "- **Overlay / menu** (&#96;shadow-lg&#96;): Dropdown panels and floating FAB-style controls."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 162
-          },
-          "startPosition": {
-            "line": 134
-          }
-        },
-        "relativeWorkspacePath": "./docs/DESIGN.md",
-        "signatures": {}
-      },
-      "score": 0.39207080006599426
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/*"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Header offset: single source of truth for sticky-header height."
-          },
-          {
-            "lineNumber": 3,
-            "text": " * - CSS uses it for scroll-padding-top so anchor jumps clear the header."
-          },
-          {
-            "lineNumber": 4,
-            "text": " * - JS reads it via getComputedStyle(...) — see assets/js/toc.js + back-to-top.js."
-          },
-          {
-            "lineNumber": 5,
-            "text": " * Update here only; do not duplicate in JS."
-          },
-          {
-            "lineNumber": 6,
-            "text": " */"
-          },
-          {
-            "lineNumber": 7,
-            "text": "html {"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  --header-offset: 80px;"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  --touch-target-min: 2.75rem;"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  --btn-py: 0.5rem;"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  --nav-link-py: 0.75rem;"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  --filter-py: 0.5rem;"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  @apply text-base-sm md:text-base font-primary;"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  color-scheme: light;"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  scroll-padding-top: var(--header-offset);"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  scroll-behavior: smooth;"
-          },
-          {
-            "lineNumber": 17,
-            "text": "}"
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "@media (prefers-reduced-motion: reduce) {"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  html {"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    scroll-behavior: auto;"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 23,
-            "text": "}"
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "html.dark {"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  color-scheme: dark;"
-          },
-          {
-            "lineNumber": 27,
-            "text": "}"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "@media (min-width: 1024px) {"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  html {"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    --header-offset: 100px;"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 33,
-            "text": "}"
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "@media (min-width: 1280px) {"
-          },
-          {
-            "lineNumber": 36,
-            "text": "  html {"
-          },
-          {
-            "lineNumber": 37,
-            "text": "    --header-offset: 110px;"
-          },
-          {
-            "lineNumber": 38,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 39,
-            "text": "}"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "body {"
-          },
-          {
-            "lineNumber": 42,
-            "text": "  @apply bg-surface text-base font-primary font-normal leading-relaxed text-ink-muted antialiased;"
-          },
-          {
-            "lineNumber": 43,
-            "text": "}"
-          },
-          {
-            "lineNumber": 44
-          },
-          {
-            "lineNumber": 45,
-            "text": "h1,"
-          },
-          {
-            "lineNumber": 46,
-            "text": "h2,"
-          },
-          {
-            "lineNumber": 47,
-            "text": "h3,"
-          },
-          {
-            "lineNumber": 48,
-            "text": "h4,"
-          },
-          {
-            "lineNumber": 49,
-            "text": "h5,"
-          },
-          {
-            "lineNumber": 50,
-            "text": "h6 {"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  @apply font-primary text-ink;"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  text-wrap: balance;"
-          },
-          {
-            "lineNumber": 53,
-            "text": "  text-transform: capitalize;"
-          },
-          {
-            "lineNumber": 54,
-            "text": "}"
-          },
-          {
-            "lineNumber": 55
-          },
-          {
-            "lineNumber": 56,
-            "text": "/* Inter-only hierarchy: weight + tracking ladder so headings don’t collapse visually */"
-          },
-          {
-            "lineNumber": 57,
-            "text": "h1:not(.article-title),"
-          },
-          {
-            "lineNumber": 58,
-            "text": ".h1 {"
-          },
-          {
-            "lineNumber": 59,
-            "text": "  @apply text-h1-sm md:text-h1 font-bold leading-[1.12] tracking-[-0.03em];"
-          },
-          {
-            "lineNumber": 60,
-            "text": "}"
-          },
-          {
-            "lineNumber": 61
-          },
-          {
-            "lineNumber": 62,
-            "text": "h2,"
-          },
-          {
-            "lineNumber": 63,
-            "text": ".h2 {"
-          },
-          {
-            "lineNumber": 64,
-            "text": "  @apply text-h2-sm md:text-h2 font-bold leading-tight tracking-[-0.025em];"
-          },
-          {
-            "lineNumber": 65,
-            "text": "}"
-          },
-          {
-            "lineNumber": 66
-          },
-          {
-            "lineNumber": 67,
-            "text": "h3,"
-          },
-          {
-            "lineNumber": 68,
-            "text": ".h3 {"
-          },
-          {
-            "lineNumber": 69,
-            "text": "  @apply text-h3-sm md:text-h3 font-semibold leading-snug tracking-[-0.02em];"
-          },
-          {
-            "lineNumber": 70,
-            "text": "}"
-          },
-          {
-            "lineNumber": 71
-          },
-          {
-            "lineNumber": 72,
-            "text": "h4,"
-          },
-          {
-            "lineNumber": 73,
-            "text": ".h4 {"
-          },
-          {
-            "lineNumber": 74,
-            "text": "  @apply text-h4 font-semibold leading-snug tracking-tight;"
-          },
-          {
-            "lineNumber": 75,
-            "text": "}"
-          },
-          {
-            "lineNumber": 76
-          },
-          {
-            "lineNumber": 77,
-            "text": "h5,"
-          },
-          {
-            "lineNumber": 78,
-            "text": ".h5 {"
-          },
-          {
-            "lineNumber": 79,
-            "text": "  @apply text-h5 font-semibold leading-snug tracking-tight;"
-          },
-          {
-            "lineNumber": 80,
-            "text": "}"
-          },
-          {
-            "lineNumber": 81
-          },
-          {
-            "lineNumber": 82,
-            "text": "h6,"
-          },
-          {
-            "lineNumber": 83,
-            "text": ".h6 {"
-          },
-          {
-            "lineNumber": 84,
-            "text": "  @apply text-h6 font-semibold leading-normal tracking-normal;"
-          },
-          {
-            "lineNumber": 85,
-            "text": "}"
-          },
-          {
-            "lineNumber": 86
-          },
-          {
-            "lineNumber": 87,
-            "text": "/* Post titles: real h1, restrained on small screens, scales up with viewport */"
-          },
-          {
-            "lineNumber": 88,
-            "text": ".article-title {"
-          },
-          {
-            "lineNumber": 89,
-            "text": "  @apply font-primary font-bold leading-[1.15] tracking-[-0.035em] text-balance text-ink;"
-          },
-          {
-            "lineNumber": 90,
-            "text": "  @apply text-h2-sm md:text-h2 lg:text-h1-sm xl:text-h1;"
-          },
-          {
-            "lineNumber": 91,
-            "text": "}"
-          },
-          {
-            "lineNumber": 92
-          },
-          {
-            "lineNumber": 93,
-            "text": "b,"
-          },
-          {
-            "lineNumber": 94,
-            "text": "strong {"
-          },
-          {
-            "lineNumber": 95,
-            "text": "    @apply font-semibold;"
-          },
-          {
-            "lineNumber": 96,
-            "text": "}"
-          },
-          {
-            "lineNumber": 97
-          },
-          {
-            "lineNumber": 98,
-            "text": "code {"
-          },
-          {
-            "lineNumber": 99,
-            "text": "    @apply after:border-none;"
-          },
-          {
-            "lineNumber": 100,
-            "text": "}"
-          },
-          {
-            "lineNumber": 101
-          },
-          {
-            "lineNumber": 102,
-            "text": "blockquote\u003ep {"
-          },
-          {
-            "lineNumber": 103,
-            "text": "    @apply !my-0;"
-          },
-          {
-            "lineNumber": 104,
-            "text": "}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 1,
-            "line": 103
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./themes/jorap/assets/css/base.css",
-        "signatures": {}
-      },
-      "score": 0.37455400824546814
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 186,
-            "text": "### Inputs / Fields"
-          },
-          {
-            "lineNumber": 187
-          },
-          {
-            "lineNumber": 188,
-            "text": "- **&#96;form-input&#96; utility:** Full width, **&#96;rounded&#96;**, **&#96;bg-elevated&#96;**, **&#96;px-6 py-4&#96;**, **&#96;text-ink&#96;**, placeholder **&#96;ink-faint&#96;**, **focus border** to **&#96;primary&#96;** / &#96;dark:focus:border-accent&#96;, **transparent ring** (no glow stack)."
-          },
-          {
-            "lineNumber": 189
-          },
-          {
-            "lineNumber": 190,
-            "text": "### Navigation"
-          },
-          {
-            "lineNumber": 191
-          },
-          {
-            "lineNumber": 192,
-            "text": "- **Header:** **&#96;border-b&#96;**, **&#96;bg-surface&#96;**, vertical rhythm **&#96;py-5&#96;**. Brand line uses **&#96;text-2xl&#96; / &#96;xl:text-3xl&#96;** for the site title."
-          },
-          {
-            "lineNumber": 193,
-            "text": "- **Links:** **&#96;font-semibold&#96;**, **&#96;text-ink&#96;**, **&#96;hover:text-accent&#96;**, **200ms ease-out** color transitions. Dropdown **panels** are **&#96;rounded-lg&#96;**, **&#96;border&#96;**, **&#96;shadow-lg&#96;**, **&#96;bg-elevated&#96;**, **padding &#96;p-4&#96;**, **min-width ~180px**."
-          },
-          {
-            "lineNumber": 194,
-            "text": "- **Mobile:** Checkbox hack **&#96;#nav-toggle&#96;**; ensure **keyboard and screen reader** behavior stays aligned when editing (triggers already use **&#96;aria-*&#96;** on dropdowns)."
-          },
-          {
-            "lineNumber": 195
-          },
-          {
-            "lineNumber": 196,
-            "text": "### Signature: Prose long-form"
-          },
-          {
-            "lineNumber": 197
-          },
-          {
-            "lineNumber": 198,
-            "text": "- **&#96;.content&#96; prose** applies typography plugin styling: **headings** use token-linked colors, **blockquotes** are **large, rounded, bordered** with **tinted background** (editorial pull-quote feel), **code** picks up **primary** ink for inline code, **links** underline and **hover to primary**."
-          },
-          {
-            "lineNumber": 199
-          },
-          {
-            "lineNumber": 200,
-            "text": "## Do's and Don'ts"
-          },
-          {
-            "lineNumber": 201
-          },
-          {
-            "lineNumber": 202,
-            "text": "### Do:"
-          },
-          {
-            "lineNumber": 203
-          },
-          {
-            "lineNumber": 204,
-            "text": "- **Do** keep **body copy** inside **~65–70ch** using existing &#96;.content&#96; / &#96;max-w-[70ch]&#96; patterns."
-          },
-          {
-            "lineNumber": 205,
-            "text": "- **Do** use **semantic tokens** (&#96;surface&#96;, &#96;elevated&#96;, &#96;ink&#96;, &#96;accent&#96;, &#96;divider&#96;) so light and dark stay paired."
-          },
-          {
-            "lineNumber": 206,
-            "text": "- **Do** use **short ease-out motion** (roughly **150–300ms**) for hovers and shadows, and **respect reduced motion** for scroll behavior (already on &#96;html&#96;)."
-          },
-          {
-            "lineNumber": 207,
-            "text": "- **Do** treat **charcoal / cream inversion** as the **single accent story** for CTAs and key navigation emphasis."
-          },
-          {
-            "lineNumber": 208
-          },
-          {
-            "lineNumber": 209,
-            "text": "### Don't:"
-          },
-          {
-            "lineNumber": 210
-          },
-          {
-            "lineNumber": 211,
-            "text": "- **Don't** lean on **performative nerd / dev-bro** visuals: rainbow syntax themes in chrome, meme density, or **gaming-stream** layout tropes on the **marketing shell** (per **PRODUCT.md** anti-references)."
-          },
-          {
-            "lineNumber": 212,
-            "text": "- **Don't** ship **generic SaaS landing sameness**: interchangeable hero **big-number metrics**, stock **three-icon feature rows**, or **template thought-leader** filler blocks that could be any startup (per **PRODUCT.md**)."
-          },
-          {
-            "lineNumber": 213,
-            "text": "- **Don't** use **chaotic personal brand** layouts: ironic clutter, random type scales, or **visual noise** that reads as **hard to work with** (per **PRODUCT.md**)."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 213
-          },
-          "startPosition": {
-            "line": 184
-          }
-        },
-        "relativeWorkspacePath": "./docs/DESIGN.md",
-        "signatures": {}
-      },
-      "score": 0.3678135871887207
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "name: JoRap Notes"
-          },
-          {
-            "lineNumber": 3,
-            "text": "description: Warm neutral editorial surface for a professional personal brand, Hugo + Tailwind."
-          },
-          {
-            "lineNumber": 4,
-            "text": "colors:"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  surface: \"#f5f3f0\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "  elevated: \"#eeebe6\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "  accent: \"#181614\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "  ink: \"#161412\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "  ink-muted: \"#3d3a37\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "  ink-faint: \"#6b6762\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "  divider: \"#e5e2dd\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "  deep: \"#121110\""
-          },
-          {
-            "lineNumber": 13,
-            "text": "typography:"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  display:"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    fontFamily: \"Inter, sans-serif\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "    fontSize: \"3.81rem\""
-          },
-          {
-            "lineNumber": 17,
-            "text": "    fontWeight: 700"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    lineHeight: 1.12"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    letterSpacing: \"-0.03em\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "  headline:"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    fontFamily: \"Inter, sans-serif\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "    fontSize: \"3.05rem\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "    fontWeight: 700"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    lineHeight: 1.12"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    letterSpacing: \"-0.03em\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "  title:"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    fontFamily: \"Inter, sans-serif\""
-          },
-          {
-            "lineNumber": 28,
-            "text": "    fontSize: \"2.44rem\""
-          },
-          {
-            "lineNumber": 29,
-            "text": "    fontWeight: 600"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    lineHeight: 1.25"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    letterSpacing: \"-0.02em\""
-          },
-          {
-            "lineNumber": 32,
-            "text": "  body:"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    fontFamily: \"Inter, sans-serif\""
-          },
-          {
-            "lineNumber": 34,
-            "text": "    fontSize: \"16px\""
-          },
-          {
-            "lineNumber": 35,
-            "text": "    fontWeight: 400"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    lineHeight: 1.625"
-          },
-          {
-            "lineNumber": 37,
-            "text": "    letterSpacing: \"normal\""
-          },
-          {
-            "lineNumber": 38,
-            "text": "  label:"
-          },
-          {
-            "lineNumber": 39,
-            "text": "    fontFamily: \"Inter, sans-serif\""
-          },
-          {
-            "lineNumber": 40,
-            "text": "    fontSize: \"14px\""
-          },
-          {
-            "lineNumber": 41,
-            "text": "    fontWeight: 600"
-          },
-          {
-            "lineNumber": 42,
-            "text": "    lineHeight: 1.25"
-          },
-          {
-            "lineNumber": 43,
-            "text": "    letterSpacing: \"normal\""
-          },
-          {
-            "lineNumber": 44,
-            "text": "rounded:"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  sm: \"2px\""
-          },
-          {
-            "lineNumber": 46,
-            "text": "  md: \"4px\""
-          },
-          {
-            "lineNumber": 47,
-            "text": "  lg: \"8px\""
-          },
-          {
-            "lineNumber": 48,
-            "text": "  xl: \"12px\""
-          },
-          {
-            "lineNumber": 49,
-            "text": "  \"2xl\": \"16px\""
-          },
-          {
-            "lineNumber": 50,
-            "text": "spacing:"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  sm: \"8px\""
-          },
-          {
-            "lineNumber": 52,
-            "text": "  md: \"16px\""
-          },
-          {
-            "lineNumber": 53,
-            "text": "  lg: \"24px\""
-          },
-          {
-            "lineNumber": 54,
-            "text": "  xl: \"32px\""
-          },
-          {
-            "lineNumber": 55,
-            "text": "components:"
-          },
-          {
-            "lineNumber": 56,
-            "text": "  button-primary:"
-          },
-          {
-            "lineNumber": 57,
-            "text": "    backgroundColor: \"{colors.accent}\""
-          },
-          {
-            "lineNumber": 58,
-            "text": "    textColor: \"#ffffff\""
-          },
-          {
-            "lineNumber": 59,
-            "text": "    rounded: \"{rounded.md}\""
-          },
-          {
-            "lineNumber": 60,
-            "text": "    padding: \"10px 20px\""
-          },
-          {
-            "lineNumber": 61,
-            "text": "  button-primary-sm:"
-          },
-          {
-            "lineNumber": 62,
-            "text": "    backgroundColor: \"{colors.accent}\""
-          },
-          {
-            "lineNumber": 63,
-            "text": "    textColor: \"#ffffff\""
-          },
-          {
-            "lineNumber": 64,
-            "text": "    rounded: \"{rounded.sm}\""
-          },
-          {
-            "lineNumber": 65,
-            "text": "    padding: \"6px 16px\""
-          },
-          {
-            "lineNumber": 66,
-            "text": "  button-outline-primary:"
-          },
-          {
-            "lineNumber": 67,
-            "text": "    backgroundColor: \"transparent\""
-          },
-          {
-            "lineNumber": 68,
-            "text": "    textColor: \"{colors.ink}\""
-          },
-          {
-            "lineNumber": 69,
-            "text": "    rounded: \"{rounded.md}\""
-          },
-          {
-            "lineNumber": 70,
-            "text": "    padding: \"10px 20px\""
-          },
-          {
-            "lineNumber": 71,
-            "text": "  blog-card:"
-          },
-          {
-            "lineNumber": 72,
-            "text": "    backgroundColor: \"{colors.elevated}\""
-          },
-          {
-            "lineNumber": 73,
-            "text": "    textColor: \"{colors.ink-muted}\""
-          },
-          {
-            "lineNumber": 74,
-            "text": "    rounded: \"{rounded.xl}\""
-          },
-          {
-            "lineNumber": 75,
-            "text": "    padding: \"20px 24px 24px\""
-          },
-          {
-            "lineNumber": 76,
-            "text": "---"
-          },
-          {
-            "lineNumber": 77
-          },
-          {
-            "lineNumber": 78,
-            "text": "# Design System: JoRap Notes"
-          },
-          {
-            "lineNumber": 79
-          },
-          {
-            "lineNumber": 80,
-            "text": "## Overview"
-          },
-          {
-            "lineNumber": 81
-          },
-          {
-            "lineNumber": 82,
-            "text": "**Creative North Star: \"The Quiet Study\"**"
-          },
-          {
-            "lineNumber": 83
-          },
-          {
-            "lineNumber": 84,
-            "text": "This system behaves like **daylight on good paper**: warm off-white fields, charcoal ink for authority, and almost no chromatic noise. Density is **editorial**, not dashboard. The interface is there to make long reads and portfolio judgment feel **calm and legible** under real client skims (laptop, bright office, short attention)."
-          },
-          {
-            "lineNumber": 85
-          },
-          {
-            "lineNumber": 86,
-            "text": "The experience **rejects performative tech theater**: no neon accents, no interchangeable SaaS hero metrics, no visual chaos that reads as \"creator energy\" instead of **hireable clarity**. That line comes straight from **PRODUCT.md** (anti-references: performative nerd energy, generic SaaS sameness, chaotic personal brand)."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 86
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./docs/DESIGN.md",
-        "signatures": {}
-      },
-      "score": 0.36768850684165955
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 72,
-            "text": "    0 0 0 4px var(--color-accent);"
-          },
-          {
-            "lineNumber": 73,
-            "text": "}"
-          },
-          {
-            "lineNumber": 74
-          },
-          {
-            "lineNumber": 75,
-            "text": "/* Buttons: touch minimum at all breakpoints */"
-          },
-          {
-            "lineNumber": 76,
-            "text": ".btn-sm {"
-          },
-          {
-            "lineNumber": 77,
-            "text": "  min-height: var(--touch-target-min, 2.75rem);"
-          },
-          {
-            "lineNumber": 78,
-            "text": "}"
-          },
-          {
-            "lineNumber": 79
-          },
-          {
-            "lineNumber": 80,
-            "text": "/* Mobile/tablet nav CTA: vertically center label in touch-height button */"
-          },
-          {
-            "lineNumber": 81,
-            "text": "@media (max-width: 1023.98px) {"
-          },
-          {
-            "lineNumber": 82,
-            "text": "  .nav-item--cta {"
-          },
-          {
-            "lineNumber": 83,
-            "text": "    display: flex;"
-          },
-          {
-            "lineNumber": 84,
-            "text": "    align-items: center;"
-          },
-          {
-            "lineNumber": 85,
-            "text": "    justify-content: center;"
-          },
-          {
-            "lineNumber": 86,
-            "text": "    width: 100%;"
-          },
-          {
-            "lineNumber": 87,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 88
-          },
-          {
-            "lineNumber": 89,
-            "text": "  .nav-item--cta .btn {"
-          },
-          {
-            "lineNumber": 90,
-            "text": "    display: inline-flex;"
-          },
-          {
-            "lineNumber": 91,
-            "text": "    align-items: center;"
-          },
-          {
-            "lineNumber": 92,
-            "text": "    justify-content: center;"
-          },
-          {
-            "lineNumber": 93,
-            "text": "    width: 100%;"
-          },
-          {
-            "lineNumber": 94,
-            "text": "    min-height: var(--touch-target-min, 2.75rem);"
-          },
-          {
-            "lineNumber": 95,
-            "text": "    line-height: 1.25;"
-          },
-          {
-            "lineNumber": 96,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 97,
-            "text": "}"
-          },
-          {
-            "lineNumber": 98
-          },
-          {
-            "lineNumber": 99,
-            "text": "/* Target divs with inline style matching the YouTube embed container */"
-          },
-          {
-            "lineNumber": 100
-          },
-          {
-            "lineNumber": 101,
-            "text": "/* Robust selectors for YouTube embed containers (handles spacing variations) */"
-          },
-          {
-            "lineNumber": 102,
-            "text": "div[style*=\"position: relative\"][style*=\"padding-bottom:56.25%\"],"
-          },
-          {
-            "lineNumber": 103,
-            "text": "div[style*=\"position:relative\"][style*=\"padding-bottom:56.25%\"],"
-          },
-          {
-            "lineNumber": 104,
-            "text": "div[style*=\"position: relative\"][style*=\"padding-bottom: 56.25%\"],"
-          },
-          {
-            "lineNumber": 105,
-            "text": "div[style*=\"position:relative\"][style*=\"padding-bottom: 56.25%\"] {"
-          },
-          {
-            "lineNumber": 106,
-            "text": "  margin-bottom: 1.5rem;"
-          },
-          {
-            "lineNumber": 107,
-            "text": "}"
-          },
-          {
-            "lineNumber": 108
-          },
-          {
-            "lineNumber": 109,
-            "text": "/* If a class is used for YouTube embeds, add a rule here as well (uncomment and adjust as needed) */"
-          },
-          {
-            "lineNumber": 110,
-            "text": "/*"
-          },
-          {
-            "lineNumber": 111,
-            "text": ".youtube-embed {"
-          },
-          {
-            "lineNumber": 112,
-            "text": "  margin-bottom: 1.5rem;"
-          },
-          {
-            "lineNumber": 113,
-            "text": "}"
-          },
-          {
-            "lineNumber": 114,
-            "text": "*/"
-          },
-          {
-            "lineNumber": 115
-          },
-          {
-            "lineNumber": 116,
-            "text": "/* Dark mode prose: align with theme tokens instead of flat pure white."
-          },
-          {
-            "lineNumber": 117,
-            "text": " * Excludes &#96;.btn&#96; anchors so button variants keep their own text colors"
-          },
-          {
-            "lineNumber": 118,
-            "text": " * (otherwise btn-primary text was forced to a near-white token, going"
-          },
-          {
-            "lineNumber": 119,
-            "text": " * invisible against the cream accent fill in dark mode). */"
-          },
-          {
-            "lineNumber": 120,
-            "text": "html.dark .content p,"
-          },
-          {
-            "lineNumber": 121,
-            "text": "html.dark .content li,"
-          },
-          {
-            "lineNumber": 122,
-            "text": "html.dark .content ul,"
-          },
-          {
-            "lineNumber": 123,
-            "text": "html.dark .content ol,"
-          },
-          {
-            "lineNumber": 124,
-            "text": "html.dark .content td,"
-          },
-          {
-            "lineNumber": 125,
-            "text": "html.dark .content blockquote {"
-          },
-          {
-            "lineNumber": 126,
-            "text": "  color: var(--color-ink-muted) !important;"
-          },
-          {
-            "lineNumber": 127,
-            "text": "}"
-          },
-          {
-            "lineNumber": 128
-          },
-          {
-            "lineNumber": 129,
-            "text": "html.dark .content h1,"
-          },
-          {
-            "lineNumber": 130,
-            "text": "html.dark .content h2,"
-          },
-          {
-            "lineNumber": 131,
-            "text": "html.dark .content h3,"
-          },
-          {
-            "lineNumber": 132,
-            "text": "html.dark .content h4,"
-          },
-          {
-            "lineNumber": 133,
-            "text": "html.dark .content h5,"
-          },
-          {
-            "lineNumber": 134,
-            "text": "html.dark .content h6 {"
-          },
-          {
-            "lineNumber": 135,
-            "text": "  color: var(--color-ink) !important;"
-          },
-          {
-            "lineNumber": 136,
-            "text": "}"
-          },
-          {
-            "lineNumber": 137
-          },
-          {
-            "lineNumber": 138,
-            "text": "html.dark .content a:not(.btn) {"
-          },
-          {
-            "lineNumber": 139,
-            "text": "  color: var(--color-ink) !important;"
-          },
-          {
-            "lineNumber": 140,
-            "text": "}"
-          },
-          {
-            "lineNumber": 141
-          },
-          {
-            "lineNumber": 142,
-            "text": "html.dark .content a:not(.btn):hover {"
-          },
-          {
-            "lineNumber": 143,
-            "text": "  color: var(--color-accent) !important;"
-          },
-          {
-            "lineNumber": 144,
-            "text": "}"
-          },
-          {
-            "lineNumber": 145
-          },
-          {
-            "lineNumber": 146,
-            "text": "/* Tag chips inside &#96;.content&#96; opt out of the prose link colors above so"
-          },
-          {
-            "lineNumber": 147,
-            "text": " * their own hover (light text on accent fill) stays readable. */"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 147
-          },
-          "startPosition": {
-            "line": 71
-          }
-        },
-        "relativeWorkspacePath": "./assets/css/custom.css",
-        "signatures": {}
-      },
-      "score": 0.34015750885009766
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 182,
-            "text": "    ],"
-          },
-          {
-            "lineNumber": 183,
-            "text": "    \"rules\": ["
-          },
-          {
-            "lineNumber": 184,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 185,
-            "text": "        \"name\": \"The One Accent Rule\","
-          },
-          {
-            "lineNumber": 186,
-            "text": "        \"body\": \"The charcoal / cream accent is the only strong contrast pair for chrome and CTAs. Do not introduce a second saturated hue for decoration.\","
-          },
-          {
-            "lineNumber": 187,
-            "text": "        \"section\": \"colors\""
-          },
-          {
-            "lineNumber": 188,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 189,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 190,
-            "text": "        \"name\": \"The Gray-on-Color Rule\","
-          },
-          {
-            "lineNumber": 191,
-            "text": "        \"body\": \"Do not park cool gray text on tinted surfaces; use the semantic ink steps (ink, ink-muted, ink-faint) so text always shares the warmth of the background.\","
-          },
-          {
-            "lineNumber": 192,
-            "text": "        \"section\": \"colors\""
-          },
-          {
-            "lineNumber": 193,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 194,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 195,
-            "text": "        \"name\": \"The Inter-Only Rule\","
-          },
-          {
-            "lineNumber": 196,
-            "text": "        \"body\": \"Do not add a second font family for \\\"personality\\\" until PRODUCT.md explicitly asks for it; hierarchy must stay on scale, weight, and tracking first.\","
-          },
-          {
-            "lineNumber": 197,
-            "text": "        \"section\": \"typography\""
-          },
-          {
-            "lineNumber": 198,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 199,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 200,
-            "text": "        \"name\": \"The Article Title Rule\","
-          },
-          {
-            "lineNumber": 201,
-            "text": "        \"body\": \"Blog post titles use .article-title: real h1 with a tighter ramp (text-h2-sm through text-h1) so long titles stay dignified on small screens.\","
-          },
-          {
-            "lineNumber": 202,
-            "text": "        \"section\": \"typography\""
-          },
-          {
-            "lineNumber": 203,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 204,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 205,
-            "text": "        \"name\": \"The Flat-by-Default Rule\","
-          },
-          {
-            "lineNumber": 206,
-            "text": "        \"body\": \"Do not stack shadow + heavy border + gradient on the same block unless one role is clearly primary; default to flat elevated surface.\","
-          },
-          {
-            "lineNumber": 207,
-            "text": "        \"section\": \"elevation\""
-          },
-          {
-            "lineNumber": 208,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 209,
-            "text": "    ],"
-          },
-          {
-            "lineNumber": 210,
-            "text": "    \"dos\": ["
-          },
-          {
-            "lineNumber": 211,
-            "text": "      \"Do keep body copy inside ~65–70ch using existing .content / max-w-[70ch] patterns.\","
-          },
-          {
-            "lineNumber": 212,
-            "text": "      \"Do use semantic tokens (surface, elevated, ink, accent, divider) so light and dark stay paired.\","
-          },
-          {
-            "lineNumber": 213,
-            "text": "      \"Do use short ease-out motion (roughly 150–300ms) for hovers and shadows, and respect reduced motion for scroll behavior (already on html).\","
-          },
-          {
-            "lineNumber": 214,
-            "text": "      \"Do treat charcoal / cream inversion as the single accent story for CTAs and key navigation emphasis.\""
-          },
-          {
-            "lineNumber": 215,
-            "text": "    ],"
-          },
-          {
-            "lineNumber": 216,
-            "text": "    \"donts\": ["
-          },
-          {
-            "lineNumber": 217,
-            "text": "      \"Don't lean on performative nerd / dev-bro visuals: rainbow syntax themes in chrome, meme density, or gaming-stream layout tropes on the marketing shell (per PRODUCT.md anti-references).\","
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 217
-          },
-          "startPosition": {
-            "line": 181
-          }
-        },
-        "relativeWorkspacePath": "./docs/DESIGN.json",
-        "signatures": {}
-      },
-      "score": 0.3296545147895813
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 103,
-            "text": "### Secondary"
-          },
-          {
-            "lineNumber": 104
-          },
-          {
-            "lineNumber": 105,
-            "text": "- Not used as a separate hue. **Secondary actions** use **outline** treatments (border + transparent fill) or **muted ink** links instead of a second brand color."
-          },
-          {
-            "lineNumber": 106
-          },
-          {
-            "lineNumber": 107,
-            "text": "### Tertiary"
-          },
-          {
-            "lineNumber": 108
-          },
-          {
-            "lineNumber": 109,
-            "text": "- Omitted. The system does not introduce a third accent color."
-          },
-          {
-            "lineNumber": 110
-          },
-          {
-            "lineNumber": 111,
-            "text": "### Neutral"
-          },
-          {
-            "lineNumber": 112
-          },
-          {
-            "lineNumber": 113,
-            "text": "- **Warm Paper** (&#96;#f5f3f0&#96;): Default page background (&#96;body&#96; / &#96;surface&#96;)."
-          },
-          {
-            "lineNumber": 114,
-            "text": "- **Shell** (&#96;#eeebe6&#96;): Elevated panels, cards, inputs, blockquote backgrounds (&#96;elevated&#96; / &#96;light&#96;)."
-          },
-          {
-            "lineNumber": 115,
-            "text": "- **Strong Ink** (&#96;#161412&#96;): Headings and highest-contrast text (&#96;text-dark&#96; / semantic &#96;ink&#96;)."
-          },
-          {
-            "lineNumber": 116,
-            "text": "- **Body Ink** (&#96;#3d3a37&#96;): Paragraph and default reading color (&#96;text&#96; / &#96;ink-muted&#96;)."
-          },
-          {
-            "lineNumber": 117,
-            "text": "- **Quiet Ink** (&#96;#6b6762&#96;): Meta lines, placeholders, de-emphasized UI (&#96;text-light&#96; / &#96;ink-faint&#96;)."
-          },
-          {
-            "lineNumber": 118,
-            "text": "- **Dust Border** (&#96;#e5e2dd&#96;): Rules, card edges, table frames (&#96;border&#96; / &#96;divider&#96;)."
-          },
-          {
-            "lineNumber": 119,
-            "text": "- **Deep Ground** (&#96;#121110&#96;): Deepest dark theme backdrop and small UI anchors where the theme uses &#96;dark&#96; as a solid (for example theme switcher track)."
-          },
-          {
-            "lineNumber": 120
-          },
-          {
-            "lineNumber": 121,
-            "text": "Dark mode mirrors these roles with **&#96;darkmode-*&#96; CSS variables** (see &#96;data/theme.json&#96; and &#96;tailwind-plugin/tw-theme.js&#96;): surfaces darken, ink lightens, borders deepen, and the **accent fill inverts** so contrast ratios stay in family."
-          },
-          {
-            "lineNumber": 122
-          },
-          {
-            "lineNumber": 123,
-            "text": "### Named Rules"
-          },
-          {
-            "lineNumber": 124
-          },
-          {
-            "lineNumber": 125,
-            "text": "**The One Accent Rule.** The charcoal / cream accent is the **only** strong contrast pair for chrome and CTAs. Do not introduce a second saturated hue for decoration."
-          },
-          {
-            "lineNumber": 126
-          },
-          {
-            "lineNumber": 127,
-            "text": "**The Gray-on-Color Rule.** Do not park **cool gray** text on tinted surfaces; use the **semantic ink** steps (&#96;ink&#96;, &#96;ink-muted&#96;, &#96;ink-faint&#96;) so text always shares the **warmth of the background**."
-          },
-          {
-            "lineNumber": 128
-          },
-          {
-            "lineNumber": 129,
-            "text": "## Typography"
-          },
-          {
-            "lineNumber": 130
-          },
-          {
-            "lineNumber": 131,
-            "text": "**Display / UI Font:** Inter (with &#96;sans-serif&#96; fallback)  "
-          },
-          {
-            "lineNumber": 132,
-            "text": "**Body Font:** Inter (same stack for &#96;font-primary&#96; and &#96;font-secondary&#96; in this project)"
-          },
-          {
-            "lineNumber": 133
-          },
-          {
-            "lineNumber": 134,
-            "text": "**Character:** Neutral, contemporary, and **office-safe**. Weight and tracking do the hierarchy work; there is no editorial serif second voice in the current build."
-          },
-          {
-            "lineNumber": 135
-          },
-          {
-            "lineNumber": 136,
-            "text": "### Hierarchy"
-          },
-          {
-            "lineNumber": 137
-          },
-          {
-            "lineNumber": 138,
-            "text": "- **Display** (700, &#96;3.81rem&#96; / &#96;clamp&#96; via &#96;text-h1&#96; and breakpoints, line-height ~1.12, tight negative tracking): Reserved for **top-level marketing or page titles** when the full scale ladder applies (&#96;h1&#96; / &#96;.h1&#96;)."
-          },
-          {
-            "lineNumber": 139,
-            "text": "- **Headline** (700, &#96;3.05rem&#96; with responsive &#96;-sm&#96; variants, line-height ~1.12): Section headings (&#96;h2&#96;), large list titles."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 139
-          },
-          "startPosition": {
-            "line": 101
-          }
-        },
-        "relativeWorkspacePath": "./docs/DESIGN.md",
-        "signatures": {}
-      },
-      "score": 0.3230586647987366
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{ define \"main\" }}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  {{ partial \"page-header\" . }}"
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4
-          },
-          {
-            "lineNumber": 5,
-            "text": "  \u003csection class=\"section-sm\"\u003e"
-          },
-          {
-            "lineNumber": 6,
-            "text": "    \u003cdiv class=\"container\"\u003e"
-          },
-          {
-            "lineNumber": 7,
-            "text": "      \u003cdiv class=\"row justify-center\"\u003e"
-          },
-          {
-            "lineNumber": 8,
-            "text": "        \u003cdiv class=\"lg:col-10\"\u003e"
-          },
-          {
-            "lineNumber": 9,
-            "text": "          \u003cdiv class=\"content\"\u003e"
-          },
-          {
-            "lineNumber": 10,
-            "text": "            {{ .Content }}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 12,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  \u003c/section\u003e"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{ end }}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 16
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./themes/jorap/layouts/single.html",
-        "signatures": {}
-      },
-      "score": 0.2930237650871277
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 48,
-            "text": "  @apply prose-li:text-ink-muted;"
-          },
-          {
-            "lineNumber": 49,
-            "text": "  @apply prose-table:relative prose-table:overflow-hidden prose-table:rounded-lg prose-table:before:absolute prose-table:before:left-0 prose-table:before:top-0 prose-table:before:h-full prose-table:before:w-full prose-table:before:rounded-[inherit] prose-table:before:border prose-table:before:border-divider prose-table:before:content-[\"\"];"
-          },
-          {
-            "lineNumber": 50,
-            "text": "  @apply prose-thead:border-divider prose-thead:bg-elevated;"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  @apply prose-th:relative prose-th:z-10 prose-th:px-4 prose-th:py-[18px] prose-th:text-ink;"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  @apply prose-tr:border-divider;"
-          },
-          {
-            "lineNumber": 53,
-            "text": "  @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] prose-td:text-ink-muted;"
-          },
-          {
-            "lineNumber": 54,
-            "text": "}"
-          },
-          {
-            "lineNumber": 55
-          },
-          {
-            "lineNumber": 56,
-            "text": "/* Buttons inside prose content: prose-a styles would otherwise force"
-          },
-          {
-            "lineNumber": 57,
-            "text": " * text-ink-muted/underline onto buttons. Re-assert each variant's own"
-          },
-          {
-            "lineNumber": 58,
-            "text": " * text colors with !important so light + dark mode stay consistent. */"
-          },
-          {
-            "lineNumber": 59,
-            "text": ".content .btn {"
-          },
-          {
-            "lineNumber": 60,
-            "text": "  @apply no-underline;"
-          },
-          {
-            "lineNumber": 61,
-            "text": "}"
-          },
-          {
-            "lineNumber": 62,
-            "text": ".content .btn-primary {"
-          },
-          {
-            "lineNumber": 63,
-            "text": "  @apply !text-on-accent hover:!text-on-accent;"
-          },
-          {
-            "lineNumber": 64,
-            "text": "}"
-          },
-          {
-            "lineNumber": 65,
-            "text": ".content .btn-outline-primary {"
-          },
-          {
-            "lineNumber": 66,
-            "text": "  @apply !text-ink hover:!text-on-accent;"
-          },
-          {
-            "lineNumber": 67,
-            "text": "}"
-          },
-          {
-            "lineNumber": 68
-          },
-          {
-            "lineNumber": 69,
-            "text": ".image--partial {"
-          },
-          {
-            "lineNumber": 70,
-            "text": "  @apply w-full rounded aspect-video object-cover;"
-          },
-          {
-            "lineNumber": 71,
-            "text": "  will-change: transform;"
-          },
-          {
-            "lineNumber": 72,
-            "text": "  content-visibility: auto;"
-          },
-          {
-            "lineNumber": 73,
-            "text": "}"
-          },
-          {
-            "lineNumber": 74
-          },
-          {
-            "lineNumber": 75,
-            "text": "/* Table of Contents styling */"
-          },
-          {
-            "lineNumber": 76,
-            "text": "#TableOfContents ol {"
-          },
-          {
-            "lineNumber": 77,
-            "text": "  @apply list-none pl-0;"
-          },
-          {
-            "lineNumber": 78,
-            "text": "}"
-          },
-          {
-            "lineNumber": 79
-          },
-          {
-            "lineNumber": 80,
-            "text": "#TableOfContents ol ol {"
-          },
-          {
-            "lineNumber": 81,
-            "text": "  @apply pl-4;"
-          },
-          {
-            "lineNumber": 82,
-            "text": "}"
-          },
-          {
-            "lineNumber": 83
-          },
-          {
-            "lineNumber": 84,
-            "text": "#TableOfContents ol ol ol {"
-          },
-          {
-            "lineNumber": 85,
-            "text": "  @apply pl-6;"
-          },
-          {
-            "lineNumber": 86,
-            "text": "}"
-          },
-          {
-            "lineNumber": 87
-          },
-          {
-            "lineNumber": 88,
-            "text": "#TableOfContents ol ol ol ol {"
-          },
-          {
-            "lineNumber": 89,
-            "text": "  @apply pl-8;"
-          },
-          {
-            "lineNumber": 90,
-            "text": "}"
-          },
-          {
-            "lineNumber": 91
-          },
-          {
-            "lineNumber": 92,
-            "text": "#TableOfContents .toc-level-3 {"
-          },
-          {
-            "lineNumber": 93,
-            "text": "  @apply pl-4;"
-          },
-          {
-            "lineNumber": 94,
-            "text": "}"
-          },
-          {
-            "lineNumber": 95
-          },
-          {
-            "lineNumber": 96,
-            "text": "#TableOfContents .toc-level-4 {"
-          },
-          {
-            "lineNumber": 97,
-            "text": "  @apply pl-6;"
-          },
-          {
-            "lineNumber": 98,
-            "text": "}"
-          },
-          {
-            "lineNumber": 99
-          },
-          {
-            "lineNumber": 100,
-            "text": "#TableOfContents .toc-level-5 {"
-          },
-          {
-            "lineNumber": 101,
-            "text": "  @apply pl-8;"
-          },
-          {
-            "lineNumber": 102,
-            "text": "}"
-          },
-          {
-            "lineNumber": 103
-          },
-          {
-            "lineNumber": 104,
-            "text": ".dark .mermaid {"
-          },
-          {
-            "lineNumber": 105,
-            "text": "  background: var(--color-elevated);"
-          },
-          {
-            "lineNumber": 106,
-            "text": "}"
-          },
-          {
-            "lineNumber": 107
-          },
-          {
-            "lineNumber": 108,
-            "text": ".dark .mermaid p {"
-          },
-          {
-            "lineNumber": 109,
-            "text": "  color: var(--color-ink);"
-          },
-          {
-            "lineNumber": 110,
-            "text": "}"
-          },
-          {
-            "lineNumber": 111
-          },
-          {
-            "lineNumber": 112,
-            "text": "code {"
-          },
-          {
-            "lineNumber": 113,
-            "text": "  padding-inline: 0 !important;"
-          },
-          {
-            "lineNumber": 114,
-            "text": "}"
-          },
-          {
-            "lineNumber": 115
-          },
-          {
-            "lineNumber": 116,
-            "text": "blockquote p {"
-          },
-          {
-            "lineNumber": 117,
-            "text": "  padding-bottom: 20px;"
-          },
-          {
-            "lineNumber": 118,
-            "text": "}"
-          },
-          {
-            "lineNumber": 119
-          },
-          {
-            "lineNumber": 120,
-            "text": "blockquote p:last-child {"
-          },
-          {
-            "lineNumber": 121,
-            "text": "  padding-bottom: 0;"
-          },
-          {
-            "lineNumber": 122,
-            "text": "}"
-          },
-          {
-            "lineNumber": 123
-          },
-          {
-            "lineNumber": 124,
-            "text": "blockquote li {"
-          },
-          {
-            "lineNumber": 125,
-            "text": "  font-size: var(--text-base);"
-          },
-          {
-            "lineNumber": 126,
-            "text": "}"
-          },
-          {
-            "lineNumber": 127
-          },
-          {
-            "lineNumber": 128,
-            "text": ".tags_section ul {"
-          },
-          {
-            "lineNumber": 129,
-            "text": "  padding-inline: 0;"
-          },
-          {
-            "lineNumber": 130,
-            "text": "  margin: 0;"
-          },
-          {
-            "lineNumber": 131,
-            "text": "}"
-          },
-          {
-            "lineNumber": 132
-          },
-          {
-            "lineNumber": 133,
-            "text": ".pagination-control {"
-          },
-          {
-            "lineNumber": 134,
-            "text": "  @apply inline-flex items-center justify-center;"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 134
-          },
-          "startPosition": {
-            "line": 47
-          }
-        },
-        "relativeWorkspacePath": "./themes/jorap/assets/css/components.css",
-        "signatures": {}
-      },
-      "score": 0.28549641370773315
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $class := site.Params.notes.wikilink_class | default \"wikilink\" -}}"
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $raw := $page.RawContent -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $raw = replaceRE &#96;(?s)\\n## See also[\\s\\S]*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $content := $page.RenderString $raw -}}"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 11
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- /* Typographer may curl apostrophes inside [[wikilinks]] before we replace them */ -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $content = replace $content \"\\u2019\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $content = replace $content \"\\u2018\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- $content = replace $content \"\u0026rsquo;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- $content = replace $content \"\u0026#8217;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- $content = replace $content \"\u0026apos;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- /* Keep inline code / pre blocks literal (e.g. &#96;[[wikilinks]]&#96; in Getting Started) */ -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- $protected := slice -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "{{- $blocks := findRE &#96;(?s)\u003c(?:code|pre)[^\u003e]*\u003e.*?\u003c/(?:code|pre)\u003e&#96; $content -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- range $i, $block := $blocks -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  {{- $token := printf \"WIKILINK-PROTECT-%d-END\" $i -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- $protected = $protected | append (dict \"token\" $token \"block\" $block) -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- $content = replace $content $block $token -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "{{- /* Resolve each [[wikilink]] via the link registry (case-insensitive keys) */ -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "{{- $links := findRE &#96;\\[\\[[^\\]|]+\\]\\]&#96; $content -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "{{- $links = union $links (findRE &#96;\\[\\[[^\\]|]+#[^\\]|]+\\]\\]&#96; $content) -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "{{- $seen := dict -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "{{- range $links -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  {{- $full := . -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 33
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
-        "signatures": {}
-      },
-      "score": 0.2844125032424927
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "######################## default configuration ####################"
-          },
-          {
-            "lineNumber": 2,
-            "text": "# The base URL of your site (required). This will be prepended to all relative URLs."
-          },
-          {
-            "lineNumber": 3,
-            "text": "# Override per-environment via the HUGO_BASEURL env var (Vercel/Netlify/Amplify build settings)."
-          },
-          {
-            "lineNumber": 4,
-            "text": "baseURL = \"https://www.jorap.com/\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "# Title of your website (required)."
-          },
-          {
-            "lineNumber": 6,
-            "text": "title = \"JoRap Notes\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "# Your theme name"
-          },
-          {
-            "lineNumber": 8,
-            "text": "theme = \"jorap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List"
-          },
-          {
-            "lineNumber": 10,
-            "text": "timeZone = \"Asia/Manila\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "# post excerpt"
-          },
-          {
-            "lineNumber": 12,
-            "text": "summaryLength = 10 # see https://gohugo.io/content-management/excerpts/"
-          },
-          {
-            "lineNumber": 13,
-            "text": "# disable language"
-          },
-          {
-            "lineNumber": 14,
-            "text": "disableLanguages = ["
-          },
-          {
-            "lineNumber": 15,
-            "text": "] # example: [\"fr\"] for disable french language. see https://gohugo.io/content-management/multilingual/"
-          },
-          {
-            "lineNumber": 16,
-            "text": "hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage"
-          },
-          {
-            "lineNumber": 17,
-            "text": "# default language"
-          },
-          {
-            "lineNumber": 18,
-            "text": "defaultContentLanguage = 'en'"
-          },
-          {
-            "lineNumber": 19,
-            "text": "# defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page"
-          },
-          {
-            "lineNumber": 20,
-            "text": "defaultContentLanguageInSubdir = false"
-          },
-          {
-            "lineNumber": 21,
-            "text": "disableHugoGeneratorInject = true"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "########################### Security #############################"
-          },
-          {
-            "lineNumber": 24,
-            "text": "# resources.GetRemote inspects the Content-Type of every fetched resource"
-          },
-          {
-            "lineNumber": 25,
-            "text": "# against a default allowlist. Google Fonts serves woff/woff2 binaries from"
-          },
-          {
-            "lineNumber": 26,
-            "text": "# fonts.gstatic.com which are not in the default allowlist, so the build-"
-          },
-          {
-            "lineNumber": 27,
-            "text": "# time font self-hoster (partials/essentials/self-hosted-fonts.html) would"
-          },
-          {
-            "lineNumber": 28,
-            "text": "# fail without these entries. The regexes below are additive to the"
-          },
-          {
-            "lineNumber": 29,
-            "text": "# defaults, not a replacement."
-          },
-          {
-            "lineNumber": 30,
-            "text": "[security]"
-          },
-          {
-            "lineNumber": 31,
-            "text": "[security.http]"
-          },
-          {
-            "lineNumber": 32,
-            "text": "mediaTypes = ['^font/woff2?$', '^application/font-woff2?$']"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "########################### Services #############################"
-          },
-          {
-            "lineNumber": 35,
-            "text": "[services]"
-          },
-          {
-            "lineNumber": 36,
-            "text": "[services.googleAnalytics]"
-          },
-          {
-            "lineNumber": 37,
-            "text": "ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "[services.disqus]"
-          },
-          {
-            "lineNumber": 40,
-            "text": "shortname = 'jorap' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42,
-            "text": "########################## Privacy ##############################"
-          },
-          {
-            "lineNumber": 43,
-            "text": "[privacy]"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 43
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./hugo.toml",
-        "signatures": {}
-      },
-      "score": 0.27597999572753906
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Markdown Formatting\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Markdown Formatting for Posts and Notes\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Good Markdown formatting is about scanning - headings, short paragraphs, lists. Same rules in blog posts and private notes.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-19T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/image-template.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Website\", \"Technology\", \"Tutorial\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Markdown\", \"Formatting\", \"Readability\", \"Writing\", \"Hugo\", \"Note Taking\", \"PKM\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"markdown-formatting\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "draft: true"
-          },
-          {
-            "lineNumber": 13,
-            "text": "---"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "Markdown formatting is **structure without a WYSIWYG**. I use the same habits in Hugo posts and wiki tiddlers: break early, heading every scroll, code fences for commands."
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "Bad formatting wastes the best ideas behind a wall of text."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "---"
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## One idea per paragraph"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "Three to five lines max on web. **Enter key is your friend.**"
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "---"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "## Heading hierarchy"
-          },
-          {
-            "lineNumber": 28
-          },
-          {
-            "lineNumber": 29,
-            "text": "Don't skip H2 to H4. Screen readers and TOC generators care. **Logical outline = readable outline.**"
-          },
-          {
-            "lineNumber": 30
-          },
-          {
-            "lineNumber": 31,
-            "text": "---"
-          },
-          {
-            "lineNumber": 32
-          },
-          {
-            "lineNumber": 33,
-            "text": "## Tables sparingly"
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "Comparison tables help; wide tables break mobile. **Lists often beat tables** for notes."
-          },
-          {
-            "lineNumber": 36
-          },
-          {
-            "lineNumber": 37,
-            "text": "---"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "## Bottom line"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "Markdown formatting is UX. **Format while you write**, not in a panic before publish. Future readers include you."
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "lineNumber": 43,
-            "text": "*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 43
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/blog/__markdown-formatting.md",
-        "signatures": {}
-      },
-      "score": 0.275238037109375
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 67,
-            "text": "      \"divider\": {"
-          },
-          {
-            "lineNumber": 68,
-            "text": "        \"role\": \"neutral\","
-          },
-          {
-            "lineNumber": 69,
-            "text": "        \"displayName\": \"Dust Border\","
-          },
-          {
-            "lineNumber": 70,
-            "text": "        \"canonical\": \"oklch(90% 0.004 80)\","
-          },
-          {
-            "lineNumber": 71,
-            "text": "        \"tonalRamp\": ["
-          },
-          {
-            "lineNumber": 72,
-            "text": "          \"oklch(25% 0.01 80)\","
-          },
-          {
-            "lineNumber": 73,
-            "text": "          \"oklch(40% 0.012 80)\","
-          },
-          {
-            "lineNumber": 74,
-            "text": "          \"oklch(55% 0.01 80)\","
-          },
-          {
-            "lineNumber": 75,
-            "text": "          \"oklch(68% 0.008 80)\","
-          },
-          {
-            "lineNumber": 76,
-            "text": "          \"oklch(78% 0.006 80)\","
-          },
-          {
-            "lineNumber": 77,
-            "text": "          \"oklch(85% 0.005 80)\","
-          },
-          {
-            "lineNumber": 78,
-            "text": "          \"oklch(88% 0.004 80)\","
-          },
-          {
-            "lineNumber": 79,
-            "text": "          \"oklch(90% 0.004 80)\""
-          },
-          {
-            "lineNumber": 80,
-            "text": "        ]"
-          },
-          {
-            "lineNumber": 81,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 82,
-            "text": "    },"
-          },
-          {
-            "lineNumber": 83,
-            "text": "    \"typographyMeta\": {"
-          },
-          {
-            "lineNumber": 84,
-            "text": "      \"display\": {"
-          },
-          {
-            "lineNumber": 85,
-            "text": "        \"displayName\": \"Display\","
-          },
-          {
-            "lineNumber": 86,
-            "text": "        \"purpose\": \"Top-level page titles when the full h1 scale is used.\""
-          },
-          {
-            "lineNumber": 87,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 88,
-            "text": "      \"body\": {"
-          },
-          {
-            "lineNumber": 89,
-            "text": "        \"displayName\": \"Body\","
-          },
-          {
-            "lineNumber": 90,
-            "text": "        \"purpose\": \"Default reading text; prose capped near 70ch.\""
-          },
-          {
-            "lineNumber": 91,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 92,
-            "text": "    },"
-          },
-          {
-            "lineNumber": 93,
-            "text": "    \"shadows\": ["
-          },
-          {
-            "lineNumber": 94,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 95,
-            "text": "        \"name\": \"card-rest\","
-          },
-          {
-            "lineNumber": 96,
-            "text": "        \"value\": \"0 1px 2px 0 rgb(0 0 0 / 0.05)\","
-          },
-          {
-            "lineNumber": 97,
-            "text": "        \"purpose\": \"Blog cards and light panels at rest (Tailwind shadow-sm).\""
-          },
-          {
-            "lineNumber": 98,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 99,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 100,
-            "text": "        \"name\": \"card-hover\","
-          },
-          {
-            "lineNumber": 101,
-            "text": "        \"value\": \"0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)\","
-          },
-          {
-            "lineNumber": 102,
-            "text": "        \"purpose\": \"Slightly deeper lift on interactive cards (Tailwind shadow-md).\""
-          },
-          {
-            "lineNumber": 103,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 105,
-            "text": "        \"name\": \"dropdown\","
-          },
-          {
-            "lineNumber": 106,
-            "text": "        \"value\": \"0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)\","
-          },
-          {
-            "lineNumber": 107,
-            "text": "        \"purpose\": \"Navigation dropdowns and floating controls (Tailwind shadow-lg).\""
-          },
-          {
-            "lineNumber": 108,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 109,
-            "text": "    ],"
-          },
-          {
-            "lineNumber": 110,
-            "text": "    \"motion\": ["
-          },
-          {
-            "lineNumber": 111,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 112,
-            "text": "        \"name\": \"ease-nav\","
-          },
-          {
-            "lineNumber": 113,
-            "text": "        \"value\": \"color 200ms ease-out\","
-          },
-          {
-            "lineNumber": 114,
-            "text": "        \"purpose\": \"Navigation link and dropdown color transitions.\""
-          },
-          {
-            "lineNumber": 115,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 116,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 117,
-            "text": "        \"name\": \"ease-card\","
-          },
-          {
-            "lineNumber": 118,
-            "text": "        \"value\": \"box-shadow 300ms ease-out, border-color 300ms ease-out\","
-          },
-          {
-            "lineNumber": 119,
-            "text": "        \"purpose\": \"Blog card hover lift.\""
-          },
-          {
-            "lineNumber": 120,
-            "text": "      },"
-          },
-          {
-            "lineNumber": 121,
-            "text": "      {"
-          },
-          {
-            "lineNumber": 122,
-            "text": "        \"name\": \"ease-standard\","
-          },
-          {
-            "lineNumber": 123,
-            "text": "        \"value\": \"cubic-bezier(0.25, 0.1, 0.25, 1)\","
-          },
-          {
-            "lineNumber": 124,
-            "text": "        \"purpose\": \"Default ease-out family for UI feedback.\""
-          },
-          {
-            "lineNumber": 125,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 126,
-            "text": "    ],"
-          },
-          {
-            "lineNumber": 127,
-            "text": "    \"breakpoints\": ["
-          },
-          {
-            "lineNumber": 128,
-            "text": "      { \"name\": \"sm\", \"value\": \"640px\" },"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 128
-          },
-          "startPosition": {
-            "line": 66
-          }
-        },
-        "relativeWorkspacePath": "./docs/DESIGN.json",
-        "signatures": {}
-      },
-      "score": 0.27095869183540344
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 66,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 67,
-            "text": "          {{ end }}"
-          },
-          {
-            "lineNumber": 68
-          },
-          {
-            "lineNumber": 69,
-            "text": "          \u003cdiv class=\"content mb-10\"\u003e"
-          },
-          {
-            "lineNumber": 70,
-            "text": "            {{ .Content }}"
-          },
-          {
-            "lineNumber": 71
-          },
-          {
-            "lineNumber": 72,
-            "text": "            {{ $tags:= .Params.tags }}"
-          },
-          {
-            "lineNumber": 73,
-            "text": "            {{ if $tags }}"
-          },
-          {
-            "lineNumber": 74,
-            "text": "            \u003cdiv class=\"not-prose mb-2 tags_section\"\u003e"
-          },
-          {
-            "lineNumber": 75,
-            "text": "              \u003cp class=\"mb-2 font-semibold text-ink\"\u003e{{ T \"tags\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 76,
-            "text": "              \u003cul class=\"flex flex-wrap gap-2\"\u003e"
-          },
-          {
-            "lineNumber": 77,
-            "text": "                {{ range $i,$p:= $tags }}"
-          },
-          {
-            "lineNumber": 78,
-            "text": "                \u003cli\u003e"
-          },
-          {
-            "lineNumber": 79,
-            "text": "                  \u003ca class=\"bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1\""
-          },
-          {
-            "lineNumber": 80,
-            "text": "                    href=\"{{ &#96;tags/&#96; | relLangURL }}{{ . | urlize | lower }}/\"\u003e"
-          },
-          {
-            "lineNumber": 81,
-            "text": "                    {{ . | title }}"
-          },
-          {
-            "lineNumber": 82,
-            "text": "                  \u003c/a\u003e"
-          },
-          {
-            "lineNumber": 83,
-            "text": "                \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 84,
-            "text": "                {{ end }}"
-          },
-          {
-            "lineNumber": 85,
-            "text": "              \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 86,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 87,
-            "text": "            {{ end }}"
-          },
-          {
-            "lineNumber": 88
-          },
-          {
-            "lineNumber": 89,
-            "text": "            \u003cdiv class=\"mb-2 share_section\"\u003e"
-          },
-          {
-            "lineNumber": 90,
-            "text": "              \u003cp class=\"not-prose mb-2 font-semibold text-ink\"\u003e{{ T \"share\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 91,
-            "text": "              {{ partial \"components/social-share\" (dict \"Context\" . \"Class\" \"share-icons\" \"Title\" .Title \"Whatsapp\""
-          },
-          {
-            "lineNumber": 92,
-            "text": "              false \"Telegram\" false \"Pinterest\" false \"Tumblr\" false \"Vk\" false \"Reddit\" false) }}"
-          },
-          {
-            "lineNumber": 93,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 94
-          },
-          {
-            "lineNumber": 95,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 96,
-            "text": "          {{/* Comments */}}"
-          },
-          {
-            "lineNumber": 97,
-            "text": "          {{ if site.Config.Services.Disqus.Shortname }}"
-          },
-          {
-            "lineNumber": 98,
-            "text": "          \u003cdiv class=\"mt-20\"\u003e"
-          },
-          {
-            "lineNumber": 99,
-            "text": "            {{ template \"_internal/disqus.html\" . }}"
-          },
-          {
-            "lineNumber": 100,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 101,
-            "text": "          {{ end }}"
-          },
-          {
-            "lineNumber": 102,
-            "text": "        \u003c/article\u003e"
-          },
-          {
-            "lineNumber": 103,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 104,
-            "text": "      {{ if $hasToc }}"
-          },
-          {
-            "lineNumber": 105,
-            "text": "      \u003cdiv class=\"lg:col-4\"\u003e"
-          },
-          {
-            "lineNumber": 106,
-            "text": "        \u003cdiv class=\"sidebar-wrapper flex flex-col h-full\"\u003e"
-          },
-          {
-            "lineNumber": 107,
-            "text": "          {{/* Desktop TOC - hidden on mobile */}}"
-          },
-          {
-            "lineNumber": 108,
-            "text": "          \u003cdiv class=\"toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-surface\"\u003e"
-          },
-          {
-            "lineNumber": 109,
-            "text": "            \u003cdiv class=\"table-of-content toc-links\"\u003e"
-          },
-          {
-            "lineNumber": 110,
-            "text": "              \u003cp class=\"mb-3 text-h5 font-semibold leading-snug tracking-tight text-ink\"\u003e{{ T \"table_of_contents\" | default \"Table of Contents\" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 111,
-            "text": "              \u003cdiv class=\"toc-scroll\"\u003e{{ $blogToc.html | safeHTML }}\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 112,
-            "text": "            \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 113,
-            "text": "          \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 114,
-            "text": "        \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 115,
-            "text": "      \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 116,
-            "text": "      {{ end }}"
-          },
-          {
-            "lineNumber": 117,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 118
-          },
-          {
-            "lineNumber": 119,
-            "text": "    {{ partial \"blog/related-posts.html\" . }}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 119
-          },
-          "startPosition": {
-            "line": 65
-          }
-        },
-        "relativeWorkspacePath": "./themes/jorap/layouts/blog/single.html",
-        "signatures": {}
-      },
-      "score": 0.2691904306411743
-    }
-  ]
-}
+           
+… (output truncated)
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6236,26 +1480,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Interpreting the request to standardize content spacing within the changelog-update SKILL.md.</details></think>
+Interpreting the request to standardize content spacing within the changelog-update SKILL.md.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6299,34 +1535,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6434,13 +1655,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -6448,14 +1662,13 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Considering whether to add content spacing guidance to the changelog-update skill.
 
-The skill file shows inconsistent spacing. This likely refers to formatting CHANGELOG entries rather than site-wide CSS.</details></think>
+The skill file shows inconsistent spacing. This likely refers to formatting CHANGELOG entries rather than site-wide CSS.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6523,34 +1736,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/SKILL.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6606,11 +1804,171 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+This likely concerns adding CHANGELOG.md formatting guidance to the changelog-update skill, or establishing a broader site content spacing standard.
+
+Reconsidering the request: it may actually target the changelog-update skill.md itself. That file shows inconsistent blank lines and awkward paragraph breaks.
+</details></think>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,css}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-content|content notes-content|\\.content"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-content|content notes-content|\\.content",
+  "topFiles": [
+    {
+      "matchCount": 25,
+      "uri": "assets/css/custom.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/cards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/safe.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/components/announcement/layouts/partials/announcement.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/backlinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 14,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/images/assets/css/images.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/sections/testimonials.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/sections/banner.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/table-of-contents/assets/css/toc.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/components/cookie-consent/layouts/partials/cookie-consent.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "themes/jorap/assets/css/components.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/sections/features.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/review.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tabs.html"
+    }
+  ],
+  "totalFiles": 16,
+  "totalMatches": 57
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Standardizing content spacing likely means adding formatting rules to the changelog-update skill for CHANGELOG.md structure.
+
+The skill markdown itself may need spacing consistency too. A proposed **Format** section would enforce one blank line after each heading, no blank lines between bullets in a category, and `---` dividers between date sections.
+
+The ambiguity was resolved. "Content spacing" refers to the changelog document format, not site CSS. I will add a concise **Format** section to the skill and clean up the skill's own spacing. I will also fix the double blank line in CHANGELOG.md.
+</details></think>
+
+_**Agent (default)**_
+
+Adding a Format section to the changelog-update skill for CHANGELOG spacing rules and cleaning up inconsistent spacing in the skill and CHANGELOG.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/changelog-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/CHANGELOG.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Reconsidering whether the user means site content spacing rather than changelog formatting.
+</details></think>
+
+_**Agent (default)**_
+
+Added a **Format** section to `changelog-update` that locks in CHANGELOG spacing:
+
+- Blank line after intro, category hint, and each `##` / `###` heading
+- No blank lines between bullets in a category
+- Single blank line around `---` date dividers
+- Omit empty categories; newest date first
+
+Also removed the extra blank line before the `2026-06-21` divider in `CHANGELOG.md`.
+
+If you meant **site prose spacing** (`.content` margins on notes/blog pages) instead of changelog layout, say so and we can wire that to the design tokens in `DESIGN.md`.

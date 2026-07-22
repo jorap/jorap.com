@@ -13,7 +13,8 @@ review all notes, check for other bible verses, check for redundant items
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing all notes for Bible verses and redundant items.</details></think>
+Reviewing all notes for Bible verses and redundant items.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,11 +23,10 @@ I'll scan the notes garden for Bible verses and overlapping or duplicate content
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **238** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (238 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (238 files)
 
 | File |
 |------|
@@ -268,21 +268,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (238 files)
 | `content/english/notes/the-wise-builder.md` |
 | `content/english/notes/forgiveness-at-work.md` |
 | `content/english/notes/dont-worry.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -390,21 +381,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -512,13 +494,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -528,7 +503,8 @@ A more comprehensive search is needed.
 
 Cross-checking bible shortcodes for redundancies. Several topics overlap across multiple notes, including golden-rule, light-shining, politics, stewardship, discipleship, sacrifice, and worry.
 
-More overlaps found. The wise builder, faith and works, and the narrow way all cite Matthew 7. Forgiveness and judge-not both appear in Matthew 7. Individual Fruits of the Spirit notes duplicate the main fruits-of-the-spirit note. All seven virtues reference Galatians 5:22. A full shortcode inventory and key file review are next.</details></think>
+More overlaps found. The wise builder, faith and works, and the narrow way all cite Matthew 7. Forgiveness and judge-not both appear in Matthew 7. Individual Fruits of the Spirit notes duplicate the main fruits-of-the-spirit note. All seven virtues reference Galatians 5:22. A full shortcode inventory and key file review are next.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -537,10 +513,8 @@ Gathering a complete Bible-verse inventory and reading likely duplicate note pai
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -649,21 +623,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -771,108 +736,60 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing potentially redundant note pairs to determine if they are truly duplicates or intentionally differentiated.</details></think>
+Reviewing potentially redundant note pairs to determine if they are truly duplicates or intentionally differentiated.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
 
 </details></tool-use>
 
@@ -881,122 +798,69 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Several note pairs appear redundant. Discipleship overlaps with taking up the cross. Forgiveness and golden rule repeat across different contexts. The wise builder, narrow way, and golden rule overlap. Mercy and grace both appear. Peacemakers and peace duplicate. Abiding in Christ and fruits of the spirit overlap. Gentleness is cited in both Matthew and Galatians.
 
-Checking for bible verses cited in text without shortcodes. Notes on patience, kindness, joy, goodness, faithfulness, and peace only list Galatians 5:22 in text. Verifying whether other notes need bible shortcodes under the eternal principles pattern.</details></think>
+Checking for bible verses cited in text without shortcodes. Notes on patience, kindness, joy, goodness, faithfulness, and peace only list Galatians 5:22 in text. Verifying whether other notes need bible shortcodes under the eternal principles pattern.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
 
 </details></tool-use>
 
@@ -1015,135 +879,76 @@ Reviewing overlapping notes across several topics. Checking for duplicate entrie
 - love note
 - workplace-principles hub
 
-Searching for bible verses in plain text without shortcodes. Checking seek-the-kingdom and dont-worry for duplicate flashcards. Grepping all notes for verse references.</details></think>
+Searching for bible verses in plain text without shortcodes. Checking seek-the-kingdom and dont-worry for duplicate flashcards. Grepping all notes for verse references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
 
 </details></tool-use>
 
@@ -1154,14 +959,13 @@ Checking additional items now.
 
 Found several redundancies and inconsistencies. Judge-not and by-their-fruits overlap with Matthew 7. Gentleness has both a Matthew 5:5 shortcode and a Galatians reference. Some individual fruit notes use plain text instead of bible shortcodes. Example stories are duplicated across mercy and forgiveness. Card counts are wrong: seek-the-kingdom-first lists six cards but has eight, and the golden-rule has eight cards with duplicates. Also checking the workplace-principles hub.
 
-Expanding the review to include present-a-living-sacrifice, renewed-mind, dont-copy-the-pattern, and abide-in-me. Also checking for a duplicate between the love note and love-god, and bible verses appearing outside eternal principles.</details></think>
+Expanding the review to include present-a-living-sacrifice, renewed-mind, dont-copy-the-pattern, and abide-in-me. Also checking for a duplicate between the love note and love-god, and bible verses appearing outside eternal principles.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1270,21 +1074,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1393,64 +1188,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
 
 </details></tool-use>
 
@@ -1469,36 +1233,27 @@ Matthew 7:24-27 appears in the-wise-builder and faith-and-works. Matthew 16:24-2
 
 More duplicate examples found. The autopilot prayer about forgiving others appears in both forgiveness and mercy. The two coworkers story appears in both peace and peacemakers. One mission trip example appears in five notes: faithful-steward, success-is-stewardship, judgment-seat, eternal-rewards, and loss-of-reward. Luke 9:23-24 appears in discipleship and take-up-your-cross. Matthew 18:21-35 appears in forgiveness and forgiveness-at-work. Matthew 5:14-16 appears in let-your-light-shine and god-centered-design. John 15:1-8/11 appears in abide-in-me and fruits-of-the-spirit.
 
-The-golden-rule flashcards duplicate the "Thumb on post button, cruel critique" example. Checking whether the-beatitudes note overlaps with peaers since Matthew 5:9 is included in the beatitudes range. Also searching for a possible self-control.cemak file.</details></think>
+The-golden-rule flashcards duplicate the "Thumb on post button, cruel critique" example. Checking whether the-beatitudes note overlaps with peaers since Matthew 5:9 is included in the beatitudes range. Also searching for a possible self-control.cemak file.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/content** (3 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content`** (3 files)
 
 | File |
 |------|
 | `english/notes/love-your-neighbor.md` |
 | `english/notes/love-your-enemies.md` |
 | `english/notes/love-god.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1534,21 +1289,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1584,21 +1330,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1634,21 +1371,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1680,13 +1408,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1694,14 +1415,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking for duplicate flashcard patterns and overlap between the peacemakers and beatitudes notes.
 
-Reviewing all 238 notes. Most are PKM notes without bible verses. Checking for redundancy between PKM and gospel notes. Found overlaps between secret-devotion and eternal-rewards, free-grace and grace, and justification and free-grace. Peacemakers overlaps with beatitudes.</details></think>
+Reviewing all 238 notes. Most are PKM notes without bible verses. Checking for redundancy between PKM and gospel notes. Found overlaps between secret-devotion and eternal-rewards, free-grace and grace, and justification and free-grace. Peacemakers overlaps with beatitudes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1777,34 +1497,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1840,13 +1545,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1860,14 +1558,13 @@ Bible verses appear in text-only notes such as individual fruits, christlikeness
 
 Recommendations include trimming duplicate examples in mercy and forgiveness, duplicate flashcards in judgment-seat and faithful-steward, duplicate golden-rule cards, and a redundant verse embedding in christianity-and-politics.
 
-Individual fruit notes should adopt the `{{< bible` shortcode for consistency with the gentleness pattern. God-centered-design and let-your-light-shine share a verse across different angles, which is acceptable. Now counting bible notes precisely and checking the eternal-principles index for missing gospel notes.</details></think>
+Individual fruit notes should adopt the `{{< bible` shortcode for consistency with the gentleness pattern. God-centered-design and let-your-light-shine share a verse across different angles, which is acceptable. Now counting bible notes precisely and checking the eternal-principles index for missing gospel notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1976,21 +1673,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2099,38 +1787,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
 
 </details></tool-use>
 
@@ -2176,14 +1845,13 @@ Christianity-and-politics could drop its duplicate shortcode and simply wikilink
 
 Follow-christ-then-lead lacks a bible shortcode. It only references Scripture.
 
-Verifying follow-christ-then-lead. Checking transformation-principles and other faith notes for bible references missing shortcodes.</details></think>
+Verifying follow-christ-then-lead. Checking transformation-principles and other faith notes for bible references missing shortcodes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2292,13 +1960,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2306,7 +1967,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Several matches appear to be false positives. Git-based-cms mentions markdown. Develop-dont-endanger contains the word "mark". Future-proofing-knowledge uses "mark" as a verb.
 
-The core gospel set is clear. I will deliver a scannable audit report. Findings will be presented without making changes. Cleanup can be offered if requested.</details></think>
+The core gospel set is clear. I will deliver a scannable audit report. Findings will be presented without making changes. Cleanup can be offered if requested.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2449,7 +2111,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Proceeding with the four recommended cleanups.
 
-Reading the flashcards skill and current files to prepare the edits.</details></think>
+Reading the flashcards skill and current files to prepare the edits.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2458,105 +2121,57 @@ Applying the four deduplication cleanups. Reading the affected notes and flashca
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
@@ -2587,7 +2202,8 @@ The remaining three seek-the-kingdom-first cards are now drafted. They address a
 
 The golden-rule section will also be trimmed to six distinct cards. Two duplicate post-button entries will be removed. The six kept cards cover public critique loaded on the thumb, waiting for fair treatment, hard truth with harsh tone, avoiding harm, an ethical fork without a rulebook, and a clinic scolding. The mercy example will use a distinct prayer and grudge scenario rather than the existing card.
 
-The mercy example is now a beatitude outward-mercy scenario. It frames cutting someone off in a group chat after they forgot a birthday, with mercy as showing compassion one would want when they are the one who dropped the ball. This is distinct from forgiveness's kid and brother examples.</details></think>
+The mercy example is now a beatitude outward-mercy scenario. It frames cutting someone off in a group chat after they forgot a birthday, with mercy as showing compassion one would want when they are the one who dropped the ball. This is distinct from forgiveness's kid and brother examples.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2596,76 +2212,36 @@ Applying all four cleanups.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
 
 </details></tool-use>
 
@@ -2674,7 +2250,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Edits applied. Verifying the golden rule still has six cards by reading the file.
 
-All decks verified at six cards. Mercy and forgiveness examples are distinct. Task complete.</details></think>
+All decks verified at six cards. Mercy and forgiveness examples are distinct. Task complete.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2703,7 +2280,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Beginning a comprehensive review of all notes. Checking for duplicate or nearly identical entries. Looking for bullet items that contain Bible verses.
 
-Scanning all notes systematically for duplicate key concepts and near-duplicates. Searching for Bible verses embedded as plain bullet items without the proper shortcode. Planning to use grep and scripts to analyze similarity at scale.</details></think>
+Scanning all notes systematically for duplicate key concepts and near-duplicates. Searching for Bible verses embedded as plain bullet items without the proper shortcode. Planning to use grep and scripts to analyze similarity at scale.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2712,10 +2290,8 @@ Scanning all notes for duplicate key concepts and Bible verses embedded as plain
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2824,21 +2400,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2898,21 +2465,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3012,54 +2570,47 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re, os, hashlib
 from collections import defaultdict
 from pathlib import Path
 
-notes_dir = Path("content/english/notes")
-bullet_re = re.compile(r'^  - (.+)$', re.M)
+notes_dir = Path(&#34;content/english/notes&#34;)
+bullet_re = re.compile(r&#39;^  - (.+)$&#39;, re.M)
 verse_in_bullet = re.compile(
-    r'(Matthew|Mark|Luke|John|Acts|Romans|Corinthians|Galatians|Ephesians|Philippians|Colossians|James|Peter|Psalm|Proverbs|Isaiah|Jeremiah|Revelation|Hebrews|Timothy|Titus|Philemon|Jude|Habakkuk|Malachi|Zechariah|Haggai|Nahum|Micah|Jonah|Amos|Hosea|Obadiah|Joel|Zephaniah|Lamentations|Ecclesiastes|Job|Daniel|Ezekiel|Exodus|Leviticus|Deuteronomy|Joshua|Samuel|Kings|Chronicles|Nehemiah|Ezra|Esther|Ruth|Judges|Numbers|Genesis)\s+\d+:\d+',
+    r&#39;(Matthew|Mark|Luke|John|Acts|Romans|Corinthians|Galatians|Ephesians|Philippians|Colossians|James|Peter|Psalm|Proverbs|Isaiah|Jeremiah|Revelation|Hebrews|Timothy|Titus|Philemon|Jude|Habakkuk|Malachi|Zechariah|Haggai|Nahum|Micah|Jonah|Amos|Hosea|Obadiah|Joel|Zephaniah|Lamentations|Ecclesiastes|Job|Daniel|Ezekiel|Exodus|Leviticus|Deuteronomy|Joshua|Samuel|Kings|Chronicles|Nehemiah|Ezra|Esther|Ruth|Judges|Numbers|Genesis)\s+\d+:\d+&#39;,
     re.I
 )
-bible_shortcode = re.compile(r'\{\{<\s*bible')
+bible_shortcode = re.compile(r&#39;\{\{&lt;\s*bible&#39;)
 
 def norm(s):
-    s = re.sub(r'\[\[([^\]]+)\]\]', r'\1', s)
-    s = re.sub(r'\{\{<[^>]+>\}\}', '', s)
-    s = re.sub(r'[^a-z0-9\s]', ' ', s.lower())
-    s = re.sub(r'\s+', ' ', s).strip()
+    s = re.sub(r&#39;\[\[([^\]]+)\]\]&#39;, r&#39;\1&#39;, s)
+    s = re.sub(r&#39;\{\{&lt;[^&gt;]+&gt;\}\}&#39;, &#39;&#39;, s)
+    s = re.sub(r&#39;[^a-z0-9\s]&#39;, &#39; &#39;, s.lower())
+    s = re.sub(r&#39;\s+&#39;, &#39; &#39;, s).strip()
     return s
 
 verse_bullets = []
-key_bullets = defaultdict(list)  # normalized -> [(file, line, text)]
+key_bullets = defaultdict(list)  # normalized -&gt; [(file, line, text)]
 share_dupes = defaultdict(list)
 
-for fp in sorted(notes_dir.glob("*.md")):
-    text = fp.read_text(encoding='utf-8')
-    if not text.startswith('---'):
+for fp in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = fp.read_text(encoding=&#39;utf-8&#39;)
+    if not text.startswith(&#39;---&#39;):
         continue
-    parts = text.split('---', 2)
-    if len(parts) < 3:
+    parts = text.split(&#39;---&#39;, 2)
+    if len(parts) &lt; 3:
         continue
     fm, body = parts[1], parts[2]
     slug = fp.stem
     
     # key_concept block in frontmatter
-    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n?)*)', fm, re.M)
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n?)*)&#39;, fm, re.M)
     if m:
         block = m.group(1)
         for line in block.splitlines():
@@ -3067,78 +2618,77 @@ for fp in sorted(notes_dir.glob("*.md")):
             if not bm:
                 continue
             b = bm.group(1).strip()
-            if not b or b.startswith('{{< bible'):
+            if not b or b.startswith(&#39;{{&lt; bible&#39;):
                 continue
             n = norm(b)
-            if len(n) >= 40:
+            if len(n) &gt;= 40:
                 key_bullets[n].append((slug, b))
             if verse_in_bullet.search(b) and not bible_shortcode.search(b):
                 verse_bullets.append((slug, b))
 
     # shareable_thought dupes
-    m2 = re.search(r'^shareable_thought:\s*\n((?:  - .*\n?)*)', fm, re.M)
+    m2 = re.search(r&#39;^shareable_thought:\s*\n((?:  - .*\n?)*)&#39;, fm, re.M)
     if m2:
         for line in m2.group(1).splitlines():
             bm = bullet_re.match(line)
             if bm:
                 b = bm.group(1).strip()
                 n = norm(b)
-                if len(n) >= 30:
+                if len(n) &gt;= 30:
                     share_dupes[n].append((slug, b))
 
 # exact key_concept bullet dupes across files
-cross_dupes = {k: v for k, v in key_bullets.items() if len({x[0] for x in v}) > 1}
+cross_dupes = {k: v for k, v in key_bullets.items() if len({x[0] for x in v}) &gt; 1}
 
 # near dupes: simple token overlap within same length band
 items = [(n, slug, raw) for n, pairs in key_bullets.items() for slug, raw in pairs]
 near = []
 for i, (n1, s1, r1) in enumerate(items):
     t1 = set(n1.split())
-    if len(t1) < 6:
+    if len(t1) &lt; 6:
         continue
     for n2, s2, r2 in items[i+1:]:
         if s1 == s2:
             continue
         t2 = set(n2.split())
-        if len(t2) < 6:
+        if len(t2) &lt; 6:
             continue
-        inter = len(t1 & t2)
+        inter = len(t1 &amp; t2)
         union = len(t1 | t2)
-        if union and inter/union >= 0.82:
+        if union and inter/union &gt;= 0.82:
             near.append((inter/union, s1, r1[:90], s2, r2[:90]))
 
 near.sort(reverse=True)
 
-print("=== VERSE-AS-BULLET (no bible shortcode on same line) ===")
+print(&#34;=== VERSE-AS-BULLET (no bible shortcode on same line) ===&#34;)
 for slug, b in sorted(verse_bullets):
-    print(f"{slug}: {b[:120]}")
+    print(f&#34;{slug}: {b[:120]}&#34;)
 
-print(f"\n=== EXACT key_concept BULLET DUPES ACROSS NOTES ({len(cross_dupes)}) ===")
+print(f&#34;\n=== EXACT key_concept BULLET DUPES ACROSS NOTES ({len(cross_dupes)}) ===&#34;)
 for n, pairs in sorted(cross_dupes.items(), key=lambda x: -len(x[1]))[:40]:
     slugs = sorted({p[0] for p in pairs})
-    print(f"[{len(slugs)}] {slugs[0]} + {', '.join(slugs[1:])}")
-    print(f"    {pairs[0][1][:110]}")
+    print(f&#34;[{len(slugs)}] {slugs[0]} + {&#39;, &#39;.join(slugs[1:])}&#34;)
+    print(f&#34;    {pairs[0][1][:110]}&#34;)
 
-print(f"\n=== NEAR-DUPLICATE key_concept BULLETS (Jaccard>=0.82, top 35) ===")
+print(f&#34;\n=== NEAR-DUPLICATE key_concept BULLETS (Jaccard&gt;=0.82, top 35) ===&#34;)
 seen = set()
 for j, s1, r1, s2, r2 in near[:80]:
     key = tuple(sorted([s1,s2]))
     if key in seen:
         continue
     seen.add(key)
-    print(f"{j:.2f} {s1} <-> {s2}")
-    print(f"     A: {r1}")
-    print(f"     B: {r2}")
-    if len(seen) >= 35:
+    print(f&#34;{j:.2f} {s1} &lt;-&gt; {s2}&#34;)
+    print(f&#34;     A: {r1}&#34;)
+    print(f&#34;     B: {r2}&#34;)
+    if len(seen) &gt;= 35:
         break
 
-print(f"\n=== EXACT shareable_thought DUPES ACROSS NOTES ===")
+print(f&#34;\n=== EXACT shareable_thought DUPES ACROSS NOTES ===&#34;)
 for n, pairs in sorted(share_dupes.items(), key=lambda x: -len(x[1])):
-    if len({p[0] for p in pairs}) > 1:
+    if len({p[0] for p in pairs}) &gt; 1:
         slugs = sorted({p[0] for p in pairs})
-        print(f"[{len(slugs)}] {' | '.join(slugs)}: {pairs[0][1][:100]}")
+        print(f&#34;[{len(slugs)}] {&#39; | &#39;.join(slugs)}: {pairs[0][1][:100]}&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re, os, hashlib
@@ -3278,28 +2828,12 @@ peace: [[Fruits of the Spirit]] lists peace beside love and joy - inner calm fro
 [2] judgment-seat + loss-of-reward
     If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire.
 
-=== NEAR-DUPLICATE key_concept BULLETS (Jaccard&gt;=0.82, top 35) ===
-1.00 judgment-seat &lt;-&gt; loss-of-reward
+=== NEAR-DUPLICATE key_concept BULLETS (Jaccard>=0.82, top 35) ===
+1.00 judgment-seat <-> loss-of-reward
      A: If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so 
-     B: If any man's work is burned up, he will suffer loss but he himself will be saved, yet so a
-1.00 hierarchy-of-controls &lt;-&gt; risk-management
-     A: Named rollback is a control layer before irreversible harm.
-     B: Named rollback is a control layer before irreversible harm.
-1.00 christlikeness &lt;-&gt; sanctification
-     A: [[Free Grace]] settles where I spend forever.
-     B: [[Free Grace]] settles where I spend forever.
-
-=== EXACT shareable_thought DUPES ACROSS NOTES ===
-[2] christlikeness | sanctification: "Free Grace settles where I spend forever."
-[2] hierarchy-of-controls | risk-management: "Named rollback is a control layer before irreversible harm."
-
+     B: If any man's work is burn
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3307,49 +2841,50 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The duplicate detection script only flagged exact matches and high Jaccard similarity near-duplicates with length at least 40 characters.
 
-A broader analysis is needed to catch near-identical key concepts. The expanded script will compare full key_concept blocks and summary bullets. It will flag duplicate bullets within the same note. It will also detect verse-paraphrase bullets quoting NASB without shortcodes.</details></think>
+A broader analysis is needed to catch near-identical key concepts. The expanded script will compare full key_concept blocks and summary bullets. It will flag duplicate bullets within the same note. It will also detect verse-paraphrase bullets quoting NASB without shortcodes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
 from collections import defaultdict
 
-notes_dir = Path("content/english/notes")
+notes_dir = Path(&#34;content/english/notes&#34;)
 
 def extract_fm(text):
-    if not text.startswith('---'):
+    if not text.startswith(&#39;---&#39;):
         return None, text
-    parts = text.split('---', 2)
-    if len(parts) < 3:
+    parts = text.split(&#39;---&#39;, 2)
+    if len(parts) &lt; 3:
         return None, text
     return parts[1], parts[2]
 
 def get_scalar(fm, key):
-    m = re.search(rf'^{key}:\s*"(.*)"\s*$', fm, re.M)
+    m = re.search(rf&#39;^{key}:\s*&#34;(.*)&#34;\s*$&#39;, fm, re.M)
     return m.group(1) if m else None
 
 def get_block_bullets(fm, key):
-    m = re.search(rf'^{key}:\s*\|\s*\n((?:  .*\n?)*)', fm, re.M)
+    m = re.search(rf&#39;^{key}:\s*\|\s*\n((?:  .*\n?)*)&#39;, fm, re.M)
     if not m:
-        m = re.search(rf'^{key}:\s*\n((?:  - .*\n?)*)', fm, re.M)
+        m = re.search(rf&#39;^{key}:\s*\n((?:  - .*\n?)*)&#39;, fm, re.M)
     if not m:
         return []
     bullets = []
     for line in m.group(1).splitlines():
-        bm = re.match(r'^  - (.+)$', line)
+        bm = re.match(r&#39;^  - (.+)$&#39;, line)
         if bm:
             bullets.append(bm.group(1).strip())
     return bullets
 
 def norm(s):
-    s = re.sub(r'\[\[([^\]]+)\]\]', r'\1', s)
-    s = re.sub(r'\{\{<[^>]+>\}\}', '', s)
-    s = re.sub(r'^"([^"]*)"$', r'\1', s)
-    s = re.sub(r'[^a-z0-9\s]', ' ', s.lower())
-    return re.sub(r'\s+', ' ', s).strip()
+    s = re.sub(r&#39;\[\[([^\]]+)\]\]&#39;, r&#39;\1&#39;, s)
+    s = re.sub(r&#39;\{\{&lt;[^&gt;]+&gt;\}\}&#39;, &#39;&#39;, s)
+    s = re.sub(r&#39;^&#34;([^&#34;]*)&#34;$&#39;, r&#39;\1&#39;, s)
+    s = re.sub(r&#39;[^a-z0-9\s]&#39;, &#39; &#39;, s.lower())
+    return re.sub(r&#39;\s+&#39;, &#39; &#39;, s).strip()
 
 # Within-note: key_concept bullet == shareable_thought or == description
 within_mirror = []
@@ -3362,122 +2897,121 @@ desc_map = defaultdict(list)
 # opening summary bullets (non-wikilink, non-bible) across gospel
 gospel_slugs = set()
 
-for fp in sorted(notes_dir.glob("*.md")):
-    text = fp.read_text(encoding='utf-8')
+for fp in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = fp.read_text(encoding=&#39;utf-8&#39;)
     fm, _ = extract_fm(text)
     if not fm:
         continue
     slug = fp.stem
-    desc = get_scalar(fm, 'description')
-    kc = get_block_bullets(fm, 'key_concept')
-    st = get_block_bullets(fm, 'shareable_thought')
-    tags = re.findall(r'tags:.*', fm)
-    tagline = fm if 'Eternal Principles' in fm or 'Gospel' in fm else ''
-    if 'Eternal Principles' in fm or 'Gospel' in fm:
+    desc = get_scalar(fm, &#39;description&#39;)
+    kc = get_block_bullets(fm, &#39;key_concept&#39;)
+    st = get_block_bullets(fm, &#39;shareable_thought&#39;)
+    tags = re.findall(r&#39;tags:.*&#39;, fm)
+    tagline = fm if &#39;Eternal Principles&#39; in fm or &#39;Gospel&#39; in fm else &#39;&#39;
+    if &#39;Eternal Principles&#39; in fm or &#39;Gospel&#39; in fm:
         gospel_slugs.add(slug)
 
     if desc:
         desc_map[norm(desc)].append(slug)
 
     st_set = {norm(x) for x in st}
-    desc_n = norm(desc) if desc else ''
+    desc_n = norm(desc) if desc else &#39;&#39;
     for b in kc:
         bn = norm(b)
-        if bn in st_set and len(bn) > 25:
-            within_mirror.append((slug, 'key_concept<->shareable', b[:100]))
+        if bn in st_set and len(bn) &gt; 25:
+            within_mirror.append((slug, &#39;key_concept&lt;-&gt;shareable&#39;, b[:100]))
         if desc_n and bn == desc_n:
             desc_key_dup.append((slug, b[:100]))
-        if len(bn) >= 35:
+        if len(bn) &gt;= 35:
             all_bullets.append((bn, slug, b))
 
 # near dupes 0.70+
 near70 = []
 for i, (n1, s1, r1) in enumerate(all_bullets):
     t1 = set(n1.split())
-    if len(t1) < 5:
+    if len(t1) &lt; 5:
         continue
     for n2, s2, r2 in all_bullets[i+1:]:
         if s1 == s2:
             continue
         t2 = set(n2.split())
-        if len(t2) < 5:
+        if len(t2) &lt; 5:
             continue
-        j = len(t1 & t2) / len(t1 | t2)
-        if j >= 0.70:
+        j = len(t1 &amp; t2) / len(t1 | t2)
+        if j &gt;= 0.70:
             near70.append((j, s1, s2, r1[:85], r2[:85]))
 
 near70.sort(reverse=True)
 seen = set()
-print("=== key_concept bullet mirrors shareable_thought (same note) ===")
+print(&#34;=== key_concept bullet mirrors shareable_thought (same note) ===&#34;)
 for slug, kind, b in within_mirror[:50]:
-    print(f"{slug}: {b}")
+    print(f&#34;{slug}: {b}&#34;)
 
-print(f"\n=== key_concept bullet == description ({len(desc_key_dup)}) ===")
+print(f&#34;\n=== key_concept bullet == description ({len(desc_key_dup)}) ===&#34;)
 for slug, b in desc_key_dup[:40]:
-    print(f"{slug}: {b}")
+    print(f&#34;{slug}: {b}&#34;)
 
-print(f"\n=== description exact dupes across notes ===")
+print(f&#34;\n=== description exact dupes across notes ===&#34;)
 for n, slugs in desc_map.items():
-    if len(slugs) > 1 and len(n) > 20:
-        print(f"{slugs}: {n[:90]}")
+    if len(slugs) &gt; 1 and len(n) &gt; 20:
+        print(f&#34;{slugs}: {n[:90]}&#34;)
 
-print(f"\n=== NEAR-DUP key_concept bullets Jaccard>=0.70 (unique pairs, top 50) ===")
+print(f&#34;\n=== NEAR-DUP key_concept bullets Jaccard&gt;=0.70 (unique pairs, top 50) ===&#34;)
 count = 0
 for j, s1, s2, r1, r2 in near70:
     key = tuple(sorted([s1,s2]))
     if key in seen:
         continue
     seen.add(key)
-    print(f"{j:.2f} {s1} | {s2}")
-    print(f"  {r1}")
-    print(f"  {r2}")
+    print(f&#34;{j:.2f} {s1} | {s2}&#34;)
+    print(f&#34;  {r1}&#34;)
+    print(f&#34;  {r2}&#34;)
     count += 1
-    if count >= 50:
+    if count &gt;= 50:
         break
 
 # Gospel-specific: same first substantive bullet after bible shortcode
-print("\n=== GOSPEL: repeated closing summary patterns ===")
+print(&#34;\n=== GOSPEL: repeated closing summary patterns ===&#34;)
 patterns = defaultdict(list)
-for fp in sorted(notes_dir.glob("*.md")):
-    fm, _ = extract_fm(fp.read_text(encoding='utf-8'))
+for fp in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    fm, _ = extract_fm(fp.read_text(encoding=&#39;utf-8&#39;))
     if not fm or fp.stem not in gospel_slugs:
         continue
-    kc = get_block_bullets(fm, 'key_concept')
+    kc = get_block_bullets(fm, &#39;key_concept&#39;)
     for b in kc:
-        if 'Free Grace' in b and 'settled' in b.lower():
-            patterns['free grace settled'].append((fp.stem, b[:90]))
-        if 'not buy' in b.lower() and 'heaven' in b.lower():
-            patterns['not buy heaven'].append((fp.stem, b[:90]))
-        if 'heroic week' in b.lower() or 'heroic mission' in b.lower():
-            patterns['heroic week'].append((fp.stem, b[:90]))
-        if 'saved by faith' in b.lower():
-            patterns['saved by faith'].append((fp.stem, b[:90]))
+        if &#39;Free Grace&#39; in b and &#39;settled&#39; in b.lower():
+            patterns[&#39;free grace settled&#39;].append((fp.stem, b[:90]))
+        if &#39;not buy&#39; in b.lower() and &#39;heaven&#39; in b.lower():
+            patterns[&#39;not buy heaven&#39;].append((fp.stem, b[:90]))
+        if &#39;heroic week&#39; in b.lower() or &#39;heroic mission&#39; in b.lower():
+            patterns[&#39;heroic week&#39;].append((fp.stem, b[:90]))
+        if &#39;saved by faith&#39; in b.lower():
+            patterns[&#39;saved by faith&#39;].append((fp.stem, b[:90]))
 
 for pat, items in patterns.items():
-    if len(items) >= 3:
-        print(f"\n[{pat}] ({len(items)} notes)")
+    if len(items) &gt;= 3:
+        print(f&#34;\n[{pat}] ({len(items)} notes)&#34;)
         for slug, b in items[:8]:
-            print(f"  {slug}: {b}")
-        if len(items) > 8:
-            print(f"  ... +{len(items)-8} more")
+            print(f&#34;  {slug}: {b}&#34;)
+        if len(items) &gt; 8:
+            print(f&#34;  ... +{len(items)-8} more&#34;)
 
 # Within-note duplicate bullets in key_concept
-print("\n=== WITHIN-NOTE duplicate key_concept bullets ===")
-for fp in sorted(notes_dir.glob("*.md")):
-    fm, _ = extract_fm(fp.read_text(encoding='utf-8'))
+print(&#34;\n=== WITHIN-NOTE duplicate key_concept bullets ===&#34;)
+for fp in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    fm, _ = extract_fm(fp.read_text(encoding=&#39;utf-8&#39;))
     if not fm:
         continue
-    kc = get_block_bullets(fm, 'key_concept')
+    kc = get_block_bullets(fm, &#39;key_concept&#39;)
     seen_n = {}
     for b in kc:
         n = norm(b)
-        if len(n) < 30:
+        if len(n) &lt; 30:
             continue
         if n in seen_n:
-            print(f"{fp.stem}: DUP\n  A: {seen_n[n][:90]}\n  B: {b[:90]}")
+            print(f&#34;{fp.stem}: DUP\n  A: {seen_n[n][:90]}\n  B: {b[:90]}&#34;)
         seen_n[n] = b
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re
@@ -3667,147 +3201,15 @@ analog-capture-tools: Paper capture uses the same inbox rule as digital - for me
 analog-capture-tools: Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule.
 anti-fragile-systems: I build on plain files and open formats so an app shutdown doesn't erase years of notes.
 anti-fragile-systems: Test backups while the app still works - not after the export dies.
-ask-seek-knock: Jesus compares God to a parent who gives bread, not a stone.
-ask-seek-knock: Lord's Prayer order - Father's name, kingdom, will first, then daily bread and forgiveness.
-ask-seek-knock: [[Ask Seek Knock]] models priority: God's name, kingdom, will - then daily needs and forgiveness.
-ask-seek-knock: Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits.
-assurance: [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest whe
-assurance: Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score.
-atomic-notes: If a note needs three ands to make its point, I split it before I link it.
-attention-economy: I treat my feed like a slot machine someone else owns.
-attention-to-detail: Attention to detail is catching the typo, edge case, and loose end before they become incidents.
-attention-to-detail: I catch the typo and the edge case before they turn into an incident or a dumb customer email.
-attention-to-detail: Small misses compound into incidents when nobody catches them early.
-attention-to-detail: The second look before it ships is cheaper than the fix after it's customer-facing.
-behavioral-economics: People don't act on facts alone - defaults and friction steer choices more than lectures.
-behavioral-economics: [[Mental Models]] gives lenses; this field names why nudges beat sermons.
-behavioral-economics: People choose what default and friction make easy, not what a neat lecture said they should pick.
-behavioral-economics: A well-designed default beats a well-argued lecture almost every time.
-blameless-after-action-review: [[Rollback Principle]] gets users back on the old build; blameless after-action review gets judgment
-blameless-after-action-review: [[Own the Error]] still means someone says "my call" in standup; the room fixes the runbook, not the
-blameless-after-action-review: After rollback restores service, I learn what broke in the system - not who to punish for pushing de
-blameless-after-action-review: Fix the runbook after rollback - not the person who pushed deploy.
-break-the-escalation-cycle: I just refuse to become what hurt me in the thread.
-break-the-escalation-cycle: Stop throwing anger after sunk hurt.
-break-the-escalation-cycle: Don't match tone for tone when a sharp email lands; stop the loop first.
-build-a-reliable-default: A reliable default is the simple rehearsed move I run when thinking is thin.
-building-a-personal-api: My personal API isn't OAuth and microservices.
-building-a-personal-api: I shape frontmatter and folders so future me and my scripts don't need a fresh briefing every time.
-building-a-personal-api: It's structured context for future me and my tools without re-explaining everything.
-building-a-personal-api: Frontmatter and folder shape are the contract between past me and future me.
-building-a-second-brain: Offload ideas so my head can think, not hoard.
-building-a-second-brain: Remember CODE: [[Capture]], organize, distill, express.
-by-their-fruits: Don't condemn souls, but do evaluate fruit - grapes from vines, not hype.
-
-=== key_concept bullet == description (159) ===
-abide-in-me: I bear fruit when I stay connected to Christ, not when I force it by willpower alone.
-accept-the-starting-line: I accept where I actually start - then pick targets that match, not fantasy.
-accountability: Accountability is naming who owns the result - and what happens when it slips.
-active-knowledge-curation: A folder of unread saves isn't a garden - I prune monthly and wire notes I'd actually recommend.
-adaptability: Adaptability swaps the method when conditions shift - same aim, different plan.
-analog-capture-tools: Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule.
-anti-fragile-systems: I build on plain files and open formats so an app shutdown doesn't erase years of notes.
-ask-seek-knock: Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits.
-assurance: Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score.
-atomic-notes: If a note needs three ands to make its point, I split it before I link it.
-attention-to-detail: I catch the typo and the edge case before they turn into an incident or a dumb customer email.
-behavioral-economics: People choose what default and friction make easy, not what a neat lecture said they should pick.
-blameless-after-action-review: After rollback restores service, I learn what broke in the system - not who to punish for pushing de
-build-a-reliable-default: A reliable default is the simple rehearsed move I run when thinking is thin.
-building-a-personal-api: I shape frontmatter and folders so future me and my scripts don't need a fresh briefing every time.
-building-a-second-brain: My head is for thinking, not storing - notes hold what I'd otherwise lose.
-by-their-fruits: I check teachers by what their teaching produces, not by how polished the talk sounds.
-capture: Save what resonates into one inbox I trust - then empty it weekly.
-change-takes-repetition: Real change is the same moves on repeat - not one breakthrough weekend.
-change-window: I ship risky changes when someone awake can roll back, not Friday night when everyone's offline.
-childlike-faith: I stop negotiating merit and receive the kingdom the way a child receives care.
-client-site-pass-off: Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game.
-coaching-ethics: Develop the person without hiding behind consent when the drill is unsafe or pointless.
-commonplace-book: Before linked notes, I kept quotes and ideas in one book I'd actually reopen.
-complete-the-cycle: The meeting isn't done until recap, owners, dates, and verification close the loop.
-composure: Composure is steady voice and pace when the room isn't - people read calm as competence.
-context-aware-capture: A saved link is a mystery six weeks later unless I jot the why while I still remember it.
-continuous-improvement: Each miss becomes one tweak to the process, not a lecture about trying harder.
-control-the-rhythm: Control the rhythm is taking back pace before urgency, conflict, or someone else sets it.
-convert-pain-into-learning: Convert pain into learning means failure must produce correction, not stewing without change.
-daily-notes: My daily note is a scratch pad for today's fragments, not a diary I expect to last forever.
-decision-quality: I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting hig
-deep-work: I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt.
-develop-dont-endanger: I push people to grow without picking drills where pain or risk replaces the actual skill.
-digital-minimalism: My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using
-digital-serendipity: Old notes surprise me on schedule because I linked them on purpose, not because I got lucky.
-discern-his-will-daily: A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise p
-discipleship-vs-leadership: Discipleship is who I follow upward; leadership is who looks to me for direction and care - two seat
-discipline: I do what I said I'd do when nobody's clapping and motivation walked out.
-dont-copy-the-pattern: Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot.
-
-=== description exact dupes across notes ===
-
-=== NEAR-DUP key_concept bullets Jaccard&gt;=0.70 (unique pairs, top 50) ===
-1.00 judgment-seat | loss-of-reward
-  If any man's work is burned up, he will suffer loss; but he himself will be saved, ye
-  If any man's work is burned up, he will suffer loss but he himself will be saved, yet
-1.00 hierarchy-of-controls | risk-management
-  Named rollback is a control layer before irreversible harm.
-  Named rollback is a control layer before irreversible harm.
-1.00 christlikeness | sanctification
-  [[Free Grace]] settles where I spend forever.
-  [[Free Grace]] settles where I spend forever.
-0.78 grateful-obedience | sanctification
-  [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit
-  [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit
-0.76 follow-christ-then-lead | god-centered-design
-  [[God Centered Design]] asks who the plan ultimately serves before I optimize the sli
-  God-centered design asks who the plan ultimately serves before I optimize the slide, 
-0.75 faithful-steward | sanctification
-  [[Free Grace]] settled where I spend forever.
-  [[Free Grace]] settles where I spend forever.
-0.75 christlikeness | faithful-steward
-  [[Free Grace]] settles where I spend forever.
-  [[Free Grace]] settled where I spend forever.
-0.71 free-grace | grace
-  [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with
-  [[Assurance]] and [[Standing vs Fellowship]] keep a bad week from collapsing standing
-
-=== GOSPEL: repeated closing summary patterns ===
-
-[heroic week] (8 notes)
-  eternal-rewards: Same shape as [[Compounding]] in the garden: small obedient acts over years, not one heroi
-  faithful-steward: Well done for faithful use of what He entrusted - quiet Tuesdays count, not one heroic mis
-  faithful-steward: [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mist
-  faithfulness: Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistak
-  faithfulness: Steady use of what God entrusted - faithful over years, not one heroic week on the report 
-  judgment-seat: PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroi
-  sanctification: Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, 
-  sanctification: PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat l
-
-[free grace settled] (5 notes)
-  faithful-steward: [[Free Grace]] settled where I spend forever.
-  faithful-steward: Free Grace settled where I spend forever - stewardship is what I do with what He entrusted
-  reconciliation-before-worship: This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my st
-  standing-vs-fellowship: Free Grace secured eternal life once - standing stays settled even when fellowship feels d
-  success-is-stewardship: [[Free Grace]] settled where I spend forever; stewardship settles what I do with the gifts
-
-=== WITHIN-NOTE duplicate key_concept bullets ===
-pkm: DUP
-  A: PKM is the plain name for the save-organize-use system getting started introduces ([[Getti
-  B: PKM is the plain name for the save-organize-use system getting started introduces (Getting
-
+ask-seek-knock: Jesus compares God to a parent who giv
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3915,13 +3317,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3929,97 +3324,97 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Searching for additional gospel near-duplicates, particularly pairs.
 
-Identified specific note pairs to compare for near-duplicates. Will check renewed-mind and mercy for paraphrased verse bullets lacking shortcodes. Next step is verifying verbatim duplication in key_concept and checking fruit notes for duplicate shareable_thought bullets.</details></think>
+Identified specific note pairs to compare for near-duplicates. Will check renewed-mind and mercy for paraphrased verse bullets lacking shortcodes. Next step is verifying verbatim duplication in key_concept and checking fruit notes for duplicate shareable_thought bullets.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
 import re
 from pathlib import Path
 from collections import defaultdict
 
-notes_dir = Path("content/english/notes")
+notes_dir = Path(&#34;content/english/notes&#34;)
 
 def extract_fm(text):
-    parts = text.split('---', 2)
-    return parts[1] if len(parts)>=3 else ''
+    parts = text.split(&#39;---&#39;, 2)
+    return parts[1] if len(parts)&gt;=3 else &#39;&#39;
 
 def bullets(fm, key):
-    m = re.search(rf'^{key}:\s*\|\s*\n((?:  .*\n?)*)', fm, re.M)
+    m = re.search(rf&#39;^{key}:\s*\|\s*\n((?:  .*\n?)*)&#39;, fm, re.M)
     if not m:
-        m = re.search(rf'^{key}:\s*\n((?:  - .*\n?)*)', fm, re.M)
+        m = re.search(rf&#39;^{key}:\s*\n((?:  - .*\n?)*)&#39;, fm, re.M)
     if not m: return []
     out=[]
     for line in m.group(1).splitlines():
-        bm=re.match(r'^  - (.+)$', line)
+        bm=re.match(r&#39;^  - (.+)$&#39;, line)
         if bm: out.append(bm.group(1).strip())
     return out
 
 # Gospel note pairs - compare full key_concept text similarity
 gospel = []
-for fp in notes_dir.glob('*.md'):
+for fp in notes_dir.glob(&#39;*.md&#39;):
     fm = extract_fm(fp.read_text())
-    if 'Eternal Principles' in fm or ('Gospel' in fm and 'tags:' in fm):
-        kc = bullets(fm, 'key_concept')
-        gospel.append((fp.stem, '\n'.join(kc)))
+    if &#39;Eternal Principles&#39; in fm or (&#39;Gospel&#39; in fm and &#39;tags:&#39; in fm):
+        kc = bullets(fm, &#39;key_concept&#39;)
+        gospel.append((fp.stem, &#39;\n&#39;.join(kc)))
 
 # pairwise jaccard on word sets of full key_concept
 from itertools import combinations
 pairs=[]
 for s1,t1 in gospel:
-    w1=set(re.findall(r'[a-z]{3,}', t1.lower()))
-    if len(w1)<20: continue
+    w1=set(re.findall(r&#39;[a-z]{3,}&#39;, t1.lower()))
+    if len(w1)&lt;20: continue
     for s2,t2 in gospel:
-        if s2<=s1: continue
-        w2=set(re.findall(r'[a-z]{3,}', t2.lower()))
-        if len(w2)<20: continue
-        j=len(w1&w2)/len(w1|w2)
-        if j>=0.45:
+        if s2&lt;=s1: continue
+        w2=set(re.findall(r&#39;[a-z]{3,}&#39;, t2.lower()))
+        if len(w2)&lt;20: continue
+        j=len(w1&amp;w2)/len(w1|w2)
+        if j&gt;=0.45:
             pairs.append((j,s1,s2,len(w1),len(w2)))
 
 pairs.sort(reverse=True)
-print("=== GOSPEL full key_concept overlap (Jaccard>=0.45) ===")
+print(&#34;=== GOSPEL full key_concept overlap (Jaccard&gt;=0.45) ===&#34;)
 for j,s1,s2,n1,n2 in pairs[:30]:
-    print(f"{j:.2f} {s1} <-> {s2} ({n1}/{n2} words)")
+    print(f&#34;{j:.2f} {s1} &lt;-&gt; {s2} ({n1}/{n2} words)&#34;)
 
 # Within-note near dup bullets in gospel notes
-print("\n=== GOSPEL within-note near-duplicate bullets (j>=0.75) ===")
-for fp in sorted(notes_dir.glob('*.md')):
+print(&#34;\n=== GOSPEL within-note near-duplicate bullets (j&gt;=0.75) ===&#34;)
+for fp in sorted(notes_dir.glob(&#39;*.md&#39;)):
     fm = extract_fm(fp.read_text())
-    if 'Eternal Principles' not in fm and 'Gospel' not in fm:
+    if &#39;Eternal Principles&#39; not in fm and &#39;Gospel&#39; not in fm:
         continue
-    kc = bullets(fm, 'key_concept')
+    kc = bullets(fm, &#39;key_concept&#39;)
     for i,a in enumerate(kc):
-        wa=set(re.findall(r'[a-z]{3,}', a.lower()))
-        if len(wa)<5: continue
+        wa=set(re.findall(r&#39;[a-z]{3,}&#39;, a.lower()))
+        if len(wa)&lt;5: continue
         for b in kc[i+1:]:
-            wb=set(re.findall(r'[a-z]{3,}', b.lower()))
-            if len(wb)<5: continue
-            j=len(wa&wb)/len(wa|wb)
-            if j>=0.75:
-                print(f"{fp.stem} ({j:.2f})")
-                print(f"  A: {a[:95]}")
-                print(f"  B: {b[:95]}")
+            wb=set(re.findall(r&#39;[a-z]{3,}&#39;, b.lower()))
+            if len(wb)&lt;5: continue
+            j=len(wa&amp;wb)/len(wa|wb)
+            if j&gt;=0.75:
+                print(f&#34;{fp.stem} ({j:.2f})&#34;)
+                print(f&#34;  A: {a[:95]}&#34;)
+                print(f&#34;  B: {b[:95]}&#34;)
 
 # Verse-like bullets: starts with quote or contains semicolon NASB patterns
 verse_like=[]
-for fp in sorted(notes_dir.glob('*.md')):
+for fp in sorted(notes_dir.glob(&#39;*.md&#39;)):
     fm = extract_fm(fp.read_text())
-    for b in bullets(fm,'key_concept'):
-        if re.search(r'\{\{<\s*bible', b): continue
-        if re.search(r"(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Corinthians|James)\s+\d+:\d+", b, re.I):
-            verse_like.append((fp.stem,'citation',b[:110]))
-        elif re.search(r"^(If any man|Blessed are|For God so|Do not be|Be transformed|Love your|Seek first|Well done|Not everyone who)", b, re.I):
-            verse_like.append((fp.stem,'paraphrase',b[:110]))
-        elif 'shall be' in b.lower() and ('merciful' in b.lower() or 'comforted' in b.lower() or 'inherit' in b.lower()):
-            verse_like.append((fp.stem,'beatitude',b[:110]))
+    for b in bullets(fm,&#39;key_concept&#39;):
+        if re.search(r&#39;\{\{&lt;\s*bible&#39;, b): continue
+        if re.search(r&#34;(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Corinthians|James)\s+\d+:\d+&#34;, b, re.I):
+            verse_like.append((fp.stem,&#39;citation&#39;,b[:110]))
+        elif re.search(r&#34;^(If any man|Blessed are|For God so|Do not be|Be transformed|Love your|Seek first|Well done|Not everyone who)&#34;, b, re.I):
+            verse_like.append((fp.stem,&#39;paraphrase&#39;,b[:110]))
+        elif &#39;shall be&#39; in b.lower() and (&#39;merciful&#39; in b.lower() or &#39;comforted&#39; in b.lower() or &#39;inherit&#39; in b.lower()):
+            verse_like.append((fp.stem,&#39;beatitude&#39;,b[:110]))
 
-print(f"\n=== VERSE-LIKE key_concept bullets ({len(verse_like)}) ===")
+print(f&#34;\n=== VERSE-LIKE key_concept bullets ({len(verse_like)}) ===&#34;)
 for slug, kind, b in verse_like:
-    print(f"[{kind}] {slug}: {b}")
+    print(f&#34;[{kind}] {slug}: {b}&#34;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 import re
@@ -4109,9 +3504,9 @@ PY
 ```
 
 ```
-=== GOSPEL full key_concept overlap (Jaccard&gt;=0.45) ===
+=== GOSPEL full key_concept overlap (Jaccard>=0.45) ===
 
-=== GOSPEL within-note near-duplicate bullets (j&gt;=0.75) ===
+=== GOSPEL within-note near-duplicate bullets (j>=0.75) ===
 love-god (0.83)
   A: First command, whole self - heart, soul, mind, not a corner of Sunday morning.
   B: First command, whole self - heart, mind, strength, not a corner of Sunday morning.
@@ -4132,72 +3527,36 @@ outcomes-over-pitch-decks (0.75)
 [citation] joy: Joy is grown by walking in the Spirit, not manufactured for credit. (Galatians 5:22).
 [paraphrase] judgment-seat: If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire.
 [citation] kindness: [[Fruits of the Spirit]] names kindness beside goodness - soft strength toward actual people, not a generic ni
-[paraphrase] loss-of-reward: If any man's work is burned up, he will suffer loss but he himself will be saved, yet so as through fire.
-[paraphrase] love-your-enemies: Love your enemies - bless, pray, and do good without pretending the harm didn't happen.
-[paraphrase] love-your-neighbor: Love your neighbor is the second command, paired with loving God - same heart, next person in front of me.
-[citation] patience: The Spirit doesn't shortcut the wait - it changes what waiting does to you, so the delay doesn't calcify into 
-[citation] peace: [[Fruits of the Spirit]] lists peace beside love and joy - inner calm from God's reign, not denial. (Galatians
-[paraphrase] the-beatitudes: Blessed are the poor in spirit, for theirs is the kingdom of heaven - bankruptcy before God, receiving the kin
-[paraphrase] the-narrow-way: Not everyone who says Lord Lord enters - false profession vs believer who stumbles and may lose reward but sta
-
+[paraphrase] 
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
 
 </details></tool-use>
 
@@ -4206,70 +3565,41 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A solid picture has emerged. A quick check is next.
 
-Checking faithfulness for internal duplicates. Comparing success-is-stewardship and faithful-steward for concept overlap. Fruit notes and shareable_thought both cite Galatians. Love-god bullets may be duplicated. Now reading faithfulness and fruit notes.</details></think>
+Checking faithfulness for internal duplicates. Comparing success-is-stewardship and faithful-steward for concept overlap. Fruit notes and shareable_thought both cite Galatians. Love-god bullets may be duplicated. Now reading faithfulness and fruit notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
 
 </details></tool-use>
 
@@ -4278,70 +3608,41 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The full picture is now clear.
 
-Checking for duplicate bullets across related notes. hierarchy-of-controls and risk-management appear to contain the same item. christlikeness and sanctification may also overlap. outcomes-over-pitch-decks and by-their-fruits look like workplace mirrors. I will read those two files next.</details></think>
+Checking for duplicate bullets across related notes. hierarchy-of-controls and risk-management appear to contain the same item. christlikeness and sanctification may also overlap. outcomes-over-pitch-decks and by-their-fruits look like workplace mirrors. I will read those two files next.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/hierarchy-of-controls.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/hierarchy-of-controls.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
 
 </details></tool-use>
 
@@ -4356,7 +3657,8 @@ Additional duplicate patterns were found across several notes. `mercy` contains 
 
 `the-beatitudes` contains a verse paraphrase that duplicates its bible shortcode. `render-unto-caesar` repeats its description. `christianity-and-politics` splits its description across two bullets. `hierarchy-of-controls` and `risk-management` share an identical rollback bullet. `christlikeness` and `sanctification` share an identical Free Grace bullet. The "heroic week" theme appears in eight notes, serving as an intentional but verbose anchor.
 
-Six fruit echoes, christlRomans 8:29, and discern Romans 12:2 are verse bullets missing their bible shortcode. The 159 notes where key_concept bullets match descriptions exactly is by design under the atomic notes pattern, not a bug.</details></think>
+Six fruit echoes, christlRomans 8:29, and discern Romans 12:2 are verse bullets missing their bible shortcode. The 159 notes where key_concept bullets match descriptions exactly is by design under the atomic notes pattern, not a bug.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4503,7 +3805,8 @@ Applying all 8 cleanups from the ranked list.
 
 Cleaning up quote bullets in loss-of-reward and judgment-seat. Removing a duplicate bullet from love-god. Merging redundant lines in mercy and renewed-mind. Assigning rollback ownership between hierarchy-of-controls and risk-management. Assigning Free Grace ownership between christlikeness and sanctification.
 
-Standardizing Fruit echoes conventions. Dropping the duplicate Matthew 22 shortcode from christianity-and-politics and opening with a wikilink to render-unto-caesar.</details></think>
+Standardizing Fruit echoes conventions. Dropping the duplicate Matthew 22 shortcode from christianity-and-politics and opening with a wikilink to render-unto-caesar.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4512,236 +3815,133 @@ Applying all eight cleanups. Reading the affected files first.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/hierarchy-of-controls.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/hierarchy-of-controls.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the eight fruit echo notes—peace, patience, kindness, joy, goodness, faithfulness, gentleness—and adding Bible shortcodes while removing duplicate parentheticals from shareable_thought.</details></think>
+Reviewing the eight fruit echo notes—peace, patience, kindness, joy, goodness, faithfulness, gentleness—and adding Bible shortcodes while removing duplicate parentheticals from shareable_thought.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4767,13 +3967,6 @@ Additional data:
 }
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>
 
@@ -4810,31 +4003,20 @@ For christianity-and-politics, removing the bible shortcode and opening with a b
 
 For christlikeness, a Romans 8:29 shortcode is being considered. The audit indicates the free grace relationship belongs to sanctification and fruit, not christlikeness.
 
-A Romans 8:29 shortcode will be added to line 11 of fruit echoes. Lines 6 and 12 of faithfulness will be merged into one, with line 12 removed when the shortcode is added. The joy key concept line 11 will be deleted because it duplicates the shareable thought line 17. The sanctification shareable thought is being checked for a duplicate Free Grace line.</details></think>
+A Romans 8:29 shortcode will be added to line 11 of fruit echoes. Lines 6 and 12 of faithfulness will be merged into one, with line 12 removed when the shortcode is added. The joy key concept line 11 will be deleted because it duplicates the shareable thought line 17. The sanctification shareable thought is being checked for a duplicate Free Grace line.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
 
 </details></tool-use>
 
@@ -4843,7 +4025,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The Free Grace line on sanctification shareable_thought line 28 should either reference christlikeness or be removed, since christlikeness owns that line.
 
-Applying all edits now in batch.</details></think>
+Applying all edits now in batch.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4852,381 +4035,182 @@ Applying all eight cleanups across the affected notes.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I need to restore the "love-god Free Grace" bullet I accidentally removed.</details></think>
+I need to restore the "love-god Free Grace" bullet I accidentally removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
 
 </details></tool-use>
 
@@ -5237,7 +4221,8 @@ Adding a christlikeness relationship to sanctification is optional.
 
 Sanctification now links to christlikeness in key_concept. Love-god retains its Free Grace bullet. A verification script will check for remaining duplicates. Christlikeness keeps its prose Romans 8:29 bullet; item 7 was fruit echoes only.
 
-Joy shareable still contains the duplicate "Performing joy while empty..." entry, but this was already present in shareable.</details></think>
+Joy shareable still contains the duplicate "Performing joy while empty..." entry, but this was already present in shareable.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5270,14 +4255,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The Random pick section should display 2 notes instead of 3.
 
-Searching the codebase for the Random pick configuration.</details></think>
+Searching the codebase for the Random pick configuration.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5384,13 +4368,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5398,40 +4375,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The random pick logic now lives in assets/js/notes-random.js, merged from notes-featured-random.js.
 
-Reading the template and JS files.</details></think>
+Reading the template and JS files.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5487,13 +4451,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5501,27 +4458,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Changing `PICK_COUNT` from 3 to 2 in the random notes component.
 
-Updating the template text to "Two notes from the garden". Adjusting the grid layout from three columns to two. Checking custom.css for grid styles.</details></think>
+Updating the template text to "Two notes from the garden". Adjusting the grid layout from three columns to two. Checking custom.css for grid styles.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5628,13 +4578,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5642,49 +4585,33 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Updating featured-random-note.html to show two columns maximum and revise the copy.
 
-Also updating notes-random.js to pick two notes and revise its comment.</details></think>
+Also updating notes-random.js to pick two notes and revise its comment.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking whether a test exists for the current PICK_COUNT value of 3.</details></think>
+Checking whether a test exists for the current PICK_COUNT value of 3.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5716,19 +4643,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-No tests needed updating. The change is complete.</details></think>
+No tests needed updating. The change is complete.
+</details></think>
 
 _**Agent (auto-low)**_
 

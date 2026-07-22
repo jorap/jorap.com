@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 USB-C charging is a key preference. Proprietary charging cables are a major annoyance.
 
-Reviewing the current file structure and the jorap-voice skill to prepare the edit.</details></think>
+Reviewing the current file structure and the jorap-voice skill to prepare the edit.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,27 +25,15 @@ I'll read the post and the blog voice skill so the USB-C note matches your style
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -55,7 +44,8 @@ Adding a section on USB-C charging preferences and proprietary cable annoyances.
 
 Placing the USB-C section after physical controls and before cost. Adding a seventh item to the shortlist.
 
-Checking whether the Soundpeats RunFree model supports USB-C. The new section will use JoRap voice, highlighting the frustration of hunting for a proprietary cable when earphones die mid-day. Fixing the typo "a a" to "a major annoyance". A brief USB-C note may also be added to the closing Soundpeats section.</details></think>
+Checking whether the Soundpeats RunFree model supports USB-C. The new section will use JoRap voice, highlighting the frustration of hunting for a proprietary cable when earphones die mid-day. Fixing the typo "a a" to "a major annoyance". A brief USB-C note may also be added to the closing Soundpeats section.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -64,77 +54,47 @@ Adding a USB-C charging section in your voice and updating the shortlist.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Applied the requested changes. Now running voice lint to verify the file is clean.</details></think>
+Applied the requested changes. Now running voice lint to verify the file is clean.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/what-i-look-for-in-wireless-earphones.md 2>/dev/null || pnpm lint:voice 2>&1 | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/what-i-look-for-in-wireless-earphones.md 2&gt;/dev/null || pnpm lint:voice 2&gt;&amp;1 | head -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/what-i-look-for-in-wireless-earphones.md 2>/dev/null || pnpm lint:voice 2>&1 | head -30
 ```
 
 ```
 [ELIFECYCLE] Command failed with exit code 1.
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash errors:
   content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -142,7 +102,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The lint failure is in a different file, not the one we just edited.
 
-The changes look good. I'll summarize what was added.</details></think>
+The changes look good. I'll summarize what was added.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -168,7 +129,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'll remove all currency values from the blogs.
 
-I'll apply this broadly across all blog posts. First I'll search for currency mentions. Then I'll fix the wireless earphones post and update the jorap-voice skill to prevent future currency values.</details></think>
+I'll apply this broadly across all blog posts. First I'll search for currency mentions. Then I'll fix the wireless earphones post and update the jorap-voice skill to prevent future currency values.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -177,10 +139,8 @@ Searching blog posts for currency mentions and updating the voice skill so we do
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -243,38 +203,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -283,14 +224,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Blogs will exclude all currency values.
 
-Removing currency values from the wireless earphones post. Updating the jorap-voice skill to prohibit price mentions. Searching all published blogs for remaining currency amounts.</details></think>
+Removing currency values from the wireless earphones post. Updating the jorap-voice skill to prohibit price mentions. Searching all published blogs for remaining currency amounts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -325,28 +265,533 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
+  "pattern": "price|\\$[0-9]|currency"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
+  "pattern": "price|\\$[0-9]|currency",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/jorap-voice/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<think><details><summary>Thought Process</summary>
+Searching for additional currency values that may have been missed.
+</details></think>
 
-Status: **loading**
-
-
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$\\d"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$\\d",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/what-i-look-for-in-wireless-earphones.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/how-i-built-jorap-notes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/power-of-the-mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 20
+}
+```
+Status: **completed**
+
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md",
+  "pattern": "price|\\$\\d|currency|dollar"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md",
+  "pattern": "price|\\$\\d|currency|dollar",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Currency values should be omitted from all blog posts. The current post needs fixing first.
+
+All published posts containing currency values should be updated. The jorap-voice skill also needs revision.
+
+Draft posts may also be cleaned for consistency. Four published posts were identified: the earphones review, Jorap notes build guide, mouse wheel click piece, and Hugo plate theme review.
+
+The website guide contains a twelve-dollar reference. Draft posts and templates were checked but only the website guide needs editing. The earphones post will replace dollar amounts with descriptive alternatives like "expensive bud" and "budget-friendly."
+
+Specific replacements are being mapped out for each affected post. The earphones review will use "budget-friendly" instead of "$50." The Jorap notes guide will describe hosting costs as a "modest monthly hosting bill" rather than "$12 a month." The mouse wheel article will call the purchase "inexpensive" or "a modest one-time purchase." The Hugo plate review will say "free" or "nothing" instead of "$0."
+
+The website guide will use "a domain fee" or "next to nothing" instead of twelve dollars a year. The draft selling-static-sites post and blog-template examples will also be cleaned for consistency. The broader scope of rewriting all published posts was reconsidered; the immediate priority remains the current file and updating the jorap-voice skill.
+
+The broader scope is now confirmed. All published posts containing currency values will be rewritten. Template examples in __blog-template.md will be left untouched.
+
+The website guide is the fifth published post needing edits. The draft selling-static-sites post will be skipped because it centers on pricing structures; removing all currency would gut the article.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the earphones post and the voice skill, then scanning published posts for currency to remove.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Applying edits to remove currency mentions. Noting that "couple of coffees a month" in top-reasons is a metaphor rather than a currency value.
+
+Focusing on removing dollar amounts and written-out dollar figures. Updating jorap-voice by replacing price references with no-currency rules. Rewording earphone prices as "expensive bud," "budget tier," and "priced like budget gear." Starting edits on power-of-the-mouse-wheel-click.
+
+Mouse prices become "cheap" or "inexpensive." Hugo plate becomes "free" or "nothing." Top-reasons rewords "twelve dollars a year" as "a domain renewal." Jorap notes replaces "$12/month" with "modest monthly hosting" and "annual domain renewal."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking published blogs for remaining currency values.
+
+Also checking for duplicate jorap-voice skill files in the local skills folder.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$\\d|dollars a |peso|PHP [0-9]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$\\d|dollars a |peso|PHP [0-9]",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 11
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Published posts are clean. Drafts remain.
+
+The selling-static-sites draft contains pricing quotes. The blog template has demo tables. "Couple of coffees a month" is metaphorical. Checking for other written currency values.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "[!_]*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "dollar|peso|₱|USD|cent"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "dollar|peso|₱|USD|cent",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/what-i-look-for-in-wireless-earphones.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/power-of-the-mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/consistent-ai-output-wordpress-builds.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-shortcodes-deep-dive.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__worcestershire-sauce-lee-and-perrins.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/top-reasons-create-maintain-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__extension-cord.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-stopped-playing-marvel-snap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__canon-g3000.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__shopee-tips.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/miracle-isaiah-david.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__stuart-mcgill-big-three-low-back-exercises.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 20,
+  "totalMatches": 35
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Another file, `__shopee-tips.md`, contains a peso value that needs removal.
+
+The phrase "never spent a cent" in `why-i-stopped-playing-marvel-snap.md` is idiomatic, not a currency value, so it will remain. Now scanning published posts for actual peso or dollar amounts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "[!_]*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$\\d|₱|dollars|pesos"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$\\d|₱|dollars|pesos",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only one published post still contains currency values.
+
+The remaining post is a draft, so it does not need updating.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Noted. I removed currency from the earphones post and baked the rule into `jorap-voice` so future drafts skip dollar/peso amounts.
+
+**Earphones post** — swapped `$150`, `$30–$60`, and `~$50` for relative terms: "expensive bud", "budget tier", "priced like budget gear, not premium".
+
+**Other published posts** cleaned the same way:
+- `how-i-built-jorap-notes.md` — hosting/domain amounts
+- `power-of-the-mouse-wheel-click.md` — mouse price range
+- `hugoplate-theme-review.md` — `$0`
+- `top-reasons-create-maintain-your-own-website.md` — "twelve dollars a year"
+
+**`jorap-voice` skill** — now says no currency values; use terms like budget, premium, cheap, annual renewal instead.
+
+Left alone: draft `__selling-static-sites.md` (it's about quoting and line items) and `__blog-template.md` (demo table placeholders). Say if you want those adjusted too.

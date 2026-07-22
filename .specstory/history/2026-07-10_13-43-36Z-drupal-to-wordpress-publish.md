@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Publishing the `__drupal-to-wordpress` blog post.
 
-The `__` prefix indicates a draft. Removing it should publish the post. I'll read the file and check the publishing workflow.</details></think>
+The `__` prefix indicates a draft. Removing it should publish the post. I'll read the file and check the publishing workflow.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,36 +25,22 @@ I'll read the draft and check how other posts are published in this repo.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__drupal-to-wordpress.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__drupal-to-wordpress.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -80,22 +67,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **55** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (55 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (55 files)
 
 | File |
 |------|
@@ -154,13 +133,6 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (55 files)
 | `content/english/blog/_index.md` |
 | `content/english/blog/__shopee-tips.md` |
 | `content/english/blog/__smart-plug.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -168,7 +140,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Preparing to publish the Drupal-to-WordPress migration guide.
 
-Removing the `__` prefix and duplicate slug from the file. Checking image assets, related notes, and data files. Reviewing the static-site-vs-cms publish steps for reference.</details></think>
+Removing the `__` prefix and duplicate slug from the file. Checking image assets, related notes, and data files. Reviewing the static-site-vs-cms publish steps for reference.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -177,30 +150,20 @@ Checking the image asset and how recent publishes updated related data files.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `assets/images/drupal-to-wp.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -307,34 +270,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -394,13 +342,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -408,14 +349,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Preparing to publish the post.
 
-Renaming the file and removing the slug line. Checking noteFileDates.json and the publish workflow.</details></think>
+Renaming the file and removing the slug line. Checking noteFileDates.json and the publish workflow.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -441,21 +381,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -486,24 +417,241 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_13-10-50Z-static-site-slug-update.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_13-10-50Z-static-site-slug-update.md</summary>
+<think><details><summary>Thought Process</summary>
+The publish workflow is straightforward.
 
-</details>
-</tool-use>
+Renaming the file to `drupal-to-wordpress.md` and removing the redundant slug line. Will run voice lint next. Noted the modified `noteFileDates.json` may be auto-generated.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Running voice lint, then renaming the draft to publish it.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-sanitize.py --check content/english/blog/__drupal-to-wordpress.md 2&gt;&amp;1; python3 scripts/notes-voice-lint.py --check content/english/blog/__drupal-to-wordpress.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-sanitize.py --check content/english/blog/__drupal-to-wordpress.md 2>&1; python3 scripts/notes-voice-lint.py --check content/english/blog/__drupal-to-wordpress.md 2>&1
+```
+
+```
+Voice dash errors:
+  content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+Voice lint warnings:
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Voice lint passed for drupal-to-wordpress. Errors are from other files.
+
+Publishing the post by moving the draft and removing its slug line. The linked post already points to the correct URL.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: mv /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__drupal-to-wordpress.md /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+```bash
+mv /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__drupal-to-wordpress.md /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+File not found: 
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file move succeeded, but the string replacement failed. A race condition or path issue may be the cause.
+
+Reading the file and retrying the replacement.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file exists. Retrying the string replacement.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -20
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2226 
+ Paginator pages  │   86 
+ Non-page files   │    0 
+ Static files     │  244 
+ Processed images │  411 
+ Aliases          │  804 
+ Cleaned          │    0 
+
+Total in 28094 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Hugo build succeeded. The post is now live at `/blog/drupal-to-wordpress/`.
+
+Verifying the output file exists and checking whether build dates or other metadata changed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git status --short content/english/blog/drupal-to-wordpress.md content/english/blog/__drupal-to-wordpress.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git status --short content/english/blog/drupal-to-wordpress.md content/english/blog/__drupal-to-wordpress.md 2>&1
+```
+
+```
+ D content/english/blog/__drupal-to-wordpress.md
+?? content/english/blog/drupal-to-wordpress.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the Drupal-to-WordPress index file exists.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/blog",
+  "pattern": "drupal-to-wordpress"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/blog",
+  "pattern": "drupal-to-wordpress",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The public directory may be missing from the workspace or structured differently.
+
+Hugo built 2226 pages successfully. Now checking where the output is.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/blog/drupal-to-wordpress/ 2&gt;&amp;1 | head -5</summary>
+```bash
+ls -la /home/jorap/Documents/GitHub/jorap.com/public/blog/drupal-to-wordpress/ 2>&1 | head -5
+```
+
+```
+total 132
+drwxrwxr-x  2 root root   4096 Jun 29 01:41 .
+drwxrwxr-x 59 root root   4096 Jul 10 20:57 ..
+-rw-rw-r--  1 root root 111232 Jul 10 21:45 index.html
+-rw-rw-r--  1 root root   6194 Jul 10 21:45 index.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The post was published successfully.
+
+The post is live at jorap.com/blog/drupal-to-wordpress/. The existing link in __why-i-focused-on-open-source.md points to it correctly. No commit was requested.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Published **Why I Switched from Drupal to WordPress**.
+
+Changes:
+- Renamed `__drupal-to-wordpress.md` → `drupal-to-wordpress.md`
+- Removed the `slug` line (filename matches)
+- `draft: false` was already set
+- Hugo build passed
+
+Live URL after deploy: `/blog/drupal-to-wordpress/`
+
+The open-source draft already links there, so that cross-reference will work once both posts are live. Image is at `assets/images/drupal-to-wp.jpg`.
+
+Say if you want this committed with your other pending blog changes.

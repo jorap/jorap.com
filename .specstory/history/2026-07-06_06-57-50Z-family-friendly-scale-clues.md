@@ -13,7 +13,8 @@ improve quality of scale-clues that would be applicable to a family setting with
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants to improve the quality of scale-clues in a randomizer.yaml file.</details></think>
+The user wants to improve the quality of scale-clues in a randomizer.yaml file.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,10 +23,8 @@ I'll look at how `scale-clues` are defined in the randomizer data and what they'
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -84,47 +83,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -156,13 +134,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -174,7 +145,8 @@ Current prompts exclude children and focus on adult experiences. Examples includ
 
 Work-centric prompts like team meetings and first-day jobs are problematic. Cartoons, books for teenagers, and games framed around adult relationships also assume an adult perspective. Break-time activities and historical figures are more universally accessible.
 
-Grandparent and parent-specific prompts like grandkids' activities, summer camps, and rewards for good behavior assume adult roles. School projects and science fair ideas are also school-centric. Pranks, superpowers, and survival items appear more universally accessible.</details></think>
+Grandparent and parent-specific prompts like grandkids' activities, summer camps, and rewards for good behavior assume adult roles. School projects and science fair ideas are also school-centric. Pranks, superpowers, and survival items appear more universally accessible.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -183,27 +155,15 @@ Reviewing the scoring logic and past curation notes to see what makes a prompt f
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-27-35Z-scale-clues-without-categories.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-27-35Z-scale-clues-without-categories.md</summary>
 
 </details></tool-use>
 
@@ -218,14 +178,13 @@ Additional adult-centric prompts were identified. Lines 86, 87, 107–108, 148, 
 
 More adult-centric prompts were found. Lines 221, 267, 269, 277, 284, and 305 assume work, school, or age-specific roles. Niche scenarios such as droughts also limit universal applicability.
 
-Niche scenarios such as volcanic ash, camping trips, and space missions also fail universal applicability. The goal is cultural universality rather than assuming specific life stages, jobs, or wealth levels. A better approach is being outlined.</details></think>
+Niche scenarios such as volcanic ash, camping trips, and space missions also fail universal applicability. The goal is cultural universality rather than assuming specific life stages, jobs, or wealth levels. A better approach is being outlined.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -257,67 +216,60 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import yaml
 from pathlib import Path
-data = yaml.safe_load(Path('data/randomizer.yaml').read_text())
-items = data['collections'][0]['items']
-print('count:', len(items))
+data = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())
+items = data[&#39;collections&#39;][0][&#39;items&#39;]
+print(&#39;count:&#39;, len(items))
 # flag adult/parent/work/niche patterns
 flags = []
 patterns = [
-    ('adult', 'adult framing'),
-    ('meeting', 'work meeting'),
-    ('new job', 'work'),
-    ('team meeting', 'work'),
-    ('presentation', 'work/school formal'),
-    ('teenager', 'age-specific'),
-    ('grandparent', 'role-specific'),
-    ('sign a kid', 'parent'),
-    ('kids actually', 'parent'),
-    ('with kids', 'parent'),
-    ('age thirty', 'age gate'),
-    ('livestream', 'niche'),
-    ('submarine', 'niche'),
-    ('Mars', 'niche'),
-    ('space station', 'niche'),
-    ('volcano', 'niche disaster'),
-    ('hurricane', 'regional'),
-    ('campsite', 'niche'),
-    ('hiking trail', 'niche activity'),
-    ('doctor', 'healthcare access'),
-    ('flight', 'travel privilege'),
-    ('beach', 'geographic'),
-    ('wedding', 'life event'),
-    ('dollar store', 'economic'),
-    ('pharmacy', 'healthcare'),
-    ('Wi-Fi', 'tech privilege'),
-    ('internet', 'tech'),
-    ('GPS', 'tech'),
-    ('delivery apps', 'tech/urban'),
-    ('elevator', 'urban'),
-    ('coffee', 'cultural'),
-    ('potluck', 'cultural'),
-    ('block party', 'cultural'),
-    ('science fair', 'school system'),
-    ('talent show', 'school system'),
-    ('relay-race', 'school'),
-    ('show-and-tell', 'school'),
-    ('lunchbox', 'school'),
-    ('homework', 'school'),
-    ('RSVP', 'formal social'),
+    (&#39;adult&#39;, &#39;adult framing&#39;),
+    (&#39;meeting&#39;, &#39;work meeting&#39;),
+    (&#39;new job&#39;, &#39;work&#39;),
+    (&#39;team meeting&#39;, &#39;work&#39;),
+    (&#39;presentation&#39;, &#39;work/school formal&#39;),
+    (&#39;teenager&#39;, &#39;age-specific&#39;),
+    (&#39;grandparent&#39;, &#39;role-specific&#39;),
+    (&#39;sign a kid&#39;, &#39;parent&#39;),
+    (&#39;kids actually&#39;, &#39;parent&#39;),
+    (&#39;with kids&#39;, &#39;parent&#39;),
+    (&#39;age thirty&#39;, &#39;age gate&#39;),
+    (&#39;livestream&#39;, &#39;niche&#39;),
+    (&#39;submarine&#39;, &#39;niche&#39;),
+    (&#39;Mars&#39;, &#39;niche&#39;),
+    (&#39;space station&#39;, &#39;niche&#39;),
+    (&#39;volcano&#39;, &#39;niche disaster&#39;),
+    (&#39;hurricane&#39;, &#39;regional&#39;),
+    (&#39;campsite&#39;, &#39;niche&#39;),
+    (&#39;hiking trail&#39;, &#39;niche activity&#39;),
+    (&#39;doctor&#39;, &#39;healthcare access&#39;),
+    (&#39;flight&#39;, &#39;travel privilege&#39;),
+    (&#39;beach&#39;, &#39;geographic&#39;),
+    (&#39;wedding&#39;, &#39;life event&#39;),
+    (&#39;dollar store&#39;, &#39;economic&#39;),
+    (&#39;pharmacy&#39;, &#39;healthcare&#39;),
+    (&#39;Wi-Fi&#39;, &#39;tech privilege&#39;),
+    (&#39;internet&#39;, &#39;tech&#39;),
+    (&#39;GPS&#39;, &#39;tech&#39;),
+    (&#39;delivery apps&#39;, &#39;tech/urban&#39;),
+    (&#39;elevator&#39;, &#39;urban&#39;),
+    (&#39;coffee&#39;, &#39;cultural&#39;),
+    (&#39;potluck&#39;, &#39;cultural&#39;),
+    (&#39;block party&#39;, &#39;cultural&#39;),
+    (&#39;science fair&#39;, &#39;school system&#39;),
+    (&#39;talent show&#39;, &#39;school system&#39;),
+    (&#39;relay-race&#39;, &#39;school&#39;),
+    (&#39;show-and-tell&#39;, &#39;school&#39;),
+    (&#39;lunchbox&#39;, &#39;school&#39;),
+    (&#39;homework&#39;, &#39;school&#39;),
+    (&#39;RSVP&#39;, &#39;formal social&#39;),
 ]
 for i, item in enumerate(items):
     low = item.lower()
@@ -325,11 +277,10 @@ for i, item in enumerate(items):
     if hits:
         flags.append((i+1, item, hits))
 for row in flags:
-    print(f'{row[0]:3} [{\", \".join(row[2])}] {row[1][:70]}')
-print('flagged:', len(flags))
-"
+    print(f&#39;{row[0]:3} [{\&#34;, \&#34;.join(row[2])}] {row[1][:70]}&#39;)
+print(&#39;flagged:&#39;, len(flags))
+&#34;
 </summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import yaml
@@ -426,31 +377,9 @@ count: 300
 177 [economic] Things you'd buy if you could only shop at a dollar store.
 180 [healthcare] Things you'd grab in a five-minute pharmacy run.
 181 [niche] Things you'd pack for a one-week space station visit.
-185 [regional] Things you'd want before a hurricane indoors.
-186 [work/school formal] Things you'd want before giving a presentation.
-191 [cultural] Things you'd want during a last-minute potluck.
-197 [niche] Things you'd want if a river rose near a campsite.
-199 [niche disaster] Things you'd want if a volcano erupted far away but ash arrived.
-205 [tech/urban] Things you'd want if delivery apps stopped working.
-206 [urban] Things you'd want if elevators only went up, never down.
-212 [school] Things you'd want if homework graded itself honestly.
-257 [school] Things you'd want in a school lunchbox.
-258 [work meeting, work] Things you'd want in a team meeting to go smoothly.
-260 [niche] Things you'd want in a twenty-four-hour charity livestream.
-264 [niche] Things you'd want on a submarine for a month.
-267 [niche] Things you'd want on the first colony on Mars.
-268 [work] Things you'd want on the first day of a new job.
-296 [age gate] Things you'd want to learn before age thirty.
-297 [tech] Things you'd want to navigate without GPS.
-flagged: 47
-
+185 [regiona
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -482,7 +411,8 @@ More replacements are being drafted. Hiking trail prompts become general outdoor
 
 A holistic rewrite of the entire list is now preferred over isolated find-and-replace edits. The existing curation script will be reused to update the YAML directly, paired with a Python script that loads current items and applies the family-universal replacements. The scoring function will also be enhanced.
 
-A simpler approach is chosen over a full rewrite. The YAML will be edited directly with targeted replacements and new family-friendly prompts. The curate script scoring will be updated too. Every item will be reviewed individually. Strong universal prompts will be kept. Weak ones will be fixed or replaced. Tiredness, deserted islands, superpowers, and board games are examples of items that remain.</details></think>
+A simpler approach is chosen over a full rewrite. The YAML will be edited directly with targeted replacements and new family-friendly prompts. The curate script scoring will be updated too. Every item will be reviewed individually. Strong universal prompts will be kept. Weak ones will be fixed or replaced. Tiredness, deserted islands, superpowers, and board games are examples of items that remain.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -491,29 +421,28 @@ Auditing the full list for adult-only framing, role-specific prompts, and near-d
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml
 from pathlib import Path
 
-data = yaml.safe_load(Path('data/randomizer.yaml').read_text())
-items = data['collections'][0]['items']
+data = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())
+items = data[&#39;collections&#39;][0][&#39;items&#39;]
 
 # near-duplicates
 from collections import defaultdict
 norm = defaultdict(list)
 for i, item in enumerate(items):
-    key = item.lower().replace("you'd", "you would").replace("you're", "you are")
+    key = item.lower().replace(&#34;you&#39;d&#34;, &#34;you would&#34;).replace(&#34;you&#39;re&#34;, &#34;you are&#34;)
     norm[key[:40]].append((i, item))
 
-dups = [(k, v) for k,v in norm.items() if len(v) > 1]
-print("Near-duplicate clusters:", len(dups))
+dups = [(k, v) for k,v in norm.items() if len(v) &gt; 1]
+print(&#34;Near-duplicate clusters:&#34;, len(dups))
 for k, v in sorted(dups, key=lambda x: -len(x[1]))[:15]:
-    print(f"  {len(v)}x starting '{k}...'")
+    print(f&#34;  {len(v)}x starting &#39;{k}...&#39;&#34;)
     for i, it in v[:3]:
-        print(f"    - {it}")
+        print(f&#34;    - {it}&#34;)
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import yaml
@@ -568,24 +497,12 @@ Near-duplicate clusters: 8
     - Things you'd want to do when you have ten free minutes.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-27-35Z-scale-clues-without-categories.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_04-27-35Z-scale-clues-without-categories.md</summary>
 
 </details></tool-use>
 
@@ -614,7 +531,8 @@ New prompts cover family car rides, petting zoos, buffets, pillow forts, swap me
 
 More prompts cover sleep aids, camping trips, costume parties, magic kits, backyard sports, rolling objects, picture-day gear, shareable snacks, and time capsules. All remain concrete and age-neutral.
 
-New prompts cover bedtime stories, hand-eaten foods, sleepovers, blanket forts, floating toys, road-trip games, party favors, power outages, breakfasts, county fairs, tower stacking, school bags, and picking fruit.</details></think>
+New prompts cover bedtime stories, hand-eaten foods, sleepovers, blanket forts, floating toys, road-trip games, party favors, power outages, breakfasts, county fairs, tower stacking, school bags, and picking fruit.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -623,555 +541,549 @@ Writing a curation pass: replace adult-only and role-specific prompts, dedupe ov
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Planning to update the YAML file directly using a Python script.</details></think>
+Planning to update the YAML file directly using a Python script.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re
 import yaml
 from pathlib import Path
 
-YAML = Path('data/randomizer.yaml')
+YAML = Path(&#39;data/randomizer.yaml&#39;)
 data = yaml.safe_load(YAML.read_text())
-items = list(data['collections'][0]['items'])
+items = list(data[&#39;collections&#39;][0][&#39;items&#39;])
 
 REPLACEMENTS = {
-    "Things that would make you laugh in a serious meeting.": "Things that would make you giggle when you should stay quiet.",
-    "Snacks you'd want after school or work.": "Snacks you'd reach for in the afternoon.",
-    "Activities for a rainy day with kids.": "Activities for a rainy day stuck indoors.",
-    "Birthday gifts kids actually use.": "Birthday gifts people actually use.",
-    "Books you'd give to a curious teenager.": "Books you'd recommend to a curious friend.",
-    "Cartoons adults still enjoy.": "Cartoons worth rewatching.",
-    "Games you'd play with a teenager.": "Games that are fun at any age.",
-    "Outfits that would stand out at a wedding.": "Outfits that would stand out at a fancy party.",
-    "School subjects you'd enjoy revisiting as an adult.": "School subjects you'd actually enjoy.",
-    "Science fair project ideas that sound impressive.": "Show-and-tell ideas that sound impressive.",
-    "Skills that would impress at a talent show.": "Skills that would impress at a family talent night.",
-    "Summer activities you'd sign a kid up for.": "Outdoor activities worth trying in summer.",
-    "Things grandparents love to do with grandkids.": "Activities fun with someone much older or younger than you.",
-    "Things that would make you ten minutes late to an important meeting.": "Things that would make you run late on a busy morning.",
-    "Things you'd grab in a five-minute pharmacy run.": "Things you'd grab on a quick errand run.",
-    "Things you'd pack for a one-week space station visit.": "Things you'd pack for a week away from home.",
-    "Things you'd want before a hurricane indoors.": "Things you'd want before a big storm keeps you indoors.",
-    "Things you'd want before giving a presentation.": "Things you'd want before speaking in front of a group.",
-    "Things you'd want during a long queue at the doctor.": "Things you'd want while waiting a long time in line.",
-    "Things you'd want if a river rose near a campsite.": "Things you'd want if water rose near where you're sleeping.",
-    "Things you'd want if a volcano erupted far away but ash arrived.": "Things you'd want if the sky stayed gray for days.",
-    "Things you'd want in a team meeting to go smoothly.": "Things that help a group project go smoothly.",
-    "Things you'd want in a twenty-four-hour charity livestream.": "Things you'd want on a very long video call.",
-    "Things you'd want on a submarine for a month.": "Things you'd want on a trip with nowhere to stop for a month.",
-    "Things you'd want on the first colony on Mars.": "Things you'd want if you lived far from any shop.",
-    "Things you'd want on the first day of a new job.": "Things you'd want on the first day somewhere new.",
-    "Things you'd want to learn before age thirty.": "Skills worth learning while you're young.",
-    "Things you'd want to do when you're bored at home.": "Things you'd want when you're bored at home.",
-    "Things you'd buy if you could only shop at a dollar store.": "Things you'd buy if you could only spend pocket money.",
-    "Things to bring if you were lost on a hiking trail.": "Things to bring if you got lost outdoors.",
-    "Things you'd want during a delayed flight.": "Things you'd want when travel plans get delayed.",
-    "Things you'd want on a long flight.": "Things you'd want on a long trip sitting still.",
-    "Things you'd want at a beach all day.": "Things you'd want for a full day in the sun.",
-    "Excuses for being late that might actually work.": "Reasons for being late that might actually be believed.",
-    "Things you'd want when you spill coffee on your shirt.": "Things you'd want when you spill a drink on your shirt.",
-    "Things you'd want during a neighborhood block party.": "Things you'd want at a neighborhood get-together.",
-    "Things you'd want during a school fundraiser.": "Things you'd want at a school fair or fundraiser.",
-    "Things you'd want if delivery apps stopped working.": "Things you'd want if food delivery stopped working.",
-    "Things you'd want if maps stopped working on your phone.": "Things you'd want if maps stopped working on your device.",
-    "Things you'd want if you had no car for a month.": "Things you'd want if you had no ride for a month.",
-    "Things you'd want if you could speak every language for a week.": "Things you'd want if everyone could understand you for a week.",
-    "Things you'd want on a hot-air balloon ride gone long.": "Things you'd want if a short ride turned into a long one.",
-    "Things you'd want to purify questionable water.": "Things you'd want to make murky water safer to drink.",
+    &#34;Things that would make you laugh in a serious meeting.&#34;: &#34;Things that would make you giggle when you should stay quiet.&#34;,
+    &#34;Snacks you&#39;d want after school or work.&#34;: &#34;Snacks you&#39;d reach for in the afternoon.&#34;,
+    &#34;Activities for a rainy day with kids.&#34;: &#34;Activities for a rainy day stuck indoors.&#34;,
+    &#34;Birthday gifts kids actually use.&#34;: &#34;Birthday gifts people actually use.&#34;,
+    &#34;Books you&#39;d give to a curious teenager.&#34;: &#34;Books you&#39;d recommend to a curious friend.&#34;,
+    &#34;Cartoons adults still enjoy.&#34;: &#34;Cartoons worth rewatching.&#34;,
+    &#34;Games you&#39;d play with a teenager.&#34;: &#34;Games that are fun at any age.&#34;,
+    &#34;Outfits that would stand out at a wedding.&#34;: &#34;Outfits that would stand out at a fancy party.&#34;,
+    &#34;School subjects you&#39;d enjoy revisiting as an adult.&#34;: &#34;School subjects you&#39;d actually enjoy.&#34;,
+    &#34;Science fair project ideas that sound impressive.&#34;: &#34;Show-and-tell ideas that sound impressive.&#34;,
+    &#34;Skills that would impress at a talent show.&#34;: &#34;Skills that would impress at a family talent night.&#34;,
+    &#34;Summer activities you&#39;d sign a kid up for.&#34;: &#34;Outdoor activities worth trying in summer.&#34;,
+    &#34;Things grandparents love to do with grandkids.&#34;: &#34;Activities fun with someone much older or younger than you.&#34;,
+    &#34;Things that would make you ten minutes late to an important meeting.&#34;: &#34;Things that would make you run late on a busy morning.&#34;,
+    &#34;Things you&#39;d grab in a five-minute pharmacy run.&#34;: &#34;Things you&#39;d grab on a quick errand run.&#34;,
+    &#34;Things you&#39;d pack for a one-week space station visit.&#34;: &#34;Things you&#39;d pack for a week away from home.&#34;,
+    &#34;Things you&#39;d want before a hurricane indoors.&#34;: &#34;Things you&#39;d want before a big storm keeps you indoors.&#34;,
+    &#34;Things you&#39;d want before giving a presentation.&#34;: &#34;Things you&#39;d want before speaking in front of a group.&#34;,
+    &#34;Things you&#39;d want during a long queue at the doctor.&#34;: &#34;Things you&#39;d want while waiting a long time in line.&#34;,
+    &#34;Things you&#39;d want if a river rose near a campsite.&#34;: &#34;Things you&#39;d want if water rose near where you&#39;re sleeping.&#34;,
+    &#34;Things you&#39;d want if a volcano erupted far away but ash arrived.&#34;: &#34;Things you&#39;d want if the sky stayed gray for days.&#34;,
+    &#34;Things you&#39;d want in a team meeting to go smoothly.&#34;: &#34;Things that help a group project go smoothly.&#34;,
+    &#34;Things you&#39;d want in a twenty-four-hour charity livestream.&#34;: &#34;Things you&#39;d want on a very long video call.&#34;,
+    &#34;Things you&#39;d want on a submarine for a month.&#34;: &#34;Things you&#39;d want on a trip with nowhere to stop for a month.&#34;,
+    &#34;Things you&#39;d want on the first colony on Mars.&#34;: &#34;Things you&#39;d want if you lived far from any shop.&#34;,
+    &#34;Things you&#39;d want on the first day of a new job.&#34;: &#34;Things you&#39;d want on the first day somewhere new.&#34;,
+    &#34;Things you&#39;d want to learn before age thirty.&#34;: &#34;Skills worth learning while you&#39;re young.&#34;,
+    &#34;Things you&#39;d want to do when you&#39;re bored at home.&#34;: &#34;Things you&#39;d want when you&#39;re bored at home.&#34;,
+    &#34;Things you&#39;d buy if you could only shop at a dollar store.&#34;: &#34;Things you&#39;d buy if you could only spend pocket money.&#34;,
+    &#34;Things to bring if you were lost on a hiking trail.&#34;: &#34;Things to bring if you got lost outdoors.&#34;,
+    &#34;Things you&#39;d want during a delayed flight.&#34;: &#34;Things you&#39;d want when travel plans get delayed.&#34;,
+    &#34;Things you&#39;d want on a long flight.&#34;: &#34;Things you&#39;d want on a long trip sitting still.&#34;,
+    &#34;Things you&#39;d want at a beach all day.&#34;: &#34;Things you&#39;d want for a full day in the sun.&#34;,
+    &#34;Excuses for being late that might actually work.&#34;: &#34;Reasons for being late that might actually be believed.&#34;,
+    &#34;Things you&#39;d want when you spill coffee on your shirt.&#34;: &#34;Things you&#39;d want when you spill a drink on your shirt.&#34;,
+    &#34;Things you&#39;d want during a neighborhood block party.&#34;: &#34;Things you&#39;d want at a neighborhood get-together.&#34;,
+    &#34;Things you&#39;d want during a school fundraiser.&#34;: &#34;Things you&#39;d want at a school fair or fundraiser.&#34;,
+    &#34;Things you&#39;d want if delivery apps stopped working.&#34;: &#34;Things you&#39;d want if food delivery stopped working.&#34;,
+    &#34;Things you&#39;d want if maps stopped working on your phone.&#34;: &#34;Things you&#39;d want if maps stopped working on your device.&#34;,
+    &#34;Things you&#39;d want if you had no car for a month.&#34;: &#34;Things you&#39;d want if you had no ride for a month.&#34;,
+    &#34;Things you&#39;d want if you could speak every language for a week.&#34;: &#34;Things you&#39;d want if everyone could understand you for a week.&#34;,
+    &#34;Things you&#39;d want on a hot-air balloon ride gone long.&#34;: &#34;Things you&#39;d want if a short ride turned into a long one.&#34;,
+    &#34;Things you&#39;d want to purify questionable water.&#34;: &#34;Things you&#39;d want to make murky water safer to drink.&#34;,
 }
 
 NEW = [
-    "Things you'd want on a long family car ride.",
-    "Animals you'd want at a petting zoo.",
-    "Foods you'd pick from a buffet line.",
-    "Things that smell good when someone is cooking.",
-    "Things you'd want in a pillow fort.",
-    "Board games that work with mixed ages.",
-    "Things you'd use in a three-legged race.",
-    "Things to draw when you have five minutes.",
-    "Songs you'd hum when you're happy.",
-    "Things that fit in a pocket.",
-    "Tools you'd want to fix a broken toy.",
-    "Things you'd want at a community picnic.",
-    "Flavors you'd try at an ice cream shop.",
-    "Things that help you fall asleep faster.",
-    "Things you'd want on a camping trip.",
-    "Costumes you'd wear to a costume party.",
-    "Things you'd want in a magic trick kit.",
-    "Sports you'd play in the backyard.",
-    "Things you'd collect if collecting cost nothing.",
-    "Objects that roll down a hill well.",
-    "Snacks that are easy to share.",
-    "Things you'd want when you lose a game.",
-    "Things you'd want when you win a game.",
-    "Board games for exactly two players.",
-    "Things to put in a time capsule.",
-    "Things that bounce well.",
-    "Things you'd want when someone is telling a scary story.",
-    "Foods you'd eat with your hands.",
-    "Objects you'd use to build a blanket fort.",
-    "Things that float in a bathtub.",
-    "Party favors everyone would like.",
-    "Breakfasts you could make yourself.",
-    "Things you'd want at a fair or carnival.",
-    "Objects you'd stack in a tower contest.",
-    "Fruits you'd pick off a tree if you could.",
-    "Things that make good props in charades.",
-    "Animals you'd cast as cartoon characters.",
-    "Things you'd want when helping cook dinner.",
-    "Weather you'd want for a picnic.",
-    "Things you'd want when it's too windy outside.",
-    "Things you'd want when meeting someone new.",
-    "Objects you'd find in a junk drawer.",
-    "Things you'd want when decorating a room.",
-    "Toys you'd bring to a playdate.",
-    "Things you'd want during a family game night.",
-    "Snacks perfect for sharing on the couch.",
-    "Things you'd want when packing an overnight bag.",
-    "Objects you'd use in a scavenger hunt at home.",
-    "Things you'd want when the power flickers at night.",
-    "Games you could play with a deck of cards only.",
-    "Things you'd want when building with blocks or bricks.",
-    "Animals you'd want in a storybook.",
-    "Things that feel good on a sore throat.",
-    "Objects you'd toss in a pool or lake.",
-    "Things you'd want when it's your turn to pick dinner.",
-    "Sounds that would wake a heavy sleeper.",
-    "Things you'd want when babysitting a younger sibling.",
-    "Treats you'd pick from a bakery display.",
-    "Things you'd want when the whole family cooks together.",
-    "Objects you'd use to measure something without a ruler.",
-    "Things you'd want when playing outside until dark.",
-    "Board games that end in under twenty minutes.",
-    "Things you'd want when someone is homesick.",
-    "Snacks you'd sneak before dinner (if allowed).",
-    "Things you'd want when learning to ride a bike.",
-    "Objects that make good percussion instruments.",
-    "Things you'd want when the weather changes suddenly.",
-    "Pets that would be fun to watch, not just hold.",
-    "Things you'd want when everyone has to wait their turn.",
-    "Foods you'd order at a diner.",
-    "Things you'd want when telling jokes around a table.",
-    "Objects you'd trade at a swap meet.",
-    "Things you'd want when the house is too quiet.",
-    "Games you'd play with only paper and pencil.",
-    "Things you'd want when folding laundry as a team.",
-    "Snacks you'd want at a sports game in the stands.",
-    "Things you'd want when practicing a new skill.",
-    "Objects you'd use to make shadow puppets.",
-    "Things you'd want when the whole table is hungry.",
-    "Animals you'd want to see at a zoo once.",
-    "Things you'd want when cleaning up after a party.",
-    "Board games where luck matters more than strategy.",
-    "Things you'd want when you need to stay awake.",
-    "Objects you'd use to keep papers from blowing away.",
-    "Things you'd want when playing in the snow.",
-    "Foods you'd want at a cookout or barbecue.",
-    "Things you'd want when someone is feeling left out.",
-    "Games that work even if players speak different languages.",
-    "Things you'd want when packing a lunch.",
-    "Objects you'd use to carry water without spilling.",
-    "Things you'd want when the TV remote goes missing.",
-    "Snacks you'd want during a board game marathon.",
-    "Things you'd want when building the biggest sand pile.",
-    "Animals you'd want as mascots for a team.",
-    "Things you'd want when everyone shares one bathroom.",
-    "Objects you'd use to keep a door propped open.",
-    "Things you'd want when playing hide-and-seek.",
-    "Foods that taste better the next day.",
-    "Things you'd want when the clock says bedtime but you're not tired.",
-    "Games you'd play on a blanket in the yard.",
-    "Things you'd want when mailing a letter or package.",
-    "Objects you'd use to cool down on a hot day.",
-    "Things you'd want when the dog needs a walk.",
-    "Snacks you'd want at a matinee movie.",
-    "Things you'd want when fixing a flat bike tire.",
-    "Board games where everyone can win sometimes.",
-    "Things you'd want when the baby is crying.",
-    "Objects you'd use to label your belongings.",
-    "Things you'd want when planning a surprise for someone.",
-    "Foods you'd want on a long bus ride.",
-    "Things you'd want when the whole family shares one car.",
-    "Games you'd play while waiting for food at a restaurant.",
-    "Things you'd want when someone asks you to help move boxes.",
-    "Objects you'd use to scoop something without a spoon.",
-    "Things you'd want when the garden needs watering.",
-    "Snacks you'd want after playing outside.",
-    "Things you'd want when you have to share a room.",
-    "Animals that would make a good stuffed toy.",
-    "Things you'd want when the electricity comes back on.",
-    "Objects you'd use to make a ramp for toy cars.",
-    "Things you'd want when everyone picks a movie together.",
-    "Foods you'd want when you're starving and dinner isn't ready.",
-    "Things you'd want when playing catch.",
-    "Games that work with three players exactly.",
-    "Things you'd want when the smoke alarm beeps for no reason.",
-    "Objects you'd use to dry your hands without a towel.",
-    "Things you'd want when visiting relatives for the weekend.",
-    "Snacks you'd want on a nature walk.",
-    "Things you'd want when the sink is full of dishes.",
-    "Board games where cheating is obvious.",
-    "Things you'd want when you need to apologize.",
-    "Animals you'd want in a mobile zoo visit.",
-    "Things you'd want when the fan stops working on a hot night.",
-    "Objects you'd use to keep bugs away outdoors.",
-    "Things you'd want when playing musical chairs.",
-    "Foods you'd want at a potluck if you could only bring one.",
-    "Things you'd want when the family photo is about to start.",
-    "Games you'd play with a ball and no net.",
-    "Things you'd want when someone is learning to swim.",
-    "Objects you'd use to mark whose turn it is.",
-    "Things you'd want when the ice cream melts too fast.",
-    "Snacks you'd want during a study session.",
-    "Things you'd want when building a snow fort.",
-    "Animals you'd want to feed at a farm visit.",
-    "Things you'd want when the printer won't work.",
-    "Objects you'd use to carry groceries upstairs.",
-    "Things you'd want when playing tag.",
-    "Foods you'd want when you're the pickiest eater at the table.",
-    "Things you'd want when the Wi-Fi is slow but not gone.",
-    "Games you'd play with marbles or small balls.",
-    "Things you'd want when someone is afraid of the dark.",
-    "Objects you'd use to prop up a wobbly table.",
-    "Things you'd want when everyone has to clean one room fast.",
-    "Snacks you'd want at a sleepover.",
-    "Things you'd want when the cat won't come inside.",
-    "Board games where the rules are easy to explain.",
-    "Things you'd want when you forget someone's birthday.",
-    "Animals you'd want in a parade float.",
-    "Things you'd want when the microwave beeps at midnight.",
-    "Objects you'd use to open a stubborn jar.",
-    "Things you'd want when playing twenty questions.",
-    "Foods you'd want when you're sick but still hungry.",
-    "Things you'd want when the whole family piles into one bed.",
-    "Games you'd play with sidewalk chalk.",
-    "Things you'd want when the toast burns.",
-    "Objects you'd use to fan yourself without electricity.",
-    "Things you'd want when someone is telling a long story.",
-    "Snacks you'd want during a long phone call with family.",
-    "Things you'd want when the puzzle is almost finished.",
-    "Animals that would be funny as team mascots.",
-    "Things you'd want when the zipper breaks on your bag.",
-    "Objects you'd use to weigh something without a scale.",
-    "Things you'd want when playing follow the leader.",
-    "Foods you'd want when you're eating outside for the first time this year.",
-    "Things you'd want when the batteries in the remote die.",
-    "Games you'd play with a balloon indoors.",
-    "Things you'd want when someone is practicing an instrument nearby.",
-    "Objects you'd use to keep hair out of your face.",
-    "Things you'd want when the family dog steals your sock.",
-    "Snacks you'd want when watching the sunset.",
-    "Things you'd want when the table is set for too many guests.",
-    "Board games that get louder as they go.",
-    "Things you'd want when you have to sit still for a long time.",
-    "Animals you'd want on a farm-themed birthday cake.",
-    "Things you'd want when the paint won't dry.",
-    "Objects you'd use to scoop ice cream for everyone.",
-    "Things you'd want when playing red light green light.",
-    "Foods you'd want when you're the first one awake.",
-    "Things you'd want when the tent won't stay up.",
-    "Games you'd play with a frisbee or flying disc.",
-    "Things you'd want when someone is cutting onions in the kitchen.",
-    "Objects you'd use to make a paper airplane fly farther.",
-    "Things you'd want when the family votes on what to watch.",
-    "Snacks you'd want when the oven is preheating.",
-    "Things you'd want when you drop something between the couch cushions.",
-    "Animals you'd want in a pet shop window.",
-    "Things you'd want when the line at the checkout is huge.",
-    "Objects you'd use to keep a picnic blanket from blowing away.",
-    "Things you'd want when playing Simon says.",
-    "Foods you'd want when you're helping set the table.",
-    "Things you'd want when the thunder is loud but you're safe inside.",
-    "Games you'd play with a hula hoop.",
-    "Things you'd want when someone is wrapping presents.",
-    "Objects you'd use to sort laundry by color.",
-    "Things you'd want when the whole family tries a new recipe.",
-    "Snacks you'd want when the parade is slow to start.",
-    "Things you'd want when you have to wait for your turn on the swing.",
-    "Board games where everyone teams up against the game.",
-    "Things you'd want when the bubble bath overflows.",
-    "Animals you'd want to spot on a nature trail.",
-    "Things you'd want when the glue won't stick.",
-    "Objects you'd use to carry soup without spilling.",
-    "Things you'd want when playing duck duck goose.",
-    "Foods you'd want when you're eating breakfast for dinner.",
-    "Things you'd want when the family car won't start.",
-    "Games you'd play with a jump rope.",
-    "Things you'd want when someone is blowing up balloons.",
-    "Objects you'd use to keep crayons from rolling off the table.",
-    "Things you'd want when the fire drill alarm goes off.",
-    "Snacks you'd want when the marching band passes by.",
-    "Things you'd want when you're the last one picked for a team.",
-    "Animals that would be silly on a T-shirt.",
-    "Things you'd want when the tape measure is missing.",
-    "Objects you'd use to prop open a book while reading.",
-    "Things you'd want when playing hot potato.",
-    "Foods you'd want when you're eating with chopsticks for the first time.",
-    "Things you'd want when the whole family sings together.",
-    "Games you'd play with a spinning top.",
-    "Things you'd want when the soap dispenser is empty.",
-    "Objects you'd use to keep shoes paired in a pile.",
-    "Things you'd want when someone is learning to tie their shoes.",
-    "Snacks you'd want when the fireworks are about to start.",
-    "Things you'd want when the chalkboard is squeaky.",
-    "Board games where drawing skills help.",
-    "Things you'd want when you're in charge of the music.",
-    "Animals you'd want on a carousel ride.",
-    "Things you'd want when the pancakes stick to the pan.",
-    "Objects you'd use to keep a plant watered while you're away.",
-    "Things you'd want when playing telephone.",
-    "Foods you'd want when you're eating lunch in the park.",
-    "Things you'd want when the family plays charades.",
-    "Games you'd play with dominoes.",
-    "Things you'd want when someone is building a model kit.",
-    "Objects you'd use to hang a picture straight.",
-    "Things you'd want when the sprinklers turn on while you're outside.",
-    "Snacks you'd want when the bus is late.",
-    "Things you'd want when you're teaching someone a card game.",
-    "Animals you'd want in a coloring book.",
-    "Things you'd want when the flashlight batteries are dead.",
-    "Objects you'd use to keep a door from slamming.",
-    "Things you'd want when playing rock paper scissors for real stakes.",
-    "Foods you'd want when you're the designated taste-tester.",
-    "Things you'd want when the family builds a gingerbread house.",
-    "Games you'd play with a yo-yo.",
-    "Things you'd want when someone is threading a needle.",
-    "Objects you'd use to keep a sandwich from getting soggy.",
-    "Things you'd want when the marching ants invade the picnic.",
-    "Snacks you'd want when the game goes into overtime.",
-    "Things you'd want when you're in the middle seat on a trip.",
-    "Board games where bluffing is part of the fun.",
-    "Things you'd want when the paint-by-numbers is half done.",
-    "Animals you'd want as characters in a video game.",
-    "Things you'd want when the smoke from cooking sets off the alarm.",
-    "Objects you'd use to keep a kite in the air.",
-    "Things you'd want when playing leapfrog.",
-    "Foods you'd want when you're eating around a campfire.",
-    "Things you'd want when the family does a jigsaw on the floor.",
-    "Games you'd play with a sack race bag.",
-    "Things you'd want when someone is tuning a guitar.",
-    "Objects you'd use to keep ice from melting too fast.",
-    "Things you'd want when the dog eats homework (or your drawing).",
-    "Snacks you'd want when the choir is practicing.",
-    "Things you'd want when you're stacking chairs after a party.",
-    "Animals that would be fun to imitate in a game.",
-    "Things you'd want when the glue stick dries out.",
-    "Objects you'd use to measure how tall someone is on a wall.",
-    "Things you'd want when playing capture the flag.",
-    "Foods you'd want when you're eating with a toothache.",
-    "Things you'd want when the family tries a new board game.",
-    "Games you'd play with a paddle and ball.",
-    "Things you'd want when someone is blowing bubbles.",
-    "Objects you'd use to keep a necklace from tangling.",
-    "Things you'd want when the power comes back during a storm.",
-    "Snacks you'd want when the tournament bracket is on the wall.",
-    "Things you'd want when you're folding a fitted sheet.",
-    "Board games where the board itself is the star.",
-    "Things you'd want when the hamster escapes its cage.",
-    "Animals you'd want on a wildlife documentary.",
-    "Things you'd want when the sticker won't peel off cleanly.",
-    "Objects you'd use to keep a tablecloth from sliding.",
-    "Things you'd want when playing London bridge.",
-    "Foods you'd want when you're eating the last slice.",
-    "Things you'd want when the family washes the car together.",
-    "Games you'd play with a parachute in gym class.",
-    "Things you'd want when someone is sharpening pencils.",
-    "Objects you'd use to keep a door from locking accidentally.",
-    "Things you'd want when the egg hunt is about to start.",
-    "Snacks you'd want when the pinata is about to break.",
-    "Things you'd want when you're the scorekeeper.",
-    "Animals you'd want in a puppet show.",
-    "Things you'd want when the clay won't hold its shape.",
-    "Objects you'd use to keep a candle from tipping.",
-    "Things you'd want when playing pin the tail on the donkey.",
-    "Foods you'd want when you're eating standing up.",
-    "Things you'd want when the family races paper boats.",
-    "Games you'd play with a Nerf ball indoors.",
-    "Things you'd want when someone is braiding hair.",
-    "Objects you'd use to keep a puzzle piece from getting lost.",
-    "Things you'd want when the marching band is too loud indoors.",
-    "Snacks you'd want when the chess match runs long.",
-    "Things you'd want when you're untangling Christmas lights.",
-    "Board games where the box art lied about how long it takes.",
-    "Things you'd want when the goldfish bowl needs cleaning.",
-    "Animals you'd want on a safari-themed birthday.",
-    "Things you'd want when the tape won't tear cleanly.",
-    "Objects you'd use to keep a stack of books from toppling.",
-    "Things you'd want when playing duck-duck-goose indoors.",
-    "Foods you'd want when you're eating the crusts or leaving them.",
-    "Things you'd want when the family tries to take a group selfie.",
-    "Games you'd play with a beanbag toss.",
-    "Things you'd want when someone is frosting a cake.",
-    "Objects you'd use to keep a door from squeaking.",
-    "Things you'd want when the piñata string won't break.",
-    "Snacks you'd want when the talent show is running late.",
-    "Things you'd want when you're the designated photographer.",
-    "Animals you'd want in a mobile petting zoo.",
-    "Things you'd want when the play-dough dries out.",
-    "Objects you'd use to keep a poster from curling.",
-    "Things you'd want when playing musical statues.",
-    "Foods you'd want when you're eating with gloves on in winter.",
-    "Things you'd want when the family builds a blanket maze.",
-    "Games you'd play with a cup-and-ball toy.",
-    "Things you'd want when someone is counting down to launch fireworks.",
-    "Objects you'd use to keep a sleeping bag zipped.",
-    "Things you'd want when the tooth fairy visit is tonight.",
-    "Snacks you'd want when the relay race is next.",
-    "Things you'd want when you're the flag holder in capture the flag.",
-    "Board games where the instructions are longer than the game.",
-    "Things you'd want when the hamster wheel is squeaking at night.",
-    "Animals you'd want on a farm puzzle.",
-    "Things you'd want when the sticker chart is almost full.",
-    "Objects you'd use to keep a tent flap closed.",
-    "Things you'd want when playing pass the parcel.",
-    "Foods you'd want when you're eating the same meal twice in one day.",
-    "Things you'd want when the family tries to build the tallest card tower.",
-    "Games you'd play with a spinning bottle.",
-    "Things you'd want when someone is icing cookies.",
-    "Objects you'd use to keep a kite string from tangling.",
-    "Things you'd want when the bubble machine runs out.",
-    "Snacks you'd want when the spelling bee is on.",
-    "Things you'd want when you're the line leader.",
-    "Animals you'd want in a bath toy set.",
-    "Things you'd want when the glue gun is warming up.",
-    "Objects you'd use to keep a sandwich wrap closed.",
-    "Things you'd want when playing London bridge is falling down.",
-    "Foods you'd want when you're eating the rainbow (many colors on one plate).",
-    "Things you'd want when the family tries to parallel park.",
-    "Games you'd play with a ring toss.",
-    "Things you'd want when someone is pumping up a basketball.",
-    "Objects you'd use to keep a door draft out.",
-    "Things you'd want when the egg-and-spoon race starts.",
-    "Snacks you'd want when the choir concert is long.",
-    "Things you'd want when you're handing out programs at an event.",
-    "Board games where the pieces are the fun part.",
-    "Things you'd want when the hermit crab changes shells.",
-    "Animals you'd want in a lunchbox note doodle.",
-    "Things you'd want when the confetti cannon won't fire.",
-    "Objects you'd use to keep a table from wobbling at dinner.",
-    "Things you'd want when playing what's the time Mr Wolf.",
-    "Foods you'd want when you're eating the last of the leftovers.",
-    "Things you'd want when the family tries to fold a map.",
-    "Games you'd play with a cup stacking set.",
-    "Things you'd want when someone is tying a bow on a gift.",
-    "Objects you'd use to keep a balloon from popping indoors.",
-    "Things you'd want when the marching band practices next door.",
-    "Snacks you'd want when the debate is who gets the window seat.",
-    "Things you'd want when you're the water boy or girl for a game.",
-    "Animals you'd want on a nature documentary night.",
-    "Things you'd want when the play-dough mixes into one brown blob.",
-    "Objects you'd use to keep a recipe card from getting sauce on it.",
-    "Things you'd want when playing duck duck gray duck.",
-    "Foods you'd want when you're eating the same cereal every day.",
-    "Things you'd want when the family tries to hang a hammock.",
-    "Games you'd play with a paddleball against a wall.",
-    "Things you'd want when someone is filling water balloons.",
-    "Objects you'd use to keep a sleeping porch screen closed.",
-    "Things you'd want when the pinata candy scatters everywhere.",
-    "Snacks you'd want when the overtime period starts.",
-    "Things you'd want when you're the designated snack distributor.",
-    "Board games where the dice roll off the table.",
-    "Things you'd want when the ant farm tunnel collapses.",
-    "Animals you'd want in a sticker book.",
-    "Things you'd want when the family tries to take a panorama photo.",
-    "Objects you'd use to keep a picnic basket closed.",
-    "Things you'd want when playing red rover.",
-    "Foods you'd want when you're eating the crust as a snack later.",
-    "Things you'd want when the bubble wrap is the best toy.",
-    "Games you'd play with a marble run.",
-    "Things you'd want when someone is winding a music box.",
-    "Objects you'd use to keep a door from blowing shut.",
-    "Things you'd want when the family races to finish a puzzle.",
-    "Snacks you'd want when the halftime show starts.",
-    "Things you'd want when you're the one who has to read the rules aloud.",
-    "Animals you'd want in a pop-up book.",
-    "Things you'd want when the sticker won't stick anymore.",
-    "Objects you'd use to keep a table game from sliding.",
-    "Things you'd want when playing mother may I.",
-    "Foods you'd want when you're eating the same sandwich every day.",
-    "Things you'd want when the family tries to untie a knot.",
-    "Games you'd play with a cup and ball on a string.",
-    "Things you'd want when someone is blowing up an air mattress.",
-    "Objects you'd use to keep a stack of plates steady.",
-    "Things you'd want when the egg toss gets messy.",
-    "Snacks you'd want when the final round begins.",
-    "Things you'd want when you're the one keeping time.",
-    "Board games where the timer is the villain.",
-    "Things you'd want when the goldfish jumps the bowl.",
-    "Animals you'd want in a finger puppet set.",
-    "Things you'd want when the family tries to fold a fitted sheet together.",
-    "Objects you'd use to keep a kite tail from tangling.",
-    "Things you'd want when playing leapfrog indoors.",
-    "Foods you'd want when you're eating the rainbow popsicle.",
-    "Things you'd want when the bubble solution is almost gone.",
-    "Games you'd play with a spinning prize wheel.",
-    "Things you'd want when someone is tying a tie for the first time.",
-    "Objects you'd use to keep a door from sticking in summer.",
-    "Things you'd want when the sack race bags rip.",
-    "Snacks you'd want when the championship game is tied.",
-    "Things you'd want when you're the one who has to go first.",
-    "Animals you'd want in a bath book.",
-    "Things you'd want when the play-dough smells weird.",
-    "Objects you'd use to keep a tablecloth corner from lifting.",
-    "Things you'd want when playing duck duck goose in a small room.",
-    "Foods you'd want when you're eating the same soup every winter.",
-    "Things you'd want when the family tries to stack pancakes.",
-    "Games you'd play with a cup-and-ball carnival game.",
-    "Things you'd want when someone is pumping a bike tire.",
-    "Objects you'd use to keep a screen door from slamming.",
-    "Things you'd want when the three-legged race tie comes loose.",
-    "Snacks you'd want when the tiebreaker round starts.",
-    "Things you'd want when you're the one who has to go last.",
-    "Board games where the box is too big for the shelf.",
-    "Things you'd want when the ant farm escape happens.",
-    "Animals you'd want in a lift-the-flap book.",
-    "Things you'd want when the family tries to take a jumping photo.",
-    "Objects you'd use to keep a picnic ant-free.",
-    "Things you'd want when playing duck duck goose outdoors.",
-    "Foods you'd want when you're eating the same pasta every week.",
-    "Things you'd want when the bubble machine jams.",
-    "Games you'd play with a ring toss at a carnival.",
-    "Things you'd want when someone is filling the ice cube tray.",
-    "Objects you'd use to keep a door from rattling in the wind.",
-    "Things you'd want when the egg hunt winner is announced.",
-    "Snacks you'd want when the bonus round starts.",
-    "Things you'd want when you're the one who has to clean up the game.",
-    "Animals you'd want in a sound book.",
-    "Things you'd want when the play-dough gets in the carpet.",
-    "Objects you'd use to keep a table from scratching the floor.",
-    "Things you'd want when playing pass the orange.",
-    "Foods you'd want when you're eating the same rice dish every Sunday.",
-    "Things you'd want when the family tries to build a card house.",
-    "Games you'd play with a paddleball tournament.",
-    "Things you'd want when someone is sharpening crayons.",
-    "Objects you'd use to keep a door from waking the baby.",
-    "Things you'd want when the pinata is too tough to break.",
-    "Snacks you'd want when the sudden-death round starts.",
-    "Things you'd want when you're the one who has to explain the rules again.",
+    &#34;Things you&#39;d want on a long family car ride.&#34;,
+    &#34;Animals you&#39;d want at a petting zoo.&#34;,
+    &#34;Foods you&#39;d pick from a buffet line.&#34;,
+    &#34;Things that smell good when someone is cooking.&#34;,
+    &#34;Things you&#39;d want in a pillow fort.&#34;,
+    &#34;Board games that work with mixed ages.&#34;,
+    &#34;Things you&#39;d use in a three-legged race.&#34;,
+    &#34;Things to draw when you have five minutes.&#34;,
+    &#34;Songs you&#39;d hum when you&#39;re happy.&#34;,
+    &#34;Things that fit in a pocket.&#34;,
+    &#34;Tools you&#39;d want to fix a broken toy.&#34;,
+    &#34;Things you&#39;d want at a community picnic.&#34;,
+    &#34;Flavors you&#39;d try at an ice cream shop.&#34;,
+    &#34;Things that help you fall asleep faster.&#34;,
+    &#34;Things you&#39;d want on a camping trip.&#34;,
+    &#34;Costumes you&#39;d wear to a costume party.&#34;,
+    &#34;Things you&#39;d want in a magic trick kit.&#34;,
+    &#34;Sports you&#39;d play in the backyard.&#34;,
+    &#34;Things you&#39;d collect if collecting cost nothing.&#34;,
+    &#34;Objects that roll down a hill well.&#34;,
+    &#34;Snacks that are easy to share.&#34;,
+    &#34;Things you&#39;d want when you lose a game.&#34;,
+    &#34;Things you&#39;d want when you win a game.&#34;,
+    &#34;Board games for exactly two players.&#34;,
+    &#34;Things to put in a time capsule.&#34;,
+    &#34;Things that bounce well.&#34;,
+    &#34;Things you&#39;d want when someone is telling a scary story.&#34;,
+    &#34;Foods you&#39;d eat with your hands.&#34;,
+    &#34;Objects you&#39;d use to build a blanket fort.&#34;,
+    &#34;Things that float in a bathtub.&#34;,
+    &#34;Party favors everyone would like.&#34;,
+    &#34;Breakfasts you could make yourself.&#34;,
+    &#34;Things you&#39;d want at a fair or carnival.&#34;,
+    &#34;Objects you&#39;d stack in a tower contest.&#34;,
+    &#34;Fruits you&#39;d pick off a tree if you could.&#34;,
+    &#34;Things that make good props in charades.&#34;,
+    &#34;Animals you&#39;d cast as cartoon characters.&#34;,
+    &#34;Things you&#39;d want when helping cook dinner.&#34;,
+    &#34;Weather you&#39;d want for a picnic.&#34;,
+    &#34;Things you&#39;d want when it&#39;s too windy outside.&#34;,
+    &#34;Things you&#39;d want when meeting someone new.&#34;,
+    &#34;Objects you&#39;d find in a junk drawer.&#34;,
+    &#34;Things you&#39;d want when decorating a room.&#34;,
+    &#34;Toys you&#39;d bring to a playdate.&#34;,
+    &#34;Things you&#39;d want during a family game night.&#34;,
+    &#34;Snacks perfect for sharing on the couch.&#34;,
+    &#34;Things you&#39;d want when packing an overnight bag.&#34;,
+    &#34;Objects you&#39;d use in a scavenger hunt at home.&#34;,
+    &#34;Things you&#39;d want when the power flickers at night.&#34;,
+    &#34;Games you could play with a deck of cards only.&#34;,
+    &#34;Things you&#39;d want when building with blocks or bricks.&#34;,
+    &#34;Animals you&#39;d want in a storybook.&#34;,
+    &#34;Things that feel good on a sore throat.&#34;,
+    &#34;Objects you&#39;d toss in a pool or lake.&#34;,
+    &#34;Things you&#39;d want when it&#39;s your turn to pick dinner.&#34;,
+    &#34;Sounds that would wake a heavy sleeper.&#34;,
+    &#34;Things you&#39;d want when babysitting a younger sibling.&#34;,
+    &#34;Treats you&#39;d pick from a bakery display.&#34;,
+    &#34;Things you&#39;d want when the whole family cooks together.&#34;,
+    &#34;Objects you&#39;d use to measure something without a ruler.&#34;,
+    &#34;Things you&#39;d want when playing outside until dark.&#34;,
+    &#34;Board games that end in under twenty minutes.&#34;,
+    &#34;Things you&#39;d want when someone is homesick.&#34;,
+    &#34;Snacks you&#39;d sneak before dinner (if allowed).&#34;,
+    &#34;Things you&#39;d want when learning to ride a bike.&#34;,
+    &#34;Objects that make good percussion instruments.&#34;,
+    &#34;Things you&#39;d want when the weather changes suddenly.&#34;,
+    &#34;Pets that would be fun to watch, not just hold.&#34;,
+    &#34;Things you&#39;d want when everyone has to wait their turn.&#34;,
+    &#34;Foods you&#39;d order at a diner.&#34;,
+    &#34;Things you&#39;d want when telling jokes around a table.&#34;,
+    &#34;Objects you&#39;d trade at a swap meet.&#34;,
+    &#34;Things you&#39;d want when the house is too quiet.&#34;,
+    &#34;Games you&#39;d play with only paper and pencil.&#34;,
+    &#34;Things you&#39;d want when folding laundry as a team.&#34;,
+    &#34;Snacks you&#39;d want at a sports game in the stands.&#34;,
+    &#34;Things you&#39;d want when practicing a new skill.&#34;,
+    &#34;Objects you&#39;d use to make shadow puppets.&#34;,
+    &#34;Things you&#39;d want when the whole table is hungry.&#34;,
+    &#34;Animals you&#39;d want to see at a zoo once.&#34;,
+    &#34;Things you&#39;d want when cleaning up after a party.&#34;,
+    &#34;Board games where luck matters more than strategy.&#34;,
+    &#34;Things you&#39;d want when you need to stay awake.&#34;,
+    &#34;Objects you&#39;d use to keep papers from blowing away.&#34;,
+    &#34;Things you&#39;d want when playing in the snow.&#34;,
+    &#34;Foods you&#39;d want at a cookout or barbecue.&#34;,
+    &#34;Things you&#39;d want when someone is feeling left out.&#34;,
+    &#34;Games that work even if players speak different languages.&#34;,
+    &#34;Things you&#39;d want when packing a lunch.&#34;,
+    &#34;Objects you&#39;d use to carry water without spilling.&#34;,
+    &#34;Things you&#39;d want when the TV remote goes missing.&#34;,
+    &#34;Snacks you&#39;d want during a board game marathon.&#34;,
+    &#34;Things you&#39;d want when building the biggest sand pile.&#34;,
+    &#34;Animals you&#39;d want as mascots for a team.&#34;,
+    &#34;Things you&#39;d want when everyone shares one bathroom.&#34;,
+    &#34;Objects you&#39;d use to keep a door propped open.&#34;,
+    &#34;Things you&#39;d want when playing hide-and-seek.&#34;,
+    &#34;Foods that taste better the next day.&#34;,
+    &#34;Things you&#39;d want when the clock says bedtime but you&#39;re not tired.&#34;,
+    &#34;Games you&#39;d play on a blanket in the yard.&#34;,
+    &#34;Things you&#39;d want when mailing a letter or package.&#34;,
+    &#34;Objects you&#39;d use to cool down on a hot day.&#34;,
+    &#34;Things you&#39;d want when the dog needs a walk.&#34;,
+    &#34;Snacks you&#39;d want at a matinee movie.&#34;,
+    &#34;Things you&#39;d want when fixing a flat bike tire.&#34;,
+    &#34;Board games where everyone can win sometimes.&#34;,
+    &#34;Things you&#39;d want when the baby is crying.&#34;,
+    &#34;Objects you&#39;d use to label your belongings.&#34;,
+    &#34;Things you&#39;d want when planning a surprise for someone.&#34;,
+    &#34;Foods you&#39;d want on a long bus ride.&#34;,
+    &#34;Things you&#39;d want when the whole family shares one car.&#34;,
+    &#34;Games you&#39;d play while waiting for food at a restaurant.&#34;,
+    &#34;Things you&#39;d want when someone asks you to help move boxes.&#34;,
+    &#34;Objects you&#39;d use to scoop something without a spoon.&#34;,
+    &#34;Things you&#39;d want when the garden needs watering.&#34;,
+    &#34;Snacks you&#39;d want after playing outside.&#34;,
+    &#34;Things you&#39;d want when you have to share a room.&#34;,
+    &#34;Animals that would make a good stuffed toy.&#34;,
+    &#34;Things you&#39;d want when the electricity comes back on.&#34;,
+    &#34;Objects you&#39;d use to make a ramp for toy cars.&#34;,
+    &#34;Things you&#39;d want when everyone picks a movie together.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re starving and dinner isn&#39;t ready.&#34;,
+    &#34;Things you&#39;d want when playing catch.&#34;,
+    &#34;Games that work with three players exactly.&#34;,
+    &#34;Things you&#39;d want when the smoke alarm beeps for no reason.&#34;,
+    &#34;Objects you&#39;d use to dry your hands without a towel.&#34;,
+    &#34;Things you&#39;d want when visiting relatives for the weekend.&#34;,
+    &#34;Snacks you&#39;d want on a nature walk.&#34;,
+    &#34;Things you&#39;d want when the sink is full of dishes.&#34;,
+    &#34;Board games where cheating is obvious.&#34;,
+    &#34;Things you&#39;d want when you need to apologize.&#34;,
+    &#34;Animals you&#39;d want in a mobile zoo visit.&#34;,
+    &#34;Things you&#39;d want when the fan stops working on a hot night.&#34;,
+    &#34;Objects you&#39;d use to keep bugs away outdoors.&#34;,
+    &#34;Things you&#39;d want when playing musical chairs.&#34;,
+    &#34;Foods you&#39;d want at a potluck if you could only bring one.&#34;,
+    &#34;Things you&#39;d want when the family photo is about to start.&#34;,
+    &#34;Games you&#39;d play with a ball and no net.&#34;,
+    &#34;Things you&#39;d want when someone is learning to swim.&#34;,
+    &#34;Objects you&#39;d use to mark whose turn it is.&#34;,
+    &#34;Things you&#39;d want when the ice cream melts too fast.&#34;,
+    &#34;Snacks you&#39;d want during a study session.&#34;,
+    &#34;Things you&#39;d want when building a snow fort.&#34;,
+    &#34;Animals you&#39;d want to feed at a farm visit.&#34;,
+    &#34;Things you&#39;d want when the printer won&#39;t work.&#34;,
+    &#34;Objects you&#39;d use to carry groceries upstairs.&#34;,
+    &#34;Things you&#39;d want when playing tag.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re the pickiest eater at the table.&#34;,
+    &#34;Things you&#39;d want when the Wi-Fi is slow but not gone.&#34;,
+    &#34;Games you&#39;d play with marbles or small balls.&#34;,
+    &#34;Things you&#39;d want when someone is afraid of the dark.&#34;,
+    &#34;Objects you&#39;d use to prop up a wobbly table.&#34;,
+    &#34;Things you&#39;d want when everyone has to clean one room fast.&#34;,
+    &#34;Snacks you&#39;d want at a sleepover.&#34;,
+    &#34;Things you&#39;d want when the cat won&#39;t come inside.&#34;,
+    &#34;Board games where the rules are easy to explain.&#34;,
+    &#34;Things you&#39;d want when you forget someone&#39;s birthday.&#34;,
+    &#34;Animals you&#39;d want in a parade float.&#34;,
+    &#34;Things you&#39;d want when the microwave beeps at midnight.&#34;,
+    &#34;Objects you&#39;d use to open a stubborn jar.&#34;,
+    &#34;Things you&#39;d want when playing twenty questions.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re sick but still hungry.&#34;,
+    &#34;Things you&#39;d want when the whole family piles into one bed.&#34;,
+    &#34;Games you&#39;d play with sidewalk chalk.&#34;,
+    &#34;Things you&#39;d want when the toast burns.&#34;,
+    &#34;Objects you&#39;d use to fan yourself without electricity.&#34;,
+    &#34;Things you&#39;d want when someone is telling a long story.&#34;,
+    &#34;Snacks you&#39;d want during a long phone call with family.&#34;,
+    &#34;Things you&#39;d want when the puzzle is almost finished.&#34;,
+    &#34;Animals that would be funny as team mascots.&#34;,
+    &#34;Things you&#39;d want when the zipper breaks on your bag.&#34;,
+    &#34;Objects you&#39;d use to weigh something without a scale.&#34;,
+    &#34;Things you&#39;d want when playing follow the leader.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating outside for the first time this year.&#34;,
+    &#34;Things you&#39;d want when the batteries in the remote die.&#34;,
+    &#34;Games you&#39;d play with a balloon indoors.&#34;,
+    &#34;Things you&#39;d want when someone is practicing an instrument nearby.&#34;,
+    &#34;Objects you&#39;d use to keep hair out of your face.&#34;,
+    &#34;Things you&#39;d want when the family dog steals your sock.&#34;,
+    &#34;Snacks you&#39;d want when watching the sunset.&#34;,
+    &#34;Things you&#39;d want when the table is set for too many guests.&#34;,
+    &#34;Board games that get louder as they go.&#34;,
+    &#34;Things you&#39;d want when you have to sit still for a long time.&#34;,
+    &#34;Animals you&#39;d want on a farm-themed birthday cake.&#34;,
+    &#34;Things you&#39;d want when the paint won&#39;t dry.&#34;,
+    &#34;Objects you&#39;d use to scoop ice cream for everyone.&#34;,
+    &#34;Things you&#39;d want when playing red light green light.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re the first one awake.&#34;,
+    &#34;Things you&#39;d want when the tent won&#39;t stay up.&#34;,
+    &#34;Games you&#39;d play with a frisbee or flying disc.&#34;,
+    &#34;Things you&#39;d want when someone is cutting onions in the kitchen.&#34;,
+    &#34;Objects you&#39;d use to make a paper airplane fly farther.&#34;,
+    &#34;Things you&#39;d want when the family votes on what to watch.&#34;,
+    &#34;Snacks you&#39;d want when the oven is preheating.&#34;,
+    &#34;Things you&#39;d want when you drop something between the couch cushions.&#34;,
+    &#34;Animals you&#39;d want in a pet shop window.&#34;,
+    &#34;Things you&#39;d want when the line at the checkout is huge.&#34;,
+    &#34;Objects you&#39;d use to keep a picnic blanket from blowing away.&#34;,
+    &#34;Things you&#39;d want when playing Simon says.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re helping set the table.&#34;,
+    &#34;Things you&#39;d want when the thunder is loud but you&#39;re safe inside.&#34;,
+    &#34;Games you&#39;d play with a hula hoop.&#34;,
+    &#34;Things you&#39;d want when someone is wrapping presents.&#34;,
+    &#34;Objects you&#39;d use to sort laundry by color.&#34;,
+    &#34;Things you&#39;d want when the whole family tries a new recipe.&#34;,
+    &#34;Snacks you&#39;d want when the parade is slow to start.&#34;,
+    &#34;Things you&#39;d want when you have to wait for your turn on the swing.&#34;,
+    &#34;Board games where everyone teams up against the game.&#34;,
+    &#34;Things you&#39;d want when the bubble bath overflows.&#34;,
+    &#34;Animals you&#39;d want to spot on a nature trail.&#34;,
+    &#34;Things you&#39;d want when the glue won&#39;t stick.&#34;,
+    &#34;Objects you&#39;d use to carry soup without spilling.&#34;,
+    &#34;Things you&#39;d want when playing duck duck goose.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating breakfast for dinner.&#34;,
+    &#34;Things you&#39;d want when the family car won&#39;t start.&#34;,
+    &#34;Games you&#39;d play with a jump rope.&#34;,
+    &#34;Things you&#39;d want when someone is blowing up balloons.&#34;,
+    &#34;Objects you&#39;d use to keep crayons from rolling off the table.&#34;,
+    &#34;Things you&#39;d want when the fire drill alarm goes off.&#34;,
+    &#34;Snacks you&#39;d want when the marching band passes by.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the last one picked for a team.&#34;,
+    &#34;Animals that would be silly on a T-shirt.&#34;,
+    &#34;Things you&#39;d want when the tape measure is missing.&#34;,
+    &#34;Objects you&#39;d use to prop open a book while reading.&#34;,
+    &#34;Things you&#39;d want when playing hot potato.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating with chopsticks for the first time.&#34;,
+    &#34;Things you&#39;d want when the whole family sings together.&#34;,
+    &#34;Games you&#39;d play with a spinning top.&#34;,
+    &#34;Things you&#39;d want when the soap dispenser is empty.&#34;,
+    &#34;Objects you&#39;d use to keep shoes paired in a pile.&#34;,
+    &#34;Things you&#39;d want when someone is learning to tie their shoes.&#34;,
+    &#34;Snacks you&#39;d want when the fireworks are about to start.&#34;,
+    &#34;Things you&#39;d want when the chalkboard is squeaky.&#34;,
+    &#34;Board games where drawing skills help.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the music.&#34;,
+    &#34;Animals you&#39;d want on a carousel ride.&#34;,
+    &#34;Things you&#39;d want when the pancakes stick to the pan.&#34;,
+    &#34;Objects you&#39;d use to keep a plant watered while you&#39;re away.&#34;,
+    &#34;Things you&#39;d want when playing telephone.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating lunch in the park.&#34;,
+    &#34;Things you&#39;d want when the family plays charades.&#34;,
+    &#34;Games you&#39;d play with dominoes.&#34;,
+    &#34;Things you&#39;d want when someone is building a model kit.&#34;,
+    &#34;Objects you&#39;d use to hang a picture straight.&#34;,
+    &#34;Things you&#39;d want when the sprinklers turn on while you&#39;re outside.&#34;,
+    &#34;Snacks you&#39;d want when the bus is late.&#34;,
+    &#34;Things you&#39;d want when you&#39;re teaching someone a card game.&#34;,
+    &#34;Animals you&#39;d want in a coloring book.&#34;,
+    &#34;Things you&#39;d want when the flashlight batteries are dead.&#34;,
+    &#34;Objects you&#39;d use to keep a door from slamming.&#34;,
+    &#34;Things you&#39;d want when playing rock paper scissors for real stakes.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re the designated taste-tester.&#34;,
+    &#34;Things you&#39;d want when the family builds a gingerbread house.&#34;,
+    &#34;Games you&#39;d play with a yo-yo.&#34;,
+    &#34;Things you&#39;d want when someone is threading a needle.&#34;,
+    &#34;Objects you&#39;d use to keep a sandwich from getting soggy.&#34;,
+    &#34;Things you&#39;d want when the marching ants invade the picnic.&#34;,
+    &#34;Snacks you&#39;d want when the game goes into overtime.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in the middle seat on a trip.&#34;,
+    &#34;Board games where bluffing is part of the fun.&#34;,
+    &#34;Things you&#39;d want when the paint-by-numbers is half done.&#34;,
+    &#34;Animals you&#39;d want as characters in a video game.&#34;,
+    &#34;Things you&#39;d want when the smoke from cooking sets off the alarm.&#34;,
+    &#34;Objects you&#39;d use to keep a kite in the air.&#34;,
+    &#34;Things you&#39;d want when playing leapfrog.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating around a campfire.&#34;,
+    &#34;Things you&#39;d want when the family does a jigsaw on the floor.&#34;,
+    &#34;Games you&#39;d play with a sack race bag.&#34;,
+    &#34;Things you&#39;d want when someone is tuning a guitar.&#34;,
+    &#34;Objects you&#39;d use to keep ice from melting too fast.&#34;,
+    &#34;Things you&#39;d want when the dog eats homework (or your drawing).&#34;,
+    &#34;Snacks you&#39;d want when the choir is practicing.&#34;,
+    &#34;Things you&#39;d want when you&#39;re stacking chairs after a party.&#34;,
+    &#34;Animals that would be fun to imitate in a game.&#34;,
+    &#34;Things you&#39;d want when the glue stick dries out.&#34;,
+    &#34;Objects you&#39;d use to measure how tall someone is on a wall.&#34;,
+    &#34;Things you&#39;d want when playing capture the flag.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating with a toothache.&#34;,
+    &#34;Things you&#39;d want when the family tries a new board game.&#34;,
+    &#34;Games you&#39;d play with a paddle and ball.&#34;,
+    &#34;Things you&#39;d want when someone is blowing bubbles.&#34;,
+    &#34;Objects you&#39;d use to keep a necklace from tangling.&#34;,
+    &#34;Things you&#39;d want when the power comes back during a storm.&#34;,
+    &#34;Snacks you&#39;d want when the tournament bracket is on the wall.&#34;,
+    &#34;Things you&#39;d want when you&#39;re folding a fitted sheet.&#34;,
+    &#34;Board games where the board itself is the star.&#34;,
+    &#34;Things you&#39;d want when the hamster escapes its cage.&#34;,
+    &#34;Animals you&#39;d want on a wildlife documentary.&#34;,
+    &#34;Things you&#39;d want when the sticker won&#39;t peel off cleanly.&#34;,
+    &#34;Objects you&#39;d use to keep a tablecloth from sliding.&#34;,
+    &#34;Things you&#39;d want when playing London bridge.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the last slice.&#34;,
+    &#34;Things you&#39;d want when the family washes the car together.&#34;,
+    &#34;Games you&#39;d play with a parachute in gym class.&#34;,
+    &#34;Things you&#39;d want when someone is sharpening pencils.&#34;,
+    &#34;Objects you&#39;d use to keep a door from locking accidentally.&#34;,
+    &#34;Things you&#39;d want when the egg hunt is about to start.&#34;,
+    &#34;Snacks you&#39;d want when the pinata is about to break.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the scorekeeper.&#34;,
+    &#34;Animals you&#39;d want in a puppet show.&#34;,
+    &#34;Things you&#39;d want when the clay won&#39;t hold its shape.&#34;,
+    &#34;Objects you&#39;d use to keep a candle from tipping.&#34;,
+    &#34;Things you&#39;d want when playing pin the tail on the donkey.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating standing up.&#34;,
+    &#34;Things you&#39;d want when the family races paper boats.&#34;,
+    &#34;Games you&#39;d play with a Nerf ball indoors.&#34;,
+    &#34;Things you&#39;d want when someone is braiding hair.&#34;,
+    &#34;Objects you&#39;d use to keep a puzzle piece from getting lost.&#34;,
+    &#34;Things you&#39;d want when the marching band is too loud indoors.&#34;,
+    &#34;Snacks you&#39;d want when the chess match runs long.&#34;,
+    &#34;Things you&#39;d want when you&#39;re untangling Christmas lights.&#34;,
+    &#34;Board games where the box art lied about how long it takes.&#34;,
+    &#34;Things you&#39;d want when the goldfish bowl needs cleaning.&#34;,
+    &#34;Animals you&#39;d want on a safari-themed birthday.&#34;,
+    &#34;Things you&#39;d want when the tape won&#39;t tear cleanly.&#34;,
+    &#34;Objects you&#39;d use to keep a stack of books from toppling.&#34;,
+    &#34;Things you&#39;d want when playing duck-duck-goose indoors.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the crusts or leaving them.&#34;,
+    &#34;Things you&#39;d want when the family tries to take a group selfie.&#34;,
+    &#34;Games you&#39;d play with a beanbag toss.&#34;,
+    &#34;Things you&#39;d want when someone is frosting a cake.&#34;,
+    &#34;Objects you&#39;d use to keep a door from squeaking.&#34;,
+    &#34;Things you&#39;d want when the piñata string won&#39;t break.&#34;,
+    &#34;Snacks you&#39;d want when the talent show is running late.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the designated photographer.&#34;,
+    &#34;Animals you&#39;d want in a mobile petting zoo.&#34;,
+    &#34;Things you&#39;d want when the play-dough dries out.&#34;,
+    &#34;Objects you&#39;d use to keep a poster from curling.&#34;,
+    &#34;Things you&#39;d want when playing musical statues.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating with gloves on in winter.&#34;,
+    &#34;Things you&#39;d want when the family builds a blanket maze.&#34;,
+    &#34;Games you&#39;d play with a cup-and-ball toy.&#34;,
+    &#34;Things you&#39;d want when someone is counting down to launch fireworks.&#34;,
+    &#34;Objects you&#39;d use to keep a sleeping bag zipped.&#34;,
+    &#34;Things you&#39;d want when the tooth fairy visit is tonight.&#34;,
+    &#34;Snacks you&#39;d want when the relay race is next.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the flag holder in capture the flag.&#34;,
+    &#34;Board games where the instructions are longer than the game.&#34;,
+    &#34;Things you&#39;d want when the hamster wheel is squeaking at night.&#34;,
+    &#34;Animals you&#39;d want on a farm puzzle.&#34;,
+    &#34;Things you&#39;d want when the sticker chart is almost full.&#34;,
+    &#34;Objects you&#39;d use to keep a tent flap closed.&#34;,
+    &#34;Things you&#39;d want when playing pass the parcel.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the same meal twice in one day.&#34;,
+    &#34;Things you&#39;d want when the family tries to build the tallest card tower.&#34;,
+    &#34;Games you&#39;d play with a spinning bottle.&#34;,
+    &#34;Things you&#39;d want when someone is icing cookies.&#34;,
+    &#34;Objects you&#39;d use to keep a kite string from tangling.&#34;,
+    &#34;Things you&#39;d want when the bubble machine runs out.&#34;,
+    &#34;Snacks you&#39;d want when the spelling bee is on.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the line leader.&#34;,
+    &#34;Animals you&#39;d want in a bath toy set.&#34;,
+    &#34;Things you&#39;d want when the glue gun is warming up.&#34;,
+    &#34;Objects you&#39;d use to keep a sandwich wrap closed.&#34;,
+    &#34;Things you&#39;d want when playing London bridge is falling down.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the rainbow (many colors on one plate).&#34;,
+    &#34;Things you&#39;d want when the family tries to parallel park.&#34;,
+    &#34;Games you&#39;d play with a ring toss.&#34;,
+    &#34;Things you&#39;d want when someone is pumping up a basketball.&#34;,
+    &#34;Objects you&#39;d use to keep a door draft out.&#34;,
+    &#34;Things you&#39;d want when the egg-and-spoon race starts.&#34;,
+    &#34;Snacks you&#39;d want when the choir concert is long.&#34;,
+    &#34;Things you&#39;d want when you&#39;re handing out programs at an event.&#34;,
+    &#34;Board games where the pieces are the fun part.&#34;,
+    &#34;Things you&#39;d want when the hermit crab changes shells.&#34;,
+    &#34;Animals you&#39;d want in a lunchbox note doodle.&#34;,
+    &#34;Things you&#39;d want when the confetti cannon won&#39;t fire.&#34;,
+    &#34;Objects you&#39;d use to keep a table from wobbling at dinner.&#34;,
+    &#34;Things you&#39;d want when playing what&#39;s the time Mr Wolf.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the last of the leftovers.&#34;,
+    &#34;Things you&#39;d want when the family tries to fold a map.&#34;,
+    &#34;Games you&#39;d play with a cup stacking set.&#34;,
+    &#34;Things you&#39;d want when someone is tying a bow on a gift.&#34;,
+    &#34;Objects you&#39;d use to keep a balloon from popping indoors.&#34;,
+    &#34;Things you&#39;d want when the marching band practices next door.&#34;,
+    &#34;Snacks you&#39;d want when the debate is who gets the window seat.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the water boy or girl for a game.&#34;,
+    &#34;Animals you&#39;d want on a nature documentary night.&#34;,
+    &#34;Things you&#39;d want when the play-dough mixes into one brown blob.&#34;,
+    &#34;Objects you&#39;d use to keep a recipe card from getting sauce on it.&#34;,
+    &#34;Things you&#39;d want when playing duck duck gray duck.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the same cereal every day.&#34;,
+    &#34;Things you&#39;d want when the family tries to hang a hammock.&#34;,
+    &#34;Games you&#39;d play with a paddleball against a wall.&#34;,
+    &#34;Things you&#39;d want when someone is filling water balloons.&#34;,
+    &#34;Objects you&#39;d use to keep a sleeping porch screen closed.&#34;,
+    &#34;Things you&#39;d want when the pinata candy scatters everywhere.&#34;,
+    &#34;Snacks you&#39;d want when the overtime period starts.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the designated snack distributor.&#34;,
+    &#34;Board games where the dice roll off the table.&#34;,
+    &#34;Things you&#39;d want when the ant farm tunnel collapses.&#34;,
+    &#34;Animals you&#39;d want in a sticker book.&#34;,
+    &#34;Things you&#39;d want when the family tries to take a panorama photo.&#34;,
+    &#34;Objects you&#39;d use to keep a picnic basket closed.&#34;,
+    &#34;Things you&#39;d want when playing red rover.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the crust as a snack later.&#34;,
+    &#34;Things you&#39;d want when the bubble wrap is the best toy.&#34;,
+    &#34;Games you&#39;d play with a marble run.&#34;,
+    &#34;Things you&#39;d want when someone is winding a music box.&#34;,
+    &#34;Objects you&#39;d use to keep a door from blowing shut.&#34;,
+    &#34;Things you&#39;d want when the family races to finish a puzzle.&#34;,
+    &#34;Snacks you&#39;d want when the halftime show starts.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one who has to read the rules aloud.&#34;,
+    &#34;Animals you&#39;d want in a pop-up book.&#34;,
+    &#34;Things you&#39;d want when the sticker won&#39;t stick anymore.&#34;,
+    &#34;Objects you&#39;d use to keep a table game from sliding.&#34;,
+    &#34;Things you&#39;d want when playing mother may I.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the same sandwich every day.&#34;,
+    &#34;Things you&#39;d want when the family tries to untie a knot.&#34;,
+    &#34;Games you&#39;d play with a cup and ball on a string.&#34;,
+    &#34;Things you&#39;d want when someone is blowing up an air mattress.&#34;,
+    &#34;Objects you&#39;d use to keep a stack of plates steady.&#34;,
+    &#34;Things you&#39;d want when the egg toss gets messy.&#34;,
+    &#34;Snacks you&#39;d want when the final round begins.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one keeping time.&#34;,
+    &#34;Board games where the timer is the villain.&#34;,
+    &#34;Things you&#39;d want when the goldfish jumps the bowl.&#34;,
+    &#34;Animals you&#39;d want in a finger puppet set.&#34;,
+    &#34;Things you&#39;d want when the family tries to fold a fitted sheet together.&#34;,
+    &#34;Objects you&#39;d use to keep a kite tail from tangling.&#34;,
+    &#34;Things you&#39;d want when playing leapfrog indoors.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the rainbow popsicle.&#34;,
+    &#34;Things you&#39;d want when the bubble solution is almost gone.&#34;,
+    &#34;Games you&#39;d play with a spinning prize wheel.&#34;,
+    &#34;Things you&#39;d want when someone is tying a tie for the first time.&#34;,
+    &#34;Objects you&#39;d use to keep a door from sticking in summer.&#34;,
+    &#34;Things you&#39;d want when the sack race bags rip.&#34;,
+    &#34;Snacks you&#39;d want when the championship game is tied.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one who has to go first.&#34;,
+    &#34;Animals you&#39;d want in a bath book.&#34;,
+    &#34;Things you&#39;d want when the play-dough smells weird.&#34;,
+    &#34;Objects you&#39;d use to keep a tablecloth corner from lifting.&#34;,
+    &#34;Things you&#39;d want when playing duck duck goose in a small room.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the same soup every winter.&#34;,
+    &#34;Things you&#39;d want when the family tries to stack pancakes.&#34;,
+    &#34;Games you&#39;d play with a cup-and-ball carnival game.&#34;,
+    &#34;Things you&#39;d want when someone is pumping a bike tire.&#34;,
+    &#34;Objects you&#39;d use to keep a screen door from slamming.&#34;,
+    &#34;Things you&#39;d want when the three-legged race tie comes loose.&#34;,
+    &#34;Snacks you&#39;d want when the tiebreaker round starts.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one who has to go last.&#34;,
+    &#34;Board games where the box is too big for the shelf.&#34;,
+    &#34;Things you&#39;d want when the ant farm escape happens.&#34;,
+    &#34;Animals you&#39;d want in a lift-the-flap book.&#34;,
+    &#34;Things you&#39;d want when the family tries to take a jumping photo.&#34;,
+    &#34;Objects you&#39;d use to keep a picnic ant-free.&#34;,
+    &#34;Things you&#39;d want when playing duck duck goose outdoors.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the same pasta every week.&#34;,
+    &#34;Things you&#39;d want when the bubble machine jams.&#34;,
+    &#34;Games you&#39;d play with a ring toss at a carnival.&#34;,
+    &#34;Things you&#39;d want when someone is filling the ice cube tray.&#34;,
+    &#34;Objects you&#39;d use to keep a door from rattling in the wind.&#34;,
+    &#34;Things you&#39;d want when the egg hunt winner is announced.&#34;,
+    &#34;Snacks you&#39;d want when the bonus round starts.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one who has to clean up the game.&#34;,
+    &#34;Animals you&#39;d want in a sound book.&#34;,
+    &#34;Things you&#39;d want when the play-dough gets in the carpet.&#34;,
+    &#34;Objects you&#39;d use to keep a table from scratching the floor.&#34;,
+    &#34;Things you&#39;d want when playing pass the orange.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating the same rice dish every Sunday.&#34;,
+    &#34;Things you&#39;d want when the family tries to build a card house.&#34;,
+    &#34;Games you&#39;d play with a paddleball tournament.&#34;,
+    &#34;Things you&#39;d want when someone is sharpening crayons.&#34;,
+    &#34;Objects you&#39;d use to keep a door from waking the baby.&#34;,
+    &#34;Things you&#39;d want when the pinata is too tough to break.&#34;,
+    &#34;Snacks you&#39;d want when the sudden-death round starts.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one who has to explain the rules again.&#34;,
 ]
 
 # Wait - I added WAY too many NEW items. The list only needs 300 total.
 # Let me be more careful - only add enough to replace removed bad ones and improve diversity.
 
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import re
@@ -1703,18 +1615,13 @@ NEW = [
 
 PYEOF
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I added too many new items.</details></think>
+I added too many new items.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1723,252 +1630,252 @@ Writing a focused curation script with targeted replacements and a modest set of
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re
 import yaml
 from pathlib import Path
 
-YAML = Path('data/randomizer.yaml')
+YAML = Path(&#39;data/randomizer.yaml&#39;)
 text = YAML.read_text()
 data = yaml.safe_load(text)
-items = list(data['collections'][0]['items'])
+items = list(data[&#39;collections&#39;][0][&#39;items&#39;])
 
 REPLACEMENTS = {
-    "Things that would make you laugh in a serious meeting.": "Things that would make you giggle when you should stay quiet.",
-    "Snacks you'd want after school or work.": "Snacks you'd reach for in the afternoon.",
-    "Activities for a rainy day with kids.": "Activities for a rainy day stuck indoors.",
-    "Birthday gifts kids actually use.": "Birthday gifts people actually use.",
-    "Books you'd give to a curious teenager.": "Books you'd recommend to a curious friend.",
-    "Cartoons adults still enjoy.": "Cartoons worth rewatching.",
-    "Games you'd play with a teenager.": "Games that are fun at any age.",
-    "Outfits that would stand out at a wedding.": "Outfits that would stand out at a fancy party.",
-    "School subjects you'd enjoy revisiting as an adult.": "School subjects you'd actually enjoy.",
-    "Science fair project ideas that sound impressive.": "Show-and-tell ideas that sound impressive.",
-    "Skills that would impress at a talent show.": "Skills that would impress at a family talent night.",
-    "Summer activities you'd sign a kid up for.": "Outdoor activities worth trying in summer.",
-    "Things grandparents love to do with grandkids.": "Activities fun with someone much older or younger than you.",
-    "Things that would make you ten minutes late to an important meeting.": "Things that would make you run late on a busy morning.",
-    "Things you'd grab in a five-minute pharmacy run.": "Things you'd grab on a quick errand run.",
-    "Things you'd pack for a one-week space station visit.": "Things you'd pack for a week away from home.",
-    "Things you'd want before a hurricane indoors.": "Things you'd want before a big storm keeps you indoors.",
-    "Things you'd want before giving a presentation.": "Things you'd want before speaking in front of a group.",
-    "Things you'd want during a long queue at the doctor.": "Things you'd want while waiting a long time in line.",
-    "Things you'd want if a river rose near a campsite.": "Things you'd want if water rose near where you're sleeping.",
-    "Things you'd want if a volcano erupted far away but ash arrived.": "Things you'd want if the sky stayed gray for days.",
-    "Things you'd want in a team meeting to go smoothly.": "Things that help a group project go smoothly.",
-    "Things you'd want in a twenty-four-hour charity livestream.": "Things you'd want on a very long video call.",
-    "Things you'd want on a submarine for a month.": "Things you'd want on a trip with nowhere to stop for a month.",
-    "Things you'd want on the first colony on Mars.": "Things you'd want if you lived far from any shop.",
-    "Things you'd want on the first day of a new job.": "Things you'd want on the first day somewhere new.",
-    "Things you'd want to learn before age thirty.": "Skills worth learning while you're young.",
-    "Things you'd want to do when you're bored at home.": "Things you'd want when you're bored at home.",
-    "Things you'd buy if you could only shop at a dollar store.": "Things you'd buy if you could only spend pocket money.",
-    "Things to bring if you were lost on a hiking trail.": "Things to bring if you got lost outdoors.",
-    "Things you'd want during a delayed flight.": "Things you'd want when travel plans get delayed.",
-    "Things you'd want on a long flight.": "Things you'd want on a long trip sitting still.",
-    "Things you'd want at a beach all day.": "Things you'd want for a full day in the sun.",
-    "Excuses for being late that might actually work.": "Reasons for being late that might actually be believed.",
-    "Things you'd want when you spill coffee on your shirt.": "Things you'd want when you spill a drink on your shirt.",
-    "Things you'd want during a neighborhood block party.": "Things you'd want at a neighborhood get-together.",
-    "Things you'd want during a school fundraiser.": "Things you'd want at a school fair or fundraiser.",
-    "Things you'd want if delivery apps stopped working.": "Things you'd want if food delivery stopped working.",
-    "Things you'd want if maps stopped working on your phone.": "Things you'd want if maps stopped working on your device.",
-    "Things you'd want if you had no car for a month.": "Things you'd want if you had no ride for a month.",
-    "Things you'd want if you could speak every language for a week.": "Things you'd want if everyone could understand you for a week.",
-    "Things you'd want on a hot-air balloon ride gone long.": "Things you'd want if a short ride turned into a long one.",
-    "Things you'd want to purify questionable water.": "Things you'd want to make murky water safer to drink.",
-    "Things you'd want to do during a short break at work or school.": "Things you'd want to do during a short break in your day.",
-    "Things you'd want when babysitting a younger sibling.": "Things you'd want when looking after someone younger.",
+    &#34;Things that would make you laugh in a serious meeting.&#34;: &#34;Things that would make you giggle when you should stay quiet.&#34;,
+    &#34;Snacks you&#39;d want after school or work.&#34;: &#34;Snacks you&#39;d reach for in the afternoon.&#34;,
+    &#34;Activities for a rainy day with kids.&#34;: &#34;Activities for a rainy day stuck indoors.&#34;,
+    &#34;Birthday gifts kids actually use.&#34;: &#34;Birthday gifts people actually use.&#34;,
+    &#34;Books you&#39;d give to a curious teenager.&#34;: &#34;Books you&#39;d recommend to a curious friend.&#34;,
+    &#34;Cartoons adults still enjoy.&#34;: &#34;Cartoons worth rewatching.&#34;,
+    &#34;Games you&#39;d play with a teenager.&#34;: &#34;Games that are fun at any age.&#34;,
+    &#34;Outfits that would stand out at a wedding.&#34;: &#34;Outfits that would stand out at a fancy party.&#34;,
+    &#34;School subjects you&#39;d enjoy revisiting as an adult.&#34;: &#34;School subjects you&#39;d actually enjoy.&#34;,
+    &#34;Science fair project ideas that sound impressive.&#34;: &#34;Show-and-tell ideas that sound impressive.&#34;,
+    &#34;Skills that would impress at a talent show.&#34;: &#34;Skills that would impress at a family talent night.&#34;,
+    &#34;Summer activities you&#39;d sign a kid up for.&#34;: &#34;Outdoor activities worth trying in summer.&#34;,
+    &#34;Things grandparents love to do with grandkids.&#34;: &#34;Activities fun with someone much older or younger than you.&#34;,
+    &#34;Things that would make you ten minutes late to an important meeting.&#34;: &#34;Things that would make you run late on a busy morning.&#34;,
+    &#34;Things you&#39;d grab in a five-minute pharmacy run.&#34;: &#34;Things you&#39;d grab on a quick errand run.&#34;,
+    &#34;Things you&#39;d pack for a one-week space station visit.&#34;: &#34;Things you&#39;d pack for a week away from home.&#34;,
+    &#34;Things you&#39;d want before a hurricane indoors.&#34;: &#34;Things you&#39;d want before a big storm keeps you indoors.&#34;,
+    &#34;Things you&#39;d want before giving a presentation.&#34;: &#34;Things you&#39;d want before speaking in front of a group.&#34;,
+    &#34;Things you&#39;d want during a long queue at the doctor.&#34;: &#34;Things you&#39;d want while waiting a long time in line.&#34;,
+    &#34;Things you&#39;d want if a river rose near a campsite.&#34;: &#34;Things you&#39;d want if water rose near where you&#39;re sleeping.&#34;,
+    &#34;Things you&#39;d want if a volcano erupted far away but ash arrived.&#34;: &#34;Things you&#39;d want if the sky stayed gray for days.&#34;,
+    &#34;Things you&#39;d want in a team meeting to go smoothly.&#34;: &#34;Things that help a group project go smoothly.&#34;,
+    &#34;Things you&#39;d want in a twenty-four-hour charity livestream.&#34;: &#34;Things you&#39;d want on a very long video call.&#34;,
+    &#34;Things you&#39;d want on a submarine for a month.&#34;: &#34;Things you&#39;d want on a trip with nowhere to stop for a month.&#34;,
+    &#34;Things you&#39;d want on the first colony on Mars.&#34;: &#34;Things you&#39;d want if you lived far from any shop.&#34;,
+    &#34;Things you&#39;d want on the first day of a new job.&#34;: &#34;Things you&#39;d want on the first day somewhere new.&#34;,
+    &#34;Things you&#39;d want to learn before age thirty.&#34;: &#34;Skills worth learning while you&#39;re young.&#34;,
+    &#34;Things you&#39;d want to do when you&#39;re bored at home.&#34;: &#34;Things you&#39;d want when you&#39;re bored at home.&#34;,
+    &#34;Things you&#39;d buy if you could only shop at a dollar store.&#34;: &#34;Things you&#39;d buy if you could only spend pocket money.&#34;,
+    &#34;Things to bring if you were lost on a hiking trail.&#34;: &#34;Things to bring if you got lost outdoors.&#34;,
+    &#34;Things you&#39;d want during a delayed flight.&#34;: &#34;Things you&#39;d want when travel plans get delayed.&#34;,
+    &#34;Things you&#39;d want on a long flight.&#34;: &#34;Things you&#39;d want on a long trip sitting still.&#34;,
+    &#34;Things you&#39;d want at a beach all day.&#34;: &#34;Things you&#39;d want for a full day in the sun.&#34;,
+    &#34;Excuses for being late that might actually work.&#34;: &#34;Reasons for being late that might actually be believed.&#34;,
+    &#34;Things you&#39;d want when you spill coffee on your shirt.&#34;: &#34;Things you&#39;d want when you spill a drink on your shirt.&#34;,
+    &#34;Things you&#39;d want during a neighborhood block party.&#34;: &#34;Things you&#39;d want at a neighborhood get-together.&#34;,
+    &#34;Things you&#39;d want during a school fundraiser.&#34;: &#34;Things you&#39;d want at a school fair or fundraiser.&#34;,
+    &#34;Things you&#39;d want if delivery apps stopped working.&#34;: &#34;Things you&#39;d want if food delivery stopped working.&#34;,
+    &#34;Things you&#39;d want if maps stopped working on your phone.&#34;: &#34;Things you&#39;d want if maps stopped working on your device.&#34;,
+    &#34;Things you&#39;d want if you had no car for a month.&#34;: &#34;Things you&#39;d want if you had no ride for a month.&#34;,
+    &#34;Things you&#39;d want if you could speak every language for a week.&#34;: &#34;Things you&#39;d want if everyone could understand you for a week.&#34;,
+    &#34;Things you&#39;d want on a hot-air balloon ride gone long.&#34;: &#34;Things you&#39;d want if a short ride turned into a long one.&#34;,
+    &#34;Things you&#39;d want to purify questionable water.&#34;: &#34;Things you&#39;d want to make murky water safer to drink.&#34;,
+    &#34;Things you&#39;d want to do during a short break at work or school.&#34;: &#34;Things you&#39;d want to do during a short break in your day.&#34;,
+    &#34;Things you&#39;d want when babysitting a younger sibling.&#34;: &#34;Things you&#39;d want when looking after someone younger.&#34;,
 }
 
 NEW = [
-    "Things you'd want on a long family car ride.",
-    "Animals you'd want at a petting zoo.",
-    "Foods you'd pick from a buffet line.",
-    "Things that smell good when someone is cooking.",
-    "Things you'd want in a pillow fort.",
-    "Board games that work with mixed ages.",
-    "Things you'd use in a three-legged race.",
-    "Things to draw when you have five minutes.",
-    "Songs you'd hum when you're happy.",
-    "Things that fit in a pocket.",
-    "Tools you'd want to fix a broken toy.",
-    "Things you'd want at a community picnic.",
-    "Flavors you'd try at an ice cream shop.",
-    "Things that help you fall asleep faster.",
-    "Things you'd want on a camping trip.",
-    "Costumes you'd wear to a costume party.",
-    "Sports you'd play in the backyard.",
-    "Snacks that are easy to share.",
-    "Things you'd want when you lose a game.",
-    "Things you'd want when you win a game.",
-    "Board games for exactly two players.",
-    "Things to put in a time capsule.",
-    "Things that bounce well.",
-    "Things you'd want when someone is telling a scary story.",
-    "Foods you'd eat with your hands.",
-    "Objects you'd use to build a blanket fort.",
-    "Things that float in a bathtub.",
-    "Party favors everyone would like.",
-    "Breakfasts you could make yourself.",
-    "Things you'd want at a fair or carnival.",
-    "Objects you'd stack in a tower contest.",
-    "Fruits you'd pick off a tree if you could.",
-    "Things that make good props in charades.",
-    "Animals you'd cast as cartoon characters.",
-    "Things you'd want when helping cook dinner.",
-    "Weather you'd want for a picnic.",
-    "Things you'd want when it's too windy outside.",
-    "Things you'd want when meeting someone new.",
-    "Objects you'd find in a junk drawer.",
-    "Toys you'd bring to a playdate.",
-    "Things you'd want during a family game night.",
-    "Snacks perfect for sharing on the couch.",
-    "Things you'd want when packing an overnight bag.",
-    "Objects you'd use in a scavenger hunt at home.",
-    "Games you could play with a deck of cards only.",
-    "Things that feel good on a sore throat.",
-    "Things you'd want when playing outside until dark.",
-    "Board games that end in under twenty minutes.",
-    "Things you'd want when someone is feeling left out.",
-    "Games that work even if players speak different languages.",
-    "Things you'd want when packing a lunch.",
-    "Things you'd want when playing hide-and-seek.",
-    "Foods that taste better the next day.",
-    "Things you'd want when someone is afraid of the dark.",
-    "Things you'd want when planning a surprise for someone.",
-    "Games you'd play while waiting for food at a restaurant.",
-    "Things you'd want when playing catch.",
-    "Things you'd want when you need to apologize.",
-    "Objects you'd use to cool down on a hot day.",
-    "Things you'd want when the whole family shares one car.",
-    "Snacks you'd want after playing outside.",
-    "Animals that would make a good stuffed toy.",
-    "Things you'd want when visiting relatives for the weekend.",
-    "Board games where the rules are easy to explain.",
-    "Things you'd want when the puzzle is almost finished.",
-    "Games you'd play with sidewalk chalk.",
-    "Things you'd want when someone is wrapping presents.",
-    "Board games where everyone teams up against the game.",
-    "Things you'd want when playing red light green light.",
-    "Foods you'd want when you're the first one awake.",
-    "Things you'd want when the family votes on what to watch.",
-    "Games you'd play with a balloon indoors.",
-    "Things you'd want when someone is afraid of thunder.",
-    "Objects you'd use to open a stubborn jar.",
-    "Things you'd want when playing twenty questions.",
-    "Things you'd want when the whole family piles into one bed.",
-    "Things you'd want when the toast burns.",
-    "Things you'd want when the family dog steals your sock.",
-    "Board games that get louder as they go.",
-    "Things you'd want when you have to sit still for a long time.",
-    "Games you'd play with a frisbee or flying disc.",
-    "Things you'd want when someone is cutting onions in the kitchen.",
-    "Things you'd want when you drop something between the couch cushions.",
-    "Things you'd want when playing Simon says.",
-    "Things you'd want when the thunder is loud but you're safe inside.",
-    "Things you'd want when someone is blowing up balloons.",
-    "Things you'd want when the fire drill alarm goes off.",
-    "Things you'd want when you're the last one picked for a team.",
-    "Things you'd want when playing hot potato.",
-    "Things you'd want when the whole family sings together.",
-    "Things you'd want when someone is learning to tie their shoes.",
-    "Board games where drawing skills help.",
-    "Things you'd want when the family plays charades.",
-    "Things you'd want when playing rock paper scissors for real stakes.",
-    "Things you'd want when the family builds a gingerbread house.",
-    "Things you'd want when you're in the middle seat on a trip.",
-    "Things you'd want when the bubble bath overflows.",
-    "Things you'd want when playing duck duck goose.",
-    "Foods you'd want when you're eating breakfast for dinner.",
-    "Things you'd want when the family does a jigsaw on the floor.",
-    "Things you'd want when someone is blowing bubbles.",
-    "Things you'd want when the egg hunt is about to start.",
-    "Things you'd want when playing pin the tail on the donkey.",
-    "Things you'd want when the family tries to take a group selfie.",
-    "Things you'd want when someone is frosting a cake.",
-    "Things you'd want when playing musical statues.",
-    "Things you'd want when the family builds a blanket maze.",
-    "Things you'd want when playing pass the parcel.",
-    "Things you'd want when the family tries to build the tallest card tower.",
-    "Things you'd want when the egg-and-spoon race starts.",
-    "Things you'd want when playing what's the time Mr Wolf.",
-    "Things you'd want when the pinata is about to break.",
-    "Things you'd want when you're the one keeping time.",
-    "Things you'd want when playing leapfrog.",
-    "Things you'd want when the sack race bags rip.",
-    "Things you'd want when the three-legged race tie comes loose.",
-    "Things you'd want when the family races paper boats.",
-    "Things you'd want when playing capture the flag.",
-    "Things you'd want when the talent show is running late.",
-    "Things you'd want when the relay race is next.",
-    "Things you'd want when playing mother may I.",
-    "Things you'd want when the spelling bee is on.",
-    "Things you'd want when you're the line leader.",
-    "Things you'd want when playing London bridge.",
-    "Things you'd want when the marching band is too loud indoors.",
-    "Things you'd want when the bubble machine runs out.",
-    "Things you'd want when playing follow the leader.",
-    "Things you'd want when the family washes the car together.",
-    "Things you'd want when someone is pumping up a basketball.",
-    "Things you'd want when the piñata string won't break.",
-    "Things you'd want when playing musical chairs.",
-    "Things you'd want when the family photo is about to start.",
-    "Things you'd want when someone is learning to swim.",
-    "Things you'd want when building a snow fort.",
-    "Things you'd want when the tent won't stay up.",
-    "Things you'd want when the sprinklers turn on while you're outside.",
-    "Things you'd want when folding a fitted sheet.",
-    "Things you'd want when the goldfish bowl needs cleaning.",
-    "Things you'd want when the hamster escapes its cage.",
-    "Things you'd want when untangling Christmas lights.",
-    "Things you'd want when the play-dough dries out.",
-    "Things you'd want when the glue stick dries out.",
-    "Things you'd want when the sticker won't stick anymore.",
-    "Things you'd want when the batteries in the remote die.",
-    "Things you'd want when the smoke alarm beeps for no reason.",
-    "Things you'd want when the fan stops working on a hot night.",
-    "Things you'd want when the zipper breaks on your bag.",
-    "Things you'd want when the paint won't dry.",
-    "Things you'd want when the glue won't stick.",
-    "Things you'd want when the tape measure is missing.",
-    "Things you'd want when the microwave beeps at midnight.",
-    "Things you'd want when the pancakes stick to the pan.",
-    "Things you'd want when the soap dispenser is empty.",
-    "Things you'd want when the chalkboard is squeaky.",
-    "Things you'd want when the printer won't work.",
-    "Things you'd want when the family car won't start.",
-    "Things you'd want when the power flickers at night.",
-    "Things you'd want when the electricity comes back on.",
-    "Things you'd want when the Wi-Fi is slow but not gone.",
-    "Things you'd want when the line at the checkout is huge.",
-    "Things you'd want when the bus is late.",
-    "Things you'd want when the oven is preheating.",
-    "Things you'd want when the table is set for too many guests.",
-    "Things you'd want when the sink is full of dishes.",
-    "Things you'd want when you have to share a room.",
-    "Things you'd want when everyone has to wait their turn.",
-    "Things you'd want when everyone has to clean one room fast.",
-    "Things you'd want when everyone picks a movie together.",
-    "Things you'd want when everyone shares one bathroom.",
-    "Things you'd want when everyone has to clean up after a party.",
-    "Things you'd want when the whole table is hungry.",
-    "Things you'd want when the whole family cooks together.",
-    "Things you'd want when the whole family tries a new recipe.",
-    "Things you'd want when the whole family sings together.",
-    "Things you'd want when the whole family shares one car.",
-    "Things you'd want when the whole family piles into one bed.",
-    "Things you'd want when the whole family washes the car together.",
-    "Things you'd want when the whole family builds a gingerbread house.",
-    "Things you'd want when the whole family does a jigsaw on the floor.",
-    "Things you'd want when the whole family tries to take a group selfie.",
-    "Things you'd want when the whole family tries to build the tallest card tower.",
-    "Things you'd want when the whole family tries to fold a fitted sheet together.",
-    "Things you'd want when the whole family races paper boats.",
-    "Things you'd want when the whole family votes on what to watch.",
-    "Things you'd want when the whole family plays charades.",
-    "Things you'd want when the whole family sings together.",
+    &#34;Things you&#39;d want on a long family car ride.&#34;,
+    &#34;Animals you&#39;d want at a petting zoo.&#34;,
+    &#34;Foods you&#39;d pick from a buffet line.&#34;,
+    &#34;Things that smell good when someone is cooking.&#34;,
+    &#34;Things you&#39;d want in a pillow fort.&#34;,
+    &#34;Board games that work with mixed ages.&#34;,
+    &#34;Things you&#39;d use in a three-legged race.&#34;,
+    &#34;Things to draw when you have five minutes.&#34;,
+    &#34;Songs you&#39;d hum when you&#39;re happy.&#34;,
+    &#34;Things that fit in a pocket.&#34;,
+    &#34;Tools you&#39;d want to fix a broken toy.&#34;,
+    &#34;Things you&#39;d want at a community picnic.&#34;,
+    &#34;Flavors you&#39;d try at an ice cream shop.&#34;,
+    &#34;Things that help you fall asleep faster.&#34;,
+    &#34;Things you&#39;d want on a camping trip.&#34;,
+    &#34;Costumes you&#39;d wear to a costume party.&#34;,
+    &#34;Sports you&#39;d play in the backyard.&#34;,
+    &#34;Snacks that are easy to share.&#34;,
+    &#34;Things you&#39;d want when you lose a game.&#34;,
+    &#34;Things you&#39;d want when you win a game.&#34;,
+    &#34;Board games for exactly two players.&#34;,
+    &#34;Things to put in a time capsule.&#34;,
+    &#34;Things that bounce well.&#34;,
+    &#34;Things you&#39;d want when someone is telling a scary story.&#34;,
+    &#34;Foods you&#39;d eat with your hands.&#34;,
+    &#34;Objects you&#39;d use to build a blanket fort.&#34;,
+    &#34;Things that float in a bathtub.&#34;,
+    &#34;Party favors everyone would like.&#34;,
+    &#34;Breakfasts you could make yourself.&#34;,
+    &#34;Things you&#39;d want at a fair or carnival.&#34;,
+    &#34;Objects you&#39;d stack in a tower contest.&#34;,
+    &#34;Fruits you&#39;d pick off a tree if you could.&#34;,
+    &#34;Things that make good props in charades.&#34;,
+    &#34;Animals you&#39;d cast as cartoon characters.&#34;,
+    &#34;Things you&#39;d want when helping cook dinner.&#34;,
+    &#34;Weather you&#39;d want for a picnic.&#34;,
+    &#34;Things you&#39;d want when it&#39;s too windy outside.&#34;,
+    &#34;Things you&#39;d want when meeting someone new.&#34;,
+    &#34;Objects you&#39;d find in a junk drawer.&#34;,
+    &#34;Toys you&#39;d bring to a playdate.&#34;,
+    &#34;Things you&#39;d want during a family game night.&#34;,
+    &#34;Snacks perfect for sharing on the couch.&#34;,
+    &#34;Things you&#39;d want when packing an overnight bag.&#34;,
+    &#34;Objects you&#39;d use in a scavenger hunt at home.&#34;,
+    &#34;Games you could play with a deck of cards only.&#34;,
+    &#34;Things that feel good on a sore throat.&#34;,
+    &#34;Things you&#39;d want when playing outside until dark.&#34;,
+    &#34;Board games that end in under twenty minutes.&#34;,
+    &#34;Things you&#39;d want when someone is feeling left out.&#34;,
+    &#34;Games that work even if players speak different languages.&#34;,
+    &#34;Things you&#39;d want when packing a lunch.&#34;,
+    &#34;Things you&#39;d want when playing hide-and-seek.&#34;,
+    &#34;Foods that taste better the next day.&#34;,
+    &#34;Things you&#39;d want when someone is afraid of the dark.&#34;,
+    &#34;Things you&#39;d want when planning a surprise for someone.&#34;,
+    &#34;Games you&#39;d play while waiting for food at a restaurant.&#34;,
+    &#34;Things you&#39;d want when playing catch.&#34;,
+    &#34;Things you&#39;d want when you need to apologize.&#34;,
+    &#34;Objects you&#39;d use to cool down on a hot day.&#34;,
+    &#34;Things you&#39;d want when the whole family shares one car.&#34;,
+    &#34;Snacks you&#39;d want after playing outside.&#34;,
+    &#34;Animals that would make a good stuffed toy.&#34;,
+    &#34;Things you&#39;d want when visiting relatives for the weekend.&#34;,
+    &#34;Board games where the rules are easy to explain.&#34;,
+    &#34;Things you&#39;d want when the puzzle is almost finished.&#34;,
+    &#34;Games you&#39;d play with sidewalk chalk.&#34;,
+    &#34;Things you&#39;d want when someone is wrapping presents.&#34;,
+    &#34;Board games where everyone teams up against the game.&#34;,
+    &#34;Things you&#39;d want when playing red light green light.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re the first one awake.&#34;,
+    &#34;Things you&#39;d want when the family votes on what to watch.&#34;,
+    &#34;Games you&#39;d play with a balloon indoors.&#34;,
+    &#34;Things you&#39;d want when someone is afraid of thunder.&#34;,
+    &#34;Objects you&#39;d use to open a stubborn jar.&#34;,
+    &#34;Things you&#39;d want when playing twenty questions.&#34;,
+    &#34;Things you&#39;d want when the whole family piles into one bed.&#34;,
+    &#34;Things you&#39;d want when the toast burns.&#34;,
+    &#34;Things you&#39;d want when the family dog steals your sock.&#34;,
+    &#34;Board games that get louder as they go.&#34;,
+    &#34;Things you&#39;d want when you have to sit still for a long time.&#34;,
+    &#34;Games you&#39;d play with a frisbee or flying disc.&#34;,
+    &#34;Things you&#39;d want when someone is cutting onions in the kitchen.&#34;,
+    &#34;Things you&#39;d want when you drop something between the couch cushions.&#34;,
+    &#34;Things you&#39;d want when playing Simon says.&#34;,
+    &#34;Things you&#39;d want when the thunder is loud but you&#39;re safe inside.&#34;,
+    &#34;Things you&#39;d want when someone is blowing up balloons.&#34;,
+    &#34;Things you&#39;d want when the fire drill alarm goes off.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the last one picked for a team.&#34;,
+    &#34;Things you&#39;d want when playing hot potato.&#34;,
+    &#34;Things you&#39;d want when the whole family sings together.&#34;,
+    &#34;Things you&#39;d want when someone is learning to tie their shoes.&#34;,
+    &#34;Board games where drawing skills help.&#34;,
+    &#34;Things you&#39;d want when the family plays charades.&#34;,
+    &#34;Things you&#39;d want when playing rock paper scissors for real stakes.&#34;,
+    &#34;Things you&#39;d want when the family builds a gingerbread house.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in the middle seat on a trip.&#34;,
+    &#34;Things you&#39;d want when the bubble bath overflows.&#34;,
+    &#34;Things you&#39;d want when playing duck duck goose.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating breakfast for dinner.&#34;,
+    &#34;Things you&#39;d want when the family does a jigsaw on the floor.&#34;,
+    &#34;Things you&#39;d want when someone is blowing bubbles.&#34;,
+    &#34;Things you&#39;d want when the egg hunt is about to start.&#34;,
+    &#34;Things you&#39;d want when playing pin the tail on the donkey.&#34;,
+    &#34;Things you&#39;d want when the family tries to take a group selfie.&#34;,
+    &#34;Things you&#39;d want when someone is frosting a cake.&#34;,
+    &#34;Things you&#39;d want when playing musical statues.&#34;,
+    &#34;Things you&#39;d want when the family builds a blanket maze.&#34;,
+    &#34;Things you&#39;d want when playing pass the parcel.&#34;,
+    &#34;Things you&#39;d want when the family tries to build the tallest card tower.&#34;,
+    &#34;Things you&#39;d want when the egg-and-spoon race starts.&#34;,
+    &#34;Things you&#39;d want when playing what&#39;s the time Mr Wolf.&#34;,
+    &#34;Things you&#39;d want when the pinata is about to break.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one keeping time.&#34;,
+    &#34;Things you&#39;d want when playing leapfrog.&#34;,
+    &#34;Things you&#39;d want when the sack race bags rip.&#34;,
+    &#34;Things you&#39;d want when the three-legged race tie comes loose.&#34;,
+    &#34;Things you&#39;d want when the family races paper boats.&#34;,
+    &#34;Things you&#39;d want when playing capture the flag.&#34;,
+    &#34;Things you&#39;d want when the talent show is running late.&#34;,
+    &#34;Things you&#39;d want when the relay race is next.&#34;,
+    &#34;Things you&#39;d want when playing mother may I.&#34;,
+    &#34;Things you&#39;d want when the spelling bee is on.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the line leader.&#34;,
+    &#34;Things you&#39;d want when playing London bridge.&#34;,
+    &#34;Things you&#39;d want when the marching band is too loud indoors.&#34;,
+    &#34;Things you&#39;d want when the bubble machine runs out.&#34;,
+    &#34;Things you&#39;d want when playing follow the leader.&#34;,
+    &#34;Things you&#39;d want when the family washes the car together.&#34;,
+    &#34;Things you&#39;d want when someone is pumping up a basketball.&#34;,
+    &#34;Things you&#39;d want when the piñata string won&#39;t break.&#34;,
+    &#34;Things you&#39;d want when playing musical chairs.&#34;,
+    &#34;Things you&#39;d want when the family photo is about to start.&#34;,
+    &#34;Things you&#39;d want when someone is learning to swim.&#34;,
+    &#34;Things you&#39;d want when building a snow fort.&#34;,
+    &#34;Things you&#39;d want when the tent won&#39;t stay up.&#34;,
+    &#34;Things you&#39;d want when the sprinklers turn on while you&#39;re outside.&#34;,
+    &#34;Things you&#39;d want when folding a fitted sheet.&#34;,
+    &#34;Things you&#39;d want when the goldfish bowl needs cleaning.&#34;,
+    &#34;Things you&#39;d want when the hamster escapes its cage.&#34;,
+    &#34;Things you&#39;d want when untangling Christmas lights.&#34;,
+    &#34;Things you&#39;d want when the play-dough dries out.&#34;,
+    &#34;Things you&#39;d want when the glue stick dries out.&#34;,
+    &#34;Things you&#39;d want when the sticker won&#39;t stick anymore.&#34;,
+    &#34;Things you&#39;d want when the batteries in the remote die.&#34;,
+    &#34;Things you&#39;d want when the smoke alarm beeps for no reason.&#34;,
+    &#34;Things you&#39;d want when the fan stops working on a hot night.&#34;,
+    &#34;Things you&#39;d want when the zipper breaks on your bag.&#34;,
+    &#34;Things you&#39;d want when the paint won&#39;t dry.&#34;,
+    &#34;Things you&#39;d want when the glue won&#39;t stick.&#34;,
+    &#34;Things you&#39;d want when the tape measure is missing.&#34;,
+    &#34;Things you&#39;d want when the microwave beeps at midnight.&#34;,
+    &#34;Things you&#39;d want when the pancakes stick to the pan.&#34;,
+    &#34;Things you&#39;d want when the soap dispenser is empty.&#34;,
+    &#34;Things you&#39;d want when the chalkboard is squeaky.&#34;,
+    &#34;Things you&#39;d want when the printer won&#39;t work.&#34;,
+    &#34;Things you&#39;d want when the family car won&#39;t start.&#34;,
+    &#34;Things you&#39;d want when the power flickers at night.&#34;,
+    &#34;Things you&#39;d want when the electricity comes back on.&#34;,
+    &#34;Things you&#39;d want when the Wi-Fi is slow but not gone.&#34;,
+    &#34;Things you&#39;d want when the line at the checkout is huge.&#34;,
+    &#34;Things you&#39;d want when the bus is late.&#34;,
+    &#34;Things you&#39;d want when the oven is preheating.&#34;,
+    &#34;Things you&#39;d want when the table is set for too many guests.&#34;,
+    &#34;Things you&#39;d want when the sink is full of dishes.&#34;,
+    &#34;Things you&#39;d want when you have to share a room.&#34;,
+    &#34;Things you&#39;d want when everyone has to wait their turn.&#34;,
+    &#34;Things you&#39;d want when everyone has to clean one room fast.&#34;,
+    &#34;Things you&#39;d want when everyone picks a movie together.&#34;,
+    &#34;Things you&#39;d want when everyone shares one bathroom.&#34;,
+    &#34;Things you&#39;d want when everyone has to clean up after a party.&#34;,
+    &#34;Things you&#39;d want when the whole table is hungry.&#34;,
+    &#34;Things you&#39;d want when the whole family cooks together.&#34;,
+    &#34;Things you&#39;d want when the whole family tries a new recipe.&#34;,
+    &#34;Things you&#39;d want when the whole family sings together.&#34;,
+    &#34;Things you&#39;d want when the whole family shares one car.&#34;,
+    &#34;Things you&#39;d want when the whole family piles into one bed.&#34;,
+    &#34;Things you&#39;d want when the whole family washes the car together.&#34;,
+    &#34;Things you&#39;d want when the whole family builds a gingerbread house.&#34;,
+    &#34;Things you&#39;d want when the whole family does a jigsaw on the floor.&#34;,
+    &#34;Things you&#39;d want when the whole family tries to take a group selfie.&#34;,
+    &#34;Things you&#39;d want when the whole family tries to build the tallest card tower.&#34;,
+    &#34;Things you&#39;d want when the whole family tries to fold a fitted sheet together.&#34;,
+    &#34;Things you&#39;d want when the whole family races paper boats.&#34;,
+    &#34;Things you&#39;d want when the whole family votes on what to watch.&#34;,
+    &#34;Things you&#39;d want when the whole family plays charades.&#34;,
+    &#34;Things you&#39;d want when the whole family sings together.&#34;,
 ]
 
 # dedupe NEW against itself
@@ -1979,72 +1886,72 @@ for n in NEW:
         seen.add(n)
         NEW_UNIQUE.append(n)
 NEW = NEW_UNIQUE
-# remove duplicate "whole family sings together" etc from NEW if already in pool after replacements
+# remove duplicate &#34;whole family sings together&#34; etc from NEW if already in pool after replacements
 
 ADULT_PAT = re.compile(
-    r"\b(meeting|new job|team meeting|as an adult|age thirty|livestream|submarine|"
-    r"space station|first colony|volcano erupted|sign a kid|kids actually|"
-    r"grandparent|curious teenager|important meeting|pharmacy run|dollar store|"
-    r"hiking trail|charity livestream)\b",
+    r&#34;\b(meeting|new job|team meeting|as an adult|age thirty|livestream|submarine|&#34;
+    r&#34;space station|first colony|volcano erupted|sign a kid|kids actually|&#34;
+    r&#34;grandparent|curious teenager|important meeting|pharmacy run|dollar store|&#34;
+    r&#34;hiking trail|charity livestream)\b&#34;,
     re.I,
 )
 
-def score(item: str) -> float:
+def score(item: str) -&gt; float:
     low = item.lower()
     s = 50.0
-    if len(item) > 95:
+    if len(item) &gt; 95:
         s -= 18
-    elif len(item) > 75:
+    elif len(item) &gt; 75:
         s -= 8
     if ADULT_PAT.search(item):
         s -= 40
-    if re.search(r"\b(adult|teenager|grandparent|wedding|hurricane|doctor|flight|beach)\b", low):
+    if re.search(r&#34;\b(adult|teenager|grandparent|wedding|hurricane|doctor|flight|beach)\b&#34;, low):
         s -= 6
-    if low.startswith("things you'd want when"):
+    if low.startswith(&#34;things you&#39;d want when&#34;):
         s -= 4
-    if low.startswith("things you'd want if"):
+    if low.startswith(&#34;things you&#39;d want if&#34;):
         s -= 2
-    if "superpower" in low:
+    if &#34;superpower&#34; in low:
         s += 14
-    if any(w in low for w in ("embarrassing", "funny", "awkward", "giggle")):
+    if any(w in low for w in (&#34;embarrassing&#34;, &#34;funny&#34;, &#34;awkward&#34;, &#34;giggle&#34;)):
         s += 12
-    if "deserted island" in low or "stranded" in low:
+    if &#34;deserted island&#34; in low or &#34;stranded&#34; in low:
         s += 14
-    if any(w in low for w in ("board game", "card game", "party game", "family game")):
+    if any(w in low for w in (&#34;board game&#34;, &#34;card game&#34;, &#34;party game&#34;, &#34;family game&#34;)):
         s += 10
-    if any(w in low for w in ("snack", "comfort meal", "dessert", "breakfast", "lunch")):
+    if any(w in low for w in (&#34;snack&#34;, &#34;comfort meal&#34;, &#34;dessert&#34;, &#34;breakfast&#34;, &#34;lunch&#34;)):
         s += 8
-    if any(w in low for w in ("conversation", "party", "picnic", "sleepover")):
+    if any(w in low for w in (&#34;conversation&#34;, &#34;party&#34;, &#34;picnic&#34;, &#34;sleepover&#34;)):
         s += 7
-    if any(w in low for w in ("bored", "tired", "rainy", "snow")):
+    if any(w in low for w in (&#34;bored&#34;, &#34;tired&#34;, &#34;rainy&#34;, &#34;snow&#34;)):
         s += 8
-    if any(w in low for w in ("any age", "mixed ages", "family", "group project", "speaking in front")):
+    if any(w in low for w in (&#34;any age&#34;, &#34;mixed ages&#34;, &#34;family&#34;, &#34;group project&#34;, &#34;speaking in front&#34;)):
         s += 10
-    if any(w in low for w in ("playing", "game night", "hide-and-seek", "charades")):
+    if any(w in low for w in (&#34;playing&#34;, &#34;game night&#34;, &#34;hide-and-seek&#34;, &#34;charades&#34;)):
         s += 6
     return s
 
 PIN = [
-    "Things you'd want to do when you're very tired.",
-    "Things to bring on a deserted island.",
-    "Superpowers you'd actually want to have.",
-    "Board games you'd bring to game night.",
-    "Snacks you'd want during a movie at home.",
-    "Foods you'd want for a comfort meal.",
-    "Things that would cheer you up on a bad day.",
-    "Things that would start a good conversation.",
-    "Things that would be embarrassing to drop in public.",
-    "Things you'd want when the Wi-Fi goes down at home.",
-    "Things you'd want when you're bored at home.",
-    "Things you'd want on a lazy Sunday morning.",
-    "Things that would make a party more fun.",
-    "Party games that work with any group size.",
-    "Card games you'd teach in five minutes.",
-    "Things that would end an awkward silence.",
-    "Things that would make you giggle when you should stay quiet.",
-    "Board games that work with mixed ages.",
-    "Things you'd want during a family game night.",
-    "Games that are fun at any age.",
+    &#34;Things you&#39;d want to do when you&#39;re very tired.&#34;,
+    &#34;Things to bring on a deserted island.&#34;,
+    &#34;Superpowers you&#39;d actually want to have.&#34;,
+    &#34;Board games you&#39;d bring to game night.&#34;,
+    &#34;Snacks you&#39;d want during a movie at home.&#34;,
+    &#34;Foods you&#39;d want for a comfort meal.&#34;,
+    &#34;Things that would cheer you up on a bad day.&#34;,
+    &#34;Things that would start a good conversation.&#34;,
+    &#34;Things that would be embarrassing to drop in public.&#34;,
+    &#34;Things you&#39;d want when the Wi-Fi goes down at home.&#34;,
+    &#34;Things you&#39;d want when you&#39;re bored at home.&#34;,
+    &#34;Things you&#39;d want on a lazy Sunday morning.&#34;,
+    &#34;Things that would make a party more fun.&#34;,
+    &#34;Party games that work with any group size.&#34;,
+    &#34;Card games you&#39;d teach in five minutes.&#34;,
+    &#34;Things that would end an awkward silence.&#34;,
+    &#34;Things that would make you giggle when you should stay quiet.&#34;,
+    &#34;Board games that work with mixed ages.&#34;,
+    &#34;Things you&#39;d want during a family game night.&#34;,
+    &#34;Games that are fun at any age.&#34;,
 ]
 
 pool = []
@@ -2071,40 +1978,39 @@ rest = sorted([p for p in unique if p not in used], key=score, reverse=True)
 ranked.extend(rest)
 ranked = ranked[:300]
 
-print('final count', len(ranked))
-print('top 5:', ranked[:5])
-print('bottom 5:', ranked[-5:])
+print(&#39;final count&#39;, len(ranked))
+print(&#39;top 5:&#39;, ranked[:5])
+print(&#39;bottom 5:&#39;, ranked[-5:])
 # check adult patterns in final
 bad = [p for p in ranked if ADULT_PAT.search(p)]
-print('adult-flagged remaining:', len(bad))
+print(&#39;adult-flagged remaining:&#39;, len(bad))
 for b in bad:
-    print(' ', b)
+    print(&#39; &#39;, b)
 
 # write yaml block
 def q(s):
-    if re.search(r'[:#\[\]{},&*?|>!%@`]', s) or s.strip() != s:
-        return '"' + s.replace('"', '\\"') + '"'
+    if re.search(r&#39;[:#\[\]{},&amp;*?|&gt;!%@`]&#39;, s) or s.strip() != s:
+        return &#39;&#34;&#39; + s.replace(&#39;&#34;&#39;, &#39;\\&#34;&#39;) + &#39;&#34;&#39;
     return s
 
-sc = data['collections'][0]
-new_tagline = "Open situations and what-if scenarios. Name one example anyone at the table could say — the group ranks it from 1 to 100."
-new_hint = 'Give one real example a kid or grown-up could both mean ("flashlight", "nap", "sandwich"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don\'t say your number.'
+sc = data[&#39;collections&#39;][0]
+new_tagline = &#34;Open situations and what-if scenarios. Name one example anyone at the table could say — the group ranks it from 1 to 100.&#34;
+new_hint = &#39;Give one real example a kid or grown-up could both mean (&#34;flashlight&#34;, &#34;nap&#34;, &#34;sandwich&#34;). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don\&#39;t say your number.&#39;
 
 block = (
-    f"- id: scale-clues\n"
-    f"  title: {sc['title']}\n"
-    f"  mode: {sc['mode']}\n"
-    f"  tagline: {new_tagline}\n"
-    f"  play_hint: {new_hint}\n"
-    f"  items:\n" + "\n".join(f"  - {q(i)}" for i in ranked) + "\n"
+    f&#34;- id: scale-clues\n&#34;
+    f&#34;  title: {sc[&#39;title&#39;]}\n&#34;
+    f&#34;  mode: {sc[&#39;mode&#39;]}\n&#34;
+    f&#34;  tagline: {new_tagline}\n&#34;
+    f&#34;  play_hint: {new_hint}\n&#34;
+    f&#34;  items:\n&#34; + &#34;\n&#34;.join(f&#34;  - {q(i)}&#34; for i in ranked) + &#34;\n&#34;
 )
 
-pattern = r"(- id: scale-clues\n.*?)(?=\n- id: |\Z)"
-new_text = re.sub(pattern, block.rstrip() + "\n", text, count=1, flags=re.S)
+pattern = r&#34;(- id: scale-clues\n.*?)(?=\n- id: |\Z)&#34;
+new_text = re.sub(pattern, block.rstrip() + &#34;\n&#34;, text, count=1, flags=re.S)
 YAML.write_text(new_text)
-print('written')
+print(&#39;written&#39;)
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import re
@@ -2496,58 +2402,52 @@ adult-flagged remaining: 0
 written
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I noticed the family-scale clues contain many repetitive, low-quality entries. Phrases like "when the whole family sings together" appear multiple times.</details></think>
+I noticed the family-scale clues contain many repetitive, low-quality entries. Phrases like "when the whole family sings together" appear multiple times.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml, re
 from collections import Counter
 from pathlib import Path
-items = yaml.safe_load(Path('data/randomizer.yaml').read_text())['collections'][0]['items']
-print('count', len(items))
-print('unique', len(set(items)))
+items = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())[&#39;collections&#39;][0][&#39;items&#39;]
+print(&#39;count&#39;, len(items))
+print(&#39;unique&#39;, len(set(items)))
 # template repetition
 prefixes = Counter()
 for i in items:
-    m = re.match(r"(Things you'd want when the [^\.]+)\.", i)
+    m = re.match(r&#34;(Things you&#39;d want when the [^\.]+)\.&#34;, i)
     if m:
-        prefixes['when the ...'] += 1
-    if i.startswith("Things you'd want when "):
-        prefixes['when'] += 1
-    if i.startswith("Things you'd want if "):
-        prefixes['if'] += 1
-    if i.startswith("Things you'd want to do when"):
-        prefixes['to do when'] += 1
-    if 'whole family' in i.lower():
-        prefixes['whole family'] += 1
-    if i.startswith("Things you'd want when playing"):
-        prefixes['when playing'] += 1
-print('prefix counts:', dict(prefixes))
+        prefixes[&#39;when the ...&#39;] += 1
+    if i.startswith(&#34;Things you&#39;d want when &#34;):
+        prefixes[&#39;when&#39;] += 1
+    if i.startswith(&#34;Things you&#39;d want if &#34;):
+        prefixes[&#39;if&#39;] += 1
+    if i.startswith(&#34;Things you&#39;d want to do when&#34;):
+        prefixes[&#39;to do when&#39;] += 1
+    if &#39;whole family&#39; in i.lower():
+        prefixes[&#39;whole family&#39;] += 1
+    if i.startswith(&#34;Things you&#39;d want when playing&#34;):
+        prefixes[&#39;when playing&#39;] += 1
+print(&#39;prefix counts:&#39;, dict(prefixes))
 # show whole family dupes
-wf = [i for i in items if 'whole family' in i.lower()]
-print('whole family count', len(wf))
+wf = [i for i in items if &#39;whole family&#39; in i.lower()]
+print(&#39;whole family count&#39;, len(wf))
 for w in wf[:20]:
-    print(' ', w)
+    print(&#39; &#39;, w)
 # show when the count
-wt = [i for i in items if i.startswith("Things you'd want when the ")]
-print('when the count', len(wt))
+wt = [i for i in items if i.startswith(&#34;Things you&#39;d want when the &#34;)]
+print(&#39;when the count&#39;, len(wt))
 for w in wt[:25]:
-    print(' ', w)
+    print(&#39; &#39;, w)
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import yaml, re
@@ -2621,22 +2521,9 @@ when the count 25
   Things you'd want when the family washes the car together.
   Things you'd want when the family photo is about to start.
   Things you'd want when the family car won't start.
-  Things you'd want when the whole family cooks together.
-  Things you'd want when the whole family tries a new recipe.
-  Things you'd want when the whole family washes the car together.
-  Things you'd want when the whole family builds a gingerbread house.
-  Things you'd want when the whole family does a jigsaw on the floor.
-  Things you'd want when the whole family tries to take a group selfie.
-  Things you'd want when the whole family races paper boats.
-  Things you'd want when the whole family votes on what to watch.
-
+  Things you'd want when the whole family co
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2662,7 +2549,8 @@ New prompts now cover specific games and activities: duck duck goose, musical ch
 
 New prompts now cover practical daily tasks. These include tying shoes, wrapping presents, apologizing, opening jars, cooling down, packing lunches and overnight bags, and nature walk snacks. They also include weekend visits to relatives, twenty-minute board games, and reactions to winning or losing.
 
-New prompts now cover table jokes, puzzle completion, surprise planning, restaurant wait games, leftover foods, cooking help, tower stacking, junk drawer items, floating bath toys, blanket forts, scary stories, and backyard sports.</details></think>
+New prompts now cover table jokes, puzzle completion, surprise planning, restaurant wait games, leftover foods, cooking help, tower stacking, junk drawer items, floating bath toys, blanket forts, scary stories, and backyard sports.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2671,20 +2559,19 @@ Cleaning up near-duplicates and replacing the repetitive micro-scenario batch wi
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:data/randomizer.yaml | python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git show HEAD:data/randomizer.yaml | python3 -c &#34;
 import sys, yaml
 data = yaml.safe_load(sys.stdin.read())
-print(len(data['collections'][0]['items']))
-" && python3 << 'PYEOF'
+print(len(data[&#39;collections&#39;][0][&#39;items&#39;]))
+&#34; &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re, yaml
 from pathlib import Path
 
-YAML = Path('data/randomizer.yaml')
-orig = yaml.safe_load(Path('/proc/self/cwd/data/randomizer.yaml').read_text())  # current - use git for original
+YAML = Path(&#39;data/randomizer.yaml&#39;)
+orig = yaml.safe_load(Path(&#39;/proc/self/cwd/data/randomizer.yaml&#39;).read_text())  # current - use git for original
 
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:data/randomizer.yaml | python3 -c "
 import sys, yaml
@@ -2704,413 +2591,406 @@ PYEOF
 300
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import re, subprocess, yaml
 from pathlib import Path
 
-YAML = Path('data/randomizer.yaml')
+YAML = Path(&#39;data/randomizer.yaml&#39;)
 text = YAML.read_text()
-orig_text = subprocess.check_output(['git', 'show', 'HEAD:data/randomizer.yaml'], text=True)
-orig_items = yaml.safe_load(orig_text)['collections'][0]['items']
+orig_text = subprocess.check_output([&#39;git&#39;, &#39;show&#39;, &#39;HEAD:data/randomizer.yaml&#39;], text=True)
+orig_items = yaml.safe_load(orig_text)[&#39;collections&#39;][0][&#39;items&#39;]
 
 REPLACEMENTS = {
-    "Things that would make you laugh in a serious meeting.": "Things that would make you giggle when you should stay quiet.",
-    "Snacks you'd want after school or work.": "Snacks you'd reach for in the afternoon.",
-    "Activities for a rainy day with kids.": "Activities for a rainy day stuck indoors.",
-    "Birthday gifts kids actually use.": "Birthday gifts people actually use.",
-    "Books you'd give to a curious teenager.": "Books you'd recommend to a curious friend.",
-    "Cartoons adults still enjoy.": "Cartoons worth rewatching.",
-    "Games you'd play with a teenager.": "Games that are fun at any age.",
-    "Outfits that would stand out at a wedding.": "Outfits that would stand out at a fancy party.",
-    "School subjects you'd enjoy revisiting as an adult.": "School subjects you'd actually enjoy.",
-    "Science fair project ideas that sound impressive.": "Show-and-tell ideas that sound impressive.",
-    "Skills that would impress at a talent show.": "Skills that would impress at a family talent night.",
-    "Summer activities you'd sign a kid up for.": "Outdoor activities worth trying in summer.",
-    "Things grandparents love to do with grandkids.": "Activities fun with someone much older or younger than you.",
-    "Things that would make you ten minutes late to an important meeting.": "Things that would make you run late on a busy morning.",
-    "Things you'd grab in a five-minute pharmacy run.": "Things you'd grab on a quick errand run.",
-    "Things you'd pack for a one-week space station visit.": "Things you'd pack for a week away from home.",
-    "Things you'd want before a hurricane indoors.": "Things you'd want before a big storm keeps you indoors.",
-    "Things you'd want before giving a presentation.": "Things you'd want before speaking in front of a group.",
-    "Things you'd want during a long queue at the doctor.": "Things you'd want while waiting a long time in line.",
-    "Things you'd want if a river rose near a campsite.": "Things you'd want if water rose near where you're sleeping.",
-    "Things you'd want if a volcano erupted far away but ash arrived.": "Things you'd want if the sky stayed gray for days.",
-    "Things you'd want in a team meeting to go smoothly.": "Things that help a group project go smoothly.",
-    "Things you'd want in a twenty-four-hour charity livestream.": "Things you'd want on a very long video call.",
-    "Things you'd want on a submarine for a month.": "Things you'd want on a trip with nowhere to stop for a month.",
-    "Things you'd want on the first colony on Mars.": "Things you'd want if you lived far from any shop.",
-    "Things you'd want on the first day of a new job.": "Things you'd want on the first day somewhere new.",
-    "Things you'd want to learn before age thirty.": "Skills worth learning while you're young.",
-    "Things you'd want to do when you're bored at home.": "Things you'd want when you're bored at home.",
-    "Things you'd buy if you could only shop at a dollar store.": "Things you'd buy if you could only spend pocket money.",
-    "Things to bring if you were lost on a hiking trail.": "Things to bring if you got lost outdoors.",
-    "Things you'd want during a delayed flight.": "Things you'd want when travel plans get delayed.",
-    "Things you'd want on a long flight.": "Things you'd want on a long trip sitting still.",
-    "Things you'd want at a beach all day.": "Things you'd want for a full day in the sun.",
-    "Excuses for being late that might actually work.": "Reasons for being late that might actually be believed.",
-    "Things you'd want when you spill coffee on your shirt.": "Things you'd want when you spill a drink on your shirt.",
-    "Things you'd want during a neighborhood block party.": "Things you'd want at a neighborhood get-together.",
-    "Things you'd want during a school fundraiser.": "Things you'd want at a school fair or fundraiser.",
-    "Things you'd want if delivery apps stopped working.": "Things you'd want if food delivery stopped working.",
-    "Things you'd want if maps stopped working on your phone.": "Things you'd want if maps stopped working on your device.",
-    "Things you'd want if you had no car for a month.": "Things you'd want if you had no ride for a month.",
-    "Things you'd want if you could speak every language for a week.": "Things you'd want if everyone could understand you for a week.",
-    "Things you'd want on a hot-air balloon ride gone long.": "Things you'd want if a short ride turned into a long one.",
-    "Things you'd want to purify questionable water.": "Things you'd want to make murky water safer to drink.",
-    "Things you'd want to do during a short break at work or school.": "Things you'd want to do during a short break in your day.",
+    &#34;Things that would make you laugh in a serious meeting.&#34;: &#34;Things that would make you giggle when you should stay quiet.&#34;,
+    &#34;Snacks you&#39;d want after school or work.&#34;: &#34;Snacks you&#39;d reach for in the afternoon.&#34;,
+    &#34;Activities for a rainy day with kids.&#34;: &#34;Activities for a rainy day stuck indoors.&#34;,
+    &#34;Birthday gifts kids actually use.&#34;: &#34;Birthday gifts people actually use.&#34;,
+    &#34;Books you&#39;d give to a curious teenager.&#34;: &#34;Books you&#39;d recommend to a curious friend.&#34;,
+    &#34;Cartoons adults still enjoy.&#34;: &#34;Cartoons worth rewatching.&#34;,
+    &#34;Games you&#39;d play with a teenager.&#34;: &#34;Games that are fun at any age.&#34;,
+    &#34;Outfits that would stand out at a wedding.&#34;: &#34;Outfits that would stand out at a fancy party.&#34;,
+    &#34;School subjects you&#39;d enjoy revisiting as an adult.&#34;: &#34;School subjects you&#39;d actually enjoy.&#34;,
+    &#34;Science fair project ideas that sound impressive.&#34;: &#34;Show-and-tell ideas that sound impressive.&#34;,
+    &#34;Skills that would impress at a talent show.&#34;: &#34;Skills that would impress at a family talent night.&#34;,
+    &#34;Summer activities you&#39;d sign a kid up for.&#34;: &#34;Outdoor activities worth trying in summer.&#34;,
+    &#34;Things grandparents love to do with grandkids.&#34;: &#34;Activities fun with someone much older or younger than you.&#34;,
+    &#34;Things that would make you ten minutes late to an important meeting.&#34;: &#34;Things that would make you run late on a busy morning.&#34;,
+    &#34;Things you&#39;d grab in a five-minute pharmacy run.&#34;: &#34;Things you&#39;d grab on a quick errand run.&#34;,
+    &#34;Things you&#39;d pack for a one-week space station visit.&#34;: &#34;Things you&#39;d pack for a week away from home.&#34;,
+    &#34;Things you&#39;d want before a hurricane indoors.&#34;: &#34;Things you&#39;d want before a big storm keeps you indoors.&#34;,
+    &#34;Things you&#39;d want before giving a presentation.&#34;: &#34;Things you&#39;d want before speaking in front of a group.&#34;,
+    &#34;Things you&#39;d want during a long queue at the doctor.&#34;: &#34;Things you&#39;d want while waiting a long time in line.&#34;,
+    &#34;Things you&#39;d want if a river rose near a campsite.&#34;: &#34;Things you&#39;d want if water rose near where you&#39;re sleeping.&#34;,
+    &#34;Things you&#39;d want if a volcano erupted far away but ash arrived.&#34;: &#34;Things you&#39;d want if the sky stayed gray for days.&#34;,
+    &#34;Things you&#39;d want in a team meeting to go smoothly.&#34;: &#34;Things that help a group project go smoothly.&#34;,
+    &#34;Things you&#39;d want in a twenty-four-hour charity livestream.&#34;: &#34;Things you&#39;d want on a very long video call.&#34;,
+    &#34;Things you&#39;d want on a submarine for a month.&#34;: &#34;Things you&#39;d want on a trip with nowhere to stop for a month.&#34;,
+    &#34;Things you&#39;d want on the first colony on Mars.&#34;: &#34;Things you&#39;d want if you lived far from any shop.&#34;,
+    &#34;Things you&#39;d want on the first day of a new job.&#34;: &#34;Things you&#39;d want on the first day somewhere new.&#34;,
+    &#34;Things you&#39;d want to learn before age thirty.&#34;: &#34;Skills worth learning while you&#39;re young.&#34;,
+    &#34;Things you&#39;d want to do when you&#39;re bored at home.&#34;: &#34;Things you&#39;d want when you&#39;re bored at home.&#34;,
+    &#34;Things you&#39;d buy if you could only shop at a dollar store.&#34;: &#34;Things you&#39;d buy if you could only spend pocket money.&#34;,
+    &#34;Things to bring if you were lost on a hiking trail.&#34;: &#34;Things to bring if you got lost outdoors.&#34;,
+    &#34;Things you&#39;d want during a delayed flight.&#34;: &#34;Things you&#39;d want when travel plans get delayed.&#34;,
+    &#34;Things you&#39;d want on a long flight.&#34;: &#34;Things you&#39;d want on a long trip sitting still.&#34;,
+    &#34;Things you&#39;d want at a beach all day.&#34;: &#34;Things you&#39;d want for a full day in the sun.&#34;,
+    &#34;Excuses for being late that might actually work.&#34;: &#34;Reasons for being late that might actually be believed.&#34;,
+    &#34;Things you&#39;d want when you spill coffee on your shirt.&#34;: &#34;Things you&#39;d want when you spill a drink on your shirt.&#34;,
+    &#34;Things you&#39;d want during a neighborhood block party.&#34;: &#34;Things you&#39;d want at a neighborhood get-together.&#34;,
+    &#34;Things you&#39;d want during a school fundraiser.&#34;: &#34;Things you&#39;d want at a school fair or fundraiser.&#34;,
+    &#34;Things you&#39;d want if delivery apps stopped working.&#34;: &#34;Things you&#39;d want if food delivery stopped working.&#34;,
+    &#34;Things you&#39;d want if maps stopped working on your phone.&#34;: &#34;Things you&#39;d want if maps stopped working on your device.&#34;,
+    &#34;Things you&#39;d want if you had no car for a month.&#34;: &#34;Things you&#39;d want if you had no ride for a month.&#34;,
+    &#34;Things you&#39;d want if you could speak every language for a week.&#34;: &#34;Things you&#39;d want if everyone could understand you for a week.&#34;,
+    &#34;Things you&#39;d want on a hot-air balloon ride gone long.&#34;: &#34;Things you&#39;d want if a short ride turned into a long one.&#34;,
+    &#34;Things you&#39;d want to purify questionable water.&#34;: &#34;Things you&#39;d want to make murky water safer to drink.&#34;,
+    &#34;Things you&#39;d want to do during a short break at work or school.&#34;: &#34;Things you&#39;d want to do during a short break in your day.&#34;,
 }
 
 NEW = [
-    "Things you'd want on a long family car ride.",
-    "Animals you'd want at a petting zoo.",
-    "Foods you'd pick from a buffet line.",
-    "Things that smell good when someone is cooking.",
-    "Things you'd want in a pillow fort.",
-    "Board games that work with mixed ages.",
-    "Things you'd use in a three-legged race.",
-    "Things to draw when you have five minutes.",
-    "Songs you'd hum when you're happy.",
-    "Things that fit in a pocket.",
-    "Tools you'd want to fix a broken toy.",
-    "Things you'd want at a community picnic.",
-    "Flavors you'd try at an ice cream shop.",
-    "Things that help you fall asleep faster.",
-    "Costumes you'd wear to a costume party.",
-    "Snacks that are easy to share.",
-    "Board games for exactly two players.",
-    "Things to put in a time capsule.",
-    "Things that bounce well.",
-    "Foods you'd eat with your hands.",
-    "Party favors everyone would like.",
-    "Breakfasts you could make yourself.",
-    "Things you'd want at a fair or carnival.",
-    "Fruits you'd pick off a tree if you could.",
-    "Things that make good props in charades.",
-    "Animals you'd cast as cartoon characters.",
-    "Weather you'd want for a picnic.",
-    "Things you'd want when meeting someone new.",
-    "Toys you'd bring to a playdate.",
-    "Things you'd want during a family game night.",
-    "Games you could play with a deck of cards only.",
-    "Things you'd want when someone is feeling left out.",
-    "Games that work even if players speak different languages.",
-    "Things you'd want when playing hide-and-seek.",
-    "Things you'd want when someone is afraid of the dark.",
-    "Things you'd want when playing catch.",
-    "Animals that would make a good stuffed toy.",
-    "Board games where the rules are easy to explain.",
-    "Games you'd play with sidewalk chalk.",
-    "Board games where everyone teams up against the game.",
-    "Games you'd play with a balloon indoors.",
-    "Things you'd want when playing twenty questions.",
-    "Games you'd play with a frisbee or flying disc.",
-    "Things you'd want when the fire drill alarm goes off.",
-    "Things you'd want when playing hot potato.",
-    "Board games where drawing skills help.",
-    "Things you'd want when playing duck duck goose.",
-    "Foods you'd want when you're eating breakfast for dinner.",
-    "Things you'd want when playing musical chairs.",
-    "Things you'd want when someone is learning to swim.",
-    "Things you'd want when building a snow fort.",
-    "Things you'd want when someone is blowing bubbles.",
-    "Things you'd want when playing pin the tail on the donkey.",
-    "Things you'd want when playing musical statues.",
-    "Things you'd want when the egg-and-spoon race starts.",
-    "Things you'd want when playing capture the flag.",
-    "Things you'd want when playing mother may I.",
-    "Things you'd want when someone is learning to tie their shoes.",
-    "Things you'd want when someone is wrapping presents.",
-    "Things you'd want when you need to apologize.",
-    "Objects you'd use to open a stubborn jar.",
-    "Objects you'd use to cool down on a hot day.",
-    "Things you'd want when packing a lunch.",
-    "Things you'd want when packing an overnight bag.",
-    "Snacks you'd want on a nature walk.",
-    "Things you'd want when visiting relatives for the weekend.",
-    "Board games that end in under twenty minutes.",
-    "Things you'd want when you lose a game.",
-    "Things you'd want when you win a game.",
-    "Things you'd want when telling jokes around a table.",
-    "Things you'd want when the puzzle is almost finished.",
-    "Things you'd want when planning a surprise for someone.",
-    "Games you'd play while waiting for food at a restaurant.",
-    "Foods that taste better the next day.",
-    "Things you'd want when helping cook dinner.",
-    "Objects you'd stack in a tower contest.",
-    "Objects you'd find in a junk drawer.",
-    "Things that float in a bathtub.",
-    "Objects you'd use to build a blanket fort.",
-    "Things you'd want when someone is telling a scary story.",
-    "Sports you'd play in the backyard.",
-    "Things you'd want on a camping trip.",
-    "Things you'd want when playing outside until dark.",
-    "Things that feel good on a sore throat.",
-    "Snacks perfect for sharing on the couch.",
-    "Objects you'd use in a scavenger hunt at home.",
-    "Things you'd want when the family plays charades.",
-    "Things you'd want when the family votes on what to watch.",
-    "Things you'd want when the family builds a gingerbread house.",
-    "Things you'd want when the family does a jigsaw on the floor.",
-    "Things you'd want when the family tries to take a group selfie.",
-    "Things you'd want when the family races paper boats.",
-    "Things you'd want when the family washes the car together.",
-    "Things you'd want when the family builds a blanket maze.",
-    "Things you'd want when the family tries to build the tallest card tower.",
-    "Things you'd want when someone is afraid of thunder.",
-    "Things you'd want when you drop something between the couch cushions.",
-    "Things you'd want when playing Simon says.",
-    "Things you'd want when the thunder is loud but you're safe inside.",
-    "Things you'd want when you're the last one picked for a team.",
-    "Things you'd want when playing rock paper scissors for real stakes.",
-    "Things you'd want when you're in the middle seat on a trip.",
-    "Things you'd want when the pinata is about to break.",
-    "Things you'd want when you're the one keeping time.",
-    "Things you'd want when playing leapfrog.",
-    "Things you'd want when the sack race bags rip.",
-    "Things you'd want when the three-legged race tie comes loose.",
-    "Things you'd want when playing follow the leader.",
-    "Things you'd want when the family photo is about to start.",
-    "Things you'd want when the talent show is running late.",
-    "Things you'd want when the relay race is next.",
-    "Things you'd want when playing London bridge.",
-    "Things you'd want when the bubble machine runs out.",
-    "Things you'd want when someone is pumping up a basketball.",
-    "Things you'd want when the piñata string won't break.",
-    "Things you'd want when the egg hunt is about to start.",
-    "Things you'd want when the tent won't stay up.",
-    "Things you'd want when the sprinklers turn on while you're outside.",
-    "Things you'd want when the goldfish bowl needs cleaning.",
-    "Things you'd want when the hamster escapes its cage.",
-    "Things you'd want when untangling Christmas lights.",
-    "Things you'd want when the play-dough dries out.",
-    "Things you'd want when the batteries in the remote die.",
-    "Things you'd want when the smoke alarm beeps for no reason.",
-    "Things you'd want when the fan stops working on a hot night.",
-    "Things you'd want when the zipper breaks on your bag.",
-    "Things you'd want when the pancakes stick to the pan.",
-    "Things you'd want when the family car won't start.",
-    "Things you'd want when the power flickers at night.",
-    "Things you'd want when the Wi-Fi is slow but not gone.",
-    "Things you'd want when the line at the checkout is huge.",
-    "Things you'd want when the bus is late.",
-    "Things you'd want when the table is set for too many guests.",
-    "Things you'd want when the sink is full of dishes.",
-    "Things you'd want when you have to share a room.",
-    "Things you'd want when everyone has to wait their turn.",
-    "Things you'd want when everyone shares one bathroom.",
-    "Things you'd want when the whole table is hungry.",
-    "Things you'd want when the family dog steals your sock.",
-    "Things you'd want when the toast burns.",
-    "Things you'd want when you have to sit still for a long time.",
-    "Things you'd want when someone is cutting onions in the kitchen.",
-    "Board games that get louder as they go.",
-    "Board games where bluffing is part of the fun.",
-    "Board games where everyone can win sometimes.",
-    "Board games where luck matters more than strategy.",
-    "Things you'd want when practicing a new skill.",
-    "Things you'd want when teaching someone a card game.",
-    "Things you'd want when you're the designated snack distributor.",
-    "Things you'd want when you're the one who has to read the rules aloud.",
-    "Things you'd want when you're the one who has to clean up the game.",
-    "Things you'd want when you're the one who has to go first.",
-    "Things you'd want when you're the one who has to go last.",
-    "Things you'd want when you're the scorekeeper.",
-    "Things you'd want when you're the flag holder in capture the flag.",
-    "Things you'd want when you're the water carrier for a team.",
-    "Things you'd want when you're eating the last slice.",
-    "Things you'd want when you're eating standing up.",
-    "Things you'd want when you're eating with gloves on in winter.",
-    "Things you'd want when you're eating around a campfire.",
-    "Things you'd want when you're eating lunch in the park.",
-    "Things you'd want when you're eating the same meal twice in one day.",
-    "Things you'd want when you're starving and dinner isn't ready.",
-    "Things you'd want when you're slightly hungry.",
-    "Things you'd want when you're the pickiest eater at the table.",
-    "Things you'd want when you're the designated taste-tester.",
-    "Things you'd want when you're in charge of the music.",
-    "Things you'd want when you're in charge of picking the game.",
-    "Things you'd want when you're in charge of handing out snacks.",
-    "Things you'd want when you're in charge of keeping score.",
-    "Things you'd want when you're in charge of the timer.",
-    "Things you'd want when you're in charge of the map on a trip.",
-    "Things you'd want when you're in charge of the first aid kit.",
-    "Things you'd want when you're in charge of the pet for a day.",
-    "Things you'd want when you're in charge of watering plants.",
-    "Things you'd want when you're in charge of setting the table.",
-    "Things you'd want when you're in charge of clearing the table.",
-    "Things you'd want when you're in charge of taking out the trash.",
-    "Things you'd want when you're in charge of feeding the fish.",
-    "Things you'd want when you're in charge of walking the dog.",
-    "Things you'd want when you're in charge of locking up at night.",
-    "Things you'd want when you're in charge of waking everyone up.",
-    "Things you'd want when you're in charge of the flashlight on a walk.",
-    "Things you'd want when you're in charge of the umbrella.",
-    "Things you'd want when you're in charge of the cooler on a trip.",
-    "Things you'd want when you're in charge of the picnic blanket.",
-    "Things you'd want when you're in charge of the kite.",
-    "Things you'd want when you're in charge of the bubbles.",
-    "Things you'd want when you're in charge of the camera.",
-    "Things you'd want when you're in charge of the playlist.",
-    "Things you'd want when you're in charge of the snacks for the trip.",
-    "Things you'd want when you're in charge of the spare batteries.",
-    "Things you'd want when you're in charge of the duct tape.",
-    "Things you'd want when you're in charge of the scissors.",
-    "Things you'd want when you're in charge of the tape.",
-    "Things you'd want when you're in charge of the glue.",
-    "Things you'd want when you're in charge of the markers.",
-    "Things you'd want when you're in charge of the crayons.",
-    "Things you'd want when you're in charge of the paint.",
-    "Things you'd want when you're in charge of the paper.",
-    "Things you'd want when you're in charge of the envelopes.",
-    "Things you'd want when you're in charge of the stamps.",
-    "Things you'd want when you're in charge of the string.",
-    "Things you'd want when you're in charge of the rope.",
-    "Things you'd want when you're in charge of the ladder.",
-    "Things you'd want when you're in charge of the step stool.",
-    "Things you'd want when you're in charge of the toolbox.",
-    "Things you'd want when you're in charge of the first slice of cake.",
-    "Things you'd want when you're in charge of the last slice of pizza.",
-    "Things you'd want when you're in charge of the remote control.",
-    "Things you'd want when you're in charge of the thermostat.",
-    "Things you'd want when you're in charge of the lights during a movie.",
-    "Things you'd want when you're in charge of the popcorn.",
-    "Things you'd want when you're in charge of the hot chocolate.",
-    "Things you'd want when you're in charge of the lemonade.",
-    "Things you'd want when you're in charge of the ice.",
-    "Things you'd want when you're in charge of the napkins.",
-    "Things you'd want when you're in charge of the plates.",
-    "Things you'd want when you're in charge of the cups.",
-    "Things you'd want when you're in charge of the forks.",
-    "Things you'd want when you're in charge of the spoons.",
-    "Things you'd want when you're in charge of the knives.",
-    "Things you'd want when you're in charge of the chopsticks.",
-    "Things you'd want when you're in charge of the serving spoon.",
-    "Things you'd want when you're in charge of the tongs.",
-    "Things you'd want when you're in charge of the oven mitts.",
-    "Things you'd want when you're in charge of the pot holders.",
-    "Things you'd want when you're in charge of the dish soap.",
-    "Things you'd want when you're in charge of the sponge.",
-    "Things you'd want when you're in charge of the dish rack.",
-    "Things you'd want when you're in charge of the laundry basket.",
-    "Things you'd want when you're in charge of the hamper.",
-    "Things you'd want when you're in charge of the clothespins.",
-    "Things you'd want when you're in charge of the clothesline.",
-    "Things you'd want when you're in charge of the iron.",
-    "Things you'd want when you're in charge of the ironing board.",
-    "Things you'd want when you're in charge of the sewing kit.",
-    "Things you'd want when you're in charge of the button jar.",
-    "Things you'd want when you're in charge of the safety pins.",
-    "Things you'd want when you're in charge of the bandages.",
-    "Things you'd want when you're in charge of the thermometer.",
-    "Things you'd want when you're in charge of the tissues.",
-    "Things you'd want when you're in charge of the cough drops.",
-    "Things you'd want when you're in charge of the sunscreen.",
-    "Things you'd want when you're in charge of the bug spray.",
-    "Things you'd want when you're in charge of the hand sanitizer.",
-    "Things you'd want when you're in charge of the wet wipes.",
-    "Things you'd want when you're in charge of the diaper bag.",
-    "Things you'd want when you're in charge of the stroller.",
-    "Things you'd want when you're in charge of the car seat.",
-    "Things you'd want when you're in charge of the booster seat.",
-    "Things you'd want when you're in charge of the high chair.",
-    "Things you'd want when you're in charge of the bib.",
-    "Things you'd want when you're in charge of the sippy cup.",
-    "Things you'd want when you're in charge of the pacifier.",
-    "Things you'd want when you're in charge of the blanket.",
-    "Things you'd want when you're in charge of the stuffed animal.",
-    "Things you'd want when you're in charge of the night-light.",
-    "Things you'd want when you're in charge of the bedtime story.",
-    "Things you'd want when you're in charge of the lullaby.",
-    "Things you'd want when you're in charge of the goodnight hug.",
-    "Things you'd want when you're in charge of the morning alarm.",
-    "Things you'd want when you're in charge of the breakfast menu.",
-    "Things you'd want when you're in charge of the lunch menu.",
-    "Things you'd want when you're in charge of the dinner menu.",
-    "Things you'd want when you're in charge of the dessert menu.",
-    "Things you'd want when you're in charge of the snack menu.",
-    "Things you'd want when you're in charge of the drink menu.",
-    "Things you'd want when you're in charge of the grocery list.",
-    "Things you'd want when you're in charge of the shopping cart.",
-    "Things you'd want when you're in charge of the checkout line.",
-    "Things you'd want when you're in charge of the receipt.",
-    "Things you'd want when you're in charge of the change.",
-    "Things you'd want when you're in charge of the tip jar.",
-    "Things you'd want when you're in charge of the coupon.",
-    "Things you'd want when you're in charge of the loyalty card.",
-    "Things you'd want when you're in charge of the gift card.",
-    "Things you'd want when you're in charge of the wish list.",
-    "Things you'd want when you're in charge of the thank-you note.",
-    "Things you'd want when you're in charge of the birthday card.",
-    "Things you'd want when you're in charge of the holiday card.",
-    "Things you'd want when you're in charge of the invitation.",
-    "Things you'd want when you're in charge of the RSVP.",
-    "Things you'd want when you're in charge of the seating chart.",
-    "Things you'd want when you're in charge of the name tags.",
-    "Things you'd want when you're in charge of the party hats.",
-    "Things you'd want when you're in charge of the party favors.",
-    "Things you'd want when you're in charge of the party games.",
-    "Things you'd want when you're in charge of the party music.",
-    "Things you'd want when you're in charge of the party food.",
-    "Things you'd want when you're in charge of the party drinks.",
-    "Things you'd want when you're in charge of the party cleanup.",
-    "Things you'd want when you're in charge of the party decorations.",
-    "Things you'd want when you're in charge of the party balloons.",
-    "Things you'd want when you're in charge of the party streamers.",
-    "Things you'd want when you're in charge of the party confetti.",
-    "Things you'd want when you're in charge of the party cake.",
-    "Things you'd want when you're in charge of the party candles.",
-    "Things you'd want when you're in charge of the party piñata.",
-    "Things you'd want when you're in charge of the party pinata candy.",
-    "Things you'd want when you're in charge of the party pinata stick.",
-    "Things you'd want when you're in charge of the party pinata blindfold.",
-    "Things you'd want when you're in charge of the party pinata rope.",
-    "Things you'd want when you're in charge of the party pinata filler.",
-    "Things you'd want when you're in charge of the party pinata prizes.",
-    "Things you'd want when you're in charge of the party pinata toys.",
-    "Things you'd want when you're in charge of the party pinata snacks.",
-    "Things you'd want when you're in charge of the party pinata fruit.",
-    "Things you'd want when you're in charge of the party pinata stickers.",
-    "Things you'd want when you're in charge of the party pinata temporary tattoos.",
-    "Things you'd want when you're in charge of the party pinata bouncy balls.",
-    "Things you'd want when you're in charge of the party pinata yo-yos.",
-    "Things you'd want when you're in charge of the party pinata spinning tops.",
-    "Things you'd want when you're in charge of the party pinata marbles.",
-    "Things you'd want when you're in charge of the party pinata jacks.",
-    "Things you'd want when you're in charge of the party pinata jump ropes.",
-    "Things you'd want when you're in charge of the party pinata hula hoops.",
-    "Things you'd want when you're in charge of the party pinata frisbees.",
-    "Things you'd want when you're in charge of the party pinata kites.",
-    "Things you'd want when you're in charge of the party pinata bubbles.",
-    "Things you'd want when you're in charge of the party pinata chalk.",
-    "Things you'd want when you're in charge of the party pinata crayons.",
-    "Things you'd want when you're in charge of the party pinata markers.",
-    "Things you'd want when you're in charge of the party pinata paint.",
-    "Things you'd want when you're in charge of the party pinata paper.",
-    "Things you'd want when you're in charge of the party pinata scissors.",
-    "Things you'd want when you're in charge of the party pinata tape.",
-    "Things you'd want when you're in charge of the party pinata glue.",
-    "Things you'd want when you're in charge of the party pinata string.",
-    "Things you'd want when you're in charge of the party pinata rope.",
-    "Things you'd want when you're in charge of the party pinata ladder.",
-    "Things you'd want when you're in charge of the party pinata step stool.",
-    "Things you'd want when you're in charge of the party pinata toolbox.",
+    &#34;Things you&#39;d want on a long family car ride.&#34;,
+    &#34;Animals you&#39;d want at a petting zoo.&#34;,
+    &#34;Foods you&#39;d pick from a buffet line.&#34;,
+    &#34;Things that smell good when someone is cooking.&#34;,
+    &#34;Things you&#39;d want in a pillow fort.&#34;,
+    &#34;Board games that work with mixed ages.&#34;,
+    &#34;Things you&#39;d use in a three-legged race.&#34;,
+    &#34;Things to draw when you have five minutes.&#34;,
+    &#34;Songs you&#39;d hum when you&#39;re happy.&#34;,
+    &#34;Things that fit in a pocket.&#34;,
+    &#34;Tools you&#39;d want to fix a broken toy.&#34;,
+    &#34;Things you&#39;d want at a community picnic.&#34;,
+    &#34;Flavors you&#39;d try at an ice cream shop.&#34;,
+    &#34;Things that help you fall asleep faster.&#34;,
+    &#34;Costumes you&#39;d wear to a costume party.&#34;,
+    &#34;Snacks that are easy to share.&#34;,
+    &#34;Board games for exactly two players.&#34;,
+    &#34;Things to put in a time capsule.&#34;,
+    &#34;Things that bounce well.&#34;,
+    &#34;Foods you&#39;d eat with your hands.&#34;,
+    &#34;Party favors everyone would like.&#34;,
+    &#34;Breakfasts you could make yourself.&#34;,
+    &#34;Things you&#39;d want at a fair or carnival.&#34;,
+    &#34;Fruits you&#39;d pick off a tree if you could.&#34;,
+    &#34;Things that make good props in charades.&#34;,
+    &#34;Animals you&#39;d cast as cartoon characters.&#34;,
+    &#34;Weather you&#39;d want for a picnic.&#34;,
+    &#34;Things you&#39;d want when meeting someone new.&#34;,
+    &#34;Toys you&#39;d bring to a playdate.&#34;,
+    &#34;Things you&#39;d want during a family game night.&#34;,
+    &#34;Games you could play with a deck of cards only.&#34;,
+    &#34;Things you&#39;d want when someone is feeling left out.&#34;,
+    &#34;Games that work even if players speak different languages.&#34;,
+    &#34;Things you&#39;d want when playing hide-and-seek.&#34;,
+    &#34;Things you&#39;d want when someone is afraid of the dark.&#34;,
+    &#34;Things you&#39;d want when playing catch.&#34;,
+    &#34;Animals that would make a good stuffed toy.&#34;,
+    &#34;Board games where the rules are easy to explain.&#34;,
+    &#34;Games you&#39;d play with sidewalk chalk.&#34;,
+    &#34;Board games where everyone teams up against the game.&#34;,
+    &#34;Games you&#39;d play with a balloon indoors.&#34;,
+    &#34;Things you&#39;d want when playing twenty questions.&#34;,
+    &#34;Games you&#39;d play with a frisbee or flying disc.&#34;,
+    &#34;Things you&#39;d want when the fire drill alarm goes off.&#34;,
+    &#34;Things you&#39;d want when playing hot potato.&#34;,
+    &#34;Board games where drawing skills help.&#34;,
+    &#34;Things you&#39;d want when playing duck duck goose.&#34;,
+    &#34;Foods you&#39;d want when you&#39;re eating breakfast for dinner.&#34;,
+    &#34;Things you&#39;d want when playing musical chairs.&#34;,
+    &#34;Things you&#39;d want when someone is learning to swim.&#34;,
+    &#34;Things you&#39;d want when building a snow fort.&#34;,
+    &#34;Things you&#39;d want when someone is blowing bubbles.&#34;,
+    &#34;Things you&#39;d want when playing pin the tail on the donkey.&#34;,
+    &#34;Things you&#39;d want when playing musical statues.&#34;,
+    &#34;Things you&#39;d want when the egg-and-spoon race starts.&#34;,
+    &#34;Things you&#39;d want when playing capture the flag.&#34;,
+    &#34;Things you&#39;d want when playing mother may I.&#34;,
+    &#34;Things you&#39;d want when someone is learning to tie their shoes.&#34;,
+    &#34;Things you&#39;d want when someone is wrapping presents.&#34;,
+    &#34;Things you&#39;d want when you need to apologize.&#34;,
+    &#34;Objects you&#39;d use to open a stubborn jar.&#34;,
+    &#34;Objects you&#39;d use to cool down on a hot day.&#34;,
+    &#34;Things you&#39;d want when packing a lunch.&#34;,
+    &#34;Things you&#39;d want when packing an overnight bag.&#34;,
+    &#34;Snacks you&#39;d want on a nature walk.&#34;,
+    &#34;Things you&#39;d want when visiting relatives for the weekend.&#34;,
+    &#34;Board games that end in under twenty minutes.&#34;,
+    &#34;Things you&#39;d want when you lose a game.&#34;,
+    &#34;Things you&#39;d want when you win a game.&#34;,
+    &#34;Things you&#39;d want when telling jokes around a table.&#34;,
+    &#34;Things you&#39;d want when the puzzle is almost finished.&#34;,
+    &#34;Things you&#39;d want when planning a surprise for someone.&#34;,
+    &#34;Games you&#39;d play while waiting for food at a restaurant.&#34;,
+    &#34;Foods that taste better the next day.&#34;,
+    &#34;Things you&#39;d want when helping cook dinner.&#34;,
+    &#34;Objects you&#39;d stack in a tower contest.&#34;,
+    &#34;Objects you&#39;d find in a junk drawer.&#34;,
+    &#34;Things that float in a bathtub.&#34;,
+    &#34;Objects you&#39;d use to build a blanket fort.&#34;,
+    &#34;Things you&#39;d want when someone is telling a scary story.&#34;,
+    &#34;Sports you&#39;d play in the backyard.&#34;,
+    &#34;Things you&#39;d want on a camping trip.&#34;,
+    &#34;Things you&#39;d want when playing outside until dark.&#34;,
+    &#34;Things that feel good on a sore throat.&#34;,
+    &#34;Snacks perfect for sharing on the couch.&#34;,
+    &#34;Objects you&#39;d use in a scavenger hunt at home.&#34;,
+    &#34;Things you&#39;d want when the family plays charades.&#34;,
+    &#34;Things you&#39;d want when the family votes on what to watch.&#34;,
+    &#34;Things you&#39;d want when the family builds a gingerbread house.&#34;,
+    &#34;Things you&#39;d want when the family does a jigsaw on the floor.&#34;,
+    &#34;Things you&#39;d want when the family tries to take a group selfie.&#34;,
+    &#34;Things you&#39;d want when the family races paper boats.&#34;,
+    &#34;Things you&#39;d want when the family washes the car together.&#34;,
+    &#34;Things you&#39;d want when the family builds a blanket maze.&#34;,
+    &#34;Things you&#39;d want when the family tries to build the tallest card tower.&#34;,
+    &#34;Things you&#39;d want when someone is afraid of thunder.&#34;,
+    &#34;Things you&#39;d want when you drop something between the couch cushions.&#34;,
+    &#34;Things you&#39;d want when playing Simon says.&#34;,
+    &#34;Things you&#39;d want when the thunder is loud but you&#39;re safe inside.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the last one picked for a team.&#34;,
+    &#34;Things you&#39;d want when playing rock paper scissors for real stakes.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in the middle seat on a trip.&#34;,
+    &#34;Things you&#39;d want when the pinata is about to break.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one keeping time.&#34;,
+    &#34;Things you&#39;d want when playing leapfrog.&#34;,
+    &#34;Things you&#39;d want when the sack race bags rip.&#34;,
+    &#34;Things you&#39;d want when the three-legged race tie comes loose.&#34;,
+    &#34;Things you&#39;d want when playing follow the leader.&#34;,
+    &#34;Things you&#39;d want when the family photo is about to start.&#34;,
+    &#34;Things you&#39;d want when the talent show is running late.&#34;,
+    &#34;Things you&#39;d want when the relay race is next.&#34;,
+    &#34;Things you&#39;d want when playing London bridge.&#34;,
+    &#34;Things you&#39;d want when the bubble machine runs out.&#34;,
+    &#34;Things you&#39;d want when someone is pumping up a basketball.&#34;,
+    &#34;Things you&#39;d want when the piñata string won&#39;t break.&#34;,
+    &#34;Things you&#39;d want when the egg hunt is about to start.&#34;,
+    &#34;Things you&#39;d want when the tent won&#39;t stay up.&#34;,
+    &#34;Things you&#39;d want when the sprinklers turn on while you&#39;re outside.&#34;,
+    &#34;Things you&#39;d want when the goldfish bowl needs cleaning.&#34;,
+    &#34;Things you&#39;d want when the hamster escapes its cage.&#34;,
+    &#34;Things you&#39;d want when untangling Christmas lights.&#34;,
+    &#34;Things you&#39;d want when the play-dough dries out.&#34;,
+    &#34;Things you&#39;d want when the batteries in the remote die.&#34;,
+    &#34;Things you&#39;d want when the smoke alarm beeps for no reason.&#34;,
+    &#34;Things you&#39;d want when the fan stops working on a hot night.&#34;,
+    &#34;Things you&#39;d want when the zipper breaks on your bag.&#34;,
+    &#34;Things you&#39;d want when the pancakes stick to the pan.&#34;,
+    &#34;Things you&#39;d want when the family car won&#39;t start.&#34;,
+    &#34;Things you&#39;d want when the power flickers at night.&#34;,
+    &#34;Things you&#39;d want when the Wi-Fi is slow but not gone.&#34;,
+    &#34;Things you&#39;d want when the line at the checkout is huge.&#34;,
+    &#34;Things you&#39;d want when the bus is late.&#34;,
+    &#34;Things you&#39;d want when the table is set for too many guests.&#34;,
+    &#34;Things you&#39;d want when the sink is full of dishes.&#34;,
+    &#34;Things you&#39;d want when you have to share a room.&#34;,
+    &#34;Things you&#39;d want when everyone has to wait their turn.&#34;,
+    &#34;Things you&#39;d want when everyone shares one bathroom.&#34;,
+    &#34;Things you&#39;d want when the whole table is hungry.&#34;,
+    &#34;Things you&#39;d want when the family dog steals your sock.&#34;,
+    &#34;Things you&#39;d want when the toast burns.&#34;,
+    &#34;Things you&#39;d want when you have to sit still for a long time.&#34;,
+    &#34;Things you&#39;d want when someone is cutting onions in the kitchen.&#34;,
+    &#34;Board games that get louder as they go.&#34;,
+    &#34;Board games where bluffing is part of the fun.&#34;,
+    &#34;Board games where everyone can win sometimes.&#34;,
+    &#34;Board games where luck matters more than strategy.&#34;,
+    &#34;Things you&#39;d want when practicing a new skill.&#34;,
+    &#34;Things you&#39;d want when teaching someone a card game.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the designated snack distributor.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one who has to read the rules aloud.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one who has to clean up the game.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one who has to go first.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the one who has to go last.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the scorekeeper.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the flag holder in capture the flag.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the water carrier for a team.&#34;,
+    &#34;Things you&#39;d want when you&#39;re eating the last slice.&#34;,
+    &#34;Things you&#39;d want when you&#39;re eating standing up.&#34;,
+    &#34;Things you&#39;d want when you&#39;re eating with gloves on in winter.&#34;,
+    &#34;Things you&#39;d want when you&#39;re eating around a campfire.&#34;,
+    &#34;Things you&#39;d want when you&#39;re eating lunch in the park.&#34;,
+    &#34;Things you&#39;d want when you&#39;re eating the same meal twice in one day.&#34;,
+    &#34;Things you&#39;d want when you&#39;re starving and dinner isn&#39;t ready.&#34;,
+    &#34;Things you&#39;d want when you&#39;re slightly hungry.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the pickiest eater at the table.&#34;,
+    &#34;Things you&#39;d want when you&#39;re the designated taste-tester.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the music.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of picking the game.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of handing out snacks.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of keeping score.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the timer.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the map on a trip.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the first aid kit.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the pet for a day.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of watering plants.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of setting the table.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of clearing the table.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of taking out the trash.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of feeding the fish.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of walking the dog.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of locking up at night.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of waking everyone up.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the flashlight on a walk.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the umbrella.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the cooler on a trip.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the picnic blanket.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the kite.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the bubbles.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the camera.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the playlist.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the snacks for the trip.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the spare batteries.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the duct tape.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the scissors.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the tape.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the glue.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the markers.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the crayons.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the paint.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the paper.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the envelopes.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the stamps.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the string.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the rope.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the ladder.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the step stool.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the toolbox.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the first slice of cake.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the last slice of pizza.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the remote control.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the thermostat.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the lights during a movie.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the popcorn.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the hot chocolate.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the lemonade.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the ice.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the napkins.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the plates.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the cups.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the forks.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the spoons.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the knives.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the chopsticks.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the serving spoon.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the tongs.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the oven mitts.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the pot holders.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the dish soap.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the sponge.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the dish rack.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the laundry basket.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the hamper.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the clothespins.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the clothesline.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the iron.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the ironing board.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the sewing kit.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the button jar.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the safety pins.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the bandages.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the thermometer.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the tissues.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the cough drops.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the sunscreen.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the bug spray.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the hand sanitizer.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the wet wipes.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the diaper bag.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the stroller.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the car seat.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the booster seat.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the high chair.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the bib.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the sippy cup.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the pacifier.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the blanket.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the stuffed animal.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the night-light.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the bedtime story.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the lullaby.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the goodnight hug.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the morning alarm.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the breakfast menu.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the lunch menu.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the dinner menu.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the dessert menu.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the snack menu.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the drink menu.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the grocery list.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the shopping cart.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the checkout line.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the receipt.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the change.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the tip jar.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the coupon.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the loyalty card.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the gift card.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the wish list.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the thank-you note.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the birthday card.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the holiday card.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the invitation.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the RSVP.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the seating chart.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the name tags.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party hats.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party favors.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party games.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party music.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party food.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party drinks.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party cleanup.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party decorations.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party balloons.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party streamers.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party confetti.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party cake.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party candles.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party piñata.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata candy.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata stick.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata blindfold.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata rope.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata filler.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata prizes.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata toys.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata snacks.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata fruit.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata stickers.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata temporary tattoos.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata bouncy balls.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata yo-yos.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata spinning tops.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata marbles.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata jacks.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata jump ropes.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata hula hoops.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata frisbees.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata kites.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata bubbles.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata chalk.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata crayons.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata markers.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata paint.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata paper.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata scissors.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata tape.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata glue.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata string.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata rope.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata ladder.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata step stool.&#34;,
+    &#34;Things you&#39;d want when you&#39;re in charge of the party pinata toolbox.&#34;,
 ]
 
 # STOP - I accidentally pasted a huge bad list again at the end. Let me truncate NEW to only good items.
 
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import re, subprocess, yaml
@@ -3508,18 +3388,13 @@ NEW = [
 
 PYEOF
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-A clean Python file will replace the heredoc to avoid mistakes.</details></think>
+A clean Python file will replace the heredoc to avoid mistakes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3528,16 +3403,8 @@ Writing a proper curation script to avoid the repetitive-template problem.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-scale-clues-family.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-scale-clues-family.py</summary>
 
 </details></tool-use>
 
@@ -3546,29 +3413,29 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The new list still contains too many "in charge of" items.
 
-The IN_CHARGE_CAP will limit the final selection to 15 items. The NEW list currently holds over 100 prompts, much of it repetitive low-quality "in charge of" entries. Rather than trimming the pool now, the script will run first to assess output quality before deciding whether to remove the excess.</details></think>
+The IN_CHARGE_CAP will limit the final selection to 15 items. The NEW list currently holds over 100 prompts, much of it repetitive low-quality "in charge of" entries. Rather than trimming the pool now, the script will run first to assess output quality before deciding whether to remove the excess.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/curate-scale-clues-family.py && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/curate-scale-clues-family.py &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml, re
 from collections import Counter
 from pathlib import Path
-items = yaml.safe_load(Path('data/randomizer.yaml').read_text())['collections'][0]['items']
-print('unique', len(set(items)))
+items = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())[&#39;collections&#39;][0][&#39;items&#39;]
+print(&#39;unique&#39;, len(set(items)))
 for label, pred in [
-    ('in charge of', lambda i: 'in charge of' in i.lower()),
-    ('when the', lambda i: i.startswith("Things you'd want when the ")),
-    ('when playing', lambda i: 'when playing' in i.lower()),
-    ('adult patterns', lambda i: re.search(r'adult|meeting|teenager|grandparent', i, re.I)),
+    (&#39;in charge of&#39;, lambda i: &#39;in charge of&#39; in i.lower()),
+    (&#39;when the&#39;, lambda i: i.startswith(&#34;Things you&#39;d want when the &#34;)),
+    (&#39;when playing&#39;, lambda i: &#39;when playing&#39; in i.lower()),
+    (&#39;adult patterns&#39;, lambda i: re.search(r&#39;adult|meeting|teenager|grandparent&#39;, i, re.I)),
 ]:
     n = sum(1 for i in items if pred(i))
-    print(f'{label}: {n}')
-print('sample mid:', items[150])
-print('sample end:', items[-1])
+    print(f&#39;{label}: {n}&#39;)
+print(&#39;sample mid:&#39;, items[150])
+print(&#39;sample end:&#39;, items[-1])
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/curate-scale-clues-family.py && python3 << 'PYEOF'
 import yaml, re
@@ -3602,39 +3469,33 @@ sample mid: Games you'd play with a five-year-old.
 sample end: Things you'd want in a one-minute packing challenge.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The zero in-charge prompts were excluded by a -25 penalty.</details></think>
+The zero in-charge prompts were excluded by a -25 penalty.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml, re
 from pathlib import Path
-items = yaml.safe_load(Path('data/randomizer.yaml').read_text())['collections'][0]['items']
+items = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())[&#39;collections&#39;][0][&#39;items&#39;]
 patterns = [
-    (r'five-year-old|teenager|adult|grandparent|kid up|kids actually|wedding|doctor|flight|beach|coffee|pharmacy|dollar store|meeting|new job|work or school|age thirty', 'adult/role'),
-    (r'with a five|with a teenager|for kids\b|sign a', 'age role'),
-    (r'hurricane|volcano|submarine|Mars|space station|livestream|hiking', 'niche'),
+    (r&#39;five-year-old|teenager|adult|grandparent|kid up|kids actually|wedding|doctor|flight|beach|coffee|pharmacy|dollar store|meeting|new job|work or school|age thirty&#39;, &#39;adult/role&#39;),
+    (r&#39;with a five|with a teenager|for kids\b|sign a&#39;, &#39;age role&#39;),
+    (r&#39;hurricane|volcano|submarine|Mars|space station|livestream|hiking&#39;, &#39;niche&#39;),
 ]
 for pat, label in patterns:
     hits = [i for i in items if re.search(pat, i, re.I)]
     if hits:
-        print(f'\n{label} ({len(hits)}):')
+        print(f&#39;\n{label} ({len(hits)}):&#39;)
         for h in hits:
-            print(' ', h)
+            print(&#39; &#39;, h)
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import yaml, re
@@ -3663,12 +3524,6 @@ age role (1):
   Games you'd play with a five-year-old.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3676,27 +3531,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 One scale-clue remains problematic. It will be replaced with a version suitable for all ages.
 
-The replacement wording for the remaining clue is being finalized. The teenager item is confirmed fixed. The one remaining bad item will be corrected directly in the YAML file. The randomizer script will be updated with family scoring and a revised PIN list. The one-shot script will be deleted rather than merged.</details></think>
+The replacement wording for the remaining clue is being finalized. The teenager item is confirmed fixed. The one remaining bad item will be corrected directly in the YAML file. The randomizer script will be updated with family scoring and a revised PIN list. The one-shot script will be deleted rather than merged.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3727,26 +3575,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Line 93 still carries adult overtones. Teens could relate to hosting a first dinner party.</details></think>
+Line 93 still carries adult overtones. Teens could relate to hosting a first dinner party.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3778,13 +3618,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3792,7 +3625,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Two scale-clues issues remain in the section at lines 93 and 160.
 
-Updating curate-randomizer-300.py with family-safe scale-clue pins and adjusted scoring logic. The one-shot curate-scale-clues-family.py script will be deleted rather than merged. The YAML header already indicates family-friendly content.</details></think>
+Updating curate-randomizer-300.py with family-safe scale-clue pins and adjusted scoring logic. The one-shot curate-scale-clues-family.py script will be deleted rather than merged. The YAML header already indicates family-friendly content.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3801,72 +3635,33 @@ Fixing the last two age-specific prompts and updating the curation script for fu
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
@@ -3876,13 +3671,13 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Verifying the Hugo build and running a final audit.</details></think>
+Verifying the Hugo build and running a final audit.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -5
 ```
@@ -3895,12 +3690,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -5
 Total in 17800 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3950,7 +3739,8 @@ ensure that the games used are the very obvious games
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating the scale-clues in randomizer.yaml. Mixed-age board games will be replaced with obvious classic kid-party games such as hide-and-seek and musical chairs.</details></think>
+Updating the scale-clues in randomizer.yaml. Mixed-age board games will be replaced with obvious classic kid-party games such as hide-and-seek and musical chairs.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3959,10 +3749,8 @@ I'll find board-game and party-game prompts in `scale-clues` and swap anything n
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3993,25 +3781,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -4030,14 +3805,13 @@ Keep only universal obvious games: hide-and-seek, musical chairs, tag, Simon say
 
 Pin the tail is acceptable. Add jump rope, red light green light, and I spy. Board game prompts will name obvious household games directly, such as tic-tac-toe and rock paper scissors.
 
-New prompt themes include games played without reading rules, simple ball games, and card games everyone knows. The full list appears truncated at line 309, ending before the personal-scales section begins.</details></think>
+New prompt themes include games played without reading rules, simple ball games, and card games everyone knows. The full list appears truncated at line 309, ending before the personal-scales section begins.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4069,21 +3843,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4113,13 +3878,6 @@ Additional data:
 }
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>
 
@@ -4158,7 +3916,8 @@ Duck duck goose maps to tag. Mother may I maps to red light green light. Leapfro
 
 Duck duck goose maps to freeze tag. Musical statues maps to freeze dance. Capture the flag maps to dodgeball. Mother may I maps to leapfrog. The red light green light duplicate is kept.
 
-Leapfrog is being dropped as requested. London bridge and red rover were rejected as too obscure or regional. The six obscure deletions will instead use freeze tag, freeze dance, and dodgeball. A universal obvious list is being assembled from hide-and-seek, musical chairs, pin the tail, tag, Simon says, rock paper scissors, charades, hot potato, catch, twenty questions, and tic-tac-toe.</details></think>
+Leapfrog is being dropped as requested. London bridge and red rover were rejected as too obscure or regional. The six obscure deletions will instead use freeze tag, freeze dance, and dodgeball. A universal obvious list is being assembled from hide-and-seek, musical chairs, pin the tail, tag, Simon says, rock paper scissors, charades, hot potato, catch, twenty questions, and tic-tac-toe.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4167,100 +3926,50 @@ Replacing board-game-catalog prompts with obvious games everyone knows, and drop
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4291,28 +4000,20 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import yaml
 from pathlib import Path
-items = yaml.safe_load(Path('data/randomizer.yaml').read_text())['collections'][0]['items']
-print('count', len(items), 'unique', len(set(items)))
+items = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())[&#39;collections&#39;][0][&#39;items&#39;]
+print(&#39;count&#39;, len(items), &#39;unique&#39;, len(set(items)))
 from collections import Counter
-dups = [k for k,v in Counter(items).items() if v>1]
-print('dups', dups)
-"</summary>
-
+dups = [k for k,v in Counter(items).items() if v&gt;1]
+print(&#39;dups&#39;, dups)
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import yaml
@@ -4330,18 +4031,13 @@ count 299 unique 298
 dups ['Games everyone has heard of at least once.']
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The list contains a duplicate entry and only 299 items.</details></think>
+The list contains a duplicate entry and only 299 items.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4350,14 +4046,8 @@ Fixing a duplicate and restoring the item count to 300.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
@@ -4368,70 +4058,46 @@ Replacing the duplicate entry at line 159 with "Things you'd want when playing a
 
 Pass the parcel will be replaced with arm wrestling. A new unique item must be added to restore the lost count.
 
-The duplicate at line 159 will become a non-game filler such as "Things you'd want when the balloon won't pop." This restores the total to 300 lines while keeping only 298 unique entries.</details></think>
+The duplicate at line 159 will become a non-game filler such as "Things you'd want when the balloon won't pop." This restores the total to 300 lines while keeping only 298 unique entries.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
 The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import yaml
 from pathlib import Path
-items = yaml.safe_load(Path('data/randomizer.yaml').read_text())['collections'][0]['items']
-print('count', len(items), 'unique', len(set(items)))
-"</summary>
-
+items = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())[&#39;collections&#39;][0][&#39;items&#39;]
+print(&#39;count&#39;, len(items), &#39;unique&#39;, len(set(items)))
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import yaml
@@ -4445,18 +4111,13 @@ print('count', len(items), 'unique', len(set(items)))
 count 298 unique 298
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The list currently holds 298 items. Two more are needed.</details></think>
+The list currently holds 298 items. Two more are needed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4465,68 +4126,44 @@ Restoring two dropped items and updating the curation scorer.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Verifying the count is 300.</details></think>
+Verifying the count is 300.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import yaml
 from pathlib import Path
-items = yaml.safe_load(Path('data/randomizer.yaml').read_text())['collections'][0]['items']
-print('count', len(items), 'unique', len(set(items)))
-game = [i for i in items if 'game' in i.lower() or 'playing' in i.lower()]
-print('game prompts', len(game))
+items = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())[&#39;collections&#39;][0][&#39;items&#39;]
+print(&#39;count&#39;, len(items), &#39;unique&#39;, len(set(items)))
+game = [i for i in items if &#39;game&#39; in i.lower() or &#39;playing&#39; in i.lower()]
+print(&#39;game prompts&#39;, len(game))
 for g in game:
-    print(' ', g)
-"</summary>
-
+    print(&#39; &#39;, g)
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import yaml
@@ -4579,12 +4216,6 @@ game prompts 34
   Sounds that would be welcome at a sports game.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4594,18 +4225,13 @@ Dodgeball and tug-of-war may not be as universally recognized as tag or hide-and
 
 Tug-of-war stays as a simple option. Freeze tag and freeze dance are acceptable variants. Dodgeball may be removed entirely since it is not universally known.
 
-Kickball is also US-centric. Core obvious games include tag, hide-and-seek, musical chairs, Simon says, rock-paper-scissors, charades, hot potato, catch, pin the tail, twenty questions, tic-tac-toe, hopscotch, jump rope, red light green light, and I spy. Freeze tag and freeze dance are acceptable variants. Arm wrestling and thumb war are obvious enough. Checkers and snakes and ladders are classic tabletop favorites. Tug-of-war may stay as a gym-class staple.</details></think>
+Kickball is also US-centric. Core obvious games include tag, hide-and-seek, musical chairs, Simon says, rock-paper-scissors, charades, hot potato, catch, pin the tail, twenty questions, tic-tac-toe, hopscotch, jump rope, red light green light, and I spy. Freeze tag and freeze dance are acceptable variants. Arm wrestling and thumb war are obvious enough. Checkers and snakes and ladders are classic tabletop favorites. Tug-of-war may stay as a gym-class staple.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
@@ -4614,7 +4240,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The PIN list appears syntactically correct.
 
-Dodgeball is too obscure for a mixed-age group. Tug of war is more universal. Other options were considered but leapfrog was already removed.</details></think>
+Dodgeball is too obscure for a mixed-age group. Tug of war is more universal. Other options were considered but leapfrog was already removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4653,7 +4280,8 @@ rank the items with #1 as the best one
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Ranking the scale-clues items in randomizer.yaml, with #1 as the best.</details></think>
+Ranking the scale-clues items in randomizer.yaml, with #1 as the best.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4662,23 +4290,15 @@ I'll use the curation scorer to reorder `scale-clues` so #1 is the strongest pro
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4710,13 +4330,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4724,18 +4337,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Only scale-clues will be ranked, not all collections.
 
-Running the full script risks reordering unrelated collections. A targeted re-rank of scale-clues alone is safer.</details></think>
+Running the full script risks reordering unrelated collections. A targeted re-rank of scale-clues alone is safer.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
@@ -4748,14 +4356,13 @@ Only scale-clues will be reordered. Outdated pins like excuses for being late an
 
 Pin order determines the first positions. The list will be refreshed to only top-tier surviving items. Doctor queues and beach prompts will be removed. The best prompt is being identified.
 
-The top ten scale-clues are now selected. They cover universal prompts like desert island and superpowers. Items that no longer exist or were renamed will be removed from the PIN list.</details></think>
+The top ten scale-clues are now selected. They cover universal prompts like desert island and superpowers. Items that no longer exist or were renamed will be removed from the PIN list.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4786,38 +4393,30 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import importlib.util
-spec = importlib.util.spec_from_file_location('curate', 'scripts/curate-randomizer-300.py')
+spec = importlib.util.spec_from_file_location(&#39;curate&#39;, &#39;scripts/curate-randomizer-300.py&#39;)
 m = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(m)
 import yaml
 from pathlib import Path
-items = yaml.safe_load(Path('data/randomizer.yaml').read_text())['collections'][0]['items']
+items = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())[&#39;collections&#39;][0][&#39;items&#39;]
 ranked = m.rank_unique(items, m.SCALE_CLUES_PIN, m.score_scale_clue)
-print('top 15:')
+print(&#39;top 15:&#39;)
 for i, x in enumerate(ranked[:15], 1):
-    print(f'{i:3} {m.score_scale_clue(x):5.1f} {x}')
-print('...')
-print('bottom 10:')
+    print(f&#39;{i:3} {m.score_scale_clue(x):5.1f} {x}&#39;)
+print(&#39;...&#39;)
+print(&#39;bottom 10:&#39;)
 for i, x in enumerate(ranked[-10:], len(ranked)-9):
-    print(f'{i:3} {m.score_scale_clue(x):5.1f} {x}')
+    print(f&#39;{i:3} {m.score_scale_clue(x):5.1f} {x}&#39;)
 missing_pins = [p for p in m.SCALE_CLUES_PIN if p not in items]
-print('missing pins:', missing_pins)
+print(&#39;missing pins:&#39;, missing_pins)
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import importlib.util
@@ -4872,12 +4471,6 @@ bottom 10:
 missing pins: ['Excuses for being late that might actually work.', "Things you'd want when it's raining outside.", "Things you'd want when you're stuck indoors all day.", "Things you'd want during a long queue at the doctor.", "Things you'd want during a delayed flight.", "Things you'd want on a long flight.", "Things you'd want at a beach all day."]
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4891,18 +4484,18 @@ Pinned items currently force themselves to the front regardless of score. I will
 
 I will replace the pin-first logic with a pure score sort for scale clues. The top pins may be reordered by score instead of forced to the front.
 
-I will refine the score formula to reward broad, family-friendly prompts and penalize hyper-specific micro-scenarios and overly long entries. Only the scale-clues collection will be reordered by score; other collections will remain unchanged.</details></think>
+I will refine the score formula to reward broad, family-friendly prompts and penalize hyper-specific micro-scenarios and overly long entries. Only the scale-clues collection will be reordered by score; other collections will remain unchanged.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
 import yaml
 from pathlib import Path
-items = yaml.safe_load(Path('data/randomizer.yaml').read_text())['collections'][0]['items']
+items = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())[&#39;collections&#39;][0][&#39;items&#39;]
 print(len(items), len(set(items)))
-"</summary>
-
+&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 import yaml
@@ -4916,12 +4509,6 @@ print(len(items), len(set(items)))
 300 300
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -4935,7 +4522,8 @@ Scale-clues will be ranked purely by score. Missing pins will be excluded from t
 
 A dedicated Python script will generate the ranked scale-clues list directly, bypassing the pin-first logic entirely. Tier-one clues such as deserted island, superpowers, and hide-and-seek will receive a +15 bonus.
 
-Snack and comfort meals will earn +12 points. Universal games without equipment will earn +10. Niche family topics and obscure scenarios will lose points. The SCALE_CLUES_PIN list will be cleaned of dead entries.</details></think>
+Snack and comfort meals will earn +12 points. Universal games without equipment will earn +10. Niche family topics and obscure scenarios will lose points. The SCALE_CLUES_PIN list will be cleaned of dead entries.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4944,89 +4532,64 @@ Fixing the ranker so pins can't add missing items, scoring by quality (#1 = best
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import importlib.util
 import re
 from pathlib import Path
 import yaml
 
-spec = importlib.util.spec_from_file_location('curate', 'scripts/curate-randomizer-300.py')
+spec = importlib.util.spec_from_file_location(&#39;curate&#39;, &#39;scripts/curate-randomizer-300.py&#39;)
 m = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(m)
 
-YAML = Path('data/randomizer.yaml')
+YAML = Path(&#39;data/randomizer.yaml&#39;)
 text = YAML.read_text()
 data = yaml.safe_load(text)
-sc = data['collections'][0]
-scale = m.rank_scale_clues(sc['items'])[:300]
+sc = data[&#39;collections&#39;][0]
+scale = m.rank_scale_clues(sc[&#39;items&#39;])[:300]
 assert len(scale) == 300
 
-print('Top 10 (#1 = best):')
+print(&#39;Top 10 (#1 = best):&#39;)
 for i, x in enumerate(scale[:10], 1):
-    print(f'  {i:3} {m.score_scale_clue(x):5.1f}  {x}')
-print('Bottom 5:')
+    print(f&#39;  {i:3} {m.score_scale_clue(x):5.1f}  {x}&#39;)
+print(&#39;Bottom 5:&#39;)
 for i, x in enumerate(scale[-5:], len(scale)-4):
-    print(f'  {i:3} {m.score_scale_clue(x):5.1f}  {x}')
+    print(f&#39;  {i:3} {m.score_scale_clue(x):5.1f}  {x}&#39;)
 
 block = (
-    f"- id: scale-clues\n"
-    f"  title: {sc['title']}\n"
-    f"  mode: {sc['mode']}\n"
-    f"  tagline: {sc['tagline']}\n"
-    f"  play_hint: {sc['play_hint']}\n"
-    f"  items:\n{m.dump_items(scale)}\n"
+    f&#34;- id: scale-clues\n&#34;
+    f&#34;  title: {sc[&#39;title&#39;]}\n&#34;
+    f&#34;  mode: {sc[&#39;mode&#39;]}\n&#34;
+    f&#34;  tagline: {sc[&#39;tagline&#39;]}\n&#34;
+    f&#34;  play_hint: {sc[&#39;play_hint&#39;]}\n&#34;
+    f&#34;  items:\n{m.dump_items(scale)}\n&#34;
 )
-text = m.replace_collection_block(text, 'scale-clues', block)
+text = m.replace_collection_block(text, &#39;scale-clues&#39;, block)
 YAML.write_text(text)
-print('written')
+print(&#39;written&#39;)
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import importlib.util
@@ -5087,12 +4650,6 @@ Bottom 5:
 written
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -5102,7 +4659,8 @@ The ranking has some issues.
 
 #1 may be wrong. Deserted island or very tired could be better. The #300 entry scores 18 because "grandparent" triggers the adult penalty. This is a scoring bug. The prompt text is fine. The scoring logic needs fixing.
 
-The grandparent penalty will be removed for inclusive "child and grandparent" prompts. Only role-specific prompts like "things grandparents love" will trigger the adult penalty. The top tier will include deserted island, very tired, superpowers, hide-and-seek, and comfort foods or snacks. The #1 entry is fine.</details></think>
+The grandparent penalty will be removed for inclusive "child and grandparent" prompts. Only role-specific prompts like "things grandparents love" will trigger the adult penalty. The top tier will include deserted island, very tired, superpowers, hide-and-seek, and comfort foods or snacks. The #1 entry is fine.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5111,70 +4669,53 @@ Tweaking the scorer: the grandparent penalty was sinking a good inclusive prompt
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import importlib.util
 from pathlib import Path
 import yaml
 
-spec = importlib.util.spec_from_file_location('curate', 'scripts/curate-randomizer-300.py')
+spec = importlib.util.spec_from_file_location(&#39;curate&#39;, &#39;scripts/curate-randomizer-300.py&#39;)
 m = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(m)
 
-YAML = Path('data/randomizer.yaml')
+YAML = Path(&#39;data/randomizer.yaml&#39;)
 text = YAML.read_text()
 data = yaml.safe_load(text)
-sc = data['collections'][0]
-scale = m.rank_scale_clues(sc['items'])[:300]
+sc = data[&#39;collections&#39;][0]
+scale = m.rank_scale_clues(sc[&#39;items&#39;])[:300]
 
-print('Top 15 (#1 = best):')
+print(&#39;Top 15 (#1 = best):&#39;)
 for i, x in enumerate(scale[:15], 1):
-    print(f'  {i:3} {m.score_scale_clue(x):5.1f}  {x}')
-print('Bottom 5:')
+    print(f&#39;  {i:3} {m.score_scale_clue(x):5.1f}  {x}&#39;)
+print(&#39;Bottom 5:&#39;)
 for i, x in enumerate(scale[-5:], len(scale)-4):
-    print(f'  {i:3} {m.score_scale_clue(x):5.1f}  {x}')
+    print(f&#39;  {i:3} {m.score_scale_clue(x):5.1f}  {x}&#39;)
 
 block = (
-    f"- id: scale-clues\n"
-    f"  title: {sc['title']}\n"
-    f"  mode: {sc['mode']}\n"
-    f"  tagline: {sc['tagline']}\n"
-    f"  play_hint: {sc['play_hint']}\n"
-    f"  items:\n{m.dump_items(scale)}\n"
+    f&#34;- id: scale-clues\n&#34;
+    f&#34;  title: {sc[&#39;title&#39;]}\n&#34;
+    f&#34;  mode: {sc[&#39;mode&#39;]}\n&#34;
+    f&#34;  tagline: {sc[&#39;tagline&#39;]}\n&#34;
+    f&#34;  play_hint: {sc[&#39;play_hint&#39;]}\n&#34;
+    f&#34;  items:\n{m.dump_items(scale)}\n&#34;
 )
-YAML.write_text(m.replace_collection_block(text, 'scale-clues', block))
+YAML.write_text(m.replace_collection_block(text, &#39;scale-clues&#39;, block))
 PYEOF</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import importlib.util
@@ -5235,31 +4776,20 @@ Bottom 5:
   300  39.0  Things you'd want if you shrunk to the size of an ant.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Items are ranked by their position in the YAML list, with the first item as #1.</details></think>
+Items are ranked by their position in the YAML list, with the first item as #1.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5296,10 +4826,8 @@ I'll check how personal-scales are scored and reorder them so #1 is the best pro
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5330,50 +4858,298 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
+import importlib.util, yaml
+from pathlib import Path
+spec = importlib.util.spec_from_file_location(&#39;curate&#39;, &#39;scripts/curate-randomizer-300.py&#39;)
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+data = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())
+items = data[&#39;collections&#39;][1][&#39;items&#39;]
+print(&#39;count&#39;, len(items))
+ranked_pin = m.rank_unique(items, m.PERSONAL_PIN, m.score_personal)
+ranked_score = sorted(items, key=lambda x: (-m.score_personal(x), x))
+print(&#39;pin-first top 10:&#39;)
+for i,x in enumerate(ranked_pin[:10],1): print(f&#39; {i} {m.score_personal(x):.1f} {x}&#39;)
+print(&#39;pure score top 10:&#39;)
+for i,x in enumerate(ranked_score[:10],1): print(f&#39; {i} {m.score_personal(x):.1f} {x}&#39;)
+print(&#39;pure score bottom 5:&#39;)
+for i,x in enumerate(ranked_score[-5:], len(ranked_score)-4): print(f&#39; {i} {m.score_personal(x):.1f} {x}&#39;)
+PYEOF</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import importlib.util, yaml
+from pathlib import Path
+spec = importlib.util.spec_from_file_location('curate', 'scripts/curate-randomizer-300.py')
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+data = yaml.safe_load(Path('data/randomizer.yaml').read_text())
+items = data['collections'][1]['items']
+print('count', len(items))
+ranked_pin = m.rank_unique(items, m.PERSONAL_PIN, m.score_personal)
+ranked_score = sorted(items, key=lambda x: (-m.score_personal(x), x))
+print('pin-first top 10:')
+for i,x in enumerate(ranked_pin[:10],1): print(f' {i} {m.score_personal(x):.1f} {x}')
+print('pure score top 10:')
+for i,x in enumerate(ranked_score[:10],1): print(f' {i} {m.score_personal(x):.1f} {x}')
+print('pure score bottom 5:')
+for i,x in enumerate(ranked_score[-5:], len(ranked_score)-4): print(f' {i} {m.score_personal(x):.1f} {x}')
+PYEOF
+```
+
+```
+count 300
+pin-first top 10:
+ 1 63.0 How lazy are you?
+ 2 59.0 To what degree would you call yourself a sore loser?
+ 3 63.0 How competitive are you at board games?
+ 4 61.0 How hard is it for you to ignore your phone?
+ 5 63.0 How likely are you to gossip?
+ 6 61.0 How honest are you, even when it hurts?
+ 7 62.0 How dramatic are you?
+ 8 62.0 How stubborn are you?
+ 9 61.0 How much of a procrastinator are you?
+ 10 53.0 How funny do you think you are?
+pure score top 10:
+ 1 63.0 How competitive are you at board games?
+ 2 63.0 How lazy are you?
+ 3 63.0 How likely are you to gossip?
+ 4 62.0 How dramatic are you?
+ 5 62.0 How stubborn are you?
+ 6 61.0 How hard is it for you to ignore your phone?
+ 7 61.0 How honest are you, even when it hurts?
+ 8 61.0 How much of a procrastinator are you?
+ 9 60.0 How likely are you to house-rule a board game?
+ 10 59.0 To what degree would you call yourself a sore loser?
+pure score bottom 5:
+ 296 46.0 How good are you at admitting when you're wrong?
+ 297 41.0 How much do you enjoy being in charge?
+ 298 41.0 How much do you enjoy karaoke?
+ 299 41.0 How much do you enjoy surprises?
+ 300 38.0 How much do you enjoy trying local food when traveling?
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The score_personal function is quite basic.
+
+Family-friendly personal icebreakers should be short, universally relatable, and fun without being invasive. The scorer will penalize long questions, adult-only topics, duplicate phrasing, and niche subjects.
+
+Classic traits and relatable habits will receive score boosts. A `rank_personal_scales` function will be added to return items ordered by score.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "wedding|driving|raise|promotion|Google someone|comment section|road rage|jaywalk|regift|ghost|workaholic|vengeful|gossip"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
+  "pattern": "wedding|driving|raise|promotion|Google someone|comment section|road rage|jaywalk|regift|ghost|workaholic|vengeful|gossip",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": "data/randomizer.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+<think><details><summary>Thought Process</summary>
+Updating personal scale scoring heuristics for icebreaker quality and family-friendliness. Adding a `rank_personal_scales()` function and switching `main()` to use it instead of `rank_unique` with PIN. Then running the curate randomizer script.
 
-</details>
-</tool-use>
+The current `main()` merges `PERSONAL_NEW` into the personal pool, which risks adding duplicates or exceeding the 300-item target. Since the user only wants to reorder existing items, I should rank only the current YAML entries and exclude the new additions.
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+I'll apply `rank_personal_scales` directly to the existing YAML entries and trim to the target count. I'm weighing whether to keep `PERSONAL_NEW` in the pool, since those additions may be intentional for gap-filling during curation.
+
+The personal pool currently holds exactly 300 items, so PERSONAL_NEW won't expand the pool. I'm refining the scoring logic to favor shorter, punchier icebreakers and assigning higher tiers to classic favorites like "how lazy are you?" and "how dramatic are you?".
+
+Assigning higher scores to specific personal scale items. Classic favorites like "how lazy are you?" and "how dramatic are you?" receive 18 points. Sore-loser questions and board-game prompts earn 14–16 points. Gossip likelihood and procrastination scales score 12–14 points. Phone-related and honest questions score 10–12 points.
+
+Adding more tiered scores. "Return a shopping cart" earns 11 points. "Sing in the shower," "cry during a movie," and "double-dip" each earn 10. Sarcastic, impulsive, and replay-awkward scales score 9. Including someone sitting alone scores 8. Generic patient and optimistic traits score 6.
+
+Adding 8-point bonuses for apology and humor scales. Penalties now target weak patterns like "how much do you enjoy" and "how good are you at." Starting to flag adult or niche items as less family-friendly.
+
+The adult-niche list now covers wedding prompts, road-rage and tip-creator questions, ghosting group plans, speakerphone in public, subscription audits, and extreme sports. Each flagged phrase triggers a penalty to reduce family-friendliness.
+
+Vague one-word trait dumps like "how ambitious are you?" lose 8 points. Food preference scales drop by 5 points. The adult-niche penalty is 12 points. Ready to preview and run.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Improving the personal-scales scorer and reordering the deck best-first, same approach as scale-clues.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/curate-randomizer-300.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/curate-randomizer-300.py --only personal-scales &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
+import importlib.util, yaml
+from pathlib import Path
+spec = importlib.util.spec_from_file_location(&#39;curate&#39;, &#39;scripts/curate-randomizer-300.py&#39;)
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+items = yaml.safe_load(Path(&#39;data/randomizer.yaml&#39;).read_text())[&#39;collections&#39;][1][&#39;items&#39;]
+print(&#39;count&#39;, len(items))
+print(&#39;Top 12:&#39;)
+for i,x in enumerate(items[:12],1): print(f&#39; {i:3} {m.score_personal(x):5.1f} {x}&#39;)
+print(&#39;Bottom 5:&#39;)
+for i,x in enumerate(items[-5:], len(items)-4): print(f&#39; {i:3} {m.score_personal(x):5.1f} {x}&#39;)
+PYEOF</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/curate-randomizer-300.py --only personal-scales && python3 << 'PYEOF'
+import importlib.util, yaml
+from pathlib import Path
+spec = importlib.util.spec_from_file_location('curate', 'scripts/curate-randomizer-300.py')
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+items = yaml.safe_load(Path('data/randomizer.yaml').read_text())['collections'][1]['items']
+print('count', len(items))
+print('Top 12:')
+for i,x in enumerate(items[:12],1): print(f' {i:3} {m.score_personal(x):5.1f} {x}')
+print('Bottom 5:')
+for i,x in enumerate(items[-5:], len(items)-4): print(f' {i:3} {m.score_personal(x):5.1f} {x}')
+PYEOF
+```
+
+```
+personal-scales: 300 (top: How dramatic are you?)
+count 300
+Top 12:
+   1  72.0 How dramatic are you?
+   2  72.0 How lazy are you?
+   3  72.0 How stubborn are you?
+   4  68.0 How likely are you to gossip?
+   5  66.0 How much of a procrastinator are you?
+   6  66.0 To what degree would you call yourself a sore loser?
+   7  65.0 How competitive are you at board games?
+   8  64.0 How honest are you, even when it hurts?
+   9  63.0 How impulsive are you?
+  10  63.0 How sarcastic are you?
+  11  62.0 How funny do you think you are?
+  12  62.0 How hard is it for you to ignore your phone?
+Bottom 5:
+ 296  36.0 How likely are you to use speakerphone in public?
+ 297  36.0 How likely are you to use unique passwords?
+ 298  36.0 How likely are you to wear headphones to avoid small talk?
+ 299  36.0 How much do you enjoy being in charge?
+ 300  36.0 How much do you enjoy trying local food when traveling?
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+`personal-scales` is now ordered best-first in `data/randomizer.yaml` — **#1 is the strongest icebreaker**.
+
+### Top 5
+1. How dramatic are you?
+2. How lazy are you?
+3. How stubborn are you?
+4. How likely are you to gossip?
+5. How much of a procrastinator are you?
+
+### Bottom 5
+296. How likely are you to use speakerphone in public?
+297. How likely are you to use unique passwords?
+298. How likely are you to wear headphones to avoid small talk?
+299. How much do you enjoy being in charge?
+300. How much do you enjoy trying local food when traveling?
+
+Ranking uses a quality scorer in `scripts/curate-randomizer-300.py`: short, punchy, universally relatable questions rank high; long, adult-only, or niche ones rank low. Re-run with:
+
+```bash
+python3 scripts/curate-randomizer-300.py --only personal-scales
+```

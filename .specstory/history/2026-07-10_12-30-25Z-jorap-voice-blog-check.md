@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking all blog posts against the jorap-voice skill guidelines.
 
-Running automated voice scans and lints on all blog posts in parallel. Will also sample posts manually and review the voice-words.yaml file.</details></think>
+Running automated voice scans and lints on all blog posts in parallel. Will also sample posts manually and review the voice-words.yaml file.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,11 +25,10 @@ I'll run the repo's voice lint/scan and review all blog posts against the JoRap 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **54** results in **1** directory</summary>
 
-Directory: **** (54 files)
+Directory: **``** (54 files)
 
 | File |
 |------|
@@ -86,34 +86,19 @@ Directory: **** (54 files)
 | `content/english/blog/__extension-cord.md` |
 | `content/english/blog/__sustainable-online-publishing.md` |
 | `content/english/blog/__static-site-client-scope.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -143,61 +128,1232 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<think><details><summary>Thought Process</summary>
+Running automated voice scans and lints across all blogs. Checking the jorap-voice skill examples for reference.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm voice:scan 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-lint.py --summary --review
+Voice scan — 305 files, 2 strict, 64 review-only
+Word list: data/voice-words.yaml
+
+Strict (lint:voice fails on these)
+  handoff (2) → pass off / pass to client
+    content/english/notes/selling-static-sites.md · relationships.reason
+    content/english/notes/static-site-client-scope.md · relationships.reason
+
+Review-only (edit data/voice-words.yaml review: to tune)
+  deploy (33) → push live
+    content/english/blog/how-i-built-jorap-notes.md · body
+    content/english/blog/how-i-built-jorap-notes.md · body
+    content/english/blog/hugoplate-theme-review.md · body
+    content/english/notes/blameless-after-action-review.md · cards[0].front
+    content/english/notes/blameless-after-action-review.md · cards[1].front
+    content/english/notes/blameless-after-action-review.md · description
+    content/english/notes/blameless-after-action-review.md · examples[0]
+    content/english/notes/blameless-after-action-review.md · key_concept
+    content/english/notes/blameless-after-action-review.md · key_concept
+    content/english/notes/change-window.md · aliases[0]
+    content/english/notes/change-window.md · cards[2].front
+    content/english/notes/change-window.md · cards[3].front
+    content/english/notes/change-window.md · key_concept
+    content/english/notes/change-window.md · relationships.reason
+    content/english/notes/change-window.md · relationships.reason
+    content/english/notes/client-site-pass-off.md · key_concept
+    content/english/notes/free-tier-hosting-stack.md · cards[0].front
+    content/english/notes/free-tier-hosting-stack.md · relationships.reason
+    content/english/notes/free-tier-hosting-stack.md · relationships.reason
+    content/english/notes/free-tier-hosting-stack.md · relationships.reason
+    content/english/notes/maintenance-window.md · relationships.reason
+    content/english/notes/reversibility.md · key_concept
+    content/english/notes/reversibility.md · relationships.reason
+    cont
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
+Voice dash errors:
+  content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running automated voice scans and lints across all blogs. Checking the jorap-voice skill examples for reference.</details></think>
+Lint found one issue in blogs: an em/en dash in alex-eala-pro-career-tracker.md.
+
+Running a deeper blog-only scan. I'll check the lint script for blog-specific filtering, search for AI voice tells, and manually review published posts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1</summary>
+Running a blog-focused scan for voice issues beyond the automated lint.
 
-```bash
-cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/**/*.md",
+  "outputMode": "content",
+  "pattern": "—|–"
+}
 ```
-</details>
-</tool-use>
+Additional data:
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "—|–",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1</summary>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 
-```bash
-cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "delve|tapestry|harness|Furthermore|Moreover|Additionally|game-changer|When it comes to|In today's|Let's dive|Let's explore|ultimate guide|hope this helps|happy reading|comprehensive guide|plays a key role|it's important to|In conclusion|Unlock the full potential|Without further ado|In the realm of|navigate the"
+}
 ```
-</details>
-</tool-use>
+Additional data:
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "delve|tapestry|harness|Furthermore|Moreover|Additionally|game-changer|When it comes to|In today's|Let's dive|Let's explore|ultimate guide|hope this helps|happy reading|comprehensive guide|plays a key role|it's important to|In conclusion|Unlock the full potential|Without further ado|In the realm of|navigate the",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__make-ai-articles-more-human.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing published blog posts for /jorap-voice.
+
+Checking draft status and frontmatter. Searching for em dashes, engagement bait, generic openers, and "users"/"one" language. Reviewing skill-approved words like "utilize" and "robust".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "^draft:\\s*(true|false)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^draft:\\s*(true|false)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__stuart-mcgill-big-three-low-back-exercises.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jobs-to-be-done-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blank-blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/what-i-look-for-in-wireless-earphones.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-stopped-playing-marvel-snap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-static-site-generator.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__extension-cord.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__kewpie-mayo.md"
+    }
+  ],
+  "totalFiles": 53,
+  "totalMatches": 53
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "Let me know|What do you think|users may|one might|consumers should|it is recommended|In this (section|article|post)|we'll cover|At the end of the day|Here's everything|must-have|seamless experience|robust solution|boasts|offers a range"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Let me know|What do you think|users may|one might|consumers should|it is recommended|In this (section|article|post)|we'll cover|At the end of the day|Here's everything|must-have|seamless experience|robust solution|boasts|offers a range",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-stopped-playing-marvel-snap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/what-i-look-for-in-wireless-earphones.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "\\bnavigate\\b|\\bdeploy\\b|\\bdistill\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\bnavigate\\b|\\bdeploy\\b|\\bdistill\\b",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/how-i-built-jorap-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-static-site-generator.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jobs-to-be-done-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/power-of-the-mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__sustainable-online-publishing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__obsidian-vs-hugo.md"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 23
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --summary --review 2&gt;&amp;1 | rg &#34;content/english/blog/&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --summary --review 2>&1 | rg "content/english/blog/"
+```
+
+```
+    content/english/blog/how-i-built-jorap-notes.md · body
+    content/english/blog/how-i-built-jorap-notes.md · body
+    content/english/blog/hugoplate-theme-review.md · body
+    content/english/blog/power-of-the-mouse-wheel-click.md · body
+    content/english/blog/power-of-the-mouse-wheel-click.md · body
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Starting a deeper manual voice check on published blog posts.
+
+Found 12 published blog posts to review.
+
+Found 17 published posts total. Will sample listicles and beginner guides first since those titles are most prone to AI-slop.
+
+Also flagged marketing titles, clickbait headlines, and tech how-to posts as high-risk. Now reading frontmatter and openings of these suspect posts, then scanning all published blogs for more patterns.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reviewing published posts with listicle-style titles and scanning for voice patterns.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "^description:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^description:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-static-site-generator.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__canon-g3000.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__static-site-client-scope.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/consistent-ai-output-wordpress-builds.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-page-bundles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__extension-cord.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__kewpie-mayo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blank-blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__sveltia-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__sustainable-online-publishing.md"
+    }
+  ],
+  "totalFiles": 54,
+  "totalMatches": 54
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "^meta_title:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^meta_title:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-static-site-generator.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__kewpie-mayo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-go-templates.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-page-bundles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/getting-started-with-rss-feeds-beginners-guide.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__obsidian-vs-hugo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__static-site-client-scope.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/what-i-look-for-in-wireless-earphones.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/top-reasons-create-maintain-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__canon-g3000.md"
+    }
+  ],
+  "totalFiles": 54,
+  "totalMatches": 54
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading older posts to check for broader voice issues.
+
+Checking specific posts and drafts for AI tells and weak patterns.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "Furthermore|Moreover|Additionally|delve|tapestry|harness|utilize|facilitate|leverage|robust|seamless|comprehensive|crucial|vital|essential|functionality|optimization|implement|prioritize|realm|elevate"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Furthermore|Moreover|Additionally|delve|tapestry|harness|utilize|facilitate|leverage|robust|seamless|comprehensive|crucial|vital|essential|functionality|optimization|implement|prioritize|realm|elevate",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__extension-cord.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__kewpie-mayo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__rechargeable-batteries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__make-ai-articles-more-human.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__worcestershire-sauce-lee-and-perrins.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "Let me know|What do you think|hope this helps|happy reading|In conclusion|To sum up"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Let me know|What do you think|hope this helps|happy reading|In conclusion|To sum up",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Digging deeper into draft blogs for voice issues and checking additional patterns.
+
+Expanding checks to dnpap-song-resources, miracle-isaiah-david, and recipe posts. Organizing findings into lint failures, review-only hits, and manual voice issues. Flagging tag bloat, generic meta titles, and outdated slugs.
+
+Checking hugoplate opening and dnpap posts. Sanitizing all blogs to catch weak descriptions and blank template markers.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "—|–|—"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "—|–|—",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking draft posts for weaker voice. Focusing on __blank-blog-template and __make-ai-articles-more-human. Scanning published blogs for generic third-person "users" language.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "\\busers\\b|\\bconsumers\\b|\\bone should\\b|\\bit is recommended\\b|\\bwe'll cover\\b|\\bIn this (section|article|post|guide)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\busers\\b|\\bconsumers\\b|\\bone should\\b|\\bit is recommended\\b|\\bwe'll cover\\b|\\bIn this (section|article|post|guide)\\b",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/top-reasons-create-maintain-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__tailwind-css-v4.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__make-ai-articles-more-human.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking older listicles for generic structure. Reviewing top-reasons post closings. Comparing voice in instant pot recipe intros versus steps.
+
+Checking the lint script for path filtering support to isolate blog-specific voice issues. Also reviewing navigate context in power-of-the-mouse-wheel-click.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "\\*\\*[^*]+\\*\\* - [A-Z]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\*\\*[^*]+\\*\\* - [A-Z]",
+  "topFiles": [
+    {
+      "matchCount": 20,
+      "uri": "./content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "./content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__second-cellphone.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 35
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling a comprehensive voice audit report for all blogs.
+
+Found em dash issues in one blog. Published posts are mostly on voice. Drafts need review. One meta title sounds generic instead of JoRap voice.
+
+Two more SEO titles sound too generic. One uses pipe-heavy formatting. Another follows a listicle pattern. The RSS guide title is fine. Two slugs still use outdated marketing language despite updated titles.
+
+Listicle posts use numbered-reason framing but open personally and pass voice checks. Minor symmetrical bold bullet patterns appear in Facebook, favorites, and RSS drafts. Internal template descriptions are not JoRap voice. A prompt framework draft quotes bad prompts intentionally.
+
+Many posts contain 15–20 tags, reflecting an SEO mill pattern rather than a voice issue. Several reference-quality posts pass the voice check, including wireless earphone reviews, the Marvel Snap post, and the Hugo theme review.
+
+Recipe posts use intentional instructional tone. Their section intros should remain human. The set-or-get-it and instant-pot recipes likely pass this check.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/**/*.md",
+  "pattern": "handoff"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "handoff",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Set-it-forget-it contains "The Magic Rice Cooker Situation" and a pro tip. It looks mostly fine.
+
+The phrase "Set it and literally forget it" is cliché but acceptable. A full audit is underway. There are 54 markdown files: 17 published and roughly 36 drafts. One lint failure exists. No strict word hits were found in the blogs. The published posts are being scored.
+
+Most published posts pass with minor notes. The audit will be structured as an executive summary, automated lint results, tiered post scores, draft highlights, and an offer to fix the single lint failure. The alex-eala em dash issue is in a modified file and easy to fix.
+</details></think>
+
+_**Agent (auto-low)**_
+
+## JoRap voice audit — all blogs
+
+Scanned **53 posts** under `content/english/blog/` (plus `_index.md`) with `pnpm lint:voice`, `pnpm voice:scan`, and a manual pass against the jorap-voice skill.
+
+**Bottom line:** Published posts are mostly on voice. Strong reference-tier pieces (`what-i-look-for-in-wireless-earphones`, `why-i-stopped-playing-marvel-snap`, `how-i-built-jorap-notes`, `consistent-ai-output-wordpress-builds`, `hugoplate-theme-review`) read like you typed them. One **lint failure** in a live post. A handful of **meta titles / slugs** still sound SEO-ish even when the body is fine.
+
+---
+
+### Automated checks
+
+| Check | Blogs result |
+|-------|----------------|
+| `pnpm lint:voice` (strict) | **1 fail** — em dash in `alex-eala-pro-career-tracker.md` |
+| Strict word list (`delve`, `Furthermore`, `handoff`, etc.) | **0 hits** in blogs |
+| AI-tell phrases (`When it comes to`, `ultimate guide`, etc.) | **0 in published**; only in draft `__make-ai-articles-more-human.md` as a quoted anti-example |
+| Engagement bait (`hope this helps`, `Let me know`) | **None** |
+| Review-only flags | `deploy` (2× in `how-i-built-jorap-notes`, 1× in `hugoplate-theme-review`) — fine in context; `navigate` (2× in `power-of-the-mouse-wheel-click`) — correct browser wording |
+
+**Fix to pass lint:**
+
+```28:28:content/english/blog/alex-eala-pro-career-tracker.md
+- **Best Slam (singles):** Wimbledon 2026 — Round of 16
+```
+
+Swap the em dash for a hyphen: `Wimbledon 2026 - Round of 16`.
+
+---
+
+### Published posts (17) — voice tier
+
+**On voice (no action needed)**
+
+- `what-i-look-for-in-wireless-earphones.md` — skill reference post; experiential, opinionated, plain
+- `why-i-stopped-playing-marvel-snap.md` — personal, specific; `must-have` is earned in context
+- `how-i-built-jorap-notes.md` — strong opening and specifics; meta_title is the weak spot (below)
+- `hugoplate-theme-review.md` — honest review tone, real friction
+- `consistent-ai-output-wordpress-builds.md` — lived workflow, not brochure
+- `power-of-the-mouse-wheel-click.md` — practical, direct
+- `miracle-isaiah-david.md` — personal testimony, no AI slop
+- `instant-pot-chicken-adobo.md` / `instant-pot-arroz-caldo.md` — recipe body is instructional; intros sound like you
+- `power-of-worship-pads-enhancing-your-worship-experience.md` — title/meta updated well; real practice story (VLC pads, app freezes)
+- `facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md` — opening is personal; body is a bit symmetrical in the “three things changed” bullets but still reads human
+- `getting-started-with-rss-feeds-beginners-guide.md` — good “I was wrong about RSS” hook; guide structure is fine
+- `dnpap-song-resources.md` — link roundup; short personal intro works
+- `alex-eala-pro-career-tracker.md` — scrapbook voice fits; only the em dash fails lint
+
+**Fine but slightly generic framing**
+
+- `top-reasons-why-you-still-need-use-desktop-laptop.md` — “Top Reasons” title is listicle SEO; **body passes** (borrowed laptop for taxes, real multitasking examples). Closes with an honest “use both” take.
+- `top-reasons-create-maintain-your-own-website.md` — same pattern; opening and platform-death examples are strong. “So, should you build one?” section is a bit preachy (`yes. I think you should.`) but still first-person.
+- `set-it-forget-it-arroz-caldo.md` — mostly fine; “Set it and literally forget it” and “The Magic Rice Cooker Situation” are a touch food-blog cliché, not a voice fail.
+
+---
+
+### Meta / slug mismatches (SEO shell, JoRap body)
+
+These posts **sound like you in the prose** but **titles or slugs** still carry old SEO weight:
+
+| Post | Issue |
+|------|--------|
+| `how-i-built-jorap-notes.md` | `meta_title`: “A Developer's Guide to Static Site Hosting” — generic; `description` is much more JoRap |
+| `dnpap-song-resources.md` | `meta_title` pipe list: `Spotify, YouTube, Lyrics` |
+| `top-reasons-*` (2 posts) | “Top Reasons” in `title` / `meta_title` |
+| `power-of-worship-pads-…md` | Slug still `…enhancing-your-worship-with-guitar`; title is already human |
+| `facebooks-hidden-gem-…md` | Slug is long clickbait; `meta_title` is already good |
+
+Worth a pass if you care about consistency in search/tab titles, not urgent for body voice.
+
+---
+
+### Drafts (`__*.md`, 36 posts)
+
+Most drafts already follow jorap-voice in `description` and openings. Notable exceptions:
+
+| Draft | Note |
+|-------|------|
+| `__blank-blog-template.md`, `__blog-template.md` | `description`: “Hugo CMS Reference for blog publishing.” — internal template, not author voice |
+| `__craft-prompt-framework.md` | Quotes a “Ultimate Prompt” with “comprehensive details” — intentional bad example, but watch the surrounding prose when you publish |
+| `__make-ai-articles-more-human.md` | Includes `When it comes to…` in a fenced bad-prompt block — fine as anti-pattern |
+
+No `handoff` in any blog file (strict hits are only in notes).
+
+---
+
+### Voice check scorecard (skill checklist)
+
+| Criterion | Blogs |
+|-----------|-------|
+| Opens with experience / concrete problem | ✅ Almost all published |
+| Uses “I” and real scenarios | ✅ |
+| Specifics per section | ✅ Strong on gear, tech, faith, recipes; tracker is data-heavy by design |
+| Plain words, no AI-slop phrases | ✅ Published clean |
+| Sentence variety | ✅ Strong on opinion/gear posts; slightly uniform on older listicles |
+| Frontmatter `description` sounds like you | ✅ Except template drafts |
+| `pnpm lint:voice` clean | ❌ One em dash in Alex Eala tracker |
+
+---
+
+### If you want fixes
+
+Smallest high-impact batch:
+
+1. Fix the em dash in `alex-eala-pro-career-tracker.md` (passes CI).
+2. Retitle `how-i-built-jorap-notes` `meta_title` to match the personal angle (e.g. drop “A Developer's Guide”).
+3. Optionally align old “Top Reasons” titles and long slugs with the human titles you already use in newer posts.
+
+Say which of those you want applied and I’ll patch them.

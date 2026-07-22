@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Syncing upstreams.
 
-Pulling upstream checkouts and verifying the working tree. Then running Hugoplate triage and Impeccible sync.</details></think>
+Pulling upstream checkouts and verifying the working tree. Then running Hugoplate triage and Impeccible sync.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,9 +25,8 @@ Starting the upstream sync: pulling Hugoplate and Impeccable, then checking the 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/hugoplate && git pull</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/hugoplate &amp;&amp; git pull</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/hugoplate && git pull
 ```
@@ -35,19 +35,12 @@ cd /home/jorap/Documents/GitHub/hugoplate && git pull
 Already up to date.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/impeccable && git pull</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/impeccable &amp;&amp; git pull</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/impeccable && git pull
 ```
@@ -87,596 +80,15 @@ Fast-forward
  .agents/skills/impeccable/scripts/live-server.mjs  |   2 +
  .../scripts/live/browser-script-parts.mjs          |   3 +-
  .agents/skills/impeccable/scripts/pin.mjs          |  25 +-
- .claude/skills/impeccable/SKILL.md                 |  23 +-
- .claude/skills/impeccable/reference/adapt.md       |   1 +
- .../skills/impeccable/reference/adapt.native.md    |  58 ++
- .claude/skills/impeccable/reference/android.md     |  40 +
- .claude/skills/impeccable/reference/animate.md     |   2 +
- .claude/skills/impeccable/reference/audit.md       |   2 +
- .../skills/impeccable/reference/audit.native.md    | 139 ++++
- .claude/skills/impeccable/reference/hooks.md       |   4 +-
- .claude/skills/impeccable/reference/init.md        |  77 +-
- .claude/skills/impeccable/reference/ios.md         |  45 ++
- .claude/skills/impeccable/reference/layout.md      |  26 +-
- .claude/skills/impeccable/reference/typeset.md     |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .claude/skills/impeccable/scripts/context.mjs      |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .claude/skills/impeccable/scripts/hook-admin.mjs   |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .claude/skills/impeccable/scripts/hook-lib.mjs     | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .claude/skills/impeccable/scripts/lib/provider.mjs |   4 +
- .claude/skills/impeccable/scripts/live-browser.js  | 116 ++-
- .claude/skills/impeccable/scripts/live-server.mjs  |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .claude/skills/impeccable/scripts/pin.mjs          |  25 +-
- .cursor/skills/impeccable/SKILL.md                 |  23 +-
- .cursor/skills/impeccable/reference/adapt.md       |   1 +
- .../skills/impeccable/reference/adapt.native.md    |  58 ++
- .cursor/skills/impeccable/reference/android.md     |  40 +
- .cursor/skills/impeccable/reference/animate.md     |   2 +
- .cursor/skills/impeccable/reference/audit.md       |   2 +
- .../skills/impeccable/reference/audit.native.md    | 139 ++++
- .cursor/skills/impeccable/reference/hooks.md       |   4 +-
- .cursor/skills/impeccable/reference/init.md        |  77 +-
- .cursor/skills/impeccable/reference/ios.md         |  45 ++
- .cursor/skills/impeccable/reference/layout.md      |  26 +-
- .cursor/skills/impeccable/reference/typeset.md     |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .cursor/skills/impeccable/scripts/context.mjs      |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .cursor/skills/impeccable/scripts/hook-admin.mjs   |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .cursor/skills/impeccable/scripts/hook-lib.mjs     | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .cursor/skills/impeccable/scripts/lib/provider.mjs |   4 +
- .cursor/skills/impeccable/scripts/live-browser.js  | 116 ++-
- .cursor/skills/impeccable/scripts/live-server.mjs  |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .cursor/skills/impeccable/scripts/pin.mjs          |  25 +-
- .gemini/skills/impeccable/SKILL.md                 |  23 +-
- .gemini/skills/impeccable/reference/adapt.md       |   1 +
- .../skills/impeccable/reference/adapt.native.md    |  58 ++
- .gemini/skills/impeccable/reference/android.md     |  40 +
- .gemini/skills/impeccable/reference/animate.md     |   2 +
- .gemini/skills/impeccable/reference/audit.md       |   2 +
- .../skills/impeccable/reference/audit.native.md    | 139 ++++
- .gemini/skills/impeccable/reference/hooks.md       |   4 +-
- .gemini/skills/impeccable/reference/init.md        |  77 +-
- .gemini/skills/impeccable/reference/ios.md         |  45 ++
- .gemini/skills/impeccable/reference/layout.md      |  26 +-
- .gemini/skills/impeccable/reference/typeset.md     |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .gemini/skills/impeccable/scripts/context.mjs      |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .gemini/skills/impeccable/scripts/hook-admin.mjs   |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .gemini/skills/impeccable/scripts/hook-lib.mjs     | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .gemini/skills/impeccable/scripts/lib/provider.mjs |   4 +
- .gemini/skills/impeccable/scripts/live-browser.js  | 116 ++-
- .gemini/skills/impeccable/scripts/live-server.mjs  |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .gemini/skills/impeccable/scripts/pin.mjs          |  25 +-
- .github/ISSUE_TEMPLATE/bug_report.md               |   4 +
- .github/ISSUE_TEMPLATE/feature_request.md          |   4 +
- .github/PULL_REQUEST_TEMPLATE.md                   |  11 +
- .github/skills/impeccable/SKILL.md                 |  23 +-
- .github/skills/impeccable/reference/adapt.md       |   1 +
- .../skills/impeccable/reference/adapt.native.md    |  58 ++
- .github/skills/impeccable/reference/android.md     |  40 +
- .github/skills/impeccable/reference/animate.md     |   2 +
- .github/skills/impeccable/reference/audit.md       |   2 +
- .../skills/impeccable/reference/audit.native.md    | 139 ++++
- .github/skills/impeccable/reference/hooks.md       |   4 +-
- .github/skills/impeccable/reference/init.md        |  77 +-
- .github/skills/impeccable/reference/ios.md         |  45 ++
- .github/skills/impeccable/reference/layout.md      |  26 +-
- .github/skills/impeccable/reference/typeset.md     |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .github/skills/impeccable/scripts/context.mjs      |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .github/skills/impeccable/scripts/hook-admin.mjs   |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .github/skills/impeccable/scripts/hook-lib.mjs     | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .github/skills/impeccable/scripts/lib/provider.mjs |   4 +
- .github/skills/impeccable/scripts/live-browser.js  | 116 ++-
- .github/skills/impeccable/scripts/live-server.mjs  |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .github/skills/impeccable/scripts/pin.mjs          |  25 +-
- .github/workflows/ci.yml                           |  24 +-
- .github/workflows/sheriff.yml                      |  52 ++
- .kiro/skills/impeccable/SKILL.md                   |  23 +-
- .kiro/skills/impeccable/reference/adapt.md         |   1 +
- .kiro/skills/impeccable/reference/adapt.native.md  |  58 ++
- .kiro/skills/impeccable/reference/android.md       |  40 +
- .kiro/skills/impeccable/reference/animate.md       |   2 +
- .kiro/skills/impeccable/reference/audit.md         |   2 +
- .kiro/skills/impeccable/reference/audit.native.md  | 139 ++++
- .kiro/skills/impeccable/reference/hooks.md         |   4 +-
- .kiro/skills/impeccable/reference/init.md          |  77 +-
- .kiro/skills/impeccable/reference/ios.md           |  45 ++
- .kiro/skills/impeccable/reference/layout.md        |  26 +-
- .kiro/skills/impeccable/reference/typeset.md       |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .kiro/skills/impeccable/scripts/context.mjs        |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .kiro/skills/impeccable/scripts/hook-admin.mjs     |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .kiro/skills/impeccable/scripts/hook-lib.mjs       | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .kiro/skills/impeccable/scripts/lib/provider.mjs   |   4 +
- .kiro/skills/impeccable/scripts/live-browser.js    | 116 ++-
- .kiro/skills/impeccable/scripts/live-server.mjs    |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .kiro/skills/impeccable/scripts/pin.mjs            |  25 +-
- .opencode/skills/impeccable/SKILL.md               |  23 +-
- .opencode/skills/impeccable/reference/adapt.md     |   1 +
- .../skills/impeccable/reference/adapt.native.md    |  58 ++
- .opencode/skills/impeccable/reference/android.md   |  40 +
- .opencode/skills/impeccable/reference/animate.md   |   2 +
- .opencode/skills/impeccable/reference/audit.md     |   2 +
- .../skills/impeccable/reference/audit.native.md    | 139 ++++
- .opencode/skills/impeccable/reference/hooks.md     |   4 +-
- .opencode/skills/impeccable/reference/init.md      |  77 +-
- .opencode/skills/impeccable/reference/ios.md       |  45 ++
- .opencode/skills/impeccable/reference/layout.md    |  26 +-
- .opencode/skills/impeccable/reference/typeset.md   |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .opencode/skills/impeccable/scripts/context.mjs    |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .opencode/skills/impeccable/scripts/hook-admin.mjs |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .opencode/skills/impeccable/scripts/hook-lib.mjs   | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .../skills/impeccable/scripts/lib/provider.mjs     |   4 +
- .../skills/impeccable/scripts/live-browser.js      | 116 ++-
- .../skills/impeccable/scripts/live-server.mjs      |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .opencode/skills/impeccable/scripts/pin.mjs        |  25 +-
- .pi/skills/impeccable/SKILL.md                     |  23 +-
- .pi/skills/impeccable/reference/adapt.md           |   1 +
- .pi/skills/impeccable/reference/adapt.native.md    |  58 ++
- .pi/skills/impeccable/reference/android.md         |  40 +
- .pi/skills/impeccable/reference/animate.md         |   2 +
- .pi/skills/impeccable/reference/audit.md           |   2 +
- .pi/skills/impeccable/reference/audit.native.md    | 139 ++++
- .pi/skills/impeccable/reference/hooks.md           |   4 +-
- .pi/skills/impeccable/reference/init.md            |  77 +-
- .pi/skills/impeccable/reference/ios.md             |  45 ++
- .pi/skills/impeccable/reference/layout.md          |  26 +-
- .pi/skills/impeccable/reference/typeset.md         |  24 +-
- .pi/skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .pi/skills/impeccable/scripts/context.mjs          |  90 ++-
- .pi/skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .pi/skills/impeccable/scripts/hook-admin.mjs       |  13 +-
- .pi/skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .pi/skills/impeccable/scripts/hook-lib.mjs         | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .pi/skills/impeccable/scripts/lib/provider.mjs     |   4 +
- .pi/skills/impeccable/scripts/live-browser.js      | 116 ++-
- .pi/skills/impeccable/scripts/live-server.mjs      |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .pi/skills/impeccable/scripts/pin.mjs              |  25 +-
- .qoder/skills/impeccable/SKILL.md                  |  23 +-
- .qoder/skills/impeccable/reference/adapt.md        |   1 +
- .qoder/skills/impeccable/reference/adapt.native.md |  58 ++
- .qoder/skills/impeccable/reference/android.md      |  40 +
- .qoder/skills/impeccable/reference/animate.md      |   2 +
- .qoder/skills/impeccable/reference/audit.md        |   2 +
- .qoder/skills/impeccable/reference/audit.native.md | 139 ++++
- .qoder/skills/impeccable/reference/hooks.md        |   4 +-
- .qoder/skills/impeccable/reference/init.md         |  77 +-
- .qoder/skills/impeccable/reference/ios.md          |  45 ++
- .qoder/skills/impeccable/reference/layout.md       |  26 +-
- .qoder/skills/impeccable/reference/typeset.md      |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .qoder/skills/impeccable/scripts/context.mjs       |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .qoder/skills/impeccable/scripts/hook-admin.mjs    |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .qoder/skills/impeccable/scripts/hook-lib.mjs      | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .qoder/skills/impeccable/scripts/lib/provider.mjs  |   4 +
- .qoder/skills/impeccable/scripts/live-browser.js   | 116 ++-
- .qoder/skills/impeccable/scripts/live-server.mjs   |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .qoder/skills/impeccable/scripts/pin.mjs           |  25 +-
- .rovodev/skills/impeccable/SKILL.md                |  23 +-
- .rovodev/skills/impeccable/reference/adapt.md      |   1 +
- .../skills/impeccable/reference/adapt.native.md    |  58 ++
- .rovodev/skills/impeccable/reference/android.md    |  40 +
- .rovodev/skills/impeccable/reference/animate.md    |   2 +
- .rovodev/skills/impeccable/reference/audit.md      |   2 +
- .../skills/impeccable/reference/audit.native.md    | 139 ++++
- .rovodev/skills/impeccable/reference/hooks.md      |   4 +-
- .rovodev/skills/impeccable/reference/init.md       |  77 +-
- .rovodev/skills/impeccable/reference/ios.md        |  45 ++
- .rovodev/skills/impeccable/reference/layout.md     |  26 +-
- .rovodev/skills/impeccable/reference/typeset.md    |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .rovodev/skills/impeccable/scripts/context.mjs     |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .rovodev/skills/impeccable/scripts/hook-admin.mjs  |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .rovodev/skills/impeccable/scripts/hook-lib.mjs    | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .../skills/impeccable/scripts/lib/provider.mjs     |   4 +
- .rovodev/skills/impeccable/scripts/live-browser.js | 116 ++-
- .rovodev/skills/impeccable/scripts/live-server.mjs |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .rovodev/skills/impeccable/scripts/pin.mjs         |  25 +-
- .trae-cn/skills/impeccable/SKILL.md                |  23 +-
- .trae-cn/skills/impeccable/reference/adapt.md      |   1 +
- .../skills/impeccable/reference/adapt.native.md    |  58 ++
- .trae-cn/skills/impeccable/reference/android.md    |  40 +
- .trae-cn/skills/impeccable/reference/animate.md    |   2 +
- .trae-cn/skills/impeccable/reference/audit.md      |   2 +
- .../skills/impeccable/reference/audit.native.md    | 139 ++++
- .trae-cn/skills/impeccable/reference/hooks.md      |   4 +-
- .trae-cn/skills/impeccable/reference/init.md       |  77 +-
- .trae-cn/skills/impeccable/reference/ios.md        |  45 ++
- .trae-cn/skills/impeccable/reference/layout.md     |  26 +-
- .trae-cn/skills/impeccable/reference/typeset.md    |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .trae-cn/skills/impeccable/scripts/context.mjs     |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .trae-cn/skills/impeccable/scripts/hook-admin.mjs  |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .trae-cn/skills/impeccable/scripts/hook-lib.mjs    | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .../skills/impeccable/scripts/lib/provider.mjs     |   4 +
- .trae-cn/skills/impeccable/scripts/live-browser.js | 116 ++-
- .trae-cn/skills/impeccable/scripts/live-server.mjs |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .trae-cn/skills/impeccable/scripts/pin.mjs         |  25 +-
- .trae/skills/impeccable/SKILL.md                   |  23 +-
- .trae/skills/impeccable/reference/adapt.md         |   1 +
- .trae/skills/impeccable/reference/adapt.native.md  |  58 ++
- .trae/skills/impeccable/reference/android.md       |  40 +
- .trae/skills/impeccable/reference/animate.md       |   2 +
- .trae/skills/impeccable/reference/audit.md         |   2 +
- .trae/skills/impeccable/reference/audit.native.md  | 139 ++++
- .trae/skills/impeccable/reference/hooks.md         |   4 +-
- .trae/skills/impeccable/reference/init.md          |  77 +-
- .trae/skills/impeccable/reference/ios.md           |  45 ++
- .trae/skills/impeccable/reference/layout.md        |  26 +-
- .trae/skills/impeccable/reference/typeset.md       |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- .trae/skills/impeccable/scripts/context.mjs        |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- .trae/skills/impeccable/scripts/hook-admin.mjs     |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- .trae/skills/impeccable/scripts/hook-lib.mjs       | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- .trae/skills/impeccable/scripts/lib/provider.mjs   |   4 +
- .trae/skills/impeccable/scripts/live-browser.js    | 116 ++-
- .trae/skills/impeccable/scripts/live-server.mjs    |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- .trae/skills/impeccable/scripts/pin.mjs            |  25 +-
- AGENTS.md                                          |  10 +
- CLAUDE.md                                          |  35 +-
- NOTICE.md                                          |  11 +
- README.md                                          |  31 +-
- README.npm.md                                      |   6 +-
- bun.lock                                           | 120 ++-
- cli/bin/commands/skills.mjs                        | 208 ++++--
- cli/engine/cli/main.mjs                            |  31 +
- cli/engine/design-system.mjs                       |  64 ++
- cli/engine/detect-antipatterns-browser.js          |  76 +-
- cli/engine/engines/regex/detect-text.mjs           |  21 +-
- cli/engine/registry/antipatterns.mjs               |  55 ++
- cli/engine/rules/checks.mjs                        |  12 +-
- cli/engine/shared/fonts.mjs                        |  30 +
- cli/lib/impeccable-config.mjs                      |   6 +-
- docs/DEVELOP.md                                    |   2 +-
- docs/HARNESSES.md                                  |   2 +-
- docs/openai-plugin-submission.md                   | 101 +++
- package.json                                       |   8 +-
- plugin/skills/impeccable/SKILL.md                  |  23 +-
- plugin/skills/impeccable/reference/adapt.md        |   1 +
- plugin/skills/impeccable/reference/adapt.native.md |  58 ++
- plugin/skills/impeccable/reference/android.md      |  40 +
- plugin/skills/impeccable/reference/animate.md      |   2 +
- plugin/skills/impeccable/reference/audit.md        |   2 +
- plugin/skills/impeccable/reference/audit.native.md | 139 ++++
- plugin/skills/impeccable/reference/hooks.md        |   4 +-
- plugin/skills/impeccable/reference/init.md         |  77 +-
- plugin/skills/impeccable/reference/ios.md          |  45 ++
- plugin/skills/impeccable/reference/layout.md       |  26 +-
- plugin/skills/impeccable/reference/typeset.md      |  24 +-
- .../skills/impeccable/scripts/context-signals.mjs  |   5 +-
- plugin/skills/impeccable/scripts/context.mjs       |  90 ++-
- .../skills/impeccable/scripts/critique-storage.mjs |   4 +-
- .../impeccable/scripts/detector/cli/main.mjs       |  31 +
- .../impeccable/scripts/detector/design-system.mjs  |  64 ++
- .../detector/detect-antipatterns-browser.js        |  76 +-
- .../scripts/detector/engines/regex/detect-text.mjs |  21 +-
- .../scripts/detector/registry/antipatterns.mjs     |  55 ++
- .../impeccable/scripts/detector/rules/checks.mjs   |  12 +-
- .../impeccable/scripts/detector/shared/fonts.mjs   |  30 +
- plugin/skills/impeccable/scripts/hook-admin.mjs    |  13 +-
- .../skills/impeccable/scripts/hook-before-edit.mjs |  52 +-
- plugin/skills/impeccable/scripts/hook-lib.mjs      | 183 ++++-
- .../impeccable/scripts/lib/impeccable-config.mjs   |   6 +-
- .../impeccable/scripts/lib/impeccable-paths.mjs    |   1 +
- plugin/skills/impeccable/scripts/lib/provider.mjs  |   4 +
- plugin/skills/impeccable/scripts/live-browser.js   | 116 ++-
- plugin/skills/impeccable/scripts/live-server.mjs   |   2 +
- .../scripts/live/browser-script-parts.mjs          |   3 +-
- plugin/skills/impeccable/scripts/pin.mjs           |  25 +-
- scripts/build-browser-detector.js                  |   2 +
- scripts/build-extension.js                         |   2 +
- scripts/build.js                                   |  20 +-
- scripts/github/sheriff.mjs                         | 816 +++++++++++++++++++++
- scripts/lib/codex-plugin.js                        |  43 ++
- scripts/lib/openai-plugin.js                       |  61 ++
- scripts/lib/transformers/factory.js                |   4 +-
- scripts/lib/transformers/hooks.js                  |  27 +
- scripts/lib/utils.js                               |  22 +-
- scripts/lib/validate-plugin-versions.js            |   6 +
- scripts/test-suites.mjs                            |   7 +-
- site/content/reference/detector.md                 |   9 +-
- site/pages/changelog.astro                         |  12 +
- site/pages/designing/index.astro                   |  17 +-
- site/pages/index.astro                             |   6 +-
- site/pages/privacy.astro                           |   4 +-
- site/pages/tutorials/index.astro                   |   2 +-
- site/public/neo-mirai/index.html                   |   8 +-
- site/public/neo-mirai/styles.css                   | 100 ++-
- site/styles/designing-kinpaku.css                  |  48 +-
- site/styles/docs-kinpaku.css                       |  12 +-
- site/styles/docs-visuals.css                       |  29 +-
- site/styles/home-kinpaku.css                       |  30 +-
- site/styles/light-mode.css                         |   4 +
- skill/SKILL.src.md                                 |  23 +-
- skill/reference/adapt.md                           |   1 +
- skill/reference/adapt.native.md                    |  58 ++
- skill/reference/android.md                         |  40 +
- skill/reference/animate.md                         |   2 +
- skill/reference/audit.md                           |   2 +
- skill/reference/audit.native.md                    | 139 ++++
- skill/reference/hooks.md                           |   4 +-
- skill/reference/init.md                            |  77 +-
- skill/reference/ios.md                             |  45 ++
- skill/reference/layout.md                          |  26 +-
- skill/reference/typeset.md                         |  24 +-
- skill/scripts/context-signals.mjs                  |   5 +-
- skill/scripts/context.mjs                          |  90 ++-
- skill/scripts/critique-storage.mjs                 |   4 +-
- skill/scripts/hook-admin.mjs                       |  13 +-
- skill/scripts/hook-before-edit.mjs                 |  52 +-
- skill/scripts/hook-lib.mjs                         | 183 ++++-
- skill/scripts/lib/impeccable-paths.mjs             |   1 +
- skill/scripts/lib/provider.mjs                     |   4 +
- skill/scripts/live-browser.js                      | 116 ++-
- skill/scripts/live-server.mjs                      |   2 +
- skill/scripts/live/browser-script-parts.mjs        |   3 +-
- skill/scripts/pin.mjs                              |  25 +-
- tests/cli-ignores.test.js                          |  43 ++
- tests/context.test.mjs                             | 122 ++-
- tests/design-system.test.mjs                       |  58 +-
- tests/detect-antipatterns-fixtures.test.mjs        |  14 +-
- tests/detect-antipatterns.test.js                  | 127 ++++
- tests/docs-integrity.test.js                       |  45 ++
- tests/fixtures/antipatterns/design-system.html     |   6 +
- tests/github-sheriff.test.mjs                      | 736 +++++++++++++++++++
- tests/hook-build.test.mjs                          |   3 +-
- tests/hook.test.mjs                                | 466 ++++++++++++
- tests/lib/impeccable-config.test.js                |  12 +
- tests/lib/transformers/factory.test.js             |  38 +
- tests/lib/utils.test.js                            |  39 +-
- tests/live-browser-regression.test.mjs             |  63 +-
- tests/live-browser-script-parts.test.mjs           |   6 +-
- tests/live-e2e/ui.mjs                              |   2 +-
- tests/live-reference.test.mjs                      |   2 +-
- tests/live-svelte-adapter-deepseek.test.mjs        |   4 +-
- tests/openai-plugin.test.mjs                       |  94 +++
- tests/pin.test.mjs                                 |  46 ++
- tests/skill-behavior/README.md                     |   6 +
- tests/skill-behavior/fixtures.mjs                  |  41 ++
- tests/skill-behavior/scenarios.test.mjs            | 231 ++++++
- tests/skills-cli.test.js                           |  57 ++
- tests/validate-plugin-versions.test.js             |  15 +-
- 513 files changed, 19166 insertions(+), 2310 deletions(-)
- create mode 100644 .agents/skills/impeccable/reference/adapt.native.md
- create mode 100644 .agents/skills/impeccable/reference/android.md
- create mode 100644 .agents/skills/impeccable/reference/audit.native.md
- create mode 100644 .agents/skills/impeccable/reference/ios.md
- create mode 100644 .agents/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .agents/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .claude/skills/impeccable/reference/adapt.native.md
- create mode 100644 .claude/skills/impeccable/reference/android.md
- create mode 100644 .claude/skills/impeccable/reference/audit.native.md
- create mode 100644 .claude/skills/impeccable/reference/ios.md
- create mode 100644 .claude/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .claude/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .cursor/skills/impeccable/reference/adapt.native.md
- create mode 100644 .cursor/skills/impeccable/reference/android.md
- create mode 100644 .cursor/skills/impeccable/reference/audit.native.md
- create mode 100644 .cursor/skills/impeccable/reference/ios.md
- create mode 100644 .cursor/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .cursor/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .gemini/skills/impeccable/reference/adapt.native.md
- create mode 100644 .gemini/skills/impeccable/reference/android.md
- create mode 100644 .gemini/skills/impeccable/reference/audit.native.md
- create mode 100644 .gemini/skills/impeccable/reference/ios.md
- create mode 100644 .gemini/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .gemini/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .github/skills/impeccable/reference/adapt.native.md
- create mode 100644 .github/skills/impeccable/reference/android.md
- create mode 100644 .github/skills/impeccable/reference/audit.native.md
- create mode 100644 .github/skills/impeccable/reference/ios.md
- create mode 100644 .github/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .github/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .github/workflows/sheriff.yml
- create mode 100644 .kiro/skills/impeccable/reference/adapt.native.md
- create mode 100644 .kiro/skills/impeccable/reference/android.md
- create mode 100644 .kiro/skills/impeccable/reference/audit.native.md
- create mode 100644 .kiro/skills/impeccable/reference/ios.md
- create mode 100644 .kiro/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .kiro/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .opencode/skills/impeccable/reference/adapt.native.md
- create mode 100644 .opencode/skills/impeccable/reference/android.md
- create mode 100644 .opencode/skills/impeccable/reference/audit.native.md
- create mode 100644 .opencode/skills/impeccable/reference/ios.md
- create mode 100644 .opencode/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .opencode/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .pi/skills/impeccable/reference/adapt.native.md
- create mode 100644 .pi/skills/impeccable/reference/android.md
- create mode 100644 .pi/skills/impeccable/reference/audit.native.md
- create mode 100644 .pi/skills/impeccable/reference/ios.md
- create mode 100644 .pi/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .pi/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .qoder/skills/impeccable/reference/adapt.native.md
- create mode 100644 .qoder/skills/impeccable/reference/android.md
- create mode 100644 .qoder/skills/impeccable/reference/audit.native.md
- create mode 100644 .qoder/skills/impeccable/reference/ios.md
- create mode 100644 .qoder/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .qoder/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .rovodev/skills/impeccable/reference/adapt.native.md
- create mode 100644 .rovodev/skills/impeccable/reference/android.md
- create mode 100644 .rovodev/skills/impeccable/reference/audit.native.md
- create mode 100644 .rovodev/skills/impeccable/reference/ios.md
- create mode 100644 .rovodev/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .rovodev/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .trae-cn/skills/impeccable/reference/adapt.native.md
- create mode 100644 .trae-cn/skills/impeccable/reference/android.md
- create mode 100644 .trae-cn/skills/impeccable/reference/audit.native.md
- create mode 100644 .trae-cn/skills/impeccable/reference/ios.md
- create mode 100644 .trae-cn/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .trae-cn/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 .trae/skills/impeccable/reference/adapt.native.md
- create mode 100644 .trae/skills/impeccable/reference/android.md
- create mode 100644 .trae/skills/impeccable/reference/audit.native.md
- create mode 100644 .trae/skills/impeccable/reference/ios.md
- create mode 100644 .trae/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 .trae/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 NOTICE.md
- create mode 100644 cli/engine/shared/fonts.mjs
- create mode 100644 docs/openai-plugin-submission.md
- create mode 100644 plugin/skills/impeccable/reference/adapt.native.md
- create mode 100644 plugin/skills/impeccable/reference/android.md
- create mode 100644 plugin/skills/impeccable/reference/audit.native.md
- create mode 100644 plugin/skills/impeccable/reference/ios.md
- create mode 100644 plugin/skills/impeccable/scripts/detector/shared/fonts.mjs
- create mode 100644 plugin/skills/impeccable/scripts/lib/provider.mjs
- create mode 100644 scripts/github/sheriff.mjs
- create mode 100644 scripts/lib/codex-plugin.js
- create mode 100644 scripts/lib/openai-plugin.js
- create mode 100644 skill/reference/adapt.native.md
- create mode 100644 skill/reference/android.md
- create mode 100644 skill/reference/audit.native.md
- create mode 100644 skill/reference/ios.md
- create mode 100644 skill/scripts/lib/provider.mjs
- create mode 100644 tests/github-sheriff.test.mjs
- create mode 100644 tests/openai-plugin.test.mjs
- create mode 100644 tests/pin.test.mjs
-
+ .claude/
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git status</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git status</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git status
 ```
@@ -686,26 +98,20 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add &lt;file&gt;..." to update what will be committed)
-  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
 	modified:   .specstory/statistics.json
 	modified:   content/english/notes/getting-started.md
 	modified:   data/noteFileDates.json
 
 Untracked files:
-  (use "git add &lt;file&gt;..." to include in what will be committed)
+  (use "git add <file>..." to include in what will be committed)
 	.specstory/history/2026-07-17_01-06-51Z-new-note-signature-move.md
 	content/english/notes/signature-move.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -713,7 +119,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Hugoplate is already up to date.
 
-Impeccable received a major update. jorap.com has unrelated local changes. I will run Hugoplate triage and structural diffs in parallel. Then I will sync Impeccable and Hugoplate agent skills. Finally I will build.</details></think>
+Impeccable received a major update. jorap.com has unrelated local changes. I will run Hugoplate triage and structural diffs in parallel. Then I will sync Impeccable and Hugoplate agent skills. Finally I will build.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -722,9 +129,8 @@ Hugoplate is up to date; Impeccable pulled new changes. Running Hugoplate triage
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && bash .cursor/skills/sync-upstreams/triage-hugoplate.sh</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; bash .cursor/skills/sync-upstreams/triage-hugoplate.sh</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && bash .cursor/skills/sync-upstreams/triage-hugoplate.sh
 ```
@@ -764,30 +170,15 @@ BLOCKED	layouts/_partials/essentials/header.html	On preserve/exclude list
 BLOCKED	layouts/_partials/essentials/head.html	On preserve/exclude list
 BLOCKED	layouts/_partials/essentials/script.html	On preserve/exclude list
 BLOCKED	layouts/_partials/essentials/style.html	On preserve/exclude list
-BLOCKED	layouts/_partials/page-header.html	On preserve/exclude list
-BLOCKED	layouts/_partials/widgets/categories.html	On preserve/exclude list
-BLOCKED	layouts/_partials/widgets/tags.html	On preserve/exclude list
-CANDIDATE	layouts/single.html	Likely safe — still read diff before copying
-BLOCKED	layouts/taxonomy.html	On preserve/exclude list
-BLOCKED	layouts/term.html	On preserve/exclude list
-
-Summary: BLOCKED=35 MANUAL=0 SKIP=0 CANDIDATE=1 ADD-ONLY=0
-Apply only CANDIDATE and ADD-ONLY after reading each diff. Never bulk-rsync CSS, JS, or core layouts.
-
+BLOCKED	layouts/_partials
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: HUGO=/home/jorap/Documents/GitHub/hugoplate && diff -rq "$HUGO/layouts" /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts 2>/dev/null; diff -rq "$HUGO/assets" /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets 2>/dev/null; diff -rq "$HUGO/scripts" /home/jorap/Documents/GitHub/jorap.com/scripts 2>/dev/null</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: HUGO=/home/jorap/Documents/GitHub/hugoplate &amp;&amp; diff -rq &#34;$HUGO/layouts&#34; /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts 2&gt;/dev/null; diff -rq &#34;$HUGO/assets&#34; /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets 2&gt;/dev/null; diff -rq &#34;$HUGO/scripts&#34; /home/jorap/Documents/GitHub/jorap.com/scripts 2&gt;/dev/null</summary>
 ```bash
 HUGO=/home/jorap/Documents/GitHub/hugoplate && diff -rq "$HUGO/layouts" /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts 2>/dev/null; diff -rq "$HUGO/assets" /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets 2>/dev/null; diff -rq "$HUGO/scripts" /home/jorap/Documents/GitHub/jorap.com/scripts 2>/dev/null
 ```
@@ -808,95 +199,618 @@ Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/call-to-action.ht
 Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/components/author-card.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/author-card.html differ
 Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components: back-to-top.html
 Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/components/blog-card.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/blog-card.html differ
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/components/breadcrumb.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/breadcrumb.html differ
-Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components: icon.html
-Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components: image.html
-Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components: image-process.html
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/components/pagination.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/pagination.html differ
-Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components: social-share.html
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/components/theme-switcher.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/theme-switcher.html differ
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/essentials/footer.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/footer.html differ
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/essentials/header.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/header.html differ
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/essentials/head.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/head.html differ
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/essentials/script.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/script.html differ
-Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials: self-hosted-fonts.html
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/essentials/style.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/style.html differ
-Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials: theme-init.html
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/page-header.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/page-header.html differ
-Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials: sections
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/widgets/categories.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/widgets/categories.html differ
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/_partials/widgets/tags.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/widgets/tags.html differ
-Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts: shortcodes
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/single.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/single.html differ
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/taxonomy.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/taxonomy.html differ
-Files /home/jorap/Documents/GitHub/hugoplate/layouts/term.html and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/term.html differ
-Files /home/jorap/Documents/GitHub/hugoplate/assets/css/base.css and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/base.css differ
-Files /home/jorap/Documents/GitHub/hugoplate/assets/css/buttons.css and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/buttons.css differ
-Files /home/jorap/Documents/GitHub/hugoplate/assets/css/components.css and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css differ
-Files /home/jorap/Documents/GitHub/hugoplate/assets/css/generated-theme.css and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css differ
-Files /home/jorap/Documents/GitHub/hugoplate/assets/css/main.css and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/main.css differ
-Files /home/jorap/Documents/GitHub/hugoplate/assets/css/module-overrides.css and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/module-overrides.css differ
-Files /home/jorap/Documents/GitHub/hugoplate/assets/css/navigation.css and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/navigation.css differ
-Files /home/jorap/Documents/GitHub/hugoplate/assets/css/safe.css and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/safe.css differ
-Only in /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css: semantic-tokens.css
-Files /home/jorap/Documents/GitHub/hugoplate/assets/css/utilities.css and /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/utilities.css differ
-Only in /home/jorap/Documents/GitHub/hugoplate/assets/js: main.js
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: archive
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: audit-flashcard-north-star.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: bible-red-letter-mark.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: blog_frontmatter.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: blog_shortcodes.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: build-grade1-math-quiz.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: bulletize-key-concepts.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: cspHashes.mjs
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: deployBuild.mjs
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: deploy-versions.json
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: ensureHugo.mjs
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: export-anki-deck.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: export-okf-blog-bundle.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: export-okf-bundle.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: fix-shareable-thought.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: fix-tailwind-bin.js
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: garden-voice-finish.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: garden-voice-lint.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: garden-voice-migrate-data.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: garden-voice-migrate.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: import-from-obsidian.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: improve-blog-slugs.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: lint-flashcard-frontmatter.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: lint-notes-frontmatter.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: lint-utility-wikilinks.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: normalize-blog-frontmatter.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: normalize-notes-format.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: noteFileDates.js
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: notes_content.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: notes-voice-lint.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: notes-voice-sanitize.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: okf_bundle.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: okf-viz
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: previewProd.mjs
-Only in /home/jorap/Documents/GitHub/hugoplate/scripts: projectSetup.js
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: __pycache__
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: randomizer-maintain.py
-Only in /home/jorap/Documents/GitHub/hugoplate/scripts: removeDarkmode.js
-Only in /home/jorap/Documents/GitHub/hugoplate/scripts: removeMultilang.js
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: servePublic.mjs
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: setup-git-hooks.sh
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: spawnUtil.mjs
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: split-key-concept-bullets.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: strip-desc-from-key-concept.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: sync-note-flashcards.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: sync-note-relationships.py
-Only in /home/jorap/Documents/GitHub/jorap.com/scripts: test-search.mjs
-Files /home/jorap/Documents/GitHub/hugoplate/scripts/themeGenerator.js and /home/jorap/Documents/GitHub/jorap.com/scripts/themeGenerator.js differ
-Only in /home/jorap/Documents/GitHub/hugoplate/scripts: themeSetup.js
-Only in /home/jorap/Documents/GitHub/hugoplate/scripts: themeUpdate.js
-
+Files /home/jorap/Documents/GitHub/hugopla
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+One candidate file was found: layouts/single.html.
+
+Reading the diffs for layouts/single.html and themeGenerator.js to assess safety. Will sync hugoplate agent skills and impeccable next, then build.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reviewing the one CANDIDATE file and checking scripts/package.json for safe updates.
+
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: diff -u /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/single.html /home/jorap/Documents/GitHub/hugoplate/layouts/single.html</summary>
+```bash
+diff -u /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/single.html /home/jorap/Documents/GitHub/hugoplate/layouts/single.html
+```
+
+```
+--- /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/single.html	2026-07-02 07:44:03.320133956 +0800
++++ /home/jorap/Documents/GitHub/hugoplate/layouts/single.html	2026-06-20 10:39:39.321197155 +0800
+@@ -5,7 +5,7 @@
+   <section class="section-sm">
+     <div class="container">
+       <div class="row justify-center">
+-        <div class="lg:col-12">
++        <div class="lg:col-10">
+           <div class="content">
+             {{ .Content }}
+           </div>
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: diff -u /home/jorap/Documents/GitHub/jorap.com/scripts/themeGenerator.js /home/jorap/Documents/GitHub/hugoplate/scripts/themeGenerator.js | head -80</summary>
+```bash
+diff -u /home/jorap/Documents/GitHub/jorap.com/scripts/themeGenerator.js /home/jorap/Documents/GitHub/hugoplate/scripts/themeGenerator.js | head -80
+```
+
+```
+--- /home/jorap/Documents/GitHub/jorap.com/scripts/themeGenerator.js	2026-07-06 16:36:37.707485195 +0800
++++ /home/jorap/Documents/GitHub/hugoplate/scripts/themeGenerator.js	2026-06-20 10:39:39.321499462 +0800
+@@ -1,28 +1,52 @@
+ const fs = require("fs");
+ const path = require("path");
+ 
+-/** @returns {{ hugoTomlPath: string, themePath: string, outputPath: string }} */
++/**
++ * Determine the paths based on setup mode (theme vs project)
++ * @returns {Object} Configuration object with paths and mode info
++ */
+ function determinePaths() {
+   const rootHugoToml = path.join(__dirname, "../hugo.toml");
+-  if (!fs.existsSync(rootHugoToml)) {
+-    throw new Error("hugo.toml not found at repo root");
+-  }
+-  const hugoTomlContent = fs.readFileSync(rootHugoToml, "utf8");
+-  const themeNameMatch = hugoTomlContent.match(
+-    /^theme\s*=\s*["'\[]?"?([^"'\]]+)"?[\]"]?/m,
+-  );
+-  if (!themeNameMatch?.[1]) {
+-    throw new Error("Could not extract theme name from hugo.toml");
++  const exampleSiteHugoToml = path.join(__dirname, "../exampleSite/hugo.toml");
++
++  if (fs.existsSync(exampleSiteHugoToml)) {
++    // Theme setup mode - exampleSite structure exists
++    return {
++      hugoTomlPath: exampleSiteHugoToml,
++      themePath: path.join(__dirname, "../exampleSite/data/theme.json"),
++      outputPath: path.join(__dirname, "../assets/css/generated-theme.css"),
++      isThemeSetup: true,
++    };
++  } else if (fs.existsSync(rootHugoToml)) {
++    // Project setup mode - hugo.toml at root
++    try {
++      const hugoTomlContent = fs.readFileSync(rootHugoToml, "utf8");
++      const themeNameMatch = hugoTomlContent.match(
++        /^theme\s*=\s*["'\[]?"?([^"'\]]+)"?[\]"]?/m,
++      );
++
++      if (!themeNameMatch || !themeNameMatch[1]) {
++        throw new Error("Could not extract theme name from hugo.toml");
++      }
++
++      const themeName = themeNameMatch[1];
++      return {
++        hugoTomlPath: rootHugoToml,
++        themePath: path.join(__dirname, "../data/theme.json"),
++       
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: diff -u /home/jorap/Documents/GitHub/jorap.com/package.json /home/jorap/Documents/GitHub/hugoplate/package.json | head -60</summary>
+```bash
+diff -u /home/jorap/Documents/GitHub/jorap.com/package.json /home/jorap/Documents/GitHub/hugoplate/package.json | head -60
+```
+
+```
+--- /home/jorap/Documents/GitHub/jorap.com/package.json	2026-07-15 22:54:51.626038205 +0800
++++ /home/jorap/Documents/GitHub/hugoplate/package.json	2026-06-20 10:39:39.321197155 +0800
+@@ -1,55 +1,34 @@
+ {
+-  "name": "jorap-com",
+-  "description": "JoRap Notes — personal blog and portfolio (Hugo + Tailwind).",
+-  "version": "2.2.0",
++  "name": "hugoplate",
++  "description": "hugo tailwindcss boilerplate",
++  "version": "3.5.1",
+   "license": "MIT",
+-  "author": "JoRap",
+-  "packageManager": "pnpm@11.7.0",
+-  "engines": {
+-    "node": ">=22.22.2"
+-  },
++  "author": "zeon.studio",
+   "scripts": {
+-    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"node scripts/noteFileDates.js --watch\" \"hugo server --buildDrafts --buildFuture -e development --baseURL=http://localhost:1313/\"",
+-    "build": "node scripts/deployBuild.mjs",
+-    "deploy": "node scripts/deployBuild.mjs",
+-    "serve": "node scripts/servePublic.mjs",
+-    "preview:prod": "node scripts/previewProd.mjs",
+-    "hugo:prod-server": "hugo server --buildDrafts --buildFuture --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify --baseURL=http://localhost:1313/ --appendPort=false",
+-    "preview": "node scripts/themeGenerator.js && node scripts/noteFileDates.js && pnpm run hugo:prod-server",
+-    "watch": "concurrently \"node scripts/themeGenerator.js --watch\" \"node scripts/noteFileDates.js --watch\" \"pnpm run hugo:prod-server\"",
++    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server\"",
++    "build": "node scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
++    "preview": "node scripts/themeGenerator.js && hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
++    "dev:example": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Upstream changed single.html from lg:col-12 to lg:col-10. This narrows the content width.
+
+JoRap customizations should be skipped. Its themeGenerator.js and package.json are correct for project setup. Next steps are syncing Hugoplate agent skills, restoring JoRap-only lines in hugo-template-guidance, building and linking Impeccable, and running pnpm build.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Skipping the `single.html` width change (JoRap uses full width). Syncing Hugoplate agent skills and Impeccable next.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/impeccable &amp;&amp; (command -v bun &gt;/dev/null &amp;&amp; bun install &amp;&amp; bun run build:skills || npm install &amp;&amp; node scripts/build.js --skip-root-sync)</summary>
+```bash
+cd /home/jorap/Documents/GitHub/impeccable && (command -v bun >/dev/null && bun install && bun run build:skills || npm install && node scripts/build.js --skip-root-sync)
+```
+
+```
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'impeccable@3.2.1',
+npm WARN EBADENGINE   required: { node: '>=22.12.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@clack/core@1.4.2',
+npm WARN EBADENGINE   required: { node: '>= 20.12.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@clack/prompts@1.6.0',
+npm WARN EBADENGINE   required: { node: '>= 20.12.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@cloudflare/kv-asset-handler@0.5.0',
+npm WARN EBADENGINE   required: { node: '>=22.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@google/genai@2.9.0',
+npm WARN EBADENGINE   required: { node: '>=20.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'boolbase@2.0.0',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'chokidar@5.0.0',
+npm WARN EBADENGINE   required: { node: '>= 20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'css-select@7.0.0',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'css-what@8.0.0',
+npm WAR
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: HUGO=/home/jorap/Documents/GitHub/hugoplate &amp;&amp; rsync -av &#34;$HUGO/.agents/skills/&#34; /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/</summary>
+```bash
+HUGO=/home/jorap/Documents/GitHub/hugoplate && rsync -av "$HUGO/.agents/skills/" /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/
+```
+
+```
+]633;Csending incremental file list
+./
+hugo-template-guidance/references/content-management.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The rsync process appears to be hanging or running slowly.
+
+Checking terminal output next, then linking impeccable.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node ../impeccable/cli/bin/cli.js link --source=../impeccable --providers=cursor --force -y</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node ../impeccable/cli/bin/cli.js link --source=../impeccable --providers=cursor --force -y
+```
+
+```
+Linked impeccable into: .cursor (1 already linked).
+Update with `git submodule update --remote` from your project root, then rerun this command if new skills are added.
+
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking if rsync finished. Verifying content-management.md for JoRap-only notes. Running the context script and building.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/93962.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/references/content-management.md",
+  "pattern": "__"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/references/content-management.md",
+  "pattern": "__",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node .cursor/skills/impeccable/scripts/context.mjs</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node .cursor/skills/impeccable/scripts/context.mjs
+```
+
+```
+# PRODUCT.md
+
+# Product
+
+## Register
+
+brand
+
+## Users
+
+**Primary:** Potential clients and decision-makers who hire or partner for strategic and technical work, and who care about **ideas, framing, and judgment** as much as delivery.
+
+**Context:** They arrive from search, referrals, or your network. They skim for credibility, clarity, and whether you think in outcomes, not only stack trivia. They may not identify as developers; they need to understand **why you** without wading through insider posture.
+
+## Product Purpose
+
+JoRap Notes is a **personal brand surface** at [jorap.com](https://www.jorap.com): it showcases how you think, what you stand for, and the quality of your work so that the right clients **recognize fit** and reach out with confidence.
+
+Success looks like: visitors leave with a clear sense of **professional credibility**, **distinct point of view**, and **trust** that engaging you is a serious business choice, not a casual follow of a hobby blog.
+
+## Brand Personality
+
+**Voice:** Confident, direct, and composed. You explain complexity without performing it. Warmth is welcome; **whimsy and “fan service” to a tech in-group are not** the main register.
+
+**Three-word personality:** **Professional, idea-led, credible.**
+
+**Emotional goals:** Respect, clarity, and “I’d trust this person in a room with stakeholders,” not “this person’s online persona is a character.”
+
+## Anti-references
+
+- **Performative nerd / dev-bro energy:** Exhaustive flexing, in-jokes as identity, or a site that reads like a gaming stream overlay. You are not optimizing for peer applause at the expense of client comfort.
+- **Generic SaaS landing sameness:** Interchangeable hero metrics, stock startup cadence, or template-y “thought leader” filler that could be anyone.
+- **Chaotic personal brand:** Cute chaos, irony-as-personality, or visual noise that undermines the signal that you are **easy to work with** and **clear in communication**.
+
+## Design Principles
+
+1. **Ideas before opti
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Rsync appears stuck. I am checking whether it is still running and if JoRap-only content needs restoration in content-management.
+
+A grep for `__` found no matches, indicating the draft-post note was lost. I will read the file and check git diff to see what changed. I also need to kill rsync if it is stuck and verify the outcome.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Checking whether rsync finished and restoring any JoRap-only skill notes that were overwritten.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/93962.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff .cursor/skills/hugo-template-guidance/references/content-management.md | head -80</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff .cursor/skills/hugo-template-guidance/references/content-management.md | head -80
+```
+
+```
+diff --git a/.cursor/skills/hugo-template-guidance/references/content-management.md b/.cursor/skills/hugo-template-guidance/references/content-management.md
+index 09dc0fd9..12c73184 100644
+--- a/.cursor/skills/hugo-template-guidance/references/content-management.md
++++ b/.cursor/skills/hugo-template-guidance/references/content-management.md
+@@ -14,33 +14,23 @@ Common examples often found here include:
+ 
+ ## Frontmatter (common fields)
+ 
+-Hugo reads what templates expect. **Blog posts:** use the field order in `archetypes/blog.md` (normalized by `pnpm lint:blog`).
++Hugo reads what templates expect, so **mirror an existing file in the same section** rather than guessing.
+ 
+ - `title`: String. The main title of the post.
+-- `meta_title`: String. SEO / browser tab title.
++- `date`: ISO Date string (e.g., `2022-04-04T05:00:00Z`), use exact current time for `date` otherwise Hugo won't render it.
+ - `description`: String. Short summary used for lists and SEO.
+-- `slug`: String. URL path under `/blog/` (filename without `__` prefix when it matches).
+-- `date`: ISO date string with `Z` (e.g. `2026-07-14T05:00:00Z`).
+ - `image`: String. Path to the cover image (starts with `/images/`).
+-- `categories`: String array. Taxonomy for the post.
+-- `author`: String. Must be `JoRap` and match an author `title` in `authors/`.
+-- `tags`: String array. Taxonomy tags.
+-- `related_notes`: Optional list of note slugs for garden cross-links.
+-- `aliases`: Optional. Extra URL aliases (rare).
+-- `featured`: Boolean (`true`/`false`).
+ - `draft`: Boolean (`true`/`false`).
+-- `lastmod`: Optional. Last-updated ISO date (rare).
+ 
+ ## Section-specific common frontmatter:
+ 
+-- **Blog post**: all fields above in order; `draft: true` hides in prod. Run `python3 scripts/normalize-blog-frontmatter.py --write` after bulk edits.
++- **Blog post**: `title`, `meta_title`, `description`, `date`, `image`, `categories[]`, `tags[]`, `author`, `draft`. `author` must match an author `title` in `authors/`; `categor
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --stat .cursor/skills/</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat .cursor/skills/
+```
+
+```
+ .../references/content-management.md                     | 16 +++-------------
+ 1 file changed, 3 insertions(+), 13 deletions(-)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Rsync appears stuck on content-management.md, though git diff indicates it was already modified.
+
+Restoring JoRap-specific content from git. Checking impeccable diff stats and running pnpm build. May kill the stuck rsync process.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Restoring JoRap-specific notes in `content-management.md` that upstream overwrote, then verifying the Impeccable sync and running the build.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git show HEAD:.cursor/skills/hugo-template-guidance/references/content-management.md &gt; /tmp/jorap-content-management.md &amp;&amp; cp /tmp/jorap-content-management.md .cursor/skills/hugo-template-guidance/references/content-management.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:.cursor/skills/hugo-template-guidance/references/content-management.md > /tmp/jorap-content-management.md && cp /tmp/jorap-content-management.md .cursor/skills/hugo-template-guidance/references/content-management.md
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --stat .cursor/skills/impeccable/ | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat .cursor/skills/impeccable/ | tail -5
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: kill 1023910 2&gt;/dev/null; true</summary>
+```bash
+kill 1023910 2>/dev/null; true
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The diff shows no changes for the impeccable upstream. It may be linked via submodule or symlink, with modifications nested inside.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --stat .cursor/skills/ 2&gt;/dev/null; ls -la .cursor/skills/impeccable 2&gt;/dev/null | head -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat .cursor/skills/ 2>/dev/null; ls -la .cursor/skills/impeccable 2>/dev/null | head -3
+```
+
+```
+lrwxrwxrwx 1 root root 60 Jun 20 10:48 .cursor/skills/impeccable -> ../../../impeccable/dist/universal/.cursor/skills/impeccable
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm build</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm build
+```
+
+```
+$ node scripts/deployBuild.mjs
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (236 notes)
+Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (220 concepts, 8 hubs, 1721 graph edges → viz.html)
+Wrote OKF blog bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog (24 articles)
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2034 
+ Paginator pages  │   20 
+ Non-page files   │    0 
+ Static files     │  269 
+ Processed images │  517 
+ Aliases          │  748 
+ Cleaned          │   23 
+
+Total in 31669 ms
+[cspHashes] Rewrote 40 inline onerror= attribute(s) in 8 file(s).
+[cspHashes] Hashed 4485 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The build succeeded. The impeccable package is a symlink to its distribution folder, so jorap.com shows no git diff. The upstream update was applied and linked via `cli link`.
+
+Hugoplate is already up to date. One candidate was skipped because JoRap uses col-12 instead of single.html. Thirty-five blocks prevented theme file changes. The agent skills rsync only touched content-management.md, which was restored. The build passes.
+
+The rsync may have been incomplete. A broader diff between hugoplate and jorap skills is needed to catch any missed changes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: diff -rq /home/jorap/Documents/GitHub/hugoplate/.agents/skills /home/jorap/Documents/GitHub/jorap.com/.cursor/skills --exclude=impeccable --exclude=jorap-voice --exclude=garden-voice --exclude=flashcards --exclude=alex-eala-tracker-update --exclude=changelog-update --exclude=sync-upstreams --exclude=find-skills --exclude=ponytail* 2&gt;/dev/null | head -30</summary>
+```bash
+diff -rq /home/jorap/Documents/GitHub/hugoplate/.agents/skills /home/jorap/Documents/GitHub/jorap.com/.cursor/skills --exclude=impeccable --exclude=jorap-voice --exclude=garden-voice --exclude=flashcards --exclude=alex-eala-tracker-update --exclude=changelog-update --exclude=sync-upstreams --exclude=find-skills --exclude=ponytail* 2>/dev/null | head -30
+```
+
+```
+Files /home/jorap/Documents/GitHub/hugoplate/.agents/skills/hugo-template-guidance/references/content-management.md and /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/references/content-management.md differ
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/impeccable/dist/universal/.cursor/skills/impeccable/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The sync-upstreams command completed successfully. The update reached v3.9.1 with native platform support for iOS, Android, adapt.native.md, and audit.
+
+Hugoplate theme changes were skipped. Skills are otherwise in sync, though content-management.md was deliberately kept as JoRap. The build passed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+## Sync complete
+
+### Hugoplate
+**Already up to date** — no new upstream commits.
+
+Triage: **35 BLOCKED**, **1 CANDIDATE**, **0 ADD-ONLY**.
+
+| File | Decision |
+|------|----------|
+| `layouts/single.html` | **Skipped** — upstream narrows content to `lg:col-10`; JoRap keeps `lg:col-12` for full-width pages |
+| All CSS, JS, core layouts | **Blocked** — preserve list / JoRap semantic token system |
+| `scripts/themeGenerator.js` | **Skipped** — JoRap project-setup version is correct; upstream adds theme-setup mode |
+| `package.json` | **Skipped** — JoRap scripts and metadata kept |
+
+**Agent skills:** rsync ran; only diff was `hugo-template-guidance/references/content-management.md`. Restored JoRap-only notes (`__` draft prefix, blog frontmatter order, lint scripts).
+
+### Impeccable
+**Pulled** — large update (582f23ea → 8259c282).
+
+- Built skill bundle and relinked into `.cursor/skills/impeccable` (symlink → `../impeccable/dist/universal/...`)
+- **Version:** 3.9.1
+- **Notable additions:** native platform refs (`ios.md`, `android.md`, `adapt.native.md`, `audit.native.md`), design-system detector improvements, hook updates
+- **Context script:** passes — resolves `docs/PRODUCT.md` and `docs/DESIGN.md`
+
+### Build
+`pnpm build` succeeded (2034 pages, ~32s Hugo).
+
+---
+
+### Applied
+- Impeccable skill bundle rebuilt and relinked (v3.9.1)
+- JoRap `content-management.md` notes preserved after skill rsync
+
+### Skipped
+- All Hugoplate theme/layout/CSS/JS files (no safe upstream changes)
+- `single.html` width change (JoRap customization)
+- `themeGenerator.js`, `package.json` (JoRap-specific)
+
+### Review
+Nothing theme-related to eyeball in the browser — this was a skills-only sync for Hugoplate. Impeccable’s new native-platform commands are available if you work on iOS/Android UI later.
+
+No commit made. Your unrelated note edits (`signature-move.md`, etc.) are untouched.

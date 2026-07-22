@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Planning a new image concept for the blog post "top-reasons-create-maintain-your-own-website.md".
 
-Reading the blog post and checking existing image concepts in the repository to inform the new design.</details></think>
+Reading the blog post and checking existing image concepts in the repository to inform the new design.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,23 +25,15 @@ I'll read the post and see how this site handles blog image concepts so the new 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-create-maintain-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -128,52 +121,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-23-14Z-image-concept-for-static-site.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-23-14Z-image-concept-for-static-site.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing prior image concept formats from the static-site-vs-cms post and searching the repository for existing image concept documentation or patterns.</details></think>
+Reviewing prior image concept formats from the static-site-vs-cms post and searching the repository for existing image concept documentation or patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-23-14Z-image-concept-for-static-site.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-23-14Z-image-concept-for-static-site.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -216,29 +189,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -246,15 +204,15 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing prior image concepts and existing feature images to understand the established format and patterns.
 
-Checking static/images and assets/images directories for existing feature images.</details></think>
+Checking static/images and assets/images directories for existing feature images.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (7 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (7 files)
 
 | File |
 |------|
@@ -265,21 +223,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (7 files)
 | `.specstory/history/2026-05-30_15-46-12Z-big-wins-in-website-performance-improvement.md` |
 | `.specstory/history/2026-05-28_02-18-22Z-website-version-discrepancy.md` |
 | `.specstory/history/2026-05-02_09-46-11Z-website-visual-improvement.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -322,69 +271,42 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the blog image concept.</details></think>
+Reviewing the blog image concept.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-09-39Z-blog-image-concept.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_14-09-39Z-blog-image-concept.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (6 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (6 files)
 
 | File |
 |------|
@@ -394,11 +316,287 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (6 files)
 | `assets/images/drupal-to-wp.jpg` |
 | `assets/images/note.jpg` |
 | `assets/images/open-source.jpg` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<think><details><summary>Thought Process</summary>
+Reviewing existing static images to identify patterns for the new concept.
+
+Focusing on conceptual design rather than immediate generation. Reviewing prior session deliverables and existing feature images for style reference.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*image*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "Recommended concept|## Image|frontmatter|1536|feature-"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "Recommended concept|## Image|frontmatter|1536|feature-",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-19_05-19-43Z-notes-image-asset.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-02_15-02-29Z-best-practices-for-media-images-in-sveltia-cms-and-hugo.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-03_08-56-18Z-image-integration-in-markdown-file.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 13
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/open-source.jpg</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/static-vs-cms.jpg</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The site's blog feature images follow a distinctive visual style.
+
+The concept pairs warm desk photography with handwritten notes and analog elements. The post covers ownership risks, custom branding, portfolio consolidation, and writing benefits.
+
+The concept now includes SEO, analytics control, low cost, and the quiet home page contrasted against noisy platforms. Checking whether the current image file exists.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/assets`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "website\\.jpg"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "website\\.jpg",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_15-13-50Z-blog-categories-and-tags-enhancement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-31_17-24-57Z-wireless-earphones-preferences.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-28_01-16-50Z-codebase-review-for-improvements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-31_16-59-16Z-middle-mouse-wheel-click-functionality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_03-27-44Z-rebranding-sveltia-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-02_14-54-20Z-additional-fields-for-frontmatter.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/top-reasons-create-maintain-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_12-51-28Z-static-site-vs-cms.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/drupal-to-wp.jpg</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The existing website.jpg appears to be missing or relocated.
+
+Checking the assets/images folder fully.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (6 files)
+
+| File |
+|------|
+| `assets/images/static-vs-cms.jpg` |
+| `assets/images/stop_snap.jpg` |
+| `assets/images/drupal-to-wp.jpg` |
+| `assets/images/open-source.jpg` |
+| `assets/images/instant-pot-arroz-caldo.jpg` |
+| `assets/images/note.jpg` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-10_12-51-28Z-static-site-vs-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking prior sessions for a delivered image concept to use as reference.
+
+The visual language uses warm, cozy lighting, handwritten notes, and analog-digital contrasts. The central metaphor for this post is tenant versus owner.
+
+The image concept centers on a physical house or door key on a desk, with a blurred smartphone showing social app icons fading behind it. A small "YOUR SITE" sign sits nearby, all lit by warm lamp light. This reinforces the ownership-versus-rented-space metaphor.
+
+Alternative layouts are being considered. One splits the desk into two halves: social media flyers pinned to a corkboard on the left, and a clean personal homepage on the right. Another uses a tiny houseplant beside an open laptop to symbolize a well-tended home page. A third concept places a crumpled eviction notice next to a domain registration printout and a simple personal site.
+
+The strongest metaphor is now locked in: treating platforms like flyers in a coffee shop, and the website like the actual storefront. The proposed layout uses an overhead desk shot with scattered generic social logo flyers on the left, a small handwritten "YOUR STOREFRONT" sign in the center, and a clean personal homepage on the right.
+
+A brass key or "OPEN" sign could sit on the desk. A sticky note reading "you own this" adds another layer. A two-column clipboard comparing tenant risks against owner benefits was considered but set aside. The storefront metaphor is more distinctive for this post.
+
+The existing `website.jpg` asset does not exist in the current folder. A new filename such as `own-website.jpg` or `website-storefront.jpg` is recommended to match the descriptive naming convention used by prior blog images. The full concept document will follow the established visual style.
+
+The response will be a creative brief rather than a generated image. Four core themes will be woven into the concept: ownership versus tenancy, the storefront versus flyers metaphor, quiet well-tended space versus noisy platforms, and custom identity versus uniform grid.
+
+The right side of the desk will hold a physical "OPEN" sign or a keyring tagged with a handwritten domain name. A sticky note reading "flyers ≠ home" will sit on the desk edge. The background will show a face-down phone or a screen filled with noisy notification badges, suggesting it is pushed aside. The mood should feel calm, intentional, and deliberately owned rather than caught in an algorithmic treadmill. The color palette uses warm amber lamp light against dark wood, cream paper, and muted blues on screen. The final aspect ratio is 3:2 or 16:9 at 1536×1024 to match the open-source.jpg standard. The recommended filename is `assets/images/own-website.jpg`.
+
+Draft alt text captures the desk lamp, personal homepage, and open sign. Trademarked logos and stock-photo clichés are avoided. A generation prompt is ready for AI image creation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Here’s an image concept that matches your recent blog art (`open-source.jpg`, `static-vs-cms.jpg`) and lands the post’s core idea: **your site is the storefront; platforms are just flyers**.
+
+---
+
+## Image concept: **“The Storefront Desk”**
+
+### One-line pitch
+A quiet, lamp-lit desk where a real personal site is open on the laptop, coffee-shop flyers are pushed aside, and a small **OPEN** sign says *this is yours*.
+
+### Why this fits the post
+The post isn’t really about stack choice (that’s `static-vs-cms.jpg`). It’s about **ownership vs tenancy** and the closing metaphor:
+
+> *Treat the platforms like flyers in a coffee shop, and your website like the actual storefront.*
+
+That’s a stronger visual hook than another checklist or logo collage.
+
+### Composition (3:2, ~1536×1024 — same family as your other feature images)
+
+| Zone | What’s in frame |
+|------|-----------------|
+| **Center** | Open laptop showing a **clean personal homepage** — warm typography, a short welcome line, a few post titles. Not a social feed grid. |
+| **Left** | Small stack of **hand-printed coffee-shop flyers**, slightly worn: “New post!”, “Follow along”, sketched square-grid icons (generic, not real logos). Disposable reach. |
+| **Right** | Small vintage **OPEN** sign or a **key on a ring** with a handwritten tag (e.g. `yoursite.com`). Ownership made physical. |
+| **Desk edge** | Sticky note in blue ink: **“flyers ≠ home”** or **“you own this”**. |
+| **Background (soft)** | Phone **face-down** or pushed aside — notifications off, noise out of frame. |
+| **Lighting** | Yellow desk lamp, dark window, wood desk — same cozy night-work mood as your other posts. |
+
+### Mood
+Calm, intentional, lasting. The opposite of the algorithm treadmill. A **well-tended corner** of the internet, not a rented room.
+
+### What to avoid
+- Real platform logos (trademark noise; also dates fast)
+- Generic stock “person smiling at laptop”
+- Globe/`www` clipart
+- Another clipboard checklist (you already used that for static vs CMS)
+
+### Suggested asset
+- **File:** `assets/images/own-website.jpg`
+- **Frontmatter:** `image: "/images/own-website.jpg"` (replaces missing `website.jpg`)
+- **Alt:** *Desk with a laptop showing a personal website, coffee-shop flyers pushed aside, and a small open sign — owning your corner of the web.*
+
+### AI generation prompt (if you want to render it)
+
+```
+Warm atmospheric overhead photograph of a wooden desk at night, lit by a yellow desk lamp. Center: open silver laptop displaying a clean personal blog homepage with warm, custom typography and a short welcome headline. Left: scattered hand-printed coffee-shop style flyers with sketched social-media grid squares and handwritten headers like "New post!" and "Follow along". Right: small vintage OPEN sign and a key on a keyring with a handwritten domain tag. Handwritten sticky note on desk edge reads "flyers ≠ home". Smartphone lying face-down in soft-focus background. Cozy developer workspace, shallow depth of field, photorealistic editorial photography, 3:2 aspect ratio, no brand logos, no people.
+```
+
+---
+
+**Runner-up** (if you want the tenant angle instead): same desk setup, but a **crumpled “lease terminated” notice** next to a **domain renewal receipt** and the laptop showing the site. More dramatic; less aligned with the post’s closing line.
+
+Want me to generate `own-website.jpg` and wire it into the post frontmatter?

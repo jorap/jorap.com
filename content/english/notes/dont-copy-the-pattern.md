@@ -13,7 +13,7 @@ key_concept: |
   - [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind.
   - This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I did not choose but my nervous system runs anyway.
 examples:
-  - "I knew the verse on patience and still snapped at dinner - my mind was running the world's hurry-and-react script until I stopped copying the pattern and opened Scripture before the group chat."
+  - "I knew the verse on patience and still snapped at dinner - my mind was running the world's hurry-and-react script until I stopped copying the pattern and opened the Bible before the group chat."
   - "The team copied the league's trash-talk culture after one bad call - same data, old habit loop; refusing the pattern means film study on composure, not one inspirational speech."
 shareable_thought:
   - "Culture default script is not neutral."

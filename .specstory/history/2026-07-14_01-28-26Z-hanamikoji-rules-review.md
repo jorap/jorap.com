@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing `__hanamikoji-rules.md` again.
 
-Git shows modifications to the file. Reading it now alongside the jorap-voice skill for blog posts, plus checking prior review history.</details></think>
+Git shows modifications to the file. Reading it now alongside the jorap-voice skill for blog posts, plus checking prior review history.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,35 +25,22 @@ Reviewing the Hanamikoji rules post again — I'll read the current draft and th
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/blog/__hanamikoji-rules.md</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/blog/__hanamikoji-rules.md</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/blog/__hanamikoji-rules.md
 ```
@@ -83,70 +71,9 @@ index 04caaf4..bc62286 100644
 -
 -I use **action cards** instead. Same poker size as everything else. **Secret**, **Trade-off**, **Gift**, **Competition** spelled out across the face - readable from your side of the table without leaning in. Face up means still available; face down means spent this round. No parsing symbols on a chip.
 -
--The card format also solves the hidey-hole problem. Tuck one deal card under **Secret**, two under **Trade-off**. The action name stays visible on top. With a tile you are stacking cards next to a marker and hoping everyone remembers what went where.
--
--Eight cards, four per player, lined up in front of you. Glance down: two actions left, Trade-off already used. Faster than counting flipped tiles.
-+That is the main reason I kept seven market cards even in the lean builds. The flip is faster and clearer than pencil ticks on paper or sliding cardboard up and down a board.
- 
- ---
- 
-@@ -115,42 +105,20 @@ My **full Duopoly** build:
- | Market cards (same size as deals) | 7 |
- | Deal cards | 21 |
- | Action cards | 8 |
--| 1-page zine (rules + reference) | 1 |
-+| 1-page zine (rules) | 1 |
- | **Total** | **36 cards + zine** |
- 
--Seven victory markers gone - the country card flip handles control. Geisha and item size split gone - one template.
--
-----
--
--## Three ways to cut further
--
--Same game. Fewer prints. Pick how much you want to carry.
--
--| Build | Cards | Drop | Replace with |
--|-------|------:|------|--------------|
--| **28-card** | 21 deal + 7 market | 8 action cards | Action list on the [zine](/blog/one-page-zine/) back cover. Cross off or cover slots with coins each round. |
--| **29-card** | 21 deal + 8 action | 7 market cards | Market row printed on the zine. Control ticks or coin rotation on the diagram. Keep action cards so Secret and Trade-off still tuck under something. |
--
--
--I play the **28-card** build most - market flip for control, action names on the zine instead of eight action cards. If I add anything back first, it is the action cards. Tiles are the drop I do not miss; readable cards in front of each player are.
--
--### Uniform size unlocks the cuts
--
--When market cards are the same size as deals, they are not a separate "board" product. They are just seven faces in the same print run. That makes the **21-card** build feel less like a hack: you are not missing a board, you moved the row to paper.
--
--**Rotation trick (21-card):** print the seven countries on the zine in a row. Neutral column stays square to the page. When you win a market, rotate a coin or a spare card 90° toward you on that column. Zero double-sided market art. Ugly. Works.
--
--**Zine as component:** not only rules. Inside cover gets two labeled boxes for face-down Secret and Trade-off plays when action cards are gone. One sheet replaces markers, parking zones, and half the reference card clutter.
-+Seven victory markers gone - the country card flip handles control. Geisha and item size split gone - one template, one cutter pass, one sleeve SKU.
- 
--**Tuck under action cards:** if you keep the eight action cards, only Secret and Trade-off need a hidey-hole. Gift and Competition stay face-up on the table - your rival has to see the split. Sliding two cards under the Trade-off card is clearer than a generic discard pile.
-+Secret and Trade-off tuck under their action card. Gift and Competition stay face-up on the table - your rival has to see the split.
- 
- ---
- 
- ## What I actually print
- 
--- **28 cards:** 21 deals + 7 markets, double-sided where it matters
--- **Zine:** rules inside, market row + action tracker on the covers
--- **No** action cards, **no** victory markers, **no** second card size
-+- **36 cards:** 21 deals + 7 markets + 8 action cards, double-sided where it matters
-+- **Zine:** rules only
-+- **No** victory markers, **no** second card size
- 
- Rules stay in the zine so this post does not duplicate them. The mapping table and build table are what I needed when I sat down at the layout tool - theme in one column, part count in the other.
- 
-
+-The card format also solves the hidey-hole problem. Tuck one deal card under **Secret**, two under **Trade-
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -154,7 +81,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing the Hanamikoji rules blog post again.
 
-The post was trimmed significantly. The "Three ways to cut further" section and action cards subsection were removed. The build expanded from 28 cards to 36. Running voice lint and checking for factual accuracy.</details></think>
+The post was trimmed significantly. The "Three ways to cut further" section and action cards subsection were removed. The build expanded from 28 cards to 36. Running voice lint and checking for factual accuracy.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -163,35 +91,26 @@ Running voice lint and checking a few factual details against the trimmed draft.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__hanamikoji-rules.md 2>&1 || true</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/__hanamikoji-rules.md 2&gt;&amp;1 || true</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__hanamikoji-rules.md 2>&1 || true
 ```
 
 ```
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__hanamikoji-rules.md
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check content/english/blog/__hanamikoji-rules.md
 Voice dash errors:
   content/english/blog/one-page-zine.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
-
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -219,7 +138,8 @@ The three-word punch sentences are a deliberate style choice, not overdone. The 
 
 The retheme mapping is thorough and excellent. The title and meta promise a major component reduction, yet the actual cuts are thinner than advertised. Removing the 28-card variant and unifying card sizes leaves only seven victory markers dropped. The "fewer components" angle is weaker than the title suggests.
 
-The response will be a structured review only. No edits will be made unless explicitly requested.</details></think>
+The response will be a structured review only. No edits will be made unless explicitly requested.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -306,18 +226,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Proceeding to apply the suggested fixes.
 
-Reading the file now to apply three precise edits: fixing a stale reference on line 85, removing a duplicate SKU description, and adding a sentence about action cards after line 113.</details></think>
+Reading the file now to apply three precise edits: fixing a stale reference on line 85, removing a duplicate SKU description, and adding a sentence about action cards after line 113.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
@@ -332,7 +247,8 @@ Deciding between merging the action card sentence into line 113 or keeping it as
 
 The action card rationale will precede the tuck sentence. The draft places it right after line 111, before the tuck detail.
 
-Line 85 now reads: "That is the main reason I kept seven market cards instead of printing the row on the zine. The flip is faster and clearer than pencil ticks on paper or sliding cardboard up and down a board." The duplicate "paper" reference was removed.</details></think>
+Line 85 now reads: "That is the main reason I kept seven market cards instead of printing the row on the zine. The flip is faster and clearer than pencil ticks on paper or sliding cardboard up and down a board." The duplicate "paper" reference was removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -341,44 +257,28 @@ Applying the three review fixes.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Both edits were applied. Now verifying the file and running voice lint.</details></think>
+Both edits were applied. Now verifying the file and running voice lint.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__hanamikoji-rules.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__hanamikoji-rules.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__hanamikoji-rules.md 2>&1
 ```
@@ -387,18 +287,13 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Everything looks good. I'll provide a brief summary.</details></think>
+Everything looks good. I'll provide a brief summary.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -423,7 +318,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user wants a simple image prompt for the Hanamikoji/Duopoly blog post.
 
-Reviewing the post and existing image conventions to align the prompt with its themes.</details></think>
+Reviewing the post and existing image conventions to align the prompt with its themes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -432,10 +328,8 @@ Checking how other posts handle hero images so the prompt fits your site.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -521,25 +415,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
@@ -550,7 +431,8 @@ Drafting a simple image prompt for the blog hero image.
 
 The prompt will include poker-sized cards, seven country flags, a business retheme, and a print-and-play aesthetic. Color coding will show neutral black, green for the leader, and red for the rival. Action cards such as Secret, Trade-off, Gift, and Competition will appear. The style stays minimal and deliberately dull.
 
-A top-down flat lay suits the blog hero best. I will provide one primary prompt plus a couple of variants. Brief notes on aspect ratio and trademark safety will accompany it. The output will stay minimal and paste-ready.</details></think>
+A top-down flat lay suits the blog hero best. I will provide one primary prompt plus a couple of variants. Brief notes on aspect ratio and trademark safety will accompany it. The output will stay minimal and paste-ready.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -594,31 +476,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A more accurate and detailed image prompt is needed for the Hanamikoji/Duopoly blog post hero image.
 
-Re-reading the full post to capture exact visual details: seven countries with point values, card states, action and deal cards, zine, colors, and layout.</details></think>
+Re-reading the full post to capture exact visual details: seven countries with point values, card states, action and deal cards, zine, colors, and layout.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
@@ -631,7 +502,8 @@ The prompt will specify a flat-table layout with seven market cards arranged by 
 
 Action cards sit in front of one player area: Secret, Trade-off, Gift, and Competition. Secret hides one card beneath it; Trade-off hides two. Gift and Competition remain fully exposed. A 36-card deck stack sits beside a small folded zine containing only rules. A plain tuck box may be included. All components measure 63 by 88 millimeters. The print uses home inkjet or laser with matte finish and slightly imperfect cuts.
 
-The aesthetic is deliberately dull and utilitarian. It avoids geisha motifs, Japanese illustration, and ornate board game art. A business retheme is suggested, perhaps with a "Duopoly" label on the tuck box or zine. The palette stays black and neutral, using green and red only for controlled cards. Soft natural daylight is specified. A negative prompt section will be added. The final output will be split into four sections: full detailed prompt, scene layout breakdown, card-by-card specification, and negative prompt. It is formatted for direct copy-paste into Midjourney, DALL-E, or Flux.</details></think>
+The aesthetic is deliberately dull and utilitarian. It avoids geisha motifs, Japanese illustration, and ornate board game art. A business retheme is suggested, perhaps with a "Duopoly" label on the tuck box or zine. The palette stays black and neutral, using green and red only for controlled cards. Soft natural daylight is specified. A negative prompt section will be added. The final output will be split into four sections: full detailed prompt, scene layout breakdown, card-by-card specification, and negative prompt. It is formatted for direct copy-paste into Midjourney, DALL-E, or Flux.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -758,7 +630,8 @@ Germany, France, and the UK score 2. China and Japan score 3. The EU scores 4. T
 
 All seven cards will be described in their neutral face-up state. A single controlled card may be added optionally to demonstrate the flip mechanic.
 
-Stripping all other game elements to keep the prompt strictly focused on the seven cards. The image will use poker-size landscape dimensions for the row layout. Each card will receive a detailed description for image generation.</details></think>
+Stripping all other game elements to keep the prompt strictly focused on the seven cards. The image will use poker-size landscape dimensions for the row layout. Each card will receive a detailed description for image generation.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -893,7 +766,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Publishing the blog post.
 
-Checking the file for images and reviewing the publish workflow. The `__` prefix needs removal, `draft` must be set to false, and the slug line should be dropped if it matches the filename.</details></think>
+Checking the file for images and reviewing the publish workflow. The `__` prefix needs removal, `draft` must be set to false, and the slug line should be dropped if it matches the filename.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -902,39 +776,23 @@ Publishing the Hanamikoji post — checking the draft and repo publish conventio
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -983,13 +841,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1001,46 +852,32 @@ Setting `draft: false`, removing the redundant `slug` line, verifying `duopoly.j
 
 Reconsidering the commit step. "Publish" likely means deploying the post live, which requires a commit. I'll run the lint check first, then commit and push.
 
-I'll commit the changes but hold off on pushing until the user asks.</details></think>
+I'll commit the changes but hold off on pushing until the user asks.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `assets/images/duopoly.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__hanamikoji-rules.md 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/__hanamikoji-rules.md 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/__hanamikoji-rules.md 2>&1
 ```
@@ -1049,12 +886,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 Voice lint OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1066,7 +897,8 @@ Will delete `__hanamikoji-rules.md`, set `draft: false`, and commit to deploy.
 
 I'll commit the changes but skip pushing to the remote. Live deployment requires an explicit request.
 
-Reconsidered the push decision. "Publish" counts as an explicit request to deploy the post live, so I'll commit and push. Using `git mv` to rename the file properly.</details></think>
+Reconsidered the push decision. "Publish" counts as an explicit request to deploy the post live, so I'll commit and push. Using `git mv` to rename the file properly.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1075,27 +907,12 @@ Renaming the draft, setting `draft: false`, and committing for deploy.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-rules.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="delete_file">
-<details><summary>Tool use: **delete_file**</summary>
-
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="delete_file"><details>
 <summary>Tool use: **delete_file**</summary>
@@ -1107,13 +924,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Running git status, diff, and log in parallel before committing.
 
-"Publish" likely means building the site rather than pushing. Running a quick Hugo build to verify the site compiles before committing.</details></think>
+"Publish" likely means building the site rather than pushing. Running a quick Hugo build to verify the site compiles before committing.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -5
 ```
@@ -1126,36 +943,29 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -5
 Total in 16748 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git status && git diff && git log -3 --oneline</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git status &amp;&amp; git diff &amp;&amp; git log -3 --oneline</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git status && git diff && git log -3 --oneline
 ```
 
-```
+````
 On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add/rm &lt;file&gt;..." to update what will be committed)
-  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
 	modified:   .specstory/history/2026-07-14_00-17-51Z-garden-link-issues-summary.md
 	modified:   .specstory/statistics.json
 	deleted:    content/english/blog/__hanamikoji-rules.md
 
 Untracked files:
-  (use "git add &lt;file&gt;..." to include in what will be committed)
+  (use "git add <file>..." to include in what will be committed)
 	.specstory/history/2026-07-14_01-28-26Z-hanamikoji-rules-review.md
 	assets/images/duopoly.jpg
 	content/english/blog/hanamikoji-rules.md
@@ -1167,476 +977,36 @@ index 1749d86..cdc96c3 100644
 +++ b/.specstory/history/2026-07-14_00-17-51Z-garden-link-issues-summary.md
 @@ -287,6 +287,16 @@ _**Agent (auto-low)**_
  
- &#96;&#96;&#96;bash
- cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1 | tail -30
-+&#96;&#96;&#96;
+ ```bash
+ cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | tail -30
++```
 +
-+&#96;&#96;&#96;
++```
 +]633;C
-+&amp;gt; jorap-com@2.2.0 lint:notes
-+&amp;gt; node scripts/themeGenerator.js &amp;amp;&amp;amp; node scripts/noteFileDates.js &amp;amp;&amp;amp; hugo --gc 2&amp;gt;&amp;amp;1 | rg 'broken wikilink|unlinked mention' || true
++&gt; jorap-com@2.2.0 lint:notes
++&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
 +
 +✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
 +✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (235 notes)
 +
- &#96;&#96;&#96;
- &lt;/details&gt;
- &lt;/tool-use&gt;
-@@ -295,3 +305,242 @@ cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1 | tail -30
- &lt;summary&gt;Tool use: **run_terminal_command_v2**&lt;/summary&gt;
+ ```
+ </details>
+ </tool-use>
+@@ -295,3 +305,242 @@ cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | tail -30
+ <summary>Tool use: **run_terminal_command_v2**</summary>
  
- &lt;/details&gt;&lt;/tool-use&gt;
+ </details></tool-use>
 +
 +_**Agent (auto-low)**_
 +
-+&lt;think&gt;&lt;details&gt;&lt;summary&gt;Thought Process&lt;/summary&gt;
-+Waiting for the linter to finish.&lt;/details&gt;&lt;/think&gt;
++<think><details><summary>Thought Process</summary>
++Waiting for the linter to finish.</details></think>
 +
 +_**Agent (auto-low)**_
 +
-+&lt;tool-use data-tool-type="unknown" data-tool-name="await"&gt;
-+&lt;details&gt;
-+&lt;summary&gt;Tool use: **await**&lt;/summary&gt;
-+
-+Status: **completed**
-+
-+
-+&lt;/details&gt;
-+&lt;/tool-use&gt;
-+
-+&lt;tool-use data-tool-type="unknown" data-tool-name="await"&gt;&lt;details&gt;
-+&lt;summary&gt;Tool use: **await**&lt;/summary&gt;
-+
-+&lt;/details&gt;&lt;/tool-use&gt;
-+
-+_**Agent (auto-low)**_
-+
-+&lt;think&gt;&lt;details&gt;&lt;summary&gt;Thought Process&lt;/summary&gt;
-+Reading the full terminal output to review the garden link report.&lt;/details&gt;&lt;/think&gt;
-+
-+_**Agent (auto-low)**_
-+
-+&lt;tool-use data-tool-type="read" data-tool-name="read_file_v2"&gt;
-+&lt;details&gt;&lt;summary&gt;Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/885789.txt&lt;/summary&gt;
-+
-+&lt;/details&gt;
-+&lt;/tool-use&gt;
-+
-+&lt;tool-use data-tool-type="read" data-tool-name="read_file_v2"&gt;&lt;details&gt;
-+&lt;summary&gt;Tool use: **read_file_v2**&lt;/summary&gt;
-+
-+&lt;/details&gt;&lt;/tool-use&gt;
-+
-+_**Agent (auto-low)**_
-+
-+&lt;think&gt;&lt;details&gt;&lt;summary&gt;Thought Process&lt;/summary&gt;
-+The fix resolved the unlinked mention. The linter now reports zero broken wikilinks and zero unlinked mentions.&lt;/details&gt;&lt;/think&gt;
-+
-+_**Agent (auto-low)**_
-+
-+Fixed in &#96;follow-christ-then-lead.md&#96;: the &#96;key_concept&#96; gloss now wikilinks **Take Up Your Cross** instead of the bare phrase "daily cross".
-+
-+&#96;&#96;&#96;8:8:content/english/notes/follow-christ-then-lead.md
-+  - When the captain's chair and Christ's command pull opposite ways, I deny the shortcut first - [[Take Up Your Cross]] before I set pace for the room.
-+&#96;&#96;&#96;
-+
-+&#96;npm run lint:notes&#96; reports no unlinked mentions now.
-+
-+---
-+
-+_**User**_
-+
-+&lt;system_notification&gt;
-+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
-+
-+&lt;task&gt;
-+kind: shell
-+status: success
-+task_id: 885789
-+title: Run notes linter to verify link fix
-+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/885789.txt
-+&lt;/task&gt;
-+&lt;/system_notification&gt;
-+&lt;user_query&gt;Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.&lt;/user_query&gt;
-+
-+---
-+
-+_**Agent (auto-low)**_
-+
-+&lt;think&gt;&lt;details&gt;&lt;summary&gt;Thought Process&lt;/summary&gt;
-+Preparing a brief update on the task result.
-+
-+The fix is complete. "dailss" now links to [[Take Up Your Cross]] in follow-christ-then-lead.md. Lint checks passed with no unlinked mentions. No further action is needed.&lt;/details&gt;&lt;/think&gt;
-+
-+_**Agent (auto-low)**_
-+
-+The garden link issue is resolved. In **Follow Christ, Then Lead**, "daily cross" in the &#96;key_concept&#96; gloss is now &#96;[[Take Up Your Cross]]&#96;. The notes linter passes with no unlinked mentions.
-+
-+---
-+
-+_**User**_
-+
-+zine is just for rules. action cards are self explanatory
-+
-+---
-+
-+_**Agent (auto-low)**_
-+
-+&lt;think&gt;&lt;details&gt;&lt;summary&gt;Thought Process&lt;/summary&gt;
-+The zine section should contain only rules. Action cards are self-explanatory.
-+
-+This appears to be a blog post about the board game Hanamikoji. I will read the file to identify the needed changes.&lt;/details&gt;&lt;/think&gt;
-+
-+_**Agent (auto-low)**_
-+
-+Let me read the Hanamikoji rules post to see how zine and action cards are used.
-+
-+
-+_**Agent (auto-low)**_
-+
-+&lt;tool-use data-tool-type="read" data-tool-name="read_file_v2"&gt;
-+&lt;details&gt;&lt;summary&gt;Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md&lt;/summary&gt;
-+
-+&lt;/details&gt;
-+&lt;/tool-use&gt;
-+
-+&lt;tool-use data-tool-type="read" data-tool-name="read_file_v2"&gt;&lt;details&gt;
-+&lt;summary&gt;Tool use: **read_file_v2**&lt;/summary&gt;
-+
-+&lt;/details&gt;&lt;/tool-use&gt;
-+
-+_**Agent (auto-low)**_
-+
-+&lt;tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"&gt;
-+&lt;details&gt;
-+&lt;summary&gt;Tool use: **ripgrep_raw_search**&lt;/summary&gt;
-+
-+
-+Parameters:
-+
-+&#96;&#96;&#96;json
-+{
-+  "caseInsensitive": true,
-+  "glob": "**/*hanamikoji*",
-+  "path": "/home/jorap/Documents/GitHub/jorap.com",
-+  "pattern": "zine|action card"
-+}
-+&#96;&#96;&#96;
-+Additional data:
-+
-+&#96;&#96;&#96;json
-+{
-+  "isPruned": true,
-+  "outputMode": "content",
-+  "path": "/home/jorap/Documents/GitHub/jorap.com",
-+  "pattern": "zine|action card",
-+  "topFiles": [
-+    {
-+      "matchCount": 18,
-+      "uri": "content/english/blog/__hanamikoji-rules.md"
-+    },
-+    {
-+      "matchCount": 15,
-+      "uri": ".specstory/history/2026-07-13_01-23-10Z-hanamikoji-game-rules.md"
-+    }
-+  ],
-+  "totalFiles": 2,
-+  "totalMatches": 33
-+}
-+&#96;&#96;&#96;
-+Status: **completed**
-+
-+
-+&lt;/details&gt;
-+&lt;/tool-use&gt;
-+
-+&lt;tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"&gt;&lt;details&gt;
-+&lt;summary&gt;Tool use: **ripgrep_raw_search**&lt;/summary&gt;
-+
-+&lt;/details&gt;&lt;/tool-use&gt;
-+
-+_**Agent (auto-low)**_
-+
-+&lt;think&gt;&lt;details&gt;&lt;summary&gt;Thought Process&lt;/summary&gt;
-+Zines are for rules only. Action cards are self-explanatory.
-+
-+Several sections still describe the zine as more than just rules. One line lists it as rules plus reference. Another section treats it as a component with labeled boxes. These need to be trimmed to pure rules.
-+
-+The zine is also described as containing a market row and action tracker on its covers. That content belongs outside the rules.
-+
-+A 28-card build lists action names on the zine back cover. A 29-card build prints the market row on the zine. The 28-card build replaces eight action cards with zine text. These details belong outside the rules.
-+
-+I will trim the zine description to pure rules. The "Zine as component" bullet and the market-row rotation trick will be removed. Action cards need no extra explanation.
-+
-+The 21-card variant keeps the zine as rules-only. The market-row rotation trick is incompatible with that rule.
-+
-+The "Action cards, not tiles" section may be removed entirely. Action cards are self-explanatory.
-+
-+The "What I actually print" list should drop the market row and action tracker from the zine.
-+
-+Line 153 claims no action cards. That needs checking against the rest of the guide.
-+
-+The full Duopoly build includes 36 cards plus action cards. The printed guide instead lists 28 cards with a zine that contains no action cards. I will strip all component, reference, tracker, and market-row ideas from the zine description. The build comparison table may also need updating.
-+
-+The printed build should include action cards. The zine only holds rules, so action cards do not need to be replaced by zine trackers. The "What I actually print" list should return to 36 cards: 21 deals, 7 markets, and 8 action cards. The zine stays rules-only. The pencil-ticks note on line 85 is fine to keep.
-+
-+The Action cards section will shrink to two sentences or fold into the component table. The "Uniform size unlocks the cuts" section will be reduced to its opening paragraph alone. Changes will stay minimal and avoid voice polish.&lt;/details&gt;&lt;/think&gt;
-+
-+_**Agent (auto-low)**_
-+
-+Tightening the post: zine carries rules only, and trimming the action-card explanation.
-+
-+
-+_**Agent (auto-low)**_
-+
-+&lt;tool-use data-tool-type="read" data-tool-name="read_file_v2"&gt;
-+&lt;details&gt;&lt;summary&gt;Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md&lt;/summary&gt;
-+
-+&lt;/details&gt;
-+&lt;/tool-use&gt;
-+
-+&lt;tool-use data-tool-type="read" data-tool-name="read_file_v2"&gt;&lt;details&gt;
-+&lt;summary&gt;Tool use: **read_file_v2**&lt;/summary&gt;
-+
-+&lt;/details&gt;&lt;/tool-use&gt;
-+
-+_**Agent (auto-low)**_
-+
-+&lt;tool-use data-tool-type="read" data-tool-name="read_file_v2"&gt;
-+&lt;details&gt;&lt;summary&gt;Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md&lt;/summary&gt;
-+
-+&lt;/details&gt;
-+&lt;/tool-use&gt;
-+
-+&lt;tool-use data-tool-type="read" data-tool-name="read_file_v2"&gt;&lt;details&gt;
-+&lt;summary&gt;Tool use: **read_file_v2**&lt;/summary&gt;
-+
-+&lt;/details&gt;&lt;/tool-use&gt;
-+
-+_**Agent (auto-low)**_
-+
-+&lt;think&gt;&lt;details&gt;&lt;summary&gt;Thought Process&lt;/summary&gt;
-+Zines contain only rules. Action cards are self-explanatory. I now have a clear picture and am preparing next steps.
-+
-+Trimming the "Action cards, not tiles" section. Removing zine references from lines 118, 129, and 131. Updating the printing section to clarify zines are rules-only.
-+
-+The "21-card" build paragraph still implies market row belongs on the zine. That contradicts the rules-only zine rule. I should remove that section entirely.
-+
-+The full build uses 36 cards plus a rules-only zine. The 21-card rotation trick is removed. The theme mapping table will drop the "see below" reference since the action card section is being deleted.
-+
-+The tuck-under tip will remain in the uniform size section. Line 85 will read "pencil ticks on paper" instead of "on a zine." The 21-card reference in that section may be&lt;/details&gt;&lt;/think&gt;
-diff --git a/.specstory/statistics.json b/.specstory/statistics.json
-index 1a0e06b..3007c07 100644
---- a/.specstory/statistics.json
-+++ b/.specstory/statistics.json
-@@ -621,6 +621,15 @@
-       "provider": "cursoride",
-       "last_updated": "2026-07-02T09:37:53Z"
-     },
-+    "58a38724-357e-4f56-9bc4-2ce9fe31ef42": {
-+      "user_message_count": 6,
-+      "agent_message_count": 46,
-+      "start_timestamp": "2026-07-14T09:28:26+08:00",
-+      "end_timestamp": "2026-07-14T09:28:26+08:00",
-+      "markdown_size_bytes": 44363,
-+      "provider": "cursoride",
-+      "last_updated": "2026-07-14T01:54:45Z"
-+    },
-     "58d9ac1f-ee57-4abd-8608-d648a02f6dad": {
-       "user_message_count": 2,
-       "agent_message_count": 56,
-@@ -1954,13 +1963,13 @@
-       "last_updated": "2026-07-09T15:27:45Z"
-     },
-     "fc503dae-bee8-48de-9989-d4365dc7a7f3": {
--      "user_message_count": 1,
--      "agent_message_count": 14,
-+      "user_message_count": 3,
-+      "agent_message_count": 31,
-       "start_timestamp": "2026-07-14T08:17:51+08:00",
-       "end_timestamp": "2026-07-14T08:17:51+08:00",
--      "markdown_size_bytes": 7330,
-+      "markdown_size_bytes": 16319,
-       "provider": "cursoride",
--      "last_updated": "2026-07-14T00:18:13Z"
-+      "last_updated": "2026-07-14T01:26:53Z"
-     },
-     "fe1d538e-8102-4217-8b00-53d25f8fd2bb": {
-       "user_message_count": 3,
-diff --git a/content/english/blog/__hanamikoji-rules.md b/content/english/blog/__hanamikoji-rules.md
-deleted file mode 100644
-index 04caaf4..0000000
---- a/content/english/blog/__hanamikoji-rules.md
-+++ /dev/null
-@@ -1,157 +0,0 @@
-----
--title: "Retheming Hanamikoji as Duopoly"
--meta_title: "Hanamikoji to Duopoly: Retheme Map and Fewer Components"
--description: "I love Hanamikoji for the mechanics, not the geisha art. Country flags and a business retheme put the I-cut-you-choose puzzle front and center - plus same-size cards and fewer components."
--slug: "hanamikoji-rules"
--date: 2026-07-13T01:26:00Z
--image: "/images/image-template.jpg"
--categories: ["Games", "Design", "Tutorial"]
--author: "JoRap"
--tags: ["Duopoly", "Hanamikoji", "Board Games", "Card Games", "Game Design", "Print and Play", "Retheme", "I Cut You Choose", "Zine", "DIY"]
--featured: false
--draft: true
-----
--
--I love *Hanamikoji* for the mechanics. The retail game has gorgeous art - colorful geisha portraits, illustrated performance items, a table presence that pulls you in. I kept playing for the **I split, you choose** puzzle: how you bundle cards, what you force your rival to take, when to burn a Trade-off. The theme is atmosphere. The split is the game.
--
--For a personal copy I went the other way on purpose. **Duopoly** - two firms, seven country flags, almost no illustration. Not because the original art is bad. Because plain flags get out of the way. You read counts and colors, not characters. The mental load goes to the offers on the table, not the artwork on the card.
--
--Same skeleton. Deliberately dull faces. One card size. Fewer physical pieces.
--
--This post is the retheme map and the component cuts. Not a rules sheet - those live in the zine I tuck beside the deck.
--
-----
--
--## Why flags instead of a reskin
--
--A straight reskin chases the retail look - new geisha art, new item illustrations, same component sprawl. I was not trying to match *Hanamikoji*'s production. I was trying to **teach the machine**.
--
--Country flags are boring on purpose. Black when neutral. Green toward the leader, red toward the rival when someone controls a market. Deal cards repeat the same flag small in the corner plus a point number. No scene to admire mid-turn. That is the point. When someone lays out a Gift or a Competition, the question on the table is **which pile hurts me less** - not what pretty picture landed in front of me.
--
--The business frame helps the same way. Geisha favor becomes **market control**. Item cards become **deal cards**. Charm points become **market value**. The four actions still read clean: backroom **Secret**, painful **Trade-off**, public **Gift**, head-to-head **Competition**. Dry nouns. Sharp decisions.
--
--Practical wins stack on top. Retail *Hanamikoji* uses **oversized geisha boards** and **smaller item cards** - two print templates, two sleeve sizes at home. I print poker-size everything. One cutter pass, one sleeve SKU, one stack in a tuck box.
--
--Mechanics unchanged. Visual noise stripped. Friction lowered.
--
-----
--
--## Theme mapping
--
--One-to-one where it matters. If the retail name does not appear in the left column, I did not rename it.
--
--| Hanamikoji | Duopoly | Notes |
--|------------|---------|-------|
--| Geisha card | Market card | Seven countries in a center row |
--| Item card | Deal card | Three per country; small flag + points only |
--| Charm points | Market value | Printed on market and deal cards |
--| Victory marker | Card flip | Flip the country card; green toward leader, red toward rival |
--| Action marker / tile | Action card | Name readable at a glance; flip when spent (see below) |
--| Win 4 geisha | Win 4 countries | Same threshold |
--| Win 11+ charm | Win 11+ points | 21 total across all markets |
--| Secret | Secret | 1 card tucked face-down |
--| Trade-off (Chop) | Trade-off | 2 cards out of play |
--| Gift | Gift | 3 revealed, rival picks 1 |
--| Competition | Competition | 4 as two pairs, rival picks a pair |
--
--### The seven markets
--
--Point values follow the retail spread. I only renamed the faces.
--
--| Country | Points | Hanamikoji equivalent (charm) |
--|---------|-------:|-------------------------------|
--| Germany | 2 | 2 |
--| France | 2 | 2 |
--| UK | 2 | 2 |
--| China | 3 | 3 |
--| Japan | 3 | 3 |
--| EU | 4 | 4 |
--| US | 5 | 5 |
--
--Row order left to right: low value to high, same as setup in the original.
--
--### Flip the country, not a token
--
--Retail *Hanamikoji* keeps each geisha card fixed in the row. Control is a **victory marker** you slide toward yourself or your rival after scoring. Seven geisha, seven tokens, fourteen little moves to track every round.
--
--I baked control into the **country card itself**. Same card, two faces - no chip to nudge.
--
--**Neutral (no one leads):** double-sided with two identical flags. Country name and points in **black** on both halves. Starts face-up in the row.
--
--**Someone takes the lead:** flip to the other face. One flag now. **Green** text and points toward the player in control, **red** toward the rival. Stolen back next round? Same face, just rotate it so green points the other way.
--
--You never hunt for a marker. You never bump one off-center. The country card *is* the state. Glance at the row: black means open, green your way means yours.
--
--That is the main reason I kept seven market cards even in the lean builds. The flip is faster and clearer than pencil ticks on a zine or sliding cardboard up and down a board.
--
--### Action cards, not tiles
--
--Retail *Hanamikoji* uses small **action markers** - thick tiles you flip face-down when spent. They work. They are also easy to lose behind a geisha card, and the icon on a tile is smaller than I want mid-game.
--
--I use **action cards** instead. Same poker size as everything else. **Secret**, **Trade-off**, **Gift**, **Competition** spelled out across the face - readable from your side of the table without leaning in. Face up means still available; face down means spent this round. No parsing symbols on a chip.
--
--The card format also solves the hidey-hole problem. Tuck one deal card under **Secret**, two under **Trade-off**. The action name stays visible on top. With a tile you are stacking cards next to a marker and hoping everyone remembers what went where.
--
--Eight cards, four per player, lined up in front of you. Glance down: two actions left, Trade-off already used. Faster than counting flipped tiles.
--
-----
--
--## Component budget
--
--Retail *Hanamikoji* (approximate):
--
--| Piece | Count |
--|-------|------:|
--| Oversized geisha / board cards | 7 |
--| Item cards | 21 |
--| Action markers | 8 |
--| Victory markers | 7 |
--| **Total distinct bits** | **43** |
--
--My **full Duopoly** build:
--
--| Piece | Count |
--|-------|------:|
--| Market cards (same size as deals) | 7 |
--| Deal cards | 21 |
--| Action cards | 8 |
--| 1-page zine (rules + reference) | 1 |
--| **Total** | **36 cards + zine** |
--
--Seven victory markers gone - the country card flip handles control. Geisha and item size split gone - one template.
--
-----
--
--## Three ways to cut further
--
--Same game. Fewer prints. Pick how much you want to carry.
--
--| Build | Cards | Drop | Replace with |
--|-------|------:|------|--------------|
--| **28-card** | 21 deal + 7 market | 8 action cards | Action list on the [zine](/blog/one-page-zine/) back cover. Cross off or cover slots with coins each round. |
--| **29-card** | 21 deal + 8 action | 7 market cards | Market row printed on the zine. Control ticks or coin rotation on the diagram. Keep action cards so Secret and Trade-off still tuck under something. |
--
--
--I play the **28-card** build most - market flip for control, action names on the zine instead of eight action cards. If I add anything back first, it is the action cards. Tiles are the drop I do not miss; readable cards in front of each player are.
--
--### Uniform size unlocks the cuts
--
--When market cards are the same size as deals, they are not a separate "board" product. They are just seven faces in the same print run. That makes the **21-card** build feel less like a hack: you are not missing a board, you moved the row to paper.
--
--**Rotation trick (21-card):** print the seven countries on the zine in a row. Neutral column stays square to the page. When you win a market, rotate a coin or a spare card 90° toward you on that column. Zero double-sided market art. Ugly. Works.
--
--**Zine as component:** not only rules. Inside cover gets two labeled boxes for face-down Secret and Trade-off plays when action cards are gone. One sheet replaces markers, parking zones, and half the reference card clutter.
--
--**Tuck under action cards:** if you keep the eight action cards, only Secret and Trade-off need a hidey-hole. Gift and Competition stay face-up on the table - your rival has to see the split. Sliding two cards under the Trade-off card is clearer than a generic discard pile.
--
-----
--
--## What I actually print
--
--- **28 cards:** 21 deals + 7 markets, double-sided where it matters
--- **Zine:** rules inside, market row + action tracker on the covers
--- **No** action cards, **no** victory markers, **no** second card size
--
--Rules stay in the zine so this post does not duplicate them. The mapping table and build table are what I needed when I sat down at the layout tool - theme in one column, part count in the other.
--
--If you already own *Hanamikoji*, you do not need this - you have the real thing, art and all. This is a personal print path for when you want the same split without competing with great artwork on the table: flags, business nouns, one sleeve, fewer bits in the box.
-e98a842 Update
-1436fb2 Update
-e924950 Update
-
-```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
++<tool-u
+… (output truncated)
+````
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1644,18 +1014,18 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Only the publish-related files will be committed.
 
-The commit includes the new blog post, the deleted draft, and the new image. .specstory files are excluded. The commit message will explain the purpose: publishing the Hanamikoji/Duopoly retheme post. No push will be performed unless explicitly requested.</details></think>
+The commit includes the new blog post, the deleted draft, and the new image. .specstory files are excluded. The commit message will explain the purpose: publishing the Hanamikoji/Duopoly retheme post. No push will be performed unless explicitly requested.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git add content/english/blog/hanamikoji-rules.md content/english/blog/__hanamikoji-rules.md assets/images/duopoly.jpg && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "$(cat <<'EOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git add content/english/blog/hanamikoji-rules.md content/english/blog/__hanamikoji-rules.md assets/images/duopoly.jpg &amp;&amp; git commit --trailer &#34;Co-authored-by: Cursor &lt;cursoragent@cursor.com&gt;&#34; -m &#34;$(cat &lt;&lt;&#39;EOF&#39;
 Publish Hanamikoji to Duopoly retheme post.
 
 Share the theme map, card-flip control trick, and lean 36-card print build with hero image.
 EOF
-)" && git status</summary>
-
+)&#34; &amp;&amp; git status</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git add content/english/blog/hanamikoji-rules.md content/english/blog/__hanamikoji-rules.md assets/images/duopoly.jpg && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "$(cat <<'EOF'
 Publish Hanamikoji to Duopoly retheme post.
@@ -1669,30 +1039,24 @@ EOF
 [master 084d051] Publish Hanamikoji to Duopoly retheme post.
  2 files changed, 10 insertions(+), 43 deletions(-)
  create mode 100644 assets/images/duopoly.jpg
- rename content/english/blog/{__hanamikoji-rules.md =&gt; hanamikoji-rules.md} (63%)
+ rename content/english/blog/{__hanamikoji-rules.md => hanamikoji-rules.md} (63%)
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
-  (use "git add &lt;file&gt;..." to update what will be committed)
-  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
 	modified:   .specstory/history/2026-07-14_00-17-51Z-garden-link-issues-summary.md
 	modified:   .specstory/statistics.json
 
 Untracked files:
-  (use "git add &lt;file&gt;..." to include in what will be committed)
+  (use "git add <file>..." to include in what will be committed)
 	.specstory/history/2026-07-14_01-28-26Z-hanamikoji-rules-review.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1700,7 +1064,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Publish succeeded. The Hugo build passed.
 
-Committed. Push for live deploy.</details></think>
+Committed. Push for live deploy.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1731,7 +1096,8 @@ Changing the slug for the hanamikoji-rules post. Skills will be updated without 
 
 No new slug was specified. Considering alternatives like `duopoly` or `hanamikoji-duopoly` based on the post title.
 
-Reconsidering whether "change the slug" means adding a slug field or renaming the file. Will check jorap-voice and related skills for commit instructions to update.</details></think>
+Reconsidering whether "change the slug" means adding a slug field or renaming the file. Will check jorap-voice and related skills for commit instructions to update.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1740,23 +1106,15 @@ Changing the post slug and updating skills so agents don't commit unless asked. 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-rules.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1815,21 +1173,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1859,13 +1208,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1875,27 +1217,20 @@ The user wants to change the slug but hasn't specified the new value.
 
 The slug should be `duopoly` to match the game title and image. I'll add `slug: "duopoly"` to the frontmatter without renaming the file.
 
-I'll update the jorap-voice publish workflow to prevent automatic commits. I may also review the create-rule skill.</details></think>
+I'll update the jorap-voice publish workflow to prevent automatic commits. I may also review the create-rule skill.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1933,21 +1268,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2033,13 +1359,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2055,7 +1374,8 @@ The filename will remain `hanamikoji-rules.md` for editor findability. The `duop
 
 I will expand the jorap-voice skill into a dedicated "Publishing" section. The guidance will instruct removing the `__` prefix, setting `draft: false`, and keeping or setting the `slug` line only when the URL should differ from the filename.
 
-I will not commit or push these changes. I will only edit the files. I will also update Alline 233 to reference the new Publishing section.</details></think>
+I will not commit or push these changes. I will only edit the files. I will also update Alline 233 to reference the new Publishing section.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2064,61 +1384,29 @@ Setting slug to `duopoly` and updating `jorap-voice` so publish steps never incl
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-rules.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -2129,14 +1417,13 @@ Checking garden-voice, flashcards, and hugo-template-guidance for publish and co
 
 Found duplicate skill files outside the workspace. The repository-level skill is the correct target. jorap-voice is the main fix for the unwanted commit. Other skills may also need updates.
 
-Reconsidering whether the user wants all skills updated, or just a general convention. Will grep all .cursor/skills files for any that imply committing changes.</details></think>
+Reconsidering whether the user wants all skills updated, or just a general convention. Will grep all .cursor/skills files for any that imply committing changes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2186,13 +1473,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2200,27 +1480,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Garden-voice and flashcards lack publish commit workflows. Flashcards "committing" means updating card text rather than git.
 
-Checking whether garden-voice needs the same no-garden-edits update. Reading its end section for workflow.tes.</details></think>
+Checking whether garden-voice needs the same no-garden-edits update. Reading its end section for workflow.tes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2250,21 +1523,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2294,65 +1558,39 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the garden-voice "Do not" section and adding a commit rule to the Workflow skill for consistency across content skills.</details></think>
+Reviewing the garden-voice "Do not" section and adding a commit rule to the Workflow skill for consistency across content skills.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2378,13 +1616,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2394,77 +1625,47 @@ Adding a "Do not commit or push" warning to the garden-voice and flashcards "Do 
 
 Also checking hugo-template-guidance for commit rules. The user likely wants agents to stop auto-committing during content edits.
 
-The slug is now `duopoly`, so the post will live at `/blog/duopoly/`. I won't undo the previous commit; the skill updates apply going forward.</details></think>
+The slug is now `duopoly`, so the post will live at `/blog/duopoly/`. I won't undo the previous commit; the skill updates apply going forward.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Deciding between adding a "Do not" section before lint and tools in the flashcards workflow, or placing it in step 8 instead.</details></think>
+Deciding between adding a "Do not" section before lint and tools in the flashcards workflow, or placing it in step 8 instead.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2489,13 +1690,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2503,7 +1697,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The slug has been updated. Skills were left unchanged. No commits were made.
 
-The slug was set to `duopoly`.</details></think>
+The slug was set to `duopoly`.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2532,7 +1727,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 All blog posts need consistent frontmatter. Templates will be updated as required.
 
-I'll audit existing frontmatter across published posts and templates. Then I'll standardize the fields and apply the changes.</details></think>
+I'll audit existing frontmatter across published posts and templates. Then I'll standardize the fields and apply the changes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2541,11 +1737,10 @@ Analyzing blog frontmatter patterns and templates to define a consistent standar
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **57** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/content/english** (57 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content/english`** (57 files)
 
 | File |
 |------|
@@ -2606,43 +1801,26 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com/content/english** (57 files)
 | `blog/__hugo-static-site-generator.md` |
 | `blog/__tailwind-css-v4.md` |
 | `blog/__smart-plug.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (3 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (3 files)
 
 | File |
 |------|
 | `archetypes/default.md` |
 | `archetypes/notes-review.md` |
 | `archetypes/notes.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2749,13 +1927,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2763,59 +1934,1103 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing frontmatter across published posts, drafts, templates, and the default archetype.
 
-Checking hugo-template-guidance for frontmatter documentation.</details></think>
+Checking hugo-template-guidance for frontmatter documentation.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/default.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/default.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do [ "$(basename "$f")" = "_index.md" ] && continue; echo "=== $(basename "$f") ==="; sed -n '1,/^---$/{/^---$/d;p}' "$f" | head -1; sed -n '1,30p' "$f" | awk '/^---$/{c++; if(c==2) exit} c==1' | grep -v '^---$'; echo; done 2>/dev/null | head -400</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/*.md; do [ &#34;$(basename &#34;$f&#34;)&#34; = &#34;_index.md&#34; ] &amp;&amp; continue; echo &#34;=== $(basename &#34;$f&#34;) ===&#34;; sed -n &#39;1,/^---$/{/^---$/d;p}&#39; &#34;$f&#34; | head -1; sed -n &#39;1,30p&#39; &#34;$f&#34; | awk &#39;/^---$/{c++; if(c==2) exit} c==1&#39; | grep -v &#39;^---$&#39;; echo; done 2&gt;/dev/null | head -400</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do [ "$(basename "$f")" = "_index.md" ] && continue; echo "=== $(basename "$f") ==="; sed -n '1,/^---$/{/^---$/d;p}' "$f" | head -1; sed -n '1,30p' "$f" | awk '/^---$/{c++; if(c==2) exit} c==1' | grep -v '^---$'; echo; done 2>/dev/null | head -400
 ```
-</details>
-</tool-use>
+
+```
+=== alex-eala-pro-career-tracker.md ===
+title: "Alex Eala Pro Career Tracker"
+title: "Alex Eala Pro Career Tracker"
+date: 2026-07-13T05:00:00Z
+meta_title: "Alex Eala Pro Career Tracker"
+slug: "alex-eala-pro-career-tracker"
+description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
+image: "/images/alex-eala.jpg"
+categories: ["Sports", "Filipino", "People"]
+author: "JoRap"
+tags: ["Tennis", "Alex Eala", "WTA", "Pinoy Pride", "Career Tracker", "Grand Slam", "Athletes", "Women's Tennis", "Philippines", "Tennis Rankings", "Live Tracker", "Pro Tennis", "Sports Fan"]
+related_notes:
+  - expect-the-counter
+  - resilience
+  - follow-through
+featured: false
+draft: false
+lastmod: 2026-07-13T15:24:00Z
+
+=== __blank-blog-template.md ===
+title: "Blog Template"
+title: "Blog Template"
+meta_title: "Blog Template"
+description: "Hugo CMS Reference for blog publishing."
+slug: "how-to-create-a-blog-template"
+date: 1981-06-14T05:00:00Z
+image: "/images/image-template.jpg"
+categories: ["Website", "Tutorial"]
+author: "JoRap"
+tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
+related_notes:
+  - digital-garden
+featured: false
+draft: true
+
+=== __blog-template.md ===
+title: "Blog Template"
+title: "Blog Template"
+meta_title: "Blog Template"
+description: "Hugo CMS Reference for blog publishing."
+date: 1981-06-14T05:00:00Z
+image: "/images/image-template.jpg"
+categories: ["Website", "Tutorial"]
+author: "JoRap"
+tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
+slug: "blog-template"
+related_notes:
+  - digital-garden
+featured: false
+draft: true
+
+=== __canon-g3000.md ===
+title: "Canon G3000"
+title: "Canon G3000"
+meta_title: "Canon G3000 - Ink Tank Printer Notes"
+description: "The Canon G3000 is an ink-tank printer for people tired of cartridge roule
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+More context is needed to standardize blog frontmatter and update templates.
+
+A script will extract frontmatter keys and their order across all blog posts to identify inconsistencies. The canonical field order is being defined, with slug, date, image, categories, author, tags, featured, and draft as required fields. Inconsistencies include varying positions for slug and meta_title relative to date.
+
+Specific inconsistencies were found across posts. Titles and authors lack quotes. Dates omit timezone Z. Some posts include lastmod or aliases. Drafts place slug inconsistently. Template files also differ. The plan is to define canonical frontmatter in archetypes/default.md. Then update both template files and the jorap-voice skill. A batch update may follow.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, yaml, os, glob
+from collections import Counter, defaultdict
+
+files = sorted(glob.glob(&#39;content/english/blog/*.md&#39;))
+files = [f for f in files if not f.endswith(&#39;_index.md&#39;)]
+
+orders = []
+field_sets = Counter()
+issues = []
+
+CANONICAL = [&#39;title&#39;,&#39;meta_title&#39;,&#39;description&#39;,&#39;slug&#39;,&#39;date&#39;,&#39;image&#39;,&#39;categories&#39;,&#39;author&#39;,&#39;tags&#39;,&#39;related_notes&#39;,&#39;aliases&#39;,&#39;featured&#39;,&#39;draft&#39;,&#39;lastmod&#39;]
+
+for path in files:
+    with open(path) as f:
+        text = f.read()
+    m = re.match(r&#39;^---\n(.*?)\n---&#39;, text, re.DOTALL)
+    if not m:
+        issues.append((path, &#39;no frontmatter&#39;))
+        continue
+    try:
+        data = yaml.safe_load(m.group(1)) or {}
+    except Exception as e:
+        issues.append((path, f&#39;yaml error: {e}&#39;))
+        continue
+    keys = list(data.keys()) if isinstance(data, dict) else []
+    orders.append((os.path.basename(path), keys))
+    field_sets[tuple(keys)] += 1
+
+    # check order vs canonical subset
+    canon_present = [k for k in CANONICAL if k in data]
+    keys_present = [k for k in keys if k in CANONICAL]
+    if keys_present != canon_present:
+        issues.append((path, f&#39;non-canonical key order: {keys}&#39;))
+    elif keys_present != sorted(keys_present, key=lambda k: CANONICAL.index(k)):
+        # check if follows canonical order
+        expected = sorted(keys_present, key=lambda k: CANONICAL.index(k))
+        if keys_present != expected:
+            issues.append((path, f&#39;order: {keys_present} expected {expected}&#39;))
+
+print(&#39;Unique field order patterns:&#39;, len(field_sets))
+for pattern, count in field_sets.most_common(8):
+    print(f&#39;  {count}x: {list(pattern)}&#39;)
+
+print(&#39;\nField presence:&#39;)
+all_keys = Counter()
+for _, keys in orders:
+    for k in keys:
+        all_keys[k] += 1
+for k, c in sorted(all_keys.items(), key=lambda x: -x[1]):
+    print(f&#39;  {k}: {c}/{len(orders)}&#39;)
+
+print(f&#39;\nOrder issues: {len(issues)}&#39;)
+for path, msg in issues[:30]:
+    print(f&#39;  {os.path.basename(path)}: {msg}&#39;)
+if len(issues) &gt; 30:
+    print(f&#39;  ... and {len(issues)-30} more&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml, os, glob
+from collections import Counter, defaultdict
+
+files = sorted(glob.glob('content/english/blog/*.md'))
+files = [f for f in files if not f.endswith('_index.md')]
+
+orders = []
+field_sets = Counter()
+issues = []
+
+CANONICAL = ['title','meta_title','description','slug','date','image','categories','author','tags','related_notes','aliases','featured','draft','lastmod']
+
+for path in files:
+    with open(path) as f:
+        text = f.read()
+    m = re.match(r'^---\n(.*?)\n---', text, re.DOTALL)
+    if not m:
+        issues.append((path, 'no frontmatter'))
+        continue
+    try:
+        data = yaml.safe_load(m.group(1)) or {}
+    except Exception as e:
+        issues.append((path, f'yaml error: {e}'))
+        continue
+    keys = list(data.keys()) if isinstance(data, dict) else []
+    orders.append((os.path.basename(path), keys))
+    field_sets[tuple(keys)] += 1
+
+    # check order vs canonical subset
+    canon_present = [k for k in CANONICAL if k in data]
+    keys_present = [k for k in keys if k in CANONICAL]
+    if keys_present != canon_present:
+        issues.append((path, f'non-canonical key order: {keys}'))
+    elif keys_present != sorted(keys_present, key=lambda k: CANONICAL.index(k)):
+        # check if follows canonical order
+        expected = sorted(keys_present, key=lambda k: CANONICAL.index(k))
+        if keys_present != expected:
+            issues.append((path, f'order: {keys_present} expected {expected}'))
+
+print('Unique field order patterns:', len(field_sets))
+for pattern, count in field_sets.most_common(8):
+    print(f'  {count}x: {list(pattern)}')
+
+print('\nField presence:')
+all_keys = Counter()
+for _, keys in orders:
+    for k in keys:
+        all_keys[k] += 1
+for k, c in sorted(all_keys.items(), key=lambda x: -x[1]):
+    print(f'  {k}: {c}/{len(orders)}')
+
+print(f'\nOrder issues: {len(issues)}')
+for path, msg in issues[:30]:
+    print(f'  {os.path.basename(path)}: {msg}')
+if len(issues) > 30:
+    print(f'  ... and {len(issues)-30} more')
+PY
+```
+
+```
+Unique field order patterns: 7
+  29x: ['title', 'meta_title', 'description', 'date', 'image', 'categories', 'author', 'tags', 'slug', 'related_notes', 'featured', 'draft']
+  15x: ['title', 'meta_title', 'description', 'slug', 'date', 'image', 'categories', 'author', 'tags', 'related_notes', 'featured', 'draft']
+  6x: ['title', 'meta_title', 'description', 'date', 'image', 'categories', 'author', 'tags', 'related_notes', 'featured', 'draft']
+  2x: ['title', 'meta_title', 'description', 'slug', 'aliases', 'date', 'image', 'categories', 'author', 'tags', 'related_notes', 'featured', 'draft']
+  2x: ['title', 'slug', 'meta_title', 'description', 'date', 'author', 'image', 'categories', 'tags', 'related_notes', 'featured', 'draft']
+  1x: ['title', 'date', 'meta_title', 'slug', 'description', 'image', 'categories', 'author', 'tags', 'related_notes', 'featured', 'draft', 'lastmod']
+  1x: ['title', 'meta_title', 'description', 'slug', 'date', 'image', 'categories', 'author', 'tags', 'featured', 'draft']
+
+Field presence:
+  title: 56/56
+  meta_title: 56/56
+  description: 56/56
+  date: 56/56
+  image: 56/56
+  categories: 56/56
+  author: 56/56
+  tags: 56/56
+  featured: 56/56
+  draft: 56/56
+  related_notes: 55/56
+  slug: 50/56
+  aliases: 2/56
+  lastmod: 1/56
+
+Order issues: 34
+  __blog-template.md: non-canonical key order: ['title', 'meta_title', 'description', 'date', 'image', 'categories', 'author', 'tags', 'slug', 'related_notes', 'featured', 'draft']
+  __canon-g3000.md: non-canonical key order: ['title', 'meta_title', 'description', 'date', 'image', 'categories', 'author', 'tags', 'slug', 'related_notes', 'featured', 'draft']
+  __craft-prompt-framework.md: non-canonical key order: ['title', 'meta_title', 'description', 'date', 'image', 'categories', 'author', 'tags', 'slug', 'related_notes', 'featured', 'draft']
+  __how-to-create-a-good-habit.md: non-canonical key order: ['title', 'meta_title', 'description', 'date', 'image', 'categories', 'author', 'tags', 'slug', 'related_not
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": ".cursor/skills/jorap-voice/**",
+  "pattern": "frontmatter|Frontmatter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "frontmatter|Frontmatter",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "./.cursor/skills/jorap-voice/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.cursor/skills/jorap-voice/examples.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 5
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": ".cursor/skills/hugo-template-guidance/**",
+  "pattern": "blog.*frontmatter|frontmatter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "blog.*frontmatter|frontmatter",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/hugo-template-guidance/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/hugo-template-guidance/references/page-configuration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/hugo-template-guidance/references/project-architecture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/hugo-template-guidance/references/i18n-guidance.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/hugo-template-guidance/references/content-management.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".cursor/skills/hugo-template-guidance/references/adding-new-pages.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking content-management.md for blog frontmatter standards and hugo.toml for archetype configuration.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/references/content-management.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "hugo.toml",
+  "pattern": "archetype|blog"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "archetype|blog",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "config/development/hugo.toml"
+    },
+    {
+      "matchCount": 2,
+      "uri": "hugo.toml"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Canonical blog frontmatter order will follow the majority pattern across 15 files.
+
+The canonical frontmatter order is title, meta_title, description, slug, date, image, categories, author, tags, related_notes, featured, draft. Slug placement is being reconsidered: always include it for consistency, or only when it differs from the filename.
+
+Canonical formatting will use quoted strings, Z on dates, and "JoRap" quotes. Optional fields aliases and lastmod may be added. Six published posts currently lack slugs; adding them would match filenames. The choice between strict consistency and omitting slugs on publish remains open.
+
+A Python script will normalize all blog frontmatter. Every post will receive a slug and a related_notes field. Image paths will use the /images/ prefix. The author will be fixed as "JoRap".
+
+Slug values will be derived from filenames by stripping the __ prefix when absent. Empty related_notes fields will be omitted rather than included as empty lists. Posts lacking slugs and other formatting issues will be audited more thoroughly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, yaml, glob, os
+
+files = sorted(glob.glob(&#39;content/english/blog/*.md&#39;))
+files = [f for f in files if not f.endswith(&#39;_index.md&#39;)]
+
+no_slug = []
+no_related = []
+fmt_issues = []
+
+for path in files:
+    with open(path) as f:
+        text = f.read()
+    m = re.match(r&#39;^---\n(.*?)\n---&#39;, text, re.DOTALL)
+    data = yaml.safe_load(m.group(1))
+    base = os.path.basename(path).replace(&#39;.md&#39;,&#39;&#39;).replace(&#39;__&#39;,&#39;&#39;)
+    if &#39;slug&#39; not in data:
+        no_slug.append(os.path.basename(path))
+    if &#39;related_notes&#39; not in data:
+        no_related.append(os.path.basename(path))
+    if data.get(&#39;author&#39;) != &#39;JoRap&#39;:
+        fmt_issues.append((os.path.basename(path), &#39;author&#39;, data.get(&#39;author&#39;)))
+    d = data.get(&#39;date&#39;)
+    if d and &#39;Z&#39; not in str(d) and &#39;+&#39; not in str(d):
+        fmt_issues.append((os.path.basename(path), &#39;date&#39;, d))
+    img = data.get(&#39;image&#39;)
+    if img and not str(img).startswith(&#39;&#34;/&#39;) and not (isinstance(img, str) and img.startswith(&#39;/&#39;)):
+        pass
+    if isinstance(img, str) and not (img.startswith(&#39;&#34;/&#39;) or True):
+        if not img.startswith(&#39;/&#39;):
+            fmt_issues.append((os.path.basename(path), &#39;image&#39;, img))
+
+print(&#39;no slug:&#39;, no_slug)
+print(&#39;no related_notes:&#39;, no_related)
+print(&#39;fmt issues:&#39;)
+for x in fmt_issues:
+    print(&#39; &#39;, x)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml, glob, os
+
+files = sorted(glob.glob('content/english/blog/*.md'))
+files = [f for f in files if not f.endswith('_index.md')]
+
+no_slug = []
+no_related = []
+fmt_issues = []
+
+for path in files:
+    with open(path) as f:
+        text = f.read()
+    m = re.match(r'^---\n(.*?)\n---', text, re.DOTALL)
+    data = yaml.safe_load(m.group(1))
+    base = os.path.basename(path).replace('.md','').replace('__','')
+    if 'slug' not in data:
+        no_slug.append(os.path.basename(path))
+    if 'related_notes' not in data:
+        no_related.append(os.path.basename(path))
+    if data.get('author') != 'JoRap':
+        fmt_issues.append((os.path.basename(path), 'author', data.get('author')))
+    d = data.get('date')
+    if d and 'Z' not in str(d) and '+' not in str(d):
+        fmt_issues.append((os.path.basename(path), 'date', d))
+    img = data.get('image')
+    if img and not str(img).startswith('"/') and not (isinstance(img, str) and img.startswith('/')):
+        pass
+    if isinstance(img, str) and not (img.startswith('"/') or True):
+        if not img.startswith('/'):
+            fmt_issues.append((os.path.basename(path), 'image', img))
+
+print('no slug:', no_slug)
+print('no related_notes:', no_related)
+print('fmt issues:')
+for x in fmt_issues:
+    print(' ', x)
+PY
+```
+
+```
+no slug: ['drupal-to-wordpress.md', 'extension-cord.md', 'one-page-zine.md', 'static-site-vs-cms.md', 'sustainable-online-publishing.md', 'top-reasons-create-maintain-your-own-website.md']
+no related_notes: ['hanamikoji-rules.md']
+fmt issues:
+  ('instant-pot-arroz-caldo.md', 'date', datetime.datetime(2026, 7, 9, 6, 0))
+  ('instant-pot-chicken-adobo.md', 'date', datetime.datetime(2026, 5, 3, 23, 0))
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "scripts/**",
+  "pattern": "frontmatter|blog.*lint"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "frontmatter|blog.*lint",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/import-from-obsidian.py"
+    },
+    {
+      "matchCount": 9,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/sync-note-flashcards.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/okf-viz/generate.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/okf-viz/viz.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/audit-flashcard-north-star.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/okf-viz/viz.css"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/strip-desc-from-key-concept.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/bulletize-key-concepts.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/garden-voice-migrate.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/split-key-concept-bullets.py"
+    },
+    {
+      "matchCount": 5,
+      "uri": "scripts/lint-flashcard-frontmatter.py"
+    }
+  ],
+  "totalFiles": 21,
+  "totalMatches": 83
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Planning a normalization approach to standardize frontmatter across all blog templates.
+
+Canonical frontmatter fields will be ordered: title, meta_title, description, slug, date, image, categories, author, tags, related_notes, featured, draft. Optional fields like aliases and lastmod will appear only when needed. The slug field will always be included, derived from the existing filename or slug value.
+
+related_notes will always be included, defaulting to an empty list when absent. A section-specific archetype at archetypes/blog.md will enforce these standards.
+
+The default archetype will be updated to match the blog standard. Blank and standard blog templates will be revised. Documentation in content-management.md and jorap-voice will be updated. A Python script will normalize all 56 existing frontmatter files and self-check for consistency going forward.
+
+Considering YAML formatting details for the normalization script. Double quotes will wrap string values. Array fields like categories and tags will use inline flow style to match existing posts. Reusing the existing dump_frontmatter serializer is being explored.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "package.json",
+  "pattern": "lint:blog|normalize"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "lint:blog|normalize",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A shared script, `scripts/blog_frontmatter.py`, will define consistent frontmatter constants and a dump function for all blogs.
+
+A second script, `scripts/normalize-blog-frontmatter.py`, will normalize all blog frontmatter and support a `--verify` lint mode. Blog-specific archetypes and templates will be updated to match the new standard. Frontmatter fields will follow a strict order: title, meta_title, description, slug, date, image, categories, author, tags, related_notes, aliases, featured, draft, and lastmod.
+
+Optional fields like aliases and lastmod will only appear when present. The related_notes field will always be emitted, defaulting to an empty array if missing, to maintain consistency across all blogs.
+
+Slug will be derived from the filename if missing. The normalize script will only reorder fields and will not force empty related_notes arrays on posts that lack them. Only one post needs this change. Other posts will keep their existing related notes or omit the field entirely.
+
+Date strings will receive a Z suffix if they lack timezone information. Titles will be quoted universally, including instant-pot posts that currently omit quotes. Image paths will always be quoted. A `lint:blog` script will be added to package.json. All blog files will be normalized in one pass.
+
+The jorap-voice publishing guide will be updated to require `slug` in frontmatter for every blog post, even when it matches the filename. The normalize script will preserve all body content exactly.
+
+The field order list is finalized, with `tle` placed before `meta_title`. Optional keys are explicitly defined as `aliases` and `lastmod`. Slug derivation strips the `__` prefix from filenames. Date normalization will append a Z suffix. YAML serialization will reuse existing `yaml_quote` and `yaml_scalar` patterns from `notes_content`.
+
+List values such as related_notes will use bullet indentation. Categories and tags will render as inline arrays. Booleans will serialize as true or false. Dates will remain quoted strings ending in Z.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating `blog_frontmatter.py` and `normalize-blog-frontmatter.py`. Then running normalization across all blog files.
+
+Frontmatter normalization rules are now defined. Blog titles and metadata will always be quoted. Dates without timezone will get a trailing Z. Slugs will derive from the file stem. Empty related_notes arrays will be omitted.
+
+Standard frontmatter keys will always be emitted in canonical order. Optional fields like aliases and lastmod will appear only when present. The hanamikoji post will keep its existing optional field rather than forcing an empty value. Now implementing `dump_blog_frontmatter` in `blog_frontmatter.py`.
+
+Updating `__blog-template` to match the blank template’s canonical key order. Adding a `lint:blog` script to `package.json` for verification. Creating `archetypes/blog.md` and updating `jorap-voice` frontmatter with the field order list. Updating `content-management.md` with the full field list and order. Adding self-check logic to the normalize script. Titles missing quotes, such as those in instant-pot posts, will be fixed by forcing quotes.
+
+Checking alias positions in getting-started-with-rss and laod placement in alex-eala. Will verify Hugo builds after mass edits. No commits will be made. Implementing files.stm.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Creating a blog frontmatter normalizer and updating templates and docs.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The slug check in the verify step of the normalize script is odd.
+
+Fixing verify to ensure slugs are present after canonicalization. Will run --write then --verify. Creating archetypes/blog.md and updating templates, docs, and package.json for consistency. Running the normalize script next.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+Incorrect tool arguments
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the blog-template slug is correctly placed in the frontmatter.
+
+Updating content-management and jorap-voice templates. Fixing the slug verification script to require slugs in frontmatter after normalization. Running normalize --write to apply changes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/references/content-management.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/references/content-management.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating verification to require the slug field in all frontmatter.
+
+Running normalize --write to apply fixes. Removing empty related_notes arrays from the blog archetype to prevent YAML stripping. Running scripts to catch remaining issues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-blog-frontmatter.py --write &amp;&amp; python3 scripts/normalize-blog-frontmatter.py --verify</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-blog-frontmatter.py --write && python3 scripts/normalize-blog-frontmatter.py --verify
+```
+
+```
+Normalized 56 blog post(s)
+Blog frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All 56 blogs now have consistent frontmatter. Verification passed.
+
+Running Hugo build to verify nothing broke. Checking hikoji and instant-pot samples.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -6</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -6
+```
+
+```
+]633;C Static files     │  242 
+ Processed images │  513 
+ Aliases          │  839 
+ Cleaned          │    0 
+
+Total in 25936 ms
+]633;D;0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+hanamikoji-rules.md is missing the blank line between its frontmatter and body content.
+
+The normalize script appears to add a blank line after the closing `---`, yet posts like extension-cord still lack it. I am checking whether this gap is pre-existing or newly introduced.
+
+The normalizer will be fixed to insert a blank line after the closing `---` so frontmatter matches Hugo conventions. Re-running normalize now.
+
+Now awaiting the Hugo build.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the missing blank line after frontmatter and re-running normalization.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-blog-frontmatter.py --write 2&gt;&amp;1 | tail -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-blog-frontmatter.py --write 2>&1 | tail -3
+```
+
+```
+Normalized 56 blog post(s)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo build succeeded. Verifying the blank blog template and standard blog template.
+
+Checking alex-eala's lastmod placement.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blank-blog-template.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether aliases appear after related_notes in RSS posts.
+
+Reading the full frontmatter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds-beginners-guide.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Confirmed aliases appears before featured in the canonical frontmatter order.
+
+No commit was made per earlier instruction. A minimal self-check will be added to blog_frontmatter.py.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/blog_frontmatter.py &amp;&amp; pnpm lint:blog</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/blog_frontmatter.py && pnpm lint:blog
+```
+
+```
+blog_frontmatter self-check OK
+$ python3 scripts/normalize-blog-frontmatter.py --verify
+Blog frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Standardizing frontmatter across all blog templates.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Blog frontmatter is now consistent across all 56 posts.
+
+### Canonical field order
+
+```
+title → meta_title → description → slug → date → image
+→ categories → author → tags → related_notes
+→ aliases / lastmod (only when needed)
+→ featured → draft
+```
+
+### What changed
+
+| Area | Update |
+|------|--------|
+| **All 56 blog posts** | Normalized field order, quoted strings, `Z` dates, `slug` on every post, `author: "JoRap"` |
+| **`archetypes/blog.md`** | New Hugo archetype for `hugo new blog/...` |
+| **`__blank-blog-template.md`** / **`__blog-template.md`** | Aligned to canonical order |
+| **`scripts/blog_frontmatter.py`** | Shared order + YAML dump |
+| **`scripts/normalize-blog-frontmatter.py`** | `--write` to fix posts, `--verify` to lint |
+| **`package.json`** | `pnpm lint:blog` runs verify |
+| **`jorap-voice` skill** | Documents field order; `slug` always set |
+| **`hugo-template-guidance`** | `content-management.md` updated |
+
+### Fixes applied site-wide
+
+- 6 published posts missing `slug` now have it
+- Recipe posts got quoted titles, dates with `Z`, quoted images
+- 29 drafts had `slug` after `tags` — moved up
+- `alex-eala` and RSS `aliases`/`lastmod` kept, in the right slots
+
+### Going forward
+
+```bash
+python3 scripts/normalize-blog-frontmatter.py --write  # fix after bulk edits
+pnpm lint:blog                                         # CI-style check
+```
+
+Hugo build passes. Changes are uncommitted per your earlier rule — say the word when you want a commit.

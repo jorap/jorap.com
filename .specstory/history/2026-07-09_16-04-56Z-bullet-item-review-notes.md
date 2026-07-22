@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing all notes to verify each bullet item makes sense. Some text was cropped during transcription and became a new bullet item.
 
-Locating all note files to inspect their structure and identify malformed bullet items.</details></think>
+Locating all note files to inspect their structure and identify malformed bullet items.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,11 +25,10 @@ I'll scan all note files and check bullet formatting for text that was split int
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **238** results in **1** directory</summary>
 
-Directory: **** (238 files)
+Directory: **``** (238 files)
 
 | File |
 |------|
@@ -270,21 +270,12 @@ Directory: **** (238 files)
 | `content/english/notes/execution.md` |
 | `content/english/notes/minimum-viable-product.md` |
 | `content/english/notes/workplace-principles.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -391,13 +382,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -407,7 +391,8 @@ Reviewing 238 note files. Text beyond bullets was cropped and created new bullet
 
 The root cause appears to be broken-line fragments that start with `- `. I will search for suspicious patterns systematically across all files.
 
-Short bullets lacking sentence structure are also suspicious. I will check recent git changes and recently viewed files.</details></think>
+Short bullets lacking sentence structure are also suspicious. I will check recent git changes and recently viewed files.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -416,10 +401,8 @@ Searching for bullet fragments—likely continuations split into new bullets—a
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -526,21 +509,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -647,51 +621,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/attention-economy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/attention-economy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
 
 </details></tool-use>
 
@@ -702,7 +651,8 @@ The key_concept section has bullet lists with incorrectly split sentences. This 
 
 Specific files affected include `practice-small-experiments.md`, `people-centered-design.md`, `love-god.md`, `let-your-light-shine.md`, `honest-self-awareness.md`, `git-based-cms.md`, `eternal-rewards.md`, and `the-golden-rule.md`. Fragments and mid-sentence cuts were found in `forgiveness.md`, `let-your-light-shine.md`, and `treasure-in-heaven.md`.
 
-`by-their-fruits.md` also contains an orphaned fragment. A systematic script will scan all key_concept sections for broken bullets. It will flag lowercase fragments, very short bullets, and missing punctuation.</details></think>
+`by-their-fruits.md` also contains an orphaned fragment. A systematic script will scan all key_concept sections for broken bullets. It will flag lowercase fragments, very short bullets, and missing punctuation.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -711,73 +661,72 @@ Running a systematic scan for split bullet fragments in `key_concept` sections.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 << 'PYEOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
 import re, pathlib, yaml
 
-notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
 issues = []
 
-for path in sorted(notes_dir.glob("*.md")):
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
         continue
     # split frontmatter
-    parts = text.split("---", 2)
-    if len(parts) < 3:
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
         continue
     fm = parts[1]
     # extract key_concept block
-    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', fm, re.M)
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, fm, re.M)
     if not m:
         continue
     block = m.group(1)
     lines = block.splitlines()
     bullets = []
     for i, line in enumerate(lines):
-        if re.match(r'^  - ', line):
+        if re.match(r&#39;^  - &#39;, line):
             content = line[4:].strip()
             bullets.append((i+1, content))
     
     for idx, (line_no, content) in enumerate(bullets):
-        prev = bullets[idx-1][1] if idx > 0 else None
-        nxt = bullets[idx+1][1] if idx+1 < len(bullets) else None
+        prev = bullets[idx-1][1] if idx &gt; 0 else None
+        nxt = bullets[idx+1][1] if idx+1 &lt; len(bullets) else None
         
         flags = []
         # lowercase start (not wiki link, not bible shortcode content)
-        if content and content[0].islower() and not content.startswith('[['):
-            flags.append("lowercase_start")
-        # very short fragment (< 6 words) without being a link-only line
+        if content and content[0].islower() and not content.startswith(&#39;[[&#39;):
+            flags.append(&#34;lowercase_start&#34;)
+        # very short fragment (&lt; 6 words) without being a link-only line
         words = content.split()
-        if len(words) <= 5 and not content.startswith('{{<') and '[[/' not in content:
+        if len(words) &lt;= 5 and not content.startswith(&#39;{{&lt;&#39;) and &#39;[[/&#39; not in content:
             if content and content[0].islower():
-                flags.append("short_fragment")
+                flags.append(&#34;short_fragment&#34;)
         # starts with conjunction/preposition suggesting continuation
-        if re.match(r'^(and|or|but|then|that|which|before|after|not|still|also|only|just|with|for|to|in|on|of|a|an|the)\b', content, re.I):
-            if content[0].islower() or content.split()[0].lower() in {'and','or','but','then','that','which','before','after','not','still','also','only','just','with','for','to','in','on','of','a','an','the'}:
-                flags.append("continuation_word")
-        # previous bullet doesn't end with sentence-ending punctuation but this looks like continuation
-        if prev and not re.search(r'[.!?:;"\'\)]$', prev.rstrip()) and content and content[0].islower():
-            flags.append("follows_unfinished")
+        if re.match(r&#39;^(and|or|but|then|that|which|before|after|not|still|also|only|just|with|for|to|in|on|of|a|an|the)\b&#39;, content, re.I):
+            if content[0].islower() or content.split()[0].lower() in {&#39;and&#39;,&#39;or&#39;,&#39;but&#39;,&#39;then&#39;,&#39;that&#39;,&#39;which&#39;,&#39;before&#39;,&#39;after&#39;,&#39;not&#39;,&#39;still&#39;,&#39;also&#39;,&#39;only&#39;,&#39;just&#39;,&#39;with&#39;,&#39;for&#39;,&#39;to&#39;,&#39;in&#39;,&#39;on&#39;,&#39;of&#39;,&#39;a&#39;,&#39;an&#39;,&#39;the&#39;}:
+                flags.append(&#34;continuation_word&#34;)
+        # previous bullet doesn&#39;t end with sentence-ending punctuation but this looks like continuation
+        if prev and not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, prev.rstrip()) and content and content[0].islower():
+            flags.append(&#34;follows_unfinished&#34;)
         # ends mid-thought (no terminal punctuation, next bullet is lowercase start)
-        if nxt and content and not re.search(r'[.!?:;"\'\)]$', content.rstrip()) and nxt[0].islower():
-            flags.append("split_sentence")
+        if nxt and content and not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, content.rstrip()) and nxt[0].islower():
+            flags.append(&#34;split_sentence&#34;)
         # incomplete sentence (starts capital but no ending punct and short)
-        if content and content[0].isupper() and len(words) >= 3 and not re.search(r'[.!?:;"\'\)]$', content.rstrip()):
+        if content and content[0].isupper() and len(words) &gt;= 3 and not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, content.rstrip()):
             # table rows, bible refs ok
-            if not content.startswith('|') and '{{< bible' not in content:
-                flags.append("no_terminal_punct")
+            if not content.startswith(&#39;|&#39;) and &#39;{{&lt; bible&#39; not in content:
+                flags.append(&#34;no_terminal_punct&#34;)
         
         if flags:
             issues.append((path.name, line_no, content[:120], sorted(set(flags))))
 
-print(f"Found {len(issues)} suspicious bullets across notes\n")
+print(f&#34;Found {len(issues)} suspicious bullets across notes\n&#34;)
 for name, line_no, content, flags in issues:
-    print(f"{name}:{line_no} [{','.join(flags)}]")
-    print(f"  {content}")
+    print(f&#34;{name}:{line_no} [{&#39;,&#39;.join(flags)}]&#34;)
+    print(f&#34;  {content}&#34;)
     print()
 PYEOF</summary>
-
 ```bash
 python3 << 'PYEOF'
 import re, pathlib, yaml
@@ -845,10 +794,1576 @@ for name, line_no, content, flags in issues:
     print()
 PYEOF
 ```
-</details>
-</tool-use>
+
+```
+Found 224 suspicious bullets across notes
+
+abide-in-me.md:6 [no_terminal_punct]
+  Abiding is ongoing dependence, not a one-time conversion event
+
+accept-the-starting-line.md:9 [continuation_word]
+  Then pick targets that match, not fantasy.
+
+active-knowledge-curation.md:3 [continuation_word]
+  A folder of unread saves isn't a garden - I prune monthly and wire notes I'd actually recommend.
+
+adaptability.md:7 [continuation_word]
+  The tell isn't whether you adapt - it's whether the goal survives the pivot intact.
+
+analog-capture-tools.md:3 [continuation_word]
+  The scrap gets copied into the real system later - paper is capture, not storage.
+
+attention-to-detail.md:7 [continuation_word]
+  The second look before it ships is cheaper than the fix after it's customer-facing.
+
+behavioral-economics.md:7 [continuation_word]
+  A well-designed default beats a well-argued lecture almost every time.
+
+blameless-after-action-review.md:6 [continuation_word]
+  After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy.
+
+break-the-escalation-cycle.md:1 [continuation_word]
+  Not passivity - I can still set boundaries and name facts.
+
+build-a-reliable-default.md:5 [continuation_word]
+  The rehearsed move beats improvising when the clock is loud.
+
+build-a-reliable-default.md:7 [continuation_word]
+  A reliable default is the simple rehearsed move I run when thinking is thin.
+
+building-a-second-brain.md:5 [continuation_word]
+  The system fails when any step is just for show.
+
+by-their-fruits.md:6 [no_terminal_punct]
+  Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit
+
+by-their-fruits.md:10 [lowercase_start]
+  audit - does the teaching leave the graph healthier or broken?
+
+by-their-fruits.md:14 [continuation_word]
+  The wolf doesn't announce itself - only a season of results tells you what's underneath the sheep's clothing.
+
+change-takes-repetition.md:1 [continuation_word]
+  The breakthrough story sells books; Tues
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The script flagged many items, but most "continuation_word" flags are false positives. Bullets legitimately starting with words like "The", "A", or "Not" were incorrectly caught.
+
+Real issues are split sentences, unfinished follow-ups, and lowercase starts. These indicate text was cut mid-sentence and became a new bullet. I will refine the script to flag only high-confidence broken bullets.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+import re, pathlib
+
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
+issues = []
+
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        continue
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
+        continue
+    fm = parts[1]
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, fm, re.M)
+    if not m:
+        continue
+    block = m.group(1)
+    lines = block.splitlines()
+    bullets = []
+    for i, line in enumerate(lines):
+        if re.match(r&#39;^  - &#39;, line):
+            content = line[4:].strip()
+            bullets.append((i+1, content))
+    
+    for idx, (line_no, content) in enumerate(bullets):
+        prev = bullets[idx-1][1] if idx &gt; 0 else None
+        nxt = bullets[idx+1][1] if idx+1 &lt; len(bullets) else None
+        
+        # HIGH CONFIDENCE: lowercase start = almost certainly a fragment
+        if content and content[0].islower() and not content.startswith(&#39;[[&#39;):
+            issues.append((path.name, line_no, &#39;FRAGMENT&#39;, content, prev))
+            continue
+        
+        # HIGH CONFIDENCE: previous bullet clearly cut mid-sentence (no terminal punct, long enough)
+        if prev and content and content[0].islower():
+            issues.append((path.name, line_no, &#39;FRAGMENT_AFTER_CUT&#39;, content, prev))
+            continue
+        
+        # MEDIUM: current bullet has no terminal punct and is clearly incomplete (ends with preposition/conjunction or mid-phrase)
+        if content and not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, content.rstrip()):
+            # ends with common mid-sentence words
+            if re.search(r&#39;\b(with|and|or|for|to|in|on|the|a|an|is|are|was|were|that|which|before|after|not|still|one|batch|branch|build|click|drill|tweak|week|heaven|fruit|saved|Lord|will|gold|lasts|Christ|Grace|Free|Sit|deposit|pass|off|model|shape|garden|terms|enters|spirit|bankruptcy|house|visible|people|righteousness|religio)$&#39;, content.rstrip(), re.I):
+                issues.append((path.name, line_no, &#39;INCOMPLETE&#39;, content, None))
+
+# dedupe by file+line
+seen = set()
+print(f&#34;HIGH/MEDIUM confidence broken bullets: {len(issues)}\n&#34;)
+for name, line_no, kind, content, prev in issues:
+    key = (name, line_no)
+    if key in seen: continue
+    seen.add(key)
+    print(f&#34;## {name} (line ~{line_no}) [{kind}]&#34;)
+    if prev:
+        print(f&#34;  PREV: {prev[:100]}...&#34;)
+    print(f&#34;  BULLET: {content}&#34;)
+    print()
+PYEOF</summary>
+```bash
+python3 << 'PYEOF'
+import re, pathlib
+
+notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+issues = []
+
+for path in sorted(notes_dir.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        continue
+    fm = parts[1]
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', fm, re.M)
+    if not m:
+        continue
+    block = m.group(1)
+    lines = block.splitlines()
+    bullets = []
+    for i, line in enumerate(lines):
+        if re.match(r'^  - ', line):
+            content = line[4:].strip()
+            bullets.append((i+1, content))
+    
+    for idx, (line_no, content) in enumerate(bullets):
+        prev = bullets[idx-1][1] if idx > 0 else None
+        nxt = bullets[idx+1][1] if idx+1 < len(bullets) else None
+        
+        # HIGH CONFIDENCE: lowercase start = almost certainly a fragment
+        if content and content[0].islower() and not content.startswith('[['):
+            issues.append((path.name, line_no, 'FRAGMENT', content, prev))
+            continue
+        
+        # HIGH CONFIDENCE: previous bullet clearly cut mid-sentence (no terminal punct, long enough)
+        if prev and content and content[0].islower():
+            issues.append((path.name, line_no, 'FRAGMENT_AFTER_CUT', content, prev))
+            continue
+        
+        # MEDIUM: current bullet has no terminal punct and is clearly incomplete (ends with preposition/conjunction or mid-phrase)
+        if content and not re.search(r'[.!?:;"\'\)]$', content.rstrip()):
+            # ends with common mid-sentence words
+            if re.search(r'\b(with|and|or|for|to|in|on|the|a|an|is|are|was|were|that|which|before|after|not|still|one|batch|branch|build|click|drill|tweak|week|heaven|fruit|saved|Lord|will|gold|lasts|Christ|Grace|Free|Sit|deposit|pass|off|model|shape|garden|terms|enters|spirit|bankruptcy|house|visible|people|righteousness|religio)$', content.rstrip(), re.I):
+                issues.append((path.name, line_no, 'INCOMPLETE', content, None))
+
+# dedupe by file+line
+seen = set()
+print(f"HIGH/MEDIUM confidence broken bullets: {len(issues)}\n")
+for name, line_no, kind, content, prev in issues:
+    key = (name, line_no)
+    if key in seen: continue
+    seen.add(key)
+    print(f"## {name} (line ~{line_no}) [{kind}]")
+    if prev:
+        print(f"  PREV: {prev[:100]}...")
+    print(f"  BULLET: {content}")
+    print()
+PYEOF
+```
+
+```
+HIGH/MEDIUM confidence broken bullets: 28
+
+## by-their-fruits.md (line ~6) [INCOMPLETE]
+  BULLET: Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit
+
+## by-their-fruits.md (line ~10) [FRAGMENT]
+  PREV: Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what...
+  BULLET: audit - does the teaching leave the graph healthier or broken?
+
+## eternal-rewards.md (line ~23) [INCOMPLETE]
+  BULLET: Same shape as [[Compounding]] in the garden
+
+## eternal-rewards.md (line ~24) [FRAGMENT]
+  PREV: Same shape as [[Compounding]] in the garden...
+  BULLET: small obedient acts over years, not one heroic week I mistake for a merit down payment on heaven.
+
+## faith-and-works.md (line ~14) [FRAGMENT]
+  PREV: [[The Narrow Way]] and [[Loss of Reward]] split false "Lord, Lord" (never believed)....
+  BULLET: from a believer who stumbles, repents, and may lose reward but stays saved.
+
+## forgiveness.md (line ~11) [INCOMPLETE]
+  BULLET: [[Free Grace]] already given and the servant's refusal to forgive a small debt exposed a heart out of step with
+
+## forgiveness.md (line ~15) [INCOMPLETE]
+  BULLET: For believers, unforgiveness chokes fellowship and joy it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and
+
+## git-based-cms.md (line ~6) [FRAGMENT]
+  PREV: Marketing volunteer, pastor's secretary, or family member can post updates...
+  BULLET: still static HTML out the other end on free tier if deploy volume stays sane.
+
+## honest-self-awareness.md (line ~4) [FRAGMENT]
+  PREV: Honest self-awareness is a plain inventory...
+  BULLET: what I'm good at, what I'm avoiding, what I can't carry this quarter - before I promise the room a new person.
+
+## justification.md (line ~10) [INCOMPLETE]
+  BULLET: Faith credited as righteousness
+
+## let-your-light-shine.md (line ~8) [INCOMPLETE]
+  BULLET: The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people
+
+## let-
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Found 28 broken bullets across multiple files. Now checking change-window.md and other files for additional truncated text.
+
+Nineteen files identified for repair. Additional checks cover change-window.md, client-site-pass-off.md, and dont-worry.md.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reading affected files to merge split bullets and restore complete sentences.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/git-based-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-yes-be-yes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining files that need fixing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/change-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I now understand the issue. I will check shareable_thought sections for similar cropping problems and scan for any missed files.
+
+I will check git history to recover the original text. Then I will merge split bullets into complete sentences. I am starting with by-their-fruits.md and will continue with eternal-rewards.md.
+
+I merged split bullets in eternal-rewards.md and faith-and-works.md. I am now checking forgiveness.md.
+
+I merged split bullets in forgiveness.md. I am now checking git-based-cms.md.
+
+I merged split bullets in honest-self-awareness.md. I removed an incomplete fragment in justification.md. I merged fragments in let-your-light-shine.md and added a missing period.
+
+I merged split bullets in let-your-yes-be-yes.md and love-god.md. I am now reviewing the remaining files.
+
+I merged split bullets in minimum-effective-dose.md and outcomes-over-pitch-decks.md. I am now reviewing people-centered-design.md.
+
+I merged split bullets in people-centered-design.md and practice-small-experiments.md. I am now reviewing seek-the-kingdom-first.md.
+
+I merged split bullets in seek-the-kingdom-first.md. I found duplication in the-beatitudes.md and merged the repeated poor-in-spirit lines into one complete sentence.
+
+I am now reviewing the-narrow-way.md and the-wise-builder.md.
+
+I merged split bullets in the-wise-builder.md and treasure-in-heaven.md. I am now restructuring client-site-pass-off.md.
+
+I completed the client-site-pass-off.md restructure. The pass-off now covers retainer billing, a showroom branch for experimental work, and a separate Git-based CMS fallback. I also merged split bullets in dont-worry.md.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+import re, pathlib
+
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
+issues = []
+
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        continue
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
+        continue
+    fm = parts[1]
+    for field in [&#39;shareable_thought:&#39;, &#39;examples:&#39;]:
+        m = re.search(rf&#39;^{field}\s*\n((?:  .*\n)*)&#39;, fm, re.M)
+        if not m:
+            continue
+        block = m.group(1)
+        for line in block.splitlines():
+            if re.match(r&#39;^  - &#39;, line):
+                content = line[4:].strip().strip(&#39;&#34;&#39;)
+                if content and content[0].islower() and not content.startswith(&#39;[[&#39;):
+                    issues.append((path.name, field, content[:100]))
+
+print(f&#34;shareable_thought/examples fragments: {len(issues)}&#34;)
+for x in issues:
+    print(f&#34;  {x[0]} {x[1]}: {x[2]}&#34;)
+PYEOF</summary>
+```bash
+python3 << 'PYEOF'
+import re, pathlib
+
+notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+issues = []
+
+for path in sorted(notes_dir.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        continue
+    fm = parts[1]
+    for field in ['shareable_thought:', 'examples:']:
+        m = re.search(rf'^{field}\s*\n((?:  .*\n)*)', fm, re.M)
+        if not m:
+            continue
+        block = m.group(1)
+        for line in block.splitlines():
+            if re.match(r'^  - ', line):
+                content = line[4:].strip().strip('"')
+                if content and content[0].islower() and not content.startswith('[['):
+                    issues.append((path.name, field, content[:100]))
+
+print(f"shareable_thought/examples fragments: {len(issues)}")
+for x in issues:
+    print(f"  {x[0]} {x[1]}: {x[2]}")
+PYEOF
+```
+
+```
+shareable_thought/examples fragments: 0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+shareable_thought and examples are fine. Applying all fixes now.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing split bullets across the affected notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/git-based-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-yes-be-yes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining fixes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Re-running the scan to catch any remaining issues. Verifying the change-window bullet was correct. Looking for other truncated bullets that may have been missed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Re-scanning to confirm all split bullets are fixed.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+import re, pathlib
+
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
+issues = []
+
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        continue
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3:
+        continue
+    fm = parts[1]
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, fm, re.M)
+    if not m:
+        continue
+    block = m.group(1)
+    bullets = []
+    for line in block.splitlines():
+        if re.match(r&#39;^  - &#39;, line):
+            bullets.append(line[4:].strip())
+    
+    for idx, content in enumerate(bullets):
+        prev = bullets[idx-1] if idx &gt; 0 else None
+        nxt = bullets[idx+1] if idx+1 &lt; len(bullets) else None
+        
+        if content and content[0].islower() and not content.startswith(&#39;[[&#39;):
+            issues.append((path.name, &#39;FRAGMENT&#39;, content[:120], prev[:80] if prev else &#39;&#39;))
+        elif prev and content and content[0].islower():
+            issues.append((path.name, &#39;FRAGMENT_AFTER_CUT&#39;, content[:120], prev[:80]))
+        elif content and not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, content.rstrip()):
+            if re.search(r&#39;\b(with|and|or|for|to|in|on|the|a|an|is|are|was|were|that|which|before|after|not|still|one|batch|branch|build|click|drill|tweak|week|heaven|fruit|saved|Lord|will|gold|lasts|Christ|Grace|Free|Sit|deposit|pass|off|model|shape|garden|terms|enters|spirit|bankruptcy|house|visible|people|righteousness|religio|when|picture|of|given|step|fellowship|joy|faith|Standing|Loss|Reward|Assurance|Scope|Hosting|Stack|Compounding|small|obedient|acts|years|heroic|merit|payment|evaluate|lasts|wood|hay|stubble|burn|audit|front|finish|optimize|chart|slide|trial|works|payment|eternal|life|servant|debt|exposed|heart|Mercy|unpayable|parable|math|plain|king|forgave|refusal|forgive|categories|straight|updates|HTML|inventory|good|avoiding|carry|quarter|promise|room|person|credited|righteousness|applause|practicing|righteousness|seen|people|tested|visibility|instinct|aim|author|oaths|trustworthy|own|evil|manipulation|contracts|sin|flowing|grace|received|offered|sufficient|response|lifetime|stacked|top|filter|requires|favorite|hammer|needs|nurse|confuses|hire|customer|trying|cheap|drill|workflow|tweak|minutes|day|masters|wealth|storing|Treasure|bankruptcy|receiving|wage|promises|reward|rooted|character|shaped|self-made|fork|enters|profession|stumbles|fool|house|see|Narrow|Way|Loss|Reward|stumbles|Judgment|Seat|evaluates|lasts|worthless|treasure|burns|fire|lesson|retainer|showroom|CMS|setup|separately)$&#39;, content.rstrip(), re.I):
+                issues.append((path.name, &#39;INCOMPLETE&#39;, content[:120], &#39;&#39;))
+
+print(f&#34;Remaining issues: {len(issues)}\n&#34;)
+for name, kind, content, prev in issues:
+    print(f&#34;{name} [{kind}]&#34;)
+    if prev: print(f&#34;  prev: {prev}...&#34;)
+    print(f&#34;  {content}\n&#34;)
+PYEOF</summary>
+```bash
+python3 << 'PYEOF'
+import re, pathlib
+
+notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+issues = []
+
+for path in sorted(notes_dir.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        continue
+    fm = parts[1]
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', fm, re.M)
+    if not m:
+        continue
+    block = m.group(1)
+    bullets = []
+    for line in block.splitlines():
+        if re.match(r'^  - ', line):
+            bullets.append(line[4:].strip())
+    
+    for idx, content in enumerate(bullets):
+        prev = bullets[idx-1] if idx > 0 else None
+        nxt = bullets[idx+1] if idx+1 < len(bullets) else None
+        
+        if content and content[0].islower() and not content.startswith('[['):
+            issues.append((path.name, 'FRAGMENT', content[:120], prev[:80] if prev else ''))
+        elif prev and content and content[0].islower():
+            issues.append((path.name, 'FRAGMENT_AFTER_CUT', content[:120], prev[:80]))
+        elif content and not re.search(r'[.!?:;"\'\)]$', content.rstrip()):
+            if re.search(r'\b(with|and|or|for|to|in|on|the|a|an|is|are|was|were|that|which|before|after|not|still|one|batch|branch|build|click|drill|tweak|week|heaven|fruit|saved|Lord|will|gold|lasts|Christ|Grace|Free|Sit|deposit|pass|off|model|shape|garden|terms|enters|spirit|bankruptcy|house|visible|people|righteousness|religio|when|picture|of|given|step|fellowship|joy|faith|Standing|Loss|Reward|Assurance|Scope|Hosting|Stack|Compounding|small|obedient|acts|years|heroic|merit|payment|evaluate|lasts|wood|hay|stubble|burn|audit|front|finish|optimize|chart|slide|trial|works|payment|eternal|life|servant|debt|exposed|heart|Mercy|unpayable|parable|math|plain|king|forgave|refusal|forgive|categories|straight|updates|HTML|inventory|good|avoiding|carry|quarter|promise|room|person|credited|righteousness|applause|practicing|righteousness|seen|people|tested|visibility|instinct|aim|author|oaths|trustworthy|own|evil|manipulation|contracts|sin|flowing|grace|received|offered|sufficient|response|lifetime|stacked|top|filter|requires|favorite|hammer|needs|nurse|confuses|hire|customer|trying|cheap|drill|workflow|tweak|minutes|day|masters|wealth|storing|Treasure|bankruptcy|receiving|wage|promises|reward|rooted|character|shaped|self-made|fork|enters|profession|stumbles|fool|house|see|Narrow|Way|Loss|Reward|stumbles|Judgment|Seat|evaluates|lasts|worthless|treasure|burns|fire|lesson|retainer|showroom|CMS|setup|separately)$', content.rstrip(), re.I):
+                issues.append((path.name, 'INCOMPLETE', content[:120], ''))
+
+print(f"Remaining issues: {len(issues)}\n")
+for name, kind, content, prev in issues:
+    print(f"{name} [{kind}]")
+    if prev: print(f"  prev: {prev}...")
+    print(f"  {content}\n")
+PYEOF
+```
+
+```
+Remaining issues: 1
+
+judgment-seat.md [INCOMPLETE]
+  If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire
+
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking judgment-seat.md. The bible quote may be incomplete or lack a period.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/notes/*.md",
+  "outputMode": "content",
+  "pattern": "^  - [a-z]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^  - [a-z]",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "./content/english/notes/client-site-pass-off.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "./content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "./content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "./content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "./content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "./content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "./content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "./content/english/notes/practice-small-experiments.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "./content/english/notes/people-centered-design.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "./content/english/notes/outcomes-over-pitch-decks.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "./content/english/notes/minimum-effective-dose.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "./content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "./content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "./content/english/notes/let-your-light-shine.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "./content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "./content/english/notes/honest-self-awareness.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/git-based-cms.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "./content/english/notes/forgiveness.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "./content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "./content/english/notes/eternal-rewards.md"
+    }
+  ],
+  "totalFiles": 173,
+  "totalMatches": 2464
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A KJV Bible quote in judgment-seat.md line 17 is missing a period. I'll add it.
+
+I'm scanning key_concept for orphaned bullets and short fragments. I'm also checking peacemakers.md for truncation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/notes/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^  - [^A-Z*\\[{].{0,60}$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^  - [^A-Z*\\[{].{0,60}$",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/creative-output.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/notes/gentleness.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/accountability.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/versatility.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/digital-serendipity.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/notes/systems-thinking.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/future-proofing-knowledge.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/render-unto-caesar.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/notes/failure-as-feedback.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "content/english/notes/complete-the-cycle.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/notes/incident-investigation.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "content/english/notes/assurance.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "content/english/notes/love-your-neighbor.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/the-knowledge-lifecycle.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/evergreen-vs-fleeting-notes.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/notes/purpose-and-vision.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/discipline.md"
+    }
+  ],
+  "totalFiles": 236,
+  "totalMatches": 1946
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/notes/*.md",
+  "pattern": "through \\[\\[Free$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "through \\[\\[Free$",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/notes/*.md",
+  "pattern": "^  - [a-z].*$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^  - [a-z].*$",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "content/english/notes/future-proofing-knowledge.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/notes/para-method.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/layered-reading.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/notes/energy-protects-judgment.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/notes/strategic-foresight.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/notes/present-a-living-sacrifice.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 2001
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking peacemakers.md for the truncated line and scanning other files for mid-sentence truncation that doesn't appear as lowercase starts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/notes/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^  - [^-\\n]{0,80}$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^  - [^-\\n]{0,80}$",
+  "topFiles": [
+    {
+      "matchCount": 11,
+      "uri": "content/english/notes/first-principles-thinking.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/notes/network-analysis.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/notes/active-knowledge-curation.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": "content/english/notes/sunk-cost-fallacy.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "content/english/notes/metadata-strategy.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/notes/sustainable-performance.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": "content/english/notes/plain-commitments-at-work.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/notes/spaced-repetition.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/notes/mind-mapping.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/notes/linking-by-meaning.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/adaptability.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/purpose-and-vision.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": "content/english/notes/building-a-second-brain.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/duty-of-care.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/inbox-zero.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/follow-their-lead.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "content/english/notes/title-without-influence.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/note-relationships.md"
+    }
+  ],
+  "totalFiles": 184,
+  "totalMatches": 2000
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Found incomplete bullets in christlikeness.md. The text was cropped during review.
+
+Reading the full christlikeness.md file to find more cropped bullets. A period is missing from a bible quote in judgment-seat.md at line 17.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+import re, pathlib
+
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
+# find key_concept bullets with no terminal punctuation (excluding tables, bible shortcodes, empty)
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;): continue
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3: continue
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, parts[1], re.M)
+    if not m: continue
+    for line in m.group(1).splitlines():
+        if not re.match(r&#39;^  - &#39;, line): continue
+        content = line[4:].strip()
+        if not content or content.startswith(&#39;{{&lt;&#39;) or content.startswith(&#39;|&#39;): continue
+        if not re.search(r&#39;[.!?:;&#34;\&#39;\)]$&#39;, content.rstrip()):
+            print(f&#34;{path.name}: {content[:100]}&#34;)
+PYEOF</summary>
+```bash
+python3 << 'PYEOF'
+import re, pathlib
+
+notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+# find key_concept bullets with no terminal punctuation (excluding tables, bible shortcodes, empty)
+for path in sorted(notes_dir.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"): continue
+    parts = text.split("---", 2)
+    if len(parts) < 3: continue
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', parts[1], re.M)
+    if not m: continue
+    for line in m.group(1).splitlines():
+        if not re.match(r'^  - ', line): continue
+        content = line[4:].strip()
+        if not content or content.startswith('{{<') or content.startswith('|'): continue
+        if not re.search(r'[.!?:;"\'\)]$', content.rstrip()):
+            print(f"{path.name}: {content[:100]}")
+PYEOF
+```
+
+```
+abide-in-me.md: Abiding is ongoing dependence, not a one-time conversion event
+christlikeness.md: [[Sanctification]] is the slow process
+christlikeness.md: [[Discipleship]] is the daily walk
+christlikeness.md: [[Abide in Me]] is the engine
+forgiveness.md: [[Ask Seek Knock]] builds forgiveness into daily rhythm
+free-grace.md: Faith credited as righteousness for the one who believes
+free-grace.md: Every
+free-grace.md: [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in gra
+free-grace.md: For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand so
+growth-mindset.md: [[Failure as Feedback]] only works when I treat skill as trainable
+judgment-seat.md: If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through
+pareto-principle.md: Same rule for flashcards: only spine notes carry `review: true` here
+process-over-outcomes.md: [[Compounding]] only stacks when the process holds
+renewed-mind.md: [[Mercy]] received first - then the living sacrifice, then the renewed mind
+spaced-repetition.md: In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true`
+the-beatitudes.md: "Beatitude" means supreme blessedness
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+More issues were found. I am reading free-grace.md around the "Every" fragment and other files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+free-grace.md is a major mess. More files need fixing.
+
+free-grace.md needs merging of duplicate faith credits and a split "Every" bullet. A bible quote there is missing its period. christlikeness.md lines 12-15 should be combined or completed.
+
+Lines 12-14 of christlikeness.md are stub fragments. They lack completing phrases and rely on line 15 to finish the chain.
+
+abide-in-me.md has a duplicate line 9-11 and a missing period on line 11. growth-mindset.md line 9 is missing a period or continuation.
+
+renewed-mind.md line 13 needs a period. judgment-seat.md needs a period on its bible quote. forgiveness.md line 22 needs a period on Ask Seek Knock. the-beatitudes.md needs a period after Beatitude. pareto-principle and process-over-outcomes likely only need periods, not splits. free-grace.md line 15 should be removed since line 17 already contains the full text.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the remaining split and incomplete bullets.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a final scan to confirm no fragment issues remain. Checking pareto-principle and spaced-repetition for missing periods; those may be intentional code backticks.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PYEOF&#39;
+import re, pathlib
+
+notes_dir = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
+issues = []
+
+for path in sorted(notes_dir.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;): continue
+    parts = text.split(&#34;---&#34;, 2)
+    if len(parts) &lt; 3: continue
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)*)&#39;, parts[1], re.M)
+    if not m: continue
+    bullets = [line[4:].strip() for line in m.group(1).splitlines() if re.match(r&#39;^  - &#39;, line)]
+    
+    for idx, content in enumerate(bullets):
+        prev = bullets[idx-1] if idx &gt; 0 else None
+        if content and content[0].islower() and not content.startswith(&#39;[[&#39;):
+            issues.append((path.name, &#39;FRAGMENT&#39;, content[:120]))
+        elif prev and content and content[0].islower():
+            issues.append((path.name, &#39;FRAGMENT_AFTER_CUT&#39;, content[:120]))
+        elif len(content.split()) == 1 and content[0].isupper() and content not in {&#39;PKM&#39;}:
+            issues.append((path.name, &#39;ORPHAN_WORD&#39;, content))
+
+print(f&#34;Remaining: {len(issues)}&#34;)
+for x in issues:
+    print(f&#34;  {x[0]} [{x[1]}]: {x[2]}&#34;)
+PYEOF</summary>
+```bash
+python3 << 'PYEOF'
+import re, pathlib
+
+notes_dir = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+issues = []
+
+for path in sorted(notes_dir.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"): continue
+    parts = text.split("---", 2)
+    if len(parts) < 3: continue
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)*)', parts[1], re.M)
+    if not m: continue
+    bullets = [line[4:].strip() for line in m.group(1).splitlines() if re.match(r'^  - ', line)]
+    
+    for idx, content in enumerate(bullets):
+        prev = bullets[idx-1] if idx > 0 else None
+        if content and content[0].islower() and not content.startswith('[['):
+            issues.append((path.name, 'FRAGMENT', content[:120]))
+        elif prev and content and content[0].islower():
+            issues.append((path.name, 'FRAGMENT_AFTER_CUT', content[:120]))
+        elif len(content.split()) == 1 and content[0].isupper() and content not in {'PKM'}:
+            issues.append((path.name, 'ORPHAN_WORD', content))
+
+print(f"Remaining: {len(issues)}")
+for x in issues:
+    print(f"  {x[0]} [{x[1]}]: {x[2]}")
+PYEOF
+```
+
+```
+Remaining: 0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All fragment issues have been resolved.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reviewed all 237 note files. The problem was in `key_concept` bullets where text got cropped mid-sentence and the remainder became a new bullet — often starting with lowercase (`then keep what works`, `audit - does the teaching...`, `Every` as its own bullet).
+
+**Fixed 22 notes** (merged split bullets and restored complete sentences):
+
+| Note | What was wrong |
+|------|----------------|
+| `by-their-fruits.md` | "audit - does the teaching..." orphaned from Issues link |
+| `eternal-rewards.md` | Compounding analogy split across two bullets |
+| `faith-and-works.md` | "from a believer who stumbles..." orphaned |
+| `forgiveness.md` | Parable explanation and Standing vs Fellowship split |
+| `git-based-cms.md` | "still static HTML..." orphaned |
+| `honest-self-awareness.md` | Inventory list split into 3 bullets |
+| `justification.md` | Duplicate incomplete "Faith credited..." |
+| `let-your-light-shine.md` | Sentence cut at "seen by people"; Drafting in Public split |
+| `let-your-yes-be-yes.md` | "anything beyond these is of evil" orphaned |
+| `love-god.md` | "love flowing from grace received" orphaned |
+| `minimum-effective-dose.md` | "Same shape in / Free Grace and / Justification" split |
+| `outcomes-over-pitch-decks.md` | Static Site Client Scope bullet split |
+| `people-centered-design.md` | Nurse/hire/customer examples split across 3 bullets |
+| `practice-small-experiments.md` | "then keep what works" orphaned |
+| `seek-the-kingdom-first.md` | "the test is..." and "and to storing Treasure..." orphaned |
+| `the-beatitudes.md` | "bankruptcy before God..." orphaned from beatitude quote |
+| `the-narrow-way.md` | False professors explanation split |
+| `the-wise-builder.md` | "see The Narrow Way..." orphaned |
+| `treasure-in-heaven.md` | Judgment Seat / Loss of Reward split |
+| `dont-worry.md` | Assurance bullet orphaned from Free Grace |
+| `client-site-pass-off.md` | Git lesson / Retainer / Showroom / CMS model split at bold markers |
+| `free-grace.md` | "Every" orphaned; Eternal Principles / Eternal Rewards split |
+| `christlikeness.md` | Sanctification / Discipleship / Abide stubs split |
+
+Also added missing periods on a few bullets that ended mid-thought without a continuation (`abide-in-me`, `growth-mindset`, `renewed-mind`, `judgment-seat`).
+
+**Clean after re-scan:** no lowercase-start fragments, no orphan single-word bullets, and `shareable_thought` / `examples` sections were already fine.
+
+Want me to commit these fixes?

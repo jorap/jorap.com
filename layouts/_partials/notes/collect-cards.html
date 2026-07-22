@@ -9,7 +9,7 @@
 
 {{- range partial "notes/pages.html" . -}}
   {{- $page := . -}}
-  {{- $body := $page.RawContent | strings.TrimSpace -}}
+  {{- $body := partial "notes/note-raw-body.html" $page | strings.TrimSpace -}}
   {{- $isReview := or (eq ($page.Params.review | default false) true) (in ($page.Params.tags | default slice) $reviewTag) -}}
 
   {{- if $isReview -}}

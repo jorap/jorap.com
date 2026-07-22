@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Evaluating Utterances versus Disqus and exploring alternative commenting platforms.
 
-Searching the codebase for existing comment configurations to provide tailored advice.</details></think>
+Searching the codebase for existing comment configurations to provide tailored advice.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,10 +25,8 @@ Checking what commenting setup the site uses so the comparison is grounded in yo
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -135,21 +134,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -257,52 +247,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the current Disqus setup, Hugo templates, and CSP headers to evaluate alternatives.</details></think>
+Reviewing the current Disqus setup, Hugo templates, and CSP headers to evaluate alternatives.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -333,21 +303,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -382,13 +343,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -406,27 +360,20 @@ Hyvor Talk is privacy-friendly but paid. Webmentions are fully decentralized, ye
 
 For a general audience, GitHub-only authentication would exclude many readers. If performance and privacy are priorities, Disqus is the clear worst choice. Giscus outperforms Utterances in nearly every way.
 
-Simply removing comments or linking to social profiles is also a valid option under the YAGNI philosophy.</details></think>
+Simply removing comments or linking to social profiles is also a valid option under the YAGNI philosophy.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -482,13 +429,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -498,7 +438,8 @@ I have enough context to compare Utterances and Disqus and suggest alternatives.
 
 The site runs on Hugo with Disqus currently. Utterances would improve privacy and performance but requires readers to have GitHub accounts. Disqus offers lower friction for general audiences.
 
-Giscus is preferable to Utterances for GitHub-based commenting. It uses GitHub Discussions rather than Issues and supports reactions. Removing comments entirely is also a valid option for static sites.</details></think>
+Giscus is preferable to Utterances for GitHub-based commenting. It uses GitHub Discussions rather than Issues and supports reactions. Removing comments entirely is also a valid option for static sites.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -588,7 +529,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Considering modern alternatives to the current social sharing icons.
 
-The current share section includes Facebook, X, Email, LinkedIn, and a copy link. Evaluating modern alternatives to add or replace these.</details></think>
+The current share section includes Facebook, X, Email, LinkedIn, and a copy link. Evaluating modern alternatives to add or replace these.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -597,11 +539,10 @@ Reviewing the current share implementation so recommendations fit what's already
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (4 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (4 files)
 
 | File |
 |------|
@@ -609,21 +550,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (4 files)
 | `_vendor/github.com/gethugothemes/hugo-modules/components/social-share/layouts/partials/social-share.html` |
 | `themes/jorap/layouts/_partials/components/social-share.html` |
 | `_vendor/github.com/gethugothemes/hugo-modules/components/social-share/assets/scss/social-share.scss` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -687,56 +619,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the social-share partial and share.js to identify current implementations and disabled options.</details></think>
+Reviewing the social-share partial and share.js to identify current implementations and disabled options.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/share.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/share.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/components/social-share/layouts/partials/social-share.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/components/social-share/layouts/partials/social-share.html</summary>
 
 </details></tool-use>
 
@@ -753,31 +661,20 @@ A compact "Share to..." menu is preferable to a row of icons. QR codes feel exce
 
 Tumblr, VK, and Pinterest are niche and declining. Facebook and X remain relevant for the intended audience.
 
-For jorap.com's Filipino, faith-based readers, WhatsApp may outperform LinkedIn. Messenger, Bluesky, and the Web Share API suit the tech crowd well. The next step is checking what variables the blog single template passes to the share partial.</details></think>
+For jorap.com's Filipino, faith-based readers, WhatsApp may outperform LinkedIn. Messenger, Bluesky, and the Web Share API suit the tech crowd well. The next step is checking what variables the blog single template passes to the share partial.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/components/social-share/layouts/partials/social-share.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/components/social-share/layouts/partials/social-share.html</summary>
 
 </details></tool-use>
 
@@ -790,7 +687,8 @@ Modern alternatives include the Web Share API, which opens a native mobile share
 
 Messenger and SMS are lightweight native options. Fediverse services like Mastodon offer share URLs through third-party tools. QR codes work well for print or casual conversations. Threads lacks a reliable official web intent URL.
 
-Open Graph meta tags affect how posts appear when shared. Hacker News offers a submit link URL for tech content. Line and Viber are popular in parts of Asia. For the Philippines, copy link is especially common since users paste links directly into Messenger groups.</details></think>
+Open Graph meta tags affect how posts appear when shared. Hacker News offers a submit link URL for tech content. Line and Viber are popular in parts of Asia. For the Philippines, copy link is especially common since users paste links directly into Messenger groups.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -876,7 +774,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Enabling WhatsApp requires only a single line in single.html. The remaining tasks are still being parsed.
 
-A Web Share button will sit before the icon row, with Facebook, X, email, and copy as desktop fallback. OG and meta tags need review for preview quality. The codebase is being explored to plan implementation.</details></think>
+A Web Share button will sit before the icon row, with Facebook, X, email, and copy as desktop fallback. OG and meta tags need review for preview quality. The codebase is being explored to plan implementation.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -885,10 +784,8 @@ I'll enable WhatsApp, add a Web Share button with desktop fallback, and verify y
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -984,22 +881,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **51** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts** (51 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts`** (51 files)
 
 | File |
 |------|
@@ -1054,21 +943,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts** (51 f
 | `_partials/sections/home-scope.html` |
 | `_partials/sections/home-writing.html` |
 | `term.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1115,13 +995,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1129,27 +1002,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking head.html for Open Graph tags and hugo.toml for site parameters.
 
-Now examining images, a sample blog post, icons.json for the hare icon, share.css, and the blog single.html template.</details></think>
+Now examining images, a sample blog post, icons.json for the hare icon, share.css, and the blog single.html template.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/head.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/head.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1180,94 +1046,58 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (2 files)
 
 | File |
 |------|
 | `content/english/blog/why-run-your-own-website.md` |
 | `static/exports/okf-blog/articles/why-run-your-own-website.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/module-overrides.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/module-overrides.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Locating the basic-seo.html partial referenced in head.html.</details></think>
+Locating the basic-seo.html partial referenced in head.html.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (2 files)
 
 | File |
 |------|
 | `_vendor/github.com/gethugothemes/hugo-modules/seo-tools/basic-seo/layouts/partials/basic-seo.html` |
 | `layouts/_partials/basic-seo.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1298,21 +1128,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1403,13 +1224,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1417,40 +1231,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Checking basic-seo.html and hugo.toml for image and SEO parameters.
 
-Reviewing icons.json for available icons and checking for a share icon.</details></think>
+Reviewing icons.json for available icons and checking for a share icon.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/basic-seo.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/basic-seo.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/seo-tools/basic-seo/layouts/partials/basic-seo.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/seo-tools/basic-seo/layouts/partials/basic-seo.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1481,40 +1282,27 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/icons.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/icons.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking hugo.toml and config/_default for the metadata section.</details></think>
+Checking hugo.toml and config/_default for the metadata section.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/config** (7 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/config`** (7 files)
 
 | File |
 |------|
@@ -1525,21 +1313,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com/config** (7 files)
 | `_default/menus.en.toml` |
 | `development/params.toml` |
 | `_default/params.toml` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1583,33 +1362,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `assets/images/website.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1617,60 +1381,39 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The blog post references `/images/website.jpg` from `static/`, but the image actually lives in `assets/images/`. That mismatch likely breaks the Open Graph image.
 
-Checking whether `static/images/website.jpg` exists as well.</details></think>
+Checking whether `static/images/website.jpg` exists as well.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `assets/images/website.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/page-meta-title.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/page-meta-title.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1730,13 +1473,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1748,42 +1484,28 @@ The SEO template adds "static/" to the image path, producing "static//images/web
 
 The assets check also produces a malformed path, `assets//images/website.jpg`, because the template prepends "assets/" to a value that already starts with a slash. This means both the static and assets lookups fail, so the template cannot locate the image at all.
 
-Hugo typically serves images from `static/` directly and processes them from `assets/`. The frontmatter path `/images/website.jpg` may work for the image partial but not for the SEO template. I need to verify whether a `static/images/` folder exists.</details></think>
+Hugo typically serves images from `static/` directly and processes them from `assets/`. The frontmatter path `/images/website.jpg` may work for the image partial but not for the SEO template. I need to verify whether a `static/images/` folder exists.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/image.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/image.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>/dev/null && curl -sS "http://localhost:1313/blog/why-run-your-own-website/" 2>/dev/null | head -1 || (hugo --minify -b https://www.jorap.com 2>&1 | tail -5)</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet 2&gt;/dev/null &amp;&amp; curl -sS &#34;http://localhost:1313/blog/why-run-your-own-website/&#34; 2&gt;/dev/null | head -1 || (hugo --minify -b https://www.jorap.com 2&gt;&amp;1 | tail -5)</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>/dev/null && curl -sS "http://localhost:1313/blog/why-run-your-own-website/" 2>/dev/null | head -1 || (hugo --minify -b https://www.jorap.com 2>&1 | tail -5)
 ```
@@ -1797,12 +1519,6 @@ Total in 17519 ms
 ]633;D;0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1810,49 +1526,34 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Waiting for the Hugo build to finish before checking the output.
 
-Found an OG image path bug. The basic SEO partial checks `static/` and `assets/` without stripping the leading slash, so it looks for `static//images/website.jpg` instead of `assets/images/website.jpg`. The image partial normalizes the path correctly, but basic-seo.html does not.</details></think>
+Found an OG image path bug. The basic SEO partial checks `static/` and `assets/` without stripping the leading slash, so it looks for `static//images/website.jpg` instead of `assets/images/website.jpg`. The image partial normalizes the path correctly, but basic-seo.html does not.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="await">
-<details>
-<summary>Tool use: **await**</summary>
-
-Status: **completed**
-
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="unknown" data-tool-name="await"><details>
 <summary>Tool use: **await**</summary>
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the why-run-your-own-website page HTML for Open Graph tags.</details></think>
+Checking the why-run-your-own-website page HTML for Open Graph tags.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/613654.txt</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/613654.txt</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1878,13 +1579,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -1892,30 +1586,21 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The public folder structure may differ.
 
-Searching for the built file.</details></think>
+Searching for the built file.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/public** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/public`** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1942,26 +1627,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The public folder structure may differ. The blog could be under an English path.</details></think>
+The public folder structure may differ. The blog could be under an English path.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1988,13 +1665,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2002,13 +1672,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The public directory seems to be missing from the workspace, or the build output was placed elsewhere.
 
-Listing the public directory contents.</details></think>
+Listing the public directory contents.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/ 2>&1 | head -5; rg -l "og:image" /home/jorap/Documents/GitHub/jorap.com/public/blog/ 2>/dev/null | head -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/ 2&gt;&amp;1 | head -5; rg -l &#34;og:image&#34; /home/jorap/Documents/GitHub/jorap.com/public/blog/ 2&gt;/dev/null | head -3</summary>
 ```bash
 ls /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/ 2>&1 | head -5; rg -l "og:image" /home/jorap/Documents/GitHub/jorap.com/public/blog/ 2>/dev/null | head -3
 ```
@@ -2022,45 +1692,32 @@ index.xml
 /home/jorap/Documents/GitHub/jorap.com/public/blog/password-managers/index.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the page's Open Graph tags in index.html.</details></think>
+Checking the page's Open Graph tags in index.html.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rg "og:|twitter:" /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg &#34;og:|twitter:&#34; /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html</summary>
 ```bash
 rg "og:|twitter:" /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html
 ```
 
 ```
-&lt;!doctype html&gt;&lt;html itemscope class=h-full lang=en itemtype=http://schema.org/WebPage&gt;&lt;head&gt;&lt;meta charset=utf-8&gt;&lt;meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"&gt;&lt;script&gt;(function(){try{var e,t=null;try{t=localStorage.getItem("theme")}catch{}t==="dark"?e=!0:t==="light"?e=!1:e=!!(window.matchMedia&amp;&amp;window.matchMedia("(prefers-color-scheme: dark)").matches),document.documentElement.classList[e?"add":"remove"]("dark")}catch{}})()&lt;/script&gt;&lt;meta name=theme-name content="jorap"&gt;&lt;link rel="shortcut icon" href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon&gt;&lt;link rel=icon href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon&gt;&lt;link rel=icon type=image/png sizes=48x48 href=/images/jorap_hu_2114a78a17e4e1a5.png&gt;&lt;link rel=icon type=image/png sizes=96x96 href=/images/jorap_hu_9dc0267744949652.png&gt;&lt;link rel=apple-touch-icon sizes=144x144 href=/images/jorap_hu_364f2c7ce706e3bb.png&gt;&lt;link rel=manifest href=/manifest.webmanifest&gt;&lt;meta name=msapplication-TileColor content="#ddd"&gt;&lt;meta name=theme-color content="#ffffff"&gt;&lt;title&gt;Why I Still Run My Own Website - Not Just Facebook | JoRap Notes&lt;/title&gt;&lt;meta name=keywords content="JoRap Notes,JoRap,JoRap.com,Jonathan Rapusas,front-end developer,WordPress,Hugo,static sites,Metro Manila,remote"&gt;&lt;meta name=description content="People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."&gt;&lt;meta name=author content="JoRap"&gt;&lt;meta property="og:image" content="https://www.jorap.com/images/website.jpg"&gt;&lt;meta name=twitter:image content="https://www.jorap.com/images/website.jpg"&gt;&lt;meta name=twitter:card content="summary_large_image"&gt;&lt;meta property="og:image:width" content="851"&gt;&lt;meta property="og:image:height" content="428"&gt;&lt;meta property="og:image:type" content="image/.jpg"&gt;&lt;meta property="og:title" content="Why I Still Run My Own Website - Not Just Facebook | JoRap Notes"&gt;&lt;meta property="og:description" content="People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."&gt;&lt;meta property="og:type" content="website"&gt;&lt;meta property="og:url" content="https://www.jorap.com/blog/why-run-your-own-website/"&gt;&lt;meta name=twitter:title content="Why I Still Run My Own Website - Not Just Facebook | JoRap Notes"&gt;&lt;meta name=twitter:description content="People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."&gt;&lt;meta name=twitter:site content="@jorap"&gt;&lt;meta name=twitter:creator content="@JoRap"&gt;&lt;script&gt;let indexURL="/searchindex.json",includeSectionsInSearch=["blog","notes"],search_no_results="No results for",search_initial_message="Type something to search.."&lt;/script&gt;
-
+<!doctype html><html itemscope class=h-full lang=en itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"><script>(function(){try{var e,t=null;try{t=localStorage.getItem("theme")}catch{}t==="dark"?e=!0:t==="light"?e=!1:e=!!(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches),document.documentElement.classList[e?"add":"remove"]("dark")}catch{}})()</script><meta name=theme-name content="jorap"><link rel="shortcut icon" href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon><link rel=icon href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon><link rel=icon type=image/png sizes=48x48 href=/images/jorap_hu_2114a78a17e4e1a5.png><link rel=icon type=image/png sizes=96x96 href=/images/jorap_hu_9dc0267744949652.png><link rel=apple-touch-icon sizes=144x144 href=/images/jorap_hu_364f2c7ce706e3bb.png><link rel=manifest href=/manifest.webmanifest><meta name=msapplication-TileColor content="#ddd"><meta name=theme-color content="#ffffff"><title>Why I Still Run My Own Website - Not Just Facebook | JoRap Notes</title><meta name=keywords content="JoRap Notes,JoRap,JoRap.com,Jonathan Rapusas,front-end developer,WordPress,Hugo,static sites,Metro Manila,remote"><meta name=description content="People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."><meta name=author content="JoRap"><meta property="og:image" content="https://www.jorap.com/images/website.jpg"><meta name=twitter:image content="https://www.jorap.com/images/website.jpg"><meta name=twitter:card content="summary_large_image"><meta property="og:image:width" content="851"><meta property="og:image:height" content="428"><meta property="og:image:type" content="image/.jpg"><meta property="og:title" content="Why I Still Run My Own Website - Not Just Facebook | JoRap Notes"><meta property="og:description" content="Peo
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg -l 'image: "/images/' content/english/blog/*.md | wc -l; rg -l 'image: "images/' content/english/blog/*.md | wc -l; rg -L 'image:' content/english/blog/*.md 2>/dev/null | head -10</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -l &#39;image: &#34;/images/&#39; content/english/blog/*.md | wc -l; rg -l &#39;image: &#34;images/&#39; content/english/blog/*.md | wc -l; rg -L &#39;image:&#39; content/english/blog/*.md 2&gt;/dev/null | head -10</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg -l 'image: "/images/' content/english/blog/*.md | wc -l; rg -l 'image: "images/' content/english/blog/*.md | wc -l; rg -L 'image:' content/english/blog/*.md 2>/dev/null | head -10
 ```
@@ -2080,12 +1737,6 @@ content/english/blog/extension-cord.md:image: "/images/extension-cord.jpg"
 content/english/blog/__shopee-tips.md:image: "/images/image-template.jpg"
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2095,13 +1746,13 @@ The built HTML reveals some interesting findings.
 
 The image URL is correct. A bug sets `og:image:type` to `image/.jpg` instead of `image/jpeg`. The title and description look good. The absolute permalink is confirmed. Next step is checking if the image resolves on production and whether the type bug exists in basic-seo.
 
-Checking if the image file exists in the public directory. Looking for posts without images that might fall back to a default. The canonical link is absent, which is fine.</details></think>
+Checking if the image file exists in the public directory. Looking for posts without images that might fall back to a default. The canonical link is absent, which is fine.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2>&1; file /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2>&1; identify /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2>/dev/null || python3 -c "from PIL import Image; i=Image.open('/home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg'); print(i.size)" 2>/dev/null || echo "no identify"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2&gt;&amp;1; file /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2&gt;&amp;1; identify /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2&gt;/dev/null || python3 -c &#34;from PIL import Image; i=Image.open(&#39;/home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg&#39;); print(i.size)&#34; 2&gt;/dev/null || echo &#34;no identify&#34;</summary>
 ```bash
 ls -la /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2>&1; file /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2>&1; identify /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2>/dev/null || python3 -c "from PIL import Image; i=Image.open('/home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg'); print(i.size)" 2>/dev/null || echo "no identify"
 ```
@@ -2112,20 +1763,12 @@ ls -la /home/jorap/Documents/GitHub/jorap.com/public/images/website.jpg 2>&1; fi
 (851, 428)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2214,20 +1857,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do rg -q '^image:' "$f" || echo "NO_IMAGE: $f"; done | head -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/*.md; do rg -q &#39;^image:&#39; &#34;$f&#34; || echo &#34;NO_IMAGE: $f&#34;; done | head -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do rg -q '^image:' "$f" || echo "NO_IMAGE: $f"; done | head -15
 ```
@@ -2236,12 +1871,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md;
 NO_IMAGE: content/english/blog/_index.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2257,13 +1886,13 @@ The else branch is skipped because the asset image check also fails. The static 
 
 The static branch is confirmed active because the built URL lacks a hash. The `fileExists` check against `static/` appears to pass for `/images/website.jpg`, suggesting either a static source file exists or Hugo resolves the path differently during build.
 
-The double slash in the static path may normalize to a single slash. No static/images folder exists in the source. Hugo does not mount assets into static during builds. The next step is to verify whether static/images/website.jpg actually exists in the source tree.</details></think>
+The double slash in the static path may normalize to a single slash. No static/images folder exists in the source. Hugo does not mount assets into static during builds. The next step is to verify whether static/images/website.jpg actually exists in the source tree.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/static/images/website.jpg 2>&1; ls /home/jorap/Documents/GitHub/jorap.com/static/images/ 2>&1 | head -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/static/images/website.jpg 2&gt;&amp;1; ls /home/jorap/Documents/GitHub/jorap.com/static/images/ 2&gt;&amp;1 | head -5</summary>
 ```bash
 ls -la /home/jorap/Documents/GitHub/jorap.com/static/images/website.jpg 2>&1; ls /home/jorap/Documents/GitHub/jorap.com/static/images/ 2>&1 | head -5
 ```
@@ -2273,24 +1902,12 @@ ls: cannot access '/home/jorap/Documents/GitHub/jorap.com/static/images/website.
 ls: cannot access '/home/jorap/Documents/GitHub/jorap.com/static/images/': No such file or directory
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
@@ -2311,27 +1928,20 @@ The static branch is confirmed because the public folder contains the raw image 
 
 The `fileExists` check against `static/` should fail because `static/images/website.jpg` does not exist in the source tree. Page bundle resources are unlikely to match here. The next step is to inspect `module.toml` for an image mount.
 
-The `image/.jpg` type bug proves the assets branch is active. The static branch never emits `image:type`. The assets branch is also the only place that sets width and height. This confirms the image is being resolved through `resources.Get`.</details></think>
+The `image/.jpg` type bug proves the assets branch is active. The static branch never emits `image:type`. The assets branch is also the only place that sets width and height. This confirms the image is being resolved through `resources.Get`.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/module.toml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/module.toml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2357,26 +1967,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-No Web Share icon exists in icons.json. I'll add one or reuse an existing icon like "arrow-up".</details></think>
+No Web Share icon exists in icons.json. I'll add one or reuse an existing icon like "arrow-up".
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2402,25 +2004,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/icons.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/icons.json</summary>
 
 </details></tool-use>
 
@@ -2441,7 +2030,8 @@ The native share button will use the same `.share-link` CSS class. It stays hidd
 
 Only `layouts/blog/single.html` needs editing, since the root layout already overrides the theme version. The native share button will appear first in the row, followed by the existing icons. LinkedIn remains in the enabled list. The share icon SVG is being added to `icons.json`.
 
-The share icon is now defined in icons.json using the standard Material path. A pre-existing WhatsApp URL encoding issue was noted but left untouched, since the user did not request a fix.</details></think>
+The share icon is now defined in icons.json using the standard Material path. A pre-existing WhatsApp URL encoding issue was noted but left untouched, since the user did not request a fix.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2450,121 +2040,57 @@ Implementing WhatsApp + Web Share, and fixing the `og:image:type` bug found duri
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/single.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/share.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/share.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/share.js</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/share.js</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/icons.json</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/icons.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/basic-seo.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/basic-seo.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/basic-seo.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/basic-seo.html</summary>
 
 </details></tool-use>
 
@@ -2573,28 +2099,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The same change should be applied to themes/jorap/layouts/blog/single.html for consistency.
 
-The notes single layout may also need share updates. Rebuilding to verify OG tags and share markup. A blog og:type improvement is noted as scope creep.</details></think>
+The notes single layout may also need share updates. Rebuilding to verify OG tags and share markup. A blog og:type improvement is noted as scope creep.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify -b https://www.jorap.com 2>&1 | tail -3 && rg "og:image|share-native|share-whatsapp|og:image:type" /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify -b https://www.jorap.com 2&gt;&amp;1 | tail -3 &amp;&amp; rg &#34;og:image|share-native|share-whatsapp|og:image:type&#34; /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify -b https://www.jorap.com 2>&1 | tail -3 && rg "og:image|share-native|share-whatsapp|og:image:type" /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html
 ```
@@ -2603,17 +2121,9 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify -b https://www.jorap.
  Cleaned          │    0 
 
 Total in 21985 ms
-&lt;!doctype html&gt;&lt;html itemscope class=h-full lang=en itemtype=http://schema.org/WebPage&gt;&lt;head&gt;&lt;meta charset=utf-8&gt;&lt;meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"&gt;&lt;script&gt;(function(){try{var e,t=null;try{t=localStorage.getItem("theme")}catch{}t==="dark"?e=!0:t==="light"?e=!1:e=!!(window.matchMedia&amp;&amp;window.matchMedia("(prefers-color-scheme: dark)").matches),document.documentElement.classList[e?"add":"remove"]("dark")}catch{}})()&lt;/script&gt;&lt;meta name=theme-name content="jorap"&gt;&lt;link rel="shortcut icon" href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon&gt;&lt;link rel=icon href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon&gt;&lt;link rel=icon type=image/png sizes=48x48 href=/images/jorap_hu_2114a78a17e4e1a5.png&gt;&lt;link rel=icon type=image/png sizes=96x96 href=/images/jorap_hu_9dc0267744949652.png&gt;&lt;link rel=apple-touch-icon sizes=144x144 href=/images/jorap_hu_364f2c7ce706e3bb.png&gt;&lt;link rel=manifest href=/manifest.webmanifest&gt;&lt;meta name=msapplication-TileColor content="#ddd"&gt;&lt;meta name=theme-color content="#ffffff"&gt;&lt;title&gt;Why I Still Run My Own Website - Not Just Facebook | JoRap Notes&lt;/title&gt;&lt;meta name=keywords content="JoRap Notes,JoRap,JoRap.com,Jonathan Rapusas,front-end developer,WordPress,Hugo,static sites,Metro Manila,remote"&gt;&lt;meta name=description content="People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."&gt;&lt;meta name=author content="JoRap"&gt;&lt;meta property="og:image" content="https://www.jorap.com/images/website.jpg"&gt;&lt;meta name=twitter:image content="https://www.jorap.com/images/website.jpg"&gt;&lt;meta name=twitter:card content="summary_large_image"&gt;&lt;meta property="og:image:width" content="851"&gt;&lt;meta property="og:image:height" content="428"&gt;&lt;meta property="og:image:type" content="image/jpeg"&gt;&lt;meta property="og:title" content="Why I Still Run My Own Website - Not Just Facebook | JoRap Notes"&gt;&lt;meta property="og:description" content="People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."&gt;&lt;meta property="og:type" content="website"&gt;&lt;meta property="og:url" content="https://www.jorap.com/blog/why-run-your-own-website/"&gt;&lt;meta name=twitter:title content="Why I Still Run My Own Website - Not Just Facebook | JoRap Notes"&gt;&lt;meta name=twitter:description content="People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."&gt;&lt;meta name=twitter:site content="@jorap"&gt;&lt;meta name=twitter:creator content="@JoRap"&gt;&lt;script&gt;let indexURL="/searchindex.json",includeSectionsInSearch=["blog","notes"],search_no_results="No results for",search_initial_message="Type something to search.."&lt;/script&gt;
-&lt;span id=toc-chevron class="shrink-0 transition-transform duration-300 ease-out motion-reduce:transition-none" aria-hidden=true&gt;&lt;svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor" aria-hidden="true"&gt;&lt;path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/button&gt;&lt;div id=mobile-toc-panel class="mobile-toc-content mt-4 hidden"&gt;&lt;div class="table-of-content toc-links"&gt;&lt;nav id=TableOfContents&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=#you-actually-own-it&gt;You actually own it&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#you-get-to-make-it-look-like-you&gt;You get to make it look like &lt;em&gt;you&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#its-a-real-portfolio&gt;It&amp;rsquo;s a real portfolio&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#writing-things-out-makes-you-smarter&gt;Writing things out makes you smarter&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#search-engines-still-send-people-your-way&gt;Search engines still send people your way&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#you-can-see-whats-actually-working&gt;You can see what&amp;rsquo;s actually working&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#the-cost-is-not-the-thing-stopping-you&gt;The cost is not the thing stopping you&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#but-isnt-it-a-lot-of-work&gt;&amp;ldquo;But isn&amp;rsquo;t it a lot of work?&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#what-i-actually-do&gt;What I actually do&lt;/a&gt;&lt;/li&gt;&lt;li class=toc-level-2&gt;&lt;a href=#related-posts&gt;Related Posts&lt;/a&gt;&lt;/li&gt;&lt;li class=toc-level-2&gt;&lt;a href=#related-notes&gt;Related Notes&lt;/a&gt;&lt;/li&gt;&lt;li class=toc-level-2&gt;&lt;a href=#random-note&gt;Random Note&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="content mb-10"&gt;&lt;p&gt;Every time I tell someone I run my own website, the reaction is usually the same: &amp;ldquo;Why? Just post on Facebook.&amp;rdquo; And I get it. Social media is easy. The audience is already there.&lt;/p&gt;&lt;p&gt;But this site is where my &lt;strong&gt;notes garden&lt;/strong&gt;, my &lt;strong&gt;extension-cord&lt;/strong&gt; post that still gets search traffic, and my &lt;strong&gt;Alex Eala tracker&lt;/strong&gt; live - none of which I&amp;rsquo;d trust to a platform that can throttle reach or change export rules overnight. After years of bouncing between platforms and &lt;a href=/blog/how-i-built-jorap-notes/&gt;losing old PHP hosting&lt;/a&gt; with a chunk of my work, I keep coming back to one conclusion: nothing beats a place that&amp;rsquo;s actually mine.&lt;/p&gt;&lt;hr&gt;&lt;h2 id=you-actually-own-it&gt;You actually own it&lt;/h2&gt;&lt;p&gt;This is the big one for me. On Facebook, Instagram, YouTube, or any other platform, you&amp;rsquo;re a tenant. You can be evicted, the building can be torn down, or the landlord can suddenly decide your kind of content isn&amp;rsquo;t allowed anymore.&lt;/p&gt;&lt;p&gt;It&amp;rsquo;s not a hypothetical. Vine vanished overnight in 2017 and took everyone&amp;rsquo;s videos with it. Google+ shut down. MySpace lost over a decade of users&amp;rsquo; music. Flickr slashed free accounts to a thousand photos and wiped the rest. Facebook quietly throttled organic reach for business pages from around 16% down to roughly 2%, and millions of small businesses lost the audience they&amp;rsquo;d spent years building. TikTok keeps shifting under creators&amp;rsquo; feet. Even Twitter - sorry, X - broke thousands of tools and apps when it changed its API.&lt;/p&gt;&lt;p&gt;Your website doesn&amp;rsquo;t have any of those problems. You decide what stays, what gets deleted, and how long it lives. If your hosting provider goes down, you point your domain somewhere else. You don&amp;rsquo;t lose your work.&lt;/p&gt;&lt;hr&gt;&lt;h2 id=you-get-to-make-it-look-like-you&gt;You get to make it look like &lt;em&gt;you&lt;/em&gt;&lt;/h2&gt;&lt;p&gt;Every social platform looks the same as every other account on that platform. Same layout, same fonts, same little quirks. Your &amp;ldquo;profile&amp;rdquo; is a row of squares.&lt;/p&gt;&lt;p&gt;A website is a blank canvas. You pick the colors, the typography, the navigation, the way images crop, the way posts feel. A photographer can build a moody, minimalist gallery. A church can lean warm and approachable. A developer can show off their work without trying to squeeze it into a LinkedIn carousel.&lt;/p&gt;&lt;p&gt;The personality of a brand or a person comes through so much more clearly when the container itself is part of the message.&lt;/p&gt;&lt;hr&gt;&lt;h2 id=its-a-real-portfolio&gt;It&amp;rsquo;s a real portfolio&lt;/h2&gt;&lt;p&gt;Your website is the one place where all your work can live together, in the order you want, with the context you want, free from algorithms shuffling it around. A designer can show case studies instead of one-off posts. A writer can group articles by topic. A consultant can put their best testimonials front and center instead of hoping they show up on a recommendations tab somewhere.&lt;/p&gt;&lt;p&gt;It also signals something subtle but important: that you took the work seriously enough to give it a home.&lt;/p&gt;&lt;hr&gt;&lt;h2 id=writing-things-out-makes-you-smarter&gt;Writing things out makes you smarter&lt;/h2&gt;&lt;p&gt;The act of writing a blog post - having to organize my thoughts well enough that a stranger could follow them - has taught me more than any course. When I wrote &lt;a href=/blog/drupal-to-wordpress/&gt;why I switched from Drupal to WordPress&lt;/a&gt;, I found out fast which parts I actually understood and which I&amp;rsquo;d been hand-waving for years.&lt;/p&gt;&lt;p&gt;And when other people start finding those posts through search, you realize you&amp;rsquo;ve quietly built up a useful little library - both for yourself and for everyone who comes after you with the same question.&lt;/p&gt;&lt;hr&gt;&lt;h2 id=search-engines-still-send-people-your-way&gt;Search engines still send people your way&lt;/h2&gt;&lt;p&gt;Social media is great for connecting with people who already follow you. Search engines are great for being found by people who &lt;em&gt;don&amp;rsquo;t&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Most online journeys still start at Google. A well-written post on your own site can keep pulling in visitors years after you publish it, with no extra effort from you. A friend&amp;rsquo;s Facebook post about the same topic is buried within a day. SEO isn&amp;rsquo;t magic and it isn&amp;rsquo;t instant, but if you publish consistently and write things people actually want to read, the search traffic compounds in a way social posts simply don&amp;rsquo;t.&lt;/p&gt;&lt;p&gt;I have posts on this site that I wrote a year ago and barely think about anymore - they&amp;rsquo;re still getting visitors every week.&lt;/p&gt;&lt;hr&gt;&lt;h2 id=you-can-see-whats-actually-working&gt;You can see what&amp;rsquo;s actually working&lt;/h2&gt;&lt;p&gt;With your own site, you can install analytics and find out what people are reading, where they came from, how long they stuck around, and what made them leave. Not vanity metrics, real ones.&lt;/p&gt;&lt;p&gt;Social platforms give you a thin slice of this, and only for the content you&amp;rsquo;ve posted there. With your own site you get the whole picture, and you can use it to write better, design better, and stop wasting time on things nobody cares about.&lt;/p&gt;&lt;hr&gt;&lt;h2 id=the-cost-is-not-the-thing-stopping-you&gt;The cost is not the thing stopping you&lt;/h2&gt;&lt;p&gt;People assume websites are expensive. Some are. Mine isn&amp;rsquo;t.&lt;/p&gt;&lt;p&gt;This site runs on Hugo, hosted free on Cloudflare Pages, with source on GitHub. The only thing I pay for is the domain - a small annual renewal. That&amp;rsquo;s less than two months of any halfway-serious social media ad campaign.&lt;/p&gt;&lt;p&gt;Even if you don&amp;rsquo;t want to mess with code, modern site builders (Squarespace, Wix, WordPress) will get you a clean, mobile-friendly site for the cost of a couple of coffees a month. The financial barrier mostly doesn&amp;rsquo;t exist anymore.&lt;/p&gt;&lt;p&gt;(If you&amp;rsquo;re curious how I built this one, &lt;a href=/blog/how-i-built-jorap-notes&gt;I wrote about that too&lt;/a&gt;.)&lt;/p&gt;&lt;hr&gt;&lt;h2 id=but-isnt-it-a-lot-of-work&gt;&amp;ldquo;But isn&amp;rsquo;t it a lot of work?&amp;rdquo;&lt;/h2&gt;&lt;p&gt;Honestly? Less than you&amp;rsquo;d think.&lt;/p&gt;&lt;p&gt;Once it&amp;rsquo;s set up, a personal site might need an hour or two of attention a month. Writing posts takes whatever writing takes - but you&amp;rsquo;d be writing those captions and threads anyway. The big upfront cost is choosing a platform and getting it live. After that, it mostly just sits there working for you.&lt;/p&gt;&lt;p&gt;Compare that to the constant treadmill of producing content for someone else&amp;rsquo;s algorithm, and a website starts to look like the &lt;em&gt;less&lt;/em&gt; exhausting option.&lt;/p&gt;&lt;hr&gt;&lt;h2 id=what-i-actually-do&gt;What I actually do&lt;/h2&gt;&lt;p&gt;I still post on social for reach. The site holds what I want findable in five years - essays, reference posts, stuff I&amp;rsquo;d hate to lose in a platform pivot.&lt;/p&gt;&lt;p&gt;I&amp;rsquo;m not asking you to quit Facebook. I sleep better with a backup I control. If that sounds worth an evening of setup, start small: one page, one post, one thing you&amp;rsquo;d miss if the app disappeared tomorrow.&lt;/p&gt;&lt;div class="not-prose mb-2 tags_section"&gt;&lt;p class="mb-2 font-semibold text-ink"&gt;Tags&lt;/p&gt;&lt;ul class="flex flex-wrap gap-2"&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none inline-flex min-h-11 items-center rounded px-3 py-2" href=/tags/personal-website/&gt;Personal Website&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none inline-flex min-h-11 items-center rounded px-3 py-2" href=/tags/self-hosting/&gt;Self-Hosting&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none inline-flex min-h-11 items-center rounded px-3 py-2" href=/tags/content-ownership/&gt;Content Ownership&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none inline-flex min-h-11 items-center rounded px-3 py-2" href=/tags/platform-risk/&gt;Platform Risk&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none inline-flex min-h-11 items-center rounded px-3 py-2" href=/tags/blogging/&gt;Blogging&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none inline-flex min-h-11 items-center rounded px-3 py-2" href=/tags/website-building/&gt;Website Building&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none inline-flex min-h-11 items-center rounded px-3 py-2" href=/tags/digital-garden/&gt;Digital Garden&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none inline-flex min-h-11 items-center rounded px-3 py-2" href=/tags/publishing/&gt;Publishing&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none inline-flex min-h-11 items-center rounded px-3 py-2" href=/tags/personal-branding/&gt;Personal Branding&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="mb-2 share_section"&gt;&lt;p class="not-prose mb-2 font-semibold text-ink"&gt;Share&lt;/p&gt;&lt;div class=share-icons&gt;&lt;button type=button class="share-link share-native" hidden data-share-native data-share-title="Why I Still Run My Own Website" data-share-url=https://www.jorap.com/blog/why-run-your-own-website/ aria-label=share&gt;
-&lt;/span&gt;&lt;/a&gt;&lt;a class="share-link share-whatsapp" href=#ZgotmplZ target=_blank rel=noopener aria-label="share whatsapp"&gt;&lt;span class=share-icon aria-hidden=true&gt;&lt;svg viewBox="0 0 24 24" class="" fill="currentColor" aria-hidden="true"&gt;&lt;path d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3.0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7.0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1.0-5.2 4.2-9.4 9.4-9.4 2.5.0 4.9 1 6.7 2.8s2.8 4.2 2.8 6.7c-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2s0-.5.1-.6.3-.3.4-.5c.2-.1.3-.3.4-.5s0-.4.0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3z"/&gt;&lt;/svg&gt;
-
+<!doctype html><html itemscope class=h-full lang=en itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"><script>(function(){try{var e,t=null;try{t=localStorage.getItem("theme")}catch{}t==="dark"?e=!0:t==="light"?e=!1:e=!!(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches),document.documentElement.classList[e?"add":"remove"]("dark")}catch{}})()</script><meta name=theme-name content="jorap"><link rel="shortcut icon" href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon><link rel=icon href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon><link rel=icon type=image/png sizes=48x48 href=/images/jorap_hu_2114a78a17e4e1a5.png><link rel=icon type=image/png sizes=96x96 href=/images/jorap_hu_9dc0267744949652.png><link rel=apple-touch-icon sizes=144x144 href=/images/jorap_hu_364f2c7ce706e3bb.png><link rel=manifest href=/manifest.webmanifest><meta name=msapplication-TileColor content="#ddd"><meta name=theme-color content="#ffffff"><title>Why I Still Run My Own Website - Not Just Facebook | JoRap Notes</title><meta name=keywords content="JoRap Notes,JoRap,JoRap.com,Jonathan Rapusas,front-end developer,WordPress,Hugo,static sites,Metro Manila,remote"><meta name=description content="People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."><meta name=author content="JoRap"><meta property="og:image" content="https://www.jorap.com/images/website.jpg"><meta name=twitter:image content="https://www.jorap.com/images/website.jpg"><meta name=twitter:card content="summary_large_image"><meta property="og:image:width" content="851"><meta property="og:image:height" content="428"><meta property="og:image:type" content="image/jpeg"><meta property="og:title" content="Why I Still Run My Own Website - Not Just Facebook | JoRap Notes"
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2621,7 +2131,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Hugo's security sanitizer stripped the `whatsapp://` URL scheme from the WhatsApp link. The href currently shows `#ZgotmplZ`.
 
-The fix is to replace `whatsapp://` with `https://wa.me/`. This avoids Hugo's sanitizer stripping the scheme. Title and URL also need `urlquery` encoding across all share links.</details></think>
+The fix is to replace `whatsapp://` with `https://wa.me/`. This avoids Hugo's sanitizer stripping the scheme. Title and URL also need `urlquery` encoding across all share links.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2630,31 +2141,15 @@ WhatsApp link was stripped by Hugo's URL sanitizer — switching to the `https:/
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
 
 </details></tool-use>
 
@@ -2663,13 +2158,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Rebuilding to verify the WhatsApp URL.
 
-Fetching live production OG tags via curl to check the current link preview setup.</details></think>
+Fetching live production OG tags via curl to check the current link preview setup.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify -b https://www.jorap.com 2>&1 | tail -1 && rg -o 'share-whatsapp[^>]+href="[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html && rg -o 'og:image[^>]+content="[^"]+"|og:image:type[^>]+content="[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify -b https://www.jorap.com 2&gt;&amp;1 | tail -1 &amp;&amp; rg -o &#39;share-whatsapp[^&gt;]+href=&#34;[^&#34;]+&#34;&#39; /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html &amp;&amp; rg -o &#39;og:image[^&gt;]+content=&#34;[^&#34;]+&#34;|og:image:type[^&gt;]+content=&#34;[^&#34;]+&#34;&#39; /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify -b https://www.jorap.com 2>&1 | tail -1 && rg -o 'share-whatsapp[^>]+href="[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html && rg -o 'og:image[^>]+content="[^"]+"|og:image:type[^>]+content="[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html
 ```
@@ -2683,19 +2178,12 @@ og:image:height" content="428"
 og:image:type" content="image/jpeg"
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sS -L "https://www.jorap.com/blog/why-run-your-own-website/" 2>/dev/null | rg -o 'property="og:[^"]+" content="[^"]+"|name="twitter:[^"]+" content="[^"]+"' | head -12</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -sS -L &#34;https://www.jorap.com/blog/why-run-your-own-website/&#34; 2&gt;/dev/null | rg -o &#39;property=&#34;og:[^&#34;]+&#34; content=&#34;[^&#34;]+&#34;|name=&#34;twitter:[^&#34;]+&#34; content=&#34;[^&#34;]+&#34;&#39; | head -12</summary>
 ```bash
 curl -sS -L "https://www.jorap.com/blog/why-run-your-own-website/" 2>/dev/null | rg -o 'property="og:[^"]+" content="[^"]+"|name="twitter:[^"]+" content="[^"]+"' | head -12
 ```
@@ -2711,12 +2199,6 @@ property="og:type" content="website"
 property="og:url" content="https://www.jorap.com/blog/why-run-your-own-website/"
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2724,13 +2206,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The local build now correctly sets og:image:type.
 
-Production still uses the old image type until deploy. Verifying the OG image URL is accessible on production.jp.</details></think>
+Production still uses the old image type until deploy. Verifying the OG image URL is accessible on production.jp.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sSI "https://www.jorap.com/images/website.jpg" 2>/dev/null | rg -i "HTTP/|content-type|content-length"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -sSI &#34;https://www.jorap.com/images/website.jpg&#34; 2&gt;/dev/null | rg -i &#34;HTTP/|content-type|content-length&#34;</summary>
 ```bash
 curl -sSI "https://www.jorap.com/images/website.jpg" 2>/dev/null | rg -i "HTTP/|content-type|content-length"
 ```
@@ -2741,19 +2223,12 @@ content-type: image/jpeg
 x-content-type-options: nosniff
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg -L '^image:' content/english/blog/*.md | rg -v '_index' | wc -l; rg -c '^draft: true' content/english/blog/*.md | rg ':1$' | wc -l</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -L &#39;^image:&#39; content/english/blog/*.md | rg -v &#39;_index&#39; | wc -l; rg -c &#39;^draft: true&#39; content/english/blog/*.md | rg &#39;:1$&#39; | wc -l</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg -L '^image:' content/english/blog/*.md | rg -v '_index' | wc -l; rg -c '^draft: true' content/english/blog/*.md | rg ':1$' | wc -l
 ```
@@ -2763,12 +2238,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && rg -L '^image:' content/english/blo
 34
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2776,7 +2245,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 58 files appear to lack images. These may all be blog posts.
 
-The earlier 58-file count was misread. Only `_index.md` lacks an image. All published posts have images. Now preparing the summary of completed work and OG audit findings.</details></think>
+The earlier 58-file count was misread. Only `_index.md` lacks an image. All published posts have images. Now preparing the summary of completed work and OG audit findings.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2827,7 +2297,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Adding tooltips to the share buttons.
 
-Checking the social-share partial and existing tooltip patterns.</details></think>
+Checking the social-share partial and existing tooltip patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2836,10 +2307,8 @@ Checking how share buttons and tooltips are implemented elsewhere on the site.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2915,38 +2384,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/module-overrides.css</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/module-overrides.css</summary>
 
 </details></tool-use>
 
@@ -2955,14 +2405,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Native title attributes are used for simple tooltips elsewhere on the site.
 
-Native title attributes would be slow and poor on touch devices. I'll check HugoPlate and copy-markdown for existing tooltip patterns instead.</details></think>
+Native title attributes would be slow and poor on touch devices. I'll check HugoPlate and copy-markdown for existing tooltip patterns instead.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3014,39 +2463,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/copy-markdown.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/copy-markdown.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking whether share labels use i18n or the T function.</details></think>
+Checking whether share labels use i18n or the T function.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3078,21 +2513,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3132,13 +2558,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3146,27 +2565,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Adding `title` attributes to share links matches the existing graph button pattern.
 
-"Tooltip" likely means visible styled tooltips rather than browser default titles. Checking vendor social-share.css for existing tooltip styles.</details></think>
+"Tooltip" likely means visible styled tooltips rather than browser default titles. Checking vendor social-share.css for existing tooltip styles.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/components/social-share/assets/css/social-share.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/components/social-share/assets/css/social-share.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3193,13 +2605,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3217,4 +2622,149 @@ English labels will be used directly in the template to avoid adding new i18n ke
 
 The copy button tooltip will stay static as "Copy link" to avoid extra JavaScript. The native share button tooltip will read "Share". Accessibility improvements beyond the tooltip request are being skipped. The CSS tooltip will use `white-space: nowrap`, sit above page content via z-index, and follow dark mode tokens.
 
-The `title` attribute will be omitted entirely because the CSS tooltip already covers it. The tooltip will use</details></think>
+The `title` attribute will be omitted entirely because the CSS tooltip already covers it. The tooltip will use small readable font sizes drawn from the theme’s design tokens.
+
+The parent `.share-icons` container must not clip overflow. The tooltip will be restricted to devices with a fine pointer and hover support, preventing sticky tooltips on touchscreens. The template will be updated with a `tip` field for each service.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding CSS tooltips on hover/focus — the site already uses native `title` elsewhere, but styled tooltips fit icon-only share buttons better.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/social-share.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/module-overrides.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the build output includes data-share-tip attributes for the shares tooltip.
+
+No extensive testing is needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -1 &amp;&amp; rg -o &#39;data-share-tip=&#34;[^&#34;]+&#34;&#39; /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html | head -8</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -1 && rg -o 'data-share-tip="[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html | head -8
+```
+
+```
+Total in 35985 ms
+data-share-tip="Copy link"
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only one match was found. Minified HTML may have different formatting.
+
+Searching for additional share-tip entries.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html",
+  "pattern": "data-share-tip"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html",
+  "pattern": "data-share-tip",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A search discrepancy appeared: the shell command found one match, but the grep tool found none.
+
+Build output may have changed, or the minified file uses different attribute order. Reading a snippet of the built file to investigate.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg &#34;share-tip|share-facebook|share-native&#34; /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html | head -3</summary>
+```bash
+rg "share-tip|share-facebook|share-native" /home/jorap/Documents/GitHub/jorap.com/public/blog/why-run-your-own-website/index.html | head -3
+```
+
+```
+    <button type="button" class="share-link share-native" hidden
+      data-share-native
+      data-share-tip="Share"
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Tooltips are present. The minified version may differ from the non-minified version.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added CSS tooltips on hover and keyboard focus for every share button.
+
+**Markup** (`social-share.html`): each button gets `data-share-tip` — "Share", "Facebook", "X", "Email", "WhatsApp", "LinkedIn", "Copy link", etc. `aria-label` is now clearer too ("Share on Facebook" instead of "share facebook").
+
+**Styles** (`module-overrides.css`): small label above the icon on hover; `focus-visible` for keyboard; `@media (hover: hover)` so touch devices don't get sticky tooltips.
+
+No JS — pure CSS via `attr(data-share-tip)`.

@@ -13,7 +13,8 @@ what are ways to improve definitions so I can easily memorize them?
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Considering effective strategies to make definitions easier to memorize.</details></think>
+Considering effective strategies to make definitions easier to memorize.
+</details></think>
 
 _**Agent (default)**_
 
@@ -22,23 +23,15 @@ You’re working in a PKM notes setup — I’ll look at how definitions are wri
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -126,1692 +119,17 @@ Result:
             "text": "**Readable notes** = format for rereading — short blocks, bold the claim, no wall of text."
           },
           {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "Short paragraphs, bold on the claim, bullets only for real lists. If I won't reread a wall of text, neither will anyone else. Same rules as [[Evergreen Notes]] and blog posts, tighter scope. Pairs with [[Future-Proofing Knowledge]] and [[Distraction-Free Writing]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Collaborative Knowledge]] — Documentation, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Intellectual Sourcing]] — Note Taking, PKM, Writing"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 24
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/formatting-for-readability.md",
-        "signatures": {}
-      },
-      "score": 0.34712159633636475
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Getting Started\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Getting Started | Notes Garden\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"getting-started\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: 2026-06-18T08:00:00Z"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: [\"Notes\", \"Meta\", \"PKM\", \"Digital Garden\", \"Note Taking\", \"Hugo\", \"Website Building\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "aliases: [\"start\"]"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "featured: true"
-          },
-          {
-            "lineNumber": 14,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Notes garden** = one claim per page, linked with &#96;[[wikilinks]]&#96;, browsable at [/notes/](/notes/)."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "Public when &#96;draft: false&#96;; hidden while &#96;draft: true&#96;. Each note opens with a definition you can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## Atomic rule"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "**One note = one claim** you'd cite in conversation. No &#96;##&#96; sections, no \"bottom line\" - link out instead. See [[Atomic Notes]]."
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "## Create a note"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "&#96;&#96;&#96;bash"
-          },
-          {
-            "lineNumber": 28,
-            "text": "hugo new notes/my-idea.md"
-          },
-          {
-            "lineNumber": 29,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 30
-          },
-          {
-            "lineNumber": 31,
-            "text": "Or add a &#96;.md&#96; file under &#96;content/english/notes/&#96;. Use the same frontmatter as blog posts (&#96;title&#96;, &#96;meta_title&#96;, &#96;description&#96;, &#96;slug&#96;, &#96;date&#96;, &#96;image&#96;, &#96;categories&#96;, &#96;author&#96;, &#96;tags&#96;, &#96;featured&#96;, &#96;draft&#96;) plus optional lifecycle fields:"
-          },
-          {
-            "lineNumber": 32
-          },
-          {
-            "lineNumber": 33,
-            "text": "- &#96;status&#96; — &#96;seedling&#96; (draft claim), &#96;evergreen&#96; (stable), &#96;inbox&#96; (unprocessed), or &#96;archived&#96;"
-          },
-          {
-            "lineNumber": 34
-          },
-          {
-            "lineNumber": 35,
-            "text": "Created and updated timestamps come from the file itself at build time (&#96;scripts/noteFileDates.js&#96;) — no manual date fields to maintain."
-          },
-          {
-            "lineNumber": 36
-          },
-          {
-            "lineNumber": 37,
-            "text": "## Link between notes"
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "Use wikilinks in the body:"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "- &#96;[[Atomic Notes]]&#96; - link by title"
-          },
-          {
-            "lineNumber": 42,
-            "text": "- &#96;[[Atomic Notes|atoms]]&#96; - link with custom label"
-          },
-          {
-            "lineNumber": 43,
-            "text": "- &#96;[[atom]]&#96; - works via the &#96;aliases&#96; frontmatter field"
-          },
-          {
-            "lineNumber": 44
-          },
-          {
-            "lineNumber": 45,
-            "text": "What this site gives you:"
-          },
-          {
-            "lineNumber": 46
-          },
-          {
-            "lineNumber": 47,
-            "text": "- **Wikilinks** - &#96;[[Note Title]]&#96; and &#96;[[alias|label]]&#96; in note bodies"
-          },
-          {
-            "lineNumber": 48,
-            "text": "- **Aliases** - alternate link targets in frontmatter (&#96;aliases: [\"PARA\"]&#96; on [[PARA Method]])"
-          },
-          {
-            "lineNumber": 49,
-            "text": "- **Outgoing links** - listed below each note's body"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 49
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.33424851298332214
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Atomic Notes\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Atomic Notes - One Idea, One File\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Atomic notes hold one idea each - written to stand alone and link freely, not as mini blog posts.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Atomic Notes\", \"Zettelkasten\", \"PKM\", \"Note Taking\", \"Second Brain\", \"Linking\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"atomic-notes\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "aliases: [\"atom\"]"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 14,
-            "text": "card_back: \"One claim out loud - too many ands, split it.\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "card_front: \"Atomic notes\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 17,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 18,
-            "text": "---"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "**Atomic notes** = one claim you'd say out loud - too many &#96;and&#96;s, split it."
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "**Rule of thumb:** one thing I'd cite in conversation - \"why middle-click saves tab chaos\" is atomic; \"browser tips and meeting notes\" is not. Link with &#96;[[wikilinks]]&#96;; let [[Maps of Content]] and backlinks do the organizing. Pairs with [[Associative Linking]] and [[Atomic Design for Notes]]."
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "- [[Zettelkasten]] — Atomic Notes, Linking, Note Taking"
-          },
-          {
-            "lineNumber": 27,
-            "text": "- [[Digital Serendipity]] — Linking, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 28,
-            "text": "- [[Evergreen Notes]] — Note Taking, PKM, Second Brain"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 28
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/atomic-notes.md",
-        "signatures": {}
-      },
-      "score": 0.3081403970718384
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Atomic Design for Notes\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Atomic Design for Notes - Small Pieces, Big Reuse\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Atomic design for notes: one idea per file, combinable later - borrowed from Brad Frost's UI method.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Atomic Notes\", \"PKM\", \"Note Taking\", \"Zettelkasten\", \"Information Architecture\", \"Second Brain\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"atomic-design-for-notes\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: [\"Atomic Design\"]"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Atomic design for notes** = split one idea per file, stack later like Lego blocks."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "Small notes combine into bigger ones: a claim note, a how-to note, an example note - linked, not merged. Same idea as [[Atomic Notes]], borrowed from Brad Frost. Small linked notes beat one giant file. Pairs with [[Associative Linking]] and [[Building a Second Brain]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Evergreen Notes]] — Note Taking, PKM, Second Brain"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Zettelkasten]] — Atomic Notes, Note Taking, PKM"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 24
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/atomic-design-for-notes.md",
-        "signatures": {}
-      },
-      "score": 0.30755749344825745
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Metadata Strategy\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Metadata Strategy - Tags Without Taxonomy Hell\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Tags, categories, dates, aliases - labels should help you find notes, not become a second job.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Metadata\", \"Tags\", \"PKM\", \"Organization\", \"Taxonomy\", \"Note Taking\", \"Hugo\", \"Documentation\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"metadata-strategy\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**How you tag notes** = tag and alias only what helps you find notes — not a second job."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "Tags for broad themes, aliases for link targets, dates for publish not theology. If tagging takes longer than writing, your system is wrong. See [[Context-Aware Capture]] for the fields that actually get used. Pairs with [[Future-Proofing Knowledge]] and [[Organization]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Formatting for Readability]] — Documentation, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Getting Started]] — Hugo, Note Taking, PKM"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 24
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/metadata-strategy.md",
-        "signatures": {}
-      },
-      "score": 0.2849493622779846
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Note-Taking for Researchers\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Note-Taking for Researchers - Beyond Highlight Hell\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Researchers need source notes and your own notes in separate lanes - never merge the two.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Research\", \"Note Taking\", \"Academic\", \"Zettelkasten\", \"Citations\", \"PKM\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"note-taking-for-researchers\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: [\"note taking for researchers\", \"Research Notes\"]"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Research notes** = keep source notes with the book; write synthesis in your words only — never merge the two."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "Never paste highlights into your own-notes file without rewriting. Simple [[Zettelkasten]] rule that works outside school: source notes and your own notes never merge. Pairs with [[Intellectual Sourcing]] and [[Associative Linking]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Atomic Design for Notes]] — Note Taking, PKM, Zettelkasten"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Atomic Notes]] — Note Taking, PKM, Zettelkasten"
-          },
-          {
-            "lineNumber": 25,
-            "text": "- [[Digital Serendipity]] — Note Taking, PKM, Research"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 25
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/note-taking-for-researchers.md",
-        "signatures": {}
-      },
-      "score": 0.2799972891807556
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"First Principles Thinking\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"First Principles Thinking in Your Notes\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"When a note is only a quote, I add what I actually believe from scratch.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"First Principles\", \"Thinking\", \"PKM\", \"Mental Models\", \"Note Taking\", \"Synthesis\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"first-principles-thinking\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**First-principles thinking** = rebuild the claim from scratch, not from someone else's quote."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "I add a short \"from scratch\" block: assumptions, what would have to be true, what I'd bet on. Quotes stay attributed; my claim sits beside them. Pairs with [[Mental Models List]] and [[Synthesis as a Goal]]. Also pairs with [[Minimum Effective Dose]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Sunk Cost Fallacy]] — Mental Models, PKM, Thinking"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[There Is No Perfect Solution]] — Mental Models, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 25,
-            "text": "- [[Active Knowledge Curation]] — Note Taking, PKM"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 25
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/first-principles-thinking.md",
-        "signatures": {}
-      },
-      "score": 0.2778114974498749
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"The Feynman Technique\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"The Feynman Technique - Teach It to Learn It\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Explain notes like you're teaching someone - gaps in explanation show gaps in understanding.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Feynman Technique\", \"Learning\", \"PKM\", \"Teaching\", \"Understanding\", \"Writing\", \"Note Taking\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"the-feynman-technique\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: [\"Feynman Technique\"]"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Feynman technique** = teach the idea in plain speech; every stumble marks a gap in the note."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "I explain aloud or in a blank doc - no paste from the source. Where I stumble, the note gets a gap marker and a rewrite pass toward [[Evergreen Notes]]. Teaching exposes what highlighting hid. Pairs with [[PKM]] and [[Formatting for Readability]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Intellectual Sourcing]] — Note Taking, PKM, Writing"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Progressive Summarization]] — Note Taking, PKM, Writing"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 24
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/the-feynman-technique.md",
-        "signatures": {}
-      },
-      "score": 0.2745918035507202
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Zettelkasten\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Zettelkasten - Linked Atomic Notes That Scale\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Zettelkasten: one idea per note, lots of links, write by following connections.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Zettelkasten\", \"PKM\", \"Atomic Notes\", \"Linking\", \"Luhmann\", \"Note Taking\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"zettelkasten\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: [\"slip-box\"]"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Zettelkasten** = write one idea per note, link heavily, draft by following connections."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "I write notes I'd link to, not notes I'd folder. Links matter more than file count. History in [[Slip-box History]]; myths in [[The Zettelkasten Myth]]. Pairs with [[Atomic Notes]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Associative Linking]] — Linking, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Atomic Design for Notes]] — Atomic Notes, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 25,
-            "text": "- [[Digital Serendipity]] — Linking, Note Taking, PKM"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 25
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/zettelkasten.md",
-        "signatures": {}
-      },
-      "score": 0.27173393964767456
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Spaced Repetition\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Spaced Repetition - Remember What You Chose\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Spaced repetition schedules reviews before you forget - for facts you need cold, not wiki pages.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Spaced Repetition\", \"SRS\", \"Anki\", \"Learning\", \"Memory\", \"PKM\", \"Note Taking\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"spaced-repetition\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 14,
-            "text": "card_back: \"Review facts on a schedule, not whole essays.\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "card_front: \"Spaced repetition\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 17,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 18,
-            "text": "---"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "**Spaced repetition** = review facts on a schedule before you forget - for recall, not whole essays."
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; [[Spaced Repetition Systems (SRS)]] holds drill. Opt in sparingly: this garden keeps &#96;review: true&#96; on ~20% of notes - the spine, not the whole library. Pairs with [[PKM]], [[Pareto Principle]], and [[RSS for Research]]."
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "{{\u003c card front=\"What belongs in SRS vs the wiki?\" back=\"SRS: facts you need cold — vocabulary, definitions, references. Wiki: linked ideas and understanding.\" \u003e}}"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "- [[The Collector's Fallacy]] — Learning, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 29,
-            "text": "- [[The Feynman Technique]] — Learning, Note Taking, PKM"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 29
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/spaced-repetition.md",
-        "signatures": {}
-      },
-      "score": 0.2658160328865051
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Daily Notes\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Daily Notes - Low-Stakes Logs That Compound\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Daily notes are a scratch pad for the day - fleeting by default, not a permanent archive.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Daily Notes\", \"PKM\", \"Journaling\", \"Productivity\", \"Note Taking\", \"Review\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"daily-notes\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Daily notes** = dump today's tasks and fragments here — promote or delete during review, not forever."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "Morning dump, evening sweep. Promote to evergreen during [[Periodic Knowledge Review]], not while the coffee's still hot. [[Daily Notes]] are a lane, not [[The Archive|the archive]]. Pairs with [[Interstitial Journaling]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Active Knowledge Curation]] — Note Taking, PKM, Productivity"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Analog Capture Tools]] — Note Taking, PKM, Productivity"
-          },
-          {
-            "lineNumber": 25,
-            "text": "- [[Anti-Fragile Systems]] — Note Taking, PKM, Productivity"
-          },
-          {
-            "lineNumber": 26,
-            "text": "- [[Building a Second Brain]] — Note Taking, PKM, Productivity"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 26
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/daily-notes.md",
-        "signatures": {}
-      },
-      "score": 0.26352566480636597
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Future-Proofing Knowledge\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Future-Proofing Knowledge - Boring Formats Win\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Future-proofing is plain text, open tools, and backups you test before you need them.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Future Proofing\", \"PKM\", \"Markdown\", \"Local First\", \"Backup\", \"Note Taking\", \"Documentation\", \"Hugo\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"future-proofing-knowledge\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: [\"future proofing knowledge\"]"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Future-proofing** = store in plain text, open tools, and test backups before you need them."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "Export quarterly. Open files in a plain editor. If something breaks, fix it now, not during a panic. [[Anti-Fragile Systems]] beat predictions about which app wins next year. Pairs with [[Formatting for Readability]] and [[Metadata Strategy]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Getting Started]] — Hugo, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Local-first Software]] — Local First, Note Taking, PKM"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 24
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/future-proofing-knowledge.md",
-        "signatures": {}
-      },
-      "score": 0.26129528880119324
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Evergreen Notes\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Evergreen Notes - Ideas That Stay Fresh\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Evergreen notes stay useful - timeless phrasing, clear claims, updated when reality changes.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Evergreen Notes\", \"PKM\", \"Note Taking\", \"Zettelkasten\", \"Second Brain\", \"Writing\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"evergreen-notes\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 14,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 15,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 16,
-            "text": "card_back: \"Write claims you'll still cite; revise when reality shifts.\""
-          },
-          {
-            "lineNumber": 17,
-            "text": "card_front: \"Evergreen notes\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "---"
-          },
-          {
-            "lineNumber": 19
-          },
-          {
-            "lineNumber": 20,
-            "text": "**Evergreen notes** = write claims you'll still cite — timeless voice, revise when reality shifts."
-          },
-          {
-            "lineNumber": 21
-          },
-          {
-            "lineNumber": 22,
-            "text": "Complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promote from fleeting during [[Periodic Knowledge Review]], when a spark keeps returning. Pairs with [[Associative Linking]] and [[Atomic Design for Notes]]."
-          },
-          {
-            "lineNumber": 23
-          },
-          {
-            "lineNumber": 24,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "- [[Atomic Notes]] — Note Taking, PKM, Second Brain"
-          },
-          {
-            "lineNumber": 27,
-            "text": "- [[Evergreen vs Fleeting Notes]] — Evergreen Notes, Note Taking, PKM"
-          },
-          {
-            "lineNumber": 28,
-            "text": "- [[Active Knowledge Curation]] — Note Taking, PKM, Second Brain"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 28
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/evergreen-notes.md",
-        "signatures": {}
-      },
-      "score": 0.26040661334991455
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Collaborative Knowledge\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Collaborative Knowledge - Shared Brains Without Shared Chaos\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Teams need shared knowledge with clear owners and norms - separate from a solo thinking garden.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Collaboration\", \"PKM\", \"Knowledge Management\", \"Teams\", \"Documentation\", \"Second Brain\", \"Workflow\", \"Note Taking\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"collaborative-knowledge\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "status: evergreen"
-          },
-          {
-            "lineNumber": 13,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "**Collaborative knowledge** = pick one owner per topic, one official doc, clear edit rules."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "Most of my notes are solo; team docs live where decisions stick. I keep a solo [[Digital Garden]] for thinking. Different jobs, different homes. Pairs with [[Active Knowledge Curation]] and [[Context-Aware Capture]]."
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "- [[Associative Linking]] — Note Taking, PKM, Second Brain"
-          },
-          {
-            "lineNumber": 24,
-            "text": "- [[Atomic Design for Notes]] — Note Taking, PKM, Second Brain"
-          },
-          {
-            "lineNumber": 25,
-            "text": "- [[Atomic Notes]] — Note Taking, PKM, Second Brain"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 25
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/collaborative-knowledge.md",
-        "signatures": {}
-      },
-      "score": 0.251941442489624
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Notes\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Notes\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"My linked note garden - wikilinks, backlinks, and a graph view of connected ideas.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"notes\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: 2026-06-18T08:00:00Z"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: [\"Notes\", \"Meta\"]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "---"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "A personal note garden of **atomic notes** - one claim per page, linked with &#96;[[wikilinks]]&#96;. Start at [[Getting Started]] or [[Maps of Content]]."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 15
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/_index.md",
-        "signatures": {}
-      },
-      "score": 0.2510206699371338
-    }
-  ]
-}
+            "lineNumber"
+… (output truncated)
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1858,78 +176,46 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The user has a notes garden system.</details></think>
+The user has a notes garden system.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2000,19 +286,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-I understand the user's system.</details></think>
+I understand the user's system.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2121,7 +401,8 @@ update flashcard functionality by allowing multiple cards per note. for the note
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Planning updates to support multiple flashcards per note. Each review note will generate five cards. Notes will display all flashcards. Notes will be updated based on the added cards.</details></think>
+Planning updates to support multiple flashcards per note. Each review note will generate five cards. Notes will display all flashcards. Notes will be updated based on the added cards.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2130,10 +411,8 @@ I'll trace how flashcards are implemented today, then extend notes to support mu
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2240,22 +519,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **14** results in **1** directory</summary>
 
-Directory: **** (14 files)
+Directory: **``** (14 files)
 
 | File |
 |------|
@@ -2273,21 +544,12 @@ Directory: **** (14 files)
 | `layouts/shortcodes/card.html` |
 | `layouts/_partials/notes/note-link-card.html` |
 | `scripts/add-card-backs.py` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2379,100 +641,56 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-cards.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-cards.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/cards-data.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/cards-data.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/flashcard.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/flashcard.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/card.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/card.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/enable-note-flashcards.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/enable-note-flashcards.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
 
-Directory: **** (7 files)
+Directory: **``** (7 files)
 
 | File |
 |------|
@@ -2483,113 +701,67 @@ Directory: **** (7 files)
 | `./layouts/notes/single.html` |
 | `./layouts/notes/random-three.html` |
 | `./layouts/notes/random-two.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-flashcard.js</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-flashcard.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Planning to store multiple flashcards per note using a `cards:` frontmatter array.</details></think>
+Planning to store multiple flashcards per note using a `cards:` frontmatter array.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2664,142 +836,75 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/add-card-backs.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/add-card-backs.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
@@ -2808,96 +913,55 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Checking remaining review notes for partial card layouts on single pages.
 
-Designing a `cards` YAML array format with front/back fields. Updating `collect-cards.html` to read arrays and fall back to legacy fields. Creating a partial to gather cards for individual pages.</details></think>
+Designing a `cards` YAML array format with front/back fields. Updating `collect-cards.html` to read arrays and fall back to legacy fields. Creating a partial to gather cards for individual pages.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
@@ -2926,7 +990,8 @@ The existing card ID hashing remains valid because each card’s front and back 
 
 Five card types are planned for each note: main definition, contrast, rule of thumb, anti-pattern, and connection to a related concept. A todo list will organize the large content update. The collect-cards.html refactor is underway, using a partial to iterate over pages and gather cards.
 
-Considering whether to restrict shortcode card extraction to review notes only, or allow any note to contribute.</details></think>
+Considering whether to restrict shortcode card extraction to review notes only, or allow any note to contribute.
+</details></think>
 
 _**Agent (default)**_
 
@@ -2935,10 +1000,8 @@ Implementing multi-card support in the Hugo templates and export script, then up
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="todo_write">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
 <summary>Tool use: **todo_write**</summary>
-
 
 Parameters:
 
@@ -2983,34 +1046,19 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
-<summary>Tool use: **todo_write**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3117,70 +1165,33 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/trim-review-deck.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/trim-review-deck.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/cards-for-page.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/cards-for-page.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-cards.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-cards.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
 
 </details></tool-use>
 
@@ -3189,72 +1200,42 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Updating single.html to include the note-flashcards partial. Adjusting the export script. Updating all 15 notes.
 
-Adding a `parse_cards_list` function to the export script. Removing card blocks from frontmatter when dropping a note from review. Using double quotes in YAML frontmatter for strings containing colons or apostrophes.</details></think>
+Adding a `parse_cards_list` function to the export script. Removing card blocks from frontmatter when dropping a note from review. Using double quotes in YAML frontmatter for strings containing colons or apostrophes.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/trim-review-deck.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/trim-review-deck.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Updating all 15 review notes to include five flashcards each.</details></think>
+Updating all 15 review notes to include five flashcards each.
+</details></think>
 
 _**Agent (default)**_
 
@@ -3263,312 +1244,154 @@ Updating all 15 review notes with five cards each and refreshed bodies.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Running a Hugo build to verify the changes. Checking the Anki export script to confirm 75 total cards.</details></think>
+Running a Hugo build to verify the changes. Checking the Anki export script to confirm 75 total cards.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -30
 ```
@@ -3591,19 +1414,12 @@ hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 Buil
 Total in 15967 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/export-anki-deck.py 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/export-anki-deck.py 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/export-anki-deck.py 2>&1
 ```
@@ -3612,25 +1428,18 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/export-anki-deck.py
 Wrote 75 cards to /home/jorap/Documents/GitHub/jorap.com/static/exports/jorap-notes-anki.txt
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The Hugo build succeeded. 75 cards were generated across 15 notes, with five cards per note.</details></think>
+The Hugo build succeeded. 75 cards were generated across 15 notes, with five cards per note.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3656,36 +1465,19 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="todo_write">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
 <summary>Tool use: **todo_write**</summary>
-
 
 Parameters:
 
@@ -3758,37 +1550,20 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
-<summary>Tool use: **todo_write**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3814,21 +1589,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3854,36 +1620,20 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com -name "index.html" -path "*atomic-notes*" 2>/dev/null | head -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com -name &#34;index.html&#34; -path &#34;*atomic-notes*&#34; 2&gt;/dev/null | head -3</summary>
 ```bash
 find /home/jorap/Documents/GitHub/jorap.com -name "index.html" -path "*atomic-notes*" 2>/dev/null | head -3
 ```
@@ -3894,20 +1644,12 @@ find /home/jorap/Documents/GitHub/jorap.com -name "index.html" -path "*atomic-no
 /home/jorap/Documents/GitHub/jorap.com/public/notes/atomic-notes/index.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3933,21 +1675,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3973,51 +1706,33 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-A file exists but grep returns no matches.</details></think>
+A file exists but grep returns no matches.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rg -c "notes-note-flashcards|Flashcards" /home/jorap/Documents/GitHub/jorap.com/public/notes/atomic-notes/index.html 2>/dev/null; rg "notes-flashcard" /home/jorap/Documents/GitHub/jorap.com/public/notes/atomic-notes/index.html 2>/dev/null | head -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -c &#34;notes-note-flashcards|Flashcards&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/atomic-notes/index.html 2&gt;/dev/null; rg &#34;notes-flashcard&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/atomic-notes/index.html 2&gt;/dev/null | head -5</summary>
 ```bash
 rg -c "notes-note-flashcards|Flashcards" /home/jorap/Documents/GitHub/jorap.com/public/notes/atomic-notes/index.html 2>/dev/null; rg "notes-flashcard" /home/jorap/Documents/GitHub/jorap.com/public/notes/atomic-notes/index.html 2>/dev/null | head -5
 ```
 
 ```
 6
-&lt;span&gt;Created Jun 19, 2026 · Updated Jun 20, 2026&lt;/span&gt;&lt;/div&gt;&lt;ul class="mb-4 flex flex-wrap gap-2"&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/atomic-notes/&gt;Atomic Notes&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/zettelkasten/&gt;Zettelkasten&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/pkm/&gt;PKM&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/note-taking/&gt;Note Taking&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/second-brain/&gt;Second Brain&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/linking/&gt;Linking&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class="content notes-content mb-10"&gt;&lt;p&gt;&lt;strong&gt;Atomic notes&lt;/strong&gt; = one claim you&amp;rsquo;d say out loud - too many &lt;code&gt;and&lt;/code&gt;s, split it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Rule of thumb:&lt;/strong&gt; one thing I&amp;rsquo;d cite in conversation - &amp;ldquo;why middle-click saves tab chaos&amp;rdquo; is atomic; &amp;ldquo;browser tips and meeting notes&amp;rdquo; is not. Link with &lt;code&gt;&lt;span class=wikilink-broken title="No matching note"&gt;wikilinks&lt;/span&gt;&lt;/code&gt;; let &lt;a href=/notes/maps-of-content/ class=wikilink data-wikilink-preview=/notes/maps-of-content/&gt;Maps of Content&lt;/a&gt; and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Pairs with &lt;a href=/notes/associative-linking/ class=wikilink data-wikilink-preview=/notes/associative-linking/&gt;Associative Linking&lt;/a&gt; and &lt;a href=/notes/atomic-design-for-notes/ class=wikilink data-wikilink-preview=/notes/atomic-design-for-notes/&gt;Atomic Design for Notes&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;aside class="notes-note-flashcards border-divider mb-6 rounded border p-5"&gt;&lt;h2 class="h6 mb-4"&gt;Flashcards&lt;/h2&gt;&lt;div class="notes-note-flashcards__grid grid gap-4 sm:grid-cols-2"&gt;&lt;div class=notes-note-flashcards__item&gt;&lt;div class="notes-flashcard h-full" data-flashcard&gt;&lt;button type=button class=notes-flashcard__flip data-flashcard-flip aria-pressed=false aria-label="Flip card"&gt;
-&lt;span class=notes-flashcard__inner&gt;&lt;span class="notes-flashcard__face notes-flashcard__face--front"&gt;Atomic notes&lt;/span&gt;
-&lt;span class="notes-flashcard__face notes-flashcard__face--back"&gt;One claim out loud - too many ands, split it.&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=notes-note-flashcards__item&gt;&lt;div class="notes-flashcard h-full" data-flashcard&gt;&lt;button type=button class=notes-flashcard__flip data-flashcard-flip aria-pressed=false aria-label="Flip card"&gt;
-&lt;span class=notes-flashcard__inner&gt;&lt;span class="notes-flashcard__face notes-flashcard__face--front"&gt;When is a note NOT atomic?&lt;/span&gt;
-&lt;span class="notes-flashcard__face notes-flashcard__face--back"&gt;Browser tips AND meeting notes - too many ands, split it.&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=notes-note-flashcards__item&gt;&lt;div class="notes-flashcard h-full" data-flashcard&gt;&lt;button type=button class=notes-flashcard__flip data-flashcard-flip aria-pressed=false aria-label="Flip card"&gt;
-
+<span>Created Jun 19, 2026 · Updated Jun 20, 2026</span></div><ul class="mb-4 flex flex-wrap gap-2"><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/atomic-notes/>Atomic Notes</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/zettelkasten/>Zettelkasten</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/pkm/>PKM</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/note-taking/>Note Taking</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/second-brain/>Second Brain</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/linking/>Linking</a></li></ul><div class="content notes-content mb-10"><p><strong>Atomic notes</strong> = one claim you&rsquo;d say out loud - too many <code>and</code>s, split it.</p><p><strong>Rule of thumb:</strong> one thing I&rsquo;d cite in conversation - &ldquo;why middle-click saves tab chaos&rdquo; is atomic; &ldquo;browser tips and meeting notes&rdquo; is not. Link with <code><span class=wikilink-broken title="No matching note">wikilinks</span></code>; let <a href=/notes/maps-of-content/ class=wikilink data-wikilink-preview=/notes/maps-of-content/>Maps of Content</a> and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Pairs with <a
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "import json,re; t=open('/home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html').read(); m=re.search(r'class=\"notes-review-data\">(\[.*?\])</script>', t, re.S); print(len(json.loads(m.group(1))) if m else 'not found')"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;import json,re; t=open(&#39;/home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html&#39;).read(); m=re.search(r&#39;class=\&#34;notes-review-data\&#34;&gt;(\[.*?\])&lt;/script&gt;&#39;, t, re.S); print(len(json.loads(m.group(1))) if m else &#39;not found&#39;)&#34;</summary>
 ```bash
 python3 -c "import json,re; t=open('/home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html').read(); m=re.search(r'class=\"notes-review-data\">(\[.*?\])</script>', t, re.S); print(len(json.loads(m.group(1))) if m else 'not found')"
 ```
@@ -4026,19 +1741,12 @@ python3 -c "import json,re; t=open('/home/jorap/Documents/GitHub/jorap.com/publi
 not found
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rg -o "notes-review-data" /home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html; rg '"front"' /home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html | wc -l</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -o &#34;notes-review-data&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html; rg &#39;&#34;front&#34;&#39; /home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html | wc -l</summary>
 ```bash
 rg -o "notes-review-data" /home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html; rg '"front"' /home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html | wc -l
 ```
@@ -4048,24 +1756,18 @@ notes-review-data
 1
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The review page appears to show only one front side per note. This seems incorrect for a multi-card setup.</details></think>
+The review page appears to show only one front side per note. This seems incorrect for a multi-card setup.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rg -o '"front":"[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html | wc -l</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -o &#39;&#34;front&#34;:&#34;[^&#34;]+&#34;&#39; /home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html | wc -l</summary>
 ```bash
 rg -o '"front":"[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html | wc -l
 ```
@@ -4074,46 +1776,33 @@ rg -o '"front":"[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/notes/revi
 31
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Only 31 cards appear instead of 75. The card parameter may not be parsing all five cards.</details></think>
+Only 31 cards appear instead of 75. The card parameter may not be parsing all five cards.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rg -o '"front":"[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html 2>/dev/null | wc -l; rg "cards</p>" /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html | head -1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -o &#39;&#34;front&#34;:&#34;[^&#34;]+&#34;&#39; /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html 2&gt;/dev/null | wc -l; rg &#34;cards&lt;/p&gt;&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html | head -1</summary>
 ```bash
 rg -o '"front":"[^"]+"' /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html 2>/dev/null | wc -l; rg "cards</p>" /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html | head -1
 ```
 
 ```
 0
-&lt;a class="btn btn-primary btn-sm" href=/notes/review/&gt;Start review&lt;/a&gt;&lt;/div&gt;&lt;div data-notes-cards&gt;&lt;div class="mb-4 flex flex-wrap items-center justify-between gap-3"&gt;&lt;p class="text-ink-muted mb-0 text-sm"&gt;31 cards&lt;/p&gt;&lt;div class=notes-filters role=group aria-label="Filter cards by tag"&gt;&lt;button type=button class="notes-filter is-active" data-notes-cards-filter=all aria-pressed=true&gt;All&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Anki aria-pressed=false&gt;Anki&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Atomic Notes" aria-pressed=false&gt;Atomic Notes&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Capture aria-pressed=false&gt;Capture&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Checklist aria-pressed=false&gt;Checklist&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="CODE Method" aria-pressed=false&gt;CODE Method&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Collectors Fallacy" aria-pressed=false&gt;Collectors Fallacy&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Curation aria-pressed=false&gt;Curation&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="David Allen" aria-pressed=false&gt;David Allen&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Decision Making" aria-pressed=false&gt;Decision Making&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Digital Garden" aria-pressed=false&gt;Digital Garden&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Distill aria-pressed=false&gt;Distill&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Evergreen Notes" aria-pressed=false&gt;Evergreen Notes&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Express aria-pressed=false&gt;Express&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Focus aria-pressed=false&gt;Focus&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=GTD aria-pressed=false&gt;GTD&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Habits aria-pressed=false&gt;Habits&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Inbox aria-pressed=false&gt;Inbox&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Information Architecture" aria-pressed=false&gt;Information Architecture&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Information Diet" aria-pressed=false&gt;Information Diet&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Knowledge Management" aria-pressed=false&gt;Knowledge Management&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Learning aria-pressed=false&gt;Learning&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Linking aria-pressed=false&gt;Linking&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Memory aria-pressed=false&gt;Memory&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Mental Models" aria-pressed=false&gt;Mental Models&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Note Taking" aria-pressed=false&gt;Note Taking&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Organization aria-pressed=false&gt;Organization&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=PARA aria-pressed=false&gt;PARA&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Performance aria-pressed=false&gt;Performance&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Personal Knowledge Management" aria-pressed=false&gt;Personal Knowledge Management&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Personal Wiki" aria-pressed=false&gt;Personal Wiki&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=PKM aria-pressed=false&gt;PKM&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Prioritization aria-pressed=false&gt;Prioritization&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Productivity aria-pressed=false&gt;Productivity&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Progressive Summarization" aria-pressed=false&gt;Progressive Summarization&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Research aria-pressed=false&gt;Research&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Second Brain" aria-pressed=false&gt;Second Brain&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Signal vs Noise" aria-pressed=false&gt;Signal vs Noise&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Spaced Repetition" aria-pressed=false&gt;Spaced Repetition&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=SRS aria-pressed=false&gt;SRS&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Tiago Forte" aria-pressed=false&gt;Tiago Forte&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=TiddlyWiki aria-pressed=false&gt;TiddlyWiki&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Trust aria-pressed=false&gt;Trust&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter="Weekly Review" aria-pressed=false&gt;Weekly Review&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Workflow aria-pressed=false&gt;Workflow&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Writing aria-pressed=false&gt;Writing&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-cards-filter=Zettelkasten aria-pressed=false&gt;Zettelkasten&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="row notes-cards-grid"&gt;&lt;div class="md:col-6 mb-8" data-notes-cards-item data-notes-cards-tags="Linking,PKM,Zettelkasten,Note Taking,Second Brain,Digital Garden"&gt;&lt;div class="notes-flashcard h-full" data-flashcard data-flashcard-tags="Linking,PKM,Zettelkasten,Note Taking,Second Brain,Digital Garden"&gt;&lt;button type=button class=notes-flashcard__flip data-flashcard-flip aria-pressed=false aria-label="Flip card"&gt;
-
+<a class="btn btn-primary btn-sm" href=/notes/review/>Start review</a></div><div data-notes-cards><div class="mb-4 flex flex-wrap items-center justify-between gap-3"><p class="text-ink-muted mb-0 text-sm">31 cards</p><div class=notes-filters role=group aria-label="Filter cards by tag"><button type=button class="notes-filter is-active" data-notes-cards-filter=all aria-pressed=true>All</button><button type=button class=notes-filter data-notes-cards-filter=Anki aria-pressed=false>Anki</button><button type=button class=notes-filter data-notes-cards-filter="Atomic Notes" aria-pressed=false>Atomic Notes</button><button type=button class=notes-filter data-notes-cards-filter=Capture aria-pressed=false>Capture</button><button type=button class=notes-filter data-notes-cards-filter=Checklist aria-pressed=false>Checklist</button><button type=button class=notes-filter data-notes-cards-filter="CODE Method" aria-pressed=false>CODE Method</button><button type=button class=notes-filter data-notes-cards-filter="Collectors Fallacy" aria-pressed=false>Collectors Fallacy</button><button type=button class=notes-filter data-notes-cards-filter=Curation aria-pressed=false>Curation</button><button type=button class=notes-filter data-notes-cards-filter="David Allen" aria-pressed=false>David Allen</button><button type=button class=notes-filter data-notes-cards-filter="Decision Making" aria-pressed=false>Decision Making</button><button type=button class=notes-filter data-notes-cards-filter="Digital Garden" aria-pressed=false>Digital Garden</button><button type=button class=notes-filter data-notes-cards-filter=Distill aria-pressed=false>Distill</button><button type=button class=notes-filter data-notes-cards-filter="Evergreen Notes" aria-pressed=false>Evergreen Notes</button><button type=button class=notes-filter data-notes-cards-filter=Express aria-pressed=false>Express</button><button type=button class=notes-filter data-notes-cards-filter=Focus aria-pressed=false>Focus</button><button type=bu
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -5 && rg -o 'notes-flashcard h-full' /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html | wc -l</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -5 &amp;&amp; rg -o &#39;notes-flashcard h-full&#39; /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html | wc -l</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -5 && rg -o 'notes-flashcard h-full' /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html | wc -l
 ```
@@ -4127,18 +1816,13 @@ Total in 6672 ms
 75
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The cards page now displays 75 flashcards after rebuilding.</details></think>
+The cards page now displays 75 flashcards after rebuilding.
+</details></think>
 
 _**Agent (default)**_
 
@@ -4185,7 +1869,8 @@ for the notes that are for review, provide 6 cards per note.
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Updating review notes to include six cards each.</details></think>
+Updating review notes to include six cards each.
+</details></think>
 
 _**Agent (default)**_
 
@@ -4194,10 +1879,8 @@ Adding a sixth card to each review note and updating references from five to six
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4293,21 +1976,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4315,7 +1989,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com",
-  "pattern": "five cards|5 cards|five &#96;cards&#96;"
+  "pattern": "five cards|5 cards|five `cards`"
 }
 ```
 Additional data:
@@ -4325,7 +1999,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com",
-  "pattern": "five cards|5 cards|five &#96;cards&#96;",
+  "pattern": "five cards|5 cards|five `cards`",
   "topFiles": [
     {
       "matchCount": 1,
@@ -4342,26 +2016,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-I need to read all 15 review notes. I'll exclude cards.md and getting-started.md since they don't have review:true with cards. I'm checking getting-started now.</details></think>
+I need to read all 15 review notes. I'll exclude cards.md and getting-started.md since they don't have review:true with cards. I'm checking getting-started now.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4450,21 +2116,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4495,26 +2152,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a sixth card to each of the 15 notes.</details></think>
+Adding a sixth card to each of the 15 notes.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4547,25 +2196,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
@@ -4576,299 +2212,146 @@ Adding a sixth card to each note by replacing the last card entry and its follow
 
 Drafting sixth-card copy for all 15 notes. Each entry pairs with its parent concept.
 
-Continuing the sixth-card drafts for the remaining notes. Entries now cover GTD weekly reviews, PARA resource buckets, Pareto ratios, PKM expression, progressive summarization, and signal-to-noise filtering.</details></think>
+Continuing the sixth-card drafts for the remaining notes. Entries now cover GTD weekly reviews, PARA resource buckets, Pareto ratios, PKM expression, progressive summarization, and signal-to-noise filtering.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4957,20 +2440,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/export-anki-deck.py</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/export-anki-deck.py</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/export-anki-deck.py
 ```
@@ -4979,12 +2454,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/export-anki-deck.py
 Wrote 90 cards to /home/jorap/Documents/GitHub/jorap.com/static/exports/jorap-notes-anki.txt
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -5008,14 +2477,13 @@ _**User**_
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Fixing unlinked mention warnings from the lint:notes script.</details></think>
+Fixing unlinked mention warnings from the lint:notes script.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5047,21 +2515,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5168,21 +2627,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5208,26 +2658,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The warnings are in the card `back` fields in frontmatter.</details></think>
+The warnings are in the card `back` fields in frontmatter.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5266,21 +2708,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5311,21 +2744,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5356,38 +2780,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-unlinked-mentions.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-unlinked-mentions.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
@@ -5406,43 +2811,30 @@ The alias regex requires `]]` or `#` or `|` immediately after the alias name. It
 
 Card backs are confirmed to be in frontmatter, not body. The alias "Atomic Design" appears as a substring inside the linked title "Atomic Design for Notes", which explains the lint warning. The user sees this after recent changes, so it may be a pre-existing issue. I am verifying whether Hugo's RawContent includes only body text.
 
-The "Evergreen vs Fleeting" warning is not in the body of evergreen-notes; it appears only in frontmatter. Since RawContent excludes frontmatter, the source of this lint warning remains unclear. I am checking whether cards are rendered into content or if another source feeds the linter.</details></think>
+The "Evergreen vs Fleeting" warning is not in the body of evergreen-notes; it appears only in frontmatter. Since RawContent excludes frontmatter, the source of this lint warning remains unclear. I am checking whether cards are rendered into content or if another source feeds the linter.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg "unlinked mention"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1 | rg &#34;unlinked mention&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg "unlinked mention"
 ```
 
 ```
-&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg "WARN.*unlinked"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#34;WARN.*unlinked&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg "WARN.*unlinked"
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -5450,84 +2842,54 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The terminal output contains warnings that aren't visible in the current view.
 
-Checking the card back text that triggered the lint warning. Verifying whether Hugo's RawContent embeds the full file or if another mechanism is causing the false positive.</details></think>
+Checking the card back text that triggered the lint warning. Verifying whether Hugo's RawContent embeds the full file or if another mechanism is causing the false positive.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The lint may be scanning frontmatter or the entire file.</details></think>
+The lint may be scanning frontmatter or the entire file.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5594,21 +2956,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5639,13 +2992,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -5673,7 +3019,8 @@ I will reword the atomic-notes card back to avoid mentioning the note title enti
 
 The evergreen card front will be reworded to "Evergreen and fleeting notes" to avoid triggering the "Evergreen vs Fleeting" alias. The progressive-summarization card back will change to "the distill step of CODE," and its body wikilink may be shortened to `[[Second Brain]]` to satisfy the alias check. The signal-vs-noise card back will become "collector's fallacy - saving without shipping."
 
-The spaced-repetition card back will be reworded to "teaching plain for gaps, SRS for drill." The weekly-review-checklists card back will change to "empty your capture inbox," and its body wikilink will be updated to `[[Trusted Inbox]]`.</details></think>
+The spaced-repetition card back will be reworded to "teaching plain for gaps, SRS for drill." The weekly-review-checklists card back will change to "empty your capture inbox," and its body wikilink will be updated to `[[Trusted Inbox]]`.
+</details></think>
 
 _**Agent (default)**_
 
@@ -5682,183 +3029,97 @@ Fixing unlinked mentions in card text and switching body wikilinks to aliases so
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Running lint again to verify all warnings are gone.</details></think>
+Running lint again to verify all warnings are gone.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1
 ```
 
 ```
 
-&gt; jorap-com@2.2.0 lint:notes
-&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
+> jorap-com@2.2.0 lint:notes
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 
 ✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
 ✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (84 notes)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -5889,7 +3150,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Unlinked mention checks should only apply to the body, not frontmatter.
 
-The lint likely already excludes frontmatter via `$note.RawContent`. The user's warnings may instead stem from body text issues. I will verify the lint partial and update documentation to make the body-only scope explicit.</details></think>
+The lint likely already excludes frontmatter via `$note.RawContent`. The user's warnings may instead stem from body text issues. I will verify the lint partial and update documentation to make the body-only scope explicit.
+</details></think>
 
 _**Agent (default)**_
 
@@ -5898,23 +3160,15 @@ Checking how the linter works and updating docs so unlinked-mention checks apply
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-unlinked-mentions.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-unlinked-mentions.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5961,38 +3215,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
 
 </details></tool-use>
 
@@ -6001,7 +3236,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Unlinked mentions apply only to the body, not frontmatter.
 
-I'll revert the unnecessary frontmatter card changes. Lint already uses RawContent, so frontmatter cards should be restored to their original stronger versions. I'll also update the lint partial comment and getting-started.md documentation.</details></think>
+I'll revert the unnecessary frontmatter card changes. Lint already uses RawContent, so frontmatter cards should be restored to their original stronger versions. I'll also update the lint partial comment and getting-started.md documentation.
+</details></think>
 
 _**Agent (default)**_
 
@@ -6010,62 +3246,36 @@ The linter already uses `RawContent` (body only). I'll document that clearly and
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6091,33 +3301,97 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Adding an explicit comment to the unlinked mentions lint page clarifying that the rule applies only to body content, not frontmatter.</details></think>
+Adding an explicit comment to the unlinked mentions lint page clarifying that the rule applies only to body content, not frontmatter.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-unlinked-mentions.html</summary>
-
-Status: **loading**
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-unlinked-mentions.html</summary>
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/progressive-summarization.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1
+```
+
+```
+
+> jorap-com@2.2.0 lint:notes
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
+
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (84 notes)
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+Noted. The linter already scoped to the body via `.RawContent` (frontmatter excluded). I've made that explicit and undone the unnecessary card rewrites.
+
+**Documented** in `lint-unlinked-mentions.html` and `getting-started.md` — unlinked-mention lint applies to the **body only**; frontmatter (`cards:`, tags, etc.) is not checked.
+
+**Restored** frontmatter card text that had been weakened (e.g. "Feynman technique for gaps", "The Collector's Fallacy", "Empty the Trusted Inbox").
+
+**Kept** the body wikilink fixes — those were the actual lint issues (`[[Atomic Design]]`, `[[Second Brain]]`, `[[Collector's Fallacy]]`, `[[Trusted Inbox]]`).
+
+`npm run lint:notes` still passes clean.

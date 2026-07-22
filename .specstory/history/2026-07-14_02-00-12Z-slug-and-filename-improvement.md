@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Improving the slug and filename for the hanamikoji-rules.md blog post.
 
-Reading the current file and checking existing blog naming conventions.</details></think>
+Reading the current file and checking existing blog naming conventions.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,23 +25,15 @@ Reviewing the post and how blog slugs are named in this repo.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-rules.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-rules.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -91,25 +84,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
 
 </details></tool-use>
 
@@ -118,7 +98,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reviewing the request to improve slug and filename formatting in the hanamikoji rules file.
 
-The filename `hanamikoji-rules.md` and slug `duopoly` misrepresent the post. The content is about retheming "Duopoly," not a rules sheet. The slug is too vague for SEO. Checking naming conventions in other posts and the jorap-voice skill for guidance.</details></think>
+The filename `hanamikoji-rules.md` and slug `duopoly` misrepresent the post. The content is about retheming "Duopoly," not a rules sheet. The slug is too vague for SEO. Checking naming conventions in other posts and the jorap-voice skill for guidance.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -127,23 +108,15 @@ Checking blog naming conventions and whether the post was already published at a
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -195,74 +168,337 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The post was originally published at `/blog/hanamikoji-rules/`. Its slug was later changed to `duopoly`, redirecting to `/blog/duopoly/`.
+
+Evaluating filename and slug options for the post. The content covers a Duopoly retheme rather than rules. Comparing descriptive names against shorter alternatives. Checking existing blog post naming conventions in the repository.
+
+Repository examples use descriptive kebab-case filenames. The jorap-voice skill recommends slugs matching filenames without `__` prefixes. The recommended pair is `hanamikoji-duopoly-retheme.md` with slug `hanamikoji-duopoly-retheme`.
+
+The chosen filename and slug are `hanamikoji-duopoly-retheme`. This replaces the misleading "rules" reference while keeping the original game name for SEO. I will check whether Hugo aliases are configured to preserve redirects from the old URLs.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Checking how aliases handle URL changes and whether the post is live.
+
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
-</details></tool-use>
+Parameters:
 
-_**Agent (auto-low)**_
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "aliases:"
+}
+```
+Additional data:
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **0** directories</summary>
-
-No results found
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **0** directories</summary>
-
-No results found
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
-Status: **loading**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "aliases:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/getting-started-with-rss-feeds-beginners-guide.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 3
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git log --oneline -5 -- content/english/blog/hanamikoji-rules.md 2>/dev/null; git log --oneline -3 -- content/english/blog/__hanamikoji-rules.md 2>/dev/null</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git log --oneline -5 -- content/english/blog/hanamikoji-rules.md 2&gt;/dev/null; git log --oneline -3 -- content/english/blog/__hanamikoji-rules.md 2&gt;/dev/null</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git log --oneline -5 -- content/english/blog/hanamikoji-rules.md 2>/dev/null; git log --oneline -3 -- content/english/blog/__hanamikoji-rules.md 2>/dev/null
 ```
-</details>
-</tool-use>
+
+```
+084d051 Publish Hanamikoji to Duopoly retheme post.
+084d051 Publish Hanamikoji to Duopoly retheme post.
+e98a842 Update
+e924950 Update
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The post was published at commit 084d051.
+
+The original slug was `hanamikojis`. It was changed to `duopoly` locally but may not be committed yet. Checking git status to verify.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git show HEAD:content/english/blog/hanamikoji-rules.md 2&gt;/dev/null | head -15</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:content/english/blog/hanamikoji-rules.md 2>/dev/null | head -15
+```
+
+```
+---
+title: "Retheming Hanamikoji as Duopoly"
+meta_title: "Hanamikoji to Duopoly: Retheme Map and Fewer Components"
+description: "I love Hanamikoji for the mechanics, not the geisha art. Country flags and a business retheme put the I-cut-you-choose puzzle front and center - plus same-size cards and fewer components."
+date: 2026-07-14T01:26:00Z
+image: "/images/duopoly.jpg"
+categories: ["Games", "Design", "Tutorial"]
+author: "JoRap"
+tags: ["Duopoly", "Hanamikoji", "Board Games", "Card Games", "Game Design", "Print and Play", "Retheme", "I Cut You Choose", "Zine", "DIY"]
+featured: false
+draft: false
+---
+
+I love *Hanamikoji* for the mechanics. The retail game has gorgeous art - colorful geisha portraits, illustrated performance items, a table presence that pulls you in. I kept playing for the **I split, you choose** puzzle: how you bundle cards, what you force your rival to take, when to burn a Trade-off. The theme is atmosphere. The split is the game.
+
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{md,html,json,toml,yml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "hanamikoji-rules|blog/duopoly"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "hanamikoji-rules|blog/duopoly",
+  "topFiles": [
+    {
+      "matchCount": 10,
+      "uri": "./.specstory/history/2026-07-14_02-00-12Z-slug-and-filename-improvement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.cursor/skills/jorap-voice/SKILL.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": "./.specstory/history/2026-07-14_01-28-26Z-hanamikoji-rules-review.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 171
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The post currently lacks a slug. Hugo defaults to the filename, so the live URL is `/blog/hanamikoji-rules/`.
+
+Three filename and slug options are being weighed. `hanamikoji-duopoly-retheme.md` with slug `hanamikoji-duopoly-retheme` is the most descriptive. `hanamikoji-duopoly.md` with slug `hanamikoji-duopoly` is shorter. `duopoly-retheme.md` with slug `duopoly-retheme` is the shortest.
+
+`hanamikoji-duopoly-retheme` was chosen over the shorter alternatives. It removes the misleading "rules" label and keeps "Hanamikoji" visible in the URL for better discoverability. The slug will match the filename per jorap-voice convention. Aliases for the old `/blog/hanamikoji-rules/` URL will be added. The file will be renamed and frontmatter updated.
+
+The jorap-voice skill example will be updated to reflect the new filename. The aliases array will include both `hanamikoji-rules` and `duopoly` to cover the old URL and related search terms.
+
+The duopoly slug was only local and uncommitted, so it does not need an alias. I will also check whether any frontmatter scripts or lint tools reference the old filename.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Renaming to match the retheme content (not rules), aligning slug with filename, and adding a redirect alias for the published URL.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git mv content/english/blog/hanamikoji-rules.md content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git mv content/english/blog/hanamikoji-rules.md content/english/blog/hanamikoji-duopoly-retheme.md
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the frontmatter in the renamed file.
+
+Setting the slug to "hanamikoji-duopoly-rethem" and adding "hanamikoji-rules" as an alias while removing the old "duopoly" slug. Now checking the file state.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running voice lint on the file. Checking if Hugo builds.
+
+Also checking whether blog_frontmatter scripts need updating.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/hanamikoji-duopoly-retheme.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py --check content/english/blog/hanamikoji-duopoly-retheme.md 2>&1
+```
+
+```
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,py,json,toml,yml,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "hanamikoji-rules"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "hanamikoji-rules",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/hanamikoji-duopoly-retheme.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "./.specstory/history/2026-07-14_02-00-12Z-slug-and-filename-improvement.md"
+    },
+    {
+      "matchCount": 50,
+      "uri": "./.specstory/history/2026-07-14_01-28-26Z-hanamikoji-rules-review.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-07-14_00-17-51Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "./.specstory/history/2026-07-13_16-24-58Z-blog-retheming-and-component-reduction.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-07-13_14-14-50Z-one-page-zine-applications.md"
+    },
+    {
+      "matchCount": 65,
+      "uri": "./.specstory/history/2026-07-13_01-23-10Z-hanamikoji-game-rules.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 170
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No other live content references exist beyond the alias.
+
+The skill update is in .cursor.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Renamed and aligned the slug with what the post actually covers.
+
+| Before | After |
+|--------|-------|
+| `hanamikoji-rules.md` | `hanamikoji-duopoly-retheme.md` |
+| `slug: "duopoly"` | `slug: "hanamikoji-duopoly-retheme"` |
+| Live URL: `/blog/hanamikoji-rules/` | `/blog/hanamikoji-duopoly-retheme/` |
+
+**Why this name:** The post is a retheme map and component cuts, not a rules sheet. "Rules" in the old filename was misleading, and `duopoly` alone was too vague for search. The new name keeps both game names and says what the post is.
+
+**Redirect:** Added `aliases: ["hanamikoji-rules"]` so the published URL still works after deploy.
+
+Also updated the jorap-voice skill example to drop the old filename/slug mismatch pattern.
+
+Say if you want this committed and pushed.

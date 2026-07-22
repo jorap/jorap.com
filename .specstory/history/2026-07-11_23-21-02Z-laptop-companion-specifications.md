@@ -15,7 +15,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Focusing on `__extension-cord.md` to create a laptop extension cord companion guide. Metric measurements will be used instead of AWG units.
 
-Reading the current file and jorap-voice skills to prepare the blog draft.</details></think>
+Reading the current file and jorap-voice skills to prepare the blog draft.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -24,40 +25,22 @@ I'll read the extension-cord draft and the blog voice skill so the rewrite stays
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__wifi-router.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__wifi-router.md</summary>
 
 </details></tool-use>
 
@@ -70,7 +53,8 @@ The post will frame the extension cord as a travel and workspace accessory. Comm
 
 Wire sizes will be listed in square millimeters. 0.75 mm² suits light duty. 1.0 mm² covers moderate loads. 1.5 mm² handles heavier work. 2.5 mm² is for power tools. A laptop charger draws only 65 to 100 watts. Wire gauge is therefore less critical than with larger appliances.
 
-The rewrite will keep the voice skill guidelines intact. Key scenarios include hotel rooms where outlets sit behind beds, cafés and co-working spaces with outlets far from seats, and airport lounges. The post will highlight flat plugs for tight spaces, compact lengths of 1.5 to 2 meters, and the need for AC power rather than USB. Surge protection for laptop gear during travel will be noted. The cord should stay lightweight and coil neatly inside a bag.</details></think>
+The rewrite will keep the voice skill guidelines intact. Key scenarios include hotel rooms where outlets sit behind beds, cafés and co-working spaces with outlets far from seats, and airport lounges. The post will highlight flat plugs for tight spaces, compact lengths of 1.5 to 2 meters, and the need for AC power rather than USB. Surge protection for laptop gear during travel will be noted. The cord should stay lightweight and coil neatly inside a bag.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -79,47 +63,33 @@ Rewriting the draft around the laptop-bag use case, metric lengths, and wire siz
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Running voice lint to verify the file is clean.</details></think>
+Running voice lint to verify the file is clean.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__extension-cord.md 2>/dev/null || pnpm lint:voice 2>&1 | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/__extension-cord.md 2&gt;/dev/null || pnpm lint:voice 2&gt;&amp;1 | head -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__extension-cord.md 2>/dev/null || pnpm lint:voice 2>&1 | head -30
 ```
 
 ```
 [ELIFECYCLE] Command failed with exit code 1.
-$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash errors:
   content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -127,7 +97,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The lint failure came from the alex-eala file, not the extension-cord document.
 
-The extension-cord file is fine. I'll summarize the changes.</details></think>
+The extension-cord file is fine. I'll summarize the changes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -157,32 +128,26 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Removing the paragraph about wire size labels from __extension-cord.md.
 
-Reading the file to check surrounding context before removing the paragraph.</details></think>
+Reading the file to check surrounding context before removing the paragraph.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing the paragraph about wire size. Checking the bottom line section for mm² references.</details></think>
+Removing the paragraph about wire size. Checking the bottom line section for mm² references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -213,13 +178,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -229,20 +187,13 @@ The user wants only that specific paragraph removed.
 
 The bottom line still mentions mm². Removing the only explanation while keeping that reference would be awkward. I should probably update the bottom line too.
 
-Scope will stay minimal. Only the requested paragraph will be removed.</details></think>
+Scope will stay minimal. Only the requested paragraph will be removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
@@ -251,7 +202,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The bottom line still references mm² and needs fixing too.
 
-The user wants no wire gauge discussion at all. The bottom line must be rewritten to match.</details></think>
+The user wants no wire gauge discussion at all. The bottom line must be rewritten to match.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -260,23 +212,16 @@ The bottom line still mentions mm²; I'll align that with the section change.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The bottom line was updated for consistency after removing the wire size guidance.</details></think>
+The bottom line was updated for consistency after removing the wire size guidance.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -293,14 +238,13 @@ do not mention international meetings
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing mentions of international meetings from the extension cord blog post.</details></think>
+Removing mentions of international meetings from the extension cord blog post.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -331,13 +275,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -347,18 +284,13 @@ The user asked to avoid mentioning international meetings.
 
 The phrase "saved meetings in more countries than I can count" will be rewritten to remove the international travel implication. Other meeting references appear to be domestic and can remain.
 
-The replacement line is drafted. Now scanning the full file for other international references.</details></think>
+The replacement line is drafted. Now scanning the full file for other international references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
@@ -367,27 +299,21 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Line 63 mentions international meetings and needs removal.
 
-Rewriting line 63 to reference dying-battery calls instead of international meetings. Line 65 uses "meeting killer," which is non-international and does not need removal.</details></think>
+Rewriting line 63 to reference dying-battery calls instead of international meetings. Line 65 uses "meeting killer," which is non-international and does not need removal.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removed the international meetings reference.</details></think>
+Removed the international meetings reference.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -406,18 +332,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Adding a story about internet cafes where large Apple chargers block adjacent outlets.
 
-Reading the current file to weave the story into the JoRap voice naturally.</details></think>
+Reading the current file to weave the story into the JoRap voice naturally.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
@@ -432,7 +353,8 @@ The full story belongs in the flat plug section alone. The opening already menti
 
 The opening paragraph now includes the internet café scenario alongside others. The flat plug section will link to it. The draft is getting long, so the café details may be merged.
 
-The opening paragraph will now include the internet café Apple charger blockage. The flat plug section will connect the extension cord workaround to this same scenario.</details></think>
+The opening paragraph will now include the internet café Apple charger blockage. The flat plug section will connect the extension cord workaround to this same scenario.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -441,38 +363,23 @@ Adding the internet café Apple-charger annoyance to the opener and tying it to 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The changes are in. A brief summary follows.</details></think>
+The changes are in. A brief summary follows.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -496,27 +403,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Drafting a prompt for a concept image for the extension cord blog post.
 
-Interpreting the request as a prompt description rather than an immediate image generation. Reviewing the blog post for context to match the tone and subject matter.</details></think>
+Interpreting the request as a prompt description rather than an immediate image generation. Reviewing the blog post for context to match the tone and subject matter.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -570,61 +470,41 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing existing featured images to understand the site's visual style for blog hero images.</details></think>
+Reviewing existing featured images to understand the site's visual style for blog hero images.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **** (0 files)
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
 
+Directory: **``** (0 files)
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking the images folder for style references.</details></think>
+Checking the images folder for style references.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **9** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (9 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (9 files)
 
 | File |
 |------|
@@ -637,43 +517,25 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (9 files)
 | `assets/images/sustainable-publishing.jpg` |
 | `assets/images/open-source.jpg` |
 | `assets/images/static-vs-cms.jpg` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing existing feature images to understand the visual style.</details></think>
+Reviewing existing feature images to understand the visual style.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/feature-mouse-wheel-click.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/feature-mouse-wheel-click.jpg</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/images/sustainable-publishing.jpg</summary>
 
 </details></tool-use>
 
@@ -684,7 +546,8 @@ The site uses practical, first-person or tabletop images with warm natural light
 
 The best concept image would highlight the internet café Apple brick as the most visual and specific story. Alternatively, a laptop bag reveal could spotlight the cord as the unsung hero.
 
-I will propose two or three prompt concepts with one recommended. The output will be a ready-to-use image generation prompt rather than a generated image.</details></think>
+I will propose two or three prompt concepts with one recommended. The output will be a ready-to-use image generation prompt rather than a generated image.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -738,7 +601,8 @@ Refining the image prompt for improved realism and clarity.
 
 The prompt now explicitly states the charger is plugged into the power strip, removes the Starbucks logo from the mug, and specifies a US plug for the extension cord.
 
-The mug is plain ceramic without branding. The US plug uses standard Type A or B flat parallel prongs. I will only refine the prompt text and wait for a generation request.</details></think>
+The mug is plain ceramic without branding. The US plug uses standard Type A or B flat parallel prongs. I will only refine the prompt text and wait for a generation request.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -777,7 +641,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The image generation prompt needs updating to clearly specify a standard electric extension cord.
 
-The improved prompt will specify a standard household extension cord with an AC power outlet at one end, a US-style plug, and a thick white cable rather than a USB or laptop charger.</details></think>
+The improved prompt will specify a standard household extension cord with an AC power outlet at one end, a US-style plug, and a thick white cable rather than a USB or laptop charger.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -810,7 +675,8 @@ make it clear that someone else is using the apple charger and I am trying to pl
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The prompt needs to clearly show that another person is using the Apple charger, while the viewer tries to plug in their own extension cord.</details></think>
+The prompt needs to clearly show that another person is using the Apple charger, while the viewer tries to plug in their own extension cord.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -847,7 +713,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user needs a simpler image concept for their extension cord blog post. Their image generator failed with the complex Starbucks scene containing multiple narrative elements.
 
-I'll suggest two or three simpler image concepts. Each would use fewer hands, a single clear subject, and minimal narrative complexity. I can provide simple prompts without generating images unless requested.</details></think>
+I'll suggest two or three simpler image concepts. Each would use fewer hands, a single clear subject, and minimal narrative complexity. I can provide simple prompts without generating images unless requested.
+</details></think>
 
 _**Agent (auto-low)**_
 

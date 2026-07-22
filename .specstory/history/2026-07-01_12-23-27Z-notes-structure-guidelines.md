@@ -13,7 +13,8 @@ for all notes, key concept always starts with just one sentence. further explana
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All notes will be updated so each key concept begins with a single sentence, followed by further explanation in the next paragraph.</details></think>
+All notes will be updated so each key concept begins with a single sentence, followed by further explanation in the next paragraph.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,23 +23,15 @@ I'll check how notes are structured and how "key concept" is written today, then
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -145,73 +138,40 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -320,19 +280,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All notes should follow a two-paragraph structure. The first paragraph contains a single-sentence key concept. The second paragraph provides further explanation.</details></think>
+All notes should follow a two-paragraph structure. The first paragraph contains a single-sentence key concept. The second paragraph provides further explanation.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -341,23 +295,15 @@ Checking the specstory history and scanning notes for Key Concept patterns that 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -413,25 +359,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
@@ -442,4 +375,1459 @@ This is a large-scale edit across roughly 200 notes.
 
 Key Concept sections must begin with exactly one sentence, followed by further explanation in the next paragraph. The plan is to update the archetype and documentation, then either write a script to batch-process the notes or edit them manually. Violations can be detected by checking whether the first paragraph after a Key Concept heading contains more than one sentence.
 
-The first sentence must stand alone as its own paragraph. The remaining explanation can contain multiple sentences and wikilinks. Notes with multiple sentences in one paragraph will be split at the first sentence boundary.</details></think>
+The first sentence must stand alone as its own paragraph. The remaining explanation can contain multiple sentences and wikilinks. Notes with multiple sentences in one paragraph will be split at the first sentence boundary.
+
+A script will locate every Key Concept section, extract its content, and split the first paragraph at the first sentence boundary. If the section contains only one paragraph with multiple sentences, the script will create a second paragraph for the remainder.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll scan all notes for Key Concept sections that violate the one-sentence-first rule, then batch-fix them.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node -e &#34;
+const fs = require(&#39;fs&#39;);
+const path = require(&#39;path&#39;);
+const dir = &#39;content/english/notes&#39;;
+const files = fs.readdirSync(dir).filter(f =&gt; f.endsWith(&#39;.md&#39;) &amp;&amp; f !== &#39;_index.md&#39;);
+
+function countSentences(text) {
+  // rough: split on . ! ? followed by space and uppercase or [
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  const parts = trimmed.split(/(?&lt;=[.!?])\s+(?=[A-Z\[])/);
+  return parts.length;
+}
+
+const needsFix = [];
+const ok = [];
+const noKeyConcept = [];
+const alreadyTwoParas = [];
+
+for (const f of files) {
+  const content = fs.readFileSync(path.join(dir, f), &#39;utf8&#39;);
+  const m = content.match(/^## Key Concept\n\n([\s\S]*?)(?=\n## |\n---|\$)/m);
+  if (!m) { noKeyConcept.push(f); continue; }
+  const body = m[1].trimEnd();
+  const paras = body.split(/\n\n+/);
+  const first = paras[0].trim();
+  const sents = countSentences(first);
+  if (paras.length &gt;= 2 &amp;&amp; sents === 1) {
+    ok.push(f);
+  } else if (paras.length &gt;= 2 &amp;&amp; sents &gt; 1) {
+    needsFix.push({ f, reason: &#39;first para multi-sentence&#39;, sents, first: first.slice(0,80) });
+  } else if (sents &gt; 1) {
+    needsFix.push({ f, reason: &#39;single para multi-sentence&#39;, sents, first: first.slice(0,80) });
+  } else {
+    ok.push(f);
+  }
+}
+console.log(&#39;OK:&#39;, ok.length);
+console.log(&#39;No Key Concept:&#39;, noKeyConcept.length, noKeyConcept);
+console.log(&#39;Needs fix:&#39;, needsFix.length);
+needsFix.slice(0,15).forEach(x =&gt; console.log(x.f, x.reason, x.sents, x.first));
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node -e "
+const fs = require('fs');
+const path = require('path');
+const dir = 'content/english/notes';
+const files = fs.readdirSync(dir).filter(f => f.endsWith('.md') && f !== '_index.md');
+
+function countSentences(text) {
+  // rough: split on . ! ? followed by space and uppercase or [
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  const parts = trimmed.split(/(?<=[.!?])\s+(?=[A-Z\[])/);
+  return parts.length;
+}
+
+const needsFix = [];
+const ok = [];
+const noKeyConcept = [];
+const alreadyTwoParas = [];
+
+for (const f of files) {
+  const content = fs.readFileSync(path.join(dir, f), 'utf8');
+  const m = content.match(/^## Key Concept\n\n([\s\S]*?)(?=\n## |\n---|\$)/m);
+  if (!m) { noKeyConcept.push(f); continue; }
+  const body = m[1].trimEnd();
+  const paras = body.split(/\n\n+/);
+  const first = paras[0].trim();
+  const sents = countSentences(first);
+  if (paras.length >= 2 && sents === 1) {
+    ok.push(f);
+  } else if (paras.length >= 2 && sents > 1) {
+    needsFix.push({ f, reason: 'first para multi-sentence', sents, first: first.slice(0,80) });
+  } else if (sents > 1) {
+    needsFix.push({ f, reason: 'single para multi-sentence', sents, first: first.slice(0,80) });
+  } else {
+    ok.push(f);
+  }
+}
+console.log('OK:', ok.length);
+console.log('No Key Concept:', noKeyConcept.length, noKeyConcept);
+console.log('Needs fix:', needsFix.length);
+needsFix.slice(0,15).forEach(x => console.log(x.f, x.reason, x.sents, x.first));
+"
+
+```
+
+```
+OK: 77
+No Key Concept: 2 [ 'create.md', 'issues.md' ]
+Needs fix: 134
+abide-in-me.md single para multi-sentence 6 Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts bu
+ask-seek-knock.md single para multi-sentence 4 Jesus compares God to a parent who gives bread, not a stone. The [[Ask Seek Knoc
+associative-linking.md single para multi-sentence 3 Folders sort. Links think. Associative linking lets notes meet without rememberi
+assurance.md single para multi-sentence 6 [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance na
+attention-economy.md single para multi-sentence 2 Named in notes that link here ([[Digital Minimalism]]). Tension with [[Digital S
+backlinks.md single para multi-sentence 2 Find anchor notes by who links here - snippet context per backlink, not just a c
+behavioral-economics.md single para multi-sentence 2 Named in notes that link here ([[Decision Quality]]). Tension with [[First Princ
+break-the-escalation-cycle.md single para multi-sentence 5 Not passivity - I can still set boundaries and name facts. I just refuse to beco
+building-a-personal-api.md single para multi-sentence 2 My personal API isn't OAuth and microservices. It's structured context for futur
+building-a-second-brain.md single para multi-sentence 3 Remember CODE: [[Capture]], organize, distill, express. The system fails when an
+by-their-fruits.md single para multi-sentence 4 Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit.
+capture.md single para multi-sentence 4 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[
+childlike-faith.md single para multi-sentence 3 Children don't enter the kingdom by achievement; they receive care they didn't e
+christianity-and-politics.md single para multi-sentence 7 [[Render Unto Caesar]] names the split: coin to Caesar, self to God. [[Seek the 
+coaching-ethics.md single para multi-sentence 2 Named in notes that link here ([[Develop, Don't Endang
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/flashcards/SKILL.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Key Concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Key Concept",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js",
+  "pattern": "Key Concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js",
+  "pattern": "Key Concept",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "assets/js/notes-creator.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+134 notes need fixing. I'll write a script to enforce the one-sentence key concept rule.
+
+Robust sentence splitting is needed. Edge cases include wikilinks, abbreviations, semicolons, bible references, and draft flags. The script will split after the first real sentence-ending punctuation.
+
+Semicolons within a single sentence will remain in the first paragraph. The script will skip periods inside wikilinks. It will split at the first valid sentence boundary—followed by a space and uppercase letter or bracket—then place the remainder in the second paragraph.
+
+The script will keep the first paragraph as exactly one sentence. All remaining explanation will move to the second paragraph. Longer notes with three or more paragraphs will be merged into a single continuation paragraph.
+
+The script will merge all content after the first sentence into a single second paragraph. Existing two-paragraph notes with one sentence in the first paragraph will remain unchanged.
+</details></think>
+
+_**Agent (auto-low)**_
+
+134 notes need the split. I'll write a script to enforce one opening sentence, then update the archetype and docs.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node -e &#34;
+const fs = require(&#39;fs&#39;);
+const path = require(&#39;path&#39;);
+
+function firstSentenceEnd(text) {
+  let inWiki = false;
+  for (let i = 0; i &lt; text.length; i++) {
+    if (text[i] === &#39;[&#39; &amp;&amp; text[i+1] === &#39;[&#39;) { inWiki = true; i++; continue; }
+    if (inWiki &amp;&amp; text[i] === &#39;]&#39; &amp;&amp; text[i+1] === &#39;]&#39;) { inWiki = false; i++; continue; }
+    if (inWiki) continue;
+    const ch = text[i];
+    if ((ch === &#39;.&#39; || ch === &#39;!&#39; || ch === &#39;?&#39;) &amp;&amp; i + 1 &lt; text.length) {
+      const next = text[i+1];
+      if (next === &#39; &#39; || next === &#39;\n&#39;) {
+        const after = text.slice(i+1).match(/^\s*(.+)/s);
+        if (after) {
+          const rest = after[1];
+          if (/^[\[\&#34;A-Z]/.test(rest) || rest.startsWith(&#39;PKM&#39;)) {
+            return i + 1;
+          }
+        }
+      }
+    }
+  }
+  return -1;
+}
+
+function countSentences(text) {
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  let count = 1;
+  let inWiki = false;
+  for (let i = 0; i &lt; trimmed.length; i++) {
+    if (trimmed[i] === &#39;[&#39; &amp;&amp; trimmed[i+1] === &#39;[&#39;) { inWiki = true; i++; continue; }
+    if (inWiki &amp;&amp; trimmed[i] === &#39;]&#39; &amp;&amp; trimmed[i+1] === &#39;]&#39;) { inWiki = false; i++; continue; }
+    if (inWiki) continue;
+    const ch = trimmed[i];
+    if ((ch === &#39;.&#39; || ch === &#39;!&#39; || ch === &#39;?&#39;) &amp;&amp; i + 1 &lt; trimmed.length) {
+      const next = trimmed[i+1];
+      if (next === &#39; &#39; || next === &#39;\n&#39;) {
+        const after = trimmed.slice(i+1).match(/^\s*(.+)/s);
+        if (after &amp;&amp; /^[\[\&#34;A-Z]/.test(after[1])) count++;
+      }
+    }
+  }
+  return count;
+}
+
+// test cases
+const tests = [
+  &#39;Friction kills capture. One inbox, phone to desktop.&#39;,
+  &#39;[[Mercy]] withholds what I deserve; grace gives what I couldn\\&#39;t earn. Same rescue.&#39;,
+  &#39;Public when draft: false; hidden while draft: true. Each note opens.&#39;,
+  &#39;**Rule of thumb:** one thing I\\&#39;d cite.&#39;,
+];
+for (const t of tests) {
+  const end = firstSentenceEnd(t);
+  console.log(JSON.stringify(t.slice(0,50)), &#39;-&gt;&#39;, JSON.stringify(t.slice(0, end+1)), &#39;|&#39;, JSON.stringify(t.slice(end+1).trim()));
+}
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node -e "
+const fs = require('fs');
+const path = require('path');
+
+function firstSentenceEnd(text) {
+  let inWiki = false;
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] === '[' && text[i+1] === '[') { inWiki = true; i++; continue; }
+    if (inWiki && text[i] === ']' && text[i+1] === ']') { inWiki = false; i++; continue; }
+    if (inWiki) continue;
+    const ch = text[i];
+    if ((ch === '.' || ch === '!' || ch === '?') && i + 1 < text.length) {
+      const next = text[i+1];
+      if (next === ' ' || next === '\n') {
+        const after = text.slice(i+1).match(/^\s*(.+)/s);
+        if (after) {
+          const rest = after[1];
+          if (/^[\[\"A-Z]/.test(rest) || rest.startsWith('PKM')) {
+            return i + 1;
+          }
+        }
+      }
+    }
+  }
+  return -1;
+}
+
+function countSentences(text) {
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  let count = 1;
+  let inWiki = false;
+  for (let i = 0; i < trimmed.length; i++) {
+    if (trimmed[i] === '[' && trimmed[i+1] === '[') { inWiki = true; i++; continue; }
+    if (inWiki && trimmed[i] === ']' && trimmed[i+1] === ']') { inWiki = false; i++; continue; }
+    if (inWiki) continue;
+    const ch = trimmed[i];
+    if ((ch === '.' || ch === '!' || ch === '?') && i + 1 < trimmed.length) {
+      const next = trimmed[i+1];
+      if (next === ' ' || next === '\n') {
+        const after = trimmed.slice(i+1).match(/^\s*(.+)/s);
+        if (after && /^[\[\"A-Z]/.test(after[1])) count++;
+      }
+    }
+  }
+  return count;
+}
+
+// test cases
+const tests = [
+  'Friction kills capture. One inbox, phone to desktop.',
+  '[[Mercy]] withholds what I deserve; grace gives what I couldn\\'t earn. Same rescue.',
+  'Public when draft: false; hidden while draft: true. Each note opens.',
+  '**Rule of thumb:** one thing I\\'d cite.',
+];
+for (const t of tests) {
+  const end = firstSentenceEnd(t);
+  console.log(JSON.stringify(t.slice(0,50)), '->', JSON.stringify(t.slice(0, end+1)), '|', JSON.stringify(t.slice(end+1).trim()));
+}
+"
+
+```
+
+```
+"Friction kills capture. One inbox, phone to deskto" -> "Friction kills capture. " | "One inbox, phone to desktop."
+"[[Mercy]] withholds what I deserve; grace gives wh" -> "[[Mercy]] withholds what I deserve; grace gives what I couldn't earn. " | "Same rescue."
+"Public when draft: false; hidden while draft: true" -> "Public when draft: false; hidden while draft: true. " | "Each note opens."
+"**Rule of thumb:** one thing I'd cite." -> "" | "**Rule of thumb:** one thing I'd cite."
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The atomic-notes.md example is acceptable. It is a single sentence without a period.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node &lt;&lt;&#39;SCRIPT&#39;
+const fs = require(&#39;fs&#39;);
+const path = require(&#39;path&#39;);
+
+const dir = &#39;content/english/notes&#39;;
+
+function firstSentenceEnd(text) {
+  let inWiki = false;
+  for (let i = 0; i &lt; text.length; i++) {
+    if (text[i] === &#39;[&#39; &amp;&amp; text[i + 1] === &#39;[&#39;) { inWiki = true; i++; continue; }
+    if (inWiki &amp;&amp; text[i] === &#39;]&#39; &amp;&amp; text[i + 1] === &#39;]&#39;) { inWiki = false; i++; continue; }
+    if (inWiki) continue;
+    const ch = text[i];
+    if ((ch === &#39;.&#39; || ch === &#39;!&#39; || ch === &#39;?&#39;) &amp;&amp; i + 1 &lt; text.length) {
+      const next = text[i + 1];
+      if (next === &#39; &#39; || next === &#39;\n&#39;) {
+        const after = text.slice(i + 1).match(/^\s*(.+)/s);
+        if (after &amp;&amp; /^[\[&#34;A-Z]/.test(after[1])) return i + 1;
+      }
+    }
+  }
+  return -1;
+}
+
+function countSentences(text) {
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  let count = 0;
+  let inWiki = false;
+  let started = false;
+  for (let i = 0; i &lt; trimmed.length; i++) {
+    if (trimmed[i] === &#39;[&#39; &amp;&amp; trimmed[i + 1] === &#39;[&#39;) { inWiki = true; i++; continue; }
+    if (inWiki &amp;&amp; trimmed[i] === &#39;]&#39; &amp;&amp; trimmed[i + 1] === &#39;]&#39;) { inWiki = false; i++; continue; }
+    if (inWiki) continue;
+    if (!started &amp;&amp; /\S/.test(trimmed[i])) { started = true; count = 1; }
+    const ch = trimmed[i];
+    if ((ch === &#39;.&#39; || ch === &#39;!&#39; || ch === &#39;?&#39;) &amp;&amp; i + 1 &lt; trimmed.length) {
+      const next = trimmed[i + 1];
+      if (next === &#39; &#39; || next === &#39;\n&#39;) {
+        const after = trimmed.slice(i + 1).match(/^\s*(.+)/s);
+        if (after &amp;&amp; /^[\[&#34;A-Z]/.test(after[1])) count++;
+      }
+    }
+  }
+  return count;
+}
+
+function fixKeyConcept(body) {
+  const trimmed = body.trimEnd();
+  if (!trimmed) return body;
+
+  const paras = trimmed.split(/\n\n+/);
+  let firstPara = paras[0].trim();
+  let restParas = paras.slice(1);
+
+  if (countSentences(firstPara) &lt;= 1) {
+    return trimmed; // already compliant
+  }
+
+  const end = firstSentenceEnd(firstPara);
+  if (end === -1) return trimmed; // can&#39;t split safely
+
+  const sentence = firstPara.slice(0, end + 1).trim();
+  const remainderFromFirst = firstPara.slice(end + 1).trim();
+  const restParts = [];
+  if (remainderFromFirst) restParts.push(remainderFromFirst);
+  restParts.push(...restParas.map(p =&gt; p.trim()).filter(Boolean));
+
+  if (!restParts.length) return sentence;
+  return sentence + &#39;\n\n&#39; + restParts.join(&#39; &#39;);
+}
+
+let changed = 0;
+let skipped = 0;
+const changedFiles = [];
+
+for (const f of fs.readdirSync(dir).filter(x =&gt; x.endsWith(&#39;.md&#39;) &amp;&amp; x !== &#39;_index.md&#39;)) {
+  const file = path.join(dir, f);
+  let content = fs.readFileSync(file, &#39;utf8&#39;);
+  const re = /^(## Key Concept\n\n)([\s\S]*?)(?=\n## )/m;
+  const m = content.match(re);
+  if (!m) continue;
+
+  const fixed = fixKeyConcept(m[2]);
+  if (fixed === m[2].trimEnd()) { skipped++; continue; }
+
+  const newContent = content.replace(re, `$1${fixed}\n`);
+  fs.writeFileSync(file, newContent);
+  changed++;
+  changedFiles.push(f);
+}
+
+console.log(&#39;Changed:&#39;, changed);
+console.log(&#39;Skipped (already ok):&#39;, skipped);
+console.log(&#39;Sample:&#39;, changedFiles.slice(0, 10).join(&#39;, &#39;));
+SCRIPT
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node <<'SCRIPT'
+const fs = require('fs');
+const path = require('path');
+
+const dir = 'content/english/notes';
+
+function firstSentenceEnd(text) {
+  let inWiki = false;
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] === '[' && text[i + 1] === '[') { inWiki = true; i++; continue; }
+    if (inWiki && text[i] === ']' && text[i + 1] === ']') { inWiki = false; i++; continue; }
+    if (inWiki) continue;
+    const ch = text[i];
+    if ((ch === '.' || ch === '!' || ch === '?') && i + 1 < text.length) {
+      const next = text[i + 1];
+      if (next === ' ' || next === '\n') {
+        const after = text.slice(i + 1).match(/^\s*(.+)/s);
+        if (after && /^[\["A-Z]/.test(after[1])) return i + 1;
+      }
+    }
+  }
+  return -1;
+}
+
+function countSentences(text) {
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  let count = 0;
+  let inWiki = false;
+  let started = false;
+  for (let i = 0; i < trimmed.length; i++) {
+    if (trimmed[i] === '[' && trimmed[i + 1] === '[') { inWiki = true; i++; continue; }
+    if (inWiki && trimmed[i] === ']' && trimmed[i + 1] === ']') { inWiki = false; i++; continue; }
+    if (inWiki) continue;
+    if (!started && /\S/.test(trimmed[i])) { started = true; count = 1; }
+    const ch = trimmed[i];
+    if ((ch === '.' || ch === '!' || ch === '?') && i + 1 < trimmed.length) {
+      const next = trimmed[i + 1];
+      if (next === ' ' || next === '\n') {
+        const after = trimmed.slice(i + 1).match(/^\s*(.+)/s);
+        if (after && /^[\["A-Z]/.test(after[1])) count++;
+      }
+    }
+  }
+  return count;
+}
+
+function fixKeyConcept(body) {
+  const trimmed = body.trimEnd();
+  if (!trimmed) return body;
+
+  const paras = trimmed.split(/\n\n+/);
+  let firstPara = paras[0].trim();
+  let restParas = paras.slice(1);
+
+  if (countSentences(firstPara) <= 1) {
+    return trimmed; // already compliant
+  }
+
+  const end = firstSentenceEnd(firstPara);
+  if (end === -1) return trimmed; // can't split safely
+
+  const sentence = firstPara.slice(0, end + 1).trim();
+  const remainderFromFirst = firstPara.slice(end + 1).trim();
+  const restParts = [];
+  if (remainderFromFirst) restParts.push(remainderFromFirst);
+  restParts.push(...restParas.map(p => p.trim()).filter(Boolean));
+
+  if (!restParts.length) return sentence;
+  return sentence + '\n\n' + restParts.join(' ');
+}
+
+let changed = 0;
+let skipped = 0;
+const changedFiles = [];
+
+for (const f of fs.readdirSync(dir).filter(x => x.endsWith('.md') && x !== '_index.md')) {
+  const file = path.join(dir, f);
+  let content = fs.readFileSync(file, 'utf8');
+  const re = /^(## Key Concept\n\n)([\s\S]*?)(?=\n## )/m;
+  const m = content.match(re);
+  if (!m) continue;
+
+  const fixed = fixKeyConcept(m[2]);
+  if (fixed === m[2].trimEnd()) { skipped++; continue; }
+
+  const newContent = content.replace(re, `$1${fixed}\n`);
+  fs.writeFileSync(file, newContent);
+  changed++;
+  changedFiles.push(f);
+}
+
+console.log('Changed:', changed);
+console.log('Skipped (already ok):', skipped);
+console.log('Sample:', changedFiles.slice(0, 10).join(', '));
+SCRIPT
+
+```
+
+```
+Changed: 133
+Skipped (already ok): 77
+Sample: abide-in-me.md, ask-seek-knock.md, associative-linking.md, assurance.md, attention-economy.md, backlinks.md, behavioral-economics.md, break-the-escalation-cycle.md, building-a-personal-api.md, building-a-second-brain.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+133 items were changed. Verifying how many still need fixing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node -e &#34;
+const fs = require(&#39;fs&#39;);
+const path = require(&#39;path&#39;);
+const dir = &#39;content/english/notes&#39;;
+
+function countSentences(text) {
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  let count = 0, inWiki = false, started = false;
+  for (let i = 0; i &lt; trimmed.length; i++) {
+    if (trimmed[i]===&#39;[&#39;&amp;&amp;trimmed[i+1]===&#39;[&#39;){inWiki=true;i++;continue;}
+    if(inWiki&amp;&amp;trimmed[i]===&#39;]&#39;&amp;&amp;trimmed[i+1]===&#39;]&#39;){inWiki=false;i++;continue;}
+    if(inWiki)continue;
+    if(!started&amp;&amp;/\S/.test(trimmed[i])){started=true;count=1;}
+    const ch=trimmed[i];
+    if((ch===&#39;.&#39;||ch===&#39;!&#39;||ch===&#39;?&#39;)&amp;&amp;i+1&lt;trimmed.length){
+      const next=trimmed[i+1];
+      if(next===&#39; &#39;||next===&#39;\n&#39;){
+        const after=trimmed.slice(i+1).match(/^\s*(.+)/s);
+        if(after&amp;&amp;/^[\[\&#34;A-Z]/.test(after[1]))count++;
+      }
+    }
+  }
+  return count;
+}
+
+const bad = [];
+for (const f of fs.readdirSync(dir).filter(x=&gt;x.endsWith(&#39;.md&#39;)&amp;&amp;x!==&#39;_index.md&#39;)) {
+  const content = fs.readFileSync(path.join(dir,f),&#39;utf8&#39;);
+  const m = content.match(/^## Key Concept\n\n([\s\S]*?)(?=\n## )/m);
+  if (!m) continue;
+  const first = m[1].split(/\n\n+/)[0].trim();
+  const sents = countSentences(first);
+  if (sents &gt; 1) bad.push({f, sents, first: first.slice(0,100)});
+}
+console.log(&#39;Still multi-sentence first para:&#39;, bad.length);
+bad.forEach(x=&gt;console.log(x.f, x.sents, x.first));
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node -e "
+const fs = require('fs');
+const path = require('path');
+const dir = 'content/english/notes';
+
+function countSentences(text) {
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  let count = 0, inWiki = false, started = false;
+  for (let i = 0; i < trimmed.length; i++) {
+    if (trimmed[i]==='['&&trimmed[i+1]==='['){inWiki=true;i++;continue;}
+    if(inWiki&&trimmed[i]===']'&&trimmed[i+1]===']'){inWiki=false;i++;continue;}
+    if(inWiki)continue;
+    if(!started&&/\S/.test(trimmed[i])){started=true;count=1;}
+    const ch=trimmed[i];
+    if((ch==='.'||ch==='!'||ch==='?')&&i+1<trimmed.length){
+      const next=trimmed[i+1];
+      if(next===' '||next==='\n'){
+        const after=trimmed.slice(i+1).match(/^\s*(.+)/s);
+        if(after&&/^[\[\"A-Z]/.test(after[1]))count++;
+      }
+    }
+  }
+  return count;
+}
+
+const bad = [];
+for (const f of fs.readdirSync(dir).filter(x=>x.endsWith('.md')&&x!=='_index.md')) {
+  const content = fs.readFileSync(path.join(dir,f),'utf8');
+  const m = content.match(/^## Key Concept\n\n([\s\S]*?)(?=\n## )/m);
+  if (!m) continue;
+  const first = m[1].split(/\n\n+/)[0].trim();
+  const sents = countSentences(first);
+  if (sents > 1) bad.push({f, sents, first: first.slice(0,100)});
+}
+console.log('Still multi-sentence first para:', bad.length);
+bad.forEach(x=>console.log(x.f, x.sents, x.first));
+"
+
+```
+
+```
+Still multi-sentence first para: 0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All violations are resolved. Proceeding with updates.
+</details></think>
+
+_**Agent (auto-low)**_
+
+All notes pass validation. Updating the archetype, getting-started guide, and notes-creator prompt to document the rule.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking note-relationships next.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{md,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Key Concept|key concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Key Concept|key concept",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "./assets/js/notes-creator.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./archetypes/notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/voice-memos.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/wood-hay-stubble.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/webhooks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-feynman-technique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-second-brain-workflow.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/taxonomy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/sunk-cost-fallacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-beatitudes.md"
+    }
+  ],
+  "totalFiles": 34,
+  "totalMatches": 574
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Checking `selling-static-sites.md` — the script may have corrupted it.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "## Key Concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "## Key Concept",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/voice-memos.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/wood-hay-stubble.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/webhooks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/taxonomy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-feynman-technique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sunk-cost-fallacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-second-brain-workflow.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/synthesis-as-a-goal.md"
+    }
+  ],
+  "totalFiles": 211,
+  "totalMatches": 216
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The regex `(?=\n## )` likely misfired on the dollar signs in `$12/month` and `$12/year`, corrupting `selling-static-sites.md`.
+
+The dollar sign was swallowed entirely. `$12` became `2`. The regex lookahead `(?=\n## )` likely matched the newline before `##` instead of the actual section header.
+
+JavaScript `String.replace` treats `$1` as a backreference in the replacement string. The replacement text `$1${fixed}\n` likely caused `$12` to be partially interpreted during the replacement itself.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The replace step treated `$12` as a backreference. Searching for corrupted files and fixing them.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+rg: the literal "\n" is not allowed in a regex
+
+Consider enabling multiline mode with the --multiline flag (or -U for short).
+When multiline mode is enabled, new line characters can be matched.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "not the ## Key Concept|~## Key Concept|\\$## Key Concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "not the ## Key Concept|~## Key Concept|\\$## Key Concept",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-tier-hosting-stack.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/selling-static-sites.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/selling-static-sites.md content/english/notes/free-tier-hosting-stack.md 2&gt;/dev/null | head -80</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/selling-static-sites.md content/english/notes/free-tier-hosting-stack.md 2>/dev/null | head -80
+```
+
+```
+diff --git a/content/english/notes/free-tier-hosting-stack.md b/content/english/notes/free-tier-hosting-stack.md
+index 73e5199..3db3750 100644
+--- a/content/english/notes/free-tier-hosting-stack.md
++++ b/content/english/notes/free-tier-hosting-stack.md
+@@ -23,7 +23,9 @@ aliases: ["github cloudflare stack", "free static hosting"]
+ 
+ ## Key Concept
+ 
+-Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/). Same pipeline for [[Selling Static Sites]] and my [[Digital Garden]] - markdown in, fast site out, no PHP patch Tuesday. **Hugo** turns markdown plus theme into plain HTML. **GitHub** is source of truth and backup (private client repos are fine on free GitHub). **Cloudflare Pages** builds on push, serves over CDN with HTTPS. Flow: edit → `git push` → live in about ninety seconds. No database, no admin panel - which is why [[Static Site Client Scope]] matters.
++Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/).
++
++Same pipeline for [[Selling Static Sites]] and my [[Digital Garden]] - markdown in, fast site out, no PHP patch Tuesday. **Hugo** turns markdown plus theme into plain HTML. **GitHub** is source of truth and backup (private client repos are fine on free GitHub). **Cloudflare Pages** builds on push, serves over CDN with HTTPS. Flow: edit → `git push` → live in about ninety seconds. No database, no admin panel - which is why [[Static Site Client Scope]] matters. **Pin env vars on every project:** set `NODE_VERSION` and `GO_VERSION` as **build-time** vars in the Pages dashboard (Settings → Build → Variables) - `wrangler.toml [vars]` are runtime-only and won't apply at build. Pin Hugo once in a versions file the build script reads. Enable **Build cache** in Pages (one-time) plus Hugo `--cacheDir .cache` in the build script. Enable **Git submodules** in Pages settings if the theme is a submodule. Version drift and missing submodules are the most boring deploy failures. **Save builds:** batch commits before push; `[sk
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The replacement string bug was caused by JavaScript's `replace` method treating `$12` inside `$1${fixed}` as capture group 12 instead of a literal dollar sign.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "## Key Concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "## Key Concept",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/wood-hay-stubble.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/voice-memos.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/webhooks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-second-brain-workflow.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-feynman-technique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/synthesis-as-a-goal.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-12-week-year.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/taxonomy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sunk-cost-fallacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    }
+  ],
+  "totalFiles": 211,
+  "totalMatches": 216
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only two files were corrupted. The selling-static-sites file was affected.
+
+Restoring both corrupted files from git HEAD. The selling-static-sites.md fix will place one sentence in the Key Concept paragraph and combine the remaining text in the following paragraph.
+
+The second paragraph covers the full proposal scope. It includes discovery and static site scope, pinned Hugo and Node versions, theme and layout, content migration, and a separate handoff price. Domains and free hosting remain visible in the proposal.
+
+The second paragraph continues with handoff models and offer growth. It links to Plain Commitments, Client Site Handoff, Git-Based CMS, and Minimum Viable Product. It warns against promising WordPress-style edits without training. It also cites Lean Startup loops and Ship It over polished service pages.
+
+The second paragraph now ends with a call to judge the stack by load time and publishability rather than proposal polish. It flags when free hosting stops being viable: rising build counts, file bloat, client-owned Cloudflare organizations, or blocked deploys. Mitigations belong in Free Tier Hosting Stack, while scope traps belong in Static Site Client Scope. The target text opens with the one-sentence Key Concept and the jorap.com example.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git show HEAD:content/english/notes/free-tier-hosting-stack.md | sed -n &#39;20,45p&#39;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:content/english/notes/free-tier-hosting-stack.md | sed -n '20,45p'
+```
+
+```
+aliases: ["github cloudflare stack", "free static hosting"]
+---
+**Free tier hosting stack** = Hugo builds static HTML, GitHub stores the repo, Cloudflare Pages builds and serves on every push - $0 until account limits or client policy say upgrade.
+
+## Key Concept
+
+Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/). Same pipeline for [[Selling Static Sites]] and my [[Digital Garden]] - markdown in, fast site out, no PHP patch Tuesday. **Hugo** turns markdown plus theme into plain HTML. **GitHub** is source of truth and backup (private client repos are fine on free GitHub). **Cloudflare Pages** builds on push, serves over CDN with HTTPS. Flow: edit → `git push` → live in about ninety seconds. No database, no admin panel - which is why [[Static Site Client Scope]] matters.
+
+**Pin env vars on every project:** set `NODE_VERSION` and `GO_VERSION` as **build-time** vars in the Pages dashboard (Settings → Build → Variables) - `wrangler.toml [vars]` are runtime-only and won't apply at build. Pin Hugo once in a versions file the build script reads. Enable **Build cache** in Pages (one-time) plus Hugo `--cacheDir .cache` in the build script. Enable **Git submodules** in Pages settings if the theme is a submodule. Version drift and missing submodules are the most boring deploy failures.
+
+**Save builds:** batch commits before push; `[skip ci]` for non-site files (`.specstory`, internal `docs/`). Run `scripts/setup-git-hooks.sh` to auto-append skip markers. Client template: `docs/CLIENT_STATIC_SITE.md`.
+
+**Free tier headroom** (re-read [Cloudflare limits](https://developers.cloudflare.com/pages/platform/limits/) before quoting): about 500 builds per month, 1 concurrent build, 20,000 files per deployment, unlimited static bandwidth, 20-minute build timeout. Normal brochure sites sit far below that. Risk shows up when one account hosts many clients who deploy often, or themes ship huge unoptimized image trees.
+
+**When free tier stops fitting:** move to the 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git checkout HEAD -- content/english/notes/selling-static-sites.md content/english/notes/free-tier-hosting-stack.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git checkout HEAD -- content/english/notes/selling-static-sites.md content/english/notes/free-tier-hosting-stack.md
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The first sentence of selling-static-sites.md states that margin comes from labor rather than hosting markup.
+
+The remaining content will be consolidated into a single second paragraph. Multiple paragraphs after the opening sentence are acceptable.
+
+selling-static-sites.md will keep its existing paragraph breaks. Only the first sentence will be isolated. free-tier-hosting-stack.md opens with a full walkthrough link.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The first paragraph in note-relationships.md is a table without a sentence-ending line. This violates the one-sentence key concept rule.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "~## Key Concept|not the ## Key Concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "~## Key Concept|not the ## Key Concept",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node -e &#34;
+const fs = require(&#39;fs&#39;);
+const path = require(&#39;path&#39;);
+const dir = &#39;content/english/notes&#39;;
+function countSentences(text) {
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  let count = 0, inWiki = false, started = false;
+  for (let i = 0; i &lt; trimmed.length; i++) {
+    if (trimmed[i]===&#39;[&#39;&amp;&amp;trimmed[i+1]===&#39;[&#39;){inWiki=true;i++;continue;}
+    if(inWiki&amp;&amp;trimmed[i]===&#39;]&#39;&amp;&amp;trimmed[i+1]===&#39;]&#39;){inWiki=false;i++;continue;}
+    if(inWiki)continue;
+    if(!started&amp;&amp;/\S/.test(trimmed[i])){started=true;count=1;}
+    const ch=trimmed[i];
+    if((ch===&#39;.&#39;||ch===&#39;!&#39;||ch===&#39;?&#39;)&amp;&amp;i+1&lt;trimmed.length){
+      const next=trimmed[i+1];
+      if(next===&#39; &#39;||next===&#39;\n&#39;){
+        const after=trimmed.slice(i+1).match(/^\s*(.+)/s);
+        if(after&amp;&amp;/^[\[\&#34;A-Z]/.test(after[1]))count++;
+      }
+    }
+  }
+  return count;
+}
+const bad = [];
+for (const f of fs.readdirSync(dir).filter(x=&gt;x.endsWith(&#39;.md&#39;)&amp;&amp;x!==&#39;_index.md&#39;)) {
+  const content = fs.readFileSync(path.join(dir,f),&#39;utf8&#39;);
+  const m = content.match(/^## Key Concept\n\n([\s\S]*?)(?=\n## )/m);
+  if (!m) continue;
+  const first = m[1].split(/\n\n+/)[0].trim();
+  if (first.startsWith(&#39;|&#39;)) continue; // table-first notes like note-relationships
+  const sents = countSentences(first);
+  if (sents &gt; 1) bad.push(f);
+}
+console.log(&#39;Violations:&#39;, bad.length, bad.join(&#39;, &#39;) || &#39;none&#39;);
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node -e "
+const fs = require('fs');
+const path = require('path');
+const dir = 'content/english/notes';
+function countSentences(text) {
+  const trimmed = text.trim();
+  if (!trimmed) return 0;
+  let count = 0, inWiki = false, started = false;
+  for (let i = 0; i < trimmed.length; i++) {
+    if (trimmed[i]==='['&&trimmed[i+1]==='['){inWiki=true;i++;continue;}
+    if(inWiki&&trimmed[i]===']'&&trimmed[i+1]===']'){inWiki=false;i++;continue;}
+    if(inWiki)continue;
+    if(!started&&/\S/.test(trimmed[i])){started=true;count=1;}
+    const ch=trimmed[i];
+    if((ch==='.'||ch==='!'||ch==='?')&&i+1<trimmed.length){
+      const next=trimmed[i+1];
+      if(next===' '||next==='\n'){
+        const after=trimmed.slice(i+1).match(/^\s*(.+)/s);
+        if(after&&/^[\[\"A-Z]/.test(after[1]))count++;
+      }
+    }
+  }
+  return count;
+}
+const bad = [];
+for (const f of fs.readdirSync(dir).filter(x=>x.endsWith('.md')&&x!=='_index.md')) {
+  const content = fs.readFileSync(path.join(dir,f),'utf8');
+  const m = content.match(/^## Key Concept\n\n([\s\S]*?)(?=\n## )/m);
+  if (!m) continue;
+  const first = m[1].split(/\n\n+/)[0].trim();
+  if (first.startsWith('|')) continue; // table-first notes like note-relationships
+  const sents = countSentences(first);
+  if (sents > 1) bad.push(f);
+}
+console.log('Violations:', bad.length, bad.join(', ') || 'none');
+"
+
+```
+
+```
+Violations: 0 none
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Done. Every note's **## Key Concept** now opens with one sentence, then a blank line, then the rest.
+
+**133 notes** were split (e.g. `capture.md`: "Friction kills capture." → next paragraph; `grace.md`: mercy/grace distinction → next paragraph).
+
+**Schema/docs updated** so new notes follow the same rule:
+- `archetypes/notes.md`
+- `getting-started.md`
+- `note-relationships.md`
+- `assets/js/notes-creator.js`
+
+**Example** (`capture.md`):
+
+```36:40:content/english/notes/capture.md
+## Key Concept
+
+Friction kills capture.
+
+One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
+```
+
+**Exception:** `note-relationships.md` still leads with its type table (not a prose sentence) — the docs paragraph now calls out the one-sentence rule for normal atomic notes.

@@ -62,7 +62,7 @@
 
 {{- if and (eq $page.Section "blog") (lt (len $items) $limit) -}}
   {{- $minLen := site.Params.notes.unlinked_min_length | default 6 | int -}}
-  {{- $raw := $page.RawContent -}}
+  {{- $raw := partial "notes/note-raw-body.html" $page -}}
   {{- $fence := "```" -}}
   {{- $tick := "`" -}}
   {{- $raw = replaceRE (printf "(?s)%s[\\s\\S]*?%s" $fence $fence) "" $raw -}}

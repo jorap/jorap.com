@@ -17,40 +17,22 @@ Reviewing `eternal-principles.md` and how note connections are validated in this
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
@@ -61,10 +43,8 @@ Running lint scripts and verifying linked notes exist.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -95,22 +75,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **93** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (93 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (93 files)
 
 | File |
 |------|
@@ -207,73 +179,45 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (93 files)
 | `content/english/notes/great-commission.md` |
 | `content/english/notes/local-first-software.md` |
 | `content/english/notes/maps-of-content.md` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1 | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | head -80
 ```
 
 ```
 
-&gt; jorap-com@2.2.0 lint:notes
-&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
+> jorap-com@2.2.0 lint:notes
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 
 ✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
 ✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (92 notes)
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -380,19 +324,13 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-No broken wikilinks were found. Notes in the eternal-principles sections lack explanations. A link explaining each connection is needed.</details></think>
+No broken wikilinks were found. Notes in the eternal-principles sections lack explanations. A link explaining each connection is needed.
+</details></think>
 
 _**Agent (default)**_
 
@@ -401,10 +339,8 @@ Checking which indexed notes lack reciprocal links and whether section bullets n
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -457,64 +393,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/heart-righteousness.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/heart-righteousness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
@@ -525,14 +430,13 @@ Only six notes explicitly link back to [[Eternal Principles]], including the pag
 
 Several gospel notes tag "Eternal Principles" but omit reciprocal links back to the main page. The section lists also contain bare bullet links without explanations of why each note belongs there.
 
-Checking whether all 17 PKM cross-link pairs have reciprocal links with explanatory text.</details></think>
+Checking whether all 17 PKM cross-link pairs have reciprocal links with explanatory text.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -612,33 +516,19 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-utility-wikilinks.py && python3 scripts/lint-flashcard-frontmatter.py 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-utility-wikilinks.py &amp;&amp; python3 scripts/lint-flashcard-frontmatter.py 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-utility-wikilinks.py && python3 scripts/lint-flashcard-frontmatter.py 2>&1 | tail -20
 ```
@@ -648,12 +538,6 @@ Utility wikilinks OK
 Flashcard frontmatter OK
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -671,7 +555,8 @@ Reconsidering whether to edit only the MOC page or also every child note. The us
 
 The page lists several notes that are absent from the cross-links table. These include Theological basis, Two great commandments, How to treat others, and Heart and priorities. Examples include Free Grace, Repent and Believe, The Golden Rule, Love Your Enemies, Forgiveness, Reconciliation Before Worship, Peacemakers, Judge Not, By Their Fruits, Heart Righteousness, Ask Seek Knock, Secret Devotion, Seek the Kingdom First, Don't Worry, Treasure in Heaven, and The Beatitudes.
 
-Thirty notes appear in the page sections. The cross-links table covers seventeen faith notes, including duplicates. Twelve notes listed on the page lack a corresponding cross-link entry.</details></think>
+Thirty notes appear in the page sections. The cross-links table covers seventeen faith notes, including duplicates. Twelve notes listed on the page lack a corresponding cross-link entry.
+</details></think>
 
 _**Agent (default)**_
 
@@ -680,10 +565,8 @@ Checking gospel notes indexed on the page for missing MOC backlinks and reviewin
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -776,38 +659,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
@@ -818,14 +682,13 @@ The main issue on eternal-principles.md is that section bullets are bare wikilin
 
 The Eternal Principles MOC lacks a contradicts line. Its See also list is too thin. The thirty child notes do not link back to it. This breaks bidirectional navigation.
 
-The cross-links table duplicates several PKM partners. Twelve notes in the sections also lack PKM cross-links. I will add brief explanations to each section bullet, insert the missing contradicts line, and expand See also to include Maps of Content.</details></think>
+The cross-links table duplicates several PKM partners. Twelve notes in the sections also lack PKM cross-links. I will add brief explanations to each section bullet, insert the missing contradicts line, and expand See also to include Maps of Content.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -886,25 +749,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mental-models-list.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mental-models-list.md</summary>
 
 </details></tool-use>
 
@@ -925,14 +775,13 @@ Drafting continues for the remaining section notes. Treasure in Heaven and The B
 
 The relationship line needs a contradiction entry pointing to First Principles Thinking. The See Also section should include Maps of Content and Free Grace. The cross-links table may need both notes wikilinked in its Link column. Line 93 should read "Index for gospel notes in this garden" in uppercase to match maps-of-content style.
 
-Mental Models List is correctly placed in See Also. A full cross-link for Love God was considered but skipped as too stretchy. The cross-links table resolves file targets correctly despite title-case differences.</details></think>
+Mental Models List is correctly placed in See Also. A full cross-link for Love God was considered but skipped as too stretchy. The cross-links table resolves file targets correctly despite title-case differences.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -963,60 +812,33 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/childlike-faith.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/childlike-faith.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -1047,25 +869,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
@@ -1084,7 +893,8 @@ Childlike Faith and Getting Started are confirmed as a strong beginner-posture p
 
 Love Your Neighbor now pairs with Associative Linking, treating neighbors in the graph as ideas linked by proximity and care. Peacemakers connects to Reconciliation Before Worship, with Weekly Review Checklists as a possible secondary link for community peace. Humility and Service links to Process Over Outcomes, serving the process rather than the spotlight. Ask Seek Knock and Periodic Knowledge Review form a rhythm pair: keeping the asking loop alive through regular review instead of cramming.
 
-The remaining PKM cross-links are now defined. The Beatitudes pairs with Evergreen Notes, treating character traits as lasting rather than fleeting. The Narrow Way pairs with Minimum Viable Product, contrasting the costly path against shipping essentials. Heart Righteousness pairs with Progressive Summarization, distilling inner life layer by layer instead of skimming the surface. Judge Not pairs with Graph View Analytics, shifting from condemnation to diagnosis. Render Unto Caesar pairs with Local-first Software, weighing civic systems against personal ownership.</details></think>
+The remaining PKM cross-links are now defined. The Beatitudes pairs with Evergreen Notes, treating character traits as lasting rather than fleeting. The Narrow Way pairs with Minimum Viable Product, contrasting the costly path against shipping essentials. Heart Righteousness pairs with Progressive Summarization, distilling inner life layer by layer instead of skimming the surface. Judge Not pairs with Graph View Analytics, shifting from condemnation to diagnosis. Render Unto Caesar pairs with Local-first Software, weighing civic systems against personal ownership.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1093,46 +903,22 @@ Fixing the page: section bullets are bare wikilinks without connection explanati
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
@@ -1143,53 +929,29 @@ Adding reciprocal cross-links in partner notes for the new pairs:
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md</summary>
 
 </details></tool-use>
 
@@ -1198,127 +960,74 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Checking cross-references across pages. The Getting Started page already contains Childlike Faith. The Periodic Knowledge Review page already contains Ask Seek Knock. The See also section needs updating for the new pairs. The Beatitudes should be added to evergreen-notes.md.
 
-associative-linking.md needs a Love Your Neighbor parallel. note-relationships already has Reconciliation; the Golden Rule is new. The cross-links table is on the eternal-principles page.</details></think>
+associative-linking.md needs a Love Your Neighbor parallel. note-relationships already has Reconciliation; the Golden Rule is new. The cross-links table is on the eternal-principles page.
+</details></think>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Adding a "See also" link from childlike-faith to the Eternal Principles MOC would improve navigation.</details></think>
+Adding a "See also" link from childlike-faith to the Eternal Principles MOC would improve navigation.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'broken wikilink|unlinked mention|ERROR' || echo "No wikilink errors"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1 | rg &#39;broken wikilink|unlinked mention|ERROR&#39; || echo &#34;No wikilink errors&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'broken wikilink|unlinked mention|ERROR' || echo "No wikilink errors"
 ```
 
 ```
-&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 WARN  unlinked mention of "Caesar and God" (→ [[Render Unto Caesar]]) in notes/eternal-principles.md
 WARN  unlinked mention of "anger and lust" (→ [[Heart Righteousness]]) in notes/eternal-principles.md
 WARN  unlinked mention of "heart sins" (→ [[Heart Righteousness]]) in notes/eternal-principles.md
@@ -1329,24 +1038,12 @@ WARN  unlinked mention of "greatest commandment" (→ [[Love God]]) in notes/ete
 WARN  unlinked mention of "faith alone" (→ [[Free Grace]]) in notes/eternal-principles.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
@@ -1355,7 +1052,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Hugo detected unlinked mention warnings. Alias text in explanations matches note aliases but lacks wikilinks. I am weighing fixes.
 
-Five specific alias collisions were identified. "Caesar and God" maps to Render Unto Caesar. "Heart sins" and "anger and lust" map to Heart Righteousness. "Persistent prayer" maps to Ask Seek Knock. "Blessed are" maps to The Beatitudes. "Do unto others" maps to The Golden Rule. "Faith alone" maps to Free Grace. I will resolve these by wikilinking the aliases or rephrasing the prose.</details></think>
+Five specific alias collisions were identified. "Caesar and God" maps to Render Unto Caesar. "Heart sins" and "anger and lust" map to Heart Righteousness. "Persistent prayer" maps to Ask Seek Knock. "Blessed are" maps to The Beatitudes. "Do unto others" maps to The Golden Rule. "Faith alone" maps to Free Grace. I will resolve these by wikilinking the aliases or rephrasing the prose.
+</details></think>
 
 _**Agent (default)**_
 
@@ -1364,39 +1062,22 @@ Fixing unlinked alias mentions flagged by the Hugo linter:
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg 'eternal-principles|broken wikilink' || echo "Clean"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#39;eternal-principles|broken wikilink&#39; || echo &#34;Clean&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg 'eternal-principles|broken wikilink' || echo "Clean"
 ```
@@ -1405,12 +1086,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg 'eternal-princi
 Clean
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1460,23 +1135,15 @@ Checking how wikilinks with custom labels are rendered and whether `[[Free Grace
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -1524,7 +1191,7 @@ Result:
           },
           {
             "lineNumber": 35,
-            "text": "  {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" $full -}}"
+            "text": "  {{- $inner := replaceRE `^\\[\\[|\\]\\]$` \"\" $full -}}"
           },
           {
             "lineNumber": 36,
@@ -1564,3531 +1231,17 @@ Result:
           },
           {
             "lineNumber": 45,
-            "text": "  {{- if strings.Contains $left \"#\" -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "    {{- $hashParts := split $left \"#\" -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "    {{- $target = index $hashParts 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "    {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 50
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $target) -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  {{- with $resolved.Page -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "    {{- $href := .RelPermalink -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "      {{- $href = printf \"%s#%s\" $href $anchor -}}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "    {{- $text := $label -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "    {{- if not $text -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "      {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 60,
-            "text": "        {{- $text = $anchor -}}"
-          },
-          {
-            "lineNumber": 61,
-            "text": "      {{- else -}}"
-          },
-          {
-            "lineNumber": 62,
-            "text": "        {{- $text = $target -}}"
-          },
-          {
-            "lineNumber": 63,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 64,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 65,
-            "text": "    {{- $link := printf &#96;\u003ca href=\"%s\" class=\"%s\" data-wikilink-preview=\"%s\"\u003e%s\u003c/a\u003e&#96; $href $class .RelPermalink $text -}}"
-          },
-          {
-            "lineNumber": 66,
-            "text": "    {{- $content = replace $content $full $link -}}"
-          },
-          {
-            "lineNumber": 67,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 68,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 69
-          },
-          {
-            "lineNumber": 70,
-            "text": "{{- /* Unresolved wikilinks */ -}}"
-          },
-          {
-            "lineNumber": 71,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"No matching note for this wikilink\"\u003e$1\u003c/span\u003e&#96; $class) $content -}}"
-          },
-          {
-            "lineNumber": 72
-          },
-          {
-            "lineNumber": 73,
-            "text": "{{- range $protected -}}"
-          },
-          {
-            "lineNumber": 74,
-            "text": "  {{- $content = replace $content .token .block -}}"
-          },
-          {
-            "lineNumber": 75,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 76
-          },
-          {
-            "lineNumber": 77,
-            "text": "{{- $content | safeHTML -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 77
-          },
-          "startPosition": {
-            "line": 27
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
-        "signatures": {}
-      },
-      "score": 0.5467936992645264
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Wikilinks in the current note's raw body, resolved to pages."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Returns slice of dict: Page, Label, Anchor."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $raw := $page.RawContent -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $matches := findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?(?:\\|[^\\]]+)?\\]\\]&#96; $raw -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $seen := dict -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $links := slice -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- range $matches -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- $label := \"\" -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  {{- $target := $inner -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- $anchor := \"\" -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- if strings.Contains $inner \"|\" -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    {{- $parts := split $inner \"|\" -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    {{- $target = index $parts 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    {{- $label = index $parts 1 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  {{- if strings.Contains $target \"#\" -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- $hashParts := split $target \"#\" -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "    {{- $target = index $hashParts 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $target) -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  {{- with $resolved.Page -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    {{- if ne .RelPermalink $page.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "      {{- if not (index $seen .RelPermalink) -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "        {{- $seen = merge $seen (dict .RelPermalink true) -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "        {{- if eq $label \"\" -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "          {{- $label = .Title -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "        {{- $href := .RelPermalink -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "        {{- if $anchor -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "          {{- $href = printf \"%s#%s\" .RelPermalink ($anchor | anchorize) -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "        {{- $links = $links | append (dict \"Page\" . \"Label\" $label \"Anchor\" $anchor \"Href\" $href) -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "{{- return $links -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 42
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/outgoing-links.html",
-        "signatures": {}
-      },
-      "score": 0.4743780493736267
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $content := $page.Content -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{- $class := site.Params.notes.wikilink_class | default \"wikilink\" -}}"
-          },
-          {
-            "lineNumber": 4
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- /* Typographer may curl apostrophes inside [[wikilinks]] before we replace them */ -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $content = replace $content \"\\u2019\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $content = replace $content \"\\u2018\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $content = replace $content \"\u0026rsquo;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $content = replace $content \"\u0026#8217;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $content = replace $content \"\u0026apos;\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 15
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- /* Keep inline code / pre blocks literal (e.g. &#96;[[wikilinks]]&#96; in Getting Started) */ -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- $protected := slice -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- $blocks := findRE &#96;(?s)\u003c(?:code|pre)[^\u003e]*\u003e.*?\u003c/(?:code|pre)\u003e&#96; $content -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- range $i, $block := $blocks -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  {{- $token := printf \"WIKILINK-PROTECT-%d-END\" $i -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- $protected = $protected | append (dict \"token\" $token \"block\" $block) -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  {{- $content = replace $content $block $token -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "{{- /* Resolve each [[wikilink]] via the link registry (case-insensitive keys) */ -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- $links := findRE &#96;\\[\\[[^\\]]+\\]\\]&#96; $content -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "{{- $seen := dict -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "{{- range $links -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- $full := . -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 29
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
-        "signatures": {}
-      },
-      "score": 0.40493643283843994
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Resolve a wikilink target string to a note page."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Input: Target (may include #heading; label is stripped by caller)."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Returns dict: Page, Anchor (string, may be empty)."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $raw := strings.TrimSpace .Target -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $anchor := \"\" -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- if strings.Contains $raw \"#\" -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- $hashParts := split $raw \"#\" -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $raw = index $hashParts 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $registry := partialCached \"notes/link-registry.html\" site \"notes-registry-v2\" -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $page := index $registry.byKey (lower $raw) -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- return (dict \"Page\" $page \"Anchor\" $anchor \"Target\" $raw) -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 15
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/resolve-target.html",
-        "signatures": {}
-      },
-      "score": 0.384236603975296
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Notes that link to the current page via wikilinks, with a context snippet."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Returns slice of dict: Page, Snippet."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $needles := slice $page.Title -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- with $page.Params.slug -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  {{- $needles = $needles | append . -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- with $page.File -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $needles = $needles | append .ContentBaseName -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- with $page.Params.aliases -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- $needles = union $needles . -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "{{- $backlinks := slice -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- $seen := dict -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- $notes := partial \"notes/pages.html\" (dict) -}}"
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "{{- range $notes -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  {{- if eq .RelPermalink $page.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    {{- continue -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- $raw := .RawContent -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  {{- $snippet := \"\" -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  {{- $matched := false -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  {{- range $needles -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    {{- if not $matched -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "      {{- $linePattern := printf &#96;(?m)[^\\n]{0,100}\\[\\[%s(?:#[^\\]|]+)?(?:\\|[^\\]]+)?\\]\\][^\\n]{0,100}&#96; . -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "      {{- $lineMatch := findRE $linePattern $raw 1 -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      {{- if $lineMatch -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "        {{- $matched = true -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "        {{- $snippet = index $lineMatch 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "        {{- $snippet = replaceRE &#96;\\[\\[([^\\]|#]+)(?:#[^\\]|]+)?(?:\\|([^\\]]+))?\\]\\]&#96; \"$2\" $snippet -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "        {{- $snippet = replaceRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?(?:\\|[^\\]]+)?\\]\\]&#96; \"…\" $snippet -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "        {{- $snippet = replaceRE &#96;\\*\\*([^*]+)\\*\\*&#96; \"$1\" $snippet -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "        {{- $snippet = replaceRE &#96;\\*([^*]+)\\*&#96; \"$1\" $snippet -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "        {{- $snippet = strings.TrimSpace $snippet -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "        {{- if gt (len $snippet) 140 -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "          {{- $snippet = printf \"%s…\" (substr $snippet 0 137) -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "  {{- if $matched -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "    {{- if not (index $seen .RelPermalink) -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "      {{- $seen = merge $seen (dict .RelPermalink true) -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "      {{- $backlinks = $backlinks | append (dict \"Page\" . \"Snippet\" $snippet) -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 53
-          },
-          {
-            "lineNumber": 54,
-            "text": "{{- return $backlinks -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 54
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/backlinks.html",
-        "signatures": {}
-      },
-      "score": 0.38162505626678467
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 51,
-            "text": "  {{- $unlinkedKeys := dict -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  {{- range $other := $gardenNotes -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "    {{- if eq $other.RelPermalink $note.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "      {{- continue -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "    {{- $needles := slice $other.Title -}}"
-          },
-          {
-            "lineNumber": 57,
-            "text": "    {{- with $other.Params.aliases -}}"
-          },
-          {
-            "lineNumber": 58,
-            "text": "      {{- $needles = union $needles . -}}"
-          },
-          {
-            "lineNumber": 59,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 60,
-            "text": "    {{- range $needles -}}"
-          },
-          {
-            "lineNumber": 61,
-            "text": "      {{- if lt (len .) $minLen -}}"
-          },
-          {
-            "lineNumber": 62,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 63,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 64,
-            "text": "      {{- $words := split . \" \" -}}"
-          },
-          {
-            "lineNumber": 65,
-            "text": "      {{- $multiWord := gt (len $words) 1 -}}"
-          },
-          {
-            "lineNumber": 66,
-            "text": "      {{- $escaped := replaceRE &#96;([.*+?^${}()|[\\]\\\\])&#96; &#96;\\\\$1&#96; . -}}"
-          },
-          {
-            "lineNumber": 67,
-            "text": "      {{- $wikilinkPattern := printf &#96;(?i)\\[\\[%s(?:#[^\\]|]+)?(?:\\|[^\\]]+)?\\]\\]&#96; $escaped -}}"
-          },
-          {
-            "lineNumber": 68,
-            "text": "      {{- if findRE $wikilinkPattern $raw -}}"
-          },
-          {
-            "lineNumber": 69,
-            "text": "        {{- continue -}}"
-          },
-          {
-            "lineNumber": 70,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 71,
-            "text": "      {{- if $multiWord -}}"
-          },
-          {
-            "lineNumber": 72,
-            "text": "        {{- if not (findRE (printf &#96;(?i)%s&#96; $escaped) $raw) -}}"
-          },
-          {
-            "lineNumber": 73,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 74,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 75,
-            "text": "        {{- $wordPattern := printf &#96;(?i)(?:^|[^[\\w])%s(?:[^]\\w]|$)&#96; $escaped -}}"
-          },
-          {
-            "lineNumber": 76,
-            "text": "        {{- if not (findRE $wordPattern $raw) -}}"
-          },
-          {
-            "lineNumber": 77,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 78,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 79,
-            "text": "      {{- else -}}"
-          },
-          {
-            "lineNumber": 80,
-            "text": "        {{- if not (findRE (printf &#96;%s&#96; $escaped) $raw) -}}"
-          },
-          {
-            "lineNumber": 81,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 82,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 83,
-            "text": "        {{- $wordPattern := printf &#96;(?:^|[^[\\wA-Z])%s(?:[^]\\w]|$)&#96; $escaped -}}"
-          },
-          {
-            "lineNumber": 84,
-            "text": "        {{- if not (findRE $wordPattern $raw) -}}"
-          },
-          {
-            "lineNumber": 85,
-            "text": "          {{- continue -}}"
-          },
-          {
-            "lineNumber": 86,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 87,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 88,
-            "text": "      {{- $ukey := printf \"%s|%s\" $path (lower .) -}}"
-          },
-          {
-            "lineNumber": 89,
-            "text": "      {{- if not (index $unlinkedKeys $ukey) -}}"
-          },
-          {
-            "lineNumber": 90,
-            "text": "        {{- $unlinkedKeys = merge $unlinkedKeys (dict $ukey true) -}}"
-          },
-          {
-            "lineNumber": 91,
-            "text": "        {{- $unlinked = $unlinked | append (dict \"mention\" . \"suggestTitle\" $other.Title \"suggestPage\" $other) -}}"
-          },
-          {
-            "lineNumber": 92,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 93,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 94,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 95
-          },
-          {
-            "lineNumber": 96,
-            "text": "  {{- if or (gt (len $broken) 0) (gt (len $unlinked) 0) -}}"
-          },
-          {
-            "lineNumber": 97,
-            "text": "    {{- $total := add (len $broken) (len $unlinked) -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 97
-          },
-          "startPosition": {
-            "line": 50
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.35775434970855713
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 20,
-            "text": "\u003carticle"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  class=\"notes-card notes-card-interactive border-divider relative flex h-full w-full flex-col rounded-lg border p-5\"\u003e"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  \u003ca"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    class=\"notes-card-overlay\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "    href=\"{{ $href }}\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "    data-wikilink-preview=\"{{ $page.RelPermalink }}\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "    aria-label=\"{{ $title }}\"\u003e\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  {{ $headingOpen }}{{ $title }}{{ $headingClose }}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  {{- if $showStatus -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    \u003cdiv class=\"notes-card-meta relative z-[2] mb-2 flex flex-wrap items-center gap-2\"\u003e"
-          },
-          {
-            "lineNumber": 30,
-            "text": "      {{ partial \"notes/status-badge.html\" (dict \"Page\" $page) }}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    \u003c/div\u003e"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "  {{- if $body -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "    \u003cp class=\"text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none\"\u003e{{ $body }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 35,
-            "text": "  {{- else if $showDescription -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    {{- with $page.Description -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      \u003cp class=\"text-ink-muted relative z-[1] mb-3 flex-1 text-sm pointer-events-none\"\u003e{{ . }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    {{- else -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "      \u003cdiv class=\"relative z-[1] flex-1 pointer-events-none\" aria-hidden=\"true\"\u003e\u003c/div\u003e"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "  {{- with $shared -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "    \u003cp class=\"text-ink-muted relative z-[1] mb-3 text-xs pointer-events-none\"\u003e{{ delimit (first 3 .) \", \" }}\u003c/p\u003e"
-          },
-          {
-            "lineNumber": 44,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  {{- if $showTags -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "    {{- with $page.Params.tags -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "      {{ partial \"notes/tag-chips.html\" (dict"
-          },
-          {
-            "lineNumber": 48,
-            "text": "        \"Tags\" ."
-          },
-          {
-            "lineNumber": 49,
-            "text": "        \"ListClass\" \"notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2\""
-          },
-          {
-            "lineNumber": 50,
-            "text": "        \"SizeClass\" \"text-xs\""
-          },
-          {
-            "lineNumber": 51,
-            "text": "        \"PadClass\" \"px-2 py-0.5\""
-          },
-          {
-            "lineNumber": 52,
-            "text": "      ) }}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "\u003c/article\u003e"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 55
-          },
-          "startPosition": {
-            "line": 19
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/note-card.html",
-        "signatures": {}
-      },
-      "score": 0.32775044441223145
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Per-note link issue panel. Pass the note Page."
-          },
-          {
-            "lineNumber": 3,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $page := . -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- if or (ne ($page.Params.note_kind | default \"note\") \"note\") $page.Draft -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  {{- return -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- with $page.File -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- $data := partialCached \"notes/collect-note-issues.html\" site \"note-issues-v2\" -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $issues := index $data.byPath .Path -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- if $issues -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    \u003caside class=\"notes-issues border-divider mb-6 rounded border p-5\" aria-label=\"Link issues on this note\"\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "      \u003ch2 class=\"h6 notes-issues__title mb-2\"\u003eLink issues\u003c/h2\u003e"
-          },
-          {
-            "lineNumber": 14,
-            "text": "      \u003cp class=\"notes-issues__lede text-ink-muted mb-3 text-sm\"\u003e"
-          },
-          {
-            "lineNumber": 15,
-            "text": "        {{ $issues.total }} {{ if eq $issues.total 1 }}issue{{ else }}issues{{ end }} on this note."
-          },
-          {
-            "lineNumber": 16,
-            "text": "        \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ &#96;/notes/issues/&#96; | relLangURL }}\"\u003eAll garden issues\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 17,
-            "text": "      \u003c/p\u003e"
-          },
-          {
-            "lineNumber": 18,
-            "text": "      \u003cul class=\"notes-issues__list mb-0 list-none space-y-2 p-0 text-sm\"\u003e"
-          },
-          {
-            "lineNumber": 19,
-            "text": "        {{- range $issues.broken -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "          \u003cli class=\"notes-issues__item notes-issues__item--broken\"\u003e"
-          },
-          {
-            "lineNumber": 21,
-            "text": "            \u003cstrong\u003eMissing note:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 22,
-            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no page matches this title, slug, or alias."
-          },
-          {
-            "lineNumber": 23,
-            "text": "          \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 24,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "        {{- range $issues.unlinked -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "          \u003cli class=\"notes-issues__item notes-issues__item--unlinked\"\u003e"
-          },
-          {
-            "lineNumber": 27,
-            "text": "            \u003cstrong\u003eUnlinked mention:\u003c/strong\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "            \"{{ .mention }}\" in prose — link"
-          },
-          {
-            "lineNumber": 29,
-            "text": "            \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ .suggestPage.RelPermalink }}\"\u003e\u003ccode\u003e[[{{ .suggestTitle }}]]\u003c/code\u003e\u003c/a\u003e."
-          },
-          {
-            "lineNumber": 30,
-            "text": "          \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 31,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "      \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    \u003c/aside\u003e"
-          },
-          {
-            "lineNumber": 34,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 35
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/note-issues-panel.html",
-        "signatures": {}
-      },
-      "score": 0.3231576681137085
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 30,
-            "text": "  {{- range $matches -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "    {{- $target := $inner -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "    {{- if strings.Contains $inner \"|\" -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "      {{- $target = index (split $inner \"|\") 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    {{- if strings.Contains $target \"#\" -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      {{- $target = index (split $target \"#\") 0 | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "    {{- $target = replace $target \"\\u2019\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "    {{- $target = replace $target \"\\u2018\" \"'\" -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "    {{- if not (index $registry.byKey (lower $target)) -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "      {{- $key := lower $target -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "      {{- if not (index $brokenKeys $key) -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "        {{- $brokenKeys = merge $brokenKeys (dict $key true) -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "        {{- $broken = $broken | append (dict \"target\" $target \"raw\" $inner) -}}"
-          },
-          {
-            "lineNumber": 46,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 47,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 49
-          },
-          {
-            "lineNumber": 50,
-            "text": "  {{- $unlinked := slice -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- $unlinkedKeys := dict -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  {{- range $other := $gardenNotes -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "    {{- if eq $other.RelPermalink $note.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "      {{- continue -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 4,
-            "line": 54
-          },
-          "startPosition": {
-            "line": 29
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.32258540391921997
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 18,
-            "text": "  {{- $bodyOutSeen := dict -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- range $to := $notes -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- if ne $fromId $to.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "      {{- $targets := slice $to.Title -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- with $to.Params.slug -}}{{- $targets = $targets | append . -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "      {{- with $to.File -}}{{- $targets = $targets | append .ContentBaseName -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "      {{- with $to.Params.aliases -}}{{- $targets = union $targets . -}}{{- end -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "      {{- $fullLinked := false -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "      {{- $bodyLinked := false -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "      {{- range $targets -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "        {{- if or (in $raw (printf \"[[%s]]\" .)) (findRE (printf &#96;\\[\\[%s(?:#[^\\]|]+)?(?:\\|[^\\]]+)?\\]\\]&#96; .) $raw) -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "          {{- $fullLinked = true -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "        {{- if or (in $bodyRaw (printf \"[[%s]]\" .)) (findRE (printf &#96;\\[\\[%s(?:#[^\\]|]+)?(?:\\|[^\\]]+)?\\]\\]&#96; .) $bodyRaw) -}}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "          {{- $bodyLinked = true -}}"
-          },
-          {
-            "lineNumber": 33,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 34,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 35,
-            "text": "      {{- if $fullLinked -}}"
-          },
-          {
-            "lineNumber": 36,
-            "text": "        {{- $edges = $edges | append (dict \"source\" $fromId \"target\" $to.RelPermalink) -}}"
-          },
-          {
-            "lineNumber": 37,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 38,
-            "text": "      {{- if and $bodyLinked (not (index $bodyOutSeen $to.RelPermalink)) -}}"
-          },
-          {
-            "lineNumber": 39,
-            "text": "        {{- $bodyOutSeen = merge $bodyOutSeen (dict $to.RelPermalink true) -}}"
-          },
-          {
-            "lineNumber": 40,
-            "text": "        {{- $bv := index $bodyOutDeg $fromId | default 0 -}}"
-          },
-          {
-            "lineNumber": 41,
-            "text": "        {{- $bodyOutDeg = merge $bodyOutDeg (dict $fromId (add $bv 1)) -}}"
-          },
-          {
-            "lineNumber": 42,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 43,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 44,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 45,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 46
-          },
-          {
-            "lineNumber": 47,
-            "text": "{{- $inDeg := dict -}}"
-          },
-          {
-            "lineNumber": 48,
-            "text": "{{- $outDeg := dict -}}"
-          },
-          {
-            "lineNumber": 49,
-            "text": "{{- $totalDeg := dict -}}"
-          },
-          {
-            "lineNumber": 50,
-            "text": "{{- range $nodes -}}"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  {{- $inDeg = merge $inDeg (dict .id 0) -}}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "  {{- $outDeg = merge $outDeg (dict .id 0) -}}"
-          },
-          {
-            "lineNumber": 53,
-            "text": "  {{- $totalDeg = merge $totalDeg (dict .id 0) -}}"
-          },
-          {
-            "lineNumber": 54,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 55,
-            "text": "{{- range $edges -}}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "  {{- $ov := index $outDeg .source | default 0 -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 56
-          },
-          "startPosition": {
-            "line": 17
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/graph-data.html",
-        "signatures": {}
-      },
-      "score": 0.32204145193099976
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Build-time lint: warnf for broken wikilinks and unlinked mentions."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Uses collect-note-issues.html; errorf when strict flags are set."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $data := partialCached \"notes/collect-note-issues.html\" site \"note-issues-v2\" -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $strictLinks := site.Params.notes.strict_wikilinks | default false -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $strictUnlinked := site.Params.notes.strict_unlinked | default false -}}"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- range $data.notes -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $note := .Page -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- range .broken -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    {{- $msg := printf \"broken wikilink [[%s]] in %s\" .target $note.File.Path -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "    {{- if $strictLinks -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "      {{- errorf $msg -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    {{- else -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "      {{- warnf $msg -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- range .unlinked -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $msg := printf \"unlinked mention of %q (→ [[%s]]) in %s\" .mention .suggestTitle $note.File.Path -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    {{- if $strictUnlinked -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "      {{- errorf $msg -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    {{- else -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "      {{- warnf $msg -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 27
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/lint-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.3186674118041992
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 459,
-            "text": "def main() -\u003e None:"
-          },
-          {
-            "lineNumber": 480
-          },
-          {
-            "lineNumber": 481,
-            "text": "    link_map = build_link_map(catalog)"
-          },
-          {
-            "lineNumber": 482
-          },
-          {
-            "lineNumber": 483,
-            "text": "    for note in catalog:"
-          },
-          {
-            "lineNumber": 484,
-            "text": "        inner = update_frontmatter_aliases(note[\"inner\"], suggested_aliases(note[\"title\"], note[\"slug\"], note[\"aliases\"]))"
-          },
-          {
-            "lineNumber": 485
-          },
-          {
-            "lineNumber": 486,
-            "text": "        if note[\"stem\"] == \"maps-of-content\":"
-          },
-          {
-            "lineNumber": 487,
-            "text": "            body = build_moc_body(catalog)"
-          },
-          {
-            "lineNumber": 488,
-            "text": "        elif note[\"stem\"] == \"getting-started\":"
-          },
-          {
-            "lineNumber": 489,
-            "text": "            body = strip_section(note[\"body\"], SEE_ALSO_HEADING).rstrip() + \"\\n\""
-          },
-          {
-            "lineNumber": 490,
-            "text": "        else:"
-          },
-          {
-            "lineNumber": 491,
-            "text": "            body = strip_section(note[\"body\"], SEE_ALSO_HEADING)"
-          },
-          {
-            "lineNumber": 492,
-            "text": "            body = strip_section(body, MOC_HEADING).rstrip() + \"\\n\""
-          },
-          {
-            "lineNumber": 493,
-            "text": "            body = inline_link(body, targets)"
-          },
-          {
-            "lineNumber": 494,
-            "text": "            body = ensure_min_body_links("
-          },
-          {
-            "lineNumber": 495,
-            "text": "                body,"
-          },
-          {
-            "lineNumber": 496,
-            "text": "                note[\"stem\"],"
-          },
-          {
-            "lineNumber": 497,
-            "text": "                note[\"title\"],"
-          },
-          {
-            "lineNumber": 498,
-            "text": "                note[\"tags\"],"
-          },
-          {
-            "lineNumber": 499,
-            "text": "                catalog,"
-          },
-          {
-            "lineNumber": 500,
-            "text": "                link_map,"
-          },
-          {
-            "lineNumber": 501,
-            "text": "            )"
-          },
-          {
-            "lineNumber": 502
-          },
-          {
-            "lineNumber": 503,
-            "text": "            related = related_notes(note[\"stem\"], note[\"title\"], note[\"tags\"], catalog)"
-          },
-          {
-            "lineNumber": 504,
-            "text": "            for rel in related:"
-          },
-          {
-            "lineNumber": 505,
-            "text": "                rel[\"_shared\"] = sorted(set(note[\"tags\"]) \u0026 set(rel[\"tags\"]))"
-          },
-          {
-            "lineNumber": 506,
-            "text": "            linked = existing_wikilinks(body)"
-          },
-          {
-            "lineNumber": 507,
-            "text": "            see_also = build_see_also("
-          },
-          {
-            "lineNumber": 508,
-            "text": "                related,"
-          },
-          {
-            "lineNumber": 509,
-            "text": "                linked,"
-          },
-          {
-            "lineNumber": 510,
-            "text": "                note[\"stem\"],"
-          },
-          {
-            "lineNumber": 511,
-            "text": "                note[\"title\"],"
-          },
-          {
-            "lineNumber": 512,
-            "text": "                catalog,"
-          },
-          {
-            "lineNumber": 513,
-            "text": "                link_map,"
-          },
-          {
-            "lineNumber": 514,
-            "text": "                body,"
-          },
-          {
-            "lineNumber": 515,
-            "text": "            )"
-          },
-          {
-            "lineNumber": 516,
-            "text": "            if see_also:"
-          },
-          {
-            "lineNumber": 517,
-            "text": "                body = body.rstrip() + \"\\n\\n\" + see_also"
-          },
-          {
-            "lineNumber": 518
-          },
-          {
-            "lineNumber": 519,
-            "text": "        fm = f\"---\\n{inner}\\n---\\n\\n\""
-          },
-          {
-            "lineNumber": 520,
-            "text": "        note[\"path\"].write_text(fm + body, encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 521,
-            "text": "        updated += 1"
-          },
-          {
-            "lineNumber": 522,
-            "text": "        print(f\"updated: {note['path'].name}\")"
-          },
-          {
-            "lineNumber": 523
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 524,
-            "text": "    print(f\"\\nDone: {updated} notes wired for wikilinks, aliases, and See also sections.\")"
-          },
-          {
-            "lineNumber": 525
-          },
-          {
-            "lineNumber": 526
-          },
-          {
-            "lineNumber": 527,
-            "text": "if __name__ == \"__main__\":"
-          },
-          {
-            "lineNumber": 528,
-            "text": "    main()"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 10,
-            "line": 527
-          },
-          "startPosition": {
-            "line": 458
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {
-          "ranges": [
-            {
-              "endPosition": {
-                "column": 5,
-                "line": 460
-              },
-              "startPosition": {
-                "column": 1,
-                "line": 459
-              }
-            }
-          ]
-        }
-      },
-      "score": 0.31323158740997314
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Scan garden notes for broken wikilinks and unlinked title/alias mentions."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Returns dict:"
-          },
-          {
-            "lineNumber": 4,
-            "text": "    byPath — map File.Path → { broken, unlinked }"
-          },
-          {
-            "lineNumber": 5,
-            "text": "    notes — slice of { Page, broken, unlinked, total } (notes with ≥1 issue)"
-          },
-          {
-            "lineNumber": 6,
-            "text": "    brokenCount, unlinkedCount, notesWithIssues"
-          },
-          {
-            "lineNumber": 7,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $registry := partialCached \"notes/link-registry.html\" site \"notes-registry-v2\" -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $gardenNotes := partial \"notes/garden-pages.html\" (dict) -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $minLen := site.Params.notes.unlinked_min_length | default 6 | int -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- $byPath := dict -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{- $allNotes := slice -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{- $brokenCount := 0 -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{- $unlinkedCount := 0 -}}"
-          },
-          {
-            "lineNumber": 15
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- range $gardenNotes -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  {{- $note := . -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- $path := $note.File.Path -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- $raw := $note.RawContent -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  {{- $fence := \"&#96;&#96;&#96;\" -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- $tick := \"&#96;\" -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  {{- $raw = replaceRE (printf \"(?s)%s[\\\\s\\\\S]*?%s\" $fence $fence) \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  {{- $raw = replaceRE (printf \"%s[^%s\\\\n]+%s\" $tick $tick $tick) \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- $raw = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  {{- $raw = replaceRE &#96;(?s)## See also.*$&#96; \"\" $raw -}}"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "  {{- $broken := slice -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  {{- $brokenKeys := dict -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "  {{- $matches := findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?(?:\\|[^\\]]+)?\\]\\]&#96; $raw -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "  {{- range $matches -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 31
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.30156850814819336
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 34,
-            "text": "def parse_aliases(block: str) -\u003e list[str]:"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    match = re.search(r\"^aliases:\\s*\\[(.*)\\]\\s*$\", block, re.M)"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    if not match:"
-          },
-          {
-            "lineNumber": 37,
-            "text": "        return []"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 38,
-            "text": "    return [item.strip().strip('\"') for item in match.group(1).split(\",\") if item.strip()]"
-          },
-          {
-            "lineNumber": 39
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 41,
-            "text": "def is_utility(block: str) -\u003e bool:"
-          },
-          {
-            "lineNumber": 42,
-            "text": "    if parse_scalar(block, \"note_kind\") == \"meta\":"
-          },
-          {
-            "lineNumber": 43,
-            "text": "        return True"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 43
-          },
-          "startPosition": {
-            "column": 61,
-            "line": 30
-          }
-        },
-        "relativeWorkspacePath": "./scripts/lint-utility-wikilinks.py",
-        "signatures": {}
-      },
-      "score": 0.28721320629119873
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "#!/usr/bin/env python3"
-          },
-          {
-            "lineNumber": 2,
-            "text": "\"\"\"Expand note bodies to full evergreen claims from frontmatter descriptions.\"\"\""
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4,
-            "text": "from __future__ import annotations"
-          },
-          {
-            "lineNumber": 5
-          },
-          {
-            "lineNumber": 6,
-            "text": "import re"
-          },
-          {
-            "lineNumber": 7,
-            "text": "from pathlib import Path"
-          },
-          {
-            "lineNumber": 8
-          },
-          {
-            "lineNumber": 9,
-            "text": "ROOT = Path(__file__).resolve().parents[1]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "NOTES_DIR = ROOT / \"content/english/notes\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "SKIP = {\"_index\", \"graph\", \"maps-of-content\", \"getting-started\", \"atomic-notes\"}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "SEE_ALSO = \"## See also\""
-          },
-          {
-            "lineNumber": 13
-          },
-          {
-            "lineNumber": 14,
-            "text": "# Timeless rewrites for descriptions that name this site or other dated anchors."
-          },
-          {
-            "lineNumber": 15,
-            "text": "DESC_OVERRIDES: dict[str, str] = {"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    \"building-a-second-brain\": ("
-          },
-          {
-            "lineNumber": 17,
-            "text": "        \"My brain is for having ideas, not storing them. \""
-          },
-          {
-            "lineNumber": 18,
-            "text": "        \"A Second Brain is the system that holds them - starting with [[Capture]].\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "    ),"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    \"digital-garden\": ("
-          },
-          {
-            "lineNumber": 21,
-            "text": "        \"My digital garden is a personal site where notes grow in public - \""
-          },
-          {
-            "lineNumber": 22,
-            "text": "        \"linked, imperfect, alive.\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "    ),"
-          },
-          {
-            "lineNumber": 24,
-            "text": "}"
-          },
-          {
-            "lineNumber": 25
-          },
-          {
-            "lineNumber": 26,
-            "text": "# Wikilink substitutions applied after the body is built (longest matches first)."
-          },
-          {
-            "lineNumber": 27,
-            "text": "WIKILINK_FIXES: dict[str, list[tuple[str, str]]] = {"
-          },
-          {
-            "lineNumber": 28,
-            "text": "    \"capture\": [(\"PKM\", \"[[PKM]]\")],"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    \"para-method\": [(\"PARA\", \"[[PARA]]\")],"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    \"organization\": [(\" in PKM isn't\", \" in [[PKM]] isn't\")],"
-          },
-          {
-            "lineNumber": 31,
-            "text": "}"
-          },
-          {
-            "lineNumber": 32
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 34,
-            "text": "def split_frontmatter(text: str) -\u003e tuple[str, str, str]:"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    if not text.startswith(\"---\"):"
-          },
-          {
-            "lineNumber": 36,
-            "text": "        return \"\", text, text"
-          },
-          {
-            "lineNumber": 37,
-            "text": "    end = text.find(\"\\n---\", 3)"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    if end == -1:"
-          },
-          {
-            "lineNumber": 39,
-            "text": "        return \"\", text, text"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 40,
-            "text": "    return text[: end + 4], text[3:end].strip(), text[end + 4 :].lstrip(\"\\n\")"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 43,
-            "text": "def parse_scalar(block: str, key: str) -\u003e str:"
-          },
-          {
-            "lineNumber": 44,
-            "text": "    match = re.search(rf'^{key}:\\s*\"?([^\"\\n]+)\"?', block, re.M)"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 44
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./scripts/evergreen-notes.py",
-        "signatures": {}
-      },
-      "score": 0.2863459587097168
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Cached lookup of all published notes by title, slug, filename, and aliases."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Returns dict: byKey (lowercase key → Page), notes (slice of Pages)."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $notes := partial \"notes/pages.html\" (dict \"IncludeUtility\" true) -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $byKey := dict -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- range $notes -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  {{- $page := . -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- $keys := slice $page.Title -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- with $page.Params.slug -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "    {{- $keys = $keys | append . -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  {{- with $page.File -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    {{- $keys = $keys | append .ContentBaseName -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  {{- with $page.Params.aliases -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    {{- $keys = union $keys . -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- range $keys -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    {{- $byKey = merge $byKey (dict (lower .) $page) -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "{{- return (dict \"byKey\" $byKey \"notes\" $notes) -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 23
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/link-registry.html",
-        "signatures": {}
-      },
-      "score": 0.2840699851512909
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{/*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  components/icon — Render a registered inline SVG icon."
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Replaces Font Awesome. Definitions live in data/icons.json (each entry"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  needs &#96;viewBox&#96; + &#96;path&#96;)."
-          },
-          {
-            "lineNumber": 6
-          },
-          {
-            "lineNumber": 7,
-            "text": "  Accepts either a clean icon name (\"github\") or a legacy Font Awesome"
-          },
-          {
-            "lineNumber": 8,
-            "text": "  class string (\"fab fa-github\", \"fa-brands fa-github\", \"fa fa-arrow-right\")."
-          },
-          {
-            "lineNumber": 9,
-            "text": "  Any FA family prefix (fab/fas/far/fal/fad/fa-brands/fa-solid/fa-regular/"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  fa-light/fa-duotone) and the leading \"fa-\" are stripped so data-driven"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  callers (footer, author-card, social.json) can keep their existing"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  strings while the actual icon is served as a same-origin inline SVG."
-          },
-          {
-            "lineNumber": 13
-          },
-          {
-            "lineNumber": 14,
-            "text": "  Usage:"
-          },
-          {
-            "lineNumber": 15,
-            "text": "    {{ partial \"components/icon\" (dict \"Name\" \"facebook\") }}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "    {{ partial \"components/icon\" (dict \"Name\" \"fab fa-github\" \"Class\" \"h-5 w-5\") }}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "*/}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- $raw := .Name | default \"\" -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "{{- $name := $raw -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "{{- $name = replaceRE &#96;^(?:fab|fas|far|fal|fad|fa-brands|fa-solid|fa-regular|fa-light|fa-duotone)\\s+&#96; \"\" $name -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "{{- $name = replaceRE &#96;^fa\\s+fa-&#96; \"\" $name -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "{{- $name = replaceRE &#96;^fa-&#96; \"\" $name -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "{{- $name = trim $name \" \" -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "{{- $class := .Class | default \"\" -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "{{- $icon := index hugo.Data.icons $name -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "{{- with $icon -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "\u003csvg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"{{ .viewBox }}\" class=\"{{ $class }}\" fill=\"currentColor\" aria-hidden=\"true\"\u003e"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  \u003cpath d=\"{{ .path }}\" /\u003e"
-          },
-          {
-            "lineNumber": 29,
-            "text": "\u003c/svg\u003e"
-          },
-          {
-            "lineNumber": 30,
-            "text": "{{- else -}}"
-          },
-          {
-            "lineNumber": 31,
-            "text": "  {{ warnf \"components/icon: unknown icon name %q (raw: %q)\" $name $raw }}"
-          },
-          {
-            "lineNumber": 32,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 32
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./themes/jorap/layouts/_partials/components/icon.html",
-        "signatures": {}
-      },
-      "score": 0.27775439620018005
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "\u003ca href=\"{{ .Destination | safeURL }}\""
-          },
-          {
-            "lineNumber": 2
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{ with .Title}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": " title=\"{{ . }}\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{ end }}"
-          },
-          {
-            "lineNumber": 6
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{ if strings.HasPrefix .Destination \"http\" }}"
-          },
-          {
-            "lineNumber": 8,
-            "text": " target=\"_blank\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{ end }} "
-          },
-          {
-            "lineNumber": 10
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{ if in .Destination \"?class=\" }}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "{{ $getClass:= string (index (findRE \"class=([^\u0026#]*)\" .Destination) 0) }}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "{{ $allClass:= replace $getClass &#96;class=&#96; &#96;&#96; }}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "{{ $class:= replace $allClass &#96;+&#96; &#96; &#96; }}"
-          },
-          {
-            "lineNumber": 15,
-            "text": " class=\"{{$class}}\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{ end }}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "\u003e{{.Text | safeHTML}}\u003c/a\u003e"
-          },
-          {
-            "lineNumber": 18,
-            "text": "{{- /* This comment removes trailing newlines. */ -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 18
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./_vendor/github.com/gethugothemes/hugo-modules/components/render-link/layouts/_default/_markup/render-link.html",
-        "signatures": {}
-      },
-      "score": 0.27632638812065125
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Linked tag chips for notes."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Dict: Tags (required slice), ListClass, SizeClass, PadClass."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $tags := .Tags -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $listClass := .ListClass | default \"flex flex-wrap gap-2\" -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $sizeClass := .SizeClass | default \"text-sm\" -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $padClass := .PadClass | default \"px-3 py-1\" -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- with $tags -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  \u003cul class=\"{{ $listClass }}\"\u003e"
-          },
-          {
-            "lineNumber": 11,
-            "text": "    {{- range . -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "      \u003cli\u003e"
-          },
-          {
-            "lineNumber": 13,
-            "text": "        \u003ca"
-          },
-          {
-            "lineNumber": 14,
-            "text": "          class=\"bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded {{ $padClass }} {{ $sizeClass }}\""
-          },
-          {
-            "lineNumber": 15,
-            "text": "          href=\"{{ &#96;tags/&#96; | relLangURL }}{{ . | urlize | lower }}/\"\u003e"
-          },
-          {
-            "lineNumber": 16,
-            "text": "          {{ . }}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "        \u003c/a\u003e"
-          },
-          {
-            "lineNumber": 18,
-            "text": "      \u003c/li\u003e"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  \u003c/ul\u003e"
-          },
-          {
-            "lineNumber": 21,
-            "text": "{{- end -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 21
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/tag-chips.html",
-        "signatures": {}
-      },
-      "score": 0.2727600932121277
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 46,
-            "text": "What this site gives you:"
-          },
-          {
-            "lineNumber": 47
-          },
-          {
-            "lineNumber": 48,
-            "text": "- **Wikilinks** - &#96;[[Note Title]]&#96; and &#96;[[alias|label]]&#96; in note bodies"
-          },
-          {
-            "lineNumber": 49,
-            "text": "- **Aliases** - alternate link targets in frontmatter (&#96;aliases: [\"PARA\"]&#96; on [[PARA Method]])"
-          },
-          {
-            "lineNumber": 50,
-            "text": "- **Outgoing links** - listed below each note's body"
-          },
-          {
-            "lineNumber": 51,
-            "text": "- **Backlinks** - with context snippets when another note links here"
-          },
-          {
-            "lineNumber": 52,
-            "text": "- **Graph** - map view; filter by high, low, no body links, and orphans at [/notes/graph/](/notes/graph/)"
-          },
-          {
-            "lineNumber": 53,
-            "text": "- **Issues** - broken wikilinks and unlinked mentions at [/notes/issues/](/notes/issues/); also shown on each note"
-          },
-          {
-            "lineNumber": 54,
-            "text": "- **See also** - tag-related notes generated at build time (not static in markdown)"
-          },
-          {
-            "lineNumber": 55,
-            "text": "- **Hover previews** - pause on a wikilink to peek at the target note"
-          },
-          {
-            "lineNumber": 56,
-            "text": "- **Maps of Content** - hub index at [[Maps of Content]]"
-          },
-          {
-            "lineNumber": 57,
-            "text": "- **Status badges** - seedling/evergreen/inbox/archived on each note; stale filter uses file edit time on [/notes/](/notes/)"
-          },
-          {
-            "lineNumber": 58,
-            "text": "- **Resurfacing** - featured random note, [Random Duo](/notes/random-duo/), and [Random Trio](/notes/random-trio/) on [/notes/](/notes/)"
-          },
-          {
-            "lineNumber": 59,
-            "text": "- **Flashcards** - ~12 habit spine notes (~20%) with &#96;review: true&#96; carry six scenario &#96;cards:&#96; in frontmatter plus &#96;card_sets:&#96; for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)"
-          },
-          {
-            "lineNumber": 60
-          },
-          {
-            "lineNumber": 61,
-            "text": "## Utility surfaces (don't wikilink)"
-          },
-          {
-            "lineNumber": 62
-          },
-          {
-            "lineNumber": 63,
-            "text": "These six pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/cards/), [Review](/notes/review/), [Random Duo](/notes/random-duo/), [Random Trio](/notes/random-trio/). They are excluded from the graph node set, random pickers, and flashcard sources. **Don't &#96;[[wikilink]]&#96; to them** from content notes — link by URL when pointing readers at a tool. &#96;npm run lint:utility-links&#96; catches violations."
-          },
-          {
-            "lineNumber": 64
-          },
-          {
-            "lineNumber": 65,
-            "text": "## Explore"
-          },
-          {
-            "lineNumber": 66
-          },
-          {
-            "lineNumber": 67,
-            "text": "- **Outgoing links** and **backlinks** (with snippets) show below each note."
-          },
-          {
-            "lineNumber": 68,
-            "text": "- **See also** suggests tag-related notes you haven't linked yet."
-          },
-          {
-            "lineNumber": 69,
-            "text": "- **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter high, low, no body links, and orphans."
-          },
-          {
-            "lineNumber": 70,
-            "text": "- **Issues** at [/notes/issues/](/notes/issues/) lists broken wikilinks and unlinked note mentions; warnings also show on each affected note."
-          },
-          {
-            "lineNumber": 71,
-            "text": "- **Status filters** on [/notes/](/notes/) - inbox, stale (by file edit age), seedling, evergreen, archived."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 71
-          },
-          "startPosition": {
-            "line": 45
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.2712238132953644
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 68,
-            "text": "def lint_file(path: Path, targets: dict[str, Path]) -\u003e list[str]:"
-          },
-          {
-            "lineNumber": 69,
-            "text": "    if is_utility(split_frontmatter(path.read_text(encoding=\"utf-8\"))[0]):"
-          },
-          {
-            "lineNumber": 70,
-            "text": "        return []"
-          },
-          {
-            "lineNumber": 71
-          },
-          {
-            "lineNumber": 72,
-            "text": "    rel = path.relative_to(ROOT)"
-          },
-          {
-            "lineNumber": 73,
-            "text": "    body = body_without_see_also(split_frontmatter(path.read_text(encoding=\"utf-8\"))[1])"
-          },
-          {
-            "lineNumber": 74,
-            "text": "    errors: list[str] = []"
-          },
-          {
-            "lineNumber": 75
-          },
-          {
-            "lineNumber": 76,
-            "text": "    for match in WIKILINK_RE.finditer(body):"
-          },
-          {
-            "lineNumber": 77,
-            "text": "        target = (match.group(1) or match.group(2) or \"\").strip()"
-          },
-          {
-            "lineNumber": 78,
-            "text": "        hit = targets.get(target.casefold())"
-          },
-          {
-            "lineNumber": 79,
-            "text": "        if hit:"
-          },
-          {
-            "lineNumber": 80,
-            "text": "            errors.append("
-          },
-          {
-            "lineNumber": 81,
-            "text": "                f\"{rel}: wikilink to utility page [[{target}]] \""
-          },
-          {
-            "lineNumber": 82,
-            "text": "                f\"(use URL e.g. /notes/{hit.stem}/ — utility pages are not garden notes)\""
-          },
-          {
-            "lineNumber": 83,
-            "text": "            )"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 84,
-            "text": "    return errors"
-          },
-          {
-            "lineNumber": 85
-          },
-          {
-            "lineNumber": 86
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 87,
-            "text": "def main() -\u003e int:"
-          },
-          {
-            "lineNumber": 88,
-            "text": "    targets = utility_targets()"
-          },
-          {
-            "lineNumber": 89,
-            "text": "    errors: list[str] = []"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 99
-          },
-          "startPosition": {
-            "column": 18,
-            "line": 64
-          }
-        },
-        "relativeWorkspacePath": "./scripts/lint-utility-wikilinks.py",
-        "signatures": {}
-      },
-      "score": 0.2693062126636505
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 155,
-            "text": "def inline_link(body: str, targets: list[tuple[str, str]]) -\u003e str:"
-          },
-          {
-            "lineNumber": 156,
-            "text": "    protected, replacements = protect_regions(body)"
-          },
-          {
-            "lineNumber": 157,
-            "text": "    for target, title in sorted(targets, key=lambda item: len(item[0]), reverse=True):"
-          },
-          {
-            "lineNumber": 158,
-            "text": "        if not target or target in protected or not should_link_target(target, title):"
-          },
-          {
-            "lineNumber": 159,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 160,
-            "text": "        pattern = re.compile(rf\"(?\u003c!\\[)\\b{re.escape(target)}\\b\")"
-          },
-          {
-            "lineNumber": 161,
-            "text": "        protected = pattern.sub(f\"[[{title}]]\", protected, count=3)"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 162,
-            "text": "    return restore_regions(protected, replacements)"
-          },
-          {
-            "lineNumber": 163
-          },
-          {
-            "lineNumber": 164
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 165,
-            "text": "def related_notes("
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 166,
-            "text": "    stem: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 167,
-            "text": "    title: str,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 168,
-            "text": "    tags: list[str],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 169,
-            "text": "    catalog: list[dict],"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 170,
-            "text": "    limit: int = 5,"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 171,
-            "text": ") -\u003e list[dict]:"
-          },
-          {
-            "lineNumber": 172,
-            "text": "    "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 180
-          },
-          "startPosition": {
-            "column": 91,
-            "line": 151
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {}
-      },
-      "score": 0.26921844482421875
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 53,
-            "text": "def utility_targets() -\u003e dict[str, Path]:"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    \"\"\"Map wikilink target strings (lower) to utility note path.\"\"\""
-          },
-          {
-            "lineNumber": 55,
-            "text": "    targets: dict[str, Path] = {}"
-          },
-          {
-            "lineNumber": 56,
-            "text": "    for path in sorted(NOTES_DIR.glob(\"*.md\")):"
-          },
-          {
-            "lineNumber": 57,
-            "text": "        block, _ = split_frontmatter(path.read_text(encoding=\"utf-8\"))"
-          },
-          {
-            "lineNumber": 58,
-            "text": "        if not block or not is_utility(block):"
-          },
-          {
-            "lineNumber": 59,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 60,
-            "text": "        keys = {parse_scalar(block, \"title\"), parse_scalar(block, \"slug\"), path.stem}"
-          },
-          {
-            "lineNumber": 61,
-            "text": "        keys.update(parse_aliases(block))"
-          },
-          {
-            "lineNumber": 62,
-            "text": "        for key in keys:"
-          },
-          {
-            "lineNumber": 63,
-            "text": "            if key:"
-          },
-          {
-            "lineNumber": 64,
-            "text": "                targets[key.casefold()] = path"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 65,
-            "text": "    return targets"
-          },
-          {
-            "lineNumber": 66
-          },
-          {
-            "lineNumber": 67
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 68,
-            "text": "def lint_file(path: Path, targets: dict[str, Path]) -\u003e list[str]:"
-          },
-          {
-            "lineNumber": 69,
-            "text": "    if"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 83
-          },
-          "startPosition": {
-            "column": 15,
-            "line": 49
-          }
-        },
-        "relativeWorkspacePath": "./scripts/lint-utility-wikilinks.py",
-        "signatures": {}
-      },
-      "score": 0.2663489580154419
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "/**"
-          },
-          {
-            "lineNumber": 2,
-            "text": " * Obsidian-style hover previews for wikilinks in the notes garden."
-          },
-          {
-            "lineNumber": 3,
-            "text": " */"
-          },
-          {
-            "lineNumber": 4,
-            "text": "(function () {"
-          },
-          {
-            "lineNumber": 5,
-            "text": "  var indexEl = document.getElementById(\"notes-preview-index\");"
-          },
-          {
-            "lineNumber": 6,
-            "text": "  if (!indexEl) return;"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "  var index = {};"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  try {"
-          },
-          {
-            "lineNumber": 10,
-            "text": "    JSON.parse(indexEl.textContent).forEach(function (entry) {"
-          },
-          {
-            "lineNumber": 11,
-            "text": "      index[entry.url] = entry;"
-          },
-          {
-            "lineNumber": 12,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 13,
-            "text": "  } catch (e) {"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    return;"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "  var tooltip = document.createElement(\"div\");"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  tooltip.className = \"wikilink-preview\";"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  tooltip.setAttribute(\"role\", \"tooltip\");"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  tooltip.hidden = true;"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  document.body.appendChild(tooltip);"
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "  var activeLink = null;"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  var showTimer = 0;"
-          },
-          {
-            "lineNumber": 25,
-            "text": "  var hideTimer = 0;"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "  function hide() {"
-          },
-          {
-            "lineNumber": 28,
-            "text": "    window.clearTimeout(showTimer);"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    window.clearTimeout(hideTimer);"
-          },
-          {
-            "lineNumber": 30,
-            "text": "    tooltip.hidden = true;"
-          },
-          {
-            "lineNumber": 31,
-            "text": "    activeLink = null;"
-          },
-          {
-            "lineNumber": 32,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "  function position(link) {"
-          },
-          {
-            "lineNumber": 35,
-            "text": "    var rect = link.getBoundingClientRect();"
-          },
-          {
-            "lineNumber": 36,
-            "text": "    var top = rect.bottom + window.scrollY + 8;"
-          },
-          {
-            "lineNumber": 37,
-            "text": "    var left = rect.left + window.scrollX;"
-          },
-          {
-            "lineNumber": 38,
-            "text": "    tooltip.style.top = top + \"px\";"
-          },
-          {
-            "lineNumber": 39,
-            "text": "    tooltip.style.left = left + \"px\";"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "    requestAnimationFrame(function () {"
-          },
-          {
-            "lineNumber": 42,
-            "text": "      var tRect = tooltip.getBoundingClientRect();"
-          },
-          {
-            "lineNumber": 43,
-            "text": "      var maxLeft = window.scrollX + window.innerWidth - tRect.width - 12;"
-          },
-          {
-            "lineNumber": 44,
-            "text": "      if (left \u003e maxLeft) {"
-          },
-          {
-            "lineNumber": 45,
-            "text": "        tooltip.style.left = Math.max(window.scrollX + 12, maxLeft) + \"px\";"
-          },
-          {
-            "lineNumber": 46,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 47,
-            "text": "      if (rect.bottom + tRect.height + 12 \u003e window.innerHeight) {"
-          },
-          {
-            "lineNumber": 48,
-            "text": "        tooltip.style.top = rect.top + window.scrollY - tRect.height - 8 + \"px\";"
-          },
-          {
-            "lineNumber": 49,
-            "text": "      }"
-          },
-          {
-            "lineNumber": 50,
-            "text": "    });"
-          },
-          {
-            "lineNumber": 51,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 52
-          },
-          {
-            "lineNumber": 53,
-            "text": "  function show(link) {"
-          },
-          {
-            "lineNumber": 54,
-            "text": "    var key = link.getAttribute(\"data-wikilink-preview\");"
-          },
-          {
-            "lineNumber": 55,
-            "text": "    if (!key || !index[key]) return;"
-          },
-          {
-            "lineNumber": 56
-          },
-          {
-            "lineNumber": 57,
-            "text": "    var entry = index[key];"
-          },
-          {
-            "lineNumber": 58,
-            "text": "    tooltip.innerHTML ="
-          },
-          {
-            "lineNumber": 59,
-            "text": "      '\u003cp class=\"wikilink-preview__title\"\u003e' +"
-          },
-          {
-            "lineNumber": 60,
-            "text": "      escapeHtml(entry.title) +"
-          },
-          {
-            "lineNumber": 61,
-            "text": "      \"\u003c/p\u003e\" +"
-          },
-          {
-            "lineNumber": 62,
-            "text": "      (entry.description"
-          },
-          {
-            "lineNumber": 63,
-            "text": "        ? '\u003cp class=\"wikilink-preview__desc\"\u003e' + escapeHtml(entry.description) + \"\u003c/p\u003e\""
-          },
-          {
-            "lineNumber": 64,
-            "text": "        : \"\");"
-          },
-          {
-            "lineNumber": 65
-          },
-          {
-            "lineNumber": 66,
-            "text": "    tooltip.hidden = false;"
-          },
-          {
-            "lineNumber": 67,
-            "text": "    activeLink = link;"
-          },
-          {
-            "lineNumber": 68,
-            "text": "    position(link);"
-          },
-          {
-            "lineNumber": 69,
-            "text": "  }"
-          },
-          {
-            "lineNumber": 70
-          },
-          {
-            "lineNumber": 71,
-            "text": "  function escapeHtml(text) {"
-          },
-          {
-            "lineNumber": 72,
-            "text": "    return"
-          },
-          {
-            "lineNumber": 77,
-            "text": "  }"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 117
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./assets/js/wikilink-preview.js",
-        "signatures": {}
-      },
-      "score": 0.2659417390823364
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  Shared tags/categories between two note pages."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Dict: Page (current), Other (linked note)."
-          },
-          {
-            "lineNumber": 4,
-            "text": "  Returns comma-delimited string of up to 3 shared labels."
-          },
-          {
-            "lineNumber": 5,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $labels := .Page.Params.tags | default slice -}}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "{{- $labels = $labels | append (.Page.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- $otherLabels := .Other.Params.tags | default slice -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "{{- $otherLabels = $otherLabels | append (.Other.Params.categories | default slice) -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "{{- $shared := slice -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "{{- range $labels -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- if in $otherLabels . -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "    {{- $shared = $shared | append . -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "{{- return (delimit (first 3 $shared) \", \") -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 16
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/shared-labels.html",
-        "signatures": {}
-      },
-      "score": 0.2588289976119995
-    }
-  ]
-}
+            "text": "  {{- if strings.Contains $left \"#\
+… (output truncated)
 ```
 Status: **completed**
-
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5120,13 +1273,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -5134,7 +1280,8 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Markdown tables likely parse pipe characters as column delimiters, breaking the link syntax.
 
-Escaping the pipe with `\|` or using HTML instead of wikilinks could fix the table rendering.</details></think>
+Escaping the pipe with `\|` or using HTML instead of wikilinks could fix the table rendering.
+</details></think>
 
 _**Agent (default)**_
 
@@ -5143,9 +1290,8 @@ Suspecting the table cell pipe in `[[Free Grace|Faith alone]]` breaks Markdown t
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc -q 2>&1 && rg -A2 "Faith alone|Free Grace\|Faith" public/notes/eternal-principles/index.html | head -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc -q 2&gt;&amp;1 &amp;&amp; rg -A2 &#34;Faith alone|Free Grace\|Faith&#34; public/notes/eternal-principles/index.html | head -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc -q 2>&1 && rg -A2 "Faith alone|Free Grace\|Faith" public/notes/eternal-principles/index.html | head -30
 ```
@@ -5192,65 +1338,22 @@ Flags:
       --disableKinds strings       disable different kind of pages (home, RSS etc.)
       --enableGitInfo              add Git revision, date, author, and CODEOWNERS info to the pages
   -e, --environment string         build environment
-      --forceSyncStatic            copy all files when static is changed.
-      --gc                         enable to run some cleanup tasks (remove unused cache files) after the build
-  -h, --help                       help for hugo
-      --ignoreCache                ignore the configured file caches
-      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
-  -l, --layoutDir string           filesystem path to layout directory
-      --logLevel string            log level (debug|info|warn|error)
-      --minify                     minify any supported output format (HTML, XML etc.)
-      --noBuildLock                don't create .hugo_build.lock file
-      --noChmod                    don't sync permission mode of files
-      --noTimes                    don't sync modification time of files
-      --panicOnWarning             panic on first WARNING log
-      --poll string                set this to a poll interval, e.g --poll 700ms, to use a poll based approach to watch for file system changes
-      --printI18nWarnings          print missing translations
-      --printMemoryUsage           print memory usage to screen at intervals
-      --printPathWarnings          print warnings on duplicate target paths etc.
-      --printUnusedTemplates       print warnings on unused templates.
-      --quiet                      build in quiet mode
-      --renderSegments strings     named segments to render (configured in the segments config)
-  -M, --renderToMemory             render to memory (mostly useful when running the server)
-  -s, --source string              filesystem path to read files relative from
-      --templateMetrics            display metrics about template executions
-      --templateMetricsHints       calculate some improvement hints when combined with --templateMetrics
-  -t, --theme strings              themes to use (located in /themes/THEMENAME/)
-      --themesDir string           filesystem path to themes directory
-      --trace file                 write trace to file (not useful in general)
-  -w, --watch                      watch filesystem for changes and recreate as needed
-
-Use "hugo [command] --help" for more information about a command.
-
-ERROR command error: unknown shorthand flag: 'q' in -q
-
+      --forceSyncStatic            copy all files
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>/dev/null && rg "Faith alone|wikilink-broken|Cross-links" public/notes/eternal-principles/index.html | head -40</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;/dev/null &amp;&amp; rg &#34;Faith alone|wikilink-broken|Cross-links&#34; public/notes/eternal-principles/index.html | head -40</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>/dev/null && rg "Faith alone|wikilink-broken|Cross-links" public/notes/eternal-principles/index.html | head -40
 ```
@@ -5271,25 +1374,17 @@ hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 Buil
  Cleaned          │    0 
 
 Total in 9723 ms
-                &lt;div class="table-of-content toc-links"&gt;&lt;nav id="TableOfContents"&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="#theological-basis"&gt;Theological basis&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#the-two-great-commandments"&gt;The two great commandments&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#how-to-treat-others"&gt;How to treat others&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#heart-and-priorities"&gt;Heart and priorities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#character-and-witness"&gt;Character and witness&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#church-and-world"&gt;Church and world&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#cross-links-pkm"&gt;Cross-links (PKM)&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;
-&lt;h2 id="cross-links-pkm"&gt;Cross-links (PKM)&lt;/h2&gt;
-                &lt;div class="toc-scroll"&gt;&lt;nav id="TableOfContents"&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="#theological-basis"&gt;Theological basis&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#the-two-great-commandments"&gt;The two great commandments&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#how-to-treat-others"&gt;How to treat others&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#heart-and-priorities"&gt;Heart and priorities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#character-and-witness"&gt;Character and witness&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#church-and-world"&gt;Church and world&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#cross-links-pkm"&gt;Cross-links (PKM)&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;
+                <div class="table-of-content toc-links"><nav id="TableOfContents"><ol><li><a href="#theological-basis">Theological basis</a></li><li><a href="#the-two-great-commandments">The two great commandments</a></li><li><a href="#how-to-treat-others">How to treat others</a></li><li><a href="#heart-and-priorities">Heart and priorities</a></li><li><a href="#character-and-witness">Character and witness</a></li><li><a href="#church-and-world">Church and world</a></li><li><a href="#cross-links-pkm">Cross-links (PKM)</a></li></ol></nav></div>
+<h2 id="cross-links-pkm">Cross-links (PKM)</h2>
+                <div class="toc-scroll"><nav id="TableOfContents"><ol><li><a href="#theological-basis">Theological basis</a></li><li><a href="#the-two-great-commandments">The two great commandments</a></li><li><a href="#how-to-treat-others">How to treat others</a></li><li><a href="#heart-and-priorities">Heart and priorities</a></li><li><a href="#character-and-witness">Character and witness</a></li><li><a href="#church-and-world">Church and world</a></li><li><a href="#cross-links-pkm">Cross-links (PKM)</a></li></ol></nav></div>
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5315,21 +1410,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5355,50 +1441,27 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/public`** (0 files)
+</details></tool-use>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
-
-Directory: **/home/jorap/Documents/GitHub/jorap.com/public** (0 files)
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5425,21 +1488,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5465,20 +1519,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/notes/ 2>/dev/null | head -5; find /home/jorap/Documents/GitHub/jorap.com -name "index.html" -path "*eternal-principles*" 2>/dev/null | head -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/public/notes/ 2&gt;/dev/null | head -5; find /home/jorap/Documents/GitHub/jorap.com -name &#34;index.html&#34; -path &#34;*eternal-principles*&#34; 2&gt;/dev/null | head -3</summary>
 ```bash
 ls -la /home/jorap/Documents/GitHub/jorap.com/public/notes/ 2>/dev/null | head -5; find /home/jorap/Documents/GitHub/jorap.com -name "index.html" -path "*eternal-principles*" 2>/dev/null | head -3
 ```
@@ -5494,19 +1540,12 @@ drwxrwxr-x   3 root root   4096 Jun 20 15:20 80
 /home/jorap/Documents/GitHub/jorap.com/public/tags/eternal-principles/page/3/index.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/public/notes -maxdepth 2 -type d -iname "*eternal*" 2>/dev/null; rg -l "Cross-links \(PKM\)" /home/jorap/Documents/GitHub/jorap.com/public/notes --glob "index.html" 2>/dev/null | head -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/public/notes -maxdepth 2 -type d -iname &#34;*eternal*&#34; 2&gt;/dev/null; rg -l &#34;Cross-links \(PKM\)&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes --glob &#34;index.html&#34; 2&gt;/dev/null | head -3</summary>
 ```bash
 find /home/jorap/Documents/GitHub/jorap.com/public/notes -maxdepth 2 -type d -iname "*eternal*" 2>/dev/null; rg -l "Cross-links \(PKM\)" /home/jorap/Documents/GitHub/jorap.com/public/notes --glob "index.html" 2>/dev/null | head -3
 ```
@@ -5516,20 +1555,12 @@ find /home/jorap/Documents/GitHub/jorap.com/public/notes -maxdepth 2 -type d -in
 /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5555,20 +1586,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: wc -c /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html && rg -c "Cross" /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html; rg "note-body|article-body|content" /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html | head -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -c /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html &amp;&amp; rg -c &#34;Cross&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html; rg &#34;note-body|article-body|content&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html | head -5</summary>
 ```bash
 wc -c /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html && rg -c "Cross" /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html; rg "note-body|article-body|content" /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html | head -5
 ```
@@ -5576,74 +1599,40 @@ wc -c /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/ind
 ```
 136554 /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html
 10
-  content="width=device-width, initial-scale=1, maximum-scale=5" /&gt;
-&lt;meta name="theme-name" content="jorap" /&gt;
-  content="#ddd" /&gt;
-  content="#ffffff" /&gt;
-    content="JoRap Notes, JoRap, JoRap.com, Jonathan Rapusas, front-end developer, WordPress, Hugo, static sites, Metro Manila, remote" /&gt;
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+<meta name="theme-name" content="jorap" />
+  content="#ddd" />
+  content="#ffffff" />
+    content="JoRap Notes, JoRap, JoRap.com, Jonathan Rapusas, front-end developer, WordPress, Hugo, static sites, Metro Manila, remote" />
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rg -n "Cross-links|Faith alone|<table|Minimum Effective" /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -n &#34;Cross-links|Faith alone|&lt;table|Minimum Effective&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html</summary>
 ```bash
 rg -n "Cross-links|Faith alone|<table|Minimum Effective" /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html
 ```
 
 ```
-835:      &lt;script type="application/json" class="notes-graph-data"&gt;{"edges":[{"source":"/notes/abide-in-me/","target":"/notes/the-wise-builder/"},{"source":"/notes/abide-in-me/","target":"/notes/take-up-your-cross/"},{"source":"/notes/abide-in-me/","target":"/notes/free-grace/"},{"source":"/notes/abide-in-me/","target":"/notes/compounding/"},{"source":"/notes/great-commission/","target":"/notes/the-wise-builder/"},{"source":"/notes/great-commission/","target":"/notes/take-up-your-cross/"},{"source":"/notes/great-commission/","target":"/notes/repent-and-believe/"},{"source":"/notes/great-commission/","target":"/notes/free-grace/"},{"source":"/notes/great-commission/","target":"/notes/creative-output/"},{"source":"/notes/great-commission/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/render-unto-caesar/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/render-unto-caesar/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/render-unto-caesar/","target":"/notes/the-golden-rule/"},{"source":"/notes/render-unto-caesar/","target":"/notes/love-god/"},{"source":"/notes/by-their-fruits/","target":"/notes/judge-not/"},{"source":"/notes/by-their-fruits/","target":"/notes/the-narrow-way/"},{"source":"/notes/by-their-fruits/","target":"/notes/signal-vs-noise/"},{"source":"/notes/secret-devotion/","target":"/notes/ask-seek-knock/"},{"source":"/notes/secret-devotion/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/secret-devotion/","target":"/notes/let-your-light-shine/"},{"source":"/notes/secret-devotion/","target":"/notes/free-grace/"},{"source":"/notes/secret-devotion/","target":"/notes/drafting-in-public/"},{"source":"/notes/heart-righteousness/","target":"/notes/judge-not/"},{"source":"/notes/heart-righteousness/","target":"/notes/let-your-light-shine/"},{"source":"/notes/heart-righteousness/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/heart-righteousness/","target":"/notes/the-beatitudes/"},{"source":"/notes/heart-righteousness/","target":"/notes/free-grace/"},{"source":"/notes/the-wise-builder/","target":"/notes/repent-and-believe/"},{"source":"/notes/the-wise-builder/","target":"/notes/the-narrow-way/"},{"source":"/notes/the-wise-builder/","target":"/notes/free-grace/"},{"source":"/notes/the-wise-builder/","target":"/notes/creative-output/"},{"source":"/notes/the-wise-builder/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/childlike-faith/","target":"/notes/ask-seek-knock/"},{"source":"/notes/childlike-faith/","target":"/notes/free-grace/"},{"source":"/notes/childlike-faith/","target":"/notes/getting-started/"},{"source":"/notes/childlike-faith/","target":"/notes/compounding/"},{"source":"/notes/childlike-faith/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/take-up-your-cross/","target":"/notes/repent-and-believe/"},{"source":"/notes/take-up-your-cross/","target":"/notes/the-narrow-way/"},{"source":"/notes/take-up-your-cross/","target":"/notes/free-grace/"},{"source":"/notes/take-up-your-cross/","target":"/notes/process-over-outcomes/"},{"source":"/notes/take-up-your-cross/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/take-up-your-cross/","target":"/notes/slow-productivity/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/heart-righteousness/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/judge-not/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/let-your-light-shine/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/the-golden-rule/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/love-your-neighbor/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/atomic-notes/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/drafting-in-public/"},{"source":"/notes/ask-seek-knock/","target":"/notes/secret-devotion/"},{"source":"/notes/ask-seek-knock/","target":"/notes/dont-worry/"},{"source":"/notes/ask-seek-knock/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/ask-seek-knock/","target":"/notes/free-grace/"},{"source":"/notes/ask-seek-knock/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/judge-not/","target":"/notes/by-their-fruits/"},{"source":"/notes/judge-not/","target":"/notes/heart-righteousness/"},{"source":"/notes/judge-not/","target":"/notes/the-narrow-way/"},{"source":"/notes/judge-not/","target":"/notes/humility-and-service/"},{"source":"/notes/judge-not/","target":"/notes/free-grace/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/forgiveness/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/love-your-enemies/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/the-golden-rule/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/love-your-neighbor/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/free-grace/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/repent-and-believe/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/repent-and-believe/","target":"/notes/free-grace/"},{"source":"/notes/repent-and-believe/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/repent-and-believe/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/the-narrow-way/","target":"/notes/humility-and-service/"},{"source":"/notes/the-narrow-way/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/the-narrow-way/","target":"/notes/love-your-enemies/"},{"source":"/notes/the-narrow-way/","target":"/notes/the-golden-rule/"},{"source":"/notes/the-narrow-way/","target":"/notes/free-grace/"},{"source":"/notes/treasure-in-heaven/","target":"/notes/the-narrow-way/"},{"source":"/notes/treasure-in-heaven/","target":"/notes/free-grace/"},{"source":"/notes/treasure-in-heaven/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/let-your-light-shine/","target":"/notes/humility-and-service/"},{"source":"/notes/let-your-light-shine/","target":"/notes/love-your-neighbor/"},{"source":"/notes/let-your-light-shine/","target":"/notes/free-grace/"},{"source":"/notes/let-your-light-shine/","target":"/notes/drafting-in-public/"},{"source":"/notes/humility-and-service/","target":"/notes/let-your-light-shine/"},{"source":"/notes/humility-and-service/","target":"/notes/the-beatitudes/"},{"source":"/notes/humility-and-service/","target":"/notes/love-your-neighbor/"},{"source":"/notes/humility-and-service/","target":"/notes/free-grace/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/forgiveness/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/the-golden-rule/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/love-god/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/note-relationships/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/free-grace/"},{"source":"/notes/peacemakers/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/peacemakers/","target":"/notes/forgiveness/"},{"source":"/notes/peacemakers/","target":"/notes/love-your-enemies/"},{"source":"/notes/peacemakers/","target":"/notes/free-grace/"},{"source":"/notes/dont-worry/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/dont-worry/","target":"/notes/love-god/"},{"source":"/notes/dont-worry/","target":"/notes/free-grace/"},{"source":"/notes/dont-worry/","target":"/notes/slow-productivity/"},{"source":"/notes/the-beatitudes/","target":"/notes/humility-and-service/"},{"source":"/notes/the-beatitudes/","target":"/notes/peacemakers/"},{"source":"/notes/the-beatitudes/","target":"/notes/love-god/"},{"source":"/notes/the-beatitudes/","target":"/notes/free-grace/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/the-narrow-way/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/dont-worry/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/free-grace/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/signal-vs-noise/"},{"source":"/notes/forgiveness/","target":"/notes/ask-seek-knock/"},{"source":"/notes/forgiveness/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/forgiveness/","target":"/notes/the-golden-rule/"},{"source":"/notes/forgiveness/","target":"/notes/free-grace/"},{"source":"/notes/forgiveness/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/love-your-enemies/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/love-your-enemies/","target":"/notes/peacemakers/"},{"source":"/notes/love-your-enemies/","target":"/notes/forgiveness/"},{"source":"/notes/love-your-enemies/","target":"/notes/the-golden-rule/"},{"source":"/notes/love-your-enemies/","target":"/notes/free-grace/"},{"source":"/notes/the-golden-rule/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/the-golden-rule/","target":"/notes/forgiveness/"},{"source":"/notes/the-golden-rule/","target":"/notes/love-your-enemies/"},{"source":"/notes/the-golden-rule/","target":"/notes/love-your-neighbor/"},{"source":"/notes/the-golden-rule/","target":"/notes/free-grace/"},{"source":"/notes/love-your-neighbor/","target":"/notes/peacemakers/"},{"source":"/notes/love-your-neighbor/","target":"/notes/love-your-enemies/"},{"source":"/notes/love-your-neighbor/","target":"/notes/the-golden-rule/"},{"source":"/notes/love-your-neighbor/","target":"/notes/free-grace/"},{"source":"/notes/love-god/","target":"/notes/dont-worry/"},{"source":"/notes/love-god/","target":"/notes/the-beatitudes/"},{"source":"/notes/love-god/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/love-god/","target":"/notes/love-your-neighbor/"},{"source":"/notes/love-god/","target":"/notes/free-grace/"},{"source":"/notes/eternal-principles/","target":"/notes/abide-in-me/"},{"source":"/notes/eternal-principles/","target":"/notes/great-commission/"},{"source":"/notes/eternal-principles/","target":"/notes/render-unto-caesar/"},{"source":"/notes/eternal-principles/","target":"/notes/by-their-fruits/"},{"source":"/notes/eternal-principles/","target":"/notes/secret-devotion/"},{"source":"/notes/eternal-principles/","target":"/notes/heart-righteousness/"},{"source":"/notes/eternal-principles/","target":"/notes/the-wise-builder/"},{"source":"/notes/eternal-principles/","target":"/notes/childlike-faith/"},{"source":"/notes/eternal-principles/","target":"/notes/take-up-your-cross/"},{"source":"/notes/eternal-principles/","target":"/notes/let-your-yes-be-yes/"},{"source":"/notes/eternal-principles/","target":"/notes/ask-seek-knock/"},{"source":"/notes/eternal-principles/","target":"/notes/judge-not/"},{"source":"/notes/eternal-principles/","target":"/notes/turn-the-other-cheek/"},{"source":"/notes/eternal-principles/","target":"/notes/repent-and-believe/"},{"source":"/notes/eternal-principles/","target":"/notes/the-narrow-way/"},{"source":"/notes/eternal-principles/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/eternal-principles/","target":"/notes/let-your-light-shine/"},{"source":"/notes/eternal-principles/","target":"/notes/humility-and-service/"},{"source":"/notes/eternal-principles/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/eternal-principles/","target":"/notes/peacemakers/"},{"source":"/notes/eternal-principles/","target":"/notes/dont-worry/"},{"source":"/notes/eternal-principles/","target":"/notes/the-beatitudes/"},{"source":"/notes/eternal-principles/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/eternal-principles/","target":"/notes/forgiveness/"},{"source":"/notes/eternal-principles/","target":"/notes/love-your-enemies/"},{"source":"/notes/eternal-principles/","target":"/notes/the-golden-rule/"},{"source":"/notes/eternal-principles/","target":"/notes/love-your-neighbor/"},{"source":"/notes/eternal-principles/","target":"/notes/love-god/"},{"source":"/notes/eternal-principles/","target":"/notes/note-relationships/"},{"source":"/notes/eternal-principles/","target":"/notes/free-grace/"},{"source":"/notes/eternal-principles/","target":"/notes/getting-started/"},{"source":"/notes/eternal-principles/","target":"/notes/process-over-outcomes/"},{"source":"/notes/eternal-principles/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/eternal-principles/","target":"/notes/associative-linking/"},{"source":"/notes/eternal-principles/","target":"/notes/atomic-notes/"},{"source":"/notes/eternal-principles/","target":"/notes/compounding/"},{"source":"/notes/eternal-principles/","target":"/notes/creative-output/"},{"source":"/notes/eternal-principles/","target":"/notes/drafting-in-public/"},{"source":"/notes/eternal-principles/","target":"/notes/evergreen-notes/"},{"source":"/notes/eternal-principles/","target":"/notes/first-principles-thinking/"},{"source":"/notes/eternal-principles/","target":"/notes/maps-of-content/"},{"source":"/notes/eternal-principles/","target":"/notes/mental-models-list/"},{"source":"/notes/eternal-principles/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/eternal-principles/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/eternal-principles/","target":"/notes/signal-vs-noise/"},{"source":"/notes/eternal-principles/","target":"/notes/slow-productivity/"},{"source":"/notes/eternal-principles/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/eternal-principles/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/note-relationships/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/note-relationships/","target":"/notes/the-golden-rule/"},{"source":"/notes/note-relationships/","target":"/notes/getting-started/"},{"source":"/notes/note-relationships/","target":"/notes/analog-capture-tools/"},{"source":"/notes/note-relationships/","target":"/notes/associative-linking/"},{"source":"/notes/note-relationships/","target":"/notes/maps-of-content/"},{"source":"/notes/note-relationships/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/note-relationships/","target":"/notes/signal-vs-noise/"},{"source":"/notes/note-relationships/","target":"/notes/slow-productivity/"},{"source":"/notes/free-grace/","target":"/notes/the-narrow-way/"},{"source":"/notes/free-grace/","target":"/notes/the-beatitudes/"},{"source":"/notes/free-grace/","target":"/notes/forgiveness/"},{"source":"/notes/free-grace/","target":"/notes/eternal-principles/"},{"source":"/notes/free-grace/","target":"/notes/compounding/"},{"source":"/notes/free-grace/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/getting-started/","target":"/notes/childlike-faith/"},{"source":"/notes/getting-started/","target":"/notes/note-relationships/"},{"source":"/notes/getting-started/","target":"/notes/atomic-notes/"},{"source":"/notes/getting-started/","target":"/notes/maps-of-content/"},{"source":"/notes/process-over-outcomes/","target":"/notes/take-up-your-cross/"},{"source":"/notes/process-over-outcomes/","target":"/notes/compounding/"},{"source":"/notes/process-over-outcomes/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/there-is-no-perfect-solution/","target":"/notes/repent-and-believe/"},{"source":"/notes/there-is-no-perfect-solution/","target":"/notes/mental-models-list/"},{"source":"/notes/there-is-no-perfect-solution/","target":"/notes/pareto-principle/"},{"source":"/notes/analog-capture-tools/","target":"/notes/eternal-principles/"},{"source":"/notes/analog-capture-tools/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/associative-linking/","target":"/notes/love-your-neighbor/"},{"source":"/notes/associative-linking/","target":"/notes/note-relationships/"},{"source":"/notes/associative-linking/","target":"/notes/atomic-notes/"},{"source":"/notes/associative-linking/","target":"/notes/evergreen-notes/"},{"source":"/notes/atomic-notes/","target":"/notes/let-your-yes-be-yes/"},{"source":"/notes/atomic-notes/","target":"/notes/associative-linking/"},{"source":"/notes/atomic-notes/","target":"/notes/evergreen-notes/"},{"source":"/notes/atomic-notes/","target":"/notes/maps-of-content/"},{"source":"/notes/compounding/","target":"/notes/abide-in-me/"},{"source":"/notes/compounding/","target":"/notes/process-over-outcomes/"},{"source":"/notes/compounding/","target":"/notes/mental-models-list/"},{"source":"/notes/compounding/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/compounding/","target":"/notes/pareto-principle/"},{"source":"/notes/creative-output/","target":"/notes/great-commission/"},{"source":"/notes/creative-output/","target":"/notes/the-wise-builder/"},{"source":"/notes/creative-output/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/drafting-in-public/","target":"/notes/secret-devotion/"},{"source":"/notes/drafting-in-public/","target":"/notes/let-your-light-shine/"},{"source":"/notes/drafting-in-public/","target":"/notes/creative-output/"},{"source":"/notes/drafting-in-public/","target":"/notes/evergreen-notes/"},{"source":"/notes/evergreen-notes/","target":"/notes/the-beatitudes/"},{"source":"/notes/evergreen-notes/","target":"/notes/atomic-notes/"},{"source":"/notes/evergreen-notes/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/first-principles-thinking/","target":"/notes/eternal-principles/"},{"source":"/notes/first-principles-thinking/","target":"/notes/free-grace/"},{"source":"/notes/maps-of-content/","target":"/notes/forgiveness/"},{"source":"/notes/maps-of-content/","target":"/notes/the-golden-rule/"},{"source":"/notes/maps-of-content/","target":"/notes/love-your-neighbor/"},{"source":"/notes/maps-of-content/","target":"/notes/love-god/"},{"source":"/notes/maps-of-content/","target":"/notes/eternal-principles/"},{"source":"/notes/maps-of-content/","target":"/notes/note-relationships/"},{"source":"/notes/maps-of-content/","target":"/notes/free-grace/"},{"source":"/notes/maps-of-content/","target":"/notes/getting-started/"},{"source":"/notes/maps-of-content/","target":"/notes/analog-capture-tools/"},{"source":"/notes/maps-of-content/","target":"/notes/associative-linking/"},{"source":"/notes/maps-of-content/","target":"/notes/atomic-notes/"},{"source":"/notes/maps-of-content/","target":"/notes/creative-output/"},{"source":"/notes/maps-of-content/","target":"/notes/drafting-in-public/"},{"source":"/notes/maps-of-content/","target":"/notes/evergreen-notes/"},{"source":"/notes/maps-of-content/","target":"/notes/mental-models-list/"},{"source":"/notes/maps-of-content/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/maps-of-content/","target":"/notes/signal-vs-noise/"},{"source":"/notes/mental-models-list/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/mental-models-list/","target":"/notes/compounding/"},{"source":"/notes/mental-models-list/","target":"/notes/first-principles-thinking/"},{"source":"/notes/mental-models-list/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/mental-models-list/","target":"/notes/pareto-principle/"},{"source":"/notes/mental-models-list/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/free-grace/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/compounding/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/mental-models-list/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/pareto-principle/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/pareto-principle/","target":"/notes/eternal-principles/"},{"source":"/notes/pareto-principle/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/pareto-principle/","target":"/notes/compounding/"},{"source":"/notes/pareto-principle/","target":"/notes/signal-vs-noise/"},{"source":"/notes/periodic-knowledge-review/","target":"/notes/ask-seek-knock/"},{"source":"/notes/periodic-knowledge-review/","target":"/notes/associative-linking/"},{"source":"/notes/periodic-knowledge-review/","target":"/notes/atomic-notes/"},{"source":"/notes/periodic-knowledge-review/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/signal-vs-noise/","target":"/notes/by-their-fruits/"},{"source":"/notes/signal-vs-noise/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/slow-productivity/","target":"/notes/dont-worry/"},{"source":"/notes/slow-productivity/","target":"/notes/analog-capture-tools/"},{"source":"/notes/slow-productivity/","target":"/notes/creative-output/"},{"source":"/notes/spaced-repetition/","target":"/notes/childlike-faith/"},{"source":"/notes/spaced-repetition/","target":"/notes/ask-seek-knock/"},{"source":"/notes/spaced-repetition/","target":"/notes/eternal-principles/"},{"source":"/notes/spaced-repetition/","target":"/notes/evergreen-notes/"},{"source":"/notes/spaced-repetition/","target":"/notes/pareto-principle/"},{"source":"/notes/sunk-cost-fallacy/","target":"/notes/turn-the-other-cheek/"},{"source":"/notes/sunk-cost-fallacy/","target":"/notes/forgiveness/"},{"source":"/notes/sunk-cost-fallacy/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/sunk-cost-fallacy/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/the-collectors-fallacy/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/the-collectors-fallacy/","target":"/notes/creative-output/"}],"focus":"/notes/eternal-principles/","mode":"local","nodes":[{"deadEnd":false,"hub":false,"id":"/notes/abide-in-me/","inDegree":2,"orphan":false,"outDegree":4,"title":"Abide in Me","totalDegree":6,"url":"/notes/abide-in-me/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/great-commission/","inDegree":2,"orphan":false,"outDegree":6,"title":"Great Commission","totalDegree":8,"url":"/notes/great-commission/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/render-unto-caesar/","inDegree":1,"orphan":false,"outDegree":4,"title":"Render Unto Caesar","totalDegree":5,"url":"/notes/render-unto-caesar/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/by-their-fruits/","inDegree":3,"orphan":false,"outDegree":3,"title":"By Their Fruits","totalDegree":6,"url":"/notes/by-their-fruits/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/secret-devotion/","inDegree":3,"orphan":false,"outDegree":5,"title":"Secret Devotion","totalDegree":8,"url":"/notes/secret-devotion/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/heart-righteousness/","inDegree":3,"orphan":false,"outDegree":5,"title":"Heart Righteousness","totalDegree":8,"url":"/notes/heart-righteousness/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/the-wise-builder/","inDegree":4,"orphan":false,"outDegree":5,"title":"The Wise Builder","totalDegree":9,"url":"/notes/the-wise-builder/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/childlike-faith/","inDegree":3,"orphan":false,"outDegree":5,"title":"Childlike Faith","totalDegree":8,"url":"/notes/childlike-faith/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/take-up-your-cross/","inDegree":4,"orphan":false,"outDegree":6,"title":"Take Up Your Cross","totalDegree":10,"url":"/notes/take-up-your-cross/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/let-your-yes-be-yes/","inDegree":2,"orphan":false,"outDegree":7,"title":"Let Your Yes Be Yes","totalDegree":9,"url":"/notes/let-your-yes-be-yes/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/ask-seek-knock/","inDegree":6,"orphan":false,"outDegree":5,"title":"Ask Seek Knock","totalDegree":11,"url":"/notes/ask-seek-knock/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/judge-not/","inDegree":4,"orphan":false,"outDegree":5,"title":"Judge Not","totalDegree":9,"url":"/notes/judge-not/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/turn-the-other-cheek/","inDegree":2,"orphan":false,"outDegree":6,"title":"Turn the Other Cheek","totalDegree":8,"url":"/notes/turn-the-other-cheek/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/repent-and-believe/","inDegree":5,"orphan":false,"outDegree":4,"title":"Repent and Believe","totalDegree":9,"url":"/notes/repent-and-believe/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/the-narrow-way/","inDegree":8,"orphan":false,"outDegree":5,"title":"The Narrow Way","totalDegree":13,"url":"/notes/the-narrow-way/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/treasure-in-heaven/","inDegree":6,"orphan":false,"outDegree":4,"title":"Treasure in Heaven","totalDegree":10,"url":"/notes/treasure-in-heaven/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/let-your-light-shine/","inDegree":6,"orphan":false,"outDegree":5,"title":"Let Your Light Shine","totalDegree":11,"url":"/notes/let-your-light-shine/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/humility-and-service/","inDegree":5,"orphan":false,"outDegree":4,"title":"Humility and Service","totalDegree":9,"url":"/notes/humility-and-service/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/reconciliation-before-worship/","inDegree":7,"orphan":false,"outDegree":5,"title":"Reconciliation Before Worship","totalDegree":12,"url":"/notes/reconciliation-before-worship/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/peacemakers/","inDegree":4,"orphan":false,"outDegree":4,"title":"Peacemakers","totalDegree":8,"url":"/notes/peacemakers/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/dont-worry/","inDegree":5,"orphan":false,"outDegree":5,"title":"Don't Worry","totalDegree":10,"url":"/notes/dont-worry/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/the-beatitudes/","inDegree":6,"orphan":false,"outDegree":4,"title":"The Beatitudes","totalDegree":10,"url":"/notes/the-beatitudes/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/seek-the-kingdom-first/","inDegree":8,"orphan":false,"outDegree":5,"title":"Seek the Kingdom First","totalDegree":13,"url":"/notes/seek-the-kingdom-first/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/forgiveness/","inDegree":9,"orphan":false,"outDegree":5,"title":"Forgiveness","totalDegree":14,"url":"/notes/forgiveness/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/love-your-enemies/","inDegree":6,"orphan":false,"outDegree":5,"title":"Love Your Enemies","totalDegree":11,"url":"/notes/love-your-enemies/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/the-golden-rule/","inDegree":11,"orphan":false,"outDegree":5,"title":"The Golden Rule","totalDegree":16,"url":"/notes/the-golden-rule/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/love-your-neighbor/","inDegree":9,"orphan":false,"outDegree":4,"title":"Love Your Neighbor","totalDegree":13,"url":"/notes/love-your-neighbor/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/love-god/","inDegree":6,"orphan":false,"outDegree":5,"title":"Love God","totalDegree":11,"url":"/notes/love-god/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/eternal-principles/","inDegree":6,"orphan":false,"outDegree":48,"title":"Eternal Principles","totalDegree":54,"url":"/notes/eternal-principles/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/note-relationships/","inDegree":5,"orphan":false,"outDegree":14,"title":"Note Relationships","totalDegree":19,"url":"/notes/note-relationships/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/free-grace/","inDegree":29,"orphan":false,"outDegree":6,"title":"Free Grace","totalDegree":35,"url":"/notes/free-grace/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/getting-started/","inDegree":8,"orphan":false,"outDegree":5,"title":"Getting Started","totalDegree":13,"url":"/notes/getting-started/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/process-over-outcomes/","inDegree":3,"orphan":false,"outDegree":4,"title":"Process Over Outcomes","totalDegree":7,"url":"/notes/process-over-outcomes/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/there-is-no-perfect-solution/","inDegree":7,"orphan":false,"outDegree":5,"title":"There Is No Perfect Solution","totalDegree":12,"url":"/notes/there-is-no-perfect-solution/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/analog-capture-tools/","inDegree":11,"orphan":false,"outDegree":6,"title":"Analog Capture Tools","totalDegree":17,"url":"/notes/analog-capture-tools/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/associative-linking/","inDegree":13,"orphan":false,"outDegree":8,"title":"Associative Linking","totalDegree":21,"url":"/notes/associative-linking/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/atomic-notes/","inDegree":11,"orphan":false,"outDegree":5,"title":"Atomic Notes","totalDegree":16,"url":"/notes/atomic-notes/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/compounding/","inDegree":9,"orphan":false,"outDegree":7,"title":"Compounding","totalDegree":16,"url":"/notes/compounding/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/creative-output/","inDegree":11,"orphan":false,"outDegree":7,"title":"Creative Output","totalDegree":18,"url":"/notes/creative-output/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/drafting-in-public/","inDegree":7,"orphan":false,"outDegree":6,"title":"Drafting in Public","totalDegree":13,"url":"/notes/drafting-in-public/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/evergreen-notes/","inDegree":16,"orphan":false,"outDegree":6,"title":"Evergreen Notes","totalDegree":22,"url":"/notes/evergreen-notes/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/first-principles-thinking/","inDegree":3,"orphan":false,"outDegree":4,"title":"First Principles Thinking","totalDegree":7,"url":"/notes/first-principles-thinking/","weak":true},{"deadEnd":false,"hub":true,"id":"/notes/maps-of-content/","inDegree":7,"orphan":false,"outDegree":42,"title":"Maps of Content","totalDegree":49,"url":"/notes/maps-of-content/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/mental-models-list/","inDegree":6,"orphan":false,"outDegree":9,"title":"Mental Models List","totalDegree":15,"url":"/notes/mental-models-list/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/minimum-effective-dose/","inDegree":11,"orphan":false,"outDegree":5,"title":"Minimum Effective Dose","totalDegree":16,"url":"/notes/minimum-effective-dose/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/pareto-principle/","inDegree":7,"orphan":false,"outDegree":4,"title":"Pareto Principle","totalDegree":11,"url":"/notes/pareto-principle/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/periodic-knowledge-review/","inDegree":9,"orphan":false,"outDegree":5,"title":"Periodic Knowledge Review","totalDegree":14,"url":"/notes/periodic-knowledge-review/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/signal-vs-noise/","inDegree":8,"orphan":false,"outDegree":6,"title":"Signal vs Noise","totalDegree":14,"url":"/notes/signal-vs-noise/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/slow-productivity/","inDegree":5,"orphan":false,"outDegree":6,"title":"Slow Productivity","totalDegree":11,"url":"/notes/slow-productivity/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/spaced-repetition/","inDegree":1,"orphan":false,"outDegree":7,"title":"Spaced Repetition","totalDegree":8,"url":"/notes/spaced-repetition/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/sunk-cost-fallacy/","inDegree":6,"orphan":false,"outDegree":4,"title":"Sunk Cost Fallacy","totalDegree":10,"url":"/notes/sunk-cost-fallacy/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/the-collectors-fallacy/","inDegree":9,"orphan":false,"outDegree":5,"title":"The Collector's Fallacy","totalDegree":14,"url":"/notes/the-collectors-fallacy/","weak":false}]}&lt;/script&gt;
-920:                &lt;div class="table-of-content toc-links"&gt;&lt;nav id="TableOfContents"&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="#theological-basis"&gt;Theological basis&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#the-two-great-commandments"&gt;The two great commandments&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#how-to-treat-others"&gt;How to treat others&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#heart-and-priorities"&gt;Heart and priorities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#character-and-witness"&gt;Character and witness&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#church-and-world"&gt;Church and world&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#cross-links-pkm"&gt;Cross-links (PKM)&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;
-975:&lt;h2 id="cross-links-pkm"&gt;Cross-links (PKM)&lt;/h2&gt;
-977:&lt;table&gt;
-988:					&lt;td&gt;&lt;a href="/notes/minimum-effective-dose/" class="wikilink" data-wikilink-preview="/notes/minimum-effective-dose/"&gt;Minimum Effective Dose&lt;/a&gt;&lt;/td&gt;
-1505:    aria-label="Minimum Effective Dose"&gt;&lt;/a&gt;
-1506:  &lt;h3 class="h6 notes-card-title relative z-[1] mb-2 text-ink font-medium pointer-events-none"&gt;Minimum Effective Dose&lt;/h3&gt;&lt;/article&gt;
-1845:                &lt;div class="toc-scroll"&gt;&lt;nav id="TableOfContents"&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="#theological-basis"&gt;Theological basis&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#the-two-great-commandments"&gt;The two great commandments&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#how-to-treat-others"&gt;How to treat others&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#heart-and-priorities"&gt;Heart and priorities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#character-and-witness"&gt;Character and witness&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#church-and-world"&gt;Church and world&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#cross-links-pkm"&gt;Cross-links (PKM)&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;
-2176:    &lt;script type="application/json" class="notes-single-random-data"&gt;{"aiChatCopiedLabel":"Copied — paste in chat","aiChatOpenedLabel":"Opened","aiChatUrl":"https://chatgpt.com/?q=","currentUrl":"/notes/eternal-principles/","notes":[{"title":"Abide in Me","url":"/notes/abide-in-me/"},{"title":"Great Commission","url":"/notes/great-commission/"},{"title":"Render Unto Caesar","url":"/notes/render-unto-caesar/"},{"title":"By Their Fruits","url":"/notes/by-their-fruits/"},{"title":"Secret Devotion","url":"/notes/secret-devotion/"},{"title":"Heart Righteousness","url":"/notes/heart-righteousness/"},{"title":"The Wise Builder","url":"/notes/the-wise-builder/"},{"title":"Childlike Faith","url":"/notes/childlike-faith/"},{"title":"Take Up Your Cross","url":"/notes/take-up-your-cross/"},{"title":"Let Your Yes Be Yes","url":"/notes/let-your-yes-be-yes/"},{"title":"Ask Seek Knock","url":"/notes/ask-seek-knock/"},{"title":"Judge Not","url":"/notes/judge-not/"},{"title":"Turn the Other Cheek","url":"/notes/turn-the-other-cheek/"},{"title":"Repent and Believe","url":"/notes/repent-and-believe/"},{"title":"The Narrow Way","url":"/notes/the-narrow-way/"},{"title":"Treasure in Heaven","url":"/notes/treasure-in-heaven/"},{"title":"Let Your Light Shine","url":"/notes/let-your-light-shine/"},{"title":"Humility and Service","url":"/notes/humility-and-service/"},{"title":"Reconciliation Before Worship","url":"/notes/reconciliation-before-worship/"},{"title":"Peacemakers","url":"/notes/peacemakers/"},{"title":"Don't Worry","url":"/notes/dont-worry/"},{"title":"The Beatitudes","url":"/notes/the-beatitudes/"},{"title":"Seek the Kingdom First","url":"/notes/seek-the-kingdom-first/"},{"title":"Forgiveness","url":"/notes/forgiveness/"},{"title":"Love Your Enemies","url":"/notes/love-your-enemies/"},{"title":"The Golden Rule","url":"/notes/the-golden-rule/"},{"title":"Love Your Neighbor","url":"/notes/love-your-neighbor/"},{"title":"Love God","url":"/notes/love-god/"},{"title":"Note Relationships","url":"/notes/note-relationships/"},{"title":"Free Grace","url":"/notes/free-grace/"},{"title":"Getting Started","url":"/notes/getting-started/"},{"title":"Process Over Outcomes","url":"/notes/process-over-outcomes/"},{"title":"There Is No Perfect Solution","url":"/notes/there-is-no-perfect-solution/"},{"title":"Active Knowledge Curation","url":"/notes/active-knowledge-curation/"},{"title":"Analog Capture Tools","url":"/notes/analog-capture-tools/"},{"title":"Anti-Fragile Systems","url":"/notes/anti-fragile-systems/"},{"title":"Associative Linking","url":"/notes/associative-linking/"},{"title":"Atomic Notes","url":"/notes/atomic-notes/"},{"title":"Building a Personal API","url":"/notes/building-a-personal-api/"},{"title":"Building a Second Brain","url":"/notes/building-a-second-brain/"},{"title":"Capture","url":"/notes/capture/"},{"title":"Compounding","url":"/notes/compounding/"},{"title":"Context-Aware Capture","url":"/notes/context-aware-capture/"},{"title":"Creative Blocks","url":"/notes/creative-blocks/"},{"title":"Creative Output","url":"/notes/creative-output/"},{"title":"Daily Notes","url":"/notes/daily-notes/"},{"title":"Digital Garden","url":"/notes/digital-garden/"},{"title":"Digital Minimalism","url":"/notes/digital-minimalism/"},{"title":"Digital Serendipity","url":"/notes/digital-serendipity/"},{"title":"Drafting in Public","url":"/notes/drafting-in-public/"},{"title":"Evergreen Notes","url":"/notes/evergreen-notes/"},{"title":"Evergreen vs Fleeting Notes","url":"/notes/evergreen-vs-fleeting-notes/"},{"title":"First Principles Thinking","url":"/notes/first-principles-thinking/"},{"title":"Future-Proofing Knowledge","url":"/notes/future-proofing-knowledge/"},{"title":"Graph View Analytics","url":"/notes/graph-view-analytics/"},{"title":"GTD vs PARA","url":"/notes/gtd-vs-para/"},{"title":"Intellectual Sourcing","url":"/notes/intellectual-sourcing/"},{"title":"Local-first Software","url":"/notes/local-first-software/"},{"title":"Low Hanging Fruit","url":"/notes/low-hanging-fruit/"},{"title":"Maps of Content","url":"/notes/maps-of-content/"},{"title":"Mental Models List","url":"/notes/mental-models-list/"},{"title":"Metadata Strategy","url":"/notes/metadata-strategy/"},{"title":"Mind Mapping","url":"/notes/mind-mapping/"},{"title":"Minimum Effective Dose","url":"/notes/minimum-effective-dose/"},{"title":"Minimum Viable Product","url":"/notes/minimum-viable-product/"},{"title":"Mobile Capture Workflows","url":"/notes/mobile-capture-workflows/"},{"title":"PARA Method","url":"/notes/para-method/"},{"title":"Pareto Principle","url":"/notes/pareto-principle/"},{"title":"Periodic Knowledge Review","url":"/notes/periodic-knowledge-review/"},{"title":"PKM","url":"/notes/pkm/"},{"title":"Progressive Summarization","url":"/notes/progressive-summarization/"},{"title":"RSS for Research","url":"/notes/rss-for-research/"},{"title":"Signal vs Noise","url":"/notes/signal-vs-noise/"},{"title":"Slow Productivity","url":"/notes/slow-productivity/"},{"title":"Spaced Repetition","url":"/notes/spaced-repetition/"},{"title":"Sunk Cost Fallacy","url":"/notes/sunk-cost-fallacy/"},{"title":"Synthesis as a Goal","url":"/notes/synthesis-as-a-goal/"},{"title":"The 12 Week Year","url":"/notes/the-12-week-year/"},{"title":"The Collector's Fallacy","url":"/notes/the-collectors-fallacy/"},{"title":"The Feynman Technique","url":"/notes/the-feynman-technique/"},{"title":"The Garage Concept","url":"/notes/the-garage-concept/"},{"title":"The Knowledge Lifecycle","url":"/notes/the-knowledge-lifecycle/"},{"title":"The Second Brain Workflow","url":"/notes/the-second-brain-workflow/"},{"title":"The Trusted Inbox","url":"/notes/the-trusted-inbox/"},{"title":"Weekly Review Checklists","url":"/notes/weekly-review-checklists/"}]}&lt;/script&gt;
-2185:  &lt;script type="application/json" id="notes-preview-index"&gt;[{"description":"Jesus said abide in him as branches in a vine — fruit comes from staying connected, not from self-generated effort alone.","title":"Abide in Me","url":"/notes/abide-in-me/"},{"description":"Jesus sent disciples to all nations — baptize, teach obedience, with his promised presence to the end of the age.","title":"Great Commission","url":"/notes/great-commission/"},{"description":"Jesus said give Caesar what is Caesar's and God what is God's — earthly duty and ultimate allegiance stay distinct.","title":"Render Unto Caesar","url":"/notes/render-unto-caesar/"},{"description":"Jesus said you will know false prophets by their fruits — judge teaching by what it produces, not by charisma alone.","title":"By Their Fruits","url":"/notes/by-their-fruits/"},{"description":"Jesus said give, pray, and fast in secret — reward comes from the Father who sees what is hidden, not from human applause.","title":"Secret Devotion","url":"/notes/secret-devotion/"},{"description":"Jesus taught that murder starts as anger and adultery as lust — righteousness goes deeper than outward compliance.","title":"Heart Righteousness","url":"/notes/heart-righteousness/"},{"description":"Jesus closed the Sermon on the Mount with two builders — wisdom is hearing his words and doing them, not hearing alone.","title":"The Wise Builder","url":"/notes/the-wise-builder/"},{"description":"Jesus said unless you become like a little child, you won't enter the kingdom — trust without merit-calculating.","title":"Childlike Faith","url":"/notes/childlike-faith/"},{"description":"Jesus said follow him by taking up your cross daily — self-denial as the shape of discipleship, not a one-time decision.","title":"Take Up Your Cross","url":"/notes/take-up-your-cross/"},{"description":"Jesus said let yes be yes and no be no — truth without oaths, exaggeration, or spin to make people believe you.","title":"Let Your Yes Be Yes","url":"/notes/let-your-yes-be-yes/"},{"description":"Jesus promised the Father gives good gifts to those who ask, seek, and knock — prayer as dependence, not manipulation.","title":"Ask Seek Knock","url":"/notes/ask-seek-knock/"},{"description":"Jesus warned against condemning others while ignoring your own bigger fault — discern fruit, don't play God as judge.","title":"Judge Not","url":"/notes/judge-not/"},{"description":"Jesus taught non-retaliation — don't return evil for evil; absorb insult without escalating the cycle.","title":"Turn the Other Cheek","url":"/notes/turn-the-other-cheek/"},{"description":"Jesus opened his preaching with two words — repent and believe the gospel. The kingdom entry point, not a works finish line.","title":"Repent and Believe","url":"/notes/repent-and-believe/"},{"description":"Jesus warned that the wide gate and broad road lead to destruction — the narrow way is hard but leads to life.","title":"The Narrow Way","url":"/notes/the-narrow-way/"},{"description":"Jesus said store treasure in heaven, not on earth — moth and rust destroy earthly wealth; heaven's treasure lasts.","title":"Treasure in Heaven","url":"/notes/treasure-in-heaven/"},{"description":"Jesus told disciples to let their light shine before others — good works that point to the Father, not to themselves.","title":"Let Your Light Shine","url":"/notes/let-your-light-shine/"},{"description":"Jesus taught that greatness is serving, not being served — the humble exalted, the proud brought low.","title":"Humility and Service","url":"/notes/humility-and-service/"},{"description":"Jesus said reconcile with your brother before offering your gift at the altar — relationships before ritual.","title":"Reconciliation Before Worship","url":"/notes/reconciliation-before-worship/"},{"description":"Jesus blessed peacemakers — people who actively make peace, not just avoid conflict — and called them children of God.","title":"Peacemakers","url":"/notes/peacemakers/"},{"description":"Jesus told followers not to anxious about food, clothes, or tomorrow — the Father knows what you need.","title":"Don't Worry","url":"/notes/dont-worry/"},{"description":"Eight blessings Jesus opened the Sermon on the Mount with — traits of kingdom people, not worldly winners.","title":"The Beatitudes","url":"/notes/the-beatitudes/"},{"description":"Jesus said put God's kingdom and righteousness ahead of food, clothes, and tomorrow — the rest follows.","title":"Seek the Kingdom First","url":"/notes/seek-the-kingdom-first/"},{"description":"Jesus tied receiving forgiveness to extending it — forgive from the heart, not just with words.","title":"Forgiveness","url":"/notes/forgiveness/"},{"description":"Jesus told followers to bless persecutors and pray for those who hurt them — reflecting the Father's impartial grace.","title":"Love Your Enemies","url":"/notes/love-your-enemies/"},{"description":"Jesus summed the Law and Prophets in one line: treat others the way you want to be treated.","title":"The Golden Rule","url":"/notes/the-golden-rule/"},{"description":"Jesus paired love for God with love for neighbor — as yourself, with no loophole for the inconvenient.","title":"Love Your Neighbor","url":"/notes/love-your-neighbor/"},{"description":"Jesus named love for God — heart, soul, mind, strength — as the first and greatest commandment.","title":"Love God","url":"/notes/love-god/"},{"description":"I keep Jesus' unchanging teachings here as atomic notes - faith saves first; these pages cover how I try to live after that.","title":"Eternal Principles","url":"/notes/eternal-principles/"},{"description":"Broken wikilinks and unlinked note mentions across the garden - one checklist to fix the graph.","title":"Issues","url":"/notes/issues/"},{"description":"Five link types I use in the body - extends, contradicts, implements, alternative, index.","title":"Note Relationships","url":"/notes/note-relationships/"},{"description":"Two garden notes picked at random, side by side - for serendipitous resurfacing.","title":"Random Duo","url":"/notes/random-duo/"},{"description":"Three garden notes picked at random, side by side - for serendipitous resurfacing.","title":"Random Trio","url":"/notes/random-trio/"},{"description":"Eternal life is God's free gift through faith in Christ — not wages for obeying eternal principles or doing good works.","title":"Free Grace","url":"/notes/free-grace/"},{"description":"Flip cards from opt-in notes - habit prompts, not trivia. Export the same deck to Anki.","title":"Flashcards","url":"/notes/cards/"},{"description":"Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note.","title":"Getting Started","url":"/notes/getting-started/"},{"description":"A map that pulls linked notes together - filter by high, low, no body links, and orphans.","title":"Note graph","url":"/notes/graph/"},{"description":"Quiz myself on habit spine cards with spaced repetition in the browser.","title":"Review","url":"/notes/review/"},{"description":"I focus on a repeatable process - I can rerun it when motivation dips.","title":"Process Over Outcomes","url":"/notes/process-over-outcomes/"},{"description":"Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one. I pick what works tired and ship.","title":"There Is No Perfect Solution","url":"/notes/there-is-no-perfect-solution/"},{"description":"Active curation means revisiting, pruning, and ordering notes - choosing what sits next to what is creative work.","title":"Active Knowledge Curation","url":"/notes/active-knowledge-curation/"},{"description":"Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries.","title":"Analog Capture Tools","url":"/notes/analog-capture-tools/"},{"description":"Note systems that survive app shutdowns - plain files, open formats, and backups I actually test.","title":"Anti-Fragile Systems","url":"/notes/anti-fragile-systems/"},{"description":"Folders sort. Links think. Associative linking lets notes meet without remembering every filename.","title":"Associative Linking","url":"/notes/associative-linking/"},{"description":"One idea per note I'd cite in conversation - not mini blog posts.","title":"Atomic Notes","url":"/notes/atomic-notes/"},{"description":"My personal API isn't OAuth and microservices. It's structured context for future me and my tools without re-explaining everything.","title":"Building a Personal API","url":"/notes/building-a-personal-api/"},{"description":"My brain is for having ideas, not storing them. A Second Brain is the system that holds them - starting with capture.","title":"Building a Second Brain","url":"/notes/building-a-second-brain/"},{"description":"Capture is where my PKM lives or dies - one trusted inbox, save what resonates.","title":"Capture","url":"/notes/capture/"},{"description":"Small gains stack on each other - boring repetition beats heroic weeks until the curve bends.","title":"Compounding","url":"/notes/compounding/"},{"description":"Capture the why while I still remember it - project, mood, question - not just the link.","title":"Context-Aware Capture","url":"/notes/context-aware-capture/"},{"description":"Creative blocks aren't solved by more capture - one small ship action usually unsticks me.","title":"Creative Blocks","url":"/notes/creative-blocks/"},{"description":"Notes are inventory. Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus.","title":"Creative Output","url":"/notes/creative-output/"},{"description":"Daily notes are a scratch pad for the day - fleeting by default, with interstitial buffer flushes between tasks.","title":"Daily Notes","url":"/notes/daily-notes/"},{"description":"My digital garden is a personal site where notes grow in public - linked, imperfect, alive.","title":"Digital Garden","url":"/notes/digital-garden/"},{"description":"Fewer apps and less syncing. My PKM got better when I stopped collecting tools.","title":"Digital Minimalism","url":"/notes/digital-minimalism/"},{"description":"Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time.","title":"Digital Serendipity","url":"/notes/digital-serendipity/"},{"description":"I publish rough ideas before they're finished - drafting in public keeps the garden honest.","title":"Drafting in Public","url":"/notes/drafting-in-public/"},{"description":"I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes.","title":"Evergreen Notes","url":"/notes/evergreen-notes/"},{"description":"Fleeting notes catch sparks; evergreen notes hold truth. Both lanes, clear promotion rules.","title":"Evergreen vs Fleeting Notes","url":"/notes/evergreen-vs-fleeting-notes/"},{"description":"When a note is only a quote, I add what I actually believe from scratch.","title":"First Principles Thinking","url":"/notes/first-principles-thinking/"},{"description":"Future-proofing isn't predicting tech for me. It's plain text, open tools, and exports I test before I need them.","title":"Future-Proofing Knowledge","url":"/notes/future-proofing-knowledge/"},{"description":"The link map shows notes with no links, notes with too many, and gaps I forgot to connect.","title":"Graph View Analytics","url":"/notes/graph-view-analytics/"},{"description":"GTD runs my tasks. PARA runs my notes - cousins, not competitors.","title":"GTD vs PARA","url":"/notes/gtd-vs-para/"},{"description":"I cite sources so I can trust what I wrote and find the original six months later.","title":"Intellectual Sourcing","url":"/notes/intellectual-sourcing/"},{"description":"Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted.","title":"Local-first Software","url":"/notes/local-first-software/"},{"description":"Low hanging fruit is the easy win I can grab now - pick it before I climb for the hard stuff.","title":"Low Hanging Fruit","url":"/notes/low-hanging-fruit/"},{"description":"A MOC is a curated index of notes on a topic - a table of contents I write by hand.","title":"Maps of Content","url":"/notes/maps-of-content/"},{"description":"Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use.","title":"Mental Models List","url":"/notes/mental-models-list/"},{"description":"Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.","title":"Metadata Strategy","url":"/notes/metadata-strategy/"},{"description":"Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead.","title":"Mind Mapping","url":"/notes/mind-mapping/"},{"description":"MED is the smallest effort that still gets the result - not zero, not max. I use it when habits and tools start ballooning.","title":"Minimum Effective Dose","url":"/notes/minimum-effective-dose/"},{"description":"MVP is the smallest version I ship to learn if the idea works - one feature, one page, real feedback.","title":"Minimum Viable Product","url":"/notes/minimum-viable-product/"},{"description":"Mobile capture: share sheet to inbox - save the spark before I scroll away.","title":"Mobile Capture Workflows","url":"/notes/mobile-capture-workflows/"},{"description":"PARA sorts notes by life responsibility - enough structure to find things, archive when done.","title":"PARA Method","url":"/notes/para-method/"},{"description":"Most results come from a small slice of work - find that slice, protect it, cut the rest.","title":"Pareto Principle","url":"/notes/pareto-principle/"},{"description":"Notes rot without review - calendar weekly and quarterly passes for inbox, projects, evergreens.","title":"Periodic Knowledge Review","url":"/notes/periodic-knowledge-review/"},{"description":"PKM is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition.","title":"PKM","url":"/notes/pkm/"},{"description":"I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I reuse.","title":"Progressive Summarization","url":"/notes/progressive-summarization/"},{"description":"RSS and newsletters are appointment reading - subscribe, batch read, clip what resonates.","title":"RSS for Research","url":"/notes/rss-for-research/"},{"description":"I save only what changes what I do or believe this month - most content is noise.","title":"Signal vs Noise","url":"/notes/signal-vs-noise/"},{"description":"Slow productivity pushes back on busy-as-virtue - fewer projects, more finished work.","title":"Slow Productivity","url":"/notes/slow-productivity/"},{"description":"Spaced repetition schedules reviews before I forget. I use it for facts I need cold, not for whole wiki pages.","title":"Spaced Repetition","url":"/notes/spaced-repetition/"},{"description":"Sunk cost is letting time already spent justify more time - the right question is forward-only: would I start this today?","title":"Sunk Cost Fallacy","url":"/notes/sunk-cost-fallacy/"},{"description":"Collecting quotes isn't PKM for me. Synthesis is merging sources into what I believe and can defend.","title":"Synthesis as a Goal","url":"/notes/synthesis-as-a-goal/"},{"description":"Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs.","title":"The 12 Week Year","url":"/notes/the-12-week-year/"},{"description":"Collecting articles feels like progress - tie saves to express deadlines or cut them.","title":"The Collector's Fallacy","url":"/notes/the-collectors-fallacy/"},{"description":"I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding.","title":"The Feynman Technique","url":"/notes/the-feynman-technique/"},{"description":"The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.","title":"The Garage Concept","url":"/notes/the-garage-concept/"},{"description":"Ideas move through capture, use, polish, fade, and archive - spend effort where the note actually is.","title":"The Knowledge Lifecycle","url":"/notes/the-knowledge-lifecycle/"},{"description":"CODE and PARA in one loop - capture to inbox, organize by project, distill on use, express weekly, day to day.","title":"The Second Brain Workflow","url":"/notes/the-second-brain-workflow/"},{"description":"If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.","title":"The Trusted Inbox","url":"/notes/the-trusted-inbox/"},{"description":"Weekly review as a checklist - inbox, calendar, projects, one express action. Boring on purpose.","title":"Weekly Review Checklists","url":"/notes/weekly-review-checklists/"}]&lt;/script&gt;
-
+835:      <script type="application/json" class="notes-graph-data">{"edges":[{"source":"/notes/abide-in-me/","target":"/notes/the-wise-builder/"},{"source":"/notes/abide-in-me/","target":"/notes/take-up-your-cross/"},{"source":"/notes/abide-in-me/","target":"/notes/free-grace/"},{"source":"/notes/abide-in-me/","target":"/notes/compounding/"},{"source":"/notes/great-commission/","target":"/notes/the-wise-builder/"},{"source":"/notes/great-commission/","target":"/notes/take-up-your-cross/"},{"source":"/notes/great-commission/","target":"/notes/repent-and-believe/"},{"source":"/notes/great-commission/","target":"/notes/free-grace/"},{"source":"/notes/great-commission/","target":"/notes/creative-output/"},{"source":"/notes/great-commission/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/render-unto-caesar/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/render-unto-caesar/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/render-unto-caesar/","target":"/notes/the-golden-rule/"},{"source":"/notes/render-unto-caesar/","target":"/notes/love-god/"},{"source":"/notes/by-their-fruits/","target":"/notes/judge-not/"},{"source":"/notes/by-their-fruits/","target":"/notes/the-narrow-way/"},{"source":"/notes/by-their-fruits/","target":"/notes/signal-vs-noise/"},{"source":"/notes/secret-devotion/","target":"/notes/ask-seek-knock/"},{"source":"/notes/secret-devotion/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/secret-devotion/","target":"/notes/let-your-light-shine/"},{"source":"/notes/secret-devotion/","target":"/notes/free-grace/"},{"source":"/notes/secret-devotion/","target":"/notes/drafting-in-public/"},{"source":"/notes/heart-righteousness/","target":"/notes/judge-not/"},{"source":"/notes/heart-righteousness/","target":"/notes/let-your-light-shine/"},{"source":"/notes/heart-righteousness/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/heart-righteousness/","target":"/notes/the-beatitudes/"},{"source":"/note
+… (output truncated)
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/e435a5f6-d49d-401c-9572-92ce6b92a7cb.txt</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/e435a5f6-d49d-401c-9572-92ce6b92a7cb.txt</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html</summary>
 
 </details></tool-use>
 
@@ -5660,7 +1649,8 @@ Post-processing the rendered HTML cannot fix the issue because Goldmark breaks t
 
 Escaping the pipe with a backslash inside the wikilink syntax may prevent Goldmark from splitting the cell. The internal pipe between the link title and body needs protection from the table column delimiter.
 
-Escaping the pipe with a backslash inside the wikilink may not work. The template’s split logic searches for the literal pipe character, so the escaped pipe would still trigger a split and break the link.</details></think>
+Escaping the pipe with a backslash inside the wikilink may not work. The template’s split logic searches for the literal pipe character, so the escaped pipe would still trigger a split and break the link.
+</details></think>
 
 _**Agent (default)**_
 
@@ -5669,10 +1659,8 @@ The table pipe in `[[Free Grace|Faith alone]]` splits the Markdown row before wi
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5748,25 +1736,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
 
 </details></tool-use>
 
@@ -5777,30 +1752,30 @@ A fix must run before Goldmark converts markdown to HTML. A render hook or prepr
 
 The plan is to switch `render-content.html` to use `RawContent` instead of `.Content`. Wikilinks will be protected by replacing `[[...]]` with tokens before markdown rendering. Then wikilink resolution can run afterward.
 
-A simpler fix may be preferable. Changing the table cell to avoid the pipe character entirely would bypass the markdown parsing issue without complex preprocessing.</details></think>
+A simpler fix may be preferable. Changing the table cell to avoid the pipe character entirely would bypass the markdown parsing issue without complex preprocessing.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && cat > /tmp/test-table.md << 'EOF'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; cat &gt; /tmp/test-table.md &lt;&lt; &#39;EOF&#39;
 | A | B | C |
 |---|---|---|
 | one | two | [[Free Grace\|Faith alone]] is text |
 | x | y | [[The Wise Builder\|Hear and do]] - rest |
 EOF
-hugo convert markdown --type goldmark /tmp/test-table.md 2>/dev/null || python3 - << 'PY'
+hugo convert markdown --type goldmark /tmp/test-table.md 2&gt;/dev/null || python3 - &lt;&lt; &#39;PY&#39;
 # quick test with hugo render
 import subprocess, tempfile, os
-content = '''---
+content = &#39;&#39;&#39;---
 title: test
 ---
 | A | B | C |
 |---|---|---|
 | one | two | [[Free Grace\\|Faith alone]] is text |
-'''
+&#39;&#39;&#39;
 PY
-echo "---"; rg "Free Grace" /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html | head -3</summary>
-
+echo &#34;---&#34;; rg &#34;Free Grace&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html | head -3</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && cat > /tmp/test-table.md << 'EOF'
 | A | B | C |
@@ -5857,17 +1832,9 @@ Global Flags:
 Use "hugo convert [command] --help" for more information about a command.
 
 ---
-      &lt;script type="application/json" class="notes-graph-data"&gt;{"edges":[{"source":"/notes/abide-in-me/","target":"/notes/the-wise-builder/"},{"source":"/notes/abide-in-me/","target":"/notes/take-up-your-cross/"},{"source":"/notes/abide-in-me/","target":"/notes/free-grace/"},{"source":"/notes/abide-in-me/","target":"/notes/compounding/"},{"source":"/notes/great-commission/","target":"/notes/the-wise-builder/"},{"source":"/notes/great-commission/","target":"/notes/take-up-your-cross/"},{"source":"/notes/great-commission/","target":"/notes/repent-and-believe/"},{"source":"/notes/great-commission/","target":"/notes/free-grace/"},{"source":"/notes/great-commission/","target":"/notes/creative-output/"},{"source":"/notes/great-commission/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/render-unto-caesar/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/render-unto-caesar/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/render-unto-caesar/","target":"/notes/the-golden-rule/"},{"source":"/notes/render-unto-caesar/","target":"/notes/love-god/"},{"source":"/notes/by-their-fruits/","target":"/notes/judge-not/"},{"source":"/notes/by-their-fruits/","target":"/notes/the-narrow-way/"},{"source":"/notes/by-their-fruits/","target":"/notes/signal-vs-noise/"},{"source":"/notes/secret-devotion/","target":"/notes/ask-seek-knock/"},{"source":"/notes/secret-devotion/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/secret-devotion/","target":"/notes/let-your-light-shine/"},{"source":"/notes/secret-devotion/","target":"/notes/free-grace/"},{"source":"/notes/secret-devotion/","target":"/notes/drafting-in-public/"},{"source":"/notes/heart-righteousness/","target":"/notes/judge-not/"},{"source":"/notes/heart-righteousness/","target":"/notes/let-your-light-shine/"},{"source":"/notes/heart-righteousness/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/heart-righteousness/","target":"/notes/the-beatitudes/"},{"source":"/notes/heart-righteousness/","target":"/notes/free-grace/"},{"source":"/notes/the-wise-builder/","target":"/notes/repent-and-believe/"},{"source":"/notes/the-wise-builder/","target":"/notes/the-narrow-way/"},{"source":"/notes/the-wise-builder/","target":"/notes/free-grace/"},{"source":"/notes/the-wise-builder/","target":"/notes/creative-output/"},{"source":"/notes/the-wise-builder/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/childlike-faith/","target":"/notes/ask-seek-knock/"},{"source":"/notes/childlike-faith/","target":"/notes/free-grace/"},{"source":"/notes/childlike-faith/","target":"/notes/getting-started/"},{"source":"/notes/childlike-faith/","target":"/notes/compounding/"},{"source":"/notes/childlike-faith/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/take-up-your-cross/","target":"/notes/repent-and-believe/"},{"source":"/notes/take-up-your-cross/","target":"/notes/the-narrow-way/"},{"source":"/notes/take-up-your-cross/","target":"/notes/free-grace/"},{"source":"/notes/take-up-your-cross/","target":"/notes/process-over-outcomes/"},{"source":"/notes/take-up-your-cross/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/take-up-your-cross/","target":"/notes/slow-productivity/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/heart-righteousness/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/judge-not/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/let-your-light-shine/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/the-golden-rule/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/love-your-neighbor/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/atomic-notes/"},{"source":"/notes/let-your-yes-be-yes/","target":"/notes/drafting-in-public/"},{"source":"/notes/ask-seek-knock/","target":"/notes/secret-devotion/"},{"source":"/notes/ask-seek-knock/","target":"/notes/dont-worry/"},{"source":"/notes/ask-seek-knock/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/ask-seek-knock/","target":"/notes/free-grace/"},{"source":"/notes/ask-seek-knock/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/judge-not/","target":"/notes/by-their-fruits/"},{"source":"/notes/judge-not/","target":"/notes/heart-righteousness/"},{"source":"/notes/judge-not/","target":"/notes/the-narrow-way/"},{"source":"/notes/judge-not/","target":"/notes/humility-and-service/"},{"source":"/notes/judge-not/","target":"/notes/free-grace/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/forgiveness/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/love-your-enemies/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/the-golden-rule/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/love-your-neighbor/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/free-grace/"},{"source":"/notes/turn-the-other-cheek/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/repent-and-believe/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/repent-and-believe/","target":"/notes/free-grace/"},{"source":"/notes/repent-and-believe/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/repent-and-believe/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/the-narrow-way/","target":"/notes/humility-and-service/"},{"source":"/notes/the-narrow-way/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/the-narrow-way/","target":"/notes/love-your-enemies/"},{"source":"/notes/the-narrow-way/","target":"/notes/the-golden-rule/"},{"source":"/notes/the-narrow-way/","target":"/notes/free-grace/"},{"source":"/notes/treasure-in-heaven/","target":"/notes/the-narrow-way/"},{"source":"/notes/treasure-in-heaven/","target":"/notes/free-grace/"},{"source":"/notes/treasure-in-heaven/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/let-your-light-shine/","target":"/notes/humility-and-service/"},{"source":"/notes/let-your-light-shine/","target":"/notes/love-your-neighbor/"},{"source":"/notes/let-your-light-shine/","target":"/notes/free-grace/"},{"source":"/notes/let-your-light-shine/","target":"/notes/drafting-in-public/"},{"source":"/notes/humility-and-service/","target":"/notes/let-your-light-shine/"},{"source":"/notes/humility-and-service/","target":"/notes/the-beatitudes/"},{"source":"/notes/humility-and-service/","target":"/notes/love-your-neighbor/"},{"source":"/notes/humility-and-service/","target":"/notes/free-grace/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/forgiveness/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/the-golden-rule/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/love-god/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/note-relationships/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/free-grace/"},{"source":"/notes/peacemakers/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/peacemakers/","target":"/notes/forgiveness/"},{"source":"/notes/peacemakers/","target":"/notes/love-your-enemies/"},{"source":"/notes/peacemakers/","target":"/notes/free-grace/"},{"source":"/notes/dont-worry/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/dont-worry/","target":"/notes/love-god/"},{"source":"/notes/dont-worry/","target":"/notes/free-grace/"},{"source":"/notes/dont-worry/","target":"/notes/slow-productivity/"},{"source":"/notes/the-beatitudes/","target":"/notes/humility-and-service/"},{"source":"/notes/the-beatitudes/","target":"/notes/peacemakers/"},{"source":"/notes/the-beatitudes/","target":"/notes/love-god/"},{"source":"/notes/the-beatitudes/","target":"/notes/free-grace/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/the-narrow-way/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/dont-worry/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/free-grace/"},{"source":"/notes/seek-the-kingdom-first/","target":"/notes/signal-vs-noise/"},{"source":"/notes/forgiveness/","target":"/notes/ask-seek-knock/"},{"source":"/notes/forgiveness/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/forgiveness/","target":"/notes/the-golden-rule/"},{"source":"/notes/forgiveness/","target":"/notes/free-grace/"},{"source":"/notes/forgiveness/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/love-your-enemies/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/love-your-enemies/","target":"/notes/peacemakers/"},{"source":"/notes/love-your-enemies/","target":"/notes/forgiveness/"},{"source":"/notes/love-your-enemies/","target":"/notes/the-golden-rule/"},{"source":"/notes/love-your-enemies/","target":"/notes/free-grace/"},{"source":"/notes/the-golden-rule/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/the-golden-rule/","target":"/notes/forgiveness/"},{"source":"/notes/the-golden-rule/","target":"/notes/love-your-enemies/"},{"source":"/notes/the-golden-rule/","target":"/notes/love-your-neighbor/"},{"source":"/notes/the-golden-rule/","target":"/notes/free-grace/"},{"source":"/notes/love-your-neighbor/","target":"/notes/peacemakers/"},{"source":"/notes/love-your-neighbor/","target":"/notes/love-your-enemies/"},{"source":"/notes/love-your-neighbor/","target":"/notes/the-golden-rule/"},{"source":"/notes/love-your-neighbor/","target":"/notes/free-grace/"},{"source":"/notes/love-god/","target":"/notes/dont-worry/"},{"source":"/notes/love-god/","target":"/notes/the-beatitudes/"},{"source":"/notes/love-god/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/love-god/","target":"/notes/love-your-neighbor/"},{"source":"/notes/love-god/","target":"/notes/free-grace/"},{"source":"/notes/eternal-principles/","target":"/notes/abide-in-me/"},{"source":"/notes/eternal-principles/","target":"/notes/great-commission/"},{"source":"/notes/eternal-principles/","target":"/notes/render-unto-caesar/"},{"source":"/notes/eternal-principles/","target":"/notes/by-their-fruits/"},{"source":"/notes/eternal-principles/","target":"/notes/secret-devotion/"},{"source":"/notes/eternal-principles/","target":"/notes/heart-righteousness/"},{"source":"/notes/eternal-principles/","target":"/notes/the-wise-builder/"},{"source":"/notes/eternal-principles/","target":"/notes/childlike-faith/"},{"source":"/notes/eternal-principles/","target":"/notes/take-up-your-cross/"},{"source":"/notes/eternal-principles/","target":"/notes/let-your-yes-be-yes/"},{"source":"/notes/eternal-principles/","target":"/notes/ask-seek-knock/"},{"source":"/notes/eternal-principles/","target":"/notes/judge-not/"},{"source":"/notes/eternal-principles/","target":"/notes/turn-the-other-cheek/"},{"source":"/notes/eternal-principles/","target":"/notes/repent-and-believe/"},{"source":"/notes/eternal-principles/","target":"/notes/the-narrow-way/"},{"source":"/notes/eternal-principles/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/eternal-principles/","target":"/notes/let-your-light-shine/"},{"source":"/notes/eternal-principles/","target":"/notes/humility-and-service/"},{"source":"/notes/eternal-principles/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/eternal-principles/","target":"/notes/peacemakers/"},{"source":"/notes/eternal-principles/","target":"/notes/dont-worry/"},{"source":"/notes/eternal-principles/","target":"/notes/the-beatitudes/"},{"source":"/notes/eternal-principles/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/eternal-principles/","target":"/notes/forgiveness/"},{"source":"/notes/eternal-principles/","target":"/notes/love-your-enemies/"},{"source":"/notes/eternal-principles/","target":"/notes/the-golden-rule/"},{"source":"/notes/eternal-principles/","target":"/notes/love-your-neighbor/"},{"source":"/notes/eternal-principles/","target":"/notes/love-god/"},{"source":"/notes/eternal-principles/","target":"/notes/note-relationships/"},{"source":"/notes/eternal-principles/","target":"/notes/free-grace/"},{"source":"/notes/eternal-principles/","target":"/notes/getting-started/"},{"source":"/notes/eternal-principles/","target":"/notes/process-over-outcomes/"},{"source":"/notes/eternal-principles/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/eternal-principles/","target":"/notes/associative-linking/"},{"source":"/notes/eternal-principles/","target":"/notes/atomic-notes/"},{"source":"/notes/eternal-principles/","target":"/notes/compounding/"},{"source":"/notes/eternal-principles/","target":"/notes/creative-output/"},{"source":"/notes/eternal-principles/","target":"/notes/drafting-in-public/"},{"source":"/notes/eternal-principles/","target":"/notes/evergreen-notes/"},{"source":"/notes/eternal-principles/","target":"/notes/first-principles-thinking/"},{"source":"/notes/eternal-principles/","target":"/notes/maps-of-content/"},{"source":"/notes/eternal-principles/","target":"/notes/mental-models-list/"},{"source":"/notes/eternal-principles/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/eternal-principles/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/eternal-principles/","target":"/notes/signal-vs-noise/"},{"source":"/notes/eternal-principles/","target":"/notes/slow-productivity/"},{"source":"/notes/eternal-principles/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/eternal-principles/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/note-relationships/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/note-relationships/","target":"/notes/the-golden-rule/"},{"source":"/notes/note-relationships/","target":"/notes/getting-started/"},{"source":"/notes/note-relationships/","target":"/notes/analog-capture-tools/"},{"source":"/notes/note-relationships/","target":"/notes/associative-linking/"},{"source":"/notes/note-relationships/","target":"/notes/maps-of-content/"},{"source":"/notes/note-relationships/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/note-relationships/","target":"/notes/signal-vs-noise/"},{"source":"/notes/note-relationships/","target":"/notes/slow-productivity/"},{"source":"/notes/free-grace/","target":"/notes/the-narrow-way/"},{"source":"/notes/free-grace/","target":"/notes/the-beatitudes/"},{"source":"/notes/free-grace/","target":"/notes/forgiveness/"},{"source":"/notes/free-grace/","target":"/notes/eternal-principles/"},{"source":"/notes/free-grace/","target":"/notes/compounding/"},{"source":"/notes/free-grace/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/getting-started/","target":"/notes/childlike-faith/"},{"source":"/notes/getting-started/","target":"/notes/note-relationships/"},{"source":"/notes/getting-started/","target":"/notes/atomic-notes/"},{"source":"/notes/getting-started/","target":"/notes/maps-of-content/"},{"source":"/notes/process-over-outcomes/","target":"/notes/take-up-your-cross/"},{"source":"/notes/process-over-outcomes/","target":"/notes/compounding/"},{"source":"/notes/process-over-outcomes/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/there-is-no-perfect-solution/","target":"/notes/repent-and-believe/"},{"source":"/notes/there-is-no-perfect-solution/","target":"/notes/mental-models-list/"},{"source":"/notes/there-is-no-perfect-solution/","target":"/notes/pareto-principle/"},{"source":"/notes/analog-capture-tools/","target":"/notes/eternal-principles/"},{"source":"/notes/analog-capture-tools/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/associative-linking/","target":"/notes/love-your-neighbor/"},{"source":"/notes/associative-linking/","target":"/notes/note-relationships/"},{"source":"/notes/associative-linking/","target":"/notes/atomic-notes/"},{"source":"/notes/associative-linking/","target":"/notes/evergreen-notes/"},{"source":"/notes/atomic-notes/","target":"/notes/let-your-yes-be-yes/"},{"source":"/notes/atomic-notes/","target":"/notes/associative-linking/"},{"source":"/notes/atomic-notes/","target":"/notes/evergreen-notes/"},{"source":"/notes/atomic-notes/","target":"/notes/maps-of-content/"},{"source":"/notes/compounding/","target":"/notes/abide-in-me/"},{"source":"/notes/compounding/","target":"/notes/process-over-outcomes/"},{"source":"/notes/compounding/","target":"/notes/mental-models-list/"},{"source":"/notes/compounding/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/compounding/","target":"/notes/pareto-principle/"},{"source":"/notes/creative-output/","target":"/notes/great-commission/"},{"source":"/notes/creative-output/","target":"/notes/the-wise-builder/"},{"source":"/notes/creative-output/","target":"/notes/the-collectors-fallacy/"},{"source":"/notes/drafting-in-public/","target":"/notes/secret-devotion/"},{"source":"/notes/drafting-in-public/","target":"/notes/let-your-light-shine/"},{"source":"/notes/drafting-in-public/","target":"/notes/creative-output/"},{"source":"/notes/drafting-in-public/","target":"/notes/evergreen-notes/"},{"source":"/notes/evergreen-notes/","target":"/notes/the-beatitudes/"},{"source":"/notes/evergreen-notes/","target":"/notes/atomic-notes/"},{"source":"/notes/evergreen-notes/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/first-principles-thinking/","target":"/notes/eternal-principles/"},{"source":"/notes/first-principles-thinking/","target":"/notes/free-grace/"},{"source":"/notes/maps-of-content/","target":"/notes/forgiveness/"},{"source":"/notes/maps-of-content/","target":"/notes/the-golden-rule/"},{"source":"/notes/maps-of-content/","target":"/notes/love-your-neighbor/"},{"source":"/notes/maps-of-content/","target":"/notes/love-god/"},{"source":"/notes/maps-of-content/","target":"/notes/eternal-principles/"},{"source":"/notes/maps-of-content/","target":"/notes/note-relationships/"},{"source":"/notes/maps-of-content/","target":"/notes/free-grace/"},{"source":"/notes/maps-of-content/","target":"/notes/getting-started/"},{"source":"/notes/maps-of-content/","target":"/notes/analog-capture-tools/"},{"source":"/notes/maps-of-content/","target":"/notes/associative-linking/"},{"source":"/notes/maps-of-content/","target":"/notes/atomic-notes/"},{"source":"/notes/maps-of-content/","target":"/notes/creative-output/"},{"source":"/notes/maps-of-content/","target":"/notes/drafting-in-public/"},{"source":"/notes/maps-of-content/","target":"/notes/evergreen-notes/"},{"source":"/notes/maps-of-content/","target":"/notes/mental-models-list/"},{"source":"/notes/maps-of-content/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/maps-of-content/","target":"/notes/signal-vs-noise/"},{"source":"/notes/mental-models-list/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/mental-models-list/","target":"/notes/compounding/"},{"source":"/notes/mental-models-list/","target":"/notes/first-principles-thinking/"},{"source":"/notes/mental-models-list/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/mental-models-list/","target":"/notes/pareto-principle/"},{"source":"/notes/mental-models-list/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/free-grace/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/compounding/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/mental-models-list/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/pareto-principle/"},{"source":"/notes/minimum-effective-dose/","target":"/notes/sunk-cost-fallacy/"},{"source":"/notes/pareto-principle/","target":"/notes/eternal-principles/"},{"source":"/notes/pareto-principle/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/pareto-principle/","target":"/notes/compounding/"},{"source":"/notes/pareto-principle/","target":"/notes/signal-vs-noise/"},{"source":"/notes/periodic-knowledge-review/","target":"/notes/ask-seek-knock/"},{"source":"/notes/periodic-knowledge-review/","target":"/notes/associative-linking/"},{"source":"/notes/periodic-knowledge-review/","target":"/notes/atomic-notes/"},{"source":"/notes/periodic-knowledge-review/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/signal-vs-noise/","target":"/notes/by-their-fruits/"},{"source":"/notes/signal-vs-noise/","target":"/notes/seek-the-kingdom-first/"},{"source":"/notes/slow-productivity/","target":"/notes/dont-worry/"},{"source":"/notes/slow-productivity/","target":"/notes/analog-capture-tools/"},{"source":"/notes/slow-productivity/","target":"/notes/creative-output/"},{"source":"/notes/spaced-repetition/","target":"/notes/childlike-faith/"},{"source":"/notes/spaced-repetition/","target":"/notes/ask-seek-knock/"},{"source":"/notes/spaced-repetition/","target":"/notes/eternal-principles/"},{"source":"/notes/spaced-repetition/","target":"/notes/evergreen-notes/"},{"source":"/notes/spaced-repetition/","target":"/notes/pareto-principle/"},{"source":"/notes/sunk-cost-fallacy/","target":"/notes/turn-the-other-cheek/"},{"source":"/notes/sunk-cost-fallacy/","target":"/notes/forgiveness/"},{"source":"/notes/sunk-cost-fallacy/","target":"/notes/there-is-no-perfect-solution/"},{"source":"/notes/sunk-cost-fallacy/","target":"/notes/minimum-effective-dose/"},{"source":"/notes/the-collectors-fallacy/","target":"/notes/treasure-in-heaven/"},{"source":"/notes/the-collectors-fallacy/","target":"/notes/creative-output/"}],"focus":"/notes/eternal-principles/","mode":"local","nodes":[{"deadEnd":false,"hub":false,"id":"/notes/abide-in-me/","inDegree":2,"orphan":false,"outDegree":4,"title":"Abide in Me","totalDegree":6,"url":"/notes/abide-in-me/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/great-commission/","inDegree":2,"orphan":false,"outDegree":6,"title":"Great Commission","totalDegree":8,"url":"/notes/great-commission/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/render-unto-caesar/","inDegree":1,"orphan":false,"outDegree":4,"title":"Render Unto Caesar","totalDegree":5,"url":"/notes/render-unto-caesar/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/by-their-fruits/","inDegree":3,"orphan":false,"outDegree":3,"title":"By Their Fruits","totalDegree":6,"url":"/notes/by-their-fruits/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/secret-devotion/","inDegree":3,"orphan":false,"outDegree":5,"title":"Secret Devotion","totalDegree":8,"url":"/notes/secret-devotion/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/heart-righteousness/","inDegree":3,"orphan":false,"outDegree":5,"title":"Heart Righteousness","totalDegree":8,"url":"/notes/heart-righteousness/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/the-wise-builder/","inDegree":4,"orphan":false,"outDegree":5,"title":"The Wise Builder","totalDegree":9,"url":"/notes/the-wise-builder/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/childlike-faith/","inDegree":3,"orphan":false,"outDegree":5,"title":"Childlike Faith","totalDegree":8,"url":"/notes/childlike-faith/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/take-up-your-cross/","inDegree":4,"orphan":false,"outDegree":6,"title":"Take Up Your Cross","totalDegree":10,"url":"/notes/take-up-your-cross/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/let-your-yes-be-yes/","inDegree":2,"orphan":false,"outDegree":7,"title":"Let Your Yes Be Yes","totalDegree":9,"url":"/notes/let-your-yes-be-yes/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/ask-seek-knock/","inDegree":6,"orphan":false,"outDegree":5,"title":"Ask Seek Knock","totalDegree":11,"url":"/notes/ask-seek-knock/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/judge-not/","inDegree":4,"orphan":false,"outDegree":5,"title":"Judge Not","totalDegree":9,"url":"/notes/judge-not/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/turn-the-other-cheek/","inDegree":2,"orphan":false,"outDegree":6,"title":"Turn the Other Cheek","totalDegree":8,"url":"/notes/turn-the-other-cheek/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/repent-and-believe/","inDegree":5,"orphan":false,"outDegree":4,"title":"Repent and Believe","totalDegree":9,"url":"/notes/repent-and-believe/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/the-narrow-way/","inDegree":8,"orphan":false,"outDegree":5,"title":"The Narrow Way","totalDegree":13,"url":"/notes/the-narrow-way/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/treasure-in-heaven/","inDegree":6,"orphan":false,"outDegree":4,"title":"Treasure in Heaven","totalDegree":10,"url":"/notes/treasure-in-heaven/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/let-your-light-shine/","inDegree":6,"orphan":false,"outDegree":5,"title":"Let Your Light Shine","totalDegree":11,"url":"/notes/let-your-light-shine/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/humility-and-service/","inDegree":5,"orphan":false,"outDegree":4,"title":"Humility and Service","totalDegree":9,"url":"/notes/humility-and-service/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/reconciliation-before-worship/","inDegree":7,"orphan":false,"outDegree":5,"title":"Reconciliation Before Worship","totalDegree":12,"url":"/notes/reconciliation-before-worship/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/peacemakers/","inDegree":4,"orphan":false,"outDegree":4,"title":"Peacemakers","totalDegree":8,"url":"/notes/peacemakers/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/dont-worry/","inDegree":5,"orphan":false,"outDegree":5,"title":"Don't Worry","totalDegree":10,"url":"/notes/dont-worry/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/the-beatitudes/","inDegree":6,"orphan":false,"outDegree":4,"title":"The Beatitudes","totalDegree":10,"url":"/notes/the-beatitudes/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/seek-the-kingdom-first/","inDegree":8,"orphan":false,"outDegree":5,"title":"Seek the Kingdom First","totalDegree":13,"url":"/notes/seek-the-kingdom-first/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/forgiveness/","inDegree":9,"orphan":false,"outDegree":5,"title":"Forgiveness","totalDegree":14,"url":"/notes/forgiveness/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/love-your-enemies/","inDegree":6,"orphan":false,"outDegree":5,"title":"Love Your Enemies","totalDegree":11,"url":"/notes/love-your-enemies/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/the-golden-rule/","inDegree":11,"orphan":false,"outDegree":5,"title":"The Golden Rule","totalDegree":16,"url":"/notes/the-golden-rule/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/love-your-neighbor/","inDegree":9,"orphan":false,"outDegree":4,"title":"Love Your Neighbor","totalDegree":13,"url":"/notes/love-your-neighbor/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/love-god/","inDegree":6,"orphan":false,"outDegree":5,"title":"Love God","totalDegree":11,"url":"/notes/love-god/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/eternal-principles/","inDegree":6,"orphan":false,"outDegree":48,"title":"Eternal Principles","totalDegree":54,"url":"/notes/eternal-principles/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/note-relationships/","inDegree":5,"orphan":false,"outDegree":14,"title":"Note Relationships","totalDegree":19,"url":"/notes/note-relationships/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/free-grace/","inDegree":29,"orphan":false,"outDegree":6,"title":"Free Grace","totalDegree":35,"url":"/notes/free-grace/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/getting-started/","inDegree":8,"orphan":false,"outDegree":5,"title":"Getting Started","totalDegree":13,"url":"/notes/getting-started/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/process-over-outcomes/","inDegree":3,"orphan":false,"outDegree":4,"title":"Process Over Outcomes","totalDegree":7,"url":"/notes/process-over-outcomes/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/there-is-no-perfect-solution/","inDegree":7,"orphan":false,"outDegree":5,"title":"There Is No Perfect Solution","totalDegree":12,"url":"/notes/there-is-no-perfect-solution/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/analog-capture-tools/","inDegree":11,"orphan":false,"outDegree":6,"title":"Analog Capture Tools","totalDegree":17,"url":"/notes/analog-capture-tools/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/associative-linking/","inDegree":13,"orphan":false,"outDegree":8,"title":"Associative Linking","totalDegree":21,"url":"/notes/associative-linking/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/atomic-notes/","inDegree":11,"orphan":false,"outDegree":5,"title":"Atomic Notes","totalDegree":16,"url":"/notes/atomic-notes/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/compounding/","inDegree":9,"orphan":false,"outDegree":7,"title":"Compounding","totalDegree":16,"url":"/notes/compounding/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/creative-output/","inDegree":11,"orphan":false,"outDegree":7,"title":"Creative Output","totalDegree":18,"url":"/notes/creative-output/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/drafting-in-public/","inDegree":7,"orphan":false,"outDegree":6,"title":"Drafting in Public","totalDegree":13,"url":"/notes/drafting-in-public/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/evergreen-notes/","inDegree":16,"orphan":false,"outDegree":6,"title":"Evergreen Notes","totalDegree":22,"url":"/notes/evergreen-notes/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/first-principles-thinking/","inDegree":3,"orphan":false,"outDegree":4,"title":"First Principles Thinking","totalDegree":7,"url":"/notes/first-principles-thinking/","weak":true},{"deadEnd":false,"hub":true,"id":"/notes/maps-of-content/","inDegree":7,"orphan":false,"outDegree":42,"title":"Maps of Content","totalDegree":49,"url":"/notes/maps-of-content/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/mental-models-list/","inDegree":6,"orphan":false,"outDegree":9,"title":"Mental Models List","totalDegree":15,"url":"/notes/mental-models-list/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/minimum-effective-dose/","inDegree":11,"orphan":false,"outDegree":5,"title":"Minimum Effective Dose","totalDegree":16,"url":"/notes/minimum-effective-dose/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/pareto-principle/","inDegree":7,"orphan":false,"outDegree":4,"title":"Pareto Principle","totalDegree":11,"url":"/notes/pareto-principle/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/periodic-knowledge-review/","inDegree":9,"orphan":false,"outDegree":5,"title":"Periodic Knowledge Review","totalDegree":14,"url":"/notes/periodic-knowledge-review/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/signal-vs-noise/","inDegree":8,"orphan":false,"outDegree":6,"title":"Signal vs Noise","totalDegree":14,"url":"/notes/signal-vs-noise/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/slow-productivity/","inDegree":5,"orphan":false,"outDegree":6,"title":"Slow Productivity","totalDegree":11,"url":"/notes/slow-productivity/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/spaced-repetition/","inDegree":1,"orphan":false,"outDegree":7,"title":"Spaced Repetition","totalDegree":8,"url":"/notes/spaced-repetition/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/sunk-cost-fallacy/","inDegree":6,"orphan":false,"outDegree":4,"title":"Sunk Cost Fallacy","totalDegree":10,"url":"/notes/sunk-cost-fallacy/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/the-collectors-fallacy/","inDegree":9,"orphan":false,"outDegree":5,"title":"The Collector's Fallacy","totalDegree":14,"url":"/notes/the-collectors-fallacy/","weak":false}]}&lt;/script&gt;
-          Free Grace
-&lt;p&gt;I split them into one-claim notes so I can link and drill them like the rest of the garden. The ground is &lt;a href="/notes/free-grace/" class="wikilink" data-wikilink-preview="/notes/free-grace/"&gt;Free Grace&lt;/a&gt;: eternal life is God's gift by &lt;a href="/notes/free-grace/" class="wikilink" data-wikilink-preview="/notes/free-grace/"&gt;faith alone&lt;/a&gt;. These principles aren't the price of heaven. They're how I try to live once I've already received it.&lt;/p&gt;
-
+      <script type="application/json" class="notes-graph-data">{"edges":[{"source":"/notes/abide-in-me/","target":"/notes/the-wise-builder/"},{"source":"/notes/abide-in-me/","target":"/notes/take-up-your-cross/"},{"source":"/notes/abide-in-me/","target":"/notes/free-grace/"},{"source":"/notes/abide-in-me/","target":"/notes/compounding/"},{"source":"/notes/great-commission/","target":"/notes/the-wise-builder/"},{"source":"/notes/great-commission/","target":"/notes/take-up-your-cross/"},{"source":"/notes/great-c
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -5881,7 +1848,8 @@ The implementation extracts the raw page content and strips the "See also" secti
 
 Sequential placeholder numbering prevents duplicate tokens from colliding. Each wikilink is replaced once with a unique placeholder. After markdown rendering, these placeholders are restored to their original syntax before standard link resolution runs.
 
-Code blocks and inline backticks must be protected from wikilink tokenization before replacement begins. Only plain wikilinks outside code fences will be swapped for placeholders. After markdown rendering, the restored placeholders will be converted directly into anchor tags rather than raw syntax.</details></think>
+Code blocks and inline backticks must be protected from wikilink tokenization before replacement begins. Only plain wikilinks outside code fences will be swapped for placeholders. After markdown rendering, the restored placeholders will be converted directly into anchor tags rather than raw syntax.
+</details></think>
 
 _**Agent (default)**_
 
@@ -5890,39 +1858,22 @@ Testing whether escaping the pipe in the markdown fixes the table:
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>/dev/null && rg -n "Faith alone|Hear and do|wikilink-broken|\[\[Free Grace" public/notes/eternal-principles/index.html | head -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;/dev/null &amp;&amp; rg -n &#34;Faith alone|Hear and do|wikilink-broken|\[\[Free Grace&#34; public/notes/eternal-principles/index.html | head -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>/dev/null && rg -n "Faith alone|Hear and do|wikilink-broken|\[\[Free Grace" public/notes/eternal-principles/index.html | head -15
 ```
@@ -5943,33 +1894,24 @@ hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 Buil
  Cleaned          │    0 
 
 Total in 15194 ms
-923:            wikilink &lt;code&gt;[[Free Grace\]]&lt;/code&gt; — no page matches this title, slug, or alias.
-1002:					&lt;td&gt;&lt;a href="/notes/free-grace/" class="wikilink" data-wikilink-preview="/notes/free-grace/"&gt;Faith alone&lt;/a&gt; is the smallest sufficient act - not a works ladder&lt;/td&gt;
-1062:					&lt;td&gt;&lt;a href="/notes/the-wise-builder/" class="wikilink" data-wikilink-preview="/notes/the-wise-builder/"&gt;Hear and do&lt;/a&gt; - hearing alone is sand&lt;/td&gt;
+923:            wikilink <code>[[Free Grace\]]</code> — no page matches this title, slug, or alias.
+1002:					<td><a href="/notes/free-grace/" class="wikilink" data-wikilink-preview="/notes/free-grace/">Faith alone</a> is the smallest sufficient act - not a works ladder</td>
+1062:					<td><a href="/notes/the-wise-builder/" class="wikilink" data-wikilink-preview="/notes/the-wise-builder/">Hear and do</a> - hearing alone is sand</td>
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
-
-Offset 918 is beyond file length (43 lines)
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
-
+Offset 918 is beyond file length (43 lines)
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg "broken wikilink|eternal-principles" | head -10</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#34;broken wikilink|eternal-principles&#34; | head -10</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg "broken wikilink|eternal-principles" | head -10
 ```
@@ -5979,12 +1921,6 @@ WARN  broken wikilink [[Free Grace\]] in notes/eternal-principles.md
 WARN  broken wikilink [[The Wise Builder\]] in notes/eternal-principles.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -5992,14 +1928,13 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Escaped pipes work for table rendering, but Hugo's wikilink linter still flags `[[Free Grace\]]` as a broken link. Goldmark or the linter strips the escaped pipe differently.
 
-The linter regex `\[\[[^\]|#]+\]` fails on `Free Grace\` because the backslash is treated as a literal character rather than an escaped pipe. This prevents the regex from matching the full wikilink.</details></think>
+The linter regex `\[\[[^\]|#]+\]` fails on `Free Grace\` because the backslash is treated as a literal character rather than an escaped pipe. This prevents the regex from matching the full wikilink.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6098,13 +2033,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -6124,7 +2052,8 @@ Need to verify that `RenderString` preserves goldmark table formatting. Also, `f
 
 Replacing one match per iteration safely handles duplicate wikilinks. `RenderString` returns `template.HTML`, so the rendered content must be converted to a string before placeholder replacements. After rendering, the existing HTML logic strips the See also section. Once the template fix is in place, the markdown file can revert to normal `|` syntax and drop the `\|` escapes.
 
-The linter regex will correctly parse the unescaped `|` once the raw content is processed. Before tokenization, fenced code blocks and the See also section must be protected with regex replacements and restored afterward, matching the existing code protection pattern.</details></think>
+The linter regex will correctly parse the unescaped `|` once the raw content is processed. Before tokenization, fenced code blocks and the See also section must be protected with regex replacements and restored afterward, matching the existing code protection pattern.
+</details></think>
 
 _**Agent (default)**_
 
@@ -6133,27 +2062,15 @@ Fixing the root cause: Markdown table parsing splits on `|` inside `[[Free Grace
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.agents/skills/hugo-template-guidance/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.agents/skills/hugo-template-guidance/SKILL.md</summary>
 
 </details></tool-use>
 
@@ -6188,15 +2105,15 @@ Writing the template implementation now. The raw content is split by triple back
 
 Realized that splitting raw content by triple backticks removes the fence delimiters. The template now reconstructs the original markdown by appending the fences back between the processed segments.
 
-The template now rebuilds raw content by appending triple backticks between processed segments. Inline backticks in prose lines still need protection, or wikilinks inside them will be tokenized incorrectly.</details></think>
+The template now rebuilds raw content by appending triple backticks between processed segments. Inline backticks in prose lines still need protection, or wikilinks inside them will be tokenized incorrectly.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **25** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (25 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (25 files)
 
 | File |
 |------|
@@ -6225,13 +2142,6 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (25 files)
 | `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/video.html` |
 | `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html` |
 | `layouts/shortcodes/card.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -6243,7 +2153,8 @@ Hugo's `mod` function exists. `RenderString` returns `template.HTML`, so chainin
 
 RenderString avoids Hugo's cached `.Content` and produces headings for the table of contents. The helper logic will strip the "See also" section from raw content before rendering.
 
-The tokenizer splits raw content by triple backticks. It keeps fenced blocks intact and only processes text between them. Inside those segments, it splits by backticks to isolate inline code. This prevents table pipe characters from being misread as wikilinks.</details></think>
+The tokenizer splits raw content by triple backticks. It keeps fenced blocks intact and only processes text between them. Inside those segments, it splits by backticks to isolate inline code. This prevents table pipe characters from being misread as wikilinks.
+</details></think>
 
 _**Agent (default)**_
 
@@ -6252,97 +2163,57 @@ Updating `render-content.html` to tokenize wikilinks before Markdown rendering s
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'broken wikilink|unlinked mention|Error|ERROR' || echo "lint clean"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1 | rg &#39;broken wikilink|unlinked mention|Error|ERROR&#39; || echo &#34;lint clean&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'broken wikilink|unlinked mention|Error|ERROR' || echo "lint clean"
 ```
 
 ```
-&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: rg -n "Faith alone|Hear and do|\[\[Free Grace|wikilink-broken" /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html | head -10</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -n &#34;Faith alone|Hear and do|\[\[Free Grace|wikilink-broken&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html | head -10</summary>
 ```bash
 rg -n "Faith alone|Hear and do|\[\[Free Grace|wikilink-broken" /home/jorap/Documents/GitHub/jorap.com/public/notes/eternal-principles/index.html | head -10
 ```
 
 ```
-125:&lt;span&gt;Created Jun 20, 2026 · Updated Jun 20, 2026&lt;/span&gt;&lt;/div&gt;&lt;ul class="mb-4 flex flex-wrap gap-2"&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/gospel/&gt;Gospel&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/jesus-christ/&gt;Jesus Christ&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/eternal-principles/&gt;Eternal Principles&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/free-grace/&gt;Free Grace&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/moc/&gt;MOC&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/sermon-on-the-mount/&gt;Sermon on the Mount&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class="toc-wrapper border-divider mb-6 rounded border p-4 lg:hidden"&gt;&lt;p class="mb-3 font-semibold"&gt;Table of Contents&lt;/p&gt;&lt;div class="table-of-content toc-links"&gt;&lt;nav id=TableOfContents&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=#theological-basis&gt;Theological basis&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#the-two-great-commandments&gt;The two great commandments&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#how-to-treat-others&gt;How to treat others&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#heart-and-priorities&gt;Heart and priorities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#character-and-witness&gt;Character and witness&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#church-and-world&gt;Church and world&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#cross-links-pkm&gt;Cross-links (PKM)&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="content notes-content mb-10"&gt;&lt;p&gt;&lt;strong&gt;Eternal principles&lt;/strong&gt; = what Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.&lt;/p&gt;&lt;p&gt;I split them into one-claim notes so I can link and drill them like the rest of the garden. The ground is &lt;a href=/notes/free-grace/ class=wikilink data-wikilink-preview=/notes/free-grace/&gt;Free Grace&lt;/a&gt;: eternal life is God's gift by &lt;a href=/notes/free-grace/ class=wikilink data-wikilink-preview=/notes/free-grace/&gt;faith alone&lt;/a&gt;. These principles aren't the price of heaven. They're how I try to live once I've already received it.&lt;/p&gt;&lt;p&gt;Start at &lt;a href=/notes/free-grace/ class=wikilink data-wikilink-preview=/notes/free-grace/&gt;Free Grace&lt;/a&gt; if the order matters. Then wander by section below.&lt;/p&gt;&lt;h2 id=theological-basis&gt;Theological basis&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=/notes/free-grace/ class=wikilink data-wikilink-preview=/notes/free-grace/&gt;Free Grace&lt;/a&gt; — salvation by faith, not works; principles follow, they don't pay the fare&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/repent-and-believe/ class=wikilink data-wikilink-preview=/notes/repent-and-believe/&gt;Repent and Believe&lt;/a&gt; — kingdom at hand now; turn and trust, don't wait until you're &amp;ldquo;ready&amp;rdquo;&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/childlike-faith/ class=wikilink data-wikilink-preview=/notes/childlike-faith/&gt;Childlike Faith&lt;/a&gt; — receive like a child; stop negotiating merit before you enter&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/abide-in-me/ class=wikilink data-wikilink-preview=/notes/abide-in-me/&gt;Abide in Me&lt;/a&gt; — fruit from staying connected to Christ, not self-generated effort alone&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=the-two-great-commandments&gt;The two great commandments&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=/notes/love-god/ class=wikilink data-wikilink-preview=/notes/love-god/&gt;Love God&lt;/a&gt; — first commandment; heart, soul, mind, strength — whole-person devotion&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/love-your-neighbor/ class=wikilink data-wikilink-preview=/notes/love-your-neighbor/&gt;Love Your Neighbor&lt;/a&gt; — second command; hangs on the first, not a separate ladder&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=how-to-treat-others&gt;How to treat others&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=/notes/the-golden-rule/ class=wikilink data-wikilink-preview=/notes/the-golden-rule/&gt;The Golden Rule&lt;/a&gt; — treat others the way you want to be treated&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/love-your-enemies/ class=wikilink data-wikilink-preview=/notes/love-your-enemies/&gt;Love Your Enemies&lt;/a&gt; — pray for persecutors; love beyond your own tribe&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/forgiveness/ class=wikilink data-wikilink-preview=/notes/forgiveness/&gt;Forgiveness&lt;/a&gt; — release the debt; forgive as you've been forgiven under grace&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/reconciliation-before-worship/ class=wikilink data-wikilink-preview=/notes/reconciliation-before-worship/&gt;Reconciliation Before Worship&lt;/a&gt; — settle with your brother before the altar&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/peacemakers/ class=wikilink data-wikilink-preview=/notes/peacemakers/&gt;Peacemakers&lt;/a&gt; — those who actively pursue peace inherit blessing&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/turn-the-other-cheek/ class=wikilink data-wikilink-preview=/notes/turn-the-other-cheek/&gt;Turn the Other Cheek&lt;/a&gt; — refuse the cycle of retaliation; stop investing anger&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/let-your-yes-be-yes/ class=wikilink data-wikilink-preview=/notes/let-your-yes-be-yes/&gt;Let Your Yes Be Yes&lt;/a&gt; — plain speech; one claim, no oath-padding&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/judge-not/ class=wikilink data-wikilink-preview=/notes/judge-not/&gt;Judge Not&lt;/a&gt; — no hypocritical condemnation; remove your plank first&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/by-their-fruits/ class=wikilink data-wikilink-preview=/notes/by-their-fruits/&gt;By Their Fruits&lt;/a&gt; — discern teachers by outcome, not hype or credentials&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/heart-righteousness/ class=wikilink data-wikilink-preview=/notes/heart-righteousness/&gt;Heart Righteousness&lt;/a&gt; — inner motive counts, not only outward acts&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=heart-and-priorities&gt;Heart and priorities&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=/notes/ask-seek-knock/ class=wikilink data-wikilink-preview=/notes/ask-seek-knock/&gt;Ask Seek Knock&lt;/a&gt; — keep asking, seeking, knocking on rhythm&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/secret-devotion/ class=wikilink data-wikilink-preview=/notes/secret-devotion/&gt;Secret Devotion&lt;/a&gt; — prayer and giving without performing for an audience&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/seek-the-kingdom-first/ class=wikilink data-wikilink-preview=/notes/seek-the-kingdom-first/&gt;Seek the Kingdom First&lt;/a&gt; — God's reign gets first place in the week&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/dont-worry/ class=wikilink data-wikilink-preview=/notes/dont-worry/&gt;Don't Worry&lt;/a&gt; — trust provision; one Master, not many anxieties fighting for attention&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/treasure-in-heaven/ class=wikilink data-wikilink-preview=/notes/treasure-in-heaven/&gt;Treasure in Heaven&lt;/a&gt; — store what lasts, not what rusts or rots on earth&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/the-beatitudes/ class=wikilink data-wikilink-preview=/notes/the-beatitudes/&gt;The Beatitudes&lt;/a&gt; — kingdom character in nine blessings; who inherits what&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=character-and-witness&gt;Character and witness&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=/notes/humility-and-service/ class=wikilink data-wikilink-preview=/notes/humility-and-service/&gt;Humility and Service&lt;/a&gt; — lead by serving; wash feet, don't grasp status&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/let-your-light-shine/ class=wikilink data-wikilink-preview=/notes/let-your-light-shine/&gt;Let Your Light Shine&lt;/a&gt; — visible good works so others see and glorify God, not you&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/take-up-your-cross/ class=wikilink data-wikilink-preview=/notes/take-up-your-cross/&gt;Take Up Your Cross&lt;/a&gt; — daily self-denial; follow behind, not a one-time hero sprint&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/the-wise-builder/ class=wikilink data-wikilink-preview=/notes/the-wise-builder/&gt;The Wise Builder&lt;/a&gt; — hear Jesus and do; sand collapses when the storm hits&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/the-narrow-way/ class=wikilink data-wikilink-preview=/notes/the-narrow-way/&gt;The Narrow Way&lt;/a&gt; — few find it; costly discipleship, not the broad comfortable path&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=church-and-world&gt;Church and world&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=/notes/render-unto-caesar/ class=wikilink data-wikilink-preview=/notes/render-unto-caesar/&gt;Render Unto Caesar&lt;/a&gt; — sort civic duty from ultimate allegiance; dual obligations clarified&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/great-commission/ class=wikilink data-wikilink-preview=/notes/great-commission/&gt;Great Commission&lt;/a&gt; — make disciples; truth shared, not hoarded in the garden&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=cross-links-pkm&gt;Cross-links (PKM)&lt;/h2&gt;&lt;p&gt;Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster and the productivity cluster talk to each other:&lt;/p&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Faith note&lt;/th&gt;&lt;th&gt;PKM partner&lt;/th&gt;&lt;th&gt;Link&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/free-grace/ class=wikilink data-wikilink-preview=/notes/free-grace/&gt;Free Grace&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/minimum-effective-dose/ class=wikilink data-wikilink-preview=/notes/minimum-effective-dose/&gt;Minimum Effective Dose&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/free-grace/ class=wikilink data-wikilink-preview=/notes/free-grace/&gt;Faith alone&lt;/a&gt; is the smallest sufficient act - not a works ladder&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/forgiveness/ class=wikilink data-wikilink-preview=/notes/forgiveness/&gt;Forgiveness&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/sunk-cost-fallacy/ class=wikilink data-wikilink-preview=/notes/sunk-cost-fallacy/&gt;Sunk Cost Fallacy&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Release the debt; stop counting past hurt as a reason to stay angry&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/seek-the-kingdom-first/ class=wikilink data-wikilink-preview=/notes/seek-the-kingdom-first/&gt;Seek the Kingdom First&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/signal-vs-noise/ class=wikilink data-wikilink-preview=/notes/signal-vs-noise/&gt;Signal vs Noise&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kingdom-first is the priority filter for what gets my week&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/treasure-in-heaven/ class=wikilink data-wikilink-preview=/notes/treasure-in-heaven/&gt;Treasure in Heaven&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/the-collectors-fallacy/ class=wikilink data-wikilink-preview=/notes/the-collectors-fallacy/&gt;The Collector's Fallacy&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hoarding articles or stuff on earth vs storing what lasts&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/dont-worry/ class=wikilink data-wikilink-preview=/notes/dont-worry/&gt;Don't Worry&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/slow-productivity/ class=wikilink data-wikilink-preview=/notes/slow-productivity/&gt;Slow Productivity&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Less anxious busy-ness; fewer masters fighting for attention&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/let-your-light-shine/ class=wikilink data-wikilink-preview=/notes/let-your-light-shine/&gt;Let Your Light Shine&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/drafting-in-public/ class=wikilink data-wikilink-preview=/notes/drafting-in-public/&gt;Drafting in Public&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Visible good works and visible notes - both put work in the open&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/reconciliation-before-worship/ class=wikilink data-wikilink-preview=/notes/reconciliation-before-worship/&gt;Reconciliation Before Worship&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/note-relationships/ class=wikilink data-wikilink-preview=/notes/note-relationships/&gt;Note Relationships&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Broken relationships, like broken wikilinks, need repair before performance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/eternal-principles/ class=wikilink data-wikilink-preview=/notes/eternal-principles/&gt;Eternal Principles&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/first-principles-thinking/ class=wikilink data-wikilink-preview=/notes/first-principles-thinking/&gt;First Principles Thinking&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Received gospel vs claims I derive from scratch - different jobs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/repent-and-believe/ class=wikilink data-wikilink-preview=/notes/repent-and-believe/&gt;Repent and Believe&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/there-is-no-perfect-solution/ class=wikilink data-wikilink-preview=/notes/there-is-no-perfect-solution/&gt;There Is No Perfect Solution&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enter now - don't wait until you're &amp;ldquo;ready&amp;rdquo;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/turn-the-other-cheek/ class=wikilink data-wikilink-preview=/notes/turn-the-other-cheek/&gt;Turn the Other Cheek&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/sunk-cost-fallacy/ class=wikilink data-wikilink-preview=/notes/sunk-cost-fallacy/&gt;Sunk Cost Fallacy&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Stop investing anger after sunk hurt&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/let-your-yes-be-yes/ class=wikilink data-wikilink-preview=/notes/let-your-yes-be-yes/&gt;Let Your Yes Be Yes&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/atomic-notes/ class=wikilink data-wikilink-preview=/notes/atomic-notes/&gt;Atomic Notes&lt;/a&gt;&lt;/td&gt;&lt;td&gt;One plain claim - no padded speech&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/take-up-your-cross/ class=wikilink data-wikilink-preview=/notes/take-up-your-cross/&gt;Take Up Your Cross&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/process-over-outcomes/ class=wikilink data-wikilink-preview=/notes/process-over-outcomes/&gt;Process Over Outcomes&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Daily self-denial beats a one-time hero sprint&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/the-wise-builder/ class=wikilink data-wikilink-preview=/notes/the-wise-builder/&gt;The Wise Builder&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/creative-output/ class=wikilink data-wikilink-preview=/notes/creative-output/&gt;Creative Output&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/the-wise-builder/ class=wikilink data-wikilink-preview=/notes/the-wise-builder/&gt;Hear and do&lt;/a&gt; - hearing alone is sand&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/by-their-fruits/ class=wikilink data-wikilink-preview=/notes/by-their-fruits/&gt;By Their Fruits&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/signal-vs-noise/ class=wikilink data-wikilink-preview=/notes/signal-vs-noise/&gt;Signal vs Noise&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Discern teachers by outcome, not hype&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/secret-devotion/ class=wikilink data-wikilink-preview=/notes/secret-devotion/&gt;Secret Devotion&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/drafting-in-public/ class=wikilink data-wikilink-preview=/notes/drafting-in-public/&gt;Drafting in Public&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hidden piety vs performance for an audience&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/great-commission/ class=wikilink data-wikilink-preview=/notes/great-commission/&gt;Great Commission&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/creative-output/ class=wikilink data-wikilink-preview=/notes/creative-output/&gt;Creative Output&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Truth shared - not hoarded in the garden&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/abide-in-me/ class=wikilink data-wikilink-preview=/notes/abide-in-me/&gt;Abide in Me&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/compounding/ class=wikilink data-wikilink-preview=/notes/compounding/&gt;Compounding&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fruit from connection over time - not self-power alone&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/childlike-faith/ class=wikilink data-wikilink-preview=/notes/childlike-faith/&gt;Childlike Faith&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/getting-started/ class=wikilink data-wikilink-preview=/notes/getting-started/&gt;Getting Started&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Beginner posture — receive the guide, don't perform expertise you don't have&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/ask-seek-knock/ class=wikilink data-wikilink-preview=/notes/ask-seek-knock/&gt;Ask Seek Knock&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/periodic-knowledge-review/ class=wikilink data-wikilink-preview=/notes/periodic-knowledge-review/&gt;Periodic Knowledge Review&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Keep asking on rhythm — review loop, not one cram session&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/the-beatitudes/ class=wikilink data-wikilink-preview=/notes/the-beatitudes/&gt;The Beatitudes&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/evergreen-notes/ class=wikilink data-wikilink-preview=/notes/evergreen-notes/&gt;Evergreen Notes&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Character that matures over years, not fleeting capture&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/love-your-neighbor/ class=wikilink data-wikilink-preview=/notes/love-your-neighbor/&gt;Love Your Neighbor&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/associative-linking/ class=wikilink data-wikilink-preview=/notes/associative-linking/&gt;Associative Linking&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Neighbors in the graph — ideas linked by proximity and care&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=/notes/the-golden-rule/ class=wikilink data-wikilink-preview=/notes/the-golden-rule/&gt;The Golden Rule&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=/notes/note-relationships/ class=wikilink data-wikilink-preview=/notes/note-relationships/&gt;Note Relationships&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Treat links like neighbors — typed relationships, not vague vibes&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;Extends &lt;a href=/notes/free-grace/ class=wikilink data-wikilink-preview=/notes/free-grace/&gt;Free Grace&lt;/a&gt;. Contradicts &lt;a href=/notes/first-principles-thinking/ class=wikilink data-wikilink-preview=/notes/first-principles-thinking/&gt;First Principles Thinking&lt;/a&gt; when I treat gospel ethics as ideas I invented. Index for gospel notes in this garden.&lt;/p&gt;&lt;/div&gt;&lt;aside class="notes-note-flashcards border-divider mb-6 rounded border p-5"&gt;&lt;h2 class="h6 mb-4"&gt;Flashcards&lt;/h2&gt;&lt;div class="notes-note-flashcards__grid grid gap-4 sm:grid-cols-2"&gt;&lt;div class=notes-note-flashcards__item&gt;&lt;div class="notes-flashcard h-full" data-flashcard&gt;&lt;button type=button class=notes-flashcard__flip data-flashcard-flip aria-pressed=false aria-label="Flip card"&gt;
-
+125:<span>Created Jun 20, 2026 · Updated Jun 20, 2026</span></div><ul class="mb-4 flex flex-wrap gap-2"><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/gospel/>Gospel</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/jesus-christ/>Jesus Christ</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/eternal-principles/>Eternal Principles</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/free-grace/>Free Grace</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/moc/>MOC</a></li><li><a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/sermon-on-the-mount/>Sermon on the Mount</a></li></ul><div class="toc-wrapper border-divider mb-6 rounded border p-4 lg:hidden"><p class="mb-3 font-semibold">Table of Contents</p><div class="table-of-content toc-links"><nav id=TableOfContents><ol><li><a href=#theological-basis>Theological basis</a></li><li><a href=#the-two-great-commandments>The two great commandments</a></li><li><a href=#how-to-treat-others>How to treat others</a></li><li><a href=#heart-and-priorities>Heart and priorities</a></li><li><a href=#character-and-witness>Character and witness</a></li><li><a href=#church-and-world>Church and world</a></li><li><a href=#cross-links-pkm>Cross-links (PKM)</a></li></ol></nav></di
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6368,26 +2239,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The table now renders the link correctly. Hear and do also work.</details></think>
+The table now renders the link correctly. Hear and do also work.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6413,21 +2276,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6453,37 +2307,21 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: wc -c /home/jorap/Documents/GitHub/jorap.com/public/notes/getting-started/index.html && rg "Notes garden|Atomic Notes|Childlike" /home/jorap/Documents/GitHub/jorap.com/public/notes/getting-started/index.html | head -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -c /home/jorap/Documents/GitHub/jorap.com/public/notes/getting-started/index.html &amp;&amp; rg &#34;Notes garden|Atomic Notes|Childlike&#34; /home/jorap/Documents/GitHub/jorap.com/public/notes/getting-started/index.html | head -3</summary>
 ```bash
 wc -c /home/jorap/Documents/GitHub/jorap.com/public/notes/getting-started/index.html && rg "Notes garden|Atomic Notes|Childlike" /home/jorap/Documents/GitHub/jorap.com/public/notes/getting-started/index.html | head -3
 ```
 
 ```
 80129 /home/jorap/Documents/GitHub/jorap.com/public/notes/getting-started/index.html
-&lt;!doctype html&gt;&lt;html itemscope class=h-full lang=en itemtype=http://schema.org/WebPage&gt;&lt;head&gt;&lt;script src="/livereload.js?mindelay=10&amp;amp;v=2&amp;amp;port=1313&amp;amp;path=livereload" data-no-instant defer&gt;&lt;/script&gt;&lt;meta charset=utf-8&gt;&lt;meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"&gt;&lt;script&gt;(function(){try{var e,t=null;try{t=localStorage.getItem("theme")}catch{}t==="dark"?e=!0:t==="light"?e=!1:e=!!(window.matchMedia&amp;&amp;window.matchMedia("(prefers-color-scheme: dark)").matches),document.documentElement.classList[e?"add":"remove"]("dark")}catch{}})()&lt;/script&gt;&lt;meta name=theme-name content="jorap"&gt;&lt;link rel="shortcut icon" href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon&gt;&lt;link rel=icon href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon&gt;&lt;link rel=icon type=image/png sizes=48x48 href=/images/jorap_hu_2114a78a17e4e1a5.png&gt;&lt;link rel=icon type=image/png sizes=96x96 href=/images/jorap_hu_9dc0267744949652.png&gt;&lt;link rel=apple-touch-icon sizes=144x144 href=/images/jorap_hu_364f2c7ce706e3bb.png&gt;&lt;link rel=manifest href=/manifest.webmanifest&gt;&lt;meta name=msapplication-TileColor content="#ddd"&gt;&lt;meta name=theme-color content="#ffffff"&gt;&lt;title&gt;Getting Started - Notes Garden | JoRap Notes&lt;/title&gt;&lt;meta name=keywords content="JoRap Notes,JoRap,JoRap.com,Jonathan Rapusas,front-end developer,WordPress,Hugo,static sites,Metro Manila,remote"&gt;&lt;meta name=description content="Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note."&gt;&lt;meta name=author content="JoRap"&gt;&lt;meta property="og:image" content="http://localhost:1313/images/note.jpg"&gt;&lt;meta name=twitter:image content="http://localhost:1313/images/note.jpg"&gt;&lt;meta name=twitter:card content="summary_large_image"&gt;&lt;meta property="og:image:width" content="851"&gt;&lt;meta property="og:image:height" content="428"&gt;&lt;meta property="og:image:type" content="image/.jpg"&gt;&lt;meta property="og:title" content="Getting Started - Notes Garden | JoRap Notes"&gt;&lt;meta property="og:description" content="Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note."&gt;&lt;meta property="og:type" content="website"&gt;&lt;meta property="og:url" content="http://localhost:1313/notes/getting-started/"&gt;&lt;meta name=twitter:title content="Getting Started - Notes Garden | JoRap Notes"&gt;&lt;meta name=twitter:description content="Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note."&gt;&lt;meta name=twitter:site content="@jorap"&gt;&lt;meta name=twitter:creator content="@JoRap"&gt;&lt;script&gt;let indexURL="http://localhost:1313/searchindex.json",includeSectionsInSearch=["blog","notes"],search_no_results="No results for",search_initial_message="Type something to search.."&lt;/script&gt;
-&lt;span data-target=close-search-modal&gt;&lt;kbd&gt;ESC&lt;/kbd&gt; to close&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;main class=flex-1&gt;&lt;section class="section pt-7"&gt;&lt;div class=container&gt;&lt;div class="row justify-center"&gt;&lt;div class=lg:col-8&gt;&lt;article&gt;&lt;div class="notes-graph-panel notes-graph-panel--local mb-5" data-notes-graph&gt;&lt;script type=application/json class=notes-graph-data&gt;{"edges":[{"source":"/notes/childlike-faith/","target":"/notes/getting-started/"},{"source":"/notes/eternal-principles/","target":"/notes/childlike-faith/"},{"source":"/notes/eternal-principles/","target":"/notes/note-relationships/"},{"source":"/notes/eternal-principles/","target":"/notes/getting-started/"},{"source":"/notes/eternal-principles/","target":"/notes/atomic-notes/"},{"source":"/notes/eternal-principles/","target":"/notes/maps-of-content/"},{"source":"/notes/note-relationships/","target":"/notes/getting-started/"},{"source":"/notes/note-relationships/","target":"/notes/maps-of-content/"},{"source":"/notes/note-relationships/","target":"/notes/para-method/"},{"source":"/notes/getting-started/","target":"/notes/childlike-faith/"},{"source":"/notes/getting-started/","target":"/notes/note-relationships/"},{"source":"/notes/getting-started/","target":"/notes/atomic-notes/"},{"source":"/notes/getting-started/","target":"/notes/maps-of-content/"},{"source":"/notes/getting-started/","target":"/notes/para-method/"},{"source":"/notes/atomic-notes/","target":"/notes/maps-of-content/"},{"source":"/notes/atomic-notes/","target":"/notes/pkm/"},{"source":"/notes/digital-garden/","target":"/notes/getting-started/"},{"source":"/notes/future-proofing-knowledge/","target":"/notes/getting-started/"},{"source":"/notes/maps-of-content/","target":"/notes/eternal-principles/"},{"source":"/notes/maps-of-content/","target":"/notes/note-relationships/"},{"source":"/notes/maps-of-content/","target":"/notes/getting-started/"},{"source":"/notes/maps-of-content/","target":"/notes/atomic-notes/"},{"source":"/notes/maps-of-content/","target":"/notes/digital-garden/"},{"source":"/notes/maps-of-content/","target":"/notes/future-proofing-knowledge/"},{"source":"/notes/maps-of-content/","target":"/notes/metadata-strategy/"},{"source":"/notes/maps-of-content/","target":"/notes/para-method/"},{"source":"/notes/maps-of-content/","target":"/notes/pkm/"},{"source":"/notes/metadata-strategy/","target":"/notes/getting-started/"},{"source":"/notes/metadata-strategy/","target":"/notes/para-method/"},{"source":"/notes/pkm/","target":"/notes/getting-started/"},{"source":"/notes/pkm/","target":"/notes/para-method/"}],"focus":"/notes/getting-started/","mode":"local","nodes":[{"deadEnd":false,"hub":false,"id":"/notes/childlike-faith/","inDegree":3,"orphan":false,"outDegree":5,"title":"Childlike Faith","totalDegree":8,"url":"/notes/childlike-faith/","weak":true},{"deadEnd":false,"hub":true,"id":"/notes/eternal-principles/","inDegree":6,"orphan":false,"outDegree":48,"title":"Eternal Principles","totalDegree":54,"url":"/notes/eternal-principles/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/note-relationships/","inDegree":5,"orphan":false,"outDegree":14,"title":"Note Relationships","totalDegree":19,"url":"/notes/note-relationships/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/getting-started/","inDegree":8,"orphan":false,"outDegree":5,"title":"Getting Started","totalDegree":13,"url":"/notes/getting-started/","weak":false},{"deadEnd":false,"hub":true,"id":"/notes/atomic-notes/","inDegree":11,"orphan":false,"outDegree":5,"title":"Atomic Notes","totalDegree":16,"url":"/notes/atomic-notes/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/digital-garden/","inDegree":8,"orphan":false,"outDegree":4,"title":"Digital Garden","totalDegree":12,"url":"/notes/digital-garden/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/future-proofing-knowledge/","inDegree":2,"orphan":false,"outDegree":3,"title":"Future-Proofing Knowledge","totalDegree":5,"url":"/notes/future-proofing-knowledge/","weak":true},{"deadEnd":false,"hub":true,"id":"/notes/maps-of-content/","inDegree":7,"orphan":false,"outDegree":42,"title":"Maps of Content","totalDegree":49,"url":"/notes/maps-of-content/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/metadata-strategy/","inDegree":3,"orphan":false,"outDegree":4,"title":"Metadata Strategy","totalDegree":7,"url":"/notes/metadata-strategy/","weak":true},{"deadEnd":false,"hub":false,"id":"/notes/para-method/","inDegree":8,"orphan":false,"outDegree":4,"title":"PARA Method","totalDegree":12,"url":"/notes/para-method/","weak":false},{"deadEnd":false,"hub":false,"id":"/notes/pkm/","inDegree":8,"orphan":false,"outDegree":5,"title":"PKM","totalDegree":13,"url":"/notes/pkm/","weak":false}]}&lt;/script&gt;&lt;div class=notes-graph role=img aria-label="Local graph for Getting Started"&gt;&lt;div class=notes-graph__controls aria-hidden=true&gt;&lt;span class=notes-graph__zoom-hint&gt;Scroll to zoom · drag to pan&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="notes-toolbar mb-6 flex flex-wrap items-center gap-2 xl:gap-3"&gt;&lt;a class="btn btn-sm btn-outline-primary" href=/notes/&gt;All 86&lt;span class="hidden xl:inline"&gt; Notes&lt;/span&gt;
-&lt;span&gt;Created Jun 19, 2026 · Updated Jun 20, 2026&lt;/span&gt;&lt;/div&gt;&lt;ul class="mb-4 flex flex-wrap gap-2"&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/notes/&gt;Notes&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/meta/&gt;Meta&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/pkm/&gt;PKM&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/digital-garden/&gt;Digital Garden&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/note-taking/&gt;Note Taking&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/hugo/&gt;Hugo&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm" href=/tags/website-building/&gt;Website Building&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class="toc-wrapper border-divider mb-6 rounded border p-4 lg:hidden"&gt;&lt;p class="mb-3 font-semibold"&gt;Table of Contents&lt;/p&gt;&lt;div class="table-of-content toc-links"&gt;&lt;nav id=TableOfContents&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=#atomic-rule&gt;Atomic rule&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#create-a-note&gt;Create a note&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#link-between-notes&gt;Link between notes&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#utility-surfaces-dont-wikilink&gt;Utility surfaces (don&amp;rsquo;t wikilink)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#explore&gt;Explore&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=#publish-to-the-blog&gt;Publish to the blog&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="content notes-content mb-10"&gt;&lt;p&gt;&lt;strong&gt;Notes garden&lt;/strong&gt; = one claim per page, linked with &lt;code&gt;[[wikilinks]]&lt;/code&gt;, browsable at &lt;a href=/notes/&gt;/notes/&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Public when &lt;code&gt;draft: false&lt;/code&gt;; hidden while &lt;code&gt;draft: true&lt;/code&gt;. Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at &lt;a href=/notes/maps-of-content/ class=wikilink data-wikilink-preview=/notes/maps-of-content/&gt;Maps of Content&lt;/a&gt; or walk through the steps below. Faith parallel: &lt;a href=/notes/childlike-faith/ class=wikilink data-wikilink-preview=/notes/childlike-faith/&gt;Childlike Faith&lt;/a&gt; — beginner posture; receive the guide, don't perform expertise on day one.&lt;/p&gt;&lt;p&gt;Extends &lt;a href=/notes/note-relationships/ class=wikilink data-wikilink-preview=/notes/note-relationships/&gt;Note Relationships&lt;/a&gt;. Index for this site.&lt;/p&gt;&lt;h2 id=atomic-rule&gt;Atomic rule&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;One note = one claim&lt;/strong&gt; I'd cite in conversation. No &lt;code&gt;##&lt;/code&gt; sections, no &amp;ldquo;bottom line&amp;rdquo; - link out instead. See &lt;a href=/notes/atomic-notes/ class=wikilink data-wikilink-preview=/notes/atomic-notes/&gt;Atomic Notes&lt;/a&gt;. Each note also states what it &lt;strong&gt;extends&lt;/strong&gt; and &lt;strong&gt;contradicts&lt;/strong&gt; - see &lt;a href=/notes/note-relationships/ class=wikilink data-wikilink-preview=/notes/note-relationships/&gt;Note Relationships&lt;/a&gt;.&lt;/p&gt;&lt;h2 id=create-a-note&gt;Create a note&lt;/h2&gt;&lt;div class=highlight&gt;&lt;pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none&gt;&lt;code class=language-bash data-lang=bash&gt;&lt;span style=display:flex&gt;&lt;span&gt;hugo new notes/my-idea.md
-
+<!doctype html><html itemscope class=h-full lang=en itemtype=http://schema.org/WebPage><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"><script>(function(){try{var e,t=null;try{t=localStorage.getItem("theme")}catch{}t==="dark"?e=!0:t==="light"?e=!1:e=!!(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches),document.documentElement.classList[e?"add":"remove"]("dark")}catch{}})()</script><meta name=theme-name content="jorap"><link rel="shortcut icon" href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon><link rel=icon href=/images/jorap_hu_9dc0267744949652.png type=image/x-icon><link rel=icon type=image/png sizes=48x48 href=/images/jorap_hu_2114a78a17e4e1a5.png><link rel=icon type=image/png sizes=96x96 href=/images/jorap_hu_9dc0267744949652.png><link rel=apple-touch-icon sizes=144x144 href=/images/jorap_hu_364f2c7ce706e3bb.png><link rel=manifest href=/manifest.webmanifest><meta name=msapplication-TileColor content="#ddd"><meta name=theme-color content="#ffffff"><title>Getting Started - Notes Garden | JoRap Notes</title><meta name=keywords content="JoRap Notes,JoRap,JoRap.com,Jonathan Rapusas,front-end developer,WordPress,Hugo,static sites,Metro Manila,remote"><meta name=description content="Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note."><meta name=author content="JoRap"><meta property="og:image" content="http://localhost:1313/images/note.jpg"><meta name=twitter:image content="http://localhost:1313/images/note.jpg"><meta name=twitter:card content="summary_large_image"><meta property="og:image:width" content="851"><meta property="og:image:height" content="428"><meta property="og:image:type" content="image/.jpg"><meta prope
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -6517,23 +2355,15 @@ Removing piped wikilinks and alias labels from `eternal-principles.md`, using pl
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6564,13 +2394,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -6580,14 +2403,13 @@ Avoid piped wikilinks. Do not use the aliases frontmatter field.
 
 Remove pipe labels from wikilinks. Replace alias terms with plain links or plain prose. Line 18 will be rephrased without the "faith alone" alias.
 
-Line 75 will drop the "Faith alone" pipe label. Line 87 will replace "Hear and do" with plain prose. Removing frontmatter aliases risks breaking external links.</details></think>
+Line 75 will drop the "Faith alone" pipe label. Line 87 will replace "Hear and do" with plain prose. Removing frontmatter aliases risks breaking external links.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6618,13 +2440,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -6632,59 +2447,34 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Removing pipes and aliases from the three piped wikilinks on the eternal-principles page.
 
-Frontmatter aliases are being left untouched. The first link becomes a plain text phrase instead of a pipe alias. The second link is being simplified, possibly by removing a redundant entry from the Link column.</details></think>
+Frontmatter aliases are being left untouched. The first link becomes a plain text phrase instead of a pipe alias. The second link is being simplified, possibly by removing a redundant entry from the Link column.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6710,41 +2500,28 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'eternal-principles|broken wikilink|unlinked mention' || echo "lint clean"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1 | rg &#39;eternal-principles|broken wikilink|unlinked mention&#39; || echo &#34;lint clean&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'eternal-principles|broken wikilink|unlinked mention' || echo "lint clean"
 ```
 
 ```
-&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 WARN  unlinked mention of "hear and do" (→ [[The Wise Builder]]) in notes/eternal-principles.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-An unlinked mention warning appears for "hear and do," an alias of The Wise Builder. The phrase is not wikilinked in the text.</details></think>
+An unlinked mention warning appears for "hear and do," an alias of The Wise Builder. The phrase is not wikilinked in the text.
+</details></think>
 
 _**Agent (default)**_
 
@@ -6753,24 +2530,15 @@ Rephrasing to avoid the "hear and do" alias phrase that triggered the unlinked-m
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg 'eternal-principles|broken wikilink|unlinked mention' || echo "lint clean"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg &#39;eternal-principles|broken wikilink|unlinked mention&#39; || echo &#34;lint clean&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg 'eternal-principles|broken wikilink|unlinked mention' || echo "lint clean"
 ```
@@ -6779,12 +2547,6 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg 'eternal-princi
 lint clean
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -6812,23 +2574,15 @@ Checking what Jesus-teaching notes you already have on rewards and how they conn
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6896,25 +2650,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
@@ -6927,7 +2668,8 @@ Specific passages cover rewards for secret devotion, heavenly treasure, persecut
 
 Paul also wrote about rewards in 1 Corinthians 3, 2 Corinthians 5, and Colossians 3. The garden already addresses these themes through Treasure in Heaven, Secret Devotion, Free Grace, The Beatitudes, and Humility and Service. The remaining question is whether a separate Eternal Rewards note adds clarity or simply duplicates existing material.
 
-Reward theology is distinct from priorities. It covers judgment seats, crowns, and faithful outcomes. This would sharpen the Free Grace boundary between salvation and rewards. The existing free-grace note already mentions heavenly reward. A dedicated note could extend or contradict that point. Now weighing arguments against merging it into existing notes.</details></think>
+Reward theology is distinct from priorities. It covers judgment seats, crowns, and faithful outcomes. This would sharpen the Free Grace boundary between salvation and rewards. The existing free-grace note already mentions heavenly reward. A dedicated note could extend or contradict that point. Now weighing arguments against merging it into existing notes.
+</details></think>
 
 _**Agent (default)**_
 
@@ -6978,7 +2720,8 @@ new note
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Creating a new note on "Eternal Rewards" based on the previous conversation. I'll read the jorap-voice skill and archetype for notes first.</details></think>
+Creating a new note on "Eternal Rewards" based on the previous conversation. I'll read the jorap-voice skill and archetype for notes first.
+</details></think>
 
 _**Agent (default)**_
 
@@ -6987,49 +2730,29 @@ Creating the Eternal Rewards note and wiring it into the gospel cluster. Checkin
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7060,13 +2783,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -7076,44 +2792,27 @@ Reviewing wire-note-relationships entries for treasure-in-heaven, free-grace, an
 
 Evaluating Compounding as a PKM cross-link for the Eternal Rewards note. The note would extend Free Grace while contradicting Compounding during merit ladder phases. It claims Jesus promised rewards for faithful post-salvation obedience, distinct from receiving eternal life by faith. Compounding may pair with Abide in Me rather than Process Over Outcomes.
 
-Compounding could pair with Eternal Rewards if framed carefully. Abide in Me already covers Compounding, so the link needs a different angle. Eternal Rewards might describe the Father paying believers for faithful obedience, distinct from Abide’s focus on union and fruit. Pareto Principle seems too weak. Process Over Outcomes is already covered by Take Up Your Cross.</details></think>
+Compounding could pair with Eternal Rewards if framed carefully. Abide in Me already covers Compounding, so the link needs a different angle. Eternal Rewards might describe the Father paying believers for faithful obedience, distinct from Abide’s focus on union and fruit. Pareto Principle seems too weak. Process Over Outcomes is already covered by Take Up Your Cross.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
@@ -7128,287 +2827,155 @@ Compounding is already claimed by Abide in Me. Eternal Rewards may contrast with
 
 The Compounding explanation will frame reward as compounding from daily faithfulness rather than a one-week merit purchase for eternal life. Contradicting Compounding again is acceptable under the garden pattern. Process Over Out Outcomes is unavailable because Take Up Your Cross already owns it. Periodic Knowledge Review and Evergreen Notes are also unsuitable partners.
 
-Compounding.md will receive a reciprocal link to Eternal Rewards. The cross-link text will distinguish this note from Abide in Me by framing reward as years of small obedience rather than stacked merit for salvation. Eternal Rewards will be added to the eternal-principles table under Heart and priorities, placed after Treasure in Heaven. A piped wikilink in secret-devotion was noted but left unchanged.</details></think>
+Compounding.md will receive a reciprocal link to Eternal Rewards. The cross-link text will distinguish this note from Abide in Me by framing reward as years of small obedience rather than stacked merit for salvation. Eternal Rewards will be added to the eternal-principles table under Heart and priorities, placed after Treasure in Heaven. A piped wikilink in secret-devotion was noted but left unchanged.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/wire-note-relationships.py 2>&1 | rg eternal-rewards; npm run lint:notes 2>&1 | rg 'broken wikilink|unlinked mention|eternal-reward' || echo "lint clean"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/wire-note-relationships.py 2&gt;&amp;1 | rg eternal-rewards; npm run lint:notes 2&gt;&amp;1 | rg &#39;broken wikilink|unlinked mention|eternal-reward&#39; || echo &#34;lint clean&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/wire-note-relationships.py 2>&1 | rg eternal-rewards; npm run lint:notes 2>&1 | rg 'broken wikilink|unlinked mention|eternal-reward' || echo "lint clean"
 ```
 
 ```
   updated eternal-rewards.md
-&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 WARN  unlinked mention of "heavenly reward" (→ [[Eternal Rewards]]) in notes/free-grace.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-"heavenly reward" needs linking to [[Eternal Rewards]]. Duplicate relationship lines 37–39 likely came from a duplicated wire script.</details></think>
+"heavenly reward" needs linking to [[Eternal Rewards]]. Duplicate relationship lines 37–39 likely came from a duplicated wire script.
+</details></think>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'broken wikilink|unlinked mention' || echo "lint clean"</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:notes 2&gt;&amp;1 | rg &#39;broken wikilink|unlinked mention&#39; || echo &#34;lint clean&#34;</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:notes 2>&1 | rg 'broken wikilink|unlinked mention' || echo "lint clean"
 ```
 
 ```
-&gt; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | rg 'broken wikilink|unlinked mention' || true
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
@@ -7444,7 +3011,8 @@ add other card sets for eternal-principles connected flashcards
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing the flashcard system to understand how card_sets and review flags work before adding the new sets.</details></think>
+Reviewing the flashcard system to understand how card_sets and review flags work before adding the new sets.
+</details></think>
 
 _**Agent (default)**_
 
@@ -7453,23 +3021,15 @@ Reviewing how flashcard sets are configured and which Eternal Principles notes a
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7577,25 +3137,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/review.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/review.md</summary>
 
 </details></tool-use>
 
@@ -7604,15 +3151,15 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Currently, gospel notes with Eternal Principles cards use both "Eternal Principles" and "Gospel" as their card sets.
 
-Two interpretations seem possible. One is to organize existing cards into six section-based card sets. The other is to add card sets to additional notes without flashcards.</details></think>
+Two interpretations seem possible. One is to organize existing cards into six section-based card sets. The other is to add card sets to additional notes without flashcards.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **10** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (10 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (10 files)
 
 | File |
 |------|
@@ -7626,37 +3173,333 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (10 files)
 | `layouts/_partials/notes/preview-index.html` |
 | `layouts/notes/review.html` |
 | `content/english/notes/review.md` |
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+<think><details><summary>Thought Process</summary>
+Reviewing the JS card set filtering logic and the archetypes notes file. Checking the current gospel card counts to determine how many more card sets are needed for section-based filtering.
 
-</details>
-</tool-use>
+Twelve Eternal Principles notes were identified. New section-based card sets will group cards by theme, such as Commandments, Faith, and Ethics.
+
+Mapping specific Eternal Principles sections to card sets. "Faith" will cover theological basis. "Commandments" will cover the two great commandments. "Ethics" will cover how to treat others. Existing note tags provide useful guidance for these groupings.
+</details></think>
+
+_**Agent (default)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js</summary>
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-cards.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/card-sets.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/cards-for-page.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Each note's `card_sets` array can include section-level sets. The template already supports per-card `sets:` overrides.
+
+Mapping MOC sections to card sets. Theological basis maps to "Faith". Two great commandments map to "Commandments". How to treat others maps to "Ethics". Heart and priorities splits into "Prayer" and "Priorities".
+
+Character and witness maps to "Discipleship". All twelve review notes now have their additional card sets mapped.
+
+The remaining five notes are mapped. The next step is updating the MOC and cards page to document the new card sets.
+
+Pareto-principle.md may need its card count updated. The other requested notes were skipped. Duplicate relationship lines in love-god.md were left untouched. Card-set-filter-buttons already sorts alphabetically.
+</details></think>
+
+_**Agent (default)**_
+
+Adding section-based `card_sets` matching Eternal Principles MOC sections to all gospel spine notes with flashcards.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "card_sets: \\[\"Eternal Principles\", \"Gospel\"\\]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "card_sets: \\[\"Eternal Principles\", \"Gospel\"\\]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-your-neighbor.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-your-enemies.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/forgiveness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    }
+  ],
+  "totalFiles": 12,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Updating 12 files with expanded card sets. Adding drill filter info to cards.md and eternal-principles.md. Mapping free-grace and repent-and-believe to Faith.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cards.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/review.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 &amp;&amp; npm run lint:notes 2&gt;&amp;1 | rg &#39;broken wikilink|unlinked mention&#39; || echo &#34;lint clean&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 && npm run lint:notes 2>&1 | rg 'broken wikilink|unlinked mention' || echo "lint clean"
+```
+
+```
+
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+> node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+Added section-based `card_sets` to all 12 gospel spine notes, aligned with [[Eternal Principles]] sections. Each note still has **Eternal Principles** and **Gospel**, plus one section filter:
+
+| MOC section | Card set | Notes with cards |
+|---|---|---|
+| Theological basis | **Faith** | Free Grace, Repent and Believe, Abide in Me |
+| Two great commandments | **Commandments** | Love God, Love Your Neighbor |
+| How to treat others | **Ethics** | The Golden Rule, Love Your Enemies, Forgiveness |
+| Heart and priorities (prayer) | **Prayer** | Ask Seek Knock |
+| Heart and priorities | **Priorities** | Seek the Kingdom First |
+| Character and witness | **Discipleship** | Take Up Your Cross, The Wise Builder |
+
+On [/notes/review/](/notes/review/) you can filter **Eternal Principles** (all 72 gospel cards) or drill one section at a time.
+
+Also updated [[Eternal Principles]], [[Flashcards]], and [[Review]] with the new filter names. Lint passes.
+
+Notes without spine cards yet (Childlike Faith, Don't Worry, Eternal Rewards, etc.) are unchanged — say if you want cards added for any of those sections.

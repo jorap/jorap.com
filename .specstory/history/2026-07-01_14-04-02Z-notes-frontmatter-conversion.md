@@ -13,7 +13,8 @@ for all notes, convert this to have all data as frontmatter
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I'll examine the codebase to understand how note data is currently structured before converting everything to frontmatter.</details></think>
+I'll examine the codebase to understand how note data is currently structured before converting everything to frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,36 +23,22 @@ I'll inspect how notes are structured today and what should move into frontmatte
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -89,21 +76,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
 <summary>Tool use: **semantic_search_full**</summary>
-
 
 Parameters:
 
@@ -190,2702 +168,57 @@ Result:
           {
             "lineNumber": 115,
             "text": "      - {"
-          },
-          {
-            "lineNumber": 116,
-            "text": "          label: \"Description\","
-          },
-          {
-            "lineNumber": 117,
-            "text": "          name: \"description\","
-          },
-          {
-            "lineNumber": 118,
-            "text": "          widget: \"text\","
-          },
-          {
-            "lineNumber": 119,
-            "text": "          hint: \"One sentence: the single claim this note makes.\","
-          },
-          {
-            "lineNumber": 120,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 121,
-            "text": "      - {label: \"Date\", name: \"date\", widget: \"datetime\"}"
-          },
-          {
-            "lineNumber": 122,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 123,
-            "text": "          label: \"Featured image\","
-          },
-          {
-            "lineNumber": 124,
-            "text": "          name: \"image\","
-          },
-          {
-            "lineNumber": 125,
-            "text": "          widget: \"image\","
-          },
-          {
-            "lineNumber": 126,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 127,
-            "text": "          default: \"/images/note.jpg\","
-          },
-          {
-            "lineNumber": 128,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 129,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 130,
-            "text": "          label: \"Categories\","
-          },
-          {
-            "lineNumber": 131,
-            "text": "          name: \"categories\","
-          },
-          {
-            "lineNumber": 132,
-            "text": "          widget: \"list\","
-          },
-          {
-            "lineNumber": 133,
-            "text": "          allow_add: true,"
-          },
-          {
-            "lineNumber": 134,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 135,
-            "text": "          field: {label: \"Category\", widget: \"string\"},"
-          },
-          {
-            "lineNumber": 136,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 137,
-            "text": "      - {label: \"Author\", name: \"author\", widget: \"string\", default: \"JoRap\"}"
-          },
-          {
-            "lineNumber": 138,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 139,
-            "text": "          label: \"Tags\","
-          },
-          {
-            "lineNumber": 140,
-            "text": "          name: \"tags\","
-          },
-          {
-            "lineNumber": 141,
-            "text": "          widget: \"list\","
-          },
-          {
-            "lineNumber": 142,
-            "text": "          allow_add: true,"
-          },
-          {
-            "lineNumber": 143,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 144,
-            "text": "          field: {label: \"Tag\", widget: \"string\"},"
-          },
-          {
-            "lineNumber": 145,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 146,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 147,
-            "text": "          label: \"Aliases\","
-          },
-          {
-            "lineNumber": 148,
-            "text": "          name: \"aliases\","
-          },
-          {
-            "lineNumber": 149,
-            "text": "          widget: \"list\","
-          },
-          {
-            "lineNumber": 150,
-            "text": "          allow_add: true,"
-          },
-          {
-            "lineNumber": 151,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 152,
-            "text": "          field: {label: \"Alias\", widget: \"string\"},"
-          },
-          {
-            "lineNumber": 153,
-            "text": "          hint: \"Alternate titles for wikilink resolution, e.g. Second Brain for building-a-second-brain.\","
-          },
-          {
-            "lineNumber": 154,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 155,
-            "text": "      - {label: \"Featured\", name: \"featured\", widget: \"boolean\", default: false}"
-          },
-          {
-            "lineNumber": 156,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 157,
-            "text": "          label: \"Review deck\","
-          },
-          {
-            "lineNumber": 158,
-            "text": "          name: \"review\","
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 158
-          },
-          "startPosition": {
-            "line": 98
-          }
-        },
-        "relativeWorkspacePath": "./static/admin/config.yml",
-        "signatures": {}
-      },
-      "score": 0.3892923593521118
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 42,
-            "text": "  - jorap-adsense"
-          },
-          {
-            "lineNumber": 43
-          },
-          {
-            "lineNumber": 44,
-            "text": "collections:"
-          },
-          {
-            "lineNumber": 45,
-            "text": "  - name: \"blog\""
-          },
-          {
-            "lineNumber": 46,
-            "text": "    label: \"Blog Posts\""
-          },
-          {
-            "lineNumber": 47,
-            "text": "    folder: \"content/english/blog\""
-          },
-          {
-            "lineNumber": 48,
-            "text": "    create: true"
-          },
-          {
-            "lineNumber": 49,
-            "text": "    slug: \"{{slug}}\""
-          },
-          {
-            "lineNumber": 50,
-            "text": "    fields:"
-          },
-          {
-            "lineNumber": 51,
-            "text": "      - {label: \"Title\", name: \"title\", widget: \"string\"}"
-          },
-          {
-            "lineNumber": 52,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 53,
-            "text": "          label: \"URL slug\","
-          },
-          {
-            "lineNumber": 54,
-            "text": "          name: \"slug\","
-          },
-          {
-            "lineNumber": 55,
-            "text": "          widget: \"string\","
-          },
-          {
-            "lineNumber": 56,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 57,
-            "text": "          hint: \"Optional. Leave blank to derive from the filename; set to override the post URL.\","
-          },
-          {
-            "lineNumber": 58,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 59,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 60,
-            "text": "          label: \"Meta title\","
-          },
-          {
-            "lineNumber": 61,
-            "text": "          name: \"meta_title\","
-          },
-          {
-            "lineNumber": 62,
-            "text": "          widget: \"string\","
-          },
-          {
-            "lineNumber": 63,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 64,
-            "text": "          hint: \"Optional. Shown in browser tab and search results. ' | JoRap Notes' is appended automatically — do not include it here.\","
-          },
-          {
-            "lineNumber": 65,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 66,
-            "text": "      - {label: \"Description\", name: \"description\", widget: \"text\"}"
-          },
-          {
-            "lineNumber": 67,
-            "text": "      - {label: \"Date\", name: \"date\", widget: \"datetime\"}"
-          },
-          {
-            "lineNumber": 68,
-            "text": "      - {label: \"Author\", name: \"author\", widget: \"string\", default: \"JoRap\"}"
-          },
-          {
-            "lineNumber": 69,
-            "text": "      - {label: \"Featured image\", name: \"image\", widget: \"image\", required: false}"
-          },
-          {
-            "lineNumber": 70,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 71,
-            "text": "          label: \"Categories\","
-          },
-          {
-            "lineNumber": 72,
-            "text": "          name: \"categories\","
-          },
-          {
-            "lineNumber": 73,
-            "text": "          widget: \"list\","
-          },
-          {
-            "lineNumber": 74,
-            "text": "          allow_add: true,"
-          },
-          {
-            "lineNumber": 75,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 76,
-            "text": "          field: {label: \"Category\", widget: \"string\"},"
-          },
-          {
-            "lineNumber": 77,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 78,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 79,
-            "text": "          label: \"Tags\","
-          },
-          {
-            "lineNumber": 80,
-            "text": "          name: \"tags\","
-          },
-          {
-            "lineNumber": 81,
-            "text": "          widget: \"list\","
-          },
-          {
-            "lineNumber": 82,
-            "text": "          allow_add: true,"
-          },
-          {
-            "lineNumber": 83,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 84,
-            "text": "          field: {label: \"Tag\", widget: \"string\"},"
-          },
-          {
-            "lineNumber": 85,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 86,
-            "text": "      - {label: \"Draft\", name: \"draft\", widget: \"boolean\", default: false}"
-          },
-          {
-            "lineNumber": 87,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 88,
-            "text": "          label: \"Body\","
-          },
-          {
-            "lineNumber": 89,
-            "text": "          name: \"body\","
-          },
-          {
-            "lineNumber": 90,
-            "text": "          widget: \"markdown\","
-          },
-          {
-            "lineNumber": 91,
-            "text": "          editor_components: *hugo_editor_components,"
-          },
-          {
-            "lineNumber": 92,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 93
-          },
-          {
-            "lineNumber": 94,
-            "text": "  - name: \"notes\""
-          },
-          {
-            "lineNumber": 95,
-            "text": "    label: \"Notes\""
-          },
-          {
-            "lineNumber": 96,
-            "text": "    folder: \"content/english/notes\""
-          },
-          {
-            "lineNumber": 97,
-            "text": "    create: true"
-          },
-          {
-            "lineNumber": 98,
-            "text": "    slug: \"{{slug}}\""
-          },
-          {
-            "lineNumber": 99,
-            "text": "    fields:"
-          },
-          {
-            "lineNumber": 100,
-            "text": "      - {label: \"Title\", name: \"title\", widget: \"string\"}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 100
-          },
-          "startPosition": {
-            "line": 41
-          }
-        },
-        "relativeWorkspacePath": "./static/admin/config.yml",
-        "signatures": {}
-      },
-      "score": 0.3353637456893921
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 113,
-            "text": "def load_notes(base_url: str) -\u003e tuple[list[NoteRecord], dict[str, NoteRecord]]:"
-          },
-          {
-            "lineNumber": 114,
-            "text": "    records: list[NoteRecord] = []"
-          },
-          {
-            "lineNumber": 115,
-            "text": "    by_key: dict[str, NoteRecord] = {}"
-          },
-          {
-            "lineNumber": 116
-          },
-          {
-            "lineNumber": 117,
-            "text": "    for path in sorted(NOTES_DIR.glob(\"*.md\")):"
-          },
-          {
-            "lineNumber": 118,
-            "text": "        if path.stem in SKIP_STEMS:"
-          },
-          {
-            "lineNumber": 119,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 120
-          },
-          {
-            "lineNumber": 121,
-            "text": "        text = path.read_text(encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 122,
-            "text": "        _, inner, _ = split_frontmatter(text)"
-          },
-          {
-            "lineNumber": 123,
-            "text": "        if not inner:"
-          },
-          {
-            "lineNumber": 124,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 125
-          },
-          {
-            "lineNumber": 126,
-            "text": "        slug = parse_scalar(inner, \"slug\") or path.stem"
-          },
-          {
-            "lineNumber": 127,
-            "text": "        title = parse_scalar(inner, \"title\") or slug.replace(\"-\", \" \").title()"
-          },
-          {
-            "lineNumber": 128,
-            "text": "        record = NoteRecord("
-          },
-          {
-            "lineNumber": 129,
-            "text": "            path=path,"
-          },
-          {
-            "lineNumber": 130,
-            "text": "            slug=slug,"
-          },
-          {
-            "lineNumber": 131,
-            "text": "            title=title,"
-          },
-          {
-            "lineNumber": 132,
-            "text": "            description=parse_scalar(inner, \"description\"),"
-          },
-          {
-            "lineNumber": 133,
-            "text": "            tags=parse_yaml_list(inner, \"tags\"),"
-          },
-          {
-            "lineNumber": 134,
-            "text": "            note_kind=parse_scalar(inner, \"note_kind\") or \"note\","
-          },
-          {
-            "lineNumber": 135,
-            "text": "            draft=parse_bool(inner, \"draft\"),"
-          },
-          {
-            "lineNumber": 136,
-            "text": "            utility=is_utility(inner),"
-          },
-          {
-            "lineNumber": 137,
-            "text": "            timestamp=note_timestamp(inner, path),"
-          },
-          {
-            "lineNumber": 138,
-            "text": "            resource=f\"{base_url}notes/{slug}/\","
-          },
-          {
-            "lineNumber": 139,
-            "text": "        )"
-          },
-          {
-            "lineNumber": 140,
-            "text": "        records.append(record)"
-          },
-          {
-            "lineNumber": 141
-          },
-          {
-            "lineNumber": 142,
-            "text": "        keys = {title, slug, path.stem}"
-          },
-          {
-            "lineNumber": 143,
-            "text": "        keys.update(parse_yaml_list(inner, \"aliases\"))"
-          },
-          {
-            "lineNumber": 144,
-            "text": "        for key in keys:"
-          },
-          {
-            "lineNumber": 145,
-            "text": "            if key:"
-          },
-          {
-            "lineNumber": 146,
-            "text": "                by_key[key.casefold()] = record"
-          },
-          {
-            "lineNumber": 147
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 148,
-            "text": "    return records, by_key"
-          },
-          {
-            "lineNumber": 149
-          },
-          {
-            "lineNumber": 150
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 151,
-            "text": "def okf_link_path(record: NoteRecord) -\u003e str:"
-          },
-          {
-            "lineNumber": 152,
-            "text": "    if record.note_kind == \"index\":"
-          },
-          {
-            "lineNumber": 153,
-            "text": "        return f\"/hubs/{record.slug}/index.md\""
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 153
-          },
-          "startPosition": {
-            "column": 58,
-            "line": 109
-          }
-        },
-        "relativeWorkspacePath": "./scripts/export-okf-bundle.py",
-        "signatures": {}
-      },
-      "score": 0.32966458797454834
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"{{ replace .Name \"-\" \" \" | title }}\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"{{ replace .Name \"-\" \" \" | title }}\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"One sentence: the single claim this note makes.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "slug: \"{{ .Name }}\""
-          },
-          {
-            "lineNumber": 6,
-            "text": "date: {{ .Date }}"
-          },
-          {
-            "lineNumber": 7,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 8,
-            "text": "categories: []"
-          },
-          {
-            "lineNumber": 9,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 10,
-            "text": "tags: []"
-          },
-          {
-            "lineNumber": 11,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 12,
-            "text": "review: false"
-          },
-          {
-            "lineNumber": 13,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 14,
-            "text": "draft: true"
-          },
-          {
-            "lineNumber": 15,
-            "text": "---"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "One idea, stated plainly in one breath. If you need &#96;and&#96; or a second claim, split into another note and link it with &#96;[[wikilinks]]&#96;."
-          },
-          {
-            "lineNumber": 18
-          },
-          {
-            "lineNumber": 19,
-            "text": "## Key Concept"
-          },
-          {
-            "lineNumber": 20
-          },
-          {
-            "lineNumber": 21,
-            "text": "One sentence — the angle, not a second definition."
-          },
-          {
-            "lineNumber": 22
-          },
-          {
-            "lineNumber": 23,
-            "text": "Further explanation on the next paragraph: stakes, distinctions, [[wikilinks]]. Skip this section when the opening definition is enough."
-          },
-          {
-            "lineNumber": 24
-          },
-          {
-            "lineNumber": 25,
-            "text": "For habit spine notes (&#96;review: true&#96;), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run &#96;hugo new content/english/notes/my-note.md --kind notes-review&#96;. Rules: double-quote every &#96;front&#96;, &#96;back&#96;, and set name; inline &#96;card_sets: [\"Set\"]&#96;; block list for &#96;cards&#96;; put &#96;draft&#96; last; do not add &#96;| JoRap Notes&#96; to &#96;meta_title&#96;. Don't &#96;[[wikilink]]&#96; utility pages (Graph, Issues, Flashcards, Review, Random Duo) — use URLs; see [[Getting Started]]."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 25
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./archetypes/notes.md",
-        "signatures": {}
-      },
-      "score": 0.32947981357574463
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 26,
-            "text": "Every garden note carries flashcards (minimum 2). Deck size depends on importance: **8** hub/spine notes, **6** gospel and core PKM habits, **4** workplace/safety/PKM secondary, **2** everything else. Each carries a &#96;card_sets:&#96; list so Review can filter by group (Capture, Linking, Review, **Eternal Principles**, etc.). Gospel notes also tag a section set - **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship** - matching [[Eternal Principles]] sections. Cards ask what I'd *do* when capture, review, linking, or discipleship breaks down - not what a term *means*. **Cue → apply:** front = life's moment I'd recognize; back = principle compressed into the next move (do, decide, or say in one breath). **Cue only - no multiple choice:** state the moment on the front; never list options (&#96;X, Y, or Z?&#96;, &#96;A or B?&#96;) to pick from. **Front longer than back:** the prompt carries the scenario; the answer stays short. **No answer telegraphy:** don't name the note title, quote the verse, or fill in the blank on the front - give a subtle situational trigger instead. **Quiz yourself** at [/notes/review/](/notes/review/). Sync decks with &#96;python3 scripts/sync-note-flashcards.py&#96;; validate with &#96;npm run lint:cards&#96;."
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "## Frontmatter format (review notes)"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "Use this shape - inline &#96;card_sets&#96;, block &#96;cards&#96;, double-quoted strings, &#96;draft&#96; last:"
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "&#96;&#96;&#96;yaml"
-          },
-          {
-            "lineNumber": 33,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 34,
-            "text": "card_sets: [\"Capture\", \"Workflow\"]"
-          },
-          {
-            "lineNumber": 35,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 36,
-            "text": "  - front: \"Mid-commute spark I might forget before I'm home.\""
-          },
-          {
-            "lineNumber": 37,
-            "text": "    back: \"Drop in one inbox. Don't organize yet.\""
-          },
-          {
-            "lineNumber": 38,
-            "text": "  - front: \"Interesting link, unsure it's worth saving. One filter question I ask before anything hits the inbox?\""
-          },
-          {
-            "lineNumber": 39,
-            "text": "    back: \"Would I act on it or cite it later?\""
-          },
-          {
-            "lineNumber": 40,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 41,
-            "text": "&#96;&#96;&#96;"
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "lineNumber": 43,
-            "text": "**Rules that prevent build/export errors:**"
-          },
-          {
-            "lineNumber": 44
-          },
-          {
-            "lineNumber": 45,
-            "text": "- Double-quote every &#96;front&#96;, &#96;back&#96;, and set name (apostrophes and colons stay safe inside &#96;\"...\"&#96;)."
-          },
-          {
-            "lineNumber": 46,
-            "text": "- **Front longer than back** - the prompt carries a scenario; the answer stays short."
-          },
-          {
-            "lineNumber": 47,
-            "text": "- **Subtle hints only** - no note title, verse citation, or fill-in-the-blank that gives away the back."
-          },
-          {
-            "lineNumber": 48,
-            "text": "- **Cue only - no multiple choice** - front states the moment; never list options to pick from (&#96;A or B?&#96;, &#96;X, Y, or Z?&#96;)."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 48
-          },
-          "startPosition": {
-            "line": 24
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/flashcards.md",
-        "signatures": {}
-      },
-      "score": 0.32243406772613525
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "isSignature": true,
-            "lineNumber": 422,
-            "text": "def load_catalog() -\u003e list[dict]:"
-          },
-          {
-            "lineNumber": 423,
-            "text": "    catalog: list[dict] = []"
-          },
-          {
-            "lineNumber": 424,
-            "text": "    for path in sorted(NOTES_DIR.glob(\"*.md\")):"
-          },
-          {
-            "lineNumber": 425,
-            "text": "        if path.name in SKIP_FILES:"
-          },
-          {
-            "lineNumber": 426,
-            "text": "            continue"
-          },
-          {
-            "lineNumber": 427,
-            "text": "        text = path.read_text(encoding=\"utf-8\")"
-          },
-          {
-            "lineNumber": 428,
-            "text": "        _, inner, body = split_frontmatter(text)"
-          },
-          {
-            "lineNumber": 429,
-            "text": "        title = parse_scalar(inner, \"title\")"
-          },
-          {
-            "lineNumber": 430,
-            "text": "        slug = parse_scalar(inner, \"slug\") or path.stem"
-          },
-          {
-            "lineNumber": 431,
-            "text": "        tags = parse_yaml_list(inner, \"tags\")"
-          },
-          {
-            "lineNumber": 432,
-            "text": "        aliases = parse_yaml_list(inner, \"aliases\")"
-          },
-          {
-            "lineNumber": 433,
-            "text": "        layout = parse_scalar(inner, \"layout\")"
-          },
-          {
-            "lineNumber": 434,
-            "text": "        note_kind = parse_scalar(inner, \"note_kind\") or \"note\""
-          },
-          {
-            "lineNumber": 435,
-            "text": "        catalog.append("
-          },
-          {
-            "lineNumber": 436,
-            "text": "            {"
-          },
-          {
-            "lineNumber": 437,
-            "text": "                \"path\": path,"
-          },
-          {
-            "lineNumber": 438,
-            "text": "                \"stem\": path.stem,"
-          },
-          {
-            "lineNumber": 439,
-            "text": "                \"title\": title,"
-          },
-          {
-            "lineNumber": 440,
-            "text": "                \"slug\": slug,"
-          },
-          {
-            "lineNumber": 441,
-            "text": "                \"tags\": tags,"
-          },
-          {
-            "lineNumber": 442,
-            "text": "                \"aliases\": aliases,"
-          },
-          {
-            "lineNumber": 443,
-            "text": "                \"layout\": layout,"
-          },
-          {
-            "lineNumber": 444,
-            "text": "                \"note_kind\": note_kind,"
-          },
-          {
-            "lineNumber": 445,
-            "text": "                \"body\": body,"
-          },
-          {
-            "lineNumber": 446,
-            "text": "                \"inner\": inner,"
-          },
-          {
-            "lineNumber": 447,
-            "text": "            }"
-          },
-          {
-            "lineNumber": 448,
-            "text": "        )"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 449,
-            "text": "    return catalog"
-          },
-          {
-            "lineNumber": 450
-          },
-          {
-            "lineNumber": 451
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 452,
-            "text": "def is_linkable(note: dict) -\u003e bool:"
-          },
-          {
-            "lineNumber": 453,
-            "text": "    if note.get(\"layout\") == \"graph\":"
-          },
-          {
-            "lineNumber": 454,
-            "text": "        return False"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 455,
-            "text": "    return True"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 15,
-            "line": 454
-          },
-          "startPosition": {
-            "column": 31,
-            "line": 418
-          }
-        },
-        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
-        "signatures": {}
-      },
-      "score": 0.3100626468658447
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 156,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 157,
-            "text": "          label: \"Review deck\","
-          },
-          {
-            "lineNumber": 158,
-            "text": "          name: \"review\","
-          },
-          {
-            "lineNumber": 159,
-            "text": "          widget: \"boolean\","
-          },
-          {
-            "lineNumber": 160,
-            "text": "          default: false,"
-          },
-          {
-            "lineNumber": 161,
-            "text": "          hint: \"Include this note's flashcards in /notes/review/ and the Anki export.\","
-          },
-          {
-            "lineNumber": 162,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 163,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 164,
-            "text": "          label: \"Card sets\","
-          },
-          {
-            "lineNumber": 165,
-            "text": "          name: \"card_sets\","
-          },
-          {
-            "lineNumber": 166,
-            "text": "          widget: \"list\","
-          },
-          {
-            "lineNumber": 167,
-            "text": "          allow_add: true,"
-          },
-          {
-            "lineNumber": 168,
-            "text": "          required: false,"
-          },
-          {
-            "lineNumber": 169,
-            "text": "          condition: {field: review, value: true},"
-          },
-          {
-            "lineNumber": 170,
-            "text": "          field: {label: \"Set\", widget: \"string\"},"
-          },
-          {
-            "lineNumber": 171,
-            "text": "          hint: \"Filter labels on /notes/review/, e.g. Capture, Gospel, Workflow.\","
-          },
-          {
-            "lineNumber": 172,
-            "text": "        }"
-          },
-          {
-            "lineNumber": 173,
-            "text": "      - label: \"Flashcards\""
-          },
-          {
-            "lineNumber": 174,
-            "text": "        name: \"cards\""
-          },
-          {
-            "lineNumber": 175,
-            "text": "        widget: \"list\""
-          },
-          {
-            "lineNumber": 176,
-            "text": "        required: false"
-          },
-          {
-            "lineNumber": 177,
-            "text": "        condition: {field: review, value: true}"
-          },
-          {
-            "lineNumber": 178,
-            "text": "        hint: \"Six cards per spine note — life cue on the front, immediate move on the back.\""
-          },
-          {
-            "lineNumber": 179,
-            "text": "        fields:"
-          },
-          {
-            "lineNumber": 180,
-            "text": "          - {label: \"Front\", name: \"front\", widget: \"text\"}"
-          },
-          {
-            "lineNumber": 181,
-            "text": "          - {label: \"Back\", name: \"back\", widget: \"text\"}"
-          },
-          {
-            "lineNumber": 182,
-            "text": "      - label: \"Note kind\""
-          },
-          {
-            "lineNumber": 183,
-            "text": "        name: \"note_kind\""
-          },
-          {
-            "lineNumber": 184,
-            "text": "        widget: \"select\""
-          },
-          {
-            "lineNumber": 185,
-            "text": "        required: false"
-          },
-          {
-            "lineNumber": 186,
-            "text": "        hint: \"Leave on Regular for most notes. Index for hub pages; meta for graph, review, flashcards, etc.\""
-          },
-          {
-            "lineNumber": 187,
-            "text": "        options:"
-          },
-          {
-            "lineNumber": 188,
-            "text": "          - {label: \"Regular note\", value: \"\"}"
-          },
-          {
-            "lineNumber": 189,
-            "text": "          - {label: \"Index / MOC\", value: \"index\"}"
-          },
-          {
-            "lineNumber": 190,
-            "text": "          - {label: \"Meta / utility\", value: \"meta\"}"
-          },
-          {
-            "lineNumber": 191,
-            "text": "      - label: \"Layout\""
-          },
-          {
-            "lineNumber": 192,
-            "text": "        name: \"layout\""
-          },
-          {
-            "lineNumber": 193,
-            "text": "        widget: \"select\""
-          },
-          {
-            "lineNumber": 194,
-            "text": "        required: false"
-          },
-          {
-            "lineNumber": 195,
-            "text": "        hint: \"Only for utility pages (flashcards, graph, review). Leave on Default for normal notes.\""
-          },
-          {
-            "lineNumber": 196,
-            "text": "        options:"
-          },
-          {
-            "lineNumber": 197,
-            "text": "          - {label: \"Default\", value: \"\"}"
-          },
-          {
-            "lineNumber": 198,
-            "text": "          - {label: \"Cards\", value: \"cards\"}"
-          },
-          {
-            "lineNumber": 199,
-            "text": "          - {label: \"Graph\", value: \"graph\"}"
-          },
-          {
-            "lineNumber": 200,
-            "text": "          - {label: \"Issues\", value: \"issues\"}"
-          },
-          {
-            "lineNumber": 201,
-            "text": "          - {label: \"Review\", value: \"review\"}"
-          },
-          {
-            "lineNumber": 202,
-            "text": "          - {label: \"Backlinks\", value: \"backlinks\"}"
-          },
-          {
-            "lineNumber": 203,
-            "text": "          - {label: \"Create\", value: \"create\"}"
-          },
-          {
-            "lineNumber": 204,
-            "text": "          - {label: \"Random duo\", value: \"random-duo\"}"
-          },
-          {
-            "lineNumber": 205,
-            "text": "      - {label: \"Draft\", name: \"draft\", widget: \"boolean\", default: true}"
-          },
-          {
-            "lineNumber": 206,
-            "text": "      - {"
-          },
-          {
-            "lineNumber": 207,
-            "text": "          label: \"Body\","
-          },
-          {
-            "lineNumber": 208,
-            "text": "          name: \"body\","
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 208
-          },
-          "startPosition": {
-            "line": 155
-          }
-        },
-        "relativeWorkspacePath": "./static/admin/config.yml",
-        "signatures": {}
-      },
-      "score": 0.3059765100479126
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- $notes := partial \"notes/pages.html\" . -}}"
-          },
-          {
-            "lineNumber": 2,
-            "text": "{{- $nodes := slice -}}"
-          },
-          {
-            "lineNumber": 3,
-            "text": "{{- $edges := slice -}}"
-          },
-          {
-            "lineNumber": 4,
-            "text": "{{- $bodyOutDeg := dict -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $nodeMeta := dict -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $tailPct := site.Params.notes.graph_tail_percentile | default 20 | int -}}"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- range $from := $notes -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- $fromId := $from.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $rels := partial \"notes/relationship-types.html\" $from -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $primaryTag := \"\" -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- with $from.Params.tags -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "    {{- $primaryTag = index . 0 | default \"\" -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- $primaryCategory := \"\" -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  {{- with $from.Params.categories -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "    {{- $primaryCategory = index . 0 | default \"\" -}}"
-          },
-          {
-            "lineNumber": 18,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 19,
-            "text": "  {{- $isIndex := partial \"notes/is-index-page.html\" $from -}}"
-          },
-          {
-            "lineNumber": 20,
-            "text": "  {{- $nodeMeta = merge $nodeMeta (dict $fromId (dict \"rels\" $rels \"primaryTag\" $primaryTag \"primaryCategory\" $primaryCategory \"isIndex\" $isIndex)) -}}"
-          },
-          {
-            "lineNumber": 21,
-            "text": "  {{- $nodes = $nodes | append (dict \"id\" $fromId \"title\" $from.Title \"url\" $from.RelPermalink \"inDegree\" 0 \"outDegree\" 0 \"totalDegree\" 0 \"top\" false \"middle\" false \"bottom\" false \"orphan\" false \"deadEnd\" false) -}}"
-          },
-          {
-            "lineNumber": 22,
-            "text": "  {{- $raw := $from.RawContent -}}"
-          },
-          {
-            "lineNumber": 23,
-            "text": "  {{- $bodyRaw := $raw -}}"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  {{- if strings.Contains $raw \"## See also\" -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    {{- $bodyRaw = index (split $raw \"## See also\") 0 -}}"
-          },
-          {
-            "lineNumber": 26,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 27,
-            "text": "  {{- $bodyOutSeen := dict -}}"
-          },
-          {
-            "lineNumber": 28,
-            "text": "  {{- range $to := $notes -}}"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    {{- if ne $fromId $to.RelPermalink -}}"
-          },
-          {
-            "lineNumber": 30,
-            "text": "      "
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 6,
-            "line": 29
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/graph-data.html",
-        "signatures": {}
-      },
-      "score": 0.30533844232559204
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Metadata Strategy\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Metadata Strategy - Tags Without Taxonomy Hell\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-18T06:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Metadata\", \"Tags\", \"PKM\", \"Organization\", \"Taxonomy\", \"Note Taking\", \"Hugo\", \"Documentation\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"metadata-strategy\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 13,
-            "text": "card_sets: [\"Focus\", \"Review\"]"
-          },
-          {
-            "lineNumber": 14,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  - front: \"I label the kids' bins \\\"toys,\\\" \\\"books,\\\" \\\"outgrown\\\". What's the move?\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "    back: \"Not a color code I'd have to maintain\""
-          },
-          {
-            "lineNumber": 17,
-            "text": "  - front: \"If sorting takes longer than putting stuff away, I cut a category\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "    back: \"Three labels beat a system nobody follows\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - front: \"My glove box has \\\"registration,\\\" \\\"insurance,\\\" \\\"receipts\\\"\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "    back: \"Can find at a traffic stop\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "  - front: \"The team's gear bin says \\\"balls,\\\" \\\"first aid,\\\" \\\"outgrown\\\"\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "    back: \"Not a color code I'd maintain like a second job\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 24,
-            "text": "aliases: []"
-          },
-          {
-            "lineNumber": 25,
-            "text": "---"
-          },
-          {
-            "lineNumber": 26,
-            "text": "Tags, categories, dates, aliases - metadata should help me find notes, not become a second job."
-          },
-          {
-            "lineNumber": 27
-          },
-          {
-            "lineNumber": 28,
-            "text": "## Key Concept"
-          },
-          {
-            "lineNumber": 29
-          },
-          {
-            "lineNumber": 30,
-            "text": "Tags and aliases help you find notes inside PARA buckets without taxonomy hell ([[PARA Method]])."
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "Tension with [[Building a Personal API]] when light tags beat automation-ready frontmatter."
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "## Examples"
-          },
-          {
-            "lineNumber": 35
-          },
-          {
-            "lineNumber": 36,
-            "text": "- I label the kids' bins \"toys,\" \"books,\" \"outgrown\" - not a color code I'd have to maintain."
-          },
-          {
-            "lineNumber": 37,
-            "text": "- My glove box has \"registration,\" \"insurance,\" \"receipts\" - three labels I can find at a traffic stop."
-          },
-          {
-            "lineNumber": 38
-          },
-          {
-            "lineNumber": 39,
-            "text": "## Note Relationships"
-          },
-          {
-            "lineNumber": 40
-          },
-          {
-            "lineNumber": 41,
-            "text": "| Relationship | Wikilink | Reason |"
-          },
-          {
-            "lineNumber": 42,
-            "text": "|--------------|----------|--------|"
-          },
-          {
-            "lineNumber": 43,
-            "text": "| contradicts | [[Building a Personal API]] | when light tags beat automation-ready frontmatter |"
-          },
-          {
-            "lineNumber": 44,
-            "text": "| extends | [[PARA Method]] | Tags and aliases help you find notes inside PARA buckets without taxonomy hell |"
-          },
-          {
-            "lineNumber": 45,
-            "text": "| extends | [[Taxonomy]] | Tag-and-category design this note sizes |"
-          },
-          {
-            "lineNumber": 46
-          },
-          {
-            "lineNumber": 47,
-            "text": "## See also"
-          },
-          {
-            "lineNumber": 48
-          },
-          {
-            "lineNumber": 49,
-            "text": "- [[Commonplace Book]] - Note Taking, PKM"
-          },
-          {
-            "lineNumber": 50,
-            "text": "- [[Literature Notes]] - Note Taking, PKM"
-          },
-          {
-            "lineNumber": 51,
-            "text": "- [[CRDT]] - PKM"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 51
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/metadata-strategy.md",
-        "signatures": {}
-      },
-      "score": 0.3024987578392029
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 74,
-            "text": "- **Copy MD** - on every note page: copies Hugo source for ChatGPT or your editor"
-          },
-          {
-            "lineNumber": 75,
-            "text": "- **Copy hub cluster** - on hub/MOC pages (&#96;note_kind: index&#96;): hub + all direct wikilink targets in one paste"
-          },
-          {
-            "lineNumber": 76,
-            "text": "- **Copy catalog** - on [OKF Export](/notes/okf-export/): full garden index for ChatGPT project context"
-          },
-          {
-            "lineNumber": 77,
-            "text": "- **Copy issues** - on [Issues](/notes/issues/): structured link/structure report for maintenance sprints"
-          },
-          {
-            "lineNumber": 78,
-            "text": "- **Agent copy** - OKF handoff markdown per note (resolved links), upper right beside Copy MD"
-          },
-          {
-            "lineNumber": 79,
-            "text": "- **OKF export** - full bundle at [/notes/okf-export/](/notes/okf-export/) and [/exports/okf/](/exports/okf/)"
-          },
-          {
-            "lineNumber": 80,
-            "text": "- **Flashcards** - ~12 habit spine notes (~20%) with &#96;review: true&#96; carry six scenario &#96;cards:&#96; in frontmatter plus &#96;card_sets:&#96; for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)"
-          },
-          {
-            "lineNumber": 81
-          },
-          {
-            "lineNumber": 82,
-            "text": "## Page kinds"
-          },
-          {
-            "lineNumber": 83
-          },
-          {
-            "lineNumber": 84,
-            "text": "| &#96;note_kind&#96; | What it is | Relationships table | Link from content notes? |"
-          },
-          {
-            "lineNumber": 85,
-            "text": "|-------------|------------|---------------------|--------------------------|"
-          },
-          {
-            "lineNumber": 86,
-            "text": "| &#96;note&#96; (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes - &#96;[[wikilink]]&#96; |"
-          },
-          {
-            "lineNumber": 87,
-            "text": "| &#96;index&#96; | Hub / MOC ([[Maps of Content]], [[Eternal Principles]], this page) | Optional | Yes |"
-          },
-          {
-            "lineNumber": 88,
-            "text": "| &#96;meta&#96; | Tool surface (Graph, Issues, Review, etc.) | Skip | No - URL only |"
-          },
-          {
-            "lineNumber": 89
-          },
-          {
-            "lineNumber": 90,
-            "text": "## Utility surfaces (don't wikilink)"
-          },
-          {
-            "lineNumber": 91
-          },
-          {
-            "lineNumber": 92,
-            "text": "These pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/), [Create Note](/notes/create/), [OKF Export](/notes/okf-export/). They are excluded from the graph node set, random pickers, and flashcard sources. **No &#96;## Note Relationships&#96; table** on utility pages - link by URL when pointing readers at a tool. **Don't &#96;[[wikilink]]&#96; to them** from content notes. &#96;npm run lint:utility-links&#96; catches violations."
-          },
-          {
-            "lineNumber": 93
-          },
-          {
-            "lineNumber": 94,
-            "text": "## Explore"
-          },
-          {
-            "lineNumber": 95
-          },
-          {
-            "lineNumber": 96,
-            "text": "- **Outgoing links** and **backlinks** (with snippets) show below each note."
-          },
-          {
-            "lineNumber": 97,
-            "text": "- **See also** suggests tag-related notes you haven't linked yet."
-          },
-          {
-            "lineNumber": 98,
-            "text": "- **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter high, low, no body links, and orphans."
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 98
-          },
-          "startPosition": {
-            "line": 73
-          }
-        },
-        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
-        "signatures": {}
-      },
-      "score": 0.2985576093196869
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 135,
-            "text": "  {{- if and (eq ($note.Params.note_kind | default \"note\") \"note\") (not (partial \"notes/is-utility-page.html\" $note)) -}}"
-          },
-          {
-            "lineNumber": 136,
-            "text": "    {{- $rels := partial \"notes/relationship-types.html\" $note -}}"
-          },
-          {
-            "lineNumber": 137,
-            "text": "    {{- if not (strings.Contains $raw \"## Note Relationships\") -}}"
-          },
-          {
-            "lineNumber": 138,
-            "text": "      {{- $structure = $structure | append (dict \"type\" \"missingTable\") -}}"
-          },
-          {
-            "lineNumber": 139,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 140,
-            "text": "    {{- if not $rels.extends -}}"
-          },
-          {
-            "lineNumber": 141,
-            "text": "      {{- $structure = $structure | append (dict \"type\" \"missingExtends\") -}}"
-          },
-          {
-            "lineNumber": 142,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 143,
-            "text": "    {{- if not $rels.contradicts -}}"
-          },
-          {
-            "lineNumber": 144,
-            "text": "      {{- $structure = $structure | append (dict \"type\" \"missingContradicts\") -}}"
-          },
-          {
-            "lineNumber": 145,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 146,
-            "text": "    {{- $allowedSections := slice \"key concept\" \"examples\" \"note relationships\" \"see also\" -}}"
-          },
-          {
-            "lineNumber": 147,
-            "text": "    {{- $extraKeys := dict -}}"
-          },
-          {
-            "lineNumber": 148,
-            "text": "    {{- range findRE &#96;(?m)^## ([^\\n]+)&#96; $raw -}}"
-          },
-          {
-            "lineNumber": 149,
-            "text": "      {{- $title := . | replaceRE &#96;(?m)^## &#96; \"\" | strings.TrimSpace -}}"
-          },
-          {
-            "lineNumber": 150,
-            "text": "      {{- if not (in $allowedSections (lower $title)) -}}"
-          },
-          {
-            "lineNumber": 151,
-            "text": "        {{- $key := lower $title -}}"
-          },
-          {
-            "lineNumber": 152,
-            "text": "        {{- if not (index $extraKeys $key) -}}"
-          },
-          {
-            "lineNumber": 153,
-            "text": "          {{- $extraKeys = merge $extraKeys (dict $key true) -}}"
-          },
-          {
-            "lineNumber": 154,
-            "text": "          {{- $structure = $structure | append (dict \"type\" \"extraSection\" \"heading\" $title) -}}"
-          },
-          {
-            "lineNumber": 155,
-            "text": "        {{- end -}}"
-          },
-          {
-            "lineNumber": 156,
-            "text": "      {{- end -}}"
-          },
-          {
-            "lineNumber": 157,
-            "text": "    {{- end -}}"
-          },
-          {
-            "lineNumber": 158,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 159
-          },
-          {
-            "lineNumber": 160,
-            "text": "  {{- if or (gt (len $broken) 0) (gt (len $pipe) 0) (gt (len $unlinked) 0) (gt (len $structure) 0) -}}"
-          },
-          {
-            "lineNumber": 161,
-            "text": "    {{- $total := add (add (add (len $broken) (len $pipe)) (len $unlinked)) (len $structure) -}}"
-          },
-          {
-            "lineNumber": 162,
-            "text": "    {{- $row := dict \"broken\" $broken \"pipe\" $pipe \"unlinked\" $unlinked \"structure\" $structure \"total\" $total -}}"
-          },
-          {
-            "lineNumber": 163,
-            "text": "    {{- $byPath = merge $byPath (dict $path $row) -}}"
-          },
-          {
-            "lineNumber": 164,
-            "text": "    {{- $allNotes = $allNotes | append (merge $row (dict \"Page\" $note)) -}}"
-          },
-          {
-            "lineNumber": 165,
-            "text": "    {{- $brokenCount = add $brokenCount (len $broken) -}}"
-          },
-          {
-            "lineNumber": 166,
-            "text": "    {{- $pipeCount = add $pipeCount (len $pipe) -}}"
-          },
-          {
-            "lineNumber": 167,
-            "text": "    {{- $unlinkedCount = add $unlinkedCount (len $unlinked) -}}"
-          },
-          {
-            "lineNumber": 168,
-            "text": "    {{- $structureCount = add $structureCount (len $structure) -}}"
-          },
-          {
-            "lineNumber": 169,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 170,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 171
-          },
-          {
-            "lineNumber": 172,
-            "text": "{{- return (dict"
-          },
-          {
-            "lineNumber": 173,
-            "text": "  \"byPath\" $byPath"
-          },
-          {
-            "lineNumber": 174,
-            "text": "  \"notes\" $allNotes"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 174
-          },
-          "startPosition": {
-            "line": 134
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
-        "signatures": {}
-      },
-      "score": 0.29586219787597656
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 108,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 109
-          },
-          {
-            "lineNumber": 110,
-            "text": "{{- $enriched := slice -}}"
-          },
-          {
-            "lineNumber": 111,
-            "text": "{{- range $nodes -}}"
-          },
-          {
-            "lineNumber": 112,
-            "text": "  {{- $in := index $inDeg .id | default 0 -}}"
-          },
-          {
-            "lineNumber": 113,
-            "text": "  {{- $out := index $outDeg .id | default 0 -}}"
-          },
-          {
-            "lineNumber": 114,
-            "text": "  {{- $total := index $totalDeg .id | default 0 -}}"
-          },
-          {
-            "lineNumber": 115,
-            "text": "  {{- $bodyOut := index $bodyOutDeg .id | default 0 -}}"
-          },
-          {
-            "lineNumber": 116,
-            "text": "  {{- $isTop := index $topIds .id | default false -}}"
-          },
-          {
-            "lineNumber": 117,
-            "text": "  {{- $isBottom := index $bottomIds .id | default false -}}"
-          },
-          {
-            "lineNumber": 118,
-            "text": "  {{- $meta := index $nodeMeta .id | default dict -}}"
-          },
-          {
-            "lineNumber": 119,
-            "text": "  {{- $rels := $meta.rels | default dict -}}"
-          },
-          {
-            "lineNumber": 120,
-            "text": "  {{- $isIndex := $meta.isIndex | default false -}}"
-          },
-          {
-            "lineNumber": 121,
-            "text": "  {{- $isHub := and (index $hubInIds .id | default false) (or (ge $out 3) $isIndex) -}}"
-          },
-          {
-            "lineNumber": 122,
-            "text": "  {{- $enriched = $enriched | append (merge . (dict"
-          },
-          {
-            "lineNumber": 123,
-            "text": "    \"inDegree\" $in"
-          },
-          {
-            "lineNumber": 124,
-            "text": "    \"outDegree\" $out"
-          },
-          {
-            "lineNumber": 125,
-            "text": "    \"totalDegree\" $total"
-          },
-          {
-            "lineNumber": 126,
-            "text": "    \"top\" $isTop"
-          },
-          {
-            "lineNumber": 127,
-            "text": "    \"middle\" (and (not $isTop) (not $isBottom))"
-          },
-          {
-            "lineNumber": 128,
-            "text": "    \"bottom\" $isBottom"
-          },
-          {
-            "lineNumber": 129,
-            "text": "    \"orphan\" (eq $in 0)"
-          },
-          {
-            "lineNumber": 130,
-            "text": "    \"deadEnd\" (eq $bodyOut 0)"
-          },
-          {
-            "lineNumber": 131,
-            "text": "    \"hub\" $isHub"
-          },
-          {
-            "lineNumber": 132,
-            "text": "    \"primaryTag\" ($meta.primaryTag | default \"\")"
-          },
-          {
-            "lineNumber": 133,
-            "text": "    \"primaryCategory\" ($meta.primaryCategory | default \"\")"
-          },
-          {
-            "lineNumber": 134,
-            "text": "    \"relExtends\" ($rels.extends | default false)"
-          },
-          {
-            "lineNumber": 135,
-            "text": "    \"relContradicts\" ($rels.contradicts | default false)"
-          },
-          {
-            "lineNumber": 136,
-            "text": "    \"relImplements\" ($rels.implements | default false)"
-          },
-          {
-            "lineNumber": 137,
-            "text": "    \"relAlternative\" ($rels.alternative | default false)"
-          },
-          {
-            "lineNumber": 138,
-            "text": "    \"relIndex\" $isIndex"
-          },
-          {
-            "lineNumber": 139,
-            "text": "  )) -}}"
-          },
-          {
-            "lineNumber": 140,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 141
-          },
-          {
-            "lineNumber": 142,
-            "text": "{{- $maxDeg := -1 -}}"
-          },
-          {
-            "lineNumber": 143,
-            "text": "{{- range $totalDeg -}}"
-          },
-          {
-            "lineNumber": 144,
-            "text": "  {{- if gt . $maxDeg -}}"
-          },
-          {
-            "lineNumber": 145,
-            "text": "    {{- $maxDeg = . -}}"
-          },
-          {
-            "lineNumber": 146,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 147,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 148
-          },
-          {
-            "lineNumber": 149,
-            "text": "{{- $nearMax := slice -}}"
-          },
-          {
-            "lineNumber": 150,
-            "text": "{{- range $id, $count := $totalDeg -}}"
-          },
-          {
-            "lineNumber": 151,
-            "text": "  {{- if ge $count (sub $maxDeg 1) -}}"
-          },
-          {
-            "lineNumber": 152,
-            "text": "    {{- $nearMax = $nearMax | append $id -}}"
-          },
-          {
-            "lineNumber": 153,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 154,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 155
-          },
-          {
-            "lineNumber": 156,
-            "text": "{{- $focusId := \"\" -}}"
-          },
-          {
-            "lineNumber": 157,
-            "text": "{{- $bestOut := -1 -}}"
-          },
-          {
-            "lineNumber": 158,
-            "text": "{{- range $nearMax -}}"
-          },
-          {
-            "lineNumber": 159,
-            "text": "  {{- $oid := . -}}"
-          },
-          {
-            "lineNumber": 160,
-            "text": "  {{- $out := index $outDeg $oid | default 0 -}}"
-          },
-          {
-            "lineNumber": 161,
-            "text": "  {{- if gt $out $bestOut -}}"
-          },
-          {
-            "lineNumber": 162,
-            "text": "    {{- $bestOut = $out -}}"
-          },
-          {
-            "lineNumber": 163,
-            "text": "    {{- $focusId = $oid -}}"
-          },
-          {
-            "lineNumber": 164,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 165,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 166
-          },
-          {
-            "lineNumber": 167,
-            "text": "{{- $hubTitles := slice \"Maps of Content\" \"PKM\" \"Getting Started\" -}}"
-          },
-          {
-            "lineNumber": 168,
-            "text": "{{- range $hubTitles -}}"
-          },
-          {
-            "lineNumber": 169,
-            "text": "  {{- $hubTitle := . -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 169
-          },
-          "startPosition": {
-            "line": 107
-          }
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/graph-data.html",
-        "signatures": {}
-      },
-      "score": 0.29490774869918823
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "{{- /*"
-          },
-          {
-            "lineNumber": 2,
-            "text": "  JSON-ready card list: id, front, back, sourceUrl, sourceTitle, sets."
-          },
-          {
-            "lineNumber": 3,
-            "text": "  Uses the same sources as collect-cards.html."
-          },
-          {
-            "lineNumber": 4,
-            "text": "*/ -}}"
-          },
-          {
-            "lineNumber": 5,
-            "text": "{{- $cards := partial \"notes/collect-cards.html\" . -}}"
-          },
-          {
-            "lineNumber": 6,
-            "text": "{{- $data := slice -}}"
-          },
-          {
-            "lineNumber": 7
-          },
-          {
-            "lineNumber": 8,
-            "text": "{{- range $cards -}}"
-          },
-          {
-            "lineNumber": 9,
-            "text": "  {{- $sourceUrl := \"\" -}}"
-          },
-          {
-            "lineNumber": 10,
-            "text": "  {{- $sourceTitle := \"\" -}}"
-          },
-          {
-            "lineNumber": 11,
-            "text": "  {{- $sets := .sets | default slice -}}"
-          },
-          {
-            "lineNumber": 12,
-            "text": "  {{- with .source -}}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "    {{- $sourceUrl = .RelPermalink -}}"
-          },
-          {
-            "lineNumber": 14,
-            "text": "    {{- $sourceTitle = .Title -}}"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  {{- end -}}"
-          },
-          {
-            "lineNumber": 16,
-            "text": "  {{- $id := printf \"%s|%s|%s\" .front .back $sourceUrl | hash.FNV32a -}}"
-          },
-          {
-            "lineNumber": 17,
-            "text": "  {{- $data = $data | append (dict"
-          },
-          {
-            "lineNumber": 18,
-            "text": "    \"id\" (printf \"%d\" $id)"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    \"front\" .front"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    \"back\" .back"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    \"sourceUrl\" $sourceUrl"
-          },
-          {
-            "lineNumber": 22,
-            "text": "    \"sourceTitle\" $sourceTitle"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    \"sets\" $sets"
-          },
-          {
-            "lineNumber": 24,
-            "text": "  ) -}}"
-          },
-          {
-            "lineNumber": 25,
-            "text": "{{- end -}}"
-          },
-          {
-            "lineNumber": 26
-          },
-          {
-            "lineNumber": 27,
-            "text": "{{- return $data -}}"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 27
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./layouts/_partials/notes/cards-data.html",
-        "signatures": {}
-      },
-      "score": 0.2913939952850342
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "#!/usr/bin/env python3"
-          },
-          {
-            "lineNumber": 2,
-            "text": "\"\"\"One-shot: normalize note formatting, dedupe relationships, trim examples to two.\"\"\""
-          },
-          {
-            "lineNumber": 3
-          },
-          {
-            "lineNumber": 4,
-            "text": "from __future__ import annotations"
-          },
-          {
-            "lineNumber": 5
-          },
-          {
-            "lineNumber": 6,
-            "text": "import re"
-          },
-          {
-            "lineNumber": 7,
-            "text": "import sys"
-          },
-          {
-            "lineNumber": 8,
-            "text": "from pathlib import Path"
-          },
-          {
-            "lineNumber": 9
-          },
-          {
-            "lineNumber": 10,
-            "text": "ROOT = Path(__file__).resolve().parents[1]"
-          },
-          {
-            "lineNumber": 11,
-            "text": "NOTES = ROOT / \"content/english/notes\""
-          },
-          {
-            "lineNumber": 12,
-            "text": "SKIP = {\"_index.md\"}"
-          },
-          {
-            "lineNumber": 13,
-            "text": "MAX_EXAMPLES = 2"
-          },
-          {
-            "lineNumber": 14
-          },
-          {
-            "lineNumber": 15,
-            "text": "REL_PRIORITY = {\"contradicts\": 0, \"extends\": 1, \"implements\": 2, \"alternative\": 3}"
-          },
-          {
-            "lineNumber": 16
-          },
-          {
-            "lineNumber": 17,
-            "text": "DOMAIN_KEYWORDS: list[tuple[str, ...]] = ["
-          },
-          {
-            "lineNumber": 18,
-            "text": "    (\"faith\", \"church\", \"sermon\", \"prayer\", \"gospel\", \"worship\", \"scripture\", \"pastor\"),"
-          },
-          {
-            "lineNumber": 19,
-            "text": "    (\"parenting\", \"kid\", \"child\", \"son\", \"daughter\", \"bedtime\", \"parent\", \"father\"),"
-          },
-          {
-            "lineNumber": 20,
-            "text": "    (\"sports\", \"coach\", \"ref\", \"game\", \"court\", \"gym\", \"drill\", \"whistle\", \"player\"),"
-          },
-          {
-            "lineNumber": 21,
-            "text": "    (\"digital\", \"post\", \"send\", \"inbox\", \"email\", \"slack\", \"social\", \"thumb\", \"tweet\"),"
-          },
-          {
-            "lineNumber": 22,
-            "text": "    (\"healthcare\", \"clinic\", \"doctor\", \"patient\", \"nurse\", \"hospital\"),"
-          },
-          {
-            "lineNumber": 23,
-            "text": "    (\"commute\", \"jeepney\", \"traffic\", \"commute\", \"bus\", \"pickup line\"),"
-          },
-          {
-            "lineNumber": 24,
-            "text": "    (\"service\", \"customer\", \"shift\", \"restaurant\", \"wait time\"),"
-          },
-          {
-            "lineNumber": 25,
-            "text": "    (\"workplace\", \"meeting\", \"boss\", \"coworker\", \"deadline\", \"office\"),"
-          },
-          {
-            "lineNumber": 26,
-            "text": "    (\"home\", \"neighbor\", \"fridge\", \"parking\", \"condo\", \"yard\", \"chore\"),"
-          },
-          {
-            "lineNumber": 27,
-            "text": "    (\"school\", \"teacher\", \"classroom\", \"homework\", \"school\"),"
-          },
-          {
-            "lineNumber": 28,
-            "text": "    (\"safety\", \"incident\", \"near-miss\", \"hazard\", \"site\", \"ppe\"),"
-          },
-          {
-            "lineNumber": 29,
-            "text": "    (\"pkm\", \"note\", \"wikilink\", \"garden\", \"whiteboard\", \"bulletin board\"),"
-          },
-          {
-            "lineNumber": 30,
-            "text": "]"
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "CARD_ITEM_RE = re.compile("
-          },
-          {
-            "lineNumber": 33,
-            "text": "    r'^\\s+-\\s+front:\\s+\"((?:[^\"\\\\]|\\\\.)*)\"\\s*\\n\\s+back:\\s+\"((?:[^\"\\\\]|\\\\.)*)\"\\s*$',"
-          },
-          {
-            "lineNumber": 34,
-            "text": "    re.M,"
-          },
-          {
-            "lineNumber": 35,
-            "text": ")"
-          },
-          {
-            "lineNumber": 36
-          },
-          {
-            "lineNumber": 37,
-            "text": "REL_ROW_RE = re.compile("
-          },
-          {
-            "lineNumber": 38,
-            "text": "    r\"^\\| ([^|]+) \\| \\[\\[([^\\]]+)\\]\\] \\| ([^|]+) \\|$\","
-          },
-          {
-            "lineNumber": 39,
-            "text": "    re.M,"
-          },
-          {
-            "lineNumber": 40,
-            "text": ")"
-          },
-          {
-            "lineNumber": 41
-          },
-          {
-            "lineNumber": 42
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 43,
-            "text": "def split_frontmatter(text: str) -\u003e tuple[str, str]:"
-          },
-          {
-            "lineNumber": 44,
-            "text": "    if not text.startswith(\"---\"):"
-          },
-          {
-            "lineNumber": 45,
-            "text": "        return \"\", text"
-          },
-          {
-            "lineNumber": 46,
-            "text": "    end = text.find(\"\\n---\", 3)"
-          },
-          {
-            "lineNumber": 47,
-            "text": "    if end == -1:"
-          },
-          {
-            "lineNumber": 48,
-            "text": "        return \"\", text"
-          },
-          {
-            "lineNumber": 49,
-            "text": "    fm = text[3:end].lstrip(\"\\n\")"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 50,
-            "text": "    return fm, text[end + 4 :]"
-          },
-          {
-            "lineNumber": 51
-          },
-          {
-            "lineNumber": 52
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 53,
-            "text": "def parse_cards(fm: str) -\u003e list[tuple[str, str]]:"
-          },
-          {
-            "isSignature": true,
-            "lineNumber": 54,
-            "text": "    return [(m.group(1), m.group(2)) for m in CARD_ITEM_RE.finditer(fm)]"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "column": 72,
-            "line": 53
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./scripts/normalize-notes-format.py",
-        "signatures": {}
-      },
-      "score": 0.29047858715057373
-    },
-    {
-      "codeBlock": {
-        "detailedLines": [
-          {
-            "lineNumber": 1,
-            "text": "---"
-          },
-          {
-            "lineNumber": 2,
-            "text": "title: \"Note Relationships\""
-          },
-          {
-            "lineNumber": 3,
-            "text": "meta_title: \"Note Relationships - Four Link Types for the Garden\""
-          },
-          {
-            "lineNumber": 4,
-            "text": "description: \"Four pair types in the body table - extends, contradicts, implements, alternative. Hub and utility pages use note_kind flags.\""
-          },
-          {
-            "lineNumber": 5,
-            "text": "date: 2026-06-19T08:00:00Z"
-          },
-          {
-            "lineNumber": 6,
-            "text": "image: \"/images/note.jpg\""
-          },
-          {
-            "lineNumber": 7,
-            "text": "categories: [\"Productivity\", \"Ideas\", \"Tips\"]"
-          },
-          {
-            "lineNumber": 8,
-            "text": "author: \"JoRap\""
-          },
-          {
-            "lineNumber": 9,
-            "text": "tags: [\"Linking\", \"PKM\", \"Note Taking\", \"Digital Garden\", \"Meta\"]"
-          },
-          {
-            "lineNumber": 10,
-            "text": "slug: \"note-relationships\""
-          },
-          {
-            "lineNumber": 11,
-            "text": "featured: false"
-          },
-          {
-            "lineNumber": 12,
-            "text": "review: true"
-          },
-          {
-            "lineNumber": 13,
-            "text": "card_sets: [\"Linking\", \"Writing\"]"
-          },
-          {
-            "lineNumber": 14,
-            "text": "cards:"
-          },
-          {
-            "lineNumber": 15,
-            "text": "  - front: \"New note builds on an older atomic claim - typing the connection in the body now. One relationship word?\""
-          },
-          {
-            "lineNumber": 16,
-            "text": "    back: \"Type extends in the body.\""
-          },
-          {
-            "lineNumber": 17,
-            "text": "  - front: \"This note pushes against a slower-work philosophy I named in the body. One typed link for that tension?\""
-          },
-          {
-            "lineNumber": 18,
-            "text": "    back: \"Link as contradicts.\""
-          },
-          {
-            "lineNumber": 19,
-            "text": "  - front: \"Weekly checklist makes a review habit real in my notes. Link type that says this note carries it out?\""
-          },
-          {
-            "lineNumber": 20,
-            "text": "    back: \"Link as implements.\""
-          },
-          {
-            "lineNumber": 21,
-            "text": "  - front: \"Hub page gathering twenty related notes under one roof. Frontmatter flag, not a table row?\""
-          },
-          {
-            "lineNumber": 22,
-            "text": "    back: \"Set note_kind: index.\""
-          },
-          {
-            "lineNumber": 23,
-            "text": "  - front: \"Atomic note ready to publish - minimum typed links before filing?\""
-          },
-          {
-            "lineNumber": 24,
-            "text": "    back: \"One extends, one contradicts.\""
-          },
-          {
-            "lineNumber": 25,
-            "text": "  - front: \"Two tools solve the same job - picking one for this note. Link type for the other tool?\""
-          },
-          {
-            "lineNumber": 26,
-            "text": "    back: \"Link the other as alternative.\""
-          },
-          {
-            "lineNumber": 27,
-            "text": "draft: false"
-          },
-          {
-            "lineNumber": 28,
-            "text": "aliases: [\"link types\", \"Link Typing\"]"
-          },
-          {
-            "lineNumber": 29,
-            "text": "---"
-          },
-          {
-            "lineNumber": 30,
-            "text": "Four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use &#96;note_kind: index&#96; in frontmatter (not a row). **Utility pages** use &#96;note_kind: meta&#96; - link by URL, not wikilink."
-          },
-          {
-            "lineNumber": 31
-          },
-          {
-            "lineNumber": 32,
-            "text": "## Key Concept"
-          },
-          {
-            "lineNumber": 33
-          },
-          {
-            "lineNumber": 34,
-            "text": "| Type | Question | Example |"
-          },
-          {
-            "lineNumber": 35,
-            "text": "|------|----------|---------|"
-          },
-          {
-            "lineNumber": 36,
-            "text": "| **extends** | What does this build on? | [[Signal vs Noise]] extends [[Capture]] |"
-          },
-          {
-            "lineNumber": 37,
-            "text": "| **contradicts** | What tradeoff does this push against? | [[Slow Productivity]] contradicts [[The 12 Week Year]] when fewer deep projects beat quarterly sprints |"
-          },
-          {
-            "lineNumber": 38,
-            "text": "| **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |"
-          }
-        ],
-        "range": {
-          "endPosition": {
-            "line": 38
-          },
-          "startPosition": {}
-        },
-        "relativeWorkspacePath": "./content/english/notes/note-relationships.md",
-        "signatures": {}
-      },
-      "score": 0.29009896516799927
-    }
-  ]
-}
+        
+… (output truncated)
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
-<summary>Tool use: **semantic_search_full**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-`normalize-notes-format.py` might already handle converting note data to frontmatter.</details></think>
+`normalize-notes-format.py` might already handle converting note data to frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-All note content will be moved from markdown body sections into frontmatter fields.</details></think>
+All note content will be moved from markdown body sections into frontmatter fields.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -2992,39 +325,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_13-22-54Z-garden-link-structure-issues.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_13-22-54Z-garden-link-structure-issues.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Determining the target format for converting all note data to frontmatter.</details></think>
+Determining the target format for converting all note data to frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3055,21 +374,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3095,39 +405,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-No frontmatter schema exists yet for fields like key_concept and examples. The user likely wants body content moved to frontmatter based on recent discussion.</details></think>
+No frontmatter schema exists yet for fields like key_concept and examples. The user likely wants body content moved to frontmatter based on recent discussion.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3158,22 +454,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (4 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (4 files)
 
 | File |
 |------|
@@ -3181,21 +469,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com** (4 files)
 | `themes/jorap/layouts/blog/single.html` |
 | `layouts/notes/single.html` |
 | `themes/jorap/layouts/single.html` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3242,73 +521,47 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reading the single notes layout and relationship-types partial to understand the current structure.</details></think>
+Reading the single notes layout and relationship-types partial to understand the current structure.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/relationship-types.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/relationship-types.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/faithfulness.md | head -80</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/faithfulness.md | head -80</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/faithfulness.md | head -80
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Git diff shows no changes for faithfulness. It may be an unstaged new file. Searching recent transcripts for guidance on converting notes to frontmatter.</details></think>
+Git diff shows no changes for faithfulness. It may be an unstaged new file. Searching recent transcripts for guidance on converting notes to frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3379,67 +632,38 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
 
 | File |
 |------|
 | `scripts/lint-flashcard-frontmatter.py` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3470,52 +694,32 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The previous session was interrupted at this exact point. I need to determine the full scope of converting all note data to frontmatter.</details></think>
+The previous session was interrupted at this exact point. I need to determine the full scope of converting all note data to frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3555,13 +759,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3569,44 +766,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Planning to move all note data into frontmatter.
 
-Mapping out the frontmatter schema: summary, key_concept, examples, and note_relationships. Will create a migration script, update Hugo templates, and adjust parsing scripts.</details></think>
+Mapping out the frontmatter schema: summary, key_concept, examples, and note_relationships. Will create a migration script, update Hugo templates, and adjust parsing scripts.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
 
 </details></tool-use>
 
@@ -3615,40 +795,27 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 This is a large migration. I need to understand the full scope before creating the frontmatter schema.
 
-The frontmatter schema will include summary, key_concept, examples, and relationships. The renderer needs updating to build HTML from frontmatter when the body is empty. A migration script will extract existing body content. Five downstream consumers require updates.</details></think>
+The frontmatter schema will include summary, key_concept, examples, and relationships. The renderer needs updating to build HTML from frontmatter when the body is empty. A migration script will extract existing body content. Five downstream consumers require updates.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3728,13 +895,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3744,43 +904,43 @@ Planning a significant refactor to move all note data into frontmatter while pre
 
 Drafting frontmatter fields: summary, key_concept, examples, and relationships. Considering whether to preserve the opening paragraph since it often duplicates the description.
 
-Will keep `description` for SEO and metadata, and add `summary` for the opening paragraph. Utility and index notes with longer prose will retain body content. Starting to categorize notes by structure.</details></think>
+Will keep `description` for SEO and metadata, and add `summary` for the opening paragraph. Utility and index notes with longer prose will retain body content. Starting to categorize notes by structure.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
 from pathlib import Path
 import re
-NOTES = Path('content/english/notes')
-SKIP = {'_index.md'}
+NOTES = Path(&#39;content/english/notes&#39;)
+SKIP = {&#39;_index.md&#39;}
 
 def split_fm(text):
-    if not text.startswith('---'): return '', text
-    end = text.find('\n---', 3)
-    if end < 0: return '', text
+    if not text.startswith(&#39;---&#39;): return &#39;&#39;, text
+    end = text.find(&#39;\n---&#39;, 3)
+    if end &lt; 0: return &#39;&#39;, text
     return text[3:end], text[end+4:]
 
 kinds = {}
-has_sections = {'key':0,'examples':0,'rels':0,'see_also':0,'opening':0}
-for p in sorted(NOTES.glob('*.md')):
+has_sections = {&#39;key&#39;:0,&#39;examples&#39;:0,&#39;rels&#39;:0,&#39;see_also&#39;:0,&#39;opening&#39;:0}
+for p in sorted(NOTES.glob(&#39;*.md&#39;)):
     if p.name in SKIP: continue
     fm, body = split_fm(p.read_text())
-    kind = 'note'
-    m = re.search(r'^note_kind:\s*"?([^"\n]+)"?', fm, re.M)
+    kind = &#39;note&#39;
+    m = re.search(r&#39;^note_kind:\s*&#34;?([^&#34;\n]+)&#34;?&#39;, fm, re.M)
     if m: kind = m.group(1).strip()
     kinds[kind] = kinds.get(kind, 0) + 1
-    if '## Key Concept' in body: has_sections['key'] += 1
-    if '## Examples' in body: has_sections['examples'] += 1
-    if '## Note Relationships' in body: has_sections['rels'] += 1
-    if '## See also' in body: has_sections['see_also'] += 1
-    first = body.strip().split('\n## ', 1)[0].strip()
-    if first and not first.startswith('#'): has_sections['opening'] += 1
-print('kinds', kinds)
-print('sections', has_sections)
-print('total', sum(1 for p in NOTES.glob('*.md') if p.name not in SKIP))
+    if &#39;## Key Concept&#39; in body: has_sections[&#39;key&#39;] += 1
+    if &#39;## Examples&#39; in body: has_sections[&#39;examples&#39;] += 1
+    if &#39;## Note Relationships&#39; in body: has_sections[&#39;rels&#39;] += 1
+    if &#39;## See also&#39; in body: has_sections[&#39;see_also&#39;] += 1
+    first = body.strip().split(&#39;\n## &#39;, 1)[0].strip()
+    if first and not first.startswith(&#39;#&#39;): has_sections[&#39;opening&#39;] += 1
+print(&#39;kinds&#39;, kinds)
+print(&#39;sections&#39;, has_sections)
+print(&#39;total&#39;, sum(1 for p in NOTES.glob(&#39;*.md&#39;) if p.name not in SKIP))
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
 from pathlib import Path
@@ -3821,37 +981,19 @@ sections {'key': 221, 'examples': 210, 'rels': 214, 'see_also': 218, 'opening': 
 total 223
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
@@ -3866,27 +1008,20 @@ A render-note-from-frontmatter partial will generate markdown and HTML from fron
 
 Next steps include updating validators and scripts to read frontmatter, then migrating all 223 notes. Archetypes, CMS configuration, and skills will also be updated. For meta and index notes with freeform content, that material may stay in a dedicated body field rather than being fully converted to frontmatter.
 
-The migration will strip extracted fields from the body and remove the dynamic "## See also" section. Remaining prose sections will stay in the body. Meta and index notes will keep their markdown body intact. The migration script will be written before updating Hugo templates.</details></think>
+The migration will strip extracted fields from the body and remove the dynamic "## See also" section. Remaining prose sections will stay in the body. Meta and index notes will keep their markdown body intact. The migration script will be written before updating Hugo templates.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/graph-data.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/graph-data.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -3962,13 +1097,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -3978,14 +1106,13 @@ Moving note content to frontmatter would break wikilink detection. RawContent cu
 
 A new partial will assemble markdown from frontmatter fields—summary, key_concept, examples, relationships, and remaining body text—to replace RawContent. All existing partials will be updated to use this combined content for link extraction.
 
-A migration script will parse existing note bodies, extract sections into frontmatter fields, and remove those sections from the body. Existing Python scripts will be updated to use the new effective-raw partial. The codebase parses YAML with regex rather than PyYAML.</details></think>
+A migration script will parse existing note bodies, extract sections into frontmatter fields, and remove those sections from the body. Existing Python scripts will be updated to use the new effective-raw partial. The codebase parses YAML with regex rather than PyYAML.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -4016,76 +1143,57 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/outgoing-links.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/outgoing-links.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Using PyYAML to convert all note data to Hugo frontmatter. Reading expand-genre-free-examples.py for the YAML pattern.</details></think>
+Using PyYAML to convert all note data to Hugo frontmatter. Reading expand-genre-free-examples.py for the YAML pattern.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
 from pathlib import Path
 import re
-NOTES = Path('content/english/notes')
+NOTES = Path(&#39;content/english/notes&#39;)
 
 def split_fm(text):
-    if not text.startswith('---'): return '', text
-    end = text.find('\n---', 3)
+    if not text.startswith(&#39;---&#39;): return &#39;&#39;, text
+    end = text.find(&#39;\n---&#39;, 3)
     return text[3:end], text[end+4:]
 
 def get_desc(fm):
-    m = re.search(r'^description:\s*"(.*)"\s*$', fm, re.M)
+    m = re.search(r&#39;^description:\s*&#34;(.*)&#34;\s*$&#39;, fm, re.M)
     return m.group(1) if m else None
 
 same = diff = no_open = 0
-for p in NOTES.glob('*.md'):
-    if p.name == '_index.md': continue
+for p in NOTES.glob(&#39;*.md&#39;):
+    if p.name == &#39;_index.md&#39;: continue
     fm, body = split_fm(p.read_text())
     desc = get_desc(fm)
-    opening = body.strip().split('\n## ', 1)[0].strip()
+    opening = body.strip().split(&#39;\n## &#39;, 1)[0].strip()
     if not opening: no_open += 1; continue
-    if desc and opening.replace('**','').strip() == desc.strip(): same += 1
+    if desc and opening.replace(&#39;**&#39;,&#39;&#39;).strip() == desc.strip(): same += 1
     elif desc and opening[:60] == desc[:60]: same += 1
     else: diff += 1
-print(f'same~: {same}, diff: {diff}, no_opening: {no_open}')
+print(f&#39;same~: {same}, diff: {diff}, no_opening: {no_open}&#39;)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
 from pathlib import Path
@@ -4119,24 +1227,12 @@ PY
 same~: 17, diff: 206, no_opening: 0
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/expand-genre-free-examples.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/expand-genre-free-examples.py</summary>
 
 </details></tool-use>
 
@@ -4163,31 +1259,20 @@ The assembled-content partial now returns the joined markdown string. The relati
 
 The relationships field will use `type` instead of `relationship` to avoid Hugo conflicts. The migration schema defines each entry as a map with `type`, `wikilink`, and `reason`. A custom PyYAML SafeDumper representer will force double quotes on all strings to preserve card formatting during migration.
 
-A custom string representer will use literal pipe style for multiline values and quoted style for special characters. Frontmatter keys will be ordered explicitly for readability. The note archetype and admin config will be updated to place new fields before the body.</details></think>
+A custom string representer will use literal pipe style for multiline values and quoted style for special characters. Frontmatter keys will be ordered explicitly for readability. The note archetype and admin config will be updated to place new fields before the body.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks-index.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks-index.html</summary>
 
 </details></tool-use>
 
@@ -4202,7 +1287,8 @@ Frontmatter keys will follow a fixed order. Relationships will dump as nested YA
 
 The relationship-types partial will read frontmatter first. Missing-table detection counts frontmatter relationships as present. Extra-section scanning stays limited to RawContent. copy-markdown already preserves frontmatter fields. The migration script and Hugo changes will be implemented next. Literal blocks in key_concept will preserve newlines.
 
-Hugo supports nested frontmatter parameters. PyYAML may reorder keys alphabetically, so a custom dump function is needed to preserve the intended field order. The expand-genre script already uses yaml.safe_load and string manipulation for its examples section.</details></think>
+Hugo supports nested frontmatter parameters. PyYAML may reorder keys alphabetically, so a custom dump function is needed to preserve the intended field order. The expand-genre script already uses yaml.safe_load and string manipulation for its examples section.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4211,10 +1297,8 @@ Implementing frontmatter schema, a migration script, and Hugo templates so struc
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="todo_write">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
 <summary>Tool use: **todo_write**</summary>
-
 
 Parameters:
 
@@ -4259,231 +1343,123 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
-<summary>Tool use: **todo_write**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-content.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-content.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Creating a migration script and Hugo partial to move note data into frontmatter.</details></think>
+Creating a migration script and Hugo partial to move note data into frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The migrate script import needs fixing. The module name should match the filename `notes-content.py`.</details></think>
+The migrate script import needs fixing. The module name should match the filename `notes-content.py`.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: mv /home/jorap/Documents/GitHub/jorap.com/scripts/notes-content.py /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: mv /home/jorap/Documents/GitHub/jorap.com/scripts/notes-content.py /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 ```bash
 mv /home/jorap/Documents/GitHub/jorap.com/scripts/notes-content.py /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/relationship-types.html</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/relationship-types.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating outgoing-links, graph-data, collect-note-issues, toc, and backlinks-index. Then running the migration.</details></think>
+Updating outgoing-links, graph-data, collect-note-issues, toc, and backlinks-index. Then running the migration.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/outgoing-links.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/outgoing-links.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks-index.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks-index.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/graph-data.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/graph-data.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py 2>&1 | tail -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-notes-to-frontmatter.py 2&gt;&amp;1 | tail -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py 2>&1 | tail -20
 ```
@@ -4511,32 +1487,19 @@ workplace-principles.md: summary, key_concept, relationships
 updated 223 files
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py --verify 2>&1</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-notes-to-frontmatter.py --verify 2&gt;&amp;1</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py --verify 2>&1
 ```
@@ -4547,19 +1510,12 @@ FAIL body still has ## Examples: getting-started.md
 FAIL body still has ## Note Relationships: getting-started.md
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && node scripts/noteFileDates.js && hugo --gc 2>&1 | tail -30</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | tail -30</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && node scripts/noteFileDates.js && hugo --gc 2>&1 | tail -30
 ```
@@ -4583,42 +1539,25 @@ hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 Buil
 Total in 25357 ms
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The Hugo build succeeded. However, getting-started.md still contains body headings instead of frontmatter. I will read that file to diagnose the issue.</details></think>
+The Hugo build succeeded. However, getting-started.md still contains body headings instead of frontmatter. I will read that file to diagnose the issue.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
@@ -4629,7 +1568,8 @@ The verify script is too strict. ## mentions in prose documentation are expected
 
 Verify will be fixed to only check for actual section headers at line start after migration. The dump script will be updated to consistently quote string fields such as title, author, and slug. Re-running migration is not possible because note bodies were emptied during the process.
 
-A separate normalization script will fix YAML quoting across all frontmatter. Several supporting scripts and documentation need updates to match the new frontmatter structure.</details></think>
+A separate normalization script will fix YAML quoting across all frontmatter. Several supporting scripts and documentation need updates to match the new frontmatter structure.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -4638,72 +1578,42 @@ Fixing YAML quoting and updating scripts and docs. Hugo build succeeded; tighten
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-note-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-note-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Rewriting sync-note-relationships.py to handle frontmatter relationships. The core logic needs significant changes.</details></think>
+Rewriting sync-note-relationships.py to handle frontmatter relationships. The core logic needs significant changes.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-note-frontmatter.py 2>&1 | tail -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-note-frontmatter.py 2&gt;&amp;1 | tail -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-note-frontmatter.py 2>&1 | tail -5
 ```
@@ -4716,337 +1626,183 @@ workplace-principles.md
 rewrote 223 files
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating sync-note-relationships.py to use frontmatter. Rewriting process_file to use YAML and notes_content helpers.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating sync-note-relationships.py to use frontmatter. Rewriting process_file to use YAML and notes_content helpers.</details></think>
+Updating `normalize-notes-format.py` to process frontmatter examples and relationships rather than body sections. Adjusting `sync-note-flashcards` to use assembled content from frontmatter.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
 
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
+</details></tool-use>
 
-</details>
-
-</tool-use>
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating `normalize-notes-format.py` to process frontmatter examples and relationships rather than body sections. Adjusting `sync-note-flashcards` to use assembled content from frontmatter.</details></think>
+Updating the archetype to use frontmatter fields. Adjusting the admin configuration. Fixing the getting-started atomic rule section.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating the archetype to use frontmatter fields. Adjusting the admin configuration. Fixing the getting-started atomic rule section.</details></think>
+Updating lint-utility-wikilinks and export-okf to use assemble_markdown. This will include frontmatter fields for all note data.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<think><details><summary>Thought Process</summary>
-Updating lint-utility-wikilinks and export-okf to use assemble_markdown. This will include frontmatter fields for all note data.</details></think>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
+
+</details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
 The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5077,230 +1833,123 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
 
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+</details></tool-use>
 
-</details>
+_**Agent (auto-low)**_
 
-</tool-use>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
 The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating flashcards.md to document the frontmatter schema for atomic notes. Then running verify scripts and building with Hugo.</details></think>
+Updating flashcards.md to document the frontmatter schema for atomic notes. Then running verify scripts and building with Hugo.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py --verify && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-utility-wikilinks.py && npm run lint:cards 2>&1 | tail -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-notes-to-frontmatter.py --verify &amp;&amp; python3 scripts/normalize-notes-format.py --verify &amp;&amp; python3 scripts/lint-utility-wikilinks.py &amp;&amp; npm run lint:cards 2&gt;&amp;1 | tail -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py --verify && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-utility-wikilinks.py && npm run lint:cards 2>&1 | tail -15
 ```
 
 ```
 Traceback (most recent call last):
-  File "/home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py", line 102, in &lt;module&gt;
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py", line 102, in <module>
     sys.exit(main())
              ^^^^^^
   File "/home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py", line 84, in main
@@ -5312,19 +1961,12 @@ Traceback (most recent call last):
 NameError: name 're' is not defined. Did you forget to import 're'?
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && node scripts/noteFileDates.js && hugo --gc 2>&1 | tail -15</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --gc 2&gt;&amp;1 | tail -15</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && node scripts/noteFileDates.js && hugo --gc 2>&1 | tail -15
 ```
@@ -5348,69 +1990,44 @@ hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 Buil
 Total in 20503 ms
 
 ```
-</details>
-</tool-use>
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-The string to replace was not found in the file.
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py --verify && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-utility-wikilinks.py && npm run lint:cards 2>&1 | tail -10</summary>
-
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-notes-to-frontmatter.py --verify &amp;&amp; python3 scripts/normalize-notes-format.py --verify &amp;&amp; python3 scripts/lint-utility-wikilinks.py &amp;&amp; npm run lint:cards 2&gt;&amp;1 | tail -10</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py --verify && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-utility-wikilinks.py && npm run lint:cards 2>&1 | tail -10
 ```
 
 ```
 Traceback (most recent call last):
-  File "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py", line 8, in &lt;module&gt;
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py", line 8, in <module>
     ROOT = Path(__file__).resolve().parents[1]
            ^^^^
 NameError: name 'Path' is not defined
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="todo_write">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
 <summary>Tool use: **todo_write**</summary>
-
 
 Parameters:
 
@@ -5483,119 +2100,68 @@ Result:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
-<summary>Tool use: **todo_write**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-
-</tool-use>
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The file became corrupted during edits.</details></think>
+The file became corrupted during edits.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py --verify && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-utility-wikilinks.py && npm run lint:cards 2>&1 | tail -8</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-notes-to-frontmatter.py --verify &amp;&amp; python3 scripts/normalize-notes-format.py --verify &amp;&amp; python3 scripts/lint-utility-wikilinks.py &amp;&amp; npm run lint:cards 2&gt;&amp;1 | tail -8</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-notes-to-frontmatter.py --verify && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-utility-wikilinks.py && npm run lint:cards 2>&1 | tail -8
 ```
 
 ```
 Utility wikilinks OK
-&gt; jorap-com@2.2.0 lint:cards
-&gt; python3 scripts/lint-flashcard-frontmatter.py
+> jorap-com@2.2.0 lint:cards
+> python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter errors:
   content/english/notes/joy.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Good week and I feel spiritually qualified. Galatians joy or…
@@ -5604,36 +2170,26 @@ Flashcard frontmatter errors:
   content/english/notes/staged-rollout.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): New layout ready - push straight to main or preview branch f…
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Migration verification passed. Card lint errors are pre-existing and unrelated to these changes.</details></think>
+Migration verification passed. Card lint errors are pre-existing and unrelated to these changes.
+</details></think>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-note-relationships.md has corrupted data. Truncated text merged into key_concept on line 14. Examples began on line 15.</details></think>
+note-relationships.md has corrupted data. Truncated text merged into key_concept on line 14. Examples began on line 15.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5642,31 +2198,15 @@ Fixing corrupted `key_concept` in `note-relationships.md` from a pre-existing pa
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
@@ -5738,7 +2278,8 @@ SUMMARY
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user reports a garden link issue from their notes garden audit.</details></think>
+The user reports a garden link issue from their notes garden audit.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -5747,23 +2288,15 @@ Checking the Note Relationships note and what a valid `contradicts` row should l
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5794,25 +2327,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/associative-linking.md</summary>
 
 </details></tool-use>
 
@@ -5821,14 +2341,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The Note Relationships table is missing a `contradicts` row. It currently shows `alternative`, `extends`, and `implements` entries.
 
-Checking the ADD dictionary and key_concept examples to determine what contradicts entry fits.</details></think>
+Checking the ADD dictionary and key_concept examples to determine what contradicts entry fits.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5871,25 +2390,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
 
 </details></tool-use>
 
@@ -5900,14 +2406,13 @@ The note covers typed frontmatter relationships such as extends, contradicts, im
 
 Evaluating candidates for the contradicts row. Associative Linking and Maps of Content are being considered. Getting Started was ruled out. Signal-vs-noise and note-relationships provide useful reference patterns.
 
-Graph View Analytics was ruled out as alternative territory. The strongest candidate for contradicts is plain Associative Linking, which questions whether typing every edge is necessary when the graph still functions without it. The row should ask what tradeoff this approach pushes against.</details></think>
+Graph View Analytics was ruled out as alternative territory. The strongest candidate for contradicts is plain Associative Linking, which questions whether typing every edge is necessary when the graph still functions without it. The row should ask what tradeoff this approach pushes against.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -5959,25 +2464,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
 
 </details></tool-use>
 
@@ -5986,31 +2478,20 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Drafting a contradicts row for the Note Relationships table. The note covers typed relationships such as extends, contradicts, implements, and alternative. Now weighing the tradeoffs.
 
-Evaluating two tradeoffs for the contradicts row. One is Maps of Content: hub curation may outperform typed frontmatter relationships. The other is Associative Linking: plain wikilinks might suffice without typed rows. Graph View Analytics is also considered as a third alternative.</details></think>
+Evaluating two tradeoffs for the contradicts row. One is Maps of Content: hub curation may outperform typed frontmatter relationships. The other is Associative Linking: plain wikilinks might suffice without typed rows. Graph View Analytics is also considered as a third alternative.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
 
 </details></tool-use>
 
@@ -6021,7 +2502,8 @@ The missing contradicts row belongs to Maps of Content. Its claim that a hand-cu
 
 A better contradicts match may be **Associative Linking**, which claims plain wikilinks grow the graph without typed rows. This directly challenges Maps of Content's thesis that typed frontmatter edges are needed. The Getting Things Done style was rejected.
 
-Using the same target for both implements and contradicts would be awkward. The contradiction will instead point to Maps of Content itself. PARA Method is already covered by another entry.</details></think>
+Using the same target for both implements and contradicts would be awkward. The contradiction will instead point to Maps of Content itself. PARA Method is already covered by another entry.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6030,48 +2512,31 @@ Adding the missing `contradicts` row to Note Relationships — typed links vs. a
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
 import yaml
 from pathlib import Path
-text = Path('content/english/notes/note-relationships.md').read_text()
-fm = yaml.safe_load(text.split('---')[1])
-types = {r['type'] for r in fm.get('relationships', [])}
-print('types:', sorted(types))
-print('has contradicts:', 'contradicts' in types)
-print('has extends:', 'extends' in types)
+text = Path(&#39;content/english/notes/note-relationships.md&#39;).read_text()
+fm = yaml.safe_load(text.split(&#39;---&#39;)[1])
+types = {r[&#39;type&#39;] for r in fm.get(&#39;relationships&#39;, [])}
+print(&#39;types:&#39;, sorted(types))
+print(&#39;has contradicts:&#39;, &#39;contradicts&#39; in types)
+print(&#39;has extends:&#39;, &#39;extends&#39; in types)
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
 import yaml
@@ -6091,24 +2556,12 @@ has contradicts: False
 has extends: False
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details></tool-use>
 
@@ -6137,7 +2590,8 @@ tables have alternating shading.
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Evaluating whether the user wants alternating row shading added to tables.</details></think>
+Evaluating whether the user wants alternating row shading added to tables.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -6146,10 +2600,8 @@ Searching how tables are styled on the site.
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6213,34 +2665,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6283,21 +2720,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6344,34 +2772,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6478,13 +2891,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6492,14 +2898,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The header row uses `prose-thead:bg-elevated` in components.css.
 
-No explicit alternating row shading exists in the theme. Tailwind typography or Bootstrap hybrid may be adding default stripes. The user likely wants either alternating shading added or removed.</details></think>
+No explicit alternating row shading exists in the theme. Tailwind typography or Bootstrap hybrid may be adding default stripes. The user likely wants either alternating shading added or removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6530,22 +2935,14 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **15** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets** (15 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets`** (15 files)
 
 | File |
 |------|
@@ -6564,21 +2961,12 @@ Directory: **/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets** (15 fi
 | `js/main.js` |
 | `plugins/swiper/swiper-bundle.js` |
 | `css/module-overrides.css` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6685,26 +3073,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking Tailwind Typography plugin for table row striping. Bootstrap table-striped may work for a hybrid setup.</details></think>
+Checking Tailwind Typography plugin for table row striping. Bootstrap table-striped may work for a hybrid setup.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6730,34 +3110,19 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6784,25 +3149,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details></tool-use>
 
@@ -6811,14 +3163,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The eternal-principles page contains tables in its body.
 
-Alternating table shading likely comes from Tailwind v4 prose-tr:border-divider or elevated thead backgrounds. The Note Relationships table may be affected.</details></think>
+Alternating table shading likely comes from Tailwind v4 prose-tr:border-divider or elevated thead backgrounds. The Note Relationships table may be affected.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6870,20 +3221,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>/dev/null; rg -o '.{0,120}tbody tr.{0,120}|nth-child.{0,80}table|prose-tbody' public/css/*.css 2>/dev/null | head -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet 2&gt;/dev/null; rg -o &#39;.{0,120}tbody tr.{0,120}|nth-child.{0,80}table|prose-tbody&#39; public/css/*.css 2&gt;/dev/null | head -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>/dev/null; rg -o '.{0,120}tbody tr.{0,120}|nth-child.{0,80}table|prose-tbody' public/css/*.css 2>/dev/null | head -20
 ```
@@ -6898,25 +3241,15 @@ public/css/style.min.280d46203224b15503e098e6d5f5b34e0eb61813ae91cca82450d4ca055
 public/css/style.min.280d46203224b15503e098e6d5f5b34e0eb61813ae91cca82450d4ca055707cb.css:lign: bottom; padding-inline-end: 0.5714286em; padding-bottom: 0.5714286em; padding-inline-start: 0.5714286em; } :where(tbody tr):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 1px; border-bottom-color: var(--tw-pr
 public/css/style.min.280d46203224b15503e098e6d5f5b34e0eb61813ae91cca82450d4ca055707cb.css:ose-td-borders); } :where(tbody tr:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 0; } :where(tbody td):not(
 public/css/style.min.336ed3458215d9f4d89448573dd2d6109b03d5213770dafb1556b583806ac44b.css:lign: bottom; padding-inline-end: 0.5714286em; padding-bottom: 0.5714286em; padding-inline-start: 0.5714286em; } :where(tbody tr):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 1px; border-bottom-color: var(--tw-pr
-public/css/style.min.336ed3458215d9f4d89448573dd2d6109b03d5213770dafb1556b583806ac44b.css:ose-td-borders); } :where(tbody tr:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 0; } :where(tbody td):not(
-public/css/style.min.336ed3458215d9f4d89448573dd2d6109b03d5213770dafb1556b583806ac44b.css:lign: bottom; padding-inline-end: 0.5714286em; padding-bottom: 0.5714286em; padding-inline-start: 0.5714286em; } :where(tbody tr):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 1px; border-bottom-color: var(--tw-pr
-public/css/style.min.336ed3458215d9f4d89448573dd2d6109b03d5213770dafb1556b583806ac44b.css:ose-td-borders); } :where(tbody tr:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 0; } :where(tbody td):not(
-
+public/css/style.min.336ed3458215d9f4d89448573dd2d6109b03d52137
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -6947,13 +3280,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -6963,54 +3289,28 @@ The CSS currently lacks alternating row shading. This appears to be a request fo
 
 The phrase "tables have alternating shading" uses present tense. This suggests the user sees existing striping and may want it removed rather than added.
 
-Body rows have no background color, so alternating bands likely come from thead elevation or divider borders. The markdown table may also render without proper thead/tbody structure.</details></think>
+Body rows have no background color, so alternating bands likely come from thead elevation or divider borders. The markdown table may also render without proper thead/tbody structure.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg -A30 'note-relationships' public/notes/note-relationships/index.html 2>/dev/null | rg -i 'table|thead|tbody|tr' | head -20</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -A30 &#39;note-relationships&#39; public/notes/note-relationships/index.html 2&gt;/dev/null | rg -i &#39;table|thead|tbody|tr&#39; | head -20</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg -A30 'note-relationships' public/notes/note-relationships/index.html 2>/dev/null | rg -i 'table|thead|tbody|tr' | head -20
 ```
 
 ```
-&lt;meta name="twitter:description" content="Four pair types in frontmatter - extends, contradicts, implements, alternative. Hub and utility pages use note_kind flags." /&gt;
-      &lt;script type="application/json" class="notes-graph-data"&gt;{"edges":[{"source":"/notes/reconcile-before-the-review/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/reconcile-before-the-review/","target":"/notes/note-relationships/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/note-relationships/"},{"source":"/notes/eternal-principles/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/eternal-principles/","target":"/notes/note-relationships/"},{"source":"/notes/eternal-principles/","target":"/notes/getting-started/"},{"source":"/notes/eternal-principles/","target":"/notes/associative-linking/"},{"source":"/notes/eternal-principles/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/eternal-principles/","target":"/notes/signal-vs-noise/"},{"source":"/notes/eternal-principles/","target":"/notes/slow-productivity/"},{"source":"/notes/note-relationships/","target":"/notes/analog-capture-tools/"},{"source":"/notes/note-relationships/","target":"/notes/associative-linking/"},{"source":"/notes/note-relationships/","target":"/notes/capture/"},{"source":"/notes/note-relationships/","target":"/notes/maps-of-content/"},{"source":"/notes/note-relationships/","target":"/notes/mobile-capture-workflows/"},{"source":"/notes/note-relationships/","target":"/notes/para-method/"},{"source":"/notes/note-relationships/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/note-relationships/","target":"/notes/signal-vs-noise/"},{"source":"/notes/note-relationships/","target":"/notes/slow-productivity/"},{"source":"/notes/note-relationships/","target":"/notes/the-12-week-year/"},{"source":"/notes/note-relationships/","target":"/notes/weekly-review-checklists/"},{"source":"/notes/getting-started/","target":"/notes/eternal-principles/"},{"source":"/notes/getting-started/","target":"/notes/note-relationships/"},{"source":"/notes/getting-started/","target":"/notes/maps-of-content/"},{"source":"/notes/getting-started/","target":"/notes/para-method/"},{"source":"/notes/analog-capture-tools/","target":"/notes/eternal-principles/"},{"source":"/notes/analog-capture-tools/","target":"/notes/capture/"},{"source":"/notes/analog-capture-tools/","target":"/notes/mobile-capture-workflows/"},{"source":"/notes/associative-linking/","target":"/notes/para-method/"},{"source":"/notes/capture/","target":"/notes/signal-vs-noise/"},{"source":"/notes/maps-of-content/","target":"/notes/getting-started/"},{"source":"/notes/maps-of-content/","target":"/notes/analog-capture-tools/"},{"source":"/notes/maps-of-content/","target":"/notes/associative-linking/"},{"source":"/notes/maps-of-content/","target":"/notes/capture/"},{"source":"/notes/maps-of-content/","target":"/notes/mobile-capture-workflows/"},{"source":"/notes/maps-of-content/","target":"/notes/para-method/"},{"source":"/notes/maps-of-content/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/maps-of-content/","target":"/notes/signal-vs-noise/"},{"source":"/notes/maps-of-content/","target":"/notes/weekly-review-checklists/"},{"source":"/notes/mobile-capture-workflows/","target":"/notes/analog-capture-tools/"},{"source":"/notes/mobile-capture-workflows/","target":"/notes/capture/"},{"source":"/notes/para-method/","target":"/notes/associative-linking/"},{"source":"/notes/signal-vs-noise/","target":"/notes/capture/"},{"source":"/notes/slow-productivity/","target":"/notes/the-12-week-year/"},{"source":"/notes/the-12-week-year/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/the-12-week-year/","target":"/notes/slow-productivity/"},{"source":"/notes/weekly-review-checklists/","target":"/notes/periodic-knowledge-review/"}],"focus":"/notes/note-relationships/","mode":"local","nodes":[{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/reconcile-before-the-review/","inDegree":1,"middle":true,"orphan":false,"outDegree":6,"primaryCategory":"Productivity","primaryTag":"Workplace","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":true,"relIndex":false,"title":"Reconcile Before the Review","top":false,"totalDegree":7,"url":"/notes/reconcile-before-the-review/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/reconciliation-before-worship/","inDegree":4,"middle":true,"orphan":false,"outDegree":6,"primaryCategory":"Faith","primaryTag":"Gospel","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":true,"relIndex":false,"title":"Reconciliation Before Worship","top":false,"totalDegree":10,"url":"/notes/reconciliation-before-worship/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/eternal-principles/","inDegree":7,"middle":false,"orphan":false,"outDegree":65,"primaryCategory":"Faith","primaryTag":"Gospel","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":true,"title":"Eternal Principles","top":true,"totalDegree":72,"url":"/notes/eternal-principles/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/note-relationships/","inDegree":4,"middle":true,"orphan":false,"outDegree":11,"primaryCategory":"Productivity","primaryTag":"Linking","relAlternative":true,"relContradicts":true,"relExtends":true,"relImplements":true,"relIndex":false,"title":"Note Relationships","top":false,"totalDegree":15,"url":"/notes/note-relationships/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/getting-started/","inDegree":6,"middle":true,"orphan":false,"outDegree":7,"primaryCategory":"Productivity","primaryTag":"Notes","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":true,"title":"Getting Started","top":false,"totalDegree":13,"url":"/notes/getting-started/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/analog-capture-tools/","inDegree":5,"middle":true,"orphan":false,"outDegree":5,"primaryCategory":"Productivity","primaryTag":"Analog","relAlternative":true,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":false,"title":"Analog Capture Tools","top":false,"totalDegree":10,"url":"/notes/analog-capture-tools/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/associative-linking/","inDegree":8,"middle":true,"orphan":false,"outDegree":4,"primaryCategory":"Productivity","primaryTag":"Linking","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":false,"title":"Associative Linking","top":false,"totalDegree":12,"url":"/notes/associative-linking/"},{"bottom":false,"deadEnd":false,"hub":true,"id":"/notes/capture/","inDegree":21,"middle":false,"orphan":false,"outDegree":3,"primaryCategory":"Productivity","primaryTag":"Capture","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":true,"relIndex":false,"title":"Capture","top":true,"totalDegree":24,"url":"/notes/capture/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/maps-of-content/","inDegree":7,"middle":false,"orphan":false,"outDegree":30,"primaryCategory":"Productivity","primaryTag":"MOC","relAlternative":false,"relContradicts":false,"relExtends":false,"relImplements":false,"relIndex":true,"title":"Maps of Content","top":true,"totalDegree":37,"url":"/notes/maps-of-content/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/mobile-capture-workflows/","inDegree":7,"middle":true,"orphan":false,"outDegree":3,"primaryCategory":"Productivity","primaryTag":"Mobile","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":false,"title":"Mobile Capture Workflows","top":false,"totalDegree":10,"url":"/notes/mobile-capture-workflows/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/para-method/","inDegree":7,"middle":true,"orphan":false,"outDegree":3,"primaryCategory":"Productivity","primaryTag":"PARA","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":false,"title":"PARA Method","top":false,"totalDegree":10,"url":"/notes/para-method/"},{"bottom":false,"deadEnd":false,"hub":true,"id":"/notes/periodic-knowledge-review/","inDegree":12,"middle":true,"orphan":false,"outDegree":4,"primaryCategory":"Productivity","primaryTag":"Review","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":false,"title":"Periodic Knowledge Review","top":false,"totalDegree":16,"url":"/notes/periodic-knowledge-review/"},{"bottom":false,"deadEnd":false,"hub":true,"id":"/notes/signal-vs-noise/","inDegree":14,"middle":false,"orphan":false,"outDegree":4,"primaryCategory":"Productivity","primaryTag":"Signal vs Noise","relAlternative":true,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":false,"title":"Signal vs Noise","top":true,"totalDegree":18,"url":"/notes/signal-vs-noise/"},{"bottom":false,"deadEnd":false,"hub":true,"id":"/notes/slow-productivity/","inDegree":12,"middle":false,"orphan":false,"outDegree":5,"primaryCategory":"Productivity","primaryTag":"Slow Productivity","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":false,"title":"Slow Productivity","top":true,"totalDegree":17,"url":"/notes/slow-productivity/"},{"bottom":false,"deadEnd":false,"hub":true,"id":"/notes/the-12-week-year/","inDegree":9,"middle":true,"orphan":false,"outDegree":3,"primaryCategory":"Productivity","primaryTag":"12 Week Year","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":false,"relIndex":false,"title":"The 12 Week Year","top":false,"totalDegree":12,"url":"/notes/the-12-week-year/"},{"bottom":false,"deadEnd":false,"hub":false,"id":"/notes/weekly-review-checklists/","inDegree":7,"middle":true,"orphan":false,"outDegree":3,"primaryCategory":"Productivity","primaryTag":"Weekly Review","relAlternative":false,"relContradicts":true,"relExtends":true,"relImplements":true,"relIndex":false,"title":"Weekly Review Checklists","top":false,"totalDegree":10,"url":"/notes/weekly-review-checklists/"}]}&lt;/script&gt;
-        &lt;span class="published-section-header-icon" aria-hidden="true"&gt;
-          &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"&gt;
-          &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-arrow-up-right" aria-hidden="true"&gt;
-          &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork" aria-hidden="true"&gt;
-      &lt;script type="application/json" class="notes-copy-data"&gt;{"source":"---\ntitle: \"Note Relationships\"\nmeta_title: \"Note Relationships - Four Link Types for the Garden\"\ndescription: \"Four pair types in frontmatter - extends, contradicts, implements, alternative. Hub and utility pages use note_kind flags.\"\nsummary: \"Four pair types in &#96;relationships&#96; frontmatter - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use &#96;note_kind: index&#96; (not a row). **Utility pages** use &#96;note_kind: meta&#96; - link by URL, not wikilink.\"\nkey_concept: |\n  | Type | Question | Example |\n  |------|----------|---------|\n  | **extends** | What does this build on? | [[Signal vs Noise]] extends [[Capture]] |\n  | **contradicts** | What tradeoff does this push against? | [[Slow Productivity]] contradicts [[The 12 Week Year]] when fewer deep projects beat quarterly sprints |\n  | **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |\n  | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |\n  \n  Every atomic note carries a one-breath definition in &#96;summary&#96;, angle in &#96;key_concept&#96;, two scenes in &#96;examples&#96;, and typed links in &#96;relationships&#96; frontmatter — not body sections.\nexamples:\n  - \"I'm updating the family chore chart and add \\\"feeds into: Saturday yard work\\\" next to \\\"take out trash\\\" plus \\\"conflicts with: bedtime when done late\\\" before I tape it to the fridge.\"\n  - \"The coach's whiteboard lists \\\"feeds into: secondary break\\\" beside each drill - players see how today's reps connect before they leave the gym.\"\nrelationships:\n  - type: alternative\n    wikilink: \"[[PARA Method]]\"\n    reason: \"Body link types vs folder sort when typed links beat project buckets\"\n  - type: contradicts\n    wikilink: \"[[Maps of Content]]\"\n    reason: \"when a hand-curated hub beats typing every edge in frontmatter\"\n  - type: extends\n    wikilink: \"[[Link Typing]]\"\n    reason: \"Generic PKM term for what this page formalizes\"\n  - type: implements\n    wikilink: \"[[Associative Linking]]\"\n    reason: \"Typed rows carry vague wikilinks into named push and pull\"\nslug: \"note-relationships\"\ndate: \"2026-06-19 08:00:00+00:00\"\nimage: \"/images/note.jpg\"\ncategories: [\"Productivity\", \"Ideas\", \"Tips\"]\nauthor: \"JoRap\"\ntags: [\"Linking\", \"PKM\", \"Note Taking\", \"Digital Garden\", \"Meta\"]\naliases: [\"link types\", \"Link Typing\"]\nfeatured: false\nreview: true\ncard_sets: [\"Linking\", \"Writing\"]\ncards:\n  - front: \"New note builds on an older atomic claim - typing the connection in the body now. One relationship word?\"\n    back: \"Type extends in the body.\"\n  - front: \"This note pushes against a slower-work philosophy I named in the body. One typed link for that tension?\"\n    back: \"Link as contradicts.\"\n  - front: \"Weekly checklist makes a review habit real in my notes. Link type that says this note carries it out?\"\n    back: \"Link as implements.\"\n  - front: \"Hub page gathering twenty related notes under one roof. Frontmatter flag, not a table row?\"\n    back: \"Set note_kind: index.\"\n  - front: \"Atomic note ready to publish - minimum typed links before filing?\"\n    back: \"One extends, one contradicts.\"\n  - front: \"Two tools solve the same job - picking one for this note. Link type for the other tool?\"\n    back: \"Link the other as alternative.\"\ndraft: false\n---\n\n"}&lt;/script&gt;
-        &lt;script type="application/json" class="notes-copy-data"&gt;{"source":"---\ntype: Concept\ntitle: Note Relationships\ndescription: \"Four pair types in the body table - extends, contradicts, implements, alternative. Hub and utility pages use note_kind flags.\"\nresource: \"https://www.jorap.com/notes/note-relationships/\"\ntags: [\"Linking\", \"PKM\", \"Note Taking\", \"Digital Garden\", \"Meta\"]\ntimestamp: \"2026-06-19T08:00:00Z\"\n---\n**Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use &#96;note_kind: index&#96; in frontmatter (not a row). **Utility pages** use &#96;note_kind: meta&#96; - link by URL, not wikilink.\n\n| Type | Question | Example |\n|------|----------|---------|\n| **extends** | What does this build on? | [Signal vs Noise](/concepts/signal-vs-noise.md) extends [Capture](/concepts/capture.md) |\n| **contradicts** | What tradeoff does this push against? | [Slow Productivity](/concepts/slow-productivity.md) contradicts [The 12 Week Year](/concepts/the-12-week-year.md) when fewer deep projects beat quarterly sprints |\n| **implements** | What makes this real? | [Weekly Review Checklists](/concepts/weekly-review-checklists.md) implements [Periodic Knowledge Review](/concepts/periodic-knowledge-review.md) |\n| **alternative** | What else could do this job? | [Mobile Capture Workflows](/concepts/mobile-capture-workflows.md) alternative to [Analog Capture Tools](/concepts/analog-capture-tools.md) |\n\nEvery atomic note (&#96;note_kind: note&#96;, the default) carries opening prose, optional **## Examples** (four concrete scenes - sports, non-technical work, home with children, real world), and a **## Note Relationships** table sorted by type: **alternative**, **contradicts**, **extends**, **implements**. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason** (what this builds on; a **when** clause on contradicts). Add **implements** and **alternative** when they fit. Broken wikilinks to obvious missing notes are fine - they flag future pages. \"Pairs with\" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a fifth type.\n\n## Examples\n\n- I'm updating the family chore chart and add \"feeds into: Saturday yard work\" next to \"take out trash\" plus \"conflicts with: bedtime when done late\" before I tape it to the fridge.\n- The coach's whiteboard lists \"feeds into: secondary break\" beside each drill - players see how today's reps connect before they leave the gym.\n- The restaurant shift board marks \"feeds into: closing count\" next to prep tasks and \"conflicts with: rush hour\" on deep cleans - two rows, named tension, everyone can read it.\n- The condo bulletin board lists \"feeds into: parking sticker renewal\" beside move-in steps and \"conflicts with: weekend gate hours\" on late deliveries - typed links on paper, same idea.\n- This note pushes against a slower-work philosophy I named in the body. One typed link for that tension - Link as contradicts.\n\n## Note Relationships\n\n| Relationship | Wikilink | Reason |\n|--------------|----------|--------|\n| alternative | [PARA Method](/concepts/para-method.md) | Body link types vs folder sort when typed links beat project buckets |\n| extends | [Note Relationships](/concepts/note-relationships.md) | Generic PKM term for what this page formalizes |\n| implements | [Associative Linking](/concepts/associative-linking.md) | Typed rows carry vague wikilinks into named push and pull |\n"}&lt;/script&gt;
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm"
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm"
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm"
-          class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1 text-sm"
-                &lt;div class="table-of-content toc-links"&gt;&lt;nav id="TableOfContents"&gt;&lt;ol&gt;&lt;li class="toc-level-2"&gt;&lt;a href="#key-concept"&gt;Key Concept&lt;/a&gt;&lt;/li&gt;&lt;li class="toc-level-2"&gt;&lt;a href="#examples"&gt;Examples&lt;/a&gt;&lt;/li&gt;&lt;li class="toc-level-2"&gt;&lt;a href="#note-relationships"&gt;Note Relationships&lt;/a&gt;&lt;/li&gt;&lt;li class="toc-level-2"&gt;&lt;a href="#flashcards"&gt;Flashcards&lt;/a&gt;&lt;/li&gt;&lt;li class="toc-level-2"&gt;&lt;a href="#links-from-this-note"&gt;Links from this Note&lt;/a&gt;&lt;/li&gt;&lt;li class="toc-level-2"&gt;&lt;a href="#backlinks"&gt;Backlinks&lt;/a&gt;&lt;/li&gt;&lt;li class="toc-level-2"&gt;&lt;a href="#related-posts"&gt;Related Posts&lt;/a&gt;&lt;/li&gt;&lt;li class="toc-level-2"&gt;&lt;a href="#random-note"&gt;Random Note&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;
-              &lt;p&gt;Four pair types in &lt;code&gt;relationships&lt;/code&gt; frontmatter - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. &lt;strong&gt;Hub/MOC pages&lt;/strong&gt; use &lt;code&gt;note_kind: index&lt;/code&gt; (not a row). &lt;strong&gt;Utility pages&lt;/strong&gt; use &lt;code&gt;note_kind: meta&lt;/code&gt; - link by URL, not wikilink.&lt;/p&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-
+<meta name="twitter:description" content="Four pair types in frontmatter - extends, contradicts, implements, alternative. Hub and utility pages use note_kind flags." />
+      <script type="application/json" class="notes-graph-data">{"edges":[{"source":"/notes/reconcile-before-the-review/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/reconcile-before-the-review/","target":"/notes/note-relationships/"},{"source":"/notes/reconciliation-before-worship/","target":"/notes/note-relationships/"},{"source":"/notes/eternal-principles/","target":"/notes/reconciliation-before-worship/"},{"source":"/notes/eternal-principles/","target":"/notes/note-relationships/"},{"source":"/notes/eternal-principles/","target":"/notes/getting-started/"},{"source":"/notes/eternal-principles/","target":"/notes/associative-linking/"},{"source":"/notes/eternal-principles/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/eternal-principles/","target":"/notes/signal-vs-noise/"},{"source":"/notes/eternal-principles/","target":"/notes/slow-productivity/"},{"source":"/notes/note-relationships/","target":"/notes/analog-capture-tools/"},{"source":"/notes/note-relationships/","target":"/notes/associative-linking/"},{"source":"/notes/note-relationships/","target":"/notes/capture/"},{"source":"/notes/note-relationships/","target":"/notes/maps-of-content/"},{"source":"/notes/note-relationships/","target":"/notes/mobile-capture-workflows/"},{"source":"/notes/note-relationships/","target":"/notes/para-method/"},{"source":"/notes/note-relationships/","target":"/notes/periodic-knowledge-review/"},{"source":"/notes/note-relationships/","target":"/notes/signal-vs-noise/"},{"source":"/notes/note-relationships/","target":"/notes/slow-productivity/"},{"source":"/notes/note-relationships/","target":"/notes/the-12-week-year/"},{"source":"/notes/note-relationships/","target":"/notes/weekly-review-checklists/"},{"source":"/notes/getting-started/","target":"/notes/eternal-principles/"
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7069,37 +3369,30 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user reported that tables have alternating shading. This appears to be a design critique or bug report.</details></think>
+The user reported that tables have alternating shading. This appears to be a design critique or bug report.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
 from pathlib import Path
 import re
-html = Path('public/notes/note-relationships/index.html').read_text()
+html = Path(&#39;public/notes/note-relationships/index.html&#39;).read_text()
 # extract first table in notes-content
-m = re.search(r'<div class="content notes-content[^"]*"[^>]*>(.*?)</div>\s*<aside class="notes-outgoing', html, re.S)
+m = re.search(r&#39;&lt;div class=&#34;content notes-content[^&#34;]*&#34;[^&gt;]*&gt;(.*?)&lt;/div&gt;\s*&lt;aside class=&#34;notes-outgoing&#39;, html, re.S)
 if m:
     chunk = m.group(1)
-    tables = re.findall(r'<table>.*?</table>', chunk, re.S)
+    tables = re.findall(r&#39;&lt;table&gt;.*?&lt;/table&gt;&#39;, chunk, re.S)
     for i, t in enumerate(tables):
-        print(f'=== table {i} ===')
+        print(f&#39;=== table {i} ===&#39;)
         print(t[:2000])
 PY</summary>
-
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
 from pathlib import Path
@@ -7115,38 +3408,25 @@ if m:
         print(t[:2000])
 PY
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user reports that tables have alternating shading. This likely indicates a visual bug or feature request.</details></think>
+The user reports that tables have alternating shading. This likely indicates a visual bug or feature request.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7172,25 +3452,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/css/style.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/css/style.css</summary>
 
 </details></tool-use>
 
@@ -7203,42 +3470,30 @@ The alternating shading likely comes from the table header background differing 
 
 The user may want alternating shading added for readability, or they may consider it incorrect. Tailwind v4 prose plugin odd/even row styles are being checked. The markdown table inside the YAML key_concept block is also being considered.
 
-Strong tags in cells might create visual weight differences. Accent-colored wikilinks in the Note Relationships table could also create alternating visual patterns.</details></think>
+Strong tags in cells might create visual weight differences. Accent-colored wikilinks in the Note Relationships table could also create alternating visual patterns.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && rg -n '<table>' public/notes/note-relationships/index.html | head -5 && rg -n '<table>' public/notes/eternal-principles/index.html | head -5</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -n &#39;&lt;table&gt;&#39; public/notes/note-relationships/index.html | head -5 &amp;&amp; rg -n &#39;&lt;table&gt;&#39; public/notes/eternal-principles/index.html | head -5</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && rg -n '<table>' public/notes/note-relationships/index.html | head -5 && rg -n '<table>' public/notes/eternal-principles/index.html | head -5
 ```
 
 ```
-924:&lt;table&gt;
-962:&lt;table&gt;
-943:&lt;table&gt;
-1034:&lt;table&gt;
+924:<table>
+962:<table>
+943:<table>
+1034:<table>
 
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/notes/note-relationships/index.html</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/notes/note-relationships/index.html</summary>
 
 </details></tool-use>
 
@@ -7253,14 +3508,13 @@ Only the header row has a background, which may look like half-finished alternat
 
 The user may be requesting a design feature rather than reporting a bug. The best path is to unify table row backgrounds and remove the header-only elevated background that creates inconsistent banding.
 
-Intentional zebra striping on tbody rows would improve scanability for large tables. Adding it is risky because the user may simply want the inconsistent header-only background removed.</details></think>
+Intentional zebra striping on tbody rows would improve scanability for large tables. Adding it is risky because the user may simply want the inconsistent header-only background removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7291,25 +3545,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -7320,14 +3561,13 @@ The user may want alternating row shading for table readability, or they may be 
 
 Table duplication during notes frontmatter migration likely creates visual clutter. A pragmatic fix is needed.
 
-The header-only elevated background creates an uneven pseudo-zebra effect. Removing that background and applying even-row striping to the body would create a uniform alternating pattern.</details></think>
+The header-only elevated background creates an uneven pseudo-zebra effect. Removing that background and applying even-row striping to the body would create a uniform alternating pattern.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7353,13 +3593,6 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -7375,7 +3608,8 @@ A subtler color-mix will tint even rows instead of full elevation. The rule belo
 
 Dark mode will inherit the elevated background token through CSS variables. The prose-table pseudo-border may need z-index adjustments to layer correctly over the new row backgrounds. The user might actually be referring to the relationship type column in the key concept table rather than standard table rows.
 
-The missing striping likely stems from the new table-heavy note layout after frontmatter migration. A minimal single-rule override will be added to `assets/css/custom.css`. The Decap CMS editor is not the intended target.</details></think>
+The missing striping likely stems from the new table-heavy note layout after frontmatter migration. A minimal single-rule override will be added to `assets/css/custom.css`. The Decap CMS editor is not the intended target.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7384,32 +3618,21 @@ Adding intentional zebra striping for prose tables — thead is shaded but tbody
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user likely wants the alternating table shading removed.</details></think>
+The user likely wants the alternating table shading removed.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md</summary>
 
 </details></tool-use>
 
@@ -7426,7 +3649,8 @@ Reconsidering the approach. Proper zebra striping may be better than flat tables
 
 Even rows will use the elevated background color. The header remains distinct through its typography and borders. This zebra pattern improves scanability for large tables.
 
-Both changes will be applied. The header background will be removed entirely. Even rows will receive the alternating background. The header will remain flat with a bottom border instead.</details></think>
+Both changes will be applied. The header background will be removed entirely. Even rows will receive the alternating background. The header will remain flat with a bottom border instead.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7435,16 +3659,8 @@ Fixing table styling: thead had a shaded band while tbody rows were flat, which 
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
@@ -7453,14 +3669,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Reconsidering whether the user wants alternating shading removed entirely. Flat transparent would apply to all rows. Re-reading the message to confirm intent.
 
-The user likely wants alternating shading removed entirely. I will apply flat transparent styling to all rows.</details></think>
+The user likely wants alternating shading removed entirely. I will apply flat transparent styling to all rows.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7496,21 +3711,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7617,25 +3823,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/main.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/main.css</summary>
 
 </details></tool-use>
 
@@ -7644,13 +3837,13 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The theme imports custom.css, but that file contains a warning not to write to it.
 
-Project assets override theme assets in Hugo. The project-level custom.css is the correct place for these edits. A build will verify the CSS includes the new rules.</details></think>
+Project assets override theme assets in Hugo. The project-level custom.css is the correct place for these edits. A build will verify the CSS includes the new rules.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && hugo --gc 2>/dev/null && rg "tbody tr:nth-child\(even\)" public/css/*.css | head -3</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/themeGenerator.js &amp;&amp; hugo --gc 2&gt;/dev/null &amp;&amp; rg &#34;tbody tr:nth-child\(even\)&#34; public/css/*.css | head -3</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && hugo --gc 2>/dev/null && rg "tbody tr:nth-child\(even\)" public/css/*.css | head -3
 ```
@@ -7672,37 +3865,22 @@ hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 Buil
  Cleaned          │    0 
 
 Total in 11916 ms
-public/css/style.min.d0c8fc4c2b6ebd073b2a6d5bb90a21d41e4170e9cae3c0a87def7624ca6195ad.css:      "Courier New", monospace;--color-red-200:oklch(88.5% 0.062 18.334);--color-red-500:oklch(63.7% 0.237 25.331);--color-yellow-200:oklch(94.5% 0.129 101.54);--color-green-200:oklch(92.5% 0.084 155.995);--color-cyan-500:oklch(71.5% 0.143 215.221);--color-sky-500:oklch(68.5% 0.169 237.323);--color-blue-200:oklch(88.2% 0.059 254.128);--color-blue-500:oklch(62.3% 0.214 259.815);--color-pink-200:oklch(89.9% 0.061 343.231);--color-gray-200:oklch(92.8% 0.006 264.531);--color-black:#000;--color-white:#fff;--spacing:0.25rem;--container-2xl:42rem;--container-3xl:48rem;--container-4xl:56rem;--container-5xl:64rem;--text-xs:0.75rem;--text-xs--line-height:calc(1 / 0.75);--text-sm:0.875rem;--text-sm--line-height:calc(1.25 / 0.875);--text-base:16px;--text-base--line-height:calc(1.5 / 1);--text-lg:1.125rem;--text-lg--line-height:calc(1.75 / 1.125);--text-xl:1.25rem;--text-xl--line-height:calc(1.75 / 1.25);--text-2xl:1.5rem;--text-2xl--line-height:calc(2 / 1.5);--text-3xl:1.875rem;--text-3xl--line-height:calc(2.25 / 1.875);--font-weight-normal:400;--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--tracking-tight:-0.025em;--tracking-normal:0em;--tracking-wide:0.025em;--leading-tight:1.25;--leading-snug:1.375;--leading-normal:1.5;--leading-relaxed:1.625;--radius-sm:0.25rem;--radius-md:0.375rem;--radius-lg:0.5rem;--radius-xl:0.75rem;--radius-2xl:1rem;--ease-in:cubic-bezier(0.4, 0, 1, 1);--ease-out:cubic-bezier(0, 0, 0.2, 1);--ease-in-out:cubic-bezier(0.4, 0, 0.2, 1);--aspect-video:16 / 9;--default-transition-duration:150ms;--default-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono);--color-primary:#181614;--color-body:#f5f3f0;--color-border:#e5e2dd;--color-light:#eeebe6;--color-dark:#121110;--color-warning:#b45309;--color-warning-ink:#92400e;--color-warning-surface:#fffbeb;--color-warning-border:#f59e0b;--color-warning-code:#fef3c7;--color-error-ink:#991b1b;--color-error-surface:#fef2f2;--color-error-border:#dc2626;--color-error-code:#7f1d1d;--color-success:#15803d;--color-graph-weak:#c27803;--color-text:#3d3a37;--color-text-dark:#161412;--color-text-light:#6b6762;--color-darkmode-primary:#f2efe9;--color-darkmode-body:#121110;--color-darkmode-border:#504d48;--color-darkmode-light:#2a2824;--color-darkmode-warning:#fbbf24;--color-darkmode-warning-ink:#fde68a;--color-darkmode-warning-surface:#451a03;--color-darkmode-warning-border:#fbbf24;--color-darkmode-warning-code:#fef3c7;--color-darkmode-error-ink:#fecaca;--color-darkmode-error-surface:#450a0a;--color-darkmode-error-border:#f87171;--color-darkmode-error-code:#fecaca;--color-darkmode-success:#4ade80;--color-darkmode-graph-weak:#c27803;--color-darkmode-text:#d9d4cd;--color-darkmode-text-dark:#f5f2ed;--color-darkmode-text-light:#a8a39c;--font-primary:Inter, sans-serif;--font-secondary:Inter, sans-serif;--text-base-sm:12.8px;--text-h6:1.25rem;--text-h5:1.5625rem;--text-h4:1.953125rem;--text-h3:2.44140625rem;--text-h3-sm:2.197265625rem;--text-h2:3.0517578125rem;--text-h2-sm:2.74658203125rem;--text-h1:3.814697265625rem;--text-h1-sm:3.4332275390625rem;--color-surface:var(--color-body);--color-elevated:var(--color-light);--color-ink:var(--color-text-dark);--color-ink-muted:var(--color-text);--color-ink-faint:var(--color-text-light);--color-divider:var(--color-border);--color-accent:var(--color-primary);--color-on-accent:#ffffff}}@layer base{*,::after,::before,::backdrop,::file-selector-button{box-sizing:border-box;margin:0;padding:0;border:0 solid}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;tab-size:4;font-family:var(--default-font-family,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings,normal);font-variation-settings:var(--default-font-variation-settings,normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace);font-feature-settings:var(--default-mono-font-feature-settings,normal);font-variation-settings:var(--default-mono-font-variation-settings,normal);font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea,::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;border-radius:0;background-color:initial;opacity:1}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports(not (-webkit-appearance:-apple-pay-button)) or (contain-intrinsic-size:1px){::placeholder{color:currentcolor;@supports(color:color-mix(in lab,red,red)){color: color-mix(in oklab,currentcolor 50%,transparent);}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]),::file-selector-button{appearance:button}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none!important}}@layer utilities{.\@container{container-type:inline-size}.pointer-events-none{pointer-events:none}.collapse{visibility:collapse}.invisible{visibility:hidden}.visible{visibility:visible}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border-width:0}.absolute{position:absolute}.fixed{position:fixed}.relative{position:relative}.static{position:static}.sticky{position:sticky}.-top-1{top:calc(var(--spacing) * -1)}.top-0{top:0}.top-1{top:var(--spacing)}.top-1\.5{top:calc(var(--spacing) * 1.5)}.top-1\/2{top:calc(1/2 * 100%)}.top-2{top:calc(var(--spacing) * 2)}.top-5{top:calc(var(--spacing) * 5)}.top-10{top:calc(var(--spacing) * 10)}.top-20{top:calc(var(--spacing) * 20)}.top-30{top:calc(var(--spacing) * 30)}.top-\[100px\]{top:100px}.right-8{right:calc(var(--spacing) * 8)}.bottom-8{bottom:calc(var(--spacing) * 8)}.left-0{left:0}.left-1{left:var(--spacing)}.left-1\/2{left:calc(1/2 * 100%)}.isolate{isolation:isolate}.z-10{z-index:10}.z-30{z-index:30}.z-50{z-index:50}.z-\[1\]{z-index:1}.z-\[2\]{z-index:2}.order-0{order:0}.order-0{order:0}.order-1{order:1}.order-1{order:1}.order-3{order:3}.order-3{order:3}.order-first{order:-1}.order-first{order:-9999}.order-last{order:13}.order-last{order:9999}.col-12{grid-column:12}.col-auto{grid-column:auto}.float-left{float:left}.float-right{float:right}.container{width:100%;@media(width &gt;= 40rem){max-width: 40rem;}@media(width &gt;= 48rem){max-width: 48rem;}@media(width &gt;= 64rem){max-width: 64rem;}@media(width &gt;= 80rem){max-width: 80rem;}@media(width &gt;= 96rem){max-width: 96rem;}}.m-1{margin:var(--spacing)}.m-3{margin:calc(var(--spacing) * 3)}.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(var(--bs-gutter-y) * -1);margin-inline:calc(var(--bs-gutter-x)/-2);&gt; *{box-sizing:border-box;flex-shrink:0;width:100%;max-width:100%;padding-inline:calc(var(--bs-gutter-x)/2);margin-top:var(--bs-gutter-y)}}.container{max-width:var(--container-max-width);width:100%;margin-inline:auto;padding-inline:var(--bs-gutter-x,calc(1.5rem/2))}.mx-auto{margin-inline:auto}.my-4{margin-block:calc(var(--spacing) * 4)}.my-6{margin-block:calc(var(--spacing) * 6)}.ms-0{margin-inline-start:0}.ms-1{margin-inline-start:var(--spacing)}.ms-auto{margin-inline-start:auto}.prose{color:var(--tw-prose-body);max-width:65ch; :where(p):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 1.25em; margin-bottom: 1.25em; } :where([class~="lead"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-lead); font-size: 1.25em; line-height: 1.6; margin-top: 1.2em; margin-bottom: 1.2em; } :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-links); text-decoration: underline; font-weight: 500; } :where(strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-bold); font-weight: 600; } :where(a strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(blockquote strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(thead th strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(ol):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: decimal; margin-top: 1.25em; margin-bottom: 1.25em; padding-inline-start: 1.625em; } :where(ol[type="A"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: upper-alpha; } :where(ol[type="a"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: lower-alpha; } :where(ol[type="A" s]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: upper-alpha; } :where(ol[type="a" s]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: lower-alpha; } :where(ol[type="I"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: upper-roman; } :where(ol[type="i"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: lower-roman; } :where(ol[type="I" s]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: upper-roman; } :where(ol[type="i" s]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: lower-roman; } :where(ol[type="1"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: decimal; } :where(ul):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: disc; margin-top: 1.25em; margin-bottom: 1.25em; padding-inline-start: 1.625em; } :where(ol &gt; li):not(:where([class~="not-prose"], [class~="not-prose"] *))::marker { font-weight: 400; color: var(--tw-prose-counters); } :where(ul &gt; li):not(:where([class~="not-prose"], [class~="not-prose"] *))::marker { color: var(--tw-prose-bullets); } :where(dt):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 600; margin-top: 1.25em; } :where(hr):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-color: var(--tw-prose-hr); border-top-width: 1px; margin-top: 3em; margin-bottom: 3em; } :where(blockquote):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 500; font-style: italic; color: var(--tw-prose-quotes); border-inline-start-width: 0.25rem; border-inline-start-color: var(--tw-prose-quote-borders); quotes: "\201C""\201D""\2018""\2019"; margin-top: 1.6em; margin-bottom: 1.6em; padding-inline-start: 1em; } :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before { content: open-quote; } :where(blockquote p:last-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::after { content: close-quote; } :where(h1):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 800; font-size: 2.25em; margin-top: 0; margin-bottom: 0.8888889em; line-height: 1.1111111; } :where(h1 strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 900; color: inherit; } :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 700; font-size: 1.5em; margin-top: 2em; margin-bottom: 1em; line-height: 1.3333333; } :where(h2 strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 800; color: inherit; } :where(h3):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 600; font-size: 1.25em; margin-top: 1.6em; margin-bottom: 0.6em; line-height: 1.6; } :where(h3 strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 700; color: inherit; } :where(h4):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 600; margin-top: 1.5em; margin-bottom: 0.5em; line-height: 1.5; } :where(h4 strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 700; color: inherit; } :where(img):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 2em; margin-bottom: 2em; } :where(picture):not(:where([class~="not-prose"], [class~="not-prose"] *)) { display: block; margin-top: 2em; margin-bottom: 2em; } :where(video):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 2em; margin-bottom: 2em; } :where(kbd):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 500; font-family: inherit; color: var(--tw-prose-kbd); box-shadow: 0 0 0 1px var(--tw-prose-kbd-shadows), 0 3px 0 var(--tw-prose-kbd-shadows); font-size: 0.875em; border-radius: 0.3125rem; padding-top: 0.1875em; padding-inline-end: 0.375em; padding-bottom: 0.1875em; padding-inline-start: 0.375em; } :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-code); font-weight: 600; font-size: 0.875em; } :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::before { content: "&#96;"; } :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::after { content: "&#96;"; } :where(a code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(h1 code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(h2 code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; font-size: 0.875em; } :where(h3 code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; font-size: 0.9em; } :where(h4 code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(blockquote code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(thead th code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-pre-code); background-color: var(--tw-prose-pre-bg); overflow-x: auto; font-weight: 400; font-size: 0.875em; line-height: 1.7142857; margin-top: 1.7142857em; margin-bottom: 1.7142857em; border-radius: 0.375rem; padding-top: 0.8571429em; padding-inline-end: 1.1428571em; padding-bottom: 0.8571429em; padding-inline-start: 1.1428571em; } :where(pre code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { background-color: transparent; border-width: 0; border-radius: 0; padding: 0; font-weight: inherit; color: inherit; font-size: inherit; font-family: inherit; line-height: inherit; } :where(pre code):not(:where([class~="not-prose"], [class~="not-prose"] *))::before { content: none; } :where(pre code):not(:where([class~="not-prose"], [class~="not-prose"] *))::after { content: none; } :where(table):not(:where([class~="not-prose"], [class~="not-prose"] *)) { width: 100%; table-layout: auto; margin-top: 2em; margin-bottom: 2em; font-size: 0.875em; line-height: 1.7142857; } :where(thead):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 1px; border-bottom-color: var(--tw-prose-th-borders); } :where(thead th):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 600; vertical-align: bottom; padding-inline-end: 0.5714286em; padding-bottom: 0.5714286em; padding-inline-start: 0.5714286em; } :where(tbody tr):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 1px; border-bottom-color: var(--tw-prose-td-borders); } :where(tbody tr:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 0; } :where(tbody td):not(:where([class~="not-prose"], [class~="not-prose"] *)) { vertical-align: baseline; } :where(tfoot):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-top-width: 1px; border-top-color: var(--tw-prose-th-borders); } :where(tfoot td):not(:where([class~="not-prose"], [class~="not-prose"] *)) { vertical-align: top; } :where(th, td):not(:where([class~="not-prose"], [class~="not-prose"] *)) { text-align: start; } :where(figure &gt; *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; margin-bottom: 0; } :where(figcaption):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-captions); font-size: 0.875em; line-height: 1.4285714; margin-top: 0.8571429em; } --tw-prose-body: oklch(37.3% 0.034 259.733);--tw-prose-headings:oklch(21% 0.034 264.665);--tw-prose-lead:oklch(44.6% 0.03 256.802);--tw-prose-links:oklch(21% 0.034 264.665);--tw-prose-bold:oklch(21% 0.034 264.665);--tw-prose-counters:oklch(55.1% 0.027 264.364);--tw-prose-bullets:oklch(87.2% 0.01 258.338);--tw-prose-hr:oklch(92.8% 0.006 264.531);--tw-prose-quotes:oklch(21% 0.034 264.665);--tw-prose-quote-borders:oklch(92.8% 0.006 264.531);--tw-prose-captions:oklch(55.1% 0.027 264.364);--tw-prose-kbd:oklch(21% 0.034 264.665);--tw-prose-kbd-shadows:color-mix(in oklab, oklch(21% 0.034 264.665) 10%, transparent);--tw-prose-code:oklch(21% 0.034 264.665);--tw-prose-pre-code:oklch(92.8% 0.006 264.531);--tw-prose-pre-bg:oklch(27.8% 0.033 256.848);--tw-prose-th-borders:oklch(87.2% 0.01 258.338);--tw-prose-td-borders:oklch(92.8% 0.006 264.531);--tw-prose-invert-body:oklch(87.2% 0.01 258.338);--tw-prose-invert-headings:#fff;--tw-prose-invert-lead:oklch(70.7% 0.022 261.325);--tw-prose-invert-links:#fff;--tw-prose-invert-bold:#fff;--tw-prose-invert-counters:oklch(70.7% 0.022 261.325);--tw-prose-invert-bullets:oklch(44.6% 0.03 256.802);--tw-prose-invert-hr:oklch(37.3% 0.034 259.733);--tw-prose-invert-quotes:oklch(96.7% 0.003 264.542);--tw-prose-invert-quote-borders:oklch(37.3% 0.034 259.733);--tw-prose-invert-captions:oklch(70.7% 0.022 261.325);--tw-prose-invert-kbd:#fff;--tw-prose-invert-kbd-shadows:rgb(255 255 255 / 10%);--tw-prose-invert-code:#fff;--tw-prose-invert-pre-code:oklch(87.2% 0.01 258.338);--tw-prose-invert-pre-bg:rgb(0 0 0 / 50%);--tw-prose-invert-th-borders:oklch(44.6% 0.03 256.802);--tw-prose-invert-td-borders:oklch(37.3% 0.034 259.733);font-size:1rem;line-height:1.75; :where(picture &gt; img):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; margin-bottom: 0; } :where(li):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0.5em; margin-bottom: 0.5em; } :where(ol &gt; li):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-start: 0.375em; } :where(ul &gt; li):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-start: 0.375em; } :where(.prose &gt; ul &gt; li p):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0.75em; margin-bottom: 0.75em; } :where(.prose &gt; ul &gt; li &gt; p:first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 1.25em; } :where(.prose &gt; ul &gt; li &gt; p:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-bottom: 1.25em; } :where(.prose &gt; ol &gt; li &gt; p:first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 1.25em; } :where(.prose &gt; ol &gt; li &gt; p:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-bottom: 1.25em; } :where(ul ul, ul ol, ol ul, ol ol):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0.75em; margin-bottom: 0.75em; } :where(dl):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 1.25em; margin-bottom: 1.25em; } :where(dd):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0.5em; padding-inline-start: 1.625em; } :where(hr + *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(h2 + *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(h3 + *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(h4 + *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(thead th:first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-start: 0; } :where(thead th:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-end: 0; } :where(tbody td, tfoot td):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-top: 0.5714286em; padding-inline-end: 0.5714286em; padding-bottom: 0.5714286em; padding-inline-start: 0.5714286em; } :where(tbody td:first-child, tfoot td:first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-start: 0; } :where(tbody td:last-child, tfoot td:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-end: 0; } :where(figure):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 2em; margin-bottom: 2em; } :where(.prose &gt; :first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(.prose &gt; :last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-bottom: 0; }}.mt-2{margin-top:calc(var(--spacing) * 2)}.mt-3{margin-top:calc(var(--spacing) * 3)}.mt-4{margin-top:calc(var(--spacing) * 4)}.mt-5{margin-top:calc(var(--spacing) * 5)}.mt-6{margin-top:calc(var(--spacing) * 6)}.mt-8{margin-top:calc(var(--spacing) * 8)}.mt-9{margin-top:calc(var(--spacing) * 9)}.mt-10{margin-top:calc(var(--spacing) * 10)}.mt-11{margin-top:calc(var(--spacing) * 11)}.mt-20{margin-top:calc(var(--spacing) * 20)}.mt-auto{margin-top:auto}.mr-1{margin-right:var(--spacing)}.mr-2{margin-right:calc(var(--spacing) * 2)}.mr-4{margin-right:calc(var(--spacing) * 4)}.mr-5{margin-right:calc(var(--spacing) * 5)}.mr-auto{margin-right:auto}.form-label{margin-bottom:calc(var(--spacing) * 4);display:block;font-family:var(--font-primary);font-size:var(--text-xl);line-height:var(--tw-leading,var(--text-xl--line-height));--tw-font-weight:var(--font-weight-normal);font-weight:var(--font-weight-normal);color:var(--color-ink)}.mb-0{margin-bottom:0}.mb-1{margin-bottom:var(--spacing)}.mb-2{margin-bottom:calc(var(--spacing) * 2)}.mb-3{margin-bottom:calc(var(--spacing) * 3)}.mb-4{margin-bottom:calc(var(--spacing) * 4)}.mb-5{margin-bottom:calc(var(--spacing) * 5)}.mb-6{margin-bottom:calc(var(--spacing) * 6)}.mb-8{margin-bottom:calc(var(--spacing) * 8)}.mb-10{margin-bottom:calc(var(--spacing) * 10)}.mb-12{margin-bottom:calc(var(--spacing) * 12)}.mb-14{margin-bottom:calc(var(--spacing) * 14)}.mb-28{margin-bottom:calc(var(--spacing) * 28)}.ml-0{margin-left:0}.ml-2{margin-left:calc(var(--spacing) * 2)}.ml-3{margin-left:calc(var(--spacing) * 3)}.ml-4{margin-left:calc(var(--spacing) * 4)}.ml-auto{margin-left:auto}.form-input{appearance:none;background-color:#fff;border-color:oklch(55.1% .027 264.364);border-width:1px;border-radius:0;padding-top:.5rem;padding-right:.75rem;padding-bottom:.5rem;padding-left:.75rem;font-size:1rem;line-height:1.5rem;--tw-shadow:0 0 #0000;&amp;:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:oklch(54.6% 0.245 262.881);--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);border-color:oklch(54.6% .245 262.881)}&amp;::placeholder{color:oklch(55.1% .027 264.364);opacity:1}&amp;::-webkit-datetime-edit-fields-wrapper{padding:0}&amp;::-webkit-date-and-time-value{min-height:1.5em}&amp;::-webkit-date-and-time-value{text-align:inherit}&amp;::-webkit-datetime-edit{display:inline-flex}&amp;::-webkit-datetime-edit{padding-top:0;padding-bottom:0}&amp;::-webkit-datetime-edit-year-field{padding-top:0;padding-bottom:0}&amp;::-webkit-datetime-edit-month-field{padding-top:0;padding-bottom:0}&amp;::-webkit-datetime-edit-day-field{padding-top:0;padding-bottom:0}&amp;::-webkit-datetime-edit-hour-field{padding-top:0;padding-bottom:0}&amp;::-webkit-datetime-edit-minute-field{padding-top:0;padding-bottom:0}&amp;::-webkit-datetime-edit-second-field{padding-top:0;padding-bottom:0}&amp;::-webkit-datetime-edit-millisecond-field{padding-top:0;padding-bottom:0}&amp;::-webkit-datetime-edit-meridiem-field{padding-top:0;padding-bottom:0}}.col{flex:1 0;width:initial;display:initial}.block{display:block}.contents{display:contents}.flex{display:flex}.grid{display:grid}.hidden{display:none}.inline{display:inline}.inline-block{display:inline-block}.inline-flex{display:inline-flex}.list-item{display:list-item}.table{display:table}.aspect-\[4\/5\]{aspect-ratio:4/5}.aspect-\[413\/208\]{aspect-ratio:413/208}.aspect-\[413\/220\]{aspect-ratio:413/220}.aspect-\[475\/239\]{aspect-ratio:475/239}.aspect-square{aspect-ratio:1/1}.aspect-video{aspect-ratio:var(--aspect-video)}.h-4{height:calc(var(--spacing) * 4)}.h-5{height:calc(var(--spacing) * 5)}.h-6{height:calc(var(--spacing) * 6)}.h-9{height:calc(var(--spacing) * 9)}.h-10{height:calc(var(--spacing) * 10)}.h-11{height:calc(var(--spacing) * 11)}.h-24{height:calc(var(--spacing) * 24)}.h-full{height:100%}.max-h-full{max-height:100%}.min-h-11{min-height:calc(var(--spacing) * 11)}.min-h-full{min-height:100%}.min-h-screen{min-height:100vh}.col-12{flex:none;width:100%}.col-auto{flex:none;width:auto}.row-cols-auto{&gt; *{flex:none;width:auto}}.form-input{width:100%;border-radius:.25rem;border-color:var(--color-divider);background-color:var(--color-elevated);padding-inline:calc(var(--spacing) * 6);padding-block:calc(var(--spacing) * 4);color:var(--color-ink);&amp;::placeholder{color:var(--color-ink-faint)}&amp;:focus{border-color:var(--color-accent)}&amp;:focus{--tw-ring-color:transparent}}.w-4{width:calc(var(--spacing) * 4)}.w-5{width:calc(var(--spacing) * 5)}.w-6{width:calc(var(--spacing) * 6)}.w-9{width:calc(var(--spacing) * 9)}.w-10{width:calc(var(--spacing) * 10)}.w-11{width:calc(var(--spacing) * 11)}.w-24{width:calc(var(--spacing) * 24)}.w-75{width:calc(var(--spacing) * 75)}.w-\[30px\]\!{width:30px!important}.w-full{width:100%}.max-w-2xl{max-width:var(--container-2xl)}.max-w-3xl{max-width:var(--container-3xl)}.max-w-4xl{max-width:var(--container-4xl)}.max-w-5xl{max-width:var(--container-5xl)}.max-w-\[65ch\]{max-width:65ch}.max-w-\[70ch\]{max-width:70ch}.max-w-\[600px\]{max-width:600px}.max-w-full{max-width:100%}.min-w-0{min-width:0}.min-w-11{min-width:calc(var(--spacing) * 11)}.min-w-\[180px\]{min-width:180px}.flex-1{flex:1}.flex-shrink{flex-shrink:1}.flex-shrink-0{flex-shrink:0}.shrink{flex-shrink:1}.shrink-0{flex-shrink:0}.grow{flex-grow:1}.-translate-x-1{--tw-translate-x:calc(var(--spacing) * -1);translate:var(--tw-translate-x)var(--tw-translate-y)}.-translate-x-1\/2{--tw-translate-x:calc(calc(1 / 2 * 100%) * -1);translate:var(--tw-translate-x)var(--tw-translate-y)}.-translate-y-1{--tw-translate-y:calc(var(--spacing) * -1);translate:var(--tw-translate-x)var(--tw-translate-y)}.-translate-y-1\/2{--tw-translate-y:calc(calc(1 / 2 * 100%) * -1);translate:var(--tw-translate-x)var(--tw-translate-y)}.rotate-180{rotate:180deg}.transform{transform:var(--tw-rotate-x,)var(--tw-rotate-y,)var(--tw-rotate-z,)var(--tw-skew-x,)var(--tw-skew-y,)}.cursor-pointer{cursor:pointer}.touch-manipulation{touch-action:manipulation}.resize{resize:both}.list-decimal{list-style-type:decimal}.list-none{list-style-type:none}.form-select{appearance:none;background-color:#fff;border-color:oklch(55.1% .027 264.364);border-width:1px;border-radius:0;padding-top:.5rem;padding-right:.75rem;padding-bottom:.5rem;padding-left:.75rem;font-size:1rem;line-height:1.5rem;--tw-shadow:0 0 #0000;&amp;:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:oklch(54.6% 0.245 262.881);--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);border-color:oklch(54.6% .245 262.881)}background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='oklch(55.1%25 0.027 264.364)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;print-color-adjust:exact;&amp;:where([size]:not([size="1"])){background-image:initial;background-position:initial;background-repeat:unset;background-size:initial;padding-right:.75rem;print-color-adjust:unset}}.flex-col{flex-direction:column}.flex-row{flex-direction:row}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.items-end{align-items:flex-end}.items-start{align-items:flex-start}.items-stretch{align-items:stretch}.justify-between{justify-content:space-between}.justify-center{justify-content:center}.justify-end{justify-content:flex-end}.gap-0{gap:0}.gap-0\.5{gap:calc(var(--spacing) * .5)}.gap-1{gap:var(--spacing)}.gap-2{gap:calc(var(--spacing) * 2)}.gap-3{gap:calc(var(--spacing) * 3)}.gap-4{gap:calc(var(--spacing) * 4)}.space-y-1{ :where(&amp; &gt; :not(:last-child)) { --tw-space-y-reverse: 0; margin-block-start: calc(var(--spacing) * var(--tw-space-y-reverse)); margin-block-end: calc(var(--spacing) * calc(1 - var(--tw-space-y-reverse))); }}.space-y-2{ :where(&amp; &gt; :not(:last-child)) { --tw-space-y-reverse: 0; margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse)); margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse))); }}.space-y-4{ :where(&amp; &gt; :not(:last-child)) { --tw-space-y-reverse: 0; margin-block-start: calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse)); margin-block-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse))); }}.space-y-6{ :where(&amp; &gt; :not(:last-child)) { --tw-space-y-reverse: 0; margin-block-start: calc(calc(var(--spacing) * 6) * var(--tw-space-y-reverse)); margin-block-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-y-reverse))); }}.gap-x-3{column-gap:calc(var(--spacing) * 3)}.gap-x-4{column-gap:calc(var(--spacing) * 4)}.space-x-1{ :where(&amp; &gt; :not(:last-child)) { --tw-space-x-reverse: 0; margin-inline-start: calc(var(--spacing) * var(--tw-space-x-reverse)); margin-inline-end: calc(var(--spacing) * calc(1 - var(--tw-space-x-reverse))); }}.space-x-3{ :where(&amp; &gt; :not(:last-child)) { --tw-space-x-reverse: 0; margin-inline-start: calc(calc(var(--spacing) * 3) * var(--tw-space-x-reverse)); margin-inline-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-x-reverse))); }}.gap-y-1{row-gap:var(--spacing)}.gap-y-2{row-gap:calc(var(--spacing) * 2)}.gap-y-3{row-gap:calc(var(--spacing) * 3)}.self-center{align-self:center}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.overflow-hidden{overflow:hidden}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:var(--radius-2xl)}.rounded-full{border-radius:calc(infinity * 1px)}.rounded-lg{border-radius:var(--radius-lg)}.rounded-md{border-radius:var(--radius-md)}.rounded-sm{border-radius:var(--radius-sm)}.rounded-xl{border-radius:var(--radius-xl)}.border{border-style:var(--tw-border-style);border-width:1px}.border-0{border-style:var(--tw-border-style);border-width:0}.border-t{border-top-style:var(--tw-border-style);border-top-width:1px}.border-r{border-right-style:var(--tw-border-style);border-right-width:1px}.border-b{border-bottom-style:var(--tw-border-style);border-bottom-width:1px}.border-accent{border-color:var(--color-accent)}.border-border{border-color:var(--color-border)}.border-dark{border-color:var(--color-dark)}.border-divider{border-color:var(--color-divider)}.border-transparent{border-color:transparent}.bg-accent{background-color:var(--color-accent)}.bg-body{background-color:var(--color-body)}.bg-border{background-color:var(--color-border)}.bg-dark{background-color:var(--color-dark)}.bg-elevated{background-color:var(--color-elevated)}.bg-gray-200{background-color:var(--color-gray-200)}.bg-light{background-color:var(--color-light)}.bg-primary{background-color:var(--color-primary)}.bg-surface{background-color:var(--color-surface)}.bg-transparent{background-color:initial}.bg-white{background-color:var(--color-white)}.bg-gradient{--tw-gradient-position:to bottom;@supports(background-image:linear-gradient(in lab,red,red)){--tw-gradient-position: to bottom in oklab;}background-image:linear-gradient(var(--tw-gradient-stops));--tw-gradient-from:var(--color-surface);--tw-gradient-from-position:0.53%;--tw-gradient-to:var(--color-elevated);--tw-gradient-stops:var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));--tw-gradient-to-position:83.28%}.bg-linear-to-b{--tw-gradient-position:to bottom;@supports(background-image:linear-gradient(in lab,red,red)){--tw-gradient-position: to bottom in oklab;}background-image:linear-gradient(var(--tw-gradient-stops))}.bg-gradient-to-b{--tw-gradient-position:to bottom in oklab;background-image:linear-gradient(var(--tw-gradient-stops))}.from-body{--tw-gradient-from:var(--color-body);--tw-gradient-stops:var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.from-surface{--tw-gradient-from:var(--color-surface);--tw-gradient-stops:var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-elevated{--tw-gradient-to:var(--color-elevated);--tw-gradient-stops:var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.to-light{--tw-gradient-to:var(--color-light);--tw-gradient-stops:var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.fill-current{fill:currentcolor}.fill-surface{fill:var(--color-surface)}.fill-white{fill:var(--color-white)}.object-cover{object-fit:cover}.p-0{padding:0}.p-3{padding:calc(var(--spacing) * 3)}.p-4{padding:calc(var(--spacing) * 4)}.p-5{padding:calc(var(--spacing) * 5)}.p-6{padding:calc(var(--spacing) * 6)}.p-8{padding:calc(var(--spacing) * 8)}.\!px-4{padding-inline:calc(var(--spacing) * 4)!important}.px-1{padding-inline:var(--spacing)}.px-2{padding-inline:calc(var(--spacing) * 2)}.px-3{padding-inline:calc(var(--spacing) * 3)}.px-4{padding-inline:calc(var(--spacing) * 4)}.px-5{padding-inline:calc(var(--spacing) * 5)}.px-6{padding-inline:calc(var(--spacing) * 6)}.px-7{padding-inline:calc(var(--spacing) * 7)}.px-8{padding-inline:calc(var(--spacing) * 8)}.\!py-0{padding-block:0!important}.\!py-8{padding-block:calc(var(--spacing) * 8)!important}.py-0\.5{padding-block:calc(var(--spacing) * .5)}.py-1{padding-block:var(--spacing)}.py-1\.5{padding-block:calc(var(--spacing) * 1.5)}.py-2{padding-block:calc(var(--spacing) * 2)}.py-2\.5{padding-block:calc(var(--spacing) * 2.5)}.py-3{padding-block:calc(var(--spacing) * 3)}.py-4{padding-block:calc(var(--spacing) * 4)}.py-5{padding-block:calc(var(--spacing) * 5)}.py-7{padding-block:calc(var(--spacing) * 7)}.py-8{padding-block:calc(var(--spacing) * 8)}.py-10{padding-block:calc(var(--spacing) * 10)}.py-14{padding-block:calc(var(--spacing) * 14)}.py-16{padding-block:calc(var(--spacing) * 16)}.py-24{padding-block:calc(var(--spacing) * 24)}.py-\[2\.5px\]{padding-block:2.5px}.pt-5{padding-top:calc(var(--spacing) * 5)}.pt-6{padding-top:calc(var(--spacing) * 6)}.pt-7{padding-top:calc(var(--spacing) * 7)}.pt-8{padding-top:calc(var(--spacing) * 8)}.pt-10{padding-top:calc(var(--spacing) * 10)}.pt-14{padding-top:calc(var(--spacing) * 14)}.pt-16{padding-top:calc(var(--spacing) * 16)}.pt-20{padding-top:calc(var(--spacing) * 20)}.pt-24{padding-top:calc(var(--spacing) * 24)}.pr-5{padding-right:calc(var(--spacing) * 5)}.\!pb-8{padding-bottom:calc(var(--spacing) * 8)!important}.pb-0{padding-bottom:0}.pb-5{padding-bottom:calc(var(--spacing) * 5)}.pb-6{padding-bottom:calc(var(--spacing) * 6)}.pb-14{padding-bottom:calc(var(--spacing) * 14)}.pb-16{padding-bottom:calc(var(--spacing) * 16)}.pl-2{padding-left:calc(var(--spacing) * 2)}.pl-5{padding-left:calc(var(--spacing) * 5)}.pl-6{padding-left:calc(var(--spacing) * 6)}.text-center{text-align:center}.text-left{text-align:left}.align-\[-2px\]{vertical-align:-2px}.font-primary{font-family:var(--font-primary)}.font-sans{font-family:var(--font-sans)}.font-secondary{font-family:var(--font-secondary)}.text-2xl{font-size:var(--text-2xl);line-height:var(--tw-leading,var(--text-2xl--line-height))}.text-base{font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height))}.text-lg{font-size:var(--text-lg);line-height:var(--tw-leading,var(--text-lg--line-height))}.text-sm{font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height))}.text-xl{font-size:var(--text-xl);line-height:var(--tw-leading,var(--text-xl--line-height))}.text-xs{font-size:var(--text-xs);line-height:var(--tw-leading,var(--text-xs--line-height))}.text-\[8rem\]{font-size:8rem}.text-\[12px\]{font-size:12px}.text-base-sm{font-size:var(--text-base-sm)}.text-h1{font-size:var(--text-h1)}.text-h1-sm{font-size:var(--text-h1-sm)}.text-h2{font-size:var(--text-h2)}.text-h2-sm{font-size:var(--text-h2-sm)}.text-h3{font-size:var(--text-h3)}.text-h3-sm{font-size:var(--text-h3-sm)}.text-h4{font-size:var(--text-h4)}.text-h5{font-size:var(--text-h5)}.text-h6{font-size:var(--text-h6)}.leading-9{--tw-leading:calc(var(--spacing) * 9);line-height:calc(var(--spacing) * 9)}.leading-\[1\.12\]{--tw-leading:1.12;line-height:1.12}.leading-\[1\.15\]{--tw-leading:1.15;line-height:1.15}.leading-none{--tw-leading:1;line-height:1}.leading-normal{--tw-leading:var(--leading-normal);line-height:var(--leading-normal)}.leading-relaxed{--tw-leading:var(--leading-relaxed);line-height:var(--leading-relaxed)}.leading-snug{--tw-leading:var(--leading-snug);line-height:var(--leading-snug)}.leading-tight{--tw-leading:var(--leading-tight);line-height:var(--leading-tight)}.font-bold{--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold)}.font-medium{--tw-font-weight:var(--font-weight-medium);font-weight:var(--font-weight-medium)}.font-normal{--tw-font-weight:var(--font-weight-normal);font-weight:var(--font-weight-normal)}.font-semibold{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}.tracking-\[-0\.035em\]{--tw-tracking:-0.035em;letter-spacing:-.035em}.tracking-tight{--tw-tracking:var(--tracking-tight);letter-spacing:var(--tracking-tight)}.tracking-wide{--tw-tracking:var(--tracking-wide);letter-spacing:var(--tracking-wide)}.text-balance{text-wrap:balance}.text-pretty{text-wrap:pretty}.text-wrap{text-wrap:wrap}.whitespace-nowrap{white-space:nowrap}.\!text-ink{color:var(--color-ink)!important}.\!text-on-accent{color:var(--color-on-accent)!important}.\!text-white{color:var(--color-white)!important}.text-\[\#1e90ff\]{color:#1e90ff}.text-\[\#121212\]{color:#121212}.text-accent{color:var(--color-accent)}.text-black{color:var(--color-black)}.text-blue-500{color:var(--color-blue-500)}.text-cyan-500{color:var(--color-cyan-500)}.text-dark{color:var(--color-dark)}.text-ink{color:var(--color-ink)}.text-ink-faint{color:var(--color-ink-faint)}.text-ink-muted{color:var(--color-ink-muted)}.text-light{color:var(--color-light)}.text-on-accent{color:var(--color-on-accent)}.text-primary{color:var(--color-primary)}.text-red-500{color:var(--color-red-500)}.text-sky-500{color:var(--color-sky-500)}.text-surface{color:var(--color-surface)}.text-text{color:var(--color-text)}.text-text-dark{color:var(--color-text-dark)}.text-white{color:var(--color-white)}.capitalize{text-transform:capitalize}.lowercase{text-transform:lowercase}.normal-case{text-transform:none}.uppercase{text-transform:uppercase}.italic{font-style:italic}.ordinal{--tw-ordinal:ordinal;font-variant-numeric:var(--tw-ordinal,)var(--tw-slashed-zero,)var(--tw-numeric-figure,)var(--tw-numeric-spacing,)var(--tw-numeric-fraction,)}.tabular-nums{--tw-numeric-spacing:tabular-nums;font-variant-numeric:var(--tw-ordinal,)var(--tw-slashed-zero,)var(--tw-numeric-figure,)var(--tw-numeric-spacing,)var(--tw-numeric-fraction,)}.no-underline{text-decoration-line:none}.underline{text-decoration-line:underline}.opacity-0{opacity:0%}.opacity-100{opacity:100%}.shadow{--tw-shadow:0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.ring{--tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.ring-2{--tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.ring-accent{--tw-ring-color:var(--color-accent)}.ring-border{--tw-ring-color:var(--color-border)}.ring-offset-2{--tw-ring-offset-width:2px;--tw-ring-offset-shadow:var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)}.ring-offset-darkmode-body{--tw-ring-offset-color:var(--color-darkmode-body)}.ring-offset-surface{--tw-ring-offset-color:var(--color-surface)}.outline{outline-style:var(--tw-outline-style);outline-width:1px}.blur{--tw-blur:blur(8px);filter:var(--tw-blur,)var(--tw-brightness,)var(--tw-contrast,)var(--tw-grayscale,)var(--tw-hue-rotate,)var(--tw-invert,)var(--tw-saturate,)var(--tw-sepia,)var(--tw-drop-shadow,)}.grayscale{--tw-grayscale:grayscale(100%);filter:var(--tw-blur,)var(--tw-brightness,)var(--tw-contrast,)var(--tw-grayscale,)var(--tw-hue-rotate,)var(--tw-invert,)var(--tw-saturate,)var(--tw-sepia,)var(--tw-drop-shadow,)}.invert{--tw-invert:invert(100%);filter:var(--tw-blur,)var(--tw-brightness,)var(--tw-contrast,)var(--tw-grayscale,)var(--tw-hue-rotate,)var(--tw-invert,)var(--tw-saturate,)var(--tw-sepia,)var(--tw-drop-shadow,)}.sepia{--tw-sepia:sepia(100%);filter:var(--tw-blur,)var(--tw-brightness,)var(--tw-contrast,)var(--tw-grayscale,)var(--tw-hue-rotate,)var(--tw-invert,)var(--tw-saturate,)var(--tw-sepia,)var(--tw-drop-shadow,)}.filter{filter:var(--tw-blur,)var(--tw-brightness,)var(--tw-contrast,)var(--tw-grayscale,)var(--tw-hue-rotate,)var(--tw-invert,)var(--tw-saturate,)var(--tw-sepia,)var(--tw-drop-shadow,)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur,)var(--tw-backdrop-brightness,)var(--tw-backdrop-contrast,)var(--tw-backdrop-grayscale,)var(--tw-backdrop-hue-rotate,)var(--tw-backdrop-invert,)var(--tw-backdrop-opacity,)var(--tw-backdrop-saturate,)var(--tw-backdrop-sepia,);backdrop-filter:var(--tw-backdrop-blur,)var(--tw-backdrop-brightness,)var(--tw-backdrop-contrast,)var(--tw-backdrop-grayscale,)var(--tw-backdrop-hue-rotate,)var(--tw-backdrop-invert,)var(--tw-backdrop-opacity,)var(--tw-backdrop-saturate,)var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-\[box-shadow\,border-color\]{transition-property:box-shadow,border-color;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-all{transition-property:all;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-colors{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-transform{transition-property:transform,translate,scale,rotate;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.duration-200{--tw-duration:200ms;transition-duration:200ms}.duration-300{--tw-duration:300ms;transition-duration:300ms}.ease-in{--tw-ease:var(--ease-in);transition-timing-function:var(--ease-in)}.ease-in-out{--tw-ease:var(--ease-in-out);transition-timing-function:var(--ease-in-out)}.ease-out{--tw-ease:var(--ease-out);transition-timing-function:var(--ease-out)}.outline-none{--tw-outline-style:none;outline-style:none}.select-all{-webkit-user-select:all;user-select:all}.backface-hidden{backface-visibility:hidden}.group-hover\:text-accent{&amp;:is(:where(.group):hover *){@media(hover:hover){color: var(--color-accent);}}}.hover\:bg-accent{&amp;:hover{@media(hover:hover){background-color: var(--color-accent);}}}.hover\:bg-elevated{&amp;:hover{@media(hover:hover){background-color: var(--color-elevated);}}}.hover\:\!text-white{&amp;:hover{@media(hover:hover){color: var(--color-white) !important;}}}.hover\:text-accent{&amp;:hover{@media(hover:hover){color: var(--color-accent);}}}.hover\:text-surface{&amp;:hover{@media(hover:hover){color: var(--color-surface);}}}.hover\:text-white{&amp;:hover{@media(hover:hover){color: var(--color-white);}}}.hover\:underline{&amp;:hover{@media(hover:hover){text-decoration-line: underline;}}}.hover\:opacity-90{&amp;:hover{@media(hover:hover){opacity: 90%;}}}.hover\:shadow-md{&amp;:hover{@media(hover:hover){--tw-shadow: 0 4px 6px -1px var(--tw-shadow-color,rgb(0 0 0 / 0.1)),0 2px 4px -2px var(--tw-shadow-color,rgb(0 0 0 / 0.1)); box-shadow: var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);}}}.focus\:not-sr-only{&amp;:focus{position:static;width:auto;height:auto;padding:0;margin:0;overflow:visible;clip-path:none;white-space:normal}}.focus\:border-accent{&amp;:focus{border-color:var(--color-accent)}}.focus-visible\:ring-2{&amp;:focus-visible{--tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}}.focus-visible\:ring-accent{&amp;:focus-visible{--tw-ring-color:var(--color-accent)}}.focus-visible\:ring-offset-2{&amp;:focus-visible{--tw-ring-offset-width:2px;--tw-ring-offset-shadow:var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)}}.focus-visible\:ring-offset-surface{&amp;:focus-visible{--tw-ring-offset-color:var(--color-surface)}}.focus-visible\:outline-none{&amp;:focus-visible{--tw-outline-style:none;outline-style:none}}.motion-reduce\:transition-none{@media(prefers-reduced-motion:reduce){transition-property: none;}}.motion-reduce\:hover\:shadow-sm{@media(prefers-reduced-motion:reduce){&amp;:hover{@media(hover:hover){--tw-shadow: 0 1px 3px 0 var(--tw-shadow-color,rgb(0 0 0 / 0.1)),0 1px 2px -1px var(--tw-shadow-color,rgb(0 0 0 / 0.1)); box-shadow: var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);}}}}.max-xl\:px-2{@media(width &lt; 80rem){padding-inline: calc(var(--spacing) * 2);}}.max-lg\:w-full{@media(width &lt; 64rem){width: 100%;}}.sm\:absolute{@media(width &gt;= 40rem){position: absolute;}}.sm\:right-0{@media(width &gt;= 40rem){right: 0;}}.sm\:z-30{@media(width &gt;= 40rem){z-index: 30;}}.sm\:col-6{@media(width &gt;= 40rem){grid-column: 6;}}.sm\:col-10{@media(width &gt;= 40rem){grid-column: 10;}}.sm\:mt-2{@media(width &gt;= 40rem){margin-top: calc(var(--spacing) * 2);}}.sm\:block{@media(width &gt;= 40rem){display: block;}}.sm\:hidden{@media(width &gt;= 40rem){display: none;}}.sm\:col-6{@media(width &gt;= 40rem){flex: 0 0 auto; width: 50%;}}.sm\:col-10{@media(width &gt;= 40rem){flex: 0 0 auto; width: 83.33333333333334%;}}.sm\:min-w-\[16rem\]{@media(width &gt;= 40rem){min-width: 16rem;}}.sm\:flex-1{@media(width &gt;= 40rem){flex: 1;}}.sm\:grid-cols-2{@media(width &gt;= 40rem){grid-template-columns: repeat(2,minmax(0,1fr));}}.sm\:flex-row{@media(width &gt;= 40rem){flex-direction: row;}}.sm\:items-center{@media(width &gt;= 40rem){align-items: center;}}.sm\:gap-3{@media(width &gt;= 40rem){gap: calc(var(--spacing) * 3);}}.sm\:bg-red-200{@media(width &gt;= 40rem){background-color: var(--color-red-200);}}.sm\:p-5{@media(width &gt;= 40rem){padding: calc(var(--spacing) * 5);}}.sm\:shadow-md{@media(width &gt;= 40rem){--tw-shadow: 0 4px 6px -1px var(--tw-shadow-color,rgb(0 0 0 / 0.1)),0 2px 4px -2px var(--tw-shadow-color,rgb(0 0 0 / 0.1)); box-shadow: var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);}}.md\:order-1{@media(width &gt;= 48rem){order: 1;}}.md\:order-1{@media(width &gt;= 48rem){order: 1;}}.md\:order-2{@media(width &gt;= 48rem){order: 2;}}.md\:order-2{@media(width &gt;= 48rem){order: 2;}}.md\:col-3{@media(width &gt;= 48rem){grid-column: 3;}}.md\:col-4{@media(width &gt;= 48rem){grid-column: 4;}}.md\:col-5{@media(width &gt;= 48rem){grid-column: 5;}}.md\:col-6{@media(width &gt;= 48rem){grid-column: 6;}}.md\:col-7{@media(width &gt;= 48rem){grid-column: 7;}}.md\:col-8{@media(width &gt;= 48rem){grid-column: 8;}}.md\:col-9{@media(width &gt;= 48rem){grid-column: 9;}}.md\:col-10{@media(width &gt;= 48rem){grid-column: 10;}}.md\:col-12{@media(width &gt;= 48rem){grid-column: 12;}}.md\:mb-0{@media(width &gt;= 48rem){margin-bottom: 0;}}.md\:mb-10{@media(width &gt;= 48rem){margin-bottom: calc(var(--spacing) * 10);}}.md\:col{@media(width &gt;= 48rem){flex: 1 0 0%; width: initial; display: initial;}}.md\:block{@media(width &gt;= 48rem){display: block;}}.md\:hidden{@media(width &gt;= 48rem){display: none;}}.md\:h-28{@media(width &gt;= 48rem){height: calc(var(--spacing) * 28);}}.md\:col-3{@media(width &gt;= 48rem){flex: 0 0 auto; width: 25%;}}.md\:col-4{@media(width &gt;= 48rem){flex: 0 0 auto; width: 33.333333333333336%;}}.md\:col-5{@media(width &gt;= 48rem){flex: 0 0 auto; width: 41.66666666666667%;}}.md\:col-6{@media(width &gt;= 48rem){flex: 0 0 auto; width: 50%;}}.md\:col-7{@media(width &gt;= 48rem){flex: 0 0 auto; width: 58.333333333333336%;}}.md\:col-8{@media(width &gt;= 48rem){flex: 0 0 auto; width: 66.66666666666667%;}}.md\:col-9{@media(width &gt;= 48rem){flex: 0 0 auto; width: 75%;}}.md\:col-10{@media(width &gt;= 48rem){flex: 0 0 auto; width: 83.33333333333334%;}}.md\:col-12{@media(width &gt;= 48rem){flex: 0 0 auto; width: 100%;}}.md\:w-28{@media(width &gt;= 48rem){width: calc(var(--spacing) * 28);}}.md\:bg-yellow-200{@media(width &gt;= 48rem){background-color: var(--color-yellow-200);}}.md\:\!py-10{@media(width &gt;= 48rem){padding-block: calc(var(--spacing) * 10) !important;}}.md\:\!py-12{@media(width &gt;= 48rem){padding-block: calc(var(--spacing) * 12) !important;}}.md\:py-10{@media(width &gt;= 48rem){padding-block: calc(var(--spacing) * 10);}}.md\:py-20{@media(width &gt;= 48rem){padding-block: calc(var(--spacing) * 20);}}.md\:pt-8{@media(width &gt;= 48rem){padding-top: calc(var(--spacing) * 8);}}.md\:pt-10{@media(width &gt;= 48rem){padding-top: calc(var(--spacing) * 10);}}.md\:pt-12{@media(width &gt;= 48rem){padding-top: calc(var(--spacing) * 12);}}.md\:pt-16{@media(width &gt;= 48rem){padding-top: calc(var(--spacing) * 16);}}.md\:pt-20{@media(width &gt;= 48rem){padding-top: calc(var(--spacing) * 20);}}.md\:pt-24{@media(width &gt;= 48rem){padding-top: calc(var(--spacing) * 24);}}.md\:pt-28{@media(width &gt;= 48rem){padding-top: calc(var(--spacing) * 28);}}.md\:\!pb-10{@media(width &gt;= 48rem){padding-bottom: calc(var(--spacing) * 10) !important;}}.md\:text-left{@media(width &gt;= 48rem){text-align: left;}}.md\:text-2xl{@media(width &gt;= 48rem){font-size: var(--text-2xl); line-height: var(--tw-leading,var(--text-2xl--line-height));}}.md\:text-base{@media(width &gt;= 48rem){font-size: var(--text-base); line-height: var(--tw-leading,var(--text-base--line-height));}}.md\:text-lg{@media(width &gt;= 48rem){font-size: var(--text-lg); line-height: var(--tw-leading,var(--text-lg--line-height));}}.md\:text-h1{@media(width &gt;= 48rem){font-size: var(--text-h1);}}.md\:text-h2{@media(width &gt;= 48rem){font-size: var(--text-h2);}}.md\:text-h3{@media(width &gt;= 48rem){font-size: var(--text-h3);}}.lg\:invisible{@media(width &gt;= 64rem){visibility: hidden;}}.lg\:visible{@media(width &gt;= 64rem){visibility: visible;}}.lg\:absolute{@media(width &gt;= 64rem){position: absolute;}}.lg\:left-4{@media(width &gt;= 64rem){left: calc(var(--spacing) * 4);}}.lg\:order-1{@media(width &gt;= 64rem){order: 1;}}.lg\:order-1{@media(width &gt;= 64rem){order: 1;}}.lg\:col-3{@media(width &gt;= 64rem){grid-column: 3;}}.lg\:col-4{@media(width &gt;= 64rem){grid-column: 4;}}.lg\:col-6{@media(width &gt;= 64rem){grid-column: 6;}}.lg\:col-7{@media(width &gt;= 64rem){grid-column: 7;}}.lg\:col-8{@media(width &gt;= 64rem){grid-column: 8;}}.lg\:col-10{@media(width &gt;= 64rem){grid-column: 10;}}.lg\:col-12{@media(width &gt;= 64rem){grid-column: 12;}}.lg\:col-span-5{@media(width &gt;= 64rem){grid-column: span 5 / span 5;}}.lg\:col-span-7{@media(width &gt;= 64rem){grid-column: span 7 / span 7;}}.lg\:mt-0{@media(width &gt;= 64rem){margin-top: 0;}}.lg\:mt-12{@media(width &gt;= 64rem){margin-top: calc(var(--spacing) * 12);}}.lg\:mr-0{@media(width &gt;= 64rem){margin-right: 0;}}.lg\:mb-0{@media(width &gt;= 64rem){margin-bottom: 0;}}.lg\:ml-0{@media(width &gt;= 64rem){margin-left: 0;}}.lg\:ml-1{@media(width &gt;= 64rem){margin-left: var(--spacing);}}.lg\:ml-2{@media(width &gt;= 64rem){margin-left: calc(var(--spacing) * 2);}}.lg\:block{@media(width &gt;= 64rem){display: block;}}.lg\:flex{@media(width &gt;= 64rem){display: flex;}}.lg\:grid{@media(width &gt;= 64rem){display: grid;}}.lg\:hidden{@media(width &gt;= 64rem){display: none;}}.lg\:inline{@media(width &gt;= 64rem){display: inline;}}.lg\:inline-block{@media(width &gt;= 64rem){display: inline-block;}}.lg\:inline-flex{@media(width &gt;= 64rem){display: inline-flex;}}.lg\:col-3{@media(width &gt;= 64rem){flex: 0 0 auto; width: 25%;}}.lg\:col-4{@media(width &gt;= 64rem){flex: 0 0 auto; width: 33.333333333333336%;}}.lg\:col-6{@media(width &gt;= 64rem){flex: 0 0 auto; width: 50%;}}.lg\:col-7{@media(width &gt;= 64rem){flex: 0 0 auto; width: 58.333333333333336%;}}.lg\:col-8{@media(width &gt;= 64rem){flex: 0 0 auto; width: 66.66666666666667%;}}.lg\:col-10{@media(width &gt;= 64rem){flex: 0 0 auto; width: 83.33333333333334%;}}.lg\:col-12{@media(width &gt;= 64rem){flex: 0 0 auto; width: 100%;}}.lg\:w-auto{@media(width &gt;= 64rem){width: auto;}}.lg\:\!max-w-\[800px\]{@media(width &gt;= 64rem){max-width: 800px !important;}}.lg\:grid-cols-2{@media(width &gt;= 64rem){grid-template-columns: repeat(2,minmax(0,1fr));}}.lg\:grid-cols-12{@media(width &gt;= 64rem){grid-template-columns: repeat(12,minmax(0,1fr));}}.lg\:items-center{@media(width &gt;= 64rem){align-items: center;}}.lg\:items-start{@media(width &gt;= 64rem){align-items: flex-start;}}.lg\:items-stretch{@media(width &gt;= 64rem){align-items: stretch;}}.lg\:justify-start{@media(width &gt;= 64rem){justify-content: flex-start;}}.lg\:gap-x-12{@media(width &gt;= 64rem){column-gap: calc(var(--spacing) * 12);}}.lg\:space-x-2{@media(width &gt;= 64rem){:where(&amp;&gt;:not(:last-child)){--tw-space-x-reverse:0;margin-inline-start:calc(calc(var(--spacing) * 2) * var(--tw-space-x-reverse));margin-inline-end:calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-x-reverse)))}}}.lg\:border-t-0{@media(width &gt;= 64rem){border-top-style: var(--tw-border-style); border-top-width: 0px;}}.lg\:border-r-0{@media(width &gt;= 64rem){border-right-style: var(--tw-border-style); border-right-width: 0px;}}.lg\:border-l{@media(width &gt;= 64rem){border-left-style: var(--tw-border-style); border-left-width: 1px;}}.lg\:bg-green-200{@media(width &gt;= 64rem){background-color: var(--color-green-200);}}.lg\:bg-transparent{@media(width &gt;= 64rem){background-color: transparent;}}.lg\:px-2{@media(width &gt;= 64rem){padding-inline: calc(var(--spacing) * 2);}}.lg\:px-3{@media(width &gt;= 64rem){padding-inline: calc(var(--spacing) * 3);}}.lg\:px-4{@media(width &gt;= 64rem){padding-inline: calc(var(--spacing) * 4);}}.lg\:py-2{@media(width &gt;= 64rem){padding-block: calc(var(--spacing) * 2);}}.lg\:pt-0{@media(width &gt;= 64rem){padding-top: 0;}}.lg\:pt-12{@media(width &gt;= 64rem){padding-top: calc(var(--spacing) * 12);}}.lg\:pr-0{@media(width &gt;= 64rem){padding-right: 0;}}.lg\:pb-0{@media(width &gt;= 64rem){padding-bottom: 0;}}.lg\:pl-12{@media(width &gt;= 64rem){padding-left: calc(var(--spacing) * 12);}}.lg\:text-left{@media(width &gt;= 64rem){text-align: left;}}.lg\:text-right{@media(width &gt;= 64rem){text-align: right;}}.lg\:text-h1{@media(width &gt;= 64rem){font-size: var(--text-h1);}}.lg\:text-h1-sm{@media(width &gt;= 64rem){font-size: var(--text-h1-sm);}}.lg\:opacity-0{@media(width &gt;= 64rem){opacity: 0%;}}.lg\:transition-all{@media(width &gt;= 64rem){transition-property: all; transition-timing-function: var(--tw-ease,var(--default-transition-timing-function)); transition-duration: var(--tw-duration,var(--default-transition-duration));}}.lg\:duration-300{@media(width &gt;= 64rem){--tw-duration: 300ms; transition-duration: 300ms;}}.lg\:group-hover\:visible{@media(width &gt;= 64rem){&amp;:is(:where(.group):hover *){@media(hover:hover){visibility: visible;}}}}.lg\:group-hover\:opacity-100{@media(width &gt;= 64rem){&amp;:is(:where(.group):hover *){@media(hover:hover){opacity: 100%;}}}}.xl\:col-6{@media(width &gt;= 80rem){grid-column: 6;}}.xl\:col-9{@media(width &gt;= 80rem){grid-column: 9;}}.xl\:block{@media(width &gt;= 80rem){display: block;}}.xl\:hidden{@media(width &gt;= 80rem){display: none;}}.xl\:inline{@media(width &gt;= 80rem){display: inline;}}.xl\:col-6{@media(width &gt;= 80rem){flex: 0 0 auto; width: 50%;}}.xl\:col-9{@media(width &gt;= 80rem){flex: 0 0 auto; width: 75%;}}.xl\:\!max-w-\[1320px\]{@media(width &gt;= 80rem){max-width: 1320px !important;}}.xl\:gap-2{@media(width &gt;= 80rem){gap: calc(var(--spacing) * 2);}}.xl\:gap-3{@media(width &gt;= 80rem){gap: calc(var(--spacing) * 3);}}.xl\:gap-x-16{@media(width &gt;= 80rem){column-gap: calc(var(--spacing) * 16);}}.xl\:space-x-8{@media(width &gt;= 80rem){:where(&amp;&gt;:not(:last-child)){--tw-space-x-reverse:0;margin-inline-start:calc(calc(var(--spacing) * 8) * var(--tw-space-x-reverse));margin-inline-end:calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-x-reverse)))}}}.xl\:bg-blue-200{@media(width &gt;= 80rem){background-color: var(--color-blue-200);}}.xl\:p-20{@media(width &gt;= 80rem){padding: calc(var(--spacing) * 20);}}.xl\:pl-16{@media(width &gt;= 80rem){padding-left: calc(var(--spacing) * 16);}}.xl\:text-3xl{@media(width &gt;= 80rem){font-size: var(--text-3xl); line-height: var(--tw-leading,var(--text-3xl--line-height));}}.\32 xl\:block{@media(width &gt;= 96rem){display: block;}}.\32 xl\:hidden{@media(width &gt;= 96rem){display: none;}}.\32 xl\:bg-pink-200{@media(width &gt;= 96rem){background-color: var(--color-pink-200);}}.dark\:block{&amp;:where(.dark, .dark *){display:block}}.dark\:hidden{&amp;:where(.dark, .dark *){display:none}}.dark\:border-darkmode-border{&amp;:where(.dark, .dark *){border-color:var(--color-darkmode-border)}}.dark\:border-darkmode-primary{&amp;:where(.dark, .dark *){border-color:var(--color-darkmode-primary)}}.dark\:bg-darkmode-body{&amp;:where(.dark, .dark *){background-color:var(--color-darkmode-body)}}.dark\:bg-darkmode-light{&amp;:where(.dark, .dark *){background-color:var(--color-darkmode-light)}}.dark\:bg-darkmode-primary{&amp;:where(.dark, .dark *){background-color:var(--color-darkmode-primary)}}.dark\:bg-white{&amp;:where(.dark, .dark *){background-color:var(--color-white)}}.dark\:from-darkmode-body{&amp;:where(.dark, .dark *){--tw-gradient-from:var(--color-darkmode-body);--tw-gradient-stops:var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}}.dark\:to-darkmode-light{&amp;:where(.dark, .dark *){--tw-gradient-to:var(--color-darkmode-light);--tw-gradient-stops:var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}}.dark\:\!text-text-dark{&amp;:where(.dark, .dark *){color:var(--color-text-dark)!important}}.dark\:text-darkmode-text-dark{&amp;:where(.dark, .dark *){color:var(--color-darkmode-text-dark)}}.dark\:text-ink-muted{&amp;:where(.dark, .dark *){color:var(--color-ink-muted)}}.dark\:text-text-dark{&amp;:where(.dark, .dark *){color:var(--color-text-dark)}}.dark\:text-white{&amp;:where(.dark, .dark *){color:var(--color-white)}}.dark\:opacity-0{&amp;:where(.dark, .dark *){opacity:0%}}.dark\:opacity-100{&amp;:where(.dark, .dark *){opacity:100%}}.dark\:hover\:text-text-dark{&amp;:where(.dark, .dark *){&amp;:hover{@media(hover:hover){color: var(--color-text-dark);}}}}.dark\:focus\:border-accent{&amp;:where(.dark, .dark *){&amp;:focus{border-color:var(--color-accent)}}}.prose-headings\:mt-\[\.6em\]{&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){margin-top:.6em}}.prose-headings\:mb-\[\.3em\]{&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){margin-bottom:.3em}}.prose-headings\:leading-\[1\.1\]{&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){--tw-leading:1.1;line-height:1.1}}.prose-headings\:leading-\[1\.25\]{&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){--tw-leading:1.25;line-height:1.25}}.prose-headings\:text-balance{&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){text-wrap:balance}}.prose-headings\:text-ink{&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink)}}.prose-headings\:text-text-dark{&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-text-dark)}}.prose-h1\:text-h1-sm{&amp; :is(:where(h1):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-h1-sm)}}.prose-h2\:text-h2-sm{&amp; :is(:where(h2):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-h2-sm)}}.prose-h3\:text-h3-sm{&amp; :is(:where(h3):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-h3-sm)}}.prose-p\:text-base{&amp; :is(:where(p):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height))}}.prose-p\:text-ink-muted{&amp; :is(:where(p):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink-muted)}}.prose-p\:text-text{&amp; :is(:where(p):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-text)}}.prose-a\:text-ink-muted{&amp; :is(:where(a):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink-muted)}}.prose-a\:text-text{&amp; :is(:where(a):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-text)}}.prose-a\:underline{&amp; :is(:where(a):not(:where([class~=not-prose],[class~=not-prose] *))){text-decoration-line:underline}}.prose-a\:hover\:text-accent{&amp; :is(:where(a):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;:hover{@media(hover:hover){color: var(--color-accent);}}}}.prose-blockquote\:rounded-lg{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){border-radius:var(--radius-lg)}}.prose-blockquote\:border{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){border-style:var(--tw-border-style);border-width:1px}}.prose-blockquote\:border-l-\[10px\]{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){border-left-style:var(--tw-border-style);border-left-width:10px}}.prose-blockquote\:border-accent\/25{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:color-mix(in srgb,#181614 25%,transparent);@supports(color:color-mix(in lab,red,red)){border-color: color-mix(in oklab,var(--color-accent) 25%,transparent);}}}.prose-blockquote\:border-primary{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-primary)}}.prose-blockquote\:bg-elevated{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){background-color:var(--color-elevated)}}.prose-blockquote\:bg-light{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){background-color:var(--color-light)}}.prose-blockquote\:px-8{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){padding-inline:calc(var(--spacing) * 8)}}.prose-blockquote\:py-10{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){padding-block:calc(var(--spacing) * 10)}}.prose-blockquote\:font-primary{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){font-family:var(--font-primary)}}.prose-blockquote\:font-secondary{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){font-family:var(--font-secondary)}}.prose-blockquote\:text-2xl{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-2xl);line-height:var(--tw-leading,var(--text-2xl--line-height))}}.prose-blockquote\:text-text-dark{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-text-dark)}}.prose-blockquote\:not-italic{&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){font-style:normal}}.dark\:prose-blockquote\:border-darkmode-primary{&amp;:where(.dark, .dark *){&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-darkmode-primary)}}}.dark\:prose-blockquote\:bg-darkmode-light{&amp;:where(.dark, .dark *){&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){background-color:var(--color-darkmode-light)}}}.prose-strong\:text-text-dark{&amp; :is(:where(strong):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-text-dark)}}.prose-code\:px-1{&amp; :is(:where(code):not(:where([class~=not-prose],[class~=not-prose] *))){padding-inline:var(--spacing)}}.prose-code\:text-accent{&amp; :is(:where(code):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-accent)}}.prose-pre\:rounded-lg{&amp; :is(:where(pre):not(:where([class~=not-prose],[class~=not-prose] *))){border-radius:var(--radius-lg)}}.prose-pre\:bg-light{&amp; :is(:where(pre):not(:where([class~=not-prose],[class~=not-prose] *))){background-color:var(--color-light)}}.prose-li\:text-text{&amp; :is(:where(li):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-text)}}.prose-table\:relative{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){position:relative}}.prose-table\:overflow-hidden{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){overflow:hidden}}.prose-table\:rounded-lg{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){border-radius:var(--radius-lg)}}.prose-table\:before\:absolute{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);position:absolute}}}.prose-table\:before\:top-0{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);top:0}}}.prose-table\:before\:left-0{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);left:0}}}.prose-table\:before\:h-full{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);height:100%}}}.prose-table\:before\:w-full{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);width:100%}}}.prose-table\:before\:rounded-\[inherit\]{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);border-radius:inherit}}}.prose-table\:before\:border{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);border-style:var(--tw-border-style);border-width:1px}}}.prose-table\:before\:border-border{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);border-color:var(--color-border)}}}.prose-table\:before\:border-divider{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);border-color:var(--color-divider)}}}.prose-table\:before\:content-\[\"\"\]{&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{--tw-content:"";content:var(--tw-content)}}}.prose-thead\:border-border{&amp; :is(:where(thead):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-border)}}.prose-thead\:border-divider{&amp; :is(:where(thead):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-divider)}}.prose-thead\:bg-elevated{&amp; :is(:where(thead):not(:where([class~=not-prose],[class~=not-prose] *))){background-color:var(--color-elevated)}}.prose-thead\:bg-light{&amp; :is(:where(thead):not(:where([class~=not-prose],[class~=not-prose] *))){background-color:var(--color-light)}}.dark\:prose-thead\:border-darkmode-border{&amp;:where(.dark, .dark *){&amp; :is(:where(thead):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-darkmode-border)}}}.prose-tr\:border-border{&amp; :is(:where(tr):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-border)}}.prose-th\:relative{&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){position:relative}}.prose-th\:z-10{&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){z-index:10}}.prose-th\:px-4{&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){padding-inline:calc(var(--spacing) * 4)}}.prose-th\:py-\[18px\]{&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){padding-block:18px}}.prose-th\:text-text-dark{&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-text-dark)}}.prose-td\:relative{&amp; :is(:where(td):not(:where([class~=not-prose],[class~=not-prose] *))){position:relative}}.prose-td\:z-10{&amp; :is(:where(td):not(:where([class~=not-prose],[class~=not-prose] *))){z-index:10}}.prose-td\:px-3{&amp; :is(:where(td):not(:where([class~=not-prose],[class~=not-prose] *))){padding-inline:calc(var(--spacing) * 3)}}.prose-td\:py-\[18px\]{&amp; :is(:where(td):not(:where([class~=not-prose],[class~=not-prose] *))){padding-block:18px}}.prose-img\:max-w-full{&amp; :is(:where(img):not(:where([class~=not-prose],[class~=not-prose] *))){max-width:100%}}.prose-hr\:border-border{&amp; :is(:where(hr):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-border)}}}@layer base{.dark{--color-surface:var(--color-darkmode-body);--color-elevated:var(--color-darkmode-light);--color-ink:var(--color-darkmode-text-dark);--color-ink-muted:var(--color-darkmode-text);--color-ink-faint:var(--color-darkmode-text-light);--color-divider:var(--color-darkmode-border);--color-accent:var(--color-darkmode-primary);--color-on-accent:var(--color-surface)}}input#nav-toggle:checked+label #show-button{display:none}input#nav-toggle:checked+label #hide-button{display:block}input#nav-toggle:checked~#nav-menu{display:block}.swiper-pagination-bullet{height:calc(var(--spacing) * 2.5)!important;width:calc(var(--spacing) * 2.5)!important;background-color:var(--color-elevated)!important;opacity:100%!important}.swiper-pagination-bullet-active{height:calc(var(--spacing) * 4)!important;width:calc(var(--spacing) * 4)!important;background-color:var(--color-accent)!important}@layer base{html{--header-offset:80px;--touch-target-min:2.75rem;--btn-py:0.5rem;--nav-link-py:0.75rem;--filter-py:0.5rem;font-family:var(--font-primary);font-size:var(--text-base-sm);@media(width &gt;= 48rem){font-size: var(--text-base); line-height: var(--tw-leading,var(--text-base--line-height));}color-scheme:light;scroll-padding-top:var(--header-offset);scroll-behavior:smooth}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}html.dark{color-scheme:dark}@media(min-width:1024px){html{--header-offset:100px}}@media(min-width:1280px){html{--header-offset:110px}}body{background-color:var(--color-surface);font-family:var(--font-primary);font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height));--tw-leading:var(--leading-relaxed);line-height:var(--leading-relaxed);--tw-font-weight:var(--font-weight-normal);font-weight:var(--font-weight-normal);color:var(--color-ink-muted);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1,h2,h3,h4,h5,h6{font-family:var(--font-primary);color:var(--color-ink);text-wrap:balance;text-transform:capitalize}h1:not(.article-title),.h1{font-size:var(--text-h1-sm);--tw-leading:1.12;line-height:1.12;--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold);--tw-tracking:-0.03em;letter-spacing:-.03em;@media(width &gt;= 48rem){font-size: var(--text-h1);}}h2,.h2{font-size:var(--text-h2-sm);--tw-leading:var(--leading-tight);line-height:var(--leading-tight);--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold);--tw-tracking:-0.025em;letter-spacing:-.025em;@media(width &gt;= 48rem){font-size: var(--text-h2);}}h3,.h3{font-size:var(--text-h3-sm);--tw-leading:var(--leading-snug);line-height:var(--leading-snug);--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold);--tw-tracking:-0.02em;letter-spacing:-.02em;@media(width &gt;= 48rem){font-size: var(--text-h3);}}h4,.h4{font-size:var(--text-h4);--tw-leading:var(--leading-snug);line-height:var(--leading-snug);--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold);--tw-tracking:var(--tracking-tight);letter-spacing:var(--tracking-tight)}h5,.h5{font-size:var(--text-h5);--tw-leading:var(--leading-snug);line-height:var(--leading-snug);--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold);--tw-tracking:var(--tracking-tight);letter-spacing:var(--tracking-tight)}h6,.h6{font-size:var(--text-h6);--tw-leading:var(--leading-normal);line-height:var(--leading-normal);--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold);--tw-tracking:var(--tracking-normal);letter-spacing:var(--tracking-normal)}.article-title{font-family:var(--font-primary);--tw-leading:1.15;line-height:1.15;--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold);--tw-tracking:-0.035em;letter-spacing:-.035em;text-wrap:balance;color:var(--color-ink);font-size:var(--text-h2-sm);@media(width &gt;= 48rem){font-size: var(--text-h2);}@media(width &gt;= 64rem){font-size: var(--text-h1-sm);}@media(width &gt;= 80rem){font-size: var(--text-h1);}}b,strong{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}code{&amp;::after{content:var(--tw-content);--tw-border-style:none;border-style:none}}blockquote&gt;p{margin-block:0!important}}@layer components{.section{padding-block:calc(var(--spacing) * 14);@media(width &gt;= 48rem){padding-block: calc(var(--spacing) * 20);}}.heading-title-case{text-transform:capitalize}.container{margin-inline:auto;padding-inline:calc(var(--spacing) * 4);@media(width &gt;= 80rem){max-width: 1320px !important;}}.social-icons{ :where(&amp; &gt; :not(:last-child)) { --tw-space-x-reverse: 0; margin-inline-start: calc(calc(var(--spacing) * 4) * var(--tw-space-x-reverse)); margin-inline-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-x-reverse))); }}.social-icons li{display:inline-block}.social-icons li a{display:inline-flex;height:calc(var(--spacing) * 9);width:calc(var(--spacing) * 9);align-items:center;justify-content:center;border-radius:var(--radius-sm);background-color:var(--color-accent)}.social-icons li a svg{height:calc(var(--spacing) * 5);width:calc(var(--spacing) * 5);fill:var(--color-surface)}.content{color:var(--tw-prose-body);max-width:65ch; :where(p):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 1.25em; margin-bottom: 1.25em; } :where([class~="lead"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-lead); font-size: 1.25em; line-height: 1.6; margin-top: 1.2em; margin-bottom: 1.2em; } :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-links); text-decoration: underline; font-weight: 500; } :where(strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-bold); font-weight: 600; } :where(a strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(blockquote strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(thead th strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(ol):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: decimal; margin-top: 1.25em; margin-bottom: 1.25em; padding-inline-start: 1.625em; } :where(ol[type="A"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: upper-alpha; } :where(ol[type="a"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: lower-alpha; } :where(ol[type="A" s]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: upper-alpha; } :where(ol[type="a" s]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: lower-alpha; } :where(ol[type="I"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: upper-roman; } :where(ol[type="i"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: lower-roman; } :where(ol[type="I" s]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: upper-roman; } :where(ol[type="i" s]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: lower-roman; } :where(ol[type="1"]):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: decimal; } :where(ul):not(:where([class~="not-prose"], [class~="not-prose"] *)) { list-style-type: disc; margin-top: 1.25em; margin-bottom: 1.25em; padding-inline-start: 1.625em; } :where(ol &gt; li):not(:where([class~="not-prose"], [class~="not-prose"] *))::marker { font-weight: 400; color: var(--tw-prose-counters); } :where(ul &gt; li):not(:where([class~="not-prose"], [class~="not-prose"] *))::marker { color: var(--tw-prose-bullets); } :where(dt):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 600; margin-top: 1.25em; } :where(hr):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-color: var(--tw-prose-hr); border-top-width: 1px; margin-top: 3em; margin-bottom: 3em; } :where(blockquote):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 500; font-style: italic; color: var(--tw-prose-quotes); border-inline-start-width: 0.25rem; border-inline-start-color: var(--tw-prose-quote-borders); quotes: "\201C""\201D""\2018""\2019"; margin-top: 1.6em; margin-bottom: 1.6em; padding-inline-start: 1em; } :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before { content: open-quote; } :where(blockquote p:last-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::after { content: close-quote; } :where(h1):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 800; font-size: 2.25em; margin-top: 0; margin-bottom: 0.8888889em; line-height: 1.1111111; } :where(h1 strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 900; color: inherit; } :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 700; font-size: 1.5em; margin-top: 2em; margin-bottom: 1em; line-height: 1.3333333; } :where(h2 strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 800; color: inherit; } :where(h3):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 600; font-size: 1.25em; margin-top: 1.6em; margin-bottom: 0.6em; line-height: 1.6; } :where(h3 strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 700; color: inherit; } :where(h4):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 600; margin-top: 1.5em; margin-bottom: 0.5em; line-height: 1.5; } :where(h4 strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 700; color: inherit; } :where(img):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 2em; margin-bottom: 2em; } :where(picture):not(:where([class~="not-prose"], [class~="not-prose"] *)) { display: block; margin-top: 2em; margin-bottom: 2em; } :where(video):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 2em; margin-bottom: 2em; } :where(kbd):not(:where([class~="not-prose"], [class~="not-prose"] *)) { font-weight: 500; font-family: inherit; color: var(--tw-prose-kbd); box-shadow: 0 0 0 1px var(--tw-prose-kbd-shadows), 0 3px 0 var(--tw-prose-kbd-shadows); font-size: 0.875em; border-radius: 0.3125rem; padding-top: 0.1875em; padding-inline-end: 0.375em; padding-bottom: 0.1875em; padding-inline-start: 0.375em; } :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-code); font-weight: 600; font-size: 0.875em; } :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::before { content: "&#96;"; } :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::after { content: "&#96;"; } :where(a code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(h1 code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(h2 code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; font-size: 0.875em; } :where(h3 code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; font-size: 0.9em; } :where(h4 code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(blockquote code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(thead th code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: inherit; } :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-pre-code); background-color: var(--tw-prose-pre-bg); overflow-x: auto; font-weight: 400; font-size: 0.875em; line-height: 1.7142857; margin-top: 1.7142857em; margin-bottom: 1.7142857em; border-radius: 0.375rem; padding-top: 0.8571429em; padding-inline-end: 1.1428571em; padding-bottom: 0.8571429em; padding-inline-start: 1.1428571em; } :where(pre code):not(:where([class~="not-prose"], [class~="not-prose"] *)) { background-color: transparent; border-width: 0; border-radius: 0; padding: 0; font-weight: inherit; color: inherit; font-size: inherit; font-family: inherit; line-height: inherit; } :where(pre code):not(:where([class~="not-prose"], [class~="not-prose"] *))::before { content: none; } :where(pre code):not(:where([class~="not-prose"], [class~="not-prose"] *))::after { content: none; } :where(table):not(:where([class~="not-prose"], [class~="not-prose"] *)) { width: 100%; table-layout: auto; margin-top: 2em; margin-bottom: 2em; font-size: 0.875em; line-height: 1.7142857; } :where(thead):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 1px; border-bottom-color: var(--tw-prose-th-borders); } :where(thead th):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-headings); font-weight: 600; vertical-align: bottom; padding-inline-end: 0.5714286em; padding-bottom: 0.5714286em; padding-inline-start: 0.5714286em; } :where(tbody tr):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 1px; border-bottom-color: var(--tw-prose-td-borders); } :where(tbody tr:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-bottom-width: 0; } :where(tbody td):not(:where([class~="not-prose"], [class~="not-prose"] *)) { vertical-align: baseline; } :where(tfoot):not(:where([class~="not-prose"], [class~="not-prose"] *)) { border-top-width: 1px; border-top-color: var(--tw-prose-th-borders); } :where(tfoot td):not(:where([class~="not-prose"], [class~="not-prose"] *)) { vertical-align: top; } :where(th, td):not(:where([class~="not-prose"], [class~="not-prose"] *)) { text-align: start; } :where(figure &gt; *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; margin-bottom: 0; } :where(figcaption):not(:where([class~="not-prose"], [class~="not-prose"] *)) { color: var(--tw-prose-captions); font-size: 0.875em; line-height: 1.4285714; margin-top: 0.8571429em; } --tw-prose-body: oklch(37.3% 0.034 259.733);--tw-prose-headings:oklch(21% 0.034 264.665);--tw-prose-lead:oklch(44.6% 0.03 256.802);--tw-prose-links:oklch(21% 0.034 264.665);--tw-prose-bold:oklch(21% 0.034 264.665);--tw-prose-counters:oklch(55.1% 0.027 264.364);--tw-prose-bullets:oklch(87.2% 0.01 258.338);--tw-prose-hr:oklch(92.8% 0.006 264.531);--tw-prose-quotes:oklch(21% 0.034 264.665);--tw-prose-quote-borders:oklch(92.8% 0.006 264.531);--tw-prose-captions:oklch(55.1% 0.027 264.364);--tw-prose-kbd:oklch(21% 0.034 264.665);--tw-prose-kbd-shadows:color-mix(in oklab, oklch(21% 0.034 264.665) 10%, transparent);--tw-prose-code:oklch(21% 0.034 264.665);--tw-prose-pre-code:oklch(92.8% 0.006 264.531);--tw-prose-pre-bg:oklch(27.8% 0.033 256.848);--tw-prose-th-borders:oklch(87.2% 0.01 258.338);--tw-prose-td-borders:oklch(92.8% 0.006 264.531);--tw-prose-invert-body:oklch(87.2% 0.01 258.338);--tw-prose-invert-headings:#fff;--tw-prose-invert-lead:oklch(70.7% 0.022 261.325);--tw-prose-invert-links:#fff;--tw-prose-invert-bold:#fff;--tw-prose-invert-counters:oklch(70.7% 0.022 261.325);--tw-prose-invert-bullets:oklch(44.6% 0.03 256.802);--tw-prose-invert-hr:oklch(37.3% 0.034 259.733);--tw-prose-invert-quotes:oklch(96.7% 0.003 264.542);--tw-prose-invert-quote-borders:oklch(37.3% 0.034 259.733);--tw-prose-invert-captions:oklch(70.7% 0.022 261.325);--tw-prose-invert-kbd:#fff;--tw-prose-invert-kbd-shadows:rgb(255 255 255 / 10%);--tw-prose-invert-code:#fff;--tw-prose-invert-pre-code:oklch(87.2% 0.01 258.338);--tw-prose-invert-pre-bg:rgb(0 0 0 / 50%);--tw-prose-invert-th-borders:oklch(44.6% 0.03 256.802);--tw-prose-invert-td-borders:oklch(37.3% 0.034 259.733);font-size:1rem;line-height:1.75; :where(picture &gt; img):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; margin-bottom: 0; } :where(li):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0.5em; margin-bottom: 0.5em; } :where(ol &gt; li):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-start: 0.375em; } :where(ul &gt; li):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-start: 0.375em; } :where(.prose &gt; ul &gt; li p):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0.75em; margin-bottom: 0.75em; } :where(.prose &gt; ul &gt; li &gt; p:first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 1.25em; } :where(.prose &gt; ul &gt; li &gt; p:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-bottom: 1.25em; } :where(.prose &gt; ol &gt; li &gt; p:first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 1.25em; } :where(.prose &gt; ol &gt; li &gt; p:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-bottom: 1.25em; } :where(ul ul, ul ol, ol ul, ol ol):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0.75em; margin-bottom: 0.75em; } :where(dl):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 1.25em; margin-bottom: 1.25em; } :where(dd):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0.5em; padding-inline-start: 1.625em; } :where(hr + *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(h2 + *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(h3 + *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(h4 + *):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(thead th:first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-start: 0; } :where(thead th:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-end: 0; } :where(tbody td, tfoot td):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-top: 0.5714286em; padding-inline-end: 0.5714286em; padding-bottom: 0.5714286em; padding-inline-start: 0.5714286em; } :where(tbody td:first-child, tfoot td:first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-start: 0; } :where(tbody td:last-child, tfoot td:last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { padding-inline-end: 0; } :where(figure):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 2em; margin-bottom: 2em; } :where(.prose &gt; :first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-top: 0; } :where(.prose &gt; :last-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) { margin-bottom: 0; } max-width: 100%;font-family:var(--font-primary);&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){margin-top:.6em}&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){margin-bottom:.3em}&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){--tw-leading:1.25;line-height:1.25}&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){text-wrap:balance}&amp; :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink)}&amp; :is(:where(h1):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-h1-sm)}@media(width &gt;= 48rem){&amp; :is(:where(h1):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-h1)}}&amp; :is(:where(h2):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-h2-sm)}@media(width &gt;= 48rem){&amp; :is(:where(h2):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-h2)}}&amp; :is(:where(h3):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-h3-sm)}@media(width &gt;= 48rem){&amp; :is(:where(h3):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-h3)}}&amp; :is(:where(img):not(:where([class~=not-prose],[class~=not-prose] *))){max-width:100%}&amp; :is(:where(img):not(:where([class~=not-prose],[class~=not-prose] *))){border-radius:.25rem}&amp; :is(:where(hr):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-divider)}&amp; :is(:where(p):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height))}&amp; :is(:where(p):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink-muted)}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){border-radius:var(--radius-lg)}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){border-style:var(--tw-border-style);border-width:1px}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:color-mix(in srgb,#181614 25%,transparent);@supports(color:color-mix(in lab,red,red)){border-color: color-mix(in oklab,var(--color-accent) 25%,transparent);}}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){background-color:var(--color-elevated)}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){padding-inline:calc(var(--spacing) * 8)}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){padding-block:calc(var(--spacing) * 10)}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){font-family:var(--font-primary)}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){font-size:var(--text-2xl);line-height:var(--tw-leading,var(--text-2xl--line-height))}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink)}&amp; :is(:where(blockquote):not(:where([class~=not-prose],[class~=not-prose] *))){font-style:normal}&amp; :is(:where(pre):not(:where([class~=not-prose],[class~=not-prose] *))){border-radius:var(--radius-lg)}&amp; :is(:where(pre):not(:where([class~=not-prose],[class~=not-prose] *))){background-color:var(--color-elevated)}&amp; :is(:where(code):not(:where([class~=not-prose],[class~=not-prose] *))){padding-inline:var(--spacing)}&amp; :is(:where(code):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-accent)}&amp; :is(:where(strong):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink)}&amp; :is(:where(a):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink-muted)}&amp; :is(:where(a):not(:where([class~=not-prose],[class~=not-prose] *))){text-decoration-line:underline}&amp; :is(:where(a):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;:hover{@media(hover:hover){color: var(--color-accent);}}}&amp; :is(:where(li):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink-muted)}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){position:relative}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){overflow:hidden}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){border-radius:var(--radius-lg)}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);position:absolute}}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);top:0}}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);left:0}}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);height:100%}}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);width:100%}}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);border-radius:inherit}}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);border-style:var(--tw-border-style);border-width:1px}}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{content:var(--tw-content);border-color:var(--color-divider)}}&amp; :is(:where(table):not(:where([class~=not-prose],[class~=not-prose] *))){&amp;::before{--tw-content:"";content:var(--tw-content)}}&amp; :is(:where(thead):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-divider)}&amp; :is(:where(thead):not(:where([class~=not-prose],[class~=not-prose] *))){background-color:var(--color-elevated)}&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){position:relative}&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){z-index:10}&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){padding-inline:calc(var(--spacing) * 4)}&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){padding-block:18px}&amp; :is(:where(th):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink)}&amp; :is(:where(tr):not(:where([class~=not-prose],[class~=not-prose] *))){border-color:var(--color-divider)}&amp; :is(:where(td):not(:where([class~=not-prose],[class~=not-prose] *))){position:relative}&amp; :is(:where(td):not(:where([class~=not-prose],[class~=not-prose] *))){z-index:10}&amp; :is(:where(td):not(:where([class~=not-prose],[class~=not-prose] *))){padding-inline:calc(var(--spacing) * 3)}&amp; :is(:where(td):not(:where([class~=not-prose],[class~=not-prose] *))){padding-block:18px}&amp; :is(:where(td):not(:where([class~=not-prose],[class~=not-prose] *))){color:var(--color-ink-muted)}}.content .btn{text-decoration-line:none}.content .btn-primary{color:var(--color-on-accent)!important;&amp;:hover{@media(hover:hover){color: var(--color-on-accent) !important;}}}.content .btn-outline-primary{color:var(--color-ink)!important;&amp;:hover{@media(hover:hover){color: var(--color-on-accent) !important;}}}.image--partial{aspect-ratio:var(--aspect-video);width:100%;border-radius:.25rem;object-fit:cover;will-change:transform;content-visibility:auto}#TableOfContents ol{list-style-type:none;padding-left:0}#TableOfContents ol ol{padding-left:calc(var(--spacing) * 4)}#TableOfContents ol ol ol{padding-left:calc(var(--spacing) * 6)}#TableOfContents ol ol ol ol{padding-left:calc(var(--spacing) * 8)}#TableOfContents .toc-level-3{padding-left:calc(var(--spacing) * 4)}#TableOfContents .toc-level-4{padding-left:calc(var(--spacing) * 6)}#TableOfContents .toc-level-5{padding-left:calc(var(--spacing) * 8)}.dark .mermaid{background:var(--color-elevated)}.dark .mermaid p{color:var(--color-ink)}code{padding-inline:0!important}blockquote p{padding-bottom:20px}blockquote p:last-child{padding-bottom:0}blockquote li{font-size:var(--text-base)}.tags_section ul{padding-inline:0;margin:0}.pagination-control{display:inline-flex;align-items:center;justify-content:center;padding-top:var(--btn-py);padding-bottom:var(--btn-py);min-height:var(--touch-target-min);min-width:var(--touch-target-min);touch-action:manipulation}.progress-ring__circle{transition:stroke-dashoffset .1s ease-out;transform:rotate(-90deg);transform-origin:50% 50%}@media(prefers-reduced-motion:reduce){.progress-ring__circle{transition:none}}.header{border-bottom-style:var(--tw-border-style);border-bottom-width:1px;border-color:var(--color-divider);background-color:var(--color-surface);padding-block:calc(var(--spacing) * 5)}.navbar{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}.navbar-brand{font-size:var(--text-xl);line-height:var(--tw-leading,var(--text-xl--line-height));--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold);color:var(--color-ink);img{max-height:100%;max-width:100%}}input#nav-toggle:focus-visible+label{border-radius:var(--radius-md);--tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);--tw-ring-color:var(--color-accent);--tw-ring-offset-width:2px;--tw-ring-offset-shadow:var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-offset-color:var(--color-surface);--tw-outline-style:none;outline-style:none}.navbar-nav{text-align:center;@media(width &gt;= 64rem){align-items: center;}@media(width &gt;= 64rem){text-align: left;}}.nav-link{display:block;cursor:pointer;--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold);color:var(--color-ink);transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration));--tw-duration:200ms;transition-duration:200ms;--tw-ease:var(--ease-out);transition-timing-function:var(--ease-out);&amp;:hover{@media(hover:hover){color: var(--color-accent);}}padding-top:var(--nav-link-py);padding-bottom:var(--nav-link-py);padding-left:.75rem;padding-right:.75rem;@media(width &gt;= 64rem){padding-inline: calc(var(--spacing) * 2);}}.navbar-nav .nav-link{min-height:var(--touch-target-min);touch-action:manipulation;-webkit-tap-highlight-color:color-mix(in srgb,#181614 20%,transparent);@supports(color:color-mix(in lab,red,red)){-webkit-tap-highlight-color: color-mix(in srgb,var(--color-accent) 20%,transparent);}}button.nav-link.nav-dropdown-trigger{font:inherit;border-style:var(--tw-border-style);border-width:0;background-color:initial;text-align:left;&amp;:focus-visible{--tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}&amp;:focus-visible{--tw-ring-color:var(--color-accent)}&amp;:focus-visible{--tw-ring-offset-width:2px;--tw-ring-offset-shadow:var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)}&amp;:focus-visible{--tw-ring-offset-color:var(--color-surface)}&amp;:focus-visible{--tw-outline-style:none;outline-style:none}}.nav-dropdown{margin-right:0}.nav-dropdown-trigger svg{pointer-events:none;flex-shrink:0}.nav-dropdown-trigger{@media(width &lt; 64rem){width: 100%;}@media(width &gt;= 64rem){width: auto;}}.nav-dropdown.active .nav-dropdown-list{display:block;@media(width &gt;= 64rem){visibility: visible;}@media(width &gt;= 64rem){opacity: 100%;}}.nav-dropdown-list{z-index:10;display:none;min-width:180px;border-radius:var(--radius-lg);border-style:var(--tw-border-style);border-width:1px;border-color:var(--color-divider);background-color:var(--color-elevated);padding:calc(var(--spacing) * 4);--tw-shadow:0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);@media(width &gt;= 64rem){visibility: hidden;}@media(width &gt;= 64rem){position: absolute;}@media(width &gt;= 64rem){display: block;}@media(width &gt;= 64rem){opacity: 0%;}@media(width &gt;= 64rem){transition-property: all; transition-timing-function: var(--tw-ease,var(--default-transition-timing-function)); transition-duration: var(--tw-duration,var(--default-transition-duration));}@media(width &gt;= 64rem){--tw-duration: 300ms; transition-duration: 300ms;}@media(width &gt;= 64rem){--tw-ease: var(--ease-out); transition-timing-function: var(--ease-out);}}.nav-dropdown-item{&amp;:not(:last-child){margin-bottom:calc(var(--spacing) * 2)}}.nav-dropdown-link{display:flex;align-items:center;--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold);color:var(--color-ink);transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration));--tw-duration:200ms;transition-duration:200ms;--tw-ease:var(--ease-out);transition-timing-function:var(--ease-out);&amp;:hover{@media(hover:hover){color: var(--color-accent);}}padding-top:var(--btn-py);padding-bottom:var(--btn-py);min-height:var(--touch-target-min);touch-action:manipulation}.nav-item--cta{margin-top:calc(var(--spacing) * 4);display:flex;align-items:center;justify-content:center;@media(width &gt;= 64rem){margin-top: 0;}@media(width &gt;= 64rem){margin-left: var(--spacing);}@media(width &gt;= 64rem){justify-content: flex-start;}@media(width &gt;= 80rem){margin-left: calc(var(--spacing) * 2);}}.nav-item--cta .btn{padding-inline:calc(var(--spacing) * 4);font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height));text-transform:none;@media(width &gt;= 64rem){padding-inline: calc(var(--spacing) * 3);}@media(width &gt;= 64rem){--tw-leading: 1; line-height: 1;}}.header-utility-control{display:inline-flex;min-height:calc(var(--spacing) * 11);min-width:calc(var(--spacing) * 11);align-items:center;justify-content:center;touch-action:manipulation;-webkit-tap-highlight-color:color-mix(in srgb,#181614 20%,transparent);@supports(color:color-mix(in lab,red,red)){-webkit-tap-highlight-color: color-mix(in srgb,var(--color-accent) 20%,transparent);}}.header-lang-select{min-height:var(--touch-target-min);padding-top:var(--btn-py);padding-bottom:var(--btn-py);touch-action:manipulation}.theme-switcher{display:inline-flex;min-height:calc(var(--spacing) * 11);align-items:center;label{position:relative;display:inline-block;height:calc(var(--spacing) * 4);width:calc(var(--spacing) * 6);cursor:pointer;border-radius:var(--radius-2xl);background-color:var(--color-border);@media(width &gt;= 64rem){width: calc(var(--spacing) * 10);}}input{position:absolute;opacity:0%}span{position:absolute;top:calc(var(--spacing) * -1);left:0;display:flex;height:calc(var(--spacing) * 6);width:calc(var(--spacing) * 6);align-items:center;justify-content:center;border-radius:calc(infinity * 1px);background-color:var(--color-dark);transition-property:all;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration));--tw-duration:300ms;transition-duration:300ms;&amp;:where(.dark, .dark *){background-color:var(--color-white)}}input:checked + label{span{@media(width &gt;= 64rem){left: calc(var(--spacing) * 4);}}}}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:.25rem;border-style:var(--tw-border-style);border-width:1px;border-color:transparent;padding-inline:calc(var(--spacing) * 5);--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold);text-transform:capitalize;transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration));@media(prefers-reduced-motion:reduce){transition-property: none;}padding-top:var(--btn-py);padding-bottom:var(--btn-py);touch-action:manipulation;-webkit-tap-highlight-color:color-mix(in srgb,#181614 20%,transparent);@supports(color:color-mix(in lab,red,red)){-webkit-tap-highlight-color: color-mix(in srgb,var(--color-accent) 20%,transparent);}}.btn-sm{border-radius:var(--radius-sm);padding-inline:calc(var(--spacing) * 4);font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height));padding-top:var(--btn-py);padding-bottom:var(--btn-py)}@media(max-width:1279.98px){.btn,.btn-sm{min-height:var(--touch-target-min)}}.btn-primary{border-color:var(--color-accent);background-color:var(--color-accent);color:var(--color-on-accent);&amp;:focus-visible{--tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}&amp;:focus-visible{--tw-ring-color:var(--color-accent)}&amp;:focus-visible{--tw-ring-offset-width:2px;--tw-ring-offset-shadow:var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)}&amp;:focus-visible{--tw-ring-offset-color:var(--color-surface)}&amp;:focus-visible{--tw-outline-style:none;outline-style:none}}.btn-outline-primary{border-color:var(--color-accent);background-color:initial;color:var(--color-ink);&amp;:hover{@media(hover:hover){background-color: var(--color-accent);}}&amp;:hover{@media(hover:hover){color: var(--color-on-accent);}}&amp;:focus-visible{--tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}&amp;:focus-visible{--tw-ring-color:var(--color-accent)}&amp;:focus-visible{--tw-ring-offset-width:2px;--tw-ring-offset-shadow:var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)}&amp;:focus-visible{--tw-ring-offset-color:var(--color-surface)}&amp;:focus-visible{--tw-outline-style:none;outline-style:none}}}.search-wrapper{position:relative;z-index:1}.search-wrapper svg{display:inline-block;background-color:initial}.search-wrapper-header{padding:14px;position:relative}.search-wrapper-header input{border:1px solid #ddd;width:100%;border-radius:4px;height:52px;padding:0 15px 0 40px;transition:.25s}.search-wrapper-header input:focus{border-color:var(--color-primary);box-shadow:none;outline:none}.search-wrapper-header label{position:absolute;left:28px;top:calc(50% - 13px)}.search-wrapper-header label .search-reset{display:none;transition:.1s}.search-wrapper-header label .search-reset:hover{cursor:pointer;color:#fb5c5c}.search-result-empty{display:block;text-align:center;padding:32px 0;cursor:text;user-select:none}.search-result mark{padding:0;border-radius:2px}.search-result:not(:empty)+.search-result-empty{display:none}.search-not-found{text-align:center}.search-not-found svg{margin-bottom:16px}.search-not-found p{margin-bottom:0}.search-result-item{position:relative;display:block;padding:16px;border-radius:4px;border:1px solid #eee;background-color:#fff;transition:0s;margin-bottom:4px;display:flex;align-items:flex-start}.search-result-item div:empty,.search-result-item .search-result-item-description:empty{display:none}.search-result-item-image{flex-shrink:0}.search-result-item-image:empty{display:none}.search-result-item-body{flex-grow:1}.search-result-item&gt;div&gt;img{border-radius:4px;max-height:400px;width:100%;object-fit:cover}.search-page .search-result-item&gt;div&gt;img{object-fit:cover;max-height:250px;width:100%}.search-result-item:focus,.search-result-item.search-item-selected,.search-result-item:hover{background-color:var(--color-primary)}.search-result-item:focus *,.search-result-item.search-item-selected *,.search-result-item:hover *{color:#fff}.search-result-item:focus mark,.search-result-item.search-item-selected mark,.search-result-item:hover mark{background-color:#fef08a;color:#060606}.search-result-item [data-result-item] u{color:var(--color-primary)}.search-result-item .hidden{display:none}.search-result-group-title{padding:0 12px;display:inline-block;margin-bottom:5px;margin-top:15px;font-size:18px}.search-result-item-title{transition:0s;font-size:18px;color:#000;margin-bottom:0;line-height:1.35;font-weight:700}.search-result-item-title::before{position:absolute;bottom:0;left:0;right:0;top:0;z-index:10;content:""}.search-result-item-content{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;margin:6px 0}.search-result-item-description{font-size:90%;margin-top:6px;margin-bottom:4px}.search-result-item-content:empty{display:none}.search-result-item-taxonomies{display:flex;flex-wrap:wrap;font-size:13px;align-items:center}.search-result-item-taxonomies&gt;div{margin-right:12px;color:#999}.search-result-item-taxonomies&gt;div svg{margin-right:4px}.search-wrapper-footer{color:#999;font-size:12px;padding:8px 14px;user-select:none;line-height:1;display:flex;align-items:center}.search-wrapper-footer kbd{color:#777;background-color:#eee;font-size:12px;border-radius:3px;margin-right:3px;padding:2px 4px;line-height:1;text-align:center;display:inline-block}.search-wrapper-footer span:not(:last-child){margin-right:16px}.search-wrapper-footer span:last-child{margin-left:auto}.search-wrapper-footer .search-result-info:empty{display:none}.search-wrapper-footer .search-result-info{margin-left:-3px}.search-wrapper-footer .search-result-info em{color:#000;font-style:normal;padding:0 3px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.search-modal{position:fixed;height:100%;width:100%;inset:0;z-index:9999;opacity:0;visibility:hidden}.search-modal.show{opacity:1;visibility:visible}.search-modal-overlay{position:fixed;height:100%;width:100%;top:0;left:0;background-color:rgba(0,0,0,.5)}.search-modal .search-wrapper{width:660px;max-width:96%;margin:100px auto;border-radius:4px;background-color:#fff}.search-modal .search-wrapper-body{max-height:calc(100vh - 350px);padding:14px;overflow-y:auto;background-color:#f5f6f7;box-shadow:inset 0 2px 18px #ddd;border-radius:4px}.search-modal .search-result-group:first-child .search-result-group-title:not(:empty){margin-top:-15px}.search-modal .search-result-item a&gt;div{margin-right:16px}.search-modal .search-result-item-image{margin-right:15px}.search-modal .search-result-item-image img{width:100px;height:100px;object-fit:cover}@media(max-width:576px){.search-modal .search-result-item-image img{width:60px;height:60px}.search-wrapper-footer{display:none}}.dark .search-modal .search-wrapper{background-color:#1c1c1c}.dark .search-modal .search-wrapper-header input{color:#fff;background-color:#222;border-color:#535353}.dark .search-modal .search-wrapper-header input:focus{border-color:#fff}.dark .search-modal .search-wrapper-body{background-color:#222;box-shadow:none}.dark .search-modal .search-result-item{border-color:#3e3e3e;background-color:#1c1c1c}.dark .search-modal .search-result-item:focus,.dark .search-modal .search-result-item.search-item-selected,.dark .search-modal .search-result-item:hover{background-color:#060606}.dark .search-modal .search-result-item .search-result-item-title{color:#fff}.dark .search-wrapper-footer kbd{background-color:#3e3e3e;color:#ccc}.dark .search-wrapper-footer .search-result-info em{color:#fff}.search-page .search-wrapper{padding:100px 0}.search-page .search-wrapper-header,.search-page .search-wrapper-footer{width:660px;max-width:96%;margin:0 auto}.search-page .search-wrapper-footer{padding-top:0;padding-bottom:0;margin-bottom:60px}.search-page .search-wrapper-body{padding:0 16px}.search-page .search-result-group{display:flex;flex-wrap:wrap}.search-page .search-result-item{margin-right:-15px;margin-left:-15px}.search-page .search-result-group&gt;p,.search-page .search-result-item{padding-right:15px!important;padding-left:15px!important}.search-page .search-result-group&gt;p{width:100%}.search-page .search-result-item{flex:none;width:calc(100% - (4 * 4px));display:block;padding-top:15px!important;padding-bottom:15px!important;margin:0 8px 16px}.search-page .search-result-item .search-result-item-image{margin-bottom:10px}.search-page .search-result-group-title{font-size:22px;font-weight:700}.search-page .search-result-info{display:block;text-align:center}.search-page .search-wrapper-header input{padding:0 20px}@media(min-width:576px){.search-page .search-result-item{width:calc(50% - (4 * 4px))}}@media(max-width:576px){.search-wrapper .search-wrapper-footer span:not(.search-result-info){display:none}}@media(min-width:768px){.search-page .search-result-item{width:calc(33.3333333333% - (4 * 4px))}}@media(min-width:992px){.search-page .search-result-item{width:calc(25% - (4 * 4px))}}.dark .search-page .search-wrapper-header input{color:#fff;background-color:#222;border-color:#535353}.dark .search-page .search-wrapper-header input:focus{border-color:#fff}.dark .search-page .search-result-item{border-color:#3e3e3e;background-color:#1c1c1c}.dark .search-page .search-result-item:focus,.dark .search-page .search-result-item.search-item-selected,.dark .search-page .search-result-item:hover{background-color:#060606}.dark .search-page .search-result-item-title{color:#fff}.share-link{border-radius:.25rem;transition:25ms ease-out;height:2.5em;width:2.5em;line-height:2.5em;text-align:center;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;text-decoration:none;color:#fff;margin:.5em;display:inline-block;vertical-align:middle;cursor:pointer}.share-icon{fill:#fff;stroke:none;display:block;height:100%}.share-icon svg{width:1em;height:100%;margin:auto}.share-pinterest{background-color:#bd081c}.share-pinterest:hover{background-color:#8c0615}.share-facebook{background-color:#3b5998}.share-facebook:hover{background-color:#2d4373}.share-tumblr{background-color:#35465c}.share-tumblr:hover{background-color:#222d3c}.share-reddit{background-color:#5f99cf}.share-reddit:hover{background-color:#3a80c1}.share-linkedin{background-color:#0077b5}.share-linkedin:hover{background-color:#046293}.share-vk{background-color:#507299}.share-vk:hover{background-color:#43648c}.share-x{background-color:#000}.share-x:hover{background-color:#000}.share-email{background-color:#777}.share-email:hover{background-color:#5e5e5e}.share-whatsapp{background-color:#25d366}.share-whatsapp:hover{background-color:#1da851}.share-telegram{background-color:#54a9eb}.share-telegram:hover{background-color:#4b97d1}.share-copy{background-color:#28a745}.share-copy:hover{background-color:#218838}.share-fediverse{background-color:#6364ff}.share-fediverse:hover{background-color:#4b4ccf}.fediverse-share{position:relative;display:inline-block}.fediverse-input-wrapper{position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:8px;background:#fff;border:1px solid #ccc;box-shadow:0 4px 6px rgba(0,0,0,.1);padding:8px;display:none;z-index:10;white-space:nowrap}.dark .fediverse-input-wrapper{background:#2d2d2d;border-color:#444;box-shadow:0 4px 6px rgba(0,0,0,.5)}.fediverse-input{width:200px;padding:6px 8px;border:1px solid #ccc;font-size:14px;margin-right:8px}.fediverse-input:focus{outline:none;border-color:#4b4ccf}.fediverse-check-button{padding:7px 12px;background-color:#4b4ccf;color:#fff;border:none;cursor:pointer;font-size:14px}.fediverse-check-button:hover{background-color:#4b4ccf}.img{max-width:100%;height:auto}.gallery{display:flex;flex-wrap:wrap;margin-left:-10px;margin-right:-10px}.gallery .gallery-item{margin:0 10px;margin-bottom:20px;overflow:hidden;max-width:calc(100% - 20px)}.gallery .gallery-item img{user-select:none;width:100%;vertical-align:middle;transition:.3s}.gallery.zoomable .gallery-item:hover img{transform:scale(1.05);cursor:zoom-in}.gallery::after{content:"";flex-grow:99999;min-width:calc(100vw/3)}@media(max-width:460px){.gallery{flex-direction:column}.gallery .gallery-item{width:calc(100% - 20px)!important}}.gallery-slider .swiper-slide img{width:100%}.gallery-slider .swiper-button-prev,.gallery-slider .swiper-button-next{color:#fff;opacity:0;transition:.3s}.gallery-slider:hover .swiper-button-prev,.gallery-slider:hover .swiper-button-next{opacity:1}.gallery-slider:hover .swiper-button-prev{left:30px}.gallery-slider:hover .swiper-button-next{right:30px}.img{max-width:100%;height:auto}.img-light{display:initial}.img-dark{display:none}.dark .img-light{display:none}.dark .img-dark{display:initial}.content img{max-width:100%;margin-bottom:1.5rem;height:auto;display:inline-block}.content img.glightbox{cursor:pointer}.content img.img-center{display:block;margin-left:auto;margin-right:auto}.content img.img-left{display:block;margin-left:0;margin-right:auto}.content img.img-right{display:block;margin-left:auto;margin-right:0}.content img.img-float-left{float:left;margin-right:1.5rem}.content img.img-float-right{float:right;margin-left:1.5rem}.content figure{display:inline-block;margin-bottom:1.5rem}.content figure img{margin-bottom:.7rem}.content figure.img-center{display:block;text-align:center}.content figure.img-left{display:block;text-align:left}.content figure.img-right{display:block;text-align:right}.content figure.img-float-left{float:left;margin-right:1.5rem}.content figure.img-float-right{float:right;margin-left:1.5rem}.table-of-content{margin:1rem 0 1.5rem}.table-of-content summary{font-size:18px;color:#fff;background-color:#555;padding:5px 20px;margin-bottom:0!important}.table-of-content ul li:before{display:none}#TableOfContents{padding:10px;background-color:#f7f7f7}#TableOfContents li,#TableOfContents a{color:#333!important}#TableOfContents a{text-decoration:none}#TableOfContents a:hover{text-decoration:underline}.content .table-of-content ul li,.content .table-of-content ol li{margin-bottom:6px!important}.dark #TableOfContents{background-color:#333}.dark #TableOfContents li,.dark #TableOfContents a{color:#fff!important}.tab-nav{list-style:none;padding:0;margin:0!important;display:flex;border-bottom:1px solid #aaa;overflow-x:auto}.tab-nav::-webkit-scrollbar{width:2px}.tab-nav-item{padding:.5rem 1rem!important;cursor:pointer;opacity:.8;margin:0!important;white-space:nowrap}.tab-nav-item::before{display:none!important}.tab-nav-item.active{border-bottom:3px solid #aaa;opacity:1}.tab-content .tab-content-panel{display:none;padding:1rem}.tab-content .tab-content-panel p{margin-bottom:0!important}.tab-content .tab-content-panel.active{display:block}.accordion{border:1px solid #ccc}.accordion-header{display:flex;justify-content:space-between;align-items:center;padding:1rem;font-size:1.1rem;width:100%;font-weight:700;text-align:left;cursor:pointer}.accordion-icon{width:.78em;height:.78em;transform:rotate(-90deg);transition:transform .2s ease}.accordion-content{max-height:0;overflow:hidden;padding:0 1rem}.accordion.active .accordion-icon{transform:rotate(0)}.accordion.active .accordion-content{max-height:max-content}.modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:40;display:none;height:100%;width:100%;overflow:auto}.modal-overlay{position:fixed;top:0;right:0;bottom:0;left:0;z-index:40;display:none;height:100%;width:100%;background-color:rgba(0,0,0,.4)}.modal-content{position:relative;top:50%;z-index:50;transform:translateY(-50%);background-color:#fff;border-radius:.5rem;padding:2rem;max-width:90%;margin:0 auto}.modal-close{position:absolute;top:.5rem;right:.5rem;height:2rem;width:2rem;background-color:#f2f2f2;color:#000;border-radius:50%;text-align:center;line-height:2rem}.notice{margin-bottom:1.5rem;border:1px solid;padding:1.5rem;border-color:initial}.notice-head{display:flex;align-items:center}.notice-head svg{margin-right:.75rem}.notice-head p{font-size:1.25rem;font-weight:600;color:#1f2937;margin:0;line-height:1}.notice-body{margin-top:.75rem}.notice-body p{margin:0}.notice.note{color:#293df2;background-color:rgba(41,61,242,.15)}.notice.abstract{color:#0ca68c;background-color:rgba(12,166,140,.15)}.notice.info{color:#09c3ed;background-color:rgba(9,195,237,.15)}.notice.todo{color:#8d05a8;background-color:rgba(141,5,168,.15)}.notice.tip{color:#19cfb0;background-color:rgba(25,207,176,.15)}.notice.success{color:#04d904;background-color:rgba(4,217,4,.15)}.notice.question{color:#e38902;background-color:rgba(227,137,2,.15)}.notice.warning{color:#e38902;background-color:rgba(227,137,2,.15)}.notice.failure{color:#e31a00;background-color:rgba(227,26,0,.15)}.notice.danger{color:#e31a00;background-color:rgba(227,26,0,.15)}.notice.bug{color:#e31a00;background-color:rgba(227,26,0,.15)}.notice.example{color:#b83acf;background-color:rgba(184,54,207,.15)}.notice.quote{color:#918e91;background-color:rgba(145,142,145,.15)}.dark .notice-head p{color:#d1d5db}.table-of-content{overflow:hidden;border-radius:.25rem;margin:.5rem 0 1rem}.toc-scroll{max-height:calc(100vh - 160px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:color-mix(in srgb,#e5e2dd 60%,transparent)transparent;@supports(color:color-mix(in lab,red,red)){scrollbar-color: color-mix(in srgb,var(--color-divider) 60%,transparent) transparent;}-webkit-mask-image:linear-gradient( to bottom,transparent 0,#000 .5rem,#000 calc(100% - .75rem),transparent 100% );mask-image:linear-gradient( to bottom,transparent 0,#000 .5rem,#000 calc(100% - .75rem),transparent 100% );padding-right:.25rem}.toc-scroll::-webkit-scrollbar{width:6px}.toc-scroll::-webkit-scrollbar-track{background:0 0}.toc-scroll::-webkit-scrollbar-thumb{background-color:color-mix(in srgb,#e5e2dd 60%,transparent);@supports(color:color-mix(in lab,red,red)){background-color: color-mix(in srgb,var(--color-divider) 60%,transparent);}border-radius:999px}.toc-scroll::-webkit-scrollbar-thumb:hover{background-color:color-mix(in srgb,#6b6762 70%,transparent);@supports(color:color-mix(in lab,red,red)){background-color: color-mix(in srgb,var(--color-ink-faint) 70%,transparent);}}.share-icons .share-link{height:calc(var(--spacing) * 9);width:calc(var(--spacing) * 9);border-radius:.25rem;background-color:var(--color-accent);--tw-leading:calc(var(--spacing) * 9);line-height:calc(var(--spacing) * 9);&amp;:hover{@media(hover:hover){background-color: var(--color-accent);}}margin:.5rem .5rem .5rem 0}.share-icons .share-icon svg{fill:var(--color-surface)}.fediverse-input-wrapper{border-radius:.25rem;background-color:var(--color-surface);input{border-radius:.25rem;&amp;:focus{border-color:var(--color-accent)}&amp;:focus{--tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}}button{border-radius:.25rem;background-color:var(--color-accent);color:var(--color-on-accent);&amp;:hover{@media(hover:hover){background-color: var(--color-accent);}}}}.notice{border-radius:var(--radius-lg)}.tab{overflow:hidden;border-radius:var(--radius-lg);border-style:var(--tw-border-style);border-width:1px;border-color:var(--color-divider)}.tab-nav{border-color:var(--color-divider);background-color:var(--color-elevated);padding-left:calc(var(--spacing) * 4)}.tab-nav-item{padding-inline:calc(var(--spacing) * 8);font-size:var(--text-lg)!important;line-height:var(--tw-leading,var(--text-lg--line-height))!important;color:var(--color-ink);min-height:var(--touch-target-min);padding-top:var(--btn-py);padding-bottom:var(--btn-py);display:inline-flex;align-items:center}.tab-nav-item.active{border-color:var(--color-accent)}.tab-content-panel{padding-inline:calc(var(--spacing) * 4);padding-top:0!important}.accordion{margin-bottom:calc(var(--spacing) * 6);overflow:hidden;border-radius:var(--radius-lg);border-style:var(--tw-border-style);border-width:1px;border-color:var(--color-divider);background-color:var(--color-elevated)}.accordion-header{color:var(--color-ink)}.cookie-box{border-radius:var(--radius-lg)!important}.gallery-slider{margin-left:0!important}.dark .glightbox-clean .gslide-description{background:var(--color-elevated)}.dark .glightbox-clean .gslide-title,.dark .glightbox-clean .gslide-desc{color:var(--color-ink)}.dark .glightbox-clean .gslide-desc a{color:var(--color-accent)}@layer base{html.dark{--color-warning:var(--color-darkmode-warning);--color-warning-ink:var(--color-darkmode-warning-ink);--color-warning-surface:var(--color-darkmode-warning-surface);--color-warning-border:var(--color-darkmode-warning-border);--color-warning-code:var(--color-darkmode-warning-code);--color-error-ink:var(--color-darkmode-error-ink);--color-error-surface:var(--color-darkmode-error-surface);--color-error-border:var(--color-darkmode-error-border);--color-error-code:var(--color-darkmode-error-code);--color-success:var(--color-darkmode-success);--color-graph-weak:var(--color-darkmode-graph-weak)}}.skip-link{position:absolute;top:.75rem;left:.75rem;z-index:100;padding:.625rem 1rem;border-radius:.25rem;background:var(--color-accent);color:var(--color-on-accent);font-size:.875rem;font-weight:600;text-decoration:none;transform:translateY(-200%);transition:transform .15s ease-out}.skip-link:focus{transform:translateY(0);outline:none;box-shadow:0 0 0 2px var(--color-surface),0 0 0 4px var(--color-accent)}@media(prefers-reduced-motion:reduce){.skip-link{transition:none}}.theme-switcher-btn:focus-visible{outline:none;box-shadow:0 0 0 2px var(--color-surface),0 0 0 4px var(--color-accent)}.social-icons li a{min-height:var(--touch-target-min,2.75rem);min-width:var(--touch-target-min,2.75rem);height:auto;width:auto}.notes-filter:focus-visible,.notes-graph-filter:focus-visible{outline:none;box-shadow:0 0 0 2px var(--color-surface),0 0 0 4px var(--color-accent)}.btn-sm{min-height:var(--touch-target-min,2.75rem)}@media(max-width:1023.98px){.nav-item--cta{display:flex;align-items:center;justify-content:center;width:100%}.nav-item--cta .btn{display:inline-flex;align-items:center;justify-content:center;width:100%;min-height:var(--touch-target-min,2.75rem);line-height:1.25}}div[style*="position: relative"][style*="padding-bottom:56.25%"],div[style*="position:relative"][style*="padding-bottom:56.25%"],div[style*="position: relative"][style*="padding-bottom: 56.25%"],div[style*="position:relative"][style*="padding-bottom: 56.25%"]{margin-bottom:1.5rem}html.dark .content p,html.dark .content li,html.dark .content ul,html.dark .content ol,html.dark .content td,html.dark .content blockquote{color:var(--color-ink-muted)!important}html.dark .content h1,html.dark .content h2,html.dark .content h3,html.dark .content h4,html.dark .content h5,html.dark .content h6{color:var(--color-ink)!important}html.dark .content a:not(.btn){color:var(--color-ink)!important}html.dark .content a:not(.btn):hover{color:var(--color-accent)!important}html.dark .content .tags_section a{color:var(--color-ink)!important}html.dark .content .tags_section a:hover{color:var(--color-surface)!important}html.dark .content strong,html.dark .content b{color:var(--color-ink)!important}.notes-dev-banner-wrap{padding-top:1rem}.notes-dev-banner{margin-bottom:1.25rem;border:1px solid var(--color-error-border);border-radius:.5rem;background:var(--color-error-surface);color:var(--color-error-ink);padding:.75rem 1rem;font-size:.875rem}.notes-dev-banner p{margin:0}.notes-dev-banner code{font-size:.8125rem;color:var(--color-error-code)}.notes-content .wikilink{color:var(--color-accent);text-decoration:underline;text-underline-offset:2px}.content.notes-content{color:var(--color-ink-muted);font-size:1rem;line-height:1.625}.content.notes-content :is(strong,b){color:var(--color-ink)}.content.notes-content code{color:var(--color-ink);background:var(--color-elevated);border-radius:.25rem;padding:.125em .35em;font-size:.875em}.content table thead{background-color:initial}.content table tbody tr:nth-child(even){background-color:var(--color-elevated)}.notes-content .wikilink-broken{color:var(--color-ink-muted);text-decoration:underline dotted;cursor:help}.notes-issues,.notes-issues-summary{border-color:var(--color-warning-border);background:var(--color-warning-surface)}.notes-issues__title,.notes-issues-summary .h6{color:var(--color-warning-ink)}.notes-issues__item--broken code,.notes-issues__item--unlinked code{font-size:.8125rem}html.dark .notes-issues__item code{color:var(--color-warning-code)}.notes-graph-panel--local{gap:.5rem}.graph-view-outer{display:grid;gap:.5rem}.published-section-header{display:flex;align-items:center;gap:.5rem;margin:0;font-size:.875rem;font-weight:500;line-height:1.3;color:var(--color-ink-muted)}.published-section-header-icon{display:inline-flex;flex-shrink:0;width:1.125rem;height:1.125rem;color:var(--color-ink-faint)}.published-section-header-icon svg{display:block;width:100%;height:100%}.graph-view-container{position:relative;--graph-control-inset:0.45rem;--graph-control-size:var(--touch-target-min, 2.75rem);--graph-control-gap:0.15rem}.graph-view-container.is-present .graph-present-hint{top:auto;bottom:.65rem}.notes-graph-panel--local .graph-view,.notes-graph-panel--local .notes-graph{position:relative;box-sizing:border-box;height:15.625rem;min-height:15.625rem;padding:0;border:1px solid var(--color-divider);border-radius:.375rem;background:var(--color-surface);overflow:hidden}.notes-graph-panel--local .graph-view-container.is-expanded .graph-view{height:min(72vh,36rem);min-height:22rem}body.notes-graph-present-open{overflow:hidden}.graph-view-container.is-present{position:fixed;top:0;right:0;bottom:0;left:0;z-index:10000;box-sizing:border-box;width:auto;height:auto;max-width:none;margin:0;padding:0;border:0;border-radius:0;background:var(--color-surface)}.graph-view-container.is-present .graph-view,.graph-view-container.is-present .notes-graph{position:absolute;inset:0;width:100%;height:100%;min-height:0;padding:0;border:0;border-radius:0}.graph-view-container.is-present .notes-graph__canvas{inset:0;width:100%;height:100%}.notes-graph-panel--page .graph-view-container.is-present .notes-graph,.notes-graph-panel--page .graph-view-container.is-present .notes-graph.is-expanded{height:100%;min-height:0;max-height:none}.graph-present-hint{position:absolute;top:.55rem;left:50%;z-index:4;margin:0;padding:.2rem .55rem;font-size:.6875rem;line-height:1.3;color:var(--color-ink-faint);background:color-mix(in srgb,#f5f3f0 88%,transparent);@supports(color:color-mix(in lab,red,red)){background: color-mix(in srgb,var(--color-surface) 88%,transparent);}border-radius:.25rem;transform:translateX(-50%);pointer-events:none}.graph-icon{position:absolute;top:var(--graph-control-inset);bottom:auto;z-index:4;display:inline-flex;align-items:center;justify-content:center;width:var(--graph-control-size);height:var(--graph-control-size);min-width:var(--graph-control-size);min-height:var(--graph-control-size);padding:0;border:0;border-radius:.25rem;background:color-mix(in srgb,#f5f3f0 90%,transparent);@supports(color:color-mix(in lab,red,red)){background: color-mix(in srgb,var(--color-surface) 90%,transparent);}color:var(--color-ink-muted);cursor:pointer;text-decoration:none;touch-action:manipulation;-webkit-tap-highlight-color:color-mix(in srgb,#181614 20%,transparent);@supports(color:color-mix(in lab,red,red)){-webkit-tap-highlight-color: color-mix(in srgb,var(--color-accent) 20%,transparent);}}.graph-icon:hover,.graph-icon:focus-visible{color:var(--color-accent);background:var(--color-surface);outline:none}.graph-expand{right:calc(var(--graph-control-inset) + var(--graph-control-size) + var(--graph-control-gap))}.graph-global{right:var(--graph-control-inset)}.graph-global--current{opacity:.42;color:var(--color-ink-faint);cursor:default;pointer-events:none}.graph-global--current:hover,.graph-global--current:focus-visible{color:var(--color-ink-faint);background:color-mix(in srgb,#f5f3f0 90%,transparent);@supports(color:color-mix(in lab,red,red)){background: color-mix(in srgb,var(--color-surface) 90%,transparent);}}.graph-icon svg{display:block;width:1rem;height:1rem}.notes-graph-panel--local .notes-graph__canvas{inset:0;width:100%;height:100%}.notes-graph-panel{display:grid;gap:.75rem}.notes-graph-panel--local .notes-graph:not(.graph-view){height:15.625rem;min-height:15.625rem}.notes-graph-toolbar{display:flex;flex-direction:column;gap:.5rem}.notes-graph-toolbar__main{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .75rem}.notes-graph-title{margin:0;font-size:.8125rem;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:var(--color-ink-muted)}.notes-graph-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem;margin-left:auto}.notes-graph-btn{display:inline-flex;align-items:center;justify-content:center;min-width:var(--touch-target-min,2.75rem);min-height:var(--touch-target-min,2.75rem);padding:var(--btn-py,.5rem).65rem;border:1px solid var(--color-divider);border-radius:.375rem;background:var(--color-surface);color:var(--color-ink-muted);font-size:1rem;line-height:1;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:color-mix(in srgb,#181614 20%,transparent);@supports(color:color-mix(in lab,red,red)){-webkit-tap-highlight-color: color-mix(in srgb,var(--color-accent) 20%,transparent);}}.notes-graph-btn:hover{color:var(--color-accent);border-color:var(--color-accent)}.notes-graph-btn[aria-pressed=true]{color:var(--color-accent);border-color:color-mix(in srgb,#181614 45%,#e5e2dd);@supports(color:color-mix(in lab,red,red)){border-color: color-mix(in srgb,var(--color-accent) 45%,var(--color-divider));}background:color-mix(in srgb,#181614 8%,#f5f3f0);@supports(color:color-mix(in lab,red,red)){background: color-mix(in srgb,var(--color-accent) 8%,var(--color-surface));}}.notes-graph-search-wrap{flex:1 1 12rem;margin:0;min-width:10rem}.notes-graph-search{width:100%;border:1px solid var(--color-divider);border-radius:.375rem;background:var(--color-surface);color:var(--color-ink);min-height:var(--touch-target-min,2.75rem);padding:var(--btn-py,.5rem).75rem;font-size:1rem;line-height:1.25rem}.notes-graph-search:focus{outline:2px solid color-mix(in srgb,#181614 35%,transparent);@supports(color:color-mix(in lab,red,red)){outline: 2px solid color-mix(in srgb,var(--color-accent) 35%,transparent);}outline-offset:1px;border-color:var(--color-accent)}.notes-graph{position:relative;box-sizing:border-box;border:1px solid var(--color-divider);border-radius:.5rem;background:var(--color-surface);height:17.5rem;min-height:17.5rem;padding:4px;overflow:hidden}.notes-graph.is-expanded{height:min(90vh,52rem);min-height:28rem}.notes-graph-panel--page .graph-view-container{position:relative}.notes-graph-panel--page .graph-view-container .notes-graph.is-expanded{height:min(78vh,48rem);min-height:32rem}.notes-graph-panel--page .graph-view-container .notes-graph.is-expanded,.notes-graph-panel--page .graph-view-container .notes-graph{width:100%}.notes-graph__controls{position:absolute;left:.65rem;bottom:.55rem;z-index:2;pointer-events:none}.notes-graph__zoom-hint{font-size:.6875rem;color:var(--color-ink-faint);background:color-mix(in srgb,#f5f3f0 88%,transparent);@supports(color:color-mix(in lab,red,red)){background: color-mix(in srgb,var(--color-surface) 88%,transparent);}padding:.15rem .4rem;border-radius:.25rem}.notes-graph__canvas{position:absolute;inset:4px;display:block;width:calc(100% - 8px);height:calc(100% - 8px);cursor:grab;touch-action:none}.notes-graph--hover .notes-graph__canvas{cursor:pointer}.notes-graph__canvas:active{cursor:grabbing}.notes-graph__tooltip{position:absolute;z-index:3;max-width:16rem;padding:.35rem .55rem;border:1px solid var(--color-divider);border-radius:.375rem;background:var(--color-surface);color:var(--color-ink);font-size:.75rem;line-height:1.2;pointer-events:none;box-shadow:0 4px 16px color-mix(in srgb,#161412 12%,transparent);@supports(color:color-mix(in lab,red,red)){box-shadow: 0 4px 16px color-mix(in srgb,var(--color-ink) 12%,transparent);}}.notes-graph-hint{margin:0;font-size:.8125rem;line-height:1.45}.notes-card{background:var(--color-surface);transition:border-color .15s ease;min-height:100%}.notes-card:hover,.notes-card:focus-visible,.notes-card-interactive:focus-within{border-color:var(--color-accent)}.notes-card-interactive:hover .notes-card-title,.notes-card-interactive:focus-within .notes-card-title{color:var(--color-accent)}.notes-card-overlay{position:absolute;inset:0;z-index:0;border-radius:inherit}.notes-backlinks{background:var(--color-elevated)}.notes-outgoing,.notes-see-also{background:var(--color-elevated)}.notes-graph-filters{display:flex;flex-wrap:wrap;gap:.35rem;min-width:0;touch-action:manipulation}.notes-graph-filter{flex:initial;white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--color-divider);border-radius:999px;background:var(--color-surface);color:var(--color-ink-muted);font-size:.8125rem;line-height:1.25;min-height:var(--touch-target-min,2.75rem);padding:var(--filter-py,.5rem).75rem;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:color-mix(in srgb,#181614 20%,transparent);@supports(color:color-mix(in lab,red,red)){-webkit-tap-highlight-color: color-mix(in srgb,var(--color-accent) 20%,transparent);}position:relative;z-index:1}.notes-graph-filter:hover,.notes-graph-filter.is-active{color:var(--color-accent);border-color:color-mix(in srgb,#181614 45%,#e5e2dd);@supports(color:color-mix(in lab,red,red)){border-color: color-mix(in srgb,var(--color-accent) 45%,var(--color-divider));}}.notes-graph-filter.is-active{background:color-mix(in srgb,#181614 8%,#f5f3f0);@supports(color:color-mix(in lab,red,red)){background: color-mix(in srgb,var(--color-accent) 8%,var(--color-surface));}}.notes-graph-filter__count{color:var(--color-ink-muted);font-weight:400;margin-inline-start:.35em}.notes-graph-filter.is-active .notes-graph-filter__count{opacity:.9}.notes-graph-filter__count--orphan{color:var(--color-warning)}.notes-graph-filter__count--top{color:var(--color-accent)}.notes-graph-filter__count--middle{color:var(--color-ink-muted)}.notes-graph-filter__count--bottom{color:var(--color-graph-weak)}@media(max-width:1279.98px){.graph-view-container{--graph-control-inset:0.55rem;--graph-control-gap:0.35rem}.notes-graph-panel--page .notes-graph-toolbar{position:sticky;top:var(--header-offset);z-index:20;isolation:isolate;padding-top:var(--btn-py,.5rem);padding-bottom:var(--btn-py,.5rem);background:var(--color-surface);border-bottom:1px solid var(--color-divider);touch-action:manipulation}.notes-graph-filter__suffix{display:none}.notes-filters,.notes-graph-filters{touch-action:manipulation}.graph-icon svg{width:1.125rem;height:1.125rem}}.graph-view-container.graph-icons-top&gt;.graph-icon,.graph-view-container.is-present&gt;.graph-icon{top:var(--graph-control-inset);bottom:auto;z-index:4}.graph-view-container.graph-icons-top&gt;.graph-global,.graph-view-container.is-present&gt;.graph-global{right:var(--graph-control-inset)}.graph-view-container.graph-icons-top&gt;.graph-expand,.graph-view-container.is-present&gt;.graph-expand{right:calc(var(--graph-control-inset) + var(--graph-control-size) + var(--graph-control-gap))}.wikilink-preview{position:absolute;z-index:50;max-width:18rem;padding:.55rem .7rem;border:1px solid var(--color-divider);border-radius:.5rem;background:var(--color-surface);color:var(--color-ink);box-shadow:0 8px 24px color-mix(in srgb,#161412 14%,transparent);@supports(color:color-mix(in lab,red,red)){box-shadow: 0 8px 24px color-mix(in srgb,var(--color-ink) 14%,transparent);}pointer-events:none}.wikilink-preview__title{margin:0;font-size:.8125rem;font-weight:600;line-height:1.3}.wikilink-preview__desc{margin:.35rem 0 0;font-size:.75rem;line-height:1.4;color:var(--color-ink-muted)}.notes-filters{display:flex;flex-wrap:wrap;gap:.35rem}.notes-filter{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--color-divider);border-radius:999px;background:var(--color-surface);color:var(--color-ink-muted);font-size:.8125rem;line-height:1.25;min-height:var(--touch-target-min,2.75rem);padding:var(--filter-py,.5rem).75rem;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:color-mix(in srgb,#181614 20%,transparent);@supports(color:color-mix(in lab,red,red)){-webkit-tap-highlight-color: color-mix(in srgb,var(--color-accent) 20%,transparent);}position:relative;z-index:1}.notes-filter:hover,.notes-filter.is-active{color:var(--color-accent);border-color:color-mix(in srgb,#181614 45%,#e5e2dd);@supports(color:color-mix(in lab,red,red)){border-color: color-mix(in srgb,var(--color-accent) 45%,var(--color-divider));}}.notes-filter.is-active{background:color-mix(in srgb,#181614 8%,#f5f3f0);@supports(color:color-mix(in lab,red,red)){background: color-mix(in srgb,var(--color-accent) 8%,var(--color-surface));}}.notes-filter__count{color:var(--color-ink-muted);font-weight:400;margin-inline-start:.35em}.notes-filter.is-active .notes-filter__count{opacity:.9}.notes-list-controls{background:var(--color-elevated)}.notes-list-search.form-input{padding:.5rem .75rem;font-size:.875rem}.notes-list-facet__select{appearance:none;border:1px solid var(--color-divider);border-radius:.375rem;background-color:var(--color-elevated);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236b6762' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .65rem center;background-size:.75rem;color:var(--color-ink);color-scheme:light dark;font-size:.875rem;line-height:1.5;padding:.4375rem 2rem .4375rem .75rem}html.dark .notes-list-facet__select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23a8a39c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")}.notes-list-facet__select:focus{border-color:var(--color-accent);outline:none}.notes-list-facet__select option{background:var(--color-elevated);color:var(--color-ink)}.notes-list-controls__top{position:relative}.notes-list-refine{position:relative}.notes-list-refine__summary{list-style:none;cursor:pointer}.notes-list-refine__summary::-webkit-details-marker{display:none}.notes-list-refine[open] .notes-list-refine__summary{color:var(--color-accent);border-color:color-mix(in srgb,#181614 45%,#e5e2dd);@supports(color:color-mix(in lab,red,red)){border-color: color-mix(in srgb,var(--color-accent) 45%,var(--color-divider));}background:color-mix(in srgb,#181614 8%,#f5f3f0);@supports(color:color-mix(in lab,red,red)){background: color-mix(in srgb,var(--color-accent) 8%,var(--color-surface));}}@media(max-width:639px){.notes-list-refine__body{position:static;box-shadow:none}}.notes-toolbar .btn-primary .notes-filter__count{color:inherit;opacity:.85}.notes-featured-random-panel{background:var(--color-elevated)}.notes-recent-item{display:flex;min-height:100%}.notes-recent-link{display:flex;flex:1;flex-direction:column;gap:.5rem;height:100%;padding:.75rem .85rem;border:1px solid var(--color-divider);border-radius:.5rem;background:var(--color-elevated);text-decoration:none;color:inherit}.notes-recent-link:hover,.notes-recent-link:focus-visible{border-color:var(--color-accent);color:var(--color-accent)}.notes-recent-title{flex:1;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-weight:500;line-height:1.35}.notes-recent-meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .5rem;margin-top:auto;font-size:.75rem;line-height:1.35}.notes-random-grid{align-items:stretch}.notes-random-controls{align-items:stretch;display:flex;flex-wrap:nowrap;gap:.75rem;margin-bottom:.75rem}.notes-random-controls .notes-random-select,.notes-random-controls .btn{box-sizing:border-box;height:var(--touch-target-min,2.75rem);min-height:var(--touch-target-min,2.75rem)}.notes-random-controls .notes-random-select{flex:1;line-height:1.25;margin-bottom:0;min-width:0;padding-block:var(--btn-py,.5rem)}.notes-random-controls .btn{flex-shrink:0;white-space:nowrap}.notes-path-toolbar{align-items:stretch;display:flex;flex-wrap:nowrap;gap:.75rem}.notes-path-toolbar .notes-path-result{align-items:center;border:1px solid var(--color-divider);border-radius:.375rem;display:flex;flex:1;flex-wrap:nowrap;font-size:.875rem;gap:.5rem;line-height:1.25;min-height:var(--touch-target-min,2.75rem);min-width:0;overflow:hidden;padding:0 .75rem}.notes-path-toolbar .notes-path-result .h6{flex-shrink:0;font-size:inherit;font-weight:600;line-height:inherit}.notes-path-toolbar .notes-path-chain--row{align-items:center;display:flex;flex:1;flex-wrap:nowrap;gap:0;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin}.notes-path-toolbar .notes-path-chain--row a,.notes-path-toolbar .notes-path-chain--row span{flex-shrink:0;white-space:nowrap}.notes-path-toolbar .btn{flex-shrink:0;height:var(--touch-target-min,2.75rem);min-height:var(--touch-target-min,2.75rem)}.notes-random-select{appearance:none;background:var(--color-surface)url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M2 4l4 4 4-4'/%3E%3C/svg%3E")no-repeat right .75rem center;border:1px solid var(--color-divider);border-radius:.375rem;color:var(--color-ink);font-family:inherit;font-size:.875rem;line-height:1.4;max-width:100%;padding:.375rem 2rem .375rem .75rem}.notes-random-select:focus{border-color:var(--color-accent);outline:none}.notes-random-prompt{background:var(--color-elevated)}.notes-random-prompt-summary{align-items:center;cursor:pointer;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:space-between;list-style:none}.notes-random-prompt-summary::-webkit-details-marker{display:none}.notes-random-prompt-label{align-items:center;display:inline-flex;gap:.5rem}.notes-random-prompt-label::before{color:var(--color-ink-muted);content:"▸";display:inline-block;font-size:.875rem;line-height:1;transition:transform .15s ease}.notes-random-prompt[open] .notes-random-prompt-label::before{transform:rotate(90deg)}.notes-random-prompt-body{border-top:1px solid var(--color-divider);padding-top:1rem}.notes-random-prompt-text{background:var(--color-surface);border:1px solid var(--color-divider);border-radius:.5rem;color:var(--color-ink);display:block;font-family:inherit;font-size:.875rem;line-height:1.55;min-height:12rem;padding:.875rem 1rem;resize:vertical;width:100%}.notes-random-prompt-text:focus{border-color:var(--color-accent);outline:none}.notes-random-slot{display:flex;flex-direction:column}.notes-random-panel{background:var(--color-surface);display:flex;flex:auto;flex-direction:column;width:100%;min-height:12rem}.notes-random-body{display:flex;flex:auto;flex-direction:column}.notes-random-panel .notes-content{font-size:.9375rem;line-height:1.6}.notes-random-panel .notes-content :is(h2,h3,h4,h5,h6){font-size:var(--text-h6);font-weight:600;line-height:1.5;letter-spacing:normal;margin-top:1.25rem;margin-bottom:.5rem}.notes-random-panel .notes-content :is(h2,h3,h4,h5,h6):first-child{margin-top:0}.notes-random-panel .notes-content.mb-10{margin-bottom:0}.notes-random-slot.notes-random-panel--empty{align-items:center;justify-content:center;min-height:8rem}.notes-grid-item.hidden{display:none!important}.notes-flashcard{perspective:1e3px}.notes-flashcard__flip{display:block;width:100%;min-height:10rem;padding:0;border:1px solid var(--color-divider);border-radius:.5rem;background:var(--color-surface);cursor:pointer;text-align:left;transition:border-color .15s ease}.notes-flashcard__flip:hover,.notes-flashcard__flip:focus-visible{border-color:var(--color-accent);outline:none}.notes-flashcard__inner{position:relative;display:block;width:100%;min-height:10rem;transform-style:preserve-3d;transition:transform .35s ease}.notes-flashcard.is-flipped .notes-flashcard__inner{transform:rotateY(180deg)}.notes-flashcard__face{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:1.25rem;backface-visibility:hidden;border-radius:.5rem;line-height:1.5;pointer-events:none}.notes-flashcard__face--front{background:var(--color-surface);color:var(--color-ink);font-weight:600;text-wrap:balance;text-align:center}.notes-flashcard__face--back{background:var(--color-elevated);color:var(--color-ink);transform:rotateY(180deg);font-size:.9375rem;text-wrap:balance;text-align:center}@media(prefers-reduced-motion:reduce){.notes-flashcard{perspective:none}.notes-flashcard__inner{transition:none;transform:none!important}.notes-flashcard__face{backface-visibility:visible;position:relative;inset:auto;min-height:10rem}.notes-flashcard__face--back{display:none;transform:none}.notes-flashcard.is-flipped .notes-flashcard__face--front{display:none}.notes-flashcard.is-flipped .notes-flashcard__face--back{display:flex}}.notes-flashcard__source{margin-bottom:0}.notes-cards-grid .notes-flashcard{height:100%}.notes-cards-grid .notes-flashcard__flip{min-height:12rem}.notes-cards-grid .notes-flashcard__inner{min-height:12rem}.notes-review-card{min-height:14rem}.notes-review-front{color:var(--color-ink)}.notes-review-back{color:var(--color-ink)}.notes-review-label{letter-spacing:.06em}[data-notes-review-exit]{display:inline-flex;align-items:center;padding-top:var(--btn-py,.5rem);padding-bottom:var(--btn-py,.5rem);min-height:var(--touch-target-min,2.75rem);touch-action:manipulation}.notes-review-start kbd,.notes-review-session kbd{border:1px solid var(--color-divider);border-radius:.25rem;background:var(--color-elevated);padding:.1rem .35rem;font-size:.75rem}.notes-review-done.hidden,.notes-review-session.hidden,.notes-review-start.hidden{display:none!important}.notes-review-answer.hidden,.notes-review-ratings.hidden{display:none!important}.notes-review-actions.hidden{display:none!important}@layer base{input:where([type=text]),input:where(:not([type])),input:where([type=email]),input:where([type=url]),input:where([type=password]),input:where([type=number]),input:where([type=date]),input:where([type=datetime-local]),input:where([type=month]),input:where([type=search]),input:where([type=tel]),input:where([type=time]),input:where([type=week]),select:where([multiple]),textarea,select{appearance:none;background-color:#fff;border-color:oklch(55.1% .027 264.364);border-width:1px;border-radius:0;padding-top:.5rem;padding-right:.75rem;padding-bottom:.5rem;padding-left:.75rem;font-size:1rem;line-height:1.5rem;--tw-shadow:0 0 #0000;&amp;:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:oklch(54.6% 0.245 262.881);--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);border-color:oklch(54.6% .245 262.881)}}input::placeholder,textarea::placeholder{color:oklch(55.1% .027 264.364);opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-date-and-time-value{text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field{padding-top:0;padding-bottom:0}select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='oklch(55.1%25 0.027 264.364)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;print-color-adjust:exact}select:where([multiple]),select:where([size]:not([size="1"])){background-image:initial;background-position:initial;background-repeat:unset;background-size:initial;padding-right:.75rem;print-color-adjust:unset}input:where([type=checkbox]),input:where([type=radio]){appearance:none;padding:0;print-color-adjust:exact;display:inline-block;vertical-align:middle;background-origin:border-box;user-select:none;flex-shrink:0;height:1rem;width:1rem;color:oklch(54.6% .245 262.881);background-color:#fff;border-color:oklch(55.1% .027 264.364);border-width:1px;--tw-shadow:0 0 #0000}input:where([type=checkbox]){border-radius:0}input:where([type=radio]){border-radius:100%}input:where([type=checkbox]):focus,input:where([type=radio]):focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:oklch(54.6% 0.245 262.881);--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}input:where([type=checkbox]):checked,input:where([type=radio]):checked{border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:50%;background-repeat:no-repeat}input:where([type=checkbox]):checked{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");@media(forced-colors:active){appearance: auto;}}input:where([type=radio]):checked{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e");@media(forced-colors:active){appearance: auto;}}input:where([type=checkbox]):checked:hover,input:where([type=checkbox]):checked:focus,input:where([type=radio]):checked:hover,input:where([type=radio]):checked:focus{border-color:transparent;background-color:currentColor}input:where([type=checkbox]):indeterminate{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e");border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:50%;background-repeat:no-repeat;@media(forced-colors:active){appearance: auto;}}input:where([type=checkbox]):indeterminate:hover,input:where([type=checkbox]):indeterminate:focus{border-color:transparent;background-color:currentColor}input:where([type=file]){background:unset;border-color:inherit;border-width:0;border-radius:0;padding:0;font-size:unset;line-height:inherit}input:where([type=file]):focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}}@layer base{:root{@media(min-width:40rem){--container-max-width: 40rem;}@media(min-width:48rem){--container-max-width: 48rem;}@media(min-width:64rem){--container-max-width: 64rem;}@media(min-width:80rem){--container-max-width: 80rem;}@media(min-width:96rem){--container-max-width: 96rem;}}}@property --tw-font-weight{syntax: "*";
-public/css/style.css:.content table tbody tr:nth-child(even) {
-
+public/css/style.min.d0c8fc4c2b6ebd073b2a6d5bb90a21d41e4170e9cae3c0a87def7624ca6195ad.css:      "Courier New", monospace;--color-red-200:oklch(88.5% 0.062 18.334);--color-red-500:oklch(63.7% 0.237 25.331);--color-yellow-200:oklch(94.5% 0.129 101.54);--color-green-200:oklch(92.5% 0.084 155.995);--color-cyan-500:oklch(71.5% 0.143 215.221);--color-sky-500:oklch(68.5% 0.169 237.323);--color-blue-200:oklch(88.2% 0.059 254.128);--color-blue-500:oklch(62.3% 0.214 259.815);--color-pink-200:oklch(89.9% 0.061 343.231);--color-gray-200:oklch(92.8% 0.006 264.531);--color-black:#000;--color-white:#fff;--spacing:0.25rem;--container-2xl:42rem;--container-3xl:48rem;--container-4xl:56rem;--container-5xl:64rem;--text-xs:0.75rem;--text-xs--line-height:calc(1 / 0.75);--text-sm:0.875rem;--text-sm--line-height:calc(1.25 / 0.875);--text-base:16px;--text-base--line-height:calc(1.5 / 1);--text-lg:1.125rem;--text-lg--line-height:calc(1.75 / 1.125);--text-xl:1.25rem;--text-xl--line-height:calc(1.75 / 1.25);--text-2xl:1.5rem;--text-2xl--line-height:calc(2 / 1.5);--text-3xl:1.875rem;--text-3xl--line-height:calc(2.25 / 1.875);--font-weight-normal:400;--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--tracking-tight:-0.025em;--tracking-normal:0em;--tracking-wide:0.025em;--leading-tight:1.25;--leading-snug:1.375;--leading-normal:1.5;--leading-relaxed:1.625;--radius-sm:0.25rem;--radius-md:0.375rem;--radius-lg:0.5rem;--radius-xl:0.75rem;--radius-2xl:1rem;-
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/a9682f36-eb7c-4e6e-82b7-5350f4b2595d.txt</summary>
-
-</details>
-</tool-use>
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/a9682f36-eb7c-4e6e-82b7-5350f4b2595d.txt</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7728,42 +3906,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="search" data-tool-name="glob_file_search">
-<details>
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
 
-Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (2 files)
 
 | File |
 |------|
 | `themes/jorap/assets/css/custom.css` |
 | `assets/css/custom.css` |
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7794,26 +3955,18 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Both assets merge into the `assets` target. The theme imports `custom.css` from the `css` folder, so Hugo should resolve it to `assets/css/custom`.</details></think>
+Both assets merge into the `assets` target. The theme imports `custom.css` from the `css` folder, so Hugo should resolve it to `assets/css/custom`.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7844,21 +3997,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -7889,25 +4033,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/css/style.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/public/css/style.css</summary>
 
 </details></tool-use>
 
@@ -7916,7 +4047,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Realized the previous action may have added alternating shading instead of removing it. Re-reading the request carefully.
 
-The user likely wants no alternating shading at all. Removing the thead fill and adding even row striping created the alternating effect. A flat table would need transparent backgrounds on both thead and tbody rows.</details></think>
+The user likely wants no alternating shading at all. Removing the thead fill and adding even row striping created the alternating effect. A flat table would need transparent backgrounds on both thead and tbody rows.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7925,23 +4057,16 @@ Re-reading this as a complaint about unwanted striping — switching to flat, bo
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Reconsidering whether to remove all table shading entirely.</details></think>
+Reconsidering whether to remove all table shading entirely.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7964,7 +4089,8 @@ remove the description frontmatter. replace summary with description. update out
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Removing the `description` frontmatter field and replacing `summary` with `description` across all notes.</details></think>
+Removing the `description` frontmatter field and replacing `summary` with `description` across all notes.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7973,10 +4099,8 @@ I'll find every place that uses `summary` or `description` in notes, then migrat
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8008,52 +4132,32 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating notes_content.py to replace `summary` with `description` in assemble_markdown, FM_ORDER, and ALWAYS_QUOTE.</details></think>
+Updating notes_content.py to replace `summary` with `description` in assemble_markdown, FM_ORDER, and ALWAYS_QUOTE.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8161,47 +4265,26 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
-
-</details></tool-use>
-
-_**Agent (auto-low)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8309,21 +4392,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8432,21 +4506,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8489,21 +4554,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8566,21 +4622,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8619,21 +4666,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8668,21 +4706,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8713,21 +4742,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -8766,16 +4786,1096 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating notes_content.py to remove summary from frontmatter order and always-quote fields, then switching both assemble_markdown and extract_structured_sections to use description instead. Also updating assembled-content.html to reference Params.description.
+
+Also removing summary from static/admin/config.yml, archetypes/notes.md, and any docs or JS files that still mention it. A migration script will copy existing summary values into description and then delete the old field.
+</details></think>
+
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js",
+  "pattern": "summary|description"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js",
+  "pattern": "summary|description",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-creator.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "summary",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconciliation-before-worship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create-regular-connection.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/drafting-in-public.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/expect-the-counter.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/notice-the-good.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/kindness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reliability.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/change-window.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/spaced-repetition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipline.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/loss-of-reward.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-collectors-fallacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-12-week-year.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ethical-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-through.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/synthesis-as-a-goal.md"
+    }
+  ],
+  "totalFiles": 29,
+  "totalMatches": 230
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Updating notes_content.py to remove summary from frontmatter order and always-quote fields, then switching both assemble_markdown and extract_structured_sections to use description instead. Also updating</details></think>
+A one-shot migration script will load each note and rename the summary field to description.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "summary",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/getting-started.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md",
+  "pattern": "summary",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/flashcards.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md",
+  "pattern": "summary",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/note-relationships.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user requested only the summary-to-description migration. notes-creator.js should be updated to use frontmatter fields instead of body sections.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards",
+  "pattern": "summary",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
+  "pattern": "summary",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/jorap-voice/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (3 files)
+
+| File |
+|------|
+| `archetypes/default.md` |
+| `archetypes/notes-review.md` |
+| `archetypes/notes.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The notes-review archetype already uses description correctly. I will update notes_content.py and assembled-content.html to use description with a fallback to summary. I will also remove summary from the admin config.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Implementing the migration and updating all references from `summary` to `description`.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git show HEAD:archetypes/notes.md 2&gt;/dev/null | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:archetypes/notes.md 2>/dev/null | head -40
+```
+
+```
+---
+title: "{{ replace .Name "-" " " | title }}"
+meta_title: "{{ replace .Name "-" " " | title }}"
+description: "One sentence: the single claim this note makes."
+slug: "{{ .Name }}"
+date: {{ .Date }}
+image: "/images/note.jpg"
+categories: []
+author: "JoRap"
+tags: []
+aliases: []
+review: false
+featured: false
+draft: true
+---
+
+One idea, stated plainly in one breath. If you need `and` or a second claim, split into another note and link it with `[[wikilinks]]`.
+
+## Key Concept
+
+One sentence — the angle, not a second definition.
+
+Further explanation on the next paragraph: stakes, distinctions, [[wikilinks]]. Skip this section when the opening definition is enough.
+
+For habit spine notes (`review: true`), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run `hugo new content/english/notes/my-note.md --kind notes-review`. Rules: double-quote every `front`, `back`, and set name; inline `card_sets: ["Set"]`; block list for `cards`; put `draft` last; do not add `| JoRap Notes` to `meta_title`. Don't `[[wikilink]]` utility pages (Graph, Issues, Flashcards, Review, Random Duo) — use URLs; see [[Getting Started]].
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-summary-to-description.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The HEAD archetype predates the frontmatter migration.
+
+The migrated notes template now uses frontmatter fields including key_concept, examples, and relationships. The original body prose about habit spine notes appears to have been lost in the migration.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Params\\.summary|[\"']summary[\"']|get\\(\"summary\"\\)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Params\\.summary|[\"']summary[\"']|get\\(\"summary\"\\)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./scripts/migrate-summary-to-description.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./layouts/_partials/notes/assembled-content.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/notes_content.py"
+    },
+    {
+      "matchCount": 16,
+      "uri": "./.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-28_03-00-38Z-sveltia-notes-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-18_18-30-06Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 24
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the migration script. Updating doc notes and the notes-creator.js frontmatter structure.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-summary-to-description.py 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-summary-to-description.py 2>&1 | tail -5
+```
+
+```
+       ^^^^^^^^^^^^^^^^^^
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/migrate-summary-to-description.py", line 23, in migrate_file
+    summary = fm.pop("summary", None)
+              ^^^^^^
+AttributeError: 'str' object has no attribute 'pop'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Removed summary from FM_ORDER. Description now precedes key_concept.
+
+Fixed slug duplication in the migration script. Updated FM_ORDER to place slug correctly. Will run migration, normalize, and rebuild Hugo. Flashcard YAML examples will also switch summary to description.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "summary",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "scripts/migrate-summary-to-description.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/migrate-notes-to-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/jorap-voice-notes.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/enrich-evergreen-notes.py"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-summary-to-description.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the migrate script to match the output format with a newline after the frontmatter delimiter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "summary",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/assembled-content.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/review.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/llms-page-body-fallback.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/llms-page-blurb.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/random-prompt-panel.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/cards.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/basic-seo.html"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "summary",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-summary-to-description.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/migrate-summary-to-description.py 2&gt;&amp;1 | tail -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/migrate-summary-to-description.py 2>&1 | tail -3
+```
+
+```
+wood-hay-stubble.md
+workplace-principles.md
+migrated 223 notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^summary:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^summary:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/normalize-note-frontmatter.py 2&gt;&amp;1 | tail -5 &amp;&amp; hugo --minify 2&gt;&amp;1 | tail -8</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/normalize-note-frontmatter.py 2>&1 | tail -5 && hugo --minify 2>&1 | tail -8
+```
+
+```
+weekly-review-checklists.md
+wood-hay-stubble.md
+workplace-principles.md
+
+rewrote 223 files
+ Paginator pages  │  107 
+ Non-page files   │    0 
+ Static files     │  199 
+ Processed images │  331 
+ Aliases          │  710 
+ Cleaned          │    0 
+
+Total in 23923 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills",
+  "pattern": "`summary`|summary:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills",
+  "pattern": "`summary`|summary:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/alex-eala-tracker-update/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,html,yml,js,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Params\\.summary|get\\(\\\"summary\\\"\\)|name: \\\"summary\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Params\\.summary|get\\(\\\"summary\\\"\\)|name: \\\"summary\\\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/assembled-content.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the script docstring to reference description instead of summary.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards",
+  "pattern": "summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards",
+  "pattern": "summary",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-notes-to-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Done. `summary` is gone; `description` is the single opening field everywhere.
+
+**Notes (223 files)** — Migrated via `scripts/migrate-summary-to-description.py`: where both existed, `summary` won (e.g. forgiveness now uses the longer opening line). No `summary:` keys remain.
+
+**Output / tooling**
+- `scripts/notes_content.py` — `description` only in field order; `assemble_markdown` reads `description` (legacy `summary` fallback kept)
+- `layouts/_partials/notes/assembled-content.html` — renders `Params.description`
+- `static/admin/config.yml` — removed Summary field; Description hint updated
+- `archetypes/notes.md` — frontmatter-only template with `description`
+- `assets/js/notes-creator.js` — prompt uses frontmatter fields, not body `##` sections
+- Docs updated: `getting-started.md`, `flashcards.md`, `note-relationships.md`
+
+**Verified** — `normalize-note-frontmatter.py` + Hugo build pass (2073 pages).

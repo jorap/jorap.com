@@ -13,7 +13,8 @@ _**User**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants the Marvel Snap blog post edited to remove any indication of deep investment or spending.</details></think>
+The user wants the Marvel Snap blog post edited to remove any indication of deep investment or spending.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -22,27 +23,15 @@ I'll read the post and the JoRap voice skill, then tone down the investment angl
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
@@ -53,7 +42,8 @@ The blog post should not imply deep investment or spending in Marvel Snap.
 
 Specific phrases signaling deep investment need removal. These include "fell into the loop hard," wiki notes, bookmarking meta sites, YouTube channels, "second job" language, and "full-time theorycrafter." The shop section should describe gold purchases as annoying temptations instead of actual spending.
 
-Frontmatter should avoid collection FOMO phrasing. The opening needs softening. "Fell into the loop hard" becomes casual wording like "dipped into it." Meta site visits should read as casual glances rather than obsessive checking. Wiki notes should shrink to brief glances at guides.</details></think>
+Frontmatter should avoid collection FOMO phrasing. The opening needs softening. "Fell into the loop hard" becomes casual wording like "dipped into it." Meta site visits should read as casual glances rather than obsessive checking. Wiki notes should shrink to brief glances at guides.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -62,129 +52,64 @@ Toning down the deep-investment framing and rewriting the shop section so it's c
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/why-i-stopped-playing-marvel-snap.md 2>/dev/null || pnpm voice:scan 2>/dev/null | head -50</summary>
-
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/why-i-stopped-playing-marvel-snap.md 2&gt;/dev/null || pnpm voice:scan 2&gt;/dev/null | head -50</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/why-i-stopped-playing-marvel-snap.md 2>/dev/null || pnpm voice:scan 2>/dev/null | head -50
 ```
@@ -224,43 +149,15 @@ Review-only (edit data/voice-words.yaml review: to tune)
     content/english/notes/free-tier-hosting-stack.md · relationships.reason
     content/english/notes/git-based-cms.md · key_concept
     content/english/notes/maintenance-window.md · relationships.reason
-    content/english/notes/reversibility.md · key_concept
-    content/english/notes/reversibility.md · relationships.reason
-    content/english/notes/rollback-principle.md · cards[0].front
-    content/english/notes/rollback-principle.md · examples[0]
-    content/english/notes/rollback-principle.md · key_concept
-    content/english/notes/rollback-principle.md · relationships.reason
-    content/english/notes/staged-rollout.md · aliases[0]
-    content/english/notes/staged-rollout.md · cards[0].front
-    content/english/notes/staged-rollout.md · key_concept
-    content/english/notes/staged-rollout.md · relationships.reason
-    content/english/notes/standard-operating-procedures.md · relationships.reason
-    content/english/notes/the-garage-concept.md · key_concept
-  Distill (11) → boil down / shorten
-    content/english/notes/building-a-second-brain.md · cards[0].front
-    content/english/notes/building-a-second-brain.md · cards[5].back
-    content/english/notes/building-a-second-brain.md · key_concept
-    content/english/notes/building-a-second-brain.md · meta_title
-
+    content/englis
+… (output truncated)
 ```
-</details>
-</tool-use>
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2**</summary>
-
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
@@ -269,7 +166,8 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The post now reads more naturally without implying deep investment or spending.
 
-Softening "tune a deck" to "fiddle with a deck" and "burned me out" to "wore me out" keeps the tone casual.</details></think>
+Softening "tune a deck" to "fiddle with a deck" and "burned me out" to "wore me out" keeps the tone casual.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -300,18 +198,13 @@ it was forced to me to follow their schedule to ensure I try to catch up with th
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user wants to add a note about being forced to follow the game's schedule to catch up with the latest powerful cards.</details></think>
+The user wants to add a note about being forced to follow the game's schedule to catch up with the latest powerful cards.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
@@ -322,7 +215,8 @@ The user wants to mention being forced to follow the game's schedule to catch up
 
 Drafting a short paragraph in JoRap voice for the "meta outran my collection" section. It will describe the forced release schedule and grind pressure.
 
-Two drafts are ready. One laments the grind to stay competitive. The other notes the rhythm of season drops and limited events.</details></think>
+Two drafts are ready. One laments the grind to stay competitive. The other notes the rhythm of season drops and limited events.
+</details></think>
 
 _**Agent (auto-low)**_
 
@@ -331,16 +225,8 @@ Adding a paragraph on the release schedule pressure in the collection/meta secti
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-
-</tool-use>
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
@@ -363,18 +249,13 @@ also add that some youtubers were quitting and expressing their frustration. sta
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Two additional points need to be added to the Marvel Snap blog post. Some YouTube creators quit and expressed frustration. Staff running the game was reduced, indicating it was no longer a priority.</details></think>
+Two additional points need to be added to the Marvel Snap blog post. Some YouTube creators quit and expressed frustration. Staff running the game was reduced, indicating it was no longer a priority.
+</details></think>
 
 _**Agent (auto-low)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
 
 </details></tool-use>
 
@@ -387,4 +268,29 @@ General references to creators rather than specific names will be used. Second D
 
 The subsection will frame the shift as the game losing priority. It will sit between "It wanted more time than I wanted to give" and "Why I stopped." The closing may need a light tweak. Snap Judgments and Alexander Coccia are already mentioned elsewhere.
 
-The draft will open with a callback to </details></think>
+The draft will open with a callback to the same YouTubers who posted quit videos and burnout rants. The staff reduction will be framed as a general observation: news of layoffs and a smaller team running live service made it harder to believe the game was still a priority. The opening line will read, "Around the time I was pulling back, the mood around Snap changed too."
+
+The draft will name the creators by their role as casual meta guides who were relied on after bad streaks. Their posts will mention balance complaints, the collection treadmill, and questioning why they keep playing. The business side will be framed as a leaner live operations team, making the game feel like maintenance mode rather than a flagship.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding a subsection on the shifting community vibe and reduced staff, placed before the closing section.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Added a new subsection, **The vibe shifted**, before the closing:
+
+- YouTubers you already mentioned (Snap Judgments, Alexander Coccia) posting quit videos and frustration rants
+- Layoffs and a smaller live-service team making the game feel like maintenance mode, not a studio priority
+- Tied back to your casual stance: hard to chase the schedule when the guides and the company both seemed to be stepping back
+
+It stays observational, not like you were plugged into every community drama thread.
