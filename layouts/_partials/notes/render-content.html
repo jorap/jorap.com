@@ -14,6 +14,7 @@
 {{- end -}}
 {{- $raw := cond $bodyOnly (partial "notes/note-raw-body.html" $page) (partial "notes/assembled-content.html" $assembled) -}}
 {{- $raw = replaceRE `(?s)\n## See also[\s\S]*$` "" $raw -}}
+{{- $raw = partial "notes/expand-bible-mentions.html" (dict "Raw" $raw "Page" $page) -}}
 {{- $content := $page.RenderString $raw -}}
 
 {{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}
