@@ -16,7 +16,7 @@ key_concept: |
   - [[Free Grace]] is grace applied to eternal life: Christ paid what I could not; I receive by faith, not wages.
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
-  - "Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
+  - "Romans 4:4-5 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
 shareable_thought:
   - "Grace is gift never earned."
   - "Salvation first, then the walk after - not wages that could be stacked."
@@ -77,7 +77,7 @@ cards:
     back: "Trust Christ - not my report card."
   - front: "Bad week and panic that heaven access revoked. What still holds?"
     back: "Standing settled - confess, keep walking."
-  - front: "Ephesians 2 pairs mercy and the gift in one rescue. Which one names what I receive?"
+  - front: "Ephesians 2:8-9 pairs mercy and the gift in one rescue. Which one names what I receive?"
     back: "The gift saves - mercy spared wrath first."
 draft: false
 ---

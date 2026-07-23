@@ -62,7 +62,7 @@ Jesus prayed often, usually alone, often before the crowd's next demand.
 - [[Withdraw to Pray]] - rose before dawn; often slipped to lonely places (Mark 1:35; Luke 5:16)
 - [[Pray Before You Choose]] - all night in prayer before naming the twelve (Luke 6:12)
 - [[Pray When Drained]] - alone on the mountain after feeding five thousand (Matthew 14:23; Mark 6:46)
-- [[Jesus' Prayers]] - seven verbatim prayers the Gospels quote (thanksgiving, John 17, Gethsemane, the cross)
+- [[Jesus' Prayers]] - seven verbatim prayers the Gospels quote (thanksgiving, John 17:1-26, Gethsemane, the cross)
 
 Garden links: [[Prayer Jesus Taught]] - teaching hub for Lord's Prayer, [[Secret Devotion]], persistence; [[Jesus' Prayers]] - verbatim words to the Father.
 
@@ -90,7 +90,7 @@ His calendar bent for real people. Depth with a few, open table with many.
 
 - [[Moved with Compassion]] - saw the crowds; touched the leper (Matthew 9:36; Mark 1:41)
 - [[Table Fellowship]] - ate with disciples and sinners (Mark 2:15; Luke 5:29-32)
-- [[Invest in the Few]] - chose twelve; washed their feet (Mark 3:14; John 13)
+- [[Invest in the Few]] - chose twelve; washed their feet (Mark 3:14; John 13:1-17)
 - [[Kingdom on the Road]] - town to town teaching, preaching, healing (Luke 4:43; Matthew 9:35)
 
 Garden links: [[Love Your Neighbor]]; [[Humility and Service]]; [[Peacemakers]]; [[Great Commission]]; [[Discipleship]].

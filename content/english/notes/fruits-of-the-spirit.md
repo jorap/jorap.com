@@ -119,14 +119,14 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Galatians", "Theology", "Discipleship"]
-aliases: ["fruit of the Spirit", "Galatians 5 fruit"]
+aliases: ["fruit of the Spirit", "Galatians 5:22-23 fruit"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Snapped at my kid after a dry week - no prayer, just forcing patience by will. Where does Galatians fruit come from?"
     back: "Walk by the Spirit - not flesh willpower."
-  - front: "Galatians 5 - flesh works on one side, Spirit fruit on the other. Which side am I feeding?"
+  - front: "Galatians 5:22-23 - flesh works on one side, Spirit fruit on the other. Which side am I feeding?"
     back: "Spirit - stay connected, crucify flesh."
   - front: "Performing joy at church, empty at home. What's missing?"
     back: "Abide first - fruit grows from connection."

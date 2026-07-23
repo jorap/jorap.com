@@ -15,7 +15,7 @@ key_concept: |
   - Under [[Free Grace]], my death can mirror the posture - not earning heaven at the end, but resting in the Father's hands because Jesus already opened the way.
 examples:
   - "Panic attack at 2am felt like dying - into Your hands is the line I clung to, not because I am Jesus, but because He showed how to die trusting the Father."
-  - "My grandfather's last breath was calm quoting Psalm 31 - Jesus gave the whole church that sentence on the cross."
+  - "My grandfather's last breath was calm quoting Psalm 31:5 - Jesus gave the whole church that sentence on the cross."
 shareable_thought:
   - "Jesus' last recorded prayer commended His spirit to the Father - into Your hands I commit My spirit."
   - "After forgiveness and the forsaken cry, death met as entrusting, not panic."
@@ -52,7 +52,7 @@ cards:
     back: "Into Your hands I commit My spirit."
   - front: "Everything hurts and control is gone. Cross posture after surrender?"
     back: "Commit my spirit - trust the Father."
-  - front: "Anxiety spike feels like the end. Psalm 31 line He quoted?"
+  - front: "Anxiety spike feels like the end. Psalm 31:5 line He quoted?"
     back: "Into Your hands - entrust, don't panic."
   - front: "Said not my will in the garden. How does the cross end?"
     back: "Into Your hands - same Father."

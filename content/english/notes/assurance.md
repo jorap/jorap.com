@@ -80,7 +80,7 @@ cards:
     back: "Rest on His promise - not your report card."
   - front: "Waiting to feel holy enough before I trust I'm His. Wrong order?"
     back: "Believe first - assurance follows faith."
-  - front: "Romans 8 in my head but guilt still runs the show. What can't separate me?"
+  - front: "Romans 8:38-39 in my head but guilt still runs the show. What can't separate me?"
     back: "Nothing from God's love in Christ."
 draft: false
 ---

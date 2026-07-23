@@ -7,7 +7,7 @@ key_concept: |
   - The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father.
   - Level 1: The Gospels tell what Jesus taught His followers about prayer - not the prayers He said to God Himself.
   - Level 2: The Gospels tell us what Jesus taught His followers about how to pray, which is different from the prayers He said directly to God.
-  - Level 3: Two lanes in the text - Jesus speaking to the Father in John 17, and Jesus coaching disciples on posture, place, and words.
+  - Level 3: Two lanes in the text - Jesus speaking to the Father in John 17:1-26, and Jesus coaching disciples on posture, place, and words.
   - Level 4: Because the model prayer names kingdom, daily bread, and forgiveness, teaching prayer is discipleship, not a private monologue archive.
   - Level 5: The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father; [[Jesus' Prayers]] indexes both.
   - [[Eternal Principles]] holds the one-claim notes; this hub maps the prayer thread across Matthew, Mark, Luke, and John.

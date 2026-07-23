@@ -54,7 +54,7 @@ cards:
     back: "Physician with the sick - stay."
   - front: "Fellowship as a program slot, not a plate shared. Copy Him?"
     back: "Table fellowship - eat with them."
-  - front: "Avoiding the tax collector type at lunch. Luke 5 pattern?"
+  - front: "Avoiding the tax collector type at lunch. Luke 5:29-32 pattern?"
     back: "Recline with sinners - call them."
   - front: "Table as stage for my reputation. His meal was what?"
     back: "Ministry - presence at the table."

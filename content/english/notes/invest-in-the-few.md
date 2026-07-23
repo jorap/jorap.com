@@ -10,7 +10,7 @@ key_concept: |
   - Level 3: Mass platform without presence produces spectators; time with a few produces sendable people - depth scales through people, not headcount alone.
   - Level 4: Invest disproportionate presence in a small circle before you scale the message outward.
   - Level 5: [[Great Commission]] sends widely; this note names the few who get presence first - depth before broadcast.
-  - John 13 shows the same logic at the end - washed their feet in the room, not from a stage.
+  - John 13:1-17 shows the same logic at the end - washed their feet in the room, not from a stage.
   - [[Great Commission]] pushes outward; [[Discipleship]] names daily following - this names the small circle that carries the message.
   - Under [[Free Grace]], investing in a few is not elitism - it is how the Teacher multiplied truth without hoarding it.
 examples:
@@ -52,7 +52,7 @@ cards:
     back: "Invest in the few - twelve first."
   - front: "Quarterly all-hands, never ate with the core four. What did He prioritize?"
     back: "Depth - disproportionate time."
-  - front: "Platform before presence with anyone. Mark 3 order?"
+  - front: "Platform before presence with anyone. Mark 3:14 order?"
     back: "Be with them - then send out."
   - front: "Teaching crowds, no one knows me up close. Copy foot-washing logic?"
     back: "Invest in the few - room, not stage."

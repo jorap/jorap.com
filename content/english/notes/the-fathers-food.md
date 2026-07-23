@@ -55,7 +55,7 @@ cards:
     back: "Doing the Father's will."
   - front: "Skipped hard obedience because I was hungry and tired. Samaritan woman story - what came first?"
     back: "Father's errand first - food later."
-  - front: "Nothing on my own initiative - copy John 5 pattern?"
+  - front: "Nothing on my own initiative - copy John 5:19 pattern?"
     back: "Only what pleases the Father."
   - front: "Cravings before kingdom. What nourished Him mid-journey?"
     back: "Father's will - not bread alone."

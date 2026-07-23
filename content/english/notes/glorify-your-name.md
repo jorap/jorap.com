@@ -50,7 +50,7 @@ card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
   - front: "Hard hour coming and I want an easy out. What did He ask the Father?"
     back: "Glorify Your name - not skip the cup."
-  - front: "Soul troubled before a costly yes. One prayer line from John 12?"
+  - front: "Soul troubled before a costly yes. One prayer line from John 12:27-28?"
     back: "Father, glorify Your name."
   - front: "Tempted to protect my reputation when obedience will cost. Whose glory first?"
     back: "Father's name - not my comfort."
@@ -58,7 +58,7 @@ cards:
     back: "Father glorified - even through the cross."
   - front: "Crowd watching as the fork arrives. What did the Father answer from heaven?"
     back: "I have glorified it - will glorify again."
-  - front: "Choosing between visible sacrifice and hidden ease. Prayer move from John 12?"
+  - front: "Choosing between visible sacrifice and hidden ease. Prayer move from John 12:27-28?"
     back: "Glorify Your name."
 draft: false
 ---

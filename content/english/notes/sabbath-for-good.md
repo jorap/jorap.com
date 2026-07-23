@@ -53,7 +53,7 @@ cards:
     back: "Sabbath for good - help the person."
   - front: "Skipped mercy because the rules felt holy. Who is Lord of the Sabbath?"
     back: "Jesus - mercy over show."
-  - front: "Rest day but someone is bound and hurting. His Luke 13 move?"
+  - front: "Rest day but someone is bound and hurting. His Luke 13:10-16 move?"
     back: "Free them - Sabbath serves people."
   - front: "Rigid Sabbath rules with no compassion. Who is Lord of the Sabbath?"
     back: "For man - rest serves love."

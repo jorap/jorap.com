@@ -44,7 +44,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
-aliases: ["John 11 prayer", "prayer at Lazarus tomb"]
+aliases: ["John 11:41-42 prayer", "prayer at Lazarus tomb"]
 featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
@@ -57,7 +57,7 @@ cards:
     back: "Look up - thank the Father, then move."
   - front: "Worried public prayer sounds showy. What was His aim at the tomb?"
     back: "Point them to the Father - not to Me."
-  - front: "Team waiting for me to pray before bad news. One line from John 11?"
+  - front: "Team waiting for me to pray before bad news. One line from John 11:41-42?"
     back: "Thank You, Father - You hear Me."
   - front: "Doubting God heard my private prayer. What did Jesus say about the Father's hearing?"
     back: "Father always hears - trust and speak."

@@ -49,7 +49,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Mission", "Discipleship"]
-aliases: ["go and make disciples", "Matthew 28"]
+aliases: ["go and make disciples", "Matthew 28:18-20"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

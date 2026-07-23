@@ -59,7 +59,7 @@ cards:
     back: "Moved with compassion - bend."
   - front: "Neighbor can wait until Friday. What did crowds trigger in Him?"
     back: "Compassion - serve now."
-  - front: "Policy says not my problem. His Matthew 9 move?"
+  - front: "Policy says not my problem. His Matthew 9:36 move?"
     back: "See them - move, then serve."
 draft: false
 ---

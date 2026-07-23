@@ -17,7 +17,7 @@ key_concept: |
   - [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing.
   - [[Discipleship]] is the daily walk - hear Jesus, do what He said.
   - [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone.
-  - [[Fruits of the Spirit]] names what that fruit looks like - love, joy, peace, patience, and the rest in Galatians 5.
+  - [[Fruits of the Spirit]] names what that fruit looks like - love, joy, peace, patience, and the rest in Galatians 5:22-23.
   - [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but does not un-save you.
   - Sanctification is the slow becoming that obedience shapes.
   - PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I am saved.

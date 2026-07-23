@@ -9,7 +9,7 @@ key_concept: |
   - Level 2: Rhythms track how often He prayed; this hub holds the verbatim prayers the Gospels record - like a schedule versus the speech transcript.
   - Level 3: Rhythm notes frequency; this hub holds the recorded words - pattern and text are different layers, and both matter for imitation.
   - Level 4: Use the rhythms hub for how often He prayed; use this hub for the verbatim prayers the Gospels preserve.
-  - Level 5: [[Withdraw to Pray]] is one rhythm; this index holds John 17, Gethsemane, and the cross - text you can review card by card.
+  - Level 5: [[Withdraw to Pray]] is one rhythm; this index holds John 17:1-26, Gethsemane, and the cross - text you can review card by card.
   - The Gospels name many prayer moments without quoting them - dawn solitude, all night on the mountain, [[Pray When Drained]] after feeding five thousand.
   - Seven recorded speeches to the Father anchor the lane below - each [[Atomic Notes]] carries six review cards at [/notes/review/](/notes/review/) with filter **Jesus Prayers**.
   - Under [[Free Grace]], copying His words is not earning heaven - it is learning how the Son talked to His Father.
@@ -61,14 +61,14 @@ draft: false
 ## Surrender and intercession
 
 - [[Not My Will]] - Gethsemane: "not what I will, but what You will" (Matthew 26:39; Mark 14:36; Luke 22:42)
-- [[Pray for His Own]] - John 17: prayer for Himself, the twelve, and all future believers
+- [[Pray for His Own]] - John 17:1-26 - prayer for Himself, the twelve, and all future believers
 
 ## From the cross
 
 - [[Father Forgive Them]] - "Father, forgive them" (Luke 23:34)
 - [[Into Your Hands]] - "Father, into Your hands I commit My spirit" (Luke 23:46)
 
-Matthew and Mark also record Psalm 22 on the cross - "My God, My God, why have You forsaken Me?" - a cry of dereliction, not a separate hub note here.
+Matthew and Mark also record Psalm 22:1 on the cross - "My God, My God, why have You forsaken Me?" - a cry of dereliction, not a separate hub note here.
 
 ## Cross-links
 
