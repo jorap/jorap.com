@@ -4,8 +4,11 @@ meta_title: "Develop, Don't Endanger - Challenge Without Disproportionate Risk"
 description: "People grow through drills that build skill without pain or risk replacing the actual skill."
 key_concept: |
   - Hard alone does not make an exercise worth running.
-  - Just because something is hard does not mean it helps you grow - a drill should build skill without hurting people on purpose.
-
+  - Level 1: Hard does not mean good - stop before someone gets hurt, like a coach who ends practice on ice.
+  - Level 2: A drill is like medicine - the right dose builds skill; too much leaves injury where growth should have been.
+  - Level 3: Because teams mistake intensity for seriousness, dangerous drills survive - but harm blocks growth even when the reps felt tough.
+  - Level 4: Before you run a hard drill, ask what skill it builds and what injury you could remove first - swap the hazard if you can.
+  - Level 5: Intensity theater survives when purpose is weak - develop skill, do not endanger people to prove the session was hard.
   - A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits.
   - When pain becomes the point, leaders start treating harm like proof of growth.
   - Push people to grow without picking drills where pain or risk replaces the actual skill.
@@ -75,5 +78,7 @@ cards:
     back: "Marked trail, water stops - build endurance safe."
 draft: false
 ---
+
+
 
 

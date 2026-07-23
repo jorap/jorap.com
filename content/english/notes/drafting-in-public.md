@@ -4,7 +4,11 @@ meta_title: "Drafting in Public - Learn Out Loud, Messily"
 description: "Drafting in public keeps the garden honest with rough posts and feedback instead of private hoarding."
 key_concept: |
   - Rough drafts in public beat polished drafts hoarded in private.
-  - Sharing rough work out loud helps more than hiding polished drafts until they feel perfect.
+  - Level 1: Show the rough sketch before the painting is done, like asking a friend before you paint the whole room.
+  - Level 2: Drafting in public is like showing storyboards before the movie ships - feedback while the scene can still move beats silence until perfection.
+  - Level 3: Because feedback arrives while the idea is still movable, public drafts stay honest and improve faster than private perfectionism.
+  - Level 4: Post the unfinished version and let one reader poke a hole before you polish the wrong pass - silence lets you pretend you understood.
+  - Level 5: Public feedback kills the illusion early - revise in public when the pass-off needs witnesses before polish hides gaps.
   - Posting before it is finished keeps the garden honest and lets feedback shape the work.
   - Silence would let me pretend I understood the pass-off - feedback kills that illusion early.
 examples:
@@ -52,4 +56,6 @@ cards:
     back: "Publish rough - grow in public."
 draft: false
 ---
+
+
 

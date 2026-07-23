@@ -5,7 +5,11 @@ meta_title: "Getting Started - Notes Garden"
 description: "I keep one clear claim per note page and let wikilinks plus /notes/ do the browsing."
 key_concept: |
   - Public when `draft: false`; hidden while `draft: true`.
-  - The note goes public when draft is false and stays hidden while draft is true.
+  - Level 1: The note goes live when draft is false and stays hidden while draft is true - off private, on public.
+  - Level 2: Draft status is like a shop shutter - `draft: false` opens the window to strangers; `draft: true` keeps work inside while you shape it.
+  - Level 3: Because draft status gates the build, flipping draft false is the publish move - not a separate deploy button or miracle push.
+  - Level 4: Set draft false only when the note is ready for strangers to read; keep draft true while you are still shaping claims you would not defend yet.
+  - Level 5: Each note opens with a definition I can quote in one breath - start at [[Maps of Content]] or walk through the steps below; [[Childlike Faith]] models beginner posture without performing expertise day one.
   - Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing.
   - Start at [[Maps of Content]] or walk through the steps below.
   - Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]].
@@ -35,6 +39,8 @@ aliases: ["start"]
 featured: true
 draft: false
 ---
+
+
 
 
 ## Atomic rule

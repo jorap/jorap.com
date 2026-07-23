@@ -4,7 +4,11 @@ meta_title: "Plain Commitments at Work - Yes Means Yes"
 description: "Say yes or no clearly - no \"definitely maybe,\" no stack of qualifiers so people trust a weak promise."
 key_concept: |
   - Say yes or no plainly - hype on a weak promise is the real problem.
-  - Say yes or no plainly at work - fancy hype on a weak promise is the real problem.
+  - Level 1: Say yes or no plainly at work - like telling the boss you can finish by Friday without stacking extra promises to sound brave.
+  - Level 2: Plain commitments mean yes or no without padded assurances - hype on a weak promise is the failure mode.
+  - Level 3: Let your yes be yes at work - extra spin on a deadline you will miss destroys trust faster than an honest no.
+  - Level 4: Before you promise, check capacity - if you need swagger to sound credible, the problem is overload, not vocabulary.
+  - Level 5: [[Let Your Yes Be Yes]] and [[Integrity]] apply the same rule - [[Drafting in Public]] outruns private honesty when commitments get performative.
   - If my word needs hype to sound believable, the problem is weak [[Complete the Cycle]], not the sentence.
   - One deadline, one owner, one plain answer in Slack.
   - On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Pass-Off]] model the same way.

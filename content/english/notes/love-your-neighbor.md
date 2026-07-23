@@ -6,7 +6,11 @@ key_concept: |
   {{< bible "Matthew 22:39" >}}
   
   - Second command, paired with the first - love the person in front of you the way you would want care if roles flipped.
-  - Love the person right in front of you the way you would want someone to treat you if you switched places.
+  - Level 1: Love the person right in front of you the way you would want someone to treat you if you switched places - like helping a kid who fell off a bike the way you would want help.
+  - Level 2: The second command pairs with the first - treat the neighbor in front of you the way you would want care if roles flipped.
+  - Level 3: Love your neighbor is active, not abstract - the Samaritan bandaged, paid, and stayed; debate over who counts misses the command.
+  - Level 4: Before you decide who deserves help, ask what you would want if you were stranded - then act like that neighbor.
+  - Level 5: [[Mercy]] shows up in the body - [[Free Grace]] frees you to love without keeping score for salvation; the command stays after the gift lands.
 
   {{< bible "Mark 12:31" >}}
   

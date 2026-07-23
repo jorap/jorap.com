@@ -5,7 +5,11 @@ meta_title: "Prayer Jesus Taught - How Jesus Taught His Disciples to Pray"
 description: "What Jesus told disciples about prayer - secret devotion, the Lord's Prayer, persistence, and asking in His name."
 key_concept: |
   - The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father.
-  - The Gospels tell us what Jesus taught His followers about how to pray, which is different from the prayers He said directly to God.
+  - Level 1: The Gospels tell what Jesus taught His followers about prayer - not the prayers He said to God Himself.
+  - Level 2: The Gospels tell us what Jesus taught His followers about how to pray, which is different from the prayers He said directly to God.
+  - Level 3: Two lanes in the text - Jesus speaking to the Father in John 17, and Jesus coaching disciples on posture, place, and words.
+  - Level 4: Because the model prayer names kingdom, daily bread, and forgiveness, teaching prayer is discipleship, not a private monologue archive.
+  - Level 5: The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father; [[Jesus' Prayers]] indexes both.
   - [[Eternal Principles]] holds the one-claim notes; this hub maps the prayer thread across Matthew, Mark, Luke, and John.
   - [[Jesus' Prayers]] holds verbatim speeches to the Father; [[Jesus' Rhythms]] shows how often He prayed; this lane is the instruction He gave others.
   - Spine notes below carry six review cards at [/notes/review/](/notes/review/) with filter **Prayer** or **Eternal Principles**.
@@ -41,6 +45,8 @@ aliases: ["Jesus teaching about prayer", "what Jesus taught about prayer", "Jesu
 featured: false
 draft: false
 ---
+
+
 
 ## Start here
 

@@ -5,7 +5,11 @@ meta_title: "Eternal Principles - Jesus' Teachings in the Garden"
 description: "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
 key_concept: |
   - I split them into one-claim notes so I can link and drill them like the rest of the garden.
-  - I split Jesus' teachings into one-idea notes so I can link them and study them like the rest of my notes.
+  - Level 1: I cut Jesus' long talk into small cards I can shuffle, like index cards on a ring.
+  - Level 2: Eternal Principles split scripture into one-claim notes you can link like the rest of the garden - verse anchor separate from commentary.
+  - Level 3: Because one claim per note keeps scripture anchor and commentary separate, each principle can cross-link without turning into an essay.
+  - Level 4: Open one spine note, read the verse block, then follow wikilinks to the principle you need today - order matters less once [[Free Grace]] is ground.
+  - Level 5: The ground is [[Free Grace]] - these principles are how I try to live once I have already received eternal life, not the price of heaven.
   - The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works.
   - These principles aren't the price of heaven.
   - They're how I try to live once I've already received it.
@@ -39,6 +43,8 @@ aliases: ["Jesus teachings", "gospel principles"]
 featured: true
 draft: false
 ---
+
+
 
 ## Jesus' rhythms
 

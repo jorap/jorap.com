@@ -4,7 +4,11 @@ meta_title: "Capture - The First Step of Every Note System"
 description: "Saves what resonates into one trusted inbox, then empties weekly."
 key_concept: |
   - Friction kills capture when saving takes more than one quick move.
-  - If saving an idea takes many steps, most people stop - one quick move beats a perfect system.
+  - Level 1: Like when saving takes one tap - if it takes five taps, the good idea is gone before you finish.
+  - Level 2: A spark hits on the bus but your phone is buried in your bag - if capture takes too long, the idea dies before you save it.
+  - Level 3: Capture saves what resonates into one trusted inbox - skip it unless action or citation would follow later.
+  - Level 4: Scribble on your wristband before locker room noise eats the idea - one inbox from phone to desktop, process weekly.
+  - Level 5: Same rule as [[The Trusted Inbox]] - one pocket notebook, no sorting yet; capture fails when the save path has more steps than the spark can survive.
   - One inbox from phone to desktop, weekly process - same as [[The Trusted Inbox]].
   - Skip it unless action or citation would follow later.
   - Resonance is the filter, not FOMO.

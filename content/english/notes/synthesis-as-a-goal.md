@@ -4,7 +4,11 @@ meta_title: "Synthesis as a Goal - Notes Should Combine"
 description: "Merge sources into what you believe and can defend - a quote pile is not the goal."
 key_concept: |
   - Collecting quotes is not PKM for me - belief has to live in prose I can defend.
-  - Saving other people's quotes is not enough - you have to write what you actually believe in your own words.
+  - Level 1: Saving other people's quotes is not enough - write what you actually believe in your own words.
+  - Level 2: Quote collection feels like learning but does not produce belief you can defend until you merge sources into one claim.
+  - Level 3: Synthesis turns PKM into thinking because prose you would ship forces gaps in understanding to surface.
+  - Level 4: Merge borrowed lines into one page in your own words before you link it - if you cannot defend it, you have not learned it.
+  - Level 5: The wiki can hold borrowed lines; synthesis is when learning starts - one claim you would ship, not a pile of quotes; [[The Collector's Fallacy]] is the hoard without synthesis.
   - Synthesis is when learning starts - merge sources into one claim I would ship.
   - The wiki can hold borrowed lines; I still owe one page in my own words.
 examples:

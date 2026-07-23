@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Well done for faithful use of what He entrusted - quiet Tuesdays count, not one heroic mission trip.
-  - God rewards faithful use of what He gave you - quiet Tuesdays count, not just one big heroic trip.
+  - Level 1: God notices steady small work, not just one big flashy trip, like a boss who sees everyday effort.
+  - Level 2: Stewardship is measured in quiet Tuesdays - like compound interest on small deposits, not one visible withdrawal everyone applauds.
+  - Level 3: Because gifts were entrusted for use, faithfulness is measured in steady obedience over time, not one visible week mistaken for merit.
+  - Level 4: Use what He entrusted today in a small faithful way nobody will applaud - burying talent and performing for crowds both miss the point.
+  - Level 5: Well done for faithful use - gift first, repayment for faithfulness second; [[Eternal Rewards]] names the promise; [[Compounding]] is the PKM mirror for small use over years.
   - [[Free Grace]] settled where I spend forever.
   - Stewardship settles what I do with what He entrusted after.
   - The master returns to settle accounts - faithful use repaid, buried talent rebuked.
@@ -82,5 +86,7 @@ cards:
     back: "Yes - faithful steward, not the audience."
 draft: false
 ---
+
+
 
 

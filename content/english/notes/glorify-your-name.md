@@ -4,9 +4,12 @@ meta_title: "Glorify Your Name - John 12:28"
 description: "Facing the cross, Jesus asked the Father to glorify His name and the Father answered from heaven."
 key_concept: |
   {{< bible ref="John 12:28" >}}
-  
   - The hour had come - soul troubled, crowd listening - and Jesus asked the Father to glorify His name, not to skip the cup.
-  - When the hard moment arrived, Jesus prayed that God would be honored through what He was about to suffer, not that He could skip the pain.
+  - Level 1: Jesus prayed that God would look good through the hard thing ahead - not that He could skip it.
+  - Level 2: Like a runner who wants the coach honored at the finish line - not an exit ramp before the race ends.
+  - Level 3: When the costly hour arrives, glorifying the Father's name outweighs escape - obedience shows His glory, comfort does not.
+  - Level 4: When the hard hour arrives, pray that God is honored through your obedience - not that you can skip the cup.
+  - Level 5: [[Not My Will]] repeats the same surrender in Gethsemane; under [[Free Grace]] the cross is where the Father's name shines - not where you bargain out of cost.
   - The Father answered from heaven: "I have glorified it, and will glorify it again."
   - [[Not My Will]] repeats the same surrender in Gethsemane; here the glory of the Father's name is the point before the arrest.
   - Under [[Free Grace]], the cross is where the Father's name shines - not where I bargain my way out of cost.

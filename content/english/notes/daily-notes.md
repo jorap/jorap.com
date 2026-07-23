@@ -4,7 +4,11 @@ meta_title: "Daily Notes - Low-Stakes Logs That Compound"
 description: "Today's scratch pad for fragments - promote what repeats, let the rest fade."
 key_concept: |
   - Fragments belong on today's scratch pad - not in a diary built to last.
-  - Quick toss-off thoughts belong on today's scratch page - only ideas that repeat earn a permanent note.
+  - Level 1: Like when you scribble on today's sticky pad - only ideas that come back earn a real page in the notebook.
+  - Level 2: Quick toss-offs live on today's scratch page; by Friday most fade unless one line keeps showing up and gets promoted.
+  - Level 3: Fragments belong on today's scratch pad, not in a diary built to last - fleeting by default with quick buffer flushes between tasks.
+  - Level 4: Pocket slip for pick up shoes and call coach back - promote one line to a real note when it repeats three times.
+  - Level 5: Pairs with [[Capture]] on the inbox side - daily notes are buffer, not archive; permanent wikilinks earn their place only after repetition proves the idea survived the week.
   - Fleeting by default, with quick buffer flushes between tasks.
   - Promote a repeating fragment to a real note; let the rest fade.
 examples:

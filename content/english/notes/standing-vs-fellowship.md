@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="John 10:27-30" emphasize="28" >}}
   
   - Eternal life in His hand - no one snatches you out; standing stays settled even when closeness feels thin.
-  - God holds your place in His family tight - nobody can kick you out, even when prayer and joy feel far away for a while.
+  - Level 1: God holds your place in His family - nobody can kick you out, even when prayer feels far away.
+  - Level 2: Your standing before God stays settled at faith even when daily closeness in prayer and joy feels thin.
+  - Level 3: Standing is the verdict once for all; fellowship is closeness that rises and falls with obedience, prayer, and sin dealt with.
+  - Level 4: When prayer feels dry, distinguish what is settled (your place in Christ) from what needs repair (daily fellowship).
+  - Level 5: [[Free Grace]] secured eternal life once; standing is declared righteous on Christ, not re-opened by a bad week - fellowship is the closeness lane that confession and obedience restore.
   - [[Free Grace]] secured eternal life once.
   - Standing is the verdict: declared righteous on Christ, not re-opened by a bad week.
   - Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess.
@@ -81,5 +85,4 @@ cards:
     back: "Justification - standing on Christ stays."
 draft: false
 ---
-
 

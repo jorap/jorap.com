@@ -4,7 +4,11 @@ meta_title: "Normalization of Deviance"
 description: "Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable."
 key_concept: |
   - The third unchallenged shortcut is the warning - not the accident that finally forces a meeting.
-  - The third time someone skips a rule without anyone speaking up is the warning - not the crash that finally gets a meeting.
+  - Level 1: The third time someone skips a rule without anyone speaking up is the warning - like ignoring three smoke smells until the house is on fire.
+  - Level 2: Normalization of deviance means unchallenged shortcuts become normal before the accident forces a meeting.
+  - Level 3: The third unchallenged shortcut is the signal - by the fourth or fifth, nobody even decides, it is just how things are done here.
+  - Level 4: Log the near miss the first time - [[Heed Every Near-Miss]] before the shortcut stops feeling like a choice.
+  - Level 5: [[Blameless After-Action Review]] when nobody died cannot end the talk - [[Failure as Feedback]] dies when close calls stop getting recorded.
   - [[Heed Every Near-Miss]] logs each close call; [[Blameless After-Action Review]] when "nobody died" cannot end the talk.
   - By the fourth or fifth time, the shortcut is not even a decision anymore - it is just how things are done here.
 examples:

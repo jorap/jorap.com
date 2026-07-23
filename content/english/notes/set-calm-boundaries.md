@@ -4,7 +4,11 @@ meta_title: "Set Calm Boundaries - Limit the Behavior, Not the Person"
 description: "A calm boundary is one clear limit on behavior, named steady - not a character attack."
 key_concept: |
   - Limit the behavior. Keep the person.
-  - Draw a firm line on what someone may not do, but stay calm and keep caring about the person.
+  - Level 1: Draw a firm line on what someone may not do, but stay calm and keep caring about the person.
+  - Level 2: Limit the behavior, keep the person - firm edge, steady tone.
+  - Level 3: Because rage erodes both boundary and relationship, calm delivery makes the limit believable.
+  - Level 4: State the line once, without insult - repeat only the boundary, not the grievance loop.
+  - Level 5: Limit the behavior. Keep the person. - boundary without contempt; [[Psychological Safety]] on the other side still needs truth.
   - [[Emotional Regulation]] keeps me from mailing the first-draft rant; a calm boundary can [[Break the Escalation Cycle]] before snark feeds itself.
   - Drama makes the line harder to hear tomorrow.
   - Set calm boundaries and keep the person - firm line, steady voice, relationship intact.
@@ -46,5 +50,7 @@ cards:
     back: "Six on this number - office line after."
 draft: false
 ---
+
+
 
 

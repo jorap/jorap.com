@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 22:21" >}}
   
   - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
-  - Pay taxes and do your civic job, but do not treat any government or party like God owns your whole heart.
+  - Level 1: Like when you pay the lunch lady but your heart belongs at home - give Caesar his coin, give God yourself.
+  - Level 2: A citizen pays taxes and serves on jury duty without treating any politician like the king of your soul.
+  - Level 3: Dual allegiance keeps lawful duty and ultimate worship distinct - Caesar gets what Caesar is owed, God gets what is His.
+  - Level 4: Pay the tax bill without treating it like betraying the kingdom - bless the neighbor on the other feed, do not baptize the rage.
+  - Level 5: [[Seek the Kingdom First]] ranks God's reign above every election cycle; [[Treasure in Heaven]] keeps my heart off ballot-box salvation - [[Signal vs Noise]] curbs scroll that replaces prayer.
   - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
   - [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty.
   - [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target.

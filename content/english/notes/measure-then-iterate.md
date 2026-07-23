@@ -4,7 +4,11 @@ meta_title: "Measure Then Iterate - Data Before the Next Pivot"
 description: "Name what to measure, gather signal, then reprioritize - not guess and overhaul."
 key_concept: |
   - Transformation without a number is just enthusiasm with amnesia.
-  - Pick a number that shows whether something worked, watch it, then change your plan - do not just cheer and forget.
+  - Level 1: Pick a number that shows whether something worked, watch it, then change your plan - like counting how many baskets you made before you change your shooting form.
+  - Level 2: Measure-then-iterate means one metric proves progress - track it, adjust, repeat, instead of enthusiasm with amnesia.
+  - Level 3: Transformation without a number is cheer that fades - name what success looks like, watch it, then change the method.
+  - Level 4: Before the next sprint, write one number you will check Friday - if it did not move, the plan changes, not the story you tell.
+  - Level 5: [[Continuous Improvement]] and [[Decision Quality]] both need feedback loops - unmeasured change is [[Failure as Feedback]] you never captured.
   - Measure then iterate means define what would prove the change worked, watch it for one cycle, then adjust.
   - Not defend the rollout because the slide was convincing.
   - [[Failure as Feedback]] reads a miss; [[Continuous Improvement]] tweaks the process; [[Practice Small Experiments]] keeps trials small.

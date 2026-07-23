@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Luke 4:16-21" emphasize="16" >}}
   
   - It was His custom on the Sabbath - He stood, read Isaiah aloud in the gathering, then sat down to teach.
-  - Every Sabbath Jesus went to the synagogue, stood up, read Scripture out loud to the crowd, then sat down and taught from what He read.
+  - Level 1: Every Sabbath Jesus went to the gathering, stood up, read Scripture aloud, then sat down and taught from what He read.
+  - Level 2: Every Sabbath Jesus went to the synagogue, stood up, read Scripture out loud to the crowd, then sat down and taught from what He read.
+  - Level 3: Public reading then seated teaching - custom on the Sabbath, Isaiah in Nazareth as the pattern.
+  - Level 4: Because the gathering expected Scripture read aloud, His authority flowed from text handled in community, not private quotes.
+  - Level 5: It was His custom on the Sabbath - He stood, read Isaiah aloud in the gathering, then sat down to teach; rhythm the synagogue already knew.
   - Whole-person love of God is not Bible alone on the couch; it includes hearing and reading Scripture with God's people.
   - [[Love God]] names heart, soul, mind, strength - this names the gathered lane alongside private [[Abide in Me]] reading.
   - Under [[Free Grace]], showing up to worship is not earning standing - it is how the Teacher lived among the congregation He came to save.
@@ -59,5 +63,7 @@ cards:
     back: "Gathered lane - read with the church."
 draft: false
 ---
+
+
 
 

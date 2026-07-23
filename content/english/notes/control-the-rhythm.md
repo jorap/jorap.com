@@ -4,7 +4,11 @@ meta_title: "Control the Rhythm - Don't Let Urgency Set Your Pace"
 description: "Control the rhythm is taking back pace before urgency, conflict, or someone else sets it."
 key_concept: |
   - Control the rhythm means taking back pace before urgency, conflict, or someone else sets it.
-  - Choose how fast you move before panic or someone else rushes you - you set the tempo when you can.
+  - Level 1: Like when you walk slower so the group follows your pace - you pick the speed before panic sets it.
+  - Level 2: A counselor lets silence sit before answering - taking back pace before urgency or conflict sets the tempo for everyone.
+  - Level 3: Whoever sets the pace often steers the room - slow down and people usually cannot tell whether you slowed or lost control.
+  - Level 4: Send numbers after lunch when the client wanted a complex quote in ten minutes - keep the room from rushing a bad decision.
+  - Level 5: Pairs with [[Composure]] and [[Situational Control]] - urgency is real, but you still choose the pace; do not let [[Plain Commitments at Work]] break when slowing the room violates a response time you already promised.
   - Whoever sets the pace often steers the room.
   - Do not let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act - take the tempo back when you can.
   - The room usually cannot tell the difference between you slowing down and you being in control - so slow down.

@@ -4,8 +4,11 @@ meta_title: "Expect the Counter - Prepare for the Second Move"
 description: "Plan what happens after the other side adapts, not just how the opening move looks on paper."
 key_concept: |
   - Expect the counter means planning what happens after the other side adapts, not just the opening move.
-  - Plan what you will do after the other side changes their answer, not just your first move.
-
+  - Level 1: Plan your second move before your first, like a chess player who thinks one turn ahead.
+  - Level 2: Expect the counter is like rehearsing the play after the defense adjusts - move one is not the whole game.
+  - Level 3: Because the other side adjusts, a plan that stops at move one breaks the moment they counter.
+  - Level 4: Write your opening move and the two most likely counters before you enter the room - rehearse the second move before tip-off.
+  - Level 5: Write the countermove before the meeting - do not cling to a tactic because it worked once; [[Second Order Thinking]] keeps the adaptation loop open.
   - The opening move is not the game - they adapt, and you need a second plan ready.
   - Rehearse the second move before tip-off, not only the play that looks good on paper.
   - Do not cling to a tactic because it worked once - that is when the counter hurts most.
@@ -53,4 +56,6 @@ cards:
     back: "Built a backup look before tip-off."
 draft: false
 ---
+
+
 

@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="John 15:1-11" emphasize="5" >}}
   
   - Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
-  - A branch off the tree cannot grow fruit on its own - you stay connected to get good results, not by pretending hard enough.
+  - Level 1: Like when a broken twig dries on the sidewalk - it cannot grow grapes because it left the tree.
+  - Level 2: A kid keeps pedaling only while Dad holds the bike seat - let go and the ride stops fast.
+  - Level 3: Abiding means staying plugged in - cut the line and nothing real grows; straining without connection is just show.
+  - Level 4: Open Scripture and pray before you try to force spiritual output - fruit comes from attachment, not from grinding harder alone.
+  - Level 5: Under [[Free Grace]], fruit never earns the branch its place - pruning hurts but serves yield; self-powered "fruit" without abiding is dead wood, same trap as treating [[Sanctification]] as pure self-stacked effort.
   - Abiding is ongoing dependence, not a one-time conversion event - pruning hurts but serves fruitfulness over time.
   - Under [[Free Grace]], fruit does not earn the branch's place in the vine - the branch bears fruit because it is connected.
   - [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower.

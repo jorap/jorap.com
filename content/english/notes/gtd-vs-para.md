@@ -4,7 +4,11 @@ meta_title: "GTD vs PARA - Tasks vs Knowledge"
 description: "GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals."
 key_concept: |
   - Tasks and knowledge need different homes.
-  - To-do lists belong in one place and learning notes belong in another - like keeping groceries on the fridge list and recipes in a folder.
+  - Level 1: To-do lists belong in one place and learning notes in another - like groceries on the fridge list and recipes in a folder.
+  - Level 2: Tasks and knowledge need different homes - like mixing dirty dishes into your filing cabinet, one bucket turns both systems into junk.
+  - Level 3: GTD processes commitments; PARA organizes reference - when they share one bucket, neither system can run clean.
+  - Level 4: Keep actionable tasks in a trusted capture system and durable knowledge in PARA buckets - never the same inbox.
+  - Level 5: [[Getting Things Done]] owns next actions; [[PARA Method]] owns projects and resources - crossing the streams breeds rot.
   - [[Getting Things Done]] runs what has a next action and a deadline; [[PARA Method]] sorts what I would cite with no finish line.
   - Cousins, not competitors - same capture habit, two lanes.
   - The failure mode is doubling admin: one inbox emptied weekly, tasks in the task app, notes in the garden.

@@ -4,7 +4,11 @@ meta_title: "Accountability - Clear Ownership for Outcomes"
 description: "Accountability is naming who owns the result - and what happens when it slips."
 key_concept: |
   - Clear ownership - who answers for the outcome, the miss, and the fix.
-  - Everyone should know who owns the job, who fixes mistakes, and who reports back.
+  - Level 1: Like when one kid is captain of cleanup - everyone knows who carries the bucket home.
+  - Level 2: Ten people helped bake the cake but only one signs the card - that name is who answers if it burns.
+  - Level 3: Accountability means one person owns the outcome, the miss, and the fix - shared involvement without a named owner lets work float.
+  - Level 4: Before the meeting ends, name one owner, what happens if it slips, and who reports back - one owner beats shared vagueness.
+  - Level 5: Accountability pairs with [[Blameless After-Action Review]] on the fix side - someone says "my call" without the room hunting a fall guy; ownership without blame theater.
   - One owner per outcome beats a room where everyone was involved and nobody answers.
   - Name the owner, the miss, and the fix before the conversation ends.
 examples:

@@ -4,7 +4,11 @@ meta_title: "Own Your Part - Change Your Slice Without Waiting"
 description: "Change your slice of the problem - do not wait for a hand-down fix from upstairs."
 key_concept: |
   - Waiting for headquarters to fix your lane is how stale processes survive years.
-  - Do not wait for headquarters to fix your corner - change what you can touch yourself.
+  - Level 1: Do not wait for headquarters to fix your corner - like sweeping your own room instead of waiting for someone else to clean the whole house.
+  - Level 2: Own-your-part means fix your lane instead of waiting for headquarters to rewrite stale process.
+  - Level 3: Stale processes survive years when everyone waits for someone upstream - change what you can touch today.
+  - Level 4: List three steps in your control before you escalate - if you never tried your lane, you are renting the excuse.
+  - Level 5: [[Continuous Improvement]] and [[People Centered Design]] both start local - headquarters moves slow; your corner moves when you do.
   - Own your part means I take charge of what I can move - my habit, my pass-off, my corner of the workflow.
   - Not filing complaints until someone else acts.
   - [[Accountability]] names who answers for the outcome; [[Own the Error]] names the miss after it lands.

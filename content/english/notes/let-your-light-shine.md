@@ -4,12 +4,13 @@ meta_title: "Let Your Light Shine - Good Works That Glorify God"
 description: "Good works are not for hiding - let people see the Father in how you live, not perform for applause."
 key_concept: |
   {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
-  
   - City on a hill cannot hide - let good works shine so people glorify the Father, not my personal brand.
-  - Do good deeds where people can see them so they praise God - not so they praise you.
-  
+  - Level 1: Do good deeds where people can see them so they praise God - not so they praise you.
+  - Level 2: Good works on a hill point praise to the Father - visible on purpose, not to build your personal brand, like a lighthouse, not a billboard with your face.
+  - Level 3: Visible good works aim glory at the Father - when the audience applauds you instead, the light pointed the wrong way and the design failed.
+  - Level 4: Let good works be seen so observers glorify the Father - cut the moves that build your brand instead.
+  - Level 5: [[God Centered Design]] orders the same aim; [[Secret Devotion]] keeps private obedience in the ledger too.
   {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
-  
   - Not performance piety for applause - visible good for God's credit, not my feed.
   - The point is not performance for applause - Jesus warns against practicing righteousness to be seen by people.
   - Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand.

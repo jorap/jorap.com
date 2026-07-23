@@ -4,7 +4,11 @@ meta_title: "Graph View Analytics - What the Graph Actually Tells You"
 description: "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps."
 key_concept: |
   - Read the link map for orphans and over-linked hubs before they skew the garden.
-  - Check your notes map for lonely pages and pages with too many links before the whole garden gets messy.
+  - Level 1: Check your notes map for lonely pages and pages with too many links - like toys nobody plays with and one everyone fights over.
+  - Level 2: Read the link map for orphan notes and over-linked hubs - like a city map showing dead streets and one overcrowded intersection.
+  - Level 3: Orphans and over-linked hubs skew the whole garden - spot them early or maintenance chases symptoms instead of causes.
+  - Level 4: Open the graph view and fix orphan notes and overloaded hubs before they distort how you navigate the garden.
+  - Level 5: [[Graph]] is the live map; [[Issues]] is where you fix what the analytics flagged - not vanity link counts.
   - Orphan notes and hub sprawl both signal a graph that needs pruning.
   - The orphan list is a fix-this-week queue - not a pretty poster.
 examples:

@@ -4,7 +4,11 @@ meta_title: "Follow Their Lead - Connect Without Taking Over"
 description: "Join their world - topic, pace, starting point - before trying to steer."
 key_concept: |
   - Skip their starting point and you are fixing a problem they were not naming.
-  - If you skip where they are starting, you fix a problem they were not even talking about.
+  - Level 1: Start where they are, not where you wish they were - like directions from the wrong corner send them wrong.
+  - Level 2: Follow their lead is like trying their recipe once before you rewrite it - connection precedes correction.
+  - Level 3: Because connection precedes correction, running their play once proves you understood before you redirect.
+  - Level 4: Listen, run their version once, then offer your fix - connection first, critique second; the redirect lands after they know you heard them.
+  - Level 5: Run their version once before you redirect - pairs with [[Listen Before Fixing]] when the fix is right but the timing kills trust.
   - Connection first, critique second - run their play once before you offer yours.
   - The redirect lands better once they know you actually understood their version first.
 examples:
@@ -47,4 +51,6 @@ cards:
     back: "Watch the whole flow before I reorder."
 draft: false
 ---
+
+
 

@@ -4,7 +4,11 @@ meta_title: "Strong Outside Your Comfort - Stay Useful in New Conditions"
 description: "The habit that worked in the last role can flop in the next room - retune instead of clinging."
 key_concept: |
   - The tell is confidence that does not match the room - certainty imported from somewhere else.
-  - You can spot it when someone acts sure of themselves in a new place but their old tricks no longer work there.
+  - Level 1: You can spot it when someone acts sure in a new place but their old tricks no longer work there.
+  - Level 2: Confidence imported from a past room often outruns competence in the new one - certainty that does not match the ground.
+  - Level 3: Effectiveness in new conditions requires swapping methods while the old habit still feels like the smart play.
+  - Level 4: When the room changes, test one move from the new context before you trust the habit that worked last time.
+  - Level 5: Imported certainty is the trap - [[Adaptability]] names the swap; stay useful by learning the new room's rules before you scale the old playbook.
   - Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
   - The habit that worked in my last role can flop in the next room.
   - Nobody warns you the room changed; you just start losing at things that used to work.

@@ -4,7 +4,11 @@ meta_title: "Sustainable Performance - Pace You Can Repeat"
 description: "Aim for a pace you can hold next month without burning out or cutting safety corners."
 key_concept: |
   - Sustainable performance is output you can keep without burning out or cutting corners on safety.
-  - Work at a pace you can keep next month without collapsing from exhaustion or skipping safety steps.
+  - Level 1: Work at a pace you can keep next month without collapsing from exhaustion or skipping safety steps.
+  - Level 2: Sustainable output means repeatability - a sprint that mortgages next month is not performance, it is borrowing trouble.
+  - Level 3: Performance lasts when pace respects recovery and safety because burnout and corner-cutting both show up on the lagging indicator.
+  - Level 4: Set this month's pace by what you can repeat next month without cutting safety or sleep.
+  - Level 5: Hero weeks that skip safety steps or sleep borrow against next month - same lane as [[Energy Protects Judgment]] when nobody is watching.
   - I aim for a pace I can hold next month without burning out or cutting safety corners.
   - Pace you can repeat beats a sprint that mortgages next month.
   - The sprint feels like progress in the moment; the bill for it always arrives, just later than planned.

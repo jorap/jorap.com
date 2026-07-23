@@ -9,7 +9,11 @@ description: |
   **Missing note** means the wikilink target does not match any published note. **Pipe wikilink** means deprecated double-bracket syntax with a pipe label (`[[target|label]]`) - use `[[Note Title]]` only. **Unlinked mention** means another note's title appears in prose without a link - not in markdown headings (`## …`) or the **Note Relationships** table. **Structure issues** flag missing `extends` / `contradicts` rows in the **Note Relationships** table on garden notes (utility/meta pages are exempt). **Orphan** means no inbound wikilinks (outbound relationships do not count). **Dead end** means no wikilinks in the note body (See also excluded). **Utility wikilink** means a tool or meta page linked via `[[wikilink]]` instead of `/notes/<slug>/`. **Broken relationship** means a `relationships:` frontmatter target does not resolve. **Body section** means `## Key Concept`, `## Examples`, or `## Note Relationships` still in the markdown body instead of frontmatter. Pairs with [[Graph]], [[Backlinks]], and [[Random Duo]].
 key_concept: |
   - Fix the speck in the graph without playing judge over the author.
-  - Fix broken links and lonely notes in the garden without treating the writer like a failure.
+  - Level 1: Fix broken links and lonely notes in the garden without treating the writer like a failure.
+  - Level 2: Repair broken links and orphan notes without shaming whoever wrote them - like fixing a typo without calling the author careless.
+  - Level 3: Maintenance on orphans and dead links keeps the garden usable - shame about the author blocks fixes, so diagnose the graph, not the person.
+  - Level 4: Run the issues list on broken links and orphans - repair the graph, not the ego.
+  - Level 5: [[Graph]] shows where orphans live; [[Periodic Knowledge Review]] is when you batch-fix what issues flagged.
   - Broken wikilinks and unlinked note titles are graph hygiene problems to fix.
   - Orphans and dead ends are graph shape problems - same metrics as [[Graph]] filters.
   - Missing extends or contradicts rows in relationships frontmatter are structure bugs to fix.

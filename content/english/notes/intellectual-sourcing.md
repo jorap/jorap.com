@@ -4,7 +4,11 @@ meta_title: "Intellectual Sourcing - Track Where Ideas Come From"
 description: "Cite sources in notes to trust synthesis and find the original later."
 key_concept: |
   - I cite sources so I can trust what I wrote and find the original six months later.
-  - Write down where an idea came from so you can find the book or article again and know you quoted it right.
+  - Level 1: Write down where an idea came from so you can find the book or article again and know you quoted it right.
+  - Level 2: Cite sources so you can trust what you wrote and find the original six months later - like labeling a box before you put it in storage.
+  - Level 3: Unsourced notes become guesses - a link or citation turns a half-remembered line back into evidence you can defend.
+  - Level 4: Attach the source when you capture the idea - future you should reach the original in one click.
+  - Level 5: [[Capture]] is where the source lands first; [[Active Knowledge Curation]] keeps citations from rotting into folklore.
   - Without a source line, I will not trust my own synthesis in conversation.
   - A cited note is one I can defend months out - uncited summaries feel like gossip.
 examples:

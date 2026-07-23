@@ -4,7 +4,11 @@ meta_title: "Staged Rollout - Ship to a Slice Before Everyone Is the Test"
 description: "Ship to a small slice first so rollback stays cheap if the new state bleeds."
 key_concept: |
   - Full-blast deploy turns every user into a test subject.
-  - If you launch the change to everyone at once, every person becomes your guinea pig when something breaks.
+  - Level 1: If you change everything for everyone at once, one bug hits every person the same day.
+  - Level 2: A full blast deploy turns your whole user base into testers - harm spreads before anyone can turn back.
+  - Level 3: Staged rollout limits blast radius because a small group catches failures before the rest of the lane commits.
+  - Level 4: Ship to a preview branch, one table section, or one scrimmage night before you commit the whole lane.
+  - Level 5: Staged rollout keeps [[Reversibility]] real and [[Safety by Design]] at release time - harm hits fewer people before you commit the whole lane.
   - Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps [[Reversibility]] real.
   - [[Safety by Design]] at release time: harm hits fewer people before you commit the whole lane.
 examples:
@@ -61,5 +65,4 @@ cards:
     back: "Old batch until first table clears"
 draft: false
 ---
-
 

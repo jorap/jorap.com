@@ -4,7 +4,11 @@ meta_title: "Local-first Software for Notes"
 description: "Local-first means my device holds the truth; sync is optional icing - backup should behave the same way."
 key_concept: |
   - Truth lives on the device first; cloud sync is backup, not the vault.
-  - Your phone or computer holds the real copy first - the cloud is just a backup copy, not the home.
+  - Level 1: Your phone or computer holds the real copy first - like keeping your diary in your room and photocopying it for backup, not storing the only copy at school.
+  - Level 2: Local-first means your device owns the master file - online sync copies changes, it does not replace your copy.
+  - Level 3: Local-first software keeps truth on the device and treats cloud sync as redundancy - if the service vanishes, your notes survive.
+  - Level 4: Pick tools that work offline with full features - sync is insurance, not the vault you would crawl to after an outage.
+  - Level 5: [[Building a Personal API]] and [[Digital Minimalism]] both assume you can read and write without begging a server - cloud-only stacks fail when the tenant changes the rules.
   - Choose what is public, what stays private, and what gets encrypted before it leaves the room.
   - Sync should merge edits without picking last-write-wins by clock alone.
 examples:

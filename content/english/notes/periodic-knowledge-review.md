@@ -4,7 +4,11 @@ meta_title: "Periodic Knowledge Review - Revisit on a Schedule"
 description: "Notes rot without revisit - calendar weekly and quarterly passes like bills."
 key_concept: |
   - Crisis review is always too late.
-  - Review your notes on a schedule - waiting until a crisis hits is too late.
+  - Level 1: Review your notes on a schedule - like checking your backpack every Friday instead of waiting until the night before a big test.
+  - Level 2: Periodic knowledge review means calendar review, not panic when something breaks.
+  - Level 3: Crisis review is always too late - scheduled passes prune stale links and refresh what you actually use.
+  - Level 4: Block a recurring slot to walk the garden - orphans and drift compound when review waits for embarrassment.
+  - Level 5: [[Maintenance Window]] and [[Active Knowledge Curation]] are the same rhythm - [[Spaced Repetition]] handles cards; periodic review handles the graph.
   - I calendar weekly and quarterly passes the way I would calendar bills - inbox, active projects, evergreens on the clock, not when guilt spikes.
   - If I never revisit notes, they rot.
 examples:

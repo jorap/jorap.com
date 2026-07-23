@@ -4,12 +4,13 @@ meta_title: "Judge Not - Speck and Plank"
 description: "Final judge on souls is not your job - pull your own plank before nitpicking someone speck."
 key_concept: |
   {{< bible ref="Matthew 7:1-5" emphasize="5" >}}
-  
   - Do not play final judge on souls - pull your plank before you nitpick someone's speck.
-  - Fix your own big faults before you pick on someone else's small ones - you are not the final judge of their soul.
-  
+  - Level 1: Fix your own big faults before you pick on someone else's small ones - you are not the final judge of their soul.
+  - Level 2: You are not the final judge of anyone's soul - deal with your own fault before you pick at theirs, like clearing your windshield before criticizing another driver.
+  - Level 3: Final judgment belongs to God - when you play judge, you skip your own plank and misread their speck, so hypocrisy blocks clear sight.
+  - Level 4: Deal with your plank first; leave final soul-judgment to God instead of nitpicking their speck.
+  - Level 5: [[Heart Righteousness]] keeps the standard inward; [[By Their Fruits]] reads evidence without replacing God's seat.
   {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
-  
   - Still judge fruit - outcomes over time tell you what's underneath the hype.
   - Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours.
   - He does not forbid all moral discernment: the same sermon names fruit too.

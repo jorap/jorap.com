@@ -4,7 +4,11 @@ meta_title: "Influence Without Title - People Follow Trust Before Badges"
 description: "People follow the one who showed up in the crisis - not always the name on the org chart."
 key_concept: |
   - Leadership Is Influence is the headline: if they are moving with you, you are leading - badge optional.
-  - You are leading when people follow your direction, even if you never got the official job title.
+  - Level 1: You are leading when people follow your direction - even if you never got the official job title.
+  - Level 2: Leadership is influence - if they are moving with you, you are leading; badge optional, like a captain nobody promoted but everyone listens to.
+  - Level 3: Title grants authority on org charts; influence moves behavior - when people act on your direction without a badge, you lead.
+  - Level 4: Lead by moving people toward a shared outcome - do not wait for a badge to start helping others win.
+  - Level 5: [[Leadership Is Influence]] is the headline; [[Title Without Influence]] warns when the badge moves nothing.
   - This note is the positive case before anyone prints a business card.
   - Trust deposits compound in small moments: bailing the crew out of an outage, calm voice when the alarm trips.
   - The neighbor who counted heads in the blackout.

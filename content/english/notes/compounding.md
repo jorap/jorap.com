@@ -4,7 +4,11 @@ meta_title: "Compounding - Small Gains That Stack Over Time"
 description: "Compounding is small gains stacked over time - the curve stays flat until it suddenly bends."
 key_concept: |
   - Small gains repeated look like nothing is happening; most people quit right before the curve would have bent.
-  - Tiny daily progress looks invisible for a long time - many people stop right before the growth line finally jumps up.
+  - Level 1: Like when you save one peso a day - nothing looks big until the jar suddenly feels heavy.
+  - Level 2: A kid practices free throws ten minutes every Tuesday - the percentage bends long after the heroic week felt forgettable.
+  - Level 3: Compounding applies wherever today's gain makes tomorrow easier - notes linked over years, publish cadence, vocab drills.
+  - Level 4: Ten minutes of free throws every Tuesday until the percentage bends - heroic weeks feel good, boring repetition wins.
+  - Level 5: Faith parallel: [[Abide in Me]] - fruit from staying connected over time; [[Eternal Rewards]] repays daily faithfulness; [[Loss of Reward]] shrinks reward without erasing [[Free Grace]].
   - Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills.
   - Heroic weeks feel good; boring repetition wins.
   - Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone.

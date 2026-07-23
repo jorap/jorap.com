@@ -4,7 +4,11 @@ meta_title: "PARA Method - Projects, Areas, Resources, Archives"
 description: "PARA sorts notes into Projects, Areas, Resources, and Archives - four buckets by life responsibility, not topic soup."
 key_concept: |
   - Sort by who owns it and when it ends - not by topic alphabet soup.
-  - Sort notes by who owns them and when they end - not by topic names from A to Z.
+  - Level 1: Sort notes by who owns them and when they end - like putting school homework in one pile and hobbies in another, not alphabet soup from A to Z.
+  - Level 2: PARA sorts by Projects, Areas, Resources, Archive - owner and deadline beat topic alphabet soup.
+  - Level 3: PARA means sort by who owns it and when it ends - action and responsibility, not subject headings from A to Z.
+  - Level 4: When filing, ask who acts on this and when it closes - if neither applies, it is reference or archive, not a project folder.
+  - Level 5: [[GTD vs PARA]] splits tasks from knowledge - [[Metadata Strategy]] stays light inside PARA buckets so taxonomy does not become a second job.
   - Projects carry deadlines; Areas carry ongoing responsibility; Resources wait unclaimed; Archives hold finished work.
   - Enough structure to find things, archive when done.
 examples:

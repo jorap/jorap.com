@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 16:24-26" emphasize="26" >}}
   
   - Following Jesus costs self-denial and a cross - not suffering theater, daily surrender of my will to His.
-  - Following Jesus means giving up what you want each day and letting Him lead - not putting on a show of suffering.
+  - Level 1: Following Jesus means letting Him lead each day - not putting on a show of suffering for other people to see.
+  - Level 2: Following Jesus means giving up what you want each day and letting Him lead - not putting on a show of suffering.
+  - Level 3: Daily cross-bearing is surrender of my will to His - ordinary Tuesday choices, not staged misery for applause.
+  - Level 4: Because mercy came first, the body offered is worship alive - not payment to earn what grace already gave.
+  - Level 5: Following Jesus costs self-denial and a cross - not suffering theater; [[Mercy]] received first, then [[Grateful Obedience]] on ordinary Tuesdays.
 
   {{< bible "Romans 12:1" >}}
   
@@ -69,5 +73,7 @@ cards:
     back: "Saved first - offer the day from thanks."
 draft: false
 ---
+
+
 
 

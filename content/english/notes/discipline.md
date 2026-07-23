@@ -4,7 +4,11 @@ meta_title: "Discipline - Doing What You Committed When Motivation Drops"
 description: "Do what was promised when nobody is clapping and motivation walked out."
 key_concept: |
   - Discipline is keeping the commitment when the feeling that started it is gone.
-  - You keep your promise even when you do not feel like it anymore, like showing up for practice when you would rather stay home.
+  - Level 1: Keep your promise when you do not feel like it, like showing up for practice when you want the couch.
+  - Level 2: Discipline is like watering plants on vacation - the schedule runs even when excitement left the room.
+  - Level 3: Because motivation fades, systems and habit carry the rep when excitement walks out the door.
+  - Level 4: Do what you said you would do today even when nobody is watching and nobody claps - the boring rep counts anyway.
+  - Level 5: The applause was never reliable fuel - [[Habit Formation]] and systems carry the rep when motivation walked out; Tuesday work defines the person, not launch day.
   - The applause was never reliable fuel - it shows up for the highlight, not the Tuesday rep.
   - Nobody claps for the version of you that just does the boring rep anyway.
   - Do what you said you would do when motivation walked out.
@@ -45,5 +49,7 @@ cards:
     back: "It's won on rainy Tuesday runs nobody films"
 draft: false
 ---
+
+
 
 

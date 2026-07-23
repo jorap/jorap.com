@@ -4,7 +4,11 @@ meta_title: "Sunk Cost Fallacy - Past Effort Isn't a Reason to Continue"
 description: "Drop the bad tool or project when it stops earning its place - past effort is gone either way."
 key_concept: |
   - I ask: if I found this today, would I start it?
-  - Ask yourself this: if you just discovered this project today, would you actually begin it now?
+  - Level 1: Ask yourself: if you just found this project today, would you actually start it now?
+  - Level 2: Past time and money already spent should not force future spending - the question is whether you would start fresh today.
+  - Level 3: Sunk costs distort decisions because loss feels louder than opportunity - the fallacy keeps you funding what you would not choose anew.
+  - Level 4: Run the fresh-start test before the next deposit of time or money - if not today, cut or redesign.
+  - Level 5: [[Forgiveness]] runs the same play on relational debt; [[Turn the Other Cheek]] adds stopping more anger after sunk hurt.
   - [[Forgiveness]] runs the same play on relational debt.
   - [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
 examples:
@@ -52,5 +56,4 @@ cards:
     back: "Stop - do not finish because we started."
 draft: false
 ---
-
 

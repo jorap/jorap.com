@@ -4,7 +4,11 @@ meta_title: "Habit Formation - Repeat Until Automatic"
 description: "Repeat one small move until it runs on autopilot instead of re-debating it every morning."
 key_concept: |
   - The goal is not motivation - it is making the decision once, so it stops needing to be re-made every single day.
-  - Decide once to do the small thing every day until your body does it without a fresh pep talk each morning.
+  - Level 1: Decide once to do the small thing daily until your body does it without a fresh pep talk each morning.
+  - Level 2: Make the decision once so you stop re-deciding every day - like setting an alarm once instead of debating wake-up time each morning.
+  - Level 3: Motivation fades; a single upfront choice turns the behavior into default instead of a daily negotiation you might lose.
+  - Level 4: Pick one small habit, decide once, and repeat until autopilot carries it - not until motivation returns.
+  - Level 5: [[Habit Stacking]] attaches new moves to anchors already on autopilot; [[Atomic Habits]] keeps the first rep small enough to repeat.
   - Habit formation is practicing a move until it runs without a daily decision.
   - Thirty reps in, the cue does more work than the willpower ever did.
 examples:

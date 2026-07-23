@@ -4,7 +4,11 @@ meta_title: "Anti-Fragile PKM - Systems That Survive Tool Death"
 description: "Note systems survive app shutdowns when built on plain files, open formats, and tested backups."
 key_concept: |
   - Note systems that survive app shutdowns - plain files, open formats, and backups I actually test.
-  - Save notes in simple files you can open anywhere, and check your backup copy works before you need it.
+  - Level 1: Like when you save your drawing as a plain picture file - any computer can open it even if one app dies.
+  - Level 2: A diary written in pencil beats a diary locked inside one fancy app - open formats survive when the company shuts down.
+  - Level 3: Anti-fragile note systems survive app shutdowns because plain files and tested backups any tool can read outlast vendor lock-in.
+  - Level 4: Export to plain text or markdown quarterly and open the backup file once - if you cannot read it, the system is not anti-fragile yet.
+  - Level 5: Boring files beat tool-coupled structure when vendors change terms - ties to [[Future-Proofing Knowledge]] and [[Antifragility]]; close calls are stress signals before the system breaks for real.
   - I build on plain files and open formats so an app shutdown does not erase years of notes.
   - Test backups while the app still works - not after the export dies.
 examples:

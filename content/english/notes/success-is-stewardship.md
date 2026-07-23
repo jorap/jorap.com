@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Promotion and platform are entrusted for faithful use - enter the master's joy, do not bury the talent in ego.
-  - When you get gifts like time, money, or a bigger platform, you are meant to use them well for others - not hide them to protect your pride.
+  - Level 1: When you get gifts like time, money, or a bigger platform, use them well for others - do not hide them to protect pride.
+  - Level 2: Promotion and platform are entrusted, not owned - the master expects faithful use, not buried talent.
+  - Level 3: Stewardship follows salvation in order - [[Free Grace]] settles eternity; gifts settle what you do with the platform after.
+  - Level 4: When influence grows, ask what faithful use looks like this quarter - enter the master's joy, do not bury the talent in ego.
+  - Level 5: Success is not ownership - stewardship of time, health, platform, money, and influence; burying talent to protect pride fails the same test as the unfaithful servant.
   - Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence.
   - [[Free Grace]] settled where I spend forever; stewardship settles what I do with the gifts after.
   - [[Faithful Steward]] is the parable Jesus told - well done for faithful use, buried talent rebuked.
@@ -134,3 +138,4 @@ cards:
     back: "Ownership - steward what lasts, not rented land."
 draft: false
 ---
+

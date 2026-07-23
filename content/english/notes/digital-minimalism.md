@@ -4,8 +4,11 @@ meta_title: "Digital Minimalism for Note-Takers"
 description: "Notes sharpen when extra apps, sync layers, and unused notifications drop away."
 key_concept: |
   - Every new app is a pipe you have to babysit.
-  - Each new app is another thing you must check and fix, like adding another hose in the yard that can leak if you forget it.
-
+  - Level 1: Each new app is another hose in the yard - one more leak when you forget to check it.
+  - Level 2: Your stack is like a kitchen drawer - every tool added is one more thing that rattles loose and steals time from cooking.
+  - Level 3: Because each tool pulls attention toward maintenance, more apps mean less focus on the work that actually matters.
+  - Level 4: Count what you babysit weekly and cut one before you add another - fewer paths beats more capture options you never open.
+  - Level 5: Every new app is a pipe you babysit - [[Minimum Effective Dose]] trades some [[Digital Serendipity]] for fewer leaks and fewer pings pulling you off the note you were writing.
   - Cut capture paths and sync layers until you hit [[Minimum Effective Dose]] - the smallest setup that still works.
   - That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling you off the note you were actually writing.
   - Digital minimalism means the smallest setup that still works - not the fanciest stack you never open.
@@ -50,5 +53,7 @@ cards:
     back: "One app - fewer sync layers."
 draft: false
 ---
+
+
 
 

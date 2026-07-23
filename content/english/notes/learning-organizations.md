@@ -4,7 +4,11 @@ meta_title: "Learning Organizations"
 description: "Teams that change process after mistakes instead of burying them."
 key_concept: |
   - "What broke" line stays until fixed or accepted.
-  - Write down what went wrong and keep that note visible until the team fixes it or agrees to live with it.
+  - Level 1: Write down what went wrong and keep that note visible until the team fixes it or agrees to live with it.
+  - Level 2: The what broke line stays until fixed or accepted - like a sticky note on the fridge nobody removes until the leak is repaired.
+  - Level 3: Hidden failures repeat - a visible what broke line forces fix or explicit acceptance, because burying the miss guarantees the same miss returns.
+  - Level 4: Keep the what broke note on the board until the team fixes the system or documents why they accept the risk.
+  - Level 5: [[Incident Investigation]] feeds the line; [[Continuous Improvement]] closes it - not blame, system repair.
   - Change the process after a miss - do not bury it and move on.
 examples:
   - "After every tournament they kept one \"what broke\" line on the whiteboard until it was fixed or accepted."

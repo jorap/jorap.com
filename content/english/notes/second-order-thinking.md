@@ -4,7 +4,11 @@ meta_title: "Second-Order Thinking - Ask What Happens Next"
 description: "Second-order thinking asks what the clever fix triggers next - copycats, shortcuts, unplanned incentives."
 key_concept: |
   - Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
-  - After a good fix works, ask what comes next - others may copy it, people may cut corners, and new problems may show up.
+  - Level 1: After a good fix works, ask what comes next - others may copy it and new problems may show up.
+  - Level 2: After a good fix works, ask what comes next - others may copy it, people may cut corners, and new problems may show up.
+  - Level 3: First win is not last effect - incentives shift, copycats arrive, shortcuts compound.
+  - Level 4: Because systems adapt to your move, the second wave often erodes the first gain.
+  - Level 5: Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound; first-order success hides second-order debt.
   - I ask what the clever fix triggers next.
   - Copycats, shortcuts, and incentives I did not plan for.
   - Second-order thinking asks what happens after the first consequence - not only whether the move works today.
@@ -46,4 +50,6 @@ cards:
     back: "Ask what happens after the win."
 draft: false
 ---
+
+
 

@@ -4,7 +4,11 @@ meta_title: "The Collector's Fallacy - Saving Isn't Learning"
 description: "Saving articles felt like progress until every save tied to an express deadline or got cut."
 key_concept: |
   - Collecting articles feels like progress - tie saves to express deadlines or cut them.
-  - Saving articles feels like learning, but it is not - give each save a date to use it or delete it.
+  - Level 1: Saving articles feels like learning, but it is not - give each save a date to use it or delete it.
+  - Level 2: Collecting articles mimics progress - without a ship date or delete date, the pile becomes guilt with a bookmark icon.
+  - Level 3: The fallacy persists because saves feel productive while express deadlines force use or cut.
+  - Level 4: Tie every new save to an express deadline or delete it the same week - collecting is not learning.
+  - Level 5: A reading pile without a use date is a hobby pretending to be work - cut or ship; [[Creative Output]] is the express lane saves skip.
   - Saving articles felt like progress until I tied every save to an express deadline or cut it.
   - Every save needs a ship date or a delete date.
 examples:

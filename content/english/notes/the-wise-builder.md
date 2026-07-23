@@ -6,10 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
   
   - Hear and do - rock in the storm; hearing sermons without obedience is sand.
-  - Building on rock means hearing Jesus and doing what He says - only listening without acting is like building on sand that washes away in a storm.
-
-  {{< bible ref="Matthew 7:21" label="Matthew 7:21-23" emphasize="21" >}}
-  
+  - Level 1: Building on rock means hearing Jesus and doing what He says - only listening without acting is like sand in a storm.
+  - Level 2: Hear and do - rock in the storm; hearing sermons without obedience is sand that looks fine until the weather turns.
+  - Level 3: Storms reveal foundation because profession without practice collapses when pressure hits.
+  - Level 4: Match one heard command to one done action this week - rock is obedience, not attendance.
+  - Level 5: Lord Lord without doing the Father's will is empty profession - not a stumbled believer who repents; [[Faith and Works]] names the order storms reveal.
   - Lord Lord without doing the Father's will - empty profession, not a stumbled believer who repents.
   - Storms reveal which foundation held.
   - Under [[Free Grace]], doing is not what saves - faith saves - but genuine hearing produces action.
@@ -73,5 +74,4 @@ cards:
     back: "Obey one command Jesus gave."
 draft: false
 ---
-
 

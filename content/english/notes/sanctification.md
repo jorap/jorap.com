@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
   
   - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
-  - Jesus asks God to make us more like Him through truth in the Bible - it is a slow daily change, not one perfect week.
+  - Level 1: Jesus asks God to make us more like Him through truth in the Bible - slow daily change, not one perfect week.
+  - Level 2: Holiness through truth in Scripture - slow walk after faith, not one heroic streak.
+  - Level 3: Because standing was settled at belief, sanctification shapes becoming - growth, not the ticket in.
+  - Level 4: Treat a fruitless week as lagging growth, not revoked standing - open the word that retrains the habit loop.
+  - Level 5: Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming; [[Christlikeness]] is aim, [[Justification]] already settled the verdict.
   - [[Christlikeness]] names the aim; sanctification names the slow walk after standing was settled at faith.
   - Sanctification settles who I am becoming on the way.
   - [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance.
@@ -116,3 +120,5 @@ cards:
     back: "Daily sanctification - not one sprint."
 draft: false
 ---
+
+

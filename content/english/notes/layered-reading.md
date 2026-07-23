@@ -4,7 +4,11 @@ meta_title: "Layered Reading"
 description: "One pass through a book is not absorption - return when more depth is needed."
 key_concept: |
   - Pass through the same source at increasing depth - skim, highlight, summarize.
-  - Read the same book more than once - first skim for the big picture, then mark parts, then write what you learned in your own words.
+  - Level 1: Read the same book more than once - first skim for the big picture, then mark parts, then write what you learned.
+  - Level 2: Read the same source in layers - skim first, mark what matters, then write it back, like peeling an onion one skin at a time.
+  - Level 3: One pass cannot extract structure, evidence, and your own words - each layer adds depth without pretending one read is enough.
+  - Level 4: Run the same source through skim, mark, and summarize passes before you claim you know it.
+  - Level 5: [[The Feynman Technique]] is the teach-it-back layer; [[Active Reading]] keeps highlights from dying in the margin.
   - Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
   - I do not read a book once and pretend I absorbed it - I pass through again when I need more.
 examples:

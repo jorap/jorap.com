@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Luke 5:29-32" emphasize="29" >}}
   
   - Levi threw a feast and Jesus reclined with tax collectors - Pharisees grumbled; He came to call sinners, not the self-righteous.
-  - Jesus ate with people others looked down on - He came for the messy ones, not for people who thought they were already good enough.
+  - Level 1: Jesus ate with people others looked down on - He came for the messy ones, not for those who thought they were already good.
+  - Level 2: Levi's feast put Jesus at a table with tax collectors while religious people grumbled from the doorway - presence at the meal was the point.
+  - Level 3: Table fellowship models ministry at a meal because eating with the wrong crowd showed who the Physician came to heal.
+  - Level 4: Invite one real meal with someone outside your polished circle before you call it fellowship.
+  - Level 5: [[Humility and Service]] washes feet; [[Love Your Neighbor]] loves the person in front - under [[Free Grace]], eating with sinners is not endorsing sin; it is the Physician with the sick.
   - Mark 2:15 shows the same pattern - eating with the wrong crowd was the point, not a photo op.
   - [[Humility and Service]] washes feet; [[Love Your Neighbor]] loves the person in front - table fellowship is ministry at a meal, not a stage.
   - Under [[Free Grace]], eating with sinners is not endorsing sin - it is the Physician with the sick.
@@ -56,5 +60,4 @@ cards:
     back: "Ministry - presence at the table."
 draft: false
 ---
-
 

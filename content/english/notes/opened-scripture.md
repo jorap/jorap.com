@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Luke 24:27" emphasize="27" >}}
   
   - On the Emmaus road He explained Moses and all the Prophets - not a citation dump, but opening what the text meant.
-  - On the road to Emmaus Jesus walked and explained what the Bible meant - not a list of verse numbers with no explanation.
+  - Level 1: On the road to Emmaus Jesus walked and explained what the Bible meant - like a teacher opening a story line by line, not just reading verse numbers with no explanation.
+  - Level 2: Opened scripture means Jesus explained Moses and the Prophets on the Emmaus road - meaning, not citation dump.
+  - Level 3: He opened what the text meant while walking - exposition tied to the listener, not proof-texting without context.
+  - Level 4: Teach scripture by opening meaning line by line - if you only drop references, you copied an index, not opened the word.
+  - Level 5: [[Layered Reading]] and [[Discipleship]] follow the same move - [[It Is Written]] cites authority; opened scripture explains so the heart can burn.
   - Later He opened their minds to understand the Scriptures - same move: make the Book legible, not impressive.
   - [[Great Commission]] passes truth on; [[Discipleship]] learns and does - this names how He taught from the text Himself.
   - Under [[Free Grace]], explaining Scripture is not earning favor - it is how the risen Teacher still makes Himself known.

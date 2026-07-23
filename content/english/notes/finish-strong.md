@@ -4,8 +4,11 @@ meta_title: "Finish Strong - Starting Proves Capability, Finishing Proves Discip
 description: "Launch day excitement does not count - success is whether the last commitment actually got done."
 key_concept: |
   - Finish strong judges success by whether the last commitment actually got done, not launch-day excitement.
-  - Finish strong means judging success by whether you did the last thing you promised - not by how excited you felt at the start.
-
+  - Level 1: Judge the race at the finish line, not the starting gun - did you do the last thing you promised?
+  - Level 2: Finish strong is like closing the last box on moving day - launch excitement fades, but the open commitment defines success.
+  - Level 3: Because energy peaks early, teams that measure launch confuse motion with completion and leave the last mile open.
+  - Level 4: List the last commitment still open and finish it before you start the next exciting thing - boring last miles make launches real.
+  - Level 5: Starting well proves you can begin; finishing well proves you can keep going when it is boring - close the last open commitment before chasing the next start.
   - Starting well proves you can begin; finishing well proves you can keep going when it is boring, hard, or no longer exciting.
   - A project, conversation, competition, or responsibility is not successful until the last commitment is done.
   - The last commitment closed is what makes the launch real.
@@ -65,5 +68,7 @@ cards:
     back: "Finishing well proves you can close what you open"
 draft: false
 ---
+
+
 
 

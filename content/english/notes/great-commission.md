@@ -4,9 +4,12 @@ meta_title: "Great Commission - Go and Make Disciples"
 description: "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."
 key_concept: |
   {{< bible ref="Matthew 28:19-20" emphasize="20" >}}
-  
   - Go, baptize, teach obedience - Christ's authority and presence to the end of the age, not recruitment zeal.
-  - Jesus told His followers to go everywhere, welcome new believers, and teach them to live His way - with His power helping them, not just to win arguments.
+  - Level 1: Jesus told followers to go everywhere, welcome new believers, and teach them His way - with His power helping, not just to win arguments.
+  - Level 2: Go, baptize, teach obedience - like sending trained workers into every town, not just collecting names on a list.
+  - Level 3: The commission is make disciples, not collect debates - baptism and teaching obedience follow going, or the mission stalls at arrival.
+  - Level 4: Go where people are, welcome believers, and teach them to obey - under Christ's authority, not recruitment zeal.
+  - Level 5: [[Discipleship]] is the long obedience; [[Invest in the Few]] matches depth before scale - not chasing crowds without teaching.
   - Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]].
   - PKM parallel: [[Creative Output]] - the gospel is not fully kept until it is passed on; inventory notes mean nothing if they never leave the garden.
   - Go, baptize, teach obedience - under Christ's authority, not recruitment zeal.

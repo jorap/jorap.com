@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 22:15-22" emphasize="21" >}}
   
   - Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state.
-  - Pay what you owe the government and give your full devotion to God - do not dodge taxes or treat the government like it is God.
+  - Level 1: Pay what you owe the government and give your full love to God - do not dodge taxes or treat government like God.
+  - Level 2: Pay what you owe the government and give your full devotion to God - do not dodge taxes or treat the government like it is God.
+  - Level 3: Lawful taxes to Caesar, worship reserved for God - coin bears his image, you bear God's.
+  - Level 4: Because the state and the kingdom differ, tax obedience is not idolatry and tax refusal is not piety.
+  - Level 5: Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state.
   - You bear God's image; give yourself to Him.
   - Jesus avoids both revolutionary tax refusal and idolizing Rome.
   - [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that does not excuse dodging legitimate civic responsibility.
@@ -50,5 +54,7 @@ cards:
     back: "Kingdom first does not excuse lawful duty."
 draft: false
 ---
+
+
 
 

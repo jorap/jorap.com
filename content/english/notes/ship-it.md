@@ -4,7 +4,11 @@ meta_title: "Ship It"
 description: "Ship the good-enough version live instead of polishing until the deadline owns the work."
 key_concept: |
   - Publish the good-enough version live instead of polishing until the deadline owns the work.
-  - Put the good-enough version out there instead of polishing forever until the deadline runs you over.
+  - Level 1: Put the good-enough version out there instead of polishing forever - like sending the draft before the deadline runs you over.
+  - Level 2: Put the good-enough version out there instead of polishing forever until the deadline runs you over.
+  - Level 3: Publish the workable draft - polish has diminishing returns once feedback could arrive.
+  - Level 4: Because perfect-in-private never meets reality, shipping tests the idea against users and clocks.
+  - Level 5: Publish the good-enough version live instead of polishing until the deadline owns the work - done beats hypothetical.
   - Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists.
   - Feedback on a live, flawed version teaches more in a week than another month of internal debate.
 examples:
@@ -57,4 +61,6 @@ cards:
     back: "Publish - feedback beats another draft month."
 draft: false
 ---
+
+
 

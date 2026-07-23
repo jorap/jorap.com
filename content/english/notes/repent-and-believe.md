@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Mark 1:14-15" emphasize="15" >}}
   
   - Kingdom's here now - turn from self-rule and trust the gospel today, not when habits look respectable.
-  - God's kingdom is here now - stop running your own life and trust the good news today, not after you have cleaned up every habit.
+  - Level 1: God's kingdom is here now - stop running your own life and trust the good news today, not after every habit is clean.
+  - Level 2: God's kingdom is here now - stop running your own life and trust the good news today, not after you have cleaned up every habit.
+  - Level 3: Turn from self-rule, trust the gospel now - respectable habits are fruit, not the door price.
+  - Level 4: Because the kingdom arrived in Christ, delay is another form of self-leadership - belief today, not when the streak looks good.
+  - Level 5: Kingdom's here now - turn from self-rule and trust the gospel today, not when habits look respectable; [[Free Grace]] keeps the order straight.
   - Repentance is a change of mind and direction - not a down payment on salvation.
   - Belief is reliance on Christ's promise, not mere intellectual agreement.
   - Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response.
@@ -54,5 +58,7 @@ cards:
     back: "Enter by faith today."
 draft: false
 ---
+
+
 
 

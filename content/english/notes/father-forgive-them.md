@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Luke 23:34" >}}
   
   - Nailed and mocked, Jesus prayed for the people driving the nails - Father, forgive them, for they do not know what they do.
-  - While nailed to the cross, Jesus asked God to forgive the people hurting Him - they did not know what they were doing.
+  - Level 1: While nailed up, Jesus asked God to forgive the people hurting Him - they did not know what they did.
+  - Level 2: At maximum injustice, Jesus prayed for enemies - like asking mercy for someone hurting you before you have won or escaped.
+  - Level 3: Because intercession came at the moment of greatest wrong, the prayer models mercy when condemnation would be easier.
+  - Level 4: Pray for someone who wronged you before you rehearse the case against them - intercession first, ledger second.
+  - Level 5: The prayer is intercession for enemies at maximum injustice - under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected.
   - The prayer is intercession for enemies at the moment of maximum injustice, not a delayed lecture after He won.
   - [[Moved with Compassion]] bent His calendar for hurting people; here mercy speaks when He had every right to condemn.
   - Under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected - His prayer bought space for [[Repent and Believe]] later.
@@ -59,3 +63,5 @@ cards:
     back: "Prayed forgiveness first."
 draft: false
 ---
+
+

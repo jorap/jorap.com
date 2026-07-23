@@ -4,7 +4,11 @@ meta_title: "Shadow the Work - Watch Real Use Before You Redesign"
 description: "Watch one person do the real job before redrawing the process or the slide."
 key_concept: |
   - Flowcharts lie politely - shadowing does not.
-  - A diagram on paper can look neat while hiding mess - watching someone do the job shows what really happens.
+  - Level 1: A diagram on paper can look neat while hiding mess - watching someone do the job shows what really happens.
+  - Level 2: Flowcharts lie politely - shadowing shows handoffs, workarounds, and wait time.
+  - Level 3: Because documented process is aspirational, observation captures the real system people run under pressure.
+  - Level 4: Before redesigning a workflow, sit with the person doing it for one full cycle.
+  - Level 5: Flowcharts lie politely - shadowing does not; [[Process Mapping]] starts on the floor, not the slide.
   - Shadow the work means sit with one nurse, one cashier, one new hire while they finish the task - then cut what actually slows them.
   - [[People-Centered Design]] is the principle; this is the move.
   - [[Listen Before Fixing]] hears the complaint; shadowing sees the friction they stopped mentioning because it is "just how it is."
@@ -58,5 +62,7 @@ cards:
     back: "Watch the work - flowcharts lie politely."
 draft: false
 ---
+
+
 
 

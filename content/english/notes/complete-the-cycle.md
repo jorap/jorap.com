@@ -4,7 +4,11 @@ meta_title: "Complete the Cycle - Work Isn't Done at the Main Action"
 description: "The meeting is not done until recap, owners, dates, and verification close the loop."
 key_concept: |
   - A decision without an owner and a date is still just talk - execution is where the loop actually starts.
-  - A yes means nothing without someone in charge and a due date - the real work starts when someone actually does it.
+  - Level 1: Like when Mom writes who walks the dog and when - a yes with no name and no day is still just talk.
+  - Level 2: The team agrees to fix the play but nobody writes it on the board - execution starts when owner and date exist.
+  - Level 3: Complete the cycle means recap, owners, dates, and verification after the handshake - saying yes is cheap, delivery is the work.
+  - Level 4: Write the one drill on the whiteboard before anyone leaves the gym - send recap with owners and dates before the parking lot clears.
+  - Level 5: Mistakes need correction, not ceremony - verification closes the loop; if nobody checks it landed, the cycle never really finished and the miss returns next week.
   - Saying yes is cheap; recap, owners, dates, and verification are the work after the handshake.
   - A yes without owners and dates is a promise with no delivery address.
   - Mistakes need correction, not ceremony - fix the process or the miss comes back next week.

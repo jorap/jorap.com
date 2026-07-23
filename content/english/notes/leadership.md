@@ -4,7 +4,11 @@ meta_title: "Leadership - Setting Direction and Pace for Others"
 description: "Leadership is owning direction, pace, and care when people look to you - title optional."
 key_concept: |
   - Care means the people counting on you still feel seen when the pressure spikes.
-  - Good leaders make sure the people who depend on them still feel noticed when things get stressful.
+  - Level 1: Good leaders make sure the people who depend on them still feel noticed when things get stressful.
+  - Level 2: Leadership shows up when your team still feels noticed after deadline pressure hits - like a captain who checks the crew when the storm rises.
+  - Level 3: When pressure spikes and people feel invisible, trust erodes - leadership is keeping them seen under load, because unseen people stop giving their best.
+  - Level 4: Under pressure, keep the people who depend on you feeling seen - not just the deliverable on track.
+  - Level 5: [[Servant Leadership]] bends toward service; [[Duty of Care]] names the protection they should feel when roles flip.
   - When people look to you, they need someone to set direction - not just a name on the org chart.
   - Pace matters as much as direction - calm urgency beats either panic or drift.
 examples:

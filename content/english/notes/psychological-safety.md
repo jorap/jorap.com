@@ -4,7 +4,11 @@ meta_title: "Psychological Safety"
 description: "People can name mistakes and near-misses without fear of humiliation or retaliation."
 key_concept: |
   - Join their framing before you redirect the blame.
-  - First listen to how they see what happened, then gently help them see what to fix - do not jump straight to who is at fault.
+  - Level 1: Listen to how they see what happened before you talk about blame - like hearing their side before you pick a fix.
+  - Level 2: First listen to how they see what happened, then gently help them see what to fix - do not jump straight to who is at fault.
+  - Level 3: Join their framing before you redirect - blame last, learning first.
+  - Level 4: Because shame shuts down honest data, alignment on story precedes correction - they must feel heard before the fix lands.
+  - Level 5: Join their framing before you redirect the blame - safety is not soft standards; it is sequence that keeps truth on the table.
   - Near-miss reports need gratitude, not punishment.
   - Thank the person for speaking up - silence teaches the next person to hide the miss.
 examples:
@@ -60,4 +64,6 @@ cards:
     back: "Name mistakes without retaliation."
 draft: false
 ---
+
+
 

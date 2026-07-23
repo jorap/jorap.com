@@ -4,7 +4,11 @@ meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
 description: "Weekly review works when the same short checklist runs every Sunday on purpose."
 key_concept: |
   - The checklist should be boring on purpose.
-  - A good weekly checklist uses the same simple steps every time on purpose - no fancy changes that make you skip it.
+  - Level 1: A good weekly checklist uses the same simple steps every time on purpose - no fancy changes that make you skip it.
+  - Level 2: The checklist should be boring on purpose - same steps every week beat a template you abandon on travel weeks.
+  - Level 3: Repeatable short lists win because fancy formats raise friction when energy is low.
+  - Level 4: Same steps every week: empty inbox, scan calendar, check projects, pick one express action - even on travel weeks.
+  - Level 5: Skip the fancy template - repeat the same short list even on travel weeks; boring is the feature - same lane as [[Review]] and [[Quarterly Planning]] rhythm.
   - Same steps every week: empty inbox, scan calendar, check projects, pick one express action.
   - Skip the fancy template - repeat the same short list even on travel weeks.
 examples:

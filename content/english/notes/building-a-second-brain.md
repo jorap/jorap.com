@@ -4,7 +4,11 @@ meta_title: "Building a Second Brain - Capture, Organize, Distill, Express"
 description: "The head is for thinking, not storing - notes hold what would otherwise get lost."
 key_concept: |
   - Offload ideas so my head can think, not hoard.
-  - Write ideas down outside your head so you can think about them instead of trying to remember everything at once.
+  - Level 1: Like when you write a grocery list so your head can think about dinner - ideas live outside your skull.
+  - Level 2: A coach keeps plays on paper so players remember routes, not every call - the head thinks, notes store.
+  - Level 3: Building a second brain offloads ideas so thinking continues - remember CODE: capture, organize, distill, express.
+  - Level 4: Voice-memo the play idea before gym noise eats it - one trusted inbox, no sorting yet, process it when the spark is safe.
+  - Level 5: [[The Second Brain Workflow]] runs CODE and PARA as one loop - the system fails when any step is just for show; review quarterly whether each step still earns its place.
   - Remember CODE: [[Capture]], organize, distill, express.
   - [[The Second Brain Workflow]] is how CODE and PARA run as one daily-to-weekly loop.
   - The system fails when any step is just for show.

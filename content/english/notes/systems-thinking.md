@@ -4,7 +4,11 @@ meta_title: "Systems Thinking - Fix the Loop, Not Only the Symptom"
 description: "Trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch."
 key_concept: |
   - Systems thinking traces inputs, delays, and feedback behind the symptom.
-  - Look past the visible problem and ask what feeds it, what slows it down, and what keeps it coming back.
+  - Level 1: Look past the visible problem - ask what feeds it, what slows it, and what keeps it coming back.
+  - Level 2: Symptoms flare in the open; systems thinking traces inputs, delays, and feedback loops behind the fire.
+  - Level 3: Patching tonight's symptom fails when the same fire returns next week - the loop that produces the fire is the real target.
+  - Level 4: Before the next fix, map one input and one feedback path that could be restarting the problem.
+  - Level 5: Delays hide cause from effect - trace feedback before you celebrate a quiet week; same lens as [[Normalization of Deviance]] when the loop still runs.
   - Change the process that keeps producing the fire - do not only patch tonight's symptom.
   - The same fire coming back next week is the tell you patched the symptom and left the loop untouched.
 examples:

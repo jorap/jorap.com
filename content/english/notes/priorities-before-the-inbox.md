@@ -4,7 +4,11 @@ meta_title: "Priorities Before the Inbox - Real Work First"
 description: "Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning."
 key_concept: |
   - Put the real priority first - one protected block before the inbox rewrites the morning.
-  - Do your most important task in a protected block of time before you open email and let other people's requests take over your morning.
+  - Level 1: Do your most important task before you open email - like eating breakfast before the phone starts buzzing.
+  - Level 2: Do your most important task in a protected block of time before you open email and let other people's requests take over your morning.
+  - Level 3: One locked block for the real priority - inbox and pings wait until the aim gets its first honest minutes.
+  - Level 4: Because reactive mornings rewrite the day, sequence matters - my work before their urgency, not vice versa.
+  - Level 5: Put the real priority first - one protected block before the inbox rewrites the morning; the test is what actually gets my first ten minutes.
   - The inbox is other people's priorities wearing a siren.
   - One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings.
   - Gospel source: [[Seek the Kingdom First]].
@@ -58,5 +62,7 @@ cards:
     back: "Book the slot before I scroll drama."
 draft: false
 ---
+
+
 
 

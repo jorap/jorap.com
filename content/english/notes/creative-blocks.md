@@ -4,7 +4,11 @@ meta_title: "Creative Blocks - When the Notes Don't Become Output"
 description: "Thousands of notes and the page stays blank - one small ship action usually unsticks the work."
 key_concept: |
   - Creative blocks are not solved by more capture - ship one small action instead.
-  - When you are stuck, collecting more ideas will not help - write one small messy piece and start from there.
+  - Level 1: Like when the page stays blank - collecting more ideas will not help until you write one messy sentence.
+  - Level 2: A kid tells you to log one ugly warmup line before the perfect play arrives - creative blocks are not solved by more capture.
+  - Level 3: Thousands of notes and a blank page means output fixes the block - once something ugly exists, editing is easier than starting.
+  - Level 4: Write one ugly paragraph about yesterday's customer call - tell your kid to log one messy warmup line before the block lifts.
+  - Level 5: Pairs with [[Creative Output]] - inventory only pays off the day it becomes something someone else can read; capture without ship keeps the page blank.
   - Once something ugly exists on the page, editing is a different, easier problem than starting.
   - Thousands of notes and a blank page means output fixes, not another capture pass.
 examples:

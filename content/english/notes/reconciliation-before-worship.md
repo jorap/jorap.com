@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 5:21-24" emphasize="24" >}}
   
   - Fix the breach with your brother before the offering - worship with an unreconciled heart is hollow.
-  - If you and someone else are fighting, make peace with them before you worship - praying while the hurt is still open is empty.
+  - Level 1: If you are fighting with someone, make peace before you worship - praying while the hurt is still open is empty.
+  - Level 2: If you and someone else are fighting, make peace with them before you worship - praying while the hurt is still open is empty.
+  - Level 3: Leave the gift, go reconcile, then return - worship with an unreconciled heart is hollow.
+  - Level 4: Because offering and anger cannot share one altar, breach repair precedes praise - mercy received demands mercy extended.
+  - Level 5: Fix the breach with your brother before the offering - worship with an unreconciled heart is hollow; [[Peacemakers]] names the active move.
   - Worship with an unreconciled heart is hollow.
   - The initiative is on the one who knows there is a breach - leave the altar, go, be reconciled, then return.
   - This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]).
@@ -63,5 +67,7 @@ cards:
     back: "Closeness restored - not re-earning heaven."
 draft: false
 ---
+
+
 
 

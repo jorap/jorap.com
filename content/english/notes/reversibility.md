@@ -4,7 +4,11 @@ meta_title: "Reversibility"
 description: "Prefer choices you can undo - irreversible harm needs a higher bar."
 key_concept: |
   - Concrete undo path when the choice is a deploy or release.
-  - Before you push a big change live, know exactly how you would undo it if something breaks - like keeping a spare key before you lock the door.
+  - Level 1: Before you push a big change live, know how you would undo it - like keeping a spare key before you lock the door.
+  - Level 2: Before you push a big change live, know exactly how you would undo it if something breaks - like keeping a spare key before you lock the door.
+  - Level 3: Concrete undo path before deploy - rollback is design, not panic invention.
+  - Level 4: Because irreversible choices compound regret, ship only when the path back is spelled out and tested.
+  - Level 5: Concrete undo path when the choice is a deploy or release - if you cannot explain the path back, you are not ready to ship.
   - Staged Rollout names small blast radius makes undo cheap.
 examples:
   - "I took the longer route with an exit every mile before trying the new shortcut through construction."
@@ -50,4 +54,6 @@ cards:
     back: "Not the zero guard first."
 draft: false
 ---
+
+
 

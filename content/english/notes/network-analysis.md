@@ -4,7 +4,11 @@ meta_title: "Network Analysis"
 description: "Look at which notes connect everything else - those hubs show where the garden actually lives."
 key_concept: |
   - Study links and hubs in a graph - who connects whom, what's isolated.
-  - Look at which notes link to many others and which sit alone with no connections.
+  - Level 1: Look at which notes link to many others and which sit alone - like seeing which kids know everyone at recess and which stand by the fence.
+  - Level 2: Network analysis reads the graph for hubs, bridges, and orphans - who connects whom, what sits isolated.
+  - Level 3: Bridges and orphans matter more than node count - traffic carriers and stranded notes tell you where to maintain.
+  - Level 4: Open the graph view, list the top three hubs and three orphans - fix orphans before you add more nodes.
+  - Level 5: [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics - analysis finds maintenance targets, not vanity counts.
   - Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded.
   - [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
   - Those hubs tell me where the garden actually lives.

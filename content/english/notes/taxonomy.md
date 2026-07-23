@@ -4,7 +4,11 @@ meta_title: "Taxonomy"
 description: "Tags, folders, and types help find notes later - classification in service of retrieval."
 key_concept: |
   - Five tags you actually filter by beat thirty you never click.
-  - A few labels you really use to find things beat a long list of tags you never search for.
+  - Level 1: A few labels you really use to find things beat a long list of tags you never search for.
+  - Level 2: Five tags you actually filter by beat thirty you never click - classification serves retrieval, not tidy folders.
+  - Level 3: Taxonomy works when the short list matches how you search under pressure, not how you imagine organizing someday.
+  - Level 4: Cut tags until five remain that you would actually click this month - retire the rest.
+  - Level 5: [[Metadata Strategy]] plans tags; taxonomy is the short list you would actually use - classification serves retrieval, not tidy folders for their own sake.
   - [[Metadata Strategy]] plans tags; taxonomy is the short list you would actually use.
   - Classification serves retrieval - not tidy folders for their own sake.
 examples:
@@ -45,5 +49,4 @@ cards:
     back: "Sort taxes, warranty, trash now."
 draft: false
 ---
-
 

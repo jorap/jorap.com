@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Mark 1:35" >}}
   
   - Crowds wanted more; He rose before dawn and prayed in a solitary place - withdrawal refueled the next push, not escape from duty.
-  - When crowds wanted more from Jesus, He woke early to pray alone - stepping away filled Him up for the work ahead, not to dodge it.
+  - Level 1: When crowds wanted more from Jesus, He woke early to pray alone - stepping away filled Him for the work ahead.
+  - Level 2: Crowds wanted more; He rose before dawn and prayed in a solitary place - withdrawal refueled the next push.
+  - Level 3: Demand stacked up in Luke 5:16 too - slipping to lonely places kept obedience fueled when everyone wanted access.
+  - Level 4: Before the next push into demand, book solitary prayer - withdrawal refuels duty, it is not escape from it.
+  - Level 5: [[Ask Seek Knock]] names the rhythm He taught; [[Secret Devotion]] names the hidden audience - stepping away filled Him for the work, not to dodge it.
   - Same pattern in Luke 5:16 - He often slipped to lonely places to pray when demand stacked up.
   - [[Ask Seek Knock]] names the rhythm He taught; [[Secret Devotion]] names the hidden audience; this names the move before the inbox wins.
   - Under [[Free Grace]], slipping away is not earning favor - it is how a grateful follower copies the Teacher's dependence.
@@ -59,5 +63,4 @@ cards:
     back: "Pray first - then serve the day."
 draft: false
 ---
-
 

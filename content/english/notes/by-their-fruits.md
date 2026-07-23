@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 7:15-20" emphasize="20" >}}
   
   - Wolves wear sheep's clothing - time and results tell, not the polished talk.
-  - Smooth talk can hide bad motives - watch what someone actually does over time, not just how nice they sound.
+  - Level 1: Like when a tree with thorns never grows sweet grapes - watch what grows, not how pretty the leaves look.
+  - Level 2: A smooth-talking coach makes big promises day one - by month three the team looks tired and bitter, and that tells you more.
+  - Level 3: By their fruits you discern teachers - evaluate outcome and motive over time, not hype; do not condemn souls, but do check fruit.
+  - Level 4: Watch whether followers look stressed and bitter by month three - fruit told you more than any clinic title on day one.
+  - Level 5: Jesus pairs this with [[Judge Not]] - garden parallel: [[Signal vs Noise]], what produces good over time; the [Issues](/notes/issues/) audit asks whether teaching leaves the graph healthier or broken.
   - do not condemn souls, but do evaluate fruit - grapes from vines, not hype.
   - Jesus pairs this with [[Judge Not]]: do not condemn souls, but do evaluate fruit.
   - Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?

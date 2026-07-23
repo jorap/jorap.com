@@ -4,7 +4,11 @@ meta_title: "Digital Garden - A Wiki You Can Walk Through"
 description: "My garden is where notes grow in public - linked, imperfect, alive on Hugo and Git."
 key_concept: |
   - My digital garden is a personal site where notes grow in public.
-  - It is my own website where I post notes while I am still learning, like planting seeds in a garden other people can watch grow.
+  - Level 1: I post half-finished notes on my site so friends can watch them grow, like seeds in a window box.
+  - Level 2: A digital garden is like a backyard plot posted online - plants still growing, not a polished store display.
+  - Level 3: Because notes stay linked and visible, neighbors and feedback shape ideas faster than a private folder ever would.
+  - Level 4: Post the rough note, link two neighbors, and revise in public - waiting until it feels finished slows the whole garden.
+  - Level 5: Public, linked, imperfect notes beat a private hoard - [[Evergreen Notes]] can still mature in public without pretending the first draft was final.
   - Public, linked, imperfect notes beat a private hoard.
   - Update in public instead of hoarding drafts until they feel ready.
 examples:
@@ -58,4 +62,6 @@ cards:
     back: "Ship linked and imperfect."
 draft: false
 ---
+
+
 

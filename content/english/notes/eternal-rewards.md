@@ -6,18 +6,13 @@ key_concept: |
   {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
   
   - Father who sees in secret repays - hidden devotion counted, not applause theater.
-  - God sees what you do in secret and will pay you back for it - quiet faithfulness counts, not just what gets applause.
-  
-  {{< bible ref="Matthew 6:16-18" emphasize="18" >}}
-  
+  - Level 1: God sees secret work and will pay you back, like a teacher grading homework nobody else saw.
+  - Level 2: Eternal rewards are like payroll for work done off-camera - the Father who sees in secret repays hidden devotion, not applause theater.
+  - Level 3: Because salvation is gift first, rewards address faithful use of what He entrusted - not the price of eternal life.
+  - Level 4: Serve in secret today without performing for the room - the Father who sees in secret counts it even when the crowd never claps.
+  - Level 5: [[Free Grace]] settles where I spend forever; eternal rewards settle what the Father pays the saved life for walking faithfully including [[Secret Devotion]].
   - Secret fasting gets the same promise - Father who sees in secret rewards, not the crowd's applause.
-  
-  {{< bible ref="Matthew 16:24-27" emphasize="27" >}}
-  
   - Son of Man repays deeds at His return - reward review for the saved life, not the price of eternal life.
-  
-  {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
-  
   - Well done for faithful use - gift first, repayment for faithfulness second, not the price of eternal life.
   - [[Free Grace]] settles where I spend forever: faith in Christ alone.
   - Eternal rewards settle what the Father pays the saved life for walking faithfully including hidden devotion ([[Secret Devotion]]) and open obedience ([[Let Your Light Shine]]).
@@ -89,6 +84,8 @@ cards:
     back: "Faithful acts compound - Father repays."
 draft: false
 ---
+
+
 
 
 

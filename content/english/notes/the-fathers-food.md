@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="John 4:34" emphasize="34" >}}
   
   - Disciples worried about lunch; He said My food is to do the will of Him who sent Me - obedience fed Him more than bread.
-  - His friends worried about lunch; Jesus said doing what God sent Him to do filled Him more than eating bread.
+  - Level 1: His friends worried about lunch; Jesus said doing what God sent Him to do filled Him more than eating bread.
+  - Level 2: Obedience to the Sender fed Jesus more than a missed meal - My food is to do the will of Him who sent Me.
+  - Level 3: John repeats the pattern - nothing on His own initiative, only what pleases the Father - will over appetite.
+  - Level 4: When duty and comfort collide, ask what the Sender's will is before you treat hunger as the loudest signal.
+  - Level 5: [[Grateful Obedience]] obeys from thanks; [[Take Up Your Cross]] denies self daily - this names what filled Him when bread did not.
   - John 5:19 and 8:28 repeat the pattern - nothing on His own initiative, only what pleases the Father.
   - [[Grateful Obedience]] obeys from thanks; [[Take Up Your Cross]] denies self daily - this names what actually sustained Him mid-journey.
   - Under [[Free Grace]], the Father's will is not a wage for eternal life - it is the meal that nourishes a life already His.
@@ -59,5 +63,4 @@ cards:
     back: "Father's food - will before cravings."
 draft: false
 ---
-
 

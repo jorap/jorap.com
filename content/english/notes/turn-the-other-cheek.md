@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 5:38-42" emphasize="39" >}}
   
   - The point is not passivity toward all evil - it is refusing to become what hurt you.
-  - Turning the other cheek does not mean letting evil win - it means you refuse to copy the cruelty that hit you.
+  - Level 1: Turning the other cheek does not mean letting evil win - it means you refuse to copy the cruelty that hit you.
+  - Level 2: The point is not passivity toward all evil - it is breaking the cycle instead of becoming what hurt you.
+  - Level 3: Refusing to escalate works like [[Sunk Cost Fallacy]] on anger - stop throwing more rage after sunk hurt.
+  - Level 4: When struck, choose not to return the same cruelty - break the cycle without pretending evil is good.
+  - Level 5: Goes further than [[The Golden Rule]] and pairs with [[Love Your Enemies]] - refuse to become what hurt you, not passive surrender to all evil.
   - Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt.
   - Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture).
   - [[Free Grace]] frees me to absorb cost without keeping score for heaven.
@@ -56,5 +60,4 @@ cards:
     back: "Grace freed me - do not score back."
 draft: false
 ---
-
 

@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 7:7" label="Matthew 7:7-11" emphasize="7" >}}
   
   - Keep asking, seeking, knocking - God gives like a parent who gives bread, not a stone.
-  - Keep asking with patience - God answers like a good parent who gives food, not something useless.
+  - Level 1: Like when you knock on a door and keep knocking - a good parent opens with bread, not a rock.
+  - Level 2: A kid asks for lunch, keeps asking, keeps showing up - Jesus says God answers like that parent, not like someone handing stones.
+  - Level 3: Ask, seek, knock means persistent prayer on schedule - dependence before daily needs crowd out kingdom priorities, not one desperate burst.
+  - Level 4: Pray on the same rhythm you review your week - ask before you thumb-refresh the news feed about tomorrow's meeting.
+  - Level 5: Under [[Free Grace]], prayer is a dependent child who already belongs to the household, not bargaining for merit - same rhythm as [[Periodic Knowledge Review]], keep showing up not only in crisis.
   - Jesus compares God to a parent who gives bread, not a stone.
   
   {{< bible ref="Matthew 6:9-13" emphasize="10" >}}

@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
   
   - Daily self-denial and follow - choosing God's will over mine, not collecting suffering points.
-  - Each day you choose to follow Jesus even when it costs you something - not to show off how much you can suffer.
+  - Level 1: Each day you choose to follow Jesus even when it costs you - not to show off how much you can suffer.
+  - Level 2: Daily self-denial means choosing God's will over self-will - the cross is follow-through, not suffering theater.
+  - Level 3: Cross-bearing follows faith in order - eternal life is received, not earned by pain - but daily surrender still costs something real.
+  - Level 4: Name one self-will move you will deny today in favor of obedience - not for applause, for follow-through.
+  - Level 5: [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but the cross is still choosing God's will over self-will each day.
   - The cross is not suffering for suffering's sake; it is choosing God's will over self-will each day.
   - [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real.
   - Same road as [[The Narrow Way]], lived one day at a time.
@@ -69,5 +73,4 @@ cards:
     back: "Do what he said - act today."
 draft: false
 ---
-
 

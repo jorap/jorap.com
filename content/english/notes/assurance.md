@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="John 6:35-40" emphasize="37" >}}
   
   - Believe and you have eternal life - rest on that promise when the week was ugly, not on your scorecard.
-  - Trust the promise even after a bad week - your peace does not come from how well you performed.
+  - Level 1: Like when Mom says you are still hers after a bad report card - your place does not depend on the grade.
+  - Level 2: A kid trusts Dad's promise on the ride home even after a fight at school - rest on the word, not the week's score.
+  - Level 3: Assurance is where you rest when the week was ugly - bad weeks and hidden sin do not re-open the case [[Justification]] closed.
+  - Level 4: When dread hits on Monday, return to the promise you believed at faith - rest on Christ's word, not this week's performance tally.
+  - Level 5: [[Free Grace]] names the gift; [[Loss of Reward]] keeps reward-loss separate from belonging; [[Standing vs Fellowship]] keeps closeness breaks distinct from standing that stays.
   - [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.
   - Bad weeks, hidden sin, dread at the [[Judgment Seat]] - none of those re-open the case [[Justification]] closed.
   - [[Loss of Reward]] keeps reward-loss separate: I can stumble, lose reward, and still belong to Christ.

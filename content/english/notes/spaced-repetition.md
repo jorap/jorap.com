@@ -4,7 +4,11 @@ meta_title: "Spaced Repetition - Remember What You Chose"
 description: "Review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up."
 key_concept: |
   - Review on a schedule before I forget - for **retention**, **application**, and **explanation**, not vanity metrics or fact pile-up.
-  - Go back to what you learned on a timer before it slips away - so you remember it, use it, and can explain it, not just stack up trivia.
+  - Level 1: Go back to what you learned before you forget it - so you remember, use, and explain it.
+  - Level 2: Scheduled review beats cramming because memory fades on a curve - revisit before panic, not after.
+  - Level 3: Spaced repetition works when review targets retention, application, and explanation - not bookmark counts or vanity metrics.
+  - Level 4: Set a review schedule for spine notes you actually use - drill what you need to explain, not every line you saved.
+  - Level 5: The wiki holds prose you can defend; spaced cards hold what you need on a timer - same drill lane as [[Flashcards]] and [[Ask Seek Knock]] on rhythm.
   - The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing.
   - In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true`
   - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`.
@@ -55,5 +59,4 @@ cards:
     back: "Review on schedule before I forget - not one marathon later."
 draft: false
 ---
-
 

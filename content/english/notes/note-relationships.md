@@ -4,7 +4,11 @@ meta_title: "Note Relationships - Four Link Types for the Garden"
 description: "My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word."
 key_concept: |
   - Four pair types in `relationships` frontmatter show how ideas push and pull - not just that two notes mention each other.
-  - Four link types show how ideas build on, fight, carry out, or swap with each other - not just that two notes mention the same word.
+  - Level 1: Four link types show how ideas build on, fight, carry out, or swap with each other - like signs on roads that say merge, stop, detour, or share lane, not just that two streets cross.
+  - Level 2: Note relationships use four pair types in frontmatter - extends, contradicts, alternative, implements - to show push and pull.
+  - Level 3: Relationships frontmatter names how ideas relate - not co-mention, but whether one builds on, fights, or swaps with another.
+  - Level 4: When you link two notes, pick one relationship type - that edge beats ten tags that only say both notes exist.
+  - Level 5: [[Linking by Meaning]] supplies the edges; typed relationships keep the garden honest when [[Atomic Notes]] bump without folder proximity.
   - Extends asks what this idea builds on; contradicts names the tradeoff it pushes against.
   - Implements names what makes the idea real; alternative names another path that does the job.
 examples:

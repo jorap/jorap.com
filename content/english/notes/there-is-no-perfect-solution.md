@@ -4,7 +4,11 @@ meta_title: "There Is No Perfect Solution - Only Tradeoffs"
 description: "There's no perfect solution - pick what works tired and ship instead of waiting for the ideal."
 key_concept: |
   - Waiting for the ideal option is itself a choice - usually the choice to stay stuck with the status quo.
-  - Waiting forever for the perfect choice is still a choice - and it usually means you keep the messy situation you already have.
+  - Level 1: Waiting forever for the perfect choice is still a choice - and it usually means you keep the messy situation you have.
+  - Level 2: Waiting for the ideal option is itself a decision - most often it keeps the status quo in place.
+  - Level 3: Perfect solutions are imaginary comparators - real options all carry tradeoffs the wait avoids naming.
+  - Level 4: Compare real choices against each other, not against a fantasy option that does not exist.
+  - Level 5: Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one; [[Reversibility]] asks which mistake you can undo.
   - Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one.
 examples:
   - "I spent a week comparing strollers instead of walking with the baby we already had - picked the lighter one, went out tired that afternoon."

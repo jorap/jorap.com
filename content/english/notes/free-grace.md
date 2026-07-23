@@ -6,19 +6,14 @@ key_concept: |
   {{< bible ref="John 5:24-29" emphasize="24" >}}
   
   - Hear Christ's word and believe - you have crossed from death to life; judgment is not hanging over your head.
-  - Hear Jesus and believe - you have moved from death to life, and judgment is not hanging over your head anymore.
+  - Level 1: Hear Jesus and believe - you walked out free because the fine was paid, like someone else covered the bill.
+  - Level 2: Free grace is like a ticket already bought - belief crosses from death to life now, not after you perform enough to deserve the seat.
+  - Level 3: Because salvation is gift not wages, good works follow grace - they do not purchase the ticket or replace assurance with a scorecard.
+  - Level 4: Rest on the promise today when the week was ugly - assurance is not a scorecard; works belong to the walk after, not the price of entry.
+  - Level 5: Good works follow the gift - [[Sanctification]] and [[Discipleship]] belong to the walk after [[Justification]]; [[Assurance]] rests on the promise, not anxiety about earning care.
   - Grace is a gift never earned - Christ paid what could not be paid.
-  
-  {{< bible ref="Ephesians 2:8-9" emphasize="9" >}}
-  
   - Paul says the same gift out loud - saved by grace through faith, not your works, so nobody brags their way in.
-  
-  {{< bible ref="Romans 4:4-5" emphasize="5" >}}
-  
   - Faith credited as righteousness - trust, not a merit report card, is what God counts.
-  
-  {{< bible ref="Ephesians 2:10" emphasize="10" >}}
-  
   - Good works come after the gift - created in Christ for them, not to buy the ticket.
   - [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after.
 examples:
@@ -107,6 +102,8 @@ cards:
     back: "Gift through faith - not volunteer hours."
 draft: false
 ---
+
+
 
 
 

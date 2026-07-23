@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Luke 6:39-40" emphasize="40" >}}
   
   - Fully trained, like the teacher - the aim is not my old default self on display, it is looking more like Jesus over years.
-  - The goal is to grow more like Jesus over years - not to keep showing your old selfish habits as normal.
+  - Level 1: Like when you copy how your teacher writes the letter A - the goal is to look more like Jesus over years.
+  - Level 2: A student athlete mirrors the coach's footwork drill after drill - less old selfish habits on display, more of the pattern shown.
+  - Level 3: Christlikeness settles who you are becoming - more patience in traffic, less default self on display; standing was settled at faith.
+  - Level 4: Apologize slower than you used to snap - growth after faith, not the entry fee; ordinary Tuesdays matter more than one emotional Sunday.
+  - Level 5: [[Sanctification]] is the slow process; [[Abide in Me]] is the engine; [[Fruits of the Spirit]] is what people notice - you do not manufacture Christlikeness to earn [[Justification]] already settled.
   - [[Free Grace]] settles where I spend forever.
   - Christlikeness settles who I am becoming - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.
   - [[Sanctification]] is the slow process, [[Discipleship]] is the daily walk, [[Abide in Me]] is the engine, [[Fruits of the Spirit]] is what people notice when the walk is real.

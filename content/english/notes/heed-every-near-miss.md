@@ -4,7 +4,11 @@ meta_title: "Heed Every Near-Miss - Survival Does Not Prove Safety"
 description: "A close call means the system nearly failed, not that we got proof the activity was safe because nobody died."
 key_concept: |
   - When nobody gets injured, organizations often relax.
-  - A close call means something almost went wrong - treat it like a warning, not proof that everything is safe.
+  - Level 1: A close call means something almost went wrong - treat it like a warning, not proof everything is safe.
+  - Level 2: When nobody gets injured, organizations often relax - near misses are signals, like smoke before a fire, not lucky free passes.
+  - Level 3: Ignoring near misses trains the system to wait for blood before it changes - the hazard was already present when luck blocked injury.
+  - Level 4: Log every near miss and act before injury proves you should have listened.
+  - Level 5: [[Incident Investigation]] stays blameless; [[Hierarchy of Controls]] asks what hazard to eliminate after the near miss, not who to blame.
   - The opposite read is usually right: the system failed, and luck blocked the worst outcome.
   - A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
   - Luck covering a near-miss is not proof the system works.

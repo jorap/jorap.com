@@ -5,9 +5,12 @@ description: "Faith alone saves; works show faith is alive, they do not buy heav
 key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
   
-  
   - Hear Jesus and do - rock stands in the storm; hearing alone is sand.
-  - Hear Jesus and do what He says - that is like building on rock; hearing without doing is sand that washes away.
+  - Level 1: Hear Jesus and do what He says - rock in a storm; hear only and you wash away like sand.
+  - Level 2: Faith and works together are like blueprints plus bricks - hearing Jesus without doing is a drawing that collapses when weather turns.
+  - Level 3: Because storms expose foundations, obedience under pressure proves whether hearing became trust or stayed theater.
+  - Level 4: Pick one command you heard this week and do it before you add another study note - hearing alone is sand.
+  - Level 5: Rock and sand split on doing, not hearing alone - [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven.
   - Paul answers how you are saved: trust Christ, not wages.
   - James answers what living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it.
   - [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven.
@@ -75,5 +78,7 @@ cards:
     back: "Faith saves - obedience responds."
 draft: false
 ---
+
+
 
 

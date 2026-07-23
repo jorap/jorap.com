@@ -4,7 +4,11 @@ meta_title: "Rollback Principle - Undo Before You Push, Revert Before You Debug"
 description: "Restore the last good state before you push - when the new state breaks, revert first, debug second."
 key_concept: |
   - If I cannot explain the path back in one sentence, I am not ready to ship.
-  - If you cannot say in one sentence how you would undo a change, you are not ready to release it yet.
+  - Level 1: If you cannot say in one sentence how to undo a change, you are not ready to release it yet.
+  - Level 2: If you cannot say in one sentence how you would undo a change, you are not ready to release it yet.
+  - Level 3: One-sentence path back - gate before ship, not postmortem invention.
+  - Level 4: Because production surprises are guaranteed, rollback clarity is readiness, not pessimism.
+  - Level 5: If I cannot explain the path back in one sentence, I am not ready to ship - pairs with [[Reversibility]] and [[Safety by Design]].
   - [[Reversibility]] is the decision frame; rollback is the rehearsed move.
   - Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation.
   - The team needed "my call, here's the fix," not a speech.
@@ -77,5 +81,7 @@ cards:
     back: "Run the drill we already walked."
 draft: false
 ---
+
+
 
 

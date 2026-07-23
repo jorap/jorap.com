@@ -5,7 +5,11 @@ description: "Wait without turning brittle - the Spirit grows a slow fuse, not a
 key_concept: |
   {{< bible "Galatians 5:22-23" >}}
   - The Spirit does not shortcut the wait - it changes what waiting does to you, so the delay does not calcify into resentment.
-  - The Spirit does not make waiting disappear - it keeps waiting from turning you bitter and angry.
+  - Level 1: The Spirit does not make waiting disappear - it keeps waiting from turning you bitter, like rain on a seed that takes weeks to sprout instead of rotting in the mud.
+  - Level 2: Patience fruit means the Spirit changes what delay does to you - the wait stays, resentment does not calcify.
+  - Level 3: Galatians lists patience beside gentleness and self-control - endurance under providence because you are connected to the vine, not performing virtue.
+  - Level 4: One breath before reaction buys the Spirit room - [[Slow the Moment]] is the garden echo of the same beat.
+  - Level 5: [[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming - [[Fruits of the Spirit]] grows patience over years, not one willpower sprint until Friday.
   - [[Fruits of the Spirit]] names patience in the same cluster as gentleness and self-control.
   - Endurance under delay and providence because you are connected to the vine, not performing virtue.
   - [[Slow the Moment]] is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge.

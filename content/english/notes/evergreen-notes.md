@@ -4,7 +4,11 @@ meta_title: "Evergreen Notes - Ideas That Stay Fresh"
 description: "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes."
 key_concept: |
   - Phrase ideas worth standing behind in two years, then revise when reality shifts.
-  - Write ideas you would still stand behind two years from now, and change them when life proves you wrong.
+  - Level 1: Write something you would still say two years from now, then change it when life proves you wrong.
+  - Level 2: Evergreen notes are like tools you maintain - phrase claims worth standing behind in two years, revise when reality shifts.
+  - Level 3: Because ideas decay when context changes, revision is part of evergreen work - not a failure of the first draft.
+  - Level 4: Before you publish, ask whether you would defend this claim in two years; if not, keep it fleeting until it earns permanence.
+  - Level 5: Phrase ideas worth standing behind in two years, then revise when reality shifts - promote from fleeting during [[Periodic Knowledge Review]] when a spark keeps returning.
   - Complete sentences you would still sign - not trend-chasing rewrites every quarter.
   - Promote from fleeting during [[Periodic Knowledge Review]] when a spark keeps returning.
 examples:
@@ -56,5 +60,7 @@ cards:
     back: "Distill - need one clear claim."
 draft: false
 ---
+
+
 
 

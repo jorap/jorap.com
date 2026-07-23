@@ -4,7 +4,11 @@ meta_title: "Attention to Detail - Small Misses Become Big Failures"
 description: "Catch the typo and the edge case before they become an incident or a dumb customer email."
 key_concept: |
   - Attention to detail catches the typo, edge case, and loose end before they become incidents.
-  - Small checks catch typos and loose ends before they turn into big problems - like proofreading homework before you turn it in.
+  - Level 1: Like when you check your shoelaces before running - one loose tie trips you later.
+  - Level 2: A baker counts eggs twice before the oven - catching the typo on the order slip beats apologizing after the cake ships.
+  - Level 3: Attention to detail catches typos, edge cases, and loose ends before they become incidents - prevention beats fixing customer-facing messes.
+  - Level 4: Read the quote line-by-line against your walk-through notes before you approve - trust the second read, not the PDF looking right.
+  - Level 5: Small misses compound like production bugs - pairs with [[Rollback Principle]] on the fix side; the cost of one skipped check rises once it is customer-facing.
   - The second look before shipping is cheaper than the fix after it is customer-facing.
   - Small misses compound into incidents when nobody catches them early.
 examples:

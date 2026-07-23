@@ -4,7 +4,11 @@ meta_title: "Share What You Learn - Do not Hoard Knowledge"
 description: "Write the doc, do the pass-off, answer the junior question - hoarding know-how helps nobody."
 key_concept: |
   - Pass on what you figured out - write the doc, do the pass-off, answer the junior's question - do not hoard know-how like private bookmarks.
-  - When you learn something useful, teach it to others - write it down, show someone how, answer questions - do not keep it locked away like secret bookmarks.
+  - Level 1: When you learn something useful, teach it - write it down, show someone how, do not hoard it like secret bookmarks.
+  - Level 2: When you learn something useful, teach it to others - write it down, show someone how, answer questions - do not keep it locked away like secret bookmarks.
+  - Level 3: Pass on know-how - doc, pass-off, answer the junior question; hoarding helps no one.
+  - Level 4: Because private mastery does not scale, sharing turns individual learning into team capacity.
+  - Level 5: Pass on what you figured out - write the doc, do the pass-off, answer the junior's question - do not hoard know-how like private bookmarks.
   - Client sites: the one-page [[Client Site Pass-Off]] doc (repo, branch, DNS, env vars) is [[Share What You Learn]] in practice - not launch-and-vanish.
   - A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map.
   - Gospel source: [[Great Commission]].
@@ -57,5 +61,7 @@ cards:
     back: "Label the panel - twenty minutes now."
 draft: false
 ---
+
+
 
 

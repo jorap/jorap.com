@@ -4,7 +4,11 @@ meta_title: "Hierarchy of Controls"
 description: "Remove the hazard first, then substitute, engineer, admin, PPE - in that order."
 key_concept: |
   - Eliminate the hazard before warnings, admin, or PPE.
-  - Remove the danger first - a guard rail beats a sign, and both beat handing out helmets if you can fix the problem at the source.
+  - Level 1: Remove the danger first - a guard rail beats a sign, and both beat helmets if you can fix the source.
+  - Level 2: Eliminate the hazard before warnings, admin, or PPE - like removing the pothole instead of posting a slow-down sign.
+  - Level 3: PPE is last because it depends on human compliance; elimination removes the risk at the root before anyone has to remember gear.
+  - Level 4: Ask whether you can eliminate or engineer out the hazard before you buy more signs and gloves.
+  - Level 5: [[Heed Every Near Miss]] feeds what to eliminate; admin controls and PPE are backups when the hazard cannot go away.
   - Guard rails beat signs when you can remove the hazard instead.
   - Named rollback is a control layer before irreversible harm.
 examples:

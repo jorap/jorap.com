@@ -4,7 +4,11 @@ meta_title: "Servant Leadership - Last Becomes First at Work"
 description: "Servant leaders unblock the team, coach through mess, take blame up, and pass credit down."
 key_concept: |
   - Greatness is serving the team, not grabbing credit from it.
-  - Real leadership means helping the team succeed, not taking credit for work they did.
+  - Level 1: Real leadership means helping the team succeed, not taking credit for work they did.
+  - Level 2: Greatness is serving the team - upward credit flows out, support flows in.
+  - Level 3: Because teams follow safety and clarity, servant leaders remove blockers and share wins.
+  - Level 4: In the next review, name three contributions that were theirs, not yours.
+  - Level 5: Greatness is serving the team, not grabbing credit from it - authority used to elevate others, not to hoard spotlight.
   - The corporate ladder rewards visibility; this principle runs the other way.
   - Wash feet in the sprint, not only in the all-hands speech.
   - Gospel depth: [[Humility and Service]].
@@ -77,5 +81,7 @@ cards:
     back: "The busser - not me."
 draft: false
 ---
+
+
 
 

@@ -5,7 +5,11 @@ meta_title: "Jesus' Prayers - Verbatim Words to the Father"
 description: "Seven prayers the Gospels quote word for word - thanksgiving, surrender, intercession, and the cross."
 key_concept: |
   - [[Jesus' Rhythms]] shows how often He prayed; this hub holds the prayers we can read verbatim.
-  - One page tracks how often Jesus prayed; this page holds the exact words He said to God that the Bible records.
+  - Level 1: One page tracks how often Jesus prayed; this page holds the exact words He said to God that the Bible records.
+  - Level 2: Rhythms track how often He prayed; this hub holds the verbatim prayers the Gospels record - like a schedule versus the speech transcript.
+  - Level 3: Rhythm notes frequency; this hub holds the recorded words - pattern and text are different layers, and both matter for imitation.
+  - Level 4: Use the rhythms hub for how often He prayed; use this hub for the verbatim prayers the Gospels preserve.
+  - Level 5: [[Withdraw to Pray]] is one rhythm; this index holds John 17, Gethsemane, and the cross - text you can review card by card.
   - The Gospels name many prayer moments without quoting them - dawn solitude, all night on the mountain, [[Pray When Drained]] after feeding five thousand.
   - Seven recorded speeches to the Father anchor the lane below - each [[Atomic Notes]] carries six review cards at [/notes/review/](/notes/review/) with filter **Jesus Prayers**.
   - Under [[Free Grace]], copying His words is not earning heaven - it is learning how the Son talked to His Father.

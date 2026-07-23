@@ -4,10 +4,12 @@ meta_title: "God Centered Design - Build for God's Glory First"
 description: "Design life and work around God glory first - not crowd applause, ego, or comfort."
 key_concept: |
   {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
-  
-  
   - Good works visible so the Father gets glory - build for His name, not my brand.
-  - Do good things so people thank God for them, not so they praise you.
+  - Level 1: Do good so people thank God - like sharing lunch so others praise the cook, not clap for you.
+  - Level 2: Build and serve so people see God behind the work - like a sign that points to the source, not your face on the poster.
+  - Level 3: Visible good works aim glory upward - when the crowd applauds you instead of the Father, the design drifted off course.
+  - Level 4: Before you publish or plan, ask whether the work makes the Father visible - not whether it builds your name.
+  - Level 5: [[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality.
   - A calendar built for applause still feels empty on Monday.
   - [[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality.
 examples:

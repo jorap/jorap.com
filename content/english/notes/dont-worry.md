@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 6:25-34" emphasize="33" >}}
   
   - Worry cannot add an hour to your life - trust the Father who already feeds birds before you stack anxiety on tomorrow.
-  - Worry cannot make your life longer - trust the Father who feeds birds before you pile fear onto tomorrow.
+  - Level 1: Worry will not make life longer - trust the Father who feeds birds before you pile fear on tomorrow.
+  - Level 2: Worry is like stacking rocks on tomorrow's backpack before you have walked today's path - the birds eat without hoarding first.
+  - Level 3: Because tomorrow carries its own trouble, stacking today's energy on it steals from what today actually needs.
+  - Level 4: Seek today's kingdom work first and leave tomorrow's trouble for tomorrow - energy spent on imaginary futures is energy stolen from real tasks.
+  - Level 5: The antidote is not denial - it is priority - [[Seek the Kingdom First]], and let tomorrow carry its own trouble without stacking anxiety tonight.
   - The antidote is not denial - it is priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble.
   - Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care.
 examples:
@@ -64,6 +68,8 @@ cards:
     back: "One Master - drop anxious serving of tomorrow."
 draft: false
 ---
+
+
 
 
 

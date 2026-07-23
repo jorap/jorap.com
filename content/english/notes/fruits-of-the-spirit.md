@@ -5,12 +5,12 @@ description: "Love through self-control is one Spirit-grown cluster in believers
 key_concept: |
   {{< bible ref="John 15:1-8" emphasize="5" >}}
   
-  
   - Much fruit glorifies the Father and proves discipleship - grown on the vine, not manufactured for credit.
-  - Good character grows when you stay connected to Jesus like fruit on a vine - not something you fake for credit.
-  
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
-  
+  - Level 1: Good character grows when you stay hooked to Jesus like fruit on a branch - not fake apples for show.
+  - Level 2: Fruit of the Spirit is like apples that only grow on branches still attached to the tree - connection first, performance for credit second.
+  - Level 3: Because branches bear fruit by abiding, self-powered virtue theater cannot substitute for staying connected to the vine.
+  - Level 4: Stay in the vine today through prayer and obedience before you perform character for an audience - manufacture fails under stress.
+  - Level 5: [[Abide in Me]] names the engine in John; [[Sanctification]] is the slow becoming that fruit marks - Paul lists love through self-control as one cluster, not a merit checklist.
   - Paul lists the cluster - one Spirit, love through self-control, not a merit checklist.
   - [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine.
   - [[Sanctification]] is the slow becoming that fruit marks.
@@ -138,5 +138,7 @@ cards:
     back: "Abide - fruit grows, not forced."
 draft: false
 ---
+
+
 
 

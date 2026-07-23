@@ -4,7 +4,11 @@ meta_title: "The Garage Concept - Messy Workshop, Clean Showroom"
 description: "The vault is the garage for scraps and experiments - the blog is the showroom, kept separate."
 key_concept: |
   - The garage holds tools, scraps, experiments. The showroom is the blog. I do not confuse the two.
-  - The garage holds messy drafts and half-finished work; the blog is what you show visitors - do not mix them up.
+  - Level 1: The garage holds messy drafts; the blog is what you show visitors - do not mix them up.
+  - Level 2: Tools, scraps, and experiments stay in the garage; the showroom is the blog - two rooms, two jobs.
+  - Level 3: Mixing draft and publish lanes breaks trust because visitors see workshop mess as finished work.
+  - Level 4: Keep capture and experiments in the garage pipe; ship only what belongs in the showroom.
+  - Level 5: Client pass-off uses the same split - workshop drafts in my garage; client deliverables in the lane they can own via [[Client Site Pass-Off]] and [[Free Tier Hosting Stack]].
   - Client pass-off uses the same split: [[Selling Static Sites]] workshop in my drafts; the client's deploy branch is the showroom on [[Free Tier Hosting Stack]].
   - One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea.
 examples:
@@ -52,3 +56,4 @@ cards:
     back: "Porch shows the finished piece only."
 draft: false
 ---
+

@@ -5,7 +5,11 @@ description: "Goodness fruit is upright action that points to God, not hidden vi
 key_concept: |
   {{< bible "Galatians 5:22-23" >}}
   - Fruits of the Spirit pairs goodness with kindness - outward integrity that points to God, not a personal brand.
-  - Goodness means doing the right thing in a way that makes people think of God, not of how great you are.
+  - Level 1: Goodness is doing the right thing so people think of God - like helping quietly so others thank Him.
+  - Level 2: Goodness is outward integrity that points people toward God - like a flashlight aimed at the sky, not at your own name tag.
+  - Level 3: Fruits of the Spirit pairs goodness with kindness - when goodness becomes a personal brand, the fruit rots into performance.
+  - Level 4: Do the right thing in a way that makes people notice God behind it - not your resume line.
+  - Level 5: [[Kindness]] is the soft strength beside goodness; [[Fruits of the Spirit]] keeps both aimed at others, not a nice-guy pose.
   - [[Let Your Light Shine]] is the garden echo: do good visibly so others glorify the Father, not so you collect likes.
   - [[Heart Righteousness]] keeps the inside matching the outside - upright deeds from motive, not polish over poison.
   - [[Secret Devotion]] on the other side: some good stays hidden; goodness fruit still refuses to bury what should point to God.

@@ -4,7 +4,11 @@ meta_title: "Strategic Foresight - See the Next Round Early"
 description: "Look past today's win to what happens after everyone reacts."
 key_concept: |
   - The scoreboard update happens whether or not you planned for it - foresight is being ready before it does.
-  - Life keeps moving whether you planned ahead or not - foresight means getting ready before the numbers change.
+  - Level 1: Life keeps moving whether you planned ahead or not - getting ready early beats scrambling later.
+  - Level 2: The scoreboard updates on its own schedule - planning ahead means being ready before the shift, not predicting every point.
+  - Level 3: Foresight beats reactive scrambling because the board six months out matters more than tonight's score once everyone else adjusts.
+  - Level 4: Ask what the scoreboard will show in six months if nobody plans - then install one move before that update lands.
+  - Level 5: Reactive teams win the night and lose the season - same lane as [[Second-Order Thinking]] when the lag catches up before you planned.
   - The board six months out - after everyone reacts - matters more than tonight's score.
 examples:
   - "The club signed a young backup keeper before the starter's contract year - foresight looks past this Saturday's win to next season's roster crunch."

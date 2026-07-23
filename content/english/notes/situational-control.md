@@ -4,7 +4,11 @@ meta_title: "Situational Control - Steer What You Can in the Moment"
 description: "Steer pace, format, and who speaks when you cannot own the whole outcome."
 key_concept: |
   - Situational control is using the levers available - pace, venue, agenda, boundaries - when you cannot control everything.
-  - When you cannot control everything, you still choose what you can change - how fast things move, where you meet, what gets talked about, and what lines you will not cross.
+  - Level 1: You cannot run the whole meeting, but you can still pick how fast it goes and where you sit.
+  - Level 2: When someone else holds the final say, you still set pace, place, agenda, and the lines you will not cross.
+  - Level 3: Small levers change how a conflict plays out before the outcome settles - that is situational control at work.
+  - Level 4: Before you react in a tense room, pick one lever: slow the pace, move the talk, or name a boundary you will hold.
+  - Level 5: Steer through levers, not volume - [[Composure]] keeps the move calm; [[Control the Rhythm]] names the same lane when you cannot own the whole outcome.
   - I steer pace, format, and who speaks in the room when I cannot own the whole outcome.
   - The room notices who's steering even when nobody announced it.
 examples:

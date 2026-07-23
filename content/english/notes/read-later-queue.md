@@ -4,7 +4,11 @@ meta_title: "Read Later Queue"
 description: "Save for later is fine until the queue turns into a guilt pile never touched."
 key_concept: |
   - A parking lot for links you will process later - dangerous if it becomes a graveyard.
-  - A save-for-later list is fine for holding links, but it turns into guilt storage if you never go back and actually read them.
+  - Level 1: A save-for-later list is fine until you never go back - then it becomes guilt storage, like a closet full of unread mail.
+  - Level 2: A save-for-later list is fine for holding links, but it turns into guilt storage if you never go back and actually read them.
+  - Level 3: Parking lot for links - useful buffer, dangerous graveyard without a processing habit.
+  - Level 4: Because capture feels like progress, unread queues inflate - without review, later becomes never.
+  - Level 5: A parking lot for links you will process later - dangerous if it becomes a graveyard; [[Capture]] is intake, not completion.
   - Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage.
   - [[The Collector's Fallacy]] names hoarding; [[The Trusted Inbox]] is the drain that saves the queue.
   - Save for later is fine until the queue turns into a guilt pile I will never touch.
@@ -46,5 +50,7 @@ cards:
     back: "Empty the queue - inbox drain."
 draft: false
 ---
+
+
 
 

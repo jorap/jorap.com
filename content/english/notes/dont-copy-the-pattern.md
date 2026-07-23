@@ -6,10 +6,11 @@ key_concept: |
   {{< bible ref="John 15:19" emphasize="19" >}}
   
   - Chosen out of the world - so when the feed's outrage feels normal, that is the world's script, not mine.
-  - God chose you to live differently - so when outrage on the feed feels normal, that is the world's habit, not yours.
-  
-  {{< bible ref="Romans 12:1-2" emphasize="2" >}}
-  
+  - Level 1: When outrage on the feed feels normal, that is their habit, not yours - like refusing the loudest kid.
+  - Level 2: Chosen out of the world means the outrage script on your feed is culture's default channel, not the one God tuned you to.
+  - Level 3: Because the world's patterns feel normal when you scroll daily, refusal must come before renewal reshapes how you react.
+  - Level 4: Pause before you react to outrage online and ask whether this response matches who God chose you to be - scroll is not permission.
+  - Level 5: Do not conform - refuse the default before renewal reshapes how I react; pairs with [[Present a Living Sacrifice]] on the same Romans passage.
   - Do not conform - refuse the default before renewal reshapes how I react. Pairs with [[Present a Living Sacrifice]] on the same Romans passage.
   - [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind.
   - This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I did not choose but my nervous system runs anyway.
@@ -74,5 +75,7 @@ cards:
     back: "Refuse the default - Scripture before scroll."
 draft: false
 ---
+
+
 
 

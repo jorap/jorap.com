@@ -4,7 +4,11 @@ meta_title: "Risk Management"
 description: "Name what can go wrong, how likely, how bad - then choose controls in order of strength."
 key_concept: |
   - Rank controls strongest first - eliminate the hazard before you rank residual ones.
-  - Fix the biggest danger first - remove the hazard if you can, then deal with whatever risk is left.
+  - Level 1: Fix the biggest danger first - remove the hazard if you can, then deal with what is left.
+  - Level 2: Fix the biggest danger first - remove the hazard if you can, then deal with whatever risk is left.
+  - Level 3: Strongest controls first - eliminate before you rank what remains.
+  - Level 4: Because residual risk misleads when the hazard still exists, removal beats paperwork about likelihood.
+  - Level 5: Rank controls strongest first - eliminate the hazard before you rank residual ones; the matrix is not a substitute for removal.
   - [[Hierarchy of Controls]] names rollback among controls before irreversible harm.
   - [[Staged Rollout]] limits exposure before you bet the whole lane.
   - Likelihood times severity sets how strong the control needs to be.
@@ -55,4 +59,6 @@ cards:
     back: "Move the heater - then teach."
 draft: false
 ---
+
+
 

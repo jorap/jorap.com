@@ -4,7 +4,11 @@ meta_title: "The Trusted Inbox - One Place I will Actually Empty"
 description: "One capture pipe emptied every week - without trust, ideas hoard in the head instead."
 key_concept: |
   - If the inbox never gets emptied, capture moves back into your head.
-  - If you never clear your capture list, your brain starts holding ideas again because you cannot trust the list.
+  - Level 1: If you never clear your capture list, your brain starts holding ideas again because you cannot trust the list.
+  - Level 2: An inbox you do not empty becomes a junk drawer - capture moves back into your head when the list lies.
+  - Level 3: Trust rebuilds on schedule because emptying on time proves the system will hold what you offload.
+  - Level 4: Empty the inbox on the same day each week - trust is built by schedule, not by someday.
+  - Level 5: An inbox you do not empty becomes a junk drawer you stop using - same lane as [[Inbox Zero]]; hope is not a processing strategy.
   - An inbox you do not empty becomes a junk drawer you stop using.
   - Trust is built by emptying on schedule, not by hoping you will get to it someday.
 examples:

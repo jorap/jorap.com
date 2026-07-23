@@ -4,7 +4,11 @@ meta_title: "Build a Reliable Default - What You Do When There's No Time"
 description: "A reliable default is the simple rehearsed move that runs when thinking is thin."
 key_concept: |
   - Build it before the crisis, not during it - a default assembled mid-emergency is not a default.
-  - Decide your backup plan before trouble hits - you cannot build a real default while everything is on fire.
+  - Level 1: Like when fire drills happen before there is smoke - you know the exit path before panic hits.
+  - Level 2: A pilot rehearses emergency steps on the ground - the default runs when thinking goes thin mid-crisis.
+  - Level 3: A reliable default is built before the crisis - a plan assembled mid-emergency is improvisation, not a default you can trust.
+  - Level 4: Write one laminated triage sheet and tape it by the phone - one script beats improvising when three walk-ins arrive at once.
+  - Level 5: Pairs with [[Composure]] when the clock is loud - the rehearsed move runs when panic would otherwise pick a fresh bad option every time.
   - The rehearsed move beats improvising when the clock is loud.
   - Pick a good default once - stop reopening the question every project.
 examples:

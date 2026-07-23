@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 20:26-28" emphasize="28" >}}
   
   - Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care.
-  - Following Jesus is who you obey above you - leading others is who looks to you for help, and both jobs matter.
+  - Level 1: Salute up and lead the squad below - two jobs, like obeying the coach while your team watches you.
+  - Level 2: Discipleship and leadership are two seats in one chair - upward allegiance to Christ, outward care when people look your way.
+  - Level 3: Because the two seats pull different directions, swapping them lets public leadership substitute for private obedience to Christ.
+  - Level 4: Name which seat a decision serves before you act - upward to Christ or outward to the room; the org chart does not cancel the cross.
+  - Level 5: [[Discipleship]] answers upward; [[Leadership]] answers outward - [[Servant Leadership]] overlaps on horizontal care but does not replace vertical allegiance.
   - Greatness is service - Son of Man came to serve; upward allegiance and outward care stay separate.
   - [[Discipleship]] answers upward; [[Leadership]] answers outward - direction, pace, and care when people look your way.
   - Swapping them is the failure: running a standup is not following Christ, and a promotion does not cancel private obedience.
@@ -78,6 +82,8 @@ cards:
     back: "Christ first - then lead from that footing."
 draft: false
 ---
+
+
 
 
 

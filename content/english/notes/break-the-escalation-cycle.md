@@ -4,7 +4,11 @@ meta_title: "Break the Escalation Cycle - Do not Match Snark with Snark"
 description: "Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first."
 key_concept: |
   - Refuse to match insult for insult - break the loop before tone for tone takes over.
-  - When someone snaps at you, do not snap back the same way - stop the fight before both sides get louder and meaner.
+  - Level 1: Like when someone yells and you take a breath instead of yelling back - the fight stops getting louder.
+  - Level 2: Two kids trade insults in the group chat until someone sends a calm answer - break the loop before tone-for-tone wins.
+  - Level 3: Breaking escalation is not passivity - you can set boundaries and name facts without becoming what hurt you in the reply.
+  - Level 4: Delete the matching draft, answer the fact, offer the new date - stop throwing anger after sunk hurt.
+  - Level 5: Gospel source: [[Turn the Other Cheek]]; PKM parallel: [[Sunk Cost Fallacy]] - refuse to pour fuel on a reply-all war you cannot win by volume.
   - Not passivity - I can still set boundaries and name facts.
   - I just refuse to become what hurt me in the thread.
   - Stop throwing anger after sunk hurt.

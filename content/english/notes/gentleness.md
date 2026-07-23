@@ -5,8 +5,13 @@ description: "Gentleness fruit is strength held back on purpose, not weakness or
 key_concept: |
   {{< bible "Matthew 5:5" >}}
   {{< bible "Galatians 5:22-23" >}}
+  
   - Fruits of the Spirit lists gentleness beside patience and self-control - power restrained, not power absent.
-  - Gentleness is strong power held back on purpose - like a big dog that walks calmly instead of jumping on people.
+  - Level 1: A big dog that walks calmly instead of jumping on people - strong power held back on purpose.
+  - Level 2: Gentleness is like a hand on a hot pan with a mitt - power restrained on purpose, sitting beside patience and self-control in the Spirit cluster.
+  - Level 3: Because unrestrained strength intimidates instead of serves, gentleness is strength under control, not weakness or absence of power.
+  - Level 4: Pause and listen before you prescribe - correction without love is not Spirit-grown gentleness; loud fixes without hearing fail the cluster test.
+  - Level 5: [[Listen Before Fixing]] is gentleness in conversation; [[The Beatitudes]] bless the meek - strength without grasping for status; [[Humility and Service]] is the garden echo when greatness is serving.
   - [[Humility and Service]] is the garden echo: greatness is serving, not being served; the Son washed feet the night before the cross.
   - [[Listen Before Fixing]] is gentleness in conversation - hear before you prescribe.
   - [[The Beatitudes]] bless the meek - strength without grasping for status.
@@ -65,5 +70,7 @@ cards:
     back: "Humble - let the Father get credit."
 draft: false
 ---
+
+
 
 

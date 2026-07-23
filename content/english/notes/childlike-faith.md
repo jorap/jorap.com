@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Mark 10:13-16" emphasize="15" >}}
   
   - Receive the kingdom like a child - stop negotiating merit before you enter.
-  - Come like a kid who trusts a parent - stop trying to earn your way in before you accept the gift.
+  - Level 1: Like when a kid runs to Dad without counting good deeds first - receive the gift, stop earning your way in.
+  - Level 2: A child asks for water at practice without calculating whether they earned it - come like that, not like a negotiator at the door.
+  - Level 3: Childlike faith is the posture [[Free Grace]] requires - children receive care they did not earn, not achievement on a ladder.
+  - Level 4: Ask for water at practice without calculating whether you earned it - come to prayer like a kid who already belongs.
+  - Level 5: Jesus was not praising ignorance - same beginner posture as [[Getting Started]] in the garden; pairs with [[Assurance]] when you stop re-negotiating worthiness every Monday.
   - Children do not enter the kingdom by achievement; they receive care they did not earn.
   - Jesus was not praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift.
   - Same beginner posture as [[Getting Started]] in the garden - assume you are new, follow the guide, do not perform expertise you do not have.

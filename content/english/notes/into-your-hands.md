@@ -4,9 +4,12 @@ meta_title: "Into Your Hands - Luke 23:46"
 description: "Jesus' last recorded prayer commended His spirit to the Father - into Your hands I commit My spirit."
 key_concept: |
   {{< bible ref="Luke 23:46" >}}
-  
   - His last recorded words to the Father trust the outcome - Father, into Your hands I commit My spirit - echoing Psalm 31:5.
-  - Jesus died trusting God to hold Him - like handing over something precious to someone you know will take care of it.
+  - Level 1: Jesus died trusting God to hold Him - like handing something precious to someone you know will take care of it.
+  - Level 2: His last recorded words to the Father trust the outcome - Father, into Your hands I commit My spirit, like releasing a rope when the climb is done.
+  - Level 3: Death arrives and Jesus commits His spirit to the Father - trust at the finish, not panic control, because surrender completes what the garden began.
+  - Level 4: At the end, commit the outcome to the Father's hands - echo Psalm 31:5 instead of clutching control.
+  - Level 5: [[Not My Will]] surrendered the cup; here surrender completes at death - trust holds when control is gone.
   - After forgiveness for enemies and the forsaken cry, this is release: death met as entrusting, not panic.
   - [[Not My Will]] surrendered the cup in the garden; the cross ends with committing His spirit to the same Father.
   - Under [[Free Grace]], my death can mirror the posture - not earning heaven at the end, but resting in the Father's hands because Jesus already opened the way.

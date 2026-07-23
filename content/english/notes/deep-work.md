@@ -4,7 +4,11 @@ meta_title: "Deep Work"
 description: "Hard thinking earns uninterrupted blocks; capture catches what tries to interrupt."
 key_concept: |
   - Deep work protects uninterrupted blocks for hard thinking while capture handles interruptions.
-  - Block off quiet time for hard thinking with no distractions - save quick interruptions for a separate capture step.
+  - Level 1: Like when you put toys away so you can finish homework - quiet time for hard thinking, quick stuff saved for later.
+  - Level 2: Dad puts his phone in the drawer so one math sheet gets done - interruptions go on a list for later.
+  - Level 3: Hard thinking earns a protected block - it works only when phone is away and door is closed, not just fewer tabs.
+  - Level 4: Block ninety minutes with phone in the gym bag before the drill breakdown rots another week - capture catches what tries to interrupt.
+  - Level 5: Capture catches what tries to interrupt the block - deep work fails when interruptions get sorted mid-thought instead of landing in the trusted inbox.
   - The block only works if it is actually protected - phone away, door closed, not just fewer tabs open.
   - Hard thinking earns a protected block; capture handles what tries to interrupt it.
 examples:

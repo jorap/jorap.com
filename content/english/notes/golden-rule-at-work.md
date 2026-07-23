@@ -4,7 +4,11 @@ meta_title: "Golden Rule at Work - Treat Colleagues How You Want to Be Treated"
 description: "Treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip."
 key_concept: |
   - It is active, not passive: do the helpful thing, do not only avoid harm.
-  - Treat coworkers the way you would want to be treated - step in and help, do not just stay out of the way.
+  - Level 1: Help coworkers the way you want help - step in, do not just stay out of the way.
+  - Level 2: The golden rule is active - do the helpful thing you would want done for you, like holding a door you would want held.
+  - Level 3: Passive fairness leaves people stuck - because you would want someone to act for you, the rule pushes you to act.
+  - Level 4: At work, ask what you would want if roles flipped - then do that helpful move instead of only keeping your head down.
+  - Level 5: [[The Golden Rule]] is the spine; at work it means stepping in on the tedious task, not just refusing to make things worse.
   - The check is experiential - how would you want feedback delivered, how would you want to be included, how would you want a mistake handled?
   - Gospel depth lives in [[The Golden Rule]]; this is the version used before hitting send.
 examples:

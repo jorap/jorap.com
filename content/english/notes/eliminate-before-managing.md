@@ -4,7 +4,11 @@ meta_title: "Eliminate Before Managing - Remove the Hazard First"
 description: "Remove unnecessary danger first instead of stacking procedures and gear on top of it."
 key_concept: |
   - Eliminate before managing removes unnecessary danger first instead of stacking procedures and gear on top.
-  - Remove the dangerous thing first instead of adding more rules and gear on top of a problem you could have removed.
+  - Level 1: Take out the broken step instead of painting a warning sign on it forever.
+  - Level 2: Eliminate before managing is like removing the wasp nest instead of handing out extra gloves - fix the source, not the symptom stack.
+  - Level 3: Because safeguards still need correct human action every time, removing the hazard beats managing around it forever.
+  - Level 4: Ask whether the activity is required - if not, swap it for a safer alternative before you buy more gear to work around the same risk.
+  - Level 5: [[Hierarchy of Controls]] puts elimination above PPE stacks - remove the hazard before you buy gear to work around it permanently.
   - Safeguards can cut risk, but they still need correct human action every time.
   - When a dangerous activity is not required, swap it for a safer alternative and the failure never gets a chance to happen.
   - Remove the hazard before you buy more gear to work around it.
@@ -53,5 +57,7 @@ cards:
     back: "Fix what started it - don't manage forever."
 draft: false
 ---
+
+
 
 

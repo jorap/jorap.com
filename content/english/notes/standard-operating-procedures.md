@@ -4,7 +4,11 @@ meta_title: "Standard Operating Procedures - Written Defaults the Team Can Run"
 description: "Short written steps for deploys and incidents so nobody improvises when the clock is loud."
 key_concept: |
   - SOPs are simple written steps for recurring work - so nobody improvises under stress.
-  - A written checklist for jobs you do again and again keeps people from guessing when they are scared or rushed.
+  - Level 1: A short written checklist helps when you are scared or rushed and cannot trust your memory.
+  - Level 2: Simple written steps for recurring work beat guessing when stress shrinks what people can hold in their head.
+  - Level 3: SOPs work because adrenaline narrows working memory - a short checklist is competence when the clock is loud.
+  - Level 4: Write deploy and incident steps before the emergency owns the clock - short beats heroic improvisation.
+  - Level 5: The checklist is not an insult to competence - it is competence under pressure; same lane as [[Preparedness]] when adrenaline shrinks working memory.
   - Short deploy and incident steps beat memory when adrenaline shrinks working memory.
   - The checklist is not an insult to competence - it is competence when the clock is loud.
 examples:

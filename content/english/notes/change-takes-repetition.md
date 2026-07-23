@@ -4,7 +4,11 @@ meta_title: "Change Takes Repetition - Same Moves Until the System Bends"
 description: "Real change is the same moves on repeat, not one breakthrough weekend."
 key_concept: |
   - The breakthrough story sells books; Tuesday sells the habit.
-  - Big dramatic wins make good stories, but normal days repeat the work - habits grow from boring Tuesdays, not one hero moment.
+  - Level 1: Like when you learn to tie shoes - one big try does less than the same loop every morning.
+  - Level 2: Books love the breakthrough story, but the habit grows on boring Tuesdays - real change is the same move on repeat.
+  - Level 3: Change takes repetition when the same levers run many times before the room feels different - direction, practice, feedback in loops.
+  - Level 4: Run the same rep at practice for six weeks before you expect the inbound play to work - not the speech before the tournament.
+  - Level 5: [[Habit Formation]] sticks one move; [[Practice Small Experiments]] keeps trials small while reps accumulate - faith lane: [[Sanctification]] is slow obedience, not one altar call.
   - Change takes repetition when the same levers run many times - direction, practice, feedback - before the room feels different.
   - [[Transformation Principles]] is the set; [[Habit Formation]] is how one move sticks; [[Practice Small Experiments]] keeps trials small while reps accumulate.
   - Faith lane: [[Sanctification]] - becoming is slow obedience, not a single altar call.

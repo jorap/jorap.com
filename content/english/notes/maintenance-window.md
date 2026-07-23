@@ -4,7 +4,11 @@ meta_title: "Maintenance Window"
 description: "Block garden time on the calendar so broken links do not ambush on a random Sunday."
 key_concept: |
   - Scheduled time to prune, fix links, and archive - not random Sunday panic.
-  - Pick a set time to clean up your notes - not a panicked scramble on a random Sunday.
+  - Level 1: Pick a set time to clean up your notes - like setting aside Saturday morning to tidy your room, not panicking on a random Sunday.
+  - Level 2: A maintenance window is scheduled time to prune links and archive - not crisis cleaning when something breaks.
+  - Level 3: PKM systems rot without a fixed review slot - prune, fix orphans, and archive on calendar, not guilt.
+  - Level 4: Block ninety minutes weekly for garden hygiene - broken links and stale tags compound when you wait for panic.
+  - Level 5: [[Periodic Knowledge Review]] and [[Maps of Content]] both assume rhythm - random Sunday panic is how [[Normalization of Deviance]] enters your note stack.
   - Calendar the prune before the garden rots - same habit as oil changes, not panic Sundays.
   - [[Periodic Knowledge Review]] calendars the pass; this note names the scheduled slot.
   - I block garden time on the calendar so broken links do not ambush me on a random Sunday.

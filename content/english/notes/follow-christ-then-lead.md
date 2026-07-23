@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
   
   - When the captain's chair and Christ's command pull opposite ways, I deny the shortcut first.
-  - When being the boss pulls one way and Jesus pulls the other, I obey Jesus first before I lead the room.
+  - Level 1: When boss pulls one way and Jesus pulls the other, obey Jesus first, like checking the map before you drive.
+  - Level 2: Follow Christ then lead is like reading compass north before giving marching orders - deny the shortcut when the room wants compromise.
+  - Level 3: Because visible leadership without private obedience is sand, order the seats before you set pace for the room.
+  - Level 4: Before you lead the room on a compromise, ask which seat the move serves - Christ or the org chart; upward allegiance before outward care.
+  - Level 5: [[Take Up Your Cross]] before I set pace for the room; [[Discipleship]] vs [[Leadership]] names two seats - [[God Centered Design]] asks who the plan ultimately serves.
   - [[Take Up Your Cross]] before I set pace for the room.
   - [[Discipleship]] vs [[Leadership]] names two seats - upward allegiance and outward care.
   - [[God Centered Design]] asks who the plan ultimately serves before I optimize the slide.
@@ -75,3 +79,5 @@ cards:
     back: "Kingdom first - lead from that footing."
 draft: false
 ---
+
+

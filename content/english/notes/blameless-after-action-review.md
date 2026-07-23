@@ -4,7 +4,11 @@ meta_title: "Blameless After-Action Review - Learn System Causes After Calm Retu
 description: "After rollback restores service, the team learns what broke in the system - not who to punish for pushing deploy."
 key_concept: |
   - Rollback Principle gets users back on the old build; blameless after-action review gets judgment back.
-  - After a mistake, put things back for users first - then figure out what broke without hunting for someone to blame.
+  - Level 1: Like when the team fixes the broken goal net first - then they talk about what went wrong without picking one kid to blame.
+  - Level 2: Rollback puts users back on the old build; blameless review puts judgment back - trace what broke in the system after calm returns.
+  - Level 3: Blameless after-action review pairs with [[Rollback Principle]] - fix the runbook after revert, not the person who pushed deploy.
+  - Level 4: Monday debrief traces the missing env var check, not which intern merged - someone still says "my call" in standup while the room fixes the process.
+  - Level 5: Same shape as [[Incident Investigation]] but culture rule is no punishment theater - [[Own the Error]] means naming your call without the room fixing the person instead of the runbook.
   - Same shape as [[Incident Investigation]] - trace system causes - but the culture rule is no scalpel hunts for a fall guy.
   - [[Own the Error]] still means someone says "my call" in standup; the room fixes the runbook, not the person.
   - Fix the runbook after rollback - not the person who pushed deploy.

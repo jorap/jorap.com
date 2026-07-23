@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="John 8:31-32" emphasize="32" >}}
   
   - Stay in His word and you are His disciple - truth frees the mind culture tried to lock in hurry and outrage.
-  - Keep reading and obeying what Jesus taught and your thinking starts to change - truth loosens the grip of hurry and anger that the world pushes on you.
+  - Level 1: Keep reading what Jesus taught and your thinking starts to change - truth loosens hurry and anger the world pushes on you.
+  - Level 2: Keep reading and obeying what Jesus taught and your thinking starts to change - truth loosens the grip of hurry and anger that the world pushes on you.
+  - Level 3: Stay in His word to be His disciple - culture's default is hurry and outrage; Scripture retrains judgment.
+  - Level 4: Because unrenewed minds run borrowed scripts, truth frees what conformity locked - renewal follows mercy, it does not purchase standing.
+  - Level 5: Stay in His word and you are His disciple - truth frees the mind culture tried to lock in hurry and outrage; pairs with [[Sanctification]], not [[Justification]] payment.
 
   {{< bible ref="Romans 12:1-2" emphasize="2" >}}
   
@@ -164,5 +168,7 @@ cards:
     back: "Faith at justification - renewal grows after."
 draft: false
 ---
+
+
 
 

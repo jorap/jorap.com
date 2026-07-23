@@ -4,7 +4,11 @@ meta_title: "Name the Feeling - Put Words to It Before You Fix It"
 description: "That sounds frustrating lands before the fix plan - name the emotion so nobody is guessing."
 key_concept: |
   - "That sounds frustrating" before "here's what to do."
-  - Say that sounds frustrating before you hand someone a to-do list.
+  - Level 1: Say that sounds frustrating before you hand someone a to-do list - like nodding at a friend who is upset before you suggest a fix.
+  - Level 2: Name the feeling first - that sounds frustrating - before here is what to do.
+  - Level 3: Name-the-feeling validates emotion before prescription - otherwise advice lands like dismissal.
+  - Level 4: One sentence of empathy buys permission for the fix - skip it and you are correcting, not helping.
+  - Level 5: [[Listen Before Fixing]] and [[Emotional Regulation]] share the order - feeling heard precedes being helped.
   - Naming the emotion lowers defensiveness so the fix can land.
   - [[Listen Before Fixing]] comes first - hear it, label it, then steer.
   - Skip the label and I am guessing at the problem while they are still proving I did not get it.

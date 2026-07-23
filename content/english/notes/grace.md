@@ -4,13 +4,14 @@ meta_title: "Grace - Unmerited Favor from God"
 description: "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked."
 key_concept: |
   {{< bible ref="John 3:16-18" emphasize="16" >}}
-  
   - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
-  - God saved you as a free gift because you trust Him, not because you earned enough good points.
+  - Level 1: God gives salvation free when you trust Him - like a prize you never earned by being best.
+  - Level 2: Salvation is a gift through belief - not a scoreboard of good deeds stacked high enough to win.
+  - Level 3: God gave His Son so belief decides eternal life - merit never earned the ticket; unbelief is the only rejection.
+  - Level 4: Receive eternal life by trusting Christ's promise - not by climbing a moral ladder you could never finish.
+  - Level 5: [[Mercy]] withholds what you deserve; [[Free Grace]] is grace applied to eternal life by faith alone - not wages you stacked.
   - [[Mercy]] withholds what I deserve; grace gives what I could not earn.
-  
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
-  
   - Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
   - [[Free Grace]] is grace applied to eternal life: Christ paid what I could not; I receive by faith, not wages.
 examples:

@@ -4,9 +4,12 @@ meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
 description: "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
 key_concept: |
   {{< bible ref="Matthew 5:21-30" emphasize="22,28" >}}
-  
   - Angry with your brother - guilty before the court even if you smiled outwardly.
-  - God cares about anger and lust in your heart, not just whether you looked polite on the outside.
+  - Level 1: God cares about anger and lust in your heart - not just whether you looked polite on the outside.
+  - Level 2: You can look fine outside while anger or lust inside still breaks the rule - like a clean shirt hiding a messy room.
+  - Level 3: Outward compliance without inward righteousness fails the standard - heart murder and heart adultery count before God, not just visible acts.
+  - Level 4: Treat anger and lust in the heart as guilt before God - polish on the outside does not erase it.
+  - Level 5: [[The Beatitudes]] and [[Judge Not]] both assume heart-level righteousness - external niceness is not the finish line.
   - Lust logged mentally - adultery in the heart though marriage looks fine outside.
   - "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination.
   - Under [[Free Grace]], this is not a new merit ladder it is the standard the Spirit applies to a life already saved, starting where only God sees.

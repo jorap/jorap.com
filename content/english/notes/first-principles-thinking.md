@@ -4,7 +4,11 @@ meta_title: "First Principles Thinking in Your Notes"
 description: "Rebuild from what you actually believe, not a quote filed as someone else line."
 key_concept: |
   - A saved quote is not a principle until you rebuild the claim in your own words.
-  - A saved quote is not really yours until you say the idea again in your own words and mean it.
+  - Level 1: Say the idea in your own words before you trust the bookmark, like rebuilding Lego from memory not the box.
+  - Level 2: First-principles thinking is like translating a recipe into ingredients you can shop for - rebuild the claim before the bookmark becomes doctrine.
+  - Level 3: Because borrowed language hides gaps, rebuilding exposes what you actually understand versus what you only bookmarked.
+  - Level 4: Explain the idea on a blank page without citing the source - the stumble marks the gap worth drilling next.
+  - Level 5: The tell - can you defend it without citing the source? If not, you do not own it yet; pairs with [[The Feynman Technique]] when teach-back is the rebuild move.
   - The tell: can you defend it without citing the source? If not, you do not own it yet.
   - You cannot explain, extend, or apply an idea you never rebuilt.
 examples:
@@ -51,3 +55,5 @@ cards:
     back: "Why do people park wrong - fix that first."
 draft: false
 ---
+
+

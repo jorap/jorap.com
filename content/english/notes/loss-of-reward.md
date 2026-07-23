@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Faithful use compounds; buried talent loses even what was given - reward can shrink without un-saving you.
-  - Use what you are given and it can grow - hide it away and even that gift can slip away, without God taking your salvation.
+  - Level 1: Use what you are given and it can grow - like watering a plant instead of hiding the seed in a drawer where nothing happens.
+  - Level 2: The faithful servant compounds what the master gave - bury it and even that talent can be lost, while salvation stays on Christ alone.
+  - Level 3: Loss of reward means worthless works burn at the judgment seat - eternal life stays secure on faith, but repayment for faithful living can shrink.
+  - Level 4: Serve with what you have now - wasted seasons may cost reward at the [[Judgment Seat]] without reopening [[Justification]].
+  - Level 5: Two ledgers: [[Free Grace]] settles eternal life at faith; [[Eternal Rewards]] settle what lasted - wood hay and stubble burn, gold stays, and [[Standing vs Fellowship]] keeps shame from collapsing standing.
 
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
   

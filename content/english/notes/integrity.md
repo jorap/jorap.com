@@ -4,7 +4,11 @@ meta_title: "Integrity - Alignment Between Claim and Action"
 description: "What you do matches what you claim when applause, speed, or comfort are not watching."
 key_concept: |
   - What you do matches what you claim - especially when it costs applause, speed, or comfort.
-  - Your actions should match your words even when telling the truth slows you down or makes you look bad.
+  - Level 1: Your actions should match your words even when telling the truth slows you down or makes you look bad.
+  - Level 2: Integrity means your behavior still matches your words when honesty costs you speed or applause - like keeping a promise when breaking it would be easier.
+  - Level 3: When convenience bends the story, integrity breaks - alignment costs something every time, so shortcuts show up in the gap between claim and deed.
+  - Level 4: Keep words and deeds aligned even when honesty costs speed, comfort, or applause.
+  - Level 5: [[Plain Commitments at Work]] and [[Integrity Without an Audience]] split public promises from private corners - both must match.
   - What I do matches what I claim when applause, speed, or comfort are not watching.
   - Integrity is doing what you said matters when it costs something - not only when someone's watching.
 examples:

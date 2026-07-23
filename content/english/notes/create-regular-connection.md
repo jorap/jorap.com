@@ -4,7 +4,11 @@ meta_title: "Create Regular Connection - Small Rituals Beat Grand Gestures"
 description: "Connection grows from small repeated rituals - one walk, one check-in - not one big gesture after a dry month."
 key_concept: |
   - I pick one simple connection habit and repeat it - trust grows in the boring reps.
-  - Pick one small way to stay in touch and do it often - trust builds from regular small moments, not one big gesture.
+  - Level 1: Like when you wave to the same neighbor every morning - trust grows from small repeats, not one big gift once a year.
+  - Level 2: Two coworkers walk to coffee every Tuesday after standup - one simple habit repeated beats a grand catch-up after a dry month.
+  - Level 3: Connection grows from small rituals - one walk, one check-in on schedule, even when there is nothing big to report.
+  - Level 4: Block fifteen minutes after standup to walk with one teammate every Tuesday - not a performance review, just the same loop.
+  - Level 5: Grand gestures after silence do not rebuild trust the way Sunday lunch calls do - one ritual beats heroic catch-up when bandwidth is thin.
 examples:
   - "I block fifteen minutes after standup to walk with one teammate - not a performance review, just the same loop every Tuesday."
   - "My parents and I call every Sunday after lunch in the same window even when there is nothing big to report."

@@ -4,7 +4,11 @@ meta_title: "Steward After the Win - Keep Using the Gift"
 description: "An early win is entrusted, not a license to coast - keep using the gift through the quiet tail."
 key_concept: |
   - Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done.
-  - Right after something big goes well, it is easy to relax and act like all the real work is over.
+  - Level 1: Right after something big goes well, it is easy to relax and act like all the real work is over.
+  - Level 2: Launch day and traffic spikes tempt you to treat the win as the finish line instead of the start of stewardship.
+  - Level 3: Wins create a stewardship window because attention and trust peak right when neglect does the most damage.
+  - Level 4: After launch, schedule the next tending move - sharing, serving, and maintenance - before the spike fades.
+  - Level 5: [[Success is Stewardship]] says the win was entrusted; [[Faithful Steward]] names the long game - well done for faithful use over years, not one viral week.
   - [[Success is Stewardship]] says the win was entrusted: keep tending, sharing, and serving through the boring middle, not coast on what landed.
   - Gospel depth lives in [[Faithful Steward]] - well done for faithful use over years, buried talent for playing it safe after one good season.
   - [[Finish Strong]] closes the last commitment; this note guards the gap right after the exciting start.
@@ -71,3 +75,4 @@ cards:
     back: "Steward the middle - do not coast."
 draft: false
 ---
+

@@ -4,7 +4,11 @@ meta_title: "Reliability - People Trust What Repeats"
 description: "Reliability is closing loops on time often enough that people stop asking twice."
 key_concept: |
   - Small reliability compounds - the person who's five minutes early every time gets trusted with the big thing eventually.
-  - Showing up on time again and again builds trust - the person who is always five minutes early eventually gets the important job.
+  - Level 1: Showing up on time again and again builds trust - like always being five minutes early until people give you the big job.
+  - Level 2: Showing up on time again and again builds trust - the person who is always five minutes early eventually gets the important job.
+  - Level 3: Small promises kept compound - five minutes early every time beats one heroic save.
+  - Level 4: Because trust accrues from repeated proof, reliability is the slow credit score of leadership.
+  - Level 5: Small reliability compounds - the person who is five minutes early every time gets trusted with the big thing eventually.
   - Reliability is doing what you said, when you said, often enough that others can plan around you.
   - People stop chasing updates when you close loops without reminders.
 examples:
@@ -44,4 +48,6 @@ cards:
     back: "Who says Tuesday 9 and actually shows."
 draft: false
 ---
+
+
 

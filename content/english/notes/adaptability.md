@@ -4,7 +4,11 @@ meta_title: "Adaptability - Adjust When the Ground Moves"
 description: "Adaptability swaps the method when conditions shift - same aim, different plan."
 key_concept: |
   - Keep the goal, swap the method when the ground moves.
-  - When the plan breaks, change how you work but keep the same target - like taking a different route when the road is closed.
+  - Level 1: Like when the path to school is blocked - you walk another street but still head to the same classroom.
+  - Level 2: A basketball team switches from zone to man-to-man when the other side catches fire - same scoreboard, different defense.
+  - Level 3: Adaptability keeps the goal and swaps the method - the test is whether the aim survives the pivot, not whether you changed at all.
+  - Level 4: When the plan breaks, name the target again before you pick a new route - change tools or timing, not the outcome you promised.
+  - Level 5: Constant pivot breaks [[Let Your Yes Be Yes]] when people were counting on a plain commitment - adapt when the counter responds, not every time convenience shifts.
   - Adaptability is changing method without losing aim when conditions, tools, or opponents shift.
   - The tell is not whether you adapt - it is whether the goal survives the pivot intact.
 examples:

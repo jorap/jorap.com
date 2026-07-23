@@ -4,7 +4,11 @@ meta_title: "Lean Startup"
 description: "Ship a rough test and learn rather than polish a product nobody wanted."
 key_concept: |
   - Build the smallest test, measure, learn - do not scale before validation.
-  - Try the smallest version first, see what happens, then improve - do not build the huge version before you know anyone wants it.
+  - Level 1: Try the smallest version first, see what happens, then improve - do not build the huge version before you know anyone wants it.
+  - Level 2: Ship a tiny version, watch what users do, learn, then grow - not the full build before anyone wants it, like tasting soup before cooking the pot.
+  - Level 3: Big builds before demand burn cash and morale - small tests produce learning loops cheap enough to repeat when the first guess is wrong.
+  - Level 4: Ship the smallest test, measure response, learn, then scale - never the full product on faith alone.
+  - Level 5: [[Practice Small Experiments]] keeps trials small; [[Ship It]] pushes the test out before perfection hoarding wins.
   - I would rather ship a rough test and learn than polish a product nobody wanted.
   - Measure what happened, then fix the template - not the pitch deck.
   - The waitlist number matters less than whether those people would actually pay today.

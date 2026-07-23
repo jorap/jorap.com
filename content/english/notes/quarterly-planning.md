@@ -4,7 +4,11 @@ meta_title: "Quarterly Planning"
 description: "Set goals and review on a thirteen-week rhythm - short enough to feel real."
 key_concept: |
   - Zoom out every ninety days so weekly noise does not eat the year's aim.
-  - Every three months, step back and check whether daily distractions are eating your big goal for the year.
+  - Level 1: Every three months step back and ask whether daily noise is eating your big goal for the year.
+  - Level 2: Every three months, step back and check whether daily distractions are eating your big goal for the year.
+  - Level 3: Ninety-day zoom-out - weekly noise versus annual aim, on purpose.
+  - Level 4: Because urgent tasks compound daily, a quarterly reset reclaims the year from the inbox.
+  - Level 5: Zoom out every ninety days so weekly noise does not eat the year's aim - the calendar block is the guardrail, not a slide deck ritual.
   - A year-long goal hides slippage for months; thirteen weeks cannot.
   - Long enough to actually finish something, short enough that slipping is still visible before it is too late.
 examples:
@@ -51,4 +55,6 @@ cards:
     back: "Week ten - before it is too late."
 draft: false
 ---
+
+
 

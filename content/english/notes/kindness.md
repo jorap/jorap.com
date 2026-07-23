@@ -5,7 +5,11 @@ description: "Tender regard the Spirit grows for the person in front of you - no
 key_concept: |
   {{< bible "Galatians 5:22-23" >}}
   - Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose.
-  - Kindness is gentle care for the real person in front of you - not acting polite just to look good.
+  - Level 1: Kindness is gentle care for the real person in front of you - not acting polite just to look good.
+  - Level 2: Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, like a hand on a shoulder, not a generic nice-guy pose.
+  - Level 3: Generic niceness performs for observers; kindness meets the person in front of you with soft strength - audience applause is not the aim.
+  - Level 4: Show gentle strength to the actual person in the room - not a polite pose for bystanders.
+  - Level 5: [[Goodness]] pairs with kindness in [[Fruits of the Spirit]] - both aim outward, not at a nice-guy brand.
   - [[Mercy]] is the garden echo: compassion on the guilty, act for the hurt person, release the debt you are counting because the King cleared yours.
   - [[Love Your Neighbor]] and [[The Golden Rule]] turn kindness outward - tender regard for the person in front, not performance niceness for an audience.
   - Kindness at home counts - not only polite distance at the office.

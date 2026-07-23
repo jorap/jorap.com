@@ -4,7 +4,11 @@ meta_title: "Own the Error - Accountability Turns Failure Into Information"
 description: "Owning the error is naming the miss clearly so failure becomes information, not blame theater."
 key_concept: |
   - Accountability turns failure into information.
-  - When you name your mistake clearly, the team learns from it instead of playing a blame game.
+  - Level 1: When you name your mistake clearly, the team learns from it - like raising your hand when you broke the vase instead of blaming the dog.
+  - Level 2: Own-the-error turns failure into information - clear ownership of the miss and the fix.
+  - Level 3: Accountability means naming who owns the outcome, the miss, and the repair - not scattering responsibility until nobody answers.
+  - Level 4: Say what broke, what you did, and what changes before the meeting ends - blame threads block learning.
+  - Level 5: [[Blameless After-Action Review]] and [[Complete the Cycle]] need a named owner - [[Forgiveness at Work]] keeps repair from becoming a permanent blame loop.
   - Name the miss clearly so the team learns from it - not from blame theater.
   - Repair what broke, then fix the process that let it through.
 examples:

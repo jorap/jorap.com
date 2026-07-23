@@ -5,7 +5,11 @@ meta_title: "Maps of Content (MOC) - Index Pages That Think"
 description: "Hub notes get written by hand when one topic spreads across too many files to hold in memory."
 key_concept: |
   - Hand-curated hub when one topic sprawls past what memory can hold.
-  - When one topic spreads across too many files, write one hand-made hub page that links them together.
+  - Level 1: When one topic spreads across too many files, write one hub page that links them - like a table of contents you draw by hand when your binder gets messy.
+  - Level 2: A map of content is a hand-built table of contents when one topic outgrows memory - link the sprawl in one hub.
+  - Level 3: MOCs appear when you open six files to answer one question - the hub beats whatever the folder tree implies.
+  - Level 4: Write the MOC when search fails you twice on the same topic - curate by hand, do not wait for auto-indexing.
+  - Level 5: [[Linking by Meaning]] builds the graph; [[Network Analysis]] finds hubs - a hand MOC wins when metrics cannot replace judgment about what belongs together.
   - A table of contents written by hand beats whatever the folder tree implies.
   - Write the MOC when you keep opening six files to answer one question.
 shareable_thought:

@@ -4,9 +4,12 @@ meta_title: "Grateful Obedience - Obey Because Grace Already Saved"
 description: "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life."
 key_concept: |
   {{< bible ref="John 14:15-17" emphasize="15" >}}
-  
   - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
-  - You obey God because you are already saved and grateful, not to buy your way into heaven.
+  - Level 1: You obey God because you are already saved and grateful - like saying thank you with chores, not to buy your way in.
+  - Level 2: Obedience follows salvation as thanks - like a thank-you note after a gift, not payment to earn the gift.
+  - Level 3: Love shows up as keeping His commands - when obedience tries to buy standing, grace gets traded for wages.
+  - Level 4: Obey because grace already saved you - gratitude keeps commands from turning into a merit ladder.
+  - Level 5: [[Free Grace]] settled eternal life at faith; grateful obedience is the walk after - not the ticket in.
   - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
   - [[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming.
   - [[Fruits of the Spirit]] is what shows up when the posture is real - love, patience, gentleness grown by the Spirit, not performed for credit.

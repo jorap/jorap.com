@@ -4,7 +4,11 @@ meta_title: "Duty of Care"
 description: "If roles flipped, reasonable protection from harm is the bar owed to people under you."
 key_concept: |
   - Duty of care owes people the protection you would expect if roles were reversed - not the minimum the handbook allows.
-  - Treat people the way you would want to be treated if you switched places - not just the bare minimum the rules allow.
+  - Level 1: Treat people how you would want in their seat - not the handbook minimum, like holding a door.
+  - Level 2: Duty of care is like reversing the camera before you sign off on risk - what protection would you expect in their seat?
+  - Level 3: Because teams copy what leaders tolerate, the standard you enforce in the room becomes the real floor, not the poster on the wall.
+  - Level 4: Before you sign off on a risk, ask what protection you would expect if you were in their seat - handbook minimum is not the target.
+  - Level 5: Stop serious harm first - reasonable protection is not optional just because paperwork allows less; [[Ethical Leadership]] makes the visible floor match what you would accept reversed.
   - Duty of care is the legal and moral floor, not a target to hit exactly and stop.
   - Stop serious harm first; reasonable protection is not optional because paperwork says so.
 examples:
@@ -48,5 +52,7 @@ cards:
     back: "Someone watching the exit."
 draft: false
 ---
+
+
 
 

@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 6:1-18" emphasize="6" >}}
   
   - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
-  - Some good deeds belong in public and some stay private - give, pray, and fast for God to see, not for applause.
+  - Level 1: Some good deeds stay private - give, pray, and fast for God to see, not for applause from other people.
+  - Level 2: Some good deeds belong in public and some stay private - give, pray, and fast for God to see, not for applause.
+  - Level 3: Left hand does not know what the right is doing - hidden devotion, public fruit where appropriate.
+  - Level 4: Because applause rewires motive, secret lanes keep worship aimed at the Father, not the feed.
+  - Level 5: Some good shines publicly; some stays hidden so the left hand does not know what the right is doing - audience of One, not performance religion.
   - Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
   - [[Ask Seek Knock]] names how to pray; this names who the audience is.
   - [[Let Your Light Shine]] is the public lane - not every act belongs there.
@@ -63,6 +67,8 @@ cards:
     back: "Father sees hidden - that's enough."
 draft: false
 ---
+
+
 
 
 

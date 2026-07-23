@@ -4,7 +4,11 @@ meta_title: "Signature Move - One Go-To Under Pressure"
 description: "The one practiced answer you reach for when the moment speeds up - on court and in a note."
 key_concept: |
   - A signature move is the one answer I have drilled until I reach for it without thinking when the clock gets loud.
-  - When pressure hits, you reach for the one response you have practiced so many times it comes automatically - not ten untried options.
+  - Level 1: When pressure hits, reach for the one response you practiced until it comes automatically - not ten untried options.
+  - Level 2: When pressure hits, you reach for the one response you have practiced so many times it comes automatically - not ten untried options.
+  - Level 3: One drilled answer under a loud clock - menu shrinks to the move you trust.
+  - Level 4: Because novelty fails under stress, repetition installs the default you want at game speed.
+  - Level 5: A signature move is the one answer I have drilled until I reach for it without thinking when the clock gets loud - [[Build a Reliable Default]] before the moment.
   - In basketball that is the go-to finish or counter - not a highlight reel of ten options.
   - In the garden the same discipline is one principle in the claim and two scenes that feel unrelated but run the same move.
   - Domain labels do not count as different - split surfaces until the reader believes the abstraction travels.
@@ -60,3 +64,5 @@ cards:
     back: "The one drilled answer you reach for when the clock is loud."
 draft: false
 ---
+
+

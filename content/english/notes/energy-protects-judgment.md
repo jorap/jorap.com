@@ -4,7 +4,11 @@ meta_title: "Energy Protects Judgment - Rest Is Part of Performance"
 description: "Sleep and recovery protect judgment - tired calls land worse than rested calls on the same facts."
 key_concept: |
   - Energy protects judgment because tired minds make worse calls than rested minds on the same facts.
-  - A tired brain makes worse choices than a rested one even when the facts are the same, like deciding when you are half asleep.
+  - Level 1: A tired brain picks worse even with the same facts, like choosing dinner when you are half asleep.
+  - Level 2: Judgment is like a phone battery - same apps run fine at full charge but glitch when the bar is red.
+  - Level 3: Because fatigue weakens patience, attention, and restraint, depleted energy shows up later as short fuses and bad calls.
+  - Level 4: Protect sleep and scheduled rest the way you protect workout days - judgment depends on it, even when the deadline screams.
+  - Level 5: Program rest like training - the elite athlete's recovery day is not optional padding; [[Sustainable Performance]] trades heroic weeks for calls that hold on day three.
   - Fatigue hits more than muscles - it weakens patience, attention, restraint, and call quality.
   - Sleep and scheduled rest refill what hard work drains - judgment, patience, attention.
   - Skipping recovery does not show up immediately - it shows up three days later as a short fuse and bad calls.
@@ -66,4 +70,6 @@ cards:
     back: "Not another heroic scrimmage"
 draft: false
 ---
+
+
 

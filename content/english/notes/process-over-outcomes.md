@@ -4,7 +4,11 @@ meta_title: "Process Over Outcomes - Why James Clear's Line Stuck"
 description: "One heroic sprint does not beat a routine you can rerun when motivation dips."
 key_concept: |
   - One hero sprint does not survive a bad week.
-  - One amazing burst of effort does not carry you through a whole rough week - a steady routine you can repeat does.
+  - Level 1: One big burst of effort does not carry you through a rough week - a steady routine you can repeat does.
+  - Level 2: One amazing burst of effort does not carry you through a whole rough week - a steady routine you can repeat does.
+  - Level 3: Hero sprints feel decisive - repeatable process survives the Tuesday you have no spark.
+  - Level 4: Because outcomes swing with weather and luck, the system you can run tired beats the peak you cannot repeat.
+  - Level 5: One hero sprint does not survive a bad week - [[Process Over Outcomes]] on ordinary Tuesdays beats one retreat week treated like proof.
   - I protect the loop I can rerun when motivation dips - same proofing steps on a slow Tuesday and a wedding weekend.
   - [[Compounding]] only stacks when the process holds
   - [[Notice the Good]] reinforces the behavior in the loop, not only the score that happened to land this time.
@@ -66,6 +70,8 @@ cards:
     back: "Repeatable beats one big win."
 draft: false
 ---
+
+
 
 
 

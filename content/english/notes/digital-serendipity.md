@@ -4,7 +4,11 @@ meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
 description: "Old notes surprise on schedule because links were made on purpose, not by luck."
 key_concept: |
   - Serendipity is not luck - it is systems where old notes resurface at the right time.
-  - Good surprises happen when your old notes show up at the right time because your system brings them back, not because you got lucky.
+  - Level 1: Your old note shows up when you need it because you filed it right, like a book on your shelf.
+  - Level 2: Serendipity here is like a well-labeled junk drawer - you forgot what was inside until the label rhymes with today's problem.
+  - Level 3: Because notes were linked on purpose, a new problem can rhyme with an old idea you forgot you wrote down.
+  - Level 4: Link each new note to two neighbors so forgotten ideas can surprise you when a similar problem shows up later this month.
+  - Level 5: A walkable graph beats hoping you remember the right filename - [[Periodic Knowledge Review]] surfaces what links already connected before the crisis hits.
   - Old notes surprise on schedule because they were linked on purpose, not because someone got lucky.
   - Link notes on purpose so forgotten ideas surprise when a new problem rhymes.
   - A walkable graph beats hoping you will remember the right filename.
@@ -47,5 +51,7 @@ cards:
     back: "The \"see also\" arrow on the adobo card did the work"
 draft: false
 ---
+
+
 
 

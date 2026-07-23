@@ -4,8 +4,11 @@ meta_title: "Ethical Leadership"
 description: "What gets let slide in front of the team becomes their real standard, not the poster."
 key_concept: |
   - Ethical leadership means what you let slide in front of the team becomes their real standard.
-  - What you let slide in front of your team becomes what they think is okay, like copying what the boss ignores.
-
+  - Level 1: What you ignore in front of your team tells them it is okay, like kids copying what parents let slide.
+  - Level 2: Ethical leadership is like a thermostat - the room settles to what you tolerate, not what the poster on the wall says.
+  - Level 3: Because teams mirror what leaders enforce, every ignored shortcut teaches the team that shortcut is allowed.
+  - Level 4: Call out the small slip in front of the team before it becomes the culture - silence reads as yes.
+  - Level 5: What you let slide in front of the team becomes their real standard - [[Integrity]] the team can see beats what you preach on the poster.
   - The standard you walk past is the standard you accept for everyone under you.
   - [[Integrity]] the team can see beats what you preach on the poster.
   - Silence in the room is a decision too - people read it as a yes.
@@ -53,4 +56,6 @@ cards:
     back: "Report the hazard - protect people."
 draft: false
 ---
+
+
 

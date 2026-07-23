@@ -4,7 +4,11 @@ meta_title: "Atomic Notes - One Idea, One File"
 description: "One clear claim per note - split before the ands pile up."
 key_concept: |
   - One claim I would say out loud - too many ands, split it.
-  - Each note should make one clear point you could say in one breath - if it has too many ideas, split it into two notes.
+  - Level 1: Like one LEGO brick with one shape - if it needs three parts glued on, split it into two bricks.
+  - Level 2: A sticky note that says "call coach" is one note - "call coach and buy shoes and fix bike" is three.
+  - Level 3: Atomic notes hold one claim you would say out loud - too many ideas in one file means links and maps cannot do their job.
+  - Level 4: Before you save, ask what one sentence you would cite in conversation - "browser tips and meeting notes" is two notes, not one.
+  - Level 5: Link with `[[wikilinks]]` and let [[Maps of Content]] organize - faith parallel: [[Let Your Yes Be Yes]], say one plain thing; headings inside one file usually mean you need two notes.
   - **Rule of thumb:** one thing I would cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
   - Small notes stack like Lego blocks - linked, not merged.
   - Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing.

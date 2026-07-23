@@ -6,7 +6,11 @@ key_concept: |
   {{< bible "Matthew 5:3-12" >}}
   
   - Eight blessings flip the scoreboard - kingdom favor for the spiritually needy, not the self-sufficient.
-  - Jesus lists eight blessings that flip who looks winning - God favors people who know they need Him, not people who think they already have it all.
+  - Level 1: Jesus lists blessings for people who know they need God - not for people who think they already have it all.
+  - Level 2: Eight blessings reverse the scoreboard - kingdom favor lands on the spiritually needy, not the self-sufficient.
+  - Level 3: Beatitude means supreme blessedness - each line names who receives kingdom favor and why the world's winners miss it.
+  - Level 4: Read one beatitude as a mirror this week - where do you look self-sufficient when Jesus names the needy as blessed?
+  - Level 5: Poor in spirit through persecuted for righteousness - eight moves that flip the scoreboard; kingdom favor for those the world counts out under [[Free Grace]].
   - "Beatitude" means supreme blessedness.
   - Poor in spirit - broke before God, receiving the kingdom as gift not wage.
   - Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly.
@@ -80,6 +84,4 @@ cards:
     back: "Kingdom of heaven - blessed are persecuted."
 draft: false
 ---
-
-
 

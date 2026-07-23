@@ -4,7 +4,11 @@ meta_title: "Emotional Regulation - Feel It Without Being Ruled By It"
 description: "Feel the spike without letting it pick the next sentence."
 key_concept: |
   - Emotional regulation feels the spike without letting it pick the next sentence.
-  - You feel the angry spike but pause before it picks your next words, like taking a breath before you hit send.
+  - Level 1: Feel the angry heat but pause before you hit send, like taking one breath with your thumb off the button.
+  - Level 2: Emotional regulation is like a smoke alarm that beeps without burning the house down - feel the spike, choose the next sentence.
+  - Level 3: Because heat arrives faster than judgment, the gap between feeling and speaking is where damage gets prevented.
+  - Level 4: Feel the spike, name it, and wait one beat before you mail the reply - speed feels honest but costs more than the pause.
+  - Level 5: Regulation is not numbness - it is the gap between heat and the next sentence; [[Slow the Moment]] buys that gap; [[Name the Feeling]] labels the spike before it picks tone.
   - Feel the spike; do not mail it.
   - Regulation is not numbness - it is the gap between heat and the next sentence.
   - [[Slow the Moment]] buys that gap; [[Name the Feeling]] gives the spike a label before it picks tone.
@@ -61,6 +65,8 @@ cards:
     back: "Feel the spike, don't steer the team with it"
 draft: false
 ---
+
+
 
 
 

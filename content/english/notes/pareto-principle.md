@@ -4,7 +4,11 @@ meta_title: "Pareto Principle - Find the 20% That Drives 80%"
 description: "The Pareto principle is the 80/20 rule - most results come from a small slice of effort."
 key_concept: |
   - Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law).
-  - Roughly eight out of ten results often come from two out of ten of your effort - a shortcut, not a strict rule.
+  - Level 1: Roughly eight out of ten results often come from two out of ten of your effort - like most of the apples on one branch of the tree, not spread evenly on every twig.
+  - Level 2: Pareto principle is shorthand - roughly eighty percent of results from twenty percent of effort, named for Vilfredo Pareto.
+  - Level 3: Most outcomes cluster in a minority of inputs - the ratio is a heuristic for where to spend disproportionate focus.
+  - Level 4: List your top three outputs last month - find which inputs produced them and protect that slice before you optimize the rest.
+  - Level 5: [[Low Hanging Fruit]] and [[Minimum Effective Dose]] apply the same skew - not a law, but a lens before you spread hero energy evenly.
   - I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle?
   - Same rule for flashcards: only spine notes carry `review: true` here
   - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden.

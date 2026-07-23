@@ -4,7 +4,11 @@ meta_title: "Platform Reach Is Borrowed - You're a Tenant, Not the Landlord"
 description: "Followers and algorithm reach are rented - steward the megaphone, own the vault."
 key_concept: |
   - On Facebook, X, YouTube, or any social app, you are a tenant.
-  - On social apps you are like a renter - the platform owns the space and can change the rules overnight.
+  - Level 1: On social apps you are like a renter - the platform owns the space and can change the rules overnight, like living in a house where the landlord can lock the door.
+  - Level 2: Platform reach is borrowed - on Facebook, X, or YouTube you are a tenant, not the landlord.
+  - Level 3: Audience on rented platforms can vanish with an algorithm change - build on ground you own.
+  - Level 4: Post where you rent for discovery, but keep canonical work on domain and files you control - export followers you cannot export are not assets.
+  - Level 5: [[Digital Minimalism]] and [[OKF Export]] assume you can leave - tenant reach is marketing; owned site and inbox are the vault.
   - Reach throttles, rules change, accounts get restricted - audience you built can vanish overnight.
   - [[Digital Garden]] and [[Drafting in Public]] put canonical copy on land you control; social is megaphone, not vault.
   - [[Future-Proofing Knowledge]] is the boring backup - markdown in git survives when the app dies.

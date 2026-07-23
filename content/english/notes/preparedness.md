@@ -4,7 +4,11 @@ meta_title: "Preparedness - Rehearse Before the Emergency Owns the Clock"
 description: "Run the fire drill bored rather than improvise when the alarm is real."
 key_concept: |
   - Rehearse, document, and test before the emergency owns the clock.
-  - Practice the plan, write it down, and try it out while you still have time - do not wait until the crisis is already running the show.
+  - Level 1: Practice the plan and write it down before the emergency runs the show - like a fire drill before the real alarm.
+  - Level 2: Practice the plan, write it down, and try it out while you still have time - do not wait until the crisis is already running the show.
+  - Level 3: Rehearsal while calm beats improvisation while the clock is loud - document steps someone else could run.
+  - Level 4: Because emergencies compress decisions, prep moves choices upstream - tested runbooks fail less than heroics under smoke.
+  - Level 5: Rehearse, document, and test before the emergency owns the clock - the handbook minimum is not the same as a practiced team.
   - I would rather run the fire drill bored than improvise when the alarm is real.
   - Practice the move slowly so you can run it when the clock is loud.
   - The rehearsal does not need to be dramatic - walking the checklist once on a slow day counts.
@@ -55,4 +59,6 @@ cards:
     back: "Two exits before anyone smells smoke."
 draft: false
 ---
+
+
 

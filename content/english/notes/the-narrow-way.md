@@ -6,10 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 7:13-14" emphasize="14" >}}
   
   - Broad road is crowded and easy; narrow gate costs self-rule - few find it, but it is the one Jesus named.
-  - The easy path is wide and crowded; the path Jesus points to is harder because you give up running your own life - fewer people take it.
-
-  {{< bible ref="Matthew 7:21" label="Matthew 7:21-23" emphasize="21" >}}
-  
+  - Level 1: The easy path is wide and crowded; the path Jesus points to is harder because you give up running your own life.
+  - Level 2: Broad road is crowded and easy; narrow gate costs self-rule - few find it, but it is the one Jesus named.
+  - Level 3: Few find the narrow way because self-rule feels safer than surrender - storms later reveal which foundation held.
+  - Level 4: Ask which path you are building on today - hearing without doing is sand; hear and do is rock.
+  - Level 5: In [[Free Grace]] terms, the narrow gate is faith in Christ - not the broad road of self-righteousness or empty profession without obedience.
   - Not everyone who says Lord Lord enters - false profession vs believer who stumbles and may lose reward but stays saved.
   - In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation.
   - Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters - those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved.
@@ -62,5 +63,4 @@ cards:
     back: "I take narrow - do not follow the crowd."
 draft: false
 ---
-
 

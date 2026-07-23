@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 5:43-48" emphasize="44" >}}
   
   - Bless and pray for persecutors - the Father sends sun and rain on just and unjust; I copy that kindness.
-  - Pray for people who hurt you - God sends sun and rain on good people and bad people alike, and you can act the same way.
+  - Level 1: Pray for people who hurt you - like God sending rain on good gardens and weed patches alike, and you can copy that kindness.
+  - Level 2: Bless persecutors because the Father treats just and unjust alike - sun and rain on both, and you copy that pattern.
+  - Level 3: Enemy-love means prayer and blessing for people who hurt you - not agreement, not pretending the harm did not happen.
+  - Level 4: When someone slanders you, pray before you reply - ordinary love loves those who love back; divine-shaped love blesses the persecutor.
+  - Level 5: The Father's [[Free Grace]] toward the unjust is the pattern - [[Turn the Other Cheek]] handles personal insult; enemy-love handles sustained opposition without retaliation dressed as justice.
   - Loving only people who love you back is ordinary; loving enemies is divine-shaped.
   - Prayer and blessing are the practical handles - not agreement, not pretending harm did not happen.
   - The Father's free grace toward the unjust is the pattern: I love enemies because God loved me first.

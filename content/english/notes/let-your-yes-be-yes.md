@@ -6,7 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 5:33-37" emphasize="37" >}}
   
   - Yes means yes - padded oaths mean your word was not trustworthy on its own.
-  - If you pile on extra promises so people believe you, your plain yes was not enough on its own.
+  - Level 1: Say yes when you mean yes - like promising a friend you will come to their party without stacking ten extra oaths so they believe you.
+  - Level 2: Extra swearing and hype mean people did not trust your plain word before you piled on more.
+  - Level 3: Jesus taught let your yes be yes because padded promises show your ordinary word was never enough on its own.
+  - Level 4: Say yes or no plainly at work and home - if you need spin to sound believable, fix your follow-through, not your vocabulary.
+  - Level 5: [[Integrity]] of speech is [[Heart Righteousness]], not performance - padded oaths mirror [[Atomic Notes]] stuffed with prose to sound smart instead of one plain claim.
   - PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart.
   - [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
 examples:

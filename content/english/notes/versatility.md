@@ -4,7 +4,11 @@ meta_title: "Versatility - More Than One Way to Contribute"
 description: "Plug into more than one lane when the team or the client needs a shift."
 key_concept: |
   - You can contribute in more than one lane when the team or the market shifts.
-  - You can help in more than one role when the team or the job suddenly needs someone to switch lanes.
+  - Level 1: You can help in more than one role when the team or the job suddenly needs someone to switch lanes.
+  - Level 2: Versatility means more than one answer ready when the sick day or the rush was not on the calendar.
+  - Level 3: Markets and teams shift lanes without warning - contribution in more than one role keeps you useful when the plan breaks.
+  - Level 4: Keep one backup skill warm that is not your primary lane - ready beats surprised.
+  - Level 5: Nobody schedules the sick day or the rush - versatility is staying useful across roles, tools, and contexts; [[Adaptability]] names the same move when the plan breaks.
   - Nobody schedules the sick day or the rush - versatility is just having more than one answer ready when they hit.
   - Versatility is staying useful across roles, tools, and contexts - not locked to one lane.
 examples:

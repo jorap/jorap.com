@@ -4,7 +4,11 @@ meta_title: "Failure as Feedback - Misses Are Signal When You Listen"
 description: "A miss is signal about process or skill, not proof of being the wrong kind of person."
 key_concept: |
   - Failure as feedback reads a miss as signal about process or skill, not proof of the wrong identity.
-  - A miss tells you what to fix in your process or skill - it does not mean you are the wrong kind of person.
+  - Level 1: A wrong answer shows which chapter to reread, like a test showing where to study next.
+  - Level 2: Failure as feedback is like a check-engine light - read the miss as data about process or skill, not a verdict on who you are.
+  - Level 3: Because identity and outcome get tangled under stress, separating miss from self keeps learning possible after a public flop.
+  - Level 4: After a miss, write one process fix and one skill rep - not a verdict on who you are - then rerun the slice that broke.
+  - Level 5: Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire; the miss is feedback on what to build next.
   - A miss tells you what to fix next - process, skill, assumption - if you do not treat it as an identity verdict.
   - Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire.
   - The miss is feedback on what to build next, not proof you were never in.
@@ -63,6 +67,8 @@ cards:
     back: "Fix the math - not proof I can't do numbers."
 draft: false
 ---
+
+
 
 
 

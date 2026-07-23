@@ -6,7 +6,11 @@ key_concept: |
   {{< bible "Matthew 5:7" >}}
   
   - Show mercy and you will receive mercy - the beatitude ties compassion out to compassion back.
-  - When you show mercy to others, mercy comes back to you - kindness out, kindness in.
+  - Level 1: When you show mercy to others, mercy comes back to you - like sharing your snack and finding someone saved you a seat later.
+  - Level 2: The beatitude ties compassion outward to compassion returned - show mercy and you will receive mercy.
+  - Level 3: Mercy withholds punishment deserved and calls you to show the same - grace gives good you could not earn; mercy spares bad you had coming.
+  - Level 4: Before you play judge, remember you needed mercy first - then act toward the debtor the way you wanted the King to act toward you.
+  - Level 5: [[Grace]] and [[Forgiveness]] pair with [[Free Grace]] on eternal life - [[Judge Not]] and [[Love Your Enemies]] turn mercy outward; [[Sunk Cost Fallacy]] in reverse stops collecting old hurt when the ledger closed.
 
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
   

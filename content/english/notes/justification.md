@@ -4,20 +4,17 @@ meta_title: "Justification - Declared Righteous at Faith"
 description: "God declared me righteous at faith - before my obedience caught up."
 key_concept: |
   {{< bible ref="Luke 18:9-14" emphasize="14" >}}
-  
   - The tax collector went home justified - humility before God, not self-promotion, is what Jesus commended.
-  - God declared the humble man right with Him - the proud man who bragged about his good deeds did not.
-  
+  - Level 1: God declared the humble man right with Him - the proud man who bragged about his good deeds did not.
+  - Level 2: God declared the humble tax collector right with Him - the proud man who listed his deeds did not go home justified, like empty hands versus a trophy speech.
+  - Level 3: Justification is God's declarative yes on the humble - boasting about deeds did not buy the verdict, because the court measures trust, not performance.
+  - Level 4: Come to God with empty hands and receive the justified verdict - not a resume of religious performance.
+  - Level 5: [[Free Grace]] applies justification to eternal life; [[Sanctification]] is the walk after - do not merge the categories.
   {{< bible ref="Romans 3:21-26" emphasize="24" >}}
-  
   - Paul names the verdict - justified as a gift by grace, Christ's redemption, not my performance.
-  
   {{< bible ref="Romans 4:4-5" emphasize="5" >}}
-  
   - Faith credited as righteousness for the one who believes, not the one who works the room.
-  
   {{< bible ref="Romans 5:1-2" emphasize="1" >}}
-  
   - Justified by faith, peace with God - the case closed at trust, not at perfect obedience.
   - [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me.
   - Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes.

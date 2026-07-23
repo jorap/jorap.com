@@ -5,7 +5,11 @@ meta_title: "Pressure Reveals Weakness - Build for When It Gets Hard"
 description: "Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
 key_concept: |
   - Pressure reveals what easy days hide.
-  - When things get hard you see the weak spots that calm days kept hidden - like how a stress test shows where a bridge might crack.
+  - Level 1: When things get hard you see weak spots calm days hid - like a stress test showing where a bridge might crack.
+  - Level 2: When things get hard you see the weak spots that calm days kept hidden - like how a stress test shows where a bridge might crack.
+  - Level 3: Easy weeks hide sloppy habits - load, deadline, or conflict surfaces what rehearsal never touched.
+  - Level 4: Because stress removes margin, the failure mode you ignored in calm weather shows up first under load.
+  - Level 5: Pressure reveals what easy days hide - the bridge crack, the temper loop, the process step nobody owns until the incident.
   - Build habits and systems that still work when stakes spike - not just when things are calm and cooperative.
   - Rehearse the move on easy days so it is already loaded when pressure hits.
   - What survives contact with pressure was built long before the pressure showed up.
@@ -37,6 +41,8 @@ aliases: ["performance under pressure"]
 featured: false
 draft: false
 ---
+
+
 
 ## Execution and follow-through
 
