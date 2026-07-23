@@ -4,7 +4,7 @@
   Self-check: hugo build && rg -q 'Luke 5:16 NASB1995' public/notes/withdraw-to-pray/index.html
 */ -}}
 {{- $raw := .Raw -}}
-{{- $bookRe := index site.Data "bible-books" "pattern" -}}
+{{- $bookRe := index hugo.Data "bible-books" "pattern" -}}
 {{- $fullRefRe := printf `%s\s+\d+:\d+(?:-\d+)?` $bookRe -}}
 
 {{- $shown := dict -}}
