@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Dad puts his phone in the drawer so one math sheet gets done - interruptions go on a list for later.
   - Level 3: Hard thinking earns a protected block - it works only when phone is away and door is closed, not just fewer tabs.
   - Level 4: Block ninety minutes with phone in the gym bag before the drill breakdown rots another week - capture catches what tries to interrupt.
-  - Level 5: Capture catches what tries to interrupt the block - deep work fails when interruptions get sorted mid-thought instead of landing in the trusted inbox.
+  - Level 5: Capture catches what tries to interrupt the block - deep work fails when interruptions get sorted mid-thought instead of landing in [[The Trusted Inbox]].
   - The block only works if it is actually protected - phone away, door closed, not just fewer tabs open.
   - Hard thinking earns a protected block; capture handles what tries to interrupt it.
 examples:

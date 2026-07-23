@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Scheduled review beats cramming because memory fades on a curve - revisit before panic, not after.
   - Level 3: Spaced repetition works when review targets retention, application, and explanation - not bookmark counts or vanity metrics.
   - Level 4: Set a review schedule for spine notes you actually use - drill what you need to explain, not every line you saved.
-  - Level 5: The wiki holds prose you can defend; spaced cards hold what you need on a timer - same drill lane as [[Flashcards]] and [[Ask Seek Knock]] on rhythm.
+  - Level 5: The wiki holds prose you can defend; spaced cards hold what you need on a timer - same drill lane as [Flashcards](/notes/flashcards/) and [[Ask Seek Knock]] on rhythm.
   - The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing.
   - In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true`
   - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`.

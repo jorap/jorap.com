@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Read the link map for orphan notes and over-linked hubs - like a city map showing dead streets and one overcrowded intersection.
   - Level 3: Orphans and over-linked hubs skew the whole garden - spot them early or maintenance chases symptoms instead of causes.
   - Level 4: Open the graph view and fix orphan notes and overloaded hubs before they distort how you navigate the garden.
-  - Level 5: [[Graph]] is the live map; [[Issues]] is where you fix what the analytics flagged - not vanity link counts.
+  - Level 5: [Graph](/notes/graph/) is the live map; [Issues](/notes/issues/) is where you fix what the analytics flagged - not vanity link counts.
   - Orphan notes and hub sprawl both signal a graph that needs pruning.
   - The orphan list is a fix-this-week queue - not a pretty poster.
 examples:

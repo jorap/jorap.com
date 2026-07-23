@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Notice-the-good means specific praise - name the rep that worked, not empty approval.
   - Level 3: Good job teaches nothing - Your rebounds won that scrimmage teaches the behavior to repeat.
   - Level 4: Praise the exact move you want copied - vague approval feels nice and changes nothing.
-  - Level 5: [[Coaching Ethics]] and [[Gentleness]] both need precision - empty cheer is [[Name the Feeling]] without the follow-through that builds skill.
+  - Level 5: [[Coaching Ethics]] and [[Gentleness]] both need precision - empty cheer is [[Name the Feeling]] without the [[Complete the Cycle]] that builds skill.
   - Specific praise names the behavior I want again - that is how [[Process Over Outcomes]] sounds out loud.
   - Vague thanks flatters; spelled-out moves give people something to repeat tomorrow.
   - The stake is reinforcement: praise the scoreboard and the steady process stays invisible.

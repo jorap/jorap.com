@@ -9,7 +9,7 @@ key_concept: |
   - Level 2: Jesus came to serve and give His life - real greatness bends down like a parent tying a child's shoe, not climbing the worldly ladder.
   - Level 3: Worldly rank climbs upward; kingdom greatness bends downward to serve and give - opposite directions, opposite rewards.
   - Level 4: Measure greatness by who you served, not by who served your platform.
-  - Level 5: [[Servant Leadership]] and [[Follow Christ Then Lead]] keep the ladder inverted - influence without climbing over people.
+  - Level 5: [[Servant Leadership]] and [[Follow Christ, Then Lead]] keep the ladder inverted - influence without climbing over people.
   - Status in the kingdom runs opposite to the world's ladder: exalt yourself and you will be humbled; humble yourself and you will be exalted.
   - Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]].
   - [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.

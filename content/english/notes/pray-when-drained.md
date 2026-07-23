@@ -9,7 +9,7 @@ key_concept: |
   - Level 1: After feeding five thousand people Jesus was tired, but He still went up a mountain alone to pray.
   - Level 2: After feeding five thousand people Jesus was tired, but He still went up a mountain alone to pray instead of skipping prayer because He was worn out.
   - Level 3: Crowd ministry drained Him - dismissal and solitude came first, then prayer on the mountain, not collapse into busyness.
-  - Level 4: Because exhaustion followed heavy service, prayer was the recovery move - drained was the cue to meet the Father, not the excuse to skip.
+  - Level 4: Because exhaustion followed heavy service, prayer was [[Energy Protects Judgment]] - drained was the cue to meet the Father, not the excuse to skip.
   - Level 5: After feeding five thousand, He dismissed the crowds and went up the mountain alone to pray - drained was the cue, not the excuse.
   - Mark 6:46 says the same move after that long day - service finished, then prayer, not collapse without God.
   - [[Don't Worry]] trusts provision; this names what to do when the day already emptied the tank.

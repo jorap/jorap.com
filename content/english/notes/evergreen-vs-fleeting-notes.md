@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Quick notes catch ideas you might lose this week; slow notes hold what you trust next year.
   - Level 2: Fleeting and evergreen are two speeds on one desk - capture fast in the tray, promote to the cabinet only when the claim survives a second read.
   - Level 3: Because not every spark deserves a permanent note, promotion from fleeting to evergreen is a deliberate choice, not automatic archiving.
-  - Level 4: Capture fast in fleeting; promote only when you would trust the claim next year - forcing everything evergreen buries what was only true this week.
+  - Level 4: [[Capture]] fast in fleeting; promote only when you would trust the claim next year - forcing everything evergreen buries what was only true this week.
   - Level 5: [[Note Maturity]] is the path between - fleeting catches what might vanish this week; evergreen holds what you would cite next year after promotion earns it.
   - Fleeting notes catch sparks you would lose by Friday; evergreen notes hold claims you would cite next year.
   - The stake is rot - sparks that never promote clutter the inbox, and forcing everything evergreen buries what was only true this week.

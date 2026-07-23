@@ -15,6 +15,10 @@
     "created": "2026-07-19T12:50:19.848Z",
     "updated": "2026-07-23T12:20:12.713Z"
   },
+  "notes/active-reading.md": {
+    "created": "2026-07-23T12:47:05.658Z",
+    "updated": "2026-07-23T12:47:05.659Z"
+  },
   "notes/adaptability.md": {
     "created": "2026-07-19T12:50:19.848Z",
     "updated": "2026-07-23T12:20:12.714Z"
@@ -34,6 +38,10 @@
   "notes/assurance.md": {
     "created": "2026-07-19T12:50:19.849Z",
     "updated": "2026-07-23T12:20:16.960Z"
+  },
+  "notes/atomic-habits.md": {
+    "created": "2026-07-23T12:46:57.398Z",
+    "updated": "2026-07-23T12:46:57.399Z"
   },
   "notes/atomic-notes.md": {
     "created": "2026-07-19T12:50:19.849Z",
@@ -169,7 +177,7 @@
   },
   "notes/deep-work.md": {
     "created": "2026-07-19T12:50:19.852Z",
-    "updated": "2026-07-23T12:21:01.957Z"
+    "updated": "2026-07-23T12:46:26.743Z"
   },
   "notes/deliberate-practice.md": {
     "created": "2026-07-19T12:50:19.852Z",
@@ -253,7 +261,7 @@
   },
   "notes/evergreen-vs-fleeting-notes.md": {
     "created": "2026-07-19T12:50:19.855Z",
-    "updated": "2026-07-23T12:21:53.913Z"
+    "updated": "2026-07-23T12:46:37.879Z"
   },
   "notes/execution.md": {
     "created": "2026-07-19T12:50:19.855Z",
@@ -337,7 +345,7 @@
   },
   "notes/getting-things-done.md": {
     "created": "2026-07-19T12:50:19.857Z",
-    "updated": "2026-07-23T12:21:53.915Z"
+    "updated": "2026-07-23T12:46:31.213Z"
   },
   "notes/git-based-cms.md": {
     "created": "2026-07-19T12:50:19.857Z",
@@ -365,7 +373,7 @@
   },
   "notes/graph-view-analytics.md": {
     "created": "2026-07-19T12:50:49.809Z",
-    "updated": "2026-07-23T12:20:48.912Z"
+    "updated": "2026-07-23T12:46:26.743Z"
   },
   "notes/graph.md": {
     "created": "2026-07-19T12:50:19.858Z",
@@ -413,7 +421,7 @@
   },
   "notes/humility-and-service.md": {
     "created": "2026-07-19T12:50:19.860Z",
-    "updated": "2026-07-23T12:20:48.914Z"
+    "updated": "2026-07-23T12:46:29.784Z"
   },
   "notes/inbox-zero.md": {
     "created": "2026-07-19T12:50:19.860Z",
@@ -421,7 +429,7 @@
   },
   "notes/incident-investigation.md": {
     "created": "2026-07-19T12:50:19.860Z",
-    "updated": "2026-07-23T12:20:48.915Z"
+    "updated": "2026-07-23T12:46:29.330Z"
   },
   "notes/influence-without-title.md": {
     "created": "2026-07-19T12:50:19.860Z",
@@ -505,7 +513,7 @@
   },
   "notes/lean-startup.md": {
     "created": "2026-07-19T12:50:19.862Z",
-    "updated": "2026-07-23T12:20:48.918Z"
+    "updated": "2026-07-23T12:46:36.708Z"
   },
   "notes/learning-organizations.md": {
     "created": "2026-07-19T12:50:19.862Z",
@@ -517,7 +525,7 @@
   },
   "notes/let-your-yes-be-yes.md": {
     "created": "2026-07-23T12:12:39.584Z",
-    "updated": "2026-07-23T12:21:14.909Z"
+    "updated": "2026-07-23T12:46:37.087Z"
   },
   "notes/life-before-achievement.md": {
     "created": "2026-07-23T12:12:39.585Z",
@@ -555,9 +563,13 @@
     "created": "2026-07-23T12:12:39.586Z",
     "updated": "2026-07-23T12:21:14.911Z"
   },
+  "notes/love.md": {
+    "created": "2026-07-23T12:46:56.845Z",
+    "updated": "2026-07-23T12:46:56.846Z"
+  },
   "notes/low-hanging-fruit.md": {
     "created": "2026-07-23T12:12:39.587Z",
-    "updated": "2026-07-23T12:21:14.911Z"
+    "updated": "2026-07-23T12:46:38.260Z"
   },
   "notes/maintenance-window.md": {
     "created": "2026-07-23T12:12:39.587Z",
@@ -589,11 +601,11 @@
   },
   "notes/minimum-effective-dose.md": {
     "created": "2026-07-23T12:12:39.588Z",
-    "updated": "2026-07-23T12:21:14.913Z"
+    "updated": "2026-07-23T12:46:38.810Z"
   },
   "notes/minimum-viable-product.md": {
     "created": "2026-07-23T12:12:39.588Z",
-    "updated": "2026-07-23T12:21:14.913Z"
+    "updated": "2026-07-23T12:46:39.295Z"
   },
   "notes/mobile-capture-workflows.md": {
     "created": "2026-07-23T12:12:39.588Z",
@@ -625,7 +637,7 @@
   },
   "notes/notice-the-good.md": {
     "created": "2026-07-23T12:12:39.589Z",
-    "updated": "2026-07-23T12:21:14.915Z"
+    "updated": "2026-07-23T12:46:30.953Z"
   },
   "notes/okf-export.md": {
     "created": "2026-07-23T12:12:39.590Z",
@@ -637,7 +649,7 @@
   },
   "notes/outcomes-over-pitch-decks.md": {
     "created": "2026-07-23T12:12:39.590Z",
-    "updated": "2026-07-23T12:21:14.915Z"
+    "updated": "2026-07-23T12:46:28.848Z"
   },
   "notes/own-the-error.md": {
     "created": "2026-07-23T12:12:39.590Z",
@@ -645,7 +657,7 @@
   },
   "notes/own-your-part.md": {
     "created": "2026-07-23T12:12:39.590Z",
-    "updated": "2026-07-23T12:21:14.915Z"
+    "updated": "2026-07-23T12:46:28.299Z"
   },
   "notes/para-method.md": {
     "created": "2026-07-23T12:12:39.590Z",
@@ -685,7 +697,7 @@
   },
   "notes/platform-reach-is-borrowed.md": {
     "created": "2026-07-23T12:12:39.592Z",
-    "updated": "2026-07-23T12:21:14.918Z"
+    "updated": "2026-07-23T12:46:26.743Z"
   },
   "notes/practice-small-experiments.md": {
     "created": "2026-07-23T12:12:51.573Z",
@@ -701,7 +713,7 @@
   },
   "notes/pray-when-drained.md": {
     "created": "2026-07-23T12:12:51.575Z",
-    "updated": "2026-07-23T12:21:19.195Z"
+    "updated": "2026-07-23T12:46:46.856Z"
   },
   "notes/prayer-jesus-taught.md": {
     "created": "2026-07-23T12:12:51.575Z",
@@ -722,6 +734,10 @@
   "notes/priorities-before-the-inbox.md": {
     "created": "2026-07-23T12:12:51.576Z",
     "updated": "2026-07-23T12:21:19.196Z"
+  },
+  "notes/process-mapping.md": {
+    "created": "2026-07-23T12:47:01.279Z",
+    "updated": "2026-07-23T12:47:01.281Z"
   },
   "notes/process-over-outcomes.md": {
     "created": "2026-07-23T12:12:51.576Z",
@@ -873,7 +889,7 @@
   },
   "notes/spaced-repetition.md": {
     "created": "2026-07-19T12:50:19.870Z",
-    "updated": "2026-07-23T12:24:31.654Z"
+    "updated": "2026-07-23T12:46:27.393Z"
   },
   "notes/staged-rollout.md": {
     "created": "2026-07-19T12:50:19.871Z",
@@ -933,7 +949,7 @@
   },
   "notes/take-up-your-cross.md": {
     "created": "2026-07-19T12:50:19.872Z",
-    "updated": "2026-07-23T12:24:31.653Z"
+    "updated": "2026-07-23T12:46:37.136Z"
   },
   "notes/taxonomy.md": {
     "created": "2026-07-19T12:50:19.872Z",
@@ -981,7 +997,7 @@
   },
   "notes/the-narrow-way.md": {
     "created": "2026-07-19T12:50:19.873Z",
-    "updated": "2026-07-23T12:24:31.648Z"
+    "updated": "2026-07-23T12:46:46.857Z"
   },
   "notes/the-second-brain-workflow.md": {
     "created": "2026-07-19T12:50:19.873Z",
@@ -1021,7 +1037,7 @@
   },
   "notes/weekly-review-checklists.md": {
     "created": "2026-07-19T12:50:19.875Z",
-    "updated": "2026-07-23T12:24:31.650Z"
+    "updated": "2026-07-23T12:46:27.884Z"
   },
   "notes/withdraw-to-pray.md": {
     "created": "2026-07-22T12:18:54.528Z",

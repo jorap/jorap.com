@@ -6,7 +6,7 @@ key_concept: |
   - The smallest thing I can ship that tests the idea - not a polished fantasy.
   - Level 1: Ship the smallest version that tests whether anyone wants it - like baking one cupcake before you make a whole wedding cake.
   - Level 2: An MVP is the smallest shippable test of the idea - rough proof beats polished fantasy in private.
-  - Level 3: Minimum viable product means learning in public with the least scope that still answers whether anyone cares.
+  - Level 3: Minimum viable product means [[Drafting in Public]] with the least scope that still answers whether anyone cares.
   - Level 4: Publish the rough note or prototype, watch reaction, iterate - months of private polish without a user is avoidance.
   - Level 5: [[Ship It]] and [[Lean Startup]] depend on this loop - [[Evergreen Notes]] can mature after the first honest publish proves someone reads.
   - I would rather publish a rough note or prototype and learn than polish in private for months.

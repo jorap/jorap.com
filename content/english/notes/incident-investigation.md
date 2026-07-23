@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Blameless tone keeps investigation on system causes - people fix processes when they are not scapegoated, like fixing the leaky pipe instead of yelling at the puddle.
   - Level 3: Blame chases a name; investigation chases the condition that made failure possible - fix the layout, not just the person present.
   - Level 4: Run post-incident reviews for system causes first - who was nearby is context, not the root.
-  - Level 5: [[Blameless After Action Review]] shares the tone; [[Heed Every Near Miss]] feeds hazards before incidents land.
+  - Level 5: [[Blameless After-Action Review]] shares the tone; [[Heed Every Near Miss]] feeds hazards before incidents land.
   - Trace layout, limits, and rules - not just who was standing there when it broke.
   - Fix the system before you close the file on who to blame.
 examples:

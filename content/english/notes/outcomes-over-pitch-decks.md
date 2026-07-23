@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Outcomes over pitch decks means fruit over time beats slide polish and LinkedIn aura.
   - Level 3: Champions and vendors earn trust by delivered results - decks and profiles are marketing until the work proves itself.
   - Level 4: Before you hire or partner, ask for three past outcomes with names attached - polish without fruit is expensive theater.
-  - Level 5: [[People Centered Design]] and [[Own the Error]] test the same bar - [[Staged Rollout]] beats a demo that never shipped.
+  - Level 5: [[People-Centered Design]] and [[Own the Error]] test the same bar - [[Staged Rollout]] beats a demo that never shipped.
   - Smooth talkers ship thorns sometimes.
   - I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle.
   - On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - do not sell [[Free Tier Hosting Stack]] because it is my favorite hammer.

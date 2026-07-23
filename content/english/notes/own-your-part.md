@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Own-your-part means fix your lane instead of waiting for headquarters to rewrite stale process.
   - Level 3: Stale processes survive years when everyone waits for someone upstream - change what you can touch today.
   - Level 4: List three steps in your control before you escalate - if you never tried your lane, you are renting the excuse.
-  - Level 5: [[Continuous Improvement]] and [[People Centered Design]] both start local - headquarters moves slow; your corner moves when you do.
+  - Level 5: [[Continuous Improvement]] and [[People-Centered Design]] both start local - headquarters moves slow; your corner moves when you do.
   - Own your part means I take charge of what I can move - my habit, my pass-off, my corner of the workflow.
   - Not filing complaints until someone else acts.
   - [[Accountability]] names who answers for the outcome; [[Own the Error]] names the miss after it lands.

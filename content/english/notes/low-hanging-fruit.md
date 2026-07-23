@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Some jobs are small - do not spend all your energy on them like they are the biggest battle, like picking the easy apples on the bottom branch first.
   - Level 2: Low-hanging fruit is the easy win - tackle it with normal effort, not hero energy reserved for hard fights.
   - Level 3: Not every task deserves peak focus - quick wins exist so you clear noise before the real work.
-  - Level 4: Do the two-minute fix first - save deep work for problems that actually need it.
+  - Level 4: Do the two-minute fix first - save [[Deep Work]] for problems that actually need it.
   - Level 5: [[Pareto Principle]] and [[Minimum Effective Dose]] share the same instinct - spend disproportionate effort only where the return earns it.
   - Fix the broken link, publish the half-done draft, delete the folder I have not opened in a year.
   - I use it when I am avoiding work by planning harder work.
