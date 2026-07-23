@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 5:43-48" emphasize="44" >}}
   
   - Bless and pray for persecutors - the Father sends sun and rain on just and unjust; I copy that kindness.
+  - Pray for people who hurt you - God sends sun and rain on good people and bad people alike, and you can act the same way.
   - Loving only people who love you back is ordinary; loving enemies is divine-shaped.
   - Prayer and blessing are the practical handles - not agreement, not pretending harm did not happen.
   - The Father's free grace toward the unjust is the pattern: I love enemies because God loved me first.

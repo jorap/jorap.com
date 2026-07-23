@@ -4,7 +4,8 @@ meta_title: "Digital Minimalism for Note-Takers"
 description: "Notes sharpen when extra apps, sync layers, and unused notifications drop away."
 key_concept: |
   - Every new app is a pipe you have to babysit.
-  
+  - Each new app is another thing you must check and fix, like adding another hose in the yard that can leak if you forget it.
+
   - Cut capture paths and sync layers until you hit [[Minimum Effective Dose]] - the smallest setup that still works.
   - That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling you off the note you were actually writing.
   - Digital minimalism means the smallest setup that still works - not the fanciest stack you never open.

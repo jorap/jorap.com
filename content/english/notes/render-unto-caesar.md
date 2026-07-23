@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 22:15-22" emphasize="21" >}}
   
   - Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state.
+  - Pay what you owe the government and give your full devotion to God - do not dodge taxes or treat the government like it is God.
   - You bear God's image; give yourself to Him.
   - Jesus avoids both revolutionary tax refusal and idolizing Rome.
   - [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that does not excuse dodging legitimate civic responsibility.

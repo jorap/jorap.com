@@ -4,6 +4,7 @@ meta_title: "Reliability - People Trust What Repeats"
 description: "Reliability is closing loops on time often enough that people stop asking twice."
 key_concept: |
   - Small reliability compounds - the person who's five minutes early every time gets trusted with the big thing eventually.
+  - Showing up on time again and again builds trust - the person who is always five minutes early eventually gets the important job.
   - Reliability is doing what you said, when you said, often enough that others can plan around you.
   - People stop chasing updates when you close loops without reminders.
 examples:

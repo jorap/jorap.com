@@ -4,6 +4,7 @@ meta_title: "Incident Investigation"
 description: "Find system causes after a miss - not only who to blame."
 key_concept: |
   - Blameless tone keeps investigation on system causes.
+  - After something breaks, ask what in the setup caused it - not only who was standing nearby when it happened.
   - Trace layout, limits, and rules - not just who was standing there when it broke.
   - Fix the system before you close the file on who to blame.
 examples:

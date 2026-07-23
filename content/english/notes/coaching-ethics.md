@@ -4,6 +4,7 @@ meta_title: "Coaching Ethics"
 description: "Develop the person without hiding behind consent when the drill is unsafe or pointless."
 key_concept: |
   - Consent does not erase the job when the drill is unsafe.
+  - Saying yes to a form does not mean a coach can run a dangerous drill - you still protect people from harm.
   - Waivers protect against lawsuits, not against the drill actually hurting someone.
   - Unsafe or pointless drills still owe reasonable protection to people under your influence.
 examples:

@@ -4,6 +4,7 @@ meta_title: "Read Later Queue"
 description: "Save for later is fine until the queue turns into a guilt pile never touched."
 key_concept: |
   - A parking lot for links you will process later - dangerous if it becomes a graveyard.
+  - A save-for-later list is fine for holding links, but it turns into guilt storage if you never go back and actually read them.
   - Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage.
   - [[The Collector's Fallacy]] names hoarding; [[The Trusted Inbox]] is the drain that saves the queue.
   - Save for later is fine until the queue turns into a guilt pile I will never touch.

@@ -7,6 +7,7 @@ key_concept: |
   
   
   - Much fruit glorifies the Father and proves discipleship - grown on the vine, not manufactured for credit.
+  - Good character grows when you stay connected to Jesus like fruit on a vine - not something you fake for credit.
   
   {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
   

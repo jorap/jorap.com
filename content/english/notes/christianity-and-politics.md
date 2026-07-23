@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 22:21" >}}
   
   - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
+  - Pay taxes and do your civic job, but do not treat any government or party like God owns your whole heart.
   - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
   - [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty.
   - [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target.

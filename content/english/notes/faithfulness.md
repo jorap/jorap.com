@@ -5,7 +5,7 @@ description: "The Spirit grows steady follow-through with what God entrusted, no
 key_concept: |
   {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
   - Faithfulness is steady use of what God entrusted, not one heroic week mistaken for earned salvation.
-  
+  - Faithfulness is using what God gave you in steady ways over time - not one big week to try to earn salvation.
   - [[Fruits of the Spirit]] names faithfulness beside gentleness - reliable follow-through because the Spirit sustains the walk, not because merit bought your seat.
   - [[Faithful Steward]] is the garden echo: well done for faithful use over quiet Tuesdays, not burying what He gave or performing for applause.
   - [[Eternal Rewards]] names what steady faithfulness may receive; [[Free Grace]] keeps it from becoming the entry fee.
@@ -63,5 +63,6 @@ cards:
     back: "Saved by faith - faithfulness follows."
 draft: false
 ---
+
 
 

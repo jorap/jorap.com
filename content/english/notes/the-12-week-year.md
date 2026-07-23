@@ -4,6 +4,7 @@ meta_title: "The 12 Week Year - Quarterly Intensity for Projects"
 description: "Compress yearly goals into twelve-week arcs you can feel - and map wiki projects to them."
 key_concept: |
   - Twelve-week arcs compress goals into quarters you actually feel on the calendar.
+  - Split big goals into twelve-week chunks so you can feel the deadline coming instead of forgetting a vague year-long plan.
   - Map wiki projects to the arc with weekly numbers - vague annual resolutions die in February.
   - [[Periodic Knowledge Review]] rhythm fits naturally at week twelve.
 examples:

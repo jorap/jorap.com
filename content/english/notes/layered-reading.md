@@ -4,6 +4,7 @@ meta_title: "Layered Reading"
 description: "One pass through a book is not absorption - return when more depth is needed."
 key_concept: |
   - Pass through the same source at increasing depth - skim, highlight, summarize.
+  - Read the same book more than once - first skim for the big picture, then mark parts, then write what you learned in your own words.
   - Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
   - I do not read a book once and pretend I absorbed it - I pass through again when I need more.
 examples:

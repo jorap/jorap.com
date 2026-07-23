@@ -4,6 +4,7 @@ meta_title: "Convert Pain Into Learning - Failure Must Produce Correction"
 description: "Convert pain into learning means failure must produce correction, not stewing without change."
 key_concept: |
   - Failure becomes useful only when it produces correction.
+  - A mistake only helps if you change something next time - feeling bad without fixing anything is just pain.
   - Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up.
   - Stewing without change is just suffering.
 examples:

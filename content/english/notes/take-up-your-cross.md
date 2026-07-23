@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
   
   - Daily self-denial and follow - choosing God's will over mine, not collecting suffering points.
+  - Each day you choose to follow Jesus even when it costs you something - not to show off how much you can suffer.
   - The cross is not suffering for suffering's sake; it is choosing God's will over self-will each day.
   - [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real.
   - Same road as [[The Narrow Way]], lived one day at a time.

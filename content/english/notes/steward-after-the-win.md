@@ -4,6 +4,7 @@ meta_title: "Steward After the Win - Keep Using the Gift"
 description: "An early win is entrusted, not a license to coast - keep using the gift through the quiet tail."
 key_concept: |
   - Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done.
+  - Right after something big goes well, it is easy to relax and act like all the real work is over.
   - [[Success is Stewardship]] says the win was entrusted: keep tending, sharing, and serving through the boring middle, not coast on what landed.
   - Gospel depth lives in [[Faithful Steward]] - well done for faithful use over years, buried talent for playing it safe after one good season.
   - [[Finish Strong]] closes the last commitment; this note guards the gap right after the exciting start.

@@ -4,6 +4,7 @@ meta_title: "Anti-Fragile PKM - Systems That Survive Tool Death"
 description: "Note systems survive app shutdowns when built on plain files, open formats, and tested backups."
 key_concept: |
   - Note systems that survive app shutdowns - plain files, open formats, and backups I actually test.
+  - Save notes in simple files you can open anywhere, and check your backup copy works before you need it.
   - I build on plain files and open formats so an app shutdown does not erase years of notes.
   - Test backups while the app still works - not after the export dies.
 examples:

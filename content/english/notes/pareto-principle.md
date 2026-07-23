@@ -4,6 +4,7 @@ meta_title: "Pareto Principle - Find the 20% That Drives 80%"
 description: "The Pareto principle is the 80/20 rule - most results come from a small slice of effort."
 key_concept: |
   - Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law).
+  - Roughly eight out of ten results often come from two out of ten of your effort - a shortcut, not a strict rule.
   - I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle?
   - Same rule for flashcards: only spine notes carry `review: true` here
   - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden.

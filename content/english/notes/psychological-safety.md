@@ -4,6 +4,7 @@ meta_title: "Psychological Safety"
 description: "People can name mistakes and near-misses without fear of humiliation or retaliation."
 key_concept: |
   - Join their framing before you redirect the blame.
+  - First listen to how they see what happened, then gently help them see what to fix - do not jump straight to who is at fault.
   - Near-miss reports need gratitude, not punishment.
   - Thank the person for speaking up - silence teaches the next person to hide the miss.
 examples:

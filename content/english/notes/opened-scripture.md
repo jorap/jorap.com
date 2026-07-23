@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 24:27" emphasize="27" >}}
   
   - On the Emmaus road He explained Moses and all the Prophets - not a citation dump, but opening what the text meant.
+  - On the road to Emmaus Jesus walked and explained what the Bible meant - not a list of verse numbers with no explanation.
   - Later He opened their minds to understand the Scriptures - same move: make the Book legible, not impressive.
   - [[Great Commission]] passes truth on; [[Discipleship]] learns and does - this names how He taught from the text Himself.
   - Under [[Free Grace]], explaining Scripture is not earning favor - it is how the risen Teacher still makes Himself known.

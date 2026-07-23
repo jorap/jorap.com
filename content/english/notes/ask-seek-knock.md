@@ -6,7 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 7:7" label="Matthew 7:7-11" emphasize="7" >}}
   
   - Keep asking, seeking, knocking - God gives like a parent who gives bread, not a stone.
-  
+  - Keep asking with patience - God answers like a good parent who gives food, not something useless.
   - Jesus compares God to a parent who gives bread, not a stone.
   
   {{< bible ref="Matthew 6:9-13" emphasize="10" >}}
@@ -65,5 +65,6 @@ cards:
     back: "Seek in Scripture - open the Book."
 draft: false
 ---
+
 
 

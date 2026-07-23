@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Mark 1:14-15" emphasize="15" >}}
   
   - Kingdom's here now - turn from self-rule and trust the gospel today, not when habits look respectable.
+  - God's kingdom is here now - stop running your own life and trust the good news today, not after you have cleaned up every habit.
   - Repentance is a change of mind and direction - not a down payment on salvation.
   - Belief is reliance on Christ's promise, not mere intellectual agreement.
   - Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response.

@@ -4,6 +4,7 @@ meta_title: "Selling Static Sites - Charge for the Build, Price Hosting Honestly
 description: "Charge for the build and pass-off; hosting is a clear line item, not a mystery bundle."
 key_concept: |
   - My margin is labor, not hosting markup.
+  - I make money from the work I do building the site, not from marking up cheap hosting and reselling it.
   - **What I quote:** discovery and [[Static Site Client Scope]] yes/no before I touch a theme repo.
   - Cloudflare setup with `HUGO_VERSION` and `NODE_VERSION` pinned.
   - Theme and layout, content migration, and contact form pass-off priced separately from retainer updates.

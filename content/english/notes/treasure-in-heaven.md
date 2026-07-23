@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 6:19-21" emphasize="21" >}}
   
   - Earthly stuff rusts and gets stolen - where your treasure is, your heart follows; store what lasts.
+  - Stuff on earth breaks, rots, or gets taken - wherever you put your heart follows what you value most, so invest in what lasts.
   - Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation.
   - [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee.
   - The [[Judgment Seat]] evaluates what lasts - wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you are still saved through fire.

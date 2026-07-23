@@ -4,6 +4,7 @@ meta_title: "Building a Second Brain - Capture, Organize, Distill, Express"
 description: "The head is for thinking, not storing - notes hold what would otherwise get lost."
 key_concept: |
   - Offload ideas so my head can think, not hoard.
+  - Write ideas down outside your head so you can think about them instead of trying to remember everything at once.
   - Remember CODE: [[Capture]], organize, distill, express.
   - [[The Second Brain Workflow]] is how CODE and PARA run as one daily-to-weekly loop.
   - The system fails when any step is just for show.

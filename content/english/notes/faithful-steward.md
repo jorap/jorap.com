@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Well done for faithful use of what He entrusted - quiet Tuesdays count, not one heroic mission trip.
+  - God rewards faithful use of what He gave you - quiet Tuesdays count, not just one big heroic trip.
   - [[Free Grace]] settled where I spend forever.
   - Stewardship settles what I do with what He entrusted after.
   - The master returns to settle accounts - faithful use repaid, buried talent rebuked.

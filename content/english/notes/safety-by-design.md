@@ -4,6 +4,7 @@ meta_title: "Safety by Design"
 description: "Build workflows so the dangerous move is hard - not just a warning label and good intentions."
 key_concept: |
   - Rollback is undo-by-design when release goes loud.
+  - Build the release so you can quickly undo it when something goes wrong - like designing a door that opens both ways.
   - [[Staged Rollout]] means fewer people hit before the hazard is proven safe.
   - Make the dangerous move hard by default - not just forbidden on paper.
 examples:

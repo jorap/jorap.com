@@ -4,6 +4,7 @@ meta_title: "Spaced Repetition - Remember What You Chose"
 description: "Review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up."
 key_concept: |
   - Review on a schedule before I forget - for **retention**, **application**, and **explanation**, not vanity metrics or fact pile-up.
+  - Go back to what you learned on a timer before it slips away - so you remember it, use it, and can explain it, not just stack up trivia.
   - The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing.
   - In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true`
   - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`.

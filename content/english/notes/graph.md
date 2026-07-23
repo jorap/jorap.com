@@ -6,6 +6,7 @@ meta_title: "Graph"
 description: "Open the link map and filter by link rank."
 key_concept: |
   - Spot hubs, orphans, and notes with no body links - maintenance targets, not vanity metrics. Open the live view at [/notes/graph/](/notes/graph/).
+  - Find the notes that connect everything, the notes nobody links to, and the notes that link to nothing - then fix those problems, not just count links for fun.
   - **Top 20%** = most total wikilinks.
   - **Middle** = between the tails.
   - **Bottom 20%** = fewest total wikilinks.

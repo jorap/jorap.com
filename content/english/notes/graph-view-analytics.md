@@ -4,6 +4,7 @@ meta_title: "Graph View Analytics - What the Graph Actually Tells You"
 description: "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps."
 key_concept: |
   - Read the link map for orphans and over-linked hubs before they skew the garden.
+  - Check your notes map for lonely pages and pages with too many links before the whole garden gets messy.
   - Orphan notes and hub sprawl both signal a graph that needs pruning.
   - The orphan list is a fix-this-week queue - not a pretty poster.
 examples:

@@ -4,6 +4,7 @@ meta_title: "Compounding - Small Gains That Stack Over Time"
 description: "Compounding is small gains stacked over time - the curve stays flat until it suddenly bends."
 key_concept: |
   - Small gains repeated look like nothing is happening; most people quit right before the curve would have bent.
+  - Tiny daily progress looks invisible for a long time - many people stop right before the growth line finally jumps up.
   - Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills.
   - Heroic weeks feel good; boring repetition wins.
   - Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone.

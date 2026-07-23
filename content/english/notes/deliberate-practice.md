@@ -4,7 +4,7 @@ meta_title: "Deliberate Practice - Train the Weak Slice on Purpose"
 description: "Train the weak slice on purpose - feedback, correction, repeat - not the part already nailed."
 key_concept: |
   - Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works.
-  
+  - You practice the hard part on purpose until it works, like fixing your weak spot in a game instead of doing the easy moves over and over.
   - The discomfort is the signal you are in the right spot - comfortable reps mean you drifted back to what you already do well.
 examples:
   - "The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks."
@@ -46,4 +46,5 @@ cards:
     back: "Fifty weak-hand reps - not autopilot."
 draft: false
 ---
+
 

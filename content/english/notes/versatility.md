@@ -4,6 +4,7 @@ meta_title: "Versatility - More Than One Way to Contribute"
 description: "Plug into more than one lane when the team or the client needs a shift."
 key_concept: |
   - You can contribute in more than one lane when the team or the market shifts.
+  - You can help in more than one role when the team or the job suddenly needs someone to switch lanes.
   - Nobody schedules the sick day or the rush - versatility is just having more than one answer ready when they hit.
   - Versatility is staying useful across roles, tools, and contexts - not locked to one lane.
 examples:

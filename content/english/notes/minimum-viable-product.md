@@ -4,6 +4,7 @@ meta_title: "Minimum Viable Product - Smallest Thing Worth Shipping"
 description: "Ship the smallest version that proves someone actually wants this - polish comes after proof."
 key_concept: |
   - The smallest thing I can ship that tests the idea - not a polished fantasy.
+  - Ship the smallest version that tests whether anyone wants it - not a perfect dream version you never finish.
   - I would rather publish a rough note or prototype and learn than polish in private for months.
   - Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Free Tier Hosting Stack]] before I package tiers and upsells.
 examples:

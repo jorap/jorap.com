@@ -6,7 +6,8 @@ key_concept: |
   {{< bible ref="Matthew 16:24-26" emphasize="26" >}}
   
   - Following Jesus costs self-denial and a cross - not suffering theater, daily surrender of my will to His.
-  
+  - Following Jesus means giving up what you want each day and letting Him lead - not putting on a show of suffering.
+
   {{< bible "Romans 12:1" >}}
   
   - Paul pictures the same move as worship that is alive - my Tuesday and my body offered after mercy received.

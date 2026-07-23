@@ -4,6 +4,7 @@ meta_title: "Complete the Cycle - Work Isn't Done at the Main Action"
 description: "The meeting is not done until recap, owners, dates, and verification close the loop."
 key_concept: |
   - A decision without an owner and a date is still just talk - execution is where the loop actually starts.
+  - A yes means nothing without someone in charge and a due date - the real work starts when someone actually does it.
   - Saying yes is cheap; recap, owners, dates, and verification are the work after the handshake.
   - A yes without owners and dates is a promise with no delivery address.
   - Mistakes need correction, not ceremony - fix the process or the miss comes back next week.

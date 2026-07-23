@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 4:16-21" emphasize="16" >}}
   
   - It was His custom on the Sabbath - He stood, read Isaiah aloud in the gathering, then sat down to teach.
+  - Every Sabbath Jesus went to the synagogue, stood up, read Scripture out loud to the crowd, then sat down and taught from what He read.
   - Whole-person love of God is not Bible alone on the couch; it includes hearing and reading Scripture with God's people.
   - [[Love God]] names heart, soul, mind, strength - this names the gathered lane alongside private [[Abide in Me]] reading.
   - Under [[Free Grace]], showing up to worship is not earning standing - it is how the Teacher lived among the congregation He came to save.

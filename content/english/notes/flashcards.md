@@ -6,6 +6,7 @@ meta_title: "Notes Flashcards"
 description: "Learn less, retain longer, apply more - I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone."
 key_concept: |
   - **Guiding principle:** Learn less, retain longer, and apply more.
+  - Learn fewer things, remember them longer, and use them more when life shows up - that is the point of the cards.
   - **The question:** Can I recall and use this knowledge when it matters? - not review count, streak length, or facts memorized - retention, application, and explanation in real life.
   - This page is a **utility surface** (`note_kind: meta`) - not a garden note.
   - Evergreen notes should not `[[wikilink]]` here; point readers to [/notes/flashcards/](/notes/flashcards/) or [/notes/review/](/notes/review/) by URL instead.

@@ -4,6 +4,7 @@ meta_title: "Literature Notes"
 description: "After reading a source, write what stuck in your own words - not a pile of copied highlights."
 key_concept: |
   - Notes about a source in your own words - not a highlight dump.
+  - Write what the book meant to you in your own words - not a copy of every highlighted line.
   - Source notes stay tied to the book or talk - your atoms link out, not the other way around.
   - [[Atomic Notes]] are your claims; literature notes hold the source.
 examples:

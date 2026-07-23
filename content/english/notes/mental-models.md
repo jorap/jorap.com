@@ -4,6 +4,7 @@ meta_title: "Mental Models - Lenses I Actually Use"
 description: "Mental models are thinking shortcuts kept when they survive real decisions."
 key_concept: |
   - Mainstream mental models for decisions and performance - note the ones that earn repeat use.
+  - Keep the simple thinking tools that help you decide again and again - drop the ones you never use.
   - A model nobody reaches for is the same problem as a junk-drawer bookmark - recall under pressure is the value.
   - Mental models are thinking shortcuts I keep when they survive real decisions.
   - Retire the model when real decisions prove it wrong.

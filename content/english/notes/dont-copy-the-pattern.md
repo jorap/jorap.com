@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="John 15:19" emphasize="19" >}}
   
   - Chosen out of the world - so when the feed's outrage feels normal, that is the world's script, not mine.
+  - God chose you to live differently - so when outrage on the feed feels normal, that is the world's habit, not yours.
   
   {{< bible ref="Romans 12:1-2" emphasize="2" >}}
   

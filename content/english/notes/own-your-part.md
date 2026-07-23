@@ -4,6 +4,7 @@ meta_title: "Own Your Part - Change Your Slice Without Waiting"
 description: "Change your slice of the problem - do not wait for a hand-down fix from upstairs."
 key_concept: |
   - Waiting for headquarters to fix your lane is how stale processes survive years.
+  - Do not wait for headquarters to fix your corner - change what you can touch yourself.
   - Own your part means I take charge of what I can move - my habit, my pass-off, my corner of the workflow.
   - Not filing complaints until someone else acts.
   - [[Accountability]] names who answers for the outcome; [[Own the Error]] names the miss after it lands.

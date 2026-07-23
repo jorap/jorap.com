@@ -5,6 +5,7 @@ description: "Joy is Spirit-grown gladness in believers who rest on Christ's pro
 key_concept: |
   {{< bible "Galatians 5:22-23" >}}
   - Fruits of the Spirit names joy beside love and peace in one cluster.
+  - Joy is deep gladness that grows when you walk with God - not fake happiness you perform for other people.
   - Joy is grown by walking in the Spirit, not manufactured for credit.
   - Manufactured gladness for church credit is not Spirit fruit.
   - Abide first - gladness shows up from connection, not from performing a good week.

@@ -4,6 +4,7 @@ meta_title: "Build a Reliable Default - What You Do When There's No Time"
 description: "A reliable default is the simple rehearsed move that runs when thinking is thin."
 key_concept: |
   - Build it before the crisis, not during it - a default assembled mid-emergency is not a default.
+  - Decide your backup plan before trouble hits - you cannot build a real default while everything is on fire.
   - The rehearsed move beats improvising when the clock is loud.
   - Pick a good default once - stop reopening the question every project.
 examples:

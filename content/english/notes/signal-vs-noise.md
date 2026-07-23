@@ -4,6 +4,7 @@ meta_title: "Signal vs Noise in Your Information Diet"
 description: "Save only what changes what you do or believe this month - most feeds are noise."
 key_concept: |
   - I save only what changes what I do or believe this month - most content is noise.
+  - I only keep things that will change how I act or think this month - most articles and posts are just background noise.
   - Admiring an article without a behavior change is entertainment, not signal.
   - The filter is simple: would I act or cite this within thirty days?
   - Headline only when nothing would change this month - no mental slot, no save.

@@ -4,6 +4,7 @@ meta_title: "Set Calm Boundaries - Limit the Behavior, Not the Person"
 description: "A calm boundary is one clear limit on behavior, named steady - not a character attack."
 key_concept: |
   - Limit the behavior. Keep the person.
+  - Draw a firm line on what someone may not do, but stay calm and keep caring about the person.
   - [[Emotional Regulation]] keeps me from mailing the first-draft rant; a calm boundary can [[Break the Escalation Cycle]] before snark feeds itself.
   - Drama makes the line harder to hear tomorrow.
   - Set calm boundaries and keep the person - firm line, steady voice, relationship intact.

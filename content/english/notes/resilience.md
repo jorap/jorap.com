@@ -4,6 +4,7 @@ meta_title: "Resilience - Bounce and Stay Useful"
 description: "Bend without lying that the hit did not cost anything."
 key_concept: |
   - You take the hit, recover, and stay useful - not pretend the hit did not hurt.
+  - When something knocks you down, you feel it, get back up, and keep helping - you do not act like it never hurt.
   - I bend without lying to myself that the hit did not cost anything.
   - Resilience is absorbing setback without quitting or becoming useless to the people counting on you.
   - Bouncing back does not mean the bruise was not real - it means the bruise does not get the final say.

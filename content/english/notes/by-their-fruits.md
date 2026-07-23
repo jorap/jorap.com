@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 7:15-20" emphasize="20" >}}
   
   - Wolves wear sheep's clothing - time and results tell, not the polished talk.
+  - Smooth talk can hide bad motives - watch what someone actually does over time, not just how nice they sound.
   - do not condemn souls, but do evaluate fruit - grapes from vines, not hype.
   - Jesus pairs this with [[Judge Not]]: do not condemn souls, but do evaluate fruit.
   - Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?

@@ -6,7 +6,8 @@ key_concept: |
   {{< bible ref="John 7:16-18" emphasize="17" >}}
   
   - Willing to obey first - then you can tell whether the teaching is God's or noise.
-  
+  - You choose to obey God first - then you can tell real teaching from noise that only sounds good.
+
   - Romans 12:2's outcome: so that you may prove what the will of God is - good, acceptable, and perfect - not mystical lottery after Scripture and prayer reshape judgment.
   - [[Renewed Mind]] is the engine; this is what it enables at the fork.
   - [[Take Up Your Cross]] is choosing His will over mine - discernment names the fork.

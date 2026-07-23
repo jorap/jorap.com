@@ -5,6 +5,7 @@ meta_title: "OKF Export - Agent-Readable Notes Bundle"
 description: "Same garden flattened for agents - markdown paths, required type, no Hugo build."
 key_concept: |
   - Authoring stays in Hugo; OKF is the agent-readable pass-off copy outside the site.
+  - You write notes in Hugo on the site - OKF is a flat copy outside the site that other tools can read.
   - Same garden, flattened - markdown paths, required type field, no Hugo build step.
   - Regenerated on production build and via npm run export:okf.
 shareable_thought:

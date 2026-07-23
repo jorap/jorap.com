@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 22:37-40" emphasize="37" >}}
   
   - Whole-person devotion beats a Sunday-only corner.
+  - Love God with your whole life, not only for an hour on Sunday morning.
   - Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
 examples:
   - "Match day adrenaline is not the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today."

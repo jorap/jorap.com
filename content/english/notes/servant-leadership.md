@@ -4,6 +4,7 @@ meta_title: "Servant Leadership - Last Becomes First at Work"
 description: "Servant leaders unblock the team, coach through mess, take blame up, and pass credit down."
 key_concept: |
   - Greatness is serving the team, not grabbing credit from it.
+  - Real leadership means helping the team succeed, not taking credit for work they did.
   - The corporate ladder rewards visibility; this principle runs the other way.
   - Wash feet in the sprint, not only in the all-hands speech.
   - Gospel depth: [[Humility and Service]].

@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
   
   - City on a hill cannot hide - let good works shine so people glorify the Father, not my personal brand.
+  - Do good deeds where people can see them so they praise God - not so they praise you.
   
   {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
   

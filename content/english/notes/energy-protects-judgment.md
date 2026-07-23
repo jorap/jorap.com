@@ -4,6 +4,7 @@ meta_title: "Energy Protects Judgment - Rest Is Part of Performance"
 description: "Sleep and recovery protect judgment - tired calls land worse than rested calls on the same facts."
 key_concept: |
   - Energy protects judgment because tired minds make worse calls than rested minds on the same facts.
+  - A tired brain makes worse choices than a rested one even when the facts are the same, like deciding when you are half asleep.
   - Fatigue hits more than muscles - it weakens patience, attention, restraint, and call quality.
   - Sleep and scheduled rest refill what hard work drains - judgment, patience, attention.
   - Skipping recovery does not show up immediately - it shows up three days later as a short fuse and bad calls.

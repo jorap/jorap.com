@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 7:1-5" emphasize="5" >}}
   
   - Do not play final judge on souls - pull your plank before you nitpick someone's speck.
+  - Fix your own big faults before you pick on someone else's small ones - you are not the final judge of their soul.
   
   {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
   

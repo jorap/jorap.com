@@ -7,6 +7,7 @@ key_concept: |
   
   
   - Hear Jesus and do - rock stands in the storm; hearing alone is sand.
+  - Hear Jesus and do what He says - that is like building on rock; hearing without doing is sand that washes away.
   - Paul answers how you are saved: trust Christ, not wages.
   - James answers what living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it.
   - [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven.

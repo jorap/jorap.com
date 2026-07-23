@@ -6,7 +6,7 @@ key_concept: |
   {{< bible ref="Mark 10:13-16" emphasize="15" >}}
   
   - Receive the kingdom like a child - stop negotiating merit before you enter.
-  
+  - Come like a kid who trusts a parent - stop trying to earn your way in before you accept the gift.
   - Children do not enter the kingdom by achievement; they receive care they did not earn.
   - Jesus was not praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift.
   - Same beginner posture as [[Getting Started]] in the garden - assume you are new, follow the guide, do not perform expertise you do not have.
@@ -53,5 +53,6 @@ cards:
     back: "Now - receive before I've figured it all out."
 draft: false
 ---
+
 
 

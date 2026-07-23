@@ -4,6 +4,7 @@ meta_title: "Reconcile Before the Review - Fix the Relationship First"
 description: "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."
 key_concept: |
   - Fix the relationship breach before OKRs, demos, or reorg meetings.
+  - If you and a coworker are not okay with each other, fix that first before you sit down for performance reviews or big meetings.
   - Process does not heal a broken trust link.
   - The person who knows there is a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs.
   - Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.

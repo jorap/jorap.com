@@ -4,6 +4,7 @@ meta_title: "Title Without Influence - Badge Without Followers"
 description: "A title borrows authority; if nobody moves when you speak, you are managing paperwork, not leading."
 key_concept: |
   - Leadership Is Influence flips the test: leadership is not the walk you take alone - it is whether anyone follows.
+  - Real leadership is not having a fancy title - it is whether people actually choose to follow you.
   - This note is the hollow version: org-chart authority without earned trust.
   - Meetings that change nothing.
   - Directives the crew waits out until the senior tech returns.

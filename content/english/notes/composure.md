@@ -4,6 +4,7 @@ meta_title: "Composure - Steady When the Room Isn't"
 description: "Composure is steady voice and pace when the room is not - people read calm as competence."
 key_concept: |
   - One beat before replying often beats matching their volume.
+  - Pause for a second before you answer when someone is loud or angry - calm beats yelling back just as loud.
   - Composure is not suppressing the reaction - it is choosing which one gets shown.
   - The composure has to be visible - a calm voice with shaking hands under the table still reads as calm to everyone watching.
 examples:

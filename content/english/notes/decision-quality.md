@@ -4,7 +4,7 @@ meta_title: "Decision Quality - Good Calls Under Real Constraints"
 description: "Choices are judged by whether they hold after sleep, new facts, and the real bill - not the meeting high."
 key_concept: |
   - Decision quality is how often choices hold up after information, time, and energy are factored in.
-  
+  - A good decision still makes sense after you sleep on it and learn more - not just in the excited moment.
   - A choice that only looks good in the meeting room is not a quality decision.
   - Sleep on it, then check whether the choice still holds.
 examples:
@@ -47,4 +47,5 @@ cards:
     back: "decision quality was checking last month's invoice before."
 draft: false
 ---
+
 

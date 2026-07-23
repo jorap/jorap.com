@@ -7,6 +7,7 @@ key_concept: |
   
   
   - Good works visible so the Father gets glory - build for His name, not my brand.
+  - Do good things so people thank God for them, not so they praise you.
   - A calendar built for applause still feels empty on Monday.
   - [[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality.
 examples:

@@ -4,6 +4,7 @@ meta_title: "Change Takes Repetition - Same Moves Until the System Bends"
 description: "Real change is the same moves on repeat, not one breakthrough weekend."
 key_concept: |
   - The breakthrough story sells books; Tuesday sells the habit.
+  - Big dramatic wins make good stories, but normal days repeat the work - habits grow from boring Tuesdays, not one hero moment.
   - Change takes repetition when the same levers run many times - direction, practice, feedback - before the room feels different.
   - [[Transformation Principles]] is the set; [[Habit Formation]] is how one move sticks; [[Practice Small Experiments]] keeps trials small while reps accumulate.
   - Faith lane: [[Sanctification]] - becoming is slow obedience, not a single altar call.

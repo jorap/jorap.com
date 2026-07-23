@@ -4,6 +4,7 @@ meta_title: "Sunk Cost Fallacy - Past Effort Isn't a Reason to Continue"
 description: "Drop the bad tool or project when it stops earning its place - past effort is gone either way."
 key_concept: |
   - I ask: if I found this today, would I start it?
+  - Ask yourself this: if you just discovered this project today, would you actually begin it now?
   - [[Forgiveness]] runs the same play on relational debt.
   - [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
 examples:

@@ -4,6 +4,7 @@ meta_title: "Reversibility"
 description: "Prefer choices you can undo - irreversible harm needs a higher bar."
 key_concept: |
   - Concrete undo path when the choice is a deploy or release.
+  - Before you push a big change live, know exactly how you would undo it if something breaks - like keeping a spare key before you lock the door.
   - Staged Rollout names small blast radius makes undo cheap.
 examples:
   - "I took the longer route with an exit every mile before trying the new shortcut through construction."

@@ -4,6 +4,7 @@ meta_title: "Future-Proofing Knowledge - Boring Formats Win"
 description: "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in."
 key_concept: |
   - Future-proofing is not predicting tech - it is plain text, open tools, and exports you test before you need them.
+  - Future-proofing means plain text files and tools you can move - tested exports before a company locks you in.
   - [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare disappears; content survives, hosting is swappable.
   - Freedom over free - install without permission, read the source when docs lie, move files when the host dies.
 examples:

@@ -4,6 +4,7 @@ meta_title: "Hierarchy of Controls"
 description: "Remove the hazard first, then substitute, engineer, admin, PPE - in that order."
 key_concept: |
   - Eliminate the hazard before warnings, admin, or PPE.
+  - Remove the danger first - a guard rail beats a sign, and both beat handing out helmets if you can fix the problem at the source.
   - Guard rails beat signs when you can remove the hazard instead.
   - Named rollback is a control layer before irreversible harm.
 examples:

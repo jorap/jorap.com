@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
   
   - When the captain's chair and Christ's command pull opposite ways, I deny the shortcut first.
+  - When being the boss pulls one way and Jesus pulls the other, I obey Jesus first before I lead the room.
   - [[Take Up Your Cross]] before I set pace for the room.
   - [[Discipleship]] vs [[Leadership]] names two seats - upward allegiance and outward care.
   - [[God Centered Design]] asks who the plan ultimately serves before I optimize the slide.

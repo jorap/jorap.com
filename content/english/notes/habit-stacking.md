@@ -4,6 +4,7 @@ meta_title: "Habit Stacking - Piggyback on What You Already Do"
 description: "Piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee."
 key_concept: |
   - Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on.
+  - Add a tiny new step right after something you already do without thinking - like writing one line in a journal after you pour coffee.
   - The anchor has to already be bulletproof - stacking onto a habit you sometimes skip just gives you two habits you sometimes skip.
   - No calendar slot to defend, no motivation to summon - the existing habit does the reminding.
 examples:

@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 6:1-18" emphasize="6" >}}
   
   - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
+  - Some good deeds belong in public and some stay private - give, pray, and fast for God to see, not for applause.
   - Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
   - [[Ask Seek Knock]] names how to pray; this names who the audience is.
   - [[Let Your Light Shine]] is the public lane - not every act belongs there.

@@ -6,7 +6,8 @@ key_concept: |
   {{< bible "Matthew 5:7" >}}
   
   - Show mercy and you will receive mercy - the beatitude ties compassion out to compassion back.
-  
+  - When you show mercy to others, mercy comes back to you - kindness out, kindness in.
+
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
   
   - Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.

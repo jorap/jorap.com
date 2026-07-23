@@ -4,6 +4,7 @@ meta_title: "Analog Capture Tools - Paper When Screens Fail"
 description: "Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule."
 key_concept: |
   - The scrap gets copied into the real system later - paper is capture, not storage.
+  - Write on paper to grab an idea fast, then move it to your real notes later - paper is a scratch pad, not the filing cabinet.
   - Paper still goes in the same inbox when screens are off limits.
 examples:
   - "The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night."

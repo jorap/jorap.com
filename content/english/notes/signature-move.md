@@ -4,7 +4,7 @@ meta_title: "Signature Move - One Go-To Under Pressure"
 description: "The one practiced answer you reach for when the moment speeds up - on court and in a note."
 key_concept: |
   - A signature move is the one answer I have drilled until I reach for it without thinking when the clock gets loud.
-  
+  - When pressure hits, you reach for the one response you have practiced so many times it comes automatically - not ten untried options.
   - In basketball that is the go-to finish or counter - not a highlight reel of ten options.
   - In the garden the same discipline is one principle in the claim and two scenes that feel unrelated but run the same move.
   - Domain labels do not count as different - split surfaces until the reader believes the abstraction travels.

@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="John 11:41-42" >}}
   
   - Before He called Lazarus out, Jesus looked up and thanked the Father - not because He doubted, but so the crowd would hear who sent Him.
+  - Before raising Lazarus, Jesus prayed out loud to thank God - not because He was unsure, but so people would know God sent Him.
   - He said the Father always hears Him; the spoken thanks was for witnesses, not for His own nerves.
   - [[Moved with Compassion]] wept at the tomb; this prayer shows the same moment aimed at faith for onlookers.
   - Under [[Free Grace]], public prayer here is not performance theater - it points eyes to the Father who hears.

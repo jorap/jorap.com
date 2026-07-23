@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 4:1-11" emphasize="4" >}}
   
   - Each attack in the wilderness got "It is written" - Deuteronomy already loaded, not a panic Google search mid-temptation.
+  - When Satan tempted Jesus, He answered with Bible verses He already knew - not words He had to look up in a hurry.
   - He did not invent new ethics on the spot; He answered from what the Father had already spoken.
   - [[Renewed Mind]] names letting Scripture reshape judgment; [[Abide in Me]] names staying in His words - this names the reflex under pressure.
   - Under [[Free Grace]], memorized Scripture is not a merit badge - it is ammunition for the fork when hunger, pride, and shortcut power show up.

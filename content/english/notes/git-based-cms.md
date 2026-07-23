@@ -4,6 +4,7 @@ meta_title: "Git-Based CMS - Buttons for Non-Git Editors"
 description: "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
 key_concept: |
   - Publish via Git directly when you are the author; clients often will not.
+  - Publish straight through Git when you write the site - clients usually need buttons instead of a terminal.
   - Git stays source of truth; the CMS is just another commit path.
   - Still say no to bad dynamic scope - CMS does not add a database.
   - [[Minimum Effective Dose]] for solo sites: skip the CMS layer entirely.

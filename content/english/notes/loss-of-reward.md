@@ -6,7 +6,8 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Faithful use compounds; buried talent loses even what was given - reward can shrink without un-saving you.
-  
+  - Use what you are given and it can grow - hide it away and even that gift can slip away, without God taking your salvation.
+
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
   
   - Saved through fire with loss - two ledgers: eternal life on Christ, reward on what lasted.

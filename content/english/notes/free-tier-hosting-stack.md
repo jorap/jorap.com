@@ -4,6 +4,7 @@ meta_title: "Free Tier Hosting Stack - Hugo, GitHub, Cloudflare Pages"
 description: "Hugo, GitHub, and Cloudflare Pages ship static sites for $0 - until build caps, queues, or account limits bite."
 key_concept: |
   - Hard caps on Cloudflare free: about 500 builds per month per account, one concurrent build, 20,000 files per deployment, and a 20-minute build timeout.
+  - The free tier has hard limits - about 500 builds per month, one build at a time, 20,000 files per deploy, and a 20-minute build cap.
   - Static bandwidth is unmetered - the traps are build count, queue time, and fat repos.
   - Flow: Hugo turns markdown into HTML, GitHub holds source, Cloudflare Pages builds on push and serves over CDN.
   - Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/) - same pipeline for [[Selling Static Sites]] and the [[Digital Garden]].

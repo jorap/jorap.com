@@ -4,6 +4,7 @@ meta_title: "Self-Control - Choosing the Next Move on Purpose"
 description: "Self-control picks the next move on purpose - the urge does not get to drive."
 key_concept: |
   - You choose the next move instead of the urge choosing for you.
+  - You pick what you do next on purpose - the sudden want does not get to drive.
   - [[Fruits of the Spirit]] lists self-control as one trait the Spirit grows in believers - gospel fruit, not a merit streak.
   - This note is the general skill: close the app, sleep on the reply, stick to the list.
   - Same word, different job unless the Spirit is doing the growing.

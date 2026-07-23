@@ -4,6 +4,7 @@ meta_title: "Process Over Outcomes - Why James Clear's Line Stuck"
 description: "One heroic sprint does not beat a routine you can rerun when motivation dips."
 key_concept: |
   - One hero sprint does not survive a bad week.
+  - One amazing burst of effort does not carry you through a whole rough week - a steady routine you can repeat does.
   - I protect the loop I can rerun when motivation dips - same proofing steps on a slow Tuesday and a wedding weekend.
   - [[Compounding]] only stacks when the process holds
   - [[Notice the Good]] reinforces the behavior in the loop, not only the score that happened to land this time.

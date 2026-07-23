@@ -4,6 +4,7 @@ meta_title: "Heed Every Near-Miss - Survival Does Not Prove Safety"
 description: "A close call means the system nearly failed, not that we got proof the activity was safe because nobody died."
 key_concept: |
   - When nobody gets injured, organizations often relax.
+  - A close call means something almost went wrong - treat it like a warning, not proof that everything is safe.
   - The opposite read is usually right: the system failed, and luck blocked the worst outcome.
   - A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
   - Luck covering a near-miss is not proof the system works.

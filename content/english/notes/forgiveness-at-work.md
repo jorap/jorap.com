@@ -4,6 +4,7 @@ meta_title: "Forgiveness at Work - Release the Ledger"
 description: "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke."
 key_concept: |
   - Release a colleague's debt without pretending the slight did not matter.
+  - Let go of what a coworker owes you without pretending the hurt did not matter.
   - Forgiving is not pretending it did not hurt.
   - Stop ledger-keeping - do not collect forever on a debt that poisons work.
   - Gospel depth: [[Forgiveness]] - same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset you are owed.

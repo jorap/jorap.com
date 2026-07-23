@@ -4,6 +4,7 @@ meta_title: "Ship It"
 description: "Ship the good-enough version live instead of polishing until the deadline owns the work."
 key_concept: |
   - Publish the good-enough version live instead of polishing until the deadline owns the work.
+  - Put the good-enough version out there instead of polishing forever until the deadline runs you over.
   - Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists.
   - Feedback on a live, flawed version teaches more in a week than another month of internal debate.
 examples:

@@ -4,6 +4,7 @@ meta_title: "Break the Escalation Cycle - Do not Match Snark with Snark"
 description: "Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first."
 key_concept: |
   - Refuse to match insult for insult - break the loop before tone for tone takes over.
+  - When someone snaps at you, do not snap back the same way - stop the fight before both sides get louder and meaner.
   - Not passivity - I can still set boundaries and name facts.
   - I just refuse to become what hurt me in the thread.
   - Stop throwing anger after sunk hurt.

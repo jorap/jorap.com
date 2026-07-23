@@ -4,6 +4,7 @@ meta_title: "Own the Error - Accountability Turns Failure Into Information"
 description: "Owning the error is naming the miss clearly so failure becomes information, not blame theater."
 key_concept: |
   - Accountability turns failure into information.
+  - When you name your mistake clearly, the team learns from it instead of playing a blame game.
   - Name the miss clearly so the team learns from it - not from blame theater.
   - Repair what broke, then fix the process that let it through.
 examples:

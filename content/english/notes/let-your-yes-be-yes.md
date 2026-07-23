@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 5:33-37" emphasize="37" >}}
   
   - Yes means yes - padded oaths mean your word was not trustworthy on its own.
+  - If you pile on extra promises so people believe you, your plain yes was not enough on its own.
   - PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart.
   - [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
 examples:

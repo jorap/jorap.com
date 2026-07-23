@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="John 15:1-11" emphasize="5" >}}
   
   - Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
+  - A branch off the tree cannot grow fruit on its own - you stay connected to get good results, not by pretending hard enough.
   - Abiding is ongoing dependence, not a one-time conversion event - pruning hurts but serves fruitfulness over time.
   - Under [[Free Grace]], fruit does not earn the branch's place in the vine - the branch bears fruit because it is connected.
   - [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower.

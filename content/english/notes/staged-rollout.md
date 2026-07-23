@@ -4,6 +4,7 @@ meta_title: "Staged Rollout - Ship to a Slice Before Everyone Is the Test"
 description: "Ship to a small slice first so rollback stays cheap if the new state bleeds."
 key_concept: |
   - Full-blast deploy turns every user into a test subject.
+  - If you launch the change to everyone at once, every person becomes your guinea pig when something breaks.
   - Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps [[Reversibility]] real.
   - [[Safety by Design]] at release time: harm hits fewer people before you commit the whole lane.
 examples:

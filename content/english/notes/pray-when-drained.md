@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 14:23" emphasize="23" >}}
   
   - After feeding five thousand, He dismissed the crowds and went up the mountain alone to pray - drained was the cue, not the excuse.
+  - After feeding five thousand people Jesus was tired, but He still went up a mountain alone to pray instead of skipping prayer because He was worn out.
   - Mark 6:46 says the same move after that long day - service finished, then prayer, not collapse without God.
   - [[Don't Worry]] trusts provision; this names what to do when the day already emptied the tank.
   - Under [[Free Grace]], prayer when drained is not merit - it is the Son copying dependence on the Father after heavy work.

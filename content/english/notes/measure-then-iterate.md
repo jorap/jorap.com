@@ -4,6 +4,7 @@ meta_title: "Measure Then Iterate - Data Before the Next Pivot"
 description: "Name what to measure, gather signal, then reprioritize - not guess and overhaul."
 key_concept: |
   - Transformation without a number is just enthusiasm with amnesia.
+  - Pick a number that shows whether something worked, watch it, then change your plan - do not just cheer and forget.
   - Measure then iterate means define what would prove the change worked, watch it for one cycle, then adjust.
   - Not defend the rollout because the slide was convincing.
   - [[Failure as Feedback]] reads a miss; [[Continuous Improvement]] tweaks the process; [[Practice Small Experiments]] keeps trials small.

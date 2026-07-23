@@ -4,6 +4,7 @@ meta_title: "Digital Garden - A Wiki You Can Walk Through"
 description: "My garden is where notes grow in public - linked, imperfect, alive on Hugo and Git."
 key_concept: |
   - My digital garden is a personal site where notes grow in public.
+  - It is my own website where I post notes while I am still learning, like planting seeds in a garden other people can watch grow.
   - Public, linked, imperfect notes beat a private hoard.
   - Update in public instead of hoarding drafts until they feel ready.
 examples:

@@ -4,6 +4,7 @@ meta_title: "Client Site Pass-Off - Git Lesson, Retainer, or Showroom"
 description: "Before deposit, name who publishes next and price the pass-off so launch is not a guessing game."
 key_concept: |
   - Pick exactly one primary model with Plain Commitments at Work - not "we will figure it out at launch."
+  - Before launch, pick one clear way the client will update the site - not a vague promise to decide later.
   - **Git lesson** - client gets repo access plus a short doc ([[Getting Started]] shape: edit markdown, commit, push). Fits owners who want control and will not panic at a terminal.
   - **Retainer** - they email copy or photos; I push on a batch schedule. Price per update batch, not fake monthly hosting.
   - **Showroom branch** - [[The Garage Concept]]: my experiments stay off their deploy branch; what they see is clean main only.

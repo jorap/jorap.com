@@ -4,6 +4,7 @@ meta_title: "Growth Mindset - Skills Can Improve With Practice"
 description: "Growth mindset treats ability as trainable - mistakes are data, not proof of a fixed label."
 key_concept: |
   - "I am bad at this" is a verdict. "I missed three" is data.
+  - Saying you missed three shots is just counting what happened - saying you are bad at basketball sounds like you can never get better.
   - The stake is identity on the line - one rough outing becomes a label instead of a rep list.
   - [[Failure as Feedback]] only works when I treat skill as trainable.
   - [[Deliberate Practice]] is what I do with the data instead of deciding the ceiling is fixed.

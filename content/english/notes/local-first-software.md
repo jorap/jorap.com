@@ -4,6 +4,7 @@ meta_title: "Local-first Software for Notes"
 description: "Local-first means my device holds the truth; sync is optional icing - backup should behave the same way."
 key_concept: |
   - Truth lives on the device first; cloud sync is backup, not the vault.
+  - Your phone or computer holds the real copy first - the cloud is just a backup copy, not the home.
   - Choose what is public, what stays private, and what gets encrypted before it leaves the room.
   - Sync should merge edits without picking last-write-wins by clock alone.
 examples:

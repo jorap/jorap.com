@@ -6,6 +6,7 @@ key_concept: |
   {{< bible "Matthew 7:12" >}}
   
   - The check is experiential - how would I want to be spoken to, helped, forgiven, included?
+  - Before you act, ask how you would want someone to talk to you, help you, forgive you, or let you belong.
   - That sets the floor for every interaction.
   - [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
   - I treat people how I would want to be treated.

@@ -6,8 +6,8 @@ key_concept: |
   {{< bible ref="Matthew 6:14-15" emphasize="15" >}}
   
   - Forgive others or the Father will not forgive you - daily rhythm, not a one-time sermon nod.
+  - Forgive others the way you want God to forgive you - a daily habit, not nodding once in church.
   - Forgiveness extends the forgiveness already received, not ledger-keeping on debts Christ cleared.
-  
   - Forgive others or the Father will not forgive you - daily rhythm, not a one-time sermon nod.
   
   {{< bible ref="Matthew 18:21-35" emphasize="35" >}}
@@ -73,6 +73,7 @@ cards:
     back: "Forgive - release the small debt."
 draft: false
 ---
+
 
 
 

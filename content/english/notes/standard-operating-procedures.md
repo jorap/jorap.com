@@ -4,6 +4,7 @@ meta_title: "Standard Operating Procedures - Written Defaults the Team Can Run"
 description: "Short written steps for deploys and incidents so nobody improvises when the clock is loud."
 key_concept: |
   - SOPs are simple written steps for recurring work - so nobody improvises under stress.
+  - A written checklist for jobs you do again and again keeps people from guessing when they are scared or rushed.
   - Short deploy and incident steps beat memory when adrenaline shrinks working memory.
   - The checklist is not an insult to competence - it is competence when the clock is loud.
 examples:

@@ -4,6 +4,7 @@ meta_title: "Outcomes Over Pitch Decks - Judge Ideas by Fruit"
 description: "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
 key_concept: |
   - Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.
+  - Judge people and vendors by what they actually produce over time - not by slick slides or a famous profile.
   - Smooth talkers ship thorns sometimes.
   - I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle.
   - On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - do not sell [[Free Tier Hosting Stack]] because it is my favorite hammer.

@@ -6,11 +6,11 @@ key_concept: |
   {{< bible "Matthew 5:3-12" >}}
   
   - Eight blessings flip the scoreboard - kingdom favor for the spiritually needy, not the self-sufficient.
+  - Jesus lists eight blessings that flip who looks winning - God favors people who know they need Him, not people who think they already have it all.
   - "Beatitude" means supreme blessedness.
   - Poor in spirit - broke before God, receiving the kingdom as gift not wage.
   - Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly.
   - Blessed are the poor in spirit, for theirs is the kingdom of heaven - bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
-  
   - | Trait (NASB) | Promise (NASB) |
   - |--------------|----------------|
   - | Poor in spirit | theirs is the kingdom of heaven |
@@ -21,10 +21,6 @@ key_concept: |
   - | Pure in heart | they shall see God |
   - | [[Peacemakers]] | they shall be called sons of God |
   - | Persecuted for righteousness | theirs is the kingdom of heaven |
-  
-  
-  
-  
   - The Beatitudes fit Free Grace perfectly - kingdom favor is gift, not wages for performance.
 examples:
   - "A good week at the clinic and I felt like I did not need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule."
@@ -84,5 +80,6 @@ cards:
     back: "Kingdom of heaven - blessed are persecuted."
 draft: false
 ---
+
 
 

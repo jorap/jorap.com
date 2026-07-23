@@ -4,6 +4,7 @@ meta_title: "Drafting in Public - Learn Out Loud, Messily"
 description: "Drafting in public keeps the garden honest with rough posts and feedback instead of private hoarding."
 key_concept: |
   - Rough drafts in public beat polished drafts hoarded in private.
+  - Sharing rough work out loud helps more than hiding polished drafts until they feel perfect.
   - Posting before it is finished keeps the garden honest and lets feedback shape the work.
   - Silence would let me pretend I understood the pass-off - feedback kills that illusion early.
 examples:

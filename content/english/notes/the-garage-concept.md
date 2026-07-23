@@ -4,6 +4,7 @@ meta_title: "The Garage Concept - Messy Workshop, Clean Showroom"
 description: "The vault is the garage for scraps and experiments - the blog is the showroom, kept separate."
 key_concept: |
   - The garage holds tools, scraps, experiments. The showroom is the blog. I do not confuse the two.
+  - The garage holds messy drafts and half-finished work; the blog is what you show visitors - do not mix them up.
   - Client pass-off uses the same split: [[Selling Static Sites]] workshop in my drafts; the client's deploy branch is the showroom on [[Free Tier Hosting Stack]].
   - One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea.
 examples:

@@ -5,6 +5,7 @@ description: "Peace is Spirit-grown calm in believers who trust the Father - not
 key_concept: |
   {{< bible "Galatians 5:22-23" >}}
   - Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.
+  - Peace is calm inside because God is in charge - not pretending nothing is wrong.
   - Stop borrowing tomorrow's trouble - the trust echo when anxiety replaces rest.
   - Pursue reconciliation where you can - peacemaking is the active echo, not silence only.
   - Order the week before anxiety sets the agenda - seek the kingdom first, then act.

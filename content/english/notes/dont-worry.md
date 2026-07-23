@@ -6,7 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 6:25-34" emphasize="33" >}}
   
   - Worry cannot add an hour to your life - trust the Father who already feeds birds before you stack anxiety on tomorrow.
-  
+  - Worry cannot make your life longer - trust the Father who feeds birds before you pile fear onto tomorrow.
   - The antidote is not denial - it is priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble.
   - Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care.
 examples:
@@ -64,6 +64,7 @@ cards:
     back: "One Master - drop anxious serving of tomorrow."
 draft: false
 ---
+
 
 
 

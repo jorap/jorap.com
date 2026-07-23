@@ -4,6 +4,7 @@ meta_title: "Creative Blocks - When the Notes Don't Become Output"
 description: "Thousands of notes and the page stays blank - one small ship action usually unsticks the work."
 key_concept: |
   - Creative blocks are not solved by more capture - ship one small action instead.
+  - When you are stuck, collecting more ideas will not help - write one small messy piece and start from there.
   - Once something ugly exists on the page, editing is a different, easier problem than starting.
   - Thousands of notes and a blank page means output fixes, not another capture pass.
 examples:

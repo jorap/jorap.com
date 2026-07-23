@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="John 12:28" >}}
   
   - The hour had come - soul troubled, crowd listening - and Jesus asked the Father to glorify His name, not to skip the cup.
+  - When the hard moment arrived, Jesus prayed that God would be honored through what He was about to suffer, not that He could skip the pain.
   - The Father answered from heaven: "I have glorified it, and will glorify it again."
   - [[Not My Will]] repeats the same surrender in Gethsemane; here the glory of the Father's name is the point before the arrest.
   - Under [[Free Grace]], the cross is where the Father's name shines - not where I bargain my way out of cost.

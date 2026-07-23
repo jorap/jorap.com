@@ -6,7 +6,8 @@ key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
   
   - Hear and do - rock in the storm; hearing sermons without obedience is sand.
-  
+  - Building on rock means hearing Jesus and doing what He says - only listening without acting is like building on sand that washes away in a storm.
+
   {{< bible ref="Matthew 7:21" label="Matthew 7:21-23" emphasize="21" >}}
   
   - Lord Lord without doing the Father's will - empty profession, not a stumbled believer who repents.

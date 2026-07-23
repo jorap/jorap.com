@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
   
   - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
+  - Jesus asks God to make us more like Him through truth in the Bible - it is a slow daily change, not one perfect week.
   - [[Christlikeness]] names the aim; sanctification names the slow walk after standing was settled at faith.
   - Sanctification settles who I am becoming on the way.
   - [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance.

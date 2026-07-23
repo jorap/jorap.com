@@ -4,6 +4,7 @@ meta_title: "Information Diet"
 description: "Choose feeds on purpose because algorithm defaults are not neutral."
 key_concept: |
   - Choose what you consume on purpose - feeds are not neutral.
+  - Pick what news and videos you take in on purpose - what you scroll through shapes how you think.
   - Curate inputs like food - binge headlines and your judgment gets as sloppy as your sleep. [[Digital Minimalism]] cuts tools; diet cuts feeds.
 examples:
   - "I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves."

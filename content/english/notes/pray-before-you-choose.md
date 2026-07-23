@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 6:12" emphasize="12" >}}
   
   - Choosing [[Invest in the Few]] was not a spreadsheet decision - He spent the night in prayer on the mountain before He named them.
+  - Jesus did not pick His closest helpers from a pros-and-cons list - He prayed all night on the mountain before He chose them.
   - Big forks deserve prayer before the announcement, not a prayer bolted on after the LinkedIn post.
   - [[Discern His Will Daily]] names testing God's will after renewal; this names the night-before-the-fork posture He modeled.
   - Under [[Free Grace]], prayer does not buy wisdom - it is dependence before I commit other people to my call.

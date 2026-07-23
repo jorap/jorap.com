@@ -6,7 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 20:26-28" emphasize="28" >}}
   
   - Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care.
-  
+  - Following Jesus is who you obey above you - leading others is who looks to you for help, and both jobs matter.
   - Greatness is service - Son of Man came to serve; upward allegiance and outward care stay separate.
   - [[Discipleship]] answers upward; [[Leadership]] answers outward - direction, pace, and care when people look your way.
   - Swapping them is the failure: running a standup is not following Christ, and a promotion does not cancel private obedience.
@@ -78,5 +78,6 @@ cards:
     back: "Christ first - then lead from that footing."
 draft: false
 ---
+
 
 

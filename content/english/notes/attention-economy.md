@@ -4,6 +4,7 @@ meta_title: "Attention Economy"
 description: "Platforms sell user attention - guard the feed pipe before optimizing the inbox."
 key_concept: |
   - Platforms compete for your focus - engagement optimized against you still counts as optimization.
+  - Apps fight for your eyes and clicks - even when the design works against you, someone still wins from your time.
   - Guard the pipe before optimizing the inbox - a tidy inbox for content you should not be consuming is still a loss.
   - [[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit.
   - I treat my feed like a slot machine someone else owns.

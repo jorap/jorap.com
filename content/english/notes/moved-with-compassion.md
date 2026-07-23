@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 9:36" emphasize="36" >}}
   
   - He saw the crowds harassed and helpless and His gut moved - Mark 1:41 says He was moved with compassion before He touched the leper.
+  - Jesus saw people hurting and felt it in His gut - He acted to help before He checked the schedule.
   - The calendar bent for real people - compassion interrupted throughput, not the other way around.
   - [[Love Your Neighbor]] names who to love; [[Peacemakers]] pursues peace - this names the visceral interrupt when someone is hurting now.
   - Under [[Free Grace]], compassion is not earning heaven - it is the Teacher's reflex copied on ordinary Tuesdays.

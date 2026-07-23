@@ -4,6 +4,7 @@ meta_title: "The Collector's Fallacy - Saving Isn't Learning"
 description: "Saving articles felt like progress until every save tied to an express deadline or got cut."
 key_concept: |
   - Collecting articles feels like progress - tie saves to express deadlines or cut them.
+  - Saving articles feels like learning, but it is not - give each save a date to use it or delete it.
   - Saving articles felt like progress until I tied every save to an express deadline or cut it.
   - Every save needs a ship date or a delete date.
 examples:

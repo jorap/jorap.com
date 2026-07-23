@@ -4,6 +4,7 @@ meta_title: "Listen Before Fixing - Hear It Before You Solve It"
 description: "Listen before fixing - repeat what you heard, then respond. Feeling heard comes before being helped."
 key_concept: |
   - I repeat what I heard before I prescribe.
+  - Say back what you heard before you tell someone what to do.
   - Repeating what I heard keeps advice from landing like a correction.
 examples:
   - "A younger player kept explaining why he missed the free throw - I almost jumped in with form tips."

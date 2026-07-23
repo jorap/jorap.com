@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 18:9-14" emphasize="14" >}}
   
   - The tax collector went home justified - humility before God, not self-promotion, is what Jesus commended.
+  - God declared the humble man right with Him - the proud man who bragged about his good deeds did not.
   
   {{< bible ref="Romans 3:21-26" emphasize="24" >}}
   

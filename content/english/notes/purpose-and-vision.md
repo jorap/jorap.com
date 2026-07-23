@@ -4,6 +4,7 @@ meta_title: "Purpose and Vision - Clear Outcome Anchors Daily Choices"
 description: "A clear outcome anchors daily choices - without it, urgency picks the agenda."
 key_concept: |
   - If I cannot name where we are headed, every ping feels equally important.
+  - If you do not know your goal, every message and alert feels urgent - like every exit on a highway looks right when you have no map.
   - Purpose is the outcome worth the tradeoffs.
   - Vision is what it looks like when we are closer - not a poster, a filter for Tuesday's calendar.
   - [[Quarterly Planning]] keeps it on a rhythm; [[Priorities Before the Inbox]] protects it from the siren.

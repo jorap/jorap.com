@@ -4,6 +4,7 @@ meta_title: "Building a Personal API - Your Notes as Callable Context"
 description: "Frontmatter and folders shaped so future you and scripts need no fresh briefing every time."
 key_concept: |
   - My personal API is not OAuth and microservices.
+  - It means naming your files and folders the same way every time - so future you can find things without a tour.
   - I shape frontmatter and folders so future me and my scripts do not need a fresh briefing every time.
   - Frontmatter and folder shape are the contract between past me and future me.
   - Consistent slugs and fields let agents and scripts read the garden without a tour.

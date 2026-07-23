@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
   
   - Father who sees in secret repays - hidden devotion counted, not applause theater.
+  - God sees what you do in secret and will pay you back for it - quiet faithfulness counts, not just what gets applause.
   
   {{< bible ref="Matthew 6:16-18" emphasize="18" >}}
   

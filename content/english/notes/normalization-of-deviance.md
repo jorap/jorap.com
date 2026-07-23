@@ -4,6 +4,7 @@ meta_title: "Normalization of Deviance"
 description: "Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable."
 key_concept: |
   - The third unchallenged shortcut is the warning - not the accident that finally forces a meeting.
+  - The third time someone skips a rule without anyone speaking up is the warning - not the crash that finally gets a meeting.
   - [[Heed Every Near-Miss]] logs each close call; [[Blameless After-Action Review]] when "nobody died" cannot end the talk.
   - By the fourth or fifth time, the shortcut is not even a decision anymore - it is just how things are done here.
 examples:

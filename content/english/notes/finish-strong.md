@@ -4,7 +4,8 @@ meta_title: "Finish Strong - Starting Proves Capability, Finishing Proves Discip
 description: "Launch day excitement does not count - success is whether the last commitment actually got done."
 key_concept: |
   - Finish strong judges success by whether the last commitment actually got done, not launch-day excitement.
-  
+  - Finish strong means judging success by whether you did the last thing you promised - not by how excited you felt at the start.
+
   - Starting well proves you can begin; finishing well proves you can keep going when it is boring, hard, or no longer exciting.
   - A project, conversation, competition, or responsibility is not successful until the last commitment is done.
   - The last commitment closed is what makes the launch real.

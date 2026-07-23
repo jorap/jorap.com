@@ -4,7 +4,8 @@ meta_title: "Develop, Don't Endanger - Challenge Without Disproportionate Risk"
 description: "People grow through drills that build skill without pain or risk replacing the actual skill."
 key_concept: |
   - Hard alone does not make an exercise worth running.
-  
+  - Just because something is hard does not mean it helps you grow - a drill should build skill without hurting people on purpose.
+
   - A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits.
   - When pain becomes the point, leaders start treating harm like proof of growth.
   - Push people to grow without picking drills where pain or risk replaces the actual skill.

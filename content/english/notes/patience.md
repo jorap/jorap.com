@@ -5,6 +5,7 @@ description: "Wait without turning brittle - the Spirit grows a slow fuse, not a
 key_concept: |
   {{< bible "Galatians 5:22-23" >}}
   - The Spirit does not shortcut the wait - it changes what waiting does to you, so the delay does not calcify into resentment.
+  - The Spirit does not make waiting disappear - it keeps waiting from turning you bitter and angry.
   - [[Fruits of the Spirit]] names patience in the same cluster as gentleness and self-control.
   - Endurance under delay and providence because you are connected to the vine, not performing virtue.
   - [[Slow the Moment]] is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge.

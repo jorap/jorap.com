@@ -6,7 +6,8 @@ key_concept: |
   {{< bible ref="John 8:31-32" emphasize="32" >}}
   
   - Stay in His word and you are His disciple - truth frees the mind culture tried to lock in hurry and outrage.
-  
+  - Keep reading and obeying what Jesus taught and your thinking starts to change - truth loosens the grip of hurry and anger that the world pushes on you.
+
   {{< bible ref="Romans 12:1-2" emphasize="2" >}}
   
   - Mercy first, then sacrifice, then a mind being renewed - Paul stacks the order I keep swapping.

@@ -4,6 +4,7 @@ meta_title: "The Trusted Inbox - One Place I will Actually Empty"
 description: "One capture pipe emptied every week - without trust, ideas hoard in the head instead."
 key_concept: |
   - If the inbox never gets emptied, capture moves back into your head.
+  - If you never clear your capture list, your brain starts holding ideas again because you cannot trust the list.
   - An inbox you do not empty becomes a junk drawer you stop using.
   - Trust is built by emptying on schedule, not by hoping you will get to it someday.
 examples:

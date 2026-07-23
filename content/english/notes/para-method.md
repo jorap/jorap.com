@@ -4,6 +4,7 @@ meta_title: "PARA Method - Projects, Areas, Resources, Archives"
 description: "PARA sorts notes into Projects, Areas, Resources, and Archives - four buckets by life responsibility, not topic soup."
 key_concept: |
   - Sort by who owns it and when it ends - not by topic alphabet soup.
+  - Sort notes by who owns them and when they end - not by topic names from A to Z.
   - Projects carry deadlines; Areas carry ongoing responsibility; Resources wait unclaimed; Archives hold finished work.
   - Enough structure to find things, archive when done.
 examples:

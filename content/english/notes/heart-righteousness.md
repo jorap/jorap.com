@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 5:21-30" emphasize="22,28" >}}
   
   - Angry with your brother - guilty before the court even if you smiled outwardly.
+  - God cares about anger and lust in your heart, not just whether you looked polite on the outside.
   - Lust logged mentally - adultery in the heart though marriage looks fine outside.
   - "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination.
   - Under [[Free Grace]], this is not a new merit ladder it is the standard the Spirit applies to a life already saved, starting where only God sees.

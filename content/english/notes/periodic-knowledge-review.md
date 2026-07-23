@@ -4,6 +4,7 @@ meta_title: "Periodic Knowledge Review - Revisit on a Schedule"
 description: "Notes rot without revisit - calendar weekly and quarterly passes like bills."
 key_concept: |
   - Crisis review is always too late.
+  - Review your notes on a schedule - waiting until a crisis hits is too late.
   - I calendar weekly and quarterly passes the way I would calendar bills - inbox, active projects, evergreens on the clock, not when guilt spikes.
   - If I never revisit notes, they rot.
 examples:

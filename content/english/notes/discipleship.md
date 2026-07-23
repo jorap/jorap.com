@@ -6,7 +6,8 @@ key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
   
   - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
-  
+  - Each day you say no to what you want and follow Jesus - not to earn heaven but because grace already saved you.
+
   - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
   - Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response, not payment.
   - [[Sanctification]] is the slow becoming that walk produces; [[Fruits of the Spirit]] is what people see when the walk is real.

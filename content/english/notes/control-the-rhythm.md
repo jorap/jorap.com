@@ -4,7 +4,7 @@ meta_title: "Control the Rhythm - Don't Let Urgency Set Your Pace"
 description: "Control the rhythm is taking back pace before urgency, conflict, or someone else sets it."
 key_concept: |
   - Control the rhythm means taking back pace before urgency, conflict, or someone else sets it.
-  
+  - Choose how fast you move before panic or someone else rushes you - you set the tempo when you can.
   - Whoever sets the pace often steers the room.
   - Do not let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act - take the tempo back when you can.
   - The room usually cannot tell the difference between you slowing down and you being in control - so slow down.
@@ -60,4 +60,5 @@ cards:
     back: "Clock on the wall - not their negotiation."
 draft: false
 ---
+
 

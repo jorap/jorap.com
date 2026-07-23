@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 5:38-42" emphasize="39" >}}
   
   - The point is not passivity toward all evil - it is refusing to become what hurt you.
+  - Turning the other cheek does not mean letting evil win - it means you refuse to copy the cruelty that hit you.
   - Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt.
   - Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture).
   - [[Free Grace]] frees me to absorb cost without keeping score for heaven.

@@ -5,6 +5,7 @@ meta_title: "Transformation Principles - Repeatable Moves for Real Change"
 description: "Personal or team change runs on a small set of principles you apply on purpose - not one heroic push."
 key_concept: |
   - Transformation isn't a single breakthrough - it's the same moves repeated until the system bends.
+  - Real change is not one big moment - it is the same small steps repeated until the habit or team finally shifts.
   - Clear direction, honest starting point, owned action, safe practice, measured feedback, people first, systems lens.
   - Install one lever at a time before I expect the room to feel different.
   - Personal or team change runs on a small set of principles you apply on purpose - not one heroic push.

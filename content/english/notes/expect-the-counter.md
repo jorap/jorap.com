@@ -4,7 +4,8 @@ meta_title: "Expect the Counter - Prepare for the Second Move"
 description: "Plan what happens after the other side adapts, not just how the opening move looks on paper."
 key_concept: |
   - Expect the counter means planning what happens after the other side adapts, not just the opening move.
-  
+  - Plan what you will do after the other side changes their answer, not just your first move.
+
   - The opening move is not the game - they adapt, and you need a second plan ready.
   - Rehearse the second move before tip-off, not only the play that looks good on paper.
   - Do not cling to a tactic because it worked once - that is when the counter hurts most.

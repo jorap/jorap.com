@@ -4,6 +4,7 @@ meta_title: "People-Centered Design - Human Needs First or Change Will not Stick
 description: "Design for real human needs first - customers, teammates, stakeholders - or the change will not stick."
 key_concept: |
   - A process that ignores the people inside it gets worked around by Friday.
+  - If a new rule ignores how real people actually work, they will find a workaround by Friday.
   - People-centered design keeps actual needs in front - what slows a nurse down, what confuses a new hire, what a customer is trying to finish - before I optimize the chart or the slide.
   - [[Listen Before Fixing]] and [[Psychological Safety]] are prerequisites: you cannot design for people you did not hear.
 examples:

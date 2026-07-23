@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 5:29-32" emphasize="29" >}}
   
   - Levi threw a feast and Jesus reclined with tax collectors - Pharisees grumbled; He came to call sinners, not the self-righteous.
+  - Jesus ate with people others looked down on - He came for the messy ones, not for people who thought they were already good enough.
   - Mark 2:15 shows the same pattern - eating with the wrong crowd was the point, not a photo op.
   - [[Humility and Service]] washes feet; [[Love Your Neighbor]] loves the person in front - table fellowship is ministry at a meal, not a stage.
   - Under [[Free Grace]], eating with sinners is not endorsing sin - it is the Physician with the sick.

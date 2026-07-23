@@ -4,7 +4,7 @@ meta_title: "Context-Aware Capture - Save the Why, Not Just the What"
 description: "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh."
 key_concept: |
   - Context-aware capture saves the why while memory is fresh - project, mood, question - not just the link.
-  
+  - Write down why you saved something while you still remember - a link alone will not tell you later.
   - A saved link is a mystery six weeks later unless the why was captured while it was still obvious.
   - Six weeks later, only the why saves a bookmark from becoming junk.
 examples:
@@ -43,4 +43,5 @@ cards:
     back: "A link without context is a mystery six weeks later"
 draft: false
 ---
+
 

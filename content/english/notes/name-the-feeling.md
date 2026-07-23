@@ -4,6 +4,7 @@ meta_title: "Name the Feeling - Put Words to It Before You Fix It"
 description: "That sounds frustrating lands before the fix plan - name the emotion so nobody is guessing."
 key_concept: |
   - "That sounds frustrating" before "here's what to do."
+  - Say that sounds frustrating before you hand someone a to-do list.
   - Naming the emotion lowers defensiveness so the fix can land.
   - [[Listen Before Fixing]] comes first - hear it, label it, then steer.
   - Skip the label and I am guessing at the problem while they are still proving I did not get it.

@@ -4,6 +4,7 @@ meta_title: "Risk Management"
 description: "Name what can go wrong, how likely, how bad - then choose controls in order of strength."
 key_concept: |
   - Rank controls strongest first - eliminate the hazard before you rank residual ones.
+  - Fix the biggest danger first - remove the hazard if you can, then deal with whatever risk is left.
   - [[Hierarchy of Controls]] names rollback among controls before irreversible harm.
   - [[Staged Rollout]] limits exposure before you bet the whole lane.
   - Likelihood times severity sets how strong the control needs to be.

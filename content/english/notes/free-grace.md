@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="John 5:24-29" emphasize="24" >}}
   
   - Hear Christ's word and believe - you have crossed from death to life; judgment is not hanging over your head.
+  - Hear Jesus and believe - you have moved from death to life, and judgment is not hanging over your head anymore.
   - Grace is a gift never earned - Christ paid what could not be paid.
   
   {{< bible ref="Ephesians 2:8-9" emphasize="9" >}}

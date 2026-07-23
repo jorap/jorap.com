@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Promotion and platform are entrusted for faithful use - enter the master's joy, do not bury the talent in ego.
+  - When you get gifts like time, money, or a bigger platform, you are meant to use them well for others - not hide them to protect your pride.
   - Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence.
   - [[Free Grace]] settled where I spend forever; stewardship settles what I do with the gifts after.
   - [[Faithful Steward]] is the parable Jesus told - well done for faithful use, buried talent rebuked.

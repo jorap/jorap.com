@@ -4,6 +4,7 @@ meta_title: "Slow Productivity - Fewer Projects, Deeper Notes"
 description: "Slow productivity is fewer active projects so work finishes deep instead of piling as guilt."
 key_concept: |
   - Busy is not the same as finished.
+  - Racing around and feeling busy does not mean the real work is done - it just means you are moving a lot.
   - I run fewer active projects so notes become shipped work, not a guilt backlog.
   - Four half-started builds eat the one client site that was supposed to ship this month.
 examples:

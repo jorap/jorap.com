@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Mark 3:14" emphasize="14" >}}
   
   - He appointed twelve to be with Him and to send out - presence before platform, depth before scale.
+  - Jesus spent real time with a small group of disciples before sending them out - depth with a few beats chasing a huge crowd.
   - John 13 shows the same logic at the end - washed their feet in the room, not from a stage.
   - [[Great Commission]] pushes outward; [[Discipleship]] names daily following - this names the small circle that carries the message.
   - Under [[Free Grace]], investing in a few is not elitism - it is how the Teacher multiplied truth without hoarding it.

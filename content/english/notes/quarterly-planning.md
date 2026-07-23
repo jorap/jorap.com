@@ -4,6 +4,7 @@ meta_title: "Quarterly Planning"
 description: "Set goals and review on a thirteen-week rhythm - short enough to feel real."
 key_concept: |
   - Zoom out every ninety days so weekly noise does not eat the year's aim.
+  - Every three months, step back and check whether daily distractions are eating your big goal for the year.
   - A year-long goal hides slippage for months; thirteen weeks cannot.
   - Long enough to actually finish something, short enough that slipping is still visible before it is too late.
 examples:

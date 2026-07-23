@@ -4,6 +4,7 @@ meta_title: "Influence Without Title - People Follow Trust Before Badges"
 description: "People follow the one who showed up in the crisis - not always the name on the org chart."
 key_concept: |
   - Leadership Is Influence is the headline: if they are moving with you, you are leading - badge optional.
+  - You are leading when people follow your direction, even if you never got the official job title.
   - This note is the positive case before anyone prints a business card.
   - Trust deposits compound in small moments: bailing the crew out of an outage, calm voice when the alarm trips.
   - The neighbor who counted heads in the blackout.

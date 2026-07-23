@@ -5,6 +5,7 @@ meta_title: "Leadership Is Influence - If Nobody Follows, You're Walking Alone"
 description: "Influence moves people toward a shared goal - title optional, trust required."
 key_concept: |
   - Leadership is influence - if nobody is following, you are just taking a walk.
+  - You are only leading if someone is coming with you - otherwise you are just walking alone.
   - Title borrows authority; influence is what people grant you - trust built in small deposits, spent when you set direction.
   - Badge without followers is taking a walk, not leading.
   - The notes below map how influence gets earned, tested, and spent - not re-summarized here.

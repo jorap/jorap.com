@@ -4,6 +4,7 @@ meta_title: "Evergreen Notes - Ideas That Stay Fresh"
 description: "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes."
 key_concept: |
   - Phrase ideas worth standing behind in two years, then revise when reality shifts.
+  - Write ideas you would still stand behind two years from now, and change them when life proves you wrong.
   - Complete sentences you would still sign - not trend-chasing rewrites every quarter.
   - Promote from fleeting during [[Periodic Knowledge Review]] when a spark keeps returning.
 examples:

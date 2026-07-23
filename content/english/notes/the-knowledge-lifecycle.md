@@ -4,6 +4,7 @@ meta_title: "The Knowledge Lifecycle - From Spark to Archive"
 description: "Ideas move through capture, use, polish, fade, and archive - match effort to the stage."
 key_concept: |
   - Raw capture gets tagged and dated - polish waits until reuse is real.
+  - Write new ideas down with a label and date first - clean them up only when you actually need to use them again.
   - Fade is a signal to archive, not proof the idea was worthless.
   - Spend effort on polish only when an idea is in reuse - not when it is still a raw capture.
   - [[Note Maturity]] names the stages this lifecycle tracks.

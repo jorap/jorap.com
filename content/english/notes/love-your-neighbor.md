@@ -6,7 +6,8 @@ key_concept: |
   {{< bible "Matthew 22:39" >}}
   
   - Second command, paired with the first - love the person in front of you the way you would want care if roles flipped.
-  
+  - Love the person right in front of you the way you would want someone to treat you if you switched places.
+
   {{< bible "Mark 12:31" >}}
   
   - Jesus echoed Moses on the second command - no command ranks higher than loving God and neighbor.

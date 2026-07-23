@@ -4,6 +4,7 @@ meta_title: "PKM - Personal Knowledge Management in Plain Language"
 description: "PKM saves, organizes, and reuses what you learn - not a hobby of collecting apps."
 key_concept: |
   - Save, organize, reuse - three moves, not app-hopping for the perfect stack.
+  - Save what you learn, put it where you can find it, use it again - three steps, not hunting for the perfect app.
   - Output beats tuning the system alone.
   - This garden is where reuse happens after capture.
 examples:

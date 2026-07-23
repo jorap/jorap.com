@@ -4,6 +4,7 @@ meta_title: "Static Site Client Scope - What Fits the Static Stack"
 description: "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
 key_concept: |
   - Scope the sales call before I quote Selling Static Sites - say no to bad fits in the room, not after deposit.
+  - Decide what kind of website job fits before you name a price - say no to the wrong jobs face to face, not after they have paid.
   - **Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer.
   - **Bad fits:** e-commerce you host, member login, booking engines, five daily non-technical editors with no retainer.
   - Redirect honestly to Shopify, WordPress, or a dynamic stack.

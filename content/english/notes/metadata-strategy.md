@@ -4,6 +4,7 @@ meta_title: "Metadata Strategy - Tags Without Taxonomy Hell"
 description: "If tagging a note takes longer than writing it, my system is fighting me."
 key_concept: |
   - Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
+  - Tags and dates should help you find a note fast - not turn into a second full-time job.
   - Metadata earns its keep when I can find the note in ten seconds.
   - Light tags and aliases beat taxonomy hell inside PARA buckets.
   - Frontmatter is publish metadata; the body is the writing - YAML breaks the build, Markdown typos rarely do.

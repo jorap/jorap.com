@@ -4,6 +4,7 @@ meta_title: "Golden Rule at Work - Treat Colleagues How You Want to Be Treated"
 description: "Treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip."
 key_concept: |
   - It is active, not passive: do the helpful thing, do not only avoid harm.
+  - Treat coworkers the way you would want to be treated - step in and help, do not just stay out of the way.
   - The check is experiential - how would you want feedback delivered, how would you want to be included, how would you want a mistake handled?
   - Gospel depth lives in [[The Golden Rule]]; this is the version used before hitting send.
 examples:

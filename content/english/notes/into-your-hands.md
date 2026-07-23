@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 23:46" >}}
   
   - His last recorded words to the Father trust the outcome - Father, into Your hands I commit My spirit - echoing Psalm 31:5.
+  - Jesus died trusting God to hold Him - like handing over something precious to someone you know will take care of it.
   - After forgiveness for enemies and the forsaken cry, this is release: death met as entrusting, not panic.
   - [[Not My Will]] surrendered the cup in the garden; the cross ends with committing His spirit to the same Father.
   - Under [[Free Grace]], my death can mirror the posture - not earning heaven at the end, but resting in the Father's hands because Jesus already opened the way.

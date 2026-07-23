@@ -4,6 +4,7 @@ meta_title: "Atomic Notes - One Idea, One File"
 description: "One clear claim per note - split before the ands pile up."
 key_concept: |
   - One claim I would say out loud - too many ands, split it.
+  - Each note should make one clear point you could say in one breath - if it has too many ideas, split it into two notes.
   - **Rule of thumb:** one thing I would cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
   - Small notes stack like Lego blocks - linked, not merged.
   - Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing.

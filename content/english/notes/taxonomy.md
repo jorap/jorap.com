@@ -4,6 +4,7 @@ meta_title: "Taxonomy"
 description: "Tags, folders, and types help find notes later - classification in service of retrieval."
 key_concept: |
   - Five tags you actually filter by beat thirty you never click.
+  - A few labels you really use to find things beat a long list of tags you never search for.
   - [[Metadata Strategy]] plans tags; taxonomy is the short list you would actually use.
   - Classification serves retrieval - not tidy folders for their own sake.
 examples:

@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 23:34" >}}
   
   - Nailed and mocked, Jesus prayed for the people driving the nails - Father, forgive them, for they do not know what they do.
+  - While nailed to the cross, Jesus asked God to forgive the people hurting Him - they did not know what they were doing.
   - The prayer is intercession for enemies at the moment of maximum injustice, not a delayed lecture after He won.
   - [[Moved with Compassion]] bent His calendar for hurting people; here mercy speaks when He had every right to condemn.
   - Under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected - His prayer bought space for [[Repent and Believe]] later.

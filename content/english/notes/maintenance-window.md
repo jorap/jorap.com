@@ -4,6 +4,7 @@ meta_title: "Maintenance Window"
 description: "Block garden time on the calendar so broken links do not ambush on a random Sunday."
 key_concept: |
   - Scheduled time to prune, fix links, and archive - not random Sunday panic.
+  - Pick a set time to clean up your notes - not a panicked scramble on a random Sunday.
   - Calendar the prune before the garden rots - same habit as oil changes, not panic Sundays.
   - [[Periodic Knowledge Review]] calendars the pass; this note names the scheduled slot.
   - I block garden time on the calendar so broken links do not ambush me on a random Sunday.

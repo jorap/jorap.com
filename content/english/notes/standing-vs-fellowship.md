@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="John 10:27-30" emphasize="28" >}}
   
   - Eternal life in His hand - no one snatches you out; standing stays settled even when closeness feels thin.
+  - God holds your place in His family tight - nobody can kick you out, even when prayer and joy feel far away for a while.
   - [[Free Grace]] secured eternal life once.
   - Standing is the verdict: declared righteous on Christ, not re-opened by a bad week.
   - Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess.

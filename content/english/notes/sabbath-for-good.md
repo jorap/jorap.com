@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Mark 2:27" emphasize="27" >}}
   
   - The Sabbath was made for man, not man for the Sabbath - the Lord of the Sabbath chose mercy and good over performance religion.
+  - Rest day was made to help people, not to trap them in rules - Jesus chose kindness and healing over empty rule-keeping.
   - Luke 13:16 shows the same move - bent woman freed on the Sabbath; binding her was wrong, not rules over compassion.
   - [[Heart Righteousness]] cares about motive; [[Secret Devotion]] refuses piety for applause - Sabbath for good refuses empty rule-keeping.
   - Under [[Free Grace]], rest is not a wage - it is gift rhythm that makes room to love the person in front of you.

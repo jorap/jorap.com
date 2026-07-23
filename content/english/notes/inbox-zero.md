@@ -4,6 +4,7 @@ meta_title: "Inbox Zero"
 description: "Process the inbox to empty each week - decide, do not hoard."
 key_concept: |
   - Process the inbox to empty regularly - each item decided, not hoarded.
+  - Open your inbox often, decide what to do with each message, and leave nothing sitting there to rot.
   - Zero is not vanity - it is proof the capture system still works when Monday does not start with dread.
   - Empty the capture pipe on schedule, or ideas retreat back into my head.
   - Each item gets decide, delete, or defer - not another week in the pile.

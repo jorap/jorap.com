@@ -4,6 +4,7 @@ meta_title: "First Principles Thinking in Your Notes"
 description: "Rebuild from what you actually believe, not a quote filed as someone else line."
 key_concept: |
   - A saved quote is not a principle until you rebuild the claim in your own words.
+  - A saved quote is not really yours until you say the idea again in your own words and mean it.
   - The tell: can you defend it without citing the source? If not, you do not own it yet.
   - You cannot explain, extend, or apply an idea you never rebuilt.
 examples:

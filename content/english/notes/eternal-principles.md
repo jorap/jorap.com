@@ -5,6 +5,7 @@ meta_title: "Eternal Principles - Jesus' Teachings in the Garden"
 description: "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
 key_concept: |
   - I split them into one-claim notes so I can link and drill them like the rest of the garden.
+  - I split Jesus' teachings into one-idea notes so I can link them and study them like the rest of my notes.
   - The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works.
   - These principles aren't the price of heaven.
   - They're how I try to live once I've already received it.

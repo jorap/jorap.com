@@ -4,6 +4,7 @@ meta_title: "Strong Outside Your Comfort - Stay Useful in New Conditions"
 description: "The habit that worked in the last role can flop in the next room - retune instead of clinging."
 key_concept: |
   - The tell is confidence that does not match the room - certainty imported from somewhere else.
+  - You can spot it when someone acts sure of themselves in a new place but their old tricks no longer work there.
   - Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
   - The habit that worked in my last role can flop in the next room.
   - Nobody warns you the room changed; you just start losing at things that used to work.

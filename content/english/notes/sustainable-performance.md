@@ -4,6 +4,7 @@ meta_title: "Sustainable Performance - Pace You Can Repeat"
 description: "Aim for a pace you can hold next month without burning out or cutting safety corners."
 key_concept: |
   - Sustainable performance is output you can keep without burning out or cutting corners on safety.
+  - Work at a pace you can keep next month without collapsing from exhaustion or skipping safety steps.
   - I aim for a pace I can hold next month without burning out or cutting safety corners.
   - Pace you can repeat beats a sprint that mortgages next month.
   - The sprint feels like progress in the moment; the bill for it always arrives, just later than planned.

@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 6:39-40" emphasize="40" >}}
   
   - Fully trained, like the teacher - the aim is not my old default self on display, it is looking more like Jesus over years.
+  - The goal is to grow more like Jesus over years - not to keep showing your old selfish habits as normal.
   - [[Free Grace]] settles where I spend forever.
   - Christlikeness settles who I am becoming - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.
   - [[Sanctification]] is the slow process, [[Discipleship]] is the daily walk, [[Abide in Me]] is the engine, [[Fruits of the Spirit]] is what people notice when the walk is real.

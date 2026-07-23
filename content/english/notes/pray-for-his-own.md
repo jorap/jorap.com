@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="John 17:1-26" emphasize="11" >}}
   
   - John 17 is the longest prayer the Gospels record - Jesus talks to the Father about glory, the hour, and the people the Father gave Him.
+  - In John 17 Jesus talks to God the Father about Himself, His twelve followers, and everyone who will believe later - it is the longest prayer in the Gospels.
   - He prays for the twelve to be kept, sanctified in truth, and one as He and the Father are one - then extends the same request to all who will believe through their word.
   - [[Invest in the Few]] names who He chose; this prayer names what He asks the Father to do for them after He leaves.
   - Under [[Free Grace]], I am in the "those who will believe" branch - kept by the Father's name, not by my grip on Him.

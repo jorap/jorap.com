@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 4:43" emphasize="43" >}}
   
   - He said He must preach the kingdom to other cities - Matthew 9:35 sums the same road: teaching, preaching, healing in every town.
+  - Jesus traveled town to town teaching, telling good news, and helping sick people - one life of service on the move.
   - Not three careers swapped by calendar - one kingdom rhythm carried through villages.
   - [[Seek the Kingdom First]] orders the week; [[Let Your Light Shine]] makes good visible - kingdom in front of new faces daily.
   - Under [[Free Grace]], the road is not earning the kingdom - it is announcing and embodying what He already came to give.

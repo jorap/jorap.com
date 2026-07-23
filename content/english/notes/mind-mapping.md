@@ -4,6 +4,7 @@ meta_title: "Mind Mapping - Spatial Thinking Before Linear Notes"
 description: "Mind maps serve the messy first pass - branches, bubbles, relationships - then export to atomic notes."
 key_concept: |
   - Mind maps are the messy first pass - branches and bubbles before linear notes.
+  - Draw messy branches and bubbles first - straight bullet notes come after the picture is clear.
   - The map shows relationships at a glance; atomic notes are what survive review and linking.
   - Export each branch to its own note after the shape is visible - not instead of writing notes.
 examples:

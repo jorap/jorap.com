@@ -4,6 +4,7 @@ meta_title: "Integrity - Alignment Between Claim and Action"
 description: "What you do matches what you claim when applause, speed, or comfort are not watching."
 key_concept: |
   - What you do matches what you claim - especially when it costs applause, speed, or comfort.
+  - Your actions should match your words even when telling the truth slows you down or makes you look bad.
   - What I do matches what I claim when applause, speed, or comfort are not watching.
   - Integrity is doing what you said matters when it costs something - not only when someone's watching.
 examples:

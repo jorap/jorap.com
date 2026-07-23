@@ -4,6 +4,7 @@ meta_title: "Plain Commitments at Work - Yes Means Yes"
 description: "Say yes or no clearly - no \"definitely maybe,\" no stack of qualifiers so people trust a weak promise."
 key_concept: |
   - Say yes or no plainly - hype on a weak promise is the real problem.
+  - Say yes or no plainly at work - fancy hype on a weak promise is the real problem.
   - If my word needs hype to sound believable, the problem is weak [[Complete the Cycle]], not the sentence.
   - One deadline, one owner, one plain answer in Slack.
   - On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Pass-Off]] model the same way.

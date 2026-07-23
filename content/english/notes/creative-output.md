@@ -4,6 +4,7 @@ meta_title: "Creative Output - Why I Capture at All"
 description: "Notes are inventory for me - posts, sermons, code, and dinner experiments are the point."
 key_concept: |
   - Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus.
+  - Notes are meant to become finished work others can use - publish the post, talk, or code, not just hoard drafts.
   - The inventory only pays off the day it becomes something someone else can read, hear, or eat.
 examples:
   - "Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough."

@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 6:25-34" emphasize="33" >}}
   
   - Kingdom and righteousness first - food, status, and tomorrow sort behind that, not before my inbox; the test is what actually gets my first ten minutes of the day.
+  - Put God and doing what is right first - food, status, and worry about tomorrow come after, and you can tell by what gets your first ten minutes each morning.
   - The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]].
   - Kingdom is not escape from earth - it is God's reign ordering my priorities today.
   - Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.

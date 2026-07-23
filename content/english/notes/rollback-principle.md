@@ -4,6 +4,7 @@ meta_title: "Rollback Principle - Undo Before You Push, Revert Before You Debug"
 description: "Restore the last good state before you push - when the new state breaks, revert first, debug second."
 key_concept: |
   - If I cannot explain the path back in one sentence, I am not ready to ship.
+  - If you cannot say in one sentence how you would undo a change, you are not ready to release it yet.
   - [[Reversibility]] is the decision frame; rollback is the rehearsed move.
   - Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation.
   - The team needed "my call, here's the fix," not a speech.

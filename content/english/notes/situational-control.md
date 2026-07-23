@@ -4,6 +4,7 @@ meta_title: "Situational Control - Steer What You Can in the Moment"
 description: "Steer pace, format, and who speaks when you cannot own the whole outcome."
 key_concept: |
   - Situational control is using the levers available - pace, venue, agenda, boundaries - when you cannot control everything.
+  - When you cannot control everything, you still choose what you can change - how fast things move, where you meet, what gets talked about, and what lines you will not cross.
   - I steer pace, format, and who speaks in the room when I cannot own the whole outcome.
   - The room notices who's steering even when nobody announced it.
 examples:

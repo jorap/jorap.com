@@ -4,6 +4,7 @@ meta_title: "Integrity Without an Audience - Do the Honest Work"
 description: "Do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet."
 key_concept: |
   - Do the honest work when there is no audience.
+  - Do the right thing even when nobody is watching you.
   - Performance for the standup is its own reward and a small one.
   - Some good work should stay hidden; some should shine in [[Let Your Light Shine]].
   - This note is the hidden lane: quality when the manager is not looking.

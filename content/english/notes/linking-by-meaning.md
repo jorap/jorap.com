@@ -4,6 +4,7 @@ meta_title: "Linking by Meaning - How Ideas Find Each Other"
 description: "Link notes so ideas meet in the graph without memorizing every folder path."
 key_concept: |
   - Folders sort files; links connect ideas.
+  - Folders put papers in drawers - links hook one idea to another so you can follow the trail.
   - I link notes so ideas meet in the graph without me memorizing every folder path.
   - Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.
   - One link to what extends the thought, one to what pushes back.

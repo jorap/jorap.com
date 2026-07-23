@@ -4,6 +4,7 @@ meta_title: "Shadow the Work - Watch Real Use Before You Redesign"
 description: "Watch one person do the real job before redrawing the process or the slide."
 key_concept: |
   - Flowcharts lie politely - shadowing does not.
+  - A diagram on paper can look neat while hiding mess - watching someone do the job shows what really happens.
   - Shadow the work means sit with one nurse, one cashier, one new hire while they finish the task - then cut what actually slows them.
   - [[People-Centered Design]] is the principle; this is the move.
   - [[Listen Before Fixing]] hears the complaint; shadowing sees the friction they stopped mentioning because it is "just how it is."

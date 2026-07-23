@@ -4,6 +4,7 @@ meta_title: "Evergreen vs Fleeting Notes - Two Speeds"
 description: "Sparks belong in fleeting notes; trusted claims belong in evergreen, with a clear path between them."
 key_concept: |
   - Two speeds, one promotion rule.
+  - Quick notes catch ideas you might lose this week - evergreen notes hold ideas you would trust next year, and you move between them on purpose.
   - Fleeting notes catch sparks you would lose by Friday; evergreen notes hold claims you would cite next year.
   - The stake is rot - sparks that never promote clutter the inbox, and forcing everything evergreen buries what was only true this week.
   - [[Note Maturity]] is the path between: capture fast, promote when the idea survives a second read.

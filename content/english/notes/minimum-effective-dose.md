@@ -4,6 +4,7 @@ meta_title: "Minimum Effective Dose - Smallest Effort That Still Works"
 description: "The smallest change that still moves the needle - not the heroic overhaul."
 key_concept: |
   - I borrowed it from medicine: enough to work, not more than needed.
+  - Like medicine, use just enough to help - do not keep piling on when more does not help.
   - Applies to PKM habits, fitness, and side projects.
   - More input past the dose is noise - not a heroic overhaul.
 examples:

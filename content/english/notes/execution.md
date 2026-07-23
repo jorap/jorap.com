@@ -4,7 +4,8 @@ meta_title: "Execution - Turning Decisions Into Done Work"
 description: "A decision earns nothing until finished work lands, not when the slide deck or the intention is done."
 key_concept: |
   - Execution turns a decision into finished work - not slides, intentions, or we will get to it later.
-  
+  - Execution means finishing the work after you decide - not stopping at slides, good intentions, or saying you will do it later.
+
   - Execution is the gap between deciding and delivered - plans earn nothing until work lands.
 examples:
   - "Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time."

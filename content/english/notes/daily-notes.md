@@ -4,7 +4,7 @@ meta_title: "Daily Notes - Low-Stakes Logs That Compound"
 description: "Today's scratch pad for fragments - promote what repeats, let the rest fade."
 key_concept: |
   - Fragments belong on today's scratch pad - not in a diary built to last.
-  
+  - Quick toss-off thoughts belong on today's scratch page - only ideas that repeat earn a permanent note.
   - Fleeting by default, with quick buffer flushes between tasks.
   - Promote a repeating fragment to a real note; let the rest fade.
 examples:
@@ -46,4 +46,5 @@ cards:
     back: "Not permanent by default."
 draft: false
 ---
+
 

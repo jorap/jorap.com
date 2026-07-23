@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Luke 22:42" >}}
   
   - The cup was real - soul overwhelmed, sweat like blood - and Jesus asked if the Father could remove it, then surrendered: not My will, but Yours be done.
+  - Jesus asked the Father to take the hard cup away, then said do Your will, not mine - surrender after an honest ask.
   - Matthew and Mark record Him praying the same surrender three times; Luke notes an angel strengthening Him in the agony.
   - [[Glorify Your Name]] asked for the Father's glory at the hour; Gethsemane is where that glory met His human dread.
   - Under [[Free Grace]], this is not a template to earn favor - it is the Son showing how costly obedience sounds in prayer.

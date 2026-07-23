@@ -4,7 +4,7 @@ meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
 description: "Old notes surprise on schedule because links were made on purpose, not by luck."
 key_concept: |
   - Serendipity is not luck - it is systems where old notes resurface at the right time.
-  
+  - Good surprises happen when your old notes show up at the right time because your system brings them back, not because you got lucky.
   - Old notes surprise on schedule because they were linked on purpose, not because someone got lucky.
   - Link notes on purpose so forgotten ideas surprise when a new problem rhymes.
   - A walkable graph beats hoping you will remember the right filename.
@@ -47,4 +47,5 @@ cards:
     back: "The \"see also\" arrow on the adobo card did the work"
 draft: false
 ---
+
 

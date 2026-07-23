@@ -4,6 +4,7 @@ meta_title: "Network Analysis"
 description: "Look at which notes connect everything else - those hubs show where the garden actually lives."
 key_concept: |
   - Study links and hubs in a graph - who connects whom, what's isolated.
+  - Look at which notes link to many others and which sit alone with no connections.
   - Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded.
   - [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
   - Those hubs tell me where the garden actually lives.

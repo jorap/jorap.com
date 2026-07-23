@@ -6,7 +6,7 @@ key_concept: |
   {{< bible ref="John 14:15-17" emphasize="15" >}}
   
   - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
-  
+  - You obey God because you are already saved and grateful, not to buy your way into heaven.
   - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
   - [[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming.
   - [[Fruits of the Spirit]] is what shows up when the posture is real - love, patience, gentleness grown by the Spirit, not performed for credit.
@@ -98,5 +98,6 @@ cards:
     back: "Faith saves - cross shapes daily thanks."
 draft: false
 ---
+
 
 

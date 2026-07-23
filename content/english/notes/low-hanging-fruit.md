@@ -4,6 +4,7 @@ meta_title: "Low Hanging Fruit - Easy Wins Worth Picking First"
 description: "The easy win available now - grab it before climbing for the hard stuff."
 key_concept: |
   - Not every task deserves hero energy.
+  - Some jobs are small - do not spend all your energy on them like they are the biggest battle.
   - Fix the broken link, publish the half-done draft, delete the folder I have not opened in a year.
   - I use it when I am avoiding work by planning harder work.
 examples:

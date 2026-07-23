@@ -4,7 +4,8 @@ meta_title: "Ethical Leadership"
 description: "What gets let slide in front of the team becomes their real standard, not the poster."
 key_concept: |
   - Ethical leadership means what you let slide in front of the team becomes their real standard.
-  
+  - What you let slide in front of your team becomes what they think is okay, like copying what the boss ignores.
+
   - The standard you walk past is the standard you accept for everyone under you.
   - [[Integrity]] the team can see beats what you preach on the poster.
   - Silence in the room is a decision too - people read it as a yes.

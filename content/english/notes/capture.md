@@ -4,6 +4,7 @@ meta_title: "Capture - The First Step of Every Note System"
 description: "Saves what resonates into one trusted inbox, then empties weekly."
 key_concept: |
   - Friction kills capture when saving takes more than one quick move.
+  - If saving an idea takes many steps, most people stop - one quick move beats a perfect system.
   - One inbox from phone to desktop, weekly process - same as [[The Trusted Inbox]].
   - Skip it unless action or citation would follow later.
   - Resonance is the filter, not FOMO.

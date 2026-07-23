@@ -4,6 +4,7 @@ meta_title: "Intellectual Sourcing - Track Where Ideas Come From"
 description: "Cite sources in notes to trust synthesis and find the original later."
 key_concept: |
   - I cite sources so I can trust what I wrote and find the original six months later.
+  - Write down where an idea came from so you can find the book or article again and know you quoted it right.
   - Without a source line, I will not trust my own synthesis in conversation.
   - A cited note is one I can defend months out - uncited summaries feel like gossip.
 examples:

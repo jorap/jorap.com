@@ -4,6 +4,7 @@ meta_title: "Commonplace Book"
 description: "Before linked notes, quotes and ideas lived in one book worth reopening."
 key_concept: |
   - A quote bank worth reopening beats rereading whole books when you need one line in conversation.
+  - A small notebook of best lines beats reading whole books again when you only need one quote for talk.
   - Paper ancestor of linked notes - same job as capture, different century.
   - [[Literature Notes]] feed the bank; [[Layered Reading]] shortens sources before filing.
 examples:

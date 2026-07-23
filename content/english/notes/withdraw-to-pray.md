@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Mark 1:35" >}}
   
   - Crowds wanted more; He rose before dawn and prayed in a solitary place - withdrawal refueled the next push, not escape from duty.
+  - When crowds wanted more from Jesus, He woke early to pray alone - stepping away filled Him up for the work ahead, not to dodge it.
   - Same pattern in Luke 5:16 - He often slipped to lonely places to pray when demand stacked up.
   - [[Ask Seek Knock]] names the rhythm He taught; [[Secret Devotion]] names the hidden audience; this names the move before the inbox wins.
   - Under [[Free Grace]], slipping away is not earning favor - it is how a grateful follower copies the Teacher's dependence.

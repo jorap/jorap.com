@@ -6,7 +6,8 @@ key_concept: |
   {{< bible ref="Matthew 7:13-14" emphasize="14" >}}
   
   - Broad road is crowded and easy; narrow gate costs self-rule - few find it, but it is the one Jesus named.
-  
+  - The easy path is wide and crowded; the path Jesus points to is harder because you give up running your own life - fewer people take it.
+
   {{< bible ref="Matthew 7:21" label="Matthew 7:21-23" emphasize="21" >}}
   
   - Not everyone who says Lord Lord enters - false profession vs believer who stumbles and may lose reward but stays saved.

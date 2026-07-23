@@ -6,6 +6,7 @@ key_concept: |
   {{< bible "Matthew 5:9" >}}
   
   - Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.
+  - Making peace is hard work - fix what broke, tell the truth kindly, and calm things down when others want a fight.
   - The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
 examples:
   - "Two teammates were feuding in the locker room - I did not pick a side, I asked what it would take to fix it before the next game."

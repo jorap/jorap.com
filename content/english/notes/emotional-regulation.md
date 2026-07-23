@@ -4,7 +4,7 @@ meta_title: "Emotional Regulation - Feel It Without Being Ruled By It"
 description: "Feel the spike without letting it pick the next sentence."
 key_concept: |
   - Emotional regulation feels the spike without letting it pick the next sentence.
-  
+  - You feel the angry spike but pause before it picks your next words, like taking a breath before you hit send.
   - Feel the spike; do not mail it.
   - Regulation is not numbness - it is the gap between heat and the next sentence.
   - [[Slow the Moment]] buys that gap; [[Name the Feeling]] gives the spike a label before it picks tone.
@@ -61,5 +61,6 @@ cards:
     back: "Feel the spike, don't steer the team with it"
 draft: false
 ---
+
 
 

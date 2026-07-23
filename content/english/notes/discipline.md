@@ -4,7 +4,7 @@ meta_title: "Discipline - Doing What You Committed When Motivation Drops"
 description: "Do what was promised when nobody is clapping and motivation walked out."
 key_concept: |
   - Discipline is keeping the commitment when the feeling that started it is gone.
-  
+  - You keep your promise even when you do not feel like it anymore, like showing up for practice when you would rather stay home.
   - The applause was never reliable fuel - it shows up for the highlight, not the Tuesday rep.
   - Nobody claps for the version of you that just does the boring rep anyway.
   - Do what you said you would do when motivation walked out.
@@ -45,4 +45,5 @@ cards:
     back: "It's won on rainy Tuesday runs nobody films"
 draft: false
 ---
+
 

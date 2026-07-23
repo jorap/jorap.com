@@ -4,6 +4,7 @@ meta_title: "Behavioral Economics"
 description: "People choose what default and friction make easy, not what a neat lecture said they should pick."
 key_concept: |
   - People do not act on facts alone - defaults and friction steer choices more than lectures.
+  - People pick what is easy and already set up for them - the default choice shapes behavior more than a speech does.
   - [[Mental Models]] gives lenses; this field names why nudges beat sermons.
   - A well-designed default beats a well-argued lecture almost every time.
 examples:

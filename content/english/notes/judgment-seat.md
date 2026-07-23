@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 16:24-27" emphasize="27" >}}
   
   - The Son of Man repays deeds - reward review for the saved, not re-deciding who gets eternal life.
+  - Saved people will stand before Jesus to see what reward their good works earned - not to learn whether they get into heaven.
   - [[Free Grace]] and [[Justification]] already decided where I spend forever.
   
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
