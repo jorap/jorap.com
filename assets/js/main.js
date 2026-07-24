@@ -115,25 +115,12 @@
       });
     });
   });
-
-  const testimonialRoot = document.querySelector(".testimonial-slider");
-  if (testimonialRoot) {
-    new Swiper(".testimonial-slider", {
-      spaceBetween: 24,
-      loop: true,
-      pagination: {
-        el: ".testimonial-slider-pagination",
-        type: "bullets",
-        clickable: true,
-      },
-      breakpoints: {
-        768: {
-          slidesPerView: 2,
-        },
-        992: {
-          slidesPerView: 3,
-        },
-      },
-    });
-  }
 })();
+
+window.jorapEscapeHtml = function (str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+};

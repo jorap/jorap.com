@@ -2,6 +2,7 @@
 // Title matches rank above body-only matches.
 import {
   capitalizeFirstLetter,
+  escapeHtml,
   filterAndSortSearchResults,
   slugify,
 } from "./search-core.js";
@@ -47,12 +48,7 @@ const loadJsonData = async () => {
 };
 
 // escape HTML entities
-function escapeHTML(input) {
-  return input
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
-}
+const escapeHTML = escapeHtml;
 
 if (hasSearchWrapper) {
   // disable enter key on searchInput
@@ -154,30 +150,12 @@ if (hasSearchWrapper) {
       };
     });
 
-    let searchItem = filteredJSON.filter((item) => {
-      if (searchString === "") {
-        return false;
-      }
-      return item.data.some((el) => {
-        const regex = new RegExp(escapeRegex(searchString), "gi");
-        const bodyText = [
-          el.content,
-          el.keyConcept,
-          el.shareableThought,
-          el.relationships,
-        ]
-          .filter(Boolean)
-          .join(" ");
-        return (
-          el.title.toLowerCase().match(regex) ||
-          el.description?.toLowerCase().match(regex) ||
-          el.searchKeyword.toLowerCase().match(regex) ||
-          bodyText.toLowerCase().match(regex) ||
-          el.tags?.toLowerCase().match(regex) ||
-          el.categories?.toLowerCase().match(regex)
-        );
-      });
-    });
+    let searchItem = filteredJSON
+      .map((item) => ({
+        ...item,
+        data: filterAndSortSearchResults(item.data, searchString, searchOpts),
+      }))
+      .filter((item) => item.data.length > 0);
 
     displayResult(searchItem, searchString);
 

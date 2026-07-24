@@ -274,17 +274,8 @@
     renderCurrentCard();
   }
 
-  function escapeHtml(str) {
-    return String(str)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
-  }
-
-  function escapeAttr(str) {
-    return escapeHtml(str);
-  }
+  var escapeHtml = window.jorapEscapeHtml;
+  var escapeAttr = escapeHtml;
 
   var bindTap = window.jorapBindTouchClick || function (el, fn) {
     el.addEventListener("click", fn);

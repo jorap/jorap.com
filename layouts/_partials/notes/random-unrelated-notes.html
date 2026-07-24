@@ -61,7 +61,9 @@
     <script type="application/json" class="{{ $dataClass }}">{{ $payload | jsonify | safeJS }}</script>
   </div>
 
-  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-core.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-select.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-single.js" "defer" true) }}
       {{- if $isBlog -}}
     {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/wikilink-preview.js" "defer" true) }}
   {{- end -}}

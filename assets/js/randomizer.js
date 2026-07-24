@@ -59,13 +59,7 @@
     revealed: false,
   };
 
-  function escapeHtml(str) {
-    return String(str)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
-  }
+  var escapeHtml = window.jorapEscapeHtml;
 
   function collectionMode(col) {
     return col.mode || "ranked-prompts";

@@ -12,6 +12,14 @@ export function slugify(string) {
   return encodeURIComponent(string.trim().replace(/[\s_]+/g, "-").toLowerCase());
 }
 
+export function escapeHtml(input) {
+  return String(input)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
 export function capitalizeFirstLetter(string) {
   return string
     .replace(/^[\s_]+|[\s_]+$/g, "")
