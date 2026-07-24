@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import subprocess
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -240,7 +241,7 @@ def write_root_index(records: list[NoteRecord], out_dir: Path) -> None:
     (out_dir / "index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def export_bundle(out_dir: Path) -> tuple[int, int]:
+def export_bundle(out_dir: Path) -> tuple[int, int, dict[str, int]]:
     base_url = read_base_url()
     records, by_key = load_notes(base_url)
 
@@ -273,7 +274,33 @@ def export_bundle(out_dir: Path) -> tuple[int, int]:
         export_message="Generated OKF v0.1 bundle from the Hugo notes garden.",
     )
 
-    return concept_count, hub_count
+    viz_stats = generate_okf_viz(out_dir)
+    return concept_count, hub_count, viz_stats
+
+
+def generate_okf_viz(out_dir: Path) -> dict[str, int]:
+    script = ROOT / "scripts/okf-viz/generate.py"
+    out_path = out_dir / "viz.html"
+    proc = subprocess.run(
+        [sys.executable, str(script), str(out_dir), "-o", str(out_path)],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if proc.returncode != 0:
+        print(proc.stderr or proc.stdout, file=sys.stderr)
+        raise RuntimeError("OKF viz generation failed")
+    match = re.search(
+        r"Wrote (\d+) concept\(s\), (\d+) edge\(s\), (\d+) bytes",
+        proc.stdout,
+    )
+    if match:
+        return {
+            "concepts": int(match.group(1)),
+            "edges": int(match.group(2)),
+            "bytes": int(match.group(3)),
+        }
+    return {"concepts": 0, "edges": 0, "bytes": 0}
 
 
 def main() -> None:
@@ -301,14 +328,17 @@ def main() -> None:
         print(f"OKF bundle valid: {args.output}")
         return
 
-    concepts, hubs = export_bundle(args.output)
+    concepts, hubs, viz_stats = export_bundle(args.output)
     errors = validate_bundle(args.output)
     if errors:
         for err in errors:
             print(f"OKF validation error: {err}", file=sys.stderr)
         sys.exit(1)
 
-    print(f"Wrote OKF bundle to {args.output} ({concepts} concepts, {hubs} hubs)")
+    print(
+        f"Wrote OKF bundle to {args.output} ({concepts} concepts, {hubs} hubs, "
+        f"{viz_stats['edges']} graph edges → viz.html)"
+    )
 
 
 if __name__ == "__main__":

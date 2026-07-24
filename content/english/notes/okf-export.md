@@ -28,6 +28,8 @@ featured: false
 draft: false
 ---
 
+[Open Knowledge Format (OKF) graph](/exports/okf/viz.html) — visual network of the exported bundle.
+
 ## ChatGPT workflow
 
 Three lanes - all copy-paste friendly:
@@ -59,6 +61,7 @@ Each row maps to a site button plus a ChatGPT ask.
 
 ## Browse the bundle
 
+- [Open Knowledge Format (OKF) graph](/exports/okf/viz.html) - Cytoscape force layout, search, backlinks
 - [Bundle index](/exports/okf/index.md) - all concepts and hubs (`okf_version: "0.1"`)
 - [Update log](/exports/okf/log.md) - recent garden changes from git
 - [Example concept: Personal Knowledge Management (PKM)](/exports/okf/concepts/pkm.md)

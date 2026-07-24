@@ -34,7 +34,7 @@
         <div class="lg:col-12">
           {{ partial "notes/toolbar.html" (dict "Context" . "active" "graph") }}
 
-          <p class="text-ink-muted mb-4">Interactive map of wikilinks. Filter by link rank or hub notes; relationship types sit under Relationships. Toggle tag colors to see clusters.</p>
+          <p class="text-ink-muted mb-4">Interactive map of wikilinks. Filter by link rank or hub notes; relationship types sit under Relationships. Toggle tag colors to see clusters. Also see the <a class="text-accent no-underline hover:underline" href="{{ `/exports/okf/viz.html` | relURL }}">Open Knowledge Format (OKF) graph</a> — static export view of the same network.</p>
 
           <div class="notes-graph-panel notes-graph-panel--page" data-notes-graph>
             <script type="application/json" class="notes-graph-data">{{ $graph | jsonify | safeJS }}</script>
