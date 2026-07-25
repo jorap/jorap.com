@@ -59,7 +59,7 @@ draft: false
 
 - [[Outcomes Over Pitch Decks]] - judge ideas by what they produce, not charisma or credentials
 - [[Priorities Before the Inbox]] - put the real priority first before the inbox sets the agenda
-- [[Fail on Paper First]] - imagine the launch failed; patch while rollback is cheap
+- [[Fail on Paper First]] - imagine the launch failed; patch while [[Rollback Principle]] is cheap
 
 ## Leadership and craft
 
