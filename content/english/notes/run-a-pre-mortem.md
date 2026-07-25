@@ -1,0 +1,50 @@
+---
+title: "Fail on Paper First"
+meta_title: "Fail on Paper First - Imagine the Launch Failed"
+description: "Before you commit, imagine the launch failed - name why, then fix the plan while rollback is cheap."
+key_concept: |
+  - Fail on paper first is counting cost before the wall stops mid-air - failure on paper beats surprise in production.
+  - Level 1: Like asking what would make this birthday party flop before you send invites - cheaper to fix on the whiteboard than in tears Saturday.
+  - Level 2: The room assumes the project died - list causes, then patch the plan before anyone ships.
+  - Level 3: [[Count the Cost]] is Jesus' version for discipleship vows - same honesty before the public yes.
+  - Level 4: Pairs with [[Reversibility]] and [[Rollback Principle]] - failing on paper first asks what triggers the revert before users feel pain.
+  - Level 5: [[Decision Quality]] rises when cost and failure modes are visible before ego attaches to the launch.
+  - [[Risk Management]] without failing on paper first is optimism wearing a spreadsheet.
+examples:
+  - "Before the static site handoff we listed three ways the client would call angry - fixed DNS docs and scope line before go-live, not after."
+  - "Team assumed the tournament format failed - whiteboard showed scheduling was the killer; we moved pools before registration opened."
+shareable_thought:
+  - "Before you commit, imagine the launch failed - name why, then fix the plan while rollback is cheap."
+  - "Failure on paper beats surprise in production."
+  - "The room assumes the project died - list causes, then patch."
+  - "Failing on paper first asks what triggers the revert before users feel pain."
+relationships:
+  - type: contradicts
+    wikilink: "[[Ship It]]"
+    reason: "when ship-now beats fail-on-paper first"
+  - type: alternative
+    wikilink: "[[Count the Cost]]"
+    reason: "Faith lane names honest cost before vows"
+  - type: extends
+    wikilink: "[[Decision Quality]]"
+    reason: "Visible failure modes improve the call"
+  - type: extends
+    wikilink: "[[Reversibility]]"
+    reason: "Failing on paper first designs the undo before the commit"
+  - type: extends
+    wikilink: "[[Risk Management]]"
+    reason: "Named risks beat hoped-away risks"
+  - type: extends
+    wikilink: "[[Rollback Principle]]"
+    reason: "Know the revert trigger before deploy"
+slug: "run-a-pre-mortem"
+date: "2026-07-25 11:25:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Decision Making", "Risk Management", "Systems Thinking"]
+aliases: ["pre-mortem", "premortem", "run a pre-mortem"]
+featured: false
+review: false
+draft: false
+---

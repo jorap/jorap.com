@@ -53,6 +53,8 @@ Read `capture.md`, `rollback-principle.md`, `abide-in-me.md`, `the-golden-rule.m
 
 Faith lanes stay straight - no dry humor in gloss or commentary.
 
+**Doctrine:** gloss and examples in JoRap voice; theological claims grounded in Grace School of Theology free grace (faith alone for eternal life) - not generic evangelical improvisation.
+
 ---
 
 ## `examples` - one sentence, two different scenes

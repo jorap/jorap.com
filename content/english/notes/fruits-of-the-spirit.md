@@ -15,7 +15,7 @@ key_concept: |
   - [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine.
   - [[Sanctification]] is the slow becoming that fruit marks.
 examples:
-  - "I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from walking by the Spirit, not forcing virtue until Friday."
+  - "I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from [[Walk by the Spirit]], not forcing virtue until Friday."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abiding first, then the cluster grows."
 shareable_thought:
   - "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."

@@ -86,6 +86,8 @@ Wiki prose in `key_concept` can be tighter than cards, but still plain. Cards ar
 
 **Faith / EP lanes** - straight tone in commentary. No dry humor in verse glosses or faith `key_concept`.
 
+**Theological source (faith notes)** - JoRap voice for gloss and examples; **doctrine** from an experienced Grace School of Theology theologian. Faith-lane claims (justification, sanctification, assurance, rewards, eternal security, etc.) align with GSOT's free grace tradition - faith alone for eternal life; works for discipleship and rewards, not merit. Do not improvise theology or reach for generic evangelical stock phrases. When a claim is uncertain, check GSOT faculty resources (Grace Theology Press, GSOT curriculum) before drafting.
+
 ## `key_concept`
 
 ### Line 1: claim you'd argue
@@ -108,6 +110,8 @@ Not: "Sanctification is the process whereby believers undergo moral transformati
 ### Faith notes need a Bible verse
 
 Every faith note's `key_concept` includes scripture. EP spine notes follow the scripture block rules below; other faith notes still open with verse + gloss before the claim stack.
+
+Doctrinal claims after the verse must pass the **Theological source** check above - GSOT free grace, not agent improvisation.
 
 **Workplace lane** (`Workplace` tag, [[Workplace Principles]] hub): corporate-friendly - no `{{< bible >}}` shortcodes or verse citations in frontmatter. Gospel depth stays in wikilinked source notes.
 
@@ -247,6 +251,7 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - [ ] `key_concept` line 1 is a plain claim you'd argue - **no wikilinks**
 - [ ] `key_concept` has 2-4 tight sentences before the link stack runs long
 - [ ] Faith note includes a Bible verse in `key_concept` (skip when `Workplace` tag - workplace lane)
+- [ ] Faith note doctrine aligns with GSOT free grace (experienced Grace School of Theology theologian - not improvised)
 - [ ] EP scripture: `{{< bible >}}` shortcode, explanation bullet in JoRap voice, then claim stack
 - [ ] Two `examples`, one sentence each, scenes feel different
 - [ ] `shareable_thought` is exactly four complete thoughts, four different angles - no fragments

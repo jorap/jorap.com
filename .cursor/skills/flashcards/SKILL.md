@@ -234,6 +234,8 @@ Cards fire under pressure. Fancy words slow recall. Every word should land on fi
 
 **Gospel:** always `"Eternal Principles"` plus one: `Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`
 
+Gospel cards inherit doctrine from the parent note - [garden-voice](../garden-voice/SKILL.md) **Theological source** (Grace School of Theology free grace). Cards drill the move; they do not invent theology.
+
 ## Quality checklist
 
 Each card:

@@ -110,7 +110,7 @@ Hub: [[Prayer Jesus Taught]] - maps Jesus' prayer teaching across the Gospels (L
 
 ## Character and witness
 
-- [[Fruits of the Spirit]] - love through self-control; character the Spirit grows when I walk by the Spirit
+- [[Fruits of the Spirit]] - love through self-control; character the Spirit grows when I [[Walk by the Spirit]]
 - [[Discipleship]] - following Jesus after faith; learn, obey, pass it on - not salvation's price tag
 - [[Discipleship vs Leadership]] - two seats: follow Christ upward; own direction and care outward
 - [[Humility and Service]] - serve the team; wash feet, don't grasp status
